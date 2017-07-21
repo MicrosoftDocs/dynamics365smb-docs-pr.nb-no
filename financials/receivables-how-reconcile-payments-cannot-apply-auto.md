@@ -1,6 +1,6 @@
 ---
-title: Avstemme betalinger som ikke kan utlignes automatisk| Microsoft-dokumentasjon
-description: Avstemme betalinger som ikke kan utlignes automatisk
+title: "Bruke funksjonen Overfør differanse til konto til å avstemme betalinger | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du behandler betalinger som ikke kan utlignes mot et dokument, for eksempel når en valutakurs fører til at beløp blir forskjellige."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7b4c109ebda260ee86e2b955a17389b54493de65
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 37d2d8af5086a9f633cb90abb380578b4ca73136
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -30,16 +30,17 @@ Betalinger som ikke kan brukes, kan vises på linjer for betalingsavstemmingskla
 
 Hvis du vil avstemme slike betalinger, kan du velge Overfør differanse til konto-knappen, og deretter angir du hvilken konto beløpet i Differanse-feltet bokføres til når du bokfører betalingsavstemmingskladd.
 
-**Merk**: Det finnes lignende funksjonalitet for å konfigurere automatisk avstemming av regelmessige betalinger som ikke kan utlignes mot relaterte åpne kunde-, leverandør- eller bankkontoposter. Hvis du vil ha mer informasjon, kan du se [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+> [!NOTE]  
+>   Det finnes lignende funksjonalitet for å konfigurere automatisk avstemming av regelmessige betalinger som ikke kan utlignes mot relaterte åpne kunde-, leverandør- eller bankkontoposter. Hvis du vil ha mer informasjon, kan du se [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
 ## <a name="to-reconcile-payments-that-cannot-be-applied"></a>Avstemme betalinger som ikke kan utlignes
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Betalingsavstemmingskladder**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsavstemmingskladder**, og velg deretter den relaterte koblingen.
 2. Åpne en kladd for betalingsavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 3. Velg **Overfør differanse til konto**. Vinduet **Overfør differanse til konto** åpnes.
 4. I **Kontotype**-feltet angir du om kontotypen som betalingsbeløpet blir bokført til.
 5. I **Kontonummer** -feltet angir du kontotypen som betalingsbeløpet blir bokført til.
 6. I **Beskrivelse**-feltet angir du en tekst som beskriver denne direktebetalingsbokføringen. Som standard blir teksten i **Transaksjonstekst**-feltet på linjen for betalingsavstemmingskladd, satt inn.
-7. Velg **OK**-knappen.
+7. Velg **OK**.
 
 Hvis verdien i **Differanse**-feltet er lik verdien i **Transaksjonsbeløp**-feltet når du bokfører betalingsavstemmingskladden, bokføres hele betalingen på kladdelinjen direkte til den angitte motkontoen.
 

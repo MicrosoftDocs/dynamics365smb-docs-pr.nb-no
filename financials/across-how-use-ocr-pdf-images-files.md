@@ -1,6 +1,6 @@
 ---
-title: "Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter| Microsoft-dokumentasjon"
-description: "Beskriver hvordan du bruker OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter"
+title: "Bruke OCR til å gjøre PDF om til e-fakturaer | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du kan bruke en OCR-tjeneste til å konvertere inngående PDF-filer til elektroniske dokumenter i Financials."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7be94659e8f00021446314acf6558ae01b158971
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 Trafikken av filer til og fra OCR-tjenesten behandles av en dedikerte jobbkøpost, som opprettes automatisk når du aktiverer den relaterte tjenestetilkoblingen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Sende en PDF- eller bildefil til OCR-tjenesten fra vinduet **Inngående dokumenter**
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Innkommende dokumenter**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
 2. Opprett en ny innkommende dokumentpost, og legg ved filen. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).  
 3. I vinduet **Innkommende** dokumenter velger du én eller flere linjer, og deretter velger du handlingen **Send til jobbkø**.
 
@@ -45,23 +45,25 @@ Fra e-postprogrammet kan du sende en e-post til leverandøren av OCR-tjenesten m
 
 Fordi det ikke finnes noen inngående dokumentoppføring for filen, opprettes en ny post automatisk i vinduet **Inngående dokumenter** når du mottar det resulterende elektroniske dokumentet fra OCR-tjenesten. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
 
-**Merk**: Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se avsnittet "Opprette innkommende dokumentposter ved å ta et bilde" i [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
+> [!NOTE]  
+>   Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se avsnittet "Opprette innkommende dokumentposter ved å ta et bilde" i [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Slik mottar du det resulterende elektroniske dokumentet fra OCR-tjenesten:
 Det elektroniske dokumentet som opprettes av OCR-tjenesten fra PDF- eller bildefilen, mottas automatisk inn i vinduet **Inngående dokumenter** via jobbkøposten som settes opp når du aktiverer OCR-tjenesten.
 
 Hvis du ikke bruker en jobbkø, eller hvis du vil motta et ferdig OCR-dokument raskere enn per jobbkøplanen, kan du velge **Motta fra OCR-tjeneste**-knappen. Dette vil hente alle dokumenter som er fullført av OCR-tjenesten.
 
-**Merk**: Hvis OCR-tjenesten er konfigurert til å kreve manuell godkjenning av behandlede dokumenter, vil **OCR-status**-feltet inneholde **Venter på bekreftelse**. I så fall gjør du følgende for å logge deg på webområdet til OCR-tjenesten og bekrefte et OCR-dokument manuelt.
+> [!NOTE]  
+>   Hvis OCR-tjenesten er konfigurert til å kreve manuell godkjenning av behandlede dokumenter, vil feltet **OCR-status** inneholde **Venter på bekreftelse**. I så fall gjør du følgende for å logge deg på webområdet til OCR-tjenesten og bekrefte et OCR-dokument manuelt.
 
 1. I **OCR-status**-feltet velger du hyperkoblingen **Venter på bekreftelse**. Eller velg flisen **Venter på bekreftelse** på Hjem-siden.
-2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, se delen "Slik definerer du en OCR-tjeneste" i [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
+2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, kan du se delen "Slik definerer du en OCR-tjeneste" i [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
     Hvis du åpner webområdet fra **OCR-status**-feltet, vises det aktuelle dokumentet umiddelbart etter påloggingen. Hvis du åpner webområdet ved å velge flisen på hjemmesiden, på den første OCR-siden som åpnes, må du velge **Start**-knappen på **Bekreft**-fanen eller dobbeltklikke dokumentet som du vil bekrefte.
 
     Informasjon for OCR-dokumentet vises, med både kildeinnholdet i PDF-filen eller bildefilen og de resulterende OCR-feltverdiene.
 3. Gå gjennom de ulike feltverdiene og rediger manuelt eller angi verdier i felt som OCR-tjenesten har merket som usikre.
-4. Velg **OK**-knappen. OCR-prosessen er fullført, og det resulterende elektroniske dokumentet sendes til **Inngående dokumenter**-vinduet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i henhold til jobbkøplanen.
+4. Velg **OK**. OCR-prosessen er fullført, og det resulterende elektroniske dokumentet sendes til **Inngående dokumenter**-vinduet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i henhold til jobbkøplanen.
 
     Hvis du åpner webområdet ved å velge flisen på hjemmesiden, vises automatisk andre OCR-dokumenter som skal bekreftes, på webområdet.
 5. Gjenta trinn 4 for andre OCR-dokumenter som skal bekreftes.
@@ -71,7 +73,8 @@ Nå kan du fortsette å opprette dokumentposter for de elektroniske dokumentene 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Slik oppretter du en kjøpsfaktura fra et elektronisk dokument som er mottatt fra OCR-tjenesten:
 Følgende fremgangsmåte beskriver hvordan du oppretter en post for kjøpsfaktura fra en leverandørfaktura mottatt som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåten er den samme når du oppretter for eksempel en finanskladdelinje fra en utgiftskvittering.
 
-**Merk**: Feltet **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette enten som varekryssreferanser, for dokumentlinjer av typen Vare, eller som tekst-til-konto-tilordninger, for bilag eller kladdelinjer av typen Finanskonto. Hvis du vil ha mer informasjon, kan du se verktøytipset for **Kryssreferanser**-handlingen på varekortene og den relaterte fremgangsmåten [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+> [!NOTE]  
+>   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette enten som varekryssreferanser, for dokumentlinjer av typen Vare, eller som tekst-til-konto-tilordninger, for bilag eller kladdelinjer av typen Finanskonto. Hvis du vil ha mer informasjon, kan du se verktøytipset for **Kryssreferanser**-handlingen på varekortene og den relaterte fremgangsmåten [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
 For innkommende dokumenter bruker du vanligvis handlingen **Tilordne tekst til konto** for å definere at en bestemt tekst på en leverandørfaktura som er mottatt fra OCR-tjenesten, tilordnes til en bestemt leverandørkonto. Deler av beskrivelsen av det innkommende dokumentet som finnes som tilordningstekst, betyr at **Nr.**-feltet på det resulterende bilaget eller kladdelinjene av typen Finanskonto, fylles deretter ut med den aktuelle leverandøren.
 
@@ -100,7 +103,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 
 Vinduet **OCR-datakorrigering**, som du åpner fra vinduet **Inngående dokumenter**, viser feltene fra hurtigfanen **Økonomisk informasjon** i to kolonner, én med OCR-data du kan redigere, og én med skrivebeskyttede OCR-data. Når du velger **Send OCR-tilbakemelding**, sendes innholdet i vinduet **OCR-datakorrigering** til OCR-tjenesten. Neste gang tjenesten behandler PDF-filer eller bildefiler som inneholder de aktuelle dataene, blir korrigeringene dine tatt med for å unngå de samme feilene.
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Innkommende dokumenter**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
 2. Åpne en innkommende dokumentpost som inneholder data som mottas fra OCR-tjenesten som du vil korrigere.
 3. I vinduet **Inngående dokument** velger du handlingen **Korriger OCR-Data**.
 4. I vinduet **OCR-datakorrigering** overskriver du dataene i den redigerbare kolonnen for hvert felt som har feil verdi.

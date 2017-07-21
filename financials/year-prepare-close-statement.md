@@ -1,6 +1,6 @@
 ---
-title: Forberede avslutningsoppgaver| Microsoft-dokumentasjon
-description: "Gir en oversikt over rapporter som kan være nyttig når du avslutter året."
+title: "Oversikt over rapporter for å klargjøre avslutningsoppgaver | Microsoft-dokumentasjon"
+description: "Gir en oversikt over rapporter du kan bruke til å innhente informasjonen for å klargjøre selskapets avslutningsoppgaver når regnskapsåret er over."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2979ac7aa3013b3c7ee70a557db0cc581d546624
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,11 +33,12 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Sammenligne råbalansen med et budsjett. |Råbalanse/Budsjett |
 | Skrive ut en råbalanserapport med saldi og bevegelser for finanskonti, beregnet for en rekke perioder. |Råbalanse etter periode |
 | Skrive ut et kontoskjema for å analysere tall på finanskonti eller sammenligne faktiske finansposter med finansbudsjettposter. |Kontoskjema |
-| Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde-  og levrd. konti |
+| Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde- og levrd. konti |
 
-Hvis du vil se en rapport, i øvre høyre hjørne velger du ikonet **Søk etter side eller rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), skriv navnet slik det vises i tabellen, og velg deretter den beslektede koblingen.
+Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
-[Avslutt år og perioder](year-close-years-periods.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Avslutte år og perioder](year-close-years-periods.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Forretningsintelligens](bi.md)
 

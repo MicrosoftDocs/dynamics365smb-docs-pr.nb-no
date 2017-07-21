@@ -1,6 +1,6 @@
 ---
-title: Opprette og administrere kontakter | Microsoft-dokumentasjon
-description: Beskriver hvordan du oppretter og administrerer kontaktene i Financials.
+title: Opprette og administrere firmakontakter | Microsoft-dokumentasjon
+description: "Du kan definere alle de eksterne enhetene du har et forretningsforhold til (for eksempel prospekter, kunder, leverandører og konsulenter), som kontakter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4042cf76b6be433ad0a9934d0d1651d1df7ee433
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 | Hvis du vil | Se |
 | --- | --- |
-| Definer kontaktadministrasjon før du legger til kontakter. |[Klargjøre for konfigurasjon av kontakter](marketing-setup-contacts.md) |
+| Definer kontaktadministrasjon før du legger til kontakter. |[Klargjøring til konfigurasjon av kontakter](marketing-setup-contacts.md) |
 | Opprette et kontaktkort for hvert selskap du samhandler med, for eksempel en kunde eller leverandør. |[Opprette kontaktselskaper](marketing-create-contact-companies.md) |
 | Opprette et kontaktkort for hver kontaktperson som arbeider for selskapene du samhandler med. |[Opprette kontaktpersoner](marketing-create-contact-persons.md) |
 

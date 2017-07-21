@@ -1,6 +1,6 @@
 ---
 title: Rapportering av 1099-transaksjoner i USA | Microsoft-dokumentasjon
-description: "På kjøpsdokumentene kan du angi at dokumentet er 1099-pliktig, og du kan angi 1099-koden for leverandøren."
+description: "IRS krever skjemaet 1099-avgiftsskjemaet for betalinger til leverandører, og du kan angi at et kjøpsdokument er 1099-pliktig, og angi 1099-koden for leverandøren."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,15 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a0a31c28b6c96dc80593ac3862b97b36c3ec81c7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c20c52927aa979e56aeef7975fbcee1564ca4dd7
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="reporting-1099-transactions-in-the-us"></a>Rapportering av 1099-transaksjoner i USA.
+# <a name="reporting-transactions-as-1099-liable-in-the-us"></a>Rapportere transaksjoner som 1099-pliktige i USA
+
 IRS (Internal Revenue Service) krever én eller flere versjoner av 1099-avgiftsskjemaet for betalinger til leverandører. Kopier av disse skjemaene må sendes til leverandører årlig på eller før den siste dagen i januar. På kjøpsdokumentene kan du angi at dokumentet er 1099-pliktig, og du kan angi 1099-koden for leverandøren.  
 
 ## <a name="1099-codes"></a>1099-koder

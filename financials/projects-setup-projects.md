@@ -1,6 +1,6 @@
 ---
-title: Konfigurere prosjektstyring| Microsoft-dokumentasjon
-description: "Beskriver hvordan du konfigurerer ressurser, timelister og jobber til å administrere prosjekter."
+title: Definere ressurser, timelister og prosjekter | Microsoft-dokumentasjon
+description: "Gir en oversikt over hvordan du konfigurerer ressurser, timelister og jobber for å administrere prosjekter."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1141df5600062da2dd4278668a1594efc4899d8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a01f90d93c12cf429264f525df3a7e42e01d7e33
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

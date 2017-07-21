@@ -1,6 +1,6 @@
 ---
-title: "Ceridian lønn| Microsoft-dokumentasjon"
-description: "Gir informasjon om Ceridian lønn-utvidelsen"
+title: "Importere lønnsdata ved hjelp av Ceridian lønn-utvidelsen | Microsoft-dokumentasjon"
+description: "Bruk denne utvidelsen til å importere lønnstransaksjoner fra tjenestene Ceridian HR/Payroll (USA) og Ceridian PowerPay (Canada)."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b3e5786788f9d5bc88ac6d6b170ebe8a6f03d89e
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 18b1dcd66b6816adc9fcb8b86d4f55834f51fd02
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Hvis du vil gjøre dette, importerer du først filen som du mottar fra lønnssys
 Ceridian lønn-utvidselen lar deg importere lønnstransaksjoner fra Ceridian HR/Payroll (US) og Ceridian PowerPay (Canada).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av tillegg ](ui-extensions.md)    
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)    
 [Finans](finance.md)    
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

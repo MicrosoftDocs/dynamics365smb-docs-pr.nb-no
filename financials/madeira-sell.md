@@ -1,6 +1,6 @@
 ---
-title: Bli en forhandler av Dynamics 365 for Financials| Microsoft-dokumentasjon
-description: Bli en forhandler av Dynamics 365 for Financials
+title: Selge Dynamics 365 for Financials | Microsoft-dokumentasjon
+description: Finn ut hvordan du kan utvide forretningsmulighetene og bli en Microsoft-partnere og Dynamics 365 for Financials-forhandler.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6c6cc735037e7acce48e46893ec27359333f8177
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,6 +34,6 @@ Hvis du er interessert i å lære mer om hvordan du blir en [!INCLUDE[d365fin](i
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Overfør forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
 

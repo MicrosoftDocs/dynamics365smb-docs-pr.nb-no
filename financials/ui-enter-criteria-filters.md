@@ -1,6 +1,6 @@
 ---
-title: "Angi vilkår i filtre | Microsoft-dokumentasjon"
-description: "Lær hvordan filtre fungerer i Financials."
+title: "Definere søkekriterier i filtre | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du arbeider med filtre, for eksempel hurtigfilter, for å begrense resultatene du får når du søker etter data."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: delimit, FlowFilter
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1a94e2ead59a40081920a0b11ed545a895d89910
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86ca45493081d9dbd229548f7c560e1df4e1c7c3
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,8 @@ Når du vil søke etter data, for eksempel kundenavn, adresser eller produktgrup
 ## <a name="searching-using-the-quick-filter"></a>Søke ved hjelp av hurtigfilteret
 Du kan legge til filtre på alle sider ved hjelp av hurtigfilteret. Hurtigfilteret aktiveres ved å velge forstørrelsesikonet i øvre høyre hjørne på siden. Denne filtreringstypen brukes for rask angivelse av kriterier.
 
-**Viktig**: Hurtigfilteret gjør det enkelt å filtrere data ved å skrive inn ren tekst, men gir også mange alternativer når det gjelder søkekriterier. Virkemåten for hurtigfilteret er avhengig av om du skriver inn ren tekst eller tekst som inneholder symboler.  
+> [!IMPORTANT]  
+>   Hurtigfilteret gjør det enkelt å filtrere data ved å skrive inn ren tekst, men gir også mange alternativer når det gjelder søkekriterier. Virkemåten for hurtigfilteret er avhengig av om du skriver inn ren tekst eller tekst som inneholder symboler.  
 
 * Hvis du skriver inn ren tekst i søkevilkåret, tolkes søkekriteriene som et søk som ikke skiller mellom store og små bokstaver og som inneholder en bestemt tekst.  
 * Hvis du skriver inn tekst med symboler i søkekriteriene, tolkes søkekriteriene nøyaktig slik du skrev det inn, og søket skiller mellom store og små bokstaver.
@@ -71,7 +72,8 @@ Du kan legge til filtre på alle sider ved hjelp av hurtigfilteret. Hurtigfilter
   </TR>
 </TABLE>
 
-**Merk**: Du kan ikke bruke et jokertegn når du filtrerer på felt for opplisting, for eksempel feltet **Status** i salgsordrer. Hvis du vil angi et filter for denne typen felt, kan du angi den numeriske verdien som en parameter for filtrering. I feltet **Status** på en ordre som har verdiene **Åpen**, **Frigitt**, **Venter på godkjenning** og **Venter på forskudd**, må du bruke verdiene **0**, **1**, **2** og **3** for å filtrere etter disse alternativene.  
+> [!NOTE]  
+>   Du kan ikke bruke et jokertegn når du filtrerer på felt for opplisting, for eksempel feltet **Status** i ordrer. Hvis du vil angi et filter for denne typen felt, kan du angi den numeriske verdien som en parameter for filtrering. I feltet **Status** på en ordre som har verdiene **Åpen**, **Frigitt**, **Venter på godkjenning** og **Venter på forskudd**, må du bruke verdiene **0**, **1**, **2** og **3** for å filtrere etter disse alternativene.  
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

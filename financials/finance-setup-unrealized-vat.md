@@ -13,10 +13,10 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f87da12abcd2fd513a1579dd9362159687baaab8
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Hvis du bruker metoder for kontantbasert regnskap, kan du definere [!INCLUDE[d36
 Du kan beregne og bokføre mva-beløp til en midlertidig finanskonto når fakturaen bokføres, og deretter bokføre den til den riktige finanskontoen og inkludere den i mva-oppgaver når den faktiske betalingen av fakturaen bokføres. Før du kan gjøre dette, må du fullføre mva.-bokføringsoppsettet.
 
 Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), og angir **Finansoppsett**. 
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), og angi **Finansoppsett**. 
 2. På siden **Finansoppsett** på hurtigfanen **Generelt** velger du **Vis mer** og merker deretter av for **Urealisert MVA**.
 3. Lukk siden.
 4. Velg ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), og angir **Mva-bokføringsoppsett**. 
@@ -46,10 +46,12 @@ Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
 
 6. I feltet **Konto for ureal. utgående mva.** velger du kontoen for urealisert utgående mva.
 
-    **Merk**: Mva-beløpet bokføres på denne kontoen, der det blir værende til kundens betaling er bokført. Beløpet overføres deretter til finanskontoen for utgående mva.
+    > [!NOTE]  
+>   Mva-beløpet bokføres på denne kontoen, der det blir værende til kundens betaling er bokført. Beløpet overføres deretter til finanskontoen for utgående mva.
 7. I feltet **Konto for ureal. inngående mva.** angir du finanskontoen for urealisert inngående mva.
 
-    **Merk**: Mva-beløpet bokføres på denne kontoen, der det blir værende til kundens betaling er bokført. Beløpet overføres deretter til finanskontoen for utgående mva.
+    > [!NOTE]  
+>   Mva-beløpet bokføres på denne kontoen, der det blir værende til kundens betaling er bokført. Beløpet overføres deretter til finanskontoen for utgående mva.
 
 ## <a name="see-also"></a>Se også
 [Definere merverdiavgift](finance-setup-vat.md)

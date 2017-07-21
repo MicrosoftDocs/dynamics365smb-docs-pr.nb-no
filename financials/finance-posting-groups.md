@@ -1,6 +1,6 @@
 ---
-title: "Oppsett av bokføringsgrupper| Microsoft-dokumentasjon"
-description: "Gir en oversikt over bokføringsgrupper"
+title: "Konfigurasjon av bokføringsgruppe | Microsoft-dokumentasjon"
+description: "Oversikt over bokføringsgrupper du kan bruke for å spare tid og unngå feil når du bokfører transaksjoner."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,18 +10,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 79018546484ff3bb8965089a3554d69bec219304
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="posting-group-setups"></a>Oppsett av bokføringsgrupper
-Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, se [Definere kontoplanen](finance-setup-chart-accounts.md).  
+# <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
+Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
 
 Bokføringsgruppene er dekket av tre paraplyer:  
 
@@ -35,7 +35,7 @@ De følgende tabellene beskriver bokføringsgruppene under hver paraply.
 | --- | --- |
 | Bokføringsgruppe - firma |Tilordne denne gruppen til kunder og leverandører for å angi hvem du selger til, og som du kjøper fra. Definer disse i vinduet **Bokføringsgrupper - firma**. Når du gjør, Tenk om hvor mange grupper du trenger å bryte ned kjøp og salg. Hvis du for eksempel gruppere kunder og leverandører etter geografisk område, eller ved type virksomhet. |
 | Bokføringsgruppe - vare |Tilordne denne gruppen til varer og ressurser til å angi hva du selger, og hva du kjøper. Definer disse i vinduet **Bokføringsgrupper - vare**. Når du gjør, bør du vurdere hvor mange grupper du trenger til å bryte ned salg etter produkt (varer og ressurser) og kjøp av varer. Hvis du for eksempel del disse gruppene av råvarer, detaljhandel, ressurser, kapasitet og så videre. |
-| Generelle bokføringsoppsett |Kombinere firma- og varebokføringsgrupper, og velg kontoene som skal posteres til. For hver kombinasjon av bokføringsgrupper for firma og vare kan du tilordne et sett med finanskontoer. Du kan eksempel bokføre salget av samme vare til ulike salgskonti i Finans fordi kunder er tilordnet til ulike bokføringsgrupper for firma. Definer disse i vinduet **Generelt bokføringsoppsett**. |
+| Generelle bokføringsoppsett |Kombiner firma- og varebokføringsgrupper, og velg kontoene det skal posteres til. For hver kombinasjon av bokføringsgrupper for firma og vare kan du tilordne et sett med finanskontoer. Du kan eksempel bokføre salget av samme vare til ulike salgskonti i Finans fordi kunder er tilordnet til ulike bokføringsgrupper for firma. Definer disse i vinduet **Generelt bokføringsoppsett**. |
 
 | Bestemte bokføringsgrupper | Beskrivelse |
 | --- | --- |
@@ -77,7 +77,7 @@ Oppsettet bestemmer når postering skjer. Hvis du for eksempel berørt tidsbereg
 Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se i vinduet Generelt bokføringsoppsett. Dette kan innebære mye dataregistrering for å definere det generelle bokføringsoppsettet for firmaet. Selv om det kan være mange ulike kombinasjoner av bokføringsgrupper for firma og vare, kan de ulike kombinasjonene likevel bokføre til de samme finanskontoene. Du kan begrense mengden manuell registrering ved kopiere finanskontoene fra en eksisterende linje i vinduet **Generelt bokføringsoppsett**.
 
 ## <a name="see-also"></a>Se også 
-[Økonomimodulen og kontoplanen](finance-general-ledger.md)  
+[Finans og kontoplanen](finance-general-ledger.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

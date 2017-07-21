@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 04/27/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0e3d1a290a541cdf9289bd607b70abc21f9c8120
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 1a7fbf443c6fb3f9276e3f6a5d3ea196b7fb2cb7
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,16 +33,17 @@ For noen rask og praktisk å vite triks, kan du se:
 * [Angi filtre](ui-enter-criteria-filters.md)  
 * [Sortere data i lister](ui-sorting.md)  
 
-Hvis du vil ha mer informasjon, se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
+Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
 Når du er klar til å gjøre noe tyngre løft, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](madeira-business-functionality.md). For en oversikt over gjeldende funksjoner, og hva kommer, kan du ta en titt på vår veikart på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Hjemmesidene
 Hjemmesider bruker en rollesentrert design for å gi rask tilgang til forretningsprosessen og intelligensverktøyene du trenger for å gjøre jobben din. En regnskapsfører kan for eksempel overvåke betalinger og godkjenninger, og vise finansytelsesdiagrammer. Sjekk de forskjellige hjemmesidene ved å velge **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter") i øvre høyre hjørne, velge **Mine innstillinger** og deretter rollesenteret som skal utforskes. Logg deg på på nytt for å aktivere endringen. Hvis du vil ha mer informasjon, kan du se [Endre rollesenter](change-role.md).  
 
-Hver hjemmeside inneholder en **Oppsett og utvidelser**-knapp. Her har du tilgang til en liste over assistert oppsett som kan hjelpe deg med å komme i gang ved å definere utvalgte områder raskt. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Hver hjemmeside inneholder en **Oppsett og utvidelser**-knapp. Her har du tilgang til en liste over assistert oppsett som kan hjelpe deg med å komme i gang ved å definere utvalgte områder raskt. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
-**Merk:** Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Basic**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Basic-opplevelsen. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).  
+> [!NOTE]  
+>   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Basic**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).  
 
 I vinduet **Assistert oppsett** finner du følgende sammen med **Suite**-opplevelsen:
 
@@ -74,9 +75,9 @@ Hver gang du logger på under prøveperioden, viser en melding i en blå linje p
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av tillegg] (ui-extensions.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](madeira-outlook.md)  
-[Skaffe deg [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](madeira-outlook.md)  
+[Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
 [Dokumentasjon for Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
 [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=828707)  

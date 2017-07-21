@@ -1,6 +1,6 @@
 ---
-title: "Forberede forhåndslukking av rapporter| Microsoft-dokumentasjon"
-description: "Gir en oversikt over rapporter som kan være nyttig når du avslutter året."
+title: "Oversikt over forhåndslukking av rapporter for å bekrefte kontonøyaktighet | Microsoft-dokumentasjon"
+description: "Gir en oversikt over rapportene du kan bruke til å bekrefte nøyaktigheten av kontiene før du lukker tablåene ved utgangen av et år eller en periode."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3673b32320f2fc2b092afff7d0e8ba2c48edb0f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-pre-closing-reports"></a>Forberede forhåndslukking av rapporter
+# <a name="using-pre-closing-reports"></a>Bruke forhåndslukking av rapporter
 Det finnes mange standardrapporter du kan bruke til å bekrefte nøyaktigheten av kontiene før du lukker tablåene ved utgangen av et år eller en periode. Du kan for eksempel bruke rapporten **Kunde – saldoliste** til å bekrefte at saldoen for en bokføringsgruppe for kunde er lik saldoen på den tilsvarende finanskontoen på en bestemt dato.
 
 Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne prosessen.
@@ -36,10 +36,10 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Skrive ut en råbalanserapport med saldi og bevegelser for finanskonti. |Råbalanse |
 | Skrive ut en råbalanse for et konsolidert selskap. |Konsolidert råbalanse |
 
-Hvis du vil se en rapport, i øvre høyre hjørne velger du ikonet **Søk etter side eller rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), skriv navnet slik det vises i tabellen, og velg deretter den beslektede koblingen.
+Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
-[Avslutt år og perioder](year-close-years-periods.md)  
+[Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 

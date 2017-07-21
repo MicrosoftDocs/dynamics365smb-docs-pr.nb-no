@@ -1,6 +1,6 @@
 ---
-title: Registrere nye varer| Microsoft-dokumentasjon
-description: Opprett kort for nye fysiske produkter som selges fra beholdningen i for eksempel stykker, eller for tjenester som selges i timer.
+title: Opprette varekort for varer eller tjenester | Microsoft-dokumentasjon
+description: "Du kan opprette varekort for tjenester du selger som timer, og for fysiske produkter, for eksempel monteringsvarer, ferdigvarer, komponenter eller råvarer, du selger fra lageret."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,18 +9,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 582e006291e51e19d80304d24ae055ce6ac8d698
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-register-new-items"></a>Registrere nye varer
-Varer, blant andre produkter, er grunnlaget for virksomheten din, varer eller tjenester som du handler med. Hver vare må være registrert som et varekort.
+Varer, blant andre produkter, er grunnlaget for virksomheten din, varene eller tjenestene du handler med. Hver vare må være registrert som et varekort.
 
 Varekort inneholder informasjonen som er nødvendig for å kjøpe, lagre, selge, levere og gjøre rede for varer.
 
@@ -28,7 +28,8 @@ Varekortet kan være av typen **Beholdning** eller **Tjeneste** for å angi om v
 
 En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)]er en stykkliste referert til som en monteringsstykkliste. Du kan bruke monteringsstykklister til å strukturere overordnede varer som selges som sett som består av komponenter for den overordnede varen, eller som du monterer til bestilling eller lager. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
 
-**Merk**: Hvis det finnes varemaler for ulike varetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
+> [!NOTE]  
+>   Hvis det finnes varemaler for ulike varetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
 1. På Hjem-siden velger du handlingen **Varer** for å åpne listen over eksisterende varer.  
@@ -36,7 +37,7 @@ En vare kan struktureres som en overordnet vare med underliggende underordnede v
 
     Hvis det bare finnes én varemal, åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
 3. I vinduet **Velg en mal for en ny vare** velger du malen som du vil bruke for det nye varekortet.
-4. Velg **OK**-knappen. Det åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
+4. Velg **OK**. Det åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
 5. Fortsette med å fylle ut eller endre feltet på varekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 I hurtigfanen **Pris og bokføring** kan du vise spesialpriser eller rabatter som skal gis for varen hvis bestemte kriterier oppfylles, for eksempel kunde, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).

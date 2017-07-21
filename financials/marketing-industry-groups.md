@@ -1,6 +1,6 @@
 ---
 title: Definere bransjegrupper for kontaktselskaper | Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker bransjegrupper med kontaktene i Financials.
+description: Beskriver hvordan du definerer en bransjegruppe og tilordner den til et kontaktselskap, for eksempel detaljistbransjen eller bilbransjen.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,27 +10,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 34b81ec1e92eea67af13c7a2dfe03bdb97c8c59c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7fef570e7e56e348a25ae660fa9248b529d0bfde
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-industry-groups-for-contact-companies"></a>Definere bransjegrupper for kontaktselskaper
+# <a name="how-to-set-up-industry-groups-for-contact-companies"></a>Definere bransjegrupper for kontaktselskaper
 Du bruker bransjegrupper for å angi hvilken bransje kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen.
 
 Bruk av bransjegrupper på kontakter er en totrinnsprosess. Først må definere du koden for bransjegruppen. Du trenger bare utføre dette trinnet én gang for hver bransjegruppe. Når du har en kode for bransjegruppe, kan du begynne å tilordne koden til kontaktselskaper.
 
-**Merk**: Hvis du vil synkronisere kontaktene med leverandører, kunder eller bankkonti i andre deler av applikasjonen, bør du definere en forretningsforbindelse for disse.
+> [!NOTE]  
+>   Hvis du planlegger å synkronisere kontaktene med leverandører, kunder eller bankkonti i andre deler av programmet, bør du definere en forretningsforbindelse for disse.
 
 ## <a name="to-define-an-industry-group-code"></a>Definere en kode for bransjegruppe
 Koden for bransjegruppen definerer typen eller kategorien for gruppen, for eksempel REKLAME for reklame, eller PRESSE, for TV og radio. Du kan ha flere koder for bransjegruppe. Hvis du vil definere bransjegrupper, bruker du vinduet **Bransjegrupper**.
 
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Bransjegrupper**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bransjegrupper**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
 ## <a name="AssignIndustryGroupContact"></a> Tilordne bransjegrupper til en kontakt

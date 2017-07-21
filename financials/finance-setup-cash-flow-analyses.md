@@ -1,6 +1,6 @@
 ---
-title: "Sette opp kontantstrømanalyse| Microsoft-dokumentasjon"
-description: "Beskriver hvordan du setter opp kontantsyklus, inntekter og utgifter, kontantstrøm og kontantstrømprognose diagrammene til å analysere tidligere og fremtidige flytting av kontantstrøm inn og ut av firmaet."
+title: "Definere kontantstrømanalyse| Microsoft-dokumentasjon"
+description: "Du definerer diagrammer i rollesenteret for regnskapsfører for å bidra til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e07f32dcc3a50e07c5dea48600f7e3dbcd6088a9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-cash-flow-analysis"></a>Sette opp kontantstrømanalyse
+# <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
 
 * **Kontantsyklus**  
@@ -61,7 +61,8 @@ Diagrammet **Kontantstrømprognose** inneholder kontoer for kontantstrøm, konta
 
 Kontantstrømprognoser kan bruke Cortana Intelligence for å inkludere dokumenter med en forfallsdato i fremtiden. Resultatet er en mer omfattende forutsigelse. Tilkoblingen til Cortana Intelligence er allerede satt opp for deg. Du trenger bare å aktivere den. Når du logger deg på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en melding vises i en blå linje, og inneholder en kobling til kontantstrøm standardoppsettet. Varslingen viser bare én gang. Hvis du lukker den, men bestemmer deg for å aktivere Cortana Intelligence, kan du bruke assistert installasjonsveiledningen eller en manuell prosess.  
 
-**Merk:** Du kan også bruke din egen webtjeneste forutsett. Hvis du vil ha mer informasjon, se [Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser](#AnchorText).  
+> [!NOTE]  
+>   Du kan også bruke din egen prediktive webtjeneste. Hvis du vil ha mer informasjon, kan du se [Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser](#AnchorText).  
 
 Slik bruker du den assisterte oppsettsveiledningen:  
 
@@ -75,7 +76,8 @@ Slik bruker du en manuell prosess:
 2. Utvid den **Cortana Intelligence** hurtigfanen, og velg deretter den **Cortana Intelligence aktivert** merket.  
 3. På hjemmesiden, kan du velge **Kontantstrømprognose** over diagrammet og deretter **Beregn prognose på nytt**.  
 
-**Tips:** Ta hensyn til lengden på periodene som tjenesten vil bruke i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
+> [!TIP]  
+>   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
 
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
 Du kan også opprette dine egne forutsett webtjenesten basert på en felles modell som heter **Forecasting Model for Microsoft Dynamics-365 for Financials**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
@@ -85,7 +87,7 @@ Du kan også opprette dine egne forutsett webtjenesten basert på en felles mode
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Kontantstrømoppsett**, og deretter velger du den beslektede koblingen.  
+6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
 7. Vis hurtigfanen **Cortana Intelligence**, og fyll deretter ut feltene.  
 
 ## <a name="see-also"></a>Se også

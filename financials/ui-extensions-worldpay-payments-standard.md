@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
 ms.openlocfilehash: a4a110fec7f656fd2132daaf6ddda492e9a4ab67
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,6 +26,6 @@ Hvis du aktiverer filtypen og sender en faktura eller ordre via e-post, vil doku
 Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av tillegg] (ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

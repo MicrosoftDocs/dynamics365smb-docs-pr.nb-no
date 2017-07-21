@@ -1,6 +1,6 @@
 ---
-title: Vise lister i ulike visninger | Microsoft-dokumentasjon
-description: Vise lister i ulike visninger
+title: Justere hvor mange detaljer som vises i lister | Microsoft-dokumentasjon
+description: "Du kan vise lister i detaljerte visninger som gir mer informasjon, eller som fliser som det går raskt å se gjennom."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 09/08/2016
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0b5ce8ff631061dd2fafb685efb638947f8b6752
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="displaying-lists-in-different-views"></a>Vise lister i ulike visninger
+# <a name="displaying-lists-in-different-ways"></a>Vise lister på ulike måter
 I høyre hjørne i en hvilken som helst liste i [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du ikoner som lar deg bytte visning for listen. En liste kan vises som en detaljert liste, som er standardvisningen. Du kan også bytte til en visning som fliser, som vil vise færre detaljer om den bestemte posten og stable oppføringer som fliser. Denne visningen er svært nyttig for å få en oversikt over flere poster, og er spesielt nyttig på mindre enheter, fordi den gjør det enklere å trykke hver post.
 
 ## <a name="items-list"></a>Vareliste

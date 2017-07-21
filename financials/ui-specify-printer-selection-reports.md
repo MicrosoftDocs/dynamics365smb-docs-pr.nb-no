@@ -1,6 +1,6 @@
 ---
-title: Angi skrivervalg for rapporter | Microsoft-dokumentasjon
-description: Angi skrivere for rapporter.
+title: "Definere rapporter som skal skrives ut på bestemte skrivere | Microsoft-dokumentasjon"
+description: Finn ut hvordan du angir en skriver for en rapport og bruker vinduet Skrivervalg.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e0b13ff745cddf6173b7a6dacda05e915eff41ff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

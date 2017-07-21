@@ -1,6 +1,6 @@
 ---
-title: Konfigurere Financials| Microsoft-dokumentasjon
-description: Konfigurere Financials
+title: "Oversikt over oppgaver for å definere Dynamics 365 for Financials | Microsoft-dokumentasjon"
+description: "Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Dynamics 365 for Financials etter behov."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/27/2017
+ms.date: 06/07/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 5be24b9017b105adc6c857655c8de63d67b6aa29
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: e6efc11442a693da00c289866b726345ef97fb39
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -40,6 +40,7 @@ Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan
 | Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
 | Definer unike identifikasjonskodene for poster, for eksempel kort, bilag og kladdelinjer, til å spore dem i systemet. |[Opprette nummerserier](ui-create-number-series.md) |
 | Sett opp vinduet **Oppsett for SMTP-e-post** for å sende og motta e-postmeldinger fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Konfigurere e-post](madeira-how-setup-email.md) |
+| Definer unike identifikasjonskoder. |[Opprette nummerserier](ui-create-number-series.md) |
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

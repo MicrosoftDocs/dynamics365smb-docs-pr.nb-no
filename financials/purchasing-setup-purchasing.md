@@ -1,6 +1,6 @@
 ---
-title: "Definere kjøp| Microsoft-dokumentasjon"
-description: "Definere kjøp"
+title: "Oversikt over oppgaver for å definere kjøp | Microsoft-dokumentasjon"
+description: "Beskriver oppgaver for å definere selskapets innkjøpspolicyer og definere kjøpsprosessene."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: dbefd446d58395ce6aeb85bbb0e29be343acba0b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -33,7 +33,6 @@ Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives
 | --- | --- |
 | Opprett et leverandørkort for hver leverandør som du kjøper fra. |[Registrere nye leverandører](purchasing-how-register-new-vendors.md) |
 | Angi de forskjellige rabattene og spesialprisene som leverandør gir deg avhengig av vare, antall og/eller dato. |[Registrere avtaler om kjøpspris, rabatt og betaling](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-|Lær hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk optimaliserer din fortjeneste på handel når du registrerer avtaler om spesialpris/rabatt.|[Avansert: Beregning av beste pris](advanced-best-price-calculation.md) |
 | Prioritere leverandører. |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
 | Definere innkjøpere. |[Definere innkjøpere](purchasing-how-setup-purchasers.md) |
 

@@ -1,6 +1,6 @@
 ---
-title: "Bokføre dokumenter og kladder | Microsoft-dokumentasjon"
-description: "Gir en innføring i de forskjellige måtene du kan bokføre."
+title: "Oversikt over bokføring av dokumenter og kladder | Microsoft-dokumentasjon"
+description: "Gir en oversikt over bokføringshandlinger og måtene du kan bokføre dokumenter og kladder på."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c5d8843de8746d90e3c053923d038f469a811e8d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 349ad16c943f7efef7ca920f7adad82c8a1c0d5e
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

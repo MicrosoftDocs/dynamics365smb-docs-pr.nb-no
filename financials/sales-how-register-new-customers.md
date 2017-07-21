@@ -1,6 +1,6 @@
 ---
-title: Registrere nye kunder| Microsoft-dokumentasjon
-description: Registrere nye kunder
+title: "Opprette et kundekort for å registrere nye kunder | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6789e6a4129789e950c7f71ff86e62263ae9c087
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ca4f1880e7a95eaf945d48ca2cdd7b3d5f80a621
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -25,7 +25,8 @@ Kunder er kilden til dine inntekter. Du må registrere gver kunde du selger til,
 
 Før du kan registrere nye kunder, må du definere forskjellige salgskoder som du kan velge fra når du fyller ut kundekort. Hvis du vil ha mer informasjon, kan du se [Definere salg](sales-setup-sales.md).
 
-**Merk**: Hvis det finnes kundemaler for ulike kundetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.
+> [!NOTE]  
+>   Hvis det finnes kundemaler for ulike kundetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.
 
 ## <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
 1. På Hjem-siden velger du handlingen **Kunder** for å åpne listen over eksisterende kunder.  
@@ -35,7 +36,7 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 
     Hvis det finnes mer enn én kundemal, åpnes et vindu der du kan velge en kundemal. I det tilfellet følger du de to neste trinnene.
 3. I vinduet **Velg en mal for en ny kunde** velger du malen som du vil bruke for det nye kundekortet.
-4. Velg **OK**-knappen. Det åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.  
+4. Velg **OK**. Det åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.  
 5. Fortsette med å fylle ut eller endre feltet på kundekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 I hurtigfanen **Salgspriser** kan du vise spesialpriser eller rabatter som skal gis til kunden hvis bestemte kriterier oppfylles, for eksempel vare, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).

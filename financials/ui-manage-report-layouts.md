@@ -1,6 +1,6 @@
 ---
-title: Administrere rapportoppsett | Microsoft-dokumentasjon
-description: "Lær om rapportoppsett."
+title: Arbeide med egendefinerte og innebygde oppsett for rapporter og dokumenter | Microsoft-dokumentasjon
+description: "Bruk rapportoppsett til å tilpasse dokumenter, for eksempel tilpasse skriften, logoen eller sideinnstillingene for PDF-filer du sender til kunder."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,17 +13,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e221f5264190a90e04132ed4326afe2cf8364164
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
 Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
 
-**Merk**: I [!INCLUDE[d365fin](includes/d365fin_md.md)] dekker begrepet "rapport" også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
+> [!NOTE]  
+>   I [!INCLUDE[d365fin](includes/d365fin_md.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
 
 Et rapportoppsett brukes især til å konfigurere følgende:
 
@@ -32,7 +33,7 @@ Et rapportoppsett brukes især til å konfigurere følgende:
 * Selskapets logo og plasseringen.
 * Generelle sideinnstillinger, for eksempel marger og bakgrunnsbilder.
 
-En [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter behov. Du kan bruke ett av de innebygde rapportoppsettene, eller du kan opprette egendefinerte rapportoppsett og tilordne dem til rapportene etter behov. Hvis du vil ha mer informasjon, se [Opprette en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-create-custom-report-layout.md).
+En [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter behov. Du kan bruke ett av de innebygde rapportoppsettene, eller du kan opprette egendefinerte rapportoppsett og tilordne dem til rapportene etter behov. Hvis du vil ha mer informasjon, kan du se [Opprette en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-create-custom-report-layout.md).
 
 Det finnes to typer rapportoppsett som du kan bruke i rapporter: Word og RDLC.
 

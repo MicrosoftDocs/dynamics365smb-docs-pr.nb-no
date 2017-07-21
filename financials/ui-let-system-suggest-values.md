@@ -1,6 +1,6 @@
 ---
-title: "La Dynamics 365 for Financials foreslå verdier | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du får systemet til å forhåndsutfylle valgte felt med verdier som du ellers måtte beregne og fylle ut manuelt."
+title: "Definere foreslåtte feltverdier | Microsoft-dokumentasjon"
+description: "Du kan unngå manuelle beregninger og fullføre oppgaver raskt og nøyaktig ved å konfigurere automatisk dataregistrering slik at Financials fyller ut utvalgte felt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 03/15/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 785ad537f81b8388aa14654f375599a13b66e3c5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Funksjonalitet som angir feltverdiene for deg tilbys vanligvis for oppgaver der 
 Når du for eksempel angir finanskladdlinjer for flere utgifter som alle må bokføres til samme bankkonto, kan du få **Beløp**-feltet på bankkontolinjen oppdateres automatisk til beløpet som balanserer utgiftene, hver gang du angir en ny kladdelinje for en utgift. Hvis du vil ha mer informasjon om hvordan du arbeider med finanskladder, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
 ### <a name="to-have-the-amount-field-on-balancing-general-journal-lines-filled-automatically"></a>Fylle ut **Beløp**-feltet automatisk på finanskladdlinjer for motkonto
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Finanskladder**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. På linjen for din foretrukne finanskladd kan du merke av for **Foreslå motkontobeløp**.
 3. Åpne finanskladden, og fortsett med å registrere og bokføre transaksjoner ved hjelp av funksjonen som er beskrevet for automatisk registrering av en feltverdi.       
 
@@ -40,7 +40,7 @@ Vinduet **Betalingsregistrering** viser utestående innkommende betalinger som l
 De viktigste handlingene i vinduet er å merke av for **Betaling utført** og fylle ut feltet **Mottatt den**. Du kan definere at [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk angir arbeidsdatoen i feltet **Mottatt den** når du merker av for **Betaling utført**.
 
 ### <a name="to-have-the-date-received-field-in-the-payment-registration-window-filled-automatically"></a>Fylle ut feltet **Mottatt den** automatisk i vinduet **Betalingsregistrering**
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Betalingsregistreringsoppsett**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsregistreringsoppsett**, og velg deretter den relaterte koblingen.
 2. Merk av for **Fyll ut mottaksdato automatisk**.
 3. Åpne vinduet **Betalingsregistrering**, og fortsett med å behandle inngående kundebetalinger ved hjelp av funksjonen som er beskrevet for automatisk registrering av en feltverdi.
 

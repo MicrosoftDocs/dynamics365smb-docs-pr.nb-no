@@ -1,6 +1,6 @@
 ---
-title: "Klargjøre for konfigurasjon av kontakter | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du klargjør for konfigurasjon av kontakter i Financials."
+title: Definere informasjon for kontakter | Microsoft-dokumentasjon
+description: "Skisserer oppgavene for å angi informasjon og koder, for eksempel om bransjegrupper og forretningsrelasjoner, før du konfigurerer kontakter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 399fc41da9ff8168eea8aabd593ffd6123d8d501
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="preparing-for-setting-up-contacts"></a>Klargjøre for konfigurasjon av kontakter
+# <a name="preparing-to-set-up-contacts"></a>Klargjøring til konfigurasjon av kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontaktbedriftene hører til, og forretningsforholdet ditt med kontaktene.
 
 Før du oppretter kontakter og registrerer detaljer om forretningsforhold, må du sette opp de ulike kodene du vil bruke til å tilordne disse opplysningene til kontaktbedriftene og -personene. Koder kan settes opp for postgrupper, bransjegrupper, forretningsrelasjoner, webkilder, organisasjonsnivåer og ansvarsområder.
@@ -32,11 +32,11 @@ Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskri
 | Hvis du vil | Se |
 | --- | --- |
 | Definere forretningsforbindelser til kontakter, for eksempel prospekter, banker, konsulenter og serviceleverandører. |[Definere forretningsforbindelser for kontaktselskaper](marketing-business-relations.md) |
-| Definere bransjen kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen. |[Definere bransjegrupper på kontaktselskaper](marketing-industry-groups.md) |
-| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper på kontaktselskaper](marketing-mailing-groups.md) |
+| Definere bransjen kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen. |[Definere bransjegrupper for kontaktselskaper](marketing-industry-groups.md) |
+| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper for kontaktselskaper](marketing-mailing-groups.md) |
 | Definere ansvarsområder for kontaktpersonene. |[Definere ansvarsområder på kontakter](marketing-job-responsibilities.md) |
 | Definere organisasjonsnivåer som du vil bruke for kontaktpersonene. |[Konfigurere organisasjonsnivåer for kontakter](marketing-organizational-levels.md) |
-| Definere webkilder (søkemotorer og webområder) som du kan bruke når du søker etter opplysninger om kontaktene på Internett. |[Definere webkilder på kontakter](marketing-web-sources.md) |
+| Definere webkilder (søkemotorer og webområder) som du kan bruke når du søker etter opplysninger om kontaktene på Internett. |[Definere webkilder for kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

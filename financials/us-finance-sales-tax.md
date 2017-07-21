@@ -1,6 +1,6 @@
 ---
-title: Mva- og mva-grupper i USA og Canada | Microsoft-dokumentasjon
-description: Finn ut mer om hvordan mva konfigureres og hvordan mva-grupper, mva-jurisdiksjoner og mva-detaljer fungerer.
+title: "Definere mva-grupper, områder og jurisdiksjoner i USA og Canada | Microsoft-dokumentasjon"
+description: "Finn ut mer om hvordan salgsmva konfigureres, og hvordan mva-grupper, mva-områder (delstater, fylker, byer og lokasjoner), mva-jurisdiksjoner og mva-detaljer fungerer."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,14 +13,14 @@ ms.search.keywords: local
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ff1981a428a2cd3b3864b7f0cc795a1abeab7a10
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 763bb1b954b30734b0f81f121a6534c83442321a
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="sales-tax-and-tax-groups-in-the-us-and-canada"></a>Mva- og mva-grupper i USA og Canada
+# <a name="reporting-sales-tax-in-the-us-and-canada"></a>Rapportere salgsmva i USA og Canada
 Når du begynner å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du kjøre en assistert installasjonsveiledningen for hurtig og enkelt sette opp mva-informasjon for firmaet, kundene og leverandørene. I løpet av minutter er du klar til å opprette salgsdokumenter og kjøpsdokumenter med riktig beregnet merverdiavgift. Dette er beskrevet [i våre blogginnlegg](https://madeira.microsoft.com/blog/sales-tax-setup-made-easy).
 Hvis du flytter til det tomme Mitt firma, anbefaler vi at du starter med å bruke hver av de assisterte installasjonsveiledningene, inkludert den for mva. Hvis du foretrekker å definere mva selv, vil denne artikkelen forklarer hva du må ta hensyn til.  
 

@@ -1,6 +1,6 @@
 ---
-title: Avslutte perioder| Microsoft-dokumentasjon
-description: "Forklarer prosessene som må fullføres for å avslutte en periode."
+title: Valgfrie aktiviteter for lukking av perioder | Microsoft-dokumentasjon
+description: Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av regnskapsperioder i Financials.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 03/21/2017
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 1d0af3dbc94c32447facfbd24747ddc140cc1691
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 678cebc065594ed0ed6fea897676f109ff2c1dce
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="closing-periods"></a>Avslutte perioder
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
 [!INCLUDE[d365fin](includes/d365fin_md.md)] tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre. Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.  
 
 ## <a name="general-ledger"></a>Finans
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/04/2017
 * Oppdater og bokfør gjentakelseskladder.  
   <!--* Process Consolidations-->
 * Kjør kontoskjemaer som følger:  
-  * Åpne **Kontoskjema**-vinduet, og klikk handlingen **Skriv ut**.  
+  * Åpne **Kontoskjema**-vinduet, og velg deretter handlingen **Skriv ut**.  
 
 ## <a name="sales-and-receivables"></a>Salg
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/04/2017
 * Fullfør mva-oppgaver.  
 
 ## <a name="see-also"></a>Se også
-[Avslutt år og perioder](year-close-years-periods.md)  
+[Avslutte år og perioder](year-close-years-periods.md)  
 [Avslutte tablåer](year-close-books.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

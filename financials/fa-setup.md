@@ -1,6 +1,6 @@
 ---
-title: Definere aktiva| Microsoft-dokumentasjon
-description: Beskriver hvordan du definerer aktivafunksjonaliteten.
+title: Definere aktiva | Microsoft-dokumentasjon
+description: "Få informasjon om sekvensen av oppgaver du må gjøre for å definere aktiva, for eksempel maskiner eller bygninger."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8cf5df0cb9e555f700e2f578a25e102cefe8baff
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98cf0364b9983e2bf62fe6a3ce4aa882af3ece14
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,8 @@ Før du kan arbeide med aktiva, må du definere et par ting:
 
 Tabellen nedenfor inneholder koblinger til mer informasjon. Når du definerer disse tingene, kan du starte forskjellige aktiviteter. Hvis du vil ha mer informasjon, kan du se [Aktiva](fa-manage.md).  
 
-**Merk**: Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-vinduet.  
+> [!NOTE]  
+>   Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansrapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-vinduet.  
 
 Når du aktiverer et aktiva i delen **Finansintegrasjon** i **Avskrivningstablåkort**-vinduet, vil **Aktivafinanskladd**-vinduet brukes til å bokføre transaksjoner for aktiviteten.
 
@@ -43,7 +44,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 
 ## <a name="see-also"></a>Se også
-[Anleggsmidler](fa-manage.md)  
+[Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

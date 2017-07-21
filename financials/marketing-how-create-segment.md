@@ -1,6 +1,6 @@
 ---
 title: Opprette segmenter | Microsoft-dokumentasjon
-description: Beskriver hvordan du oppretter segmenter for kontakter i Financials.
+description: "Beskriver hvordan du oppretter et segment for eksempel for en gruppe med kontakter i Financials, for å sende direktereklame til flere kontakter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 2b251406c07881f8df502d67c0184a21d3e1f241
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0175eb12f30ce2e509b743c93b711ef8197549c6
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel vil opprette en samhandling med flere kontakter, blant annet utsendinger.
 
 ## <a name="to-create-a-segment"></a>Slik oppretter du et segment
-1. Velg **Aktive segmenter** på Hjem-siden. Eller i øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Segmenter**, og deretter velger du den beslektede koblingen.
+1. Velg **Aktive segmenter** på Hjem-siden. Eller velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I inndelingen **Generelt**, i **Nr.** -feltet, angir du et nummer på segmentet.
 

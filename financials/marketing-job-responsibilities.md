@@ -1,6 +1,6 @@
 ---
 title: "Definere ansvarsområder for kontakter | Microsoft-dokumentasjon"
-description: "Beskriver ansvarsområder for kontakter i Financials."
+description: "Du kan definere en kode for ansvarsområde og tilordne den til en kontakt for å angi oppgavene som kontakten er ansvarlig for i selskapet, for eksempel IT eller produksjon."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,25 +10,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, to-do, relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 610ae314502e60b959f0e2ff705a48b936d79d68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-job-responsibilities-for-contact-persons"></a>Definere ansvarsområder for kontaktpersoner
+# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Definere ansvarsområder for kontaktpersoner
 Du kan legge til informasjon om ansvarsområder for kontaktpersoner for å angi hva kontaktpersonen har ansvaret for i selskapet, for eksempel IT, ledelse eller produksjon. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
 
 Bruk av ansvarsområder på kontakter er en totrinnsprosess. Først må definere du koden for ansvarsområdet. Du trenger bare utføre dette trinnet én gang for hvert ansvarsområde. Når du har en kode for ansvarsområde, kan du begynne å tilordne koden til kontaktpersoner.
 
-## <a name="tp-define-a-job-responsibility-code"></a>Definere en kode for ansvarsområde
+## <a name="to-define-a-job-responsibility-code"></a>Definere en kode for ansvarsområde
 Koden for ansvarsområde definerer jobbtype eller -kategori, for eksempel MARKEDSFØRING eller INNKJØP. Du kan ha flere koder for ansvarsområde. Hvis du vil definere ansvarsområde, bruker du vinduet **Ansvarsområder**.
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Ansvarsområder**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansvarsområder**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Tilordne ansvarsområder til en kontaktperson

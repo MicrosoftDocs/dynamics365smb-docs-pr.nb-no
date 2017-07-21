@@ -1,6 +1,6 @@
 ---
 title: Definere kontoplanen| Microsoft-dokumentasjon
-description: Beskriver hvordan du kan endre kontoplanen.
+description: Du kan endre standardkontoene i kontoplanen, og du kan legge til nye kontoer.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 48202a9e9a763dcb22bed9975aa9c4a39d2dc4ae
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ceb01999525139cabc7c31e2304f738dcc9267f8
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Du kan imidlertid endre standardkontoene, og du kan legge til nye kontoer.
 ## <a name="adding-or-changing-accounts"></a>Legge til eller endre kontoer
 For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstillinger.
 
-**Merk**: Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
+> [!NOTE]  
+>   Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
 
 * Saldo på kontoen må være null.  
 * Feltet **Tillat sletting av finanskto. før** må være satt i vinduet **Finansoppsett**, og kontoen kan ikke ha finansposter på eller etter denne datoen.  
@@ -36,9 +37,9 @@ For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstilli
 [!INCLUDE[d365fin](includes/d365fin_md.md)] hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
 
 ## <a name="see-also"></a>Se også
-[Økonomimodulen og kontoplanen](finance-general-ledger.md)  
+[Finans og kontoplanen](finance-general-ledger.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
-[Dimensjoner](finance-dimensions.md)  
+[Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](upload-data.md)  
 [Arbeide med GIFI-koder i Canada](ca-finance-work-gifi-codes.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

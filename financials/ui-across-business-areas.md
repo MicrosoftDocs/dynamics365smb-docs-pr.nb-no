@@ -1,6 +1,6 @@
 ---
-title: Generelle forretningsfunksjoner | Microsoft-dokumentasjon
-description: "Finn ut mer om funksjonene som er felles på tvers av forretningsområder i Dynamics 365 for Financials"
+title: "Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-dokumentasjon"
+description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ced9a91de3599b276c277ad96b513eb8e7f0553b
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 50205c6831d3ed7e419711484de4ac5da886fe5b
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,10 +29,10 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 | --- | --- |
 | Tilordne unike identifikasjonskoder til poster, for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og dokumenter. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering, reduseres. |[Opprette nummerserier](ui-create-number-series.md) |
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Definere utvidet tekst](ui-how-define-ext-text.md) |
-| Endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av tillegg] (ui-extensions.md) |
+| Endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md) |
 | Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Håndtere finanskladder](ui-work-general-journals.md) |
 | Formidle raskt innholdet i forretningsdokumenter til forretningspartnere, for eksempel betalingsinformasjon på salgsdokumenter til kunder. |[Sende dokumenter i e-post](ui-how-send-documents-email.md) |
-| Fordele en post i en finanskladd til flere forskjellige konti når du bokfører kladden. |[Bruke fordelingsnøkler i finanskladder](ui-how-use-allocation-keys-general-journals.md) |
+| Fordele en post i en finanskladd til flere forskjellige konti når du bokfører kladden. |[Fordele kostnader og inntekter](year-allocate-costs-income.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-schedule-report.md) |
 | Behandle ulike typer rapportoppsett. |[Håndtere rapportoppsett](ui-manage-report-layouts.md) |
 | Be om og gi godkjenning for å opprette eller endre bestemte dokumenter og kort. |[Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md) |

@@ -1,6 +1,6 @@
 ---
-title: "Analysere kontantstrømmen i firmaet| Microsoft-dokumentasjon"
-description: "Beskriver hvordan du bruker kontantsyklus, inntekter og utgifter, kontantstrøm og kontantstrømprognose diagrammene til å analysere tidligere og fremtidige flytting av kontantstrøm inn og ut av firmaet."
+title: "Analysere kontantstrømmer | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du bruker diagrammene for kontantsyklus, inntekter og utgifter, kontantstrøm og kontantstrømprognose til å analysere tidligere og fremtidige pengestrømmer inn og ut av firmaet."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 03/24/2017
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9e2777bb50702df486a87ed1830f84f51a6434be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -54,5 +54,5 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 ## <a name="see-also"></a>Se også
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Sette opp kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
+[Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
 

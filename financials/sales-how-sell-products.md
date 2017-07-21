@@ -1,6 +1,6 @@
 ---
-title: Selge produkter| Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker ordrer.
+title: Opprette en ordre og selge varer | Microsoft-dokumentasjon
+description: "Beskriver hvordan du oppretter en ordre for å registrere avtalen med en kunde om å selge eller handle med produkter i samsvar med bestemte betingelser."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 03/09/2017
+ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a587a9eab63223f7fab94bc4f513d2b6816f0d14
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 7516e79a7cd5585629bb39ac7d97a4e6ba929712
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-sell-products"></a>Selge produkter
 Du kan opprette en ordre eller salgsfaktura for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
-**Merk**: Du bruker ordrer hvis salgsprosessen krever at du kan sende deler av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig samtidig. Hvis du selger varer ved å levere direkte fra leverandøren til kunden, som en direkte levering, må du også å bruke ordrer. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer ordrer på samme måte som salgsfakturaer. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
+> [!NOTE]  
+>   Du bruker ordrer hvis salgsprosessen krever at du kan sende deler av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig samtidig. Hvis du selger varer ved å levere direkte fra leverandøren til kunden, som en direkte levering, må du også å bruke ordrer. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer ordrer på samme måte som salgsfakturaer. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
 
 Du kan forhandle med kunden ved først å opprette et tilbud, som du kan konvertere til en ordre når dere blir enige om salget. Hvis du vil ha mer informasjon, kan du se [Gi tilbud](sales-how-make-offers.md).
 
@@ -61,7 +62,8 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 9. Angi nummeret på en vare eller tjeneste i **Vare**-feltet i hurtigfanen **Linjer**.  
 10. I feltet **Antall** angir du hvor mange varer som skal selges.
 
-    **Merk**: For varer av typen Tjeneste er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
+    > [!NOTE]  
+>   For varer av typen Tjeneste er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
 
     Feltet **Linjebeløp** oppdateres for å vise verdien i feltet **Salgspris** multiplisert med verdien i feltet **Antall**.
 
@@ -90,7 +92,8 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 
-    **Merk:** Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
+    > [!NOTE]  
+>   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 

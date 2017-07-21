@@ -1,6 +1,6 @@
 ---
-title: Salgs- og lagerprognose | Microsoft-dokumentasjon
-description: Inneholder informasjon om Salgs- og lagerprognose-utvidelsen.
+title: Bruke Salgs- og lagerprognose-utvidelsen til lagerstyring | Microsoft-dokumentasjon
+description: "Utvidelsen bidrar til å forutsi salg, få en klar oversikt over forventet tomt lager, og hjelper deg til og med å opprette etterfyllingsforespørsler til leverandører."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,10 +13,10 @@ ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ebaea8b98264e981f9ad2e0abda592e2e4a72427
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a0cac0236611c90d3d1fdf1bae9deaaeb235b540
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -34,5 +34,5 @@ Du kan også bruke utvidelsen til å foreslå når lageret bør fylles på. Hvis
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av tillegg] (ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Definere sjekkoppsett| Microsoft-dokumentasjon
-description: "Lær mer om sjekkoppsettene som er tilgjengelige i Finans."
+title: Angi oppsettet for en sjekk | Microsoft-dokumentasjon
+description: "Du kan utforme og skrive ut sjekker i forskjellige formater for å følge standarder."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 03/24/2017
+ms.date: 06/15/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6081b6d09fa75b868138817442d6df4d9a8d0d7f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: a2db2860846cd9b8010222faf580f0c9889e39a4
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,7 +26,7 @@ Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt 
 Sjekkene er utformet for utskrift i sjekkbildeformatene for USA og Canada i formatet sjekk-blankett-sjekk eller blankett-sjekk-blankett.
 
 ## <a name="to-define-check-layouts"></a>Definere sjekkoppsett
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Rapportvalg - bankkonto**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Rapportvalg - bankkonto**, og velg deretter den relaterte koblingen.
 2. I **Rapportvalg - bankkonto** -vinduet, i feltet **Bruk**, velger du **Sjekk**.
 3. Velg én av følgende rapport-ID-er:
 

@@ -1,6 +1,6 @@
 ---
 title: Endre rollesenteret | Microsoft-dokumentasjon
-description: Beskriver hvordan du kan endre gjeldende rollesenter.
+description: "Du kan velge en annen profil i Financials for å endre det som vises på Hjem-siden."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Profile
-ms.date: 03/23/2017
-ms.author: jswymer
+ms.date: 06/02/2017
+ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70215bcbf8166f84dfa37e722aed3d7d9c7626e6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,7 +28,7 @@ Innholdet på Hjem-siden er basert på det valgte rollesenteret. Standard rolles
 ## <a name="to-change-role-center"></a>Endre rollesenter
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter"), og velg deretter **Mine innstillinger**.
 2. I vinduet **Mine innstillinger**, i feltet **Rollesenter**, velger du rollesenteret som du vil angi som standard. Velg for eksempel **Revisor**.
-3. Velg **OK**-knappen.
+3. Velg **OK**.
 4. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft.
 
 ## <a name="see-also"></a>Se også

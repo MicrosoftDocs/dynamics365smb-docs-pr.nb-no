@@ -1,6 +1,6 @@
 ---
-title: Lager| Microsoft-dokumentasjon
-description: Beskriver hvordan du administrerer fysiske varer.
+title: "Håndtere lager | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b53cae82cfa532fb0620cc9e1f305216c2321785
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -28,21 +28,23 @@ Hvis du vil ha bedre oversikt over varene og hjelp til å finne dem, kan du kate
 
 Du må sørge for at kostnadene for varene videresendes til den relaterte utgående mva-transaksjonen, spesielt i situasjoner der du selger varer før du fakturerer kjøp av disse varene. Dette kalles kostjustering, som du kan utføre manuelt eller definere at skal skje automatisk når du bokfører en varetransaksjon.
 
-Endringer i lagerverdien fra handel er automatisk avstemt med dine økonomiske bøker når du bokfører transaksjoner for varen.
+## <a name="inventory-reconciliation"></a>Lageravstemming
+Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
 
-|Hvis du vil |Se |
+Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se Justere varekost.
+
+|Til |Se |
 |---|----|
 |Opprett varekort for lagervarer som du handler med.|[Registrere nye varer](inventory-how-register-new-items.md)|
 |Strukturer overordnede varer som selges som sett som består av komponenter for den overordnede varen, eller som du monterer til bestilling eller lager.|[Arbeide med stykklister](inventory-how-work-BOMs.md)|
 |Hold oversikt over varer og gjør det enklere å finne og sortere varer ved å ordne dem i kategorier.|[Kategorisere varer](inventory-how-categorize-items.md)|
 |Tilordne vareattributter av ulike verdityper til varene, for å gjøre det enklere for deg å sortere og finne varer.|[Arbeide med vareattributter](inventory-how-work-item-attributes.md)|
 |Opprett spesielle varekort for varer som du tilbyr til kunder, men som du ikke har på lager.|[Arbeide med katalogvarer](inventory-how-work-nonstock-items.md)|
-|Øk eller reduser en vares lagerantall, for eksempel etter en fysisk opptelling, eller som en enkel metode for å registrere kjøpsmottak.|[Fremgangsmåte: Juster lagerbeholdning](inventory-how-adjust-inventory.md)|
-|Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monteringsstykklister.|[Få en oversikt over tilgjengelighet](inventory-how-availability-overview.md)|
+|Du kan utføre fysisk telling, foreta negative eller positive justeringer og endre informasjon, for eksempel lokasjons- eller partinummer, i vareposter.|[Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md)|
+|Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monteringsstykklister.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|
 |Overføre varer mellom lokasjoner med overføringsordrer for å administrere lageraktiviteter, eller med varereklassifiseringskladden.|[Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)|
 |Skriv opp eller skriv ned verdien av én eller flere varer på lager ved postering av den gjeldende, beregnede verdien.|[Revaluere beholdning](inventory-how-revalue-inventory.md)|
 |Juster varekost, enten automatisk eller manuelt, for å til videreføre kostnadsendringer fra inngående poster til relaterte utgående poster.|[Justere varekost](inventory-how-adjust-item-costs.md)|
-|Finn ut hvordan endringer i lagerverdien fra handel er automatisk avstemt med dine økonomiske bøker.|[Avansert: Lageravstemming](advanced-inventory-reconciliation.md).|
 
 ## <a name="see-also"></a>Se også  
 [Innkjøp](purchasing-manage-purchasing.md)  

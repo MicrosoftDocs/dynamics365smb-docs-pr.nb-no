@@ -1,6 +1,6 @@
 ---
-title: Avstemme betalinger ved hjelp av automatisk utligning| Microsoft-dokumentasjon
-description: Avstemme betalinger ved hjelp av automatisk utligning
+title: "Bruke automatisk utligning til å avstemme betalinger | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du bruker funksjonen for automatisk utligning til å utligne betalinger eller innbetalinger mot de relaterte åpne postene, og avstemme betalinger."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 423b141969c131688542cc10bb5361085f247a68
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,10 +37,11 @@ På kladdelinjer der en betaling er utlignet automatisk mot én eller flere åpn
 
 For hver kladdelinje som representerer en betaling i vinduet **Betalingsavstemmingskladd**, kan du åpne vinduet **Betalingsutligning** hvis du vil vise alle åpne kandidatposter for betalingen og detaljert informasjon for hver post om datasamsvaret som en betalingsutligning er basert på. Her kan du manuelt utligne betalinger som ble utlignet automatisk mot feil oppføring, eller utligne betalinger på nytt. Hvis du vil ha mer informasjon, kan du se [Se gjennom eller utligne betalinger etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md).
 
-**Merk**: Du kan starte import av banktransaksjoner samtidig som du åpner vinduet **Betalingsavstemmingskladd** for en eksisterende kladd for betalingsavstemming i vinduet **Kladder for betalingsavstemming**. Følgende prosedyre beskriver hvordan du importerer banktransaksjoner til vinduet **Betalingsavstemmingskladd** etter at du har opprettet en ny kladd.
+> [!NOTE]  
+>   Du kan starte import av banktransaksjoner samtidig som du åpner vinduet **Betalingsavstemmingskladd** for en eksisterende kladd for betalingsavstemming i vinduet **Kladder for betalingsavstemming**. Følgende prosedyre beskriver hvordan du importerer banktransaksjoner til vinduet **Betalingsavstemmingskladd** etter at du har opprettet en ny kladd.
 
 ## <a name="to-reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Betalingsavstemmingskladder**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsavstemmingskladder**, og velg deretter den relaterte koblingen.
 2. Hvis du vil arbeide i en ny kladd for betalingsavstemming, velger du handlingen **Ny kladd**.
 3. I vinduet **Betalingsbankkonto - oversikt** velger du bankkontoen du vil utligne betalinger for, og deretter velger du **OK**-knappen.
    Vinduet **Betalingsavstemmingskladd** åpnes forberedt for den valgte bankkontoen.
@@ -63,7 +64,8 @@ Når du bokfører kladden for betalingsavstemming, lukkes de utlignede åpne pos
 
 Du kan sammenligne verdien i feltet **Saldo på bankkonto etter bokføring** med verdien i feltet **Utdrag - sluttsaldo** for å spore når bankkontoen avstemmes basert på betalinger som du bokfører.
 
-**Merk**: Hvis du vil avstemme en bankkonto fra vinduet **Betalingsavstemmingskladd** , må du bruke vinduet **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md).
+> [!NOTE]  
+>   Hvis du ikke vil avstemme en bankkonto fra vinduet **Betalingsavstemmingskladd**, må du bruke vinduet **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  

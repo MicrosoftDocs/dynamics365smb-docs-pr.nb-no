@@ -1,6 +1,6 @@
 ---
-title: Definere generell informasjon om lagerbeholdning| Microsoft-dokumentasjon
-description: Beskriver hvordan du definerer det generelle lageroppsettet, for eksempel nummerserier og hvordan du bruker lokasjoner.
+title: Definere det generelle lageroppsettet | Microsoft-dokumentasjon
+description: Beskriver hvordan du definerer det generelle lageroppsettet, for eksempel nummerserier og lokasjoner, slik at du for eksempel kan administrere lageret og varene.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: SorenGP
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f4075d3ec4eea1241eeca204a9e800c0dba9f5c6
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Du angir det generelle lageroppsettet i vinduet **Lageroppsett**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Slik definerer du generell informasjon om lagerbeholdning
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Lageroppsett**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
 2. I vinduet **Lageroppsett** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også

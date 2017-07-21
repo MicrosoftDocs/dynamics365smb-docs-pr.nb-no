@@ -1,6 +1,6 @@
 ---
-title: "Synkronisere kontakter med kunder, leverandører og bankkonti | Microsoft-dokumentasjon"
-description: "Beskriver synkronisering av kontakter med kunder, leverandører og bankkonti i Financials."
+title: "Synkronisere kontakter med kunder og leverandører | Microsoft-dokumentasjon"
+description: "Du kan koble eller synkronisere kontaktinformasjon for kontakter som også er kunder, leverandører eller bankkonti, så du oppdaterer informasjon bare på ett sted."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, CRM, integration, couple
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: b28cd00659b077403e3174ac69c32ad5d9a8bf83
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: dbb29d9d53618eec69817455d4304da2a6bfe466
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisere kontakter med kunder, leverandører og bankkonti
 Hvis en del av kontaktene også er kunder, leverandører eller bankkonti, kan du synkronisere kontaktinformasjonen med relatert kunde, leverandør eller bankkonto. Synkronisering gjør at informasjon som er felles mellom kontakter og kunder, leverandører eller bankkonto, er den samme.  
 
-Før du kan synkronisere kontaktene med kunder, leverandører eller bankkonti, må du angi en kode for forretningsforbindelse for kunder, leverandører og bankkonti i vinduet **Markedsføringsoppsett**. Hvis du vil ha mer informasjon, se [Sette opp forbindelser](marketing-setup-marketing.md).
+Før du kan synkronisere kontaktene med kunder, leverandører eller bankkonti, må du angi en kode for forretningsforbindelse for kunder, leverandører og bankkonti i vinduet **Markedsføringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Sette opp forbindelser](marketing-setup-marketing.md).
 
 ## <a name="different-ways-to-synchronize-contacts-with-customers-vendors-and-bank-accounts"></a>Ulike metoder for å synkronisere kontakter med kunder, leverandører og bankkonti
 Du kan synkronisere kontaktene med kunder, leverandører eller bankkonti ved hjelp av tre metoder:
@@ -42,7 +42,8 @@ Når kontakten synkroniseres med kunde, leverandør, bankkonto:
 * Hvis du sletter en kontakt som er koblet til en kunde, leverandør eller bankkonto, er det bare kontakten som fjernes. Kunden, leverandøren eller bankkontoen beholdes.
 * Hvis du sletter en kunde, leverandør eller bankkonto som er koblet til en kontakt, beholdes kontakten.
 
-**Merk**: Noen detaljer, for eksempel fakturerings- og bokføringsopplysninger, vises ikke på kontaktkortet. Du vil derfor kanskje legge dem til manuelt på kundekortet, leverandørkortet eller bankkontokortet når du oppretter kontakter som kunder, leverandører eller bankkonti.
+> [!NOTE]  
+>   Noen detaljer, for eksempel fakturerings- og bokføringsopplysninger, vises ikke på kontaktkortet. Du vil derfor kanskje legge dem til manuelt på kundekortet, leverandørkortet eller bankkontokortet når du oppretter kontakter som kunder, leverandører eller bankkonti.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

@@ -1,6 +1,6 @@
 ---
 title: "Definere organisasjonsnivåer for kontaktpersoner | Microsoft-dokumentasjon"
-description: "Beskriver organisasjonsnivåer for kontakter i Financials."
+description: "Du kan definere et organisasjonsnivå og tilordne det til kontakten for å angi hvilken stilling de har i selskapet sitt, for eksempel en stilling i toppledelsen."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, client, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: bde26a2d5fcb7ec10dcd70fdd30c74893bcb34d5
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-organizational-levels-for-contact-persons"></a>Definere organisasjonsnivåer for kontaktpersoner
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Definere organisasjonsnivåer for kontaktpersoner
 Du kan bruke organisasjonsnivåer på kontaktene for å angi hvilken stilling de har i selskapet, for eksempel en stilling i toppledelsen. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
 
 Bruk av organisasjonsnivåer på kontakter er en totrinnsprosess. Først må du definere koden for organisasjonsnivået. Du trenger bare utføre dette trinnet én gang for hvert organisasjonsnivå. Når du har en kode for organisasjonsnivå, kan du begynne å tilordne koden til kontaktpersoner.
@@ -28,7 +28,7 @@ Bruk av organisasjonsnivåer på kontakter er en totrinnsprosess. Først må du 
 ## <a name="to-define-an-organizational-level-code"></a>Definere kode for organisasjonsnivå
 Koden for organisasjonsnivå definerer jobbtype eller -kategori for organisasjonsnivået, for eksempel ADMDIR eller ØKDIR. Du kan ha flere koder for organisasjonsnivå. Hvis du vil definere organisasjonsnivået, bruker du vinduet **Organisasjonsnivåer**.
 
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Organisasjonsnivåer**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Organisasjonsnivåer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
 ## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Tilordne organisasjonsnivåer til en kontaktperson

@@ -1,6 +1,6 @@
 ---
-title: "Registrere nye leverandører| Microsoft-dokumentasjon"
-description: "Lær hvordan du kan legge til leverandører i Financials."
+title: "Opprette et leverandørkort for å registrere en ny leverandør | Microsoft-dokumentasjon"
+description: "Finn ut hvordan du oppretter et leverandørkort for å registrere en ny leverandør."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3420a91200b64ea0672d5757a0104c6806fc607f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 78710d796ed73d7b4c2505f6cbb8c7d5f41d7320
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,7 +27,8 @@ Før du kan registrere nye leverandører, må du definere forskjellige kjøpskod
 
 Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter fra leverandøren. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md) og [Registrere nye varer](inventory-how-register-new-items.md).
 
-**Merk**: Hvis det finnes leverandørmaler for ulike leverandørtyper, vises et vindu når du oppretter et nytt leverandørkort der du kan velge en passende mal. Hvis det bare finnes én leverandørmal, brukes alltid denne malen i nye leverandørkort.
+> [!NOTE]  
+>   Hvis det finnes leverandørmaler for ulike leverandørtyper, vises et vindu når du oppretter et nytt leverandørkort der du kan velge en passende mal. Hvis det bare finnes én leverandørmal, brukes alltid denne malen i nye leverandørkort.
 
 ## <a name="to-create-a-new-vendor-card"></a>Opprette et nytt leverandørkort
 1. På Hjem-siden velger du **Leverandører** for å åpne listen over eksisterende leverandører.  
@@ -35,7 +36,7 @@ Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter
 
     Hvis det finnes mer enn én leverandørmal, åpnes et vindu der du kan velge en leverandørmal. I det tilfellet følger du de to neste trinnene.
 3. I vinduet **Velg en mal for en ny leverandør** velger du malen som du vil bruke for det nye leverandørkortet.
-4. Velg **OK**-knappen. Det åpnes et nytt leverandørkort med noen felt som er fylt ut med informasjon fra malen.
+4. Velg **OK**. Det åpnes et nytt leverandørkort med noen felt som er fylt ut med informasjon fra malen.
 5. Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Leverandøren er nå registrert, og leverandørkortet er klart til å brukes på kjøpsdokumenter.

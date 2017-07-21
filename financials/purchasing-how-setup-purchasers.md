@@ -1,6 +1,6 @@
 ---
-title: "Definere innkjøpere| Microsoft-dokumentasjon"
-description: "Hvis det arbeider flere innkjøpere i selskapet, kan du organisere dem for statistisk analyse."
+title: "Definere innkjøpere og tilordne innkjøpere til leverandører | Microsoft-dokumentasjon"
+description: "Hvis flere innkjøpere jobber i selskapet, kan du organisere dem for statistisk analyse."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,22 +13,22 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 0c57a73b1079d579a79a764a083bc663847c4549
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="how-to-set-up-purchasers"></a>Definere innkjøpere
 Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem i et vindu og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Selgere/innkjøpere** velger du **Ny**.
 3. I vinduet **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Tilordne innkjøpere til leverandører
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Leverandører**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet for leverandøren du vil tilordne en innkjøper.
 3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter vinduet.
 

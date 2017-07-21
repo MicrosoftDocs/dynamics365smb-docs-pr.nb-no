@@ -1,6 +1,6 @@
 ---
 title: Definere webkilder for kontaktselskaper | Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker webkilder for kontakter i Financials.
+description: "Du kan definere Internett-kilder eller webkilder og tilordne dem til et kontaktselskap for å bidra til å identifisere hvor du vil søke etter informasjon om kontaktene."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,23 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: internet
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8a452619aeeee907cf61fd5d1a8fce409ad2e42d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6e78a86ba3d29948b07777d0a346c1ef58d088e6
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="setting-up-web-sources-for-contact-companies"></a>Definere webkilder for kontaktselskaper
+# <a name="how-to-set-up-web-sources-for-contact-companies"></a>Definere webkilder for kontaktselskaper
 Du kan for eksempel bruke webkilder med kontaktselskaper for å identifisere søkemotorer og webområder på Internett, som du vil bruke til å søke etter informasjon om kontaktene. Når du tilordner webkilder, angir du hvilken søkemotor og søkeord programmet skal bruke for å finne de forespurte opplysningene.
 
 Bruk av webkilder på kontakter er en totrinnsprosess. Først må du definere koden for webkilden. Du trenger bare utføre dette trinnet én gang for hver webkilde. Når du har en kode for webkilde, kan du begynne å tilordne koden til kontaktpersoner.
 
 ## <a name="to-define-a-web-source-code"></a>Definere en kode for webkilde
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Webkilder**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Webkilder**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene **Kode**, **Beskrivelse** og **URL**.
 

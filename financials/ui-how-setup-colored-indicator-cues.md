@@ -1,6 +1,6 @@
 ---
-title: Definere en farget indikator for bunke-ikoner | Microsoft-dokumentasjon
-description: Finn ut hvordan du bruker fargede indikatorer for bunke-ikoner i rollesenteret
+title: "Angi fargede indikatorer for å tilpasse visuelle signaler om aktiviteten for et bunke-ikon | Microsoft-dokumentasjon"
+description: "Definere en farget indikator på en bunkeflis for å gi et tilpasset visuelt signal for aktiviteten for bunke-ikonet."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: personalize, customize
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 3c5aff53c522729a95763485eb79d13c0f051831
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 0cb10770954f485d9c0a3474615e6c69411de321
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -38,7 +38,7 @@ Tabellen nedenfor viser fargene som tilsvarer alternativene i feltene **Stil for
 
 | Alternativ | Farge |
 | --- | --- |
-| **Ingen** |Ingen farge (samme farge som bunkeflisen) |
+| **Ingen** |Ingen farge (samme farge som bunkeflisen |
 | **Fordelaktig** |Grønn |
 | **Ufordelaktig** |Rød |
 | **Tvetydig** |Gul |

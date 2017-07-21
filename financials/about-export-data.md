@@ -1,6 +1,6 @@
 ---
-title: Eksportere data til Excel fra Dynamics 365 for Financials | Microsoft-dokumentasjon
-description: "Lær hvordan du eksporterer data fra Dynamics 365 for Financials til Excel."
+title: Eksportere Financials-dataene til Excel | Microsoft-dokumentasjon
+description: "Du kan eksportere finansrapporter og forretningsintelligensdata fra Dynamics 365 for Financials til Excel, eller du kan åpne Financials-dataene i Excel."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 02/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 94b2bbcd3db4b5071221b6f24e0f960355db3af1
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 054288659215df61a99564ab856bfb5f72ee7f39
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="exporting-your-data-to-excel-from-dynamics-365-for-financials"></a>Eksportere data til Excel fra Dynamics 365 for Financials
+# <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdataene til Excel
 Hvis du vil arbeide med dataene fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i Excel, kan du åpne alle lister i Excel og arbeide med dem der. På samme måte, hvis du vil avbryte abonnementet på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg.
 
 ## <a name="opening-lists-in-excel"></a>Åpne lister i Excel
@@ -60,11 +60,12 @@ Vi anbefaler at du også vurdere å eksportere dataene fra de følgende sidene:
 * Kontakter  
 * Selgere  
 
-**Obs!** Hvis du har definert mer enn ett selskap i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], må du eksportere de relevante dataene fra hvert selskap.
+> [!NOTE]  
+>   Hvis du har definert mer enn ett selskap i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], må du eksportere de relevante dataene fra hvert selskap.
 
 ## <a name="see-also"></a>Se også
-[Avbryte abonnementet på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]] (madeira-cancel.md)  
-[Importer forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Avbryte abonnementet på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](madeira-cancel.md)  
+[Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

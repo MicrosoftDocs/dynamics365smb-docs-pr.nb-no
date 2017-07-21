@@ -1,6 +1,6 @@
 ---
-title: Administrere prosjektforsyninger| Microsoft-dokumentasjon
-description: Beskriver hvordan du forsyner materialer og tjenester til prosjekter.
+title: "Kjøpe varer eller tjenester for et prosjekt og administrere forsyninger | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du administrerer forsyninger og innkjøp av materialer og tjenester for prosjekter."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: f52fa9545b50038c1d28daa164add07915ef2656
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -28,15 +28,15 @@ Hvis kjøpsprosessen ikke krever at den fysiske transaksjonen registreres separa
 ## <a name="to-purchase-items-or-services-for-a-job"></a>Slik kjøper du varer eller tjenester for et prosjekt
 Følgende fremgangsmåte viser hvordan du bruker en kjøpsfaktura til å kjøpe produkter for et prosjekt. Bruk samme fremgangsmåte når du bruker en bestilling.  
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og deretter velger du den beslektede koblingen.  
-2. Velg handlingen **Nytt** og fyll ut feltene etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny** og fyll ut feltene etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. I feltene **Prosjektnr.** og **Prosjektoppgavenr.** velger du informasjonen på prosjektet som du vil kjøpe varer eller tjenester for. Bruk funksjonen **Velg kolonner** hvis feltet ikke er synlig. Hvis du vil ha mer informasjon, kan du se [Brukertilpasning](ui-user-personalization.md).
 
     Verdien du velger i feltet **Prosjektlinjetype**, definerer om en planleggingslinje blir opprettet når du bokfører forbruket for varen. Hvis feltet inneholder **Fakturerbar**, opprettes det prosjektplanleggingslinjer som er klare for å faktureres kunden. Hvis du vil ha mer informasjon, kan du se [Fakturere prosjekter](projects-how-invoice-jobs.md).
 4. Velg handlingen **Bokfør**.
 
 ## <a name="to-view-the-value-of-purchases-for-a-job"></a>Slik viser du verdien av kjøp for et prosjekt
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Prosjekter**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
 2. Åpne et aktuelt prosjektkort.
 
     På hurtigfanen **Oppgaver** viser feltet **Utestående bestillinger** det totale utestående beløpet, i lokal valuta, for lagervarer og tjenester i kjøpsdokumenter for prosjektoppgavelinjen.  
@@ -47,7 +47,7 @@ Følgende fremgangsmåte viser hvordan du bruker en kjøpsfaktura til å kjøpe 
 ## <a name="to-post-a-job-related-expense"></a>Slik bokfører du en prosjektrelatert utgift
 Hvis du pådrar deg ekstraordinære eller enkeltstående prosjektutgifter, kan du bruke vinduet **Finanskladd for prosjekt** til å bokføre dem direkte til den aktuelle prosjektkontoen.
 
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Finanskladder for prosjekt**, og deretter velger du den beslektede koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny linje, og skriv inn informasjon om utgiften, inkludert informasjon i feltene **Prosjektnr.** og **Prosjektoppgavenr.**  
 3. Når kladden er fullført, kan du velge handlingen **Bokfør**.
 

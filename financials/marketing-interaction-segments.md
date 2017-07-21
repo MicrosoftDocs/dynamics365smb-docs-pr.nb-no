@@ -1,6 +1,6 @@
 ---
-title: Samhandlinger og segmenter | Microsoft-dokumentasjon
-description: "Beskriver hvordan du bruker segmenter på kontakter i Financials."
+title: "Holde rede på segmenter og relaterte samhandlinger | Microsoft-dokumentasjon"
+description: "Finn ut hvordan du oppretter segmenter for å definere grupper med kontakter og angi samhandlinger for segmenter."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 39e7f95cb98364a9a4fce44165ae7f9f3e5b7383
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 899bdda7448810b029216c66402b739004193a61
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="interactions-and-segments"></a>Samhandlinger og segmenter
+# <a name="managing-interactions-for-segments"></a>Administrere samhandlinger for segmenter
 Vinduet **Segment** er en type forslag der du kan:
 
 * Opprette segmenter.

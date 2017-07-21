@@ -13,10 +13,10 @@ ms.search.keywords: cost accounting
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 47209e29f8baea497a3a9267d37f270a92950dcb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bbacf9b5634d51478dd4d54ac4b587ea9bfaaf99
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -24,7 +24,7 @@ ms.lasthandoff: 05/04/2017
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
 
 ## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Gjentakende finanskladd**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
 2. Velg feltet **Bunkenavn** for å åpne vinduet **Finanskladder**.
 3. Du kan endre fordelinger på en eksisterende bunke i listen, eller du kan opprette en ny bunke med tildelinger.
    * Hvis du vil opprette en ny bunke, velger du handlingen **Ny** og går til neste trinn.
@@ -39,10 +39,10 @@ Du kan fordele en post i en finanskladd på flere forskjellige konti når du bok
 11. Bokfør kladden.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Endre en fordelingsnøkkel som allerede er definert
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Gjentakende finanskladd**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
 2. Velg kladden med fordelingen, i vinduet **Finansgjentak.kladd**.
 3. Velg linjen med fordelingen, og velg deretter handlingen **Fordelinger**.
-4. Endre de relevante feltene, og klikk deretter **OK**.
+4. Endre de relevante feltene, og velg deretter **OK**.
 
 ## <a name="see-also"></a>Se også
 [Arbeide med finanskladder](ui-work-general-journals.md)  

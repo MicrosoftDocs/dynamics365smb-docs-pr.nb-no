@@ -1,6 +1,6 @@
 ---
-title: "Behandle inngående dokumenter| Microsoft-dokumentasjon"
-description: "Behandle inngående dokumenter"
+title: "Behandle inngående dokumenter | Microsoft-dokumentasjon"
+description: "Hvis du vil registrere et eksternt dokument, for eksempel et PDF-dokument, i Dynamics 365 for Financials, må du først opprette eller fylle ut en post for innkommende dokument."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 05/12/2016
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 93a3ba01e479ba8256f4a3628aae2b7838d8e5ad
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: b4d344c52bf6f10d00f2157fbdb45903402f6c55
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -29,7 +29,7 @@ Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekste
 | --- | --- |
 | Opprett poster for inngående dokument manuelt eller automatisk ved for eksempel å ta et bilde av en papirkvittering. |[Opprette innkommende dokumentposter](across-how-create-income-document-records.md) |
 | Bruk for eksempel en OCR-tjeneste til å gjøre om PDF- og bildefiler til elektroniske dokumenter som kan konverteres til kjøpsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Lære opp OCR-tjenesten for å unngå feil i neste gang den behandler liknende data. |[Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md) |
-| Tilknytte eller fjerne inngående dokumentposter for alle ikke-bokførte salgs- eller kjøpsdokumenter og til en hvilken som helst kunde, leverandør eller finanspost fra dokumentet eller posten. |[Koble til og fra inngående dokumentposter fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
+| Tilknytte eller fjerne inngående dokumentposter for alle ikke-bokførte salgs- eller kjøpsdokumenter og til en hvilken som helst kunde, leverandør eller finanspost fra dokumentet eller posten. |[Opprette innkommende dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
 | Fra vinduene **Kontoplan** og **Finansposter** bruker du søkefunksjonen til å finne finansposter for bokførte dokumenter som ikke har innkommende dokumentposter, og deretter sentralt koble eksisterende poster eller opprette nye med vedlagte dokumentfiler. |[Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få bedre oversikt ved å sette inngående dokumentposter til Behandlet for å fjerne dem fra standardvisningen. |[Håndtere mange inngående dokumentposter](across-how-manage-many-income-document-records.md) |
 

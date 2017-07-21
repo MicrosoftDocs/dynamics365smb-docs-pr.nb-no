@@ -1,6 +1,6 @@
 ---
 title: Avskrivningsmetoder| Microsoft-dokumentasjon
-description: "Beskriver de sju metodene du kan bruke til å avskrive aktiva."
+description: "Få informasjon om de ulike metodene for avskrivning eller nedskrivning av aktiva."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: a5a43c6d53bdff7c30133d88c66e33996476f580
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,10 +31,12 @@ Det finnes åtte ulike avskrivningsmetoder som du kan bruke:
 * Brukerdefinert  
 * Manuell  
 
-  **Merk:** Bruk denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
+  > [!NOTE]  
+>   Du bruker denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
 * Halvårsavskrivning  
 
-  **Merk:** Når du bruker denne metoden, avskrives aktivaet med samme beløp hvert år.  
+  > [!NOTE]  
+>    Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær avskrivning
 Når du bruker denne metoden, må du angi ett av følgende alternativer i aktivaavskrivningstablået:  
@@ -56,7 +58,7 @@ Den bokførte verdien kan reduseres av bokført oppskrivning, nedskriving eller 
 ### <a name="fixed-yearly-percentage"></a>Fast årlig prosentsats
 Hvis du angir en fast årlig prosentsats, bruker programmet følgende formel til å beregne avskrivningsbeløpet:  
 
-Avskrivningsbeløp = (Lineær-% x Avskrivningsgrunnlag x Antall avskrivningsdager) / (100 x 360)  
+Avskrivningsbeløp = (Lineær-% x Avskrivningsgrunnlag x Antall avskrivningsdager / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fast årlig beløp
 Hvis du angir en fast årlig beløp, bruker programmet denne formelen til å beregne avskrivningsbeløpet:  
@@ -203,7 +205,7 @@ Beregningsmetode:
 
 *Saldobeløp: 25 % av 100 000 = 25 000=12 500+12 500*  
 
-*Lineært beløp = 100 000/8=12 500=6 250+6 250*  
+*Lineært beløp = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
 
 Saldobeløpet brukes fordi det er det største beløpet.  
 
@@ -211,7 +213,7 @@ Saldobeløpet brukes fordi det er det største beløpet.
 
 *Saldobeløp: 25 % av 23 730,46 = 4 943,85= 2 471,92+2 471,92*  
 
-*Lineært beløp = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
+*Lineært beløp = 23 730,46 / 3 = 7 910,15 = 3 995,07 + 3 995,08*  
 
 Det lineære beløpet brukes fordi det er det største beløpet.  
 
@@ -222,7 +224,7 @@ Hvis du velger en slik metode, bruker du vinduet **Avskrivningstabeller** til å
 
 Formelen for beregning av avskrivningsbeløp er følgende:  
 
-Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag) / (100 x 360)  
+Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Avskrivning etter antall enheter
 Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. I vinduet **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
@@ -230,7 +232,7 @@ Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert p
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Slik definerer du brukerdefinerte avskrivningsmetoder
 I **Avskrivningstabell**-vinduet kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Avskrivningstabeller**, og deretter velger du den beslektede koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
 3. Fyll ut feltene etter behov i vinduet **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -282,7 +284,8 @@ Denne avskrivningsmetoden kan brukes i forbindelse med følgende avskrivningsmet
 
 Når du bruker halvårsavskrivning, avskrives aktivaet på seks måneder i det første regnskapsåret, uavhengig av innholdet i feltet **Startdato for avskrivning**.  
 
-**Merk:** Den anslåtte aktivalevetiden som gjenstår etter det første regnskapsåret, vil alltid være et halvt år når halvårsavskrivningsmetoden brukes. For at metoden for halvårsavskrivning skal fungere som den skal, må det alltid være en dato i feltet **Sluttdato for avskrivning** i vinduet **Aktivaavskrivningstablå**. Denne datoen må komme nøyaktig seks måneder før avslutningsdatoen i det regnskapsåret som aktivaet blir fullt avskrevet i.  
+> [!NOTE]  
+>   Den anslåtte aktivalevetiden som gjenstår etter det første regnskapsåret, vil alltid være et halvt år når halvårsavskrivningsmetoden brukes. For at metoden for halvårsavskrivning skal fungere som den skal, må det alltid være en dato i feltet **Sluttdato for avskrivning** i vinduet **Aktivaavskrivningstablå**. Denne datoen må komme nøyaktig seks måneder før avslutningsdatoen i det regnskapsåret som aktivaet blir fullt avskrevet i.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Eksempel: Halvårsavskrivning
 Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 01.03.10. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 30.06.15. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
@@ -343,12 +346,14 @@ Hvis du har tre avskrivningstablåer, T1, T2 og T3, og vil duplisere poster fra 
 
 Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Bruk duplikatoversikt**, dupliseres posten i tablå T2 og T3 i aktivakladden når posten bokføres.  
 
-**Merk:** Du kan ikke duplisere i den samme kladden som du dupliserer fra. Hvis du bokfører poster i aktivafinanskladden, kan du duplisere postene i aktivakladden eller i aktivafinanskladden ved hjelp av en annen kladd.  
+> [!NOTE]  
+>   Du kan ikke duplisere i den samme kladden som du dupliserer fra. Hvis du bokfører poster i aktivafinanskladden, kan du duplisere postene i aktivakladden eller i aktivafinanskladden ved hjelp av en annen kladd.  
 
-**Merk**: Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
+> [!NOTE]  
+>   Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
 
 ## <a name="see-also"></a>Se også
-[Anleggsmidler](fa-manage.md)  
+[Aktiva](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

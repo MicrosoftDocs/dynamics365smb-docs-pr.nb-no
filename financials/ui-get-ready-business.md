@@ -1,6 +1,6 @@
 ---
 title: Velkommen| Microsoft-dokumentasjon
-description: "Bli klar til å gjøre forretninger."
+description: "Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og vinduene du bruker til å bli klar til å gjøre forretninger i Dynamics 365 for Financials."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fe2a7eb24acf0830a8ebaadafa695e7a34023198
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
@@ -23,9 +23,10 @@ Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](incl
 
 For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til vinduet **Virksomhetshjelp** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du åpner vinduet fra diagrammet i rollesenteret **Forretningsleder** ved å velge rullegardinlisten **Virksomhetshjelp** og deretter velge det **Vis ressurser for oppsett og hjelp**. Når du oppdaterer siden, erstattes diagrammet med ressurser for oppsett og hjelp.
 
-På hjemmesiden nederst i navigasjonsruten finner du menyen **Oppsett og utvidelser**. Utvid **Hjem**-knappen for å se navigasjonsruten. Her har du tilgang til en liste over assisterte oppsett som kan hjelpe deg med å komme i gang. Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre assistert oppsettet kan hjelpe deg, avhengig av dine behov. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+På hjemmesiden nederst i navigasjonsruten finner du menyen **Oppsett og utvidelser**. Utvid **Hjem**-knappen for å se navigasjonsruten. Her har du tilgang til en liste over assisterte oppsett som kan hjelpe deg med å komme i gang. Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre assistert oppsettet kan hjelpe deg, avhengig av dine behov. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-**Merk:** Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Basic**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Basic-opplevelsen. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Løsning**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 I vinduet **Assistert oppsett** finner du følgende sammen med **Basic**-opplevelsen:
 
@@ -50,7 +51,7 @@ Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte 
 Under **Selskapsinnstillinger** kan du vise og redigere informasjon om gjeldende firma, og mye av dette ble forhåndsutfylt hvis du fullførte det assisterte oppsettet **Konfigurer selskap** da du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil endre firmalogo, kontaktinformasjon, innstillinger for banken eller mva-informasjon, kan du gjøre det fra dette vinduet.    
 
 ## <a name="adding-users-and-permissions"></a>Legge til brukere og tillatelser
-Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brukere er opprettet i Office 365, kan de importeres i **Brukere**-vinduet ved å velge handlingen **Hent brukere fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, se [Administrere brukere og tillatelser](ui-how-users-permissions.md).  
+Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brukere er opprettet i Office 365, kan de importeres i **Brukere**-vinduet ved å velge handlingen **Hent brukere fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).  
 
 ## <a name="getting-help"></a>Få hjelp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du verktøytips som kan hjelpe deg gjennom ulike forretningsprosesser. I hvert verktøytips finner du en kobling kalt **Finn ut mer**, som omdirigerer deg til hjelpen for produktet. Spørsmålstegnet øverst i høyre hjørne henviser også til hjelpen for produktet.

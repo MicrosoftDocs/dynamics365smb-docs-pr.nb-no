@@ -1,6 +1,6 @@
 ---
-title: Forsyningskjede| Microsoft-dokumentasjon
-description: "Finn ut mer om viktige begreper og prosesser når det gjelder forsyningskjede"
+title: "Forsyningskjedefunksjoner som støttes i Financials | Microsoft-dokumentasjon"
+description: "Få en produktoversikt over og informasjon om viktige forsyningskjedebegreper og -prosesser som er en del av ERP-løsningen."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product overview, ERP
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 4ed8437f5d1b7628f256bb435de8ba13bd64a8f9
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3bae84075dc505aa9318590b1fac06e4844ffafe
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="supply-chain"></a>Forsyningskjede
+# <a name="overview-of-supply-chain-functionality"></a>Oversikt over forsyningskjedefunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter vanlige forsyningskjedeprosesser, selv om begrenset til behovene for engros- og distribusjonsselskaper uten administrert lagerhåndtering.
 
 I tillegg til salgsfakturadokumenter kan du administrere oppfyllelse av ordren med salgsordrer, som lar deg sende deler av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig samtidig. Du kan få varene levert direkte fra en leverandør til en kunde ved å koble salgsordren til den tilknyttede bestillingen.
@@ -36,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Hvis du vil | Se |
 | --- | --- |
 | Registrer nye kunder, gi salgstilbud, selg produkter på ordrer eller fakturaer, for eksempel som direkte leveringer, og behandle ordrereturer. |[Salg](sales-manage-sales.md) |
-| Registrer nye leverandører, kjøp produkter på ordrer eller fakturaer, for eksempel startet fra en salgsfaktura, og administrer bestillingsreturer. |[Innkjøp](purchasing-manage-purchasing.md) |
+| Registrere nye leverandører, kjøpe varer på ordrer eller fakturaer, for eksempel startet fra en salgsfaktura, og administrere bestillingsreturer. |[Innkjøp](purchasing-manage-purchasing.md) |
 | Registrer nye fysisk produkter eller serviceprodukter, juster lagerantallet og administrer lagerverdien ved å bokføre justert kost i finans. |[Lager](inventory-manage-inventory.md) |
 
 ## <a name="see-also"></a>Se også

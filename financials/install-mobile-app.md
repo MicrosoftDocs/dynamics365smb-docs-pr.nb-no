@@ -1,6 +1,6 @@
 ---
-title: "Få Dynamics 365 for Financials på mobilenheten din| Microsoft-dokumentasjon"
-description: "Få appen for mobilenheten."
+title: "Bruke Financials på mobilenheten din | Microsoft-dokumentasjon"
+description: "Du kan vise og redigere Financials-dataene på telefonen eller nettbrettet."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 8f81f266a796798c79b305896f501d84531d60a7
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 05/04/2017
 Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Få appen på mobilenheten
-1. Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen på mobilenheten ved å laste ned appen fra Windows Store, App Store eller Google Play  
+1. Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen på mobilenheten ved å laste ned appen fra Windows Store, App Store eller Google Play.  
 [![Windows Store](./media/install-mobile-app/windowsstore.png)](http://go.microsoft.com/fwlink/?LinkId=734848)
 [![App Store](./media/install-mobile-app/appstore.png)](http://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](http://go.microsoft.com/fwlink/?LinkId=734849)  
 2. Start appen fra mobilenheten.

@@ -1,6 +1,6 @@
 ---
-title: Fakturere salg| Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker salgsfakturaer.
+title: Opprett en salgsfaktura eller ordre | Microsoft-dokumentasjon
+description: "Beskriver hvordan du oppretter en sluttseddel, eller en salgsfaktura eller ordre, for å registrere avtalen med en kunde om å selge produkter i samsvar med bestemte betingelser."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -8,21 +8,22 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bill, sale
+ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e9fbf7b6599c4136a4077f199feb8f2f00d3a959
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-invoice-sales"></a>Fakturere salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
-**Merk:** Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:  
+> [!NOTE]  
+>   Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:  
 
 * Hvis du trenger å levere bare en del av en bestillingsantall, for eksempel fordi det fullstendige antallet ikke er på lager.  
 * Hvis du selger varer som leverandøren gir deg direkte til kunden, kjent som direkte levering. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md).  
@@ -66,7 +67,8 @@ Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedl
 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 
-    **Merk:** Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
+    > [!NOTE]  
+>   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 
@@ -91,5 +93,6 @@ Beslektet element og kundeposter opprettes nå i systemet, og salgsfakturaen skr
 [Sette opp salg](sales-setup-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Massefakturering fra Microsoft Bookings i Dynamics 365 for Financials](finance-bookings.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

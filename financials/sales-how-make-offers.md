@@ -1,6 +1,6 @@
 ---
-title: Gi tilbud| Microsoft-dokumentasjon
-description: Gi tilbud
+title: Opprette et tilbud | Microsoft-dokumentasjon
+description: "Beskriver hvordan du oppretter et tilbud eller et tilbudsforespørselsdokument for å registrere tilbudet til en kunde og selge produkter under visse betingelser."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: e04af16b9fcd08217e2a3efc60288805a4db26f2
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -51,7 +51,8 @@ Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedl
 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.
 
-    **Merk:** Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
+    > [!NOTE]  
+>   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 

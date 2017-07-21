@@ -1,6 +1,6 @@
 ---
-title: Korrigere eller annullere ubetalte salgsfakturaer| Microsoft-dokumentasjon
-description: Korrigere eller annullere ubetalte salgsfakturaer
+title: "Korrigere eller annullere en bokført salgsfaktura | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du korrigerer, angrer eller annullerer en bokført salgsfaktura og utligner en salgskreditnota."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,17 +13,18 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 9289aeb9b44ec300646fbe6e6fdbf77e72cd7b08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3cfa755b60a7ea24cc992e32a8f10d967e383f0f
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>Korrigere eller annullere ubetalte salgsfakturaer
 Du kan korrigere eller annullere en bokført salgsfaktura. Dette er nyttig hvis du gjør en feil eller hvis kunden ber om en endring tidlig.
 
-**Merk**: Etter at en bokført salgsfaktura er delvis eller helt betalt, kan du ikke korrigere eller annullere den fra den bokførte salgsfakturaen. I stedet må du manuelt opprette en salgskreditnota for å annullere salget og refundere kunden. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
+> [!NOTE]  
+>   Etter at en bokført salgsfaktura er delvis eller helt betalt, kan du ikke korrigere eller annullere den fra den bokførte salgsfakturaen. I stedet må du manuelt opprette en salgskreditnota for å annullere salget og refundere kunden. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
 I vinduet **Bokført salgsfaktura** kan du velge handlingen **Korriger** eller **Avbryt** for å utføre handlingene som er beskrevet i tabellen nedenfor.
 
@@ -35,10 +36,11 @@ I vinduet **Bokført salgsfaktura** kan du velge handlingen **Korriger** eller *
 Når du korrigerer eller annullerer en bokført salgsfaktura, utlignes den korrigerende salgskreditnotaen mot alle finans- og lagerposter som ble opprettet da den opprinnelige salgsfakturaen ble bokført. Dette tilbakefører den bokførte salgsfakturaen i finanspostene og etterlater den korrigerende bokførte salgskreditnotaen for revisjonssporingen.
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Slik korrigerer du en bokført salgsfaktura:
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og deretter velger du den beslektede koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte salgsfakturaen du vil rette.
 
-    **Merk**: Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte salgsfakturaen fordi den allerede er korrigert eller annullert.
+    > [!NOTE]  
+>   Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte salgsfakturaen fordi den allerede er korrigert eller annullert.
 3. I vinduet **Bokført salgsfaktura** velger du handlingen **Korriger**.  
 4. Det opprettes en ny salgsfaktura med den samme informasjonen, der du kan foreta korrigeringen. Feltet **Kansellert** i den første bokførte salgsfakturaen endres til **Ja**.
 
@@ -46,10 +48,11 @@ Når du korrigerer eller annullerer en bokført salgsfaktura, utlignes den korri
 5. Velg handlingen **Vis korrigerende kreditnota** for å vise den bokførte salgskreditnotaen som annullerer den første bokførte salgsfakturaen.
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Slik annullerer du en bokført salgsfaktura:
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og deretter velger du den beslektede koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte salgsfakturaen du vil avbryte.
 
-    **Merk**: Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte salgsfakturaen fordi den allerede er annullert eller korrigert.
+    > [!NOTE]  
+>   Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte salgsfakturaen fordi den allerede er annullert eller korrigert.
 3. I vinduet **Bokført salgsfaktura** velger du handlingen **Annuller**.
 
     En salgskreditnota opprettes og bokføres automatisk for å annullere den første bokførte salgsfakturaen. Feltet **Kansellert** i den første bokførte salgsfakturaen endres til **Ja**.

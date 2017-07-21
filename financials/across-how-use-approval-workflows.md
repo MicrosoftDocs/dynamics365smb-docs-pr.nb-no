@@ -1,6 +1,6 @@
 ---
-title: Bruke arbeidsflyter for godkjenning| Microsoft-dokumentasjon
-description: Bruke arbeidsflyter for godkjenning
+title: Godkjenne eller avvise dokumenter i arbeidsflyter | Microsoft-dokumentasjon
+description: "Be om, avvise eller delegere en godkjenning, for eksempel av et kjøps- eller salgsdokument, som en del av en arbeidsflyt."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/25/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ed08fdb7f78c9f6c338e287cd4ef42d7ce0cb72c
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,13 +26,14 @@ Du setter opp arbeidsflyter for godkjenning i **Arbeidsflyt**-vinduet.
 
 Kjernearbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekortene, er klar til å starte som assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
-**Merk**: Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
 Oppgavene nedenfor utføres av en godkjenningsbruker.
 
 1. I vinduet som viser posten, velger du handlingen **Send godkjenningsforespørsel**.
-2. Hvis du vil se alle godkjenningsforespørsler, i øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Godkjenningsforespørselsposter**, og deretter velger du den beslektede koblingen.
+2. Hvis du vil vise alle godkjenningsforespørsler, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Godkjenningsforespørselsposter** og velger deretter den relaterte koblingen.  
 
 Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Statusen for posten, for eksempel en kjøpsfaktura, oppdateres fra **Åpen** til **Venter på godkjenning** og forblir låst for behandling til alle godkjennerne har godkjent posten.
 
@@ -63,7 +64,7 @@ Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Du kan behandle forespørsler om godkjenning i vinduet **Forespørsler å godkjenne**, for eksempel for å godkjenne flere forespørsler samtidig. Du kan også behandle hver forespørsel på den relaterte posten, for eksempel vinduet **Kjøpsfaktura**, ved å velge koblingen i meldingen du mottar.
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Forespørsler å godkjenne**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
 2. Velg én eller flere linjer for posten eller postene du vil godkjenne eller avvise.
 3. Velg handlingen **Godkjenn**, **Avvis** eller **Deleger**.
 
@@ -78,7 +79,7 @@ Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Hvis du vil hindre at dokumenter hoper seg opp eller blokkerer arbeidsflyten på andre måter, kan godkjenner og godkjenningsadministrator delegere en godkjenningforespørsel til en stedfortredende godkjenner. Stedfortrederen kan enten være en angitt stedfortreder, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Du bruker vanligvis denne funksjonen hvis en godkjenner ikke er på kontoret og ikke kan godkjenne forespørsler før forfallsdatoen.
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Forespørsler å godkjenne**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
 2. Velg én eller flere linjer for godkjenningsforespørsler du vil delegere til en stedfortredende godkjenner, og velg deretter handlingen **Deleger**.
 
 Et varsel om å godkjenne forespørselen sendes til stedfortredende godkjenner.
@@ -90,12 +91,12 @@ Med jevne mellomrom må du vil påminne brukere av arbeidsflyt for godkjenning o
 
 Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes åpne godkjenningsforespørsler som er forfalt. Hver godkjenner som har minst én forfalt godkjenningspost, mottar en varsling med listen over alle forfalte godkjenningsforespørsler. Varslingen sendes også til godkjenneren og alle som ber om forfalte godkjenninger. Dette hjelper hvis den forfalte godkjenningsposten må delegeres til en stedfortreder.
 
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Forfalte godkjenningsforespørsler**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. I vinduet **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)    
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
 

@@ -1,6 +1,6 @@
 ---
-title: "Vanlige spørsmål | Microsoft-dokumentasjon"
-description: "Vanlige spørsmål om å registrere seg for og bruke Dynamics 365 for Financials.."
+title: "Vanlige spørsmål om bruk av Financials | Microsoft-dokumentasjon"
+description: "Gir svar på vanlige spørsmål om hvordan du registrerer deg for Financials, og hva du gjør for å komme i gang."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
-ms.date: 03/22/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 58ba70311a035afd08bc5b4d0193fc34b132a39f
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: f4c4180c1ea70d8ef17136d56cc0f21e50f4f302
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -32,13 +32,13 @@ Hvis du prøver å registrere deg med en personlig e-postadresse, får du en mel
 Nei. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvordan fungerer integreringen med Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som innboks for virksomheten i Outlook (madeira-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som innboks for virksomheten i Outlook](madeira-outlook.md).  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jeg avbryte abonnementet?
-Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)](madeira-cancel.md).  
+Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)]](madeira-cancel.md).  
 
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvor går jeg hvis jeg har spørsmål?
-Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] at du ikke finner et svar for i denne dokumentasjonen, kan du spørre Dynamics-365 for Financials-fellesskapet. Hvis du vil ha mer informasjon, se [Dynamics 365, Business edition-fellesskapet](https://community.dynamics.com/business). Vårt kundestøtteteam publiserer også tips og triks. Hvis du vil ha mer informasjon, se [Dynamics 365 for Financials støtteblogg](https://blogs.msdn.microsoft.com/dyn365finsupport).  
+Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] at du ikke finner et svar for i denne dokumentasjonen, kan du spørre Dynamics-365 for Financials-fellesskapet. Hvis du vil ha mer informasjon, kan du se [Dynamics 365, Business edition-fellesskapet](https://community.dynamics.com/business). Vårt kundestøtteteam publiserer også tips og triks. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 for Financials støtteblogg](https://blogs.msdn.microsoft.com/dyn365finsupport).  
 
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det mulig å utvide min 30-dagers prøveperioden for "Nytt selskap"?
 Ja. Hvis du vil utvide en prøveperiode, bør du kontakte Microsoft på 1-888-477-7989 (USA) eller 1-800-741-9206 (Canada). Merk: Det kan ta opptil 2 arbeidsdager å fullføre utvidelsen av prøveversjonen.  

@@ -1,6 +1,6 @@
 ---
-title: "Økonomimodulen og kontoplanen| Microsoft-dokumentasjon"
-description: "Beskriver økonomimodulen, kontoplanen og kontokategoriene."
+title: Informasjon om Finans og kontoplan | Microsoft dokumenter
+description: Beskriver Finans, kontoplanen og kontokategoriene.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 02/14/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 04b94fa9f737765edbb1c93c506b444179b86fcf
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 06becfd7e54803fea925e8364719576bef0a8bab
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="the-general-ledger-and-the-chart-of-accounts"></a>Økonomimodulen og kontoplanen
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Forstå Finans og kontoplanen
 Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansoppsett og generelt bokføringsoppsett
@@ -49,7 +49,7 @@ Du kan tilpasse strukturen i kontoutskrifter ved å tilordne finanskontoer til k
 
 Vinduet **Finanskontokategorier** viser dine kategorier og underkategorier og finanskonti som er tilordnet til dem. Du kan opprette nye underkategorier og tilordne disse kategoriene til eksisterende kontoer.  
 
-Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under en linje i vinduet **Finanskontokategorier**. Dette gjør det enkelt for deg å få en oversikt, fordi hver gruppering viser den totale saldoen. Du kan opprette underkategorier for ulike typer aktiva, og deretter opprette kategorigrupper for anleggsmidler kontra omløpsmidler.  
+Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under en linje i vinduet **Finanskontokategorier**. Dette gjør det enkelt for deg å få en oversikt, fordi hver gruppering viser den totale saldoen. Du kan opprette underkategorier for ulike typer aktiva, og deretter opprette kategorigrupper for aktiva kontra omløpsmidler.  
 
 Du kan angi om kontoene i hver underkategori må inkluderes i bestemte typer rapporter. Kontokategoriene bidra til å definere oppsettet for regnskapsoppgjør.  
 
@@ -64,5 +64,5 @@ Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kont
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Definere eller endre kontoplanen](finance-setup-chart-accounts.md)  
-[Kontoskjemaer](finance-account-schedule.md)  
+[Forretningsintelligens](bi.md)  
 

@@ -1,6 +1,6 @@
 ---
-title: Anleggsmidler| Microsoft-dokumentasjon
-description: Beskriver hvordan du administrerer aktiva.
+title: Administrere aktiva | Microsoft-dokumentasjon
+description: "Les om aktivafunksjonaliteten i Financials, og få en oversikt over hvordan du arbeider med aktiva."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d57603202d9e2e5304c899eaf764dde8cfa6369d
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="fixed-assets"></a>Anleggsmidler
+# <a name="fixed-assets"></a>Aktiva
 Aktivafunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Deretter kan du begynne å kjøpe, vedlikeholde og selge aktiva. Du kan også definere budsjetterte aktiva. Dette gjør det mulig å ta med eventuelle forventede anskaffelser og salg i rapporter.
@@ -31,9 +31,11 @@ For hvert enkelt aktiva kan du registrere vedlikeholdskostnader og dato for nest
 
 Hvert aktiva kan knyttes til én eller flere forsikringspoliser. Det er dermed lett å kontrollere at beløpene for forsikringspolisen er i overensstemmelse med verdien på aktivaene som er knyttet til polisen. Dette gjør det dessuten enkelt å følge med på de årlige forsikringspremiene.
 
-**Merk**: Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-vinduet. Se [Definere avskriving av aktiva](fa-how-setup-depreciation.md) for mer informasjon.
+> [!NOTE]  
+>   Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-vinduet. Se [Definere avskriving av aktiva](fa-how-setup-depreciation.md) hvis du vil ha mer informasjon.
 
-**Merk**: Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 Før du kan begynne å behandle aktiva, må du definere standardverdier, aktivaregnskap, bokføringsgrupper, fordelingsnøkler, kladder og bokføringstyper. Hvis du vil ha mer informasjon, kan du se [Definere aktiva](fa-setup.md).
 

@@ -1,6 +1,6 @@
 ---
-title: Definere selgere| Microsoft-dokumentasjon
-description: Definere selgere
+title: Definere en selger | Microsoft-dokumentasjon
+description: Du kan definere en identifikator for hver enkelt selger, slik at du kan spore prestasjonen til en person eller tilordne en selger til en kontakt.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: sales rep
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 6eb41f7b2498368714b49c7ba3a9468b6afc46be
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 36633b3a3882fa8c580fa8a0dc5ca4f309d2dbb6
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -26,8 +26,10 @@ Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasj
 Når du har angitt en selger i vinduet **Selgere**, kan du velge den i feltet **Selgerkode** i alle relevante poster, for eksempel finanskonto, kunde, leverandør, kontakter og kampanjekort. Deretter, når du bokfører eller oppretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer og så videre, overføres selgerkoden til postene.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Definere selgerkoder
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Selgere**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Selgere** velger du handlingen **Ny**.
+
+Du kan bruke selgere i diverse arbeid vedrørende håndtering av kunderelasjoner og markedsføring. Du kan for eksempel tilordne oppgaver til selgere, slik at oppgavene tas med i salgsmuligheter som selgeren er tilordnet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md). 
 
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  

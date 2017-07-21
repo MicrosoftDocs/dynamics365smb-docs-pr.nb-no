@@ -1,6 +1,6 @@
 ---
-title: Lagrede innstillinger i rapporter
-description: Beskriver hvordan du bruker lagrede innstillinger i en rapport.
+title: Bruke og endre lagrede innstillinger i rapporter | Microsoft-dokumentasjon
+description: "Beskriver hvordan du bruker forhåndsdefinerte alternativer og filtre til å tilpasse rapporter og generere riktige data."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/12/2016
+ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 7afbd31e77a4f53ee99fbb192dd8a32a660f87eb
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 9e5f7417579a5ba0629032cf9fa664e0060b9cbf
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -36,7 +36,7 @@ Du kan se de lagrede innstillingene som er tilgjengelige for en rapport i delen 
 ## <a name="administer-saved-report-settings-for-users"></a>Administrere lagrede rapportinnstillinger for brukere
 Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innstillingene for alle rapporter for alle brukere i firmaet. Du kan tilordne lagrede innstillingene for en rapport til enkeltbrukere eller alle brukerne i firmaet.
 
-Du kan administrere lagrede innstillinger fra siden 1506 **Rapportinnstillinger**. Du kan åpne denne siden, i øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Rapportinnstillinger**, og deretter velger du den beslektede koblingen.
+Du kan administrere lagrede innstillinger fra siden 1506 **Rapportinnstillinger**. Du åpner denne siden ved å velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Rapportinnstillinger** og deretter velge den relaterte koblingen.
 
 Fra siden **Rapportinnstillinger** kan du opprette en ny innstillinger fra bunnen av eller du kan kopiere og endre eksisterende innstillinger. Hvis du vil endre alternativer og filtre for en innstillingene, velger du **Rediger**-handling.
 

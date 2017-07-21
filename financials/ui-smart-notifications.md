@@ -1,6 +1,6 @@
 ---
-title: Smarte varsler | Microsoft-dokumentasjon
-description: "Smarte varsler gir deg råd og anbefalinger."
+title: "Arbeide med smarte varsler og angi når du ser dem | Microsoft-dokumentasjon"
+description: Du kan motta varsler som informerer deg om statusendringer eller hendelser, for eksempel en forfalt saldo eller lav beholdning.
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2016
+ms.date: 10/24/2017
 ms.author: bholtorf
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 96fd7894545855dd2572e100d674415ca19104db
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -31,7 +31,7 @@ Når du først starter med [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle 
 I tillegg kan noen meldinger du angi betingelsene som de ble sendt. For eksempel hvis du ønsker å bli varslet når lageret er lite, men bare for varer kjøper du fra en bestemt leverandør.  
 Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.  
 
-1. I øvre høyre hjørne velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Mine varsler**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mine varsler**, og velg deretter den relaterte koblingen.
 2. Hvis du vil aktivere eller deaktivere et varsel, merker eller fjerner du **Aktivert**-merket.
 3. Hvis du vil angi vilkårene som utløser et varsel, kan du velge koblingen **Vis filterdetaljer**, og deretter fyller du ut feltene.  
 

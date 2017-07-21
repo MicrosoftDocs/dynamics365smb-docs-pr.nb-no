@@ -1,6 +1,6 @@
 ---
-title: Administrere brukere og tillatelser | Microsoft-dokumentasjon
-description: Administrer tillatelsessett for brukere etter at du har opprettet brukere i Office 365.
+title: Tilordne brukertillatelser og opprette eller endre tillatelsessett | Microsoft-dokumentasjon
+description: Beskriver hvordan du legger til Office 365-brukere i Financials og deretter tilordner tillatelser, tilgangsrettigheter og sikkerhetsinnstillinger.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/29/2017
+ms.date: 06/27/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: d1a973b864a654e2047c5a89271519da04f55c08
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -27,16 +27,17 @@ Når brukere er opprettet i Office 365, kan de importeres i **Brukere**-vinduet 
 
 Du kan deretter fortsette med å tildele tillatelser til brukere til å definere hvilke databaseobjekter, og dermed hvilke grensesnittelementer, de har tilgang til, og i som bedrifter.
 
-**Viktig**: Hvis databasen har flere firmaer, må minst én bruker være medlem av SUPER-brukergruppen i alle firmaer.
-
 Et tillatelsessett er en samling tillatelser for bestemte objekter i databasen. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)]. Et antall forhåndsdefinerte tillatelsessett leveres som standard. Du kan bruke disse tillatelsessettene slik de allerede er definert, endre standardtillatelsessettene eller opprette flere egne tillatelsessett.
 
 Du kan legge til brukere i grupper. Dette gjør det enklere å tilordne samme tillatelsessett til flere brukere.
 
-**Merk**: Denne funksjonen krever at opplevelsen er satt til Løsning. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).
+Administratorer kan bruke vinduet **Brukeroppsett** til å definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på.
+
+> [!NOTE]  
+>   Denne funksjonen krever at opplevelsen er satt til Løsning. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Slik tilordner du tillatelser til en bruker til
-1. I øvre høyre hjørne velger du ikonet Søk etter side eller rapport, angir **Brukere** og velger deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
 2. Velg brukeren du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Rediger** for å åpne **Brukerkort**-vinduet.
@@ -45,7 +46,7 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 ## <a name="to-group-users-in-user-groups"></a>Slik grupperer du brukere i brukergrupper
 Du kan definere brukergrupper til å administrere tillatelsessett for grupper av brukere i firmaet. Du kan bruke en funksjon til å kopiere alle tillatelsessett fra en eksisterende brukergruppe til den nye brukergruppen. Medlemmene i brukergruppen kopieres ikke.
 
-1. I øvre høyre hjørne velger du ikonet Søk etter side eller rapport, angir **Brukergrupper** og velger deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
 2. Du kan også gå til vinduet **Brukere** og velge handlingen **Brukergrupper**.
 3. I vinduet **Brukergrupper** velger du en eksisterende brukergruppe du vil kopiere, og velg deretter **Kopier brukergruppe**.
 4. I feltet **Ny brukergruppekode** angir du navnet på den nye brukergruppen, og velg deretter **OK**-knappen.
@@ -60,7 +61,7 @@ Du kan definere brukergrupper til å administrere tillatelsessett for grupper av
 Hvis de standard tillatelsessettene som følger med [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke er tilstrekkelige eller aktuelle for din organisasjon, kan du opprette nye tillatelsessett. Og hvis de individuelle objekttillatelsene som definerer et tillatelsessett ikke er tilstrekkelige, kan du endre tillatelsessettet. Du kan opprette et tillatelsessett manuelt, eller du kan bruke en registrering funksjon som registrerer handlingene dine mens du navigerer gjennom et scenario og genererer deretter nødvendige tillatelsessettet.
 
 ### <a name="to-create-or-modify-permission-sets-manually"></a>Opprette eller endre tillatelsessett manuelt
-1. I øvre høyre hjørne velger du ikonet Søk etter side eller rapport, angir **Brukere** og velger deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Brukere** velger du handlingen **Tillatelsessett**.
 3. I vinduet **Tillatelsessett** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov på en ny linje.
@@ -82,7 +83,7 @@ Hvis de standard tillatelsessettene som følger med [!INCLUDE[d365fin](includes/
 9. Gjenta trinn 7 og 8 for å legge til tillatelser for flere objekter i tillatelsessettet.
 
 ### <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Hvis du vil opprette eller endre tillatelsen angis ved makroregistreringen
-1. I øvre høyre hjørne velger du ikonet Søk etter side eller rapport, angir **Brukere** og velger deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Brukere** velger du handlingen **Tillatelsessett**.
 3. I vinduet **Tillatelsessett** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov på en ny linje.
@@ -100,6 +101,14 @@ Du kan tilordne en indirekte tillatelse til å bruke et objekt, bare via et anne
 En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, **Sales-Post**. Kodeenheten **Sales-Post** utfører mange oppgaver, inkludert å endre tabell 37, **salgslinjen**. Når du bokfører et salgsdokument, **Sales-Post**-kodeenheten, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] om brukeren har tillatelse til å endre **Salgslinje**-tabellen. Hvis ikke kan ikke kodeenheten fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
 
 Brukeren trenger imidlertid ikke full tilgang til tabellen **Salgslinje** for å kunne kjøre kodeenheten. Hvis brukeren har indirekte tillatelse til **Salgslinje**-tabellen, kjører kodeenheten **Sales-Post** uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen **Salgslinje** ved å kjøre kodeenheten **Sales-Post** eller et annet objekt som har tillatelse til å endre tabellen **Salgslinje**. Brukeren kan bare endre **Salgslinje**-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
+
+## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
+Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere.
+
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.
+2. I vinduet **Brukeroppsett** velger du handlingen **Ny**.
+3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
+4. Fyll ut feltene etter behov.
 
 ## <a name="see-also"></a>Se også
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

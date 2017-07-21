@@ -1,6 +1,6 @@
 ---
-title: Bruke Dynamics 365 for Financials-innholdspakker for Power BI | Microsoft-dokumentasjon
-description: "Få innsikt i Financials-dataene på en enkel måte med Power BI og Financials-innholdspakkene."
+title: Dynamics 365 for Financials og innholdspakker for Power BI | Microsoft-dokumentasjon
+description: "Få innsikt, forretningsintelligens og KPI-er fra Financials-dataene på en enkel måte med Power BI og Financials-innholdspakkene."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 70e3e166f344d373750c969bd5816a8e67589e53
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 537effab2f406d619c5000efad12754db678e8b8
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Aktivere av forretningsdata for Power BI
+# <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 Få innsikt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene på en enkel måte med Power BI og [!INCLUDE[d365fin](includes/d365fin_md.md)]-innholdspakkene. Power BI henter dataene, og deretter bygger du et forhåndskonfigurert instrumentbord og rapporter basert på dataene.  
 
 Innholdspakkene er forhåndskonfigurert til å arbeide med salgsdata og økonomiske data fra demonstrasjonsselskapet som du får når du registrerer deg for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].  
@@ -30,7 +30,8 @@ Innholdspakkene er forhåndskonfigurert til å arbeide med salgsdata og økonomi
 * Fest denne tilpassede visningen på instrumentbordet for å fortsette sporing.  
   Instrumentbordet og underliggende rapporter oppdateres daglig. Du kan kontrollere tidsplanen for oppdatering og endre hyppigheten for datasettet.  
 
-**Merk**: Du kan også lage dine egne rapporter og instrumentbord i Power BI basert på dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. For mer informasjon, se [Bruke Dynamics 365 for Financials som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).  
+> [!NOTE]  
+>   Du kan også lage dine egne rapporter og instrumentbord i Power BI basert på [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene dine. Hvis du vil ha mer informasjon, kan du se [Koble forretningsdata til Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Hvis du vil se [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene i Power BI, må du ha følgende:  
@@ -74,7 +75,8 @@ Du finner denne informasjonen, i [!INCLUDE[d365fin](includes/d365fin_md.md)], s�
 * SalesOrdersBySalesPerson  
 * TopCustomerOverview  
 
-**Merk**: Hvis du endrer navnet på noen av disse webtjenestene, vises ikke dataene vil ikke i Power BI.  
+> [!NOTE]  
+>   Hvis du endrer navnet på noen av disse webtjenestene, vises ikke dataene i Power BI.  
 Hvis du vil legge til bruker andre data i Power BI, må du finne tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)], vise dem som webtjenester og deretter legge dem til i Content Pack. Dette er et avansert scenario, og vi anbefaler at du starter med data som allerede er tilgjengelige i Power BI.  
 
 ## <a name="troubleshooting"></a>Feilsøking
@@ -98,7 +100,8 @@ Hvis du får en "påloggingen mislyktes"-feil når du logger på instrumentborde
     Kontroller brukerkontoen i [!INCLUDE[d365fin](includes/d365fin_md.md)], og kontroller at du har brukt riktig tilgangsnøkkel for webtjeneste som passord, og prøv deretter på nytt.  
 * [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomsten som du prøver å koble til, har ikke et gyldig SSL-sertifikat. I dette tilfellet vil du se en mer detaljert feilmelding ("kan ikke opprette en klarert relasjon for SSL").
 
-    **Merk**: Selvsignerte sertifikater støttes ikke.  
+    > [!NOTE]  
+>   Selvsignerte sertifikater støttes ikke.  
 
 **"Oops"**  
 Hvis du ser en "Oops"-feilmelding etter at du har fullført godkjenningsdialogboksen, forårsakes dette vanligvis av et problem med tilkoblingen til dataene for Content Pack.
@@ -115,9 +118,9 @@ Hvis du ser en "Oops"-feilmelding etter at du har fullført godkjenningsdialogbo
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Overfør forretningsdata fra andre økonomisystemer](upload-data.md)  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md).  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow] (across-how-use-financials-data-source-flow.md)  
+[Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

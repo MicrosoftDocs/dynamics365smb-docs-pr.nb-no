@@ -1,6 +1,6 @@
 ---
-title: Endre grunnleggende innstillinger| Microsoft-dokumentasjon
-description: "Lær hvordan du kan endre noen av de grunnleggende innstillingene i Financials."
+title: Vise og redigere grunnleggende innstillinger i Financials | Microsoft-dokumentasjon
+description: Finn ut hvordan du kan endre noen av de grunnleggende innstillingene i Financials, for eksempel rollesenteret, selskapet eller arbeidsdatoen.
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: cf910084523c51cd2966335bf3a7c8f81d3d0670
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,14 +37,17 @@ Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365f
 
 Standardfirma kalles CRONUS, og inneholder demonstrasjonsdata bare.
 
-**Tips**: Hvis du vil vise et annet navn for firmaet i programmet (for eksempel på hjemmeside), setter du **Navn**-feltet på siden **Informasjon om firmaet** eller **Visningsnavn** på **Selskaper**-siden.  
+> [!TIP]  
+>   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel på Hjem-siden), angir du **Navn**-feltet på siden **Selskapsopplysninger** eller **Visningsnavn** på **Selskaper**-siden.  
 
 ## <a name="work-date"></a>Arbeidsdato
 Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er gjeldende dato.
 
-**Tips**: Skriv inn **w** hvis du hurtig vil angi arbeidsdatoen i et datofelt. Skriv inn **t** hvis du hurtig vil angi gjeldende dato i datofeltet.
+> [!TIP]  
+>   Skriv inn **w** hvis du raskt vil angi arbeidsdatoen i et datofelt. Skriv inn **t** hvis du hurtig vil angi gjeldende dato i datofeltet.
 
-**Viktig**: Arbeidsdatoen endres bare til du lukker selskapet eller til datoen endres. Hvis du åpner et annet selskap eller åpner det samme selskapet dagen etter og fortsatt må bruke en annen arbeidsdato, må du angi arbeidsdatoen på nytt.
+> [!IMPORTANT]  
+>   Arbeidsdatoen endres bare til du lukker selskapet eller til datoen endres. Hvis du åpner et annet selskap eller åpner det samme selskapet dagen etter og fortsatt må bruke en annen arbeidsdato, må du angi arbeidsdatoen på nytt.
 
 ## <a name="confirmation-dialogs"></a>Bekreftelsesdialoger
 Bruk alternativene i denne delen hvis du vil angi noen tilleggskontroller for postering av dokumenter. Disse alternativene er merket som standard, men du kan fjerne merket i avmerkingsboksene for å unngå visning av bestemte advarsler eller meldinger.

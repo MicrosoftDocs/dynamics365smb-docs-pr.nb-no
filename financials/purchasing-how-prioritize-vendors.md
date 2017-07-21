@@ -1,6 +1,6 @@
 ---
-title: "Prioritere leverandører| Microsoft-dokumentasjon"
-description: "Prioritere leverandører"
+title: "Tilordne et prioritetsnivå til en leverandør | Microsoft-dokumentasjon"
+description: "Du kan tilordne numre til leverandørene for å prioritere dem og forenkle betalingsforslag i Financials."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: ae80ae9ecc15838b59999ded775c7fa0063c8a54
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md).
 
-Først må du prioritere leverandørene ved å tilordne numre til dem..
+Først må du prioritere leverandørene ved å tilordne numre til dem.
 
 ## <a name="to-prioritize-vendors"></a>Slik prioriterer du leverandører
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Leverandører**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Velg den aktuelle leverandøren, og velg deretter **Rediger**.
 3. Angi et tall i feltet **Prioritet**.
 

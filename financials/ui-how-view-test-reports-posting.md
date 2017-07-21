@@ -1,6 +1,6 @@
 ---
-title: "Vise testrapporter før bokføring | Microsoft-dokumentasjon"
-description: "Lær hvordan du får en kontrollrapport før du bokfører noe."
+title: "Se gjennom en kontrollrapport før du bokfører et salgs- eller kjøpsdokument | Microsoft-dokumentasjon"
+description: "Før du bokfører et dokument, for eksempel en ordre eller kreditnota, kan du teste og gå gjennom det for å se etter feil som kan blokkere bokføringen."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -9,23 +9,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2016
+ms.date: 05/12/2017
 ms.author: solsen
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: c54a790dd2abfda88471733e37d93dbfe9634342
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: bf6d659eacf12903af128f77956de5c47ba038c2
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-view-test-reports-before-posting"></a>Vise testrapporter før bokføring
 Når du er klar til å bokføre et dokument, for eksempel en ordre, faktura eller kreditnota, kan du teste dokumentet for å sikre at det ikke foreligger problemer som vil sperre bokføringen.
 
-**Merk**: Følgende fremgangsmåte gjelder testing før du bokfører et kjøpsdokument. Funksjonen fungerer på samme måte for salgsdokumenter.
+> [!NOTE]  
+>   Følgende fremgangsmåte gjelder testing før du bokfører et kjøpsdokument. Funksjonen fungerer på samme måte for salgsdokumenter.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Slik skriver du ut kontrollrapporter før bokføring av kjøpsfakturaer.
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne kjøpsfakturaen du vil kontrollere.
 3. Velg handlingen **Kontrollrapport**.  
 

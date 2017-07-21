@@ -1,6 +1,6 @@
 ---
-title: Avstemme bankkonti separat| Microsoft-dokumentasjon
-description: Avstemme bankkonti separat
+title: Avstemme bankkonti separat | Microsoft-dokumentasjon
+description: Beskriver hvordan lagerverdien avstemmes med finans.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,20 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 03/23/2017
+ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 916f655f9dba80f7c227519372633913b11641ea
+ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
+ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
 Hvis du vil avstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med oppgaver som er mottatt fra banken, må du fylle ut linjene i vinduet **Bankkontoavstemming**.
 
-**Merk**: Du kan også avstemme bankkonti i vinduet **Betalingsavstemmingskladd**. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
+> [!NOTE]  
+>   Du kan også avstemme bankkonti i vinduet **Betalingsavstemmingskladd**. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
 Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først konfigurere og aktivere bankfeedtjenesten Envestnet Yodlee og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
 
@@ -38,10 +39,11 @@ Du kan fylle ut ruten **Bankkontoutdragslinjer** i vinduet **Bankkontoavstemming
 
 Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik verdien i feltet **Saldo som skal avstemmes** i ruten **Bankkontoposter**, kan du velge handlingen **Bokfør** for å avstemme de utlignede bankkontopostene. Alle bankkontopost som ikke er utlignet forblir i vinduet, dette angir at betalinger som er behandlet for bankkontoen ikke gjenspeiles i det siste bankkontoutdraget, eller at noen betalinger er mottatt som sjekk.
 
-**Merk**: Hvis bankoppgavelinjene vedrører sjekkposter, kan du ikke bruke avstemmingsfunksjonene. I stedet må du velge handlingen **Utlign poster** og deretter velge den relevante sjekkposten som bankkontoutdragslinjen skal utlignes mot.
+> [!NOTE]  
+>   Hvis bankeoppgavelinjene vedrører sjekkposter, kan du ikke bruke avstemmingsfunksjonene. I stedet må du velge handlingen **Utlign poster** og deretter velge den relevante sjekkposten som bankkontoutdragslinjen skal utlignes mot.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylle ut bankavstemmingslinjer ved å importere et bankkontoutdrag
-1. I øvre høyre hjørne, velger du ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport"), angi **Bankkontoavstemming**, og deretter velger du den beslektede koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I **Bankkontonr.** -feltet velger du den aktuelle bankkontoen. Bankkontoposter som finnes i å bankkontoen som vises i ruten **Bankkontoposter**.
 4. I feltet **Utdragsdato** angir du datoen på utdraget fra banken.
@@ -54,14 +56,14 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 2. I feltet **Startdato** angir du den første bokføringsdatoen postene skal avstemmes for.
 3. I feltet **Sluttdato** angir du den siste bokføringsdatoen postene skal avstemmes for.
 4. Hvis du vil foreslå sjekkposter i stedet for bankkontoposter, merker du av for **Ta med sjekker**.
-5. Velg **OK**-knappen.
+5. Velg **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Avstemme bankkontoutdragslinjer med bankkontoposter automatisk
 1. I vinduet **Bankkontoavstemming** velger du handlingen **Avstem automatisk**. Vinduet **Avstem bankposter** åpnes.
 2. I feltet **Toleranse for transaksjonsdato (dager)** angir du antall dager før og etter bankkontopostens bokføringsdato som funksjonen søker innenfor etter samsvarende transaksjonsdatoer i bankkontoutdraget.
 
     Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-funksjonen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.  
-3. Velg **OK**-knappen.  
+3. Velg **OK**.  
 
     Alle bankkontoutdragslinjer og bankkontoposter som kan avstemmes endres til grønn skrift, og det er merket av for **Utlignet**.
 4. Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**.
@@ -79,7 +81,7 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike banktransaksjoner kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
 
 1. I vinduet **Bankkontoavstemming** velger du handlingen **Overfør til finanskladd**.  
-2. I vinduet **Overfør bankavst. til finans**  angir hvilke finanskladden som skal brukes, og deretter velger du **OK**-knappen.
+2. I vinduet **Overfør bankavst. til finans** angir hvilke finanskladden som skal brukes, og deretter velger du **OK**-knappen.
 
     Vinduet **Finanskladd** åpnes, som inneholder nye kladdelinjer for bankerkontoutdragslinjer med manglende poster.
 3. Fyll ut kladdelinjen med relevant informasjon, for eksempel motkonto. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
