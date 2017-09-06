@@ -18,7 +18,6 @@ ms.openlocfilehash: de0c429e8a5e03124c5a20977a9723570879952a
 ms.contentlocale: nb-no
 ms.lasthandoff: 07/07/2017
 
-
 ---
 # <a name="how-to-change-which-layout-is-currently-used-on-a-report"></a>Endre gjeldende oppsett som skal brukes i en rapport
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
@@ -34,8 +33,9 @@ Avhengig av oppsettene som er tilgjengelige for en rapport, kan du velge om du v
    * Word (innebygd): Bruker det innebygde Word-rapportoppsettet i rapporten.
    * Egendefinert: Bruker et egendefinert oppsett i rapporten.  
      Du kan se hvilke egendefinerte oppsett som er tilgjengelige for rapporten, i faktaboksen Rapportoppsettsdel. Hvis det ikke finnes noen egendefinerte oppsett for rapporten, må du først opprette et. Hvis du velger dette alternativet, går du til neste fremgangsmåte for å angi det egendefinerte oppsettet du vil bruke.
-     > [!NOTE]  
->   Hvis du velger **RDLC (innebygd)** eller **Word (innebygd)** og får en feilmelding om at rapporten ikke har et oppsett for den angitte typen, må du velge et annet oppsettalternativ eller opprette et egendefinert rapportoppsett av typen du vil bruke.
+
+    > [!NOTE]  
+    >   Hvis du velger **RDLC (innebygd)** eller **Word (innebygd)** og får en feilmelding om at rapporten ikke har et oppsett for den angitte typen, må du velge et annet oppsettalternativ eller opprette et egendefinert rapportoppsett av typen du vil bruke.
 
 Hvis du valgte et innebygd RDLC- eller Word-rapportoppsett, kreves ingen ytterligere handling, og oppsettet brukes neste gang rapporten kjøres.
 
