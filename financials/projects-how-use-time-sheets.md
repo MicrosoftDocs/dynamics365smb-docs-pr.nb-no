@@ -16,147 +16,147 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 
 ---
-# <a name="how-to-use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
-Du bruker kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Du må ha tillatelser for å kunne opprette timelister.
+# <a name="how-to-use-time-sheets-for-jobs"></a><span data-ttu-id="57cc4-103">Bruke timelister for prosjekter</span><span class="sxs-lookup"><span data-stu-id="57cc4-103">How to: Use Time Sheets for Jobs</span></span>
+<span data-ttu-id="57cc4-104">Du bruker kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker.</span><span class="sxs-lookup"><span data-stu-id="57cc4-104">You use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="57cc4-105">Du må ha tillatelser for å kunne opprette timelister.</span><span class="sxs-lookup"><span data-stu-id="57cc4-105">You must have permissions to be able to create time sheets.</span></span>
 
-Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste. Dermed trenger du bare å skrive inn informasjonen ett sted, og linjeinformasjonen er alltid riktig.
+<span data-ttu-id="57cc4-106">Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste.</span><span class="sxs-lookup"><span data-stu-id="57cc4-106">You can copy and use your job planning lines in a time sheet.</span></span> <span data-ttu-id="57cc4-107">Dermed trenger du bare å skrive inn informasjonen ett sted, og linjeinformasjonen er alltid riktig.</span><span class="sxs-lookup"><span data-stu-id="57cc4-107">In that way, you must only enter the information in one place and the line information is always correct.</span></span>
 
-Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjekt- eller ressurskladden.
+<span data-ttu-id="57cc4-108">Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjekt- eller ressurskladden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-108">After you have approved time sheet entries for a job, you can post them to the relevant job journal or resource journal.</span></span>
 
-Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister. Se [Definere timelister](projects-how-setup-time-sheets.md) for mer informasjon.
-
-> [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
-
-## <a name="to-create-a-time-sheet"></a>Slik oppretter du en timeliste
-Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.
-
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.
-2. I vinduet **Liste for timeliste** velger du handlingen **Opprett timelister**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+<span data-ttu-id="57cc4-109">Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister.</span><span class="sxs-lookup"><span data-stu-id="57cc4-109">Before you can use time sheets, you must set up general information and specify an administrator and one or more approvers of time sheets.</span></span> <span data-ttu-id="57cc4-110">Se [Definere timelister](projects-how-setup-time-sheets.md) for mer informasjon.</span><span class="sxs-lookup"><span data-stu-id="57cc4-110">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
 > [!NOTE]  
->   Feltene **Bruk timeliste** og **Bruker-ID for eier av timeliste** må fylles ut på kortet for ressursen i timelisten.
+>   <span data-ttu-id="57cc4-111">Denne funksjonen krever at opplevelsen er satt til **Løsning**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-111">This functionality requires that your experience is set to **Suite**.</span></span> <span data-ttu-id="57cc4-112">Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="57cc4-112">For more information, see [Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md).</span></span>
 
-1. Velg **OK**.  
+## <a name="to-create-a-time-sheet"></a><span data-ttu-id="57cc4-113">Slik oppretter du en timeliste</span><span class="sxs-lookup"><span data-stu-id="57cc4-113">To create a time sheet</span></span>
+<span data-ttu-id="57cc4-114">Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker.</span><span class="sxs-lookup"><span data-stu-id="57cc4-114">You can use the **Create Time Sheets** batch job to set up time sheets for a specified number of time periods or weeks.</span></span> <span data-ttu-id="57cc4-115">Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.</span><span class="sxs-lookup"><span data-stu-id="57cc4-115">Then, the time sheet owner can open it and record time that has been spent on a task.</span></span>
 
-Du kan vise timelistene som du har opprettet, i vinduet **Liste for timeliste**.
+1. <span data-ttu-id="57cc4-116">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="57cc4-117">I vinduet **Liste for timeliste** velger du handlingen **Opprett timelister**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-117">In the **Time Sheet List** window, choose the **Create Time Sheets** action.</span></span>
+3. <span data-ttu-id="57cc4-118">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-118">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Slik kopierer du prosjektplanleggingslinjer til en timeliste:
-Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.
+> [!NOTE]  
+>   <span data-ttu-id="57cc4-119">Feltene **Bruk timeliste** og **Bruker-ID for eier av timeliste** må fylles ut på kortet for ressursen i timelisten.</span><span class="sxs-lookup"><span data-stu-id="57cc4-119">The **Use Time Sheet** and **Time Sheet Owner User ID** fields must be filled in on the card for the resource of the time sheet.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Liste for timeliste** velger du en timeliste for den aktuelle perioden, og deretter velger du handlingen **Rediger timeliste**.  
-3. Velg handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
+1. <span data-ttu-id="57cc4-120">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-120">Choose the **OK** button.</span></span>  
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Slik definerer du arbeidstyper og legger til en til en timeliste
-Du kan definere arbeidstypen for alle linjer i timelister for prosjekter. På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.
+<span data-ttu-id="57cc4-121">Du kan vise timelistene som du har opprettet, i vinduet **Liste for timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-121">You can view the time sheets that you have created in the **Time Sheet list** window.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.   
-2. Åpne den relevante timelisten.
-3. Velg feltet **Beskrivelse**.  
-4. I vinduet **Timelistelinje – prosjektdetaljer** velger du feltet **Arbeidstypekode** og velger en arbeidstype fra listen, for eksempel **Miles**.  
-5. Hvis det ikke finnes noen arbeidstyper, velger du handlingen **Ny**.
-6. I vinduet **Arbeidstyper** fyller du ut feltene etter behov.
-7. Gjenta trinn 4 for å tilordne den nye arbeidstypen til timelisten.
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><span data-ttu-id="57cc4-122">Slik kopierer du prosjektplanleggingslinjer til en timeliste:</span><span class="sxs-lookup"><span data-stu-id="57cc4-122">To copy job planning lines to a time sheet</span></span>
+<span data-ttu-id="57cc4-123">Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.</span><span class="sxs-lookup"><span data-stu-id="57cc4-123">The following procedure describes how to quickly add job planning lines to a time sheet.</span></span>
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Slik bruker du timelistelinjer på nytt i andre timelister
-Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du spare tid ved å kopiere linjene fra forrige tidsperiode. Deretter angir du bare tidsbruken for den nye perioden.
+1. <span data-ttu-id="57cc4-124">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-125">I vinduet **Liste for timeliste** velger du en timeliste for den aktuelle perioden, og deretter velger du handlingen **Rediger timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-125">In the **Time Sheet List** window, select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="57cc4-126">Velg handlingen **Opprett linjer fra prosjektplanlegging**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-126">Choose the **Create lines from job planning** action.</span></span> <span data-ttu-id="57cc4-127">Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.**</span><span class="sxs-lookup"><span data-stu-id="57cc4-127">Any job planning lines in the time sheet time period are copied to the time sheet for the person or machine in the **Resource No.**</span></span> <span data-ttu-id="57cc4-128">i timelisten.</span><span class="sxs-lookup"><span data-stu-id="57cc4-128">field on the time sheet.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. Åpne timelisten for en periode som er senere enn perioden for en eksisterende timeliste med linjer.  
-3. Velg handlingen **Kopier linjer fra tidligere timeliste**.
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><span data-ttu-id="57cc4-129">Slik definerer du arbeidstyper og legger til en til en timeliste</span><span class="sxs-lookup"><span data-stu-id="57cc4-129">To define work types and add one to a time sheet</span></span>
+<span data-ttu-id="57cc4-130">Du kan definere arbeidstypen for alle linjer i timelister for prosjekter.</span><span class="sxs-lookup"><span data-stu-id="57cc4-130">You can define the work type for all time sheet lines for jobs.</span></span> <span data-ttu-id="57cc4-131">På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.</span><span class="sxs-lookup"><span data-stu-id="57cc4-131">In this way, you can add information that you need to bill the customer for different types of work.</span></span>
 
-Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
+1. <span data-ttu-id="57cc4-132">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>   
+2. <span data-ttu-id="57cc4-133">Åpne den relevante timelisten.</span><span class="sxs-lookup"><span data-stu-id="57cc4-133">Open the relevant time sheet.</span></span>
+3. <span data-ttu-id="57cc4-134">Velg feltet **Beskrivelse**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-134">Choose the **Description** field.</span></span>  
+4. <span data-ttu-id="57cc4-135">I vinduet **Timelistelinje – prosjektdetaljer** velger du feltet **Arbeidstypekode** og velger en arbeidstype fra listen, for eksempel **Miles**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-135">In the **Time Sheet Line Job Detail** window, choose the **Work Type Code** field, and select a work type from the list, such as **Miles**.</span></span>  
+5. <span data-ttu-id="57cc4-136">Hvis det ikke finnes noen arbeidstyper, velger du handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-136">If no work types exist, chose the **New** action.</span></span>
+6. <span data-ttu-id="57cc4-137">I vinduet **Arbeidstyper** fyller du ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-137">In the **Work Types** window, fill in the fields as necessary.</span></span>
+7. <span data-ttu-id="57cc4-138">Gjenta trinn 4 for å tilordne den nye arbeidstypen til timelisten.</span><span class="sxs-lookup"><span data-stu-id="57cc4-138">Repeat step 4 to assign the new work type to the time sheet.</span></span>
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
-Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><span data-ttu-id="57cc4-139">Slik bruker du timelistelinjer på nytt i andre timelister</span><span class="sxs-lookup"><span data-stu-id="57cc4-139">To reuse time sheet lines in other time sheets</span></span>
+<span data-ttu-id="57cc4-140">Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du spare tid ved å kopiere linjene fra forrige tidsperiode.</span><span class="sxs-lookup"><span data-stu-id="57cc4-140">If your time sheet information remains the same from time period to time period, you can save time by copying the lines from the previous time period.</span></span> <span data-ttu-id="57cc4-141">Deretter angir du bare tidsbruken for den nye perioden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-141">Then, you just enter your time usage for the new period.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. Velg en timeliste for den relevante tidsperioden, og velg deretter handlingen **Rediger timeliste**.  
-3. Fyll ut feltene på en linje etter behov. Angi antall timer som brukes av ressursen for hver dag i uken.
+1. <span data-ttu-id="57cc4-142">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-142">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-143">Åpne timelisten for en periode som er senere enn perioden for en eksisterende timeliste med linjer.</span><span class="sxs-lookup"><span data-stu-id="57cc4-143">Open the time sheet for a period later than the period for an existing time sheet with lines.</span></span>  
+3. <span data-ttu-id="57cc4-144">Velg handlingen **Kopier linjer fra tidligere timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-144">Choose the **Copy Lines from Previous Time Sheet** action.</span></span>
+
+<span data-ttu-id="57cc4-145">Linjene kopieres, inkludert detaljer som type og beskrivelse.</span><span class="sxs-lookup"><span data-stu-id="57cc4-145">The lines are copied, including details such as type and description.</span></span> <span data-ttu-id="57cc4-146">Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.**</span><span class="sxs-lookup"><span data-stu-id="57cc4-146">For example, if the line is related to a job, the **Job No.**</span></span> <span data-ttu-id="57cc4-147">kopiert.</span><span class="sxs-lookup"><span data-stu-id="57cc4-147">is copied.</span></span> <span data-ttu-id="57cc4-148">Alle kopierte linjer har statusen **Åpen**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-148">All copied lines have the status **Open**.</span></span> <span data-ttu-id="57cc4-149">Du kan nå endre linjene etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-149">You can now modify the lines as needed.</span></span>
+
+## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a><span data-ttu-id="57cc4-150">Slik fyller du ut timelistelinjer og sender til godkjenning</span><span class="sxs-lookup"><span data-stu-id="57cc4-150">To fill in a time sheet lines and submit for approval</span></span>
+<span data-ttu-id="57cc4-151">Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser.</span><span class="sxs-lookup"><span data-stu-id="57cc4-151">Time sheet registration is tracked in hours, the standard base unit of measure for resources.</span></span> <span data-ttu-id="57cc4-152">Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.</span><span class="sxs-lookup"><span data-stu-id="57cc4-152">By default, a time sheet shows the common work days of Monday through Friday.</span></span>
+
+1. <span data-ttu-id="57cc4-153">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-153">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheets**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-154">Velg en timeliste for den relevante tidsperioden, og velg deretter handlingen **Rediger timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-154">Select a time sheet for the relevant time period, and then choose the **Edit Time Sheet** action.</span></span>  
+3. <span data-ttu-id="57cc4-155">Fyll ut feltene på en linje etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-155">Fill in the fields on a line as necessary.</span></span> <span data-ttu-id="57cc4-156">Angi antall timer som brukes av ressursen for hver dag i uken.</span><span class="sxs-lookup"><span data-stu-id="57cc4-156">Enter the number of hours used by the resource on each day of the week.</span></span>
 
     > [!TIP]  
->   Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
-4. Gjenta trinn 3 for arbeidstypene som utføres av ressursen.
-5. Velg handlingen **Send**, og velg deretter handlingen **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt i vinduet **Timeliste**.  
+>   <span data-ttu-id="57cc4-157">Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-157">You can review the sum of time sheet hours that you have entered in the **Actual/Budgeted Summary** FactBox.</span></span>  
+4. <span data-ttu-id="57cc4-158">Gjenta trinn 3 for arbeidstypene som utføres av ressursen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-158">Repeat step 3 for other work types that the resource performs.</span></span>
+5. <span data-ttu-id="57cc4-159">Velg handlingen **Send**, og velg deretter handlingen **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt i vinduet **Timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-159">Choose the **Submit** action, and then choose the **All open lines** action to submit all lines or the **Selected lines only** action to submit only the lines that are selected in the **Time Sheet** window.</span></span>  
 
     > [!NOTE]  
->   Du kan bare sende timelistelinjer du har angitt tid for.  
-6. Hvis du vil endre informasjon på en linje som er satt til **Sendt**, merker du linjen og velger deretter handlingen **Åpne på nytt**.
+>   <span data-ttu-id="57cc4-160">Du kan bare sende timelistelinjer du har angitt tid for.</span><span class="sxs-lookup"><span data-stu-id="57cc4-160">You can only submit time sheet lines for which you have entered time.</span></span>  
+6. <span data-ttu-id="57cc4-161">Hvis du vil endre informasjon på en linje som er satt til **Sendt**, merker du linjen og velger deretter handlingen **Åpne på nytt**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-161">To modify information on a line that has been set to **Submitted**, select the line, and then choose the **Reopen** action.</span></span>
 
     > [!NOTE]  
->   En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
-7. Velg **OK**.
+>   <span data-ttu-id="57cc4-162">En leder kan avvise en timelistelinje som er sendt til godkjenning.</span><span class="sxs-lookup"><span data-stu-id="57cc4-162">A manager may reject a time sheet line that is submitted for approval.</span></span> <span data-ttu-id="57cc4-163">Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.</span><span class="sxs-lookup"><span data-stu-id="57cc4-163">If a line has a status of **Rejected**, you can make changes to the line, and then choose **Submit** again.</span></span>  
+7. <span data-ttu-id="57cc4-164">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-164">Choose the **OK** button.</span></span>
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
-En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenne og avvise individuelle linjer på en timeliste eller sende dem tilbake til avsenderen for ytterligere handling. En timeliste kan godkjennes på to måter:
+## <a name="to-approve-or-reject-a-time-sheet"></a><span data-ttu-id="57cc4-165">Slik godkjenner eller avviser du timelister:</span><span class="sxs-lookup"><span data-stu-id="57cc4-165">To approve or reject a time sheet</span></span>
+<span data-ttu-id="57cc4-166">En timeliste må sendes inn til godkjenning før den kan brukes.</span><span class="sxs-lookup"><span data-stu-id="57cc4-166">A time sheet must be submitted for approval before it can be used.</span></span> <span data-ttu-id="57cc4-167">Du kan godkjenne og avvise individuelle linjer på en timeliste eller sende dem tilbake til avsenderen for ytterligere handling.</span><span class="sxs-lookup"><span data-stu-id="57cc4-167">You can approve and reject individual lines on a time sheet or send them back to the submitter for additional action.</span></span> <span data-ttu-id="57cc4-168">En timeliste kan godkjennes på to måter:</span><span class="sxs-lookup"><span data-stu-id="57cc4-168">A time sheet can be approved in two ways:</span></span>
 
-* En timelisteadministrator kan godkjenne en hvilken som helst timeliste.
-* Personen som er angitt i feltet **Bruker-ID for godkjenner av timeliste** på et ressurskort, kan godkjenne timelister for denne ressursen. Se [Definere timelister](projects-how-setup-time-sheets.md) hvis du vil ha mer informasjon.
+* <span data-ttu-id="57cc4-169">En timelisteadministrator kan godkjenne en hvilken som helst timeliste.</span><span class="sxs-lookup"><span data-stu-id="57cc4-169">A time sheet administrator can approve any time sheet.</span></span>
+* <span data-ttu-id="57cc4-170">Personen som er angitt i feltet **Bruker-ID for godkjenner av timeliste** på et ressurskort, kan godkjenne timelister for denne ressursen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-170">The person who is specified in the **Time Sheet Approver User ID** field on a resource card can approve that resource's time sheets.</span></span> <span data-ttu-id="57cc4-171">Se [Definere timelister](projects-how-setup-time-sheets.md) hvis du vil ha mer informasjon.</span><span class="sxs-lookup"><span data-stu-id="57cc4-171">For more information, see [How to: Set Up Time Sheets](projects-how-setup-time-sheets.md).</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister for leder**, og velg deretter den relaterte koblingen.
-2. Velg en timeliste fra listen.  
-3. I vinduet **Timeliste** velger du handlingen **Godkjenn**, og deretter velger du handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt i vinduet **Timeliste**.
-4. Velg **OK**.  
-5. Du kan også velge handlingen **Avvis** og følge trinn 4 til 5.  
+1. <span data-ttu-id="57cc4-172">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister for leder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="57cc4-173">Velg en timeliste fra listen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-173">Select a time sheet from the list.</span></span>  
+3. <span data-ttu-id="57cc4-174">I vinduet **Timeliste** velger du handlingen **Godkjenn**, og deretter velger du handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt i vinduet **Timeliste**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-174">In the **Time Sheet** window, choose the **Approve** action, and then choose the **All submitted lines** action to approve all lines or the **Selected lines only** action to approve only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="57cc4-175">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-175">Choose the **OK** button.</span></span>  
+5. <span data-ttu-id="57cc4-176">Du kan også velge handlingen **Avvis** og følge trinn 4 til 5.</span><span class="sxs-lookup"><span data-stu-id="57cc4-176">Alternatively, choose the **Reject** action and follow steps 4 through 5.</span></span>  
 
 > [!TIP]  
->   Bruk faktaboksene **Timelistestatus** og **Faktisk/budsjettert sammendrag** til å få oversikt over timelisteinformasjon.
+>   <span data-ttu-id="57cc4-177">Bruk faktaboksene **Timelistestatus** og **Faktisk/budsjettert sammendrag** til å få oversikt over timelisteinformasjon.</span><span class="sxs-lookup"><span data-stu-id="57cc4-177">Use the **Time Sheet Status** and **Actual/Budgeted Summary** FactBoxes to get an overview of time sheet information.</span></span>
 
-Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den åpnes på nytt først. Følgende fremgangsmåte forklarer hvordan du åpner en godkjent eller avvist timeliste på nytt.
+<span data-ttu-id="57cc4-178">Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den åpnes på nytt først.</span><span class="sxs-lookup"><span data-stu-id="57cc4-178">After you have approved or rejected a time sheet, it cannot be modified unless it is first reopened.</span></span> <span data-ttu-id="57cc4-179">Følgende fremgangsmåte forklarer hvordan du åpner en godkjent eller avvist timeliste på nytt.</span><span class="sxs-lookup"><span data-stu-id="57cc4-179">The following procedure explains how to reopen an approved or rejected time sheet.</span></span>
 
-## <a name="to-reopen-a-time-sheet"></a>Åpne en timeliste på nytt
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister for leder** eller **Timelister**, og velg deretter den relaterte koblingen.
-2. Åpne en timeliste fra listen.  
-
-    > [!NOTE]  
->   Bare linjer som har statusen **Godkjent**, kan åpnes på nytt. Linjer som har statusen **Avvist**, kan ikke åpnes på nytt. Du kan ikke åpne en timeliste på nytt hvis den er bokført.  
-3. I vinduet **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt i vinduet **Timeliste**, på nytt.
-4. Velg **OK**. Statusen for timelistelinjen eller -linjene endres til **Sendt**.  
-
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Slik bokfører du timelistelinjer i en ressurskladd
-Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem til den relevante ressurskladden.
-
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ressurskladd**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Foreslå linjer fra timelister**.  
-3. Fyll ut feltene etter behov.  
-4. Velg **OK**. Det opprettes poster for bruk i ressurskladden, der du kan endre informasjonen etter behov.  
-5. Velg handlingen **Bokfør**.  
-6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Vinduet **Ressursposter** åpnes med resultatet av bokføringen av ressurskladden.
-
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Slik bokfører du timelistelinjer i en prosjektkladd
-Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjektkladden.
-
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektkladd**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Foreslå linjer fra timelister**.  
-3. Fyll ut feltene etter behov.  
-4. Velg **OK**. Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.  
+## <a name="to-reopen-a-time-sheet"></a><span data-ttu-id="57cc4-180">Åpne en timeliste på nytt</span><span class="sxs-lookup"><span data-stu-id="57cc4-180">To reopen a time sheet</span></span>
+1. <span data-ttu-id="57cc4-181">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Timelister for leder** eller **Timelister**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-181">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Manager Time Sheets** or **Time Sheets**, and then choose the related link.</span></span>
+2. <span data-ttu-id="57cc4-182">Åpne en timeliste fra listen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-182">Open a time sheet from the list.</span></span>  
 
     > [!NOTE]  
->   Informasjon om arbeidstypen og om arbeidet er belastbart, kopieres fra timelistelinjen. Du kan om nødvendig redusere antall timer og foreta en delvis bokføring. Hvis du reduserer antallet, inneholder linjen som opprettes, gjenstående timeantall neste gang du velger handlingen **Foreslå linjer fra timelister**.  
-5. Velg handlingen **Bokfør**.  
-6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Vinduet **Prosjektposter** åpnes med resultatet av bokføringen av ressurskladden.
+>   <span data-ttu-id="57cc4-183">Bare linjer som har statusen **Godkjent**, kan åpnes på nytt.</span><span class="sxs-lookup"><span data-stu-id="57cc4-183">You can only reopen lines that have the status **Approved**.</span></span> <span data-ttu-id="57cc4-184">Linjer som har statusen **Avvist**, kan ikke åpnes på nytt.</span><span class="sxs-lookup"><span data-stu-id="57cc4-184">You cannot reopen lines that have the status **Rejected**.</span></span> <span data-ttu-id="57cc4-185">Du kan ikke åpne en timeliste på nytt hvis den er bokført.</span><span class="sxs-lookup"><span data-stu-id="57cc4-185">You cannot reopen a time sheet if it has been posted.</span></span>  
+3. <span data-ttu-id="57cc4-186">I vinduet **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt i vinduet **Timeliste**, på nytt.</span><span class="sxs-lookup"><span data-stu-id="57cc4-186">In the **Time Sheet** window, choose the **Reopen** action, and then choose the **All submitted lines** action to reopen all lines or the **Selected lines only** action to reopen only the lines that are selected in the **Time Sheet** window.</span></span>
+4. <span data-ttu-id="57cc4-187">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-187">Choose the **OK** button.</span></span> <span data-ttu-id="57cc4-188">Statusen for timelistelinjen eller -linjene endres til **Sendt**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-188">The status of the time sheets line or lines is changes to **Submitted**.</span></span>  
 
-## <a name="to-archive-time-sheets"></a>Slik arkiverer du timelister:
-Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Alle timelistelinjer må være bokført før en timeliste kan arkiveres.
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><span data-ttu-id="57cc4-189">Slik bokfører du timelistelinjer i en ressurskladd</span><span class="sxs-lookup"><span data-stu-id="57cc4-189">To post time sheet lines in a resource journal</span></span>
+<span data-ttu-id="57cc4-190">Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem til den relevante ressurskladden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-190">After you have approved time sheet entries for a resource, you can post them to the relevant resource journal.</span></span>
+
+1. <span data-ttu-id="57cc4-191">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ressurskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-191">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Resource Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-192">Velg handlingen **Foreslå linjer fra timelister**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-192">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="57cc4-193">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-193">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="57cc4-194">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-194">Choose the **OK** button.</span></span> <span data-ttu-id="57cc4-195">Det opprettes poster for bruk i ressurskladden, der du kan endre informasjonen etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-195">Entries for usage are created in the resource journal, where you can modify the information as needed.</span></span>  
+5. <span data-ttu-id="57cc4-196">Velg handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-196">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="57cc4-197">Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-197">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="57cc4-198">Vinduet **Ressursposter** åpnes med resultatet av bokføringen av ressurskladden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-198">The **Resource Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><span data-ttu-id="57cc4-199">Slik bokfører du timelistelinjer i en prosjektkladd</span><span class="sxs-lookup"><span data-stu-id="57cc4-199">To post time sheet lines in a job journal</span></span>
+<span data-ttu-id="57cc4-200">Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjektkladden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-200">After you have approved time sheet entries for a job, you can post them to the relevant job journal.</span></span>
+
+1. <span data-ttu-id="57cc4-201">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektkladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-201">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-202">Velg handlingen **Foreslå linjer fra timelister**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-202">Choose the **Suggest Lines from Time Sheets** action.</span></span>  
+3. <span data-ttu-id="57cc4-203">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-203">Fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="57cc4-204">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-204">Choose the **OK** button.</span></span> <span data-ttu-id="57cc4-205">Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.</span><span class="sxs-lookup"><span data-stu-id="57cc4-205">Entries for usage are created in the job journal, where you can modify the information as needed.</span></span>  
+
+    > [!NOTE]  
+>   <span data-ttu-id="57cc4-206">Informasjon om arbeidstypen og om arbeidet er belastbart, kopieres fra timelistelinjen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-206">Information about work type and whether the work is chargeable is copied from the time sheet line.</span></span> <span data-ttu-id="57cc4-207">Du kan om nødvendig redusere antall timer og foreta en delvis bokføring.</span><span class="sxs-lookup"><span data-stu-id="57cc4-207">If needed, you can reduce the quantity of hours and do a partial posting.</span></span> <span data-ttu-id="57cc4-208">Hvis du reduserer antallet, inneholder linjen som opprettes, gjenstående timeantall neste gang du velger handlingen **Foreslå linjer fra timelister**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-208">If you reduce the quantity, then the next time that you choose the **Suggest Lines From Time Sheets** action, the line that is created will contain the remaining quantity of hours.</span></span>  
+5. <span data-ttu-id="57cc4-209">Velg handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-209">Choose the **Post** action.</span></span>  
+6. <span data-ttu-id="57cc4-210">Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-210">To verify the posting, choose the **Ledger Entries** action.</span></span> <span data-ttu-id="57cc4-211">Vinduet **Prosjektposter** åpnes med resultatet av bokføringen av ressurskladden.</span><span class="sxs-lookup"><span data-stu-id="57cc4-211">The **Job Ledger Entries** window opens showing the result of posting the resource journal.</span></span>
+
+## <a name="to-archive-time-sheets"></a><span data-ttu-id="57cc4-212">Slik arkiverer du timelister:</span><span class="sxs-lookup"><span data-stu-id="57cc4-212">To archive time sheets</span></span>
+<span data-ttu-id="57cc4-213">Når du har bokført timelister, kan du arkivere dem for fremtidig referanse.</span><span class="sxs-lookup"><span data-stu-id="57cc4-213">After you have posted time sheets, you can archive them for future reference.</span></span> <span data-ttu-id="57cc4-214">Alle timelistelinjer må være bokført før en timeliste kan arkiveres.</span><span class="sxs-lookup"><span data-stu-id="57cc4-214">All time sheets lines must be posted before a time sheet can be archived.</span></span>
 
 > [!NOTE]  
->   Når du arkiverer en timeliste, fjernes den fra listene i vinduene **Timelister** og **Timelister for leder**.
+>   <span data-ttu-id="57cc4-215">Når du arkiverer en timeliste, fjernes den fra listene i vinduene **Timelister** og **Timelister for leder**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-215">When you archive a time sheet, it is removed from the lists in both the **Time Sheets** window and the **Manager Time Sheets** window.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Flytt timelister til arkiv**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
-3. Hvis du vil gå gjennom arkiverte timelister, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Timelistearkiver** eller **Timelistearkiver for leder** og velger deretter den relaterte koblingen.
+1. <span data-ttu-id="57cc4-216">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Flytt timelister til arkiv**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-216">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Move Time Sheets to Archive**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="57cc4-217">Fyll ut feltene etter behov, og klikk deretter **OK**.</span><span class="sxs-lookup"><span data-stu-id="57cc4-217">Fill in the fields as necessary, and then choose the **OK** button.</span></span>  
+3. <span data-ttu-id="57cc4-218">Hvis du vil gå gjennom arkiverte timelister, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Timelistearkiver** eller **Timelistearkiver for leder** og velger deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="57cc4-218">To review archived time sheets, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Time Sheet Archives** or **Manager Time Sheet Archives**, and then choose the related link.</span></span>
 
-## <a name="see-also"></a>Se også
-[Prosjektstyring](projects-manage-projects.md)  
-[Konfigurere prosjektstyring](projects-setup-projects.md)    
-[Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)     
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="57cc4-219">Se også</span><span class="sxs-lookup"><span data-stu-id="57cc4-219">See Also</span></span>
+[<span data-ttu-id="57cc4-220">Prosjektstyring</span><span class="sxs-lookup"><span data-stu-id="57cc4-220">Project Management</span></span>](projects-manage-projects.md)  
+<span data-ttu-id="57cc4-221">[Konfigurere prosjektstyring](projects-setup-projects.md)  </span><span class="sxs-lookup"><span data-stu-id="57cc4-221">[Setting Up Project Management](projects-setup-projects.md)  </span></span>  
+[<span data-ttu-id="57cc4-222">Finans</span><span class="sxs-lookup"><span data-stu-id="57cc4-222">Finance</span></span>](finance.md)  
+<span data-ttu-id="57cc4-223">[Innkjøp](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="57cc4-223">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="57cc4-224">[Salg](sales-manage-sales.md)   </span><span class="sxs-lookup"><span data-stu-id="57cc4-224">[Sales](sales-manage-sales.md)   </span></span>  
+<span data-ttu-id="57cc4-225">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="57cc4-225">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

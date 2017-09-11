@@ -13,152 +13,152 @@ ms.search.keywords: payment process, cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2c3173aed0ea6c788592383f15cbada0e3fc3a0e
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-reconcile-customer-payments-manually"></a>Avstemme kundebetalinger manuelt
-Når du mottar en innbetaling fra en kunde eller foretar en refusjon, må du bestemme om du vil utligne betalingen eller refusjonen for å lukke én eller flere åpne debet- eller kreditposter. Du kan angi beløpet du vil utligne. Du kan for eksempel bruke akontobetalinger kundeposter. Lukke kundeposter sørger for at informasjon som kundestatistikk, kontoutdrag og rentenotaer er riktig.
+# <a name="how-to-reconcile-customer-payments-manually"></a><span data-ttu-id="93b84-103">Avstemme kundebetalinger manuelt</span><span class="sxs-lookup"><span data-stu-id="93b84-103">How to: Reconcile Customer Payments Manually</span></span>
+<span data-ttu-id="93b84-104">Når du mottar en innbetaling fra en kunde eller foretar en refusjon, må du bestemme om du vil utligne betalingen eller refusjonen for å lukke én eller flere åpne debet- eller kreditposter.</span><span class="sxs-lookup"><span data-stu-id="93b84-104">When you receive a cash receipt from a customer, or you make a cash refund, you must decide whether to apply the payment or refund to close one or more open debit or credit entries.</span></span> <span data-ttu-id="93b84-105">Du kan angi beløpet du vil utligne.</span><span class="sxs-lookup"><span data-stu-id="93b84-105">You can specify the amount you want to apply.</span></span> <span data-ttu-id="93b84-106">Du kan for eksempel bruke akontobetalinger kundeposter.</span><span class="sxs-lookup"><span data-stu-id="93b84-106">For example, you can apply partial payments to customer ledger entries.</span></span> <span data-ttu-id="93b84-107">Lukke kundeposter sørger for at informasjon som kundestatistikk, kontoutdrag og rentenotaer er riktig.</span><span class="sxs-lookup"><span data-stu-id="93b84-107">Closing customer ledger entries makes sure that information such as customer statistics, account statements, and finance charges are correct.</span></span>
 
 > [!NOTE]  
->   I vinduet **Kundeposter** betyr rød skrift at forfallsdatoen for den relaterte betalingen er overskredet.
+>   <span data-ttu-id="93b84-108">I vinduet **Kundeposter** betyr rød skrift at forfallsdatoen for den relaterte betalingen er overskredet.</span><span class="sxs-lookup"><span data-stu-id="93b84-108">In the **Customer Ledger Entries** window, red font means that the related payment is past its due date.</span></span>
 
-Du kan utligne kundeposter på flere måter:
+<span data-ttu-id="93b84-109">Du kan utligne kundeposter på flere måter:</span><span class="sxs-lookup"><span data-stu-id="93b84-109">You can apply customer ledger entries in several ways:</span></span>
 
-* Ved å skrive inn informasjon i dedikerte vinduer, som vinduet **Innbetalingskladd** og **Betalingsavstemmingskladd**.
-* Fra salgskreditnotadokumenter.
-* Fra kundeposter etter at salgsdokumenter er postert, men ikke utlignet.
-
-> [!NOTE]  
->   Hvis feltet **Utligningsmetode** på kundekortet inneholder **Saldo**, utlignes betalinger automatisk mot den eldste åpne kreditposten, med mindre du ikke angir en post manuelt. Hvis utligningsmetoden er **Manuelt**, må du alltid utligne poster manuelt.
-
-Du kan utligne kundebetalinger manuelt i vinduet **Innbetalingskladd**. En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokføre transaksjoner til finans-, bank-, kunde-, leverandør- og aktivakonti. Du kan utligne betalingen mot en eller flere debetposter når du bokfører betalingen, eller du kan utligne fra de bokførte postene senere.
-
-Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betalingsavstemmingskladd**, ved hjelp av funksjoner for import av bankkontoutdrag, automatisk utligning og bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md). Du kan også avstemme kundebetalinger basert på en liste over ubetalte salgsdokumenter i vinduet **Betalingsregistrering**. Hvis du vil ha mer informasjon, kan du se [Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Fylle ut og bokføre en innbetalingskladd
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Rediger kladd**.
-3. Velg den aktuelle kjørselen i **Bunkenavn**-feltet.
-4. Fyll ut feltet **Bokføringsdato**.  
-5. Velg **Betaling** i **Bilagstype**-feltet.
-
-    **Bilagsnr.**- feltet fylles ut av nummerserien som er tilordnet partiet.  
-6. Bruk **Eksterndokumentnr.**- feltet til å lagre en identifikator, for eksempel kundens sjekknummer.
-7. Velg **Kunde** i **Kontotype**-feltet.
-8. I **Kontonummer** -feltet velger du den aktuelle finanskontoen.
-9. Hvis du vil bokføre utligningen samtidig som du bokfører kladden, gjør du ett av følgende.
-10. I **Motkontotype**-feltet velger du **Finanskonto** for utbetalinger og **Bankkonto** for andre betalinger.
-11. I **Motkontonr.**- -feltet velger du kassekonto for utbetalinger eller relevante bankkonti for andre betalinger.
-12. Bokfør kladden.
-
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Slik utligner du en betaling mot én kundepost
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg den relaterte koblingen.
-2. Velg handlingen **Rediger kladd**.
-3. På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.
-4. Angi **Betaling** i **Bilagstype**-feltet.
-5. Angi **Kunde** i **Kontotype**-feltet.
-6. Angi **Bankkonto** i **Motkontotype**-feltet.
-7. I **Utligningsbilagsnr.** -feltet velger du feltet for å åpne vinduet **Utlign kundeposter**.
-8. Velg posten som betalingen skal utlignes mot, i vinduet **Utlign kundeposter**.
-9. I feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.
-
-    Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.  
-10. Velg **OK**. Vinduet **Innbetalingskladd** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** -feltene.
-11. Bokfør innbetalingskladden.
-
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Slik utligner du en utbetaling mot flere kundeposter
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Rediger kladd**.
-3. På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.
-4. Angi **Betaling** i **Bilagstype**-feltet.
-5. Angi **Kunde** i **Kontotype**-feltet.
-6. Angi **Bankkonto** i **Motkontotype**-feltet.
-7. Angi hele betalingen som et negativt beløp i **Beløp**-feltet.
-8. Hvis du vil utligne betalingen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.
-9. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.
-10. På hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.
-
-    Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.  
-11. Velg **OK**.
-12. Bokfør innbetalingskladden.
-
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Slik utligner du en kreditnota mot én kundepost
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
-2. Åpne den aktuelle salgskreditnotaen.
-3. Hvis du vil utligne kreditnotaen til én kundepost når du bokfører i feltet **Utligningsbilagsnr.**, velger du posten du vil utligne betalingen mot.
-4. På linjen i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.  
-
-    Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet automatisk. Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.    
-5. Velg **OK**. Vinduet **Salgskreditnota** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** -feltene. Og beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
-6. Bokfør kreditnotaen.
-
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Slik utligner du en kreditnota mot flere kundeposter
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
-2. Åpne den aktuelle salgskreditnotaen.
-3. Hvis du vil utligne kreditnotaen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.
-4. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.
-5. På hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.  
-
-    Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.  
-6. Velg **OK**. Vinduet **Salgskreditnota** viser nå beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
-7. Bokfør kreditnotaen.
-
-## <a name="to-apply-posted-customer-ledger-entries"></a>Slik utligner du bokførte kundeposter
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.
-2. Åpne kundekortet med postene du vil utligne.
-3. Velg handlingen **Poster**, og velg deretter linjen med posten som skal være utligningsposten.
-4. Velg handlingen **Utlign poster**. Vinduet **Utlign kundeposter** åpnes med de åpne postene for kunden.
-5. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID** .
-6. For hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.  
-
-    Nederst i vinduet **Utlign kundeposter** kan du se det bestemte beløpet i feltet **Utlignet beløp**.  
-7. Velg handlingen **Etterutligne**. Vinduet **Etterutligne** vises med dokumentnummeret for utligningsposten og bokføringsdatoen for posten med den seneste bokføringsdatoen.  
-8. Velg **OK** for å bokføre applikasjonen.
-
-    Hvis den bokførte utligningen har resultert i lukkede kundeposter, er **Åpne**-feltet tomt for disse postene.    
-9. Hvis du vil se postene, velger du ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Kunder** og velger deretter den relaterte koblingen. Bla til kortet for den relevante kunden for å se postene.  
-
-I postoversikten er det ikke merket av for **Åpen** på linjen som inneholder posten som ble fullstendig utlignet.  
+* <span data-ttu-id="93b84-110">Ved å skrive inn informasjon i dedikerte vinduer, som vinduet **Innbetalingskladd** og **Betalingsavstemmingskladd**.</span><span class="sxs-lookup"><span data-stu-id="93b84-110">By entering information in dedicated windows, such as the **Cash Receipt Journal** and **Payment Reconciliation Journal** windows.</span></span>
+* <span data-ttu-id="93b84-111">Fra salgskreditnotadokumenter.</span><span class="sxs-lookup"><span data-stu-id="93b84-111">From sales credit memo documents.</span></span>
+* <span data-ttu-id="93b84-112">Fra kundeposter etter at salgsdokumenter er postert, men ikke utlignet.</span><span class="sxs-lookup"><span data-stu-id="93b84-112">From customer ledger entries after sales documents are posted but not applied.</span></span>
 
 > [!NOTE]  
->   Når du har valgt en post i vinduet **Utlign kundeposter** eller flere poster ved å angi **Utlignings-ID**, inneholder feltet **Utlignet beløp** på kladdelinjen summen av de gjenstående beløpene for de bokførte postene du har valgt, hvis ikke feltet allerede inneholder verdier. Hvis du velger **Saldo** i feltet **Utligningsmetode** på kundekortet, utlignes inntreffer utligningen automatisk.
+>   <span data-ttu-id="93b84-113">Hvis feltet **Utligningsmetode** på kundekortet inneholder **Saldo**, utlignes betalinger automatisk mot den eldste åpne kreditposten, med mindre du ikke angir en post manuelt.</span><span class="sxs-lookup"><span data-stu-id="93b84-113">If the **Application Method** field on the customer card contains **Apply to Oldest**, payments are applied to the oldest open credit entry, unless you manually specify an entry.</span></span> <span data-ttu-id="93b84-114">Hvis utligningsmetoden er **Manuelt**, må du alltid utligne poster manuelt.</span><span class="sxs-lookup"><span data-stu-id="93b84-114">If the application method is **Manual**, you always apply entries manually.</span></span>
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Slik utligner du kundeposter i forskjellige valutaer mot hverandre
-Hvis du selger til en kunde i én valuta og mottar betaling i en annen valuta, kan du likevel utligne fakturaen mot betalingen.  
+<span data-ttu-id="93b84-115">Du kan utligne kundebetalinger manuelt i vinduet **Innbetalingskladd**.</span><span class="sxs-lookup"><span data-stu-id="93b84-115">You can apply customer payments manually in the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="93b84-116">En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokføre transaksjoner til finans-, bank-, kunde-, leverandør- og aktivakonti.</span><span class="sxs-lookup"><span data-stu-id="93b84-116">A cash receipt journal is a type of general journal, so you can use it to post transactions to general ledger, bank, customer, vendor, and fixed assets accounts.</span></span> <span data-ttu-id="93b84-117">Du kan utligne betalingen mot en eller flere debetposter når du bokfører betalingen, eller du kan utligne fra de bokførte postene senere.</span><span class="sxs-lookup"><span data-stu-id="93b84-117">You can apply the payment to one or more debit entries when you post the payment, or you can apply from the posted entries later.</span></span>
 
-Hvis du utligner en post (post 1) i én valuta mot en post (post 2) i en annen valuta, brukes bokføringsdatoen i post 1 til å søke etter den relevante valutakursen for å konvertere beløp i post 2. Den relevante valutakursen finnes i **Valutakurser**-vinduet.  
+<span data-ttu-id="93b84-118">Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betalingsavstemmingskladd**, ved hjelp av funksjoner for import av bankkontoutdrag, automatisk utligning og bankkontoavstemming.</span><span class="sxs-lookup"><span data-stu-id="93b84-118">You can also apply customer and vendor payments in the **Payment Reconciliation Journal** window, by using functions for bank statement import, automatic application, and bank account reconciliation.</span></span> <span data-ttu-id="93b84-119">Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).</span><span class="sxs-lookup"><span data-stu-id="93b84-119">For more information, see [Reconcile Payments Using Automatic Application](receivables-how-reconcile-payments-auto-application.md).</span></span> <span data-ttu-id="93b84-120">Du kan også avstemme kundebetalinger basert på en liste over ubetalte salgsdokumenter i vinduet **Betalingsregistrering**.</span><span class="sxs-lookup"><span data-stu-id="93b84-120">Alternatively, you can reconcile customer payments based on a list of unpaid sales documents in the **Payment Registration** window.</span></span> <span data-ttu-id="93b84-121">Hvis du vil ha mer informasjon, kan du se [Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)</span><span class="sxs-lookup"><span data-stu-id="93b84-121">For more information, see [How to: Reconcile Customer Payments From a List of Unpaid Sales Documents](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)</span></span>
 
-Utligning av kundeposter i forskjellige valutaer må være aktivert. Hvis du vil ha mer informasjon, kan du se [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a><span data-ttu-id="93b84-122">Fylle ut og bokføre en innbetalingskladd</span><span class="sxs-lookup"><span data-stu-id="93b84-122">To fill and post a cash receipt journal</span></span>
+1. <span data-ttu-id="93b84-123">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-124">Velg handlingen **Rediger kladd**.</span><span class="sxs-lookup"><span data-stu-id="93b84-124">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="93b84-125">Velg den aktuelle kjørselen i **Bunkenavn**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-125">Select the relevant batch in the **Batch Name** field.</span></span>
+4. <span data-ttu-id="93b84-126">Fyll ut feltet **Bokføringsdato**.</span><span class="sxs-lookup"><span data-stu-id="93b84-126">Fill in the **Posting Date** field.</span></span>  
+5. <span data-ttu-id="93b84-127">Velg **Betaling** i **Bilagstype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-127">In the **Document Type** field, select **Payment**.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
-2. Åpne kladden du vil bruke, og fyll ut den første tomme kladdelinjen med en valutakode.
-3. Velg handlingen **Utlign poster**.
-4. Velg linjen med posten du vil utligne mot posten i innbetalingskladden. Deretter velger du handlingen **Angi utlignings-ID** og merker posten du vil utligne mot.
-5. Velg **OK** for å gå tilbake til innbetalingskladden.
-6. Bokfør salgskladden.  
+    <span data-ttu-id="93b84-128">**Bilagsnr.**-</span><span class="sxs-lookup"><span data-stu-id="93b84-128">The **Document No.**</span></span> <span data-ttu-id="93b84-129">feltet fylles ut av nummerserien som er tilordnet partiet.</span><span class="sxs-lookup"><span data-stu-id="93b84-129">field is filled by the number series assigned to the batch.</span></span>  
+6. <span data-ttu-id="93b84-130">Bruk **Eksterndokumentnr.**-</span><span class="sxs-lookup"><span data-stu-id="93b84-130">Use the **External Document No.**</span></span> <span data-ttu-id="93b84-131">feltet til å lagre en identifikator, for eksempel kundens sjekknummer.</span><span class="sxs-lookup"><span data-stu-id="93b84-131">field to store an identifier, such as the customer's check number.</span></span>
+7. <span data-ttu-id="93b84-132">Velg **Kunde** i **Kontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-132">In the **Account Type** field, select **Customer**.</span></span>
+8. <span data-ttu-id="93b84-133">I **Kontonummer**</span><span class="sxs-lookup"><span data-stu-id="93b84-133">In the **Account No.**</span></span> <span data-ttu-id="93b84-134">-feltet velger du den aktuelle finanskontoen.</span><span class="sxs-lookup"><span data-stu-id="93b84-134">field, select the relevant G/L account.</span></span>
+9. <span data-ttu-id="93b84-135">Hvis du vil bokføre utligningen samtidig som du bokfører kladden, gjør du ett av følgende.</span><span class="sxs-lookup"><span data-stu-id="93b84-135">If you want to post the application at the same time as you post the journal, do one of the following.</span></span>
+10. <span data-ttu-id="93b84-136">I **Motkontotype**-feltet velger du **Finanskonto** for utbetalinger og **Bankkonto** for andre betalinger.</span><span class="sxs-lookup"><span data-stu-id="93b84-136">In the **Balancing Account Type** field, select **G/L Account** for cash payments, and **Bank Account** for other payments.</span></span>
+11. <span data-ttu-id="93b84-137">I **Motkontonr.**-</span><span class="sxs-lookup"><span data-stu-id="93b84-137">In the **Balancing Account No.**</span></span> <span data-ttu-id="93b84-138">-feltet velger du kassekonto for utbetalinger eller relevante bankkonti for andre betalinger.</span><span class="sxs-lookup"><span data-stu-id="93b84-138">field, select the cash account for cash payments, or the relevant bank account for other payments.</span></span>
+12. <span data-ttu-id="93b84-139">Bokfør kladden.</span><span class="sxs-lookup"><span data-stu-id="93b84-139">Post the journal.</span></span>
+
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a><span data-ttu-id="93b84-140">Slik utligner du en betaling mot én kundepost</span><span class="sxs-lookup"><span data-stu-id="93b84-140">To apply a payment to a single customer ledger entry</span></span>
+1. <span data-ttu-id="93b84-141">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal** and choose the related link.</span></span>
+2. <span data-ttu-id="93b84-142">Velg handlingen **Rediger kladd**.</span><span class="sxs-lookup"><span data-stu-id="93b84-142">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="93b84-143">På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.</span><span class="sxs-lookup"><span data-stu-id="93b84-143">On the first journal line, enter the relevant information about the entry to be applied.</span></span>
+4. <span data-ttu-id="93b84-144">Angi **Betaling** i **Bilagstype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-144">In the **Document Type** field, enter **Payment**.</span></span>
+5. <span data-ttu-id="93b84-145">Angi **Kunde** i **Kontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-145">In the **Account Type** field, enter **Customer**.</span></span>
+6. <span data-ttu-id="93b84-146">Angi **Bankkonto** i **Motkontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-146">In the **Bal. Account Type** field, enter **Bank Account**.</span></span>
+7. <span data-ttu-id="93b84-147">I **Utligningsbilagsnr.**</span><span class="sxs-lookup"><span data-stu-id="93b84-147">In the **Applies-to Doc. No.**</span></span> <span data-ttu-id="93b84-148">-feltet velger du feltet for å åpne vinduet **Utlign kundeposter**.</span><span class="sxs-lookup"><span data-stu-id="93b84-148">field, choose the field to open the **Apply Customer Entries** window.</span></span>
+8. <span data-ttu-id="93b84-149">Velg posten som betalingen skal utlignes mot, i vinduet **Utlign kundeposter**.</span><span class="sxs-lookup"><span data-stu-id="93b84-149">In the **Apply Customer Entries** window, select the entry to apply the payment to.</span></span>
+9. <span data-ttu-id="93b84-150">I feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.</span><span class="sxs-lookup"><span data-stu-id="93b84-150">In the **Amount to Apply** field, enter the amount you want to apply to the entry.</span></span> <span data-ttu-id="93b84-151">Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.</span><span class="sxs-lookup"><span data-stu-id="93b84-151">If you do not enter an amount, the maximum amount is applied.</span></span>
+
+    <span data-ttu-id="93b84-152">Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.</span><span class="sxs-lookup"><span data-stu-id="93b84-152">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+10. <span data-ttu-id="93b84-153">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="93b84-153">Choose the **OK** button.</span></span> <span data-ttu-id="93b84-154">Vinduet **Innbetalingskladd** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.**</span><span class="sxs-lookup"><span data-stu-id="93b84-154">The **Cash Receipt Journal** window now shows the entry you have selected entered in the **Applies-to Doc. Type** and **Applies-to Doc. No.**</span></span> <span data-ttu-id="93b84-155">-feltene.</span><span class="sxs-lookup"><span data-stu-id="93b84-155">fields.</span></span>
+11. <span data-ttu-id="93b84-156">Bokfør innbetalingskladden.</span><span class="sxs-lookup"><span data-stu-id="93b84-156">Post the cash receipt journal.</span></span>
+
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a><span data-ttu-id="93b84-157">Slik utligner du en utbetaling mot flere kundeposter</span><span class="sxs-lookup"><span data-stu-id="93b84-157">To apply a payment to multiple customer ledger entries</span></span>
+1. <span data-ttu-id="93b84-158">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-158">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipt Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-159">Velg handlingen **Rediger kladd**.</span><span class="sxs-lookup"><span data-stu-id="93b84-159">Choose the **Edit Journal** action.</span></span>
+3. <span data-ttu-id="93b84-160">På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.</span><span class="sxs-lookup"><span data-stu-id="93b84-160">On the first journal line, enter the relevant information about the entry to be applied.</span></span>
+4. <span data-ttu-id="93b84-161">Angi **Betaling** i **Bilagstype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-161">In the **Document Type** field, enter **Payment**.</span></span>
+5. <span data-ttu-id="93b84-162">Angi **Kunde** i **Kontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-162">In the **Account Type** field, enter **Customer**.</span></span>
+6. <span data-ttu-id="93b84-163">Angi **Bankkonto** i **Motkontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-163">In the **Bal. Account Type** field, enter **Bank Account**.</span></span>
+7. <span data-ttu-id="93b84-164">Angi hele betalingen som et negativt beløp i **Beløp**-feltet.</span><span class="sxs-lookup"><span data-stu-id="93b84-164">In the **Amount** field, enter the full payment as a negative amount.</span></span>
+8. <span data-ttu-id="93b84-165">Hvis du vil utligne betalingen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.</span><span class="sxs-lookup"><span data-stu-id="93b84-165">To apply the payment to multiple customer ledger entries when posting, choose the **Apply Entries** action.</span></span>
+9. <span data-ttu-id="93b84-166">Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.</span><span class="sxs-lookup"><span data-stu-id="93b84-166">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.</span></span>
+10. <span data-ttu-id="93b84-167">På hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post.</span><span class="sxs-lookup"><span data-stu-id="93b84-167">On each line, in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="93b84-168">Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.</span><span class="sxs-lookup"><span data-stu-id="93b84-168">If you do not enter an amount, the maximum amount is applied.</span></span>
+
+    <span data-ttu-id="93b84-169">Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.</span><span class="sxs-lookup"><span data-stu-id="93b84-169">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+11. <span data-ttu-id="93b84-170">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="93b84-170">Choose the **OK** button.</span></span>
+12. <span data-ttu-id="93b84-171">Bokfør innbetalingskladden.</span><span class="sxs-lookup"><span data-stu-id="93b84-171">Post the cash receipt journal.</span></span>
+
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a><span data-ttu-id="93b84-172">Slik utligner du en kreditnota mot én kundepost</span><span class="sxs-lookup"><span data-stu-id="93b84-172">To apply a credit memo to a single customer ledger entry</span></span>
+1. <span data-ttu-id="93b84-173">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-173">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Credit Memos**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-174">Åpne den aktuelle salgskreditnotaen.</span><span class="sxs-lookup"><span data-stu-id="93b84-174">Open the relevant sales credit memo.</span></span>
+3. <span data-ttu-id="93b84-175">Hvis du vil utligne kreditnotaen til én kundepost når du bokfører i feltet **Utligningsbilagsnr.**,</span><span class="sxs-lookup"><span data-stu-id="93b84-175">To apply the credit memo to a single customer ledger entry when posting, in the **Applies-to Doc. No.**</span></span> <span data-ttu-id="93b84-176">velger du posten du vil utligne betalingen mot.</span><span class="sxs-lookup"><span data-stu-id="93b84-176">field, select the entry to which you want to apply the payment.</span></span>
+4. <span data-ttu-id="93b84-177">På linjen i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.</span><span class="sxs-lookup"><span data-stu-id="93b84-177">On the line in the **Amount to Apply** field, enter the amount you want to apply to the entry.</span></span>  
+
+    <span data-ttu-id="93b84-178">Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet automatisk.</span><span class="sxs-lookup"><span data-stu-id="93b84-178">If you do not enter an amount, the program automatically applies the maximum amount.</span></span> <span data-ttu-id="93b84-179">Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.</span><span class="sxs-lookup"><span data-stu-id="93b84-179">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>    
+5. <span data-ttu-id="93b84-180">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="93b84-180">Choose the **OK** button.</span></span> <span data-ttu-id="93b84-181">Vinduet **Salgskreditnota** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.**</span><span class="sxs-lookup"><span data-stu-id="93b84-181">The **Sales Credit Memo** window now shows the entry you have selected entered in the **Applies-to Doc. Type** and **Applies-to Doc. No.**</span></span> <span data-ttu-id="93b84-182">-feltene.</span><span class="sxs-lookup"><span data-stu-id="93b84-182">fields.</span></span> <span data-ttu-id="93b84-183">Og beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.</span><span class="sxs-lookup"><span data-stu-id="93b84-183">And the amount of the credit memo to be posted, adjusted for any possible payment discounts.</span></span>
+6. <span data-ttu-id="93b84-184">Bokfør kreditnotaen.</span><span class="sxs-lookup"><span data-stu-id="93b84-184">Post the credit memo.</span></span>
+
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a><span data-ttu-id="93b84-185">Slik utligner du en kreditnota mot flere kundeposter</span><span class="sxs-lookup"><span data-stu-id="93b84-185">To apply a credit memo to multiple customer ledger entries</span></span>
+1. <span data-ttu-id="93b84-186">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-186">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Credit Memos**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-187">Åpne den aktuelle salgskreditnotaen.</span><span class="sxs-lookup"><span data-stu-id="93b84-187">Open the relevant sales credit memo.</span></span>
+3. <span data-ttu-id="93b84-188">Hvis du vil utligne kreditnotaen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.</span><span class="sxs-lookup"><span data-stu-id="93b84-188">To apply the credit memo to multiple customer ledger entries when posting, choose the **Apply Entries** action.</span></span>
+4. <span data-ttu-id="93b84-189">Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.</span><span class="sxs-lookup"><span data-stu-id="93b84-189">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID** action.</span></span>
+5. <span data-ttu-id="93b84-190">På hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post.</span><span class="sxs-lookup"><span data-stu-id="93b84-190">On each line, in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="93b84-191">Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.</span><span class="sxs-lookup"><span data-stu-id="93b84-191">If you do not enter an amount, the maximum amount is applied.</span></span>  
+
+    <span data-ttu-id="93b84-192">Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.</span><span class="sxs-lookup"><span data-stu-id="93b84-192">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field and also whether the application balances.</span></span>  
+6. <span data-ttu-id="93b84-193">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="93b84-193">Choose the **OK** button.</span></span> <span data-ttu-id="93b84-194">Vinduet **Salgskreditnota** viser nå beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.</span><span class="sxs-lookup"><span data-stu-id="93b84-194">The **Sales Credit Memo** window now shows the amount of the credit memo to be posted, adjusted for any possible payment discounts.</span></span>
+7. <span data-ttu-id="93b84-195">Bokfør kreditnotaen.</span><span class="sxs-lookup"><span data-stu-id="93b84-195">Post the credit memo.</span></span>
+
+## <a name="to-apply-posted-customer-ledger-entries"></a><span data-ttu-id="93b84-196">Slik utligner du bokførte kundeposter</span><span class="sxs-lookup"><span data-stu-id="93b84-196">To apply posted customer ledger entries</span></span>
+1. <span data-ttu-id="93b84-197">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-197">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-198">Åpne kundekortet med postene du vil utligne.</span><span class="sxs-lookup"><span data-stu-id="93b84-198">Open the customer card for the customer with entries that you want to apply.</span></span>
+3. <span data-ttu-id="93b84-199">Velg handlingen **Poster**, og velg deretter linjen med posten som skal være utligningsposten.</span><span class="sxs-lookup"><span data-stu-id="93b84-199">Choose the **Ledger Entries** action, and then select the line with the entry that will be the applying entry.</span></span>
+4. <span data-ttu-id="93b84-200">Velg handlingen **Utlign poster**.</span><span class="sxs-lookup"><span data-stu-id="93b84-200">Choose the **Apply Entries** action.</span></span> <span data-ttu-id="93b84-201">Vinduet **Utlign kundeposter** åpnes med de åpne postene for kunden.</span><span class="sxs-lookup"><span data-stu-id="93b84-201">The **Apply Customer Entries** window opens showing the open entries for the customer.</span></span>
+5. <span data-ttu-id="93b84-202">Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**</span><span class="sxs-lookup"><span data-stu-id="93b84-202">Select the lines with the entries that you want the applying entry to be applied to, and then choose the **Set Applies-to ID.**</span></span> <span data-ttu-id="93b84-203">.</span><span class="sxs-lookup"><span data-stu-id="93b84-203">action.</span></span>
+6. <span data-ttu-id="93b84-204">For hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post.</span><span class="sxs-lookup"><span data-stu-id="93b84-204">For each line in the **Amount to Apply** field, enter the amount you want to apply to the individual entry.</span></span> <span data-ttu-id="93b84-205">Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.</span><span class="sxs-lookup"><span data-stu-id="93b84-205">If you do not enter an amount, the maximum amount is applied.</span></span>  
+
+    <span data-ttu-id="93b84-206">Nederst i vinduet **Utlign kundeposter** kan du se det bestemte beløpet i feltet **Utlignet beløp**.</span><span class="sxs-lookup"><span data-stu-id="93b84-206">At the bottom of the **Apply Customer Entries** window, you can see the specific amount in the **Applied Amount** field.</span></span>  
+7. <span data-ttu-id="93b84-207">Velg handlingen **Etterutligne**.</span><span class="sxs-lookup"><span data-stu-id="93b84-207">Choose the **Post Application** action.</span></span> <span data-ttu-id="93b84-208">Vinduet **Etterutligne** vises med dokumentnummeret for utligningsposten og bokføringsdatoen for posten med den seneste bokføringsdatoen.</span><span class="sxs-lookup"><span data-stu-id="93b84-208">The **Post Application** window appears with the document number of the applying entry and the posting date of the entry with the most recent posting date.</span></span>  
+8. <span data-ttu-id="93b84-209">Velg **OK** for å bokføre applikasjonen.</span><span class="sxs-lookup"><span data-stu-id="93b84-209">Choose the **OK** button to post the application.</span></span>
+
+    <span data-ttu-id="93b84-210">Hvis den bokførte utligningen har resultert i lukkede kundeposter, er **Åpne**-feltet tomt for disse postene.</span><span class="sxs-lookup"><span data-stu-id="93b84-210">If the posted application has resulted in closed customer ledger entries, the **Open** field is cleared for these ledger entries.</span></span>    
+9. <span data-ttu-id="93b84-211">Hvis du vil se postene, velger du ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Kunder** og velger deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-211">To see the ledger entries, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span> <span data-ttu-id="93b84-212">Bla til kortet for den relevante kunden for å se postene.</span><span class="sxs-lookup"><span data-stu-id="93b84-212">Browse to the card for the relevant customer to see the ledger entries.</span></span>  
+
+<span data-ttu-id="93b84-213">I postoversikten er det ikke merket av for **Åpen** på linjen som inneholder posten som ble fullstendig utlignet.</span><span class="sxs-lookup"><span data-stu-id="93b84-213">On the ledger entry list, on the line that contains the ledger entry that was fully applied to, you can see that the **Open** check box is not selected.</span></span>  
+
+> [!NOTE]  
+>   <span data-ttu-id="93b84-214">Når du har valgt en post i vinduet **Utlign kundeposter** eller flere poster ved å angi **Utlignings-ID**, inneholder feltet **Utlignet beløp** på kladdelinjen summen av de gjenstående beløpene for de bokførte postene du har valgt, hvis ikke feltet allerede inneholder verdier.</span><span class="sxs-lookup"><span data-stu-id="93b84-214">After you select an entry in the **Apply Customer Entries** window, or several entries by setting the **Applies-to ID**, the **Applied Amount** field on the journal line will contain the sum of the remaining amounts for the posted entries you have selected, unless the field contains something already.</span></span> <span data-ttu-id="93b84-215">Hvis du velger **Saldo** i feltet **Utligningsmetode** på kundekortet, utlignes inntreffer utligningen automatisk.</span><span class="sxs-lookup"><span data-stu-id="93b84-215">If you select **Apply to Oldest** in the **Application Method** field on the customer card, the application occurs automatically.</span></span>
+
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a><span data-ttu-id="93b84-216">Slik utligner du kundeposter i forskjellige valutaer mot hverandre</span><span class="sxs-lookup"><span data-stu-id="93b84-216">To apply customer ledger entries in different currencies to one another</span></span>
+<span data-ttu-id="93b84-217">Hvis du selger til en kunde i én valuta og mottar betaling i en annen valuta, kan du likevel utligne fakturaen mot betalingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-217">If you sell to a customer in one currency and receive payment in another currency, you can still apply the invoice to the payment.</span></span>  
+
+<span data-ttu-id="93b84-218">Hvis du utligner en post (post 1) i én valuta mot en post (post 2) i en annen valuta, brukes bokføringsdatoen i post 1 til å søke etter den relevante valutakursen for å konvertere beløp i post 2.</span><span class="sxs-lookup"><span data-stu-id="93b84-218">If you apply an entry (Entry 1) in one currency to an entry (Entry 2) in a different currency, the posting date on Entry 1 is used to find the relevant exchange rate to convert amounts on Entry 2.</span></span> <span data-ttu-id="93b84-219">Den relevante valutakursen finnes i **Valutakurser**-vinduet.</span><span class="sxs-lookup"><span data-stu-id="93b84-219">The relevant exchange rate is found in the **Currency Exchange Rates** window.</span></span>  
+
+<span data-ttu-id="93b84-220">Utligning av kundeposter i forskjellige valutaer må være aktivert.</span><span class="sxs-lookup"><span data-stu-id="93b84-220">Applying customer ledger entries in different currencies must be enabled.</span></span> <span data-ttu-id="93b84-221">Hvis du vil ha mer informasjon, kan du se [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).</span><span class="sxs-lookup"><span data-stu-id="93b84-221">For more information, see [How to: Enable Application of Ledger Entries in Different Currencies](finance-how-enable-application-ledger-entries-different-currencies.md).</span></span>  
+
+1. <span data-ttu-id="93b84-222">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-222">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cash Receipts Journal**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-223">Åpne kladden du vil bruke, og fyll ut den første tomme kladdelinjen med en valutakode.</span><span class="sxs-lookup"><span data-stu-id="93b84-223">Open the journal you want, and fill in the first empty journal line using a currency code.</span></span>
+3. <span data-ttu-id="93b84-224">Velg handlingen **Utlign poster**.</span><span class="sxs-lookup"><span data-stu-id="93b84-224">Choose the **Apply Entries** action.</span></span>
+4. <span data-ttu-id="93b84-225">Velg linjen med posten du vil utligne mot posten i innbetalingskladden. Deretter velger du handlingen **Angi utlignings-ID** og merker posten du vil utligne mot.</span><span class="sxs-lookup"><span data-stu-id="93b84-225">Select the line with the entry you want to apply to the entry in the cash receipt journal, choose the **Set Applies-to ID** action, and then select the entry you want to apply to.</span></span>
+5. <span data-ttu-id="93b84-226">Velg **OK** for å gå tilbake til innbetalingskladden.</span><span class="sxs-lookup"><span data-stu-id="93b84-226">Choose the **OK** button to return to the cash receipt journal.</span></span>
+6. <span data-ttu-id="93b84-227">Bokfør salgskladden.</span><span class="sxs-lookup"><span data-stu-id="93b84-227">Post the sales journal.</span></span>  
 
 > [!IMPORTANT]  
->   Når du utligner poster i ulike valutaer, konverteres postene til USD. Selv om valutakursene for de to valutaene er fast, for eksempel mellom USD og EUR, kan det oppstå et lite restbeløp når de omregnes til USD. Disse små restbeløpene bokføres som agio eller disagio for kontoen som er spesifisert i feltet **Konto for realisert agio** eller **Konto for realisert disagio** i vinduet **Valutaer**. Feltet **Beløp (USD)** justeres også i leverandørpostene.  
+>   <span data-ttu-id="93b84-228">Når du utligner poster i ulike valutaer, konverteres postene til USD.</span><span class="sxs-lookup"><span data-stu-id="93b84-228">When you apply entries in different currencies, the entries are converted to USD.</span></span> <span data-ttu-id="93b84-229">Selv om valutakursene for de to valutaene er fast, for eksempel mellom USD og EUR, kan det oppstå et lite restbeløp når de omregnes til USD.</span><span class="sxs-lookup"><span data-stu-id="93b84-229">Although the exchange rates for the two currencies are fixed, for example between USD and EUR, there may be a small residual amount when they are converted to USD.</span></span> <span data-ttu-id="93b84-230">Disse små restbeløpene bokføres som agio eller disagio for kontoen som er spesifisert i feltet **Konto for realisert agio** eller **Konto for realisert disagio** i vinduet **Valutaer**.</span><span class="sxs-lookup"><span data-stu-id="93b84-230">These small residual amounts are posted as gains and losses to the account specified in the **Realized Gains Account** or **Realized Losses Account** fields in the **Currencies** window.</span></span> <span data-ttu-id="93b84-231">Feltet **Beløp (USD)** justeres også i leverandørpostene.</span><span class="sxs-lookup"><span data-stu-id="93b84-231">The **Amount (USD)** field is also adjusted on the vendor ledger entries.</span></span>  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Korrigere en utligning av kundeposter
-Når du korrigerer en utligning, opprettes og bokføres korreksjonsposter (poster som er identiske med de opprinnelige postene, men som har motsatt fortegn i beløpsfeltet) for alle poster, inkludert alle finansbokføringer som er avledet fra utligningen, for eksempel betalingsrabatt og valutagevinst/-tap. Postene som ble lukket av utligningen, åpnes på nytt.  
+## <a name="to-correct-an-application-of-customer-entries"></a><span data-ttu-id="93b84-232">Korrigere en utligning av kundeposter</span><span class="sxs-lookup"><span data-stu-id="93b84-232">To correct an application of customer entries</span></span>
+<span data-ttu-id="93b84-233">Når du korrigerer en utligning, opprettes og bokføres korreksjonsposter (poster som er identiske med de opprinnelige postene, men som har motsatt fortegn i beløpsfeltet) for alle poster, inkludert alle finansbokføringer som er avledet fra utligningen, for eksempel betalingsrabatt og valutagevinst/-tap.</span><span class="sxs-lookup"><span data-stu-id="93b84-233">When you correct an application, correcting entries that are identical to the original entry but with opposite sign in the amount field are created and posted for all entries, including all general ledger posting derived from the application, such as payment discount and currency gains/losses.</span></span> <span data-ttu-id="93b84-234">Postene som ble lukket av utligningen, åpnes på nytt.</span><span class="sxs-lookup"><span data-stu-id="93b84-234">The entries that were closed by the application are reopened.</span></span>  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.
-2. Åpne det relevante kundekortet.
-3. Velg handlingen **Poster**.
-4. Velg den relevante posten, og velg deretter handlingen **Opphev utligning**.
-5. Du kan også velge handlingen **Detaljert post**.
-6. Velg utligningsposten, og velg deretter handlingen **Opphev utligning**.
-7. Fyll ut feltene i hodet, og klikk deretter handlingen **Opphev utligning**.  
+1. <span data-ttu-id="93b84-235">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="93b84-235">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Customers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="93b84-236">Åpne det relevante kundekortet.</span><span class="sxs-lookup"><span data-stu-id="93b84-236">Open the relevant customer card.</span></span>
+3. <span data-ttu-id="93b84-237">Velg handlingen **Poster**.</span><span class="sxs-lookup"><span data-stu-id="93b84-237">Choose the **Ledger Entries** action.</span></span>
+4. <span data-ttu-id="93b84-238">Velg den relevante posten, og velg deretter handlingen **Opphev utligning**.</span><span class="sxs-lookup"><span data-stu-id="93b84-238">Select the relevant ledger entry, and then choose the **Unapply Entries** action.</span></span>
+5. <span data-ttu-id="93b84-239">Du kan også velge handlingen **Detaljert post**.</span><span class="sxs-lookup"><span data-stu-id="93b84-239">Alternatively, choose the **Detailed Ledger Entry** action.</span></span>
+6. <span data-ttu-id="93b84-240">Velg utligningsposten, og velg deretter handlingen **Opphev utligning**.</span><span class="sxs-lookup"><span data-stu-id="93b84-240">Select the application entry, and then choose the **Unapply Entries** action.</span></span>
+7. <span data-ttu-id="93b84-241">Fyll ut feltene i hodet, og klikk deretter handlingen **Opphev utligning**.</span><span class="sxs-lookup"><span data-stu-id="93b84-241">Fill in the fields in the header, and then choose the **Unapply** action.</span></span>  
 
 > [!IMPORTANT]  
->   Hvis en post er utlignet av mer enn én utligningspost, må du oppheve utligningen av den seneste utligningsposten først.  
+>   <span data-ttu-id="93b84-242">Hvis en post er utlignet av mer enn én utligningspost, må du oppheve utligningen av den seneste utligningsposten først.</span><span class="sxs-lookup"><span data-stu-id="93b84-242">If an entry has been applied by more than one application entry, you must unapply the latest application entry first.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Håndtere fordringer](receivables-manage-receivables.md)  
-[Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="see-also"></a><span data-ttu-id="93b84-243">Se også</span><span class="sxs-lookup"><span data-stu-id="93b84-243">See Also</span></span>
+[<span data-ttu-id="93b84-244">Håndtere fordringer</span><span class="sxs-lookup"><span data-stu-id="93b84-244">Managing Receivables</span></span>](receivables-manage-receivables.md)  
+[<span data-ttu-id="93b84-245">Salg</span><span class="sxs-lookup"><span data-stu-id="93b84-245">Sales</span></span>](sales-manage-sales.md)  
+<span data-ttu-id="93b84-246">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="93b84-246">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 

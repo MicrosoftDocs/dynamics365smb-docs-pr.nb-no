@@ -15,33 +15,32 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0a50b92a952c0d4be2b68dc4278cedd9362348f0
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="working-with-included365finincludesd365finlongmdmd"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
-Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
+# <a name="working-with-included365finincludesd365finlongmdmd"></a><span data-ttu-id="e5e80-103">Arbeide med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]</span><span class="sxs-lookup"><span data-stu-id="e5e80-103">Working with [!INCLUDE[d365fin](includes/d365fin_long_md.md)]</span></span>
+<span data-ttu-id="e5e80-104">Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.</span><span class="sxs-lookup"><span data-stu-id="e5e80-104">When performing business tasks, you interact with data in different ways, such as creating records and entering data, sorting and filtering data, writing notes, and outputting data to other applications.</span></span>
 
-Du kan for eksempel justere størrelsen på og plasseringen av alle vinduer, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
+<span data-ttu-id="e5e80-105">Du kan for eksempel justere størrelsen på og plasseringen av alle vinduer, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner.</span><span class="sxs-lookup"><span data-stu-id="e5e80-105">For example, you can adjust the size and position of any window, expand the width of columns and increase the height of column headers, and change the sorting of data in columns.</span></span> <span data-ttu-id="e5e80-106">Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.</span><span class="sxs-lookup"><span data-stu-id="e5e80-106">And if you want to use the horizontal scroll bar to view all columns on a list page or on document lines, you will see that there is a vertical freeze pane to restrict some columns from scrolling.</span></span>
 
-Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til emnene som beskriver dem.
+<span data-ttu-id="e5e80-107">Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="e5e80-107">The following table lists some of the general functionality with links to topics that describe them.</span></span>
 
-| Hvis du vil | Se |
+| <span data-ttu-id="e5e80-108">Hvis du vil</span><span class="sxs-lookup"><span data-stu-id="e5e80-108">To</span></span> | <span data-ttu-id="e5e80-109">Se</span><span class="sxs-lookup"><span data-stu-id="e5e80-109">See</span></span> |
 | --- | --- |
-| Lese om inkluderingssymboler og spesialtegn når du søker etter data. |[Angi vilkår i filtre](ui-enter-criteria-filters.md) |
-| Se hvilke felt som må fylles ut. |[Obligatoriske felt](ui-mandatory-fields.md) |
-| Bruke søk til å søke etter en bestemt side eller rapport. |[Bruke Søk etter side eller rapport](ui-search.md) |
-| Finne ut mer om hvordan du sorterer data. |[Sortering](ui-sorting.md) |
-| Endre hvordan du viser lister, for eksempel kunder, leverandører eller varer. |[Vise lister på ulike måter](across-display-lists-different-views.md) |
-| Endre den fargede indikatoren på bunker. |[Definere en farget indikator for bunke-ikoner](ui-how-setup-colored-indicator-cues.md) |
-| Endre grunnleggende innstillinger, for eksempel firma eller arbeidsdato. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
-| Endre rollesenteret og den relaterte hjemmesiden, slik at det passer din rolle. |[Endre rollesenteret](change-role.md) |
-| Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md) |
-| Få rapporter til å vise data fra bestemte datointervaller. |[Angi datointervaller i Dynamics 365 for Financials](ui-enter-date-ranges.md) |
+| <span data-ttu-id="e5e80-110">Lese om inkluderingssymboler og spesialtegn når du søker etter data.</span><span class="sxs-lookup"><span data-stu-id="e5e80-110">Read about including symbols and special characters when searching for data.</span></span> |[<span data-ttu-id="e5e80-111">Angi vilkår i filtre</span><span class="sxs-lookup"><span data-stu-id="e5e80-111">Entering Criteria in Filters</span></span>](ui-enter-criteria-filters.md) |
+| <span data-ttu-id="e5e80-112">Se hvilke felt som må fylles ut.</span><span class="sxs-lookup"><span data-stu-id="e5e80-112">See which fields must be filled in.</span></span> |[<span data-ttu-id="e5e80-113">Obligatoriske felt</span><span class="sxs-lookup"><span data-stu-id="e5e80-113">Mandatory Fields</span></span>](ui-mandatory-fields.md) |
+| <span data-ttu-id="e5e80-114">Bruke søk til å søke etter en bestemt side eller rapport.</span><span class="sxs-lookup"><span data-stu-id="e5e80-114">Use Search to look for a specific page or report.</span></span> |[<span data-ttu-id="e5e80-115">Bruke Søk etter side eller rapport</span><span class="sxs-lookup"><span data-stu-id="e5e80-115">Using Search for Page or Report</span></span>](ui-search.md) |
+| <span data-ttu-id="e5e80-116">Finne ut mer om hvordan du sorterer data.</span><span class="sxs-lookup"><span data-stu-id="e5e80-116">Learn about how to sort data.</span></span> |[<span data-ttu-id="e5e80-117">Sortering</span><span class="sxs-lookup"><span data-stu-id="e5e80-117">Sorting</span></span>](ui-sorting.md) |
+| <span data-ttu-id="e5e80-118">Endre hvordan du viser lister, for eksempel kunder, leverandører eller varer.</span><span class="sxs-lookup"><span data-stu-id="e5e80-118">Change how you view lists of, for example, customers, vendors, or items.</span></span> |[<span data-ttu-id="e5e80-119">Vise lister på ulike måter</span><span class="sxs-lookup"><span data-stu-id="e5e80-119">Displaying Lists in Different Ways</span></span>](across-display-lists-different-views.md) |
+| <span data-ttu-id="e5e80-120">Endre den fargede indikatoren på bunker.</span><span class="sxs-lookup"><span data-stu-id="e5e80-120">Modify the colored indicator on cues.</span></span> |[<span data-ttu-id="e5e80-121">Definere en farget indikator for bunke-ikoner</span><span class="sxs-lookup"><span data-stu-id="e5e80-121">How to: Set Up a Colored Indicator on Cues</span></span>](ui-how-setup-colored-indicator-cues.md) |
+| <span data-ttu-id="e5e80-122">Endre grunnleggende innstillinger, for eksempel firma eller arbeidsdato.</span><span class="sxs-lookup"><span data-stu-id="e5e80-122">Change basic settings such as company or work date.</span></span> |[<span data-ttu-id="e5e80-123">Endre grunnleggende innstillinger</span><span class="sxs-lookup"><span data-stu-id="e5e80-123">Changing Basic Settings</span></span>](ui-change-basic-settings.md) |
+| <span data-ttu-id="e5e80-124">Endre rollesenteret og den relaterte hjemmesiden, slik at det passer din rolle.</span><span class="sxs-lookup"><span data-stu-id="e5e80-124">Change the Role Center, and the related Home page, to fit your role.</span></span> |[<span data-ttu-id="e5e80-125">Endre rollesenteret</span><span class="sxs-lookup"><span data-stu-id="e5e80-125">How to: Change the Role Center</span></span>](change-role.md) |
+| <span data-ttu-id="e5e80-126">Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser.</span><span class="sxs-lookup"><span data-stu-id="e5e80-126">Change which fields and actions are shown in the user interface to fit your company's business processes.</span></span> |<span data-ttu-id="e5e80-127">[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="e5e80-127">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span> |
+| <span data-ttu-id="e5e80-128">Få rapporter til å vise data fra bestemte datointervaller.</span><span class="sxs-lookup"><span data-stu-id="e5e80-128">Get reports to show data from specific date ranges.</span></span> |[<span data-ttu-id="e5e80-129">Angi datointervaller i Dynamics 365 for Financials</span><span class="sxs-lookup"><span data-stu-id="e5e80-129">Entering Date Ranges in Dynamics 365 for Financials</span></span>](ui-enter-date-ranges.md) |
 
-## <a name="see-also"></a>Se også
-[Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  
+## <a name="see-also"></a><span data-ttu-id="e5e80-130">Se også</span><span class="sxs-lookup"><span data-stu-id="e5e80-130">See Also</span></span>
+[<span data-ttu-id="e5e80-131">Generelle forretningsfunksjoner</span><span class="sxs-lookup"><span data-stu-id="e5e80-131">General Business Functionality</span></span>](ui-across-business-areas.md)  
+<span data-ttu-id="e5e80-132">[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)</span><span class="sxs-lookup"><span data-stu-id="e5e80-132">[Customizing Your [!INCLUDE[d365fin](includes/d365fin_md.md)] Experience](ui-experiences.md)</span></span>  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

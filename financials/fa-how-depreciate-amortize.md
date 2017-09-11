@@ -16,93 +16,92 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 07e80551ca215eb4c2632faa9f534801a1813680
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
-Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
+# <a name="how-to-depreciate-or-amortize-fixed-assets"></a><span data-ttu-id="1d9c5-103">Avskrive eller amortisere aktiva</span><span class="sxs-lookup"><span data-stu-id="1d9c5-103">How to: Depreciate or Amortize Fixed Assets</span></span>
+<span data-ttu-id="1d9c5-104">Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-104">Depreciation is used to allocate the cost of fixed assets, such as machinery and equipment, over their depreciable life.</span></span> <span data-ttu-id="1d9c5-105">Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-105">For each fixed asset, you must define how it will be depreciated.</span></span>  
 
- Det finnes to måter å bokføre avskrivninger på:  
+ <span data-ttu-id="1d9c5-106">Det finnes to måter å bokføre avskrivninger på:</span><span class="sxs-lookup"><span data-stu-id="1d9c5-106">There are two ways to post depreciation:</span></span>  
 
-* Automatisk, ved å utføre kjørselen **Beregn avskrivning**.  
-* Manuelt, ved hjelp av aktivafinanskladden.  
+* <span data-ttu-id="1d9c5-107">Automatisk, ved å utføre kjørselen **Beregn avskrivning**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-107">Automatically, by running the **Calculate Depreciation** batch job.</span></span>  
+* <span data-ttu-id="1d9c5-108">Manuelt, ved hjelp av aktivafinanskladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-108">Manually, by using the fixed asset G/L journal.</span></span>  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan beregne daglig avskrivning slik at du kan beregne avskrivninger for en hvilken som helst periode. Du kan derfor analysere gjeldende operasjonsresultater på for eksempel månedlig, kvartalsvis eller årlig basis. Beregningen bruker et standardår på 360 dager og en standardmåned på 30 dager. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="1d9c5-109"> kan beregne daglig avskrivning slik at du kan beregne avskrivninger for en hvilken som helst periode.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-109"> can calculate daily depreciation, which allows you to calculate depreciation for any period.</span></span> <span data-ttu-id="1d9c5-110">Du kan derfor analysere gjeldende operasjonsresultater på for eksempel månedlig, kvartalsvis eller årlig basis.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-110">You can therefore analyze current operating results on, for example, a monthly, quarterly, or annual basis.</span></span> <span data-ttu-id="1d9c5-111">Beregningen bruker et standardår på 360 dager og en standardmåned på 30 dager.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-111">The calculation uses a standard year of 360 days and a standard month of 30 days.</span></span> <span data-ttu-id="1d9c5-112">Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md).</span><span class="sxs-lookup"><span data-stu-id="1d9c5-112">For more information, see [Depreciation Methods](fa-depreciation-methods.md).</span></span>  
 
-Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.  
+<span data-ttu-id="1d9c5-113">Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-113">If several departments use a fixed asset, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</span></span>  
 
-Du kan kansellere ukorrekte avskrivningsposter fra et avskrivningstablå ved hjelp av kjørselen **Kanseller aktivaposter**. Deretter kan du bokføre det riktige beløpet ved å utføre kjørselen **Beregn avskrivning** på nytt. Feilene du retter, bokføres feilene som aktivafeilposter.  
+<span data-ttu-id="1d9c5-114">Du kan kansellere ukorrekte avskrivningsposter fra et avskrivningstablå ved hjelp av kjørselen **Kanseller aktivaposter**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-114">You can cancel incorrect depreciation entries by using the **Cancel FA Ledger Entries** batch job.</span></span> <span data-ttu-id="1d9c5-115">Deretter kan du bokføre det riktige beløpet ved å utføre kjørselen **Beregn avskrivning** på nytt.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-115">Afterward, you can post the correct amount by running the **Calculate Depreciation** batch job again.</span></span> <span data-ttu-id="1d9c5-116">Feilene du retter, bokføres feilene som aktivafeilposter.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-116">The errors you correct are posted as fixed asset error ledger entries.</span></span>  
 
-Indeksregulering brukes til å justere verdier for generelle endringer i prisnivået. Du kan bruke kjørselen **Indeksreg. aktiva** til å beregne avskrivningsbeløpene på nytt.  
+<span data-ttu-id="1d9c5-117">Indeksregulering brukes til å justere verdier for generelle endringer i prisnivået.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-117">Indexation is used to adjust values for general price-level changes.</span></span> <span data-ttu-id="1d9c5-118">Du kan bruke kjørselen **Indeksreg. aktiva** til å beregne avskrivningsbeløpene på nytt.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-118">You can use the **Index Fixed Assets** batch job to recalculate the depreciation amounts.</span></span>  
 
-## <a name="to-calculate-depreciation-automatically"></a>Slik beregner du avskrivninger automatisk
-Du kan utføre kjørselen **Beregn avskrivninger** én gang i måneden, eller etter behov. Kjørselen ingorerer aktiva som er solgt, aktiva som er sperret eller inaktive, eller som bruker den manuelle avskrivningsmetoden.  
+## <a name="to-calculate-depreciation-automatically"></a><span data-ttu-id="1d9c5-119">Slik beregner du avskrivninger automatisk</span><span class="sxs-lookup"><span data-stu-id="1d9c5-119">To calculate depreciation automatically</span></span>
+<span data-ttu-id="1d9c5-120">Du kan utføre kjørselen **Beregn avskrivninger** én gang i måneden, eller etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-120">Once a month, or whenever you choose, you can run the **Calculate Depreciation** batch job.</span></span> <span data-ttu-id="1d9c5-121">Kjørselen ingorerer aktiva som er solgt, aktiva som er sperret eller inaktive, eller som bruker den manuelle avskrivningsmetoden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-121">The batch job ignores fixed assets that have been sold, are blocked or inactive, or use the manual depreciation method.</span></span>  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Beregn avskrivninger**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Velg **OK**.  
+1. <span data-ttu-id="1d9c5-122">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Beregn avskrivninger**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Calculate Depreciation**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-123">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-123">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="1d9c5-124">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-124">Choose the **OK** button.</span></span>  
 
-    Kjørselen beregner avskrivningen og oppretter linjer i aktivafinanskladden.  
-4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+    <span data-ttu-id="1d9c5-125">Kjørselen beregner avskrivningen og oppretter linjer i aktivafinanskladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-125">The batch job calculates the depreciation and creates lines in the fixed asset G/L journal.</span></span>  
+4. <span data-ttu-id="1d9c5-126">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA G/L Journals**, and then choose the related link.</span></span>  
 
-    I vinduet **Aktiva finanskladd** i **Antall avskrivningsdager**-feltet kan du se hvor mange avskrivningsdager det er beregnet.  
-5. Velg handlingen **Bokfør**.  
+    <span data-ttu-id="1d9c5-127">I vinduet **Aktiva finanskladd** i **Antall avskrivningsdager**-feltet kan du se hvor mange avskrivningsdager det er beregnet.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-127">In the **Fixed Asset G/L Journal** window, in the **No. of Depreciation Days** field you can see how many days of depreciation have been calculated.</span></span>  
+5. <span data-ttu-id="1d9c5-128">Velg handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-128">Choose the **Post** action.</span></span>  
 
-## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Slik bokfører du avskrivning manuelt fra aktivafinanskladden:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.  
-2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.  
-3. I feltet **Aktivabokf.type** velger du **Avskrivning**.  
-4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for bokføring av avskrivning. Hvis du vil ha mer informasjon, kan du se "Definere bokføringsgrupper for aktiva" i [Definere generell aktivainformasjon](fa-how-setup-general.md).  
-5. I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.  
+## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a><span data-ttu-id="1d9c5-129">Slik bokfører du avskrivning manuelt fra aktivafinanskladden:</span><span class="sxs-lookup"><span data-stu-id="1d9c5-129">To post depreciation manually from the fixed asset G/L journal</span></span>
+1. <span data-ttu-id="1d9c5-130">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-130">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-131">Opprett en innledende kladdelinje, og fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-131">Create an initial journal line and fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="1d9c5-132">I feltet **Aktivabokf.type** velger du **Avskrivning**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-132">In the **FA Posting Type** field, select **Depreciation**.</span></span>  
+4. <span data-ttu-id="1d9c5-133">Velg **Sett inn aktivamotkonto**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-133">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="1d9c5-134">En ny kladdelinje opprettes for motkontoen som er satt opp for bokføring av avskrivning.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-134">A second journal line is created for the balancing account that is set up for depreciation posting.</span></span> <span data-ttu-id="1d9c5-135">Hvis du vil ha mer informasjon, kan du se "Definere bokføringsgrupper for aktiva" i [Definere generell aktivainformasjon](fa-how-setup-general.md).</span><span class="sxs-lookup"><span data-stu-id="1d9c5-135">For more information, see the "To set up fixed asset posting groups" section in [How to: Set Up General Fixed Asset Information](fa-how-setup-general.md).</span></span>  
+5. <span data-ttu-id="1d9c5-136">I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-136">On the **Home** tab, choose **Post** to post the journal.</span></span>  
 
-Hvis du har definert aktivafordelingsnøkler for å fordele beløp på ulike avdelinger eller prosjekter, vil beløpene fordeles under bokføringen. Se [Definere generell aktivainformasjon](fa-how-setup-general.md) for mer informasjon.  
+<span data-ttu-id="1d9c5-137">Hvis du har definert aktivafordelingsnøkler for å fordele beløp på ulike avdelinger eller prosjekter, vil beløpene fordeles under bokføringen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-137">If you have set up fixed asset allocation keys to allocate amounts to different departments or projects, the amounts are allocated during posting.</span></span> <span data-ttu-id="1d9c5-138">Se [Definere generell aktivainformasjon](fa-how-setup-general.md) for mer informasjon.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-138">For more information, see [How to: Set Up General Fixed Assets Information](fa-how-setup-general.md).</span></span>  
 
-## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Slik beregner du fordelinger i aktivafinanskladden:
-Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.  
+## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a><span data-ttu-id="1d9c5-139">Slik beregner du fordelinger i aktivafinanskladden:</span><span class="sxs-lookup"><span data-stu-id="1d9c5-139">To calculate allocations in the fixed asset G/L journal</span></span>
+<span data-ttu-id="1d9c5-140">Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-140">If a fixed asset is used by several departments, periodic depreciation can be automatically allocated to these departments according to a user-defined allocation table.</span></span>  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.  
-2. Opprett en innledende linje, og fyll ut feltene etter behov.
-3. I feltet **Aktivabokf.type** velger du **Fordeling**.  
-4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for fordelingsbokføring.  
-5. I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.  
+1. <span data-ttu-id="1d9c5-141">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-141">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-142">Opprett en innledende linje, og fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-142">Create an initial line and fill in the fields as necessary.</span></span>
+3. <span data-ttu-id="1d9c5-143">I feltet **Aktivabokf.type** velger du **Fordeling**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-143">In the **FA Posting Type** field, select **Allocation**.</span></span>  
+4. <span data-ttu-id="1d9c5-144">Velg **Sett inn aktivamotkonto**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-144">Choose the **Insert FA Bal. Account** action.</span></span> <span data-ttu-id="1d9c5-145">En ny kladdelinje opprettes for motkontoen som er satt opp for fordelingsbokføring.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-145">A second journal line is created for the balancing account that is set up for allocation posting.</span></span>  
+5. <span data-ttu-id="1d9c5-146">I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-146">On the **Home** tab, choose **Post** to post the journal.</span></span>  
 
-## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruke duplikatoversikter til å forberede bokføring av flere avskrivningstablåer
-Når du fyller ut kladdelinjer som skal bokføres i et avskrivningstablå, kan du duplisere linjene i en separat kladd, slik at du kan bokføre dem i et annet avskrivningstablå. Hvis du vil ha mer informasjon, kan du se "Slik bokfører du poster i ulike avskrivningstablåer".
+## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a><span data-ttu-id="1d9c5-147">Bruke duplikatoversikter til å forberede bokføring av flere avskrivningstablåer</span><span class="sxs-lookup"><span data-stu-id="1d9c5-147">Use duplication lists to prepare to post to multiple depreciation books</span></span>
+<span data-ttu-id="1d9c5-148">Når du fyller ut kladdelinjer som skal bokføres i et avskrivningstablå, kan du duplisere linjene i en separat kladd, slik at du kan bokføre dem i et annet avskrivningstablå.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-148">When you fill in journal lines to post to a depreciation book, you can duplicate the lines in a separate journal so you can post to a different depreciation book.</span></span> <span data-ttu-id="1d9c5-149">Hvis du vil ha mer informasjon, kan du se "Slik bokfører du poster i ulike avskrivningstablåer".</span><span class="sxs-lookup"><span data-stu-id="1d9c5-149">For more information, see the "To post entries to different depreciation books" section.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
-2. Åpne avskrivningstablået, og merk deretter av for **Del av duplikasjonsoversikt**.  
+1. <span data-ttu-id="1d9c5-150">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-150">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-151">Åpne avskrivningstablået, og merk deretter av for **Del av duplikasjonsoversikt**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-151">Open the depreciation book, and then select the **Part of Duplication List** check box.</span></span>  
 
 > [!IMPORTANT]  
->   Hvis du har valgt feltet **Bruk duplikatoversikt**, må du ikke bruke nummerserier på kladden. Årsaken er at nummerserien for aktivafinanskladden ikke samsvarer med nummerserien for aktivakladden.  
+>   <span data-ttu-id="1d9c5-152">Hvis du har valgt feltet **Bruk duplikatoversikt**, må du ikke bruke nummerserier på kladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-152">If you have selected the **Use Duplication List** field, do not use number series on the journal.</span></span> <span data-ttu-id="1d9c5-153">Årsaken er at nummerserien for aktivafinanskladden ikke samsvarer med nummerserien for aktivakladden.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-153">The reason is that the number series for the fixed asset G/L journal does not the number series for the fixed asset journal.</span></span>  
 
-## <a name="to-post-entries-to-different-depreciation-books"></a>Slik bokfører du poster i ulike avskrivningstablåer
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.  
-2. I kladden du vil bokføre avskrivning med, merker du av for **Bruk duplikatoversikt**.  
-3. Fyll ut feltene som gjenstår, etter behov.  
-4. Velg handlingen **Bokfør**.  
-5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivakladder**, og velg deretter den relaterte koblingen.  
-
-    > [!NOTE]  
->   **Aktivakladd**-vinduet inneholder nye linjer for ulike avskrivningstablåer i henhold til duplikatoversikten.  
-6. Se gjennom eller rediger linjene, og velg deretter **Bokfør**.  
+## <a name="to-post-entries-to-different-depreciation-books"></a><span data-ttu-id="1d9c5-154">Slik bokfører du poster i ulike avskrivningstablåer</span><span class="sxs-lookup"><span data-stu-id="1d9c5-154">To post entries to different depreciation books</span></span>
+1. <span data-ttu-id="1d9c5-155">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladd**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-155">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Asset G/L Journal**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-156">I kladden du vil bokføre avskrivning med, merker du av for **Bruk duplikatoversikt**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-156">In the journal that you want to post depreciation with, select the **Use Duplication List** check box.</span></span>  
+3. <span data-ttu-id="1d9c5-157">Fyll ut feltene som gjenstår, etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-157">Fill in the remaining fields as necessary.</span></span>  
+4. <span data-ttu-id="1d9c5-158">Velg handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-158">Choose the **Post** action.</span></span>  
+5. <span data-ttu-id="1d9c5-159">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivakladder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-159">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **FA Journals**, and then choose the related link.</span></span>  
 
     > [!NOTE]  
->   Du kan også duplisere en post i et separat tablå ved å angi koden for avskrivningstablået i feltet **Duplikat i avskrivningstablå**, når du fyller ut en kladdelinje.  
+>   <span data-ttu-id="1d9c5-160">**Aktivakladd**-vinduet inneholder nye linjer for ulike avskrivningstablåer i henhold til duplikatoversikten.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-160">The **Fixed Asset Journal** window contains new lines for different depreciation books according to the duplication list.</span></span>  
+6. <span data-ttu-id="1d9c5-161">Se gjennom eller rediger linjene, og velg deretter **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-161">Review or edit the lines, and then choose the **Post** action.</span></span>  
 
-Du kan kopiere poster fra ett avskrivningstablå til et annet med kjørselen **Kopier avskrivningstablå**. Kjørselen oppretter kladdelinjer i kladden du har angitt i vinduet **Aktivakladdoppsett** for avskrivningstablået du vil kopiere til. Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:  
+    > [!NOTE]  
+>   <span data-ttu-id="1d9c5-162">Du kan også duplisere en post i et separat tablå ved å angi koden for avskrivningstablået i feltet **Duplikat i avskrivningstablå**, når du fyller ut en kladdelinje.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-162">Another way to duplicate an entry in a separate book is to enter a depreciation book code in the **Duplicate in Depreciation Book** field when you fill in a journal line.</span></span>  
 
-## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Slik kopierer du aktivaposter mellom avskrivningstablåer:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
-2. Åpne det aktuelle avskrivningstablåkortet, og velg deretter **Kopier avskrivningstablå**.  
-3. I vinduet **Kopier avskrivningstablå** fyller du ut feltene etter behov.  
-4. Velg **OK**.  
+<span data-ttu-id="1d9c5-163">Du kan kopiere poster fra ett avskrivningstablå til et annet med kjørselen **Kopier avskrivningstablå**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-163">You can copy entries from one depreciation book to another by using the **Copy Depreciation Book** batch job.</span></span> <span data-ttu-id="1d9c5-164">Kjørselen oppretter kladdelinjer i kladden du har angitt i vinduet **Aktivakladdoppsett** for avskrivningstablået du vil kopiere til.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-164">The batch job creates journal lines in the journal batch that you have specified in the **FA Journal Setup** window for the depreciation book that you want to copy to.</span></span> <span data-ttu-id="1d9c5-165">Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:</span><span class="sxs-lookup"><span data-stu-id="1d9c5-165">For more information, see the following procedure.</span></span>  
 
-De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden, avhengig av om avskrivningstablået du kopierer, er integrert med Finans.  
+## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a><span data-ttu-id="1d9c5-166">Slik kopierer du aktivaposter mellom avskrivningstablåer:</span><span class="sxs-lookup"><span data-stu-id="1d9c5-166">To copy fixed asset ledger entries between depreciation books</span></span>
+1. <span data-ttu-id="1d9c5-167">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-167">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Depreciation Books**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="1d9c5-168">Åpne det aktuelle avskrivningstablåkortet, og velg deretter **Kopier avskrivningstablå**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-168">Open the relevant depreciation book card, and then choose the **Copy Depreciation Book** action.</span></span>  
+3. <span data-ttu-id="1d9c5-169">I vinduet **Kopier avskrivningstablå** fyller du ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-169">In the **Copy Depreciation Book** window, fill in the fields as necessary.</span></span>  
+4. <span data-ttu-id="1d9c5-170">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-170">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
-[Definere aktiva](fa-setup.md)  
-[Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+<span data-ttu-id="1d9c5-171">De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden, avhengig av om avskrivningstablået du kopierer, er integrert med Finans.</span><span class="sxs-lookup"><span data-stu-id="1d9c5-171">The copied lines are created in either the fixed asset G/L journal or the fixed asset journal, depending on whether the depreciation book that you are copying has integration to the general ledger.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="1d9c5-172">Se også</span><span class="sxs-lookup"><span data-stu-id="1d9c5-172">See Also</span></span>
+[<span data-ttu-id="1d9c5-173">Aktiva</span><span class="sxs-lookup"><span data-stu-id="1d9c5-173">Fixed Assets</span></span>](fa-manage.md)  
+[<span data-ttu-id="1d9c5-174">Definere aktiva</span><span class="sxs-lookup"><span data-stu-id="1d9c5-174">Setting Up Fixed Assets</span></span>](fa-setup.md)  
+[<span data-ttu-id="1d9c5-175">Finans</span><span class="sxs-lookup"><span data-stu-id="1d9c5-175">Finance</span></span>](finance.md)  
+<span data-ttu-id="1d9c5-176">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="1d9c5-176">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

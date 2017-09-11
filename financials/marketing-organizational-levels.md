@@ -16,33 +16,32 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Definere organisasjonsnivåer for kontaktpersoner
-Du kan bruke organisasjonsnivåer på kontaktene for å angi hvilken stilling de har i selskapet, for eksempel en stilling i toppledelsen. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
+# <a name="how-to-set-up-organizational-levels-for-contact-persons"></a><span data-ttu-id="b239a-103">Definere organisasjonsnivåer for kontaktpersoner</span><span class="sxs-lookup"><span data-stu-id="b239a-103">How to: Set Up Organizational Levels for Contact Persons</span></span>
+<span data-ttu-id="b239a-104">Du kan bruke organisasjonsnivåer på kontaktene for å angi hvilken stilling de har i selskapet, for eksempel en stilling i toppledelsen.</span><span class="sxs-lookup"><span data-stu-id="b239a-104">You can use organizational levels on your contacts to specify which position they have in the company, for example, top management.</span></span> <span data-ttu-id="b239a-105">Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.</span><span class="sxs-lookup"><span data-stu-id="b239a-105">You can use this information when entering information about your contacts.</span></span>
 
-Bruk av organisasjonsnivåer på kontakter er en totrinnsprosess. Først må du definere koden for organisasjonsnivået. Du trenger bare utføre dette trinnet én gang for hvert organisasjonsnivå. Når du har en kode for organisasjonsnivå, kan du begynne å tilordne koden til kontaktpersoner.
+<span data-ttu-id="b239a-106">Bruk av organisasjonsnivåer på kontakter er en totrinnsprosess.</span><span class="sxs-lookup"><span data-stu-id="b239a-106">Using organizational levels on contacts is a two-step process.</span></span> <span data-ttu-id="b239a-107">Først må du definere koden for organisasjonsnivået.</span><span class="sxs-lookup"><span data-stu-id="b239a-107">First, you define the organizational level code.</span></span> <span data-ttu-id="b239a-108">Du trenger bare utføre dette trinnet én gang for hvert organisasjonsnivå.</span><span class="sxs-lookup"><span data-stu-id="b239a-108">You only have to perform this step one time for each organizational level.</span></span> <span data-ttu-id="b239a-109">Når du har en kode for organisasjonsnivå, kan du begynne å tilordne koden til kontaktpersoner.</span><span class="sxs-lookup"><span data-stu-id="b239a-109">Once you have an organizational level code, you can start to assign the code to contact persons.</span></span>
 
-## <a name="to-define-an-organizational-level-code"></a>Definere kode for organisasjonsnivå
-Koden for organisasjonsnivå definerer jobbtype eller -kategori for organisasjonsnivået, for eksempel ADMDIR eller ØKDIR. Du kan ha flere koder for organisasjonsnivå. Hvis du vil definere organisasjonsnivået, bruker du vinduet **Organisasjonsnivåer**.
+## <a name="to-define-an-organizational-level-code"></a><span data-ttu-id="b239a-110">Definere kode for organisasjonsnivå</span><span class="sxs-lookup"><span data-stu-id="b239a-110">to define an organizational level code</span></span>
+<span data-ttu-id="b239a-111">Koden for organisasjonsnivå definerer jobbtype eller -kategori for organisasjonsnivået, for eksempel ADMDIR eller ØKDIR.</span><span class="sxs-lookup"><span data-stu-id="b239a-111">The organizational level code defines the type or category of the organizational level, such a CEO  or CFO.</span></span> <span data-ttu-id="b239a-112">Du kan ha flere koder for organisasjonsnivå.</span><span class="sxs-lookup"><span data-stu-id="b239a-112">You can have several organizational level codes.</span></span> <span data-ttu-id="b239a-113">Hvis du vil definere organisasjonsnivået, bruker du vinduet **Organisasjonsnivåer**.</span><span class="sxs-lookup"><span data-stu-id="b239a-113">To define the organizational level, you use the **Organizational Levels** window.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Organisasjonsnivåer**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
+1. <span data-ttu-id="b239a-114">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Organisasjonsnivåer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="b239a-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Organizational Levels**, and then choose the related link.</span></span>
+2. <span data-ttu-id="b239a-115">Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse.</span><span class="sxs-lookup"><span data-stu-id="b239a-115">Choose the **New** action, and fill in a code and description.</span></span> <span data-ttu-id="b239a-116">Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.</span><span class="sxs-lookup"><span data-stu-id="b239a-116">The code can be a maximum of 11 characters, and can be any combination of numbers and letters.</span></span>
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Tilordne organisasjonsnivåer til en kontaktperson
-Du kan bare tilordne organisasjonsnivåer til kontaktpersoner, ikke selskaper. Du kan bare tilordne ett organisasjonsnivå til hver enkelt kontakt.
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a><span data-ttu-id="b239a-117">Tilordne organisasjonsnivåer til en kontaktperson</span><span class="sxs-lookup"><span data-stu-id="b239a-117">to assign organizational levels to a contact person</span></span>
+<span data-ttu-id="b239a-118">Du kan bare tilordne organisasjonsnivåer til kontaktpersoner, ikke selskaper.</span><span class="sxs-lookup"><span data-stu-id="b239a-118">You can assign organizational levels to contact persons only, not contact companies.</span></span> <span data-ttu-id="b239a-119">Du kan bare tilordne ett organisasjonsnivå til hver enkelt kontakt.</span><span class="sxs-lookup"><span data-stu-id="b239a-119">You can only assign one organizational level to each contact.</span></span>
 
-1. Åpne kontakten.
-2. I feltet **Organisasjonsnivåer** velger du koden du vil tilordne.
+1. <span data-ttu-id="b239a-120">Åpne kontakten.</span><span class="sxs-lookup"><span data-stu-id="b239a-120">Open the contact.</span></span>
+2. <span data-ttu-id="b239a-121">I feltet **Organisasjonsnivåer** velger du koden du vil tilordne.</span><span class="sxs-lookup"><span data-stu-id="b239a-121">In the **Organizational Levels** field, select the code you want to assign.</span></span>
 
-Når du har tildelt organisasjonsnivåer til kontaktene, kan du bruke disse opplysningene til å opprette segmenter.
+<span data-ttu-id="b239a-122">Når du har tildelt organisasjonsnivåer til kontaktene, kan du bruke disse opplysningene til å opprette segmenter.</span><span class="sxs-lookup"><span data-stu-id="b239a-122">After you have assigned organizational levels to your contacts, you can use this information to create segments.</span></span>
 
-Når du har tilordnet ansvarsområder til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
+<span data-ttu-id="b239a-123">Når du har tilordnet ansvarsområder til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene.</span><span class="sxs-lookup"><span data-stu-id="b239a-123">After you have assigned job responsibilities to your contacts, you can use this information to select contacts for your segments.</span></span> <span data-ttu-id="b239a-124">Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).</span><span class="sxs-lookup"><span data-stu-id="b239a-124">For more information, see [How to: Add Contacts to Segments](marketing-add-contact-segment.md).</span></span>
 
-## <a name="see-also"></a>Se også
-[Opprette kontaktselskaper](marketing-create-contact-companies.md)  
-[Opprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+## <a name="see-also"></a><span data-ttu-id="b239a-125">Se også</span><span class="sxs-lookup"><span data-stu-id="b239a-125">See Also</span></span>
+[<span data-ttu-id="b239a-126">Opprette kontaktselskaper</span><span class="sxs-lookup"><span data-stu-id="b239a-126">Creating Contact Companies</span></span>](marketing-create-contact-companies.md)  
+[<span data-ttu-id="b239a-127">Opprette kontaktpersoner</span><span class="sxs-lookup"><span data-stu-id="b239a-127">Creating Contact Persons</span></span>](marketing-create-contact-persons.md)  
+<span data-ttu-id="b239a-128">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b239a-128">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 

@@ -16,87 +16,86 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/11/2017
 
 ---
-# <a name="how-to-monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
-Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig. Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).
+# <a name="how-to-monitor-job-progress-and-performance"></a><span data-ttu-id="a2132-102">Overvåke prosjektfremdrift og -ytelse</span><span class="sxs-lookup"><span data-stu-id="a2132-102">How to: Monitor Job Progress and Performance</span></span>
+<span data-ttu-id="a2132-103">Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet.</span><span class="sxs-lookup"><span data-stu-id="a2132-103">As a job progresses, materials, resources, and other expenses are consumed and must be posted to the job.</span></span> <span data-ttu-id="a2132-104">Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår.</span><span class="sxs-lookup"><span data-stu-id="a2132-104">Work in Process (WIP) is a feature that enables you to estimate the financial value of jobs in the general ledger while the jobs are ongoing.</span></span> <span data-ttu-id="a2132-105">I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt.</span><span class="sxs-lookup"><span data-stu-id="a2132-105">In many cases, you might post expenses for a job before invoicing a job.</span></span> <span data-ttu-id="a2132-106">Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig.</span><span class="sxs-lookup"><span data-stu-id="a2132-106">When only expenses have been posted, your financial statement will be inaccurate.</span></span> <span data-ttu-id="a2132-107">Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).</span><span class="sxs-lookup"><span data-stu-id="a2132-107">For more information, see [Understanding WIP Methods](projects-understanding-wip.md).</span></span>
 
-Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans.
+<span data-ttu-id="a2132-108">Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans.</span><span class="sxs-lookup"><span data-stu-id="a2132-108">To track the value in the general ledger, you can calculate WIP and post the value to the general ledger.</span></span>
 
-Du kan beregne VIA basert på følgende:
+<span data-ttu-id="a2132-109">Du kan beregne VIA basert på følgende:</span><span class="sxs-lookup"><span data-stu-id="a2132-109">You can calculate WIP based on the following:</span></span>
 
-* Kostverdi
-* Salgsverdi
-* Gjenkjennelig kost
-* Løpende
-* Ved avslutning
+* <span data-ttu-id="a2132-110">Kostverdi</span><span class="sxs-lookup"><span data-stu-id="a2132-110">Cost Value</span></span>
+* <span data-ttu-id="a2132-111">Salgsverdi</span><span class="sxs-lookup"><span data-stu-id="a2132-111">Sales Value</span></span>
+* <span data-ttu-id="a2132-112">Gjenkjennelig kost</span><span class="sxs-lookup"><span data-stu-id="a2132-112">Recognizable Cost</span></span>
+* <span data-ttu-id="a2132-113">Løpende</span><span class="sxs-lookup"><span data-stu-id="a2132-113">Percentage of Completion</span></span>
+* <span data-ttu-id="a2132-114">Ved avslutning</span><span class="sxs-lookup"><span data-stu-id="a2132-114">Completed Contract</span></span>
 
-Hvis du vil vise resultatet ved å bruke en annen metode, kan du endre metoden og beregne VIA på nytt. Det er ingen begrensning på antall ganger du kan beregne VIA. VIA beregnes bare, det bokføres ikke i Finans. Når du har beregnet VIA, kan du bokføre i Finans.
+<span data-ttu-id="a2132-115">Hvis du vil vise resultatet ved å bruke en annen metode, kan du endre metoden og beregne VIA på nytt.</span><span class="sxs-lookup"><span data-stu-id="a2132-115">If you want to view the result using a different method, you can change the method and calculate WIP again.</span></span> <span data-ttu-id="a2132-116">Det er ingen begrensning på antall ganger du kan beregne VIA.</span><span class="sxs-lookup"><span data-stu-id="a2132-116">There is no limit to the number of times that you calculate WIP.</span></span> <span data-ttu-id="a2132-117">VIA beregnes bare, det bokføres ikke i Finans.</span><span class="sxs-lookup"><span data-stu-id="a2132-117">WIP is only calculated, it does not get posted to the general ledger.</span></span> <span data-ttu-id="a2132-118">Når du har beregnet VIA, kan du bokføre i Finans.</span><span class="sxs-lookup"><span data-stu-id="a2132-118">After you have calculated WIP, you can post to the general ledger.</span></span>
 
-## <a name="to-create-a-job-wip-method"></a>Slik oppretter du en VIA-metode for prosjekt
-Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasjonen. Når du har opprettet den, kan du angi den som standardmetoden for beregning av prosjekt-VIA som skal brukes i organisasjonen.  
+## <a name="to-create-a-job-wip-method"></a><span data-ttu-id="a2132-119">Slik oppretter du en VIA-metode for prosjekt</span><span class="sxs-lookup"><span data-stu-id="a2132-119">To create a job WIP method</span></span>
+<span data-ttu-id="a2132-120">Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasjonen.</span><span class="sxs-lookup"><span data-stu-id="a2132-120">You can create a job WIP method that reflects the needs of your organization.</span></span> <span data-ttu-id="a2132-121">Når du har opprettet den, kan du angi den som standardmetoden for beregning av prosjekt-VIA som skal brukes i organisasjonen.</span><span class="sxs-lookup"><span data-stu-id="a2132-121">After you have created it, you can set it as the default job WIP calculation method that will be used in your organization.</span></span>  
 
-**Merk**. Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.  
+<span data-ttu-id="a2132-122">**Merk**.</span><span class="sxs-lookup"><span data-stu-id="a2132-122">**Note**.</span></span> <span data-ttu-id="a2132-123">Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.</span><span class="sxs-lookup"><span data-stu-id="a2132-123">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Lukk vinduet.   
-4. Hvis du vil bruke denne nye metoden som standardmetode, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Prosjektoppsett** og velger deretter den relaterte koblingen.  
-5. Velg metoden fra listen i feltet **Standard VIA-metode**.
+1. <span data-ttu-id="a2132-124">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-124">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a2132-125">Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="a2132-125">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. <span data-ttu-id="a2132-126">Lukk vinduet.</span><span class="sxs-lookup"><span data-stu-id="a2132-126">Close the window.</span></span>   
+4. <span data-ttu-id="a2132-127">Hvis du vil bruke denne nye metoden som standardmetode, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Prosjektoppsett** og velger deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-127">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
+5. <span data-ttu-id="a2132-128">Velg metoden fra listen i feltet **Standard VIA-metode**.</span><span class="sxs-lookup"><span data-stu-id="a2132-128">In the **Default WIP Method** field, choose the method from the list.</span></span>
 
-## <a name="to-define-a-wip-method-for-a-job"></a>Slik definerer du en VIA-metode for et prosjekt:
-Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt som gjelder. I enkelte tilfeller er VIA-metoden for prosjekt som du kan bruke, definert for deg som en standard.
+## <a name="to-define-a-wip-method-for-a-job"></a><span data-ttu-id="a2132-129">Slik definerer du en VIA-metode for et prosjekt:</span><span class="sxs-lookup"><span data-stu-id="a2132-129">To define a WIP method for a job</span></span>
+<span data-ttu-id="a2132-130">Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt som gjelder.</span><span class="sxs-lookup"><span data-stu-id="a2132-130">When you create a new job, you must specify which job WIP method that applies.</span></span> <span data-ttu-id="a2132-131">I enkelte tilfeller er VIA-metoden for prosjekt som du kan bruke, definert for deg som en standard.</span><span class="sxs-lookup"><span data-stu-id="a2132-131">In some cases, which Job WIP method that you can use has been set up for you as a default.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).  
-3. I vinduet **Prosjektkort** i feltet **VIA-metode** velger du en VIA-metode fra listen. Hvis en standardmetode er definert, kan du velge et annet alternativ etter behov.  
+1. <span data-ttu-id="a2132-132">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-132">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>
+2. <span data-ttu-id="a2132-133">Velg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="a2132-133">Choose the **New** action.</span></span> <span data-ttu-id="a2132-134">Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).</span><span class="sxs-lookup"><span data-stu-id="a2132-134">For more information, see [How to: Create Jobs](projects-how-create-jobs.md).</span></span>  
+3. <span data-ttu-id="a2132-135">I vinduet **Prosjektkort** i feltet **VIA-metode** velger du en VIA-metode fra listen.</span><span class="sxs-lookup"><span data-stu-id="a2132-135">In the **Job Card** window, in the **WIP Method** field, select a WIP method from the list.</span></span> <span data-ttu-id="a2132-136">Hvis en standardmetode er definert, kan du velge et annet alternativ etter behov.</span><span class="sxs-lookup"><span data-stu-id="a2132-136">If a default method has been defined, you can select another option if needed.</span></span>  
 
-## <a name="to-calculate-wip"></a>Slik beregner du VIA:
-Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapportering ved periodeslutt. Du bruker kjørselen **Beregn VIA for prosjekt** til å gjøre dette.  
+## <a name="to-calculate-wip"></a><span data-ttu-id="a2132-137">Slik beregner du VIA:</span><span class="sxs-lookup"><span data-stu-id="a2132-137">To calculate WIP</span></span>
+<span data-ttu-id="a2132-138">Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapportering ved periodeslutt.</span><span class="sxs-lookup"><span data-stu-id="a2132-138">You can determine the WIP amount that is to be posted to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="a2132-139">Du bruker kjørselen **Beregn VIA for prosjekt** til å gjøre dette.</span><span class="sxs-lookup"><span data-stu-id="a2132-139">You use the **Job Calculate WIP** batch job to do this.</span></span>  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Beregn VIA for prosjekt**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Beregn VIA**.
-3. I vinduet **Beregn VIA for prosjekt** fyller du ut feltene etter behov.
-4. Velg **OK**.  
-
-> [!NOTE]  
->   Kjørselen beregner bare VIA. De bokføres ikke i finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA. Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:
-
-## <a name="to-post-wip"></a>Slik bokfører du VIA
-Når du har beregnet VIA, kan du bokføre VIA i balansekonti for rapporteringen ved periodens slutt. Du bruker kjørselen **Bokfør VIA i Finans for prosjekt** til å gjøre dette.
-
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokfør VIA i Finans for prosjekt**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov i vinduet **Bokfør VIA i Finans for prosjekt**.  
-3. Velg **OK**.
-
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Slik viser du prosjektforbruksestimater og bokfører oppdateringer
-Du kan vise prosjektforbruk i ett trinn helt frem til et prosjekt er fullført. Det gjør du ved å bruke kjørselen **Beregn gjenstående forbruk for prosjekt** for alle oppgavene til og med avslutningen av prosjektet.  
-
-Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultater og om nødvendig gjøre endringer eller opprette nye poster. Tenk deg at du har estimert at et prosjekt tar 10 timer, men frem til nå har det tatt 15 timer. Du kan da legge til de fem ekstra timene på den eksisterende kladdelinjen, eller du kan opprette en ny kladdelinje for å rapportere disse fem timene som overtid, som er en annen arbeidstype. Riktig kost og pris beregnes, og du kan deretter bokføre i kladden.  
+1. <span data-ttu-id="a2132-140">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Beregn VIA for prosjekt**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-140">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Calculate WIP**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a2132-141">Velg handlingen **Beregn VIA**.</span><span class="sxs-lookup"><span data-stu-id="a2132-141">Choose the **Calculate WIP** action.</span></span>
+3. <span data-ttu-id="a2132-142">I vinduet **Beregn VIA for prosjekt** fyller du ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="a2132-142">In the **Job Calculate WIP** window, fill in the fields as necessary.</span></span>
+4. <span data-ttu-id="a2132-143">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="a2132-143">Choose the **OK** button.</span></span>  
 
 > [!NOTE]  
->   Vareposter oppretter vareposter og reduserer lagerantallet. Kjørselen **Bokfør lagerkost i Finans** overfører kosten fra lager til Finans. For ressurser opprettes ressursposter.  
+>   <span data-ttu-id="a2132-144">Kjørselen beregner bare VIA.</span><span class="sxs-lookup"><span data-stu-id="a2132-144">The batch job only calculates the WIP.</span></span> <span data-ttu-id="a2132-145">De bokføres ikke i finans.</span><span class="sxs-lookup"><span data-stu-id="a2132-145">It is not posted to the general ledger.</span></span> <span data-ttu-id="a2132-146">Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA.</span><span class="sxs-lookup"><span data-stu-id="a2132-146">To do so, you must run the **Post WIP to G/L** batch job when you have calculated the WIP.</span></span> <span data-ttu-id="a2132-147">Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:</span><span class="sxs-lookup"><span data-stu-id="a2132-147">For more information, see the following procedure.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
-2. Velg en journal for det aktuelle prosjektet, og velg deretter handlingen **Beregn gjenstående forbruk**.  
-3. I vinduet **Beregn gjenstående forbruk for prosjekt** skriver du inn dokumentnummeret og bokføringsdatoen som skal settes inn i kladden, og deretter velger du **OK**-knappen.  
-4. Oppdater journalen med eventuelle endringer som kreves.  
-5. Velg **Bokfør**.
+## <a name="to-post-wip"></a><span data-ttu-id="a2132-148">Slik bokfører du VIA</span><span class="sxs-lookup"><span data-stu-id="a2132-148">To post WIP</span></span>
+<span data-ttu-id="a2132-149">Når du har beregnet VIA, kan du bokføre VIA i balansekonti for rapporteringen ved periodens slutt.</span><span class="sxs-lookup"><span data-stu-id="a2132-149">When you have calculated WIP, you can post it to balance sheet accounts for the period end reporting.</span></span> <span data-ttu-id="a2132-150">Du bruker kjørselen **Bokfør VIA i Finans for prosjekt** til å gjøre dette.</span><span class="sxs-lookup"><span data-stu-id="a2132-150">You use the **Job Post WIP to G/L** batch job to do this.</span></span>
 
-## <a name="to-view-job-ledger-entries"></a>Slik viser du prosjektposter
-Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fortløpende og starter med 1. I prosjektjournalen kan du få en oversikt over alle prosjektpostene.    
+1. <span data-ttu-id="a2132-151">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokfør VIA i Finans for prosjekt**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-151">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Post WIP to G/L**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a2132-152">Fyll ut feltene etter behov i vinduet **Bokfør VIA i Finans for prosjekt**.</span><span class="sxs-lookup"><span data-stu-id="a2132-152">In the **Job Post WIP to G/L** window, fill in the fields as necessary.</span></span>  
+3. <span data-ttu-id="a2132-153">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="a2132-153">Choose the **OK** button.</span></span>
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektjournaler**, og velg deretter den relaterte koblingen.
-2. Velg den relevante journalen, og velg deretter handlingen **Prosjektposter**.
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><span data-ttu-id="a2132-154">Slik viser du prosjektforbruksestimater og bokfører oppdateringer</span><span class="sxs-lookup"><span data-stu-id="a2132-154">To view job usage estimates and post updates</span></span>
+<span data-ttu-id="a2132-155">Du kan vise prosjektforbruk i ett trinn helt frem til et prosjekt er fullført.</span><span class="sxs-lookup"><span data-stu-id="a2132-155">You can view job usage up to the completion of a project in one step.</span></span> <span data-ttu-id="a2132-156">Det gjør du ved å bruke kjørselen **Beregn gjenstående forbruk for prosjekt** for alle oppgavene til og med avslutningen av prosjektet.</span><span class="sxs-lookup"><span data-stu-id="a2132-156">To do so, you use the **Job Calc. Remaining Usage** batch job for all the tasks up to and including the end of a job.</span></span>  
 
-I vinduet **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.  
+<span data-ttu-id="a2132-157">Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultater og om nødvendig gjøre endringer eller opprette nye poster.</span><span class="sxs-lookup"><span data-stu-id="a2132-157">This lets you track and compare your original estimates against actual results and make modifications or new entries as needed.</span></span> <span data-ttu-id="a2132-158">Tenk deg at du har estimert at et prosjekt tar 10 timer, men frem til nå har det tatt 15 timer.</span><span class="sxs-lookup"><span data-stu-id="a2132-158">For example, you may have estimated that a job required 10 hours, and to date, it has taken 15 hours.</span></span> <span data-ttu-id="a2132-159">Du kan da legge til de fem ekstra timene på den eksisterende kladdelinjen, eller du kan opprette en ny kladdelinje for å rapportere disse fem timene som overtid, som er en annen arbeidstype.</span><span class="sxs-lookup"><span data-stu-id="a2132-159">You can add the extra five hours to the existing journal line or create a new journal line to report these five hours as overtime, which is another work type.</span></span> <span data-ttu-id="a2132-160">Riktig kost og pris beregnes, og du kan deretter bokføre i kladden.</span><span class="sxs-lookup"><span data-stu-id="a2132-160">The appropriate cost and price are calculated, and you can then post to the journal.</span></span>  
 
-## <a name="see-also"></a>Se også
-[Administrere prosjekter](projects-manage-projects.md)  
-[Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+> [!NOTE]  
+>   <span data-ttu-id="a2132-161">Vareposter oppretter vareposter og reduserer lagerantallet.</span><span class="sxs-lookup"><span data-stu-id="a2132-161">Item entries create item ledger entries and reduce the inventory quantity.</span></span> <span data-ttu-id="a2132-162">Kjørselen **Bokfør lagerkost i Finans** overfører kosten fra lager til Finans.</span><span class="sxs-lookup"><span data-stu-id="a2132-162">The **Post Inventory Cost to G/L** batch job transfers the cost from inventory to the general ledger.</span></span> <span data-ttu-id="a2132-163">For ressurser opprettes ressursposter.</span><span class="sxs-lookup"><span data-stu-id="a2132-163">Resource entries create resource ledger entries.</span></span>  
+
+1. <span data-ttu-id="a2132-164">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-164">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Journals**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="a2132-165">Velg en journal for det aktuelle prosjektet, og velg deretter handlingen **Beregn gjenstående forbruk**.</span><span class="sxs-lookup"><span data-stu-id="a2132-165">Select a relevant job journal, and then choose the **Calc. Remaining Usage** action.</span></span>  
+3. <span data-ttu-id="a2132-166">I vinduet **Beregn gjenstående forbruk for prosjekt** skriver du inn dokumentnummeret og bokføringsdatoen som skal settes inn i kladden, og deretter velger du **OK**-knappen.</span><span class="sxs-lookup"><span data-stu-id="a2132-166">In the **Job Calc. Remaining Usage** window, enter the document number and posting date that is to be inserted in the journal, and then choose the **OK** button.</span></span>  
+4. <span data-ttu-id="a2132-167">Oppdater journalen med eventuelle endringer som kreves.</span><span class="sxs-lookup"><span data-stu-id="a2132-167">Update the journal with any modifications that may be needed.</span></span>  
+5. <span data-ttu-id="a2132-168">Velg **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="a2132-168">Choose the **Post**.</span></span>
+
+## <a name="to-view-job-ledger-entries"></a><span data-ttu-id="a2132-169">Slik viser du prosjektposter</span><span class="sxs-lookup"><span data-stu-id="a2132-169">To view job ledger entries</span></span>
+<span data-ttu-id="a2132-170">Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fortløpende og starter med 1.</span><span class="sxs-lookup"><span data-stu-id="a2132-170">All job-related entries are recorded in job registers and are numbered sequentially, starting with 1.</span></span> <span data-ttu-id="a2132-171">I prosjektjournalen kan du få en oversikt over alle prosjektpostene.</span><span class="sxs-lookup"><span data-stu-id="a2132-171">From the job register, you can get an overview of all job ledger entries.</span></span>    
+
+1. <span data-ttu-id="a2132-172">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektjournaler**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="a2132-172">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job Registers**, and then choose the related link.</span></span>
+2. <span data-ttu-id="a2132-173">Velg den relevante journalen, og velg deretter handlingen **Prosjektposter**.</span><span class="sxs-lookup"><span data-stu-id="a2132-173">Select a relevant register, and then choose **Job Ledger** action.</span></span>
+
+<span data-ttu-id="a2132-174">I vinduet **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.</span><span class="sxs-lookup"><span data-stu-id="a2132-174">In the **Job Ledger Entries** window you can review the entries that are associated with any job.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="a2132-175">Se også</span><span class="sxs-lookup"><span data-stu-id="a2132-175">See Also</span></span>
+[<span data-ttu-id="a2132-176">Administrere prosjekter</span><span class="sxs-lookup"><span data-stu-id="a2132-176">Manage Projects</span></span>](projects-manage-projects.md)  
+[<span data-ttu-id="a2132-177">Finans</span><span class="sxs-lookup"><span data-stu-id="a2132-177">Finance</span></span>](finance.md)  
+<span data-ttu-id="a2132-178">[Innkjøp](purchasing-manage-purchasing.md)       </span><span class="sxs-lookup"><span data-stu-id="a2132-178">[Purchasing](purchasing-manage-purchasing.md)       </span></span>  
+<span data-ttu-id="a2132-179">[Salg](sales-manage-sales.md)    </span><span class="sxs-lookup"><span data-stu-id="a2132-179">[Sales](sales-manage-sales.md)    </span></span>  
+<span data-ttu-id="a2132-180">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="a2132-180">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
 
