@@ -1,0 +1,45 @@
+---
+title: SEPA Direct Debit i Dynamics 365 | Microsoft-dokumentasjon
+description: Du kan samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.
+author: SorenGP
+ms.service: dynamics365-financials
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/21/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: 0447e6c9f84457589df5cbc1efaecb2de24e7295
+ms.contentlocale: nb-no
+ms.lasthandoff: 09/27/2017
+
+---
+# <a name="collecting-payments-with-sepa-direct-debit"></a><span data-ttu-id="1c45f-103">Innkreve betalinger med SEPA Direct Debit</span><span class="sxs-lookup"><span data-stu-id="1c45f-103">Collecting Payments with SEPA Direct Debit</span></span>
+<span data-ttu-id="1c45f-104">Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.</span><span class="sxs-lookup"><span data-stu-id="1c45f-104">With your customer’s consent, you can collect payments directly from the customer’s bank account according to the SEPA format.</span></span>  
+
+ <span data-ttu-id="1c45f-105">Konfigurer først eksportformatet for bankfilen som instruerer banken om å utføre en direct debit.</span><span class="sxs-lookup"><span data-stu-id="1c45f-105">First, set up the export format of the bank file that instructs your bank to perform a direct debit.</span></span> <span data-ttu-id="1c45f-106">Konfigurer deretter kundens betalingsmåte.</span><span class="sxs-lookup"><span data-stu-id="1c45f-106">Then, set up the customer’s payment method.</span></span> <span data-ttu-id="1c45f-107">Til slutt angir du direct debit-belastningsfullmakten som gjenspeiler avtalen med kunden om å samle sine betalinger i en bestemt avtaleperiode.</span><span class="sxs-lookup"><span data-stu-id="1c45f-107">Last, set up the direct-debit mandate that reflects your agreement with the customer to collect their payments in a certain agreement period.</span></span>  
+
+ <span data-ttu-id="1c45f-108">Hvis du vil instruere banken om å overføre beløpet fra kundens bankkonto til firmaets konto, kan du opprette en post for direct debit-samlingen som inneholder informasjon om bankkonti, berørte salgsfakturaer og direct debit-belastningsfullmakten.</span><span class="sxs-lookup"><span data-stu-id="1c45f-108">To instruct the bank to transfer the payment amount from the customer’s bank account to your company’s account, you create a direct-debit collection entry, which holds information about bank accounts, the affected sales invoices, and the direct-debit mandate.</span></span> <span data-ttu-id="1c45f-109">Deretter eksporterer du en XML-fil som er basert på samlingsposten, som du sender til banken for behandling.</span><span class="sxs-lookup"><span data-stu-id="1c45f-109">You then export an XML file that is based on the collection entry, which you send to your bank for processing.</span></span> <span data-ttu-id="1c45f-110">Eventuelle betalinger som ikke kunne behandles blir kommunisert til deg av banken din, og du må deretter manuelt avvise de aktuelle postene for direct debit-samlingen.</span><span class="sxs-lookup"><span data-stu-id="1c45f-110">Any payments that could not be processed will be communicated to you by your bank, and you must then manually reject the direct debit-collection entries in question.</span></span>  
+
+ <span data-ttu-id="1c45f-111">Du kan konfigurere standard kundesalgskoder med direct debit-betalingsmåten og belastningsfullmaktsinformasjonen.</span><span class="sxs-lookup"><span data-stu-id="1c45f-111">You can set up standard customer sales codes with the direct-debit payment method and mandate information.</span></span> <span data-ttu-id="1c45f-112">Du kan deretter bruke kjørselen **Opprett standard kundefakturaer** til å generere flere salgsfakturaer med forhåndsutfylt avtalegiroinformasjon.</span><span class="sxs-lookup"><span data-stu-id="1c45f-112">You can then use the **Create Standard Cust. Invoices** batch job to generate multiple sales invoices with the direct-debit information prefilled.</span></span> <span data-ttu-id="1c45f-113">Dette kan gjøres manuelt eller automatisk, i henhold til forfallsdatoen for betalingen.</span><span class="sxs-lookup"><span data-stu-id="1c45f-113">This is can be done manually or automatically, according to the payment due date.</span></span>  
+
+ <span data-ttu-id="1c45f-114">Når betalinger er behandlet, som formidlet av banken din, kan du bokføre kvitteringene direkte fra vinduet **Poster for Direct Debit-oppkreving** eller ved å flytte betalingslinjene i kladden der du bokfører kvitteringer, for eksempel vinduet **Innbetalingskladd**.</span><span class="sxs-lookup"><span data-stu-id="1c45f-114">When payments are successfully processed, as communicated by your bank, you can post the payment receipts either directly from the **Direct Debit Collect. Entries** window or by moving the payment lines to the journal where you post payment receipts, such as the **Cash Receipt Journal** window.</span></span> <span data-ttu-id="1c45f-115">Du kan også, avhengig av kontantstyringsprosessen, vente og bare bruke bare betalinger som en del av bankkontoavstemmingen.</span><span class="sxs-lookup"><span data-stu-id="1c45f-115">Alternatively, depending on your cash management process, you can wait and just apply the payments as a part of bank reconciliation.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="1c45f-116">Hvis du vil innkreve betalinger ved hjelp av SEPA Direct Debit, må valutaen på salgsfakturaen være EURO.</span><span class="sxs-lookup"><span data-stu-id="1c45f-116">To collect payments using SEPA Direct Debit, the currency on the sales invoice must be EURO.</span></span>  
+
+ <span data-ttu-id="1c45f-117">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="1c45f-117">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+
+|<span data-ttu-id="1c45f-118">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="1c45f-118">**To**</span></span>|<span data-ttu-id="1c45f-119">**Se**</span><span class="sxs-lookup"><span data-stu-id="1c45f-119">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="1c45f-120">Klargjør bankkontoformater, betalingsmetoder og kundeavtaler for SEPA direct debit.</span><span class="sxs-lookup"><span data-stu-id="1c45f-120">Prepare bank account formats, payment methods, and customer agreements for SEPA direct debit.</span></span>|[<span data-ttu-id="1c45f-121">Definere SEPA Direct Debit</span><span class="sxs-lookup"><span data-stu-id="1c45f-121">How to: Set Up SEPA Direct Debit</span></span>](finance-how-to-set-up-sepa-direct-debit.md)|  
+|<span data-ttu-id="1c45f-122">Instruere banken om å overføre betalingsbeløpet fra kundenes bankkonti til firmaets konto i henhold til oppsettet av SEPA direct debit.</span><span class="sxs-lookup"><span data-stu-id="1c45f-122">Instruct your bank to transfer payment amounts from your customers’ bank accounts to your company’s account according to your setup of SEPA direct debit.</span></span>|[<span data-ttu-id="1c45f-123">Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil</span><span class="sxs-lookup"><span data-stu-id="1c45f-123">How to: Create SEPA Direct Debit Collection Entries and Export to a Bank File</span></span>](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)|  
+|<span data-ttu-id="1c45f-124">Konfigurer standard kundesalgskoder for avtalegirofakturaer og generer salgsfakturaer med avtalegiroinformasjon når fakturaene forfaller.</span><span class="sxs-lookup"><span data-stu-id="1c45f-124">Set up standard customer sales codes for direct-debit invoices and generate sales invoices with direct-debit information when the invoices are due for payment.</span></span>|[<span data-ttu-id="1c45f-125">Opprette gjentakende salgs- og kjøpslinjer</span><span class="sxs-lookup"><span data-stu-id="1c45f-125">How to: Create Recurring Sales and Purchase Lines</span></span>](sales-how-work-standard-lines.md)|  
+|<span data-ttu-id="1c45f-126">Bokfør betalinger som SEPA direct debit.</span><span class="sxs-lookup"><span data-stu-id="1c45f-126">Post payments made as SEPA direct debits.</span></span>|[<span data-ttu-id="1c45f-127">Bokføre kvitteringer for SEPA Direct Debit</span><span class="sxs-lookup"><span data-stu-id="1c45f-127">How to: Post SEPA Direct Debit Payment Receipts</span></span>](finance-how-to-post-sepa-direct-debit-payment-receipts.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="1c45f-128">Se også</span><span class="sxs-lookup"><span data-stu-id="1c45f-128">See Also</span></span>  
+[<span data-ttu-id="1c45f-129">Håndtere fordringer</span><span class="sxs-lookup"><span data-stu-id="1c45f-129">Managing Receivables</span></span>](receivables-manage-receivables.md)
+

@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 106ad2acf2703e8182033a43a39c693a8b060d8f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 42fb4adbcc01c443722fe90bb59edafceb34ff06
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/11/2017
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="0c58b-103">Angi skrivervalg for rapporter</span><span class="sxs-lookup"><span data-stu-id="0c58b-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="0c58b-104">Denne siden er tom, fordi du ikke har satt opp bestemte skrivere for bestemte rapporter.</span><span class="sxs-lookup"><span data-stu-id="0c58b-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="0c58b-105">Vi arbeider med å løse dette.</span><span class="sxs-lookup"><span data-stu-id="0c58b-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="9f2c4-103">Angi skrivervalg for rapporter</span><span class="sxs-lookup"><span data-stu-id="9f2c4-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="9f2c4-104">Denne siden er tom, fordi du ikke har satt opp bestemte skrivere for bestemte rapporter.</span><span class="sxs-lookup"><span data-stu-id="9f2c4-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="9f2c4-105">Vi arbeider med å løse dette.</span><span class="sxs-lookup"><span data-stu-id="9f2c4-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="0c58b-106">I mellomtiden, når du vil skrive ut en rapport, må du laste ned rapporten som et PDF-dokument først ved å velge **Send til**-knappen.</span><span class="sxs-lookup"><span data-stu-id="0c58b-106">In the meantime, when you want to print a report you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="0c58b-107">Du kan deretter velge hvilken type fil du laster ned rapporten som, og her du skal velge **PDF-dokument**.</span><span class="sxs-lookup"><span data-stu-id="0c58b-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="0c58b-108">Nå kan du enten åpne i PDF-dokumentet høyre plassering og skriver det ut, eller lagre det og skrive det ut senere.</span><span class="sxs-lookup"><span data-stu-id="0c58b-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="9f2c4-106">I mellomtiden, når du vil skrive ut en rapport, må du laste ned rapporten som et PDF-dokument først ved å velge **Send til**-knappen.</span><span class="sxs-lookup"><span data-stu-id="9f2c4-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="9f2c4-107">Du kan deretter velge hvilken type fil du laster ned rapporten som, og her du skal velge **PDF-dokument**.</span><span class="sxs-lookup"><span data-stu-id="9f2c4-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="9f2c4-108">Nå kan du enten åpne i PDF-dokumentet høyre plassering og skriver det ut, eller lagre det og skrive det ut senere.</span><span class="sxs-lookup"><span data-stu-id="9f2c4-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,8 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="0c58b-109">Se også</span><span class="sxs-lookup"><span data-stu-id="0c58b-109">See Also</span></span>
-<span data-ttu-id="0c58b-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0c58b-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="0c58b-111">Utføre kjørsler</span><span class="sxs-lookup"><span data-stu-id="0c58b-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="0c58b-112">Sende dokumenter i e-post</span><span class="sxs-lookup"><span data-stu-id="0c58b-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
+## <a name="see-also"></a><span data-ttu-id="9f2c4-109">Se også</span><span class="sxs-lookup"><span data-stu-id="9f2c4-109">See Also</span></span>
+<span data-ttu-id="9f2c4-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="9f2c4-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="9f2c4-111">Utføre kjørsler</span><span class="sxs-lookup"><span data-stu-id="9f2c4-111">How to: Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="9f2c4-112">Sende dokumenter i e-post</span><span class="sxs-lookup"><span data-stu-id="9f2c4-112">How to: Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
 
