@@ -12,17 +12,16 @@ ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 05/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2d7eb238395a0b1060668996fbbc3e13d9dd8a94
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-purchase-items-for-a-sale"></a>Kjøpe varer for salg
 I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kjøpsdokumenter for manglende vareantall som kreves av salget. Du kan bruke to ulike funksjoner, avhengig av dokumenttypen.
-|Funksjon|Description|
+|Funksjon|Beskrivelse|
 |--------|-----------|
 |**Opprett bestillinger**|I en ordre oppretter denne funksjonen en bestilling for hver enkelt leverandør av varene i ordren. Du kan redigere kjøpsantallet før du oppretter bestillingene. Det er bare utilgjengelige salgsantall som foreslås.
 |**Opprett kjøpsfaktura**|I en ordre og på en salgsfaktura oppretter denne funksjonen en kjøpsfaktura for en valgt leverandør for alle linjene eller valgte linjer i salgsdokumentet. Hele salgsantallet foreslås.|
@@ -31,7 +30,7 @@ I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kj�
 Hvis du vil opprette en bestilling for hvert utilgjengelige vareantall i ordren, bruker du funksjonen **Opprett bestillinger**. 
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 1. Velg flisen **Pågående ordrer** på Hjem-siden.
 2. Åpne en ordre du vil kjøpe varer for.

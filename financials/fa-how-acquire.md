@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 903c1a858fe66482cb4404e8b792abade6106489
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-acquire-fixed-assets"></a>Anskaffe aktiva
@@ -53,7 +52,7 @@ Både hovedaktivaet og alle komponentene må defineres som individuelle aktivako
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som er hovedaktivaet, og velg deretter **Hovedaktivakomponenter**-handlingen.
-3. I **Hovedaktivakomponenter**-vinduet velger du **Aktivanr.**-feltet og velger deretter aktivaet som du vil legge til som en komponent i hovedaktivaet.
+3. I vinduet **Hovedaktivakomponenter** velger du feltet **Aktivanr.** og velger deretter aktivaet du vil legge til som en komponent av hovedaktivaet.
 4. Lukk vinduet.
 5. Gjenta trinnene 3 og 4 for hvert komponentaktiva som du vil legge til.
 6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.
@@ -71,7 +70,7 @@ Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å
 4. Velg handlingen **Bokfør**.  
 
 > [!TIP]  
->   Hvis du fyller ut **Forsikringsnr.**-feltet i aktivafinanskladden når du bokfører en anskaffelseskost, bokfører [!INCLUDE[d365fin](includes/d365fin_md.md)] også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil ha mer informasjon, kan du se [Forsikre aktiva](fa-how-insure.md).
+>   Hvis du fyller ut feltet **Forsikringsnr.** i aktivafinanskladden når du bokfører en anskaffelseskost, bokfører [!INCLUDE[d365fin](includes/d365fin_md.md)] også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil ha mer informasjon, kan du se [Forsikre aktiva](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
 Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-vinduet.

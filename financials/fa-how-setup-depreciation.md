@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fbdfc4431056c4851208aa063daf8761b4e70bf1
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-fixed-asset-depreciation"></a>Definere avskrivning av aktiva
@@ -54,7 +53,7 @@ Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørsel
 2. Velg aktivaet som du vil tilordne et avskrivningstablå til, og velg deretter **Rediger**-handlingen.
 3. I **Avskrivningstablåkort**-vinduet velger du **Opprett aktivaavskr.tablåer**.
 4. I vinduet **Opprett aktivaavskr.tablåer** fyller du ut **Avskrivningstablå**-feltet.
-5. Velg feltet**Kopier fra aktivanr.**. Velg deretter aktivanummeret du vil bruke som grunnlag for å opprette nye aktivaavskrivningstablåer.
+5. Velg feltet **Kopier fra aktivanr.**, og velg aktivanummeret du vil bruke som grunnlag for å opprette nye aktivaavskrivningstablåer for aktiva.
 
     Hvis du fyller ut dette feltet, vil avskrivningsfeltene i de nye aktivaavskrivningstablåene inneholde samme informasjon som de tilsvarende feltene i aktivaavskrivningstablået du kopierer fra. La feltet stå tomt hvis du vil opprette nye aktivaavskrivningstablåer med tomme avskrivningsfelt.  
 6. På hurtigfanen **Aktiva** kan du definere et filter for å velge hvilke aktiva du vil det skal opprettes aktivaavskrivningstablåer for.

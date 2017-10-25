@@ -11,11 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9e13c2a994ecf4805f585df9c55199f041e80950
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 129cc1326b9a35a41f0c12db51af25de6dc4fa3b
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
@@ -26,7 +26,7 @@ For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til vin
 På hjemmesiden nederst i navigasjonsruten finner du menyen **Oppsett og utvidelser**. Utvid **Hjem**-knappen for å se navigasjonsruten. Her har du tilgang til en liste over assisterte oppsett som kan hjelpe deg med å komme i gang. Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre assistert oppsettet kan hjelpe deg, avhengig av dine behov. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Løsning**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 I vinduet **Assistert oppsett** finner du følgende sammen med **Basic**-opplevelsen:
 
@@ -39,7 +39,7 @@ I vinduet **Assistert oppsett** finner du følgende sammen med **Basic**-oppleve
 | Konfigurer Office-tillegg |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Oppsett av arbeidsflyt for godkj. |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre visse verdier for dokumenter, kladdelinjer eller kort, for eksempel beløp over en bestemt grense. |
 | Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å følge opp samhandlinger. |
-| Konfigurer tilkobling til Dynamics CRM |Konfigurerer en tilkobling til Dynamics CRM som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Konfigurere Dynamics 365 Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
 
 Når du har kjørt et assistert oppsett, merkes det som **Fullført**. Hvis du vil kjøre assistert oppsett, velger du de tre prikkene, også kalt hurtigmenyen, og deretter velger du **Start oppsett**.
 

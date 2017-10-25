@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7ce0a022520b161fd0159fceb1cc1ecd3d14f4ec
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-persons"></a>Opprette kontaktpersoner
@@ -29,9 +28,9 @@ Du trenger kanskje også få oversatt noen publikasjoner om produktene og bestem
 
 Ved å legge inn så mange detaljer som mulig om en kontaktperson sørger du for at alle grupper i bedriften kan finne de relevante opplysningene.
 
-Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskrives i. Disse oppgavene vises i rekkefølgen de vanligvis utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Angi opplysninger om en kontaktperson. |[Opprette kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Opprett en alternativ adresse for en kontakt. |[Tilordne alternative adresser](marketing-how-assign-alternate-address.md) |
@@ -41,6 +40,6 @@ Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskri
 
 ## <a name="see-also"></a>Se også
 [Opprette kontaktselskaper](marketing-create-contact-companies.md)  
-[Opprette og administrere kontakter](marketing-create-contact-persons.md)  
+[Opprette og administrere kontakter]()  
 [Arbeide med Financials](ui-work-product.md)
 

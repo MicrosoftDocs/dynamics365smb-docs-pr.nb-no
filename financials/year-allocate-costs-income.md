@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/07/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1620e69ce8018256780dcba108c31312c02166cb
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-allocate-costs-and-income"></a>Fordele kostnader og inntekter
@@ -42,7 +41,7 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 5. Når du er ferdig, lukker du vinduet. En ny, tom gjentakende kladd åpnes.
 6. Fyll ut feltene på linjen.
 7. Velg handlingen **Fordelinger**.
-8. Legg til en linje for hver fordeling. Du må fylle ut enten feltet **Andel i pst.**, **Andel i antall** eller **Beløp**. Du må også fylle ut **Kontonummer** -feltet, og hvis du fordeler transaksjonen på globale dimensjoner, må du også fylle ut feltene for globale dimensjoner.
+8. Legg til en linje for hver fordeling. Du må fylle ut enten feltet **Andel i pst.**, **Andel i antall** eller **Beløp**. Du må også fylle ut feltet **Kontonr.** og, hvis du fordeler transaksjonen på globale dimensjoner, feltene for globale dimensjoner.
 9. Hvis du angir en prosentsats på en linje, beregnes beløpet i feltet **Beløp** automatisk. Disse beløpene har motsatt fortegn av det totale beløpet i feltet **Beløp** i den gjentakende kladden.
 10. Når du har angitt fordelingslinjene, velger du **OK** for å gå tilbake til vinduet **Gjentakende finanskladd**. Feltet **Fordelt beløp (USD)** fylles ut og samsvarer med **Beløp**-feltet.
 11. Bokfør kladden.

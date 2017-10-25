@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2ca2e771e4f7ec141cd152e1f643efad2db1b7dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: cfb32511dd5ba564572050a3d52058fcc2c2f9d3
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
@@ -28,9 +27,9 @@ Det er to hovedoppgaver som må utføres for å opprette et segment:
 * Legge inn generell informasjon om segmentet. Før du kan velge kontaktene i segmentet, må du opprette segmentet.
 * Velge kontaktene som skal inkluderes med segmentet.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. Oppgavene er oppført i rekkefølgen de utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Opprette segmenter som gjør det mulig å velge en gruppe med kontakter. Direktereklame er et eksempel. |[Opprette segmenter](marketing-how-create-segment.md) |
 | Håndtere kontaktene som er tilordnet til segmenter. |[Legge til kontakter i segmenter](marketing-add-contact-segment.md) |

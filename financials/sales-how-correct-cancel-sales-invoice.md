@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/29/2017
+ms.date: 08/01/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3cfa755b60a7ea24cc992e32a8f10d967e383f0f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6de89bc0865fbe8617e33288b9c0c8fe7da802ef
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-correct-or-cancel-unpaid-sales-invoices"></a>Korrigere eller annullere ubetalte salgsfakturaer
 Du kan korrigere eller annullere en bokført salgsfaktura. Dette er nyttig hvis du gjør en feil eller hvis kunden ber om en endring tidlig.
 
 > [!NOTE]  
->   Etter at en bokført salgsfaktura er delvis eller helt betalt, kan du ikke korrigere eller annullere den fra den bokførte salgsfakturaen. I stedet må du manuelt opprette en salgskreditnota for å annullere salget og refundere kunden. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
+>   Etter at en bokført salgsfaktura er delvis eller helt betalt, kan du ikke korrigere eller annullere den fra den bokførte salgsfakturaen. I stedet må du manuelt opprette en salgskreditnota for å annullere salget og refundere kunden, eventuelt behandlet med en ordreretur. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
 I vinduet **Bokført salgsfaktura** kan du velge handlingen **Korriger** eller **Avbryt** for å utføre handlingene som er beskrevet i tabellen nedenfor.
 

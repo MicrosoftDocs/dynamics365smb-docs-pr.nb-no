@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 36e1acc3125e325a9fca8fdd9ce797ac50c065c1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c6e4b4dd5535848bba257fc422436c43b827d95a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-incoming-document-records"></a>Opprette innkommende dokumentposter
@@ -44,7 +43,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 3. I vinduet **Inngående dokumenter** velger du ellipseknappen, og deretter velger du **Opprett fra kamera**. Kameraet på tavle-PC-en eller telefon er aktivert.
 4. Ta et bilde av et dokument, for eksempel et kjøpsmottak, som du vil behandle som et innkommende dokument, og velg deretter **OK**-knappen.
 
-En ny innkommende dokumentpost opprettes med bildet vedlagt.
+    En ny innkommende dokumentpost opprettes med bildet vedlagt.
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Slik legger du ved et bilde i en innkommende dokumentpost ved å ta et bilde
 > [!NOTE]  
@@ -55,14 +54,12 @@ En ny innkommende dokumentpost opprettes med bildet vedlagt.
 3. I vinduet **Inngående dokument** velger du ellipseknappen, og deretter velger du **Legg ved bilde fra kamera**. Kameraet på tavle-PC-en eller telefon er aktivert.
 4. Ta et bilde av et dokument, for eksempel et kjøpsmottak, som du vil behandle som et innkommende dokument, og velg deretter **OK**-knappen.
 
-Bildet legges ved den innkommende dokumentposten.
+    Bildet legges ved den innkommende dokumentposten.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Slik oppretter du en innkommende dokumentpost manuelt:
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Opprett fra fil**.  
-3. I **Sett inn fil**-vinduet velger du en fil og deretter **Åpne**.
-
-    Filen legges ved automatisk.
+3. I **Sett inn fil**-vinduet velger du en fil og deretter **Åpne**. Filen legges ved automatisk.
 4. Du kan også velge handlingen **Ny**.
 5. Hvis du vil legge ved en fil, velger du handlingen **Legg ved fil**.
 6. I vinduet **Sett inn fil** velger du filen som representerer det innkommende dokumentet, og deretter velger du **Åpne**- knappen.

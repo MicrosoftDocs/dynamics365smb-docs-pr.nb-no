@@ -10,20 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 06/02/2017
+ms.date: 09/14/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ef5c6f4b9106b1b289cc5ed060fc28426fde0ae2
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7691b7a0aab87309d02833517a91eb9938ee3a32
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere bankfeedservicen Envestnet Yodlee
 Du kan importere elektroniske bankkontoutdrag fra banken slik at du raskt kan fylle ut vinduet **Betalingsavstemmingskladd**. Dermed kan du utligne betalinger og avstemme bankkontoen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Bankfeedservicen Envestnet Yodlee er installert som en utvidelse til [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til å bli aktivert. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).
+
+> [!NOTE]
+> Bankfeeder for Envestnet Yodlee-tjenesten støttes bare i USA, Canada og Storbritannia.
 
 Når du har aktivert bankfeedservicen, må du koble en bankkonto til nettbankkontoen som feeden vil komme fra. Du kobler bankkonti til nettbankbankkonti i følgende ulike scenarier:
 
@@ -58,7 +60,7 @@ Bankfeedservicen vil bli aktivert når du kobler en bankkonto til den relaterte 
     > [!NOTE]  
 >   Hvis du har mer enn én nettbankkonto i banken, må du opprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for disse ekstra nettbankkontoene. Se trinn 8 til 10.  
 
-    Når prosessen er fullført, vises banknavnet på i ruten **Mine kontoer** i kategorien **Tilknyttet**. Tallet i parentes angir hvor mange nettbankkontoer som ble tilknyttet.  
+    Når prosessen er fullført, vises banknavnet i ruten **Mine konter** på **Tilknyttet**-fanen. Tallet i parentes angir hvor mange nettbankkontoer som ble tilknyttet.  
 7. Velg **OK**.
 
     Hvis du bare kobler én online bankkonto, den **Bankkort**-vinduet åpnes, og viser navnet på den elektroniske bankkontoen. I dette tilfellet er tilknytningen av bankkontoen fullført. Det eneste som gjenstår er å opprette en bankkonto. Hvis du vil ha mer informasjon, kan du se [Opprette bankkonti](bank-how-setup-bank-accounts.md).
@@ -80,7 +82,7 @@ Bankfeedservicen vil bli aktivert når du kobler en bankkonto til den relaterte 
 
     Bankfeedservicen klargjør å koble bankkontoen i [!INCLUDE[d365fin](includes/d365fin_md.md)] til den relaterte nettbankkontoen.  
 
-    Når prosessen er fullført, vises banknavnet på i ruten **Mine kontoer** i kategorien **Tilknyttet**. Hvis banken har mer enn én bankkonto, tilknyttes bare bankkontoen du valgte i trinn 2.  
+    Når prosessen er fullført, vises banknavnet i ruten **Mine konter** på **Tilknyttet**-fanen. Hvis banken har mer enn én bankkonto, tilknyttes bare bankkontoen du valgte i trinn 2.  
 5. Velg **OK**.
 
 I vinduet **Bankkontooversikt** er det merket av for **Tilknyttet**.

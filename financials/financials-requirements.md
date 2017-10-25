@@ -1,6 +1,6 @@
 ---
-title: "Minimumskrav for å bruke Dynamics 365 for Financials | Microsoft-dokumentasjon"
-description: "Systemkrav for å bruke Dynamics 365 for Financials"
+title: "Minimumskrav for å bruke Financials | Microsoft-dokumentasjon"
+description: "Lær om minimumskrav til system og versjon for bruk av Dynamics 365 for Financials."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/28/2017
+ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: fad8d80a94971c5ad73d76175e0a31ba5dc4f29a
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimumskrav for å bruke Dynamics 365 for Financials
@@ -31,7 +30,7 @@ Før du åpner [!INCLUDE[d365fin](includes/d365fin_md.md)], anbefaler vi at du k
 
 ## <a name="mobile-devices"></a>Mobilenheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows kan installeres på enheter med minst 1 GB RAM og Windows 10 Phone, Home, Pro, Enterprise eller Education (32-biters og 64-biters versjoner).  
-**iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] krever iOS 9.0 eller nyere.  
+**iOS:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for iPad og iPhone krever iOS 9.0 eller nyere.  
 **Android:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Android-nettbrett og Android-telefon kan installeres på enheter med minst 1 GB RAM og Android 5.0 eller høyere.  
 **Enhetsstørrelse:** [!INCLUDE[d365fin](includes/d365fin_md.md)] støttes på smarttelefoner med en minste skjermstørrelse på 4" og nettbrett med en minste skjermstørrelse på 7".  
 

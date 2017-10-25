@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc355c7b4cd51412ec0b5c95398c2d7b50a13f94
+ms.translationtype: HT
+ms.sourcegitcommit: c50aeb38a13569316f3208c27e5e8dc3d7b6d771
+ms.openlocfilehash: fdb60d82c7e8d2215c59d2c087105f42fe37eb84
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utvide [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -48,6 +47,9 @@ Ganske enkelt vise din apps funksjoner og funksjonalitet vil ikke konvertere kun
 + Publisere appen  
 Før vi publiserer, vil vi samarbeide med deg for å sikre at din app skiller seg ut på Microsoft AppSource og din egen målside! Vi må validere appen for å sikre at den er godt markedsført, pålitelig og oppdatert.
 Hvis du vil ha mer informasjon om valideringsprosessen og hvordan du publiserer appen, kan du få den [Publish your app.pdf](https://go.microsoft.com/fwlink/?linkid=841517) dokumentet fra Download Center.
+
+## <a name="learn-more-about-extensions-v20"></a>Lære mer om utvidelser v2.0
+De nye utvikling verktøyene som lar deg bygge utvidelser v2.0, befinner seg i forhåndsvisning og aktiveres i Dynamics 365 For Financials-tjenesten snart. Hvis du vil allerede vil gjøre deg kjent med de nye verktøyene eller lære mer om utvidelser 2.0, kan du ta en titt her: [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
 
 ## <a name="need-help"></a>Trenger du hjelp?
 Hvis du vil ha noen råd, kan du kontakte en appekspert fra listen nedenfor:

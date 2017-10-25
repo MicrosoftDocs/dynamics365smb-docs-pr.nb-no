@@ -1,6 +1,6 @@
 ---
-title: "Sette opp markedsføringskampanjer i Finacials | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du kan sette opp og utføre markedsføringskampanjer i Dynamics 365 for Financials."
+title: "Sette opp markedsføringskampanjer i Financials| Microsoft-dokumentasjon"
+description: "Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Dynamics 365 for Financials for å identifisere og trekke til deg prospekter og beholde kunder."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 05/20/2017
-ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 92c5fb75f4f3d3180ba67b89481beed2e58c3dbe
-ms.openlocfilehash: 68359d2dd2c2e07463babda91d86d47998f0912a
+ms.date: 06/06/2017
+ms.author: edupont
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/31/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
@@ -39,7 +38,9 @@ Når du har definert kampanjen, bestemt hvilke segmenter du vil kampanjen skal d
 
  Når du har definert salgsprisene/linjerabattene og segmentene på kampanjekortet, må du aktivere dem slik at kampanjeprisene/-rabattene gjenspeiles på linjene.
 
-**Obs!** For å kunne aktivere salgsprisene/linjerabattene må du angi om hele segmentet eller bare noen kontakter skal være mål for kampanjen. Hvis salgsprisene/linjerabattene dekker alle kontaktene i segmentet, merker du av for **Kampanjemål**-feltet på hurtigfanen **Kampanje** på **Segment**-kortet.
+> [!NOTE]  
+>   For å kunne aktivere salgsprisene/linjerabattene, må du angi om hele segmentet eller bare noen kontakter er mål for kampanjen. Hvis salgsprisene/linjerabattene dekker alle kontaktene i segmentet, merker du av for **Kampanjemål**-feltet på hurtigfanen **Kampanje** på **Segment**-kortet.
+
 Hvis salgsprisene/linjerabattene ikke skal tilbys alle kontaktene i segmentet, kan du fjerne merket for **Kampanjemål**-feltet for de relavante kontaktene. Hvis du ikke ser dette feltet, kan du legge det til i visningen. Hvis du vil ha mer informasjon, kan du se [Brukertilpasning](ui-user-personalization.md).
 
 ## <a name="conducting-campaigns"></a>Utføre kampanjer

@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 04/20/2017
+ms.date: 09/08/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c22e17c931fcb262abe2d2059af89ec6f930ecb5
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79851c90a2a2fd8ac2e744173a04b7eda50b98e8
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Definere urealisert merverdiavgift for kontantbasert regnskap
+# <a name="how-to-set-up-unrealized-vat-for-cash-based-accounting"></a>Definere urealisert merverdiavgift for kontantbasert regnskap
 Hvis du bruker metoder for kontantbasert regnskap, kan du definere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] for å håndtere urealisert MVA.
 
-## <a name="use-general-ledger-accounts-for-unrealized-vat"></a>Bruke finanskonti for urealisert MVA
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Slik bruker du finanskonti for urealisert MVA
 Du kan beregne og bokføre mva-beløp til en midlertidig finanskonto når fakturaen bokføres, og deretter bokføre den til den riktige finanskontoen og inkludere den i mva-oppgaver når den faktiske betalingen av fakturaen bokføres. Før du kan gjøre dette, må du fullføre mva.-bokføringsoppsettet.
 
 Hvis du vil bruke konti for urealisert MVA, gjør du følgende:

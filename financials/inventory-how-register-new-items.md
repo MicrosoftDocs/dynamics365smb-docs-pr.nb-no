@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/02/2017
+ms.date: 08/31/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 719e11f2c8fee3d7e5dd3736754700b68f57379c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e926baa3d5348f9c275d3063b67be57b72f616ee
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-new-items"></a>Registrere nye varer
@@ -26,10 +25,12 @@ Varekort inneholder informasjonen som er nødvendig for å kjøpe, lagre, selge,
 
 Varekortet kan være av typen **Beholdning** eller **Tjeneste** for å angi om varen er en fysisk enhet eller arbeidstidsenhet. Bortsett fra noen av feltene som er relatert til de fysiske aspektene av en vare, fungerer alle felt på et varekort på samme måte for lagervarer og tjenester. Hvis du vil ha mer informasjon om hvordan du selger en vare, kan du se [Selge produkter](sales-how-sell-products.md) eller [Fakturere salg](sales-how-invoice-sales.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)]er en stykkliste referert til som en monteringsstykkliste. Du kan bruke monteringsstykklister til å strukturere overordnede varer som selges som sett som består av komponenter for den overordnede varen, eller som du monterer til bestilling eller lager. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykkliste være en monteringsstykkliste eller en produksjonsstykkliste, avhengig av bruken. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
 
 > [!NOTE]  
 >   Hvis det finnes varemaler for ulike varetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
+
+Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varekortet. Leverandørene vises deretter i vinduet **Vare/leverandør-katalog**, slik at du enkelt kan velge en annen leverandør.
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
 1. På Hjem-siden velger du handlingen **Varer** for å åpne listen over eksisterende varer.  
@@ -39,6 +40,11 @@ En vare kan struktureres som en overordnet vare med underliggende underordnede v
 3. I vinduet **Velg en mal for en ny vare** velger du malen som du vil bruke for det nye varekortet.
 4. Velg **OK**. Det åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
 5. Fortsette med å fylle ut eller endre feltet på varekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> I feltet **Lagermetode** kan du definere hvordan varens enhetskost beregnes, ved å lage prognoser over vareflyten i selskapet. Fem lagermetoder er tilgjengelige, avhengig av varetypen. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).
+>
+> Hvis du velger **Gjennomsnitt**, blir enhetskosten for en vare beregnet som den gjennomsnittlige enhetskosten på hvert tidspunkt etter et kjøp. Lageret verdisettes basert på antakelsen om at alle beholdninger selges samtidig. Med denne innstillingen kan feltet **Enhetskost** for å vise en historikk over transaksjoner som gjennomsnittskosten beregnes fra, i vinduet **Oversikt over beregning av gjennomsnittskost**.
 
 I hurtigfanen **Pris og bokføring** kan du vise spesialpriser eller rabatter som skal gis for varen hvis bestemte kriterier oppfylles, for eksempel kunde, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 
@@ -55,6 +61,18 @@ Hvis du vil bruke dette varekortet som en mal når du oppretter nye varekort, ka
 
 Varemalen legges til i listen over varemaler, slik at du kan bruke den til å opprette nye varekort.
 
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Slik definerer du flere leverandører for varer  
+Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninger om hver enkelt leverandør av varen, for eksempel priser, leveringstid, rabatter og så videre.  
+
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+2.  Velg den aktuelle varen, og velg deretter handlingen **Rediger**.  
+3.  Velg handlingen **Leverandører**.  
+4.  Velg feltet **Leverandørnr.**, og velg leverandøren du vil definere for varen.  
+5.  Fyll eventuelt ut de gjenværende feltene.  
+6.  Gjenta trinn 2 til 5 for hver leverandør som du vil kjøpe varen fra.
+
+Leverandørene vises nå i vinduet **Vare/leverandør-katalog**, som du åpner fra varekortet, slik at du enkelt kan velge en annen leverandør.
+
 ## <a name="see-also"></a>Se også
   [Lager](inventory-manage-inventory.md)  
   [Innkjøp](purchasing-manage-purchasing.md)  
@@ -62,3 +80,4 @@ Varemalen legges til i listen over varemaler, slik at du kan bruke den til å op
   [Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2017
+ms.date: 06/14/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b7b69b3419520c482cbe6a84494bbac7ef35bea1
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 844668124df1897493737b28383a68a2a0a66d10
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
@@ -34,10 +33,13 @@ Jo flere dimensjoner du bruker, jo mer detaljerte rapporter kan du basere dine f
 * Hva slags kunde som kjøpte den  
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="analyzing-by-dimensions"></a>Analysere etter dimensjoner
 Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens, for eksempel når du definerer analysevisninger. Hvis du vil ha mer informasjon, kan du se [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md).
+
+> [!TIP]
+> Som en rask måte å analysere transaksjonsdata etter dimensjoner, kan du filtrere totalene i kontoplanen og postene i alle **Poster**-vinder per dimensjon. Se etter handlingen **Angi dimensjonsfilter**.
 
 ## <a name="dimension-sets"></a>Dimensjonssett
 Et dimensjonssett er en unik kombinasjon av dimensjonsverdier. Det lagres som dimensjonssettposter i databasen. Hver dimensjonssettpost representerer én enkelt dimensjonsverdi. Dimensjonssettet identifiseres av en felles dimensjonssett-ID som tilordnes hver dimensjonssettpost som tilhører dimensjonssettet.  
@@ -76,7 +78,7 @@ For **OMRÅDE** legger du til følgende dimensjonsverdier:
 |  - kode | Name | Dimensjonsverditype |
 | --- | --- | --- |
 | 10 |Amerika |Fra-sum |
-| 2.0 |Nord-Amerika |Standard |
+| 20 |Nord-Amerika |Standard |
 | 30 |Stillehavet |Standard |
 | 40 |Sør-Amerika |Standard |
 | 50 |Amerika, totalt |Til-sum |
@@ -104,10 +106,11 @@ I et dokument, for eksempel en ordre, kan du legge til dimensjonsinformasjon om 
 
 Hvis du i stedet arbeider i en kladd, kan du legge til dimensjonsinformasjon i en post på samme måte, forutsatt at du har opprettet snarveisdimensjoner som felt direkte i kladdelinjer.  
 
-Du kan definere standarddimensjoner for konti eller kontotyper, slik at dimensjoner og dimensjonsverdier fylles ut automatisk.  
+Du kan definere standarddimensjoner for konti eller kontotyper, slik at dimensjoner og dimensjonsverdier fylles ut automatisk.
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  
 [Finans](finance.md)  
+[Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -1,5 +1,5 @@
 ---
-title: Opprette et tilbud | Microsoft-dokumentasjon
+title: Opprette et tilbud til en kunde | Microsoft-dokumentasjon
 description: "Beskriver hvordan du oppretter et tilbud eller et tilbudsforespørselsdokument for å registrere tilbudet til en kunde og selge produkter under visse betingelser."
 documentationcenter: 
 author: SorenGP
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 86aad5cbe448b8de396338c609979150cc4adfa6
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6d1c4a937a8030c2f6dbef578a5d5f168faafc31
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-offers"></a>Gi tilbud
@@ -70,7 +69,7 @@ Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedl
 16. I vinduet **Send e-post**fyller du ut resten av feltene, og gå gjennom det innebygde tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
 17. Hvis kunden godtar tilbudet, velger du handlingen **Lag faktura** eller **Lag ordre**.
 
-Tilbudet er fjernet fra databasen. Det opprettes en salgsfaktura eller ordre basert på informasjonen i tilbudet der du kan behandle salget. I **Tilbudsnr.** -feltet på salgsfakturaen eller ordren kan du se nummeret på salgstilbudet den ble laget fra. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) eller [Selge produkter](sales-how-sell-products.md).
+Tilbudet er fjernet fra databasen. Det opprettes en salgsfaktura eller ordre basert på informasjonen i tilbudet der du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller ordren kan du se nummeret på tilbudet den ble laget fra. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) eller [Selge produkter](sales-how-sell-products.md).
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

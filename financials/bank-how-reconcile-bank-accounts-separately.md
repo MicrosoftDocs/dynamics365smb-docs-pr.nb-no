@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 12620b1afa4630441889777bce30cb81317a848b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
@@ -45,7 +44,7 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylle ut bankavstemmingslinjer ved å importere et bankkontoutdrag
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. I **Bankkontonr.** -feltet velger du den aktuelle bankkontoen. Bankkontoposter som finnes i å bankkontoen som vises i ruten **Bankkontoposter**.
+3. I feltet **Bankkontonr.** velger du den aktuelle bankkontoen. Bankkontoposter som finnes i å bankkontoen som vises i ruten **Bankkontoposter**.
 4. I feltet **Utdragsdato** angir du datoen på utdraget fra banken.
 5. I feltet **Utdrag - sluttsaldo** angi du saldoen fra kontoutdraget fra banken.
 6. Hvis du har en fil for bankkontoutdrag, velger handlingen **Importer bankkontoutdrag**.
@@ -62,15 +61,15 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 1. I vinduet **Bankkontoavstemming** velger du handlingen **Avstem automatisk**. Vinduet **Avstem bankposter** åpnes.
 2. I feltet **Toleranse for transaksjonsdato (dager)** angir du antall dager før og etter bankkontopostens bokføringsdato som funksjonen søker innenfor etter samsvarende transaksjonsdatoer i bankkontoutdraget.
 
-    Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-funksjonen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.  
-3. Velg **OK**.  
+    Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-funksjonen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.
+3. Velg **OK**.
 
     Alle bankkontoutdragslinjer og bankkontoposter som kan avstemmes endres til grønn skrift, og det er merket av for **Utlignet**.
 4. Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Avstemme bankkontoutdragslinjer med bankkontoposter manuelt
 1. Velg en ikke-avstemt linje i ruten **Bankkontoutdragslinjer** i vinduet **Bankkontoavstemming**.
-2. I ruten **Bankkontoposter** velger du én eller flere bankkontoposter som kan avstemmes med den valgte bankkontoutdragslinjen. Hvis du vil velge flere linjer, trykker du og holder nede Ctrl-tasten.  
+2. I ruten **Bankkontoposter** velger du én eller flere bankkontoposter som kan avstemmes med den valgte bankkontoutdragslinjen. Hvis du vil velge flere linjer, trykker du og holder nede Ctrl-tasten.
 3. Velg handlingen **Avstem manuelt**.
 
     De valgte bankoppgavelinjene og de valgte bankkontopostene endres til grønn skrift, og det er merket av for **Utlignet** i ruten til høyre.
@@ -81,7 +80,7 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike banktransaksjoner kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
 
 1. I vinduet **Bankkontoavstemming** velger du handlingen **Overfør til finanskladd**.  
-2. I vinduet **Overfør bankavst. til finans** angir hvilke finanskladden som skal brukes, og deretter velger du **OK**-knappen.
+2. I vinduet **Overfør bankavst. til finans** angir du hvilken finanskladd du vil bruke, og velger deretter **OK**-knappen.
 
     Vinduet **Finanskladd** åpnes, som inneholder nye kladdelinjer for bankerkontoutdragslinjer med manglende poster.
 3. Fyll ut kladdelinjen med relevant informasjon, for eksempel motkonto. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  

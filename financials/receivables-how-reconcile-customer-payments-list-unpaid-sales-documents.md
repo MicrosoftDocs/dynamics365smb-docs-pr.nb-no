@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 06/16/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8ea27f21b2e4acc25b4acc6b5ba15580ca5a1997
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 94055c34b67f05faa8955fdff28f854e77d9664f
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger manuelt fra en liste over ubetalte salgsdokumenter
@@ -74,7 +73,7 @@ Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes
 
 Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes på det relaterte bokførte salgsdokumentet.  
 
-Hvis en betaling i banken ikke er representert av en linje i vinduet **Betalingsregistrering**, kan det være fordi det tilknyttede dokumentet ennå ikke er bokført. I det tilfellet kan du bruke en søkefunksjon til raskt å finne dokumentet og bokføre det for å behandle betalingen. Hvis du vil ha mer informasjon, kan du se avsnittet Finne ubetalte dokumenter under manuell betalingsavstemming.  
+Hvis en betaling i banken ikke er representert av en linje i vinduet **Betalingsregistrering**, kan det være fordi det tilknyttede dokumentet ennå ikke er bokført. I det tilfellet kan du bruke en søkefunksjon til raskt å finne dokumentet og bokføre det for å behandle betalingen. Hvis du vil ha mer informasjon, kan du se delen "Slik finner du et bestemt salgsdokument som ikke er fullstendig fakturert".  
 
 Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladd fra vinduet **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt. Hvis du vil ha mer informasjon, kan du se avsnittet "Registrere eller bokføre betalinger manuelt uten et relatert dokument".  
 
@@ -138,7 +137,7 @@ Det tilknyttede dokumentet forblir åpent.
 Det tilknyttede dokumentet lukkes, og kunden blir kreditert med det overflødige betalingsbeløpet.  
 
 ## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Slik finner du et bestemt salgsdokument som ikke er fullstendig fakturert:
-Vinduet **Betalingsregistrering** støtter deg i oppgaver som er nødvendige for å balansere interne konti med faktiske kontanttall, for å sikre effektiv innkreving fra kunder og betaling ved forfall til leverandører. Den viser utestående innkommende betalinger som linjer som representerer salgsdokumentene der et beløp er forfalt til betaling.  
+**Betalingsregistrering**-vinduet støtter deg i oppgaver som er nødvendige for å balansere interne konti med faktiske kontanttall, for å sikre effektiv innkreving fra kunder og betaling ved forfall til leverandører. Den viser utestående innkommende betalinger som linjer som representerer salgsdokumentene der et beløp er forfalt til betaling.  
 
 Vanligvis når en betaling er gjort i banken eller på annen måte, er relaterte salgs- eller kjøpsdokumenter representert som en linje i vinduet **Betalingsregistrering** fordi det aktuelle dokumentet venter på at betalingen skal bokføres mot det utestående beløpet. Noen ganger er imidlertid ikke en utført betaling representert av en linje i vinduet **Betalingsregistrering**, vanligvis fordi det aktuelle dokumentet ikke er fullstendig fakturabokført.
 
@@ -151,7 +150,7 @@ Fremgangsmåten nedenfor forklarer hvordan du søker etter et bestemt dokument v
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
 2. Med pekeren på en av linjene, velger du handlingen **Søk i dokumenter**.
-3. I vinduet **Dokumentsøk** skriver du inn en søkeverdi i feltet **Bilagsnr.**. .  
+3. I vinduet **Dokumentsøk** skriver du inn en søkeverdi i feltet **Bilagsnr.**.  
 
     > [!NOTE]  
 >   Verdien du angir i dette feltet, er omsluttet med skjulte jokertegn. Dette betyr at funksjonen søker etter alle bilagsnumre som inneholder den angitte verdien.    

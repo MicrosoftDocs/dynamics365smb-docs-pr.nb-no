@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ebf31708fcd95b6d4746f1a3616b0eb104055514
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b11c6ea21b507024e6024b180205e02a60fe9465
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
@@ -30,7 +29,6 @@ Som de sier, er kontanter konge. Diagrammer i rollesenteret regnskapsfører gir 
 | Tallene ser ut av en periode?</br> Bør jeg undersøke? |Inntekter og utgifter |
 | Når kan en kontant overskudd eller underskudd skje?</br> Må jeg betale ned gjelden, eller låne for å dekke utgifter for kommende? |Kontantstrømprognoser |
 
-## <a name="dig-into-the-numbers"></a>Fordyp deg i tallene
 På rollesenter for regnskapsfører under **Finansytelse**, **Kontantsyklus**, **Kontantstrøm** og **Inntekter og utgifter** diagrammer gir muligheter til å analysere kontantstrøm:  
 
 * Se tallene i en periode ved hjelp av skyvekontrollen for tidslinjen.  
@@ -38,7 +36,7 @@ På rollesenter for regnskapsfører under **Finansytelse**, **Kontantsyklus**, *
 * Endre lengden på perioden, eller gå til forrige eller neste periode, ved å velge alternativer på den **Finansytelse** rullegardinlisten.  
 * Vise poster ved å velge et punkt i diagrammet. Et punkt på tidslinjen eller et kolonnesegment. Hvis numrene ser ut av, er der du kan foreta justeringer.  
 
-Selv om det er separate, den **Kontantstrømprognose** diagram ligner. Du vise detaljer, filtrere og endre det som vises på samme måte. Hvis du endrer en innstilling, kan du oppdatere prognosen ved å velge **Kontantstrømprognose**, og deretter **Beregn prognose på nytt**.
+Selv om det er separate, den **Kontantstrømprognose** diagram ligner. Du viser detaljer, filtrerer resultater og endrer det som vises på samme måte. Hvis du endrer en innstilling, kan du oppdatere prognosen ved å velge **Kontantstrømprognose**, og deretter **Beregn prognose på nytt**.
 
 Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du også se på regnearket kontantstrøm. Du kan for eksempel se hvordan prognosen:
 
@@ -46,7 +44,7 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 * Trekker fra tilgodehavende og legger til skyldig beløp.  
 * Hopper over dupliserte salgsordrer og bestillinger.  
 
-### <a name="to-view-a-cash-flow-worksheet"></a>Slik viser du et forslag for kontantstrøm
+## <a name="to-view-a-cash-flow-worksheet"></a>Slik viser du et forslag for kontantstrøm
 1. Søk etter **Kontantstrømprognoser**, og velg deretter den relaterte koblingen.  
 2. Velg en kontantstrømprognose, og velg deretter den **Kontantstrømforslag**.  
 3. På siden **Kontantstrømforslag** velger du handlingen **Foreslå forslagslinjer**.  

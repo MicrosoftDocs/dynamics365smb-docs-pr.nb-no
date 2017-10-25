@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9d67198e172b82c20c9d998854a819e39ae523ff
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
@@ -30,7 +29,7 @@ Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem 
 Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister. Se [Definere timelister](projects-how-setup-time-sheets.md) for mer informasjon.
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-create-a-time-sheet"></a>Slik oppretter du en timeliste
 Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.

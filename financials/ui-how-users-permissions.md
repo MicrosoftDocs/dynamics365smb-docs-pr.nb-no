@@ -1,8 +1,6 @@
 ---
 title: Tilordne brukertillatelser og opprette eller endre tillatelsessett | Microsoft-dokumentasjon
 description: Beskriver hvordan du legger til Office 365-brukere i Financials og deretter tilordner tillatelser, tilgangsrettigheter og sikkerhetsinnstillinger.
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,12 +10,11 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/27/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 564ef68a1571611efee32db1cf3759cda6a04c80
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a944a6135feeb81b32d1f7edcb823b9da89cd404
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-users-and-permissions"></a>Administrere brukere og tillatelser
@@ -34,7 +31,7 @@ Du kan legge til brukere i grupper. Dette gjør det enklere å tilordne samme ti
 Administratorer kan bruke vinduet **Brukeroppsett** til å definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på.
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til Løsning. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til Suite. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-assign-permissions-to-a-user"></a>Slik tilordner du tillatelser til en bruker til
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
@@ -112,6 +109,7 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 
 ## <a name="see-also"></a>Se også
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Oppsett og administrasjon i Dynamics 365 for Financials](admin-setup-and-administration.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

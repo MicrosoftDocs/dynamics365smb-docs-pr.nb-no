@@ -8,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migrate, initialize, implement
-ms.date: 07/05/2017
+ms.date: 09/25/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2a38dc36cb9ff609c5582acd489841b20013d4bc
-ms.openlocfilehash: dd6eb5a6b19bf4c8fd92674a48e8cd29ce912eee
+ms.translationtype: HT
+ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
+ms.openlocfilehash: c5571a6d5dcb7a228ce0debd9aa3bcf18607e8a4
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/27/2017
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
@@ -31,7 +30,7 @@ Hvis filen for eksempel inneholder kunder og leverandører, kan du velge å over
 
 Det assisterte oppsettet inneholder et alternativ for å endre standardkonfigurasjonen for overføringen, men vi anbefaler at du bare bruker dette avanserte oppsettet hvis du har kjennskap til databasetabeller. I de aller fleste bedrifter vil standardtilordningen fra QuickBooks eller Dynamics GP til [!INCLUDE[d365fin](includes/d365fin_md.md)] overføre informasjonen du vil bruke.  
 
-Hvis du vil ha mer informasjon, kan du se [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md) eller [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md).
+Hvis du vil ha mer informasjon, se [Datamigrering for QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md), [Datamigrering for QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md) og [Datamigrering for Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importere data fra konfigurasjonspakker
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer en konfigurasjonspakke som du kan eksportere til Excel og definere dataene der. Deretter kan du importere dataene fra Excel på nytt. Pakken består av 27 tabeller, inkludert hoveddata som kunder, leverandører, varer, og kontoer, andre grunnleggende oppsettstabeller, for eksempel frakt og transaksjonerstabeller, som salgshode og linjer.  
@@ -42,7 +41,8 @@ Hvis du vil ha mer informasjon, kan du se [Datamigrering for QuickBooks](ui-exte
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Importere data fra eldre regnskapsprogramvare ved hjelp av en konfigurasjonspakke](across-import-data-configuration-packages.md)  
-[Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)  
+[Datamigrering for QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md)  
+[QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
 [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)   
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 11de49ec0ffc1ff847839a913fbe538930145221
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 6a2e2465cb73716b4087c6dc43ef97c640840a63
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-sales-opportunities"></a>Håndtere salgsmuligheter
@@ -25,9 +24,9 @@ Enhver innkommende interessent kan regnes som en salgsmulighet. Du kan opprette 
 
 Før du kan begynne å bruke administrasjon av muligheter, må du definere salgssykluser og salgssyklusfaser. Når du oppretter en salgsmulighet, bør du legge inn informasjon om kontakt, selger, salgssyklus og datoer, i tillegg til estimatene for salgsverdien for muligheten og sannsynligheten for at den blir vellykket.
 
-Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskrives i. Disse oppgavene vises i rekkefølgen de vanligvis utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Konfigurer salgssyklusene du vanligvis følger, og de ulike fasene i hver enkelt salgssyklus for salgsmulighet. |[Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md) |
 | Opprette salgsmuligheter fra kontaktene. |[Opprette salgsmuligheter](marketing-how-create-opportunities.md) |

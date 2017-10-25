@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 08/23/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 328b522107b58029687dd9e3263ff53b10ede9a9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 79c1d376358cc6b2a622bc589627968c1197df03
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
@@ -27,10 +26,11 @@ Du angir det generelle lageroppsettet i vinduet **Lageroppsett**.
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
 2. I vinduet **Lageroppsett** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret, i vinduet **Lageroppsett**, og for lokasjonen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
+
 ## <a name="see-also"></a>Se også
 [Definere lager](inventory-setup-inventory.md)  
 [Håndtere lager](inventory-manage-inventory.md)  
-[Forsyningskjede](madeira-supply-chain.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

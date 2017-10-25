@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 06/02/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: add78070e838dcf8b0eb24dcc8b642d621a400b9
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
@@ -76,7 +75,7 @@ Oppsettet bestemmer når postering skjer. Hvis du for eksempel berørt tidsbereg
 ## <a name="copying-posting-setup-lines"></a>Kopiere linjer for bokføringsoppsett
 Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se i vinduet Generelt bokføringsoppsett. Dette kan innebære mye dataregistrering for å definere det generelle bokføringsoppsettet for firmaet. Selv om det kan være mange ulike kombinasjoner av bokføringsgrupper for firma og vare, kan de ulike kombinasjonene likevel bokføre til de samme finanskontoene. Du kan begrense mengden manuell registrering ved kopiere finanskontoene fra en eksisterende linje i vinduet **Generelt bokføringsoppsett**.
 
-## <a name="see-also"></a>Se også 
+## <a name="see-also"></a>Se også
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

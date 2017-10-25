@@ -10,25 +10,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, Yahoo
-ms.date: 06/02/2017
+ms.date: 07/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: cc60569091b3aa37d17e981f1fae8f46c4a004df
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-update-currency-exchange-rates"></a>Oppdatere valutakurser
 Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.  
 
-> [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere eller rapportere økonomien i mer enn én valuta. Programmet støtter bruk av flere valutaer. I programmet blir Finans definert ved hjelp av den lokale valutaen (NOK), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.  
 
-Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten Yahoo-valutakurser er forhåndsinstallert og klar til å aktiveres.
+ Når du angir en ny valuta som tilleggsrapporteringsvaluta, registrerer [!INCLUDE[d365fin](includes/d365fin_md.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Når finanspostbeløp beregnes i en tilleggsrapporteringsvaluta, brukes informasjonen fra **Valutakurser**-vinduet til å finne den relevante valutakursen i programmet.  
+
+> [!WARNING]  
+>  Funksjonen for tilleggsrapporteringsvaluta må IKKE brukes som grunnlag for oversettelse av årsregnskap. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta gir bare muligheten til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
+
+## <a name="adjusting-exchange-rates"></a>Justere valutakurser  
+Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i NOK i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt. Kjørselen Juster valutakurser brukes til å justere valutakursene for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter.  
+
+## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Vise rapporter og beløp i tilleggsrapporteringsvalutaen  
+Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et selskap i følgende tilfeller:  
+
+- Selskaper som ikke holder til i EU-land/-regioner, men som har transaksjoner som i stor grad foregår med selskaper i EU-land/-regioner. I dette tilfellet ønsker ikke-EU-selskapet kanskje også å rapportere i euro, slik at økonomirapportene gir større mening for handelspartnerne i EU.  
+
+- Selskaper som også vil vise rapporter i en valuta som er mer brukt internasjonalt enn den lokale valutaen.  
+
+Flere rapporter i Finans-modulen er basert på finansposter. Hvis du vil vise økonomidataene i rapporten i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** i det relevante finansrapportvinduet.  
+
+> [!NOTE]  
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
+Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten Yahoo-valutakurser er forhåndsinstallert og klar til å aktiveres.
+
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I vinduet **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

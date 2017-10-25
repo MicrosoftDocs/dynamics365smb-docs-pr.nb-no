@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
@@ -58,7 +57,7 @@ Den bokførte verdien kan reduseres av bokført oppskrivning, nedskriving eller 
 ### <a name="fixed-yearly-percentage"></a>Fast årlig prosentsats
 Hvis du angir en fast årlig prosentsats, bruker programmet følgende formel til å beregne avskrivningsbeløpet:  
 
-Avskrivningsbeløp = (Lineær-% x Avskrivningsgrunnlag x Antall avskrivningsdager / (100 x 360)  
+Avskrivningsbeløp = (Lineær-% x Avskrivningsgrunnlag x Antall avskrivningsdager) / (100 x 360)  
 
 ### <a name="fixed-yearly-amount"></a>Fast årlig beløp
 Hvis du angir en fast årlig beløp, bruker programmet denne formelen til å beregne avskrivningsbeløpet:  
@@ -205,15 +204,15 @@ Beregningsmetode:
 
 *Saldobeløp: 25 % av 100 000 = 25 000=12 500+12 500*  
 
-*Lineært beløp = 100 000 / 8 = 12 500 = 6 250 + 6 250*  
+*Lineært beløp = 100 000/8=12 500=6 250+6 250*  
 
 Saldobeløpet brukes fordi det er det største beløpet.  
 
-år (2015):  
+6. år (2015):  
 
 *Saldobeløp: 25 % av 23 730,46 = 4 943,85= 2 471,92+2 471,92*  
 
-*Lineært beløp = 23 730,46 / 3 = 7 910,15 = 3 995,07 + 3 995,08*  
+*Lineært beløp = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
 
 Det lineære beløpet brukes fordi det er det største beløpet.  
 
@@ -224,7 +223,7 @@ Hvis du velger en slik metode, bruker du vinduet **Avskrivningstabeller** til å
 
 Formelen for beregning av avskrivningsbeløp er følgende:  
 
-Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag / (100 x 360)  
+Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag ) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Avskrivning etter antall enheter
 Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. I vinduet **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
@@ -317,7 +316,7 @@ Aktivapostene ser slik ut:
 | 31.12.12 |Avskrivning |360 |-19 200,00 |28,800.00 |
 | 31.12.13 |Avskrivning |360 |-11 520,00 |17,280.00 |
 | 31.12.14 |Avskrivning |360 |-11 520,00 |5 760,00 L |
-| 31.12.15 |Avskrivning |180 |  -5 760,00 |0,00 L |
+| 31.12.15 |Avskrivning |180 |-5 760,00 |0,00 L |
 
 * Startdato for avskrivning  
 
@@ -333,7 +332,7 @@ Beregningsmetode:
 
 Saldobeløpet brukes fordi det er det største beløpet.  
 
-år (2004):  
+5. år (2004):  
 
 *Saldobeløp = 40 % av 17 280,00 = 6912,00*  
 

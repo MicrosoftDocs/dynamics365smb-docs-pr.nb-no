@@ -12,11 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ec1f03555db4e370bf19da41bcb33e9b1d286f82
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Opprette analyserapporter
@@ -43,7 +43,7 @@ Deretter kan du definere kolonner som disse:
 - Salg i prosent forrige måned  
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
  I **Analyserapport**-vinduet kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler i vinduet **Maler for analyselinje**. I dette vinduet kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine i tabellen **Maler for analysekolonne**. I dette vinduet kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten i vinduet **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  

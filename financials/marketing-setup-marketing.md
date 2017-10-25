@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bac6c541a07f5da6c42fa076627e174249f708b
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 941c9dcc1638fd82f945b0ac268854b5f34d4294
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
@@ -54,13 +53,10 @@ Hvis du vil ha mer informasjon, kan du se [Synkronisere kontaktene med kunder, l
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tilordne en nummerserie til kontakter og salgsmuligheter
 Du kan definere en nummerserie for kontakter og salgsmuligheter. Hvis du har definert en nummerserie for kontakter, og du oppretter en kontakt og trykker Enter i Nr. -feltet på kontaktkortet, angir programmet automatisk neste tilgjengelige kontaktnummer.
 
-Hvis du vil ha mer informasjon om nummerserie, kan du se [Opprette nummerserie](ui-create-number-series.md).
+Hvis du vil ha mer informasjon om nummerserie, kan du se [Opprette nummerserier](ui-create-number-series.md).
 
 ## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Søke etter duplikatkontakter når kontakter opprettes
 Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter et kontaktselskap, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater.
-
-## <a name="setting-up-email-logging"></a>Konfigurere loggføring av e-post
-Du kan utveksle e-postmeldinger med kontakter, kunder, leverandører og så videre. Du kan sende og motta e-postmeldinger fra programmet eller fra Outlook. Før du kan utveksle meldinger på denne måten og få systemet til å lagre og legge dem i kø, må du definere en del parametere, for eksempel hvor ofte det skal kontrolleres om det er e-post som venter på behandling, profilnavn for loggføring av e-post og så videre.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

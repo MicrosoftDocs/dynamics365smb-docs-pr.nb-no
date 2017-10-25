@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/01/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 126c8da9b9ef80e954510fa8e5089906d7dd6f01
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
@@ -26,7 +25,7 @@ Som en del av innsamling, analyse og deling av selskapsdataene viser du faktiske
 Hvis du vil analysere budsjetterte beløp, må du først opprette budsjetter. Hvis du vil ha mer informasjon, kan du se [Opprette budsjetter](finance-how-create-budgets.md).
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-view-a-budget"></a>Slik viser du et budsjett
 I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjettene.

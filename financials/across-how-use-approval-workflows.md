@@ -9,25 +9,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/25/2017
+ms.date: 08/24/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffeffe725025dc03d2053333f75249679103b6a4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b15bd0928e797918c7431e595b1bdf500a8d6792
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
 
-Du setter opp arbeidsflyter for godkjenning i **Arbeidsflyt**-vinduet.
+Du setter opp arbeidsflyter for godkjenning i **Arbeidsflyt**-vinduet. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).
+
+I tillegg til godkjenningsarbeidsflyter som beskrives i dette emnet, kan du utføre diverse andre arbeidsflytoppgaver. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).
 
 Kjernearbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekortene, er klar til å starte som assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)](index.md).
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
 Oppgavene nedenfor utføres av en godkjenningsbruker.
@@ -47,17 +48,6 @@ Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godk
 - I vinduet som viser posten, velger du handlingen **Annuller godkjenningsforespørsel**.
 
 Når godkjenningsforespørselen er annullert, endres statusen for den relaterte godkjenningsposten til **Annullert**. Statusen for posten oppdateres fra **Venter på godkjenning** til **Åpen**. Godkjenningsprosessen kan deretter startes på nytt.
-
-## <a name="to-make-minor-changes-to-approved-records"></a>Foreta mindre endringer i godkjente poster
-Hvis du vil gjøre en liten endring i en post etter at den er godkjent, kan du åpne posten på nytt, foreta endringen og deretter frigi den. Du kan foreta mindre endringer med knappene **Åpne på nytt** og **Frig**.
-
-1. Åpne vinduet som viser posten, for eksempel en kjøpsfaktura, og velg deretter handlingen **Åpne på nytt**.
-
-    **Dokumentstatus**-feltet endres til **Åpen**.
-2. Gjør de nødvendige endringene i posten, for eksempel adressen til leverandøren.
-3. Velg handlingen **Frigi**.
-
-Når du åpner kildeoppføringen på nytt, forblir statusen for den relaterte godkjenningsposten Godkjent i vinduet **Godkjenningsposter**.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Godkjenne eller avvise forespørsler om godkjenning
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
@@ -98,5 +88,5 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 [Salg](sales-manage-sales.md)    
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -9,14 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/24/2017
+ms.date: 08/17/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3d0a8668b3448b3e7654b702dc28751dc01d2911
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="smart-notifications"></a>Smarte varsler
@@ -27,8 +26,10 @@ Hvis du velger å vise detaljer for et varsel, kan du iverksette tiltak for å l
 Varsler hjelper utrente brukere å fullføre ukjente oppgaver og reduserer ikke produktiviteten til mer erfarne brukere.  
 
 ## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Aktivere eller deaktivere varslinger og kontrollere når de sendes
-Når du først starter med [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle meldinger slått på, men du kan slå dem på eller av, for eksempel, hvis du ikke er interessert i en bestemt hendelse eller status.   
+Når du først starter med [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle meldinger slått på, men du kan slå dem på eller av, for eksempel, hvis du ikke er interessert i en bestemt hendelse eller status.  
+  
 I tillegg kan noen meldinger du angi betingelsene som de ble sendt. For eksempel hvis du ønsker å bli varslet når lageret er lite, men bare for varer kjøper du fra en bestemt leverandør.  
+  
 Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.  
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mine varsler**, og velg deretter den relaterte koblingen.

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: c2a563d09d09e9772ab00fcffc48db9cbc5ee797
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="fixed-assets"></a>Aktiva
@@ -35,7 +34,7 @@ Hvert aktiva kan knyttes til én eller flere forsikringspoliser. Det er dermed l
 >   Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-vinduet. Se [Definere avskriving av aktiva](fa-how-setup-depreciation.md) hvis du vil ha mer informasjon.
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 Før du kan begynne å behandle aktiva, må du definere standardverdier, aktivaregnskap, bokføringsgrupper, fordelingsnøkler, kladder og bokføringstyper. Hvis du vil ha mer informasjon, kan du se [Definere aktiva](fa-setup.md).
 

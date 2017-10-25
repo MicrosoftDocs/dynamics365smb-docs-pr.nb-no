@@ -1,5 +1,5 @@
 ---
-title: Prosjektstyring| Microsoft-dokumentasjon
+title: Prosjektoppgaver ved hjelp av ressurser og timelister | Microsoft-dokumentasjon
 description: "Beskriver hvordan du bruker ressurser, timelister og jobber til å administrere prosjekter."
 services: project-madeira
 documentationcenter: 
@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 03/28/2017
+ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: a31be0f9d07e2abb591e26f6bae34c6f6e4dcda6
-ms.openlocfilehash: 608817222d087a04293a25913064e7b47f1c78f0
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: e823f58ac796b22a488ab6fd54ed6dc00e262c87
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/04/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="project-management"></a>Prosjektstyring
@@ -25,7 +24,8 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbeh
 
 Før du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  
 
-**Merk**: Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, se [Tilpasse din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse](ui-experiences.md).
+> [!NOTE]  
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
@@ -44,7 +44,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)      
-[Kjøp](purchasing-manage-purchasing.md)         
+[Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)    
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

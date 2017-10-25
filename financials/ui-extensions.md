@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 07/05/2017
+ms.date: 07/07/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: 6bf7d2024ff9f0254e1d885580126fb16c0c6fce
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Tilpasse Dynamics 365 for Financials med utvidelser
@@ -51,9 +50,10 @@ Microsoft tilbyr følgende utvidelser:
 
 * [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 * [Bankfeeder for Envestnet Yodlee](ui-extensions-yodlee-bank-feeds.md)  
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
 * [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)  
 * [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)  
-* [Salgs- og beholdningsprognose](ui-extensions-sales-forecast.md)  
+* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)  
 * [Ceridian lønn](ui-extensions-ceridian-payroll.md)  
 * [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
@@ -69,7 +69,7 @@ Microsoft tilbyr følgende utvidelser:
 [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Aktiver kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
-[Konfigurere GetAddress.io UK Postal Code-utvidelsen](uk-setup-postal-code-service.md)  
+[Konfigurere GetAddress.io UK Postal Code-utvidelsen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 

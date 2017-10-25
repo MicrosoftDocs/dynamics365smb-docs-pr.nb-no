@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 06/06/2017
+ms.date: 07/04/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9b374c80a649a1e05c98fcbcea1ca447ec0b8d27
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 076b509ab5e9cf0f87f0910de11e49cda17f330a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
@@ -38,7 +37,8 @@ Hvis du vil vise resultatet ved å bruke en annen metode, kan du endre metoden o
 ## <a name="to-create-a-job-wip-method"></a>Slik oppretter du en VIA-metode for prosjekt
 Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasjonen. Når du har opprettet den, kan du angi den som standardmetoden for beregning av prosjekt-VIA som skal brukes i organisasjonen.  
 
-**Merk**. Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.  
+> [!NOTE]
+> Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.  
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -94,7 +94,8 @@ Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fort
 I vinduet **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.  
 
 ## <a name="see-also"></a>Se også
-[Administrere prosjekter](projects-manage-projects.md)  
+[Administrere prosjekter](projects-manage-projects.md)
+[Administrere lagerkostnader](finance-manage-inventory-costs.md)   
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3de30e72853689df84d3807def1334db88776680
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Klargjøring til konfigurasjon av kontakter
@@ -27,9 +26,9 @@ Før du oppretter kontakter og registrerer detaljer om forretningsforhold, må d
 
 Når disse opplysningene er satt opp, kan du opprette kontakter på en mye mer organisert måte, og du kan finne alle kontakter basert på en bestemt gruppe på en mer effektiv måte. Alle grupper i bedriften kan finne disse opplysningene, noe som gir mer vellykket kommunikasjon med kontaktene.
 
-Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskrives i. Oppgavene er oppført i rekkefølgen de utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Definere forretningsforbindelser til kontakter, for eksempel prospekter, banker, konsulenter og serviceleverandører. |[Definere forretningsforbindelser for kontaktselskaper](marketing-business-relations.md) |
 | Definere bransjen kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen. |[Definere bransjegrupper for kontaktselskaper](marketing-industry-groups.md) |

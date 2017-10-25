@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 927c27998bfaeb8d7247158cde1d1eb958a6911f
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d101076c8a51b1c7a79606d207f79a826c89bf29
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-organizational-levels-for-contact-persons"></a>Definere organisasjonsnivåer for kontaktpersoner
@@ -25,13 +24,13 @@ Du kan bruke organisasjonsnivåer på kontaktene for å angi hvilken stilling de
 
 Bruk av organisasjonsnivåer på kontakter er en totrinnsprosess. Først må du definere koden for organisasjonsnivået. Du trenger bare utføre dette trinnet én gang for hvert organisasjonsnivå. Når du har en kode for organisasjonsnivå, kan du begynne å tilordne koden til kontaktpersoner.
 
-## <a name="to-define-an-organizational-level-code"></a>Definere kode for organisasjonsnivå
+## <a name="to-define-an-organizational-level-code"></a>Slik definerer du en kode for organisasjonsnivå
 Koden for organisasjonsnivå definerer jobbtype eller -kategori for organisasjonsnivået, for eksempel ADMDIR eller ØKDIR. Du kan ha flere koder for organisasjonsnivå. Hvis du vil definere organisasjonsnivået, bruker du vinduet **Organisasjonsnivåer**.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Organisasjonsnivåer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
-## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Tilordne organisasjonsnivåer til en kontaktperson
+## <a name="to-assign-organizational-levels-to-a-contact-person"></a>Slik tilordner du organisasjonsnivåer til en kontaktperson
 Du kan bare tilordne organisasjonsnivåer til kontaktpersoner, ikke selskaper. Du kan bare tilordne ett organisasjonsnivå til hver enkelt kontakt.
 
 1. Åpne kontakten.

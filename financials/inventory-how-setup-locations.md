@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 06/02/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 146fc08f389a5c068044358c59b7d8911f0b3343
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 7d82b1c63bb1da367736f8dd044640b583493af8
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-locations"></a>Definere lokasjoner
@@ -26,13 +25,16 @@ Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må
 Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengelighet etter lokasjon og overføre beholdning mellom lokasjoner. Hvis du vil ha mer informasjon, kan du se [Håndtere lager](inventory-manage-inventory.md).
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-create-a-location-card"></a>Slik oppretter du et lokasjonskort
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I vinduet **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gjenta trinn 2 og 3 for hver beholdninglokasjon.
+
+> [!NOTE]  
+> Mange felt på lokasjonskortet refererer til håndteringen av varer i inngående og utgående lagerprosesser. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md). 
 
 ## <a name="to-create-a-transfer-route"></a>Slik oppretter du overføringsruter
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Overføringsruter**, og velg deretter den relaterte koblingen.
@@ -44,7 +46,6 @@ Nå kan du overføre lagervarer mellom to lokasjoner. Hvis du vil ha mer informa
 
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  
-[Forsyningskjede](madeira-supply-chain.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)    
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  

@@ -10,28 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9684a91268927a4f1f4d249fef019c8f6ac00325
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: d260cf22980d097637e26d97282ad5e4f344120a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløp
-En stor del av administrasjon av skyldige beløp består av å betale dine leverandører. Du kan bruke funksjoner til å legge til betalingslinjer for forfalte kjøpsfakturaer i vinduet **Utbetalingskladd**. Du kan sende transaksjoner til banken din ved å eksportere flere betalingskladdelinjer til en fil og deretter laste opp filen til banken. Du kan også betale med sjekk, inkludert å overføre sjekker som elektroniske betalinger.
+En viktig del av håndtering av leverandørgjeld er å betale dine leverandører eller refundere de ansatte for utgifter. Du kan bruke funksjoner til å legge til betalingslinjer for forfalte kjøpsfakturaer i vinduet **Utbetalingskladd**. Du kan sende transaksjoner til banken din ved å eksportere flere betalingskladdelinjer til en fil og deretter laste opp filen til banken. Du kan også betale med sjekk, inkludert å overføre sjekker som elektroniske betalinger.
 
-En annen vanlig oppgave er å utligne utgående betalinger mot deres relaterte leverandørposter for å kunne lukke de beslektede kjøpsfakturaene eller kjøpskreditnotaene som betalt. Du kan gjøre dette i vinduet **Betalingsavstemmingskladd** ved å importere en bankkontoutdragsfil for hurtig å registrere betalinger. Betaling brukes til å åpne kunde- eller kundepostoppføringer ved å sammenligne betalingstekst for oppføringsinformasjon. Det finnes ulike måter å se gjennom og endre treff før du bokfører kladden. Du kan velge å lukke alle åpne bankposter relatert til de utlignede postene når du bokfører kladden. Bankkontoen avstemmes automatisk når alle betalinger er utlignet.
+En annen vanlig oppgave er å utligne utgående betalinger mot deres relaterte leverandør- eller ansattposter for å kunne lukke de beslektede kjøpsfakturaene, kjøpskreditnotaene eller ansattkontoene som betalt. Du kan gjøre dette i vinduet **Betalingsavstemmingskladd** ved å importere en bankkontoutdragsfil for hurtig å registrere betalinger. Betaling brukes til å åpne leverandør-, kunde- eller ansattpostoppføringer ved å sammenligne betalingstekst for oppføringsinformasjon. Det finnes ulike måter å se gjennom og endre treff før du bokfører kladden. Du kan velge å lukke alle åpne bankposter relatert til de utlignede postene når du bokfører kladden. Bankkontoen avstemmes automatisk når alle betalinger er utlignet.
 
-Du kan også bruke utgående betalinger manuelt i vinduet **Betalingskladd** eller fra de relaterte leverandørpostene.
+Du kan også bruke utgående betalinger manuelt i vinduet **Betalingskladd** eller fra de relaterte leverandør- eller ansattpostene.
 
 Tabellen nedenfor beskriver en sekvens av oppgaver i leverandørgjeld, og har koblinger til emnene som beskriver dem.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
-| Generere forfalte leverandørbetalinger prioritert i henhold til kontantrabatter og forfalte straffegebyrer. Du kan også eksportere betalingene til en bankfil ved bokføring. |[Foreta betalinger](payables-make-payments.md) |
+| Generer forfalte leverandørbetalinger eller ansattrefusjoner, forbered sjekkutbetalinger og eksporter betalinger til en bankfil ved bokføring. |[Utføre betalinger](payables-make-payments.md) |
 | Utligne leverandørbetalinger automatisk på ubetalte kjøpsfakturaer ved å importere en bankkontoutdragsfil. |[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 | Utligne leverandørbetalinger på ubetalte fakturaer manuelt. |[Avstemme leverandørbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md) |
 |Sikre riktig lagerverdisetting ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg ved innkjøp.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|

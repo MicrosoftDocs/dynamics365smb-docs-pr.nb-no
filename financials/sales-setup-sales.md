@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 06/01/2017
+ms.date: 08/23/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 75ed584feda066a6c412f861bd624646c4c31085
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: a16201e48cc823e687c9941082d34044d9612a29
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
@@ -37,6 +36,8 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 | Definere selgere, slik at du kan tilordne dem til kundekontakter eller måle selgernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. |[Definere selgere](sales-how-setup-salespeople.md) |
 | Angi for hver enkelt kunde eller for alle kunder hvordan salgsdokumenter sendes som standard når du velger **Konter og send**-handlingen. |[Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md) |
 | Angi at e-post skal inneholde et sammendrag av informasjonen i salgsdokumentet som sendes. |[Sende dokumenter i e-post](ui-how-send-documents-email.md). |
+|Bruke en EU-webtjeneste for å bekrefte kundens organisasjonsnummer.|[Bekrefte organisasjonsnumre](sales-how-to-verify-vat-registration-numbers.md)|
+|Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Definere transportører](sales-how-to-set-up-shipping-agents.md)|
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

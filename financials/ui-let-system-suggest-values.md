@@ -9,17 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/15/2017
+ms.date: 08/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 99a76141f13efde3c7edb86037d6daaa0dbbb9d4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ca73c8298101eb02aac397894f87f7a5f58a5c2
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
-# <a name="letting-dynamics-365-for-financials-suggest-values"></a>La Dynamics 365 for Financials foreslå verdier
+# <a name="letting-included365finincludesd365finmdmd-suggest-values"></a>La [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå verdier
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv. Selv om slik automatisk dataregistrering alltid er riktig, kan du endre den senere ved behov.
 
 Funksjonalitet som angir feltverdiene for deg tilbys vanligvis for oppgaver der du skriver inn store mengder transaksjonsdata og vil unngå feil og spare tid. Dette emnet inneholder et utvalg av slik funksjonalitet. Flere avsnitt vil bli lagt til i fremtidige oppdateringer av [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -46,6 +45,5 @@ De viktigste handlingene i vinduet er å merke av for **Betaling utført** og fy
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Finans](Finance.md)
-
+[Finans](finance.md)
 

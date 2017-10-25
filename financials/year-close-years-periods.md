@@ -12,20 +12,19 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/07/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0f753e84a9318cdd3a58ed192437206659b6a2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="closing-years-and-periods"></a>Avslutte år og perioder
 På slutten av et regnskapsår er det en rekke administrative oppgaver som du må utføre, for eksempel å passe på at alle dokumenter og kladder bokføres, pass på at valutadataene er oppdaterte, avslutte tablåer, og mye mer. De faktiske oppgavene avhenger av firmaet.
 
-Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører for å avslutte år og perioder. Disse oppgavene vises i rekkefølgen de vanligvis utføres i.
+Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører for å avslutte år og perioder. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Angi systemomfattende og brukerspesifikke bokføringsdatoområder. Avhengig av forretningsbehovene vil du kanskje begrense brukerens bokføringsdatoområder i begynnelsen av prosessen ved periodeslutt eller etter den. |[Angi bokføringsperioder](finance-how-specify-posting-periods.md) |
 | Få en oversikt over aktiviteter som vanligvis utføres på slutten av en periode, for eksempel bokføring av alle dokumenter og kladder, eller kjøring av kontoskjemaer. |[Avslutte perioder](year-how-complete-period-end-processes.md) |

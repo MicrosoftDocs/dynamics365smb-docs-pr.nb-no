@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4dc1a0d643aa9b1a2e1fe5b870881dc43c1ed2a1
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +27,7 @@ Hvis du abonnerer på [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av e
 Brukerkontoer og lisenser behandles i [Office-portalen](https://portal.office.com). Bare administratorer kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisenser fra brukerkontoer. Office 365-administratoren kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra din brukerkonto eller fjerne abonnementet fra firmaets konto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] er fjernet fra brukerkontoen din og andre personer i firmaet fortsetter abonnementet, de vil fortsatt ha tilgang til delte dataene i den [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Stoppe abonnementet fra [!INCLUDE[d365fin](includes/d365fin_md.md)] uten Office 365
-Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet avbryte abonnementet ved å kontakte teamet for avbrudd av [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnementet. Du må for øyeblikket kontakte teamet ved å sende en e-postmelding til cancel-madeira@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet avbryte abonnementet ved å kontakte teamet for avbrudd av [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnementet. For tiden må du kontakte teamet ved å sende en e-post til cancel-madeira@microsoft.com. Du må ta med navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen
 Hvis du har lagt til data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversjonen og du vil starte på nytt med en ny opplevelse, kan du opprette et nytt firma og deretter tilbakestille det første firmaet. Hvis du åpner **Selskaper**-siden, kan du opprette en kopi av gjeldende firma, logge av og deretter logge på det nye firmaet, og deretter tilbakestille det opprinnelige firmaet.  

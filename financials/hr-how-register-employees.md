@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 06/02/2017
+ms.date: 08/11/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c58592f4e32b5bb35ba6e9036b786b4d5ffe9820
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-register-employees"></a>Registrere ansattes
@@ -26,6 +25,9 @@ Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ve
 Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på ansattkortet.
 
 Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvordan du tilordner to typer ansattinformasjon til en ansatt. I tillegg kan du tilordne diverse annen relatert informasjon, for eksempel kvalifikasjoner og årsaker til uvirksomhet. Du tilordner ansattinformasjon ved å velge et felt eller en handling i vinduet **Medarbeiderkort**.
+
+> [!NOTE]  
+> Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** i vinduet **Ansattkort**. Hvis du vil ha mer informasjon, se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
@@ -43,7 +45,9 @@ Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet
 
 Bildet settes inn i faktaboksen **Bilde av ansatt**.
 
-## <a name="to-register-an-alternate-address-for-an-employee"></a>Slik registrerer du en alternativ adresse for en ansatt
+## <a name="to-register-various-information-about-an-employee"></a>Slik registrerer du informasjon om en ansatt
+På ansattkortet kan du definere opplysninger, for eksempel fagforeningsmedlemskap, pårørende og kontrakter for den ansatte. I det følgende beskrives hvordan du definerer en alternativ adresse. Fremgangsmåten er lik for alle andre opplysninger som du kan definere fra et ansattkort.
+
 Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enhver tid befinner seg, for eksempel om de er stasjonert i utlandet, er på lengre forretningsreiser eller har sommerferie.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
@@ -53,6 +57,7 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 5. Gjenta trinn 4 for hver alternative adresse.
 
 ## <a name="see-also"></a>Se også
+[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)

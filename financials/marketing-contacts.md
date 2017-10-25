@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: c50bd4ae740c688761e7f5871b036633949add79
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ece25dc08df403e8dc3743d30a54c4172665c50
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-and-managing-contacts"></a>Opprette og administrere kontakter
@@ -27,9 +26,9 @@ Alle de eksterne enhetene du har forretningsforhold med (for eksempel kunder, po
 
 Du kan legge inn informasjon basert på en bedrift eller en person i bedriften. Du kan også opprette en uavhengig kontaktperson for personer som ikke arbeider for en bestemt bedrift, men som arbeider uavhengig eller som frilans.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. Disse oppgavene vises i rekkefølgen de vanligvis utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Definer kontaktadministrasjon før du legger til kontakter. |[Klargjøring til konfigurasjon av kontakter](marketing-setup-contacts.md) |
 | Opprette et kontaktkort for hvert selskap du samhandler med, for eksempel en kunde eller leverandør. |[Opprette kontaktselskaper](marketing-create-contact-companies.md) |

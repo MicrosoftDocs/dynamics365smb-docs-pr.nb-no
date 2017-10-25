@@ -10,12 +10,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53fb2ae7bbbaf3215ca2549e207512f7c06838b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3f98a08415a896c37868bf0ed5efd9314d5ab07a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-included365finincludesd365finmdmd-as-a-power-bi-data-source"></a>Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI
@@ -43,6 +42,7 @@ Du kan gjøre [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgjengelig som 
 5. Velg **Tilkobling**-knappen for å fortsette. Power BI-veiviseren viser en liste over [!INCLUDE[d365fin](includes/d365fin_md.md)]-datakilder. Disse datakildene representerer alle web-tjenester som du har publisert fra [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
    Alternativt, opprette en ny web service URL i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av **Opprett datasett** i siden **Web Services** ved hjelp av **Sett opp rapportering** assistert installasjonsveiledningen eller ved å velge **Rediger i Excel** i lister.
+
 6. Angi hvilke data du vil legge til datamodellen, og velg deretter **Last inn**-knappen.
 7. Gjenta de forrige trinnene for å legge til flere [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Power BI-datamodellen.
 
@@ -52,6 +52,7 @@ Du kan gjøre [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgjengelig som 
 Når dataene er lastet inn, vil de vises i høyre navigering på siden. Nå har du koblet til Dynamics 365-dataene og er klar til å begynne å bygge din Power BI-rapport. Hvis du ønsker mer informasjon, se [Power BI-dokumentasjonen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Se også
+[Forretningsintelligens](bi.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  

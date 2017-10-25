@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 46cae53022ba5d65a370694c9818f52a7bf45525
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-manage-job-supplies"></a>Administrere prosjektforsyninger

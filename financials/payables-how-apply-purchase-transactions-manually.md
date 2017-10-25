@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 06/06/2017
+ms.date: 06/15/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6f0f3e1c14e21fff736b54b4c5f7423e1e909e72
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 7c13f127f1ca9f9d95878d79afe21488df7868a6
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-vendor-payments-manually"></a>Avstemme leverandørbetalinger manuelt
@@ -43,7 +42,7 @@ Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalinge
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingskladd**, og velg deretter den relaterte koblingen.
 2. I vinduet **Betalingskladd**, på den første kladdelinjen, angir du aktuelle opplysninger om betalingsposten.
 3. Utligne én enkelt leverandørpost:
-   1. I **Utligningsbilagsnr.** -feltet velger du feltet for å åpne vinduet **Utlign leverandørposter**.
+   1. I feltet **Utligningsbilagsnr.** velger du feltet for å åpne vinduet **Utlign leverandørposter**.
    2. Velg posten som betalingen skal utlignes mot, i vinduet **Utlign leverandørposter**.
    3. På linjen i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.
 4. Du kan også utligne flere leverandørposter:
@@ -61,7 +60,7 @@ Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalinge
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kjøpskreditnota**, og velg deretter den relaterte koblingen.
 2. Åpne kjøpskreditnotaen du vil utligne.
 3. Skriv inn relevant informasjon i hodet.
-4. Hvis du vil bruke en enkelt leverandørpost på **Program**-hurtigfanen i feltet **Utligningsbilagsnr.**, velger du oppføringen som krediteringen skal brukes på, og deretter i feltet **Beløp som skal utlignes** angir du beløpet som skal utlignes til posten.
+4. For å utligne en enkelt leverandørpost, på hurtigfanen **Utligning** i feltet **Utligningsbilagsnr.** velger du posten som kreditten skal utlignes til, og deretter, i feltet **Beløp som skal utlignes** angir du beløpet som skal utlignes til posten.
 5. Du kan også utligne flere leverandørposter:
 
    1. Velg handlingen **Utlign poster**.
@@ -71,7 +70,7 @@ Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalinge
 
        Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet automatisk. Nederst i vinduet **Utlign leverandørposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.
 6. Velg **OK**.  
-   Vinduet **Kjøpskreditnota** viser posten du har valgt, som du registrerte i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** . Vinduet viser også beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
+   Vinduet **Kjøpskreditnota** viser posten du har valgt, som du registrerte i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** Vinduet viser også beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
 7. Velg **Bokfør**-knappen for å bokføre kjøpskreditnotaen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Slik utligner du bokførte leverandørposter

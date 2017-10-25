@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 06/02/2017
+ms.date: 06/19/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 678cebc065594ed0ed6fea897676f109ff2c1dce
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: ddc2dbda549414a7beecf5f307c525b53166fa15
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
@@ -47,15 +46,15 @@ ms.lasthandoff: 07/07/2017
 * Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.  
 * Kjør kjørselen **Slett fakturerte bestillinger**.  
 
-<!-- ### Fixed Assets
-* Post all maintenance costs have been posted through the fixed asset journals or invoices.
-* Post adjustments.
-* Post appreciation.
-* Post depreciation.
-* Update and post the recurring fixed asset journal.-->
+Anleggsmidler
+* Bokfør all vedlikeholdskost gjennom aktivakladdene eller fakturaene.
+* Bokfør justeringer.
+* Bokfør oppskrivning.
+* Bokfør avskrivning.
+* Oppdater og bokfør gjentakende aktivakladd.
 
-<!--### Intercompany
-* Process Intercompany Postings.-->
+Konsernintern
+* Behandle konserninterne transaksjoner
 
 ## <a name="calculate-and-process-sales-tax"></a>Beregn og behandle mva.
 * Fullfør mva-oppgaver.  

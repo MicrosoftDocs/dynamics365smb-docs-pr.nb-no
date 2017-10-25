@@ -1,6 +1,6 @@
 ---
 title: "Velge brukeropplevelsen for å vise eller skjule avanserte funksjoner | Microsoft-dokumentasjon"
-description: "Finn ut hva brukeropplevelsesnivåene Grunnleggende og Løsning betyr for brukergrensesnittet, moduler og selskapet ditt i Dynamics 365 for Financials."
+description: "Finn ut hva brukeropplevelsesnivåene Grunnleggende og Suite betyr for brukergrensesnittet, moduler og selskapet ditt i Dynamics 365 for Financials."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Suite, Basic, user interface, application area
-ms.date: 03/29/2017
+ms.date: 08/22/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6add50f8d24d75e58abd12d110c881628d1fa6d9
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: f2336dbb8381c1ed1961ed97ab4dd782ef846a10
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="customizing-your-dynamics-365-for-financials-experience"></a>Tilpasse Dynamics 365 for Financials-opplevelsen
@@ -34,12 +33,13 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 
 | Opplevelse | Innvirkning på brukergrensesnittet |
 | --- | --- |
-| Grunnleggende |Viser bare kjernehandlinger og felt for kjerneforretningsområder, for eksempel salg, kjøp, økonomi og administrasjon av salgsmuligheter. |
-| Løsning |Viser flere handlinger og feltene for business kjerneområder og andre områder, for eksempel prosjektledelse, administrasjon av aktiva og analyse per dimensjon. |
+| Grunnleggende |Viser bare kjernehandlinger og felt i de vanligste forretningsfunksjonene, for eksempel salg, kjøp, lager og finans. |
+| Suite |Viser alle handlinger og felt for alle tilgjengelige forretningsfunksjoner.|
 
-## <a name="see-also"></a>Se også 
+## <a name="see-also"></a>Se også
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

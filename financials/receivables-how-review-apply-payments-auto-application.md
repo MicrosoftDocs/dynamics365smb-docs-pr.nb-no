@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2998cd0841452813cb86ee3859804de93cb9bde9
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-review-or-apply-payments-manually-after-automatic-application"></a>Se gjennom eller utligne betalinger manuelt etter automatisk utligning
@@ -26,7 +25,7 @@ For hver kladdelinje som representerer en betaling i vinduet **Betalingsavstemmi
 > [!IMPORTANT]  
 >   Når bankkontoen du avstemmer betalinger for, er konfigurert for den lokale valutaen, vises alle åpne poster i lokal valuta i vinduet **Betalingsutligning**, inkludert åpne poster for dokumenter som opprinnelig ble fakturert i utenlandsk valuta. Betalinger som utlignes mot poster med omregnede valutaer, kan derfor bli bokført med andre beløp enn i det opprinnelige dokumentet på grunn av potensielt ulike valutakurser som henholdsvis brukes av banken og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Derfor anbefaler vi at du ser etter utenlandske valutakoder i feltet **Valutakode** i vinduet **Betalingsutligning**, for å se om utligningene er basert på omregnede valutaer. Hvis du vil se det opprinnelige dokumentbeløpet i utenlandsk valuta og valutakursen som brukes, kan du velge **Utligningspostnr.** -feltet, og deretter velge drilldown-knappen på hurtigmenyen for å åpne vinduet **Kundeposter** eller **Leverandørposter**.
+Derfor anbefaler vi at du ser etter utenlandske valutakoder i feltet **Valutakode** i vinduet **Betalingsutligning**, for å se om utligningene er basert på omregnede valutaer. Hvis du vil se gjennom det opprinnelige dokumentbeløpet i den utenlandske valutaen og se valutakursen som brukes, velger du feltet **Utligningspostnr.**, og deretter velger du rullegardinknappen for å åpne vinduet **Kundeposter** eller **Leverandørposter**.
 
 Eventuell justering av tap og vinning på grunn av valutaomregning behandles ikke automatisk av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

@@ -10,14 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/07/2017
+ms.date: 08/10/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 52fd9ae967dab9c6f90733e1ea25b6c875374243
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b63e2e65f92edbbe10bcb5e2c340db31b1acda28
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
@@ -31,13 +30,17 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | --- | --- |
 | Velg hvordan du betaler dine leverandører. |[Definere betalingsmåter](finance-payment-methods.md) |
 | Angi bokføringsgruppene som tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. |[Definere bokføringsgrupper](finance-posting-groups.md)|
+|Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Definere regnskapsperioder. |[Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md) |
 | Definere hvordan du rapporterer merverdiavgiftsbeløp du har innkrevd for salg, til skattemyndighetene. |[Rapportere mva til skattemyndighetene](finance-how-report-vat.md)|
-| Definere hvordan du vil oppdatere flere valutaer hvis du handler internasjonalt. |[Oppdatere valutakurser](finance-how-update-currencies.md) |
+| Angi funksjoner for salg og kjøp til å håndtere betalinger i fremmed valuta.|[Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 | Legg til nye kontoer i den eksisterende kontoplanen. |[Definere kontoplanen](finance-setup-chart-accounts.md) |
 | Konfigurere forretningsintelligensdiagrammer (BI) for å analysere kontantstrøm. |[Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md) |
+|Aktiver fakturering av en kunde som ikke er definert i systemet.|[Definere kontantkunder](finance-how-to-set-up-cash-customers.md)|
+| Definere Intrastat-rapportering, og send inn rapporten til myndighetene | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 
 ## <a name="see-also"></a>Se også
+[Finans](finance.md)]  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
@@ -45,3 +48,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

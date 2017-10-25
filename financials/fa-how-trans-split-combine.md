@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 4e29a08e9b0fd9c20dac12bb32dd1be604ff2dcf
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-transfer-split-or-combine-fixed-assets"></a>Overføre, dele opp eller kombinere aktiva
@@ -28,10 +27,10 @@ Du må kanskje overføre et aktiva til en annen avdeling når for eksempel du pl
 1. Definer et nytt aktiva. Angi den nye avdelingen i feltet **Avdelingskode**.
 2. Tilordne et avskrivningstablå for aktiva til det nye aktivaet. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).
 3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivareklass.kladder**, og velg deretter den relaterte koblingen.
-4. Opprett en reklassifiseringskladd der **Aktivanr.**-feltet inneholder det originale aktivaet, og **Nytt aktivanr.**-feltet inneholder det nye aktivaet som skal flyttes.  
+4. Opprett en reklassifiseringskladd der **Aktivanr.**-feltet inneholder det opprinnelige aktivaet, og **Nytt aktivanr.**-feltet inneholder det nye aktivaet som skal flyttes.  
 5. Velg handlingen **Reklassifiser**.
 
-    To linjer opprettes nå i aktivafinanskladden ved hjelp av malen og kladden du oppgav for det angitte avskrivningstablået, i vinduet **Aktivakladdoppsett**. Se [Definere avskriving av aktiva](fa-how-setup-depreciation.md) for mer informasjon.
+    To linjer opprettes nå i aktivafinanskladden ved hjelp av malen og kladden du oppgav for det angitte avskrivningstablået, i vinduet **Aktivakladdoppsett**. Se [Definere avskriving av aktiva](fa-how-setup-depreciation.md) hvis du vil ha mer informasjon.
 6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.    
 7. I **Aktiva finanskladd**-vinduet velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 4 og 5.
 
@@ -44,8 +43,8 @@ Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et 
 2. Tilordne avskrivningstablåer for aktiva til de nye aktivaene. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).
 3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivareklass.kladder**, og velg deretter den relaterte koblingen.
 4. Opprett to reklassifiseringskladdelinjer, én for hvert nye aktiva.
-5. På den første linjen angir du det andre aktivaet i **Nytt aktivanr.**-feltet og 25 i **Reklass.anskaff.kost %**-feltet.
-6. På den andre linjen angir du det tredje aktivaet i **Nytt aktivanr.**-feltet og 40 i **Reklass.anskaff.kost %**-feltet.
+5. På den første linjen kan du angi det andre aktivaet i feltet **Nytt aktivanr.** og 25 i feltet **Reklass.anskaff.kost %**.
+6. På den andre linjen kan du angi det tredje aktivaet i feltet **Nytt aktivanr.** og 40 i feltet **Reklass.anskaff.kost %**.
 7. På begge linjene merker du av for **Reklass.anskaffelseskost** og **Reklass.avskrivning**.   
 8. Velg handlingen **Reklassifiser**.
 
@@ -57,7 +56,7 @@ Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et 
 Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distribuerte aktiva til én avdeling. Hvis du har bokført anskaffelseskostnader og avskrivning for aktivaet som skal flyttes, kombineres disse verdiene i ett aktiva.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktivareklass.kladder**, og velg deretter den relaterte koblingen.
-2. Opprett en reklassifiseringskladd der **Aktivanr.**-feltet inneholder aktivaet som skal flyttes/kombineres, og **Nytt aktivanr.**-feltet inneholder anleggsmidlet som det vil bli kombinert med.
+2. Opprett en reklassifiseringskladd der **Aktivanr.**-feltet inneholder aktivaet som skal flyttes/kombineres, og **Nytt aktivanr.**-feltet inneholder aktivaet som det skal kombineres med.
 3. La **Reklass.anskaff.kost %**-feltet stå tomt for å flytte/kombinere hele anskaffelseskosten.    
 4. Merk av for **Reklass.anskaffelseskost** og **Reklass.avskrivning**.
 5. I fanebladet **Handlinger** velger du **Reklassifiser**.

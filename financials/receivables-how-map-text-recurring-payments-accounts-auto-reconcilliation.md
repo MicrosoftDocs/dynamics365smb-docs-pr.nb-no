@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: deb05c6294edeb892606154b38de2aa406abf6a2
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
@@ -33,7 +32,7 @@ Betalinger som bokføres basert på tekst-til-kontotilordning, utlignes ikke mot
 > [!NOTE]  
 >   Betalinger på avstemmingskladdelinjene settes bare til bokføring i henhold til tekst-til-kontotilordning hvis funksjonen for automatisk utligning bare kan gi samsvarskonfidensen **Lav** eller **Middels**. Hvis funksjonen for automatisk utligning gir konfidensintervallet Høy, utlignes betalingen automatisk mot én eller flere åpne poster, og betalingen bokføres ikke på kontiene som er angitt i vinduet **Tekst-til-konto-tilordning**. Samsvarskonfidensen **Høy** overstyrer med andre ord tekst-til-kontotilordning.
 
-På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring i henhold til tekst-til-kontotilordning, inneholder **Konfidensintervall**-feltet **Høy – tekst-til-kontotilordning**, og **Kontotype**- og **Kontonummer** -feltene inneholder de tilordnede kontiene.
+På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring i henhold til tekst-til-kontotilordning, inneholder **Konfidensintervall**-feltet **Høy – tekst-til-kontotilordning**, og **Kontotype**- og **Kontonummer** de tilordnede kontoene.
 
 ## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsavstemmingskladder**, og velg deretter den relaterte koblingen.
@@ -43,19 +42,19 @@ På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring
 
     > [!NOTE]  
 >   Hvis ingen andre betalinger eller inngående dokumenter finnes med den aktuelle tilordningsteksten, skjer tekst-til-konto-tilordningen selv når bare en del av teksten på betalingen eller det inngående dokumentet finnes som tilordningstekst.
-5. I **Leverandørnr.**-feltet angir du leverandøren som innkommende dokumenter som inneholder den tilordnede teksten, blir opprettet for, eller som betalinger blir bokført til. Hvis du vil ha mer informasjon, kan du se [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).      
-6. I **Debetkontonummer** -feltet angir du kontoen som betalinger som inneholder tilordningsteksten, skal bokføres på hvis de er inngående betalinger. For innkommende betalinger er fortegnet for verdien i **Utdragsbeløp**-feltet positivt.
-7. I **Kreditkontonummer** -feltet angir du kontoen som betalinger som inneholder tilordningsteksten, skal bokføres på hvis de er utgående betalinger. For utgående betalinger er fortegnet for verdien i **Utdragsbeløp**-feltet negativt.
+5. I **Leverandørnr.**-feltet angir du nummeret for leverandøren som innkommende dokumenter som inneholder den tilordnede teksten, blir opprettet for, eller som betalinger blir bokført til. Hvis du vil ha mer informasjon, kan du se [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).      
+6. Angi kontoen som betalinger som inneholder tilordningsteksten, skal bokføres på hvis de er inngående betalinger, i feltet **Debetkontonummer**. For innkommende betalinger er fortegnet for verdien i **Utdragsbeløp**-feltet positivt.
+7. Angi kontoen som betalinger som inneholder tilordningsteksten, skal bokføres på hvis de er utgående betalinger, i feltet **Kreditkontonummer**. For utgående betalinger er fortegnet for verdien i **Utdragsbeløp**-feltet negativt.
 8. Angi om betalingen skal bokføres på en finanskonto eller en kunde- eller leverandørkonto, i feltet **Saldokildetype**.
-9. I **Saldokildenummer** -feltet angir du kontoen som betalingen skal bokføres på, i feltet **Saldokildetype**, avhengig av hva du du valgte i feltet .
+9. I **Saldokildenummer**-feltet angir du kontoen som betalingen skal bokføres på, i feltet Saldokildetype, avhengig av hva du valgte i feltet **Saldokildetype**.
 10. Gjenta trinn 4 til og med 8 for all tekst på betalinger du vil tilordne til kontoer for direkte bokføring uten utligning.
 
-Neste gang du importerer en bankkontoutdragsfil eller velger handlingen **Utlign automatisk** i vinduet **Betalingsavstemmingskladd**, inneholder kladdelinjene for betalinger som inneholder den angitte tilordningsteksten, de tilordnede kontiene i feltene **Kontotype** og **Kontonummer**. -feltene. Feltet **Konfidensintervall** inneholder **Høy – tekst-til-konto-tilordning**. Dette er under forutsetning av at automatiske utligningsfunksjonen bare kan gi samsvarskonfidensen **Lav** eller **Middels**.
+Neste gang du importerer en bankkontoutdragsfil eller velger handlingen **Utlign automatisk** i vinduet **Betalingsavstemmingskladd**, inneholder kladdelinjene for betalinger som inneholder den angitte tilordningsteksten, de tilordnede kontiene i feltene **Kontotype** og **Kontonummer**. Feltet **Konfidensintervall** inneholder **Høy – tekst-til-konto-tilordning**. Dette er under forutsetning av at automatiske utligningsfunksjonen bare kan gi samsvarskonfidensen **Lav** eller **Middels**.
 
 ## <a name="example-text-to-account-mapping-for-fuel-expense"></a>Eksempel: Tekst-til-konto-tilordning for drivstoffutgifter
 Hvis du alltid vil bokføre drivstoffutgifter påløpt ved Shell-bensinstasjoner til finanskontoen for bensin (konto 8510), fyller du ut en linje som følger i vinduet **Tekst-til-konto-tilordning**.
 
-| Tilordningstekst | Debetkonto Nr. | Kreditkonto Nr. | Motkonto Kildetype | Motkonto Kildenr. |
+| Tilordningstekst | Debetkontonummer | Kreditkontonummer | Saldokildetype | Saldokildenummer |
 | --- | --- | --- | --- | --- |
 | Shell |TOM |8510 |Finanskonto |TOM |
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 06/16/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 40db0f3018bcf9575f80aa858bd9febd7bf0846a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-defer-revenues-and-expenses"></a>Periodisere inntekter og utgifter
@@ -26,7 +25,7 @@ Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som
 Hvis du vil fordele inntekter eller utgifter på de aktuelle regnskapsperiodene, konfigurerer du en periodiseringsmal for ressursen, varen eller finanskontoen, som det vil bli bokført inntekt eller utgift for. Når du bokfører det aktuelle salgs- eller kjøpsdokumentet, periodiseres inntekter eller utgifter til de aktuelle regnskapsperiodene i henhold til en tidsplan for periodisering som styres av innstillingene i malen for periodisering og bokføringsdatoen.
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Slik definerer du finanskonti for periodisering
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.
@@ -46,7 +45,7 @@ For begge typer periodisering velger du **Balanse** i **Type**-feltet og gir nav
    * **Lik per periode**: De periodiske periodiseringsbeløpene beregnes etter antall perioder, distribuert jevnt på perioder.
    * **Dager per periode**: De periodiske periodiseringsbeløpene beregnes etter antall dager i perioden.
    * **Brukerdefinert**: De periodiske periodiseringsbeløpene beregnes ikke. Du må manuelt fylle ut **Beløp**-feltet for hver periode i vinduet Tidsplan for periodisering. Hvis du vil ha mer informasjon, kan du se avsnittet Slik endrer du en tidsplan for periodisering fra en salgsfaktura.
-5. I **Periodebeskr.** -feltet angir du en beskrivelse som vises i poster for periodiseringsbokføringen. Du kan angi plassholderkodene nedenfor en for vanlige verdier som skal settes inn automatisk når periodebeskrivelsen vises.
+5. I feltet **Periodebeskr.** angir du en beskrivelse som vises i poster for periodiseringsbokføringen. Du kan angi plassholderkodene nedenfor en for vanlige verdier som skal settes inn automatisk når periodebeskrivelsen vises.
 
    * %1 = Dagnummeret for periodebokføringsdatoen
    * %2 = Ukenummeret for periodebokføringsdatoen
@@ -82,7 +81,7 @@ Eksempel: Bokføringsdatoen er 06.02.2016. Hvis du angir "Utgifter periodisert f
 1. I vinduet **Salgsfaktura** velger du handlingen **Forhåndsvis bokføring**.
 2. I vinduet **Forhåndsvisning av bokføring** velger du **Finanspost**-handlingen og deretter handlingen **Vis relaterte poster**.
 
-Finansposter som skal posteres til den angitte periodiseringskontoen, for eksempel Ikke tjent inntekt, er merket med beskrivelsen du skrev inn i **Periodebeskr.** -feltet i malen for periodisering, for eksempel "Utgifter periodisert for februar 2016".
+Finansposter som skal posteres til den angitte periodiseringskontoen, for eksempel Ikke tjent inntekt, er merket med beskrivelsen du skrev inn i feltet **Periodebeskr.** i malen for periodisering, for eksempel "Utgifter periodisert for februar 2016".
 
 ## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Slik ser du gjennom bokførte periodiseringer i rapporten Periodiseringssammendrag for Salg
 > [!NOTE]  

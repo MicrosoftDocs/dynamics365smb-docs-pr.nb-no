@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: aedd27545da932155d453bf6aa476a4e9f898fc6
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
@@ -30,7 +29,7 @@ Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den **
 ## <a name="to-set-up-email"></a>Konfigurere e-post
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Oppsett for SMTP-e-post**, og angi deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Du kan også velge handlingen **Bruk Office 365-serverinnstillinger** handling for å sette inn informasjon som allerede er definert for Office 365-abonnementet.
+3. Du kan også velge handlingen **Bruk Office 365-serverinnstillinger** for å sette inn informasjon som allerede er definert for Office 365-abonnementet.
 4. Når alle feltene er fylt ut riktig, velger du **Test e-postoppsett**.
 5. Når testen er vellykket, lukker du vinduet.
 

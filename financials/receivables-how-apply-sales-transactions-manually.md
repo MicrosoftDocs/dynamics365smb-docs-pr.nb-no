@@ -1,8 +1,6 @@
 ---
 title: "Utligne kundeposter for å avstemme kundebetalinger manuelt | Microsoft-dokumentasjon"
 description: "Beskriver hvordan du utligner kundeinnbetalinger eller -refusjoner mot én eller flere åpne kundeposter, og avstemmer kundebetalinger."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.date: 03/29/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 568bd66c201764cae45ea12a900ea12eabbf0546
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: ccef6a35b1632bd94f64c5e9ad56ecd3bacbfd06
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-customer-payments-manually"></a>Avstemme kundebetalinger manuelt
@@ -45,13 +43,13 @@ Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betali
 4. Fyll ut feltet **Bokføringsdato**.  
 5. Velg **Betaling** i **Bilagstype**-feltet.
 
-    **Bilagsnr.**- feltet fylles ut av nummerserien som er tilordnet partiet.  
-6. Bruk **Eksterndokumentnr.**- feltet til å lagre en identifikator, for eksempel kundens sjekknummer.
+    **Bilagsnr.**-feltet fylles ut med nummerserien som er tilordnet kjørselen.  
+6. Bruk feltet **Eksterndokumentnr.** til å lagre en identifikator, for eksempel kundens sjekknummer.
 7. Velg **Kunde** i **Kontotype**-feltet.
-8. I **Kontonummer** -feltet velger du den aktuelle finanskontoen.
+8. I feltet **Kontonr.** velger du den aktuelle finanskontoen.
 9. Hvis du vil bokføre utligningen samtidig som du bokfører kladden, gjør du ett av følgende.
 10. I **Motkontotype**-feltet velger du **Finanskonto** for utbetalinger og **Bankkonto** for andre betalinger.
-11. I **Motkontonr.**- -feltet velger du kassekonto for utbetalinger eller relevante bankkonti for andre betalinger.
+11. I **Motkontonr.**-feltet velger du kassekonto for utbetalinger eller relevante bankkonti for andre betalinger.
 12. Bokfør kladden.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Slik utligner du en betaling mot én kundepost
@@ -61,12 +59,12 @@ Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betali
 4. Angi **Betaling** i **Bilagstype**-feltet.
 5. Angi **Kunde** i **Kontotype**-feltet.
 6. Angi **Bankkonto** i **Motkontotype**-feltet.
-7. I **Utligningsbilagsnr.** -feltet velger du feltet for å åpne vinduet **Utlign kundeposter**.
+7. I feltet **Utligningsbilagsnr.** velger du feltet for å åpne vinduet **Utlign kundeposter**.
 8. Velg posten som betalingen skal utlignes mot, i vinduet **Utlign kundeposter**.
 9. I feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.
 
     Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.  
-10. Velg **OK**. Vinduet **Innbetalingskladd** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** -feltene.
+10. Velg **OK**. Vinduet **Innbetalingskladd** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.**
 11. Bokfør innbetalingskladden.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Slik utligner du en utbetaling mot flere kundeposter
@@ -77,8 +75,8 @@ Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betali
 5. Angi **Kunde** i **Kontotype**-feltet.
 6. Angi **Bankkonto** i **Motkontotype**-feltet.
 7. Angi hele betalingen som et negativt beløp i **Beløp**-feltet.
-8. Hvis du vil utligne betalingen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.
-9. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.
+8. Hvis du vil utligne betalingen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.  
+9. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.  
 10. På hver linje i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for hver enkelt post. Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet.
 
     Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.  
@@ -88,11 +86,11 @@ Du kan også utligne kundebetalinger og leverandørbetalinger i vinduet **Betali
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Slik utligner du en kreditnota mot én kundepost
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle salgskreditnotaen.
-3. Hvis du vil utligne kreditnotaen til én kundepost når du bokfører i feltet **Utligningsbilagsnr.**, velger du posten du vil utligne betalingen mot.
+3. Hvis du vil utligne kreditnotaen mot én enkelt kundepost når du bokfører, velger du posten som du vil utligne betalingen mot, i feltet **Utligningsbilagsnr.**.
 4. På linjen i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.  
 
     Hvis du ikke registrerer et beløp, utlignes maksimumsbeløpet automatisk. Nederst i vinduet **Utlign kundeposter** kan du se det spesifikke beløpet i feltet **Utlignet beløp**, og også om utligningen går i balanse.    
-5. Velg **OK**. Vinduet **Salgskreditnota** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** -feltene. Og beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
+5. Velg **OK**. Vinduet **Salgskreditnota** viser nå posten du har valgt, registrert i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.** Og beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
 6. Bokfør kreditnotaen.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Slik utligner du en kreditnota mot flere kundeposter

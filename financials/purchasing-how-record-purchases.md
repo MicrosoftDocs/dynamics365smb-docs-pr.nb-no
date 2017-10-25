@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 03/29/2017
+ms.date: 08/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 60906dde627216903b5ef82e34ce4bc918f3c988
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 5bd635465626c192d8650cbd2a999dd0fbceb15e
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-record-purchases"></a>Registrere kjøp
@@ -35,7 +34,7 @@ Du kan enkelt korrigere eller annullere en bokført kjøpsfaktura før du betale
 Varer kan være av typen **Lager** eller **Tjeneste**. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md). Kjøpsfakturaprosessen er den samme for begge varetyper.
 
 > [!NOTE]  
->   Bestilling-funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Bestilling-funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om leverandøren allerede er registrert.
 
@@ -58,7 +57,7 @@ Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om lev
 
     > [!NOTE]  
 >   Hvis du har definert gjentakende bestillingslinjer for leverandøren, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på fakturaen ved å velge handlingen **Hent gjentakende bestillingslinjer**.
-10. I hurtigfanen **Linjer**, i **Varenr.** -feltet, angir du nummeret for en lagervare eller service.
+10. Angi nummeret på en vare eller tjeneste i **Varenr.**-feltet i hurtigfanen **Linjer**.
 11. I feltet **Antall** angir du hvor mange varer som skal kjøpes.
 
     > [!NOTE]  
@@ -78,6 +77,7 @@ Kjøpet gjenspeiles nå i lager- og økonomiposter, og leverandørbetalingen akt
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Definere kjøp](purchasing-setup-purchasing.md)  
+[Be om tilbud](purchasing-how-request-quotes.md)  
 [Kjøpe varer for salg](purchasing-how-purchase-products-sale.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Klargjøre direkte leveringer](sales-how-drop-shipment.md)  

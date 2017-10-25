@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 06/02/2017
 ms.author: jswymer
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
@@ -33,7 +32,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Sammenligne råbalansen med et budsjett. |Råbalanse/Budsjett |
 | Skrive ut en råbalanserapport med saldi og bevegelser for finanskonti, beregnet for en rekke perioder. |Råbalanse etter periode |
 | Skrive ut et kontoskjema for å analysere tall på finanskonti eller sammenligne faktiske finansposter med finansbudsjettposter. |Kontoskjema |
-| Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde- og levrd. konti |
+| Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde- og levrd.konti |
 
 Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 

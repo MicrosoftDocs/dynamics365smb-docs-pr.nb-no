@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Vise listedata i Power BI-rapporter i Dynamics 365 for Financials
@@ -64,7 +63,7 @@ Denne delen inneholder en løsning for de vanligste problemene som kan oppstå n
 
 **Brukeren ser ikke en rapport på siden Velg rapport de vil velge** Hvis du ikke kan velge en rapport, en mulig løsning er å bekrefte navnet på rapporten for å sikre at den inneholder navnet på siden. Du kan fjerne filteret for å få en fullstendig liste over rapporter som er tilgjengelige i Power BI.  
 
-**Rapporten er lastet inn, men tom, ikke filtrert eller filtrert feil** Kontroller at rapportfilteret inneholder den høyre primærnøkkelen. I de fleste tilfeller er det **Nr.**- feltet, men i den **Finanspost**-tabell, for eksempel, må du bruke **Løpenr.**- feltet.
+**Rapporten er lastet inn, men tom, ikke filtrert eller filtrert feil** Kontroller at rapportfilteret inneholder den høyre primærnøkkelen. I de fleste tilfeller er det **Nr.**- feltet, men i **Finanspost**-tabellen, for eksempel, må du bruke **Løpenr.**-feltet.
 
 **Rapporten er lastet inn, men det viser siden du ikke har forventet** Kontroller at siden du vil vise er den første siden i rapporten.  
 

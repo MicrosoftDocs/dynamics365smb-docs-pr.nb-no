@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 977debf7386ad1113ef54147b20fd24c7c285a78
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 990867cb428f860b1001177738d1a027f72485bc
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-make-drop-shipments"></a>Foreta direkte leveringer
@@ -32,7 +31,7 @@ Hvis du vil klargjøre en direkte levering, kan du opprette en ordre for en vare
 2. På ordrelinjen for direkte levering, merker du av for **Direkte levering**. Bruk funksjonen **Velg kolonner** hvis feltet ikke er synlig. Hvis du vil ha mer informasjon, kan du se [Brukertilpasning](ui-user-personalization.md).
 
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Slik oppretter du bestillingen med direkte levering:
 Hvis du vil klargjøre en direkte levering for varen som skal selges, oppretter du en bestilling som vanlig, bortsett fra at du må angi på bestillingen at den må leveres til kunden, ikke til deg selv.
@@ -60,6 +59,7 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
 
 ## <a name="see-also"></a>Se også
+[Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|  
 [Selge produkter](sales-how-sell-products.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Salg](sales-manage-sales.md)  

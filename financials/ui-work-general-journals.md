@@ -11,23 +11,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 85d15de13739e944ff8817b402b37ae1c7e1b144
-ms.openlocfilehash: fb1c3a7f209113f75d8cddc58985eb6a3f21e8ed
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 De fleste finanstransaksjoner bokføres i Finans via dedikerte forretningsdokumenter, for eksempel kjøpsfakturaer eller ordrer. Når det gjelder forretningsaktiviteter som ikke representeres av et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel mindre utgifter eller innbetalinger, kan du opprette de relaterte transaksjonene ved å bokføre kladdelinjer i **Finanskladd**-vinduet. Hvis du vil ha mer informasjon, kan du se [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md).
 
-Du bruker finanskladder til å bokføre finanstransaksjoner direkte på finanskonti og andre konti, for eksempel bank-, kunde- og leverandørkonti. Bokføring med en finanskladd oppretter alltid poster på finanskonti. Dette gjelder selv om en kladdelinje for eksempel bokføres på en kundekonto, ettersom en post bokføres til en finanssamlekonto via en bokføringsgruppe.
+Du kan for eksempel bokføre ansattes utlegg for firmarelaterte utgifter for senere refusjon. Hvis du vil ha mer informasjon, se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
-Opplysningene du angir i en kladd, er midlertidige og kan endres mens de fortsatt befinner seg i kladden. Når du bokfører kladden, overføres opplysningene til poster i individuelle konti, der de ikke kan endres. Du kan imidlertid oppheve utligningen av bokførte poster, og du kan bokføre tilbakeførings- eller korrigeringsposter. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer](finance-how-reverse-journal-posting.md).
+Du bruker finanskladder til å bokføre finanstransaksjoner direkte på finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og ansattkonti. Bokføring med en finanskladd oppretter alltid poster på finanskonti. Dette gjelder selv om en kladdelinje for eksempel bokføres på en kundekonto, ettersom en post bokføres til en finanssamlekonto via en bokføringsgruppe.
+
+Opplysningene du angir i en kladd, er midlertidige og kan endres mens de fortsatt befinner seg i kladden. Når du bokfører kladden, overføres opplysningene til poster i individuelle konti, der de ikke kan endres. Du kan imidlertid oppheve utligningen av bokførte poster, og du kan bokføre tilbakeførings- eller korrigeringsposter. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md).
 
 ## <a name="using-journal-templates-and-batches"></a>Bruke kladder og kladdemaler
-Det finnes flere finanskladdemaler. Hver kladdemal er representert av et eget vindu med bestemte funksjoner og feltene som er nødvendige for å støtte disse funksjonene, for eksempel vinduet **Betalingsavstemmingskladd** for å behandle betalinger og **Betalingskladd** for å betale leverandører. Hvis du vil ha mer informasjon, kan du se [Foreta betalinger](payables-make-payments.md) og [Avstemme kundebetalinger manuelt](receivables-how-apply-sales-transactions-manually.md).
+Det finnes flere finanskladdemaler. Hver kladdemal er representert av et eget vindu med bestemte funksjoner og feltene som er nødvendige for å støtte disse funksjonene, for eksempel vinduet **Betalingsavstemmingskladd** for å behandle betalinger og **Betalingskladd** for å betale leverandører eller gi ansatte refusjon. Hvis du vil ha mer informasjon, kan du se [Foreta betalinger](payables-make-payments.md) og [Avstemme kundebetalinger manuelt](receivables-how-apply-sales-transactions-manually.md).
 
 Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladdemal. Du kan for eksempel definere din egen kladd for betalingskladden som har personlig oppsett og innstillinger. Tipset nedenfor er et eksempel på hvordan du kan tilpasse en kladd.
 
@@ -35,7 +36,7 @@ Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladde
 > Hvis du merker av for **Foreslå motkontobeløp** på linjen for den kladden i vinduet **Finanskladder**, vil deretter for eksempel **Beløp**-feltet på finanskladdelinjer for samme dokumentnummer, automatisk forhåndsutfylles med verdien som kreves for balansere dokumentet. Hvis du vil ha mer informasjon, kan du se [La [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå verdier](ui-let-system-suggest-values.md).
 
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Forstå hovedkonti og motkonti
-Hvis du har definert standard motkonti for kladdene, vil motkontoen bli fylt ut automatisk når du fyller ut **Kontonr.**-fetet. . Hvis ikke, fyller du ut **Kontonr.** -feltet og **Motkontonr.** -feltet manuelt. Et positivt beløp i **Beløp**-feltet debiteres hovedkontoen og krediteres motkontoen. Et negativt beløp krediteres hovedkontoen og debiteres motkontoen.
+Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **Finanskladder** bli fylt ut automatisk når du fyller ut **Kontonr.**-feltet. Hvis ikke, fyller du ut feltene **Kontonr.** og **Motkontonr.** manuelt. Et positivt beløp i **Beløp**-feltet debiteres hovedkontoen og krediteres motkontoen. Et negativt beløp krediteres hovedkontoen og debiteres motkontoen.
 
 > [!NOTE]  
 >   Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
@@ -89,25 +90,24 @@ Når du har lagret standardvarekladden, vises Varekladd-vinduet slik at du kan f
 ## <a name="to-renumber-document-numbers-in-journals"></a>Nummerere bilagsnumre i kladder på nytt
 Hvis du vil sikre at det ikke oppstår posteringsfeil på grunn av rekkefølgen på bilagsnumrene, kan du bruke funksjonen **Nummerere bilagsnumre på nytt** før du bokfører en kladd.
 
-I alle journalene som er basert på den finanskladden, kan **Bilagsnr.** -feltet redigeres, slik at du kan angi forskjellige bilagsnumre for ulike kladdelinjer eller det samme bilagsnummeret for tilknyttede kladdelinjer.
+I alle kladdene som er basert på finanskladden, kan feltet **Bilagsnr.** redigeres, slik at du kan angi forskjellige bilagsnumre for ulike kladdelinjer eller det samme bilagsnummeret for relaterte kladdelinjer.
 
 Hvis feltet **Nummerserie** i den satsvise jobben for kladden er fylt ut, vil deretter posteringsfunksjonen i finanskladder kreve at bilagsnummeret på individuelle eller grupperte kladdelinjene er i sekvensiell rekkefølge. Hvis du vil sikre at det ikke oppstår posteringsfeil på grunn av rekkefølgen på bilagsnumrene, kan du bruke funksjonen **Nummerere bilagsnumre på nytt** før du bokfører kladden. Hvis relaterte linjer ble gruppert etter bilagsnummer før du brukte funksjonen, forblir de gruppert, men kan tilordnes til et annet bilagsnummer.
 
 Denne funksjonen fungerer også for filtrerte visninger.
 
-Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for eksempel en betalingsutligning som er utført fra dokumentet på kladdelinjen til en leverandørkonto. Derfor kan det hende at feltene **Utlignings-ID** og **Utligningsbilagsnr.** i de berørte postene må oppdateres.
+Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for eksempel en betalingsutligning som er utført fra dokumentet på kladdelinjen til en leverandørkonto. Dette betyr at feltet **Utlignings-ID** og **Utligningsbilagsnr.** i de berørte postene kan oppdateres.
 
 Følgende fremgangsmåte er basert på vinduet **Finanskladd**, men gjelder for alle andre kladder som er basert på finanskladden, for eksempel vinduet **Utbetalingskladd**.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Når du er klar til å bokføre kladden, velger du handlingen **Nummerer dokumentnumre på nytt**.
 
-Verdier i **Eksterndokumentnr.** -feltet endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du fortsette å bokføre kladden.
-
+Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du fortsette å bokføre kladden.
 
 ## <a name="see-also"></a>Se også
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
-[Tilbakeføre kladdebokføringer](finance-how-reverse-journal-posting.md)  
+[Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md)  
 [Fordele kostnader og inntekter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

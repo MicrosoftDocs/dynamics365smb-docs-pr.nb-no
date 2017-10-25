@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 06/06/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 3e85168709eb8e96b2ee2aea516189c2cf88d426
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-time-sheets"></a>Definere timelister
@@ -44,7 +43,7 @@ Når du har definert timelister, kan du opprette timelister for ressurser, tilor
 ## <a name="to-assign-a-time-sheet-administrator"></a>Slik tilordner du en timelisteadministrator
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.  
 2. Legg til en ny bruker hvis brukerlisten ikke inkluderer personen som du vil skal være ansvarlig for timelisteregistrering. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).
-3. Velg en bruker som administrator for en timeliste, og merk deretter av for **Administrator for timeliste** .  
+3. Velg en bruker som administrator for en timeliste, og merk deretter av for **Administrator for timeliste**  
 
 > [!TIP]  
 >   Det anbefales at du velger bare én bruker som administrator for timelisten i et selskap. I den følgende fremgangsmåten setter du opp en timelisteeier og -godkjenner, der godkjenneren av timelisten er tilordnet for hver ressurs.  

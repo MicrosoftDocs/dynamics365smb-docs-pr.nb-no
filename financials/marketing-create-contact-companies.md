@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bbde977ff87049625295fab798445539b23f23dc
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="creating-contact-companies"></a>Opprette kontaktselskaper
@@ -27,9 +26,9 @@ Ved å tilordne så mye data som mulig om en bestemt bedrift sørger du for effe
 
 Du kan også definere forretningsforholdet du har med en kontakt. En kontakt kan for eksempel være et prospekt, en bank eller en leverandør.
 
-Tabellen nedenfor beskriver en oppgavesekvens med koblinger til emnene de beskrives i. Disse oppgavene vises i rekkefølgen de vanligvis utføres i.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Definer en kontakt for et nytt selskap, enten fra grunnen av eller fra en kunde, leverandør eller bankkonto. |[Opprette kontaktselskaper](marketing-how-create-contact-companies.md) |
 | Synkroniser informasjon i kontakter med felles informasjon i kunder, leverandører og bankkonti. |[Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |

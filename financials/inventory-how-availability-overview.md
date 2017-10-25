@@ -1,6 +1,6 @@
 ---
 title: "Få en oversikt over tilgjengelighet | Microsoft-dokumentasjon"
-description: "Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser, etter en tidsperiode eller etter varens posisjon i en monteringsstykkliste."
+description: "Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser, etter en tidsperiode eller etter varens posisjon i en monterings- eller produksjonsstykkliste."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
@@ -9,14 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 06/02/2017
+ms.date: 08/15/2017
 ms.author: SorenGP
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 83af1b6b3a234f67ccc26ee9bba7f5e3e6ff6d77
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
@@ -78,10 +77,10 @@ Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner i vind
     Vinduet **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.
 3. Velg verdien i feltet **Disponibel beholdning** for å vise vareposter som utgjør verdien.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-boms"></a>Vise tilgjengeligheten til en vare etter bruk i monteringsstykklister
-Hvis det finnes en vare i monteringsstykklister, enten som en overordnet vare eller som en komponent, kan du se hvor mange enheter av varen som er påkrevd i vinduet **Varetilgjengelighet per stykklistenivå**. Vinduet viser hvor mange enheter av en overordnet vare du kan lage basert på tilgjengeligheten av underordnede varer på underliggende linjer. Varene som har en monteringsstykkliste, vises i vinduet som en linje som kan skjules. Du kan utvide denne linjen for å se de underliggende komponentene og delmonteringer på lavere nivå med sine egne stykklister.
+## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Vise tilgjengeligheten til en vare etter bruk i monterings- eller produksjonsstykklister
+Hvis det finnes en vare i monterings- eller produksjonsstykklister, enten som en overordnet vare eller som en komponent, kan du se hvor mange enheter av varen som er påkrevd i vinduet **Varetilgjengelighet per stykklistenivå**. Vinduet viser hvor mange enheter av en overordnet vare du kan lage basert på tilgjengeligheten av underordnede varer på underliggende linjer. Varene som har en monterings- eller produksjonsstykkliste, vises i vinduet som en linje som kan skjules. Du kan utvide denne linjen for å se de underliggende komponentene og delmonteringer på lavere nivå med sine egne stykklister.
 
-Du kan bruke vinduet for å finne ut om du kan oppfylle en ordre for en vare på en angitt dato. Du gjør dette ved å se på varens gjeldende tilgjengelighet og antallene som kan leveres av varens komponenter. Du kan også bruke vinduet til å identifisere flaskehalser i relaterte monteringsstykklister.
+Du kan bruke vinduet for å finne ut om du kan oppfylle en ordre for en vare på en angitt dato. Du gjør dette ved å se på varens gjeldende tilgjengelighet og antallene som kan leveres av varens komponenter. Du kan også bruke vinduet til å identifisere flaskehalser i relaterte stykklister.
 
 På hver linje i vinduet for både overordnede og underordnede varer angir følgende nøkkelfelt tilgjengelighetstall. Du kan bruke disse tallene for å bekrefte hvor mange enheter av en overordnet vare du kan levere hvis du starter den relaterte monteringsprosessen.
 
@@ -90,6 +89,7 @@ På hver linje i vinduet for både overordnede og underordnede varer angir følg
 |**Kan lage overordnet**|Viser hvor mange enheter av en hvilken som helst delmontering i toppvaren du kan lage. Feltet angir hvor mange umiddelbare overordnede enheter du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 |**Kan lage toppvare**|Viser hvor mange enheter av toppvaren du kan lage. Feltet angir hvor mange enheter av stykklistevaren på øverste linje som du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 
+### <a name="item-availability-by-bom-level-window"></a>Vinduet Varetilgjengelighet per stykklistenivå
 Vinduet **Varetilgjengelighet per stykklistenivå** viser informasjon for varen på kortet eller dokumentlinjen som vinduet er åpnet for. Varen vises alltid på øverste linje. Du kan vise informasjon for andre varer eller for alle varer ved å endre verdien i feltet **Varefilter**.
 
 > [!NOTE]  
@@ -97,13 +97,28 @@ Vinduet **Varetilgjengelighet per stykklistenivå** viser informasjon for varen 
 
 Feltet **Flaskehals** angir hvilken vare i stykklistestrukturen som hindrer deg i å opprette et større antall enn antallet som vises i feltet **Kan lage toppvare**. Flaskehalsen kan for eksempel være en innkjøpt komponent med forventet mottaksdato som er for sen til å lage ekstra enheter av toppvaren etter datoen i feltet **Trengs innen dato**.
 
+## <a name="assembly-availability-window"></a>Vinduet Montering – tilgjengelighet
+Vinduet **Montering – tilgjengelighet** viser detaljerte tilgjengelighetsinformasjon for monteringsvaren. Det åpnes:
+
+- Automatisk fra en ordrelinje i monter til ordre-scenarier når du angir et antall som forårsaker et problem med komponenttilgjengelighet.
+- Automatisk fra et monteringsordrehode når du angir en verdi i Antall-feltet som forårsaker et problem med komponenttilgjengelighet.
+- Manuelt når du åpner den fra en monteringsordre. I fanebladet Handlinger, under Funksjoner klikker du Vis tilgjengelighet.
+
+Hurtigfanen **Detaljer** viser detaljert tilgjengelighetsinformasjon for monteringsvaren, inkludert hvor mange av antallet i monteringsordren som kan monteres innen forfallsdato basert på tilgjengeligheten av de nødvendige komponentene. Dette vises i feltet Kan montere på hurtigfanen Detaljer.
+
+Verdien i **Kan montere**-feltet vises i rød skrift hvis antallet er lavere enn antallet i **Restantall**-feltet, noe som angir at det ikke er nok komponenter til å montere hele antallet.
+
+Hurtigfanen **Linjer** viser detaljert informasjon om tilgjengelighet for monteringskomponentene.
+
+Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles dette i **Kan montere**-feltet på den aktuelle linjen som et lavere antall enn antallet i **Restantall**-feltet på hurtigfanen **Detaljer**.
+
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  
+[Monteringsstyring](assembly-assemble-items.md)  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)    
 [Definere lokasjoner](inventory-how-setup-locations.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  
 [Selge produkter](sales-how-sell-products.md)      
-[Forsyningskjede](madeira-supply-chain.md)  
 [Arbeide med Financials](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ed0a6848f07999246566ad740e02abfc561ae130
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
@@ -49,8 +48,11 @@ Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoe
 > [!IMPORTANT]  
 >   Arbeidsdatoen endres bare til du lukker selskapet eller til datoen endres. Hvis du åpner et annet selskap eller åpner det samme selskapet dagen etter og fortsatt må bruke en annen arbeidsdato, må du angi arbeidsdatoen på nytt.
 
-## <a name="confirmation-dialogs"></a>Bekreftelsesdialoger
-Bruk alternativene i denne delen hvis du vil angi noen tilleggskontroller for postering av dokumenter. Disse alternativene er merket som standard, men du kan fjerne merket i avmerkingsboksene for å unngå visning av bestemte advarsler eller meldinger.
+## <a name="region"></a>Region
+**Region**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.   
+
+## <a name="change-when-i-receive-notifications"></a>Endre når jeg mottar varsler
+Velg denne koblingen for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Smarte varsler](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -11,12 +11,11 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Opprette nummerserier
@@ -27,7 +26,7 @@ For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til 
 
 Et nummereringssystem lager du ved å opprette én eller flere koder for hver hoveddatatype eller dokumenttype. Du kan for eksempel opprette én kode for å nummerere kunder, en annen kode for å nummerere salgsfakturaer, og enda en kode for å nummerere dokumenter i finanskladder. Når du har opprettet en kode, må du opprette minst én nummerserielinje. Nummerserielinjen inneholder informasjon som for eksempel første og siste nummer i serien, samt startdato. Du kan opprettet mer enn én nummerserielinje per nummerseriekode, med ulik startdato for hver linje. Seriene brukes i rekkefølge, og hver serie starter på sin respektive startdato.
 
-Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i rekken på nye kort eller dokumenter du oppretter. Men kan du også definere en nummerserie som tillater at du angir det nye nummeret manuelt. Du angir dette med avmerkingsboksen **Manuelle nr.** .
+Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i rekken på nye kort eller dokumenter du oppretter. Men kan du også definere en nummerserie som tillater at du angir det nye nummeret manuelt. Du angir dette med avmerkingsboksen **Manuelle nr.**
 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
@@ -36,7 +35,7 @@ Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil s
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-**Tips**: Hvis du vil tillate manuell angivelse av et nummer på nytt kort eller dokumenter, fjerner du merket for en **Standardnr.** og merker av for  **Manuelle nr.** .
+**Tips!** Hvis du vil tillate manuell registrering av et nummer på nye kort eller dokumenter, fjerner du merket for **Standardnr.** og merker av for **Manuelle nr.**.
 
 Nå når du oppretter et nytt kort eller et dokument som er konfigurert til å bruke den aktuelle nummerserien, kan du manuelt fylle ut feltet **Nr.** med enhver verdi.  
 

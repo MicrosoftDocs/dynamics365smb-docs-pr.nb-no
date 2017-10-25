@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 9c4c3b743d705913eaacbfd4b0e2df854f777c1c
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 445172287ae09032ff53e02d0e64dc967456a7bb
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
@@ -40,8 +39,10 @@ Det finnes to typer rapportoppsett som du kan bruke i rapporter: Word og RDLC.
 ## <a name="word-report-layout-overview"></a>Oversikt over rapportoppsett for Word
 Et Word-rapportoppsett er basert på et Word-dokument (DOCX-filtypen). Rapportoppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word 2013 eller nyere. Et rapportoppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-rapportoppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
 
+ ![Eksempel på et rapportoppsettsdokument i Word for NAV](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+
 ## <a name="rdlc-layout-overview"></a>Oversikt over RDLC-oppsett
-RDLC-oppsett er basert på oppsett for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder. Konseptet for utforming for RDLC ligner på Word-oppsett, der oppsettet definerer det generelle formatet for rapporten og bestemmer feltene fra datasettet som skal inkluderes. Å utforme RDLC-oppsett er en mer avansert oppgave enn å utforme Word-oppsett.
+RDLC-oppsett er basert på oppsett for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder. Konseptet for utforming for RDLC ligner på Word-oppsett, der oppsettet definerer det generelle formatet for rapporten og bestemmer feltene fra datasettet som skal inkluderes. Å utforme RDLC-oppsett er en mer avansert oppgave enn å utforme Word-oppsett. Hvis du vil ha mer informasjon, kan du se [Utforme RDLC-rapportoppsett](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Innebygde og egendefinerte rapportoppsett
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder flere innebygde oppsett. Innebygde oppsett er forhåndsdefinerte oppsett som er utformet for bestemte rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter har en innebygget utforming som et RDLC-rapportoppsett, Word-rapportoppsett, eller i noen tilfeller begge. Du kan ikke endre innebygde rapportoppsett fra [!INCLUDE[d365fin](includes/d365fin_md.md)], men du bruker dem som et utgangspunkt for å lage egendefinerte rapportoppsett.
@@ -55,10 +56,13 @@ Generelle utformingskonsepter for Word og RDLC oppsett er svært like. Hver type
 
 Prosessen for å definere Word-rapportoppsett og RDLC-rapportoppsett i rapporter er den samme. Den viktigste forskjellen er måten du endrer oppsett på. Word-rapportoppsettene er vanligvis enklere å opprette og endre enn RDLC-rapportoppsett, fordi du kan bruke Word. RDLC-rapportoppsett endres ved hjelp av SQL Server Report Builder, der målgruppen er mer erfarne brukere.
 
-Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, kan du se [Endre gjeldende oppsett som skal brukes i en rapport](ui-how-change-layout-currently-used-report.md)
+Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, kan du se [Endre gjeldende oppsett som skal brukes i en rapport](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Se også
+[Oppdatere rapport- og dokumentoppsett](ui-update-report-layouts.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opprette en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-create-custom-report-layout.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)
+[Lage og endre en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-create-custom-report-layout.md)  
+[Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
+[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Arbeide med rapporter](ui-work-report.md)  
 

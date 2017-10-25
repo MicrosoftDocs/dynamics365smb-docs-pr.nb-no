@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 06/02/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 920df314dc8b671d4e2d99d8449ee02a74cb9078
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -26,12 +26,12 @@ Lagerøkning og -reduksjon registreres også når du bokfører henholdsvis salgs
 
 Hvis du vil ha bedre oversikt over varene og hjelp til å finne dem, kan du kategorisere varene og gi dem attributter til å søke og sortere etter.
 
-Du må sørge for at kostnadene for varene videresendes til den relaterte utgående mva-transaksjonen, spesielt i situasjoner der du selger varer før du fakturerer kjøp av disse varene. Dette kalles kostjustering, som du kan utføre manuelt eller definere at skal skje automatisk når du bokfører en varetransaksjon.
+> []!MERK] Den fysiske håndteringen av varer kalles lageraktiviteter. Hvis du vil ha mer informasjon, se [Lagerstyring](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Lageravstemming
-Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
+Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans. Hvis du vil ha mer informasjon, kan du se [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se Justere varekost.
+Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
 |Til |Se |
 |---|----|
@@ -41,16 +41,18 @@ Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å
 |Tilordne vareattributter av ulike verdityper til varene, for å gjøre det enklere for deg å sortere og finne varer.|[Arbeide med vareattributter](inventory-how-work-item-attributes.md)|
 |Opprett spesielle varekort for varer som du tilbyr til kunder, men som du ikke har på lager.|[Arbeide med katalogvarer](inventory-how-work-nonstock-items.md)|
 |Du kan utføre fysisk telling, foreta negative eller positive justeringer og endre informasjon, for eksempel lokasjons- eller partinummer, i vareposter.|[Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md)|
-|Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monteringsstykklister.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|
+|Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monterings- eller produksjonsstykklister.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|
 |Overføre varer mellom lokasjoner med overføringsordrer for å administrere lageraktiviteter, eller med varereklassifiseringskladden.|[Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)|
-|Skriv opp eller skriv ned verdien av én eller flere varer på lager ved postering av den gjeldende, beregnede verdien.|[Revaluere beholdning](inventory-how-revalue-inventory.md)|
-|Juster varekost, enten automatisk eller manuelt, for å til videreføre kostnadsendringer fra inngående poster til relaterte utgående poster.|[Justere varekost](inventory-how-adjust-item-costs.md)|
+|Reserver lagervarer eller inngående varer for ordrer, bestillinger, serviceordrer, monteringsordrer eller produksjonsordrer.|[Reservere varer](inventory-how-to-reserve-items.md)|
+|Tilordne serie- eller partinumre til en utgående eller inngående bilags- eller kladdelinje, for eksempel for å spore varer i tilfelle tilbakekallinger.|[Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)|
+|Finn ut hvor eventuelle serie- eller partinummer ble brukt i dets forsyningskjede, for eksempel i tilbakekallingssituasjoner.|[Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)|
+|Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 
 ## <a name="see-also"></a>Se også  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
-[Forsyningskjede](madeira-supply-chain.md)  
 [Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 769eb1b41f65c8b6832f7cde7e536e8c3981289e
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 5c0ac5aca0ac5000dbcf74ec6d3a273cfe95270f
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-change-the-role-center"></a>Endre rollesenteret
@@ -29,7 +28,6 @@ Innholdet på Hjem-siden er basert på det valgte rollesenteret. Standard rolles
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter"), og velg deretter **Mine innstillinger**.
 2. I vinduet **Mine innstillinger**, i feltet **Rollesenter**, velger du rollesenteret som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**.
-4. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft.
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

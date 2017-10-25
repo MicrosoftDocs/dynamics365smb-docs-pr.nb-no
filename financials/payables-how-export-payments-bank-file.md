@@ -10,18 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/06/2017
+ms.date: 06/28/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bb79c8df5b353239802f63fc3c268c83b6eb7859
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
-Når du er klar til å utføre betalinger til leverandører ved hjelp av vinduet **Betalingskladd**, kan du eksportere en fil med betalingsinformasjonen for kladdelinjene. Du kan deretter laste opp filen til nettbanken for å behandle de relaterte pengeoverføringene.
+Når du er klar til å utføre betalinger til leverandører eller refusjoner til de ansatte, kan du eksportere en fil med betalingsinformasjonen for linjene i vinduet **Betalingskladd**. Du kan deretter laste opp filen til banken for å behandle de relaterte pengeoverføringene.
 
 I den generelle versjonen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I Nord-Amerika versjoner, den samme tjenesten som kan brukes til å sende betalinger som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i den "for eksport av betalinger til en bankfil".    
 
@@ -35,10 +34,8 @@ Du bruker vinduet **Kredittoverføringsregistre** til å vise betalingsfilene so
 2. Fyll ut utbetalingskladdelinjer, for eksempel ved hjelp av funksjonen **Betalingsforslag - leverandør**. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md).
 3. Fyll ut feltene på betalingskladdelinjene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
->   Hvis du bruker EFT, må du velge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**.
-
-    Andre fileksporttjenester og formater krever ulike oppsettsverdier i vinduet **Bankkort** og **Leverandørs bankkort**. Du blir informert om feil eller manglende oppsettsverdier når du prøver å eksportere filen.
+> [!NOTE]  
+>   Hvis du bruker EFT, må du velge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**. Andre fileksporttjenester og formater krever ulike oppsettsverdier i vinduet **Bankkort** og **Leverandørs bankkort**. Du blir informert om feil eller manglende oppsettsverdier når du prøver å eksportere filen.
 
 4. Når du har fullført alle betalingskladdlinjene, velger du **Eksporter**.
 5. I vinduet **Eksporter elektroniske betalinger** fyller du ut feltene etter behov.
@@ -46,7 +43,7 @@ Du bruker vinduet **Kredittoverføringsregistre** til å vise betalingsfilene so
     Eventuelle feilmeldinger vises i faktaboksen **Feil i betalingsfil**, der du også kan velge en feilmelding hvis du vil ha mer informasjon. Du må løse alle feil før betalingsfilen kan eksporteres.
 
     > [!TIP]  
->   Når du bruker konverteringstjenesten for bankdata, kan du få en vanlig feilmelding om at bankkontonummeret ikke har lengden som banken krever. Hvis du vil unngå eller løse feilen, må du fjerne verdien i **IBAN**-feltet i vinduet **Bankkort**, og i **Bankkontonr.** -feltet angir du deretter et bankkontonummer i formatet som banken krever.
+>   Når du bruker konverteringstjenesten for bankdata, kan du få en vanlig feilmelding om at bankkontonummeret ikke har lengden som banken krever. Du kan unngå eller løse feilen ved å fjerne verdien i **IBAN**-feltet i vinduet **Bankkort** og deretter angi et bankkontonummer i formatet som banken krever, i feltet **Bankkontonr.**
 
 6. I vinduet **Lagre som** angir du plasseringen som filen som blir eksportert til, og deretter velger du **Lagre**.
 
@@ -94,3 +91,4 @@ Du kan eksportere betalingsfiler på nytt fra vinduet **Kredittoverføringsregis
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+

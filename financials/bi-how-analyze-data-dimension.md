@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 463dcad5d918e9655cd92991403d00a76aca7d69
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
@@ -25,8 +24,11 @@ I finansanalyse er en dimensjon data du kan legge til i en post som et slags mer
 
 Analyse av data etter dimensjoner gir deg større innsikt i forretningsdriften, slik at du kan evaluere informasjon om hvor godt ting fungerer, hva som er bra og hva som er dårlig, og hvor det er behov for flere ressurser.
 
+> [!TIP]
+> Som en rask måte å analysere transaksjonsdata etter dimensjoner, kan du filtrere totalene i kontoplanen og postene i alle **Poster**-vinder per dimensjon. Se etter handlingen **Angi dimensjonsfilter**.
+
 > [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Løsning**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="to-set-up-an-analysis-view"></a>Slik setter du opp en analysevisning  
 En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan lagre og hente fram hver analyse du har opprettet. Informasjonen som brukes til å definere en analyse, er lagret på et **Analysevisning**-kort for å forenkle fremtidige analyser.  
@@ -78,5 +80,6 @@ Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra vin
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
+[Arbeide med dimensjoner](finance-dimensions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

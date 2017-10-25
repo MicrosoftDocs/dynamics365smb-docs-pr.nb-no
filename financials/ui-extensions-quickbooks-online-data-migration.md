@@ -12,12 +12,11 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 
@@ -35,7 +34,7 @@ Du kan importere følgende data fra QuickBooks Online til [!INCLUDE[d365fin](inc
 * Beholdningsantall for lagervarer
 * Åpne dokumenter for kunder og leverandører, for eksempel fakturaer, kreditnotaer og betalinger
 
-Vi overfører bare hele beløp på salgs- og kjøpsdokumenter. Vi oppdaterer ikke delvis betalte beløp. Hvis en kunde for eksempel har betalt 3 000 av totalt 5 000 kroner på en salgsfaktura, overfører vi hele beløpet på 5 000. Hvis du har mottatt delbetalinger, må du oppdatere disse manuelt før eller etter at du har overført data. Vi anbefaler at du utligner utestående transaksjoner før du overfører, bare for å gjøre ting enklere senere.
+Vi overfører bare hele beløp på salgs- og kjøpsdokumenter. Vi oppdaterer ikke delvis betalte beløp. Hvis en kunde for eksempel har betalt 300 av totalt 500 kroner på en salgsfaktura, overfører vi hele beløpet på 500. Hvis du har mottatt delbetalinger, må du oppdatere disse manuelt før eller etter at du har overført data. Vi anbefaler at du utligner utestående transaksjoner før du overfører, bare for å gjøre ting enklere senere.
 
 > [!NOTE]  
 >   Vi overfører ikke bestillinger eller ordrer.

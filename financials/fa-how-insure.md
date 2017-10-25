@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 421d45e7f35ffdc46801fea85221ba453d52c516
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-insure-fixed-assets"></a>Forsikre aktiva
@@ -50,7 +49,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinj
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kladden, og fyll ut kladdelinjene etter behov.  
-3. Hvis du vil tilordne flere aktiva til én forsikringspolise, oppretter du kladdelinjer med samme verdi i **Forsikringsnr.**-feltet og forskjellige verdier i **Aktivanr.**-feltet .  
+3. Hvis du vil tilordne flere aktiva til én forsikringspolise, oppretter du kladdelinjer med samme verdi i **Forsikringsnr.-feltet** og forskjellige verdier i **Aktivane.**-feltet.  
 4. Velg handlingen **Bokfør**.  
 
     > [!NOTE]  

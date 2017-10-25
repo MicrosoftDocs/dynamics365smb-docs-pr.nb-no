@@ -11,12 +11,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 4a41abe08412b357207cbbc08e8dc5041b12d942
+ms.translationtype: HT
+ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
+ms.openlocfilehash: 2a84fbed87b4d6223e98db0c0bc1f5c5c7d1ba78
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
@@ -106,7 +105,7 @@ Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første 
 2. Opprett et aktivakort for hvert eksisterende aktiva.  
 3. Definer aktivaavskrivningstablåer.  
 4. Aktiver integrering med Finans ved å følge de neste trinnene.
-5. Skriv inn **Avskrivningstablåer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 6. Velg det aktuelle avskrivningstablået. I fanebladet **Hjem**, under **Behandle**, velger du **Rediger liste** for å åpne **Avskrivningstablåkort**-vinduet.
 7. På hurtigfanen **Integrering** må du kontrollere at alle feltene er tomme ved å fjerne alle haker. Hvis du har mer enn ett avskrivningstablå, aktiverer du integrasjon med Finans for hvert enkelt tablå.  
 8. Skriv inn følgende linjer for hvert aktivum i aktivakladden:
@@ -114,7 +113,7 @@ Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første 
    * En linje med den akkumulerte avskrivningen til slutten av forrige regnskapsår.
    * En linje med den akkumulerte avskrivningen fra begynnelsen av gjeldende regnskapsår til datoen som [!INCLUDE[d365fin](includes/d365fin_md.md)] har angitt for å starte beregningen av avskrivningen.
 
-Hvis du har andre åpningsbalanser, kan du også oppgi disse nå, for eksempel nedskrivning\- og oppskrivning.  
+Hvis du har andre åpningsbalanser, kan du også oppgi disse nå, for eksempel nedskrivning og oppskrivning.  
 
 Hvis ikke aktivaene er integrert med Finans, utelater du trinn 4 til 7.
 

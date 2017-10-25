@@ -1,8 +1,6 @@
 ---
 title: "Minne kunder på forfalte betalinger eller bøtelegge dem | Microsoft-dokumentasjon"
 description: "Beskriver hvordan du sender en påminnelse til en kunde om en betaling som er forfalt, og legger gebyrer til betalingen på grunn av forsinkelsen."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,14 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 06/28/2017
+ms.date: 09/08/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: f64ad8c9170af52d7650324029a259b267f166b4
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: c0e028d84d868c7aca597ee007a038ccf3fa61a2
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-collect-outstanding-balances"></a>Innkreve utestående saldi
@@ -99,7 +96,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 |%11|Selskapsnavnet|  
 |%12|Innholdet i **Tilleggsgebyr per linje**-feltet i purrehodet|  
 
-Hvis du for eksempel skriver **Du skylder %7 %9 som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK som forfaller 02\-02\-2014.**.
+Hvis du for eksempel skriver **Du skylder %7 %9 som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK som forfaller 02-02-2014**.
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
 
@@ -163,11 +160,13 @@ Du definerer en kode som representerer de ulike måtene du vil at programmet ska
 
 Renter kan beregnes ved hjelp av enten gjennomsnittlig dagssaldo eller forfalt beløp.
 
-Med Forfalt saldo-metoden er rentegebyret ganske enkelt en prosent av forfalt beløp.
-**Forfalt saldo-metode** - Rente = Forfalt beløp x (Rentesats / 100)
+Ved hjelp av metoden forfalt saldo er rentegebyret ganske enkelt en prosent av forfalt beløp.  
 
-Med metoden Gjennomsnittlig daglig saldo tas det hensyn til antall dager siden beløpet forfalt.
-Metoden **Gjennomsnittlig daglig saldo** - Rente = Forfalt beløp x (Dager forfalt / Renteperiode) x (Rentesats / 100)
+    Balance Due method - Finance Charge = Overdue Amount x (Interest Rate / 100)
+
+Med metoden Gjennomsnittlig daglig saldo tas det hensyn til antall dager siden beløpet forfalt:  
+
+    Average Daily Balance method - Finance Charge = Overdue Amount x (Days Overdue / Interest Period) x (Interest Rate/100)
 
 I tillegg er hver kode i tabellen Rentenotatekst knyttet til en undertabell, tabellen Rentenotatekst. For hver rentebetingelse kan du definere en start- og/eller slutt-tekst som kommer ut på rentenotaen.
 
@@ -204,10 +203,8 @@ Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuel
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.  
 3. Velg handlingen **Foreslå rentenotalinjer**.
-4. I vinduet **Foreslå rentenotalinjer  
-6.  Angi et filter på hurtigfanen **Kundepost** hvis du vil opprette rentenotaer bare for bestemte poster.  
-
-7.  Velg **OK** hvis du vil starte kjørselen.  
+4. I vinduet **Foreslå rentenotalinjer** angir du et filter på hurtigfanen **Kundepost** hvis du vil opprette rentenotaer bare for bestemte poster.  
+5.  Velg **OK** hvis du vil starte kjørselen.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Slik oppdaterer du rentenotatekst  
 Av og til vil du kanskje endre start- og slutteksten som du har definert for rentenotabetingelsene. Hvis du gjør dette etter at du har opprettet, men ikke utstedt rentenotaer, kan du angi at notaene skal oppdateres med den endrede teksten.

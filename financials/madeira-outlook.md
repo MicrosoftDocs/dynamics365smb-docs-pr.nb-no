@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Bruke Dynamics 365 for Financials som forretningsinnboks i Outlook
@@ -26,9 +25,9 @@ ms.lasthandoff: 07/07/2017
 ## <a name="get-the-add-in"></a>Få tillegget
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er ett av trinnene i det assisterte oppsettet Komme i gang i vinduet **Styr virksomheten fra Office 365**. Når du velger **Konfigurer i Outlook**-knappen i dette vinduet, må du angi brukernavnet og passordet ditt for Office 365. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  
 
-Deretter, når du åpner Outlook, vil du se en e-postmelding fra Financials-administratoren. Nye tillegget blir lagt til Outlook-båndet og i Outlook Web Access, og du kan se det i tilleggsbåndet, like over brødteksten i e-postmeldingen. Tillegget selve blir oppdatert med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
+Deretter, når du åpner Outlook, vil du se en e-postmelding fra Financials-administratoren. Det nye tillegget blir lagt til Outlook-båndet og i Outlook Web Access, og du kan se det i tilleggsbåndet, like over brødteksten i e-postmeldingen. Tillegget selve blir oppdatert med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
-Noen firmaer som bruker Office 365 begrenser brukernes tillatelse til å distribuere tillegg. Du må derfor passe på at du har et Office 365-abonnement som inkluderer e-post og som lar deg distribuere tillegg. Hvis du vil prøve ut tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
+Enkelte selskaper bruker Office 365, begrense brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Office 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Bruke tillegget Innsikt for kontakter
 La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne Financials-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for hans firma. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kunde, kan du opprette dem som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uten å forlate Outlook.  

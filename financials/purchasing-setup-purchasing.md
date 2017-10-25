@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: bc4578131489baa66d31e8c25b4815b87f992fdf
+ms.translationtype: HT
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 4c6285b1e394e5953fd76953ed2ab45e9b40ec3d
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="setting-up-purchasing"></a>Definere kjøp
@@ -31,10 +30,10 @@ Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opprett et leverandørkort for hver leverandør som du kjøper fra. |[Registrere nye leverandører](purchasing-how-register-new-vendors.md) |
+| Opprett et leverandørkort for hver leverandør som du kjøper fra.|[Registrere nye leverandører](purchasing-how-register-new-vendors.md) |
 | Angi de forskjellige rabattene og spesialprisene som leverandør gir deg avhengig av vare, antall og/eller dato. |[Registrere avtaler om kjøpspris, rabatt og betaling](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
-| Prioritere leverandører. |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
-| Definere innkjøpere. |[Definere innkjøpere](purchasing-how-setup-purchasers.md) |
+| Prioritere leverandører |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
+| Definere innkjøpere |[Definere innkjøpere](purchasing-how-setup-purchasers.md) |
 
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  

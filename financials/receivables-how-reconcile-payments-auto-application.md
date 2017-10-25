@@ -12,12 +12,11 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 03/29/2017
 ms.author: sgroespe
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: b4ff3d64f23a5dfb9800abeedb7374764b060f4d
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="how-to-reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
@@ -33,7 +32,7 @@ Det finnes liknende funksjon hvis du vil avstemme overskytende beløp på linjen
 
 Du bruker **Utlign automatisk**-funksjonen enten automatisk når du importerer en bankfil eller feed med betalingstransaksjoner eller aktiverer den, for å utligne betalinger mot tilknyttede åpne poster basert på avstemming av data på en kladdelinje mot data i én eller flere åpne poster.
 
-På kladdelinjer der en betaling er utlignet automatisk mot én eller flere åpne poster, har **Konfidensintervall**-feltet en verdi mellom Lav og Høy for å angi kvaliteten på datasamsvaret som den foreslåtte betalingsutligningen er basert på. I tillegg blir **Kontotype**- og **Kontonr.** -feltet fylt ut med informasjon om kunden eller leverandøren som den bokførte betalingen utlignes for. Hvis du har definert en tekst-til-kontotilordning, kan den automatiske utligningen føre til verdien **Høy – tekst-til-kontotilordning** for samsvarskonfidens.
+På kladdelinjer der en betaling er utlignet automatisk mot én eller flere åpne poster, har **Konfidensintervall**-feltet en verdi mellom Lav og Høy for å angi kvaliteten på datasamsvaret som den foreslåtte betalingsutligningen er basert på. Feltene **Kontotype** og **Kontonr.** fylles i tillegg med informasjon om kunden eller leverandøren som betalingen utlignes mot. Hvis du har definert en tekst-til-kontotilordning, kan den automatiske utligningen føre til verdien **Høy – tekst-til-kontotilordning** for samsvarskonfidens.
 
 For hver kladdelinje som representerer en betaling i vinduet **Betalingsavstemmingskladd**, kan du åpne vinduet **Betalingsutligning** hvis du vil vise alle åpne kandidatposter for betalingen og detaljert informasjon for hver post om datasamsvaret som en betalingsutligning er basert på. Her kan du manuelt utligne betalinger som ble utlignet automatisk mot feil oppføring, eller utligne betalinger på nytt. Hvis du vil ha mer informasjon, kan du se [Se gjennom eller utligne betalinger etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md).
 
@@ -52,7 +51,7 @@ For hver kladdelinje som representerer en betaling i vinduet **Betalingsavstemmi
 
     Vinduet **Betalingsavstemmingskladd** fylles ut med linjer for betalinger som representerer banktransaksjoner i det importerte bankkontoutdraget.
 
-    På linjer for betalinger som er utlignet automatisk mot de tilknyttede åpne postene, har **Konfidensintervall**-feltet en verdi mellom **Lav** og **Høy** for å angi kvaliteten på datasamsvaret som den foreslåtte betalingsutligningen er basert på. I tillegg blir **Kontotype**- og **Kontonr.** -feltet fylt ut med informasjon om kunden eller leverandøren som den bokførte betalingen utlignes for.
+    På linjer for betalinger som er utlignet automatisk mot de tilknyttede åpne postene, har **Konfidensintervall**-feltet en verdi mellom **Lav** og **Høy** for å angi kvaliteten på datasamsvaret som den foreslåtte betalingsutligningen er basert på. Feltene **Kontotype** og **Kontonr.** fylles i tillegg med informasjon om kunden eller leverandøren som betalingen utlignes mot.
 7. Velg en kladdelinje, og velg deretter handlingen **Utlign manuelt** for å se gjennom betalingen manuelt i vinduet **Betalingsutligning**. Hvis du vil ha mer informasjon, kan du se [Se gjennom eller utligne betalinger etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md).
 
     Når du er ferdig med den manuelle utligningen, inneholder **Konfidensintervall**-feltet på kladdelinjen du har behandlet manuelt, **Godtatt**.

@@ -12,18 +12,17 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 06/02/2017
 ms.author: edupont
-ms.translationtype: Human Translation
+ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 2760d173a46e0ab382253179d899d6f7c3cf7a4f
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/07/2017
-
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Bli en forhandler av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Utvid din forretningsmulighet med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Hvis du spesialisert deg innen sky løsninger, Office 365, SharePoint, bransjen løsninger, analytics, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er en ny salgsmulighet i Financials.   
+Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, bransjeløsninger, analyse, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er en ny salgsmulighet i Financials.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg med å skille og styrke kunderelasjoner ved å gi deg muligheten til å levere en ende-til-ende-løsning som kobler mennesker og prosesser som aldri før, som er innebygd i kjente Microsoft Office-verktøy som små og mellomstore bedrifter bruker hver dag.  
 
