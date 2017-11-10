@@ -67,7 +67,6 @@ Hvis du vil implementere forsyningsplanendringene, må du følge de resulterende
  |Grønn sirkel med et ikon som er formet som en disk med et rødt kryss|Foreslått forsyningsordre med handlingsmeldingen *Avbryt*.<br /><br /> - Kan ikke endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
  |Grønn sirkel med et ikon som er formet som en disk med en stjerne|Foreslåtte forsyningsordrer med handlingsmeldingen *Ny*.<br /><br /> - Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
  |Grønn sirkel med et ikon som er formet som en disk med én eller to piler|Foreslåtte forsyningsordrer med handlingsmeldingen *Tidsplanlegg på nytt*, *Endre ant.* eller *Tidsplanl. på nytt og endre ant.*<br /><br /> - Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).<br /><br /> Pilene gjenspeiler retningen for planleggingsforslaget. En venstrepil sammen med en oppoverpil gjenspeiler for eksempel handlingsmeldingen *Tidsplanl. på nytt og endre ant.*, som består av en ny planlegging bakover og en økning i antall.|  
- ||  
 
 Når du åpner rullegardinmenyen for hurtigfanen **Tidslinje**, vises følgende funksjoner avhengig av hva du velger:  
 

@@ -50,13 +50,12 @@ Deretter kan du definere kolonner som disse:
 
 Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten i matrisevinduet **Analyserapport**, for eksempel slik som i dette eksemplet:  
 
-|||||  
+| |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
 |-|-|-|-|  
-||Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
-|Datamaskiner||||  
-|Skjermer||||  
-|Reservedeler||||  
-|I alt||||  
+|Datamaskiner| | | |  
+|Skjermer| | | |  
+|Reservedeler| | | |  
+|I alt| | | |  
 
  Du kan for eksempel definere ett sett med linje- og flere sett med kolonneoppsett for å vise henholdsvis månedlige og årlige rapporter.
 
