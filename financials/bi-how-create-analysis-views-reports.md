@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a><span data-ttu-id="1d55b-103">Opprette analyserapporter</span><span class="sxs-lookup"><span data-stu-id="1d55b-103">How to: Create Analysis Reports</span></span>
@@ -50,13 +50,12 @@ ms.lasthandoff: 09/22/2017
 
 <span data-ttu-id="1d55b-134">Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten i matrisevinduet **Analyserapport**, for eksempel slik som i dette eksemplet:</span><span class="sxs-lookup"><span data-stu-id="1d55b-134">Based on the lines and columns you have set up, the program will aggregate the result of your report in the **Analysis Report** matrix window, such as in this example:</span></span>  
 
-|||||  
+| |<span data-ttu-id="1d55b-135">Salg inneværende måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-135">Sales Current Month</span></span>|<span data-ttu-id="1d55b-136">Salg forrige måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-136">Sales Last Month</span></span>|<span data-ttu-id="1d55b-137">Salg i prosent forrige måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-137">Sales Last Month %</span></span>|  
 |-|-|-|-|  
-||<span data-ttu-id="1d55b-135">Salg inneværende måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-135">Sales Current Month</span></span>|<span data-ttu-id="1d55b-136">Salg forrige måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-136">Sales Last Month</span></span>|<span data-ttu-id="1d55b-137">Salg i prosent forrige måned</span><span class="sxs-lookup"><span data-stu-id="1d55b-137">Sales Last Month %</span></span>|  
-|<span data-ttu-id="1d55b-138">Datamaskiner</span><span class="sxs-lookup"><span data-stu-id="1d55b-138">Computers</span></span>||||  
-|<span data-ttu-id="1d55b-139">Skjermer</span><span class="sxs-lookup"><span data-stu-id="1d55b-139">Displays</span></span>||||  
-|<span data-ttu-id="1d55b-140">Reservedeler</span><span class="sxs-lookup"><span data-stu-id="1d55b-140">Spare parts</span></span>||||  
-|<span data-ttu-id="1d55b-141">I alt</span><span class="sxs-lookup"><span data-stu-id="1d55b-141">Total</span></span>||||  
+|<span data-ttu-id="1d55b-138">Datamaskiner</span><span class="sxs-lookup"><span data-stu-id="1d55b-138">Computers</span></span>| | | |  
+|<span data-ttu-id="1d55b-139">Skjermer</span><span class="sxs-lookup"><span data-stu-id="1d55b-139">Displays</span></span>| | | |  
+|<span data-ttu-id="1d55b-140">Reservedeler</span><span class="sxs-lookup"><span data-stu-id="1d55b-140">Spare parts</span></span>| | | |  
+|<span data-ttu-id="1d55b-141">I alt</span><span class="sxs-lookup"><span data-stu-id="1d55b-141">Total</span></span>| | | |  
 
  <span data-ttu-id="1d55b-142">Du kan for eksempel definere ett sett med linje- og flere sett med kolonneoppsett for å vise henholdsvis månedlige og årlige rapporter.</span><span class="sxs-lookup"><span data-stu-id="1d55b-142">You can, for example, set up one set of lines and several sets of column layouts to show monthly and annual reports respectively.</span></span>
 
