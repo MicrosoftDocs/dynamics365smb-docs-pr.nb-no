@@ -1,1 +1,0 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva kommer, kan du se den [Microsoft Dynamics 365-veikart](https://go.microsoft.com/fwlink/?linkid=842139).
