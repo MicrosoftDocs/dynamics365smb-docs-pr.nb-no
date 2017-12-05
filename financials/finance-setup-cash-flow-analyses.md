@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: ffc0a1c8a513556de2a40fc37db7af9be779225c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
@@ -79,14 +79,14 @@ Slik bruker du en manuell prosess:
 >   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
 
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
-Du kan også opprette dine egne forutsett webtjenesten basert på en felles modell som heter **Forecasting Model for Microsoft Dynamics 365 for Financials**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
+Du kan også opprette dine egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Dynamics 365 Business edition**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
 1. Åpne en nettleser, og gå til [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Søke etter **Forecasting Model for Microsoft Dynamics 365 for Financials**, og åpne deretter modellen i Azure Machine Learning Studio.  
+2. Søk etter **Forecasting Model for Microsoft Dynamics 365 Business edition**, og åpne deretter modellen i Azure Machine Learning Studio.  
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
 7. Vis hurtigfanen **Cortana Intelligence**, og fyll deretter ut feltene.  
 
 ## <a name="see-also"></a>Se også

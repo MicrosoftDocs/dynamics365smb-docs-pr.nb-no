@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 94f45dd0b9d3a384fa0aafcc8f0555c52de25816
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8c07bddf7a4667f455f4512871d2a8c743c5014c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-pick-for-assembly-or-production-in-advanced-warehouse-configurations"></a>Plukke for montering eller produksjon i avanserte lageroppsett
@@ -42,7 +42,7 @@ Hvis du vil opprette plukkforespørsler, må de aktuelle kildedokumentene frigis
 |Monteringsordre|Endre status til Frigitt.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Slik plukker du komponenter ved hjelp av plukkforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Hent lagerdokumenter**, og velg deretter komponentlinjene fra den frigitte produksjonsordren.  
 3.  Inspiser linjene, sorter dem for å sikre en effektiv plukkrunde, og slå dem sammen med andre forslagslinjer om nødvendig for å utnytte arbeidstiden best mulig.  
 4.  Velg handlingen **Opprett plukk**.  

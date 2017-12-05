@@ -1,8 +1,6 @@
 ---
-title: "Sette opp markedsføringskampanjer i Financials| Microsoft-dokumentasjon"
-description: "Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Dynamics 365 for Financials for å identifisere og trekke til deg prospekter og beholde kunder."
-services: project-madeira
-documentationcenter: 
+title: "Sette opp markedsføringskampanjer i Dynamics 365| Microsoft-dokumentasjon"
+description: "Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Dynamics 365 for å identifisere og trekke til deg prospekter og beholde kunder."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 996aca0dd46c350b5345d05e7fe320763b3caef4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
@@ -52,5 +50,5 @@ Kampanjer utføres av selgere, og du må opprette aktiviteter for å representer
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med Financials](ui-work-product.md)  
+[Arbeide med Dynamics 365](ui-work-product.md)  
 

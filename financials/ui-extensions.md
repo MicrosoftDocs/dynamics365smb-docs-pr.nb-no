@@ -1,6 +1,6 @@
 ---
-title: "Installere utvidelser for å tilpasse Dynamics 365 for Financials | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du legger til funksjoner og tilpasser Dynamics 365 for Financials ved å installere utvidelser."
+title: "Installere utvidelser for å tilpasse Dynamics 365 Business edition | Microsoft-dokumentasjon"
+description: "Finn ut hvordan du legger til funksjoner og tilpasser Dynamics 365 Business edition ved å installere utvidelser."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,20 +12,20 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2aefbfade71ed78c89c59597f76c6e6707110d16
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2f6bbbc213bce74b31bb4e8c64198559db2d105d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="customizing-dynamics-365-for-financials-using-extensions"></a>Tilpasse Dynamics 365 for Financials med utvidelser
+# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Tilpasse Dynamics 365, Business edition ved hjelp av utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
 Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, er noen utvidelser allerede installert for deg. Over tid gjøres flere utvidelser tilgjengelig for deg, og du kan deretter velge om du vil bruke utvidelsen eller ikke.
 
 Microsoft tilbyr for eksempel en utvidelse som kan gi integrering med PayPal Payments Standard. Denne utvidelsen er installert som standard.
 Hvis en annen utvidelse gjøres tilgjengelig som gir integrasjon med en annen betalingstjenesten, kan du installere den nye utvidelsen og deretter velger hvilke av de to tjenestene du vil bruke.  
 
-Du administrerer utvidelsene i vinduet **Administrasjon av utvidelse**. Du kan gå til dette vinduet fra Hjem. Du kan også velge ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "ikonet Søk etter side eller rapport") i øvre høyre hjørne, angi **Utvidelse**, og deretter velger du den beslektede koblingen.  
+Du administrerer utvidelsene i vinduet **Administrasjon av utvidelse**. Du kan gå til dette vinduet fra Hjem. Du kan også velge ikonet **Søk etter side eller en rapport** ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport") i øvre høyre hjørne, angi **Utvidelse**, og deretter velger du den beslektede koblingen.  
 
 > [!NOTE]  
 >   Hvis du mener at du skal ha tilgang til en utvidelse, men ikke finner funksjonaliteten, kontrollerer du vinduet **Administrasjon av utvidelse**. Hvis utvidelsen ikke er oppført der, kan du installere den, som beskrevet i delen nedenfor.  
@@ -39,7 +39,7 @@ Du kan også gå til markedsplassen fra [!INCLUDE[d365fin](includes/d365fin_md.m
 
 Hvis du velger en utvidelse, kan du lese om hva utvidelsen gjør, og du kan få tilgang til hjelp for utvidelsen for å finne ut mer. Når du skaffer en utvidelse, må du godta vilkårene for bruk. Hvis du får utvidelsen fra webområdet for AppSource, logges du på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å fullføre installasjonen.  
 
-Når du installerer en utvidelse, må du kanskje konfigurere den, for eksempel angi en konto for bruk med utvidelsen **PayPal-betalingsstandard for [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
+Når du installerer en utvidelse, må du kanskje konfigurere den, for eksempel angi en konto for bruk med utvidelsen **PayPal Payment Standard for [!INCLUDE[d365fin](includes/d365fin_md.md)]**.
 Andre utvidelser legger for eksempel ganske enkelt til felt på en eksisterende side, eller de legger til en ny side.   
 
 Hvis du avinstallerer en utvidelse og du deretter ombestemmer deg, kan du installere den på nytt. Når du avinstallerer en utvidelse som du har brukt, beholdes dataene, slik at hvis du installerer utvidelsen på nytt, er dataene fremdeles tilgjengelige.  
@@ -61,6 +61,8 @@ Microsoft tilbyr følgende utvidelser:
 * [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)
 * [Regnskapsførerportal](ui-extensions-accountant-portal.md)  
 * [Image Analyzer](ui-extensions-image-analyzer.md)
+* [Betalinger og avstemminger (Danmark)](ui-extensions-payments-reconciliation-formats-dk.md)
+* [C5 datamigrering](ui-extensions-c5-data-migration.md)
 
 > [!NOTE]  
 >  Nye utvidelser er ikke tilgjengelige i AppSource like etter at vi har kunngjort en oppdatering. Du kan følge med på utvidelsene på [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).

@@ -1,8 +1,6 @@
 ---
 title: "Metoder for å feilsøke eller omgå problemer med registrering for Self-Service | Microsoft-dokumentasjon"
-description: "Les om de vanligste årsakene til at du kanskje ikke kan fullføre registreringen for Dynamics 365 for Financials, og om hvordan du kan omgå dem."
-services: project-madeira
-documentationcenter: 
+description: "Les om de vanligste årsakene til at du kanskje ikke kan fullføre registreringen for Dynamics 365 Business edition, og om hvordan du kan omgå dem."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: article
@@ -12,16 +10,16 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1bc036d4e57403d903c292a07a8985dfe939b20d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c97d406d0213c7b2ade23a2d209adf54bf9dfcae
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Feilsøke registrering for Self-Service
 Registrering for [!INCLUDE[d365fin](includes/d365fin_md.md)] er enkelt og kan gjøres svært raskt. Du kan opprette en gratis konto selv om du er en eksisterende organisasjon. Denne artikkelen beskriver problemer som kan oppstå under registrering.
 
-## <a name="what-email-address-can-i-use-with-financials"></a>Hvilken e-postadresse kan jeg bruke med Financials?
+## <a name="what-email-address-can-i-use-with-dynamics-365"></a>Hvilken e-postadresse kan jeg bruke med Dynamics 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.
 
 Hvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole.
@@ -40,5 +38,4 @@ I mange tilfeller kan du registrere deg for [!INCLUDE[d365fin](includes/d365fin_
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

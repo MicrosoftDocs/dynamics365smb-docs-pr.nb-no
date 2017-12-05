@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 434e18ed539a189e8f041c914cfdcdf2c1e0532f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
@@ -31,7 +31,7 @@ Et enkelt dokument har den samme betalingstoleransen enten det utlignes for seg 
 
 *kontantrabattdato < betalingsdato på den valgte posten <= betalingstoleransedato*  
 
-Denne regelen gjelder også for å avgjøre om du vil vise advarsler når du bruker betalingstoleranse med flere dokumenter. Advarsel om betalingstoleranse vises for hver post som oppfyller datokriteriene. Hvis du vil ha mer informasjon, kan du se delen "Eksempel 2 – toleranseberegninger for flere dokumenter". 
+Denne regelen gjelder også for å avgjøre om du vil vise advarsler når du bruker betalingstoleranse med flere dokumenter. Advarsel om betalingstoleranse vises for hver post som oppfyller datokriteriene. Hvis du vil ha mer informasjon, kan du se delen "Eksempel 2 – toleranseberegninger for flere dokumenter".
 
 Du kan velge å vise en advarsel som er basert på ulike toleransesituasjoner.  
 
@@ -44,13 +44,13 @@ Hvis du vil ha mer informasjon, kan du se delen "Slik aktiverer eller deaktivere
 Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Dette gjelder også for refusjoner og kreditnotaer.  
 
 Når du skal definere toleranse, må du definere forskjellige toleransebeløp, angi både toleransegrense for kontantrabatt og bokføringsmetode for betalingstoleranse, og kjøre kjørselen **Endre betalingstoleranse**.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Generelt bokføringsoppsett** definerer du en debet- og kredittoleransekonto for kontantbetaling ved salg, og en debet- og kreditkonto for kontantbetaling ved kjøp.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
 4. I vinduet **Bokføringsgrupper - kunde** definerer du en betalingstoleransekonto for debet og kredit. Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
-5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 6. I vinduet **Bokføringsgrupper - leverandør** definerer du en betalingstoleransekonto for debet og kredit.  
-7. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+7. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 8. Åpne **Finansoppsett**-vinduet.  
 9. På hurtigfanen **Utligning** fyller du ut feltene **Bokf. av kont.rab.toleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
 10. Velg **Endre betalingstoleranse**-handlingen.
@@ -68,7 +68,7 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. I **Finansoppsett**-vinduet, på hurtigfanen **Utligning**, merker du av for **Betalingstoleranse - advarsel** for å aktivere advarselen. Fjern merket når du skal deaktivere meldingen.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ Melding om betalingstoleranse vises når du bokfører en utligning som har en sa
 ## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder  
 Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av betalingstoleranse for en bestemt kunde eller leverandør, må du sperre for toleranse på det respektive kunde- eller leverandørkortet. Nedenfor beskrives det hvordan du gjør det for en kunde. Trinnene er de samme for en leverandør.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Betalinger** merker du av for **Sperr for betalingstoleranse**.  
 
 > [!NOTE]  
@@ -95,7 +95,8 @@ Scenarier med alternativ A eller B representerer følgende:
 - **A** – I dette tilfellet er advarselen om rabattoleranse deaktivert, ELLER brukeren har advarselen aktivert og har valgt å tillate kontantrabatten ved sen betaling (bokføre saldoen som betalingstoleranse).  
 - **B** – I dette tilfellet har brukeren aktivert advarselen og har valgt ikke å tillate kontantrabatt ved sen betaling (la saldoen stå som restbeløp).  
 
-|—|Fakt.|Kont.rabatt|Maks.<br /><br /> Bet.toleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. <br /> GL/CL|Bet.<br /><br /> tol.<br /><br /> Finans|  
+[!div class="mx-tdBreakAll"]  
+|—|Fakt.|Kont.rabatt|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|15.01.03|20.01.03|<=15.01.03|985|Bet.toleranse|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**15.01.03**|**20.01.03**|**<=15.01.03**|**980**|**Ingen**|**Ja**|**0**|**0**|  
@@ -166,7 +167,9 @@ Scenarier med alternativ A, B, C eller D representerer følgende:
 - **C** - I dette tilfellet har brukeren varslet påslått, og har valgt å tillate kontantrabatt ved sen betaling, for første faktura, men ikke den neste.  
 - **D** – I dette tilfellet har brukeren varslet påslått, og har valgt å ikke tillate kontantrabatt ved sen betaling, for første faktura, men tillate det for den neste.  
 
-|—|Fakt.|Kont.rab.|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. <br /> GL/CL|Bet.toleranse<br /><br /> Finans|  
+[!div class="mx-tdBreakAll"]  
+
+|—|Fakt.|Kont.rab.|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
 |1|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|<=15.01.03|1920|Bet.toleranse|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**<=15.01.03**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  

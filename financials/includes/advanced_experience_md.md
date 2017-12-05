@@ -1,1 +1,1 @@
-<blockquote STYLE="background: #81BEF7;border-left:None"><b>AVANSERT</b><br />Denne funksjonaliteten er bare tilgjengelig med den avanserte opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse Dynamics 365 for Financials-opplevelsen.](../ui-experiences.md) </blockquote>
+<blockquote STYLE="background: #81BEF7;border-left:None"><b>AVANSERT</b><br />Denne funksjonaliteten er bare tilgjengelig med den avanserte opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse Dynamics 365 Business edition-opplevelsen](../ui-experiences.md) </blockquote>

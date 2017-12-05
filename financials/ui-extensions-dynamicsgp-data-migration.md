@@ -1,6 +1,6 @@
 ---
 title: "Overføre data fra Dynamics GP med utvidelsen for datamigrering | Microsoft-dokumentasjon"
-description: "Bruk utvidelsen Dynamics GP-datamigrering til å overføre kunder, leverandører, lagervarer og konti fra Dynamics GP til Dynamics 365 for Financials."
+description: "Bruk utvidelsen Dynamics GP-datamigrering til å overføre kunder, leverandører, lagervarer og konti fra Dynamics GP til Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 03/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 31b698aea884da162cc18f16a912ebd57e35aed9
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b97c074b1283a981522b7a9651fcc7c552f1f930
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-for-financials"></a>Utvidelsen Dynamics GP-datamigrering for Dynamics 365 for Financials
+# <a name="the-dynamics-gp-data-migration-extension-for-dynamics-365-business-edition"></a>Utvidelsen Dynamics GP-datamigrering for Dynamics 365 Business edition 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører og lagervarer og konti fra Dynamics GP til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevant hovedposter og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Overfør forretningsdata fra andre økonomisystemer](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Eksportere data fra Dynamics GP
@@ -33,5 +33,5 @@ Utvidelsen Dynamics GP-datamigrering automatisk tilordner de eksporterte dataene
 
 ## <a name="see-also"></a>Se også
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser ](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 

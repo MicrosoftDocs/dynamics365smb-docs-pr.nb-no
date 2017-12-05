@@ -1,6 +1,6 @@
 ---
 title: "Tilordne et prioritetsnivå til en leverandør | Microsoft-dokumentasjon"
-description: "Du kan tilordne numre til leverandørene for å prioritere dem og forenkle betalingsforslag i Financials."
+description: "Du kan tilordne numre til leverandørene for å prioritere dem og forenkle betalingsforslag i Dynamics 365."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: supplier, payment priority
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 2c91b28daf27ddd2b698ffe4338bbf92fd1f9adf
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d19d0bce7290ce42b37dd1dfbea5213c6580e2da
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-prioritize-vendors"></a>Prioritere leverandører
@@ -25,7 +25,7 @@ ms.lasthandoff: 09/22/2017
 Først må du prioritere leverandørene ved å tilordne numre til dem.
 
 ## <a name="to-prioritize-vendors"></a>Slik prioriterer du leverandører
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Velg den aktuelle leverandøren, og velg deretter **Rediger**.
 3. Angi et tall i feltet **Prioritet**.
 

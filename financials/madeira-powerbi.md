@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 for Financials og innholdspakker for Power BI | Microsoft-dokumentasjon
-description: "Få innsikt, forretningsintelligens og KPI-er fra Financials-dataene på en enkel måte med Power BI og Financials-innholdspakkene."
+title: Dynamics 365 Business edition og innholdspakker for Power BI | Microsoft-dokumentasjon
+description: "Få innsikt, forretningsintelligens og KPI-er fra Dynamics 365-dataene på en enkel måte med Power BI og Dynamics 365 content packs."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d165efbb6a157c6f95f8f59e6aa0d9b7100daa91
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
@@ -44,7 +44,7 @@ Innholdspakkene er forhåndskonfigurert til å arbeide med data fra demonstrasjo
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Hvis du vil se [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene i Power BI, må du ha følgende:  
 
-* Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se [Financials](http://go.microsoft.com/fwlink/?LinkID=759714) for mer informasjon.  
+* Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Tilgang til Power BI. Hvis du vil ha mer informasjon , kan du se [Power BI](https://powerbi.microsoft.com).
 
 På Power BI-nettstedet finner du mer informasjon om [hvordan du kobler til tjenester med innholdspakker for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  

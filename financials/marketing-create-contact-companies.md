@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2deb992855857a83955c3c119eb7903fe45088d2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-companies"></a>Opprette kontaktselskaper
@@ -26,9 +26,9 @@ Ved å tilordne så mye data som mulig om en bestemt bedrift sørger du for effe
 
 Du kan også definere forretningsforholdet du har med en kontakt. En kontakt kan for eksempel være et prospekt, en bank eller en leverandør.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 | Definer en kontakt for et nytt selskap, enten fra grunnen av eller fra en kunde, leverandør eller bankkonto. |[Opprette kontaktselskaper](marketing-how-create-contact-companies.md) |
 | Synkroniser informasjon i kontakter med felles informasjon i kunder, leverandører og bankkonti. |[Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
@@ -40,5 +40,5 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="see-also"></a>Se også
 [Opprette kontaktpersoner](marketing-create-contact-persons.md)   
-[Arbeide med Financials](ui-work-product.md)
+[Arbeide med Dynamics 365](ui-work-product.md)
 

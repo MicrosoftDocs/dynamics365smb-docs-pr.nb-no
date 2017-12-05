@@ -12,10 +12,10 @@ ms.search.keywords: warehouse, stock
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 71ca29fdb6e87bf754e68a4e27d91f8a1a710cc4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cfae3d52cbb25882c5986ad4aedaef7939a8b6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -26,14 +26,15 @@ Lagerøkning og -reduksjon registreres også når du bokfører henholdsvis salgs
 
 Hvis du vil ha bedre oversikt over varene og hjelp til å finne dem, kan du kategorisere varene og gi dem attributter til å søke og sortere etter.
 
-> []!MERK] Den fysiske håndteringen av varer kalles lageraktiviteter. Hvis du vil ha mer informasjon, se [Lagerstyring](warehouse-manage-warehouse.md).
+> [!NOTE]
+> Den fysiske håndteringen av varer kalles lageraktiviteter. Hvis du vil ha mer informasjon, se [Lagerstyring](warehouse-manage-warehouse.md).
 
 ## <a name="inventory-reconciliation"></a>Lageravstemming
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans. Hvis du vil ha mer informasjon, kan du se [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
-|Til |Se |
+|Hvis du vil |Se |
 |---|----|
 |Opprett varekort for lagervarer som du handler med.|[Registrere nye varer](inventory-how-register-new-items.md)|
 |Strukturer overordnede varer som selges som sett som består av komponenter for den overordnede varen, eller som du monterer til bestilling eller lager.|[Arbeide med stykklister](inventory-how-work-BOMs.md)|

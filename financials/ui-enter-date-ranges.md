@@ -1,6 +1,6 @@
 ---
-title: Angi datointervaller i Dynamics 365 for Financials | Microsoft-dokumentasjon
-description: "Finn ut hvordan du får en rapport til å vise data fra bestemte tidsperioder ved å bruke datointervaller i Dynamics 365 for Financials."
+title: Angi datointervaller i Dynamics 365 Business edition | Microsoft-dokumentasjon
+description: "Finn ut hvordan du får en rapport til å vise data fra bestemte tidsperioder ved å bruke datointervaller i Dynamics 365 Business edition."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: dates, reporting, filter
 ms.date: 05/29/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: dc7cd392843ce7c39200bb2331c09cc44c7a394a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fee6a5d7ce6603829ed98913b7e370a53239ee3e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="entering-date-ranges-in-dynamics-365-for-financials"></a>Angi datointervaller i Dynamics 365 for Financials
+# <a name="entering-date-ranges-in-dynamics-365-business-edition"></a>Angi datointervaller i Dynamics 365 Business edition 
 Du kan angi filtre som inneholder en startdato og en sluttdato, for å vise bare dataene innenfor dette datointervallet eller tidsintervallet. Særlige regler gjelder for angivelse av datointervaller. La oss ta **Kunde - ti på topp** som eksempel:
 
 ![Angi et datointervall på forespørselssiden for Kunde - ti på topp-listen](./media/ui-enter-date-ranges/customer-top10-list.png)

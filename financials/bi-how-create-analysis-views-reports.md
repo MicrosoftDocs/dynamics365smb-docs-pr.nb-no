@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: eea34afbee429d14ab150894729cb4ea3843bb2b
-ms.openlocfilehash: b96ff2d1f4339b137a6f7d2c2c1266185e2dc69c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 #  <a name="how-to-create-analysis-reports"></a>Opprette analyserapporter
@@ -66,7 +66,7 @@ I en analyserapport vises analyseparameterne som kolonner. Du kan definere kolon
 
 En mal består av et sett med linjer som representerer analysekolonnene du ser i analyserapporten. For å kunne definere en kolonne må du tilordne en analysetypekode til en linje. Denne analysetypekoden bestemmer typen kildedata i varepostene som analysen baseres på. Kildedataene inkluderer kostnader, salgsbeløp eller antall, og deres tilknyttede verdiposter. Du kan definere så mange kolonnemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Kolonner**.  
 4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten i vinduet **Analysekolonner**..  
@@ -84,7 +84,7 @@ I en analyserapport vises analyseobjektene på linjene. Du kan definere linjene 
 
 En mal består av et sett med linjer som representerer analyselinjene du ser i analyserapporten. En linje kan angi én eller flere varer, kunder, leverandører eller grupper. Du kan også opprette en formel på en linje for å summere de andre linjene. Du kan definere så mange linjemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Linjer**.  
 4. Opprett linjer for varene, kundene, leverandørene eller selgerne du vil vise tall for i analyserapporten, i **Analyselinje**-vinduet. Du må fylle ut feltene **Type**, **Fra/til** og **Beskrivelse**.  
@@ -97,7 +97,7 @@ Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåte
 
 Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til viktige indikatorer for salgsprestasjon du velger, for eksempel salgsomsetning i både beløp og antall, bidragsmargin eller fremdrift for faktisk salg mot budsjettet. Du kan også bruke rapporten til å analysere gjennomsnittlig salgspris og evaluere salgsprestasjonen for salgskorpset.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Analyserapport - salg** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Rediger analyserapport**.

@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fcbba8ecb2d63ab780a54aa4784a30b7fa5020fa
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 43511c3c509c495555f4583fdbe982d8b98aa648
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-paypal-payments-standard-extension-to-dynamics-365-for-financials"></a>PayPal Payments Standard-utvidelsen for Dynamics 365 for Financials
+# <a name="the-paypal-payments-standard-extension-to-dynamics-365-business-edition"></a>PayPal Payments Standard-utvidelsen for Dynamics 365 Business edition 
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.
 
 Som et alternativ til å samle inn betalinger via bankoverføring eller kredittkort, kan du tilby kundene å betale du gjennom sin PayPal-konto. Når du sender en salgsfaktura eller ordre i e-post, er det en PayPal-kobling i brødteksten i e-posten og i det vedlagte PDF-dokumentet. Når kunden velger PayPal-koblingen, vises tjenestesiden deres for PayPal-kontoen med betalingsdetaljer for salget. Kunden kan deretter betale fakturaen på samme måte som andre PayPal-betalinger.

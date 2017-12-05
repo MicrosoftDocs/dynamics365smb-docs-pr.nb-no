@@ -1,6 +1,6 @@
 ---
 title: Opprette salgsmuligheter | Microsoft-dokumentasjon
-description: Beskriver hvordan du oppretter salgsmuligheter fra en selger eller kontakt i Financials.
+description: Beskriver hvordan du oppretter salgsmuligheter fra en selger eller kontakt i Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 3137ed6aeaa235e2f2b4db7fdfb7dd7b8570c886
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-sales-opportunities"></a>Opprette salgsmuligheter
@@ -27,7 +27,7 @@ Du kan opprette salgsmuligheter i vinduet **Oversikt over salgsmuligheter**. Du 
 Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmulighet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser og faser for salgsmuligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Opprette en salgsmulighet fra en selger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
 2. Velg selgeren fra listen som du vil opprette en salgsmulighet for.
 3. Velg handlingen **Salgsmuligheter**, og velg deretter **Oversikt**.
 4. Velg handlingen **Ny**, og fyll deretter ut de relevante feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Opprette en salgsmulighet fra en kontakt
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg kontakten fra listen som du vil opprette en salgsmulighet for.
 3. Gjør ett av følgende:
    * Velg handlingen **Opprett salgsmulighet**.
@@ -45,5 +45,5 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
-[Arbeide med Financials](ui-work-product.md)
+[Arbeide med Dynamics 365](ui-work-product.md)
 

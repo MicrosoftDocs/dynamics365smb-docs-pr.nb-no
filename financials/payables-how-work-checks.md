@@ -1,6 +1,6 @@
 ---
 title: Utstede, skrive ut og kansellere sjekker | Microsoft-dokumentasjon
-description: Beskriver hvordan du utsteder sjekker ved hjelp av utbetalingskladden, skriver ut sjekker og kansellerer eller viser sjekkposter i Financials.
+description: Beskriver hvordan du utsteder sjekker ved hjelp av utbetalingskladden, skriver ut sjekker og kansellerer eller viser sjekkposter i Dynamics 365.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 0875164a3afee7a835346a8d4b9323dda9ebf080
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 85e5cd61571ec6e571a44e39f397bd370112dd5c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-work-with-checks"></a>Arbeide med sjekker
@@ -30,7 +30,7 @@ Prosessen med å utstede sjekker foreslår utbetalinger, oppretter poster og skr
 Skriveren må være riktig konfigurert for sjekkskjemaene, og du må definere hvilke sjekkoppsett som skal brukes. Hvis du vil ha mer informasjon, kan du se [Definere sjekkoppsett](finance-how-define-check-layouts.md)
 
 ## <a name="to-issue-checks"></a>Utstede sjekker
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
 2. Fyll ut kladden med relevante betalinger, for eksempel ved hjelp av funksjonen Betalingsforslag - leverandør. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md).
 3. I **Bankbetalingstype**-feltet på kladdelinjer for betaling som du vil gjøre med sjekker, velger du ett av følgende alternativer:
 
@@ -54,7 +54,7 @@ Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av
 ## <a name="to-void-checks"></a>Kansellere sjekker
 Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de resulterende bankpostene.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg relevant bankkonto, velg handlingene **Rediger** og **Sjekkposter**.
 3. I vinduet **Sjekkposter** velger du handlingen **Kanseller sjekk**.
 4. Merk av for **Kanseller sjekk**.

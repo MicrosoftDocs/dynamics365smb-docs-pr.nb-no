@@ -13,10 +13,10 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d260cf22980d097637e26d97282ad5e4f344120a
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 2939c4bf99b0fec05fd3625af589f05710a05a3c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløp
@@ -28,7 +28,7 @@ Du kan også bruke utgående betalinger manuelt i vinduet **Betalingskladd** ell
 
 Tabellen nedenfor beskriver en sekvens av oppgaver i leverandørgjeld, og har koblinger til emnene som beskriver dem.
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 | Generer forfalte leverandørbetalinger eller ansattrefusjoner, forbered sjekkutbetalinger og eksporter betalinger til en bankfil ved bokføring. |[Utføre betalinger](payables-make-payments.md) |
 | Utligne leverandørbetalinger automatisk på ubetalte kjøpsfakturaer ved å importere en bankkontoutdragsfil. |[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md) |

@@ -1,6 +1,6 @@
 ---
-title: Hva er nytt i Dynamics 365 for Financials| Microsoft-dokumentasjon
-description: Beskriver siste nytt og de nyeste oppdateringene for Dynamics 365 for Financials.
+title: Nyheter i Dynamics 365 Business edition | Microsoft-dokumentasjon
+description: Beskriver siste nytt og de nyeste oppdateringene for Dynamics 365 Business edition.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,18 +13,18 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 00fd623b6323b10a811d64c47b4a24d9a47b9f88
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="whats-new-in-dynamics-365-for-financials"></a>Hva er nytt i Dynamics 365 for Financials
-Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]! Registrer deg for prøveversjonen hvis du ikke allerede har gjort det, la oss veilede deg gjennom det grunnleggende du kan gjøre med [!INCLUDE[d365fin](includes/d365fin_md.md)], og prøv deretter ut på egen hånd en stund. Når du er klar, kan du åpne et tomt selskap og konfigurere ting for deg selv.  
+# <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nyheter i Dynamics 365 for Finance and Operations, Business edition
+Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Registrer deg for prøveversjonen hvis du ikke allerede har gjort det, la oss veilede deg gjennom det grunnleggende du kan gjøre med [!INCLUDE[d365fin](includes/d365fin_md.md)], og prøv deretter ut på egen hånd en stund. Når du er klar, kan du åpne et tomt selskap og konfigurere ting for deg selv.  
 
-Vi vil oppdatere regelmessig [!INCLUDE[d365fin](includes/d365fin_md.md)] med flere muligheter i kjerneprogrammet og nye [utvidelser](ui-extensions.md). For en oversikt over hva kommer og hva som er tilgjengelig, kan du se den [Dynamics 365-veikart](https://roadmap.dynamics.com/) - og husk å filtrere for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vi vil oppdatere regelmessig [!INCLUDE[d365fin](includes/d365fin_md.md)] med flere muligheter i kjerneprogrammet og nye [utvidelser](ui-extensions.md). For en oversikt over hva kommer og hva som er tilgjengelig, kan du se den [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - og husk å filtrere for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-På denne siden kan du se hvilke områder ble tilgjengelig mens vi var fortsatt i forhåndsvisning. Fremover, finner oppdateringer i den [Dynamics 365-veikart](https://roadmap.dynamics.com/).
+På denne siden kan du se hvilke områder ble tilgjengelig mens vi var fortsatt i forhåndsvisning. Fremover, finner oppdateringer i den [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>November 2016 lanseringen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Som annonsert i bloggen, er nå vi en tjeneste som du bruker i firmaet. Men denne oppdateringen legger også til nye muligheter og en ny filtype.
@@ -100,7 +100,7 @@ Med denne oppdateringen kan du velge mellom flere utvidelser i vinduet **Adminis
 Hvis du vil ha mer informasjon, kan du se [[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra andre leverandører](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Vi har lagt til en ny assistert installasjonsveiledningen til hjemmesiden for Business Manager som leder deg gjennom installasjonen til å koble til Dynamics 365 for Sales. Når dette er gjort, vil du ha en sømløs kobling i Dynamics 365 for Sales-oppføringer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Hvis du vil ha mer informasjon, kan du se [Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)] ](marketing-integrate-dynamicscrm.md).
+Vi har lagt til en ny assistert installasjonsveiledningen til hjemmesiden for Business Manager som leder deg gjennom installasjonen til å koble til Dynamics 365 for Sales. Når dette er gjort, vil du ha en sømløs kobling i Dynamics 365 for Sales-oppføringer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Hvis du vil ha mer informasjon, kan du se [Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Mai 2016 oppdatering
 Denne oppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] la til nye funksjoner som [annonsert på bloggen](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -129,5 +129,5 @@ Viktige scenarier å prøve på egen hånd:
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365-veikart](https://roadmap.dynamics.com/)  
+[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
 

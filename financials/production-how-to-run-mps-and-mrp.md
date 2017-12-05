@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ffe729c1d0fbbb062394f815281dcf658cbff783
+ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
+ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/02/2017
 
 ---
-# <a name="how-to-run-full-planning-mps-and-mrp"></a>Kjøre full planlegging, MPS og MRP
+# <a name="how-to-run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
--   *MPS* er beregningen av en hovedproduksjonsplan basert på faktisk behov og produksjonsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles "MPS-varer" og identifiseres dynamisk når beregningen starter.  
--   *MRP* er beregningen av materialbehov basert på faktisk behov for komponenter og produksjonsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  
+-   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og produksjonsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
+-   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og produksjonsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  
 
 Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene gjelder nettoberegning, gjenbruk av eksisterende etterfyllingsordrer samt handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er på lager eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] handlingsmeldinger. Handlingsmeldinger er forslag om å opprette en ny ordre, endre en ordre (antall eller dato) eller annullere en ordre som er bestilt. Betegnelsen "ordre" omfatter bestillinger, monteringsordrer, produksjonsordrer og overføringsordrer.
 
@@ -47,7 +47,7 @@ Med hver planlagte metode genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Funksjonen for planen Hent handlingsmeldinger kan kjøres mellom kjøringer av bevegelsesplanlegging og replanlegging for å få en oversikt over virkningen av planendringer, men er ikke ment å være en erstatning for fullstendige prosesser for bevegelsesplanlegging eller replanlegging.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Slik beregner du planleggingsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn replanlegging** for å åpne vinduet **Beregn Plan**.  
 3.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

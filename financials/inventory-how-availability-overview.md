@@ -12,10 +12,10 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 17af257627549023212c8c19f708c836c1c4bb7f
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
@@ -26,10 +26,10 @@ Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgje
 > [!NOTE]  
 >   Tilgjengelighetsvisninger etter lokasjon krever at du har beholdning på mer enn én lokasjon. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner](inventory-how-setup-locations.md).
 
-I [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene i to forskjellige felt, hver med en forskjellig definisjon:
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene i to forskjellige felt, hver med en forskjellig definisjon:
 
 * **Beholdning**-feltet viser det faktiske antallet i dag i henhold til bokførte vareposter.
-* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
+* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
 
 > [!TIP]  
 >   Beregnet disponibel saldo er spesielt relevant å vise i vinduene **Varetilgjengelighet per periode** og **Varetilgjengelighet per hendelse** fordi de inneholder datodimensjonen.  
@@ -40,7 +40,7 @@ I [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstalle
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner i vinduet **Tilgjengelighet per hendelse**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Hendelse**-handlingen.
 
@@ -50,7 +50,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder i vinduet **Varetilgjengelighet per periode**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Periode**-handlingen.
 
@@ -60,7 +60,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder i vind
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, i vinduet **Varetilgjengelighet per lokasjon**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Lokasjon**-handlingen.
 
@@ -71,7 +71,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner i vinduet **Varer per lokasjon**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Varer per lokasjon**.
 
     Vinduet **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.
@@ -119,6 +119,6 @@ Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles de
 [Definere lokasjoner](inventory-how-setup-locations.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  
 [Selge produkter](sales-how-sell-products.md)      
-[Arbeide med Financials](ui-work-product.md)  
+[Arbeide med Dynamics 365](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

@@ -1,6 +1,6 @@
 ---
 title: "Behandle inngående dokumenter | Microsoft-dokumentasjon"
-description: "Hvis du vil registrere et eksternt dokument, for eksempel et PDF-dokument, i Dynamics 365 for Financials, må du først opprette eller fylle ut en post for innkommende dokument."
+description: "Hvis du vil registrere et eksternt dokument, for eksempel et PDF-dokument, i Dynamics 365 Business edition, må du først opprette eller fylle ut en post for innkommende dokument."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b4d344c52bf6f10d00f2157fbdb45903402f6c55
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: f4dbb1ecca41861b6afa9371ebe2348eef8fcc0a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="processing-incoming-documents"></a>Behandle inngående dokumenter

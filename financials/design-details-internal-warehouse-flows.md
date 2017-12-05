@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9ba5203013af329f1d59432a5e5800fe486658cc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 957c8889d943ed412af7555271897b52c0759969
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interne lagerflyter
@@ -104,7 +104,7 @@ Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om �
 1.  Verkstedlederen frigir produksjonsordren. Varer med trekkmetoden **Fremover** og ingen rutekoblingskode, trekkes fra den åpne produksjonshylle.  
 2.  Verkstedlederen velger knappen **Opprett lagerplukk** på produksjonsordren. Et lagerplukkdokumentet opprettet plukking for varer med trekkmetodene **Manuell**, **Plukk + Bakover** og **Plukk + Fremover**. Disse varene plasseres i hyllen til produksjon.  
 3.  Lagerlederen tilordner plukkingene til en lagermedarbeider.  
-4.  Lagermedarbeideren plukker varene fra aktuelle hyller og plasserer dem i hyllen til produksjon eller i hyllen som er angitt i plukkingen, som kan være en arbeidssenterhylle eller produksjonsressurshylle).  
+4.  Lagermedarbeideren plukker varene fra aktuelle hyller og plasserer dem i hyllen til produksjon eller i hyllen som er angitt i plukkingen, som kan være en arbeidssenterhylle eller produksjonsressurshylle.  
 5.  Lagermedarbeideren registrerer plukkingen. Antallet trekkes fra plukkhyllene og legges til forbrukshyllen. **Plukket ant.**-feltet oppdateres i komponentoversikten for alle plukkede varer.  
 
     > [!NOTE]  

@@ -13,21 +13,23 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: badcdee3dfa5bec3c2462149989cf9d4fb5af2a0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 16c9c8c896e3517f08a7326eef88ebc646834b1a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="working-with-reports"></a>Arbeide med rapporter
 En rapport samler inn informasjon basert på et bestemt sett med vilkår og organiserer og viser informasjonen i et format som er lett å lese og som kan skrives ut. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene og salgsstatistikken.
 
-Du finner rapportene i **Rapporter**-kategorien på bestemte sider, eller du kan bruke Søk til å finne rapporter etter navn. Når du åpner en rapport, vises en side der du kan angi opplysninger (alternativer og filtre) som bestemmer hva du vil ha med i rapporten. Avhengig av rapporten kan du for eksempel angi et datointervall, en bestemt post som en kunde, eller sorteringsrekkefølge.
+Du finner rapportene i **Rapporter**-kategorien på bestemte sider, eller du kan bruke Søk til å finne rapporter etter navn. Når du åpner en rapport, vises en side der du kan angi opplysninger (alternativer og filtre) som bestemmer hva du vil ha med i rapporten. Avhengig av rapporten kan du for eksempel angi et datointervall, en bestemt post som en kunde, eller sorteringsrekkefølge. Her er et eksempel:
+
+![Alternativer for rapport](media/report_options.png "Alternativer for rapport")
 
 ## <a name="previewing-a-report"></a>Forhåndsvise en rapport
 Velg **Forhåndsvisning** for å vise rapporten i nettleseren. Pek på et område i rapporten for å vise menylinjen.  
 
-![Verktøylinje for forhåndsvisning av rapport](media/report_viewer.png "Verktøylinje for forhåndsvisning av rapport").
+![Verktøylinje for forhåndsvisning av rapport](media/report_viewer.png "Verktøylinje for forhåndsvisning av rapport")
 
 Bruk menylinjen til følgende:
 
@@ -42,10 +44,11 @@ Bruk menylinjen til følgende:
     Du kan flytte det synlige området i rapporten i en hvilken som helst retning slik at du kan vise andre områder i rapporten. Dette er nyttig når du har zoomet inn for å vise detaljer.  Ved hjelp av musen kan du for eksempel trykke på og holde museknappen hvor som helst i rapportforhåndsvisningen, og deretter flytte musen.
 
 -   Last ned til en PDF-fil på datamaskinen eller nettverket.
+-   Skriv ut
 
 
 ## <a name="saving-a-report"></a>Lagre en rapport
-Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved å velge **Send til**, og deretter velge. 
+Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved å velge **Send til**, og deretter velge.
 
 ## <a name="ScheduleReport"></a> Planlegge en rapport for kjøring
 Du kan planlegge at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. Planlagte rapporter legges i jobbkøen og behandles på det planlagte tidspunktet, på samme måte som andre jobber. Du kan velge å lagre den behandlede rapporten som en fil, for eksempel en Excel-, Word- eller PDF-fil, skrive den ut på en valgt skriver eller bare behandle rapporten. Hvis du lagrer rapporten i en fil, sendes den behandlede rapporten til området **Rapportinnboks** på Hjem-siden, der du kan vise den.
@@ -53,7 +56,7 @@ Du kan planlegge at en rapport skal kjøres på en bestemt dato og et bestemt kl
 Du kan planlegge en rapport når du åpner en rapport. Du velger **Tidsplan** og angir deretter informasjon om skriveren, og dato og klokkeslett. Rapporten legges deretter til i jobbkøen og kjøres på angitt tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobbkøen. Hvis du lagret den behandlede rapporten i en fil, er den tilgjengelig i området **Rapportinnboks**.
 
 ## <a name="PrintReport"></a>Skrive ut en rapport
-Når du vil skrive ut en rapport, må du laste ned rapporten som et PDF-, Word- eller Excel-dokument først ved å velge **Send til**. Nå kan du enten åpne rapportdokumentet med en gang og skrive det ut, eller lagre det og skrive det ut senere.
+Du kan skrive ut en rapport fra **Skriv ut**-knappen på siden med alternativer som vises når du åpner rapporten, eller fra menylinjen i forhåndsvisningen.
 
 ## <a name="using-saved-settings"></a>Bruke lagrede innstillinger
 En rapport kan inneholde én eller flere poster i **Lagrede innstillinger**-feltet. *Lagrede innstillinger* er en forhåndsdefinert gruppe med alternativer og filtre som du kan bruke i rapporten før du forhåndsviser eller sender rapporten til en fil. Lagrede innstillinger er en rask og pålitelig metode for å generere konsekvent rapporter som inneholder de riktige dataene.
@@ -69,5 +72,5 @@ Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet 
 ## <a name="see-also"></a>Se også
 [Angi skrivervalg for rapporter](ui-specify-printer-selection-reports.md)  
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
 

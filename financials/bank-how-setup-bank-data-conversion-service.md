@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6c7dd8051467b044b7fd569367c5af802d30e5c3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0a1c53428b0b64364a237da0932cda86d37d06f9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-set-up-the-bank-data-conversion-service"></a>Konfigurere tjeneste for konvertering av bankdata
@@ -34,7 +34,7 @@ Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankk
 >   Konverteringstjenesten for bankdata kan sette en grense for hvor mange linjer som kan eksporteres i én fil. Du får en feilmelding hvis grensen er overskredet. Det anbefales at bankkontoutdragsfiler ikke overstiger 1 000 linjer, siden behandlingstiden i konverteringstjenesten for bankdata kan øke betraktelig.
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a>Slik registrerer du selskapet for tjenesten for bankdatakonvertering:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.  
 2. Vinduet **Tjenesteoppsett for bankdatakonvertering** åpnes med tre felt som er forhåndsutfylt med de aktuelle URL-adressene til leverandøren av konverteringstjenesten for bankdata.
 
     > [!NOTE]  
@@ -53,7 +53,7 @@ Det anbefales at du beskytter påloggingsinformasjonen du angir i vinduet **Tjen
 2. I vinduet **Administrasjon av datakryptering** aktiverer du kryptering av dataene.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Vise eller oppdatere listen over gjeldende bankdataformater som støttes
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Banknavn – datakonverteringsliste** i vinduet **Tjenesteoppsett for bankdatakonvertering** for å åpne oversikten over banknavn som representerer bankdataformater som støttes av konverteringstjenesten.
 3. På siden **Banknavn – datakonverteringsliste** velger du handlingen **Oppdater banknavnliste**.
 

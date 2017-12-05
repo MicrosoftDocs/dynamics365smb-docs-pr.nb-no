@@ -1,6 +1,6 @@
 ---
 title: Forbindelser | Microsoft-dokumentasjon
-description: "Funksjonene for forbindelser i Financials er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter, slik at du kan betjene kunder effektivt."
+description: "Funksjonene for forbindelser i Dynamics 365 er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter, slik at du kan betjene kunder effektivt."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: contact, prospect, client
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 16ebd2d0525bec312368fba99d829b650b5015b2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: cf1ba18fff8691fd6b197f83ddbe9a983fe1a340
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
@@ -35,6 +35,6 @@ Se følgende emner for å komme i gang:
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Sette opp forbindelser](marketing-setup-marketing.md)  
-[Administrere kunderelasjoner ved hjelp av Dynamics 365 for Sales innenfra [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md)  
+[Behandle kunder og Salg som er opprettet i Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

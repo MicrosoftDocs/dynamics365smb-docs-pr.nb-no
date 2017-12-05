@@ -13,13 +13,13 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 53c588f65232656d2362873347c6c7dc0d412449
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1c82ab613d8f1fc5e71a81e6eead60cf9c0bf196
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-for-financials"></a>Vise listedata i Power BI-rapporter i Dynamics 365 for Financials
+# <a name="viewing-list-data-in-power-bi-reports-in-dynamics-365-business-edition"></a>Vise listedata i Power BI-rapporter i Dynamics 365 Business edition 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer en faktaboks kontrollelement på en rekke viktige listesider som gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten. Du kan opprette egendefinerte rapporter for å vises i kontrollen, men det finnes et par regler å følge når du oppretter rapporter for å sikre at de gir den ønskede virkemåten.  
 
 > [!NOTE]  

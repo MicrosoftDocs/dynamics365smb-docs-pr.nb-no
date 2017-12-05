@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6a1141c352dd93657d32bb83067ce32077901a47
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-companies"></a>Opprette kontaktselskaper
@@ -27,7 +27,7 @@ Det er to måter å opprette en kontakt på: fra grunnen av eller fra en eksiste
 Før du oppretter en kontakt, bør du kontrollere innstillingene i vinduet **Markedsføringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Sette opp forbindelser](marketing-setup-marketing.md).
 
 ## <a name="create-a-company-contact-from-scratch"></a>Opprette en selskapskontakt fra bunnen av
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Angi et nummer på kontakten i feltet **Nr.**.
 
@@ -41,7 +41,7 @@ Hvis du allerede har definert en rekke kunder, leverandører og bankkonti, kan d
 > [!NOTE]  
 >   Før du kan opprette kontaktselskaper på denne måten, må du angi en kode for forretningsforbindelse for kunder, leverandører og bankkonti, i vinduet **Markedsføringsoppsett**. Hvis du vil opprette kontakter fra en bankkonto, må du også angi nummerserie for bankkonti i vinduet **Finansoppsett**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi ett av følgende, avhengig av hvor du vil opprette kontakter fra, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi ett av følgende, avhengig av hvor du vil opprette kontakter fra, og velg deretter den relaterte koblingen.
    * **Opprett kontakter fra kunder**
    * **Opprett kontakter fra leverandører**
    * **Opprett kontakter fra bankkonti**
@@ -59,5 +59,5 @@ Hvis du allerede har definert en rekke kunder, leverandører og bankkonti, kan d
 [Tilordne bransjegrupper til en kontakt](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Tilordne postgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Opprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Arbeide med Financials](ui-work-product.md)
+[Arbeide med Dynamics 365](ui-work-product.md)
 

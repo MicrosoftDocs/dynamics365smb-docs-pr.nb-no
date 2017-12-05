@@ -1,6 +1,6 @@
 ---
 title: "Legge til den eksterne regnskapsføreren i Financials | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du kan invitere den eksterne regnskapsføreren til Dynamics 365 for Financials."
+description: "Finn ut hvordan du kan invitere den eksterne regnskapsføreren til Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 09/05/2017
+ms.date: 11/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b7efbb724f322d371e9e1b725612cb4eb0b3ceb2
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 9769d4b1e34da62290cc97de291462ee2d22c747
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,7 @@ Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finans
 Når regnskapsføreren har fått tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante vinduene for arbeidet.  
 
 > [!NOTE]  
->  Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse Financials-opplevelsen](ui-experiences.md).  
+>  Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse Dynamics 365-opplevelsen](ui-experiences.md).  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I den siste versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)], vi har gjort det mulig for deg å invitere den eksterne regnskap. Bare åpne **Brukere**-vinduet, og velg deretter **Inviter ekstern regnskapsfører** i båndet. En e-post er opprettet slik at du bare legger til regnskapsførerens arbeids-e-post og sender invitasjonen.  
@@ -31,7 +31,10 @@ I den siste versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)], vi har gjo
 ![Invitere regnskapsføreren din](./media/finance-invite-accountant/invite-accountant.png)
 
 > [!TIP]  
->  Dette krever at du har definert SMTP-e-post. Du kan gjøre dette selv eller be din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. I tillegg du må være logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brukeradministrator, ikke som bedriftseier eller andre brukere.  
+>  Dette krever at du har definert SMTP-e-post. Du kan gjøre dette selv eller be din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. I tillegg du må være logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brukeradministrator, ikke som bedriftseier eller andre brukere. Til slutt må du ha igjen prøveselskapet slik at du har en administrator for Azure Active Directory.  
+
+> [!IMPORTANT]  
+>  Regnskapsførerens e-postadresse må være en jobbadresse som er basert på en Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes.  
 
 ### <a name="separate-license"></a>Egen lisens
 Regnskapsføreren blir lagt til i Active Directory-leietakeren din bakgrunnen. Systemansvarlig kan kontrollere at regnskapsføreren godtar invitasjonen og tilordnes riktig lisens. Fremgangsmåten for å gjøre dette er avhengig av kontotypen du brukte da du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette emnet er basert på bruken av en Office 365-konto, som bruker Microsoft Azure Active Directory.  
@@ -43,6 +46,6 @@ En av lisenstypene for [!INCLUDE[d365fin](includes/d365fin_md.md)] er lisensen *
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Konfigurere e-post manuelt eller bruke assistert oppsett](madeira-how-setup-email.md)  
-[Regnskapsføreropplevelser i Dynamics 365 for Financials](finance-accounting.md)  
-[Financials for regnskapsførere på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Regnskapsføreropplevelser i Dynamics 365 Business edition](finance-accounting.md)  
+[Dynamics 365 for regnskapsførere på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

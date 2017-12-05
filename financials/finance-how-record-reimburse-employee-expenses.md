@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8674fcc050e11c9ecb1c423fc5048c1ef630e1ac
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 0e10011c598678134cb7badbd9a3be97751b4424
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-record-and-reimburse-employees-expenses"></a>Registrere og refundere ansattes utgifter
@@ -29,7 +29,7 @@ Hvis ansatte bruker egne penger under forretningsaktiviteter, kan du bokføre ut
 
 ## <a name="to-record-an-employees-expense"></a>Slik registrerer du utgifter for en ansatt
 Du bokfører utgifter for de ansatte i vinduet **Finanskladd**.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Åpne den relevante finanskladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 3. Fyll ut feltene etter behov på en ny kladdelinje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 4. Gjenta trinn 3 for alle utgifter som er påløpt for den ansatte.
@@ -40,7 +40,7 @@ Du bokfører utgifter for de ansatte i vinduet **Finanskladd**.
 
 ## <a name="to-reimburse-an-employee"></a>Slik refunderer du en ansatt
 Du refunderer ansatte ved bokføring av betalinger til deres bankkontoer i vinduet **Utbetalingskladd**.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
 2. Åpne den relevante kjørselen for utbetalingskladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 3. Fyll ut feltene etter behov. Hvis du vil ha mer informasjon, kan du se [Utføre betalinger](payables-make-payments.md).
 4. Du kan også velge handlingen **Betalingsforslag - ansatt** for å automatisk sette inn kladdelinjer for ventende refusjoner for ansatte.

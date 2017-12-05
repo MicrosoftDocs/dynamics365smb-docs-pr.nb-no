@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 74822d77b45f0ba1aaf8b255f611a54d051c1f52
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: b7617a0ac027b6d50c9029f386af3fe293e3bc7d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
@@ -31,7 +31,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 >  Følgende fremgangsmåte omfatter ikke standardtrinnene for ordrer før trinnet der du angir montere-til-ordre-varen på en ordrelinje.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Selge en vare som er montert til ordre  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3.  I feltet **Nr.** -feltet angir du en vare som er definert for å monteres til ordre.  
 4.  Definer hvilken lokasjon varen skal selges fra, i **Lokasjonskode**-feltet. Monteringsprosessen vil skje på den lokasjonen.  
@@ -50,7 +50,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
     Du kan også tilpasse rekkefølgen ved å øke antallet for én standardvare i settet. Du kan gjøre dette ved å øke verdien i **Antall per**-feltet på den bestemte monteringsordrelinjen.  
 
     > [!NOTE]  
-    >  Vinduet **Monteringsordrelinjene** inneholder de grunnleggende feltene som en selger forventes å bruke for å tilpasse komponentlisten, legge til varesporingsnumre eller løse problemer med komponenttilgjengelighet. Hvis du vil vise mer informasjon om monteringsordren, for eksempel startdatoen for den, velger du **Vis dokumenter** under **Prosess** i kategorien **Hjem**. Dette åpner en full visning av monteringsordren som er knyttet til ordrelinjen. Du kan ikke endre innholdet i de fleste av feltene i monteringsordrehodet, og du kan ikke bokføre monteringsavgang herfra fordi du må bruke leveringsbokføring for ordrelinjen.  
+    >  Vinduet **Monteringsordrelinjene** inneholder de grunnleggende feltene som en selger forventes å bruke for å tilpasse komponentlisten, legge til varesporingsnumre eller løse problemer med komponenttilgjengelighet. Hvis du vil vise mer informasjon om monteringsordren, for eksempel startdatoen for den, velger du **Vis dokumenter**-handlingen. Dette åpner en full visning av monteringsordren som er knyttet til ordrelinjen. Du kan ikke endre innholdet i de fleste av feltene i monteringsordrehodet, og du kan ikke bokføre monteringsavgang herfra fordi du må bruke leveringsbokføring for ordrelinjen.  
     >   
     >  I hodet til koblede monteringsordrer der det bare **Startdato**-feltet som kan endres for at monteringsarbeidere kan angi en tidligere dato enn forfallsdatoen når de vil starte prosessen. Alle feltene på linjene i den tilknyttede monteringsordren kan endres slik at lagermedarbeidere kan angi forbruksverdier under prosessen.  
 

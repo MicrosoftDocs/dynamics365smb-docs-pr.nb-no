@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 54bbe338b71ece1322b10e0e4203489cf8ab2f49
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-production-boms"></a>Opprette produksjonsstykklister
@@ -26,11 +26,11 @@ En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvf
 
 Før du kan definere en rute, må følgende være på plass:  
 
-- Varekort er opprettet for overordnede varer som inngår i produksjonen. Hvis du vil ha mer informasjon, kan du se [Registrere nye produkter](inventory-how-register-new-items.md).
+- Varekort er opprettet for overordnede varer som inngår i produksjonen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 - Produksjonsressurser er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Slik oppretter du en produksjonsstykkliste  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil kunne redigere stykklisten, setter du **Status**-feltet til **Ny** eller **Under utvikling**. Hvis du vil aktivere den, setter du **Status**-feltet til **Sertifisert**.  
@@ -47,7 +47,7 @@ Før du kan definere en rute, må følgende være på plass:
 9.  I feltet **Rutekoblingskode** registrerer du en kode for å koble komponenten til en bestemt operasjon. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter du rutekoblinger" i [Opprette ruter](production-how-to-create-routings.md).
 10. Hvis du vil kopiere linjer fra en eksisterende produksjonsstykkliste, velger du **Kopier stykkl.** for å velge eksisterende linjer.  
 11.  Godkjenn produksjonsstykklisten.  
-12.  Nå kan du knytte den nye produksjonsstykklisten til kortet for den aktuelle overordnede varen. Hvis du vil ha mer informasjon, kan du se [Registrere nye produkter](inventory-how-register-new-items.md).  
+12.  Nå kan du knytte den nye produksjonsstykklisten til kortet for den aktuelle overordnede varen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Hvis du vil beregne varens standardkost fra varekortet, velger du **Produksjon** og deretter **Beregn standardkost**.  
@@ -57,7 +57,7 @@ Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstatt
 
 Startdatoen angir starten på perioden som denne versjonen er gyldig i. I alle andre tilfeller er startdatoen et filterkriterium for beregninger og evalueringer. Stykklisteversjonen er gyldig til neste versjon blir gyldig.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
 2.  Velg produksjonsstykklisten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3.  I fanen **Hjem** under **Ny** velger du **Ny**.  
 4. Fyll ut feltene etter behov.

@@ -1,8 +1,6 @@
 ---
-title: "Minimumskrav for å bruke Financials | Microsoft-dokumentasjon"
-description: "Lær om minimumskrav til system og versjon for bruk av Dynamics 365 for Financials."
-services: project-madeira
-documentationcenter: 
+title: "Minimumskrav for å bruke Dynamics 365 Business edition | Microsoft-dokumentasjon"
+description: "Lær om minimumskrav til system og versjon for bruk av Dynamics 365 Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -10,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/02/2017
+ms.date: 09/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f5b9c3a8ef7337d3b958e733e034c79a9bc2bc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: fb17aada5494bb700edc005599ff8cbc764abe83
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="minimum-requirements-for-using-dynamics-365-for-financials"></a>Minimumskrav for å bruke Dynamics 365 for Financials
+# <a name="minimum-requirements-for-using-dynamics-365-business-edition"></a>Minimumskrav for å bruke Dynamics 365 Business edition
 Før du åpner [!INCLUDE[d365fin](includes/d365fin_md.md)], anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
 
 ## <a name="browsers"></a>Nettlesere

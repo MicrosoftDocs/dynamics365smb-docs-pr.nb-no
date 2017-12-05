@@ -13,10 +13,10 @@ ms.search.keywords: personalization
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a93843c39c38692fb6a7703b5befedfbc78007a7
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 35a075d5c77dfacb4f817446ebdfd0f137a19a1a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="displaying-lists-in-different-ways"></a>Vise lister på ulike måter
@@ -28,6 +28,6 @@ I varelisten er det nyttig å ha bilder for å få en rask oversikt over hva du 
 Du kan importere et bilde for en bestemt vare ved å gå til **Vare**-kortet, velg **Bilde** og deretter **importer** på høyre side. Du kan også eksportere et bilde til en fil eller slette bildet for varen.  
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
 

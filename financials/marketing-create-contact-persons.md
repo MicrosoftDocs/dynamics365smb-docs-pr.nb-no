@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1e7d9f6e05f12ff826959dee420917f36258b573
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 59ab4fdc2cedb39296985dfaf9c5ac66fd5bf61d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="creating-contact-persons"></a>Opprette kontaktpersoner
@@ -28,9 +28,9 @@ Du trenger kanskje også få oversatt noen publikasjoner om produktene og bestem
 
 Ved å legge inn så mange detaljer som mulig om en kontaktperson sørger du for at alle grupper i bedriften kan finne de relevante opplysningene.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem. 
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 | Angi opplysninger om en kontaktperson. |[Opprette kontaktpersoner](marketing-how-create-contact-persons.md) |
 | Opprett en alternativ adresse for en kontakt. |[Tilordne alternative adresser](marketing-how-assign-alternate-address.md) |
@@ -41,5 +41,5 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Opprette kontaktselskaper](marketing-create-contact-companies.md)  
 [Opprette og administrere kontakter]()  
-[Arbeide med Financials](ui-work-product.md)
+[Arbeide med Dynamics 365](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: e41a704d3a94abfb58d9547648f0eee46a8ed9b4
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 694affae6dfe3015fdc73bf9e2d9dfe3357dfae7
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Koble til Financials-dataene for å utvikle en forretningsapp ved hjelp av PowerApps
@@ -32,7 +32,7 @@ Du kan gjøre [!INCLUDE[d365fin](includes/d365fin_md.md)]-data tilgjengelige som
 
    PowerApps Studio for Windows er et skrivebordsprogram som brukes til å opprette og publisere PowerApps. PowerApps Studio for Web er et nettløsningen som brukes til å opprette og publisere PowerApps.
 4. Neste trinn for å opprette en PowerApp er å velge data. Velg pilikonet og deretter velge **Ny tilkobling** i øvre venstre side av siden.
-5. I listen over tilgjengelige tilkoblinger, velger du **Dynamics 365 for Financials**.
+5. I listen over tilgjengelige tilkoblinger velger du **Dynamics 365 Business edition**.
 6. PowerApps vil vise en tilkoblingsside som ber deg om informasjonen som kreves for å koble til dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data. Hvis du vil koble til, må du angi en OData URL-adresse, brukernavn, passord og selskapsnavn.
 
    For *OData URL-adressen*, kan du kopiere OData V4 URL-adressen for web-tjenester som er oppført på siden **Web Services** i [!INCLUDE[d365fin](includes/d365fin_md.md)], som `https://mycompany.financials.dynamics.com:7048/MS/ODataV4/`.  

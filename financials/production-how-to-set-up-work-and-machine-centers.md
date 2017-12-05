@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: c06f828b50d217404bcdd3caafeb8843b40faffc
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon
+# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 Programmet skiller mellom tre typer kapasiteter. Disse er rangert hierarkisk. Hvert nivå inneholder underordnede nivåer.  
 
 Det øverste nivået er arbeidssentergruppen. Arbeidssentre er tilordnet arbeidssentergruppene. Hvert arbeidssenter kan bare tilhøre én arbeidssentergruppe.
@@ -33,7 +33,7 @@ Tilgjengeligheten lagres i kalenderposter. Før du definerer arbeidssentre eller
 ## <a name="to-set-up-a-work-center"></a>Slik oppretter du et arbeidssenter:
 I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter. Fremgangsmåten for å sette opp en produksjonsressurskalender er lik unntatt hurtigfanen **Ruteoppsett**.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg eventuelt ressursgruppen på et høyere nivå som arbeidssenteret er organisert under, i feltet **Arbeidssentergruppe**. Velg **Ny**-handlingen i rullegardinlisten.  
@@ -65,7 +65,7 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
     > [!NOTE]  
     > Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
 
-13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis **Produktnavn**-installasjonen ikke inngår i Produksjonssenter-funksjonaliteten, må verdien i dette feltet være **1**).  
+13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av  [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
 14.  I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
 15. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
 16.  Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md) for mer informasjon.  
@@ -89,7 +89,7 @@ I vinduet **Kapasitetsbegrensede ressurser** kan du gjøre oppsett som unngår o
 
 Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen ressurser lastes over den angitte kapasiteten (kritisk belastning). Dette gjøres ved å tilordne hver operasjon til nærmeste tilgjengelige tidsluke. Hvis tidsperioden ikke er stor nok til å fullføre hele operasjonen, vil operasjonen bli delt inn i to eller flere deler som plasseres i de nærmeste tilgjengelige tidsrommene.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kapasitetsbegrensede ressurser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kapasitetsbegrensede ressurser**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 166d85bbcf7d97cb513ba668e41fc4a179d8fcc3
+ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
+ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 10/17/2017
 
 ---
 # <a name="how-to-create-routings"></a>Opprette ruter
@@ -28,11 +28,11 @@ Som for produksjonsstykklister tilordnes rutene til den ferdige produksjonsvaren
 
 Før du kan definere en rute, må følgende være på plass:  
 
-- Varekort er opprettet for overordnede varer som inngår i produksjonen. Hvis du vil ha mer informasjon, kan du se [Registrere nye produkter](inventory-how-register-new-items.md).
+- Varekort er opprettet for overordnede varer som inngår i produksjonen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 - Produksjonsressurser er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Slik oppretter du en rute  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg **Seriell** i **Type**-feltet for å beregne produksjonsruten i henhold til verdien i **Operasjonsnr.**-feltet .   
@@ -53,7 +53,7 @@ Før du kan definere en rute, må følgende være på plass:
 12.  Fortsett med å fylle ut linjer for alle operasjonene som kreves for å produsere den aktuelle varen.  
 13.  Hvis du vil kopiere linjer fra en eksisterende rute, velger du **Kopier rute** for å velge eksisterende linjer.  
 14. Godkjenn ruten.  
-15. Nå kan du knytte den nye ruten til kortet for den aktuelle produksjonsvaren ved å fylle ut feltet **Rutenr.** Hvis du vil ha mer informasjon, kan du se [Registrere nye produkter](inventory-how-register-new-items.md).  
+15. Nå kan du knytte den nye ruten til kortet for den aktuelle produksjonsvaren ved å fylle ut feltet **Rutenr.** Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 >  Husk også å beregne varens standardkost fra **Vare**-kortet: Velg **Produksjon**, velg **Beregn standardkost**, og velg deretter **Alle nivåer**.  
@@ -63,7 +63,7 @@ Du kan opprette rutekoblinger til å koble komponenter til bestemte operasjoner 
 
 En annen viktig fordel er at koblede komponenter og operasjoner vises i en logisk prosesstruktur når du bruker **Produksjonskladd**-vinduet til bokføring av avgang og forbruk.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Åpne ruten som inneholder operasjonene du vil koble.  
 
     Kontroller at rutestatus er **Under utvikling**.  
@@ -94,7 +94,7 @@ De valgte komponentene kobles nå til de valgte operasjonene når du oppretter e
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Slik tilordner du personellet, verktøyene og kvalitetsmålene til ruteoperasjoner.
 Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell godkjenning for en operasjon, kan du tilordne dette personellet til operasjonen. Du kan dessuten tilordne verktøy og kvalitetskrav til operasjonen. Denne fremgangsmåten beskriver hvordan du tilordner personell. Fremgangsmåten er de samme som for andre typer informasjon om operasjoner.
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ruten.  
 3.  På hurtigfanen **Linjer** velger du linjen du vil behandle, og velg deretter **Personell**.  
 4.  Fyll ut feltene i **Rutepersonell**-vinduet.  
@@ -103,7 +103,7 @@ Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell go
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Slik oppretter du en ny versjon av en rute  
 Med versjonsprinsippet kan du håndtere flere versjoner av en rute. Strukturen i ruteversjonen tilsvarer strukturen i ruten som består av ruteversjonshodet og ruteversjonslinjene. Hovedforskjellen defineres av startdatoen.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Velg ruten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3. I vinduet **Ruteversjoner** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov.

@@ -1,6 +1,6 @@
 ---
-title: Bruke Dynamics 365 for Financials med Outlook | Microsoft-dokumentasjon
-description: "Dynamics 365 for Financials er tett integrert med Office 365, slik at du kan behandle alle forretningssamhandlinger og e-postmeldinger med kunder og leverandører direkte i Outlook."
+title: Bruke Dynamics 365 Business edition med Outlook | Microsoft-dokumentasjon
+description: "Dynamics 365 Business edition er tett integrert med Office 365, slik at du kan behandle alle forretningssamhandlinger og e-postmeldinger med kunder og leverandører direkte i Outlook."
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -13,24 +13,24 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1944d7633c5f19a42ae8bbe022b8ef026e9515cd
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 86cb193e6a86caef01f57671af2ecd54a2c4a271
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="using-dynamics-365-for-financials-as-your-business-inbox-in-outlook"></a>Bruke Dynamics 365 for Financials som forretningsinnboks i Outlook
+# <a name="using-dynamics-365-for-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Bruke Dynamics 365 for Finance and Operations, Business edition som innboks for virksomheten i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 ## <a name="get-the-add-in"></a>Få tillegget
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er ett av trinnene i det assisterte oppsettet Komme i gang i vinduet **Styr virksomheten fra Office 365**. Når du velger **Konfigurer i Outlook**-knappen i dette vinduet, må du angi brukernavnet og passordet ditt for Office 365. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  
 
-Deretter, når du åpner Outlook, vil du se en e-postmelding fra Financials-administratoren. Det nye tillegget blir lagt til Outlook-båndet og i Outlook Web Access, og du kan se det i tilleggsbåndet, like over brødteksten i e-postmeldingen. Tillegget selve blir oppdatert med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
+Deretter, når du åpner Outlook, vil du se en e-postmelding fra Dynamics 365-administratoren. Det nye tillegget blir lagt til Outlook-båndet og i Outlook Web Access, og du kan se det i tilleggsbåndet, like over brødteksten i e-postmeldingen. Tillegget selve blir oppdatert med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
 Enkelte selskaper bruker Office 365, begrense brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Office 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Bruke tillegget Innsikt for kontakter
-La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne Financials-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for hans firma. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kunde, kan du opprette dem som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uten å forlate Outlook.  
+La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for hans firma. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kunde, kan du opprette dem som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uten å forlate Outlook.  
 
 I tillegget kan du opprette et tilbud og sende det tilbake til kunden uten å forlate Outlook. All informasjon du trenger for å sende tilbudet er tilgjengelig i innboksen for virksomheten i Outlook.  
 Når du har angitt dataene, kan du publisere tilbudet. Du kan deretter sende det i e-post. [!INCLUDE[d365fin](includes/d365fin_md.md)] genererer en PDF-fil med tilbudet og legger det ved i e-postmeldingen som du kladder i tillegget.  
@@ -52,14 +52,14 @@ I Dokumentkoblinger-tillegget kan du endre og utføre handlinger med dokumentet,
 ## <a name="adding-the-add-ins-manually"></a>Legge til tillegg manuelt
 I noen tilfeller tilleggene ikke få legges til automatisk i Outlook. Selv om du eller en kollega kjørte assistert installasjonsveiledningen på vegne av selskapet, [!INCLUDE[d365fin](includes/d365fin_md.md)] kanskje ikke vises i Outlook. Hvis du opplever dette problemet, kan du legge til [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene manuelt.  
 
-Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Åpne ganske enkelt Outlook Web Access i en webleser, og legg deretter til `/owa/#path=/options/manageapps` i URL-adressen i adresselinjen. Dette åpner siden **Administrer tillegg**, der du kan aktivere Financials for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] skal være tilgjengelige.  
+Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Åpne ganske enkelt Outlook Web Access i en webleser, og legg deretter til `/owa/#path=/options/manageapps` i URL-adressen i adresselinjen. Dette åpner siden **Administrer tillegg**, der du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] skal være tilgjengelige.  
 
 På samme måte i Outlook-skrivebordsklient, kan du bekrefte at [!INCLUDE[d365fin](includes/d365fin_md.md)] er oppført i vinduet **Administrer tillegg**.  
 
 I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ikke er tilgjengelig, må du få tilleggsmanifestfilene. Hvis du vil ha mer informasjon, kontakt systemansvarlig for Office 365.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

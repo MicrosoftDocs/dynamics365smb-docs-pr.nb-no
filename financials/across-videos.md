@@ -1,5 +1,5 @@
 ---
-title: Finne videoer om bruk av Dynamics 365 for Financials | Microsoft-dokumentasjon
+title: Finne videoer om bruk av Dynamics 365 Business edition | Microsoft-dokumentasjon
 description: "Gir tilgang til komme i gang-videoer som illustrerer hvordan du kan utføre vanlige oppgaver."
 services: project-madeira
 documentationcenter: 
@@ -13,10 +13,10 @@ ms.search.keywords: video, library, how to
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6e5f4e0b32b90a19f4f58a1fd792a686c0cb41d0
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c3cb769e45d2ef2ade6eb82118cd6f79b5e3cf9d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
@@ -35,10 +35,12 @@ Du får tilgang til videoene på flere måter. Hvis du allerede arbeider i [!INC
 * Fra rollesenteret **Forretningsleder** ved å velge **Virksomhetshjelp** og deretter **Vis ressurser for oppsett og hjelp**.  
 
 > [!Tip]  
-> I tillegg til videoer inneholder **Virksomhetshjelp** ressurser, for eksempel koblinger til emner og assisterte oppsettsveiledninger som gjør det enklere å konfigurere ting. Disse ressursene erstatter diagrammet i rollesenteret. Etter at du har utforsket ressursene, kan du gå tilbake til diagrammet på menyen **Virksomhetshjelp** ved å velge **Vis diagram**.  
+> Videoer i biblioteket vises i en ramme som kan virke litt liten. Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil i rammen øverst til høyre. Etter det vil videoene vises i en større ramme til du gjør den liten igjen.  
+
+I tillegg til videoer inneholder **Virksomhetshjelp** ressurser, for eksempel koblinger til emner og assisterte oppsettsveiledninger som gjør det enklere å konfigurere ting. Disse ressursene erstatter diagrammet i rollesenteret. Etter at du har utforsket ressursene, kan du gå tilbake til diagrammet på menyen **Virksomhetshjelp** ved å velge **Vis diagram**.  
   
 Du kan vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-kanalen vi opprettet for Microsoft Dynamics 365. Gå til kanalen nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 

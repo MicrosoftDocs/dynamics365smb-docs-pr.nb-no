@@ -1,6 +1,6 @@
 ---
 title: Opprete nummerserier | Microsoft-dokumentasjon
-description: Finn ut hvordan du definerer nummerserier som tilordner unike ID-koder til konti og dokumenter i Dynamics 365 for Financials.
+description: Finn ut hvordan du definerer nummerserier som tilordner unike ID-koder til konti og dokumenter i Dynamics 365 Business edition.
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: numbers, numbering
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7cc119c5879400adf63e468259a2c3a275b71cca
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 8605c5273ac69ff7a5b8b8dab59b0856795ed706
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-number-series"></a>Opprette nummerserier
@@ -31,7 +31,7 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
 ## <a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ Nå når du oppretter et nytt kort eller et dokument som er konfigurert til å b
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
 Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salg**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salg**, og velg deretter den relaterte koblingen.
 2. I **Salg**-vinduet på hurtigfanen **Nummerserie** velger du ønsket nummerserie for hvert salgskort eller dokument.
 
 Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.
@@ -49,7 +49,7 @@ Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet el
 ## <a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
 Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnleggende opplysninger eller transaksjoner, kan du opprette forbindelser mellom kodene. Denne funksjonen kan hjelpe deg med å velge mellom koder når du bruker et nummer.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
 2. Velg linjen med nummerserien du vil opprette forbindelser for, og velg deretter **Forbindelser**.
 3. I **Seriekode**-feltet angir du koden for nummerserien du vil knytte til serien du valgte i trinn 2.
 4. Legg til en linje for hver kode du vil knytte til den valgte nummerserien.

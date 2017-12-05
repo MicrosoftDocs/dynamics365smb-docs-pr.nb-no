@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 4ced0ece340de08598fecff157d59aa708e4e17c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70a0773826984bab5c49334a88ea48872a629023
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Gjennomsnittskost
@@ -108,7 +108,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Tabellen nedenfor viser postene i tabellen **Utgangspunkt for justering av gjennomsnittskost** som gjelder verdiposter som er et resultat av varepostene i tabellen ovenfor.  
 
-|**Varenr.**|**Variantkode)**|**Lokasjonskode**|**Verdisettingsdato**|**Kost er justert**|  
+|**Varenr.**|**Variantkode**|**Lokasjonskode**|**Verdisettingsdato**|**Kost er justert**|  
 |-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
 |VARE1||BLÅ|31.01.20|Nei|  
 |VARE1||BLÅ|28.02.20|Nei|  

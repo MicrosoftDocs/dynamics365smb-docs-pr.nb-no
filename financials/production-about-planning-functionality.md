@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0910760881decc98ba1bfa6e8753566316386b2c
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: a00f88aaf70464c8911d59b829b08dda900dc474
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
@@ -75,7 +75,7 @@ Følgende ordremodifikatorer finnes på vare- eller LFE-kortet:
 
 Oppsettsfeltene for global planlegging i **Produksjonsoppsett**-vinduet omfatter følgende:  
 
--   Dynamisk lavnivåkode]  
+-   Dynamisk lavnivåkode  
 -   Gjeldende produksjonsprognose  
 -   Bruk prognose på lokasjoner  
 -   Standard sikkerhetstid  
@@ -119,7 +119,7 @@ Planleggingssystemet foreslår at det opprettes en forsyningsordre for å oppfyl
 Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke skal forekomme hvis gjenbestillingspunktet er riktig angitt.
 
 > [!NOTE]
-> Forsyning på planleggingslinjer med unntaksadvarsler endres vanligvis ikke i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet bare en forsyning for å dekke den nøyaktige behovsmengden. Du kan imidlertid angi planleggingskjøringen for å respektere visse planleggingsparametre for planleggingslinjer med bestemte advarsler. Hvis du vil ha mer informasjon, kan du se "Respekter planleggingsparametre for unntaksadvarsler" i Beregn plan - planl.forslag. Wksh.
+> Forsyning på planleggingslinjer med unntaksadvarsler endres vanligvis ikke i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet bare en forsyning for å dekke den nøyaktige behovsmengden. Du kan imidlertid angi planleggingskjøringen for å respektere visse planleggingsparametre for planleggingslinjer med bestemte advarsler. Hvis du vil ha mer informasjon, kan du se "Respekter planleggingsparametre for unntaksadvarsler" i Beregn plan - planl. forslag.
 
 ### <a name="attention"></a>Viktig
 Tilsyn-advarselen vises i to situasjoner:

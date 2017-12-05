@@ -1,8 +1,6 @@
 ---
 title: Definere salgssykluser for salgsmuligheter og syklusfaser | Microsoft-dokumentasjon
-description: "Beskriver hvordan du definerer salgsfaser, fra første kontakt til avslutning, for å opprette en salgssyklus og tilordne den til salgsmuligheter i Financials."
-services: project-madeira
-documentationcenter: 
+description: "Beskriver hvordan du definerer salgsfaser, fra første kontakt til avslutning, for å opprette en salgssyklus og tilordne den til salgsmuligheter i Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 29f9caa8f01fe8e4cfd0f65cc290d82a49fb36bb
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d164dd313352e80b6ce4e6f4ba8408e1e2c093de
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-opportunity-sales-cycles-and-cycle-stages"></a>Definere salgssykluser for salgsmuligheter og syklusfaser
@@ -27,7 +25,7 @@ Implementering av salgssykluser for salgsmulighet innebærer å definere salgssy
 Dette emnet beskriver også hvordan du definerer oppgaver og aktiviteter, og hvordan du tilordner oppgaver til aktiviteter. Hvis du vil ha mer informasjon, kan du se delen «Definere aktiviteter med oppgaver».
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Definere salgssykluskoder for salgsmuligheter
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgssykluser**, og velg deretter den relaterte koblingen. Vinduet **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgssykluser**, og velg deretter den relaterte koblingen. Vinduet **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.
 2. Velg handlingen **Ny**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gjenta disse trinnene for å konfigurere så mange salgssykluser som du vil. Etter at du har definert salgssykluser for salgsmuligheter, bør du definere ulike faser i hver enkelt syklus.
@@ -44,7 +42,7 @@ Når du legger til fasesyklusen for salgsmulighet, kan du begynne å legge til s
 ## <a name="to-set-up-activities-with-tasks"></a>Definere aktiviteter med oppgaver
 Du kan kombinere flere oppgaver, for eksempel oppgaver som representerer et trinn, i aktiviteter. Aktivitetsoppgaver er knyttet til hverandre ved hjelp av en datoformel. Du kan tilordne aktiviteter til salgsmuligheter, selgere eller kontakter.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Aktiviteter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Aktiviteter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut feltene etter behov.
 3. I hurtigfanen **Linjer** fyller du ut feltene etter behov for å definere én eller flere oppgaver i aktiviteten.
 
@@ -54,7 +52,7 @@ Når du har definert en oppgave, kan du tilordne den til en salgsmulighet og der
 > [!NOTE]  
 >   Denne fremgangsmåten beskriver hvordan du tilordner aktivitetsoppgaver til salgsmuligheter. Fremgangsmåten ligner den du bruker når du tilordner oppgaver til selgere og kontakter.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgsmuligheter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsmuligheter**, og velg deretter den relaterte koblingen.
 2. Velg en salgsmulighet, og velg deretter handlingen **Oppgaver**.
 3. I vinduet **Oppgaveliste** velger du handlingen **Opprett oppgave**.
 4.  Fyll ut feltene etter behov i vinduet **Opprett oppgave**.

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6cdd86fb96e89e99ea2378221d2991bd640f887e
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 4bc8694fc1da6caab88c3b462e5b50306d08271b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
@@ -37,7 +37,7 @@ Når du velger **Lagre endringer** i vinduet **Varetilgjengelighet per tidslinje
 Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av dra og slipp. Som et alternativ kan du endre feltene **Forfallsdato** og **Antall** på hurtigfanen **Hendelsesendringer** og umiddelbart se endringene grafisk på hurtigfanen **Tidslinje** i vinduet **Planleggingsforslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Endre foreslåtte forsyningsordrer i den grafiske visningen  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
 
     Vinduet **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
 

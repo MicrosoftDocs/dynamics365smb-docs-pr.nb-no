@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7e76ef1d5622486c3d8055f6e0ccbe3564a96701
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: face4821059b57c32e06dca46ec5144aba4ca528
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Gjennomgang: spore serie-/partinumre
@@ -71,7 +71,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 ### <a name="to-create-the-items"></a>Slik oppretter du varene  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I feltet **Nr.** -feltet angir du **2000** og forstetter med å fylle ut følgende felt.  
 
@@ -107,7 +107,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter kjøper du racersykkelframmar fra Custom Metals Incorporated.  
 
 ### <a name="to-purchase-components"></a>Kjøpe komponenter  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett en bestilling for leverandøren, Klubben, ved å fylle ut følgende linjefelt.  
 
@@ -121,7 +121,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 7.  Velg **Bokfør**-handlingen, velg **Motta og fakturer**-alternativet, og velg deretter **OK**-knappen.  
 
     Deretter kjøper du racersykkelrammer fra Coolwood Technologies.  
-8.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+8.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 9. Velg handlingen **Ny**.
 10. Opprett en bestilling for leverandøren, Kontorengros A/S, ved å fylle ut følgende linjefelt.  
 
@@ -137,11 +137,10 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter produserer du to racersykler, SN1 og SN2.  
 
 ### <a name="to-produce-end-items"></a>Produsere sluttvarer  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg gruppen **Ny**.  
 3.  Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt.  
 
-    ||||  
     |-|-|-|  
     |Kildenr.|Antall|Serienr.|  
     |1002|2|SN1|  
@@ -159,7 +158,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Deretter produserer du to racersykler til, SN3 og SN4.  
 
-11. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
+11. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
 12. Velg handlingen **Ny**.  
 13. Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt i hodet.  
 
@@ -184,7 +183,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter selger du racersykler. Selg først racersykkelen med SN1 til Møbelhandleren A/S.  
 
 ### <a name="to-sell-the-end-items"></a>Selge sluttvarer  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -196,7 +195,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Nå kan du selge racersykkelen med SN2 til Kontorkomplett AS  
 
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 6.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -208,7 +207,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Til sist selger du noen racersykkelrammer separat. Kontorkomplett AS bestiller også fire separate racersykkelrammer for sin egen produksjonslinje.  
 
-9. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+9. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 10. Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -226,7 +225,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
  Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at den returnerte racersykkelen, vare 1002, har serienummeret SN1. Ved hjelp av denne enkle informasjonen kan han finne ut hvor den ferdige racersykkelen sist ble brukt, i dette tilfellet på følgeseddelen til Møbelhandleren A/S. Kvalitetskontrolløren må deretter søke bakover til den tidligste opprinnelsen for å bestemme hvilket partinummer den defekte racersykkelrammen kom fra og hvilken leverandør som leverte den.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Slik finner du ut hvilket parti den defekte rammen var i, og hvem som leverte den:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
 2.  Angi **SN1** i feltet **Serienr.filter** i **Varesporing**-vinduet, og angi deretter **1002** i **Varefilter**-feltet.  
 3.  Behold standardinnstillingen **Bare varesporet** i **Vis komponenter**-feltet, og behold standard sporingsmetode **Forbruk – Opprinnelse** i **Sporingsmetode**.  
 4.  Velg handlingen **Spor**.  

@@ -1,8 +1,6 @@
 ---
 title: Bruke QuickBooks Migration-utvidelsen | Microsoft-dokumentasjon
-description: "Beskriver hvordan du bruker utvidelsen til å overføre kunder, leverandører, varer og konti fra QuickBooks Online til Financials."
-services: project-madeira
-documentationcenter: 
+description: "Beskriver hvordan du bruker utvidelsen til å overføre kunder, leverandører, varer og konti fra QuickBooks Online til Dynamics 365."
 author: bholtorf
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,14 +11,14 @@ ms. search.keywords: extension, migrate, data, QuickBooks, import
 ms.date: 05/24/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fe87a108d132ff25f0c93a51df58bb88fb12f421
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: e73db91a37fd5aee249de032d231df2c5e36b4ba
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-for-financials"></a>Utvidelsen QuickBooks Online Data Migration for Dynamics 365 for Financials
+# <a name="the-quickbooks-online-data-migration-extension-for-dynamics-365-business-edition"></a>Utvidelsen Datamigrering for QuickBooks Online for Dynamics 365 Business edition
 Utvidelsen er inkludert i den assisterte oppsettsveiledningen **Datamigrering** for å hjelpe deg å overføre viktige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er for eksempel praktisk når virksomheten er i vekst og du har besluttet å oppgradere appen for forretningsdrift ved å begynne å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvilke data kan jeg importere fra QuickBooks Online?
@@ -29,7 +27,7 @@ Du kan importere følgende data fra QuickBooks Online til [!INCLUDE[d365fin](inc
 * Kunder
 * Leverandører
 * Varer
-* Kontoplan 
+* Kontoplan
 * Startsaldotransaksjon i Finans
 * Beholdningsantall for lagervarer
 * Åpne dokumenter for kunder og leverandører, for eksempel fakturaer, kreditnotaer og betalinger
@@ -41,7 +39,7 @@ Vi overfører bare hele beløp på salgs- og kjøpsdokumenter. Vi oppdaterer ikk
 
 ## <a name="before-you-start"></a>Før du begynner
 En viktig del av overføringen er å angi kontiene som transaksjonene skal overføres til. Det er lurt å planlegge denne tilordningen før du overfører data. Kontiene der du for eksempel bokfører transaksjoner for følgende:  
-  
+
 * Salg av varer eller tjenestene til kunder.
 * Kjøp av varer eller tjenester fra leverandører.  
 * Justeringer i Finans.  
@@ -53,7 +51,7 @@ Hvis transaksjoner i QuickBooks Online har mva-beløp, må du definere en mva-ko
 ## <a name="how-do-i-start-using-the-extension"></a>Hvordan begynner jeg å bruke utvidelsen?
 Det er enkelt å komme i gang. Alt du trenger å gjøre, er å kjøre den assisterte oppsettsveiledningen **Datamigrering**. Slik gjør du det:
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
 2. Følg instruksjonene for hvert trinn i den assisterte oppsettsveiledningen.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hva gjør jeg etter at jeg har overført dataene?

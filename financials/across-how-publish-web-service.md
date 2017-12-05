@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 278515fc479a72957fb52dad71ce2f98d354ee32
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: af1aef6ec730083c49b17ae8c0c9e39c7f663244
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-publish-a-web-service"></a>Publisere en webtjeneste
@@ -27,7 +27,7 @@ Du kan definere en webtjeneste i Windows-klienten eller i webklienten. Du må de
 
 #### <a name="to-create-and-publish-a-web-service"></a>Slik oppretter og publiserer du en webtjeneste  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Webtjenester**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Webtjenester**, og velg deretter den relaterte koblingen.  
 
 2.  På siden **Webtjenester** velger du **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -44,27 +44,13 @@ Når du publiserer en webtjeneste, er den tilgjengelig for eksterne parter. Du k
 
 #### <a name="to-verify-the-availability-of-a-web-service"></a>Slik kontrollerer du tilgjengeligheten til en webtjeneste  
 
-1.  Angi den aktuelle URL-adressen i nettleseren. Tabellen nedenfor viser hvilke typer URL-adresser som du kan angi. Bruk følgende format for din URI for SOAP-webtjenester.  
+1.  Angi den aktuelle URL-adressen i nettleseren. Tabellen nedenfor viser hvilke typer URL-adresser som du kan angi.  
 
-    <table>
-    <tr>
-    <th>Webtjenestetype</th>
-    <th>Syntaks</th>
-    <th>Eksempel</th>
-    </tr>
-    <tr>
-    <td>SOAP</td>
-    <td>https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/</td>
-    <td>https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com</td>
-    </tr>
-    <tr>
-    <td>OData</td>
-    <td>https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')</td>
-    <td>https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com
-
-         The company name is case-sensitive.</td>
-    </tr>
-    </table>
+    >    [!div class="mx-tdBreakAll"]
+    >    |Webtjenestetype|Syntaks|Eksempel|  
+    >    |----------------|------|-------|
+    >    |SOAP |https://*Server*:*SOAPWebServicePort*/*ServerInstance*/WS/*CompanyName*/salesDocuments/ |https://mycompany.financials.dynamics.com:7047/MS/WS/MyCompany/Page/salesDocuments?tenant=mycompany.financials.dynamics.com |  
+    >    |OData |https://*Server*:*ODataWebServicePort*/*ServerInstance*/OData/Company('*CompanyName*')|[https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com](https://MyCompany.financials.dynamics.com:7048/MS/OData/Company('MyCompany')/salesDocuments?tenant=MyCompany.financials.dynamics.com) <br />    Selskapsnavnet skiller mellom store og små bokstaver.|
 
 2.  Se gjennom informasjone som vises i webleseren. Kontroller at du kan se navnet på webtjenesten som du har opprettet.  
 

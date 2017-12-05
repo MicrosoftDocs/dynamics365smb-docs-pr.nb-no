@@ -13,13 +13,13 @@ ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 03/29/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: b719a7d2b6b5590ae63920b63aaba8c2313a8661
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: c826ab2f82b2fb0d53339690a2da4978d79ab643
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-for-financials"></a>Utvidelsen Quickbooks Payroll-filimport for Dynamics 365 for Financials
+# <a name="the-quickbooks-payroll-file-import-extension-to-dynamics-365-business-edition"></a>Utvidelsen Quickbooks Payroll-filimport for Dynamics 365 Business edition 
 For å ta høyde for lønnsutbetalinger og relaterte transaksjoner, må du importere og bokføre finansielle transaksjoner som er utført av lønnssystemet til Finans.
 
 Hvis du vil gjøre dette, importerer du først filen som du mottar fra lønnssystemet til vinduet **Finanskladd**. Deretter tilordner du eksterne kontoer i lønnsfilen til de relevante finanskontiene. Til slutt kan du bokføre lønnstransaksjoner etter kontotilordningen. Hvis du vil ha mer informasjon, kan du se [Importere lønnstransaksjoner](finance-how-import-payroll-transactions.md).

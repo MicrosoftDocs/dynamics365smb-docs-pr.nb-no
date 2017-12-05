@@ -12,10 +12,10 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 020aeed82d6147641936dee2d7b860791c76d2ee
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
@@ -30,7 +30,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 Trafikken av filer til og fra OCR-tjenesten behandles av en dedikerte jobbkøpost, som opprettes automatisk når du aktiverer den relaterte tjenestetilkoblingen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-window"></a>Sende en PDF- eller bildefil til OCR-tjenesten fra vinduet **Inngående dokumenter**
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
 2. Opprett en ny innkommende dokumentpost, og legg ved filen. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).  
 3. I vinduet **Innkommende** dokumenter velger du én eller flere linjer, og deretter velger du handlingen **Send til jobbkø**.
 
@@ -70,23 +70,34 @@ Hvis du ikke bruker en jobbkø, eller hvis du vil motta et ferdig OCR-dokument r
 Nå kan du fortsette å opprette dokumentposter for de elektroniske dokumentene som er mottatt i [!INCLUDE[d365fin](includes/d365fin_md.md)], manuelt eller automatisk. Hvis du vil ha mer informasjon, kan du se neste fremgangsmåte. Du kan også koble den nye innkommende dokumentposten til eksisterende postert eller ikke-postert dokument slik at kildefilen er lett tilgjengelige fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Behandle inngående dokumenter](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Slik oppretter du en kjøpsfaktura fra et elektronisk dokument som er mottatt fra OCR-tjenesten:
-Følgende fremgangsmåte beskriver hvordan du oppretter en post for kjøpsfaktura fra en leverandørfaktura mottatt som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåten er den samme når du oppretter for eksempel en finanskladdelinje fra en utgiftskvittering.
+Følgende fremgangsmåte beskriver hvordan du oppretter en post for kjøpsfaktura fra en leverandørfaktura mottatt som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåten er den samme når du oppretter for eksempel en finanskladdelinje fra en utgiftskvittering., eller en ordreretur fra en kunde.
 
 > [!NOTE]  
->   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette enten som varekryssreferanser, for dokumentlinjer av typen Vare, eller som tekst-til-konto-tilordninger, for bilag eller kladdelinjer av typen Finanskonto. Hvis du vil ha mer informasjon, kan du se verktøytipset for **Kryssreferanser**-handlingen på varekortene og den relaterte fremgangsmåten [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
+>   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan utføre denne tilordningen som varekryssreferanser, for dokumentlinjer av typen Vare. Du kan også bruke funksjonen Tekst-til-konto-tilordning. Hvis du vil ha mer informasjon, kan du se delen Slik tilordner du tekst i et inngående dokument til en bestemt leverandør, finanskonto eller bankkonto.
 
+Hvis du vil tilordne varenumrene i dokumentet til beskrivelsene av leverandørens varer, åpner du kortet for hver vare, og velger deretter handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til leverandøren. Hvis du vil ha mer informasjon, kan du se verktøytipset for **Kryssreferanser**-handlingen på varekortene.
+
+1. Merk linjen for det inngående dokumentet, og velg deretter **Opprett dokument**-handlingen.
+
+Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske leverandørdokumentet som du mottok fra OCR-tjenesten. Informasjon settes inn i den nye kjøpsfakturaen basert på tilordningen du har definert som kryssreferanse eller som tekst-til-konto-tilordning.
+
+Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se "Håndtere feil ved mottak av elektroniske dokumenter".
+
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Slik tilordner du tekst i et inngående dokument til en bestemt leverandørkonto:
 For innkommende dokumenter bruker du vanligvis handlingen **Tilordne tekst til konto** for å definere at en bestemt tekst på en leverandørfaktura som er mottatt fra OCR-tjenesten, tilordnes til en bestemt leverandørkonto. Deler av beskrivelsen av det innkommende dokumentet som finnes som tilordningstekst, betyr at **Nr.**-feltet på det resulterende bilaget eller kladdelinjene av typen Finanskonto, fylles deretter ut med den aktuelle leverandøren.
 
 I tillegg til å tilordne til en leverandørkonto eller finanskontoer, kan du også tilordne til en bankkonto. Dette er praktisk, for eksempel for elektroniske dokumenter for utgifter som allerede er betalt, der du vil opprette en finanskladdelinje som er klar til å bokføre på en bankkonto.
 
-1. Velg linjen for inngående dokument for det elektroniske leverandørdokumentet som er mottatt fra OCR-tjenesten.
-2. Hvis du vil tilordne tekst på dokumentet til leverandørens konto, en debetkonto, kan du velge handlingen **Tilordne tekst til konto** og fylle ut **Tekst-til-konto-tilordning**-vinduet med opplysninger som gjelder for leverandøren fra nå av. Hvis du vil ha mer informasjon, kan du se [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-3. Hvis du vil tilordne varenumrene i dokumentet til beskrivelsene av leverandørens varer, åpner du kortet for hver vare, og velger deretter handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til leverandøren.
-4. I vinduet **Inngående dokumenter** velger du handlingen **Opprett dokument**.
+1. Velg den aktuelle inngående dokumentlinjen, og velg deretter **Tilordne tekst til konto**-handlingen. Vinduet **Tekst-til-konto-tilordning** åpnes.
+3. I feltet **Tilordningstekst** angir du en hvilken som helst tekst som vises på leverandørfakturaer som du vil opprette kjøpsdokumenter eller kladdelinjer for. Du kan angi opptil 50 tegn.
+4. I feltet **Leverandørnummer** angir du leverandøren som det resulterende kjøpsdokumentet eller kladdelinjen blir opprettet for.
+5. I feltet **Debetkontonummer** angir du finanskontoen for debettype som skal settes inn på det resulterende kjøpsbilaget eller kladdelinjen av typen Finanskonto.
+6. I feltet **Kreditkontonummer** angir du finanskontoen for kredittype som skal settes inn på det resulterende kjøpsbilaget eller kladdelinjen av typen Finanskonto.
 
-Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske leverandørdokumentet som du mottok fra OCR-tjenesten.
+    > [!NOTE]
+    > Ikke bruk **Saldokildetype**- og **Saldokildenummer**-feltet i forbindelse med inngående dokumenter. De brukes bare til automatisk betalingsavstemming. Hvis du vil ha mer informasjon, kan du se [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se "Håndtere feil ved mottak av elektroniske dokumenter".
+7. Gjenta trinn 2 til 5 for all tekst i inngående dokumenter som du vil opprette dokumenter automatisk for.
 
 ## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Håndtere feil ved mottak av elektroniske dokumenter
 1. Velg linjen for et elektronisk dokumentet som er mottatt fra OCR-tjenesten med feil, i vinduet **Inngående dokumenter**. Dette angis av en feilverdi i **OCR-status**-feltet.
@@ -102,7 +113,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 
 Vinduet **OCR-datakorrigering**, som du åpner fra vinduet **Inngående dokumenter**, viser feltene fra hurtigfanen **Økonomisk informasjon** i to kolonner, én med OCR-data du kan redigere, og én med skrivebeskyttede OCR-data. Når du velger **Send OCR-tilbakemelding**, sendes innholdet i vinduet **OCR-datakorrigering** til OCR-tjenesten. Neste gang tjenesten behandler PDF-filer eller bildefiler som inneholder de aktuelle dataene, blir korrigeringene dine tatt med for å unngå de samme feilene.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
 2. Åpne en innkommende dokumentpost som inneholder data som mottas fra OCR-tjenesten som du vil korrigere.
 3. I vinduet **Inngående dokument** velger du handlingen **Korriger OCR-Data**.
 4. I vinduet **OCR-datakorrigering** overskriver du dataene i den redigerbare kolonnen for hvert felt som har feil verdi.

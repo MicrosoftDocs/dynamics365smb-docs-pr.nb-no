@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: f81d6dac79817d758ff0ae49322a18f1e5cdc9d8
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 21f51e08fa5153bca28d1470b724038acfcd85cf
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Felttilordning ved eksport av betalingsfiler ved hjelp av konverteringstjeneste for bankdata
@@ -25,7 +25,7 @@ Når du eksporterer betalingsfiler ved hjelp av konverteringstjenesten for bankd
 
 Følgende tabell viser fra hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] data kan eksporteres til tjenesteleverandøren.  
 
-|Tilordnet felt|Felt i tabell|Bord|Beskrivelse]-->|  
+|Tilordnet felt|Felt i tabell|Bord|Beskrivelse|  
 |------------------|--------------------|-----------|---------------------------------------|  
 |Kreditornr.|Kreditornr.|Bankkonto|Identifikatoren som er tilordnet til selskapet av banken for å innkreve betalinger|  
 |Bankkontonummer for avsender|Bankkontonr./IBAN|Bankkonto|Bankkontonummeret (IBAN eller annet) til selskapet ditt som er angitt på bankkortet|  

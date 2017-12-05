@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: d44e4f55dc43e4ad6b8e8bc1742eed3c966eb918
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b10eaff0d412ee26ead2137a353054c41d05113
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
@@ -46,7 +46,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 4.  Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
-    |Felt|[Beskrivelse]|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Kode**|Angi en kode som identifiserer XML-skjemaet.|  
     |**Beskrivelse**|Angi en beskrivelse av XML-skjemaet.|  

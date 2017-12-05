@@ -9,20 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 03/29/2017
+ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fb4b1ad14dfedaeca38293e0e0b4496300090c17
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-invoice-sales"></a>Fakturere salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
-> [!NOTE]  
->   Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:  
+Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:  
 
 * Hvis du trenger å levere bare en del av en bestillingsantall, for eksempel fordi det fullstendige antallet ikke er på lager.  
 * Hvis du selger varer som leverandøren gir deg direkte til kunden, kjent som direkte levering. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md).  
@@ -37,7 +36,7 @@ I forretningsmiljøer der kunden må betale før produkter leveres, for eksempel
 
 Du kan enkelt korrigere eller annullere en bokført salgsfaktura før den er betalt. Dette er for eksempel praktisk hvis du vil rette en skrivefeil, eller hvis kunden ber om en endring tidlig i ordreprosessen. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md). Hvis den bokførte salgsfakturaen er betalt, må du opprette en salgskreditnota for å reversere salget. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
-Varer kan være både varer og tjenester, betegnet av typene **Vare - lager** og **Vare - tjeneste** på salgslinjene. Salgsfakturaprosessen er den samme for begge varetyper. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
+Varer kan være både varer og tjenester, betegnet av typene **Lager** og **Service** på varekortet. Salgsfakturaprosessen er den samme for begge varetyper. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
 Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
@@ -67,7 +66,7 @@ Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedl
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 
     > [!NOTE]  
->   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
+>   Hvis varen er av typen **Service** eller **Type**-feltet inneholder **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 
@@ -92,6 +91,6 @@ Beslektet element og kundeposter opprettes nå i systemet, og salgsfakturaen skr
 [Sette opp salg](sales-setup-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
-[Massefakturering fra Microsoft Bookings i Dynamics 365 for Financials](finance-bookings.md)  
+[Massefakturering fra Microsoft Bookings i Dynamics 365 Business edition](finance-bookings.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: a4558787532b1e4713a2a0681bb8acf910519504
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-contact-persons"></a>Opprette kontaktpersoner
@@ -26,7 +26,7 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 >   Før du oppretter en kontakt, bør du kontrollere innstillingene for **Arv** i **Markedsføringsoppsett**-vinduet. Oppsett av arv gjør det mulig å kopiere automatisk informasjon om kontaktselskaper, som er felles for kontaktpersoner, for eksempel adressedetaljer, fra kontaktselskapet til kontaktpersonen hver gang du oppretter en kontaktperson for et registrert kontaktselskap.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Slik oppretter du et kontaktkort for en person:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I **Nr.** -feltet angir du et nummer på kontakten.
 
@@ -43,5 +43,5 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 [Definere ansvarsområder for kontakter](marketing-job-responsibilities.md)  
 [Definere organisasjonsnivåer for kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Arbeide med Financials](ui-work-product.md)  
+[Arbeide med Dynamics 365](ui-work-product.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: "Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-dokumentasjon"
-description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Dynamics 365 for Financials."
+description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Dynamics 365 Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: bd035a6fa6dc86dcea12783c6d7684e6ffbae4a3
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
@@ -24,7 +24,7 @@ ms.lasthandoff: 09/27/2017
 
 Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til emnene som beskriver dem.
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Definere utvidet tekst](ui-how-define-ext-text.md) |
 | Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |

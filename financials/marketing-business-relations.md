@@ -1,6 +1,6 @@
 ---
 title: Definere koder for forretningsforbindelse for kontakter | Microsoft-dokumentasjon
-description: "Bruk forretningsforbindelser i Financials til å hjelpe til med markedsføring, og til å angi hvilket forretningsforhold du har til prospekter, klienter og kunder, for eksempel en bank eller serviceleverandør."
+description: "Bruk forretningsforbindelser i Dynamics 365 til å hjelpe til med markedsføring, og til å angi hvilket forretningsforhold du har til prospekter, klienter og kunder, for eksempel en bank eller serviceleverandør."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: marketing, prospect, contact, client, customer
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 7d0f189ac233ea4da72136858a343dfaa7e88883
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: ee7373ae4b58ce0d31bed5fbf853ae8e039833d4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="setting-up-business-relations-on-contact-companies"></a>Definere forretningsforbindelser for kontaktselskaper
@@ -30,7 +30,7 @@ Bruk av forretningsforbindelser på kontakter er en totrinnsprosess. Først må 
 ## <a name="to-define-a-business-relation-code"></a>Definere en kode for forretningsforbindelse
 Koden for forretningsforbindelsen definerer en kategori eller type for forretningsforbindelsen, for eksempel BANK eller Juridisk. Du kan ha flere forretningsforbindelseskoder. Hvis du vil definere forretningsforbindelsen, bruker du vinduet **Forretningsforbindelser**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Forretningsforbindelser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Forretningsforbindelser**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
 ## <a name="AssignBusRelContact"></a> Tilordne forretningsforbindelser til en kontakt

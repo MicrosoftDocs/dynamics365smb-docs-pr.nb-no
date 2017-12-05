@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: 32bf6cfb54a78f0b19334e1e46f7620979d64b01
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
@@ -73,7 +73,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Kode)**|Angi en kode som identifiserer linjen i filen.|  
+    |**Kode**|Angi en kode som identifiserer linjen i filen.|  
     |**Navn**|Angi et navn som beskriver linjen i filen.|  
     |**Antall kolonner**|Angi hvor mange kolonner det er på linjen i datafilen. **Obs!**  Dette feltet er bare relevant for import.|  
     |**Datalinjemerke**|Angi posisjonen til elementet som representerer hovedposten i datafilen, i det tilknyttede XML-skjemaet. **Obs!**  Dette feltet er bare relevant for import.|  
@@ -102,7 +102,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 
 9. Gjenta trinn 8 for hvert kolonne- eller XML-element i datafilen som har data du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
- Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]] som kolonner eller XML-elementer i datafilen skal tilordnes til.  
+ Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]som kolonner eller XML-elementer i datafilen skal tilordnes til.  
 
 > [!NOTE]  
 >  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon i vinduet **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  

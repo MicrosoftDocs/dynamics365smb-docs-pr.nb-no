@@ -1,6 +1,6 @@
 ---
 title: Definere SEPA Direct Debit | Microsoft-dokumentasjon
-description: "Lær hvordan du definerer SEPA Direct Debit i Dynamics 365 for Financials."
+description: "Lær hvordan du definerer SEPA Direct Debit i Dynamics 365 Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: fea703b804fbc88e5c39f52f72bbda5699237b6b
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 96c851c58decbeb46afcd79a9c5275d16c8072d4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-set-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
@@ -38,7 +38,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 2. Velg handlingen **Ny**.  
 3. Konfigurer betalingsmåter. Fyll ut de spesifikke feltene for direct\- debit som beskrevet i tabellen nedenfor.  
 
-    |Felt|[Beskrivelse|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Direct Debit**|Angi om betalingsmåten er for SEPA direct debit-samlinger.|  
     |**Betalingsbet.kode for Direct Debit**|Angi betalingsbetingelsene, for eksempel IKKE BETAL, som vises på salgsfakturaer som betales med SEPA direct debit, for å angi for kunden at betalingen blir innkrevd automatisk. Du kan også la feltet stå tomt.|  
@@ -59,7 +59,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 4. I vinduet **Kundebankkonto - oversikt** velger du kundebankkonto som skal bruke direct debit, og deretter velger du **Direct Debit-belastningsfullmakter** i **Prosess**-gruppen i kategorien **Hjem**.  
 5. I vinduet **SEPA Direct Debit-belastningsfullmakter** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
-    |[Felt|Beskrivelse]|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Bankkontokode for kunde**|Angir bankkontoen som avtale\-girobetalinger kreves inn fra. Dette feltet fylles ut automatisk.|  
     |**Gyldig fra**|Angi datoen direct debit\-belastningsfullmakten gjelder fra.|  

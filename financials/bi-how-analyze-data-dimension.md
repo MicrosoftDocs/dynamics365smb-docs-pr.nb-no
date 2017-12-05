@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/13/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: aebeb7a0e3a5fa83ba329bf222c50492f9cb003a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: ad073c6958584c31c1dda8470ccb160a49d61911
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 #  <a name="how-to-analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
@@ -33,7 +33,7 @@ Analyse av data etter dimensjoner gir deg større innsikt i forretningsdriften, 
 ## <a name="to-set-up-an-analysis-view"></a>Slik setter du opp en analysevisning  
 En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan lagre og hente fram hver analyse du har opprettet. Informasjonen som brukes til å definere en analyse, er lagret på et **Analysevisning**-kort for å forenkle fremtidige analyser.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Analysevisningsoversikt** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil legge til flere dimensjonskoder i tillegg til de fire kodene i hurtigfanen **Dimensjoner**, velger du handlingen **Filtrer**, og deretter velger du **OK**.  
@@ -45,7 +45,7 @@ Du kan bruke matrisen **Analyse per dimensjon** til å vise beløpene i Finans v
 - Kolonnene ytterst til venstre inneholder informasjon som er basert på det du har valgt i feltet **Vis som linjer** i hodet.  
 - Kolonnene lengst til høyre inneholder informasjon som er basert på det du har valgt i feltet **Vis som kolonner** i hodet.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Analyse per dimensjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Analyse per dimensjon**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante analysevisningen, og velg deretter handlingen **Rediger analysevisning**.
 3. Øverst i vinduet **Analyse per dimensjon** fyller du ut feltene for å definere det som skal vises.
 4. 5. Hvis du vil vise en spesifisering av et beløp som vises i matrisevinduet, velger du beløpet.  
@@ -64,7 +64,7 @@ Beløpene som vises i vinduet **Analyse per dimensjon**, gir deg oversikt over s
 
 Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra vinduet **Analyse per dimensjoner**. Fremgangsmåten ligner den fra vinduene **Analysevisningskort** og **Analysevisningsoversikt**.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Analyse per dimensjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Analyse per dimensjon**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Analyse per dimensjon** velger du feltet **Analysevisningskode**.  
 3. Velg linjen med den relevante analysevisningen.  
 4. Velg handlingen **Oppdater**.  

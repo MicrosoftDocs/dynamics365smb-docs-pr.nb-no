@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: dbe130ef829c6c4efd97fa3f223312c193a078f5
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: d0cb7491300e9c108af4d1b0e746e65130886c15
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-and-modify-a-custom-report-or-document-layout"></a>Lage og endre en egendefinert rapport eller et egendefinert dokumentoppsett
@@ -28,8 +28,9 @@ En rapport har som standard et innebygd rapportoppsett, som kan være et RDLC-ra
 Hvis du vil opprette et egendefinert oppsett, kan du lage en kopi av et eksisterende egendefinert oppsett eller legge til et nytt egendefinert oppsett, som i de fleste tilfeller er basert på et innebygd oppsett. Når du legger til et nytt egendefinert oppsett, kan du legge til en RDLC-rapportoppsettype, en Word-rapportoppsettype eller begge typer. Det nye egendefinerte oppsettet baseres automatisk på det innebygde oppsettet for rapporten hvis det er tilgjengelig. Hvis det ikke finnes noen innebygde oppsett for typen, opprettes et nytt, tomt oppsett, som du må endre og utforme fra grunnen av. Hvis du vil ha mer informasjon om RDLC- og Word-rapportoppsett, innebygde og egendefinerte oppsett og mer, kan du se [Håndtere rapportoppsett](ui-manage-report-layouts.md).  
 
 ## <a name="to-create-a-custom-layout"></a>Slik oppretter du et egendefinert oppsett
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
-   Vinduet **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige i selskapet som er angitt i feltet Selskap øverst i vinduet.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
+
+    Vinduet **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige i selskapet som er angitt i feltet **Selskap** øverst i vinduet.
 2. Angi selskapet du vil opprette rapportoppsettet i, i **Selskap**-feltet.
 3. Velg raden for rapporten du vil bruke opprette oppsettet for, og velg deretter handlingen **Egendefinerte oppsett**.  
    Vinduet **Egendefinerte rapportoppsett** vises og inneholder en oversikt over alle de egendefinerte oppsettene som er tilgjengelige for den valgte rapporten.
@@ -51,45 +52,45 @@ Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet 
 ### <a name="to-modify-a-custom-layout"></a>Endre et egendefinert oppsett
 1.  Du kan eksportere et egendefinert oppsett fra **Egendefinerte rapportoppsett**-vinduet. Hvis vinduet ikke allerede er åpent, kan du søke etter og åpne **Rapportoppsettsvalg**-vinduet, velge rapporten som har oppsettet du vil endre, og deretter velge handlingen **Egendefinerte oppsett**.  
 2.  I **Egendefinerte rapportoppsett**-vinduet velger du oppsettet som du vil endre, velger **Eksporter oppsett**-handlingen, og velger deretter **Lagre** eller **Lagre som** for å lagre rapportoppsettsdokumentet på et sted på datamaskinen eller nettverket.  
-  
+
 3.  Åpne rapportoppsettdokumentet du nettopp lagret, og gjør deretter endringene.
 
-      Hvis du endrer et Word-oppsett, kan du åpne oppsettsdokumentet i Word. Se neste del [Endre rapportoppsettet](ui-how-create-custom-report-layout.md#MakeChangesToLayout) hvis du vil ha mer informasjon om redigering. 
+      Hvis du endrer et Word-oppsett, kan du åpne oppsettsdokumentet i Word. Se neste del [Endre rapportoppsettet](ui-how-create-custom-report-layout.md#MakeChangesToLayout) hvis du vil ha mer informasjon om redigering.
 
       RDLC-rapportoppsett er mer avansert enn Word-rapportoppsett. Hvis du vil ha mer informasjon om hvordan du endrer et RDLC-rapportoppsett, kan du se [Utforme RDLC-rapportoppsett](https://msdn.microsoft.com/en-us/dynamics-nav/designing-rdlc-report-layouts).
 
       Husk å lagre endringene når du er ferdig.
-  
+
 4.  Gå tilbake til **Egendefinerte rapportoppsett**-vinduet, velg rapportoppsettet som du har eksportert eller endret, og velg deretter **Importer oppsett**-handlingen.  
-  
+
 5. I dialogboksen **Importer** velger du **Velg** for å finne og velge rapportoppsettsdokumentet, og velger deretter **Åpne**.
 
 ##  <a name="MakeChangesToLayout"></a>Gjøre endringer i et Word-rapportoppsett  
 Når du skal foreta generelle formaterings- og oppsettsendringer, for eksempel endre skrift, legge til eller endre en tabell eller fjerne et datafelt, bruker du bare de grunnleggende redigeringsfunksjonene i Word, som du gjør med et Word-dokument.
 
-Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye datafelt, begynner du med å legge til en tabell som inneholder rader og kolonner som omsider skal inneholde datafeltene. 
-  
+Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye datafelt, begynner du med å legge til en tabell som inneholder rader og kolonner som omsider skal inneholde datafeltene.
+
 > [!TIP]  
 >  Vis tabellrutenettet, slik at du kan se cellegrensene i tabellen. Husk å skjule rutenettet når du er ferdig å redigere. Hvis du vil vise eller skjule tabellrutenett, merker du tabellen. Under **Oppsett** i kategorien **Tabell** velger du deretter **Vis rutenettlinjer**.  
-  
+
 ###  <a name="RemoveField"></a> Fjerne etikett- og datafelt i Word-oppsett  
  Etikett- og datafelt i en rapport er i innholdskontroller i Word. Den følgende illustrasjonen viser en innholdskontroll når den er valgt i Word-dokumentet.  
-  
+
  ![Innholdskontroll for felt i Word-rapportoppsett](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
-  
+
  Navnet på etiketten eller datafeltnavnet vises i innholdskontrollen. I dette eksemplet er feltnavnet CompanyAddr1.  
-  
+
 ### <a name="to-remove-a-label-or-data-field"></a>Fjerne en etikett eller et datafelt  
-  
+
 1.  Høyreklikk feltet som du vil slette, og velg deretter **Fjern innholdskontroll**.  
-  
+
      Innholdskontrollen fjernes, men feltnavnet blir stående som tekst.  
-  
+
 2.  Slett den gjenstående teksten etter behov.  
 
 ### <a name="adding-data-fields"></a>Legge til datafelt
 Å legge til datafelt fra et rapportdatasett er mer avansert og krever noe kjennskap til rapportdatasettet. Hvis du vil ha informasjon om å legge til felt for data, etiketter og bilder, kan du se [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md).  
-  
+
 
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

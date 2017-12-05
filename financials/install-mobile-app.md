@@ -1,6 +1,6 @@
 ---
-title: "Bruke Financials på mobilenheten din | Microsoft-dokumentasjon"
-description: "Du kan vise og redigere Financials-dataene på telefonen eller nettbrettet."
+title: "Bruke Dynamics 365 på mobilenheten din | Microsoft-dokumentasjon"
+description: "Du kan vise og redigere Dynamics 365-dataene på telefonen eller nettbrettet."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,14 +12,14 @@ ms.search.keywords: phone, tablet
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 028c1fcc6f184b0307e1fdfdc7b6a34fee86565d
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 56f2ef7c7b0c604f0966736020dcb9cff546dddd
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
-# <a name="getting-dynamics-365-for-financials-on-your-mobile-device"></a>Få Dynamics 365 for Financials på mobilenheten din
+# <a name="getting-dynamics-365-for-finance-and-operations-on-your-mobile-device"></a>Få Dynamics 365 for Finance and Operations på mobilenheten din
 Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
 
 ## <a name="to-get-the-app-on-my-mobile-device"></a>Få appen på mobilenheten

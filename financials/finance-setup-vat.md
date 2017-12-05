@@ -13,10 +13,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9bf3c588b5a9434440494df44c76d62880e31552
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
@@ -39,7 +39,7 @@ Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert tri
 Vi anbefaler at du bruker den medfølgende mva-oppsettguiden til å definere mva i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 Hvis du vil oppsettguiden, gjør du følgende:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), og angi **Assistert oppsett**.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), og angi **Assistert oppsett**.  
 2. Velg **Mva-oppsett**.
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Slik setter du opp mva-bokføringsgrupper for firma
@@ -49,7 +49,7 @@ Bruk koder som er lette å huske, og som beskriver bokføringsgruppen, for eksem
   
 Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsgruppe - firma**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsgruppe - firma**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 Du oppretter standard mva-bokføringsgrupper for firma ved å knytte dem til firmabokføringsgrupper. [!INCLUDE[d365fin](includes/d365fin_md.md)] tilordner automatisk mva-bokføringsgruppen for firma når du knytter firmabokføringsgruppen til en kunde, leverandør eller finanskonto. 
@@ -60,7 +60,7 @@ Det er lurt å bruke koder som er lette å huske og som beskriver satsen, for ek
 
 Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Slik kombinerer du mva-bokføringsgrupper i mva-bokføringsoppsett
@@ -70,7 +70,7 @@ Du kan definere så mange kombinasjoner du vil. Hvis du vil gruppere kombinasjon
 
 Hvis du vil kombinere mva-bokføringsoppsett, følger du denne fremgangsmåten:
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Slik tilordner du mva-bokføringsgrupper som standard til flere enheter
@@ -85,18 +85,18 @@ Mva-bokføringsgruppe for firma eller vare tilordnes når du velger en bokførin
 De følgende delene beskriver hvordan du tilordner du mva-bokføringsgrupper til enkeltenheter.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Tilordne mva-bokføringsgrupper til individuelle finanskonti 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2. Åpner **Finans**-kortet for kontoen.  
 3. På hurtigfanen **Bokføring** i feltet **Bokføringstype** velger du enten **Salg** eller **Kjøp**.  
 5. Velg mva-bokføringsgruppene for å bruke for salgs- eller kjøpskontoen.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Tilordne mva-bokføringsgrupper for firma til kunder og leverandører  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
 2. På kortet **Kunde** eller **Leverandør** utvider du hurtigfanen **Fakturering**.  
 3. Velg mva-bokføringsgruppen for firma.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Tilordne mva-bokføringsgrupper for vare til individuelle varer og ressurser  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
 2. Gjør ett av følgende:  
 
 * På **Vare**-kortet utvider du hurtigfanen **Pris og bokføring** og velger deretter **Vis mer** for å vise feltet **Mva-bokføringsgruppe - vare**.  
@@ -111,7 +111,7 @@ Hvis det er nødvendig, kan du også angi hvordan du kan oversette mva-setningsd
 Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)] beholder i imidlertid ikke historikk av endringen. Mva-setningsbeskrivelsene skrives ut på rapporten og vises for alle linjene i rapporten ved siden av mva-beløpet og mva-grunnlagsbeløpet. Hvis det ikke er definert en mva-setning for alle linjene i salgsdokumentet, utelates hele delen når rapporten skrives ut.
   
 ### <a name="to-set-up-vat-clauses"></a>Opprette mva-setninger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
 2. På siden **Mva-setninger** oppretter du en ny linje.  
 3. Angi en ID for setningen i **KCode**-feltet. Du bruker denne koden til å knytte setningen til mva-bokføringsgrupper.  
 4. I feltet **Beskrivelse** angir du teksten som du vil vise på dokumenter som kan inkludere mva. I feltet **Beskrivelse 2** angir du ekstra tekst ved behov. Teksten vises på de nye linjene.  
@@ -119,11 +119,11 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 6. Valgfritt: Hvis du vil angi hvordan du vil oversette mva-setningen, velger du **Oversettelser**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Slik tilordner du en mva-setning til et mva-bokføringsoppsett
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. I kolonnen **Mva-setning** velger du setningen som skal brukes for hvert mva-bokføringsoppsett den gjelder for.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Angi oversettelser for mva-setninger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Oversettelser**.  
 3. I feltet **Språkkode** velger du hvilket språk du skal oversette til.  
 4. I feltene **Beskrivelse** og **Beskrivelse 2** skriver du inn oversettelsen av beskrivelsene. Denne teksten vises i de oversatte mva-rapportdokumentene.  
@@ -132,9 +132,9 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 Du bruker funksjonen for import-mva når du skal bokføre et dokument der hele beløpet er mva. Dette bruker du hvis du mottar en faktura fra skattemyndighetene for mva for importerte varer.  
   
 Følg disse trinnene for å opprette koder for import-mva:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
 2. Gå til siden Mva-bokføringsgrupper - vare. Definer en ny mva-varebokføringsgruppe for import-mva.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 4. Gå til siden Mva-bokføringsoppsett. Opprett en ny linje, eller bruk en eksisterende mva-bokføringsgruppe for firma sammen med den nye mva-varebokføringsgruppen for import-mva.  
 5. I feltet **Mva-beregningstype** velger du **Full mva**.  
 6. I feltet **Inngående mva-konto** angir du hvilken finanskonto som skal brukes til å bokføre import-mva. Alle andre kontoer er valgfrie.  
@@ -143,6 +143,9 @@ Følg disse trinnene for å opprette koder for import-mva:
 Det er viktig at organisasjonsnumrene du har for kunder, leverandører og kontakter, er gyldige. For eksempel selskaper noen ganger endre status for mva-ansvar, og i noen land kan skattemyndighetene ber deg om å gi rapporter, for eksempel rapporten EU-salgslisten som listen mva registreringsnumre du bruker når du gjør forretninger. 
   
 EU-kommisjonen gir tjenesten EU-mva-nummer validering på webområdet sitt, som er felles og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare deg for et trinn, og du kan bruke tjenesten VIES til å validere og spore mva-numre for kunder, leverandører og kontakter direkte fra kunde-, leverandør- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kalles **Tjeneste for validering av EU-organisasjonsnr.**. Tjenesten er tilgjengelig på siden **Tjenestetilkoblinger**, og du kan begynne å bruke den med en gang. Tjenestetilkoblingen er gratis, og registrering er ikke nødvendig.
+
+> [!Note]
+> Aktivere EU-organisasjonsnr. Valideringstjeneste, du må ha administratortilgang.
 
 Når du bruker tjenestetilkoblingen vår, registrerer vi en logg over mva-numre og bekreftelser for hver kunde, leverandør eller kontakt i **Organisasjonsnummerlogg**, så du kan enkelt spore dem. Loggen er spesifikk for hver kunde. Loggen er for eksempel nyttig for å bevise at du har bekreftet at gjeldende mva-nummeret er riktig. Når du godkjenner et mva-nummer, gjenspeiler kolonnen **ID for forespørsel** i loggen at du har gjort noe. 
 
@@ -198,11 +201,11 @@ Før du konfigurerer verktøyet for mva-satsendring, må du gjøre følgende for
 * Sikkerhetskopiere data.
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Slik konfigurerer du verktøyet for endring av mva-sats:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanene **Hoveddata**, **Kladder** og **dokumenter** velger du en bokføringsgruppeverdi fra alternativlisten over nødvendige felt.  
   
 ### <a name="to-set-up-product-posting-group-conversion"></a>Slik definerer du omregning av varebokføringsgruppe:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
 2. På siden **Oppsett for endring av mva-sats** på fanen **Hjem** i **Prosess**-gruppen velger du **Mva-bokføringsgruppekonv.** eller **Gen. varebokføringsgruppekonv.**  
 3. Angi gjeldende bokføringsgruppe i feltet **Fra-kode**.  
 4. Angi den nye bokføringsgruppen i feltet **Til-kode**.  
@@ -216,7 +219,7 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 > [!IMPORTANT]  
 >  Før du foretar endringen av mva-satsen, kan du teste konverteringen. Hvis du vil gjøre dette, følger du fremgangsmåten nedenfor, men må du fjerne merket for **Utfør konvertering** og **Verktøy for endring av mva-sats ferdig**. Under testkonvertering fjernes feltet **Konvertert** i tabellen **Mva\-sats \– endringsloggpost** og feltet **Konvertert dato** i tabellen **Mva\-sats \– endringsloggpost** er tom. Når konverteringen er fullført, velger du **Mva-sats – endringsloggposter** for å vise resultatene av testkonverteringen. Kontroller hver post før du utfører konvertering. Kontroller særlig transaksjoner som bruker en gammel mva-sats.     
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter koblingen **Oppsett for endring av mva-sats**.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter koblingen **Oppsett for endring av mva-sats**.  
 2. Kontroller at du allerede har definert omregningen av mva-varebokføringsgruppen eller omregningen av varebokføringsgruppen.  
 3. Merk av for **Utfør konvertering**.  
   

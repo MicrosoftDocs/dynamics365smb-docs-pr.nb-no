@@ -1,6 +1,6 @@
 ---
 title: "Opprette samhandlinger på kontakter og segmenter | Microsoft-dokumentasjon"
-description: Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Financials, for eksempel direktereklame.
+description: Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Dynamics 365, for eksempel direktereklame.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 42e5357eb78df09437bbd22a288f4e583de27e67
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 57cbc08ab2e05777fae54018fe714d44b64d14e0
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
@@ -38,7 +38,7 @@ Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du v
 3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
-1. På Hjem-siden velger du **Aktive segmenter**, eller du kan velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Segmenter** og deretter velge den relaterte koblingen.
+1. På Hjem-siden velger du **Aktive segmenter**, eller du kan velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Segmenter** og deretter velge den relaterte koblingen.
 2. Fyll ut feltene i inndelingen **Samhandling** i **Segment**-vinduet for å angi hvilken samhandling du vil tilordne segmentet.
 
     Etter at du har tilordnet en samhandling til segmentet, kan du tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene i vinduet **Segment**.  
@@ -54,5 +54,5 @@ Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt seg
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Sette opp forbindelser](marketing-setup-marketing.md)  
-[Arbeide med Financials](ui-work-product.md)
+[Arbeide med Dynamics 365](ui-work-product.md)
 

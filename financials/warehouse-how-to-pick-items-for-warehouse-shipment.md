@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e4568214469e80dce7ea91ff7574d1be8ca9ac7a
+ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
+ms.openlocfilehash: 5b2658a5b77b1e1ee293b6f99c419c133c535372
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 # <a name="how-to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
@@ -40,7 +40,7 @@ Du kan også opprette lagerplukkdokumenter på en push-måte i vinduet **Lagerle
 >  Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 
     Hvis du skal arbeide med en bestem plukking, velger du plukkingen fra oversikten eller filtrerer oversikten for å finne plukkingene som er tilordnet spesielt til deg. Åpne kortet for plukkingen.  
 2.  Hvis feltet **Tilordnet bruker-ID** er tomt, angir du om nødvendig IDen for å identifisere deg selv.  
@@ -73,7 +73,7 @@ Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen f
 > [!NOTE]
 > I kombinasjonsscenarier, der en del av antallet først må monteres og en annen del må leveres fra lager, opprettes to lagerleveringslinjer. Én er for montere-til-ordre-antallet og én er for varebeholdningen.
 
-> I dette tilfellet håndteres montere-til-ordre-antallet som beskrevet i dette emnet, og lagerantallet håndteres som alle andre vanlige lagerleveringslinjer. Hvis du vil ha mer informasjon om kombinasjonsscenarioer, kan du se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md.
+> I dette tilfellet håndteres montere-til-ordre-antallet som beskrevet i dette emnet, og lagerantallet håndteres som alle andre vanlige lagerleveringslinjer. Hvis du vil ha mer informasjon om Kombinasjonsscenarier, kan du se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
