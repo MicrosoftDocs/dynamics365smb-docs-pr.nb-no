@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer – Søke etter dimensjonskombinasjoner | Microsoft-dokumentasjon"
-description: "Når du lukker et vindu etter å ha redigert et sett med dimensjoner, undersøker [!INCLUDE[d365fin](includes/d365fin_md.md)] om det redigerte settet med dimensjoner finnes. Hvis gruppen ikke finnes, blir det opprettet et nytt sett, og det kombinasjon-IDen for dimensjonen blir returnert."
-services: project-madeira
-documentationcenter: 
+description: "Når du lukker et vindu etter å ha redigert et sett med dimensjoner, undersøker Dynamics 365 om det redigerte settet med dimensjoner finnes. Hvis gruppen ikke finnes, blir det opprettet et nytt sett, og det kombinasjon-IDen for dimensjonen blir returnert."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9e36a8a1a5eeede5023da32bcb40a06042173fb4
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 64e5191fd2947a8e19595d8c9f1ece4eeff77ec0
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Søke etter dimensjonskombinasjoner
@@ -75,7 +73,7 @@ EXIT(DimSet.ID);
 ```  
 
 ## <a name="see-also"></a>Se også  
- [GET-funksjonen (post)](https://msdn.microsoft.com/en-us/library/dd301056.aspx)    
+ [GET-funksjonen (post)](/dynamics-nav/GET-Function--Record-)    
  [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
  [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)   
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   

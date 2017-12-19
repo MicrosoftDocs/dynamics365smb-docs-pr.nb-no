@@ -11,10 +11,10 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 0bd6edbefbfa46ec7214f806bf28e7a523930740
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -32,7 +32,7 @@ For noen rask og praktisk å vite triks, kan du se:
 
 Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til å gjøre noe tyngre løft, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](madeira-business-functionality.md). For en oversikt over gjeldende funksjoner, og hva kommer, kan du ta en titt på vår veikart på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Når du er klar til å begynne å jobbe, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](madeira-business-functionality.md). For en oversikt over gjeldende funksjoner, og hva kommer, kan du ta en titt på vår veikart på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
 
 ## <a name="the-home-pages"></a>Hjemmesidene
 Hjemmesider bruker en rollesentrert design for å gi rask tilgang til forretningsprosessen og intelligensverktøyene du trenger for å gjøre jobben din. En regnskapsfører kan for eksempel overvåke betalinger og godkjenninger, og vise finansytelsesdiagrammer. Sjekk de forskjellige hjemmesidene ved å velge **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter") i øvre høyre hjørne, velge **Mine innstillinger** og deretter rollesenteret som skal utforskes. Logg deg på på nytt for å aktivere endringen. Hvis du vil ha mer informasjon, kan du se [Endre rollesenter](change-role.md).  

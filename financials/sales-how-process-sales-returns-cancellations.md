@@ -11,16 +11,16 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 09/08/2016
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 46908fb1ae2e0281e730a03e2bcad6e79704d22e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 33a1c64886fc7b16cddd67ad175539c96f8d48d6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. For å inkludere den riktige salgsfakturainformasjonen kan du opprette salgskreditnotaen direkte fra den bokførte salgsfakturaen, eller du kan opprette en ny salgskreditnota kopiert fakturainformasjon.
 
-Hvis du trenger mer kontroll over ordrereturprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt når du returnerer varer fra flere salgsdokumenter med en ordreretur, kan du opprette ordrereturer. En ordreretur utsteder automatisk den relaterte salgskreditnotaen, og andre returrelaterte dokumenter, for eksempel en erstatningsordre om nødvendig. Hvis du vil ha mer informasjon, kan du se delen "Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter".
+Hvis du trenger mer kontroll over ordrereturprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt når du mottar varer fra flere salgsdokumenter med en ordreretur, kan du opprette ordrereturer. En ordreretur utsteder automatisk den relaterte salgskreditnotaen, og andre returrelaterte dokumenter, for eksempel en erstatningsordre om nødvendig. Hvis du vil ha mer informasjon, kan du se delen "Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter".
 
 > [!NOTE]  
 >   Hvis en bokført salgsfaktura ennå ikke er betalt, kan du bruke funksjonen **Korriger** eller **Annuller** på den bokførte salgsfakturaen for å tilbakeføre transaksjonene. Disse funksjonene fungerer bare for ubetalte fakturaer, og de støtter ikke delvise returer eller annulleringer. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
@@ -48,7 +48,7 @@ For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra
 Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-details-inventory-costing.md).
 
 ## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Opprette en ny salgskreditnota fra en bokført salgsfaktura
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I vinduet Bokførte **salgsfakturaer** velger du den bokførte salgsfakturaen som du vil tilbakeføre, og deretter velger du **Opprett korrigerende kreditnota**.
 
     For salgskreditnotahodet inneholder noen opplysninger fra den bokførte salgsfakturaen. Du kan redigere dette, for eksempel med ny informasjon som gjenspeiler returavtalen.  
@@ -70,7 +70,7 @@ Dialogboksen **Bokfør og send bekreftelse** åpnes, og viser den foretrukne sen
 De bokførte salgsdokumentene som du utlignet kreditnotaen mot, tilbakeføres, og en refusjonsbetaling kan opprettes for kunden. Salgskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokførte salgskreditnotaer.
 
 ## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Opprette en salgskreditnota ved å kopiere en bokført salgsfaktura
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom salgskreditnota.
 3. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 4. Velg handlingen **Kopier dokument**.
@@ -81,7 +81,7 @@ De bokførte salgsdokumentene som du utlignet kreditnotaen mot, tilbakeføres, o
 9. Fullføre salgskreditnotaen som forklart i den avsnittet "Opprette en salgskreditnota fra en bokført salgsfaktura" i dette emnet.
 
 ## <a name="to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents"></a>Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrereturer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrereturer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.
 4. I **Linjer**-hurtigfanen fyller du ut linjene manuelt, eller kopier informasjon fra andre dokumenter for å fylle ut linjene automatisk:
@@ -161,7 +161,7 @@ Når du bokfører ordrereturen, legges et returgebyr til i det aktuelle salgsbel
 Du kan sende en kunde en kreditnota med prisreduksjon hvis kunden har mottatt ukurante varer eller har mottatt varene for sent.  
 Du kan bokføre den reduserte prisen som et varegebyr i en kreditnota eller en ordreretur, og knytte den til den bokførte følgeseddelen. Det følgende beskriver den for en salgskreditnota, men de samme trinnene gjelder en ordreretur.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom salgskreditnota.
 3. Fyll ut kreditnotahodet med aktuelle opplysninger om kunden du vil gi salgsrabatt til.  
 4. På hurtigfanen **Linjer**, i **Type**-feltet, velger du **Gebyr (vare)**.  
@@ -184,7 +184,7 @@ Du kombinerer retursedler ved å merke av for **Opprett samlefaktura** i vinduet
 
 ### <a name="to-manually-combine-return-receipts"></a>Slik slår du sammen retursedler manuelt  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgskreditnota**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgskreditnota**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.  
 4. Velg handlingen **Hent returmottakslinjer**.  
@@ -200,7 +200,7 @@ Du kombinerer retursedler ved å merke av for **Opprett samlefaktura** i vinduet
 ### <a name="to-automatically-combine-return-receipts"></a>Slik slår du sammen retursedler automatisk:  
 Du kan slå sammen retursedler automatisk og velge å bokføre kreditnotaene automatisk ved hjelp av funksjonen **Slå sammen retursedler**.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Slå sammen retursedler**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slå sammen retursedler**, og velg deretter den relaterte koblingen.
 2. I vinduet **Slå sammen retursedler** fyller du ut feltene for å velge de aktuelle returmottakene.
 3. Merk av for **Bokfør kreditnotaer**. Hvis ikke må du manuelt bokføre de endelige kjøpskreditnotaene.
 4.  Velg **OK**.  
@@ -209,7 +209,7 @@ Du kan slå sammen retursedler automatisk og velge å bokføre kreditnotaene aut
 Når du fakturerer retursedler på denne måten, eksisterer fortsatt ordrereturene som retursedlene ble bokført fra, selv om de er fullstendig mottatt og fakturert.  
 
 Når retursedler slås sammen på en kreditnota og bokføres, opprettes en bokført salgskreditnota for den eller de krediterte linjene. **Fakturert (antall)**-feltet på den opprinnelige ordrereturen oppdateres ut fra det fakturerte antallet.   
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrereturer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrereturer**, og velg deretter den relaterte koblingen.  
 2.  Angi hvilke ordrer som skal slettes, i **Nr.** -filterfeltet.  
 3.  Velg **OK**-knappen.  
 

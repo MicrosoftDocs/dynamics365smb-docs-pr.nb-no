@@ -13,10 +13,10 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 83d4d7b10ce9bd09e9947f48eee0c1094815aa1e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 3996ccaf34615e4350f894b4d003d7bf0e3e46bd
 ms.contentlocale: nb-no
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-bank-accounts"></a>Opprette bankkonti
@@ -28,7 +28,7 @@ Du bruker bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å holde o
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av det assisterte oppsettet for **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)](index.md).
+> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av det assisterte oppsettet for **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Opprette din bankkonto for import eller eksport av bankfilene
 Felt i hurtigafnen **Overføring** i vinduet **Bankkontokort** er relatert til import og eksport av bankfeeder og filer. Hvis du vil ha mer informasjon, kan du se [Konfigurere konverteringstjenesten for bankdata](bank-how-setup-bank-data-conversion-service.md) og [Kofigurere Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
@@ -47,9 +47,6 @@ Felt i hurtigafnen **Overføring** i vinduet **Leverandørs bankkort** er relate
 2. Åpne kortet for en leverandør med en bankkonto som du vil eksportere betalingsbankfiler til.
 3. Velg **Bankkonti**-handlingen.
 3. I vinduet **Leverandørs bankkort**, i hurtigfanen **Overføring**, fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-## <a name="to-set-the-opening-balance-on-new-bank-accounts"></a>Angi den inngående balansen på nye bankkonti
-
 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktjenester](bank-setup-banking.md)  

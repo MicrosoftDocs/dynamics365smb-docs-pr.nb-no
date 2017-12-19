@@ -13,10 +13,10 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 203449e8a7f032dbcb7b3d014c3198e0a2e7847a
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="finance"></a>Finans
@@ -37,7 +37,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Håndtere lager- og produksjonskost, rapportere kost og avstemme kost mot Finans.|[Administrere lagerkostnader](finance-manage-inventory-costs.md)|
 | Forstå Finans og kontoplanen. |[Forstå Finans og kontoplanen](finance-general-ledger.md) |
 | Legg til dimensjoner for bedre forretningsintelligens. |[Arbeide med dimensjoner](finance-dimensions.md) |
-| Opprette budsjetter for å prognostisere ulike økonomiske aktiviteter og tilordne dimensjoner for forretningsanalyseformål. |[Opprette budsjetter](finance-how-create-budgets.md) |
+| Opprette finansbudsjetter for å prognostisere ulike økonomiske aktiviteter og tilordne dimensjoner for forretningsanalyseformål. |[Opprette finansbudsjetter](finance-how-create-budgets.md) |
 |Registrere inntekt eller utgifter direkte i Finans, uten å bokføre dedikerte forretningsdokumenter.|[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)|
 |Bokfør tilbakeføringsposter hvis du vil angre verdibokføringer i finanskladden eller antallsbokføringer i salgs- og kjøpsdokumenter. |[Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md)|
 |Fordele en post i en finanskladd til flere forskjellige konti når du bokfører kladden. |[Fordele kostnader og inntekter](year-allocate-costs-income.md) |

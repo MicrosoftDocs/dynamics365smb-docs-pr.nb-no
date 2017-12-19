@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09d48e230291524e7771d4b4305c4290bd567eb9
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 7ce4b45d740e50bba8256e72fcf43c70ea85922c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
@@ -58,7 +58,7 @@ Du må opprette en ny bruker på den lokale datamaskinen og i [!INCLUDE[d365fin]
 7.  Lukk vinduet **Lokale brukere og grupper**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Slik legger du til Charlotte som en bruker i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.  
 2.  I **Windows-brukere**-vinduet i **Hjem**-fanen velger du **Ny** i **Ny**-gruppen.  
 3.  I vinduet **Brukerkort** i **Brukernavn**-feltet angir du Charlotte.  
 4.  Klikk AssistEdit-knappen i **Windows-brukernavn**-feltet.  
@@ -72,7 +72,7 @@ Du må opprette en ny bruker på den lokale datamaskinen og i [!INCLUDE[d365fin]
 Ved hjelp av Windows-brukeren som du nettopp opprettet, definerer du Charlotte som en godkjenningsbruker med deg selv som godkjenner. Sett opp godkjenningsrettigheter og angi hvordan og når du blir varslet om forespørsler om godkjenning.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Slik definerer du deg selv og Charlotte som godkjenningsbrukere  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny** under **Ny** i fanebladet **Hjem** i vinduet **Brukeroppsett for godkjenning**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Angi hvordan og når du blir varslet om forespørsler om godkjenning.
  Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra arbeidsflytmalen for arbeidsflyt for bestillingsgodkjenning. La de eksisterende trinnene i arbeidsflyten forblir uendret, og aktiver deretter arbeidsflyten.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Slik oppretter og aktiverer du en arbeidsflyt for bestillingsgodkjenning:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2.  Velg **Opprett arbeidsflyt fra mal** under **Generelt** på fanebladet **Handlinger** i vinduet **Arbeidsflyter**.  
 3.  Velg **Opprett arbeidsflyt fra mal** under **Generelt** på fanebladet **Handlinger**. Vinduet **Arbeidsflytmaler** åpnes.  
 4.  Velg arbeidsflytmalen kalt Arbeidsflyt for bestillingsgodkjenning, og velg deretter **OK**.  
@@ -115,7 +115,7 @@ Angi hvordan og når du blir varslet om forespørsler om godkjenning.
 Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Slik starter du jobbkøen VARSLE:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Jobbkøer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Jobbkøer**, og velg deretter den relaterte koblingen.  
 2.  I vinduet **Jobbkøer** velger du linjen for jobbkøen VARSLE, og deretter velger du **Start jobbkø** under **Prosess** på fanebladet **Hjem**.  
 
 ## <a name="using-the-approval-workflow"></a>Bruke arbeidsflyten for godkjenning  
@@ -133,7 +133,7 @@ For å logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som forskjellige br
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Slik ber du om godkjenning av en bestilling som Charlotte:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg linjen for åpen bestilling 104001, og velg deretter **Rediger** under **Behandle** i fanebladet **Hjem**.  
 3.  I vinduet **Bestilling** på fanebladet **Handlinger** under **Godkjenning** velger du **Send godkjenningsforespørsel**.  
 
@@ -160,7 +160,7 @@ Den generiske versjonen [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder m
 
 Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
-Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem ved å tilpasse programkoden. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: Implementering av nye arbeidsflythendelser og svar](https://msdn.microsoft.com/en-us/library/mt574349.aspx) på MSDN.  
+Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem ved å tilpasse programkoden. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: Implementering av nye arbeidsflythendelser og svar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses) i hjelpen for utviklere og IT-eksperter.  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)   

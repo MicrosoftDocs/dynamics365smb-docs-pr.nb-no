@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2f62bbae71eac1c0d63df5e352601c0885274066
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 148a566473e4964db3cbc6ee266eccb6b6c6aaa7
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter som inkluderer mva-beløp
@@ -29,7 +29,7 @@ Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrak
 >  I dette eksemplet må du endre arbeidsdatoen til 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Slik retter du opp en faktura for en forhåndsbetalt servicekontrakt:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontrakthåndtering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontrakthåndtering**, og velg deretter den relaterte koblingen.  
 2. Velg **Servicekontrakter** under **Oversikter**.  
 3. Opprett en ny forhåndsbetalt servicekontrakt. Angi **01.01.2017** som startdato, og angi et fakturaperiodår for kunde **20000**.  
 4. Denne kontrakten må signeres. I fanebladet **Hjem**, under **Prosess** velger du **Signer kontakt**.  

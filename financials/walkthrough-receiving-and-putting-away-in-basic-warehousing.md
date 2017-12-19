@@ -1,8 +1,6 @@
 ---
 title: "Gjennomgang – Mottak og plassering i enkle lageroppsett | Microsoft-dokumentasjon"
-description: "I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
-services: project-madeira
-documentationcenter: 
+description: "I Dynamics 365 kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d985a6c1a28ee20dab73a8627e18eb4805f78b6e
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 52b017591b389c883e8a0bbeb35c1e3a3a9e7377
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett

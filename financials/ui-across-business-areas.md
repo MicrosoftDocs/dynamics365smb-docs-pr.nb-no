@@ -13,14 +13,18 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 5a5238c3333551cc00fbb6b81c04309e76013f82
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Og for å støtte områdespesifikke forretningsoppgaver kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](madeira-business-functionality.md).
+
+For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
+
+
 
 Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til emnene som beskriver dem.
 

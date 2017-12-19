@@ -13,10 +13,10 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: fd949573e7bfd1b6ce1fc849625a1a3474013f96
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Definere ansvarsområder for kontaktpersoner
@@ -27,7 +27,7 @@ Bruk av ansvarsområder på kontakter er en totrinnsprosess. Først må definere
 ## <a name="to-define-a-job-responsibility-code"></a>Definere en kode for ansvarsområde
 Koden for ansvarsområde definerer jobbtype eller -kategori, for eksempel MARKEDSFØRING eller INNKJØP. Du kan ha flere koder for ansvarsområde. Hvis du vil definere ansvarsområde, bruker du vinduet **Ansvarsområder**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansvarsområder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansvarsområder**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**, og fyll ut en kode og en beskrivelse. Koden kan bestå av opptil 11 tegn, og kan inneholde en kombinasjon av tall og bokstaver.
 
 ## <a name="to-assign-job-responsibilities-to-a-contact-person"></a>Tilordne ansvarsområder til en kontaktperson

@@ -13,10 +13,10 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/29/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b486061fbb497019a56eda803df0b320565ea7bf
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: dde3ad30e76c02f58bd31afaa74b81031857462b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
@@ -51,7 +51,7 @@ Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoe
 ## <a name="region"></a>Region
 **Region**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.   
 
-## <a name="change-when-i-receive-notifications"></a>Endre når jeg mottar varsler
+## <a name="changing-when-i-receive-notifications"></a>Endre når jeg mottar varsler
 Velg denne koblingen for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Smarte varsler](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også

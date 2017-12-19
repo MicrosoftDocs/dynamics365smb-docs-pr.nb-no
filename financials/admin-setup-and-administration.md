@@ -1,6 +1,6 @@
 ---
 title: Administrative oppgaver i Dynamics 365 | Microsoft-dokumentasjon
-description: "Enkelte oppgaver i [!INCLUDE[d365fin](includes/d365fin_md.MD)] krever sentral administrasjon og oppsett. Se hva de er, og finn ut hva som må gjøres."
+description: "Enkelte oppgaver i Dynamics 365 krever sentral administrasjon og oppsett. Se hva de er, og finn ut hva som må gjøres."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 09c3460a50088098bfe5c2fb633e76dccbac0794
+ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
+ms.openlocfilehash: c7e5efe85dddcc7db84b05879f0c71990167c775
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="setup-and-administration-in-dynamics-365-for-financials"></a>Oppsett og administrasjon i Dynamics 365 for Financials
@@ -40,7 +40,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Konfigurere et nytt konsern ved hjelp av maler|[Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)|  
 
 ## <a name="see-also"></a>Se også
-[Oversikt over forretningsfunksjoner](madeira-business-functionality.md)  
+[Forretningsfunksjoner](madeira-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  

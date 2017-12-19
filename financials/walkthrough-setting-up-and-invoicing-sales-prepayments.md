@@ -1,8 +1,6 @@
 ---
 title: "Gjennomgang – konfigurere og fakturere salgsforskudd | Microsoft-dokumentasjon"
-description: "Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du krever kanskje et depositum før du produserer varer på bestilling, eller kanskje du krever betaling før du leverer varer til en kunde. Du bruker funksjonene for forskuddsbetaling i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sørge for at alle betalinger bokføres mot en faktura."
-services: project-madeira
-documentationcenter: 
+description: "Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du krever kanskje et depositum før du produserer varer på bestilling, eller kanskje du krever betaling før du leverer varer til en kunde. Du bruker funksjonene for forskuddsbetaling i Dynamics 365 til å fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sørge for at alle betalinger bokføres mot en faktura."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 14c4c4a9d4a9ef9149ded77343fa385ae8038f83
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: fbdeb6b9dc8c96b09ded933ec987b8c60098bfcf
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
@@ -66,7 +64,7 @@ Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller 
 Følgende fremgangsmåte beskriver hvordan du fullfører oppgavene til Jenny:  
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Slik definerer du en nummerserie for forskuddsbetalinger:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Vis hurtigfanen **Nummerering** i **Salgsoppsett**-vinduet.  
 3.  Kontroller at nummerserien for bokførte forskuddsfakturaer i feltet **Bokførte fakturanumre for forskudd** er den samme som for bokførte salgsfakturaer (**Bokførte fakturanr.**), og at nummerserien for bokførte kreditnotaer for forskudd (**Bokførte kreditnotanumre for forskudd**) er den samme som for bokførte kreditnotaer (**Bokførte kreditnotanr.**).  
 
@@ -80,11 +78,11 @@ Jenny krever at kunde 20000 som standard faktureres for et avdrag på 30 % i all
 Jenny krever at alle kunder faktureres for et depositum på 20&#160;% for vare 1100. Kunde 20000 har en dårlig betalingshistorikk. Derfor krever hun en 40 % forskuddsbetaling fra kunde 20000 for vare 1100. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Slik tilordner du standard forskuddsprosenter til kunder og varer:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2.  Åpne kortet for kunde 20000 (Møbelhandleren).
 3.  Skriv inn **30** i feltet **Forskuddsprosent**.  
 4.  Velg **OK**-knappen for å lukke kundekortet.  
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 6.  Åpne kortet for kunde 1100.
 7.  Velg handlingen **Forskuddsprosenter for salg**.  
 8.  Fyll ut to linjer i vinduet **Forskuddsprosenter for salg** på følgende måte.  
@@ -100,7 +98,7 @@ Jenny krever at alle kunder faktureres for et depositum på 20&#160;% for vare 1
 9. Lukk alle vinduer.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Slik angir du en konto for salgsforskudd i generelt bokføringsoppsett:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg linjen hvor feltet **Bokføringsgruppe - firma** er satt til **EKSPORT**, og feltet **Bokføringsgruppe - vare** er satt til **DETALJ**, og velg deretter **Rediger**-handlingen.  
 3.  Angi den relevante kontoen i feltet **Konto for salgsforskudd** i vinduet **Generelt bokføringsoppsettskort**.  
 4.  Velg **OK**-knappen.  
@@ -113,7 +111,7 @@ Kunden ber om å kunne få betale 35 %, og Susanne samtykker. Derfor endrer hun 
 Heidi oppretter forskuddsfakturaen og sender den til kunden.  
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Slik oppretter du en ordre med et forskudd:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I feltet **Salg til-kundenr.** -feltet, velger du **20000**.  
 5.  Godta advarselen om forfalt saldo som vises.  
@@ -175,7 +173,7 @@ Kunden betaler forskuddsbeløpet, og Magnus, som arbeider i regnskapsavdelingen,
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Slik utligner du en betaling mot forskuddsfakturaene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut en kladdelinje med følgende informasjon.  
 
     |Feltnavn|Angi|  
@@ -204,7 +202,7 @@ Magnus har nå fått beskjed om at varene i ordren er levert, og at ordren er kl
 
 Arnie kan vise historikken for å bekrefte at salgsfakturaen ble opprettet som tiltenkt.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 
 ## <a name="next-steps"></a>Neste trinn  
 Denne gjennomgangen har ledet deg gjennom trinnene for å konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] slik at du kan håndtere forskuddsbetalinger i det. Du har konfigurert standard forskuddsprosenter for kunder og varer, og du har også brukt flere ulike metoder til å beregne forskuddsbetalingene i en ordre. Du har prøvd å tilordne ett totalt forskuddsbeløp i ordren, og du har fått beregnet forskuddsbeløpet som en prosentsats for hele ordren.  

@@ -1,8 +1,6 @@
 ---
 title: "Gjennomgang – Plukking og levering i enkle lageroppsett | Microsoft-dokumentasjon"
-description: "I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
-services: project-madeira
-documentationcenter: 
+description: "I Dynamics 365 kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 993d3f092db9f423aba9a67d58f53895df0d5c2f
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: 2ef41d6b1d224c016da4663d3059717c11611d92
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
@@ -57,14 +55,14 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 -   Installere CRONUS Norge AS.  
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
     2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
     3.  Skriv inn SØLV i feltet **Lokasjonskode**.  
     4.  Velg **Standard**- feltet.  
 
 -   Gjør elementet LS-81 tilgjengelig på SØLV-plasseringen ved å følge disse trinnene:  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.  
     2.  Åpne standardkladden, og opprett deretter to varekladdelinjer med følgende informasjon om arbeidsdatoen (23. januar).  
 
         |Posttype|Varenummer|Lokasjonskode|Hyllekode|Antall|  
@@ -81,7 +79,7 @@ Ellen, lagersjefen i CRONUS, setter opp SØLV-lageret for grunnleggende plukkhå
 Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.  
 
 ### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet SØLV.  
 3.  Merk av for **Plukk nødv.**.  
 
@@ -89,7 +87,7 @@ Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.
 Salgsordrer er den vanligste typen av utgående kildedokumenter.  
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett en ordre for kunde 10000 på arbeidsdatoen (23. januar) med følgende ordrelinje.  
 
@@ -107,7 +105,7 @@ Salgsordrer er den vanligste typen av utgående kildedokumenter.
 I vinduet **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et bestemt kildedokument, for eksempel en ordre.  
 
 ### <a name="to-pick-and-ship-items"></a>Slik plukker og leverer du varer:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Velg feltet **Kildedokument**, og velg deretter **Ordre**.  
 4.  Velg feltet **Kildenr.**, velg linjen for salg til kunde 10000, og velg deretter **OK**-knappen.  

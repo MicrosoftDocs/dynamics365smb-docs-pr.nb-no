@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 08/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ad7ecfa7725aa6696620dc77ab9a6d7a09863b3c
+ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
+ms.openlocfilehash: bb8b1ecf0f5e8f91598bf96c85ec70f0d385267e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="smart-notifications"></a>Smarte varsler
@@ -25,14 +25,14 @@ Hvis du velger å vise detaljer for et varsel, kan du iverksette tiltak for å l
 
 Varsler hjelper utrente brukere å fullføre ukjente oppgaver og reduserer ikke produktiviteten til mer erfarne brukere.  
 
-## <a name="turn-on-or-turn-off-notifications-and-control-when-they-are-sent"></a>Aktivere eller deaktivere varslinger og kontrollere når de sendes
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Aktivere eller deaktivere varslinger og kontrollere når de sendes
 Når du først starter med [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle meldinger slått på, men du kan slå dem på eller av, for eksempel, hvis du ikke er interessert i en bestemt hendelse eller status.  
-  
+
 I tillegg kan noen meldinger du angi betingelsene som de ble sendt. For eksempel hvis du ønsker å bli varslet når lageret er lite, men bare for varer kjøper du fra en bestemt leverandør.  
-  
+
 Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mine varsler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mine varsler**, og velg deretter den relaterte koblingen.
 2. Hvis du vil aktivere eller deaktivere et varsel, merker eller fjerner du **Aktivert**-merket.
 3. Hvis du vil angi vilkårene som utløser et varsel, kan du velge koblingen **Vis filterdetaljer**, og deretter fyller du ut feltene.  
 

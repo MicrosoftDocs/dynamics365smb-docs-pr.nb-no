@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer – Lageroppsett | Microsoft-dokumentasjon"
-description: "Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen."
-services: project-madeira
-documentationcenter: 
+description: "Lagerfunksjonaliteten i Dynamics 365 inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -13,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 3c6d60ad75a8bf4f758a5e2fbc0ffa10b8929899
+ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
+ms.openlocfilehash: cf6a2fbbe92b47c4ac58d16abacaaefbe33309b1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lageroppsett
@@ -46,7 +44,7 @@ Tabellen nedenfor viser hvilke granuler som kreves for å kunne definere ulike k
 |3 <br /><br /> **Merk**: Selv om innstillingene kalles **Plukk nødv.** og **Plassering nødv.**, kan du bokføre mottak og leveringer direkte fra kildedokumenter for firma på lokasjoner der du velger disse avmerkingsboksene.|Grunnleggende lageraktiviteten, ordre for ordre.<br /><br /> Mottaks-/leveringsbokføring fra lagerplasserings-/plukkdokumenter. <br /><br /> Hyllekode kreves.|Lagerplassering / Lagerflytting / Lagerplukk med hyllekode|(SØLV + Plassering nødv. eller Plassering nødv.)|Grunnleggende lagerbeholdning / hylle / plassering / plukk|  
 |4|Avanserte lageraktiviteten, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.|Lagermottak/Plassering/Plukk/Lagerlevering/Plukkforslag|GRØNN|Grunnleggende lagerbeholdning / lagermottak / plassering / plukk / lagerlevering|  
 |5|Avanserte lageraktiviteten, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.<br /><br /> Hyllekode kreves.|Lagermottak/Plassering/Plukk/Lagerlevering/Plukkforslag/Plasseringsforslag, med hyllekode|(GRØNN + Hylle obligatorisk)|Grunnleggende lagerbeholdning / hylle / lagermottak / plassering / plukk / lagerlevering|  
-|6 <br /><br /> **Obs**: Dette nivået kalles "LA", siden det krever den mest avanserte granulen, Lagerstyringssystem.|Avanserte lageraktiviteten, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.<br /><br /> Hyllekode kreves.<br /><br /> Sone-/klassekode er valgfri.<br /><br /> Lagermedarbeidere følger arbeidsflyten.<br /><br /> Planlegg etterfylling av hylle.<br /><br /> Hylleprioritering.<br /><br /> Hylleoppsett etter kapasitet.<br /><br /> Plasseringsoptimalisering.<br /><br /> Integrering av håndholdt enhet.|Lagermottak/Plassering/Plukk/Lagerlevering/Lagerflytting/Plukkforslag/Plasseringsforslag / Intern plukk / Intern plassering, med hylle-/klasse-/sonekode Pick/Internal Warehouse Put-away, with bin/class/zone code<br /><br /> Ulike forslag for hyllehåndtering<br /><br /> ADFS-skjermer|KR.SAND|Grunnleggende lagerbeholdning / hylle / plassering / lagermottak / plukk / lagerlevering / lagerstyringssystemer / interne plukk og plasseringer / hylleoppsett / automatisk datoregistreringssystem / hylleoppsett|  
+|6 <br /><br /> **Obs**: Dette nivået kalles "LA", siden det krever den mest avanserte granulen, Lagerstyringssystem.|Avanserte lageraktiviteten, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.<br /><br /> Hyllekode kreves.<br /><br /> Sone-/klassekode er valgfri.<br /><br /> Lagermedarbeidere følger arbeidsflyten.<br /><br /> Planlegg etterfylling av hylle.<br /><br /> Hylleprioritering.<br /><br /> Hylleoppsett etter kapasitet.<br /><br /> Plasseringsoptimalisering.<br /><br /> Integrering av håndholdt enhet.|Lagermottak/Plassering/Plukk/Lagerlevering/Lagerflytting/Plukkforslag/Plasseringsforslag/Intern. Plukk/Intern plassering, med hylle/klasse/sone-kode<br /><br /> Ulike forslag for hyllehåndtering<br /><br /> ADFS-skjermer|KR.SAND|Grunnleggende lagerbeholdning / hylle / plassering / lagermottak / plukk / lagerlevering / lagerstyringssystemer / interne plukk og plasseringer / hylleoppsett / automatisk datoregistreringssystem / hylleoppsett|  
 
 Hvis du vil se eksempler på hvordan grensesnittdokumentene brukes for hvert kompleksitetsnivå for lageret, kan du se [Designdetaljer: Inngående lagerflyt](design-details-outbound-warehouse-flow.md).  
 
