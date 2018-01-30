@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 8eee2a93a56c33fd5cefb70c475e237166017606
+ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
+ms.openlocfilehash: 3ccedd0f5bede5dc692b1fec89d87e708047a622
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 09/22/2017
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Legge til koblinger i webområder, dokumenter eller programmer i poster
@@ -45,7 +45,7 @@ Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du 
 
 Hvis du vil slette en kobling, i vinduet **Koblinger**, kan du velge **...** og deretter **Slett**.
 
-Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en kunde, slettes alle koblingene som er knyttet til posten. Hvis du imidlertid sletter poster ved å bruke en kjørsel, for eksempel kjørselen **Slett fakturerte ordrer**, lagres koblingene i databasen. Hvis du vil slette koblingene fra databasen, kjører du kodeenheten **Slett koblinger til løse poster**. Du gjør dette ved å velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slett koblinger til løse poster** og deretter velge den relaterte koblingen.   
+Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en kunde, slettes alle koblingene som er knyttet til posten. Hvis du imidlertid sletter poster ved å bruke en kjørsel, for eksempel kjørselen **Slett fakturerte ordrer**, lagres koblingene i databasen. Hvis du vil slette koblingene fra databasen, kjører du kodeenheten **Slett koblinger til løse poster**. Du gjør dette ved å velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Slett koblinger til løse poster** og deretter velge den relaterte koblingen.   
 
 <!-- ### To run delete orphaned record links  
 
@@ -54,5 +54,5 @@ Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en k
 2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Se også  
-[Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
