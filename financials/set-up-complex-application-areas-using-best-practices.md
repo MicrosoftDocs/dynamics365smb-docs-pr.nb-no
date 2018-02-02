@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 508b45bab8b2ea98ae868c67e7e28c1e0a528040
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter
@@ -31,7 +31,10 @@ Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen ti
 -   [Anbefalte fremgangsmåter for oppsett: lagermetode](setup-best-practices-costing-method.md)  
 
 ## <a name="see-also"></a>Se også  
- [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
- [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
+[Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 
