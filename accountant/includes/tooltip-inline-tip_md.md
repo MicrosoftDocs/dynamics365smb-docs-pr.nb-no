@@ -1,1 +1,1 @@
-<span data-ttu-id="56d9e-101">Velg et felt som skal inneholde en kort beskrivelse av feltet eller kobling til mer informasjon.</span><span class="sxs-lookup"><span data-stu-id="56d9e-101">Choose a field to read a short description of the field or link to more information.</span></span>
+<span data-ttu-id="b2781-101">Velg et felt som skal inneholde en kort beskrivelse av feltet eller kobling til mer informasjon.</span><span class="sxs-lookup"><span data-stu-id="b2781-101">Choose a field to read a short description of the field or link to more information.</span></span>
