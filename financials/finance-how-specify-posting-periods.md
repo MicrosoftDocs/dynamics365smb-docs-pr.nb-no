@@ -15,21 +15,21 @@ ms.search.keywords: user setup
 ms.date: 06/02/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 6cabfc7f514f44b64331761e90d900deadc6116c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 86114cd184a7a9f10ae28fbb28fb3049e8e8f2d2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-specify-posting-periods"></a>Angi bokføringsperioder
+# <a name="specify-posting-periods"></a>Angi bokføringsperioder
 Bruk bokføringsperioder til å angi når brukere kan postere til finans.  
 
 ## <a name="to-specify-posting-periods"></a>Slik angir du bokføringsperioder
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Finansoppsett** definerer du perioden ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til**.  
 
 > [!NOTE]  
->   Disse bokføringsperiodene gjelder for selskapet og for alle brukere. For å tillate unntak kan du definere forskjellige bokføringsperioder for bestemte brukere i vinduet **Brukeroppsett**. Disse bokføringsperiodene overstyrer innstillingene angitt i **Finansoppsett**-vinduet. Hvis du vil ha mer informasjon, kan du se delen «Slik definerer du tidsbegrensninger for brukere» i [Administrere brukere og tillatelser](ui-how-users-permissions.md).
+>   Disse bokføringsperiodene gjelder for selskapet og for alle brukere. For å tillate unntak kan du definere forskjellige bokføringsperioder for bestemte brukere i vinduet **Brukeroppsett**. Disse bokføringsperiodene overstyrer innstillingene angitt i **Finansoppsett**-vinduet. Hvis du vil ha mer informasjon, kan du se delen Definere tidsbegrensninger for brukere i [Administrere brukere og tillatelser](ui-how-users-permissions.md).
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

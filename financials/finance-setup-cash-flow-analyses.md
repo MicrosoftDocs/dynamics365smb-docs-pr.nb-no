@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7d78333c5a7151ad60f07433ba32cfea142a2445
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
@@ -58,7 +58,7 @@ Hvis du vil konfigurere disse, søker du etter **kontantstrømkontoer**, velger 
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurere kontantstrømprognoser
 Diagrammet **Kontantstrømprognose** inneholder kontoer for kontantstrøm, kontantstrømoppsett og kontantstrømprognoser. Noen er angitt, men du kan definere dine egne ved hjelp av en assistert installasjonsveiledningen. Veiledningen hjelper deg med å angi informasjon, for eksempel hvor ofte prognosen skal oppdateres, kontoene som den skal baseres på, informasjon om når du betaler skatt, og om du vil aktivere [Cortana Intelligence](https://www.microsoft.com/en-us/cloud-platform/what-is-cortana-intelligence-suite).  
 
-Kontantstrømprognoser kan bruke Cortana Intelligence for å inkludere dokumenter med en forfallsdato i fremtiden. Resultatet er en mer omfattende forutsigelse. Tilkoblingen til Cortana Intelligence er allerede satt opp for deg. Du trenger bare å aktivere den. Når du logger deg på [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], en melding vises i en blå linje, og inneholder en kobling til kontantstrøm standardoppsettet. Varslingen viser bare én gang. Hvis du lukker den, men bestemmer deg for å aktivere Cortana Intelligence, kan du bruke assistert installasjonsveiledningen eller en manuell prosess.  
+Kontantstrømprognoser kan bruke Cortana Intelligence for å inkludere dokumenter med en forfallsdato i fremtiden. Resultatet er en mer omfattende forutsigelse. Tilkoblingen til Cortana Intelligence er allerede satt opp for deg. Du trenger bare å aktivere den. Når du logger deg på [!INCLUDE[d365fin](includes/d365fin_md.md)], en melding vises i en blå linje, og inneholder en kobling til kontantstrøm standardoppsettet. Varslingen viser bare én gang. Hvis du lukker den, men bestemmer deg for å aktivere Cortana Intelligence, kan du bruke assistert installasjonsveiledningen eller en manuell prosess.  
 
 > [!NOTE]  
 >   Du kan også bruke din egen prediktive webtjeneste. Hvis du vil ha mer informasjon, kan du se [Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser](#AnchorText).  
@@ -79,10 +79,10 @@ Slik bruker du en manuell prosess:
 >   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
 
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
-Du kan også opprette dine egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Dynamics 365 Business edition**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
+Du kan også opprette dine egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Finance and Operations, Business edition**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
 1. Åpne en nettleser, og gå til [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352)  
-2. Søk etter **Forecasting Model for Microsoft Dynamics 365 Business edition**, og åpne deretter modellen i Azure Machine Learning Studio.  
+2. Søk etter **Forecasting Model for Microsoft Finance and Operations, Business edition**, og åpne deretter modellen i Azure Machine Learning Studio.  
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  

@@ -13,13 +13,13 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0e6fbc829f80b9fe5e1b2f9b4645d53f4334a696
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa1225e8467ab805fc14afdd39eef556dc7ad5fc
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
+# <a name="reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
 Hvis du vil avstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med oppgaver som er mottatt fra banken, må du fylle ut linjene i vinduet **Bankkontoavstemming**.
 
 > [!NOTE]  
@@ -42,7 +42,7 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 >   Hvis bankeoppgavelinjene vedrører sjekkposter, kan du ikke bruke avstemmingsfunksjonene. I stedet må du velge handlingen **Utlign poster** og deretter velge den relevante sjekkposten som bankkontoutdragslinjen skal utlignes mot.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylle ut bankavstemmingslinjer ved å importere et bankkontoutdrag
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I feltet **Bankkontonr.** velger du den aktuelle bankkontoen. Bankkontoposter som finnes i å bankkontoen som vises i ruten **Bankkontoposter**.
 4. I feltet **Utdragsdato** angir du datoen på utdraget fra banken.

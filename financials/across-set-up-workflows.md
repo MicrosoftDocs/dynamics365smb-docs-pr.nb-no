@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 12/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 6beb70ad41fa32043e9b8afea67d390929533007
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 75571a006ab267cfef268e0ff6b62ffd0ffb936b
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-workflows"></a>Konfigurere arbeidsflyter
@@ -37,7 +37,7 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 |Angi hvordan arbeidsflytbrukere blir varslet om arbeidsflyttrinn, herunder forespørsler om godkjenning.|[Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)|  
 |Angi når brukere mottar varsler og om du vil samle varsler i en periode for å redusere antallet varsler.|[Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Konfigurer oppsettet og det generelle innholdet i nye e-postmeldinger for arbeidsflytvarsler, eller eksporter, endre og importere eksisterende maler på nytt.|[Behandle varslingsmaler](across-how-to-manage-notification-templates.md)|  
-|Definer en SMTP-server for å aktivere e-postkommunikasjon inn og ut av [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Konfigurere e-post](madeira-how-setup-email.md)|
+|Definer en SMTP-server for å aktivere e-postkommunikasjon inn og ut av . [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Konfigurere e-post](madeira-how-setup-email.md)|
 |Angi de ulike trinnene i en arbeidsflyt ved å koble arbeidsflythendelser til arbeidsflytsvar.|[Opprette arbeidsflyter](across-how-to-create-workflows.md)|  
 |Bruker arbeidsflytmaler til å opprette nye arbeidsflyter.|[Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)|  
 |Del arbeidsflyter med andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)|  

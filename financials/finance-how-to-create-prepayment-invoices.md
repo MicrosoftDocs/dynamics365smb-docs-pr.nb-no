@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 04d7703df0c1b5e4da8996f00b5f1eed293cbf56
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dd090720943d0d7271200e087642a80157cbdbbd
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-prepayment-invoices"></a>Opprette forskuddsfakturaer
+# <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd.  
 
 Når du har opprettet en ordre eller bestilling, kan du opprette en forskuddsfaktura. Du kan bruke standardprosentene for hver salgslinje eller bestillingslinje, eller du kan justere beløpet etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
@@ -27,7 +27,7 @@ Når du har opprettet en ordre eller bestilling, kan du opprette en forskuddsfak
 Fremgangsmåten nedenfor beskriver hvordan du fakturerer et forskudd for en ordre. Trinnene er de samme for bestillinger.  
 
 ## <a name="to-create-a-prepayment-invoice"></a>Slik oppretter du en forskuddsfaktura:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 
     På hurtigfanen **Forskudd** fylles **Forskuddsprosent**-feltet ut automatisk hvis det er angitt en standard forskuddsprosent på kundekortet. Du kan endre innholdet i feltet. Forskuddsprosenten kopieres bare fra hodet til linjer som ikke kopierer standard forskuddsprosent fra varen.  

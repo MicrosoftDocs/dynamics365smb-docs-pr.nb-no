@@ -13,10 +13,10 @@ ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: e8e6098cf6efe91153fe4e112cf3f6f6635032ed
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8f7abf2185431e4df33c79eb29d3e284e3cdbed3
 ms.contentlocale: nb-no
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-receivables"></a>Håndtere fordringer
@@ -30,7 +30,7 @@ Det finnes imidlertid andre nyttige steder å utligne betalinger og avstemmer du
 * Vinduet **Betalingsregistrering**, der du kan utligne og manuelt kontrollere betalinger mottatt som kontanter, sjekk eller banktransaksjon, mot en generert liste over ubetalte salgsdokumenter. Legg merke til at denne funksjonen bare er tilgjengelig for salgsdokumenter.  
 * Vinduet **Innbetalingskladd**, der du manuelt bokfører mottak på relevante finans-, kunde- eller andre kontoer, ved å angi en betalingslinje i. Du kan bruke mottaket eller refundere til én eller flere åpne poster før du bokfører innbetalingskladden, eller du kan utligne fra kundepostene.  
 
-En annen del av håndtering av kundekonto er å samle utestående saldoer, inkludert rentenotaer og utstede purringer. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder måter å gjøre også disse tingene på. For mer informasjon, se [Innkreve utestående saldi](receivables-collect-outstanding-balances.md).  
+En annen del av håndtering av kundekonto er å samle utestående saldoer, inkludert rentenotaer og utstede purringer. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder måter å gjøre også disse tingene på. Hvis du vil ha mer informasjon, kan du se [Innkreve utestående saldi](receivables-collect-outstanding-balances.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
 
@@ -47,4 +47,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

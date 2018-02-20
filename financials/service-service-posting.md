@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d82961b41266f645f87b79555171891cd2ce828f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 1a95163c861cf9691c5f82e4815df6d87a135ed6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="service-posting"></a>Servicebokføring
@@ -49,13 +49,13 @@ Når du bokfører en servicefaktura, servicefølgeseddel eller servicekreditnota
 
 Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du kan bruke samme fremgangsmåte for bokførte servicefølgesedler og bokførte kreditnotaer.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokført servicefaktura**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokført servicefaktura**, og velg deretter den relaterte koblingen.  
 2. Åpne den bokførte servicefakturaen du vil vise.  
 3. Hvis du vil ha en oversikt over den bokførte fakturaen, velger du handlingen **Statistikk**.  
 
     Vinduet **Serviceordrestatistikk** åpnes. I vinduet vises informasjon som antall, beløp, mva, kost, fortjeneste og kundens kredittgrense for det bokførte dokumentet.
 
 ## <a name="see-also"></a>Se også  
-[Bokføre serviceordrer](service-how-to-post-service-orders.md)   
+[Postere serviceordrer](service-how-to-post-service-orders.md)   
 [Opprette serviceordrer](service-how-to-create-service-orders.md)
 

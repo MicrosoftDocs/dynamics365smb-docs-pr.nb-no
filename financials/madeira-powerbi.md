@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Business edition og innholdspakker for Power BI | Microsoft-dokumentasjon
-description: "Få innsikt, forretningsintelligens og KPI-er fra Dynamics 365-dataene på en enkel måte med Power BI og Dynamics 365 content packs."
+title: Finance and Operations, Business edition og Power BI-innholdspakker | Microsoft-dokumentasjon
+description: "Få innsikt, forretningsintelligens og ytelsesindikatorer fra Finance and Operations, Business edition-dataene på en enkel måte med innholdspakkene Power BI og Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,10 +11,10 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f9a85074f2bc3ed2bff6022b9c248d3568a04e93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61d339e584107d48e22bd4c250085e9468271d7e
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
@@ -22,11 +22,11 @@ Få innsikt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene på en enkel m
 
 Microsoft har publisert følgende innholdspakker:
 
-| App | Beskrivelse |
+| App | Description |
 | --- | --- |
-| Microsoft Dynamics 365 for Financials | Gir et instrumentbord med viktige økonomiske data over tid, for eksempel inntekter kontra utgifter, driftsmargin og kontantsyklus.|
-| Microsoft Dynamics 365 for Financials - CRM | Inneholder et instrumentbord med viktige opplysninger om salgsmuligheter og kontakter.  |
-| Microsoft Dynamics 365 for Financials - Sales | Inneholder et instrumentbord med viktige opplysninger om salg og beholdning. |
+| Microsoft Finance and Operations, Business edition | Gir et instrumentbord med viktige økonomiske data over tid, for eksempel inntekter kontra utgifter, driftsmargin og kontantsyklus.|
+| Microsoft Finance and Operations, Business edition – CRM | Inneholder et instrumentbord med viktige opplysninger om salgsmuligheter og kontakter.  |
+| Microsoft Finance and Operations, Business edition – Sales | Inneholder et instrumentbord med viktige opplysninger om salg og beholdning. |
 
 ## <a name="using-the-dashboards"></a>Bruke instrumentbordene
 Hver innholdspkke inneholder rapporter som du kan se på:
@@ -44,7 +44,7 @@ Innholdspakkene er forhåndskonfigurert til å arbeide med data fra demonstrasjo
 ## <a name="accessing-included365finincludesd365finmdmd-in-power-bi"></a>Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power BI
 Hvis du vil se [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene i Power BI, må du ha følgende:  
 
-* Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
+* Tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Finance and Operations, Business edition](http://go.microsoft.com/fwlink/?LinkID=759714).  
 * Tilgang til Power BI. Hvis du vil ha mer informasjon , kan du se [Power BI](https://powerbi.microsoft.com).
 
 På Power BI-nettstedet finner du mer informasjon om [hvordan du kobler til tjenester med innholdspakker for Power BI](http://go.microsoft.com/fwlink/?LinkID=760850).  
@@ -120,9 +120,10 @@ Hvis du ser en "Oops"-feilmelding etter at du har fullført godkjenningsdialogbo
 [Forretningsintelligens](bi.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md)  
-[Bruke [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

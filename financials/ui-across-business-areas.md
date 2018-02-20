@@ -1,6 +1,6 @@
 ---
 title: "Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-dokumentasjon"
-description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Dynamics 365 Business edition."
+description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Finance and Operations, Business edition."
 services: project-madeira
 documentationcenter: 
 author: SusanneWindfeldPedersen
@@ -13,14 +13,14 @@ ms.search.keywords: feature overview, functionality
 ms.date: 08/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 66a8a2124f1bc4775268b95ba100ada19cbc286d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fa8c8ef711a1a9212da560e0f721870823990710
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](madeira-business-functionality.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](madeira-business-functionality.md).
 
 For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
 
@@ -44,4 +44,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

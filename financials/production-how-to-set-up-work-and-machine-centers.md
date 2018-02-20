@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/19/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 99ca93d4fd67ec424e54961ad5623c9986e5fe7c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
+# <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 Programmet skiller mellom tre typer kapasiteter. Disse er rangert hierarkisk. Hvert nivå inneholder underordnede nivåer.  
 
 Det øverste nivået er arbeidssentergruppen. Arbeidssentre er tilordnet arbeidssentergruppene. Hvert arbeidssenter kan bare tilhøre én arbeidssentergruppe.
@@ -28,7 +28,7 @@ Du kan tilordne forskjellige produksjonsressurser til hvert arbeidssenter. En pr
 
 Planlagt kapasitet i et arbeidssenter består av hvor tilgjengelige tilhørende produksjonsressurser er og annen planlagt tilgjengelighet i arbeidssenteret. Den planlagte tilgjengeligheten i arbeidssentergruppen er derfor summen av all tilhørende tilgjengelighet i produksjonsressursene og arbeidssentrene.  
 
-Tilgjengeligheten lagres i kalenderposter. Før du definerer arbeidssentre eller produksjonsressurser, må du definere produksjonskalendere. Se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md) for mer informasjon.  
+Tilgjengeligheten lagres i kalenderposter. Før du definerer arbeidssentre eller produksjonsressurser, må du definere produksjonskalendere. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
 
 ## <a name="to-set-up-a-work-center"></a>Slik oppretter du et arbeidssenter:
 I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter. Fremgangsmåten for å sette opp en produksjonsressurskalender er lik unntatt hurtigfanen **Ruteoppsett**.  
@@ -68,7 +68,7 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av  [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
 14.  I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
 15. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
-16.  Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md) for mer informasjon.  
+16.  Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
 17.  I **Køtid**-feltet angir du en fast tidsrom som må forløpe før tilordnet arbeid kan begynne ved dette arbeidssenteret. Vær oppmerksom på at Køtid legges til i andre ikke-produktive tidselementer, for eksempel Ventetid og Transporttid, som du kan definere på rutelinjene ved hjelp av dette arbeidssenteret.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
@@ -83,7 +83,7 @@ Hvis kapasiteter i arbeidssentre ikke skal bidra i den totale kapasiteten, kan d
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Slik definerer du kapasitetsbegrensede maskiner eller arbeidssentre:
 Du må sette opp produksjonsressurser som du anser som kritiske og utpeke dem som i stand til å håndtere en begrenset belastning i stedet for den ubegrensede belastningen som andre produksjonsressurser godtar. En kapasitetsbegrenset ressurs være et arbeidssenter eller en produksjonsressurs som er identifisert som flaskehals, og som du derfor vil tildele en begrenset belastning for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
 
 I vinduet **Kapasitetsbegrensede ressurser** kan du gjøre oppsett som unngår overbelastning av bestemte ressurser og sikre at all kapasitet fordeles hvis den kan øke gjennomløpstiden til en produksjonsordre. I feltet **Avdemping (% av total kap.)** kan du legge til avdempningstid i ressurser for å minimere oppdeling av operasjonen. Dette gjør at systemet kan planlegge belastning på den aller siste dagen ved å overskride den kritiske belastningsprosenten litt hvis dette kan redusere antall delte operasjoner.
 

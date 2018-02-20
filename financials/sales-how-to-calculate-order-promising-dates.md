@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 01/19/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ff83b7e5b61cd265bb3cb1af0bd5db3513c26072
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
+# <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
 Et firma må være i stand til å informere kundene om ordreleveringsdatoer. Med vinduet **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
 
 Basert på en vares kjente og forventede tilgjengelighetsdatoer beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] forsendelses- og leveringsdato på et øyeblikk, som deretter kan loves kunden.  
@@ -39,7 +39,7 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 ## <a name="about-order-promising"></a>Om ordrebekreftelse
 Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes for datoene du godtar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker to grunnleggende begreper:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  bruker to grunnleggende begreper:  
 
 - Tilgjengelig for ordre (ATP)  
 - Første mulige forsendelsesdato (CTP)  
@@ -48,8 +48,10 @@ Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres
 Tilgjengelig for ordre (ATP) beregner datoer basert på reservasjonssystemet. Den utfører en tilgjengelighetskontroll for de ureserverte antallene på lager i forhold til planlagt produksjon, kjøp, overføringer og ordrereturer. Basert på denne informasjonen beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk leveringsdatoen for kundens ordre fordi varene er tilgjengelige, enten på lager eller i planlagte mottak.  
 
 ### <a name="capable-to-promise"></a>Første mulige forsendelsesdato (CTP)  
-Første mulige forsendelsesdato (CTP) forutsetter et "Hva om"-scenario der varen ikke er på lager og ingen ordrer er planlagt. Basert på dette scenariet beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den tidligste datoen varen kan være tilgjengelig, hvis den skal produseres, kjøpes eller overføres.  
+Første mulige forsendelsesdato (CTP) forutsetter et "Hva om"-scenario som bare gjelder for vareantall som ikke er på lager eller på planlagte ordrer. Basert på dette scenariet beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den tidligste datoen varen kan være tilgjengelig, hvis den skal produseres, kjøpes eller overføres.
 
+#### <a name="example"></a>Eksempel
+Hvis det er en bestilling på ti enheter og seks stykker er tilgjengelige på lageret eller i tidsplanlagte ordrer, baseres beregningen for første mulige forsendelsesdato på fire enheter.
 
 ### <a name="calculations"></a>Beregninger  
 Når [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner kundens leveringsdato, utføres to oppgaver:  
@@ -62,7 +64,7 @@ Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som lever
 - Forsendelsesdato + Utgående lager + Planlagt forsendelse + Håndteringstid = Dato  
 - Planlagt forsendelsesdato + Leveringstid = Planlagt leveringsdato  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
 
 - Planlagt forsendelsesdato - Leveringstid = Planlagt leveringsdato  
 - Planlagt forsendelsesdato - Utgående lagerhåndteringstid = Forsendelsesdato  
@@ -76,7 +78,7 @@ Ordrebehandleren fullfører CTP-prosessen ved å godta datoene. Dette betyr at e
 I tillegg til den eksterne ordrebekreftelsen som du kan utføre i vinduet **Ordrebekreftelseslinjer** , kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Slik angir du ordrebekreftelser  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
 2. Angi et nummer og en tidsenhetskode i feltet **Iverksett (tid)**. Velg én av følgende koder.  
 
     |Kode|Beskrivelse|  
@@ -94,14 +96,14 @@ I tillegg til den eksterne ordrebekreftelsen som du kan utføre i vinduet **Ordr
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Slik angir du inngående lagerhåndteringstid i lageroppsettvinduet  
 Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret og lokasjonen.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
 >  Hvis du har fylt ut feltet **Inngående lagerhåndteringstid** på **lokasjonskortet** for lokasjonen, brukes dette feltet som standard for inngående lagerhåndteringstid.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Slik angir du inngående lagerhåndteringstid på lokasjonskort  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjon**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
 3.  På hurtigfanen **Lager** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
@@ -111,14 +113,14 @@ Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftel
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Slik angir du utgående lagerhåndteringstid i lageroppsettvinduet  
 Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i beregningen av ordrebekreftelsen på salgslinjen, kan du definere dette som standard for lageret.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
 >  Hvis du har fylt ut feltet **Utgående lagerhåndteringstid** på lokasjonskortet for lokasjonen, brukes dette feltet som standard for utgående lagerhåndteringstid.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Slik angir du utgående lagerhåndteringstid på lokasjonskort  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
 3.  På hurtigfanen **Lager** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
@@ -127,12 +129,12 @@ Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i ber
 
 ## <a name="to-make-an-item-critical"></a>Slik gjør du en vare kritisk  
 Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være merket som kritisk. Dette oppsettet sikrer at ikke-kritiske varer ikke fører til uaktuell beregning av ordrebekreftelser.   
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle varekortet.  
 3.  På hurtifganen **Planlegging** velger du **Kritisk**-feltet.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Slik beregner du en ordrebekreftelsesdato  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordre**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ordren, og velg ordrelinjene du vil at programmet skal beregne.  
 3.  Velg handlingen **Ordrebekreftelse** og deretter **Ordrebekreftelseslinjer**.  
 4.  Velg en linje, og velg deretter ett av følgende alternativer:  

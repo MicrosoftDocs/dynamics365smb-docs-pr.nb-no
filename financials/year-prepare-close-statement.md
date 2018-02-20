@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 9070d8d1454b43ccfc25276ac679c099b9e809ab
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
@@ -34,7 +34,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Skrive ut et kontoskjema for å analysere tall på finanskonti eller sammenligne faktiske finansposter med finansbudsjettposter. |Kontoskjema |
 | Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde- og levrd.konti |
 
-Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
+Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  

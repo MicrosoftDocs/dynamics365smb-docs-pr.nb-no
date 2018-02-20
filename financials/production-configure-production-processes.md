@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: de493a4697c3a5c2fb8581545a29ee832fe1c3dc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2d95dbb6d0336286f0fb657028970ce8a04cfda
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Definere produksjon
@@ -32,7 +32,7 @@ Når du har definert produksjonen, kan du planlegge og kjøre produksjonsordrer.
 |------------|-------------|  
 |Konfigurere produksjonsfunksjoner, for eksempel definere produksjonsarbeidstimer og velge planleggingsprinsipper.|Siden **Produksjonsoppsett**.|  
 |Definere en standard arbeidsuke i produksjonsavdelingen basert på start- og sluttidspunkt for hver virkedag samt relatert skiftarbeid.|[Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md)|  
-|Organiser faste verdier og krav for produksjonsressurser som arbeidssentre eller produksjonsressurser for å styre produksjonsavgangen eller produksjonen som utføre.|[Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon](production-how-to-set-up-work-and-machine-centers.md)|
+|Organiser faste verdier og krav for produksjonsressurser som arbeidssentre eller produksjonsressurser for å styre produksjonsavgangen eller produksjonen som utføre.|[Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md)|
 |Organiser produksjonsoperasjoner i nødvendig rekkefølge, og tilordne dem til arbeids- eller produksjonsressurser med nødvendige arbeidstidene.|[Opprette ruter](production-how-to-create-routings.md)|
 |Organiser produksjonskomponenter eller delmonteringer under en overordnet produsert vare, og sertifiser stykklisten for kjøring i arbeidssentre.|[Opprette produksjonsstykklister](production-how-to-create-production-boms.md)|
 |Kontroller at riktig komponentantall er tilgjengelig når produserte varer lagerføres i én enhet, men produseres i en annen.|[Arbeide med produksjonsbunkeenhet](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)|  

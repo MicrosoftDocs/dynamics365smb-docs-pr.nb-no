@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: da5928be8280bad2eac379a5f0e5b19ddc2d12bc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d2820513ec95c43464979effd85d5113359886ef
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-restructure-warehouses"></a>Omstrukturere lagre
+# <a name="restructure-warehouses"></a>Omstrukturere lagre
 Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper. Dette er en aktivitet du ikke utfører så ofte, men det kan oppstå situasjoner der det er nødvendig med en omklassifisering for å oppnå eller vedlikeholde en mer effektiv drift. Eksempel:  
 
 - Du ønsker kanskje å bytte til hyllekoder som for eksempel støtter bruken av automatisk datafangst med håndholdte enheter.  
@@ -29,11 +29,11 @@ Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegens
 Hvis lageret er definert slik at hyller brukes, men ikke lagerstyring, omstrukturerer du lageret ved å opprette de nye hyllene du vil bruke i fremtiden.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Omstrukturere et enkelt lager som bare bruker hyller  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Lager** angir du feltet **Standard hyllevalg** til **Sist brukte hylle**.  
 3.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varereklassifiseringskladd**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varereklassifiseringskladd**, og velg deretter den relaterte koblingen.  
     2.  Velg en kladdelinje, og velg deretter **Hent hylleinnhold**-handlingen.  
     3.  På hurtigfanen **Hylleinnhold** definerer du filtre i feltene **Lokasjonskode**, **Hyllekode** og **Varenr.** for å angi innholdet du vil flytte.  
     4.  Velg **OK**-knappen for å fylle ut en kladdelinje.  
@@ -48,13 +48,13 @@ Du har nå tømt hyllene der varene pleide å være. Standardhyllene for varene 
 1.  Opprett de nye hyllene du vil bruke i fremtiden. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 2.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerreklassifiseringskladd**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerreklassifiseringskladd**, og velg deretter den relaterte koblingen.  
     2.  For hyller der det ikke var noen virkelig flytting av varer, oppretter du en linje for hver enkelt av de nåværende hyllene i **lageroverføringskladden** med den gamle hyllekoden, **Fra hylle-kode**, og den nye hyllekoden, **Til hylle-kode**.  
     3.  Hvis noen av flyttingene betyr faktiske flyttinger som du vil at de ansatte skal utføre, bruker du **flytteforslag** til å forberede flytteinstruksjoner i stedet for å bruke lagerreklassifiseringskladden. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Når de gamle hyllene er tømt, reklassifiserer du dem som **KK**-hyller (kvalitetskontroll)for å sikre at de ikke tas med i vareflyter.  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
     2.  Velg linjen med lokasjonen og velg deretter **Hyller**-handlingen.  
     3.  Angi **KK** i feltet **Hylletypekode** i **Hyller**-vinduet for hver av de gamle hyllene du tømte i trinn 3 i fremgangsmåten ovenfor.  
 
@@ -62,7 +62,7 @@ Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-
 
 ## <a name="to-delete-a-bin"></a>Slik sletter du en hylle  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil slette hyller. Velg handlingen **Hyller**.  
 3.  Velg linjene for hyllene som du vil slette.  
 4.  Velg handlingen **Slett**.  
@@ -73,7 +73,7 @@ Hvis du ønsker å gi nytt navn til en hylle slik at alle postene som er tilknyt
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Slik gir du nytt navn til en hylle og endrer hyllekoden i alle poster  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil gi nytt navn til en hylle eller endre hyllekoden, og velg handlingen **Hyller**.  
 3.  Velg hyllen som du vil endre og angi en ny hyllekode i **Kode**-feltet.  
 4.  Velg **Ja**-knappen.  

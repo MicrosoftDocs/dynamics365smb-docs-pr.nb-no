@@ -13,13 +13,13 @@ ms.search.keywords: incoming document
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5cf49fa7b1c2d4385cd05f44e10237078e1214a4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: abeb3ee24434ca3549e7ed88ecfae54cc395002d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
+# <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
 
 ## <a name="organizing-the-inbox"></a>Ordre innboksen  
@@ -56,9 +56,9 @@ I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen v
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Slik importerer du konserninterne transaksjoner fra en fil  
 Hvis du har en konsernintern partner som ikke er i samme database som selskapet ditt, kan du motta konserninterne transaksjoner fra partneren i en XML-fil. Deretter må du importere transaksjonene til innboksen.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. Lagre filen på lokasjonen du har angitt i feltet **Detaljer om konsernintern innboks** i vinduet **Selskapsopplysninger**.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
 4. I vinduet **Konserninterne inngående transaksjoner** velger du **Importer transaksjonsfil**.  
 5. I vinduet som vises, velger du XML-filen som inneholder transaksjonene, og deretter velger du **Åpne**-knappen.  
 
@@ -67,7 +67,7 @@ Transaksjonene importeres til innboksen, og du kan nå behandle dem.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Slik behandler du inngående konserninterne transaksjoner  
 Når de konserninterne partnerne sender deg konserninterne transaksjoner, ender transaksjonene opp i den konserninterne innboksen. Du må vurdere hver transaksjon i innboksen og utføre de nødvendige handlingene.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Konserninterne inngående transaksjoner** velger du en linje og velger en handling som **Godta**, for å behandle linjen.
 3. I vinduet **Fullfør KI-innbokshandling** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.  
@@ -81,7 +81,7 @@ For linjer du behandlet med **Returnert av partner**-handlingen, må du nå bokf
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Slik behandler du utgående konserninterne transaksjoner  
 Når du bokfører konserninterne kladder eller bilag eller sender en konsernintern bestillingsbekreftelse, sendes transaksjonene til den konserninterne utboksen. Du må åpne utboksen og behandle dem for at de skal bli sendt videre til de konserninterne partnerne.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Konserninterne utgående transaksjoner** velger du en linje og velger en handling som **Gå tilbake til innboks**, for å behandle linjen.
 
 Linjene som du behandlet med **Send til konsernintern partner**-handlingen, vil bli sendt til innboksen til den relevante partneren.
@@ -95,7 +95,7 @@ Noen ganger vil du kanskje opprette en transaksjon på nytt i innboksen eller ut
 
 Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på nytt, men de samme trinnene gjelder også for utboksen.
 
-  1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
+  1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
 
   2.  I vinduet **Håndterte inngående KI-transaksjoner** velger du linjen med transaksjonen du vil opprette på nytt i innboksen, og velger deretter **Opprett inngående transaksjon på nytt**.  
 

@@ -13,22 +13,22 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 98b9dfce0b0a9723992fe3de77a1130ca2b05e7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-purchasers"></a>Definere innkjøpere
+# <a name="set-up-purchasers"></a>Definere innkjøpere
 Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem i et vindu og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Selgere/innkjøpere** velger du **Ny**.
 3. I vinduet **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Tilordne innkjøpere til leverandører
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet for leverandøren du vil tilordne en innkjøper.
 3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter vinduet.
 

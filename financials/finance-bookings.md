@@ -1,6 +1,6 @@
 ---
-title: Fakturere bestillinger i Dynamics 365 | Microsoft-dokumentasjon
-description: Finn ut hvordan du kan foreta massefakturering fra Microsoft Bookings i Dynamics 365 Business edition.
+title: Fakturere bestillinger i Finance and Operations, Business edition | Microsoft-dokumentasjon
+description: Finn ut hvordan du kan foreta massefakturering fra Microsoft Bookings i Finance and Operations, Business edition.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: invoicing, bookings
 ms.date: 06/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 154a4719cdd0e28280c5b0a5de85479beb0b9262
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d387bbbf59550a6ca11dff534b76683a07808ca4
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-included365finincludesd365finmdmd"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[d365fin](includes/d365fin_md.md)]

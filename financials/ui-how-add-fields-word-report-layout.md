@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: fbbddea07a39b6f725c04971466c33ca9252019e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 77f377d6858294aeb54e30fcb178fc9757ac3938
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
+# <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
   
 > [!NOTE]  
@@ -37,7 +37,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
   
 3.  Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
   
-4.  Velg den egendefinerte XML-delen for ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-rapporten, som vanligvis er den siste i listen, i rullegardinlisten **Tilpass XML-del** i ruten **XML-tilordning**. Navnet på den egendefinerte XML-delen har følgende format:  
+4.  Velg den egendefinerte XML-delen for ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-rapporten, som vanligvis er den siste i listen, i rullegardinlisten **Tilpass XML-del** i ruten **XML-tilordning**. Navnet på den egendefinerte XML-delen har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
   
@@ -80,7 +80,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
  Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[navnow](../../includes/navnow_md.md)]-->-klienten.  
+>  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]-->-klienten.  
   
 #### <a name="to-add-an-image"></a>Legge til et bilde  
   

@@ -12,13 +12,13 @@ ms.search.keywords: stock
 ms.date: 08/15/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 986f1b00f1a8db237944ec8579d9401ca85dfd8a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dade893e7ff1c14854274565b40a436a5a9b48c8
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
+# <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
 
 Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgjengeligheten av hver vare etter hendelse, periode eller lokasjon. En hendelse er alle planlagte varetransaksjoner, for eksempel en følgeseddel eller mottak av inngående overføring.
@@ -116,9 +116,9 @@ Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles de
 [Håndtere lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)    
-[Definere lokasjoner](inventory-how-setup-locations.md)  
+[Definer lokasjoner](inventory-how-setup-locations.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  
 [Selge produkter](sales-how-sell-products.md)      
-[Arbeide med Dynamics 365](ui-work-product.md)  
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

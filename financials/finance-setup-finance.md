@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 08/10/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d8863ba9037f6470232372dedd4536664fd3404
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6edce17707ec8514348abe46f30a9368802a858a
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
-For å få deg raskt i gang inkluderer [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] standardkonfigurasjoner for de fleste økonomiske prosesser. Hvis du vil endre konfigurasjoner til bedriften din, er det bare å fortsette. Fra hjemmesiden kan du for eksempel bruke en assistert installasjonsveiledningen til å definere mva-satsen for din plassering.  
+For å få deg raskt i gang inkluderer [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurasjoner for de fleste økonomiske prosesser. Hvis du vil endre konfigurasjoner til bedriften din, er det bare å fortsette. Fra hjemmesiden kan du for eksempel bruke en assistert installasjonsveiledningen til å definere mva-satsen for din plassering.  
 
 Det er imidlertid noen ting du må definere selv. For eksempel hvis du vil bruke dimensjoner som grunnlag for forretningsanalyse.  
 
@@ -47,5 +47,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

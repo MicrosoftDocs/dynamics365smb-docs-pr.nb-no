@@ -12,13 +12,13 @@ ms.search.keywords: reject, delegate, request
 ms.date: 08/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 929cce642a6adccc493c1ce9947ac60662b261d5
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b4ce5a807923cd052e97215118fa21c9da82abf2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
+# <a name="set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
 Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i arbeidsflyter. Det er for eksempel nødvendig å angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn.  
 
 I vinduet **Brukergruppe for arbeidsflyt** kan du definere brukere under brukergrupper for arbeidsflyt, og du angir brukernes nummer i en prosessekvensen, for eksempel en godkjennerkjede.  
@@ -32,7 +32,7 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 
 ### <a name="to-set-up-a-workflow-user"></a>Slik konfigurerer du en arbeidsflytbrukere  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukergrupper for arbeidsflyt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukergrupper for arbeidsflyt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Vinduet **Brukergruppe for arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
 4. I **Beskrivelse**-feltet beskriver du arbeidsflyten.  

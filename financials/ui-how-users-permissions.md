@@ -1,6 +1,6 @@
 ---
 title: Tilordne brukertillatelser og opprette eller endre tillatelsessett | Microsoft-dokumentasjon
-description: Beskriver hvordan du legger til Office 365-brukere i Dynamics 365 Business edition og deretter tilordner tillatelser, tilgangsrettigheter og sikkerhetsinnstillinger.
+description: Beskriver hvordan du legger til Office 365-brukere i Finance and Operations, Business edition og deretter tilordner tillatelser, tilgangsrettigheter og sikkerhetsinnstillinger.
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 10/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f1b43879d6dafd238b593c6d17d2322943d75a89
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-users-and-permissions"></a>Administrere brukere og tillatelser
+# <a name="manage-users-and-permissions"></a>Administrere brukere og tillatelser
 For å legge til brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)] må selskapets Office 365-administrator først opprette brukere i administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 Når brukere er opprettet i Office 365, kan de importeres i **Brukere**-vinduet ved å velge handlingen **Hent brukere fra Office 365**. Brukere er tilordnet tillatelsessett avhengig av planen som er tilordnet til brukeren i Office 365.
@@ -30,11 +30,8 @@ Du kan legge til brukere i grupper. Dette gjør det enklere å tilordne samme ti
 
 Administratorer kan bruke vinduet **Brukeroppsett** til å definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på.
 
-> [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til Suite. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
-
 ## <a name="to-assign-permissions-to-a-user"></a>Slik tilordner du tillatelser til en bruker til
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
 2. Velg brukeren du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Rediger** for å åpne **Brukerkort**-vinduet.
@@ -55,7 +52,7 @@ Du kan definere brukergrupper til å administrere tillatelsessett for grupper av
 8. I vinduet **Tillatelsessett for brukergruppe** på en ny linje, fyller du ut feltene etter behov ved å velge fra eksisterende tillatelsessett.
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
-Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Se [Arbeide med ansvarssentre](inventory-responsibility-centers.md) for mer informasjon.
+Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.
 2. I vinduet **Brukeroppsett** velger du handlingen **Ny**.
@@ -64,7 +61,7 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 
 ## <a name="see-also"></a>Se også
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Oppsett og administrasjon i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md)  
+[Oppsett og administrasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
-[Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

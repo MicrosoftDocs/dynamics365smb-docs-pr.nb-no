@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 29e4380312724b08a7e250a65288d75d27444df0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 045cabbaab1b7978402524f408caee87ce8e53e2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
@@ -28,7 +28,7 @@ Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller 
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Definer bokføringsgrupper og nummerserier for forskuddsbetalinger, og definer standard forskuddsprosenter for kunder, leverandører og varer.|[Definere forskudd:](finance-set-up-prepayments.md)|
+|Definer bokføringsgrupper og nummerserier for forskuddsbetalinger, og definer standard forskuddsprosenter for kunder, leverandører og varer.|[Definerer forskudd](finance-set-up-prepayments.md)|
 |Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.|[Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.|[Korrigere forskudd](finance-how-to-correct-prepayments.md)|  
 

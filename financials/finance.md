@@ -13,14 +13,14 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 06/28/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: f5f0640c84a382a62512116f2f3c7c57c7793243
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
 
 Standardkonfigurasjonen inneholder kontoplaner og standard bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.  
 
@@ -45,7 +45,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bokfør de ansattes personlige utgifter for firmarelaterte aktiviteter, og refunder ansatte ved å betale dem på deres bankkontoer.|[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Gjenkjenne inntekter og utgifter i andre perioder enn da transaksjonene ble bokført. |[Periodisere inntekter og utgifter](finance-how-defer-revenue-expenses.md)|
 |Lær hvordan du bruker flere valutaer og oppdaterer valutakurser automatisk. |[Oppdatere valutakurser](finance-how-update-currencies.md)|
-| Importere lønnstransaksjoner fra lønnssystemet til Finans. |[Importere lønnstransaksjoner](finance-how-import-payroll-transactions.md)|
+| Importere lønnstransaksjoner fra lønnssystemet til Finans. |[Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)|
 | Overvåke kontantstrømmen inn og ut av bedriften din. |[Analysere kontantstrømmer i firmaet](finance-analyze-cash-flow.md) |
 | Arbeid med årsregnskap og økonomiske oversikter i Excel. |[Analysere årsregnskap i Excel](finance-analyze-excel.md) |
 | Klargjøre for avslutning av regnskapsår eller periode. |[Avslutte år og perioder](year-close-years-periods.md) |
@@ -61,5 +61,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

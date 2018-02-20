@@ -13,13 +13,13 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 08/11/2017
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ceea5fba1b2daeab3c517d87e3e31e29d53441c3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 484d21ad14991d663de3e9c5491455fe60494a06
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-register-employees"></a>Registrere ansattes
+# <a name="register-employees"></a>Registrere ansatte
 Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ved å opprette et kort med all viktig og relatert informasjon.
 
 Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på ansattkortet.
@@ -27,17 +27,17 @@ Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppga
 Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvordan du tilordner to typer ansattinformasjon til en ansatt. I tillegg kan du tilordne diverse annen relatert informasjon, for eksempel kvalifikasjoner og årsaker til uvirksomhet. Du tilordner ansattinformasjon ved å velge et felt eller en handling i vinduet **Medarbeiderkort**.
 
 > [!NOTE]  
-> Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** i vinduet **Ansattkort**. Hvis du vil ha mer informasjon, se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
+> Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** i vinduet **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I vinduet **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
 Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet til den ansatte.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. I faktaboksen **Bilde av ansatt** klikker du på knappen for rullegardinlisten og velger deretter **Importer**.
 4. I vinduet **Velg et bilde for opplasting** velger du **Velg** knappen.
@@ -50,7 +50,7 @@ På ansattkortet kan du definere opplysninger, for eksempel fagforeningsmedlemsk
 
 Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enhver tid befinner seg, for eksempel om de er stasjonert i utlandet, er på lengre forretningsreiser eller har sommerferie.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. Velg **Alternative adresser**.
 4. Fyll ut feltene etter behov i vinduet **Oversikt over alternativ adr.**.

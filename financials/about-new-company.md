@@ -1,6 +1,6 @@
 ---
 title: Opprette nye selskaper med en automatisk oppsettguide | Microsoft-dokumentasjon
-description: "Det er enkelt å opprette et nytt, tomt selskap i Dynamics 365 Business edition. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende."
+description: "Det er enkelt å opprette et nytt, tomt selskap i Finance and Operations, Business edition. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: company, setup wizard
 ms.date: 07/14/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c4152a77fcd3e5995aaf09c17b0a3a2c227aa2fa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="creating-new-companies-in-included365finlongincludesd365finlongmdmd"></a>Opprette nye seleskaper i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], beholdere for forretningsdataene som hører til en konsern eller juridisk enhet kalles et *selskap*. Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt - simpelthen til **Mine innstillinger** og bytte til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="create-new-company"></a>Opprett nytt selskap
@@ -44,10 +44,10 @@ Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** a
 
 For eksempel firmaadressen er inkludert i fakturaer og andre dokumenter, bankinformasjonen brukes i betalinger og kostmetoden brukes til å beregne priser og lagerverdisetting.  
 
-Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurere Dynamics 365 Business edition](setup.md).  
+Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurere Finance and Operations, Business edition](setup.md).  
 
 ## <a name="see-also"></a>Se også
-[Konfigurere Dynamics 365 Business edition](setup.md)  
+[Konfigurere Finance and Operations, Business edition](setup.md)  
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

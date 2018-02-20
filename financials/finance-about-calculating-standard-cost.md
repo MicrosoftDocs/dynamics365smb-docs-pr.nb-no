@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2e47adde6da02252ee1dd15abb8cbd905579420b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5dc35d82dee8d3a9b93c04de497e7363b7bafb90
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning av standardkost
@@ -98,7 +98,7 @@ Hvis du vil oppdatere eller beregne standardkost for monteringsvarer, bruker du 
 Prosessen med å oppdatere eller beregne standardkostnader vanligvis består av følgende oppgaver:  
 
 1.  Oppdatere kost på komponent- og kapasitetsnivået. Hvis du vil ha mer informasjon, se kjørslene **Foreslå standardkost for vare** og **Foreslå standardkost for kapasitet**.  
-2.  Konsolidere og opprullere komponent- og kapasitetskost for å beregne samlet monterings- eller produksjonskost for varene. Hvis du vil ha mer informasjon, se delen "Beregne standardkost for en monteringsvare" i [Arbeide med stykklister](inventory-how-work-BOMs.md).  
+2.  Konsolidere og opprullere komponent- og kapasitetskost for å beregne samlet monterings- eller produksjonskost for varene. Hvis du vil ha mer informasjon, kan du se avsnittet Beregne standardkost for en monteringsvare i [Arbeide med stykklister](inventory-how-work-BOMs.md).  
 3.  Implementere standardkostnadene som angis når du kjører de forrige kjørslene. Standardkostnadene trer ikke i kraft før de blir implementert. Hvis du vil ha mer informasjon, se kjørselen **Implementer endringer i standardkost**.  
 4.  Implementere endringene for å oppdatere **Enhetskost**-feltet på varekortet og utføre revaluering av lager. Hvis du vil ha mer informasjon, kan du se [Revaluere beholdning](inventory-how-revalue-inventory.md).
 

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f57c94523c4a907478dceae182446098cba31dd7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4d2927cb2bc02ecf2c8befde4dcdba141cb371f6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
+# <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
 Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  
   
 * Angi en merknad til selve utlånsobjektet.  
 * Angi en merknad på en servicevare om behovet for et utlånsobjekt.  
 
 ## <a name="to-set-up-a-loaner"></a>Slik definerer du utlånsobjekter  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utlånsobjekter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utlånsobjekter**, og velg deretter den relaterte koblingen.  
 2. Opprett et nytt kort for utlånsobjekt. 
 3. I feltet **Nr.** -feltet angir du et nummer på utlånsobjektet. Hvis du har definert en nummerserie for utlånsobjekter i vinduet **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige utlånsobjektnummeret.  
 4. Fyll ut feltene **Beskrivelse**, **Beskrivelse 2** og **Serienr**.  

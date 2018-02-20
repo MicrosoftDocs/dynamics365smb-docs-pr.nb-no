@@ -13,19 +13,19 @@ ms.search.keywords: categories, search words, facets
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: dcc29b913c999fe05272dd709a873635efb5eeb4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2b29fed7bf976c896b3d663f526d9c3a96200100
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-item-attributes"></a>Arbeide med vareattributter
+# <a name="work-with-item-attributes"></a>Arbeide med vareattributter
 Når en kunde sender en forespørsel om en vare, enten i korrespondanse eller i en integrert nettbutikk, kan kunden spørre om eller søke etter i henhold til egenskaper, for eksempel høyde og modellår. Hvis du vil levere denne kundeservicen, kan du tilordne varen attributtverdier av forskjellige typer, som deretter kan brukes ved søk etter varer.
 
 Du kan også tilordne vareattributter til varekategorier, som deretter brukes på varene som bruker varekategoriene. Hvis du vil ha mer informasjon, kan du se [Kategorisere varer](inventory-how-categorize-items.md).
 
 > [!Tip]  
-> Hvis du legge ved bilder for varer, kan Image Analyzer-utvidelsen registrere attributter i bildet og foreslå attributtene, slik at du kan bestemme om du vil tilordne dem. Utvidelsen er klar til bruk. Du trenger bare å aktivere den. Hvis du vil ha mer informasjon, kan du se [Image Analyzer-utvidelsen for Microsoft Dynamics 365 Business edition](ui-extensions-image-analyzer.md).
+> Hvis du legge ved bilder for varer, kan Image Analyzer-utvidelsen registrere attributter i bildet og foreslå attributtene, slik at du kan bestemme om du vil tilordne dem. Utvidelsen er klar til bruk. Du trenger bare å aktivere den. Hvis du vil ha mer informasjon, kan du se [Image Analyzer-utvidelsen for Finance and Operations, Business edition](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Slik oppretter du vareattributter:
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Vareattributter**, og velg deretter den relaterte koblingen.

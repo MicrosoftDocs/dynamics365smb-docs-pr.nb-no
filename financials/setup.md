@@ -1,6 +1,6 @@
 ---
-title: "Oversikt over oppgaver for å definere Dynamics 365 Business edition | Microsoft-dokumentasjon"
-description: "Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Dynamics 365 Business edition etter behov."
+title: "Oversikt over oppgaver for å definere Finance and Operations, Business edition | Microsoft-dokumentasjon"
+description: "Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Finance and Operations, Business edition etter behov."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,14 +11,14 @@ ms.search.keywords: configure, initialize
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 7acca4df366752355e5bf28ace6c82fbca196725
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="setting-up-included365finlongincludesd365finlongmdmd"></a>Konfigurere [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
+# <a name="setting-up-included365finincludesd365finmdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
@@ -41,7 +41,7 @@ Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan
 | Sett opp vinduet **Oppsett for SMTP-e-post** for å sende og motta e-postmeldinger fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Konfigurere e-post](madeira-how-setup-email.md) |
 | Definer unike identifikasjonskoder. |[Opprette nummerserier](ui-create-number-series.md) |
 
-Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Hvis du vil ha mer informasjon, se [Oppsett og administrasjon i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](admin-setup-and-administration.md).  
+Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Hvis du vil ha mer informasjon, se [Oppsett og administrasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
@@ -58,5 +58,6 @@ Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fi
 [Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

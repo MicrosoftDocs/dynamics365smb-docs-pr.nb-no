@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/18/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: ab97e9beb67ac5c8e827f44c2976b51af2696109
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3249ed4b8bc50f7cbc577d5dc01b03029b4c06c3
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-enable-automated-data-capture-systems-adcs"></a>Aktivere automatisk datafangstsystem (ADFS)
+# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivere automatisk datafangstsystem (ADFS)
 Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning.  
 
 Hvis du vil bruke ADFS, må du gi hver vare som er lagret på lager, en vare-ID. Du må også sette opp miniformer, funksjoner for håndholdte enheter, datautveksling og angi innstillinger for felt som kontrollerer ADFS. Du angir om du vil bruke ADFS på lokasjonskortet for et lager.

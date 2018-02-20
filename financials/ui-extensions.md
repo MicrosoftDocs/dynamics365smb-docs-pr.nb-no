@@ -1,6 +1,6 @@
 ---
-title: "Installere utvidelser for å tilpasse Dynamics 365 Business edition | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du legger til funksjoner og tilpasser Dynamics 365 Business edition ved å installere utvidelser."
+title: "Installere utvidelser for å tilpasse Finance and Operations, Business edition | Microsoft-dokumentasjon"
+description: "Finn ut hvordan du legger til funksjoner og tilpasser Finance and Operations, Business edition ved å installere utvidelser."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.date: 07/07/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: cfe0eed4090ef458e774da8d0bc03910247570d7
-ms.openlocfilehash: fb13cfe2d5e5a397d33f66b9fd4db14e46dcc5e1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5deba7ee0f88c47738f3f964b9da912c730a1bd4
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="customizing-dynamics-365-business-edition-using-extensions"></a>Tilpasse Dynamics 365, Business edition ved hjelp av utvidelser
+# <a name="customizing-finance-and-operations-business-edition-using-extensions"></a>Tilpasse Finance and Operations, Business edition ved hjelp av utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
 Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, er noen utvidelser allerede installert for deg. Over tid gjøres flere utvidelser tilgjengelig for deg, og du kan deretter velge om du vil bruke utvidelsen eller ikke.
 
@@ -69,11 +69,12 @@ Microsoft tilbyr følgende utvidelser:
 
 ## <a name="see-also"></a>Se også
 [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
-[Aktiver kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md)  
+[Aktivere kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Konfigurere GetAddress.io UK Postal Code-utvidelsen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 79c9a58c7cb91ce922b81eec1d2ccad375943203
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6ad8ba706ba1b376b78449ba801ed0f4fc4cfe09
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-delete-cost-budget-entries"></a>Slette kostbudsjettposter
+# <a name="delete-cost-budget-entries"></a>Slett kostbudsjettposter
 Du bruker kjørselen **Slett kostbudsjettposter** til å annullere kostbudsjettposter i kostbudsjettjournalen.  
 
 Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over journalposter for å hindre hull i kostbudsjettposter og kostjournalposter.  
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Slik sletter du en kostbudsjettpost:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Slett kostbudsjettposter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slett kostbudsjettposter**, og velg deretter den relaterte koblingen.  
 
     Feltet **Til registreringsnr.** inneholder det siste journalpostnummeret og kan ikke endres.  
 

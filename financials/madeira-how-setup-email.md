@@ -1,6 +1,6 @@
 ---
-title: Konfigurere e-post i Dynamics 365 Business edition | Microsoft-dokumentasjon
-description: "Beskriver hvordan du bruker firmaets SMTP-serveren til å sende og motta e-postmeldinger i Dynamics 365, eller alternativt hvordan du bruker innstillingene for e-postserver som ble opprettet med Office 365-abonnementet."
+title: Konfigurere e-post i Finance and Operations, Business edition | Microsoft-dokumentasjon
+description: "Beskriver hvordan du bruker firmaets SMTP-serveren til å sende og motta e-postmeldinger i Finance and Operations, Business edition, eller alternativt hvordan du bruker innstillingene for e-postserver som ble opprettet med Office 365-abonnementet."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-financials
@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 59d97a3bd838c80e66d62ed16c2bcb1c525938c4
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2389c97c37a2b35da01c846b32a81a1c7bbf2bad
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
+# <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
 Å sende og motta e-postmeldinger fra i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene i den **Oppsett for SMTP-e-post** vindu.
 
 > [!NOTE]  

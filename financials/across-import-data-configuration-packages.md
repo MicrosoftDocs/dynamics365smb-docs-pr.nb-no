@@ -1,6 +1,6 @@
 ---
 title: "Bruke Excel til å importere data til Financials | Microsoft-dokumentasjon"
-description: "Bruk standard konfigurasjonspakke til å legge kundedata i Excel og importere dataene tilbake til Dynamics 365 Business edition."
+description: "Bruk standard konfigurasjonspakke til å legge kundedata i Excel og importere dataene tilbake til Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: migration, Excel
 ms.date: 07/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 433d014c41d2508d155891b5ac4e0437c41b3d9e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importere data fra eldre regnskapsprogramvare ved hjelp av en konfigurasjonspakke
@@ -69,5 +69,6 @@ Når kundedataene er angitt i Excel, importerer du dataee til [!INCLUDE[d365fin]
 [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

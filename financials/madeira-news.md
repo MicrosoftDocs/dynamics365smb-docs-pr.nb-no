@@ -1,6 +1,6 @@
 ---
-title: Nyheter i Dynamics 365 Business edition | Microsoft-dokumentasjon
-description: Beskriver siste nytt og de nyeste oppdateringene for Dynamics 365 Business edition.
+title: Nyheter i Finance and Operations, Business edition | Microsoft-dokumentasjon
+description: Beskriver siste nytt og de nyeste oppdateringene for Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,27 +13,27 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 83637fe211ce764b4b18429ab4c2c79cc06f3d20
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nyheter i Dynamics 365 for Finance and Operations, Business edition
 Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Registrer deg for prøveversjonen hvis du ikke allerede har gjort det, la oss veilede deg gjennom det grunnleggende du kan gjøre med [!INCLUDE[d365fin](includes/d365fin_md.md)], og prøv deretter ut på egen hånd en stund. Når du er klar, kan du åpne et tomt selskap og konfigurere ting for deg selv.  
 
-Vi vil oppdatere regelmessig [!INCLUDE[d365fin](includes/d365fin_md.md)] med flere muligheter i kjerneprogrammet og nye [utvidelser](ui-extensions.md). For en oversikt over hva kommer og hva som er tilgjengelig, kan du se den [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) - og husk å filtrere for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Vi vil oppdatere regelmessig [!INCLUDE[d365fin](includes/d365fin_md.md)] med flere muligheter i kjerneprogrammet og nye [utvidelser](ui-extensions.md). Hvis du vil vise en oversikt over hva kommer og hva som er tilgjengelig, kan du se [veikartet for Finance and Operations, Business edition](https://roadmap.dynamics.com/) – og husk å filtrere for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-På denne siden kan du se hvilke områder ble tilgjengelig mens vi var fortsatt i forhåndsvisning. Fremover, finner oppdateringer i den [Dynamics 365 Roadmap](https://roadmap.dynamics.com/).
+På denne siden kan du se hvilke områder ble tilgjengelig mens vi var fortsatt i forhåndsvisning. Fra og med nå finner du oppdateringene i [veikartet for Finance and Operations, Business edition](https://roadmap.dynamics.com/).
 
 ## <a name="november-2016-launch-of-included365finlongincludesd365finlongmdmd"></a>November 2016 lanseringen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Som annonsert i bloggen, er nå vi en tjeneste som du bruker i firmaet. Men denne oppdateringen legger også til nye muligheter og en ny filtype.
 
 ### <a name="project-management"></a>Prosjektstyring
-Hvis du bytter til Suite-opplevelse, kan du styre prosjekter og arbeide med ressurser, timelister og jobber. Når du først logge på som en prosjektleder-rollen, hjelper en assistert installasjonsveiledningen deg med å definere hvordan prosjekter behandles. Du kan arbeide med eksempel kontoer, prosjekter, ressurser, og så videre i demonstrasjonsselskapet å bli kjent med funksjonene. Hvis du vil ha mer informasjon, kan du se [Administrere prosjekter](projects-manage-projects.md).
+Du kan håndtere prosjekter og arbeide med ressurser, timelister og prosjekter. Når du først logge på som en prosjektleder-rollen, hjelper en assistert installasjonsveiledningen deg med å definere hvordan prosjekter behandles. Du kan arbeide med eksempel kontoer, prosjekter, ressurser, og så videre i demonstrasjonsselskapet å bli kjent med funksjonene. Hvis du vil ha mer informasjon, kan du se [Administrere prosjekter](projects-manage-projects.md).
 
 ### <a name="fixed-assets"></a>Aktiva
-Hvis du bytter til Suite-opplevelse, kan du administrere aktiva, inkludert avskrivning og forsikring. Et standardoppsett som leveres, men du kan endre den hvis når som helst du ønsker. Du kan registrere innkjøp av aktiva i dedikert aktivafinanskladder der du kan også kan avhende aktiva. De rette regnskapsoppføringene opprettes automatisk. Hvis du vil ha mer informasjon, kan du se [Aktiva](fa-manage.md).
+Du kan administrere aktiva, inkludert avskrivning og forsikring. Et standardoppsett som leveres, men du kan endre den hvis når som helst du ønsker. Du kan registrere innkjøp av aktiva i dedikert aktivafinanskladder der du kan også kan avhende aktiva. De rette regnskapsoppføringene opprettes automatisk. Hvis du vil ha mer informasjon, kan du se [Aktiva](fa-manage.md).
 
 ### <a name="new-extension-for-migrating-data-from-dynamics-gp"></a>Ny utvidelse for å overføre data fra Dynamics GP
 Hvis virksomheten din bruker Dynamics GP i dag, kan du bruke en assistert oppsettguide for overføre hovedoppføringer til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må ha eksportert dine eksisterende kunder, leverandører, varer og kontoer ved hjelp av funksjonen Eksporter data i Dynamics GP. Dynamics GP datamigrering filtypen automatisk tilordner de eksporterte dataene, slik at du raskt kan få de eksisterende dataene til det nye selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md).
@@ -90,7 +90,7 @@ Denne oppdateringen legger til handlinger til leverandør-instrumentbord i Outlo
 Outlook-tillegget går nå til Outlook-kalenderen. Fra en avtale i kalenderen, kan du åpne den [!INCLUDE[d365fin](includes/d365fin_md.md)] -i og få en oversikt for kunden som er tilknyttet avtalen. Deretter kan du opprette og sende en faktura for tjenester som leveres i møte - alle dette skjer rett i Outlook-kalenderen. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markedsplass for utvidelser
-[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser blir nå tilgjengelig på AppSource-markedsplassen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søke etter og finne utvidelser i på markedsplassen. Du vil kunne vise informasjon, inkludert markedsføring materialer, skjermbilder, videoer og koblinger til mer informasjon. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Utvidelser blir nå tilgjengelig på AppSource-markedsplassen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søke etter og finne utvidelser i på markedsplassen. Du vil kunne vise informasjon, inkludert markedsføring materialer, skjermbilder, videoer og koblinger til mer informasjon. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Transportører og vareattributter
 Du kan legge til attributter i lagervarer som gjør det svært enkelt å finne det riktige produktet som kunden ønsker. Hvis du vil ha mer informasjon, kan du se [Arbeide med vareattributter](inventory-how-work-item-attributes.md).  
@@ -129,5 +129,5 @@ Viktige scenarier å prøve på egen hånd:
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Dynamics 365 Roadmap](https://roadmap.dynamics.com/)  
+[Veikart for Finance and Operations, Business edition](https://roadmap.dynamics.com/)  
 

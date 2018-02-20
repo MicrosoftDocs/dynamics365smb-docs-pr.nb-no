@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: e27ceb91b25669a31d95256385cb7e5acd9160bd
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8fa54f5a4c5d2341485c0ebd290c7c683d37df9b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="manufacturing"></a>Produksjon
@@ -35,10 +35,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Forstå hvordan produksjonsordrer fungerer.|[Om produksjonsordrer](production-about-production-orders.md)|
 |Opprett produksjonsordrer manuelt.|[Opprette produksjonsordrer](production-how-to-create-production-orders.md)|
 |Sett ut alle eller utvalgte operasjoner i en produksjonsstykkliste til en underleverandør.|[Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)|
-|Registrere og bokføre produksjonsavgang, i tillegg til material- og tidsforbruk, for én enkelt frigitt produksjonsordrelinje.|[Slik bokfører du forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md)|  
+|Registrere og bokføre produksjonsavgang, i tillegg til material- og tidsforbruk, for én enkelt frigitt produksjonsordrelinje.|[Bokfør forbruk og avgang for en frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md)|  
 |Massebokfør antall komponenter som brukes per operasjon i en kladd som kan behandle flere planlagte produksjonsordrer.|[Massebokføre forbruk](production-how-to-post-consumption.md)|
-|Bokfør antall ferdigstilte varer og tiden som brukes per operasjon i en kladd som kan behandle flere frigitte produksjonsordrer.|[Slik: kjørselen Bokfør avgang og operasjonstid](production-how-to-post-output-quantity.md)|  
-|Bokføre antallet varer som er produsert i hver fullført operasjon, og som ikke kvalifiserer som ferdigvare, men som vraket materiale.|[Slik bokfører du vrak](production-how-to-post-scrap.md)|
+|Bokfør antall ferdigstilte varer og tiden som brukes per operasjon i en kladd som kan behandle flere frigitte produksjonsordrer.|[Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md)|  
+|Bokføre antallet varer som er produsert i hver fullført operasjon, og som ikke kvalifiserer som ferdigvare, men som vraket materiale.|[Bokføre vrak](production-how-to-post-scrap.md)|
 |Vise belastningen for produksjonen som et resultat av planlagte og frigitte produksjonsordrer.|[Vise belastning på arbeidssentre og produksjonsressurser](production-how-to-view-the-load-on-work-centers.md)|      
 |Bruke **Kapasitetskladd**-vinduet til å bokføre brukt kapasitet som ikke er tilordnet til en produksjonsordre, for eksempel vedlikeholdsarbeid.|[Bokføre kapasiteter](production-how-to-post-capacities.md)|  
 |Beregne og justere kost for ferdige produksjonsvarer og forbrukte komponenter for økonomisk avstemming.|[Om fullførte produksjonsordrekostnader](finance-about-finished-production-order-costs.md)|  
@@ -49,4 +49,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

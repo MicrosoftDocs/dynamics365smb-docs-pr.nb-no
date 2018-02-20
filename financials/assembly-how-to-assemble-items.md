@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e1f2cc5bd276fbd5fe1417df56f57dd8454e18e2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8ac1f46c7b7f3035c2cfc711671d659a18871bda
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-assemble-items"></a>Montere varer
+# <a name="assemble-items"></a>Montere elementer
 Hvis feltet **Etterfyllingssystem** på varekortet inneholder **Montering**, er standardmetoden for å forsyne varen å montere den fra definerte komponenter og muligens av en definert ressurs.  
 
 Komponenter og ressurser som går inn i denne typen monteringsvare må være definert i en monteringsstykkliste. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).  
@@ -35,15 +35,15 @@ Vanligvis bruker du **Montere til ordre** for varer som du ikke vil ha på lager
 
 Hvis du vil ha mer informasjon om hvordan du definerer en monteringsvare, se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-Disse oppsettsalternativene er standardinnstillinger som styrer hvordan salgs- og monteringsordrelinjer behandles til å begynne med. Du kan omgå disse standardene og forsyne monteringsvaren på den mest optimale måten ved behandling av et salg. Hvis du vil ha mer informasjon, se [Selge lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Selge montere-til-ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+Disse oppsettsalternativene er standardinnstillinger som styrer hvordan salgs- og monteringsordrelinjer behandles til å begynne med. Du kan omgå disse standardene og forsyne monteringsvaren på den mest optimale måten ved behandling av et salg. Hvis du vil ha mer informasjon, kan du se [Selge lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Selge montere-til-ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Monteringskomponenter håndteres på en spesiell måte i enkle lagerkonfigurasjoner. Hvis du vil ha mer informasjon, kan du se delen "Håndtere montere-til-ordre-varer i lagerplukk" i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Monteringskomponenter håndteres på en spesiell måte i enkle lagerkonfigurasjoner. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).   
 
 I denne fremgangsmåten oppretter og behandler du en monteringsordre for varer som er montert til lager, det vil si uten en koblet ordre. Trinnene inkluderer start av monteringsordren, håndtering av potensielle problemer med komponenttilgjengelighet og delvis avgangsbokføring av monteringsvarer.
 
 ## <a name="to-assemble-an-item"></a>Slik monterer du en vare:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**. Vinduet **Ny monteringsvare** åpnes.  
 3.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg monteringsvaren du vil behandle, i **Varenr.**-feltet. Feltet filtreres slik at det bare viser varer som er definert for montering, noe som betyr at monteringsstykklister er tilordnet varene.  

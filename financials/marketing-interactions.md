@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 8dbefb4ef7daf4016c5c577d1e749d2049791c4b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 761502b8c8e4c2b9b1b864e7316ea1130a940bb0
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Håndtere samhandlinger med kontakter
-I [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per brev, telefaks, e-post, telefonsamtaler, møter og så videre.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per brev, telefaks, e-post, telefonsamtaler, møter og så videre.
 
 Området for relasjonshåndtering lar deg registrere alle samhandlingene med kontaktene, slik at du kan følge opp salgs- og markedsføringskampanjene som er rettet mot kontaktene, og forbedre fremtidige forretningssamhandlinger med dem. Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
 
@@ -50,7 +50,7 @@ I dette vinduet kan du gjøre følgende:
 * Vise statusen til samhandlinger.
 * Merke samhandlinger som annullert.
 
-Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Slett annullerte samhandlingsposter**, velger den relaterte koblingen og fyller deretter inn opplysningene.
+Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Slett annullerte samhandlingsposter**, velger den relaterte koblingen og fyller deretter inn opplysningene.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 8226961d467dee7b03c22632c6dab008ceecad44
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrere samhandlinger med kontakter automatisk
@@ -29,7 +29,7 @@ Du kan definere programmet slik at det automatisk registrerer samhandlinger for 
 * Ringe kontaktene, forutsatt at du har en TAPI-kompatibel telefon og riktig installasjon.
 
 Hvis du vil konfigurere automatisk registrering av disse samhandlingene, angir du samhandlingsmaler for disse dokumentene og handlingene ved hjelp vinduet **Oppsett av samhandlingsmal**.  
-Hvis du vil åpne vinduet **Oppsett av samhandlingsmal**, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Oppsett av samhandlingsmal** og velger deretter den relaterte koblingen.
+Hvis du vil åpne vinduet **Oppsett av samhandlingsmal**, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Oppsett av samhandlingsmal** og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Registrere samhandlinger med kontakter](marketing-interactions.md)  

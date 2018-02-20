@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9163bdb48a10d9b36b670e4bc67c696fbade6b37
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 67db510085c5a858c88565087683ffeeb4f77bd1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-manage-notification-templates"></a>Behandle varslingsmaler
+# <a name="manage-notification-templates"></a>Behandle varslingsmaler
 Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md).  
 
  Varslinger er basert på maler som definerer innholdet i og oppsettet av meldingen. Du kan eksportere innholdet i en varslingsmal, redigere den, og deretter importere til samme eller en ny varslingsmal. Dette er beskrevet i følgende fremgangsmåter.  
@@ -27,7 +27,7 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
  Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder tre varslingmaler, én for å informere om forespørsler om godkjenning, én for å varsle om nye poster og én for å varsle om forfalte godkjenningsforespørsler. Tre forhåndsdefinerte varslingsmaler støtter **E-post** og **Notat** som varslingsmetode. Hvis du vil vise innholdet i de tre varslingsmalene, kan du se delen "Innhold i varslingsmalene" i dette emnet.
 
 ## <a name="to-create-a-new-notification-template"></a>Slik oppretter du en ny varslingsmal:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny** i vinduet **Varslingsmaler**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -40,7 +40,7 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
     |**Standard**|Angi om varslingsmalen vil bli brukt som standard.|  
 
 ## <a name="to-modify-a-notification-template"></a>Slik endrer du en varslingsmal:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
 2.  I vinduet **Varslingsmaler** velger du varslingsmalen du vil opprette eller endre.  
 3.  Velg **Eksporter malinnhold**.  
 4.  I **Eksporter fil**-vinduet velger du **Lagre**-knappen, og deretter gir du navn til HTML-filen og lagrer den på en passende plassering.  

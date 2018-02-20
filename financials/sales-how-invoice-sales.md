@@ -12,13 +12,13 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 10/11/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 6de2d9c030313cd2d7990faa7b9217bb751fe138
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9c48b1258a5000f3ef994a02fe98387de50c8ac1
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-invoice-sales"></a>Fakturere salg
+# <a name="invoice-sales"></a>Fakturere salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
 Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:  
@@ -91,6 +91,6 @@ Beslektet element og kundeposter opprettes nå i systemet, og salgsfakturaen skr
 [Sette opp salg](sales-setup-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
-[Massefakturering fra Microsoft Bookings i Dynamics 365 Business edition](finance-bookings.md)  
+[Massefakturering fra Microsoft Bookings i Finance and Operations, Business edition ](finance-bookings.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

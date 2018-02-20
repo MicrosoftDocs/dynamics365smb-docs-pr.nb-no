@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 2a6829c5a67f1121ecc135e1183af78b0e602f8f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5cafcc32874187ae787279c20256c11cadaff6a1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument.
+# <a name="pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument
 Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.  
 
 Det kan oppstå situasjoner der varer må tas ut av plukkhyller midlertidig, for eksempel for å tjene som demonstrasjonsmodeller i en salgspresentasjon. Disse elementene eies fortsatt av firmaet og er en del av beholdningen, men er ikke tilgjengelige for plukking. De er registrert i en spesiell hylle som du oppretter for dette formålet. Teknisk sett er varene på lageret, men fysisk kan de være i et konferanserom eller demonstrasjonsrom.  
@@ -36,13 +36,13 @@ Med **Intern plassering** kan du utføre plasseringer uten å måtte referere ti
 >  Når lokasjonen bruker lagerstyring, og derfor bruker hylletyper, kan du ikke manuelt flytte varer til eller fra en hylle av hylletypen RECEIVE, fordi varer som er i en slik hylle må registreres som plassert før de blir en del av det tilgjengelige lageret.  
 
 ## <a name="to-create-an-internal-pick"></a>Opprette en intern plukking  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut feltet **Nr.** feltet og feltet **Til hylle-kode** i hurtigfanen **Generelt**. Feltet **Til hylle-kode** angir hyllen som du vil hente varene fra. Til produksjonsformål ville denne hyllen være den inngående produksjonshyllen eller den åpne produksjonshyllen. Til andre formål velger du en Til hylle-kode for en hylletype som ikke brukes til plukking, sannsynligvis en hylle for oppsamling, levering eller spesielle formål.  
 3.  Velg en vare i feltet **Varenr.**, og fyll ut antallene du vil plukke.  
 4. Velg handlingen **Opprett plukk**. En plukkinstruksjon er nå klar til utføring av en lageransatt.  
 
 ## <a name="to-create-an-internal-put-away"></a>Opprette en intern plassering  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut feltet **Nr.** og **Fra hylle-kode** i hurtigfanen **Generelt**. Feltet **Fra hylle-kode** angir hyllen der varene som blir returnert til lageret, kanskje fra produksjon, er plassert.  
 3.  Fyll ut varenumrene og antallene på linjene.  
 4.  Velg handlingen **Opprett plassering**. En plasseringsinstruksjon er nå klar til utføring av en lageransatt.  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/15/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c6d15f43e2a308dc8107e7a58e64f4b98452b1db
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac292561a5777b760fd8e857d28085af36201e3e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-undo-assembly-posting"></a>Angre monteringsbokføring
+# <a name="undo-assembly-posting"></a>Angre monteringsbokføring
 Noen ganger kan det hende at du må angre en bokført monteringsordre, for eksempel når ordren ble bokført med feil som må rettes opp, eller fordi den ikke skulle vært bokført i utgangspunktet og må rulles tilbake.
 
 Når du angrer en bokført monteringsordre, blir det opprettet et sett med korreksjonsvareposter for å reversere de opprinnelige postene. Hver positive avgangspost for monteringsvaren tilbakeføres ved en negativ avgangspost. Hver negative forbrukspost for en monteringskomponent tilbakeføres ved en positiv forbrukspost. Utligning av fast kostnad opprettes automatisk mellom korrigerende og originale poster for å sikre nøyaktig tilbakeføring av kostnad.  
@@ -42,7 +42,7 @@ I tillegg kan eksisterende monteringsordrer bare gjenopprettes hvis antallet lin
 Fremgangsmåten nedenfor beskriver hvordan du angrer bokførte monteringsordrer der varene ble montert til lager. Hvis du vil angre bokførte monteringsordrer der varene ble montert til en ordre, må du bruke **Angre levering**-funksjon på den bokførte følgeseddelen som er relatert til den bokførte monteringsordren. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md). Angring av bokførte monteringsorder skjer automatisk på samme måte som beskrevet i dette emnet.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Slik angrer du bokføringen av en monteringsordre:  
-1.  Hvis du vil angre en fullstendig eller delvis bokført monteringsordre, kan du velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte monteringsordrer** og velge den relaterte koblingen.  
+1.  Hvis du vil angre en fullstendig eller delvis bokført monteringsordre, kan du velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte monteringsordrer** og velge den relaterte koblingen.  
 
     Vinduet **Bokførte monteringsordrer** åpnes med én eller flere bokførte monteringsordrer som er bokført fra den aktuelle monteringsordren. Hver delvise bokføring oppretter en separat bokført monteringsordre.  
 2.  Åpne den bokførte monteringsordren du vil angre, og velg deretter **Angre montering**.  

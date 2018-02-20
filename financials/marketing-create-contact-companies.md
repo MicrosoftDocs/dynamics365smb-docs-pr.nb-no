@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3c80d937a8b849cf7174952e02bbde243ca0ac5c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ae78d21bc4f88788a01620dbd8505d7034857d8f
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-contact-companies"></a>Opprette kontaktselskaper
@@ -33,12 +33,12 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Definer en kontakt for et nytt selskap, enten fra grunnen av eller fra en kunde, leverandør eller bankkonto. |[Opprette kontaktselskaper](marketing-how-create-contact-companies.md) |
 | Synkroniser informasjon i kontakter med felles informasjon i kunder, leverandører og bankkonti. |[Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md) |
 | Beskrive forretningsforbindelsen til en selskapskontakt. |[Definere forretningsforbindelser for kontaktselskaper](marketing-business-relations.md) |
-| Plassere et kontaktselskap i riktig bransjegruppe, for eksempel detaljist. |[Definere bransjegrupper for kontaktselskaper](marketing-industry-groups.md) |
-| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper for kontaktselskaper](marketing-mailing-groups.md) |
+| Plassere et kontaktselskap i riktig bransjegruppe, for eksempel detaljist. |[Definere bransjegrupper på kontaktselskaper](marketing-industry-groups.md) |
+| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper på kontaktselskaper](marketing-mailing-groups.md) |
 | Opprett en alternativ adresse for en kontakt. |[Tilordne alternative adresser til en kontakt](marketing-how-assign-alternate-address.md) |
-| Tilordne webkilder (søkemotorer og webområder) til kontaktene for å angi hvor på Internett du vil søke etter opplysninger om kontaktene. |[Definere webkilder for kontakter](marketing-web-sources.md) |
+| Tilordne webkilder (søkemotorer og webområder) til kontaktene for å angi hvor på Internett du vil søke etter opplysninger om kontaktene. |[Definere webkilder på kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Opprette kontaktpersoner](marketing-create-contact-persons.md)   
-[Arbeide med Dynamics 365](ui-work-product.md)
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8da779426dfd06519507796c995adcedcd40ac81
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e2443552440cae8a0d90753d9a56fdc82006a197
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
@@ -28,7 +28,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Lese diverse begrepsmessig informasjon for å forstå prinsippene og definisjonene som styrer funksjonene for lagerkostregnskap i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)].|[Om lagerkost](finance-learn-about-costing.md)|  
+|Lese diverse begrepsmessig informasjon for å forstå prinsippene og definisjonene som styrer funksjonene for lagerkostregnskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkost](finance-learn-about-costing.md)|  
 |Definer lagerperioder, lagermetoder og avrundingsmetoder.|[Definere lagerverdisetting og kostberegning](finance-set-up-inventory-valuation-and-costing.md)|
 |Skriv opp eller skriv ned verdien av én eller flere varer på lager ved postering av den gjeldende, beregnede verdien.|[Revaluere beholdning](inventory-how-revalue-inventory.md)|
 |Juster varekost, enten automatisk eller manuelt, for å til videreføre kostnadsendringer fra inngående poster til relaterte utgående poster.|[Justere varekost](inventory-how-adjust-item-costs.md)|

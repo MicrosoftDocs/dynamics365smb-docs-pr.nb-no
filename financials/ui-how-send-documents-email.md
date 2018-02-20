@@ -12,13 +12,13 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: afc73b146ce3c95ea47ac935e826b27f0a18d325
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-send-documents-by-email"></a>Sende dokumenter i e-post
+# <a name="send-documents-by-email"></a>Sende dokumenter i e-post
 For å formidle innholdet i forretningsdokumenter raskt til dine forretningspartnere, for eksempel betalingsinformasjon for salgsdokumenter for kunder, kan du bruke funksjonen Rapportoppsett til å definere dokumentspesifikt innhold som blir satt inn automatisk i brødteksten i e-post. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).
 
 Hvis du vil aktivere e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], starter du det assisterte oppsettet **Konfigurer e-post** på Hjem-siden.
@@ -32,7 +32,7 @@ Hvis **E-post**-feltet i vinduet **Send dokument til** er satt til **Ja (spør o
 Fremgangsmåten nedenfor beskriver hvordan du konfigurerer rapporten **Salg - faktura** til bruk for dokumentspesifikke brødtekster for e-post når du sender bokførte salgsfakturaer i e-post.
 
 ## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Konfigurere en dokumentspesifikk brødtekst for e-post for salgsfakturaer
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Rapportvalg - salg**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportvalg - salg**, og velg deretter den relaterte koblingen.
 2. I vinduet **Rapportvalg - salg**, i **Bruk**-feltet, velger du **Faktura**.
 3. På en ny linje i **-Rapport-ID**-feltet, velger du for eksempel standardrapport 1306.
 4. Merk av for **Bruk for brødtekst i e-post**.
@@ -48,7 +48,7 @@ Nå når du for eksempel velger **Send**-handlingen i vinduet **Bokført salgsfa
 Fremgangsmåten nedenfor beskriver hvordan du sender en bokført salgsfaktura som en e-postmelding med dokumentet vedlagt som en PDF-fil og en dokumentspesifikk brødtekst i e-posten.
 
 ## <a name="to-send-documents-by-email"></a>Sende dokumenter i e-post
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.
 2. Velg den relevante bokførte salgsfakturaen, og velg deretter handlingen **Send**. Vinduet **Send dokument til** åpnes.
 3. I feltet **E-post** velger du **Ja (spør om innstillinger)**. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).
 4. Velg **OK**. Vinduet **Send e-post** åpnes.

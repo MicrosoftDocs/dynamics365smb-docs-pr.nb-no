@@ -11,20 +11,20 @@ ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 8b2e20e694279a8c06188e0e429ef3b4fb43aea2
-ms.openlocfilehash: ff6fc3af28273545781fc96b811f3c164eaa6fd8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 40e4a90329fc7fc7241b570fd641a0d83b06842e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/27/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil
+# <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil
 Hvis du vil instruere banken om å overføre beløpet fra kundens bankkonto til firmaets konto, kan du opprette en post for direct debit-samlingen som inneholder informasjon om kundens bankkonto, berørte salgsfakturaer og direct debit-belastningsfullmakten. Fra den resulterende posten for avtalegirosamlingen eksporterer du deretter en XML-fil som du sender eller laste opp til nettbanken for behandling. Eventuelle betalinger som ikke kunne behandles av banken blir kommunisert til deg av banken din, og du må deretter manuelt avvise de aktuelle postene for direct debit-samlingen.  
 
 > [!NOTE]  
 >  Hvis du vil innkreve betalinger ved hjelp av SEPA Direct Debit, må valutaen på salgsfakturaen være EURO.  
 
 ### <a name="to-create-a-direct-debit-collection"></a>Slik oppretter du en avtalegirooppkreving  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Direct Debit-oppkrevinger**, i fanebladet **Hjem** under **Ny**, velger du **Opprett direct debit-oppkreving**.  
 3. I vinduet **Opprett Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -61,7 +61,7 @@ Hvis den eksporterte filen ikke kan behandles, for eksempel fordi kunden er inso
 
      Den relaterte avtalegirosamlingen er lukket.  
 
-Du kan nå bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel i vinduet **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra vinduet **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, se [Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Du kan nå bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel i vinduet **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra vinduet **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, kan du se [Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Se også  
 [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)   

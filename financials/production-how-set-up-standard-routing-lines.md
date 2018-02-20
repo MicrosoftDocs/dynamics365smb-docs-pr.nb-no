@@ -13,24 +13,24 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 78170bd2bf64b110d5346855d5592837abf2b73e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ac9813b06da171f2da0e179f3b7d360f4dcae3f5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-standard-routing-lines"></a>Definere standard rutelinjer
+# <a name="set-up-standard-routing-lines"></a>Definere standard rutelinjer
 Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å knytte tilleggsinformasjon raskt til gjentakende operasjoner.
 
 ## <a name="to-set-up-a-standard-task"></a>Slik definerer du en standardoppgave
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Verktøy**, **Personell**, **Beskrivelse**, eller **Verktøy**.
 5. Beskriv den aktuelle standardoppgaven i vinduet som åpnes.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Slik legger du til en standardoppgave i en operasjon
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ruter**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle ruten.
 3. Velger en aktuell rutelinje, velg **Operasjon** , og velg deretter **Verktøy**, **Personell**, **Beskrivelse** eller **Verktøy**.
 

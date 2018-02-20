@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 09/05/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 3ebbd34c966ab06fa578336d14a060b0dea44dbc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: a193d1ac19a0474b4a541165ef9f06d21ac7fb7d
 ms.contentlocale: nb-no
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-boms"></a>Opprette produksjonsstykklister
+# <a name="create-production-boms"></a>Opprette produksjonsstykklister
 En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert i vinduet **Prod.ordrekomponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se delen "Monteringsstykklister eller produksjonsstykklister" i [Arbeide med stykklister](inventory-how-work-BOMs.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]   støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se delen Monteringsstykklister eller produksjonsstykklister i [Arbeide med stykklister](inventory-how-work-BOMs.md).  
 
 Før du kan definere en rute, må følgende være på plass:  
 
@@ -44,7 +44,7 @@ Før du kan definere en rute, må følgende være på plass:
     > [!NOTE]  
     >  Denne vrakprosenten representerer komponenter som vrakes under produksjon når de plukkes fra lageret, mens vrakprosenten for rutelinjer representerer vraket avgang før de ble plassert på lageret.  
 
-9.  I feltet **Rutekoblingskode** registrerer du en kode for å koble komponenten til en bestemt operasjon. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter du rutekoblinger" i [Opprette ruter](production-how-to-create-routings.md).
+9.  I feltet **Rutekoblingskode** registrerer du en kode for å koble komponenten til en bestemt operasjon. Hvis du vil ha mer informasjon, kan du se delen Slik oppretter du rutekoblinger i [Opprette ruter](production-how-to-create-routings.md).
 10. Hvis du vil kopiere linjer fra en eksisterende produksjonsstykkliste, velger du **Kopier stykkl.** for å velge eksisterende linjer.  
 11.  Godkjenn produksjonsstykklisten.  
 12.  Nå kan du knytte den nye produksjonsstykklisten til kortet for den aktuelle overordnede varen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  

@@ -13,14 +13,14 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 733405000725ccfca2a1bdd1bb2a893e6f5f3536
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5861071decd1feac9adf53783038f2927be3c930
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="setting-up-to-calculations-and-posting-methods-for-value-added-tax"></a>Definere beregninger og bokføringsmetoder for merverdiavgift
+# <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Definere beregninger og bokføringsmetoder for merverdiavgift
 Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller tjenester. Mva-beløpet som skal betales, kan variere, avhengig av flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] setter du opp for å angi satsene som skal brukes til å beregne mva-beløp som er basert på følgende: 
 
 * Hvem du selger til  
@@ -40,7 +40,20 @@ Vi anbefaler at du bruker den medfølgende mva-oppsettguiden til å definere mva
 
 Hvis du vil oppsettguiden, gjør du følgende:
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), og angi **Assistert oppsett**.  
-2. Velg **Mva-oppsett**.
+2. Velg **Angi MVA**.
+
+## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
+Du kan definere formater for organisasjonsnumre som brukes i land og områder som du handler med, for å sikre at det angis gyldige organisasjonsnumre. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en feilmelding når noen gjør en feil eller bruker et format som er feil for landet eller området.
+
+Gjør følgende for å definere organisasjonsnumre:
+1. Velg ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport")-ikonet, og angi **Land/områder**.
+2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
+3. I **Formater**-feltet definerer du formatet ved å angi én eller flere av følgende tegn:  
+  
+    |----|----| | # | Krever et tall med ett siffer. | | @ | Krever en bokstav. Det skilles ikke mellom store og små bokstaver. | | ? | Tillater alle tegn. |
+  
+    > [!Tip]
+    > Du kan bruke andre tegn så lenge de alltid finnes i land- eller områdeformatet. Hvis du for eksempel vil inkludere et punktum eller en tankestrek mellom et sett med tall, kan du for eksempel definere formatet som ##. ###. ### eller @@-### ###.  
 
 ## <a name="to-set-up-vat-business-posting-groups"></a>Slik setter du opp mva-bokføringsgrupper for firma
 Mva-bokføringsgrupper for firma skal representere markeder som du gjør forretninger med kunder og leverandører i, og definere hvordan du skal beregne og bokføre mva for hvert marked. Eksempler på mva-bokføringsgrupper for firma er **Innenlands** og **Den europeiske union (EU)**.  
@@ -64,7 +77,7 @@ Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Slik kombinerer du mva-bokføringsgrupper i mva-bokføringsoppsett
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner mva-beløp for salg og innkjøp som er basert på mva-posteringsoppsett, som er kombinasjoner av mva-bokføringsgrupper for firma og varer. For hver kombinasjon kan du angi mva-prosenten, mva-beregningstypen og finanskontoene for bokføring av mva i forbindelse med salg, kjøp og snudd avregning. Du kan også angi om mva skal beregnes på nytt når en kontantrabatt brukes eller mottas.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  beregner mva-beløp for salg og innkjøp som er basert på mva-posteringsoppsett, som er kombinasjoner av mva-bokføringsgrupper for firma og varer. For hver kombinasjon kan du angi mva-prosenten, mva-beregningstypen og finanskontoene for bokføring av mva i forbindelse med salg, kjøp og snudd avregning. Du kan også angi om mva skal beregnes på nytt når en kontantrabatt brukes eller mottas.  
 
 Du kan definere så mange kombinasjoner du vil. Hvis du vil gruppere kombinasjoner av mva-bokføringsoppsett med lignende attributter, kan du definere en **mva-type** for hver gruppe og tilordne typen til gruppemedlemmene.
 

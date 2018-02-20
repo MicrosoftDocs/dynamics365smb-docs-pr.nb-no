@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: ead7f45583b8edbdc00b6d41ae335d4b8adb14cf
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="using-pre-closing-reports"></a>Bruke forhåndslukking av rapporter
@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Skrive ut en råbalanserapport med saldi og bevegelser for finanskonti. |Råbalanse |
 | Skrive ut en råbalanse for et konsolidert selskap. |Konsolidert råbalanse |
 
-Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
+Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  

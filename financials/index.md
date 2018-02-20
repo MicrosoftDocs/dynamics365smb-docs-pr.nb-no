@@ -1,6 +1,6 @@
 ---
-title: Bli kjent med Dynamics 365 Business edition | Microsoft-dokumentasjon
-description: "Lær om egenskaper og arbeidsscenarier i Dynamics 365 Business edition, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner."
+title: "Møt Finance and Operations, Business edition | Microsoft-dokumentasjon"
+description: "Finn ut mer om egenskaper og arbeidsscenarier i Finance and Operations, Business edition, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner."
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
 ms.topic: get-started-article
@@ -11,14 +11,14 @@ ms.search.keywords: setup wizard
 ms.date: 09/14/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: 0173f682ccb09b2b4c02b9d7d74638f6b08e9a93
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2f17af763663ffc7d10c9730ca433ca1574d6552
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet.
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversjonen, får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette dine egne salgsdokumenter eller definere en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -53,11 +53,11 @@ I vinduet **Assistert oppsett** finner du følgende sammen med **Suite**-oppleve
 | Konfigurere en arbeidsflyt for kundegodkjenning |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre et kundekort. |
 | Konfigurer e-post |Hjelper deg i gang med å sende e-postmeldinger direkte fra for eksempel salgsordrer eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
 | Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å følge opp samhandlinger. |
-| Konfigurere Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
+| Konfigurere Outlook for  [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Konfigurere rapportering |Konfigurerer datasett som du kan bruke til å bygge kraftige rapporter ved hjelp av Excel eller Power BI, for eksempel. |
 | Konfigurere en arbeidsflyt for varegodkjenning |Konfigurerer muligheten til å sende en melding til en godkjenner når en bruker endrer eller oppretter et element. |
 | Konfigurere en arbeidsflyt for godkjenning av utbetaling |Konfigurerer muligheten til å sende et varsel til en godkjenner når en bruker sender utbetalingskladdelinjer til godkjenning. |
-| Konfigurere Dynamics 365 Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Definere koblingen for Finance and Operations, Business edition |Konfigurerer en tilkobling til Dynamics 365 for Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
 | Definere mva. |Lar deg komme i gang med standard mva-grupper og tilordne mva-områdekodene som du kan tilordne til kunder og leverandører for å automatisk beregne merverdiavgift i salgs- eller kjøpsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Prøve ting i din egen bedrift
@@ -66,22 +66,21 @@ Tenker du på å abonnere? Du kan enkelt endre fra demonstrasjonsselskapet og op
 Hvis du vil opprette et selskap for å prøve ut ting, kan du gå til **Mine innstillinger**-menyen i øvre høyre hjørne og endre selskapet til **Mitt selskap**. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft. En assistert oppsettveiledning hjelper deg med å gi grunnleggende informasjon om selskapet. Når det er gjort, kan du utforske hjemmeside og finne handlingen **Assistert oppsett**.  
 
 ## <a name="ready-to-subscribe"></a>Klar til å abonnere?
-Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du bestemmer deg for å abonnere, kan du bruke koblingen i varslet for å komme i kontakt med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet på [Microsoft Dynamics 365 Business edition](https://go.microsoft.com/fwlink/?linkid=828707).  
+Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du bestemmer deg for å abonnere, kan du bruke koblingen i varslet for å komme i kontakt med Microsoft. Du kan også kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apper
-Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [Dynamics 365-nettstedet](https://www.microsoft.com/en-us/dynamics365/).  
+## <a name="other-finance-and-operations-business-edition-apps"></a>Andre apper for Finance and Operations, Business edition
+Naviger til innhold om de andre Finance and Operations, Business edition-appene ved å velge koblingen [Finance and Operations, Business edition](https://docs.microsoft.com/dynamics365) i det blå banneret øverst på denne siden. Du kan også finne ut mer på [nettstedet for Dynamics 365 for Finance and Operations, Business edition](https://www.microsoft.com/en-us/dynamics365/).  
 
 Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få sømløs integrasjon med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Finans](finance.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](madeira-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
-[Dokumentasjon for Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
-[roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Dokumentasjon for Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)  
+[Veikart for Finance and Operations, Business edition](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
 [Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

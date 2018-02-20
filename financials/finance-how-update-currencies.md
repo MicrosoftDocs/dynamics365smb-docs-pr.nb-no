@@ -1,6 +1,6 @@
 ---
 title: Oppdatere valutakurser | Microsoft-dokumentasjon
-description: Hvis du vil bruke flere valutaer i virksomheten, kan du definere en kode for hver valuta og bruke en ekstern valutakurstjeneste, for eksempel Yahoo.
+description: Hvis du vil bruke flere valutaer i virksomheten, kan du definere en kode for hver valuta og bruke en ekstern valutakurstjeneste, for eksempel FloatRates.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -9,17 +9,17 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, Yahoo
-ms.date: 07/02/2017
+ms.search.keywords: multiple currencies
+ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: eecb1c7b7bcb62e8dc7def488f66338855dad030
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 973e2559b5cbf3e21bb735267ac800f87fa5a7f6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-update-currency-exchange-rates"></a>Oppdatere valutakurser
+# <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.  
 
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere eller rapportere økonomien i mer enn én valuta. Programmet støtter bruk av flere valutaer. I programmet blir Finans definert ved hjelp av den lokale valutaen (NOK), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.  
@@ -41,19 +41,16 @@ Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et 
 
 Flere rapporter i Finans-modulen er basert på finansposter. Hvis du vil vise økonomidataene i rapporten i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** i det relevante finansrapportvinduet.  
 
-> [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
-
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
-Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten Yahoo-valutakurser er forhåndsinstallert og klar til å aktiveres.
+Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I vinduet **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Merk av for **Aktivert** for å aktivere tjenesten.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Oppdatere valutakurser via en tjeneste
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Valutaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Valutaer**, og velg deretter den relaterte koblingen.
 2. Velg **Oppdater valutakurser**.
 
 Verdien i **Valutakurs**-feltet i **Valutaer**-vinduet oppdateres med den nyeste valutakursen.

@@ -13,13 +13,13 @@ ms.search.keywords: relationship, client, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 289213b9c44b07387fd0dcf315b9d08750bdd9f7
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 0c4cf74ef7b0b2e48a8608a0859a71b919e46397
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-customer-vendor-or-bank-account-from-a-contact"></a>Opprette en kunde, leverandør eller bankkonto fra en kontakt
+# <a name="create-a-customer-vendor-or-bank-account-from-a-contact"></a>Opprette en kunde, leverandør eller bankkonto fra en kontakt
 Du ønsker kanskje å registrere noen av de eksisterende kontaktene som kunder, leverandører eller bankkonti. Oppretting av en kunde, leverandør eller bankkonto fra en kontakt, lar deg bruke eksisterende data. Når du oppretter en kunde, leverandør eller bankkonto på denne måten, synkroniseres den med kontakten. Synkronisering gjør at informasjon som er felles mellom kontakter og kunder, leverandører eller bankkonto, er den samme.
 
 Før du kan registrere kontakter på denne måten, må du angi en forretningsforbindelseskode for kunder, leverandører og bankkonti, i vinduet **Markedsføringsoppsett**. Hvis du vil registrere kontakter som bankkonti, må du også angi nummerserie for bankkonti i vinduet **Finansoppsett**.
@@ -39,5 +39,5 @@ Kontaktinformasjonen er overført fra **Kontakt**-kortet til **Bankkonto**-korte
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Knytte kontakter til eksisterende kunder, leverandører og bankkonti](marketing-how-link-contact.md)  
 [Tilordne forretningsforbindelser til en kontakt](marketing-business-relations.md#AssignBusRelContact)  
-[Arbeide med Dynamics 365](ui-work-product.md)
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)
 

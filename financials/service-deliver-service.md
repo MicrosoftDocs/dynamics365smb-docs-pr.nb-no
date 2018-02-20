@@ -13,14 +13,14 @@ ms.search.keywords: service, service items, respond, response
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9c60f65b65c7037b4ce26212cfe80e7b7f1b1336
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 34283487641e7b249b556cec834531582c58af7a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="delivering-service"></a>Yte service
-Med funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] Med funksjonene i  kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
   
 En annen måte å gjennomgå ventende serviceordrer på er å bruke **Serviceoppgaver**-vinduet. I denne visningen av serviceforpliktelsene dine ser du hvor i servicearbeidsflyten en ordre befinner seg, og du kan endre statusen for ordren for å gjenspeile kommunikasjon med kunden.  
   

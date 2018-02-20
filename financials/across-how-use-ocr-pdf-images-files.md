@@ -12,13 +12,13 @@ ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecom
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 70bacf1c523fa6f547798b1a8df14b1e316c36b3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 91071855697c9235ba8734b40d77ed0b48c24923
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
 Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra vinduet **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.
 
 Som et alternativ til å sende filen fra vinduet **Inngående dokumenter** kan du sende filen til OCR-tjenesten via e-post. Deretter, når du får tilbake det elektroniske dokumentet, opprettes det automatisk en relatert innkommende dokumentpost. Dette er beskrevet i andre fremgangsmåte.
@@ -45,7 +45,7 @@ Fra e-postprogrammet kan du sende en e-post til leverandøren av OCR-tjenesten m
 Fordi det ikke finnes noen inngående dokumentoppføring for filen, opprettes en ny post automatisk i vinduet **Inngående dokumenter** når du mottar det resulterende elektroniske dokumentet fra OCR-tjenesten. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se avsnittet "Opprette innkommende dokumentposter ved å ta et bilde" i [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
+>   Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se avsnittet Opprette innkommende dokumentposter ved å ta et bilde i [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Slik mottar du det resulterende elektroniske dokumentet fra OCR-tjenesten:
 Det elektroniske dokumentet som opprettes av OCR-tjenesten fra PDF- eller bildefilen, mottas automatisk inn i vinduet **Inngående dokumenter** via jobbkøposten som settes opp når du aktiverer OCR-tjenesten.
@@ -56,7 +56,7 @@ Hvis du ikke bruker en jobbkø, eller hvis du vil motta et ferdig OCR-dokument r
 >   Hvis OCR-tjenesten er konfigurert til å kreve manuell godkjenning av behandlede dokumenter, vil feltet **OCR-status** inneholde **Venter på bekreftelse**. I så fall gjør du følgende for å logge deg på webområdet til OCR-tjenesten og bekrefte et OCR-dokument manuelt.
 
 1. I **OCR-status**-feltet velger du hyperkoblingen **Venter på bekreftelse**. Eller velg flisen **Venter på bekreftelse** på Hjem-siden.
-2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, kan du se delen "Slik definerer du en OCR-tjeneste" i [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
+2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, kan du se delen Definere en OCR-tjeneste i [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
     Hvis du åpner webområdet fra **OCR-status**-feltet, vises det aktuelle dokumentet umiddelbart etter påloggingen. Hvis du åpner webområdet ved å velge flisen på hjemmesiden, på den første OCR-siden som åpnes, må du velge **Start**-knappen på **Bekreft**-fanen eller dobbeltklikke dokumentet som du vil bekrefte.
 

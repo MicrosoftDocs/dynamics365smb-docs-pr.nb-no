@@ -1,6 +1,6 @@
 ---
 title: Velkommen| Microsoft-dokumentasjon
-description: "Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og vinduene du bruker til å bli klar til å gjøre forretninger i Dynamics 365 Business edition."
+description: "Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og vinduene du bruker til å bli klar til å gjøre forretninger i Finance and Operations, Business edition."
 documentationcenter: 
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-financials
@@ -12,10 +12,10 @@ ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 03/21/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: e6a467f526b8bb1c55af686817ed3e419b214dbb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
@@ -39,7 +39,7 @@ I vinduet **Assistert oppsett** finner du følgende sammen med **Basic**-oppleve
 | Konfigurer Office-tillegg |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Oppsett av arbeidsflyt for godkj. |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre visse verdier for dokumenter, kladdelinjer eller kort, for eksempel beløp over en bestemt grense. |
 | Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å følge opp samhandlinger. |
-| Konfigurere Dynamics 365 Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Definere koblingen for Finance and Operations, Business edition |Konfigurerer en tilkobling til Dynamics 365 for Sales som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
 
 Når du har kjørt et assistert oppsett, merkes det som **Fullført**. Hvis du vil kjøre assistert oppsett, velger du de tre prikkene, også kalt hurtigmenyen, og deretter velger du **Start oppsett**.
 

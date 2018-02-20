@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d37170cabe2b03200e3d3f5f7b5c2a679eb8f46c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 61ad86f72f86cd9f6e1667dac445bfaa930d339f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-base-calendars"></a>Definere hovedkalendere
+# <a name="set-up-base-calendars"></a>Definere hovedkalendere
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut **Kode**-feltet.  
 4. Velg **Vedlikehold endringer i hovedkalender**.
@@ -66,7 +66,7 @@ Mens for eksempel en hovedkalender vanligvis viser alle lørdager som fridager, 
 
 Følgende prosedyre bruker lokasjonen som eksempel. Merk at du på dette tidspunktet allerede har tilordnet en hovedkalender til lokasjonen.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil oppdatere, og velg deretter feltet **Egendefinert kalender**. Merk at en kalender må velges i feltet **Hovedkalenderkode**.
 3. I vinduet **Egendefinerte kalenderposter** som åpnes, velger du **Vedlikehold endringer i egendefinert kalender**.
 4. I vinduet **Endringer i egendefinert kalender** legger du til linjer for egendefinerte kalenderposter.
@@ -102,7 +102,7 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 -   På **Lokasjon**-kortet er hovedkalenderen tilordnet på hurtigfanen **Lager**.  
 -   I **Transportører**-vinduet tilordnes hovedkalenderen i **Transportørservice**-vinduet.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2.  Åpne **Kunde**-kortet som du vil tilordne en hovedkalender for.  
 3.  På hurtigfanen **Levering**, i **Hovedkalenderkode**-feltet, velger du hovedkalenderen som du vil tilordne.  
 

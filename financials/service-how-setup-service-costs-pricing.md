@@ -13,14 +13,14 @@ ms.search.keywords: service, cost, service order
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d0f0fcdff4a67df7542c5acb6d44f804997d1a2c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 151b63b0f68a6605ae5c935f2331803277766452
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-pricing-and-additional-costs-for-services"></a>Definere priser og ekstra kostnader for servicer
+# <a name="set-up-pricing-and-additional-costs-for-services"></a>Definere priser og ekstra kostnader for servicer
 Du kan bruke prissettingsfunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å definere og tilpasse programmet slik at du bruker og justerer prissetting for servicevarer, -reparasjoner og -ordrer. Disse prissettingsavgjørelsene kan deretter enkelt overføres til faktureringsprosessen.  
   
 Alt etter implementering kan du definere prissettingsgrupper og knytte dem til bestemte tidsperioder, kunder eller valutaer. Du kan definere fast, minimum eller maksimum prissetting, avhengig av servicekontraktene du har med kundene. Når du justerer prisene, kan du vise og godkjenne endringene før de bokføres.  
@@ -28,7 +28,7 @@ Alt etter implementering kan du definere prissettingsgrupper og knytte dem til b
 ## <a name="to-set-up-a-service-price-group"></a>Slik definerer du serviceprisgrupper
 Du kan definere grupper som inneholder servicevarer som du vil skal ha samme spesielle serviceprissetting. Du tilordner serviceprisgrupper til servicevarer på servicevarelinjer. Du kan dessuten tilordne serviceprisgrupper til servicevaregrupper.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny serviceprisgruppe.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. Velg handlingen **Oppsett**.  
@@ -40,7 +40,7 @@ Du kan definere grupper som inneholder servicevarer som du vil skal ha samme spe
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Slik definerer du serviceprisjusteringsgrupper  
 Du kan definere prisjusteringsgrupper for å justere serviceprissetting av servicevarer. Du kan for eksempel definere prisjusteringsgrupper som justerer prisen på frakt eller reservedeler.  
   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny serviceprisjusteringsgruppe.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. Angi hvilken posttype du vil justere, i **Type**-feltet.  
@@ -58,11 +58,11 @@ Du kan definere prisjusteringsgrupper for å justere serviceprissetting av servi
 Når du arbeider med servicevarer og serviceordrer, kan det hende du må registrere tilleggskostnader, for eksempel reiseutgifter til bestemte servicesoner eller startgebyrer. Når du oppretter en serviceordre, kan du sette inn disse kostnadene, og en linje av typen **Kost** legges til i ordren. Hvis du vil bruke kostnaden for alle serviceordrer, kan du definere en standardkost. For eksempel hvis du vil bruke et startgebyr.
   
 ### <a name="to-set-up-service-costs"></a>Definere servicekostnader
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Servicekostnader**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicekostnader**, og velg deretter den relaterte koblingen. 
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Angi en standardkost for serviceordrer
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
 2. I feltet **Startgebyr for serviceordre** velger du den aktuelle servicekostnaden.
 
 ## <a name="see-also"></a>Se også

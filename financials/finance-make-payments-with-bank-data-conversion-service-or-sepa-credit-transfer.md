@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/17/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 0760b5480b3c2de9bc370526bd87da2c9a492d92
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: d9388a99585eea4e9e229a2f47982f9f690e3001
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="making-payments-with-bank-data-conversion-service-or-sepa-credit-transfer"></a>Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring
@@ -32,7 +32,7 @@ Nå kan du behandle betalinger til leverandører i vinduet **Betalingskladd** ve
 |Aktiverer tjenesten for bankdatakonvertering for å konvertere en kontoutdragsfil til et format du kan importere, eller konvertere den eksporterte betalingsfilen til formatet som banken krever.|[Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-statement-service.md)|  
 |Definere en bankkonto, leverandør og en utbetalingskladd for SEPA-kredittoverføring.|[Definere SEPA-kredittoverføring](finance-how-to-set-up-sepa-credit-transfer.md)|  
 |Fylle ut utbetalingskladden med linjer for utestående leverandørfordringer, med mulighet til å sette inn bokføringsdatoer basert på forfallsdatoen til de relaterte kjøpsdokumentene.|[Administrere skyldige beløp](payables-manage-payables.md)|  
-|Eksportere utbetalingskladdelinjer til en fil i SEPA-kredittoverføringsformatet.|[Fremgangsmåte: Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|  
+|Eksportere utbetalingskladdelinjer til en fil i SEPA-kredittoverføringsformatet.|[Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)|  
 |Bokfør betalingene når den elektroniske betalingen er behandlet av banken.|[Arbeide med finanskladder](ui-work-general-journals.md)|  
 
 ## <a name="see-also"></a>Se også  

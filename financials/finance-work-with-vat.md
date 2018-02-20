@@ -13,13 +13,13 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 09/08/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 596b5d73e019375aa84b7cb227d305fc29762ae1
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 31b28811529cb4e5296a04c18f1f41d9f452a9be
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
+# <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift] (finance-setup-vat.md).
 
 Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.
@@ -87,14 +87,14 @@ I stedet for å bruke en kladd til å bokføre en viktig mva-faktura, kan du bru
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Slik definerer du kjøp for bokføring av fakturaer med import-mva.:  
 1. Opprett et leverandørkort for importmyndigheten som sender deg fakturaen for import-mva. **Bokføringsgruppe - firma** og **Mva-bokføringsgruppe - firma** må være definert på samme måte som finanskontoen for import-mva.  
 2. Opprett en **Bokføringsgruppe - vare** for import-mva, og definer en **Std. mva-bokf.gruppe - vare** for import-mva for den tilknyttede **Bokføringsgruppe - vare**.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 4. Velg finanskontoen for import-mva og velg deretter **Rediger** under **Behandle** i fanebladet **Hjem**.  
 5. På hurtigfanen **Bokføring** velger du oppsettet **Bokføringsgruppe \- vare** for import-mva . [!INCLUDE[d365fin](includes/d365fin_md.md)] fyller automatisk i feltet **Mva\-bokføringsgruppe \- vare**.  
-6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 7. Opprett en kombinasjon av **Bokføringsgruppe - firma** for mva-myndighetene og **Bokføringsgruppe - vare** for import-mva.. For denne nye kombinasjonen velger du finanskontoen for import-mva i **Innkjøpskonto**-feltet.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Slik oppretter du en ny faktura for importmyndighetsleverandøren når du har fullført oppsettet  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny kjøpsfaktura.  
 3. I feltet **Kjøp fra-leverandørnr.** velger du importmyndighetsleverandøren, og velger deretter **OK**-knappen.  
 4. I feltet **Type** på bestillingslinjen velger du **Finanskonto**, og i feltet **Nr.** velger du Importer mva-finanskontoen.  
@@ -106,7 +106,7 @@ I stedet for å bruke en kladd til å bokføre en viktig mva-faktura, kan du bru
 Når du selger varer til en kunde i et annet EU-land, må du sende kunden en leveringsbekreftelse som kunden må signere og returnere til deg. Følgende prosedyrer er for behandling av leveringsbekreftelser for følgesedler, men de samme trinnene gjelder for servicefølgesedler for varer og returforsendelser til leverandører.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Slik viser du detaljer om leveringsbekreftelser  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
 3. Velg **Detaljer om mottaksdeklarasjon**.  
 4. Hvis det er merket av for **Leveringsbekreftelse er obligatorisk** for mva-bokføringsgruppedefinisjonen som er konfigurert for kunden, er som standard **Obligatorisk** angitt i **Status**-feltet. Du kan oppdatere feltet for å angi om kunden har returnert bekreftelsen.  
@@ -125,7 +125,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
     >  Du kan forhåndsvise eller skrive ut dokumentet. Når du velger **Skriv ut leveringsbekreftelse** og skriver ut dokumentet, blir det merket av for **Skrevet ut** automatisk. Hvis den ikke allerede er angitt, oppdateres statusen for bekreftelsen til **Påkrevd**. Om nødvendig inkluderer du den utskrevne bekreftelsen med leveringen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Slik skriver du ut en leveringsbekreftelse  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
 3. Velg **Skriv ut mottaksdeklarasjon**.  
 
@@ -143,7 +143,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 8. Send den utskrevne leveringsbekreftelsen til kunden for signatur.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Oppdatere statusen til en leveringsbekreftelse for en levering  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
 3. Velg det aktuelle alternativet i feltet **Status**.  
 
@@ -156,7 +156,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreftelser**-vinduet og deretter oppdatere informasjon om status for utestående bekreftelser når du får dem tilbake fra kundene. Dette kan være nyttig når du vil søke etter alle bekreftelser som har en bestemt status, for eksempel **Påkrevd**, som du vil oppdatere til statusen **Ikke mottatt**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Oppdatere statusen til en gruppe av leveringsbekreftelser  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mottaksdeklarasjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mottaksdeklarasjoner**, og velg deretter den relaterte koblingen.  
 2. Filtrer **Status**-feltet til ønsket verdi for å opprette listen over bekreftelsene du vil håndtere.  
 3. Hvis du vil oppdatere informasjon om status, velger du **Rediger oversikt**.  
 4. Velg det aktuelle alternativet i feltet **Status**.  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/10/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c6365507992b75d5fa264491bbc85bb1b4a8ed7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 7b8c24469a087c16c2e351b456b015e8fdd65f82
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
 
 Du kan bruke betalingstoleranser slik at alle utestående beløp har en definert maksimalt tillatt betalingstoleranse. Hvis betalingstoleransen oppfylles, analyseres beløpet. Hvis beløpet er en underbetaling, lukkes utestående beløp helt av underbetalingen. En detaljert post bokføres til betalingsposten, slik at det ikke blir noe restbeløp igjen på den utlignede fakturaposten. Hvis beløpet er en overbetaling, bokføres en ny detaljert post i betalingsposten, slik at det ikke blir noe restbeløp igjen på betalingsposten.

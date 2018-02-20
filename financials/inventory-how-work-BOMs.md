@@ -11,13 +11,13 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: caf3637dac270a3d20283e6c0776634ee1f5613e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-bills-of-material"></a>Arbeide med stykklister
+# <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
 
 ## <a name="assembly-boms-or-production-boms"></a>Monteringsstykklister eller produksjonsstykklister
@@ -42,7 +42,7 @@ Monteringsstykklister inneholder vanligvis varer, men kan også inneholde en ell
 
 Monteringsstykklister kan ha flere nivåer, noe som betyr at en komponent i monteringsstykklisten selv kan være en monteringsvare. I så fall skal **Monteringsstykkliste**-feltet på monteringsstykklistelinjen inneholde **Ja**.
 
-Spesielle krav gjelder for varer i monteringsstykklister med hensyn til tilgjengelighet. Hvis du vil ha mer informasjon, kan du se delen «Vise tilgjengeligheten til en vare etter bruk i monteringsstykklister» i [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
+Spesielle krav gjelder for varer i monteringsstykklister med hensyn til tilgjengelighet. Hvis du vil ha mer informasjon, kan du se delen Vise tilgjengeligheten til en vare etter bruk i monteringsstykklister i [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
 Oppretting av en monteringsstykkliste foregår i to trinn:
 - Definere en ny vare
@@ -57,7 +57,7 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Vise komponentene i en monteringsvare som er rykket inn i henhold til stykklistestrukturen
 Fra vinduet **Monteringsstykkliste** kan du åpne et eget vindu som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** i vinduet **Varer** inneholder **Ja**.)
 3. I vinduet **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
 4. I vinduet **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
@@ -103,5 +103,5 @@ Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvar
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

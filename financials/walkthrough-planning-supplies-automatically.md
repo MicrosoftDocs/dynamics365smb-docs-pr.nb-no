@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: bbe470538bb79e9f6fb6860ee32d75b5d56db9e8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
@@ -73,7 +73,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-change-selected-planning-parameters"></a>Slik endrer du valgte planleggingsparametre:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
 2.  Åpne lagerføringsenhetskortet OSLO for vare 1100, forhjul.  
 3.  På hurtigfanen **Planlegging** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -90,7 +90,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I vinduet **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -102,7 +102,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Slik oppretter du en replanlegging for å dekke behovet i OSLO  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -125,7 +125,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Slik beregner du MRP for å inkludere underliggende komponentbehov:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -219,7 +219,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 3.  Godta tilgjengelighetsadvarselen, og velg **Ja** for å registrere behovsmengden.  
 4.  Fortsett med å planlegge på nytt for å justere den aktuelle forsyningsplanen.  
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 6.  Velg **Beregn bevegelsesplan**-handlingen.  
 7.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

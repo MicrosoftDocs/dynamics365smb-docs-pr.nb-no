@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: daa014eaa78caa7a317b05ca92ff27c1d1530c06
-ms.openlocfilehash: 85cd332e4b62ba73f511989983e1eb9f5147c5fb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f941625052bea17e524e7150f1a3a957d2916d54
 ms.contentlocale: nb-no
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-routings"></a>Opprette ruter
+# <a name="create-routings"></a>Opprette ruter
 Produksjonsselskaper bruker ruter til å visualisere og dirigere produksjonsprosessen.
 
 Ruten danner grunnlaget for prosessplanlegging, kapasitetsplaner, planlage tildelinger av materialbehov og diverse produksjonsdokumenter.  

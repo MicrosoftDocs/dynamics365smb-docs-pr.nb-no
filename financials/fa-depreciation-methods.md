@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 6a32ddc5fd8202507b66a30fabd2cbd6b5ab91eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
@@ -208,7 +208,7 @@ Beregningsmetode:
 
 Saldobeløpet brukes fordi det er det største beløpet.  
 
-6. år (2015):  
+år (2015):  
 
 *Saldobeløp: 25 % av 23 730,46 = 4 943,85= 2 471,92+2 471,92*  
 
@@ -231,7 +231,7 @@ Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert p
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Slik definerer du brukerdefinerte avskrivningsmetoder
 I **Avskrivningstabell**-vinduet kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
 3. Fyll ut feltene etter behov i vinduet **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

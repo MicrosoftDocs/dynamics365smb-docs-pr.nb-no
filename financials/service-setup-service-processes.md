@@ -13,13 +13,13 @@ ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, 
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 708569e88d443f1dc4f1d17d8015da98cf186e6d
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 87a18af2c88955d4d0b78eb37fea161e3332c4b3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-configure-service-processes"></a>Konfigurere serviceprosesser
+# <a name="configure-service-processes"></a>Konfigurere serviceprosesser
 Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsprosessene:  
   
 * Noen generelle innstillinger for ulike prosesser, for eksempel advarsler, beregningsmåte for neste service for servicevarer, startgebyret for å vurdere, feilrapporteringsnivået som skal brukes og så videre.  
@@ -29,14 +29,14 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 * Nummerserier for servicerelaterte dokumenter og varer.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
-[Definere feilrapportering](service-how-setup-fault-reporting.md)  
+[Konfigurere feilrapportering](service-how-setup-fault-reporting.md)  
 [Definere ressurstildeling](service-how-setup-resource-allocation.md)  
 [Definere koder for standardservicer](service-how-setup-service-coding.md)  
-[Definere ekstra kostnader for tjenester](service-how-setup-service-costs-pricing.md)  
+[Definere ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  
 [Definere feilsøking](service-how-setup-troubleshooting.md)  
 [Servicehåndtering](service-service.md)  
 

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0ca92ce0266c6a57d211f9ddb70dc5499f4f9648
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 223eed1ca4e362b8209373fac71d20ab88b2aaff
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-ship-items"></a>Levere varer
+# <a name="ship-items"></a>Levere varer
 Når du leverer varer fra et lager som ikke er definert til lagerleveringsbehandling, må du ganske enkelt registrere leveringen i det relaterte forretningsdokumentet, for eksempel en ordre, serviceordre, bestillingsretur eller utgående overføringsordre.
 
 Når du leverer varer fra et lager som er definert til lagerleveringsbehandling, kan du levere varer bare på basis av kildedokumenter som andre enheter i selskapet har frigitt til lageret for behandling.
@@ -29,7 +29,7 @@ Når du leverer varer fra et lager som er definert til lagerleveringsbehandling,
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Slik leverer du varer med en ordre
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for bestillingsreturer, serviceordrer og utgående overføringsordrer.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende ordre eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. I feltet **Levere (antall)** angir du det mottatte antallet.
 
@@ -41,7 +41,7 @@ Først oppretter du et leveringsdokument fra et forretningskildedokument. Derett
 
 ### <a name="to-create-a-warehouse-shipment"></a>Slik oppretter du en lagerlevering
 Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering.
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
@@ -74,12 +74,12 @@ Når du har de linjene du vil levere, kan du starte prosessen som sender linjene
 
 ### <a name="to-pick-and-ship"></a>Slik plukker og leverer du
 Vanligvis er det en lagermedarbeider som er ansvarlig for plukking, som oppretter et plukkdokument eller åpner et allerede opprettet plukkdokument.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
 2. Velg lagerlevringen som du vil plukke for, og velg deretter **Opprett plukk**-handlingen.
 3. Fyll ut feltene i forespørselsvinduet, og velg deretter **OK**. Det angitte lagerplukkdokumentet opprettes.
 
     Du kan også åpne et eksisterende lagerplukk.
-4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
+4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
 
     Hvis lageret definert for bruk av hyller, så er plukklinjene konvertert til linjer for henting og plassering.
 

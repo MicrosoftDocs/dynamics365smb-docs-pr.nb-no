@@ -13,10 +13,10 @@ ms.search.keywords: trade, sell, configure
 ms.date: 10/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d94177e37fec6abf278dc8edac71b03c569c9581
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6407b49cf9b5e844b4e0920ccf1fc299d96ae34f
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
@@ -31,11 +31,11 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 | Hvis du vil | Se |
 | --- | --- |
 | Opprett et kundekort for hver kunde du selger til. |[Registrere nye kunder](sales-how-register-new-customers.md) |
-| Lar kunder betale via PayPal ved å velge PayPal-logoen på salgsdokumenter. |[Aktiver kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md) |
+| Lar kunder betale via PayPal ved å velge PayPal-logoen på salgsdokumenter. |[Aktivere kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md) |
 | Angi ulike rabatter og spesialpriser som du gir kundene, avhengig av vare, antall og/eller dato. |[Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md) |
 | Definere selgere, slik at du kan tilordne dem til kundekontakter eller måle selgernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. |[Definere selgere](sales-how-setup-salespeople.md) |
 | Angi for hver enkelt kunde eller for alle kunder hvordan salgsdokumenter sendes som standard når du velger **Konter og send**-handlingen. |[Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md) |
-| Angi at e-post skal inneholde et sammendrag av informasjonen i salgsdokumentet som sendes. |[Sende dokumenter i e-post](ui-how-send-documents-email.md). |
+| Angi at e-post skal inneholde et sammendrag av informasjonen i salgsdokumentet som sendes. |[Sende dokumenter i e-post](ui-how-send-documents-email.md) |
 |Bruke en EU-webtjeneste for å bekrefte kundens organisasjonsnummer.|[Bekrefte organisasjonsnumre](finance-setup-vat.md)|
 |Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Definere transportører](sales-how-to-set-up-shipping-agents.md)|
 

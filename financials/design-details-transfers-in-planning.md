@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 936c6a429f2b8c60499d7b2b5f1f8fba800a4e8b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
@@ -139,7 +139,7 @@ Feltet Standard sikkerhetstid i Produksjonsoppsett-vinduet og det tilknyttede fe
   
 ![](media/nav_app_supply_planning_7_transfers14.png "NAV_APP_supply_planning_7_transfers14")  
   
-På produksjonsordrelinjen er Sluttdato + sikkerhetsleveringstid + inngående lagerhåndteringstid = forfallsdato.  
+På produksjonsordrelinjen er Sluttdato + Sikkerhetsleveringstid + Inngående lagerhåndteringstid = Forfallsdato.  
   
 På bestillingslinjen er Planlagt mottaksdato + sikkerhetsleveringstid + inngående lagerhåndteringstid = forventet mottaksdato.  
   

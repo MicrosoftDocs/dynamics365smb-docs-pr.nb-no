@@ -13,13 +13,13 @@ ms.search.keywords: task, to-do, relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: f0a4000a3f12a23b1d732ab9671e7cb5938eb887
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 673c7a118c5f589319bd967bfaea3bedef84f9ff
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-job-responsibilities-for-contact-persons"></a>Definere ansvarsområder for kontaktpersoner
+# <a name="set-up-job-responsibilities-for-contact-persons"></a>Definere ansvarsområder for kontaktpersoner
 Du kan legge til informasjon om ansvarsområder for kontaktpersoner for å angi hva kontaktpersonen har ansvaret for i selskapet, for eksempel IT, ledelse eller produksjon. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
 
 Bruk av ansvarsområder på kontakter er en totrinnsprosess. Først må definere du koden for ansvarsområdet. Du trenger bare utføre dette trinnet én gang for hvert ansvarsområde. Når du har en kode for ansvarsområde, kan du begynne å tilordne koden til kontaktpersoner.

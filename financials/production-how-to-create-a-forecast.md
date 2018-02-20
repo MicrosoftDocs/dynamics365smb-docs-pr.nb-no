@@ -1,6 +1,6 @@
 ---
 title: Opprette en produksjonsprognose | Microsoft-dokumentasjon
-description: Du kan opprette salgs- og produksjonsprognoser i vinduet **Produksjonsprognose**.
+description: Du kan opprette salgs- og produksjonsprognoser i **Produksjonsprognose**-vinduet.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5dea483395e64eb0635879b5c8821428512481ba
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: fea8af85518d608f051be154e551c4c8645ed42a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-a-production-forecast"></a>Opprette en produksjonsprognose
+# <a name="create-a-production-forecast"></a>Opprette en produksjonsprognose
 Du kan opprette salgs- og produksjonsprognoser i **Produksjonsprognose**-vinduet.  
 
 Prognosefunksjonalitet brukes til å opprette forventet behov. Faktisk behov opprettes basert på ordrer og produksjonsordrer. Under oppretting av MPS (Master Production Schedule) nettoberegnes prognosen mot salgs- og produksjonsordrer. *Komponenten*-alternativet på prognosen bestemmer hvilken kravtype som skal tas i betraktning i nettoavregningsprosessen. Hvis prognosen er for en salgsvare, nettoberegnes prognosen bare mot ordrer. Hvis det er for komponenter, nettoberegnes prognosen bare mot produksjonsordrekomponenter.  
@@ -53,7 +53,7 @@ Det kan angi i produksjonsoppsettet om. Merk imidlertid at hvis du viser lokasjo
 
 ## <a name="to-create-a-production-forecast"></a>Slik oppretter du en produksjonsprognose
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Produksjonsprognose**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsprognose**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Generelt** velger du en prognose i feltet **Navn på prod.prognose**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
 3.  I **Lokasjonsfilter**-feltet velger du lokasjonen som denne prognosen skal brukes på.  
 4.  Velg **Salgsvare**, **Komponent** eller **Begge** i **Prognosetype**-feltet. Hvis du velger **Salgsvare** eller **Komponent**, kan du redigere antallet etter periode. Hvis du velger **Begge**, kan du ikke redigere antallet, men du kan velge rullegardinpilen og vise postene for produksjonsprognose.  

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bd69a3da7a0a5e766a232e8999056ac60109e7b1
-ms.openlocfilehash: 89982479ec539f6bf394d31af8775a0b735588fc
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 412050e3fd1da21421e0752be6367fa0ead8d636
 ms.contentlocale: nb-no
-ms.lasthandoff: 10/02/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
 -   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og produksjonsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
@@ -27,7 +27,7 @@ Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregni
 
 Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene gjelder nettoberegning, gjenbruk av eksisterende etterfyllingsordrer samt handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er på lager eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] handlingsmeldinger. Handlingsmeldinger er forslag om å opprette en ny ordre, endre en ordre (antall eller dato) eller annullere en ordre som er bestilt. Betegnelsen "ordre" omfatter bestillinger, monteringsordrer, produksjonsordrer og overføringsordrer.
 
-Koblinger som opprettes av planleggingsmotoren mellom etterspørsel og relatert forsyning, kan spores i vinduet **Sporing**. Hvis du vil ha mer informasjon, se [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md).   
+Koblinger som opprettes av planleggingsmotoren mellom etterspørsel og relatert forsyning, kan spores i vinduet **Sporing**. Hvis du vil ha mer informasjon, kan du se [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md).   
 
 Riktige planleggingsresultater er avhengig av definisjonene i varekort, monteringsstykklister, produksjonsstykklister og ruter.  
 

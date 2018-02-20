@@ -13,16 +13,16 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 06/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b41328283c732d3d9cb3ff66ef89c13d0bd3b7bf
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6b92692cc2bafd0c1d15d54f532c9ea62542d52e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Avslutte år og perioder
 På slutten av et regnskapsår er det en rekke administrative oppgaver som du må utføre, for eksempel å passe på at alle dokumenter og kladder bokføres, pass på at valutadataene er oppdaterte, avslutte tablåer, og mye mer. De faktiske oppgavene avhenger av firmaet.
 
-Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører for å avslutte år og perioder. 
+Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører for å avslutte år og perioder.
 
 | Til | Se |
 | --- | --- |
@@ -38,4 +38,7 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 ## <a name="see-also"></a>Se også
 [Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

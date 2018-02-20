@@ -1,6 +1,6 @@
 ---
 title: "Designdetaljer – Kodeenhet 12: Endringer i bokføringsprosedyrene for finans | Microsoft-dokumentasjon"
-description: "Følgende endringer er implementert i denne versjonen av Dynamics 365."
+description: "Følgende endringer er implementert i denne versjonen av Finance and Operations, Business edition."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: a320e0acbe75c98db525c0dc94edd8c39253d97c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6c2d80860a392ad3e6640bbdf73ab1f515e4dd0b
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Endringer i kodeenhet 12: Endringer i bokføringsprosedyrene for finans

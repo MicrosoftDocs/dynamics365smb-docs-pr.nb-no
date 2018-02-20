@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 1f35debace937a04b8f4174131fd72cde6610b7a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 6d5fecae58ec05f3cb3eda4ee2a43a131b267c92
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
+# <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
 
 Som forberedelse til å opprette en datautvekslingsdefinisjon for en datafil eller -strøm, kan du bruke det tilknyttede XML-skjemaet til å definere hvilke dataelementer skal tas med i hurtigfanen **Kolonnedefinisjoner**. Se trinn 6 under Slik beskriver du formateringen av linjer og kolonner i filen. Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
@@ -133,7 +133,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |**Målfelttekst**|Synlig bare når det er merket av for **Bruk som foreløpig tabell**.<br /><br /> Angi navnet på feltet i måltabellen som verdien i feltet **Kolonneoverskrift** blir tilordnet til når du bruker en foreløpig tabell for dataimport.|  
     |**Valgfritt**|Synlig bare når det er merket av for **Bruk som foreløpig tabell**.<br /><br /> Angi om tilordningen skal hoppes over hvis feltet er tomt. Hvis du ikke merker av for alternativet, vil det oppstå en eksportfeil hvis feltet er tomt.|  
 
- Datautvekslingsdefinisjonen er nå klar til å aktiveres for brukere. Hvis du vil ha mer informasjon, se [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Definere SEPA-kredittoverføring](finance-how-to-set-up-sepa-credit-transfer.md), [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
+ Datautvekslingsdefinisjonen er nå klar til å aktiveres for brukere. Hvis du vil ha mer informasjon, kan du se [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Definere SEPA-kredittoverføring](finance-how-to-set-up-sepa-credit-transfer.md), [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
     Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du eksportere datautvekslingsdefinisjonen som en XML-fil som kan brukes til å aktivere import av den aktuelle datafilen raskt. Dette er beskrevet i følgende fremgangsmåte.  
 

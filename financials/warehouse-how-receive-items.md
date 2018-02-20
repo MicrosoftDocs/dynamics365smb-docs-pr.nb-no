@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 34960041320f595b504c9f16913db07c1dd3f053
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3e6ab403945df0f3c98ab1d47eefa0633f0172e3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-receive-items"></a>Motta varer
+# <a name="receive-items"></a>Motta varer
 Når varene ankommer et lager som ikke er definert til lagermottaksbehandling, må du ganske enkelt registrere mottaket i det relaterte forretningsdokumentet, for eksempel en bestilling, en ordreretur eller en inngående overføringsordre.
 
-Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket. Hvis du har hyller, kan du godta standardhyllen som fylles ut eller, hvis varen ikke har vært i lageret tidligere, fylle ut hyllen der varen skal plasseres. Deretter må du fylle ut antall barer du har mottatt, og bokføre mottaket.  
+Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket. &#160:Hvis du har hyller, kan du godta standardhyllen som fylles ut eller, hvis varen ikke har vært i lageret tidligere, fylle ut hyllen der varen skal plasseres. Deretter må du fylle ut antall barer du har mottatt, og bokføre mottaket.  
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Slik mottar du varer med bestilling
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for ordrereturer og overføringsordrer.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende bestilling eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. I feltet **Motta (antall)** angir du det mottatte antallet.
 
@@ -34,7 +34,7 @@ Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten e
 4. Velg handlingen **Bokfør**.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Slik mottar du varer med et lagermottak
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  

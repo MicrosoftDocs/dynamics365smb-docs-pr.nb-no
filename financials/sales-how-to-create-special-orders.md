@@ -11,13 +11,13 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c7e5d7cda12abd94a999031af3bc8d505b7f6c5e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2ebd7ed1c2ae9426b481edabbb8e4957073a5d21
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-special-orders"></a>Opprette spesialbestillinger
+# <a name="create-special-orders"></a>Opprette spesialbestillinger
 Du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde. Leverandøren din leverer varen til lageret ditt, og du kan deretter sende bare denne varen videre til kunden eller sammen med andre varer i en annen ordre.  
 
 Spesialbestillinger betyr at bestillingen og ordren er knyttet til hverandre for å sikre at den bestemte katalogvaren plukkes og leveres til kunden.  
@@ -25,12 +25,12 @@ Spesialbestillinger betyr at bestillingen og ordren er knyttet til hverandre for
 Før du kan bruke denne funksjonen, må du først konfigurere kunden, leverandøren og de varekortene som kreves for ordren.  
 
 ## <a name="to-create-a-special-order"></a>Slik oppretter du en spesialbestilling  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordre**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Opprett og fyll ut en  ordre for varen. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3.  På hurtigfanen **Linjer** fyller du inn salgslinjen. Velg en kjøpskode som **Spesialbestilling**-feltet er valgt for, i **Kjøpskode**-feltet.
 
     Du må nå opprette en bestilling fra et bestillingsforslag.  
-4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.  
 5. Velg **Spesialbestilling**-handlingen, og velg deretter **Hent ordre**-handlingen.  
 6.  Vis resultater der **Bilagsnr.** er ordrenummeret, i **Hent ordrer**-vinduet. Velg **OK**-knappen. Det opprettes en bestillingsforslagslinje for varen.  
 7.  På bestillingsforslagslinjen velger du **Ny** i feltet **Handlingsmelding**.  

@@ -1,6 +1,6 @@
 ---
-title: Avbryte Dynamics 365 Business edition | Microsoft-dokumentasjon
-description: Beskriver hvordan du fjerner eller sletter Dynamics 365 Business edition-opplevelsen.
+title: Avbryte Finance and Operations, Business edition | Microsoft-dokumentasjon
+description: Beskriver hvordan du fjerner eller sletter Finance and Operations, Business edition-opplevelsen.
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,13 +11,13 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 384131512a815743db7ae654542b0e7ee70bf64a
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4527b40a22ccd12f3fbbeb78c03c8109a8dd0707
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="unsubscribe-remove-or-reset-included365finlongincludesd365finlongmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du har registrert deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du velge å avbryte abonnementet når som helst. Du kan også velge å tilbakestille firmaet som kan bruke i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha en rask oversikt, kan du se [bloggen for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel).  
 
 ## <a name="unsubscribing-by-removing-included365finincludesd365finmdmd-from-your-office-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Office 365-opplevelsen

@@ -13,20 +13,20 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: a49e50213f808fb72b43dfa22a34833b306ef12d
-ms.openlocfilehash: e9d08040932be4fec5ddefb5db69e453c375d3c6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-count-adjust-and-reclassify-inventory"></a>Telle, justere og reklassifisere lagerbeholdning
+# <a name="count-adjust-and-reclassify-inventory"></a>Telle, justere og reklassifisere lagerbeholdning
 Minst én gang hvert regnskapsår må du utføre en vareopptelling, det vil si telle alle varer på lager, for å se om antallet som er registrert i databasen, er det samme som det faktiske antallet i lageret. Når det faktiske antallet er funnet, må det bokføres i Finans som en del av verdifastsettelsen av lageret ved periodens avslutning.
 
 Selv om du teller alle varene i beholdningen minst én gang i året, kan du ha bestemt deg for å telle noen varer oftere, kanskje fordi de er mer verdifulle eller fordi de har rask omløpstid og utgjør en stor del av forretningene. Hvis du vil gjøre dette, kan du tilordne spesielle opptellingsperioder til disse varene. Hvis du vil ha mer informasjon, kan du se delen «Slik utfører du syklustelling».
 
 Hvis du har bruk for å justere registrerte lagerantall, i forbindelse med opptellinger eller til andre formål, kan du bruke en varekladd til å endre lagerpostene direkte, uten å bokføre forretningstransaksjoner. Du kan også justere for én vare på varekortet.
 
-Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifiseringskladden. Attributter som ofte reklassifiseres, er dimensjoner og salgskampanjekoder, men du også utføre systemoverføringer ved å reklassifisere hylle- og lokasjonskoder. Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
+Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifiseringskladden. Attributter som ofte reklassifiseres, er dimensjoner og salgskampanjekoder, men du også utføre systemoverføringer ved å reklassifisere hylle- og lokasjonskoder. Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
 > Varene er registrert i hyller som lagerposter, ikke vareposter, i et avansert lageroppsett. Derfor kan utføre du telle, justere og reklassifisere i spesielle lagerkladdene som støtter hyller. Deretter bruke du spesielle for å synkronisere nye eller endrede lagerposter med de relaterte varepostene å utføre endringene i antall og verdier. Dette beskrives i en bestemt fremgangsmåtene nedenfor der det er relevant.
@@ -99,7 +99,7 @@ Ansatte kan nå fortsette med å telle lagerbeholdningen og registrere eventuell
     De relaterte feltene oppdateres tilsvarende.
 
     > [!NOTE]  
->   Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden. Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene. Hvis du vil ha mer informasjon, se Varereklassif.kladd eller Opprette overføringsordrer.
+>   Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden. Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene. Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.
 
 2. Hvis du vil justere beregnet antall til faktisk opptalt antall, velger du handlingen **Bokfør**.
 
@@ -211,7 +211,7 @@ Med passende mellomrom, som defineres av selskapets prinsipper, må du bokføre 
 ## <a name="to-reclassify-an-items-lot-number"></a>Reklassifisere partinummeret for en vare
 Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifiseringskladden. Attributter som ofte reklassifiseres, er dimensjoner og salgskampanjekoder, men du også utføre systemoverføringer ved å reklassifisere hylle- og lokasjonskoder.
 
-Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
+Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 Eksempelet nedenfor er basert på en lokasjonskode. Fremgangsmåten er den samme som for andre typer vareattributter.
 

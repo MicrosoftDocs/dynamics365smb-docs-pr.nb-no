@@ -1,6 +1,6 @@
 ---
 title: Plukke varer | Microsoft-dokumentasjon
-description: "Lageraktiviteten med å plukke varer før de er leveres eller forbrukes, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp. [setup](../configure-warehouse-processes.md) kompleksitet kan variere fra ingen lagerfunksjoner, via grunnleggende lagerkonfigurasjoner der bestilling for bestilling behandles ved hjelp av bare en eller flere aktiviteter, til avanserte oppsett der alle lageraktiviteter utføres i en styrt arbeidsflyt."
+description: "Lageraktiviteten med å plukke varer før de er leveres eller forbrukes, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp. [Oppsettets](../configure-warehouse-processes.md) kompleksitet kan variere fra ingen lagerfunksjoner, via grunnleggende lagerkonfigurasjoner der bestilling for bestilling behandles ved hjelp av bare en eller flere aktiviteter, til avanserte oppsett der alle lageraktiviteter utføres i en styrt arbeidsflyt."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 13db47dcfcc7eb6d30230490baa5ac961fc825a8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 132408d095edbfa1a60577cdd19022920088670b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="pick-items"></a>Plukke varer
@@ -40,7 +40,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Plukke varer for flere ordrer i et avansert lageroppsett.|[Plukke varer med lagerplukk](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
 |Plukke komponenter for produksjon eller montering i et enkelt eller avansert lageroppsett.|[Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md)|  
 |Planlegge optimaliserte plukkinstruksjoner for flere leveringer, i stedet for at lagermedarbeiderne skal gjøre dette i de aktuelle, bokførte leveringene.|[Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)|  
-|Plukke varer til et bestemt formål, for eksempel en produksjonsenhet som har bruk for flere komponenter, på en slik måte at varene teknisk sett ikke forlater lageret.|[Plukke og plassere uten et kildedokument.](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
+|Plukke varer til et bestemt formål, for eksempel en produksjonsenhet som har bruk for flere komponenter, på en slik måte at varene teknisk sett ikke forlater lageret.|[Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Forstå hvordan du plukker varer automatisk i henhold til utløpsdatoen, for eksempel varer som ikke kan oppbevares over lang tid.|[Plukking etter FEFO](warehouse-picking-by-fefo.md)|
 |Del en plukklinje i flere linjer, for eksempel fordi det ikke er nok varer å ta fra den angitte hyllen.|[Dele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Få tilgang umiddelbart til plukkinger som er tilordnet til deg som lagermedarbeider.|[Finne lageroppgavene dine](warehouse-how-to-find-your-warehouse-assignments.md)|  

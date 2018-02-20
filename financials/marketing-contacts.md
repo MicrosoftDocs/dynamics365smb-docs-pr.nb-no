@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: f6c9b936bdd6e8b1495aaa609f3a6eaac4095ab3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9e56d4a2b609aabcd10e7ad30280a44184ca0965
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="creating-and-managing-contacts"></a>Opprette og administrere kontakter
@@ -37,5 +37,5 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Sette opp forbindelser](marketing-setup-marketing.md)  
-[Arbeide med Dynamics 365](ui-work-product.md)  
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)  
 

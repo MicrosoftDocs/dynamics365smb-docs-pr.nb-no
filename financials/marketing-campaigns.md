@@ -1,6 +1,6 @@
 ---
-title: "Sette opp markedsføringskampanjer i Dynamics 365| Microsoft-dokumentasjon"
-description: "Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Dynamics 365 for å identifisere og trekke til deg prospekter og beholde kunder."
+title: "Sette opp markedsføringskampanjer i Finance and Operations, Business edition | Microsoft-dokumentasjon"
+description: "Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Finance and Operations, Business edition for å identifisere og trekke til deg prospekter og beholde kunder."
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 06/06/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7ca0479ba1872600356ec5b10bf9492fef87a857
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 4ca4fc6eee45c69be3de746ce1d799a481d7ea48
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
@@ -39,7 +39,7 @@ Når du har definert kampanjen, bestemt hvilke segmenter du vil kampanjen skal d
 > [!NOTE]  
 >   For å kunne aktivere salgsprisene/linjerabattene, må du angi om hele segmentet eller bare noen kontakter er mål for kampanjen. Hvis salgsprisene/linjerabattene dekker alle kontaktene i segmentet, merker du av for **Kampanjemål**-feltet på hurtigfanen **Kampanje** på **Segment**-kortet.
 
-Hvis salgsprisene/linjerabattene ikke skal tilbys alle kontaktene i segmentet, kan du fjerne merket for **Kampanjemål**-feltet for de relavante kontaktene. Hvis du ikke ser dette feltet, kan du legge det til i visningen. Hvis du vil ha mer informasjon, kan du se [Brukertilpasning](ui-user-personalization.md).
+Hvis salgsprisene/linjerabattene ikke skal tilbys alle kontaktene i segmentet, kan du fjerne merket for **Kampanjemål**-feltet for de relavante kontaktene. Hvis du ikke ser dette feltet, kan du legge det til i visningen. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet ](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Utføre kampanjer
 Mens en kampanje kjører, registreres all samhandling med kontaktene eller segmentet, slik at du kan få statistikk og annen informasjon om kostnader og hvor vellykket kampanjen er.
@@ -50,5 +50,5 @@ Kampanjer utføres av selgere, og du må opprette aktiviteter for å representer
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med Dynamics 365](ui-work-product.md)  
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)  
 

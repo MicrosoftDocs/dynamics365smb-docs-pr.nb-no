@@ -13,16 +13,16 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 06/28/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: bab124ecc4d98886e41fbee3af00d4913435c993
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: db8f59a71b8a6afa26e878e189f8cb2ef85685e5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
+# <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til å utføre betalinger til leverandører eller refusjoner til de ansatte, kan du eksportere en fil med betalingsinformasjonen for linjene i vinduet **Betalingskladd**. Du kan deretter laste opp filen til banken for å behandle de relaterte pengeoverføringene.
 
-I den generelle versjonen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I Nord-Amerika versjoner, den samme tjenesten som kan brukes til å sende betalinger som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i den "for eksport av betalinger til en bankfil".    
+I den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I Nord-Amerika versjoner, den samme tjenesten som kan brukes til å sende betalinger som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i den "for eksport av betalinger til en bankfil".    
 
 > [!NOTE]  
 >   Før du kan eksportere betalingsfiler fra betalingsjournalen, må du angi det elektroniske formatet for bankkontoen som er involvert, og du må aktivere konverteringstjenesten for bankdata. Hvis du vil ha mer informasjon, kan du se [Opprette bankkonti](bank-how-setup-bank-accounts.md) og [Konfigurere Envestnet Yodlee Bank Feeds](bank-how-setup-bank-data-conversion-service.md). I tillegg må du merke av for **Tillat betalingseksport** i vinduet **Finanskladder**. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
@@ -30,8 +30,8 @@ I den generelle versjonen av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md
 Du bruker vinduet **Kredittoverføringsregistre** til å vise betalingsfilene som er eksportert fra betalingskladden. Fra dette vinduet kan du også eksportere betalingsfiler på nytt ved tekniske feil eller endringer. Vær oppmerksom på at eksporterte EFT-filer vises ikke i dette vinduet, og kan ikke være eksportert på nytt.  
 
 ## <a name="to-export-payments-to-a-bank-file"></a>Slik eksporterer du betalinger til en bankfil:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
-2. Fyll ut utbetalingskladdelinjer, for eksempel ved hjelp av funksjonen **Betalingsforslag - leverandør**. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md).
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.
+2. Fyll ut utbetalingskladdelinjer, for eksempel ved hjelp av funksjonen **Betalingsforslag - leverandør**. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).
 3. Fyll ut feltene på betalingskladdelinjene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -82,13 +82,11 @@ Du kan eksportere betalingsfiler på nytt fra vinduet **Kredittoverføringsregis
 > [!NOTE]  
 >   Eksporterte EFT-filer vises ikke i vinduet **Kredittoverføringsregistre** og kan ikke eksporteres på nytt.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kredittoverføringsregistre**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kredittoverføringsregistre**, og velg deretter den relaterte koblingen.
 2. Velg en betalingseksport som du vil eksportere på nytt, og velg deretter **Eksporter betaling til fil på nytt**.
 
 ## <a name="see-also"></a>Se også
 [Kjøp](payables-manage-payables.md)  
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 

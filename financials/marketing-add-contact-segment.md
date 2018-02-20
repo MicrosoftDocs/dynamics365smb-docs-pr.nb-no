@@ -13,17 +13,17 @@ ms.search.keywords: marketing, campaign, promo, prospect, contact, client, custo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: 1385b97ef7d6a27a62cb347521b61f5853a0618c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 02e72507a2118cf279be156774079be70d5ede43
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-add-contacts-to-segments"></a>Legge til kontakter i segmenter
+# <a name="add-contacts-to-segments"></a>Legge til kontakter i segmenter
 Etter at du har opprettet et segment og angitt grunnleggende opplysninger om segmentet, kan det være du vil legge til kontakter i segmentet. Dette kan du gjøre ved å fylle ut linjene manuelt i vinduet **Segment**, men det enkleste og raskeste er å bruke handlingen **Legg til kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Slik legger du til en kontakt i et segment:
-1. Velg **Aktive segmenter** på Hjem-siden. Eller velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Segmenter**, og velg deretter den relaterte koblingen.  
+1. Velg **Aktive segmenter** på Hjem-siden. Eller velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Segmenter**, og velg deretter den relaterte koblingen.  
 2. Velg segmentet, og velg deretter handlingen **Legg til kontakter**. Vinduet for kjørselen **Legg til kontakter** åpnes.
 3. I inndelingen **Kontakt** definerer du filtre for å angi opplysningene du vil velge kontakter etter.
 

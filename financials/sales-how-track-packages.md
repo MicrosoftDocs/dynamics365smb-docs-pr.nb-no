@@ -12,17 +12,17 @@ ms.search.keywords: rfq
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 232c49ac8f050ad6f7d5319a5e1560e515d9bcd8
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f417dfb86ff223902c175d6be4b3d967faa3d773
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-track-packages"></a>Spore pakker
-En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Se [Definere transportører](sales-how-to-set-up-shipping-agents.md) for mer informasjon.
+# <a name="track-packages"></a>Spore pakker
+En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md).
 
 ## <a name="to-track-a-package"></a>Slik sporer du pakker
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Følgesedler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Følgesedler**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle leveringen.
 3. I feltet **Pakkesporingsnr.** angir du pakkenummeret du har mottatt fra transportøren.
 4. Velg handlingen **Pakkesporing**.

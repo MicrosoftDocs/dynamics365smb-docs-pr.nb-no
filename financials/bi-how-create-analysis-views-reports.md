@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: b2efb52ce874643fffc0af805fc7ff0dac792462
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-#  <a name="how-to-create-analysis-reports"></a>Opprette analyserapporter
+#  <a name="create-analysis-reports"></a>Opprette analyserapporter
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi.  
 
 Du kan bruke analyserapportene til å opprette tilpassede rapporter basert på poster med de bokførte transaksjonene, for eksempel salg, kjøp, overføring og lagerjusteringer. I en tilpassbar rapport kan kildedataene, som utledes fra varepostene (med tilknyttede verdiposter), kombineres, sammenlignes og presenteres på relevante, brukerdefinerte måter. På denne måten er analyserapporten svært lik en pivottabellrapport i Microsoft Excel.  
@@ -41,9 +41,6 @@ Deretter kan du definere kolonner som disse:
 - Salg inneværende måned  
 - Salg forrige måned  
 - Salg i prosent forrige måned  
-
-> [!NOTE]  
->   Denne funksjonen krever at opplevelsen er satt til **Suite**. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
  I **Analyserapport**-vinduet kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler i vinduet **Maler for analyselinje**. I dette vinduet kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine i tabellen **Maler for analysekolonne**. I dette vinduet kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten i vinduet **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  

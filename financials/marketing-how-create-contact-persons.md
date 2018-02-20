@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 208c49d0f86ae0a3c8ef4db8008fa2995f77e674
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2bb49ed17db6a4b6f7eafef76c9109e2652fa76b
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-persons"></a>Opprette kontaktpersoner
+# <a name="create-contact-persons"></a>Opprette kontaktpersoner
 Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskapene du utfører samhandlinger med. For hvert kontaktselskap kan du angi så mange kontaktpersoner du vil. Du kan også opprette kontaktkort for personer du vil registrere som uavhengige.
 
 > [!TIP]  
@@ -40,8 +40,8 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 ## <a name="see-also"></a>Se også
 [Sette opp forbindelser](marketing-setup-marketing.md)  
 [Tilordne postgrupper til en kontakt:](marketing-mailing-groups.md#AssignMailGroupContact)  
-[Definere ansvarsområder for kontakter](marketing-job-responsibilities.md)  
+[Definere ansvarsområder på kontakter](marketing-job-responsibilities.md)  
 [Definere organisasjonsnivåer for kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
-[Arbeide med Dynamics 365](ui-work-product.md)  
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)  
 

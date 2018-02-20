@@ -1,6 +1,6 @@
 ---
-title: Importere gamle forretningsdata til Dynamics 365 | Microsoft-dokumentasjon
-description: "Du kan overføre data for kunder, leverandører og lager, for eksempel fra Excel, QuickBooks eller Dynamics GP, til Dynamics 365."
+title: Importere gamle forretningsdata til Finance and Operations, Business edition | Microsoft-dokumentasjon
+description: "Du kan overføre data for kunder, leverandører og lager, for eksempel fra Excel, QuickBooks eller Dynamics GP, til Finance and Operations, Business edition."
 author: edupont04
 ms.service: dynamics365-financials
 ms.topic: article
@@ -11,10 +11,10 @@ ms.search.keywords: QuickBooks, transfer, import, migrate, initialize, implement
 ms.date: 09/25/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 3f1df4bf771586c5e3e4d79d23c26051bf19c763
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f1339468507efc474c709f35fa04d61ca7e5b9a2
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
@@ -22,7 +22,7 @@ Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du 
 
 Fra Hjem kan du starte en assistert oppsettsveiledning som hjelper deg med å overføre til forretningsdata fra en Excel-fil eller fra andre formater. Filtypene du kan laste opp, avhenger av utvidelsene som er tilgjengelige. Du kan for eksempel overføre opp data fra QuickBooks fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en utvidelse som håndterer konverteringen fra QuickBooks. Hvis du vil overføre data fra andre økonomiløsninger, må du kontrollere om en utvidelse er tilgjengelig for denne løsningen eller importere fra Excel.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder maler for kontoer, kunder, leverandører og lagervarer, som du kan velge å bruke når du importerer dataene.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder maler for kontoer, kunder, leverandører og lagervarer, som du kan velge å bruke når du importerer dataene.  
 
 ## <a name="importing-data-from-quickbooks-desktop-quickbooks-online-or-dynamics-gp"></a>Importere data fra QuickBooks Desktop, QuickBooks Online eller Dynamics GP
 Hvis virksomheten din bruker QuickBooks eller Dynamics GP i dag, kan du eksportere relevant informasjon til en fil. Du kan deretter åpne den assistert oppsettsveiledningen for å overføre dataene.
@@ -33,7 +33,7 @@ Det assisterte oppsettet inneholder et alternativ for å endre standardkonfigura
 Hvis du vil ha mer informasjon, se [Datamigrering for QuickBooks Desktop](ui-extensions-quickbooks-data-migration.md), [Datamigrering for QuickBooks Online](ui-extensions-quickbooks-online-data-migration.md) og [Datamigrering for Dynamics GP](ui-extensions-dynamicsgp-data-migration.md).  
 
 ## <a name="importing-data-from-configuration-packages"></a>Importere data fra konfigurasjonspakker
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer en konfigurasjonspakke som du kan eksportere til Excel og definere dataene der. Deretter kan du importere dataene fra Excel på nytt. Pakken består av 27 tabeller, inkludert hoveddata som kunder, leverandører, varer, og kontoer, andre grunnleggende oppsettstabeller, for eksempel frakt og transaksjonerstabeller, som salgshode og linjer.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  inkluderer en konfigurasjonspakke som du kan eksportere til Excel og definere dataene der. Deretter kan du importere dataene fra Excel på nytt. Pakken består av 27 tabeller, inkludert hoveddata som kunder, leverandører, varer, og kontoer, andre grunnleggende oppsettstabeller, for eksempel frakt og transaksjonerstabeller, som salgshode og linjer.  
 
 > [!NOTE]  
 >   Arbeide med konfigurasjonspakker er avanserte funksjoner, og vi anbefaler at du kontakter systemansvarlig. For mer informasjon, se [Importere data fra eldre regnskapsprogramvare ved hjelp av en konfigurasjonspakke](across-import-data-configuration-packages.md).  
@@ -47,5 +47,6 @@ Hvis du vil ha mer informasjon, se [Datamigrering for QuickBooks Desktop](ui-ext
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)   
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

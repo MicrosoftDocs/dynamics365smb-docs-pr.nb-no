@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c66fc5da322ddb1d217b61da0b563faab27b344e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 25319bae1d601d6beddca35cf8edc032ac11eda6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
@@ -34,7 +34,7 @@ Denne gjennomgangen beskriver følgende oppgaver:
 ### <a name="prerequisites"></a>Forutsetninger  
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installert.  
+- [!INCLUDE[d365fin](includes/d365fin_md.md)]  installert.  
 - Forslagslinjene for kontantstrøm registreres.  
 
 ## <a name="roles"></a>Roller  
@@ -50,7 +50,7 @@ Et kontoskjema består av et navn på kontoskjemaet for kontantstrøm med en rek
 
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Slik definerer du et nytt kontoskjemanavn  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny** i vinduet **Kontoskjemanavn** for å opprette et nytt navn for kontantstrømkontoskjema..  
 3.  I **Navn**-feltet angir du **Prognose**.  
 4.  I **Beskrivelse**-feltet angir du **Kontantstrømprognose**.  

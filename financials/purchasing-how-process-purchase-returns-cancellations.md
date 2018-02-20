@@ -13,13 +13,13 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: aa56764b5f3210229ad21eae6891fb201462209c
-ms.openlocfilehash: 114448607d8b99252573912d2df08f91e1d27c76
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 9a746de45bc6878d15e879e623c6a65539943be3
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
+# <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 Hvis du vil returnere varer til leverandøren eller avbryte tjenester du har kjøpt, kan du opprette og bokføre en kjøpskreditnota som angir den ønskede endringen med hensyn til den opprinnelige kjøpsfakturaen. For å inkludere den riktige kjøpsfakturainformasjonen kan du opprette kjøpskreditnotaen direkte fra den bokførte kjøpsfakturaen, eller du kan opprette en ny kjøpskreditnota med kopiert fakturainformasjon.
 
 Hvis du trenger mer kontroll over returprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt ved tilbakelevering av varer fra flere kjøpsdokumenter med én bestillingsretur, kan du opprette bestillingsreturer. En bestillingsretur utsteder automatisk den relaterte kjøpskreditnotaen. Hvis du vil ha mer informasjon, kan du se delen "Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter".

@@ -1,1 +1,1 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva kommer, kan du se den [Microsoft Dynamics 365-veikart](https://go.microsoft.com/fwlink/?linkid=842139).
+Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva som kommer, kan du se [veikartet for Microsoft Dynamics 365 for Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=842139).

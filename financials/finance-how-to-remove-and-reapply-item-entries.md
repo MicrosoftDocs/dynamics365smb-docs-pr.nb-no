@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 5ca921ba6c8ced04899b3a8cc2cd2db91e4d69a3
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 12bde7fc508bb29e56ad63d76b526a80b5073f03
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
+# <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
 I vinduet **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
 
 Når du bokfører en transaksjon der varer går inn på eller ut av lageret, blir det opprettet en vareutligning mellom hver lagerøkning og lagerreduksjon. Disse utligningene fastsetter kostflyten fra varene som mottas på lageret, til kosten for varer som går ut av lageret. På grunn av måten som enhetskostbeløpet beregnes på, kan en feil vareutligning føre til en skjev gjennomsnittskost og en skjev enhetskost. Hvis du vil ha mer informasjon, kan du se Designdetaljer: Vareutligning.
@@ -43,7 +43,7 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
     - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Slik fjerner du en vareutligning med utligningsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Vinduet **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
 3.  Angi filtre på hurtigfanen **Generelt** for å gjøre det enklere å finne vareposten du vil endre bruken for.  
 4.  Velg vareposten, og velg deretter handlingen **Utlignede poster**. Vinduet **Vis utlignede poster – utlignede poster** åpnes med vareposten(e) som utlignes mot den valgte posten.  
@@ -59,7 +59,7 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 >  **Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen <item> er opphevet i Utligningsforslag av brukeren <user>.**  
 
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Slik bruker du en vareutligning på nytt med utligningsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Vinduet **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
 3.  Hvis du vil utligne poster som ble fjernet siden forslaget ble åpnet, på nytt, velger du varepost du vil utligne på nytt. I fanebladet **Handlinger**, under **Funksjoner** velger du **Utligne på nytt**.  
 

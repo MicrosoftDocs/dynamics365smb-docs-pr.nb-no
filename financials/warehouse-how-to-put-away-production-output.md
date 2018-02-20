@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9555f2810e82711c9cac98cfe002cb99289ce474
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 38a37195932d1f00928c10e86fa19425eb228f5f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
+# <a name="put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
 Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
 I grunnleggende lageroppsett hvor lokasjonen krever plasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å organisere og registrere plasseringen av avgang.  
@@ -29,14 +29,14 @@ I avanserte lageroppsett hvor lokasjonen krever både plasserings- og mottaksbeh
 Det første trinnet ved opprettelse av plasseringsavgang, er å opprette den inngående lagerforespørselen. Denne forespørselen informerer lageret om at produksjons- eller monteringsordreavgangen er klar til å plasseres.
 
 ## <a name="to-create-the-inbound-warehouse-request"></a>Slik oppretter du den inngående lagerforespørselen  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
 2.  På produksjonsordren som er klar til plassering, velger du handlingen **Opprett inngående lagerforespørsel**.  
 
 > [!NOTE]  
->  Du kan også opprette den inngående lagerforespørselen ved å merke av for **Opprett inngående foresp.** når du fornyer produksjonsordren. Hvis du vil ha mer informasjon, se [Slik fornyer eller planlegger du på nytt produksjonsordrer](production-how-to-replan-refresh-production-orders.md).  
+>  Du kan også opprette den inngående lagerforespørselen ved å merke av for **Opprett inngående foresp.** når du fornyer produksjonsordren. Hvis du vil ha mer informasjon, se [Fornye eller planlegge produksjonsordrer på nytt](production-how-to-replan-refresh-production-orders.md).  
 
 ## <a name="to-put-output-away-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerplassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerplassering**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ny lagerplassering. Hvis du vil ha mer informasjon, kan du se [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du får tilgang til produksjonsordreavgang ved å velge handlingen **Hent kildedokumenter** og deretter velge den frigitte produksjonsordren.  
 4.  Fyll ut plasseringslinjene.
@@ -49,7 +49,7 @@ Når du bokfører en lagerplassering, antas det at alle operasjonene bokføres i
 Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen, kan du sette avgangsantallet i den siste operasjonen til 0. Du kan også velge ikke å bokføre den siste linjen i det hele tatt ved å slette den.  
 
 ## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Slik plasserer du avgang med intern plassering eller flytting
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut hodet til den nye interne plasseringen med minst feltet **Lokasjonskode**.  
 4. Fyll ut en linje for hver vare du vil flytte til lageret. Du trenger bare å fylle ut feltene **Varenr.** og **Antall**.  
@@ -64,7 +64,7 @@ Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen
 >  Når lagerlokasjonen er definert til å bruke lagerstyring, er lageret koblet til produksjonsfunksjonen gjennom standardproduksjonshyllene: Dette er de inngående, utgående og åpne produksjonshyllene, som alle defineres på hurtigfanen **Hyller** på lokasjonskortet. Når du bokfører avgangen til en produksjonsordre, plasseres avgangen i den **utgående produksjonshyllen**. Du følger samme fremgangsmåte som den beskrevet ovenfor, til å plassere produksjonsavgangen, bortsett fra at i stedet for å bruke varens standardhylle vil du flytte eller plassere varene fra den **utgående produksjonshyllen** til varens standardhylle.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Angi en hylle for plassering av varer fra produksjonsavgang manuelt  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut hodet, og opprett en linje for hver vare du vil flytte til lageret.  
 3.  Fyll ut både feltet **Fra hylle-kode** og feltet **Til hylle-kode**, og angi antallet i feltet **Antall**.  
 4.  Hvis du vil fylle ut forslagslinjene med hele hylleinnholdet eller det filtrerte hylleinnholdet i hyller i lokasjonen, velger du handlingen **Hent hylleinnhold**.  

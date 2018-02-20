@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/22/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 326c7931cc0217c72ede62d5516dba5f4ee6fa32
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: f9672af6dc4f87f52773a91c587f60c6afe98b8f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
+# <a name="work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
 Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet i **Varesporingslinjer**-vinduet.
 
 Matrisen over antallsfelt øverst i vinduet **Varesporingslinjer** gir en oversikt over antallene og summene til varesporingsnumrene som defineres på linjene. Antallene må samsvare med dem som finnes i dokumentlinjen, som er indikert med en 0 i **Udefinert**-feltene.
@@ -57,7 +57,7 @@ Hvis du arbeider i vinduet **Varesporingslinjer** i en lang periode, eller hvis 
 ## <a name="to-set-up-item-tracking-codes"></a>Slik definerer du en varesporingskode
 En varesporingskode viser hvordan et selskap bruker serie- og partinumre til å holde styr på varer på forskjellige steder i lageret.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varesporingskoder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varesporingskoder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I hurtigfanene **Serienr.** og **Partinr.** definerer du hvordan varesporing etter henholdsvis serie- eller partinumre skal foregå.  
@@ -75,7 +75,7 @@ Du ønsker kanskje å opprette bestemte utløpsdatoer og -regler for enkelte var
 
 ### <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Slik setter du opp garantier for serie-/partinumre  
 Du ønsker kanskje å opprette bestemte garantier for enkelte varer i varesporingskoden. Denne funksjonen gjør det mulig å holde oversikt over når garantiene for bestemte serie- eller partinumre i lageret utløper.        
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varesporingskoder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varesporingskoder**, og velg deretter den relaterte koblingen.  
 
 1. Velg en eksisterende varesporingskode, og velg deretter **Rediger**-handlingen.  
 2.  På hurtigfanen **Div.** fyller du ut feltet **Garantidatoformel** og velger avmerkingsboksen som følger.  
@@ -98,7 +98,7 @@ Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnum
 6. Merk av for **Sperret** for å utelate serie- eller partinummeret fra alle transaksjoner.  
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Slik endrer du eksisterende informasjon om serie- eller partinumre  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2. Velg en vare som har en varesporingskode, og som har informasjon om serie- eller partinumre.
 3. Fra **Varekort**-vinduet velger du **Poster** og deretter **Poster**.
 4. Velg feltet **Partinr.** eller **Serienr.** Hvis det finnes informasjon for dette varesporingsnummeret, åpnes vinduet **Informasjonsoversikt for partinummer** eller **Informasjonsoversikt for serienummer**.  
@@ -115,7 +115,7 @@ Det er oppsettet av vinduet **Kort for varesporingskode** som angir hvordan sels
 > [!NOTE]  
 >  Hvis du vil bruke varesporingsnumre i lageraktiviteter, må oppsettsfeltene **Lagerparti - sporing** og **Lagers.nr. - sporing** være valgt, siden de definerer de spesielle prinsippene i håndtering av serie- og partinumre i lageraktiviteter.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg den aktuelle dokumentlinjen. På hurtigfanen **Linjer** velger du **Linje** og deretter **Varesporingslinjer**.  
 
     Du kan tilordne serie- eller partinumre på følgende måter:  
@@ -197,7 +197,7 @@ Framgangsmåten for håndteringen av serie- og partinumre som overføres mellom 
 Imidlertid er overføringsordren unik på den måten at både levering og mottak gjøres fra samme overføringslinje og derfor bruker samme forekomst av vinduet **Varesporingslinjer**. Dette betyr at varesporingsnumrene som leveres fra en lokasjon, må mottas uendret på den andre lokasjonen.  
 
  Det er oppsettet av tabellen  **Varesporingskode** som angir hvordan selskapet håndterer varesporingsnumre.    
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne overføringsordren du vil behandle. På hurtigfanen **Linjer** velger du **Linje**, velger **Varesporingslinjer** og velger deretter **Levering**.  
 3.  I vinduet **Varesporingslinjer** tilordner eller velger du serie- eller partinumre som for en hvilken som helst annen utgående varetransaksjon.  
 
@@ -235,7 +235,7 @@ Innholdet i feltene **Serienr.** og **Partinr.** kan ikke redigeres. Du kan imid
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Slik reklassifiserer du serie- eller partinumre  
 Å reklassifisere varesporing for en vare betyr å endre et parti- eller serienummer til et nytt parti- eller serienummer eller endre utløpsdatoen til en ny utløpsdato. Hvis du arbeider med partier, kan du også slå sammen flere partier til ett. Du utfører disse oppgavene ved å bruke varereklassifiseringskladden.
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Vareoverføringskladd**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Vareoverføringskladd**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut linjen med de aktuelle opplysningene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md).
 3.  Velg **Varesporingslinjer**.  
 4.  I feltet **Serienr.** eller **Partinr.** velger du gjeldende serie- eller partinummer.  

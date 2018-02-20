@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 0c792dbb7d7261e8f8b89ca4f3d39d875142c4eb
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3ffbe781830a492256be864bace38bbef3050596
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-production-order-headers"></a>Opprette produksjonsordrehoder
+# <a name="create-production-order-headers"></a>Opprette produksjonsordrehoder
 Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.
 
 Produksjonsordrer opprettes vanligvis automatisk etter en planleggingsfunksjonen for å dekke et kjente behov. Hvis du vil ha mer informasjon , kan du se [Planlegging](production-planning.md).   
@@ -27,7 +27,7 @@ Produksjonsordrer opprettes vanligvis automatisk etter en planleggingsfunksjonen
 I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du kan også opprette produksjonsordrer med en annen status.  
 
 ## <a name="to-create-a-production-order-header"></a>Slik oppretter du et produksjonsordrehode  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I feltet **Nr.** -feltet setter du inn neste nummer i serien.  
 4.  I feltet **Kildetype** velger du produksjonsordrens kilde.
@@ -36,7 +36,7 @@ I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du k
 5.  I feltet **Kildenr.** velger du varenummer, familie eller salgshode for produksjonsordren som skal genereres.  
 6.  Fyll ut feltene **Antall** og **Forfallsdato** i henhold til dine spesifikasjoner.  
 
-Når produksjonskrav endres, for eksempel komponenter eller operasjoner, kan du raskt planlegge produksjonsordren på nytt. Hvis du vil ha mer informasjon, se [Slik planlegger du på nytt eller fornyer produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md). 
+Når produksjonskrav endres, for eksempel komponenter eller operasjoner, kan du raskt planlegge produksjonsordren på nytt. Hvis du vil ha mer informasjon, se [Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md). 
 
 ## <a name="see-also"></a>Se også  
 [Produksjon](production-manage-manufacturing.md)    

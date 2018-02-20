@@ -13,22 +13,22 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
-ms.openlocfilehash: da87c427033d58d92a6a5222bc323c68c4bc3f4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 64511e0979671d13740bd18d95d53e8e37564583
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-categorize-items"></a>Kategorisere varer
+# <a name="categorize-items"></a>Kategorisere varer
 For å holde oversikt over varene og hjelpe deg med å sortere og søke etter varer, er det nyttig å kunne organisere dem i varekategorier.
 
 Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter til varer og også varekategorier. Hvis du vil ha mer informasjon, kan du se [Arbeide med vareattributter](inventory-how-work-item-attributes.md).
 
 ## <a name="to-create-an-item-category"></a>Slik oppretter du en varekategori:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varekategorier**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekategorier**, og velg deretter den relaterte koblingen.
 2. I vinduet **Varekategorier** velger du handlingen **Ny**.
 3. Fyll ut følgende felt på hurtigfanen **Generelt** i vinduet **Varekategorikort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. I **Attributter**-hurtigfanen angir du hvilke som helst vareattributter for varekategorien. Hvis du vil ha mer informasjon, kan du se "Slik tilordner du vareattributter til en varekategori" i [Arbeide med vareattributter](inventory-how-work-item-attributes.md).
+4. I **Attributter**-hurtigfanen angir du hvilke som helst vareattributter for varekategorien. Hvis du vil ha mer informasjon, kan du se Slik tilordner du vareattributter til en varekategori i [Arbeide med vareattributter](inventory-how-work-item-attributes.md).
 
 > [!NOTE]  
 >   Hvis varekategorien har en overordnet varekategori, som angitt av feltet **Overordnet kategori**, blir vareattributter som er tilordnet til denne overordnede varekategorien, forhåndsutfylt i hurtigfanen **Attributter**.
@@ -37,7 +37,7 @@ Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter 
 >   Vareattributter du tilordner til en varekategori, brukes automatisk på varen som varekategorien er tilordnet til.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Slik tilordner du en varekategori til en vare:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for varen som du vil tilordne til en varekategori.
 3. Velg oppslagsknappen i feltet **Varekategorikode** og velg en eksisterende varekategori. Du kan også velge **Ny**-handlingen for å opprette en ny varekategori først, som forklart under "Slik oppretter du en varekategori".
 

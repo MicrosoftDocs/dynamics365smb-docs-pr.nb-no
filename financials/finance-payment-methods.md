@@ -1,6 +1,6 @@
 ---
 title: "Definere betalingsmåter | Microsoft-dokumentasjon"
-Description: "Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan en faktura skal betales."
+Description: You use payment methods, for example, check, bank transfer, cash, or PayPal, to define how an invoice will be paid.
 services: project-madeira
 documentationcenter: 
 author: edupont04
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 81636fc2e661bd9b07c54da1cd5d0d27e30d01a2
 ms.openlocfilehash: 0c76b481d4a4c49b9cf0db353edaf1e2885fd4d6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsmåter
@@ -25,7 +25,7 @@ Betalingsmåter er knyttet til leverandører for å angi hvordan en faktura fra 
 
 ## <a name="to-set-up-a-payment-methods"></a>Definere betalingsmåter
 Flere vanlige betalingsmåter er allerede definert i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan definere nye betalingsmåter i vinduet **Betalingsmåter**, som du kan finne med søkefunksjonen eller åpne fra feltet **Betalingsmåte** på et leverandør- eller kundekort.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også

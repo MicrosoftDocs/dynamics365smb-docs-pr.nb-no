@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: c0e678b07c1d5ca73808a2abb5631771dce76fd0
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ed0f75f1e0ee8a282b58458e4fed3b4eef7c46fb
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-contact-companies"></a>Opprette kontaktselskaper
+# <a name="create-contact-companies"></a>Opprette kontaktselskaper
 Du kan opprette en kontakt for hvert nytt selskap du utfører en samhandling med, for eksempel kunder, leverandører, prospektive kunder, banker, advokatfirmaer, konsulenter og så videre.
 
 Det er to måter å opprette en kontakt på: fra grunnen av eller fra en eksisterende kunde, leverandør eller bankkonto.
@@ -59,5 +59,5 @@ Hvis du allerede har definert en rekke kunder, leverandører og bankkonti, kan d
 [Tilordne bransjegrupper til en kontakt](marketing-industry-groups.md#AssignIndustryGroupContact)  
 [Tilordne postgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Opprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Arbeide med Dynamics 365](ui-work-product.md)
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)
 

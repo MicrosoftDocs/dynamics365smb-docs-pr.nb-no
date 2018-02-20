@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: cb9a8366dbce67f7fdf3f32d55d7c5a289b9db4e
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: c46e446c4af97e9699b1e454ff0d63173322f81e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
+# <a name="plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
 Hvis lageret er definert til å kreve både plukkbehandling og lagerleveringsbehandling, kan lageret velge å fungere slik at linjene på leveringsdokumentene ikke automatisk blir omgjort til plukkinstrukser, men at de i stedet blir gjort tilgjengelig for plukkforslaget.  
 
 > [!NOTE]  
@@ -39,11 +39,11 @@ Hvis du sorterer etter forfallsdato, kan du velge å slette alle linjer fra fors
 >  Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for montering eller produksjon i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Slik planlegger du plukkinger i forslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Hent lagerdokumenter**.  
 3.  Velg de følgesedlene du vil forberede plukking for. Du kan nå sortere linjene i en viss grad, men sorteringen du utfører her, vil ikke bli overført til plukkinstruksjonen. Du kan også slette noen av linjene for å få en mer effektiv plukking. Hvis det for eksempel finnes et antall linjer med varer i kryssoverføringshyller, er det mulig at du vil opprette en plukking for alle linjene som er knyttet til disse linjene. De kryssoverførte varene vil bli levert (sammen med andre varer på følgesedlene), og kryssoverføringshyllene vil ha plass til flere inngående varer.  
 4.  Velg handlingen **Opprett plukk**, og fyll ut vinduet for **Opprett plukk**-forespørselen. Den sorteringen du ber om her, vil sortere de plukklinjene du oppretter. Du kan for eksempel opprette en plukking for hver sone, og sortere linjene etter hylleprioritering innenfor hver plukking.  
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen. Vinduet **Plukking** åpnes.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen. Vinduet **Plukking** åpnes.  
 6.  Du kan nå finne plukktilordningen du nettopp opprettet, ved å velge plukkingen med det høyeste nummeret.  
 7.  I plukkingen kan du fremdeles endre den tilordnede bruker-IDen og måten linjene er sortert på, hvis det er nødvendig.  
 8.  Velg handlingen **Skriv ut** hvis du vil skrive ut plukkinstruksjonene.  

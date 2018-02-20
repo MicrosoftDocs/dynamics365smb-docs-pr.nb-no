@@ -13,10 +13,10 @@ ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 7eac962e0c9863d8c6ed9bcff19f320687f217ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cee6dcc0c0f4f596b3f63dbafec344875edb4e33
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | --- | --- |
 | Definer koder som automatisk tilordner linjer i servicedokumenter for tjenester du leverer ofte. |[Definere koder for standardservicer](service-how-setup-service-coding.md)|
 | Fastsett generelle innstillinger som styrer aspektene ved servicehåndteringsprosesser.|[Konfigurere serviceprosesser](service-setup-service-processes.md)|
-| Definer hvordan organisasjonen arbeider med feilrapportering. |[Definere feilrapportering](service-how-setup-fault-reporting.md) |
+| Definer hvordan organisasjonen arbeider med feilrapportering. |[Konfigurere feilrapportering](service-how-setup-fault-reporting.md) |
 | Konfigurer servicetilbud som selskapet leverer til kunder.|[Konfigurere servicetilbud](service-how-setup-service-offerings.md)|
 | Angi retningslinjer for feilsøking som kan hjelpe servicerepresentantene å levere raskere. |[Definere feilsøking](service-how-setup-troubleshooting.md) |
 | Definer ressurstildeling for å gjøre det enklere å tilordne riktig ressurs til en serviceoppgave. |[Definere ressurstildeling](service-how-setup-resource-allocation.md) |

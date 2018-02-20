@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 08/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9b41bb902d8a2298f438233ca24c5a7bcf7f69d9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 5c802ee014df6c992a9e5b1e975f2cdc981e3a5a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
 Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt. For å kunne utnytte denne funksjonaliteten fullt ut må du angi tilleggsopplysninger om varene, noe som i neste omgang hjelper å utføre de nødvendige beregningene for å foreslå de mest effektive og praktiske måtene å utføre lageraktiviteter på. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Slik definerer du varer for lagerstyring  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Åpne kortet for varen du vil definere for lagerstyring.
 3. På hurtigfanen **Lager** på varekortet fyller du ut feltene for å definere hvordan varene skal håndteres i lageret.  
 4.  Velg handlingen **Enheter**.
@@ -35,7 +35,7 @@ Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengel
 Lagerstyring gir deg tilgang til avanserte lageroppsettsfunksjoner som forbedrer effektiviteten og datapåliteligheten. Hvis du skal bruke denne funksjonaliteten, må du først definere et antall parametere for lagerlokasjonen.  
 
 Hvis du vil bruke lagerstyring, må du aktivere funksjonaliteten på lokasjonskortet.    
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil bruke lagerstyring, og velg deretter handlingen **Rediger**.  
 3.  På hurtigfanen **Lager** merker du av for **Bruk Lagerstyring**.  
 
@@ -51,7 +51,7 @@ Du kan også definere lagerklassekoder hvis lageret har varer som trenger ulike 
 Du er nå klar til å sette opp sonene, hvis du vil bruke soner i lageret. Hvis du bruker soner, vil det redusere antall felt du må fylle ut når du setter opp hyllene, fordi hyller som er opprettet med soner, arver flere egenskaper fra sonen. Sonene kan gjøre det enklere for nye eller midlertidig ansatte å orientere seg i lageret. Merk at flyt kontrolleres av hyller, det er derfor mulig å operere med hyller og bare én sone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Slik setter du opp en sone i lageret  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
 3.  I vinduet **Soner** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -60,7 +60,7 @@ Når du endrer en soneparameter, vil alle hyllene som opprettes i den aktuelle s
 > [!NOTE]  
 >  Hvis du ikke vil bruke soner, må du likevel opprette én sonekode som er udefinert, bortsett fra koden.  
 
-Neste trinn i oppsettet av lageret er å definere hyller. Se [Definere lokasjoner slik at de bruker hyller](warehouse-how-to-set-up-locations-to-use-bins.md) for å få mer informasjon.  
+Neste trinn i oppsettet av lageret er å definere hyller. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner slik at de bruker hyller](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 I tillegg må du opprette plasseringsmaler og opptellingsperioder. Hvis du vil ha mer informasjon, kan du se [Definere plasseringsmaler](warehouse-how-to-set-up-put-away-templates.md).  
 

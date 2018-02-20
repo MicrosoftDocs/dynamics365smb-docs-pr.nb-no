@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6dc45cfcff07bfb36f363121298cd0f68b9ce7fe
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
@@ -25,7 +25,7 @@ Vinduet **Poster i jobbkø** viser alle eksisterende jobber. Hvis du vil legge t
 
 Hvis du vil, kan du angi et filter i feltet **Filter for jobbkøkategori**. Jobbkøkategorier kan brukes til å gruppere jobber i oversikten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost. Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost. Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.
 
 ### <a name="log-files"></a>Loggfiler
 Feilmeldinger vises i vinduet **Loggposter for jobbkø**, som du får tilgang til fra båndet. Du kan også feilsøke jobbkøfeil. Data som genereres ved kjøring av en jobbkø, lagres i databasen.  
@@ -35,7 +35,7 @@ Jobbkøer er et effektivt verktøy for å planlegge kjøringen av forretningspro
 
  Du kan også planlegge bokføringer for timer når det passer for din organisasjon. I din virksomhet kan det for eksempel være fornuftig å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort. Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringspostrapporter, for eksempel rapportene **Salgsfakturaer - massebokfør**, **Salgskr.notaer - massebokfør** og **Salgskr.notaer - massebokfør**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter bakgrunnsbokføring for følgende dokumenttyper:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter bakgrunnsbokføring for følgende dokumenttyper:  
 
 -   Salg: ordre, ordreretur, kreditnota, faktura  
 
@@ -68,6 +68,6 @@ Når en jobbkø aktiveres automatisk, kjører den med legitimasjonen for brukere
 Jobbkøposten inneholder mange felt som har som formål å sende parametere til en kodeenhet som du har angitt for kjøring sammen med en jobbkø. Dette betyr også at kodeenheter som skal kjøres via jobbkøen må angis med prosjektkøposten som en parameter i **OnRun**-utløseren. Dette gir et ekstra lag av sikkerhet, siden det forhindrer brukere fra å kjøre tilfeldige kodeenheter via jobbkøen. Hvis brukeren må sende parametere til en rapport, kan dette bare gjøres ved å wrappe rapportutførelsen i en kodeenhet, som deretter analyserer inndataparameterne og setter dem inn i rapporten før den utfører den.  
 
 ## <a name="see-also"></a>Se også  
-[Oppsett og administrasjon i Dynamics 365 for Financials](admin-setup-and-administration.md)  
-[Konfigurere Dynamics 365 for Financials](setup.md)  
+[Oppsett og administrasjon i Finance and Operations, Business edition](admin-setup-and-administration.md)  
+[Konfigurere Finance and Operations, Business edition](setup.md)  
 

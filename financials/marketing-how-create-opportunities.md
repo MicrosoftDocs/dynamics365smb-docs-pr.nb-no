@@ -1,6 +1,6 @@
 ---
 title: Opprette salgsmuligheter | Microsoft-dokumentasjon
-description: Beskriver hvordan du oppretter salgsmuligheter fra en selger eller kontakt i Dynamics 365 Business edition.
+description: Beskriver hvordan du oppretter salgsmuligheter fra en selger eller kontakt i Finance and Operations, Business edition.
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,13 +13,13 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 2d280e80be237abb5f2b16b2130f446894497171
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ff4318d9da902847166ac5747adf469584a3d2a2
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-sales-opportunities"></a>Opprette salgsmuligheter
+# <a name="create-sales-opportunities"></a>Opprette salgsmuligheter
 Du kan opprette salgsmuligheter for de salgsmulighetene du har med kontaktene. Alle salgsmulighetene må tilordnes en selger eller en innkjøper, og må ha en kontakt.
 
 Du kan opprette salgsmuligheter i vinduet **Oversikt over salgsmuligheter**. Du oppretter imidlertid vanligvis salgsmuligheter fra bestemte kontakter eller selgere.
@@ -45,5 +45,5 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
-[Arbeide med Dynamics 365](ui-work-product.md)
+[Arbeide med Finance and Operations, Business edition](ui-work-product.md)
 

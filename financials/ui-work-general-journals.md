@@ -12,16 +12,16 @@ ms.workload: na
 ms.date: 07/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: b573bb55c29de329e5d9a804b49a91687dc369ff
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 De fleste finanstransaksjoner bokføres i Finans via dedikerte forretningsdokumenter, for eksempel kjøpsfakturaer eller ordrer. Når det gjelder forretningsaktiviteter som ikke representeres av et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel mindre utgifter eller innbetalinger, kan du opprette de relaterte transaksjonene ved å bokføre kladdelinjer i **Finanskladd**-vinduet. Hvis du vil ha mer informasjon, kan du se [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md).
 
-Du kan for eksempel bokføre ansattes utlegg for firmarelaterte utgifter for senere refusjon. Hvis du vil ha mer informasjon, se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
+Du kan for eksempel bokføre ansattes utlegg for firmarelaterte utgifter for senere refusjon. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 Du bruker finanskladder til å bokføre finanstransaksjoner direkte på finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og ansattkonti. Bokføring med en finanskladd oppretter alltid poster på finanskonti. Dette gjelder selv om en kladdelinje for eksempel bokføres på en kundekonto, ettersom en post bokføres til en finanssamlekonto via en bokføringsgruppe.
 
@@ -51,7 +51,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 >   Den følgende fremgangsmåten dreier seg om varekladden, men informasjonen gjelder også finanskladden.
 
 ### <a name="to-save-a-standard-journal"></a>Slik lagrer du som standardkladd
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.
 2. Legg inn én eller flere kladdelinjer.
 3. Velg kladdelinjene du vil bruke på nytt.
 4. Velg handlingen **Lagre som standardkladd**.
@@ -66,7 +66,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 Når du har lagret standardvarekladden, vises Varekladd-vinduet slik at du kan fortsette med å bokføre den – i forvisning om at den enkelt kan gjenopprettes neste gang du har behov for å bokføre de samme eller lignende linjer.
 
 ### <a name="to-reuse-a-standard-journal"></a>Bruke en standardkladd på nytt
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Hent standardkladder**.
 
     Vinduet Standard varekladder åpnes med koder og beskrivelser for alle eksisterende standard varekladder.
@@ -100,7 +100,7 @@ Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for 
 
 Følgende fremgangsmåte er basert på vinduet **Finanskladd**, men gjelder for alle andre kladder som er basert på finanskladden, for eksempel vinduet **Utbetalingskladd**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Når du er klar til å bokføre kladden, velger du handlingen **Nummerer dokumentnumre på nytt**.
 
 Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du fortsette å bokføre kladden.

@@ -13,17 +13,17 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 1f3a90b9bc9cce2e138e490d3064f6d505a088b9
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: ec7a0c7c34e164b6ca6c8e65938a8c5e53e65514
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-create-bin-contents"></a>Opprette hylleinnhold
+# <a name="create-bin-contents"></a>Opprette hylleinnhold
 Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt i **Hylleinnhold**-vinduet eller automatisk med **Opprett hylleinnholdforslag**-vinduet.
 
 ## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
 3.  Velg hyllen der du vil opprette innhold, og velg deretter **Innhold**-handlingen.  
 4.  For hver vare du vil lagre i hyllen, fyller du ut en linje i vinduet **Hylleinnhold** med den passende informasjonen. Noen av feltene er allerede fylt ut med informasjon om hyllen.  
@@ -56,7 +56,7 @@ Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for
 I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller og dermed få god oversikt over hva du legger i ulike hyller i en gitt sone, passasje eller reol.  
 
 ## <a name="see-also"></a>Se også
-[Beregne etterfylling av hylle](warehouse-how-to-calculate-bin-replenishment.md)    
+[Beregn etterfylling av hylle](warehouse-how-to-calculate-bin-replenishment.md)    
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     

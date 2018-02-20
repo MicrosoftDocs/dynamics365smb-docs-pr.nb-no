@@ -13,13 +13,13 @@ ms.search.keywords: Profile
 ms.date: 06/02/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: 7e49359f29bcb101b2dc16236e9b617962248a67
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 454385cf346510396b7ff154164e4495bb784419
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-change-the-role-center"></a>Endre rollesenteret
+# <a name="change-the-role-center"></a>Endre rollesenter
 Hjemmesiden er hovedportalen til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Her kan du få en oversikt over de daglige arbeidsoppgavene og statusen deres. Oppgaver du utfører ofte får du tilgang til via flisene i innholdsområdet, navigasjonsruten til venstre og handlingene i båndet.
 
 Innholdet på Hjem-siden er basert på det valgte rollesenteret. Standard rollesenter for [!INCLUDE[d365fin](includes/d365fin_md.md)] **Forretningsleder**, men du kan endre dette og velge mellom en rekke rollesentre.

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: ee5ee5d08804439a79f8029eaa25ab7547349a1b
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: e885149e28c2e09dc244bc5c0a431e7b2fe047a5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-batch-post-output-and-run-times"></a>Slik: kjørselen Bokfør avgang og operasjonstid
+# <a name="batch-post-output-and-run-times"></a>Bokføre avgang og operasjonstid
 Avgangsantallet representerer arbeidsframdriften i form av det ferdige antallet.  
 
 > [!NOTE]
 > Bare når du bokfører avgangsantall i den siste operasjonen, oppdateres beholdningen automatisk.  
 
 ## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Slik bokfører du avgangsantall for en eller flere produksjonsordrelinjer
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene med produksjonsordre- og avgangsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis operasjonen er fullført, velger du **Ferdig**-feltet.  
 
@@ -37,7 +37,7 @@ Avgangsantallet representerer arbeidsframdriften i form av det ferdige antallet.
 ## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Slik bokfører du kjøretid for en eller flere produksjonsordrelinjer
 Operasjonstiden representerer arbeidsframdrift i form av nødvendig arbeidstid.    
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene med produksjonsordre- og avgangsdata.  
 3.  Hvis operasjonen er fullført, velger du **Ferdig**-feltet.  
 4. Velg **Bokfør**-handlingen for å bokføre tiden som brukes per operasjon. Kapasitetsposter oppdateres for brukte arbeids- eller produksjonsressurser.

@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 49e3ce0ef80dd54f66565f62616b3b8f2a4aaeaa
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 27b2571df137b489a72673251fb5a176bfa771fe
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-plan-project-orders"></a>Planlegge prosjektordrer
+# <a name="plan-project-orders"></a>Planlegge prosjektordrer
 Denne planleggingsoppgaven starter fra en ordre og bruker **Ordreplanlegging**-vinduet. Når du har opprettet en prosjektproduksjonsordre, kan du planlegge den videre ved hjelp av **Ordreplanlegging**-vinduet.  
 
 ## <a name="to-create-a-project-production-order"></a>Slik oppretter du en prosjektproduksjonsordre  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg ordren som representerer produksjonsprosjektet, og velg deretter **Planlegging**-handlingen.  
 4.  I **Ordreplanlegging**-vinduet velger du handlingen **Opprett prod.ordre**.  
 5.  I vinduet **Opprett ordre fra salg**, i **Ordretype**-feltet velger du **Prosjektordre**.  
 6.  Velg **Ja**-knappen.  
-7.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Produksjonsordrer**, og velg deretter den relaterte koblingen.
+7.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsordrer**, og velg deretter den relaterte koblingen.
 8. Åpne produksjonsordren som ble opprettet.  
 
     Merk at **Kildetype**-feltet i produksjonsordren inneholder **Salgshode**, og ordren har flere linjer, en for hver salgslinjevare som må produseres.  

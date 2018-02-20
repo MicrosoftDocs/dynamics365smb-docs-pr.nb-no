@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 8b1ad8ba4d64fff96e9c9fa1866217b19869e98c
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 701282909208c36b0ba546c1a15ca27afdbf447c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="preparing-to-set-up-contacts"></a>Klargjøring til konfigurasjon av kontakter
@@ -31,11 +31,11 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Til | Se |
 | --- | --- |
 | Definere forretningsforbindelser til kontakter, for eksempel prospekter, banker, konsulenter og serviceleverandører. |[Definere forretningsforbindelser for kontaktselskaper](marketing-business-relations.md) |
-| Definere bransjen kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen. |[Definere bransjegrupper for kontaktselskaper](marketing-industry-groups.md) |
-| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper for kontaktselskaper](marketing-mailing-groups.md) |
+| Definere bransjen kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen. |[Definere bransjegrupper på kontaktselskaper](marketing-industry-groups.md) |
+| Definere postgrupper som brukes til å identifisere grupper av kontakter som du ønsker skal motta de samme opplysningene. |[Definere postgrupper på kontaktselskaper](marketing-mailing-groups.md) |
 | Definere ansvarsområder for kontaktpersonene. |[Definere ansvarsområder på kontakter](marketing-job-responsibilities.md) |
 | Definere organisasjonsnivåer som du vil bruke for kontaktpersonene. |[Konfigurere organisasjonsnivåer for kontakter](marketing-organizational-levels.md) |
-| Definere webkilder (søkemotorer og webområder) som du kan bruke når du søker etter opplysninger om kontaktene på Internett. |[Definere webkilder for kontakter](marketing-web-sources.md) |
+| Definere webkilder (søkemotorer og webområder) som du kan bruke når du søker etter opplysninger om kontaktene på Internett. |[Definere webkilder på kontakter](marketing-web-sources.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 09/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 9eb95fe46c9ffa5cc75eaf1fbad64e405accf4d6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 8c506afa1f476de9413e2cf422991710dd981b0d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-post-scrap-manually"></a>Bokføre vrak manuelt
+# <a name="post-scrap-manually"></a>Bokføre vrak manuelt
 Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigmeldingskladden. 
 
 > [!NOTE]
 > Vrakantallet øker ikke avgangsantallet.  
 
 ## <a name="to-post-scrap-manually"></a>Slik bokfører du vrak manuelt  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. I feltet **Vrakantall** angir du vrakantallet.  
 4. I feltet **Vrakkode** angir du vrakkoden.  

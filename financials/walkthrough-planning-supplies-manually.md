@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: de00ca393b5d2c28292ae3deba743ce3447b6145
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
@@ -65,7 +65,7 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 
 ### <a name="to-use-the-order-planning-window"></a>Slik bruker du vinduet Ordreplanlegging:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
 
      Når vinduet **Ordreplanlegging** åpnes for første gang, må en plan beregnes for å vise det nye behovet siden det sist ble beregnet.  
 
@@ -223,7 +223,7 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 
      Meldingen angir at alle nødvendige varer nå er forsynt. Kontroller de fast planlagte produksjonsordrene som opprettes.  
 
-13. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
+13. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
 
      Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, i vinduet **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
 

@@ -13,14 +13,14 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 08/22/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 6c20c0b346186adad6e4b125dbd48bd0d3f56ab2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: b16ba9366aefc108f39667678fe8ab70ce421b83
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 
-# <a name="how-to-set-up-resource-allocation"></a>Definere ressurstildeling
+# <a name="set-up-resource-allocation"></a>Definere ressurstildeling
 For å sikre at en serviceoppgave utføres tilfredsstillende, er det viktig å finne en ressurs som er kvalifisert for å gjøre arbeidet. Du kan definere [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at det er enkelt å tildele en person som har riktig kompetansen for prosjektet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kaller vi dette _ressurstildeling_. Du kan tildele ressurser basert på kompetanse, tilgjengelighet eller om de er i samme servicesone som kunden. 
 
 Hvis du vil bruke ressurstildeling, må du definere:  
@@ -30,29 +30,29 @@ Hvis du vil bruke ressurstildeling, må du definere:
 * Om du vil vise ressurskompetanse og soner, og om det skal vises en advarsel hvis noen velger en ukvalifisert ressurs eller en ressurs som ikke er i kundesonen.  
 
 ## <a name="to-set-up-skills"></a>Definere kompetanser
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kompetanse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kompetanse**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-skills-to-service-items-and-resources"></a>Du tilordner disse til servicevarer og ressurser.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Servicevarer** eller **Ressurser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicevarer** eller **Ressurser**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for servicevaren eller ressursen, og velg deretter ett av følgende:  
   
     * For servicevarer velger du **Ressurskompetanse**.  
     * For ressurser velger du **Kompetanse**.  
 
 ## <a name="to-set-up-zones"></a>Definere soner
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kompetanse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kompetanse**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-zones-to-customers-and-resources"></a>Tilordne soner til kunder og ressurser 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kunder** eller **Ressurser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder** eller **Ressurser**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for servicevaren eller ressursen, og velg deretter ett av følgende:  
   
     * For kunder velger du en sone i feltet **Servicesonekode**.  
     * For ressurser velger du handlingen **Servicesoner**.  
 
 ## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Angi hva som skal vises når en ressurs er valgt
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
 2. I feltet **Alt. for ressurskompetanse** velger du ett av alternativene som er beskrevet i tabellen nedenfor.  
   
     |**Alternativ**|**Beskrivelse**|  
@@ -64,14 +64,14 @@ Hvis du vil bruke ressurstildeling, må du definere:
 ## <a name="to-update-resource-capacity"></a>Oppdatere ressurskapasitet  
 Du må kanskje endre kapasiteten for ressurser.  
   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ressurskapasitet**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ressurskapasitet**, og velg deretter den relaterte koblingen.  
 2. Velg ressursen, og velg deretter handlingen **Angi kapasitet**.  
 3. Utfør endringen, og velge deretter **Oppdater kapasitet**.  
 
 ## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Oppdatere kompetanse for varer, servicevarer eller servicevaregrupper
 Hvis du vil endre kompetansekodene som er tilordnet til varer, for eksempel fra **PC** til **PCS**, kan du gjøre dette for en vare, servicevare eller for alle varer i en servicevaregruppe.  
   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, **Servicevare** eller **Servicevaregruppe**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, **Servicevare** eller **Servicevaregruppe**, og velg deretter den relaterte koblingen.  
 2. Velg enheten som skal oppdateres, og velg deretter handlingen **Ressurskompetanse**.  
 3. På linjen med koden som skal endres, velger du den relevante kompetansekoden i **Kompetansekode**-feltet.  
 4.  Hvis varen har tilordnede servicevarer, åpnes det en dialogboks med følgende to alternativer:  
@@ -82,7 +82,7 @@ Hvis du vil endre kompetansekodene som er tilordnet til varer, for eksempel fra 
 ## <a name="see-also"></a>Se også
 [Tildele ressurser](service-how-to-allocate-resources.md)  
 [Konfigurere arbeidstimer og servicetimer](service-how-setup-work-service-hours.md)  
-[Definere feilrapportering](service-how-setup-fault-reporting.md)  
+[Konfigurere feilrapportering](service-how-setup-fault-reporting.md)  
 [Definere koder for standardservicer](service-how-setup-service-coding.md)  
  
 

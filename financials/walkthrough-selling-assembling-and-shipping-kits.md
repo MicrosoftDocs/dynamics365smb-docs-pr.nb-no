@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: d87aa7fe44b183a823457be4448c84631cd75db6
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
@@ -36,7 +36,7 @@ Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. 
 -   Opprette en monteringsstykkliste som viser monteringskomponentene og ressursen som inngår i monteringsvaren.  
 
 ### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]  gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
 
 -   Opprette en ren ATO-ordrelinje der det fullstendige antallet er utilgjengelig og må være montert før levering.  
 -   Tilpasse ATO-varer.  
@@ -81,14 +81,14 @@ Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:
 -   Installere [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Gjør deg til lageransatt på lokasjonen KR.SAND ved å følge disse trinnene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg **Standard**- feltet.  
 
 Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinnene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet for lokasjonen KR.SAND.  
 3.  I **Hyller**-hurtigfanen angir du **W-10-0001** i feltet **Til-Hyllekode for montering**.  
 
@@ -100,7 +100,7 @@ Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinne
 
 Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Produksjonsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsoppsett**, og velg deretter den relaterte koblingen.  
 2.  I **Produksjonsoppsett** vinduet i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
 Opprett lager for monteringskomponenter ved å følge delen "Klargjøre eksempeldata" i denne gjennomgangen.  
@@ -134,7 +134,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ## <a name="setting-up-the-sample-data"></a>Konfigurere eksempeldataene  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagervarekladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagervarekladder**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bunkenavn**, og velg deretter standardkladden.  
 3.  Opprette positive lagerjusteringer på HVIT-lokasjonen på arbeidsdatoen, 23. januar, ved å skrive inn følgende informasjon.  
 
@@ -151,14 +151,14 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter synkroniserer du nye lagerposter med lageret.  
 
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-vinduet åpnes.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-vinduet åpnes.  
 6.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Beregn lagerjustering**.  
 7.  I vinduet **Beregn lagerjust.** velger du **OK**-knappen.  
 8.  Velg **Bokfør** under **Funksjoner** i fanebladet **Handlinger** i **Varekladd**-vinduet, og klikk deretter **Ja**-knappen.  
 
 ### <a name="creating-the-assembly-items"></a>Opprette monteringsvarer  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  I fanebladet **Hjem**, under **Behandle**, velger du **Ny**.  
 3.  Opprette den første monteringsvaren basert på følgende informasjon.  
 
@@ -209,7 +209,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="selling-the-assembly-items"></a>Selge monteringsvarer  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  I fanebladet **Hjem**, under **Behandle**, velger du **Ny**.  
 3.  Opprett to ordrelinjer for kunde 62000, Lydeksperten, på arbeidsdatoen med følgende informasjon.  
 
@@ -262,7 +262,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlegge for utilgjengelig ATS-varer  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  I fanebladet **Handling**, under **Funksjoner** velger du **Beregn replanlegging**.  
 3.  Angi følgende filtre i **Beregn Plan**-vinduet.  
 
@@ -280,7 +280,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere første ATO-antall  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
 
     > [!NOTE]  
     >  I denne delen er personen som er ansvarlig for levering, ansvarlig for å registrere fullført ATO-monteringsarbeid på lagerleveringslinjen. Denne arbeidsflyten kan oppstå i miljøer hvor monteringsarbeidet utføres av personen som er ansvarlig for levering, eller av monteringsarbeidere i leveringsområdet.  
@@ -299,7 +299,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave.  
 
-4.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 5.  Åpne lagerplukkdokumentet som du opprettet i trinn 3 i denne delen.  
 
     Legg merke til verdien i **Kildedokument**-feltet og at alle plukklinjene er for monteringskomponenter.  
@@ -340,7 +340,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere andre ATO-antall  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 
     Legg merke til at ATO-ordren for leverte enheter av sett B fremdeles er i listen, selv om **Restantall** er tomt. Dette er fordi den tilknyttede ordren fortsatt ikke er fullstendig fakturert.  
 
@@ -364,7 +364,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="assembling-the-ats-quantity"></a>Montere ATS-antall  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne monteringsordren for ti enheter av sett A  
 
     Legg merke til at feltet **Antall å montere** er fylt ut med forventet antall.  
@@ -376,7 +376,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave.  
 
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 6.  Åpne lagerplukkdokumentet som du opprettet i trinn 4 i denne delen.  
 
      Fortsett med å registrere plukkingen uten å endre standardinformasjon.  
@@ -392,7 +392,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levering av gjenværende varer, delvis fra lager og delvis montert til ordre  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
 2.  Åpne den nyeste lagerfølgeseddelen som er opprettet på lokasjonen KR.SAND.  
 
     Legg merke til at på linjen for ti enheter av sett A er feltene **Levere (antall)** og **Plukket ant.** tomme.  
@@ -403,7 +403,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave for denne lagerleveringen.  
 
-4.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 5.  Åpne lagerplukkdokumentet som du opprettet i trinn 3 i denne delen.  
 
     Legg merke til at dette plukkdokumentet er for monteringsvare, ikke for monteringskomponenter.  
@@ -423,7 +423,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Lagerfølgeseddelen fjernes, som indikerer at de involverte lageraktivitetene er fullført. Deretter kontrollerer du at salgsordren har blitt behandlet.  
 
-10. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+10. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 11. Åpne salgsordren for Lydeksperten.  
 
     Legg merke til at feltet **Levert (antall)** inneholder hele antallet på begge linjer.  
@@ -432,10 +432,10 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ## <a name="see-also"></a>Se også  
  [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
- [Montere varer](assembly-how-to-assemble-items.md)   
+ [Montere elementer](assembly-how-to-assemble-items.md)   
  [Plukke varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
  [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md)   
- [Montere varer](assembly-how-to-assemble-items.md)   
+ [Montere elementer](assembly-how-to-assemble-items.md)   
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)   
  [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)   

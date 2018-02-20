@@ -11,19 +11,19 @@ ms.search.keywords: sales rep
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: c43577eaeac85631da3b86af82b76d97fb612cd2
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 528d1735a8b725cf245ec4e1611c8140f413b49a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-salespeople"></a>Definere selgere
+# <a name="set-up-salespeople"></a>Definere selgere
 Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. Se for eksempel rapporten **Provisjon for selgere**. Det kan også hende at et selskap vil knytte en selger til hver kontakt.
 
 Når du har angitt en selger i vinduet **Selgere**, kan du velge den i feltet **Selgerkode** i alle relevante poster, for eksempel finanskonto, kunde, leverandør, kontakter og kampanjekort. Deretter, når du bokfører eller oppretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer og så videre, overføres selgerkoden til postene.
 
 ## <a name="to-set-up-a-salesperson-code"></a>Definere selgerkoder
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Selgere** velger du handlingen **Ny**.
 
 Du kan bruke selgere i diverse arbeid vedrørende håndtering av kunderelasjoner og markedsføring. Du kan for eksempel tilordne oppgaver til selgere, slik at oppgavene tas med i salgsmuligheter som selgeren er tilordnet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md).

@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: 45bfe558c8bdc1f7c0befc4c929e895c54b7d85f
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: 3f371a772f710576a70bac4808b15be091a61d66
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-cost-objects"></a>Definere kostobjekter
+# <a name="set-up-cost-objects"></a>Definere kostobjekter
 Kostobjekter er et selskaps prosjekter, produkter eller tjenester. Diagrammet med kostobjekter ligner dimensjonsinformasjonen for finans. Du kan definere diagrammet med kostobjekter på følgende måter:  
 
 * Overfør dimensjonsverdier i finans til diagrammet med kostobjekter. Du kan foreta alle nødvendige justeringer etter overføringen.  
@@ -27,7 +27,7 @@ Kostobjekter er et selskaps prosjekter, produkter eller tjenester. Diagrammet me
 
 ## <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Slik overfører du dimensjonsverdier fra finans til diagrammet med kostobjekter:  
 1.  Angi en dimensjon som kostobjektdimensjon i vinduet **Oppdatere KR-dimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
-2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Diagram med kostobjekter**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Diagram med kostobjekter**, og velg deretter den relaterte koblingen.  
 3.  Velg **Hent kostobjekter fra dimensjon** for å overføre dimensjonsverdier til kostobjektdiagrammet. Funksjonen overfører dimensjonsverdiene som du definerte i trinn 1.  
 
     > [!NOTE]  

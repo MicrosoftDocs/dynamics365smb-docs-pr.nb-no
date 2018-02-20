@@ -1,6 +1,6 @@
 ---
 title: "Oversikt over Finanskladd – bokfør linje | Microsoft-dokumentasjon"
-description: "Dette emnet introduserer endringer i Kodeenhet 12, **Finanskladd - bokfør linje**, som er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter."
+description: "Dette emnet introduserer endringer i Kodeenhet 12, **Finanskladd – bokfør linje**, som er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 77fa52505dc586dc11ca89e53f6eec75042d3606
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 # <a name="general-journal-post-line-overview"></a>Oversikt over Finanskladd – bokfør linje

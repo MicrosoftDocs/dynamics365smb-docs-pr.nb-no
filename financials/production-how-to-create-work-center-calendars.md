@@ -13,13 +13,13 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: f42941328d49aee4e823007284fd14417866cbae
+ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
+ms.openlocfilehash: cf54f63e94ab3249f30d2fcdbef2c35e323e4cd8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/22/2017
+ms.lasthandoff: 01/30/2018
 
 ---
-# <a name="how-to-set-up-shop-calendars"></a>Opprette produksjonskalendere
+# <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
 En arbeidssenter- eller maskinkalender angir virkedager/arbeidstider, skift, ferie og fravær som utgjør senterets disponible kapasitet (målt i tid) i henhold til senterets definerte effektivitets- og kapasitetsverdier.
 
 Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurskalender må du først definere en eller flere generelle produksjonskalendere. En produksjonskalender definerer en standard arbeidsuke i henhold til starten og slutten på arbeidsdagen samt skiftarbeid. I tillegg definerer produksjonskalenderen faste feriedager i løpet av året.  
@@ -27,7 +27,7 @@ Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurs
 I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner når du definerer produksjonsressurskalendere.  
 
 ## <a name="to-create-work-shifts"></a>Slik oppretter du arbeidsskift  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere arbeidsskiftet, for eksempel **1**.  
 3.  Beskriv arbeidsskiftet i **Beskrivelse**-feltet, for eksempel **1. skift**.  
 4.  Fyll eventuelt ut linjer for et andre eller tredje arbeidsskift.  
@@ -35,7 +35,7 @@ I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner nå
 Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én arbeidsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
 4.  Velg **Virkedager**-handlingen.
@@ -70,7 +70,7 @@ Produksjonskalenderen kan nå tilordnes til et arbeidssenter for å beregne prod
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Slik beregner du en arbeidssenterkalender  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.
 2. Åpne arbeidssenteret som du vil oppdatere.  
 3. I feltet **Produksjonskalenderkode** velger du hvilken produksjonskalender som skal brukes som grunnlag for en arbeidssenterkalender.  
 4. Velg handlingen **Kalender**.  
@@ -109,7 +109,7 @@ Kapasiteten for den valgte dagen er nå redusert med den registrerte fraværstid
 
 ## <a name="see-also"></a>Se også  
 [Definere hovedkalendere](across-how-to-assign-base-calendars.md)  
-[Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon](production-how-to-set-up-work-and-machine-centers.md)  
+[Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
