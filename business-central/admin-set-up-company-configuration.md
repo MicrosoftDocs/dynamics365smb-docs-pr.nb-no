@@ -1,0 +1,43 @@
+---
+title: Definere selskapskonfigurasjon | Microsoft-dokumentasjon
+description: "Implementeringsprosessen starter med Business Central-løsningen som kreves. Du grupperer all denne informasjonen i konfigurasjonspakker."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 03/05/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 518acdc1733a526f1b0b4c5caa3a7644d762b72c
+ms.contentlocale: nb-no
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="set-up-company-configuration"></a><span data-ttu-id="7758a-104">Definere selskapskonfigurasjon</span><span class="sxs-lookup"><span data-stu-id="7758a-104">Set Up Company Configuration</span></span>
+<span data-ttu-id="7758a-105">Implementeringsprosessen begynner med Microsoft-partneren.</span><span class="sxs-lookup"><span data-stu-id="7758a-105">The implementation process begins with the Microsoft partner.</span></span> <span data-ttu-id="7758a-106">Partneren er ansvarlig for å tenke gjennom konfigurasjonsdetaljer og lage en pakke som kunden enkelt kan bruke.</span><span class="sxs-lookup"><span data-stu-id="7758a-106">The partner is responsible for thinking through the configuration details and creating a package that a customer can easily apply.</span></span> <span data-ttu-id="7758a-107">Før du oppretter et nytt selskap, bør du planlegge hvordan det skal konfigureres.</span><span class="sxs-lookup"><span data-stu-id="7758a-107">Before you create a new company, you should plan how it will be configured.</span></span> <span data-ttu-id="7758a-108">Du må vurdere grunnleggende oppsettsdata og hvilke typer data [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsningen vil kreve.</span><span class="sxs-lookup"><span data-stu-id="7758a-108">You must consider basic setup data and the types of data that your [!INCLUDE[d365fin](includes/d365fin_md.md)] solution will require.</span></span> <span data-ttu-id="7758a-109">Du grupperer all denne informasjonen i konfigurasjonspakker.</span><span class="sxs-lookup"><span data-stu-id="7758a-109">You bundle all of this information in configuration packages.</span></span>
+
+<span data-ttu-id="7758a-110">RapidStart Services gir deg også verktøy som du vil bruke til å overføre dine eldre data, for eksempel kunder og leverandører.</span><span class="sxs-lookup"><span data-stu-id="7758a-110">RapidStart Services also provides you with the tools that you will use to migrate your legacy data, such as customers and vendors.</span></span>  
+
+<span data-ttu-id="7758a-111">Vi anbefaler at du oppretter konfigurasjonspakker der de fleste av oppsettstabellene allerede er utfylt, slik at kunder bare trenger å ende noen få innstillinger etter at pakken tas i bruk.</span><span class="sxs-lookup"><span data-stu-id="7758a-111">We recommend that you create configuration packages with most of the setup tables already filled in, so that customers only have to change a few settings after the package is applied.</span></span> <span data-ttu-id="7758a-112">Når du for eksempel oppretter et nytt selskap, blir tabellene **Nummerserie** og **Nr.serielinje** fylt ut med et sett med nummerserier og startnumre.</span><span class="sxs-lookup"><span data-stu-id="7758a-112">For example, when you create a new company, the **No. Series** and the **No. Series Line** tables are filled in with a set of number series and starting numbers.</span></span> <span data-ttu-id="7758a-113">Den tilsvarende **Nr. serie**-feltet i oppsettstabellene er fylles også ut automatisk.</span><span class="sxs-lookup"><span data-stu-id="7758a-113">The corresponding **No. Series** fields in the setup tables are also filled in automatically.</span></span> <span data-ttu-id="7758a-114">Du trenger ikke å utføre oppgaver som å angi nummerserier og andre grunnleggende oppsettsdata.</span><span class="sxs-lookup"><span data-stu-id="7758a-114">You do not have to do the work of entering number series and other basic setup data.</span></span> <span data-ttu-id="7758a-115">Du kan også manuelt endre alle standarddata som brukes sammen med RapidStart Services, ved hjelp av konfigurasjonsforslaget.</span><span class="sxs-lookup"><span data-stu-id="7758a-115">You can also manually change all default data that is used with RapidStart Services by using the configuration worksheet.</span></span>  
+
+<span data-ttu-id="7758a-116">Konfigurasjonspakkene bygger på et forhåndskonfigurert selskap.</span><span class="sxs-lookup"><span data-stu-id="7758a-116">The configuration packages are built on a preconfigured company.</span></span> <span data-ttu-id="7758a-117">Når du har definert et selskap som oppfyller dine behov, kan du opprette en konfigurasjonspakke som inneholder relevante data fra dette selskapet.</span><span class="sxs-lookup"><span data-stu-id="7758a-117">After you have set up a company that meets your needs, you can create a configuration package that contains relevant data from this company.</span></span> <span data-ttu-id="7758a-118">Deretter kan du bruke den når du oppretter et nytt selskap som skal konfigureres på samme måte.</span><span class="sxs-lookup"><span data-stu-id="7758a-118">You can then use it when you create a new company that is to be configured in the same way.</span></span>  
+
+<span data-ttu-id="7758a-119">For å forenkle import av hoveddata, for eksempel kunde- og leverandørinformasjon, kan du bruke konfigurasjonsmaler.</span><span class="sxs-lookup"><span data-stu-id="7758a-119">To facilitate the import of master data, such as customer and vendor information, you can use configuration templates.</span></span> <span data-ttu-id="7758a-120">Konfigurasjonsmaler inneholder et sett med standardinnstillinger, som tilordnes automatisk til postene som importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)].</span><span class="sxs-lookup"><span data-stu-id="7758a-120">Configuration templates contain a set of default settings that are automatically assigned to the records imported into [!INCLUDE[d365fin](includes/d365fin_md.md)].</span></span>
+
+<span data-ttu-id="7758a-121">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emner som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="7758a-121">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+
+|<span data-ttu-id="7758a-122">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="7758a-122">**To**</span></span>|<span data-ttu-id="7758a-123">**Se**</span><span class="sxs-lookup"><span data-stu-id="7758a-123">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="7758a-124">Planlegge en selskapskonfigurasjon ved å fylle ut konfigurasjonsforslaget.</span><span class="sxs-lookup"><span data-stu-id="7758a-124">Plan a company configuration by filling in the configuration worksheet.</span></span>|[<span data-ttu-id="7758a-125">Behandle selskapskonfigurasjon i et forslag</span><span class="sxs-lookup"><span data-stu-id="7758a-125">Manage Company Configuration in a Worksheet</span></span>](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
+|<span data-ttu-id="7758a-126">Opprett en konfigurasjonspakke, tilpass en pakke, tilordne tabeller til en pakke, se gjennom eller rediger eksisterende kundedata, opprette det nye selskapet og flytt deretter testdata til produksjonsmiljøet.</span><span class="sxs-lookup"><span data-stu-id="7758a-126">Create a configuration package, customize a package, assign tables to a package, review or edit existing customer data, create the new company and then move test data to the production environment.</span></span>|[<span data-ttu-id="7758a-127">Klargjøre en konfigurasjonspakke</span><span class="sxs-lookup"><span data-stu-id="7758a-127">Prepare a Configuration Package</span></span>](admin-how-to-prepare-a-configuration-package.md)| 
+
+## <a name="see-also"></a><span data-ttu-id="7758a-128">Se også</span><span class="sxs-lookup"><span data-stu-id="7758a-128">See Also</span></span>  
+[<span data-ttu-id="7758a-129">Konfigurere et selskap med RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="7758a-129">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="7758a-130">Administrasjon</span><span class="sxs-lookup"><span data-stu-id="7758a-130">Administration</span></span>](admin-setup-and-administration.md)
+

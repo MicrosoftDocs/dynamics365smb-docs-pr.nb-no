@@ -1,0 +1,50 @@
+---
+title: "Definere fordelingskilde og -mål | Microsoft-dokumentasjon"
+description: "Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. Fordelingskilden fastsetter hvilke kostnader som blir fordelt. Fordelingsmålene fastsetter hvor kostnadene skal fordeles."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: d57669191209090f15a424537d98d106db681a38
+ms.contentlocale: nb-no
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="set-up-allocation-source-and-targets"></a><span data-ttu-id="24c55-105">Definere fordelingskilde og -mål</span><span class="sxs-lookup"><span data-stu-id="24c55-105">Set Up Allocation Source and Targets</span></span>
+<span data-ttu-id="24c55-106">Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål.</span><span class="sxs-lookup"><span data-stu-id="24c55-106">Each allocation consists of an allocation source and one or more allocation targets.</span></span> <span data-ttu-id="24c55-107">Fordelingskilden fastsetter hvilke kostnader som blir fordelt.</span><span class="sxs-lookup"><span data-stu-id="24c55-107">The allocation source defines which costs will be allocated.</span></span> <span data-ttu-id="24c55-108">Fordelingsmålene fastsetter hvor kostnadene skal fordeles.</span><span class="sxs-lookup"><span data-stu-id="24c55-108">The allocation targets determine where the costs will be allocated.</span></span>  
+
+## <a name="to-set-up-cost-allocations"></a><span data-ttu-id="24c55-109">Definere kostfordelinger</span><span class="sxs-lookup"><span data-stu-id="24c55-109">To set up cost allocations</span></span>  
+1.  <span data-ttu-id="24c55-110">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kostfordeling**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="24c55-110">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Cost Allocation**, and then chose the related link.</span></span>  
+2.  <span data-ttu-id="24c55-111">I vinduet **Kostfordeling** velger du **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="24c55-111">In the **Cost Allocation** window, choose the **Edit** action.</span></span>  
+3.  <span data-ttu-id="24c55-112">Angi en ID for fordelingskilde i **ID**-feltet.</span><span class="sxs-lookup"><span data-stu-id="24c55-112">Enter an ID for the allocation source in the **ID** field.</span></span>  
+4.  <span data-ttu-id="24c55-113">Definer et nivå som et tall mellom 1 og 99 i **Nivå**-feltet.</span><span class="sxs-lookup"><span data-stu-id="24c55-113">Define a level as a number between 1 and 99 in the **Level** field.</span></span> <span data-ttu-id="24c55-114">Fordelingsbokføringen vil følge rekkefølgen på nivåene.</span><span class="sxs-lookup"><span data-stu-id="24c55-114">The allocation posting will follow the order of the levels.</span></span>  
+5.  <span data-ttu-id="24c55-115">Angi en kosttype for å definere hvilke kosttyper som skal fordeles, i feltet **Kosttypeområde**.</span><span class="sxs-lookup"><span data-stu-id="24c55-115">Enter a cost type to define which cost types will be allocated in the **Cost Type Range** field.</span></span> <span data-ttu-id="24c55-116">Hvis all kost for en kosttype fordeles, defineres ikke område.</span><span class="sxs-lookup"><span data-stu-id="24c55-116">If all costs for a cost type are allocated, no range is defined.</span></span>  
+6.  <span data-ttu-id="24c55-117">Angi et kostsenter sammen med kostnadene skal fordeles, i feltet **Kostsenterkode**.</span><span class="sxs-lookup"><span data-stu-id="24c55-117">Enter a cost center together with costs to be allocated in the **Cost Center Code** field.</span></span>  
+7.  <span data-ttu-id="24c55-118">Angi et kostobjekt sammen med kostnadene skal fordeles, i feltet **Kostobjektkode**.</span><span class="sxs-lookup"><span data-stu-id="24c55-118">Enter a cost object together with costs to be allocated in the **Cost Object Code** field.</span></span> <span data-ttu-id="24c55-119">Feltet blir som oftest stående tomt, fordi kostobjekter sjelden fordeles på andre kostobjekter.</span><span class="sxs-lookup"><span data-stu-id="24c55-119">Most often, this field stays empty, because cost objects are rarely allocated to other cost objects.</span></span>  
+8.  <span data-ttu-id="24c55-120">Angi en kosttype feltet **Krediter til kosttype**.</span><span class="sxs-lookup"><span data-stu-id="24c55-120">Enter a cost type in the **Credit to Cost Type** field.</span></span> <span data-ttu-id="24c55-121">Fordelt kost krediteres til kildekosttypen.</span><span class="sxs-lookup"><span data-stu-id="24c55-121">The costs that are allocated will be credited to the source cost type.</span></span> <span data-ttu-id="24c55-122">Kreditposten bokføres til kostnadstypen som er gitt her.</span><span class="sxs-lookup"><span data-stu-id="24c55-122">The credit posting will be posted to the cost type given here.</span></span>  
+9. <span data-ttu-id="24c55-123">På hurtigfanen **Linjer** definerer du tildelingsmålene.</span><span class="sxs-lookup"><span data-stu-id="24c55-123">On the **Lines** FastTab, define the allocation targets.</span></span> <span data-ttu-id="24c55-124">På den første linjen angir du en kosttype i feltet **Målkosttype**.</span><span class="sxs-lookup"><span data-stu-id="24c55-124">On the first line, enter a cost type in the **Target Cost Type** field.</span></span> <span data-ttu-id="24c55-125">Det definerer hvilken kosttype fordelingen debiteres.</span><span class="sxs-lookup"><span data-stu-id="24c55-125">It defines which cost type the allocation is debited to.</span></span>  
+10. <span data-ttu-id="24c55-126">På den første linjen angir du første fordelingsmålet i feltet **Målkostsenter** eller **Målkostobjekt**.</span><span class="sxs-lookup"><span data-stu-id="24c55-126">On the first line, enter the first allocation target in the **Target Cost Center** field or **Target Cost Object** the field.</span></span> <span data-ttu-id="24c55-127">Disse to feltene definerer hvilket kostsenter eller kostobjekt fordelingen debiteres til.</span><span class="sxs-lookup"><span data-stu-id="24c55-127">These two fields define which cost center or cost object the allocation is debited to.</span></span> <span data-ttu-id="24c55-128">Du kan bare fylle ut ett av disse feltene, og ikke begge.</span><span class="sxs-lookup"><span data-stu-id="24c55-128">You can only fill in one of these fields, but not both.</span></span>  
+11. <span data-ttu-id="24c55-129">Gjenta de samme trinnene på den andre linjen for å definere ytterligere fordelingsmål.</span><span class="sxs-lookup"><span data-stu-id="24c55-129">Repeat the same steps on the second line to set up additional allocation targets.</span></span>  
+12. <span data-ttu-id="24c55-130">Når du har satt opp fordelingsmål og -kilder, velger du **Beregn fordelingsnøkkel** for å beregne totale andelsverdier.</span><span class="sxs-lookup"><span data-stu-id="24c55-130">After you have set up the allocation target and sources, choose the **Calculate Allocation Key** action to calculate the total share values.</span></span>  
+
+> [!NOTE]  
+>  <span data-ttu-id="24c55-131">Merk av for **Blokkert** for å deaktivere tildelingsoppsettet.</span><span class="sxs-lookup"><span data-stu-id="24c55-131">Select the **Blocked** check box to deactivate the allocation setup.</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="24c55-132">Se også</span><span class="sxs-lookup"><span data-stu-id="24c55-132">See Also</span></span>  
+[<span data-ttu-id="24c55-133">Gjøre rede for kostnader</span><span class="sxs-lookup"><span data-stu-id="24c55-133">Accounting for Costs</span></span>](finance-manage-cost-accounting.md)  
+ <span data-ttu-id="24c55-134">[Angi filtre for dynamisk fordelingsgrunnlag](finance-setting-filters-for-dynamic-allocation-bases.md) </span><span class="sxs-lookup"><span data-stu-id="24c55-134">[Setting Filters for Dynamic Allocation Bases](finance-setting-filters-for-dynamic-allocation-bases.md) </span></span>  
+ <span data-ttu-id="24c55-135">[Eksempelscenario: Definere statiske fordelinger basert på fordelingsgrad](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md) </span><span class="sxs-lookup"><span data-stu-id="24c55-135">[Scenario Example: Defining Static Allocations Based on Allocation Ratio](finance-scenario-example-defining-static-allocations-based-on-allocation-ratio.md) </span></span>  
+ <span data-ttu-id="24c55-136">[Eksempelscenario: Definere dynamiske fordelinger basert på solgte varer](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md) </span><span class="sxs-lookup"><span data-stu-id="24c55-136">[Scenario Example: Defining Dynamic Allocations Based on Items Sold](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md) </span></span>  
+ <span data-ttu-id="24c55-137">[Definere og fordele kostnader](finance-define-and-allocate-costs.md) </span><span class="sxs-lookup"><span data-stu-id="24c55-137">[Defining and Allocating Costs](finance-define-and-allocate-costs.md) </span></span>  
+ [<span data-ttu-id="24c55-138">Terminologi i kostregnskap</span><span class="sxs-lookup"><span data-stu-id="24c55-138">Terminology in Cost Accounting</span></span>](finance-terminology-in-cost-accounting.md)  
+ <span data-ttu-id="24c55-139">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="24c55-139">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

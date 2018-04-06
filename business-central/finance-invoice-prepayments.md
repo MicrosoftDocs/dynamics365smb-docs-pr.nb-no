@@ -1,0 +1,39 @@
+---
+title: Fakturere forskudd | Microsoft-dokumentasjon
+description: "Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 08/07/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 5cdc1ddde1762976a89d60f7906fb3e7363982f0
+ms.contentlocale: nb-no
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="invoicing-prepayments"></a><span data-ttu-id="e3c4d-106">Fakturere forskuddsbetalinger</span><span class="sxs-lookup"><span data-stu-id="e3c4d-106">Invoicing Prepayments</span></span>
+<span data-ttu-id="e3c4d-107">Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-107">Prepayments are payments that are invoiced and posted to a sales or purchase prepayment order before final invoicing.</span></span> <span data-ttu-id="e3c4d-108">Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-108">You might require a deposit before you manufacture items to order, or you might require payment before you ship items to a customer.</span></span> <span data-ttu-id="e3c4d-109">Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-109">The prepayments functionality enables you to invoice and collect deposits required from customers or to remit deposits to vendors.</span></span> <span data-ttu-id="e3c4d-110">Dermed kan du sikre at alle betalinger bokføres mot en faktura.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-110">Thus, you can ensure that all payments are posted against an invoice.</span></span>  
+
+ <span data-ttu-id="e3c4d-111">Krav til forskuddsbetaling kan defineres for en kunde eller leverandør for alle varer eller utvalgte varer.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-111">Prepayment requirements can be defined for a customer or vendor for all items or selected items.</span></span> <span data-ttu-id="e3c4d-112">Når du har fullført det nødvendige oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger for det beregnede forskuddsbeløpet.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-112">After you complete the required setup, you can generate prepayment invoices from sales and purchase orders for the calculated prepayment amount.</span></span> <span data-ttu-id="e3c4d-113">Du kan endre beløpene på fakturaen etter behov.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-113">You can change the amounts on the invoice as needed.</span></span> <span data-ttu-id="e3c4d-114">Du kan for eksempel angi et totalbeløp for hele ordren.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-114">For example, you can specify a total amount for the entire order.</span></span> <span data-ttu-id="e3c4d-115">Du kan også sende flere forskuddsfakturaer, for eksempel hvis flere varer blir lagt til i ordren.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-115">You can also send additional prepayment invoices if, for example, additional items are added to the order.</span></span> <span data-ttu-id="e3c4d-116">Du kan øke antall eller legge til nye linjer i en ordre etter at en forskuddsbetaling er utstedt, og deretter kan du bokføre en ny forskuddsfaktura.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-116">You can increase quantities or add new lines to an order after issuing a prepayment, and then you can post another prepayment invoice.</span></span> <span data-ttu-id="e3c4d-117">Hvis du vil slette en linje som en forskuddsbetaling allerede er fakturert for, må du utstede en kreditnota for forskudd før du kan slette linjen.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-117">If you want to delete a line for which a prepayment has already been invoiced, you must issue a prepayment credit memo before you can delete the line.</span></span>  
+
+ <span data-ttu-id="e3c4d-118">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-118">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>
+
+|<span data-ttu-id="e3c4d-119">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="e3c4d-119">**To**</span></span>|<span data-ttu-id="e3c4d-120">**Se**</span><span class="sxs-lookup"><span data-stu-id="e3c4d-120">**See**</span></span>|  
+|------------|-------------|  
+|<span data-ttu-id="e3c4d-121">Definer bokføringsgrupper og nummerserier for forskuddsbetalinger, og definer standard forskuddsprosenter for kunder, leverandører og varer.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-121">Set up prepayment posting groups and number series, and set up default prepayment percentages for customers, vendors, and items.</span></span>|[<span data-ttu-id="e3c4d-122">Definerer forskudd</span><span class="sxs-lookup"><span data-stu-id="e3c4d-122">Set Up Prepayments</span></span>](finance-set-up-prepayments.md)|
+|<span data-ttu-id="e3c4d-123">Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-123">Create an order, adjust the prepayment amounts, and issue an invoice for prepayment amounts.</span></span>|[<span data-ttu-id="e3c4d-124">Opprette forskuddsfakturaer</span><span class="sxs-lookup"><span data-stu-id="e3c4d-124">Create Prepayment Invoices</span></span>](finance-how-to-create-prepayment-invoices.md)|  
+|<span data-ttu-id="e3c4d-125">Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.</span><span class="sxs-lookup"><span data-stu-id="e3c4d-125">Issue an additional prepayment invoice, either for additional items or for an additional deposit on the original order, or issue a prepayment credit memo.</span></span>|[<span data-ttu-id="e3c4d-126">Korrigere forskudd</span><span class="sxs-lookup"><span data-stu-id="e3c4d-126">Correct Prepayments</span></span>](finance-how-to-correct-prepayments.md)|  
+
+## <a name="see-also"></a><span data-ttu-id="e3c4d-127">Se også</span><span class="sxs-lookup"><span data-stu-id="e3c4d-127">See Also</span></span>  
+[<span data-ttu-id="e3c4d-128">Gjennomgang: konfigurere og fakturere salgsforskudd</span><span class="sxs-lookup"><span data-stu-id="e3c4d-128">Walkthrough: Setting Up and Invoicing Sales Prepayments</span></span>](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[<span data-ttu-id="e3c4d-129">Finans</span><span class="sxs-lookup"><span data-stu-id="e3c4d-129">Finance</span></span>](finance.md)  
+<span data-ttu-id="e3c4d-130">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e3c4d-130">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+

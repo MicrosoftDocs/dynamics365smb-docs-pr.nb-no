@@ -1,0 +1,48 @@
+---
+title: "Designdetaljer – Varesporingstilgjengelighet | Microsoft-dokumentasjon"
+description: "Dette emnet beskriver hvordan du kontrollere at persoene som behandler ordrer, kan stole på tilgjengeligheten for serie- eller partinumre."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.date: 07/01/2017
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 4f9dfd8b4e3fe6052ef8cd0d4fcbadba67c7517b
+ms.contentlocale: nb-no
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="design-details-item-tracking-availability"></a><span data-ttu-id="df4ae-103">Designdetaljer: Varesporingstilgjengelighet</span><span class="sxs-lookup"><span data-stu-id="df4ae-103">Design Details: Item Tracking Availability</span></span>
+<span data-ttu-id="df4ae-104">Vinduene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre.</span><span class="sxs-lookup"><span data-stu-id="df4ae-104">The **Item Tracking Lines** and **Item Tracking Summary** windows provide dynamic availability information for serial or lot numbers.</span></span> <span data-ttu-id="df4ae-105">Hensikten med dette er å gjøre utgående dokumenter, for eksempel ordrer, klarere for brukere ved å vise dem serienumrene eller antallet partinumre som for øyeblikket er tilordnet i andre åpne dokumenter.</span><span class="sxs-lookup"><span data-stu-id="df4ae-105">The purpose of this is to increase transparency for users on outbound documents, such as sales orders, by showing them which serial numbers or how many units of a lot number are currently assigned on other open documents.</span></span> <span data-ttu-id="df4ae-106">Dette reduserer usikkerhet som skyldes doble tildelinger og vekker tillit hos ordrebehandlere om at varesporingsnumrene og datoene de bekrefter på ikke-bokførte ordrer, kan oppfylles.</span><span class="sxs-lookup"><span data-stu-id="df4ae-106">This reduces uncertainty that is caused by double allocation and instills confidence in order processors that the item tracking numbers and dates that they are promising on unposted sales orders can be fulfilled.</span></span> <span data-ttu-id="df4ae-107">Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vindu for varesporingslinjer](design-details-item-tracking-lines-window.md).</span><span class="sxs-lookup"><span data-stu-id="df4ae-107">For more information, see [Design Details: Item Tracking Lines Window](design-details-item-tracking-lines-window.md).</span></span>  
+  
+<span data-ttu-id="df4ae-108">Når du åpner vinduet **Varesporingslinjer**, hentes tilgjengelighetsdata fra **Varepost**-tabellen og **Reservasjonspost**-tabellen uten noe datofilter.</span><span class="sxs-lookup"><span data-stu-id="df4ae-108">When you open the **Item Tracking Lines** window, availability data is retrieved from the **Item Ledger Entry** table and the **Reservation Entry** table, with no date filter.</span></span> <span data-ttu-id="df4ae-109">Når du velger **Serienr.**-feltet eller **Partinr.**-feltet, åpnes vinduet **Varesporingssummering** med et sammendrag av varesporingsinformasjonen i **Reservasjonspost**-tabellen.</span><span class="sxs-lookup"><span data-stu-id="df4ae-109">When you choose the **Serial No.** field or the **Lot No.** field, the **Item Tracking Summary** window opens and shows a summary of the item tracking information in the **Reservation Entry** table.</span></span> <span data-ttu-id="df4ae-110">Sammendraget inneholder følgende informasjon om hvert serie- eller partinummer på varesporingslinjen:</span><span class="sxs-lookup"><span data-stu-id="df4ae-110">The summary contains the following information about each serial or lot number on the item tracking line:</span></span>  
+  
+|<span data-ttu-id="df4ae-111">Felt</span><span class="sxs-lookup"><span data-stu-id="df4ae-111">Field</span></span>|<span data-ttu-id="df4ae-112">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="df4ae-112">Description</span></span>|  
+|---------------------------------|---------------------------------------|  
+|<span data-ttu-id="df4ae-113">**Antall i alt**</span><span class="sxs-lookup"><span data-stu-id="df4ae-113">**Total Quantity**</span></span>|<span data-ttu-id="df4ae-114">Det totale antallet for serie- eller partinummeret som for øyeblikket er på lager.</span><span class="sxs-lookup"><span data-stu-id="df4ae-114">The total quantity of the serial or lot number that is currently in inventory.</span></span>|  
+|<span data-ttu-id="df4ae-115">**Ønsket antall i alt**</span><span class="sxs-lookup"><span data-stu-id="df4ae-115">**Total Requested Quantity**</span></span>|<span data-ttu-id="df4ae-116">Det totale antallet for serie- eller partinummeret som for øyeblikket er forespurt i alle dokumenter.</span><span class="sxs-lookup"><span data-stu-id="df4ae-116">The total quantity of the serial or lot number that is currently requested in all documents.</span></span>|  
+|<span data-ttu-id="df4ae-117">**Gjeldende antall i kø**</span><span class="sxs-lookup"><span data-stu-id="df4ae-117">**Current Pending Quantity**</span></span>|<span data-ttu-id="df4ae-118">Antallet som registreres i gjeldende forekomst av vinduet **Varesporingslinjer**, men som ikke er lagret i databasen ennå.</span><span class="sxs-lookup"><span data-stu-id="df4ae-118">The quantity that is entered in the current instance of the **Item Tracking Lines** window but is not yet committed to the database.</span></span>|  
+|<span data-ttu-id="df4ae-119">**Totalt disp. antall**</span><span class="sxs-lookup"><span data-stu-id="df4ae-119">**Total Available Quantity**</span></span>|<span data-ttu-id="df4ae-120">Antallet for serie- eller partinummeret som brukeren kan be om.</span><span class="sxs-lookup"><span data-stu-id="df4ae-120">The quantity of the serial or lot number that is available for the user to request.</span></span><br /><br /> <span data-ttu-id="df4ae-121">Dette antallet blir beregnet fra andre felt i vinduet, slik:</span><span class="sxs-lookup"><span data-stu-id="df4ae-121">This quantity is calculated from other fields in the window as follows:</span></span><br /><br /> <span data-ttu-id="df4ae-122">totalt antall – (ønsket antall i alt + gjeldende antall i kø).</span><span class="sxs-lookup"><span data-stu-id="df4ae-122">total quantity – (total requested quantity + current pending quantity).</span></span>|  
+  
+> [!NOTE]  
+>  <span data-ttu-id="df4ae-123">Du kan også vise informasjonen i den foregående tabellen ved å bruke funksjonen **Velg poster** i vinduet **Varesporingslinjer**.</span><span class="sxs-lookup"><span data-stu-id="df4ae-123">You can also see the information in the preceding table by using the **Select Entries** function in the **Item Tracking Lines** window.</span></span>  
+  
+<span data-ttu-id="df4ae-124">For å bevare databaseytelsen hentes tilgjengelighetsdata bare én gang fra databasen når du åpner vinduet **Varesporingslinjer** og bruker funksjonen **Oppdater tilgjengelighet** i vinduet.</span><span class="sxs-lookup"><span data-stu-id="df4ae-124">To preserve database performance, availability data is only retrieved once from the database when you open the **Item Tracking Lines** window and use the **Refresh Availability** function in the window.</span></span>  
+  
+## <a name="calculation-formula"></a><span data-ttu-id="df4ae-125">Beregningsformel</span><span class="sxs-lookup"><span data-stu-id="df4ae-125">Calculation Formula</span></span>  
+<span data-ttu-id="df4ae-126">Tilgjengeligheten av et bestemt serie- eller partinummer beregnes på følgende måte, som beskrevet i den forrige tabellen:</span><span class="sxs-lookup"><span data-stu-id="df4ae-126">As described in the preceding table, the availability of a given serial or lot number is calculated as follows:</span></span>  
+  
+* <span data-ttu-id="df4ae-127">totalt disponibelt antall = antallet på lager – (alle behov + antallet som ennå ikke er lagret i databasen)</span><span class="sxs-lookup"><span data-stu-id="df4ae-127">total available quantity = quantity in inventory – (all demands + quantity not yet committed to the database)</span></span>  
+  
+> [!IMPORTANT]  
+>  <span data-ttu-id="df4ae-128">Denne formelen innebærer at tilgjengelighetsberegningen for serie- eller partinumre bare tar hensyn til beholdning og ignorerer forventede mottak.</span><span class="sxs-lookup"><span data-stu-id="df4ae-128">This formula implies that the serial or lot number availability calculation considers only inventory and ignores projected receipts.</span></span> <span data-ttu-id="df4ae-129">Levering som ennå ikke er bokført på lager, påvirker derfor ikke varesporingstilgjengelighet, i motsetning til vanlig varedisposisjon der forventede mottak er inkludert.</span><span class="sxs-lookup"><span data-stu-id="df4ae-129">Accordingly, supply that is not yet posted to inventory does not affect item tracking availability, as opposed to regular item availability where projected receipts are included.</span></span>  
+  
+## <a name="see-also"></a><span data-ttu-id="df4ae-130">Se også</span><span class="sxs-lookup"><span data-stu-id="df4ae-130">See Also</span></span>  
+[<span data-ttu-id="df4ae-131">Designdetaljer: Varesporing</span><span class="sxs-lookup"><span data-stu-id="df4ae-131">Design Details: Item Tracking</span></span>](design-details-item-tracking.md)
