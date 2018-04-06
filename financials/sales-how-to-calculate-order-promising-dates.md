@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: b31ba087798c3f54e54403ed418019c82ce3091c
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
@@ -39,7 +39,7 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 ## <a name="about-order-promising"></a>Om ordrebekreftelse
 Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes for datoene du godtar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  bruker to grunnleggende begreper:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker to grunnleggende begreper:  
 
 - Tilgjengelig for ordre (ATP)  
 - Første mulige forsendelsesdato (CTP)  
@@ -64,7 +64,7 @@ Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som lever
 - Forsendelsesdato + Utgående lager + Planlagt forsendelse + Håndteringstid = Dato  
 - Planlagt forsendelsesdato + Leveringstid = Planlagt leveringsdato  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
 
 - Planlagt forsendelsesdato - Leveringstid = Planlagt leveringsdato  
 - Planlagt forsendelsesdato - Utgående lagerhåndteringstid = Forsendelsesdato  

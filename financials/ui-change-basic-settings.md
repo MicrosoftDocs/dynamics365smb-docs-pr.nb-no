@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 03/29/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 3b2fb6a1d63e689d54d9b89b1edae0f18607f276
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7c9dec3bcb000be958acec3f0d88abbab9946bf8
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
@@ -27,9 +27,13 @@ Rollesenteret representerer Hjem-siden, en startside som er tilpasset behovene t
 
 I midten finner du Aktiviteter-flisene. Aktiviteter viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet. Sentrale ytelsesindikatorer kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter.
 
-Du kan også bygge opp en liste over favorittkunder på Hjem-siden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet. Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte data. Øverst på Hjem-siden finner du alle handlingene som kan brukes på gjeldende innhold. Dette kan også være skjult, og du trenger bare å klikke eller trykke i det skjulte området for å vise det på nytt.
+Du kan også bygge opp en liste over favorittkunder på Hjem-siden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet. Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte data. Øverst på Hjem-siden finner du alle handlingene som kan brukes på gjeldende innhold. Dette kan også være skjult, og du trenger bare å velge det skjulte området for å vise det på nytt.
 
-Standard rollesenter er **Forretningsleder**, men du kan velge et annet rollesenteret som passer bedre til dine behov. Hvis du vil ha mer informasjon, kan du se [Endre rollesenter](change-role.md).
+### <a name="to-change-role-center"></a>Endre rollesenter
+Standard rollesenter er **Forretningsleder**, men du kan velge et annet rollesenteret som passer bedre til dine behov.
+1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter"), og velg deretter **Mine innstillinger**.
+2. I vinduet **Mine innstillinger**, i feltet **Rollesenter**, velger du rollesenteret som du vil angi som standard. Velg for eksempel **Revisor**.
+3. Velg **OK**-knappen.
 
 ## <a name="company"></a>Selskap
 Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen.
@@ -56,6 +60,5 @@ Velg denne koblingen for å vise eller endre varslingene som du får om bestemte
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Endre rollesenter](change-role.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  
 

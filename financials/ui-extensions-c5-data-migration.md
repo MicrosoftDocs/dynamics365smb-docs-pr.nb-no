@@ -1,5 +1,5 @@
 ---
-title: Bruke C5 Data Migration-utvidelsen | Microsoft-dokumentasjon
+title: "Bruke C5-utvidelse for dataoverføring | Microsoft-dokumentasjon"
 description: "Bruk denne utvidelsen til å overføre kunder, leverandører, varer og finanskonti fra Microsoft Dynamics C5 2012 til Financials."
 services: project-madeira
 documentationcenter: 
@@ -16,11 +16,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d3b8d3d01ce75da59c1cce873077955776963ce9
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
-# <a name="the-c5-data-migration-extension-for-finance-and-operations-business-edition"></a>C5 Data Migration-utvidelsen for Finance and Operations, Business edition
+# <a name="the-c5-data-migration-extension-for-finance-and-operations-business-edition"></a>C5-utvidelse for dataoverføring for Finance and Operations, Business edition
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også overføre historiske poster for finanskonti.
 
 > [!Note]

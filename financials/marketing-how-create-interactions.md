@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/15/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 93d5bc9fd8189d5a8341faa252de9eac257901d2
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 61ee0eaccea5bfb3511537d825b2a0cb8948dee8
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
@@ -38,7 +38,7 @@ Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du v
 3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
-1. På Hjem-siden velger du **Aktive segmenter**, eller du kan velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Segmenter** og deretter velge den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene i inndelingen **Samhandling** i **Segment**-vinduet for å angi hvilken samhandling du vil tilordne segmentet.
 
     Etter at du har tilordnet en samhandling til segmentet, kan du tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene i vinduet **Segment**.  

@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 07/05/2017
+ms.date: 03/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 53c32e77be0ec3dad95ca61cefa1f0db6ac4809b
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 591d8100100ee717a932d188a87545fe4098a001
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="importing-data-from-legacy-accounting-software-using-a-configuration-package"></a>Importere data fra eldre regnskapsprogramvare ved hjelp av en konfigurasjonspakke
 Du kan importere hoveddata og noen transaksjonsdata fra andre finanssystemer som er basert på standard konfigurasjonspakke i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I vinduet **Konfigurasjonspakker** kan du arbeide med pakken for å importere og validere dataene før du bruker pakken.  
 
-Hvis du er kjent med RapidStart-tjenester for Microsoft Dynamics, er du også kjent med konfigurasjonspakker. Standard konfigurasjonspakke støtter de fleste vanlige typer data som du vil importere fra et eldre system. I Excel kan du deretter legge til data fra det gamle systemet og konfigurere dem i henhold til forretningslogikken i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+> [!NOTE]  
+> Konfigurasjonpakker er en del av RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], et omfattende verktøy for å definere nye løsninger basert på kundens forretningskrav og oppsettsdata. RapidStart Services har dessuten funksjoner for import av eldre data. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 > [!TIP]  
 >   Du kan også bruke veivisere for datamigrering til å importere data fra QuickBooks eller Dynamics GP. Hvis du vil ha mer informasjon, kan du se [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md) eller [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md).  
@@ -66,6 +67,7 @@ Når kundedataene er angitt i Excel, importerer du dataee til [!INCLUDE[d365fin]
 
 ## <a name="see-also"></a>Se også
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)  
 [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 

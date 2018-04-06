@@ -13,10 +13,10 @@ ms.search.keywords: find
 ms.date: 03/29/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5447914141d3a2a40af2438e854ef7ed3159405b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 8c337a507b1d6c6cfce65c068070f4e4dbccd953
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-for-a-page-or-report"></a>Søke etter en side eller rapport
@@ -27,7 +27,7 @@ Du kan finne sider og rapporter ved å velge ikonet **Søk etter side eller rapp
 Når du begynner å skrive inn tegn, åpnes en rullegardinliste med sidenavn som inneholder de innskrevne tegnene. Innholdet i rullegardinlisten endres etter hvert som du skriver inn flere tegn, og du kan velge ønsket side fra listen når siden vises. Den andre kolonnen i rullegardinlisten viser navigasjonsbanene til sidene som blir funnet. Det finnes også en kobling som lar deg søke i hjelpen for tegnene du skrev inn.
 
 > [!NOTE]  
->   Tilgjengelige sider og rapporter er avhengige av brukeropplevelsen du velger for selskapet. **Basic**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Tilgjengelige sider og rapporter er avhengige av brukeropplevelsen du velger for selskapet. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Essential**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 > [!NOTE]  
 >   Funksjonen **Søk etter side eller rapport** søker ikke gjennom data, for eksempel kundenavn, adresser eller transaksjoner. I stedet kan du søke etter data i listesider ved å velge Forstørrelsesprogram-symbolet til høyre for listeoverskriften. Søket gjelder bare listen du viser. Hvis du vil ha mer informasjon, kan du se [Angi vilkår i filtre](ui-enter-criteria-filters.md).

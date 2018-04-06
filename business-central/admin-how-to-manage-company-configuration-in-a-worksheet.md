@@ -1,0 +1,115 @@
+---
+title: Behandle selskapskonfigurasjon i et forslag | Microsoft-dokumentasjon
+description: "Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper."
+services: project-madeira
+documentationcenter: 
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 
+ms.date: 03/06/2018
+ms.author: sgroespe
+ms.translationtype: HT
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.contentlocale: nb-no
+ms.lasthandoff: 03/22/2018
+
+---
+# <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
+Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  
+
+Det første trinnet for klargjøring av en konfigurasjonspakke er å velge et selskap som du allerede har definert og endret i henhold til løsningsbehovene dine. Dette selskapet fungerer som grunnlag for konfigurasjon av nye selskaper. I forslaget angir du tabellene du vil at konfigurasjonen skal kontrollere og håndtere. Siden de fleste tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] har relasjoner og avhengigheter til andre tabeller, bør du også inkludere disse relaterte tabellene etter behov. Sammen fungerer disse tabellene som strukturen du bygger et nytt selskap rundt. De etterfølgende trinnene hjelper deg med å pakke og distribuere konfigurasjonen.  
+
+For å forenkle sporing og gjennomgang av arbeidet bruker du faktaboksen **Konfig.pakketabell**  til å vise informasjon om poster. Bruk av faktaboksen **Konfig.relatert tabeller** for å overvåke tabellrelasjoner.  
+
+Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinformasjon for konfigurasjonen.  
+
+## <a name="to-open-the-configuration-worksheet"></a>Åpne konfigurasjonsforslaget  
+1.  Åpne selskapet som er grunnlaget for konfigurasjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)], og åpne deretter rollesenteret for RapidStart Services-implementerer.  
+2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+
+## <a name="to-add-a-table-to-the-worksheet"></a>Legge til en tabell i forslaget  
+1.  I vinduet **Konfigurer forslag** velger du **Rediger oversikt**-handlingen.  
+2.  På den første tilbudslinjen i feltet **Linjetype** velger du **Tabell**.  
+4.  Velg tabellen du vil legge til i konfigurasjonen, i feltet **Tabell-ID**.  
+5.  I feltet **Side-ID** angi ID-en for siden som er knyttet til tabellen. For standardtabeller fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
+6.  I feltet **Referanse** angir du en URL-adresse til en dokumentasjonsside, for eksempel i Hjelp, som inneholder informasjon om anbefalte fremgangsmåter eller instruksjoner for hvordan du definerer tabellen.  
+7.  Hvis du vil legge til relaterte tabeller, velger du handlingen **Hent relaterte tabeller**.  
+
+    > [!NOTE]  
+    > Relaterte tabeller legges ikke til med handlingen **Hent relaterte tabeller** hvis noe av det følgende gjelder:
+    > - Relasjonen er betinget.  
+    > Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
+    > - Den tilknyttede tabellen filtreres.  
+    > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjon er lagret i systemtabellen **Felt**, som ikke er fullstendig tilgjengelig for programmet.  
+    > Du må legge til slike tabelltyper manuelt ved å følge trinn 4 i denne fremgangsmåten.  
+
+8.  Hvis du vil endre listen over tabeller, merker du en tabell som du vil fjerne, og deretter velger du handlingen **Slett**.  
+9. Gjenta trinnene for hver tabell du vil legge til i konfigurasjonen.  
+10. Du kan fjerne duplisert tabellinformasjon, som kan skyldes bruk av handlingen **Hent relaterte tabeller**, ved å velge handlingen **Slett dupliserte linjer**. Dermed fjernes like tabeller som har samme pakkekode.  
+
+## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Slik legger du til flere tabeller i konfigurasjonsforslaget:  
+1. Velg handlingen **Hent tabeller**. Kjørselsvinduet **Hent konfig.tabeller** åpnes.  
+2. På hurtigfanen **Alternativer** angir du hvilke tabelltyper du vil legge til i konfigurasjonen, som beskrevet i tabellen nedenfor.
+
+    |Alternativ|Description|  
+    |----------------------------------|---------------------------------------|  
+    |**Inkluder bare med data**|Merk avmerkingsboksen for å bare inkludere tabeller som inneholder data. Du vil for eksempel kanskje ta med en tabell som allerede definerer de typiske betalingsbetingelsene som løsningen støtter.|  
+    |**Inkluder relaterte tabeller**|Merk avmerkingsboksen for å inkludere alle relaterte tabeller. Hvis du vil legge til et delsett med relaterte tabeller, kan du se trinn 3 i denne prosedyren.|  
+    |**Inkluder dimensjonstabeller**|Merk avmerkingsboksen for å inkludere dimensjonstabeller.|  
+    |**Inkluder bare lisensierte tabeller**|Velg avmerkingsboksen for å bare inkludere tabeller som lisensen du oppretter regnearket under gir deg tilgang til.|
+
+3. På hurtigfanen **Objekt** definerer du filtre etter behov for å angi hvilke tabelltyper du vil inkludere eller ekskludere.  
+4. Velg **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)]tabeller legges til i regnearket. Hver post i listen har linjetypen **Tabell**.  
+5. Du kan fjerne duplisert tabellinformasjon, som kan skyldes bruk av handlingen **Hent tabeller**, ved å velge handlingen **Slett dupliserte linjer**. Dermed fjernes like tabeller som har samme pakkekode.  
+6. Du kan legge til tabeller i forslaget som er relatert til en tabell du har valgt. Se gjennom opplysningene i faktaboksen **Relaterte tabeller** for å se om det er manglende tabeller. Hvis du vil legge til relaterte tabeller for en bestemt tabell, velger du tabellen i listen. Deretter velger du handlingen **Hent relaterte tabeller**.  
+
+    > [!NOTE]  
+    > Relaterte tabeller legges ikke til med handlingen **Hent relaterte tabeller** hvis noe av det følgende gjelder:
+    > - Relasjonen er betinget.  
+    > Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
+    > - Den tilknyttede tabellen filtreres.  
+    > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjonen er lagret i den virtuelle tabellen **Felt** og ikke er tilgjengelig i vinduer, for eksempel konfigurasjonsregnearket for ytelseshensyn.  
+    > Du må legge til relaterte tabeller med slike komplekse relasjoner manuelt ved å følge trinn 4 under "Legge til en tabell i forslaget".
+
+7. Hvis du vil slette tabeller i listen over tabeller, merker du en tabell som du vil fjerne, og deretter velger du handlingen **Slett**.  
+
+Bruk den neste fremgangsmåten til å angi hvilke tabellfelt som skal inkluderes. Når du har angitt denne spesifikasjonen, kan du eksportere tabellen til Excel og bruke tabellstrukturen som en mal for innsamling av kundedata. Hvis du vil ha mer informasjon, kan du se [Klargjøre for å flytte kundedata](admin-use-templates-to-prepare-customer-data-for-migration.md).  
+
+## <a name="to-specify-a-set-of-fields-and-records-for-a-configuration-table"></a>Slik angir du et sett med felt og poster for en konfigurasjonstabell:  
+1. Velg en tabell i listen over konfigurasjonstabeller, og velg deretter handlingen **Rediger oversikt**.  
+2. Velg en tabell du vil endre angi feltinformasjon for og deretter handlingen **Felt**.  
+3. Hvis du bare vil velge felt du vil inkludere, velger du handlingen **Fjern inkludert**. Hvis du vil legge til alle felt, velger du handlingen **Sett inkludert**.  
+4. Hvis du vil angi at feltdataene ikke skal valideres, fjerner du merket for **Valider felt** for feltet.  
+5. Velg **OK**-knappen.  
+6. Når du skal filtrere et bestemt sett med poster som skal tas med i konfigurasjonsforslaget, velger du handlingen **Filtre** og angir deretter filterverdiene du vil bruke.
+
+Du kan opprette funksjonalitetsområder og grupper med tabeller i forslaget for å plassere lignende funksjonalitet sammen. Når du oppretter kontoplanen for konfigurasjonen, kan du for eksempel opprette en gruppe med bokføringstabeller. Områder brukes vanligvis til å gruppere et sett med tabeller som svarer til et funksjonsområde. Hvert område kan inneholde grupper. En gruppe kan brukes til å ordne tabeller som har en felles betydning, sammen.  
+
+Følgende fremgangsmåte beskriver hvordan du legger til område- og gruppebetegnelser etter at du har opprettet den første listen over tabeller. Når du har lagt til disse kategoriene, kan du fortsette å legge til og endre listen over tabeller.  
+
+## <a name="to-categorize-and-group-functionality-in-the-worksheet"></a>Slik kategoriserer og grupperer du funksjonalitet i forslaget:  
+1. I begynnelsen av et område kan du sette inn en ny linje i regnearket.  
+2. Velg **Område** i **Linjetype**-feltet. Angi et navn for området i feltet **Navn**.  
+3. I begynnelsen av en gruppering av tabeller kan du sette inn en ny linje i regnearket.  
+4. Velg **Gruppe** i **Linjetype**-feltet. Angi et navn for området i feltet **Navn**. Gruppenavnet rykkes inn automatisk.  
+5. Hvis du vil flytte tabeller til den aktuelle kategorien, velger du tabellen du vil flytte, og deretter velger du handlingen **Flytt opp** eller **Flytt ned**. Du kan også slette en forslagslinje og sette inn tabellen på nytt på den påkrevde plasseringen.  
+
+Noen [!INCLUDE[d365fin](includes/d365fin_md.md)]\-tabeller er standard, og dataene i dem endrer seg sannsynligvis ikke fra implementering til implementering. For å hjelpe kunden med å fokusere kan du derfor fjerne disse tabellene fra forslaget etter at du har inkludert dem i konfigurasjonspakken. Når tabellene er lagt til, forblir de en del av konfigurasjonspakken.  
+
+## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Fjerne en standardtabell i regnearket  
+Når du har lagt til alle nødvendige tabeller i en konfigurasjonspakke, kan du bestemme hvilke tabeller som ikke vil kreve kundens oppmerksomhet.  
+1.  Velg tabellene, og deretter slette dem ved å velge handlingen **Slett**.  
+
+    > [!NOTE]  
+    >  Tabellene blir pakken selv om de slettes fra forslaget.  
+
+## <a name="see-also"></a>Se også  
+[Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
+[Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Administrasjon](admin-setup-and-administration.md)
+

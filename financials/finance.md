@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/28/2017
+ms.date: 02/28/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 71a311e3aefd22dd0c7d0af6eb24d54e0d2a1afe
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 655c2248d10b357fd6ac5f3dba5cf71d7fd2c77b
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
 
 Standardkonfigurasjonen inneholder kontoplaner og standard bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.  
 
@@ -33,6 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Få kundene til å sende betaling før du leverer til dem, eller send betaling til leverandører før de leverer til deg.|[Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)|
 | Avstemme bankkonti og overføre penger mellom konti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
 |Konfigurer konserninterne partnere og behandle transaksjoner, manuelt eller automatisk, mellom juridiske enheter i det samme selskapet.|[Behandle konserninterne transaksjoner](intercompany-manage.md)|
+|Kombinerer finanspostene fra flere selskaper i ett virtuelt "konsolidert selskap" for finansanalyse.|[Konsolidere finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)|
 |Analyser kostbeløpene for å kjøre bedriften ved å tildele faktiske og budsjetterte kostbeløpe for operasjoner, avdelinger, produkter og prosjekter til kostsentre.|[Gjøre rede for kostnader](finance-manage-cost-accounting.md)|
 |Håndtere lager- og produksjonskost, rapportere kost og avstemme kost mot Finans.|[Administrere lagerkostnader](finance-manage-inventory-costs.md)|
 | Forstå Finans og kontoplanen. |[Forstå Finans og kontoplanen](finance-general-ledger.md) |

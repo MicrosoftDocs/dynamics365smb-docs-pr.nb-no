@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: d5f3ef437e19ec037dc8f81aac6a8d283fc251a5
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Forsikre aktiva
@@ -70,7 +70,7 @@ Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de
 5. Åpne den aktuelle forsikringskladden, gå gjennom verdiene som er opprettet, og bokfør dem deretter i forsikringsdekningsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Slik kontrollerer du forsikringsdekningen:
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  tilbyr dedikerte rapporter og statistikkvinduer for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr dedikerte rapporter og statistikkvinduer for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversikt over forsikringspoliser
 For å få en oversikt over forsikringspolisene, forhåndsvis eller skriv ut rapporten **Forsikring - oversikt**. Rapporten viser alle policyene og de viktigste feltene fra forsikringskortene.  

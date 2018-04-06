@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3b52f7c62cc13d27ff4d96ff5b9087d3560d6fbc
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokføre serviceordrer og kreditnotaer
@@ -99,7 +99,7 @@ Følgende fremgangsmåte viser hvordan du bokfører levering av servicelinjevare
   
 4. Velg **Handlinger**, **Bokføring** og **Bokfør**. Velg **Levere** i vinduet som vises.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  oppretter poster (i garantiposten, vareposten, serviceposten eller Finans). I tillegg produseres det bokførte servicefølgeseddeldokumentet, og relevante felt i servicelinjene i serviceordren oppdateres.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter poster (i garantiposten, vareposten, serviceposten eller Finans). I tillegg produseres det bokførte servicefølgeseddeldokumentet, og relevante felt i servicelinjene i serviceordren oppdateres.  
   
 Hvis lokasjonen er definert slik at lagerhåndtering kreves, fungerer levering og flytting av servicelinjevarer på samme måte som for andre kildedokumenter. Den eneste forskjellen er at servicelinjevarer kan forbrukes eksternt eller internt, og krever derfor to forskjellige frigivelsesfunksjoner.  
   

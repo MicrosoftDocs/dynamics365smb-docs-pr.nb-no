@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b679c2762c67c6d78bcc6be293e6aabde4a58848
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 712f0de68476a73871672c399bc5be72d511d9c1
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
@@ -25,7 +25,7 @@ Vinduet **Poster i jobbkø** viser alle eksisterende jobber. Hvis du vil legge t
 
 Hvis du vil, kan du angi et filter i feltet **Filter for jobbkøkategori**. Jobbkøkategorier kan brukes til å gruppere jobber i oversikten.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost. Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost. Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.
 
 ### <a name="log-files"></a>Loggfiler
 Feilmeldinger vises i vinduet **Loggposter for jobbkø**, som du får tilgang til fra båndet. Du kan også feilsøke jobbkøfeil. Data som genereres ved kjøring av en jobbkø, lagres i databasen.  
@@ -35,7 +35,7 @@ Jobbkøer er et effektivt verktøy for å planlegge kjøringen av forretningspro
 
  Du kan også planlegge bokføringer for timer når det passer for din organisasjon. I din virksomhet kan det for eksempel være fornuftig å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort. Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringspostrapporter, for eksempel rapportene **Salgsfakturaer - massebokfør**, **Salgskr.notaer - massebokfør** og **Salgskr.notaer - massebokfør**.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter bakgrunnsbokføring for følgende dokumenttyper:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter bakgrunnsbokføring for følgende dokumenttyper:  
 
 -   Salg: ordre, ordreretur, kreditnota, faktura  
 
@@ -52,7 +52,7 @@ Du konfigurere denne bruken av jobbkøen i henholdsvis vinduet **Salgsoppsett** 
 >  Hvis du konfigurerer en jobb som bokfører og skriver ut dokumenter, og skriveren viser en dialogboks, for eksempel en forespørsel om legitimasjon eller en advarsel om lavt skriverblekk, blir dokumentet bokført, men ikke skrevet ut. Den tilsvarende jobbkøposten blir til slutt tidsavbrutt, og  **Status**    -feltet settes til  **Feil**. Vi anbefaler derfor at du ikke bruker et skriveroppsett som krever samhandling med visningen av dialogbokser for skriveren i forbindelse med bakgrunnsbokføring.  
 
 ## <a name="use-the-my-job-queue-part"></a>Bruke delen Min jobbkø
-Delen **Min jobbkø** viser jobbkøpostene som en bruker har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Endre rollesentre](change-role.md).  
+Delen **Min jobbkø** viser jobbkøpostene som en bruker har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
 I denne delen kan du se dokumentene som behandles eller er lagt i kø, og som IDen din er angitt for i feltet **Tilordnet bruker-ID**. Delen hjelper deg med å holde oversikt over alle jobbkøposter, inkludert de som er relatert til bakgrunnsbokføring. Delen kan på et øyeblikk fortelle deg om det har oppstått en feil i posteringen av et dokument, eller om det er feil i en jobbkøpost. Delen gjør det også mulig å avbryte en dokumentpostering hvis den ikke kjører.  
 

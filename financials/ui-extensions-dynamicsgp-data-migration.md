@@ -15,10 +15,10 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: bfd3ca3e28b6eb3efa2a16cc131b508db6bd1590
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Dynamics C5 Data Migration-utvidelsen for Finance and Operations, Business edition 
+# <a name="the-dynamics-gp-data-migration-extension-for-finance-and-operations-business-edition"></a>Dynamics C5-utvidelse for dataoverføring for Finance and Operations, Business edition 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører og lagervarer og konti fra Dynamics GP til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevant hovedposter og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Overfør forretningsdata fra andre økonomisystemer](upload-data.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Eksportere data fra Dynamics GP

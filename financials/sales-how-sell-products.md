@@ -13,10 +13,10 @@ ms.search.keywords: trade
 ms.date: 01/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 6e18df20a5bef5aae44f476755eede73c99668da
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: b396908f9c63b63eb8eb0a3e9fd84d20cd1c6c32
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="sell-products"></a>Selge produkter
@@ -40,7 +40,7 @@ Varer kan være både varer og tjenester, betegnet av typene **Vare - lager** og
 Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-order"></a>Opprette en ordre
-1. Velg handlingen **Ordre** på Hjem-siden.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen. 
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
     Andre felt i **Ordre**-vinduet fylles nå med standardinformasjon for den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:

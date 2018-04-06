@@ -13,10 +13,10 @@ ms.search.keywords: news
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 78f340d619f622c6bca91bd97f0fcd8ae6b28acd
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 46e2150432c4e304fbfce63ae5eecea443391efe
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="whats-new-in-dynamics-365-for-finance-and-operations-business-edition"></a>Nyheter i Dynamics 365 for Finance and Operations, Business edition
@@ -90,7 +90,7 @@ Denne oppdateringen legger til handlinger til leverandør-instrumentbord i Outlo
 Outlook-tillegget går nå til Outlook-kalenderen. Fra en avtale i kalenderen, kan du åpne den [!INCLUDE[d365fin](includes/d365fin_md.md)] -i og få en oversikt for kunden som er tilknyttet avtalen. Deretter kan du opprette og sende en faktura for tjenester som leveres i møte - alle dette skjer rett i Outlook-kalenderen. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](madeira-outlook.md).  
 
 ### <a name="appsource-marketplace-for-extensions"></a>AppSource-markedsplass for utvidelser
-[!INCLUDE[d365fin](includes/d365fin_md.md)] Utvidelser blir nå tilgjengelig på AppSource-markedsplassen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søke etter og finne utvidelser i på markedsplassen. Du vil kunne vise informasjon, inkludert markedsføring materialer, skjermbilder, videoer og koblinger til mer informasjon. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser blir nå tilgjengelig på AppSource-markedsplassen på [AppSource.microsoft.com](https://appsource.microsoft.com/). Du kan søke etter og finne utvidelser i på markedsplassen. Du vil kunne vise informasjon, inkludert markedsføring materialer, skjermbilder, videoer og koblinger til mer informasjon. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).  
 
 ### <a name="shipping-agents-and-item-attributes"></a>Transportører og vareattributter
 Du kan legge til attributter i lagervarer som gjør det svært enkelt å finne det riktige produktet som kunden ønsker. Hvis du vil ha mer informasjon, kan du se [Arbeide med vareattributter](inventory-how-work-item-attributes.md).  
@@ -100,7 +100,7 @@ Med denne oppdateringen kan du velge mellom flere utvidelser i vinduet **Adminis
 Hvis du vil ha mer informasjon, kan du se [[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra andre leverandører](ui-extensions-other.md).  
 
 ### <a name="manage-your-customer-relationships-using-microsoft-dynamics-365-for-sales-from-inside-included365finincludesd365finmdmd"></a>Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]
-Vi har lagt til en ny assistert installasjonsveiledningen til hjemmesiden for Business Manager som leder deg gjennom installasjonen til å koble til Dynamics 365 for Sales. Når dette er gjort, vil du ha en sømløs kobling i Dynamics 365 for Sales-oppføringer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Hvis du vil ha mer informasjon, kan du se [Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
+Vi har lagt til en ny assistert installasjonsveiledningen til Rollesenter for forretningsleder som leder deg gjennom installasjonen til å koble til Dynamics 365 for Sales. Når dette er gjort, vil du ha en sømløs kobling i Dynamics 365 for Sales-oppføringer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. Hvis du vil ha mer informasjon, kan du se [Administrere kundeforholdene ved hjelp av Microsoft Dynamics 365 for Sales fra [!INCLUDE[d365fin](includes/d365fin_md.md)]](marketing-integrate-dynamicscrm.md).
 
 ## <a name="may-2016-update"></a>Mai 2016 oppdatering
 Denne oppdateringen av [!INCLUDE[d365fin](includes/d365fin_md.md)] la til nye funksjoner som [annonsert på bloggen](https://community.dynamics.com/business/b/financials/archive/2016/06/01/new-and-updated-capabilities-in-the-first-update-of-project-quot-madeira-quot).  
@@ -122,7 +122,7 @@ Viktige scenarier å prøve på egen hånd:
 - [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](madeira-no-outlook.md)  
 - [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
 - [Aktivere forretningsdata for Power BI](madeira-powerbi.md)  
-- [Endre rollesenteret](change-role.md)  
+- [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 
 
 

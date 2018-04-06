@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1d0130dde256706460e58e5efc445bc5f4d5c595
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Definere eller endre kontoplanen
@@ -33,7 +33,7 @@ For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstilli
 * Feltet **Tillat sletting av finanskto. før** må være satt i vinduet **Finansoppsett**, og kontoen kan ikke ha finansposter på eller etter denne datoen.  
 * Hvis feltet **Kontroller finanskontobruk** er valgt i vinduet **Finansoppsett**, må ikke kontoen brukes i bokføringsgrupper eller bokføringsoppsett.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
 
 ## <a name="see-also"></a>Se også
 [Finans og kontoplanen](finance-general-ledger.md)  

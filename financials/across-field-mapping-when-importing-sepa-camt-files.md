@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 9f99b1fce3c44fdf2053a74b8fa090c6b69aef1a
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Felttilordning ved import av SEPA CAMT-filer
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Konfigurere konverteringstjenesten for bankdata](bank-how-setup-bank-data-conversion-service.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Konfigurere konverteringstjenesten for bankdata](bank-how-setup-bank-data-conversion-service.md).  
 
  SEPA CAMT-standarden har også lokale variasjoner. Derfor må du kanskje endre den generiske datautvekslingsdefinisjonen (angitt med **SEPA CAMT**-koden i vinduet **Definisjoner av bokføringsutveksling**) for å tilpasse det til en lokal variant av standarden. Tabellene nedenfor viser til element-til-felt-tilordningen for tabell 81, 273 og 274 i implementeringen av SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

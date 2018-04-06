@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/11/2017
+ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9c48b1258a5000f3ef994a02fe98387de50c8ac1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 4f180f280415584d7bb216ee5be997f266d38ab2
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturere salg
@@ -34,6 +34,10 @@ Hvis kunden bestemmer seg for å kjøpe, kan du bokføre salgsfaktura for å lag
 
 I forretningsmiljøer der kunden må betale før produkter leveres, for eksempel i detaljhandel, må du vente til mottak av betalingen før du leverer produktene. I de fleste tilfeller kan du behandle innkommende betalinger noen uker etter levering ved å utligne betalingene mot deres tilknyttede bokførte, ubetalte salgsfakturaer. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
+I miljøer der kunden betaler umiddelbart, for eksempel kontant, ved PayPal eller kredittkort, kan du velge metoden som er aktuell i vinduet **betalingsmåtekoden** på salgsfakturaen. Betaling registreres deretter umiddelbart i den bokførte fakturaen. For betalingstjenester må du også fylle ut feltet **Betalingstjeneste** feltet. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
+
+Du kan opprette direkte betalte fakturaer for kunder som ikke er registrert ved å definere et kontant kundekort, som du velger på salgsfakturaen. Du finner mer informasjon under [Definere kontantkunder](finance-how-to-set-up-cash-customers.md).  
+
 Du kan enkelt korrigere eller annullere en bokført salgsfaktura før den er betalt. Dette er for eksempel praktisk hvis du vil rette en skrivefeil, eller hvis kunden ber om en endring tidlig i ordreprosessen. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md). Hvis den bokførte salgsfakturaen er betalt, må du opprette en salgskreditnota for å reversere salget. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).
 
 Varer kan være både varer og tjenester, betegnet av typene **Lager** og **Service** på varekortet. Salgsfakturaprosessen er den samme for begge varetyper. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
@@ -41,7 +45,7 @@ Varer kan være både varer og tjenester, betegnet av typene **Lager** og **Serv
 Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-invoice"></a>Slik oppretter du en salgsfaktura
-1. Velg handlingen **Salgsfaktura** på Hjem-siden.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
    Andre felt i **Salgsfaktura**-vinduet inneholder nå standardinformasjon for den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:
@@ -60,8 +64,8 @@ Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedl
 9. På **Linjer**-hurtigfanen i **Type**-feltet velger du typen produkt, tillegg eller transaksjon som du vil legge til for kunden med salgslinjen.
 10. I **Nr.** velger du en post skal bokføres, i henhold til verdien i **Type**-feltet.
 
- La feltet **Nr.** stå tomt i følgende tilfeller: – Hvis linjen er for en kommentar. Skriv inn kommentaren i **Beskrivelse**-feltet.
- - Hvis linjen er for en katalogvare. Velg handlingen **Velg katalogvarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).
+    La feltet **Nr.** stå tomt i følgende tilfeller: – Hvis linjen er for en kommentar. Skriv inn kommentaren i **Beskrivelse**-feltet.
+        - Hvis linjen er for en katalogvare. Velg handlingen **Velg katalogvarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).
 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 

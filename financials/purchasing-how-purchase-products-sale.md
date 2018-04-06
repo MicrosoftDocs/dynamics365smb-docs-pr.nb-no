@@ -13,10 +13,10 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 67e76ea76267c001277be3203c28103c3acb3214
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: bb89654d7bc48ad9746265b15cf0b6270fec2f7c
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="purchase-items-for-a-sale"></a>Kjøpe varer for salg
@@ -29,7 +29,7 @@ I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kj�
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Opprette én eller flere bestillinger fra en ordre
 Hvis du vil opprette en bestilling for hvert utilgjengelige vareantall i ordren, bruker du funksjonen **Opprett bestillinger**.
 
-1. Velg flisen **Pågående ordrer** på Hjem-siden.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en ordre du vil kjøpe varer for.
 3. Velg handlingen **Opprett bestillinger**.
 
@@ -52,7 +52,7 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 > [!NOTE]  
 >   Denne funksjonen oppretter en kjøpsfaktura for det nøyaktige vareantallet i det valgte salgsdokumentet. Hvis du vil endre kjøpsantallet, må du redigere kjøpsfakturaen etter at den er opprettet.  
 
-1. Velg flisen **Pågående salgsfakturaer** på Hjem-siden.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en salgsfaktura du vil kjøpe varer for.
 3. Velg én eller flere salgsfakturalinjer du vil bruke på kjøpsfakturaen. Hvis du vil bruke alle salgsfakturalinjene, merker du dem alle eller ingen av dem.
 4. Velg handlingen **Opprett kjøpsfaktura**.

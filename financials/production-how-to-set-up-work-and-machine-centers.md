@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 45477104c003d60786961f4329c1543a96be5b0c
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
@@ -83,7 +83,7 @@ Hvis kapasiteter i arbeidssentre ikke skal bidra i den totale kapasiteten, kan d
 ## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Slik definerer du kapasitetsbegrensede maskiner eller arbeidssentre:
 Du må sette opp produksjonsressurser som du anser som kritiske og utpeke dem som i stand til å håndtere en begrenset belastning i stedet for den ubegrensede belastningen som andre produksjonsressurser godtar. En kapasitetsbegrenset ressurs være et arbeidssenter eller en produksjonsressurs som er identifisert som flaskehals, og som du derfor vil tildele en begrenset belastning for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
 
 I vinduet **Kapasitetsbegrensede ressurser** kan du gjøre oppsett som unngår overbelastning av bestemte ressurser og sikre at all kapasitet fordeles hvis den kan øke gjennomløpstiden til en produksjonsordre. I feltet **Avdemping (% av total kap.)** kan du legge til avdempningstid i ressurser for å minimere oppdeling av operasjonen. Dette gjør at systemet kan planlegge belastning på den aller siste dagen ved å overskride den kritiske belastningsprosenten litt hvis dette kan redusere antall delte operasjoner.
 

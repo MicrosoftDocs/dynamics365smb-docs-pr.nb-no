@@ -12,16 +12,16 @@ ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 03/30/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: dc22f7e06cf0686238cf1b6ab43951f3943e38a3
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: a31558764cf8c2bccde7598119216096803eb1ca
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter i e-post
 For å formidle innholdet i forretningsdokumenter raskt til dine forretningspartnere, for eksempel betalingsinformasjon for salgsdokumenter for kunder, kan du bruke funksjonen Rapportoppsett til å definere dokumentspesifikt innhold som blir satt inn automatisk i brødteksten i e-post. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).
 
-Hvis du vil aktivere e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], starter du det assisterte oppsettet **Konfigurer e-post** på Hjem-siden.
+Hvis du vil aktivere e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], starter du det assisterte oppsettet **Konfigurer e-post** på Rollesenteret.
 
 Du kan sende nesten alle dokumenttyper som vedlegg i e-postmeldinger direkte fra vinduet som viser dokumentet. I tillegg til vedlegget kan du definere dokumentspesifikke brødtekster for e-post med kjerneinformasjon fra dokumentet, som innledes med standardtekst som hilser e-postmottakeren og introduserer det aktuelle dokumentet. For å tilby kundene å betale for salg med elektroniske betalingstjenester, for eksempel PayPal, kan du også sette inn PayPal-informasjonen og -hyperkoblingen i brødteksten i e-posten.
 

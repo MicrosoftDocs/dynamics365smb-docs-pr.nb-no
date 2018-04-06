@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 439776669b9978ab622131aac770679ed08900ea
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 85b5583d18042b05aea264d59ed9484dddeb4d12
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning"></a>Planlegging
@@ -25,7 +25,7 @@ Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, 
 > [!NOTE]
 > Dette emnet beskriver hovedsakelig planlegging for selskaper som er involvert i produksjons- eller monteringsstyring der de resulterende forsyningsordrene kan være produksjon, montering, overføring eller bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er vinduet **Planleggingsforslag**.
 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter også forsyningsplanlegging for engrosselskaper der de resulterende forsyningsordrene bare kan være overføringsordrer og bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er vinduet **Bestillingsforslaget**, som beskrives indirekte i dette emnet siden det meste av planleggingsfunksjonaliteten gjelder for begge forslag.
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter også forsyningsplanlegging for engrosselskaper der de resulterende forsyningsordrene bare kan være overføringsordrer og bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er vinduet **Bestillingsforslaget**, som beskrives indirekte i dette emnet siden det meste av planleggingsfunksjonaliteten gjelder for begge forslag.
 
 Før du kan planlegge og utføre produksjonsordrer, må du konfigurere produksjonskapasitet, for eksempel opprette produksjonskalendere, ruter, produksjonsstykklister og produksjonsressurser. Hvis du vil ha mer informasjon, kan du se [Definere produksjon](production-configure-production-processes.md).
 

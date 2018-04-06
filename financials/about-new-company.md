@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 07/14/2017
+ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d18845dfb3c904139b1b392619d04611522c6e12
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 10fb70ded1407c95034db6fcf974c37c6e119099
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="creating-new-companies-in-included365finincludesd365finmdmd"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -25,14 +25,15 @@ Hvis du vil legge til et selskap til din [!INCLUDE[d365fin](includes/d365fin_md.
 
 Oppsettsveiviseren har tre maler:
 
--   **Suite-evaluering**  
+-   **Evaluering - eksempeldata**  
     Dette oppretter et selskap som ligner på demoselskapet, med eksempeldata og oppsettsdata.  
--   **Suite-produksjon**  
-    Dette oppretter et selskap som ligner på **Mitt selskap**, med oppsettsdata, men uten eksempeldata.  
--   **Ny**  
+-   **Produksjon - bare oppsettsdata**  
+    Dette oppretter et selskap som ligner på **Mitt selskap**, med oppsettsdata, men uten eksempeldata.
+-   **Avansert evaluering - fullført eksempeldata** - dette oppretter et selskap med oppsettdata og fullfør eksempeldata for alle funksjoner, inkludert produksjons- og servicehåndtering
+-   **Opprett nytt- ingen data**  
     Dette oppretter et tomt selskap uten oppsettsdata.  
 
-Hvis du ønsker å begynne med et nytt selskap, må du velge **Suite-produksjon** og deretter importere egne forretningsdata, for eksempel kunder, varer og leverandører. Velg **Ny**-malen hvis du vil definere alt fra begynnelsen. I så fall kan du bruke veiviseren **Selskapsoppsett** med assistert oppsett for å komme i gang med grunnleggende oppsettsdata.  
+Hvis du ønsker å begynne med et nytt selskap, må du velge **Produksjon - Bare oppsettsdata** og deretter importere egne forretningsdata, for eksempel kunder, varer og leverandører. Velg **Ny**-malen hvis du vil definere alt fra begynnelsen. I så fall kan du bruke veiviseren **Selskapsoppsett** med assistert oppsettsveiledning for å komme i gang med grunnleggende oppsettsdata.  
 
 > [!NOTE]  
 >   Når du oppretter et nytt selskap, tar litt tid før du kan bruke det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Statusen for oppsettet i vinduet **Selskaper** viser når det nye selskapet er klart. Deretter du kan bytte til et nytt selskap ved hjelp av **Mine innstillinger**.  
@@ -44,10 +45,11 @@ Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** a
 
 For eksempel firmaadressen er inkludert i fakturaer og andre dokumenter, bankinformasjonen brukes i betalinger og kostmetoden brukes til å beregne priser og lagerverdisetting.  
 
-Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurere Finance and Operations, Business edition](setup.md).  
+Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
 
 ## <a name="see-also"></a>Se også
-[Konfigurere Finance and Operations, Business edition](setup.md)  
+[Tilpasse Finance and Operations, Business edition](ui-customizing-overview.md)  
+[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

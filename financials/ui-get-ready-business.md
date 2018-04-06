@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 03/21/2017
+ms.date: 02/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2743061f3581d8938cc020960777f8e8f71b25e1
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f3ec96ef0f9c69c4942e85e7438f80bc70e6f37d
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
@@ -23,10 +23,10 @@ Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](incl
 
 For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til vinduet **Virksomhetshjelp** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du åpner vinduet fra diagrammet i rollesenteret **Forretningsleder** ved å velge rullegardinlisten **Virksomhetshjelp** og deretter velge det **Vis ressurser for oppsett og hjelp**. Når du oppdaterer siden, erstattes diagrammet med ressurser for oppsett og hjelp.
 
-På hjemmesiden nederst i navigasjonsruten finner du menyen **Oppsett og utvidelser**. Utvid **Hjem**-knappen for å se navigasjonsruten. Her har du tilgang til en liste over assisterte oppsett som kan hjelpe deg med å komme i gang. Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre assistert oppsettet kan hjelpe deg, avhengig av dine behov. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+På Rollesenteret nederst i navigasjonsruten finner du menyen **Oppsett og utvidelser**. Utvid **Hjem**-knappen for å se navigasjonsruten. Her har du tilgang til en liste over assisterte oppsett som kan hjelpe deg med å komme i gang. Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre assistert oppsettet kan hjelpe deg, avhengig av dine behov. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
->   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Suite**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
+>   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Essential**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).
 
 I vinduet **Assistert oppsett** finner du følgende sammen med **Basic**-opplevelsen:
 
@@ -62,4 +62,7 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)
+
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/training_link_md.md)]
 

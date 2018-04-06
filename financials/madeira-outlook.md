@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3e22e907667127508634ce56b9d40e4b9cad01f5
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-finance-and-operations-business-edition-as-your-business-inbox-in-outlook"></a>Bruke Finance and Operations, Business edition som innboks for virksomheten i Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tillegget
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] er ett av trinnene i det assisterte oppsettet Komme i gang i vinduet **Styr virksomheten fra Office 365**. Når du velger **Konfigurer i Outlook**-knappen i dette vinduet, må du angi brukernavnet og passordet ditt for Office 365. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  

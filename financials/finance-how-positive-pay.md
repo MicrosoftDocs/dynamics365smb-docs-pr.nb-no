@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 57580354c2ea5b63162e1539cf2f97eb9770c50b
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
 For å sørge for at banken bare innfrir validerte sjekker og beløp, kan du eksportere en Positive Pay-fil med relevant leverandørinformasjon, sjekknummer og betalingskonto, som du deretter sender til banken for referanse når du behandler betalinger.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  er forhåndskonfigurert til å støtte Positive Pay-filer for Bank of America og City Bank.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er forhåndskonfigurert til å støtte Positive Pay-filer for Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Slik definerer du en bankkonto for Positive Pay
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.

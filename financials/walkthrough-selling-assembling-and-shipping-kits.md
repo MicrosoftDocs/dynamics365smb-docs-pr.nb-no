@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 015acdfbbc349477b9e86225f2c971f993215000
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
@@ -36,7 +36,7 @@ Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. 
 -   Opprette en monteringsstykkliste som viser monteringskomponentene og ressursen som inngår i monteringsvaren.  
 
 ### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
 
 -   Opprette en ren ATO-ordrelinje der det fullstendige antallet er utilgjengelig og må være montert før levering.  
 -   Tilpasse ATO-varer.  

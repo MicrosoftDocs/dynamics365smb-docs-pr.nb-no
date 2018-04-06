@@ -13,10 +13,10 @@ ms.search.keywords: online payment
 ms.date: 07/07/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: cfa15ee7b85f1bd01077493d295f230e836239a7
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: c8f3faa68280a1c6157ab62ca2a19ce964bdbfd4
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Aktivere kundebetalinger gjennom betalingstjenester
@@ -35,7 +35,7 @@ Tilleggene Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard
 6. Lukk vinduet.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Velge en betalingstjeneste på en salgsfaktura
-1. Velg handlingen **Salgsfakturaer** på Hjem-siden.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Åpne Salgsfaktura som du ønsker å betale ved hjelp av betalingstjenesten.  
 3. I feltet **Betalingstjeneste** velger du betalingstjenesten.  
 

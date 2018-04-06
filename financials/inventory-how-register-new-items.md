@@ -12,10 +12,10 @@ ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 08/31/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 39a701fb0ff705508fdc4ddcec0af661d234e8c8
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 9643e71c29adf4b4be1d9d474832e3e29f2c21d8
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-items"></a>Registrere nye varer
@@ -33,7 +33,7 @@ En vare kan struktureres som en overordnet vare med underliggende underordnede v
 Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varekortet. Leverandørene vises deretter i vinduet **Vare/leverandør-katalog**, slik at du enkelt kan velge en annen leverandør.
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
-1. På Hjem-siden velger du handlingen **Varer** for å åpne listen over eksisterende varer.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Varer** velger du handlingen **Ny**.
 
     Hvis det bare finnes én varemal, åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.

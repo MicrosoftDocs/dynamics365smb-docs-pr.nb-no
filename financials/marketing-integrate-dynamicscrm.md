@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 01/25/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5626472de338f23df287699d65901645b84b49b3
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: cc1ad2ef812c073e570835e4018ce077b3b45494
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Behandle kunder og Salg som er opprettet i Dynamics 365 for Sales
@@ -76,7 +76,14 @@ Til slutten av den assisterte oppsettguiden, kan du velge **Kjør full synkronis
 
 Hvis du vil kontrollere fremdriften for individuelle prosjekter i en fullstendig synkronisering, detaljer for den **Status for jobben køen**, **til Int. tabellen Jobbstatus**, eller **fra Int. tabellen Jobbstatus** i den **CRM Full synkronisering. Se gjennom** vindu.
 
-Fra vinduet **Tilkoblingsoppsett for Dynamics 365 for Sales** kan du få detaljer om fullstendig synkronisering når som helst. Herfra kan du også åpne **Tilordninger for integreringstabell**-vinduet for å se detaljer om tabellene i Finance and Operations, Business edition og i Dynamics 365 for Sales-løsningen som må synkroniseres.
+Fra vinduet **Tilkoblingsoppsett for Dynamics 365 for Sales** kan du få detaljer om fullstendig synkronisering når som helst. Herfra kan du også åpne **Tilordninger for integreringstabell**-vinduet for å se detaljer om tabellene i Finance and Operations, Business edition og i Dynamics 365 for Sales-løsningen som må synkroniseres.  
+
+## <a name="handling-special-sales-order-data"></a>Håndtere spesielle ordredata
+Ordrer i Dynamics 365 for Sales blir automatisk overført til [!INCLUDE[d365fin](includes/d365fin_md.md)] hvis du merker av for **Opprette ordrer automatisk** i vinduet **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales**. For slike ordrer blir **Navn**-feltet i den opprinnelige ordren overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ikke er i produktkatalogen, det vil si varer eller ressurser som ikke er registrert i et produkt. I så fall må du fylle ut feltene **Produkt som ikke er i produktkatalogen** og **Nummer på produktet som ikke er i produktkatalogen** i **Salgsoppsett**-vinduet, slik at alle slike ikke-registrerte produktsalg er tilordnet til en bestemt vare/ressurs for finansanalyse.
+
+Hvis varebeskrivelsen i den opprinnelige ordren er svært lang, kan en ekstra ordrelinje av typen merknaden opprettes som har plass til hele teksten i ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se også
 [Forbindelser](marketing-relationship-management.md)  

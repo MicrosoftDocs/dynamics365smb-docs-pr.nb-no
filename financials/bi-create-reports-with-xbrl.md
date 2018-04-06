@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 659b3bebb20e3deb33e6e392c5318810848285a1
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
@@ -27,7 +27,7 @@ XBRL, som er en forkortelse for eXtensible Business Reporting Language, er et XM
  • Ikke-økonomisk informasjon  
  • Lovpålagte innleveringer, for eksempel årsrapporter og kvartalsrapporter.  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)] Med  kan selskaper implementere data i XBRL og dra nytte av fleksibiliteten og automatiseringen i innsamling og deling av data.  
+ Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan selskaper implementere data i XBRL og dra nytte av fleksibiliteten og automatiseringen i innsamling og deling av data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) er et XML-basert språk for finansrapportering. XBRL er en standard for enhetlig rapportering, som kan brukes i alle ledd i forsyningskjeden for finansinformasjon, som for eksempel børsnoterte og privateide selskaper, regnskapsførere, reguleringsinstanser, analytikere, investorer, kapitalmarkeder og långivere, samt viktige tredjeparter som programvareutviklere, datainnsamlere og så videre.  

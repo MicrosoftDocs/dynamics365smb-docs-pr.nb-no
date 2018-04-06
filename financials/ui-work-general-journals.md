@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/02/2017
+ms.date: 02/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2aac957fc253f6c7d2f621ea2e5e039733081a19
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: b567b57755df5d887bc20ca8cebfb6d3d4383c37
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
@@ -42,7 +42,54 @@ Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **
 >   Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbeide med gjentakelseskladder
-En gjentakende kladd er en finanskladd med bestemte felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatiske tilbakeføringsposter for dagen etter bokføringsdatoen, og bruke fordelingsnøkler med de gjentakende postene.
+En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se delen "Fordeler gjentakelseskladden til flere konti".
+
+Når kladden er en gjentakelseskladd, trenger du bare å fylle ut feltene som skal bokføres jevnlig, én gang. Det vil si at kontiene, dimensjonene og dimensjonsverdiene og så videre som du angir, forblir i kladden etter bokføring. Hvis eventuelle justeringer er nødvendig, kan du gjøre det ved hver bokføring.
+
+### <a name="recurring-method-field"></a>Feltet Gjentakelsesprinsipp
+Dette feltet angir hvordan beløpet på kladdelinjen skal bli behandlet etter bokføring. Du kan for eksempel velge å la beløpet stå hvis du skal bruke samme beløp hver gang du bokfører linjen. Hvis du vil bruke samme konto og tekst på linjen, men at beløpet vil variere hver gang du bokfører, kan du velge å slette beløpet etter bokføring.
+
+| Til | Se |
+| --- | --- |
+|Fast|Beløpet på kladdelinjen vil bli stående etter bokføring.|
+|Variabel|Beløpet på kladdelinjen vil bli slettet etter bokføring.|
+|Saldo|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i tabellen Fordeling. Saldoen på kontoen blir på denne måten nullstilt. Husk å fylle ut feltet **Andel i pst.** i vinduet **Fordelinger**. Hvis du vil ha mer informasjon, kan du se delen "Fordeler gjentakelseskladden til flere konti".|
+|Fast med tilbakeføring|Beløpet på kladdelinjen vil bestå etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
+|Variabel med tilbakeføring|Beløpet på kladdelinjen vil bli slettet etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
+|Saldo med tilbakeføring|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i vinduet **Fordelinger**. Saldoen på kontoen blir satt til null, og en motpost bokførtes på den etterfølgende datoen.|
+
+> [!NOTE]  
+>  Mva. feltene kan fylles ut på gjentakelseskladdelinjen eller på fordelingskladdelinjen, men aldri på begge. Det vil si at disse feltene bare kan fylles ut i vinduet **Fordelinger** hvis tilsvarende linjer i gjentakelseskladden ikke er fylt ut.
+
+### <a name="recurring-frequency-field"></a>Feltet Gjentakelsesintervall
+Dette feltet angir hvor ofte linjen på kladdelinjen skal bokføres. Det er et datoformelfelt, og det må fylles ut for gjentakende kladdelinjer. Hvis du vil ha mer informasjon, kan du se delen "Bruke datoformler" i [Skrive inn data](ui-enter-data.md).
+
+#### <a name="examples"></a>Eksempler
+Hvis kladdelinjen skal bokføres hver måned, setter du inn "1M". Etter hver bokføring vil datoen i feltet **Bokføringsdato** bli oppdatert til samme dato neste måned.
+
+Hvis du vil bokføre en post på den siste dagen i hver måned, kan du gjøre ett av følgende:
+
+- Bokfør den første post siste dag i måneden ved å angi 1D+1M-1D (1 dag + 1 måned - 1 dag). Ved hjelp av denne formelen beregnes bokføringsdatoen riktig uansett hvor mange dager det er i måneden.
+
+- Bokfør den første posten på hvilken som helst dag i måneden ved å angi 1M+NM. Ved hjelp av denne formelen vil bokføringsdatoen være etter én hel måned, pluss de resterende dagene av denne måneden.
+
+### <a name="expiration-date-field"></a>Feltet Utløpsdato/-klokkeslett
+Dette feltet angir når linjen skal bokføres for siste gang. Linjen tas ikke med i bokføringen etter denne datoen.
+
+Fordelen med å bruke feltet er at linjen ikke slettes fra kladden med en gang, og at du alltid kan erstatte den gjeldende utløpsdatoen med en senere dato, slik at du kan bruke linjen videre.
+
+Hvis feltet er tomt, bokføres linjen hver gang du bokfører, helt til den slettes fra kladden.
+
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fordele gjentakelseskladden til flere konti
+I vinduet **Gjentakende finanskladd** kan du velge **Fordelinger**-handlingen for å vise eller håndtere hvordan beløp på gjentakelseskladdelinjen tildeles flere konti og dimensjoner. Vær oppmerksom på at tildeling fungerer som motkontolinje til gjentakelseskladdelinjen.
+
+På samme måte som i en gjentakelseskladd er det tilstrekkelig å angi en fordeling én gang. Du behøver ikke å angi beløp og fordelinger hver gang du bokfører gjentakelseskladdelinjen, fordi fordelingen blir i fordelingskladden etter bokføring.
+
+Hvis **Saldo** eller **Saldo med tilbakeføring** er angitt for det gjentakende prinsippet i den gjentakende kladden, tas det ikke hensyn til eventuelle dimensjonsverdikoder i den gjentakende kladden når kontoen nullstilles. Det vil si at hvis du i fordelingskladden fordeler en gjentakelseskladdelinje til forskjellige dimensjonsverdier i vinduet **Fordelinger**, vil det bare bli opprettet én post i tilbakeføringen. Derfor må du ikke angi samme kode i vinduet **Fordelinger** hvis du fordeler en gjentakelseskladdelinje som inneholder en dimensjonsverdikode. Hvis du gjør det, vil dimensjonsverdiene bli feile.
+
+####<a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordele leiebetalinger til ulike avdelinger
+Husleie betales hver måned, så derfor er husleiebeløpet angitt i kassakontoen på gjentakelseskladdelinjen. I vinduet **Fordelinger** kan du fordele utgiftene på flere avdelinger (avdelingsdimensjon), avhengig av hvor mange kvadratmeter hver avdeling opptar. Beregningen er basert på tildelingsprosenten på hver linje. Du kan for eksempel angi ulike konti på ulike fordelingslinjer (hvis leien også skal fordeles til flere konti), eller du kan angi samme konto, men med forskjellige dimensjonsverdikoder for avdelingsdimensjonen på hver linje.
+
 
 ## <a name="working-with-standard-journals"></a>Arbeide med standardkladder
 Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette igjen senere, kan du lagre dem som en standardkladd før du bokfører kladden. Denne funksjonen gjelder varekladder og finanskladder.

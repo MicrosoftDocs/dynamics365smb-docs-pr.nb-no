@@ -11,10 +11,10 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.date: 09/07/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d254d8caf15e4409326d321b3276f075d7e26f5c
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 0f6e0acc81a477ebc962778369014659d0d863bf
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="why-a-page-is-locked-from-personalizing"></a>Hvorfor en side er låst fra tilpasning
@@ -24,13 +24,13 @@ Hvis det er et låseikon i stolpen **Tilpassing** når du åpner en side (som vi
 
 Dette er fordi vi endret hvordan tilpasningen fungerer i bakgrunnen siden forrige gang du tilpasset siden. Dessverre fungerer ikke den gamle og nye måten å gjøre ting på.
 
-Siden inneholder de siste tilpassede endringene du utførte. Hvis du vil fortsette med å tilpasse siden, kan du velge låseikonet, og deretter klikker på **Lås opp**. Vær imidlertid oppmerksom på at hvis du velger å låse opp siden, nullstilles den gjeldende tilpasningen av siden og du må starte fra begynnelsen. 
+Siden inneholder de siste tilpassede endringene du utførte. Hvis du vil fortsette med å tilpasse siden, kan du velge låseikonet, og deretter klikker på **Lås opp**. Vær imidlertid oppmerksom på at hvis du velger å låse opp siden, nullstilles den gjeldende tilpasningen av siden og du må starte fra begynnelsen.
 
 
 ## <a name="see-also"></a>Se også
 [Tilpasse arbeidsområdet](ui-personalization-manage.md)  
 [Administrere tilpasning](ui-personalization-manage.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Endre rollesenter](change-role.md)  
+[Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  
 

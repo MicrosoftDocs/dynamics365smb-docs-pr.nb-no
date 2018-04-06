@@ -9,16 +9,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/16/2017
+ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 52e5b2b69da1f9a78906563d054d91de2dfe0925
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 7f83b9fa8803e3b6611e0167a972c0e54f5eff79
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
-# <a name="set-up-extended-item-text"></a>Definere utvidet varetekst
+# <a name="adding-extended-item-text"></a>Legge til utvidet varetekst
 Du kan utvide en standardtekst for varer ved å legge til ekstra linjer, og du kan opprette betingelser for bruk av de ekstra linjene. Dette kan du gjøre fra varekort.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Slik definerer du utvidet tekst for en varebeskrivelse
@@ -30,6 +30,10 @@ Du kan utvide en standardtekst for varer ved å legge til ekstra linjer, og du k
 6. Fyll ut feltene **Startdato** og **Sluttdato** hvis du vil begrense perioden for bruk av den utvidete teksten.
 7. Merk av for de aktuelle dokumenttypene du vil at de utvidete tekstene skal skrives ut på.
 8. Lukk vinduet.
+
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Legge til teksten for utvidet vare på en ordrelinje
+1. Åpne en ordre med en salgslinje for en vare som har utvidet tekst som er definert. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
+2. Velg den aktuelle linjen og velg deretter **Sett inn utv. tekster**-handlingen.
 
 ## <a name="see-also"></a>Se også
 [Definere lager](inventory-setup-inventory.md)  

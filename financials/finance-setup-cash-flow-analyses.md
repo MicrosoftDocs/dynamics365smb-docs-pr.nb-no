@@ -13,10 +13,10 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.date: 06/02/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7fd5d5885439a34ca18ae4ed8d7c0bfb577c0174
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 1f6b31663aad5c777d16b82742bf11c7dce05264
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
@@ -67,13 +67,15 @@ Slik bruker du den assisterte oppsettsveiledningen:
 
 1. I rollesenter for regnskapsfører, under diagrammet **Kontantstrømprognose**, velger du handlingen **Åpne assistert oppsett**.  
 2. Fyll ut feltene i hvert trinn av veiledningen.  
-3. På hjemmesiden, kan du velge **Kontantstrømprognose** over diagrammet og deretter **Beregn prognose på nytt**.  
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+4. I **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 Slik bruker du en manuell prosess:  
 
 1. Søk etter **Kontantstrømoppsett** i rollesenter for regnskapsfører, og velg deretter den relaterte koblingen.  
 2. Utvid den **Cortana Intelligence** hurtigfanen, og velg deretter den **Cortana Intelligence aktivert** merket.  
-3. På hjemmesiden, kan du velge **Kontantstrømprognose** over diagrammet og deretter **Beregn prognose på nytt**.  
+3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+4. I **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 > [!TIP]  
 >   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  

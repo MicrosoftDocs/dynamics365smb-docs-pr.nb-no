@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 09/01/2017
+ms.date: 03/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 14d3c2639fcbc6c0a1ecf47fd89a2c0452e06fb9
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 73407196730468646f8f2bb051d4df35c2157f0b
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
-På Hjem-siden har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til definerer vinduer manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
+Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til definerer vinduer manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
+
+> [!NOTE]
+> Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se ## [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til det assistert oppsettet. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
 
@@ -37,13 +40,15 @@ Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan
 | Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
 |Definere generelle regler og verdier for lagerprosesser og den spesifikke håndteringen på hver lokasjon.|[Definere lagerstyring](warehouse-setup-warehouse.md)|
 |Klargjør produksjonsstykklister og ruter til å definere hvordan sluttvarer produseres, og klargjør produksjonsressurser eller arbeidssentre til å utføre de nødvendige operasjonene.|[Definere produksjon](production-configure-production-processes.md)|
+|Lese beste rutiner for å angi varene for beholdning og kostpris og forsyningsplanlegging.|[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)|
+|Definer en SMTP-server for å aktivere e-kommunikasjon inn og ut av [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Konfigurere e-post manuelt eller bruke assistert oppsett](madeira-how-setup-email.md)|
 | Definer unike identifikasjonskodene for poster, for eksempel kort, bilag og kladdelinjer, til å spore dem i systemet. |[Opprette nummerserier](ui-create-number-series.md) |
-| Sett opp vinduet **Oppsett for SMTP-e-post** for å sende og motta e-postmeldinger fra dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |[Konfigurere e-post](madeira-how-setup-email.md) |
-| Definer unike identifikasjonskoder. |[Opprette nummerserier](ui-create-number-series.md) |
+|Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalenderedefinerer og tilordner](across-how-to-assign-base-calendars.md)|  
 
-Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Hvis du vil ha mer informasjon, se [Oppsett og administrasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md).  
+Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også  [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
 
 ## <a name="see-also"></a>Se også
+[Administrasjon](admin-setup-and-administration.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

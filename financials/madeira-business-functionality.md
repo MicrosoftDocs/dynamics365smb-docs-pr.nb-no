@@ -13,16 +13,16 @@ ms.search.keywords: feature overview
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d764a759095e6cdf4e1157bc7b1f850800de3217
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 98064d9500f47035f1c73aaa0c87a2e96fd876cd
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="business-functionality"></a>Forretningsfunksjoner
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for din virksomhet. På Hjem-siden har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flere områder av forretningsfunksjoner må defineres manuelt. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for din virksomhet. Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Flere områder av forretningsfunksjoner må defineres manuelt. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 
@@ -48,6 +48,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 
 ## <a name="see-also"></a>Se også
+[Administrasjon](admin-setup-and-administration.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

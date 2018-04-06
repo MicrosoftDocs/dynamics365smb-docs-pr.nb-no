@@ -15,7 +15,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: a5a9d2270c63899318d5e9d5cde861cefc0ca550
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -30,8 +30,8 @@ I en slik overgang ønsker selskaper vanligvis å ta forretningsdataene med seg 
 
 Hvis du vil ha mer informasjon, les om utvidelsen som passer til din QuickBooks-app:   
 
-* [QuickBooks Desktop Data Migration-utvidelsen](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Data Migration-utvidelsen](ui-extensions-quickbooks-online-data-migration.md)
+* [QuickBooks Desktop-utvidelse for dataoverføring](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online-utvidelse for dataoverføring](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Klar?
 Hvis du er klar til å komme i gang nå, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Automatisk oppsett**, og velger deretter den tilknyttede koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.

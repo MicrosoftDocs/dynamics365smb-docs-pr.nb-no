@@ -13,10 +13,10 @@ ms.search.keywords: reimbursement
 ms.date: 08/03/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 92c0bca970250b8f160ecfc15b086963c8693885
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66fcd6282f02d5789b12b79467ec177817422c5c
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="reverse-postings"></a>Tilbakeføre bokføringer
@@ -66,6 +66,15 @@ Du kan tilbakeføre poster i alle **Poster**-vinduer. Fremgangsmåten nedenfor e
 6.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
 7.  Åpne den aktuelle bestillingsreturen, og velg deretter **Åpne på nytt**.  
 8.  Korriger posten i feltet **Antall** og bokfør bestillingsreturen på nytt.  
+
+## <a name="to-post-a-negative-entry"></a>Bokføre en negativ post  
+Du kan bruke **Korreksjon**-feltet til å bokføre en negativ debet i stedet for en kredit, eller til å bokfører en negativ kredit i stedet for en debet på kontoen. For å dekke juridiske krav vises dette feltet som standard i alle kladder. Feltet **Debetbeløp** og **Kreditbeløp** omfatter den opprinnelige posten og den korrigert posten. Disse feltene har ingen innvirkning på kontoens saldo.  
+
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen  
+2.  Velg ønsket kladdenavn i **Bunkenavn**-feltet.  
+3.  Angi informasjon i de aktuelle feltene.  
+4.  På kladdelinjen som du vil aktivere for negative poster merker du av for **Korreksjon**.  
+5.  Hvis du vil bokføre kladden, velger du **Bokfør** og deretter **Ja**.
 
 ## <a name="see-also"></a>Se også
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  

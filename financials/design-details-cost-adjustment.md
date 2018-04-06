@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer – Kostjustering | Microsoft-dokumentasjon"
 description: "Hovedformålet med kostjustering er å videresende kostnadsendringer fra kostnadskilder til kostnadsmottakere, i samsvar med lagermetoden for en vare, for å gi riktig lagerverdisetting."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 23/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 8520630e03e26c8c2aab5157fc1efb853552919a
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: d0733c7d96f10969a7d266031e5d1d0d7f83519f
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostjustering
@@ -171,13 +169,20 @@ Hvis du har angitt at automatisk kostjustering skal gjelde for bokføringer som 
 Hvis du har angitt at automatisk kostjustering skal gjelde for bokføringer som forekommer innen en dag eller en uke fra gjeldende arbeidsdato, kjøres ikke den automatiske kostjusteringen, og kjøpskostnaden blir videresendt til salget før du kjører den satsvise jobben **Juster kostverdi - vareposter**.  
 
 ## <a name="see-also"></a>Se også
+<<<<<<< HEAD [Justere varekost](inventory-how-adjust-item-costs.md)  
+[Designdetaljer: Bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)  
+[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
+[Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md)  
+[Designdetaljer: Lagerbokføring](design-details-inventory-posting.md)  
+[Designdetaljer: Avvik](design-details-variance.md)  
+=======
 [Justere varekost](inventory-how-adjust-item-costs.md)   
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
 [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md)   
 [Designdetaljer: Avvik](design-details-variance.md)   
-[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)   
-[Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)
+>>>>>>> refs/remotes/origin/Update13 [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)   
+[Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

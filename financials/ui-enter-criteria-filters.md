@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 11d7ef56e980ba263dba6328b2f2f08b86410242
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="searching-filtering-and-sorting-data"></a>Søke etter, filtrere og sortere data
@@ -99,7 +99,7 @@ Du kan legge til et filter på én eller flere kolonner i listen. Filtrering på
 Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan bruke i feltet. I tillegg til dette kan du bruke spesielle symboler til å filtrere resultatene ytterligere. Tabellene nedenfor viser hvilke symboler som kan brukes i filtre.  
   
 > [!IMPORTANT]  
->  Det kan være tilfeller der feltverdiene inneholder disse symbolene og du vil filtrere på dem. Hvis du vil gjøre dette, må du ta med filteruttrykket som inneholder symbolet, i anførselstegn (''). Hvis du for eksempel vil filtrere på poster som begynner med teksten *salg*, er filteruttrykket **'salg*'**.  
+>  Det kan være tilfeller der feltverdiene inneholder disse symbolene og du vil filtrere på dem. Hvis du vil gjøre dette, må du ta med filteruttrykket som inneholder symbolet, i anførselstegn (''). Hvis du for eksempel vil filtrere på poster som begynner med teksten *salg*, er filteruttrykket **salg**.  
   
 ### <a name="-interval"></a>(..) Intervall  
   

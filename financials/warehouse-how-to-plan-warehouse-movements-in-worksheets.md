@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 397b7d3de0355ce6be1be6607e5cfc7f61b5f55d
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planlegge lagerflyttinger i forslag
@@ -28,7 +28,7 @@ Etter hvert som lageret leverer varer til kundene, vil hyllene med de høyeste h
 1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn etterfylling av hyller**.  
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)]  oppretter linjer som angir nøyaktig hvordan du skal flytte varer fra hyller med lav prioritering til hyller med høy prioritering.  
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter linjer som angir nøyaktig hvordan du skal flytte varer fra hyller med lav prioritering til hyller med høy prioritering.  
 
     > [!NOTE]  
     >  En flytting blir foreslått i henhold til FEFO når du aktiverer funksjonen **Opprett flytting**, hvis følgende betingelser er oppfylt for en vare:  

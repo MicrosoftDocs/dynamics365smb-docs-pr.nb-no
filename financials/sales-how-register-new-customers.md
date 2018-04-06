@@ -13,10 +13,10 @@ ms.search.keywords: client
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: a03575bce7d1029e47f2aa1a46d5d0dcf585ab2a
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: f72a0fc7ce8e1d25d3b084f30f079778860a947c
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
@@ -28,7 +28,7 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 >   Hvis det finnes kundemaler for ulike kundetyper, vises et vindu når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.
 
 ## <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
-1. På Hjem-siden velger du handlingen **Kunder** for å åpne listen over eksisterende kunder.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Kunder** velger du handlingen **Ny**.
 
     Hvis det bare finnes én kundemal, åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.

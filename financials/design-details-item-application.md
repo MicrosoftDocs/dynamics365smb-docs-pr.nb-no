@@ -1,8 +1,6 @@
 ---
 title: "Designdetaljer – Vareutligning | Microsoft-dokumentasjon"
 description: "Dette emnet beskriver hvor lagerantallet og verdien registreres når du bokfører en lagertransaksjon."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-financials
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/01/2017
+ms.date: 11/23/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
-ms.openlocfilehash: e8b3015cfbf9c474d49d2e3dab6e3397e6ad6c80
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a70d1c31d867f3e005f51af0fc1b6352cb23ce91
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
@@ -107,7 +105,7 @@ Tabellen nedenfor viser varepostene som er et resultat av scenariet.
 |05.01.20|Kjøp|10|20.00|2|  
 |06.01.20|Kjøp (retur)|-10|-20,00|3|  
 
-Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien NOK 60,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
+Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien NOK 10,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
 
 Tabellen nedenfor viser vareutligningsposten som blir resultatet av den faste utligningen.  
 
@@ -242,11 +240,12 @@ På grunn av måten som enhetskostbeløpet for en vare beregnes på, kan en feil
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en funksjon for analyse og korrigering av vareutligninger. Dette arbeidet utføres i vinduet **Utligningsforslag**.  
 
 ## <a name="see-also"></a>Se også  
-[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
-[Designdetaljer: Kostmetoder](design-details-costing-methods.md)   
+[Designdetaljer: Kjent vareutligningsproblem](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
+[Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Gjennomsnittskost](design-details-average-cost.md)   
-[Designdetaljer: Kostjustering](design-details-cost-adjustment.md)
+[Designdetaljer: Kostjustering](design-details-cost-adjustment.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

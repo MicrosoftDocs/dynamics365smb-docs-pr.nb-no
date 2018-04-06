@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 11/22/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: abceec5b1bc588e2842d0f512240c30eccbf6f8e
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: 803569ed99f00b9055c5a6ec6e4ffae67d9df2bd
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Bruke samme Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
@@ -37,7 +37,7 @@ Så du må logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] og gi nytt navn
 
     Vent noen minutter. Vi kan foreta flere endringer i den underliggende databasen, og det tar litt tid.
 5.  Når systemet er klart igjen, velger du **Opprett et nytt selskap**-knappen.  
-6.  I dialogboksen som vises, angir du navnet som *Mitt selskap*, og velger **Suite-produksjon - Bare oppsettsdata**-alternativet.  
+6.  I dialogboksen som vises, angir du navnet som *Mitt selskap*, og velger **Produksjon - Bare oppsettsdata**-alternativet.  
 
 Dette tar også flere minutter. Når prosessen er fullført, får du tilgang til fakturering som en del av Office 365 Business Premium-opplevelsen.  
 

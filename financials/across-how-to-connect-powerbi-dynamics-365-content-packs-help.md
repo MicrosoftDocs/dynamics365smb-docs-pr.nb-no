@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 01/29/2018
+ms.date: 02/05/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4a1498e634046e54bdb9a5793731e44808c2f1eb
+ms.sourcegitcommit: b4e2e7bc1c2622d329c73ae5bf47b4accff10aa8
+ms.openlocfilehash: aff8d95b13f795fa12d3146e5613712fb3baf9b4
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="connecting-power-bi-to-finance-and-operations-business-edition-content-packs"></a>Koble Power BI til Finance and Operations, Business edition-innholdspakker
@@ -46,22 +46,50 @@ Få innsikt i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]
 ## <a name="system-requirements"></a>Systemkrav
 Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dataene til Power BI, må du ha tillatelse til å webtjenestene som brukes for å hente data. Webtjenestene som kreves for hver innholdspakke:
 
-**Microsoft Dynamics 365 for Finance and Operations – CRM**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – CRM**
 - SalesOpportunities
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Sales**
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Sales**
+- ItemSalesbyCustomer
+- SalesDashboard
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Finance**
+- PowerBIFinance
+- ExcelTemplateViewCompany
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – jobber**
+- Prosjektoversikt
+- Prosjektplanleggingslinjer
+- Prosjektoppgavelinjer
+
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Kundeoversikt**
 - ItemSalesbyCustomer
 - Varekjøpsliste_for_Power_BI
 - Varesalgsliste_for_Power_BI
 - SalesDashboard
+- Kundeliste_for_Power_BI
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Finance**
-- PowerBIFinance
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Vareliste**
+- ItemSalesbyCustomer
+- Varekjøpsliste_for_Power_BI
+- Varesalgsliste_for_Power_BI
+- Varer
+- SalesDashboard
+- ExcelTemplateViewCompany
 
-**Microsoft Dynamics 365 for Finance and Operations – Jobs**
-- Prosjektoversikt
-- Prosjektplanleggingslinjer
-- Prosjektoppgavelinjer
+**Microsoft Dynamics 365 for Finance and Operations, Business edition – Leverandørliste**
+- ItemSalesbyCustomer
+- Varekjøpsliste_for_Power_BI
+- Varesalgsliste_for_Power_BI
+- Varer
+- SalesDashboard
+- Kundeliste_for_Power_BI
+- ItemSalesbyCustomer
+- Leverandørliste_for_Power_BI
+- ExcelTemplateViewCompany
 
 ## <a name="web-services"></a>Webtjenester
 Det er enkelt å finne webtjenestene ved å søke etter webtjenester i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]. Pass på at det er merket av for Publiser i listen for webtjenestene som vises ovenfor.
@@ -75,7 +103,10 @@ En vanlige feil er angi visningsnavnet for selskapet i stedet for selskapsnavnet
 ### <a name="incorrect-user-name-and-password"></a>Feil brukernavn og passord  
 Brukernavnet og passordet som brukes for å koble til, er det samme som brukes for å koble til Microsoft Office 365-kontoen.  
 
-Innholdspakker krever også at du har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto.  Når du angir legitimasjonen, finner vi automatisk Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-leietakerne du har tilgang til.  Hvis du ikke har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto som er lisensiert eller en prøveversjon, vises en feilmelding.
+Innholdspakker krever også at du har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto. Når du angir legitimasjonen, finner vi automatisk Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-leietakerne du har tilgang til. Hvis du ikke har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto som er lisensiert eller en prøveversjon, vises en feilmelding.
+
+### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøkkelen samsvarer ikke med en rad i tabellen
+Hvis du angir et ugyldige selskapsnavn under tilkoblingen, kan du få du feilmeldingen Nøkkelen samsvarer ikke med en rad i tabellen. Angi riktig selskapsnavn, og prøv å koble til på nytt.
 
 ## <a name="see-also"></a>Se også
 [Komme i gang med Power BI](https://docs.microsoft.com/en-us/power-bi/service-get-started)  

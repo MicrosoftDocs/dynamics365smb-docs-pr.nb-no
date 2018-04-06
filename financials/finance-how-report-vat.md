@@ -14,7 +14,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 3d9a803f16ebe5f88a659d3e9e6dab35efe1eed9
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -52,7 +52,7 @@ For omsetningsoppgaven kan du angi postene som skal tas med:
 * Sende inn bare poster fra de angitte periodene, eller også ta med poster fra tidligere perioder. Dette er nyttig hvis du vil oppdatere en omsetningsoppgave du har allerede har sendt, for eksempel hvis en leverandør sender en faktura for sent.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Koble til webtjenesten til skattemyndigheten
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  har tjenestetilkoblinger til nettstedene til skattemyndigheten. Hvis du har Storbritannia, kan du aktivere den **GovTalk** service tilkobling sende EU Salgsoversikt og gå tilbake mva-rapporter elektronisk. Hvis du vil sende rapporten manuelt, er for eksempel ved dataregistrering for skattemyndighetene webområde, ikke nødvendig.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har tjenestetilkoblinger til nettstedene til skattemyndigheten. Hvis du har Storbritannia, kan du aktivere den **GovTalk** service tilkobling sende EU Salgsoversikt og gå tilbake mva-rapporter elektronisk. Hvis du vil sende rapporten manuelt, er for eksempel ved dataregistrering for skattemyndighetene webområde, ikke nødvendig.   
 
 For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!INCLUDE[d365fin](includes/d365fin_md.md)]til webtjenesten til skattemyndigheten. Dette krever at du oppretter en konto hos skattemyndigheten. Når du har en konto, kan du aktivere en tjenestetilkobling vi gir i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -77,7 +77,7 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
 4. Du validerer og klargjør rapporten for innsending ved å velge handlingen **Frigi**.  
 
     >  [!NOTE]  
->   [!INCLUDE[d365fin](includes/d365fin_md.md)]  validerer om rapporten er riktig definert. Hvis valideringen mislykkes, vises feilene under **Feil og advarsler**, slik at du vet hva du må løse. Vanligvis, hvis meldingen er om en manglende innstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke meldingen for å åpne siden som inneholder informasjon for å korrigere.  
+>   [!INCLUDE[d365fin](includes/d365fin_md.md)] validerer om rapporten er riktig definert. Hvis valideringen mislykkes, vises feilene under **Feil og advarsler**, slik at du vet hva du må løse. Vanligvis, hvis meldingen er om en manglende innstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke meldingen for å åpne siden som inneholder informasjon for å korrigere.  
 5. Du sender inn rapporten ved å velge handlingen **Send**.  
 
 Når du har sendt inn rapporten, overvåker [!INCLUDE[d365fin](includes/d365fin_md.md)] tjenesten og holder en oversikt over kommunikasjonen din. **Status**-feltet angir hvor rapporten er i prosessen. Når myndighetene behandler rapporten, endres for eksempel statusen til **Vellykket**. Hvis skattemyndigheten finner feil i rapporten du har sendt inn, blir statusen for rapporten **Mislyktes**. Du kan vise feilene under **Feil og advarsler**, rette dem og deretter sende inn rapporten på nytt. Hvis du vil se en oversikt over alle rapportene for EU-salg - oversikt, går du til siden **Rapporter for EU-salg - oversikt**.  

@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 1e6db49370a1fc2d9a2bb99e55d00ed69908d703
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="work-on-service-tasks"></a>Arbeide med serviceoppgaver
 Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder vinduet **Serviceoppgaver** som inneholder en oversikt over alle servicevarene som trenger tilsyn. Tenk på vinduet som et servicekontrollpanel der du kan se hvilke ordrer som venter, finne og registrere reservedeler og holde lageret oppdatert.  
+Ved hjelp av **Serviceoppgave**-vinduet i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du en oversikt over alle servicevarene som trenger tilsyn. Tenk på vinduet som et servicekontrollpanel der du kan se hvilke ordrer som venter, finne og registrere reservedeler og holde lageret oppdatert.  
   
 Hvis du vil spore endringer og få en grafisk fremstilling av servicevirksomheten, kan du bruke statistikkverktøyene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å generere diagrammer og analyse raskt og automatisk.  
   

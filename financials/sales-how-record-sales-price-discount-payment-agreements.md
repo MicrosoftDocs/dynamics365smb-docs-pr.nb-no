@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: bfb0a5b68768c3fe5e0fcf2874752b55bd96708e
+ms.sourcegitcommit: e6e662ee13db1f9002e1c3e74a0d15e2aa2e2a98
+ms.openlocfilehash: a130d946a7efa1d49584d4756fe6cd622c409827
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
@@ -32,6 +32,9 @@ Når det gjelder rabatter, kan du opprette og bruke to typer salgsrabatter:
 | **Fakturarabatt** |En prosentrabatt som trekkes fra dokumenttotalen hvis beløpet for alle linjer på et salgsdokument overskrider et bestemt minimumsbeløp. |
 
 Ettersom salgspriser og salgslinjerabatter er basert på en kombinasjon av vare og kunde, kan du også utføre denne konfigurasjon fra varekortet for varen der reglene og verdiene skal brukes.
+
+> [!NOTE]  
+> Hvis du ikke vil at en vare noen sinne selges til redusert pris, kan du la rabattfeltene på varekortet være tomme, og ikke ta med varen i noen av linjerabatt-oppsettene.
 
 ## <a name="to-set-up-a-sales-price-for-a-customer"></a>Definere salgspriser for en kunde
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.
@@ -54,10 +57,10 @@ Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du faktura
 2. Åpne kundekortet for kunden som skal ha fakturarabatter.
 3. I feltet **Fakturarabattkode** velger du en kode for de aktuelle fakturarabattbetingelsene som skal brukes til å beregne fakturarabatter for kunden.
 
-    > [!NOTE]  
+> [!NOTE]  
 >   Fakturarabattkoder representeres av eksisterende kundekort. Dette lar deg raskt tilordne fakturarabattbetingelsene til kunder ved å velge navnet på en annen kunde som har de samme betingelsene.
 
-    Fortsett å definere nye betingelser for salgsfakturarabatt.
+    Proceed to set up new the sales invoice discount terms.
 4. I vinduet **Kundekort** velger du handlingen **Fakturarabatter**. Vinduet **Kundefakturarabatter** åpnes.
 5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i USD.
 6. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
@@ -95,14 +98,14 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 > [!NOTE]  
 >   Det følgende beskriver hvordan den beste prisen beregnes for salg. Beregningen er den samme for kjøp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer kombinasjonen av faktura til-kuindenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kuindenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
 
     - Har kunden en avtale om pris/rabatt, eller tilhører kunden en gruppe som har det?
     - Er varen eller varerabattgruppen på linjen tatt med i noen av disse avtalene om pris/rabatt?
     - Er ordredatoen (eller bokføringsdatoen for fakturaen eller kreditnotaen) innenfor start- og sluttdatoen for avtalen om pris/rabatt?
     - Er det angitt en enhetskode? I så fall kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] om det finnes priser/rabatter med samme enhetskode, og priser/rabatter uten enhetskode.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)]  kontrollerer om avtaler om pris/rabatt gjelder for informasjon om dokument- eller journallinjen, og setter deretter inn den aktuelle enhetsprisen og rabattprosent, ved hjelp av følgende kriterier:
+2. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer om avtaler om pris/rabatt gjelder for informasjon om dokument- eller journallinjen, og setter deretter inn den aktuelle enhetsprisen og rabattprosent, ved hjelp av følgende kriterier:
 
     - Er det et minimumsbehov i pris/rabatt-avtalen som er oppfylt?
     - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om NOK gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[d365fin](includes/d365fin_md.md)] inn den laveste prisen og den høyeste linjerabatten i NOK.

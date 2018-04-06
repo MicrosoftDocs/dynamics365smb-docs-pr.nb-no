@@ -16,13 +16,13 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 2d02977377f0d88229fdbfd4c2df96d88cd82f2e
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="planning-services"></a>Planlegge servicer
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere standardoppgaver som er nødvendige for å oppfylle kundeservicekravene. For å gjøre dette må du fastsette hvilke tilbud av servicevarer som serviceorganisasjon støtter og til hvilken pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  inneholder også neon statistikkverktøy du kan bruke til å bestemme hvor godt det går og finne områder der du kan forbedre deg.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder også neon statistikkverktøy du kan bruke til å bestemme hvor godt det går og finne områder der du kan forbedre deg.
   
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
   

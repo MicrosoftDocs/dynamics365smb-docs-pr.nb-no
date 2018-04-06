@@ -12,10 +12,10 @@ ms.search.keywords: rfq
 ms.date: 08/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 552fbf283a9149c430ea1ed94bcea4bd22e43fea
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: 66a78ebc362d0e01c0e6df4bd4a2d74568845159
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="make-offers"></a>Gi tilbud
@@ -26,7 +26,7 @@ Mens du forhandler med kunden, kan du endre og sende tilbudet på nytt så ofte 
 Du kan fylle kundefelt i tilbudet på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-quote"></a>Slik oppretter du et tilbud
-Velg handlingen **Tilbud** på Hjem-siden.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Tilbud**, og velg deretter den relaterte koblingen.
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
    Andre felt i **Tilbud**-vinduet inneholder nå standardinformasjon om den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:

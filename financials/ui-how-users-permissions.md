@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 01/25/2018
+ms.date: 03/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7f02d9718f4697e5d7eb9113d52e8d6572555b52
+ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
+ms.openlocfilehash: e78504959c5e858b420ac463d0a6adbaccad9481
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="manage-users-and-permissions"></a>Administrere brukere og tillatelser
@@ -22,11 +22,9 @@ For å legge til brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)] må selsk
 
 Når brukere er opprettet i Office 365, kan de importeres i **Brukere**-vinduet ved å velge handlingen **Hent brukere fra Office 365**. Brukere er tilordnet tillatelsessett avhengig av planen som er tilordnet til brukeren i Office 365.
 
-Du kan deretter fortsette med å tildele tillatelser til brukere til å definere hvilke databaseobjekter, og dermed hvilke grensesnittelementer, de har tilgang til, og i som bedrifter.
+Du kan deretter fortsette med å tildele tillatelser til brukere til å definere hvilke databaseobjekter, og dermed hvilke grensesnittelementer, de har tilgang til, og i som bedrifter. Du kan legge til brukere i grupper. Dette gjør det enklere å tilordne samme tillatelsessett til flere brukere.
 
 Et tillatelsessett er en samling tillatelser for bestemte objekter i databasen. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)]. Et antall forhåndsdefinerte tillatelsessett leveres som standard. Du kan bruke disse tillatelsessettene slik de allerede er definert, endre standardtillatelsessettene eller opprette flere egne tillatelsessett.
-
-Du kan legge til brukere i grupper. Dette gjør det enklere å tilordne samme tillatelsessett til flere brukere.
 
 Administratorer kan bruke vinduet **Brukeroppsett** til å definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på.
 
@@ -42,13 +40,9 @@ Du kan definere brukergrupper til å administrere tillatelsessett for grupper av
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
 2. Du kan også gå til vinduet **Brukere** og velge handlingen **Brukergrupper**.
-3. I vinduet **Brukergrupper** velger du en eksisterende brukergruppe du vil kopiere, og velg deretter **Kopier brukergruppe**.
-4. I feltet **Ny brukergruppekode** angir du navnet på den nye brukergruppen, og velg deretter **OK**-knappen.
-
-    Som et alternativ til å kopiere, kan du velge den nye handlingen til å opprette en ny linje for en tom brukergruppen, som du deretter fylle ut manuelt.
-5. Til å legge til nye eller ekstra brukere i **Brukergruppe**-vinduet velger du **Brukergruppemedlemmer**-handlingen.
-6. I vinduet **Brukergruppemedlemmer** på en ny linje, fyller du ut feltene etter behov ved å velge fra eksisterende brukere.
-7. Til å legge til nye eller ekstra tillatelsessett, i **Brukergruppe**-vinduet velger du **Tillatelsessett for brukergruppe**.
+3. Gå til vinduet **Brukergruppe** og velg handlingen **Brukergruppemedlemmer**.
+6. Gå til vinduet **Brukergruppemedlemmer** og velg handlingen **Legg til brukere**.
+7. For å legge til nye eller ekstra tillatelsessett, går du til **Brukergrupper**-vinduet, og velger du handlingen **Tillatelsessett for brukergruppe**.
 8. I vinduet **Tillatelsessett for brukergruppe** på en ny linje, fyller du ut feltene etter behov ved å velge fra eksisterende tillatelsessett.
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:

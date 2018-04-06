@@ -16,7 +16,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2c13559bb3dc44cdb61697f5135c5b931e34d2a8
 ms.openlocfilehash: 27f3dd2e3ff6b15798c9d483480f4443992dc024
 ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
@@ -107,7 +107,7 @@ Tabellen nedenfor viser varepostene som er et resultat av scenariet.
 |05.01.20|Kjøp|10|20.00|2|  
 |06.01.20|Kjøp (retur)|-10|-20,00|3|  
   
-Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien NOK 60,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
+Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien NOK 10,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
   
 Tabellen nedenfor viser vareutligningsposten som blir resultatet av den faste utligningen.  
   

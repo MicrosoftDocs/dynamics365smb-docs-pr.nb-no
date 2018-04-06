@@ -11,16 +11,18 @@ ms.search.keywords:
 ms.date: 12/04/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 4934b5ca71ed93fcd6327d41784443d9faedfc1b
+ms.sourcegitcommit: b34f276a764f0e828fbc1f015429df9852242a4c
+ms.openlocfilehash: a9e622dbf9b9edf5e74386dd5c651d7b585d3b46
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="accessibility-and-keyboard-shortcuts-in-included365finincludesd365finmdmd"></a>Tilgjengelighet og hurtigtaster i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter følgende tilgjengelighetsfunksjoner:  
 
--   Tastatursnarveier  
+-   Tastatursnarveier
+
+    Hvis du vil ha mer informasjon, kan du se  [Hurtigtaster](keyboard-shortcuts.md)
 
 -   Navigasjon  
 
@@ -30,18 +32,21 @@ Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](i
 
 -   Støtte for vanlige tekniske hjelpefunksjoner  
 
-##  <a name="Keyboard"></a> Hurtigtaster i nettleseren
- [!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter hurtigtaster som støttes av de fleste nettlesere. Hurtigtastene som er beskrevet her, gjelder amerikansk tastaturoppsett. Oppsettet av taster på andre tastaturer tilsvarer kanskje ikke tastene på det amerikanske tastaturet.  
+<!-- moved to separate article
+##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] supports the keyboard shortcuts that are supported by most web browsers. The keyboard shortcuts described here refer to the U.S. keyboard layout. The layout of the keys on other keyboards may not correspond exactly to the keys on a U.S. keyboard.  
 
-|Hvis du vil gjøre dette|Trykk|  
+|To do this|Press|  
 |----------------|-----------|  
-|Flytte fokus til neste eller forrige kontroll eller element på en side, for eksempel knapper, felt eller elementer i en liste.|Tab, Skift+Tab|  
-|Aktivere eller få tilgang til elementet eller kontrollen som er i fokus.|Enter|  
-|Rulle elementer opp og ned i en liste.|Pil opp, pil ned|  
-|Rulle kolonner for et element til venstre og høyre i en liste.|Pil venstre, pil høyre|  
-|Åpne en rullegardinliste eller slå opp en verdi for et felt.|Alt+Pil ned|  
-|Flytte fokus til neste element utenfor listen.|Ctrl+Enter|  
-|Se transaksjonene som resulterte i en beregnet verdi i et felt.|Alt + Pil høyre|  
+|To move focus to the next or previous control or element on a page, such as buttons, fields, or items in a list.|Tab, Shift+Tab|  
+|To enable or access the element or control that is in focus.|Enter|  
+|To scroll items up and down in a list.|Up Arrow, Down Arrow|  
+|To scroll columns of an item left and right in a list.|Left Arrow, Right Arrow|  
+|To open a drop-down list or look up a value for a field.|Alt+Down Arrow|  
+|To move focus to the next element outside the list.|Ctrl + Enter|  
+|To see the transactions that resulted in a calculated value in a field.|Alt+Right Arrow|  
+
+-->
 
 ##  <a name="Navigation"></a> Navigasjon  
  Du kan gå mellom faneblad og handlinger på båndet, elementer i navigasjonsruten og andre kontroller på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter med tastaturet. Hvis du vil flytte fokus fra én fane, handling eller kontroll til en annen, trykker du på tabulatortasten for å flytte fremover. Trykk på Skift+Tab for å flytte bakover.  
@@ -55,7 +60,7 @@ Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](i
  Det angis en beskrivende tekst for bilder med ALT-attributtet inni IMG-koden. Det angis en beskrivende tekst for hyperkoblinger med tittelattributtet inni A-koden.  
 
 ##  <a name="AssistiveTech"></a> Hjelpeteknologi  
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare. Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare. Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
 
 ## <a name="for-more-accessibility-information"></a>For mer informasjon om tilgjengelighet  
 Du finner mer informasjon om tilgjengelighet med Microsoft-produkter og hjelpeteknologi på nettstedet for [Microsoft Accessibility](http://go.microsoft.com/fwlink/?LinkId=262160).

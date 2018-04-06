@@ -14,11 +14,11 @@ ms.translationtype: HT
 ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
 ms.openlocfilehash: 8ed245276a6bebd369a3ec32791a9939e8db5aa1
 ms.contentlocale: nb-no
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
-# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>QuickBooks Online Data Migration-utvidelsen for Finance and Operations, Business edition
+# <a name="the-quickbooks-online-data-migration-extension-for-finance-and-operations-business-edition"></a>QuickBooks Online-utvidelse for dataoverføring for Finance and Operations, Business edition
 Utvidelsen er inkludert i den assisterte oppsettsveiledningen **Datamigrering** for å hjelpe deg å overføre viktige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er for eksempel praktisk når virksomheten er i vekst og du har besluttet å oppgradere appen for forretningsdrift ved å begynne å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="what-data-can-i-import-from-quickbooks-online"></a>Hvilke data kan jeg importere fra QuickBooks Online?
@@ -44,7 +44,7 @@ En viktig del av overføringen er å angi kontiene som transaksjonene skal overf
 * Kjøp av varer eller tjenester fra leverandører.  
 * Justeringer i Finans.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]  krever at det er tilordnet kontonumre til finanskonti. Kontroller at kontonumre er tilordnet til kontiene i QuickBooks Online.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] krever at det er tilordnet kontonumre til finanskonti. Kontroller at kontonumre er tilordnet til kontiene i QuickBooks Online.
 
 Hvis transaksjoner i QuickBooks Online har mva-beløp, må du definere en mva-konto for mva-jurisdiksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] før du kan bokføre transaksjoner.
 
