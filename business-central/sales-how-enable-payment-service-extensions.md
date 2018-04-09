@@ -38,7 +38,7 @@ Tilleggene Microsoft Pay, PayPal Payments Standard og WorldPay Payments Standard
 3. I feltet **Betalingstjeneste** velger du betalingstjenesten.  
 
     > [!NOTE]  
-    >   Feltet **Betalingstjeneste** er bare tilgjengelig hvis du har aktivert betalingstjenesten.  
+    > Feltet **Betalingstjeneste** er bare tilgjengelig hvis du har aktivert betalingstjenesten.  
 
 ## <a name="see-also"></a>Se også  
 [Sette opp salg](sales-setup-sales.md)  

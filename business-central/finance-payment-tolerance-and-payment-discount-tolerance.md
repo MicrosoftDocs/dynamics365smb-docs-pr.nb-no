@@ -95,7 +95,6 @@ Scenarier med alternativ A eller B representerer følgende:
 - **A** – I dette tilfellet er advarselen om rabattoleranse deaktivert, ELLER brukeren har advarselen aktivert og har valgt å tillate kontantrabatten ved sen betaling (bokføre saldoen som betalingstoleranse).  
 - **B** – I dette tilfellet har brukeren aktivert advarselen og har valgt ikke å tillate kontantrabatt ved sen betaling (la saldoen stå som restbeløp).  
 
-[!div class="mx-tdBreakAll"]  
 |—|Fakt.|Kont.rabatt|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
 |1|1 000|20|5|15.01.03|20.01.03|<=15.01.03|985|Bet.toleranse|Ja|0|-5|  
@@ -166,8 +165,6 @@ Scenarier med alternativ A, B, C eller D representerer følgende:
 - **B** – I dette tilfellet har brukeren aktivert advarselen og har valgt ikke å tillate kontantrabatt ved sen betaling, for alle fakturaer.  
 - **C** - I dette tilfellet har brukeren varslet påslått, og har valgt å tillate kontantrabatt ved sen betaling, for første faktura, men ikke den neste.  
 - **D** – I dette tilfellet har brukeren varslet påslått, og har valgt å ikke tillate kontantrabatt ved sen betaling, for første faktura, men tillate det for den neste.  
-
-[!div class="mx-tdBreakAll"]  
 
 |—|Fakt.|Kont.rab.|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
