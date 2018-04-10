@@ -1,8 +1,6 @@
 ---
 title: Opprette analyserapporter | Microsoft-dokumentasjon
 description: "Beskriver hvordan du oppretter nye analyserapporter for salg, kjøp og beholdning, og definerer analysemaler."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 622323cd0df894c2cb8a55c6fdfe29a81934af05
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f127cef1af857b5f50f5e14c7376941151b57e91
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -69,9 +67,8 @@ En mal består av et sett med linjer som representerer analysekolonnene du ser i
 4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten i vinduet **Analysekolonner**..  
 
     > [!NOTE]  
->   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder i **Analysetyper**-vinduet.  
-
-    **Merk**. I **Posttype**-feltet kopieres de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
+    >   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder i **Analysetyper**-vinduet.  
+    I **Posttype**-feltet kopieres også de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
 5.  Velg **OK** for å lagre endringene.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Slik definerer du analyselinjemaler  

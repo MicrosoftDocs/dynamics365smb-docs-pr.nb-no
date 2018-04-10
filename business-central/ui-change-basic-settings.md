@@ -13,8 +13,8 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ee0615cd475d412f7380d6577bfa2965bb0cee9f
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -23,7 +23,7 @@ ms.lasthandoff: 03/22/2018
 I vinduet **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="role-center"></a>Rollesenter
-Rollesenteret representerer hjemmesiden, en startside som er tilpasset behovene til rollen. Rollesenteret gir deg en oversikt over bedriften og gjenspeiler informasjon, oppgaver og prioritetene for rollen din. 
+Rollesenteret representerer startsiden og er tilpasset behovene til rollen. Rollesenteret gir deg en oversikt over bedriften og gjenspeiler informasjon, oppgaver og prioritetene for rollen din.
 
 Øverst i rollesenteret kan du se navigasjonsfeltet som gir deg enkel tilgang til vanlige enheter for rollen, for eksempel kunder, leverandører, varer og så videre.
 
@@ -41,7 +41,7 @@ Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365f
 Standardfirma kalles CRONUS, og inneholder demonstrasjonsdata bare.
 
 > [!TIP]  
->   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel på hjemmesiden for rollesenteret), angir du **Navn**-feltet på siden **Selskapsopplysninger** eller **Visningsnavn** på **Selskaper**-siden.  
+>   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel i rollesenteret), angir du **Navn**-feltet på siden **Selskapsopplysninger** eller **Visningsnavn** på **Selskaper**-siden.  
 
 ## <a name="work-date"></a>Arbeidsdato
 Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er gjeldende dato.

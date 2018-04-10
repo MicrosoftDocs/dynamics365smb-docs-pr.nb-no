@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 292231a907970de2821daeba87003eca7bf54cdc
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 696100bfbcc987b1d684e7987e7fd43979813282
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -32,5 +32,5 @@ Fakturerte serviceordrer slettes vanligvis automatisk etter at de er fullstendig
 Serviceordrer slettes ikke automatisk hvis det totale antallet i ordren ikke er bokført fra selve serviceordren, men fra **Servicefaktura**-vinduet. Da må du kanskje slette fakturerte ordrer som ikke er slettet. Du kan gjøre dette ved hjelp av kjørselen **Slett fakturerte serviceordrer**.  
 
 ## <a name="see-also"></a>Se også  
-[Oppsett og administrasjon i Business Central](admin-setup-and-administration.md)  
+[Administrasjon](admin-setup-and-administration.md)  
 

@@ -11,8 +11,8 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 03/16/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 20184c026ff12b3367aee3d3c6b0ca66c77e5c64
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7013cfa615174953660aa291abd62fa327e6f3ab
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -57,7 +57,7 @@ På samme måte i Outlook-skrivebordsklient, kan du bekrefte at [!INCLUDE[d365fi
 I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ikke er tilgjengelig, må du få tilleggsmanifestfilene. Hvis du vil ha mer informasjon, kontakt systemansvarlig for Office 365.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

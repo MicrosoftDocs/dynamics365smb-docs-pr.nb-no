@@ -11,8 +11,8 @@ ms.search.keywords: remove, delete
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b11a528805decc52c69e5bf781307440526c2b34
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1ff8e38973220300715eaaf2836286bebdafe902
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Hvis du har lagt til data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveve
 Hvis du vil skjule [!INCLUDE[d365fin](includes/d365fin_md.md)] fra appstarteren, kan du ganske enkelt løsne den. Dette fjerner ikke data, og det avbryter ikke abonnementet.  
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Office-portal](https://portal.office.com)  
 [Hvor lenge varer prøveperioden, og hvordan avbestiller jeg?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 

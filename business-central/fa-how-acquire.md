@@ -13,8 +13,8 @@ ms.search.keywords: purchase fixed asset
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dc869b481ed84ab96a8b7cef0e15dd0cf8fef213
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 9f2dcd6328c86117a927aeaeaeba075c421db046
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -99,9 +99,9 @@ Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivafinanskl
 >   Bokføringstypen **Skrapverdi** er et alternativ som bare finnes i **Aktivakladd**-vinduet. Det er ikke tilgjengelig i **Aktiva finanskladd**-vinduet fordi skrapverdien ikke bokføres i Finans.
 
 ## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

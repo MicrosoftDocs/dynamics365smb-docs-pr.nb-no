@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 09/14/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3b40920eb3b93364a7d571b46d8657336aff556a
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f3507de1dbf463066b81b8504b832d12731f9138
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -37,10 +37,10 @@ Når du har aktivert bankfeedservicen, må du koble en bankkonto til nettbankkon
 Når bankfeedservicen er aktivert, kan du angi en bankkonto til automatisk å importere nye bankkontoutdrag til vinduet **Betalingsavstemmingskladd** hver annen timer. Transaksjoner for betalinger som allerede er bokført som utlignet og/eller avstemt i vinduet **Betalingsavstemmingskladd** vil ikke bli importert. Hvis du vil ha mer informasjon, kan du se avsnittet “Aktivere automatisk import av bankkontoutdrag”.
 
 > [!NOTE]  
->   Hvis du bruker det assisterte oppsettet Konfigurer selskap, vil noen av trinnene i fremgangsmåtene nedenfor utføres automatisk når du kommer til oppsettet for bankkontoen til selskapet. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+> Hvis du bruker det assisterte oppsettet Konfigurer selskap, vil noen av trinnene i fremgangsmåtene nedenfor utføres automatisk når du kommer til oppsettet for bankkontoen til selskapet. Hvis du vil ha mer informasjon, kan du se [Komme i gang](product-get-started.md).
 
 ## <a name="to-enable-the-bank-feed-service"></a>Aktivere bankfeedservicen
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Åpne bankkontoen som du vil bruke for bankfeedservicen.
 3. I vinduet **Bankkonto**, i feltet **Importformat for bankkontoutdrag**, velger du YODLEEBANKFEED.  
 
@@ -51,14 +51,14 @@ Bankfeedservicen vil bli aktivert når du kobler en bankkonto til den relaterte 
 2. Velg den relevante bankkontoen, og velg deretter **Opprett ny tilknyttet bankkonto**. Vinduet **Bankkontotilknytning** åpnes etter en liten stund.
 
     > [!NOTE]  
->   Dette vinduet viser den faktiske nettsiden for bankfeedservicen Envestnet Yodlee. Terminologi og funksjonene i vinduet samsvarer kanskje ikke med instruksjonene i dette emnet.  
+    > Dette vinduet viser den faktiske nettsiden for bankfeedservicen Envestnet Yodlee. Terminologi og funksjonene i vinduet samsvarer kanskje ikke med instruksjonene i dette emnet.  
 3. I vinduet **Tilknytning til nettbankkonto**, i ruten **Bankkontotilknytning**, bruker du søkefunksjonen til å finne banken der du har en eller flere nettbankkontoer.
 4. Velg banknavn. Ruten **Logg på** åpnes.
 5. Skriv inn brukernavnet og passordet du bruker til å logge på nettbanken, og velg deretter **Neste**.  
 6. Bankfeedservicen klargjør å koble den første nettbankkontoen i den angitte banken, til en ny bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
     > [!NOTE]  
->   Hvis du har mer enn én nettbankkonto i banken, må du opprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for disse ekstra nettbankkontoene. Se trinn 8 til 10.  
+    > Hvis du har mer enn én nettbankkonto i banken, må du opprette flere bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] for disse ekstra nettbankkontoene. Se trinn 8 til 10.  
 
     Når prosessen er fullført, vises banknavnet i ruten **Mine konter** på **Tilknyttet**-fanen. Tallet i parentes angir hvor mange nettbankkontoer som ble tilknyttet.  
 7. Velg **OK**.
@@ -92,7 +92,7 @@ I vinduet **Bankkontooversikt** er det merket av for **Tilknyttet**.
 2. Velg linjen for en tilknyttet bankkonto som du vil fjerne tilknytningen for en relatert nettbankkonto, og velg deretter handlingen **Fjern tilknytning for nettbankkonto**.
 
 > [!NOTE]  
->   Hvis du velger **Ja** i bekreftelsesdialogboksen, fjernes tilknytningen til nettbankkontoen og påloggingsdetaljene nullstilles. Hvis du vil tilknytte bankkontoen til nettbankkontoen på nytt, må du logge på banken. Hvis du vil ha mer informasjon, kan du se avsnittet “Knytte en bankkonto til en nettbankkonto“.
+> Hvis du velger **Ja** i bekreftelsesdialogboksen, fjernes tilknytningen til nettbankkontoen og påloggingsdetaljene nullstilles. Hvis du vil tilknytte bankkontoen til nettbankkontoen på nytt, må du logge på banken. Hvis du vil ha mer informasjon, kan du se avsnittet “Knytte en bankkonto til en nettbankkonto“.
 
 ## <a name="to-update-bank-account-linking"></a>Oppdatere bankkontotilknytning
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
@@ -106,13 +106,13 @@ Hvis det finnes problemer for noen av de tilknyttede bankkontoene i vinduet **Ba
 3. I vinduet **Oppsett for automatisk bankkontoutdragsimport**, i feltet **Antall dager inkludert**, angir du hvor langt tilbake i tid nye banktransaksjonene skal hentes.
 
     > [!NOTE]  
->   Det anbefales at du setter denne verdien til 7 dager eller mer.  
+    > Det anbefales at du setter denne verdien til 7 dager eller mer.  
 4. Merk av for **Aktivert**.  
 
 Hver time viser vinduet **Betalingsavstemmingskladd** nye betalinger som er gjort i nettbankkontoen.
 
 > [!NOTE]  
->   Transaksjoner for betalinger som allerede er bokført som utlignet og/eller avstemt i vinduet **Betalingsavstemmingskladd** vil ikke bli importert.
+> Transaksjoner for betalinger som allerede er bokført som utlignet og/eller avstemt i vinduet **Betalingsavstemmingskladd** vil ikke bli importert.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktjenester](bank-setup-banking.md)  

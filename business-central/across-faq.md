@@ -11,8 +11,8 @@ ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan
 ms.date: 07/27/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 72fdb96907c4feeb21cdc40b4b781e75e4f1119c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d015f3c2e4b06a7e93b7b4e0fe678c5066afbb8c
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -40,14 +40,14 @@ Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ikk
 ## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det mulig å utvide min 30-dagers prøveperioden for "Nytt selskap"?
 Ja. Hvis du vil utvide en prøveperiode, bør du kontakte Microsoft på 1-888-477-7989 (USA) eller 1-800-741-9206 (Canada). Merk: Det kan ta opptil 2 arbeidsdager å fullføre utvidelsen av prøveversjonen.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-page-in-included365finincludesd365finmdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme hjemmesiden i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme rollesenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dette er litt komplisert, men det ser ut som administratoren ikke endre ditt rollesenter og tilordne brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] avhengig av hvilken type plan (lisens) som du har - dette angir tillatelser og standardside for rollesenter. Du kan endre ditt rollesenter manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flytte fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle hjemmesiden fordi tillatelsene ikke ble endret.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du lest om en ny funksjon i veikartet eller bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom kunngjøringen av utvidelsen og tilgjengeligheten i AppSource.
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] uten Outlook](admin-no-outlook.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

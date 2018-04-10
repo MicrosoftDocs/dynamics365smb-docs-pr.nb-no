@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5dd885d32c0ca08bdf51770669ee569c3a7a98ed
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 1127c2d485ae72cc3cb27860a6189f7657756e06
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -34,7 +34,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for oppskrivingsbokføring.
 
     > [!NOTE]  
->   Trinn 4 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Oppskrivingskonto**-feltet finansdebetkontoen og feltet **Motkonto for oppskriving** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).  
+    >   Trinn 4 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Oppskrivingskonto**-feltet finansdebetkontoen og feltet **Motkonto for oppskriving** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).  
 5. Velg handlingen **Bokfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Slik bokfører du en nedskrivning fra aktivafinanskladden:
@@ -44,7 +44,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for nedskrivingsbokføring.
 
     > [!NOTE]  
->   Trinn 4 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Nedskrivingskonto**-feltet finanskreditkontoen og feltet **Konto for nedskrivningskostn.** inneholder finansdebetkontoen du vil bokføre motposter for nedskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).
+    >   Trinn 4 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Nedskrivingskonto**-feltet finanskreditkontoen og feltet **Konto for nedskrivningskostn.** inneholder finansdebetkontoen du vil bokføre motposter for nedskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).
 5. Velg handlingen **Bokfør**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Slik utfører du generell revaluering av aktiva:
@@ -60,10 +60,10 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
 6. Kontroller postene som er opprettet, og velg deretter **Bokfør** for å bokføre kladden.
 
     > [!TIP]  
->   Hvis indeksreguleringstallene bare er til simuleringsformål, kan du lagre dem i et spesielt avskrivningstablå som du oppretter. Disse postene har ingen innvirkning på de andre avskrivningstablåene.
+    >   Hvis indeksreguleringstallene bare er til simuleringsformål, kan du lagre dem i et spesielt avskrivningstablå som du oppretter. Disse postene har ingen innvirkning på de andre avskrivningstablåene.
 
-   ## <a name="to-post-additional-acquisition-costs"></a>Slik bokfører du flere anskaffelseskostnader:
-   Du kan bokføre tilleggsanskaffelseskostnader for aktiva på samme måte som når du bokfører den opprinnelige anskaffelseskosten: fra en kjøpsfaktura eller fra en aktivakladd. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
+## <a name="to-post-additional-acquisition-costs"></a>Slik bokfører du flere anskaffelseskostnader:
+Du kan bokføre tilleggsanskaffelseskostnader for aktiva på samme måte som når du bokfører den opprinnelige anskaffelseskosten: fra en kjøpsfaktura eller fra en aktivakladd. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
 
 Hvis det allerede er beregnet avskrivning for et aktiva, merker du av for **Avskr.anskaffelseskost** slik at skrapverdien som er avskrevet proporsjonalt med beløpet som det tidligere anskaffede aktivaet allerede er avskrevet med, trekkes fra tilleggsanskaffelseskosten. Dette sikrer at avskrivningsperioden ikke endres.  
 
@@ -117,9 +117,9 @@ Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivaet gl
 *Samlet avskrivning = 100 + 15 + 55,54 = 170,54*
 
 ## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

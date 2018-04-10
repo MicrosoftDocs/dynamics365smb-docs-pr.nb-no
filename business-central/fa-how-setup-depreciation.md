@@ -1,8 +1,6 @@
 ---
 title: Definere aktivaavskrivning | Microsoft-dokumentasjon
 description: "Du angir i et avskrivningstablå hvordan du vil at avskrivning eller nedskrivning av aktiva skal foretas."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,8 +11,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 31f6dc1cc420f45209ea0e4696c6669c5b1c3570
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 01f094c5325773b2c4e9675412fce7d7a29449bd
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -32,7 +30,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 3. I vinduet **Avskrivningstablåkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Følg neste trinn for å definere hvilken type kladd som brukes for de ulike aktivaaktivitetene som standard.
+    >   Du kan registrere aktivatransaksjoner i vinduet **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Følg neste trinn for å definere hvilken type kladd som brukes for de ulike aktivaaktivitetene som standard.
 4. I **Integrasjon**-hurtigfanen merker du av for hver aktivaaktivitet som har transaksjoner du vil bokføre ved hjelp av **Aktivafinanskladd**-vinduet.
 5. Gjenta trinn 2 til 4 for hver avskrivningsmetode eller bokføringsmetode som du vil tilordne til aktiva som et avskrivningstablå.
 
@@ -44,7 +42,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 5. Du kan også velge handlingen **Avskrivningstablåer** for å angi ett eller flere avskrivningstablåer for aktiva.
 
     > [!NOTE]  
->   Når du bruker den manuelle avskrivningsmetoden, må du angi avskrivning manuelt i aktivafinanskladden. Funksjonen **Beregn avskrivninger** utelater aktiva som avskrives etter den manuelle metoden. Du kan bruke denne metoden for aktiva som ikke skal avskrives, for eksempel tomter.
+    >   Når du bruker den manuelle avskrivningsmetoden, må du angi avskrivning manuelt i aktivafinanskladden. Funksjonen **Beregn avskrivninger** utelater aktiva som avskrives etter den manuelle metoden. Du kan bruke denne metoden for aktiva som ikke skal avskrives, for eksempel tomter.
 
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Slik tilordner du et avskrivningstablå til flere aktiva med en kjørsel:
 Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørselen **Opprett aktivaavskr.tablåer** til å opprette aktivaavskrivningstablåer.  
@@ -67,9 +65,9 @@ For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[d365fin
 3. Fyll ut resten av feltene i vinduet **Aktivabokf.type - oppsett** etter behov.
 
     > [!NOTE]  
->   Du kan ikke sette inn eller slette linjer i vinduet **Aktivabokf.type - oppsett**. Du kan bare foreta endringer i de eksisterende linjene.
+    >   Du kan ikke sette inn eller slette linjer i vinduet **Aktivabokf.type - oppsett**. Du kan bare foreta endringer i de eksisterende linjene.
 
-    Vi anbefaler at du ikke endrer oppsettet av avskrivningstablåer med poster som allerede er bokført. Endringene påvirker ikke poster som allerede er bokført, noe som ville forårsaket feilaktig statistikk for avskrivningstablåene.
+Vi anbefaler at du ikke endrer oppsettet av avskrivningstablåer med poster som allerede er bokført. Endringene påvirker ikke poster som allerede er bokført, noe som ville forårsaket feilaktig statistikk for avskrivningstablåene.
 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Slik definerer du standardmaler og kladder for aktivaavskrivning:
 Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskrivningstablå. Du kan bruke disse standardene til å kopiere linjer fra en kladd til en annen, opprette kladdelinjer ved hjelp av kjørslene **Beregn avskrivning** eller **Indeksreg. aktiva**, duplisere anskaffelseskostnader i forsikringskladden.  
@@ -81,8 +79,8 @@ Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskriv
 
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

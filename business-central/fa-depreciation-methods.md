@@ -13,8 +13,8 @@ ms.search.keywords: write down
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 25509535a04f94c00bf8ea123e36898d4eb20eb8
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: ebee0f94a64fcb6d3a86a7fe1808fdb643371cfd
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -31,11 +31,11 @@ Det finnes åtte ulike avskrivningsmetoder som du kan bruke:
 * Manuell  
 
   > [!NOTE]  
->   Du bruker denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
+  >   Du bruker denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
 * Halvårsavskrivning  
 
   > [!NOTE]  
->    Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
+  >    Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær avskrivning
 Når du bruker denne metoden, må du angi ett av følgende alternativer i aktivaavskrivningstablået:  
@@ -352,9 +352,9 @@ Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Br
 >   Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
 
 ## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

@@ -11,8 +11,8 @@ ms.search.keywords: preview, trial, sandbox
 ms.date: 01/05/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fa7d084f69765a0b274dc9d4e1f6c1a38752f3b5
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Hvis du vil ha mer informasjon, kan du se [Bruke utformingen](https://docs.micro
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder verktøy som du kan bruke til å implementere dine egne tillegg og bygge inn funksjoner for å legge til nye bransjespesifikke ende-til-ende-opplevelser eller integrere løsninger fra tredjeparter. Du kan for eksempel bruke en API til å bygge en tilkoblet app for datautveksling mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og din lønnsapp. Tilkoblingsapper kan også bruke utvidelser for å opprette sider som skal brukes for oppsett, konfigurasjon eller appspesifikke støttefunksjoner. Hvis du vil ha mer informasjon, kan du se [Utvikle apper for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
 ##<a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

@@ -11,8 +11,8 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.date: 09/05/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6b72de70da67a7401bad90bd55d1a31a1ae6d880
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 7b62652e34c15831b44975a7c33b088e2be873e4
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -101,7 +101,7 @@ Hvis du får en "påloggingen mislyktes"-feil når du logger på instrumentborde
 * [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomsten som du prøver å koble til, har ikke et gyldig SSL-sertifikat. I dette tilfellet vil du se en mer detaljert feilmelding ("kan ikke opprette en klarert relasjon for SSL").
 
     > [!NOTE]  
->   Selvsignerte sertifikater støttes ikke.  
+    >   Selvsignerte sertifikater støttes ikke.  
 
 **"Oops"**  
 Hvis du ser en "Oops"-feilmelding etter at du har fullført godkjenningsdialogboksen, forårsakes dette vanligvis av et problem med tilkoblingen til dataene for Content Pack.
@@ -118,7 +118,7 @@ Hvis du ser en "Oops"-feilmelding etter at du har fullført godkjenningsdialogbo
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Overføre forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md)  

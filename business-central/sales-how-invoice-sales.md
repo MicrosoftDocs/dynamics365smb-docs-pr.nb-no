@@ -12,10 +12,10 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 03/12/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e4cf02913056fd0b20bb35fd407a82b2ec8b1599
+ms.sourcegitcommit: f03cc11b5d8cb349567138604857ad3a679967cf
+ms.openlocfilehash: 34c5b47885e82e6dc2985fabb8a4c202ede9c0f9
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 # <a name="invoice-sales"></a>Fakturere salg
@@ -58,14 +58,16 @@ Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden all
    Flere felt i salgsfakturen er nå fylt ut med informasjon du har angitt på det nye kundekortet.  
 8. Fyll ut resten av feltene vinduet **Salgsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-Du er nå klar til å fylle ut linjene salgsfaktura for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.   
+    Du er nå klar til å fylle ut linjene salgsfaktura for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.   
 
-Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på ordren ved å velge handlingen **Hent gjentakende salgslinjer**.  
+    Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på ordren ved å velge handlingen **Hent gjentakende salgslinjer**.  
 9. På **Linjer**-hurtigfanen i **Type**-feltet velger du typen produkt, tillegg eller transaksjon som du vil legge til for kunden med salgslinjen.
 10. I **Nr.** velger du en post skal bokføres, i henhold til verdien i **Type**-feltet.
 
- La feltet **Nr.** stå tomt i følgende tilfeller: – Hvis linjen er for en kommentar. Skriv inn kommentaren i **Beskrivelse**-feltet.
- - Hvis linjen er for en katalogvare. Velg handlingen **Velg katalogvarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).
+    La feltet **Nr.** stå tomt i følgende tilfeller:
+
+    * Hvis linjen er for en kommentar. Skriv inn kommentaren i **Beskrivelse**-feltet.
+    * Hvis linjen er for en katalogvare. Velg handlingen **Velg katalogvarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).
 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 

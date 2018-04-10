@@ -10,11 +10,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/02/2018
+ms.date: 03/20/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eb0b77de0be1ac9d86750bf406f0ef2a6e9770df
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fe75b81e2eae2520c6952cf1751ee4259eb3fb68
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -28,6 +28,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 
 | Til | Se |
 | --- | --- |
+|Vis pågående, bokførte eller arkiverte dokumenter som er knyttet til salgs- og bestillingslinjer.|[Spore dokumentlinje](across-how-to-track-document-lines.md)|
 | Formidle raskt innholdet i forretningsdokumenter til forretningspartnere, for eksempel betalingsinformasjon på salgsdokumenter til kunder. |[Sende dokumenter med e-post](ui-how-send-documents-email.md) |
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Definere utvidet tekst](ui-how-define-ext-text.md) |
 |Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|

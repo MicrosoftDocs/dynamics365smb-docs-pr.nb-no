@@ -2,20 +2,20 @@
 title: Opprette nummerserier | Microsoft-dokumentasjon
 description: Finn ut hvordan du definerer nummerserier som tilordner unike ID-koder til konti og dokumenter i Business Central.
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 06/02/2017
-ms.author: solsen
+ms.date: 03/27/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 151e585b0a809b1b537b52089fce297f222a60dc
+ms.sourcegitcommit: ea9b4a6310df319df06d02c53b9d6156caaee24f
+ms.openlocfilehash: 4d7e554300f0b445816ef9dd7fb81ea54fd25bf7
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 03/28/2018
 
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
@@ -30,14 +30,29 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. i dokumenter og kort
+På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylles ut automatisk fra en nummerserie eller manuelt, og det kan settes opp til å være usynlig.
+
+**Nr.** -feltet kan fylles ut på tre måter:
+
+1. Hvis det bare finnes én nummerserie for dokumenttypen eller kortet, der det er merket av for **Standardnr.** og ikke merket av for **Manuelle nr.**, fylles feltet ut automatisk med neste nummer i serien, og feltet **Nr.** vises ikke.
+
+    > [!NOTE]  
+    > Hvis nummerserien ikke fungerer, for eksempel fordi den er tom for numre, vil feltet **Nr.** vises, og du kan angi et nummer manuelt eller løse problemene i vinduet **Nummerserieliste**.
+
+2. Hvis det finnes flere nummerserier for dokumenttypen eller kortet, og det ikke er merket av for **Standardnr.** for den tilordnede nummerserien, er feltet **Nr.** synlig og du kan slå opp **Nummerserieliste**-vinduet og velge nummerserien du vil bruke. Det neste nummeret i serien settes deretter inn i feltet **Nr.** .
+
+3. Hvis du ikke har definert en nummerserie for typen dokument eller kort, eller hvis det er merket av for **Manuelle nr.** for nummerserien, vises feltet **Nr.** og du må angi et nummer manuelt. Du kan angi opptil 20 tegn, både tall og bokstaver.
+
+Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, åpnes det aktuelle **Oppsett for nummerserie**-vinduet slik at du kan definere en nummerserie for denne dokumenttypen eller dette kortet før du går videre med andre dataregistreringer.
+
+> [!NOTE]  
+> Hvis du vil aktivere manuell nummerering på for eksempel nye varekort som er opprettet med en dataoverføring som har skjult **Nr.** som standard, går du til vinduet **Lageroppsett** og velger **Varenr.**-feltet for å åpne og angi den relaterte nummerserien til **Manuelle nr.**.
+
 ## <a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-**Tips!** Hvis du vil tillate manuell registrering av et nummer på nye kort eller dokumenter, fjerner du merket for **Standardnr.** og merker av for **Manuelle nr.**.
-
-Nå når du oppretter et nytt kort eller et dokument som er konfigurert til å bruke den aktuelle nummerserien, kan du manuelt fylle ut feltet **Nr.** med enhver verdi.  
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
 Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.

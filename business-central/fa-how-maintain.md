@@ -13,8 +13,8 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce4dcfdd9b68bc5725538337b7883ba5f140cd1c
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 62addbd6bcf11f640749b395efc9d87550c8ee45
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -43,7 +43,7 @@ Hver gang det er utført service for et aktiva, for eksempel et servicebesøk, k
 7. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for vedlikeholdsbokføring.
 
     > [!NOTE]  
->   Trinn 7 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Vedlikeholdskonto**-feltet finansdebetkontoen og feltet **Motkonto for vedlikehold** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).
+    >   Trinn 7 fungerer bare hvis du har definert følgende: I vinduet **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Vedlikeholdskonto**-feltet finansdebetkontoen og feltet **Motkonto for vedlikehold** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se Definere bokføringsgrupper for aktiva i [Definere generell aktivainformasjon](fa-how-setup-general.md).
 8. Velg handlingen **Bokfør**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Slik følger du opp servicebesøk for aktiva
@@ -85,9 +85,9 @@ I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsp
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
 ## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

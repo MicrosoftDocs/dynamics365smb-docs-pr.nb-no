@@ -11,8 +11,8 @@ ms.search.keywords:
 ms.date: 09/01/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 05d2941d5124f333602cb2f73103389601ff3e85
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -68,6 +68,6 @@ Når en jobbkø aktiveres automatisk, kjører den med legitimasjonen for brukere
 Jobbkøposten inneholder mange felt som har som formål å sende parametere til en kodeenhet som du har angitt for kjøring sammen med en jobbkø. Dette betyr også at kodeenheter som skal kjøres via jobbkøen må angis med prosjektkøposten som en parameter i **OnRun**-utløseren. Dette gir et ekstra lag av sikkerhet, siden det forhindrer brukere fra å kjøre tilfeldige kodeenheter via jobbkøen. Hvis brukeren må sende parametere til en rapport, kan dette bare gjøres ved å wrappe rapportutførelsen i en kodeenhet, som deretter analyserer inndataparameterne og setter dem inn i rapporten før den utfører den.  
 
 ## <a name="see-also"></a>Se også  
-[Oppsett og administrasjon i Business Central](admin-setup-and-administration.md)  
+[Administrasjon](admin-setup-and-administration.md)  
 [Definere Business Central](setup.md)  
 

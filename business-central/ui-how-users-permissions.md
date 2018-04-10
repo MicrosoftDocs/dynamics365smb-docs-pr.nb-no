@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/08/2018
+ms.date: 03/16/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 602c429733104a792a49f4a7f38e2a3090420c9d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 6d350a064f134c4c29938005fea966dec7cca142
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -36,7 +36,7 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-group-users-in-user-groups"></a>Slik grupperer du brukere i brukergrupper
-Du kan definere brukergrupper til å administrere tillatelsessett for grupper av brukere i firmaet. Du kan bruke en funksjon til å kopiere alle tillatelsessett fra en eksisterende brukergruppe til den nye brukergruppen. Medlemmene i brukergruppen kopieres ikke.
+Du kan definere brukergrupper til å administrere tillatelsessett for grupper av brukere i firmaet.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
 2. Du kan også gå til vinduet **Brukere** og velge handlingen **Brukergrupper**.
@@ -44,6 +44,17 @@ Du kan definere brukergrupper til å administrere tillatelsessett for grupper av
 6. Gå til vinduet **Brukergruppemedlemmer** og velg handlingen **Legg til brukere**.
 7. For å legge til nye eller ekstra tillatelsessett, går du til **Brukergrupper**-vinduet, og velger du handlingen **Tillatelsessett for brukergruppe**.
 8. I vinduet **Tillatelsessett for brukergruppe** på en ny linje, fyller du ut feltene etter behov ved å velge fra eksisterende tillatelsessett.
+
+## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Slik kopierer du en brukergruppe og alle tillatelsessettene
+For å definere en ny brukergruppe raskt kan du kopiere alle tillatelsessett fra en eksisterende brukergruppe til den nye brukergruppen.
+
+Brukergruppemedlemmene kopieres ikke til den nye brukergruppen. Du må legge dem til manuelt etterpå.
+
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
+2. Velg brukergruppen du vil kopiere, og velg deretter handlingen **Kopier brukergruppe**.
+3. I feltet **Ny brukergruppekode** angir du et navn på gruppen, og velger deretter **OK**-knappen.
+
+Den nye brukergruppen legges til i **Brukergrupper**-vinduet. Fortsett med å legge til brukere. Hvis du vil ha mer informasjon, kan du se delen Slik grupperer du brukere i brukergrupper.
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
 Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
@@ -55,7 +66,7 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 
 ## <a name="see-also"></a>Se også
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Oppsett og administrasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Administrasjon](admin-setup-and-administration.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

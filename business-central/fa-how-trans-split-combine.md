@@ -12,8 +12,8 @@ ms.workload: na
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 76a6e005bf9d660610a307f1d6b69f902ca53e0d
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 08374662c35dfbdab85097b628a0e0691d75e794
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -71,9 +71,9 @@ Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distr
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.  
 
 ## <a name="see-also"></a>Se også
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

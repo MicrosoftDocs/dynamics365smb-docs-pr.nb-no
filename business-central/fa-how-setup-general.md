@@ -10,8 +10,8 @@ ms.workload: na
 ms.date: 29/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 30c60a7ec8d80270256536d9b0b80218b7fd1559
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: d653021766b5d9dd4efa49e97525666e30c69450
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -33,7 +33,7 @@ Du bokfører grupper for å definere aktivagrupper. Poster for disse bokførings
 3. Fyll ut resten av feltene i vinduet **Kort for bokf.grp.- aktiva** etter behov.
 
     > [!NOTE]  
->   For å sikre at motkontoer for ulike aktivabokføringer settes inn automatisk når du velger handlingen **Sett inn aktivamotkonto** på kladdelinjer, følger du det neste trinnet, basert på oppskrivningsbokføring.
+    >   For å sikre at motkontoer for ulike aktivabokføringer settes inn automatisk når du velger handlingen **Sett inn aktivamotkonto** på kladdelinjer, følger du det neste trinnet, basert på oppskrivningsbokføring.
 4. I hurtigfanen **Motkonto** i feltet **Motkonto for oppskrivning** velger du til hvilken finanskonto du vil bokføre motposter for oppskrivning.
 
 Hvis du vil ha mer informasjon om hvordan du bruker handlingen **Sett inn aktivamotkonto** på aktivafinanskladdelinjer, kan du for eksempel se [Revaluere aktiva](fa-how-revalue.md).
@@ -121,6 +121,6 @@ Hvis ikke aktivaene er integrert med Finans, hopper du over trinn 6 og 8.
 [Definere aktiva](fa-setup.md)  
 [Anleggsmidler](fa-manage.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 

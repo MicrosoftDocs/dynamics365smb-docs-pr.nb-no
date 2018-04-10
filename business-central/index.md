@@ -1,93 +1,35 @@
 ---
-title: "Møt Business Central | Microsoft-dokumentasjon"
+title: Bli kjent med Microsoft Dynamics Business Central
 description: "Finn ut mer om egenskaper og arbeidsscenarier i Business Central, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner."
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: setup wizard
-ms.date: 01/31/2018
-ms.author: solsen
+ms.date: 03/21/2017
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d593539111b6fa2f62a29b6ff383e70b4a672e99
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: c0ae00a8994f41b54356a50418eafdc090c701e7
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
 ---
 # <a name="welcome-to-included365finlongincludesd365finlongmdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet.
-Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversjonen, får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette dine egne salgsdokumenter eller definere en bankkonto.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] vil noe være kjent for deg og andre ting som kanskje ikke er kjent. I demonstrasjonsselskapet forklarer visuelle veiledninger kjernefunksjonaliteten og hjelper deg med å prøve ut daglige oppgaver som å opprette en salgsfaktura og viser en rapport. Hvis du forlater en guide, for eksempel for å utforske [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hånd, men vil gå tilbake til den, gå tilbake til hjemmesiden for rollesenteret og start innføringen Komme i gang.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er rask å implementere, enkel å konfigurere og enkelhet har vært veiledende for nyskaping innenfor utforming, utvikling og implementering av produkter samt brukervennligheten til dem. I denne delen finner du informasjon om hvordan du bruker [!INCLUDE[d365fin](includes/d365fin_md.md)] i selskapet. Hvis du er en partner eller kunde som ser på muligheter for å utvide funksjonaliteten, finner du relevante koblinger under utvikling og administrasjon.  
 
-> [!TIP]  
-> Du kan gå tilbake til hjemmesiden for rollesenteret ved å velge navnet på selskapet øvre venstre.
-
-For noen rask og praktisk å vite triks, kan du se:  
-
-* [Finne ting](ui-search.md)  
-* [Søke etter, filtrere og sortere oversikter](ui-enter-criteria-filters.md)  
-* [Skrive inn data](ui-enter-data.md)  
-
-Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
-
-Når du er klar til å begynne å jobbe, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](across-business-functionality.md). For en oversikt over gjeldende funksjoner, og hva kommer, kan du ta en titt på vår veikart på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
-
-## <a name="the-role-center-home-pages"></a>Hjemmeside for rollesenteret
-Hjemmesiden for rollesenteret bruker en rollesentrert design for å gi rask tilgang til forretningsprosessen og intelligensverktøyene du trenger for å gjøre jobben din. En regnskapsfører kan for eksempel overvåke betalinger og godkjenninger, og vise finansytelsesdiagrammer. Sjekk de forskjellige hjemmesidene for rollesenteret ved å velge **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter") i øvre høyre hjørne, velge **Mine innstillinger** og deretter rollesenteret som skal utforskes. Logg deg på på nytt for å aktivere endringen. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
-
-
-
-Hver hjemmeside for rollesenteret inneholder en **Oppsett og utvidelser**-knapp. Her har du tilgang til en liste over assistert oppsett som kan hjelpe deg med å komme i gang ved å definere utvalgte områder raskt. Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettvinduer der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
-
-> [!NOTE]  
->   Listen over oppsettveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Grunnleggende**-opplevelsen gir tilgang til færre enn hva **Essential**-opplevelsen gjør. Første gang du logger på, bruker du Grunnleggende-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md).  
-
-I vinduet **Assistert oppsett** finner du følgende sammen med **Essential**-opplevelsen:
-
-| Assistert oppsett | Description |
-| --- | --- |
-| Overfør forretningsdata |Lar deg importere eksisterende firmadata, for eksempel leverandører, kunder og varer, fra Excel eller Quickbooks. |
-| Konfigurere Mitt selskap |Oppretter et nytt prøvefirma der du kan skrive inn data og prøve [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du gikk gjennom innføringen Komme i gang, er denne sannsynligvis allerede **Fullført**. |
-| Konfigurer kontantstrømprognose |Setter opp kontantstrømprognosediagrammet, slik at du kan vise predikert flytting av kontanter inn og ut av bedriften din. Diagrammet er tilgjengelig i **rollesenter for regnskapsfører**. |
-| Konfigurere arbeidsflyter for godkjenning |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre visse verdier for dokumenter, kladdelinjer eller kort, for eksempel beløp over en bestemt grense. |
-| Konfigurere en arbeidsflyt for kundegodkjenning |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre et kundekort. |
-| Konfigurer e-post |Hjelper deg i gang med å sende e-postmeldinger direkte fra for eksempel salgsordrer eller kontakter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. |
-| Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å følge opp samhandlinger. |
-| Konfigurere Outlook for [!INCLUDE[d365fin](includes/d365fin_md.md)] |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
-| Konfigurere rapportering |Konfigurerer datasett som du kan bruke til å bygge kraftige rapporter ved hjelp av Excel eller Power BI, for eksempel. |
-| Konfigurere en arbeidsflyt for varegodkjenning |Konfigurerer muligheten til å sende en melding til en godkjenner når en bruker endrer eller oppretter et element. |
-| Konfigurere en arbeidsflyt for godkjenning av utbetaling |Konfigurerer muligheten til å sende et varsel til en godkjenner når en bruker sender utbetalingskladdelinjer til godkjenning. |
-| Definere Business Central Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
-| Definere mva. |Lar deg komme i gang med standard mva-grupper og tilordne mva-områdekodene som du kan tilordne til kunder og leverandører for å automatisk beregne merverdiavgift i salgs- eller kjøpsdokumenter. |
-
-## <a name="trying-things-out-in-your-own-company"></a>Prøve ting i din egen bedrift
-Tenker du på å abonnere? Du kan enkelt endre fra demonstrasjonsselskapet og opprette og jobber i et selskap du eier selv. Dette er en flott måte å starte mot et abonnement. Oppsett for økonomi er angitt. Du trenger bare å opprette eller importere kunder, leverandører og produktene eller tjenestene du selger. Etter dette er du klar til å bokføre fakturaer og bruke verktøyene for forretningsanalyse til å analysere virksomheten. Du kan bruke firmaet gratis i en 30-dagers prøveperiode. Hvis du abonnerer på [!INCLUDE[d365fin](includes/d365fin_md.md)] i løpet av den tiden, er du allerede oppe og går. Du kan fortsette med arbeidet du gjorde under prøveversjonen.  
-
-Hvis du vil opprette et selskap for å prøve ut ting, kan du gå til **Mine innstillinger**-menyen i øvre høyre hjørne og endre selskapet til **Mitt selskap**. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft. En assistert oppsettveiledning hjelper deg med å gi grunnleggende informasjon om selskapet. Når det er gjort, kan du utforske hjemmeside for rollesenteret og finne handlingen **Assistert oppsett**.  
-
-## <a name="ready-to-subscribe"></a>Klar til å abonnere?
-Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du bestemmer deg for å abonnere, kan du bruke koblingen i varslet for å komme i kontakt med Microsoft. Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
-
-## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apper
-Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [nettstedet for Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
-
-Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få sømløs integrasjon med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
+|||  
+|-|-|  
+|**Forretningsprosesser**|-   [Komme i gang](product-get-started.md)<br />-   [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administrasjon](admin-setup-and-administration.md)<br />-   [Forretningsfunksjoner](across-business-functionality.md)<br />-   [Lokal funksjonalitet](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Generelle forretningsfunksjoner](ui-across-business-areas.md)<br />-   [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)<br />-   [Detaljer for utforming av programmet](design-details-application-design.md)|  
+|**Utvikling**|-   [Komme i gang](/dynamics365/business-central/dev-itpro/index)<br />-   [Utvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-utviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Grupperessurser**|-   [Microsoft Dynamics Business Central-gruppe](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics Business Central-blogg](https://community.dynamics.com/business/b/financials)<br />-   [Microsoft Dynamics Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)<br />-   [Microsoft Dynamics PartnerSource \(krever PartnerSource-konto\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com/en/us/Pages/index.aspx)|  
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
-[Dokumentasjon for Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central-veikart](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
-[Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
-
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+[Dokumentasjon for Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_financials)
 

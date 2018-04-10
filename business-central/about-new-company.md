@@ -11,8 +11,8 @@ ms.search.keywords: company, setup wizard
 ms.date: 03/02/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: eca043c75a3039a30f26c09d776c4368c6d8c458
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: a591dbe198994c8b926b30beae4f901ffd6d5bc4
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -52,5 +52,5 @@ Når du har det grunnleggende på plass, kan du definere gjenstående kjerneomr�
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 

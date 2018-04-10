@@ -12,8 +12,8 @@ ms.search.keywords: reject, delegate, request
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bcceb5356352d43d95c4546a1e32fbbc9a9250b
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: 0b83fbb4ec39a1a7596fd788e5dad985bacb30c2
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Du setter opp arbeidsflyter for godkjenning i **Arbeidsflyt**-vinduet. Hvis du v
 
 I tillegg til godkjenningsarbeidsflyter som beskrives i dette emnet, kan du utføre diverse andre arbeidsflytoppgaver. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).
 
-Kjernearbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekortene, er klar til å starte som assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md).
+Kjernearbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekortene, er klar til å starte som assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Komme i gang](product-get-started.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
 Oppgavene nedenfor utføres av en godkjenningsbruker.

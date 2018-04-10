@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 03/12/2018
+ms.date: 03/22/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7d41317f1f5e071c70dfd5ae265b046b3bea4825
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: f669e4b4dd43a6ac32fafc0dc1e408e1b87be98b
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -25,7 +25,7 @@ Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som e
 Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til definerer vinduer manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
 > [!NOTE]
-> Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se ## [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til det assistert oppsettet. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
 
@@ -59,9 +59,9 @@ Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fi
 [Produksjon](production-manage-manufacturing.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Oppsett og administrasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-setup-and-administration.md)  
+[Administrasjon](admin-setup-and-administration.md)  
 [Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
-[Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
 ## [!INCLUDE[d365fin](includes/training_link_md.md)]

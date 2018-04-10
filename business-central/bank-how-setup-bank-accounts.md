@@ -13,8 +13,8 @@ ms.search.keywords: Yodlee, feed, stream
 ms.date: 09/26/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7c626c96e3dc4d445a463a050af5c6663cb4ade1
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: cd442975543ffcd48898f2858828b8b293361d1d
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -28,7 +28,7 @@ Du bruker bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å holde o
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av det assisterte oppsettet for **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365fin](includes/d365fin_md.md)]](index.md).
+> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av det assisterte oppsettet for **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Komme i gang](product-get-started.md).
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Opprette din bankkonto for import eller eksport av bankfilene
 Felt i hurtigafnen **Overføring** i vinduet **Bankkontokort** er relatert til import og eksport av bankfeeder og filer. Hvis du vil ha mer informasjon, kan du se [Konfigurere konverteringstjenesten for bankdata](bank-how-setup-bank-data-conversion-service.md) og [Kofigurere Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).

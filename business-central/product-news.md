@@ -8,11 +8,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: news
-ms.date: 03/16/2018
+ms.date: 03/20/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4bfef92f4b9a6f29ec443677fd77eec3ba26a580
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9a3b7b0415a971797cba22b16a25dbdc521b0f3
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -22,14 +22,15 @@ Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]! Registrer d
 
 Vi vil oppdatere regelmessig [!INCLUDE[d365fin](includes/d365fin_md.md)] med flere muligheter i kjerneprogrammet og nye [utvidelser](ui-extensions.md). For en oversikt over hva som kommer og hva som er tilgjengelig, kan du se [Business Central Roadmap](https://roadmap.dynamics.com/) - og husk å filtrere for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-På denne siden kan du se koblinger til merknader, og du kan finne nyeste oppdateringene i [Business Central-veikart](https://roadmap.dynamics.com/).
+På denne siden kan du se koblinger til merknader, og du kan finne nyeste oppdateringene i [Business Central Roadmap](https://roadmap.dynamics.com/).
 
 ## <a name="dynamics-365-spring-18-release-notes"></a>Dynamics 365 Spring '18 merknader
-Finn de nyeste oppdateringene av våre programmer, i tillegg til en rekke nye muligheter for å lage dine egne programmer og utvidelser over våre platform. [Laste ned](https://aka.ms/businessappsreleasenotes) Dynamics 365 vår ’18 rmerknader.
+Finn de nyeste oppdateringene av våre programmer, i tillegg til en rekke nye muligheter for å lage dine egne programmer og utvidelser over våre platform. Du kan finne et sammendrag av nye funksjoner i alle Dynamics 365-apper og plattformen i produktmerknadene for våren 18 [her](https://aka.ms/businessappsreleasenotes).
 
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Business Central-veikart](https://roadmap.dynamics.com/)  
+[Business Central Roadmap](https://roadmap.dynamics.com/)  
+[Dynamics 365-gruppen](https://community.dynamics.com/business/)  
 

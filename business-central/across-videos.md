@@ -13,8 +13,8 @@ ms.search.keywords: video, library, how to
 ms.date: 02/28/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 692af89238aae46d5ef98f1081f2b7545f8a1306
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -48,5 +48,5 @@ Bare for å nevne noen eksempler inneholder vil videoene som kommer, vise hvorda
 * Konfigurerer e-post og sender dokumenter direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## <a name="see-also"></a>Se også
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
+[Komme i gang](product-get-started.md)
 

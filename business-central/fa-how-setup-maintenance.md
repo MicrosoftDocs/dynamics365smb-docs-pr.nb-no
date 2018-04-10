@@ -13,8 +13,8 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 93e24532c65d01bafc5d74a2d3a39cb64f1cca29
+ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
+ms.openlocfilehash: b730e880a3cf9f2ba3a2abaa25a1b80848f52e97
 ms.contentlocale: nb-no
 ms.lasthandoff: 03/22/2018
 
@@ -46,8 +46,8 @@ Du må først angi et kontonummer i vinduet **Bokf.grupper - aktiva** for å kun
 
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Finans](finance.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
