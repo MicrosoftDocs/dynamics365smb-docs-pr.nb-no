@@ -52,7 +52,7 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 
     Fortsette med å registrere komponenter eller ressurser i monteringsstykklisten.  
 2. I vinduet **Varekort** for en monteringsvare velger du **Montering** og velger deretter **Monteringsstykkliste**.
-3. Fyll ut feltene etter behov i vinduet **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov i vinduet **Monteringsstykkliste**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Vise komponentene i en monteringsvare som er rykket inn i henhold til stykklistestrukturen
 Fra vinduet **Monteringsstykkliste** kan du åpne et eget vindu som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.

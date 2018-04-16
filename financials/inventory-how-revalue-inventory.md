@@ -25,7 +25,7 @@ Hvis du vil endre lagerverdien for en vare eller en bestemt varepost, må du bru
 ## <a name="to-revalue-inventory"></a>Slik revaluerer du beholdning
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Revalueringskladd**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Beregn lagerverdi**.
-3. I vinduet **Beregn lagerverdi** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Beregn lagerverdi** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.
 5. På hver linje i vinduet **Revalueringskladd** i feltet **Enhetskost (revaluert)** angir du den nye enhetskosten. Du kan eventuelt angi det nye totalbeløpet i feltet **Lagerverdi (revaluert)**.
 

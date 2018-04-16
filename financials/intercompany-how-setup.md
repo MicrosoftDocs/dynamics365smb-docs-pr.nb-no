@@ -30,7 +30,7 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Slik definerer du selskaper for konserninterne transaksjoner
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Selskapsopplysninger** fyller du ut feltet **Konsernintern partnerkode**, **Konsernintern innbokstype**. og feltet **Detaljer om konsernintern innboks**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Selskapsopplysninger** fyller du ut feltet **Konsernintern partnerkode**, **Konsernintern innbokstype**. og feltet **Detaljer om konsernintern innboks**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Slik konfigurerer du konserninterne partnere
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.

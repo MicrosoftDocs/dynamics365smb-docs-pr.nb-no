@@ -48,17 +48,17 @@ Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om lev
 8. Når du har fylt ut leverandørkortet, velger du **OK**-knappen for å gå tilbake til **Kjøpsfaktura**-vinduet.
 
     Flere felt i **Kjøpsfaktura**-vinduet er fylt ut med informasjon du har angitt på det nye leverandørkortet.
-9. Fyll ut resten av feltene vinduet **Kjøpsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+9. Fyll ut resten av feltene vinduet **Kjøpsfaktura** etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du kan nå begynn å fylle ut kjøpsfakturalinjene med lagervarer eller tjenester du har kjøpt fra leverandøren.
 
     > [!NOTE]  
->   Hvis du har definert gjentakende bestillingslinjer for leverandøren, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på fakturaen ved å velge handlingen **Hent gjentakende bestillingslinjer**.
+   >   Hvis du har definert gjentakende bestillingslinjer for leverandøren, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på fakturaen ved å velge handlingen **Hent gjentakende bestillingslinjer**.
 10. Angi nummeret på en vare eller tjeneste i **Varenr.**-feltet i hurtigfanen **Linjer**.
 11. I feltet **Antall** angir du hvor mange varer som skal kjøpes.
 
     > [!NOTE]  
->   For varer av typen **Tjeneste** er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
+    >   For varer av typen **Tjeneste** er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
 
     Feltet **Linjebeløp** oppdateres for å vise verdien i feltet **Direkte enhetskost** multiplisert med verdien i feltet **Antall**.
 
@@ -66,7 +66,7 @@ Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om lev
 12. I feltet **Fakturarabattbeløp** angir du et beløp som skal trekkes fra verdien som vises i feltet **Totalt inkl. mva.** nederst på fakturaen.
 
     > [!NOTE]  
->   Hvis du har definert fakturarabatter for leverandøren, settes den angitte prosentverdien automatisk inn i feltet **Leverandørfakturarabatt-%** hvis kriteriene er oppfylt, og det relaterte beløpet settes inn i feltet **Fakturarabattbeløp**.
+    >   Hvis du har definert fakturarabatter for leverandøren, settes den angitte prosentverdien automatisk inn i feltet **Leverandørfakturarabatt-%** hvis kriteriene er oppfylt, og det relaterte beløpet settes inn i feltet **Fakturarabattbeløp**.
 13. Velg **Bokfør** når du mottar innkjøpte varer eller tjenester.
 
 Kjøpet gjenspeiles nå i lager- og økonomiposter, og leverandørbetalingen aktiveres. Kjøpsfakturaen fjernes fra listen over kjøpsfakturaer og erstattes med et nytt dokument i listen over bokførte kjøpsfakturaer.

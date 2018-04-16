@@ -25,7 +25,7 @@ Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å 
 ## <a name="to-set-up-a-standard-task"></a>Slik definerer du en standardoppgave
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Verktøy**, **Personell**, **Beskrivelse**, eller **Verktøy**.
 5. Beskriv den aktuelle standardoppgaven i vinduet som åpnes.
 

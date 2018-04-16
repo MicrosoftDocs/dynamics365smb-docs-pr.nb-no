@@ -25,7 +25,7 @@ Du kan definere retningslinjer for feilsøking for teknikere som bidrar til å l
 
 ## <a name="to-set-up-troubleshooting-guidelines"></a>Slik definerer du retningslinjer for feilsøking
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Feilsøking**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-assign-troubleshooting-guidelines-to-items-service-items-or-service-item-groups"></a>Tilordne retningslinjer for feilsøking til varer, servicevarer eller servicevaregrupper.
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, **Servicevarer** eller **Servicevaregrupper**, og velg deretter den relaterte koblingen.  

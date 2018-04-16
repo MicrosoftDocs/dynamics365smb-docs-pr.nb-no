@@ -51,16 +51,16 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
 
  Det skal være mulig å reservere alle varene i beholdningen, unntatt de som har startet utgående behandling. Antallet som er tilgjengelig for å reservere blir derfor definert som antallet på alle dokumenter og alle hylletyper, unntatt følgende utgående antall:  
 
--   Antall på uregistrerte plukkdokumenter  
--   Antall i leveringshyller  
--   Antall i til produksjon-hyller  
--   Antall i åpne produksjonshyller  
--   Antall i til montering-hyller  
--   Antall i justeringshyller  
+- Antall på uregistrerte plukkdokumenter  
+- Antall i leveringshyller  
+- Antall i til produksjon-hyller  
+- Antall i åpne produksjonshyller  
+- Antall i til montering-hyller  
+- Antall i justeringshyller  
 
- Resultatet vises i feltet **Totalt disp. antall** i **Reservasjon**-vinduet.  
+  Resultatet vises i feltet **Totalt disp. antall** i **Reservasjon**-vinduet.  
 
- Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** i **Reservasjon**-vinduet.  
+  Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** i **Reservasjon**-vinduet.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beregne antall tilgjengelig for reservasjon  
  Antallet som er disponibelt for reservasjon, beregnes som følger:  

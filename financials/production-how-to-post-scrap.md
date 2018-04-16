@@ -27,7 +27,7 @@ Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigme
 
 ## <a name="to-post-scrap-manually"></a>Slik bokfører du vrak manuelt  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. I feltet **Vrakantall** angir du vrakantallet.  
 4. I feltet **Vrakkode** angir du vrakkoden.  
 5. Velg **Bokfør**-handlingen for å bokføre det angitte vraket per operasjon.  

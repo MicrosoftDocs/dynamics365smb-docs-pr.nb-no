@@ -26,7 +26,7 @@ Dette emnet beskriver også hvordan du definerer oppgaver og aktiviteter, og hvo
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Definere salgssykluskoder for salgsmuligheter
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgssykluser**, og velg deretter den relaterte koblingen. Vinduet **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.
-2. Velg handlingen **Ny**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Velg handlingen **Ny**, og fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gjenta disse trinnene for å konfigurere så mange salgssykluser som du vil. Etter at du har definert salgssykluser for salgsmuligheter, bør du definere ulike faser i hver enkelt syklus.
 

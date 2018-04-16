@@ -28,12 +28,12 @@ Når du utfører typisk service, må du ofte opprette servicedokumenter som bruk
   
 ## <a name="to-set-up-a-standard-service-code"></a>Slik definerer du standard servicekoder    
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Standard servicekoder**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-4. Fyll ut servicelinjene som er koblet til denne servicekoden.  
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fyll ut servicelinjene som er koblet til denne servicekoden.  
 
 ## <a name="to-assign-a-standard-service-code-to-a-service-item-group"></a>Slik knytter du en standard servicekode til en servicevaregruppe
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicevaregrupper**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Fyll ut servicelinjene som er koblet til denne servicekoden.  
 
 ## <a name="see-also"></a>Se også

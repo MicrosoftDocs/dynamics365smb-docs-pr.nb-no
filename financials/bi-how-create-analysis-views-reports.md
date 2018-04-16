@@ -69,10 +69,10 @@ En mal består av et sett med linjer som representerer analysekolonnene du ser i
 4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten i vinduet **Analysekolonner**..  
 
     > [!NOTE]  
->   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder i **Analysetyper**-vinduet.  
+   >   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder i **Analysetyper**-vinduet.  
 
     **Merk**. I **Posttype**-feltet kopieres de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
-5.  Velg **OK** for å lagre endringene.  
+5. Velg **OK** for å lagre endringene.  
 
 ## <a name="to-set-up-analysis-line-templates"></a>Slik definerer du analyselinjemaler  
 Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåten er lignende for kjøps- og lageranalyserapporter.
@@ -96,7 +96,7 @@ Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Analyserapport - salg** velger du handlingen **Ny**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Rediger analyserapport**.
 5. I vinduet **Salgsanalyserapport** velger du handlingen **Vis matrise**.  
 

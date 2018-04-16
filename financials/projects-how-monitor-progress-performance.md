@@ -41,7 +41,7 @@ Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasj
 > Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.  
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Lukk vinduet.   
 4. Hvis du vil bruke denne nye metoden som standardmetode, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Prosjektoppsett** og velger deretter den relaterte koblingen.  
 5. Velg metoden fra listen i feltet **Standard VIA-metode**.

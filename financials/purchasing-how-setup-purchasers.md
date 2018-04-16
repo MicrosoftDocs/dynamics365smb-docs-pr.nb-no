@@ -25,7 +25,7 @@ Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem i et vindu 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
 2. I vinduet **Selgere/innkjøpere** velger du **Ny**.
-3. I vinduet **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Tilordne innkjøpere til leverandører
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.

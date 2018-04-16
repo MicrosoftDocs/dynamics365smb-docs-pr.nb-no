@@ -33,10 +33,10 @@ Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Slik overfører du varer med en overføringsordre
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.
-2. I vinduet **Overføringsordrer** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Overføringsordrer** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
->   Hvis du har fylt ut feltene **I transitt-kode**, **Transportørkode** og **Transportørservice** i vinduet **Spesif. av overføringsrute** når du definerer overføringsruten, fylles de tilsvarende feltene i overføringsordren ut automatisk.
+   >   Hvis du har fylt ut feltene **I transitt-kode**, **Transportørkode** og **Transportørservice** i vinduet **Spesif. av overføringsrute** når du definerer overføringsruten, fylles de tilsvarende feltene i overføringsordren ut automatisk.
 
     Når du fyller ut feltet **Transportørservice**, blir mottaksdatoen for overfør til-lokasjonen beregnet ved at leveringstiden for transportørtjenesten legges til i forsendelsesdatoen.
 
@@ -50,11 +50,11 @@ Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Slik overfører du varer med varereklassifiseringskladden
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Vareoverføringskladder**, og velg deretter den relaterte koblingen.
-2. I vinduet **Vareoverføringskladder** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. I vinduet **Vareoverføringskladder** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I **Lokasjonskode**-feltet angir du lokasjonen der varene er lagret.
 
     > [!NOTE]  
->   Hvis du vil overføre varer uten lokasjonskode, lar du **Lokasjonskode**-feltet være tomt.
+   >   Hvis du vil overføre varer uten lokasjonskode, lar du **Lokasjonskode**-feltet være tomt.
 4. I feltet **Ny lokasjonskode** angir du lokasjonen du vil overføre varene til.
 5. Velg handlingen **Bokfør**.
 

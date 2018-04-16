@@ -30,7 +30,7 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere feilrapportering](service-how-setup-fault-reporting.md)  

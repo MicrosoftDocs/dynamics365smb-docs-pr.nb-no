@@ -72,7 +72,7 @@ Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen f
 
 > [!NOTE]
 > I kombinasjonsscenarier, der en del av antallet først må monteres og en annen del må leveres fra lager, opprettes to lagerleveringslinjer. Én er for montere-til-ordre-antallet og én er for varebeholdningen.
-
+> 
 > I dette tilfellet håndteres montere-til-ordre-antallet som beskrevet i dette emnet, og lagerantallet håndteres som alle andre vanlige lagerleveringslinjer. Hvis du vil ha mer informasjon om Kombinasjonsscenarier, kan du se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
 ## <a name="see-also"></a>Se også  

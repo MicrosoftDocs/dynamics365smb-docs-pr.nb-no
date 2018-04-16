@@ -39,7 +39,7 @@ Når du korrigerer eller annullerer en bokført salgsfaktura, utlignes den korri
 2. Velg den bokførte salgsfakturaen du vil rette.
 
     > [!NOTE]  
->   Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte salgsfakturaen fordi den allerede er korrigert eller annullert.
+   >   Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte salgsfakturaen fordi den allerede er korrigert eller annullert.
 3. I vinduet **Bokført salgsfaktura** velger du handlingen **Korriger**.  
 4. Det opprettes en ny salgsfaktura med den samme informasjonen, der du kan foreta korrigeringen. Feltet **Kansellert** i den første bokførte salgsfakturaen endres til **Ja**.
 
@@ -51,7 +51,7 @@ Når du korrigerer eller annullerer en bokført salgsfaktura, utlignes den korri
 2. Velg den bokførte salgsfakturaen du vil avbryte.
 
     > [!NOTE]  
->   Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte salgsfakturaen fordi den allerede er annullert eller korrigert.
+   >   Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte salgsfakturaen fordi den allerede er annullert eller korrigert.
 3. I vinduet **Bokført salgsfaktura** velger du handlingen **Annuller**.
 
     En salgskreditnota opprettes og bokføres automatisk for å annullere den første bokførte salgsfakturaen. Feltet **Kansellert** i den første bokførte salgsfakturaen endres til **Ja**.

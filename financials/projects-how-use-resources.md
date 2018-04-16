@@ -29,7 +29,7 @@ Du kan tilordne ressurser til prosjekter ved å opprette prosjektplanleggingslin
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Slik registrerer du ressursforbruk for et prosjekt
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.
-2. Åpne en relevant prosjektkladd, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Åpne en relevant prosjektkladd, og fyll deretter ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fullført, kan du velge handlingen **Bokfør**.
 
 ## <a name="to-adjust-resource-prices"></a>Slik justerer du ressurspriser

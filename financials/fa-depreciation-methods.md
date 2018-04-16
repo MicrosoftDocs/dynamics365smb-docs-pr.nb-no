@@ -31,11 +31,11 @@ Det finnes åtte ulike avskrivningsmetoder som du kan bruke:
 * Manuell  
 
   > [!NOTE]  
->   Du bruker denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
+  >   Du bruker denne metoden for aktiva som ikke skal avskrives, for eksempel tomter. Du må angi avskrivning i aktivafinanskladden. Kjørselen **Beregn avskrivninger** utelater aktiva som avskrives etter denne avskrivningsmetoden.  
 * Halvårsavskrivning  
 
   > [!NOTE]  
->    Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
+  >    Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
 
 ## <a name="straight-line-depreciation"></a>Lineær avskrivning
 Når du bruker denne metoden, må du angi ett av følgende alternativer i aktivaavskrivningstablået:  
@@ -233,7 +233,7 @@ I **Avskrivningstabell**-vinduet kan du opprette brukerdefinerte avskrivningsmet
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
-3. Fyll ut feltene etter behov i vinduet **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fyll ut feltene etter behov i vinduet **Avskrivningstabellkort**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Eksempel – brukerdefinert avskrivning
 Bruk en avskrivningsmetode som gjør det mulig å foreta en hurtig avskrivning av aktiva på grunn av skattemessige årsaker.  

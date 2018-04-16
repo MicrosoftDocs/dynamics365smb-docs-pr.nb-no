@@ -59,7 +59,7 @@ For en vare kan du definere en standard forskuddsprosent for alle kunder, en bes
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg en vare, og velg deretter handlingen **Forskuddsprosenter**.  
-3. Fyll ut feltene etter behov i vinduet **Forskuddsprosenter for salg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov i vinduet **Forskuddsprosenter for salg**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For en kunde eller leverandør kan du definere en standard forskuddsprosent for alle varer og alle typer salgslinjer. Du angir denne på kortet for kunden eller leverandøren.
 

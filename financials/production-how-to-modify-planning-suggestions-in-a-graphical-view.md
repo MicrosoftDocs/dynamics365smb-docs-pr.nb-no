@@ -59,6 +59,7 @@ Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av 
 Hvis du vil implementere forsyningsplanendringene, må du følge de resulterende handlingsmeldingene fra planleggings- eller bestillingsforslaget. Hvis du vil ha mer informasjon, se Utfør handlingsmeldingplaner..
 
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler og ikoner på hurtigfanen Tidslinje
+
  |Symbol/ikon|Beskrivelse|  
  |------------------|---------------------------------------|  
  |Svart kryss|Bestillinger (både forsyning og behov).<br /><br /> - Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  

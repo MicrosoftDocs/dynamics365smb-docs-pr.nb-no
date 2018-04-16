@@ -32,7 +32,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvord
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. I vinduet **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
 Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet til den ansatte.

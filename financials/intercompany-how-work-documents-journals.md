@@ -33,7 +33,7 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny** for å opprette en ny ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kointroller at kunden er en konsernintern partner.
 5. Hvis du vil sende ordren før du bokfører den, kan du velge **Send KI-ordre**.
 

@@ -29,7 +29,7 @@ Når du velger handlingen **Bokfør og send** i et salgsdokument, viser dialogbo
 ## <a name="to-set-up-a-document-sending-profile"></a>Slik definerer du en profil for dokumentsending:
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Profiler for dokumentsending**, og velg deretter den relaterte koblingen.
 2. I vinduet **Profiler for dokumentsending** velger du handlingen **Ny**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-specify-a-sending-profile-on-a-customer-card"></a>Slik angir du en sendingsprofil på et kundekort:
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.

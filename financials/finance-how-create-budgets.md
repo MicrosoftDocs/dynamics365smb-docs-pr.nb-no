@@ -32,7 +32,7 @@ I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha
 
 ## <a name="to-create-a-new-gl-budget"></a>Opprette et nytt finansbudsjett  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velg handlingen **Rediger budsjett**.
 4. Øverst i vinduet **Budsjett** fyller du ut feltene etter behov for å definere det som vises.  
 

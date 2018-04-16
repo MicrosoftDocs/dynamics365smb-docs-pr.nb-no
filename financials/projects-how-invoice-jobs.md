@@ -33,7 +33,7 @@ Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektopp
 Fra vinduet **Prosjekter** kan du fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Opprett salgsfaktura for prosjekt**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Angi filtre hvis du vil begrense prosjektene som kjørselen skal behandle.
 4. Velg **OK** for å opprette fakturaene.  
 

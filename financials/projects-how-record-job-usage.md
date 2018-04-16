@@ -34,7 +34,7 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (fakturerbar
 
     Feltet **Restantall** viser antallet som gjenstår for å fullføre prosjektet og overføres til kladden.  
 5. Velg handlingen **Opprett prosjektkladdelinjer**.
-6. I vinduet **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. I vinduet **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velg handlingen **Åpne prosjektkladd**.  
 8. I vinduet **Prosjektkladd** velger du den relevante linjen, og deretter velger du handlingen **Bokfør**.
 9. I vinduet **Prosjektplanleggingslinjer** går du gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Restantall** og **Ant. som skal overføres til kladd**.  

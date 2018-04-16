@@ -31,17 +31,17 @@ Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjone
 4. På hurtigfanen **Linjer** velger du handlingen **Hent leveringslinjer**.  
 5. Velg følgeseddellinjen du vil inkludere i fakturaen:  
 
-    - Du setter inn alle linjene ved å merke dem og velge **OK**.  
-    - Du setter inn bestemte linjer ved å merke dem og velge **OK**. Du kan bruke CTRL-tasten for å velge flere linjer som ikke ligger inntil hverandre.  
+   - Du setter inn alle linjene ved å merke dem og velge **OK**.  
+   - Du setter inn bestemte linjer ved å merke dem og velge **OK**. Du kan bruke CTRL-tasten for å velge flere linjer som ikke ligger inntil hverandre.  
 
-    Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du ganske enkelt slette linjene på fakturaen og kjøre funksjonen **Hent følgeseddellinjer** på nytt.  
-7. Velg handlingen **Bokfør** for å bokføre fakturaen.  
+     Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du ganske enkelt slette linjene på fakturaen og kjøre funksjonen **Hent følgeseddellinjer** på nytt.  
+6. Velg handlingen **Bokfør** for å bokføre fakturaen.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Opprett samlefaktura**, og velg deretter den relaterte koblingen. Vinduet for kjørselforespørsel åpnes.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Merk av for **Bokfør fakturaer**.  
-4.  Velg **OK**.  
+4. Velg **OK**.  
 
 > [!NOTE]  
 >  Du må bokføre fakturaene manuelt hvis det ikke var merket av for alternativet **Bokfør fakturaer** for kjørselen.  

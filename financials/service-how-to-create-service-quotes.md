@@ -30,8 +30,8 @@ Du kan bruke et servicetilbud som et foreløpig utkast til en serviceordre, og d
 3. I **Nr.** -feltet angir du et nummer for servicetilbudet. Hvis du har definert en nummerserie for servicetilbud i vinduet **Serviceoppsett**, kan du eventuelt trykke Enter for å velge det neste tilgjengelige servicetilbudsnummeret.  
 4. I feltet **Kundenr.**  -feltet velger du den aktuelle kunden fra listen.  
 
-  > [!Note]  
-  >  Kundefeltene fylles ut automatisk med informasjonen fra **Kunde**-kortet. Hvis et **Kunde**-kort ikke finnes for kunden og du har definert en kundemal, kan du opprette kunden fra servicetilbudet. Fyll ut de relevante feltene, og velg deretter handlingen **Opprett kunde**.  
+   > [!Note]  
+   >  Kundefeltene fylles ut automatisk med informasjonen fra **Kunde**-kortet. Hvis et **Kunde**-kort ikke finnes for kunden og du har definert en kundemal, kan du opprette kunden fra servicetilbudet. Fyll ut de relevante feltene, og velg deretter handlingen **Opprett kunde**.  
   
 5. Avhengig av innstillingene på hurtigfanen **Obligatoriske felt** i vinduet **Serviceoppsett** kan det hende du må fylle ut feltet **Serviceordretype** og **Selgerkode**.  
 6. Fylle ut servicevarelinjene.  

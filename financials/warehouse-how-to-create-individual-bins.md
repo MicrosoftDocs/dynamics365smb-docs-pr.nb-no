@@ -23,10 +23,10 @@ ms.lasthandoff: 03/22/2018
 Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt fra lokasjonskortet. Du kan også bruke en funksjon i vinduet **Hylleoppretting** til å opprette hyller automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Slik oppretter du en hylle fra lokasjonskortet  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg den relaterte koblingen.  
-2.  Velg lokasjonen der du vil opprette en hylle, og velg deretter **Hyller**-handlingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg den relaterte koblingen.  
+2. Velg lokasjonen der du vil opprette en hylle, og velg deretter **Hyller**-handlingen.  
 3. Velg handlingen **Ny**.
-4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Slik oppretter du hyller individuelt i hylleopprettingsforslaget  
 1.  Velg ikonet ![Søk etter en side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter en side eller rapport"), angi **Hylleoppretting**, og velg den relaterte koblingen.  

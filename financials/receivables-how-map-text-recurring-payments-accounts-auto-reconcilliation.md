@@ -38,7 +38,7 @@ På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring
 4. Skriv inn tekst som forekommer på betalinger du vil bokføre på bestemte konti uten å utligne mot en åpen post, i **Tilordningstekst**-feltet. Du kan angi opptil 50 tegn.
 
     > [!NOTE]  
->   Hvis ingen andre betalinger finnes med den aktuelle tilordningsteksten, skjer tekst-til-konto-tilordningen selv når bare en del av teksten på betalingen finnes som tilordningstekst.
+   >   Hvis ingen andre betalinger finnes med den aktuelle tilordningsteksten, skjer tekst-til-konto-tilordningen selv når bare en del av teksten på betalingen finnes som tilordningstekst.
 5. I feltet **Leverandørnummer** angir du leverandøren som betalingene bokføres til.
 6. Angi om betalingen skal bokføres på en finanskonto eller en kunde- eller leverandørkonto, i feltet **Saldokildetype**.
 7. I **Saldokildenummer**-feltet angir du kontoen som betalingen skal bokføres på, i feltet Saldokildetype, avhengig av hva du valgte i feltet **Saldokildetype**.
@@ -57,7 +57,7 @@ Hvis du alltid vil bokføre drivstoffutgifter påløpt ved Shell-bensinstasjoner
 | --- | --- | --- | --- | --- |
 | Shell |TOM |8510 |Finanskonto |TOM |
 
-> [!TIP]  
+> [!TIP]
 >   Hvis du vil ha mer informasjon om hvordan du arbeider med felt og kolonner, kan du se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md). Hvis du vil ha mer informasjon om hvordan du finner bestemte sider, kan du se [Søke](ui-search.md).
 
 ## <a name="see-also"></a>Se også

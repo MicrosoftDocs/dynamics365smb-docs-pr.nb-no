@@ -31,21 +31,21 @@ Tenk deg at hver lagerprofil inneholder en streng med behovshendelser (sortert e
   
      Hvis tidspunktet for forsyningen ikke passer, kan kanskje forsyningen planlegges på nytt som følger:  
   
-    1.  Hvis forsyningen plasseres tidligere enn behovet, kan kanskje forsyningen planlegges ut slik at beholdningen er så lavt som mulig.  
-    2.  Hvis forsyningen plasseres senere enn behovet, kan kanskje forsyningen planlegges inn. Hvis ikke vil systemet foreslå ny forsyning.  
-    3.  Hvis forsyningen oppfyller behovet på datoen, kan planleggingssystemet fortsette å undersøke om forsyningsantallet kan dekke behovet.  
+   1. Hvis forsyningen plasseres tidligere enn behovet, kan kanskje forsyningen planlegges ut slik at beholdningen er så lavt som mulig.  
+   2. Hvis forsyningen plasseres senere enn behovet, kan kanskje forsyningen planlegges inn. Hvis ikke vil systemet foreslå ny forsyning.  
+   3. Hvis forsyningen oppfyller behovet på datoen, kan planleggingssystemet fortsette å undersøke om forsyningsantallet kan dekke behovet.  
   
-     Når tidsberegningen er på plass, kan det tilstrekkelig antallet som skal leveres, beregnes slik:  
+      Når tidsberegningen er på plass, kan det tilstrekkelig antallet som skal leveres, beregnes slik:  
   
-    1.  Hvis forsyningsantallet er mindre enn behovet, kan det hende at forsyningsantallet kan reduseres (eller ikke, hvis det er begrenset av et prinsipp for maksimumsantall).  
-    2.  Hvis forsyningsantallet er større enn behovet, kan det hende at forsyningsantallet kan reduseres (eller ikke, hvis det er begrenset av et prinsipp for minimumsantall).  
+   4. Hvis forsyningsantallet er mindre enn behovet, kan det hende at forsyningsantallet kan reduseres (eller ikke, hvis det er begrenset av et prinsipp for maksimumsantall).  
+   5. Hvis forsyningsantallet er større enn behovet, kan det hende at forsyningsantallet kan reduseres (eller ikke, hvis det er begrenset av et prinsipp for minimumsantall).  
   
-     På dette tidspunktet finnes en av disse to situasjonene:  
+      På dette tidspunktet finnes en av disse to situasjonene:  
   
-    1.  Gjeldende behov kan dekkes, og i så fall kan det lukkes, og planlegging for neste behov kan starte.  
-    2.  Forsyningen har nådd maksimumet, og noe av behovsmengden er ikke dekket. I slike tilfeller kan planleggingssystemet lukke gjeldende forsyningen og fortsette til den neste.  
+   6. Gjeldende behov kan dekkes, og i så fall kan det lukkes, og planlegging for neste behov kan starte.  
+   7. Forsyningen har nådd maksimumet, og noe av behovsmengden er ikke dekket. I slike tilfeller kan planleggingssystemet lukke gjeldende forsyningen og fortsette til den neste.  
   
- Prosessen starter helt på nytt med det neste behovet og den aktuelle forsyningen eller omvendt. Gjeldende forsyning kan kanskje dekke neste behov også, eller gjeldende behov er ikke fullstendig dekket ennå.  
+   Prosessen starter helt på nytt med det neste behovet og den aktuelle forsyningen eller omvendt. Gjeldende forsyning kan kanskje dekke neste behov også, eller gjeldende behov er ikke fullstendig dekket ennå.  
   
 ## <a name="rules-concerning-actions-for-supply-events"></a>Regler vedrørende handlinger for forsyningshendelser  
 Når planleggingssystemet utfører en beregning ovenfra og nedover der forsyning må dekke behov, tas behovet som gitt, det vil si at planleggingssystemet ikke kan kontrollere det. Forsyningssiden kan Imidlertid administreres. Planleggingssystemet foreslår derfor å opprette nye forsyningsordrer, tidsplanlegge eksisterende på nytt og/eller endre ordreantallet. Hvis en eksisterende forsyningsordre blir overflødige foreslår planleggingssystemet at brukeren avbryter den.  

@@ -24,8 +24,8 @@ Planleggingssystemet tar hensyn til alle behovs- og forsyningsdata, nettoberegne
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 
-> [!NOTE]  
-> Les verktøytips for å forstå funksjon for alle feltene i dette emnet. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Les verktøytips for å forstå funksjon for alle feltene i dette emnet. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="demand-and-supply"></a>Behov og forsyning  
 Planlegging har to elementer: behov og forsyning. Disse må holdes i balanse for å sikre at behovet dekkes i rett tid og på en kosteffektiv måte.  

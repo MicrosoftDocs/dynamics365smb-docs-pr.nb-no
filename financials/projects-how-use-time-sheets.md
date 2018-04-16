@@ -33,7 +33,7 @@ Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et ang
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Timelister**, og velg deretter den relaterte koblingen.
 2. I vinduet **Liste for timeliste** velger du handlingen **Opprett timelister**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Feltene **Bruk timeliste** og **Bruker-ID for eier av timeliste** må fylles ut på kortet for ressursen i timelisten.
@@ -77,16 +77,16 @@ Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. 
 3. Fyll ut feltene på en linje etter behov. Angi antall timer som brukes av ressursen for hver dag i uken.
 
     > [!TIP]  
->   Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
+   >   Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
 4. Gjenta trinn 3 for arbeidstypene som utføres av ressursen.
 5. Velg handlingen **Send**, og velg deretter handlingen **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt i vinduet **Timeliste**.  
 
     > [!NOTE]  
->   Du kan bare sende timelistelinjer du har angitt tid for.  
+   >   Du kan bare sende timelistelinjer du har angitt tid for.  
 6. Hvis du vil endre informasjon på en linje som er satt til **Sendt**, merker du linjen og velger deretter handlingen **Åpne på nytt**.
 
     > [!NOTE]  
->   En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
+   >   En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
 7. Velg **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
@@ -111,7 +111,7 @@ Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den 
 2. Åpne en timeliste fra listen.  
 
     > [!NOTE]  
->   Bare linjer som har statusen **Godkjent**, kan åpnes på nytt. Linjer som har statusen **Avvist**, kan ikke åpnes på nytt. Du kan ikke åpne en timeliste på nytt hvis den er bokført.  
+   >   Bare linjer som har statusen **Godkjent**, kan åpnes på nytt. Linjer som har statusen **Avvist**, kan ikke åpnes på nytt. Du kan ikke åpne en timeliste på nytt hvis den er bokført.  
 3. I vinduet **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt i vinduet **Timeliste**, på nytt.
 4. Velg **OK**. Statusen for timelistelinjen eller -linjene endres til **Sendt**.  
 
@@ -134,7 +134,7 @@ Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem 
 4. Velg **OK**. Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.  
 
     > [!NOTE]  
->   Informasjon om arbeidstypen og om arbeidet er belastbart, kopieres fra timelistelinjen. Du kan om nødvendig redusere antall timer og foreta en delvis bokføring. Hvis du reduserer antallet, inneholder linjen som opprettes, gjenstående timeantall neste gang du velger handlingen **Foreslå linjer fra timelister**.  
+   >   Informasjon om arbeidstypen og om arbeidet er belastbart, kopieres fra timelistelinjen. Du kan om nødvendig redusere antall timer og foreta en delvis bokføring. Hvis du reduserer antallet, inneholder linjen som opprettes, gjenstående timeantall neste gang du velger handlingen **Foreslå linjer fra timelister**.  
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Vinduet **Prosjektposter** åpnes med resultatet av bokføringen av ressurskladden.
 

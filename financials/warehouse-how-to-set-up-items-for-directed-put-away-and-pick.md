@@ -51,9 +51,9 @@ Du kan også definere lagerklassekoder hvis lageret har varer som trenger ulike 
 Du er nå klar til å sette opp sonene, hvis du vil bruke soner i lageret. Hvis du bruker soner, vil det redusere antall felt du må fylle ut når du setter opp hyllene, fordi hyller som er opprettet med soner, arver flere egenskaper fra sonen. Sonene kan gjøre det enklere for nye eller midlertidig ansatte å orientere seg i lageret. Merk at flyt kontrolleres av hyller, det er derfor mulig å operere med hyller og bare én sone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Slik setter du opp en sone i lageret  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
-2.  Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
-3.  I vinduet **Soner** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+2. Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
+3. I vinduet **Soner** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du endrer en soneparameter, vil alle hyllene som opprettes i den aktuelle sonen etter endringen ha de nye egenskapene, men de opprinnelige hyllene endres ikke.  
 

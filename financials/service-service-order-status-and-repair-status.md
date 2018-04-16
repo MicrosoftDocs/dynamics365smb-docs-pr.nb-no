@@ -30,7 +30,7 @@ Feltet **Status** i vinduet **Serviceordre** og reparasjonsstatusen til servicev
 * Serviceordrestatusen som hver enkelt reparasjonsstatus er knyttet til. Hvis du vil ha mer informasjon om serviceordrestadier, kan du se Serviceordrestatus.  
 * Prioritetsnivået til hvert enkelt alternativ for serviceordrestatus. Hvis du vil ha mer informasjon, kan du se Prioritet.  
   
- Når du konverterer et servicetilbud til en serviceordre, endres reparasjonsstatusen til hver enkelt servicevare i ordren til **Første**, og serviceordren endres til **Ventende**.  
+  Når du konverterer et servicetilbud til en serviceordre, endres reparasjonsstatusen til hver enkelt servicevare i ordren til **Første**, og serviceordren endres til **Ventende**.  
   
 ## <a name="specifying-service-order-status-for-repair-status"></a>Angi serviceordrestatus for reparasjonsstatus  
 Hver enkelt reparasjonsstatus er knyttet til en bestemt serviceordrestatus. Alternativene for serviceordrestatusen er som følger: **I kø**, **I arbeid**, **Avvent** og **Ferdig**. Følgende reparasjonsstatusalternativer finnes: **Første**, **I arbeid**, **Henvist**, **Delvis vedlikeholdt**, **Tilbud ferdig**, **Venter på kunde**, **Reservedel bestilt**, **Reservedel mottatt** og **Ferdig**.  

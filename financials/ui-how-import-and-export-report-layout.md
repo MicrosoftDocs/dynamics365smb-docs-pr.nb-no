@@ -37,19 +37,19 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
   
 ### <a name="to-import-a-report-layout-file"></a>Slik importerer du en rapportoppsettfil  
   
-1.  Kontroller at den aktuelle filen som definerer rapportoppsettet, er tilgjengelig på datamaskinen eller nettverket.  
+1. Kontroller at den aktuelle filen som definerer rapportoppsettet, er tilgjengelig på datamaskinen eller nettverket.  
   
-     En Word-rapportoppsettfil må filen ha filtypen DOCX. En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.  
+    En Word-rapportoppsettfil må filen ha filtypen DOCX. En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.  
   
-2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
   
-3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
+3. Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
   
-4.  I vinduet **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.  
+4. I vinduet **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.  
   
-5.  Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.  
+5. Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.  
   
- Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
+   Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
   
 ## <a name="see-also"></a>Se også  
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   

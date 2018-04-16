@@ -31,7 +31,7 @@ I vinduet **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 2. Velg den bokførte kjøpsfakturaen du vil korrigere.  
 
     > [!NOTE]  
->   Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte kjøpsfakturaen fordi den allerede er korrigert eller annullert.
+   >   Hvis det er merket av for **Annullert**, kan du ikke korrigere den bokførte kjøpsfakturaen fordi den allerede er korrigert eller annullert.
 3. I vinduet **Bokført kjøpsfaktura** velger du **Korriger**.
 
     Det opprettes en ny kjøpsfaktura med den samme informasjonen, der du kan foreta korrigeringen. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md). Feltet **Kansellert** i den første bokførte kjøpsfakturaen endres til **Ja**.
@@ -44,7 +44,7 @@ I vinduet **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 2. Velg den bokførte kjøpsfakturaen du vil avbryte.
 
     > [!NOTE]  
->   Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte kjøpsfakturaen fordi den allerede er annullert eller korrigert.
+   >   Hvis det er merket av for **Annullert**, kan du ikke annullere den bokførte kjøpsfakturaen fordi den allerede er annullert eller korrigert.
 3. I vinduet **Bokført kjøpsfaktura** velger du **Annuller**.
 
     En kjøpskreditnota opprettes og bokføres automatisk for å annullere den første bokførte kjøpsfakturaen. Feltet **Kansellert** i den første bokførte kjøpsfakturaen endres til **Ja**.

@@ -36,7 +36,7 @@ Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter
     Hvis det finnes mer enn én leverandørmal, åpnes et vindu der du kan velge en leverandørmal. I det tilfellet følger du de to neste trinnene.
 3. I vinduet **Velg en mal for en ny leverandør** velger du malen som du vil bruke for det nye leverandørkortet.
 4. Velg **OK**. Det åpnes et nytt leverandørkort med noen felt som er fylt ut med informasjon fra malen.
-5. Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Hvis du ikke vet fakturaadressen som skal brukes for hver eneste faktura fra en leverandør, fyller du ikke ut feltet **Betal til-levrd.nr.** på leverandørkortet. I stedet velger du betal til-leverandørnummeret når du har definert en forespørsel, bestilling eller et fakturahode.
@@ -47,7 +47,7 @@ Hvis du vil bruke dette leverandørkortet som en mal når du oppretter nye lever
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Lagre leverandørkortet som en mal
 1. I vinduet **Leverandørkort** velger du handlingen **Lagre som mal**. **Leverandørmal**  -vinduet åpnes og viser leverandørkortet som en mal.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil bruke dimensjoner i maler, velger du handlingen **Dimensjoner**. **Dimensjonsmaler**-vinduet åpnes med alle dimensjonskoder som er definert for leverandøren.
 4. Rediger eller angi dimensjonskoder som skal gjelde for nye leverandørkort som opprettes ved hjelp av malen.
 5. Når du har fullført den nye leverandørmalen, kan du velge **OK**-knappen.  

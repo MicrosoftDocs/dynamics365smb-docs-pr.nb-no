@@ -26,11 +26,11 @@ Tilbakedaterte transaksjoner eller kostnadsjusteringer påvirker ofte saldoer og
 
  For å sikre at alle transaksjonsposter i en lukket periode er endelige, må følgende betingelser oppfylles før en lagerperiode kan lukkes:  
 
--   Alle utgående vareposter i perioden må avsluttes (ingen negativ beholdning).  
--   Alle varekostnader i perioden må justeres.  
--   Alle frigitte og ferdige produksjonsordrer i perioden må kostnadsjusteres.  
+- Alle utgående vareposter i perioden må avsluttes (ingen negativ beholdning).  
+- Alle varekostnader i perioden må justeres.  
+- Alle frigitte og ferdige produksjonsordrer i perioden må kostnadsjusteres.  
 
- Når du lukker en lagerperiode, opprettes en lagerperiode ved hjelp av nummeret på den siste varejournalen i lagerperioden. I tillegg registreres klokkeslett, dato og brukerkode i lagerperiodeposten for brukeren som lukker perioden. Ved hjelp av denne informasjonen med siste varejournalen for forrige periode, kan du se hvilke lagertransaksjonene som bokført i lagerperioden. Det er også mulig å åpne lagerperioder på nytt hvis du må bokføre i en lukket periode. Når du åpner en lagerperiode på nytt, blir det opprettet en lagerperiodepost.  
+  Når du lukker en lagerperiode, opprettes en lagerperiode ved hjelp av nummeret på den siste varejournalen i lagerperioden. I tillegg registreres klokkeslett, dato og brukerkode i lagerperiodeposten for brukeren som lukker perioden. Ved hjelp av denne informasjonen med siste varejournalen for forrige periode, kan du se hvilke lagertransaksjonene som bokført i lagerperioden. Det er også mulig å åpne lagerperioder på nytt hvis du må bokføre i en lukket periode. Når du åpner en lagerperiode på nytt, blir det opprettet en lagerperiodepost.  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  

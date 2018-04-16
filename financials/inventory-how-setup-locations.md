@@ -27,7 +27,7 @@ Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengel
 ## <a name="to-create-a-location-card"></a>Slik oppretter du et lokasjonskort
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. I vinduet **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gjenta trinn 2 og 3 for hver beholdninglokasjon.
 
 > [!NOTE]  
@@ -37,7 +37,7 @@ Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengel
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Overføringsruter**, og velg deretter den relaterte koblingen.
 2. Fra vinduet **Lokasjonskort** kan du også velge handlingen **Overføringsruter**.
 3. Velg handlingen **Ny**.
-4. I vinduet **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. I vinduet **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Nå kan du overføre lagervarer mellom to lokasjoner. Hvis du vil ha mer informasjon, kan du se [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md).    
 

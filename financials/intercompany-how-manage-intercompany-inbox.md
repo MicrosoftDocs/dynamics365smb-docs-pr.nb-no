@@ -69,7 +69,7 @@ Når de konserninterne partnerne sender deg konserninterne transaksjoner, ender 
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Konserninterne inngående transaksjoner** velger du en linje og velger en handling som **Godta**, for å behandle linjen.
-3. I vinduet **Fullfør KI-innbokshandling** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I vinduet **Fullfør KI-innbokshandling** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.  
 
 For linjer som du behandlet med **Godta**-handlingen, bilag eller kladdelinjer vil bli opprettet i selskapet. Åpne hvert bilag eller hver kladd, gjør de nødvendige endringene, og bokfør dem.  

@@ -30,7 +30,7 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
 2. Velg selgeren fra listen som du vil opprette en salgsmulighet for.
 3. Velg handlingen **Salgsmuligheter**, og velg deretter **Oversikt**.
-4. Velg handlingen **Ny**, og fyll deretter ut de relevante feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Velg handlingen **Ny**, og fyll deretter ut de relevante feltene. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 
 

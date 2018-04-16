@@ -35,17 +35,17 @@ Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagra
     >  Funksjonen **Registrer kosttyper i kontoplan** oppdaterer forholdet mellom kontoplanen og oversikten over kosttyper. **Nr.** -feltet er fylt ut og bekreftet for å forsikre at hver finanskonto er relatert til bare én kostnadstype. Funksjonen kjøres automatisk før overføring av finansposter til kostregnskap.  
 
 ## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Slik definerer du nye kosttyper i vinduet Diagram med kosttyper:  
-1.  Åpne vinduet **Diagram med kosttyper** i redigeringsmodus.  
-2.  Fyll ut feltene som beskrevet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Åpne vinduet **Diagram med kosttyper** i redigeringsmodus.  
+2. Fyll ut feltene som beskrevet etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    > [!NOTE]  
-    >  Du kan definere og vedlikeholde kostnadstyper i vinduet **Kosttypekort** eller **Diagram med kosttyper**. I denne fremgangsmåten definerer du nye kosttyper i vinduet **Diagram med kosttyper**.
+   > [!NOTE]  
+   >  Du kan definere og vedlikeholde kostnadstyper i vinduet **Kosttypekort** eller **Diagram med kosttyper**. I denne fremgangsmåten definerer du nye kosttyper i vinduet **Diagram med kosttyper**.
 
-3.  Når du har opprettet alle kosttyper, velger du **Rykk inn kosttyper**. Klikk **Ja**-knappen i dialogboksen.  
-4.  Koble nye kosttypen til den tilsvarende kontoen i finans.  
+3. Når du har opprettet alle kosttyper, velger du **Rykk inn kosttyper**. Klikk **Ja**-knappen i dialogboksen.  
+4. Koble nye kosttypen til den tilsvarende kontoen i finans.  
 
-    > [!IMPORTANT]  
-    >  Hvis du har angitt definisjoner i feltene **Sammentelling** for linjetypen **Til-sum** før du kjører funksjonen **Rykk inn kosttyper**, må du angi definisjonene på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-felt.  
+   > [!IMPORTANT]  
+   >  Hvis du har angitt definisjoner i feltene **Sammentelling** for linjetypen **Til-sum** før du kjører funksjonen **Rykk inn kosttyper**, må du angi definisjonene på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-felt.  
 
 ## <a name="to-update-cost-types"></a>Slik oppdaterer du kosttyper:  
 1.  Velg i vinduet **Kostregnskapsoppsett** hvis du vil at diagrammet med kosttypene skal oppdateres automatisk når kontoplanen endres.  

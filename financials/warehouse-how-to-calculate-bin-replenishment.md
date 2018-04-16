@@ -38,14 +38,14 @@ Og endelig, hvis du har definert masselagringshyllene med bare hylletypehandling
 
 Neste gang du beregner etterfylling av en hylle, vil forslagene du har slettet, bli opprettet på nytt hvis de fremdeles er gyldige på det tidspunktet.  
 
-> [!NOTE]  
+> [!NOTE]
 >  Hvis følgende betingelser er oppfylt for en vare:  
->   
->  -   varen har en utløpsdato  
-> -   Feltet **Plukk i henhold til FEFO** er merket av på lokasjonskortet, og  
-> -   Du bruker funksjonaliteten **Beregn etterfylling av hyller**  
->   
->  vil feltene **Fra sone** og **Fra hylle** være tomme fordi algoritmen for å beregne hvor varene skal flyttes fra, bare utløses når du aktiverer funksjonen **Opprett flytting**.  
+> 
+> - varen har en utløpsdato  
+>   -   Feltet **Plukk i henhold til FEFO** er merket av på lokasjonskortet, og  
+>   -   Du bruker funksjonaliteten **Beregn etterfylling av hyller**  
+> 
+>   vil feltene **Fra sone** og **Fra hylle** være tomme fordi algoritmen for å beregne hvor varene skal flyttes fra, bare utløses når du aktiverer funksjonen **Opprett flytting**.  
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  

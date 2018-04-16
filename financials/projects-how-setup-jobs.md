@@ -26,7 +26,7 @@ Du må sette opp priser for prosjektvarer, prosjektressurser og finanskonti på 
 
 ## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Avmerkingsboksen **Bruk brukskobling** er ganske komplisert og forklares derfor i delen nedenfor.

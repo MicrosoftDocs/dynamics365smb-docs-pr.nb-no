@@ -99,7 +99,7 @@ Ansatte kan nå fortsette med å telle lagerbeholdningen og registrere eventuell
     De relaterte feltene oppdateres tilsvarende.
 
     > [!NOTE]  
->   Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden. Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene. Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.
+   >   Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden. Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene. Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.
 
 2. Hvis du vil justere beregnet antall til faktisk opptalt antall, velger du handlingen **Bokfør**.
 
@@ -134,7 +134,7 @@ En vareopptelling blir vanligvis foretatt regelmessig, for eksempel hver måned,
 Definer opptellingsperiodene du vil bruke, og tilordne deretter én til hver vare. Når du utfører en vareopptelling og bruker **Beregn opptellingsperiode** i vareopptellingskladden, opprette linjer for varene automatisk.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Vareopptellingsperioder**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a>Tilordne en opptellingsperiode til en vare  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.  
@@ -180,7 +180,7 @@ I **Varekladd**-vinduet kan du bokføre varetransaksjoner direkte for å justere
 Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel i forbindelse med materialforbruk, kan du bruke vinduet **Standard varekladd** til å forenkle dette gjentakende arbeidet. Hvis du vil ha mer informasjon, kan du se delen «Standardkladder» i [Arbeide med finanskladder](ui-work-general-journals.md).
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velg handlingen **Bokfør** for å foreta lagerjusteringene.
 
 > [!NOTE]  

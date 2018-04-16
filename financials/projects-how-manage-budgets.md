@@ -30,7 +30,7 @@ Når en kunde vil vite prisen på et prosjekt som faktureres basert på forbruk,
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Åpne et relevant prosjekt.
 3. Merk en oppgavelinje for bokføring, og velg deretter handlingen **Prosjektplanleggingslinjer**.
-4. Fyll ut feltene etter behov på en ny linje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+4. Fyll ut feltene etter behov på en ny linje. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
 
 Se følgende informasjon for feltet **Linjetype**.  
 

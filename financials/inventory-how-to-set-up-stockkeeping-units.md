@@ -26,9 +26,9 @@ Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Slik definerer du lagerføringsenheter  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
-2.  Velg handlingen **Ny**.  
-3.  Fyll ut feltene på kortet. Følgende felt er obligatoriske: **Varenr.**, **Lokasjonskode** og/eller **Variantkode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny**.  
+3. Fyll ut feltene på kortet. Følgende felt er obligatoriske: **Varenr.**, **Lokasjonskode** og/eller **Variantkode**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du har definert den første lagerføringsenheten for en vare, blir det merket av for **Lagerføringsenhet** på **vare** kortet.  
 

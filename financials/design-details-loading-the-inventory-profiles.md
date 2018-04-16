@@ -28,15 +28,15 @@ For å sortere ut de mange kildene til behov og forsyning organiserer planleggin
 
  Planleggingssystemet tar vanligvis hensyn til alle forsyningsordrer etter den planlagte startdatoen som kan endres for å dekke behovet. Så snart et antall er bokført fra en ordre, kan den imidlertid ikke lenger endres av planleggingssystemet. Følgende forskjellige ordrer kan derfor ikke planlegges på nytt:  
 
--   Frigitte produksjonsordrer der forbruk eller avgang er bokført.  
+- Frigitte produksjonsordrer der forbruk eller avgang er bokført.  
 
--   Monteringsordre der forbruk eller avgang er bokført.  
+- Monteringsordre der forbruk eller avgang er bokført.  
 
--   Overføringsordrer der leveringen er bokført.  
+- Overføringsordrer der leveringen er bokført.  
 
--   Bestillinger der mottaket er bokført.  
+- Bestillinger der mottaket er bokført.  
 
- I tillegg til å laste inn behovs- og forsyningstyper, blir bestemte typer lastet inn med oppmerksomhet på spesialregler og avhengigheter som er beskrevet nedenfor.  
+  I tillegg til å laste inn behovs- og forsyningstyper, blir bestemte typer lastet inn med oppmerksomhet på spesialregler og avhengigheter som er beskrevet nedenfor.  
 
 ## <a name="item-dimensions-are-separated"></a>Varedimensjoner atskilles  
  Forsyningsplanen må beregnes per kombinasjon av varedimensjonene, for eksempel variant og lokasjon. Det er imidlertid ingen grunn til å beregne teoretisk kombinasjoner. Bare kombinasjonene som inneholder behov og/eller forsyning må beregnes.  

@@ -32,15 +32,15 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 ## <a name="example"></a>Eksempel  
  Følgende eksempel illustrerer hvordan avvik beregnes for kjøpte varer. Dette er basert på følgende scenario:  
 
-1.  Brukeren kjøper en vare for NOK 90,00, men standardkosten er NOK 100,00. Derfor blir netto kjøpsavvik NOK -10,00.  
-2.  NOK 10,00 krediteres kontoen for kjøpsavvik.  
-3.  Brukeren bokfører et varegebyr på NOK 20,00. Den faktiske kostnaden økes derfor til NOK 110,00, og verdien av kjøpsavvik blir NOK 10,00.  
-4.  NOK 20,00 debiteres kontoen for kjøpsavvik. Derfor blir netto kjøpsavvik NOK 10,00.  
-5.  Brukeren revaluerer varen fra NOK 100,00 til NOK 70,00. Dette påvirker ikke avviksberegningen, bare lagerverdien.  
+1. Brukeren kjøper en vare for NOK 90,00, men standardkosten er NOK 100,00. Derfor blir netto kjøpsavvik NOK -10,00.  
+2. NOK 10,00 krediteres kontoen for kjøpsavvik.  
+3. Brukeren bokfører et varegebyr på NOK 20,00. Den faktiske kostnaden økes derfor til NOK 110,00, og verdien av kjøpsavvik blir NOK 10,00.  
+4. NOK 20,00 debiteres kontoen for kjøpsavvik. Derfor blir netto kjøpsavvik NOK 10,00.  
+5. Brukeren revaluerer varen fra NOK 100,00 til NOK 70,00. Dette påvirker ikke avviksberegningen, bare lagerverdien.  
 
- Tabellen nedenfor viser de resulterende verdipostene.  
+   Tabellen nedenfor viser de resulterende verdipostene.  
 
- ![Beregning av kjøpsavvik](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+   ![Beregning av kjøpsavvik](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
 
 ## <a name="determining-the-standard-cost"></a>Fastslå standardkost  
  Standardkosten brukes ved beregning av avvik og beløpet som skal kapitaliseres. Siden standardkosten kan endres over tid på grunn av manuell oppdatering av beregning, trenger du et tidspunkt der standardkost er fast for avviksberegning. Dette er tidspunktet når lagerøkningen faktureres. Punktet der standardkost fastslås når kostnaden justeres for varer som produseres eller monteres.  

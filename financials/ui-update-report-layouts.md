@@ -38,22 +38,22 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
 ## <a name="to-test-custom-report-layout-updates"></a>Slik tester du oppdateringer for egendefinert rapportoppsett:  
   
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
   
-2.  I **Rapportoppsettsvalg**-vinduet velger du handlingen **Test oppdateringer av oppsett**.  
+2. I **Rapportoppsettsvalg**-vinduet velger du handlingen **Test oppdateringer av oppsett**.  
   
- Endringer i rapportoppsettene testes, men brukes ikke i de faktiske rapportoppsettene. Vinduet **Oppdateringslogg for rapportoppsett** åpnes og viser statusen for mulige oppdateringer for hvert rapportoppsett. Hvis det er feil i et rapportoppsett, kan du åpne rapportoppsettet direkte for redigering fra meldingen for å løse eventuelle problemer. Hvis du vil ha mer informasjon, kan du se [Rette feil](ui-update-report-layouts.md#FixErrors).  
+   Endringer i rapportoppsettene testes, men brukes ikke i de faktiske rapportoppsettene. Vinduet **Oppdateringslogg for rapportoppsett** åpnes og viser statusen for mulige oppdateringer for hvert rapportoppsett. Hvis det er feil i et rapportoppsett, kan du åpne rapportoppsettet direkte for redigering fra meldingen for å løse eventuelle problemer. Hvis du vil ha mer informasjon, kan du se [Rette feil](ui-update-report-layouts.md#FixErrors).  
   
 ##  <a name="UpdateLimitations"></a> Begrensninger i oppdateringen for egendefinert rapportoppsett  
  Det finnes flere typer endringer som den automatiske oppdateringen kan bruke på egendefinert rapportoppsett, for eksempel et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Den automatiske oppdateringen kan imidlertid ikke håndtere følgende endringer i et rapportdatasett.  
   
-1.  Slettede felt, etiketter eller dataelementer.  
+1. Slettede felt, etiketter eller dataelementer.  
   
-2.  Dupliserte feltnavn i rapportoppsettet etter at et felt har fått nytt navn i datasettet. Dette bør behandles som en utformingsfeil.  
+2. Dupliserte feltnavn i rapportoppsettet etter at et felt har fått nytt navn i datasettet. Dette bør behandles som en utformingsfeil.  
   
-3.  Oppgraderingsscenarier der det er flere gjentakelser i et rapportoppsett som fører til flere handlinger for å gi nytt navn i de samme feltene, etikettene eller dataelementene.  
+3. Oppgraderingsscenarier der det er flere gjentakelser i et rapportoppsett som fører til flere handlinger for å gi nytt navn i de samme feltene, etikettene eller dataelementene.  
   
- Hvis oppdateringsprosessen oppdager ett av disse problemene, kan ikke oppdateringen brukes. Du må rette opp problemene manuelt, for eksempel ved å redigere rapportoppsettet i Word, eller programmatisk ved hjelp av oppgraderingskodeenheter.  
+   Hvis oppdateringsprosessen oppdager ett av disse problemene, kan ikke oppdateringen brukes. Du må rette opp problemene manuelt, for eksempel ved å redigere rapportoppsettet i Word, eller programmatisk ved hjelp av oppgraderingskodeenheter.  
   
 ##  <a name="FixErrors"></a> Rette feil  
  Hvis du får en feilmelding når du oppdaterer eller tester oppdateringer av rapportoppsett, må du mest sannsynlig endre rapportoppsettet for å løse problemet. Les feilmeldingen for å gjøre det enklere å finne årsaken til problemet.  

@@ -34,24 +34,24 @@ Hvis det er mulig, bruker du et dokument til å utligne en varepost på nytt. Hv
 
 Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du må korrigere en fast utligning, bruker du vinduet **Utligningsforslag** til å korrigere en utligning.
 
-> [!Warning]  
+> [!Warning]
 > Det er viktig å være oppmerksom på følgende når du arbeider med utligningsforslaget:
-    - Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle varene før du utligner utligningspostene på nytt eller lukker vinduet **Utligningsforslag**. Brukere som prøver å utføre handlinger som omfatter en manuelt opphevet utligningspost, får følgende feilmelding: "Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen XXX er opphevet i Utligningsforslag av brukeren XXX."
-    - Du bør bare utligne vareposter på nytt utenfor arbeidstiden for å unngå eventuelle konflikter med andre brukere som bokfører transaksjoner med de samme varene.
-    - Når du lukker utligningsforslaget, utfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
-    - Du kan fjerne utligninger fra flere enn én post om gangen i utligningsforslaget. Siden utligning av poster påvirker settet med poster som er tilgjengelige for utligning, kan du imidlertid ikke opprette en utligning for flere enn én post om gangen.
-    - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
+>     - Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle varene før du utligner utligningspostene på nytt eller lukker vinduet **Utligningsforslag**. Brukere som prøver å utføre handlinger som omfatter en manuelt opphevet utligningspost, får følgende feilmelding: "Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen XXX er opphevet i Utligningsforslag av brukeren XXX."
+>     - Du bør bare utligne vareposter på nytt utenfor arbeidstiden for å unngå eventuelle konflikter med andre brukere som bokfører transaksjoner med de samme varene.
+>     - Når du lukker utligningsforslaget, utfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
+>     - Du kan fjerne utligninger fra flere enn én post om gangen i utligningsforslaget. Siden utligning av poster påvirker settet med poster som er tilgjengelige for utligning, kan du imidlertid ikke opprette en utligning for flere enn én post om gangen.
+>     - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
 
 ## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Slik fjerner du en vareutligning med utligningsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
-2.  Vinduet **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
-3.  Angi filtre på hurtigfanen **Generelt** for å gjøre det enklere å finne vareposten du vil endre bruken for.  
-4.  Velg vareposten, og velg deretter handlingen **Utlignede poster**. Vinduet **Vis utlignede poster – utlignede poster** åpnes med vareposten(e) som utlignes mot den valgte posten.  
-5.  Velg vareposten som du vil fjerne utligningen for.  
-6.  Velg handlingen **Fjern utligning**. Dermed fjernes vareutligningsposten som forbinder de to varepostene, og den flyttes til vinduet **Vis utlignede poster – Poster som skal utlignes**.  
-7.  Lukk vinduet **Vis utlignede poster – Utlignede poster**.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
+2. Vinduet **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
+3. Angi filtre på hurtigfanen **Generelt** for å gjøre det enklere å finne vareposten du vil endre bruken for.  
+4. Velg vareposten, og velg deretter handlingen **Utlignede poster**. Vinduet **Vis utlignede poster – utlignede poster** åpnes med vareposten(e) som utlignes mot den valgte posten.  
+5. Velg vareposten som du vil fjerne utligningen for.  
+6. Velg handlingen **Fjern utligning**. Dermed fjernes vareutligningsposten som forbinder de to varepostene, og den flyttes til vinduet **Vis utlignede poster – Poster som skal utlignes**.  
+7. Lukk vinduet **Vis utlignede poster – Utlignede poster**.  
 
- **Restantall**-feltet for de to varepostene økes med antallet som utligningen er opphevet for. Den fjernede vareposten er nå tilgjengelig for ny utligning i vinduet **Vis utlignede poster – Poster som skal utlignes**.  
+   **Restantall**-feltet for de to varepostene økes med antallet som utligningen er opphevet for. Den fjernede vareposten er nå tilgjengelig for ny utligning i vinduet **Vis utlignede poster – Poster som skal utlignes**.  
 
 > [!IMPORTANT]  
 >  Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle de berørte varene før du utligner utligningspostene på nytt eller lukker vinduet **Utligningsforslag**. Følgende feilmelding vises hvis du prøver å utføre handlinger som involverer en manuelt opphevet utligningspost:  

@@ -32,7 +32,7 @@ En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan 
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Analysevisningsoversikt** velger du handlingen **Ny**.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil legge til flere dimensjonskoder i tillegg til de fire kodene i hurtigfanen **Dimensjoner**, velger du handlingen **Filtrer**, og deretter velger du **OK**.  
 5. Du oppdaterer visningen ved å velge handlingen **Oppdater**.
 

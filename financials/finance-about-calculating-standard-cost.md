@@ -80,8 +80,8 @@ For å beregne standard kapasitetskost må du opprette standardtidssatser som er
 
 Du definerer satsene for hver av disse tidstypene for hver produksjonsressurs eller arbeidssenter i en individuell rute.  
 
-> [!NOTE]  
-    >  Mens operasjonstidssatser gjelder for hver vareenhet som produseres, gjelder oppstillingstidssatsene for hvert parti. Derfor må du fordele ruteoppstillingstiden for hver operasjon proporsjonalt over partistørrelsen. Du angir partistørrelsen i det tilsvarende feltet i hurtigfanen **Bestilling** på varekortet.  
+> [!NOTE]
+>  Mens operasjonstidssatser gjelder for hver vareenhet som produseres, gjelder oppstillingstidssatsene for hvert parti. Derfor må du fordele ruteoppstillingstiden for hver operasjon proporsjonalt over partistørrelsen. Du angir partistørrelsen i det tilsvarende feltet i hurtigfanen **Bestilling** på varekortet.  
 
 Hvis du vil angi oppstillingstid i ruten for planlegging, men ikke inkludere denne utgiften i standardkostberegningen, tømmer du feltet **Kost inkl. oppstilling** i vinduet **Produksjonsoppsett**.  
 

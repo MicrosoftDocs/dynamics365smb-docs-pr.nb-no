@@ -27,7 +27,7 @@ Fremgangsmåten nedenfor viser hvordan du arbeider med standardlinjer. Det funge
 ## <a name="to-set-up-standard-sales-lines"></a>Definere standard salgslinjer  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Standard salgskoder**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Standard salgslinjer** velger du handlingen **Ny**.  
-3. Fyll ut feltene i hurtigfanen **Generelt** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Fyll ut feltene i hurtigfanen **Generelt** etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I hurtigfanen **Linjer** angir du informasjon i feltene for å klargjøre salgslinjer som gjenspeiler standardlinjene du forventer å bruke som gjentakende linjer i salgsdokumenter.  
 
 ## <a name="to-insert-standard-sales-lines-on-a-sales-invoice"></a>Sette inn standard salgslinjer på en salgsfaktura

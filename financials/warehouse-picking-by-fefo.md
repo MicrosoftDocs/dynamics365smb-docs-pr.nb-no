@@ -24,24 +24,24 @@ FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste 
 
  Denne funksjonaliteten fungerer bare når følgende kriterier er oppfylt:  
 
--   Varen må ha et serie-/partinummer.  
--   På varens varesporingskodeoppsett må feltet **Lagerporing basert på s.nr.** eller feltet **Lagersporing basert på parti** velges.  
--   Varen må bokføres til lager med en utløpsdato.  
--   Det må merkes av for **Plukk nødv.** på lokasjonskortet.  
--   Det må merkes av for **Plukk i henhold til FEFO** på lokasjonskortet.  
--   Det må merkes av for **Hylle obligatorisk** på lokasjonskortet.  
+- Varen må ha et serie-/partinummer.  
+- På varens varesporingskodeoppsett må feltet **Lagerporing basert på s.nr.** eller feltet **Lagersporing basert på parti** velges.  
+- Varen må bokføres til lager med en utløpsdato.  
+- Det må merkes av for **Plukk nødv.** på lokasjonskortet.  
+- Det må merkes av for **Plukk i henhold til FEFO** på lokasjonskortet.  
+- Det må merkes av for **Hylle obligatorisk** på lokasjonskortet.  
 
- Når alle kriteriene er oppfylt, sorteres serie-/partinummererte varer som skal plukkes, med de eldste først i alle plukk og flyttinger, unntatt for varer som bruker SN-spesifikk eller partispesifikk sporing.  
+  Når alle kriteriene er oppfylt, sorteres serie-/partinummererte varer som skal plukkes, med de eldste først i alle plukk og flyttinger, unntatt for varer som bruker SN-spesifikk eller partispesifikk sporing.  
 
 > [!NOTE]  
 >  Hvis enkelte serie-/partinummererte varer bruker spesifikk sporing, har disse førsteprioritet, og under disse vises de gjenstående, ikke-spesifikke serie-/partinumrene i henhold til FEFO.  
 
  Hvis to serie-/partinummererte varer har samme utløpsdato, velges varen med lavest serie- eller partinummer. Hvis serie- eller partinumrene er like, velges varen som ble registrert først.  
 
-> [!NOTE]  
->  -   Når du plukker serie-/partinummererte varer i lokasjoner definert for lagerstyring, blir bare antall i hyller av typen *Plukk* plukket i henhold til FEFO.  
-> -   Når du skal aktivere flyttinger i henhold til FEFO, må du la **Fra hylle**-feltet stå tomt i vinduet **Lagerflytting** eller **Flytteforslag**.  
-> -   Hvis feltet **Bruk ikke etter utløpsdato** er valgt, inkluderes bare varer som ikke er utløpt, i plukkingen. Dette gjelder selv om du ikke bruker plukk i henhold til FEFO.  
+> [!NOTE]
+> - Når du plukker serie-/partinummererte varer i lokasjoner definert for lagerstyring, blir bare antall i hyller av typen *Plukk* plukket i henhold til FEFO.  
+>   -   Når du skal aktivere flyttinger i henhold til FEFO, må du la **Fra hylle**-feltet stå tomt i vinduet **Lagerflytting** eller **Flytteforslag**.  
+>   -   Hvis feltet **Bruk ikke etter utløpsdato** er valgt, inkluderes bare varer som ikke er utløpt, i plukkingen. Dette gjelder selv om du ikke bruker plukk i henhold til FEFO.  
 
 ## <a name="see-also"></a>Se også  
 [Plukke varer](warehouse-pick-items.md)   

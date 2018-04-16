@@ -55,7 +55,7 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 7. Når du har fullført kundekortet, velger du **OK**-knappen for å gå tilbake til **Ordre** -vinduet.
 
     Flere felt i ordren er nå fylt ut med informasjon du har angitt på det nye kundekortet.
-8. Fyll ut resten av feltene vinduet **Ordre** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+8. Fyll ut resten av feltene vinduet **Ordre** etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du kan nå begynne å fylle ut ordrelinjene med lagervarer eller tjenester du vil selge til kunden.
 
@@ -64,7 +64,7 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 10. I feltet **Antall** angir du hvor mange varer som skal selges.
 
     > [!NOTE]  
->   For varer av typen Tjeneste er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
+    >   For varer av typen Tjeneste er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.
 
     Feltet **Linjebeløp** oppdateres for å vise verdien i feltet **Salgspris** multiplisert med verdien i feltet **Antall**.
 
@@ -79,12 +79,12 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 14. Det åpnes et nytt kundekort som viser informasjon om den valgte kundemalen. Fyll ut feltene som gjenstår. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
 15. Når du har fullført kundekortet, velger du **OK**-knappen for å gå tilbake til **Ordre** -vinduet.
 
-   Flere felt i ordren er nå fylt ut med informasjon du har angitt på det nye kundekortet.  
-16. Fyll ut resten av feltene vinduet **Ordre** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+    Flere felt i ordren er nå fylt ut med informasjon du har angitt på det nye kundekortet.  
+16. Fyll ut resten av feltene vinduet **Ordre** etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-   Du er nå klar til å fylle ut ordrelinjene for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.   
+    Du er nå klar til å fylle ut ordrelinjene for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.   
 
-   Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på ordren ved å velge handlingen **Hent gjentakende salgslinjer**.  
+    Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på ordren ved å velge handlingen **Hent gjentakende salgslinjer**.  
 17. På **Linjer**-hurtigfanen i **Type**-feltet velger du typen produkt, tillegg eller transaksjon som du vil legge til for kunden med salgslinjen.
 18. I **Nr.** velger du en post skal bokføres, i henhold til verdien i **Type**-feltet.
 
@@ -94,7 +94,7 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 19. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 
     > [!NOTE]  
->   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen. Hvis du vil ha mer informasjon, kan du se [Definere vareenheter](inventory-how-setup-units-of-measure.md).
+    >   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen. Hvis du vil ha mer informasjon, kan du se [Definere vareenheter](inventory-how-setup-units-of-measure.md).
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 

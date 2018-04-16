@@ -42,7 +42,7 @@ Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr som bruk
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varegebyr**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** i **Varegebyr**-vinduet for å opprette en ny linje.
-3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr direkte til kjøpsfakturaen for varen
 Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du denne fremgangsmåten.
@@ -53,7 +53,7 @@ Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du
 4. Velg **Gebyr (vare)** i **Type**-feltet på en ny linje.
 5. I feltet **Antall** angir du antall enheter for varegebyret du er fakturert for.
 6. I feltet **Direkte enhetskost** angir du beløpet for varegebyret.
-7. Fyll ut feltene som gjenstår, etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. Fyll ut feltene som gjenstår, etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     I fremgangsmåten nedenfor skal du utføre den faktiske tilordningen. Før varegebyret er fullstendig tilordnet, vises verdien i feltet **Ant. som skal tilordnes** i rød skrift.
 8. I **Linjer**-fanen velger du handlingen **Varegebyrtilordning**.

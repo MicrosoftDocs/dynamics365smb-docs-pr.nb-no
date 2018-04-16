@@ -89,45 +89,45 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
     - Bruk funksjonen  **Hent bokførte dokumentlinjer som skal tilbakeføres** for å kopiere én eller flere bokførte dokumentlinjer fra ett eller flere bokførte dokumenter. Denne funksjonen tilbakefører alltid kost nøyaktig fra den bokførte dokumentlinjen. Denne funksjonen er beskrevet i følgende fremgangsmåter.    
     - Bruk funksjonen **Kopier dokument** til å kopiere et eksisterende dokument til ordrereturen. Bruk denne funksjonen til å kopiere hele dokumentet. Det kan være et bokført dokument eller et dokument som ikke er bokført ennå. Med denne funksjonen er nøyaktig kosttilbakeføring bare mulig hvis det er merket av for **Bruk opprinnelig kostpris** i vinduet **Salgsoppsett**.  
 
-4. Velg handlingen **Hent bokførte dokumentlinjer som skal tilbakeføres**.
-5. Øverst i vinduet **Bokførte kjøpsdokumentlinjer** merker du av for **Vis bare reversible linjer** hvis du bare vil se salgslinjer med antall som ennå ikke er tilbakeført. Hvis for eksempel antallet for en bokført kjøpsfaktura allerede har blitt tilbakeført, kan det hende du ikke vil inkludere det antallet på et nytt bestillingsreturdokument.
+5. Velg handlingen **Hent bokførte dokumentlinjer som skal tilbakeføres**.
+6. Øverst i vinduet **Bokførte kjøpsdokumentlinjer** merker du av for **Vis bare reversible linjer** hvis du bare vil se salgslinjer med antall som ennå ikke er tilbakeført. Hvis for eksempel antallet for en bokført kjøpsfaktura allerede har blitt tilbakeført, kan det hende du ikke vil inkludere det antallet på et nytt bestillingsreturdokument.
 
     > [!NOTE]  
     >  Dette feltet fungerer bare for bokførte mottak og bokførte fakturalinjer, og ikke for bokførte retur- eller kreditnotalinjer.  
 
     På venstre side av vinduet vises en oversikt over de ulike dokumenttypene, og nummeret i parentes viser antall dokumenter som er tilgjengelig for hver enkelt dokumenttype.
 
-6. I feltet **Filter for bilagstype** velger du typen bokførte dokumentlinjer du vil bruke.  
-7. Velg linjene du vil kopiere til det nye dokumentet.  
+7. I feltet **Filter for bilagstype** velger du typen bokførte dokumentlinjer du vil bruke.  
+8. Velg linjene du vil kopiere til det nye dokumentet.  
 
     > [!NOTE]  
     >  Hvis du bruker Ctrl+A for å velge alle linjene, kopieres alle linjene med det filteret du har angitt, men filteret **Vis bare reversible linjer** ignoreres. Hvis du for eksempel har filtrert linjene for et bestemt dokumentnummer med to linjer, og en av dem allerede er tilbakeført. Selv om feltet **Vis bare reversible linjer** er valgt, kopieres begge linjene når du trykker CTRL+A for å kopiere alle linjene, ikke bare den linjen som ennå ikke er tilbakeført.  
 
-8. Velg **OK**-knappen for å kopiere linjene til det nye dokumentet.  
+9. Velg **OK**-knappen for å kopiere linjene til det nye dokumentet.  
 
     Følgende skjer:  
 
-    -   For bokførte dokumentlinjer av typen **Vare** opprettes en ny dokumentlinje som er en kopi av den bokførte dokumentlinjen, med antall som ennå ikke er tilbakeført. Feltet **Utlignet til-varepost** fylles ut etter behov med tallet på vareposten for den bokførte dokumentlinjen.  
+   - For bokførte dokumentlinjer av typen **Vare** opprettes en ny dokumentlinje som er en kopi av den bokførte dokumentlinjen, med antall som ennå ikke er tilbakeført. Feltet **Utlignet til-varepost** fylles ut etter behov med tallet på vareposten for den bokførte dokumentlinjen.  
 
-    -   For bokførte dokumentlinjer som ikke er av typen **Vare**, for eksempel varegebyrer, opprettes en ny dokumentlinje som er en kopi av den opprinnelige bokførte dokumentlinjen.  
+   - For bokførte dokumentlinjer som ikke er av typen **Vare**, for eksempel varegebyrer, opprettes en ny dokumentlinje som er en kopi av den opprinnelige bokførte dokumentlinjen.  
 
-    -   **Enhetskost (NOK)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
+   - **Enhetskost (NOK)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
 
-    -   Hvis det kopierte dokumentet er en bokført følgeseddel, et bokført mottak, en bokført returseddel eller en bokført returforsendelse, beregnes salgsprisen fra varekortet.  
+   - Hvis det kopierte dokumentet er en bokført følgeseddel, et bokført mottak, en bokført returseddel eller en bokført returforsendelse, beregnes salgsprisen fra varekortet.  
 
-    -   Hvis det kopierte dokumentet er en bokført faktura eller kreditnota, kopieres salgsprisen, fakturarabatter og linjerabatter fra den bokførte dokumentlinjen.  
+   - Hvis det kopierte dokumentet er en bokført faktura eller kreditnota, kopieres salgsprisen, fakturarabatter og linjerabatter fra den bokførte dokumentlinjen.  
 
-    -   Hvis den bokførte dokumentlinjen inneholder varesporingslinjer, fylles feltet **Utlignet til-varepost** ut på varesporingslinjene med relevant varepostnummer fra de bokførte varesporingslinjene.  
+   - Hvis den bokførte dokumentlinjen inneholder varesporingslinjer, fylles feltet **Utlignet til-varepost** ut på varesporingslinjene med relevant varepostnummer fra de bokførte varesporingslinjene.  
 
      Når du kopierer fra en bokført faktura eller bokført kreditnota, kopieres alle relevante fakturarabatter og linjerabatter som er gyldige på bokføringstidspunktet for det dokumentet, fra den bokførte dokumentlinjen til den nye dokumentlinjen. Vær imidlertid oppmerksom på at hvis alternativet **Beregn fakturarabatt** er aktivert i vinduet **Kjøpsoppsett**, vil fakturarabatten bli beregnet på nytt når du bokfører den nye dokumentlinjen. Det kan derfor hende at linjebeløpet for den nye linjen er forskjellig fra linjebeløpet på den bokførte dokumentlinjen, avhengig av den nye beregningen av fakturarabatten.  
 
-    > [!NOTE]  
-    >  Hvis en del av antallet for den bokførte dokumentlinjen allerede er tilbakeført (returnert) eller solgt eller forbrukt, opprettes en linje bare for antallet som gjenstår på lageret, eller som ikke har blitt returnert. Hvis hele antallet for den bokførte dokumentlinjen allerede er tilbakeført, opprettes det ikke en ny dokumentlinje.  
-    >   
-    >  Hvis vareflyten i det bokførte dokumentet er den samme som vareflyten i det nye dokumentet, opprettes det ganske enkelt en kopi av den opprinnelige bokførte dokumentlinjen i det nye dokumentet. Feltet **Utlignet fra-varepost** fylles ikke ut fordi nøyaktig kosttilbakeføring ikke er mulig i dette tilfellet. Hvis du for eksempel bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** for å hente en bokført kjøpskreditnotalinje for en ny kjøpskreditnota, kopieres bare den opprinnelige bokførte kreditnotalinjen til den nye kreditnotaen.  
+     > [!NOTE]  
+     >  Hvis en del av antallet for den bokførte dokumentlinjen allerede er tilbakeført (returnert) eller solgt eller forbrukt, opprettes en linje bare for antallet som gjenstår på lageret, eller som ikke har blitt returnert. Hvis hele antallet for den bokførte dokumentlinjen allerede er tilbakeført, opprettes det ikke en ny dokumentlinje.  
+     >   
+     >  Hvis vareflyten i det bokførte dokumentet er den samme som vareflyten i det nye dokumentet, opprettes det ganske enkelt en kopi av den opprinnelige bokførte dokumentlinjen i det nye dokumentet. Feltet **Utlignet fra-varepost** fylles ikke ut fordi nøyaktig kosttilbakeføring ikke er mulig i dette tilfellet. Hvis du for eksempel bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** for å hente en bokført kjøpskreditnotalinje for en ny kjøpskreditnota, kopieres bare den opprinnelige bokførte kreditnotalinjen til den nye kreditnotaen.  
 
-8. I vinduet **Bestillingsretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
-9. Velg handlingen **Bokfør**.
+10. I vinduet **Bestillingsretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
+11. Velg handlingen **Bokfør**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Slik oppretter du en erstatningsbestilling fra en bestillingsretur
 Det kan hende du avtaler med leverandøren at de kompenserer deg for en kjøpt vare ved å erstatte varen. Erstatningsvaren kan være samme eller en annen vare. Denne situasjonen kan oppstå hvis leverandøren ved en feiltakelse leverer feil vare.  

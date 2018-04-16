@@ -39,29 +39,29 @@ Avhengig av typen side og hva den inneholder, kan du gjøre følgende:
 
     ![Tilpassingsmodus](media/ui_personalize_mode_small.png "Tilpassingsmodus")
 
-2.  Gå til siden som du vil tilpasse.
+2. Gå til siden som du vil tilpasse.
 
-    Hvis du ser et låseikon i banneret, se [Hvorfor siden er låst](ui-personalization-locked.md) for flere detaljer.
+   Hvis du ser et låseikon i banneret, se [Hvorfor siden er låst](ui-personalization-locked.md) for flere detaljer.
 
-3.  Velg et område som du vil tilpasse, for eksempel et felt eller en kolonneoverskrift i en liste. Alt som du kan tilpasse, blir umiddelbart markert med en pil eller kantlinje.
-<!--
-    -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
-    -   If the component is a part, the extent of the part is indicated by a border.
-    -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
-    -->
+3. Velg et område som du vil tilpasse, for eksempel et felt eller en kolonneoverskrift i en liste. Alt som du kan tilpasse, blir umiddelbart markert med en pil eller kantlinje.
+   <!--
+   -  If a component can be personalized, an arrow head (![Personalization indicator arrow left](media/ui_personalize_arrow_left.png "Personalization indicator arrow left") or ![Personalization indicator arrow down](media/ui_personalize_arrow_down.png "Personalization indicator arrow down")) appears.
+   -   If the component is a part, the extent of the part is indicated by a border.
+   -   The freeze pane in a list is indicated by a vertical line along the entire right-side of the last column of the freeze pane.
+   -->
 
-4.  Bruk denne tabellen som hjelp til å utføre endringer:     <table>
-        <tr><th>Hva vil du gjøre</td><th>Hvordan du gjør det</th></tr>
-        <tr><td>Flytte noe, for eksempel et felt, en kolonne i en liste, en flis eller en del</td><td> Pek hvor som helst på det du vil flytte, og dra det til den nye plasseringen. Plasseringen angis enten av en tykk vannrett eller loddrett linje.</td></tr>
-        <tr><td>Fjerne noe</td><td>Velg pilspissen, og velg <b>Fjern</b>. </td></tr>
-        <tr><td>Legge til et felt eller en kolonne</td><td>I banneret <b>Tilpassing</b> velger du <b>Mer</b>, og velg deretter <b>Felt</b>.<br /></br>Ruten <b>Legg til felt på side</b> åpnes til høyre. Den viser feltene du kan legge til på siden. Feltene som er merket som <b>Plassert</b>, finnes allerede på siden. Feltene som er merket som <b>Klar</b>, finnes ikke på siden for øyeblikket.<br /></br>Hvis du vil legge til et felt, drar du det fra ruten til den ønskede plasseringen. Plasseringen angis enten av en tykk vannrett eller loddrett linje.</td></tr>
-        <tr><td>Endre den fryste ruten i en liste til en annen kolonne.</td><td>Velg pilspissen for kolonnen som du vil ha som den siste kolonnen for den fryste ruten, og velg deretter <b>Sett Frys rute</b>.<br /><br/>Hvis du vil sette den fryste ruten tilbake til den opprinnelige utformede plasseringen, velger du pilspissen for den gjeldende kolonnen for fryst rute og velger <b>Fjern Frys rute</b>. Obs!  Du kan ikke fjerne den fryste ruten.</td></tr>
-      </table>
+4. Bruk denne tabellen som hjelp til å utføre endringer:     <table>
+       <tr><th>Hva vil du gjøre</td><th>Hvordan du gjør det</th></tr>
+       <tr><td>Flytte noe, for eksempel et felt, en kolonne i en liste, en flis eller en del</td><td> Pek hvor som helst på det du vil flytte, og dra det til den nye plasseringen. Plasseringen angis enten av en tykk vannrett eller loddrett linje.</td></tr>
+       <tr><td>Fjerne noe</td><td>Velg pilspissen, og velg <b>Fjern</b>. </td></tr>
+       <tr><td>Legge til et felt eller en kolonne</td><td>I banneret <b>Tilpassing</b> velger du <b>Mer</b>, og velg deretter <b>Felt</b>.<br /></br>Ruten <b>Legg til felt på side</b> åpnes til høyre. Den viser feltene du kan legge til på siden. Feltene som er merket som <b>Plassert</b>, finnes allerede på siden. Feltene som er merket som <b>Klar</b>, finnes ikke på siden for øyeblikket.<br /></br>Hvis du vil legge til et felt, drar du det fra ruten til den ønskede plasseringen. Plasseringen angis enten av en tykk vannrett eller loddrett linje.</td></tr>
+       <tr><td>Endre den fryste ruten i en liste til en annen kolonne.</td><td>Velg pilspissen for kolonnen som du vil ha som den siste kolonnen for den fryste ruten, og velg deretter <b>Sett Frys rute</b>.<br /><br/>Hvis du vil sette den fryste ruten tilbake til den opprinnelige utformede plasseringen, velger du pilspissen for den gjeldende kolonnen for fryst rute og velger <b>Fjern Frys rute</b>. Obs!  Du kan ikke fjerne den fryste ruten.</td></tr>
+     </table>
 
-    > [!IMPORTANT]  
-    >   Du kan ikke endre en liste hvis listen vises som fliser. Du må først bytte til listevisning for siden ved å velge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste, pil venstre").
+   > [!IMPORTANT]  
+   >   Du kan ikke endre en liste hvis listen vises som fliser. Du må først bytte til listevisning for siden ved å velge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste, pil venstre").
 
-5.  Du kan fortsette å utføre endinger på den samme siden eller flytte til en annen side. Endringene lagres automatisk når du utfører dem. Når du er ferdig, velger du banneret **Tilpassing** og **Ferdig**.
+5. Du kan fortsette å utføre endinger på den samme siden eller flytte til en annen side. Endringene lagres automatisk når du utfører dem. Når du er ferdig, velger du banneret **Tilpassing** og **Ferdig**.
 
 ## <a name="clear-personalization-to-change-a-page-back-to-its-original-layout"></a>Fjerne tilpasning for å endre en side tilbake til det opprinnelige oppsettet
 Du ønsker kanskje på et gitt tidspunkt å angre tilpasningsendringer du har foretatt på en side over tid, slik at siden ser ut som den var opprinnelig. Du gjør dette ved å velge banneret **Tilpassing**, **Mer** og deretter **Fjern tilpasning**.

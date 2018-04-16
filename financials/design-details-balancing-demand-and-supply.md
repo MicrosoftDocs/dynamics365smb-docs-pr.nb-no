@@ -25,7 +25,7 @@ For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forst
 - Alle behov blir oppfylt av tilstrekkelig forsyning.  
 - Eventuell forsyning har et formål.  
 
- Vanligvis oppnås disse målene ved å balansere forsyning med behov.  
+  Vanligvis oppnås disse målene ved å balansere forsyning med behov.  
 
 ## <a name="in-this-section"></a>I denne delen  
 [Designdetaljer: Behov og forsyning](design-details-demand-and-supply.md)  

@@ -75,14 +75,14 @@ Selv om feltet inneholder en rød stjerne, er du ikke nødt til å fylle ut felt
 # <a name="entering-negative-numbers"></a>Skrive inn negative tall
 Du kan angi negative tall på to måter. Tallet -20,5 kan angis som:  
 
--   -20,5  
+- -20,5  
 
-    eller
--   20,5-  
+  eller
+- 20,5-  
 
- I begge tilfeller registreres beløpet som -20,5.  
+  I begge tilfeller registreres beløpet som -20,5.  
 
- Hvis det siste tegnet i uttrykket er en **++** eller en **--**, blir hele uttrykket registrert med dette tegnet. Eksempel: **10-20+** resulterer i 10 og ikke -10.  
+  Hvis det siste tegnet i uttrykket er en **++** eller en **--**, blir hele uttrykket registrert med dette tegnet. Eksempel: **10-20+** resulterer i 10 og ikke -10.  
 
 ## <a name="entering-dates-and-times"></a>Angi datoer og klokkeslett
 Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet til datoer (datofelt). Datoene kan skrives inn med eller uten skilletegn.
@@ -93,15 +93,15 @@ Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet ti
 ### <a name="entering-dates"></a>Sette inn datoer  
  I et datofelt kan du angi to, fire, seks eller åtte tall:  
 
--   Hvis du bare skriver inn to tall, tolkes disse som dagen, og måneden og året for arbeidsdatoen legges til.  
+- Hvis du bare skriver inn to tall, tolkes disse som dagen, og måneden og året for arbeidsdatoen legges til.  
 
--   Hvis du skriver inn fire tall, tolkes disse som dagen og måneden, og året for arbeidsdatoen legges til.  
+- Hvis du skriver inn fire tall, tolkes disse som dagen og måneden, og året for arbeidsdatoen legges til.  
 
--   Hvis datoen du vil angi ligger i intervallet 01.01.1930 til og med 31.12.2029, kan du angi året med to eller fire sifre.  
+- Hvis datoen du vil angi ligger i intervallet 01.01.1930 til og med 31.12.2029, kan du angi året med to eller fire sifre.  
 
- Du kan også angi en dato som en ukedag etterfulgt av et ukenummer og, hvis du vil, et år (for eksempel Man25 eller man25 betyr mandag i uke 25).  
+  Du kan også angi en dato som en ukedag etterfulgt av et ukenummer og, hvis du vil, et år (for eksempel Man25 eller man25 betyr mandag i uke 25).  
 
- I stedet for å skrive inn en bestemt dato, kan du skrive inn én av to koder.  
+  I stedet for å skrive inn en bestemt dato, kan du skrive inn én av to koder.  
 
 | - kode|Resultat|  
 |--------------|----------------|  
@@ -202,13 +202,13 @@ Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet ti
 
  Her kommer det noen eksempler på hvordan datoformler kan brukes:  
 
--   Datoformelen i det gjentakende intervallfeltet i gjentakende kladder bestemmer hvor ofte posten på kladdelinjen skal bokføres.  
+- Datoformelen i det gjentakende intervallfeltet i gjentakende kladder bestemmer hvor ofte posten på kladdelinjen skal bokføres.  
 
--   Datoformelen i feltet Respittid for en bestemt purringsgrad angir hvor lang tid som må gå fra forfallsdatoen (eller fra forrige purringsdato) før det kan opprettes en purring.  
+- Datoformelen i feltet Respittid for en bestemt purringsgrad angir hvor lang tid som må gå fra forfallsdatoen (eller fra forrige purringsdato) før det kan opprettes en purring.  
 
--   Datoformelen i feltet Beregning av forfallsdato angir hvordan forfallsdatoen i purringen beregnes.  
+- Datoformelen i feltet Beregning av forfallsdato angir hvordan forfallsdatoen i purringen beregnes.  
 
- Formelen for datoberegning kan inneholde opptil 20 tegn, både tall og bokstaver. Du kan bruke følgende bokstaver, som er forkortelser for tidsangivelser:  
+  Formelen for datoberegning kan inneholde opptil 20 tegn, både tall og bokstaver. Du kan bruke følgende bokstaver, som er forkortelser for tidsangivelser:  
 
 |||  
 |-|-|  

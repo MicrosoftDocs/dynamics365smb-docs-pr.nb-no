@@ -106,12 +106,12 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 2.  Åpne **Kunde**-kortet som du vil tilordne en hovedkalender for.  
 3.  På hurtigfanen **Levering**, i **Hovedkalenderkode**-feltet, velger du hovedkalenderen som du vil tilordne.  
 
-> [!IMPORTANT]  
->  -   Hvis du ikke tilordner en hovedkalender til et selskap, beregnes alle datoene som virkedager.  
-> -   Hvis du angir en tom lokasjon eller ordrelinje, beregnes alle datoer som virkedager.  
-> -   En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager.
-
-> [!NOTE]  
+> [!IMPORTANT]
+> - Hvis du ikke tilordner en hovedkalender til et selskap, beregnes alle datoene som virkedager.  
+>   -   Hvis du angir en tom lokasjon eller ordrelinje, beregnes alle datoer som virkedager.  
+>   -   En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager.
+> 
+> [!NOTE]
 >  Før du kan opprette egendefinerte kalenderposter, må du først tilordne selskapet en hovedkalender.  
 
 ## <a name="see-also"></a>Se også

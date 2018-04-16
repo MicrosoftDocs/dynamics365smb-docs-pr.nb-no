@@ -27,7 +27,7 @@ Hvis du definerer vedlikeholdsfeltene, kan du bokføre vedlikeholdsutgifter fra 
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet du vil definere forsikringsdekning for, og velg deretter handlingen **Rediger**.
-3. Fyll ut feltene på hurtigfanen **Vedlikehold** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut feltene på hurtigfanen **Vedlikehold** etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Slik definerer du vedlikeholdskoder
 Når du bokfører vedlikeholdskostnader fra en finanskladd, fyller du ut feltet **Vedlikeholdskode** for å registrere hva slags vedlikehold som er utført, for eksempel rutineservice eller reparasjon.

@@ -47,7 +47,7 @@ Når du har opprettet rentenotaer og foretatt eventuelle nødvendige endringer, 
 
 ## <a name="to-send-the-customer-statement-report"></a>Sende Kontoutdrag-rapporten
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoutdrag**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Utdataalternativer** velger du hvordan du vil sende rapporten til kunden.
 
 > [!NOTE]  

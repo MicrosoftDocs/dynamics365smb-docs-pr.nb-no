@@ -49,7 +49,7 @@ Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, 
 12. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler fra.
 
     > [!NOTE]  
->   Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene i vinduet **Valutakurser**, angir du en tredje linje for agio/disagio. Angi **Finanskonto** i **Kontotype**-feltet. Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet. Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn for henholdsvis kredit og debet.
+    >   Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene i vinduet **Valutakurser**, angir du en tredje linje for agio/disagio. Angi **Finanskonto** i **Kontotype**-feltet. Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet. Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn for henholdsvis kredit og debet.
 13. Bokfør kladden.
 
 ## <a name="see-also"></a>Se også

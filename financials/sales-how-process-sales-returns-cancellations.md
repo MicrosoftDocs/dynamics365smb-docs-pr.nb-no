@@ -107,17 +107,17 @@ De bokførte salgsdokumentene som du utlignet kreditnotaen mot, tilbakeføres, o
 
     Følgende skjer:  
 
-    -   For bokførte dokumentlinjer av typen **Vare** opprettes en ny dokumentlinje som er en kopi av den bokførte dokumentlinjen, med antall som ennå ikke er tilbakeført. Feltet **Utlignet fra-varepost** fylles ut etter behov med tallet på vareposten for den bokførte dokumentlinjen.  
+   - For bokførte dokumentlinjer av typen **Vare** opprettes en ny dokumentlinje som er en kopi av den bokførte dokumentlinjen, med antall som ennå ikke er tilbakeført. Feltet **Utlignet fra-varepost** fylles ut etter behov med tallet på vareposten for den bokførte dokumentlinjen.  
 
-    -   For bokførte dokumentlinjer som ikke er av typen **Vare**, for eksempel varegebyrer, opprettes en ny dokumentlinje som er en kopi av den opprinnelige bokførte dokumentlinjen.  
+   - For bokførte dokumentlinjer som ikke er av typen **Vare**, for eksempel varegebyrer, opprettes en ny dokumentlinje som er en kopi av den opprinnelige bokførte dokumentlinjen.  
 
-    -   **Enhetskost (NOK)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
+   - **Enhetskost (NOK)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
 
-    -   Hvis det kopierte dokumentet er en bokført følgeseddel, et bokført mottak, en bokført returseddel eller en bokført returforsendelse, beregnes salgsprisen fra varekortet.  
+   - Hvis det kopierte dokumentet er en bokført følgeseddel, et bokført mottak, en bokført returseddel eller en bokført returforsendelse, beregnes salgsprisen fra varekortet.  
 
-    -   Hvis det kopierte dokumentet er en bokført faktura eller kreditnota, kopieres salgsprisen, fakturarabatter og linjerabatter fra den bokførte dokumentlinjen.  
+   - Hvis det kopierte dokumentet er en bokført faktura eller kreditnota, kopieres salgsprisen, fakturarabatter og linjerabatter fra den bokførte dokumentlinjen.  
 
-    -   Hvis den bokførte dokumentlinjen inneholder varesporingslinjer, fylles feltet **Utlignet fra-varepost** ut på varesporingslinjene med relevant varepostnummer fra de bokførte varesporingslinjene.  
+   - Hvis den bokførte dokumentlinjen inneholder varesporingslinjer, fylles feltet **Utlignet fra-varepost** ut på varesporingslinjene med relevant varepostnummer fra de bokførte varesporingslinjene.  
 
      Når du kopierer fra en bokført faktura eller bokført kreditnota, kopieres alle relevante fakturarabatter og linjerabatter som er gyldige på bokføringstidspunktet for det dokumentet, fra den bokførte dokumentlinjen til den nye dokumentlinjen. Legg merke til at hvis alternativet **Beregn. fakt.rab.** er aktivert i vinduet **Salgsoppsett**, blir fakturarabatten beregnet på nytt når du bokfører linjen for det nye dokumentet. Det kan derfor hende at linjebeløpet for den nye linjen er forskjellig fra linjebeløpet på den bokførte dokumentlinjen, avhengig av den nye beregningen av fakturarabatten.  
 

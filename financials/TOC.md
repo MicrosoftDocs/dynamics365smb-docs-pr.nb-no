@@ -151,7 +151,7 @@
 
 # [Finans](finance.md)
 ## [Håndtere fordringer](receivables-manage-receivables.md)
-###[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+### [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ### [Avstemme kundebetalinger manuelt fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Utligne kundebetalinger manuelt](receivables-how-apply-sales-transactions-manually.md)  
 ### [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)
