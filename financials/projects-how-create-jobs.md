@@ -13,10 +13,10 @@ ms.search.keywords: project management, task
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ece0a95f83868ac2657fdf41330e7d0a9cce37d6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 5f17824bcbe9d69174b31f5dffacecf012a4470b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-jobs"></a><span data-ttu-id="5081c-103">Opprette prosjekter</span><span class="sxs-lookup"><span data-stu-id="5081c-103">Create Jobs</span></span>
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="5081c-115">Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.</span><span class="sxs-lookup"><span data-stu-id="5081c-115">You create a job card and then create job task lines and job planning lines for it.</span></span>
 
 1. <span data-ttu-id="5081c-116">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="5081c-116">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="5081c-117">Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="5081c-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="5081c-117">Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="5081c-117">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="5081c-118">Hvis du vil angi prosjektet med informasjon om andre prosjekter, kan du velge handlingen **Kopier prosjekt**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.</span><span class="sxs-lookup"><span data-stu-id="5081c-118">To specify the job with information on other jobs, choose the **Copy Job** action, fill in the fields as necessary, and then choose the **OK** button.</span></span>
 
 > [!NOTE]  

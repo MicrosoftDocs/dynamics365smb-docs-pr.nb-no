@@ -13,10 +13,10 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.date: 11/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f2ab1e60eb826b93a1b8b7ae354bcadfa0fafd62
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 6b196839db87a40308bab69da255092222df8a4b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="count-adjust-and-reclassify-inventory"></a><span data-ttu-id="fe9b6-103">Telle, justere og reklassifisere lagerbeholdning</span><span class="sxs-lookup"><span data-stu-id="fe9b6-103">Count, Adjust, and Reclassify Inventory</span></span>
@@ -99,7 +99,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="fe9b6-173">De relaterte feltene oppdateres tilsvarende.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-173">The related fields are updated accordingly.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="fe9b6-174">Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="fe9b6-175">Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="fe9b6-176">Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
+   >   <span data-ttu-id="fe9b6-174">Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-174">If the physical count reveals differences that are caused by items posted with incorrect location codes, do not enter the differences in the physical inventory journal.</span></span> <span data-ttu-id="fe9b6-175">Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-175">Instead, use the reclassification journal or a transfer order to redirect the items to the correct locations.</span></span> <span data-ttu-id="fe9b6-176">Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-176">For more information, see Item Reclass. Journal or Create Transfer Orders.</span></span>
 
 2. <span data-ttu-id="fe9b6-177">Hvis du vil justere beregnet antall til faktisk opptalt antall, velger du handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-177">To adjust the calculated quantities to the actual counted quantities, choose the **Post** action.</span></span>
 
@@ -134,7 +134,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="fe9b6-200">Definer opptellingsperiodene du vil bruke, og tilordne deretter én til hver vare.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-200">You set up the inventory counting periods that you want to use and then assign one to each item.</span></span> <span data-ttu-id="fe9b6-201">Når du utfører en vareopptelling og bruker **Beregn opptellingsperiode** i vareopptellingskladden, opprette linjer for varene automatisk.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-201">When you perform a physical inventory and use the **Calculate Counting Period** in the physical inventory journal, lines for the items are created automatically.</span></span>
 
 1. <span data-ttu-id="fe9b6-202">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Vareopptellingsperioder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-202">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Phys. Invt. Counting Periods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="fe9b6-203">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-203">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="fe9b6-203">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-203">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-assign-a-counting-period-to-an-item"></a><span data-ttu-id="fe9b6-204">Tilordne en opptellingsperiode til en vare</span><span class="sxs-lookup"><span data-stu-id="fe9b6-204">To assign a counting period to an item</span></span>  
 1. <span data-ttu-id="fe9b6-205">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-205">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>  
@@ -180,7 +180,7 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="fe9b6-240">Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel i forbindelse med materialforbruk, kan du bruke vinduet **Standard varekladd** til å forenkle dette gjentakende arbeidet.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-240">If you often use the item journal to post the same or similar journal lines, for example, in connection with material consumption, you can use the **Standard Item Journal** window to make this recurring work easier.</span></span> <span data-ttu-id="fe9b6-241">Hvis du vil ha mer informasjon, kan du se delen «Standardkladder» i [Arbeide med finanskladder](ui-work-general-journals.md).</span><span class="sxs-lookup"><span data-stu-id="fe9b6-241">For more information, see the "Standard Journals" section in [Working with General Journals](ui-work-general-journals.md).</span></span>
 
 1. <span data-ttu-id="fe9b6-242">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-242">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Journals**, and then choose the related link.</span></span>
-2. <span data-ttu-id="fe9b6-243">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-243">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="fe9b6-243">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-243">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="fe9b6-244">Velg handlingen **Bokfør** for å foreta lagerjusteringene.</span><span class="sxs-lookup"><span data-stu-id="fe9b6-244">Choose the **Post** action to make the inventory adjustments.</span></span>
 
 > [!NOTE]  

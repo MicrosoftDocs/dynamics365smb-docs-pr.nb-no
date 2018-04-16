@@ -12,10 +12,10 @@ ms.search.keywords:
 ms.date: 15/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66c5d81fd7c3517b42930f53b81e06a3583aeb3d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: c0cf2dd3e7b8dc4830dc333a5d0f5550bb22a51b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-prepayments"></a><span data-ttu-id="c5bfe-106">Definerer forskudd</span><span class="sxs-lookup"><span data-stu-id="c5bfe-106">Set Up Prepayments</span></span>
@@ -59,7 +59,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="c5bfe-138">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-138">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Items**, and then choose the related link.</span></span>
 2. <span data-ttu-id="c5bfe-139">Velg en vare, og velg deretter handlingen **Forskuddsprosenter**.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-139">Select an item, and then choose the **Prepayment Percentages** action.</span></span>  
-3. <span data-ttu-id="c5bfe-140">Fyll ut feltene etter behov i vinduet **Forskuddsprosenter for salg**.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="c5bfe-140">Fyll ut feltene etter behov i vinduet **Forskuddsprosenter for salg**.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-140">In the **Sales Prepayment Percentages** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="c5bfe-141">For en kunde eller leverandør kan du definere en standard forskuddsprosent for alle varer og alle typer salgslinjer.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-141">For a customer or vendor, you can set up one default prepayment percentage for all items and all types of sales lines.</span></span> <span data-ttu-id="c5bfe-142">Du angir denne på kortet for kunden eller leverandøren.</span><span class="sxs-lookup"><span data-stu-id="c5bfe-142">You enter this on the customer or vendor card.</span></span>
 

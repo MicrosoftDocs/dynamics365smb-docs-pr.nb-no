@@ -13,10 +13,10 @@ ms.search.keywords: supplier
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7cb6c75fa8c232c017e662ee8f324a8639c44a16
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 2db5100b933c0c94a8fae15c33c2ba24aad2fcf9
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="register-new-vendors"></a><span data-ttu-id="aa28c-103">Registrere nye leverandører</span><span class="sxs-lookup"><span data-stu-id="aa28c-103">Register New Vendors</span></span>
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/22/2018
     <span data-ttu-id="aa28c-117">Hvis det finnes mer enn én leverandørmal, åpnes et vindu der du kan velge en leverandørmal.</span><span class="sxs-lookup"><span data-stu-id="aa28c-117">If more than one vendor template exists, then a window opens from which you can select a vendor template.</span></span> <span data-ttu-id="aa28c-118">I det tilfellet følger du de to neste trinnene.</span><span class="sxs-lookup"><span data-stu-id="aa28c-118">In that case, follow the next two steps.</span></span>
 3. <span data-ttu-id="aa28c-119">I vinduet **Velg en mal for en ny leverandør** velger du malen som du vil bruke for det nye leverandørkortet.</span><span class="sxs-lookup"><span data-stu-id="aa28c-119">In the **Select a template for a new vendor** window, choose the template that you want to use for the new vendor card.</span></span>
 4. <span data-ttu-id="aa28c-120">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="aa28c-120">Choose the **OK** button.</span></span> <span data-ttu-id="aa28c-121">Det åpnes et nytt leverandørkort med noen felt som er fylt ut med informasjon fra malen.</span><span class="sxs-lookup"><span data-stu-id="aa28c-121">A new vendor card opens with some fields filled with information from the template.</span></span>
-5. <span data-ttu-id="aa28c-122">Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov.</span><span class="sxs-lookup"><span data-stu-id="aa28c-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. <span data-ttu-id="aa28c-122">Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov.</span><span class="sxs-lookup"><span data-stu-id="aa28c-122">Proceed to fill or change fields on the vendor card as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="aa28c-123">Hvis du ikke vet fakturaadressen som skal brukes for hver eneste faktura fra en leverandør, fyller du ikke ut feltet **Betal til-levrd.nr.** på leverandørkortet.</span><span class="sxs-lookup"><span data-stu-id="aa28c-123">If you do not know the invoicing address that will be used for every invoice from a vendor, do not fill in the **Pay-to** field.</span></span> <span data-ttu-id="aa28c-124">I stedet velger du betal til-leverandørnummeret når du har definert en forespørsel, bestilling eller et fakturahode.</span><span class="sxs-lookup"><span data-stu-id="aa28c-124">Instead, choose the pay-to vendor number after you have set up a purchase quote, order, or invoice header.</span></span>
@@ -47,7 +47,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a><span data-ttu-id="aa28c-128">Lagre leverandørkortet som en mal</span><span class="sxs-lookup"><span data-stu-id="aa28c-128">To save the vendor card as a template</span></span>
 1. <span data-ttu-id="aa28c-129">I vinduet **Leverandørkort** velger du handlingen **Lagre som mal**.</span><span class="sxs-lookup"><span data-stu-id="aa28c-129">In the **Vendor Card** window, choose the **Save as Template** action.</span></span> <span data-ttu-id="aa28c-130">**Leverandørmal**  -vinduet åpnes og viser leverandørkortet som en mal.</span><span class="sxs-lookup"><span data-stu-id="aa28c-130">The **Vendor Template** window opens showing the vendor card as a template.</span></span>
-2. <span data-ttu-id="aa28c-131">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="aa28c-131">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="aa28c-131">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="aa28c-131">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. <span data-ttu-id="aa28c-132">Hvis du vil bruke dimensjoner i maler, velger du handlingen **Dimensjoner**.</span><span class="sxs-lookup"><span data-stu-id="aa28c-132">To reuse dimensions in templates, choose the **Dimensions** action.</span></span> <span data-ttu-id="aa28c-133">**Dimensjonsmaler**-vinduet åpnes med alle dimensjonskoder som er definert for leverandøren.</span><span class="sxs-lookup"><span data-stu-id="aa28c-133">The **Dimension Templates** window opens showing any dimension codes that are set up for the vendor.</span></span>
 4. <span data-ttu-id="aa28c-134">Rediger eller angi dimensjonskoder som skal gjelde for nye leverandørkort som opprettes ved hjelp av malen.</span><span class="sxs-lookup"><span data-stu-id="aa28c-134">Edit or enter dimension codes that will apply to new vendor cards created by using the template.</span></span>
 5. <span data-ttu-id="aa28c-135">Når du har fullført den nye leverandørmalen, kan du velge **OK**-knappen.</span><span class="sxs-lookup"><span data-stu-id="aa28c-135">When you have completed the new vendor template, choose the **OK** button.</span></span>  

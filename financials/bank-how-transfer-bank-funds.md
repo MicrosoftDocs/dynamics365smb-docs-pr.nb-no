@@ -13,10 +13,10 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: d3bd448ef67f742794e3a162bd828e38366775bb
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: f19fbdd0f0059e62080d0076bdc419712560d4f2
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="transfer-bank-funds"></a><span data-ttu-id="f817c-103">Overføre bankkapital</span><span class="sxs-lookup"><span data-stu-id="f817c-103">Transfer Bank Funds</span></span>
@@ -49,7 +49,7 @@ ms.lasthandoff: 03/22/2018
 12. <span data-ttu-id="f817c-133">I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler fra.</span><span class="sxs-lookup"><span data-stu-id="f817c-133">In the **Bal. Account No.** field, select the bank account from which you want to transfer the funds.</span></span>
 
     > [!NOTE]  
->   <span data-ttu-id="f817c-134">Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene i vinduet **Valutakurser**, angir du en tredje linje for agio/disagio.</span><span class="sxs-lookup"><span data-stu-id="f817c-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="f817c-135">Angi **Finanskonto** i **Kontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="f817c-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="f817c-136">Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet.</span><span class="sxs-lookup"><span data-stu-id="f817c-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="f817c-137">Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn for henholdsvis kredit og debet.</span><span class="sxs-lookup"><span data-stu-id="f817c-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
+    >   <span data-ttu-id="f817c-134">Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene i vinduet **Valutakurser**, angir du en tredje linje for agio/disagio.</span><span class="sxs-lookup"><span data-stu-id="f817c-134">If the exchange rates used in the journal are different than the exchange rates in the **Currency Exchange Rates** window, enter a third line for the exchange rate gain or loss.</span></span> <span data-ttu-id="f817c-135">Angi **Finanskonto** i **Kontotype**-feltet.</span><span class="sxs-lookup"><span data-stu-id="f817c-135">Enter **G/L Account** in the **Account Type** field.</span></span> <span data-ttu-id="f817c-136">Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet.</span><span class="sxs-lookup"><span data-stu-id="f817c-136">Enter the G/L account number for exchange rate gain or loss in the **Account No.** field.</span></span> <span data-ttu-id="f817c-137">Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn for henholdsvis kredit og debet.</span><span class="sxs-lookup"><span data-stu-id="f817c-137">Enter the exchange rate gain or loss in the **Amount** field with or without a minus sign for credits and debits respectively.</span></span>
 13. <span data-ttu-id="f817c-138">Bokfør kladden.</span><span class="sxs-lookup"><span data-stu-id="f817c-138">Post the journal.</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="f817c-139">Se også</span><span class="sxs-lookup"><span data-stu-id="f817c-139">See Also</span></span>

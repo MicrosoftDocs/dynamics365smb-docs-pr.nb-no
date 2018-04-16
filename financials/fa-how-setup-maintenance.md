@@ -13,10 +13,10 @@ ms.search.keywords: repair, service
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 7ae4abacf22d3610194ea56bbaa997390cb7df0a
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 0eccdafe78c74de05269af9a8b4132e4bcc9be57
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-fixed-asset-maintenance"></a><span data-ttu-id="35229-103">Definere aktivavedlikehold</span><span class="sxs-lookup"><span data-stu-id="35229-103">Set Up Fixed Asset Maintenance</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="35229-107">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Aktiva**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="35229-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Fixed Assets**, and then choose the related link.</span></span>
 2. <span data-ttu-id="35229-108">Velg aktivaet du vil definere forsikringsdekning for, og velg deretter handlingen **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="35229-108">Select the fixed asset that you to define insurance coverage for, and then choose the **Edit** action.</span></span>
-3. <span data-ttu-id="35229-109">Fyll ut feltene på hurtigfanen **Vedlikehold** etter behov.</span><span class="sxs-lookup"><span data-stu-id="35229-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="35229-109">Fyll ut feltene på hurtigfanen **Vedlikehold** etter behov.</span><span class="sxs-lookup"><span data-stu-id="35229-109">On the **Maintenance** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a><span data-ttu-id="35229-110">Slik definerer du vedlikeholdskoder</span><span class="sxs-lookup"><span data-stu-id="35229-110">To set up maintenance codes</span></span>
 <span data-ttu-id="35229-111">Når du bokfører vedlikeholdskostnader fra en finanskladd, fyller du ut feltet **Vedlikeholdskode** for å registrere hva slags vedlikehold som er utført, for eksempel rutineservice eller reparasjon.</span><span class="sxs-lookup"><span data-stu-id="35229-111">When you post maintenance costs from a general journal, you fill in the **Maintenance Code** field to record what kind of maintenance has been performed, such as routine service or repair.</span></span>

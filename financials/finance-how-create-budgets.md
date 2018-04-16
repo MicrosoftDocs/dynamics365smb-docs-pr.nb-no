@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: f6969d05cfde9ba7ce5767a961d4af1c7b3bd983
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 87285ffae204d57f337332f443988cf39a83e75a
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="create-gl-budgets"></a><span data-ttu-id="f4b27-103">Opprette finansbudsjetter</span><span class="sxs-lookup"><span data-stu-id="f4b27-103">Create G/L Budgets</span></span>
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-create-a-new-gl-budget"></a><span data-ttu-id="f4b27-118">Opprette et nytt finansbudsjett</span><span class="sxs-lookup"><span data-stu-id="f4b27-118">To create a new G/L budget</span></span>  
 1. <span data-ttu-id="f4b27-119">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="f4b27-119">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **G/L Budgets**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="f4b27-120">Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="f4b27-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="f4b27-120">Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="f4b27-120">Choose the **Edit List** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="f4b27-121">Velg handlingen **Rediger budsjett**.</span><span class="sxs-lookup"><span data-stu-id="f4b27-121">Choose the **Edit Budget** action.</span></span>
 4. <span data-ttu-id="f4b27-122">Øverst i vinduet **Budsjett** fyller du ut feltene etter behov for å definere det som vises.</span><span class="sxs-lookup"><span data-stu-id="f4b27-122">At the top of the **Budget** window, fill in the fields as necessary to define what is displayed.</span></span>  
 

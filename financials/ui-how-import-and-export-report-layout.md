@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 07/01/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 9564da28e9850e30e42ea2824043e25041f5adaa
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: edcf3a40b6970037cb4a97aeb8ca462a1dffb96b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a><span data-ttu-id="b8424-103">Importere og eksportere en rapport eller et dokumentoppsett</span><span class="sxs-lookup"><span data-stu-id="b8424-103">Import and Export a Report or Document Layout</span></span>
@@ -37,19 +37,19 @@ ms.lasthandoff: 03/22/2018
   
 ### <a name="to-import-a-report-layout-file"></a><span data-ttu-id="b8424-113">Slik importerer du en rapportoppsettfil</span><span class="sxs-lookup"><span data-stu-id="b8424-113">To import a report layout file</span></span>  
   
-1.  <span data-ttu-id="b8424-114">Kontroller at den aktuelle filen som definerer rapportoppsettet, er tilgjengelig på datamaskinen eller nettverket.</span><span class="sxs-lookup"><span data-stu-id="b8424-114">Make sure that the relevant file that defines the report layout is available on your computer or network.</span></span>  
+1. <span data-ttu-id="b8424-114">Kontroller at den aktuelle filen som definerer rapportoppsettet, er tilgjengelig på datamaskinen eller nettverket.</span><span class="sxs-lookup"><span data-stu-id="b8424-114">Make sure that the relevant file that defines the report layout is available on your computer or network.</span></span>  
   
-     <span data-ttu-id="b8424-115">En Word-rapportoppsettfil må filen ha filtypen DOCX.</span><span class="sxs-lookup"><span data-stu-id="b8424-115">A Word report layout file must have the .docx file type extension.</span></span> <span data-ttu-id="b8424-116">En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.</span><span class="sxs-lookup"><span data-stu-id="b8424-116">An RDLC report layout file must have the .rdlc or .rdl file type extension.</span></span>  
+    <span data-ttu-id="b8424-115">En Word-rapportoppsettfil må filen ha filtypen DOCX.</span><span class="sxs-lookup"><span data-stu-id="b8424-115">A Word report layout file must have the .docx file type extension.</span></span> <span data-ttu-id="b8424-116">En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.</span><span class="sxs-lookup"><span data-stu-id="b8424-116">An RDLC report layout file must have the .rdlc or .rdl file type extension.</span></span>  
   
-2.  <span data-ttu-id="b8424-117">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="b8424-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="b8424-117">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="b8424-117">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Report Layout Selection**, and then choose the related link.</span></span>  
   
-3.  <span data-ttu-id="b8424-118">Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.</span><span class="sxs-lookup"><span data-stu-id="b8424-118">Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.</span></span>  
+3. <span data-ttu-id="b8424-118">Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.</span><span class="sxs-lookup"><span data-stu-id="b8424-118">Select the row for the report to which you want to import the report layout, and then on the **Home** tab, in the **Process** group, choose **Custom Layouts**.</span></span>  
   
-4.  <span data-ttu-id="b8424-119">I vinduet **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.</span><span class="sxs-lookup"><span data-stu-id="b8424-119">In the **Report Layouts** window, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.</span></span>  
+4. <span data-ttu-id="b8424-119">I vinduet **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.</span><span class="sxs-lookup"><span data-stu-id="b8424-119">In the **Report Layouts** window, select the report layout to which you want to import the file, and then on the **Home** tab, in the **Process** group, choose **Import Layout**.</span></span>  
   
-5.  <span data-ttu-id="b8424-120">Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.</span><span class="sxs-lookup"><span data-stu-id="b8424-120">In the **Import** dialog box, select the document that defines the report layout, and then choose **Open**.</span></span>  
+5. <span data-ttu-id="b8424-120">Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.</span><span class="sxs-lookup"><span data-stu-id="b8424-120">In the **Import** dialog box, select the document that defines the report layout, and then choose **Open**.</span></span>  
   
- <span data-ttu-id="b8424-121">Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.</span><span class="sxs-lookup"><span data-stu-id="b8424-121">The original custom report layout is replaced with the imported report layout.</span></span>  
+   <span data-ttu-id="b8424-121">Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.</span><span class="sxs-lookup"><span data-stu-id="b8424-121">The original custom report layout is replaced with the imported report layout.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="b8424-122">Se også</span><span class="sxs-lookup"><span data-stu-id="b8424-122">See Also</span></span>  
  <span data-ttu-id="b8424-123">[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md) </span><span class="sxs-lookup"><span data-stu-id="b8424-123">[Create and Modify a Custom Report Layout](ui-how-create-custom-report-layout.md) </span></span>  

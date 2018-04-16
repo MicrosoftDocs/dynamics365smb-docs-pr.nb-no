@@ -13,10 +13,10 @@ ms.search.keywords: category, search, attribute, facet
 ms.date: 06/02/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 64511e0979671d13740bd18d95d53e8e37564583
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: e34e4951921f144ea7b718f62b116f9f01fc240d
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="categorize-items"></a><span data-ttu-id="015d8-103">Kategorisere varer</span><span class="sxs-lookup"><span data-stu-id="015d8-103">Categorize Items</span></span>
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-create-an-item-category"></a><span data-ttu-id="015d8-107">Slik oppretter du en varekategori:</span><span class="sxs-lookup"><span data-stu-id="015d8-107">To create an item category</span></span>
 1. <span data-ttu-id="015d8-108">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekategorier**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="015d8-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Categories**, and then choose the related link.</span></span>
 2. <span data-ttu-id="015d8-109">I vinduet **Varekategorier** velger du handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="015d8-109">In the **Item Categories** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="015d8-110">Fyll ut følgende felt på hurtigfanen **Generelt** i vinduet **Varekategorikort** etter behov.</span><span class="sxs-lookup"><span data-stu-id="015d8-110">In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="015d8-110">Fyll ut følgende felt på hurtigfanen **Generelt** i vinduet **Varekategorikort** etter behov.</span><span class="sxs-lookup"><span data-stu-id="015d8-110">In the **Item Category Card** window, on the **General** FastTab, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="015d8-111">I **Attributter**-hurtigfanen angir du hvilke som helst vareattributter for varekategorien.</span><span class="sxs-lookup"><span data-stu-id="015d8-111">On the **Attributes** FastTab, specify any item attributes for the item category.</span></span> <span data-ttu-id="015d8-112">Hvis du vil ha mer informasjon, kan du se Slik tilordner du vareattributter til en varekategori i [Arbeide med vareattributter](inventory-how-work-item-attributes.md).</span><span class="sxs-lookup"><span data-stu-id="015d8-112">For more information, see the "To assign item attributes to an item category" section in [Work with Item Attributes](inventory-how-work-item-attributes.md).</span></span>
 
 > [!NOTE]  

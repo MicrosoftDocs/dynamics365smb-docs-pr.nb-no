@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: b1a8eb26783b7e93e9afe04b13298972af83175d
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: cd03233b872773b95119ab8ec42c85c539122e82
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-responsibility-centers"></a><span data-ttu-id="d47de-104">Arbeide med ansvarssentre</span><span class="sxs-lookup"><span data-stu-id="d47de-104">Work with Responsibility Centers</span></span>
@@ -29,11 +29,11 @@ ms.lasthandoff: 03/22/2018
 <span data-ttu-id="d47de-117">Med ansvarssentre utvides funksjonaliteten ved flere lokasjoner ved at brukerne får mulighet til å håndtere administrative sentre.</span><span class="sxs-lookup"><span data-stu-id="d47de-117">Responsibility centers extends the multiple locations functionality by providing users the ability to handle administrative centers.</span></span> <span data-ttu-id="d47de-118">Et ansvarssenter kan være et kostsenter, et resultatsenter, et investeringssenter eller et annet administrativt senter som er definert av selskapet.</span><span class="sxs-lookup"><span data-stu-id="d47de-118">A responsibility center can be a cost center, a profit center, an investment center, or other company-defined administrative center.</span></span> <span data-ttu-id="d47de-119">Eksempler på ansvarssentre kan være et salgskontor, en innkjøpsavdeling for forskjellige lokasjoner, og et planleggingskontor ved et anlegg.</span><span class="sxs-lookup"><span data-stu-id="d47de-119">Examples of responsibility centers are a sales office, a purchasing department for several locations, and a plant planning office.</span></span> <span data-ttu-id="d47de-120">Ved hjelp av denne funksjonaliteten kan selskaper for eksempel sette opp brukerspesifikke visninger av salgs- og kjøpsdokumenter knyttet til ett bestemt ansvarssenter.</span><span class="sxs-lookup"><span data-stu-id="d47de-120">Using this functionality, for example, companies can set up user-specific views of sales and purchase documents related exclusively to a particular responsibility center.</span></span>
 
 ## <a name="to-set-up-a-responsibility-center"></a><span data-ttu-id="d47de-121">Slik definerer du ansvarssentre</span><span class="sxs-lookup"><span data-stu-id="d47de-121">To set up a responsibility center</span></span>  
-1.  <span data-ttu-id="d47de-122">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansvarssentre**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="d47de-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="d47de-123">Velg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d47de-123">Choose the **New** action.</span></span>  
-3.  <span data-ttu-id="d47de-124">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="d47de-124">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. <span data-ttu-id="d47de-122">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ansvarssentre**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="d47de-122">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Responsibility Centers**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="d47de-123">Velg handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="d47de-123">Choose the **New** action.</span></span>  
+3. <span data-ttu-id="d47de-124">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="d47de-124">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    <span data-ttu-id="d47de-125">Hvis du bruker ansvarssentre til å administrere selskapet, kan det være nyttig å ha et standard ansvarssenter for selskapet.</span><span class="sxs-lookup"><span data-stu-id="d47de-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
+   <span data-ttu-id="d47de-125">Hvis du bruker ansvarssentre til å administrere selskapet, kan det være nyttig å ha et standard ansvarssenter for selskapet.</span><span class="sxs-lookup"><span data-stu-id="d47de-125">If you are using responsibility centers to administer your company, it can be useful to have a default responsibility center for your company.</span></span>
 4. <span data-ttu-id="d47de-126">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="d47de-126">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Company Information**, and then choose the related link.</span></span>
 5. <span data-ttu-id="d47de-127">I feltet **Ansvarssenter** angir du en ansvarssenterkode.</span><span class="sxs-lookup"><span data-stu-id="d47de-127">In the **Responsibility Center** field, enter a responsibility center code.</span></span>
 

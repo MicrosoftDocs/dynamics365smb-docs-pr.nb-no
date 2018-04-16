@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 08/21/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5b73ac2ca4f1aa3bbb8c6514a8aafa39b3c76f99
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: acace21db7db675c2f7fb3362da49cca3ceb1fde
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a><span data-ttu-id="1c417-103">Plukke varer for lagerlevering</span><span class="sxs-lookup"><span data-stu-id="1c417-103">Pick Items for Warehouse Shipment</span></span>
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/22/2018
 
 > [!NOTE]
 > <span data-ttu-id="1c417-145">I kombinasjonsscenarier, der en del av antallet først må monteres og en annen del må leveres fra lager, opprettes to lagerleveringslinjer.</span><span class="sxs-lookup"><span data-stu-id="1c417-145">In combination scenarios, in which a part of the quantity must first be assembled and another must be shipped from inventory, two warehouse shipment lines are created.</span></span> <span data-ttu-id="1c417-146">Én er for montere-til-ordre-antallet og én er for varebeholdningen.</span><span class="sxs-lookup"><span data-stu-id="1c417-146">One is for the assemble-to-order quantity, and one is for the inventory quantity.</span></span>
-
+> 
 > <span data-ttu-id="1c417-147">I dette tilfellet håndteres montere-til-ordre-antallet som beskrevet i dette emnet, og lagerantallet håndteres som alle andre vanlige lagerleveringslinjer.</span><span class="sxs-lookup"><span data-stu-id="1c417-147">In that case, the assemble-to-order quantity is handled as described in this topic, and the inventory quantity is handled as any other regular warehouse shipment line.</span></span> <span data-ttu-id="1c417-148">Hvis du vil ha mer informasjon om Kombinasjonsscenarier, kan du se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).</span><span class="sxs-lookup"><span data-stu-id="1c417-148">For more information about combination scenarios, see [Understanding Assemble to Order and Assemble to Stock](assembly-assemble-to-order-or-assemble-to-stock.md).</span></span>
 
 ## <a name="see-also"></a><span data-ttu-id="1c417-149">Se også</span><span class="sxs-lookup"><span data-stu-id="1c417-149">See Also</span></span>  

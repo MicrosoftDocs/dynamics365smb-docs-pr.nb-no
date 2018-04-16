@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 5a40482673c8b8110a6036046174a58f5d7be18f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 000785b2d3592f600be5c231f088431ba2769b18
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a><span data-ttu-id="05bc8-103">Bruke varegebyr til å gjøre rede for ekstra handelskostnader</span><span class="sxs-lookup"><span data-stu-id="05bc8-103">Use Item Charges to Account for Additional Trade Costs</span></span>
@@ -42,7 +42,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="05bc8-123">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varegebyr**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="05bc8-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Item Charges**, and then choose the related link.</span></span>
 2. <span data-ttu-id="05bc8-124">Velg handlingen **Ny** i **Varegebyr**-vinduet for å opprette en ny linje.</span><span class="sxs-lookup"><span data-stu-id="05bc8-124">In the **Item Charges** window, choose the **New** action to create a new line.</span></span>
-3. <span data-ttu-id="05bc8-125">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="05bc8-125">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="05bc8-125">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="05bc8-125">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a><span data-ttu-id="05bc8-126">Tilordne et varegebyr direkte til kjøpsfakturaen for varen</span><span class="sxs-lookup"><span data-stu-id="05bc8-126">To assign an item charge directly to the purchase invoice for the item</span></span>
 <span data-ttu-id="05bc8-127">Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du denne fremgangsmåten.</span><span class="sxs-lookup"><span data-stu-id="05bc8-127">If you know the item charge at the time when you post a purchase invoice for the item, follow this procedure.</span></span>
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="05bc8-132">Velg **Gebyr (vare)** i **Type**-feltet på en ny linje.</span><span class="sxs-lookup"><span data-stu-id="05bc8-132">On a new line, in the **Type** field, select **Charge (Item)**.</span></span>
 5. <span data-ttu-id="05bc8-133">I feltet **Antall** angir du antall enheter for varegebyret du er fakturert for.</span><span class="sxs-lookup"><span data-stu-id="05bc8-133">In the **Quantity** field, enter the units of the item charge that you have been invoiced for.</span></span>
 6. <span data-ttu-id="05bc8-134">I feltet **Direkte enhetskost** angir du beløpet for varegebyret.</span><span class="sxs-lookup"><span data-stu-id="05bc8-134">In the **Direct Unit Cost** field, enter the amount of the item charge.</span></span>
-7. <span data-ttu-id="05bc8-135">Fyll ut feltene som gjenstår, etter behov.</span><span class="sxs-lookup"><span data-stu-id="05bc8-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+7. <span data-ttu-id="05bc8-135">Fyll ut feltene som gjenstår, etter behov.</span><span class="sxs-lookup"><span data-stu-id="05bc8-135">Fill in the remaining fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     <span data-ttu-id="05bc8-136">I fremgangsmåten nedenfor skal du utføre den faktiske tilordningen.</span><span class="sxs-lookup"><span data-stu-id="05bc8-136">In the following steps, you will perform the actual assignment.</span></span> <span data-ttu-id="05bc8-137">Før varegebyret er fullstendig tilordnet, vises verdien i feltet **Ant. som skal tilordnes** i rød skrift.</span><span class="sxs-lookup"><span data-stu-id="05bc8-137">Until the item charge is fully assigned, the value in the **Qty. to Assign** field is in red font.</span></span>
 8. <span data-ttu-id="05bc8-138">I **Linjer**-fanen velger du handlingen **Varegebyrtilordning**.</span><span class="sxs-lookup"><span data-stu-id="05bc8-138">On the **Lines** tab, choose the **Item Charge Assignment** action.</span></span>

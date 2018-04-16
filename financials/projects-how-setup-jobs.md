@@ -13,10 +13,10 @@ ms.search.keywords: project management
 ms.date: 06/06/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 2c57b2bd4b4c99373d4ce16905fbf626e549bc1f
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 534c52c5fa47f007f72839408cdfa6df204b6bdb
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-jobs"></a><span data-ttu-id="be093-103">Konfigurer prosjekter</span><span class="sxs-lookup"><span data-stu-id="be093-103">Set Up Jobs</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-general-information-for-jobs"></a><span data-ttu-id="be093-106">Slik angir du generell informasjon for prosjekter</span><span class="sxs-lookup"><span data-stu-id="be093-106">To set general information for jobs</span></span>
 1. <span data-ttu-id="be093-107">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="be093-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>
-2. <span data-ttu-id="be093-108">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="be093-108">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="be093-108">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="be093-108">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   <span data-ttu-id="be093-109">Avmerkingsboksen **Bruk brukskobling** er ganske komplisert og forklares derfor i delen nedenfor.</span><span class="sxs-lookup"><span data-stu-id="be093-109">The **Apply Usage Link** check box is rather complex and is therefore explained in the following section.</span></span>

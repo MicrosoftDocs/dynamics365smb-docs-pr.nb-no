@@ -13,10 +13,10 @@ ms.search.keywords: purchasing agent
 ms.date: 03/29/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 66e6233df8204476e5f856e230e5e3d502d309c4
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: fca44f18a43a1d3f4a5ad10678e7cd4fd3801aa0
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-purchasers"></a><span data-ttu-id="7250a-103">Definere innkjøpere</span><span class="sxs-lookup"><span data-stu-id="7250a-103">Set Up Purchasers</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 ## <a name="to-set-up-purchasers"></a><span data-ttu-id="7250a-106">Slik definerer du innkjøpere</span><span class="sxs-lookup"><span data-stu-id="7250a-106">To set up purchasers</span></span>
 1. <span data-ttu-id="7250a-107">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="7250a-107">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Salespeople/Purchasers**, and then choose the related link.</span></span>
 2. <span data-ttu-id="7250a-108">I vinduet **Selgere/innkjøpere** velger du **Ny**.</span><span class="sxs-lookup"><span data-stu-id="7250a-108">In the **Salespeople/Purchasers** window, choose **New**.</span></span>
-3. <span data-ttu-id="7250a-109">I vinduet **Selger/innkjøper** fyller du ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="7250a-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="7250a-109">I vinduet **Selger/innkjøper** fyller du ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="7250a-109">In the **Salesperson/Purchaser Card** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a><span data-ttu-id="7250a-110">Tilordne innkjøpere til leverandører</span><span class="sxs-lookup"><span data-stu-id="7250a-110">To assign purchasers to vendors</span></span>
 1. <span data-ttu-id="7250a-111">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="7250a-111">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>

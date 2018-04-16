@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 09/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: da306187ff3007834e34b727c2c8f4e00dd8829b
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 732e5dc99ceae40bd6ffb16f27687b4f2dc1ba06
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="work-with-bills-of-material"></a><span data-ttu-id="e04f5-103">Arbeide med stykklister</span><span class="sxs-lookup"><span data-stu-id="e04f5-103">Work with Bills of Material</span></span>
@@ -52,7 +52,7 @@ ms.lasthandoff: 03/22/2018
 
     <span data-ttu-id="e04f5-137">Fortsette med å registrere komponenter eller ressurser i monteringsstykklisten.</span><span class="sxs-lookup"><span data-stu-id="e04f5-137">Proceed to enter components or resources on the assembly BOM.</span></span>  
 2. <span data-ttu-id="e04f5-138">I vinduet **Varekort** for en monteringsvare velger du **Montering** og velger deretter **Monteringsstykkliste**.</span><span class="sxs-lookup"><span data-stu-id="e04f5-138">In the **Item Card** window for an assembly item, choose the **Assembly** action, and then choose the **Assembly BOM** action.</span></span>
-3. <span data-ttu-id="e04f5-139">Fyll ut feltene etter behov i vinduet **Monteringsstykkliste**.</span><span class="sxs-lookup"><span data-stu-id="e04f5-139">In the **Assembly BOM** window, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="e04f5-139">Fyll ut feltene etter behov i vinduet **Monteringsstykkliste**.</span><span class="sxs-lookup"><span data-stu-id="e04f5-139">In the **Assembly BOM** window, fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a><span data-ttu-id="e04f5-140">Vise komponentene i en monteringsvare som er rykket inn i henhold til stykklistestrukturen</span><span class="sxs-lookup"><span data-stu-id="e04f5-140">To view the components of an assembly item indented according to the BOM structure</span></span>
 <span data-ttu-id="e04f5-141">Fra vinduet **Monteringsstykkliste** kan du åpne et eget vindu som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.</span><span class="sxs-lookup"><span data-stu-id="e04f5-141">From the **Assembly BOM** window, you can open a separate window that shows the components and any resources indented according to their BOM position under the assembly item.</span></span>

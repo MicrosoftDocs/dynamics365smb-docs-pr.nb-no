@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: ecff2e9e0705055a514f1726b3223f8196300cb6
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: 337c76b92b579f4f7a69f5fe895cc589df7e94cc
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><span data-ttu-id="f0342-103">Definere salgssykluser for salgsmuligheter og syklusfaser</span><span class="sxs-lookup"><span data-stu-id="f0342-103">Set Up Opportunity Sales Cycles and Cycle Stages</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a><span data-ttu-id="f0342-113">Definere salgssykluskoder for salgsmuligheter</span><span class="sxs-lookup"><span data-stu-id="f0342-113">To set up opportunity sales cycle codes</span></span>
 1. <span data-ttu-id="f0342-114">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgssykluser**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="f0342-114">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Cycles**, and then choose the related link.</span></span> <span data-ttu-id="f0342-115">Vinduet **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.</span><span class="sxs-lookup"><span data-stu-id="f0342-115">The **Sales Cycles** window opens, and lists all the existing sales cycles.</span></span>
-2. <span data-ttu-id="f0342-116">Velg handlingen **Ny**, og fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="f0342-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. <span data-ttu-id="f0342-116">Velg handlingen **Ny**, og fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="f0342-116">Choose the **New** action, and fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 <span data-ttu-id="f0342-117">Gjenta disse trinnene for å konfigurere så mange salgssykluser som du vil.</span><span class="sxs-lookup"><span data-stu-id="f0342-117">Repeat these steps to set up as many sales cycles as you want.</span></span> <span data-ttu-id="f0342-118">Etter at du har definert salgssykluser for salgsmuligheter, bør du definere ulike faser i hver enkelt syklus.</span><span class="sxs-lookup"><span data-stu-id="f0342-118">After you have set up opportunity sales cycles, you may want to set up the different stages within each cycle.</span></span>
 

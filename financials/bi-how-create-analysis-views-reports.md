@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 01/25/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 378c3d2b0429390c303c723dbfafd07c531b3958
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ad5ef973847a8a86556e042596d6424449861eb4
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 #  <a name="create-analysis-reports"></a><span data-ttu-id="2fe18-103">Opprette analyserapporter</span><span class="sxs-lookup"><span data-stu-id="2fe18-103">Create Analysis Reports</span></span>
@@ -69,10 +69,10 @@ ms.lasthandoff: 03/22/2018
 4. <span data-ttu-id="2fe18-154">Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten i vinduet **Analysekolonner**..</span><span class="sxs-lookup"><span data-stu-id="2fe18-154">In the **Analysis Columns** window, fill in the fields to specify the columns that you want to include in your analysis report.</span></span>  
 
     > [!NOTE]  
->   <span data-ttu-id="2fe18-155">For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="2fe18-156">Definer analysetypekoder i **Analysetyper**-vinduet.</span><span class="sxs-lookup"><span data-stu-id="2fe18-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
+   >   <span data-ttu-id="2fe18-155">For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-155">To define a column, you must fill in the **Analysis Type Codes** field for all column types except **Formula**.</span></span> <span data-ttu-id="2fe18-156">Definer analysetypekoder i **Analysetyper**-vinduet.</span><span class="sxs-lookup"><span data-stu-id="2fe18-156">Set up the analysis type codes in the **Analysis Types** window.</span></span>  
 
     <span data-ttu-id="2fe18-157">**Merk**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-157">**Note**.</span></span> <span data-ttu-id="2fe18-158">I **Posttype**-feltet kopieres de faktiske tallene fra vareposten hvis du velger **Vareposter**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-158">In the **Ledger Entry Type** field, if you select **Item Entries**, the actual figures from the item ledger entry are copied.</span></span> <span data-ttu-id="2fe18-159">Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.</span><span class="sxs-lookup"><span data-stu-id="2fe18-159">If you select **Item Budget Entries**, the budgeted figures from the budget are copied.</span></span>  
-5.  <span data-ttu-id="2fe18-160">Velg **OK** for å lagre endringene.</span><span class="sxs-lookup"><span data-stu-id="2fe18-160">Choose the **OK** button to save your changes.</span></span>  
+5. <span data-ttu-id="2fe18-160">Velg **OK** for å lagre endringene.</span><span class="sxs-lookup"><span data-stu-id="2fe18-160">Choose the **OK** button to save your changes.</span></span>  
 
 ## <a name="to-set-up-analysis-line-templates"></a><span data-ttu-id="2fe18-161">Slik definerer du analyselinjemaler</span><span class="sxs-lookup"><span data-stu-id="2fe18-161">To set up analysis line templates</span></span>  
 <span data-ttu-id="2fe18-162">Følgende fremgangsmåte er basert på analyserapporter for salg.</span><span class="sxs-lookup"><span data-stu-id="2fe18-162">The following procedure is based on analysis reports for sales.</span></span> <span data-ttu-id="2fe18-163">Fremgangsmåten er lignende for kjøps- og lageranalyserapporter.</span><span class="sxs-lookup"><span data-stu-id="2fe18-163">The steps are similar for purchase and inventory analysis reports.</span></span>
@@ -96,7 +96,7 @@ ms.lasthandoff: 03/22/2018
 
 1. <span data-ttu-id="2fe18-183">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="2fe18-183">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Sales Analysis Reports**, and then choose the related link.</span></span>  
 2. <span data-ttu-id="2fe18-184">I vinduet **Analyserapport - salg** velger du handlingen **Ny**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-184">In the **Analysis Report Sale** window, choose the **New** action.</span></span>
-3. <span data-ttu-id="2fe18-185">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="2fe18-185">Fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. <span data-ttu-id="2fe18-185">Fyll ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="2fe18-185">Fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. <span data-ttu-id="2fe18-186">Velg handlingen **Rediger analyserapport**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-186">Choose the **Edit Analysis Report** action.</span></span>
 5. <span data-ttu-id="2fe18-187">I vinduet **Salgsanalyserapport** velger du handlingen **Vis matrise**.</span><span class="sxs-lookup"><span data-stu-id="2fe18-187">In the **Sales Analysis Report** window, choose the **Show Matrix** action</span></span>  
 

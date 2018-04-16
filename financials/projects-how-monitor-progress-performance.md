@@ -13,10 +13,10 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.date: 07/04/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: bec0619be0a65e3625759e13d2866ac615d7513c
-ms.openlocfilehash: 22dc57e01941927dfc2077eb1e48645cfc7b56de
+ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
+ms.openlocfilehash: ff4ee001c92ccc69910855b845d393ac30eef605
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 
 ---
 # <a name="monitor-job-progress-and-performance"></a><span data-ttu-id="e42ea-102">Overvåke prosjektfremdrift og -ytelse</span><span class="sxs-lookup"><span data-stu-id="e42ea-102">Monitor Job Progress and Performance</span></span>
@@ -41,7 +41,7 @@ ms.lasthandoff: 03/22/2018
 > <span data-ttu-id="e42ea-122">Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.</span><span class="sxs-lookup"><span data-stu-id="e42ea-122">After you have used your new method to create WIP entries, you cannot delete the method or modify it.</span></span>  
 
 1. <span data-ttu-id="e42ea-123">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="e42ea-123">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Job WIP Methods**, and then choose the related link.</span></span>  
-2. <span data-ttu-id="e42ea-124">Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="e42ea-124">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. <span data-ttu-id="e42ea-124">Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.</span><span class="sxs-lookup"><span data-stu-id="e42ea-124">Choose the **New** action, and then fill in the fields as necessary.</span></span> [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. <span data-ttu-id="e42ea-125">Lukk vinduet.</span><span class="sxs-lookup"><span data-stu-id="e42ea-125">Close the window.</span></span>   
 4. <span data-ttu-id="e42ea-126">Hvis du vil bruke denne nye metoden som standardmetode, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Prosjektoppsett** og velger deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="e42ea-126">To make this new method the default, choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Jobs Setup**, and then choose the related link.</span></span>  
 5. <span data-ttu-id="e42ea-127">Velg metoden fra listen i feltet **Standard VIA-metode**.</span><span class="sxs-lookup"><span data-stu-id="e42ea-127">In the **Default WIP Method** field, choose the method from the list.</span></span>
