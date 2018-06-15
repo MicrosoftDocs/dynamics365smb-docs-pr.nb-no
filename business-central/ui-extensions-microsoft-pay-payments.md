@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/07/2017
+ms.date: 04/09/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3cb26758401d1f1b25b204ce53abcb89970c3ba
+ms.sourcegitcommit: a1ab45cb40669beb901da59469a02bd58b86d3ac
+ms.openlocfilehash: 8782fae0935a609cb991fe869907d9cd8fceccd9
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 # <a name="the-microsoft-pay-extension-to-included365finincludesd365finlongmdmd"></a>Utvidelsen Microsoft Pay for [!INCLUDE[d365fin](includes/d365fin_long_md.md)]
@@ -27,7 +27,7 @@ Microsoft Pay-utvidelsen gir følgende fordeler:
 - Kundebetalinger kommer raskere inn på bankkontoen din.
 - Kunder har flere måter å betale fakturaer på.
 - Microsoft Pay tilbyr en pålitelig betalingstjeneste, som kunder som foretrekker i stedet for å angi opplysninger på ukjente nettsteder.
-- Microsoft Pay tilbyr flere måter for å håndtere betalinger, inkludert behandling av kredittkortbetaling, WePay, PayPal og andre kilder.
+- Microsoft Pay tilbyr flere måter for å håndtere betalinger, inkludert behandling av kredittkortbetaling som PayPal og Stripe.
 - Microsoft Pay-koblingen kan inkluderes automatisk på alle fakturadokumenter eller av brukeren.
 - Ettersom denne funksjonen er bygd som en utvidelse, får du full kontroll og kan aktivere den når og hvis forretningsprosessene trenger dette.
 

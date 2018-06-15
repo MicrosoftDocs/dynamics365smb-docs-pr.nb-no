@@ -1,6 +1,6 @@
 ---
 title: "Bruke C5-utvidelse for dataoverføring | Microsoft-dokumentasjon"
-description: "Bruk denne utvidelsen til å overføre kunder, leverandører, varer og finanskonti fra Microsoft Dynamics C5 2012 til Financials."
+description: "Bruk denne utvidelsen til å overføre kunder, leverandører, varer og finanskonti fra Microsoft Dynamics C5 2012 til Business Central."
 services: project-madeira
 documentationcenter: 
 author: bholtorf
@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 11/21/2017
+ms.date: 04/09/208
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 7fe6393ad43dbad032512b2d6d45cc8ee0392236
+ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
+ms.openlocfilehash: 698bde6949c6053501881d07135586810fc81bdd
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/11/2018
 
 ---
 
@@ -26,7 +26,7 @@ Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og k
 > [!Note]
 > Selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]kan ikke inneholde data. I tillegg, når du starter en migrering, bør du ikke opprette kunder, leverandører, varer eller kontoer til migreringen er ferdig.
 
-##<a name="what-data-is-migrated"></a>Hvilke data overføres?
+## <a name="what-data-is-migrated"></a>Hvilke data overføres?
 Følgende data overføres for hver enhet:
 
 **Kunder**
@@ -86,6 +86,13 @@ Hvis du overfører konti, overføres også følgende data:
 > [!Note]
 > Hvis det finnes åpne transaksjoner som bruker utenlandske valutaer, overføres også valutakursene for de aktuelle valutaene. Andre valutakurser overføres ikke.
 
+**Kontoplan**  
+* Standarddimensjoner: Avdeling, kostsenter, formål  
+* Historiske finanstransaksjoner  
+
+> [!Note]
+> Historiske finanstransaksjoner behandles på en litt annen måte. Når du overfører data, angir du parameteren **Inneværende periode**. Denne parameteren angir hvordan finanstransaksjoner behandles. Transaksjoner etter denne datoen overføres individuelt. Transaksjoner før denne datoen samles per konto og overføres som et enkelt beløp. La oss for eksempel si at det finnes transaksjoner i 2015, 2016, 2017, 2018, og du angir 1. januar 2017 i feltet Innværende periode. For hver konto samles beløpene for transaksjonene på eller før 31. desember 2106 i én finanskladdlinje for hver finanskonto. Alle transaksjoner etter denne datoen overføres individuelt.
+
 ## <a name="to-migrate-data"></a>Migrere data
 Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -101,6 +108,13 @@ Bruk siden **Oversikt over datamigrering** for å overvåke migreringen. Siden v
 
 > [!Note]
 > Mens du venter på resultatet av overføringen, må du oppdatere siden for å vise resultatet.
+
+## <a name="how-to-avoid-double-posting"></a>Slik unngår du dobbel bokføring
+For å unngå dobbel bokføring i Finans brukes følgende balansekonti for åpne transaksjoner:  
+  
+* Vi bruker leverandørgjeldskonto for leverandører fra leverandørbokføringsgruppen.  
+* Vi bruker kundefordringskonto for kunder fra kundebokføringsgruppen.  
+* For varer oppretter vi et generelt bokføringsoppsett, der justeringskontoen er kontoen som er angitt som lagerkonto i lagerbokføringsoppsettet.  
 
 ## <a name="correcting-errors"></a>Feilkorrigering
 Hvis det oppstår en feil, viser **Status**-feltet **Fullført med feil**, og **Feilantall** viser hvor mange feil som oppsto. For å se en oversikt over feilene, kan du åpne siden **Datamigreringsfeil** ved å velge:  
@@ -119,13 +133,12 @@ For å korrigere en feil kan du velge en feilmelding på siden **Datamigreringsf
 ## <a name="verifying-data-after-migrating"></a>Kontrollere dataene etter migrering
 Du kan kontrollere at dataene er overført riktig ved å se på følgende sider i C5 og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]|
-|-----|-----|
-|Kundeposter| Finanskladder|
-|Leverandørposter| Finanskladder|
-|Vareposter| Varekladder|
-
-I [!INCLUDE[d365fin](includes/d365fin_md.md)]er navnet på kladden for de migrerte dataene **C5MIGRATE**.
+|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Kjørsel som skal brukes |
+|-----|-----|-----|
+|Kundeposter| Finanskladder| CUSTMIGR |
+|Leverandørposter| Finanskladder| VENDMIGR|
+|Vareposter| Varekladder| ITEMMIGR |
+|Finansposter| Finanskladder| GLACMIGR |
 
 ## <a name="stopping-data-migration"></a>Stoppe datamigrering
 Du kan stoppe datamigreringen ved å velge **Stopp alle migreringer**. Hvis du gjør dette, blir alle ventende migreringer også stoppet.

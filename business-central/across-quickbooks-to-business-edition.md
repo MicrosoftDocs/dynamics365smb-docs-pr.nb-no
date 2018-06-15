@@ -12,15 +12,15 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.date: 09/25/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 70b64cecf6f3552013fc769d9f1bf5f0801d3714
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: a2e2140a6a86391272882d4fbe8bf9e9b2cc5ae2
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-microsoft-business-central"></a>Endre fra en QuickBooks-app til Microsoft Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Endre fra en QuickBooks-app til Dynamics 365 Business Central
 Bedrifter i vekst går mer og mer over fra finansapper som QuickBooks Desktop og QuickBooks Online som er utviklet for oppstart og andre små virksomheter, til [!INCLUDE[d365fin](includes/d365fin_md.md)], som også støtter større og mer komplekse organisasjoner. 
 
 I en slik overgang ønsker selskaper vanligvis å ta forretningsdataene med seg slik at de ikke må starte fra begynnelsen igjen. Som hjelp til overføringen av data tilbyr [!INCLUDE[d365fin](includes/d365fin_md.md)] innebygde utvidelser som overfører data, for eksempel kunder, leverandører, varer og finanskonti. De følgende utvidelsene er installert og klar som en integrert del av den assisterte oppsettsveiledningen for **datamigrering**:
@@ -37,6 +37,6 @@ Hvis du vil ha mer informasjon, les om utvidelsen som passer til din QuickBooks-
 Hvis du er klar til å komme i gang nå, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Automatisk oppsett**, og velger deretter den tilknyttede koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.
 
 ## <a name="see-also"></a>Se også
-[Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)   
 

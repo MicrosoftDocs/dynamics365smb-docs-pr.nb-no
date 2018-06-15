@@ -1,1 +1,1 @@
-Velg et felt som skal inneholde en kort beskrivelse av feltet eller kobling til mer informasjon.
+Hold markøren over et felt for å lese en kort beskrivelse.

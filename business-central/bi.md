@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/16/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 56045e317a06e5c40a5421e17a01b8a7862d8b5c
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
@@ -42,7 +42,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Finans](finance.md)    
 [Bruke Financials som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
-[Importere data fra andre økonomisystemer](upload-data.md)  
+[Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

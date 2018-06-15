@@ -11,13 +11,13 @@ ms. search.keywords: app, add-in, manifest, customize, accountant
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: ba26b354d235981bd7291f9ac6402779f554ac7a
-ms.openlocfilehash: d5d684e00a88ab60e3dedbb57b1c49faf549bf3b
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: d75e50429f58c3834993ee392d274f6c8ba8a00f
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
-# <a name="accountant-portal-for-dynamics-365-for-finance-and-operations-business-edition"></a>Regnskapsførerportal for Dynamics 365 for Finance and Operations, Business edition
+# <a name="accountant-portal-for-dynamics-365-business-central"></a>Regnskapsførerportal for Dynamics 365 Business Central
 Dette programmet gir en portal med sammendragsdata for hver klient av en regnskapsfører. Portalen viser økonomiske KPI-er og en direkte kobling til klientens av økonomiprogram.  
 
 Portalen omfatter et svært spesialisert rollesenter som fungerer som et instrumentbord med en bedre oversikt over klientene.  
@@ -26,7 +26,7 @@ Portalen omfatter et svært spesialisert rollesenter som fungerer som et instrum
 Når du installerer utvidelsen for første gang, finnes det et eksempelselskap du kan bruke til å komme i gang. Du kan slette eksempelselskapet når du vil.  
 
 ## <a name="installing-the-extension"></a>Installere utvidelsen
-Når du legger til utvidelsen i [!INCLUDE[d365fin](includes/d365fin_md.md)], erstatter den det gjeldende rollesenteret og legger til tillatelser i brukerprofilen din. Derfor må du logge av og på et par ganger.  
+Når du legger til utvidelsen i [!INCLUDE [d365fin](includes/d365fin_md.md)], erstatter den det gjeldende rollesenteret og legger til tillatelser i brukerprofilen din. Derfor må du logge av og på et par ganger.  
 
 ## <a name="see-also"></a>Se også
 [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  

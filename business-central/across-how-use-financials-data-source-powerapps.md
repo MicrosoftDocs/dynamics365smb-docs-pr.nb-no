@@ -13,10 +13,10 @@ ms.search.keywords: Odata, Power App, SOAP
 ms.date: 06/02/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 0e6310e9789e8a0f2ceaed44f1209cdcf425ef1e
+ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
+ms.openlocfilehash: 0b0329ac5cd90a0f0595a16505ab22234cc34c92
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 # <a name="connecting-to-your-financials-data-to-build-a-business-app-using-powerapps"></a>Koble til Financials-dataene for å utvikle en forretningsapp ved hjelp av PowerApps
@@ -55,7 +55,7 @@ Nå har du koblet til Business Central-dataene og er klar til å begynne å bygg
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
-[Importere forretningsdata fra andre økonomisystemer](upload-data.md)  
+[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
 

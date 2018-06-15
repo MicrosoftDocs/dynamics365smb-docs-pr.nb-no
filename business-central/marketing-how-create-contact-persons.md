@@ -1,8 +1,6 @@
 ---
 title: Opprette kontaktpersoner | Microsoft-dokumentasjon
 description: Beskriver hvordan du oppretter et kontaktkort for hver nye person eller hvert nye prospekt du samhandler med eller har et forretningsforhold til.
-services: project-madeira
-documentationcenter: 
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 05/09/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5a5f1bc0157309c18f92253803b27ccc29263e84
+ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
+ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 # <a name="create-contact-persons"></a>Opprette kontaktpersoner
@@ -43,5 +41,6 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 [Definere ansvarsområder på kontakter](marketing-job-responsibilities.md)  
 [Definere organisasjonsnivåer for kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
+[Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeide med Business Central](ui-work-product.md)  
 

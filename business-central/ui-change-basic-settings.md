@@ -13,21 +13,21 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 03/02/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: c7f07bd3cee8d52cccf171dfd229265d65e99cba
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f71b0e7d53138be0f89abe4e7935ab7c21437d8e
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
-I vinduet **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I vinduet **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Endringene du gjør, påvirker bare arbeidsområdet, ikke arbeidsområdene til andre brukere.  
 
 ## <a name="role-center"></a>Rollesenter
-Rollesenteret representerer startsiden og er tilpasset behovene til rollen. Rollesenteret gir deg en oversikt over bedriften og gjenspeiler informasjon, oppgaver og prioritetene for rollen din.
+Rollesenteret representerer hjemmesiden, et startskjermbilde som er tilpasset behovene til en spesifikk rolle i en organisasjon. Avhengig av rollen din gir rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Det kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
 
-Øverst i rollesenteret kan du se navigasjonsfeltet som gir deg enkel tilgang til vanlige enheter for rollen, for eksempel kunder, leverandører, varer og så videre.
+-   Øverst i navigeringen kan du veksle mellom kunder, leverandører, varer og andre viktige lister med opplysninger. På samme måte kan handlinger la deg opprette oppgaver, for eksempel opprette en ny salgsfaktura direkte fra rollesenteret.
 
-Det som vises i hovedinnholdsområdet avhenger av det aktuelle rollesenteret. I de fleste rollesentre finner du for eksempel Aktiviteter-flisene som viser gjeldende data og kan klikkes eller trykkes på for enkel tilgang til det valgte dokumentet. Sentrale ytelsesindikatorer kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter. Enkelte rollesentre gjør det mulig å opprette en liste over favorittenheter, som kunder og leverandører, eller vise raapportinnboksen.
+-   I midten finner du **Aktiviteter**. Aktiviteter viser gjeldende data og kan klikkes eller trykkes for å vise mer detaljerte opplysninger. Sentrale ytelsesindikatorer kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
 
 ### <a name="to-change-role-center"></a>Endre rollesenter
 Standard rollesenter er **Forretningsleder**, men du kan velge et annet rollesenteret som passer bedre til dine behov.
@@ -55,10 +55,16 @@ Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoe
 ## <a name="region"></a>Region
 **Region**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.   
 
+
+## <a name="language"></a>Språk
+Endre visningsspråket. Dette feltet vises bare når det er mer enn ett språk som kan velges. 
+
+Det første språket bestemmes enten av systemansvarlig eller leserinnstillingene når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Språket som du har angitt, vil bli brukt på alle enhetene du logger på fra, for eksempel telefon eller nettbrett. 
+
 ## <a name="changing-when-i-receive-notifications"></a>Endre når jeg mottar varsler
 Velg denne koblingen for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Smarte varsler](ui-smart-notifications.md).
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)  
+[Endre hvilke funksjoner som vises](ui-experiences.md)  
 

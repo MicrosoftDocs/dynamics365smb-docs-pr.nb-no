@@ -12,10 +12,10 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.date: 03/19/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 940f5380e57e6af22958854d12a5bd2006b861e3
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: 7adad8c33771d478125c7f6ecb8256f5109f5f02
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="customizing-business-central"></a>Tilpasse Business Central
@@ -25,7 +25,7 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 | Hva du kan gjøre    |  Description  |  Hvem ser endringene  |  Mer informasjon  |
 |-----|---------------|---------|-------|
 |Installere en utvidelse|Utvidelser er som små programmer som føyer til funksjonalitet, endre virkemåten, gir deg tilgang til nye elektroniske tjenester og så videre. Microsoft tilbyr for eksempel en utvidelse som kan gi integrering med PayPal Payments Standard.|Alle brukere i alle selskaper.|[Tilpasse ved hjelp av utvidelser](ui-extensions.md)|
-|Endre opplevelsen|Konfigurasjonen **oOpplevelse** bestemmer hvor mye av funksjonaliteten er angitt i brukergrensesnittet. Velg mellom Grunnleggende, Viktige og Premium.|Alle brukere i en bestemt bedrift.|[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen](ui-experiences.md)|
+|Endre hvilke grensesnittelementer som vises.|Konfigurasjonen **oOpplevelse** bestemmer hvor mye av funksjonaliteten er angitt i brukergrensesnittet. Velg mellom Grunnleggende, Viktige og Premium.|Alle brukere i en bestemt bedrift.|[Endre hvilke funksjoner som vises](ui-experiences.md)|
 |Tilpasse arbeidsområdet|Endre oppsett av og innholdet på sidene.|Bare du.|[Tilpasse arbeidsområdet](ui-personalization-user.md)|
 
 ## <a name="see-also"></a>Se også

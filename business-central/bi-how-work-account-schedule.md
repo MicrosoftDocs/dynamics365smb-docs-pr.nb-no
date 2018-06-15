@@ -1,22 +1,20 @@
 ---
-title: Arbeide med kontoskjemaer | Microsoft-dokumentasjon
+title: "Lage økonomirapporter med kontoskjemaer"
 description: "Beskriver hvordan du bruker kontoskjemaer til å opprette ulike visninger og rapporter for å analysere økonomiske resultatdata."
-services: project-madeira
-documentationcenter: 
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 01/25/2018
-ms.author: sgroespe
+ms.date: 04/16/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d01bd220571b7b87d9e631c8a4d75bef951c7433
+ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
+ms.openlocfilehash: f9f5b3a25a24d4d10c80d048153e68030733bf9e
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/18/2018
 
 ---
 # <a name="work-with-account-schedules"></a>Arbeide med kontoskjemaer
@@ -72,7 +70,98 @@ Du kan bruke et kontoskjema til å opprette en oppgave som sammenligner finansta
 8. På hurtigfanen **Dimensjonsfiltre** setter du budsjettfilteret til ønsket filternavn.  
 9. Velg **OK**.  
 
-Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.
+Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.  
+
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Sammenligne regnskapsperioder ved hjelp av periodeformler
+Kontoskjemaet kan sammenligne resultatene av ulike regnskapsperioder, for eksempel inneværende måned og samme måned i fjor. For å gjøre dette må du legge til en kolonne med **Formel - periodesammenligning**-feltet, og deretter angi dette feltet som en periodeformel.  
+
+En regnskapsperiode trenger ikke å sammenfalle med kalenderen, men regnskapsåret må ha samme antall regnskapsperioder, selv om hver periode kan variere i lengde.   
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker periodeformelen til å beregne beløpet fra sammenligningsperioden, i forhold til perioden som er angitt i datofilteret i rapportforespørselen. Sammenligningsperioden er basert på perioden for startdatoen i datofilteret. Periodene forkortes slik:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Forkortelse</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>P</p></td>
+<td><p>Periode</p></td>
+</tr>
+<tr class="even">
+<td><p>SP</p></td>
+<td><p>Siste periode av et regnskapsår, et halvår eller kvartal.</p></td>
+</tr>
+<tr class="odd">
+<td><p>IP</p></td>
+<td><p>Inneværende periode av et regnskapsår, et halvår eller kvartal.</p></td>
+</tr>
+<tr class="even">
+<td><p>RÅ</p></td>
+<td><p>Regnskapsår. Eksempelvis viser RÅ [1..3] til første kvartal av inneværende regnskapsår</p></td>
+</tr>
+</tbody>
+</table>
+
+Eksempler på formler:
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Formel</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>&lt;Tom&gt;</p></td>
+<td><p>Inneværende periode</p></td>
+</tr>
+<tr class="even">
+<td><p>-1P</p></td>
+<td><p>Forrige periode</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÅ[1..SP]</p></td>
+<td><p>Hele forrige regnskapsår</p></td>
+</tr>
+<tr class="even">
+<td><p>-1RÅ</p></td>
+<td><p>Inneværende periode i forrige regnskapsår</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÅ[1..3]</p></td>
+<td><p>Første kvartal av forrige regnskapsår</p></td>
+</tr>
+<tr class="even">
+<td><p>-1RÅ[1..IP]</p></td>
+<td><p>Fra begynnelsen av forrige regnskapsår til og med inneværende periode i forrige regnskapsår</p></td>
+</tr>
+<tr class="odd">
+<td><p>-1RÅ[IP..SP]</p></td>
+<td><p>Fra inneværende periode i forrige regnskapsår til og med siste periode i forrige regnskapsår</p></td>
+</tr>
+</tbody>
+</table>
+
+Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet **Datoformel - sammenligning** i stedet.
+
+> [!NOTE]
+> Det er ikke alltid gjennomsiktig hvilke perioder du sammenligner, siden du kan angi et datofilter i en rapport som inneholder forskjellige datoer enn regnskapsperiodene som gjenspeiles i dataene i kontoplanen. Du oppretter for eksempel et kontoskjema der du vil sammenligne denne perioden med samme periode i fjor, så du setter **Sammenligningsperiode - filter**-feltet til *-1RÅ*. Deretter kjører du rapporten 28. februar og setter datofilteret til januar og februar. Dermed sammenligner kontoskjemaet januar og februar i år med januar i fjor, som er den eneste fullførte regnskapsperioden av de to for forrige år.  
+
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  

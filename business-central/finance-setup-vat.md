@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/20/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3ca2883af506af1d98322305ee07a2995470bb2b
+ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
+ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/09/2018
 
 ---
 
@@ -48,7 +48,9 @@ Gjør følgende for å definere organisasjonsnumre:
 2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
 3. I **Formater**-feltet definerer du formatet ved å angi én eller flere av følgende tegn:  
 
-    |----|----| | # | Krever et tall med ett siffer. | | @ | Krever en bokstav. Det skilles ikke mellom store og små bokstaver. | | ? | Tillater alle tegn. |
+* # <a name="--requires-a-single-digit-number"></a>- Krever et tall med ett siffer.
+* @ - Krever en bokstav. Det skilles ikke mellom store og små bokstaver.
+* ? - Tillater alle tegn.
 
     > [!Tip]
     > Du kan bruke andre tegn så lenge de alltid finnes i land- eller områdeformatet. Hvis du for eksempel vil inkludere et punktum eller en tankestrek mellom et sett med tall, kan du for eksempel definere formatet som ##. ###. ### eller @@-### ###.  
@@ -228,7 +230,7 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 * Endringene er implementert i finanskontoer, kunder, leverandører, åpne dokumenter, kladdelinjer osv.  
 
 > [!IMPORTANT]  
->  Før du foretar endringen av mva-satsen, kan du teste konverteringen. Hvis du vil gjøre dette, følger du fremgangsmåten nedenfor, men må du fjerne merket for **Utfør konvertering** og **Verktøy for endring av mva-sats ferdig**. Under testkonvertering fjernes feltet **Konvertert** i tabellen **Mva\-sats \– endringsloggpost** og feltet **Konvertert dato** i tabellen **Mva\-sats \– endringsloggpost** er tom. Når konverteringen er fullført, velger du **Mva-sats – endringsloggposter** for å vise resultatene av testkonverteringen. Kontroller hver post før du utfører konvertering. Kontroller særlig transaksjoner som bruker en gammel mva-sats.     
+>  Før du foretar endringen av mva-satsen, kan du teste konverteringen. Hvis du vil gjøre dette, følger du fremgangsmåten nedenfor, men må du fjerne merket for **Utfør konvertering** og **Verktøy for endring av mva-sats ferdig**. Under testkonvertering fjernes feltet **Konvertert** i tabellen **Mva-sats – endringsloggpost** og feltet **Konvertert dato** i tabellen **Mva-sats – endringsloggpost** er tom. Når konverteringen er fullført, velger du **Mva-sats – endringsloggposter** for å vise resultatene av testkonverteringen. Kontroller hver post før du utfører konvertering. Kontroller særlig transaksjoner som bruker en gammel mva-sats.     
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for endring av mva-sats**, og velg deretter koblingen **Oppsett for endring av mva-sats**.  
 2. Kontroller at du allerede har definert omregningen av mva-varebokføringsgruppen eller omregningen av varebokføringsgruppen.  

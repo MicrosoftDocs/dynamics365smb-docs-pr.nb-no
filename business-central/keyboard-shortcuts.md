@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 07/12/2017
+ms.date: 05/18/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fe2ebe89310465f11561fbb1d0baed23b8241639
+ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
+ms.openlocfilehash: f0e7b7a560bacb3791524b94d721f413b3c72310
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/28/2018
 
 ---
 
@@ -28,29 +28,29 @@ Hurtigtastene støttes av de fleste nettlesere. Virkemåten kan imidlertid være
 
 Hurtigtastene som er beskrevet her, gjelder amerikansk tastaturoppsett. Oppsettet av taster på andre tastaturer tilsvarer kanskje ikke tastene på det amerikanske tastaturet.
 
+De fleste hurtigtastene er de samme uansett om operativsystemet er Windows eller macOS. Det finnes imidlertid hurtigtaster som er forskjellige for macOS. Dette er angitt i parentes i tabellene i avsnittene nedenfor.
+
 ##  <a name="Keyboard"></a> Generelle hurtigtaster
-Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til forskjellige elementer på en side, for eksempel handlinger rullegardinlister, oppslag og mye mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen. 
+Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til forskjellige elementer på en side, for eksempel handlinger rullegardinlister, oppslag og mye mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
 |Trykk på disse tastene|Hvis du vil gjøre dette|  
 |----------------|-----------|  
-|Tab|Flytte fokus til neste kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.| 
+|Tab|Flytte fokus til neste kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
 |Skift+TAB|Flytte fokus til forrige kontroll eller element på en side, for eksempel knapper, felt eller listeoverskrifter.|   
 |Enter|Aktivere eller få tilgang til elementet eller kontrollen som er i fokus.|   
 |Alt+Pil ned|Åpne en rullegardinliste eller slå opp en verdi for et felt.|    
 |Alt + Pil høyre|Se transaksjonene som resulterte i en beregnet verdi i et felt.|  
+|ESC|Lukk gjeldende side eller rullegardinliste.|
 
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Hurtigtaster i lister
 
 Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hurtigtasthandlingen varierer litt avhengig av om siden vises i listevisning eller flisevisning.
 
-De fleste hurtigtastene er de samme uansett om operativsystemet r Windows eller macOS. Det finnes imidlertid hurtigtaster som er forskjellige for macOS og Windows. Dette angis også i parentes i tabellen.
+> [!Note]
+> I tabellen nedenfor refererer uttrykket *handlingsfelt* til et felt som du kan gjøre noe i, for eksempel endre en verdien eller en kobling til en annen side. Vanligvis hopper hurtigtastene over felt som viser informasjon som du ikke kan endre fra denne listen (med andre ord felt som er skrivebeskyttet).
 
->[!Note]
->I tabellen nedenfor refererer uttrykket *handlingsfelt* til et felt som du kan gjøre noe i, for eksempel endre en verdien eller en kobling til en annen side. Vanligvis hopper hurtigtastene over felt som viser informasjon som du ikke kan endre fra denne listen (med andre ord felt som er skrivebeskyttet).
-
-
-|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en listevisning |Merknader|
+|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |Merknader|
 |-----------------|-------|-------|-------|
 |Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |  | 
 |Pil ned|Flytte i samme kolonne til feltet i raden nedenfor. |Flytte i samme kolonne til flisen i raden nedenfor. | |
@@ -75,8 +75,25 @@ De fleste hurtigtastene er de samme uansett om operativsystemet r Windows eller 
 |Skift + PgDn<br />(Skift + Fn + Pil ned)|Utvide valget av rader til å inkludere alle synlige rader nedenfor de merkede radene.|Ikke i bruk||
 |Ctrl+Enter|Flytte fokus til neste element utenfor listen.|Flytte fokus til neste element utenfor listen.||
 
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a>Hurtigtaster i kalenderen (datovelger)
+Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
+
+|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
+|-----------------|-------|
+|En side opp|Flytte til forrige måned.|  
+|En side ned|Flytte til neste måned.|
+|Ctrl+Home|Åpne kalenderen hvis lukket.|
+|Ctrl+Home<br />(Cmd + Home)|Flytte til gjeldende måned, gjeldende dag.|
+|CTRL+PIL VENSTRE<br />(Cmd+Pil venstre)|Flytte til forrige dag.|
+|CTRL+PIL HØYRE<br />(Cmd+Pil høyre)|Flytte til neste dag.|
+|CTRL+PIL OPP<br />(Cmd + Pil opp)|Flytte til forrige uke, samme dag i uken.|
+|CTRL+PIL NED<br />(Cmd + Pil ned)|Flytte til neste uke, samme dag i uken.|
+|Enter|Velge dato med fokus.|
+|Ctrl+End<br />(Cmd + End)|Lukke kalenderen og slette gjeldende dato.|
+|ESC|Lukke kalenderen uten et valg, beholde gjeldende dato.|
+
 <!--
-## Keyboard shortcuts in list (shown as tiles) 
+## Keyboard shortcuts in list (shown as tiles)
 
 The following table describes the keyboard shortcuts that you can use in a list page when the page is shown as a tiles.
 
@@ -84,8 +101,8 @@ The following table describes the keyboard shortcuts that you can use in a list 
 |Keyboard Shortcut<br />(shortcut in osX)| Action|Remarks|
 |-----------------|-------|-------|
 |Up Arrow|Move to the tile above in the same column|  |   
-|Down Arrow|Move to the tile below in the same column|  | 
-|Right Arrow|Move to the next tile in the same row| | 
+|Down Arrow|Move to the tile below in the same column|  |
+|Right Arrow|Move to the next tile in the same row| |
 |Left Arrow|Move to the previous tile in the same row | |
 |Home<br />(Fn+left Arrow)|Move to the first tile in the row|
 |End<br />Fn+right Arrow)|Move to the last tile in the row|
