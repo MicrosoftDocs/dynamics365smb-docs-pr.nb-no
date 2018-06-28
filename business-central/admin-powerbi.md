@@ -170,5 +170,5 @@ Hvis du angir et ugyldige selskapsnavn under tilkoblingen, kan du få du feilmel
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)   
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

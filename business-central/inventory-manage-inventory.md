@@ -57,5 +57,5 @@ Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

@@ -68,5 +68,5 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 
