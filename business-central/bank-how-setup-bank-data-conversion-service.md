@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, bank data conversion service, funds transfer
-ms.date: 06/02/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 98d7215b4d8ae476fbc550ea0057e6f71a00a5fd
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 5bf6e0c961e35b2fdb23eb1ba470da0f5c098d81
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjeneste for konvertering av bankdata
@@ -44,11 +44,8 @@ Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankk
 5. I vinduet **Tjenesteoppsett for bankdatakonvertering**, i **Brukernavn**-feltet, angir du den samme verdien du angav som påloggingsnavn på tjenesteleverandørens side i trinn 4.
 6. I **Passord**-feltet angir du den samme verdien du angav i **Passord**-feltet på tjenesteleverandørens side i trinn 4.
 
-## <a name="to-encrypt-your-login-information"></a>Slik krypterer du påloggingsinformasjonen:
-Det anbefales at du beskytter påloggingsinformasjonen du angir i vinduet **Tjenesteoppsett for bankdatakonvertering**. Du kan kryptere data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved å generere nye eller importere eksisterende krypteringsnøkler du aktiverer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serverforekomsten som kobler til databasen.
-
-1. I vinduet **Tjenesteoppsett for bankdatakonvertering** velger du handlingen **Krypteringsadministrasjon**.
-2. I vinduet **Administrasjon av datakryptering** aktiverer du kryptering av dataene.
+> [!NOTE]  
+> Påloggingsdataene krypteres automatisk.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Vise eller oppdatere listen over gjeldende bankdataformater som støttes
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.

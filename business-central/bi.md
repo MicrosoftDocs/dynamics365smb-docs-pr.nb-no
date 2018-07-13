@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/16/2017
+ms.date: 05/31/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: b7e0ad1c632b21a26be01e68178388512d6dbbea
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Hvis du vil | Se |
 | --- | --- |
 |Vise faktiske beløp sammenlignet med budsjetterte beløp for alle konti og for flere perioder.|[Analysere faktiske beløp i forhold til budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)|
-|Opprette nye kontoskjemaer for å definere årsregnskap for rapportering eller for visning som diagrammer.|[Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)|
+|Opprette nye kontoskjemaer for å definere årsregnskap for rapportering eller for visning som diagrammer.|[Klargjøre finansrapportering med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Analyser den finansielle ytelsen ved å definere KPIer som er basert på kontoskjemaer, som du deretter publiserer som web-tjenester. Publiserte kontoskjema-KPIer kan vises på et webområde eller importeres til Microsoft Excel ved hjelp av OData-webtjenester.|[Konfigurere og publisere KPI-webtjenester basert på kontoskjemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)|
 |Definere analysevisninger for å analysere data ved hjelp av dimensjoner.|[Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)|
 |Opprette nye analyserapporter for salg, kjøp og beholdning, og definere analysemaler.|[Opprette analyserapporter](bi-how-create-analysis-views-reports.md)|
@@ -40,11 +40,11 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    
-[Bruke Financials som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md)  
+[Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

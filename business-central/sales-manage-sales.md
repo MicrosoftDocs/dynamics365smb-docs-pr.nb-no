@@ -11,10 +11,10 @@ ms.search.keywords: trade, sell
 ms.date: 09/08/2017
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ef18d7cedac26894d4053fbe72dc3254e328c3dd
+ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
+ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/02/2018
 
 ---
 # <a name="sales"></a>Salg
@@ -38,7 +38,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 | Hvis du vil | Se |
 | --- | --- |
-| Opprett et tilbud der du tilbyr produkter på betingelser det kan forhandles om, før du konverterer tilbudet til en salgsfaktura. |[Gi tilbud](sales-how-make-offers.md) |
+| Opprett et tilbud der du tilbyr produkter på betingelser det kan forhandles om, før du konverterer tilbudet til en salgsfaktura. |[Gi salgstilbud](sales-how-make-offers.md) |
 | Opprett en salgsfaktura for å registrere avtalen med en kunde om å selge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandle en ordre som involverer delvis levering eller direkte levering. |[Selge produkter](sales-how-sell-products.md) |
 |Definere standard salgs- eller kjøpslinjer som du raskt kan sette inn i dokumenter, for eksempel for gjentakende etterfyllingsordrer.|[Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)|  

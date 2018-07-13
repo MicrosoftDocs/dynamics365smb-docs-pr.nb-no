@@ -1,29 +1,29 @@
 ---
 title: Komme i gang | Microsoft-dokumentasjon
 description: "Finn ut mer om egenskaper og arbeidsscenarier i Business Central, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner."
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 03/21/2018
-ms.author: solsen
+ms.date: 06/20/2018
+ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 7dda76b03bb4bff5bb75be38710f2c851b106823
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 655f67778ed52794df893cec8965eec990f41b3f
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet. Hvis du vil ha hjelp med abonnementet, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversjonen, får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette dine egne salgsdokumenter eller definere en bankkonto.  
 
 ## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] vil noe være kjent for deg og andre ting som kanskje ikke er kjent. I demonstrasjonsselskapet forklarer visuelle veiledninger kjernefunksjonaliteten og hjelper deg med å prøve ut daglige oppgaver som å opprette en salgsfaktura og viser en rapport. Hvis du forlater en guide, for eksempel for å utforske [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hånd, men vil gå tilbake til den, gå tilbake til rollesenteret og start innføringen Komme i gang.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] vil noe være kjent for deg og andre ting som kanskje ikke er kjent. I demonstrasjonsselskapet forklarer visuelle veiledninger kjernefunksjonaliteten og hjelper deg med å prøve ut daglige oppgaver som å opprette en salgsfaktura og viser en rapport. Hvis du forlater en guide, for eksempel for å utforske [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hånd, men vil gå tilbake til den, gå tilbake til rollesenteret og start innføringen Komme i gang. Hvis du vil ha hjelp, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
 > [!TIP]  
 > Du kan gå tilbake til rollesenteret ved å velge navnet på selskapet øvre venstre.
@@ -71,8 +71,10 @@ Tenker du på å abonnere? Du kan enkelt endre fra demonstrasjonsselskapet og op
 
 Hvis du vil opprette et selskap for å prøve ut ting, kan du gå til **Mine innstillinger**-menyen i øvre høyre hjørne og endre selskapet til **Mitt selskap**. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft. En assistert oppsettveiledning hjelper deg med å gi grunnleggende informasjon om selskapet. Når det er gjort, kan du utforske rollesenteret og finne handlingen **Assistert oppsett**.  
 
+Du kan også finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).
+
 ## <a name="ready-to-subscribe"></a>Klar til å abonnere?
-Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du bestemmer deg for å abonnere, kan du bruke koblingen i varslet for å komme i kontakt med Microsoft. Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search). Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apper
 Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [nettstedet for Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
@@ -90,5 +92,5 @@ Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](in
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-## [!INCLUDE[d365fin](includes/training_link_md.md)]
+ 
 

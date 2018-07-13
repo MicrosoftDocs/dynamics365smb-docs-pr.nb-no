@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/20/2017
+ms.date: 05/06/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: b4dfdeb3cf49867699907c444147060727d3f146
-ms.openlocfilehash: 335738af45c1365da7e45f062b60e30d66082f41
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 399b1a4331431a6472ecebaad41489092d117cfa
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -48,9 +48,9 @@ Gjør følgende for å definere organisasjonsnumre:
 2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
 3. I **Formater**-feltet definerer du formatet ved å angi én eller flere av følgende tegn:  
 
-* # <a name="--requires-a-single-digit-number"></a>- Krever et tall med ett siffer.
-* @ - Krever en bokstav. Det skilles ikke mellom store og små bokstaver.
-* ? - Tillater alle tegn.
+* **#** Krever et tall med ett siffer.  
+* **@** Krever en bokstav. Det skilles ikke mellom store og små bokstaver.  
+* **?** Tillater alle tegn.  
 
     > [!Tip]
     > Du kan bruke andre tegn så lenge de alltid finnes i land- eller områdeformatet. Hvis du for eksempel vil inkludere et punktum eller en tankestrek mellom et sett med tall, kan du for eksempel definere formatet som ##. ###. ### eller @@-### ###.  
@@ -116,6 +116,29 @@ De følgende delene beskriver hvordan du tilordner du mva-bokføringsgrupper til
 * På kortet **Ressurs** utvider du hurtigfanen **Fakturering**.  
 3. Velg mva-bokføringsgruppen for vare.  
 
+## <a name="setting-up-vat-statement-templates-and-vat-statement-names"></a>Definere mva-oppgavemaler og mva-oppgavenavn
+Skattemyndighetene kan endre, og endrer, kravene sine for bokføring av mva. **Mva-oppgavemaler** og **mva-oppgavenavn** kan hjelpe deg med å forberede kommende endringer og få en jevn overgang til de nye kravene. Du kan bruke mva-oppgavemaler til å definere feltene som skal inkluderes i mva-oppgaven, som angir beregningene, og du kan opprette en ny mva-oppgavemalen når kravene endres. Én mal beregner for eksempel mva for inneværende år basert på gjeldende krav, og en annen beregner mva basert på kravene for neste år. Maler er også for eksempel en metode for å beholde historikken over mva-oppgaveformater, slik at du kan gå tilbake og se hvordan du beregnet mva i tidligere år.
+
+## <a name="how-to-define-and-preview-vat-statements"></a>Definerer og forhåndsvisning mva-oppgaver
+Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for eksempel et kvartal. Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at den oppfyller dine behov. 
+
+Hvis du vil definere en mva-oppgave, gjør du følgende:
+
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-oppgave**, og velg deretter den relaterte koblingen.  
+2. Velg **Navn**-feltet, og velg deretter **Ny** på siden **Mva-oppgavenavn**. 
+3. Fyll ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!Tip]
+> Du kan filtrere informasjonen som oppgaven inneholder, avhengig av hva du valgte i **Type**-feltet. **Kontosammentelling** er nyttig hvis du vil ha mva fra en bestemt konto.
+**Mva-postsammentelling** får mva fra konti som er knyttet til det delene i feltene **Gen. Posting Type**, **Mva-bokf.gruppe - firma**, og/eller **Mva-bokføringsgruppe - vare**. **Radsammentelling** lar deg angi en verdi eller hurtigfilterkriterier i feltet **Radsammentelling**. Hvis du vil ha mer informasjon, kan du se [Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md). **Beskrivelse** brukes ofte for å legge til en merknad til utdraget. Du kan for eksempel bruke den som en overskrift når du har brukt radsammentelling.
+
+Hvis du vil forhåndsvise mva-oppgaven, gjør du følgende:
+
+1. Velg **Forhåndsvisning**.
+2. Angi et datofilter for å begrense oppgaven til en bestemt periode. Hvis du vil ha mer informasjon om hvordan du tilpasser siden for å vise datofilteret, kan du se [Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md).
+3. Du kan velge ulike alternativer for å angi hvilken type mva-poster som inkluderes i oppgaven.
+4. På linjene hvor **Type**-feltet inneholder **Mva-postsammentelling**, kan du se en oversikt over mva-poster ved å velge beløpet i **Kolonnebeløp**-feltet.   
+
 ## <a name="to-set-up-clauses-to-explain-the-use-of-non-standard-vat-rates"></a>Slik definerer du klausuler som forklarer bruken av ikke-standard mva-satser
 Du kan definere en mva-setningsdel til å beskrive informasjon om hvilken type mva som brukes. Informasjonen kan være nødvendig ifølge bestemmelser fra myndighetene. Når du har definert en mva-setning, og knyttet den til et mva-bokføringsoppsett, vises mva-setningen på utskrevne salgsdokumenter som bruker gruppen for mva-bokføringsoppsett.
 
@@ -166,8 +189,7 @@ Du kan vise loggen mva-registrering på kortene for kunde, leverandør eller kon
 
 Tjenesten kan også spare deg tid når du oppretter en kunde eller leverandør. Hvis du vet organisasjonsnummeret til kunden, kan du angi den i feltet **Organisasjonsnr.** på kortene for kunden eller leverandøren og vi skal fylle ut kundenavnet for deg. Noen land gir også firmaadresser i et strukturert format. I disse landene fyller vi ut adressen også.  
 
-> [!NOTE]  
-> Det er et par ting å merke seg når det gjelder EU-mva-nummer validering-tjenesten:
+Det er et par ting å merke seg når det gjelder EU-mva-nummer validering-tjenesten:
 
 * Denne webtjenesten bruker HTTP-protokollen, som betyr at data som overføres via tjenesten, ikke er kryptert.  
 * Du kan oppleve nedetid for denne tjenesten som Microsoft ikke er ansvarlig. Tjenesten er en del av en omfattende EU-nettverk av nasjonale mva-registre.

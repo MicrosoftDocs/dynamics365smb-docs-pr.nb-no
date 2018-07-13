@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 01/05/2018
+ms.date: 06/28/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 3e7c5ca600a5f64b44fca419ce33cad868f15595
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Få tilgang til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-forhåndsvisningen
@@ -43,7 +43,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruke utformingen](https://docs.micro
 3.  Velg **Opprett**. Det åpnes en fane der du kan fullføre konfigurasjonen av sandkassen.
 
     > [!Note]
-    > Hvis popup-blokkering er aktivert i nettleseren, endrer du den til å tillate URL-adresser fra *.financials.dynamics.com*-adressen.  
+    > Hvis popup-blokkering er aktivert i nettleseren, endrer du den til å tillate URL-adresser fra adressen *.businesscentral.dynamics.com*.  
 
 4.  Når sandkassen er klar, vises en velkomstside.  
 5.  Hvis du vil lese mer om scenarier som kan du prøve i en sandkasse, for eksempel hvordan du utvikler utvidelser, velger du koblingen **Finn ut mer**. Eller velger du **Lukk** for å fortsette til rollesenteret i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandkasseforekomsten.  
@@ -67,7 +67,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruke utformingen](https://docs.micro
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder verktøy som du kan bruke til å implementere dine egne tillegg og bygge inn funksjoner for å legge til nye bransjespesifikke ende-til-ende-opplevelser eller integrere løsninger fra tredjeparter. Du kan for eksempel bruke en API til å bygge en tilkoblet app for datautveksling mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og din lønnsapp. Tilkoblingsapper kan også bruke utvidelser for å opprette sider som skal brukes for oppsett, konfigurasjon eller appspesifikke støttefunksjoner. Hvis du vil ha mer informasjon, kan du se [Utvikle apper for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://aka.ms/getstartedwithapps).
 
-##<a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 

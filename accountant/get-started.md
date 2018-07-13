@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/09/2018
+ms.date: 05/15/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 8901216a843440e922ae4df9d7508b543a6c1322
+ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
+ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 05/31/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Kom i gang med [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -25,7 +25,7 @@ Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomhet
 Du kan få tilgang til [!INCLUDE [d365acc](includes/d365acc_md.md)] ved å registrere deg fra [Dynamics 365 – Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants).  
 
 > [!TIP]
->  Når du registrerer deg for [!INCLUDE [d365acc](includes/d365acc_md.md)], må du angi et e-postadressen din, for eksempel <em>me@accountant.com</em>. Vi anbefaler at du bruker den samme e-postadressen når du arbeider i dine kunders [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], slik at du kan bytte mellom klienter. E-postadressen må være en jobbadresse som er basert på Active Directory.
+>  Når du registrerer deg for [!INCLUDE [d365acc](includes/d365acc_md.md)], må du angi e-postadressen din for arbeid, for eksempel <em>me@accountant.com</em>. Vi anbefaler at du bruker samme e-postadresse når du arbeider i klientenes [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)], slik at du enkelt kan bytte mellom klienter. E-postadressen må være en jobbadresse som er basert på Active Directory.
 
 ## <a name="working-with-individual-clients"></a>Arbeide med individuelle klienter
 Instrumentbordet viser de viktigste opplysningene om hver klient.  

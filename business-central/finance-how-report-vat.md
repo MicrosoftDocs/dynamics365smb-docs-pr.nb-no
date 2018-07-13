@@ -11,10 +11,10 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 07/17/2017
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 975703333b1a675ae78b70d99b1394d370490e9d
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: e7546d2d90567f9d633394dfd585f1dbbab27e46
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 
@@ -76,7 +76,7 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
     >   For rapporten EU-salg - oversikt kan du gå gjennom transaksjonene som er inkludert i rapportlinjene, før du sender rapporten. Velg linjen for å gjøre dette, og velg deretter handlingen **Vis mva-poster**.  
 4. Du validerer og klargjør rapporten for innsending ved å velge handlingen **Frigi**.  
 
-    >  [!NOTE]  
+    > [!NOTE]  
     >   [!INCLUDE[d365fin](includes/d365fin_md.md)] validerer om rapporten er riktig definert. Hvis valideringen mislykkes, vises feilene under **Feil og advarsler**, slik at du vet hva du må løse. Vanligvis, hvis meldingen er om en manglende innstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke meldingen for å åpne siden som inneholder informasjon for å korrigere.  
 5. Du sender inn rapporten ved å velge handlingen **Send**.  
 
@@ -91,10 +91,10 @@ Hvis du bruker en annen metode til å sende inn rapporten, for eksempel ved å e
 ## <a name="vat-settlement"></a>Mva-oppgjør
 Du må jevnlig remittere netto mva til skattemyndighetene. Hvis du må gjøre opp mva ofte, kan du kjøre kjørselen **Beregn og bokfør mva-oppgjør** for å lukke åpne mva-poster og overføre inngående og utgående mva-beløp til kontoen for mva-oppgjør.
 
-Når du overfører mva-beløp til oppgjørskontoen, krediteres kontoen for inngående mva., og kontoen for utgående mva. debiteres med beløpene som er beregnet for den angitte perioden. Nettobeløpet krediteres mva-oppgjørskontoen, eller debiteres hvis det inngående mva-beløpet er størst. Du kan bokføre oppgjøret umiddelbart eller skrive ut en testrapport først.
+Når du overfører mva-beløp til oppgjørskontoen, krediteres kontoen for inngående mva., og kontoen for utgående mva. debiteres med beløpene som er beregnet for den angitte perioden. Nettobeløpet krediteres mva-oppgjørskontoen, eller debiteres hvis det inngående mva-beløpet er størst. Du kan bokføre oppgjøret umiddelbart eller skrive ut en testrapport først.  
 
->    [!NOTE]  
->    Når du bruker kjørselen **Beregn og bokfør mva-oppgjør**, hvis du ikke angir en **Mva-bokføringsgruppe - firma** og en **Mva-bokføringsgruppe - vare**, inkluderes poster som har alle firma-og varebokføringsgrupper.
+> [!Note]
+> Når du bruker kjørselen **Beregn og bokfør mva-oppgjør**, hvis du ikke angir en **Mva-bokføringsgruppe - firma** og en **Mva-bokføringsgruppe - vare**, inkluderes poster som har alle firma-og varebokføringsgrupper.
 
 ## <a name="configuring-your-own-vat-reports"></a>Konfigurere dine egne mva-rapporter
 Du kan bruke rapporten EU-salg - oversikt som den er, men du kan også lage dine egne rapporter. Dette krever at du lager noen kodeenheter. Hvis du vil ha hjelp med dette, kan du kontakte en Microsoft-partner.  
@@ -107,14 +107,14 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 |Innhold | Styre formatet på rapporten, for eksempel om det er XML eller JSON. Formatet som skal brukes, er avhengig av kravene som gjelder i webtjenesten til skattemyndighetene. |
 |Innsending | Styre hvordan og når du sender inn rapporten, basert på kravene til skattemyndigheten. |
 |Svarbehandler | Håndtere returer fra skattemyndighetene. Den kan for eksempel sende en e-postmelding til kontaktpersonen i selskapet ditt. |
-|Annuller | Sende en annullering av en mva-rapport ble sendt inn til skattemyndigheten tidligere. |
+|Annuller | Sende en annullering av en mva-rapport ble sendt inn til skattemyndigheten tidligere. |  
 
-> [!NOTE]  
->   Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2017** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.  
-
+> [!Note]
+> Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2017** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.
+ 
 ## <a name="see-also"></a>Se også
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Fakturere salg](sales-setup-sales.md)  
+[Fakturere salg](sales-how-invoice-sales.md)  
 

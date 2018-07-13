@@ -11,10 +11,10 @@ ms.search.keywords: sandbox, demo, develop
 ms.date: 08/18/2017
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8451e456d03c9429ff2e04f4e0664ae240f872c2
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: d31095d0fc67b342d74bff813fb2eff7e3f82262
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -31,7 +31,7 @@ Du må ha et abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å k
 3. Velg **Opprett**.  
   En annen kategori i webleseren åpnes for å fullføre oppsettet av sandkassemiljøet.
 > [!NOTE]  
->  Hvis du har aktivert popup-blokkering i webleseren, endrer du den til å tillate URL-adresser fra *.financials.dynamics.com-adressen.   
+>  Hvis du har aktivert popup-blokkering i webleseren, endrer du den til å tillate URL-adresser fra adressen *.businesscentral.dynamics.com.   
 
 4. Når sandkassemiljøet er klart, vil du bli videresendt til velkomstveiviseren i sandkassemiljøet.
 ![Velkomstveiviser i sandkasse](./media/across-sandbox/sandbox-wizard.png)

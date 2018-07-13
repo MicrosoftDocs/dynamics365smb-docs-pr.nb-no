@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 06/08/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 043034d281eb4b58fab8ab4344987d5d3ca5f494
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: 0e57f02f1689de12e75595a26c489eeda68a4b89
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentutvekslingstjeneste
@@ -37,12 +37,8 @@ Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter
     |**Token**|Skriv inn den tretrinns OAuth-nøkkelen for tokenet. Denne leveres av leverandøren av dokumentutvekslingstjenesten.|  
     |**Tokenhemmelighet**|Angi hemmeligheten som beskytter tokenet. Denne leveres av leverandøren av dokumentutvekslingstjenesten.|  
 
-> [!NOTE]  
->  Det anbefales at du beskytter påloggingsinformasjonen du angir i vinduet **Oppsett for VAN-tjeneste**. Du kan kryptere data på serveren ved å generere nye eller importere eksisterende krypteringsnøkler du aktiverer på serverforekomsten som kobler til databasen. Dette er beskrevet i følgende fremgangsmåte.  
-
-## <a name="to-encrypt-your-logon-information"></a>Slik krypterer du påloggingsinformasjonen:  
-1. I vinduet **Oppsett for VAN-tjeneste** velger du handlingen **Krypteringsadministrasjon**.  
-2. I vinduet **Administrasjon av datakryptering** aktiverer du kryptering av dataene. <!--For more information, see [Manage Data Encryption](../manage-data-encryption.md).-->  
+    > [!NOTE]  
+    > Påloggingsdataene krypteres automatisk.
 
 ## <a name="see-also"></a>Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  

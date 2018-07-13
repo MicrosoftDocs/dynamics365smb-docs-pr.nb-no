@@ -1,8 +1,6 @@
 ---
 title: "Definere bokføring av konserninterne transaksjoner | Microsoft-dokumentasjon"
 description: "Opprett konserninterne leverandører og kunder som såkalte konserninterne partnere, og definer en konsernintern kontoplan."
-services: project-madeira
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/20/2017
+ms.date: 06/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 418dac3a6d909d3eb07525ab537a94f85016ad19
+ms.sourcegitcommit: e73c2dd0533aade4aa6225c9d2f385baaea3cfd1
+ms.openlocfilehash: a9e3788687e88a60141e9ffb6b18f1c98a180c59
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/11/2018
 
 ---
 # <a name="set-up-intercompany"></a>Oppsett av konserninternt
@@ -52,20 +50,20 @@ Hvis selskapet ditt er det overordnede selskapet og har den definerende konserni
 Hvis selselskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen som gruppen, følger du fremgangsmåten "Slik importerer du den konserninterne kontoplanen".  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Slik setter du opp den definerende konserninterne kontoplanen
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **KI-kontoplan**, og velg deretter den relaterte koblingen.
-2. Angi hver konto på en linje i vinduet **KI-kontoplan**.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
+2. Angi hver konto på en linje i vinduet **Konsernintern kontoplan**.  
 3. Hvis den konserninterne kontoplanen vil være identisk med eller vil ligne på den vanlige kontoplanen, kan du fylle ut vinduet automatisk ved å velge handlingen **Kopier fra kontoplan**. Du kan redigere de nye linjene etter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Slik eksporterer du en konsernintern kontoplan
 Hvis du vil at de konserninterne partnerne skal kunne importere den definerende kontoplanen, må du eksportere den til en fil.      
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **KI-kontoplan**, og velg deretter den relaterte koblingen.
-2. I vinduet **KI-kontoplan** velger du **Eksporter**-handlingen og velger deretter **Lagre**-knappen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
+2. I vinduet **Konsernintern kontoplan** velger du **Eksporter**-handlingen og velger deretter **Lagre**-knappen.
 3. Angi filnavnet og lokasjonen der du vil lagre XML-filen, og velg deretter **Lagre**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Slik importerer du den konserninterne kontoplanen  
 Når det finnes en fil for den definerende konserninterne kontoplanen, kan konserninterne partnere importere den for å sikre at de har de samme kontiene.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **KI-kontoplan**, og velg deretter den relaterte koblingen.  
-2. I vinduet **KI-kontoplan** velger du handlingen **Importer**.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
+2. I vinduet **Konsernintern kontoplan** velger du handlingen **Importer**.  
 3. Velg filnavnet og lokasjonen for XML-filen, og velg deretter **Åpne**-knappen.  
 
 Vinduet **KI-kontoplan** fylles ut med nye eller redigerte finanskontolinjer i henhold til den konserninterne kontoplanen i filen. Eventuelle eksisterende urelaterte linjer i vinduet forblir uendret.
@@ -75,7 +73,7 @@ Når du har definert eller importert den konserninterne kontoplanen du og de kon
 
 Hvis kontiene i den konserninterne kontoplanen har samme numrene som de tilsvarende kontiene i kontoplanen, kan du tilordne kontoene automatisk.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **KI-kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
 2. Velg linjene du vil tilknytte automatisk, og velg deretter **Samkjør med konto med samme nummer**.  
 3. For hver konserninterne finanskonto som ikke ble tilknyttet automatisk, fyller du ut feltet **Samkjør med finanskontonr.**  
 
@@ -106,7 +104,7 @@ Hvis selskapet er et datterselskap og du har mottatt en XML-fil som inneholder d
 ### <a name="to-import-the-intercompany-dimensions"></a>Slik importerer du de konserninterne dimensjonene  
 Når det finnes en fil for de definerende konserninterne dimensjonene, kan konserninterne partnere importere den for å sikre at de har de samme dimensjonene.  
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konserninterne dimensjoner**, og velg deretter den relaterte koblingen.  
-2. I vinduet **KI-kontoplan** velger du handlingen **Importer**.  
+2. I vinduet **Konserninterne dimensjoner** velger du handlingen **Importer**.  
 3. Angi filnavnet og lokasjonen for XML-filen, og velg deretter **Åpne**-knappen.  
 
 Linjene i vinduet **Konserinterne dimensjoner** og vinduet **Konserinterne dimensjonsverdier** importeres.  

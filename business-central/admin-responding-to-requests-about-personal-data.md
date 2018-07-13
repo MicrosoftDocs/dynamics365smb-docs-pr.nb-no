@@ -11,10 +11,10 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: 4fceff1a6cf728608a49182a9704f187d31767fe
-ms.openlocfilehash: 400b4710bd4e9a26db3b392646581f5225a2d245
+ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
+ms.openlocfilehash: b90577cbab4167894fe79a3e8e8a0c61ce8c70e9
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/28/2018
+ms.lasthandoff: 06/28/2018
 
 ---
 
@@ -47,6 +47,11 @@ Hvis du har registrert deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] fra s
 På personvernsiden for arbeid og skole kan du også lukke kontoen. Vi anbefaler imidlertid at du sørger for at du har eksportert og slettet alle data først siden sletting av kontoen betyr at du mister tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Du kan fortsatt merke personer som blokkert på grunn av personvern og eksportere, redigere eller slette transaksjoner som beskrevet et annet sted i denne artikkelen.  
+
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabellene som ikke er klassifisert etter dataemne
+Hvis du har en situasjon der du må eksportere data som ikke er klassifisert slik at de eksporteres automatisk, for eksempel dataene fra tabellen Profilsvar, må du gjøre følgende: 
+-   Vurder om du virkelig vil eller må eksportere disse tilleggsdataene som ikke er knyttet til kontakten, det vil si at de er ikke direkte knyttet til den 
+-   Legg til denne tabellen og relasjonen manuelt i hurtigstartpakken, og eksporter dem direkte fra hurtigstartpakken. Derfor generere vi hurtigstartpakken for deg, slik at du kan endre den i situasjoner som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtere opplysninger om mindreårige
 Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i henhold til lovene i ditt område, kan du angi dette ved å merke av for **Mindreårig** på **Kontakt**-kortet. Når du gjør dette merkes det automatisk av for **Personvern sperret**. Når du mottar samtykke fra den mindreåriges forelder eller juridiske verge, kan du merke av for **Samtykke fra foreldre mottatt** for å oppheve blokkeringen av kontakten. Selv om du kan behandle personopplysninger for mindreårige, kan du ikke bruke profileringsfunksjonaliteten i Microsoft Dynamics 365 for Sales.

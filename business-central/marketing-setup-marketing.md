@@ -1,6 +1,6 @@
 ---
 title: "Konfigurere markedsføring og kontaktbehandlingsinformasjon | Microsoft-dokumentasjon"
-description: "Du kan konfigurere markedsføring og kontaktbehandling i Financials for å optimalisere forholdet til prospekter eller kunder og forbedre kampanjer."
+description: "Du kan konfigurere markedsføring og kontaktbehandling i Business Central for å optimalisere forholdet til prospekter eller kunder og forbedre kampanjer."
 services: project-madeira
 documentationcenter: 
 author: jswymer
@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 06/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42a279b085130da609c0f448acded6e60297dc9a
+ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
+ms.openlocfilehash: f4ccc58d0414131276dec3e062cf12e1ae4596db
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/01/2018
 
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
