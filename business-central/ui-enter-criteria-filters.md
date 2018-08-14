@@ -25,7 +25,7 @@ Det finnes et par ting du kan gjøre som hjelper deg med å finne og skanne post
 Når du vil søke etter data, for eksempel kundenavn, adresser eller produktgrupper, må du angi kriterier. I søkekriteriene kan du bruke alle tallene og bokstavene du vanligvis kan bruke i det spesifikke feltet. I tillegg til dette kan du bruke spesielle symboler til å filtrere resultatene ytterligere. Det er to måter å søke på: bruke hurtigfilteret eller kolonnefiltre.
 
 ## <a name="sorting"></a>Sortering
-Sortering gjør det enkelt å få et raskt overblikk over dataene. Hvis du har mange kunder, kan du for eksempel velge å sortere dem etter **Kundenr.**, **Bokføringsgruppe - kunde**, **Valutakode**, **Lands-/regionkode** eller **Mva-organisasjonsnummer** for å få nødvendig oversikt.
+Sortering gjør det enkelt å få et raskt overblikk over dataene. Hvis du har mange kunder, kan du for eksempel velge å sortere dem etter **Kundenr.**, **Bokføringsgruppe - kunde**, **Valutakode**, **Lands-/områdekode** eller **Mva-organisasjonsnummer** for å få nødvendig oversikt.
 
 Hvis du vil sortere en liste, kan du enten velge en kolonneoverskriftstekst og veksle mellom stigende og synkende rekkefølge, eller velge den lille nedpilen i kolonneoverskriften og deretter velge **Stigende** eller **Synkende**.  
 
@@ -52,7 +52,7 @@ Du kan legge til filtre på alle sider ved hjelp av hurtigfilteret. Hurtigfilter
   <TR>
     <TD>man</TD>
     <TD>@&#42;man&#42;</TD>
-    <TD>Alle poster som inneholder teksten <b>mann</b> og som ikke skiller mellom små og store bokstaver.</TD>
+    <TD>Alle poster som inneholder teksten <b>man</b> og som ikke skiller mellom små og store bokstaver.</TD>
   </TR>
   <TR>
     <TD>se</TD>

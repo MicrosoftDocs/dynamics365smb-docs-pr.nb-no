@@ -61,7 +61,7 @@ Når leverandøren har informert deg om hvilke linjerabatter som gis, angir du f
 
     Fortsett å definere nye betingelser for kjøpsfakturarabatt.
 4. I vinduet **Leverandørkortet** velger du handlingen **Fakturarabatter**. Vinduet **Levrd./fakt.-rabatter** åpnes.
-5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i USD.
+5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
 6. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 7. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 8. Gjenta trinn 5 til 7 for hver valuta som leverandøren vil motta en forskjellig fakturarabatt for.

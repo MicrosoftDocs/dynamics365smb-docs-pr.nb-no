@@ -47,13 +47,13 @@ Standardfirma kalles CRONUS, og inneholder demonstrasjonsdata bare.
 Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er gjeldende dato.
 
 > [!TIP]  
->   Skriv inn **w** hvis du raskt vil angi arbeidsdatoen i et datofelt. Skriv inn **t** hvis du hurtig vil angi gjeldende dato i datofeltet.
+>   Skriv inn **a** hvis du raskt vil angi arbeidsdatoen i et datofelt. Skriv inn **i** hvis du hurtig vil angi gjeldende dato i datofeltet.
 
 > [!IMPORTANT]  
 >   Arbeidsdatoen endres bare til du lukker selskapet eller til datoen endres. Hvis du åpner et annet selskap eller åpner det samme selskapet dagen etter og fortsatt må bruke en annen arbeidsdato, må du angi arbeidsdatoen på nytt.
 
-## <a name="region"></a>Region
-**Region**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.   
+## <a name="region"></a>Område
+**Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.   
 
 
 ## <a name="language"></a>Språk

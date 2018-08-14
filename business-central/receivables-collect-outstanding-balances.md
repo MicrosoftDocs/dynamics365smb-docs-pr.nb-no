@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 03/16/2018
+ms.date: 07/05/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8f4cb1b2fdd55275fc1a3cba494d1ea4b583b5ed
+ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
+ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/09/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
@@ -100,6 +100,9 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 |%12|Innholdet i **Tilleggsgebyr per linje**-feltet i purrehodet|  
 
 Hvis du for eksempel skriver **Du skylder %7 %9 som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK som forfaller 02-02-2014**.
+
+> [!NOTE]
+> Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se delen "Bruke datoformler" i [Skrive inn datoområder](ui-enter-date-ranges.md).
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
 

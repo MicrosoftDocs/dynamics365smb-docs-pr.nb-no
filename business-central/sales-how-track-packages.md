@@ -9,20 +9,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 08/23/2017
+ms.date: 07/19/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c1dc918a775f050c51e7b83092d5f2f6ba0b83b1
+ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
+ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 07/19/2018
 
 ---
 # <a name="track-packages"></a>Spore pakker
-En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md).
+En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md).  
+
+> [!NOTE]
+> Denne funksjonen er ikke tilgjengelig for øyeblikket i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Hvorfor er noen grensesnittelementer jeg bruker i Dynamics NAV, ikke synlige i Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) i Vanlige spørsål.
 
 ## <a name="to-track-a-package"></a>Slik sporer du pakker
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Følgesedler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokført følgeseddel**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle leveringen.
 3. I feltet **Pakkesporingsnr.** angir du pakkenummeret du har mottatt fra transportøren.
 4. Velg handlingen **Pakkesporing**.

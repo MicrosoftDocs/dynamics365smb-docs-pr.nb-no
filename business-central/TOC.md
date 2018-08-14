@@ -266,6 +266,7 @@
 ## [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)
 ## [Reservere varer](inventory-how-to-reserve-items.md)
 ## [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)
+## [Blokker varer](inventory-how-block-items.md)
 ## [Arbeide med ansvarssentre](inventory-responsibility-centers.md)
 
 # [Prosjektstyring](projects-manage-projects.md)
@@ -390,7 +391,7 @@
 ## [Designdetaljer: Varesporing](design-details-item-tracking.md)
 ## [Designdetaljer: Finanskladd – bokfør linje](design-details-general-journal-post-line.md)
 
-# Lokal funksjonalitet
+# [Lokal funksjonalitet](about-localization.md)
 ## [Australia](LocalFunctionality/Australia/australia-local-functionality.md)  
 ## [Østerrike](LocalFunctionality/Austria/austria-local-functionality.md)
 ## [Belgia](LocalFunctionality/Belgium/belgium-local-functionality.md)

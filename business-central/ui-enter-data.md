@@ -89,7 +89,7 @@ Du kan angi negative tall på to måter. Tallet -20,5 kan angis som:
 Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet til datoer (datofelt). Datoene kan skrives inn med eller uten skilletegn.
 
 > [!NOTE]  
-> Hvordan du angir dato og klokkeslett på, avhenger av dine **regionale** innstillinger. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
+> Hvordan du angir dato og klokkeslett på, avhenger av dine **Område**-innstillinger. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Sette inn datoer  
  I et datofelt kan du angi to, fire, seks eller åtte tall:  
@@ -144,10 +144,10 @@ Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet ti
 |1.12.02|01.12.02 00.00.00|  
 |11 12|11 - inneværende måned - inneværende år 12.00.00|  
 |1112 12|11-12 - inneværende år 12.00.00|  
-|t eller i dag|dagens dato 00:00:00|  
-|klokkeslett|dagens dato og klokkeslett|  
-|k 10.30|dagens dato 10:30:00|  
-|k 3.3.3|dagens dato 03.03.03|  
+|i eller i dag|dagens dato 00:00:00|  
+|i klokkeslett|dagens dato og klokkeslett|  
+|i 10.30|dagens dato 10:30:00|  
+|i 3.3.3|dagens dato 03.03.03|  
 |a eller arbeidsdag|arbeidsdatoen 00.00.00|  
 |m eller mandag|mandag i inneværende uke 00.00.00|  
 |ti eller tirsdag|tirsdag i inneværende uke 00:00:00|  

@@ -63,7 +63,7 @@ Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du faktura
 Fortsett å definere nye betingelser for salgsfakturarabatt.
 
 1. I vinduet **Kundekort** velger du handlingen **Fakturarabatter**. Vinduet **Kundefakturarabatter** åpnes.
-2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i USD.
+2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
 3. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 4. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 5. Gjenta trinn 5 til 7 for hver valuta som kunden vil motta en forskjellig fakturarabatt for.
