@@ -29,10 +29,9 @@ Hvis du vil dra nytte fullstendig av betalingsforslag, må du prioritere leveran
 
 > [!IMPORTANT]  
 >   Hvis du vil dra nytte av kontantrabatter og har angitt et disponibelt beløp, brukes beløpet til følgende:  
-
-* Prioriterte forfalte leverandørposter først i prioritetsrekkefølge.  
-* Forfalte leverandørposter som ikke er prioritert.  
-* Åpne leverandørposter som kvalifiserer for kontantrabatter, sortert etter leverandørnummer.  
+    * Prioriterte forfalte leverandørposter først i prioritetsrekkefølge.   
+    * Forfalte leverandørposter som ikke er prioritert.  
+    * Åpne leverandørposter som kvalifiserer for kontantrabatter, sortert etter leverandørnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Bruke funksjonen Betalingsforslag - leverandør
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
