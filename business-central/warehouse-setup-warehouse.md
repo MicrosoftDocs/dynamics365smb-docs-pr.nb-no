@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 08/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4d57e87363830c521a90f00b552146dd09654f68
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: caa494729c4408334fadd50903f0d17df330409d
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="setting-up-warehouse-management"></a>Definere lagerstyring
@@ -40,8 +40,8 @@ Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette
 |Definere når og hvordan varer på lagerlokasjoner skal telles for vedlikeholdsformål eller til bruk i økonomiske rapporter.|[Telle, justere eller reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md)|
 |Aktiver lagermedarbeidere til å dele en større enhet i mindre enheter for å oppfylle behovene i kildedokumenter.|[Aktivere automatisk samlet oppbryting med lagerstyring og plukk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Konfigurere lageret til å automatisk foreslå plukking av varer som utløper først.|[Aktivere plukking etter FEFO](warehouse-picking-by-fefo.md)|
-|Integrer strekkodelesere i lagerstyringsløsningen.|[Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)|  
-|Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
+|Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
+<!-- |Integrer strekkodelesere i lagerstyringsløsningen.|[Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)| -->  
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  

@@ -110,7 +110,6 @@
 ### [Telle, justere eller reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md)
 ### [Aktivere automatisk samlet oppbryting med lagerstyring og plukk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
 ### [Aktivere plukking etter FEFO](warehouse-picking-by-fefo.md)
-### [Aktivere automatisk datafangstsystem (ADFS)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)
 ## [Definere produksjon](production-configure-production-processes.md)
 ### [Opprette arbeidssenterkalendere](production-how-to-create-work-center-calendars.md)

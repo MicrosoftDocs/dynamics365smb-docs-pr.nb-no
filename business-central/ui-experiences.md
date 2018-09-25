@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 05/27/2018
+ms.date: 07/31/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6ff186cadae5771f131a128b3d3e977800925670
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
@@ -36,7 +36,7 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 | **Premium** |Viser alle handlingene og felt for alle forretningsfunksjonene, inkludert produksjons- og servicehåndtering.|
 
 > [!NOTE]  
-> Opplevelser som du kan velge mellom i [!INCLUDE[d365fin](includes/d365fin_md.md)] avhenger av lisensen for løsningen, som kalles en plan. Informasjon om **Essential** og **Premium**-planer, kan du se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også lisensveiledningen for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Opplevelser som du kan velge mellom i [!INCLUDE[d365fin](includes/d365fin_md.md)] avhenger av lisensen for løsningen, som kalles en plan. Informasjon om **Essential** og **Premium**-planer, kan du se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)] lisensveiledningen for](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
 
 > [!IMPORTANT]  
 > Alle vanlige brukere av en løsning må tilordnes samme plan, Essential eller Premium, før denne opplevelsen kan velges for selskapet. På samme måte får ikke én bruker tilgang til Premium-funksjoner hvis én eller flere brukere bare har tilgang til Essential-funksjoner. Dette gjelder ikke for ikke-vanlige brukere av typen teammedlem, intern administrasjon, ekstern regnskapsfører og delegert administrator, som hver kan tilordnes en annen plan enn andre brukere av løsningen.
@@ -69,5 +69,4 @@ Du kan nå fortsette med å velge den nye opplevelsen.
 [Lisensveiledning for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -11,37 +11,46 @@ ms.search.keywords: customization, personalization
 ms.date: 09/08/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: adc15d5f80f4d7ab2a1ca5a8247588ec0aa9779a
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 2a7ab137a9bf8ec3580e718053f8e67320e3af5a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere lagrede innstillinger i rapporter
-Avhengig av hvilken rapport som skal kjøres, kan det vises en side som lar deg angi bestemte alternativer og filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles rapportforespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som du kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask og pålitelig metode for å generere konsekvent rapporter som inneholder de riktige dataene.
+Når en rapport skal kjøres, ser brukere vanligvis en side der de kan angi bestemte alternativer og filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles rapportforespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon om hvordan lagrede innstillingene brukes, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
 
-Du kan se de lagrede innstillingene som er tilgjengelige for en rapport i delen **Lagrede innstillinger** i rapportforespørselssiden.  
-
-## <a name="apply-saved-settings-to-a-report"></a>Bruke lagrede innstillinger på en rapport
-1. Åpne rapporten.
-
-   Rapportforespørselssiden vises.    
-2. I delen **Lagrede innstillinger** på siden, setter du **Navn**-feltet til de lagrede innstillingene du vil bruke.
-
-   Delen **Lagrede innstillinger** vises bare hvis rapporten er kjørt tidligere eller hvis det finnes eksisterende oppføringer for lagrede innstillinger. Oppføringen med lagrede innstillinger, som kalles **Sist brukte alternativer og filtre**, er alltid tilgjengelig. Disse innstillingene er verdiene for alternativet og filteret som ble brukt sist gang du kjørte rapporten.
-
-## <a name="create-and-modify-saved-settings-for-all-users"></a>Opprette og endre lagrede innstillinger for alle brukere
 Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innstillingene for alle rapporter for alle brukere i firmaet. Du kan tilordne lagrede innstillingene for en rapport til enkeltbrukere eller alle brukerne i firmaet.
 
-Du kan administrere lagrede innstillinger fra siden 1560 **Rapportinnstillinger**. Du åpner denne siden ved å velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportinnstillinger** og deretter velge den relaterte koblingen.
+<!-- 
+## Apply saved settings to a report
+1. Open the report.
 
-Fra siden **Rapportinnstillinger** kan du opprette en ny innstillinger fra bunnen av eller du kan kopiere og endre eksisterende innstillinger. Hvis du vil endre alternativer og filtre for en innstillingene, velger du **Rediger**-handling.
+   The report request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
 
-> [!NOTE]
-> Funksjonen for lagrede innstillinger i rapporter gjelder bare når SaveValues-egenskapen for forespørselssiden er satt til Ja. SaveValues-egenskapen angis i utviklingsmiljøet.  
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="create-and-modify-saved-settings-for-all-users"></a>Opprette og endre lagrede innstillinger for alle brukere
+Du kan administrere lagrede innstillinger fra siden **1560 Rapportinnstillinger**. Det er to måter å åpne en side på:
+-   Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
+-   Åpne en rapport, velg oppslag ved siden av boksen **Bruk standardverdi fra:**, og velg **Velge fra hele listen**.
+
+Siden viser alle eksisterende lagrede innstillinger for alle brukere. Hvis det er et brukernavn i kolonnen **Tilordnet**, kan bare den brukeren bruke innstillingene som er lagret for den tilknyttede rapporten. Hvis det er en hake i kolonnen **Del med alle brukerne**, kan alle brukere bruke innstillingene som er lagret i rapporten.
+
+Fra siden **Rapportinnstillinger**-siden kan du:
+-   Velg **Ny** for å opprette en helt ny post med lagrede innstillinger.
+-   Velg en post med lagrede innstillinger fra oversikten, og velg **Kopier** for å lage en kopi.
+-   Velg en post med lagrede innstillinger fra oversikten, og velg **Rediger** for å endre en post med lagrede innstillinger.
+
 
 > [!Important]
-> Hvis du oppretter et element for lagrede innstillinger for alle brukere, og det har samme navn som eksisterende lagrede innstillinger for en bestemt bruker, kan ikke brukeren bruke de lagrede innstillingene som er tilordnet til alle.  I feltet Lagrede innstillinger på rapportforespørselssiden, vil brukeren se to lagrede innstillingsalternativer med samme navn. Uansett hvilket alternativ som velges, vil imidlertid de brukerspesifikke lagrede innstillingene bli brukt.
+> Vurder navnet som du gir en post med lagrede innstillinger. Hvis du oppretter en post med lagrede innstillinger for alle brukere, og den har samme navn som en eksisterende post med lagrede innstillinger som er tilordnet en bestemt bruker, kan brukeren ikke bruke posten med lagrede innstillinger som er tilordnet til alle.  I **Lagrede innstillinger** på rapportforespørselssiden, vil brukeren se to lagrede innstillingsposter med samme navn. Uansett hvilket alternativ som velges, vil imidlertid den brukerspesifikke posten med lagrede innstillingene bli brukt.
+
+> [!NOTE]
+> Funksjonen for lagrede innstillinger i rapporter er kun tilgjengelig når [SaveValues-egenskapen](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) for forespørselssiden er satt til `Yes`. **SaveValues**-egenskapen angis i utviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
 [Arbeide med rapporter](ui-work-report.md)  

@@ -1,8 +1,6 @@
 ---
 title: Eksportere Business Central-dataene til Excel | Microsoft-dokumentasjon
 description: "Du kan eksportere finansrapporter og forretningsintelligensdata fra Business Central til Excel, eller du kan åpne Business Central-dataene i Excel."
-services: project-madeira
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.date: 06/02/2017
+ms.date: 08/13/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 3bd7442582fe13809ea04d1f298b7aecbf9b45ed
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: 0407e0c34578e6487b37f4254f6a600fe99e967a
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdataene til Excel
@@ -26,6 +24,9 @@ Hvis du vil arbeide med dataene fra [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 Du kan åpne data i Excel fra alle alle journaler, lister eller forslag. Du bare åpner siden som du ønsker, og deretter velger du **Åpne i Excel**. Åpne for eksempel en oversikt over kunder (Søk etter **kunder**), og velg deretter **Åpne i Excel**. Nettleseren ber deg om å åpne eller lagre Microsoft Excel-arbeidsboken som er generert.  
 
 Hver liste inneholder flere kolonner, og eksport til Excel vil inkludere alle kolonner som er i den gjeldende visningen. Hvis du vil legge til eller fjerne kolonner før du åpner listen i Excel, kan du ganske enkelt åpne hurtigmenyen for en kolonne og deretter angir du hvilke kolonner du vil vise. Denne listen over kolonner er forskjellig for de fleste lister, og den reflekterer strukturen i databasen der dataene er lagret. Hvis du ikke er sikker på hvilken type data som inneholder en bestemt kolonne, kan du legge den til din visning og deretter bestemmer deg for om du vil fjerne den på nytt.  
+
+### <a name="edit-data-in-excel"></a>Rediger data i Excel
+[!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen inneholder et tillegg til Excel, slik at du kan redigere data i Excel. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Eksportere data til andre økonomisystemer
 Hvis du vil avbryte abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg til det neste økonomisystemet.  
@@ -65,6 +66,7 @@ Vi anbefaler at du også vurdere å eksportere dataene fra de følgende sidene:
 ## <a name="see-also"></a>Se også
 [Avbryte abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

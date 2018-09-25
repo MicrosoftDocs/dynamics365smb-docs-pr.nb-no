@@ -13,18 +13,41 @@ ms.search.keywords: task, process, report
 ms.date: 07/06/2017
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01a7a1d254916a8b93744183d3678c2082aec42c
+ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
+ms.openlocfilehash: 560760b1f895ed69c2e7fd80ccf451763e87d19b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/06/2018
 
 ---
 # <a name="working-with-reports"></a>Arbeide med rapporter
 En rapport samler inn informasjon basert på et bestemt sett med vilkår og organiserer og viser informasjonen i et format som er lett å lese og som kan skrives ut. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene og salgsstatistikken.
 
-Du finner rapportene i **Rapporter**-kategorien på bestemte sider, eller du kan bruke Søk til å finne rapporter etter navn. Når du åpner en rapport, vises en side der du kan angi opplysninger (alternativer og filtre) som bestemmer hva du vil ha med i rapporten. Avhengig av rapporten kan du for eksempel angi et datointervall, en bestemt post som en kunde, eller sorteringsrekkefølge. Her er et eksempel:
+Du finner rapporter i kategorien **Rapporter** på bestemte sider, eller du kan søke ![Søk etter en side eller rapport](media/ui-search/search_small.png "Søk etter en side eller rapport") for å finne rapporter etter navn.
+
+
+## <a name="specifying-the-data-to-include-in-the-report"></a>Spesifiser dataene som skal inkluderes i rapporten
+Når du åpner en rapport, vises vanligvis en side der du kan angi forskjellige alternativer og filtre som bestemmer hva du vil ha med i rapporten. Denne siden kalles rapportforespørselssiden. Du kan for eksempel bruke forespørselssiden til å lage en rapport for en bestemt kunde, et bestemt datointervall eller sortere rekkefølgen av informasjonen i rapporten. Her er et eksempel på en forespørselside for en rapport:
 
 ![Alternativer for rapport](media/report_options.png "Alternativer for rapport")
+
+### <a name="SavedSettings"></a>Bruke lagrede innstillinger
+Med noen av rapportene, avhengig av hvordan de er utformet, kan rapportsiden ha med seksjonen **Lagrede innstillinger** som inneholder ett eller flere poster i boksen **Bruk standardverdi fra**. Postene i denne avmerkingsboksen kalles *Lagrede innstillinger*. Lagrede innstillinger er en forhåndsdefinert gruppe med alternativer og filtre som du kan bruke i rapporten før du forhåndsviser eller sender rapporten til en fil. Oppføringen med lagrede innstillinger, som kalles **Sist brukte alternativer og filtre**, er alltid tilgjengelig. Denne posten angir at rapporten bruker alternativer og filtre som ble brukt forrige gang du så på rapporten.
+
+Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Når du har angitt boksen **Bruk standardverdi fra** til en post med lagrede innstillinger, kan du endre alle alternativer og filtre før forhåndsvisning eller lagring av rapporten. Endringene du gjør blir ikke lagret i valgte post med lagrede innstillinger, men de blir lagret i **Sist brukte alternativer og filtre**.
+
+>[!NOTE]
+>Hvis du er administrator kan du opprette og administrere lagrede innstillinger for rapporter for alle brukere. Hvis du vil ha mer informasjon, se [Administrere lagrede innstillinger i rapporter](reports-saving-reusing-settings.md).
+
+### <a name="setting-options-and-filters"></a>Angi alternativer og filtre
+Hvis du vil ytterligere begrense eller tilspisse dataene som er inkludert i en rapport, kan du definere flere alternativer og filtre.
+
+Med filtre kan du vise data basert på bestemte kriterier. Filtre er gruppert etter enheten de tilhører, som for eksempel **Kunde** i eksemplet ovenfor. Du definerer et filter ved å sette boksen **Hvor** til feltet som du vil filtrere etter, og deretter legge til kriterier i boksen **er:**. Eksemplet ovenfor er et enkelt filter som oppretter en rapport for kunden som har **Nr.** er lik **01121212**.
+
+Du kan legge til flere filtre ved å definere boksene **Legg til**. Når du har flere enn ett filter, vil kun et resultatet som oppfyller kriteriene for alle filtre være med i rapporten.
+
+Avhengig av hvilket felt du filtrerer på, kan du angi filterkriteriene til å søke etter et nøyaktig treff, delvis samsvar, verdiområder og så videre. Hvis du vil ha hjelp med å definerer filtre, kan du se:
+-   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)
+-   [Sette inn datointervaller](ui-enter-date-ranges.md)
 
 ## <a name="previewing-a-report"></a>Forhåndsvise en rapport
 Velg **Forhåndsvisning** for å vise rapporten i nettleseren. Pek på et område i rapporten for å vise menylinjen.  
@@ -57,14 +80,6 @@ Du kan planlegge en rapport når du åpner en rapport. Du velger **Tidsplan** og
 
 ## <a name="PrintReport"></a>Skrive ut en rapport
 Du kan skrive ut en rapport fra **Skriv ut**-knappen på siden med alternativer som vises når du åpner rapporten, eller fra menylinjen i forhåndsvisningen.
-
-## <a name="using-saved-settings"></a>Bruke lagrede innstillinger
-En rapport kan inneholde én eller flere poster i **Lagrede innstillinger**-feltet. *Lagrede innstillinger* er en forhåndsdefinert gruppe med alternativer og filtre som du kan bruke i rapporten før du forhåndsviser eller sender rapporten til en fil. Lagrede innstillinger er en rask og pålitelig metode for å generere konsekvent rapporter som inneholder de riktige dataene.
-
-Oppføringen med lagrede innstillinger, som kalles **Sist brukte alternativer og filtre**, er alltid tilgjengelig. Denne posten angir at rapporten bruker alternativer og filtre som ble brukt forrige gang du så på rapporten.
-
->[!NOTE]
->Som administrator kan du opprette og administrere lagrede innstillinger for rapporter for alle brukere. Hvis du vil ha mer informasjon, se [Administrere lagrede innstillinger i rapporter](reports-saving-reusing-settings.md).
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Endre oppsettet og utseendet på en rapport
 Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet og stilen som brukes. Hvis du vil bytte til et annet oppsett, kan du se [Endre gjeldende oppsett som skal brukes i en rapport](ui-how-change-layout-currently-used-report.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
