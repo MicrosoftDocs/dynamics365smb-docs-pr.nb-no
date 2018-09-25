@@ -1,6 +1,6 @@
 ---
-title: "Designdetaljer – Lukke behov og forsyning | Microsoft-dokumentasjon"
-description: "Når balanseringsprosessene for forsyning er utført, er det tre mulige sluttsituasjoner."
+title: "Designdetaljer - Kodeeksempler på endrede mønstre i endringer | Microsoft Docs"
+description: "Kodeeksempler viser endrede mønstre i endring og flytting av dimensjonskode for fem ulike scenarier. Det sammenligner kodeeksemplene i tidligere versjoner med kodeeksemplene i Business Central."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,41 +10,190 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 08/13/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2be48e11d562f469ab9ef5ac156fdeb46ea51107
+ms.sourcegitcommit: ded6baf8247bfbc34063f5595d42ebaf6bb300d8
+ms.openlocfilehash: a20a40e0f2d7198ce8af71298093893f16df5299
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/13/2018
 
 ---
-# <a name="design-details-closing-demand-and-supply"></a><span data-ttu-id="0c773-103">Designdetaljer: Lukke behov og forsyning</span><span class="sxs-lookup"><span data-stu-id="0c773-103">Design Details: Closing Demand and Supply</span></span>
-<span data-ttu-id="0c773-104">Når balanseringsprosessene for forsyning er utført, er det tre mulige sluttsituasjoner:</span><span class="sxs-lookup"><span data-stu-id="0c773-104">When the supply balancing procedures have been performed, there are three possible end situations:</span></span>  
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="215a6-104">Designdetaljer: Kodeeksempler på endrede mønstre i endringer</span><span class="sxs-lookup"><span data-stu-id="215a6-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="215a6-105">Dette emnet inneholder kodeeksempler som viser endrede mønstre i endring og flytting av dimensjonskode for fem ulike scenarier.</span><span class="sxs-lookup"><span data-stu-id="215a6-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="215a6-106">Det sammenligner kodeeksemplene i tidligere versjoner med kodeeksemplene i Business Central.</span><span class="sxs-lookup"><span data-stu-id="215a6-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
--   <span data-ttu-id="0c773-105">Nødvendig antall og dato for behovshendelsene er dekket, og planleggingen for dem kan lukkes.</span><span class="sxs-lookup"><span data-stu-id="0c773-105">The required quantity and date of the demand events have been met and the planning for them can be closed.</span></span> <span data-ttu-id="0c773-106">Forsyningshendelsen er fortsatt åpen og kan kanskje dekke neste behov, slik at balanseringsprosessen kan starte på nytt med den gjeldende forsyningshendelsen og neste behov.</span><span class="sxs-lookup"><span data-stu-id="0c773-106">The supply event is still open and may be able to cover the next demand, so the balancing procedure can start over with the current supply event and the next demand.</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="215a6-107">Bokføre en kladdelinje</span><span class="sxs-lookup"><span data-stu-id="215a6-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="215a6-108">Viktige endringer vises slik:</span><span class="sxs-lookup"><span data-stu-id="215a6-108">Key changes are listed as follows:</span></span>  
+  
+- <span data-ttu-id="215a6-109">Dimensjonstabeller for kladdelinjer blir fjernet.</span><span class="sxs-lookup"><span data-stu-id="215a6-109">Journal line dimension tables are removed.</span></span>  
+  
+- <span data-ttu-id="215a6-110">En dimensjonssett-ID opprettes i **Dimensjonssett-ID**-feltet.</span><span class="sxs-lookup"><span data-stu-id="215a6-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+  
+<span data-ttu-id="215a6-111">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="215a6-111">**Earlier Versions**</span></span>  
+  
+```  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+TempJnlLineDim.DELETEALL;  
+TempDocDim.RESET;  
+TempDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Line");  
+TempDocDim.SETRANGE(  
+  "Line No.",SalesLine."Line No.");  
+DimMgt.CopyDocDimToJnlLineDim(  
+  TempDocDim,TempJnlLineDim);  
+ResJnlPostLine.RunWithCheck(  
+  ResJnlLine,TempJnlLineDim);  
+  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+  
+ResJnlLine."Qty. per Unit of Measure" :=   
+  SalesLine."Qty. per Unit of Measure";  
+  
+ResJnlLine."Dimension Set ID" :=   
+  SalesLine." Dimension Set ID ";  
+ResJnlPostLine.Run(ResJnlLine);  
+  
+```  
+  
+## <a name="posting-a-document"></a><span data-ttu-id="215a6-112">Bokføre et dokument</span><span class="sxs-lookup"><span data-stu-id="215a6-112">Posting a Document</span></span>  
+ <span data-ttu-id="215a6-113">Når du bokfører et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], trenger du ikke lenger å kopiere dokumentdimensjonene.</span><span class="sxs-lookup"><span data-stu-id="215a6-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+  
+ <span data-ttu-id="215a6-114">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="215a6-114">**Earlier Versions**</span></span>  
+  
+```  
+DimMgt.MoveOneDocDimToPostedDocDim(  
+  TempDocDim,DATABASE::"Sales Line",  
+  "Document Type",  
+  "No.",  
+  SalesShptLine."Line No.",  
+  DATABASE::"Sales Shipment Line",  
+  SalesShptHeader."No.");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+SalesShptLine."Dimension Set ID”  
+  := SalesLine."Dimension Set ID”  
+```  
+  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="215a6-115">Redigere dimensjoner fra et dokument</span><span class="sxs-lookup"><span data-stu-id="215a6-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="215a6-116">Du kan redigere dimensjoner fra et dokument.</span><span class="sxs-lookup"><span data-stu-id="215a6-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="215a6-117">Du kan for eksempel redigere en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="215a6-117">For example, you can edit a sales order line.</span></span>  
+  
+ <span data-ttu-id="215a6-118">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="215a6-118">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function ShowDimensions:  
+TESTFIELD("Document No.");  
+TESTFIELD("Line No.");  
+DocDim.SETRANGE("Table ID",DATABASE::"Sales Line");  
+DocDim.SETRANGE("Document Type","Document Type");  
+DocDim.SETRANGE("Document No.","Document No.");  
+DocDim.SETRANGE("Line No.","Line No.");  
+DocDimensions.SETTABLEVIEW(DocDim);  
+DocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function ShowDimensions:  
+"Dimension ID" :=   
+  DimSetEntry.EditDimensionSet(  
+    "Dimension ID");  
+```  
+  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="215a6-119">Vise dimensjoner fra bokførte poster</span><span class="sxs-lookup"><span data-stu-id="215a6-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="215a6-120">Du kan vise dimensjoner fra bokførte poster, for eksempel følgeseddellinjer.</span><span class="sxs-lookup"><span data-stu-id="215a6-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+  
+ <span data-ttu-id="215a6-121">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="215a6-121">**Earlier Versions**</span></span>  
+  
+```  
+Table 111, function ShowDimensions:  
+TESTFIELD("No.");  
+TESTFIELD("Line No.");  
+PostedDocDim.SETRANGE(  
+  "Table ID",DATABASE::"Sales Shipment Line");  
+PostedDocDim.SETRANGE(  
+  "Document No.","Document No.");  
+PostedDocDim.SETRANGE("Line No.","Line No.");  
+PostedDocDimensions.SETTABLEVIEW(PostedDocDim);  
+PostedDocDimensions.RUNMODAL;  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 111, function ShowDimensions:  
+DimSetEntry.ShowDimensionSet(  
+  "Dimension ID");  
+```  
+  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="215a6-122">Hente standarddimensjoner for et dokument</span><span class="sxs-lookup"><span data-stu-id="215a6-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="215a6-123">Du kan hente standarddimensjoner for et dokument, for eksempel en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="215a6-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+  
+ <span data-ttu-id="215a6-124">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="215a6-124">**Earlier Versions**</span></span>  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+DimMgt.GetPreviousDocDefaultDim(  
+  DATABASE::"Sales Header","Document Type",  
+  "Document No.",0,  
+  DATABASE::Customer,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+DimMgt.GetDefaultDim(  
+  TableID,No,SourceCodeSetup.Sales,  
+  "Shortcut Dimension 1 Code",  
+  "Shortcut Dimension 2 Code");  
+IF "Line No." <> 0 THEN  
+  DimMgt.UpdateDocDefaultDim(  
+    DATABASE::"Sales Line","Document Type",  
+    "Document No.","Line No.",  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code");  
+```  
+  
+ **[!INCLUDE[d365fin](includes/d365fin_md.md)]**  
+  
+```  
+Table 37, function CreateDim()  
+SourceCodeSetup.GET;  
+TableID[1] := Type1;  
+No[1] := No1;  
+TableID[2] := Type2;  
+No[2] := No2;  
+TableID[3] := Type3;  
+No[3] := No3;  
+"Shortcut Dimension 1 Code" := '';  
+"Shortcut Dimension 2 Code" := '';  
+GetSalesHeader;  
+"Dimension ID" :=  
+  DimMgt.GetDefaultDimID(  
+    TableID,No,SourceCodeSetup.Sales,  
+    "Shortcut Dimension 1 Code",  
+    "Shortcut Dimension 2 Code",  
+    SalesHeader."Dimension ID",  
+    DATABASE::"Sales Header");
 
--   <span data-ttu-id="0c773-107">Forsyningsordren kan ikke endres slik at den dekker alle behov.</span><span class="sxs-lookup"><span data-stu-id="0c773-107">The supply order cannot be modified to cover all of the demand.</span></span> <span data-ttu-id="0c773-108">Behovshendelsen er fortsatt åpen, med et ikke-dekket antall som kan dekkes av neste forsyningshendelse.</span><span class="sxs-lookup"><span data-stu-id="0c773-108">The demand event is still open, with some uncovered quantity that may be covered by the next supply event.</span></span> <span data-ttu-id="0c773-109">Gjeldende forsyningshendelse blir dermed lukket, slik at balanseringen kan starte på nytt med det gjeldende behovet og neste forsyningshendelse.</span><span class="sxs-lookup"><span data-stu-id="0c773-109">Thus the current supply event is closed, so the balancing act can start over with the current demand and the next supply event.</span></span>  
+```  
 
--   <span data-ttu-id="0c773-110">All etterspørsel er dekket. Det er ingen etterfølgende etterspørsel (eller det er ingen etterspørsel i det hele tatt).</span><span class="sxs-lookup"><span data-stu-id="0c773-110">All of the demand has been covered; there is no subsequent demand (or there has been no demand at all).</span></span> <span data-ttu-id="0c773-111">Hvis det finnes overskuddsforsyning, kan den reduseres (eller avbrytes) og deretter lukkes.</span><span class="sxs-lookup"><span data-stu-id="0c773-111">If there is any surplus supply, it may be decreased (or canceled) and then closed.</span></span> <span data-ttu-id="0c773-112">Det kan hende det finnes flere forsyningshendelser videre i kjeden, og de må også avbrytes.</span><span class="sxs-lookup"><span data-stu-id="0c773-112">It is possible that additional supply events exist further along in the chain, and they should also be canceled.</span></span>  
-
- <span data-ttu-id="0c773-113">Til slutt oppretter planleggingssystemet en ordresporingskoblingen mellom forsyning og behov.</span><span class="sxs-lookup"><span data-stu-id="0c773-113">Last, the planning system will create an order tracking link between the supply and the demand.</span></span>  
-
-## <a name="creating-the-planning-line-suggested-action"></a><span data-ttu-id="0c773-114">Opprette planleggingslinjen (foreslått handling)</span><span class="sxs-lookup"><span data-stu-id="0c773-114">Creating the Planning Line (Suggested Action)</span></span>  
- <span data-ttu-id="0c773-115">Hvis det foreslås en handling, Ny, Endre antall, Tidsplanlegg på nytt, Tidsplanlegg på nytt og endre antallet eller Avbryt, for å endre forsyningsordren, oppretter planleggingssystemet en planleggingslinje i planleggingsforslaget.</span><span class="sxs-lookup"><span data-stu-id="0c773-115">If any action – New, Change Quantity, Reschedule, Reschedule and Change Quantity, or Cancel – is suggested to revise the supply order, the planning system creates a planning line in the planning worksheet.</span></span> <span data-ttu-id="0c773-116">Planleggingslinjen opprettes på grunn av ordresporing, ikke bare når forsyningshendelsen lukkes, men også hvis behovshendelsen lukkes, selv om forsyningshendelsen fremdeles er åpen og kan endres når neste behovshendelse behandles.</span><span class="sxs-lookup"><span data-stu-id="0c773-116">Due to order tracking, the planning line is created not only when the supply event is closed, but also if the demand event is closed, even though the supply event is still open and may be subject to additional changes when the next demand event is processed.</span></span> <span data-ttu-id="0c773-117">Dette betyr at når planleggingslinjen først opprettes, kan den endres på nytt.</span><span class="sxs-lookup"><span data-stu-id="0c773-117">This means that when first created, the planning line may be changed again.</span></span>  
-
- <span data-ttu-id="0c773-118">Du kan minimere databasetilgang ved håndtering av produksjonsordrer ved å vedlikeholde planleggingslinjen på tre nivåer og samtidig prøve å utføre det minst krevende vedlikeholdsnivået:</span><span class="sxs-lookup"><span data-stu-id="0c773-118">To minimize database access when handling production orders, the planning line can be maintained in three levels, while aiming to perform the least demanding maintenance level:</span></span>  
-
--   <span data-ttu-id="0c773-119">Opprett bare planleggingslinjen med gjeldende forfallsdato og antall, men uten ruting og komponenter.</span><span class="sxs-lookup"><span data-stu-id="0c773-119">Create only the planning line with the current due date and quantity but without the routing and components.</span></span>  
-
--   <span data-ttu-id="0c773-120">Inkluder ruting: Den planlagte ruten settes opp, herunder beregning av start- og sluttdatoer og -klokkeslett.</span><span class="sxs-lookup"><span data-stu-id="0c773-120">Include routing: the planned routing is laid out including calculation of starting and ending dates and times.</span></span> <span data-ttu-id="0c773-121">Dette er krevende når det gjelder databasetilgang.</span><span class="sxs-lookup"><span data-stu-id="0c773-121">This is demanding in terms of database accesses.</span></span> <span data-ttu-id="0c773-122">For å fastslå slutt- og forfallsdatoene blir det kanskje nødvendig å beregne dette selv om forsyningshendelsen ikke er lukket (når det gjelder planlegging fremover).</span><span class="sxs-lookup"><span data-stu-id="0c773-122">To determine the ending and due dates, it may be necessary to calculate this even if the supply event has not been closed (in the case of forward scheduling).</span></span>  
-
--   <span data-ttu-id="0c773-123">Ta med stykklisteutfoldelse: Dette kan vente til like før forsyningshendelsen lukkes.</span><span class="sxs-lookup"><span data-stu-id="0c773-123">Include BOM explosion: this can wait until just before the supply event is closed.</span></span>  
-
- <span data-ttu-id="0c773-124">Med dette avsluttes beskrivelsene av hvordan behov og forsyning lastes, prioriteres og balanseres av planleggingssystemet.</span><span class="sxs-lookup"><span data-stu-id="0c773-124">This concludes the descriptions of how demand and supply is loaded, prioritized, and balanced by the planning system.</span></span> <span data-ttu-id="0c773-125">I integrering med denne aktiviteten for forsyningsplanlegging, må systemet sikre at nødvendig lagernivå opprettholdes for hver planlagt vare i henhold til sine gjenbestillingsprinsippene.</span><span class="sxs-lookup"><span data-stu-id="0c773-125">In integration with this supply planning activity, the system must ensure that the required inventory level of each planned item is maintained according to its reordering policies.</span></span>  
-
-## <a name="see-also"></a><span data-ttu-id="0c773-126">Se også</span><span class="sxs-lookup"><span data-stu-id="0c773-126">See Also</span></span>  
- <span data-ttu-id="0c773-127">[Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md) </span><span class="sxs-lookup"><span data-stu-id="0c773-127">[Design Details: Balancing Demand and Supply](design-details-balancing-demand-and-supply.md) </span></span>  
- <span data-ttu-id="0c773-128">[Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md) </span><span class="sxs-lookup"><span data-stu-id="0c773-128">[Design Details: Central Concepts of the Planning System](design-details-central-concepts-of-the-planning-system.md) </span></span>  
- [<span data-ttu-id="0c773-129">Designdetaljer: Forsyningsplanlegging</span><span class="sxs-lookup"><span data-stu-id="0c773-129">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)
-
+## <a name="see-also"></a><span data-ttu-id="215a6-125">Se også</span><span class="sxs-lookup"><span data-stu-id="215a6-125">See Also</span></span>  
+<span data-ttu-id="215a6-126">[Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="215a6-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+<span data-ttu-id="215a6-127">[Designdetaljer: Tabellstruktur](design-details-table-structure.md) </span><span class="sxs-lookup"><span data-stu-id="215a6-127">[Design Details: Table Structure](design-details-table-structure.md) </span></span>  
+[<span data-ttu-id="215a6-128">Designdetaljer: Dimensjonsbehandling for kodeenhet 408</span><span class="sxs-lookup"><span data-stu-id="215a6-128">Design Details: Codeunit 408 Dimension Management</span></span>](design-details-codeunit-408-dimension-management.md)
