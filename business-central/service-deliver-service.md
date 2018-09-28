@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 08/23/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9a4debcccf673ca4b2f21ac35304e18c2f571d24
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d8250f4e80af08c7500e495ac539d0c035636895
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delivering-service"></a><span data-ttu-id="8c5b8-103">Yte service</span><span class="sxs-lookup"><span data-stu-id="8c5b8-103">Delivering Service</span></span>
@@ -26,7 +26,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="8c5b8-109">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-109">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
 
-<span data-ttu-id="8c5b8-110">Et serviceprogram må fungere som et grensesnitt for serviceforespørsler fra kunder.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="8c5b8-111">Serviceforespørselen blir vanligvis konvertert til en serviceordre.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="8c5b8-112"> har verktøyene du trenger for å opprette en ordre både direkte som svar på kundeforespørselen eller som en del av kontraktsprosessen, hvis det er slik programmet er satt opp.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
+<span data-ttu-id="8c5b8-110">Et serviceprogram må fungere som et grensesnitt for serviceforespørsler fra kunder.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-110">A service management application must interface with a customer request for service.</span></span> <span data-ttu-id="8c5b8-111">Serviceforespørselen blir vanligvis konvertert til en serviceordre.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-111">That service request usually is translated into a service order.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="8c5b8-112">har verktøyene du trenger for å opprette en ordre både direkte som svar på kundeforespørselen eller som en del av kontraktsprosessen, hvis det er slik programmet er satt opp.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-112"> provides tools to create an order both directly in response to a customer request or as part of the contract process, if that is how your application is set up.</span></span>  
   
 <span data-ttu-id="8c5b8-113">Ved behov kan du håndtere et program for utlånsobjekter for kundene.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-113">If needed, you can manage a loaner program for your customers.</span></span> <span data-ttu-id="8c5b8-114">Du kan også fastsette prissettingsstrukturen, plassere serviceprissettingstilbud i logiske grupper og opprette prisjusteringer.</span><span class="sxs-lookup"><span data-stu-id="8c5b8-114">You can also determine your pricing structure, put service pricing offerings into logical groupings, and create price adjustments.</span></span>  
   

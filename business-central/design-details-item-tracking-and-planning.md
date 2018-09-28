@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, item ledger, costing
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 71c327dd10816934d202643644cc5864f190bb78
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-item-application"></a><span data-ttu-id="5bfa5-103">Designdetaljer: Vareutligning</span><span class="sxs-lookup"><span data-stu-id="5bfa5-103">Design Details: Item Application</span></span>
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/22/2018
   
 <span data-ttu-id="5bfa5-106">I tillegg utføres en vareutligning for å koble kostnadsmottaker til kostnadskilden for å angi videresending av kostnader i henhold til lagermetoden.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-106">In addition, an item application is made to link the cost recipient to its cost source to provide cost forwarding according to the costing method.</span></span> <span data-ttu-id="5bfa5-107">Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).</span><span class="sxs-lookup"><span data-stu-id="5bfa5-107">For more information, see [Design Details: Costing Methods](design-details-costing-methods.md).</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5bfa5-108"> utfører to typer vareutligning.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-108"> makes two types of item application.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5bfa5-108">utfører to typer vareutligning.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-108"> makes two types of item application.</span></span>  
   
 |<span data-ttu-id="5bfa5-109">Utligningstype</span><span class="sxs-lookup"><span data-stu-id="5bfa5-109">Application type</span></span>|<span data-ttu-id="5bfa5-110">Beskrivelse</span><span class="sxs-lookup"><span data-stu-id="5bfa5-110">Description</span></span>|  
 |----------------------|---------------------------------------|  
@@ -239,7 +239,7 @@ ms.lasthandoff: 03/22/2018
 * <span data-ttu-id="5bfa5-524">Du vil overstyre utligningen som opprettes automatisk når du bokfører, i samsvar med lagermetoden for varen.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-524">You want to overrule the application created automatically when posting, according to the item’s costing method.</span></span>  
 * <span data-ttu-id="5bfa5-525">Du må returnere en vare som et salg allerede er manuelt utlignet mot, uten å bruke funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, og du må derfor angre utligningen.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-525">You have to return an item to which a sale has already been manually applied, without using the **Get Posted Document Lines to Reverse** function, and you must therefore undo the application.</span></span>  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5bfa5-526"> har en funksjon for analyse og korrigering av vareutligninger.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="5bfa5-527">Dette arbeidet utføres i vinduet **Utligningsforslag**.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-527">This work is performed in the **Application Worksheet** window.</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5bfa5-526">har en funksjon for analyse og korrigering av vareutligninger.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-526"> offers a feature for analyzing and correcting item applications.</span></span> <span data-ttu-id="5bfa5-527">Dette arbeidet utføres i vinduet **Utligningsforslag**.</span><span class="sxs-lookup"><span data-stu-id="5bfa5-527">This work is performed in the **Application Worksheet** window.</span></span>  
   
 ## <a name="see-also"></a><span data-ttu-id="5bfa5-528">Se også</span><span class="sxs-lookup"><span data-stu-id="5bfa5-528">See Also</span></span>  
 [<span data-ttu-id="5bfa5-529">Designdetaljer: Kostberegning for beholdning</span><span class="sxs-lookup"><span data-stu-id="5bfa5-529">Design Details: Inventory Costing</span></span>](design-details-inventory-costing.md)  

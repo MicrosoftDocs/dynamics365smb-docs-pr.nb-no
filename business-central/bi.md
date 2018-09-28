@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 05/31/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: baaa62e11f9abfac900d5fe6abb14cec9fafdacf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5aafee4e7d41826fe11c3dc64622db0c7e1fe088
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="business-intelligence"></a><span data-ttu-id="5f70b-103">Forretningsintelligens</span><span class="sxs-lookup"><span data-stu-id="5f70b-103">Business Intelligence</span></span>
-<span data-ttu-id="5f70b-104">Selskaper fanger opp store datamengder gjennom de daglige aktivitetene.</span><span class="sxs-lookup"><span data-stu-id="5f70b-104">Businesses capture a tremendous amount of data through daily activity.</span></span> <span data-ttu-id="5f70b-105">Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere.</span><span class="sxs-lookup"><span data-stu-id="5f70b-105">This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="5f70b-106"> inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.</span><span class="sxs-lookup"><span data-stu-id="5f70b-106"> contains a number of features that help you gather, analyze, and share your company data.</span></span>
+<span data-ttu-id="5f70b-104">Selskaper fanger opp store datamengder gjennom de daglige aktivitetene.</span><span class="sxs-lookup"><span data-stu-id="5f70b-104">Businesses capture a tremendous amount of data through daily activity.</span></span> <span data-ttu-id="5f70b-105">Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere.</span><span class="sxs-lookup"><span data-stu-id="5f70b-105">This data, which reflects such things as the organization's sales figures, purchases, operational expenses, employee salaries, and budgets, can become valuable information, or business intelligence, for decision makers.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="5f70b-106">inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.</span><span class="sxs-lookup"><span data-stu-id="5f70b-106"> contains a number of features that help you gather, analyze, and share your company data.</span></span>
 
 <span data-ttu-id="5f70b-107">Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens.</span><span class="sxs-lookup"><span data-stu-id="5f70b-107">The Dimensions functionality plays an important role in business intelligence.</span></span> <span data-ttu-id="5f70b-108">En dimensjon er data du kan legge til i en post som et slags merke.</span><span class="sxs-lookup"><span data-stu-id="5f70b-108">A dimension is data that you can add to an entry as a kind of marker.</span></span> <span data-ttu-id="5f70b-109">Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser.</span><span class="sxs-lookup"><span data-stu-id="5f70b-109">This data is used to group entries with similar characteristics, such as customers, regions, products, and salesperson, and easily retrieve these groups for analysis.</span></span> <span data-ttu-id="5f70b-110">Blant annet bruker du dimensjoner når du definerer analysevisninger, og når du oppretter kontoskjemaer for rapportering.</span><span class="sxs-lookup"><span data-stu-id="5f70b-110">Among other uses, you use dimensions  when defining analysis views and when creating account schedules for reporting.</span></span> <span data-ttu-id="5f70b-111">Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).</span><span class="sxs-lookup"><span data-stu-id="5f70b-111">For more information, see [Working with Dimensions](finance-dimensions.md).</span></span>
 

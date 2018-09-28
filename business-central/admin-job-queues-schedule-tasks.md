@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: fae1b2937a3c06fc947dd3dbec529826322d035c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8f274fe153cb93c31148269aae994218bd0da497
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a><span data-ttu-id="f7f78-105">Bruke jobbkøer til å planlegge oppgaver</span><span class="sxs-lookup"><span data-stu-id="f7f78-105">Use Job Queues to Schedule Tasks</span></span>
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 
 <span data-ttu-id="f7f78-115">Hvis du vil, kan du angi et filter i feltet **Filter for jobbkøkategori**.</span><span class="sxs-lookup"><span data-stu-id="f7f78-115">Optionally, you can set a filter in the **Job Queue Category Filter** field.</span></span> <span data-ttu-id="f7f78-116">Jobbkøkategorier kan brukes til å gruppere jobber i oversikten.</span><span class="sxs-lookup"><span data-stu-id="f7f78-116">Job queue categories can be used to group jobs in the list.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f7f78-117"> kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost.</span><span class="sxs-lookup"><span data-stu-id="f7f78-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="f7f78-118">Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.</span><span class="sxs-lookup"><span data-stu-id="f7f78-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f7f78-117">kjører jobbene automatisk i henhold til angitte de tidsplanene for hver jobbkøpost.</span><span class="sxs-lookup"><span data-stu-id="f7f78-117"> automatically runs the jobs according to the specified schedules for each job queue entry.</span></span> <span data-ttu-id="f7f78-118">Du kan også starte, stoppe og sette en jobbkøpost på vent manuelt.</span><span class="sxs-lookup"><span data-stu-id="f7f78-118">You can also start, stop, and put a job queue entry on hold manually.</span></span>
 
 ### <a name="log-files"></a><span data-ttu-id="f7f78-119">Loggfiler</span><span class="sxs-lookup"><span data-stu-id="f7f78-119">Log Files</span></span>
 <span data-ttu-id="f7f78-120">Feilmeldinger vises i vinduet **Loggposter for jobbkø**, som du får tilgang til fra båndet.</span><span class="sxs-lookup"><span data-stu-id="f7f78-120">Errors are listed in the **Job Queue Log Entries** window that you can access from the ribbon.</span></span> <span data-ttu-id="f7f78-121">Du kan også feilsøke jobbkøfeil.</span><span class="sxs-lookup"><span data-stu-id="f7f78-121">You can also troubleshoot job queue errors.</span></span> <span data-ttu-id="f7f78-122">Data som genereres ved kjøring av en jobbkø, lagres i databasen.</span><span class="sxs-lookup"><span data-stu-id="f7f78-122">Data that is generated when a job queue is run is stored in the database.</span></span>  
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/22/2018
 
  <span data-ttu-id="f7f78-127">Du kan også planlegge bokføringer for timer når det passer for din organisasjon.</span><span class="sxs-lookup"><span data-stu-id="f7f78-127">Alternatively, you may want to schedule postings for hours when it is convenient for your organization.</span></span> <span data-ttu-id="f7f78-128">I din virksomhet kan det for eksempel være fornuftig å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort.</span><span class="sxs-lookup"><span data-stu-id="f7f78-128">For example, it may make sense in your business to run certain routines when most of the data entry for the day has concluded.</span></span> <span data-ttu-id="f7f78-129">Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringspostrapporter, for eksempel rapportene **Salgsfakturaer - massebokfør**, **Salgskr.notaer - massebokfør** og **Salgskr.notaer - massebokfør**.</span><span class="sxs-lookup"><span data-stu-id="f7f78-129">You can achieve this by setting the job queue up to run various batch post reports, such as the **Batch Post Sales Orders**, **Batch Post Sales Invoices**, and **Batch Post Sales Credit Memos** reports.</span></span>  
 
- [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="f7f78-130"> støtter bakgrunnsbokføring for følgende dokumenttyper:</span><span class="sxs-lookup"><span data-stu-id="f7f78-130"> supports background posting for the following document types:</span></span>  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f7f78-130">støtter bakgrunnsbokføring for følgende dokumenttyper:</span><span class="sxs-lookup"><span data-stu-id="f7f78-130"> supports background posting for the following document types:</span></span>  
 
 -   <span data-ttu-id="f7f78-131">Salg: ordre, ordreretur, kreditnota, faktura</span><span class="sxs-lookup"><span data-stu-id="f7f78-131">Sales: sales order, return order, credit memo, invoice</span></span>  
 

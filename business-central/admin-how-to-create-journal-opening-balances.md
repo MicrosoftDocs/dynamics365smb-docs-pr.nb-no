@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fc8e8f34220643b7cd3fd357aea3807641cee911
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 612eb9cfa5c6cd45bf154f4813efa3b349f44841
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-journal-opening-balances"></a><span data-ttu-id="02ebb-104">Opprette inngående balanser for kladd</span><span class="sxs-lookup"><span data-stu-id="02ebb-104">Create Journal Opening Balances</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="02ebb-105"> omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap.</span><span class="sxs-lookup"><span data-stu-id="02ebb-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="02ebb-106">Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.</span><span class="sxs-lookup"><span data-stu-id="02ebb-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="02ebb-105">omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap.</span><span class="sxs-lookup"><span data-stu-id="02ebb-105"> includes several batch jobs that are provided to help in the transfer of legacy account balances to a newly configured company.</span></span> <span data-ttu-id="02ebb-106">Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.</span><span class="sxs-lookup"><span data-stu-id="02ebb-106">You can easily transfer this data with the customer journal, the vendor journal, the item journal, or the G/L journal.</span></span>
 
 <span data-ttu-id="02ebb-107">Det første trinnet er å opprette en konfigurasjonspakke som inneholder oppsettstabellene for disse kladdene.</span><span class="sxs-lookup"><span data-stu-id="02ebb-107">The first step is to create a configuration package that includes the setup tables for those journals.</span></span> <span data-ttu-id="02ebb-108">Følgende fremgangsmåte forutsetter at dette trinnet er fullført.</span><span class="sxs-lookup"><span data-stu-id="02ebb-108">The following procedure assumes that this step is completed.</span></span> <span data-ttu-id="02ebb-109">Du finner mer informasjon under [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md).</span><span class="sxs-lookup"><span data-stu-id="02ebb-109">For more information, see [Set Up Company Configuration](admin-set-up-company-configuration.md).</span></span> <span data-ttu-id="02ebb-110">Denne fremgangsmåten beskriver de påfølgende trinnene, blant annet å bruke pakken som er levert av en partner.</span><span class="sxs-lookup"><span data-stu-id="02ebb-110">This procedure describes the subsequent steps, which include applying the package that is provided by a partner.</span></span>  
 

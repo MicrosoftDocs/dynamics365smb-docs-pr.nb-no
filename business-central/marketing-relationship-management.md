@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 6cc658e5031db7bf227d2839120e7bfddcb32037
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 156a1265e8a10138b44535945aa75319680d280a
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-relationships"></a><span data-ttu-id="99321-103">Administrere forbindelser</span><span class="sxs-lookup"><span data-stu-id="99321-103">Managing Relationships</span></span>
 <span data-ttu-id="99321-104">Funksjonen for forbindelser i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjelper deg med å håndtere og støtte salgsfremstøt.</span><span class="sxs-lookup"><span data-stu-id="99321-104">The relationship management features of [!INCLUDE[d365fin](includes/d365fin_md.md)] help you manage and support your sales efforts.</span></span> <span data-ttu-id="99321-105">Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.</span><span class="sxs-lookup"><span data-stu-id="99321-105">With these features, you have access to complete and accurate information so you can focus your interactions on preferred customer/contact segments.</span></span>
 
-<span data-ttu-id="99321-106">God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid.</span><span class="sxs-lookup"><span data-stu-id="99321-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="99321-107"> gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.</span><span class="sxs-lookup"><span data-stu-id="99321-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
+<span data-ttu-id="99321-106">God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid.</span><span class="sxs-lookup"><span data-stu-id="99321-106">Good sales and marketing practices are all about how to make the best decisions at the right time.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="99321-107">gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.</span><span class="sxs-lookup"><span data-stu-id="99321-107"> provides a precise and timely overview of your contact information so that you can serve your prospective customers more efficiently and increase customer satisfaction.</span></span>
 
 <span data-ttu-id="99321-108">Se følgende emner for å komme i gang:</span><span class="sxs-lookup"><span data-stu-id="99321-108">To get started, see the following topics:</span></span>
 
