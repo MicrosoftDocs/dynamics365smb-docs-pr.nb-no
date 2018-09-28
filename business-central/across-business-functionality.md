@@ -8,7 +8,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
 ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
@@ -43,7 +43,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Definere og bruke arbeidsflyter som kobler oppgaver som utføres av forskjellige brukere eller av systemet, for eksempel automatisk bokføring. Å be om og gi godkjenning til å opprette eller bokføre dokumenter er typiske arbeidsflyttrinn.|[Arbeidsflyt](across-workflow.md)|
 |Gjøre det mulig for brukere å utveksle data med eksterne kilder under daglige oppgaver, for eksempel sending/mottak av elektroniske dokumenter, import/eksport av bankfiler og oppdatering av valutakurser.|[Utveksle data elektronisk](across-data-exchange.md)|
 |Registrere eksterne dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
-
 
 ## <a name="see-also"></a>Se også
 [Administrasjon](admin-setup-and-administration.md)  
