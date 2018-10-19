@@ -10,31 +10,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f7834f0f99b775125425eb7209c3c648de4ccd1f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="prioritize-vendors"></a><span data-ttu-id="2d529-103">Prioritere leverandører</span><span class="sxs-lookup"><span data-stu-id="2d529-103">Prioritize Vendors</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="2d529-104"> kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig.</span><span class="sxs-lookup"><span data-stu-id="2d529-104"> can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="2d529-105">Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="2d529-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
+# <a name="prioritize-vendors"></a><span data-ttu-id="279dc-103">Prioritere leverandører</span><span class="sxs-lookup"><span data-stu-id="279dc-103">Prioritize Vendors</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="279dc-104">kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig.</span><span class="sxs-lookup"><span data-stu-id="279dc-104">can suggest various payments to vendors, for example, payments that will be due soon or payments where a discount is available.</span></span> <span data-ttu-id="279dc-105">Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).</span><span class="sxs-lookup"><span data-stu-id="279dc-105">For more information, see [Suggest Vendor Payments](payables-how-suggest-vendor-payments.md).</span></span>
 
-<span data-ttu-id="2d529-106">Først må du prioritere leverandørene ved å tilordne numre til dem.</span><span class="sxs-lookup"><span data-stu-id="2d529-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
+<span data-ttu-id="279dc-106">Først må du prioritere leverandørene ved å tilordne numre til dem.</span><span class="sxs-lookup"><span data-stu-id="279dc-106">First, you must prioritize your vendors by assigning numbers to them.</span></span>
 
-## <a name="to-prioritize-vendors"></a><span data-ttu-id="2d529-107">Slik prioriterer du leverandører</span><span class="sxs-lookup"><span data-stu-id="2d529-107">To prioritize vendors</span></span>
-1. <span data-ttu-id="2d529-108">Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="2d529-108">Choose the ![Search for Page or Report](media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Vendors**, and then choose the related link.</span></span>
-2. <span data-ttu-id="2d529-109">Velg den aktuelle leverandøren, og velg deretter **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="2d529-109">Select the relevant vendor, and then choose **Edit**.</span></span>
-3. <span data-ttu-id="2d529-110">Angi et tall i feltet **Prioritet**.</span><span class="sxs-lookup"><span data-stu-id="2d529-110">In the **Priority** field, enter a number.</span></span>
+## <a name="to-prioritize-vendors"></a><span data-ttu-id="279dc-107">Slik prioriterer du leverandører</span><span class="sxs-lookup"><span data-stu-id="279dc-107">To prioritize vendors</span></span>
+1. <span data-ttu-id="279dc-108">Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="279dc-108">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Vendors**, and then choose the related link.</span></span>
+2. <span data-ttu-id="279dc-109">Velg den aktuelle leverandøren, og velg deretter **Rediger**.</span><span class="sxs-lookup"><span data-stu-id="279dc-109">Select the relevant vendor, and then choose **Edit**.</span></span>
+3. <span data-ttu-id="279dc-110">Angi et tall i feltet **Prioritet**.</span><span class="sxs-lookup"><span data-stu-id="279dc-110">In the **Priority** field, enter a number.</span></span>
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]<span data-ttu-id="2d529-111"> vurderer det laveste tallet, unntatt 0, til å ha høyest prioritet.</span><span class="sxs-lookup"><span data-stu-id="2d529-111"> considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="2d529-112">Hvis du for eksempel bruker 1, 2 og 3, har 1 høyeste prioritet.</span><span class="sxs-lookup"><span data-stu-id="2d529-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="279dc-111">vurderer det laveste tallet, unntatt 0, til å ha høyest prioritet.</span><span class="sxs-lookup"><span data-stu-id="279dc-111">considers the lowest number, except 0, to have the highest priority.</span></span> <span data-ttu-id="279dc-112">Hvis du for eksempel bruker 1, 2 og 3, har 1 høyeste prioritet.</span><span class="sxs-lookup"><span data-stu-id="279dc-112">So, for example, if you use 1, 2, and 3, then 1 will have the highest priority.</span></span>
 
-<span data-ttu-id="2d529-113">Hvis du ikke vil prioritere en leverandør, lar du feltet **Prioritet** stå tomt.</span><span class="sxs-lookup"><span data-stu-id="2d529-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="2d529-114">Når du deretter bruker funksjonen for betalingsforslag, vises leverandøren i oversikten etter alle leverandørene som har et prioritetsnummer.</span><span class="sxs-lookup"><span data-stu-id="2d529-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="2d529-115">Du kan angi et ubegrenset antall prioritetsnivåer.</span><span class="sxs-lookup"><span data-stu-id="2d529-115">You can enter as many priority levels as necessary.</span></span>
+<span data-ttu-id="279dc-113">Hvis du ikke vil prioritere en leverandør, lar du feltet **Prioritet** stå tomt.</span><span class="sxs-lookup"><span data-stu-id="279dc-113">If you do not want to prioritize a vendor, leave the **Priority** field blank.</span></span> <span data-ttu-id="279dc-114">Når du deretter bruker funksjonen for betalingsforslag, vises leverandøren i oversikten etter alle leverandørene som har et prioritetsnummer.</span><span class="sxs-lookup"><span data-stu-id="279dc-114">Then, if you use the payment suggestion feature, the vendor will be listed after all the vendors that have a priority number.</span></span> <span data-ttu-id="279dc-115">Du kan angi et ubegrenset antall prioritetsnivåer.</span><span class="sxs-lookup"><span data-stu-id="279dc-115">You can enter as many priority levels as necessary.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="2d529-116">Se også</span><span class="sxs-lookup"><span data-stu-id="2d529-116">See Also</span></span>
-[<span data-ttu-id="2d529-117">Definere kjøp</span><span class="sxs-lookup"><span data-stu-id="2d529-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
-[<span data-ttu-id="2d529-118">Administrere skyldige beløp</span><span class="sxs-lookup"><span data-stu-id="2d529-118">Managing Payables</span></span>](payables-manage-payables.md)  
-<span data-ttu-id="2d529-119">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="2d529-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="279dc-116">Se også</span><span class="sxs-lookup"><span data-stu-id="279dc-116">See Also</span></span>
+[<span data-ttu-id="279dc-117">Definere kjøp</span><span class="sxs-lookup"><span data-stu-id="279dc-117">Setting Up Purchasing</span></span>](purchasing-setup-purchasing.md)  
+[<span data-ttu-id="279dc-118">Administrere skyldige beløp</span><span class="sxs-lookup"><span data-stu-id="279dc-118">Managing Payables</span></span>](payables-manage-payables.md)  
+<span data-ttu-id="279dc-119">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="279dc-119">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
 
