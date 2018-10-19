@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/22/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ea8351924e8e4af4b16b41fa7bc92bf59069ac01
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 001923d52ca7f04a338814d6636c3005277a5d02
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -26,26 +26,25 @@ Feilrapportering lar deg opprette standarder for å registrere feilinformasjon f
 Feilkoder beskriver de vanligste servicevarefeilene eller handlingene som er utført på servicevarer. Avhengig av nivået på feilrapportering i selskapet, kan det også hende du må definere koder for feilområde og symptomkoder før du definerer feilkoder. Feilområdene beskriver områder for servicevarefeil. Feilårsakskoder beskriver årsaken til servicevarefeil og eventuelt å utelate garanti- og kontraktrabatter. Det kan for eksempel hende du vil utelate garanti- og kontraktrabatter hvis kunden på en eller annen måte var ansvarlig for feilen i servicevaren. Du tilordner feilårsakskoder til serviceordrer. Hvis du vil ha mer informasjon, kan du se [Arbeide med serviceoppgaver](service-how-to-work-on-service-tasks.md).  
 
 ## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Angi det generelle nivået å bruke for feilrapportering
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. I feltet **Feilrapporteringsnivå** velger du ett av alternativene som er beskrevet i tabellen nedenfor.  
-  
+
     |**Feilnivå**|**Beskrivelse**|  
     |------------|-------------|  
     |Ingen | Ingen rapporteringskoder brukes.|  
     |Feil | Kodene er oppført i **Feilkoder**-tabellen. Disse kodene identifiserer servicevarefeil eller handlinger som skal utføres på servicevarer. Du kan samle relaterte koder i grupper med verdien **Feilområde - kode**.|  
     |Feil + Symptom | Du angir en kombinasjon av koder i tabellene **Feilkoder** og **Symptomkoder**. Typiske symptomkoder omfatter indikatorer som en kunde kan bruke til å beskrive et problem, for eksempel støy eller kvalitet.|  
     |Feil + Symptom + Område. | Du bruker koder for feil, symptomer og feilområde som en implementering av det internasjonale reparasjonskodingssystemet (IRIS).|  
-  
-Når du skal fullføre definisjonen av feilrapportering, kan du også angi hvilke reparasjoner eller løsninger som er tilknyttet en feil eller defekt. Du definerer på siden **Forhold ml. feil-/løsningskoder**, der du angir kombinasjoner av koder for servicevaregruppen til servicevaren som du åpnet vinduet, og antall forekomster av hver enkelt.
+
+Når du skal fullføre definisjonen av feilrapportering, kan du også angi hvilke reparasjoner eller løsninger som er tilknyttet en feil eller defekt. Du definerer dette i vinduet **Forhold ml. feil-/løsningskoder**, der du angir kombinasjoner av koder for servicevaregruppen til servicevaren som du åpnet vinduet, og antall forekomster av hver enkelt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Opprette relasjoner mellom feilkode og løsningskode
-<!--this needs to go in a working with topic-->
-Hvis du vil kunne vise de vanligste reparasjonsmåtene for bestemte varefeil når du gir service til varene, må du samle opplysninger om forhold mellom feil-/løsningskoder. Bruk kjørselen **Sett inn forh. ml. feil/løsn.** til å finne alle kombinasjoner av feil- og løsningskoder i bokførte serviceordrer, og registrer dem på siden **Forhold ml. feil-/løsningskoder**. 
-  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Sett inn forh. ml. feil/løsn.**, og velg deretter den relaterte koblingen.  
+<!--this needs to go in a working with topic--> Hvis du vil kunne vise de vanligste reparasjonsmåtene for bestemte varefeil når du gir service til varene, må du samle opplysninger om forhold mellom feilløsningskoder. Bruk kjørselen **Sett inn forh. ml. feil/løsn.** til å finne alle kombinasjoner av feil- og løsningskoder i bokførte serviceordrer, og registrer dem i vinduet **Forhold ml. feil-/løsningskoder**.
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Sett inn forh. ml. feil/løsn.**, og velg deretter den relaterte koblingen.  
 2. Angi datoer for å definere perioden som du vil skal være med i kjørselen.  
 3. Merk av for **Forbindelse basert på servicevaregruppe** for å gruppere forbindelsene etter servicevaregruppe.  
-4. Merk av for **Behold manuelt innsatte poster** hvis du vil beholde postene som allerede er satt inn manuelt på siden **Forhold ml. feil-/løsningskoder**.  
+4. Merk av for **Behold manuelt innsatte poster** hvis du vil beholde postene som allerede er satt inn manuelt i vinduet **Forhold ml. feil-/løsningskoder**.  
 
 ## <a name="see-also"></a>Se også
 [Konfigurere servicehåndtering](service-setup-service.md)  

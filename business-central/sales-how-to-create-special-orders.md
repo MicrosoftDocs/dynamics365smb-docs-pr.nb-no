@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 84b7a66734b3da5bdbc474bc43e463481c7f6ba5
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-special-orders"></a>Opprette spesialbestillinger
@@ -25,12 +25,12 @@ Spesialbestillinger betyr at bestillingen og ordren er knyttet til hverandre for
 Før du kan bruke denne funksjonen, må du først konfigurere kunden, leverandøren og de varekortene som kreves for ordren.  
 
 ## <a name="to-create-a-special-order"></a>Slik oppretter du en spesialbestilling  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordre**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Opprett og fyll ut en  ordre for varen. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3.  På hurtigfanen **Linjer** fyller du inn salgslinjen. Velg en kjøpskode som **Spesialbestilling**-feltet er valgt for, i **Kjøpskode**-feltet.
 
     Du må nå opprette en bestilling fra et bestillingsforslag.  
-4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.  
 5. Velg **Spesialbestilling**-handlingen, og velg deretter **Hent ordre**-handlingen.  
 6.  Vis resultater der **Bilagsnr.** er ordrenummeret, i **Hent ordrer**-vinduet. Velg **OK**-knappen. Det opprettes en bestillingsforslagslinje for varen.  
 7.  På bestillingsforslagslinjen velger du **Ny** i feltet **Handlingsmelding**.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience
-ms.date: 08/15/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: c6f10f8252c00bf0a599f9fa794ee36c41ce92be
-ms.openlocfilehash: 4c20da1a46879ddc342250a0e074b0f8097a64ab
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 55e1dd3f9f7a85867f5609190c4766839326ca7a
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/31/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
@@ -26,7 +26,7 @@ Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for 
 Hvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole. Hvis du vil ha mer informasjon, kan du se [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md).  
 
 ## <a name="do-i-have-to-buy-office-365"></a>Må jeg kjøpe Office 365?
-Nr. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
+Nei. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvordan fungerer integreringen med Office 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
@@ -55,15 +55,8 @@ Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettste
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land og oversettelser som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
-## <a name="why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-included365finincludesd365finmdmd"></a>Hvorfor er noen grensesnittelementer som jeg brukte i Dynamics NAV, ikke synlige i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør alternativene for modul og opplevelse det mulig å vise/skjule aktuelle deler av produktet i henhold til den innkjøpte planen (Essential eller Premium) og i henhold til forretningsbehovene.
-
-Disse funksjonene er brukt for å forenkle grensesnittet i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. For eksempel felt som ikke brukes ofte, som **Faksnr.**, er blitt fjernet, og på båndene i lister og kort er dupliserte handlinger fjernet og de mest brukte handlingene fremhevet. Noen ferdige funksjoner, for eksempel Merknader, optimaliseres nå for webklienten og er derfor ikke tilgjengelig i [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-Visse grensesnittelementer som vises i standardversjonen av Dynamics NAV, vises derfor ikke i [!INCLUDE[d365fin](includes/d365fin_md.md)]. De aktuelle kontrollene er merket med #Advanced application area.
-
-Hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsningen skal inneholde de samme grensesnittelementene som Dynamics NAV-løsningen, må du utføre noen trinn i utviklingsmiljøet for å vise #Advanced-kontrollene, via en utvidelse. Hvis du vil ha mer informasjon, kan du se [Utvide moduler](/dynamics365/dev-itpro/developer/devenv-extending-application-areas).
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
+Hvis opplevelsesinnstillingen i vinduet **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).    
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  

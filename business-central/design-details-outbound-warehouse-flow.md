@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f84b46027aa04b50de2a8d4573ce4633fd59fcf
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
@@ -34,8 +34,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 - Produksjonsordre med komponentbehov  
 - Monteringsordre med komponentbehov  
 
- De to siste dokumentene representerer utgående flyter fra lageret til interne operasjonsområder. Hvis du vil ha mer informasjon om lagerhåndtering for interne innkommende og utgående prosesser, kan du se
-[Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md).  
+ De to siste dokumentene representerer utgående flyter fra lageret til interne operasjonsområder. Hvis du vil ha mer informasjon om lagerhåndtering for interne innkommende og utgående prosesser, kan du se [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md).  
 
  Prosesser og dokumenter for brukergrensesnitt i utgående lagerflyter er forskjellige for grunnleggende og avanserte lagerkonfigurasjoner. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerkonfigurasjoner, og de konsolideres for flere ordrer i avanserte lagerkonfigurasjoner. Hvis du vil ha mer informasjon om ulike kompleksitetsnivåer for lageret, kan du se [Designdetaljer: Lageroversikt](design-details-warehouse-setup.md).  
 
@@ -48,8 +47,6 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 |L|Bokføre plukking og levering fra en lagerfølgeseddel|||X|4/5/6|  
 |D|Bokføre plukking fra et lagerplukkdokument og bokføre leveringen fra en lagerfølgeseddel||X|X|4/5/6|  
 
- Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt]().  
-
  Hvilken metode som er aktuell å velge, avhenger av selskapets vanlige praksis og organisasjonens kompleksitetsnivå. I et ordre for ordre-miljø med enkle prosesser og enkel hyllestruktur, er metode A riktig, plukk og forsendelse fra ordrelinjen. I andre ordre for ordre-selskaper, der varene for én ordrelinje kan komme fra flere enn én hylle, eller der lagerarbeidere ikke kan arbeide med ordredokumenter, passer det å bruke separate plukkdokumenter (metode B). Når selskapets plukk og levering omfatter håndtering av flere ordre, og derfor krever større kontroll og oversikt, kan selskapet velge å bruke et lagerleveringsdokument og plukkdokument for å skille plukk- og leveringsoppgaver (metode C og D).  
 
  I metode A, B og C kombineres plukk- og leveringshandlingen i ett trinn når tilsvarende dokument bokføres som levert. I metode D blir plukk først registrert, og deretter bokføres leveringen på et senere tidspunkt fra et annet dokument.  
@@ -57,7 +54,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 ## <a name="basic-warehouse-configurations"></a>Enkle lageroppsett  
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i grunnleggende lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i grunnleggende lagerkonfigurasjoner](media/design_details_warehouse_management_outbound_basic_flow.png "design_details_warehouse_management_outbound_basic_flow")  
+ ![Utgående flyt i grunnleggende lageroppsett](media/design_details_warehouse_management_outbound_basic_flow.png "Utgående flyt i grunnleggende lageroppsett")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigi kildedokumentet / opprette lagerplukk eller flytting  
  Når en bruker som er ansvarlig for kildedokumenter, for eksempel en ordrebehandler eller produksjonsplanlegger, er klar for den utgående lageraktiviteten, frigir vedkommende kildedokumentet for å signalisere til lagermedarbeidere at solgte varer eller komponenter kan plukkes og plasseres i de angitte hyllene. Brukeren kan eventuelt også opprette lagerplukk- eller flyttedokumenter for de enkelte ordrelinjene, på en push-måte, basert på angitte hyller og antall som skal håndteres.  
@@ -79,7 +76,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 ## <a name="advanced-warehouse-configurations"></a>avanserte lageroppsett  
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i avanserte lagerkonfigurasjoner](media/design_details_warehouse_management_outbound_advanced_flow.png "design_details_warehouse_management_outbound_advanced_flow")  
+ ![Utgående flyt i avanserte lageroppsett](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avanserte lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument  
  Når en bruker som er ansvarlig for kildedokumenter, for eksempel en ordrebehandler eller produksjonsplanlegger, er klar for den utgående lageraktiviteten, frigir vedkommende kildedokumentet for å signalisere til lagermedarbeidere at solgte varer eller komponenter kan plukkes og plasseres i de angitte hyllene.  

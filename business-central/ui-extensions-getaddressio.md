@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 04/20/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 1b3bf0abcf6ccb19c9c399849a03cee5c470ade8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-getaddressio-uk-postcodes-extension-to-microsoft-business-central"></a>GetAddress.io UK Postcodes-utvidelsen av Microsoft-dokumentasjon
+# <a name="the-getaddressio-uk-postcodes-extension"></a>GetAddress.io UK Postcodes-utvidelsen
 GetAddress.io UK Postcodes-utvidelsen kan spare tid og unngå feil når du angir adresser for enhetene som kunder, leverandører, bankkonti og ansatte. For eksempel når du oppretter en kunde, du velger et postnummer og [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en liste over adresser. Velg adressen du vil bruke, og presto, er adressefeltene er fylt.  
 
 ##<a name="to-use-the-getaddressio-uk-postcodes-extension-when-you-enter-an-address"></a>Å bruke GetAddress.io UK Postcodes-utvidelsen når du skriver inn en adresse

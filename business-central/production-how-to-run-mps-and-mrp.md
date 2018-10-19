@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/26/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 41a8ba231eb6fb9eaebe2168294ded0b0378fd81
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4fe4c7eaf412bd6219b51a06f989c5a8508c4410
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
--   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og produksjonsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
--   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og produksjonsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  
+-   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
+-   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og behovsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  
 
 Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene gjelder nettoberegning, gjenbruk av eksisterende etterfyllingsordrer samt handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er på lager eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] handlingsmeldinger. Handlingsmeldinger er forslag om å opprette en ny ordre, endre en ordre (antall eller dato) eller annullere en ordre som er bestilt. Betegnelsen "ordre" omfatter bestillinger, monteringsordrer, produksjonsordrer og overføringsordrer.
 
@@ -35,7 +35,7 @@ Riktige planleggingsresultater er avhengig av definisjonene i varekort, monterin
 
 -   **Beregn replanlegging**: Denne funksjonen behandler eller regenererer materialplanen. Denne prosessen starter ved å slette alle planlagte forsyningsordrer som er lastet inn. Alle varer i databasen planlegges på nytt.  
 -   **Beregn bevegelsesplan**: Denne funksjonen behandler en bevegelsesplan. Varer behandles i bevegelsesplanlegging fra to typer endringer:  
-    - **Behovs-/forsyningsendringer**: Dette inkluderer endringer av antall i ordrer, produksjonsprognoser, monteringsordrer, produksjonsordrer eller bestillinger. En endring i beholdningsnivået som ikke er planlagt, regnes også for å være en endring av antall.  
+    - **Behovs-/forsyningsendringer**: Dette inkluderer endringer av antall i ordrer, behovsprognoser, monteringsordrer, produksjonsordrer eller bestillinger. En endring i beholdningsnivået som ikke er planlagt, regnes også for å være en endring av antall.  
     - **Endringer av planleggingsparameter:** Dette inkluderer endringer av sikkerhetslager, gjenbestillingspunkt, rute og stykkliste og endringer av tidsperioden eller beregningen av leveringstid.  
 -   **Hent handlingsmeldinger:** Denne funksjonen fungerer som et verktøy for planlegging på kort sikt ved å sende handlingsmeldinger for å varsle brukeren om eventuelle endringer som er gjort siden siste replanlegging eller bevegelsesplan ble beregnet.  
 
@@ -47,13 +47,13 @@ Med hver planlagte metode genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Funksjonen for planen Hent handlingsmeldinger kan kjøres mellom kjøringer av bevegelsesplanlegging og replanlegging for å få en oversikt over virkningen av planendringer, men er ikke ment å være en erstatning for fullstendige prosesser for bevegelsesplanlegging eller replanlegging.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Slik beregner du planleggingsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn replanlegging** for å åpne vinduet **Beregn Plan**.  
 3.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**MPS**|Velg dette alternativet for å starte beregningen av hovedproduksjonsplan. Varer med åpne ordrer eller produksjonsprognoser behandles i denne kjøringen.|  
+    |**MPS**|Velg dette alternativet for å starte beregningen av hovedproduksjonsplan. Varer med åpne ordrer eller behovsprognoser behandles i denne kjøringen.|  
     |**MRP**|Velg dette alternativet for å starte beregningen av materialbehovsplanlegging. Varer med avhengige behov behandles i denne kjøringen. Vanligvis kjøres MPS og MRP samtidig. Hvis du vil kjøre MPS og MRP samtidig, merker du av for feltet **Kombinert MPS/MRP-beregning** på hurtigfanen **Planlegging** i **Produksjonsoppsett**-vinduet.|  
     |**Startdato**|Denne datoen brukes til å evaluere lagerbeholdningen. Hvis antallet på lager av en vare er under gjenbestillingspunktet, planlegger systemet en etterfyllingsordre fremover fra denne datoen. Hvis en vare er under sikkerhetslageret (per startdatoen), planlegger systemet en etterfyllingsordre bakover som forfaller på den planlagte startdatoen.|  
     |**Sluttdato**|Dette er sluttdatoen for planleggingshorisonten. Det tas hensyn til verken behov eller forsyning etter denne datoen. Hvis gjenbestillingssyklusen for en vare overskrider sluttdatoen, er den effektive planleggingshorisonten for denne varen lik ordredato + gjenbestillingssyklus.<br /><br /> Planleggingshorisonten er varigheten til planen. Hvis horisonten er for kort, bestilles ikke varer med en lengre leveringstid i tide. Hvis horisonten er for lang, brukes det for lang tid på gjennomgang og behandling av informasjon som sannsynligvis endres før det er behov for den. Det er mulig å angi én planleggingshorisont for produksjonen og en lengre for kjøp, men det er ikke nødvendig. En planleggingshorisont for kjøp og produksjon bør angis slik at den dekker samlet leveringstid for komponenter.|  

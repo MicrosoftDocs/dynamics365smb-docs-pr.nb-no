@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/10/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: feae398e064a03d01903fcc65c6f4d99be8374a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
@@ -44,13 +44,13 @@ Hvis du vil ha mer informasjon, kan du se delen "Slik aktiverer eller deaktivere
 Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Dette gjelder også for refusjoner og kreditnotaer.  
 
 Når du skal definere toleranse, må du definere forskjellige toleransebeløp, angi både toleransegrense for kontantrabatt og bokføringsmetode for betalingstoleranse, og kjøre kjørselen **Endre betalingstoleranse**.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Generelt bokføringsoppsett** definerer du en debet- og kredittoleransekonto for kontantbetaling ved salg, og en debet- og kreditkonto for kontantbetaling ved kjøp.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
+3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
 4. I vinduet **Bokføringsgrupper - kunde** definerer du en betalingstoleransekonto for debet og kredit. Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
-5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandørbokføringsoppsett**, og velg deretter den relaterte koblingen.  
 6. I vinduet **Bokføringsgrupper - leverandør** definerer du en betalingstoleransekonto for debet og kredit.  
-7. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+7. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 8. Åpne **Finansoppsett**-vinduet.  
 9. På hurtigfanen **Utligning** fyller du ut feltene **Bokf. av kont.rab.toleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
 10. Velg **Endre betalingstoleranse**-handlingen.
@@ -68,7 +68,7 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. I **Finansoppsett**-vinduet, på hurtigfanen **Utligning**, merker du av for **Betalingstoleranse - advarsel** for å aktivere advarselen. Fjern merket når du skal deaktivere meldingen.  
 
 > [!NOTE]  
@@ -77,7 +77,7 @@ Melding om betalingstoleranse vises når du bokfører en utligning som har en sa
 ## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder  
 Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av betalingstoleranse for en bestemt kunde eller leverandør, må du sperre for toleranse på det respektive kunde- eller leverandørkortet. Nedenfor beskrives det hvordan du gjør det for en kunde. Trinnene er de samme for en leverandør.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Betalinger** merker du av for **Sperr for betalingstoleranse**.  
 
 > [!NOTE]  
@@ -124,7 +124,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse &#40;før 03&#47;15&#41;](media/singlePmtTolRules(Pre1503).gif "singlePmtTolRules(Pre1503)")  
+![Regler for én betalingstoleranse 1](media/singlePmtTolRules(Pre1503).gif "Regler for én betalingstoleranse 1")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -135,7 +135,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse rules &#40;respittid&#41;](media/singlePmtTolRules(GracePeriod).gif "singlePmtTolRules(GracePeriod)")  
+![Regler for én betalingstoleranse 2](media/singlePmtTolRules(GracePeriod).gif "Regler for én betalingstoleranse 2")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -146,7 +146,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse &#40;før 01&#47;20&#41;](media/singlePmtTolRules(Post0120).gif "singlePmtTolRules(Post0120)")  
+![Regler for én betalingstoleranse 3](media/singlePmtTolRules(Post0120).gif "Regler for én betalingstoleranse 3")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -207,7 +207,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser &#40;før 03&#47;15&#41;](media/multiplePmtTolRules(Pre1503).gif "multiplePmtTolRules(Pre1503)")  
+![Regler for flere betalingstoleranser 1](media/multiplePmtTolRules(Pre1503).gif "Regler for flere betalingstoleranser 1")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -218,7 +218,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser &#40;respittid&#41;](media/multiplePmtTolRules(GracePeriodInv1).gif "multiplePmtTolRules(GracePeriodInv1)")  
+![Regler for flere betalingstoleranser 2](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstoleranser 2")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -229,7 +229,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser &#40;respittid&#41;](media/multiplePmtTolRules(GracePeriodInv1-2).gif "multiplePmtTolRules(GracePeriodInv1-2)")  
+![Regler for flere betalingstoleranser 3](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstoleranser 3")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -240,7 +240,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser &#40;respittid&#41;](media/multiplePmtTolRules(GracePeriodInv2).gif "multiplePmtTolRules(GracePeriodInv2)")  
+![Regler for flere betalingstoleranser 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regler for flere betalingstoleranser 4")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -251,7 +251,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser &#40;etter 01&#47;22&#41;](media/multiplePmtTolRules(Post0122).gif "multiplePmtTolRules(Post0122)")  
+![Regler for flere betalingstoleranser 5](media/multiplePmtTolRules(Post0122).gif "Regler for flere betalingstoleranser 5")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 

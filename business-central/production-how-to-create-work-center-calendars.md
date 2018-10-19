@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a22dc01284fc0edca46d1f733f0bef83e61adbde
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
@@ -27,7 +27,7 @@ Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurs
 I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner når du definerer produksjonsressurskalendere.  
 
 ## <a name="to-create-work-shifts"></a>Slik oppretter du arbeidsskift  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere arbeidsskiftet, for eksempel **1**.  
 3.  Beskriv arbeidsskiftet i **Beskrivelse**-feltet, for eksempel **1. skift**.  
 4.  Fyll eventuelt ut linjer for et andre eller tredje arbeidsskift.  
@@ -35,7 +35,7 @@ I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner nå
 Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én arbeidsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonskalendere**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
 4.  Velg **Virkedager**-handlingen.
@@ -70,7 +70,7 @@ Produksjonskalenderen kan nå tilordnes til et arbeidssenter for å beregne prod
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Slik beregner du en arbeidssenterkalender  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidssentre**, og velg deretter den relaterte koblingen.
 2. Åpne arbeidssenteret som du vil oppdatere.  
 3. I feltet **Produksjonskalenderkode** velger du hvilken produksjonskalender som skal brukes som grunnlag for en arbeidssenterkalender.  
 4. Velg handlingen **Kalender**.  

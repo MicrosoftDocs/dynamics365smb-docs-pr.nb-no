@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 08/15/2017
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b3626db626e3c07498ad2a45733acf205d0ec906
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 440a6bdb3203ba1f4a9eddec3a9a88a47ce7917f
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
@@ -40,7 +40,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene i to
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner i vinduet **Tilgjengelighet per hendelse**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Hendelse**-handlingen.
 
@@ -50,7 +50,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder i vinduet **Varetilgjengelighet per periode**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Periode**-handlingen.
 
@@ -60,7 +60,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder i vind
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, i vinduet **Varetilgjengelighet per lokasjon**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Lokasjon**-handlingen.
 
@@ -71,7 +71,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner i vinduet **Varer per lokasjon**.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Varer per lokasjon**.
 
     Vinduet **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.

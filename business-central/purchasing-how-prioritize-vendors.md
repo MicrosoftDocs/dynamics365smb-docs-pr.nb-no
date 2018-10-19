@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
-ms.date: 03/29/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f7834f0f99b775125425eb7209c3c648de4ccd1f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cb3556c9bd8fb893448d61c4e8f18131b96a9841
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/22/2018
 Først må du prioritere leverandørene ved å tilordne numre til dem.
 
 ## <a name="to-prioritize-vendors"></a>Slik prioriterer du leverandører
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Velg den aktuelle leverandøren, og velg deretter **Rediger**.
 3. Angi et tall i feltet **Prioritet**.
 

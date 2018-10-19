@@ -1,8 +1,5 @@
 > [!IMPORTANT]
-> **Kunngjøre produktmerknadene for Dynamics 365 april 18**
 >
-> Er du spent på kommende og nylig utgitte funksjoner i våre bedriftsprogrammer eller -plattform?
+> Er du spent på kommende og nylig utgitte funksjoner i Dynamics 365 Business Central?
 >
-> [Laste ned produktmerknadene for april 18](https://go.microsoft.com/fwlink/?linkid=870424). Vi har registrert alle detaljene, ende til ende, øverst til nederst, i én PDF-fil som du kan bruke i planleggingen.  
->
-> **Kommer snart**: Vi fortsetter å oppdatere PDF-en med utgivelsesmerknader etter hvert som funksjoner lanseres, og vi gjør dem også tilgjengelige på en nettside. 
+> [Se siste versjon av produktmerknadene](https://docs.microsoft.com/en-us/business-applications-release-notes/october18/dynamics365-business-central/). Vi har registrert alle detaljene, og du finner også produktmerknadene som en enkelt PDF-fil som du kan bruke for planleggingen.  

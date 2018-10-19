@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 1d4eb3af333bee7c00539c85072b7aa1a74eb441
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
@@ -34,7 +34,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 | Skrive ut et kontoskjema for å analysere tall på finanskonti eller sammenligne faktiske finansposter med finansbudsjettposter. |Kontoskjema |
 | Kontrollere om kunde- og leverandørposter balanserer med tilhørende finansposter. |Avstem kunde- og levrd.konti |
 
-Hvis du vil vise en rapport, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
+Hvis du vil se en rapport, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), skriver inn navnet slik det vises i tabellen, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  

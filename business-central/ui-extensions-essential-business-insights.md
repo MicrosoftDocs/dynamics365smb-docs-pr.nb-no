@@ -9,17 +9,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 02/27/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ddbce1bd10f8eb635e8749b0e1743402a17ca69e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0879d8ff0fbca3b18c36412e0a5fbe2f39372f2a
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
-# <a name="the-essential-business-insights-extension-for-business-central"></a>Utvidelsen Viktig forretningsinnsikt for Business Central
+# <a name="the-essential-business-insights-extension"></a>Utvidelsen Viktig forretningsinnsikt
 UtvidelsenViktig forretningsinnsikt finner interessante forretningsfakta i selskapsdataene og viser dem som avisliknende overskrifter i rollesentre. Avhengig av hva utvidelsen finner i dataene, er innsikten fra forrige uke, forrige måned eller tre måneder fra dagens dato. Innsikten oppdateres hvert 10. minutt  
 
 Hvis du vil se nærmere på en oversikt, kan du velge den for å gå til kilden. Hvis du for eksempel vil ha mer informasjon om den største salgsfakturaen som ble bokført forrige uke, kan du velge at denne innsikten for å vise fakturaen.
@@ -39,3 +39,4 @@ Tabellen nedenfor beskriver innsiktene som denne utvidelsen leverer for hver rol
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)
+

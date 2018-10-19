@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d9e299ff00dae0d07a1f1b924bdef798655357d0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
@@ -33,7 +33,7 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 > 2.  Fortsett med prosessen i så mange plasseringer som du ønsker, til du har slettet de linjene du vil arbeide med i forslaget. Velg deretter på **Plasseringsforslag** og fortsett med planleggingen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Slik planlegger du instruksjoner i plasseringsforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plasseringsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plasseringsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Hent lagerdokumenter**. **Plasseringsutvalg**-vinduet åpnes.  
 
     Du ser alle de bokførte mottakene og registrerte plasseringene som er videresendt til plasseringsfunksjonen, inkludert de som det allerede er opprettet plasseringsinstruksjoner for. Dokumenter med plasseringslinjer som er fullstendig plassert og registrert, blir ikke vist i denne oversikten.  

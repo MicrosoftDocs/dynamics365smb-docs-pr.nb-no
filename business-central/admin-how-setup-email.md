@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e9dcc286b460460abb3f5d960b6c065651cf31f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
@@ -27,7 +27,7 @@ ms.lasthandoff: 03/22/2018
 Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den **E-postoppsett** assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurere e-post
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Oppsett for SMTP-e-post**, og angi deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan også velge handlingen **Bruk Office 365-serverinnstillinger** for å sette inn informasjon som allerede er definert for Office 365-abonnementet.
 4. Når alle feltene er fylt ut riktig, velger du **Test e-postoppsett**.

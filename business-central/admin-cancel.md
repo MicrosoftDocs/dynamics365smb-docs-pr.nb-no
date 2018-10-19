@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/17/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: dc7e739bc2b8ac9e8efce3a0f52acb945352416e
-ms.openlocfilehash: a10f32808eb89509cfeff365d420dd6e2b866d83
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 473b2fb8f20b30ce49265e6891a99291b663f6a8
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -32,13 +32,13 @@ Brukerkontoer og lisenser behandles i [Office-portalen](https://portal.office.co
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Lukke gratis prøveversjon på [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen til enhver tid. Vi anbefaler at du eksporterer dataene før du lukker kontoen.  
 
-Hvis du vil lukke kontoen, må du kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-avbruddsteamet ved å sende en e-post til cancelbusinesscentra@microsoft.com. Du må ta med navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du vil lukke kontoen, må du for øyeblikket kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Stoppe abonnementet fra [!INCLUDE[d365fin](includes/d365fin_md.md)] uten Office 365
-Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet oppheve abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-avbruddsteamet ved å sende en e-post til cancelbusinesscentra@microsoft.com. Du må ta med navnet på din [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen
-Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] og du vil starte på nytt med en ny opplevelse, kan du opprette et nytt firma og deretter tilbakestille det første firmaet. Hvis du åpner **Selskaper**-siden, kan du opprette en kopi av gjeldende firma, logge av og deretter logge på det nye firmaet, og deretter tilbakestille det opprinnelige firmaet.  
+Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] og du vil starte på nytt med en ny opplevelse, kan du opprette et nytt firma og deretter tilbakestille det første firmaet. Hvis du åpner **Selskaper**-vinduet, kan du opprette en kopi av gjeldende firma, logge av og deretter logge på det nye firmaet, og deretter tilbakestille det opprinnelige firmaet.  
 > [!NOTE]  
 >   Når du tilbakestiller et firma som du deler med andre personer fra din organisasjon, må du passe på at andre ikke er logget på når du tilbakestiller firmaet.  
 

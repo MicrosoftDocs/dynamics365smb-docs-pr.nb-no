@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 015a5ff634e179dff4b51d6387a59f78ae666bc7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere sending og mottak av elektroniske dokumenter
@@ -83,7 +83,7 @@ Dette emnet inneholder følgende fremgangsmåter:
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Internasjonal standardkode**|Angi enhetskode som uttrykt i henhold til UNECERec20, som er standard i forbindelse med sending av elektroniske dokumenter.<br /><br /> Når du for eksempel sender elektroniske fakturaer i PEPPOL-formatet, brukes verdien i dette feltet til å fylle ut **unitCode**-attributtet for **InvoicedQuantity**-elementet under **InvoiceLine**-noden. **Obs!**  Hvis feltet **Enhet** på salgslinjen er tomt, blir standardverdien for UNECERe20 for "Del" \(H87\) satt inn som standard. Hvis du vil ha mer informasjon og en liste over gyldige enhetskoder, kan du se [Anbefaling Nr. 20 \- enheter som brukes i internasjonal handel](http://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
+    |**Internasjonal standardkode**|Angi enhetskode som uttrykt i henhold til UNECERec20, som er standard i forbindelse med sending av elektroniske dokumenter.<br /><br /> Når du for eksempel sender elektroniske fakturaer i PEPPOL-formatet, brukes verdien i dette feltet til å fylle ut **unitCode**-attributtet for **InvoicedQuantity**-elementet under **InvoiceLine**-noden. **Obs!**  Hvis feltet **Enhet** på salgslinjen er tomt, blir standardverdien for UNECERe20 for "Del" \(H87\) satt inn som standard. Hvis du vil ha mer informasjon og en liste over gyldige enhetskoder, kan du se [Anbefaling Nr. 20 \- enheter som brukes i internasjonal handel](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
 ### <a name="to-set-up-customers-for-electronic-document-sending"></a>Slik konfigurerer du kunder for sending og mottak av elektroniske dokumenter  
 1. Skriv inn **Kunder** i **Søk**-boksen, og velg deretter den relaterte koblingen.  

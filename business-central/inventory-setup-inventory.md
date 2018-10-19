@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/12/2018
+ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 62eee7532e457721430cb31519b5acb23e95bfcb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-inventory"></a>Definere lager
@@ -31,7 +31,8 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 | Definer det generelle lageroppsettet, for eksempel nummerserier og hvordan du bruker lokasjoner. |[Definere generell informasjon om lagerbeholdning](inventory-how-setup-general.md) |
 |Konfigurer en effektiv distribusjonsmodell med en kombinasjon av ulike lokasjoner og ansvarssentre tilordnet til forretningspartnere eller ansatte.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 | Organiser beholdningen på flere lokasjoner, inkludert overføringsruter. |[Definer lokasjoner](inventory-how-register-new-items.md) |
-| Opprett varekort for lagervarer som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+| Opprett varekort for lagervarer, ikke-lagervarer eller servicevarer som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+|Lær hvordan du fyller ut feltet **Type** på varekortene i henhold til selskapsformålet.|[Om varetyper](inventory-about-item-types.md)| 
 |Definer flere enheter for en vare som kan brukes som alternative enheter, for eksempel for salgs-, kjøps- eller produksjonstransaksjoner.|[Definere vareenheter](inventory-how-setup-units-of-measure.md)|
 |Som et supplement til varekort kan du registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.|[Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tilordne varer til kategorier, og gi dem attributter for å hjelpe deg og kunder med å finne varer. |[Kategorisere varer](inventory-how-categorize-items.md) |

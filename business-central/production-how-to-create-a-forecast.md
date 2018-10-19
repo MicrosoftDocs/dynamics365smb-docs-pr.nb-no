@@ -1,6 +1,6 @@
 ---
-title: Opprette en produksjonsprognose | Microsoft-dokumentasjon
-description: Du kan opprette salgs- og produksjonsprognoser i **Produksjonsprognose**-vinduet.
+title: Opprette en behovsprognose | Microsoft-dokumentasjon
+description: Du kan opprette salgs- og produksjonsprognoser i **Behovsprognose**-vinduet.
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce71f1a0bd744cfdf62bb71f59829ec09155af32
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d0f4d314a33c86d169d6e2dae0b859b879702e5d
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="create-a-production-forecast"></a>Opprette en produksjonsprognose
-Du kan opprette salgs- og produksjonsprognoser i **Produksjonsprognose**-vinduet.  
+# <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
+Du kan opprette salgs- og produksjonsprognoser i **Behovsprognose**-vinduet.  
 
 Prognosefunksjonalitet brukes til å opprette forventet behov. Faktisk behov opprettes basert på ordrer og produksjonsordrer. Under oppretting av MPS (Master Production Schedule) nettoberegnes prognosen mot salgs- og produksjonsordrer. *Komponenten*-alternativet på prognosen bestemmer hvilken kravtype som skal tas i betraktning i nettoavregningsprosessen. Hvis prognosen er for en salgsvare, nettoberegnes prognosen bare mot ordrer. Hvis det er for komponenter, nettoberegnes prognosen bare mot produksjonsordrekomponenter.  
 
@@ -34,7 +34,7 @@ Prognosefunksjonaliteten i programmet kan brukes til å opprette salgs- eller pr
 
 I de fleste tilfeller endrer produksjonsplanleggeren salgsprognosen slik at den passer til produksjonsbetingelsene, men fortsatt oppfyller salgsprognosen.  
 
-Du oppretter prognoser manuelt i vinduet **Produksjonsprognose**. Det kan finnes flere prognoser i systemet, og de skilles med navn og type. Du kan kopiere og redigere prognoser etter behov. Merk at bare én prognose er gyldig for planleggingsformål om gangen.  
+Du oppretter prognoser manuelt i vinduet **Behovsprognose**. Det kan finnes flere prognoser i systemet, og de skilles med navn og type. Du kan kopiere og redigere prognoser etter behov. Merk at bare én prognose er gyldig for planleggingsformål om gangen.  
 
 Prognosen består av poster med varenummer, prognosedato og prognoseantall. Prognosen for en vare dekker en periode, som defineres av prognosedatoen og prognosedatoen til den neste (senere) prognoseposten. Fra en planleggingssynsvinkel må prognoseantallet være tilgjengelig ved begynnelsen av behovsperioden.  
 
@@ -49,16 +49,16 @@ Siden komponentprognosen er utformet for å definere valgfrie enheter for en ove
  Prognoseperioden er gyldig fra sin egen startdato frem til startdatoen for den neste prognosen. I tidsintervallvinduet kan du velge mellom flere alternativer for å sette inn behovet på en bestemt dato i en periode. Det anbefales derfor at du ikke endrer prognoseperiodeomfanget med mindre du vil flytte alle prognoseposter til startdatoen i denne perioden.  
 
 ## <a name="forecast-by-locations"></a>Prognose etter lokasjoner  
-Det kan angi i produksjonsoppsettet om. Merk imidlertid at hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
+Det kan angis i produksjonsoppsettet om du vil filtrere prognose i henhold til lokasjon når du beregner en plan. Merk imidlertid at hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
 
-## <a name="to-create-a-production-forecast"></a>Slik oppretter du en produksjonsprognose
+## <a name="to-create-a-demand-forecast"></a>Slik oppretter du en behovsprognose:
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Produksjonsprognose**, og velg deretter den relaterte koblingen.  
-2.  På hurtigfanen **Generelt** velger du en prognose i feltet **Navn på prod.prognose**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
+2.  Velg en prognose i feltet **Navn på behovsprognose** på hurtigfanen **Generelt**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
 3.  I **Lokasjonsfilter**-feltet velger du lokasjonen som denne prognosen skal brukes på.  
-4.  Velg **Salgsvare**, **Komponent** eller **Begge** i **Prognosetype**-feltet. Hvis du velger **Salgsvare** eller **Komponent**, kan du redigere antallet etter periode. Hvis du velger **Begge**, kan du ikke redigere antallet, men du kan velge rullegardinpilen og vise postene for produksjonsprognose.  
+4.  Velg **Salgsvare**, **Komponent** eller **Begge** i **Prognosetype**-feltet. Hvis du velger **Salgsvare** eller **Komponent**, kan du redigere antallet etter periode. Hvis du velger **Begge**, kan du ikke redigere antallet, men du kan velge rullegardinpilen og vise postene for behovsprognosen.  
 5.  Angi et **Datofilter** hvis du vil begrense mengden data som vises.  
-6.  På hurtigfanen **Matrise for produksjonsprognose** angir du de prognostiserte antallene for **Salgsvare**- eller **Komponent**-prognose for de ulike periodene.  
+6.  På hurtigfanen **Matrise for behovsprognose** angir du de prognostiserte antallene for **Salgsvare**- eller **Komponent**-prognose for de ulike periodene.  
 7.  På hurtigfanen **Matrisealternativer** angir du tidsintervallet i **Vis etter**-feltet for å endre perioden som vises i hver kolonne. Du kan velge mellom følgende intervaller: **Dag**, **Uke**, **Måned**, **Kvartal**, **År** eller **Regnskapsperiode**, som definert i Økonomistyring.  
 
     > [!NOTE]  
@@ -67,7 +67,7 @@ Det kan angi i produksjonsoppsettet om. Merk imidlertid at hvis du viser lokasjo
 8.  I **Vis som**-feltet velger du hvordan de prognostiserte antallene skal vises for tidsintervallet. Hvis du velger **Bevegelse**, vises nettoendringen i saldo for tidsintervallet. Hvis du velger **Saldo per dato**, viser vinduet saldoen per den siste dagen i tidsintervallet.  
 
 > [!NOTE]  
->  Du kan også redigere en eksisterende prognose. Velg **Kopier produksjonsprognose** i vinduet **Matrise for produksjonsprognose**, og fyll ut **Produksjonsprognose**-vinduet med en eksisterende prognose. Deretter kan du redigere antall etter behov.  
+>  Du kan også redigere en eksisterende prognose. Velg **Kopier behovsprognose** i vinduet **Matrise for behovsprognose**, og fyll ut **Behovsprognose**-vinduet med en eksisterende prognose. Deretter kan du redigere antall etter behov.  
 
 ## <a name="see-also"></a>Se også  
 [Definere produksjon](production-configure-production-processes.md)  

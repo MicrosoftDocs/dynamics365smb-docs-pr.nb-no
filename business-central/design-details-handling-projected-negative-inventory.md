@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 19d7e142ebe10926b2caa6da2ddf6faae486bebd
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 25a2017fd91f09a9d7725c68ffaa0df48a041294
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-handling-projected-negative-inventory"></a>Designdetaljer: Håndtere forventet negativ lagerbeholdning
@@ -28,28 +28,20 @@ Gjenbestillingspunktet uttrykker forventet behov i løpet av leveringstiden for 
 
  I illustrasjonen nedenfor representerer forsyning D en kritisk bestilling for å justere for negativt lager.  
 
- ![](media/nav_app_supply_planning_2_negative_inventory.png "NAV_APP_supply_planning_2_negative_inventory")  
+ ![Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning](media/nav_app_supply_planning_2_negative_inventory.png "Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning")  
 
 1.  Forsyning **A**, opprinnelig beregnet beholdning, er under gjenbestillingspunktet.  
-
 2.  Det opprettes en ny foroverplanlagt forsyning (**C**).  
 
      (Antall = Maks. beholdning – Forventet beholdningsnivå)  
-
 3.  Forsyning **A** lukkes av behov **B**, som ikke er helt dekket.  
 
      (Behov **B** kan prøve å planlegge forsyning C i, men det vil ikke skje i henhold til tidsperiodekonseptet.)  
-
 4.  Ny forsyning (**D**) blir opprettet for å dekke det gjenværende antallsbehovet **B**.  
-
 5.  Behovet **B** er lukket (opprette en påminnelse til beregnet beholdning).  
-
 6.  Den nye forsyningen **D** lukkes.  
-
 7.  Beregnet beholdning er kontrollert. Gjenbestillingspunktet er ikke overskredet.  
-
 8.  Forsyning **C** lukkes (det finnes ikke mer behov).  
-
 9. Sluttkontroll: Det finnes ingen utestående påminnelser for beholdningsnivå.  
 
 > [!NOTE]  

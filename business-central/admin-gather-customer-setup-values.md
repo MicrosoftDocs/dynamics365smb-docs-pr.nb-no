@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a1333567069d24bc5eff48d668dca8b480b85914
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
@@ -47,9 +47,9 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 -   Lagerstyringsoppsett  
 
 > [!NOTE]  
->  Hvis du vil vise en fullstendig liste over oppsettstabeller, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Oppsett** og velger deretter den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
+>  Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett** og velger deretter den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonsspørreskjema**, og velg den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Vinduet **Konfig.spørreskjema** åpnes.  
 3. Velg handlingen **Spørsmålsområder**. Vinduet **Spørsmålsområder** åpnes.  
 4. Velg handlingen **Ny**. Vinduet **Konfig. spørsmålsområde** åpnes.  
@@ -72,7 +72,7 @@ Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detal
 >  Du kan også opprette ditt eget konfigurasjonsspørreskjema slik du vil ha det.  
 
 1. Åpne selskapet du vil fullføre spørreskjemaet for.
-2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
 3. Velg spørreskjemaet for selskapet, og velg deretter handlingen **Eksporter til Excel**, eventuelt **Eksporter til XML**.
 4. Få kunden til å fullføre konfigurasjonsspørreskjemaet ved å skrive inn svarene i Excel-arbeidsboken. Det finnes forslag for hvert spørsmålsområde som er opprettet for spørreskjemaet.   
 5. Velg handlingen **importer fra Excel**, og velg deretter XLSX-filen med kundens svar.  
@@ -105,7 +105,7 @@ Når du har fullført valideringen, er dataene klar til å bli brukt i databasen
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Bruke svar fra konfigurasjonsspørreskjemaet
 Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Vinduet **Konfig.spørreskjema** åpnes.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Vinduet **Konfig.spørreskjema** åpnes.  
 2. Velg et konfigurasjonsspørreskjema fra listen, og velg deretter handlingen **Rediger oversikt**.  
 3. Du kan bruke svar på én av to måter.  
 
@@ -113,7 +113,7 @@ Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema
 - Hvis du vil bruke svarene for bare et bestemt **spørsmålsområde**, velger du handlingen **Spørsmålsområder**, velger et **spørsmålsområde** i listen, og deretter velger handlingen **Bruk svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:  
-1. Kontroller oppsettsvinduer for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil finne vinduet, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir navnet på oppsettvinduet og velger deretter den relaterte koblingen.  
+1. Kontroller oppsettsvinduer for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne vinduet ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir navnet på oppsettsvinduet og velger deretter den relaterte koblingen.  
 2. Kontroller at feltene er fylt ut med de riktige dataene fra de ulike spørsmålsområdene i konfigurasjonsspørreskjemaet.  
 
 Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.

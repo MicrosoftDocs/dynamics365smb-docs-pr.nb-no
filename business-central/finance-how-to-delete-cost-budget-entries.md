@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: acd8e0f25a3909ceab3dd63e04509ab48a300bb6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Slett kostbudsjettposter
@@ -26,7 +26,7 @@ Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over 
 
 ### <a name="to-delete-a-cost-budget-entry"></a>Slik sletter du en kostbudsjettpost:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slett kostbudsjettposter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett kostbudsjettposter**, og velg deretter den relaterte koblingen.  
 
     Feltet **Til registreringsnr.** inneholder det siste journalpostnummeret og kan ikke endres.  
 

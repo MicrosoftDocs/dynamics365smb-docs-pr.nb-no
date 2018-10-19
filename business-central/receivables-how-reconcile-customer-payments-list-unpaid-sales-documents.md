@@ -1,7 +1,6 @@
 ---
 title: Utligne betalinger mot ubetalte salgsdokumenter | Microsoft-dokumentasjon
 description: "Du utligner beløp betalt av kunder mot relaterte salgsdokumenter og bokfører betalingen for å oppdatere kunde-, finans- og bankposter."
-documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,35 +8,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: cd2496fef564004cabebc4c3010c0d3164fd28dc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6207e13540e2eed5f7707c551c2772aed33c5540
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger manuelt fra en liste over ubetalte salgsdokumenter
-Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank.
+Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
 
 > [!NOTE]  
 >   Du kan utføre de samme oppgavene, inkludert leverandørbetalinger, i vinduet **Betalingsavstemmingskladd** ved hjelp av funksjoner for import av bankkontoutdrag, automatisk utligning og bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
-Vinduet **Betalingsregistrering** er utformet for å støtte deg i oppgaver som omfatter å balansere interne konti ved hjelp av de faktiske kontanttallene for å sikre effektiv innkreving av betalinger fra kunder. Med dette betalingsbehandlingsverktøyet kan du raskt kontrollere og bokføre enkelt- eller engangsbetalinger, behandle rabatterte betalinger og søke etter bestemte ubetalte dokumenter som blir betalt.
+Vinduet **Registrer kundebetalinger** er utformet for å støtte deg i oppgaver som omfatter å balansere interne konti ved hjelp av de faktiske kontanttallene for å sikre effektiv innkreving av betalinger fra kunder. Med dette betalingsbehandlingsverktøyet kan du raskt kontrollere og bokføre enkelt- eller engangsbetalinger, behandle rabatterte betalinger og søke etter bestemte ubetalte dokumenter som blir betalt.
 
 Betalinger for ulike kunder som har ulike betalingsdatoer, må bokføres som individuelle betalinger. Betalinger for den samme kunden, som har samme betalingsdato, kan bokføres som en engangsbetaling. Dette er nyttig, for eksempel når en kunde har foretatt en enkeltbetaling som dekker flere salgsfakturaer.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Slik definerer du betalingsregistreringsjournalen:
-Fordi du kan bokføre forskjellige betalingstyper til forskjellige motkonti, må du velge en motkonto i vinduet **Betalingsregistreringsoppsett** før du starter behandlingen av kundebetalinger. Hvis du alltid bokfører til den samme motkontoen, kan du angi denne kontoen som standard og unngå dette trinnet hver gang du åpner vinduet **Betalingsregistrering**.  
+Fordi du kan bokføre forskjellige betalingstyper til forskjellige motkonti, må du velge en motkonto i vinduet **Betalingsregistreringsoppsett** før du starter behandlingen av kundebetalinger. Hvis du alltid bokfører til den samme motkontoen, kan du angi denne kontoen som standard og unngå dette trinnet hver gang du åpner vinduet **Registrer kundebetalinger**.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistreringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistreringsoppsett**, og velg deretter den relaterte koblingen.
 
-    Du kan også gå til vinduet **Betalingsregistrering** og velge handlingen **Oppsett**.    
+    Du kan også gå til vinduet **Registrer kundebetalinger** og velge handlingen **Oppsett**.    
 2. Fyll ut feltene i vinduet **Betalingsregistreringsoppsett**. Velg et felt som skal inneholde en kort beskrivelse av feltet eller kobling til relatert informasjon.  
 
-## <a name="to-reconcile-payments-individually"></a>Avstemme betalinger enkeltvis
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+## <a name="to-register-customer-payments-individually"></a>Slik registrerer du kundenes betalinger individuelt:
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Registrer kundebetalinger**, og velg deretter den relaterte koblingen.  
+ 
+    Siden **Registrer kundebetalinger** viser alle bokførte dokumenter som en betaling kan registreres for. Samme side er også tilgjengelig fra **Kunder**-listen og kundekortet der det automatisk er filtrert for den angitte kunden.  
 2. Merk av for **Betaling utført** på linjen som representerer det bokførte dokumentet som en betaling er utført for.
 
     Hvis det er merket av for **Fyll ut mottaksdato automatisk** i vinduet **Betalingsregistreringsoppsett**, angis arbeidsdatoen i feltet **Mottatt den**.  
@@ -53,7 +55,7 @@ Betalingsinformasjonen bokføres for dokumenter som vises som linjer der det er 
 Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes på det relaterte bokførte salgsdokumentet.  
 
 ## <a name="to-reconcile-lump-payments"></a>Avstemme engangsbetalinger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
 2. Merk av for **Betaling utført** på linjene som representerer bokførte dokumenter for den samme kunden som en engangsbetaling er utført for.  
 
     > [!NOTE]  
@@ -88,7 +90,7 @@ De følgende fremgangsmåtene beskriver fire forskjellige måter for bokføring 
 * Betalingsbeløpet er større enn det gjenstående rabattbeløpet. Du bokfører betalingene som de er. Bare det gjenstående beløpet bokføres. Tilleggsbeløpet krediteres til kunden.  
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Slik behandler du et betalingsbeløp som er det samme som rabattbeløpet, og der betalingsdatoen er før rabattdatoen:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 2. Angi betalingsbeløpet i feltet **Beløp mottatt**. Beløpet er det samme som beløpet i feltet **Restbeløp etter rabatt**.
 
     Det merkes automatisk av for **Betaling utført**, og **Mottatt den** fylles ut med arbeidsdatoen.    
@@ -97,7 +99,7 @@ De følgende fremgangsmåtene beskriver fire forskjellige måter for bokføring 
 5. Velg handlingen **Bokfør betalinger** for å bokføre full betaling til finans-, bank- og kundekonti.
 
 ### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Slik behandler du et betalingsbeløp som er det samme som rabattbeløpet, men der betalingsdatoen er etter rabattdatoen:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 2. Angi betalingsbeløpet i feltet **Beløp mottatt**. Beløpet er det samme som beløpet i feltet **Restbeløp etter rabatt**.
 
     Det merkes automatisk av for **Betaling utført**, og **Mottatt den** fylles ut med arbeidsdatoen.
@@ -115,7 +117,7 @@ De følgende fremgangsmåtene beskriver fire forskjellige måter for bokføring 
 Det tilknyttede dokumentet forblir åpent.
 
 ### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Slik behandler du en betaling som er lavere enn det gjenstående rabattbeløpet:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 2. Angi betalingsbeløpet i feltet **Beløp mottatt**. Beløpet er lavere enn beløpet i feltet **Restbeløp etter rabatt**.
 
     Det merkes automatisk av for **Betaling utført**, og **Mottatt den** fylles ut med arbeidsdatoen.  
@@ -126,7 +128,7 @@ Det tilknyttede dokumentet forblir åpent.
 Det tilknyttede dokumentet forblir åpent.
 
 ### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Slik behandler du en betaling som er større enn det gjenstående rabattbeløpet:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 2. Angi betalingsbeløpet i feltet **Beløp mottatt**. Beløpet er større enn beløpet i feltet **Restbeløp etter rabatt**.  
 
     Det merkes automatisk av for **Betaling utført**, og **Mottatt den** fylles ut med arbeidsdatoen.    
@@ -148,7 +150,7 @@ I vinduet **Dokumentsøk** kan du søke blant dokumenter som ikke er fullstendig
 
 Fremgangsmåten nedenfor forklarer hvordan du søker etter et bestemt dokument ved å bruke begge søkevilkårene.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
 2. Med pekeren på en av linjene, velger du handlingen **Søk i dokumenter**.
 3. I vinduet **Dokumentsøk** skriver du inn en søkeverdi i feltet **Bilagsnr.**.  
 
@@ -169,14 +171,13 @@ Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d3
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Slik registrerer eller bokfører du en betaling uten et relatert dokument:
 Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladdlinje fra vinduet **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er klarlagt.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 
-Fortsett med å registrere en udokumentert betaling.  
-
-1. Velg handlingen **Finanskladd**.  
+    Fortsett med å registrere en udokumentert betaling.  
+2. Velg handlingen **Finanskladd**.  
 
     Vinduet **Finanskladd** åpnes med én linje som er forhåndsutfylt med motkontoen for kladden som er definert i vinduet **Betalingsregistreringsoppsett**.  
-2. Fyll ut resten av feltene på finanskladdelinjen, for eksempel beløpet og kundenummeret eller annen informasjon fra bankkontoutdraget. Hvis du vil ha mer informasjon, kan du se [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md).  
+3. Fyll ut resten av feltene på finanskladdelinjen, for eksempel beløpet og kundenummeret eller annen informasjon fra bankkontoutdraget. Hvis du vil ha mer informasjon, kan du se [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md).  
 
 Du kan bokføre kladdelinjen for å oppdatere totalsummen på motkontoen. Du kan eventuelt la kladdelinjen være upostert, og kanskje tilføye den med en merknad om at betalingen trenger mer analyse.  
 

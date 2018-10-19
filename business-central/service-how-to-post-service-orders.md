@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 01c30041e9034b87b39d80972865b180dd4a97d2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokføre serviceordrer og kreditnotaer
@@ -28,7 +28,7 @@ Hvis du har en stort antall serviceordrer, kan du spare tid ved å bruke en kjø
 > Før du bokfører et servicedokument, er det lurt å bruke handlingen **Kontrollrapport** for å søke etter alle feil eller manglende opplysninger. Hvis det oppstår feil, må du løse problemet. Du kan skrive ut en ny kontrollrapport for å kontrollere løsningen og deretter bokføre dokumentet.
   
 ## <a name="to-post-a-service-order"></a>Slik bokfører du en serviceordre    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. I vinduet **Serviceordre** velger du én av handlingene nedenfor.  
   
@@ -53,7 +53,7 @@ Du kan bokføre forbruk bare hvis linjen inneholder et antall som er levert men 
 Når du bokfører ordren, opprettes tilhørende poster og bokførte dokumenter. De relevante feltene oppdateres i serviceordredokumentet.  
 
 ## <a name="to-batch-post-service-orders"></a>Slik massebokfører du serviceordrer
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Massebokfør**.  
 3.  Du kan angi et filter for å velge bestemte serviceordrenumre eller en rekke med ordrenumre som kjørselen skal behandle.  
 4.  Velg **OK** når du vil starte den satsvise jobben.  
@@ -61,7 +61,7 @@ Når du bokfører ordren, opprettes tilhørende poster og bokførte dokumenter. 
 ## <a name="to-post-a-service-credit-memo"></a>Slik bokfører du en servicekreditnota  
 Når du har opprettet en servicekreditnota og fylt den ut, kan du bokføre kreditnotaen. Hvis det er feil eller manglende opplysninger i kreditnotaen under bokføringen, avbrytes behandlingen med en feilmelding.  
    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicekreditnotaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekreditnotaer**, og velg deretter den relaterte koblingen.  
 2. Opprett en servicekreditnota. I fanebladet **Hjem** under **Ny** velger du **Ny**.  
 3. Fyll ut de nødvendige feltene.  
 4. I fanebladet **Handlinger**, under **Bokføring** velger du **Bokfør**. Hvis du vil skrive ut kreditnotaen samtidig som du bokfører, velger du i stedet **Bokfør og skriv ut**.  
@@ -74,7 +74,7 @@ Når du har opprettet en servicekreditnota og fylt den ut, kan du bokføre kredi
 ## <a name="to-post-consumption-from-a-service-order"></a>Slik bokfører du forbruk fra en serviceordre  
 Fremgangsmåten nedenfor beskriver hvordan du bokfører varer, ressurstimer og/eller kost som er brukt i en bestemt serviceoperasjon som kunden ikke skal betale for. Merk at du bare kan bokføre forbrukt(e) varer, timer eller kost for en bokført følgesedler som ikke har fakturaer eller forbruk bokført.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne serviceordren du vil bokføre forbruk for.  
 3. Velg servicevaren. Velg **Handlinger**, **Ordre** og deretter **Servicelinjer**.  
 4. Finn de nødvendige postene, og angi antallene som du vil bokføre forbruk av i feltet **Antall til forbruk**. Antallet kan ikke være større enn allerede levert antall og gjenstående antall som ikke er fakturert etter delfakturering av leveringen.  
@@ -91,7 +91,7 @@ Når du har angitt detaljene for en service, kan du justere og bokføre antall b
   
 Følgende fremgangsmåte viser hvordan du bokfører levering av servicelinjevarer på lokasjoner som ikke er definert slik at lagerhåndtering kreves.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceordre**, og velg deretter den relaterte koblingen. 2. I vinduet for den valgte serviceordren velger du **Handlinger**, **Ordre**, **Servicelinjer**.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordre**, og velg deretter den relaterte koblingen. 2. I vinduet for den valgte serviceordren velger du **Handlinger**, **Ordre**, **Servicelinjer**.  
 3. Finn de nødvendige postene i **Servicelinjer**-vinduet, og angi antallet som skal bokføres, i feltet **Levere (antall)**.  
   
    > [!NOTE]  
@@ -108,7 +108,7 @@ Hvis du vil ha informasjon om hvordan du leverer servicelinjevarer i avansert la
 ## <a name="to-undo-posted-consumption"></a>Slik angrer du bokført forbruk  
 Du kan annullere forbruket i serviceordrene. For eksempel fordi det er bokført ved en feil.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokførte servicefølgesedler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte servicefølgesedler**, og velg deretter den relaterte koblingen.  
 2. Åpne den bokførte servicefølgeseddelen som det feilaktige forbruket er bokført for.  
 3. Velg **Handlinger**, **Levering** og **Servicefølgeseddellinjer**.  
 4. Velg linjene som inneholder det feilaktige forbruket, og velg deretter handlingen **Angre forbruk**.  
@@ -126,7 +126,7 @@ Hvis du må arbeide med en serviceordre i lengre tid uten å bokføre den, kan d
   
 Fremgangsmåten nedenfor beskriver leveringsbokføring direkte fra en serviceordre på lokasjoner uten oppsett av lagerhåndtering. Hvis lokasjonen er definert slik at lagerhåndtering kreves, skjer leveringsbokføringen i et annet lagerdokument, avhengig av lokasjonsoppsettet.
   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne serviceordren, og velg deretter handlingen **Servicelinjer**.  
 4. På linjene som skal bokføres, fyller du ut feltene **Levere (antall)**, **Fakturer (antall)** og/eller **Antall til forbruk**, avhengig av hvordan du vil bokføre linjene.  
 5. Velg handlingen **Bokfør**.

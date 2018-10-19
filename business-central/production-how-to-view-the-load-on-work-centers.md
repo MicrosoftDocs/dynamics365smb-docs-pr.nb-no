@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e2256067a3a7abf253276b61a26b075c04bf8e70
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dd1bfde6dcffffa65ab58591d891a9f8b179a7eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastning på arbeidssentre og produksjonsressurser
 I vinduet **Arbeidssenterkort** og **Maskinsenterkort** kan du vise produksjonsbelastningen som et resultat av planlagte og frigitte produksjonsordrer.    
 
 ## <a name="to-view-the-load-on-work-centers"></a>Slik viser du belastningen i arbeidssentre:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidssentre**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle **Arbeidssenter**-kortet fra listen, og velg handlingen **Belastning**.  
 
 Bruk feltene **Vis etter** og **Vis som** på hurtigfanen **Alternativer** til å velge periode.  

@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 046a42582dc66368fded90a4bb45add71a95d979
-ms.openlocfilehash: 6351f2b8a79afa201192addc4960bda6d59448eb
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6c8c3f39d782a33896e531c4bfdf95b589458f99
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/02/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="sales"></a>Salg
@@ -36,8 +36,9 @@ Du kan inkludere en godkjenningsarbeidsflyt for alle salgsprosesser, for eksempe
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
+|Opprett et kundekort for hver kunde du selger til.|[Registrere nye kunder](sales-how-register-new-customers.md)|
 | Opprett et tilbud der du tilbyr produkter på betingelser det kan forhandles om, før du konverterer tilbudet til en salgsfaktura. |[Gi salgstilbud](sales-how-make-offers.md) |
 | Opprett en salgsfaktura for å registrere avtalen med en kunde om å selge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandle en ordre som involverer delvis levering eller direkte levering. |[Selge produkter](sales-how-sell-products.md) |
@@ -61,5 +62,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

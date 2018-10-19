@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cc2c7d5ecbff5d7cd0109c56e3c76ca137564d30
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
@@ -30,7 +30,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
 
 ## <a name="to-open-the-configuration-worksheet"></a>Åpne konfigurasjonsforslaget  
 1.  Åpne selskapet som er grunnlaget for konfigurasjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)], og åpne deretter rollesenteret for RapidStart Services-implementerer.  
-2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Legge til en tabell i forslaget  
 1.  I vinduet **Konfigurer forslag** velger du **Rediger oversikt**-handlingen.  

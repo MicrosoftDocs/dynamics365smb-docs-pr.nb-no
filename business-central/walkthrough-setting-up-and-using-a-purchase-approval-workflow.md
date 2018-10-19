@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 825e901b4126dc1ba317527862eb459559ecb538
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f930a9a2e303c0dcc0a3604cc43b919690d6f96f
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
@@ -58,7 +58,7 @@ Du må opprette en ny bruker på den lokale datamaskinen og i [!INCLUDE[d365fin]
 7.  Lukk vinduet **Lokale brukere og grupper**.  
 
 ### <a name="to-add-alicia-as-a-user-in-included365finincludesd365finmdmd"></a>Slik legger du til Charlotte som en bruker i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.  
 2.  I **Windows-brukere**-vinduet i **Hjem**-fanen velger du **Ny** i **Ny**-gruppen.  
 3.  I vinduet **Brukerkort** i **Brukernavn**-feltet angir du Charlotte.  
 4.  Klikk AssistEdit-knappen i **Windows-brukernavn**-feltet.  
@@ -72,7 +72,7 @@ Du må opprette en ny bruker på den lokale datamaskinen og i [!INCLUDE[d365fin]
 Ved hjelp av Windows-brukeren som du nettopp opprettet, definerer du Charlotte som en godkjenningsbruker med deg selv som godkjenner. Sett opp godkjenningsrettigheter og angi hvordan og når du blir varslet om forespørsler om godkjenning.  
 
 ### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Slik definerer du deg selv og Charlotte som godkjenningsbrukere  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny** under **Ny** i fanebladet **Hjem** i vinduet **Brukeroppsett for godkjenning**.  
 
     > [!NOTE]  
@@ -103,7 +103,7 @@ Angi hvordan og når du blir varslet om forespørsler om godkjenning.
  Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra arbeidsflytmalen for arbeidsflyt for bestillingsgodkjenning. La de eksisterende trinnene i arbeidsflyten forblir uendret, og aktiver deretter arbeidsflyten.  
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Slik oppretter og aktiverer du en arbeidsflyt for bestillingsgodkjenning:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2.  Velg **Opprett arbeidsflyt fra mal** under **Generelt** på fanebladet **Handlinger** i vinduet **Arbeidsflyter**.  
 3.  Velg **Opprett arbeidsflyt fra mal** under **Generelt** på fanebladet **Handlinger**. Vinduet **Arbeidsflytmaler** åpnes.  
 4.  Velg arbeidsflytmalen kalt Arbeidsflyt for bestillingsgodkjenning, og velg deretter **OK**.  
@@ -115,7 +115,7 @@ Angi hvordan og når du blir varslet om forespørsler om godkjenning.
 Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler.  
 
 ### <a name="to-start-the-notify-job-queue"></a>Slik starter du jobbkøen VARSLE:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Jobbkøer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobbkøer**, og velg deretter den relaterte koblingen.  
 2.  I vinduet **Jobbkøer** velger du linjen for jobbkøen VARSLE, og deretter velger du **Start jobbkø** under **Prosess** på fanebladet **Hjem**.  
 
 ## <a name="using-the-approval-workflow"></a>Bruke arbeidsflyten for godkjenning  
@@ -133,7 +133,7 @@ For å logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som forskjellige br
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Slik ber du om godkjenning av en bestilling som Charlotte:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg linjen for åpen bestilling 104001, og velg deretter **Rediger** under **Behandle** i fanebladet **Hjem**.  
 3.  I vinduet **Bestilling** på fanebladet **Handlinger** under **Godkjenning** velger du **Send godkjenningsforespørsel**.  
 

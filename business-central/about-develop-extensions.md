@@ -1,7 +1,6 @@
 ---
 title: Tilpasse Dynamics 365 Business Central | Microsoft-dokumentasjon
 description: Bygg, vis og frem appen og utvidelsene dine for Business Central.
-services: project-madeira
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 04/12/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 69f660f8a19bd1fd9cb39a79d5be7977e68d3a47
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fc926afbf0c1442bb610531b28507fbb2c1b1cf4
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="extending-included365finlongincludesd365finlongmdmd"></a>Utvide [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -38,7 +37,7 @@ Ta med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tjenestene til Micr
 **Individuelle apper** – der du tar med bransjekunnskapen din til markedet.  
 **Pakkede konsulenttjenester** – der du tar med ferdigpakkede engasjementer til markedet.
 
-Med de nye utviklingsverktøyene kan du bygge utvidelser for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-brukere. Hvis du vil gjøre deg kjent med de nye verktøyene eller lære om utvidelser 2.0, kan du ta en titt her: [aka.ms/GetStartedWithApps](http://aka.ms/GetStartedWithApps).  
+Med de nye utviklingsverktøyene kan du bygge utvidelser for [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-brukere. Hvis du vil gjøre deg kjent med de nye verktøyene eller lære om utvidelser 2.0, kan du ta en titt her: [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
 Finn opplysninger om apper og konsulenttjenester som er tilgjengelige i [Microsoft AppSource ](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
 
@@ -71,9 +70,9 @@ Hvis du vil lære mer om Microsoft-AppSource-konsulenttjenestetilbudene, velger 
 ## <a name="the-ready-to-go-program"></a>Ready to Go-programmet
 Ready to Go-programmet er laget for å støtte deg når du skal ta med Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilbudene dine til Microsoft Appsource. Programmet inneholder: 
 
-- [Elektronisk opplæring](http://aka.ms/ReadyToGoOnlineLearning)
-- [Opplæring og arbeidsgrupper](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go#the-ready-to-go-coaching)
-- [Microsoft Collaborate-plattformen](http://aka.ms/Collaborate)
+- [Elektronisk opplæring](https://aka.ms/ReadyToGoOnlineLearning)
+- [Opplæring og arbeidsgrupper](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
+- [Microsoft Collaborate-plattformen](https://aka.ms/Collaborate)
 
 Lær mer om hvordan du kan lage et [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-tilbud i [Ready to Go-program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)-detaljene. Hvis du har spørsmål eller tilbakemelding om **Ready to Go**-programtilbudet, kan du [kontakte oss](mailto:dyn365bep@microsoft.com). 
 

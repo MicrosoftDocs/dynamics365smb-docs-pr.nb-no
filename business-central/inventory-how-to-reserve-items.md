@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/14/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3f99d23f2e4a43aeb1face2f39dd6384ff672214
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="reserve-items"></a>Reservere varer
@@ -26,7 +26,7 @@ Hver linje i **Reservasjon**-vinduet, som du åpner for å reservere varer, vise
 
 ## <a name="to-reserve-items-for-sales"></a>Slik reserverer du varer for salg
 Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fremgangsmåten er lignende for kjøps- service- og monteringsordrer.  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  I en ordre, i hurtigfanen **Linjer** velger du **Reserver**-handlingen. **Reservasjon**-vinduet åpnes.  
 3. Velg linjen som inneholder varene du vil reservere.  
 4. Velg en av de følgende handlingene.  
@@ -44,7 +44,7 @@ Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fre
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
 I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Fast planlagte prod.ordre**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagt prod.ordre**, og velg deretter den relaterte koblingen.  
 2. Åpne den fast planlagte produksjonsordren du vil reservere overordnede varer for.  
 3. Velg den aktuelle produksjonsordrelinjen.  
 4. I hurtigfanen **Linjer**, velg **Reserver**.
@@ -56,7 +56,7 @@ Antallet du angav på den fast planlagte produksjonsordrelinjen, er nå reserver
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
 I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Fast planlagte prod.ordre**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagt prod.ordre**, og velg deretter den relaterte koblingen.  
 2. Åpne den fast planlagte produksjonsordren du vil reservere komponentvarer for.  
 3. Velg den aktuelle produksjonsordrelinjen.  
 4. På hurtigfanen **Linjer** velger du **Linje**, og deretter **Komponenter**.  
@@ -86,7 +86,7 @@ Fra utgående dokumenter for varesporede varer, for eksempel ordrer eller produk
 Dette kalles en spesifikk reservasjon, fordi du reserverer fra antallet av varen X som tilhører partiet X. Hvis du bare reserverer fra antall av varen X, er dette en normal, ikke-spesifikk reservasjon. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md).
 
 Følgende fremgangsmåte er basert på en ordre.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ordrelinje for en varesporet vare.  
 3. Tilordne serie- eller partinumre til ordrelinjen. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 4. Velg handlingen **Reserver** på ordrelinjen.  

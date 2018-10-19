@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/06/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b9e701f102f1a2fc7ccbd4882dfec37f65cfe3b7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
@@ -28,15 +28,15 @@ Fremgangsmåtene nedenfor forutsetter at du har initialisert og åpnet det nye s
 
 ## <a name="to-import-a-configuration-package"></a>Slik importerer du en konfigurasjonspakke:  
 1. Åpne det nye selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
-2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**.  
 4. Naviger til plasseringen hvor du har lagret pakkefilen for .rapidstart-konfigurasjonen, og velg deretter **Åpne**.  
-5. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen. Skriv inn informasjon om firmaet på kortet med selskapsopplysninger. Ta med informasjon, for eksempel bankinformasjon. Du kan også angi en logo for selskapet.  
+5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen. Skriv inn informasjon om firmaet på kortet med selskapsopplysninger. Ta med informasjon, for eksempel bankinformasjon. Du kan også angi en logo for selskapet.  
 
 Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres. På dette tidspunktet kan du bruke pakkedataene i databasen eller justere og endre tabelldataene for å oppfylle kundespesifikasjonene.  
 
 ## <a name="to-apply-package-data"></a>Slik bruker du pakkedata:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg en tabell du vil endre data for, og velg deretter handlingen **Bruk data**. Velg **Ja**-knappen for å bekrefte.
 3. For å bekrefte at dataene nå er i databasen og at programmet er fullført går du tilbake til vinduet **Konfigurer forslag**, og velg handlingen **Databasedata**.  
 
@@ -44,7 +44,7 @@ Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres.
 >  Når du bruker data, kan du bare se dem i databasen. De er ikke lenger i pakken.  
 
 ## <a name="to-modify-and-apply-package-data"></a>Endre og bruke pakkedata  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg en tabell du vil endre data for, og velg deretter handlingen **Pakkedata**.  
 3. Utfør endringene i vinduet **Konfigurer pakkeposter**. Du kan for eksempel slette alternativer som ikke gjelder.  
 4. Velg **Bruk data**-handlingen, og velg deretter **OK**-knappen.  
@@ -53,7 +53,7 @@ Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres.
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Slik finner og identifiserer du en konfigurasjonsfeil:  
 Det finnes visse typer feil som kan oppstå når du bruker dataene på en database. Den vanligste feilen er at nødvendige relaterte tabeller ikke ble inkludert. Du løser slike feil i konfigurasjonsforslaget.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg pakken du vil se gjennom, og velg deretter den **Rediger**-handlingen.  
 
     Enhver tabell som inneholder feil, er uthevet. Antall pakkefeil vises i feltet **Antall pakkefeil**.  
@@ -62,7 +62,7 @@ Det finnes visse typer feil som kan oppstå når du bruker dataene på en databa
 
 ### <a name="to-fix-an-error"></a>Slik retter du en feil:  
 1. Åpne selskapet som er basert på konfigurasjonspakkenå.  
-2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 3. Rett feil, for eksempel å legge til manglende relaterte tabeller i forslaget.  
 4. Legg til tabellene i den eksisterende konfigurasjonspakken, eller opprett en ny pakke som bare inneholder de nye tabellene. Hvis du vil ha mer informasjon, kan du se [Klargjøre en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md).  
 5. Åpne det nye selskapet som du implementerer konfigurasjonen for.  

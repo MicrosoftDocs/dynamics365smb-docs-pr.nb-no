@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3c1f7a6d08ac03da0d89bad464784b71249c36a2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4eddb7fb118f7e410448cebf4497857532f936db
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i avansert lageroppsett
@@ -55,7 +55,7 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 -   Installere CRONUS Norge AS.  
 -   Slik gjør du deg til lageransatt på lokasjonen KR.SAND ved å følge disse trinnene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg **Standard**- feltet.  
@@ -68,7 +68,7 @@ Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.
 
 ### <a name="to-review-the-location-setup"></a>Slik går du gjennom lokasjonsoppsettet  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet KR.SANd.  
 3.  På hurtigfanen **Lager** legger du merke til at det er merket av for **Lagerstyring**.  
 
@@ -83,7 +83,7 @@ Bestillinger er den vanligste typen inngående kildedokument.
 
 ### <a name="to-create-the-purchase-orders"></a>Slik oppretter du bestillinger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett en bestilling for leverandør 10000 på arbeidsdatoen (23. januar) med følgende bestillingslinjer.  
 
@@ -114,7 +114,7 @@ Bestillinger er den vanligste typen inngående kildedokument.
 I vinduet **Lagermottak** kan du håndtere flere inngående ordrer for kildedokumenter, for eksempel en bestilling.  
 
 ### <a name="to-receive-the-items"></a>Slik mottar du varer  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg handlingen **Bruk filtre til å hente k.dok...**.  
@@ -132,7 +132,7 @@ I vinduet **Lagermottak** kan du håndtere flere inngående ordrer for kildedoku
 I **Plassering**-vinduet kan du håndtere plasseringer for et bestemt lagermottaksdokumentet som dekker flere kildedokumenter. Som for alle lageraktivitetsdokumenter er hvert element på lagerplasseringen er representert ved en Hent-linje og en Plasser-linje. I den følgende fremgangsmåten er hyllekoden på Hent-linjene den standard mottakshyllen på lokasjonen KR.SAND, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Slik plasserer du varene  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lagerplasseringer**, og velg deretter den relaterte koblingen.  
 2.  Velg det eneste lagerplasseringsdokumentet i listen, og deretter i fanebladet **Hjem**, i gruppen **Behandle**, velger du **Rediger**.  
 
     Lagerplasseringsdokumentet åpnes med totalt åtte Hent- eller Plasser-linjer for de fire bestillingslinjene.

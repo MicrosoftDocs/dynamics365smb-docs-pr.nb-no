@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 3cfc53c1ea3c8d30f65b2d475a8dab052519e81e
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Klargjøre for å flytte kundedata
@@ -44,7 +44,7 @@ Når du velger en eksisterende datamal, må du vurdere om malene som du opprette
 > [!TIP]  
 >  Du kan også bruke datamaler til raskt å opprette nye poster. Bruk dem til å opprette data raskere og mer nøyaktig. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. I vinduet **Konfigurer malliste** velger du en datamal fra oversikten, og velger deretter **Rediger**-handlingen.  
 
 Hvis standardmalene ikke oppfyller dine behov, kan du opprette nye maler eller legge til felt i en eksisterende mal. Hvis standardmalene er tilstrekkelige, kan du bruke dem til å opprette poster basert på maler for hoveddata.
@@ -75,7 +75,7 @@ Hver mal består av et hode og linjer. Når du oppretter en mal, kan du angi hvi
 ## <a name="to-export-to-a-template-in-excel"></a>Slik eksporterer du til en mal i Excel:
 Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Legg til en tabell i listen, eller velg en eksisterende tabell. Hvis du vil ha mer informasjon, se [Behandle selskapskonfigurasjon i et forslag](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Definer feltene fra tabellen som du vil inkludere i malen.
 4. Velg **Eksporter til mal**-handlingen.
@@ -100,11 +100,11 @@ Du kan bruke strukturen i data som datamalene inneholder, til å enkeltvis konve
 
 Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du kan opprette en post fra en hvilken som helst datamal ved å bruke den samme fremgangsmåten.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se delene Slik oppretter du en datamal.
 3. Velg handlingen **Opprett forekomst**. Et varekort opprettes.  
-4. Velg **OK**-knappen.  
-5. Hvis du vil se gjennom det nye varekortet, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Varer**, og velger deretter den relaterte koblingen.  
+4. Velg **OK**.  
+5. For å se gjennom det nye varekortet velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer** og velger deretter den relaterte koblingen.  
 6. Åpne det nye varekortet.  
 7. Utvid ulike hurtigfaner, og kontroller at informasjonen er opprettet på riktig måte på dem.  
 

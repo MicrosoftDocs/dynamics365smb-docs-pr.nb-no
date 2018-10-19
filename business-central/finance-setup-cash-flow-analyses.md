@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9424a8ba632cf43628ad37dce963e3f1641e593d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 24ca91f224a198ec462081ced06ddfe0e9db6cf4
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
@@ -30,7 +30,7 @@ Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan d
 Dette emnet beskriver hvor dataene i diagrammene kommer fra, og om nødvendig, hva du skal gjøre for å begynne å bruke diagrammene.  
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagrammene Kontaktsyklus og Inntekter og utgifter
-Diagrammene **Kontantsyklus** og **Inntekter og utgifter** er klare til å starte, basert på kontoplanene og kontoskjemaene. Kontoene er hvor dataene kommer fra, og kontoskjemaene beregner forholdet mellom salg og tilgodehavender. Enkelte kontoer og kontoskjemaer tilbys. Du kan bruke dem som de er, endre dem, og legge til nye. Hvis du legger til finanskonti i kontoplanen, for eksempel ved å importere dem fra QuickBooks, må du tilordne til kontoene på siden **Kontoskjemaer** for følgende kontoskjemanavn:  
+Diagrammene **Kontantsyklus** og **Inntekter og utgifter** er klare til å starte, basert på kontoplanene og kontoskjemaene. Kontoene er hvor dataene kommer fra, og kontoskjemaene beregner forholdet mellom salg og tilgodehavender. Enkelte kontoer og kontoskjemaer tilbys. Du kan bruke dem som de er, endre dem, og legge til nye. Hvis du legger til finanskonti i kontoplanen, for eksempel ved å importere dem fra QuickBooks, må du tilordne til kontoene i vinduet **Kontoskjemaer** for følgende kontoskjemanavn:  
 
 | Kontoskjemanavn | Hvor det brukes |
 | --- | --- |
@@ -67,14 +67,14 @@ Slik bruker du den assisterte oppsettsveiledningen:
 
 1. I rollesenter for regnskapsfører, under diagrammet **Kontantstrømprognose**, velger du handlingen **Åpne assistert oppsett**.  
 2. Fyll ut feltene i hvert trinn av veiledningen.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
 4. I **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 Slik bruker du en manuell prosess:  
 
 1. Søk etter **Kontantstrømoppsett** i rollesenter for regnskapsfører, og velg deretter den relaterte koblingen.  
 2. Utvid den **Cortana Intelligence** hurtigfanen, og velg deretter den **Cortana Intelligence aktivert** merket.  
-3. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
 4. I **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 > [!TIP]  
@@ -88,7 +88,7 @@ Du kan også opprette dine egne forutsett webtjenesten basert på en felles mode
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
 7. Vis hurtigfanen **Cortana Intelligence**, og fyll deretter ut feltene.  
 
 ## <a name="see-also"></a>Se også

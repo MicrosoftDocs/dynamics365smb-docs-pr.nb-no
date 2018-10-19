@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: dbf3a53272a6da5c7e2adbb43557159b6f266f52
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
@@ -55,14 +55,14 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 -   Installere CRONUS Norge AS.  
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
     2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
     3.  Skriv inn SØLV i feltet **Lokasjonskode**.  
     4.  Velg **Standard**- feltet.  
 
 -   Gjør elementet LS-81 tilgjengelig på SØLV-plasseringen ved å følge disse trinnene:  
 
-    1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varekladder**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen.  
     2.  Åpne standardkladden, og opprett deretter to varekladdelinjer med følgende informasjon om arbeidsdatoen (23. januar).  
 
         |Posttype|Varenummer|Lokasjonskode|Hyllekode|Antall|  
@@ -79,7 +79,7 @@ Ellen, lagersjefen i CRONUS, setter opp SØLV-lageret for grunnleggende plukkhå
 Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.  
 
 ### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet SØLV.  
 3.  Merk av for **Plukk nødv.**.  
 
@@ -87,7 +87,7 @@ Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.
 Salgsordrer er den vanligste typen av utgående kildedokumenter.  
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett en ordre for kunde 10000 på arbeidsdatoen (23. januar) med følgende ordrelinje.  
 
@@ -105,7 +105,7 @@ Salgsordrer er den vanligste typen av utgående kildedokumenter.
 I vinduet **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et bestemt kildedokument, for eksempel en ordre.  
 
 ### <a name="to-pick-and-ship-items"></a>Slik plukker og leverer du varer:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Velg feltet **Kildedokument**, og velg deretter **Ordre**.  
 4.  Velg feltet **Kildenr.**, velg linjen for salg til kunde 10000, og velg deretter **OK**-knappen.  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2419755f5788eb7cb8ed464ac97fccd7e63e795c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e167935f1bb4815093a1a9bd345da8213219ca08
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="setting-up-manufacturing"></a>Definere produksjon
@@ -30,7 +30,7 @@ Når du har definert produksjonen, kan du planlegge og kjøre produksjonsordrer.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Konfigurere produksjonsfunksjoner, for eksempel definere produksjonsarbeidstimer og velge planleggingsprinsipper.|Siden **Produksjonsoppsett**.|  
+|Konfigurere produksjonsfunksjoner, for eksempel definere produksjonsarbeidstimer og velge planleggingsprinsipper.|Vinduet **Produksjonsoppsett**.|  
 |Definere en standard arbeidsuke i produksjonsavdelingen basert på start- og sluttidspunkt for hver virkedag samt relatert skiftarbeid.|[Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md)|  
 |Organiser faste verdier og krav for produksjonsressurser som arbeidssentre eller produksjonsressurser for å styre produksjonsavgangen eller produksjonen som utføre.|[Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md)|
 |Organiser produksjonsoperasjoner i nødvendig rekkefølge, og tilordne dem til arbeids- eller produksjonsressurser med nødvendige arbeidstidene.|[Opprette ruter](production-how-to-create-routings.md)|

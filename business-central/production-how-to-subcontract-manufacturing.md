@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/16/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 9c62f99c4baddedaaff6629c573d898f0fbd7f1a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 60628167a50977d7486c86d9730378f8d2527786
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
@@ -52,7 +52,7 @@ Vinduet **Underleveranseforslag** fungerer som **Planleggingsforslag** ved å be
 >  Du kan bare få tilgang til og bruke produksjonsordrer med statusen **Frigitt** fra et underleveranseforslag.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Slik beregner du underleveranseforslaget  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
 2.  Hvis du vil beregne forslaget, velger du handlingen **Beregn underleveranser**.  
 3.  I vinduet **Beregn underleveranser** angir du filtre for underleveranseoperasjonene, eller arbeidssentrene der de utføres, for å beregne bare de relevante produksjonsordrene.  
 4.  Velg **OK**-knappen.  
@@ -60,7 +60,7 @@ Vinduet **Underleveranseforslag** fungerer som **Planleggingsforslag** ved å be
     Gå gjennom linjene i vinduet **Underleveranseforslag**. Informasjonen i dette forslaget kommer fra produksjonsordren og produksjonsordrerutelinjene og sendes til bestillingen når bestillingsdokumentet opprettes. Som i de andre forslagene, kan du slette en rad fra dette forslaget uten at det påvirker den opprinnelige informasjonen. Informasjonen vises igjen neste gang du kjører funksjonen **Beregn underleveranser**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Slik oppretter du underleverandørbestillingen  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
 2.  I fanebladet **Handlinger**, under **Prosess** velger du **Utfør handlingsmelding**.  
 3.  Velg feltet **Skriv ut bestillinger** hvis du vil skrive ut bestillingen når den opprettes.  
 4.  Velg **OK**.  
@@ -80,7 +80,7 @@ Det bokføres automatisk en ferdigmeldingskladdelinjepost for produksjonsordren 
 >  For å unngå at den forventede avgangen for en produksjonsordre bokføres når kjøp fra underleverandører mottas, må du passe på at underleveranseoperasjonen ikke er den siste. Du kan også sette inn en ny siste operasjon for endelig avgangsantall.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Slik bokfører du en underleverandørbestilling  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Åpne en bestilling som er opprettet fra underleveranseforslaget.  
 
     På bestillingslinjene ser du den samme informasjonen som far i forslaget. Feltene **Prod.ordrenr.**, **Prod.ordrelinjenr.**, **Operasjonsnr.**, og **Arbeidssenternr.** er fylt med informasjon fra kildeproduksjonsordren.  

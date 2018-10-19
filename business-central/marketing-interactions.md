@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: dd1651c6df11f99c010c1a9725b2cb5069b929e8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Håndtere samhandlinger med kontakter
@@ -30,7 +30,9 @@ Området for relasjonshåndtering lar deg registrere alle samhandlingene med kon
 
 ##  <a name="setting-up-interaction-templates"></a>Definere samhandlingsmaler
 Før du kan opprette og registrere samhandlinger, må du definere samhandlingsmaler. Når du oppretter samhandlinger, må du angi hvilke samhandlingsmaler de baserer seg på. En samhandlingsmal en modell som definerer de grunnleggende egenskapene for en samhandling.
-Du kan definere en samhandlingsmal i vinduet **Samhandlingsmaler**.  
+Du kan definere en samhandlingsmal i vinduet **Samhandlingsmaler**.
+
+Etter at du har oppgitt opplysninger om samhandlingsmalen, kan du opprette et vedlegg, for eksempel et Microsoft Word-dokument. Gjenta trinnene hvis du vil definere flere samhandlingsmaler.  
 
 ## <a name="creating-interactions"></a>Opprette samhandlinger
 Du kan registrere samhandlinger på to ulike måter:
@@ -50,7 +52,7 @@ I dette vinduet kan du gjøre følgende:
 * Vise statusen til samhandlinger.
 * Merke samhandlinger som annullert.
 
-Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Slett annullerte samhandlingsposter**, velger den relaterte koblingen og fyller deretter inn opplysningene.
+Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Slett annullerte samhandlingsposter**, velger den relaterte koblingen og fyller ut informasjonen.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

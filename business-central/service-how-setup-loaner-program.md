@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/31/2017
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 37d592516807f23d301e78742557e922f41cfb1c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 197a5805d55546bbbff1cffc9a12d7cc91017fcd
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
@@ -26,7 +26,7 @@ Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen
 * Angi en merknad på en servicevare om behovet for et utlånsobjekt.  
 
 ## <a name="to-set-up-a-loaner"></a>Slik definerer du utlånsobjekter  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Utlånsobjekter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utlånsprodukter**, og velg deretter den relaterte koblingen.  
 2. Opprett et nytt kort for utlånsobjekt. 
 3. I feltet **Nr.** -feltet angir du et nummer på utlånsobjektet. Hvis du har definert en nummerserie for utlånsobjekter i vinduet **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige utlånsobjektnummeret.  
 4. Fyll ut feltene **Beskrivelse**, **Beskrivelse 2** og **Serienr**.  

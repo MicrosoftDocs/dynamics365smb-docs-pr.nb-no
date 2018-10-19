@@ -8,13 +8,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/057/2018
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 26729b9ced13d6727437db91d464d7a42907b0a1
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: bb055a2520af17d5b1b9aa2239ade210016bd2ac
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -28,7 +28,7 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 | --- | --- |
 | Endre grunnleggende innstillinger, for eksempel firma, arbeidsdato eller rollesenter. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
 | Finn en spesifikk side eller rapport. |[Bruke Søk etter side eller rapport](ui-search.md) |
-| Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Angi vilkår i filtre](ui-enter-criteria-filters.md) |
+| Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md) |
 | Finne ut mer om hvordan du sorterer data. |[Datasortering](ui-sorting.md) |
 | Vise eller prosessen data i et bestemt tidsrom. |[Sette inn datointervaller](ui-enter-date-ranges.md) |
 | Se hvilke felt som må fylles ut. |[Registrere obligatoriske felt](ui-mandatory-fields.md) |
@@ -43,11 +43,15 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 |Lære om funksjoner som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
 |Se videoer om den valgte funksjonaliteten for å komme i gang.|[Videoer om vanlige oppgaver](across-videos.md)|  
 
+## <a name="getting-around-in-business-central"></a>Navigere i Business Central
+Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
+
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 [Definere Business Central](setup.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

@@ -9,13 +9,13 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/12/2017
+ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: b87f5bfb499c3dac622f33aa16ba9d1a4fc6104d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: cead1a86d50b0fc0e3b2998d748b8edf4a76b735
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter før bokføring
@@ -25,7 +25,7 @@ Når du er klar til å bokføre et dokument, for eksempel en ordre, faktura elle
 >   Følgende fremgangsmåte gjelder testing før du bokfører et kjøpsdokument. Funksjonen fungerer på samme måte for salgsdokumenter.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Slik skriver du ut kontrollrapporter før bokføring av kjøpsfakturaer.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne kjøpsfakturaen du vil kontrollere.
 3. Velg handlingen **Kontrollrapport**.  
 

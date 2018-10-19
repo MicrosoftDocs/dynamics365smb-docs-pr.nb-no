@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting year, fiscal period
-ms.date: 07/17/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 028bb6554f84fc4e8d1343070121f8b0143329ce
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9424b2dfe3a61ace4f02897f0240cc6e4f78070e
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="open-a-new-fiscal-year-and-create-accounting-periods"></a>Åpne et nytt regnskapsår og opprette regnskapsperioder
@@ -23,7 +23,7 @@ Før du kan bokføre i et regnskapsår, må du åpne regnskapsåret og definere 
 I mange selskaper samsvarer regnskapsåret ikke med kalenderåret. Regnskapsperioder kan måles i andre tidsenheter, for eksempel måneder eller kvartaler. Du kan bruke vinduet **Opprett regnskapsår** til å definere regnskapsperioder som passer forretningsbehovene. Imidlertid   
 
 ## <a name="to-open-a-new-fiscal-year"></a>Slik åpner du et nytt regnskapsår
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. I vinduet **Regnskapsperioder** velger du handling **Opprett år**.
 3. Fyll ut feltene for å definere strukturen for regnskapsåret.
 

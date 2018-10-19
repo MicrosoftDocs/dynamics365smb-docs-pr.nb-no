@@ -1,6 +1,6 @@
 ---
 title: "Velge brukeropplevelsen for å vise eller skjule avanserte funksjoner | Microsoft-dokumentasjon"
-description: "Finn ut hva brukeropplevelsesnivåene Basic og Essential betyr for brukergrensesnittet, moduler og selskapet ditt."
+description: "Finn ut hva brukeropplevelsesnivåene Essential og Premium betyr for brukergrensesnittet, moduler og selskapet ditt."
 documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 07/31/2018
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d0ef9148b082b05a46283f89c3cb98bb1cd0c6d0
-ms.openlocfilehash: f8dd92a5a7398ddce64dd4fce0ce9323014a29a0
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
 ms.contentlocale: nb-no
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
@@ -31,8 +31,7 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 
 | Opplevelse | Innvirkning på brukergrensesnittet |
 | --- | --- |
-| **Grunnleggende** |Viser bare kjernehandlinger og felt i de vanligste forretningsfunksjonene, for eksempel salg, kjøp, lager og finans. |
-| **Viktig** |Viser alle handlinger og felt for alle vanlige forretningsfunksjoner.|
+| **Essential** |Viser alle handlinger og felt for alle vanlige forretningsfunksjoner.|
 | **Premium** |Viser alle handlingene og felt for alle forretningsfunksjonene, inkludert produksjons- og servicehåndtering.|
 
 > [!NOTE]  
@@ -50,15 +49,18 @@ Du kan deretter definere hvilke bestemte funksjoner og vinduer i opplevelsen dis
 Når du har endret brukerplaner i Office 365-administrasjonssenteret, for eksempel tilordnet flere brukere til Premium-planen, må du gjenspeile endringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Logg på som administrator.
-2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukere**, og velg deretter den relaterte koblingen.
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
 3. I **Brukere**-vinduet velger du **Oppdater alle brukergrupper**-handlingen.
 
 Alle nye opplysninger om brukernes planer og deres tilordnede brukergrupper oppdateres nå i henhold til planendringene.
 
 ### <a name="to-select-the-premium-experience"></a>Slik velger du Premium-opplevelsen
 Du kan nå fortsette med å velge den nye opplevelsen.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. I **Selskapsopplysninger**-vinduet i hurtigfanen **Brukeropplevelse** velger du Premium i **Opplevelse**-feltet.
+
+## <a name="help-assumes-premium-experience"></a>Hjelpen tar utgangspunkt i Premium-opplevelsen
+Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for funksjonsområdene Produksjon og Servicehåndtering, om at de krever **Premium**-opplevelsen.
 
 ## <a name="see-also"></a>Se også
 [Opprette nye seleskaper](about-new-company.md)  

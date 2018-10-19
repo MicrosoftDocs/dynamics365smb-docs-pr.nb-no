@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 12/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce3a69f82d68cd2ded4b1a5b036a32761d377199
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 39a44f4b608bca436adedb16c800c96a046d5644
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-document-lines"></a>Spore dokumentlinje
@@ -25,7 +25,7 @@ Du kan vise dokumenter som er relatert til ordrelinjer og bestillingslinjer, her
 ## <a name="to-track-documents-related-to-a-sales-order-line"></a>Spore dokumenter relatert til salgsordrelinjer
 Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremgangsmåten er lignende for kjøpsordrer og rammebestillingslinjer.
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne en ordre du vil spore fra.  
 3.  Merk en linje, og velg deretter **Sporing av dokumentlinje**-handlingen.
 4. I vinduet **Sporing av dokumentlinje** velger du dokumentet du vil vise, og deretter velger du **Vis**-handlingen for å vise den relaterte linjen.

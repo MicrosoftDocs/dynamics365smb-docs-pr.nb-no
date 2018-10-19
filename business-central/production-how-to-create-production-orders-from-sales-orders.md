@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/04/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 12d11661d740cd56bcd18cf7229887e08baf6dff
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36e7d2f3d43a966cd97fba3c92f3fd20b6b1c585
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Opprette produksjonsordrer fra ordrer
@@ -24,7 +24,7 @@ Du kan opprette produksjonsordrer for produserte varer direkte fra ordrer.
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Slik oppretter du en produksjonsordre fra en ordre  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg ordren du vil opprette en produksjonsordre for.  
 3.  Velg handlingen **Planlegging**. I **Ordreplanlegging**-vinduet kan du se tilgjengeligheten til ordrevaren.  
 4.  Velg handlingen **Opprett prod.ordre**.  

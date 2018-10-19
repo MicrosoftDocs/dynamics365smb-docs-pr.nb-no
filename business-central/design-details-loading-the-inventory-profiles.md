@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5b47a898b7e1d574abaf521e917f780fd105c4a8
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetaljer: Laste inn lagerprofiler
@@ -82,7 +82,7 @@ For å sortere ut de mange kildene til behov og forsyning organiserer planleggin
  Sikkerhetslager er et lagerantall som er lagt til side for å kompensere for usikkerheter i behovet i etterfyllingsleveringstiden. Dette kan imidlertid brukes hvis det er nødvendig å ta fra det å oppfylle et behov. I slike tilfeller sikrer planleggingssystemet at sikkerhetslageret raskt erstattes, ved å foreslå en forsyningsordre for å etterfylle sikkerhetslagerantallet på datoen den forbrukes. Denne planleggingslinjen viser et unntaksadvarselsikon som informerer planleggeren om at sikkerhetslageret er delvis eller helt forbrukt med en unntaksordre for det manglende antallet.  
 
 ## <a name="forecast-demand-is-reduced-by-sales-orders"></a>Prognosebehov blir redusert av ordrer  
- Produksjonsprognosen uttrykker forventet fremtidig behov. Når faktisk behov registreres, vanligvis som ordrer for produserte varer, forbruker det prognosen.  
+ Behovsprognosen uttrykker forventet fremtidig behov. Når faktisk behov registreres, vanligvis som ordrer for produserte varer, forbruker det prognosen.  
 
  Selve prognosen reduseres faktisk ikke av ordrer. Den forblir den samme. Prognoseantallet som brukes i planleggingsberegningen, blir imidlertid redusert (med salgsordreantall) før det gjenværende antallet, hvis det finnes, registreres i beholdningsprofilen for behov. Når planleggingssystemet undersøker faktisk salg i en periode, blir både åpne ordrer og vareposter fra leverte salg tatt med, med mindre de er avledet fra en rammeordre.  
 

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 698404dab1b3888d073eb3c23268d3b009a4f577
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
@@ -44,7 +44,7 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for plukking, med reservasjonsoverlapping](media/design_details_warehouse_management_availability_2.png "design_details_warehouse_management_availability_2")  
+ ![Disponibelt for plukking med reservasjonsoverlapping](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
 
 ## <a name="quantity-available-to-reserve"></a>Antall tilgjengelig for reservasjon  
  Siden konsepter for hylleinnhold og reservasjon sameksisterer, må antall varer som er tilgjengelige for reservasjon, justeres etter tildelinger til utgående lagerdokumenter.  
@@ -69,7 +69,7 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for reservering, per lagerlokasjon](media/design_details_warehouse_management_availability_3.png "design_details_warehouse_management_availability_3")  
+ ![Disponibelt for reservering per lagerlokasjon](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)

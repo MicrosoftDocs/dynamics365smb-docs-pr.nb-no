@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f01c57c3686764866c9d2a3c25d426e7f9a986a6
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 36062fc6fa40c3fc2b928ffad7e3b242634149fc
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-variance"></a>Designdetaljer: Avvik
@@ -40,7 +40,7 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 
  Tabellen nedenfor viser de resulterende verdipostene.  
 
- ![Beregning av kjøpsavvik](media/design_details_inventory_costing_11_purchase_variance.png "design_details_inventory_costing_11_purchase_variance")  
+ ![Beregning av kjøpsavvik](media/design_details_inventory_costing_11_purchase_variance.png "Beregning av kjøpsavvik")  
 
 ## <a name="determining-the-standard-cost"></a>Fastslå standardkost  
  Standardkosten brukes ved beregning av avvik og beløpet som skal kapitaliseres. Siden standardkosten kan endres over tid på grunn av manuell oppdatering av beregning, trenger du et tidspunkt der standardkost er fast for avviksberegning. Dette er tidspunktet når lagerøkningen faktureres. Punktet der standardkost fastslås når kostnaden justeres for varer som produseres eller monteres.  
@@ -50,16 +50,16 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 |Kostandel|Kjøpt vare|Produsert/montert vare|  
 |----------------|--------------------|------------------------------|  
 |**Kostpris (standard)**||Materialkostn. - enkeltnivå + Kapasitetskostn. - enkeltnivå + Underlevrd.kostn - enkeltnivå + Indir. kap.kostn - enkeltnivå + Indir. prod.kostn - enkeltnivå|  
-|**Materialkostn. - enkeltnivå**|Enhetskost|![Ligning 1](media/design_details_inventory_costing_11_equation_1.png "design_details_inventory_costing_11_equation_1")|  
-|**Kapasitetskostn. - enkeltnivå**|Ikke i bruk|![Ligning 2](media/design_details_inventory_costing_11_equation_2.png "design_details_inventory_costing_11_equation_2")|  
-|**Underlevrd.kostn - enkeltnivå**|Ikke i bruk|![Ligning 3](media/design_details_inventory_costing_11_equation_3.png "design_details_inventory_costing_11_equation_3")|  
-|**Indir. kap.kostn - enkeltnivå**|Ikke i bruk|![Ligning 4](media/design_details_inventory_costing_11_equation_4.png "design_details_inventory_costing_11_equation_4")|  
+|**Materialkostn. - enkeltnivå**|Enhetskost|![Ligning 1](media/design_details_inventory_costing_11_equation_1.png "Ligning 1")|  
+|**Kapasitetskostn. - enkeltnivå**|Ikke i bruk|![Ligning 2](media/design_details_inventory_costing_11_equation_2.png "Ligning 2")|  
+|**Underlevrd.kostn - enkeltnivå**|Ikke i bruk|![Ligning 3](media/design_details_inventory_costing_11_equation_3.png "Ligning 3")|  
+|**Indir. kap.kostn - enkeltnivå**|Ikke i bruk|![Ligning 4](media/design_details_inventory_costing_11_equation_4.png "Ligning 4")|  
 |**Indir. prod.kostn - enkeltnivå**|Ikke i bruk|(Materialkostn. - enkeltnivå + Kapasitetskostn. - enkeltnivå + Underlevrd.kostn - enkeltnivå) * Indirekte kostnad % / 100 + Sats for indirekte kostnader|  
-|**Opprullert materialkost**|Enhetskost|![Ligning 5](media/design_details_inventory_costing_11_equation_5.png "design_details_inventory_costing_11_equation_5")|  
-|**Opprullert kapasitetskost**|Ikke i bruk|![Ligning 6](media/design_details_inventory_costing_11_equation_6.png "design_details_inventory_costing_11_equation_6")|  
-|**Underlever.kostn. - opprullert**|Ikke i bruk|![Ligning 7](media/design_details_inventory_costing_11_equation_7.png "design_details_inventory_costing_11_equation_7")|  
-|**Opprullert indir. kap.kostn.**|Ikke i bruk|![Ligning 8](media/design_details_inventory_costing_11_equation_8.png "design_details_inventory_costing_11_equation_8")|  
-|**Opprullert indir. prod.kostn.**|Ikke i bruk|![Ligning 9](media/design_details_inventory_costing_11_equation_9.png "design_details_inventory_costing_11_equation_9")|  
+|**Opprullert materialkost**|Enhetskost|![Ligning 5](media/design_details_inventory_costing_11_equation_5.png "Ligning 5")|  
+|**Opprullert kapasitetskost**|Ikke i bruk|![Ligning 6](media/design_details_inventory_costing_11_equation_6.png "Ligning 6")|  
+|**Underlever.kostn. - opprullert**|Ikke i bruk|![Ligning 7](media/design_details_inventory_costing_11_equation_7.png "Ligning 7")|  
+|**Opprullert indir. kap.kostn.**|Ikke i bruk|![Ligning 8](media/design_details_inventory_costing_11_equation_8.png "Ligning 8")|  
+|**Opprullert indir. prod.kostn.**|Ikke i bruk|![Ligning 9](media/design_details_inventory_costing_11_equation_9.png "Ligning 9")|  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   

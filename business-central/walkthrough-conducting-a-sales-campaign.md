@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c9dbffe821389fd237823acd110dd7e0c1ed908f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
@@ -62,7 +62,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ### <a name="to-set-up-a-campaign"></a>Slik oppretter du en kampanje:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kampanjer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kampanjer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny** for å opprette en ny kampanje. Trykk Enter på kampanjekortet for å få et kampanjenummer til å settes inn automatisk.  
 3.  Skriv inn en beskrivelse for kampanjen i **Beskrivelse**-feltet, for eksempel **FUTURUS varemesse**.  
 4.  Velg **Statuskode**-feltet, og velg en statuskode fra listen som åpnes i **Kampanjestatus**-vinduet.  
@@ -148,11 +148,11 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 9. Vedleggene sendes. Når prosessen er ferdig, velger du **OK** i meldingen om at segmentet er loggført.  
 
-     Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. Hvis du vil se denne listen, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Loggførte segmenter** og velger deretter den relaterte koblingen.  
+     Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. For å vise listen, velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Loggførte segmenter**, og velg deretter den relaterte koblingen.  
 
 10. Når segmentet er loggført, registreres hvert sendte brev som en samhandling, som du kan se i loggen.  
 
-     Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Samhandlingsposter**, og velg deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
+     Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Samhandlingsposter**, og velg deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Sende en e-postmelding til en kontakt  
 
@@ -165,7 +165,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 7.  Merk av for **Opprett oppfølgingssegment**.  
 8.  Velg **OK**.  
 
-     Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil se denne listen, velger du ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angir **Loggførte segmenter** og velger deretter den relaterte koblingen.  
+     Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. For å vise listen, velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Loggførte segmenter**, og velg deretter den relaterte koblingen.  
 
 ## <a name="registering-campaign-responses"></a>Registrere kampanjerespons  
  De potensielle kundene svarer på brevet i løpet av de neste par ukene. Markedsføringssjefen ønsker å holde rede på disse svarene og registrerer dem.  

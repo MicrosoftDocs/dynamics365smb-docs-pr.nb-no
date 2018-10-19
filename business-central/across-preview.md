@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox
-ms.date: 06/28/2018
+ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: 0829c825ec0635a20c040fe17cd3e7cfc667ffd7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 50d1429a58b878766c76ed97f65936db78191ee0
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="access-to-the-included365finlongincludesd365finlongmdmd-preview"></a>Få tilgang til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]-forhåndsvisningen
@@ -39,7 +39,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruke utformingen](https://docs.micro
 
 ### <a name="to-create-a-sandbox-environment"></a>Slik oppretter du et sandkassemiljø
 1.  Logg på din produksjons- eller forhåndsvisningsforekomst av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Sandkassemiljø**, og velg deretter den relaterte koblingen.
+2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Sandkassemiljø**, og velg deretter den relaterte koblingen.
 3.  Velg **Opprett**. Det åpnes en fane der du kan fullføre konfigurasjonen av sandkassen.
 
     > [!Note]

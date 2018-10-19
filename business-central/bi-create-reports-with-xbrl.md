@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/16/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2f836cbceb3bd7580c3cbc48315a040e8338748b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: f14191eb0a7b7564f5079a53bd90dfc39f176326
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
@@ -66,7 +66,7 @@ Etter at du har lest inn eller oppdatert taksonomien, må du legge inn alle nød
 
 Du definerer XBRL-linjer ved å tilordne taksonomidataene til finansdataene.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
 2.  Velg en taksonomi fra listen i vinduet **XBRL-taksonomier**.  
 3.  Velg handlingen **Linjer**.  
 4.  Velg en linje og fyll ut feltene.   
@@ -83,7 +83,7 @@ Du definerer XBRL-linjer ved å tilordne taksonomidataene til finansdataene.
  ## <a name="to-import-an-xbrl-taxonomy"></a>Slik importerer du en XBRL-taksonomi  
 Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i selskapsdatabasen. En taksonomi består av ett eller flere skjemaer og noen koblingsbaser. Når du har fullført innlesingen av både skjemaer og koblingsbaser, og har brukt koblingsbasene på skjemaet, kan du definere linjene og tilordne finanskontiene i kontoplanen til riktig taksonomilinje.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ny linje i vinduet **XBRL-taksonomier** og angi navn og beskrivelse for taksonomien.  
 3.  Velg **Skjemaer**, og sett inn beskrivelsen av skjemaet.  
 4.  Når du skal importere skjemaet, velger du vinduet **XBRL-skjemaer** velger **Importer** og velger deretter en mappe og en XSD-fil. Velg **Åpne**-knappen.  
@@ -97,7 +97,7 @@ Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i
 ## <a name="to-update-an-xbrl-taxonomy"></a>Slik oppdaterer du en XBRL-taksonomi  
 Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende. Årsaken til oppdateringen kan være et endret skjema, en endret koblingsbase eller en ny koblingsbase. Når du har oppdatert taksonomien, trenger du bare å samordne linjene for de endrede eller nye linjene.  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
 2.  I vinduet **XBRL-taksonomier** velger du handlingen **Skjemaer**.  
 3.  Du oppdaterer et skjema ved å velge skjemaet du vil oppdatere, og deretter velge **Importer**.  
 4.  Hvis du vil oppdatere eller legge til en ny koblingsbase, velger du **Koblingsbaser**.  

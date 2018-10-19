@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/06/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e00df5ac20c9fcd692919c622deb237999171fbc
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
@@ -76,7 +76,7 @@ Følgende ordremodifikatorer finnes på vare- eller LFE-kortet:
 Oppsettsfeltene for global planlegging i **Produksjonsoppsett**-vinduet omfatter følgende:  
 
 -   Dynamisk lavnivåkode  
--   Gjeldende produksjonsprognose  
+-   Gjeldende behovsprognose  
 -   Bruk prognose på lokasjoner  
 -   Standard sikkerhetstid  
 -   Tomt overflytnivå  

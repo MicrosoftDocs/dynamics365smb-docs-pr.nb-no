@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: f58f7572c2991bd4b30dca5e0c48499b36538f77
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
 Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hovedproduksjonsplanen (MPS) og materialbehovsplanen (MRP) basert på faktisk og prognostisert behov.  
 
--   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og produksjonsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles "MPS-varer" og identifiseres dynamisk når beregningen starter.  
--   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og produksjonsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Det generelle formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig adresse i rett tid.  
+-   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles "MPS-varer" og identifiseres dynamisk når beregningen starter.  
+-   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og behovsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Det generelle formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig adresse i rett tid.  
 
  Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene bruker nettoberegning, gjenbruk av eksisterende forsyningsordrer og handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er tilgjengelig eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, vises handlingsmeldinger i planleggingsforslaget. Handlingsmeldinger er forslag om å opprette en ny forsyningsordre, endre en forsyningsordre (antall eller dato) eller kansellere en eksisterende forsyningsordre. Forsyningsordrer kan være produksjonsordrer, bestillinger og overføringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 
@@ -73,7 +73,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-change-selected-planning-parameters"></a>Slik endrer du valgte planleggingsparametre:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
 2.  Åpne lagerføringsenhetskortet OSLO for vare 1100, forhjul.  
 3.  På hurtigfanen **Planlegging** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -90,7 +90,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I vinduet **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -102,7 +102,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Slik oppretter du en replanlegging for å dekke behovet i OSLO  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -125,7 +125,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Slik beregner du MRP for å inkludere underliggende komponentbehov:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -219,7 +219,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 3.  Godta tilgjengelighetsadvarselen, og velg **Ja** for å registrere behovsmengden.  
 4.  Fortsett med å planlegge på nytt for å justere den aktuelle forsyningsplanen.  
-5.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 6.  Velg **Beregn bevegelsesplan**-handlingen.  
 7.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

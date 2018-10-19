@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
-ms.date: 04/10/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: fa6779ee8fb2bbb453014e32cb7f3cf8dcfa18da
-ms.openlocfilehash: 1f8a34fe1312627038b1f5b28b7ce7ed9f234fea
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: dc63da7f3363ef45028a0b185c27aa468e02db6d
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
@@ -25,13 +25,13 @@ For å sørge for at banken bare innfrir validerte sjekker og beløp, kan du eks
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er forhåndskonfigurert til å støtte Positive Pay-filer for Bank of America og City Bank.
 
 ## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Slik definerer du en bankkonto for Positive Pay
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for bank du vil bruke Positive Pay for.
 3. Angi POSPAYBANK i feltet **Kode for eksport for Positive Pay**.
 4. Lukk vinduet.
 
 ## <a name="to-export-a-positive-pay-file"></a>Slik eksporterer du en Positive Pay-fil
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg bankkontoen som du vil eksportere en Positive Pay-fil for.
 3. Velg **Eksport for Positive Pay**.
 
@@ -44,7 +44,7 @@ For å sørge for at banken bare innfrir validerte sjekker og beløp, kan du eks
 
 Vise eksporterte Positive Pay-poster
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg bankkontoen som du vil vise Positive Pay-eksportposter for.
 3. Velg **Poster for Positive Pay**.
 
@@ -54,7 +54,7 @@ Vise eksporterte Positive Pay-poster
 
 Eksportere Positive Pay-filer på nytt
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg bankkontoen som du vil eksportere Positive Pay-filer på nytt for.
 3. Velg **Poster for Positive Pay**.
 4. Velg linjen for Positive Pay-eksportfilen som du vil eksportere på nytt.

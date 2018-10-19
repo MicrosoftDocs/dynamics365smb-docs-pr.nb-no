@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75f6883961f62b82ec751306693dd29a031b409c
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
@@ -33,8 +33,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som innkommende 
 - Produksjonsordre med avgangsbokføring  
 - Monteringsordre med avgangsbokføring  
 
-De to siste representerer inngående flyter til lageret fra interne operasjonsområder. Hvis du vil ha mer informasjon om lagerhåndtering for interne innkommende og utgående prosesser, kan du se
-[Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md).  
+De to siste representerer inngående flyter til lageret fra interne operasjonsområder. Hvis du vil ha mer informasjon om lagerhåndtering for interne innkommende og utgående prosesser, kan du se [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md).  
 
 Prosesser og dokumenter for brukergrensesnitt i inngående lagerflyter er forskjellige for grunnleggende og avanserte lagerkonfigurasjoner. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerkonfigurasjoner, og de konsolideres for flere ordrer i avanserte lagerkonfigurasjoner. Hvis du vil ha mer informasjon om ulike kompleksitetsnivåer for lageret, kan du se [Designdetaljer: Lageroversikt](design-details-warehouse-setup.md).  
 
@@ -54,7 +53,7 @@ I metode A, B og C kombineres mottaks- og plasseringshandlingen i ett trinn når
 ## <a name="basic-warehouse-configurations"></a>Enkle lageroppsett  
 Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i grunnleggende lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
-![Inngående flyt i grunnleggende lagerkonfigurasjoner](media/design_details_warehouse_management_inbound_basic_flow.png "design_details_warehouse_management_inbound_basic_flow")  
+![Inngående flyt i grunnleggende lageroppsett](media/design_details_warehouse_management_inbound_basic_flow.png "Inngående flyt i grunnleggende lageroppsett")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Frigi kildedokument / opprett lagerplassering  
 Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kildedokumentet, for eksempel en bestilling eller inngående overføringsordre, for å signalisere til lagermedarbeidere at de mottatte varene kan plasseres på lager. Brukeren kan også opprette lagerplasseringsdokumenter for enkelte ordrelinjene med en push-metode, basert på angitte hyller og antall som skal håndteres.  
@@ -70,10 +69,10 @@ På hver linje for varer som er plassert, helt eller delvis, fyller lagermedarbe
 
 Det blir opprettet positive vareposter og lagerposter, og plasseringsforespørselen slettes hvis ferdigbehandlet. Eksempel: Feltet **Mottatt (antall)** i den inngående kildedokumentlinjen oppdateres. Det opprettes et postert mottaksdokument som for eksempel gjenspeiler bestillingen og de mottatte varene.  
 
-## <a name="advanced-warehouse-configurations"></a>avanserte lageroppsett  
+## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett  
 Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
-![Inngående flyt i avanserte lagerkonfigurasjoner](media/design_details_warehouse_management_inbound_advanced_flow.png "design_details_warehouse_management_inbound_advanced_flow")  
+![Inngående flyt i avanserte lageroppsett](media/design_details_warehouse_management_inbound_advanced_flow.png "Inngående flyt i avanserte lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument  
 Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kildedokumentet, for eksempel en bestilling eller inngående overføringsordre, for å signalisere til lagermedarbeidere at de mottatte varene kan plasseres på lager.  

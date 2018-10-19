@@ -9,23 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 07/19/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 42deec3d94209a7963e596e7deb5584fccd6db7f
-ms.openlocfilehash: 9e50d9da53077f2baa136ca614734adbd332c1be
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/19/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="track-packages"></a>Spore pakker
 En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md).  
 
-> [!NOTE]
-> Denne funksjonen er ikke tilgjengelig for øyeblikket i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Hvorfor er noen grensesnittelementer jeg bruker i Dynamics NAV, ikke synlige i Business Central?](https://docs.microsoft.com/en-us/dynamics365/business-central/across-faq#why-are-some-ui-elements-that-i-used-in-dynamics-nav-not-visible-in-) i Vanlige spørsål.
-
 ## <a name="to-track-a-package"></a>Slik sporer du pakker
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Bokført følgeseddel**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokført følgeseddel**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle leveringen.
 3. I feltet **Pakkesporingsnr.** angir du pakkenummeret du har mottatt fra transportøren.
 4. Velg handlingen **Pakkesporing**.

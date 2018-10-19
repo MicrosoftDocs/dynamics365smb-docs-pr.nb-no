@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 54f554e2e0acf657fdf77caa863ff4e028734418
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: ebd644745ed7d914bdccfe59ecc3924ed1b542a5
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="ship-items"></a>Levere varer
@@ -29,7 +29,7 @@ Når du leverer varer fra et lager som er definert til lagerleveringsbehandling,
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Slik leverer du varer med en ordre
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for bestillingsreturer, serviceordrer og utgående overføringsordrer.  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende ordre eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. I feltet **Levere (antall)** angir du det mottatte antallet.
 
@@ -41,7 +41,7 @@ Først oppretter du et leveringsdokument fra et forretningskildedokument. Derett
 
 ### <a name="to-create-a-warehouse-shipment"></a>Slik oppretter du en lagerlevering
 Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering.
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
@@ -74,12 +74,12 @@ Når du har de linjene du vil levere, kan du starte prosessen som sender linjene
 
 ### <a name="to-pick-and-ship"></a>Slik plukker og leverer du
 Vanligvis er det en lagermedarbeider som er ansvarlig for plukking, som oppretter et plukkdokument eller åpner et allerede opprettet plukkdokument.
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
 2. Velg lagerlevringen som du vil plukke for, og velg deretter **Opprett plukk**-handlingen.
 3. Fyll ut feltene i forespørselsvinduet, og velg deretter **OK**. Det angitte lagerplukkdokumentet opprettes.
 
     Du kan også åpne et eksisterende lagerplukk.
-4. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Plukking**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
+4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukk**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
 
     Hvis lageret definert for bruk av hyller, så er plukklinjene konvertert til linjer for henting og plassering.
 

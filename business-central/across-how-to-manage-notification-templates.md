@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d6c7637527c9a93024ee62dbdd32ba63d665661d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="manage-notification-templates"></a>Behandle varslingsmaler
@@ -27,7 +27,7 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
  Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder tre varslingmaler, én for å informere om forespørsler om godkjenning, én for å varsle om nye poster og én for å varsle om forfalte godkjenningsforespørsler. Tre forhåndsdefinerte varslingsmaler støtter **E-post** og **Notat** som varslingsmetode. Hvis du vil vise innholdet i de tre varslingsmalene, kan du se delen "Innhold i varslingsmalene" i dette emnet.
 
 ## <a name="to-create-a-new-notification-template"></a>Slik oppretter du en ny varslingsmal:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny** i vinduet **Varslingsmaler**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -40,7 +40,7 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
     |**Standard**|Angi om varslingsmalen vil bli brukt som standard.|  
 
 ## <a name="to-modify-a-notification-template"></a>Slik endrer du en varslingsmal:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
 2.  I vinduet **Varslingsmaler** velger du varslingsmalen du vil opprette eller endre.  
 3.  Velg **Eksporter malinnhold**.  
 4.  I **Eksporter fil**-vinduet velger du **Lagre**-knappen, og deretter gir du navn til HTML-filen og lagrer den på en passende plassering.  

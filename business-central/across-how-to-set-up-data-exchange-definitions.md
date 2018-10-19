@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/21/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 4828da068f1e17d031300948e930c9685a2f274d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
@@ -92,8 +92,8 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |**Kolonnenr.**|Angi tallet som gjenspeiler kolonneposisjonen på linjen i filen.<br /><br /> For XML-filer angir du tallet som gjenspeiler elementtype i filen som inneholder dataene.|  
     |**Navn**|Angi navnet på kolonnen.<br /><br /> For XML-filer kan du angi markeringen som merker dataene som skal utveksles.|  
     |**Datatype**|Angi om dataene som skal utveksles, er av typen **Tekst**, **Dato** eller **Desimal**.|  
-    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](http://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Dataformateringskultur**|Angi den eventuelle kulturen for dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](http://go.microsoft.com/fwlink/?LinkID=323466). **Obs!**  Dette feltet er bare relevant for import.|  
+    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Dataformateringskultur**|Angi den eventuelle kulturen for dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466). **Obs!**  Dette feltet er bare relevant for import.|  
     |**Lengde**|Angi lengden på linjen med fast bredde som inneholder kolonnen, hvis datafilen er av typen **Fast tekst**.|  
     |**Beskrivelse**|Angi en beskrivelse for kolonnen for informasjon.|  
     |**Bane**|Angi posisjonen til elementet i det tilknyttede XML-skjemaet.|  

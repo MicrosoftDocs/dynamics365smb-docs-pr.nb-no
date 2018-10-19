@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/06/2017
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8d0a3cd974742e9b5745ca3ca08fa582dff1522a
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Opprette salgsmuligheter
@@ -27,7 +27,7 @@ Du kan opprette salgsmuligheter i vinduet **Oversikt over salgsmuligheter**. Du 
 Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmulighet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser og faser for salgsmuligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Opprette en salgsmulighet fra en selger
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selgere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere**, og velg deretter den relaterte koblingen.
 2. Velg selgeren fra listen som du vil opprette en salgsmulighet for.
 3. Velg handlingen **Salgsmuligheter**, og velg deretter **Oversikt**.
 4. Velg handlingen **Ny**, og fyll deretter ut de relevante feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Opprette en salgsmulighet fra en kontakt
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg kontakten fra listen som du vil opprette en salgsmulighet for.
 3. Gjør ett av følgende:
    * Velg handlingen **Opprett salgsmulighet**.

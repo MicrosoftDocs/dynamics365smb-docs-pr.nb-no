@@ -1,6 +1,6 @@
 ---
 title: Opprette og administrere katalogvarer | Microsoft dokumenter
-description: "Beskriver hvordan du handler med indirekte varer eller varer som ikke oppbevares på lager."
+description: "Beskriver hvordan du handler med varer som er i leverandørerlisten for varer, men som ikke er i din egen oversikt over varer."
 documentationcenter: 
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,48 +9,52 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 06/02/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cdfca33d0d9ea4b66b8e1c15cd66eaf9fa79b819
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: feef36443adef82329fe47573dd05cc6941b9d87
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
-# <a name="work-with-nonstock-items"></a>Arbeide med katalogvarer
-Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil ha på lager før du begynner å selge dem. Når du vil begynne å ha slike varer på lager, kan du konvertere dem til vanlige varekort på to måter.
+# <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
+Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil administrere i systemet før du begynner å selge dem. Når du vil begynne å administrere slike varer i systemet, kan du konvertere dem til vanlige varekort på to måter.
 
 * Fra et katalogvarekort kan du opprette et nytt varekort basert på en mal.
-* Fra en salgsordrelinje av typen **Vare** med et tomt **Nei*-felt velger du en katalogvare. Et varekort opprettes automatisk for katalogvaren.
+* Fra en salgsordrelinje av typen **Vare** med et tomt **Nei**-felt velger du en katalogvare. Et varekort opprettes deretter automatisk for katalogvaren.
 
 > [!NOTE]  
->   Du kan ikke velge en katalogvare fra **Salgsfaktura**-vinduet. Du kan velge en katalogvare fra **Tilbud**-vinduet, men katalogvaren vil ikke bli konvertert til en vanlig vare når du bruker **Lag ordre**-funksjonen.
+> Du kan ikke velge en katalogvare fra **Salgsfaktura**-vinduet.<br /><br />
+> Du kan velge en katalogvare fra **Tilbud**-vinduet, men katalogvaren vil ikke bli konvertert til en vanlig vare når du bruker **Lag ordre**-funksjonen.
 
 En katalogvare har vanligvis varenummeret til leverandøren som leverer den. For å gjøre det mulig å konvertere et katalogvarekort til et vanlig varekort, må du først definere hvordan varenummerering for leverandør skal konverteres til din egen varenummerering.   
 
-## <a name="to-create-a-nonstock-item"></a>Slik oppretter du en katalogvare:
+> [!Important]
+> Katalogvarer må ikke forveksles med ikke-lagervarer, som er vanlige varer som blir gitt typen **Ikke-lagervare** for å utelukke dem fra tilgjengelighet og kostberegninger, for eksempel fordi de bare brukes internt og har en lav kostnad. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
+
+## <a name="to-create-a-catalog-item"></a>Slik oppretter du en katalogvare
 Katalogvarekort har mye mindre informasjon enn vanlige varekort fordi du bare bruker dem til tilbud i salgstilbud og på andre måter. Derfor må de konverteres til vanlige varekort før du kan bokføre salgstransaksjoner for dem.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Katalogvarer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Katalogvarer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-how-nonstock-item-numbers-are-converted-to-your-own-numbering"></a>Slik definerer du hvordan katalogvarenumre konverteres til din egen nummerering:
+## <a name="to-set-up-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Slik definerer du hvordan katalogvarenumre konverteres til din egen nummerering:
 For å gjøre det mulig å konvertere et katalogvarekort til et vanlig varekort, må du først definere hvordan varenummereringen for leverandøren skal konverteres til ditt eget varenummereringsformat.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Katalogvare - oppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av katalogvare**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
-## <a name="to-convert-a-nonstock-item-to-a-normal-item"></a>Slik konverterer du en katalogvare til en vanlig vare:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Katalogvarer**, og velg deretter den relaterte koblingen.
+## <a name="to-convert-a-catalog-item-to-a-normal-item"></a>Slik konverterer du en katalogvare til en vanlig vare:
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Katalogvarer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for katalogvaren som du vil konvertere til en vanlig vare.
-3. I vinduet **Kort for katalogvare** velger du handlingen **Opprett vare**.
+3. I vinduet **Katalogvarekort** velger du handlingen **Opprett vare**.
 
 Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant varemal opprettes. Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-nonstock-item-and-convert-it-to-a-normal-item"></a>Slik selger du en katalogvare og konverterer den til en vanlig vare:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Slik selger du en katalogvare og konverterer den til en vanlig vare:
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**. Fyll ut feltene på hurtigfanen **Generelt** som for ordrer. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. På en ny salgslinje, i **Type**-feltet velger du **Vare**, men lar feltet **Nr.** stå tomt.
 4. Velg handlingen **Linje** og velg deretter handlingen **Velg katalogvarer**.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: cab6546e152ad91c1b3264fa8bd10c0fd668636d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-workflows"></a>Opprette arbeidsflyter
@@ -32,7 +32,7 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 >  Alle varsler om arbeidsflyttrinn sendes via en jobbkø. Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler, og at det er merket av for **Start automatisk fra NAS**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
 ## <a name="to-create-a-workflow"></a>Slik oppretter du en arbeidsflyt:  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Vinduet **Arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
 4. For å opprette en arbeidsflyt fra en arbeidsflytmal, velg **Opprett arbeidsflyt fra mal** i **Arbeidsflyter**-vinduet. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
@@ -91,7 +91,7 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 >  Ikke aktiver en arbeidsflyt før du er sikker på at arbeidsflyten er fullført og at de involverte arbeidsflyttrinnene kan starte.  
 
 > [!TIP]  
->  Hvis du vil se relasjoner mellom tabeller som er brukt i arbeidsflyter, kan du velge ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport") og deretter angi **Arbeidsflyt – tabellrelasjoner**.  
+>  Hvis du vil se relasjoner mellom tabeller som er brukt i arbeidsflyter, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva vil gjøre") og angir deretter **Arbeidsflyt – tabellrelasjoner**.  
 
 ## <a name="see-also"></a>Se også  
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)   

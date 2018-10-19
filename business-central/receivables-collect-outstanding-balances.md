@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 07/05/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: 566594f04a1b189fe2263a945d8bd7d565539930
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 4696fa95b82a0deb0ba9642ef796160f25a57afc
 ms.contentlocale: nb-no
-ms.lasthandoff: 07/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
@@ -49,7 +49,7 @@ Når du har opprettet rentenotaer og foretatt eventuelle nødvendige endringer, 
 Når du definerer rentenotabetingelser og purrebetingelser for straff for forsinket betaling, kan du angi flere rentesatser slik at straffegebyret beregnes fra forskjellige renter i forskjellige perioder. Hvis flere rentesatser ikke er satt opp, brukes rentesatsen og perioden som er definert i **Rentenotabetingelser** og **Purrebetingelser** for hele perioden i beregningen. Hvis du vil ha mer informasjon, kan du se [Angi flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="to-send-the-customer-statement-report"></a>Sende Kontoutdrag-rapporten
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoutdrag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoutdrag**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Utdataalternativer** velger du hvordan du vil sende rapporten til kunden.
 
@@ -59,7 +59,7 @@ Når du definerer rentenotabetingelser og purrebetingelser for straff for forsin
 ## <a name="to-set-up-reminder-terms"></a>Slik definerer du purrebetingelser
 Hvis kunder har forfalte betalinger, må du angi når og hvordan du vil sende purring. I tillegg vil du kanskje belaste kundekontiene med renter eller gebyr. Du kan opprette så mange purrebetingelser du vil. For hver purrebetingelseskode kan du definere et ubegrenset antall purregrader.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.  
 3. Hvis du vil bruke flere kombinasjoner av purrebetingelser, definerer du en kode for hver kombinasjon.
 
@@ -68,7 +68,7 @@ Innstillingen fra grad 1 brukes første gang det opprettes en purring for en kun
 
 Hvis du oppretter flere purringer enn du har definert grader for, brukes betingelsene for den høyeste graden. Du kan opprette så mange purringer som er tillatt i henhold til feltet **Høyeste purregrad** i purrebetingelsene.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. I **Purrebetingelser**-vinduet velger du linjen med betingelsene du vil definere grader for, og deretter velger du **Grader**.  
 3. Fyll ut feltene etter behov.  
 
@@ -109,7 +109,7 @@ Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrere
 ## <a name="to-create-a-reminder-automatically"></a>Slik oppretter du en purring automatisk
 En purring fungerer på samme måte som en faktura. Når du oppretter en purring, må du fylle ut et purrehode samt én eller flere purrelinjer. Du kan bruke en funksjon til å opprette purringer for alle kunder automatisk.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purringer**, og velg deretter den relaterte koblingen.
 2. I **Purring**-vinduet velger du handlingen **Opprett purringer**.
 3. I vinduet **Opprett purringer** fyller du ut feltene for å definere hvordan og for hvem purringene skal opprettes.
 4. Velg **OK**.
@@ -117,7 +117,7 @@ En purring fungerer på samme måte som en faktura. Når du oppretter en purring
 ## <a name="to-create-a-reminder-manually"></a>Slik oppretter du en purring manuelt
 I **Purring**-vinduet kan du fylle ut hurtigfanen **Generelt** manuelt og deretter fylle ut linjene automatisk.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.
 4. Velg handlingen **Foreslå purrelinjer**.
@@ -132,7 +132,7 @@ I **Purring**-vinduet kan du fylle ut hurtigfanen **Generelt** manuelt og derett
 ## <a name="to-replace-reminder-texts"></a>Slik erstatter du purretekst  
 Du kan angi teksten som vises i purringsutskrifter på flere måter. Av og til vil du kanskje erstatte start- og slutteksten som er angitt for den gjeldende purregraden, men tekst fra en annen grad.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purringer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle purringen, og velg deretter handlingen **Oppdater purretekst**.
 3. Angi ønsket grad i **Purregrad**-feltet i vinduet **Oppdater purretekst**.
 3. Velg **OK** for å oppdatere start- og slutteksten.
@@ -154,7 +154,7 @@ Hvis det er merket av for **Bokfør rente** eller **Bokfør tilleggsgebyr** i vi
 
 I tillegg kan utstedelsen av purringen resultere i mva-poster.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Purringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Purringer**, og velg deretter den relaterte koblingen.
 2. Velg den aktuelle purringen, og velg deretter handlingen **Utsted**.
 3. I vinduet **Utsted purringer** fyller du ut feltene etter behov.
 4. Velg **OK**.
@@ -178,7 +178,7 @@ Renter kan beregnes ved hjelp av enten gjennomsnittlig dagssaldo eller forfalt b
 
 I tillegg er hver kode i tabellen Rentenotatekst knyttet til en undertabell, tabellen Rentenotatekst. For hver rentebetingelse kan du definere en start- og/eller slutt-tekst som kommer ut på rentenotaen.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rentenotabetingelser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenotabetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.  
 3. Hvis du vil bruke flere kombinasjoner av rentebetingelser, definerer du en kode for hver kombinasjon.
 
@@ -208,7 +208,7 @@ I tillegg er hver kode i tabellen Rentenotatekst knyttet til en undertabell, tab
 ## <a name="to-create-a-finance-charge-memo-manually"></a>Slik oppretter du en rentenota manuelt  
 Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuelt og angi at linjene skal fylles ut automatisk, eller du kan angi at det automatisk skal opprettes rentenotaer for alle kunder.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.  
 3. Velg handlingen **Foreslå rentenotalinjer**.
 4. I vinduet **Foreslå rentenotalinjer** angir du et filter på hurtigfanen **Kundepost** hvis du vil opprette rentenotaer bare for bestemte poster.  
@@ -217,7 +217,7 @@ Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuel
 ## <a name="to-update-finance-charge-memo-texts"></a>Slik oppdaterer du rentenotatekst  
 Av og til vil du kanskje endre start- og slutteksten som du har definert for rentenotabetingelsene. Hvis du gjør dette etter at du har opprettet, men ikke utstedt rentenotaer, kan du angi at notaene skal oppdateres med den endrede teksten.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rentenota**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenota**, og velg deretter den relaterte koblingen.  
 2. Åpne rentenotaen du vil endre teksten for, og velg deretter handlingen **Oppdater rentenotatekst**.
 3. I vinduet **Oppdater rentenotatekst** kan du angi et filter hvis du vil oppdatere flere notaer.
 4. Velg **OK** for å oppdatere start- og slutteksten.  
@@ -237,7 +237,7 @@ Hvis det er merket av for **Bokfør rente** eller **Bokfør tilleggsgebyr** i vi
 
 I tillegg kan utstedelsen av rentenotaen resultere i mva-poster.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.
 2. Velg den aktuelle notaen, og velg deretter handlingen **Utsted**.
 3. I vinduet **Utsted rentenotaer** fyller du ut feltene etter behov.
 4. Velg **OK**.
@@ -246,7 +246,7 @@ Rentenotaen blir enten skrevet ut eller sendt til en bestemt e-postadresse som e
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Slik viser du purre- og renteposter  
 Når du utsteder en purring, opprettes en purrepost i vinduet **Purre-/renteposter** for hver purrelinje som inneholder en kundepost. Du kan deretter få en oversikt over hvilke purreposter som er opprettet for en bestemt kunde.    
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kunder**, og velg deretter den relaterte koblingen.  
 2. Åpne det aktuelle kundekortet, og velg deretter handlingen **Poster**.
 3. I **Kundeposter**-vinduet velger du linjen med posten du vil se purrepostene for, og deretter velger du handlingen **Purre-/renteposter**.
 

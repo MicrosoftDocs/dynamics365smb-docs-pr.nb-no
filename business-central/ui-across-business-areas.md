@@ -3,20 +3,20 @@ title: "Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-
 description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Business Central."
 services: project-madeira
 documentationcenter: 
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 05/09/2018
-ms.author: solsen
+ms.date: 10/01/2018
+ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 2286b728a464943841b192031cfea13644441013
-ms.openlocfilehash: f6a8bca975e37adb436f30ef3d16bbc198f26447
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
@@ -28,9 +28,10 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 
 | Til | Se |
 | --- | --- |
+|Legg til tilleggsinformasjon for kontoer, kundekort eller ordrer for å formidle avtaler, for eksempel en spesiell pris eller leveringsmetoden, for andre brukere.|[Legge til kommentarer i kort og dokumenter](across-how-use-comments.md)| 
 |Vis pågående, bokførte eller arkiverte dokumenter som er knyttet til salgs- og bestillingslinjer.|[Spore dokumentlinje](across-how-to-track-document-lines.md)|
-| Formidle raskt innholdet i forretningsdokumenter til forretningspartnere, for eksempel betalingsinformasjon på salgsdokumenter til kunder. |[Sende dokumenter med e-post](ui-how-send-documents-email.md) |
-| Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Definere utvidet tekst](ui-how-define-ext-text.md) |
+| Formidle raskt innholdet i forretningsdokumenter til forretningspartnere, for eksempel betalingsinformasjon på salgsdokumenter til kunder. |[Sende dokumenter i e-post](ui-how-send-documents-email.md) |
+| Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Legge til utvidet varetekst](ui-how-define-ext-text.md) |
 |Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
@@ -42,5 +43,4 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 [Administrasjon](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

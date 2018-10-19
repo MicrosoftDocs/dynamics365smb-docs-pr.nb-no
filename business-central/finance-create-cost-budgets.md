@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ab66e5b2404f512816d1a4fcb3b110a95265e1f7
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
@@ -24,14 +24,14 @@ Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett 
 
 Et kostnadsbudsjett opprettes for en bestemt tidsperiode, for eksempel et regnskapsår. Du kan opprette så mange kostbudsjetter som nødvendig. Du kan opprette et nytt kostbudsjett manuelt, ved å importere et kostbudsjett eller ved å kopiere et eksisterende kostbudsjett som grunnlag for budsjettet. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-Du kan bruke følgende vinduer til å opprette og analysere kostbudsjetter. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport") for å finne et vindu, og les deretter verktøytipset for hvert.
+Du kan bruke følgende vinduer til å opprette og analysere kostbudsjetter. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre ikonet") for å finne et vindu, og les deretter verktøytipset for hvert vindu.
 
-|Hvis du vil|Se|  
+|Til|Se|  
 |--------|---------|  
 |Overfør budsjetter fra finans.|Kjørselen **Kopier finansbudsjett til kostregnskap**|  
 |Kopier kostbudsjetter.|Kjørselen **Kopier kostbudsjett**|  
-|Tildele budsjetter.|Siden **Kostfordeling**|  
-|Se kostbudsjettjournaler og kostbudsjettposter.|Siden **Kostbudsjettjournaler**|  
+|Tildele budsjetter.|Vinduet **Kostfordeling**|  
+|Se kostbudsjettjournaler og kostbudsjettposter.|Vinduet **Kostbudsjettjournaler**|  
 |Skrive ut budsjettsammenligninger ved hjelp av ulike rapporter.|Rapporten **Kostregnskap – saldo/budsjett**<br /><br /> Rapporten **Kostregnskap – utdrag/budsjett**<br /><br /> Rapporten **Kostbudsjett etter kostsenter**<br /><br /> Rapporten **Kostbudsjett etter kostobjekt**|  
 
 ## <a name="see-also"></a>Se også  

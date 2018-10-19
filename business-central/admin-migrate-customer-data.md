@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 03/07/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ce50ff8213e85a8343a93eb80bbbc381eaa8e350
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
@@ -40,7 +40,7 @@ Før du begynner må du kontrollere at du er i rollesenteret for RapidStart Serv
 > Tabeller som har forskjellige primærnøkler og felt med ulike datatyper, blir heller ikke importert. Hvis konfigurasjonspakken inneholder en tabell, for eksempel **50000-kunden**, som har primærnøkkelen **Kode20**, og databasen du importerer pakken til, som inneholder tabellen **Bankkonto for 50000-kunde**, som har primærnøkkelen **Kode20 + Kode20**, importeres ikke dataene.  
 
 1. Åpne det nye selskapet.  
-2. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**. Gå til .rapidstart-pakkefilen du vil importere, og velg deretter den **Åpne**-handlingen. Under import dekomprimeres innholdet i pakken og pakkeposten opprettes.  
 
     Når importen er fullført, kan du se hvor mange konfigurasjonstabeller som er importert, i feltet **Antall tabeller**.  
@@ -57,7 +57,7 @@ Hvis tabellutvalget ikke oppfyller dine behov, kan du opprette én eller flere n
 ## <a name="to-create-a-data-migration-file"></a>Slik oppretter du en dataflyttingsfil:
 Du kan opprette nye dataoverføringsfiler og tilpasse dem for å støtte forretningsprosessene. Vær oppmerksom på at en fil kan bare brukes til å flytte et felt der **Normal** er angitt for **FieldClass**-egenskapen.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken som du vil bruke til å flytte data, og velger deretter **Hent tabeller**-handlingen. Vinduet **Hent pakketabeller** åpnes.  
 3. Skriv inn et tabellnummer i **Tabell-ID**-feltet, eller velg en tabell fra listen, for eksempel tabell 18, **Kunde**. Feltet **Tabellnavn** fylles ut automatisk.  
 4. Velg den nye flyttingsstabellen, og deretter, i fanen **Tabeller**, velger du **Felt**-handlingen. Vinduet **Flyttingsfelt** åpnes.  
@@ -73,7 +73,7 @@ Det opprettes en ny flyttingstabell.
 ## <a name="to-export-data-migration-files"></a>Slik eksporterer du dataflyttingsfiler:
 Når du har bestemt hvilke tabeller du vil overføre kundedata til, eksporterer du filene.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken du vil bruke til eksport.
 3. Velg tabellen eller tabellene som du vil eksportere, og velg deretter den **Eksporter til Excel**-handlingen.
 4. Lagre den eksporterte Excel-filen.  
@@ -94,7 +94,7 @@ Når du bruker data som du har importert fra Excel eller fra en RapidStart-pakke
 
 I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se delen Slik eksporterer du dataflyttingsfiler.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
 2. Åpne pakken for det aktuelle selskapet.  
 3. Velg tabellen du vil tilordne verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 4. For hvert felt du vil tilordne velger du **Tilordning**-handlingen.  
@@ -112,7 +112,7 @@ Følgende eksempel illustrerer hvordan [!INCLUDE[d365fin](includes/d365fin_md.md
 3. Når du bruker data, blir det også tatt hensyn til tilordningen du har angitt for **Kode**-feltet i tabellen **Selger/innkjøper**, under behandlingen av feltene **Selgerkode** og **Innkjøperkode**.
 
 ## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillate ytterligere verdier for under overføringen.  
 4. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se delen Importere kundedata.

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 813af57a2e1de62ce038990116f9cf92f741a78d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
@@ -84,16 +84,16 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
     1. De midlertidige kontiene fjernes. (Salg)  
     2. Solgte varers kost (VAREFORBRUK) blir bokført. (Salg)  
 
-        ![Resultater av salgsbokføring til Finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "design_details_inventory_costing_3_GL_posting_sales")  
+        ![Resultatet av salgsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultatet av salgsbokføring til finanskonti")  
 5. Brukeren bokfører forbruk av 150 ledd, som er antallet ledd som brukes til å produsere én kjede. (Forbruk, Materiale)  
 
-    ![Resultater av materialbokføring til Finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "design_details_inventory_costing_3_GL_posting_material")  
+    ![Resultatet av materialebokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "Resultatet av materialebokføring til finanskonti")  
 6. Arbeidssenteret brukte 60 minutter på å produsere kjeden. Brukeren bokfører konverteringskostnaden. (Forbruk, Kapasitet)  
 
     1. De direkte kostnadene bokføres. (Forbruk, Kapasitet)  
     2. De indirekte kostnadene beregnes og bokføres. (Forbruk, Kapasitet)  
 
-        ![Resultater av kapasitetsbokføring til Finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "design_details_inventory_costing_3_GL_posting_capacity")  
+        ![Resultatet av kapasitetsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultatet av kapasitetsbokføring til finanskonti")  
 7. Brukeren bokfører den forventede kostnaden for én kjede. (Avgang)  
 8. Brukeren fullfører produksjonsordren og kjører kjørselen **Juster kostverdi - vareposter**. (Avgang)  
 
@@ -102,7 +102,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
     3. Den indirekte kosten (indirekte kostnader) overføres fra kontoen for indirekte kost til lagerkontoen. (Avgang)  
     4. Dette resulterer i et avviksbeløp på NOK 157,00. Avvik beregnes bare for varer med standard kostpris. (Avgang)  
 
-        ![Resultater av avgangsbokføring til Finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "design_details_inventory_costing_3_GL_posting_output")  
+        ![Resultatet av avgangsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "Resultatet av avgangsbokføring til finanskonti")  
 
         > [!NOTE]  
         >  For enkelhets skyld vises bare én avvikskonto. Det finnes i virkeligheten fem forskjellige kontoer:  
@@ -115,7 +115,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
 
 9. Brukeren revaluerer kjeden fra NOK 150,00 til NOK 140,00. (Justering/revaluering/avrunding/overføring)  
 
-    ![Resultater av justeringsbokføring til Finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "design_details_inventory_costing_3_GL_posting_adjustment")  
+    ![Resultatet av justeringsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultatet av justeringsbokføring til finanskonti")  
 
 Hvis du vil ha mer informasjon om relasjonen mellom kontotyper og ulike typer verdier, kan du se [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 

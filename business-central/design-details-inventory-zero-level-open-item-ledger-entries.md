@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/23/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e25721b0c79a87f4201314a0f3556f969a110e18
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kjent vareutligningsproblem
@@ -36,8 +36,6 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
      |333|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
      |334|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
-<!--![Why is inventory zero 1](media/helene/TechArticleInventoryZero1.png "Whyisinventoryzero\_1")-->
-
 ## <a name="basics-of-item-application"></a>Grunnleggende om vareutligning  
  En vareutligningspost opprettes for hver lagertransaksjon for å knytte kostmottakeren til kostkilden slik at kostnaden kan overføres i henhold til lagermetoden. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vareutligning](design-details-item-application.md).  
 
@@ -56,7 +54,7 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
 
  Diagrammet nedenfor viser hvordan antallsutligning utføres.  
 
-![Hvorfor er lager null 2](media/helene/TechArticleInventoryZero2.png "Whyisinventoryzero\_2")
+![Flyt for kostjustering fra kjøp til salg](media/helene/TechArticleInventoryZero2.png "Flyt for kostjustering fra kjøp til salg")
 
  Legg merke til at ovenfor er varepost 1 (kjøp) både leverandør for varen og kostnadskilde for den utlignede vareposten, varepost 2 (salg).  
 
@@ -72,7 +70,6 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|  
 |333|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
 |334|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|1|10|1|1|Ja|  
-<!--![Why is inventory zero 3](media/helene/TechArticleInventoryZero3.png "Whyisinventoryzero\_3")-->
 
  Legg merke til ovenfor at inngående varepost 3 (ordreretur) er en kostmottaker for den opprinnelige utgående vareposten 2 (salg).  
 
@@ -81,7 +78,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Diagrammet nedenfor viser kostnadsflyten.  
 
-![Hvorfor er lager null 4](media/helene/TechArticleInventoryZero4.png "Whyisinventoryzero\_4")
+![Flyt for kostjustering fra salg til ordreretur](media/helene/TechArticleInventoryZero4.png "Flyt for kostjustering fra salg til ordreretur")
 
  Legg merke til ovenfor at kostnaden overføres til varepost 2 (salg), deretter til varepost 3 (ordreretur), og til sist til varepost 4 (salg 2).  
 
@@ -94,7 +91,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Diagrammet nedenfor viser hvordan vareutligning utføres i begge tilfellene.  
 
-![Hvorfor er lager null 6](media/helene/TechArticleInventoryZero6.png "Whyisinventoryzero\_6")  
+![Flyt for kostjustering går i begge retninger](media/helene/TechArticleInventoryZero6.png "Flyt for kostjustering går i begge retninger")  
 
  Legg merke til ovenfor at en kostutligning utføres (angitt med blå pil) for å sikre at varepost 2 (ordreretur) tilordnes samme kostnader som vareposten som den tilbakefører, varepost 1 (salg 1). En antallsutligning (representert med rød pil) utføres imidlertid ikke.  
 
@@ -115,7 +112,6 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 |---------|------------|----------|-------------|------------|--------|-------------|--------|------------------------|-----------------|------------------|----|---------|
 |333|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nei|  
 |334|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
-<!--![Why is inventory zero 7](media/helene/TechArticleInventoryZero7.png "Whyisinventoryzero\_7")-->
 
 -   I vinduet **Bokført følgeseddel** slår du opp fra feltet **Utlignet fra-varepost** for å se om feltet er fylt ut, og i tilfelle til hvilken varepost returseddelen er kostnadsutlignet.  
 

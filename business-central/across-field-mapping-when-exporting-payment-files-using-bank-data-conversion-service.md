@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 08/18/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f30a7c08db374b7f5571b8e48d4b91a2bb7ddc2
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 80112e892c72283254d3894e6ce4102cc9350e0b
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-bank-data-conversion-service"></a>Felttilordning ved eksport av betalingsfiler ved hjelp av konverteringstjeneste for bankdata
 Når du eksporterer betalingsfiler ved hjelp av konverteringstjenesten for bankdata, blir dataene du eksporterer, eksponert for leverandøren av konverteringstjenesten for bankdata. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om hvordan konverteringstjenesten for bankdata fungerer, kan du se [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md).  
 
 > [!CAUTION]  
->  Når du eksporterer betalingsfiler ved hjelp av konverteringstjenesten for bankdata, blir noen av forretningsdataene dine eksponert for leverandøren av tjenesten. Tjenesteleverandøren, AMC Consult A/S, er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon, kan du se [personvernpolicyen for AMC](http://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Når du eksporterer betalingsfiler ved hjelp av konverteringstjenesten for bankdata, blir noen av forretningsdataene dine eksponert for leverandøren av tjenesten. Tjenesteleverandøren, AMC Consult A/S, er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon, kan du se [personvernpolicyen for AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
 Følgende tabell viser fra hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] data kan eksporteres til tjenesteleverandøren.  
 

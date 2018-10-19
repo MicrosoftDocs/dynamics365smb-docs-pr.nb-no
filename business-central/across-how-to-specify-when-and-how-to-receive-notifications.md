@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42e03563ac3d1d12226df4089e4fe42aa2713a9b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 714ebd289407293f2a9fb8f05cad68330c79ad9a
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angi når og hvor du kan motta varsler
@@ -30,7 +30,7 @@ Når du konfigurerer brukere i godkjenningsarbeidsflyter, må i vinduene **Oppse
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angi når og hvor brukere mottar varsler  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2.  Velg linjen for brukeren du vil konfigurere varslingsinnstillinger for, og velg deretter **Oppsett av varsling**.  
 3.  I vinduet **Oppsett av varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

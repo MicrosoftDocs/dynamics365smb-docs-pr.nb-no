@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/07/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: d84006db69beee153aeecdd38ecfcae197c1ad9f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 11c1f56847102ed5f1b323a54bdcfb263c0fdda9
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
@@ -76,7 +76,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-prepare-the-sample-data"></a>Slik klargjør du eksempeldataene:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ressurser**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt ressurskort.  
 3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
@@ -99,7 +99,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-create-a-job-journal-batch"></a>Slik oppretter du en prosjektkladd  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2.  Velg **Bunkenavn**-feltet i **Prosjektkladd**-vinduet. Vinduet **Prosjektkladder** åpnes.  
 3.  Velg **Ny**-handlingen for å opprette en ny linje med følgende informasjon:  
 
@@ -114,7 +114,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-set-up-a-job"></a>Slik konfigurerer du et prosjekt:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt kort.  
 3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
@@ -235,7 +235,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-calculate-remaining-usage"></a>Slik beregner du gjenstående forbruk:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2.  Åpne oversikten **Prosjektkladd** i **Bunkenavn**-feltet i **Prosjektkladd**-vinduet. Velg prosjektkladden **Marie**.  
 3.  Velg handlingen **Beregn gjenstående forbruk**.  
 4.  Velg **Prosjektnr.**-feltet på hurtigfanen **Prosjektoppgave** i vinduet **Beregn gjenstående forbruk for prosjekt**, og velg det aktuelle prosjektnummeret, for eksempel J00010.  
@@ -251,7 +251,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-create-a-job-sales-invoice"></a>Slik oppretter du en salgsfaktura for prosjekt:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet du opprettet tidligere, og velg handlingen **Opprett salgsfaktura for prosjekt**.  
 3.  På hurtigfanen **Prosjektoppgave** tømmer du eventuelle filtre på **Prosjektoppgavenr.** for å fakturere prosjektet. Velg det aktuelle prosjektet i **Prosjektnr.**-feltet.  
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
@@ -261,7 +261,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Slik bokfører du en ny salgsfaktura:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2.  Åpne fakturaen for kundenr. 01445544. Nå kan du se informasjonen som ble registrert på planleggingslinjene.  
 3.  Velg handlingen **Bokfør**. Velg **Ja** for å bekrefte bokføringen.  
 
@@ -275,7 +275,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-open-the-statistics-window"></a>Slik åpner du Statistikk-vinduet:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Statistikk**. Du kan se gjennom detaljert informasjon om prosjektprisene, kostbeløpene og fortjenesten i både lokal og utenlandsk valuta.  
 3.  Velg **Lukk**-knappen for å lukke vinduet **Prosjektstatistikk**.  
 
@@ -284,7 +284,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Slik håndterer du faste priser i prosjekter  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2.  Velg **Tremøbler AS**-prosjektnummeret og velg deretter **Prosjektoppgavelinjer**-handlingen.  
 3.  Velg linje 1120, og høyreklikk beløpet i feltet **Estimat (kostbeløp)** og velg **Drilldown**.  
 
@@ -306,7 +306,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Slik angir du timer i prosjektkladden:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2.  Skriv inn følgende informasjon på en ny linje:  
 
     -   **Linjetype**: **(tom)**  
@@ -365,7 +365,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-copy-a-job"></a>Slik kopierer du et prosjekt:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt prosjekt. Angi følgende informasjon:  
 
     -   **Beskrivelse**: **Oppsett av ti konferanserom**  
@@ -390,7 +390,7 @@ Denne gjennomgangen fokuserer på Cronus Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-set-up-a-new-account"></a>Slik konfigurerer du et nytt budsjett  
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen i **Kontoplan**-vinduet for å opprette et nytt kort.  
 3.  Angi følgende informasjon på kortet **Ny finanskonto**:  
 

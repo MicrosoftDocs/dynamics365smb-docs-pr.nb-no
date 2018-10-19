@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/09/2018
+ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 75501b9402bb1c14fcfeb2fc6e61f055a2247493
-ms.openlocfilehash: 38f42e4d44dd38fe70816035711e00561fd9e777
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0371e226de78c8c3894b47e5bebaf0aaf422666c
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/15/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="create-contact-persons"></a>Opprette kontaktpersoner
@@ -24,7 +24,7 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 >   Før du oppretter en kontakt, bør du kontrollere innstillingene for **Arv** i **Markedsføringsoppsett**-vinduet. Oppsett av arv gjør det mulig å kopiere automatisk informasjon om kontaktselskaper, som er felles for kontaktpersoner, for eksempel adressedetaljer, fra kontaktselskapet til kontaktpersonen hver gang du oppretter en kontaktperson for et registrert kontaktselskap.
 
 ## <a name="to-create-a-contact-card-for-a-person"></a>Slik oppretter du et kontaktkort for en person:
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I **Nr.** -feltet angir du et nummer på kontakten.
 

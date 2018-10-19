@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 050456758a2bf4f3489ed382103d5fed99e8fada
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Definere servicevarer og servicevarekomponenter
@@ -30,7 +30,7 @@ Du kan angi grupper av varer som er relaterte med hensyn til reparasjon og vedli
 
 Du tilordner servicevaregrupper til varer **Vare**-kortet og servicevarer på **Servicevare**-kortet.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicevaregrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevaregrupper**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny servicevaregruppe.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. I feltet **Standard kontraktrabatt-%** angir du den standard kontraktrabattprosenten som du vil at servicevarene i gruppen skal ha.  
@@ -39,9 +39,9 @@ Du tilordner servicevaregrupper til varer **Vare**-kortet og servicevarer på **
 7. Hvis du vil registrere varene i gruppen som servicevarer når de selges, velger du feltet **Opprett servicevare**.  
 
 ## <a name="to-set-up-service-item-components"></a>Slik definerer du servicevarekomponenter
-En servicevare kan bestå av flere komponenter, som kan erstattes med reservedeler når varen vedlikeholdes. Disse komponentene defineres på siden **Oversikt over servicevarekomponenter**. Hvis du vil definere komponenter for servicevarer som er stykklister, kan du også kopiere stykklistevarene, og deretter opprette dem som servicevarekomponenter.
+En servicevare kan bestå av flere komponenter, som kan erstattes med reservedeler når varen vedlikeholdes. Disse komponentene defineres i vinduet **Oversikt over servicevarekomponenter**. Hvis du vil definere komponenter for servicevarer som er stykklister, kan du også kopiere stykklistevarene, og deretter opprette dem som servicevarekomponenter.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicevarer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevarer**, og velg deretter den relaterte koblingen.
 2. Åpne servicevaren du vil definere komponenter for.  
 3. Velg handlingen **Komponenter**. Cinduet **Oversikt over servicevarekomponenter** åpnes.  
 4. Legg til en ny komponent.  
@@ -49,7 +49,7 @@ En servicevare kan bestå av flere komponenter, som kan erstattes med reservedel
 6. I feltet **Nr.** -feltet velger du varen eller servicevaren som er en komponent i servicevaren.  
 
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Slik definerer du servicevarekomponenter fra stykklister
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicevarer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevarer**, og velg deretter den relaterte koblingen.  
 2. Åpne servicevaren du vil definere komponenter fra en stykkliste for.  
 3. Velg handlingen **Komponenter**. Vinduet **Oversikt over servicevarekomponenter** åpnes.  
 4. Velg handlingen **Kopier fra stykkliste**.  
@@ -57,9 +57,9 @@ En servicevare kan bestå av flere komponenter, som kan erstattes med reservedel
     Hvis varen som servicevaren er knyttet til, er en stykkliste, opprettes komponentene for alle varene i stykklisten automatisk.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Slik definerer du servicehyller
-Du kan definere servicehyller som identifiserer hvor du lagrer servicevarene. Du tilordner servicehyller til servicevarer på sidene **Serviceordre** og **Servicevareskjema**.  
+Du kan definere servicehyller som identifiserer hvor du lagrer servicevarene. Du tilordner servicehyller til servicevarer i vinduene **Serviceordre** og **Servicevareskjema**.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Servicehyller**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicehyller**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
 ## <a name="see-also"></a>Se også

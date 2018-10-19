@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7f90612764872875077de1dbe250b3d59582372f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
@@ -33,14 +33,14 @@ Følgende kladdebokføringer skjer under bokføring av monteringsordrer:
 
 Diagrammet nedenfor viser strukturen til vare- og ressursposter som er resultat av bokføring av monteringsordrer.  
 
-![Ressurs- og kapasitetskostnader](media/design_details_assembly_posting_1.png "design_details_assembly_posting_1")  
+![Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre](media/design_details_assembly_posting_1.png "Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre")  
 
 > [!NOTE]  
 >  Produksjonsressurser og arbeidssentre er inkludert for å illustrere at kapasitetsposter opprettes fra både produksjon og montering.  
 
 Diagrammet nedenfor viser hvordan monteringsdata flyter inn i poster under bokføring:  
 
-![Dataflyt under bokføring](media/design_details_assembly_posting_2.png "design_details_assembly_posting_2")  
+![Monteringsrelatert oppføringsflyt under bokføring](media/design_details_assembly_posting_2.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
 ## <a name="posting-sequence"></a>Bokføringsrekkefølge  
 Bokføringen av en monteringsordre skjer i følgende rekkefølge:  
@@ -71,7 +71,7 @@ Gjenkjenningsfunksjonen for ordrenivå brukes i konverteringsscenarier, produksj
 
 Figuren nedenfor viser justeringspoststrukturen og hvordan monteringskostnader justeres.  
 
-![Justeringspoststruktur](media/design_details_assembly_posting_3.png "design_details_assembly_posting_3")  
+![Monteringsrelatert oppføringsflyt under kostjustering](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under kostjustering")  
 
 ### <a name="performing-the-adjustment"></a>Utføre justeringen  
 Spredningen av oppdagede justeringer fra material- og ressurskostpriser til monteringsavgangsposter utføres av kjørselen **Juster kostverdi – vareposter**. Den inneholder funksjonen for å justering flere nivåer, som består av følgende to elementer:  
@@ -79,7 +79,7 @@ Spredningen av oppdagede justeringer fra material- og ressurskostpriser til mont
 -   Utfør monteringsordrejustering – som videresender kostnader fra material- og ressursbruk til monteringsavgangsposten. Linje 5 og 6 i algoritmen nedenfor er ansvarlige for dette.  
 -   Justere enkeltnivå – som videresender kostnader for enkeltvarer ved hjelp av lagermetoden. Linje 9 og 10 i algoritmen nedenfor er ansvarlige for dette.  
 
-![Algoritme for monteringsjustering](media/design_details_assembly_posting_4.jpg "design_details_assembly_posting_4")  
+![Sammendrag av kostjusteringensalgoritmen for monteringsbokføring](media/design_details_assembly_posting_4.jpg "Sammendrag av kostjusteringensalgoritmen for monteringsbokføring")  
 
 > [!NOTE]  
 >  Elementet Make WIP Adjustments på linje 7 og 8 er ansvarlig for å videresende produksjonsmateriale og kapasitetsforbruk til avgangen til uferdige produksjonsordrer. Dette brukes ikke ved justering av monteringsordrekost, siden begrepet om VIA ikke gjelder for montering.  

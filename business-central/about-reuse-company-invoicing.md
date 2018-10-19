@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/22/2017
+ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: ddd86615679e6231418b479a440b7555a3e1c50f
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 917887deae163a76b233e1635344e537806f6215
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="using-the-same-office-365-account-in-included365finincludesd365finlongmdmd-and-microsoft-invoicing"></a>Bruke samme Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
@@ -31,7 +31,7 @@ Så du må logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] og gi nytt navn
 
 ### <a name="to-rename-your-company"></a>Slik endrer du navn på selskapet
 1.  Logg på [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-2.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Selskaper**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskaper**, og velg deretter den relaterte koblingen.  
 3.  I **Selskaper**-vinduet velger du **Rediger oversikt**-knappen.  
 4.  Endre navnet i *Mitt selskap*-posten til et annet navn.  
 

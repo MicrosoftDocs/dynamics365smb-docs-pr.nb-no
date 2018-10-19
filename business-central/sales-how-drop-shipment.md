@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 01/25/2018
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4840cde44374f17dcbd2befb167bfdf6110fe6fe
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: 0fc9fee94f06b2452fa38a0a754f054a0ed16a0d
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
@@ -49,14 +49,15 @@ Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ve
 ## <a name="to-post-a-drop-shipment"></a>Bokføre en direkte levering
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne ordren som du laget i "Slik oppretter du en ordre med direkte levering".
 3. I **Levere (antall)**-feltet angir du hvor mye av ordreantallet som skal leveres, hele eller deler av ordreantallet.
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
 
 ## <a name="see-also"></a>Se også
-[Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|  
+[Opprette spesialbestillinger](sales-how-to-create-special-orders.md)  
+[Kjøpe varer for salg](purchasing-how-purchase-products-sale.md)  
 [Selge produkter](sales-how-sell-products.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Salg](sales-manage-sales.md)  

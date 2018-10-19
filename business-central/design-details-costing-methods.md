@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 07/01/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c3eaa16ebf1266a7c90d4130fcb25b2fbbc2b40d
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: c771db9256edfb6cc82f8d7a16a1fdd307d030b7
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
@@ -32,7 +32,7 @@ Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapital
 
  Bildet nedenfor viser hvordan kost flyter gjennom lageret for hver lagermetode.  
 
- ![Lagermetoder](media/design_details_inventory_costing_7_costing_methods.png "design_details_inventory_costing_7_costing_methods")  
+ ![Lagermetoder](media/design_details_inventory_costing_7_costing_methods.png "Lagermetoder")  
 
  Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og om de bruker faktiske kostnad eller standard kostnad som verdisettingsgrunnlag. Tabellen nedenfor forklarer de ulike egenskapene. (LIFO-metoden er utelukket fordi den er veldig lik FIFO-metoden.)  
 

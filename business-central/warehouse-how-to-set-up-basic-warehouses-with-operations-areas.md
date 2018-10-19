@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 09/08/2017
+ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: ca194b2aeaf906c498ac541448ffac0f691fdd1b
+ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
+ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
@@ -43,13 +43,13 @@ Fremgangsmåtene nedenfor er basert på definisjon av grunnleggende lageraktivit
 >  I den følgende fremgangsmåten velges oppsettsfeltet **Hylle obligatorisk** som en nødvendig forutsetning fordi det regnes som grunnlaget for ethvert nivå av lagerstyring.  
 
 ## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Slik aktiverer du lagerdokumenter for interne operasjonsaktiviteter:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonskortet du vil definere.  
 3.  På hurtigfanen **Lager**, merker du av for **Plassering nødv.** for å indikere at når et inngående eller internt kildedokument med hyllekode frigis, kan en lagerplassering eller et lagerflyttingsdokument opprettes.  
 4.  Merk av for **Plukk nødv.** for å indikere at når det opprettes utgående eller internt kildedokument med hyllekode, må det opprettes et lagerplukk- eller en lagerflyttingsdokument.  
 
 ## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Slik definerer du en standardhyllestruktur i produksjonsområdet:  
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.  
 3.  På hurtigfanen **Hyller**, i feltet **Åpen prod.hyllekode** angir du koden for hyllen i produksjonsområdet som har rikelig med komponenter maskinoperatøren kan forbruke fra uten å be om en lageraktivitet for å bringe dem til hyllen. Varer som er plassert i denne hyllen er vanligvis konfigurert for automatisk bokføring eller trekk. Dette betyr at **Trekkmetode**-feltet inneholder **Fremover** eller **Bakover**.  
 4. Angi koden for hyllen i feltet **Til-Hyllekode for produksjon** i produksjonsområdet der komponentene som plukkes til produksjonen på denne lokasjonen, plasseres som standard før de kan brukes. Varer som er plassert i denne hyllen er vanligvis konfigurert for manuell forbruksbokføring. Dette betyr at **Trekkmetode**-feltet inneholder **Manuell** eller **Plukk + Fremover** eller **Plukk + Bakover** for lagerplukkinger og lagerflyttinger.  
@@ -73,13 +73,13 @@ Når du plukker og leverer salgslinjeantall som er montert til ordre, må du fø
 Hvis du vil ha mer informasjon, se [Monteringsstyring](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Slik konfigurerer du at en lagerflytting opprettes automatisk når lagerplukkingen for monteringsvaren opprettes
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Monteringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Monteringsoppsett**, og velg deretter den relaterte koblingen.
 2. Merk av for **Opprett flyttinger automatisk**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Slik definerer du hyllen i monteringsområdet der komponenter plasseres som standard, før de kan brukes i monteringen:
 Verdien i dette feltet settes automatisk inn i **Hyllekode**-feltet på monteringsordrelinjer når denne lokasjonen angis i **Lokasjonskode**-feltet på monteringsordrelinjen.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Til-Hyllekode for montering**.
 
@@ -91,7 +91,7 @@ Hyllekoder som er definert på lokasjonskort, definerer en standard lagerflyt fo
 > [!NOTE]
 > Dette oppsettet er bare mulig for lokasjoner der Hylle obligatorisk-feltet er valgt.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Fra-Hyllekode for montering**.
 
@@ -112,7 +112,7 @@ Hvis feltet **Hyllek. lev. fra m. til ordre** er tomt, brukes **Fra-Hyllekode fo
 
 Den samme hyllekoden kopieres så til **Hyllekode**-feltet på lagerplukklinjen som håndterer leveringen av montere-til-ordre-antallet. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Hyllek. lev. fra m. til ordre**.
 
@@ -128,7 +128,7 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 > [!Caution]
 > Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjonskomponenter med vinduet Lagerplukk.
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Lokasjoner**, og velg deretter den relaterte koblingen. Velg lokasjonskortet som du vil oppdatere.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen. Velg lokasjonskortet som du vil oppdatere.  
 2.  Velg handlingen **Hyller**.  
 3.  Velg feltet **Dedikert** for hver hylle du vil bruke utelukkende til bestemte interne operasjoner, og hvor du vil at antallene som er plassert der skal være reservert for den interne operasjonen.  
 
