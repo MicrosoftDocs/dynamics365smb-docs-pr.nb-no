@@ -63,7 +63,7 @@ Du kan kopiere så mange rader du har rullet inn i visningen. For eksempel hvis 
 ## <a name="must-i-have-the-exact-same-number-of-columns-when-pasting-rows"></a>Må jeg ha nøyaktig samme antall kolonner når jeg limer inn rader?
 Ja. Om du kopierer fra [!INCLUDE[d365fin](includes/d365fin_md.md)], fra Excel eller en annen tabellkilde, må radene du limer inn ha nøyaktig antall tilsvarende kolonner – hverken færre eller flere.
 
-## <a name="why-do-i-get-errors-when-pasting-rows"></a>Hvorfor får jeg feil når jeg limer inn rader? 
+## <a name="why-do-i-get-errors-when-pasting-rows"></a>Hvorfor får jeg feil når jeg limer inn rader?
 Når du limer inn i [!INCLUDE[d365fin](includes/d365fin_md.md)], kontrolleres hver rad slik at verdiene i hver kolonne er gyldig. Hvis en kolonne inneholder en verdi som ikke er gyldig, stopper innlimingen, og det vises en feilmelding. Kontroller at kolonnene har gyldige verdier før du limer dem inn, for å unngå dette.
 
 
