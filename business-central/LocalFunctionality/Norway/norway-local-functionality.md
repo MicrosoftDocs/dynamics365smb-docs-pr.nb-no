@@ -8,21 +8,60 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 70c6385776f75d57bda928b6178e0341bef28e04
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 248c69ffca08276f7c8c7f3a98cb41ebcca146df
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
-# <a name="norway-local-functionality"></a><span data-ttu-id="f677e-103">Funksjonalitet som er spesifikk for norske brukere</span><span class="sxs-lookup"><span data-stu-id="f677e-103">Norway Local Functionality</span></span>
-<span data-ttu-id="f677e-104">Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="f677e-104">The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].</span></span>  
+# <a name="norway-local-functionality"></a><span data-ttu-id="64517-103">Funksjonalitet som er spesifikk for norske brukere</span><span class="sxs-lookup"><span data-stu-id="64517-103">Norway Local Functionality</span></span>
+<span data-ttu-id="64517-104">Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].</span><span class="sxs-lookup"><span data-stu-id="64517-104">The following topics describe local functionality that is unique to the Norwegian version of [!INCLUDE[prodshort](../../includes/prodshort.md)].</span></span>  
 
-## <a name="in-this-section"></a><span data-ttu-id="f677e-105">I denne delen</span><span class="sxs-lookup"><span data-stu-id="f677e-105">In This Section</span></span>  
-[<span data-ttu-id="f677e-106">Importer lønnstransaksjoner</span><span class="sxs-lookup"><span data-stu-id="f677e-106">Import Payroll Transactions</span></span>](how-to-import-payroll-transactions.md)  
-[<span data-ttu-id="f677e-107">Utvidelsen Lønnsdatadefinisjoner (NO)</span><span class="sxs-lookup"><span data-stu-id="f677e-107">The Payroll Data Definitions (NO) Extension</span></span>](ui-extensions-payroll-data-definitions-no.md)  
+## <a name="in-this-section"></a><span data-ttu-id="64517-105">I denne delen</span><span class="sxs-lookup"><span data-stu-id="64517-105">In This Section</span></span>  
+[<span data-ttu-id="64517-106">Utligne finansposter i lukkede perioder</span><span class="sxs-lookup"><span data-stu-id="64517-106">Apply General Ledger Entries in Closed Periods</span></span>](how-to-apply-general-ledger-entries-in-closed-periods.md)  
+[<span data-ttu-id="64517-107">EHF – Elektronisk fakturering i Norge</span><span class="sxs-lookup"><span data-stu-id="64517-107">EHF Electronic Invoicing in Norway</span></span>](ehf-electronic-invoicing-in-norway.md)  
+[<span data-ttu-id="64517-108">Elektroniske banktjenester i Norge</span><span class="sxs-lookup"><span data-stu-id="64517-108">Electronic Banking in Norway</span></span>](electronic-banking-in-norway.md)  
+[<span data-ttu-id="64517-109">Elektroniske betalinger til leverandører i Norge</span><span class="sxs-lookup"><span data-stu-id="64517-109">Electronic Payments to Vendors in Norway</span></span>](electronic-payments-to-vendors-in-norway.md)  
+[<span data-ttu-id="64517-110">Beregne forholdsmessig MVA</span><span class="sxs-lookup"><span data-stu-id="64517-110">Calculate Proportional VAT</span></span>](how-to-calculate-proportional-vat.md)  
+[<span data-ttu-id="64517-111">Annullere betalinger</span><span class="sxs-lookup"><span data-stu-id="64517-111">Cancel Payments</span></span>](how-to-cancel-payments.md)  
+[<span data-ttu-id="64517-112">Opprette elektroniske dokumenter for EHF</span><span class="sxs-lookup"><span data-stu-id="64517-112">Create Electronic Documents for EHF</span></span>](how-to-create-electronic-documents-for-ehf.md)  
+[<span data-ttu-id="64517-113">Opprette manuelle remitteringsoppdrag</span><span class="sxs-lookup"><span data-stu-id="64517-113">Create Manual Remittance Payments</span></span>](how-to-create-manual-remittance-payments.md)  
+[<span data-ttu-id="64517-114">Opprett gjentakelsesordrer</span><span class="sxs-lookup"><span data-stu-id="64517-114">Create Recurring Orders</span></span>](how-to-create-recurring-orders.md)  
+[<span data-ttu-id="64517-115">Opprette remitteringskontoer</span><span class="sxs-lookup"><span data-stu-id="64517-115">Create Remittance Accounts</span></span>](how-to-create-remittance-accounts.md)  
+[<span data-ttu-id="64517-116">Opprette remitteringsforslag</span><span class="sxs-lookup"><span data-stu-id="64517-116">Create Remittance Suggestions</span></span>](how-to-create-remittance-suggestions.md)  
+[<span data-ttu-id="64517-117">Slette remitteringsoppdrag</span><span class="sxs-lookup"><span data-stu-id="64517-117">Delete Remittance Payment Orders</span></span>](how-to-delete-remittance-payment-orders.md)  
+[<span data-ttu-id="64517-118">Eksportere remitteringsoppdrag</span><span class="sxs-lookup"><span data-stu-id="64517-118">Export Remittance Payments</span></span>](how-to-export-remittance-payments.md)  
+[<span data-ttu-id="64517-119">Importere og bokføre OCR-betalinger</span><span class="sxs-lookup"><span data-stu-id="64517-119">Import and Post OCR Payments</span></span>](how-to-import-and-post-ocr-payments.md)  
+[<span data-ttu-id="64517-120">Importere betalingsreturdata</span><span class="sxs-lookup"><span data-stu-id="64517-120">Import Payment Return Data</span></span>](how-to-import-payment-return-data.md)  
+[<span data-ttu-id="64517-121">Importer lønnstransaksjoner</span><span class="sxs-lookup"><span data-stu-id="64517-121">Import Payroll Transactions</span></span>](how-to-import-payroll-transactions.md)  
+[<span data-ttu-id="64517-122">Skrive ut en MVA-avstemmingsrapport</span><span class="sxs-lookup"><span data-stu-id="64517-122">Print a VAT Reconciliation Report</span></span>](how-to-print-a-vat-reconciliation-report.md)  
+[<span data-ttu-id="64517-123">Skrive ut rapporten OCR-kladd - test</span><span class="sxs-lookup"><span data-stu-id="64517-123">Print the OCR Journal Test Report</span></span>](how-to-print-the-ocr-journal-test-report.md)  
+[<span data-ttu-id="64517-124">Sette opp kunder for EHF</span><span class="sxs-lookup"><span data-stu-id="64517-124">Set Up Customers for EHF</span></span>](how-to-set-up-customers-for-ehf.md)  
+[<span data-ttu-id="64517-125">Definere dokumentutskrift</span><span class="sxs-lookup"><span data-stu-id="64517-125">Set Up Document Printing</span></span>](how-to-set-up-document-printing.md)  
+[<span data-ttu-id="64517-126">Angi EHF</span><span class="sxs-lookup"><span data-stu-id="64517-126">Set Up EHF</span></span>](how-to-set-up-ehf.md)  
+[<span data-ttu-id="64517-127">Opprette KID-numre på salgsdokumenter</span><span class="sxs-lookup"><span data-stu-id="64517-127">Set Up KID Numbers on Sales Documents</span></span>](how-to-set-up-kid-numbers-on-sales-documents.md)  
+[<span data-ttu-id="64517-128">Opprette OCR-betalinger</span><span class="sxs-lookup"><span data-stu-id="64517-128">Set Up OCR Payments</span></span>](how-to-set-up-ocr-payments.md)  
+[<span data-ttu-id="64517-129">Definere betalingslinjeinformasjon</span><span class="sxs-lookup"><span data-stu-id="64517-129">Set Up Payment Line Information</span></span>](how-to-set-up-payment-line-information.md)  
+[<span data-ttu-id="64517-130">Opprette gjentakelsesgrupper</span><span class="sxs-lookup"><span data-stu-id="64517-130">Set Up Recurring Groups</span></span>](how-to-set-up-recurring-groups.md)  
+[<span data-ttu-id="64517-131">Definere gjentakelsesordrer</span><span class="sxs-lookup"><span data-stu-id="64517-131">Set Up Recurring Orders</span></span>](how-to-set-up-recurring-orders.md)  
+[<span data-ttu-id="64517-132">Sette opp remitteringsavtaler</span><span class="sxs-lookup"><span data-stu-id="64517-132">Set Up Remittance Agreements</span></span>](how-to-set-up-remittance-agreements.md)  
+[<span data-ttu-id="64517-133">Angi leverandører for remittering</span><span class="sxs-lookup"><span data-stu-id="64517-133">Set Up Vendors for Remittance</span></span>](how-to-set-up-vendors-for-remittance.md)  
+[<span data-ttu-id="64517-134">Kontrollere remitteringsoppdrag</span><span class="sxs-lookup"><span data-stu-id="64517-134">Test Remittance Payments</span></span>](how-to-test-remittance-payments.md)  
+[<span data-ttu-id="64517-135">Bruke én mva-kode i kladder</span><span class="sxs-lookup"><span data-stu-id="64517-135">How to Use One VAT Code in Journals</span></span>](how-to-use-one-vat-code-in-journals.md)  
+[<span data-ttu-id="64517-136">Vise remitteringsfeilkoder</span><span class="sxs-lookup"><span data-stu-id="64517-136">View Remittance Error Codes</span></span>](how-to-view-remittance-error-codes.md)  
+[<span data-ttu-id="64517-137">Norsk giro og OCR-B-skrift</span><span class="sxs-lookup"><span data-stu-id="64517-137">Norwegian Giro and OCR-B Font</span></span>](norwegian-giro-and-ocr-b-font.md)  
+[<span data-ttu-id="64517-138">Norske salgsdokumenter</span><span class="sxs-lookup"><span data-stu-id="64517-138">Norwegian Sales Documents</span></span>](norwegian-sales-documents.md)  
+[<span data-ttu-id="64517-139">Norske mva-koder</span><span class="sxs-lookup"><span data-stu-id="64517-139">Norwegian VAT Codes</span></span>](norwegian-vat-codes.md)  
+[<span data-ttu-id="64517-140">Norsk mva-rapportering</span><span class="sxs-lookup"><span data-stu-id="64517-140">Norwegian VAT Reporting</span></span>](norwegian-vat-reporting.md)  
+[<span data-ttu-id="64517-141">Forholdsmessig MVA</span><span class="sxs-lookup"><span data-stu-id="64517-141">Proportional VAT</span></span>](proportional-vat.md)  
+[<span data-ttu-id="64517-142">Mottakerreferansekoder</span><span class="sxs-lookup"><span data-stu-id="64517-142">Recipient Reference Codes</span></span>](recipient-reference-codes.md)  
+[<span data-ttu-id="64517-143">Gjentakelsesordrer</span><span class="sxs-lookup"><span data-stu-id="64517-143">Recurring Orders</span></span>](recurring-orders.md)  
+[<span data-ttu-id="64517-144">Remitteringsfeil</span><span class="sxs-lookup"><span data-stu-id="64517-144">Remittance Errors</span></span>](remittance-errors.md)  
+[<span data-ttu-id="64517-145">Typer betalingsreturfiler</span><span class="sxs-lookup"><span data-stu-id="64517-145">Types of Payment Return Files</span></span>](types-of-payment-returns-files.md)  
+[<span data-ttu-id="64517-146">Lønnsdatadefinisjoner</span><span class="sxs-lookup"><span data-stu-id="64517-146">Payroll Data Definitions</span></span>](ui-extensions-payroll-data-definitions-no.md)  
 <!--
   [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
 
@@ -34,6 +73,6 @@ ms.lasthandoff: 09/28/2018
  [Recurring Orders](recurring-orders.md)  
  -->
 
-## <a name="see-also"></a><span data-ttu-id="f677e-108">Se også</span><span class="sxs-lookup"><span data-stu-id="f677e-108">See Also</span></span>
-<span data-ttu-id="f677e-109">[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f677e-109">[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)</span></span>    
+## <a name="see-also"></a><span data-ttu-id="64517-147">Se også</span><span class="sxs-lookup"><span data-stu-id="64517-147">See Also</span></span>
+<span data-ttu-id="64517-148">[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="64517-148">[Working with [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)</span></span>    
 
