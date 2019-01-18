@@ -12,19 +12,19 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 7c346455a9e27d7274b116754f1d594484b95d67
-ms.openlocfilehash: 09866f6774af5b2d9644015e986772052146d901
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9391da5eb5fb06bfcaaf8ee2503f694801888d2f
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-employee-absence"></a>Håndtere ansattes fravær
-For å kunne håndtere fraværet til en ansatt må du registrere fraværet i vinduet **Fraværsregistrering**. Det kan deretter vises på forskjellige måter for analyse og rapportering.
+For å kunne håndtere fraværet til en ansatt må du registrere fraværet på siden **Fraværsregistrering**. Det kan deretter vises på forskjellige måter for analyse og rapportering.
 
-Du kan vise ansattes fravær i to forskjellige vinduer:
+Du kan vise ansattes fravær på to forskjellige sider:
 
-* I vinduet **Fraværsregistrering** der du registrerer alle ansattes fravær med en linje for hvert fravær.
-* I vinduet **Ansattes fravær** der fraværene for bare én ansatt vises. Dette er informasjonen du registrerte i vinduet **Fraværsregistrering**, filtrert etter den bestemte ansatte.
+* På siden **Fraværsregistrering** der du registrerer alle ansattes fravær med en linje for hvert fravær.
+* På siden **Ansattes fravær** der fraværene for bare én ansatt vises. Dette er informasjonen du registrerte på siden **Fraværsregistrering**, filtrert etter den bestemte ansatte.
 
 Hvis du skal ha nytte av statistikken, bør du alltid bruke samme enhet (time eller dag) når du registrerer fraværet til de ansatte.
 
@@ -34,7 +34,7 @@ Du kan registrere fraværet daglig eller etter et annet intervall som oppfyller 
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Fraværsregistrering** og velger deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut en linje for hvert ansattfravær du vil registrere.
-4. Lukk vinduet.
+4. Lukk siden.
 
     > [!Tip]
     > Hvis du skal ha nytte av statistikken, må du alltid bruke samme enhet, time eller dag, når du registrerer fraværet til de ansatte.
@@ -43,30 +43,30 @@ Du kan registrere fraværet daglig eller etter et annet intervall som oppfyller 
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Ansatte** og velger deretter den relaterte koblingen.
 2. Velg den aktuelle ansatte, og velg deretter handlingen **Fravær**.
 
-    Vinduet **Ansattes fravær** åpnes og viser samlet fravær og når fraværet begynte og sluttet.
+    Siden **Ansattes fravær** åpnes og viser samlet fravær og når fraværet begynte og sluttet.
 
 ## <a name="to-view-an-employees-absence-by-categories"></a>Slik viser du fraværet til en ansatt etter kategorier
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Ansatte** og velger deretter den relaterte koblingen.
 2. Velg den aktuelle ansatte, og velg deretter handlingen **Fravær per kategori**.
-3. I vinduet **Ansattes fravær per kategori** fyller du ut filterfeltene etter behov, og deretter velger du handlingen **Vis matrise**.
+3. På siden **Ansattes fravær per kategori** fyller du ut filterfeltene etter behov, og deretter velger du handlingen **Vis matrise**.
 
-    Vinduet **Ansattes fravær per kat. - matrise** åpnes og viser alt fravær, inndelt etter fraværsårsak.
+    Siden **Ansattes fravær per kat. - matrise** åpnes og viser alt fravær, inndelt etter fraværsårsak.
 
 ## <a name="to-view-all-employee-absences-by-category"></a>Slik viser du alt ansattfravær etter kategori:
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Fraværsregistrering** og velger deretter den relaterte koblingen.
-2. I vinduet **Fraværsregistrering** velger handlingen du **Oversikt per kategori**.
-3. I vinduet **Fravær per kategori - oversikt** angir du et filter i **Filter - ansattnr.**, slik at du kan vise fraværet til en bestemt ansatt eller en definert gruppe av ansatte.
+2. På siden **Fraværsregistrering** velger handlingen du **Oversikt per kategori**.
+3. På siden **Fravær per kategori - oversikt** angir du et filter i **Filter - ansattnr.**, slik at du kan vise fraværet til en bestemt ansatt eller en definert gruppe av ansatte.
 4. Velg handlingen **Vis matrise**.
 
-    Vinduet **Matrise for fraværsoversikt etter kategorier** åpnes og viser fraværet til alle de ansatte, inndelt etter ulike fraværsårsaker.
+    Siden **Matrise for fraværsoversikt etter kategorier** åpnes og viser fraværet til alle de ansatte, inndelt etter ulike fraværsårsaker.
 
 ## <a name="to-view-all-employee-absences-by-period"></a>Slik viser du alt ansattfravær etter periode:
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Fraværsregistrering** og velger deretter den relaterte koblingen.
-   I vinduet **Fraværsregistrering** velger handlingen du **Oversikt per periode**.
-2. I vinduet **Fraværsovers. per periode** angir du et filter i feltet **Filter årsak til fravær**, slik at du kan vise ansattfravær med bestemte årsaker.
+   På siden **Fraværsregistrering** velger handlingen du **Oversikt per periode**.
+2. På siden **Fraværsovers. per periode** angir du et filter i feltet **Filter årsak til fravær**, slik at du kan vise ansattfravær med bestemte årsaker.
 3. Velg handlingen **Vis matrise**.
 
-    Vinduet **Fraværsovers. per periode - matrise** åpnes og viser fraværet til ansatte, inndelt etter perioder.
+    Siden **Fraværsovers. per periode - matrise** åpnes og viser fraværet til ansatte, inndelt etter perioder.
 
 ## <a name="see-also"></a>Se også
 [Administrere personale](hr-manage-human-resources.md)  

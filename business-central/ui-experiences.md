@@ -12,17 +12,17 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b24ef5c8750bef5ac2b5475a48a5807838162c69
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å hjelpe deg med å drive bedriften din, uansett hvilken bransje du er i. I kjernen av [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du prosessene for finansrapportering, salg og innkjøp. Du legger til opplevelser i henhold til forretningsbehovene, ved å legge til utvidelser fra AppSource eller ved å endre Opplevelse-innstillingen for selskapet. Hvis du vil ha mer informasjon, gå til [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md), eller delen "Velge en brukeropplevelse for å vise eller skjule funksjoner".
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Velge en brukeropplevelse for å vise eller skjule funksjoner
-Brukeropplevelsen bestemmer hvor mye av kjernefunksjonaliteten som er tilgjengelig, når du og dine kolleger bruker [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan velge brukeropplevelsen for firmaet, i vinduet **Selskapsopplysninger** vinduet i feltet **Opplevelse**.
+Brukeropplevelsen bestemmer hvor mye av kjernefunksjonaliteten som er tilgjengelig, når du og dine kolleger bruker [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan velge brukeropplevelsen for firmaet, på siden **Selskapsopplysninger** i feltet **Opplevelse**.
 
 > [!NOTE]  
 > Denne innstillingen gjelder for alle brukerne i firmaet. Brukere kan ytterligere tilpasse sin egen opplevelse ved å endre sideoppsett og innholdet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet og sider](ui-personalization-user.md).  
@@ -43,21 +43,21 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funksjoner etter oppgradering av en plan
 Brukere tilordnes til planer i Office 365-administrasjonssenteret i forbindelse med det generelle arbeidet med å opprette Business Central-brukere. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
-Du kan deretter definere hvilke bestemte funksjoner og vinduer i opplevelsen disse brukere skal ha tilgang til, ved å tilordne tillatelsessett. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).
+Du kan deretter definere hvilke bestemte funksjoner og sider i opplevelsen disse brukerne skal ha tilgang til, ved å tilordne tillatelsessett. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Slik oppdaterer du planendringer i brukergrupper
 Når du har endret brukerplaner i Office 365-administrasjonssenteret, for eksempel tilordnet flere brukere til Premium-planen, må du gjenspeile endringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Logg på som administrator.
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
-3. I **Brukere**-vinduet velger du **Oppdater alle brukergrupper**-handlingen.
+3. På siden **Brukere** velger du handlingen **Oppdater alle brukergrupper**.
 
 Alle nye opplysninger om brukernes planer og deres tilordnede brukergrupper oppdateres nå i henhold til planendringene.
 
 ### <a name="to-select-the-premium-experience"></a>Slik velger du Premium-opplevelsen
 Du kan nå fortsette med å velge den nye opplevelsen.
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
-2. I **Selskapsopplysninger**-vinduet i hurtigfanen **Brukeropplevelse** velger du Premium i **Opplevelse**-feltet.
+2. På siden **Selskapsopplysninger** i hurtigfanen **Brukeropplevelse** velger du Premium i **Opplevelse**-feltet.
 
 ## <a name="help-assumes-premium-experience"></a>Hjelpen tar utgangspunkt i Premium-opplevelsen
 Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for funksjonsområdene Produksjon og Servicehåndtering, om at de krever **Premium**-opplevelsen.

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c2e70ad534a28cf5062e9e54a2dfbd3af6afaa39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Legge til koblinger i webområder, dokumenter eller programmer i poster
@@ -26,7 +26,7 @@ Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du 
 
 1.  Åpne posten du vil knytte koblingen til, for eksempel et kundekort eller en ordre. Hvis du vil knytte koblingen til en bestemt linje, for eksempel en kladdelinje, merker du linjen.  
 
-2.  Velg **Koblinger** for å åpne **Koblinger**-vinduer som viser alle gjeldende koblinger som er lagt til posten.
+2.  Velg **Koblinger** for å åpne **Koblinger**-sider som viser alle gjeldende koblinger som er lagt til posten.
 
 3. Hvis du vil legge til en ny kobling, velger du **+ny**.
 
@@ -43,7 +43,7 @@ Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du 
 
 ## <a name="to-delete-a-link-from-a-record"></a>Slik sletter du en kobling fra en post  
 
-Hvis du vil slette en kobling, i vinduet **Koblinger**, kan du velge **...** og deretter **Slett**.
+Hvis du vil slette en kobling, gå til siden **Koblinger** og velg **...** og deretter **Slett**.
 
 Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en kunde, slettes alle koblingene som er knyttet til posten. Hvis du imidlertid sletter poster ved å bruke en kjørsel, for eksempel kjørselen **Slett fakturerte ordrer**, lagres koblingene i databasen. Hvis du vil slette koblingene fra databasen, kjører du kodeenheten **Slett koblinger til løse poster**. For å gjøre dette velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Slett koblinger til løse poster** og velger deretter den relaterte koblingen.   
 
@@ -51,7 +51,7 @@ Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en k
 
 1.  Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Data Deletion**, and then choose the related link.  
 
-2.  In the **Data Deletion** window, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
+2.  On the **Data Deletion** page, choose **Tasks**, and then choose **Delete Orphaned Record Links**.  -->
 
 ## <a name="see-also"></a>Se også  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

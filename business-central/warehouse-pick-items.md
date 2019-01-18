@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4258d6b2edea44dbf86b649ffb4c515473421a55
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="pick-items"></a>Plukke varer
@@ -27,9 +27,9 @@ Hvis du velger å organisere og registrere plukkingsaktivitet med lagerdokumente
 > [!NOTE]
 > Selv om innstillingen kalles **Plukk nødv.**, kan du bokføre følgesedler direkte fra kildedokumentet på lokasjonen der du velger denne avmerkingsboksen.
 
-Hvis lokasjonen er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du vinduet **Lagerplukk** til å organisere opplysningene om plukkingen, skrive ut informasjonen om plukkingen, angi resultatet av plukkingen, og bokføre plukkingsopplysningene, noe som fører til at leveringen av varene bokføres. Hvis du plukker komponenter til en produksjonsordre, vil også forbruket bokføres når du bokfører plukkingen.
+Hvis lokasjonen er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å organisere opplysningene om plukkingen, skrive ut informasjonen om plukkingen, angi resultatet av plukkingen, og bokføre plukkingsopplysningene, noe som fører til at leveringen av varene bokføres. Hvis du plukker komponenter til en produksjonsordre, vil også forbruket bokføres når du bokfører plukkingen.
 
-Hvis du har definert lokasjonen til å kreve både plukk- og leveringsbehandling, det vil si at du har merket av for feltet **Plukk nødv.** og **Levering nødv.** på lokasjonskortet, bruker du vinduet **Plukk** til å håndtere plukkingen. Plukk fungerer på samme måte som Lagerplukk, bortsett fra at du registrerer plukkingen i stedet for å bokføre opplysningene om den. Denne registreringsprosessen bokfører ikke leveringen, men gjør bare varene tilgjengelig for levering. Som lagerleder kan du bruke plukkforslag til å organisere opplysninger om plukking før du oppretter de enkelte plukkinstruksjonene.
+Hvis du har definert lokasjonen til å kreve både plukk- og leveringsbehandling, det vil si at du har merket av for feltet **Plukk nødv.** og **Levering nødv.** på lokasjonskortet, bruker du siden **Plukk** til å håndtere plukkingen. Plukk fungerer på samme måte som Lagerplukk, bortsett fra at du registrerer plukkingen i stedet for å bokføre opplysningene om den. Denne registreringsprosessen bokfører ikke leveringen, men gjør bare varene tilgjengelig for levering. Som lagerleder kan du bruke plukkforslag til å organisere opplysninger om plukking før du oppretter de enkelte plukkinstruksjonene.
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
 

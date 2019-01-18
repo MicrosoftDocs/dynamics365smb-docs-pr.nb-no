@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2c0c5ecf8d99d0d49abdc4056289be00219b07a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 59db444b6ce498d987d4aeb4361e119001acd2a3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-segments"></a>Opprette segmenter.
@@ -27,7 +27,7 @@ Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel
 2. Velg handlingen **Ny**.
 3. I inndelingen **Generelt**, i **Nr.** -feltet, angir du et nummer på segmentet.
 
-    Hvis du har definert en nummerserie for segmenter i vinduet **Markedsføringsoppsett**, kan du eventuelt trykke Enter for å velge neste tilgjengelige segmentnummer.
+    Hvis du har definert en nummerserie for segmenter på siden **Markedsføringsoppsett**, kan du eventuelt trykke Enter for å velge neste tilgjengelige segmentnummer.
 4. Fyll ut de andre feltene i dette hodet.
 
 Nå kan du legge til koblinger i segmentet. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).

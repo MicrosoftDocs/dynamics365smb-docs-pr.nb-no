@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7c4ea5244379c5a7fcf45f1b3ea2b3a3b36280bb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
@@ -22,7 +22,7 @@ Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle d
 
 Som forberedelse til å opprette en datautvekslingsdefinisjon for en datafil eller -strøm, kan du bruke det tilknyttede XML-skjemaet til å definere hvilke dataelementer skal tas med i hurtigfanen **Kolonnedefinisjoner**. Se trinn 6 under Slik beskriver du formateringen av linjer og kolonner i filen. Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
-Vanligvis setter du opp datautvekslingsdefinisjoner i vinduet **Datautvekslingsdefinisjon**. Men når du setter opp en datautvekslingsdefinisjon for å oppdatere valutakurser, starter du prosessen i det forenklede vinduet **Kort for oppsett for val.kursoppdatering**.  
+Vanligvis setter du opp datautvekslingsdefinisjoner på siden **Datautvekslingsdefinisjon**. Men når du setter opp en datautvekslingsdefinisjon for å oppdatere valutakurser, starter du prosessen på den forenklede siden **Kort for oppsett for val.kursoppdatering**.  
 
 > [!NOTE]  
 >  Hvis filen som konverteres, er i XML-format, skal begrepet *kolonne* i dette emnet tolkes som *et XML-element som inneholder data*.  
@@ -36,8 +36,8 @@ Dette emnet inneholder følgende fremgangsmåter:
 ## <a name="to-create-a-data-exchange-definition"></a>Slik oppretter du en datautvekslingsdefinisjon:  
 Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:  
 
-1. I vinduet **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen.  
-2. I vinduet **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+1. På siden **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen.  
+2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
      Dette er beskrevet i følgende fremgangsmåter.  
 
@@ -84,7 +84,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
      Fortsett med å beskrive formateringen av kolonner i datafilen ved å fylle ut feltene i hurtigfanen **Kolonnedefinisjoner** som beskrevet i tabellen nedenfor. Du kan bruke filstrukturen, for eksempel en XSD-fil, for datafilen til å forhåndsutfylle hurtigfanen med de aktuelle elementene. Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 6. I hurtigfanen **Kolonnedefinisjoner** velger du **Hent filstruktur**.  
-7. I vinduet **Hent filstruktur** velger du den relaterte strukturfilen og velger deretter **OK**-knappen. Linjene i hurtigfanen **Kolonnedefinisjoner** fylles ut i henhold til strukturen til datafilen.  
+7. På siden **Hent filstruktur** velger du den relaterte strukturfilen og velger deretter **OK**-knappen. Linjene i hurtigfanen **Kolonnedefinisjoner** fylles ut i henhold til strukturen til datafilen.  
 8. I hurtigfanen **Kolonnedefinisjoner** redigerer eller fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
@@ -105,10 +105,10 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
  Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]som kolonner eller XML-elementer i datafilen skal tilordnes til.  
 
 > [!NOTE]  
->  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon i vinduet **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365finmdmd"></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
-1. I hurtigfanen **Linjedefinisjoner** velger du linjen for tilordning av kolonner til felt, og deretter velger du **Felttilordning**. Vinduet **Tilordning for datautveksling** åpnes.  
+1. I hurtigfanen **Linjedefinisjoner** velger du linjen for tilordning av kolonner til felt, og deretter velger du **Felttilordning**. Siden **Tilordning for datautveksling** åpnes.  
 2. I hurtigfanen **Generelt** angir du tilordningsoppsettet ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
@@ -124,7 +124,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Kolonnenr.**|Angi hvilken kolonne i datafilen du vil definere en tilordning for.<br /><br /> Du kan bare velge kolonner som vises som linjer i hurtigfanen **Kolonnedefinisjoner** i vinduet **Datautvekslingsdefinisjon**.|  
+    |**Kolonnenr.**|Angi hvilken kolonne i datafilen du vil definere en tilordning for.<br /><br /> Du kan bare velge kolonner som vises som linjer i hurtigfanen **Kolonnedefinisjoner** på siden **Datautvekslingsdefinisjon**.|  
     |**Felt-ID**|Angi hvilket felt kolonnen i feltet **Kolonnenr.** er tilordnet.<br /><br /> Du kan bare velge blant felt som finnes i tabellen du har angitt i **Tabell**-feltet i hurtigfanen **Generelt**.|  
     |**Valgfritt**|Angi at tilordningen hoppes over hvis feltet er tomt. **Obs!**  Hvis du ikke merker av for alternativet, vil det oppstå en eksportfeil hvis feltet er tomt. **Obs!**  Dette feltet er bare relevant for eksport.|  
     |**Måltabell-ID**|Synlig bare når det er merket av for **Bruk som foreløpig tabell**.<br /><br /> Angirtabellen som verdien i feltet **Kolonneoverskrift** blir tilordnet til når du bruker en foreløpig tabell for dataimport.|  
@@ -148,7 +148,7 @@ Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du
 ### <a name="to-import-an-existing-data-exchange-definition"></a>Slik importerer du en eksisterende datautvekslingsdefinisjon:  
 1. Lagre XML-filen som representerer datautvekslingsdefinisjonen, på en passende plassering.  
 2. Skriv inn **Datautvekslingsdefinisjoner** i **Søk**-boksen, og velg deretter den tilknyttede koblingen.  
-3. Velg handlingen **Ny**. Vinduet **Datautvekslingdefinisjon** åpnes.  
+3. Velg handlingen **Ny**. Siden **Datautvekslingdefinisjon** åpnes.  
 4. Velg **Importer datautvekslingsdefinisjon**.  
 5. Velg filen du lagret i trinn 1.  
 

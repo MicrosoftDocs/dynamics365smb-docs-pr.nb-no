@@ -12,14 +12,14 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 0ba40eb247c1edb2b4d8c7437bf60790545799ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
-Fra **Direct Debit-oppkrevinger**-vinduet kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter formatet for SEPA Direct Debit, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.  
+Fra **Direct Debit-oppkrevinger**-siden kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter formatet for SEPA Direct Debit, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.  
 
 Du kan gjøre det mulig å eksportere et bankfilformat som ikke støttes som standard i [!INCLUDE[d365fin](includes/d365fin_md.md)], ved å definere en datautvekslingsdefinisjon ved hjelp av rammeverket for datautveksling. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 
@@ -47,7 +47,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
     > [!NOTE]  
     >  Ikke angi en verdi i feltet **Motkontonr.**  
 
-4. Velg **OK**-knappen for å lukke vinduet **Betalingsmåter**.  
+4. Velg **OK**-knappen for å lukke siden **Betalingsmåter**.  
 5. Skriv inn **Kunder** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
 6. Åpne kundekortet for kunden som du vil konfigurere SEPA direct debit-samling for.  
 7. Velg feltet **Betalingsmåte - kode**, og velg deretter koden for betalingsmåte som du angav i trinn 3.  
@@ -57,8 +57,8 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 1. Skriv inn **Kunder** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for kunden som du vil konfigurere SEPA direct debit for.  
 3. Velg **Bankkonti**-handlingen.  
-4. I vinduet **Kundebankkonto - oversikt** velger du kundebankkonto som skal bruke direct debit, og deretter velger du **Direct Debit-belastningsfullmakter** i **Prosess**-gruppen i kategorien **Hjem**.  
-5. I vinduet **SEPA Direct Debit-belastningsfullmakter** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+4. På siden **Kundebankkonto - oversikt** velger du kundebankkonto som skal bruke direct debit, og deretter velger du **Direct Debit-belastningsfullmakter** i **Prosess**-gruppen i kategorien **Hjem**.  
+5. På siden **SEPA Direct Debit-belastningsfullmakter** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  

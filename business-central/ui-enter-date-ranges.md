@@ -12,17 +12,19 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8717d60a8449ca300eaf9c1a5c4b137ea1a1a247
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 54466c381bbeb3653a239920c00dd6f45536d9e3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 
 # <a name="working-with-calendar-dates-and-times"></a>Arbeide med datoer og klokkeslett i kalenderen
+
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] tilbyr flere måter å angi datoer og klokkeslett på, inkludert avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere innstillinger for region og språk
+
 Siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central") angir **Region** og **Språk** som er brukt i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett. 
 
 -   **Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.
@@ -35,7 +37,9 @@ Siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "G
 <!-- 
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
+
 ## <a name="entering-dates"></a>Sette inn datoer
+
 I et datofelt kan du angi en dato med standardformatet for regionsinnstillingen. Ulike regioner kan bruke ulike skilletegn mellom dager, måneder og år. Enkelte regioner bruker for eksempel streker (mm-dd-åååå) og andre bruker skråstreker (mm/dd/åååå). Du kan imidlertid bruke alle skilletegn, også mellomrom, og datoen endres automatisk til skilletegnene som samsvarer med din region.
 
 Merk at ut formatet for å vise datoer i trykte rapporter eller dokumenter sendt via e-post, ikke påvirkes av ditt personlige valg av regioninnstilling.
@@ -43,16 +47,15 @@ Merk at ut formatet for å vise datoer i trykte rapporter eller dokumenter sendt
 Hvis du vil arbeide mer effektivt med datoer og klokkeslett, kan du bruke metodene eller formatene som er beskrevet nedenfor. 
 
 ### <a name="picking-dates-from-the-calendar"></a>Plukke datoer fra kalenderen
+
 Alle felt som viser et kalenderikonet, kan angis ved hjelp kalenderdatovelgeren. Aktiver kalenderikonet for å vise kalenderdatovelgeren, eller trykk Ctrl+Hjem i feltet.
 
 ![Datofelt](media/ui-date-field.png "Eksempel på et datofelt")
 
 Se også [Hurtigtaster i kalenderdatovelgeren](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="today"></a>I dag
-Skriv inn ordet for `today`, på språket som er angitt av **Språk**-innstillingen, som angir datoen til den gjeldende datoen. I stedet for å skrive inn hele ordet kan du angi en del av ordet fra begynnelsen, som `t` eller `tod`, forutsatt at det ikke er også begynnelsen av et annet ord.
-
 ### <a name="day-week-year-pattern"></a>Mønsteret dag\-uke\-årn
+
 Du kan angi en dato som en ukedag etterfulgt av et ukenummer og eventyelt et år. For eksempel `Mon25` eller `mon25` betyr mandag i uke 25. Hvis du ikke angir et år, brukes året i arbeidsdatoen.
 
 I stedet for å angi hele ordet for ukedagen, kan du angi en del av ord fra begynnelsen. Hvis det oppstår konflikter (som med `s`, som kan være søndag), dagene evalueres i henhold til regioninnstillingen. Inndataene vurderes først mot `workdate` og `today`, så husk dette når du forkorter. For eksempel `t` betyr allerede dagens, slik at det ikke betyr tirsdag eller torsdag.
@@ -60,6 +63,7 @@ I stedet for å angi hele ordet for ukedagen, kan du angi en del av ord fra begy
 Ukenummererplanen er alltid ISO 8601, der uke 1 er uken med 4 januar i seg, eller uken med den første torsdagen i året.
 
 ### <a name="digit-patterns"></a>Tallmønstre
+
 I et datofelt kan du angi to, fire, seks eller åtte tall:
 
 -   Hvis du bare skriver inn to tall, tolkes disse som dagen, og måneden og året for arbeidsdatoen legges til.
@@ -68,7 +72,18 @@ I et datofelt kan du angi to, fire, seks eller åtte tall:
 
 -   Hvis datoen du vil angi ligger i intervallet 01.01.1930 til og med 31.12.2029, kan du angi året med to eller fire sifre.
 
+### <a name="today"></a>I dag
+
+Skriv inn ordet for `today`, på språket som er angitt av **Språk**-innstillingen, som angir datoen til den gjeldende datoen. I stedet for å skrive inn hele ordet kan du angi en del av ordet fra begynnelsen, som `t` eller `tod`, forutsatt at det ikke er også begynnelsen av et annet ord.
+
+### <a name="period"></a>Periode
+
+For å filtrere på en bestemt regnskapsperiode, angi bokstaven `p` eller ordet `period` i datofeltet, etterfulgt av et nummer som identifiserer regnskapsperioden, som `p2` eller `period4`. Regnskapsperioden er relativ til regnskapsåret for gjeldende arbeidsdato som er angitt i ditt rollesenter. Hvis for eksempel arbeidsdatoen er **21/03/20**, filtreres `p1` eller bare `p` på den første regnskapsperioden i regnskapsåret 2020 (som for eksempel `01/01/20..01/31/20`). `p15` filtrerer på den femtende regnskapsperioden fra starten av regnskapsåret 2020 (for eksempel `03/01/21..03/31/21`). 
+
+Regnskapsperioden er definert på **Regnskapsperioder**-siden. Hvis du vil vise eller endre regnskapsperiodene, åpner du siden [her](https://businesscentral.dynamics.com/?page=100).
+
 ### <a name="current-work-date"></a>Gjeldende arbeidsdato
+
 Arbeidsdatofunksjonen lar deg registrere transaksjoner med en dato som er forskjellig fra den gjeldende datoen.
 
 Ordet for "arbeidsdato"på språket som er angitt av **Språk**-innstillingen setter datoen til arbeidsdatoen som er angitt i på siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central"). I stedet for å angi hele ordet, kan du angi en del av ord fra begynnelsen, for eksempel "a" eller "arbeid".
@@ -78,11 +93,13 @@ Hvis du ikke har definert en arbeidsdato, vil den gjeldende datoen bli brukt som
 Se også [Endre grunnleggende innstillinger, for eksempel arbeidsdatoen](ui-change-basic-settings.md#work-date)
 
 ### <a name="closing-date"></a>Lukkedato
+
 Når du avslutter et regnskapsår, kan du bruke avslutningsdatoer til å indikere at en post er en avslutningspost. En avslutningsdato ligger teknisk sett mellom to datoer, for eksempel mellom 31. desember og 1. januar.
 
 Hvis en dato skal være en avslutningsdato, setter du `C` rett foran datoen, for eksempel `C123101`: Dette kan brukes sammen alle datomønstre.
 
 ### <a name="examples"></a>Eksempler
+
 Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det antar regioninnstillinger som formaterer datoer i henhold til: **år.måned.dag.**, en uke som starter på mandag, og engelsk språk.
 
 |**Angivelse**      |**Tolkning**      |
@@ -96,6 +113,7 @@ Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det 
 |`11`|arbeidsdato år.arbeidsdato måned.11.|
 |`1112`|arbeidsdato år.11.12|
 |`t` eller `today`|dagens dato|
+|`p4`|datointervall som inneholder den fjerde regnskapsperioden, for eksempel `04/01/20..04/30/20`|
 |`w` eller `workdate`|arbeidsdatoen|
 |`m` eller `Monday`|Mandag i arbeidsdatouken|
 |`tu` eller `Tuesday`|Tirsdag i arbeidsdatouken|
@@ -106,16 +124,16 @@ Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det 
 |`t-1`|Tirsdag i uke 1 i arbeidsdatoåret|
 
 ##  <a name="BKMK_SettingDateRanges"></a> Angi intervaller
+
 I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett og datoer og klokkeslett som inneholder en startverdi og eventuelt en sluttverdi, for å vise bare dataene i dette intervallet. Standardreglene gjelder for angivelse av datointervaller.
 
 |**Betyr**|**Eksempeluttrykk (dato)**|**Data som er inkludert i filteret**|
 |-----------|---------------------|--------------------|
-|Intervall|`12 15 00..01 15 01`  \n`..12 15 00`|Poster med dato fra og med 15.12.01 til og med 15.01.00.  \nPoster med datoer 15.12.00 eller tidligere.|
+|Intervall|`12 15 00..01 15 01`<br /><br />`..12 15 00`<br /><br />`p1..p4`|Poster med dato fra og med 15.12.01 til og med 15.01.00.<br /><br />Poster med datoer 15.12.00 eller tidligere.<br /><br />Datointervall som inneholder den andre, tredje eller fjerde regnskapsperioden, for eksempel `01/01/20..04/30/20`|
 |Enten/eller|`12 15 00|12 16 00`|Poster med datoer enten 15.12.00 eller 16.12.00. Hvis det er poster med begge datoer på begge dager, blir alle vist.|
 |Kombinasjon|`12 15 00|12 01 00..12 10 00`  \n`..12 14 00|12 30 00..`|Poster med datoer 15.12.00 eller fra og med 01.12.00 til og med 10.12.00.  \nPoster med datoer 14.12.00 eller tidligere, eller datoer 30.12.00 eller senere, det vil si alle poster unntatt poster med datoer mellom og 15.12.00 og 29.12.00.|
 
 Du kan bruke ethvert gyldig format i datointervallfiltre. For eksempel `mon14 3..t 4p` brukt på en dato- og klokkeslettfelt resulterer i et filtre fra 03:00 mandag i uke 14 i det gjeldende arbeidsdatoåret, inkludert til dagens dato klokken 16:00.
-
 
 ## <a name="using-date-formulas"></a>Bruke datoformler
 En datoformel er en kort, forkortet kombinasjon av bokstaver og tall som angir hvordan det skal beregne datoer. Du kan angi datoformler i forskjellige datoberegningsfelt eller filtre.

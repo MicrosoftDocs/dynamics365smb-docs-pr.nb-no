@@ -10,11 +10,12 @@ ms.workload: na
 ms.search.keywords: direct-debit, collection, payment, sepa
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-collect-payments-with-sepa-direct-debit
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f714037a087084ee1c8effa7432db1e4c6ae5862
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 87bf5f10e73d3a2da73149b44ff8c99196d20b2a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil
@@ -25,8 +26,8 @@ Hvis du vil instruere banken om å overføre beløpet fra kundens bankkonto til 
 
 ### <a name="to-create-a-direct-debit-collection"></a>Slik oppretter du en avtalegirooppkreving  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Direct Debit-oppkrevinger**, i fanebladet **Hjem** under **Ny**, velger du **Opprett direct debit-oppkreving**.  
-3. I vinduet **Opprett Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+2. På siden **Direct Debit-oppkrevinger**, i fanebladet **Hjem** under **Ny**, velger du **Opprett direct debit-oppkreving**.  
+3. På siden **Opprett Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
@@ -40,28 +41,28 @@ Hvis du vil instruere banken om å overføre beløpet fra kundens bankkonto til 
 
 4. Velg **OK**.  
 
-     En avtalegirosamling legges til i vinduet **Direct Debit-oppkrevinger**, og én eller flere poster for avtalegirosamlingen blir opprettet.  
+     En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én eller flere poster for avtalegirosamlingen blir opprettet.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Slik oppretter du en post for avtalegirosamling til en bankfil  
-1. I vinduet **Direct Debit-oppkrevinger**, i fanebladet **Hjem** under **Prosess**, velger du **Poster for Direct Debit-oppkreving**.  
-2. I vinduet **Direct Debit Collect. Entries** merker du av for posten som du vil eksportere, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Opprett direct debit-fil**.  
+1. På siden **Direct Debit-oppkrevinger**, i fanebladet **Hjem** under **Prosess**, velger du **Poster for Direct Debit-oppkreving**.  
+2. På siden **Direct Debit Collect. Entries** merker du av for posten som du vil eksportere, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Opprett direct debit-fil**.  
 3. Lagre den eksporterte filen på plasseringen der du sender eller laste den opp til nettbanken.  
 
-     I vinduet **Poster for Direct Debit-oppkreving** endres feltet **Status for Direct Debit-oppkreving** til Fil opprettet. I vinduet **SEPA Direct Debit-belastningsfullmakter** oppdateres feltet **Debetteller** med én.  
+     På siden **Poster for Direct Debit-oppkreving** endres feltet **Status for Direct Debit-oppkreving** til Fil opprettet. På siden **SEPA Direct Debit-belastningsfullmakter** oppdateres feltet **Debetteller** med én.  
 
 Hvis den eksporterte filen ikke kan behandles, for eksempel fordi kunden er insolvent, kan du avvise posten for avtalegirosamlingen. Hvis den eksporterte filen er behandlet av banken, samles automatisk utestående betalinger for de aktuelle salgsfakturaene fra de aktuelle kundene. I slike tilfeller kan du lukke samlingen.  
 
 ### <a name="to-reject-a-direct-debit-collection-entry"></a>Slik avviser du poster for avtalegirosamlinger  
-* I vinduet **Poster for Direct Debit-oppkreving** merker du av for posten som ikke ble behandlet, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Avvis post**.  
+* På siden **Poster for Direct Debit-oppkreving** merker du av for posten som ikke ble behandlet, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Avvis post**.  
 
-     Verdien i **Status**-feltet i vinduet **Poster for Direct Debit-oppkreving** endres til **Avvist**.  
+     Verdien i **Status**-feltet på siden **Poster for Direct Debit-oppkreving** endres til **Avvist**.  
 
 ### <a name="to-close-a-direct-debit-collection"></a>Slik lukker du en avtalegirosamling  
-* I vinduet **Poster for Direct Debit-oppkreving** merker du av for posten som ble behandlet, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Lukk oppkreving**.  
+* På siden **Poster for Direct Debit-oppkreving** merker du av for posten som ble behandlet, og deretter går du til **Prosess**-gruppen i kategorien **Hjem** og velger **Lukk oppkreving**.  
 
      Den relaterte avtalegirosamlingen er lukket.  
 
-Du kan nå bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel i vinduet **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra vinduet **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, kan du se [Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
+Du kan nå bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel på siden **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra siden **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, kan du se [Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md).  
 
 ## <a name="see-also"></a>Se også  
 [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)   

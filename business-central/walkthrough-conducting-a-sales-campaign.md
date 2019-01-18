@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b130e1329b5fd1eee97d2c89b7b70fc606a659
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
@@ -65,7 +65,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kampanjer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny** for å opprette en ny kampanje. Trykk Enter på kampanjekortet for å få et kampanjenummer til å settes inn automatisk.  
 3.  Skriv inn en beskrivelse for kampanjen i **Beskrivelse**-feltet, for eksempel **FUTURUS varemesse**.  
-4.  Velg **Statuskode**-feltet, og velg en statuskode fra listen som åpnes i **Kampanjestatus**-vinduet.  
+4.  Velg **Statuskode**-feltet, og velg en statuskode fra listen som åpnes på siden **Kampanjestatus**.  
 5.  Fyll ut feltene **Startdato** og **Sluttdato** i kampanjen med de aktuelle datoene.  
 
 ## <a name="selecting-the-target-audience"></a>Velge målgruppen  
@@ -83,16 +83,16 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
      Du bruker filtre til å legge til kontakter i henhold til kriteriene som passer best til formålene. Du kan for eksempel filtrere etter ansvarsområdet til kontaktpersonen eller forretningsforbindelsen eller bransjen til kontaktselskapet. I denne gjennomgangen bruker du **Ansvarsområde**-filteret til å velge kontakter.  
 
-4.  Velg handlingen **Legg til kontakter** i **Segment**-vinduet for å åpne filteret **Legg til kontakter**.  
+4.  Velg handlingen **Legg til kontakter** på siden **Segment** for å åpne filteret **Legg til kontakter**.  
 5.  Velg **Kjøp**-filteret som **Ansvarsområde - kode** på hurtigfanen **Ansvarsområde**, og velg **OK**.  
 
-     **Segment**-vinduet inneholder nå en liste over kontakter basert på filteret du har angitt. På fanebladet **Generelt**, i feltet **Antall linjer** kan du med et raskt blikk se hvor mange kontakter som oppfyller disse kriteriene.  
+     **Segment**-siden inneholder nå en liste over kontakter basert på filteret du har angitt. På fanebladet **Generelt**, i feltet **Antall linjer** kan du med et raskt blikk se hvor mange kontakter som oppfyller disse kriteriene.  
 
     > [!NOTE]  
     >  Du kan lagre segmenteringskriteriene, slik at du kan bruke dem senere.
 
-    1.  I **Segment**-vinduet velger du handlingen **Segment** og deretter **Lagre kriterier**.  
-    2.  Angi en kode for segmentet i vinduet **Lagre segmentkriterier**. Skriv inn en beskrivelse av segmentkriteriet i **Beskrivelse**-feltet.
+    1.  På **Segment**-siden velger du handlingen **Segment** og deretter **Lagre kriterier**.  
+    2.  Angi en kode for segmentet på siden **Lagre segmentkriterier**. Skriv inn en beskrivelse av segmentkriteriet i **Beskrivelse**-feltet.
     3.  Velg **OK**-knappen.  
 
 ## <a name="mining-the-data"></a>Utvinne dataene  
@@ -100,15 +100,15 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Slik fjerner du kontakter fra segmentet:  
 
-1.  Velg **Kontakter**-handlingen i **Segment**-vinduet og velg deretter **Reduser kontakter** for å åpne vinduet **Fjern kontakter - reduser**.  
+1.  Velg **Kontakter**-handlingen på siden **Segment**, og velg deretter **Reduser kontakter** for å åpne siden **Fjern kontakter - reduser**.  
 2.  Velg **PROS**-filteret som **Forretn.forbindelseskode** på hurtigfanen **Forretningsforbindelse**, og velg **OK**.  
 
-     Nå inneholder **Segment**-vinduet en redusert liste over kontakter, og antallet kontakter som nå oppfyller disse kriteriene, vises nå i feltet **Antall linjer**.  
+     Nå inneholder **Segment**-siden en redusert liste over kontakter, og antallet kontakter som nå oppfyller disse kriteriene, vises nå i feltet **Antall linjer**.  
 
     > [!NOTE]  
     >  Hvis du må reversere denne fjerningen av en kontaktgruppe, kan du bruke funksjonen **Gå tilbake**. Med andre ord kan du angre den siste segmenteringen.  
     >   
-    >  I **Segment**-vinduet velger du handlingen **Segment** og deretter **Gå tilbake**.  
+    >  På siden **Segment** velger du handlingen **Segment** og deretter **Gå tilbake**.  
     >   
     >  Kontaktene du nettopp fjernet, legges til i listen over kontakter på nytt.  
 
@@ -117,7 +117,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Slik knytter du et segment til kampanjen:  
 
-1.  I vinduet **Segment** i hurtigfanen **Kampanje**, velger du **Kampanjenr.** -feltet for å velge kampanjen som du vil segmentet skal knyttes til, for eksempel **KM0001**.  
+1.  På siden **Segment** i hurtigfanen **Kampanje** velger du **Kampanjenr.** -feltet for å velge kampanjen som du vil segmentet skal knyttes til, for eksempel **KM0001**.  
 2.  Velg **Kampanjemål**-avmerkingsboksen siden dette segmentet er målgruppen for kampanjen.  
 
 ## <a name="sending-letters-and-email-messages-to-contacts"></a>Sende brev og e-postmeldinger til kontakter  
@@ -132,7 +132,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
     > [!NOTE]  
     >  Denne malen består av flere vedlegg, og hvert av dem er skrevet på et ulikt språk. Engelsk og dansk er eksempler på språk som er inkludert.  
 
-4.  Velg feltet **Språkkode (standard)** for å åpne vinduet **Samhandlingsspråk for segment**. Velg en språkkode og deretter **OK**-knappen.  
+4.  Velg feltet **Språkkode (standard)** for å åpne siden **Samhandlingsspråk for segment**. Velg en språkkode og deretter **OK**-knappen.  
 5.  Du kan vise dokumentet på det valgte språket. Velg handlingen **Vedlegg** og deretter **Åpne**.  
 
      Du svarer på meldingen med spørsmål om tillatelse til å starte Word ved å velge **Tillat for denne klientøkten**.  
@@ -160,7 +160,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 2.  I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**.  
 3.  Velg **E-post** i **Korrespondansetype**-feltet.  
 4.  Angi språkinnstillinger, som i forrige fremgangsmåte.  
-5.  Velg handlingen **Logg**. **Loggfør segment**-vinduet åpnes.  
+5.  Velg handlingen **Logg**. **Loggfør segment**-siden åpnes.  
 6.  Merk av for **Send vedlegg** for å sende vedleggene via e-post.  
 7.  Merk av for **Opprett oppfølgingssegment**.  
 8.  Velg **OK**.  
@@ -174,12 +174,12 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ### <a name="to-register-campaign-responses"></a>Slik registrerer du kampanjerespons:  
 
-1.  Vis hurtigfanen **Samhandling** i **Segment**-vinduet.  
+1.  Vis hurtigfanen **Samhandling** på siden **Segment**.  
 2.  Velg feltet **Samhandlingsmal - kode**.  
 
      Det finnes ingen samhandlingsmal for å registrere respons på kampanjer. Opprett derfor en ny mal.  
 
-3.  Velg handlingen **Ny** i vinduet **Samhandlingsmaler**.  
+3.  Velg handlingen **Ny** på siden **Samhandlingsmaler**.  
 4.  Angi **RESP** i **Kode**-feltet, og angi **Kampanjerespons** i **Beskrivelse**-feltet.  
 5.  Velg **OK**-knappen.  
 6.  Velg denne samhandlingsmalen i feltet **Samhandlingsmal - kode**, og bekreft meldingen med spørsmål om du vil oppdatere segmentlinjene med den samme koden for samhandlingsmal.  
@@ -190,10 +190,10 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 9. Velg **Kampanjerespons**-feltet, og bekreft den påfølgende meldingen.  
 
      Loggfør segmentet for å kontrollere at samhandlingene registreres.  
-10. Velg **Logg**-handlingen i **Segment**-vinduet.  
-11. Fjern merket for **Send vedlegg** i vinduet **Loggfør segment**, velg deretter **OK**, og bekreft meldingen som vises.  
+10. Velg **Logg**-handlingen på siden **Segment**.  
+11. Fjern merket for **Send vedlegg** på siden **Loggfør segment**, og velg deretter **OK**, og bekreft meldingen som vises.  
 
-     Når segmentet er loggført, blir det automatisk opprettet en post for kampanjen i **Kampanjeposter**-vinduet for å registrere denne handlingen.  
+     Når segmentet er loggført, blir det automatisk opprettet en post for kampanjen på siden **Kampanjeposter** for å registrere denne handlingen.  
 
 ## <a name="see-also"></a>Se også  
 [Forbindelser](marketing-relationship-management.md)  

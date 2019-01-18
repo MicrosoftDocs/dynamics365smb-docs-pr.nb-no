@@ -13,10 +13,10 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 98a2e773dbde6ba4ba0493e2b0dc7b632bbea4d0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Endre gjeldende oppsett som skal brukes i en rapport
@@ -26,8 +26,8 @@ Avhengig av oppsettene som er tilgjengelige for en rapport, kan du velge om du v
 
 ## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Slik endrer du oppsettet som brukes i en rapport
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
-   Vinduet **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet Selskap øverst i vinduet. Feltet Valgt oppsett angir oppsettet som brukes i rapporten for øyeblikket.
-2. Angi selskapet som inkluderer rapporten, i **Selskap**-feltet øverst i vinduet.
+   Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet Selskap øverst på siden. Feltet Valgt oppsett angir oppsettet som brukes i rapporten for øyeblikket.
+2. Sett feltet **Selskap** øverst på siden til selskapet som inkluderer rapporten.
 3. Hvis du vil endre oppsettet som brukes av en rapport, angir du ett av følgende alternativer for feltet **Valgt oppsett** i raden for rapporten i listen:
    * RDLC (innebygd): Bruker det innebygde RDLC-rapportoppsettet i rapporten.
    * Word (innebygd): Bruker det innebygde Word-rapportoppsettet i rapporten.
@@ -40,10 +40,10 @@ Avhengig av oppsettene som er tilgjengelige for en rapport, kan du velge om du v
 Hvis du valgte et innebygd RDLC- eller Word-rapportoppsett, kreves ingen ytterligere handling, og oppsettet brukes neste gang rapporten kjøres.
 
 ## <a name="to-specify-a-custom-layout-on-a-report"></a>Angi et egendefinert oppsett i en rapport
-1. Du angir hvilket egendefinert oppsett som skal brukes i rapporten, fra vinduet **Egendefinerte rapportoppsett**. Hvis vinduet **Egendefinerte rapportoppsett** ikke er åpent, velger du oppslagsknappen i feltet **Beskrivelse av rapportoppsett**.
-2. Merk raden for det egendefinerte oppsettet du vil bruke, i vinduet **Egendefinerte rapportoppsett**, og lukk deretter vinduet.
+1. Du angir hvilket egendefinert oppsett som skal brukes i rapporten, fra siden **Egendefinerte rapportoppsett**. Hvis siden **Egendefinerte rapportoppsett** ikke er åpen, velger du oppslagsknappen i feltet **Beskrivelse av rapportoppsett**.
+2. Merk raden for det egendefinerte oppsettet du vil bruke, på siden **Egendefinerte rapportoppsett**, og lukk deretter siden.
 
-Du går tilbake vinduet **Egendefinerte rapportoppsett**. Navnet på det valgte egendefinerte oppsettet vises i feltet **Beskrivelse av egendefinert oppsett**. Det egendefinerte oppsettet brukes neste gang du kjører rapporten.
+Du går tilbake siden **Egendefinerte rapportoppsett**. Navnet på det valgte egendefinerte oppsettet vises i feltet **Beskrivelse av egendefinert oppsett**. Det egendefinerte oppsettet brukes neste gang du kjører rapporten.
 
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

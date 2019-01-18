@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cdd7f7cfb2645d780df47bfb75ec7392c1739843
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f578247ef835b3c7803adb123e18eec62b0864b9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-cost-budget-entries"></a>Slett kostbudsjettposter
@@ -34,7 +34,7 @@ Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over 
 2.  Velg **OK**-knappen for å slette de valgte kostbudsjettpostene.  
 
 > [!NOTE]  
->  For å unngå en utilsiktet sletting av kostbudsjettposter kan du lukke journalposter ved å merke linjene som **lukket** i **Lukket**-feltet i vinduet **Kostbudsjettjournaler**.  
+>  For å unngå en utilsiktet sletting av kostbudsjettposter kan du lukke journalposter ved å merke linjene som **lukket** i **Lukket**-feltet på siden **Kostbudsjettjournaler**.  
 
 ## <a name="see-also"></a>Se også  
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)

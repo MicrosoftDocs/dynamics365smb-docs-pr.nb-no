@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d16e9405cea366e11ee6319b06052fe0a2b76676
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6f298a12cda4e06aeaa28eb3143b7a22ff12d10
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
@@ -73,7 +73,7 @@ Følgende ordremodifikatorer finnes på vare- eller LFE-kortet:
 -   Maks. bestillingsantall  
 -   Bestillingsfaktor  
 
-Oppsettsfeltene for global planlegging i **Produksjonsoppsett**-vinduet omfatter følgende:  
+Oppsettsfeltene for global planlegging på **Produksjonsoppsett**-siden omfatter følgende:  
 
 -   Dynamisk lavnivåkode  
 -   Gjeldende behovsprognose  
@@ -95,7 +95,7 @@ Dette angir om forsyningen som representeres av produksjonsordrelinjen, vurderes
 Hvis feltet inneholder **Ubegrenset**, tar planleggingssystemet med linjen når handlingsmeldinger beregnes. Hvis feltet inneholder **Ingen**, er linjen fast og uforanderlig, og planleggingssystemet tar den ikke med når handlingsmeldinger beregnes.
 
 ### <a name="warning"></a>Advarsel
-Informasjonsfeltet **Advarsel**i vinduet **Planleggingsforslag** informerer deg om eventuelle planleggingslinjer som er opprettet for en uvanlig situasjon med en tekst som brukeren kan velge å få mer informasjon. Følgende typer advarsler finnes:
+Informasjonsfeltet **Advarsel** på siden **Planleggingsforslag** informerer deg om eventuelle planleggingslinjer som er opprettet for en uvanlig situasjon med en tekst som brukeren kan velge å få mer informasjon. Følgende typer advarsler finnes:
 
 - Kritisk
 - Unntak

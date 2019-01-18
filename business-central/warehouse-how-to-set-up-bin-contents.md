@@ -13,30 +13,30 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b92e6a5227fc2e1c60498ef2aafaae55deaedab8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6aa07d1f37c15901951ab5b81b771838abf95126
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-bin-contents"></a>Opprette hylleinnhold
-Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt i **Hylleinnhold**-vinduet eller automatisk med **Opprett hylleinnholdforslag**-vinduet.
+Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt på siden **Hylleinnhold** eller automatisk med **Opprett hylleinnholdforslag**-siden.
 
 ## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
 3.  Velg hyllen der du vil opprette innhold, og velg deretter **Innhold**-handlingen.  
-4.  For hver vare du vil lagre i hyllen, fyller du ut en linje i vinduet **Hylleinnhold** med den passende informasjonen. Noen av feltene er allerede fylt ut med informasjon om hyllen.  
+4.  For hver vare du vil lagre i hyllen, fyller du ut en linje på siden **Hylleinnhold** med den passende informasjonen. Noen av feltene er allerede fylt ut med informasjon om hyllen.  
 5.  Først fyller du ut feltet **Varenr.**, og deretter, hvis du bruker lagerstyring, fyller du ut de andre nødvendige feltene, for eksempel feltene **Enhetskode**, **Maks. ant.** og **Min.antall**.  
 
 Velg feltet **Fast** om nødvendig. Hvis hyllen skal brukes som standardhylle for varen, velger du feltet **Standard hyllevalg**.  
 
-Hvis du bruker lagerstyring og har angitt riktig størrelsesinformasjon om hver vares målenhet på varekortet kontrollere det maksimumsantallet du angir i vinduet **Hylleinnhold**, mot hyllens fysiske kapasitet. Minimums- og maksimumsantallene brukes når det beregnes etterfylling av hyller og plasseringsforslag.  
+Hvis du bruker lagerstyring og har angitt riktig størrelsesinformasjon om hver vares målenhet på varekortet, kontrolleres maksimumsantallet du angir på siden **Hylleinnhold**, mot hyllens fysiske kapasitet. Minimums- og maksimumsantallene brukes når det beregnes etterfylling av hyller og plasseringsforslag.  
 
 Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [!INCLUDE[d365fin](includes/d365fin_md.md)] vil prøve å legge denne varen i hyllen hvis det er plass til den, og det vil beholde posten som gir varen fast plass i hyllen, selv om antallet i hyllen er 0. Andre varer kan legges i hyllen, selv om en bestemt vare har fast plass der. Andre varer kan plasseres på hyllen, selv om en bestemt vare er fast i hyllen.  
 
 > [!NOTE]  
->  Du kan sette opp flere hylleinnhold samtidig i vinduet **Hylleinnholdopprett. - forslag**.  
+>  Du kan sette opp flere hylleinnhold samtidig på siden **Hylleinnholdopprett. - forslag**.  
 
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Slik oppretter du hylleinnhold med et forslag:  
 Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for hver hylle i opprettingsforslaget for hylleinnhold.

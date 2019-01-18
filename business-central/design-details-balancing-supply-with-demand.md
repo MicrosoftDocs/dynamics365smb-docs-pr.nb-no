@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 51555bbfbd7fec6ca46bc1b2e6b02382288a41bc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 037ba35395ba84d4f943b0a45a7fb43c24b34385
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetaljer: Balansere forsyning med behov
@@ -59,7 +59,7 @@ All forsyning har vanligvis en planleggingsfleksibilitet som er begrenset av bet
 
     -   Den representerer beholdning (alltid på dag null).  
     -   Den har en ordre-til-ordre som er koblet til er annet behov.  
-    -   Dette ligger utenfor vinduet for å planlegge på nytt, som angitt av tidsperioden.  
+    -   Dette ligger utenfor siden for å planlegge på nytt, som angitt av tidsperioden.  
     -   En forsyning som er nærmere, kan brukes.  
     -   På den annen side kan brukeren velge ikke å planlegge på nytt fordi:  
     -   Forsyningsordren er allerede knyttet til et annet behov på en tidligere dato.  
@@ -68,7 +68,7 @@ All forsyning har vanligvis en planleggingsfleksibilitet som er begrenset av bet
 -   **Tidsplanlegg inn på nytt**: datoen for en eksisterende forsyningsordre kan tidsplanlegges inn, unntatt når følgende gjelder:  
 
     -   Den er koblet direkte til et annet behov.  
-    -   Dette ligger utenfor vinduet for å planlegge på nytt, som angitt av tidsperioden.  
+    -   Dette ligger utenfor siden for å planlegge på nytt, som angitt av tidsperioden.  
 
 > [!NOTE]  
 >  Når en vare planlegges ved hjelp av et gjenbestillingspunkt, kan forsyningsordren alltid om nødvendig tidsplanlegges inn. Dette er vanlig i fremoverplanlagte forsyningsordrer som utløses av et gjenbestillingspunkt.  

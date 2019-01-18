@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 7b125edfcfd5e03882568b8ab6eb264418f15bef
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="closing-years-and-periods"></a>Avslutte år og perioder
@@ -26,6 +26,7 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 
 | Til | Se |
 | --- | --- |
+| Definer regnskapsåret, og del det opp i perioder for å rapportere økonomiske resultater. | [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)|
 | Angi systemomfattende og brukerspesifikke bokføringsdatoområder. Avhengig av forretningsbehovene vil du kanskje begrense brukerens bokføringsdatoområder i begynnelsen av prosessen ved periodeslutt eller etter den. |[Angi bokføringsperioder](finance-how-specify-posting-periods.md) |
 | Få en oversikt over aktiviteter som vanligvis utføres på slutten av en periode, for eksempel bokføring av alle dokumenter og kladder, eller kjøring av kontoskjemaer. |[Avslutte perioder](year-how-complete-period-end-processes.md) |
 | Oppdatere valutakurser og justere valutakursene for bokførte kunde-, leverandør- og bankposter. |[Oppdatere valutakurser](finance-how-update-currencies.md) |

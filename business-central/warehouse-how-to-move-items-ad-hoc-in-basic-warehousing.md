@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac7b80c3ada7a5dd27fc74d3d8be5e38f1552725
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
@@ -22,11 +22,11 @@ Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller
 
 I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du registrere ad hoc-flyttinger uten kildedokumenter på følgende måter:  
 
-- I vinduet **Intern flytting**.  
-- Med vinduet **Varereklassifiseringskladd**.  
+- På siden **Intern flytting**.  
+- Med siden **Varereklassifiseringskladd**.  
 
 > [!NOTE]  
->  I avanserte lageroppsett, det vil si lokasjoner der oppsettsfeltet **Bruk Lagerstyring** brukes, bruker du vinduet **Flytteforslag** eller vinduene **Intern plukk** og **Intern plassering** til å flytte varer ad hoc mellom hyller.  
+>  I avanserte lageroppsett, det vil si lokasjoner der oppsettsfeltet **Bruk Lagerstyring** brukes, bruker du siden **Flytteforslag** eller sidene **Intern plukk** og **Intern plassering** til å flytte varer ad hoc mellom hyller.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Flytte varer som en intern flytting  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern flytting**, og velg deretter den relaterte koblingen.  
@@ -36,7 +36,7 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
     Hvis lokasjonen er definert som standardlokasjonen for deg som lageransatt, settes lokasjonskoden inn automatisk.  
 4.  Angi en kode for hyllen som du vil flytte elementet til, i feltet **Til hylle-kode**. Til produksjonsformål kan dette for eksempel være den åpne produksjonshyllekoden, som definert på lokasjonskortet eller i arbeidssenteret.  
 5.  Angi datoen flyttingen må fullføres innen, i **Forfallsdato**-feltet.  
-6.  På hurtigfanen **Linjer** velger du **Varenr.**-feltet for å åpne vinduet **Hylleinnhold - oversikt** og velger deretter varen du vil flytte basert på tilgjengeligheten i hyllene. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene dine. Hvis du vil ha mer informasjon, kan du se verktøytipset for handlingen **Hent hylleinnhold**.   
+6.  På hurtigfanen **Linjer** velger du **Varenr.**-feltet for å åpne siden **Hylleinnhold - oversikt** og velger deretter varen du vil flytte basert på tilgjengeligheten i hyllene. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene dine. Hvis du vil ha mer informasjon, kan du se verktøytipset for handlingen **Hent hylleinnhold**.   
 
     Når du har valgt varen, blir feltet **Fra hylle-kode** automatisk fylt ut i henhold til det valgte hylleinnholdet, men du kan endre det til en hvilken som helst annen hylle der varen er tilgjengelig.  
 
@@ -54,7 +54,7 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
     > [!NOTE]  
     >  Når du har opprettet lagerflyttingen, slettes linjene for intern flytting.  
 
-    Du utfører resten av ad hoc-flyttingen i vinduet **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter. Hvis du vil ha mer informasjon, kan du for eksempel se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+    Du utfører resten av ad hoc-flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter. Hvis du vil ha mer informasjon, kan du for eksempel se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Flytte varer med varereklassifiseringskladden
 I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md).   

@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2cc54d6266ae612061943d4c8a92676b9f9cd8fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c79d5167fcde7b2cb75faf0fedc9f483684a6c48
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="export-remittance-payments"></a>Eksportere remitteringsoppdrag
 Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din. Deretter kan du overføre remitteringsoppdragene til banken.  
 
 > [!IMPORTANT]  
->  Før du kan eksportere et remitteringsoppdrag, må du velge et betalingsformat i feltet **Betalingseksportformat** i **Bankkort**-vinduet.  
+>  Før du kan eksportere et remitteringsoppdrag, må du velge et betalingsformat i feltet **Betalingseksportformat** på **Bankkort**-siden.  
 
-Du eksporterer betalinger til en bankfil ved å velge **Eksporter betalinger**-knappen i **Utbetalingskladd**-vinduet. Prosessen kan være forskjellig avhengig av eksportformatet du velger:  
+Du eksporterer betalinger til en bankfil ved å velge **Eksporter betalinger**-knappen på **Utbetalingskladd**-siden. Prosessen kan være forskjellig avhengig av eksportformatet du velger:  
 
 - Betalinger ved hjelp av SEPA-betalingsstandarden eksporteres direkte til en fil når du velger **Eksporter betalinger**-knappen. Hvis du vil ha mer informasjon, kan du se [Utføre betalinger](../../payables-make-payments.md).  
 
@@ -38,7 +38,7 @@ Fremgangsmåten for å eksportere betalinger ved hjelp av **Eksporter remitterin
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Klargjør for å eksportere betalingene fra kladden. Hvis du vil ha mer informasjon, kan du se [Eksportere betalinger til en bankfil](../../payables-how-export-payments-bank-file.md).  
 3.  Velg handlingen **Eksporter betalinger**.  
-4.  Fyll ut feltene som beskrevet i tabellen nedenfor, ved å velge hurtigfanen **Alternativer** i rapportvinduet som åpnes.  
+4.  Fyll ut feltene som beskrevet i tabellen nedenfor, ved å velge hurtigfanen **Alternativer** på rapportsiden som åpnes.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

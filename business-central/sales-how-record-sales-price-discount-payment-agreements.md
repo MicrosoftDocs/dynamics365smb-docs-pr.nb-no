@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ad6a72c7a0cd523ec9215df1093c69864f866028
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 92b853c0d897ac5d93cbabc435b71bbf420d28a5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
@@ -62,7 +62,7 @@ Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du faktura
 
 Fortsett å definere nye betingelser for salgsfakturarabatt.
 
-1. I vinduet **Kundekort** velger du handlingen **Fakturarabatter**. Vinduet **Kundefakturarabatter** åpnes.
+1. På siden **Kundekort** velger du handlingen **Fakturarabatter**. Siden **Kundefakturarabatter** åpnes.
 2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
 3. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 4. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
@@ -73,23 +73,23 @@ Fakturarabatten er nå definert og tilordnet til den aktuelle kunden. Når du ve
 ## <a name="to-work-with-sales-invoice-discounts-and-service-charges"></a>Arbeide med salgfakturarabatter og servicegebyrer
 Når du bruker fakturarabatter, er det størrelsen på fakturabeløpet som fastsetter størrelsen på rabatten som gis.  
 
-I vinduet **Kundefakturarabatter** kan du også legge til et gebyr i fakturaer som overstiger et bestemt beløp.  
+På siden **Kundefakturarabatter** kan du også legge til et gebyr i fakturaer som overstiger et bestemt beløp.  
 
 Før du kan bruke fakturarabatter i forbindelse med salg, må du angi bestemte opplysninger i programmet. Du må angi:  
 
 - hvilke kunder som skal gis denne rabatten.  
 - hvilken rabattprosent du vil bruke.  
 
-Hvis du vil at fakturarabatter skal beregnes automatisk, angir du dette i vinduet **Salgsoppsett**.  
+Hvis du vil at fakturarabatter skal beregnes automatisk, angir du dette på siden **Salgsoppsett**.  
 
 For hver kunde kan du angi om du vil gi fakturarabatter hvis kravene er innfridd (det vil si hvis fakturabeløpet er stort nok). Du kan definere betingelsene for fakturarabatten i NOK for innenlandske kunder, og i fremmed valuta for kunder i utlandet.  
 
-Du knytter rabattprosentene til bestemte fakturabeløp i vinduene **Kundefakturarabatter**. Du kan angi den prosentsatsen du vil ha i hvert vindu. Hver kunde kan ha et eget vindu, eller du kan knytte flere kunder til det samme vinduet.  
+Du knytter rabattprosentene til bestemte fakturabeløp på sidene **Kundefakturarabatter**. Du kan angi den prosentsatsen du vil ha på hver side. Hver kunde kan ha en egen side, eller du kan knytte flere kunder til den samme siden.  
 
 I tillegg til (eller i stedet for) en rabattprosent, kan du knytte et gebyrbeløp til et bestemt fakturabeløp.  
 
 > [!TIP]  
->  Før du angir disse opplysningene i programmet, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til det samme fakturarabattvinduet. Jo færre vinduer du må definere, jo raskere kan du angi de grunnleggende opplysningene.  
+>  Før du angir disse opplysningene i programmet, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.  
 
 ## <a name="best-price-calculation"></a>Beregning av beste pris
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.
@@ -114,17 +114,17 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 
 ## <a name="to-copy-sales-prices"></a>Slik kopierer du salgspriser  
-Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde som skal brukes i en kundeprisgruppe, må du utføre kjørselen **Foreslå salgspris i forslag**. Kjørselen . Du finner kjørselen i vinduet **Salgspris i forslag**.    
+Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde som skal brukes i en kundeprisgruppe, må du utføre kjørselen **Foreslå salgspris i forslag**. Kjørselen . Du finner kjørselen på siden **Salgspris i forslag**.    
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Foreslå salgspris i forslag.** .  
 3.  I hurtigfanen **Salgspriser** fyller du ut feltene **Salgstype** og **Salgskode** med de opprinnelige salgsprisene du vil kopiere.  
-4.  I den øverste delen av forespørselsvinduet fyller du ut **Salgstype** og **Salgskode** med type og navn du vil at salgsprisene skal kopieres til.  
+4.  På den øverste delen av forespørselssiden fyller du ut **Salgstype** og **Salgskode** med type og navn du vil at salgsprisene skal kopieres til.  
 5.  Hvis du vil at kjørselen skal opprette nye priser, velger du feltet **Opprett nye priser**.  
-6.  Velg **OK**-knappen for å fylle ut linjene i vinduet **Salgsprisforslag** med de foreslåtte nye prisene, noe som angir at de er gyldige for den valgte **salgstypen**.  
+6.  Velg **OK**-knappen for å fylle ut linjene på siden **Salgsprisforslag** med de foreslåtte nye prisene, noe som angir at de er gyldige for den valgte **salgstypen**.  
 
 > [!NOTE]  
->  Denne kjørselen oppretter forslag, men implementerer ikke de foreslåtte endringene. Hvis du er tilfreds med forslagene og vil implementere dem, det vil si legge dem inn i tabellen **Salgspriser**, kan du bruke kjørselen **Implementer prisendringer**, som du finner i fanebladet **Handlinger**, i gruppen **Funksjoner**, i vinduet **Salgsprisforslag**.
+>  Denne kjørselen oppretter forslag, men implementerer ikke de foreslåtte endringene. Hvis du er tilfreds med forslagene og vil implementere dem, det vil si legge dem inn i tabellen **Salgspriser**, kan du bruke kjørselen **Implementer prisendringer**, som du finner i fanebladet **Handlinger**, i gruppen **Funksjoner**, på siden **Salgsprisforslag**.
 
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  

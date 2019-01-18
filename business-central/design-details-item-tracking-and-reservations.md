@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 40ca8e4a86a74f449a980f06060488cdb117d3c7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1670b102aa0eba91952391ac3daa563a651de859
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
@@ -44,15 +44,15 @@ Hovedforskjellen på spesifikk og ikke-spesifikk reservasjon angis av serie- ell
 |**Serienummer**|Serie- eller partinummer.|Serie- eller partinummer.|  
 |**Ikke-spesifikk**|Serie- eller partinummer.|Ingen serie- eller partinumre.|  
   
-Når du reserverer lagerantall fra en linje i et utgående dokument for en vare som har fått tilordnet varesporingsnumre, og er opprettet for spesifikk varesporing, blir du ledet gjennom ulike arbeidsflyter i **Reservasjon**-vinduet, avhengig av behovet for serie- eller partinumrene.  
+Når du reserverer lagerantall fra en linje i et utgående dokument for en vare som har fått tilordnet varesporingsnumre, og er opprettet for spesifikk varesporing, blir du ledet gjennom ulike arbeidsflyter på **Reservasjon**-siden, avhengig av behovet for serie- eller partinumrene.  
   
 ## <a name="specific-reservation"></a>Spesifikk reservasjon  
-Når du velger **Reserver** på linjen i det utgående dokumentet, vises en dialogboks der du blir spurt om du vil reservere bestemte serie- eller partinumre. Hvis du velger **Ja**, vil det vises en liste med alle serie- eller partinumrene som er tilordnet til dokumentlinjen. Vinduet **Reservasjon** åpnes når du har valg et av serie- eller partinumrene, og deretter kan du reservere blant de valgte serie- eller partinumrene på vanlig måte.  
+Når du velger **Reserver** på linjen i det utgående dokumentet, vises en dialogboks der du blir spurt om du vil reservere bestemte serie- eller partinumre. Hvis du velger **Ja**, vil det vises en liste med alle serie- eller partinumrene som er tilordnet til dokumentlinjen. Siden **Reservasjon** åpnes når du har valg et av serie- eller partinumrene, og deretter kan du reservere blant de valgte serie- eller partinumrene på vanlig måte.  
   
-Hvis noen av de spesifikke varesporingsnumre som du prøver å reservere holdes i ikke-spesifikke reservasjoner, vil en melding nederst i vinduet **Reservasjon** informere deg om hvor mange av totalt reservert antall som holdes i ikke-spesifikke reservasjoner og om de fremdeles er tilgjengelige.  
+Hvis noen av de spesifikke varesporingsnumre som du prøver å reservere holdes i ikke-spesifikke reservasjoner, vil en melding nederst på siden **Reservasjon** informere deg om hvor mange av totalt reservert antall som holdes i ikke-spesifikke reservasjoner og om de fremdeles er tilgjengelige.  
   
 ## <a name="nonspecific-reservation"></a>Ikke-spesifikk reservasjon  
-Hvis du velger **Ingen** i dialogboksen som vises, åpnes vinduet **Reservasjon**, og dette lar deg reservere blant alle serie- eller partinumre i lageret.  
+Hvis du velger **Ingen** i dialogboksen som vises, åpnes siden **Reservasjon**, og dette lar deg reservere blant alle serie- eller partinumre i lageret.  
   
 På grunn av strukturen i reservasjonssystemet må systemet velge bestemte vareposter å reservere mot, når du plasserer en uspesifisert reservasjon på en varesporet vare. Siden varepostene inneholder varesporingsnumrene, reserverer reservasjonen indirekte bestemte serie- eller partinumre, selv om du ikke hadde tenkt å gjøre dette. For å håndtere denne situasjonen prøver reservasjonssystemet å stokke om ikke-spesifikke reservasjonsposter før bokføring.  
   
@@ -81,7 +81,7 @@ Behovet oppstår for eksempel når en ordrebehandler har foretatt en ikke-spesif
 ### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservere spesifikke serie- eller partinumre  
 I dette forretningsscenariet vil funksjonen for sen binding sikre at en bruker som prøver å reservere et bestemt serie- eller partinummer som er ikke reservert for øyeblikket, kan gjøre dette. En ikke-spesifikk reservasjon stokkes om på tidspunktet for reservasjonen for å frigjøre serie- eller partinummer for den bestemte forespørselen.  
   
-Omstokkingen skjer automatisk, men innebygd Hjelp vises nederst i **Reservasjon**-vinduet og inneholder følgende tekst:  
+Omstokkingen skjer automatisk, men innebygd Hjelp vises nederst på **Reservasjon**-siden og inneholder følgende tekst:  
   
 **XX av totalt reservert antall er ikke-spesifikt og kan være disponibelt.**  
   

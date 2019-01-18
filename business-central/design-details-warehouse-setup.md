@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 574bca49a01d23cdbf3ea9cda3b2c67f39ee9d05
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c813187ee6d11fcdb729cb64048386238406528
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lageroppsett
@@ -93,7 +93,7 @@ I avansert lagerstyring kan hyller konfigureres med kapasitetsverdier, for eksem
 
 På hvert enkelt varekort kan du tilordne en enhet for varen, for eksempel deler, paller, liter, gram eller bokser. Du kan også ha en lagerenhet for en vare og angi større enheter som er basert på den. Du kan for eksempel angi at pall er lik 16 enheter, der det siste er en lagerenhet.  
 
-Hvis du vil angi et maksimalt antall for en bestemt vare som skal lagres i en enkelthylle, og varen har flere enn én enhet, må du angi det maksimale antallet for hver enhet som finnes på varekortet. Hvis en vare er konfigurert til å håndteres i stykker og paller, må feltet **Maks. ant.** i vinduet **Hylleinnhold** for denne varen også være i stykker og paller. Hvis ikke, blir ikke det tillatte antallet for hyllen beregnet på riktig måte.  
+Hvis du vil angi et maksimalt antall for en bestemt vare som skal lagres i en enkelthylle, og varen har flere enn én enhet, må du angi det maksimale antallet for hver enhet som finnes på varekortet. Hvis en vare er konfigurert til å håndteres i stykker og paller, må feltet **Maks. ant.** på siden **Hylleinnhold** for denne varen også være i stykker og paller. Hvis ikke, blir ikke det tillatte antallet for hyllen beregnet på riktig måte.  
 
 Før du angir begrensninger for kapasitet for hylleinnhold på en hylle, må du først kontrollere at varens enhet og dimensjoner er angitt på varekortet.  
 

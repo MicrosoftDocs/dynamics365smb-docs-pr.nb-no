@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3188b2d711fe983526e5ee87a7a3901b16d6eb35
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
 En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
 
-I vinduet **Varetilgjengelighet per tidslinje** kan du endre visse forsyningsordrer og forslag ved å dra elementer på x-aksen for å endre antallet eller på y-aksen for å endre forfallsdatoen.  
+På siden **Varetilgjengelighet per tidslinje** kan du endre visse forsyningsordrer og forslag ved å dra elementer på x-aksen for å endre antallet eller på y-aksen for å endre forfallsdatoen.  
 
- I vinduet **Varetilgjengelighet per tidslinje** og vinduet **Planleggingsforslag** kan du gjøre følgende endringer:  
+ På siden **Varetilgjengelighet per tidslinje** og siden **Planleggingsforslag** kan du gjøre følgende endringer:  
 
 -   Endre en foreslått forsyningsordre som bare eksisterer som en planleggingslinje.  
 -   Endre en eksisterende forsyningsordre som planleggingssystemet foreslår å endre.  
@@ -32,14 +32,14 @@ I vinduet **Varetilgjengelighet per tidslinje** kan du endre visse forsyningsord
 
 Hvis du vil ha mer informasjon om planleggingslinjetypene som vises, kan du se feltet Beskrivelse på hurtigfanen **Hendelsesendringer**.  
 
-Når du velger **Lagre endringer** i vinduet **Varetilgjengelighet per tidslinje**, kopieres endringene du har gjort til planleggings- eller bestillingsforslaget. Du kan nå velge å implementere dem ved hjelp av funksjonen **Utfør handlingsmeldingplanen**.  
+Når du velger **Lagre endringer** på siden **Varetilgjengelighet per tidslinje**, kopieres endringene du har gjort til planleggings- eller bestillingsforslaget. Du kan nå velge å implementere dem ved hjelp av funksjonen **Utfør handlingsmeldingplanen**.  
 
-Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av dra og slipp. Som et alternativ kan du endre feltene **Forfallsdato** og **Antall** på hurtigfanen **Hendelsesendringer** og umiddelbart se endringene grafisk på hurtigfanen **Tidslinje** i vinduet **Planleggingsforslag**.  
+Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av dra og slipp. Som et alternativ kan du endre feltene **Forfallsdato** og **Antall** på hurtigfanen **Hendelsesendringer** og umiddelbart se endringene grafisk på hurtigfanen **Tidslinje** på siden **Planleggingsforslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Endre foreslåtte forsyningsordrer i den grafiske visningen  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
 
-    Vinduet **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
+    Siden **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
 
 2.  Kontroller at feltet **Inluder planleggingsforslag** er valgt.  
 3.  Finn den foreslåtte forsyningsordren du vil endre. Den grønne sirkelen og diskikonet identifiserer elementer som kan endres. Hvis du vil ha mer informasjon om ulike symboler, kan du se "Symboler og ikoner" på hurtigfanen Tidslinje.  
@@ -53,7 +53,7 @@ Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av 
     |**Autojuster forsyning**|Optimaliserer en ny forsyning som du har opprettet i diagrammet ved å sørge for at den resulterer i nullager til neste forsyning.|  
     |**Slett forsyning**|Sletter elementet på hurtigfanen **tidslinje** og sletter planleggingslinjen når du velger **Lagre endringer**. Ikonet endres til en disk med et rødt kryss når forsyningen er slettet.<br /><br /> **OBS!** Du kan bare slette en forsyning med en handlingsmelding av typen **Ny**. Når du velger **Lagre endringer**, må du manuelt slette den aktuelle planleggingslinjen i planleggings- eller bestillingsforslaget.|  
 
-7.  Velg handlingen **Last inn på nytt** hvis du vil tilbakestille alle endringene du har gjort siden du sist åpnet vinduet **Varetilgjengelighet per tidslinje** eller valgte **Last inn på nytt**.  
+7.  Velg handlingen **Last inn på nytt** hvis du vil tilbakestille alle endringene du har gjort siden du sist åpnet siden **Varetilgjengelighet per tidslinje** eller valgte **Last inn på nytt**.  
 8. Når elementene er plassert der du vil ha dem i diagrammet, kan du velge **Lagre endringer** for å kopiere endrede antall og datoendringer til planleggings- eller forslagslinjer som representerer de grafiske elementene.  
 
 Hvis du vil implementere forsyningsplanendringene, må du følge de resulterende handlingsmeldingene fra planleggings- eller bestillingsforslaget. Hvis du vil ha mer informasjon, se Utfør handlingsmeldingplaner..

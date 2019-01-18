@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ab76136c7f28e322bbc3b52a0fec354c6c13f3ff
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
@@ -65,17 +65,17 @@ Følgende fremgangsmåte beskriver hvordan du fullfører oppgavene til Jenny:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Slik definerer du en nummerserie for forskuddsbetalinger:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
-2.  Vis hurtigfanen **Nummerering** i **Salgsoppsett**-vinduet.  
+2.  Vis hurtigfanen **Nummerering** på **Salgsoppsett**-siden.  
 3.  Kontroller at nummerserien for bokførte forskuddsfakturaer i feltet **Bokførte fakturanumre for forskudd** er den samme som for bokførte salgsfakturaer (**Bokførte fakturanr.**), og at nummerserien for bokførte kreditnotaer for forskudd (**Bokførte kreditnotanumre for forskudd**) er den samme som for bokførte kreditnotaer (**Bokførte kreditnotanr.**).  
 
 #### <a name="to-block-shipments-for-unpaid-prepayment"></a>Slik sperrer du leveringer ved ubetalt forskudd  
-1.  Merk av for **Kontroller forskudd ved bokføring** på hurtigfanen **Generelt** i **Salgsoppsett**-vinduet.
+1.  Merk av for **Kontroller forskudd ved bokføring** på hurtigfanen **Generelt** på siden **Salgsoppsett**.
 
     Nå kan du ikke levere eller fakturere en ordre som har ubetalte forskuddsbeløp.  
 
 Jenny krever at kunde 20000 som standard faktureres for et avdrag på 30 % i alle ordrer. Derfor angir hun en standard forskuddsprosent på kundekortet.  
 
-Jenny krever at alle kunder faktureres for et depositum på 20&#160;% for vare 1100. Kunde 20000 har en dårlig betalingshistorikk. Derfor krever hun en 40 % forskuddsbetaling fra kunde 20000 for vare 1100. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
+Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1100. Kunde 20000 har en dårlig betalingshistorikk. Derfor krever hun en 40 % forskuddsbetaling fra kunde 20000 for vare 1100. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Slik tilordner du standard forskuddsprosenter til kunder og varer:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kunder**, og velg deretter den relaterte koblingen.  
@@ -85,7 +85,7 @@ Jenny krever at alle kunder faktureres for et depositum på 20&#160;% for vare 1
 5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
 6.  Åpne kortet for kunde 1100.
 7.  Velg handlingen **Forskuddsprosenter for salg**.  
-8.  Fyll ut to linjer i vinduet **Forskuddsprosenter for salg** på følgende måte.  
+8.  Fyll ut to linjer på siden **Forskuddsprosenter for salg** på følgende måte:  
 
     |**Salgstype**|**Salgskode**|**Varenr.**|**Forskuddsprosent**|  
     |--------------------|--------------------|------------------|----------------------|  
@@ -95,12 +95,12 @@ Jenny krever at alle kunder faktureres for et depositum på 20&#160;% for vare 1
     > [!IMPORTANT]  
     >  Alt etter land/område må du også angi en mva-gruppekode på hurtigfanen **Fakturering** for varene 1000 og 1100.  
 
-9. Lukk alle vinduer.  
+9. Lukk alle sider.  
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Slik angir du en konto for salgsforskudd i generelt bokføringsoppsett:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg linjen hvor feltet **Bokføringsgruppe - firma** er satt til **EKSPORT**, og feltet **Bokføringsgruppe - vare** er satt til **DETALJ**, og velg deretter **Rediger**-handlingen.  
-3.  Angi den relevante kontoen i feltet **Konto for salgsforskudd** i vinduet **Generelt bokføringsoppsettskort**.  
+3.  Angi den relevante kontoen i feltet **Konto for salgsforskudd** på siden **Generelt bokføringsoppsettskort**.  
 4.  Velg **OK**-knappen.  
 
 ## <a name="creating-an-order-that-requires-a-prepayment"></a>Opprette en ordre der det kreves et forskudd  
@@ -126,24 +126,24 @@ Heidi oppretter forskuddsfakturaen og sender den til kunden.
 
 7. Kontroller at feltet **Forskuddsprosent** på linjen med vare **1000** inneholder **30**. Standardverdien ble tatt fra salgshodet, som ble fylt ut fra kundekortet.  
 
-    Feltet **Forskuddsprosent** på linjen med vare **1100** inneholder **40**. Dette er prosentsatsen du registrerte i vinduet **Forskuddsprosenter for salg** for vare **1100** og kunde **20000**.  
+    Feltet **Forskuddsprosent** på linjen med vare **1100** inneholder **40**. Dette er prosentsatsen du registrerte på siden **Forskuddsprosenter for salg** for vare **1100** og kunde **20000**.  
 
     Hvis du vil ha mer informasjon, kan du se [Definere forskudd](finance-set-up-prepayments.md).  
 8. Velg handlingen **Statistikk**.  
 9. På hurtigfanen **Forskuddsbetaling** inneholder feltet **Linjebeløp for forskudd eks. mva.** **1,560**. Hvis du oppretter en forskuddsfaktura for ordren nå, er dette beløpet som vises på fakturaen.  
 
-    I dette scenariet har Heidi fått beskjed om å foreslå et totalt forskudd på 2&#160;000 for ordren.  
+    I dette scenariet har Heidi fått beskjed om å foreslå et totalt forskudd på 2 000 for ordren.  
 
     > [!IMPORTANT]  
     >  Følgende trinn gjelder kanskje ikke avhengig av land/område.  
-10. Endre beløpet i feltet **Linjebeløp for forskudd eks. mva** til **2000**, og lukk deretter vinduet.  
+10. Endre beløpet i feltet **Linjebeløp for forskudd eks. mva** til **2000**, og lukk deretter siden.  
 11. Når du kontroller feltet **Forskuddsprosent** på salgslinjene, ser du at den har blitt beregnet på nytt til **40,81625**.  
 
     Den nye beregningen tar med alle linjene med en forskuddsprosent som er større enn 0.  
 
     Nå spør kunden om forskuddsprosenten kan settes til 35 %. Heidis arbeidsleder godkjenner endringen.  
 
-12. Angi **35** i **Forskuddsprosent**-feltet i **Ordre**-vinduet.  
+12. Angi **35** i **Forskuddsprosent**-feltet på siden **Ordre**.  
 13. Klikk **Ja** i advarselen som vises. En sats på 35 % vil bli brukt som betalingsprosent for hele ordren.  
 14. Kontroller at linjene har blitt oppdatert i samsvar med dette.  
 
@@ -152,7 +152,7 @@ Etter at Heidi har registrert de riktige forskuddsverdiene i ordren, oppretter h
 
 #### <a name="to-create-a-prepayment-invoice"></a>Slik oppretter du en forskuddsfaktura:  
 
-1.  I vinduet **Ordre** velger du handlingen **Bokfør forskuddsfaktura**.  
+1.  På siden **Ordre** velger du handlingen **Bokfør forskuddsfaktura**.  
 
 > [!NOTE]  
 >  Heidi ville ha valgt **Bokfør og skriv ut forskuddsfaktura** og sendt fakturaen til kunden via e-post.  
@@ -162,7 +162,7 @@ Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1100. H
 
 #### <a name="to-create-an-additional-prepayment-invoice"></a>Slik oppretter du en ekstra forskuddsfaktura:  
 
-1.  I vinduet **Ordre** velger du handlingen **Åpne på nytt**.  
+1.  På siden **Ordre** velger du handlingen **Åpne på nytt**.  
 2.  Angi **2** i **Antall**-feltet på linjen for vare **1100**.  
 
     Rull for å se forskuddsfeltene. Feltet **Linjebeløp for forskudd eks. mva** inneholder nå **630**, og feltet **Fakturert forskuddsbeløp eks. mva.** inneholder **315**. Dette viser at det er et ytterligere forskuddsbetalingsbeløp som ennå ikke er fakturert.  
@@ -182,7 +182,7 @@ Kunden betaler forskuddsbeløpet, og Magnus, som arbeider i regnskapsavdelingen,
     |**Kontotype**|**Kunde**|  
     |**Kontonr.**|**20000**|  
 3. Velg handlingen **Utlign poster**.  
-4.  Velg den første forskuddsfakturaen i vinduet **Utlign kundeposter**, og velg deretter handlingen **Angi utlignings-ID**.  
+4.  Velg den første forskuddsfakturaen på siden **Utlign kundeposter**, og velg deretter handlingen **Angi utlignings-ID**.  
 5.  Gjenta forrige trinn for den andre forskuddsbetalingen.  
 6.  Velg **OK**.  
 

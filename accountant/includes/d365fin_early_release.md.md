@@ -1,1 +1,1 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil lære om hva som kommer, [last ned merknadene fra våren 18](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf).
+Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres.

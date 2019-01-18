@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67f4e18a8a6de3d2be4c7bbe580da1091f75e82b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f75dab84229aa08c35eddf057805003b69124481
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -36,14 +36,14 @@ Det kan ofte være nødvendig å skaffe seg oversikt over serviceordre eller ser
 6. Hvis du vil ha en oversikt over dokumenter som tilhører en bestemt kontrakt, kunde eller sone, fyller du ut feltet **Kontraktfilter/Kundefilter/Sonefilter**, og trykker på **Enter**.  
 7. Velg en linje som er knyttet til en serviceordre eller et servicetilbud, og velg deretter handlingen **Vis dokument**.  
 
-    **Serviceordre**- eller **Servicetilbud**-vinduet åpnes, og du kan arbeide med dokumentet. Hvis du vil gå tilbake til vinduet **Servicefordeling**, velger du **OK**.
+    **Serviceordre**- eller **Servicetilbud**-siden åpnes, og du kan arbeide med dokumentet. Hvis du vil gå tilbake til **Servicefordeling**-siden, velger du **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Slik tildeler du en ressurs ved hjelp av ressurs eller ressursgruppedisponering    
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg den relaterte koblingen.  
 2. Velg serviceordren, og velg deretter handlingen **Ressurstildelinger**.  
 3. Velg posten med serviceoppgaven som du vil tildele en ressurs til.  
 4. Velg handlingen **Ressursdisponering** eller **Ress.grp.disponering**.  
-5. I vinduet **Disponible ress. (service)** velger du **Vis matrise**.  
+5. På siden **Disponible ress. (service)** velger du **Vis matrise**.  
 6. Velg en ressurs å tildele. Du kan basere utvalget på om ressursen er kompetent til oppgaven, om den holder til i kundesonen, og/eller om den er foretrukket av kunden.  
 7. Angi en dato da ressursen har tilstrekkelig med disponible timer for oppgaven, og som er nær i tid til responsdatoen på serviceordren.  
 8. I feltet **Ant. som skal tildeles** angir du antall timer ressursen skal tildeles til serviceoppgaven for.  
@@ -63,7 +63,7 @@ Når du har opprettet og fylt ut en serviceordre eller et servicetilbud, kan du 
 2. Velg serviceordren, og velg deretter **Rediger**.  
 3. Velg servicevarelinjen som er knyttet til serviceoppgaven du vil tildele en ressurs til.  
 4. Velg **Ressurstildelinger**.
-5. I **Ressurstildelinger**-vinduet velger du en tildelingspost som ikke er aktiv, med serviceoppgaven du vil tildele ressursen til. Hvis tildelingsposten ikke finnes, kan du opprette en ny ved å velge **Ny**.  
+5. På siden **Ressurstildelinger** velger du en tildelingspost som ikke er aktiv, med serviceoppgaven du vil tildele ressursen til. Hvis tildelingsposten ikke finnes, kan du opprette en ny ved å velge **Ny**.  
 7. Angi serviceoppgaven ved å fylle ut feltet **Servicevarenr.** på samme linje.  
 8. Velg ressursen i **Ressursnr.**-feltet. Hvis ressursen er medlem av en ressursgruppe, angis nummeret på ressursgruppen automatisk i feltet **Ressursgruppenr.**. .  
 9. Fyll ut feltene **Tildelingsdato** og **Tildelte timer**. **Status**-feltet settes til **Aktiv**. Dette betyr at ressursen er tildelt til serviceoppgaven.  
@@ -82,7 +82,7 @@ Du kan tildele ressurser på nytt direkte fra en serviceordre eller et serviceti
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. Velg servicevarelinjen som er knyttet til serviceoppgaven du vil tildele en ressurs til.  Velg **Handlinger**, velg **Linje**, og velg deretter **Ressurstildelinger**.  
-4. I **Ressurstildelinger**-vinduet velger du en tildelingspost med serviceoppgaven du vil tildele ressursen til på nytt. Velg den aktuelle ressursen i **Ressursnr.**-feltet. Dermed overskrives ressursnummeret som allerede finnes i feltet.  
+4. På siden **Ressurstildelinger** velger du en tildelingspost med serviceoppgaven du vil tildele ressursen til på nytt. Velg den aktuelle ressursen i **Ressursnr.**-feltet. Dermed overskrives ressursnummeret som allerede finnes i feltet.  
 5. Trykk Enter. Det vises en dialogboks med forespørsel om du vil tildele denne posten på nytt. Fyll eventuelt ut **Årsaksspor**-feltet, og velg **Ja**-knappen for å bekrefte den nye tildelingen.  
 6. Fyll ut feltene **Tildelingsdato** og **Tildelte timer**. Posten inneholder nå den nye ressursen, og har statusen **Aktiv**.
 
@@ -90,8 +90,8 @@ Du kan tildele ressurser på nytt direkte fra en serviceordre eller et serviceti
 Hvis ressursene som er tildelt til en serviceoppgave, ikke kan fullføre arbeidet, betyr det at denne serviceoppgaven trenger ny tildeling. Vanligvis tildeler du ressurser på nytt til en serviceoppgave med **Servicefordeling**.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
-2. I feltet **Tildelingsfilter** velger du **Ny tildeling nødvendig**. Vinduet **Servicefordeling** viser nå en liste over serviceordrer som omfatter serviceoppgaver som trenger ny tildeling.  
-3. Velg den aktuelle serviceordren. I fanebladet **Naviger**, under **Planlegging**, velger du **Ressurstildelinger**. **Ressurstildelinger**-vinduet åpnes.  
+2. I feltet **Tildelingsfilter** velger du **Ny tildeling nødvendig**. Siden **Servicefordeling** viser nå en liste over serviceordrer som omfatter serviceoppgaver som trenger ny tildeling.  
+3. Velg den aktuelle serviceordren. I fanebladet **Naviger**, under **Planlegging**, velger du **Ressurstildelinger**. **Ressurstildelinger**-siden åpnes.  
 4. Velg tildelingsposten med serviceoppgaven som du vil tildele en ressurs til på nytt.  
 5. Velg den aktuelle ressursen i **Ressursnr.**-feltet. Dermed overskrives ressursnummeret som allerede finnes i feltet.  
 6. Trykk Enter. Dialogboksen **Årsaker til ny tildeling av post** åpnes, der du blir spurt om du vil tildele denne posten på nytt. Fyll eventuelt ut **Årsaksspor**-feltet, og velg **Ja**-knappen for å bekrefte den nye tildelingen.  
@@ -105,9 +105,9 @@ Hvis ressursene som er tildelt til en serviceoppgave, ikke kan fullføre arbeide
     > * Hvis du tildeler en serviceordre på nytt, som du har konvertert fra et tilbud, endres alltid statusen til fordelingspostene som er registrert for tilbudet, til **Ferdig** når du tildeler servicevarene i serviceordren på nytt.  
 
 ## <a name="to-register-resource-hours"></a>Slik registrerer du ressurstimer  
-Når du arbeider med servicevarer i serviceordrer, må du registrere ressurstimene som brukes på servicen. Følgende fremgangsmåte viser hvordan du registrerer ressurstimene i vinduet **Servicevareskjema**.  
+Når du arbeider med servicevarer i serviceordrer, må du registrere ressurstimene som brukes på servicen. Følgende fremgangsmåte viser hvordan du registrerer ressurstimene på siden **Servicevareskjema**.  
 
-Du kan bruke samme fremgangsmåte til å registrere timene i vinduet **Servicelinjer**, som du kan åpne fra vinduet Serviceordre. Åpne det aktuelle servicekortet og velg deretter **Handlinger**, **Ordre** og deretter **Servicelinjer**.  
+Du kan bruke samme fremgangsmåte til å registrere timene på siden **Servicelinjer**, som du kan åpne fra siden Serviceordre. Åpne det aktuelle servicekortet og velg deretter **Handlinger**, **Ordre** og deretter **Servicelinjer**.  
 
 Hvis den samme ressursen kan brukes på alle servicevarene i serviceordren, kan du registrere samlede ressurstimer for bare én servicevare, og deretter dele ressurslinjen for å tilordne ressurstimene til de andre servicevarene.
 
@@ -118,11 +118,11 @@ Hvis den samme ressursen kan brukes på alle servicevarene i serviceordren, kan 
 ## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Slik tildeler du en ressurs til alle servicevarer i en ordre
 Hvis den samme ressursen, for eksempel en tekniker, kan brukes på alle servicevarene i serviceordren, kan du registrere samlede ressurstimer for bare én servicevare, og deretter dele ressurslinjen for å fordele ressurstimene på ressurslinjene for de andre servicevarene.  
 
-Følgende fremgangsmåte viser hvordan du deler ressurslinjer i vinduet **Servicefakturalinjer**.  
+Følgende fremgangsmåte viser hvordan du deler ressurslinjer på siden **Servicefakturalinjer**.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
-3. På hurtigfanen **Linjer** velger du **Handlinger**, **Ordre** og deretter **Servicelinjer**. **Servicelinjer**-vinduet åpnes.  
+3. På hurtigfanen **Linjer** velger du **Handlinger**, **Ordre** og deretter **Servicelinjer**. Siden **Servicelinjer** åpnes.  
 4. Velg ressurslinjen du vil dele. Innholdet i feltet **Antall** fordeles mellom alle servicevarene i ordren.  
 5. I fanen **Handlinger** velger du handlingen **Del ressurslinje**. Velg **Ja** for å bekrefte.  
 

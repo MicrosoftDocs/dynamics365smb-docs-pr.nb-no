@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
+redirect_url: marketing-setup-contacts
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b8c59f24eae07efe8f2c4ca1e4e22d05fd4f1b1c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Definere webkilder for kontaktselskaper
@@ -29,7 +30,7 @@ Bruk av webkilder på kontakter er en totrinnsprosess. Først må du definere ko
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene **Kode**, **Beskrivelse** og **URL**.
 
-    Skriv inn %1 i feltet **Nettadresse** for å sette inn en plassholder for et søkeord i nettadressen. Når du starter webkilden fra et kontaktkort, erstattes %1 med søkeordet (for eksempel navnet på selskapet) som du angav i vinduet **Kontaktens webkilder**.
+    Skriv inn %1 i feltet **Nettadresse** for å sette inn en plassholder for et søkeord i nettadressen. Når du starter webkilden fra et kontaktkort, erstattes %1 med søkeordet (for eksempel navnet på selskapet) som du angav på siden **Kontaktens webkilder**.
 
 Gjenta disse trinnene hvis du vil definere flere webkilder.
 
@@ -37,13 +38,13 @@ Gjenta disse trinnene hvis du vil definere flere webkilder.
 Når du tilordner webkilder, angir du hvilken søkemotor og søkeord som programmet skal bruke for å finne de forespurte opplysningene.
 
 1. Åpne kontakten.
-2. Velg handlingen **Selskap**, og velg deretter handlingen **Webkilder**. Vinduet **Kontaktens webkilder** åpnes.
+2. Velg handlingen **Selskap**, og velg deretter handlingen **Webkilder**. Siden **Kontaktens webkilder** åpnes.
 3. Velg webkilden du vil tilordne i feltet **Webkilde - kode**.
 4. I feltet **Søkeord** angir du et søkeord som du vil bruke for å finne opplysningene.
 
 Gjenta disse trinnene hvis du vil tilordne flere webkilder.
 
-Ved å følge samme fremgangsmåte kan du også tilordne webkilder fra vinduet **Kontaktoversikt**.
+Ved å følge samme fremgangsmåte kan du også tilordne webkilder på siden **Kontaktoversikt**.
 
 ## <a name="see-also"></a>Se også
 [Opprette kontaktselskaper](marketing-create-contact-companies.md)  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b0c576386a88db335a932da9c0bc1141289c57d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
@@ -25,39 +25,39 @@ Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kansk
 > [!NOTE]  
 >  Hvis du vil ha informasjon om hvordan du flytter varer mellom hyller uten kildedokumenter, kan du se Intern flytting.  
 
-I avanserte lageroppsett, som er lokasjoner der oppsettsfeltet **Bruk lagerstyring brukes** brukes, kan du bruke **Flytteforslag**-vinduet til å flytte varer mellom hyller. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+I avanserte lageroppsett, som er lokasjoner der oppsettfeltet **Bruk Lagerstyring** brukes, kan du bruke **Flytteforslag**-siden til å flytte varer mellom hyller. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 I grunnleggende lageroppsett, som er lokasjoner som bruker oppsettsfeltet **Hylle obligatorisk** og **Plukk nødv.**, kan du registrere flytting av varer til interne operasjonsområder baser på interne kildedokumenter på følgende måter:  
 
--   I vinduet **Lagerflytting**.  
--   Med vinduet **Lagerplukk**.  
+-   På siden **Lagerflytting**.  
+-   Med siden **Lagerplukk**.  
 
 > [!NOTE]  
->  Lagerplukk bokfører også negative vareposter som forbruk og støttes bare for produksjonskomponenter. Du finner mer informasjon i vinduet lagerplukk.  
+>  Lagerplukk bokfører også negative vareposter som forbruk og støttes bare for produksjonskomponenter. Du finner mer informasjon på siden Lagerplukk.  
 
-Hvis du vil ha detaljert informasjon om lagerflyttinger, kan du se vinduet Lagerflytting.  
+Hvis du vil ha detaljert informasjon om lagerflyttinger, kan du se siden Lagerflytting.  
 
 To forskjellige roller kan opprette den innledende lagerflyttingen. En monteringsarbeider kan for eksempel opprette den fra en frigitt monteringsordre, slik at den vises i lagermedarbeiderens liste over arbeid som skal utføres. Hvis du vil opprette en lagerflytting for monteringsordrelinjer som har komponenter som er klare for flytting til angitte hyller, bruker montøren funksjonen **Opprett lagerflytting**.  
 
 En lagermedarbeider kan også opprette den ved å peke på den aktuelle frigitte monteringsordren. Dette er beskrevet i følgende fremgangsmåte.  
 
 > [!NOTE]  
->  Hvis flyttingen er for en monteringsordre der varen er montert til en ordre, kan du angi at lagerflyttingsdokumentet opprettes automatisk når du oppretter lagerplukkdokumentet som tar den ferdige monteringsvaren og bokfører leveringen. Hvis du vil konfigurere dette, kan du velge feltet **Opprett flyttinger automatisk** i vinduet **Monteringsoppsett**  
+>  Hvis flyttingen er for en monteringsordre der varen er montert til en ordre, kan du angi at lagerflyttingsdokumentet opprettes automatisk når du oppretter lagerplukkdokumentet som tar den ferdige monteringsvaren og bokfører leveringen. Hvis du vil konfigurere dette, kan du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**  
 >   
 >  Hvis du vil ha mer informasjon om monteringsordrer og grunnleggende lagerstyring, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
 
-Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra vinduet **Lagerflytting** ved å referere til en frigitt monteringsordre som et kildedokument. Fremgangsmåten er den samme når du flytter komponenter for produksjonsordrer og serviceordrer.  
+Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **Lagerflytting** ved å referere til en frigitt monteringsordre som et kildedokument. Fremgangsmåten er den samme når du flytter komponenter for produksjonsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerflytting**, og velg den relevante koblingen.  
 2.  På hurtigfanen **Generelt** fyller du ut **Nr.**-feltet . Du kan trykke ENTER for å velge fra nummerserien.  
 3.  Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
 4.  Velg handlingen **Hent kildedokumenter**. Du kan også fylle ut feltet **Kildedokument** og deretter velge **AssistEdit**-knappen i feltet **Kildenr.**  
-5.  Velg monteringsordren du vil flytte komponenter for, i **Kildedokumenter**-vinduet, og klikk deretter **OK**.  
+5.  Velg monteringsordren du vil flytte komponenter for, på siden **Kildedokumenter**, og klikk deretter **OK**.  
 
-    For hver nødvendige komponent som kan flyttes, genereres én Hent-linje og én Plasser-linje i **Lagerflyttinger**-vinduet. Alle felt bortsett fra **Ant. som skal håndt.** er forhåndsutfylt i henhold til kildedokumentlinjene. Feltet **Ant. som skal håndt.** settes til null inntil du angir antallet du faktisk har flyttet.  
+    For hver nødvendige komponent som kan flyttes, genereres én Hent-linje og én Plasser-linje på siden **Lagerflyttinger**. Alle felt bortsett fra **Ant. som skal håndt.** er forhåndsutfylt i henhold til kildedokumentlinjene. Feltet **Ant. som skal håndt.** settes til null inntil du angir antallet du faktisk har flyttet.  
 
-    Du kan endre hyllekoden på en Hent-linje, men bare i henhold til tilgjengelighet. Hvis du klikker **AssistEdit**-knappen i **Hyllekode**-feltet på en Hent-linje, åpnes **Hylleinnhold**-vinduet, der bare hyller hvor komponenten er tilgjengelig, vises.  
+    Du kan endre hyllekoden på en Hent-linje, men bare i henhold til tilgjengelighet. Hvis du klikker **AssistEdit**-knappen i **Hyllekode**-feltet på en Hent-linje, åpnes **Hylleinnhold**-siden, der bare hyller hvor komponenten er tilgjengelig, vises.  
 
     Du kan ikke endre hyllekoden på en Plasser-linje. Det er bare hyllekoden som er definert på komponentlinjen i kildedokumentet som godtas. Dette støtter prinsippet om at rollen som ber om en komponent, som er en monteringsarbeider i denne prosedyren, vet hvor komponenten må plasseres. Hvis du vil plassere komponentene på en annen hylle, må du først endre hyllekoden på komponentlinjen og deretter opprette lagerflyttingslinjene på nytt.  
 6.  Angi angi det hele eller delvise antallet du faktisk har flyttet, i feltet **Ant. som skal håndt.**. Verdiene på Hent- og Plasser-linjene må være like. Eller kan du ikke registrere flyttingen.  

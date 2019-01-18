@@ -13,10 +13,10 @@ ms.search.keywords: design, item tracking, posting, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: bde0b129455dbdd7cbc91bd50b6d993abf727100
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b2cb135991a067b86b7c5579e0386ffd199aefcf
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bokføringsstruktur for varesporing
@@ -24,7 +24,7 @@ Vareposter brukes som hovedbærere av varesporingsnumre, slik at de passer med f
   
 Varesporingsnumre i ordrenettverksenheter og ikke-ordrenettverksenheter er angitt i tabellen **Reservasjonspost** (T337). Varesporingsnumre som er knyttet til historisk informasjon, blir hentet direkte fra vareposter som er knyttet til den aktuelle transaksjonen. Dette betyr at vareposter gjenspeiler varesporingsspesifikasjonen for den bokførte ordrelinjen.  
   
-Vinduet **Varesporingslinjer** henter informasjonen fra T337 og varepostene og viser den via den midlertidige tabellen **Sporingsspesifikasjon** (T336). T336 inneholder også de midlertidige dataene i vinduet **Varesporingslinjer** for varesporingsantall som skal faktureres.  
+Siden **Varesporingslinjer** henter informasjonen fra T337 og varepostene og viser den via den midlertidige tabellen **Sporingsspesifikasjon** (T336). T336 inneholder også de midlertidige dataene på siden **Varesporingslinjer** for varesporingsantall som skal faktureres.  
   
 ## <a name="one-to-many-relation"></a>Én-til-mange-relasjon  
 Tabellen **Vareposttilknytning**, som brukes til å koble en bokført dokumentlinje til de tilknyttede varepostene, består av to hoveddeler:  

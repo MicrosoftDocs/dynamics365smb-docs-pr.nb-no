@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e7b5bb42d17791b699bced46b027c43104029ef4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
 
-![Innhold i Planleggingsforslag-vinduet](media/NAV_APP_supply_planning_1_planning_worksheet.png "Innhold i Planleggingsforslag-vinduet")  
+![Innhold på Planleggingsforslag-siden](media/NAV_APP_supply_planning_1_planning_worksheet.png "Innhold på Planleggingsforslag-siden")  
 
 Planleggeren i et selskap, for eksempel en innkjøper eller en produksjonsplanlegger, antas å være brukeren av planleggingssystemet. Planleggingssystemet hjelper brukeren ved å utføre omfattende, men heller enkle, beregninger av en plan. Brukeren kan dermed konsentrere seg om å løse vanskeligere problemer, for eksempel når ting avviker fra det som er vanlig.  
 
@@ -53,7 +53,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Håndtere ordrer før
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk sporing (utligning)  
 Dynamisk sporing, med den samtidige opprettingen av handlingsmeldinger i planleggingsforslaget, er ikke en del av forsyningsplanleggingssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne funksjonen knytter sammen behovene og antallene som kan dekke dem, i sanntid, hver gang et nytt behov eller en ny forsyning opprettes eller endres.  
 
-Hvis brukeren for eksempel angir eller endrer en ordre, vil det dynamisk ordresporingssystemet umiddelbart søke etter en passende forsyning til å dekke behovet. Dette kan være fra lager eller en forventet forsyningsordre (for eksempel en bestilling eller en produksjonsordre). Når en forsyningskilde blir funnet, oppretter systemet en kobling mellom behovet og forsyningen og viser koblingen i visningsvinduer som kan åpnes fra de aktuelle dokumentlinjene. Når riktig forsyning ikke blir funnet, oppretter det dynamiske sporingssystemet handlingsmeldinger i planleggingsforslaget med forsyningsplanforslag som gjenspeiler den dynamiske balanseringen. Det dynamiske systemet for ordresporing tilbyr et svært enkel planleggingssystem som kan være nyttig for planleggere og andre roller i den interne forsyningskjeden.  
+Hvis brukeren for eksempel angir eller endrer en ordre, vil det dynamisk ordresporingssystemet umiddelbart søke etter en passende forsyning til å dekke behovet. Dette kan være fra lager eller en forventet forsyningsordre (for eksempel en bestilling eller en produksjonsordre). Når en forsyningskilde blir funnet, oppretter systemet en kobling mellom behovet og forsyningen og viser koblingen på visningssider som kan åpnes fra de aktuelle dokumentlinjene. Når riktig forsyning ikke blir funnet, oppretter det dynamiske sporingssystemet handlingsmeldinger i planleggingsforslaget med forsyningsplanforslag som gjenspeiler den dynamiske balanseringen. Det dynamiske systemet for ordresporing tilbyr et svært enkel planleggingssystem som kan være nyttig for planleggere og andre roller i den interne forsyningskjeden.  
 
 Tilsvarende kan dynamisk sporing betraktes som et verktøy som hjelper brukeren med å vurdere forslag til forsyningsordre skal godtas. Fra forsyningssiden kan en bruker se hvilke behov som har opprettet forsyning, og fra behovssiden hvilken forsyning som skal dekke behovet.  
 
@@ -158,7 +158,7 @@ En ordre-til-ordre-kobling mellom behov og forsyning er en annen attributtype so
 ### <a name="specific-attributes"></a>Bestemte attributter  
 Enkelte attributter på forespørsel er spesifikke og må samsvare nøyaktig med en tilsvarende forsyning. Følgende to bestemte attributter finnes:  
 
--   Etterspørsel etter serie-/partinumre som krever bestemt program (avmerkingsboksen **Sporing basert på s.nr.** eller **Sporing basert på parti** er merket av i **Kort for varesporingskode**-vinduet for varesporingskode som brukes av elementet.)  
+-   Etterspørsel etter serie-/partinumre som krever bestemt program (avmerkingsboksen **Sporing basert på s.nr.** eller **Sporing basert på parti** er merket av på **Kort for varesporingskode**-siden for varesporingskode som brukes av elementet.)  
 -   Koblinger til forsyningsordrer som er opprettet manuelt eller automatisk for et bestemt behov (ordre-til-ordre-koblinger).  
 
 Planleggingssystemet bruker følgende regler for disse attributtene:  
@@ -211,7 +211,7 @@ Den første kolonnen i planleggingsforslaget er for advarselsfeltene. Når en pl
 
 Forsyning på planleggingslinjer med advarsler blir vanligvis ikke endret i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet bare en forsyning for å dekke den nøyaktige behovsmengden. Systemet kan imidlertid konfigureres slik at det respekterer visse planleggingsparametere for planleggingslinjer med bestemte advarsler. Hvis du vil ha mer informasjon, kan du se beskrivelsen av disse alternativene for kjørselen **Beregn plan - planl.forslag**. og **Beregn plan - best.forslag** henholdsvis.  
 
-Advarselsinformasjon vises i vinduet **Ikke-sporede planleggingselementer** -vinduet, som også brukes til å vise sporingskoblinger til ikke-ordrenettverksenheter. Følgende typer advarsler finnes:  
+Advarselsinformasjon vises på siden **Ikke-sporede planleggingselementer**, som også brukes til å vise sporingskoblinger til ikke-ordrenettverksenheter. Følgende typer advarsler finnes:  
 
 -   Kritisk  
 -   Unntak  
@@ -252,7 +252,7 @@ Tilsyn-advarselen vises i tre situasjoner:
 ## <a name="error-logs"></a>Feillogger  
 På forespørselssiden Beregn plan kan brukeren velge feltet **Stopp og vis første feil** for å stoppe planleggingskjøringen når den første feilen oppstår. Samtidig vises en melding med informasjon om feilen. Hvis det oppstår en feil, vises bare feilfrie planleggingslinjer som ble behandlet før feilen oppstod, i planleggingsforslaget.  
 
-Hvis feltet ikke er valgt, vil den satsvise jobben Beregn plan fortsette til den er fullført. Feil avbryter ikke den satsvise jobben. Hvis det oppstår feil, vises en melding når kjørselen er fullført, med informasjon om hvor mange varer som er berørt av feil. Vinduet **Feillogg planlegging** åpnes deretter med ytterligere informasjon om feilen og koblinger til ett eller flere dokumenter eller oppsettkort som er berørt.  
+Hvis feltet ikke er valgt, vil den satsvise jobben Beregn plan fortsette til den er fullført. Feil avbryter ikke den satsvise jobben. Hvis det oppstår feil, vises en melding når kjørselen er fullført, med informasjon om hvor mange varer som er berørt av feil. Siden **Feillogg planlegging** åpnes deretter med ytterligere informasjon om feilen og koblinger til ett eller flere dokumenter eller oppsettkort som er berørt.  
 
 ![Feilmeldinger i planleggingsforslaget](media/NAV_APP_supply_planning_1_error_log.png "Feilmeldinger i planleggingsforslaget")  
 
@@ -264,10 +264,10 @@ Feltet kan angis manuelt av brukeren, men i enkelte tilfeller angis det automati
 Du finner mer informasjon om hvordan dette feltet brukes i [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 
 ## <a name="order-planning"></a>Bestillingsplanlegging  
-Det grunnleggende verktøyet for forsyningsplanlegging i **Ordreplanlegging**-vinduet er utviklet for manuell beslutningstaking. Den tar ikke hensyn til eventuelle planleggingsparametre, og beskrives derfor ikke ytterligere i dette dokumentet. Hvis du vil ha mer informasjon om funksjonen Ordreplanlegging, kan du se Hjelp i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Det grunnleggende verktøyet for forsyningsplanlegging på **Ordreplanlegging**-siden er utviklet for manuell beslutningstaking. Den tar ikke hensyn til eventuelle planleggingsparametre, og beskrives derfor ikke ytterligere i dette dokumentet. Hvis du vil ha mer informasjon om funksjonen Ordreplanlegging, kan du se Hjelp i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!NOTE]  
->  Det anbefales ikke å bruke ordreplanlegging hvis selskapet allerede bruker planleggings- eller bestillingsforslag. Forsyningsordrer som opprettes ved hjelp av **Ordreplanlegging**-vinduet, kan endres eller slettes under automatiserte planleggingskjøringer. Dette er fordi den automatiserte planleggingskjøringen bruker planleggingsparametere, og brukeren som laget den manuelle planen i Ordreplanlegging-vinduet, tar kanskje ikke disse med i beregningen.  
+>  Det anbefales ikke å bruke ordreplanlegging hvis selskapet allerede bruker planleggings- eller bestillingsforslag. Forsyningsordrer som opprettes ved hjelp av **Ordreplanlegging**-siden, kan endres eller slettes under automatiserte planleggingskjøringer. Dette er fordi den automatiserte planleggingskjøringen bruker planleggingsparametere, og brukeren som laget den manuelle planen på Ordreplanlegging-siden, tar kanskje ikke disse med i beregningen.  
 
 ##  <a name="finite-loading"></a>Begrenset belastning  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er et standard ERP-system, ikke et ordrefordelings- eller produksjonskontrollsystem. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.  

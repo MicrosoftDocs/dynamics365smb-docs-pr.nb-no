@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 22c79e4a878f474b29831d86b613a80184395d99
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a52a95bf3fc96b89e664041e3d2b289b6042c046
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
@@ -38,7 +38,7 @@ Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres.
 ## <a name="to-apply-package-data"></a>Slik bruker du pakkedata:  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg en tabell du vil endre data for, og velg deretter handlingen **Bruk data**. Velg **Ja**-knappen for å bekrefte.
-3. For å bekrefte at dataene nå er i databasen og at programmet er fullført går du tilbake til vinduet **Konfigurer forslag**, og velg handlingen **Databasedata**.  
+3. For å bekrefte at dataene nå er i databasen og at programmet er fullført går du tilbake til siden **Konfigurer forslag**, og velger handlingen **Databasedata**.  
 
 > [!NOTE]  
 >  Når du bruker data, kan du bare se dem i databasen. De er ikke lenger i pakken.  
@@ -46,9 +46,9 @@ Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres.
 ## <a name="to-modify-and-apply-package-data"></a>Endre og bruke pakkedata  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg en tabell du vil endre data for, og velg deretter handlingen **Pakkedata**.  
-3. Utfør endringene i vinduet **Konfigurer pakkeposter**. Du kan for eksempel slette alternativer som ikke gjelder.  
+3. Utfør endringene på siden **Konfigurer pakkeposter**. Du kan for eksempel slette alternativer som ikke gjelder.  
 4. Velg **Bruk data**-handlingen, og velg deretter **OK**-knappen.  
-5. For å bekrefte at dataene nå er i databasen og at programmet er fullført går du tilbake til vinduet **Konfigurer forslag**, og velg handlingen **Databasedata**.  
+5. For å bekrefte at dataene nå er i databasen og at programmet er fullført går du tilbake til siden **Konfigurer forslag**, og velger handlingen **Databasedata**.  
 
 ## <a name="to-locate-and-identify-a-configuration-error"></a>Slik finner og identifiserer du en konfigurasjonsfeil:  
 Det finnes visse typer feil som kan oppstå når du bruker dataene på en database. Den vanligste feilen er at nødvendige relaterte tabeller ikke ble inkludert. Du løser slike feil i konfigurasjonsforslaget.
@@ -58,7 +58,7 @@ Det finnes visse typer feil som kan oppstå når du bruker dataene på en databa
 
     Enhver tabell som inneholder feil, er uthevet. Antall pakkefeil vises i feltet **Antall pakkefeil**.  
 
-3. Velg feltet **Antall pakkefeil** for å åpne vinduet **Konfigurer pakkeposter**, som viser postene med feil.  
+3. Velg feltet **Antall pakkefeil** for å åpne siden **Konfigurer pakkeposter**, som viser postene med feil.  
 
 ### <a name="to-fix-an-error"></a>Slik retter du en feil:  
 1. Åpne selskapet som er basert på konfigurasjonspakkenå.  

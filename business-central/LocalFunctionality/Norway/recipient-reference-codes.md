@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1cef86f32fa4db4ee38558f042752daa3b046639
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: e96be3920c6806d4eaf725c08f812399ba486159
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="recipient-reference-codes"></a>Referansekoder for mottaker
@@ -30,7 +30,7 @@ Mottakerreferansekodene blir beskrevet i tabellen nedenfor.
 |--------------|---------------------------------------|  
 |**%1**|Bilagstypen. Enten faktura eller kreditnota.|  
 |**%2**|Leverandørens fakturanummer.|  
-|**%3**|Feltet **Vårt kontonr.** fra **Leverandørkort**-vinduet. Dette er vanligvis kundenummeret som brukes av leverandøren.|  
+|**%3**|Feltet **Vårt kontonr.** på siden **Leverandørkort**. Dette er vanligvis kundenummeret som brukes av leverandøren.|  
 |**%4**|Faktura- eller kreditnotanummeret.|  
 |**%5**|Beskrivelsen fra leverandørposten.|  
 |**%6**|Det opprinnelige beløpet fra leverandørpostene. Beløpet vises med positivt fortegn.|  

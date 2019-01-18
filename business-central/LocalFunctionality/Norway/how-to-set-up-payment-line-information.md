@@ -1,6 +1,6 @@
 ---
 title: Definere betalingslinjeinformasjon
-description: Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis i vinduet **Betalingsinformasjon**.
+description: "Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,20 +13,20 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a043ee0b90861fb25eed30a2275e681340a12c1a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4e151ddb25b6fd7b6349134c1dc56a2b0960301b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
-Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis i vinduet **Betalingsinformasjon**.  
+Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  
 
 ## <a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon  
 
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Betalingsinformasjon**.  
-3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** i vinduet **Betalingsinformasjon**.  
+3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Betalingsinformasjon**.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

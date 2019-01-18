@@ -8,26 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: 00e0d0a131b586d3aee39b3d08064defff81814a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Legge til klienter i instrumentbordet i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
 
-Du kan legge til en klient ved å bruke **Klienter**-vinduet, som du kan åpne ved å velge handlingen **Administrer klienter** på båndet. Velg ganske enkelt **Ny**, og fyll deretter ut feltene.  
+Du kan legge til en klient ved å bruke **Klienter**-siden, som du kan åpne ved å velge handlingen **Administrer klienter** på båndet. Velg ganske enkelt **Ny**, og fyll deretter ut feltene.  
 
-![Legg til en klient](./media/accountant-add-client/manage-client.png)
+> [!div class="mx-imgBorder"]
+> ![Legg til en klient](./media/accountant-add-client/manage-client.png)
 
 Dataene på kortet for hver klient angis av deg, og du kan endre dem etter behov. Feltet **URL-adresse til klient** er avgjørende – det er slik du får tilgang til hver klients [!INCLUDE [d365fin](includes/d365fin_md.md)]. Bruk handlingen **Valider URL-adresse for klient** på båndet for å teste at du har angitt riktig kobling. URL-adressen som du må du angi, peker til klientens [!INCLUDE [d365fin](includes/d365fin_md.md)] og inneholder domeneadressen. Hvis de for eksempel har angitt domenet mittfirma.com, vil koblingen til [!INCLUDE [d365fin](includes/d365fin_md.md)] være *https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1*.  
 
 > [!NOTE]
->  Før oppdateringen i mai 2018 hadde URL-adressen du angav et annet format med kundens selskapsnavn i begynnelsen. Fra og med oppdateringen i mai 2018 er formatet ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, der ```clientdomain``` representerer domenet til klienten.  
+>  Før oppdateringen i mai 2018 hadde URL-adressen du angav et annet format med kundens selskapsnavn i begynnelsen. I gjeldende versjon av [!INCLUDE [d365fin](includes/d365fin_md.md)] er formatet ```https://businesscentral.dynamics.com/clientdomain?redirectedfromsignup=1```, der ```clientdomain``` representerer domenet til klienten.  
 
 Denne URL-adressen for klient brukes deretter når du velger menyelementet **Gå til selskap** på instrumentbordet [!INCLUDE [d365acc](includes/d365acc_md.md)].  
 

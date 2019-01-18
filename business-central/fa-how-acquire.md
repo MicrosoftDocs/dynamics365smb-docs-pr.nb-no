@@ -13,23 +13,23 @@ ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a5ce3c514ff649b5ad4a901f257816ae1a59d58
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2839753f888dfd76e17672c36b15da47a344900f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffe aktiva
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Et avskrivningstablå må defineres og tilordnes til hvert enkelt aktiva før du kan anskaffe det.
 
-Når et aktiva er definert og et avskrivningstablå tilordnet, må du anskaffe det. For å anskaffet et aktiva registrerer du anskaffelseskosten i den relevante finanskontoen, bankkontoen eller leverandøren ved å bokføre en anskaffelsestransaksjon fra **Aktiva finanskladd**-vinduet. Du kan bruke **Assistert aktivaanskaffelse**-vinduet for å opprette og bokføre de nødvendige finanskladdelinjene automatisk.
+Når et aktiva er definert og et avskrivningstablå tilordnet, må du anskaffe det. For å anskaffet et aktiva registrerer du anskaffelseskosten i den relevante finanskontoen, bankkontoen eller leverandøren ved å bokføre en anskaffelsestransaksjon fra **Aktiva finanskladd**-siden. Du kan bruke **Assistert aktivaanskaffelse**-siden for å opprette og bokføre de nødvendige finanskladdelinjene automatisk.
 
 Skrapverdien er restverdien for et aktiva som ikke lenger kan brukes. Du kan bokføre skrapverdien samtidig som du bokfører anskaffelseskosten. Hvis du vil ha mer informasjon, kan du se [Avskrive eller amortisere aktiva](fa-how-depreciate-amortize.md).
 
 Indeksregulering brukes til å justere verdier for generelle endringer i prisnivået. Kjørselen **Indeksreg. aktiva** kan brukes til å beregne anskaffelseskostnader i forbindelse med gjenskaffelseskostnader.
 
 ## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Slik oppretter du et anleggsmiddel og anskaffer det automatisk:
-Følgende fremgangsmåte beskriver hvordan du oppretter et aktiva og deretter anskaffer det ved hjelp av **Assistert aktivaanskaffelse**-vinduet for å opprette og bokføre de nødvendige aktivafinanskladdelinjene. Du kan også opprette og bokføre kladdelinjene manuelt. Hvis du vil ha mer informasjon, kan du se "Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden".
+Følgende fremgangsmåte beskriver hvordan du oppretter et aktiva og deretter anskaffer det ved hjelp av **Assistert aktivaanskaffelse**-siden for å opprette og bokføre de nødvendige aktivafinanskladdelinjene. Du kan også opprette og bokføre kladdelinjene manuelt. Hvis du vil ha mer informasjon, kan du se "Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden".
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny**, og deretter fyller du ut feltene i **Generelt**-hurtigfanen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,12 +38,12 @@ Følgende fremgangsmåte beskriver hvordan du oppretter et aktiva og deretter an
 
     Når alle nødvendige felt for å anskaffe et anleggsmiddel er fylt ut, vises varselet **Du er klar til å anskaffe aktivaet** øverst på siden.
 5. Velg handlingen **Anskaffe** i varselet.
-6. Følg trinnene i **Assistert aktivaanskaffelse**-vinduet for å fullføre den automatiske anskaffelsen av aktivaet.
+6. Følg trinnene på **Assistert aktivaanskaffelse**-siden for å fullføre den automatiske anskaffelsen av aktivaet.
 
 > [!NOTE]  
 >   Du kan også bokføre anskaffelseskosten som et kreditbeløp. Husk i så fall at verdien i **Anskaffelseskost inkl. mva**-feltet må ha et minustegn for å angi et kreditbeløp.
 
-Når du velger **Fullfør**, blir **Bokført verdi**-feltet i **Aktivakort**-vinduet fylt ut, som indikerer at aktivaet er anskaffet til den angitte anskaffelseskosten.  
+Når du velger **Fullfør**, blir **Bokført verdi**-feltet på **Aktivakort**-siden fylt ut, som indikerer at aktivaet er anskaffet til den angitte anskaffelseskosten.  
 
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Slik definerer du en komponentoversikt for et hovedaktiva:
 Du kan gruppere aktiva i hovedaktiva og komponenter i hovedaktivaene. Det kan for eksempel tenkes at du har en produksjonsmaskin som består av mange deler som du vil gruppere på denne måten.  
@@ -52,28 +52,28 @@ Både hovedaktivaet og alle komponentene må defineres som individuelle aktivako
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som er hovedaktivaet, og velg deretter **Hovedaktivakomponenter**-handlingen.
-3. I vinduet **Hovedaktivakomponenter** velger du feltet **Aktivanr.** og velger deretter aktivaet du vil legge til som en komponent av hovedaktivaet.
-4. Lukk vinduet.
+3. På siden **Hovedaktivakomponenter** velger du feltet **Aktivanr.** og velger deretter aktivaet du vil legge til som en komponent av hovedaktivaet.
+4. Lukk siden.
 5. Gjenta trinnene 3 og 4 for hvert komponentaktiva som du vil legge til.
 6. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.
 7. Merk av for **Tillat bokf. til hovedaktiva**.
 
 ## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden:
-Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å opprette og bokføre linjer i **Aktiva finanskladd**-vinduet. Du kan også anskaffe et aktiva automatisk ved hjelp av **Assistert aktivaanskaffelse**-vinduet. Hvis du vil ha mer informasjon, kan du se trinn 5 i "Slik oppretter du et anleggsmiddel og anskaffer det automatisk".
+Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å opprette og bokføre linjer på **Aktiva finanskladd**-siden. Du kan også anskaffe et aktiva automatisk ved hjelp av **Assistert aktivaanskaffelse**-siden. Hvis du vil ha mer informasjon, kan du se trinn 5 i "Slik oppretter du et anleggsmiddel og anskaffer det automatisk".
 
 > [!NOTE]  
 >   Du kan også bokføre anskaffelseskosten som et kreditbeløp. Husk i så fall at verdien i **Beløp**-feltet må ha et minustegn for å angi et kreditbeløp.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.
-2. I **Aktiva finanskladd**-vinduet i **Aktivabokf.type**-feltet velger du **Anskaffelseskost**.
-3. Fyll ut feltene som gjenstår etter behov.
+2. På **Aktiva finanskladd**-siden i **Aktivabokf.type**-feltet velger du **Anskaffelseskost**.
+3. Fyll ut feltene som gjenstår, etter behov.
 4. Velg handlingen **Bokfør**.  
 
 > [!TIP]  
 >   Hvis du fyller ut feltet **Forsikringsnr.** i aktivafinanskladden når du bokfører en anskaffelseskost, bokfører [!INCLUDE[d365fin](includes/d365fin_md.md)] også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil ha mer informasjon, kan du se [Forsikre aktiva](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
-Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-vinduet.
+Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-siden.
 
 For eksempel hvis du bokfører en anskaffelse med feil dato, må du korrigere den så snart som mulig fordi aktivabokføringsdatoen brukes i mange viktige beregninger.
 
@@ -96,7 +96,7 @@ Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivafinanskl
 4. Velg handlingen **Bokfør**.
 
 > [!NOTE]  
->   Bokføringstypen **Skrapverdi** er et alternativ som bare finnes i **Aktivakladd**-vinduet. Det er ikke tilgjengelig i **Aktiva finanskladd**-vinduet fordi skrapverdien ikke bokføres i Finans.
+>   Bokføringstypen **Skrapverdi** er et alternativ som bare finnes på **Aktivakladd**-siden. Det er ikke tilgjengelig på **Aktiva finanskladd**-siden fordi skrapverdien ikke bokføres i Finans.
 
 ## <a name="see-also"></a>Se også
 [Anleggsmidler](fa-manage.md)  

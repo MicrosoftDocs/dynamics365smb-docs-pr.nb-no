@@ -14,10 +14,10 @@ ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa9f014519994ccd69200d8a015efb77bfbcb4fc
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 10d41fd87408a4dfe8d1b5de368c1a32a45e489b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-loading-the-inventory-profiles"></a>Designdetaljer: Laste inn lagerprofiler
@@ -45,7 +45,7 @@ For å sortere ut de mange kildene til behov og forsyning organiserer planleggin
  Planleggingssystemet kontrollerer dette ved å kjøre gjennom beholdningsprofilen. Når det blir funnet en ny kombinasjon, oppretter programmet en intern kontrollpost som inneholder den faktiske kombinasjonsinformasjonen. Programmet setter inn LFEen som kontrollpost eller ytre løkke. Derfor angis riktige planleggingsparametre i henhold til en kombinasjon av variant og lokasjon, og programmet kan fortsette til den indre løkken.  
 
 > [!NOTE]  
->  Programmet krever ikke at brukerne angir en LFE-post når de registrerer behov og/eller forsyning for en bestemt kombinasjon av variant og lokasjon. Hvis det ikke finnes en LFE for en bestemt kombinasjon, oppretter derfor programmet sin egen midlertidige LFE-post basert på varekortdataene. Hvis Lokasjon obligatorisk er satt til Ja i vinduet Lageroppsett, må du opprette en SKU, eller Komponenter ved lokasjon må være satt til Ja. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md).  
+>  Programmet krever ikke at brukerne angir en LFE-post når de registrerer behov og/eller forsyning for en bestemt kombinasjon av variant og lokasjon. Hvis det ikke finnes en LFE for en bestemt kombinasjon, oppretter derfor programmet sin egen midlertidige LFE-post basert på varekortdataene. Hvis Lokasjon obligatorisk er satt til Ja på siden Lageroppsett, må du opprette en SKU, eller Komponenter ved lokasjon må være satt til Ja. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md).  
 
 ## <a name="seriallot-numbers-are-loaded-by-specification-level"></a>Serie-/partinumre lastes inn etter spesifikasjonsnivå  
  Attributter i form av serie-/ partinumre lastes inn i lagerprofiler sammen med behovet og forsyningen som de er tilordnet.  

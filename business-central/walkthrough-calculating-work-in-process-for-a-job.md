@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 640e2eb135b1329cf6a29e4067d5cff22f54d379
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
@@ -45,7 +45,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 ## <a name="calculating-wip"></a>Beregne VIA  
  CRONUS har tatt på seg et langvarig prosjekt som nå har strukket seg over rapporteringsperioder. Marie, et medlem i prosjektgruppen, beregner varene i arbeid (VIA) for å sikre at regnskapet for selskapet blir nøyaktig.  
 
- I løpet av denne fremgangsmåten skal Marie velge en bestemt gruppe oppgaver som skal tas med i VIA-beregningen. Hun kan angi disse linjene i kolonnen **VIA-sum** i vinduet **Prosjektoppgavelinjer**.  
+ I løpet av denne fremgangsmåten skal Marie velge en bestemt gruppe oppgaver som skal tas med i VIA-beregningen. Hun kan angi disse linjene i kolonnen **VIA-sum** på siden **Prosjektoppgavelinjer**.  
 
  Tabellen nedenfor beskriver de tre alternativene.  
 
@@ -77,10 +77,10 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
     |1310|Utelatt|  
 
 5.  Velg **VIA**-handlingen, og velg deretter **Beregn VIA**-handlingen.  
-6.  Du kan velge prosjektet du vil beregne VIA for, på kortet **Beregn VIA for prosjekt**. Velg **Klepp Datakontor A/S** i **Nr.**-feltet i hurtigfanen **Prosjekt** .  
+6.  Du kan velge prosjektet du vil beregne VIA for, på siden **Beregn VIA for prosjekt**. Velg **Klepp Datakontor A/S** i **Nr.**-feltet i hurtigfanen **Prosjekt** .  
 7.  I **Bokføringsdato**-feltet angir du en dato som er senere enn arbeidsdatoen.
 8.  Angi **1** i feltet **Bilagsnr.**. Dette oppretter et dokument som du kan referere til senere for sporing.  
-9. Velg **OK**-knappen for å kjøre kjørselen. Det vises en melding. Velg **OK**-knappen for å fortsette. Lukk vinduet **Prosjektoppgavelinjer**.  
+9. Velg **OK**-knappen for å kjøre kjørselen. Det vises en melding. Velg **OK**-knappen for å fortsette. Lukk siden **Prosjektoppgavelinjer**.  
 
     > [!NOTE]  
     >  Meldingen angir at advarsler er knyttet til VIA-beregningen. Du vil gå gjennom advarslene i neste prosedyre.  
@@ -93,7 +93,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet **Klepp Datakontor A/S**, og velg deretter handlingen **Vis advarsler**.  
-3.  Se gjennom advarselen som er knyttet til prosjektet, i vinduet **VIA-advarsler for prosjekt**.  
+3.  Se gjennom advarselen som er knyttet til prosjektet, på siden **VIA-advarsler for prosjekt**.  
 
  Etter denne regnskapsperioden må Marie beregne VIA på nytt for å ta med ferdig arbeid hittil.  
 
@@ -101,10 +101,10 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 1.  På **Prosjekt**-kortet velger du handlingen **VIA-poster** for å vise VIA-beregningen.  
 
-     Vinduet **VIA-poster for prosjekt** viser VIA-postene som sist ble beregnet i et prosjekt, selv om VIA ennå ikke er bokført i Finans.  
+     Siden **VIA-poster for prosjekt** viser VIA-postene som sist ble beregnet i et prosjekt, selv om VIA ennå ikke er bokført i Finans.  
 
-2.  Følg trinnene i fremgangsmåten som forklarer hvordan du beregner VIA, for å beregne VIA på nytt. Hver gang VIA beregnes, blir det opprettet en post i vinduet **VIA-poster for prosjekt**.  
-3.  Lukk vinduet.  
+2.  Følg trinnene i fremgangsmåten som forklarer hvordan du beregner VIA, for å beregne VIA på nytt. Hver gang VIA beregnes, blir det opprettet en post på siden **VIA-poster for prosjekt**.  
+3.  Lukk siden.  
 
 > [!NOTE]  
 >  Varer i arbeid og føring blir bare beregnet. De bokføres ikke i finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA og føring.
@@ -116,18 +116,18 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 1.  Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
 2.  Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
-3.  Velg **Klepp Datakontor A/S** i **Nr.** på hurtigfanen **Prosjekt** i vinduet **Bokfør VIA i Finans for prosjekt**. .  
+3.  Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekt** på siden **Bokfør VIA i Finans for prosjekt**. .  
 4.  Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
 5.  Velg **OK**-knappen for å bokføre VIA til finans.  
-6.  Velg **OK**-knappen for å lukke bekreftelsesvinduet.  
+6.  Velg **OK**-knappen for å lukke bekreftelsessiden.  
 
-     Når du har fullført bokføringen, kan du vise bokføringsopplysningene i vinduet **VIA-finansposter**.  
+     Når du har fullført bokføringen, kan du vise bokføringsopplysningene på siden **VIA-finansposter**.  
 
 7.  I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **VIA-finansposter**-handlingen.  
 
-     I vinduet **VIA-finansposter** for prosjekt, kontrollerer du at VIA er bokført i Finans.  
+     På siden **VIA-finansposter** for prosjekt kontrollerer du at VIA er bokført i Finans.  
 
-8.  Lukk vinduet.  
+8.  Lukk siden.  
 9. Åpne **Prosjekt**-kortet for prosjektet **Klepp Datakontor A/S**.  
 10. Legg merke til at **Ført finanskostbeløp** nå er fylt ut i kolonnen **Bokført** på hurtigfanen **VIA og føring**, noe som indikerer at VIA er bokført i finans.  
 11. Velg **OK**-knappen for å lukke kortet.  
@@ -139,16 +139,16 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 1.  Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
 2.  Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
-3.  Velg **Klepp Datakontor A/S** i **Nr.** på hurtigfanen **Prosjekt** i vinduet **Bokfør VIA i Finans for prosjekt**. .  
+3.  Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekt** på siden **Bokfør VIA i Finans for prosjekt**. .  
 4.  Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
 5.  Angi den opprinnelige bokføringsdatoen i **Bokføringsdato for tilbakeføring**. Det bør være den samme datoen som du brukte til å beregne VIA første gang.  
 6.  Merk av for **Bare tilbakefør**. Dermed tilbakeføres tidligere bokført VIA, men ny VIA bokføres i Finans.  
-7.  Velg **OK**-knappen for å kjøre kjørselen, og velg deretter **OK**-knappen for å lukke bekreftelsesvinduet.  
+7.  Velg **OK**-knappen for å kjøre kjørselen, og velg deretter **OK**-knappen for å lukke bekreftelsessiden.  
 8.  Åpne **Prosjekt**-kortet for **Klepp Datakontor A/S**.  
 9. På hurtigfanen **VIA og føring** kontrollerer du at det ikke finnes noen bokførte VIA-poster.  
-10. Lukk dette vinduet.  
+10. Lukk denne siden.  
 11. Velg **Klepp**-prosjektet i **Prosjekter**-listen, velg **VIA**-handlingen, og velg deretter **VIA-finansposter**. Det er merket av for **Tilbakeført** på VIA-postene.  
-12. Lukk dette vinduet.  
+12. Lukk denne siden.  
 13. Åpne **Prosjektoppgavelinjer** for prosjektet, ta med delene av prosjektet som skal være i VIA-beregningen, og gjenberegn og bokfør deretter den nye verdien i Finans.  
 
     > [!NOTE]  

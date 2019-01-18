@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b22144fff3051ef35b9e3baf6e12ecd56ee12c49
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1ad5e15ef1214fb37250dcd4b04d13ab073ac21a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="making-payments"></a>Utføre betalinger
 
-Når du foretar betalinger til leverandører eller kunder eller refusjoner til de ansatte, kan du bokføre de relaterte betalingslinjene i vinduet **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger og inneholder en rekke effektive funksjoner, som for eksempel funksjonen **Betalingsforslag - leverandør** som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør - forfallsoversikt** som viser en oversikt over forfalte leverandørbetalinger.  
+Når du foretar betalinger til leverandører eller kunder eller refusjoner til de ansatte, kan du bokføre de relaterte betalingslinjene på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger og inneholder en rekke effektive funksjoner, som for eksempel funksjonen **Betalingsforslag - leverandør** som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør - forfallsoversikt** som viser en oversikt over forfalte leverandørbetalinger.  
 
 Du kan begynne betalingsprosessen fra lister, kort og poster for leverandører, kunder og ansatte. Hver av disse sidene har en knapp som starter betalingsflyten og hjelper deg med å fylle ut utbetalingskladden.  
 
@@ -33,9 +33,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 | Til | Se |
 | --- | --- |
-|Forstå grunnleggende funksjoner i vinduet **Utbetalingskladd**, som er basert på finanskladden, for å klargjøre for bokføring av betalinger til leverandører eller ansatte.|[Arbeide med finanskladder](ui-work-general-journals.md)|
+|Forstå grunnleggende funksjoner på siden **Utbetalingskladd**, som er basert på finanskladden, for å klargjøre for bokføring av betalinger til leverandører eller ansatte.|[Arbeide med finanskladder](ui-work-general-journals.md)|
 |Bokfør betalinger til leverandører eller ansatte og refusjoner til kunder og eventuelt utligne betalingene til de relaterte ubetalte fakturaene/kreditnotaene for å lukke dem som betalt.|[Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md)|
-| Bruk en funksjon i **Utbetalingskladd**-vinduet til å foreslå leverandørbetalinger i henhold til valgte kriterier som forfallsdato, rabattberettigelse og din likviditet. |[Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md) |
+| Bruk en funksjon på **Utbetalingskladd**-siden til å foreslå leverandørbetalinger i henhold til valgte kriterier som forfallsdato, rabattberettigelse og din likviditet. |[Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md) |
 | Utstede sjekker for leverandørbetalinger eller kunderefusjoner, enten som utskrifter eller maskinelle sjekker. Kansellere sjekker før eller etter bokføring. |[Foreta sjekkbetalinger](payables-how-work-checks.md) |
 |Foreta elektroniske betalinger ved å eksportere betalinger til en bankfil som du laster opp til banken for behandling, inkludert EFT (elektronisk pengeoverføring) i Nord-Amerika. |[Foreta elektroniske betalinger](payables-how-export-payments-bank-file.md)|
 |Utfør elektroniske betalinger i henhold til standarden for EU SEPA-kredittoverføring.|[Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|

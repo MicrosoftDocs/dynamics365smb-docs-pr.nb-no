@@ -11,10 +11,10 @@ ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3e099dde3ab51a2757bf42ffd4c3044c8007ee0a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fb063e388828f9ea099388ea07d8d54971088b42
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-item-attributes"></a>Arbeide med vareattributter
@@ -27,21 +27,21 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 ## <a name="to-create-item-attributes"></a>Slik oppretter du vareattributter:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareattributter**, og velg deretter den relaterte koblingen.
-2. I vinduet **Vareattributter** velger du handlingen **Ny**.
-3. Fyll ut feltene etter behov i vinduet **Vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Vareattributter** velger du handlingen **Ny**.
+3. Fyll ut feltene etter behov på siden **Vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Hvis du velger **Alternativ** i **Type**-feltet, kan du deretter velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se avsnittet "Slik oppretter du verdier for vareattributter av typen Alternativ".  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Slik oppretter du verdier for vareattributter av typen Alternativ:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareattributter**, og velg deretter den relaterte koblingen.
-2. I vinduet **Vareattributter** velger du et vareattributt av typen **Alternativ** som du vil opprette verdier for, og deretter velger du handlingen **Verdier for vareattributt**.
-3. Fyll ut feltene etter behov i vinduet **Verdier for vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Vareattributter** velger du et vareattributt av typen **Alternativ** som du vil opprette verdier for, og deretter velger du handlingen **Verdier for vareattributt**.
+3. Fyll ut feltene etter behov på siden **Verdier for vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Slik tilordner du vareattributter til varer:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
-2. I vinduet **Varer** velger du vareattributtet du vil tilordne vareattributter til, og deretter velger du handlingen **Attributter**.
-3. I vinduet **Verdier for vareattributt** velger du handlingen **Ny**.
+2. På siden **Varer** velger du vareattributtet du vil tilordne vareattributter til, og deretter velger du handlingen **Attributter**.
+3. På siden **Verdier for vareattributt** velger du handlingen **Ny**.
 4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under "Slik oppretter du vareattributter".
 5. I **Verdi**-feltet angir du vareattributtverdien, for eksempel "2010" for attributtet **Modellår**.
 6. For vareattributter av typen **Alternativ** velger du oppslagsknappen i **Verdi**-feltet og velger en verdi for vareattributtet. Du kan også velge **Ny**-handlingen for å opprette en ny vareattributtverdi først, som forklart under "Slik oppretter du verdier for vareattributter av typen Alternativ".
@@ -49,8 +49,8 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Slik tilordner du vareattributter til varekategorier:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekategorier**, og velg deretter den relaterte koblingen.
-2. I vinduet **Varekategorier** velger du varekategorien du vil tilordne vareattributter til, og deretter velger du handlingen **Rediger**.
-3. I **Varekategorikort**-vinduet på **Attributter**-hurtigfanen velger du handlingen **Ny**.
+2. På siden **Varekategorier** velger du varekategorien du vil tilordne vareattributter til, og deretter velger du handlingen **Rediger**.
+3. På siden **Varekategorikort** på **Attributter**-hurtigfanen velger du handlingen **Ny**.
 4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under "Slik oppretter du et vareattributt".
 5. I **Standardverdi**-feltet velger du oppslagsknappen og velger en verdi for vareattributtet.
 6. Gjenta trinn 4 og 5 for alle vareattributter du vil tilordne varekategorien.
@@ -60,20 +60,20 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 ## <a name="to-filter-by-item-attributes"></a>Slik filtrerer du etter vareattributter:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
-2. I vinduet **Varer** velger du handlingen **Filtrer etter attributter**.
-3. I vinduet **Filtrer varer etter attributt** velger du oppslagsknappen i **Attributt**-feltet og et vareattributt.
+2. På siden **Varer** velger du handlingen **Filtrer etter attributter**.
+3. På siden **Filtrer varer etter attributt** velger du oppslagsknappen i **Attributt**-feltet og et vareattributt.
 4. I **Verdi**-feltet velger du oppslagsknappen og velger en eksisterende attributtverdi å filtrere varer etter.
 
     > [!NOTE]  
     >   Du kan bare velge verdier direkte for vareattributter som har faste verdier, for eksempel farge. For vareattributter med variable verdier, for eksempel bredde, må du angi verdien for vareattributtet ved først å velge en betingelse. Se trinn 5.
 5. I **Verdi**-feltet for et variabelt vareattributt velger du oppslagsknappen.
-6. I **Betingelse**-feltet i vinduet **Angi filterverdi** velger du rullegardinpilen og velger en betingelse.
+6. I **Betingelse**-feltet på siden **Angi filterverdi** velger du rullegardinpilen og velger en betingelse.
 7. I **Verdi**-feltet angir du en attributtverdi å filtrere varer etter.
 
     **Eksempel**: Hvis du vil filtrere på varer der materialbeskrivelsen begynner med "blå", fyller du ut feltene som følger: **Attributt**-feltet: Materialbeskrivelse, **Betingelse**-feltet: Begynner med, **Verdi**-felt: blå.
 8. Velg **OK**.   
 
-Varene i vinduet **Varer** er filtrert etter de angitte verdiene for vareattributt.
+Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattributt.
 
 ## <a name="see-also"></a>Se også
 [Kategorisere varer](inventory-how-categorize-items.md)    

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e0668e39891f6e0924afd8d9ec3ee39af95e587
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4989933a0034e5d496e09824ad0ca621a2373825
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeide med rammeordrer
@@ -34,7 +34,7 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  La **Ordredato**-feltet stå tomt. Når egne ordrer opprettes fra rammeordren, settes ordredatoen for salgsordren til faktisk arbeidsdato.
-5. På hurtigfanen **Linjer** oppretter du egne linjer for hver levering. Hvis kunden for eksempel vil ha 1&#160;000 enheter fordelt jevnt på fire uker, angir du fire linjer på 250 enheter hver.   
+5. På hurtigfanen **Linjer** oppretter du egne linjer for hver levering. Hvis kunden for eksempel vil ha 1 000 enheter fordelt jevnt på fire uker, angir du fire linjer på 250 enheter hver.   
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Slik oppretter du en ordre fra en rammeordre  
 
@@ -42,7 +42,7 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 2.  Når du er klar til å opprette bestillinger, velger du handlingen **Lag ordre** og velger deretter **Ja**. Det vises en melding om at rammebestillingen er tilordnet et bestillingsnummer. Vær oppmerksom på at rammebestillingen ikke slettes.  
 3.  Velg **OK**.  
 4.  Hvis du vil se resultatene av de foregående trinnene, velger du **Linje**-handlingen velger handlingen **Ikke-bokførte linjer** og deretter handlingen **Ordrer**.  
-5.  I vinduet **Salgslinjer** velger du ønsket ordre, velger **Linje**-handlingen og deretter **Vis dokument**.  
+5.  På siden **Salgslinjer** velger du ønsket ordre, velger **Linje**-handlingen og deretter **Vis dokument**.  
 
 Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:  
 
@@ -53,14 +53,14 @@ Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:
 - Når ordrer ikke er opprettet direkte fra rammeordren, men er relatert til den, kan en kobling mellom en ordre og en rammeordre opprettes ved at rammeordrenummeret i **Rammeordrenr**-feltet på ordrelinjen.  
 - Når ordren er opprettet for det totale antallet på en rammebestillingslinje, kan ingen andre ordrer opprettes for den samme linjen. Brukere kan ikke angi et antall i feltet **Levere (antall)**. Hvis det imidlertid er behov for å angi flere antall i en rammebestilling, kan verdien i **Antall**-feltet økes, og flere bestillinger kan da opprettes.  
 - Den fakturerte rammeordren blir i systemet til den slettes, enten ved å slette individuelle rammeordrer, eller ved å bruke kjørselen **Slett fakturerte rammeordrer**.  
-- Hvis en kunde også er registrert som kontakt i modulen Markedsføring, og hvis du har angitt en kode for samhandlingsmal for rammeordre i vinduet **Markedsføringsoppsett**, registreres en samhandling i tabellen Samhandlingspost når du velger **Skriv ut** for å skrive ut rammeordren.
+- Hvis en kunde også er registrert som kontakt i modulen Markedsføring, og hvis du har angitt en kode for samhandlingsmal for rammeordre på siden **Markedsføringsoppsett**, registreres en samhandling i tabellen Samhandlingspost når du velger **Skriv ut** for å skrive ut rammeordren.
 
 ## <a name="to-view-the-status-of-a-blanket-purchase-order"></a>Slik viser du statusen for rammebestillinger  
-Du kan vise statusen for en rammeordre i vinduet **Bestillingsstatistikk**. Dette kan være relevant når du begynner å fakturere ordren som opprettes fra rammebestillingen.  
+Du kan vise statusen for en rammeordre på siden **Bestillingsstatistikk**. Dette kan være relevant når du begynner å fakturere ordren som opprettes fra rammebestillingen.  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammebestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg en rammebestilling, og velg deretter **Statistikk**-handlingen.  
-3.  På hurtigfanen **Generelt** i **Bestillingsstatistikk**-vinduet vises en informasjonsoversikt over hele bestillingen, basert på det totale antallet i **Antall**-feltene på bestillingslinjene.  
+3.  På hurtigfanen **Generelt** på siden **Bestillingsstatistikk** vises en informasjonsoversikt over hele bestillingen, basert på det totale antallet i **Antall**-feltene på rammebestillingslinjene.  
 
     - På hurtigfanen **Fakturering** vises en informasjonsoversikt basert på det totale antallet i **Fakturer (antall)**-feltene på rammebestillingslinjene.  
     - På hurtigfanen **Levering** vises en informasjonsoversikt basert på det totale antallet i **Motta (antall)**-feltene på rammebestillingslinjene.  
@@ -120,7 +120,7 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
     <td>Bokførte kreditnotaer som har blitt knyttet til den valgte linjen.</td>
     </tr>
     </table>
-5.I **Salgslinjer**-vinduet velger du handlingen **Vis dokument** for å vise posten.
+5.På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

@@ -13,14 +13,14 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 497f952684cd893bddd954378c02f55f45224f84
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b75d709933cd9d147a9b5e0862a88a44a300f3c1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
-Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker **Intrastatkladd**-vinduet til å fylle ut jevnlige Intrastat-rapporter.  
+Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
 
 ## <a name="required-and-optional-setups"></a>Nødvendige og valgfrie oppsett
 Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må du konfigurere flere ting:  
@@ -57,32 +57,32 @@ Alle varer du kjøper eller selger, må ha en varetype.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekoder**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Hvis du vil tilordne en varekode til en vare, går du til vinduet **Varekort**, utvider hurtigfanen **Kost og bokføring** og angir deretter koden i **Varekode**-feltet.   
+3. Hvis du vil tilordne en varekode til en vare, går du til **Varekort**-siden, utvider hurtigfanen **Kost og bokføring** og angir deretter koden i **Varekode**-feltet.   
 
 ### <a name="to-set-up-transaction-nature-codes"></a>Slik definerer du koder for type transaksjon
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Koder for type transaksjon**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 > [!Tip]
-> Hvis du ofte bruker en bestemt kode for en type transaksjon, kan du gjøre den standard. Hvis du vil gjøre dette, kan du gå til vinduet **Intrastat-oppsett** og velge koden.
+> Hvis du ofte bruker en bestemt kode for en type transaksjon, kan du gjøre den standard. Hvis du vil gjøre dette, kan du gå til siden **Intrastat-oppsett** og velge koden.
 
 ### <a name="to-set-up-transport-methods"></a>Slik definerer du transportmåter
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Transportmåter**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Slik setter du opp hvilke felt som er obligatoriske i en Intrastat-rapport
-I noen land, for eksempel Spania og Storbritannia, krever skattemyndighetene at Intrastat-rapporter for eksempel må inkludere leveringsmåten for kjøp eller enkelte andre verdier ved salg over en viss grense. I vinduet **Oppsett - Intrastat** kan du velge **Oppsett for Intrastat-sjekkliste** for å konfigurere obligatoriske felt i **Intrastatkladd**-vinduet.
+I noen land, for eksempel Spania og Storbritannia, krever skattemyndighetene at Intrastat-rapporter for eksempel må inkludere leveringsmåten for kjøp eller enkelte andre verdier ved salg over en viss grense. På siden **Oppsett - Intrastat** kan du velge **Oppsett for Intrastat-sjekkliste** for å konfigurere obligatoriske felt på **Intrastatkladd**-siden.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett - Intrastat**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Oppsett for Intrastat-sjekkliste**.
-3. I vinduet **Oppsett for Intrastat-sjekkliste** klikker du i **Feltnavn** for å velge felt i Intrastat-rapporten du vil gjøre obligatorisk. 
+3. På siden **Oppsett for Intrastat-sjekkliste** klikker du i **Feltnavn** for å velge felt i Intrastat-rapporten du vil gjøre obligatorisk. 
 
 ## <a name="to-report-intrastat"></a>Slik rapporterer du Intrastat
-Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** for å være sikker på at at all informasjon i kladden er riktig. Obligatoriske felt du har angitt i vinduet **Oppsett for Intrastat-sjekkliste** som mangler verdier, vises i faktaboksen Feil og advarsler i vinduet **Intrastatkladd**. Du kan deretter ut skrie ut en Intrastat-rapport som et skjema eller opprette en fil som skal sendes til skattemyndighetene i landet/regionen.  
+Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** for å være sikker på at at all informasjon i kladden er riktig. Obligatoriske felt du har angitt på siden **Oppsett for Intrastat-sjekkliste** som mangler verdier, vises i faktaboksen Feil og advarsler på siden **Intrastatkladd**. Du kan deretter ut skrie ut en Intrastat-rapport som et skjema eller opprette en fil som skal sendes til skattemyndighetene i landet/regionen.  
 
 ### <a name="to-fill-in-intrastat-journals"></a>Slik fyller du ut Intrastat-kladder  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intrastatkladd**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Intrastatkladd** i feltet **Bunkenavn** velger du den relevante kladdebunken og velger deretter **OK**.  
+2. På siden **Intrastatkladd** i feltet **Bunkenavn** velger du den relevante kladdebunken og velger deretter **OK**.  
 3. Velg handlingen **Foreslå linjer**. Feltene **Startdato** og **Sluttdato** inneholder allerede datoene som er angitt for statistikkperioden på kladden.  
 4. I feltet **Kostregulerings-%** kan du angi en prosentandel som skal dekke transport og forsikring. Hvis du angir en prosent, blir innholdet i feltet **Statistikkverdi** i kladden proporsjonalt høyere.  
 5. Velg **OK** når du vil starte den satsvise jobben.  
@@ -90,13 +90,13 @@ Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** fo
 Kjørselen henter alle varepostene i statistikkperioden og setter dem inn som linjer i intrastatkladden. Du kan redigere linjene om nødvendig.  
 
 > [!IMPORTANT]  
->  Kjørselen henter bare postene som inneholder en lands-/regionkode som det er angitt en intrastatkode for i **Land/regioner**-vinduet. Derfor må du angi intrastatkoder for lands-/regionkodene du vil bruke kjørselen for.  
+>  Kjørselen henter bare postene som inneholder en lands-/regionkode som det er angitt en intrastatkode for, på siden **Land/regioner**. Derfor må du angi intrastatkoder for lands-/regionkodene du vil bruke kjørselen for.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i et skjema eller en fil
 For å skaffe de opplysningene som trengs til Intrastat-blanketten fra statistikkmyndighetene, må du skrive ut rapporten **Intrastat - blankett**. Før du kan gjøre dette, må du forberede Intrastat-kladden og fylle den ut. Hvis du har både salgs- og kjøpstransaksjoner, må du fylle ut én blankett for hver type, slik at du må skrive ut rapporten to ganger.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intrastatkladder**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
+2. På siden **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
 3. Hvis du ikke allerede har gjort dette, fyller du ut kladden manuelt eller velger **Foreslå linjer**.  
 4. Velg handlingen **Skriver ut Intrastatkladd**.  
 5. På hurtigfanen **Intrastatkladdelinje** legger du til et **Type**-filter og angir om det er et **Mottak** eller en **Levering**.  
@@ -106,10 +106,10 @@ For å skaffe de opplysningene som trengs til Intrastat-blanketten fra statistik
 Du kan sende inn Intrastat-rapporten som en fil. Før du oppretter filen kan du skrive ut en sjekkliste som inneholder de samme opplysningene som skal være i filen.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intrastatkladd**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
+2. På siden **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
 3. Hvis du ikke allerede har gjort dette, fyller du ut kladden manuelt eller velger **Foreslå linjer**.  
 4. Velg handlingen **Opprett fil**.  
-5. Velg **OK** i kjørselsvinduet.  
+5. Velg **OK** på kjørselssiden.  
 6. Velg **Lagre**.  
 7. Bla til plasseringen der du vil lagre filen, skriv inn filnavnet, og velg deretter **Lagre**.
 

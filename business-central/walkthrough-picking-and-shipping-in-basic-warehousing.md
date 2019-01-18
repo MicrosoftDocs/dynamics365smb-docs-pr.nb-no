@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6739a7fc1400e9c1cfbc276c0a9ebeb3f95467b2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 35eaf9776508d608a48aaa38e6d83ae879cd05af
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
@@ -32,7 +32,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt](
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
-I grunnleggende lageroppsett hvor lokasjonen er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du vinduet **Lagerplukk** til å registrere og bokføre plukkings- og leveringsopplysninger for de utgående kildedokumentene. Det utgående kildedokumentet kan være en ordre, en bestillingsretur, en utgående overføringsordre eller en produksjonsordre med komponentbehov.  
+I grunnleggende lageroppsett hvor lokasjonen er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å registrere og bokføre plukkings- og leveringsopplysninger for de utgående kildedokumentene. Det utgående kildedokumentet kan være en ordre, en bestillingsretur, en utgående overføringsordre eller en produksjonsordre med komponentbehov.  
 
 Denne gjennomgangen viser følgende oppgaver:  
 
@@ -56,7 +56,7 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
     1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
-    2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
+    2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
     3.  Skriv inn SØLV i feltet **Lokasjonskode**.  
     4.  Velg **Standard**- feltet.  
 
@@ -73,10 +73,10 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
     3.  Velg **Bokfør**-handlingen, og velg deretter **Ja**-knappen.  
 
 ## <a name="story"></a>Hovedscenario  
-Ellen, lagersjefen i CRONUS, setter opp SØLV-lageret for grunnleggende plukkhåndtering der lagermedarbeidere behandler utgående ordrer individuelt. Ordrebehandleren Heidi oppretter en ordre for 30 enheter av varen LS-81 som skal leveres til kunde 10000 fra SØLV-lageret. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver i vinduet **Lagerplukk**, som peker automatisk til hyllene der LS-81 er lagret.  
+Ellen, lagersjefen i CRONUS, setter opp SØLV-lageret for grunnleggende plukkhåndtering der lagermedarbeidere behandler utgående ordrer individuelt. Ordrebehandleren Heidi oppretter en ordre for 30 enheter av varen LS-81 som skal leveres til kunde 10000 fra SØLV-lageret. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver på siden **Lagerplukk**, som peker automatisk til hyllene der LS-81 er lagret.  
 
 ## <a name="setting-up-the-location"></a>Definere plassering  
-Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.  
+Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
 ### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
@@ -102,7 +102,7 @@ Salgsordrer er den vanligste typen av utgående kildedokumenter.
     John fortsetter å plukke og leverer solgte varer.  
 
 ## <a name="picking-and-shipping-items"></a>Plukke og levere varer  
-I vinduet **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et bestemt kildedokument, for eksempel en ordre.  
+På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et bestemt kildedokument, for eksempel en ordre.  
 
 ### <a name="to-pick-and-ship-items"></a>Slik plukker og leverer du varer:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  

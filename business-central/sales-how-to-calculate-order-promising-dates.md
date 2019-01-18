@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/23/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b51486a1daed9f6896424c1eefb55688aec8d16e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1eae5f8562999f3fca227b6de6778ef1c5374e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
-Et firma må være i stand til å informere kundene om ordreleveringsdatoer. Med vinduet **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
+Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
 
 Basert på en vares kjente og forventede tilgjengelighetsdatoer beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] forsendelses- og leveringsdato på et øyeblikk, som deretter kan loves kunden.  
 
@@ -61,7 +61,7 @@ Når [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner kundens leveringsdato,
 
 Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som leveringsdato, og tilgjengelighet baseres deretter på denne datoen. Hvis varen er på lager, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] fremover i tid for å fastsette når ordren kan leveres. Dette kan gjøres med følgende formler:  
 
-- Forsendelsesdato + Utgående lager + Planlagt forsendelse + Håndteringstid = Dato  
+- Forsendelsesdato + Utgående lagerhåndtering = Planlagt forsendelsesdato  
 - Planlagt forsendelsesdato + Leveringstid = Planlagt leveringsdato  
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
@@ -71,11 +71,11 @@ Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som lever
 
 Leveringsdatoen brukes til å utføre tilgjengelighetskontrollen. Hvis varen er tilgjengelig på denne datoen, bekrefter [!INCLUDE[d365fin](includes/d365fin_md.md)] at forespurt/lovet levering kan innfris ved å angi at planlagt leveringsdato skal være lik forespurt/lovet leveringsdato. Hvis varen ikke er tilgjengelig, returneres en tom dato, og ordrebehandleren kan deretter bruke CTP-funksjonalitet.  
 
-Basert på nye datoer og klokkeslett beregnes alle relaterte datoer i henhold til formlene som er oppført tidligere i denne delen. CTP-beregningen tar lengre tid, men den gir en nøyaktig dato for når kunden kan forvente å få varen levert. Datoene som er beregnes fra CTP, vises i feltene **Planlagt lev.dato** og **Tidligste forsendelsesdato** i vinduet **Ordrebekreftelseslinjer**.  
+Basert på nye datoer og klokkeslett beregnes alle relaterte datoer i henhold til formlene som er oppført tidligere i denne delen. CTP-beregningen tar lengre tid, men den gir en nøyaktig dato for når kunden kan forvente å få varen levert. Datoene som er beregnes fra CTP, vises i feltene **Planlagt lev.dato** og **Tidligste forsendelsesdato** på siden **Ordrebekreftelseslinjer**.  
 
 Ordrebehandleren fullfører CTP-prosessen ved å godta datoene. Dette betyr at en planleggingslinje og en reservasjonspost opprettes for varen før de beregnede datoene for å sikre at ordren blir dekket.  
 
-I tillegg til den eksterne ordrebekreftelsen som du kan utføre i vinduet **Ordrebekreftelseslinjer** , kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
+I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordrebekreftelseslinjer**, kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Slik angir du ordrebekreftelser  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
@@ -90,11 +90,11 @@ I tillegg til den eksterne ordrebekreftelsen som du kan utføre i vinduet **Ordr
     |**å**|År|  
 
     "3u" betyr for eksempel at Iverksett (tid) er tre uker. Bruk "n" som prefiks til en av disse kodene for å angi nåværende periode. Hvis du for eksempel vil at Iverksett (tid) skal være nåværende måned, angir du **nm**.  
-3. Angi en nummerserie i feltet **Ordrebekreftelsesnr.**. ved å velge en linje fra listen i vinduet **Nr. serie**.  
-4. Angi en ordrebekreftelsesmal i feltet **Ordrebekreftelsesmal** ved å velge en linje fra oversikten i vinduet **Best.forslagsmal - oversikt**.  
-5. Angi et bestillingsforslag i feltet **Ordrebekreftelsesskjema** ved å velge en linje fra oversikten i vinduet **Best.forslagsnavn**.
+3. Angi en nummerserie i feltet **Ordrebekreftelsesnr.** ved å velge en linje fra listen på siden **Nr. serie**.  
+4. Angi en ordrebekreftelsesmal i feltet **Ordrebekreftelsesmal** ved å velge en linje fra oversikten på siden **Best.forslagsmal - oversikt**.  
+5. Angi et bestillingsforslag i feltet **Ordrebekreftelsesskjema** ved å velge en linje fra oversikten på siden **Best.forslagsnavn**.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Slik angir du inngående lagerhåndteringstid i lageroppsettvinduet  
+### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Slik angir du inngående lagerhåndteringstid i lageroppsettsiden  
 Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret og lokasjonen.    
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
@@ -108,9 +108,9 @@ Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftel
 3.  På hurtigfanen **Lager** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
->  Hvis du lar feltet **Inngående lagerhåndteringstid** stå tomt, brukes verdien i **Lageroppsett**-vinduet i beregningen.
+>  Hvis du lar feltet **Inngående lagerhåndteringstid** stå tomt, brukes verdien på **Lageroppsett**-siden i beregningen.
 
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-window"></a>Slik angir du utgående lagerhåndteringstid i lageroppsettvinduet  
+### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Slik angir du utgående lagerhåndteringstid på lageroppsettsiden  
 Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i beregningen av ordrebekreftelsen på salgslinjen, kan du definere dette som standard for lageret.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
@@ -125,7 +125,7 @@ Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i ber
 3.  På hurtigfanen **Lager** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
->  Hvis du lar feltet **Utgående lagerhåndteringstid** stå tomt, brukes verdien i **Lageroppsett**-vinduet i beregningen.
+>  Hvis du lar feltet **Utgående lagerhåndteringstid** stå tomt, brukes verdien på **Lageroppsett**-siden i beregningen.
 
 ## <a name="to-make-an-item-critical"></a>Slik gjør du en vare kritisk  
 Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være merket som kritisk. Dette oppsettet sikrer at ikke-kritiske varer ikke fører til uaktuell beregning av ordrebekreftelser.   

@@ -13,10 +13,10 @@ ms.search.keywords: UOM
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b920a3edfab41409cd8d7cf3f5e463f66268e953
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 376e34074c6ee216b7a9062a42404a8123758598
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-item-units-of-measure"></a>Definere vareenheter
@@ -30,7 +30,7 @@ Hvis en vare lagerføres i én enhet, men produseres i en annen, opprettes en pr
 ## <a name="to-set-up-a-unit-of-measure"></a>Slik definerer du en enhet:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne varekortet som du vil definere alternative enheter for.
-3. Velg handlingen **Enheter**. Vinduet **Vareenheter** åpnes.
+3. Velg handlingen **Enheter**. Siden **Vareenheter** åpnes.
 4. Hvis feltet **Lagerenhet** på varekortet er fylt ut, er denne enheten allerede konfigurert.
 5. Velg handlingen **Ny**. Det settes inn en ny, tom linje.
 6. I feltet **Kode** angir du navnet på enheten. Du kan også velge feltet for å velge fra enhetskodene som finnes i databasen.
@@ -49,12 +49,12 @@ Når du selger varer til kunder i utlandet, kan du angi enheten på kundens spr�
 5. Gjenta trinn 2 til 4 for enhetskodene og språkene du vil angi oversettelser for.
 
 ## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Angi en standardenhetskode for kjøpstransaksjoner
-Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du angi en separat enhet for innkjøp og salg. Hvis du vil gjøre dette, må du definere enheter i **Vareenheter**-vinduet.
+Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du angi en separat enhet for innkjøp og salg. Hvis du vil gjøre dette, må du definere enheter på siden **Vareenheter**.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle varekortet du vil angi en standardkode for salgs- eller kjøpsenhet for.
-3. For salg åpner du vinduet **Vareenheter** i feltet **Salgsenhet** på hurtigfanen **Fakturering**.
-4. For kjøp åpner du vinduet **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
+3. For salg åpner du siden **Vareenheter** i feltet **Salgsenhet** på hurtigfanen **Fakturering**.
+4. For kjøp åpner du siden **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
 5. Velg koden du vil definere som standardenhet for salg eller kjøp, og velg deretter **OK**-knappen.
 
 ## <a name="see-also"></a>Se også

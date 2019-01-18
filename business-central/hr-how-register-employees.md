@@ -13,10 +13,10 @@ ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82191dc19a1a40d8823c8292010e5b01e16f9f64
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-employees"></a>Registrere ansatte
@@ -24,15 +24,15 @@ Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ve
 
 Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på ansattkortet.
 
-Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvordan du tilordner to typer ansattinformasjon til en ansatt. I tillegg kan du tilordne diverse annen relatert informasjon, for eksempel kvalifikasjoner og årsaker til uvirksomhet. Du tilordner ansattinformasjon ved å velge et felt eller en handling i vinduet **Medarbeiderkort**.
+Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvordan du tilordner to typer ansattinformasjon til en ansatt. I tillegg kan du tilordne diverse annen relatert informasjon, for eksempel kvalifikasjoner og årsaker til uvirksomhet. Du tilordner ansattinformasjon ved å velge et felt eller en handling på siden **Medarbeiderkort**.
 
 > [!NOTE]  
-> Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** i vinduet **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
+> Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** på siden **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. I vinduet **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På siden **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
 Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet til den ansatte.
@@ -40,7 +40,7 @@ Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. I faktaboksen **Bilde av ansatt** klikker du på knappen for rullegardinlisten og velger deretter **Importer**.
-4. I vinduet **Velg et bilde for opplasting** velger du **Velg** knappen.
+4. På siden **Velg et bilde for opplasting** velger du **Velg** knappen.
 5. Velg filen, og velg deretter **Åpne**.
 
 Bildet settes inn i faktaboksen **Bilde av ansatt**.
@@ -53,7 +53,7 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. Velg **Alternative adresser**.
-4. Fyll ut feltene etter behov i vinduet **Oversikt over alternativ adr.**.
+4. Fyll ut feltene etter behov på siden **Oversikt over alternativ adr.**.
 5. Gjenta trinn 4 for hver alternative adresse.
 
 ## <a name="see-also"></a>Se også

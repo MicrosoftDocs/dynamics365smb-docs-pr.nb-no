@@ -13,10 +13,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6fb3c1a19626c4cfa078f030a387e314ae2e0480
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6fa95883e30b7912ed2b6b22f40cbcd5af339f31
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-with-contacts"></a>Håndtere samhandlinger med kontakter
@@ -30,7 +30,7 @@ Området for relasjonshåndtering lar deg registrere alle samhandlingene med kon
 
 ##  <a name="setting-up-interaction-templates"></a>Definere samhandlingsmaler
 Før du kan opprette og registrere samhandlinger, må du definere samhandlingsmaler. Når du oppretter samhandlinger, må du angi hvilke samhandlingsmaler de baserer seg på. En samhandlingsmal en modell som definerer de grunnleggende egenskapene for en samhandling.
-Du kan definere en samhandlingsmal i vinduet **Samhandlingsmaler**.
+Du kan definere en samhandlingsmal på siden **Samhandlingsmaler**.
 
 Etter at du har oppgitt opplysninger om samhandlingsmalen, kan du opprette et vedlegg, for eksempel et Microsoft Word-dokument. Gjenta trinnene hvis du vil definere flere samhandlingsmaler.  
 
@@ -41,13 +41,13 @@ Du kan registrere samhandlinger på to ulike måter:
 * Du kan angi at samhandlinger skal registreres automatisk når du utfører handlinger i programmet, for eksempel når du skriver ut en faktura eller et tilbud. Hvis du vil ha mer informasjon, kan du se [Automatisk registrere samhandlinger med kontakter](marketing-auto-record-interactions.md).
 
 ## <a name="viewing-and-managing-recorded-interactions"></a>Vise og administrere registrerte samhandlinger
-Du kan vise alle registrerte samhandlinger som ikke er slettet, i vinduet **Samhandlingsposter**. Du kan åpne dette vinduet ved å gjøre følgende:
+Du kan vise alle registrerte samhandlinger som ikke er slettet, på siden **Samhandlingsposter**. Du kan åpne denne siden ved å gjøre følgende:
 
 * Bruke **Søk etter side eller rapport**-ikonet for å søke etter **Samhandlingsposter**.
 * Velge handlingen **Samhandlingsposter** på en kontakt eller et segment.
-  Vinduet **Samhandlingspost** viser hvilke samhandlinger du oppretter manuelt og hvilke samhandlinger som programmet registrerer automatisk.
+  Siden **Samhandlingspost** viser hvilke samhandlinger du oppretter manuelt og hvilke samhandlinger som programmet registrerer automatisk.
 
-I dette vinduet kan du gjøre følgende:
+På denne siden kan du gjøre følgende:
 
 * Vise statusen til samhandlinger.
 * Merke samhandlinger som annullert.

@@ -1,6 +1,6 @@
 ---
 title: Administrere varslingsmaler | Microsoft-dokumentasjon
-description: "Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)."
+description: "Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/08/2018
 ms.author: sgroespe
+redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 31a6cd72e7e7c3fda27803a995b7282c8a2c3751
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-notification-templates"></a>Behandle varslingsmaler
@@ -28,7 +29,7 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
 
 ## <a name="to-create-a-new-notification-template"></a>Slik oppretter du en ny varslingsmal:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
-2.  Velg handlingen **Ny** i vinduet **Varslingsmaler**.  
+2.  Velg handlingen **Ny** på siden **Varslingsmaler**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
@@ -41,9 +42,9 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
 
 ## <a name="to-modify-a-notification-template"></a>Slik endrer du en varslingsmal:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varslingsmaler**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Varslingsmaler** velger du varslingsmalen du vil opprette eller endre.  
+2.  På siden **Varslingsmaler** velger du varslingsmalen du vil endre.  
 3.  Velg **Eksporter malinnhold**.  
-4.  I **Eksporter fil**-vinduet velger du **Lagre**-knappen, og deretter gir du navn til HTML-filen og lagrer den på en passende plassering.  
+4.  På **Eksporter fil**-siden velger du **Lagre**-knappen, og deretter gir du navn til HTML-filen og lagrer den på en passende plassering.  
 5.  Høyreklikk filen, velg **Åpne med**, og velg deretter det aktuelle programmet.  
 
     > [!NOTE]  
@@ -51,14 +52,14 @@ Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må 
 6.  Rediger innholdet i varslingsmalen ved å legge til, endre eller fjerne parametervariabler for å definere det ønskede innholdet, og lagre det. Hvis du vil ha mer informasjon, se delen "Innhold i varslingsmalene".  
 
     Fortsett med å importere det endrede innholdet tilbake til den samme eller en ny varslingsmal.  
-7.  Hvis du vil endre varslingsmalen som du eksporterte, velger du malen du valgte i trinn 2, i vinduet **Varslingsmaler**.  
+7.  Hvis du vil endre varslingsmalen som du eksporterte, velger du malen du valgte i trinn 2, på siden **Varslingsmaler**.  
 
     Hvis du vil importere det endrede malinnholdet til en ny varslingsmal, kan du eventuelt følge fremgangsmåten for å opprette en ny varslingsmal, og deretter velge den nye varslingsmalen.  
 8.  Velg **Importer malinnhold**.  
 9. Hvis du endrer en eksisterende varslingsmal, velger du **Ja**-knappen på meldingen om overskriving av den eksisterende malen.  
-10. I vinduet **Velg en fil for import** velger du HTML-filen som du endret i trinn 6, og velger deretter **Åpne**-knappen.  
+10. På siden **Velg en fil for import** velger du HTML-filen som du endret i trinn 6, og velger deretter **Åpne**-knappen.  
 
-Den eksisterende eller nye varslingsmalen i vinduet **Varslingsmaler** er nå oppdatert med det endrede innholdet.  
+Den eksisterende eller nye varslingsmalen på siden **Varslingsmaler** er nå oppdatert med det endrede innholdet.  
 
 ### <a name="content-of-the-notification-templates"></a>Innhold i varslingsmalene  
 De tre varslingsmaltypene **Ny post**, **Godkjenning** og **Forfalt** har forskjellig innhold.  

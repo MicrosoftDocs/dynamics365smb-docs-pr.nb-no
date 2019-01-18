@@ -13,30 +13,30 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: faf013087b29f758cf86ff2a10d407fe74f85f95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="insure-fixed-assets"></a>Forsikre aktiva
 En forsikringspolise for et aktiva representeres av et forsikringskort. Du kan tilordne ett aktiva til én forsikringspolise eller flere aktiva til én forsikringspolise.
 
-Du kan tilordne et aktiva til en forsikringspolise ved å bokføre i forsikringsdekningsposten fra **Forsikringskladd**-vinduet.
+Du kan tilordne et aktiva til en forsikringspolise ved å bokføre i forsikringsdekningsposten fra **Forsikringskladd**-siden.
 
-I tillegg kan du tilordne et aktiva til en forsikringspolise og opprette forsikringsdekningsposter når du bokfører anskaffelseskostnaden. Du gjør dette ved å bokføre en anskaffelseskost fra aktivakladden med **Forsikringsnr.**-feltet fylt ut. **Autom. forsikringsbokføring** må være avmerket i **Aktivaoppsett**-vinduet. Hvis du vil ha mer informasjon, kan du se avsnittet Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden i [Anskaffe aktiva](fa-how-acquire.md).
+I tillegg kan du tilordne et aktiva til en forsikringspolise og opprette forsikringsdekningsposter når du bokfører anskaffelseskostnaden. Du gjør dette ved å bokføre en anskaffelseskost fra aktivakladden med **Forsikringsnr.**-feltet fylt ut. **Autom. forsikringsbokføring** må være avmerket på **Aktivaoppsett**-siden. Hvis du vil ha mer informasjon, kan du se avsnittet Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden i [Anskaffe aktiva](fa-how-acquire.md).
 
-Hvis **Autom. forsikringsbokføring** i **Aktivaoppsett**-vinduet ikke er valgt, vil bokføring av anskaffelser fra aktivakladden opprette linjer i **Forsikringskladd**-vinduet, som du deretter må bokføre manuelt.
+Hvis **Autom. forsikringsbokføring** på **Aktivaoppsett**-siden ikke er valgt, vil bokføring av anskaffelser fra aktivakladden opprette linjer på **Forsikringskladd**-siden, som du deretter må bokføre manuelt.
 
 > [!WARNING]  
->   Hvis du ikke merker av for **Autom. forsikringsbokføring** i **Aktivaoppsett**-vinduet, må forsikringskladden være basert på en kladdemal uten en nummerserie. Dette er fordi de innsatte bilagsnumrene fra aktivakladdelinjen ellers vil være i konflikt med nummerserien for forsikringskladden. Hvis du vil ha mer informasjon om kladdemaler og kladder, kan du se [Definere generell aktivainformasjon](fa-how-setup-general.md).
+>   Hvis du ikke merker av for **Autom. forsikringsbokføring** på **Aktivaoppsett**-siden, må forsikringskladden være basert på en kladdemal uten en nummerserie. Dette er fordi de innsatte bilagsnumrene fra aktivakladdelinjen ellers vil være i konflikt med nummerserien for forsikringskladden. Hvis du vil ha mer informasjon om kladdemaler og kladder, kan du se [Definere generell aktivainformasjon](fa-how-setup-general.md).
 
 Når du har tilordnet et aktiva til en forsikringspolise, er **Forsikret** avmerket på aktivakortet. Når du selger aktivaet, fjernes avmerkingen automatisk.
 
 ## <a name="to-create-or-modify-an-insurance-card"></a>Slik oppetter eller endrer du et forsikringskort:
 En forsikringspolise for et aktiva må representeres av et forsikringskort.
 
-Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye opplysningene i **Forsikringskort**-vinduet for å sikre at du foretar riktig analyse av forsikringspolisedekningen.  
+Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye opplysningene på **Forsikringskort**-siden for å sikre at du foretar riktig analyse av forsikringspolisedekningen.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.
 2. Velg **Ny** for å opprette et nytt kort for en forsikringspolise. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,7 +45,7 @@ Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye 
 ## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Slik tilordner du et aktiva til en forsikringspolise ved å bokføre fra forsikringskladden:
 Du tilordner et aktiva til en forsikringspolise ved å bokføre i forsikringsdekningsposten.  
 
-Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinje manuelt. Hvis **Autom. forsikringsbokføring** er avmerket i **Aktivaoppsett**-vinduet, opprettes forsikringskladdelinjene automatisk når du bokfører anskaffelseskostnader. I så fall trenger du bare å bokføre kladden.  
+Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinje manuelt. Hvis **Autom. forsikringsbokføring** er avmerket på **Aktivaoppsett**-siden, opprettes forsikringskladdelinjene automatisk når du bokfører anskaffelseskostnader. I så fall trenger du bare å bokføre kladden.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kladden, og fyll ut kladdelinjene etter behov.  
@@ -65,12 +65,12 @@ Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de
     >   I feltet **Indeksreg.tall** angir du en nedgang på for eksempel 5 % som 95, mens du angir en økning på 2 % som 102.  
 3. Velg **OK**.  
 
-   Kjørselen beregner det nye beløpet som en prosentverdi av den totale forsikringsverdien, slik det er oppgitt i vinduet **Forsikringsstatistikk**, og oppretter deretter en linje i forsikringskladden.  
+   Kjørselen beregner det nye beløpet som en prosentverdi av den totale forsikringsverdien, slik det er oppgitt på siden **Forsikringsstatistikk**, og oppretter deretter en linje i forsikringskladden.  
 4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 5. Åpne den aktuelle forsikringskladden, gå gjennom verdiene som er opprettet, og bokfør dem deretter i forsikringsdekningsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Slik kontrollerer du forsikringsdekningen:
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr dedikerte rapporter og statistikkvinduer for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr dedikerte rapporter og statistikksider for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversikt over forsikringspoliser
 For å få en oversikt over forsikringspolisene, forhåndsvis eller skriv ut rapporten **Forsikring - oversikt**. Rapporten viser alle policyene og de viktigste feltene fra forsikringskortene.  
@@ -81,8 +81,8 @@ Hvis du vil se hvilke forsikringspoliser som dekker hvert aktiva og med hvilket 
 ### <a name="overunder-coverage"></a>Over-/underdekning
 Du kan kontrollere om aktiva er over- eller underforsikret på følgende måter:  
 
-* Vinduet **Forsikringsstatistikk**. Et positivt beløp i feltet **Over-/underforsikret** betyr at aktivaet er overforsikret. Et negativt beløp betyr at det er underforsikret.  
-* **Aktivastatistikk**-vinduet. Velg **Total forsikringsverdi**-feltet for å vise **Fors.dekningsposter**-vinduet.  
+* Siden **Forsikringsstatistikk**. Et positivt beløp i feltet **Over-/underforsikret** betyr at aktivaet er overforsikret. Et negativt beløp betyr at det er underforsikret.  
+* **Aktivastatistikk**-siden. Velg **Total forsikringsverdi**-feltet for å vise **Fors.dekningsposter**-siden.  
 * **Over-/underdekning**-rapporten.  
 * **Forsikring - analyse**-rapporten.  
 
@@ -96,7 +96,7 @@ Du kan vise postene du har opprettet i forsikringsdekningsposten.
 2. Velg den relevante forsikringspolisen, og velg deretter handlingen **Fors.dekningsposter**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Slik viser du den totale forsikringsverdien for aktiva:
-Et dedikert matrisevindu viser forsikringsverdiene som er registrert for hver forsikringspolise for hvert aktiva som resultat av forsikringsrelaterte beløp du har bokført.  
+En dedikert matriseside viser forsikringsverdiene som er registrert for hver forsikringspolise for hvert aktiva som resultat av forsikringsrelaterte beløp du har bokført.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante forsikringspolisen, og velg deretter handlingen **Total forsikr.verdi per aktiva**.  

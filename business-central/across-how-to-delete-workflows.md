@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 79d4ac247abe75fab8a7c935d31fc236383747cc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 05404279ee0967b1ffd48e010cdf1f9dcac157d9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-workflows"></a>Slette arbeidsflyter
@@ -25,14 +25,14 @@ Hvis du er sikker på at en arbeidsflyt ikke lenger er i bruk, kan du slette den
 > [!CAUTION]  
 >  Når du sletter en arbeidsflyt, vil all informasjon i arbeidsflyten gå tapt.  
 
- I **Arbeidsflyt**-vinduet oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
 ## <a name="to-delete-a-workflow"></a>Slik sletter du en arbeidsflyt:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2.  Velg arbeidsflyten du vil slette.  
 3.  Velg handlingen **Slett**.  
 4.  Åpne eventuelt arbeidsflyten du vil slette.  
-5.  Velg **Slett**-handlingen i **Arbeidsflyt**-vinduet.  
+5.  Velg **Slett**-handlingen på **Arbeidsflyt**-siden.  
 
 ## <a name="see-also"></a>Se også  
  [Opprette arbeidsflyter](across-how-to-create-workflows.md)   

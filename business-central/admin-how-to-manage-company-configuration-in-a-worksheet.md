@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d52c54b18ccb7794f7556919e20b23df65c95acd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e00b99c963669bb8a8577d8277082e5656d45d66
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
@@ -33,7 +33,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
 2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Legge til en tabell i forslaget  
-1.  I vinduet **Konfigurer forslag** velger du **Rediger oversikt**-handlingen.  
+1.  På siden **Konfigurer forslag** velger du **Rediger oversikt**-handlingen.  
 2.  På den første tilbudslinjen i feltet **Linjetype** velger du **Tabell**.  
 4.  Velg tabellen du vil legge til i konfigurasjonen, i feltet **Tabell-ID**.  
 5.  I feltet **Side-ID** angi ID-en for siden som er knyttet til tabellen. For standardtabeller fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
@@ -53,7 +53,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
 10. Du kan fjerne duplisert tabellinformasjon, som kan skyldes bruk av handlingen **Hent relaterte tabeller**, ved å velge handlingen **Slett dupliserte linjer**. Dermed fjernes like tabeller som har samme pakkekode.  
 
 ## <a name="to-add-multiple-tables-to-the-configuration-worksheet"></a>Slik legger du til flere tabeller i konfigurasjonsforslaget:  
-1. Velg handlingen **Hent tabeller**. Kjørselsvinduet **Hent konfig.tabeller** åpnes.  
+1. Velg handlingen **Hent tabeller**. Kjørselssiden **Hent konfig.tabeller** åpnes.  
 2. På hurtigfanen **Alternativer** angir du hvilke tabelltyper du vil legge til i konfigurasjonen, som beskrevet i tabellen nedenfor.
 
     |Alternativ|Description|  
@@ -73,7 +73,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
     > - Relasjonen er betinget.  
     > Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
     > - Den tilknyttede tabellen filtreres.  
-    > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjonen er lagret i den virtuelle tabellen **Felt** og ikke er tilgjengelig i vinduer, for eksempel konfigurasjonsregnearket for ytelseshensyn.  
+    > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjonen er lagret i den virtuelle tabellen **Felt** og ikke er tilgjengelig på sider, for eksempel konfigurasjonsregnearket for ytelseshensyn.  
     > Du må legge til relaterte tabeller med slike komplekse relasjoner manuelt ved å følge trinn 4 under "Legge til en tabell i forslaget".
 
 7. Hvis du vil slette tabeller i listen over tabeller, merker du en tabell som du vil fjerne, og deretter velger du handlingen **Slett**.  

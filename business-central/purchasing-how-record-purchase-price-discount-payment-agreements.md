@@ -11,10 +11,10 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea247c762749c108ede8679bb622f71d2dd67f51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0a718c45256a1e7cc7fbde794491814f1c26dd4a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
@@ -60,7 +60,7 @@ Når leverandøren har informert deg om hvilke linjerabatter som gis, angir du f
     >   Fakturarabattkoder representeres av eksisterende leverandørkort. Dette lar deg raskt tilordne fakturarabattbetingelsene til leverandører ved å velge navnet på en annen leverandører som har de samme betingelsene.
 
     Fortsett å definere nye betingelser for kjøpsfakturarabatt.
-4. I vinduet **Leverandørkortet** velger du handlingen **Fakturarabatter**. Vinduet **Levrd./fakt.-rabatter** åpnes.
+4. På siden **Leverandørkort** velger du handlingen **Fakturarabatter**. Siden **Levrd./fakt.-rabatter** åpnes.
 5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
 6. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 7. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
@@ -88,7 +88,7 @@ Hvis du har faste betingelser for fakturarabatter fra leverandører, kan du angi
 
  Før du kan bruke fakturarabatter i forbindelse med kjøp, må du angi hvilke leverandører du mottar rabattene fra.  
 
- Du knytter rabattprosentene til bestemte fakturabeløp i vinduene **Levrd./fakt.-rabatter**. Du kan angi den prosentsatsen du vil ha i hvert vindu. Hver leverandør kan ha et eget vindu, eller du kan knytte flere leverandører til det samme vinduet.  
+ Du knytter rabattprosentene til bestemte fakturabeløp på sidene **Levrd./fakt.-rabatter**. Du kan angi den prosentsatsen du vil ha på hver side. Hver leverandør kan ha en egen side, eller du kan knytte flere leverandører til den samme siden.  
 
  I tillegg til (eller i stedet for) en rabattprosent, kan du koble et gebyrbeløp til et bestemt fakturabeløp.  
 
@@ -97,7 +97,7 @@ Hvis du har faste betingelser for fakturarabatter fra leverandører, kan du angi
  Du kan la [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk beregne fakturarabattene for forespørsler, rammebestillinger, bestillinger, fakturaer eller kreditnotaer.  
 
 > [!TIP]  
->  Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke leverandører som kan knyttes til det samme fakturarabattvinduet. Jo færre vinduer du må definere, jo raskere kan du angi de grunnleggende opplysningene.
+>  Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke leverandører som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
 
 ## <a name="best-price-calculation"></a>Beregning av beste pris
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.

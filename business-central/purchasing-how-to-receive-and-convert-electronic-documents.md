@@ -11,14 +11,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e2cbddbfe4d184468b778455d4b75f49b0f23b67
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2ed7c083b4315f374a81ec5f97ce5e872c11f071
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
-Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet i vinduet Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
  I tillegg til å motta elektroniske dokumenter direkte fra handelspartnere, kan du motta elektroniske dokumenter fra en OCR-tjeneste som har gjort om PDF- eller bildefiler til elektroniske dokumenter.  
 
@@ -33,7 +33,7 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta
 > [!NOTE]  
 >  Når du konverterer elektroniske dokumenter som er mottatt fra OCR-tjenesten, til dokumenter eller kladdelinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)], summeres flere linjer i kildedokumentet på én linje. Enkeltlinjen kommer til å være av typen Finanskonto, og feltene **Beskrivelse** og **Nr.** på finanskonto. -feltene kommer til å være tomme. Verdien i **Beløp**-feltet kommer til å være lik det totale beløpet ekskl. mva. på alle linjene i kildedokumentet.  
 >   
->  Forsikre deg om at **Beskrivelse**- og **Nr.** -feltene er utfylt, og velg **Tilordne tekst til konto**-knappen i vinduet **Inngående dokumenter** for å definere at en bestemt fakturatekst alltid er tilordnet en bestemt debet- eller kreditkonto i finans. Videre utfylles **Beskrivelse**-feltet i dokument- eller kladdelinjer som er opprettet fra et elektronisk dokument for kunden eller leverandøren, med den aktuelle teksten og **Nr.** for finanskonto. -feltet med den aktuelle kontoen.  
+>  Forsikre deg om at **Beskrivelse**- og **Nr.** -feltene er utfylt, og velg **Tilordne tekst til konto**-knappen på siden **Inngående dokumenter** for å definere at en bestemt fakturatekst alltid er tilordnet en bestemt debet- eller kreditkonto i finans. Videre utfylles **Beskrivelse**-feltet i dokument- eller kladdelinjer som er opprettet fra et elektronisk dokument for kunden eller leverandøren, med den aktuelle teksten og **Nr.** for finanskonto. -feltet med den aktuelle kontoen.  
 >   
 >  I stedet for tilordning til en finanskonto, kan du tilordne til en bankkonto. Dette er praktisk, for eksempel for elektroniske dokumenter for utgifter som allerede er betalt, der du vil opprette en finanskladdelinje som er klar til å bokføre på en bankkonto.  
 
@@ -45,11 +45,11 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta
 
 2.  Velg linjen for den innkommende dokumentposten som representerer en ny innkommende elektronisk faktura, og velg deretter **Rediger** under **Behandle** i kategorien **Hjem**.  
 
-     I vinduet **Kort for inngående dokument** blir den relaterte XML-filen koblet til, og de fleste feltene er forhåndsutfylt med informasjon fra den elektroniske fakturaen. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).  
+     På siden **Kort for inngående dokument** blir den relaterte XML-filen koblet til, og de fleste feltene er forhåndsutfylt med informasjon fra den elektroniske fakturaen. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).  
 
 3.  I feltet **Datautvekslingstype** velger du **PEPPOL – faktura** eller **OCR – faktura**, avhengig av kilden til det elektroniske dokumentet.  
 
-4.  Hvis du vil tilordne tekst på leverandørfakturaen til en bestemt debetkonto, velger du **Tilordne tekst til konto** i fanen **Handlinger** i gruppen **Generelt**, og deretter fyller du ut vinduet **Tekst-til-konto-tilordning**.  
+4.  Hvis du vil tilordne tekst på leverandørfakturaen til en bestemt debetkonto, velger du **Tilordne tekst til konto** i fanen **Handlinger** i gruppen **Generelt**, og deretter fyller du ut siden **Tekst-til-konto-tilordning**.  
 
 5.  I kategorien **Handlinger**, under **Generelt**, velger du **Opprett dokument**.  
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1ac3aab6063abc247e05b4ae966ee6b99e81bf23
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cf67f83434f135226eaa677cd64d86090a0ab0f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="cross-dock-items"></a>Kryssoverføringsvarer
@@ -44,7 +44,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
     Hvis du bruker soner, oppretter du en sone for kryssoverføringshyllene og velger feltet **Kryssoverføringshyllesone**. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner slik at de bruker hyller](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
 2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjon**, og velg deretter den relaterte koblingen.  
-3.  Velg lokasjonen der du vil definere lageret for kryssoverføring, i **Lokasjon**-vinduet, og velg deretter **Rediger**-handlingen.  
+3.  Velg lokasjonen der du vil definere lageret for kryssoverføring, på siden **Lokasjon**, og velg deretter **Rediger**-handlingen.  
 4.  På hurtigfanen **Lager**, merker du av for **Bruk kryssoverføring** og fyller ut feltet **Kryssoverføring forfallsdatoberegn.** med tidspunktet for å søke etter kryssoverføringsmuligheter.
 
     Alternativet **Bruk kryssoverføring** er bare tilgjengelig hvis feltene **Mottak nødv.**, **Levering nødv.**, **Plukk nødv.** og **Plassering nødv.** er valgt.  
@@ -52,7 +52,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 5.  Hvis du bruker hyller, fyller du ut feltet **Hyllekode for kryssoverføring** på hurtigfanen **Hyller** med koden for hyllen du vil bruke som standard kryssoverføringshylle.  
 6.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenhet**, og velg den relaterte koblingen.  
 7.  For hver vare eller lagerføringsenhet du ønsker å kunne kryssoverføre, velger du varen og deretter **Rediger**-handlingen.
-8. I vinduet **Lagerføringsenhetskort** merker du av for **Bruk kryssoverføring**.  
+8. På siden **Lagerføringsenhetskort** merker du av for **Bruk kryssoverføring**.  
 
 > [!NOTE]  
 >  Kryssoverføring er mulig bare hvis du har definert lokasjonen til å kreve lagermottaksbehandling og plasseringsbehandling.  
@@ -81,10 +81,10 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
     Du vil vise kildedokumentlinjer som ber om varen, før du bokfører mottaket.  
 3.  Velg handlingen **Beregn kryssoverføring**.  
 
-    I **Kryssoverføringsmuligheter**-vinduet kan du se de viktigste opplysningene om linjene som ber om varen, for eksempel dokumenttype, forespurt antall og forfallsdatoen. Disse opplysningene kan hjelpe det med å bestemme hvor mye som skal kryssoverføres, hvor varene skal passeres i kryssoverføringsområdet, og hvordan de skal grupperes.  
+    På siden **Kryssoverføringsmuligheter** kan du se de viktigste opplysningene om linjene som ber om varen, for eksempel dokumenttype, forespurt antall og forfallsdatoen. Disse opplysningene kan hjelpe det med å bestemme hvor mye som skal kryssoverføres, hvor varene skal passeres i kryssoverføringsområdet, og hvordan de skal grupperes.  
 
 4.  Velg handlingen **Autoutfyll antall for kryssoverføring** for å se hvordan antallene på mottakslinjene beregnes. Når du endrer antall varer i feltet **Ant. som skal kryssoverf.** på hver linje, oppdateres beregningen etter hvert som du gjør endringer. Dette betyr ikke at den bestemte leveringen eller produksjonen faktisk skal motta varene som er foreslått for kryssoverføring, fordi disse endringene bare blir gjort for testing. Prosessen kan imidlertid være informativ, hvis det blir brukt mer enn én enhet.  
-5.  Hvis du vil reservere et antall av varen for en bestemt ordrelinje, plasserer du markøren på denne linjen og velger deretter handlingen **Reserver**. I **Reservasjon**-vinduet kan du nå reservere eventuelt disponibelt antall av varen for denne bestemte ordren. Denne reservasjonen er som andre reservasjoner og har ikke høyere prioritet fordi den ble opprettet i forbindelse med kryssoverføring. Hvis du vil ha mer informasjon, kan du se [Reservere varer](inventory-how-to-reserve-items.md).   
+5.  Hvis du vil reservere et antall av varen for en bestemt ordrelinje, plasserer du markøren på denne linjen og velger deretter handlingen **Reserver**. På siden **Reservasjon** kan du nå reservere eventuelt disponibelt antall av varen for denne bestemte ordren. Denne reservasjonen er som andre reservasjoner og har ikke høyere prioritet fordi den ble opprettet i forbindelse med kryssoverføring. Hvis du vil ha mer informasjon, kan du se [Reservere varer](inventory-how-to-reserve-items.md).   
 6.  Når du er ferdig med å beregne på nytt eller med å reservere, velger du **OK**-knappen for å hente den beregningen du har revidert, inn i feltet **Ant. som skal kryssoverf.** på mottakslinjen, eller så velger du **Avbryt**-knappen hvis du vil gå tilbake til lagermottaket, der du eventuelt kan beregne kryssoverføringen på nytt.  
 7.  Bokfør deretter mottaket, og du kan fortsette i plasseringsinstruksjonen slik det er beskrevet i trinn 3 til 7 i delen "Slik kryssoverfører varer uten å vise salgsmulighetene".  
 

@@ -4,17 +4,14 @@ description: Finn ut hvordan du administrerer brukere og rollesentre i Business 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: profiles, users
-ms.date: 10/01/2018
+ms.date: 10/24/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1a94d023424c6eceb93af6e9ca89a90a3a94e996
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7ecd8a5ad2b321d4d1683047e70ede90c7ce229f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="understanding-users-profiles-and-role-centers"></a>Forstå brukere, profiler og rollesentre
@@ -29,6 +26,11 @@ For å legge til brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)] på nette
 
 Administrator kan deretter tilordne tillatelser til hver enkelt bruker og brukergruppe. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).  
 
+De mest avanserte tillatelsene som en bruker kan ha, er SUPER-tillatelsessettet. Hvert selskap må ha minst én bruker med dette tillatelsessettet, men det er anbefalt å gi hver bruker tillatelser som samsvarer med arbeidsbehovet deres i [!INCLUDE[prodshort](includes/prodshort.md)] og ikke mer enn det. Dette sikrer at brukere bare har tilgang til data som er relevant for arbeidet deres, for eksempel.  
+
+> [!TIP]
+> Det er anbefalt å sikre at Office 365-administratoren også har SUPER-tillatelsen angitt i [!INCLUDE[prodshort](includes/prodshort.md)] fordi dette forenkler en rekke administrative oppgaver, inkludert oppsett av integrering med andre programmer.
+
 ### <a name="users-of-on-premises-deployments"></a>Brukere av lokale distribusjoner
 
 For lokale distribusjoner av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan systemansvarlig velge mellom forskjellige legitimasjonsgodkjenningsmekanismer for brukerne. Når du deretter oppretter en bruker, angir du ulike opplysninger avhengig av legitimasjonstypen du bruker i den spesifikke forekomsten av [!INCLUDE[server](includes/server.md)]. Hvis du vil ha mer informasjon, kan du se [Godkjenning og legitimasjonstyper](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i Administrasjon-delen for utviklere og ITPro-innholdet for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -42,6 +44,46 @@ Profiler er samlinger av [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som
 > [!NOTE]  
 >  I den gjeldende versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] på nettet kan du legge til, endre eller slette profiler.  
 
+### <a name="CreateProfile"></a>Opprette en profil
+
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Profilliste**, og velg deretter den relaterte koblingen.  
+
+2.  På siden **Profilliste** velger du handlingen **Ny** for å åpne **Nytt profilkort**-siden.  
+
+3.  Skriv inn et navn som beskriver den tiltenkte rollen for brukerne, i **Profil-ID**-feltet.  
+
+4.  I **Beskrivelse**-feltet angir du en beskrivelse av profil-IDen, for eksempel **Ordrebehandler**.  
+
+5.  Sett **Rollesenter-ID**-felttet til rollesenteret du vil tilordne til profilen.  
+
+Fremgangsmåten for å endre en eksisterende profil er det samme, bortsett fra at du velger en eksisterende profil på **Profilliste**-siden i stedet for å velge handlingen **Ny**.  
+
+
+### <a name="copy-a-profile"></a>Kopiere en profil
+Du kan spare tid ved å kopiere en profil hvis du vil bruke lignende innstillinger på en profil, og du bare vil endre noen innstillinger.
+
+1.  Åpne profilen du vil kopiere, og velg deretter **Kopier profil**.
+
+2.  I **Ny profil-ID**-feltet skriver du inn et navn for profilen du vil kopiere.
+
+3.  Sett feltet **Nytt profilomfang** til ett av følgende:
+
+    - **System** slik at den nye profilen blir tilgjengelig for alle leietakerdatabaser som bruker programmet.
+    - **Leier** slik at den nye profilen blir tilgjengelig kun for den gjeldende leietakerdatabasen.
+4. Når du er ferdig, velger du **OK**.
+
+### <a name="ExportImportProfile"></a>Eksportere og importere profiler
+
+Du kan eksportere og importere profiler som XML-filer til og fra en [!INCLUDE[d365fin](includes/d365fin_md.md)]-database. Du kan spare tid ved å eksportere og importere en profil når du konfigurerer brukergrensesnittet fordi du kan bruke en eksisterende profilkonfigurasjon i stedet for å konfigurere en profil på nytt. Hvis du har en profil som er konfigurert i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-database, og du vil bruke på hele eller deler av det samme profil oppsettet i en annen database, kan du eksportere profilen til en XML-fil. Deretter kan du importere XML-filen for profilen til den andre databasen.
+
+-   Hvis du vil eksportere en profil, kan du velge **Eksporter profiler**-handlingen fra **Profilliste**- eller **Profilkort**-siden, eller du kan søke etter og åpne **Eksporter profiler**-siden. Lagre XML-filen på datamaskinen eller i nettverket.
+
+-   Hvis du vil importere en profil, kan du velge **Importer profil**-handlingen fra **Profilliste**-siden, eller du kan søke etter og åpne **Importer profiler**-siden. 
+
+    > [!NOTE]  
+    >  Du kan ikke importere en profil som allerede finnes i databasen, selv om XML-filen har et annet navn eller annet innhold. Du må slette den eksisterende profilen før du kan importere den nye profilen.
+
+
 ## <a name="configuration-and-personalization"></a>Konfigurasjon og tilpasning
 <!--The concept of UI customization in [!INCLUDE[d365fin](includes/d365fin_md.md)] is divided in two:  
 
@@ -50,6 +92,7 @@ Profiler er samlinger av [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som
 -   Personalization, performed by users  
 
 The administrator configures the user interface for multiple users by customizing the user interface for a profile that the users are assigned to.  -->
+
 Brukere tilpasser brukergrensesnittet i sin egen versjon ved å tilpasse brukergrensesnittet når de er logget på sine egne konti. Denne tilpasningen kan slettes av systemansvarlig. Hvis du vil ha mer informasjon, se [Tilpasse arbeidsområdet ](ui-personalization-user.md).  
 
 ## <a name="see-also"></a>Se også  

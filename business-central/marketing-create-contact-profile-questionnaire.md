@@ -11,10 +11,10 @@ ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6a69a5de1ac0d6e2d238415204ec95fad9af7b9b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -42,7 +42,7 @@ Når du har opprettet et spørreskjema, må du opprette kontaktrangeringer for �
 > Hvis du angir et spørsmål som skal besvares automatisk, velger du <STRONG>Linje</STRONG>, og deretter velger du <STRONG>Spørsmålsopplysninger</STRONG> for å angi hvilke kriterier som skal brukes til å besvare spørsmålet.
 
 ## <a name="the-automatic-classification-of-contacts"></a>Automatisk klassifisering av kontakter
-Du kan klassifisere kontaktene automatisk etter opplysninger om kunde, leverandør og kontakt. Det gjør du ved å definere automatisk besvarte profilspørsmål i vinduet **Profilspørreskjema - oppsett**.  
+Du kan klassifisere kontaktene automatisk etter opplysninger om kunde, leverandør og kontakt. Det gjør du ved å definere automatisk besvarte profilspørsmål på siden **Profilspørreskjema - oppsett**.  
 
 > [!NOTE]
 > Det er bare kontakter som er registrert som kunder og leverandører, som kan tilordnes en klassifisering som er basert på henholdsvis kunde- og leverandørdata. Den automatiske klassifiseringen blir ikke automatisk oppdatert. Du bør derfor oppdatere profilspørreskjemaene etter at du har oppdatert kunde-, leverandør- eller kontaktdataene som skjemaene er basert på.  
@@ -73,13 +73,13 @@ Du kan klassifisere kontakter etter hvor mye de handler:
 <td><p>kontakter som kjøpte for NOK 100 000 til 499 999</p></td>
 </tr>
 <tr class="odd">
-<td><p>C</p></td>
+<td><p>U</p></td>
 <td><p>kontakter som kjøpte for NOK 99 999 eller mindre</p></td>
 </tr>
 </tbody>
 </table>
 
-Du gjør dette ved å fylle ut vinduet **Profilspørreskjema - oppsett**:
+Du gjør dette ved å fylle ut siden **Profilspørreskjema - oppsett** slik:
 
 
 <table>
@@ -104,34 +104,34 @@ Du gjør dette ved å fylle ut vinduet **Profilspørreskjema - oppsett**:
 <td><p>Spørsmål</p></td>
 <td><p>ABC-klassifisering</p></td>
 <td><p>Klikk for å sette en hake</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
 <td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500 000</p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p>500,000</p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Svar</p></td>
 <td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100 000</p></td>
+<td><p> </p></td>
+<td><p>100,000</p></td>
 <td><p>499,999</p></td>
 </tr>
 <tr class="even">
 <td><p>Svar</p></td>
-<td><p>L</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99 999</p></td>
+<td><p>U</p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p>99,999</p></td>
 </tr>
 </tbody>
 </table>
 
-Fyll deretter ut vinduet **Profilspørsmålsopplysninger** på følgende måte:
+Fyll deretter ut siden **Profilspørsmålsopplysninger** på følgende måte:
 <table>
 <colgroup>
 <col style="width: 50%" />

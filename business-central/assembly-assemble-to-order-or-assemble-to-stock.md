@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: e09bc15f21acbcdf55908064b9867728a7870fb4
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 1000447ed0f547fea9fc349900631b0a5f0ce107
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
@@ -38,7 +38,7 @@ Vanligvis bruker du *Montere til ordre* for varer som du ikke vil ha på lager, 
 
 I montere-til-ordre-prosessen monteres varen som svar på en ordre og med en én-til-én-relasjon mellom monteringsordren og ordren.  
 
-Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk opprettet en monteringsordre med et hode som er basert på salgslinjen og med linjer som er basert på varens monteringsstykkliste multiplisert med ordreantallet. Du kan bruke vinduet **Montere til ordre – linjer** for å se de tilknyttede monteringsordrelinjene for å støtte tilpasning av monteringsvaren, med en leveringsdato som er basert på informasjon om komponenttilgjengelighet. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk opprettet en monteringsordre med et hode som er basert på salgslinjen og med linjer som er basert på varens monteringsstykkliste multiplisert med ordreantallet. Du kan bruke siden **Montere til ordre – linjer** for å se de tilknyttede monteringsordrelinjene for å støtte tilpasning av monteringsvaren, med en leveringsdato som er basert på informasjon om komponenttilgjengelighet. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Selv om det ikke er en del av standardprosessen, kan du selge lagerantall sammen med monter til ordre-antall. Hvis du vil ha mer informasjon, kan du se [Selge lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  

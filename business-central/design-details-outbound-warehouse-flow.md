@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 068ed0057b6c12beebfa35951b6c1ffbd6ac556b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d2ea80352352cfac83ebce97fee9d4f312e00348
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
@@ -66,7 +66,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
  Når det utgående kildedokumentet frigis, opprettes en utgående lagerforespørsel automatisk. Den inneholder referanser til kildedokumenttype og /nummer, og er ikke synlige for brukeren.  
 
 ### <a name="3-create-inventory-pick-or-movement"></a>3: Opprett lagerplukk eller flytting  
- I vinduet **Lagerplukk** eller **Lagerflytting** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på utgående lagerforespørsler. Det kan også hende at lagerplukklinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
+ På siden **Lagerplukk** eller **Lagerflytting** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på utgående lagerforespørsler. Det kan også hende at lagerplukklinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
 
 ### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Bokfør lagerplukk eller registrer lagerflytting  
  På hver linje for varer som er plukket eller flyttet, helt eller delvis, fyller lagermedarbeider ut feltet **Antall** og bokfører deretter lagerplukket eller registrerer lagerflyttingen. Kildedokumenter som er knyttet til lagerplukkingen, bokføres som levert eller forbrukt. Kildedokumenter som er knyttet til lagerflyttinger, bokføres ikke.  
@@ -85,7 +85,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
  Når det inngående kildedokumentet frigis, opprettes en utgående lagerforespørsel automatisk. Den inneholder referanser til kildedokumenttype og /nummer, og er ikke synlige for brukeren.  
 
 ### <a name="3-create-warehouse-shipment"></a>3: Opprett lagerlevering  
- I vinduet **Lagerlevering** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på utgående lagerforespørsel. Flere kildedokumentlinjer kan kombineres i ett lagerleveringsdokument.  
+ På siden **Lagerlevering** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på utgående lagerforespørsel. Flere kildedokumentlinjer kan kombineres i ett lagerleveringsdokument.  
 
 ### <a name="4-release-shipment--create-warehouse-pick"></a>4: Frigi levering / Opprett lagerplukk  
  Vedkommende som er ansvarlig, frigir lagerleveringen, slik at lagermedarbeidere kan opprette eller koordinere lagerplukkinger for den aktuelle leveringen.  
@@ -109,7 +109,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
  Lagermedarbeideren som foretar plukkingen, oppretter et lagerplukkdokument på en hentemåte, basert på det frigitte kildedokumentet. Lagerplukkdokumentet kan også opprettes og tilordnes lagermedarbeidere med en push-metode.  
 
 ### <a name="9-register-warehouse-pick"></a>9: Registrer plukk  
- På hver linje for varer som er plukket, helt eller delvis, fyller lagermedarbeider ut feltet **Antall** i vinduet **Plukk**, og registrerer deretter lagerplukket.  
+ På hver linje for varer som er plukket, helt eller delvis, fyller lagermedarbeider ut feltet **Antall** på siden **Plukk**, og registrerer deretter lagerplukket.  
 
  Lagerposter opprettes, og lagerplukklinjene slettes hvis de er helt ferdigbehandlet. Lagerplukkdokumentet holdes åpent til hele antallet for den tilknyttede lagerleveringen er registrert. Feltet **Plukket ant.** på lagerleveringslinjene oppdateres tilsvarende.  
 

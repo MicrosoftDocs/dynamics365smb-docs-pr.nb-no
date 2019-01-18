@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 72b668ac5ecf2d6444be68b7c678f8a08bca9796
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: a3c8910ad937ec4283ce0803f787a4fe6aed071d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
@@ -53,7 +53,7 @@ Tabellen nedenfor gir en oversikt over handlingssekvensen.
 |Handling|Beskrivelse|  
 |------------|-----------------|  
 |Starter bokføring|1. Utfør foreløpige kontroller.<br />2. Legg til bokføringsnummer og endre ordrehodet for monteringsordren.<br />3. Frigi monteringsordren.|  
-|Post|<ol><li>Opprett bokført monteringsordrehode.</li><li>Kopiere merknadslinjer.</li><li>Bokføre monteringsordrelinjer (forbruk):<br /><br /> <ol><li>Opprett et statusvindu for å beregne monteringsforbruk.</li><li>Få det gjenværende antallet som varekladdelinjen skal baseres på.</li><li>Tilbakestill forbrukte og gjenstående antall.</li><li>For monteringsordrelinjer av typen Vare:<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Overfør reservasjoner til varekladdelinjen.</li><li>Bokføre varekladdlinjen for å opprette vareposter.</li><li>Opprett lagerkladdelinjene og bokfør dem.</li></ol></li><li>For monteringsordrelinjer av typen Ressurs:<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Bokfør varekladdelinjen. Dermed opprettes kapasitetsposter.</li><li>Opprett og bokfør ressurskladdelinje.</li></ol></li><li>Overfør feltverdier fra monteringsordrelinjen til en nyopprettet, bokført monteringsordrelinje.</li></ol></li><li>Bokføre monteringsordrehodet (avgang):<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Overfør reservasjoner til varekladdelinjen.</li><li>Bokføre varekladdlinjen for å opprette vareposter.</li><li>Opprett lagerkladdelinjene og bokfør dem.</li><li>Tilbakestill monteringsantall og gjenstående antall.</li></ol></li></ol>|  
+|Post|<ol><li>Opprett bokført monteringsordrehode.</li><li>Kopiere merknadslinjer.</li><li>Bokføre monteringsordrelinjer (forbruk):<br /><br /> <ol><li>Opprett en statusside for å beregne monteringsforbruk.</li><li>Få det gjenværende antallet som varekladdelinjen skal baseres på.</li><li>Tilbakestill forbrukte og gjenstående antall.</li><li>For monteringsordrelinjer av typen Vare:<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Overfør reservasjoner til varekladdelinjen.</li><li>Bokføre varekladdlinjen for å opprette vareposter.</li><li>Opprett lagerkladdelinjene og bokfør dem.</li></ol></li><li>For monteringsordrelinjer av typen Ressurs:<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Bokfør varekladdelinjen. Dermed opprettes kapasitetsposter.</li><li>Opprett og bokfør ressurskladdelinje.</li></ol></li><li>Overfør feltverdier fra monteringsordrelinjen til en nyopprettet, bokført monteringsordrelinje.</li></ol></li><li>Bokføre monteringsordrehodet (avgang):<br /><br /> <ol><li>Fyll ut feltene på hver varekladdelinje.</li><li>Overfør reservasjoner til varekladdelinjen.</li><li>Bokføre varekladdlinjen for å opprette vareposter.</li><li>Opprett lagerkladdelinjene og bokfør dem.</li><li>Tilbakestill monteringsantall og gjenstående antall.</li></ol></li></ol>|  
 
 > [!IMPORTANT]  
 >  Monteringsavgang bokføres med faktisk kostnad, i motsetning til produksjonsavgang, som bokføres med forventet kostnad.  

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0282f0ae3ca2b11ff8cd01adf69054d8c805e7ae
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9231f63266ba030bbf4b3ca41641d5210bcd49b8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
@@ -32,7 +32,7 @@ Når kunden fullfører spørreskjemaet, kan du importere filen til kundens nye [
 ## <a name="to-create-a-configuration-questionnaire"></a>Opprette et konfigurasjonsspørreskjema
 Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og behovet for konfigurasjon. Du kan opprette et nytt spørreskjema eller endre et eksisterende spørreskjema ved å legge til nye spørsmål eller spørsmålsområder.  
 
- Du kan opprette spørreskjemaer bare for tabeller av typen oppsett. Du kan for eksempel bruke verktøyet til å gi informasjon til følgende vinduer:  
+ Du kan opprette spørreskjemaer bare for tabeller av typen oppsett. Du kan for eksempel bruke verktøyet til å gi informasjon til følgende sider:  
 
 -   Selskapsopplysninger  
 -   Aktivaoppsett  
@@ -50,9 +50,9 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 >  Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett** og velger deretter den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**. Vinduet **Konfig.spørreskjema** åpnes.  
-3. Velg handlingen **Spørsmålsområder**. Vinduet **Spørsmålsområder** åpnes.  
-4. Velg handlingen **Ny**. Vinduet **Konfig. spørsmålsområde** åpnes.  
+2. Velg handlingen **Ny**. Siden **Konfig.spørreskjema** åpnes.  
+3. Velg handlingen **Spørsmålsområder**. Siden **Spørsmålsområder** åpnes.  
+4. Velg handlingen **Ny**. Siden **Konfig. spørsmålsområde** åpnes.  
 5. I **Tabell-ID**-feltet velger du ID-en for tabellen du vil samle inn informasjon for. Feltet **Tabellnavn** fylles ut automatisk.  
 6. Velg handlingen **Oppdater spørsmål**. Hvert felt i tabellen legges til i spørreskjemaet med et spørsmålstegn etter etiketten.
 
@@ -94,10 +94,10 @@ En vanlig valideringsoppgave er å kontrollere at tekststrenger ikke blir lagt i
 > [!NOTE]  
 >  Vanligvis er validering av konfigurasjonsspørreskjemaet en manuell prosess. Det foretas imidlertid kontroll av inkonsekvens i regional formatering. I tillegg får du feil hvis strukturen i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen ikke samsvarer med strukturen i flyttingsdatabasen.  
 
-1. I vinduet **Konfigurasjonsspørreskjema** velger du det aktuelle spørreskjemaet, og deretter velger du handlingen **Spørsmålsområder**.  
+1. På siden **Konfigurasjonsspørreskjema** velger du det aktuelle spørreskjemaet, og deretter velger du handlingen **Spørsmålsområder**.  
 2. Åpne det aktuelle spørsmålsområdet.  
 3. For hvert spørsmål validerer du at verdien i **Svar**-feltet svarer til formatet i **Svaralternativ**-feltet. Bekreft for eksempel at adressen til et selskap er i tekstformat.  
-4. Hvis du finner feil, kan du feilsøke og korrigere i Excel ved å eksportere spørreskjemaet og deretter importere det på nytt. Du kan også rette opp feil direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)] etter hvert som du ser gjennom svarene i vinduet **Konfig. spørsmålsområde**.  
+4. Hvis du finner feil, kan du feilsøke og korrigere i Excel ved å eksportere spørreskjemaet og deretter importere det på nytt. Du kan også rette opp feil direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)] etter hvert som du ser gjennom svarene på siden **Konfig. spørsmålsområde**.  
 5. Gjenta disse trinnene for hvert spørsmålsområde.  
 
 Når du har fullført valideringen, er dataene klar til å bli brukt i databasen.  
@@ -105,7 +105,7 @@ Når du har fullført valideringen, er dataene klar til å bli brukt i databasen
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Bruke svar fra konfigurasjonsspørreskjemaet
 Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Vinduet **Konfig.spørreskjema** åpnes.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
 2. Velg et konfigurasjonsspørreskjema fra listen, og velg deretter handlingen **Rediger oversikt**.  
 3. Du kan bruke svar på én av to måter.  
 
@@ -113,7 +113,7 @@ Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema
 - Hvis du vil bruke svarene for bare et bestemt **spørsmålsområde**, velger du handlingen **Spørsmålsområder**, velger et **spørsmålsområde** i listen, og deretter velger handlingen **Bruk svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:  
-1. Kontroller oppsettsvinduer for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne vinduet ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir navnet på oppsettsvinduet og velger deretter den relaterte koblingen.  
+1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir navnet på oppsettssiden og velger deretter den relaterte koblingen.  
 2. Kontroller at feltene er fylt ut med de riktige dataene fra de ulike spørsmålsområdene i konfigurasjonsspørreskjemaet.  
 
 Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.

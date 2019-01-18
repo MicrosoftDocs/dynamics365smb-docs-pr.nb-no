@@ -11,17 +11,17 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 3df0235b477d2dc1085ed0b2a622d0e1b96c8a78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
-Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
 
-[Utskrivbart ark med hurtigtaster](keyboard-shortcuts-cheatsheet.md)
+[Utskrivbar referanse med hurtigtaster](keyboard-shortcuts-cheatsheet.md)
 
 ## <a name="overview"></a>Oversikt
 Hurtigtastene bedrer tilgjengeligheten og gjør det enklere og mer effektivt å navigere til ulike områder og elementer på en side.
@@ -35,14 +35,17 @@ De fleste hurtigtastene er de samme uansett om operativsystemet er Windows eller
 ##  <a name="Keyboard"></a> Generelle hurtigtaster
 Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til forskjellige elementer på en side, for eksempel handlinger rullegardinlister, oppslag og mye mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|  
+|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|  
 |----------------|-----------|  
-|Alt+Q|Åpne boksen **Fortell hva du vil gjøre**. Her får du hjelp til å finne en side, rapporter, en handling på den gjeldende siden eller en artikkel i dokumentasjonen.|
+|Alt+Q<br />(Ctrl+Alt+Q)|Åpne boksen **Fortell hva du vil gjøre**. Her får du hjelp til å finne en side, rapporter, en handling på den gjeldende siden eller en artikkel i dokumentasjonen.|
+|Alt+Pil opp|Vis verktøytips for et felt eller en kolonneoverskrift i en tabell. Hvis feltet har valideringsfeil, trykker du "Alt + Pil opp" for å vise valideringsfeilen. Trykk "Esc" eller "Alt + Pil opp" for å lukke verktøytipset.|
 |Tab|Flytte fokus til neste kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
 |Skift+TAB|Flytte fokus til forrige kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|   
 |Enter|Aktivere eller få tilgang til elementet eller kontrollen som er i fokus.|   
 |Alt+Pil ned|Åpne en rullegardinliste eller slå opp en verdi for et felt.|    
 |Alt + Pil høyre|Se transaksjonene som resulterte i en beregnet verdi i et felt.|  
+|F5|Oppdater dataene på gjeldende side.|Bruk dette for å sikre at data på siden blir oppdatert med endringer andre har utført mens du arbeider.|
+|Ctrl+F5|Last inn [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt.|Dette er det samme som å velge oppdater / last inn på nytt i webleseren.|
 |ESC|Lukk gjeldende side eller rullegardinliste.|
 
 
@@ -126,7 +129,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |Pil opp|Rull opp siden.|
 |Pil høyre|Bla til høyre når siden er zoomet inn, slik at den ikke er helt i visningen. |
 |Pil venstre|Bla til venstre når siden er zoomet inn, slik at den ikke er helt i visningen. |
-|Ctrl + 0 (null)<br />(Cmd + 0)|Fyller hele siden i vinduet. |
+|Ctrl + 0 (null)<br />(Cmd + 0)|Fyller hele siden på siden. |
 |Ctrl+Home<br />(Cmd + Home)|Gå til den første siden i rapporten.|
 |Ctrl+End<br />(Cmd + Home)|Gå til den siste siden i rapporten.|
 |En side ned<br />(Fn + Pil ned)|Gå til den neste siden i rapporten.|

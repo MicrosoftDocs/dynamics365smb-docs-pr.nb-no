@@ -10,17 +10,17 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d72a39b0fbccc0275a1f9d486d5385428d36fd85
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae2f0258dce727be456340f3e6905d0a60208ac2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Slik definerer du generelle standardverdier for aktiva
-Du definerer den generelle virkemåten eller aktivafunksjonaliteten og bilagsnummerserien i **Aktivaoppsett**-vinduet.
+Du definerer den generelle virkemåten eller aktivafunksjonaliteten og bilagsnummerserien på **Aktivaoppsett**-siden.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Du bokfører grupper for å definere aktivagrupper. Poster for disse bokførings
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
-3. Fyll ut resten av feltene i vinduet **Kort for bokf.grp.- aktiva** etter behov.
+3. Fyll ut resten av feltene på siden **Kort for bokf.grp.- aktiva** etter behov.
 
     > [!NOTE]  
     >   For å sikre at motkontoer for ulike aktivabokføringer settes inn automatisk når du velger handlingen **Sett inn aktivamotkonto** på kladdelinjer, følger du det neste trinnet, basert på oppskrivningsbokføring.
@@ -44,14 +44,14 @@ Ved hjelp av brukerdefinerte fordelingsnøkler kan du fordele transaksjoner på 
 Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - aktiva**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Bokf.grupper - aktiva** velger du handlingen **Fordelinger**, og velger deretter en bokføringstype.
-3. I vinduet **Aktiva - fordelinger** fyller du ut feltene etter behov.
+2. På siden **Bokf.grupper - aktiva** velger du handlingen **Fordelinger**, og velger deretter en bokføringstype.
+3. På siden **Aktiva - fordelinger** fyller du ut feltene etter behov.
 4. Gjenta trinn 2 og 3 for bokføringstypene du vil definere fordelingsnøkler for.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Slik definerer du aktivakladdemaler:
 En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysninger om sporingskoder, rapporter og nummerserier. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-vinduet, men du kan definere flere kladdemaler.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-siden, men du kan definere flere kladdemaler.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -61,10 +61,10 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt k
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
-3. I vinduet **Aktivakladder** fyller du ut feltene etter behov.
+3. På siden **Aktivakladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Slik definerer du aktivareklassifiseringskladdemaler:
-Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-vinduet, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-siden, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -74,7 +74,7 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver reklassi
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
-3. I vinduet **Aktivareklass.kladder** fyller du ut feltene etter behov.
+3. På siden **Aktivareklass.kladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Slik definerer du aktivaklassekoder:
 Aktivaklassekoder kan brukes til å gruppere aktiva, for eksempel i materielle og immaterielle aktiva.
@@ -105,7 +105,7 @@ Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første 
 
     Aktiver integrering med Finans ved å følge de neste trinnene. Kontroller først at Finans-integreringen deaktiveres for alle avskrivningstablåer, bokføre deretter åpningsposter og aktiver til slutt Finans-integrering.  
 4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
-5. Velg det aktuelle avskrivningstablået. I fanebladet **Hjem**, under **Behandle**, velger du **Rediger liste** for å åpne **Avskrivningstablåkort**-vinduet.
+5. Velg det aktuelle avskrivningstablået. I fanebladet **Hjem**, under **Behandle**, velger du **Rediger liste** for å åpne **Avskrivningstablåkort**-siden.
 6. På hurtigfanen **Integrering** må du kontrollere at alle feltene er tomme ved å fjerne alle haker. Hvis du har mer enn ett avskrivningstablå, deaktiverer du integrasjon med Finans for hvert enkelt tablå.  
 7. Skriv inn følgende linjer for hvert aktivum i aktivakladden:
    * En linje med anskaffelseskosten.

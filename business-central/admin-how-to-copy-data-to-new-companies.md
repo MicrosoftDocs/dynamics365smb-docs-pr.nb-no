@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c8f020547cb48e288c1e1defac14993fab6bb21f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8fc06a83a4bbf6acb5da076e21169819a6bb07de
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye selskaper
@@ -26,7 +26,7 @@ Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, 
 1. Åpne det nye selskapet.  
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 3. Velg **Kopier data fra selskap**.  
-4. Velg et selskap du vil kopiere fra **Kopier selskapsdata**-vinduet, velg et selskap som skal kopieres fra i **Kopier fra** og velg **OK**-knappen.  
+4. Velg et selskap du vil kopiere fra **Kopier selskapsdata**-siden, velg et selskap som skal kopieres fra i **Kopier fra** og velg **OK**-knappen.  
 5. Velg en tabell fra en av konfigurasjonspakkene som du har importert, og velg deretter **Kopier Data**-handlingen.
 
 ## <a name="see-also"></a>Se også

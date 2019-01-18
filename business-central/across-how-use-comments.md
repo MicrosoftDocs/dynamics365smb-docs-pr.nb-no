@@ -8,20 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 10/03/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a37dd74565266c748439bf4ee5eecfa8e8c7ea
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27a1fcc2bb0efd79e95f10c78dbae54869c59703
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Legge til kommentarer i kort og dokumenter
 Du kan legge til tilleggsinformasjon for finanskontoer, kundekort eller ordrer for å formidle unntak eller spesielle avtaler avtaler til andre brukere.
-Nær sagt alle kort, og dokumentet har en **Merknader**-handling, som åpner vinduet **Merknadsark**, der du kan skrive eller lese merknader. Du kan også legge til merknader på individuelle linjer i dokumenter.
+Nær sagt alle kort, og dokumentet har en **Merknader**-handling, som åpner siden **Merknadsark**, der du kan skrive eller lese merknader. Du kan også legge til merknader på individuelle linjer i dokumenter.
 
 Merknader i dokumenter overføres fortløpende til det relaterte bokførte dokumentet. En merknad i en ordre overføres for eksempel til en resulterende bokført følgeseddel.
+
+I tillegg kan du angi om du vil at merknader overføres fra én dokumenttype til en annen resulterende dokumenttype, for eksempel fra en ordre til en salgsfaktura. Dette gjør du på siden **Salg** og **Kjøp** henholdsvis.
 
 > [!NOTE]
 > Merknader skrives ikke ut eller legges inn i rapporter eller eksterne dokumenter.
@@ -32,7 +34,7 @@ Nedenfor beskrives det hvordan du legger til en merknad på et varekort. Trinnen
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle varekortet.
 3. Velg handlingen **Merknader**.
-4. Skriv inn tekst i **Merknadsark**-vinduet, og velg **OK**-knappen.
+4. Skriv inn tekst på **Merknadsark**-siden, og velg **OK**-knappen.
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

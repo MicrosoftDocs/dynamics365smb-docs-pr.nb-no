@@ -11,10 +11,10 @@ ms.search.keywords: marketing, campaign, promo, prospect
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4c3f0f612c13d9fe84cffc4862641301795bcebd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 66d8bda9082754c4278a47e44529a30dea8eb39c
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
@@ -23,7 +23,7 @@ Ved å ha en solid markedsføringsplan kan du identifisere, trekke til deg og be
 Hver kampanje består av forskjellige aktiviteter eller oppgaver. Du kan kombinere flere oppgaver, for eksempel oppgaver som representerer et trinn, i aktiviteter. Aktivitetsoppgaver er knyttet til hverandre ved hjelp av en datoformel. Enkeltoppgaver kan bare tilordnes til selgere. Aktiviteter kan tilordnes til salgsmuligheter, selgere, grupper av selgere og kontakter. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="defining-individual-campaigns"></a>Definere enkeltkampanjer
-Før du kan opprette en kampanje, må du definere *statuskoder for kampanjen*. Ved hjelp av disse kodene kan du kontrollere kampanjen ved å tilordne en status til den. Når du arbeider deg gjennom fasene i en kampanje, kan du se på hvilket trinn en kampanje befinner seg, og hvilket trinn som følger. Du definererer koder for kampanjestatus i vinduet **Kampanjestatus**.
+Før du kan opprette en kampanje, må du definere *statuskoder for kampanjen*. Ved hjelp av disse kodene kan du kontrollere kampanjen ved å tilordne en status til den. Når du arbeider deg gjennom fasene i en kampanje, kan du se på hvilket trinn en kampanje befinner seg, og hvilket trinn som følger. Du definererer koder for kampanjestatus på siden **Kampanjestatus**.
 
 Du kan opprette et kampanjekort for hver kampanje du vil følge. Du kan også vise disse kampanjekortene for å vise generell informasjon om kampanjene.
 Du kan slette kampanjeposter hvis for eksempel posten registrerer en handling som er kansellert. Du kan bare slette kansellerte kampanjeposter.
@@ -32,7 +32,7 @@ Du kan slette kampanjeposter hvis for eksempel posten registrerer en handling so
 Når du har opprettet en kampanje, kan du begynne å opprette segmenter som angir målgruppen til kampanjen. Hvis du vil ha mer informasjon, kan du se [Håndtere segmenter](marketing-segments.md).
 
 ### <a name="registering-discount-percentages"></a>Registrere rabattprosenter
-Når du har definert kampanjen, bestemt hvilke segmenter du vil kampanjen skal dekke, og angitt startdatoen og sluttdatoen, registrerer du rabattprosenten som kunden vil få for de individuelle varene, på linjene i vinduet **Salgslinjerabatter**. Du kan også registrere salgsprisene for de individuelle varene på linjene i **Salgspriser**-vinduet. Du kan få tilgang til begge vinduene fra kampanjekortet.
+Når du har definert kampanjen, bestemt hvilke segmenter du vil kampanjen skal dekke, og angitt startdatoen og sluttdatoen, registrerer du rabattprosenten som kunden vil få for de individuelle varene, på linjene på siden **Salgslinjerabatter**. Du kan også registrere salgsprisene for de individuelle varene på linjene på **Salgspriser**-siden. Du kan få tilgang til begge sidene fra kampanjekortet.
 
  Når du har definert salgsprisene/linjerabattene og segmentene på kampanjekortet, må du aktivere dem slik at kampanjeprisene/-rabattene gjenspeiles på linjene.
 

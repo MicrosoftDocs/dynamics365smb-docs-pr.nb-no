@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: cf0aac90fbaaed02c9928f5a42d2db4926d7cd01
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: deb9c60a03592f30b1d5410932278eacfe3f75a8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-one-vat-code-in-journals"></a>Bruke én mva-kode i kladder
@@ -31,7 +31,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **VAT-koder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Angi opplysninger i feltet **Kode**, **Bokføringstype** og **Beskrivelse** for hver mva-kode.  
-4.  Velg **OK**-knappen for å lukke vinduet **Mva-koder**.  
+4.  Velg **OK**-knappen for å lukke siden **Mva-koder**.  
 
  Fremgangsmåten nedenfor beskriver mva-bokføringsoppsettet.  
 
@@ -52,7 +52,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 
 Nå når du bokfører et dokument i finanskladden og lukker det, brukes informasjonen som er angitt i **Mva-bokføringsoppsett**-kortet.  
 
-For eksempel: mva-satsen som er bokført i kladden, defineres av oppsettet du har angitt i **Mva-bokføringsoppsett**-vinduet.  
+For eksempel: mva-satsen som er bokført i kladden, defineres av oppsettet du har angitt på **Mva-bokføringsoppsett**-siden.  
 
 > [!NOTE]  
 >  Feltet **Mva-kode** og **Motkonto-mva. - kode** er lagt til i kladden. **Motkonto-mva. - kode** er mva-koden som brukes til å beregne motkontoen.  

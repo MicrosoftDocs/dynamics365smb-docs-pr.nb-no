@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fafe6aa28b61960ea028755f3308155aa1633b60
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d0a7088e436def55b3c7ddc3115065c66686b7fb
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
-Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen. I denne gjennomgangen skal du bruke vinduet **Ordreplanlegging**, som er et enkelt verktøy for forsyningsplanlegging som er basert på manuell beslutningstaking i stedet for parameterbasert automatisk planlegging.  
+Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen. I denne gjennomgangen skal du bruke siden **Ordreplanlegging**, som er et enkelt verktøy for forsyningsplanlegging som er basert på manuell beslutningstaking i stedet for parameterbasert automatisk planlegging.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
  Denne gjennomgangen tar for seg følgende oppgaver:  
@@ -48,30 +48,30 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 ## <a name="story"></a>Hovedscenario  
  Martin, produksjonsplanleggeren i et lite produksjonsselskap, er i ferd med å planlegge produksjon og bestillinger for å dekke nytt salgsbehov.  
 
- Siden produktene har få stykklistenivåer og ordreflyten er relativt lav, bruker Martin vinduet **Ordreplanlegging** til å opprette forsyningsordrer manuelt, ett produktnivå om gangen.  
+ Siden produktene har få stykklistenivåer og ordreflyten er relativt lav, bruker Martin siden **Ordreplanlegging** til å opprette forsyningsordrer manuelt, ett produktnivå om gangen.  
 
  I et mer sammensatt produksjonsmiljø brukes planleggingsforslaget til å planlegge forsyning basert på vareparametere, for eksempel periode for ny planlegging, sikkerhetsleveringstid, gjenbestillingspunkt og masseberegninger av konsolidert behov fra alle produktnivåer.  
 
 ## <a name="setting-up-the-sample-data"></a>Konfigurere eksempeldataene  
  Det standard demonstrasjonsselskapet CRONUS har for tiden et stort behov som ikke er planlagt. I løpet av de ulike planleggingsoppgavene i denne gjennomgangen må du avvike fra den realistiske forretningsflyten ved å ignorere behov med nære forfallsdatoer og i stedet bruke behov med senere forfall.  
 
-## <a name="using-the-order-planning-window"></a>Bruke vinduet Ordreplanlegging eller Bestillingsplanlegging  
+## <a name="using-the-order-planning-page"></a>Bruke siden Ordreplanlegging  
 
 <!-- 
-The **Order Planning** window can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
 
 -   Manufacturing, Planning  
 -   Sales & Marketing, Order Processing  
 -   Purchase, Planning  
--   In addition, you can open this window for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
+-   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
 
 -->  
 
-### <a name="to-use-the-order-planning-window"></a>Slik bruker du vinduet Ordreplanlegging:  
+### <a name="to-use-the-order-planning-page"></a>Slik bruker du siden Ordreplanlegging:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
 
-     Når vinduet **Ordreplanlegging** åpnes for første gang, må en plan beregnes for å vise det nye behovet siden det sist ble beregnet.  
+     Når siden **Ordreplanlegging** åpnes for første gang, må en plan beregnes for å vise det nye behovet siden det sist ble beregnet.  
 
 2.  Velg **Beregn plan**-handlingen.  
 
@@ -79,7 +79,7 @@ The **Order Planning** window can be accessed from several different locations o
 
      Antallet som trengs for hver behovslinje, beregnes basert på totalt disponibelt antall. Denne beregningen utføres ordre for ordre. Dette betyr at ordren som inkluderer behovslinjen med den tidligste forfallsdatoen eller forsendelsesdatoen, beregnes først. Etter dette beregnes ytterligere behovslinjer i den samme ordren, uavhengig av forfallsdatoen eller forsendelsesdatoen.  
 
-3.  Kontroller at vinduet **Ordreplanlegging** er maksimert, og at størrelsen på kolonnefeltene er endret slik at alle standard feltnavn vises.  
+3.  Kontroller at siden **Ordreplanlegging** er maksimert, og at størrelsen på kolonnefeltene er endret slik at alle standard feltnavn vises.  
 
      Når beregningen er fullført, vises alt udekket behov som sammenslåtte (skjulte) ordrehodelinjer sortert etter tidligste behovsdato.  
 
@@ -98,7 +98,7 @@ The **Order Planning** window can be accessed from several different locations o
 
 1.  Vis den første linjen (velg plussymbolet (+)).  
 2.  Velg den første behovslinjen, med vare **LSU-15**, og velg deretter **Vis dokument**-handlingen.  
-3.  Lukk den åpnede produksjonsordren for å gå tilbake til vinduet **Ordreplanlegging**.  
+3.  Lukk den åpnede produksjonsordren for å gå tilbake til siden **Ordreplanlegging**.  
 4.  Velg **Kjøp** i feltet **Etterfyllingssystem**.  
 
      Standardverdien er fra varekortet (eller LFE-kortet), men du kan endre den til ett av følgende alternativer:  
@@ -118,13 +118,13 @@ The **Order Planning** window can be accessed from several different locations o
     >  Hvis komponentene har et standard leverandørnummer angitt på varekortene, blir linjene forhåndsdefinert.  
 
 6.  Velg feltet **Forsyning fra**.  
-7.  Velg **Ny**-handlingen i vinduet **Vare/leverandør-katalog**, og velg deretter leverandør **30000**.  
-8.  Velg **OK**-knappen for å gå tilbake til vinduet **Ordreplanlegging**.  
+7.  Velg **Ny**-handlingen på siden **Vare/leverandør-katalog**, og velg deretter leverandør **30000**.  
+8.  Velg **OK**-knappen for å gå tilbake til siden **Ordreplanlegging**.  
 9. Kopier leverandør **30000** til de andre linjene for høyttalerkomponenter i denne produksjonsordren.  
 
      Du er nå klar til å opprette en bestilling.  
 
-10. Velg handlingen **Lag bestillinger**. Vinduet **Lag forsyningsordrer** åpnes.  
+10. Velg handlingen **Lag bestillinger**. Siden **Lag forsyningsordrer** åpnes.  
 11. På hurtigfanen **Ordreplanlegging**, i feltet **Lag ordrer for**, velger du alternativet **den aktive ordren**.  
 12. Velg alternativet **Lag bestilling** i feltet **Opprett bestilling** på hurtigfanen **Alternativer**.  
 13. Velg **OK**-knappen for å opprette en bestilling for alle komponentene i ordren.  
@@ -144,15 +144,15 @@ The **Order Planning** window can be accessed from several different locations o
      Definert etterfyllingssystem og standardleverandør for varen vises.  
 
     > [!NOTE]  
-    >  Det er fire informasjonsfelt nederst i vinduet. I feltet **Tidligste tilgjengelige dato** blir de ti stykkene som trengs, tilgjengelige på en inngående forsyningsordre ni dager senere enn gjeldende forfallsdato. Hvis dette blir for sent for kunden, viser feltet **Tilgjengelig for overføring** at 13 stykker av varen er tilgjengelig på en annen lokasjon. Det er aktuelt å planlegge for denne varebeholdningen.  
+    >  Det er fire informasjonsfelt nederst på siden. I feltet **Tidligste tilgjengelige dato** blir de ti stykkene som trengs, tilgjengelige på en inngående forsyningsordre ni dager senere enn gjeldende forfallsdato. Hvis dette blir for sent for kunden, viser feltet **Tilgjengelig for overføring** at 13 stykker av varen er tilgjengelig på en annen lokasjon. Det er aktuelt å planlegge for denne varebeholdningen.  
 
-3.  Velg feltet **Tilgjengelig for overføring** for å åpne vinduet **Hent alternativ forsyning**.  
+3.  Velg feltet **Tilgjengelig for overføring** for å åpne siden **Hent alternativ forsyning**.  
 4.  Velg **OK**-knappen for å bestille de ti varene som er tilgjengelige.  
 
     > [!NOTE]  
     >  På behovslinjen er det foreslåtte kjøpet erstattet med en en overføring fra lokasjonen GRØNN. Funksjonen **Lag bestillinger** oppretter en overføringsordre fra GRØNN til den etterspurte lokasjonen. **Erstatning finnes**-feltet fungerer på samme måte.  
 
-5.  Velg handlingen **Lag bestillinger**. Vinduet **Lag forsyningsordrer** åpnes.  
+5.  Velg handlingen **Lag bestillinger**. Siden **Lag forsyningsordrer** åpnes.  
 6.  På hurtigfanen **Ordreplanlegging**, i feltet **Lag ordrer for**, velger du alternativet **Den aktive ordren**.  
 7.  Velg alternativet **Lag overføringsordrer** i feltet **Opprett overføringsordre** på hurtigfanen **Alternativer**.  
 8.  Velg **OK**-knappen for å opprette overføringsordren som skal forsyne ordren.  
@@ -168,26 +168,26 @@ The **Order Planning** window can be accessed from several different locations o
 
      Denne behovslinjen er en salgslinje, men varen har **Prod.ordre** som definert etterfyllingssystem. Begynn med å legge til en ekstra ringeklokke i komponentbehovet for hver sykkel.  
 
-2.  Velg handlingen **Komponenter** for å åpne **Planleggingskomponenter**-vinduet.  
+2.  Velg handlingen **Komponenter** for å åpne **Planleggingskomponenter**-siden.  
 3.  På linjen med varen ringeklokke endrer du **Antall per**-feltet fra **1** til **2**.  
-4.  Vurder planleggingsalternativene i vinduet **Ordreplanlegging**. I dette tilfellet har du ingen alternative forsyningsmuligheter, ingen overføring, erstatning eller senere levering. Du må opprette den foreslåtte forsyningsordren – en produksjonsordre.  
+4.  Vurder planleggingsalternativene på siden **Ordreplanlegging**. I dette tilfellet har du ingen alternative forsyningsmuligheter, ingen overføring, erstatning eller senere levering. Du må opprette den foreslåtte forsyningsordren – en produksjonsordre.  
 5.  Velg **Lag ordre**-handlingen for å opprette produksjonsordren.  
 
-     Legg merke til at planleggingslinjen for ordre **1001** i vinduet **Ordreplanlegging** ikke lenger finnes, og at det opprinnelige salgsbehovet er dekket.  
+     Legg merke til at planleggingslinjen for ordre **1001** på siden **Ordreplanlegging** ikke lenger finnes, og at det opprinnelige salgsbehovet er dekket.  
 
-6.  Lukk vinduet **Ordreplanlegging**.  
+6.  Lukk siden **Ordreplanlegging**.  
 
-     Nå kunne du ha valgt å fortsette i denne visningen og fylle ut alle planleggingsoppgavene. I stedet skal du nå ta på deg rollen som produksjonsplanlegger ved å gå til produksjonsordren du nettopp opprettet, og åpne vinduet **Ordreplanlegging**.  
+     Nå kunne du ha valgt å fortsette i denne visningen og fylle ut alle planleggingsoppgavene. I stedet skal du nå ta på deg rollen som produksjonsplanlegger ved å gå til produksjonsordren du nettopp opprettet, og åpne siden **Ordreplanlegging**.  
 
  Som produksjonsplanlegger må du nå planlegge en bestemt produksjonsordre.  
 
 ### <a name="to-plan-a-specific-production-order"></a>Slik planlegger du en bestemt produksjonsordre:  
 
 1.  Åpne produksjonsordren **101001**, for ti sykler, som du nettopp opprettet med funksjonen **Lag bestillinger**.  
-2.  Åpne vinduet **Prod.ordrekomponenter** for å kontrollere at den ekstra ringeklokken gjenspeiles på produksjonsordren.  
+2.  Åpne siden **Prod.ordrekomponenter** for å kontrollere at den ekstra ringeklokken gjenspeiles på produksjonsordren.  
 3.  Velg handlingen **Planlegging**.  
 
-     Vinduet **Ordreplanlegging** åpnes i en visning som alltid er filtrert etter bestemte produksjonsbehov. Salgsbehov vises ikke. Du må beregne en plan før du kan vise ytterligere behov.  
+     Siden **Ordreplanlegging** åpnes i en visning som alltid er filtrert etter bestemte produksjonsbehov. Salgsbehov vises ikke. Du må beregne en plan før du kan vise ytterligere behov.  
 
 4.  Velg **Beregn plan**-handlingen.  
 
@@ -207,11 +207,11 @@ The **Order Planning** window can be accessed from several different locations o
 
      Før du velger **OK**-knappen, må du legge merke til teksten i hurtigfanen **Ordreplanlegging**. Denne teksten er viktig fordi du vet at sykkelen har flere produserte komponenter, delmonteringer, som kan være etterspurt når du oppretter denne produksjonsordren.  
 
-7.  Velg alternativet **Alle linjer** i feltet **Lag ordrer for** i vinduet **Lag forsyningsordrer**, og klikk deretter **OK** for å opprette produksjonsordrer for det andre produktnivået i ordren.  
+7.  Velg alternativet **Alle linjer** i feltet **Lag ordrer for** på siden **Lag forsyningsordrer**, og klikk deretter **OK** for å opprette produksjonsordrer for det andre produktnivået i ordren.  
 
      Merk at produksjonsbehovet på øverste nivå for produksjonsordren 101001 ikke lenger finnes. Dette betyr at det er planlagt for det opprinnelige produksjonsbehovet for delmonteringer.  
 
-     I vinduet **Ordreplanlegging** beregner du en plan på nytt for å planlegge sykkelstrukturen.  
+     På siden **Ordreplanlegging** beregner du en plan på nytt for å planlegge sykkelstrukturen.  
 
 8.  Velg **Beregn plan**-handlingen for å beregne planen på nytt i henhold til instruksjonene i den innebygde hjelpeteksten.  
 
@@ -227,9 +227,9 @@ The **Order Planning** window can be accessed from several different locations o
 
      Meldingen angir at alle nødvendige varer nå er forsynt. Kontroller de fast planlagte produksjonsordrene som opprettes.  
 
-13. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
+13. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
 
-     Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, i vinduet **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
+     Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, på siden **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
 
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   

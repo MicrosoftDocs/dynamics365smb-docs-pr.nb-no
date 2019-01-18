@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 10/01/2018
+ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 560ea1ce0b93a596afb6c37bda7b438115614606
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
@@ -28,11 +28,13 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 
 | Til | Se |
 | --- | --- |
-|Legg til tilleggsinformasjon for kontoer, kundekort eller ordrer for å formidle avtaler, for eksempel en spesiell pris eller leveringsmetoden, for andre brukere.|[Legge til kommentarer i kort og dokumenter](across-how-use-comments.md)| 
+|Legg til tilleggsinformasjon for kontoer, kundekort eller ordrer for å formidle avtaler, for eksempel en spesiell pris eller leveringsmetoden, for andre brukere.|[Legge til kommentarer i kort og dokumenter](across-how-use-comments.md)|
 |Vis pågående, bokførte eller arkiverte dokumenter som er knyttet til salgs- og bestillingslinjer.|[Spore dokumentlinje](across-how-to-track-document-lines.md)|
 | Formidle raskt innholdet i forretningsdokumenter til forretningspartnere, for eksempel betalingsinformasjon på salgsdokumenter til kunder. |[Sende dokumenter i e-post](ui-how-send-documents-email.md) |
+|Arkiver salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og bruk det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra.|[Arkivere dokumenter](across-how-to-archive-documents.md)|
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Legge til utvidet varetekst](ui-how-define-ext-text.md) |
-|Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
+|Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver for deg selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
+|Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
 |Definere og bruke arbeidsflyter som kobler oppgaver som utføres av forskjellige brukere eller av systemet, for eksempel automatisk bokføring. Å be om og gi godkjenning til å opprette eller bokføre dokumenter er typiske arbeidsflyttrinn.|[Arbeidsflyt](across-workflow.md)|

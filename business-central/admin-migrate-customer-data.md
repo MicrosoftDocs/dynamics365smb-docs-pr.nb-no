@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0a1a2a100fbbd0d21c3934802b624e370592bd9e
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
 
-Vinduet **Flytting - oversikt** og **Konfigurer forslag** gir deg tilgang til funksjonene og visningene som lar deg utføre oppgavene som er relatert til overføring av data. Vi anbefaler at du flytter én tabell om gangen, for å håndtere avhengigheter i dataene. Når du flytter, berører du også hoveddatatabellene, som inneholder informasjon om kunder, leverandører, varer, kontakter og finans.  
+Siden **Flytting - oversikt** og **Konfigurer forslag** gir deg tilgang til funksjonene og visningene som lar deg utføre oppgavene som er relatert til overføring av data. Vi anbefaler at du flytter én tabell om gangen, for å håndtere avhengigheter i dataene. Når du flytter, berører du også hoveddatatabellene, som inneholder informasjon om kunder, leverandører, varer, kontakter og finans.  
 
 ## <a name="to-import-configuration-packages"></a>Importere konfigurasjonspakker
 Når du oppretter et nytt selskap, kan du importere firmainnstillinger for det nye selskapet. Du importerer innstillingene fra en .rapidstart-fil, som leverer innholdet i pakken i et komprimert format. Et tilsvarende sett med standard dataflyttingstabeller er importert. Datasettet inneholder hoveddatatabeller og oppsettsdatatabeller. Den første oppgaven i dataflytting er å evaluere hvorvidt standardoppsettet for flytting dekker behovene til det nye firmaet.
@@ -58,9 +58,9 @@ Hvis tabellutvalget ikke oppfyller dine behov, kan du opprette én eller flere n
 Du kan opprette nye dataoverføringsfiler og tilpasse dem for å støtte forretningsprosessene. Vær oppmerksom på at en fil kan bare brukes til å flytte et felt der **Normal** er angitt for **FieldClass**-egenskapen.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
-2. Velg og åpne pakken som du vil bruke til å flytte data, og velger deretter **Hent tabeller**-handlingen. Vinduet **Hent pakketabeller** åpnes.  
+2. Velg og åpne pakken som du vil bruke til å flytte data, og velger deretter **Hent tabeller**-handlingen. Siden **Hent pakketabeller** åpnes.  
 3. Skriv inn et tabellnummer i **Tabell-ID**-feltet, eller velg en tabell fra listen, for eksempel tabell 18, **Kunde**. Feltet **Tabellnavn** fylles ut automatisk.  
-4. Velg den nye flyttingsstabellen, og deretter, i fanen **Tabeller**, velger du **Felt**-handlingen. Vinduet **Flyttingsfelt** åpnes.  
+4. Velg den nye flyttingsstabellen, og deretter, i fanen **Tabeller**, velger du **Felt**-handlingen. Siden **Flyttingsfelt** åpnes.  
 5. Fjern merket for **Inkluder feltet** for alle feltene du ikke vil importere, og velg deretter handlingen **Sett inkludert** eller **Fjern inkludert**.  
 
 > [!IMPORTANT]  
@@ -100,7 +100,7 @@ I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vi
 4. For hvert felt du vil tilordne velger du **Tilordning**-handlingen.  
 5. Angi verdien du vil endre, i **Gammel verdi**-feltet. Angi verdien du vil endre den gamle verdien til, i **Ny verdi**-feltet. Velg **OK**-knappen.  
 6. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se delen Importere kundedata.
-7. Se om det er rapportert noen feil i feltet **Antall pakkefeil**. Hvis det er det, viser du detaljene for å se feilene. Vinduet **Konfig. pakkeposter** åpnes.
+7. Se om det er rapportert noen feil i feltet **Antall pakkefeil**. Hvis det er det, viser du detaljene for å se feilene. Siden **Konfig. pakkeposter** åpnes.
 8. Velg handlingen **Vis feil**. Du vil motta følgende feilmelding: **<option> er ikke et gyldig alternativ. Gyldige alternativer er <valid option list>**. Velg **OK**-knappen.  
 9. Hvis du vil bruke tilordningen som du har definert, kan du velge **Bruk Data**-handlingen.  
 
@@ -134,7 +134,7 @@ Når du har eksportert en flyttingstabell, er neste trinn å angi kundens eldre 
 
 Hvis du trenger hjelp med XML, aktiverer du fanen **Utvikler** på Excel-båndet, og deretter velger du **Kilde**-handlingen for å se XML-skjemaet for overføringstabellen, som vist i Excel.
 
-Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet for overføring. Hvis du vil ha mer informasjon, kan du se Eksportere flyttingstabeller.
+Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet for overføring. Hvis du vil ha mer informasjon, kan du se delen Slik eksporterer du dataflyttingsfiler.
 
 > [!IMPORTANT]  
 > Ikke endre kolonnene i Excel-regnearkene. Hvis du flytter, endrer eller sletter dem, kan ikke regnearket importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -151,7 +151,7 @@ Du er nå klar til å importere dataoverføringsfilene som inneholder eldre kund
 ## <a name="to-import-customer-data"></a>Slik importerer du kundedata
 Når kundedataene er angitt i dataoverføringsfilene i Excel, importerer du filene til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Åpne vinduet **Konfigurer pakkekort**.
+1. Åpne siden **Konfigurer pakkekort**.
 2. Velg tabellen du vil importere verdier for, og velg deretter fanen **Tabeller** og **Importer fra Excel**-handlingen.
 3. Finn og åpne filen som du vil bruke til å importere data fra til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -163,21 +163,21 @@ Kundedata må valideres før du utligner postene i [!INCLUDE[d365fin](includes/d
 > [!NOTE]  
 >  I de fleste tilfeller opprettes ikke ugyldige data i databasen. Programmet kan imidlertid av og til blokkeres hvis en importert flyttingstabell inneholder feil.  
 
-1. I vinduet **Flytting - oversikt** ser du gjennom feltet **Antall feil under flytting** for å se om det oppstod feil under importen.  
+1. På siden **Flytting - oversikt** ser du gjennom feltet **Antall feil under flytting** for å se om det oppstod feil under importen.  
 2. Hvis det oppstår feil, velger du flyttingstabellen, og deretter, i fanen **Tabeller**, velger du **Feil**-handlingen. Det er merket av for **Ugyldig** for hver post som inneholder en feil.  
 3. Hvis du vil se gjennom feil, velger du en linje og deretter **Vis feil**-handlingen.  
 
     Feltet **Feiltekst** inneholder årsaken til feilen. Feltet **Felttekst** inneholder overskriften for feltet med feilen.  
-4.  Hvis du vil korrigere en feil eller gjøre andre oppdateringer, går du til vinduet **Flytting - oversikt**, velger **Flyttepost**-handlingen, og deretter, i vinduet **Flyttepost**, korrigerer du poste med feil.  
+4.  Hvis du vil korrigere en feil eller gjøre andre oppdateringer, går du til siden **Flytting - oversikt**, velger **Flyttepost**-handlingen, og deretter, på siden **Flyttepost**, korrigerer du posten med feil.  
 
-Når du foretar en korrigering, fjernes posten fra listen over poster i vinduet **Dataoverføringsfeil**.  
+Når du foretar en korrigering, fjernes posten fra listen over poster på siden **Dataoverføringsfeil**.  
 
 Du er nå klar til å bruke kundens data i databasen.  
 
 ## <a name="to-apply-customer-data"></a>Slik bruker du kundedata:
 Når du har importert alle dataoverføringsposter som er gyldige og ikke inneholder feil, kan du bruke postene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
-1. Åpne vinduet **Konfigurasjonspakker**.  
+1. Åpne siden **Konfigurasjonspakker**.  
 2. Velg tabellen for dataoverføringsfilen du vil bruke, og velg deretter handlingen **Bruk data**.
 
 I feltet **Antall databaseposter** kan du se hvor mange databaseposter som er opprettet. Du kan bekrefte at de riktige postene er opprettet ved å velge koblingen i feltet **Antall databaseposter**.  

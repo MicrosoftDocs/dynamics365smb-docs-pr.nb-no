@@ -11,18 +11,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31619fd1d76be71af9408f1c20be35846cef114
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 7200b074670f9c4541b0b7ae1d2f4e1159a7ff27
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
-Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet i **Varesporingslinjer**-vinduet.
+Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet på siden **Varesporingslinjer**.
 
-Matrisen over antallsfelt øverst i vinduet **Varesporingslinjer** gir en oversikt over antallene og summene til varesporingsnumrene som defineres på linjene. Antallene må samsvare med dem som finnes i dokumentlinjen, som er indikert med en 0 i **Udefinert**-feltene.
+Matrisen over antallsfelt øverst på siden **Varesporingslinjer** gir en oversikt over antallene og summene til varesporingsnumrene som defineres på linjene. Antallene må samsvare med dem som finnes i dokumentlinjen, som er indikert med en 0 i **Udefinert**-feltene.
 
-Av hensyn til ytelsen samler programmet tilgjengelighetsinformasjonen i vinduet **Varesporingslinjer** bare én gang når du åpner vinduet. Dette betyr at programmet ikke oppdaterer tilgjengelighetsinformasjonen mens du har vinduet åpent, selv om det forekommer endringer på lageret eller i andre dokumenter i løpet av denne tiden.
+Av hensyn til ytelsen samler programmet tilgjengelighetsinformasjonen på siden **Varesporingslinjer** bare én gang når du åpner siden. Dette betyr at programmet ikke oppdaterer tilgjengelighetsinformasjonen mens du har siden åpen, selv om det forekommer endringer på lageret eller i andre dokumenter i løpet av denne tiden.
 
 Varer med serie- eller partinumre kan spores både bakover og fremover i forsyningskjeden. Dette er nyttig for generell kvalitetskontroll og tilbakekalling av proukter. Hvis du vil ha mer informasjon, kan du se [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md).
 
@@ -33,14 +33,14 @@ I enkelte prosesser har ikke lagervarene serie- eller partinumre, og lagermedarb
 
 I enkle prosesser har lagervarene allerede serie- eller partinumre, for eksempel tilordnet under plasseringen, og disse numrene overføres automatisk gjennom alle utgående lageraktiviteter uten medvirkning fra lagermedarbeiderne.
 
-Bestemte serie- eller partinumre er definert i kildedokumentet, for eksempel en ordre, som lagermedarbeideren må respektere under utgående lagerhåndtering i spesielle situasjoner for serie - eller partinummererte varer. Dette kan skyldes at kunden har bedt om et bestemt parti under bestillingsprosessen. Når lagerplukk- eller plukkdokumentet opprettes fra et utgående kildedokument der serie- eller partinumre allerede er definert, vil alle felt i vinduet **Varesporingslinjer** låses for skriving under lagerplukkingen, bortsett fra feltet **Ant. som skal håndt**. I så fall angir lagerplukklinjene varesporingsnumrene på individuelle hentings- og plasseringslinjer. Antallet er allerede delt inn i unike serie- eller partinummerkombinasjoner, fordi ordren spesifiserer varesporingsnumrene som skal leveres.  
+Bestemte serie- eller partinumre er definert i kildedokumentet, for eksempel en ordre, som lagermedarbeideren må respektere under utgående lagerhåndtering i spesielle situasjoner for serie - eller partinummererte varer. Dette kan skyldes at kunden har bedt om et bestemt parti under bestillingsprosessen. Når lagerplukk- eller plukkdokumentet opprettes fra et utgående kildedokument der serie- eller partinumre allerede er definert, vil alle felt på siden **Varesporingslinjer** låses for skriving under lagerplukkingen, bortsett fra feltet **Ant. som skal håndt**. I så fall angir lagerplukklinjene varesporingsnumrene på individuelle hentings- og plasseringslinjer. Antallet er allerede delt inn i unike serie- eller partinummerkombinasjoner, fordi ordren spesifiserer varesporingsnumrene som skal leveres.  
 
 ## <a name="item-tracking-availability"></a>Varesporingstilgjengelighet
-Når du arbeider med serie- og partinumre, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgjengelighetsinformasjon for parti- og serienumre og viser den i de ulike varesporingsvinduene. Dette viser hvor mye av et parti- eller serienummer som for tiden brukes på andre dokumenter. Dette reduserer antall feil og usikkerhet forårsaket av doble tildelinger.
+Når du arbeider med serie- og partinumre, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgjengelighetsinformasjon for parti- og serienumre og viser den på de ulike varesporingssidene. Dette viser hvor mye av et parti- eller serienummer som for tiden brukes på andre dokumenter. Dette reduserer antall feil og usikkerhet forårsaket av doble tildelinger.
 
-I vinduet **Varesporingslinjer** vises et advarselsikon i feltet **Tilgjengelighet, Partinr.** eller **Tilgjengelighet, Serienr.** hvis noe av eller hele antallet du har valgt allerede brukes i andre dokumenter, eller hvis parti- eller serienummeret ikke er tilgjengelig.
+På siden **Varesporingslinjer** vises et advarselsikon i feltet **Tilgjengelighet, Partinr.** eller **Tilgjengelighet, Serienr.** hvis noe av eller hele antallet du har valgt allerede brukes i andre dokumenter, eller hvis parti- eller serienummeret ikke er tilgjengelig.
 
-I vinduet **Partinr. / Serienr.oversikt**, vinduet **Partinr. / Tilgjengelighet for serienummer** og vinduet **Varesporing - velg poster** vises informasjon om hvor stort antall av en vare som brukes. Dette inkluderer følgende informasjon.
+På siden **Partinr. / Serienr.oversikt**, vinduet **Partinr. / Tilgjengelighet for serienummer** og siden **Varesporing - velg poster** vises informasjon om hvor stort antall av en vare som brukes. Dette inkluderer følgende informasjon.
 
 |Felt|Beskrivelse|
 |-----|-----------|  
@@ -50,7 +50,7 @@ I vinduet **Partinr. / Serienr.oversikt**, vinduet **Partinr. / Tilgjengelighet 
 |**Gjeldende ønsket antall**|Antallet ønskede varer som vil bli brukt i det gjeldende dokumentet|
 |**Totalt disp. antall**|Totalt antall varer på lager minus antallet av varen som det er ønske om å bruke i dette og andre dokumenter (ønsket antall i alt), og minus antallet som det er ønske om å bruke, men som ennå ikke er bundet i dette dokumentet (gjeldende antall i kø)|
 
-Hvis du arbeider i vinduet **Varesporingslinjer** i en lang periode, eller hvis det skjer mye med varen du arbeider med, kan du velge handlingen **Oppdater tilgjengelighet**. I tillegg kontrolleres tilgjengeligheten av varen automatisk på nytt når du lukker vinduet, for å bekrefte at det ikke finnes noen tilgjengelighetsproblemer.
+Hvis du arbeider på siden **Varesporingslinjer** i en lang periode, eller hvis det skjer mye med varen du arbeider med, kan du velge handlingen **Oppdater tilgjengelighet**. I tillegg kontrolleres tilgjengeligheten av varen automatisk på nytt når du lukker siden, for å bekrefte at det ikke finnes noen tilgjengelighetsproblemer.
 
 ## <a name="to-set-up-item-tracking-codes"></a>Slik definerer du en varesporingskode
 En varesporingskode viser hvordan et selskap bruker serie- og partinumre til å holde styr på varer på forskjellige steder i lageret.  
@@ -92,7 +92,7 @@ Du ønsker kanskje å opprette bestemte garantier for enkelte varer i varesporin
 Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnummer, for eksempel av kvalitetshensyn, kan du gjøre dette på kortet med serie- eller partinummeropplysninger.
 
 1. Åpne et dokument som har serie- eller partinumre tilordnet.
-2. Åpne vinduet **Varesporingslinjer** for dokumentet.
+2. Åpne siden **Varesporingslinjer** for dokumentet.
 3. Velg for eksempel handlingen **Informasjonskort for serienr.**  
 
     **Serienr.**- og **Partinr.**-feltet blir forhåndsutfylt fra varesporingslinjen.  
@@ -103,8 +103,8 @@ Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnum
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Slik endrer du eksisterende informasjon om serie- eller partinumre  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
 2. Velg en vare som har en varesporingskode, og som har informasjon om serie- eller partinumre.
-3. Fra **Varekort**-vinduet velger du **Poster** og deretter **Poster**.
-4. Velg feltet **Partinr.** eller **Serienr.** Hvis det finnes informasjon for dette varesporingsnummeret, åpnes vinduet **Informasjonsoversikt for partinummer** eller **Informasjonsoversikt for serienummer**.  
+3. Fra **Varekort**-siden velger du **Poster** og deretter **Poster**.
+4. Velg feltet **Partinr.** eller **Serienr.** Hvis det finnes informasjon for dette varesporingsnummeret, åpnes siden **Informasjonsoversikt for partinummer** eller **Informasjonsoversikt for serienummer**.  
 5. Velg et kort, og velg deretter **Informasjonskort for partinr. eller Informasjonskort for serienr.**  
 6. Endre teksten for kort beskrivelse, merknadsposten eller **Sperret**-feltet.  
 
@@ -113,7 +113,7 @@ Du kan ikke endre serie- eller partinumre eller antall. Du må reklassifisere de
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Slik tilordner du serie- eller partinumre ved en inngående transaksjon  
 For selskaper som vil holde styr på varene allerede fra begynnelsen, er bestillingen ofte det sentrale dokumentet. I dette tilfellet er ofte bestillingsordren det sentrale dokumentet, men varesporing kan imidlertid håndteres fra et hvilket som helst inngående dokument, og bokførte poster kan vises i de tilhørende varepostene.  
 
-Det er oppsettet av vinduet **Kort for varesporingskode** som angir hvordan selskapet håndterer varesporingsnumre.  
+Det er oppsettet av siden **Kort for varesporingskode** som angir hvordan selskapet håndterer varesporingsnumre.  
 
 > [!NOTE]  
 >  Hvis du vil bruke varesporingsnumre i lageraktiviteter, må oppsettsfeltene **Lagerparti - sporing** og **Lagers.nr. - sporing** være valgt, siden de definerer de spesielle prinsippene i håndtering av serie- og partinumre i lageraktiviteter.  
@@ -139,7 +139,7 @@ Det er oppsettet av vinduet **Kort for varesporingskode** som angir hvordan sels
 
 Et partinummer med individuelle serienumre opprettes i henhold til vareantallet på dokumentlinjen, og begynner med **S/N-Vend0001**.  
 
-Matrisen over antallsfelt i hodet gir en dynamisk oversikt over antallene og summene til varesporingsnumrene du definerer i vinduet. Antallene må samsvare med dem som finnes i dokumentlinjen, som er markert med en 0 i **Udefinert**-feltene.  
+Matrisen over antallsfelt i hodet gir en dynamisk oversikt over antallene og summene til de varesporingsnumrene som du definerer på siden. Antallene må samsvare med dem som finnes i dokumentlinjen, som er markert med en 0 i **Udefinert**-feltene.  
 
 Når dokumentet bokføres, overføres varesporingspostene til de tilhørende varepostene.
 
@@ -149,7 +149,7 @@ Det finnes to måter å legge til serie- og partinumre i utgående transaksjoner
 -   Velge mellom eksisterende serie- eller partinumre. Dette er aktuelt når det allerede er tilordnet varesporingsnumre ved en inngående transaksjon. Hvis du vil ha mer informasjon, kan du se "Slik velger du fra eksisterende serienumre og partinumre".
 -   Tilordne nye serie- eller partinumre ved utgående transaksjoner. Dette gjelder når varesporingsnumrene ikke tilordnes varer før de er solgt og klar for levering.  
 
-De ulike reglene for varesporingsnumre konfigureres i vinduet **Kort for varesporingskode**.  
+De ulike reglene for varesporingsnumre konfigureres på siden **Kort for varesporingskode**.  
 
 > [!NOTE]  
 >  Hvis du vil tilordne varesporingsnumre i lageraktiviteter, må det være merket av for **Lagers.nr. - sporing** og **Lagerparti - sporing** på kortet for varesporingskode for varen.    
@@ -167,7 +167,7 @@ De ulike reglene for varesporingsnumre konfigureres i vinduet **Kort for varespo
 3.  Velg feltet **Opprett nytt partinr.** hvis du vil samle de nye serienumrene i et parti.  
 4.  Velg **OK**-knappen for å opprette et partinummer og nye serienumre i henhold til vareantallet på den aktuelle dokumentlinjen.  
 
-Matrisen over antallsfelt øverst gir en dynamisk oversikt over antallene og summene til de varesporingsnumrene som du definerer i vinduet. Antallene må korrespondere med de som finnes i dokumentlinjen, som er markert med en **0** i **Udefinert**-feltene.  
+Matrisen over antallsfelt øverst gir en dynamisk oversikt over antallene og summene til de varesporingsnumrene som du definerer på siden. Antallene må korrespondere med de som finnes i dokumentlinjen, som er markert med en **0** i **Udefinert**-feltene.  
 
 Når dokumentet bokføres, overføres varesporingspostene til de tilhørende varepostene.  
 
@@ -181,34 +181,34 @@ Når du arbeider med varer som krever varesporing, og du oppretter utgående tra
 
 1.  Merk linjen du vil velge serie- eller partinumre for, i et utgående dokument.  
 2.  På hurtigfanen **Linjer** velger du **Handlinger**, velger **Linje** eller **Vare** og velger deretter **Varesporingslinjer**.  
-3.  I vinduet **Varesporingslinjer** har du tre alternativer for å angi parti- eller serienummer:  
+3.  På siden **Varesporingslinjer** har du tre alternativer for å angi parti- eller serienummer:  
 
-    -   Velg feltet **Partinr.** eller **Serienr.**, og velg et nummer i vinduet **Varesporingssummering**.  
-    -   Velg handlingen **Velg poster**. **Velg poster**-vinduet inneholder alle parti- eller serienumre sammen med tilgjengelighetsinformasjon.
+    -   Velg feltet **Partinr.** eller **Serienr.**, og velg et nummer fra siden **Varesporingssummering**.  
+    -   Velg handlingen **Velg poster**. **Velg poster**-siden inneholder alle parti- eller serienumre sammen med tilgjengelighetsinformasjon.
 
 4. I **Valgt antall**-feltet angir du antallet for hvert parti- eller serienummer du vil bruke.   
-5. Velg **OK**-knappen. Den valgte varesporingsinformasjonen overføres til vinduet **Varesporingslinjer**.  
+5. Velg **OK**-knappen. Den valgte varesporingsinformasjonen overføres til siden **Varesporingslinjer**.  
 6. Skriv eller skann inn varesporingsnummeret.
 
-Matrisen over antallsfelt i hodet gir en dynamisk oversikt over antall og summer til de varesporingsnumrene som du definerer i vinduet. Antallene må korrespondere med de som finnes i dokumentlinjen, som er markert med en **0** i **Udefinert**-feltene.  
+Matrisen over antallsfelt i hodet gir en dynamisk oversikt over antallene og summene til de varesporingsnumrene som du definerer på siden. Antallene må korrespondere med de som finnes i dokumentlinjen, som er markert med en **0** i **Udefinert**-feltene.  
 
  Når du bokfører dokumentlinjen, overføres varesporingsinformasjonen til de tilhørende varepostene.
 
 ## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Slik håndterer du serie- og partinumre på overføringsordrer  
 Framgangsmåten for håndteringen av serie- og partinumre som overføres mellom ulike lokasjoner, er omtrent den samme som for kjøp og salg av varer.  
 
-Imidlertid er overføringsordren unik på den måten at både levering og mottak gjøres fra samme overføringslinje og derfor bruker samme forekomst av vinduet **Varesporingslinjer**. Dette betyr at varesporingsnumrene som leveres fra en lokasjon, må mottas uendret på den andre lokasjonen.  
+Imidlertid er overføringsordren unik på den måten at både levering og mottak gjøres fra samme overføringslinje og derfor bruker samme kjøring av siden **Varesporingslinjer**. Dette betyr at varesporingsnumrene som leveres fra en lokasjon, må mottas uendret på den andre lokasjonen.  
 
  Det er oppsettet av tabellen  **Varesporingskode** som angir hvordan selskapet håndterer varesporingsnumre.    
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne overføringsordren du vil behandle. På hurtigfanen **Linjer** velger du **Linje**, velger **Varesporingslinjer** og velger deretter **Levering**.  
-3.  I vinduet **Varesporingslinjer** tilordner eller velger du serie- eller partinumre som for en hvilken som helst annen utgående varetransaksjon.  
+3.  På siden **Varesporingslinjer** tilordner du eller velger serie-/partinumre som for en hvilken som helst annen utgående varetransaksjon.  
 
     Når du håndterer serie- og partinumre for overføringsvarer, er varene oftest allerede tilordnet numre. Derfor er det mest vanlig å velge mellom serie- eller partinumre som allerede er opprettet.  
 
 4.  Bokfør overføringsordren, først levering og deretter mottak, slik at varene overføres med riktige varesporingsposter.  
 
-Under overføringen er vinduet **Varesporingslinjer** skrivebeskyttet.  
+Under overføringen er siden **Varesporingslinjer** skrivebeskyttet.  
 
 ## <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Slik håndterer du serie- og partinumre ved henting av mottakslinjer fra en kjøpsfaktura  
 Når du bruker funksjonalitet for å hente bokførte mottaks- eller leveringslinjer fra relaterte fakturaer eller kreditnotaer, overføres alle varesporingslinjer i lagerdokumentene automatisk, men de blir behandlet på en spesiell måte.
@@ -221,14 +221,14 @@ Funksjonen støtter følgende utgående prosesser:
 -   **Hent følgeseddellinje** - fra en salgsfaktura eller samlede følgesedler.  
 -   **Hent returseddellinjer** - fra en salgskreditnota.  
 
-I disse tilfellene kopieres de eksisterende varesporingslinjene automatisk til fakturaen eller kreditnotaen, men vinduet **Varesporingslinjer** tillater ikke endringer i serie- eller partinumre. Det er bare antallene som kan endres.  
+I disse tilfellene kopieres de eksisterende varesporingslinjene automatisk til fakturaen eller kreditnotaen, men siden **Varesporingslinjer** tillater ikke endringer i serie- eller partinumre. Det er bare antallene som kan endres.  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2.  Åpne en kjøpsfaktura for varene som er kjøp med serie- eller partinumre.  
 3.  Velg **Hent mottakslinjer** på hurtigfanen **Linjer** fra en kjøpsfakturalinje.  
-4.  Velg mottakslinjer som har varesporingslinjer, i vinduet **Hent mottakslinjer**, og klikk deretter **OK**.  
+4.  Velg mottakslinjer som har varesporingslinjer, på siden **Hent mottakslinjer**, og klikk deretter **OK**.  
 
-    Kildedokumentet kopieres til kjøpsfakturaen som en ny linje, og varesporingslinjene i dokumentet kopieres til det underliggende vinduet **Varesporingslinjer**.  
+    Kildedokumentet kopieres til kjøpsfakturaen som en ny linje, og varesporingslinjene i dokumentet kopieres til den underliggende siden **Varesporingslinjer**.  
 
 5.  Velg den overførte mottakslinjen i kjøpsfakturaen.  
 6.  På hurtigfanen **Linjer** velger du **Linje** og deretter **Varesporingslinjer** for å se de overførte varesporingslinjene.  
@@ -254,9 +254,9 @@ Innholdet i feltene **Serienr.** og **Partinr.** kan ikke redigeres. Du kan imid
 
 6.  Hvis du har eksisterende informasjon for det gamle serie- eller partinummeret, kan du kopiere den til det nye serie- eller partinummeret.  
 
-    1.  I vinduet **Varesporingslinjer** velger du **Ny informasjon om serienummer** eller **Ny informasjon om partinummer**.  
+    1.  På siden **Varesporingslinjer** velger du **Ny informasjon om serienummer** eller **Ny informasjon om partinummer**.  
     2.  Hvis du vil kopiere informasjon fra det gamle parti- eller serienummeret, velger du **Kopier informasjon**.  
-    3.  Velg parti- eller serienummeret som du vil kopiere fra, i vinduet for informasjonsoversikt, og velg **OK**-knappen.  
+    3.  Velg parti- eller serienummeret som du vil kopiere fra, på siden for informasjonsoversikt, og velg **OK**-knappen.  
 
 7.  Hvis du vil endre den eksisterende informasjonen for parti- eller serienummeret, kan du registrere parti- eller serienummerinformasjon.  
 8.  Bokfør kladden for å knytte de nye varesporingsnumrene eller utløpsdatoene til den tilhørende vareposten

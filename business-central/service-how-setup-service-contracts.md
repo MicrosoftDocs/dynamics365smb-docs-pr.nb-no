@@ -13,10 +13,10 @@ ms.search.keywords: service, cost, service order
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 35dcecb6b3510101026202cb6548aa936d74b25c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a965721aef3769aa1e794c0edb9ffa48faf99541
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -45,7 +45,7 @@ Før du kan arbeide med kontrakter må du definere følgende:
 2. Opprett en ny servicekontraktmal.  
 3. I feltet **Nr.** -feltet angir du et nummer for kontraktmalen.  
   
-     Hvis du har definert en nummerserie for kontraktmaler i vinduet **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige kontraktmalnummeret. Fyll eventuelt ut de andre feltene.  
+     Hvis du har definert en nummerserie for kontraktmaler på siden **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige kontraktmalnummeret. Fyll eventuelt ut de andre feltene.  
   
 4. I hurtigfanen **Faktura** fyller du ut feltet **Serv.kontr.kontogrp. - kode**, **Fakturaperiode** og så videre. Fyll eventuelt ut de andre feltene.  
 5. Velg handlingen **Servicerabatter** for å legge til kontraktrabatter.  

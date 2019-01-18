@@ -11,39 +11,20 @@ ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f5c679a962b8eab2742c5224ea86c7329c4a2a09
+ms.sourcegitcommit: 400865a0e94ea04c534a56fcb25eb8dc039411e1
+ms.openlocfilehash: 39c32033f377654abda42dedff4a0a2edafa6621
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
-# <a name="pc-keyboard-shortcuts-quick-reference"></a>Hurtigreferanse for tastatursnarveier for PC
+# <a name="keyboard-shortcuts-quick-reference"></a>Hurtigreferanse for tastatursnarveier
 
-
-|||||  
-|----------------|-----------|----------------|-----------|    
-|**Generelt**||**Navigere og velge rader**||
-|Alt+Q|Åpne **Fortell hva du vil gjøre**|Ctrl+A|Merke alt|
-|Tab|Flytte fokus til neste kontroll|Home/End|Gå til første/siste felt|
-|Skift+TAB|Flytte fokus til forrige kontroll|Ctrl+Home/End|Gå til første/siste rad|   
-|Alt+Pil ned|Åpne en rullegardinmeny eller slå opp|Ctrl+Opp/Ned|Navigere uten å tape merkingen|
-|Alt + Pil høyre|Se transaksjonene for beregnet verdi|Ctrl+Mellomrom|Radvalg på/av| 
-|ESC|Lukk gjeldende side eller rullegardinliste.|Skift+Ctrl+Home/End|Utvider valget til første/siste rad| 
-|||Ctrl+Enter|Fokuserer ut fra listen|
-|||||
-|**Kopiere og lime inn**||**Søke, filtrere og sortere**||
-|Ctrl+A|Merke alt|F3|Slå søk på/av|
-|Ctrl+Home/End|Velge den første/siste raden i listen|Shift+F3|Vise/skjule filtreringsruten. fokusere på feltfiltre|
-|Home/End|Gå til første/siste felt|Ctrl+Shift+F3|Vise/skjule totalfiltre: fokusere på totalfiltre|
-|Ctrl+Skift+Klikk|Legge til raden(e) i utvalget |Alt+F3|Filtrere på den valgte celleverdien|
-|Ctrl+Opp/Ned|Flytte fokus til raden over/under|Shift+Alt+F3|Legg til filter for valgt felt|
-|Ctrl+Mellomrom|Utvide valget for å inkludere raden med fokus|Ctrl+Alt+Skift+F3|Tilbakestill filtre|
-|Skift+Opp/Ned|Legge til rad over/under utvalget|**Forhåndsvisning av rapport**||
-|Skift+Page Up/Down|Legge til alle synlige rader over/under utvalget|Opp/Ned|Rulle opp og ned på siden
-|Ctrl+C|Kopiere rader|Høyre/Venstre|Bla til høyre/venstre |
-|Ctrl+V|Lime inn radene|Ctrl + 0 (null)|Tilpasse side i vindu |
-|F8|Kopiere feltet over til gjeldende rad|Ctrl+Home/End|Gå til den første/siste siden|
-|||Page Up/Down|Gå til den forrige/neste siden|
-
+||||  
+|----------------|-----------|----------------| 
+|**Generelt**|Alt+Q<br />ALT+OPP<br />Tab<br />Skift+TAB<br />Alt+Pil ned<br />Alt + Pil høyre<br />F5/Ctrl+F5<br />ESC|Åpne **Fortell meg**<br />Åpne verktøytips eller valideringsfeil<br />Flytte fokus til neste kontroll<br />Flytte fokus til forrige kontroll<br />Åpne en rullegardinmeny eller slå opp<br />Se transaksjonene for beregnet verdi<br />Oppdatere / laste inn side på nytt<br />Lukk gjeldende side eller rullegardinliste.|
+|**Navigere og velge rader**| Home/End<br />Ctrl+Home/End <br />Ctrl+Opp/Ned<br />Ctrl+A <br />Ctrl+Mellomrom<br />Ctrl+Skift+Klikk<br />Ctrl+Skift+Home/End<br />Skift+Opp/Ned<br />Skift+Page Up/Down<br />Ctrl+Enter| Gå til første/siste felt<br />Gå til første/siste rad<br />Navigere uten å tape merkingen<br />Merke alt<br />Radvalg på/av<br /> Legge til raden(e) i utvalget<br />Utvider valget til første/siste rad<br />Legge til rad over/under utvalget<br />Legge til alle synlige rader over/under i utvalget<br />Fokuserer ut fra listen|
+|**Kopiere og lime inn**|Ctrl+C<br />Ctrl+V<br />F8|Kopiere rader<br />Lim inn rader<br />Kopiere feltet over til gjeldende rad|
+|**Søke, filtrere og sortere**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Skift+F3|Slå søk på/av<br />Vise/skjule filtreringsruten. fokusere på feltfiltre<br />Vise/skjule filtreringsruten; fokusere på totalfiltre<br />Filtrere på den valgte celleverdien<br />Legg til filter for valgt felt<br />Tilbakestill filtre|
+|**Forhåndsvisning av rapport**|Opp/Ned<br />Høyre/Venstre<br />Ctrl+Home/End<br />Page Up/Down|Rulle opp og ned på siden<br />Bla til høyre/venstre <br />Gå til den første/siste siden<br />Gå til den forrige/neste siden|
 

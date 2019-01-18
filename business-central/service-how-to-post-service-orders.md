@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2b62ab8062c5c93bbf67b6949397d18556b8cf78
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a6554708a40b50275a88a0c414be51cc99ccda85
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokføre serviceordrer og kreditnotaer
@@ -28,7 +28,7 @@ Hvis du har en stort antall serviceordrer, kan du spare tid ved å bruke en kjø
 > Før du bokfører et servicedokument, er det lurt å bruke handlingen **Kontrollrapport** for å søke etter alle feil eller manglende opplysninger. Hvis det oppstår feil, må du løse problemet. Du kan skrive ut en ny kontrollrapport for å kontrollere løsningen og deretter bokføre dokumentet.
   
 ## <a name="to-post-a-service-order"></a>Slik bokfører du en serviceordre    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. I vinduet **Serviceordre** velger du én av handlingene nedenfor.  
   
@@ -91,13 +91,13 @@ Når du har angitt detaljene for en service, kan du justere og bokføre antall b
   
 Følgende fremgangsmåte viser hvordan du bokfører levering av servicelinjevarer på lokasjoner som ikke er definert slik at lagerhåndtering kreves.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordre**, og velg deretter den relaterte koblingen. 2. I vinduet for den valgte serviceordren velger du **Handlinger**, **Ordre**, **Servicelinjer**.  
-3. Finn de nødvendige postene i **Servicelinjer**-vinduet, og angi antallet som skal bokføres, i feltet **Levere (antall)**.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordre**, og velg deretter den relaterte koblingen. 2. På siden for den valgte serviceordren velger du **Handlinger**, **Ordre**, **Servicelinjer**.  
+3. Finn de nødvendige postene på siden **Servicelinjer**, og angi antallet som skal bokføres, i feltet **Levere (antall)**.  
   
    > [!NOTE]  
    >  Verdien for antall som skal leveres, avhenger av om du vil bokføre leveringen fullstendig eller delvis. Hvis du velger å levere fullstendig, må verdien i feltet **Levere (antall)** være lik verdien i **Antall**-feltet. Når du bokfører en dellevering, må du angi antallet du vil levere innledningsvis. Hvis du allerede har levert deler av servicen i ordren, må du notere deg verdien i feltet **Levert (antall)**. Du kan ikke angi et antall i feltet **Levere (antall)** som er høyere enn antall enheter som ennå ikke er levert.  
   
-4. Velg **Handlinger**, **Bokføring** og **Bokfør**. Velg **Levere** i vinduet som vises.  
+4. Velg **Handlinger**, **Bokføring** og **Bokfør**. Velg **Levere** på siden som vises.  
   
 [!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter poster (i garantiposten, vareposten, serviceposten eller Finans). I tillegg produseres det bokførte servicefølgeseddeldokumentet, og relevante felt i servicelinjene i serviceordren oppdateres.  
   

@@ -11,10 +11,10 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 34262b070ea19b5f109c9194d6a91ef048132e6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 319a59c865b7883cf7de5c35d9ebce5c30de0f76
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Definere salgssykluser for salgsmuligheter og syklusfaser
@@ -25,13 +25,13 @@ Implementering av salgssykluser for salgsmulighet innebærer å definere salgssy
 Dette emnet beskriver også hvordan du definerer oppgaver og aktiviteter, og hvordan du tilordner oppgaver til aktiviteter. Hvis du vil ha mer informasjon, kan du se delen «Definere aktiviteter med oppgaver».
 
 ## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Definere salgssykluskoder for salgsmuligheter
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgssykluser**, og velg deretter den relaterte koblingen. Vinduet **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgssykluser**, og velg deretter den relaterte koblingen. Siden **Salgssykluser** åpnes, og det viser alle eksisterende salgssykluser.
 2. Velg handlingen **Ny**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gjenta disse trinnene for å konfigurere så mange salgssykluser som du vil. Etter at du har definert salgssykluser for salgsmuligheter, bør du definere ulike faser i hver enkelt syklus.
 
 ## <a name="to-define-opportunity-sales-cycle-stages"></a>Definere salgssyklusfaser for salgsmulighet
-1. I vinduet **Salgssykluser** velger du salgssyklusen for salgsmuligheten du vil definere faser for, og deretter velger du handlingen **Faser**. Vinduet **Salgssyklusfaser** åpnes.
+1. På siden **Salgssykluser** velger du salgssyklusen for salgsmuligheten du vil definere faser for, og deretter velger du handlingen **Faser**. Siden **Salgssyklusfaser** åpnes.
 2. Velg handlingen **Ny** for å angi en ny fase i salgssyklusen.
 
 Gjenta disse trinnene hvis du vil definere flere faser i salgssyklusen.
@@ -54,13 +54,13 @@ Når du har definert en oppgave, kan du tilordne den til en salgsmulighet og der
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsmuligheter**, og velg deretter den relaterte koblingen.
 2. Velg en salgsmulighet, og velg deretter handlingen **Oppgaver**.
-3. I vinduet **Oppgaveliste** velger du handlingen **Opprett oppgave**.
-4.  Fyll ut feltene etter behov i vinduet **Opprett oppgave**.
+3. På siden **Oppgaveliste** velger du handlingen **Opprett oppgave**.
+4.  Fyll ut feltene etter behov på siden **Opprett oppgave**.
 
     Legg merke til at feltet **Salgsmulighet** tilordnes automatisk til den aktuelle salgsmuligheten.
 5. Velg **OK**.
-6. I vinduet **Oppgaveliste** velger du en ny oppgave, og deretter velger du handlingen **Tilordne aktiviteter**.
-7. I vinduet **Tilordne aktivitet** fyller du ut feltene etter behov, og deretter velger du **OK**.
+6. På siden **Oppgaveliste** velger du en ny oppgave, og deretter velger du handlingen **Tilordne aktiviteter**.
+7. På siden **Tilordne aktivitet** fyller du ut feltene etter behov, og deretter velger du **OK**.
 
 ## <a name="see-also"></a>Se også
 [Behandle salgsmuligheter](marketing-processing-sales-opportunities.md)  

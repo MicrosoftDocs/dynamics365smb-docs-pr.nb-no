@@ -13,10 +13,10 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: dac33cefa38e82c1fa34d1f8eeeffbfad7518ab4
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e2a7c5f34471bb76aed708d6a6e4ff36feaf39c7
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruke varegebyr til å gjøre rede for ekstra handelskostnader
@@ -41,7 +41,7 @@ Du kan tilordne et varegebyr på to måter for både kjøps- og salgsdokumenter:
 Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr som brukes i selskapet.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varegebyr**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Ny** i **Varegebyr**-vinduet for å opprette en ny linje.
+2. Velg handlingen **Ny** på **Varegebyr**-siden for å opprette en ny linje.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr direkte til kjøpsfakturaen for varen
@@ -58,9 +58,9 @@ Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du
     I fremgangsmåten nedenfor skal du utføre den faktiske tilordningen. Før varegebyret er fullstendig tilordnet, vises verdien i feltet **Ant. som skal tilordnes** i rød skrift.
 8. I **Linjer**-fanen velger du handlingen **Varegebyrtilordning**.
 
-    Vinduet **Varegebyrtilordning** åpnes, der én linje vises for hver linje av typen Vare på kjøpsfakturaen. Hvis du vil tilordne varegebyret til én eller flere fakturalinjer, kan du bruke en funksjon som tilordner og distribuerer den for deg, eller du kan fylle ut feltet **Ant. som skal tilordnes** manuelt. Fremgangsmåten nedenfor beskriver hvordan du bruker funksjonen Foreslå varegebyrtilordning.
+    Siden **Varegebyrtilordning** åpnes, der én linje vises for hver linje av typen Vare på kjøpsfakturaen. Hvis du vil tilordne varegebyret til én eller flere fakturalinjer, kan du bruke en funksjon som tilordner og distribuerer den for deg, eller du kan fylle ut feltet **Ant. som skal tilordnes** manuelt. Fremgangsmåten nedenfor beskriver hvordan du bruker funksjonen Foreslå varegebyrtilordning.
 
-9. I vinduet **Varegebyrtilordning** velger du handlingen **Foreslå varegebyrtilordning**.
+9. På siden **Varegebyrtilordning** velger du handlingen **Foreslå varegebyrtilordning**.
 10. Hvis det er flere fakturalinjer av typen Vare, velger du ett av de fire distribusjonsalternativene.  
 
 Hvis varegebyret er fullstendig tilordnet, er verdien i feltet **Ant. som skal tilordnes** på kjøpsfakturaen null.
@@ -70,8 +70,8 @@ Varegebyret er nå tilordnet til kjøpsfakturaen. Når du bokfører mottaket av 
 ## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr fra en separat faktura til kjøpsfakturaen for varen
 Hvis du mottar en faktura for varegebyret etter at du har bokført det opprinnelige kjøpsmottaket, følger du denne fremgangsmåten.
 1. Gjenta trinn 1 til og med 8 i delen «Tilordne et varegebyr direkte til kjøpsfakturaen for varen».
-2. I vinduet **Varegebyrtilordning** velger du handlingen **Hent mottakslinjer**.
-3. I vinduet **Mottakslinjer** velger du det bokførte kjøpsmottaket for varen du vil tilordne varegebyret til, og deretter velger du **OK**.
+2. På siden **Varegebyrtilordning** velger du handlingen **Hent mottakslinjer**.
+3. På siden **Mottakslinjer** velger du det bokførte kjøpsmottaket for varen du vil tilordne varegebyret til, og deretter velger du **OK**.
 4. Velg handlingen **Foreslå varegebyrtilordning**.
 
 Varegebyret på den separate kjøpsfakturaen er nå tilordnet til varen på det bokførte kjøpsmottaket og oppdaterer derved lagerverdien for varen med varegebyrkostnaden.

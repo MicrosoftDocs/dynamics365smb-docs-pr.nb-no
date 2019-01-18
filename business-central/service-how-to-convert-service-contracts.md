@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ac8340eae21d4af2ad8853c1e6412f410953480c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3c34f2b456df88b043b7b90a739f363b892dd48d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter som inkluderer mva-beløp
@@ -49,7 +49,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter en kreditnota som bare i
 ### <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Slik oppretter du kontraktutløpsdatoer i kontraktlinjer:  
 Følgende fremgangsmåte beskriver hvordan du oppretter nye kontrakter ved å arbeide med kontraktenes utløpsdatoer på servicekontraktlinjer.  
 
-1. Angi **30.06.2017** for utløpsdatoen for kontrakten i **Servicekontakt**-vinduet.  
+1. Angi **30.06.2017** for utløpsdatoen for kontrakten på siden **Servicekontakt**.  
 2. Velg handlingen **Opprett kreditnota** for å automatisk opprette en kreditnota for juli 2017 til desember 2017.  
 3. Siden kontrakten er utløpt, må du opprette en ny kontrakt for perioden med den nye mva-satsen for 1. juli 2017 til 31. desember 2017.  
 
@@ -59,7 +59,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter en ny kreditnota ved hje
 1. Kjør verktøyet for endring av mva-sats 1. juli 2017. Varebokføringsgruppen eller mva-varebokføringsgruppen endrets. Hvis du vil ha mer informasjon, kan du se [Arbeide med mva på kjøp og salg](finance-work-with-vat.md).  
 2. Når du har kjørt verktøyet for endring av mva-satsen, angir du en utløpsdato for servicekontrakten. Du kan nå slette servicekontraktlinjen og opprette en ny linje som er identisk med den gamle.  
 3. Opprett en ny faktura for perioden januar 2017 til desember 2012 ved hjelp av den nye mva-satsen.  
-4. Hvis du vil opprette en annen kreditnota, velger du vinduet **Salgskreditnotaer (service)** og **Ny** for å opprette en ny salgskreditnota (service).  
+4. Hvis du vil opprette en annen kreditnota, velger du siden **Salgskreditnotaer (service)** og **Ny** for å opprette en ny salgskreditnota (service).  
 5. Velg handlingen **Hent forh.bet. kontraktposter**.  
 6. Når konverteringen er fullført, vil MVA-poster og serviceposter være riktige.  
 

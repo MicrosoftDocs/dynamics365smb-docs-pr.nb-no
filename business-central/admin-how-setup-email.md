@@ -12,14 +12,14 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5bede56db06b7bac991f3f910c11e1dae61c7463
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
-Å sende og motta e-postmeldinger fra i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene i den **Oppsett for SMTP-e-post** vindu.
+Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene på **Oppsett for SMTP-e-post**-siden.
 
 > [!NOTE]  
 >   I stedet for å skrive inn detaljene for SMTP-server, kan du bruke en funksjon til å angi dem med informasjon fra Office 365-abonnementet.
@@ -31,7 +31,7 @@ Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den **
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan også velge handlingen **Bruk Office 365-serverinnstillinger** for å sette inn informasjon som allerede er definert for Office 365-abonnementet.
 4. Når alle feltene er fylt ut riktig, velger du **Test e-postoppsett**.
-5. Når testen er vellykket, lukker du vinduet.
+5. Når testen er vellykket, lukker du siden.
 
 ## <a name="see-also"></a>Se også  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

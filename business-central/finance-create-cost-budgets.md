@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a107203cf81b149b920944db1fabace6e434221a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4c50c2b6a81eccfe07d41c2527547b7694aca4e7
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
@@ -24,14 +24,14 @@ Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett 
 
 Et kostnadsbudsjett opprettes for en bestemt tidsperiode, for eksempel et regnskapsår. Du kan opprette så mange kostbudsjetter som nødvendig. Du kan opprette et nytt kostbudsjett manuelt, ved å importere et kostbudsjett eller ved å kopiere et eksisterende kostbudsjett som grunnlag for budsjettet. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-Du kan bruke følgende vinduer til å opprette og analysere kostbudsjetter. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre ikonet") for å finne et vindu, og les deretter verktøytipset for hvert vindu.
+Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre ikonet") for å finne en side, og les deretter verktøytipset for hvert vindu.
 
 |Til|Se|  
 |--------|---------|  
 |Overfør budsjetter fra finans.|Kjørselen **Kopier finansbudsjett til kostregnskap**|  
 |Kopier kostbudsjetter.|Kjørselen **Kopier kostbudsjett**|  
-|Tildele budsjetter.|Vinduet **Kostfordeling**|  
-|Se kostbudsjettjournaler og kostbudsjettposter.|Vinduet **Kostbudsjettjournaler**|  
+|Tildele budsjetter.|Siden **Kostfordeling**|  
+|Se kostbudsjettjournaler og kostbudsjettposter.|Siden **Kostbudsjettjournaler**|  
 |Skrive ut budsjettsammenligninger ved hjelp av ulike rapporter.|Rapporten **Kostregnskap – saldo/budsjett**<br /><br /> Rapporten **Kostregnskap – utdrag/budsjett**<br /><br /> Rapporten **Kostbudsjett etter kostsenter**<br /><br /> Rapporten **Kostbudsjett etter kostobjekt**|  
 
 ## <a name="see-also"></a>Se også  

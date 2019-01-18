@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 420aac30c9b9a76c8874e6697cfa0e105bb1744a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b09a740ccd0054418c597285ebe65827827ad9de
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
@@ -26,9 +26,9 @@ Du kan ikke opprette et lagerplukkdokument fra grunnen av fordi en plukkaktivite
 
 Du kan opprette lagerplukkdokumenter på en hentemåte ved å åpne et tomt lagerleveringsdokument, finne kildedokumenter som er frigitt for levering og deretter opprette lagerplukklinjer for disse leveringene. Du kan bruke funksjonene **Hent kildedokumenter** eller **Bruk filter til å hente kildedokumenter** for å finne kildedokumenter som er klare for levering.
 
-Du kan også bruke vinduet **Plukkforslag** til å hente og opprette plukklinjer i satsvis modus. Hvis du vil ha mer informasjon, kan du se [Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)  
+Du kan også bruke siden **Plukkforslag** til å hente og opprette plukklinjer i satsvis modus. Hvis du vil ha mer informasjon, kan du se [Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)  
 
-Du kan også opprette lagerplukkdokumenter på en push-måte i vinduet **Lagerlevering** ved å velge **Opprett plukk**.  
+Du kan også opprette lagerplukkdokumenter på en push-måte på siden **Lagerlevering** ved å velge **Opprett plukk**.  
 
 > [!NOTE]  
 >  Plukking for lagerlevering av varer som er montert til ordren som leveres følger samme fremgangsmåte som for vanlig lagerplukking for levering, som beskrevet i dette emnet. Antall plukklinjer per antall som skal leveres, kan imidlertid være mange til én fordi du plukker komponentene, ikke monteringsvaren.  
@@ -52,7 +52,7 @@ Du kan også opprette lagerplukkdokumenter på en push-måte i vinduet **Lagerle
 
 4.  Når du har utført plukkingen og plassert varene i leveringsområdet eller leveringshyllen, velger du **Registrer plukk**-handlingen.  
 
-Personen som er ansvarlig for leveringen, kan nå hente varene til leveringssonen og bokføre leveringen, inkludert det relaterte kildedokumentet, i vinduet **Lagerlevering**. Hvis du vil ha mer informasjon, kan du se [Levere varer](warehouse-how-ship-items.md).   
+Personen som er ansvarlig for leveringen, kan nå hente varene til leveringssonen og bokføre leveringen, inkludert det relaterte kildedokumentet, på siden **Lagerlevering**. Hvis du vil ha mer informasjon, kan du se [Levere varer](warehouse-how-ship-items.md).   
 
 I tillegg til å plukke for kildedokumenter, som beskrives i dette emnet, kan du hente og plassere varer mellom hyller uten å referere til kildedokumenter. Hvis du vil ha mer informasjon, kan du se [Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
@@ -63,7 +63,7 @@ Når det gjelder andre lagerfølgeseddellinjer, er verdien i feltet **Levere (an
 
 Når medarbeidere som er ansvarlige for montering, er ferdige med monteringen av deler av eller hele montere-til-ordre-antallet, registrerer de dette i feltet **Levere (antall)** på lagerleveringslinjen, og velger deretter handlingen **Bokfør følgeseddel**. Resultatet er at den tilsvarende monteringsavgangen bokføres, inkludert komponentforbruket. En følgeseddel for antallet som er postert for salgsordren.
 
-Fra monteringsordren kan du velge **Monter til ordre – lagerfølgeseddellinje** for å få tilgang til lagerfølgeseddellinjen. Dette er praktisk for medarbeidere som vanligvis ikke bruker vinduet **Lagerlevering**.
+Fra monteringsordren kan du velge **Monter til ordre – lagerfølgeseddellinje** for å få tilgang til lagerfølgeseddellinjen. Dette er praktisk for medarbeidere som vanligvis ikke bruker siden **Lagerlevering**.
 
 Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen for å vise fremdrift i lageret. Følgende felt oppdateres også for å vise hvor mange montere-til-ordre-antall som foreløpig ikke er montert og levert:
 

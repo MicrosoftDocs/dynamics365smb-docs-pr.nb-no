@@ -1,22 +1,17 @@
 ---
 title: Norske mva-koder
-description: I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder..
-services: project-madeira
-documentationcenter: 
+description: I den norske versjonen av Business Central kan mva-behandlingsinformasjon enkelt defineres ved hjelp av standard norske mva-koder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 42c9149b1fd2720f7d3e7a1c67b7b5028244ba2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 6cb6c1df97113ffc093363828c927c3fa9f8a471
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
@@ -38,7 +33,7 @@ Vanligvis angir du feltet **Mva-bokf.gruppe - firma** og **Mva-bokf.gruppe - var
 Hvis du bare ønsker å bruke **Mva-kode**-feltet når du angir mva-behandlingen, kan du tilordne en mva-kode i **Mva-bokføringsoppsett**-tabellen, og bruke denne koden i stedet for bokføringsgruppefeltene. Mva-koden kan brukes som en snarvei i **Mva-bokføringsoppsett**-tabellen, og du kan bruke norske standard mva-koder samtidig,.  
 
 ## <a name="set-up-of-norwegian-vat-codes"></a>Definere norske mva-koder  
-Du må opprette norske mva-koder i **Mva-koder**-vinduet. Deretter tilordner du mva-kodene i **Mva-bokføringsoppsett**-tabellen ved hjelp av **Mva-kode**-feltet. Hvis du vil ha mer informasjon, kan du se [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md).  
+Du må opprette norske mva-koder på **Mva-koder**-siden. Deretter tilordner du mva-kodene i **Mva-bokføringsoppsett**-tabellen ved hjelp av **Mva-kode**-feltet. Hvis du vil ha mer informasjon, kan du se [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md).  
 
 ## <a name="use-of-vat-codes"></a>Bruk av mva-koder  
 Når du angir en mva-kode, kan du velge informasjonen for mva-bokføringsoppsett for denne koden. Denne informasjonen brukes i kladder eller på dokumentlinjer når du angir mva-oppsettsinformasjonen. Hvis du bruker mva-koden i disse tilfellene, brukes bokføringsgruppefeltene med opplysningene fra tilsvarende opplysninger for mva-bokføringsoppsett.  

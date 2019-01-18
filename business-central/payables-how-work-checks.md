@@ -11,10 +11,10 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 572831f99559a65c490dcb93e13fba3bdfc57688
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4dd8f50f4d7767cb70b53a16009b86f135a5f5c6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
@@ -42,7 +42,7 @@ Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten 
 3. I feltet **Betalingsmåte - kode** velger du **Sjekk**.
 4. I feltet **Bankbetalingstype** velger du **Maskinell sjekk**.
 5. Velg **Skriv ut sjekk**-handlingen.
-6. Fyll ut feltene etter behov i vinduet **Sjekk**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Fyll ut feltene etter behov på siden **Sjekk**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velg **Send til**-knappen, velg **PDF-dokument**, og velg deretter **OK**-knappen.
 
     De fysiske sjekkene kan nå flyttes til banken for behandling. Fortsett med å bokføre betalingen som utlignet til leverandøren, og dermed betalt i systemet.
@@ -54,16 +54,16 @@ Fullstendig utlignede leverandørposter og bankposter opprettes.
 > Hvis du vil skrive ut og betale sjekker i flere valutaer fra forskjellige bankkonti, må du utføre kjørselen **Skriv ut sjekk** separat for hver enkelt valuta og angi riktig bankkonto.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Kansellere utskrevne sjekker som ikke er bokført
-Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av handlingen **Kanseller sjekk** i vinduet **Betalingskladd**.
+Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av handlingen **Kanseller sjekk** på siden **Betalingskladd**.
 
-1. I vinduet **Betalingskladd** velger du **Kanseller sjekk**, og deretter velger du hvilke sjekker som skal kanselleres.
+1. På siden **Betalingskladd** velger du **Kanseller sjekk**, og deretter velger du hvilke sjekker som skal kanselleres.
 
 ## <a name="to-void-checks"></a>Kansellere sjekker
 Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de resulterende bankpostene.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg relevant bankkonto, velg handlingene **Rediger** og **Sjekkposter**.
-3. I vinduet **Sjekkposter** velger du handlingen **Kanseller sjekk**.
+3. På siden **Sjekkposter** velger du handlingen **Kanseller sjekk**.
 4. Merk av for **Kanseller sjekk**.
 5. Velg **OK**.
 

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f6ef554270c9e2bdef8074b65ba6e3f0de4bd45c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
@@ -29,12 +29,12 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 > [!NOTE]  
 >  Uansett hvilken status feltet **Bruk plasseringsforslag** på lokasjonskortet har, kan du alltid få plasseringsforslagslinjer, det vil si bokførte mottakslinjer, til plasseringsforslaget ved å gjøre følgende:  
 >   
->  1.  I vinduet **Plassering** trykker du CTRL+D for å slette hele plasseringsinstruksjonen, eller du velger linjene som du vil behandle i forslaget, og sletter dem.  
+>  1.  På siden **Plassering** trykker du CTRL+D for å slette hele plasseringsinstruksjonen, eller du velger linjene som du vil behandle i forslaget, og sletter dem.  
 > 2.  Fortsett med prosessen i så mange plasseringer som du ønsker, til du har slettet de linjene du vil arbeide med i forslaget. Velg deretter på **Plasseringsforslag** og fortsett med planleggingen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Slik planlegger du instruksjoner i plasseringsforslaget  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plasseringsforslag**, og velg deretter den relaterte koblingen.  
-2.  Velg handlingen **Hent lagerdokumenter**. **Plasseringsutvalg**-vinduet åpnes.  
+2.  Velg handlingen **Hent lagerdokumenter**. **Plasseringsutvalg**-siden åpnes.  
 
     Du ser alle de bokførte mottakene og registrerte plasseringene som er videresendt til plasseringsfunksjonen, inkludert de som det allerede er opprettet plasseringsinstruksjoner for. Dokumenter med plasseringslinjer som er fullstendig plassert og registrert, blir ikke vist i denne oversikten.  
 
@@ -54,7 +54,7 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
     > [!NOTE]  
     >  Linjer som slettes, blir bare slettet fra dette forslaget, ikke fra plasseringsutvalgsoversikten.  
 
-7.  Velg handlingen **Opprett plassering**. Vinduet **Opprett dokument** åpnes. Her kan du tilføye mer informasjon for den plasseringen du oppretter, på følgende måte:  
+7.  Velg handlingen **Opprett plassering**. Siden **Opprett dokument** åpnes. Her kan du tilføye mer informasjon for den plasseringen du oppretter, på følgende måte:  
 
     -   Du kan tilordne plasseringen til en bestemt ansatt.  
     -   Du kan sortere plasseringsinstruksjonslinjene på samme måte som i forslaget eller etter hylleprioritering. Når du sorterer etter hylleprioritering, vises Hent-linjen først, fordi de fleste mottak har hylleprioriteringen 0, og Plasser-linjen vises sist. Den begynner med hyllene med lavest hyllerangering. Hvis du har strukturert lageret slik at hyller med lignende hylleprioritering er side ved side, blir jobben enklere for de lageransatte ved at de slipper å utføre enkelte trinn.  

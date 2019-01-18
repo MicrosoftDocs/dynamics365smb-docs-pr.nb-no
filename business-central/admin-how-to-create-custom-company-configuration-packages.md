@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e26174fcf723e13ef5a9ed0b386006c0439e1c7a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Opprette egendefinerte konfigurasjonspakker for selskap
@@ -46,7 +46,7 @@ Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![ly
 2.  Opprett et nytt selskap for bransje- eller løsningsmalen. Hvis du vil ha mer informasjon, kan du se [Opprette et nytt selskap](admin-how-to-create-a-new-company.md).  
 3.  Konfigurer det nye selskapet etter dine behov. Fyll ut alle nødvendige oppsettstabeller.  
 4.  Åpne det nye selskapet.
-5. Åpne vinduet **Konfigurasjonsforslag**.  
+5. Åpne siden **Konfigurasjonsforslag**.  
 6.  Legg til tabellene du vil overføre til et annet selskap, i forslaget. Tilordne forslagslinjene til pakken.  
 7.  Opprett et spørreskjema for de mest brukte oppsettstabellene.  
 8.  Opprett konfigurasjonsmaler for å gjøre det enklere å opprette hoveddata, for eksempel kunder eller varer.  

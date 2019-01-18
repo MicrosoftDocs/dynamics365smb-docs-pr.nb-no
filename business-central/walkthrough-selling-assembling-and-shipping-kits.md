@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b2d32111fe1b5510f7c1dc2412627d5df9e7ccc3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
@@ -81,10 +81,10 @@ Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:
 -   Installere [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 -   Gjør deg til lageransatt på lokasjonen KR.SAND ved å følge disse trinnene:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
-2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
-4.  Velg **Standard**- feltet.  
+4.  Velg **Standard**-feltet.  
 
 Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinnene:  
 
@@ -101,7 +101,7 @@ Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinne
 Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **roduksjonsoppsett**, og velg deretter den relaterte koblingen.  
-2.  I **Produksjonsoppsett** vinduet i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
+2.  På siden **Produksjonsoppsett** i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
 Opprett lager for monteringskomponenter ved å følge delen "Klargjøre eksempeldata" i denne gjennomgangen.  
 
@@ -151,10 +151,10 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter synkroniserer du nye lagerposter med lageret.  
 
-5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-vinduet åpnes.  
+5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-siden åpnes.  
 6.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Beregn lagerjustering**.  
-7.  I vinduet **Beregn lagerjust.** velger du **OK**-knappen.  
-8.  Velg **Bokfør** under **Funksjoner** i fanebladet **Handlinger** i **Varekladd**-vinduet, og klikk deretter **Ja**-knappen.  
+7.  På siden **Beregn lagerjust.** velger du **OK**-knappen.  
+8.  Velg **Bokfør** i gruppen **Funksjoner** i kategorien **Handlinger** på siden **Varekladd**, og klikk deretter på **Ja**-knappen.  
 
 ### <a name="creating-the-assembly-items"></a>Opprette monteringsvarer  
 
@@ -221,7 +221,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     > [!NOTE]  
     >  Følgende tilgjengelighetsproblem foreligger for ordrelinjen for sett B:  
     >   
-    >  -   Monteringskomponenten 80210 er ikke tilgjengelig. Dette betyr at de tre angitte enhetene av pakke B ikke kan monteres, som angitt av **0** i **Kan montere**-feltet i vinduet **Montering – tilgjengelighet**.  
+    >  -   Monteringskomponenten 80210 er ikke tilgjengelig. Dette betyr at de tre angitte enhetene av pakke B ikke kan monteres, som angitt av **0** i **Kan montere**-feltet på siden **Montering – tilgjengelighet**.  
     >   
     >  Følgende tilgjengelighetsproblem foreligger for ordrelinjen for sett A:  
     >   
@@ -231,7 +231,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 4.  Velg ordrelinjen for tre enheter av sett B.  
 5.  På hurtigfanen **Linjer**, velg **Linje**, **Monter til ordre**, og deretter **Montere til ordre – linjer**.  
-6.  I **Montere til ordre – linjer**-vinduet på monteringsordrelinjen for vare 80014 angir du **2** i **Antall per**-feltet.  
+6.  På siden **Montere til ordre – linjer** på monteringsordrelinjen for vare 80014 angir du **2** i **Antall per**-feltet.  
 7.  På monteringsordrelinjen for vare 80210 velger du **Nr.**-feltet og velger deretter vare 80209 i stedet.  
 8.  Opprett en ny monteringsordrelinje med følgende informasjon.  
 
@@ -239,15 +239,15 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     |----------|---------|------------------|  
     |Element|80203|1|  
 
-9. Lukk vinduet **Montere til ordre – linjer**.  
+9. Lukk siden **Montere til ordre – linjer**.  
 
     Deretter oppdaterer du enhetsprisen for pakke B i henhold til tilpasningen du nettopp utførte. Legg merke til den gjeldende verdien i feltet **Salgspris Ekskl. mva**.  
 
 10. På hurtigfanen **Linjer** velger du **Linje**, **Monter til ordre**, og deretter **Oppruller pris**.  
 11. Velg **Ja**-knappen. Legg merke til den økte verdien i feltet **Salgspris Ekskl. mva**.  
 12. Velg ordrelinjen for 15 enheter av sett A.  
-13. På hurtigfanen **Linjer**, velg **Linje**, **Monter til ordre**, og deretter **Montere til ordre – linjer**.  
-14. I vinduet **Montere til ordre – linjer** oppretter du en ny monteringsordre med følgende informasjon.  
+13. På hurtigfanen **Linjer**, velg **Linje**, **Monter til ordre** og deretter **Montere til ordre – linjer**.  
+14. På siden **Montere til ordre – linjer** oppretter du en ny monteringsordre med følgende informasjon.  
 
     |Type|Nr.|Antall per|  
     |----------|---------|------------------|  
@@ -264,7 +264,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  I fanebladet **Handling**, under **Funksjoner** velger du **Beregn replanlegging**.  
-3.  Angi følgende filtre i **Beregn Plan**-vinduet.  
+3.  Angi følgende filtre på **Beregn Plan**-siden.  
 
     |Startdato|Sluttdato|Nr.|  
     |-------------------|-----------------|---------|  
@@ -275,7 +275,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     En ny planleggingslinje opprettes for den nødvendige monteringsordren på ti varer med forfallsdato 27. januar. Den trenger ingen endringer, så du kan opprette ordren nå.  
 
 5.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Utfør handlingsmelding**.  
-6.  Velg **Monteringsordre**-feltet i vinduet **Utfør handlingsmeld.**, og velg deretter **Lag monteringsordrer**.  
+6.  Velg **Monteringsordre**-feltet på siden **Utfør handlingsmeld.**, og velg deretter **Lag monteringsordrer**.  
 7.  Velg **OK**.  
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere første ATO-antall  
@@ -311,14 +311,14 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Gå tilbake til å utføre leveringsoppgavene.  
 
-8.  Åpne vinduet **Lagerlevering** på nytt.  
+8.  Åpne siden **Lagerlevering** på nytt.  
 
     Legg merke til at feltet **Plukket ant.** fortsatt er tomt på alle linjene. Dette er fordi du fortsatt ikke har plukket varene som skal leveres, men bare komponentene som kreves for å sette sammen ATO-antallene.  
 
     Fortsett med å se gjennom den tilknyttede monteringsordren.  
 
 9. Velg leveringslinjen for tre enheter av sett B.  
-10. På hurtigfanen **Linjer** velger du **Linje**, og deretter **Monter til ordre**. Vinduet **Monteringsordre** åpnes.  
+10. På hurtigfanen **Linjer** velger du **Linje**, og deretter **Monter til ordre**. Siden **Monteringsvare** åpnes.  
 
     Legg merke til at flere felt på monteringsordren er utilgjengelige fordi ordren er koblet til en salgsordre.  
 
@@ -330,7 +330,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Feltet **Antall å montere** er redigerbart for å støtte situasjoner der du vil levere en beholdning delvis i stedet for å montere flere enheter til ordren. Hvis du vil ha mer informasjon, kan du se delen "Kombinasjonsscenarier" i [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
 
-12. Lukk **Monteringsordre**-vinduet for å gå tilbake til **Lagerlevering**-vinduet.  
+12. Lukk **Monteringsordre**-siden for å gå tilbake til **Lagerlevering**-siden.  
 13. På leveringslinjen for tre enheter av sett B, i feltet **Levere (antall)**, angir du **3**.  
 14. I fanebladet **Handlinger**, under **Bokføring** velger du **Bokfør følgeseddel** og deretter **Lever**.  
 
@@ -356,15 +356,15 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     Deretter registrere du at monteringsordren er fullført.  
 
 3.  I fanebladet **Naviger**, under **Lager**, velger du **Monter til ordre – lagerfølgeseddellinje**.  
-4.  Angi **5** i feltet **Levere (antall)** i vinduet **Monter til ordre – lagerfølgeseddellinje**, og lukk deretter vinduet.  
+4.  Angi **5** i feltet **Levere (antall)** på siden **Monter til ordre – lagerfølgeseddellinje**, og lukk deretter siden.  
 
-    Legg merke til at i vinduet **Monteringsordre** er feltene **Antall å montere** og **Antall som skal forbrukes** nå fylt ut med avgangs- og forbruksantallene som vil bli bokført med leveringen.  
+    Legg merke til at på siden **Monteringsordre** er feltene **Antall å montere** og **Antall som skal forbrukes** nå er fylt ut med avgangs- og forbruksantallene som vil bli bokført med leveringen.  
 
-5.  Lukk vinduet **Monteringsordre**.  
+5.  Lukk siden **Monteringsvare**.  
 
 ### <a name="assembling-the-ats-quantity"></a>Montere ATS-antall  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne monteringsordren for ti enheter av sett A  
 
     Legg merke til at feltet **Antall å montere** er fylt ut med forventet antall.  
@@ -415,9 +415,9 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Gå tilbake til lagerleveringen for å utføre den siste oppgaven.  
 
-8.  Åpne vinduet **Lagerlevering** på nytt.  
+8.  Åpne siden **Lagerlevering** på nytt.  
 
-    Legg merke til at feltet **Levere (antall)** og **Plukket ant.** på linjen for ti enheter av sett A i vinduet **Lagerlevering** nå inneholder **10**.  
+    Legg merke til at feltet **Levere (antall)** og **Plukket ant.** på linjen for ti enheter i sett A på siden **Lagerlevering** nå inneholder **10**.  
 
 9. I fanebladet **Handlinger**, under **Bokføring** velger du **Bokfør følgeseddel** og deretter **Levert**.  
 

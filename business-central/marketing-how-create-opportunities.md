@@ -13,16 +13,16 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 95eb483d261ac4e1f55071ff5d33951ad1fa2a3f
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: d4b5b39826da539f3c87f1ba0d9ad27662598665
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-sales-opportunities"></a>Opprette salgsmuligheter
 Du kan opprette salgsmuligheter for de salgsmulighetene du har med kontaktene. Alle salgsmulighetene må tilordnes en selger eller en innkjøper, og må ha en kontakt.
 
-Du kan opprette salgsmuligheter i vinduet **Oversikt over salgsmuligheter**. Du oppretter imidlertid vanligvis salgsmuligheter fra bestemte kontakter eller selgere.
+Du kan opprette salgsmuligheter på siden **Oversikt over salgsmuligheter**. Du oppretter imidlertid vanligvis salgsmuligheter fra bestemte kontakter eller selgere.
 
 Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmulighet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser og faser for salgsmuligheter](marketing-how-setup-opportunity-sales-cycles-stages.md).
 

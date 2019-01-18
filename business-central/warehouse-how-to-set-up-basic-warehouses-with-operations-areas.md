@@ -13,23 +13,23 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e10a823d856dd02311b990da5d22fe7f87730d51
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
 Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke følgende grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:  
 
-- **Lagerflytting**-vindu.  
-- **Lagerplukk**-vinduet.  
-- **Lagerplassering**-vinduet.
+- **Lagerflyttingsliste**-siden.  
+- **Lagreplukk**-siden.  
+- **Lagerplassering**-siden.
 
 > [!NOTE]
 > Selv om innstillingene kalles **Plukk nødv.** og **Plassering nødv.**, kan du bokføre mottak og leveringer direkte fra kildedokumenter for firma på lokasjoner der du velger disse avmerkingsboksene.  
 
-Hvis du vil bruke disse vinduene med interne operasjoner, for eksempel plukke og flytte komponenter til produksjon, må du følge noen av eller alle følgende konfigurasjonstrinn, avhengig av hvor mye kontroll du trenger:  
+Hvis du vil bruke disse sidene med interne operasjoner, for eksempel plukke og flytte komponenter til produksjon, må du følge noen av eller alle følgende konfigurasjonstrinn, avhengig av hvor mye kontroll du trenger:  
 
 - Aktiver dokumenter for lagerplukk, lagerflytting og lagerplassering.  
 - Definer standard hyllestrukturer for komponenter og sluttvarer som går til og fra operasjonsressurser.  
@@ -59,14 +59,14 @@ Fremgangsmåtene nedenfor er basert på definisjon av grunnleggende lageraktivit
 
 5. På hurtigfanen **Hyller**, i feltet **Fra-Hyllekode for produksjon** angir du koden for hyllen i produksjonsområdet hvor ferdige varer hentes fra som standard når prosessen omfatter en lageraktivitet. I grunnleggende lageroppsett registreres aktiviteten som en lagerplassering eller lagerflytting.  
 
-Nå krever produksjonsordrekomponentlinjer med standard hyllekode at komponenter som trekkes fremover plasseres her. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden i **Hyller**-vinduet som du åpner fra lokasjonskortet.
+Nå krever produksjonsordrekomponentlinjer med standard hyllekode at komponenter som trekkes fremover plasseres her. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden på siden **Hyller** som du åpner fra lokasjonskortet.
 
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til oppsettet.  
 
 ![Flytskjema for hylle](media/binflow.png "BinFlow")    
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Slik definerer du en standardhyllestruktur i monteringsområdet:
-Komponenter for monteringsordrer kan ikke plukkes eller bokføres med lagerplukk. Bruk i stedet vinduet **Lagerflytting**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Komponenter for monteringsordrer kan ikke plukkes eller bokføres med lagerplukk. Bruk i stedet siden **Lagerflytting**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Når du plukker og leverer salgslinjeantall som er montert til ordre, må du følge visse regler når du oppretter lagerplukklinjene. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).
 
@@ -119,16 +119,16 @@ Den samme hyllekoden kopieres så til **Hyllekode**-feltet på lagerplukklinjen 
 ## <a name="to-create-dedicated-component-bins"></a>Slik oppretter du dedikerte komponenthyller:
 Du kan angi at antall i en hylle beskyttes mot å bli plukket for andre behov enn behov fra deres gjeldende formål.
 
-Antall i dedikerte hyller kan fremdeles reserveres. Antallene i dedikerte hyller er på samme måte inkludert i feltet **Totalt disp. antall** i vinduet **Reservasjon**.
+Antall i dedikerte hyller kan fremdeles reserveres. Antallene i dedikerte hyller er på samme måte inkludert i feltet **Totalt disp. antall** på siden **Reservasjon**.
 
-Et arbeidssenter er for eksempel definert med en hyllekode i feltet **Til-Hyllekode for produksjon**. Produksjonsordrekomponentlinjer med den hyllekoden krever at komponenter som trekkes fremover plasseres der. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden i **Hyller**-vinduet som du åpner fra lokasjonskortet.
+Et arbeidssenter er for eksempel definert med en hyllekode i feltet **Til-Hyllekode for produksjon**. Produksjonsordrekomponentlinjer med den hyllekoden krever at komponenter som trekkes fremover plasseres der. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden på siden **Hyller** som du åpner fra lokasjonskortet.
 
 Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bare er tilgjengelig i avansert lagerstyring. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).
 
 > [!Caution]
-> Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjonskomponenter med vinduet Lagerplukk.
+> Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjonskomponenter med siden Lagerplukk.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen. Velg lokasjonskortet som du vil oppdatere.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen. Velg lokasjonskortet som du vil oppdatere.  
 2.  Velg handlingen **Hyller**.  
 3.  Velg feltet **Dedikert** for hver hylle du vil bruke utelukkende til bestemte interne operasjoner, og hvor du vil at antallene som er plassert der skal være reservert for den interne operasjonen.  
 

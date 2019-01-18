@@ -13,10 +13,10 @@ ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 67392093b4643b6083514859655ce3adc61d1d5b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9655a65fe6a5e6f90ba2c0f1a00c6c8f2cc977ad
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
@@ -35,7 +35,7 @@ Bokføringsdatoene for finanspostene settes til bokføringsdatoen for den tilsva
 Når du kjører kjørselen **Bokfør lagerkost i Finans**, får du kanskje feil på grunn av manglende oppsett eller inkompatibelt dimensjonsoppsett. Hvis det oppstår feil i dimensjonsoppsettet, overstyrer kjørselen disse feilene og bruker dimensjonene til verdiposten. Når det gjelder andre feil, bokfører ikke kjørselen verdipostene, og det vises en oversikt over dem på slutten av rapporten i en del med overskriften **Poster som er hoppet over**. Hvis du vil bokføre disse postene, må du først rette feilene. Hvis du vil ha en oversikt over feil før du kjører den satsvise jobben, kan du kjøre rapporten **Bokfør lagerkost i Finans - test**. Denne rapporten viser en oversikt over alle feilene som oppstår under en kontrollbokføring. Du kan rette feilene og deretter kjøre kjørselen for lagerkost uten å hoppe over noen poster.  
 
 ## <a name="automatic-cost-posting"></a>Automatisk kostbokføring  
-Du kan konfigurere kostbokføring i finans slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å merke av for **Automatisk kostbokføring** i **Lageroppsett**-vinduet. Bokføringsdatoen for finansposten er den samme som bokføringsdatoen for vareposten.  
+Du kan konfigurere kostbokføring i finans slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å merke av for **Automatisk kostbokføring** på **Lageroppsett**-siden. Bokføringsdatoen for finansposten er den samme som bokføringsdatoen for vareposten.  
 
 ## <a name="account-types"></a>Kontotyper  
 Under avstemming bokføres lagerverdier i lagerkontoen i balansen. Den samme beløpet, men med motsatt fortegn, bokføres på den aktuelle motkontoen. Motkontoen er vanligvis en resultatregnskapskonto. Når du imidlertid bokfører direktekostnader knyttet til forbruk eller avgang, er motkontoen en balansekonto. Typen varepost og verdipost fastsetter hvilken finanskonto det skal bokføres i.  
@@ -45,7 +45,7 @@ Posttypen angir hvilken finanskonto det skal bokføres i. Dette fastsettes enten
 ### <a name="example"></a>Eksempel  
 Følgende eksempel viser en sykkelkjede som produseres fra ledd som kjøpes. Dette eksemplet viser hvordan de ulike finanskontotypene brukes i et typisk scenario.  
 
-Det er merket av for **Bokf. av forventet kost i Finans** i **Lageroppsett**-vinduet, og følgende oppsett er definert.  
+Det er merket av for **Bokf. av forventet kost i Finans** på **Lageroppsett**-siden, og følgende oppsett er definert.  
 
 Tabellen nedenfor viser hvordan leddet er definert på varekortet.  
 

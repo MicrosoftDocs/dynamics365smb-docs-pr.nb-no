@@ -11,10 +11,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 44648f9d9cfd9ad2e1ea3589031b6560f4a4dcfb
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 587817f68dd731c1ea3e23617e405d0c9493fdd6
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
@@ -51,16 +51,16 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 1. Definer en ny vare. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
     Fortsette med å registrere komponenter eller ressurser i monteringsstykklisten.  
-2. I vinduet **Varekort** for en monteringsvare velger du **Montering** og velger deretter **Monteringsstykkliste**.
-3. Fyll ut feltene etter behov i vinduet **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Varekort** for en monteringsvare velger du **Montering** og velger deretter **Monteringsstykkliste**.
+3. Fyll ut feltene etter behov på siden **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Vise komponentene i en monteringsvare som er rykket inn i henhold til stykklistestrukturen
-Fra vinduet **Monteringsstykkliste** kan du åpne et eget vindu som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
+Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
-2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** i vinduet **Varer** inneholder **Ja**.)
-3. I vinduet **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
-4. I vinduet **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
+2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
+3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
+4. På siden **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
 Du kan bruke en spesiell funksjon erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne funksjonen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
@@ -75,19 +75,19 @@ Følgende fremgangsmåte er basert på en faktura. De samme trinnene gjelder for
 
 Alle feltene på salgsfakturalinjen for monteringsvaren er tomme med unntak av for feltet **Vare** og **Beskrivelse**. Komplette salgsfakturalinjer settes inn for komponentene og mulige ressurser som utgjør monteringsvaren.
 
-**Merk**: Funksjonen Utfold stykkliste finnes også i vinduet **Monteringsstykkliste**.
+**Merk**: Funksjonen Utfold stykkliste finnes også på siden **Monteringsstykkliste**.
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Slik beregner du standardkosten for en monteringsvare
 Du beregner enhetskosten for en monteringsvare ved å opprullere enhetskosten for hver komponent og ressurs i varens monteringsstykkliste.
 
-Du kan også beregne og oppdatere standardkost for én eller flere varer i vinduet **Standardkost - forslag**. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).  
+Du kan også beregne og oppdatere standardkost for én eller flere varer på siden **Standardkost - forslag**. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).  
 
 Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskostnadene for komponentene, inkludert andre monteringsstykklister og ressurser.
 
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Varer** og velger deretter den relaterte koblingen.
-2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** i vinduet **Varer** inneholder **Ja**.)
-3. I vinduet **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
-4. I vinduet **Monteringsstykkliste** velger du **Beregn standardkost**.
+2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
+3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
+4. På siden **Monteringsstykkliste** velger du **Beregn standardkost**.
 5. Velg ett av følgende alternativer, og velg deretter **OK**.
 
 |Alternativ |Beskrivelse |

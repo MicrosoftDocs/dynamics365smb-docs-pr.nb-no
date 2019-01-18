@@ -12,11 +12,12 @@ ms.workload: na
 ms.search.keywords: 
 ms.date: 10/01/2018
 ms.author: sgroespe
+redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 036aa1f317c1b1de7fc1548e03d40eca8c25be89
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d35fd5de7a0583c3864268d0749384322bf947ed
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="scenario-example-defining-static-allocations-based-on-allocation-ratio"></a>Eksempelscenario: Definere statiske fordelinger basert på fordelingsgrad
@@ -30,7 +31,7 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 ## <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Slik definerer du PROD-kostsenteret for fordelingskilden i hurtigfanen Generelt:  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Kostfordeling** velger du **Ny**.  
+2.  På siden **Kostfordeling** velger du **Ny**.  
 3.  Trykk på Enter eller angi en ID i **ID**-feltet.  
 4.  I feltet **Grad** angir du **1**.  
 5.  I feltene **Gyldig fra** og **Gyldig til** angir du datoene du vil bruke.  
@@ -59,8 +60,5 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 >  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk **Prosent**-feltet ved å bruke en prosentsats som er avhengige av alle de tre fordelingsforholdene som er angitt i **Del**-feltet for alle de tre linjene.  
 
 ## <a name="see-also"></a>Se også  
-[Definere fordelingskilde og -mål](finance-how-to-set-up-allocation-source-and-targets.md)   
 [Definere og fordele kostnader](finance-define-and-allocate-costs.md)   
-[Eksempelscenario: Definere dynamiske fordelinger basert på solgte varer](finance-scenario-example-defining-dynamic-allocations-based-on-items-sold.md)   
-[Definere og fordele kostnader](finance-define-and-allocate-costs.md)
 

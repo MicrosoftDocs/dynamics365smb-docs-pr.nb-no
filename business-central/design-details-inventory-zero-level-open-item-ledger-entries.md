@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e114142be1708447931fb475074245b57564f6b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0bb558fe24d8c5bc717ef72e8c94ba0154a06a55
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kjent vareutligningsproblem
@@ -102,7 +102,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  For scenario 1, identifiser problemet på følgende måte:  
 
--   I vinduet **Bokført salgskreditnota** eller **Bokført returseddel** slår du opp fra feltet **Utlignet fra\--varepost** for å se om feltet er fylt ut, og i tilfelle til hvilken varepost returseddelen er kostnadsutlignet.  
+-   På siden **Bokført salgskreditnota** eller **Bokført returseddel** slår du opp fra feltet **Utlignet fra\--varepost** for å se om feltet er fylt ut, og i tilfelle til hvilken varepost returseddelen er kostnadsutlignet.  
 
  For scenario 2, identifiser problemet på en av følgende måter:  
 
@@ -113,10 +113,10 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 |333|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|Nei|  
 |334|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|1|10|1|1|Ja|**Ja**|  
 
--   I vinduet **Bokført følgeseddel** slår du opp fra feltet **Utlignet fra-varepost** for å se om feltet er fylt ut, og i tilfelle til hvilken varepost returseddelen er kostnadsutlignet.  
+-   På siden **Bokført følgeseddel** slår du opp fra feltet **Utlignet fra-varepost** for å se om feltet er fylt ut, og i tilfelle til hvilken varepost returseddelen er kostnadsutlignet.  
 
 > [!NOTE]  
->  Kostnadsutligning kan ikke identifiseres i vinduet **Utlignede vareposter** fordi dette vinduet bare viser antallsutligning.  
+>  Kostnadsutligning kan ikke identifiseres på siden **Utlignede vareposter** fordi denne siden bare viser antallsutligning.  
 
  I begge scenarioene finner du den involverte kostnadsutligningen på følgende måte:  
 
@@ -138,7 +138,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
  Legg merke til ovenfor at den inngående vareposten 334 er utlignet mot utgående varepost 333.  
 
 ## <a name="workaround-for-the-issue"></a>Løsning for problemet  
- I **Varekladd**-vinduet bokfører du følgende linjer for den aktuelle varen:  
+ På **Varekladd**-siden bokfører du følgende linjer for den aktuelle varen:  
 
 -   En oppjustering for å lukke den åpne utgående vareposten.  
 

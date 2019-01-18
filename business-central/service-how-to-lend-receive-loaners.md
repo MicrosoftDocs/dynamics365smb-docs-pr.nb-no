@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9010858c33b7b58b3b4d7f2523785e846e307ff0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="lend-and-receive-loaners"></a>Låne ut og mottar utlånsobjekter
@@ -30,19 +30,19 @@ Du kan låne ut utlånsobjekter til kunder for å midlertidig erstatte serviceva
 5. Velg **Ja** for å bekrefte utlånet.  
 
 ## <a name="to-receive-a-loaner"></a>Slik mottar du utlånsobjekter  
-Når du mottar et utlånsobjekt fra en kunde, må du registrere mottaket. Dette gjør du i vinduene **Serviceordre**, **Bokført servicefølgeseddel** og **Kort for utlånsobjekt**. Denne fremgangsmåten viser hvordan du mottar utlånsobjekter i **Serviceordre**-vinduet.  
+Når du mottar et utlånsobjekt fra en kunde, må du registrere mottaket. Dette gjør du på sidene **Serviceordre**, **Bokført servicefølgeseddel** og **Kort for utlånsobjekt**. Denne fremgangsmåten viser hvordan du mottar utlånsobjekter på siden **Serviceordre**.  
   
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. Velg servicevarelinjen med utlånsobjektet du vil motta.  
 4. Velg **Handlinger**, velg **Funksjoner**, og velg deretter **Motta utlånsobjekt**.  
 
 ## <a name="to-register-loaner-comments"></a>Slik registrerer du merknader om utlånsobjekt  
-Du kan bruke vinduet **Generelt Servicemerknadsark** til å registrere merknader om registrerte låneprodukter.  
+Du kan bruke siden **Generelt Servicemerknadsark** til å registrere merknader om registrerte låneprodukter.  
   
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utlånsprodukter**, og velg deretter den relaterte koblingen.  
 2. Åpne det aktuelle utlånsobjektkortet.  
-3. Velg handlingen **Merknader**. Vinduet **Generelt Servicemerknadsark** åpnes.  
+3. Velg handlingen **Merknader**. Siden **Generelt Servicemerknadsark** åpnes.  
 4. Angi en dato i **Dato**-feltet.  
 5. Skriv inn en merknad i **Merknad**-feltet. Du kan angi opptil 80 tegn. Hvis du har behov for å skrive inn mer tekst, går du til neste linje. Du kan fylle ut så mange linjer du vil.  
   

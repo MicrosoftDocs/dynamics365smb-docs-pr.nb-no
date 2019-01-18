@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 56c8eb1be227f2ec09ae93f11e795f202956d694
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ae37dcf19d3441380eebd5dc2955e6be43be10b4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
@@ -39,7 +39,7 @@ Avregningsreturen mottas fra banken etter at betalingen er utført. Når dataene
 Følgende skjer når avregningsreturen leses inn:  
 
 - Betalingsstatusen i tabellen **Ventekladd** settes til **Avregnet**.  
-- Det overføres informasjon fra vinduet **Ventekladd** til innbetalingskladden.  
+- Da overføres informasjon fra siden **Ventekladd** til utbetalingskladden.  
 - Det opprettes en motkonto for hver transaksjon.  
 - Det settes inn bilagsnumre for hver transaksjon.  
 
@@ -51,7 +51,7 @@ Ved oppgjør håndteres valutakurser på følgende måter:
 - Betaling fra en valutakonto - Hvis betalingen utføres fra en valutakonto, benyttes vekslingskursen for denne valutaen og NOK. Dette fordi banken ikke informerer systemet om valutakursen.  
 
 ## <a name="warnings-on-settlement-returns"></a>Advarsler i avregningsreturer  
-Det kan forekomme advarsler når avregningsreturen leses inn. Innbetalingskladdelinjer med advarsler er merket med et symbol. Hvis du vil vite mer om advarselen, kan du åpne vinduet **Avregningsopplysninger**.  
+Det kan forekomme advarsler når avregningsreturen leses inn. Innbetalingskladdelinjer med advarsler er merket med et symbol. Hvis du vil vite mer om advarselen, kan du åpne siden **Avregningsopplysninger**.  
 
 ## <a name="see-also"></a>Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   

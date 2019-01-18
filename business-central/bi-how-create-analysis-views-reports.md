@@ -11,10 +11,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6703976d6ad0011ecb1dba75d918cae00dee95
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ecee2f3b5be33bb12f6ca742c0a28720fee6e427
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 #  <a name="create-analysis-reports"></a>Opprette analyserapporter
@@ -41,9 +41,9 @@ Deretter kan du definere kolonner som disse:
 - Salg i prosent forrige måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
- I **Analyserapport**-vinduet kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler i vinduet **Maler for analyselinje**. I dette vinduet kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine i tabellen **Maler for analysekolonne**. I dette vinduet kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten i vinduet **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
+ På **Analyserapport**-siden kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler på siden **Maler for analyselinje**. På denne siden kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. På denne siden kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
 
-Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten i matrisevinduet **Analyserapport**, for eksempel slik som i dette eksemplet:  
+Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten på matrisesiden **Analyserapport**, for eksempel slik som i dette eksemplet:  
 
 | |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
 |-|-|-|-|  
@@ -64,10 +64,10 @@ En mal består av et sett med linjer som representerer analysekolonnene du ser i
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Kolonner**.  
-4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten i vinduet **Analysekolonner**..  
+4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten på siden **Analysekolonner**.  
 
     > [!NOTE]  
-    >   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder i **Analysetyper**-vinduet.  
+    >   For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder på **Analysetyper**-siden.  
     I **Posttype**-feltet kopieres også de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
 5.  Velg **OK** for å lagre endringene.  
 
@@ -81,7 +81,7 @@ En mal består av et sett med linjer som representerer analyselinjene du ser i a
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Linjer**.  
-4. Opprett linjer for varene, kundene, leverandørene eller selgerne du vil vise tall for i analyserapporten, i **Analyselinje**-vinduet. Du må fylle ut feltene **Type**, **Fra/til** og **Beskrivelse**.  
+4. Opprett linjer for varene, kundene, leverandørene eller selgerne du vil vise tall for i analyserapporten, på **Analyselinje**-siden. Du må fylle ut feltene **Type**, **Fra/til** og **Beskrivelse**.  
 
 > [!NOTE]  
 >   Hvis du vil opprette mange individuelle linjer for hver vare, kunde og så videre, kan du velge riktig innsettingsalternativ for å fylle ut alle de relevante feltene på linjen. Hvis du må, kan du deretter redigere linjene manuelt. Når du skal sette inn linjer, velger du handlingen **Sett inn elementer** eller **Sett inn varegrupper**.  
@@ -92,13 +92,13 @@ Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåte
 Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til viktige indikatorer for salgsprestasjon du velger, for eksempel salgsomsetning i både beløp og antall, bidragsmargin eller fremdrift for faktisk salg mot budsjettet. Du kan også bruke rapporten til å analysere gjennomsnittlig salgspris og evaluere salgsprestasjonen for salgskorpset.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Analyserapport - salg** velger du handlingen **Ny**.
+2. På siden **Analyserapport - salg** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Rediger analyserapport**.
-5. I vinduet **Salgsanalyserapport** velger du handlingen **Vis matrise**.  
+5. På siden **Salgsanalyserapport** velger du handlingen **Vis matrise**.  
 
 > [!NOTE]  
->   Det er valgfritt å bygge kombinasjoner av linje- og kolonnemaler for å opprette rapporter og tilordne dem unike navn. Hvis du gjør dette, vil valg av et rapportnavn bety at du ikke trenger å velge linje- og kolonnemaler i vinduet **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du endre linje- og kolonnemaler uavhengig av hverandre og deretter velge rapportnavnet på nytt for å gjenopprette den opprinnelige kombinasjonen.
+>   Det er valgfritt å bygge kombinasjoner av linje- og kolonnemaler for å opprette rapporter og tilordne dem unike navn. Hvis du gjør dette, vil valg av et rapportnavn bety at du ikke trenger å velge linje- og kolonnemaler på siden **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du endre linje- og kolonnemaler uavhengig av hverandre og deretter velge rapportnavnet på nytt for å gjenopprette den opprinnelige kombinasjonen.
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  

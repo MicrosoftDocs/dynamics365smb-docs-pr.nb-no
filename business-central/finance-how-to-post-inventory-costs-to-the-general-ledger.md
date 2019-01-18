@@ -12,16 +12,16 @@ ms.search.keywords: warehouse, stock
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d6df6884ef5cf8fce96ec1f5bc5ca91bdbd3ede7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0e9b610d54f955c3dec9cba6b2327a74663288a2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
 
-Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring** i vinduet **Lageroppsett**.
+Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring** på siden **Lageroppsett**.
 
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
@@ -37,7 +37,7 @@ Hvis du vil ha en oversikt over feil før du kjører bokføringskjørselen, kan 
 Hvis du ganske enkelt vil ha en oversikt over hvilke verdier som kan bokføres i Finans, uten faktisk å utføre bokføringen, kan du kjøre kjørselen **Bokfør lagerkost i Finans** uten faktisk å bokføre verdiene i Finans. Du gjør dette ved å fjerne merket i **Bokfør**-feltet på forespørselssiden. På denne måten genereres rapporten som viser verdiene som er klare til bokføring i Finans, når du kjører kjørselen, men de bokføres ikke.
 
 ## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Spore avstemmingen mellom lagerposten og Finans
-Vinduet **Lager - finansavstemming** inneholder følgende:
+Siden **Lager - finansavstemming** inneholder følgende:
 
 - Viser avstemmingsdifferanser ved å sammenligne hva som er registrert i finans, og hva som er registrert i lager (verdiposter).
 - Viser ikke-avstemte kostbeløp i verdipostene i lager som om de var tilordnet til tilsvarende lagerrelaterte konti i finans, og sammenligner disse med totalbeløpene som faktisk er registrert i de samme kontiene i finans.
@@ -57,11 +57,11 @@ Kolonnene **Beholdning**, **Lager (midlertidig)** og **VIA - beholdning** viser 
 
 **Differanse**-kolonnen står for differansen mellom **Finanssum** og **I alt**.
 
-Øverst i vinduet **Lager - finansavstemming** kan du for eksempel angi filtre for å begrense perioden du vil ha informasjon fra.
+Øverst på siden **Lager - finansavstemming** kan du for eksempel angi filtre for å begrense perioden du vil ha informasjon fra.
 
 Hvis du merker for **Vis advarsel**, og hvis det er avvik mellom lagertotalene og finanstotalene, vises meldinger i **Advarsel**-feltet i rutenettet som forklarer avviket. Hvis du velger Advarsel-feltet, får du mer informasjon om hva advarselen betyr.
 
-Når du har angitt alle relevante filtre, velger du **Vis matrise**. Dataene beregnes og matrisevinduet vises.
+Når du har angitt alle relevante filtre, velger du **Vis matrise**. Dataene beregnes og matrisesiden vises.
 
 I kolonnen helt til venstre i rutenettet vises de ulike finanskontotypene som er knyttet til lageret. Deretter vises de fakturerte og ikke-fakturerte (midlertidige) totalene og VIA-beholdningstotalene for hver av disse kontotypene. Disse totalene beregnes fra verdipostene.
 

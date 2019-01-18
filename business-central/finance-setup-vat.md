@@ -11,10 +11,10 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f23993964f0803f2153c2d190a23532113e5ddd2
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5f22880f56cd2834c9bd92061f166cd457bc58c1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -125,7 +125,7 @@ Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for e
 Hvis du vil definere en mva-oppgave, gjør du følgende:
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-oppgaver**, og velg deretter den relaterte koblingen.  
-2. Velg **Navn**-feltet, og velg deretter **Ny** i vinduet **Mva-oppgavenavn**.
+2. Velg **Navn**-feltet, og velg deretter **Ny** på siden **Mva-oppgavenavn**.
 3. Fyll ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!Tip]
@@ -148,7 +148,7 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 
 ### <a name="to-set-up-vat-clauses"></a>Opprette mva-setninger
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Mva-setninger** oppretter du en ny linje.  
+2. På siden **Mva-setninger** oppretter du en ny linje.  
 3. Angi en ID for setningen i **KCode**-feltet. Du bruker denne koden til å knytte setningen til mva-bokføringsgrupper.  
 4. I feltet **Beskrivelse** angir du teksten som du vil vise på dokumenter som kan inkludere mva. I feltet **Beskrivelse 2** angir du ekstra tekst ved behov. Teksten vises på de nye linjene.  
 5. Valgfritt: Hvis du vil tilordne mva-setningsdelen til en mva-bokføringsoppsettet umiddelbart, velger du **Oppsett**, og deretter velge setningen. Hvis du vil vente, kan du tilordne setningsdelen senere på siden mva-bokføringsoppsett.  
@@ -178,7 +178,7 @@ Følg disse trinnene for å opprette koder for import-mva:
 ## <a name="to-verify-vat-registration-numbers"></a>Slik bekrefter du organisasjonsnumre
 Det er viktig at organisasjonsnumrene du har for kunder, leverandører og kontakter, er gyldige. For eksempel selskaper noen ganger endre status for mva-ansvar, og i noen land kan skattemyndighetene ber deg om å gi rapporter, for eksempel rapporten EU-salgslisten som listen mva registreringsnumre du bruker når du gjør forretninger.
 
-EU-kommisjonen gir tjenesten EU-mva-nummer validering på webområdet sitt, som er felles og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare deg for et trinn, og du kan bruke tjenesten VIES til å validere og spore mva-numre for kunder, leverandører og kontakter direkte fra kunde-, leverandør- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kalles **Tjeneste for validering av EU-organisasjonsnr.**. Tjenesten er tilgjengelig i vinduet **Tjenestetilkoblinger**, og du kan begynne å bruke den med en gang. Tjenestetilkoblingen er gratis, og registrering er ikke nødvendig.
+EU-kommisjonen gir tjenesten EU-mva-nummer validering på webområdet sitt, som er felles og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare deg for et trinn, og du kan bruke tjenesten VIES til å validere og spore mva-numre for kunder, leverandører og kontakter direkte fra kunde-, leverandør- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kalles **Tjeneste for validering av EU-organisasjonsnr.**. Tjenesten er tilgjengelig på siden **Tjenestetilkoblinger**, og du kan begynne å bruke den med en gang. Tjenestetilkoblingen er gratis, og registrering er ikke nødvendig.
 
 > [!Note]
 > Aktivere EU-organisasjonsnr. Valideringstjeneste, du må ha administratortilgang.
@@ -241,7 +241,7 @@ Før du konfigurerer verktøyet for mva-satsendring, må du gjøre følgende for
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Slik definerer du omregning av varebokføringsgruppe:  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Oppsett for endring av mva-sats** på fanen **Hjem** i **Prosess**-gruppen velger du **Mva-bokføringsgruppekonv.** eller **Gen. varebokføringsgruppekonv.**  
+2. På siden **Oppsett for endring av mva-sats** på fanen **Hjem** i **Prosess**-gruppen velger du **Mva-bokføringsgruppekonv.** eller **Gen. varebokføringsgruppekonv.**  
 3. Angi gjeldende bokføringsgruppe i feltet **Fra-kode**.  
 4. Angi den nye bokføringsgruppen i feltet **Til-kode**.  
 

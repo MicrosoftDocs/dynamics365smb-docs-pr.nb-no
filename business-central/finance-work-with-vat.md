@@ -13,10 +13,10 @@ ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abbc8f6d7aa80a7a89296568d9a4ecb0ead0f5f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
@@ -39,7 +39,7 @@ Hvis dette feltet ikke er valgt, blir feltene **Salgspris** og **Linjebeløp** f
 
 Du kan definere standardinnstillingen for **Priser inkl. mva** for alle salgsdokumenter for en kunde i feltet **Priser inkl. mva.** på **Kunde**-kortet. Du kan også definere at salgspriser skal ha med mva eller ikke. Salgspriser på varekortet vil vanligvis være prisen uten mva. Informasjonen fra feltet **Pris inkl. mva.** på **Vare**-kortet brukes til å fastsette salgsprisbeløpet for salgsdokumenter.  
 
-Tabellen nedenfor inneholder en oversikt over hvordan salgsprisbeløpene beregnes for et salgsdokument når du ikke har definert priser i **Salgspris**-vinduet.  
+Tabellen nedenfor inneholder en oversikt over hvordan salgsprisbeløpene beregnes for et salgsdokument når du ikke har definert priser på **Salgspris**-siden:  
 
 |**Feltet Pris inkl. mva. på varekortet**|**Feltet Priser inkl. mva. i salgshodet**|**Utført handling**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
@@ -56,8 +56,8 @@ Selv om du kan ha satt opp én eller flere kombinasjoner for å håndtere import
 Når kontantrabatten er tildelt, kan du tilbakestille den delen av kontantrabatten som gjelder mva-beløpet hvis det er beregnet en kontantrabatt på bakgrunn av et fakturabeløp med mva. Merk at du må aktivere feltet **Juster for kontantrabatt** både i finansoppsettet generelt og i mva-bokføringsoppsettet for en bestemt kombinasjon av mva-firmabokføringsgrupper og mva-varebokføringsgrupper.  
 
 #### <a name="to-manually-enter-vat-in-sales-documents"></a>Slik angir du mva manuelt i salgsdokumenter  
-1. I **Finansoppsett**-vinduet angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
-2. Merk av for **Tillat mva-differanse** i **Salgsoppsett**-vinduet.  
+1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
+2. Merk av for **Tillat mva-differanse** på siden **Salgsoppsett**.  
 
 #### <a name="to-adjust-vat-for-a-sales-document"></a>Slik justerer du mva for et salgsdokument  
 1. Åpne den aktuelle ordren.  
@@ -71,11 +71,11 @@ Når kontantrabatten er tildelt, kan du tilbakestille den delen av kontantrabatt
 Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder. Dette kan for eksempel være nødvendig når du angir en leverandørfaktura i kladden og det er en differanse mellom mva-beløpet som er beregnet i [!INCLUDE[d365fin](includes/d365fin_md.md)], og mva-beløpet på leverandørfakturaen du har mottatt.  
 
 #### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Før du angir mva manuelt i en finanskladd  
-1. I **Finansoppsett**-vinduet angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
-2. I vinduet **Finanskladdemaler** merker du av for **Tillat mva-differanse** for den relevante kladden.  
+1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
+2. På siden **Finanskladdemaler** merker du av for **Tillat mva-differanse** for den relevante kladden.  
 
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du kan angi mva manuelt i salgs- og kjøpskladder  
-1. I vinduet **Kjøpsoppsett** merker du av for **Tillat mva-differanse**.  
+1. På siden **Kjøpsoppsett** merker du av for **Tillat mva-differanse**.  
 2. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
   
     > [!NOTE]  
@@ -117,7 +117,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
    Når du oppdaterer **Status**-feltet til **Påkrevet**, **Mottatt** eller **Ikke mottatt**, opprettes det en bekreftelse.  
   
     > [!TIP]  
-    >  Du kan bruke **Leveringsbekreftelser**-vinduet for å få en oversikt over statusen for alle bokførte leveringer som det er opprettet en leveringsbekreftelse for.  
+    >  Du kan bruke **Leveringsbekreftelser**-siden for å få en oversikt over statusen for alle bokførte leveringer som det er opprettet en leveringsbekreftelse for.  
 
 5. Velg **Skriv ut mottaksdeklarasjon**.  
   
@@ -130,15 +130,15 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 3. Velg **Skriv ut mottaksdeklarasjon**.  
 
     > [!NOTE]  
-    >  Alternativt kan du skrive ut et sertifikat fra **Leveringsbekreftelse**-vinduet.  
+    >  Alternativt kan du skrive ut et sertifikat fra siden **Mottaksdeklarasjon**.  
 
 4. Hvis du vil inkludere informasjon fra linjene i leveringsdokumentet i bekreftelsen, kan du merke av for **Skriv ut linjedetaljer**.  
 5. Merk av for **Opprett mottaksdeklarasjoner hvis de ikke allerede er opprettet** hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal opprette bekreftelser for bokførte følgesedler som ikke har slike ved kjøring. Når du merker av for dette alternativet, opprettes nye bekreftelser for alle bokførte følgesedler som ikke har bekreftelser i det merkede området.  
 6. Filterinnstillingene er som standard for følgeseddelen du har valgt. Fyll ut filterinformasjonen for å velge en bestemt leveringsbekreftelse du vil skrive ut.  
-7. Velg **Skriv ut** i vinduet **Mottaksdeklarasjon** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
+7. Velg **Skriv ut** på siden **Mottaksdeklarasjon** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
     > [!Note]  
-    > Feltet **Status for mottaksdeklarasjon** og feltet **Skrevet ut** er oppdatert for leveringen i vinduet **Leveringsbekreftelser**.  
+    > Feltet **Status for mottaksdeklarasjon** og feltet **Skrevet ut** er oppdatert for leveringen på siden **Leveringsbekreftelser**.  
 
 8. Send den utskrevne leveringsbekreftelsen til kunden for signatur.  
 
@@ -153,7 +153,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 
    Hvis kunden ikke returnerer den signerte leveringsbekreftelsen, velger du **Ikke mottatt**. Du må deretter sende kunden en ny faktura som inkluderer mva., fordi den opprinnelige fakturaen ikke vil bli godtatt av skattemyndighetene.  
 
-Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreftelser**-vinduet og deretter oppdatere informasjon om status for utestående bekreftelser når du får dem tilbake fra kundene. Dette kan være nyttig når du vil søke etter alle bekreftelser som har en bestemt status, for eksempel **Påkrevd**, som du vil oppdatere til statusen **Ikke mottatt**.  
+Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreftelser**-siden og deretter oppdatere informasjon om status for utestående bekreftelser når du får dem tilbake fra kundene. Dette kan være nyttig når du vil søke etter alle bekreftelser som har en bestemt status, for eksempel **Påkrevd**, som du vil oppdatere til statusen **Ikke mottatt**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Oppdatere statusen til en gruppe av leveringsbekreftelser  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mottaksdeklarasjoner**, og velg deretter den relaterte koblingen.  
@@ -166,7 +166,7 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
    Du kan endre datoen for å gjenspeile datoen da du mottok den signerte leveringsbekreftelsen. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-dokumentkobling.  
 
     > [!NOTE]  
-    >  Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-vinduet når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  
+    >  Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-siden når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  
     >   
     > * Opprette en leveringsbekreftelse manuelt  
     > * Slik skriver du ut en leveringsbekreftelse.

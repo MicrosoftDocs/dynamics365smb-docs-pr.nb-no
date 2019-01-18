@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f8f5959c25800c1a8d5ee7ed88f4e7a8599ce20a
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ace9e09a1f57310e93bb86422c492383690bc04b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostjustering
@@ -71,7 +71,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsor
 Kostjustering kan utføres på to måter:  
 
 * Manuelt, ved å kjøre kjørselen **Juster kostverdi - vareposter**. Du kan kjøre denne kjørselen for alle varer eller bare for bestemte varer eller varekategorier. Denne kjørselen kjører en kostjustering for varene på lageret som en inngående transaksjon er opprettet for, for eksempel et kjøp. Den satsvise jobben utfører også en justering hvis det opprettes utgående transaksjoner for varer som bruker lagermetoden Gjennomsnitt.  
-* Automatisk, ved å justere kostnadene hver gang du bokfører en lagertransaksjon, og når en produksjonsordre er ferdig. Kostjusteringen kjøres bare for den bestemte varen eller de bestemte varene som påvirkes av bokføringen. Dette defineres når du merker av for **Automatisk kostjustering** i vinduet **Lageroppsett**.  
+* Automatisk, ved å justere kostnadene hver gang du bokfører en lagertransaksjon, og når en produksjonsordre er ferdig. Kostjusteringen kjøres bare for den bestemte varen eller de bestemte varene som påvirkes av bokføringen. Dette defineres når du merker av for **Automatisk kostjustering** på siden **Lageroppsett**.  
 
 Det er lurt å kjøre kostjusteringen automatisk når du bokfører, fordi enhetskosten oppdateres oftere og er derfor mer nøyaktig. Ulempen er at ytelsen til databasen kan bli påvirket hvis kostjusteringen kjøres så ofte.  
 
@@ -79,7 +79,7 @@ Siden det er viktig å holde enhetskost for en vare oppdatert, anbefales det at 
 
 Uavhengig av om du kjører kostjusteringen manuelt eller automatisk, er justeringsprosessen og konsekvensen den samme. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner verdien av den inngående transaksjonen og videresender denne kostnaden til en hvilken som helst utgående transaksjoner, for eksempel salg eller forbruk, som er brukt på den inngående transaksjonen. Kostjusteringen oppretter verdiposter som inneholder justeringsbeløp og beløp som kompenserer for avrunding.  
 
-De nye verdipostene for justering og avrunding har bokføringsdatoen til den tilknyttede fakturaen. Unntak er hvis verdipostene faller i en lukket regnskapsperiode eller lagerperiode, eller hvis bokføringsdatoen er tidligere enn datoen i feltet **Bokf. tillatt fra** i vinduet **Finansoppsett**. Hvis dette skjer, tilordner den satsvise jobben bokføringsdatoen som den første datoen i den neste åpne perioden.  
+De nye verdipostene for justering og avrunding har bokføringsdatoen til den tilknyttede fakturaen. Unntak er hvis verdipostene faller i en lukket regnskapsperiode eller lagerperiode, eller hvis bokføringsdatoen er tidligere enn datoen i feltet **Bokf. tillatt fra** på siden **Finansoppsett**. Hvis dette skjer, tilordner den satsvise jobben bokføringsdatoen som den første datoen i den neste åpne perioden.  
 
 ## <a name="adjust-cost---item-entries-batch-job"></a>Kjørselen Juster kostverdi – vareposter  
 Når du kjører kjørselen **Juster kostverdi - vareposter**, kan du kjøre kjørselen for alle varer eller bare for bestemte varer eller kategorier.  
@@ -143,7 +143,7 @@ Senere bokfører du et relatert varegebyr på NOK 2,00 fakturert 10.02.20. Du kj
 |15.01.20|[Vareforbrukskonto]|7290||2,00|8|  
 
 ## <a name="automatic-cost-adjustment"></a>Automatisk kostjustering  
-Du kan definere kostjustering slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å bruke feltet **Automatisk kostjustering** i **Lageroppsett**-vinduet. I dette feltet kan du velge hvor langt tilbake i tid du vil at automatisk kostjustering skal utføres, fra gjeldende arbeidsdato. Følgende alternativer finnes.  
+Du kan definere kostjustering slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å bruke feltet **Automatisk kostjustering** på **Lageroppsett**-siden. I dette feltet kan du velge hvor langt tilbake i tid du vil at automatisk kostjustering skal utføres, fra gjeldende arbeidsdato. Følgende alternativer finnes.  
 
 |Alternativ|Beskrivelse|  
 |----------------------------------|---------------------------------------|  

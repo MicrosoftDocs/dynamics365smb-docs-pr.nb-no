@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 549cd2e6717f58fe979883d27efea42eac0e0c6b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65b26495b6875c52ca5906cc0317b488ab0d9a59
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-remittance-agreements"></a>Sette opp remitteringsavtaler
@@ -74,7 +74,7 @@ Du må undertegne en avtale om remittering med banken når du oppretter elektron
     |**Nytt bilag pr. felt**|Angi hvordan dokumenter nummereres når betalinger bokføres. Alternativene er **Dato**, **Leverandør**, og **Angis på konti**.|  
 
 9. Velg handlingen **Returfiloppsett-liste**.  
-10. I vinduet **Returfiloppsett - liste** velger du handlingen **Ny**.  
+10. På siden **Returfiloppsett - liste** velger du handlingen **Ny**.  
 11. Skriv inn filnavnet for returfilen i feltet **Filnavn for returfil**.  
 
     > [!NOTE]  

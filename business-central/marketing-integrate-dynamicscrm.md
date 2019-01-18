@@ -12,10 +12,10 @@ ms.search.keywords: integration, synchronize, map
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 057db7c39834c7be0fb93589e4fc58d740dd259c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Behandle kunder og Salg som er opprettet i Dynamics 365 for Sales
@@ -89,7 +89,7 @@ Tabellen nedenfor beskriver reglene som styrer synkroniseringen mellom Business 
 Fra startsiden kan du få tilgang til **Tilkoblingsoppsett for Microsoft Dynamics 365** assistert oppsettguide som hjelper deg med å konfigurere tilkoblingen. Når dette er gjort, vil du ha en sømløs kobling i Sales-oppføringer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.  
 
 > [!NOTE]  
->   Det følgende forklarer det assisterte oppsettet, men du kan utføre de samme oppgavene manuelt i vinduet **Tilkoblingsoppsett for Sales**.
+>   Det følgende forklarer det assisterte oppsettet, men du kan utføre de samme oppgavene manuelt på siden **Tilkoblingsoppsett for Sales**.
 
 Du kan velge hvilke data som skal synkroniseres mellom de to tjenestene i den assisterte oppsettguiden. Du kan også angi at du vil importere din eksisterende Sales-løsning. I så fall må du angi en administrativ brukerkonto.
 
@@ -113,7 +113,7 @@ Hvis du velger å aktivere *ordrerintegrering*, må du angi en bruker som kan h�
 ### <a name="coupling-records"></a>Koblingsposter
 Du kan velge å synkronisere mellom de to tjenestene i den assisterte oppsettguiden. Men senere kan du også definere synkronisering av bestemte typer data. Dette kalles *kobling*, og denne delen inneholder anbefalinger om hva du må ta i betraktning.
 
-Hvis du vil vise Sales-kontoer som kunder i for eksempel [!INCLUDE[d365fin](includes/d365fin_md.md)], må du koble to typer poster. Det er ikke veldig komplisert - du åpner **Kundeoversikt**-vinduet i [!INCLUDE[d365fin](includes/d365fin_md.md)], og det er en handling i båndet for å koble disse dataene med Sales. Vil du angi hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder som samsvarer med hvilke konti i Sales.
+Hvis du vil vise Sales-kontoer som kunder i for eksempel [!INCLUDE[d365fin](includes/d365fin_md.md)], må du koble to typer poster. Det er ikke veldig komplisert - du åpner **Kundeoversikt**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)], og det er en handling i båndet for å koble disse dataene med Sales. Vil du angi hvilke [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder som samsvarer med hvilke konti i Sales.
 
 I enkelte områder avhenger funksjonaliteten av at du kobler noen bestemte sett med data før andre sett med data, som vist i følgende liste:
 
@@ -130,16 +130,16 @@ I enkelte områder avhenger funksjonaliteten av at du kobler noen bestemte sett 
 Sales-salgsordrer avhenger av ekstra informasjon, for eksempel kunder, målenheter, valutaer, kundeprisgrupper, varer og/eller ressurser. For at integrasjonen med salgsordrer skal fungere sømløst, må du koble kunder, målenheter, valutaer, kundeprisgrupper, varer og/eller ressurser først.
 
 ### <a name="synchronizing-records-fully"></a>Fullstendig synkronisering av oppføringer
-Til slutten av den assisterte oppsettguiden, kan du velge **Kjør full synkronisering** for å starte synkronisering av alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterte poster i den tilkoblede Sales-løsningen. I vinduet **Gjennomgang av full synkronisering for CRM** velger du **Start**-handlingen. Deretter synkroniseringen begynner å utføre jobber i henhold til avhengighetene. Hvis du for eksempel synkroniseres valuta poster før kundeoppføringer. Fullstendig synkronisering kan ta lang tid, og derfor kjører i bakgrunnen, slik at du kan fortsette å arbeide [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Til slutten av den assisterte oppsettguiden, kan du velge **Kjør full synkronisering** for å starte synkronisering av alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster med alle relaterte poster i den tilkoblede Sales-løsningen. På siden **Gjennomgang av full synkronisering for CRM** velger du **Start**-handlingen. Deretter synkroniseringen begynner å utføre jobber i henhold til avhengighetene. Hvis du for eksempel synkroniseres valuta poster før kundeoppføringer. Fullstendig synkronisering kan ta lang tid, og derfor kjører i bakgrunnen, slik at du kan fortsette å arbeide [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Hvis du vil kontrollere fremdriften for individuelle prosjekter i en fullstendig synkronisering, detaljer for den **Status for jobben køen**, **til Int. tabellen Jobbstatus**, eller **fra Int. tabellen Jobbstatus** i den **CRM Full synkronisering. Se gjennom** vindu.
+Hvis du vil kontrollere fremdriften for individuelle prosjekter i en fullstendig synkronisering, driller du ned til feltet **Status for jobbkøpost**, **Prosjektstatus fot Til int. tabell** eller **Prosjektstatus for Fra int. tabell** på siden **Gjennomgang av full synkronisering for CRM**.
 
-Fra vinduet **Tilkoblingsoppsett for Microsoft Dynamics 365** kan du få detaljer om fullstendig synkronisering når som helst. Herfra kan du også åpne **Tilordninger for integreringstabell**-vinduet for å se detaljer om tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)] og i Sales-løsningen som må synkroniseres.
+Fra siden **Tilkoblingsoppsett for Microsoft Dynamics 365** kan du få detaljer om fullstendig synkronisering når som helst. Herfra kan du også åpne **Tilordninger for integreringstabell**-siden for å se detaljer om tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)] og i Sales-løsningen som må synkroniseres.
 
 ## <a name="handling-special-sales-order-data"></a>Håndtere spesielle ordredata
-Ordrer i Sales blir automatisk overført til [!INCLUDE[d365fin](includes/d365fin_md.md)] hvis du merker av for **Opprette ordrer automatisk** i vinduet **Tilkoblingsoppsett for Microsoft Dynamics 365**. For slike ordrer blir **Navn**-feltet i den opprinnelige ordren overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Ordrer i Sales blir automatisk overført til [!INCLUDE[d365fin](includes/d365fin_md.md)] hvis du merker av for **Opprette ordrer automatisk** på siden **Tilkoblingsoppsett for Microsoft Dynamics 365**. For slike ordrer blir **Navn**-feltet i den opprinnelige ordren overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ikke er i produktkatalogen, det vil si varer eller ressurser som ikke er registrert i et produkt. I så fall må du fylle ut feltene **Produkt som ikke er i produktkatalogen** og **Nummer på produktet som ikke er i produktkatalogen** i **Salgsoppsett**-vinduet, slik at alle slike ikke-registrerte produktsalg er tilordnet til en bestemt vare/ressurs for finansanalyse.
+Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ikke er i produktkatalogen, det vil si varer eller ressurser som ikke er registrert i et produkt. I så fall må du fylle ut feltene **Produkt som ikke er i produktkatalogen** og **Nummer på produktet som ikke er i produktkatalogen** på **Salgsoppsett**-siden, slik at alle slike ikke-registrerte produktsalg er tilordnet til en bestemt vare/ressurs for finansanalyse.
 
 Hvis varebeskrivelsen i den opprinnelige ordren er svært lang, kan en ekstra ordrelinje av typen merknaden opprettes som har plass til hele teksten i ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 

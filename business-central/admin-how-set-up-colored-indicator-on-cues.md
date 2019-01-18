@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f68bd92456ccab6d4bade8f5545d5c715a0c35bd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 33b0271c85d97abb8cd4a65c8c9ab9ddd354674b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
@@ -24,20 +24,20 @@ Som administrator kan du definere bunke-ikoner med en indikator som endrer farge
   
 Indikatoren vises som en farget linje langs øverste kant av bunkeflisen. Den gir et visuelt signal om statusen for aktiviteten for bunke-ikonet, som kan angi fordelaktige eller ufordelaktige tilstander som ber brukeren om å gjøre noe. Hvis det for eksempel vises pågående salgsfakturaer på et bunke-ikon, kan du angi at indikatoren skal være grønn (fordelaktig) når antall pågående salgsfakturaer er under 10, og at den skal være rød (ufordelaktig) når det totale antallet er over 20.  
   
-Du bruker vinduet **Oppsett for bunke-ikon** til å definere indikatorer for alle bunke-ikonene som er tilgjengelige i selskapsdatabasen. Du kan definere indikatorene skal gjelde for alle brukere i firmaet eller en individuell bruker. Indikatorinnstillingene i vinduet **Oppsett for bunke-ikon** fungerer som standardinnstillingene for indikatoren. Hvis vinduet **Oppsett for bunke-ikon, sluttbruker** gjøres tilgjengelig for brukere, kan de tilpasse innstillingene for indikatorer du definerer i vinduet **Oppsett for bunke-ikon**.  
+Du bruker siden **Oppsett for bunke-ikon** til å definere indikatorer for alle bunke-ikonene som er tilgjengelige i selskapsdatabasen. Du kan definere indikatorene skal gjelde for alle brukere i firmaet eller en individuell bruker. Indikatorinnstillingene på siden **Oppsett for bunke-ikon** fungerer som standardinnstillingene for indikatoren. Hvis siden **Oppsett for bunke-ikon, sluttbruker** gjøres tilgjengelig for brukere, kan de tilpasse innstillingene for indikatorer du definerer på siden **Oppsett for bunke-ikon**.  
   
 Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som definerer tre områder med dataverdier (lav, middels og høy) som du kan bruke en annen farge (eller stil) med.  
   
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Slik definerer du fargede indikatorer for bunke-ikoner  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for bunke-ikon**, og velg deretter den relaterte koblingen.  
   
-     Vinduet **Oppsett for bunke-ikon** vises. Vinduet viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
+     Siden **Oppsett for bunke-ikon** vises. Siden viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
   
     > [!NOTE]  
     >  Hvis du definerer en indikator for hele selskapet og en bruker endrer indikatoren senere, vises en egen oppføring for indikatoren i listen for denne brukeren.  
   
 2. Velg handlingen **Rediger oversikt**.  
-3. Hvis du vil definere en indikator for et bunke-ikon som ikke er oppført i vinduet, velger du **Ny**, og deretter fyller du ut feltene som beskrevet nedenfor. Hvis du vil endre en eksisterende indikator, går du til neste trinn.  
+3. Hvis du vil definere en indikator for et bunke-ikon som ikke er oppført på siden, velger du **Ny**, og deretter fyller du ut feltene som beskrevet nedenfor. Hvis du vil endre en eksisterende indikator, går du til neste trinn.  
   
     |  Felt  |  Beskrivelse  |    
     |---------|---------------|  

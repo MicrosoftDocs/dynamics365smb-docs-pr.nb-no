@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2441c41c6bb28691a855ac4b5d50359b95b23f7d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ba61572a237e177b763b7b8a2e13ca7ec93eea4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
@@ -32,7 +32,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Inngående lagerflyt]
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
-I genkle lageroppsett hvor lokasjonen er definert til å kreve plasseringsbehandling, men ikke mottaksbehandling, bruker du vinduet **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for de inngående kildedokumentene. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en produksjonsordre med avgang som er klar til plassering.
+I genkle lageroppsett hvor lokasjonen er definert til å kreve plasseringsbehandling, men ikke mottaksbehandling, bruker du siden **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for de inngående kildedokumentene. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en produksjonsordre med avgang som er klar til plassering.
 
 > [!NOTE]
 > Selv om innstillingene kalles **Plukk nødv.** og **Plassering nødv.**, kan du bokføre mottak og leveringer direkte fra kildedokumenter for firma på lokasjoner der du velger disse avmerkingsboksene.  
@@ -62,16 +62,16 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 -   Installere CRONUS Norge AS.  
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
-    1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
-    2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto i **Brukere**-vinduet.  
+    1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+    2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
     3.  Skriv inn SØLV i feltet **Lokasjonskode**.  
-    4.  Velg **Standard**- feltet.  
+    4.  Velg **Standard**-feltet.  
 
 ## <a name="story"></a>Hovedscenario  
 Ellen, lagerlederen hos CRONUS International Ltd., oppretter en bestilling for 10 enheter av varen LS-75 og 30 enheter av varen LS-81 fra leverandør 10000 som skal leveres til SILVER-lageret. Når leveringen ankommer til lageret, plasserer lagermedarbeideren John varene i standardhyller definert for varene. Når John bokfører plasseringen, bokføres varene som mottatt på lageret og tilgjengelig for salg eller andre behov.  
 
 ## <a name="setting-up-the-location"></a>Definere plassering  
- Oppsettet av vinduet **Lokasjonskort** definerer selskapets lagerflyter.  
+ Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
 ### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:  
 
@@ -84,7 +84,7 @@ Ellen, lagerlederen hos CRONUS International Ltd., oppretter en bestilling for 1
 4.  Velg handlingen **Hyller**.  
 5.  Merk den første raden, hylle S-01-0001, og velg **Innhold**.  
 
-    Legg merke til at i **Hylleinnhold**-vinduet er varen LS-75 allerede definert som innhold i hyllen S-01-0001.  
+    Legg merke til at på siden **Hylleinnhold** er varen LS-75 allerede definert som innhold i hyllen S-01-0001.  
 
 6.  Velg handlingen **Ny**.  
 7.  Velg feltene **Fast** og **Standard**.  
@@ -114,7 +114,7 @@ Bestillinger er den vanligste typen inngående kildedokument.
     Leveringen av høyttalere fra leverandør 10000 er ankommet på SØLV-lageret, og John fortsetter med å plassere dem.  
 
 ## <a name="receiving-and-putting-the-items-away"></a>Mottak og plassering av varer  
-I vinduet **Lagerplassering** kan du håndtere alle inngående lageraktiviteter for et bestemt kildedokument, for eksempel en bestilling.  
+På siden **Lagerplassering** kan du håndtere alle inngående lageraktiviteter for et bestemt kildedokument, for eksempel en bestilling.  
 
 ### <a name="to-receive-and-put-the-items-away"></a>Slik mottar og plasserer du varene:  
 

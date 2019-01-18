@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8a04784a354a3f44c3a12c75d16ebc166e7a8c47
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 06233abf9eef229ac86ee31857352af1de5e34e2
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
@@ -56,9 +56,9 @@ Du har nå tømt hyllene der varene pleide å være. Standardhyllene for varene 
 
     1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
     2.  Velg linjen med lokasjonen og velg deretter **Hyller**-handlingen.  
-    3.  Angi **KK** i feltet **Hylletypekode** i **Hyller**-vinduet for hver av de gamle hyllene du tømte i trinn 3 i fremgangsmåten ovenfor.  
+    3.  Angi **KK** i feltet **Hylletypekode** på siden **Hyller** for hver av de gamle hyllene du tømte i trinn 3 i fremgangsmåten ovenfor.  
 
-Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-hyller (kvalitetskontroll). For slike hyller er det ikke merket av i noen av aktivitetsfeltene i vinduet **Hylletyper**, og det tas derfor ikke hensyn til dem i vareflyten. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
+Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-hyller (kvalitetskontroll). For slike hyller er det ikke merket av i noen av aktivitetsfeltene på siden **Hylletyper**, og det tas derfor ikke hensyn til dem i vareflyten. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="to-delete-a-bin"></a>Slik sletter du en hylle  
 
@@ -69,11 +69,11 @@ Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-
 
 Hvis du velger **Ja**, blir hyllen slettet og kan ikke brukes i fremtiden, men hyllekoden i alle lagerpostene forblir den samme.  
 
-Hvis du ønsker å gi nytt navn til en hylle slik at alle postene som er tilknyttet hyllen også blir får nytt navn, inkludert hylleinnhold, lageraktivitetslinjer, registrerte lageraktivitetslinjer, lagerforslagslinjer, lagermottakslinjer, bokførte lagermottakslinjer, lagerfølgeseddellinjer, bokførte lagerfølgeseddellinjer og lagerposter, kan du gjøre det i vinduet **Hyller**.  
+Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilknyttet hyllen, også får nytt navn, inkludert hylleinnhold, lageraktivitetslinjer, registrerte lageraktivitetslinjer, lagerforslagslinjer, lagermottakslinjer, bokførte lagermottakslinjer, lagerfølgeseddellinjer, bokførte lagerfølgeseddellinjer og lagerposter, kan du gjøre det på siden **Hyller**.  
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Slik gir du nytt navn til en hylle og endrer hyllekoden i alle poster  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil gi nytt navn til en hylle eller endre hyllekoden, og velg handlingen **Hyller**.  
 3.  Velg hyllen som du vil endre og angi en ny hyllekode i **Kode**-feltet.  
 4.  Velg **Ja**-knappen.  

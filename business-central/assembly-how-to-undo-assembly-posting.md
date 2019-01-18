@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 4b9fa6fb99ec68982a2869be2085de0588d76c85
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 83545421ec7539b214788d08d4f4b33c4bdb71d7
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="undo-assembly-posting"></a>Angre monteringsbokføring
@@ -44,7 +44,7 @@ Fremgangsmåten nedenfor beskriver hvordan du angrer bokførte monteringsordrer 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Slik angrer du bokføringen av en monteringsordre:  
 1.  Hvis du vil angre en fullstendig eller delvis bokført monteringsordre, kan du velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte monteringsordrer** og velge den relaterte koblingen.  
 
-    Vinduet **Bokførte monteringsordrer** åpnes med én eller flere bokførte monteringsordrer som er bokført fra den aktuelle monteringsordren. Hver delvise bokføring oppretter en separat bokført monteringsordre.  
+    Siden **Bokførte monteringsordrer** åpnes med én eller flere bokførte monteringsordrer som er bokført fra den aktuelle monteringsordren. Hver delvise bokføring oppretter en separat bokført monteringsordre.  
 2.  Åpne den bokførte monteringsordren du vil angre, og velg deretter **Angre montering**.  
 
     Hvis den bokførte monteringsordren du vil angre, er relatert til en fullstendig bokført monteringsordre som nå er slettet, har du muligheten til å opprette den på nytt, vanligvis fordi du gjerne vil behandle den på nytt.  

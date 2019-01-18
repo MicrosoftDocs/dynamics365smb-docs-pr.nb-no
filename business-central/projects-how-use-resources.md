@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d8f900e61628960f2a64f609f62dc8465722770c
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 688593a6d59cf5d6fb9b58106a21601f3f15781e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="use-resources-for-jobs"></a>Bruke ressurser for prosjekter
@@ -47,7 +47,7 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Foreslå ress.prisendr. (pris)** og fyll deretter ut feltene etter behov.
 3. Velg **OK**.  
-4. Når kjørselen er ferdig, viser vinduet **Ressursprisendringer** resultatene av kjørselen.
+4. Når kjørselen er ferdig, viser siden **Ressursprisendringer** resultatene av kjørselen.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av standardpriser
 Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardprisene på ressurskortene, kan du bruke en kjørsel.  
@@ -55,7 +55,7 @@ Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardpri
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Foreslå ress.prisendr. (ress.)** og fyll deretter ut feltene etter behov.  
 3. Velg **OK**.  
-4. Når kjørselen er ferdig, åpner du vinduet **Ressursprisendringer** for å se resultatene av kjørselen.
+4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.
 
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av alternative priser
 Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan du bruke en kjørsel til å definere flere alternative ressurspriser.
@@ -63,7 +63,7 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Foreslå ress.prisendr. (pris)**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 3. Velg **OK**.  
-4. Når kjørselen er ferdig, åpner du vinduet **Ressursprisendringer** for å se resultatene av kjørselen.
+4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.
 
 ## <a name="see-also"></a>Se også
 [Prosjektstyring](projects-manage-projects.md)  

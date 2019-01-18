@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ff369b1d9ef8bb4986d4be0d885d4088205f570
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
@@ -27,7 +27,7 @@ Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for ekse
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut **Kode**-feltet.  
 4. Velg **Vedlikehold endringer i hovedkalender**.
-5. I vinduet **Endringer i hovedkalender** bruker du feltet **Gjentakelsesintervall** til å merke en bestemt dato eller dag som en gjentakende fridag. Du kan velge **Årlig** eller **Ukentlig**.  
+5. På siden **Endringer i hovedkalender** bruker du feltet **Gjentakelsesintervall** til å merke en bestemt dato eller dag som en gjentakende fridag. Du kan velge **Årlig** eller **Ukentlig**.  
 
     Hvis du velger **Årlig**, må du også angi den aktuelle datoen i **Dato**-feltet.  
 
@@ -37,7 +37,7 @@ Når du oppretter en post, merkes det av for **Fridag**. Du kan velge å fjerne 
  Når du går tilbake til kortet for hovedkalenderen, ser du at postene du opprettet for fridager, er oppdatert. Disse postene vises nå i rødt, og **Fridag**-feltet er valgt.  
 
 > [!NOTE]  
->  Når du oppretter en ny hovedkalender, kan du velge og kopiere linjer fra en eksisterende kalender. Det gjør du i det aktuelle **Endringer i hovedkalender**-vinduet.  
+>  Når du oppretter en ny hovedkalender, kan du velge og kopiere linjer fra en eksisterende kalender. Det gjør du på den aktuelle **Endringer i hovedkalender**-siden.  
 
 > [!IMPORTANT]  
 >  En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager.
@@ -57,7 +57,7 @@ En hvilken som helst basiskalender som er definert for leverandøren eller lokas
 > [!Important]
 > Hvis lokasjonen bruker en helt annen kalender enn leverandørene gjør, er det viktig at du definerer spesifikke kalendere for disse leverandørene, slik at du kan beregne optimale leveringstider for leverandørene. Hvis du vil ha informasjon om hvordan du definerer leverandørkalendere, kan du se delen "Slik tilordner du en hovedkalender".
 
-Innholdet i feltet **Beregning av leveringstid** kopieres fra varekortet eller LFE-kortet hvis leveringstiden er definert for varen, eller i vinduet **Leverandørens varekatalog** hvis leveringstiden er definert for leverandøren.
+Innholdet i feltet **Beregning av leveringstid** kopieres fra varekortet eller LFE-kortet hvis leveringstiden er definert for varen, eller på siden **Leverandørens varekatalog** hvis leveringstiden er definert for leverandøren.
 
 ## <a name="to-customize-a-calendar"></a>Slik tilpasser du en kalender
 Hovedoppgaven med å tilpasse en hovedkalender for selskapet, eller selskapets forretningspartner, er å angi eventuelle endringer i statusen for arbeids- eller fridager.
@@ -68,7 +68,7 @@ Følgende prosedyre bruker lokasjonen som eksempel. Merk at du på dette tidspun
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil oppdatere, og velg deretter feltet **Egendefinert kalender**. Merk at en kalender må velges i feltet **Hovedkalenderkode**.
-3. I vinduet **Egendefinerte kalenderposter** som åpnes, velger du **Vedlikehold endringer i egendefinert kalender**.
+3. På siden **Egendefinerte kalenderposter** som åpnes, velger du **Vedlikehold endringer i egendefinert kalender**.
 4. I vinduet **Endringer i egendefinert kalender** legger du til linjer for egendefinerte kalenderposter.
 
     Når du oppretter en linje, merkes det av for **Fridag**. Du kan fjerne merket hvis du vil endre statusen til en virkedag.
@@ -79,7 +79,7 @@ Følgende prosedyre bruker lokasjonen som eksempel. Merk at du på dette tidspun
 
 5. Velg **OK**.
 
-I vinduet **Egendefinerte kalenderposter** ser du at datopostene er oppdatert med endringene du gjorde.
+På siden **Egendefinerte kalenderposter** ser du at datopostene er oppdatert med endringene du gjorde.
 
 På lokasjonskortet, ser du at det står **Ja** i feltet **Egendefinert kalender**, som betyr at det er opprettet en egendefinert kalender.
 
@@ -100,7 +100,7 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 -   På **Selskapsopplysninger**- og **Kunde**-kortene tilordnes hovedkalenderen på hurtigfanen **Levering**.  
 -   På **Leverandør**-kortet er hovedkalenderen tilordnet på hurtigfanen **Mottak**.  
 -   På **Lokasjon**-kortet er hovedkalenderen tilordnet på hurtigfanen **Lager**.  
--   I **Transportører**-vinduet tilordnes hovedkalenderen i **Transportørservice**-vinduet.  
+-   På **Transportører**-siden tilordnes hovedkalenderen på **Transportørservice**-siden.  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kunder**, og velg deretter den relaterte koblingen.  
 2.  Åpne **Kunde**-kortet som du vil tilordne en hovedkalender for.  

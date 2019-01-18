@@ -13,10 +13,10 @@ ms.search.keywords: project management, capacity, staff
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c9c1ec39fcec950037193b15d04ab8dde994ff63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 362f335fa313dce9a4e75c962ef6f5a2f01ec5fd
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-resources"></a>Definere ressurser
@@ -45,29 +45,29 @@ Hvis du vil beregne hvor mye tid en ressurs kan bruke på prosjekter, må deres 
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle ressurskortet, og velg deretter handlingen **Ressurskapasitet**.
-3. I vinduet **Ressurskapasitet** i **Vis etter**-feltet, angir du lengden på perioden, for eksempel **Dag**, som vises i kolonner i hurtigfanen **Matrise for ressurskapasitet**.
+3. På siden **Ressurskapasitet** i **Vis etter**-feltet, angir du lengden på perioden, for eksempel **Dag**, som vises i kolonner i hurtigfanen **Matrise for ressurskapasitet**.
 4. For hver ressurs på en linje angir du for hver periode i kolonnene antall timer som ressursen er tilgjengelig.
 5. Hvis du vil angi detaljer om ressursens ukentlige kapasitet innenfor en start- og sluttdato, kan du også velge handlingen **Angi kapasitet**.
-6. I vinduet **Innstillinger for ressurskapasitet** fyller du ut feltene på en linje etter behov.
-7. Velg handlingen **Oppdater kapasitet**. Vinduet **Ressurskapasitet** oppdateres med den angitte kapasiteten.
-8. Lukk vinduet.
+6. På siden **Innstillinger for ressurskapasitet** fyller du ut feltene på en linje etter behov.
+7. Velg handlingen **Oppdater kapasitet**. Siden **Ressurskapasitet** oppdateres med den angitte kapasiteten.
+8. Lukk siden.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Slik definerer du alternative ressurskostpriser
 I tillegg til kostprisen som er angitt på ressurskortet, kan du definere alternative kostpriser for hver ressurs. Hvis du for eksempel betaler ansatte en høyere timesats for overtid, kan du definere en ressurskostpris for overtidssatsen. Den alternative kostprisen du definerer for ressursen, overstyrer kostprisen på ressurskortet når du bruker ressursen i ressurskladden.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.  
 2. Velg ressursen som du vil definere ett eller flere alternative kostpriser for, og velg deretter handlingen **Kostpriser**.  
-3. I vinduet **Ressurskostpriser** fyller du ut feltene på en linje etter behov.  
+3. På siden **Ressurskostpriser** fyller du ut feltene på en linje etter behov.  
 4. Gjenta trinn 3 for hvert alternativ ressurskostpris du vil definere.
 
-**Merk**. Hvis du vil definere ressurskostpriser som skal gjelde for alle ressurser og ressursgrupper, åpner du vinduet **Ressurskostpriser** og fyller ut feltene.
+**Merk**. Hvis du vil definere ressurskostpriser som skal gjelde for alle ressurser og ressursgrupper, åpner du siden **Ressurskostpriser** og fyller ut feltene.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Slik definerer du alternative ressurspriser
 I tillegg til prisen som er angitt på ressurskortet, kan du definere alternative priser for hver ressurs. Disse alternative prisene kan være betinget. De kan være avhengig av at ressursen brukes med et bestemt prosjekt eller arbeidstype.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.
 2. Velg ressursen som du vil definere ett eller flere alternative priser for, og velg deretter handlingen **Priser**.
-3. I vinduet **Ressurspriser** fyller du ut feltene på en linje etter behov.
+3. På siden **Ressurspriser** fyller du ut feltene på en linje etter behov.
 4. Gjenta trinn 3 for hvert alternativ ressurspris du vil definere.
 
 ## <a name="see-also"></a>Se også

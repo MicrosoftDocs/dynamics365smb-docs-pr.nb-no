@@ -13,10 +13,10 @@ ms.search.keywords: multiple currencies
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7d22d0849e2212d5f3586935601c6dee73f4e10b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 23940bd1e5fd29dc92e8285c08679135889701e9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
@@ -24,7 +24,7 @@ Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i
 
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere eller rapportere økonomien i mer enn én valuta. Programmet støtter bruk av flere valutaer. I programmet blir Finans definert ved hjelp av den lokale valutaen (NOK), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.  
 
- Når du angir en ny valuta som tilleggsrapporteringsvaluta, registrerer [!INCLUDE[d365fin](includes/d365fin_md.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Når finanspostbeløp beregnes i en tilleggsrapporteringsvaluta, brukes informasjonen fra **Valutakurser**-vinduet til å finne den relevante valutakursen i programmet.  
+ Når du angir en ny valuta som tilleggsrapporteringsvaluta, registrerer [!INCLUDE[d365fin](includes/d365fin_md.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Når finanspostbeløp beregnes i en tilleggsrapporteringsvaluta, brukes informasjonen fra **Valutakurser**-siden til å finne den relevante valutakursen i programmet.  
 
 > [!WARNING]  
 >  Funksjonen for tilleggsrapporteringsvaluta må IKKE brukes som grunnlag for oversettelse av årsregnskap. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta gir bare muligheten til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
@@ -39,21 +39,21 @@ Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et 
 
 - Selskaper som også vil vise rapporter i en valuta som er mer brukt internasjonalt enn den lokale valutaen.  
 
-Flere rapporter i Finans-modulen er basert på finansposter. Hvis du vil vise økonomidataene i rapporten i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** i det relevante finansrapportvinduet.  
+Flere rapporter i Finans-modulen er basert på finansposter. Hvis du vil vise økonomidataene i rapporten i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** på den relevante finansrapportsiden.  
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
 Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. I vinduet **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På siden **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Merk av for **Aktivert** for å aktivere tjenesten.
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Oppdatere valutakurser via en tjeneste
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutaer**, og velg deretter den relaterte koblingen.
 2. Velg **Oppdater valutakurser**.
 
-Verdien i **Valutakurs**-feltet i **Valutaer**-vinduet oppdateres med den nyeste valutakursen.
+Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.
 
 ## <a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  

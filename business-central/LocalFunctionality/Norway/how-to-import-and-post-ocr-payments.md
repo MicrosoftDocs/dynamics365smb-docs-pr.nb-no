@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 982987f8cc4791fc987556bcb6814abec851d3ed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf26be9f2bc2fff2bec1f369de2ad70f4247ac0d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
@@ -34,7 +34,7 @@ Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følge
     >  OCR-betalinger kan bare bokføres i en innbetalingskladd som ikke benytter en motkonto i feltet **Motkontonr.** på linjen Innbetalingskladd.  
 
 3.  Velg handlingen **Importer betalinger**.  
-4.  I vinduet **OCR-betaling - BBS** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+4.  På siden **OCR-betaling - BBS** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

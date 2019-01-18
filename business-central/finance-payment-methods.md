@@ -1,30 +1,40 @@
 ---
 title: "Definere betalingsmåter | Microsoft-dokumentasjon"
-description: "Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan en faktura skal betales."
-author: edupont04
+description: "Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan salgs- og kjøpsfakturaer skal betales."
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2018
-ms.author: edupont
+ms.date: 11/22/2018
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9583d69f91963d8ee6a69e7145930c1f6c2df955
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8cac52a1cdd4e614c6e2ef8c027e5cf499926f9d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsmåter
-Betalingsmåter definerer hvordan en faktura skal betales. Du kan definere så mange betalingsmåter du vil. Eksempler på betalingsmåter kan være BANK, KONTANTER, SJEKK eller KONTO.
-Betalingsmåter er knyttet til leverandører for å angi hvordan en faktura fra en bestemt leverandør skal betales.
+Betalingsmåter definerer hvordan du foretrekker at kunder betaler deg, og hvordan du vil betale leverandørene. Metoden kan variere for hver kunde eller leverandør. Eksempler på typiske betalingsmåter er **bank**, **kontant**, **sjekk** eller **konto**. 
 
-## <a name="to-set-up-a-payment-methods"></a>Definere betalingsmåter
-Flere vanlige betalingsmåter er allerede definert i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan definere nye betalingsmåter i vinduet **Betalingsmåter**, som du kan finne med søkefunksjonen eller åpne fra feltet **Betalingsmåte** på et leverandør- eller kundekort.
+Du kan knytte en betalingsmåte til kunder og leverandører slik at den samme metoden alltid brukes på salgs- og kjøpsdokumenter du oppretter for dem. Hvis det er nødvendig, kan du endre metoden på salgs- eller kjøpsdokumentet. Hvis du for eksempel vil betale en bestemt kjøpsfaktura kontant i stedet for med sjekk. Dette endrer ikke standard betalingsmåten som er knyttet til leverandøren.
+
+Samme betalingsmåter brukes for salgs- og kjøpsdokumenter. For eksempel en _kontant_ betalingsmåte brukes både når du foretar betalinger og når du mottar dem. [!INCLUDE[d365fin](includes/d365fin_md.md)] vet at når du oppretter en salgsfaktura, forventer du å motta betaling, og motsatt for kjøpsfakturaer. 
+
+Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte retninger, fra deg til leverandøren og fra leverandøren til deg. En standard betalingsmåte tilordnes derfor ikke til kreditnotaer. Du kan imidlertid unngå dette hvis du har angitt betalingsbetingelser for kunden eller leverandøren. Selv om feltet **Beregn kontantrab. for kred.nota** ikke er beregnet for dette, hvis du velger å merke av i boksen på **Betalingsbetingelser**, legges en standard betalingsmåte til når du oppretter en kreditnota.
+
+## <a name="to-set-up-a-payment-method"></a>Slik definerer du betalingsmåter
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Slik tilordner du en betalingsmåte til en kunde eller leverandør
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.
+2. I **Betalingsmåte**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

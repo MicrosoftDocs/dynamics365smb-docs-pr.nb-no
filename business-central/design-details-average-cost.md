@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 5c87d33bbf9d97f53e033c663532052c8aeddee9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 97bc83c402cd8bbdc34f05035dfa6c680c2e635e
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Gjennomsnittskost
@@ -23,7 +23,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
  Verdisettingsdatoen angis automatisk.  
 
 ## <a name="setting-up-average-cost-calculation"></a>Konfigurere beregning av gjennomsnittskost  
- Tabellen nedenfor beskriver de to feltene i **Lageroppsett**-vinduet som må fylles ut hvis du vil aktivere beregning av gjennomsnittskost.  
+ Tabellen nedenfor beskriver de to feltene på **Lageroppsett**-siden som må fylles ut hvis du vil aktivere beregning av gjennomsnittskost.  
 
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
@@ -33,7 +33,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 > [!NOTE]  
 >  Du kan bare bruke én gjennomsnittskostperiode og én beregningstype for gjennomsnittskost i et regnskapsår.  
 >   
->  Vinduet **Regnskapsperiode** viser hvilken gjennomsnittskostperiode og hvilken beregningstype for gjennomsnittskost som brukes i denne perioden, for hver regnskapsperiode.  
+>  Siden **Regnskapsperiode** viser hvilken gjennomsnittskostperiode og hvilken beregningstype for gjennomsnittskost som brukes i denne perioden, for hver regnskapsperiode.  
 
 ## <a name="calculating-average-cost"></a>Beregne gjennomsnittskost  
  Når du bokfører en transaksjon for en vare som bruker lagermetoden Gjennomsnitt, opprettes en post i tabellen **Utgangspunkt for justering av gjennomsnittskost**. Denne posten inneholder transaksjonens varenummer, variantkode og lokasjonskode. I tillegg inneholder posten feltet **Verdisettingsdato**, som angir den siste datoen i gjennomsnittskostperioden som transaksjonen ble bokført i.  
@@ -51,7 +51,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
  Den beregnede gjennomsnittskosten utlignes deretter mot lagerreduksjonene for varen (eller varen, lokasjonen og varianten) med bokføringsdatoer i gjennomsnittskostperioden. Hvis det finnes lagerøkninger som ble fast utlignet mot lagerreduksjoner i gjennomsnittskostperioden, blir beregnet gjennomsnittskost videresendt fra økningen til reduksjonen.  
 
 ### <a name="example-average-cost-period--day"></a>Eksempel: Gjennomsnittskostperiode = Dag  
- Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én dag. Feltet **Beregn.type for gj.snittskost** i vinduet **Lageroppsett** er satt til **Vare**.  
+ Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én dag. Feltet **Beregn.type for gj.snittskost** på siden **Lageroppsett** er satt til **Vare**.  
 
  Tabellen nedenfor viser varepostene for eksemplet på en gjennomsnittskostvare, VARE1, før kjørselen **Juster kostverdi – vareposter** er kjørt.  
 
@@ -88,7 +88,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 |03.02.20|Salg|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Eksempel: Gjennomsnittskostperiode = Måned  
- Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én måned. Feltet **Beregn.type for gj.snittskost** i vinduet **Lageroppsett** er satt til **Vare**.  
+ Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én måned. Feltet **Beregn.type for gj.snittskost** på siden **Lageroppsett** er satt til **Vare**.  
 
  Hvis gjennomsnittskostperioden er én måned, opprettes det bare én oppføring for hver kombinasjon av varenummer, variantkode, lokasjonskode og verdisettingsdato.  
 

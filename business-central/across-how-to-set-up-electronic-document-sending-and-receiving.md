@@ -8,23 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a5282d20a1d9add984a70bc63e93fb32c3278f30
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 42b56cee413dbb08f3421e95afe49c8ea1aaac03
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere sending og mottak av elektroniske dokumenter
 Som et alternativ til å sende forretningsdokumenter som filvedlegg via e-post, kan du sende og motta dem elektronisk. Med elektronisk dokument menes en standard\-kompatibel fil som representerer et forretningsdokument, for eksempel en faktura fra en leverandør som kan mottas og konverteres til en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utvekslingen av elektroniske dokumenter mellom to handelspartnere uføres ved hjelp av en ekstern leverandør av dokumentutvekslingstjenester. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende og motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. En større leverandør av dokumentutvekslingstjenester er forhåndskonfigurert og klar til å bli definert for firmaet.  
 
-Fra PDF- eller bildefiler som representerer inngående dokumenter, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å opprette elektroniske dokumenter som du deretter kan konvertere til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)], på samme måte som for elektroniske PEPPOL-dokumenter. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra vinduet **Inngående dokumenter**. Etter noen få sekunder får du filen tilbake som en elektronisk faktura som kan konverteres til en kjøpsfaktura for leverandøren. Hvis du sender filen til OCR-tjenesten via e-post, opprettes deretter en ny post for inngående dokument automatisk når du får det elektroniske dokumentet tilbake.  
+Fra PDF- eller bildefiler som representerer inngående dokumenter, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å opprette elektroniske dokumenter som du deretter kan konvertere til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)], på samme måte som for elektroniske PEPPOL-dokumenter. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Etter noen få sekunder får du filen tilbake som en elektronisk faktura som kan konverteres til en kjøpsfaktura for leverandøren. Hvis du sender filen til OCR-tjenesten via e-post, opprettes deretter en ny post for inngående dokument automatisk når du får det elektroniske dokumentet tilbake.  
 
-Det elektroniske dokumentformatet **PEPPOL** er forhåndskonfigurert, slik at du kan sende elektroniske fakturaer og kreditnotaer i PEPPOL-formatet. Først må du definere forskjellige hoveddata, for eksempel firmainformasjon, kunder, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til elementene i den utgående dokumentfilen. Til slutt må du velge formatet i vinduet **Elektronisk dokumentformat** for hver kunde du vil sende elektroniske PEPPOL-dokumenter til. Hvis du vil ha mer informasjon, kan du se [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md).  
+Det elektroniske dokumentformatet **PEPPOL** er forhåndskonfigurert, slik at du kan sende elektroniske fakturaer og kreditnotaer i PEPPOL-formatet. Først må du definere forskjellige hoveddata, for eksempel firmainformasjon, kunder, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til elementene i den utgående dokumentfilen. Til slutt må du velge formatet på siden **Elektronisk dokumentformat** for hver kunde du vil sende elektroniske PEPPOL-dokumenter til. Hvis du vil ha mer informasjon, kan du se [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md).  
 
-Datautvekslingsdefinisjonene **PEPPOL – faktura** og **PEPPOL – kreditnota** er forhåndskonfigurert, slik at du kan motta elektroniske fakturaer og kreditnotaer i PEPPO-formatet. Først må du definere forskjellige hoveddata, for eksempel firmainformasjon, leverandører, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i elementer i den innkommende dokumentfilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til slutt må du velge datautvekslingsdefinisjonen i vinduet **Innkommende dokumenter** for hvert innkommende elektroniske dokument som du vil konvertere til et kjøpsdokument i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Datautvekslingsdefinisjonene **PEPPOL – faktura** og **PEPPOL – kreditnota** er forhåndskonfigurert, slik at du kan motta elektroniske fakturaer og kreditnotaer i PEPPO-formatet. Først må du definere forskjellige hoveddata, for eksempel firmainformasjon, leverandører, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i elementer i den innkommende dokumentfilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Til slutt må du velge datautvekslingsdefinisjonen på siden **Innkommende dokumenter** for hvert innkommende elektroniske dokument som du vil konvertere til et kjøpsdokument i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Datautvekslingsdefinisjonen **OCR – faktura** er forhåndskonfigurert slik at du kan motta elektroniske dokumenter som genereres av OCR-tjenesten. Hvis du for eksempel vil motta en faktura som et elektronisk OCR-dokument, definerer du hoveddato og behandler deretter dokumentet som når du mottar et elektronisk PEPPOL-dokument. Hvis du vil ha mer informasjon, kan du se [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).  
 
@@ -67,7 +67,7 @@ Dette emnet inneholder følgende fremgangsmåter:
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**MVA-skjema**|Identifisere det nasjonale organet som utsteder organisasjonsnummeret for landet\/området i forbindelse med sending av elektroniske dokumenter.<br /><br /> Når du for eksempel sender elektroniske fakturaer i PEPPOL-formatet, brukes verdien i dette feltet til å fylle ut **SchemeID**-attributtet for **EndPointID**-elementet under **AccountingSupplierParty**-noden og **AccountingCustomerParty** i filen.<br /><br /> Feltet **MVA-skjema** brukes bare hvis feltet **GLN** i vinduet **Selskapsopplysninger** ikke er fylt ut. **Obs!**  Verdien i feltet **Kode** i vinduet **Land\/regioner** må være i overensstemmelse med ISO 3166\-1:Alpha2.|  
+    |**MVA-skjema**|Identifisere det nasjonale organet som utsteder organisasjonsnummeret for landet\/området i forbindelse med sending av elektroniske dokumenter.<br /><br /> Når du for eksempel sender elektroniske fakturaer i PEPPOL-formatet, brukes verdien i dette feltet til å fylle ut **SchemeID**-attributtet for **EndPointID**-elementet under **AccountingSupplierParty**-noden og **AccountingCustomerParty** i filen.<br /><br /> Feltet **MVA-skjema** brukes bare hvis feltet **GLN** på siden **Selskapsopplysninger** ikke er fylt ut. **Obs!**  Verdien i feltet **Kode** på siden **Land\/regioner** må være i overensstemmelse med ISO 3166\-1:Alpha2.|  
 
 ### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Slik konfigurerer du varer for sending og mottak av elektroniske dokumenter  
 1. Skriv inn **Varer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
@@ -100,7 +100,7 @@ Dette emnet inneholder følgende fremgangsmåter:
 ### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Slik velger du det elektroniske PEPPOL-dokumentformat for sending av elektroniske dokumenter  
 1. Skriv inn **Profiler for dokumentsending** i **Søk**-boksen, og velg deretter den tilknyttede koblingen.  
 2. Åpne et eksisterende dokument, sende profilen, eller opprette en ny. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).  
-3. I vinduet **Profil for dokumentsending** velger du **Elektronisk format**, velger linjen for PEPPOL og velger deretter **OK**.  
+3. På siden **Profil for dokumentsending** velger du **Elektronisk format**, velger linjen for PEPPOL og velger deretter **OK**.  
 4. I feltet **Elektronisk dokument** velger du **Ja (Gjennom dokumentutvekslingstjeneste)**.  
 
     > [!NOTE]  
@@ -126,11 +126,11 @@ Dette emnet inneholder følgende fremgangsmåter:
 
      Hvis dokumentet du skal motta, er en kreditnota, velger du **PEPPOLCREDITMEMO**.  
 
-    Du kan nå motta det elektroniske dokumentet ved å starte datakonverteringsprosessen i vinduet **Inngående dokumenter**. Hvis du vil ha mer informasjon, kan du se [Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md).  
+    Du kan nå motta det elektroniske dokumentet ved å starte datakonverteringsprosessen på siden **Inngående dokumenter**. Hvis du vil ha mer informasjon, kan du se [Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
 ### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Slik konfigurerer du finanskontoen til bruk på nye kjøpsfakturalinjer for ikke-identifiserbare varer og elementer som ikke er varer  
-1. Skriv inn **Kjøp og leverandørkonto** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Datautveksling** .  
+1. Skriv inn **Kjøpsoppsett** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+2. Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Standardkontoer** .  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  

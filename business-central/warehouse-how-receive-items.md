@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fcbecbf6a90e60a49c7861e16614b98174379bed
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e56105cbd2410befea964c5445d8227021058d4f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="receive-items"></a>Motta varer
 Når varene ankommer et lager som ikke er definert til lagermottaksbehandling, må du ganske enkelt registrere mottaket i det relaterte forretningsdokumentet, for eksempel en bestilling, en ordreretur eller en inngående overføringsordre.
 
-Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket. &#160:Hvis du har hyller, kan du godta standardhyllen som fylles ut eller, hvis varen ikke har vært i lageret tidligere, fylle ut hyllen der varen skal plasseres. Deretter må du fylle ut antall barer du har mottatt, og bokføre mottaket.  
+Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket. Hvis du har hyller, kan du godta standardhyllen som fylles ut eller, hvis varen ikke har vært i lageret tidligere, fylle ut hyllen der varen skal plasseres. Deretter må du fylle ut antall barer du har mottatt, og bokføre mottaket.  
 
 ## <a name="to-receive-items-with-a-purchase-order"></a>Slik mottar du varer med bestilling
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for ordrereturer og overføringsordrer.  
@@ -43,22 +43,22 @@ Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten e
 
     > [!NOTE]  
     >  Hvis du vil motta varer med andre lagerklassekoder enn lagerklassekoden til hyllen i feltet **Hyllekode** i dokumenthodet, må du slette innholdet i feltet **Hyllekode** fra hodet før du henter kildedokumentlinjene for varene.  
-3.  Velg handlingen **Hent kildedokumenter**. Vinduet **Kildedokumenter** åpnes.
+3.  Velg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åpnes.
 
-    Fra et nytt eller åpent lagermottak kan du bruke vinduet **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal mottas eller leveres.
+    Fra et nytt eller åpent lagermottak kan du bruke siden **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal mottas eller leveres.
 
     1. Velg handlingen **Bruk filtre til å hente k.dok...**.  
     2. Hvis du vil definere et nytt filter, angir du en beskrivende kode i feltet **Kode** og velger deretter handlingen **Endre**.  
     3. Definer typen kildedokumentlinjer som du vil hente, ved å fylle ut de relevante filterfeltene.  
     4. Velg handlingen **Kjør**.  
 
-    Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, settes nå inn i vinduet **Lagermottak** der du aktiverte filterfunksjonen.  
+    Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, settes nå inn på siden **Lagermottak** der du aktiverte filterfunksjonen.  
 
-    Filterkombinasjonene du definerer, lagres i vinduet **Filtre for henting av kildedok** til neste gang du trenger dem. Du kan opprette et ubegrenset antall filterkombinasjoner. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
+    Filterkombinasjonene du definerer, lagres på siden **Filtre for henting av kildedok** til neste gang du trenger dem. Du kan opprette et ubegrenset antall filterkombinasjoner. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
 
 4.  Velg kildedokumentene som du vil motta varer for, og velg deretter **OK**-knappen.  
 
-    Linjene i kildedokumentet vises i vinduet **Lagermottak**. Feltet **Motta (antall)** er fylt ut med antall utestående for hver linje, men du kan endre antallet slik det er nødvendig. Hvis du sletter innholdet i feltet **Hyllekode** i hurtigfanen **Generelt** før du henter linjene, må du fylle ut riktig hyllekode på hver mottakslinje.  
+    Linjene i kildedokumentet vises på siden **Lagermottak**. Feltet **Motta (antall)** er fylt ut med antall utestående for hver linje, men du kan endre antallet slik det er nødvendig. Hvis du sletter innholdet i feltet **Hyllekode** i hurtigfanen **Generelt** før du henter linjene, må du fylle ut riktig hyllekode på hver mottakslinje.  
 
     > [!NOTE]  
     >  Når du skal fylle ut **Motta (antall)**-feltet på alle linjene med null, velger du handlingen **Slett antall som skal mottas**. Hvis du vil fylle det ut på nytt med restantallet, velger du handlingen **Autoutfyll ant som skal mottas**.  

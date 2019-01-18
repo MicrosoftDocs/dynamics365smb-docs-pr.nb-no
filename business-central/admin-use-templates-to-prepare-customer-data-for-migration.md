@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8724bf11537b384ae88960e40f24f1d9dbbbd484
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Klargjøre for å flytte kundedata
@@ -45,32 +45,46 @@ Når du velger en eksisterende datamal, må du vurdere om malene som du opprette
 >  Du kan også bruke datamaler til raskt å opprette nye poster. Bruk dem til å opprette data raskere og mer nøyaktig. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Konfigurer malliste** velger du en datamal fra oversikten, og velger deretter **Rediger**-handlingen.  
+2. På siden **Konfigurasjonsmaler** velger du en datamal fra oversikten, og velger deretter **Rediger**-handlingen.  
 
 Hvis standardmalene ikke oppfyller dine behov, kan du opprette nye maler eller legge til felt i en eksisterende mal. Hvis standardmalene er tilstrekkelige, kan du bruke dem til å opprette poster basert på maler for hoveddata.
 
-## <a name="to-create-a-data-template"></a>Slik oppretter du en datamal:
+## <a name="to-create-a-new-data-template"></a>Opprette en ny datamal
 Du kan opprette en ny datamal hvis standardmalene ikke oppfyller behovene til det nye selskapet. Hvis du oppretter flere, det kan være praktisk å bruke en navnekonvensjon for **Kode**-feltet.
 
 Hver mal består av et hode og linjer. Når du oppretter en mal, kan du angi hvilke felt som alltid skal gjelde for data av en bestemt type. Du kan for eksempel opprette ulike kundemaler som du vil bruke for ulike kundetyper. Når du oppretter kunden ved hjelp av en mal, kan du bruke maldata for å fylle ut bestemte felt på forhånd.
 
-### <a name="to-create-a-data-template-header"></a>Slik oppretter du et datamalhode:
-1. Åpne vinduet **Konfigurer malliste**.
+### <a name="to-copy-an-existing-data-template"></a>Kopiere en eksisterende datamal
+Du kan raskt opprette en ny datamal ved å kopiere informasjon fra en eksisterende datamal, som du deretter kan redigere.
+
+1. Åpne siden **Konfigurasjonsmaler**.
 2. Velg handlingen **Ny**.
+3. Fyll ut **Kode**-feltet.
+4. Velg handlingen **Kopier konfigurasjonsmal**.
+5. På siden **Konfigurasjonsmaler** velger du en eksisterende mal for kopiering, og velger deretter **OK**-knappen.
+
+Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i den nye malen.
+
+### <a name="to-create-a-data-template-header-manually"></a>Opprette et datamalhode manuelt
+1. Åpne siden **Konfigurasjonsmaler**.
+2. Velg handlingen **Ny**.
+3. Fyll ut **Kode**-feltet.
 3. Angi tabellen som denne malen skal brukes på, i **Tabell-ID**-feltet. **Tabellnavn**-feltet fylles automatisk ut når **Tabell-ID**-feltet er angitt.
 
-### <a name="to-create-a-data-template-line"></a>Slik oppretter du en datamallinje:
-1. På den første linjen velger du **Feltnavn**-feltet. **Feltoversikt**-vinduet viser listen over felt i tabellen.
+### <a name="to-create-a-data-template-line-manually"></a>Opprette en datamallinje manuelt
+1. På den første linjen velger du **Feltnavn**-feltet. **Feltoversikt**-siden viser listen over felt i tabellen.
 2. Velg et felt og deretter **OK**-knappen. Feltet **Felttekst** er fylt ut med feltnavnet.
 3. Angi en aktuell verdi i **Standardverdi**-feltet. I noen tilfeller vil du kanskje bruke en verdi som ikke finnes i databasen. I dette tilfellet kan du merke av for **Hopp over relasjonskontroll**, slik at du kan bruke data uten å få feil.
 
     > [!TIP]  
     > Siden **Standardverdi**-feltet ikke har et oppslag for tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltalternativer, kopierer du verdien du vil bruke fra den tilknyttede siden og limer den inn i malen.
 
-    > Merk av for **Obligatorisk**. Avmerkingsboksen er kun veiledende. Den forteller deg at informasjon må angis i feltet av brukeren, men det fremtvinges ingen forretningslogikk. Du kan for eksempel ikke fakturere og bokføre en ordre hvis du ikke har definert bokføringsgrupper. Siden du må bruke bokføringsgrupper, kan du velge avmerkingsboksen **Obligatorisk** for disse feltene.
+4. Merk av for **Obligatorisk** hvis brukere må fylle ut det aktuelle feltet.
 
-3. Angi informasjon om feltet etter behov i **Referanse**-feltet.
-4. Velg **OK**.
+    > [!NOTE]
+    > Avmerkingsboksen er kun veiledende. Ingen forretningslogikk fremtvinges. Brukere kan for eksempel ikke bokføre en faktura hvis det ikke er definert bokføringsgrupper. Du kan merke av for **Obligatorisk** for disse feltene slik at brukeren fyller dem ut, og dermed unngå en bokføringsfeil senere.
+5. Angi informasjon om feltet etter behov i **Referanse**-feltet.
+6. Velg **OK**.
 
 ## <a name="to-export-to-a-template-in-excel"></a>Slik eksporterer du til en mal i Excel:
 Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -87,7 +101,7 @@ Du kan nå angi kundedata i Excel-regnearket. Hvis du har eksportert flere tabel
 > Følgende feil kan oppstå hvis du kjører en engelsk versjon av Excel når de regionale innstillingene er konfigurert for et annet språk enn engelsk: Gammelt format eller ugyldig typebibliotek. Når du skal rette denne feilen, må du passe på at språkpakken for andre språk enn engelsk er installert.
 
 ## <a name="to-import-from-a-template-in-excel"></a>Slik importerer du fra en mal i Excel:
-1. I vinduet **Konfigurer forslag** velger du **Importer fra mal**-handlingen.
+1. På siden **Konfigurasjonsforslag** velger du **Importer fra mal**-handlingen.
 3. Gå til malforslaget du har opprettet, og velg deretter **Åpne**-handlingen.
 4. Hvis du vil legge til samlede kundedata i databasen, kan du velge **Bruk data**-handlingen.
 
@@ -117,8 +131,8 @@ Du kan bruke en datamal for en hvilken som helst post i [!INCLUDE[d365fin](inclu
 Følgende fremgangsmåte er basert på et nytt kundekort.  
 
 1. Opprett en kunde. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
-2. I vinduet **Kundekort** velger du handlingen **Bruk mal**.  
-3. I vinduet **Kundemaler** velger du en av malene, og deretter velger du **OK**-knappen.  
+2. På siden **Kundekort** velger du handlingen **Bruk mal**.  
+3. På siden **Kundemaler** velger du en av malene, og deretter velger du **OK**-knappen.  
 
 Standardverdiene fra den valgte kundemalen settes inn på kundekortet.
 

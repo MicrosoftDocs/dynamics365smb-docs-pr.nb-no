@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 90d25c9c5c5687109387c548a273f4457691e151
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5fd4bedcef6fcec79b1b2c8744c7c08d8170d97e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
@@ -32,7 +32,7 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
 ## <a name="quantity-available-to-pick"></a>Antall tilgjengelig for plukk  
  Hvis for eksempel plukkalgoritmen tar hensyn til vareantall som er reservert for en ventende ordrelevering, kan disse varene plukkes for en annen ordre som er sendt tidligere, noe som hindrer at det første salget fullføres. For å unngå denne situasjonen trekker plukkealgoritmen fra antall som er reservert for andre utgående dokumenter, antall i eksisterende plukkdokumenter og antall som er plukket, men ennå ikke er levert eller forbrukt.  
 
- Resultatet vises i feltet **Disp. antall som kan plukkes** i vinduet **Plukkforslag**, der feltet beregnes dynamisk. Verdien beregnes også når brukere oppretter plukkinger direkte for utgående dokumenter. Slike utgående dokumenter kan være ordrer, produksjonsforbruk eller utgående overføringer, der resultatet gjenspeiles i de tilknyttede antallsfeltene, for eksempel **Ant. som skal håndt.**.  
+ Resultatet vises i feltet **Disp. antall som kan plukkes** på siden **Plukkforslag**, der feltet beregnes dynamisk. Verdien beregnes også når brukere oppretter plukkinger direkte for utgående dokumenter. Slike utgående dokumenter kan være ordrer, produksjonsforbruk eller utgående overføringer, der resultatet gjenspeiles i de tilknyttede antallsfeltene, for eksempel **Ant. som skal håndt.**.  
 
 > [!NOTE]  
 >  Når det gjelder reservasjonsprioriteter, blir antallet som skal reserveres trukket fra antallet som er tilgjengelige for plukk. Hvis for eksempel antallet som er tilgjengelig i plukkhyller er 5 enheter, men 100 enheter er i plasseringshyller, vil det vises en feilmelding når du prøver å reservere flere enn 5 enheter for en annen ordre, fordi resten av antallet må være tilgjengelig i plukkhyller.  
@@ -58,9 +58,9 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
 -   Antall i til montering-hyller  
 -   Antall i justeringshyller  
 
- Resultatet vises i feltet **Totalt disp. antall** i **Reservasjon**-vinduet.  
+ Resultatet vises i feltet **Totalt disp. antall** på **Reservasjon**-siden.  
 
- Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** i **Reservasjon**-vinduet.  
+ Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** på **Reservasjon**-siden.  
 
 ### <a name="calculating-the-quantity-available-to-reserve"></a>Beregne antall tilgjengelig for reservasjon  
  Antallet som er disponibelt for reservasjon, beregnes som følger:  

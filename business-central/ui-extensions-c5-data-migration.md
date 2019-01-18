@@ -13,10 +13,10 @@ ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a10c05116e97cdf000bd46258a9d67f4c9910c90
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -103,11 +103,8 @@ Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [
 2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Datamigrering** og deretter velge **Datamigrering**.  
 3. Fullfør trinnene i den assisterte oppsettsveiledningen. Pass på at du velger **Importer fra Microsoft Dynamcis C5 2012** som datakilde.  
 
-> [!Note]
-> Firmaer legger ofte til felt for å tilpasse C5 til deres bestemte bransjer. [!INCLUDE[d365fin](includes/d365fin_md.md)] flytter ikke data fra egendefinerte felt. Migreringen mislykkes også hvis du har flere enn 10 egendefinerte felt.
-
 ## <a name="viewing-the-status-of-the-migration"></a>Se statusen for migreringen
-Bruk vinduet **Oversikt over datamigrering** for å overvåke migreringen. Siden viser informasjon om hvor mange enheter som er inkludert i migreringen, status til migreringen, antall varer som er migrert, og om migreringen var vellykket. Den viser også antall feil, gir deg mulighet til å undersøke hva som gikk feil, og gjør det enkelt å gå til enheten for å løse problemene. Hvis du vil ha mer informasjon, kan du se neste avsnitt i dette emnet.  
+Bruk siden **Oversikt over datamigrering** for å overvåke migreringen. Siden viser informasjon om hvor mange enheter som er inkludert i migreringen, status til migreringen, antall varer som er migrert, og om migreringen var vellykket. Den viser også antall feil, gir deg mulighet til å undersøke hva som gikk feil, og gjør det enkelt å gå til enheten for å løse problemene. Hvis du vil ha mer informasjon, kan du se neste avsnitt i dette emnet.  
 
 > [!Note]
 > Mens du venter på resultatet av overføringen, må du oppdatere siden for å vise resultatet.
@@ -120,12 +117,12 @@ For å unngå dobbel bokføring i Finans brukes følgende balansekonti for åpne
 * For varer oppretter vi et generelt bokføringsoppsett, der justeringskontoen er kontoen som er angitt som lagerkonto i lagerbokføringsoppsettet.  
 
 ## <a name="correcting-errors"></a>Feilkorrigering
-Hvis det oppstår en feil, viser **Status**-feltet **Fullført med feil**, og **Feilantall** viser hvor mange feil som oppsto. For å se en oversikt over feilene, kan du åpne vinduet **Datamigreringsfeil** ved å velge:  
+Hvis det oppstår en feil, viser **Status**-feltet **Fullført med feil**, og **Feilantall** viser hvor mange feil som oppsto. For å se en oversikt over feilene, kan du åpne siden **Datamigreringsfeil** ved å velge:  
 
 * Tallet i feltet **Feilantall** for enheten.  
 * Enheten og velg deretter handlingen **Vis feil**.  
 
-For å korrigere en feil kan du velge en feilmelding i vinduet **Datamigreringsfeil**, og deretter velge **Rediger post** for å vise de migrerte dataene for enheten. Hvis du har flere feil som må løses, kan du velge **Massereparasjon av feil** for å redigere enhetene i en liste. Du må fortsatt åpne enkeltposter hvis årsaken til feilen blr forårsaket av en relatert post. For eksempel overføres en leverandør ikke hvis en e-postadresse til en av kontaktene har ugyldig format.
+For å korrigere en feil kan du velge en feilmelding på siden **Datamigreringsfeil** og deretter velge **Rediger post** for å vise de migrerte dataene for enheten. Hvis du har flere feil som må løses, kan du velge **Massereparasjon av feil** for å redigere enhetene i en liste. Du må fortsatt åpne enkeltposter hvis årsaken til feilen blr forårsaket av en relatert post. For eksempel overføres en leverandør ikke hvis en e-postadresse til en av kontaktene har ugyldig format.
 
 Etter at du har korrigert én eller flere feil, kan du velge **Migrer** for å migrere enheten du har korrigert, uten å starte hele migrerringen på nytt.  
 

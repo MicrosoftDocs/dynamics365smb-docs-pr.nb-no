@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-define-and-allocate-costs
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f49faba7360ccf2e93ab62176752a503335f3f1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d8eb48485f0889f4f10931c6642090f8290fe393
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-allocation-source-and-targets"></a>Definere fordelingskilde og -mål
@@ -25,7 +25,7 @@ Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. 
 
 ## <a name="to-set-up-cost-allocations"></a>Definere kostfordelinger  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Kostfordeling** velger du **Rediger**.  
+2.  På siden **Kostfordeling** velger du **Rediger**.  
 3.  Angi en ID for fordelingskilde i **ID**-feltet.  
 4.  Definer et nivå som et tall mellom 1 og 99 i **Nivå**-feltet. Fordelingsbokføringen vil følge rekkefølgen på nivåene.  
 5.  Angi en kosttype for å definere hvilke kosttyper som skal fordeles, i feltet **Kosttypeområde**. Hvis all kost for en kosttype fordeles, defineres ikke område.  

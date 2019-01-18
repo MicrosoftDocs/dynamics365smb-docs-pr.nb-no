@@ -13,10 +13,10 @@ ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fc3f1c3d8a8baab17695c22afb00c35413504ce8
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: dbf1658893d5210c38994302ae817afa7349884a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
@@ -33,7 +33,7 @@ En overføringsordre er ganske lik andre ordre i programmet. I bakgrunnen er det
 
 Ett grunnleggende aspekt som gjør at overføringer i planleggingen er forskjellig fra bestillinger og produksjonsordrer, er at en overføringslinje representerer behov og forsyning samtidig. Den utgående delen, som leveres fra den gamle lokasjonen, er behov. Den inngående delen, som skal mottas på den nye lokasjonen, er forsyning på denne lokasjonen.  
 
-![Innholdet i vinduet Overføringsordre](media/nav_app_supply_planning_7_transfers3.png "Innholdet i vinduet Overføringsordre")  
+![Innholdet på siden Overføringsordre](media/nav_app_supply_planning_7_transfers3.png "Innholdet på siden Overføringsordre")  
 
 Dette betyr at når systemet endrer forsyningssiden av overføringen, må det gjøre en lignende endring på behovssiden.  
 
@@ -64,7 +64,7 @@ Overføringsnivåkoden er et internt felt som beregnes og lagres automatisk i LF
 
 Overføringsnivåkoden blir 0 for LFEer med etterfyllingssystemet Kjøp eller Prod.ordre, og blir -1 for det første overføringsnivået, -2 for det andre og så videre. I overføringskjeden som er beskrevet ovenfor, vil nivåene derfor være -1 for RØD og -2 for GRØNN, som vist i illustrasjonen nedenfor.  
 
-![Innholdet i vinduet LFE-kort](media/nav_app_supply_planning_7_transfers6.gif "Innholdet i vinduet LFE-kort")  
+![Innholdet på siden LFE-kort](media/nav_app_supply_planning_7_transfers6.gif "Innholdet på siden LFE-kort")  
 
 Når en LFE oppdateres, registrerer planleggingssystemet om LFEer med etterfyllingssystemet Overfør er definert med sirkelreferanser.  
 
@@ -135,7 +135,7 @@ I dette eksemplet betyr dette at:
 * Sluttdato + inngående håndtering = mottaksdato  
 
 ## <a name="safety-lead-time"></a>Sikkerhetsleveringstid  
-Feltet Standard sikkerhetstid i Produksjonsoppsett-vinduet og det tilknyttede feltet Sikkerhetsleveringstid på varekortet tas ikke med i betraktningen når en overføringsordre beregnes. Sikkerhetsleveringstiden vil imidlertid fremdeles påvirke den totale planen, slik det vil påvirke etterfyllingsordren (bestilling eller produksjon) i begynnelsen av overføringskjeden når varene blir plassert på lokasjonen de skal overføres fra.  
+Feltet Standard sikkerhetstid på Produksjonsoppsett-siden og det tilknyttede feltet Sikkerhetsleveringstid på varekortet tas ikke med i betraktningen når en overføringsordre beregnes. Sikkerhetsleveringstiden vil imidlertid fremdeles påvirke den totale planen, slik det vil påvirke etterfyllingsordren (bestilling eller produksjon) i begynnelsen av overføringskjeden når varene blir plassert på lokasjonen de skal overføres fra.  
 
 ![Elementer fra forfallsdato for overføring](media/nav_app_supply_planning_7_transfers14.png "Elementer fra forfallsdato for overføring")  
 

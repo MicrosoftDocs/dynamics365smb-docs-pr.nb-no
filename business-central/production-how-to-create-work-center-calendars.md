@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d45b76e137dd2e8da752be489d16ac536da265e1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 55cefad889557df37d8869926ee7e200cd145d03
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
@@ -39,7 +39,7 @@ Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
 4.  Velg **Virkedager**-handlingen.
-5.  I vinduet **Prod.kalender - virkedager**definerer du en fullstendig arbeidsuke med start- og sluttidspunkt for hver enkelt dag.  
+5.  På siden **Prod.kalender - virkedager** definerer du en fullstendig arbeidsuke med start- og sluttidspunkt for hver enkelt dag.  
 
     Velg et av skiftene du har definert tidligere, i feltet **Arbeidsskiftkode**. Legg til en linje for hver arbeidsdag og hvert skift. Eksempel:  
 
@@ -55,10 +55,10 @@ Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én
 
     Ukedager du ikke definerer i produksjonskalenderen, for eksempel lørdag og søndag, anses ganske enkelt som fridager og har ingen verdi for disponibel kapasitet i en arbeidssenterkalender.  
 
-    Når alle virkedager i en uke er definert, kan du lukke vinduet **Prod.kalender - virkedager** og fortsette med å registrere ferier.  
+    Når alle virkedager i en uke er definert, kan du lukke siden **Prod.kalender - virkedager** og fortsette med å registrere ferie.  
 
-6.  I vinduet **Produksjonskalendere** velger du produksjonskalenderen og velger deretter **Ferie**-handlingen.
-7. I vinduet **Prod.kalender - ferie** definerer du årets ferier ved å angi startdato/-klokkeslett, sluttidspunkt og beskrivelse av hver ferie på egne linjer, for eksempel på følgende måte. Eksempel:  
+6.  På siden **Produksjonskalendere** velger du produksjonskalenderen og velger deretter **Ferie**-handlingen.
+7. På siden **Prod.kalender - ferie** definerer du årets ferier ved å angi startdato/-klokkeslett, sluttidspunkt og beskrivelse av hver ferie på egne linjer, for eksempel på følgende måte. Eksempel:  
 
     04/07/14 0:00:00 23:59:00 Sommerferie  
     05/07/14 0:00:00 23:59:00 Sommerferie  
@@ -74,12 +74,12 @@ Produksjonskalenderen kan nå tilordnes til et arbeidssenter for å beregne prod
 2. Åpne arbeidssenteret som du vil oppdatere.  
 3. I feltet **Produksjonskalenderkode** velger du hvilken produksjonskalender som skal brukes som grunnlag for en arbeidssenterkalender.  
 4. Velg handlingen **Kalender**.  
-5. I vinduet **Arbeidssenterkalender** velger du **Vis matrise**.  
+5. På siden **Arbeidssenterkalender** velger du **Vis matrise**.  
 
-    Til venstre i matrisevinduet vises arbeidssentrene som er definert. Til høyre vises en kalender med verdier for disponibel kapasitet for hver virkedag i den definerte enheten, for eksempel **480** minutter. Hver linje representerer kalenderen for ett arbeidssenter.  
+    Til venstre på matrisesiden vises arbeidssentrene som er definert. Til høyre vises en kalender med verdier for disponibel kapasitet for hver virkedag i den definerte enheten, for eksempel **480** minutter. Hver linje representerer kalenderen for ett arbeidssenter.  
 
     > [!NOTE]  
-    >  Du kan også vise kapasitetsverdiene for hver uke eller måned ved å endre valget i **Vis etter**-feltet i vinduet **Arbeidssenterkalender**.  
+    >  Du kan også vise kapasitetsverdiene for hver uke eller måned ved å endre valget i **Vis etter**-feltet på siden **Arbeidssenterkalender**.  
 
     Hvis du vil gjenspeile den nye produksjonskalenderen som en linje i det valgte arbeidssenteret, må den først beregnes.  
 
@@ -97,13 +97,13 @@ Kalenderposter opprettes eller oppdateres nå med visning av disponibel kapasite
 Den beregnede arbeidssenterkalenderen definerer nå når og hvor stor kapasitet som er tilgjengelig ved dette arbeidssenteret. Dette kontrollerer den detaljerte tidsplanleggingen av operasjoner som utføres ved arbeidssenteret.  
 
 ## <a name="to-record-work-center-absence"></a>Slik registrerer du fravær ved et arbeidssenter  
-1.  I vinduet **Arbeidssenterkalender** velger du **Vis matrise**.
-2. I vinduet **Matrise for arbeidssenterkalender** velger du arbeidssenteret og kalenderdagen når fraværstiden skal registreres. Deretter velger du **Fravær**.  
-3.  I **Fravær**-vinduet definerer du starttidspunktet, sluttidspunktet og beskrivelsen av dagens fravær. Eksempel:  
+1.  På siden **Arbeidssenterkalender** velger du **Vis matrise**.
+2. På siden **Matrise for arbeidssenterkalender** velger du arbeidssenteret og kalenderdagen når fraværstiden skal registreres. Deretter velger du **Fravær**.  
+3.  På **Fravær**-siden definerer du starttidspunktet, sluttidspunktet og beskrivelsen av dagens fravær. Eksempel:  
 
     25/01/01 08:00 10:00 Vedlikehold  
 
-4.  Velg **Oppdater**-handlingen, og lukk deretter **Fravær**-vinduet.  
+4.  Velg **Oppdater**-handlingen, og lukk deretter **Fravær**-siden.  
 
 Kapasiteten for den valgte dagen er nå redusert med den registrerte fraværstiden.  
 

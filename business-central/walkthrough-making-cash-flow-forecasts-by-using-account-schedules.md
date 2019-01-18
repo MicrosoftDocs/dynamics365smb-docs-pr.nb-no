@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 59264fada4455f3f0a40ba225d45159d2fb77194
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 652a151ff50c8492b3dc7df5d17c04ff2d00faad
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
@@ -51,7 +51,7 @@ Et kontoskjema består av et navn på kontoskjemaet for kontantstrøm med en rek
 ### <a name="to-set-up-a-new-account-schedule-name"></a>Slik definerer du et nytt kontoskjemanavn  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
-2.  Velg **Ny** i vinduet **Kontoskjemanavn** for å opprette et nytt navn for kontantstrømkontoskjema..  
+2.  Velg **Ny** på siden **Kontoskjemanavn** for å opprette et nytt navn for kontantstrømkontoskjema.  
 3.  I **Navn**-feltet angir du **Prognose**.  
 4.  I **Beskrivelse**-feltet angir du **Kontantstrømprognose**.  
 5.  La feltene **Standard kolonneoppsett** og **Analysevisningsnavn** være tomme.  
@@ -61,8 +61,8 @@ Etter at et kontoskjemanavn er angitt, definerer Ken hver linje som vises i kont
 
 ### <a name="to-set-up-account-schedule-lines"></a>Definere kontoskjemalinjer  
 
-1.  Velg det nye kontoskjemanavnet for **Prognose** du har opprettet, i vinduet **Kontoskjemanavn**. I fanebladet **Hjem**, under **Prosess**, velger du **Rediger kontoskjema**.  
-2.  I vinduet **Kontoskjema** angir du hver linje nøyaktig, som vist i tabellen nedenfor.  
+1.  Velg det nye kontoskjemanavnet for **Prognose** du har opprettet, på siden **Kontoskjemanavn**. I fanebladet **Hjem**, under **Prosess**, velger du **Rediger kontoskjema**.  
+2.  På siden **Kontoskjema** angir du hver linje nøyaktig, som vist i tabellen nedenfor.  
 
     > [!NOTE]  
     >  Du kan bruke funksjonen **Sett inn kontantstrømkonti** til raskt å merke kontantstrømkontoene i kontantstrømkontoplanen og kopiere dem til kontoskjemalinjer.  
@@ -79,12 +79,12 @@ Ken er nå klar til å tilordne kolonneoppsettet til kontoskjemanavnet.
 
 ### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Slik tilordner du kolonneoppsettet til kontoskjemanavnet:  
 
-1.  I vinduet **Kontoskjemanavn** velger du **Prognose** i **Navn**-feltet.  
+1.  På siden **Kontoskjemanavn** velger du **Prognose** i **Navn**-feltet.  
 2.  Velg kolonneoppsettet **Kontantstrøm** i feltet **Standard kolonneoppsett** for å bruke det som standard kolonneoppsett.  
 
 ### <a name="to-view-and-print-the-cash-flow-forecast"></a>Slik viser og skriver du ut kontantstrømprognosen:  
-1.  Velg **Oversikt**-handlingen i vinduet **Kontoskjemanavn** for å vise kontantstrømprognosen.  
-2.  I vinduet **Kto.skjemaoversikt** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
+1.  Velg **Oversikt**-handlingen på siden **Kontoskjemanavn** for å vise kontantstrømprognosen.  
+2.  På siden **Kto.skjemaoversikt** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
 3.  Velg **Skriv ut**-handlingen for å skrive ut kontantstrømprognosen.  
 
 ## <a name="see-also"></a>Se også  

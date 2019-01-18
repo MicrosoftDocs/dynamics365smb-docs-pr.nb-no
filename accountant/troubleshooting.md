@@ -11,10 +11,10 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.date: 10/23/2017
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: acef03f32124c5983846bc6ed0c4d332c9c8b347
-ms.openlocfilehash: e4f739e13123054527bf3116aec2c8c4133537e6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0ebd99e9097e4c701038f3b8be7a07d1e80a4b31
 ms.contentlocale: nb-no
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="troubleshooting-include-d365acclongincludesd365acclongmdmd"></a>Feilsøke [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -44,7 +44,7 @@ Det kan være et par årsaker, blant annet følgende:
   Klienten kan ha flere selskaper eller konsern i [!INCLUDE [d365fin](includes/d365fin_md.md)], og invitasjonen omfatter ikke alltid alle selskapene. Kontakt klienten for å sikre at du har tilgang til selskapene som klienten vil du skal arbeide i.  
 
 ## <a name="why-doesnt-the-data-refresh-in-my-dashboard"></a>Hvorfor oppdateres ikke dataene på instrumentbordet mitt?
-Når du legger til en klient eller ber om en oppdatering av dataene, henter [!INCLUDE [d365acc](includes/d365acc_md.md)] dataene. Men du må oppdatere vinduet selv, for eksempel velge handlingen Vis alle selskap på nytt, oppdatere leservinduet, navigere fra instrumentbordet og deretter tilbake igjen, eller lignende. Dette er et kjent problem som vi arbeider med å forbedre i en senere oppdatering.  
+Når du legger til en klient eller ber om en oppdatering av dataene, henter [!INCLUDE [d365acc](includes/d365acc_md.md)] dataene. Men du må oppdatere siden selv, for eksempel velge handlingen Vis alle selskap på nytt, oppdatere lesersiden, navigere fra instrumentbordet og deretter tilbake igjen, eller lignende. Dette er et kjent problem som vi arbeider med å forbedre i en senere oppdatering.  
 
 ## <a name="see-also"></a>Se også
 [Kom i gang med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  

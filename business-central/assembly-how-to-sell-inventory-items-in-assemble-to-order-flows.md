@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fe8964f46bd76d23e3f1457ad5627888ec3da012
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 5b01e3cb4d8ea09d08a546fb0af25dc0879111eb
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i monter-til-ordre-flyter
@@ -41,9 +41,9 @@ I denne fremgangsm책ten erstatter du montere-til-ordre-antall med lagerantall p�
 4.  Finn ut om alt eller noe av behovsantallet er disponibelt, i faktaboksen **Salgslinjedetaljer**.  
 5.  Trekk fra disponibelt antall i feltet **Ant. som skal monteres til ordre**, slik at bare det ikke-disponible antallet monteres til ordren. **Reservert antall**-feltet reduseres tilsvarende for 책 gjenspeile at koblingen for ordre-til-ordre eller reservasjon bare gjelder for antallet som skal monteres.  
 6.  P책 hurtigfanen **Linjer** velger du **Funksjoner** og deretter **Reserver**.  
-7.  Velg varepostlinjen eller -linjene som inneholder det disponible antallet i **Reservasjon**-vinduet, velg **Reserver fra gjeldende linje**, og klikk deretter **OK**.  
+7.  Velg varepostlinjen eller -linjene som inneholder det disponible antallet p책 **Reservasjon**-siden, velg **Reserver fra gjeldende linje**, og klikk deretter **OK**.  
 
-    I **Ordre**-vinduet viser **Reservert antall**-feltet at hele antallet p책 ordrelinjen er reservert. Feltet **Ant. som skal monteres til ordre** gjenspeiler fortsatt delantallet som skal monteres.  
+    P책 **Ordre**-siden viser **Reservert antall**-feltet at hele antallet p책 ordrelinjen er reservert. Feltet **Ant. som skal monteres til ordre** gjenspeiler fortsatt delantallet som skal monteres.  
 
 8.  Frigi ordren for plukking av lagervarene og for montering av de utilgjengelige varene. Hvis du vil ha mer informasjon, kan du se [Montere varer](assembly-how-to-assemble-items.md).  
 

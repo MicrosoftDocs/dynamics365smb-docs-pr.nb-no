@@ -1,6 +1,6 @@
 ---
 title: Vise remitteringsfeilkoder
-description: "Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen i vinduet **Ventekladd**."
+description: "Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5ab4d9ab60146cf383313117367cc8fc95d86ffc
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 39e527df69aac9efb2fe9e1f7827c588c4a30b87
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
-Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen i vinduet **Ventekladd**.  
+Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  
 
 ## <a name="to-view-error-codes"></a>Slik viser du feilkoder:  
 
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Returfeil**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Returfeil** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+2.  På siden **Returfeil** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

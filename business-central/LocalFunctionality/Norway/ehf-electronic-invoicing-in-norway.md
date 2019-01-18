@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6f6c9af3f85c8125a67a83c426ad3c124c60677c
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2eb542a1f2d9fec544ffebe7fc5eda13e4a934f1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="ehf-electronic-invoicing-in-norway"></a>EHF – Elektronisk fakturering i Norge
@@ -27,7 +27,7 @@ Hvis du vil ha mer informasjon om EHF elektronisk fakturering, kan du se [E-innk
 ## <a name="implementation-in-included365finincludesd365finmdmd"></a>Implementering i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
  Gjeldende krav for å sende elektroniske fakturaer er basert på standarden Universal Business Language (UBL) versjon 2.1. Hvis du vil ha mer informasjon, kan du se nettstedet til https://aka.ms/OasisUblSite. De genererte XML-dokumentene kan deretter sendes til kunden.  
 
- Hvis du vil sende dokumenter elektronisk, må du tilordne EAN-lokasjonsnumre (European Article Numbering) og kontokoder til de aktuelle kundene i **Kundekort**-vinduet. Du finner mer informasjon under [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md). Disse numrene inkluderes når du oppretter dokumenter, og bokfører eller utsteder dem. Nå dokumentene er bokført eller utstedt, kan du opprette elektroniske versjoner som skal sendes til kunden.  
+ Hvis du vil sende dokumenter elektronisk, må du tilordne EAN-lokasjonsnumre (European Article Numbering) og kontokoder til de aktuelle kundene på **Kundekort**-siden. Du finner mer informasjon under [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md). Disse numrene inkluderes når du oppretter dokumenter, og bokfører eller utsteder dem. Nå dokumentene er bokført eller utstedt, kan du opprette elektroniske versjoner som skal sendes til kunden.  
 
  [!INCLUDE[d365fin](../../includes/d365fin_md.md)] eksporterer enkelte elektroniske dokumenter i versjon 2.0, som bruker UBL versjon 2.1. Du kan sende følgende typer dokumenter:  
 

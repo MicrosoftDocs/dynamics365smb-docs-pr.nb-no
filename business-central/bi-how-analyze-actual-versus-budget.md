@@ -13,10 +13,10 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 17a6368e5a25ad12db05825b863ce29cd329cd39
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b21354a29c275013b7832459daec392efa6d751d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
@@ -28,14 +28,14 @@ Hvis du vil analysere budsjetterte beløp, må du først opprette finansbudsjett
 I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjettene.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.
-2. Åpne budsjettet du vil vise, i vinduet **Finansbudsjetter**.  
-3. Øverst i vinduet fyller du ut feltene etter behov for å definere det som skal vises. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Åpne budsjettet du vil vise, på siden **Finansbudsjetter**.  
+3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
 >   Hvis du har valgt **Periode** i feltet **Vis som linjer** eller feltet **Vis som kolonner**, må du fylle ut **Vis etter**-feltet. Hvis du ikke har valgt **Periode** i feltet **Vis som linjer** eller feltet **Vis som kolonner**, angir du riktig periode i **Datofilter**-feltet.  
 
 > [!NOTE]  
->   Beregningen tar bare med poster fra finansbudsjettet som har filterkodene du angir på hurtigfanen **Filtre**. Budsjettposter med andre filterkoder, eller uten filterkoder, tas ikke med. Så lenge filteret beholdes i vinduet, viser budsjettet bare budsjettpostene med disse filterkodene.  
+>   Beregningen tar bare med poster fra finansbudsjettet som har filterkodene du angir på hurtigfanen **Filtre**. Budsjettposter med andre filterkoder, eller uten filterkoder, tas ikke med. Så lenge filteret beholdes på siden, viser budsjettet bare budsjettpostene med disse filterkodene.  
 
 > [!TIP]  
 >   Hvis du vil endre budsjettet, kan du endre budsjettpostene. Velg et beløp for å vise de underliggende finansbudsjettpostene.
@@ -44,24 +44,24 @@ I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjett
 Du kan vise finansbudsjetter og sammenligne dem med reelle tall, i flere moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Kontoplan** velger du handlingen **Finanssaldo/Budsjett**.
-3. Øverst i vinduet fyller du ut feltene etter behov for å definere det som skal vises.  
+2. På siden **Kontoplan** velger du handlingen **Finanssaldo/Budsjett**.
+3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises.  
 4. Hvis du vil vise en spesifisering som utgjør beløpet som vises, velger du feltet.  
 
 > [!NOTE]  
->   Filtrene du angir i hodet, brukes på finansposter og også på budsjettposter.
+>   Filtrene du angir på sidetoppteksten, brukes på finansposter og også på budsjettposter.
 
 Kolonnene ytterst til venstre inneholder kontoplanen. Av de fem kolonnene lengst til høyr, viser de fire første de faktiske og budsjetterte debet- og kreditbeløpene for hver konto. Den femte kolonnen viser det proporsjonale forholdet mellom de faktiske og de budsjetterte beløpene på finanskontoen.  
 
 > [!TIP]  
->   Bruk **Vis etter**-feltet i vinduet **Finanssaldo/budsjett** til å velge periodelengden. Bruk **Vis som**-feltet til å velge hvordan beløpene skal beregnes, **Bevegelse** eller **Saldo per dato**. Velg handlingen **Forrige periode** eller **Neste periode** for å endre perioden.  
+>   Bruk **Vis etter**-feltet på siden **Finanssaldo/budsjett** til å velge periodelengden. Bruk **Vis som**-feltet til å velge hvordan beløpene skal beregnes, **Bevegelse** eller **Saldo per dato**. Velg handlingen **Forrige periode** eller **Neste periode** for å endre perioden.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Slik viser du faktiske og budsjetterte beløp for flere perioder  
 I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én enkelt periode, kan du vise et antall perioder for én enkelt konto.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Kontoplan** velger du den aktuelle finanskontoen, og deretter velger du handlingen **Finanskontosaldo/Budsjett**.  
-3. Øverst i vinduet fyller du ut feltene etter behov for å definere det som skal vises.   
+2. På siden **Kontoplan** velger du den aktuelle finanskontoen, og deretter velger du handlingen **Finanskontosaldo/Budsjett**.  
+3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises.   
 4. Hvis du vil vise en spesifisering av et beløp som vises, velger du feltet.  
 
 ## <a name="see-also"></a>Se også

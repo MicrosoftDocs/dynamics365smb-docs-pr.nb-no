@@ -13,27 +13,27 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0f1800674e6f5561dc48eadde132f56b06500f98
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: aa7e25f8e1d837dde55ac05812306634c4ac37bf
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="reserve-items"></a>Reservere varer
-Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet i **Reservasjon**-vinduet.
+Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet på **Reservasjon**-siden.
 
-Hver linje i **Reservasjon**-vinduet, som du åpner for å reservere varer, viser informasjon om én type linje (salg, kjøp, kladd) eller lagerpost. Linjene beskriver hvor mange varer som kan reserveres fra hver linje- eller posttype.
+Hver linje på **Reservasjon**-siden, som du åpner for å reservere varer, viser informasjon om én type linje (salg, kjøp, kladd) eller lagerpost. Linjene beskriver hvor mange varer som kan reserveres fra hver linje- eller posttype.
 
 ## <a name="to-reserve-items-for-sales"></a>Slik reserverer du varer for salg
 Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fremgangsmåten er lignende for kjøps- service- og monteringsordrer.  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
-2.  I en ordre, i hurtigfanen **Linjer** velger du **Reserver**-handlingen. **Reservasjon**-vinduet åpnes.  
+2.  I en ordre, i hurtigfanen **Linjer** velger du **Reserver**-handlingen. **Reservasjon**-siden åpnes.  
 3. Velg linjen som inneholder varene du vil reservere.  
 4. Velg en av de følgende handlingene.  
 
     |**Funksjon**|**Beskrivelse**|
     |------------------|---------------------|  
-    |**Auto-reserver**|Hvis du vil reservere varer automatisk i **Reservasjon**-vinduet.|  
+    |**Auto-reserver**|Hvis du vil reservere varer automatisk på **Reservasjon**-siden.|  
     |**Reserver fra gjeldende linje**|Hvis du vil reservere varene i dokumentet på den valgte linjen.|  
     |**Kanseller reservasjon fra gjeldende linje**|Hvis du vil kansellere reservasjonen av varene i dokumentet på den valgte linjen.|
 
@@ -48,7 +48,7 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 2. Åpne den fast planlagte produksjonsordren du vil reservere overordnede varer for.  
 3. Velg den aktuelle produksjonsordrelinjen.  
 4. I hurtigfanen **Linjer**, velg **Reserver**.
-5. I vinduet **Reservasjon**, velg linjen **Salgslinje, ordre**, og velg deretter handlingen **Reserver fra gjeldende linje**.  
+5. På **Reservasjon**-siden velger du linjen **Salgslinje, ordre**, og velger deretter handlingen **Reserver fra gjeldende linje**.  
 
 Antallet du angav på den fast planlagte produksjonsordrelinjen, er nå reservert.
 
@@ -62,22 +62,22 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 4. På hurtigfanen **Linjer** velger du **Linje**, og deretter **Komponenter**.  
 5. Velg den aktuelle komponentlinjen.  
 6. I hurtigfanen **Linjer**, velg **Reserver**.  
-7. I vinduet **Reservasjon**, velg en linje, og velg deretter handlingen **Reserver fra gjeldende linje**.  
+7. På **Reservasjon**-siden velger en linje, og velger deretter handlingen **Reserver fra gjeldende linje**.  
 
 Antallet du angav på den fast planlagte produksjonskomponentlinjen, er nå reservert.
 
 ## <a name="to-change-a-reservation"></a>Slik endrer du en reservasjon  
 Noen ganger kan det hende du vil endre en varereservasjon.   
 1. Fra dokumentlinjen som du har reservert fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
-2. I vinduet **Reservasjon** velger du handlingen **Reservasjonsposter**.
-3. I vinduet **Reservasjonsposter** oppdaterer du **Antall**-feltet på linjen du vil endre.
+2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.
+3. På siden **Reservasjonsposter** oppdaterer du **Antall**-feltet på linjen du vil endre.
 4. Bekreft meldingen som vises, ved å velge **OK**-knappen.
 
 ## <a name="to-cancel-a-reservation"></a>Slik kansellerer du en reservasjon  
 Noen ganger kan det hende du vil kansellere en varereservasjon.   
 1. Fra dokumentlinjen som du ønsker å avbryte en reservasjon fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
-2. I vinduet **Reservasjon** velger du handlingen **Reservasjonsposter**.  
-3.  I vinduet **Reservasjonposter** velger du handlingen **Kanseller reservasjon**.  
+2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.  
+3.  På **Reservasjon**-siden velger du handlingen **Kanseller reservasjon**.  
 4.  Bekreft meldingen som vises, ved å velge **OK**-knappen.  
 
 ## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reservere et spesifikt serie- eller partinummer  
@@ -91,8 +91,8 @@ Følgende fremgangsmåte er basert på en ordre.
 3. Tilordne serie- eller partinumre til ordrelinjen. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 4. Velg handlingen **Reserver** på ordrelinjen.  
 5. Velg **Ja**-knappen for å reservere bestemte serie- eller partinumre.  
-6. Velg serie- og partinummerkombinasjonen du nettopp har tilordnet, i vinduet **Varesporingsoversikt**.  
-7. Velg **OK**-knappen for å åpne vinduet **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
+6. Velg serie- og partinummerkombinasjonen du nettopp har tilordnet, på siden **Varesporingsoversikt**.  
+7. Velg **OK**-knappen for å åpne siden **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
 8. Velg **Auto-reserver** eller **Reserver fra gjeldende linje** for å opprette reservasjonen for de spesifikke varesporingsnumrene.
 
 ## <a name="see-also"></a>Se også

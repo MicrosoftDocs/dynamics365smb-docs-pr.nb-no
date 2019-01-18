@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: c59977f847a020fbcda490893dbe15ed88ac1e5a
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 88e715ddd2c60c3eb780ffe71d80676fdea00209
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="update-standard-costs"></a>Oppdatere standardkost
@@ -40,7 +40,7 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
     5. Kjør kjørselen **Oppruller standardkost**.
     6.  Gå gjennom resultatene, og foreta nødvendige endringer.
     7.  Kjør kjørselen **Implementer endringer i standardkost**.  
-4.  Gå gjennom og bokfør vinduet **Revalueringskladd**, som er fylt ut med poster fra tidligere trinn i denne fremgangsmåten.  
+4.  Gå gjennom og bokfør siden **Revalueringskladd**, som er fylt ut med poster fra tidligere trinn i denne fremgangsmåten.  
 
 ## <a name="see-also"></a>Se også  
  [Om beregning av standardkost](finance-about-calculating-standard-cost.md)   

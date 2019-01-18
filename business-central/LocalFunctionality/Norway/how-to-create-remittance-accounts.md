@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c77e37406b3e21e48682b894a03f41e79031bdcf
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: d141a215a0262725c6599aa52628eeb50baadcc5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-remittance-accounts"></a>Opprette remitteringskontoer
@@ -29,7 +29,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
-3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** i vinduet **Remitteringskontokort**.  
+3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Remitteringskontokort**.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

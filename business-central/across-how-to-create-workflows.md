@@ -13,16 +13,16 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 9c442957947b2c7a0abc730db824ddbcb29708d6
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: b8085f02f30d28ed1362ee6cea32d398c86b1694
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-workflows"></a>Opprette arbeidsflyter
 Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
-I **Arbeidsflyt**-vinduet oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse endret av hendelsesbetingelsene og et arbeidsflytsvar med svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
+På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse endret av hendelsesbetingelsene og et arbeidsflytsvar med svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
 
 Når du oppretter arbeidsflyter, kan du kopiere trinnene fra eksisterende arbeidsflyter eller arbeidsflytmaler. Arbeidsflytmaler representerer ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-", som i "MS PIW". Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 
@@ -33,25 +33,25 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 
 ## <a name="to-create-a-workflow"></a>Slik oppretter du en arbeidsflyt:  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**. Vinduet **Arbeidsflyt** åpnes.  
+2. Velg handlingen **Ny**. Siden **Arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
-4. For å opprette en arbeidsflyt fra en arbeidsflytmal, velg **Opprett arbeidsflyt fra mal** i **Arbeidsflyter**-vinduet. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
+4. For å opprette en arbeidsflyt fra en arbeidsflytmal, velg **Opprett arbeidsflyt fra mal** på **Arbeidsflyter**-siden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 5. I **Beskrivelse**-feltet beskriver du arbeidsflyten.  
 6. I feltet **Kategori**, angi hvilken kategori arbeidsflyten tilhører.  
 7. I **Når hendelse**-feltet angir du hendelsen som må inntreffe for å starte arbeidsflyttrinnet.  
 
-    Når du velger feltet, åpnes vinduet **Arbeidsflythendelser**, der du kan velge fra alle arbeidsflythendelser som finnes.  
+    Når du velger feltet, åpnes siden **Arbeidsflythendelser**, der du kan velge fra alle arbeidsflythendelser som finnes.  
 8. I feltet **Betingelse** angir du én eller flere betingelser som må oppfylles før hendelsen i feltet **Når hendelse** kan forekomme.  
 
-    Når du velger feltet, åpnes vinduet **Hendelsesbetingelser** der du velger fra en liste over filterfelt som er aktuelle som betingelser for den aktuelle hendelsen. Du kan legge til nye filterfelt som du vil bruke som vilkår for hendelsen. Du kan angi filtre for hendelsesbetingelse på samme måte som du angir filtre på rapportforespørselssider.  
+    Når du velger feltet, åpnes siden **Hendelsesbetingelser** der du velger fra en liste over filterfelt som er aktuelle som betingelser for den aktuelle hendelsen. Du kan legge til nye filterfelt som du vil bruke som vilkår for hendelsen. Du kan angi filtre for hendelsesbetingelse på samme måte som du angir filtre på rapportforespørselssider.  
 
-    Hvis arbeidsflythendelsen er en endring av et bestemt felt i en post, åpnes **Hendelsesvilkår**-vinduet med alternativer for å velge feltet og typen endring.  
+    Hvis arbeidsflythendelsen er en endring av et bestemt felt i en post, åpnes **Hendelsesvilkår**-siden med alternativer for å velge feltet og typen endring.  
 
-    1.  For å angi en feltendring for hendelsen, velger du feltet som endres i **Hendelsesvilkår**-vinduet i **Felt**-feltet.  
+    1.  For å angi en feltendring for hendelsen, velger du feltet som endres på **Hendelsesvilkår**-siden i **Felt**-feltet.  
     2.  I **Operator**-feltet velger du enten **Redusert**, **Økt** eller **Endret**.  
 9. I feltet **Så svar** angir du svaret som skal følge når arbeidsflythendelsen inntreffer.  
 
-     Når du velger feltet, åpnes vinduet **Arbeidsflytsvar**, der du kan velge fra alle arbeidsflytsvar som finnes, og angi svaralternativer for det valgte svaret.  
+     Når du velger feltet, åpnes siden **Arbeidsflytsvar**, der du kan velge fra alle arbeidsflytsvar som finnes, og angi svaralternativer for det valgte svaret.  
 10. På hurtigfanen **Alternativer for det valgte svaret** angir du alternativer for arbeidsflytsvaret ved å velge verdier i ulike felt som vises, på følgende måte:  
 
     1.  Hvis du vil angi alternativer for et arbeidsflytsvar som involverer sending av en melding, fyller du ut feltene som beskrevet i følgende tabell.  
@@ -67,7 +67,7 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
         |----------------------------------|---------------------------------------|  
         |**Forfallsdatoformel**|Angi hvor mange dager som gjenstår før godkjenningsforespørselen må løses fra datoen da den ble sendt.|  
         |**Deleger etter**|Angi om og når en forespørsel om godkjenning skal delegeres automatisk til relevant stedfortreder. Du kan velge å automatisk delegere en, to, eller fem dager etter datoen da godkjenningen ble forespurt.|  
-        |**Godkjennertype**|Angi hvem godkjenneren er, i henhold til oppsettet for godkjenningsbrukere og arbeidsflytbrukere.<br /><br /> Følgende alternativer finnes:<br /><br /> -   **Selger/innkjøper** angir at brukeren som er definert i feltet **Selger/innkjøper - kode** i vinduet **Brukeroppsett for godkjenning**, bestemmer godkjenneren. Godkjenningsforespørselsposter blir deretter opprettet i henhold til verdien i feltet **Godkjennergrensetype**.<br />     Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-workflow-users.md).|  
+        |**Godkjennertype**|Angi hvem godkjenneren er, i henhold til oppsettet for godkjenningsbrukere og arbeidsflytbrukere.<br /><br /> Følgende alternativer finnes:<br /><br /> -   **Selger/innkjøper** angir at brukeren som er definert i feltet **Selger/innkjøper - kode** på siden **Brukeroppsett for godkjenning**, bestemmer godkjenneren. Godkjenningsforespørselsposter blir deretter opprettet i henhold til verdien i feltet **Godkjennergrensetype**.<br />     Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-workflow-users.md).|  
         |**Vis bekreftelsesmelding**|Angi om en bekreftelsesmelding skal vises til brukere når de ber godkjenning.|  
         |**Godkjennergrensetype**|Angi hvordan godkjenneres godkjenningsgrenser påvirker når godkjenningsforespørselsposter opprettes for dem. En kvalifisert godkjenner er en godkjenner med en godkjenningsgrense som er høyere enn verdien på forespørselen.<br /><br /> Følgende alternativer finnes:<br /><br /> 1.  **Godkjennerkjede** angir at godkjenningsforespørselsposter er opprettet for alle bestillerens godkjennere opptil og inkludert den første kvalifiserte godkjenneren.<br />2.  **Direkte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens umiddelbare godkjenner, uavhengig av godkjennerens godkjenningsgrense.<br />3.  **Første kvalifiserte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens første kvalifiserte godkjenner.<br />|  
     3.  Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av kladdelinjer, fyller du ut feltene som beskrevet i følgende tabell.  

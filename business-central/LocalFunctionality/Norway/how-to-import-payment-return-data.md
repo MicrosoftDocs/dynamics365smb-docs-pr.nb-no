@@ -1,6 +1,6 @@
 ---
 title: Importere betalingsreturdata
-description: Mottaks- og avregningsreturer importeres i vinduet **Remitteringsoppdrag - les inn**.
+description: "Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c1c1ae5ca4ef2cad89c8b4946d0eac6701730277
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1152605742011048c8829cdbe570f89b07b4a21c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata
-Mottaks- og avregningsreturer importeres i vinduet **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen i vinduet **Avregningsopplysninger**.  
+Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
 
 ## <a name="to-import-return-data"></a>Slik importerer du returdata  
 
@@ -34,7 +34,7 @@ Mottaks- og avregningsreturer importeres i vinduet **Remitteringsoppdrag - les i
     |**Returfiler**|Angir hvor mange returfiler som er funnet og lest inn.|  
 
 3.  Velg **Returfiler**-knappen for å vise returfilene.  
-4.  I vinduet **Returfiler** velger du **Importer** ved siden av hver fil som skal importeres. Hvis alternativet ikke er merket, blir ikke filen importert.  
+4.  På siden **Returfiler** velger du **Importer** ved siden av hver fil som skal importeres. Hvis alternativet ikke er merket, blir ikke filen importert.  
 5.  Velg **OK**.  
 
 ## <a name="to-view-settlement-information"></a>Slik viser du avregningsopplysninger  

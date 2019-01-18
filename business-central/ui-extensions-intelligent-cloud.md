@@ -1,5 +1,5 @@
 ---
-title: Skykopi av dataene | Microsoft-dokumentasjon
+title: Intelligent skybase | Microsoft-dokumentasjon
 description: "Bruk den intelligente skyutvidelsen til å opprette en skykopi av dataene slik at du er koblet til den intelligente skyen."
 author: edupont04
 manager: edupont
@@ -12,19 +12,19 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ee12e90788a479ca26d6cae5f747f65ad7008306
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: ac99a1ba63d2ff4f7d30049c5c1e4e45424da824
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-intelligent-cloud-extension"></a>Intelligent skyutvidelse i Business Central
+# <a name="intelligent-cloud-base-extension"></a>Intelligent skybaseutvidelse
 
 Denne utvidelsen tar deg gjennom prosessen med å konfigurere og administrere det intelligente skymiljøet. Når det intelligente skymiljøet er konfigurert, vil du kunne administrere datareplikeringer fra den lokale løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]-skyleietakeren. Utvidelsen fungerer sammen med utvidelsen for datareplikering tilgjengelig for den bestemte lokale løsningen. Hvis du vil ha mer informasjon, se [Tilgang til den intelligente skyen](about-intelligent-cloud.md).  
 
 ## <a name="see-also"></a>Se også
 
 [Tilgang til den intelligente skyen](about-intelligent-cloud.md)  
-[Datareplikeringsutvidelse](ui-extensions-data-replication.md)  
+[Intelligent skyutvidelse i Business Central](ui-extensions-data-replication.md)  
 

@@ -11,10 +11,10 @@ ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de76d937535fcad44538fcea557233263fa049fd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: af4be20798af59f01c870885b7e167fcb94d6bab
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 
@@ -26,8 +26,8 @@ GetAddress.io UK Postcodes-utvidelsen kan spare tid og unngå feil når du angir
 
     > [!NOTE]  
     >   Alternativet **Slå opp adresse fra postnummer** er bare tilgjengelig hvis feltet **Lands-/regionskode** er tomt eller inneholder **GB**.
-2. I vinduet **Postnummersøk** i feltet **Postnummer** angir eller velger du postnummer.  
-3. I vinduet **Adressevalg** velger du adressen.  
+2. På siden **Postnummersøk** i feltet **Postnummer** angir eller velger du postnummer.  
+3. På siden **Adressevalg** velger du adressen.  
 
 > [!TIP]  
 >   Hvis du kjenner gatenummeret, kan du filtrere adressene ved å skrive inn litt av eller hele nummeret i feltet **Leveringssted**.

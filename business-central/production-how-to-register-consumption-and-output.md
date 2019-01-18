@@ -1,6 +1,6 @@
 ---
 title: "Registrere forbruk og avgang for én produksjonsordre | Microsoft-dokumentasjon"
-description: "Denne kjøringsoppgaven utføres i vinduet **Produksjonskladd**. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner."
+description: "Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,14 +13,14 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 03c9439bde3a8e5b1c1caaeae362fcd6609f7a63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 673f2800c3c65af3fd50e08b0d042e6812bb29f4
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
-Denne kjøringsoppgaven utføres i vinduet **Produksjonskladd**. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
+Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
 
 > [!NOTE]  
 >  Ettersom forbruksdata behandles sammen med avgangsdata, gir denne kladden mulighet til å vise koblede komponenter og operasjoner i en logisk prosesstruktur. komponenter er rykket inn under de respektive operasjonene. Dette krever at du bruker rutekoblingskoder.  
@@ -32,7 +32,7 @@ Denne kjøringsoppgaven utføres i vinduet **Produksjonskladd**. Kladden kombine
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne en frigitt produksjonsordrelinje som er klar for registrering. På hurtigfanen **Linjer** velger du **Linje**-handlingen, og deretter velger du handlingen **Produksjonskladd**.  
 
-    **Produksjonskladd**-vinduet åpnes med kladdelinjer for produksjonsordrelinjen i henhold til vinduene **Prod.ordrekomponent** og **Prod.ordrerute**. Disse linjene stammer fra produksjonsstykklisten og ruten som er tilordnet varen som blir produsert. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonsstykklister](production-how-to-create-routings.md).  
+    **Produksjonskladd**-siden åpnes med kladdelinjer for produksjonsordrelinjen i henhold til sidene **Prod.ordrekomponent** og **Prod.ordrerute**. Disse linjene stammer fra produksjonsstykklisten og ruten som er tilordnet varen som blir produsert. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonsstykklister](production-how-to-create-routings.md).  
 
 3.  I **Bokføringsdato**-feltet øverst i kladden angir du en bokføringsdato som gjelder for alle linjene. Arbeidsdatoen er satt inn som standard. Feltet er ment som en rask måte å justere bokføringsdatoer for alle linjer på, hvis dette er relevant.  
 
@@ -45,7 +45,7 @@ Denne kjøringsoppgaven utføres i vinduet **Produksjonskladd**. Kladden kombine
 
     Når kladden åpnes, er den forhåndsdefinert med antallene som skal bokføres. Hvis ingenting er bokført så langt, vil alle antallsfeltene som standard vise de forventede antallene fra produksjonsordren. Hvis delvise bokføringer er foretatt, vil antallsfeltene på linjene vise de gjenstående antallene. Antallene og tidene som allerede er bokført for ordren, vises som faktiske poster nederst i kladden.  
 
-    Når det gjelder antallene i **Avgangsantall**-feltet, kan du definere hvilke verdier som skal forhåndsdefineres første gang kladden åpnes. Det gjør du i feltet **Forhåndsdefinert avgangsantall** i hurtigfanen **Generelt** i vinduet **Produksjonsoppsett**.
+    Når det gjelder antallene i **Avgangsantall**-feltet, kan du definere hvilke verdier som skal forhåndsdefineres første gang kladden åpnes. Det gjør du fra **Produksjonsoppsett**-siden, hurtigfanen **Generelt**, i feltet **Forhåndsdefinert avgangsantall**.
 
 5.  Fortsett med å angi det relevante forbruks- og avgangsantallet i de redigerbare feltene.  
 
@@ -64,7 +64,7 @@ Hvis det gjenstår verdier som skal bokføres, inneholder kladden de gjenståend
 >  Hvis du lukker kladden uten bokføring, vil endringene gå tapt.  
 
 > [!WARNING]  
->  Vinduet **Produksjonskladd** kan ikke brukes av to brukere samtidig. Dette betyr at hvis Bruker 2 åpner vinduet og skriver inn data når Bruker 1 allerede jobber i vinduet, kan Bruker 2 miste data når Bruker 1 lukker vinduet.  
+>  Siden **Produksjonskladd** kan ikke brukes av to brukere samtidig. Dette betyr at hvis Bruker 2 åpner siden og skriver inn data når Bruker 1 allerede jobber på siden, kan Bruker 2 miste data når Bruker 1 lukker siden.  
 
 ## <a name="see-also"></a>Se også  
 [Produksjon](production-manage-manufacturing.md)    

@@ -8,21 +8,60 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/12/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 70c6385776f75d57bda928b6178e0341bef28e04
+ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
+ms.openlocfilehash: 248c69ffca08276f7c8c7f3a98cb41ebcca146df
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/15/2018
 
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
 
 ## <a name="in-this-section"></a>I denne delen  
+[Utligne finansposter i lukkede perioder](how-to-apply-general-ledger-entries-in-closed-periods.md)  
+[EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md)  
+[Elektroniske banktjenester i Norge](electronic-banking-in-norway.md)  
+[Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)  
+[Beregne forholdsmessig MVA](how-to-calculate-proportional-vat.md)  
+[Annullere betalinger](how-to-cancel-payments.md)  
+[Opprette elektroniske dokumenter for EHF](how-to-create-electronic-documents-for-ehf.md)  
+[Opprette manuelle remitteringsoppdrag](how-to-create-manual-remittance-payments.md)  
+[Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)  
+[Opprette remitteringskontoer](how-to-create-remittance-accounts.md)  
+[Opprette remitteringsforslag](how-to-create-remittance-suggestions.md)  
+[Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)  
+[Eksportere remitteringsoppdrag](how-to-export-remittance-payments.md)  
+[Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)  
+[Importere betalingsreturdata](how-to-import-payment-return-data.md)  
 [Importer lønnstransaksjoner](how-to-import-payroll-transactions.md)  
-[Utvidelsen Lønnsdatadefinisjoner (NO)](ui-extensions-payroll-data-definitions-no.md)  
+[Skrive ut en MVA-avstemmingsrapport](how-to-print-a-vat-reconciliation-report.md)  
+[Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)  
+[Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md)  
+[Definere dokumentutskrift](how-to-set-up-document-printing.md)  
+[Angi EHF](how-to-set-up-ehf.md)  
+[Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)  
+[Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)  
+[Definere betalingslinjeinformasjon](how-to-set-up-payment-line-information.md)  
+[Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md)  
+[Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)  
+[Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)  
+[Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)  
+[Kontrollere remitteringsoppdrag](how-to-test-remittance-payments.md)  
+[Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md)  
+[Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)  
+[Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)  
+[Norske salgsdokumenter](norwegian-sales-documents.md)  
+[Norske mva-koder](norwegian-vat-codes.md)  
+[Norsk mva-rapportering](norwegian-vat-reporting.md)  
+[Forholdsmessig MVA](proportional-vat.md)  
+[Mottakerreferansekoder](recipient-reference-codes.md)  
+[Gjentakelsesordrer](recurring-orders.md)  
+[Remitteringsfeil](remittance-errors.md)  
+[Typer betalingsreturfiler](types-of-payment-returns-files.md)  
+[Lønnsdatadefinisjoner](ui-extensions-payroll-data-definitions-no.md)  
 <!--
   [Apply General Ledger Entries in Closed Periods](how-to-apply-general-ledger-entries-in-closed-periods.md)  
 

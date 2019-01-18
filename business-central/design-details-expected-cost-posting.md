@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 50ac9cbb946fedc687eb5ea1373c99d68f3d322b
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ae88a455552c7194422d07e6e666bd81b7eab101
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokføre forventet kost
@@ -27,12 +27,12 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
 > [!NOTE]  
 >  Forventede kostnader behandles bare for varetransaksjoner. Forventede kostnader er ikke for immaterielle transaksjonstyper, for eksempel kapasitet og varegebyr.  
 
- Hvis bare antallsdelen av en lagerøkning er bokført, vil ikke lagerverdien i Finans endres med mindre du har merket av for **Bokf. av forventet kost i Finans** i vinduet **Lageroppsett**. I slike tilfeller bokføres forventet kost på midlertidige konti på mottakstidspunktet. Når mottaket er ferdigfakturert, balanseres de midlertidige kontiene, og de faktiske kostnadene bokføres til lagerkontoen.  
+ Hvis bare antallsdelen av en lagerøkning er bokført, vil ikke lagerverdien i Finans endres med mindre du har merket av for **Bokf. av forventet kost i Finans** på siden **Lageroppsett**. I slike tilfeller bokføres forventet kost på midlertidige konti på mottakstidspunktet. Når mottaket er ferdigfakturert, balanseres de midlertidige kontiene, og de faktiske kostnadene bokføres til lagerkontoen.  
 
  For å støtte avstemming og sporing viser den fakturerte verdiposten det forventede kostbeløpet som er bokført på motkonti og midlertidige konti.  
 
 ## <a name="example"></a>Eksempel  
- Følgende eksempel viser forventede kostnader hvis det er merket av for **Automatisk kostbokføring** og **Bokf. av forventet kost i Finans** er valgt i vinduet **Lageroppsett**.  
+ Følgende eksempel viser forventede kostnader hvis det er merket av for **Automatisk kostbokføring** og **Bokf. av forventet kost i Finans** er valgt på siden **Lageroppsett**.  
 
  Du bokfører en bestilling som mottatt. Forventet kostnad er NOK 95,00.  
 

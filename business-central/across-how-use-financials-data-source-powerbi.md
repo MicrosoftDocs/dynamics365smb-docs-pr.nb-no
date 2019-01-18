@@ -11,10 +11,10 @@ ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0e0ac36bb83709b766d234e34297c2b721daabad
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Bruke [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som datakilde for Power BI for å bygge rapporter
@@ -24,10 +24,10 @@ Du må ha en gyldig konto med [!INCLUDE[d365fin_long_md](includes/d365fin_long_m
 
 ## <a name="to-add-included365finlongmdincludesd365finlongmdmd-as-a-data-source-in-power-bi-desktop"></a>Legge til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som en datakilde i Power BI Desktop
 1. I Power BI Desktop, i den venstre navigasjonsruten, velger du **Hent Data**.
-2. I **Hent Data**-vinduet velger du **Online Services**, velg **Microsoft Dynamics 365 Business Central**, og velg deretter **Koble til**-knappen.
+2. På **Hent Data**-siden velger du **Online Services**, velg **Microsoft Dynamics 365 Business Central**, og velg deretter **Koble til**-knappen.
 3. Power BI viser en veiviser som veileder deg gjennom [tilkoblingsprosessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Du blir bedt om å logge på servicen. Velg **Logg på** og kontoen du vil logge på som. Dette må være samme konto som du bruker til å logge på [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Velg **Koble til**-knappen for å fortsette. Veiviseren for Power BI viser en liste over Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-selskaper og -datakilder. Disse datakildene representerer alle webtjenester som du har publisert fra hvert selskap i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
-5. Alternativt, opprette en ny web service URL i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved hjelp av **Opprett datasett** i vinduet **Webtjenester** ved hjelp av **Sett opp rapportering** assistert installasjonsveiledningen eller ved å velge **Rediger i Excel** i lister.
+5. Alternativt, opprette en ny web service URL i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved hjelp av **Opprett datasett** på siden **Web Services** ved hjelp av **Sett opp rapportering** assistert installasjonsveiledningen eller ved å velge **Rediger i Excel** i lister.
 6. Angi hvilke data du vil legge til datamodellen, og velg deretter **Last inn**-knappen.
 7. Gjenta de forrige trinnene for å legge til flere Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] eller andre data i Power BI-datamodellen.
 

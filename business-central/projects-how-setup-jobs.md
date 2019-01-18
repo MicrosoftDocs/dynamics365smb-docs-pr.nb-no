@@ -13,14 +13,14 @@ ms.search.keywords: project management
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f629216f08ae10667fac1726c97c4d55a90d3a88
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-jobs"></a>Konfigurer prosjekter
-I vinduet **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
+På siden **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
 
 Du må sette opp priser for prosjektvarer, prosjektressurser og finanskonti på individuelle prosjektkort, og må du definere prosjektbokføringsgrupper.
 
@@ -48,25 +48,25 @@ Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanl
 >   Du kan angi en annen innstilling for avmerkingsboksen **Bruk forbrukskobling som standard** på hvert prosjektkort. I slike tilfeller overstyrer innstillingen for dette prosjektet den generelle standarden som er beskrevet ovenfor.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Slik konfigurerer du priser for prosjektressurser
-Du kan definere bestemte priser for ressurser for et prosjekt. Du bruker vinduet **Ressurspriser for prosjekt** til å gjøre dette.
+Du kan definere bestemte priser for ressurser for et prosjekt. Du bruker siden **Ressurspriser for prosjekt** til å gjøre dette.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Ressurs**.
-3. Fyll ut feltene etter behov i vinduet **Ressurspriser for prosjekt**.
+3. Fyll ut feltene etter behov på siden **Ressurspriser for prosjekt**.
 
 Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskostfaktor** blir brukt på prosjektplanleggingslinjene og i forbrukskladdene når denne ressursen angis og legges til i prosjektet.  
 
 Verdien i feltet **Salgspris** for ressursen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne ressursen, en ressurs som er tilordnet ressursgruppen, eller en hvilken som helst ressurs.  
 
 > [!NOTE]  
->   Denne prisen overstyrer alltid eventuelle priser som er definert i det eksisterende vinduet **Ressurssalgspris/Ressursgruppepriser**.
+>   Denne prisen overstyrer alltid eventuelle priser som er definert i de eksisterende sidene **Ressurssalgspris/Ressursgruppepriser**.
 
 ## <a name="to-set-up-prices-for-job-items"></a>Slik konfigurerer du priser for prosjektvarer
-Du kan definere bestemte priser for varer for et prosjekt. Du bruker vinduet **Varepriser for prosjekt** til å gjøre dette.
+Du kan definere bestemte priser for varer for et prosjekt. Du bruker siden **Varepriser for prosjekt** til å gjøre dette.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Vare**.
-3. Fyll ut feltene etter behov i vinduet **Varepriser for prosjekt**.
+3. Fyll ut feltene etter behov på siden **Varepriser for prosjekt**.
 
 Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%** blir brukt på prosjektplanleggingslinjene og prosjektkladdene når denne varen angis og legges til i prosjektet.  
 
@@ -76,11 +76,11 @@ Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinj
 >   Denne prisen overstyrer alltid den vanlige kundeprisen (funksjonen for «beste pris») for varer. Hvis du vil bruke de vanlige kundeprismekanismene, må du ikke opprette prosjektvarepriser for prosjektet.
 
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Slik setter du opp priser for prosjektfinanskonti
-Du kan definere bestemte priser for finansutgifter for et prosjekt. Du bruker vinduet **Finanskontopriser for prosjekt** til å gjøre dette.
+Du kan definere bestemte priser for finansutgifter for et prosjekt. Du bruker siden **Finanskontopriser for prosjekt** til å gjøre dette.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Finanskonto**.  
-3. Fyll ut feltene etter behov i vinduet **Finanskontopriser for prosjekt**.
+3. Fyll ut feltene etter behov på siden **Finanskontopriser for prosjekt**.
 
 Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt.  
 

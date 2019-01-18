@@ -14,10 +14,10 @@ ms.date: 11/13/2018
 ms.author: sgroespe
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 7362518cbade8132fb07f49e7b2e9be67c4bce29
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 252ebf514635ada8e07bfb1e950d0cff156d0bfc
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-centers"></a>Definere kostsentre
@@ -27,7 +27,7 @@ Kostsentre er avdelinger som er ansvarlig for kostnader og inntekter. Diagrammet
 -   Opprett et nytt kostsenterdiagram som er uavhengig av finans, eller legg til et nytt kostsenter i et eksisterende kostsenterdiagram. Du må opprette hvert enkelt kostsenter individuelt.  
 
 ## <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Slik overfører du dimensjonsverdier i finans til diagrammet med kostsentre:  
-1.  Angi en dimensjon som kostsenterdimensjon i vinduet **Oppdater kostregnskapsdimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
+1.  Angi en dimensjon som kostsenterdimensjon på siden **Oppdater kostregnskapsdimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
 2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kostsentre**, og velg deretter den relaterte koblingen.  
 3.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Hent kostsentre fra dimensjon** for å overføre dimensjonsverdier til kostsenterdiagrammet. Funksjonen overfører dimensjonsverdiene som du definerte i trinn 1.  
 
@@ -36,10 +36,10 @@ Kostsentre er avdelinger som er ansvarlig for kostnader og inntekter. Diagrammet
 
 Diagrammet med kostsentre inneholder nå alle angitte dimensjonsverdier fra finans og inkluderer titler og delsummer.  
 
-## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-window"></a>Slik oppretter du nye kostsentre i vinduet Diagram med kostsentre:  
-Du kan definere og vedlikeholde kostsentre i kortet **Kostsenterkort** eller vinduet **Diagram med kostsentre**. I denne fremgangsmåten definerer sentre i vinduet **Diagram med kostsentre**.  
+## <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Slik oppretter du nye kostsentre på siden Diagram med kostsentre:  
+Du kan definere og vedlikeholde kostsentre i kortet **Kostsenterkort** eller på siden **Diagram med kostsentre**. I denne fremgangsmåten definerer sentre på siden **Diagram med kostsentre**.  
 
-1. Åpne vinduet **Diagram med kostsentre** i redigeringsmodus.  
+1. Åpne siden **Diagram med kostsentre** i redigeringsmodus.  
 2. Angi kostsenterkoden i **Kode**-feltet. Alle kostsentre må ha en kode.  
 3. Skriv inn navnet på kostsenteret i **Navn**-feltet.  
 4. Velg rullegardinpilen i feltet **Linjetype** for å angi formålet med kostsenteret.  

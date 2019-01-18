@@ -12,10 +12,10 @@ ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: a96947c07cf86159f767ffcdf85564ee2b4366d8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-purchases"></a>Registrere kjøp
@@ -39,16 +39,16 @@ Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om lev
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
 
-    Andre felt i **Kjøpsfaktura**-vinduet fylles nå med standardinformasjon for den valgte leverandøren. Hvis leverandøren ikke er registrert, følger du denne fremgangsmåten:
+    Andre felt på siden **Kjøpsfaktura** fylles nå med standardinformasjon for den valgte leverandøren. Hvis leverandøren ikke er registrert, følger du denne fremgangsmåten:
 3. I feltet **Leverandør** angir du navnet på den nye leverandøren.
 4. Klikk **Ja**-knappen i dialogboksen for å registrere den nye leverandøren.
-5. I vinduet **Velg en mal for en ny leverandør** velger du en mal som du vil basere det nye leverandørkortet på, og deretter velger du **OK**-knappen.
+5. På siden **Velg en mal for en ny leverandør** velger du en mal som du vil basere det nye leverandørkortet på, og deretter velger du **OK**-knappen.
 6. Det åpnes et nytt leverandørkort som er forhåndsutfylt med informasjon om den valgte leverandørmalen. **Navn**-feltet er forhåndsutfylt med det nye leverandørnavnet du skrev inn i kjøpsfakturaen.
 7. Fortsette med å fylle ut resten av feltene på leverandørkortet. Hvis du vil ha mer informasjon, kan du se [Registrere nye leverandører](purchasing-how-register-new-vendors.md).  
-8. Når du har fylt ut leverandørkortet, velger du **OK**-knappen for å gå tilbake til **Kjøpsfaktura**-vinduet.
+8. Når du har fylt ut leverandørkortet, velger du **OK**-knappen for å gå tilbake til **Kjøpsfaktura**-siden.
 
-    Flere felt i **Kjøpsfaktura**-vinduet er fylt ut med informasjon du har angitt på det nye leverandørkortet.
-9. Fyll ut resten av feltene vinduet **Kjøpsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+    Flere felt på siden **Kjøpsfaktura** er fylt ut med informasjon du har angitt på det nye leverandørkortet.
+9. Fyll ut resten av feltene på siden **Kjøpsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du kan nå begynn å fylle ut kjøpsfakturalinjene med lagervarer eller tjenester du har kjøpt fra leverandøren.
 

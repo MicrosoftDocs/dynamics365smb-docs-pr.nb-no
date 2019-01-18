@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 8e4f7c35b53a284fe6f7937298377674bafb0b63
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abbfa389e38e60b7b5470f1f390d370f8d43c6b5
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
@@ -45,16 +45,16 @@ Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalin
 
 Når du skal definere toleranse, må du definere forskjellige toleransebeløp, angi både toleransegrense for kontantrabatt og bokføringsmetode for betalingstoleranse, og kjøre kjørselen **Endre betalingstoleranse**.  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Generelt bokføringsoppsett** definerer du en debet- og kredittoleransekonto for kontantbetaling ved salg, og en debet- og kreditkonto for kontantbetaling ved kjøp.  
+2. På siden **Generelt bokføringsoppsett** definerer du en debet- og kredittoleransekonto for kontantbetaling ved salg, og en debet- og kreditkonto for kontantbetaling ved kjøp.  
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
-4. I vinduet **Bokføringsgrupper - kunde** definerer du en betalingstoleransekonto for debet og kredit. Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
+4. På siden **Bokføringsgrupper - kunde** definerer du en betalingstoleransekonto for debet og kredit. Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
 5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandørbokføringsoppsett**, og velg deretter den relaterte koblingen.  
-6. I vinduet **Bokføringsgrupper - leverandør** definerer du en betalingstoleransekonto for debet og kredit.  
+6. På siden **Bokføringsgrupper - leverandør** definerer du en betalingstoleransekonto for debet og kredit.  
 7. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
-8. Åpne **Finansoppsett**-vinduet.  
+8. Åpne **Finansoppsett**-siden.  
 9. På hurtigfanen **Utligning** fyller du ut feltene **Bokf. av kont.rab.toleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
 10. Velg **Endre betalingstoleranse**-handlingen.
-11. I vinduet **Endre betalingstoleranse** fyller du ut feltene **Betalingstoleransepst.** og **Maks. betalingstoleransebeløp**, og deretter velger du **OK**-knappen.
+11. På siden **Endre betalingstoleranse** fyller du ut feltene **Betalingstoleransepst.** og **Maks. betalingstoleransebeløp**, og deretter velger du **OK**-knappen.
 
 > [!IMPORTANT]  
 >  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
@@ -69,10 +69,10 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
-2. I **Finansoppsett**-vinduet, på hurtigfanen **Utligning**, merker du av for **Betalingstoleranse - advarsel** for å aktivere advarselen. Fjern merket når du skal deaktivere meldingen.  
+2. På siden **Finansoppsett**, på hurtigfanen **Utligning**, merker du av for **Betalingstoleranse - advarsel** for å aktivere advarselen. Fjern merket når du skal deaktivere meldingen.  
 
 > [!NOTE]  
->  Standardalternativet for vinduet **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for vinduet **Kont.rab.toleranse - advarsel** er **Ikke godta den forsinkede kontantrabatten**.
+>  Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kont.rab.toleranse - advarsel** er **Ikke godta den forsinkede kontantrabatten**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder  
 Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av betalingstoleranse for en bestemt kunde eller leverandør, må du sperre for toleranse på det respektive kunde- eller leverandørkortet. Nedenfor beskrives det hvordan du gjør det for en kunde. Trinnene er de samme for en leverandør.
@@ -86,7 +86,7 @@ Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av b
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Eksempel 1 - toleranseberegninger for ett dokument
 Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner.  
 
-Vinduet **Finansoppsett** inneholder følgende oppsett:
+Siden **Finansoppsett** inneholder følgende oppsett:
 - Respittid for kontantrabatt:    5D  
 - Maks. betalingstoleranse:     5  
 
@@ -155,7 +155,7 @@ Vanlige utligningsregler
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Eksempel 2 - toleranseberegninger for flere dokumenter
 Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner. Eksemplene er begrenset til bare scenarier som resulterer i at alle poster i utligningen blir lukket.  
 
-Vinduet **Finansoppsett** inneholder følgende oppsett:
+Siden **Finansoppsett** inneholder følgende oppsett:
 - Respittid for kontantrabatt    5D  
 - Maks. betalingstoleranse                5  
 

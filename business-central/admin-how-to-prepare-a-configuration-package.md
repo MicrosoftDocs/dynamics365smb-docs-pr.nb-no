@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea07eff2d0eb17a76d132484d2210ad0c54053a5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
@@ -36,10 +36,10 @@ Kontroller at du er i rollesenteret for RapidStart Services-implementereren. Hvi
 2. Velg handlingen **Ny**.  
 3. På hurtigfanen **Generelt** fyller du ut feltene riktig. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil utelate konfigurasjonsspørreskjemaene, konfigurasjonsmalene og konfigurasjonforslagstabellene fra pakken, merker du av for **Utelat konfigurasjonstabeller**. Ellers vil disse tabellene automatisk legges til i listen over pakketabeller når du eksporterer pakken.  
-5. Velg handlingen **Hent tabeller**. Kjørselsvinduet **Hent pakketabeller** åpnes.  
-6. Velg feltet **Velg tabeller**. Vinduet **Konfig. valg** åpnes.  
+5. Velg handlingen **Hent tabeller**. Kjørselssiden **Hent pakketabeller** åpnes.  
+6. Velg feltet **Velg tabeller**. Siden **Konfig. valg** åpnes.  
 7. Velg handlingen **Merk alt** for å legge til alle tabeller i pakken, eller du merker avmerkingsboksen **Valgt** for hver tabell i listen som du vil legge til.
-8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller legges til i linjene i vinduet **Konfig.pakke**.  
+8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)] tabeller legges til i linjene på **Konfig.pakke**-siden.  
 
     > [!NOTE]  
     >  Du kan også gjøre dette i konfigurasjonsforslaget. Velg tabellene du vil inkludere i pakken, og velg deretter handlingen **Tilordne pakke**.
@@ -64,13 +64,13 @@ Når du har fornyet listen over felt som skal inkluderes fra en tabell, kan du s
 ### <a name="to-include-a-template-for-application-to-a-table"></a>Slik inkluderer du en mal for bruk i en tabell:  
 For enkelte tabeller, for eksempel en tabell som inneholder hoveddata, kan du angi en mal som skal brukes på dataene. Malen kan inneholde de obligatoriske feltene som du vil bruke på alle hoveddata, og som du ikke vil skal variere. Du kan for eksempel opprette en mal som kan brukes med kundedata. Malen kan inneholde alle nødvendige felt, som gjør at import av standardisert informasjon blir konsekvent. Informasjonen som ikke kan standardiseres, for eksempel kundenavn, behandles når du importerer kundedata.
 
-1. Velg en tabell, og velg deretter **Datamal**-feltet i vinduet **Konfigurer pakkekort**. Det vises en liste over maler i tabellen som vises.
+1. Velg en tabell, og velg deretter **Datamal**-feltet på siden **Konfigurer pakkekort**. Det vises en liste over maler i tabellen som vises.
 2. Velg en mal og deretter **OK**.  
 
 Når pakken er fullført, følger du prosedyren nedenfor for å lagre pakken som en fil. Deretter kan du gi pakken til en kunde eller partner for bruk.
 
 ### <a name="to-save-and-export-a-configuration-package"></a>Lagre og eksportere en konfigurasjonspakke  
-- I vinduet **Konfigurer pakkekort** velger du handlingen **Eksporter pakke**.  
+- På siden **Konfigurer pakkekort** velger du handlingen **Eksporter pakke**.  
 
 Pakken opprettes i en .rapidstart-fil, som leverer innholdet i pakken i et komprimert format. Konfigurasjonspørreskjemaer, konfigurasjonsmaler og konfigurasjonsforslaget legges til i pakken automatisk med mindre du spesifikt bestemmer deg for å utelukke dem.  
 
@@ -121,7 +121,7 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
     > [!NOTE]  
     >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]\-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
 
-3. Velg handlingen **Databasedata**. Vinduet for den relaterte siden åpnes.
+3. Velg handlingen **Databasedata**. Siden for den relaterte siden åpnes.
 4. Se gjennom informasjonen som er tilgjengelig. Endre den etter behov ved å slette poster som ikke er relevante eller ved å legge til nye.    
 
 ## <a name="to-copy-data-from-a-test-environment-to-a-production-environment"></a>Kopiere data fra et testmiljø til et produksjonsmiljø  
@@ -130,9 +130,9 @@ Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med
 1. Åpne og start det nye selskapet.  
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Kopier data fra selskap**.  
-4. Velg **Kopier fra**-feltet i vinduet **Kopier selskapsdata**. **Selskaper**-vinduet åpnes.  
+4. Velg **Kopier fra**-feltet på siden **Kopier selskapsdata**. **Selskaper**-siden åpnes.  
 5. Velg selskapet du vil kopiere data fra, og velg deretter **OK**. En liste over tabellene som er valgt i konfigurasjonsforslaget, åpnes. Det er bare tabeller som inneholder poster som er inkludert i denne listen.
-6. Velg tabellene du vil kopiere data fra, og velg deretter handlingen **Kopier Data**. Klikk **OK** i vinduet **Kopier selskapsdata**.  
+6. Velg tabellene du vil kopiere data fra, og velg deretter handlingen **Kopier Data**. Klikk **OK** på siden **Kopier selskapsdata**.  
 
 ## <a name="see-also"></a>Se også  
 [Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md)  

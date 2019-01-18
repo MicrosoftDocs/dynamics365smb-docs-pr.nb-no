@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fda754e366dab52ee2632fa9e959c8cd717e25b9
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
@@ -62,7 +62,7 @@ Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kild
 Når det inngående kildedokumentet frigis, opprettes en inngående lagerforespørsel automatisk. Den inneholder referanser til kildedokumenttype og /nummer, og er ikke synlige for brukeren.  
 
 ### <a name="3-create-inventory-put-away"></a>3: Opprett lagerplassering  
-I vinduet **Lagerplassering** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på inngående lagerforespørsler. Det kan også hende at lagerplasseringslinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
+På siden **Lagerplassering** henter brukeren som er ansvarlig, de ventende kildedokumentlinjene basert på inngående lagerforespørsler. Det kan også hende at lagerplasseringslinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
 
 ### <a name="4-post-inventory-put-away"></a>4: Bokfør lagerplassering  
 På hver linje for varer som er plassert, helt eller delvis, fyller lagermedarbeideren ut feltet **Antall** og bokfører deretter lagerplasseringen. Kildedokumenter som er knyttet til lagerplasseringen, bokføres som mottatt.  
@@ -81,7 +81,7 @@ Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kild
 Når det inngående kildedokumentet frigis, opprettes en inngående lagerforespørsel automatisk. Den inneholder referanser til kildedokumenttype og /nummer, og er ikke synlige for brukeren.  
 
 ### <a name="3-create-warehouse-receipt"></a>3: Opprett lagermottak  
-I vinduet **Lagermottak** henter brukeren som er ansvarlig for mottak av varer, de ventende kildedokumentlinjene basert på inngående lagerforespørsel. Flere kildedokumentlinjer kan kombineres i ett lagermottaksdokument.  
+På siden **Lagermottak** henter brukeren som er ansvarlig for mottak av varer, de ventende kildedokumentlinjene basert på inngående lagerforespørsel. Flere kildedokumentlinjer kan kombineres i ett lagermottaksdokument.  
 
 Brukeren fyller ut feltet **Ant. som skal håndt.** og velger om nødvendig mottakssonen og hyllen.  
 
@@ -106,7 +106,7 @@ Når alle plasseringer er planlagt og tilordnet til lagermedarbeidere, genererer
 Lagermedarbeideren som utfører plasseringer, oppretter et lagerplasseringsdokument på en hentemåte, basert på det bokførte lagermottaket. Lagerplasseringsdokumentet kan også opprettes og tilordnes lagermedarbeidere med en push-metode.  
 
 ### <a name="9-register-warehouse-put-away"></a>9: Registrer plassering  
-På hver linje for varer som er plassert, helt eller delvis, fyller lagermedarbeider ut feltet **Antall** i vinduet **Plassering**, og registrerer deretter plasseringen.  
+På hver linje for varer som er plassert, helt eller delvis, fyller lagermedarbeider ut feltet **Antall** på siden **Plassering**, og registrerer deretter plasseringen.  
 
 Lagerposter opprettes, og lagerplasseringslinjene slettes hvis de er helt ferdigbehandlet. Lagerplasseringsdokumentet holdes åpent til hele antallet for det tilknyttede bokførte lagermottaket er registrert. Feltet **Plassert ant.** på bestillingslinjene for lagermottak oppdateres.  
 

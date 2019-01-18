@@ -16,10 +16,10 @@ ms.date: 10/01/2018
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1682db5bd62f980e8789613cd2ca4169f98e839d
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: abf7e9cf01c8d394a022e384584e32e78c754639
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløp
@@ -36,10 +36,10 @@ Du kan utligne betalinger mot lukkede fakturaer når du bokfører betalingen, el
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Betalingsforslaget kan ta hensyn til et beløp du angir som tilgjengelige betalingsbeløp og berettigelse til kontantrabatter.
 
 ## <a name="issue-checks"></a>Utstede sjekker
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lar deg utstede sjekker til leverandører manuelt og elektronisk. Du kan gjøre begge deler i **Utbetalingskladder**-vinduet, der du kan kansellere sjekker og vise sjekkposter.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] lar deg utstede sjekker til leverandører manuelt og elektronisk. Du kan gjøre begge deler på **Utbetalingskladder**-siden, der du kan kansellere sjekker og vise sjekkposter.
 
 ## <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
-Når du er klar til betale en leverandør, kan du fra vinduet **Betalingskladd** eksportere en fil med betalingsinformasjonen fra kladdelinjene. Du kan deretter laste opp filen til nettbanken for å behandle pengeoverføringene.
+Når du er klar til betale en leverandør, kan du fra siden **Betalingskladd** eksportere en fil med betalingsinformasjonen fra kladdelinjene. Du kan deretter laste opp filen til nettbanken for å behandle pengeoverføringene.
 
 Hvis du ikke vil bokføre en utbetalingskladdelinje for en eksportert betaling, for eksempel fordi du venter på at banken skal bekrefte transaksjonen, kan du bare slette kladdelinjen. Når du senere oppretter en utbetalingskladdelinje for å betale restbeløpet på fakturaen, viser feltet **Totalt eksportert beløp** hvor mye av betalingsbeløpet som allerede er eksportert. Du kan også finne detaljert informasjon om det eksporterte totalbeløpet ved å velge knappen **Poster i kredittoverføringsreg.**
 

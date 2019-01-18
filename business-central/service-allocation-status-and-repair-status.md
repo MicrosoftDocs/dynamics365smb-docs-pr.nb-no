@@ -13,21 +13,21 @@ ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2018
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 014ede5232017bb090fa6cd33816064a6c4b99b8
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
-Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer i vinduet **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet **Reparasjonsstatuskode** i vinduet **Arbeidsordre**. Du kan vise tildelingsstatus i **Status**-feltet i vinduet **Ressurstildelinger**.  
+Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet  **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  
   
 ## <a name="changing-repair-status"></a>Endre reparasjonsstatus  
 Når du endrer reparasjonsstatusen til en servicevare på en servicevarelinje, søkes det etter en tilhørende tildelingspost for denne servicevaren med statusen **Aktiv**. Hvis det blir funnet en slik tildelingspost, oppdateres statusen på én av følgende måter:  
   
 * Hvis du endrer reparasjonsstatusen til **Ferdig**, endres tildelingsstatusen fra **Aktiv** til **Ferdig**.  
 * Hvis du endrer reparasjonsstatusen til **Delvis vedlikeholdt**, det vil si at deler av servicen er fullført, eller **Henvist**, det vil si at det er ikke utført service, endres tildelingsstatusen fra **Aktiv** til **Ny tildeling nødvendig**.  
-* Når en serviceordretildelingspost opprettes som angir at ingen ressurs er fordelt, settes **Status**-feltet i vinduet **Ressursfordelinger** til **Ikke aktiv**.  
+* Når en serviceordretildelingspost opprettes som angir at ingen ressurs er fordelt, settes **Status**-feltet på siden **Ressursfordelinger** til **Ikke aktiv**.  
 * Statusen for tildelingsposten settes til **Kansellert** når du tildeler den refererte servicevaren i serviceordretildelingsposten på nytt, noe som angir at den tildelte ressursen eller ressursgruppen ikke har forsøkt serviceoppgaven.  
   
 Tildelingsstatusen gjenspeiler når vedlikeholdsprosessen er ferdig, eller når det er nødvendig med en annen ressurs for å fullføre servicen av servicevaren.  

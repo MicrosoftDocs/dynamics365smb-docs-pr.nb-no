@@ -1,6 +1,6 @@
 ---
-title: Skykopi av dataene | Microsoft-dokumentasjon
-description: "Bruk utvidelsen Datareplikering til å opprette en skykopi av dataene slik at du er koblet til den intelligente skyen."
+title: Intelligente skyutvidelser i Business Central | Microsoft-dokumentasjon
+description: "Bruk denne datareplikeringsutvidelsen til å opprette en skykopi av dataene, slik at du er koblet til den intelligente skyen."
 author: edupont04
 manager: edupont
 ms.service: dynamics365-business-central
@@ -9,24 +9,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 10/17/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c01e1c4fe4cd67e8ef474e174f0a9797b60de329
+ms.sourcegitcommit: 7b5f8cb6a126bdd99ab5fb7a82f981eab1c484a1
+ms.openlocfilehash: 1d4bea462879d49f02c6fa6d8b4a83365d5149a3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
-# <a name="business-central-data-replication-extension"></a>Utvidelsen Datareplikering i Business Central**
+# <a name="business-central-intelligent-cloud-extensions"></a>Intelligente skyutvidelser i Business Central
 
-Denne utvidelsen tar deg gjennom prosessen med å konfigurere det intelligente skymiljøet.  Når det intelligente skymiljø eter konfigurert, vil du kunne replikere data fra den lokale [!INCLUDE[prodshort](includes/prodshort.md)]-løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]-skyleietakeren.  Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.
+Hvis du bruker én av de støttede lokale produktene, kan du konfigurere det intelligente skymiljøet basert på en produktspesifikk utvidelse. Når det intelligente skymiljøet er konfigurert, vil du kunne replikere data fra den lokale løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]-skyleietakeren. Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.  
 
-Denne utvidelsen må brukes i forbindelse med **utvidelsen for intelligent sky i Business Central**.
+## <a name="business-central-on-premises"></a>Business Central lokalt
+Hvis du bruker en lokal distribusjon av [!INCLUDE[prodshort](includes/prodshort.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent skyutvidelse i Business Central**, og følg de tilhørende veiledningene.  
+
+## <a name="dynamics-gp"></a>Dynamics GP
+Hvis du bruker Dynamics GP, hent utvidelsen for **Intelligent skybaseutvidelse**, utvidelsen for **Dynamics GP-datamigrering** og **Intelligent sky for Dynamics GP**, og følg de tilhørende veiledningene.  
 
 ## <a name="see-also"></a>Se også
 
 [Tilgang til den intelligente skyen](about-intelligent-cloud.md)  
-[Intelligent skyutvidelse i Business Central](ui-extensions-intelligent-cloud.md)  
+[Intelligent skybaseutvidelse](ui-extensions-intelligent-cloud.md)  
 

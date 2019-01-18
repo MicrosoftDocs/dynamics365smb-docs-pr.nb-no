@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e946bab348aeee1b65b85165b2d9d553736813ba
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: e82aa86668da5999117eea636ee29d8fde2cc09e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-service-items-and-service-item-components"></a>Definere servicevarer og servicevarekomponenter
@@ -39,11 +39,11 @@ Du tilordner servicevaregrupper til varer **Vare**-kortet og servicevarer på **
 7. Hvis du vil registrere varene i gruppen som servicevarer når de selges, velger du feltet **Opprett servicevare**.  
 
 ## <a name="to-set-up-service-item-components"></a>Slik definerer du servicevarekomponenter
-En servicevare kan bestå av flere komponenter, som kan erstattes med reservedeler når varen vedlikeholdes. Disse komponentene defineres i vinduet **Oversikt over servicevarekomponenter**. Hvis du vil definere komponenter for servicevarer som er stykklister, kan du også kopiere stykklistevarene, og deretter opprette dem som servicevarekomponenter.
+En servicevare kan bestå av flere komponenter, som kan erstattes med reservedeler når varen vedlikeholdes. Disse komponentene defineres på siden **Oversikt over servicevarekomponenter**. Hvis du vil definere komponenter for servicevarer som er stykklister, kan du også kopiere stykklistevarene, og deretter opprette dem som servicevarekomponenter.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevarer**, og velg deretter den relaterte koblingen.
 2. Åpne servicevaren du vil definere komponenter for.  
-3. Velg handlingen **Komponenter**. Cinduet **Oversikt over servicevarekomponenter** åpnes.  
+3. Velg handlingen **Komponenter**. Siden **Oversikt over servicevarekomponenter** åpnes.  
 4. Legg til en ny komponent.  
 5. I **Type**-feltet velger du **Servicevare** hvis selve komponenten er en registrert servicevare. Ellers velger du **Vare**.  
 6. I feltet **Nr.** -feltet velger du varen eller servicevaren som er en komponent i servicevaren.  
@@ -51,13 +51,13 @@ En servicevare kan bestå av flere komponenter, som kan erstattes med reservedel
 ## <a name="to-set-up-service-item-components-from-a-bom"></a>Slik definerer du servicevarekomponenter fra stykklister
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevarer**, og velg deretter den relaterte koblingen.  
 2. Åpne servicevaren du vil definere komponenter fra en stykkliste for.  
-3. Velg handlingen **Komponenter**. Vinduet **Oversikt over servicevarekomponenter** åpnes.  
+3. Velg handlingen **Komponenter**. Siden **Oversikt over servicevarekomponenter** åpnes.  
 4. Velg handlingen **Kopier fra stykkliste**.  
 
     Hvis varen som servicevaren er knyttet til, er en stykkliste, opprettes komponentene for alle varene i stykklisten automatisk.  
 
 ## <a name="to-set-up-a-service-shelf"></a>Slik definerer du servicehyller
-Du kan definere servicehyller som identifiserer hvor du lagrer servicevarene. Du tilordner servicehyller til servicevarer i vinduene **Serviceordre** og **Servicevareskjema**.  
+Du kan definere servicehyller som identifiserer hvor du lagrer servicevarene. Du tilordner servicehyller til servicevarer på sidene **Serviceordre** og **Servicevareskjema**.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicehyller**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.

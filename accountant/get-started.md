@@ -4,17 +4,14 @@ description: "Lære om Accountant Hub for Dynamics 365."
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 05/15/2018
+ms.date: 11/23/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 4bc9199b879c23115082b07a81d6da5a0b46e60d
-ms.openlocfilehash: bb700a7c65721efb7c1322420a4929eb7adc4433
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0c4dadb15c9756c49f94839236766432844088c8
 ms.contentlocale: nb-no
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="get-started-with-include-d365acclongincludesd365acclongmdmd"></a>Kom i gang med [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
@@ -29,13 +26,15 @@ Du kan få tilgang til [!INCLUDE [d365acc](includes/d365acc_md.md)] ved å regis
 
 ## <a name="working-with-individual-clients"></a>Arbeide med individuelle klienter
 Instrumentbordet viser de viktigste opplysningene om hver klient.  
-![Accountant Hub](./media/accountant-get-started/accountant-dashboard-tasks.png)
+
+> [!div class="mx-imgBorder"]
+> ![Accountant Hub](./media/accountant-get-started/accountant-dashboard.png)
 
 Kolonnen **Klientnavn** viser navnene på klientene dine, og kolonnen **Selskapsnavn** viser alle selskapene, hvis klienten har flere selskaper i [!INCLUDE [d365fin_long](includes/d365fin_long_md.md)]. Det finnes også felt som viser oppgavene som er tilordnet til deg i kundens selskap, inkludert forfalte oppgaver.  
 
 Du kan tilpasse instrumentbordet slik at de ønskede datapunktene vises, ved å legge til eller fjerne kolonner. Du kan for eksempel vise avgifter som er forfalt, hvor mange åpne salgsdokumenter hver klient har, eller antall kjøpsfakturaer som forfaller neste uke. Du kan konfigurere visningen etter behov. Hvis du har mange klienter, kan du bruke filtre til å sortere visningen.  
 
-Ellipsen (...) ved siden av klientnavnet viser en kort meny:
+De tre prikkene ved siden av klientnavnet viser en kort meny:
 
 - Oppdater gjeldende selskap og hent nye data for klienten  
 - Gå til klientens [!INCLUDE [d365fin](includes/d365fin_md.md)]  
@@ -54,37 +53,41 @@ Du finner mer informasjon om dataene til klientene dine ved å velge navnet på 
 * Forfalte kjøpsfakturaer  
 * Forfalte salgsfakturaer  
 
-![Klientselskapsdetaljer i regnskapsførerens instrumentbord](./media/accountant-get-started/accountant-company-details.png)
+> [!div class="mx-imgBorder"]
+> ![Klientselskapsdetaljer i regnskapsførerens instrumentbord](./media/accountant-get-started/accountant-company-details.png)
 
 Teknisk sett du har nå logget deg på kundens [!INCLUDE [d365fin](includes/d365fin_md.md)], og dataene du ser, er aktive data. Hvis du vil se nærmere på dataene, for eksempel en forfalt kjøpsfaktura, velger du koblingen, og du kommer til klientselskapet.  
 
 > [!TIP]
->  Du kan starte forhåndsdefinerte Excel-arbeidsbøker fra **Rapporter**-fanen på båndet. Disse Excel-arbeidsbøkene er utformet som klare til å skrive ut viktige regnskap og rapporter, men du kan også endre dem. etter behov. Hvis du vil ha mer informasjon, se [Analysere årsregnskap i Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) for hjelp om [!INCLUDE [d365fin](includes/d365fin_md.md)].  
+> Du kan starte forhåndsdefinerte Excel-arbeidsbøker fra **Rapporter**-fanen på båndet. Disse Excel-arbeidsbøkene er utformet som klare til å skrive ut viktige regnskap og rapporter, men du kan også endre dem. etter behov. Hvis du vil ha mer informasjon, se [Analysere årsregnskap i Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json) for hjelp om [!INCLUDE [d365fin](includes/d365fin_md.md)].  
 
 Ellers kan du lukke detaljervinduet og gå videre til neste klient.  
 
 ## <a name="assigned-tasks"></a>Tilordnede oppgaver
-I klientens [!INCLUDE [d365fin](includes/d365fin_md.md)] kan du tilordne oppgaver til deg selv og andre, og andre kan tilordne oppgaver til deg. Instrumentbordet i [!INCLUDE [d365acc](includes/d365acc_md.md)] gir deg en oversikt over tilordnede oppgaver for hver klient, og du får også tilgang til en oversikt over alle tilordnede oppgaver ved å velge **Mine brukeroppgaver** til venstre.  
+I klientens [!INCLUDE [d365fin](includes/d365fin_md.md)] kan du tilordne oppgaver til deg selv og andre, og andre kan tilordne oppgaver til deg. Instrumentbordet i [!INCLUDE [d365acc](includes/d365acc_md.md)] gir deg en oversikt over tilordnede oppgaver for hver klient, og du får også tilgang til en oversikt over alle tilordnede oppgaver ved å velge **Mine brukeroppgaver** på **Start**-siden.  
 
 I klientselskapet har du også bunker som fremheve oppgaver som er tilordnet til deg i denne bestemte klienten.
 
-![Oppgavene som er tilordnet regnskapsføreren i klientselskapet](./media/accountant-get-started/accountant-company-details-tasks.png)
+> [!div class="mx-imgBorder"]
+> ![Oppgavene som er tilordnet regnskapsføreren i klientselskapet](./media/accountant-get-started/accountant-company-details-tasks.png)
 
 ### <a name="my-user-tasks"></a>Mine brukeroppgaver
 **Mine brukeroppgaver**-listen i [!INCLUDE [d365acc](includes/d365acc_md.md)] hjelper deg med å prioritere dagen ved å vise mer informasjon om oppgaver som er tilordnet til deg, for alle kundene dine.  
 
-![Oversikt over oppgavene som er tilordnet til meg som en ekstern regnskapsfører](./media/accountant-get-started/accountant-tasklist.png)
+> [!div class="mx-imgBorder"]
+> ![Oversikt over oppgavene som er tilordnet til meg som en ekstern regnskapsfører](./media/accountant-get-started/accountant-tasklist.png)
 
 Du kan sortere etter forfallsdato, for eksempel, eller andre typer data som hjelper deg med å prioritere dagen. Oversikten viser alle aktiviteter som er tilordnet til deg, som standard, men du kan definere filtre for bare å vise oppgaver som for eksempel er merket med høy prioritet.
 
-For å plukke opp en oppgave, velger du den ganske enkelt fra listen over ventende brukeroppgaver. I båndet åpner **Gå til oppgaveelement**-koblingen vinduet der du kan gjøre oppgaven.  
+For å plukke opp en oppgave, velger du den ganske enkelt fra listen over ventende brukeroppgaver. I båndet åpner **Gå til oppgaveelement**-koblingen siden der du kan gjøre oppgaven.  
 
 Når du har fullført en oppgave, merker du den som fullført.  
 
 ## <a name="see-also"></a>Se også
+
 [Legge til klienter på skrivebordet i [!INCLUDE[d365acc](includes/d365acc_md.md)]](add-client.md)  
 [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](index.md)  
-[Analysere årsregnskap i Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)   
+[Analysere årsregnskap i Microsoft Excel](/dynamics365/business-central/finance-analyze-excel?toc=/dynamics365/accountants/toc.json)  
 [Regnskapsføreropplevelser i [!INCLUDE[d365fin](includes/d365fin_md.md)]](/dynamics365/business-central/finance-accounting?toc=/dynamics365/accountants/toc.json)  
 [Dynamics 365: Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
 

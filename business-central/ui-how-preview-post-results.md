@@ -12,10 +12,10 @@ ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: de5623e6dad677a8fb5f07824c17cb42632cff37
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="preview-posting-results"></a>Forhåndsvise bokføringsresultater
@@ -25,8 +25,8 @@ I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokf
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Opprett en kjøpsfaktura. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. Velg **Forhåndsvis bokføring**.
-4. I vinduet **Forhåndsvisning av bokføring** velger du **Finanspost** og deretter **Vis relaterte poster**.  
-   Vinduet **Forhåndsvisning for finansposter** viser hvilke poster som opprettes når du bokfører kjøpsfakturaen.
+4. På siden **Forhåndsvisning av bokføring** velger du **Finanspost** og deretter **Vis relaterte poster**.  
+   Siden **Forhåndsvisning for finansposter** viser hvilke poster som opprettes når du bokfører kjøpsfakturaen.
 
 ## <a name="see-also"></a>Se også
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  

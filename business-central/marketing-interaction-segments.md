@@ -13,14 +13,14 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: e3917573a912a4e51416c4e926443c87513728fe
-ms.openlocfilehash: 1962bd9d74f7b4d9600de11f85d1e312f6fb8c09
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1fcec3051fdabae818528742fba5d9ca57a721c8
 ms.contentlocale: nb-no
-ms.lasthandoff: 06/01/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="managing-interactions-for-segments"></a>Administrere samhandlinger for segmenter
-Vinduet **Segment** er en type forslag der du kan:
+Siden **Segment** er en type forslag der du kan:
 
 * Opprette segmenter.
 * Lagre segmenteringskriteriene du har brukt til å velge kontakter.
@@ -35,14 +35,14 @@ Du kan opprette segmenter på flere måter:
 * Du kan bruke lagrede segmenteringskriterier på nytt.
 
 ## <a name="interactions"></a>Samhandlinger
-I vinduet **Segment** kan du opprette samhandlinger for flere kontakter samtidig. Du kan for eksempel flette et segment med et Microsoft Word-dokument, slik at du kan sende et brev til alle kontaktene i segmentet.
+På **Segment**-siden kan du opprette samhandlinger for flere kontakter samtidig. Du kan for eksempel flette et segment med et Microsoft Word-dokument, slik at du kan sende et brev til alle kontaktene i segmentet.
 
 Du kan angi opplysninger om samhandlingen for segmentet i **Segment**-hodet. Du kan for eksempel angi hvilken samhandlingsmal du vil bruke for alle kontaktene, angi en beskrivelse, en korrespondansetype og så videre. Du kan imidlertid endre disse opplysningene på segmentlinjen for hver enkelt kontakt, for eksempel ved å angi en annen beskrivelse for en kontakt. Hvis du fletter et segment med et Microsoft Word-dokument, kan du tilpasse dokumentet som skal sendes for en eller flere kontakter i segmentet, for eksempel ved å legge til personlige merknader i dokumentet.
 
 ## <a name="logging"></a>Loggføring
-Når du velger **Logg** i vinduet **Segment**, registrerer programmet samhandlingene i vinduet **Samhandlingspost** og loggfører segmentet. Etter at du har loggført segmentet, finner du segmentet bare i vinduet **Loggført segment**.
+Når du velger **Logg** på **Segment**-siden, registrerer programmet samhandlingene på siden **Samhandlingspost** og loggfører segmentet. Etter at du har loggført segmentet, finner du segmentet bare på siden **Loggførte segmenter**.
 
-I vinduet **Loggførte segmenter** kan du avgjøre om du vil opprette et oppfølgingssegment som inneholder nøyaktig den samme kontakten som segmentet du har loggført.
+På siden **Loggførte segmenter** kan du avgjøre om du vil opprette et oppfølgingssegment som inneholder nøyaktig den samme kontakten som segmentet du har loggført.
 
 ## <a name="see-also"></a>Se også
 [Opprette segmenter.](marketing-how-create-segment.md)  

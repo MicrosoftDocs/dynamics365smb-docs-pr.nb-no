@@ -13,10 +13,10 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 42b5729d5d4013476fa0ff460db4dc999e629d66
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: ab72d1af179ec543ea358ac957e9b658987f7d53
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/22/2018
 * Oppdater og bokfør gjentakelseskladder.  
   <!--* Process Consolidations-->
 * Kjør kontoskjemaer som følger:  
-  * Åpne **Kontoskjema**-vinduet, og velg deretter handlingen **Skriv ut**.  
+  * Åpne **Kontoskjema**-siden, og velg deretter handlingen **Skriv ut**.  
 
 ## <a name="sales-and-receivables"></a>Salg
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  

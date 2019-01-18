@@ -13,10 +13,10 @@ ms.search.keywords: policy, coverage
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 16098723fed40fbe26b9ba238e7fe5bf339003f5
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 1acb95e72ded81520272b250138005d36759d634
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere aktivaforsikring
@@ -38,11 +38,11 @@ Du kan gruppere forsikringspoliser i kategorier, for eksempel tyveriforsikring o
 Du kan samle opplysninger om hver enkelt forsikringspolise på forsikringskortet.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.  
-2. Velg **Ny** for å opprette et nytt forsikringskort i **Forsikring**-vinduet.  
+2. Velg **Ny** for å opprette et nytt forsikringskort på **Forsikring**-siden.  
 3. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Slik definerer du forsikringskladdemaler
-[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en forsikringskladdemal første gang du åpner **Forsikringskladd**-vinduet, men du kan definere flere kladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en forsikringskladdemal første gang du åpner **Forsikringskladd**-siden, men du kan definere flere kladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -52,7 +52,7 @@ Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladdemaler**, og velg deretter den relaterte koblingen.  
 2. Velg en forsikringskladdemal, og velg deretter **Kladder**-handlingen.
-3. I vinduet **Forsikringskladder** fyller du ut feltene etter behov.
+3. På siden **Forsikringskladder** fyller du ut feltene etter behov.
 
 > [!NOTE]  
 >   Tall har en bestemt funksjon i kladdenavn. Hvis en kladdemal eller et kladdenavn inneholder et tall, øker tallet automatisk med én hver gang du bokfører en kladd. Hvis for eksempel HH1 er angitt i feltet **Navn**, endres kladdenavnet til HH2 etter at kladden HH1 er bokført.

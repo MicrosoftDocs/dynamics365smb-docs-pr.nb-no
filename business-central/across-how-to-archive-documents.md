@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 6b1b23c062fdb1c4558a292c7aa454ae24ff3c71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
@@ -27,7 +27,7 @@ Du kan konfigurere automatisk arkivering av salgs- og kjøpsordrer, tilbud, ramm
 
 Fremgangsmåten nedenfor beskriver hvordan du konfigurerer automatisk arkivering av salgsdokumenter. Fremgangsmåten er den samme for kjøpsdokumenter.
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
-2. I vinduet **Generelt bokføringsoppsett** må du fylle feltene som følger:
+2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt.
 
 |Felt|Description|
 |-----|-----------|
@@ -42,7 +42,7 @@ Fremgangsmåten nedenfor beskriver hvordan du arkiverer fra ordrer. Fremgangsmå
 2.  Åpne en ordre du vil arkivere.  
 3.  Velg handlingen **Arkiver dokument**.
 
-Ordren arkiveres. Du kan se den i vinduet **Arkiverte ordrer**. Herfra kan du også bruke det til å opprette ordren på nytt som den ble arkivert fra.
+Ordren arkiveres. Du kan se den på siden **Arkiverte ordrer**. Herfra kan du også bruke det til å opprette ordren på nytt som den ble arkivert fra.
 
 ## <a name="to-recreate-a-sales-order-from-the-archive"></a>Opprette en ordre fra arkivet
 Fremgangsmåten nedenfor beskriver hvordan du oppretter en ordre på nytt. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
@@ -50,14 +50,14 @@ Fremgangsmåten nedenfor beskriver hvordan du oppretter en ordre på nytt. Fremg
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arkiverte ordrer**, og velg deretter den relaterte koblingen.
 2.  Velg den arkiverte ordren som skal opprettes på nytt, og velg deretter **Gjenopprett**-handlingen.  
 
-Ordren opprettes og legges til i vinduet **Ordrer**.
+Ordren opprettes og legges til på siden **Ordrer**.
 
 ## <a name="to-delete-archived-sales-orders"></a>Slette arkiverte ordrer
 Fremgangsmåten nedenfor beskriver hvordan du sletter arkiverte ordrer. Fremgangsmåten er den samme for alle andre salgs- og kjøpsdokumenter.
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Slett arkiverte ordreversjoner**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Slett arkiverte ordreversjoner** velger du de aktuelle filtrene.  
-3.  Velg **OK**-knappen.
+2.  På siden **Slett arkiverte ordreversjoner** velger du de aktuelle filtrene.  
+3.  Velg **OK**.
 
 ## <a name="see-also"></a>Se også
 [Spore dokumentlinje](across-how-to-track-document-lines.md)  

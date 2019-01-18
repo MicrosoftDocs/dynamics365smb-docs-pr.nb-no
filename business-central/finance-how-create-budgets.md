@@ -13,10 +13,10 @@ ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: f1311d566a8166a8a8720bb09789f42c65a1b6e7
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 4cf8738c7bab09f7bcf900baae54731b6772e7e9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="create-gl-budgets"></a>Opprette finansbudsjetter
@@ -34,11 +34,11 @@ I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velg handlingen **Rediger budsjett**.
-4. Øverst i vinduet **Budsjett** fyller du ut feltene etter behov for å definere det som vises.  
+4. Øverst på siden **Budsjett** fyller du ut feltene etter behov for å definere det som vises.  
 
-    Bare poster som inneholder budsjettnavnet du har angitt i feltet **Budsjettnavn**, vises. Ettersom budsjettnavnet nettopp er opprettet, finnes det ingen poster som passer til filteret. Vinduet er derfor tomt.  
-5. Angi et beløp ved å velge relevant celle i matrisen. **Budsjettposter**-vinduet åpnes.  
-6. Opprett en ny linje, og fyll ut **Beløp**-feltet. Lukk **Budsjettposter**-vinduet.  
+    Bare poster som inneholder budsjettnavnet du har angitt i feltet **Budsjettnavn**, vises. Ettersom budsjettnavnet nettopp er opprettet, finnes det ingen poster som passer til filteret. Siden er derfor tom.  
+5. Angi et beløp ved å velge relevant celle i matrisen. **Budsjettposter**-siden åpnes.  
+6. Opprett en ny linje, og fyll ut **Beløp**-feltet. Lukk **Budsjettposter**-siden.  
 7. Gjenta trinn 5 og 6 til du har angitt alle budsjettbeløpene.  
 
 > [!NOTE]  

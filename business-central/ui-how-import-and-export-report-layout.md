@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e32cbdc9bc5f61a054972be4c5bcc409ada961a0
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 27818c45c68f37c052a39eeaeaf0fe6c2c871af9
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere en rapport eller et dokumentoppsett
@@ -31,7 +31,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
   
 2.  Velg raden for rapporten som inneholder det egendefinerte rapportoppsettet du vil eksportere, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
   
-3.  I Vinduet **Rapportoppsett** velger du rapportoppsettet du vil eksportere til en fil, og velger deretter **Eksporter oppsett** under **Prosess** i fanebladet **Hjem**.  
+3.  På siden **Rapportoppsett** velger du rapportoppsettet du vil eksportere til en fil, og velger deretter **Eksporter oppsett** under **Prosess** i fanebladet **Hjem**.  
   
 4.  Velg **Lagre** i dialogboksen **Eksporter fil**, og lagre deretter filen et sted på datamaskinen eller nettverket.  
   
@@ -45,7 +45,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
   
 3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
   
-4.  I vinduet **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.  
+4.  På siden **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.  
   
 5.  Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.  
   

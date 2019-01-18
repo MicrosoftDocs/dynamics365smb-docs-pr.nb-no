@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 75f0fd760978b0efc4ab86b8d17a815280a09799
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: b5dba16cae1e767c867544cfae21e12ac7d0f933
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="service-posting"></a>Servicebokføring
@@ -23,7 +23,7 @@ Ved hjelp av funksjonaliteten for servicebokføring kan du behandle dokumenter e
 > [!NOTE]  
 >  Følgende beskriver servicebokføring, uavhengig av hvordan varer håndteres fysisk på lageret.  
 >   
->  I en lokasjon som ikke er definert slik at lagerhåndtering kreves, kan du utføre bokføringshandlingene direkte fra **Servicelinjer**-vinduet. På lokasjoner som omfatter lagerhåndtering, utføres de nevnte bokføringshandlingene, unntatt Lever og Forbruk, indirekte gjennom ulike lagerleveringsfunksjoner, avhengig av oppsettet. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).  
+>  I en lokasjon som ikke er definert slik at lagerhåndtering kreves, kan du utføre bokføringshandlingene direkte fra **Servicelinjer**-siden. På lokasjoner som omfatter lagerhåndtering, utføres de nevnte bokføringshandlingene, unntatt Lever og Forbruk, indirekte gjennom ulike lagerleveringsfunksjoner, avhengig av oppsettet. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Levere  
 Ved hjelp av leveringsalternativet kan du registrere relevante varer og tiden som er angitt i linjene i en serviceordre når du har fullført servicen. En bokført følgeseddel opprettes og oppdateringer forekommer i Lager-modulen og andre moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å gjenspeile at varene er tatt ut av lageret og sendt til kunden. Nærmere bestemt opprettes vareposter, verdiposter, serviceposter og garantiposter.  
@@ -42,10 +42,10 @@ Ved hjelp av alternativet for levering og forbruk kan du registrere og bokføre 
 > [!NOTE]  
 >  Ved hjelp av prosedyren for servicebokføring kan du foreta delvis bokføring. Du kan opprette en dellevering eller en delfaktura ved å fylle ut feltene **Levere (antall)** og **Fakturer (antall)** på hver enkelt servicelinje i serviceordrene før du bokfører. Merk at du ikke kan opprette en faktura for noe som ikke er levert. Det vil si at for å kunne fakturere, er det nødvendig at du på forhånd har registrert en levering, eller at du velger å levere og fakturere samtidig.  
 
-Når bokføringen er fullført, kan du vise de bokførte servicedokumentene i de tilsvarende vinduene **Bokført servicefølgeseddel** og **Bokført servicefaktura**. De bokførte postene som er opprettet, kan vises i ulike vinduer som inneholder bokførte poster, for eksempel **Finansposter**, **Vareposter**, **Lagerposter**, **Serviceposter**, **Prosjektposter**, **Garantiposter** og så videre.  
+Når bokføringen er fullført, kan du vise de bokførte servicedokumentene på de tilsvarende sidene **Bokført servicefølgeseddel** og **Bokført servicefaktura**. De bokførte postene som er opprettet, kan vises på ulike sider som inneholder bokførte poster, for eksempel **Finansposter**, **Vareposter**, **Lagerposter**, **Serviceposter**, **Prosjektposter**, **Garantiposter** og så videre.  
 
 ## <a name="to-view-information-about-a-posted-service-document"></a>Slik viser du informasjon om bokførte servicedokumenter  
-Når du bokfører en servicefaktura, servicefølgeseddel eller servicekreditnota, overføres opplysningene i dokumentet henholdsvis til vinduene **Bokført servicefaktura**, **Bokført servicefølgeseddel** eller **Bokført salgskreditnota (service)**. Du kan ikke angi, endre eller slette noe i disse vinduene. Du kan imidlertid skrive følgesedler, fakturaer eller kreditnotaer fra disse vinduene.  
+Når du bokfører en servicefaktura, servicefølgeseddel eller servicekreditnota, overføres opplysningene i dokumentet henholdsvis til sidene **Bokført servicefaktura**, **Bokført servicefølgeseddel** eller **Bokført salgskreditnota (service)**. Du kan ikke angi, endre eller slette noe på disse sidene. Du kan imidlertid skrive følgesedler, fakturaer eller kreditnotaer fra disse sidene.  
 
 Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du kan bruke samme fremgangsmåte for bokførte servicefølgesedler og bokførte kreditnotaer.  
 
@@ -53,7 +53,7 @@ Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du k
 2. Åpne den bokførte servicefakturaen du vil vise.  
 3. Hvis du vil ha en oversikt over den bokførte fakturaen, velger du handlingen **Statistikk**.  
 
-    Vinduet **Serviceordrestatistikk** åpnes. I vinduet vises informasjon som antall, beløp, mva, kost, fortjeneste og kundens kredittgrense for det bokførte dokumentet.
+    Siden **Serviceordrestatistikk** åpnes. Siden viser informasjon som antall, beløp, mva, kost, fortjeneste og kundens kredittgrense for det bokførte dokumentet.
 
 ## <a name="see-also"></a>Se også  
 [Postere serviceordrer](service-how-to-post-service-orders.md)   

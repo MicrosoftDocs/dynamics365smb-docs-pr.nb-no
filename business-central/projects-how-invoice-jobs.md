@@ -13,16 +13,16 @@ ms.search.keywords: project invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c646fe080cbdb867d58fb011ec9d94a1d8bd61b3
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 73894bb8c7193d96ca1f4c4f7c8b8394b1f26f5f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
 
-Du kan fakturere hele prosjektet fra vinduet **Prosjektoppgavelinjer** eller bare fakturere utvalgte fakturerbare linjer fra vinduet **Planleggingslinjer**. Fakturering kan utføres etter at prosjektet er fullført, eller ved bestemte intervaller under fremdriften til prosjektet, basert på en faktureringsplan.
+Du kan fakturere hele prosjektet fra siden **Prosjektoppgavelinjer** eller bare fakturere utvalgte fakturerbare linjer fra siden **Planleggingslinjer**. Fakturering kan utføres etter at prosjektet er fullført, eller ved bestemte intervaller under fremdriften til prosjektet, basert på en faktureringsplan.
 
 > [!NOTE]  
 >   Hvis du velger **Fakturerbar** i feltet **Prosjektlinjetype** i kjøpsdokumentene for prosjektrelaterte kjøp, opprettes prosjektplanleggingslinjer som er klare til å bli fakturert til kunden. Hvis du vil ha mer informasjon, kan du se [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md).
@@ -30,7 +30,7 @@ Du kan fakturere hele prosjektet fra vinduet **Prosjektoppgavelinjer** eller bar
 ## <a name="to-create-and-post-a-job-sales-invoice"></a>Slik oppretter og bokfører du en salgsfaktura for prosjekt
 Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektoppgaver for en kunde enten når arbeidet som skal faktureres, er fullført, eller når faktureringsdatoen som er basert på et faktureringsestimat, er nådd.
 
-Fra vinduet **Prosjekter** kan du fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
+Fra siden **Prosjekter** kan du fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett salgsfaktura for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -45,13 +45,13 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 3. Velg en prosjektoppgave der feltet **Prosjektoppgavetype** inneholder **Bokføring**, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 4. På en prosjektplanleggingslinjer, i feltet **Ant. som skal overføres til faktura** angir du antallet av varen, ressursen, finanskontotypen du vil fakturere.  
 5. Velg handlingen **Opprett salgsfaktura**.
-6. I vinduet **Opprett salgsfaktura for prosjekt** skriver du inn bokføringsdatoen og om du vil opprette en ny faktura eller føye til denne fakturaen til en eksisterende.
+6. På siden **Opprett salgsfaktura for prosjekt** skriver du inn bokføringsdatoen og om du vil opprette en ny faktura eller føye til denne fakturaen til en eksisterende.
 7. Velg **OK**.  
 
     Du kan se antallet i feltet **Ant. overført til faktura** på prosjektplanleggingslinjen.
-8. I vinduet **Prosjektplanleggingslinjer** velger du handlingen **Salgsfakturaer/kreditnotaer**.
+8. På siden **Prosjektplanleggingslinjer** velger du handlingen **Salgsfakturaer/kreditnotaer**.
 
-    Vinduet **Salgsfaktura** åpnes og viser antallet du har overført til fakturaen.  
+    Siden **Salgsfaktura** åpnes og viser antallet du har overført til fakturaen.  
 9. Gjør flere endringer, og velg deretter handlingen **Bokfør**.
 
 > [!NOTE]  
@@ -65,11 +65,11 @@ Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og 
 3. I feltet **Status** velger du **Fullført**.
 4. Følg hjelpetrinnene for å beregne og bokføre VIA. Alternativt følger du trinn 5 og 6 hvis du vil gjøre dette manuelt.  
 5. Velg handlingen **Beregn VIA**.
-6. I vinduet **Beregn VIA for prosjekt** fyller du ut feltene etter behov.  
+6. På siden **Beregn VIA for prosjekt** fyller du ut feltene etter behov.  
 
      VIA-postene for prosjekt du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.  
 7. Velg handlingen **Bokfør VIA i Finans for prosjekt**.
-8. Fyll ut feltene etter behov i vinduet **Bokfør VIA i Finans for prosjekt**.  
+8. Fyll ut feltene etter behov på siden **Bokfør VIA i Finans for prosjekt**.  
 
      VIA-finanspostene for prosjekt som du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.
 

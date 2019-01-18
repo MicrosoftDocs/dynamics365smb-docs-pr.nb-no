@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 82b61f468b7b0f5f8a5f8406b6df369db41a6ded
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
@@ -68,7 +68,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Åpne varekortet for vare 1001, tursykkel.  
 2.  Velg **Opprett lagerføringsenhet**-handlingen.  
-3.  Behold alle alternativer og filtre uendret i vinduet **Opprett lagerføringsenhet**, og velg deretter **OK**.  
+3.  Behold alle alternativer og filtre uendret på siden **Opprett lagerføringsenhet**, og velg deretter **OK**.  
 4.  Gjenta trinn 1 til og med 3 for alle varer i nummerintervallet mellom 1100 og 1300.  
 
 ### <a name="to-change-selected-planning-parameters"></a>Slik endrer du valgte planleggingsparametre:  
@@ -92,7 +92,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
-3.  I vinduet **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+3.  På siden **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Salg til-kundenavn|Forsendelsesdato|Varenr.|Lokasjon|Antall|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -104,7 +104,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
-3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+3.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Beregn plan|Startdato|Sluttdato|Vis resultater:|Begrens totaler til|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -117,17 +117,17 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
      Kontroller deretter at denne planleggingslinjen er knyttet til ordren for Kontorkomplett AS ved å bruke **Sporing**-funksjonen, som dynamisk kobler behov til den planlagte forsyningen.  
 
 5.  Merk den nye planleggingslinjen, og velg deretter **Sporing**-handlingen.  
-6.  I vinduet **Sporing** velger du handlingen **Vis**.  
+6.  På siden **Sporing** velger du handlingen **Vis**.  
 
      Ordren for fem tursykler som skal leveres til kunde nummer 10000 den 05.02.2014, vises.  
 
-7.  Lukk vinduene **Ordre** og **Sporing**.  
+7.  Lukk sidene **Ordre** og **Sporing**.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Slik beregner du MRP for å inkludere underliggende komponentbehov:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
-3.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+3.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Beregn|Startdato|Sluttdato|Vis resultater:|Begrens totaler til:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
@@ -140,7 +140,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 ## <a name="analyzing-the-planning-result"></a>Analysere planleggingsresultatet  
  Martin viser detaljer for valgte planleggingslinjer for å analysere de foreslåtte antallene og vise sporingsposter og planleggingsparametere.  
 
- I **Planleggingsforslag**-vinduet merker du at de foreslåtte forsyningsordrene er planlagt bakover i **Forfallsdato**-kolonnen fra forfallsdatoen for ordren, 05.02.2014. Tidslinjen starter på øverste planleggingslinje med produksjonsordren for å produsere de ferdige tursyklene. Tidslinjen slutter på nederste planleggingslinje med bestillingen for én av varene på nederste nivå, 1255 (Hylse - bak), som forfaller 30.01.2014. Som planleggingslinjen for vare 1251, bakhjulsaksel, representerer denne linjen en bestilling for komponenter som forfaller på startdatoen for den produserte overordnede varen, delmonteringsvare 1250, som deretter forfaller 02.03.2014. I hele regnearket kan du se at alle underliggende varer forfaller på startdatoen for overordnede varer.  
+ På **Planleggingsforslag**-siden merker du at de foreslåtte forsyningsordrene er planlagt bakover i **Forfallsdato**-kolonnen fra forfallsdatoen for ordren, 05.02.2014. Tidslinjen starter på øverste planleggingslinje med produksjonsordren for å produsere de ferdige tursyklene. Tidslinjen slutter på nederste planleggingslinje med bestillingen for én av varene på nederste nivå, 1255 (Hylse - bak), som forfaller 30.01.2014. Som planleggingslinjen for vare 1251, bakhjulsaksel, representerer denne linjen en bestilling for komponenter som forfaller på startdatoen for den produserte overordnede varen, delmonteringsvare 1250, som deretter forfaller 02.03.2014. I hele regnearket kan du se at alle underliggende varer forfaller på startdatoen for overordnede varer.  
 
  Planleggingslinjen for vare 1300 (Kjedemontering) inneholder et forslag på ti stykker. Dette avviker fra de fem delene som vi forventer å trenge for å oppfylle salgsordren. Fortsett med å vise ordresporingspostene.  
 
@@ -148,26 +148,26 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Merk planleggingslinjen for vare 1300, og velg deretter **Sporing**-handlingen.  
 
-     De to linjene i **Sporing**-vinduet viser at fem stykker er sporet fra planleggingslinjen (første sporingslinje) til ordre 1001 (andre sporingslinje). De fem siste stykkene som er foreslått på planleggingslinjen, er ikke knyttet til noen dokumentlinjer, men til en planleggingsparameter, prognosepost eller rammeordrepost. Slike ikke-sporede antall er summert i feltet **Ikke-sporet antall** i hodet i **Sporing**-vinduet.  
+     De to linjene på **Sporing**-siden viser at fem stykker er sporet fra planleggingslinjen (første sporingslinje) til ordre 1001 (andre sporingslinje). De fem siste stykkene som er foreslått på planleggingslinjen, er ikke knyttet til noen dokumentlinjer, men til en planleggingsparameter, prognosepost eller rammeordrepost. Slike ikke-sporede antall er summert i feltet **Ikke-sporet antall** i hodet på **Sporing**-siden.  
 
 2.  Velg **Ikke-sporet antall**-feltet.  
 
-     Vinduet **Ikke-sporede planleggingselementer** viser at vare 1300 bruker en planleggingsparameter, Min. bestillingsantall, på 10,00. Derfor er planleggingslinjen for ti stykker i alt, men bare fem stykker kan spores til et behov. De fem siste stykkene er et ikke-sporet antall for å oppfylle planleggingsparameteren. Fortsett med å vise planleggingsparameteren.  
+     Siden **Ikke-sporede planleggingselementer** viser at vare 1300 bruker en planleggingsparameter, Min. bestillingsantall, på 10,00. Derfor er planleggingslinjen for ti stykker i alt, men bare fem stykker kan spores til et behov. De fem siste stykkene er et ikke-sporet antall for å oppfylle planleggingsparameteren. Fortsett med å vise planleggingsparameteren.  
 
 ### <a name="to-check-the-planning-parameter"></a>Slik kontrollerer du planleggingsparameteren:  
 
-1.  Velg sporingslinjen for vare 1300 i vinduet **Ikke-sporede planleggingselementer**.  
+1.  Velg sporingslinjen for vare 1300 på siden **Ikke-sporede planleggingselementer**.  
 2.  Velg feltet **Varenr.**, og velg deretter **Avansert**-handlingen.  
-3.  I vinduet **Vareoversikt** velger du handlingen **Lagerføringsenheter**.  
-4.  I **Lagerføringsenhet - oversikt** åpner du lagerføringsenhetskortet for OSLO.  
+3.  På siden **Vareoversikt** velger du handlingen **Lagerføringsenheter**.  
+4.  På siden **Lagerføringsenhet - oversikt** åpner du lagerføringsenhetskortet for OSLO.  
 5.  I hurtigfanen **Planlegging**, legg merke til at feltet **Min. bestillingsantall** inneholder 10.  
-6.  Lukk alle vinduer unntatt **Planleggingsforslag**-vinduet.  
+6.  Lukk alle sider unntatt **Planleggingsforslag**-siden.  
 
 ### <a name="to-view-more-order-tracking-entries"></a>Slik viser du flere ordresporingsposter:  
 
 1.  Merk planleggingslinjen for vare 1110, Felg, og velg deretter **Sporing**-handlingen.  
 
-     **Sporing**-vinduet viser at fem felger kreves for hver produksjonsordre for henholdsvis for- og bakhjul.  
+     **Sporing**-siden viser at fem felger kreves for hver produksjonsordre for henholdsvis for- og bakhjul.  
 
      Samme sporing gjelder for planleggingslinjene for vare 1120 1160 og 1170. For vare 1120, er **Antall per**-feltet i produksjonsstykklisten for hver hjulvare 50 stk, noe som resulterer i et totalt behov på 100.  
 
@@ -175,11 +175,11 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 2.  Merk planleggingslinjen for vare 1150, og velg deretter **Sporing**-handlingen.  
 
-     **Sporing**-vinduet viser at fem enheter spores til forhjulet, og én enhet er ikke-sporet. Fortsett med å vise ikke-sporet antall.  
+     **Sporing**-siden viser at fem enheter spores til forhjulet, og én enhet er ikke-sporet. Fortsett med å vise ikke-sporet antall.  
 
 3.  Velg **Ikke-sporet antall**-feltet.  
 
-     Vinduet **Ikke-sporede planleggingselementer** viser at vare 1150 bruker en planleggingsparameter, Bestillingsfaktor, på 2,00, som angir at når varen bestilles, må det være i et antall som kan deles med 2. Tallet som er nærmest fem og kan deles på to, er seks.  
+     Siden **Ikke-sporede planleggingselementer** viser at vare 1150 bruker en planleggingsparameter, Bestillingsfaktor, på 2,00, som angir at når varen bestilles, må det være i et antall som kan deles med 2. Tallet som er nærmest fem og kan deles på to, er seks.  
 
      Den samme ordresporingen gjelder for planleggingslinjer for fornavkomponentene, varene 1151 og 1155, bortsett fra at hvert behov multipliseres med svinnprosenten som er definert for varen 1150 i feltet **Svinnprosent**, på varekortet.  
 
@@ -192,14 +192,14 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Merk av for **Godta handlingsmelding** for alle planleggingslinjer med en advarsel av typen Unntak.  
 2.  Velg **Utfør handlingsmelding**-handlingen.  
-3.  I vinduet **Utfør handlingsmelding - plan.** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+3.  På siden **Utfør handlingsmelding - plan.** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Produksjonsordre|Bestilling|Overføringsordre|  
     |----------------------|--------------------|--------------------|  
     |Fast planlagt|Lag bestilling|Lag overføringsordrer|  
 
 4.  Velg **OK**-knappen for å opprette alle de foreslåtte forsyningsordrene automatisk.  
-5.  Lukk det tomme **Planleggingsforslag**-vinduet.  
+5.  Lukk den tomme **Planleggingsforslag**-siden.  
 
  Nå har du fullført den innledende beregningen, analysen og opprettelsen av en forsyningsplan for behov i OSLO i den første uken av februar. I delen nedenfor bestiller en annen kunde ti tursykler, og Martin må planlegge på nytt.  
 
@@ -211,7 +211,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 ### <a name="to-create-the-new-sales-demand-and-replan-accordingly"></a>Slik oppretter du det nye salgsbehovet og planlegger på nytt i henhold til dette  
 
 1.  Velg handlingen **Ny**.  
-2.  I vinduet **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+2.  På siden **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Salg til-kundenavn|Forsendelsesdato|Varenr.|Lokasjon|Antall|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
@@ -219,9 +219,9 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 3.  Godta tilgjengelighetsadvarselen, og velg **Ja** for å registrere behovsmengden.  
 4.  Fortsett med å planlegge på nytt for å justere den aktuelle forsyningsplanen.  
-5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 6.  Velg **Beregn bevegelsesplan**-handlingen.  
-7.  I vinduet **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+7.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Beregn plan|Startdato|Sluttdato|Vis resultater:|Begrens totaler til|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
@@ -244,20 +244,20 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 1.  Merk planleggingslinjen for vare 1250, og velg deretter **Sporing**-handlingen.  
 
-     De sju linjene i **Sporing**-vinduet viser at fem og ti deler blir sporet gjennom henholdsvis bakhjulet til tursyklene på de to salgsordrene.  
+     De sju linjene på **Sporing**-siden viser at fem og ti deler blir sporet gjennom henholdsvis bakhjulet til tursyklene på de to salgsordrene.  
 
      De siste fem delene er ikke-sporet. Fortsett med å analysere.  
 
 2.  Velg **Ikke-sporet antall**-feltet.  
 
-     Vinduet **Ikke-sporede planleggingselementer** viser at vare 1250 bruker en planleggingsparameter, Bestillingsfaktor, på 10,00. Planleggingslinjen er derfor på 20 deler i alt for å avrunde det faktiske behovet opp til nærmeste tall som er delelig med 10. De fem siste stykkene er et ikke-sporet antall for å oppfylle planleggingsparameteren.  
+     Siden **Ikke-sporede planleggingselementer** viser at vare 1250 bruker en planleggingsparameter, Bestillingsfaktor, på 10,00. Planleggingslinjen er derfor på 20 deler i alt for å avrunde det faktiske behovet opp til nærmeste tall som er delelig med 10. De fem siste stykkene er et ikke-sporet antall for å oppfylle planleggingsparameteren.  
 
-3.  Lukk alle vinduer unntatt **Planleggingsforslag**-vinduet.  
+3.  Lukk alle sider unntatt **Planleggingsforslag**-siden.  
 
 ### <a name="to-view-an-existing-order"></a>Slik viser du en eksisterende ordre:  
 
 1.  Velg **Ref.ordrenr.** i planleggingslinjen for vare 1250. .  
-2.  Åpne vinduet **Fast planlagt prod.ordre** for baknavet. Den eksisterende ordren for ti enheter, som du opprettet i den første planleggingskjøringen, åpnes.  
+2.  Åpne siden **Fast planlagt prod.ordre** for baknavet. Den eksisterende ordren for ti enheter, som du opprettet i den første planleggingskjøringen, åpnes.  
 3.  Lukk den fast planlagte produksjonsordren.  
 
  Nå har du gått gjennom hvordan planleggingssystemet brukes til å oppdage behov automatisk, beregne de aktuelle forsyningsordrene i henhold til behov og planleggingsparametere og deretter automatisk opprette ulike typer forsyningsordrer med riktige datoer og antall.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 36c68048c384f4ccfef6c811ac288b306351ce2f
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 3f5521102ebcf4ad6b5bcb88c862106fd6b85f3f
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-special-orders"></a>Opprette spesialbestillinger
@@ -32,9 +32,9 @@ Før du kan bruke denne funksjonen, må du først konfigurere kunden, leverandø
     Du må nå opprette en bestilling fra et bestillingsforslag.  
 4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.  
 5. Velg **Spesialbestilling**-handlingen, og velg deretter **Hent ordre**-handlingen.  
-6.  Vis resultater der **Bilagsnr.** er ordrenummeret, i **Hent ordrer**-vinduet. Velg **OK**-knappen. Det opprettes en bestillingsforslagslinje for varen.  
+6.  Vis resultater der **Bilagsnr.** er ordrenummeret, på siden **Hent ordrer**. Velg **OK**-knappen. Det opprettes en bestillingsforslagslinje for varen.  
 7.  På bestillingsforslagslinjen velger du **Ny** i feltet **Handlingsmelding**.  
-8.  I **Best. forslag**-vinduet velger du handlingen **Utfør handlingsmelding**. Vinduet **Utfør handlingsmeld. - forslag** åpnes. Velg **OK**.  
+8.  På siden **Best.forslag** velger du handlingen **Utfør handlingsmelding**. Siden **Utfør handlingsmeld. - forslag** åpnes. Velg **OK**.  
 
     Det vises en melding om at bestillingene er opprettet. Velg **OK**-knappen.  
 

@@ -11,14 +11,14 @@ ms.search.keywords: change Role Center, notification, change company, change wor
 ms.date: 11/19/2018
 ms.author: solsen
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b66a33d652d4229a32ed4672774e5b2bc2ed8833
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
-I vinduet [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central") kan du se og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Endringene du gjør, påvirker bare arbeidsområdet, ikke arbeidsområdene til andre brukere.  
+På siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central") kan du se og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Endringene du gjør, påvirker bare arbeidsområdet, ikke arbeidsområdene til andre brukere.  
 
 ## <a name="role-center"></a> Rollesenter
 Rollesenteret representerer hjemmesiden, et startskjermbilde som er tilpasset behovene til en spesifikk rolle i en organisasjon. Avhengig av rollen din gir rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Det kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
@@ -30,7 +30,7 @@ Rollesenteret representerer hjemmesiden, et startskjermbilde som er tilpasset be
 ### <a name="to-change-role-center"></a>Endre rollesenter
 Standard rollesenter er **Forretningsleder**, men du kan velge et annet rollesenteret som passer bedre til dine behov.
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter"), og velg deretter **Mine innstillinger**.
-2. I vinduet **Mine innstillinger**, i feltet **Rollesenter**, velger du rollesenteret som du vil angi som standard. Velg for eksempel **Revisor**.
+2. På siden **Mine innstillinger**, i feltet **Rollesenter**, velger du rollesenteret som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**-knappen.
 
 ## <a name="company"></a>Selskap
@@ -39,7 +39,7 @@ Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365f
 Standardfirma kalles CRONUS, og inneholder demonstrasjonsdata bare.
 
 > [!TIP]  
->   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel i rollesenteret), angir du **Navn**-feltet i vinduet **Selskapsopplysninger** eller **Visningsnavn** i **Selskaper**-vinudet.  
+>   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel i rollesenteret), angir du **Navn**-feltet på siden **Selskapsopplysninger** eller **Visningsnavn** på **Selskaper**-siden.  
 
 ## <a name="work-date"></a>Arbeidsdato
 Standard arbeidsdato er vanligvis dagens dato. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er gjeldende dato.

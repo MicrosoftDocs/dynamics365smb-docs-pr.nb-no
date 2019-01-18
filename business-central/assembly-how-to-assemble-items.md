@@ -13,10 +13,10 @@ ms.search.keywords: kit, kitting
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 00830a8b1c55e67642f39378a13d34bd53d67a86
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="assemble-items"></a>Montere elementer
@@ -44,18 +44,18 @@ I denne fremgangsmåten oppretter og behandler du en monteringsordre for varer s
 
 ## <a name="to-assemble-an-item"></a>Slik monterer du en vare:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
-2.  Velg handlingen **Ny**. Vinduet **Ny monteringsvare** åpnes.  
+2.  Velg handlingen **Ny**. Siden **Ny monteringsvare** åpnes.  
 3.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg monteringsvaren du vil behandle, i **Varenr.**-feltet. Feltet filtreres slik at det bare viser varer som er definert for montering, noe som betyr at monteringsstykklister er tilordnet varene.  
 5.  Angi hvor mange enheter av varen du vil ha montert, i **Antall**-feltet.  
 
     > [!NOTE]  
-    >  Hvis én eller flere komponenter ikke er tilgjengelige for å oppfylle angitt monteringsvareantall på den definerte forfallsdatoen, åpnes vinduet **Montering – tilgjengelighet** automatisk for å gi detaljert informasjon om hvor mange monteringsvarer som kan monteres, basert på komponenttilgjengelighet. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md). Når du lukker vinduet, opprettes monteringsordren med tilgjengelighetsvarsler på de berørte komponentlinjene.  
+    >  Hvis én eller flere komponenter ikke er tilgjengelige for å oppfylle angitt monteringsvareantall på den definerte forfallsdatoen, åpnes siden **Montering – tilgjengelighet** automatisk for å gi detaljert informasjon om hvor mange monteringsvarer som kan monteres, basert på komponenttilgjengelighet. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md). Når du lukker siden, opprettes monteringsordren med tilgjengelighetsvarsler på de berørte komponentlinjene.  
 
     Monteringsordrelinjene fylles ut automatisk med innholdet i monteringsstykklisten og linjeantall i henhold til monteringsordrehodet.  
 
     > [!NOTE]  
-    >  Hvis vinduet **Montering – tilgjengelighet** ble åpnet da du fylte ut monteringsordrehodet, inneholder hver påvirkede monteringsordrelinje **Ja** i feltet **Tilgj. advarsel** med en kobling til detaljert tilgjengelighetsinformasjon. Hvis du vil ha mer informasjon, se Kontroller tilgjengelighet. Du kan løse et problem med komponenttilgjengelighet ved å utsette startdatoen, erstatte komponenten med en annen vare eller velge en mulig erstatning, hvis dette er definert.  
+    >  Hvis siden **Montering – tilgjengelighet** ble åpnet da du fylte ut monteringsordrehodet, inneholder hver påvirkede monteringsordrelinje **Ja** i feltet **Tilgj. advarsel** med en kobling til detaljert tilgjengelighetsinformasjon. Hvis du vil ha mer informasjon, se Kontroller tilgjengelighet. Du kan løse et problem med komponenttilgjengelighet ved å utsette startdatoen, erstatte komponenten med en annen vare eller velge en mulig erstatning, hvis dette er definert.  
 
 6.  Angi hvor mange enheter av monteringsvaren du vil bokføre som avgang neste gang du bokfører monteringsordren, i feltet **Antall å montere**. Dette antallet kan være lavere enn verdien i **Antall**-feltet for å gjenspeile en delvis avgangsbokføring.  
 

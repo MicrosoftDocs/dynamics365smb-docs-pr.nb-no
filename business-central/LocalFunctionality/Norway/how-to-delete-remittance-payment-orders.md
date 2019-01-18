@@ -1,6 +1,6 @@
 ---
 title: Slette remitteringsoppdrag
-description: "Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene i vinduet **Ventekladd** har statusen **Sendt** eller **Godkjent**."
+description: "Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,19 +13,19 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 100fb7e6047ce4a0ba1bbbb6178b42f6347f7ab7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: c6b385abb040d8e5e36ce11c6680b32e12d058d8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="delete-remittance-payment-orders"></a>Slette remitteringsoppdrag
-Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene i vinduet **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
+Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
 ## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag  
 
 1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slette remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
-2.  I vinduet **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  

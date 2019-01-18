@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37c8f69f7cac8155bf45ab02dc8908249a0ace71
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0f69cfc3257de42aacf01c26090230350f83dfba
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
@@ -27,9 +27,9 @@ Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengel
 2.  Åpne kortet for varen du vil definere for lagerstyring.
 3. På hurtigfanen **Lager** på varekortet fyller du ut feltene for å definere hvordan varene skal håndteres i lageret.  
 4.  Velg handlingen **Enheter**.
-5. I **Enheter**-vinduet fyller du ut feltene for å definere de forskjellige enhetene som kan brukes i varetransaksjoner, inkludert høyde, bredde, lengde, kubikkinnhold og vekt for enhetene.
+5. På siden **Enheter** fyller du ut feltene for å definere de forskjellige enhetene som kan brukes i varetransaksjoner, inkludert høyde, bredde, lengde, kubikkinnhold og vekt for enhetene.
 6. Velg **Hylleinnhold**-handlingen.
-7. I **Hylleinnhold**-vinduet kan du definere lokasjonen og hyllen som varen skal tilordnes til. Feltet **Standard** brukes ikke når lokasjonen er definert til å bruke lagerstyring.  
+7. På siden **Hylleinnhold** kan du definere lokasjonen og hyllen som varen skal tilordnes til. Feltet **Standard** brukes ikke når lokasjonen er definert til å bruke lagerstyring.  
 
 ## <a name="to-activate-directed-put-away-and-pick-functionality"></a>Slik aktiverer du funksjonalitet for bruk av lagerstyring:  
 Lagerstyring gir deg tilgang til avanserte lageroppsettsfunksjoner som forbedrer effektiviteten og datapåliteligheten. Hvis du skal bruke denne funksjonaliteten, må du først definere et antall parametere for lagerlokasjonen.  
@@ -53,7 +53,7 @@ Du er nå klar til å sette opp sonene, hvis du vil bruke soner i lageret. Hvis 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Slik setter du opp en sone i lageret  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
-3.  I vinduet **Soner** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3.  Fyll ut de nødvendige feltene på siden **Soner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du endrer en soneparameter, vil alle hyllene som opprettes i den aktuelle sonen etter endringen ha de nye egenskapene, men de opprinnelige hyllene endres ikke.  
 

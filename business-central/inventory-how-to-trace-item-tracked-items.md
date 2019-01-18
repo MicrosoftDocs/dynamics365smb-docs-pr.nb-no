@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: bd2bfb6f124a3a98776be21d179a81d8933cc9ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: bf16f61e5c3d6ee6af045ded8ec80e426ae6c20a
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="trace-item-tracked-items"></a>Spore varesporede varer
@@ -24,16 +24,16 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 
  Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må finne ut hvilke kunder som mottok produkter fra et bestemt partinummer, eller når du må finne ut hvilket parti en defekt komponent kom fra.  
 
- I vinduet **Varesporing** kan du spore fremover og bakover i en sekvens med bokførte lagertransaksjoner for serie- eller partinummeret.  
+ På siden **Varesporing** kan du spore fremover og bakover i en sekvens med bokførte lagertransaksjoner for serie- eller partinummeret.  
 
- Du kan ikke se transaksjonssekvensen i vinduet **Naviger**, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
+ Du kan ikke se transaksjonssekvensen på siden **Naviger**, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
 
- De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer til vinduet **Naviger** hvis du vil fullføre et fullstendig sporingsscenario. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).  
+ De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer på siden **Naviger** hvis du vil fullføre et fullstendig sporingsscenario. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
-2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst i vinduet.  
+2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst på siden.  
 3.  Velg om du også vil vise hvor komponentene for varen kommer fra, i feltet **Vis komponenter**. Alternativene i dette feltet er som følger.  
 
     |Felt|Beskrivelse|  
@@ -46,13 +46,13 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 
     |Felt|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
-    |**Forbruk->opprinnelse**|Denne metoden sporer varen fra der den ble brukt, til der den kom fra. Hvis en produsert vare for eksempel ble solgt til en kunde, vises dette i **Varesporing**-vinduet med følgeseddellinjen først, som du deretter kan utvide for å vise hvilken produksjonsordre den kom fra.|  
-    |**Opprinnelse->forbruk**|Denne metoden sporer varen fra der den kom inn på lageret, til der den ble brukt. Hvis en produsert vare ble solgt til en kunde, vises dette i **Varesporing**-vinduet med den ferdige produksjonsordren først, som du deretter kan utvide for å vise følgeseddellinjer der varen ble brukt.|  
+    |**Forbruk->opprinnelse**|Denne metoden sporer varen fra der den ble brukt, til der den kom fra. Hvis en produsert vare for eksempel ble solgt til en kunde, vises dette på siden **Varesporing** med følgeseddellinjen først, som du deretter kan utvide for å vise hvilken produksjonsordre den kom fra.|  
+    |**Opprinnelse->forbruk**|Denne metoden sporer varen fra der den kom inn på lageret, til der den ble brukt. Hvis en produsert vare ble solgt til en kunde, vises dette på siden **Varesporing** med den ferdige produksjonsordren først, som du deretter kan utvide for å vise følgeseddellinjer der varen ble brukt.|  
 
 5.  Velg **Spor** for å kjøre sporingen.  
 
 > [!NOTE]  
->  Hvis du har mottatt samme parti i flere transaksjoner, vises kanskje ikke alle transaksjonene i vinduet **Varesporing**. Det vises bare utlignede transaksjoner.  
+>  Hvis du har mottatt samme parti i flere transaksjoner, vises kanskje ikke alle transaksjonene på siden **Varesporing**. Det vises bare utlignede transaksjoner.  
 
 > [!NOTE]  
 >  Hvis ytterligere transaksjonshistorikk under en varesporingslinje allerede er sporet av en annen linje ovenfor, er det merket av for **Allerede sporet**. For en enklere visning vises ikke slike underliggende linjer.  

@@ -11,10 +11,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 9dfe8a2b30a2a11969d8d7937998611613602ae7
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: be73736f4c56ea78ef2bb2b736b76db0569312ec
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning av standardkost
@@ -81,7 +81,7 @@ Du definerer satsene for hver av disse tidstypene for hver produksjonsressurs el
 > [!NOTE]  
 >  Mens operasjonstidssatser gjelder for hver vareenhet som produseres, gjelder oppstillingstidssatsene for hvert parti. Derfor må du fordele ruteoppstillingstiden for hver operasjon proporsjonalt over partistørrelsen. Du angir partistørrelsen i det tilsvarende feltet i hurtigfanen **Bestilling** på varekortet.  
 
-Hvis du vil angi oppstillingstid i ruten for planlegging, men ikke inkludere denne utgiften i standardkostberegningen, tømmer du feltet **Kost inkl. oppstilling** i vinduet **Produksjonsoppsett**.  
+Hvis du vil angi oppstillingstid i ruten for planlegging, men ikke inkludere denne utgiften i standardkostberegningen, tømmer du feltet **Kost inkl. oppstilling** på siden **Produksjonsoppsett**.  
 
 På et enkeltnivågrunnlag er dette arbeidskost som kreves for å produsere den ferdige produksjonsvaren, og angis i ruten for produksjonsvaren. På et flernivågrunnlag er dette kapasitetskost som angitt for hver enkelt produserte vare som er inkludert i stykklisten for den overordnede varen.  
 

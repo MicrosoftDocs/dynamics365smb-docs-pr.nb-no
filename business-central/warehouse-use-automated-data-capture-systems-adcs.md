@@ -8,16 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 10/04/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b7887206991a6e31994e3efc4942c7b1254bb805
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4d378e4407ce0023ab0f089f7a8a218605c4cf7d
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
-# <a name="enable-automated-data-capture-systems-adcs"></a>Aktivere automatisk datafangstsystem (ADFS)
+# <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
+
+> [!NOTE]
+> I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADFS bare på lokale distribusjoner. En Microsoft-partner kan imidlertid få den til å fungere i nettdistribusjoner ved å bruke PowerApps eller lignende.
+
 Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning.  
 
 Hvis du vil bruke ADFS, må du gi hver vare som er lagret på lager, en vare-ID. Du må også sette opp miniformer, funksjoner for håndholdte enheter, datautveksling og angi innstillinger for felt som kontrollerer ADFS. Du angir om du vil bruke ADFS på lokasjonskortet for et lager.
@@ -38,22 +42,22 @@ Hvis du vil bruke ADFS, må du angi hvilke lagerlokasjoner som bruker teknologie
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg den relaterte koblingen.
 2.  Velg et lager i oversikten der du vil aktivere ADFS, og velg deretter **Rediger**-handlingen.
-3. I vinduet **Lokasjonskort** merker du av for **Bruk ADFS**.  
+3. På siden **Lokasjonskort** merker du av for **Bruk ADFS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Slik angir du at en vare skal bruke ADFS:  
 Hver lagervare som du vil bruke med ADFS, må være tilordnet en ID-kode for å knytte den til varenummer. Du kan for eksempel bruke varens strekkode som ID-kode. En vare kan også ha flere ID-koder. Dette kan være nyttig hvis en vare er tilgjengelig i ulike enheter, for eksempel stykk og paller. I dette tilfellet tilordner du en ID-kode til hver.    
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg en vare fra oversikten som er del av ADFS-løsningen, og velg deretter **Rediger**-handlingen.
-3. I vinduet **Varekort** velger du handlingen **Identifikatorer**.
-4. I vinduet **Vare-IDer** velger du handlingen **Ny**.
+3. På siden **Varekort** velger du handlingen **Identifikatorer**.
+4. På siden **Vare-IDer** velger du handlingen **Ny**.
 5. Angi identifikatoren for varen i **Kode**-feltet. Identifikatoren kan for eksempel være varens strekkodenummer.  
 
     Du kan også angi en **Variantkode** og en **Enhetskode**.  
 
 6. Angi om nødvendig flere koder for hver vare.
 7. Velg **OK**.  
-8.  Hvis du vil gå gjennom informasjonen, velger du **ID-kode**-feltet for å åpne **Vare-IDer**-vinduet.
+8.  Hvis du vil gå gjennom informasjonen, velger du **ID-kode**-feltet for å åpne **Vare-IDer**-siden.
 
 ## <a name="to-add-an-adcs-user"></a>Slik legger du til en ADFS-bruker:  
 Du kan legge til enhver bruker som en bruker av et automatisk datafangstsystem (ADFS). Når du gjør dette, må brukeren også angi et passord. Du kan eventuelt også angi en forbindelse som identifiserer ADFS-brukeren som lageransatt. ADFS-brukerpassordet kan være forskjellig fra brukerens Windows-påloggingspassord. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).

@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: b31591784c927f67f541d997f54e97ef696f63bb
+ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
+ms.openlocfilehash: 410439c6a7b0aacc31f1a191b9b4540d0aa6a5e8
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/22/2018
 
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
@@ -24,7 +24,7 @@ Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mo
 
 Du kan opprette lagerplassering på tre måter:  
 
-- Opprett plasseringen i to trinn, ved først å opprette en lagerforespørsel fra kildedokumentet, som fungerer som et signal til lageret om at kildedokumentet er klart for plassering. Lagerplasseringen kan så opprettes i vinduet **Lagerplassering** basert på kildedokumentet.  
+- Opprett plasseringen i to trinn, ved først å opprette en lagerforespørsel fra kildedokumentet, som fungerer som et signal til lageret om at kildedokumentet er klart for plassering. Lagerplasseringen kan så opprettes på siden **Lagerplassering** basert på kildedokumentet.  
 - Opprette lagerplassering direkte fra selve kildedokumentet.  
 - Opprett lagerplasseringer for flere kildedokumenter samtidig, ved hjelp av en kjørsel.  
 
@@ -59,13 +59,13 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette en ny lagerpl
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Slik oppretter du flere lagerplasseringer med en kjørsel:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett lagerplassering/-plukking**, og velg deretter den relaterte koblingen.  
-2.  På hurtigfanen **Lagerforespørsel** i forespørselsvinduet bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller.  
+2.  På hurtigfanen **Lagerforespørsel** på forespørselssiden bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller.  
 3.  Merk av for **Opprett lagerplassering** på hurtigfanen **Alternativer**.
 4.  Velg **OK**. De angitte lagerplasseringene blir opprettet.
 
 ## <a name="to-record-the-inventory-put-away"></a>Slik registrerer du lagerplasseringen  
-1. Åpne et opprettet plasseringsdokument ved å velger et i vinduet **Lagerplasseringer**.  
-2. I **Hyllekode**-feltet på plasseringslinjene foreslås hyllen som varene skal plasseres, per varens standardhylle. Du kan endre hylle i dette vinduet hvis det er nødvendig.  
+1. Åpne et opprettet plasseringsdokument ved å velger et på siden **Lagerplasseringer**.  
+2. I **Hyllekode**-feltet på plasseringslinjene foreslås hyllen som varene skal plasseres, per varens standardhylle. Du kan endre hylle på denne siden hvis det er nødvendig.  
 3. Utfør plasseringen, og angi opplysninger om det faktiske plasseringsantallet i feltet **Ant. som skal håndt**.
 
     Hvis varene for én linje må plasseres i mer enn én hylle, for eksempel fordi den angitte hyllen er full, bruker du funksjonen **Del linje** i hurtigfanen **Linjer**. Hvis du vil ha mer informasjon om deling av linjer, kan du se [Dele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  

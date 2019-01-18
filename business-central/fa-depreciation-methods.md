@@ -13,10 +13,10 @@ ms.search.keywords: write down
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 5e8aa531697dcdc6f629312c0569c5628b3f5755
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 4a6bc27850b84928641f5de7c364fb150fcb4481
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="depreciation-methods"></a>Avskrivningsmetoder
@@ -52,7 +52,7 @@ Hvis du angir avskrivningsperioden (antall avskrivningsår, avskrivningsmåneder
 
 Resterende avskrivningsdager beregnes som antall avskrivningsdager minus antall dager mellom startdatoen for avskrivningen og siste aktivapostdato.  
 
-Den bokførte verdien kan reduseres av bokført oppskrivning, nedskriving eller egendefinerte 1- eller 2-beløp, avhengig av om feltet **Inkluder i avskr.beregning** er deaktivert og om feltet **Del av bokført verdi** er aktivert i vinduet **Aktivabokf.type - oppsett**. Hvis du bruker denne beregningen, avskrives aktivaet fullstendig på sluttdatoen for avskrivningen.  
+Den bokførte verdien kan reduseres av bokført oppskrivning, nedskriving eller egendefinerte 1- eller 2-beløp, avhengig av om feltet **Inkluder i avskr.beregning** er deaktivert og om feltet **Del av bokført verdi** er aktivert på siden **Aktivabokf.type - oppsett**. Hvis du bruker denne beregningen, avskrives aktivaet fullstendig på sluttdatoen for avskrivningen.  
 
 ### <a name="fixed-yearly-percentage"></a>Fast årlig prosentsats
 Hvis du angir en fast årlig prosentsats, bruker programmet følgende formel til å beregne avskrivningsbeløpet:  
@@ -90,7 +90,7 @@ Følkgemde formel beregner avskrivningsbeløp:
 
 Avskrivningsgrunnlaget beregnes som den bokførte verdien minus bokført avskrivning siden startdatoen for det inneværende regnskapsåret.  
 
-Det bokførte avskrivningsbeløpet kan inneholde poster med ulike bokføringstyper (nedskriving, egendef. 1 og egendef. 2) som er bokført etter startdatoen for det inneværende regnskapsåret. Disse bokføringstypene inkluderes i det bokførte avskrivningsbeløpet hvis det er satt en hake i feltene **Avskrivningstype** og **Del av bokført verdi** i vinduet **Aktivabokf.type - oppsett**.  
+Det bokførte avskrivningsbeløpet kan inneholde poster med ulike bokføringstyper (nedskriving, egendef. 1 og egendef. 2) som er bokført etter startdatoen for det inneværende regnskapsåret. Disse bokføringstypene inkluderes i det bokførte avskrivningsbeløpet hvis det er satt en hake i feltene **Avskrivningstype** og **Del av bokført verdi** på siden **Aktivabokf.type - oppsett**.  
 
 ### <a name="example---declining-balance-1-depreciation"></a>Eksempel: Saldo 1-avskrivning
 Et aktiva har en anskaffelseskost på NOK 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
@@ -167,10 +167,10 @@ Kjørselen **Beregn avskrivning** beregner et lineært beløp og et saldobeløp,
 
 Du kan bruke ulike prosentsatser til å beregne saldo.  
 
-Hvis du bruker denne metoden, bruker du vinduet **Aktivaavskrivningstablå** til å angi hvilken effektiv levetid som er anslått, og en prosentsats for saldo.  
+Hvis du bruker denne metoden, bruker du siden **Aktivaavskrivningstablå** til å angi hvilken effektiv levetid som er anslått, og en prosentsats for saldo.  
 
 ### <a name="example---db1-sl-depreciation"></a>Eksempel – saldo 1 / lineær avskrivning
-Et aktiva har en anskaffelseskost på NOK 100 000. I vinduet **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
+Et aktiva har en anskaffelseskost på NOK 100 000. På siden **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
 Aktivapostene ser slik ut:  
 
@@ -219,21 +219,21 @@ Det lineære beløpet brukes fordi det er det største beløpet.
 ## <a name="user-defined-depreciation"></a>Brukerdefinert avskrivning
 Programmet gjør det mulig å definere brukerdefinerte avskrivningsmetoder.  
 
-Hvis du velger en slik metode, bruker du vinduet **Avskrivningstabeller** til å angi en prosentsats for avskrivning for hver enkelt periode (måned, kvartal, år og regnskapsperiode).  
+Hvis du velger en slik metode, bruker du siden **Avskrivningstabeller** til å angi en prosentsats for avskrivning for hver enkelt periode (måned, kvartal, år og regnskapsperiode).  
 
 Formelen for beregning av avskrivningsbeløp er følgende:  
 
 Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag ) / (100 x 360)  
 
 ### <a name="depreciation-based-on-number-of-units"></a>Avskrivning etter antall enheter
-Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. I vinduet **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
+Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. På siden **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
 
 ### <a name="to-set-up-user-defined-depreciation-methods"></a>Slik definerer du brukerdefinerte avskrivningsmetoder
-I **Avskrivningstabell**-vinduet kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
+På **Avskrivningstabell**-siden kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
-2. I vinduet **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
-3. Fyll ut feltene etter behov i vinduet **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+2. På siden **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
+3. Fyll ut feltene etter behov på siden **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="example---user-defined-depreciation"></a>Eksempel – brukerdefinert avskrivning
 Bruk en avskrivningsmetode som gjør det mulig å foreta en hurtig avskrivning av aktiva på grunn av skattemessige årsaker.  
@@ -257,7 +257,7 @@ Anskaffelseskostnadene er NOK 100 000, og avskrivningslevetiden er fem år. Avsk
 
 * Startdato for avskrivning  
 
-Hvis du bruker en brukerdefinert metode, må du fylle ut feltene **Første brukerdef. avskr.dato** og **Startdato for avskrivning** i vinduet **Aktivaavskrivningstablå**. Feltet **Første brukerdef. avskr.dato** og innholdet i feltet **Periodelengde** i vinduet **Avskrivningstabeller** brukes til å angi hvilke tidsintervall som skal brukes i beregning av avskrivninger. Dette sikrer at programmet begynner å bruke den angitte prosenten på samme dag for alle aktiva. Feltet **Startdato for avskrivning** brukes til å beregne antall avskrivningsdager.  
+Hvis du bruker en brukerdefinert metode, må du fylle ut feltene **Første brukerdef. avskr.dato** og **Startdato for avskrivning** på siden **Aktivaavskrivningstablå**. Feltet **Første brukerdef. avskr.dato** og innholdet i feltet **Periodelengde** på siden **Avskrivningstabeller** brukes til å angi hvilke tidsintervall som skal brukes i beregning av avskrivninger. Dette sikrer at programmet begynner å bruke den angitte prosenten på samme dag for alle aktiva. Feltet **Startdato for avskrivning** brukes til å beregne antall avskrivningsdager.  
 
 I forrige eksempel inneholder feltene **Første brukerdef. avskr.dato** og **Startdato for avskrivning** 01.01.01. Hvis imidlertid feltet **Første brukerdef. avskr.dato** inneholdt 01.01.10 og feltet **Startdato for avskrivning** inneholdt 01.04.11, hadde resultatet blitt følgende:  
 
@@ -273,7 +273,7 @@ I forrige eksempel inneholder feltene **Første brukerdef. avskr.dato** og **Sta
 * Startdato for avskrivning  
 
 ## <a name="half-year-convention-depreciation"></a>Halvårsavskrivning
-Metoden for halvårsavskrivning brukes bare hvis du har satt en hake i feltet **Bruk halvårsavskrivning** i vinduet **Aktivaavskrivningstablå**.  
+Metoden for halvårsavskrivning brukes bare hvis du har satt en hake i feltet **Bruk halvårsavskrivning** på siden **Aktivaavskrivningstablå**.  
 
 Denne avskrivningsmetoden kan brukes i forbindelse med følgende avskrivningsmetoder i programmet:  
 
@@ -284,7 +284,7 @@ Denne avskrivningsmetoden kan brukes i forbindelse med følgende avskrivningsmet
 Når du bruker halvårsavskrivning, avskrives aktivaet på seks måneder i det første regnskapsåret, uavhengig av innholdet i feltet **Startdato for avskrivning**.  
 
 > [!NOTE]  
->   Den anslåtte aktivalevetiden som gjenstår etter det første regnskapsåret, vil alltid være et halvt år når halvårsavskrivningsmetoden brukes. For at metoden for halvårsavskrivning skal fungere som den skal, må det alltid være en dato i feltet **Sluttdato for avskrivning** i vinduet **Aktivaavskrivningstablå**. Denne datoen må komme nøyaktig seks måneder før avslutningsdatoen i det regnskapsåret som aktivaet blir fullt avskrevet i.  
+>   Den anslåtte aktivalevetiden som gjenstår etter det første regnskapsåret, vil alltid være et halvt år når halvårsavskrivningsmetoden brukes. For at metoden for halvårsavskrivning skal fungere som den skal, må det alltid være en dato i feltet **Sluttdato for avskrivning** på siden **Aktivaavskrivningstablå**. Denne datoen må komme nøyaktig seks måneder før avslutningsdatoen i det regnskapsåret som aktivaet blir fullt avskrevet i.  
 
 ### <a name="example---half-year-convention-depreciation"></a>Eksempel: Halvårsavskrivning
 Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 01.03.10. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 30.06.15. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
@@ -304,7 +304,7 @@ Aktivapostene ser slik ut:
 * Startdato for avskrivning  
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
-Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 01.11.10. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 30.06.15. I vinduet **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
+Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 01.11.10. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 30.06.15. På siden **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 
 Aktivapostene ser slik ut:  
 

@@ -10,13 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost types, general ledger, accounts
-ms.date: 10/01/2018
+ms.date: 11/13/2018
 ms.author: sgroespe
+redirect_url: finance-set-up-cost-accounting
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 37800664c79e501f1cf5dc41c12be6197fcb6bfd
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 2846967648f5c0e0b6015c7990a941642fc27323
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-cost-types"></a>Definere kosttyper
@@ -34,12 +35,12 @@ Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagra
     > [!IMPORTANT]  
     >  Funksjonen **Registrer kosttyper i kontoplan** oppdaterer forholdet mellom kontoplanen og oversikten over kosttyper. **Nr.** -feltet er fylt ut og bekreftet for å forsikre at hver finanskonto er relatert til bare én kostnadstype. Funksjonen kjøres automatisk før overføring av finansposter til kostregnskap.  
 
-## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-window"></a>Slik definerer du nye kosttyper i vinduet Diagram med kosttyper:  
-1.  Åpne vinduet **Diagram med kosttyper** i redigeringsmodus.  
+## <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Slik definerer du nye kosttyper på siden Diagram med kosttyper:  
+1.  Åpne siden **Diagram med kosttyper** i redigeringsmodus.  
 2.  Fyll ut feltene som beskrevet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >  Du kan definere og vedlikeholde kostnadstyper i vinduet **Kosttypekort** eller **Diagram med kosttyper**. I denne fremgangsmåten definerer du nye kosttyper i vinduet **Diagram med kosttyper**.
+    >  Du kan definere og vedlikeholde kostnadstyper på siden **Kosttypekort** eller **Diagram med kosttyper**. I denne fremgangsmåten definerer du nye kosttyper på siden **Diagram med kosttyper**.
 
 3.  Når du har opprettet alle kosttyper, velger du **Rykk inn kosttyper**. Klikk **Ja**-knappen i dialogboksen.  
 4.  Koble nye kosttypen til den tilsvarende kontoen i finans.  
@@ -48,7 +49,7 @@ Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagra
     >  Hvis du har angitt definisjoner i feltene **Sammentelling** for linjetypen **Til-sum** før du kjører funksjonen **Rykk inn kosttyper**, må du angi definisjonene på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-felt.  
 
 ## <a name="to-update-cost-types"></a>Slik oppdaterer du kosttyper:  
-1.  Velg i vinduet **Kostregnskapsoppsett** hvis du vil at diagrammet med kosttypene skal oppdateres automatisk når kontoplanen endres.  
+1.  Velg på siden **Kostregnskapsoppsett** hvis du vil at diagrammet med kosttypene skal oppdateres automatisk når kontoplanen endres.  
 2.  I feltet **Juster finanskonto** kan du velge blant følgende alternativer:  
 
 - **Ingen justering** – Det gjøres ingen tilsvarende endring i diagrammet med kosttyper når du endrer kontoplanen.  
@@ -57,7 +58,6 @@ Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagra
 
 ## <a name="see-also"></a>Se også  
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
-[Definere forholdet mellom kostnadstyper og finanskontoer](finance-defining-the-relationship-between-cost-types-and-general-ledger-accounts.md)   
 [Definere kostsentre og kostobjekter for kontoplanen](finance-defining-cost-centers-and-cost-objects-for-chart-of-accounts.md)   
 [Balanser mellom kosttype, kostsenter og kostobjekt](finance-balances-between-cost-type-cost-center-and-cost-object.md)   
 [Definere kost.regnskap](finance-set-up-cost-accounting.md)   

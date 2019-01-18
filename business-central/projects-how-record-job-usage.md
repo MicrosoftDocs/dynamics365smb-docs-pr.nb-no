@@ -13,14 +13,14 @@ ms.search.keywords: project management, consumption
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e73d4aa2928f7d0f5cc04e938ca887f7403f00d1
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: f1b3864eadd616273c3a4a7d061623dab701d01e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="record-usage-for-jobs"></a>Registrere forbruk for prosjekter
-I vinduet **Prosjektplanleggingslinjer** kan du gå gjennom og registrere forbruk i ulike deler av prosjektet, som oppdateres automatisk når du endrer og overfører informasjon mellom prosjekter og prosjektkladder eller prosjektfakturaer. Dette krever at du har satt opp et prosjekt slik at **Bruk forbrukskobling som standard** er aktivert. Hvis du vil ha mer informasjon, kan du se [Konfigurere prosjekter](projects-how-setup-jobs.md).  
+På siden **Prosjektplanleggingslinjer** kan du gå gjennom og registrere forbruk i ulike deler av prosjektet, som oppdateres automatisk når du endrer og overfører informasjon mellom prosjekter og prosjektkladder eller prosjektfakturaer. Dette krever at du har satt opp et prosjekt slik at **Bruk forbrukskobling som standard** er aktivert. Hvis du vil ha mer informasjon, kan du se [Konfigurere prosjekter](projects-how-setup-jobs.md).  
 
 For planleggingslinjer av typen **Budsjett** kan du for eksempel angi antallet for en ressurs og antallet som skal overføres til prosjektkladden. Hvis planleggingslinjetypen er **Fakturerbar**, kan du angi antallet for ressursen og angi antallet som skal overføres til en faktura. Ved å sammenligne antallet som er overført til kladden eller fakturaen, med det gjenstående antallet kan du raskt se gjennom informasjon om forbruk.
 
@@ -34,10 +34,10 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (fakturerbar
 
     Feltet **Restantall** viser antallet som gjenstår for å fullføre prosjektet og overføres til kladden.  
 5. Velg handlingen **Opprett prosjektkladdelinjer**.
-6. I vinduet **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. På siden **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Velg handlingen **Åpne prosjektkladd**.  
-8. I vinduet **Prosjektkladd** velger du den relevante linjen, og deretter velger du handlingen **Bokfør**.
-9. I vinduet **Prosjektplanleggingslinjer** går du gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Restantall** og **Ant. som skal overføres til kladd**.  
+8. På siden **Prosjektkladd** velger du den relevante linjen, og deretter velger du handlingen **Bokfør**.
+9. På siden **Prosjektplanleggingslinjer** går du gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Restantall** og **Ant. som skal overføres til kladd**.  
 10. Gjenta trinn 3 til 8 for å registrere ekstra forbruk.  
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-billable"></a>Slik registrerer du forbruk for en prosjektplanleggingslinje av typen Fakturerbar
@@ -50,21 +50,21 @@ I den neste oppgaven registrerer du også forbruk, men for en prosjektplanleggin
 
     Feltet **Antall å fakturere** viser antallet som gjenstår for å fullføre prosjektet og faktureres.  
 5. Velg handlingen **Opprett salgsfaktura**.
-6. I vinduet **Prosjekt – overfør til salgsfaktura** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen.
-7. I vinduet **Prosjektplanleggingslinjer** velger du den relevante linjen, og deretter velger du handlingen **Bokfør**.
+6. På siden **Prosjekt – overfør til salgsfaktura** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen.
+7. På siden **Prosjektplanleggingslinjer** velger du den relevante linjen, og deretter velger du handlingen **Bokfør**.
 8. Se gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Antall som skal faktureres** og **Ant. som skal overføres til faktura**, og hvis salgsfakturaen er bokført, feltet **Ant. fakturert**.
 9. Gjenta trinn 3 til 8 for å registrere ekstra forbruk.  
 10. Hvis du vil gå gjennom en relatert bokført salgsfaktura, velger du handlingen **Salgsfakturaer/kreditnotaer**.  
-11. Velg den aktuelle fakturaen i vinduet **Prosjektfakturaer**, og velg deretter handlingen **Åpne salgsfaktura/kreditnota**.         
+11. Velg den aktuelle fakturaen på siden **Prosjektfakturaer**, og velg deretter handlingen **Åpne salgsfaktura/kreditnota**.         
 
 ## <a name="to-create-job-journal-lines-from-job-planning-lines"></a>Slik oppretter du prosjektkladdelinjer fra prosjektplanleggingslinjer:
 Når du er klar til å bokføre finansinformasjon for prosjekter, må du opprette prosjektkladdelinjene som du kan bokføre.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
 2. Velg et aktuelt åpent prosjekt, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
-3. I vinduet **Prosjektplanleggingslinjer** på en relevant prosjektplanleggingslinje angir du antallet du vil overføre til en prosjektkladd, i feltet **Ant. som skal overføres til kladd**.  
+3. På siden **Prosjektplanleggingslinjer** på en relevant prosjektplanleggingslinje angir du antallet du vil overføre til en prosjektkladd, i feltet **Ant. som skal overføres til kladd**.  
 4. Velg handlingen **Opprett prosjektkladdelinjer**.
-5. I vinduet **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov.  
+5. På siden **Prosjekt – overfør til prosjektplanleggingslinje** fyller du ut feltene etter behov.  
 6. Velg **OK**. Prosjektkladdelinjer opprettes.
 7. Hvis du vil bekrefte overføringen, åpner du den aktuelle prosjektkladden og kontrollerer postene.  
 8. Når prosjektkladdelinjene er fullført, kan du velge handlingen **Bokfør**.  
@@ -83,7 +83,7 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
-3. I vinduet **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
+3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 
 ## <a name="see-also"></a>Se også
 [Prosjektstyring](projects-manage-projects.md)  

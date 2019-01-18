@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d845dad5d6cd8cf0360c90df3bc05f1c381ffa87
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: a12b81a85e36e516dd458ff541e06b7523ea1981
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="create-electronic-documents-for-ehf"></a>Opprette elektroniske dokumenter for EHF
@@ -63,10 +63,10 @@ Du kan bare opprette elektroniske dokumenter etter at et dokument er bokført el
     > [!IMPORTANT]  
     >  Du må merke av for **E-faktura** på fakturaen hvis du vil opprette en elektronisk faktura.  
 
-4.  Hvis du vil, kan du angi flere filtre i kjørselsvinduet **Opprett elektroniske fakturaer**.  
+4.  Hvis du vil, kan du angi flere filtre på kjørselssiden **Opprett elektroniske fakturaer**.  
 5.  Velg **OK**.  
 
-En XML-fil opprettes og lagres på lokasjonen som er definert i vinduet **Salgsoppsett**-vinduet. Du kan nå sende dokumentet til kunden.  
+En XML-fil opprettes og lagres på lokasjonen som er definert på **Salgsoppsett**-siden. Du kan nå sende dokumentet til kunden.  
 
 ## <a name="see-also"></a>Se også  
  [EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md)

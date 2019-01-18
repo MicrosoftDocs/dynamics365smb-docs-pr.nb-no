@@ -13,10 +13,10 @@ ms.search.keywords: design, item, item ledger, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6f496530fcf4f0321b71941cdfdaa5fe100e15ee
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 0fa6bb40ccd17c01c40a7068ff0b081e5be1aa16
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
@@ -191,7 +191,7 @@ Følgende tabell viser resultatet av nøyaktig tilbakeføring av kostnad i varen
 Når du kjører kjørselen **Juster kostverdi - vareposter**, økes kostnaden for kjøpsposten på grunn av varegebyret, og den økte kostnaden videresendes til salgsposten (postnummer 2). Salgsposten videresender deretter denne økte kostnaden til salgskreditposten (post nummer 3). Sluttresultatet er at kostnaden er riktig tilbakeført.  
   
 > [!NOTE]  
->  Hvis du arbeider med returer eller kreditnotaer og har definert feltet **Bruk opprinnelig kostpris** enten i vinduet **Kjøpsoppsett** eller vinduet **Salgsoppsett**, avhengig av hva som er aktuelt i din situasjon, fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk ut disse feltene når du bruker funksjonen **Kopier dokument**. Hvis du bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, fylles feltene alltid ut automatisk.  
+>  Hvis du arbeider med returer eller kreditnotaer og har definert feltet **Bruk opprinnelig kostpris** enten på siden **Kjøpsoppsett** eller siden **Salgsoppsett**, avhengig av hva som er aktuelt i din situasjon, fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk ut disse feltene når du bruker funksjonen **Kopier dokument**. Hvis du bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, fylles feltene alltid ut automatisk.  
   
 > [!NOTE]  
 >  Hvis du bokfører en transaksjon med en fast utligning, og vareposten som du utligner mot, er lukket, som betyr at restantallet er null, angres den gamle utligningen automatisk, og vareposten utlignes på nytt ved hjelp av den faste utligningen du angav.  
@@ -239,7 +239,7 @@ På grunn av måten som enhetskostbeløpet for en vare beregnes på, kan en feil
 * Du vil overstyre utligningen som opprettes automatisk når du bokfører, i samsvar med lagermetoden for varen.  
 * Du må returnere en vare som et salg allerede er manuelt utlignet mot, uten å bruke funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, og du må derfor angre utligningen.  
   
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har en funksjon for analyse og korrigering av vareutligninger. Dette arbeidet utføres i vinduet **Utligningsforslag**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har en funksjon for analyse og korrigering av vareutligninger. Dette arbeidet utføres på siden **Utligningsforslag**.  
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

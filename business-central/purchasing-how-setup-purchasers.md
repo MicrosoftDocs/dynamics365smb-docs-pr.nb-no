@@ -13,24 +13,24 @@ ms.search.keywords: purchasing agent
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d3fd3e614ae636db8a2be0364892cceb104fe878
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 508d475ff204d75df70511ab2f4e7de225cd8207
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="set-up-purchasers"></a>Definere innkjøpere
-Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem i et vindu og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
+Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
-2. I vinduet **Selgere/innkjøpere** velger du **Ny**.
-3. I vinduet **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Selgere/innkjøpere** velger du **Ny**.
+3. På siden **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Tilordne innkjøpere til leverandører
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet for leverandøren du vil tilordne en innkjøper.
-3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter vinduet.
+3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter siden.
 
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  

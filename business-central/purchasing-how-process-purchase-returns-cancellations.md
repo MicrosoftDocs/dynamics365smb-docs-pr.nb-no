@@ -13,10 +13,10 @@ ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 2833a18275e396a04f78b5707d885bfbd5946218
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
@@ -40,10 +40,10 @@ For å beholde riktig lagerverdi vil du vanligvis plukke returvarer fra lageret 
 
 Det finnes to funksjoner du kan bruke til å tilordne opprinnelig kosttilbakeføring automatisk.  
 
-|Funksjon|Beskrivelse|  
+|Funksjon|Description|  
 |------------------|---------------------------------------|  
-|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** i vinduet **Bestillingsretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til bestillingsreturen. Hvis du vil ha mer informasjon, kan du se delen "Opprette en bestillingsretur og relatert kjøpskreditnota for en eller flere bokførte kjøpsfakturaer".|  
-|**Kopier dokument**-funksjonen i vinduene **Kjøpskreditnota** og **Bestillingsretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** i vinduet **Kjøpsoppsett**.|
+|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Bestillingsretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til bestillingsreturen. Hvis du vil ha mer informasjon, kan du se delen "Opprette en bestillingsretur og relatert kjøpskreditnota for en eller flere bokførte kjøpsfakturaer".|  
+|**Kopier dokument**-funksjonen på sidene **Kjøpskreditnota** og **Bestillingsretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** på siden **Kjøpsoppsett**.|
 
 For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra-varepost** på alle typer returdokumentlinjer, og deretter velge nummeret på den opprinnelige kjøpsposten. Dermed knyttes kjøpskreditnotaen eller bestillingsreturen til den opprinnelige kjøpsposten, og verdien av varen fastsettes til opprinnelig enhetskost.
 
@@ -51,15 +51,15 @@ Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Opprette en kjøpskreditnota fra en bokført kjøpsfaktura
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
-2. I vinduet Bokførte **Kjøpsfakturaer** velger du den bokførte kjøpsfakturaen som du vil tilbakeføre, og deretter velger du handlingen **Opprett korrigerende kreditnota**.
+2. På siden **Bokførte kjøpsfakturaer** velger du den bokførte kjøpsfakturaen som du vil tilbakeføre, og deretter velger du handlingen **Opprett korrigerende kreditnota**.
 
     De fleste feltene på kjøpskreditnotahodet fylles ut med informasjon fra den bokførte kjøpsfakturaen. Du kan redigere alle feltene, for eksempel med ny informasjon som gjenspeiler returavtalen.
 3. Redigere informasjonen på linjene i henhold til avtalen, for eksempel antall varer som returneres, eller beløpet som skal refunderes.
 4. Velg handlingen **Utlign poster**.
-5. I vinduet **Utlign leverandørposter** velger du linjen med det bokførte kjøpsdokumentet du vil utligne kjøpskreditnotaen mot, og deretter velger du handlingen **Utlignings-ID**. Nummeret på kjøpskreditnotaen settes inn i feltet **Utlignings-ID**.
+5. På siden **Utlign leverandørposter** velger du linjen med det bokførte kjøpsdokumentet du vil utligne kjøpskreditnotaen mot, og deretter velger du handlingen **Utlignings-ID**. Nummeret på kjøpskreditnotaen settes inn i feltet **Utlignings-ID**.
 6. I feltet **Beløp som skal utlignes** skriver du inn beløpet som du vil utligne hvis mindre enn det opprinnelige beløpet.
 
-    Nederst i vinduet **Utlign leverandørposter** kan du se det totale beløpet som skal utlignes for å tilbakeføre alle involverte poster, nemlig når verdien i **Saldo** -feltet er null.
+    Nederst på siden **Utlign levrd.poster** kan du se det totale beløpet som skal utlignes for å tilbakeføre alle involverte poster, nemlig når verdien i **Saldo**-feltet er null.
 7. Velg **OK**. Når du bokfører kjøpskreditnotaen, brukes den på de angitte bokførte kjøpsdokumenter.
 
     Når du har opprettet eller redigert nødvendige kjøpskreditnotalinjer og ett eller flere programmer er angitt, kan du fortsette med å bokføre kjøpskreditnotaen.
@@ -74,8 +74,8 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.
 3. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
 4. Velg handlingen **Kopier dokument**.
-5. Velg **Bokført faktura** i feltet **Dokumenttype** i vinduet **Kopier kjøpsdokument**.
-6. Velg feltet **Bilagsnr.** for å åpne vinduet **Bokførte kjøpsfakturaer**, og velg deretter den bokførte kjøpsfakturaen som inneholder linjer du vil tilbakeføre.
+5. Velg **Kopier kjøpsdokument** i **Bilagstype**-feltet på siden **Kopier salgsdokument**.
+6. Velg feltet **Bilagsnr.** for å åpne siden **Bokførte kjøpsfakturaer**, og velg deretter den bokførte kjøpsfakturaen som inneholder linjer du vil tilbakeføre.
 7. Merk av for  **Gjenberegn linjer**  hvis du vil at de kopierte bokførte kjøpsfakturalinjene skal oppdateres med endringer i varepris og enhetskost etter at fakturaen er bokført.
 8. Velg **OK**. De kopierte fakturalinjene settes inn i kjøpskreditnotaen.
 9. Fullføre kjøpskreditnotaen som forklart i den avsnittet "Opprette en kjøpskreditnota fra en bokført kjøpsfaktura" i dette emnet.
@@ -87,15 +87,15 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 4. I **Linjer**-hurtigfanen fyller du ut linjene manuelt, eller kopier informasjon fra andre dokumenter for å fylle ut linjene automatisk:
 
     - Bruk funksjonen  **Hent bokførte dokumentlinjer som skal tilbakeføres** for å kopiere én eller flere bokførte dokumentlinjer fra ett eller flere bokførte dokumenter. Denne funksjonen tilbakefører alltid kost nøyaktig fra den bokførte dokumentlinjen. Denne funksjonen er beskrevet i følgende fremgangsmåter.    
-    - Bruk funksjonen **Kopier dokument** til å kopiere et eksisterende dokument til ordrereturen. Bruk denne funksjonen til å kopiere hele dokumentet. Det kan være et bokført dokument eller et dokument som ikke er bokført ennå. Med denne funksjonen er nøyaktig kosttilbakeføring bare mulig hvis det er merket av for **Bruk opprinnelig kostpris** i vinduet **Salgsoppsett**.  
+    - Bruk funksjonen **Kopier dokument** til å kopiere et eksisterende dokument til ordrereturen. Bruk denne funksjonen til å kopiere hele dokumentet. Det kan være et bokført dokument eller et dokument som ikke er bokført ennå. Med denne funksjonen er nøyaktig kosttilbakeføring bare mulig hvis det er merket av for **Bruk opprinnelig kostpris** på siden **Salgsoppsett**.  
 
 4. Velg handlingen **Hent bokførte dokumentlinjer som skal tilbakeføres**.
-5. Øverst i vinduet **Bokførte kjøpsdokumentlinjer** merker du av for **Vis bare reversible linjer** hvis du bare vil se salgslinjer med antall som ennå ikke er tilbakeført. Hvis for eksempel antallet for en bokført kjøpsfaktura allerede har blitt tilbakeført, kan det hende du ikke vil inkludere det antallet på et nytt bestillingsreturdokument.
+5. Øverst på siden **Bokførte kjøpsdokumentlinjer** merker du av for **Vis bare reversible linjer** hvis du bare vil se salgslinjer med antall som ennå ikke er tilbakeført. Hvis for eksempel antallet for en bokført kjøpsfaktura allerede har blitt tilbakeført, kan det hende du ikke vil inkludere det antallet på et nytt bestillingsreturdokument.
 
     > [!NOTE]  
     >  Dette feltet fungerer bare for bokførte mottak og bokførte fakturalinjer, og ikke for bokførte retur- eller kreditnotalinjer.  
 
-    På venstre side av vinduet vises en oversikt over de ulike dokumenttypene, og nummeret i parentes viser antall dokumenter som er tilgjengelig for hver enkelt dokumenttype.
+    Til venstre på siden vises en oversikt over de ulike dokumenttypene, og nummeret i hakeparenteser viser antall dokumenter som er tilgjengelige for hver enkelt dokumenttype.
 
 6. I feltet **Filter for bilagstype** velger du typen bokførte dokumentlinjer du vil bruke.  
 7. Velg linjene du vil kopiere til det nye dokumentet.  
@@ -119,21 +119,21 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 
     -   Hvis den bokførte dokumentlinjen inneholder varesporingslinjer, fylles feltet **Utlignet til-varepost** ut på varesporingslinjene med relevant varepostnummer fra de bokførte varesporingslinjene.  
 
-     Når du kopierer fra en bokført faktura eller bokført kreditnota, kopieres alle relevante fakturarabatter og linjerabatter som er gyldige på bokføringstidspunktet for det dokumentet, fra den bokførte dokumentlinjen til den nye dokumentlinjen. Vær imidlertid oppmerksom på at hvis alternativet **Beregn fakturarabatt** er aktivert i vinduet **Kjøpsoppsett**, vil fakturarabatten bli beregnet på nytt når du bokfører den nye dokumentlinjen. Det kan derfor hende at linjebeløpet for den nye linjen er forskjellig fra linjebeløpet på den bokførte dokumentlinjen, avhengig av den nye beregningen av fakturarabatten.  
+     Når du kopierer fra en bokført faktura eller bokført kreditnota, kopieres alle relevante fakturarabatter og linjerabatter som er gyldige på bokføringstidspunktet for det dokumentet, fra den bokførte dokumentlinjen til den nye dokumentlinjen. Vær imidlertid oppmerksom på at hvis alternativet **Beregn fakturarabatt** er aktivert på siden **Kjøpsoppsett**, vil fakturarabatten bli beregnet på nytt når du bokfører den nye dokumentlinjen. Det kan derfor hende at linjebeløpet for den nye linjen er forskjellig fra linjebeløpet på den bokførte dokumentlinjen, avhengig av den nye beregningen av fakturarabatten.  
 
     > [!NOTE]  
     >  Hvis en del av antallet for den bokførte dokumentlinjen allerede er tilbakeført (returnert) eller solgt eller forbrukt, opprettes en linje bare for antallet som gjenstår på lageret, eller som ikke har blitt returnert. Hvis hele antallet for den bokførte dokumentlinjen allerede er tilbakeført, opprettes det ikke en ny dokumentlinje.  
     >   
     >  Hvis vareflyten i det bokførte dokumentet er den samme som vareflyten i det nye dokumentet, opprettes det ganske enkelt en kopi av den opprinnelige bokførte dokumentlinjen i det nye dokumentet. Feltet **Utlignet fra-varepost** fylles ikke ut fordi nøyaktig kosttilbakeføring ikke er mulig i dette tilfellet. Hvis du for eksempel bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** for å hente en bokført kjøpskreditnotalinje for en ny kjøpskreditnota, kopieres bare den opprinnelige bokførte kreditnotalinjen til den nye kreditnotaen.  
 
-8. I vinduet **Bestillingsretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
+8. På siden **Bestillingsretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
 9. Velg handlingen **Bokfør**.
 
 ## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Slik oppretter du en erstatningsbestilling fra en bestillingsretur
 Det kan hende du avtaler med leverandøren at de kompenserer deg for en kjøpt vare ved å erstatte varen. Erstatningsvaren kan være samme eller en annen vare. Denne situasjonen kan oppstå hvis leverandøren ved en feiltakelse leverer feil vare.  
-1.  I vinduet **Bestillingsretur** for en aktiv returprosess lager du en negativ post på en tom linje for erstatningsvaren ved å sette inn et negativt beløp i **Antall**-feltet.  
+1.  På siden **Bestillingsretur** for en aktiv returprosess lager du en negativ post på en tom linje for erstatningsvaren ved å sette inn et negativt beløp i **Antall**-feltet.  
 2. Velg handlingen **Flytt negative linjer**.  
-3. I vinduet **Flytt negative kjøpslinjer** fyller du ut feltene etter behov.
+3. På siden **Flytt negative best.linjer** fyller du ut feltene etter behov.
 4. Velg **OK**. Den negative linjen slettes fra bestillingsreturen, og en ny bestilling opprettes. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).  
 
 ## <a name="to-create-a-purchase-allowance"></a>Slik oppretter du en kjøpsrabatt  
@@ -150,7 +150,7 @@ Du kan bokføre denne reduserte kjøpskostnaden som et varegebyr i en kreditnota
     Det kan hende du vil opprette et eget varegebyrnummer for å dekke kjøpsrabatter.  
 6.  I feltet **Antall** angir du **1**.  
 7.  I feltet **Direkte enhetskost** angir du beløpet i kjøpsrabatten.  
-8.  Tilordne kjøpsrabatten som et varegebyr til varene i det bokførte mottaket. Hvis du vil ha mer informasjon, kan du se [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md). Når du har tilordnet rabatten, går du tilbake til **Kjøpskreditnota**-vinduet.
+8.  Tilordne kjøpsrabatten som et varegebyr til varene i det bokførte mottaket. Hvis du vil ha mer informasjon, kan du se [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md). Når du har tilordnet rabatten, går du tilbake til **Kjøpskreditnota**-siden.
 
 Når du bokfører bestillingsreturen, legges kjøpsrabatten til i det aktuelle kjøpsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.  
 

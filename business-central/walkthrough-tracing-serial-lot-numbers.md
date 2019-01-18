@@ -13,18 +13,18 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: c426e8cb53833fd521f4ecad7def166534b0befe
+ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
+ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 11/26/2018
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Gjennomgang: spore serie-/partinumre
 Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må unngå at påvirkede varer leveres til kunder. Hvis defekte varer allerede er levert, må du spore hvem som har mottatt dem, og om nødvendig tilbakekalle varene.  
 
-Den første oppgaven i defekthåndtering er å undersøke hvor de defekte varene kommer fra, og hvor de ble brukt. Denne undersøkelsen er basert på historiske data og gjøres enklere ved å søke gjennom varesporingsposter i vinduet **Varesporing**.  
+Den første oppgaven i defekthåndtering er å undersøke hvor de defekte varene kommer fra, og hvor de ble brukt. Denne undersøkelsen er basert på historiske data og gjøres enklere ved å søke gjennom varesporingsposter på siden **Varesporing**.  
 
-Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres i vinduet **Naviger**. Du kan bruke Naviger-funksjonen til å søke i alle typer databaseposter.  
+Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres på siden **Naviger**. Du kan bruke Naviger-funksjonen til å søke i alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
 Denne gjennomgangen viser hvordan du identifiserer hvilke varer som er defekte, hvilken leverandør de kommer fra, og hvor de brukes, slik at du kan stoppe eller tilbakekalle disse ordrene.  
@@ -59,7 +59,7 @@ Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at 
 
 Resultatet av denne første varesporingsoppgaven identifiserer hvilke racersykkelrammer som var defekte, og hvilken leverandør som leverte dem. Etterpå, men i samme generelle sporingsprosess, må kvalitetskontrolløren finne alle solgte racersykler med rammer fra feil parti, slik at disse ordrene kan stoppes eller tilbakekalles. Til slutt må kvalitetskontrolløren finne alle åpne dokumenter hvor det defekte partiet er i bruk slik at ingen flere transaksjoner gjøres.  
 
-De to første oppgavene i defekthåndteringen gjøres i **Varesporing**-vinduet. Den siste oppgaven gjøres i **Naviger**-vinduet sammen med **Varesporing**-vinduet.  
+De to første oppgavene i defekthåndteringen gjøres på siden **Varesporing**. Den siste oppgaven gjøres på siden **Naviger** sammen med **Varesporing**-siden.  
 
 ## <a name="prepare-sample-data"></a>Klargjøre eksempeldata  
 Du må opprette følgende nye varer:  
@@ -80,7 +80,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |Racersykkelramme|STK|RÅVARER|Mva.25|RÅVARER|PARTIALL|  
 
     > [!NOTE]  
-    >  Hvis du vil angi lagerenheten, velger du **Ny** og deretter **PSC** i vinduet **Vareenheter**.  
+    >  Hvis du vil angi lagerenheten, velger du **Ny**-knappen og deretter **PSC** på siden **Vareenheter**.  
 
 4.  Alle andre felt inneholder akseptable standarddata eller må ikke å fylles ut.  
 5.  Velg **OK**-knappen for å opprette det første nye varekortet, 2000.  
@@ -92,17 +92,17 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |Racersykkel|STK|DETALJ|Mva.25|FERDIG|Prod.ordre|SNALL|  
 
     > [!NOTE]  
-    >  Hvis du vil angi lagerenheten, velger du **Ny** og deretter **PSC** i vinduet **Vareenheter**.  
+    >  Hvis du vil angi lagerenheten, velger du **Ny**-knappen og deretter **PSC** på siden **Vareenheter**.  
 
     Nå definerer du varens produksjonsoppsett.
 
 9. Angi **1000** i feltet **Rutenr.** på hurtigfanen **Etterfylling**.  
 10. Velg feltet **Prod.stykklistenr.**, og velg deretter **Avansert**.  
-11. I vinduet **Produksjonsstykkliste - oversikt** velger du den første linjen **1000** og deretter handlingen **Rediger**.  
-12. Endre verdien i **Status**-feltet til **Under utvikling** i vinduet **Produksjonsstykkliste**.  
+11. På siden **Produksjonsstykkliste - oversikt** velger du den første linjen **1000** og deretter handlingen **Rediger**.  
+12. På siden **Produksjonsstykkliste** endrer du verdien i feltet **Status** til **Under utvikling**.  
 13. Gå til en tom linje, og angi **2000** i **Nr.** -feltet, og angi deretter **1** i **Antall Per**-feltet.  
 14. Endre verdien i **Status**-feltet tilbake til **Sertifisert**.  
-15. Velg **OK**-knappen for å sette inn produksjonsstykklisten på varekortet og lukke vinduet **Produksjonsstykkliste**.  
+15. Velg **OK**-knappen for å sette inn produksjonsstykklisten på varekortet og lukke siden **Produksjonsstykkliste**.  
 
     Deretter kjøper du racersykkelframmar fra Custom Metals Incorporated.  
 
@@ -116,7 +116,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |2000|10|PARTI1|  
 
 4.  Hvis du vil angi partinummeret, velger du **Varesporingslinjer**-handlingen.  
-5.  I **Varesporingslinjer**-vinduet fyller du ut feltet **Partinr.** og **Antall (lagerenhet)**, og lukker vinduet.  
+5.  På siden **Varesporingslinjer** fyller du ut feltet **Partinr.** og **Antall (lagerenhet)** og lukker siden.  
 6.  Angi en verdi i feltet **Leverandørs fakturanr.**  
 7.  Velg **Bokfør**-handlingen, velg **Motta og fakturer**-alternativet, og velg deretter **OK**-knappen.  
 
@@ -130,8 +130,8 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |2000|11|PARTI2|  
 
 11. Når du skal angi partinummeret, velger du hurtigfanen **Linjer**, **Linje**-gruppen og **Varesporingslinjer**-handlingen.  
-12. I **Varesporingslinjer**-vinduet fyller du ut feltet **Partinr.** og **Antall (lagerenhet)**, og lukker vinduet.  
-13. Angi en verdi i feltet **Leverandørs fakturanr.**  
+12. På siden **Varesporingslinjer** fyller du ut feltet **Partinr.** og **Antall (lagerenhet)** og lukker siden.  
+13. Angi en verdi i feltet **Leverandørs fakturanr.**.  
 14. Velg **Bokfør**-handlingen, velg **Motta og fakturer**-alternativet, og velg deretter **OK**-knappen.  
 
     Deretter produserer du to racersykler, SN1 og SN2.  
@@ -148,13 +148,13 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 4.  Velg **Forny produksjonsordre**-handlingen, og velg deretter **OK** for å fylle ut linjen.  
 5.  Hvis du vil angi serienumre, velger du **Varesporingslinjer**-handlingen.  
-6.  I **Varesporingslinjer**-vinduet fyller du ut feltet **Serienr.** og **Antall (lagerenhet)**, og lukker vinduet.  
+6.  På siden **Varesporingslinjer** fyller du ut feltet **Serienr.** og **Antall (lagerenhet)** og lukker siden.  
 
     Nå bokfører du forbruk av racersykkelrammer fra PARTI1.  
-7.  I **Frigitt produksjonsordre**-vinduet velger du **Produksjonskladd**-handlingen.  
-8.  Velg forbrukslinjen for vare 2000 i **Produksjonskladd**-vinduet, og velg **Varesporingslinjer**-handlingen.
-9. I **Varesporingslinjer**-vinduet velger du **Partinr.**-feltet, velger **PARTI1** og deretter **OK**-knappen.  
-10. La alle andre standardverdier være i **Produksjonskladd**-vinduet og velg deretter handlingen **Bokfør**.  
+7.  På siden **Frigitt produksjonsordre** velger du **Produksjonskladd**-handlingen.  
+8.  Velg forbrukslinjen for vare 2000 på siden **Produksjonskladd**, og velg **Varesporingslinjer**-handlingen.
+9. På siden **Varesporingslinjer** velger du **Partinr.**-feltet, velger **PARTI1** og deretter **OK**-knappen.  
+10. La alle andre standardverdier være på siden **Produksjonskladd**, og velg deretter handlingen **Bokfør**.  
 
     Deretter produserer du to racersykler til, SN3 og SN4.  
 
@@ -168,13 +168,13 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |1002|2|SN4|  
 
 14. Velg handlingen **Forny produksjonsordre** for å fylle ut linjen.  
-15. Når du skal angi serienumre, velger du handlingen **Varesporingslinjer**, og velger deretter numrene i to linjer i **Serienr.**-feltet i vinduet **Varesporingslinjer**.  
+15. Når du skal angi serienumre, velger du handlingen **Varesporingslinjer** og deretter numrene på to linjer i **Serienr.**-feltet på siden **Varesporingslinjer**.  
 
     Nå bokfører du mer forbruk av racersykkelrammer fra PARTI1.  
-16. I **Frigitt produksjonsordre**-vinduet velger du **Produksjonskladd**-handlingen.  
-17. Velg forbrukslinjen for vare 2000 i **Produksjonskladd**-vinduet, og velg **Varesporingslinjer**-handlingen.
-18. I **Varesporingslinjer**-vinduet velger du **Partinr.**-feltet, velger **PARTI1** og deretter **OK**-knappen.  
-19. La alle andre standardverdier være i **Produksjonskladd**-vinduet og velg deretter handlingen **Bokfør**.  
+16. På siden **Frigitt produksjonsordre** velger du **Produksjonskladd**-handlingen.  
+17. Velg forbrukslinjen for vare 2000 på siden **Produksjonskladd**, og velg **Varesporingslinjer**-handlingen.
+18. På siden **Varesporingslinjer** velger du **Partinr.**-feltet, velger **PARTI1** og deretter **OK**-knappen.  
+19. La alle andre standardverdier være på siden **Produksjonskladd**, og velg deretter handlingen **Bokfør**.  
 
     Du har produsert fire racersykler, SN1 til SN4, og du har forbrukt fire av ti racersykkelrammer fra PARTI1, to rammer i hver produksjonsordre.  
 
@@ -190,7 +190,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |--------------|----------|----------|----------------|  
     |Møbelhandleren A/S|1002|1|SN1|  
 
-3.  Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer**, og velger deretter nummeret i **Serienr.**-feltet i vinduet **Varesporingslinjer**.  
+3.  Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer**, og velger deretter nummeret i **Serienr.**-feltet på siden **Varesporingslinjer**.  
 4.  Velg **Bokfør**-handlingen, velg **Levere og fakturere**-alternativet, og velg deretter **OK**-knappen.  
 
     Nå kan du selge racersykkelen med SN2 til Kontorkomplett AS  
@@ -202,7 +202,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |--------------|----------|----------|----------------|  
     |Kontorkomplett AS.|1002|1|SN2|  
 
-7.  Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer**, og velger deretter nummeret i **Serienr.**-feltet i vinduet **Varesporingslinjer**.  
+7.  Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer**, og velger deretter nummeret i **Serienr.**-feltet på siden **Varesporingslinjer**.  
 8.  Velg **Bokfør**-handlingen, velg **Levere og fakturere**-alternativet, og velg deretter **OK**-knappen.  
 
     Til sist selger du noen racersykkelrammer separat. Kontorkomplett AS bestiller også fire separate racersykkelrammer for sin egen produksjonslinje.  
@@ -214,7 +214,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     |--------------|----------|----------|----------------|  
     |Kontorkomplett AS.|2000|5|PARTI1|  
 
-11. Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer** på hurtigfanen **Linjer** i **Linje**-gruppen, og velger deretter nummeret i **Serienr.**-feltet i vinduet **Varesporingslinjer**.  
+11. Når du skal angi serienummeret, velger du handlingen **Varesporingslinjer** på hurtigfanen **Linjer** i **Linje**-gruppen, og velger deretter nummeret i **Serienr.**-feltet på siden **Varesporingslinjer**.  
 
     > [!NOTE]  
     >  Ikke bokfør den siste ordren for fem racersykkelrammer.  
@@ -225,8 +225,8 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
  Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at den returnerte racersykkelen, vare 1002, har serienummeret SN1. Ved hjelp av denne enkle informasjonen kan han finne ut hvor den ferdige racersykkelen sist ble brukt, i dette tilfellet på følgeseddelen til Møbelhandleren A/S. Kvalitetskontrolløren må deretter søke bakover til den tidligste opprinnelsen for å bestemme hvilket partinummer den defekte racersykkelrammen kom fra og hvilken leverandør som leverte den.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Slik finner du ut hvilket parti den defekte rammen var i, og hvem som leverte den:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
-2.  Angi **SN1** i feltet **Serienr.filter** i **Varesporing**-vinduet, og angi deretter **1002** i **Varefilter**-feltet.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
+2.  Angi **SN1** i feltet **Serienr.filter** på siden **Varesporing**, og angi deretter **1002** i **Varefilter**-feltet.  
 3.  Behold standardinnstillingen **Bare varesporet** i **Vis komponenter**-feltet, og behold standard sporingsmetode **Forbruk – Opprinnelse** i **Sporingsmetode**.  
 4.  Velg handlingen **Spor**.  
 
@@ -248,16 +248,16 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     > [!NOTE]  
     >  Ikke foreta ytterligere endringer av sporingsresultatet siden du skal bruke det i neste del.  
 
-     Nå har du fullført første oppgave i defekthåndteringen ved å bruke **Varesporing**-vinduet. Kvalitetskontrolløren må nå finne ut om racersykkelrammer fra PARTI1 har vært behandlet i andre bokførte dokumenter.  
+     Nå har du fullført første oppgave i defekthåndteringen ved å bruke **Varesporing**-siden. Kvalitetskontrolløren må nå finne ut om racersykkelrammer fra PARTI1 har vært behandlet i andre bokførte dokumenter.  
 
 ## <a name="tracing-from-origin-to-usage"></a>Spore fra opprinnelse til forbruk  
  Kvalitetskontrolløren har funnet ut at de defekte racersykkelrammene kom fra PARTI1. Han må nå finne eventuelle andre racersykler som har racersykkelrammer fra det defekte partiet, slik at disse syklene kan bli stoppet eller tilbakekalt.  
 
- Én metode for å klargjøre denne sporingsoppgaven i vinduet **Varesporing** er å angi PARTI1 manuelt i feltet **Partinr.filter** og 2000 i **Varefilter**-feltet. Denne gjennomgangen bruker funksjonen **Spor motsatt - fra linje**.  
+ Én metode for å klargjøre denne sporingsoppgaven på siden **Varesporing** er å angi PARTI1 manuelt i feltet **Partinr.filter** og 2000 i **Varefilter**-feltet. Denne gjennomgangen bruker funksjonen **Spor motsatt - fra linje**.  
 
 ### <a name="to-find-all-usage-of-the-faulty-lot"></a>Slik finner du alt forbruk for det defekte partiet:  
 
-1.  Merk linjen med kjøpsmottaket, siste sporingslinje, i **Varesporing**-vinduet, og velg deretter **Spor motsatt - fra linje**.  
+1.  Merk linjen med kjøpsmottaket, siste sporingslinje, på siden **Varesporing**, og velg deretter **Spor motsatt - fra linje**.  
 
     Sporingsresultatet er nå basert på filtrene for sporingslinjen for kjøpsmottaket, PARTI1 og vare 2000, og resultatet er basert på sporingsmetoden **Opprinnelse - forbruk**.  
 
@@ -271,17 +271,17 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Samtidig kan han se ut fra de tre siste sporingslinjene at to nye varer, SN3 og SN4, er produsert basert på racersykkelrammer fra PARTI1. Han blokkerer disse sluttvarene på lageret.  
 
-    Nå har du fullført andre oppgave i defekthåndteringen ved å bruke **Varesporing**-vinduet til defekthåndtering. Siden **Varesporing**-vinduet er basert på bare bokførte poster, må kvalitetskontrolløren gå videre til **Naviger**-vinduet for å sikre at PARTI1 ikke brukes i dokumenter som ikke er bokført.  
+    Nå har du fullført andre oppgave i defekthåndteringen ved å bruke **Varesporing**-siden til defekthåndtering. Siden **Varesporing**-siden er basert på bare bokførte poster, må kvalitetskontrolløren gå videre til **Naviger**-siden for å sikre at PARTI1 ikke brukes i dokumenter som ikke er bokført.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Søke etter alle poster for et serie-/partinummer  
- Kvalitetskontrolløren brukte **Varesporing**-vinduet til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Naviger**-vinduet der han kan foreta et søk gjennom alle databaseposter.  
+ Kvalitetskontrolløren brukte **Varesporing**-siden til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Naviger**-siden der han kan foreta et søk gjennom alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Slik finner du alle forekomster av PARTI1 i poster som ikke er bokført, for eksempel åpne ordrer:  
 
-1.  Velg den første sporingslinjen i **Varesporing**-vinduet, kjøpsmottaket for PARTI1.  
+1.  Velg den første sporingslinjen på siden **Varesporing**, kjøpsmottaket for PARTI1.  
 2.  Velg handlingen **Naviger**.  
 
-    **Naviger**-vinduet er forhåndsinnstilt med søkefiltre basert på sporingsresultatet for PARTI1. Kvalitetskontrolløren ser at de fleste postene angår dokumenter som allerede er identifisert i **Varesporing**-vinduet. Den siste navigasjonslinjen av typen Produksjonsordre refererer for eksempel til de to frigitte produksjonsordrene som forbrukte racersykkelrammer fra PARTI1.  
+    **Naviger**-siden er forhåndsinnstilt med søkefiltre basert på sporingsresultatet for PARTI1. Kvalitetskontrolløren ser at de fleste postene angår dokumenter som allerede er identifisert på siden **Varesporing**. Den siste navigasjonslinjen av typen Produksjonsordre refererer for eksempel til de to frigitte produksjonsordrene som forbrukte racersykkelrammer fra PARTI1.  
 
     Den andre navigasjonslinjen av typen **Salgslinje** er imidlertid en dokumentlinje som ikke er bokført. Dermed blir dette undersøkt av kvalitetskontrolløren.  
 
@@ -289,7 +289,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Her ser kvalitetskontrolløren én åpen salgslinje for de defekte racersykkelrammene. Han foreslår øyeblikkelig for salgsavdelingen at de kansellerer ordren og oppretter en ny produksjonsordre som er basert på racersykkelrammer uten defekter.  
 
- Nå har du fullført gjennomgangen av hvordan du bruker **Naviger**-vinduet til defekthåndtering sammen med **Varesporing**-vinduet.  
+ Nå har du fullført gjennomgangen av hvordan du bruker **Naviger**-siden til defekthåndtering sammen med **Varesporing**-siden.  
 
 ## <a name="see-also"></a>Se også
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
