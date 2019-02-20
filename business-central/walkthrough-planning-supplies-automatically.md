@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 778f182d12959e0332d538c0471a8c2e0d1613a1
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: c4239904c17db334cee006d5de08ea8c0e80b750
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hovedproduksjonsplanen (MPS) og materialbehovsplanen (MRP) basert på faktisk og prognostisert behov.  
 
 -   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles "MPS-varer" og identifiseres dynamisk når beregningen starter.  

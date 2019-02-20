@@ -1,6 +1,6 @@
 ---
 title: Skrive ut rapporten OCR-kladd - test
-description: "Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden."
+description: "Du kan skrive ut rapporten OCR-kladd - test for å teste de importerte betalingstransaksjonene i innbetalingskladden."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: ea8e58f9a672a5fbe0b553fc92be8fd6d90237be
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: 5e1603a5e74011355f13704d8de33603f1a958e3
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test

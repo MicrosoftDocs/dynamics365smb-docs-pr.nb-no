@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/20/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 4ce03eb7a3685f53869795ded646ef6917a1730a
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: f40c0b422bfde2d3a186b4458c3780932934d497
 ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="assembly-management"></a>Monteringsstyring
@@ -43,6 +43,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Selg monteringsvarer som ikke er tilgjengelige for øyeblikket, ved å opprette koblet monteringsordre for å levere hele eller en del av ordreantallet.|[Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 |Når noen montere-til-ordre-varer allerede er på lager, kan du trekke dette antallet fra monteringsordren og reservere det fra beholdningen.|[Selge lagervarer i monter-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md)|  
 |Når du selger monteringsvarer fra beholdningen og ikke alle varer er tilgjengelige, kan du starte en monteringsordre som automatisk forsyner en del av eller hele ordreantallet.|[Selge montere til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
+|Opprett tilpassede monteringsvarer for rammeordrer før du med jevne mellomrom oppretter de faktiske ordrene i henhold til rammeordreavtalen.|[Opprette rammemonteringsordrer](assembly-how-to-create-blanket-assembly-orders.md)|
 |Angre en bokført monteringsordre, for eksempel fordi ordren ble bokført med feil som må rettes.|[Angre monteringsbokføring](assembly-how-to-undo-assembly-posting.md)|
 |Lære mer om forskjellen mellom monteringsstykklister og produksjonsstykklister og forskjeller i involverte prosesser.|[Arbeide med stykklister](inventory-how-work-BOMs.md)|
 |Lær hvordan monteringsforbruk og avgang håndteres når du bokfører monteringsordrer og hvordan de avledede vare- og ressurskostnadene behandles og distribueres til finans.|[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)|  
@@ -54,5 +55,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
 

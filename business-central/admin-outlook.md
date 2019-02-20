@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 6ced619dc9a43f7db0b4d78bf3de08a6dac27653
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a91f2d34cd023994dcd8eb67a9360d50d2cf3747
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tillegget
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er ett av trinnene i det assisterte oppsettet Komme i gang på siden **Styr virksomheten fra Office 365**. Når du velger **Konfigurer i Outlook**-knappen på denne siden, må du angi brukernavnet og passordet ditt for Office 365. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  
+Det er enkelt å begynne med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget til Outlook. I den assisterte oppsettsveiledningen **Konfigurer forretningsinnboksen i Outlook** kan du definere forbindelsen for deg selv eller for organisasjonen. Hvis organisasjonen bruker office 365, må du angi ditt Office 365-navn og -passord. Hvis organisasjonen din ikke bruker Office 365, må du angi opplysninger om hvilken Exchange Server du bruker. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  
 
-Deretter, når du åpner Outlook, vil du se en e-postmelding fra Business Central-administratoren. Det nye tillegget blir lagt til Outlook-båndet og i Outlook Web Access, og du kan se det i tilleggsbåndet, like over brødteksten i e-postmeldingen. Tillegget selve blir oppdatert med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
+Deretter, når du åpner Outlook, vil du se en e-postmelding fra Dynamics 365 Business Central-administratoren. De nye tilleggene blir lagt til Outlook-båndet og i Outlook Web App kan du se tillegget [!INCLUDE[d365fin](includes/d365fin_md.md)] like over eller under brødteksten i e-postmeldingen. Tilleggene oppdateres med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
 Enkelte selskaper bruker Office 365, begrense brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Office 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
@@ -57,7 +57,10 @@ På samme måte i Outlook-skrivebordsklient, kan du bekrefte at [!INCLUDE[d365fi
 I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ikke er tilgjengelig, må du få tilleggsmanifestfilene. Hvis du vil ha mer informasjon, kontakt systemansvarlig for Office 365.
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
+[Få Business Central på mobilenheten](install-mobile-app.md)  
+[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

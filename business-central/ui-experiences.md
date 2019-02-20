@@ -9,13 +9,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2018
+ms.date: 02/04/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 9b9422fbbfec61fb4d5812ed02e2b76e74b6f8c8
+ms.sourcegitcommit: ce612d546349d05883016646fe14a35553c2f55a
+ms.openlocfilehash: 3317df5f54a359e5b143d5b288a378a350d49440
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/04/2019
 
 ---
 # <a name="changing-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
@@ -35,7 +35,7 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 | **Premium** |Viser alle handlingene og felt for alle forretningsfunksjonene, inkludert produksjons- og servicehåndtering.|
 
 > [!NOTE]  
-> Opplevelser som du kan velge mellom i [!INCLUDE[d365fin](includes/d365fin_md.md)] avhenger av lisensen for løsningen, som kalles en plan. Informasjon om **Essential** og **Premium**-planer, kan du se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)] lisensveiledningen for](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409).
+> Opplevelser som du kan velge mellom i [!INCLUDE[d365fin](includes/d365fin_md.md)] avhenger av lisensen for løsningen, som kalles en plan. Informasjon om **Essential** og **Premium**-planer, kan du se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også [[!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensveiledningen](https://go.microsoft.com/fwlink/?linkid=2068931) (krever tilgang til CustomerSource eller PartnerSource).
 
 > [!IMPORTANT]  
 > Alle vanlige brukere av en løsning må tilordnes samme plan, Essential eller Premium, før denne opplevelsen kan velges for selskapet. På samme måte får ikke én bruker tilgang til Premium-funksjoner hvis én eller flere brukere bare har tilgang til Essential-funksjoner. Dette gjelder ikke for ikke-vanlige brukere av typen teammedlem, intern administrasjon, ekstern regnskapsfører og delegert administrator, som hver kan tilordnes en annen plan enn andre brukere av løsningen.
@@ -63,7 +63,7 @@ Du kan nå fortsette med å velge den nye opplevelsen.
 Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for funksjonsområdene Produksjon og Servicehåndtering, om at de krever **Premium**-opplevelsen.
 
 ## <a name="see-also"></a>Se også
-[Opprette nye seleskaper](about-new-company.md)  
+[Opprette nye selskaper](about-new-company.md)  
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)    
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  

@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/22/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 6a51a509ae1281d7c6bfe19e5276b516982a5fa5
+ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
+ms.openlocfilehash: 6e9c21dcec2932bcc2b93648289699d6d062bf78
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="pick-items"></a>Plukke varer
@@ -38,7 +38,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bokføre levering av varer direkte i det utgående bestillingsdokumentet, fordi det ikke finnes noen lagerfunksjoner. (Fungerer på samme måte som for ordrer, utgående overføringsordrer og returforsendelser.)|[Levere varer](warehouse-how-ship-items.md)|  
 |Plukke varer bestilling for bestilling, og bokføre leveringen i samme aktivitet, i et grunnleggende lageroppsett.|[Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md)|
 |Plukke varer for flere ordrer i et avansert lageroppsett.|[Plukke varer med lagerplukk](warehouse-how-to-pick-items-for-warehouse-shipment.md)|  
-|Plukke komponenter for produksjon eller montering i et enkelt eller avansert lageroppsett.|[Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md)|  
+|Plukke komponenter for produksjon eller montering i et grunnleggende lageroppsett.|[Plukke for montering eller produksjon i enkle lageroppsett](warehouse-how-to-pick-for-production.md)|
+|Plukke komponenter for produksjon eller montering i et avansert lageroppsett.|[Plukke for montering eller produksjon i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)|  
 |Planlegge optimaliserte plukkinstruksjoner for flere leveringer, i stedet for at lagermedarbeiderne skal gjøre dette i de aktuelle, bokførte leveringene.|[Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)|  
 |Plukke varer til et bestemt formål, for eksempel en produksjonsenhet som har bruk for flere komponenter, på en slik måte at varene teknisk sett ikke forlater lageret.|[Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Forstå hvordan du plukker varer automatisk i henhold til utløpsdatoen, for eksempel varer som ikke kan oppbevares over lang tid.|[Plukking etter FEFO](warehouse-picking-by-fefo.md)|

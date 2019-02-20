@@ -8,18 +8,21 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map
-ms.date: 10/01/2018
+ms.search.keywords: integration, synchronize, map, Sales
+ms.date: 01/24/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 65466039efae2b18821fb03b6465f4c8c5e18f68
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: bba9fb9a83856cea43e4f4215e7c148b713252a9
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
-# <a name="managing-customers-and-sales-created-in-dynamics-365-for-sales"></a>Behandle kunder og Salg som er opprettet i Dynamics 365 for Sales
-Hvis du bruker Dynamics 365 for Sales (Sales) for Customer Engagement, kan du bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] for ordrebehandling og økonomi og få sømløs integrasjon i kundeemne-til-kontanter-prosessen.
+# <a name="integrating-with-dynamics-365-for-sales"></a>Integrere med Dynamics 365 for Sales.
+Hvis du bruker Dynamics 365 for Sales til kundeengasjement, kan du bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] for ordrebehandling og økonomi og få sømløs integrasjon i kundeemne-til-kontanter-prosessen.
+
+> [!NOTE]
+> Dette emnet antar at både [!INCLUDE[d365fin](includes/d365fin_md.md)] og den integrerte Sales-løsningen distribueres i et SaaS-miljø. Blanding av online og lokal er mulig, men krever spesialkonfigurasjon. Hvis du vil ha mer informasjon, se [Klargjøre integrasjon med Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 Når programmet er konfigurert til å integrere med Sales, har du tilgang til salgstall fra [!INCLUDE[d365fin](includes/d365fin_md.md)] og motsatt vei i noen tilfeller. Denne integrasjonen gjør at du kan arbeide med og synkronisere datatyper som er felles for begge tjenester, for eksempel kunder, kontakter og salgsinformasjon, og hold dataene oppdaterte på begge lokasjoner.  
 
@@ -144,6 +147,7 @@ Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ik
 Hvis varebeskrivelsen i den opprinnelige ordren er svært lang, kan en ekstra ordrelinje av typen merknaden opprettes som har plass til hele teksten i ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="see-also"></a>Se også
+[Klargjøre integrasjon med Dynamics 365 for Sales lokalt](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).  
 [Forbindelser](marketing-relationship-management.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

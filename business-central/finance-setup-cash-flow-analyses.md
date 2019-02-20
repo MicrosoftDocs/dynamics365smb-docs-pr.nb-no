@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2018
+ms.date: 01/18/2019
 ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbac12ea35916a1ae577341054f4b80522de9df8
+ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
+ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/24/2019
 
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
@@ -81,7 +81,7 @@ Slik bruker du en manuell prosess:
 >   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
 
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
-Du kan også opprette dine egne forutsett webtjenesten basert på en felles modell som heter **Forecasting Model for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
+Du kan også opprette din egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
 1. Åpne en nettleser, og gå til [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352)  
 2. Søk etter **Forecasting Model for Microsoft Business Central**, og åpne deretter modellen i Azure Machine Learning Studio.  

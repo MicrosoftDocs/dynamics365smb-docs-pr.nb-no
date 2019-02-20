@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2bd235844f191c52f3f5d3e34b43c4fdf75fb464
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren.  
 
 Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-antall, både i grunnleggende og i avanserte lagerkonfigurasjoner. Når medarbeidere som er ansvarlige for montering, er ferdige med monteringen av deler av eller hele montere-til-ordre-antallet, registrerer de dette i feltet **Levere (antall)** på lagerleveringslinjen, i avanserte oppsett, og velger deretter **Bokfør følgeseddel**. Resultatet er at den tilsvarende monteringsavgangen bokføres, inkludert det relaterte komponentforbruket, og en følgeseddel for antallet bokføres for den tilknyttede ordren. Denne gjennomgangen illustrerer den avanserte lagerprosessen.  

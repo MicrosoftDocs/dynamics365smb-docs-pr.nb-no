@@ -1,6 +1,6 @@
 ---
 title: Opprette gjentakelsesordrer
-description: "Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene."
+description: "Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden Opprett gjentakelsesordrer, og oppretter de nye salgsordrene."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: a2e6a0dbbe848330ece091d7ee46bcb3810914c2
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: f89524dd57e4a0293bcccb7799930c5e0f45c996
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="create-recurring-orders"></a>Opprett gjentakelsesordrer

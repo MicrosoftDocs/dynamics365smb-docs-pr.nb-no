@@ -1,30 +1,31 @@
 ---
-title: Bruke utvidelsen Quickbooks Payroll-filimport | Microsoft-dokumentasjon
-description: "Beskriver hvordan du bruker utvidelsen til å importere lønn og lønnstransaksjoner fra Quickbooks Payroll-tjenesten."
+title: Bruke utvidelsen QuickBooks Payroll-filimport | Microsoft-dokumentasjon
+description: "Dette emnet beskriver hvordan du bruker utvidelsen til å importere lønn og lønnstransaksjoner fra QuickBooks."
 services: project-madeira
 documentationcenter: 
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
-ms.date: 10/01/2018
-ms.author: SorenGP
+ms.date: 01/09/2019
+ms.author: bholtorf
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: caf928b653b528c10820a8dfa8feff498c88f4ff
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: ac68f8a4d67224ad55b1c34ff9b2e4ffa2c372aa
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
-# <a name="the-quickbooks-payroll-file-import-extension"></a>Utvidelsen Quickbooks Payroll-filimport
-For å ta høyde for lønnsutbetalinger og relaterte transaksjoner, må du importere og bokføre finansielle transaksjoner som er utført av lønnssystemet til Finans.
+# <a name="the-quickbooks-payroll-file-import-extension"></a>Utvidelsen QuickBooks Payroll-filimport
+Bruk QuickBooks Payroll-filimportutvidelsen til å importere lønnstransaksjoner fra QuickBooks til finanskonti i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er for eksempel nyttig når du går fra QuickBooks til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller hvis outsourcer lønn, men også vil holde oversikt over den i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Hvis du vil gjøre dette, importerer du først filen som du mottar fra lønnssystemet på siden **Finanskladd**. Deretter tilordner du eksterne kontoer i lønnsfilen til de relevante finanskontiene. Til slutt kan du bokføre lønnstransaksjoner etter kontotilordningen. Hvis du vil ha mer informasjon, kan du se [Importere lønnstransaksjoner](finance-how-import-payroll-transactions.md).
+## <a name="steps-to-import-payroll-data"></a>Trinn for å importere lønnsdata
+Det første trinnet for deg, eller kanskje regnskapsføreren, er å bruke eksportfunksjonene i QuickBooks til å eksportere lønnsdata til en .IIF-fil. Det andre trinnet er å åpne siden **Finanskladder** i [!INCLUDE[d365fin](includes/d365fin_md.md)] og bruke **Importer lønnstransaksjoner**-handling til å importere filen. I løpet av importprosessen tilordner du finanskontiene fra QuickBooks til tilsvarende finanskonti i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det siste trinnet er å bokføre lønnstransaksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] etter kontotilordningen. 
 
-Utvidelsen for Quickbooks Payroll-filimport lar deg importere lønnstransaksjon fra Quickbooks Payroll-tjenesten.
+Hvis du vil ha mer informasjon, kan du se [Importere lønnstransaksjoner](finance-how-import-payroll-transactions.md).
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)    

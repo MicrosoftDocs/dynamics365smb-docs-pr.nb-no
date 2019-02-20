@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 11/15/2018
+ms.date: 11/27/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 67400e424305cc705db5c1bd52a8e4de17ecc5a9
-ms.openlocfilehash: d24998281a7e718c5f4ae648eba1a338512eefcb
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: d5f5885055aa1094e4172d4a4e327ff1e940f799
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/20/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
@@ -29,6 +29,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Lese diverse begrepsmessig informasjon for å forstå prinsippene og definisjonene som styrer funksjonene for lagerkostregnskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkost](finance-learn-about-costing.md)|  
+|Lær om alle mekanismene i kostsystemet.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|
 |Lese hvorfor standardkost ofte brukes som verdisettingsgrunnlag for komponenter og sluttvarer i produksjonsselskaper.|[Om beregning av standardkost](finance-about-calculating-standard-cost.md)|
 |Definer lagerperioder, lagermetoder og avrundingsmetoder.|[Definere lagerverdisetting og kostberegning](finance-set-up-inventory-valuation-and-costing.md)|
@@ -38,7 +39,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Oppdater regelmessig standardkostnadene for komponenter, i monterings- eller produksjonsstykklister, og oppruller de nye kostnadene til den overordnede varen.|[Oppdatere standardkost](finance-how-to-update-standard-costs.md)|
 |Vis og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|
 |Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Lær om alle mekanismene i kostsystemet.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også  
  [Finans](finance.md)  

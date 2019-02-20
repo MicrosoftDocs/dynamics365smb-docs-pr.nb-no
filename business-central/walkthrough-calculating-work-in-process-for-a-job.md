@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 95264e2f011ab22a4c83343e933bfcf69b38948a
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 396aefb64b4bc4f4555ae3a512656aa3c66bad20
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  

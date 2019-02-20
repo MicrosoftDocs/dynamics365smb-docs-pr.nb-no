@@ -1,6 +1,6 @@
 ---
 title: Importere betalingsreturdata
-description: "Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**."
+description: "Mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1152605742011048c8829cdbe570f89b07b4a21c
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: b2115995f60a8ab3be9d05dd963c9a4e56833d0e
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata

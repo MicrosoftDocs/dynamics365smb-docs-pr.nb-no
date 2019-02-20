@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting
-ms.date: 10/01/2018
+ms.date: 01/14/2019
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: bb514cdfcaf2ea0a05b669cb5b5963da79a94d0e
+ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
+ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 01/15/2019
 
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
@@ -23,7 +23,8 @@ Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finans
 Når regnskapsføreren har fått tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante sidene for arbeidet.  
 
 ## <a name="invite-your-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I den siste versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)], vi har gjort det mulig for deg å invitere den eksterne regnskap. Bare åpne **Brukere**-siden, og velg deretter **Inviter ekstern regnskapsfører** i båndet. En e-post er opprettet slik at du bare legger til regnskapsførerens arbeids-e-post og sender invitasjonen.  
+
+Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare åpne **Brukere**-siden, og velg deretter **Inviter ekstern regnskapsfører** i båndet. En e-post er opprettet slik at du bare legger til regnskapsførerens arbeids-e-post og sender invitasjonen.  
 
 ![Invitere regnskapsføreren din](./media/finance-invite-accountant/invite-accountant.png)
 
@@ -31,7 +32,7 @@ I den siste versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)], vi har gjo
 >  Dette krever at du har definert SMTP-e-post. Du kan gjøre dette selv eller be din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. I tillegg du må være logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brukeradministrator, ikke som bedriftseier eller andre brukere. Til slutt må du ha igjen prøveselskapet slik at du har en administrator for Azure Active Directory.  
 
 > [!IMPORTANT]  
->  Regnskapsførerens e-postadresse må være en jobbadresse som er basert på en Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes.  
+> Regnskapsførerens e-postadresse må være en jobbadresse som er basert på Azure Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes.  
 
 ### <a name="separate-license"></a>Egen lisens
 Regnskapsføreren blir lagt til i Active Directory-leietakeren din bakgrunnen. Systemansvarlig kan kontrollere at regnskapsføreren godtar invitasjonen og tilordnes riktig lisens. Fremgangsmåten for å gjøre dette er avhengig av kontotypen du brukte da du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette emnet er basert på bruken av en Office 365-konto, som bruker Microsoft Azure Active Directory.  

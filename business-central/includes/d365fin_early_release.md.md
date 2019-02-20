@@ -1,1 +1,1 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva som kommer, kan du se [Microsoft Dynamics 365 Business Central-veikart](https://go.microsoft.com/fwlink/?linkid=842139).
+Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva som kommer, kan du se [Produktmerknader for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).

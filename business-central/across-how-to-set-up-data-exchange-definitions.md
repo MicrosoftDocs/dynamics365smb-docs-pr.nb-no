@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 11/26/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5d90eefb7fe765681a50b906f237e48b67beb935
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
@@ -50,7 +50,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |---------------------------------|---------------------------------------|  
     |**Kode**|Skriv inn en kode for å identifisere datautvekslingsdefinisjonen.|  
     |**Navn**|Angi et navn for datautvekslingsdefinisjonen.|  
-    |**Filtype**|Angi hvilken type fil datautvekslingsdefinisjonen brukes til. Du kan velge mellom tre filtyper:<br /><br /> -   **XML**: lagdelte strenger med innhold og kode omgitt av koder som angir funksjon.<br />-   **Variabel tekst**: Poster har variabel lengde og er atskilt med et tegn, for eksempel komma eller semi\-kolon. Kalles også *kommadelt fil*.<br />-   **Fast tekst**: Poster har samme lengde ved hjelp av utfyllingstegn, og hver post er på en separat linje. Kalles også *fil med fast bredde*.|  
+    |**Filtype**|Angi hvilken type fil datautvekslingsdefinisjonen brukes til. Du kan velge mellom fire filtyper:<br /><br /> -   **XML**: lagdelte strenger med innhold og kode omgitt av koder som angir funksjon.<br />-   **Variabel tekst**: Poster har variabel lengde og er atskilt med et tegn, for eksempel komma eller semi\-kolon. Kalles også *kommadelt fil*.<br />-   **Fast tekst**: Poster har samme lengde ved hjelp av utfyllingstegn, og hver post er på en separat linje. Kalles også *fil med fast bredde*.<br />- **Json**: Lagvise strenger med innhold i JavaScript.|  
     |**Type**|Angi hvilken type forretningsvirksomhet datautvekslingsdefinisjonen brukes til, for eksempel **betalingseksport**.|  
     |**Kodeenhet for datahåndtering**|Angi kodeenheten som overfører data inn i og ut av tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Kodeenhet for validering**|Angi kodeenheten som brukes til å validere data mot forhåndsdefinerte forretningsregler.|  

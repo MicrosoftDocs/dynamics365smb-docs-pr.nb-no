@@ -8,16 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 81176d2dc4cb5223d20ea553390b591d47bd5a85
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: 5fb8201f85fe94ac124e80014a4f3ff5073fbf65
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du krever kanskje et depositum før du produserer varer på bestilling, eller kanskje du krever betaling før du leverer varer til en kunde. Du bruker funksjonene for forskuddsbetaling i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sørge for at alle betalinger bokføres mot en faktura.  
 
  Krav til forskuddsbetaling kan defineres for en kunde eller leverandør for alle varer eller utvalgte varer. Når du har fullført det nødvendige oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger for det beregnede forskuddsbeløpet. Du kan endre standardbeløpene på fakturaen etter behov. Du kan for eksempel sende flere forskuddsfakturaer hvis flere varer blir lagt til i ordren.  

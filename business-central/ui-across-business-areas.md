@@ -13,10 +13,10 @@ ms.search.keywords: feature overview, functionality
 ms.date: 11/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 790af74199922a1ce711b1262f2756f5c7788fb2
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
@@ -35,6 +35,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Legge til utvidet varetekst](ui-how-define-ext-text.md) |
 |Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver for deg selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
 |Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
+|Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)| 
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
 |Definere og bruke arbeidsflyter som kobler oppgaver som utføres av forskjellige brukere eller av systemet, for eksempel automatisk bokføring. Å be om og gi godkjenning til å opprette eller bokføre dokumenter er typiske arbeidsflyttrinn.|[Arbeidsflyt](across-workflow.md)|

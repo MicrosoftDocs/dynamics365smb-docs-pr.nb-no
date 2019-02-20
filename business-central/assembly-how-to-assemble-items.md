@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2018
+ms.date: 12/17/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 89f878f4049b09cbaa413bc38b97039a07646d9d
+ms.sourcegitcommit: aa1e7b13cf6cc56df1a6922a9b123e7cc19580c6
+ms.openlocfilehash: 10b8021bd688e3f699a73d6a95f511b9a26b8341
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/19/2018
 
 ---
 # <a name="assemble-items"></a>Montere elementer
@@ -61,7 +61,7 @@ I denne fremgangsmåten oppretter og behandler du en monteringsordre for varer s
 
     > [!NOTE]  
     >  For å sikre at komponentforbruksbokføring samsvarer med avgangsbokføring for monteringsvarer justeres antallsfeltene i monteringsvarelinjene automatisk til verdien du angir i feltet **Antall å montere**.  
-7.  På monteringsordrelinjer av typen **Vare** eller **Ressurs** angir du i feltet **Antall som skal forbrukes** hvor mange enheter du vil bokføre som forbrukt neste gang du bokfører monteringsordren. Som standard blir forventet antall til forbruk i henhold til monteringsstykklisten og monteringsordrehodeantallet satt inn, men du kan øke eller redusere det, for eksempel for å gjenspeile et overforbruk av komponenter eller at ekstra ressurser ble brukt.  
+7.  På monteringsordrelinjer av typen **Vare** eller **Ressurs** angir du i feltet **Antall som skal forbrukes** hvor mange enheter du vil bokføre som forbrukt neste gang du bokfører monteringsordren.
 8.  Når du er klar til å bokføre delvis eller fullstendig, velger du **Bokfør**-handlingen.  
 
     > [!NOTE]  

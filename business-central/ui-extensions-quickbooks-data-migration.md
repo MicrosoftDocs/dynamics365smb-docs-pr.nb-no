@@ -11,10 +11,10 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 30944a42746d9538e245f8970a8cb76423bc9c59
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: e5cb755b6a15070410c42328ccf08b784928f3ca
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -45,10 +45,14 @@ En viktig del av overføringen er å angi kontiene som transaksjonene skal overf
 - Salg av varer eller tjenestene til kunder  
 - Kjøp av varer eller tjenester fra leverandører  
 - Justeringer i Finans  
-Business Central krever at det er tilordnet kontonumre til finanskonti. Kontroller at kontonumre er tilordnet til kontiene i QuickBooks Online.
-Hvis transaksjoner i QuickBooks Online har mva-beløp, må du definere en mva-konto for mva-jurisdiksjonene i Business Central før du kan bokføre transaksjoner.
+
+Business Central krever at det er tilordnet kontonumre til finanskonti. Kontroller at kontonumre er tilordnet til kontiene i QuickBooks.
+Hvis transaksjoner i QuickBooks har mva-beløp, må du definere en mva-konto for mva-jurisdiksjonene i Business Central før du kan bokføre transaksjoner.
 
 Du må laste ned Microsofts verktøy for dataeksport for å få dataene dine ut av QuickBooks Desktop-programmet.  Instruksjonene for verktøyet finnes i veiviseren for datamigrering i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Verktøyet vil koble til QuickBooks-programmet ditt og eksportere de aktuelle dataene til en ZIP-fil.  
+
+> [!NOTE]
+> For tiden fungerer bare dataeksportverktøyet med QuickBooks 2017 og 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Finne QuickBooks-utvidelse for dataoverføring
 Utvidelsen Datamigrering for QuickBooks er installert og klar som en integrert del av den assisterte oppsettsveiledningen for datamigrering. Hvis du er klar til å starte nå og har eksportert dataene dine fra QuickBooks, kan du velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Assistert oppsett** og deretter velge den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.  

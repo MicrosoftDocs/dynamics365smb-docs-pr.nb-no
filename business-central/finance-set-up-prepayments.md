@@ -1,21 +1,17 @@
 ---
 title: Definere forskudd | Microsoft-dokumentasjon
 description: "Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura."
-documentationcenter: 
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: prepayment
+ms.date: 12/04/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7dc774654b35ce9b08885fd4ad18539e3ce5ebd5
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 3038fc256ec45b8eb51abe3f71b7fcc7d273b353
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
@@ -25,7 +21,9 @@ Før du kan bokføre forskuddsfakturaer, må du definere bokføringskontiene i F
 
 Du kan definere hvor stor prosentdel av linjebeløpet som skal faktureres for forskuddsbetaling, for en kunde eller leverandør, for alle varer eller for utvalgte varer. Når du har fullført oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger. Du kan bruke standardprosentsatsene for hver salgs- eller kjøpslinje, eller du kan endre beløpene på fakturaen etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
 
-Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene eller tjenestene, må du sette opp finanskontoer for de forhåndsbetalte beløpene frem til den endelige fakturaen er bokført. Utgående forhåndsbetalinger må registreres i en gjeldskonto frem til fakturaen bokføres. Inngående forhåndsbetalinger må registreres i en aktivakonto frem til varene mottas. I tillegg må du definere en separat finanskonto for hver mva-type.
+Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene eller tjenestene, må du sette opp finanskontoer for de forhåndsbetalte beløpene frem til den endelige fakturaen er bokført. Utgående forhåndsbetalinger må registreres i en gjeldskonto frem til fakturaen bokføres. Inngående forhåndsbetalinger må registreres i en aktivakonto frem til varene mottas. I tillegg må du definere en separat finanskonto for hver mva-type.  
+
+[!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Slik legger du til forskuddskonti til generelt bokføringsoppsett  
 
@@ -78,8 +76,11 @@ En ordre kan ha en forskuddsprosent på salgshodet og en annen prosent for varen
 Forskuddsprosenten på kundekortet gjelder med andre ord bare hvis det ikke er satt opp noen forskuddsprosent for varen. Hvis du imidlertid endrer innholdet i feltet **Forskuddsprosent** i salgs- eller bestillingshodet etter at du har opprettet linjene, oppdateres forskuddsprosenten på alle linjene. Dette gjør det enkelt å opprette en ordre med en fast forskuddsprosent uavhengig av prosenten som er satt opp for varene.
 
 ## <a name="see-also"></a>Se også  
+
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Beregne mva på varer og tjenester på forskuddsbetalinger i Australia](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
+[Beregne mva på varer og tjenester på forskuddsbetalinger i New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Forstå Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

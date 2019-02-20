@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 10/01/2018
+ms.date: 12/03/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: b30a97ad3f7c03b1c42e5cd845698337899a0294
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
@@ -36,7 +36,7 @@ For noen rask og praktisk å vite triks, kan du se:
 
 Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md).  
 
-Når du er klar til å begynne å jobbe, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](across-business-functionality.md). For en oversikt over gjeldende funksjoner, og hva kommer, kan du ta en titt på vår veikart på [roadmap.dynamics.com](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68).  
+Når du er klar til å begynne å jobbe, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](across-business-functionality.md). For en oversikt over gjeldende funksjoner og hva som kommer, se på våre produktmerknader på [Produktmerknader for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
 ## <a name="the-role-centers"></a>Rollesentrene
 Rollesenter-siden er basert på en rollesentrert design for å gi rask tilgang til forretningsprosessen og intelligensverktøyene du trenger for å gjøre jobben din. En regnskapsfører kan for eksempel overvåke betalinger og godkjenninger, og vise finansytelsesdiagrammer. Sjekk de forskjellige rollesentrene ved å velge **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter") i øvre høyre hjørne, velge **Mine innstillinger** og deretter rollesenteret som skal utforskes. Logg deg på på nytt for å aktivere endringen. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
@@ -69,7 +69,15 @@ Tenker du på å abonnere? Du kan enkelt endre fra demonstrasjonsselskapet og op
 
 Hvis du vil opprette et selskap for å prøve ut ting, kan du gå til **Mine innstillinger**-menyen i øvre høyre hjørne og endre selskapet til **Mitt selskap**. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter på igjen for at endringene skal tre i kraft. En assistert oppsettveiledning hjelper deg med å gi grunnleggende informasjon om selskapet. Når det er gjort, kan du utforske rollesenteret og finne handlingen **Assistert oppsett**.  
 
-Du kan også finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).
+Du kan også finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
+
+## <a name="getting-answers-to-questions"></a>Få svar på spørsmål
+
+Hvis du ikke er sikker på hvordan du gjør noe i [!INCLUDE[d365fin](includes/d365fin_md.md)], finner du forhåpentligvis svar ved å lese verktøytips for feltet du er usikker på, eller ved å lese innholdet ved å åpne *Finn ut mer*-koblingen i et verktøytips. Du kan også få dokumentasjonen ved å velge den relaterte koblingen på Hjelp-menyen.  
+
+Alle feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)] er beskrevet i verktøytips. Du får tilgang til verktøytips ved å velge navnet på feltet. For eksempel på en side som **Kundekort** velger du ganske enkelt navnet på feltet for å lese verktøytipset. I en liste som **Kunder** eller på linjene i et dokument, for eksempel en ordre, må du velge rullegardinmenyen til høyre for navnet i kolonnen og velge menyelementet **Hva er dette?**.  
+
+Hvis du har flere spørsmål, anbefaler vi at du spør gruppen eller kontakter videresalgspartneren. Hvis du vil ha mer informasjon, se [Hvor går jeg hvis jeg har spørsmål?](across-faq.md#where-do-i-go-if-i-have-questions).  
 
 ## <a name="ready-to-subscribe"></a>Klar til å abonnere?
 Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search). Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
@@ -86,7 +94,7 @@ Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](in
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
 [Dokumentasjon for Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
-[Business Central Roadmap](https://roadmap.dynamics.com/#edition=1#application=a56e2c12-2a92-e611-80dc-c4346bac0910#status=3a708a86-ae97-e611-80df-c4346baceb68)  
+[Produktmerknader for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 01/31/2019
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 13638a1bc96bc61fb2d2b3d925a861f1085fe275
+ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
+ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/31/2019
 
 ---
 # <a name="walkthrough-tracing-serial-lot-numbers"></a>Gjennomgang: spore serie-/partinumre
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må unngå at påvirkede varer leveres til kunder. Hvis defekte varer allerede er levert, må du spore hvem som har mottatt dem, og om nødvendig tilbakekalle varene.  
 
 Den første oppgaven i defekthåndtering er å undersøke hvor de defekte varene kommer fra, og hvor de ble brukt. Denne undersøkelsen er basert på historiske data og gjøres enklere ved å søke gjennom varesporingsposter på siden **Varesporing**.  
@@ -117,7 +120,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 4.  Hvis du vil angi partinummeret, velger du **Varesporingslinjer**-handlingen.  
 5.  På siden **Varesporingslinjer** fyller du ut feltet **Partinr.** og **Antall (lagerenhet)** og lukker siden.  
-6.  Angi en verdi i feltet **Leverandørs fakturanr.**  
+6.  Angi en verdi i feltet **Leverandørs fakturanr.**.  
 7.  Velg **Bokfør**-handlingen, velg **Motta og fakturer**-alternativet, og velg deretter **OK**-knappen.  
 
     Deretter kjøper du racersykkelrammer fra Coolwood Technologies.  

@@ -11,10 +11,10 @@ ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 10/01/2018
 ms.author: jswymer
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 549f66a584e7994cba6d7b99ee25a04c8cb8960b
+ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
+ms.openlocfilehash: 5b7c5282a89a1dfb39f3e94feab8e00d2373f8af
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -52,7 +52,7 @@ Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til fors
 ## <a name="keyboard-shortcuts-in-lists"></a>Hurtigtaster i lister
 
 Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hurtigtasthandlingen varierer litt avhengig av om siden vises i listevisning eller flisevisning.
-<!-- 
+<!--
 > [!Note]
 > In the table that follows, the term *actionable field* refers to a field on which you can do something, like change a value or link to another page. In general, the shortcuts will skip over fields that display information that you cannot change from the list (in other words, fields that are read-only).
 -->
@@ -61,7 +61,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |Merknader|
 |-----------------|-------|-------|-------|
-|Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |  | 
+|Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |  |
 |Pil ned|Flytte i samme kolonne til feltet i raden nedenfor. |Flytte i samme kolonne til flisen i raden nedenfor. | |
 |Pil høyre|I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet.| Flytte i samme rad til neste flis til høyre. ||
 |Pil venstre|I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet.| Flytte i samme rad til forrige flis til venstre. ||
@@ -71,7 +71,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |End<br />(Fn + Pil høyre)|Flytte til det første feltet i raden.|Flytte til den siste flisen i raden.||
 |En side opp<br />(Fn + Pil opp)|Ruller for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. ||
 |En side ned<br />(Fn + Pil ned)|Ruller for å vise de angitte radene under de gjeldende radene i visningen.|Ruller for å vise settet med fliser under de gjeldende flisene i visningen.||
-|Enter<br />(Fn + Pil ned)|Åpner posten som er knyttet til dette feltet.|Åpner posten.| Bare aktuelt hvis en kortside er tilknyttet posten.|
+|Enter|Åpner posten som er knyttet til dette feltet.|Åpner posten.| Bare aktuelt hvis en kortside er tilknyttet posten.|
 |Ctrl+Enter|Flytte fokus til neste element utenfor listen.|Flytte fokus til neste element utenfor listen.||
 
 ### <a name="CopyRows"></a>Velge, kopiere og lime inn
@@ -104,7 +104,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |Shift+Alt+F3|Åpner filtreringsruten og legger til et filter i den valgte kolonnen i listen. Fokus er på det nye filterfeltet som lar deg skrive inn filterkriteriene med én gang.<br /><br /> Dette gjør det samme som å velge **Filter** fra kolonneoverskriften. er-menyen. Viser filtreringsruten, legger til filteret, setter fokus til det, slik at du kan skrive inn verdien til å filtrere på.<br /><br />Hvis det finnes et filter i feltet, legges det til et nytt filter. |
 |Ctrl+Skift+Alt+F3|Tilbakestiller filtre. Dette gjør det samme å velge **Tilbakestill filtre** i filtringsruten, noe som gjelder for felt- og totalfiltre.<br /><br /> Filtre går tilbake til standardfiltrene for gjeldende visning. Hvis gjeldende visning er **Alle**, tilsvarer dette å gå tilbake til en ufiltrert visning med alle poster. |
 |Ctrl+Enter|Går tilbake til listen fra filtreringsruten.|
- 
+
 ## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Hurtigtaster i kalenderen (datovelger)
 Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
 

@@ -12,14 +12,14 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2018
 ms.author: edupont
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 357be92799a016b21a123692f7ed612d66005017
+ms.sourcegitcommit: 34a6789780fb3d55c0a97b29408dca659992f781
+ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
 ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
+ms.lasthandoff: 01/30/2019
 
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Utvidelsen for Dynamics GP datamigrering 
-Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevante poster og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
+Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevante poster og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[prodshort](includes/prodshort.md)]. Overføringsutvidelsen fungerer for alle støttede versjoner av Microsoft Dyanmics GP. Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Eksportere data fra Dynamics GP
 Du må ha eksportert noen av eller alle dine eksisterende kunder, leverandører, varer og finanskontoer til en fil ved hjelp av funksjonen for dataeksport i Dynamics GP. Når du velger å eksportere data, kan du velge følgende typer:

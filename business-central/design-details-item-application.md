@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2018
+ms.date: 12/21/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5165cb97d73562d9614a955269ebdcbdc2ff33e4
+ms.sourcegitcommit: 5801fcc1284edfe1b8578518c084455c336d5a40
+ms.openlocfilehash: 772702717a250e7068e93d362bc09a5ba719defe
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 12/27/2018
 
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
@@ -93,9 +93,9 @@ Hvis du vil opprette en fast utligning, bruker du feltet **Utligningsvarepost** 
 ### <a name="example--fixed-application-in-purchase-return"></a>Eksempel – fast utligning i bestillingsretur  
 Følgende eksempel, som illustrerer resultatet av fast utligning av en bestillingsretur for en vare som bruker lagermetoden FIFO, er basert på følgende scenario:  
 
-1. Brukeren bokfører et kjøp med en kostnad på NOK 10,00 i løpenummer 1.  
-2. Brukeren bokfører et kjøp med en kostnad på NOK 20,00 i post nummer 2.  
-3. I løpenummer 3 bokfører brukeren en bestillingsretur. Brukeren foretar en fastsatt utligning mot det andre kjøpet ved å skrive inn varepostnummeret i feltet **Utligningsvarepost** på bestillingsreturlinjen.  
+1. Brukeren bokfører et kjøp med en kostnad på NOK 10,00 i oppføring 1.  
+2. Brukeren bokfører et kjøp med en kostnad på NOK 20,00 i oppføring 2.  
+3. I oppføring 3 bokfører brukeren en bestillingsretur. Brukeren foretar en fastsatt utligning mot det andre kjøpet ved å skrive inn varepostnummeret i feltet **Utligningsvarepost** på bestillingsreturlinjen.  
 
 Tabellen nedenfor viser varepostene som er et resultat av scenariet.  
 
@@ -111,7 +111,7 @@ Tabellen nedenfor viser vareutligningsposten som blir resultatet av den faste ut
 
 |Bokføringsdato|Inngående vareløpenr.|Utgående vareløpenr.|Antall|Varepostnr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
-|06.01.20|1|3|10|3|  
+|06.01.20|2|3|10|3|  
 
 Kostbeløpet for det andre kjøpet, NOK 20,00, blir deretter korrekt sendt til bestillingsreturen.  
 

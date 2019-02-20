@@ -1,6 +1,6 @@
 ---
 title: Definere betalingslinjeinformasjon
-description: "Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**."
+description: "Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden Betalingsinformasjon."
 services: project-madeira
 documentationcenter: 
 author: SorenGP
@@ -13,10 +13,10 @@ ms.search.keywords:
 ms.date: 10/01/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4e151ddb25b6fd7b6349134c1dc56a2b0960301b
+ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
+ms.openlocfilehash: aac72339f4a2e398ec2425d13b602c50d220356e
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="set-up-payment-line-information"></a>Definere betalingslinjeinformasjon

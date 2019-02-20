@@ -9,10 +9,10 @@ ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 313ebe68ae1963e22bc17d53a7c41ae8f090de60
+ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
+ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 11/29/2018
 
 ---
 
@@ -47,8 +47,8 @@ På personvernsiden for arbeid og skole kan du også lukke kontoen. Vi anbefaler
 Du kan fortsatt merke personer som blokkert på grunn av personvern og eksportere, redigere eller slette transaksjoner som beskrevet et annet sted i denne artikkelen.  
 
 ## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabellene som ikke er klassifisert etter dataemne
-Hvis du har en situasjon der du må eksportere data som ikke er klassifisert slik at de eksporteres automatisk, for eksempel dataene fra tabellen Profilsvar, må du gjøre følgende: 
--   Vurder om du virkelig vil eller må eksportere disse tilleggsdataene som ikke er knyttet til kontakten, det vil si at de er ikke direkte knyttet til den 
+Hvis du har en situasjon der du må eksportere data som ikke er klassifisert slik at de eksporteres automatisk, for eksempel dataene fra tabellen Profilsvar, må du gjøre følgende:
+-   Vurder om du virkelig vil eller må eksportere disse tilleggsdataene som ikke er knyttet til kontakten, det vil si at de er ikke direkte knyttet til den
 -   Legg til denne tabellen og relasjonen manuelt i hurtigstartpakken, og eksporter dem direkte fra hurtigstartpakken. Derfor generere vi hurtigstartpakken for deg, slik at du kan endre den i situasjoner som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtere opplysninger om mindreårige

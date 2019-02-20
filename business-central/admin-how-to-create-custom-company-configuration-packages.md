@@ -10,13 +10,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 
-ms.date: 10/01/2018
+ms.date: 12/07/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 868972e4d53d858834ba5985a3de3ffa1d4dcc6b
+ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
+ms.openlocfilehash: a51628085e640cc2e5f022272eccb89d5cec38b7
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
+ms.lasthandoff: 12/11/2018
 
 ---
 # <a name="create-custom-company-configuration-packages"></a>Opprette egendefinerte konfigurasjonspakker for selskap
@@ -39,12 +39,11 @@ En annen tilnærming ville være å opprette en pakke som inneholder tabeller so
 -   Mva-bokføringsoppsett  
 -   Lagerbokføringsoppsett  
 
-Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett** og velger deretter den relaterte koblingen.  
+Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Manuelt oppsett** og velger deretter den relaterte koblingen.  
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Opprette egendefinerte konfigurasjonspakker for selskap  
-1.  Opprette en ny [!INCLUDE[d365fin](includes/d365fin_md.md)]. ***IKKE MULIG Kobling til hjelp for "Opprette en ny leier"***.   
-2.  Opprett et nytt selskap for bransje- eller løsningsmalen. Hvis du vil ha mer informasjon, kan du se [Opprette et nytt selskap](admin-how-to-create-a-new-company.md).  
-3.  Konfigurer det nye selskapet etter dine behov. Fyll ut alle nødvendige oppsettstabeller.  
+1.  Opprett et nytt selskap. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i Business Central](about-new-company.md).  
+3.  Konfigurere det nye selskapet etter dine behov. Fyll ut alle nødvendige oppsettstabeller.  
 4.  Åpne det nye selskapet.
 5. Åpne siden **Konfigurasjonsforslag**.  
 6.  Legg til tabellene du vil overføre til et annet selskap, i forslaget. Tilordne forslagslinjene til pakken.  
