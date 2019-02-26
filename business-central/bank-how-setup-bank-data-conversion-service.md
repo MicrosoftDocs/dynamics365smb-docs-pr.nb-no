@@ -11,10 +11,10 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 10/02/2018
 ms.author: sgroespe
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f46d085eac89743c095b5fd7d73353a5ff248f65
+ms.sourcegitcommit: 63ad387abc0e244602840771bef6ed2ac09f0799
+ms.openlocfilehash: 48fb943e03e2dff3d1ed583872cb989944495f7f
 ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
+ms.lasthandoff: 02/26/2019
 
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a><span data-ttu-id="e1c11-103">Konfigurere tjeneste for konvertering av bankdata</span><span class="sxs-lookup"><span data-stu-id="e1c11-103">Set Up the Bank Data Conversion Service</span></span>
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/26/2018
 <span data-ttu-id="e1c11-112">Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankkonto og leverandørenes bankkonti.</span><span class="sxs-lookup"><span data-stu-id="e1c11-112">To import or export bank files, you must set up your own bank account and your vendors' bank accounts.</span></span> <span data-ttu-id="e1c11-113">Hvis du vil ha mer informasjon, kan du se [Opprette bankkonti](bank-how-setup-bank-accounts.md).</span><span class="sxs-lookup"><span data-stu-id="e1c11-113">For more information, see [Set Up Bank Accounts](bank-how-setup-bank-accounts.md).</span></span>
 
 > [!NOTE]  
->   <span data-ttu-id="e1c11-114">Konverteringstjenesten for bankdata kan sette en grense for hvor mange linjer som kan eksporteres i én fil.</span><span class="sxs-lookup"><span data-stu-id="e1c11-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="e1c11-115">Du får en feilmelding hvis grensen er overskredet.</span><span class="sxs-lookup"><span data-stu-id="e1c11-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="e1c11-116">Det anbefales at bankkontoutdragsfiler ikke overstiger 1 000 linjer, siden behandlingstiden i konverteringstjenesten for bankdata kan øke betraktelig.</span><span class="sxs-lookup"><span data-stu-id="e1c11-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
+> <span data-ttu-id="e1c11-114">Konverteringstjenesten for bankdata kan sette en grense for hvor mange linjer som kan eksporteres i én fil.</span><span class="sxs-lookup"><span data-stu-id="e1c11-114">The bank data conversion service may impose a limit on the number of lines that can be exported in one file.</span></span> <span data-ttu-id="e1c11-115">Du får en feilmelding hvis grensen er overskredet.</span><span class="sxs-lookup"><span data-stu-id="e1c11-115">You will receive an error message if the limit is exceeded.</span></span> <span data-ttu-id="e1c11-116">Det anbefales at bankkontoutdragsfiler ikke overstiger 1 000 linjer, siden behandlingstiden i konverteringstjenesten for bankdata kan øke betraktelig.</span><span class="sxs-lookup"><span data-stu-id="e1c11-116">It is recommended that bank statement files do not exceed 1000 lines as the processing time in the bank data conversion service may otherwise increase significantly.</span></span>
 
 ## <a name="to-sign-your-company-up-for-the-bank-data-conversion-service"></a><span data-ttu-id="e1c11-117">Slik registrerer du selskapet for tjenesten for bankdatakonvertering:</span><span class="sxs-lookup"><span data-stu-id="e1c11-117">To sign your company up for the bank data conversion service</span></span>
 1. <span data-ttu-id="e1c11-118">Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="e1c11-118">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Bank Data Conv. Service Setup**, and then choose the related link.</span></span>  
