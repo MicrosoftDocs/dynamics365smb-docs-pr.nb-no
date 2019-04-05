@@ -1,8 +1,8 @@
 ---
-title: "Definere rapporter som skal skrives ut på bestemte skrivere | Microsoft-dokumentasjon"
+title: Definere rapporter som skal skrives ut på bestemte skrivere | Microsoft-dokumentasjon
 description: Finn ut hvordan du angir en skriver for en rapport og bruker siden Skrivervalg.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: bc3a7ab7a61e7a51a58494c3f5892c22b6867333
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803413"
 ---
-# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="c4116-103">Angi skrivervalg for rapporter</span><span class="sxs-lookup"><span data-stu-id="c4116-103">Specify Printer Selection for Reports</span></span>
-<span data-ttu-id="c4116-104">Denne siden er tom, fordi du ikke har satt opp bestemte skrivere for bestemte rapporter.</span><span class="sxs-lookup"><span data-stu-id="c4116-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="c4116-105">Vi arbeider med å løse dette.</span><span class="sxs-lookup"><span data-stu-id="c4116-105">We are working on solving this.</span></span>
+# <a name="specify-printer-selection-for-reports"></a><span data-ttu-id="7fb64-103">Angi skrivervalg for rapporter</span><span class="sxs-lookup"><span data-stu-id="7fb64-103">Specify Printer Selection for Reports</span></span>
+<span data-ttu-id="7fb64-104">Denne siden er tom, fordi du ikke har satt opp bestemte skrivere for bestemte rapporter.</span><span class="sxs-lookup"><span data-stu-id="7fb64-104">This page is empty because you cannot yet set up specific printers for specific reports.</span></span> <span data-ttu-id="7fb64-105">Vi arbeider med å løse dette.</span><span class="sxs-lookup"><span data-stu-id="7fb64-105">We are working on solving this.</span></span>
 
-<span data-ttu-id="c4116-106">I mellomtiden, når du vil skrive ut en rapport, må du laste ned rapporten som et PDF-dokument først ved å velge **Send til**-knappen.</span><span class="sxs-lookup"><span data-stu-id="c4116-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="c4116-107">Du kan deretter velge hvilken type fil du laster ned rapporten som, og her du skal velge **PDF-dokument**.</span><span class="sxs-lookup"><span data-stu-id="c4116-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="c4116-108">Nå kan du enten åpne i PDF-dokumentet høyre plassering og skriver det ut, eller lagre det og skrive det ut senere.</span><span class="sxs-lookup"><span data-stu-id="c4116-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
+<span data-ttu-id="7fb64-106">I mellomtiden, når du vil skrive ut en rapport, må du laste ned rapporten som et PDF-dokument først ved å velge **Send til**-knappen.</span><span class="sxs-lookup"><span data-stu-id="7fb64-106">In the meantime, when you want to print a report, you have to download the report as a PDF document first by choosing the **Send to** button.</span></span> <span data-ttu-id="7fb64-107">Du kan deretter velge hvilken type fil du laster ned rapporten som, og her du skal velge **PDF-dokument**.</span><span class="sxs-lookup"><span data-stu-id="7fb64-107">Then you select the type of file to download the report as, and here you should pick **PDF Document**.</span></span> <span data-ttu-id="7fb64-108">Nå kan du enten åpne i PDF-dokumentet høyre plassering og skriver det ut, eller lagre det og skrive det ut senere.</span><span class="sxs-lookup"><span data-stu-id="7fb64-108">Now, you can either open the PDF document right-away and print it, or save it and print it later.</span></span>
 
 <!--
 
@@ -45,8 +45,7 @@ The following table describes the combination of values to specify when you set 
 |Print a specific report to a specific printer for a specific user|Specify values in all three fields.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="c4116-109">Se også</span><span class="sxs-lookup"><span data-stu-id="c4116-109">See Also</span></span>
-<span data-ttu-id="c4116-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="c4116-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="c4116-111">Kjøre kjørsler</span><span class="sxs-lookup"><span data-stu-id="c4116-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
-[<span data-ttu-id="c4116-112">Sende dokumenter i e-post</span><span class="sxs-lookup"><span data-stu-id="c4116-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  
-
+## <a name="see-also"></a><span data-ttu-id="7fb64-109">Se også</span><span class="sxs-lookup"><span data-stu-id="7fb64-109">See Also</span></span>
+<span data-ttu-id="7fb64-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="7fb64-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="7fb64-111">Kjøre kjørsler</span><span class="sxs-lookup"><span data-stu-id="7fb64-111">Run Batch Jobs</span></span>](ui-how-run-batch-jobs.md)  
+[<span data-ttu-id="7fb64-112">Sende dokumenter i e-post</span><span class="sxs-lookup"><span data-stu-id="7fb64-112">Send Documents by Email</span></span>](ui-how-send-documents-email.md)  

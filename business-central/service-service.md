@@ -1,52 +1,51 @@
 ---
-title: "Servicehåndtering | Microsoft-dokumentasjon"
-description: "Lær å bruke funksjonene som er utformet for å støtte serviceoperasjoner på verkstedet og ute hos kunder."
+title: Servicehåndtering | Microsoft-dokumentasjon
+description: Lær å bruke funksjonene som er utformet for å støtte serviceoperasjoner på verkstedet og ute hos kunder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 06f2f8d56d16ef1177bf49e30795cf41af69b8bd
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802875"
 ---
-# <a name="service-management"></a><span data-ttu-id="3b0f2-103">Servicehåndtering</span><span class="sxs-lookup"><span data-stu-id="3b0f2-103">Service Management</span></span>
+# <a name="service-management"></a><span data-ttu-id="3f1e3-103">Servicehåndtering</span><span class="sxs-lookup"><span data-stu-id="3f1e3-103">Service Management</span></span>
 > [!NOTE]
-> <span data-ttu-id="3b0f2-104">Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-104">Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience.</span></span> <span data-ttu-id="3b0f2-105">Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="3b0f2-105">For more information, see [Changing Which Features are Displayed](ui-experiences.md).</span></span>
+> <span data-ttu-id="3f1e3-104">Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-104">Functionality described in this topic and sub topics is only visible in the user interface if you have the **Premium** experience.</span></span> <span data-ttu-id="3f1e3-105">Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).</span><span class="sxs-lookup"><span data-stu-id="3f1e3-105">For more information, see [Changing Which Features are Displayed](ui-experiences.md).</span></span>
 
-<span data-ttu-id="3b0f2-106">Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-106">Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue.</span></span> <span data-ttu-id="3b0f2-107">Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[d365fin](includes/d365fin_md.md)] har et sett med verktøy som kan være til hjelp.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-107">However, managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help.</span></span> <span data-ttu-id="3b0f2-108">Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-108">These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.</span></span>  
+<span data-ttu-id="3f1e3-106">Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-106">Providing ongoing service to customers is an important part of any business and one that can be a source of customer satisfaction and loyalty, in addition to revenue.</span></span> <span data-ttu-id="3f1e3-107">Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[d365fin](includes/d365fin_md.md)] har et sett med verktøy som kan være til hjelp.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-107">However, managing and tracking service is not always easy, and [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a set of tools to help.</span></span> <span data-ttu-id="3f1e3-108">Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-108">These tools are designed to support repair shop and field service operations, and can be used in business scenarios such as complex customer service distribution systems, industrial service environments with bills of materials, and high volume dispatching of service technicians with requirements for spare parts management.</span></span>  
 
- <span data-ttu-id="3b0f2-109">Med disse verktøyene kan du oppnå følgende:</span><span class="sxs-lookup"><span data-stu-id="3b0f2-109">With these tools you can accomplish the following:</span></span>  
+ <span data-ttu-id="3f1e3-109">Med disse verktøyene kan du oppnå følgende:</span><span class="sxs-lookup"><span data-stu-id="3f1e3-109">With these tools you can accomplish the following:</span></span>  
 
-* <span data-ttu-id="3b0f2-110">Planlegge servicebesøk og definere serviceordrer.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-110">Schedule service calls and set up service orders.</span></span>  
-* <span data-ttu-id="3b0f2-111">Spore reparasjonsdeler og leveranser.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-111">Track repair parts and supplies.</span></span>  
-* <span data-ttu-id="3b0f2-112">Tilordne servicepersonell basert på kompetanse og tilgjengelighet.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-112">Assign service personnel based on skill and availability.</span></span>  
-* <span data-ttu-id="3b0f2-113">Opprett kostnadsoverslag og servicefakturaer.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-113">Provide service estimates and service invoices.</span></span>  
+* <span data-ttu-id="3f1e3-110">Planlegge servicebesøk og definere serviceordrer.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-110">Schedule service calls and set up service orders.</span></span>  
+* <span data-ttu-id="3f1e3-111">Spore reparasjonsdeler og leveranser.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-111">Track repair parts and supplies.</span></span>  
+* <span data-ttu-id="3f1e3-112">Tilordne servicepersonell basert på kompetanse og tilgjengelighet.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-112">Assign service personnel based on skill and availability.</span></span>  
+* <span data-ttu-id="3f1e3-113">Opprett kostnadsoverslag og servicefakturaer.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-113">Provide service estimates and service invoices.</span></span>  
 
-<span data-ttu-id="3b0f2-114">I tillegg kan du standardisere koding, definere kontrakter, implementere et rabattprinsipp og opprette rutekart for servicepersonell.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-114">In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.</span></span>  
+<span data-ttu-id="3f1e3-114">I tillegg kan du standardisere koding, definere kontrakter, implementere et rabattprinsipp og opprette rutekart for servicepersonell.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-114">In addition, you can standardize coding, set up contracts, implement a discounting policy, and create route maps for service employees.</span></span>  
 
-<span data-ttu-id="3b0f2-115">Det er vanligvis to aspekter ved service: konfigurere og sette opp systemet, og bruke det til prissetting, kontrakter, ordrer, fordeling av servicepersonell, og jobbskjemaer.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-115">In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and job scheduler.</span></span>  
+<span data-ttu-id="3f1e3-115">Det er vanligvis to aspekter ved service: konfigurere og sette opp systemet, og bruke det til prissetting, kontrakter, ordrer, fordeling av servicepersonell, og jobbskjemaer.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-115">In general, there are two aspects to service management: configuring and setting up your system, and using it for pricing, contracts, orders, service personnel dispatch, and job scheduler.</span></span>  
 
-<span data-ttu-id="3b0f2-116">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-116">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
+<span data-ttu-id="3f1e3-116">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-116">The following table describes a sequence of tasks, with links to the topics that describe them.</span></span>   
 
-|<span data-ttu-id="3b0f2-117">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="3b0f2-117">**To**</span></span>|<span data-ttu-id="3b0f2-118">**Se**</span><span class="sxs-lookup"><span data-stu-id="3b0f2-118">**See**</span></span>|  
+|<span data-ttu-id="3f1e3-117">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="3f1e3-117">**To**</span></span>|<span data-ttu-id="3f1e3-118">**Se**</span><span class="sxs-lookup"><span data-stu-id="3f1e3-118">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="3b0f2-119">Sette opp Service, inklusive feilkoder, prinsipper, standarddokumenter og maler.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-119">Set up Service Management, including fault codes, policies, default documents and templates.</span></span>|[<span data-ttu-id="3b0f2-120">Konfigurere servicehåndtering</span><span class="sxs-lookup"><span data-stu-id="3b0f2-120">Setting Up Service Management</span></span>](service-setup-service.md)|  
-|<span data-ttu-id="3b0f2-121">Håndter serviceprissetting, oppretting av servicevarer og forstå hvordan du kan overvåker fremdriften.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-121">Manage service pricing, create service items, and understand how to monitor progress.</span></span>|[<span data-ttu-id="3b0f2-122">Planlegge service</span><span class="sxs-lookup"><span data-stu-id="3b0f2-122">Planning Service</span></span>](service-plan-service.md)|  
-|<span data-ttu-id="3b0f2-123">Opprett og håndter avtaler mellom deg og kundene.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-123">Create and manage contractual agreements between you and your customers.</span></span>|[<span data-ttu-id="3b0f2-124">Oppfylle servicekontrakter</span><span class="sxs-lookup"><span data-stu-id="3b0f2-124">Fulfilling Service Contracts</span></span>](service-fulfill-service-contracts.md)|  
-|<span data-ttu-id="3b0f2-125">Gi service til kunder og fakturer serviceordrer.</span><span class="sxs-lookup"><span data-stu-id="3b0f2-125">Provide service to customers, and invoice service orders.</span></span>|[<span data-ttu-id="3b0f2-126">Yte service</span><span class="sxs-lookup"><span data-stu-id="3b0f2-126">Delivering Service</span></span>](service-deliver-service.md)|  
+|<span data-ttu-id="3f1e3-119">Sette opp Service, inklusive feilkoder, prinsipper, standarddokumenter og maler.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-119">Set up Service Management, including fault codes, policies, default documents and templates.</span></span>|[<span data-ttu-id="3f1e3-120">Konfigurere servicehåndtering</span><span class="sxs-lookup"><span data-stu-id="3f1e3-120">Setting Up Service Management</span></span>](service-setup-service.md)|  
+|<span data-ttu-id="3f1e3-121">Håndter serviceprissetting, oppretting av servicevarer og forstå hvordan du kan overvåker fremdriften.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-121">Manage service pricing, create service items, and understand how to monitor progress.</span></span>|[<span data-ttu-id="3f1e3-122">Planlegge service</span><span class="sxs-lookup"><span data-stu-id="3f1e3-122">Planning Service</span></span>](service-plan-service.md)|  
+|<span data-ttu-id="3f1e3-123">Opprett og håndter avtaler mellom deg og kundene.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-123">Create and manage contractual agreements between you and your customers.</span></span>|[<span data-ttu-id="3f1e3-124">Oppfylle servicekontrakter</span><span class="sxs-lookup"><span data-stu-id="3f1e3-124">Fulfilling Service Contracts</span></span>](service-fulfill-service-contracts.md)|  
+|<span data-ttu-id="3f1e3-125">Gi service til kunder og fakturer serviceordrer.</span><span class="sxs-lookup"><span data-stu-id="3f1e3-125">Provide service to customers, and invoice service orders.</span></span>|[<span data-ttu-id="3f1e3-126">Yte service</span><span class="sxs-lookup"><span data-stu-id="3f1e3-126">Delivering Service</span></span>](service-deliver-service.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="3b0f2-127">Se også</span><span class="sxs-lookup"><span data-stu-id="3b0f2-127">See Also</span></span>  
-<span data-ttu-id="3b0f2-128">[Håndtere fordringer](receivables-manage-receivables.md) </span><span class="sxs-lookup"><span data-stu-id="3b0f2-128">[Managing Receivables](receivables-manage-receivables.md) </span></span>  
-<span data-ttu-id="3b0f2-129">[Prosjekter](projects-how-create-jobs.md) </span><span class="sxs-lookup"><span data-stu-id="3b0f2-129">[Jobs](projects-how-create-jobs.md) </span></span>  
-<span data-ttu-id="3b0f2-130">[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span><span class="sxs-lookup"><span data-stu-id="3b0f2-130">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="3f1e3-127">Se også</span><span class="sxs-lookup"><span data-stu-id="3f1e3-127">See Also</span></span>  
+<span data-ttu-id="3f1e3-128">[Håndtere fordringer](receivables-manage-receivables.md) </span><span class="sxs-lookup"><span data-stu-id="3f1e3-128">[Managing Receivables](receivables-manage-receivables.md) </span></span>  
+<span data-ttu-id="3f1e3-129">[Prosjekter](projects-how-create-jobs.md) </span><span class="sxs-lookup"><span data-stu-id="3f1e3-129">[Jobs](projects-how-create-jobs.md) </span></span>  
+<span data-ttu-id="3f1e3-130">[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span><span class="sxs-lookup"><span data-stu-id="3f1e3-130">[Welcome to [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)</span></span>
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-
