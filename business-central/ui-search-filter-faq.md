@@ -1,6 +1,6 @@
 ---
-title: "Om søking og filtrering i Business Central"
-description: "Svar på vanlige spørsmål om søking og filtrering."
+title: Om søking og filtrering i Business Central
+description: Svar på vanlige spørsmål om søking og filtrering.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2018
 ms.author: mikebc
+ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
-ms.openlocfilehash: 099a2a800cb71e7a0b8dd02901928b43dfa199ca
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852059"
 ---
-
-# <a name="about-searching-and-filtering-in-included365finincludesd365finmdmd"></a>Om søking og filtrering i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="searching-and-filtering-faq"></a>Vanlige spørsmål om søk og filtrering
 Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
 
 ## <a name="is-there-a-difference-between-searching-and-filtering"></a>Er det forskjell mellom søking og filtrering?
@@ -30,7 +29,7 @@ Ja.
 Søking og filtrering har blitt svært optimalisert for brukere som foretrekker musfri samhandling for å arbeide effektivt med data. Det finnes en rekke hurtigtaster som kan brukes i rekkefølge til å arbeide raskt. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Er filtreringsruten tilgjengelig i alle lister?
-Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet på siden, for eksempel forslag og listesider, inkludert lister som er tilgjengelig fra navigasjonslinjen. Filtreringsruten er foreløpig ikke blitt tilgjengelig for innebygde lister, for eksempel salgslinjer i salgsordrer, eller for lister med dynamisk kolonner (ofte referert til som matrisesider). 
+Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet på siden, for eksempel forslag og listesider, inkludert lister som er tilgjengelig fra navigasjonslinjen. Filtreringsruten er foreløpig ikke blitt tilgjengelig for innebygde lister, for eksempel salgslinjer i salgsordrer, eller for lister med dynamisk kolonner (ofte referert til som matrisesider).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvordan lagrer jeg filtre?
 
@@ -57,4 +56,3 @@ Som en lokal administrator kan du øke tidsgrensen for søk ved å endre innstil
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 [Sortere, søke etter og filtrere i oversikter](ui-enter-criteria-filters.md)
-

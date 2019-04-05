@@ -1,23 +1,23 @@
 ---
 title: Importere betalingsreturdata
-description: "Mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn."
+description: Mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: b2115995f60a8ab3be9d05dd963c9a4e56833d0e
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827025"
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
@@ -66,4 +66,3 @@ Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les i
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-

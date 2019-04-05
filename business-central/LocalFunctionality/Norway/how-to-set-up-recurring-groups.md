@@ -1,23 +1,23 @@
 ---
 title: Definere gjentakelsesgrupper
-description: "I feltet Kode for gjentakelsesgruppe på Rammebestillinger-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller."
+description: I feltet Kode for gjentakelsesgruppe på Rammebestillinger-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: d933e5f2ecd916bc63dfce186ba38ce11286df87
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826962"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
@@ -54,4 +54,3 @@ I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden definer
  [Gjentakelsesordrer](recurring-orders.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)
-

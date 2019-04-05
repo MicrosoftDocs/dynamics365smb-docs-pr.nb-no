@@ -1,8 +1,8 @@
 ---
-title: "Behandle inngående og utgående KI-transaksjoner | Microsoft-dokumentasjon"
-description: "Konserninterne transaksjoner du mottar fra de konserninterne partnerne dine, er oppført i den konserninterne innboksen der du behandler dem manuelt eller automatisk."
+title: Behandle inngående og utgående KI-transaksjoner | Microsoft-dokumentasjon
+description: Konserninterne transaksjoner du mottar fra de konserninterne partnerne dine, er oppført i den konserninterne innboksen der du behandler dem manuelt eller automatisk.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c7bf0c1c22d2f43220d9b101a1a54757add900e9
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8432eea92738682bbdab55f8c3f6dae16f401149
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853284"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
@@ -43,7 +43,7 @@ Du kan bruke feltet **Vis transaksjonskilde** til å filtrere siden **Konsernint
 #### <a name="returned-from-intercompany-partner"></a>Returnert fra konsernintern partner  
  Hvis transaksjonen ble avvist av den konserninterne partneren, kan du bare avbryte transaksjonen i innboksen. Deretter må du opprette korrigeringslinjer eller reversere kladden eller bilaget i selskapet.  
 
-## <a name="re-creating-inbox-entries"></a>Opprette innboksposter på nytt  
+## <a name="recreating-inbox-entries"></a>Opprette innboksposter på nytt  
  Hvis du godtok en transaksjon i innboksen, men deretter slettet bilaget eller kladden i stedet for å bokføre det/den, kan du opprette innboksposten på nytt og godta den på nytt.  
 
 ## <a name="getting-an-overview-of-intercompany-transactions-for-a-period"></a>Få oversikt over konserninterne transaksjoner for en periode  
@@ -105,4 +105,3 @@ Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

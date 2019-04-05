@@ -1,23 +1,23 @@
 ---
 title: Koble fra poster til ekstern informasjon eller eksterne programmer | Microsoft-dokumentasjon
-description: "Legg til en hyperkobling i et dokument eller et webområde til en bestemt post, for eksempel en kunde eller et dokument."
+description: Legg til en hyperkobling i et dokument eller et webområde til en bestemt post, for eksempel en kunde eller et dokument.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 3fbd9fa2e68ab84c7abb82bdef42b10e9e2cc93e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8927d2ca670b3faa38cd03ea10ae524e595721ad
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853307"
 ---
-# <a name="adding-links-to-websites-documents-or-programs-on-records"></a>Legge til koblinger i webområder, dokumenter eller programmer i poster
+# <a name="add-links-to-websites-documents-or-programs-on-records"></a>Legge til koblinger i webområder, dokumenter eller programmer i poster
 Du kan legge til en kobling i et eksternt dokument, et webområde eller et program i en bestemt post som kunde, dokument eller ordre. Du kan også legge til en kobling som du kan velge for å åpne en ny, tom e-post til en bestemt mottaker. Kortsiden for noen poster, for eksempel kunde- og leverandørkort, har et **Hjemmeside**-felt der du kan angi en nettadresse (URL). Du kan bruke metoden som er beskrevet i denne artikkelen, for å inkludere andre koblinger.
 
 Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du kan skanne og lagre dem som PDF-filer på et SharePoint-område. Deretter kan du opprette en kobling fra en kjøpsfaktura i [!INCLUDE[d365fin_md](includes/d365fin_md.md)] til den tilsvarende fakturaen på SharePoint. Du kan også opprette en kobling fra et varekort til den tilsvarende siden i leverandørens elektroniske katalog.
@@ -35,7 +35,7 @@ Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du 
     -   Hvis du vil koble til en fil på datamaskinen eller nettverket, angir du fullstendig bane og filnavn som **C:My Documentsinvoice1.doc**.
     -   Hvis du vil koble til et webområde, angir du Internett-adressen (URL-adressen), for eksempel **www.microsoft.com**.
     -   Hvis du vil koble til et webområde, angir du Internett-adressen (URL-adressen), for eksempel **www.microsoft.com**.
-    -   Hvis du vil koble til et program, angir du en bestemt streng for å åpne programmet. Hvis du for eksempel vil åpne OneNote på en bestemt side, skriver du inn **C:My Documentstest.one**. Eller hvis du vil åpne Outlook med en ny, tom e-post til et bestemt alias, skriver du inn **mailto:testalias**.  
+    -   Hvis du vil koble til et program, angir du en bestemt streng for å åpne programmet. Hvis du for eksempel vil åpne OneNote på en bestemt side, skriver du inn **onenote:///C:My Documentstest.one**. Eller hvis du vil åpne Outlook med en ny, tom e-post til et bestemt alias, skriver du inn **mailto:testalias**.  
 
 5.  Fyll ut **Beskrivelse**-feltet med informasjon om koblingen.  
 
@@ -55,4 +55,3 @@ Hvis du sletter én enkelt post, for eksempel en ordrelinje, en ordre eller en k
 
 ## <a name="see-also"></a>Se også  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

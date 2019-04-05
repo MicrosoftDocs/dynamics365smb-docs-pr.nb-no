@@ -1,25 +1,25 @@
 ---
-title: "Gjennomgang – Spore serie-/partinumre | Microsoft-dokumentasjon"
-description: "Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må unngå at påvirkede varer leveres til kunder. Hvis defekte varer allerede er levert, må du spore hvem som har mottatt dem, og om nødvendig tilbakekalle varene."
+title: Gjennomgang – Spore serie-/partinumre | Microsoft-dokumentasjon
+description: Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må unngå at påvirkede varer leveres til kunder. Hvis defekte varer allerede er levert, må du spore hvem som har mottatt dem, og om nødvendig tilbakekalle varene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: e6354b57e14af89c0c998447ff09d43e3902d0b4
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: a37561ebf8b9572f69e0ce3c3b83613b98a1098f
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853166"
 ---
-# <a name="walkthrough-tracing-serial-lot-numbers"></a>Gjennomgang: spore serie-/partinumre
+# <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
 **Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
 
@@ -50,7 +50,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
 -   [!INCLUDE[d365fin](includes/d365fin_md.md)]-selskapet.  
--   Opprette nye varer og flere handelstransaksjoner ved å følge fremgangsmåten under "Klargjøre eksempeldataene", senere i denne gjennomgangen.  
+-   Opprette nye varer og flere handelstransaksjoner ved å følge [Klargjøre eksempeldataene](walkthrough-tracing-serial-lot-numbers.md#prepare-sample-data).  
 
 ## <a name="story"></a>Hovedscenario  
 John, kvalitetskontrolløren, følger opp en ordreretur av vare 1002, Racersykkel. Kunden, Møbelhandleren A/S, klaget over at rammen hadde sprukne sveisesømmer. De tekniske kvalitetskontrollørene har bekreftet at racersykkelrammen for den returnerte sykkelen er defekt. Kvalitetskontrolløren må nå finne ut følgende:  
@@ -298,4 +298,3 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
-

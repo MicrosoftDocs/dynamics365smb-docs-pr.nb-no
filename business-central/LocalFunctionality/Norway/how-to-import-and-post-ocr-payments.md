@@ -1,23 +1,23 @@
 ---
-title: "Importere og bokføre OCR-betalinger"
-description: "Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre noen forberedelser."
+title: Importere og bokføre OCR-betalinger
+description: Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre noen forberedelser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: bf26be9f2bc2fff2bec1f369de2ad70f4247ac0d
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "827001"
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
 Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følgende forberedelser:  
@@ -55,4 +55,3 @@ OCR-betalingsfilene bokføres i innbetalingskladden.
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   
  [Arbeide med finanskladder](../../ui-work-general-journals.md)   
  [Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)
-

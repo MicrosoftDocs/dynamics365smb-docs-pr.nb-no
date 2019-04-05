@@ -1,8 +1,8 @@
 ---
-title: "Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-dokumentasjon"
-description: "Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Business Central."
+title: Bruke generelle funksjoner på tvers av forretningsområder | Microsoft-dokumentasjon
+description: Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 11/21/2018
+ms.date: 03/13/2019
 ms.author: sgroespe
+ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 6a42e8039d4b13deac72caf178f67113e582ed36
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853097"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
 
 For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
+
+> [!NOTE]
+> Du kan bruke generelle grensesnittfunksjoner hver dag for å samhandle med systemet, i tillegg til de forretningsrelaterte funksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Arbeide med Business Central](ui-work-product.md).
 
 Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til emnene som beskriver dem.
 
@@ -35,7 +38,10 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Legge til utvidet varetekst](ui-how-define-ext-text.md) |
 |Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver for deg selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
 |Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
-|Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)| 
+|Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)|
+|Forstå hva som skjer når du velger **Bokfør**-handlingen.|[Bokføre dokumenter og kladder](ui-post-documents-journals.md)|
+|Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
+| Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
 |Definere og bruke arbeidsflyter som kobler oppgaver som utføres av forskjellige brukere eller av systemet, for eksempel automatisk bokføring. Å be om og gi godkjenning til å opprette eller bokføre dokumenter er typiske arbeidsflyttrinn.|[Arbeidsflyt](across-workflow.md)|
@@ -46,4 +52,3 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 [Administrasjon](admin-setup-and-administration.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

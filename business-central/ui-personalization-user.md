@@ -1,8 +1,8 @@
 ---
 title: Tilpasse sider | Microsoft-dokumentasjon
-description: "Finn ut hvordan du kan tilpasse brukergrensesnittet slik at det passer til din arbeidsmåte."
+description: Finn ut hvordan du kan tilpasse brukergrensesnittet slik at det passer til din arbeidsmåte.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,16 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 65bd6d24395990d2b92b7eeea0c7b208f7311eef
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: df4c40e38b3f7784f9f7603cddbfd9ac8681d952
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852312"
 ---
 # <a name="personalizing-your-workspace"></a>Tilpasse arbeidsområdet
-<!--NAV in the Web client--> Du kan *tilpasse* arbeidsområdet slik at det passer til arbeidet og preferansene ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
+<!--NAV in the Web client-->
+Du kan *tilpasse* arbeidsområdet slik at det passer til arbeidet og preferansene ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
 
 Avhengig av typen side og hva den inneholder, kan du gjøre følgende:
 
@@ -29,7 +30,10 @@ Avhengig av typen side og hva den inneholder, kan du gjøre følgende:
 -   Endre den fryste ruten for kolonner i en liste. Den fryste ruten låser én eller flere kolonner til venstre for en liste slik at de alltid er tilgjengelige når du ruller vannrett.
 -   Justere bredden til kolonner i en liste.
 -   Flytte og fjerne bunker (fliser).
--   Flytte og fjerne deler. Deler er ytterligere inndelinger eller områder på en side som for eksempel inneholder flere felt, en annen side, et diagram eller fliser.  
+-   Flytte og fjerne deler. Deler er ytterligere inndelinger eller områder på en side som for eksempel inneholder flere felt, en annen side, et diagram eller fliser.
+
+> [!NOTE]
+> I tillegg til hva brukere kan tilpasse kan administratorer og superbrukere overstyre brukeres tilpasninger og definere funksjonene som er tilgjengelige i alle eller bestemte selskaper. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central](ui-customizing-overview.md). 
 
 ## <a name="to-personalize-a-page"></a>Slik tilpasser du en side
 
@@ -79,4 +83,3 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-

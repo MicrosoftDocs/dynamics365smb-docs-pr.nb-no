@@ -1,7 +1,7 @@
 ---
-title: "Håndtere lager | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret."
-documentationcenter: 
+title: Håndtere lager | Microsoft-dokumentasjon
+description: Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: dc32b5e210332fe0fd73b6423441cb66a5c171fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 1f79c20cb68ff1802bb97914a7ac1e458ca28f3a
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852473"
 ---
-
 # <a name="inventory"></a>Lager
 Du må opprette et varekort av typen **Lager** for hvert fysiske produkt du handler i. Varer du tilbyr til kunder, men ikke har på lager, kan du registrere som katalogvarer, som du kan konvertere til lagervarer når det er nødvendig. Du kan øke eller redusere antall varer på lager ved å bokføre direkte til varepostene, for eksempel etter en fysisk opptelling eller hvis du ikke registrerer kjøp.
 
@@ -45,7 +44,9 @@ Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å
 |Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monterings- eller produksjonsstykklister.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|
 |Overføre varer mellom lokasjoner med overføringsordrer for å administrere lageraktiviteter, eller med varereklassifiseringskladden.|[Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)|
 |Reserver lagervarer eller inngående varer for ordrer, bestillinger, serviceordrer, monteringsordrer eller produksjonsordrer.|[Reservere varer](inventory-how-to-reserve-items.md)|
+|Sett opp en leverandørs egen beskrivelse av en vare, slik at du enkelt kan sette inn varebeskrivelser på handelsdokumenter.|[Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)|
 |Tilordne serie- eller partinumre til en utgående eller inngående bilags- eller kladdelinje, for eksempel for å spore varer i tilfelle tilbakekallinger.|[Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)|
+|Sett opp en leverandørs egen beskrivelse av en vare på varekortet, slik at du raskt kan sette inn varebeskrivelser på handelsdokumenter.|[Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)|
 |Finn ut hvor eventuelle serie- eller partinummer ble brukt i dets forsyningskjede, for eksempel i tilbakekallingssituasjoner.|[Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)|
 |Blokker varer fra å bli lagt inn på salgs- eller bestillingslinjene eller fra å bli bokført i en transaksjon.|[Blokker varer](inventory-how-block-items.md)|
 |Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
@@ -58,4 +59,3 @@ Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

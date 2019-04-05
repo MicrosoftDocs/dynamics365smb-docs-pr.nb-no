@@ -4,15 +4,15 @@ description: I den norske versjonen av Business Central kan mva-behandlingsinfor
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6cb6c1df97113ffc093363828c927c3fa9f8a471
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826993"
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder.. Tabellen nedenfor viser norske standard mva-koder.  
@@ -75,4 +75,3 @@ Bokføringstypen behandles på to måter, avhengig av verdien i feltet **Test bo
 
 ## <a name="see-also"></a>Se også  
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
-

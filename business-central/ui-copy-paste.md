@@ -10,15 +10,14 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6f731940714a754275611026749afa4d79a94443
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: e924eeb10e98b81035837ca498ec4f1a7b28bf60
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853074"
 ---
-
-# <a name="copying-and-pasting-in-included365finincludesd365finmdmd"></a>Kopiere og lime inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="copying-and-pasting"></a>Kopiere og lime inn
 Du kan kopiere en eller flere rader fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post). Kort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS).
 
 Det finnes flere tastatursnarveier for å kopiere og lime inn som sparer tid når du registrerer data. Hvis du vil ha mer informasjon om disse, kan du se [Hurtigtaster](keyboard-shortcuts.md#CopyRows).
@@ -72,4 +71,3 @@ Når du limer inn i [!INCLUDE[d365fin](includes/d365fin_md.md)], kontrolleres hv
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
-

@@ -1,23 +1,23 @@
 ---
-title: "Gjennomgang – Selge, montere og levere sett | Microsoft-dokumentasjon"
-description: "Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren."
+title: Gjennomgang – Selge, montere og levere sett | Microsoft-dokumentasjon
+description: Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
-ms.openlocfilehash: b1c0f2549420bec5efc8f224f88f46d8c5874968
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/31/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852703"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -27,7 +27,7 @@ Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produ
 
 Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-antall, både i grunnleggende og i avanserte lagerkonfigurasjoner. Når medarbeidere som er ansvarlige for montering, er ferdige med monteringen av deler av eller hele montere-til-ordre-antallet, registrerer de dette i feltet **Levere (antall)** på lagerleveringslinjen, i avanserte oppsett, og velger deretter **Bokfør følgeseddel**. Resultatet er at den tilsvarende monteringsavgangen bokføres, inkludert det relaterte komponentforbruket, og en følgeseddel for antallet bokføres for den tilknyttede ordren. Denne gjennomgangen illustrerer den avanserte lagerprosessen.  
 
-I grunnleggende lageroppsett bokfører den overordnede lagermedarbeideren en lagerplukking for ordrelinjene når et montere-til-ordre-antall er klart til å leveres. Deretter blir det opprettet en lagerflytting for komponentene, og monteringsavgangen og ordreforsendelsen blir bokført. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i Lagerplukk.  
+I grunnleggende lageroppsett bokfører den overordnede lagermedarbeideren en lagerplukking for ordrelinjene når et montere-til-ordre-antall er klart til å leveres. Deretter blir det opprettet en lagerflytting for komponentene, og monteringsavgangen og ordreforsendelsen blir bokført. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
 Denne gjennomgangen viser følgende oppgaver:  
@@ -106,7 +106,7 @@ Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **roduksjonsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Produksjonsoppsett** i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
-Opprett lager for monteringskomponenter ved å følge delen "Klargjøre eksempeldata" i denne gjennomgangen.  
+Opprett lager for monteringskomponenter ved å følge [Klargjøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
 
 ## <a name="story"></a>Hovedscenario  
 Den 23. januar tar ordrebehandleren Susanna en ordre fra Lydeksperten på tre enheter av sett B, som er en ATO-vare. Alle de tre enhetene er tilpasset, og de må inneholde sterke grafikkort og en ekstra RAM-blokk. Diskstasjonene er oppgradert til DWD fordi CD-stasjonene ikke er tilgjengelige. Heidi vet at enhetene kan monteres med en gang, så hun beholder den foreslåtte leveringsdatoen på 23. januar.  
@@ -135,7 +135,7 @@ Sammy pakker ti ATS enheter med de fem ATO-enhetene som Jorunn monterte tidliger
 
 Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## <a name="setting-up-the-sample-data"></a>Konfigurere eksempeldataene  
+## <a name="prepare-sample-data"></a>Klargjøre eksempeldata  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagervarekladder**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bunkenavn**, og velg deretter standardkladden.  
@@ -443,4 +443,3 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
  [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)   
  [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
-

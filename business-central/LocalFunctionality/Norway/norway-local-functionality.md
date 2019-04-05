@@ -7,15 +7,15 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/12/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
 ms.openlocfilehash: 248c69ffca08276f7c8c7f3a98cb41ebcca146df
-ms.contentlocale: nb-no
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826973"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
@@ -75,4 +75,3 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    
-

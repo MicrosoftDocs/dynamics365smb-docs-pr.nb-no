@@ -2,7 +2,7 @@
 title: Transaksjoner mellom selskaper i samme organisasjon | Microsoft-dokumentasjon
 description: Med de konserninterne funksjonene kan du forenkle forretningsprosesser og transaksjoner mellom selskaper i samme organisasjon.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2018
+ms.date: 03/18/2018
 ms.author: sgroespe
+ms.openlocfilehash: 1d707aeec37b3c6c0ee027d0266e9cc386fb5d3a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 8c68e4bd69c854ecd99cfb833c941066d9a805da
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852105"
 ---
 # <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
 Organisasjonen kan bestå av flere selskaper, men har kanskje ikke samme antall regnskapsteam og administrative team. De konserninterne funksjonene lar deg gjøre forretninger med datterselskaper og interne partnerorganisasjoner på samme måte som med eksterne leverandører og kunder. Du angir informasjon om konserninterne transaksjoner bare én gang i de tilhørende dokumentene. Du kan bruke funksjoner du allerede kjenner, for eksempel styring av kjøp og salg. Tilordningsfunksjoner for kontoplanen og dimensjonene hjelper deg med å sikre at informasjonen vises på riktige steder.  
@@ -35,6 +35,8 @@ Når du angir en transaksjon, trenger du ikke å angi kontoene for et individuel
 
  Når du har definert forretningspartnerne som kunder og leverandører i systemet og tilordnet konserninterne partnerkoder til dem, er det mulig å utveksle konserninterne kjøps- og salgsdokumenter, inkludert varer og varegebyrer. De konserninterne funksjoenen tillater konserninterne bokføringer transaksjoner mellom selskaper mellom flere -databaser, for eksempel i forskjellige land/regioner, i tillegg til forskjellige valutaer, kontoplaner, dimensjoner og varenummereringer.  
 
+Konsolidere økonomisk data kan være spesielt aktuelt i forbindelse med konserninterne prosesser. Hvis du vil ha mer informasjon, se [Konsolidere finansielle data fra flere selskap](finance-consolidated-company-reporting.md).
+
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
  |Til |Se|
@@ -50,5 +52,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

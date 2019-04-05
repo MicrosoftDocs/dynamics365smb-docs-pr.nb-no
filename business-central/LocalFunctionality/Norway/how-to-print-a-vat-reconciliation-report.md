@@ -1,23 +1,23 @@
 ---
 title: Skrive ut en MVA-avstemmingsrapport
-description: "Rapporten MVA-avstemming viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer."
+description: Rapporten MVA-avstemming viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 78cb55d0c53db5b0a8252ffae6316a537be25459
 ms.openlocfilehash: 05108db5783d18c7d5bd7b5ebc549fd0fcd76fce
-ms.contentlocale: nb-no
-ms.lasthandoff: 10/15/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826996"
 ---
 # <a name="print-a-vat-reconciliation-report"></a>Skrive ut en MVA-avstemmingsrapport
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.  
@@ -37,4 +37,3 @@ Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mv
 ## <a name="see-also"></a>Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  [Rapportere mva til skattemyndighetene](../../finance-how-report-vat.md)
-

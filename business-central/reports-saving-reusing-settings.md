@@ -1,6 +1,6 @@
 ---
 title: Bruke og endre lagrede innstillinger i rapporter | Microsoft-dokumentasjon
-description: "Beskriver hvordan du bruker forhåndsdefinerte alternativer og filtre til å tilpasse rapporter og generere riktige data."
+description: Beskriver hvordan du bruker forhåndsdefinerte alternativer og filtre til å tilpasse rapporter og generere riktige data.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: cbbb072c4be3ec41684e426451c394cfa978c390
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 9fd086831c0d145570d87c33c62a003c166aca87
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853120"
 ---
 # <a name="managing-saved-settings-on-reports"></a>Administrere lagrede innstillinger i rapporter
 Når en rapport skal kjøres, ser brukere vanligvis en side der de kan angi bestemte alternativer og filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles rapportforespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon om hvordan lagrede innstillingene brukes, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
 
 Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innstillingene for alle rapporter for alle brukere i firmaet. Du kan tilordne lagrede innstillingene for en rapport til enkeltbrukere eller alle brukerne i firmaet.
 
-<!-- 
+<!--
 ## Apply saved settings to a report
 1. Open the report.
 
@@ -53,5 +53,4 @@ Fra siden **Rapportinnstillinger**-siden kan du:
 > Funksjonen for lagrede innstillinger i rapporter er kun tilgjengelig når [SaveValues-egenskapen](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) for forespørselssiden er satt til `Yes`. **SaveValues**-egenskapen angis i utviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
-[Arbeide med rapporter](ui-work-report.md)  
-
+[Arbeide med rapporter og kjørsler](ui-work-report.md)  

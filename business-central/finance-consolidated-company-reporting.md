@@ -1,7 +1,7 @@
 ---
 title: Konsolidere data fra flere selskaper | Microsoft-dokumentasjon
-description: "Få en oversikt over den økonomiske situasjonen for alle selskapene dine."
-documentationcenter: 
+description: Få en oversikt over den økonomiske situasjonen for alle selskapene dine.
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,16 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2018
+ms.date: 03/11/2019
 ms.author: bholtorf
+ms.openlocfilehash: feda9d1f681c40746db488027fdd8ae1d06a4d94
+ms.sourcegitcommit: 2b2c3b488a610a5d3b51fc8218c40b0b732fddf3
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4208616e0d4d865a2cc113cd888abde8285dc202
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832600"
 ---
-
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten for konsolidert råbalanse i Rollesenter for regnskapsfører gi deg en samlet oversikt over den økonomiske situasjonen.  
 
@@ -56,7 +55,10 @@ Hvis du trenger mer avanserte innstillingene for konsolideringen, kan du definer
 
 1. Logg deg på det konsoliderte selskapet.
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
-3. Velg **Ny**, og fyll deretter ut de obligatoriske feltene.  
+3. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!IMPORTANT]
+> Når du fyller ut feltene **Startdato** og **Sluttdato**, kontrollere at du overholde GAAP-reglene for regnskapsperiodene i konsernet kontra moderselskapet.
 
 Hvis konsernet bruker en fremmed valuta, må du angi hvilken valutakurs som skal brukes i konsolideringen. Du må også angi konsolideringsopplysninger om konsernets finanskonti. Disse prosessene beskrives nedenfor.
 
@@ -120,7 +122,31 @@ Når du har testet dataene, kan du overføre dem til det konsoliderte selskapet.
 1. Logg deg på det konsoliderte selskapet.  
 2. I **Regnskapsfører-rollesenteret** velger du **Kjør konsolidering**.  
 3. Fyll ut de obligatoriske feltene.  
-4. I **Der**-feltet velger du **Selskapsnavn** og velger deretter det konsoliderte selskapet i **er**-feltet.  
+4. I **Der**-feltet velger du **Selskapsnavn** og velger deretter det konsoliderte selskapet i **er**-feltet.
+
+## <a name="to-eliminate-repeated-transactions"></a>Slik fjerner du gjentatte transaksjoner
+Når du har konsolidert alle selskapene, må du finne transaksjoner som er registrert mer enn én gang på tvers av flere selskaper, og deretter postere elimineringsoppføringer for å fjerne dem.
+
+Behandle konsoliderte elimineringer i en manuell prosess. Du kan følge disse trinnene:
+1. Finn transaksjoner som potensielt må justeres, og angi finanskladdelinjer for å fjerne dem.
+2. Kjør rapporten **Konsoliderte elimineringer for finans** for å vurdere resultatet av finanskladdelinjene før bokføringen.
+3. Bokfør justeringstransaksjonene.
+
+Rapporten **Konsoliderte elimineringer for finans** viser en foreløpig råbalanse der du kan simulere konsekvensene av å eliminere postene gjennom å sammenligne postene i det konsoliderte selskapet med elimineringene som er angitt i finanskladden.
+
+For at et konsern skal kunne inngå i rapporten, må det være opprettet på siden **Konsern**, og feltet **Konsolider** må være valgt.
+
+Hver konto skrives ut på en egen linje, i likhet med kontoplanens oppbygning. En konto skrives ikke ut hvis alle beløp på linjen er 0. Følgende opplysningene vises om hver konto:
+
+* Kontonummer
+* Kontonavn.
+* Hvis du har valgt én eller flere konsernkoder i feltet **Konsernkode** på forespørselssiden, vises totalen for det konsoliderte selskapet ekskl. de valgte konsernene og elimineringene. Hvis du ikke har fylt ut feltet **Konsernkode**, vises totalen for det konsoliderte selskapet ekskl. elimineringer.
+* Hvis du har valgt en konsernkode i feltet **Konsernkode** på forespørselssiden, vises totalen for de innleste postene fra konsernet. Hvis du ikke har fylt ut feltet **Konsernkode**, vises totalen for bokførte elimineringer i det konsoliderte selskapet.
+* Totalen for det konsoliderte selskapet med alle konsern og alle bokførte elimineringer.
+* De elimineringer som skal foretas i det konsoliderte selskapet, det vil si poster i den finanskladden som er valgt på forespørselssiden.
+* Bokføringsteksten kopiert fra finanskladden.
+* Det konsoliderte selskapets total etter elimineringen hvis den bokføres.
+
 
 ## <a name="to-export-and-import-consolidated-data-between-databases"></a>Slik eksporterer og importerer du konsoliderte data mellom databaser
 Hvis data for et konsern er i en annen database, må du eksportere dataene til en fil før du kan inkludere dem i konsolideringen. Hvert selskap må eksporteres separat. Til dette formålet brukes kjørselen **Eksporter konsolidering**.  
@@ -138,4 +164,3 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)
-

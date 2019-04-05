@@ -1,6 +1,6 @@
 ---
-title: "Lønnsdatadefinisjoner (NO) | Microsoft-dokumentasjon"
-description: "Denne utvidelsen gjør det enkelt å utveksle data med lønnstjenesteleverandøren i Norge."
+title: Lønnsdatadefinisjoner (NO) | Microsoft-dokumentasjon
+description: Denne utvidelsen gjør det enkelt å utveksle data med lønnstjenesteleverandøren i Norge.
 author: edupont04
 manager: edupont04
 ms.service: dynamics365-business-central
@@ -8,17 +8,16 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 525a86f7a5a57533f9b5664f36776c1d43b79d53
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826945"
 ---
-
 # <a name="the-payroll-data-definitions-no-extension"></a>Utvidelsen Lønnsdatadefinisjoner (NO)
 
 Hvis bedriften din bruker Huldt & Lillevik Lønn - Visma-lønnstjenesteleverandørene i Norge kan utvidelsen **Lønnsdatadefinisjoner (NO)** hjelpe deg med å registrere lønnstransaksjoner fra disse leverandørene raskt og nøyaktig. Utvidelsen inneholder datautvekslingsdefinisjoner som lar deg lese inn lønnstransaksjoner i filer som leverandørene sender til deg. Hvis du vil ha mer informasjon om datautvekslingsdefinisjoner, kan du se [Definere datautvekslingsdefinisjoner](../../across-how-to-set-up-data-exchange-definitions.md).   
@@ -36,4 +35,3 @@ Når du har installert utvidelsen, er neste trinn å angi formatet for lønnsdat
 
 ## <a name="see-also"></a>Se også
 [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
-

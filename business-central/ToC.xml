@@ -278,7 +278,7 @@
     <Node Name="" DisplayName="Håndtere segmenter" Page="marketing-segments.html"/>
     <Node Name="" DisplayName="Registrere samhandlinger" Page="marketing-interactions.html"/>
     <Node Name="" DisplayName="Håndtere salgsmuligheter" Page="marketing-manage-sales-opportunities.html"/>
-    <Node Name="" DisplayName="Behandle kunder og Salg som er opprettet i Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
+    <Node Name="" DisplayName="Behandle kunder og salg som er opprettet i Dynamics 365 for Sales" Page="marketing-integrate-dynamicscrm.html"/>
   </Node>
   <Node Name="" DisplayName="Personal" Page="hr-manage-human-resources.html">
     <Node Name="" DisplayName="Registrere ansattes" Page="hr-how-register-employees.html"/>
@@ -341,7 +341,7 @@
     <Node Name="" DisplayName="Administrere rapport- og dokumentoppsett" Page="ui-manage-report-layouts.html"/>
     <Node Name="" DisplayName="Logge endringer i Business Central" Page="across-log-changes.html"/>
     <Node Name="" DisplayName="Administrere brukere og tillatelser" Page="ui-how-users-permissions.html"/>
-    <Node Name="" DisplayName="Tilpasse Business Central for med utvidelser" Page="ui-extensions.html"/>
+    <Node Name="" DisplayName="Tilpasse Business Central med utvidelser" Page="ui-extensions.html"/>
     <Node Name="" DisplayName="Inngående dokumenter" Page="across-income-documents.html">
       <Node Name="" DisplayName="Konfigurere inngående dokumenter" Page="across-how-setup-income-documents.html"/>
       <Node Name="" DisplayName="Behandle inngående dokumenter" Page="across-process-income-documents.html"/>

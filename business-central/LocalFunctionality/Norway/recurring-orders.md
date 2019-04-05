@@ -1,23 +1,23 @@
 ---
 title: Gjentakelsesordrer
-description: "Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer."
+description: Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 4601c2bf34d2e9f905a00af49f06482d3fba23b4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 48ad453f3b76675d88d33c48d55b54f5e1a31e31
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826975"
 ---
 # <a name="recurring-orders"></a>Gjentakelsesordrer
 Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer. Hvis du for eksempel leverer den samme salgsordren annenhver uke, kan du bruke en rammeordre til å opprette gjentakelsesordrer.  
@@ -30,4 +30,3 @@ Du kan bruke gjentakelsesordrer til å definere en rekke parametere som viser hv
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)   
  [Arbeide med rammeordrer](../../sales-how-to-create-blanket-sales-orders.md)
-

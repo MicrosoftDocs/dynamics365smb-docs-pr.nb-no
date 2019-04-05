@@ -1,6 +1,6 @@
 ---
-title: "Lage økonomirapporter med kontoskjemaer"
-description: "Beskriver hvordan du bruker kontoskjemaer til å opprette ulike visninger og rapporter for å analysere økonomiske resultatdata."
+title: Lage økonomirapporter med kontoskjemaer
+description: Beskriver hvordan du bruker kontoskjemaer til å opprette ulike visninger og rapporter for å analysere økonomiske resultatdata.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/16/2018
+ms.date: 03/01/2019
 ms.author: edupont
+ms.openlocfilehash: 6c6ffd488dc903c2a1142727ce205975e27091b2
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 854cadb176bc79a8506ccff3c13a1e579eb43e85
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852519"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Klargjøre finansrapportering med kontoskjemaer og kontokategorier
 Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er lagret i kontoplanen. Kontoskjemaer analyserer tall på finanskonti og sammenligner faktiske finansposter med finansbudsjettposter. Resultatet vises i diagrammer i rollesenteret, for eksempel ut Kontantstrøm-diagrammet, og i rapporter, for eksempel rapporten Resultatregnskap og Balanse.
@@ -36,7 +36,7 @@ Du kan også sammenligne to eller flere kontoskjemaer og kolonneoppsett ved hjel
 * Definere ulike rapportoppsett og skrive ut rapportene med gjeldende tall.
 
 ## <a name="account-categories"></a>Kontokategorier
-Du kan bruke kontokategoriene til å endre oppsettet for regnskapsoppgjørene. Når du har definert kontokategoriene på siden **Finanskontokategorier** og du velger handlingen **Generer kontoskjemaer**, oppdateres de underliggende kontoskjemaene for kjernefinansrapporter. Neste gang du kjører en av disse rapportene, for eksempel saldoutdrag, legges ny totaler og underoppføringer til, basert på endringene. Hvis du vil ha mer informasjon, kan du se delen Kontokategorier i [Forstå finans og kontoplanen](finance-general-ledger.md).  
+Du kan bruke kontokategoriene til å endre oppsettet for regnskapsoppgjørene. Når du har definert kontokategoriene på siden **Finanskontokategorier** og du velger handlingen **Generer kontoskjemaer**, oppdateres de underliggende kontoskjemaene for kjernefinansrapporter. Neste gang du kjører en av disse rapportene, for eksempel saldoutdrag, legges ny totaler og underoppføringer til, basert på endringene. Se [Kontokategorier](finance-general-ledger.md#account-categories) for mer informasjon.  
 
 ## <a name="to-create-a-new-account-schedule"></a>Opprette et nytt kontoskjema  
 Du bruker kontoskjemaer til å analysere tall på finanskonti eller til å sammenligne faktiske finansposter med finansbudsjettposter. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene.
@@ -50,10 +50,10 @@ Siden **Kto.skjemaoversikt** er der du kan forhåndsvise den økonomiske rapport
 3. Du kan også velge handlingen **Kopier kontoskjema**, fylle ut de to feltene, og deretter velge **OK**.
 4. Fyll ut feltene etter behov. I feltet **Standard kolonneoppsett** velger du et eksisterende oppsett. Det kan endres senere om du vil.
 
-    Du bruker kolonneoppsett til å definere kolonner for ulike parametere som finansielle data i radene vises etter. Du kan for eksempel utforme et kolonneoppsett for å sammenligne bevegelse og saldo for samme periode i år og i fjor, med fire kolonner. Hvis du vil ha mer informasjon, kan du se delen "Redigere et kolonneoppsett".
+    Du bruker kolonneoppsett til å definere kolonner for ulike parametere som finansielle data i radene vises etter. Du kan for eksempel utforme et kolonneoppsett for å sammenligne bevegelse og saldo for samme periode i år og i fjor, med fire kolonner. Hvis du vil ha mer informasjon, kan du se [Redigere et kolonneoppsett](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Velg handlingen **Rediger kontoskjema**.
-6. Opprett en rad for hvert økonomiske element som du vil skal vises i rapporten, for eksempel en rad for gjeldende aktiva og en ny rad for aktiva. For inspirasjon kan du se eksisterende kontoskjemaer i demonstrasjonsselskapet CRONUS.
+6. Opprett en rad for hvert økonomiske element som du vil skal vises i rapporten, for eksempel en rad for gjeldende aktiva og en ny rad for aktiva. For inspirasjon kan du se eksisterende kontoskjemaer i demoselskapet CRONUS.
 7. Velg handlingen **Oversikt** for å se den resulterende økonomiske rapporten.
 8. På siden **Kto.skjemaoversikt** i feltet **Navn på kolonneoppsett** velger du et annet kolonneoppsett for å vise økonomiske data etter andre parametere.
 9. Velg **OK**.
@@ -199,4 +199,3 @@ Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet 
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

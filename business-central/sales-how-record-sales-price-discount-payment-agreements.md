@@ -1,6 +1,6 @@
 ---
 title: Definere spesielle salgspriser og rabatter for kunder | Microsoft-dokumentasjon
-description: "Beskriver hvordan du kan definere alternative priser og rabattavtaler du vil bruke i salgsdokumenter når du selger til ulike kunder."
+description: Beskriver hvordan du kan definere alternative priser og rabattavtaler du vil bruke i salgsdokumenter når du selger til ulike kunder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 11/28/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7a0034bfbbd62ccf3278febea0ad9d083d7482bc
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: b0af8e6d6dd477ebabbfc1fa05e8d57378eee226
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "853215"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 De ulike pris- og rabattavtalene som gjelder ved salg til ulike kunder, må defineres slik at de avtalte reglene og verdiene brukes på salgsdokumenter du oppretter for kundene.
 
-Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under «Beregning av beste pris».
+Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under [Beregning av beste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Når det gjelder priser, kan du sette inn en spesialsalgspris på salgslinjer hvis en bestemt kombinasjon av kunde, vare, minste antall, enhet, eller start-/sluttdato finnes.
 
@@ -144,4 +144,3 @@ Hvis du vil oppdatere varepriser satsvis, for eksempel øke alle varepriser med 
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Tilordne og håndtere oppgaver | Microsoft-dokumentasjon"
-description: "Lære hvordan du tilordner oppgaver til brukere, inkludert din regnskapsfører i Business Central"
+title: Tilordne og håndtere oppgaver | Microsoft-dokumentasjon
+description: Lære hvordan du tilordner oppgaver til brukere, inkludert din regnskapsfører i Business Central
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: b225eb16a3cfa0d70f03fde01051c8ea6a956454
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852358"
 ---
-# <a name="defining-user-tasks"></a>Definere brukeroppgaver
+# <a name="define-user-tasks"></a>Definere brukeroppgaver
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.  
 
 ## <a name="managing-user-tasks"></a>Administrere brukeroppgaver
@@ -41,4 +41,3 @@ Hvis du vil slette alle eller noen brukeroppgaver samlet, kan du bruke **Slett b
 ## <a name="see-also"></a>Se også
 [Søke etter en side eller rapport](ui-search.md)  
 [Regnskapsføreropplevelser i [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
-

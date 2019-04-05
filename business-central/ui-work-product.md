@@ -1,47 +1,48 @@
 ---
 title: Arbeide med de generelle funksjonene i Business Central | Microsoft-dokumentasjon
-description: "Beskriver de generelle funksjonene du bruker til å arbeide med data i Business Central, for eksempel angi verdier, sortere data og bytte visninger."
-documentationcenter: 
+description: Beskriver de generelle funksjonene du bruker til å arbeide med data i Business Central, for eksempel angi verdier, sortere data og bytte visninger.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 03/13/2019
 ms.author: solsen
+ms.openlocfilehash: afaab918f2959ee32315988c81dee987499aa05a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 1924ed56ebf31debbccbc6f94724a6ca93eeb7a6
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852243"
 ---
 # <a name="working-with-included365finincludesd365finmdmd"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
 Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
 
+> [!NOTE]
+> Du kan bruke andre generelle funksjoner som er mer firmarelaterte, i tillegg til de generelle grensesnittfunksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Generelle forretningsfunksjoner](ui-across-business-areas.md).
+
 Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til emnene som beskriver dem.
 
 | Til | Se |
 | --- | --- |
-| Endre grunnleggende innstillinger, for eksempel firma, arbeidsdato eller rollesenter. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
-| Finn en spesifikk side eller rapport. |[Bruke Søk etter side eller rapport](ui-search.md) |
-| Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md) |
-| Finne ut mer om hvordan du sorterer data. |[Datasortering](ui-sorting.md) |
-| Vise eller prosessen data i et bestemt tidsrom. |[Sette inn datointervaller](ui-enter-date-ranges.md) |
+| Søk etter en bestemt side, rapport, handling, hjelpeemne eller partnerutvidelse. |[Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md) |
+| Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md) |
+|Lær de mange generelle funksjonene som du kan bruke til å skrive inn data raskt og enkelt.|[Skrive inn data](ui-enter-data.md)|
+| Vise eller prosessen data i et bestemt tidsrom. |[Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) |
+|Lær hvordan du raskt kopierer og limer inn dataene inkludert ved hjelp av tastatursnarveier.|[Kopiere og lime inn](ui-copy-paste.md)|
 | Se hvilke felt som må fylles ut. |[Registrere obligatoriske felt](ui-mandatory-fields.md) |
-| Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
-| Endre hvordan du viser lister, for eksempel kunder, leverandører eller varer. |[Vise lister på ulike måter](across-display-lists-different-views.md) |
-| Endre den fargede indikatoren på bunker. |[Definere en farget indikator for bunke-ikoner](ui-how-setup-colored-indicator-cues.md) |
-|Forhåndsvise, skrive ut eller lagre rapporter.|[Arbeide med rapporter](ui-work-report.md)|
-| Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
-| Administrere innhold og format av rapporter og dokumenter, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer.|[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md) |
-| Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
 |Forstå hvordan datamaskinens regionale innstillinger påvirker brukergrensesnittet og hvordan du kan endre språket.|[Endre språk og nasjonal innstilling](about-locale-language.md)|
+|Lær hvordan du samhandler med Excel fra nesten hvor som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Vise og redigere i Excel](across-work-with-excel.md)|
+|Bli varslet om bestemte hendelser eller endringer i statusen, for eksempel når du skal fakturere en kunde som har en forfalt saldo.|[Behandle varsler](ui-smart-notifications.md)|
+| Endre grunnleggende innstillinger, for eksempel firma, arbeidsdato eller rollesenter. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
+| Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser. |[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md) |
+|Definer, forhåndsvis, skriv ut eller lagre rapporter, og definer og utfør kjørsler.|[Arbeide med rapporter og kjørsler](ui-work-report.md)|
+| Administrere innhold og format av rapporter og dokumenter, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer.|[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md) |
 |Lære om funksjoner som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
-|Se videoer om den valgte funksjonaliteten for å komme i gang.|[Videoer om vanlige oppgaver](across-videos.md)|  
 
 ## <a name="getting-around-in-business-central"></a>Navigere i Business Central
 Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -54,4 +55,3 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365f
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

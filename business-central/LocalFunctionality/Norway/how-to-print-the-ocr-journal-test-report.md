@@ -1,23 +1,23 @@
 ---
 title: Skrive ut rapporten OCR-kladd - test
-description: "Du kan skrive ut rapporten OCR-kladd - test for å teste de importerte betalingstransaksjonene i innbetalingskladden."
+description: Du kan skrive ut rapporten OCR-kladd - test for å teste de importerte betalingstransaksjonene i innbetalingskladden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: 5e1603a5e74011355f13704d8de33603f1a958e3
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826961"
 ---
 # <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  
@@ -40,4 +40,3 @@ Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betal
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
  [Arbeide med finanskladder](../../ui-work-general-journals.md)
-

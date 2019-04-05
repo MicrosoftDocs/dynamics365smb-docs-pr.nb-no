@@ -1,7 +1,7 @@
 ---
-title: "Installere utvidelser for å tilpasse Dynamics 365 Business Central | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du legger til funksjoner og tilpasser Business Central ved å installere utvidelser."
-documentationcenter: 
+title: Installere utvidelser for å tilpasse Dynamics 365 Business Central | Microsoft-dokumentasjon
+description: Finn ut hvordan du legger til funksjoner og tilpasser Business Central ved å installere utvidelser.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 11/27/2018
 ms.author: edupont
+ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 8b68012cc6032d14071ec0eb30c0efaf947344a0
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852450"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central for med utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
@@ -35,7 +35,7 @@ Du kan få nye utvidelser fra markedsplassen på [AppSource.microsoft.com](https
 > [!NOTE]  
 >   Logg på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved å bruke e-postkontoen du bruker med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Bruk samme e-postkonto for andre tjenester og produkter for en problemfri opplevelse.  
 
-Du kan også gå til markedsplassen fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. På siden **Administrasjon av utvidelse** kan du se utvidelsene som er installert, og du kan åpne **Markedsplass for utvidelser**-siden som viser [!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelsene som for øyeblikket er tilgjengelige i AppSource. Hvis du velger *Flere apper*-koblingen, kommer du til [AppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
+Du kan også gå til markedsplassen fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. På siden **Administrasjon av utvidelse** kan du se utvidelsene som er installert, og du kan åpne **Markedsplass for utvidelser**-siden som viser [!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelsene som for øyeblikket er tilgjengelige i AppSource. Hvis du velger *Flere apper*-koblingen, kommer du til [AppSourceAppSource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365%3Bdynamics-365-for-financials&page=1).  
 
 Hvis du velger en utvidelse, kan du lese om hva utvidelsen gjør, og du kan få tilgang til hjelp for utvidelsen for å finne ut mer. Når du skaffer en utvidelse, må du godta vilkårene for bruk. Hvis du får utvidelsen fra webområdet for AppSource, logges du på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å fullføre installasjonen.  
 
@@ -58,9 +58,9 @@ Microsoft tilbyr følgende utvidelser:
 * [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)  
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)  
 * [GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [QuickBooks Online Data Migration](ui-extensions-quickbooks-online-data-migration.md)  
+* [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)  
 * [Regnskapsførerportal](ui-extensions-accountant-portal.md)  
-* [Image Analyzer](ui-extensions-image-analyzer.md)  
+* [Bildeanalyse](ui-extensions-image-analyzer.md)  
 * [Betalinger og avstemminger (Danmark)](ui-extensions-payments-reconciliation-formats-dk.md)  
 * [C5 datamigrering](ui-extensions-c5-data-migration.md)  
 * [Viktig forretningsinnsikt](ui-extensions-essential-business-insights.md)  
@@ -71,6 +71,7 @@ Microsoft tilbyr følgende utvidelser:
 
 ## <a name="see-also"></a>Se også
 [Utvide Dynamics 365 Business Central](about-develop-extensions.md)  
+[Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
 [Aktivere kundebetalinger gjennom PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overføre forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
@@ -79,4 +80,3 @@ Microsoft tilbyr følgende utvidelser:
 [Komme i gang](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

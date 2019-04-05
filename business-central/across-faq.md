@@ -1,21 +1,60 @@
 ---
-title: "Vanlige spørsmål om bruk av Business Central | Microsoft-dokumentasjon"
-description: "Gir svar på vanlige spørsmål om hvordan du registrerer deg for Business Central og hva du gjør for å komme i gang."
+title: Vanlige spørsmål om bruk av Business Central | Microsoft-dokumentasjon
+description: Svarer på vanlige spørsmål om hvordan du registrerer deg for eller kjøper Business Central, får en prøveversjon, får støtte, utvider en prøveversjon, avslutter et abonnement og finner opplæring og annen støtte.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, trial, plan, application area, experience, support
-ms.date: 01/24/2019
+ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 02/21/2019
 ms.author: edupont
+ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 2650de67a756b0d6ec6c750b9b9f99edb21c2476
-ms.openlocfilehash: 99936e75dfe93d1002226fd227f5525b6afddcf2
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852289"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
-Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for og bruke [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også lære hvordan du får teknisk støtte.  
+
+## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land og oversettelser som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+
+## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hvordan får jeg [!INCLUDE [prodshort](includes/prodshort.md)]?
+
+Du kan registrere deg for en gratis prøveversjon for å utforske [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [free_trial_md](includes/free_trial_md.md)] Hvis du vil ha mer tid til å undersøke, [du kan utvide din prøveperiode](#can-i-extend-my-30-day-new-company-trial-period).  
+
+For å hjelpe deg med å bli klar for å gjøre forretninger i [!INCLUDE [prodshort](includes/prodshort.md)] kan du starte assisterte oppsettsveiledninger, videoer eller hjelpeemner for utvalgte oppsettoppgaver. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+
+Når du er klar for å kjøpe [!INCLUDE [prodshort](includes/prodshort.md)], finner du en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
+## <a name="where-do-i-go-if-i-have-questions"></a>Hvor går jeg hvis jeg har spørsmål?
+Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ikke finner et svar for i denne dokumentasjonen, kan du spørre Business Central-fellesskapet. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business Central-fellesskapet](https://community.dynamics.com/business).  
+
+Fra hjemmesiden for gruppen kan du også finne koblinger til våre blogger, der du også finner råd og tips. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business Central-bloggen](https://community.dynamics.com/business/b/financials) og [Dynamics 365 Business Central-støttebloggen](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+
+Til slutt kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for videresalg. Hvis du vil ha mer informasjon, kan du se [Hvordan får jeg teknisk støtte for?](across-faq.md#how-do-i-get-technical-support-for-)-delen.  
+
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Har du lest om en ny funksjon i produktmerknadene eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource.  
+
+## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få opplæring i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Ja, det kan du. For øyeblikket må du imidlertid spørre videresalgspartneren. Hvis du ikke vet hvem det er, finner du en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
+Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettstedet Imagine Academy med e-læringsmateriale. Hvis du vil ha mer informasjon om hvordan du får tilgang, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hvordan får jeg teknisk støtte for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
+
+Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[d365fin](includes/d365fin_md.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet.  
+
+Du finner en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
+Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).  
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  
@@ -29,54 +68,28 @@ Nr. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullsten
 
 Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Office 365-abonnement, kan du knytte domenet (mysolution.com) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Hvis du ikke har et Office 365-abonnement, og du vil kjøpe et, og deretter, når du registrerer deg, klargjør vi en ny Azure Active Directory-leier slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
+Hvis du ikke har et Office 365-abonnement, og du ikke vil kjøpe et, vil vil, når du registrerer deg, klargjøre vi en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvordan fungerer integreringen med Office 365?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
 
-## <a name="can-i-cancel-my-subscription"></a>Kan jeg avbryte abonnementet?
-Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
-
-## <a name="where-do-i-go-if-i-have-questions"></a>Hvor går jeg hvis jeg har spørsmål?
-Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ikke finner et svar for i denne dokumentasjonen, kan du spørre Business Central-fellesskapet. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business Central-fellesskapet](https://community.dynamics.com/business).  
-
-Fra hjemmesiden for gruppen kan du også finne koblinger til våre blogger, der du også finner råd og tips. Hvis du vil ha mer informasjon, se [Dynamics 365 Business Central-blogg](https://community.dynamics.com/business/b/financials) og [Dynamics 365 Business Central-støtteblogg](https://community.dynamics.com/business/b/dynamics365financialssupport).  
-
-Til slutt kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for videresalg. Hvis du vil ha mer informasjon, kan du se [Hvordan får jeg teknisk støtte for?](across-faq.md#how-do-i-get-technical-support-for-)-delen.  
-
-## <a name="is-it-possible-to-extend-my-30-day-new-company-trial-period"></a>Er det mulig å utvide min 30-dagers prøveperioden for "Nytt selskap"?
-Ja. Hvis du ønsker å utvide prøveperioden, kan du kontakte Microsoft i landet eller regionen din. For å finne riktig telefonnummer, kan du se oversikten i [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc). Oversikten viser telefonnumre for Dynamics CRM Online, men samme numre gjelder for alle Dynamics 365-apper.  
+## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jeg utvide min 30-dagers "Nytt selskap"-prøveperiode?
+Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen. Du kan utvide prøveperioden én gang selv. Etterpå kan en Microsoft-partner utvide det i ytterligere i 30 dager. Hvis du vil ha mer informasjon, se [Utvide prøveversjonen](admin-extend-trial.md). Du kan kontakte en Microsoft-partner i landet eller regionen din nå og se en oversikt over telefonnumrene i [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
 
 > [!NOTE]
-> Det kan ta opptil 2 arbeidsdager å fullføre utvidelsen av prøveversjonen.  
+> Det kan ta opptil to arbeidsdager å fullføre utvidelsen av prøveversjonen.  
 
 ## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme rollesenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dette er litt komplisert, men det ser ut som administratoren ikke endre ditt rollesenter og tilordne brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] avhengig av hvilken type plan (lisens) som du har - dette angir tillatelser og standardside for rollesenter. Du kan endre ditt rollesenter manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flytte fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle hjemmesiden fordi tillatelsene ikke ble endret.  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Har du lest om en ny funksjon i produktmerknadene eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom kunngjøringen av utvidelsen og tilgjengeligheten i AppSource.  
+## <a name="can-i-cancel-my-subscription"></a>Kan jeg avbryte abonnementet?
+Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
-## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få opplæring i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, det kan du. For øyeblikket må du imidlertid spørre videresalgspartneren. Hvis du ikke vet hvem det er, finner du en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
-
-Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettstedet Imagine Academy med e-læringsmateriale. Hvis du vil ha mer informasjon om hvordan du får tilgang, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
-
-## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land og oversettelser som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
-
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hvordan får jeg teknisk støtte for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
-
-Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[d365fin](includes/d365fin_md.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet.  
-
-Du finner en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
-
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
-Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).  
+## <a name="can-i-use-multi-factor-authentication"></a>Kan jeg bruke godkjenning med flere faktorer?
+Klart det. Hvis du gjør det, trenger du kanskje et apppassord for å sende e-postmeldinger. Apppassordene gi en app eller enhet tilgang til e-kontoen din. Trinnene for å få et apppassord varierer avhengig av leverandøren av e-post. Hvis du vil ha mer informasjon, ser du hjelpen fra leverandøren. Hvis du for eksempel bruker Outlook, se [Opprette et apppassord for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] uten Outlook](admin-no-outlook.md)  
@@ -86,4 +99,3 @@ Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til *
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

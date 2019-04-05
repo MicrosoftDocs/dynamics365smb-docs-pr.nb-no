@@ -1,7 +1,7 @@
 ---
 title: Opprette og administrere katalogvarer | Microsoft dokumenter
-description: "Beskriver hvordan du handler med varer som er i leverandørerlisten for varer, men som ikke er i din egen oversikt over varer."
-documentationcenter: 
+description: Beskriver hvordan du handler med varer som er i leverandørerlisten for varer, men som ikke er i din egen oversikt over varer.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: 780aabb1bcd37cfd912f84da7b956a146a918eef
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c65d498fb63668a6cd83f61303ae99c54d0a2452
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836138"
 ---
 # <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
 Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil administrere i systemet før du begynner å selge dem. Når du vil begynne å administrere slike varer i systemet, kan du konvertere dem til vanlige varekort på to måter.
@@ -66,11 +66,10 @@ Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant
 Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   En varekryssreferansepost opprettes automatisk for leverandøren av varen mellom leverandørens varenummer og det nye varenummeret ditt.
+>   En varekryssreferansepost opprettes automatisk for leverandøren av varen mellom leverandørens varenummer og det nye varenummeret ditt. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon.
 
 ## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

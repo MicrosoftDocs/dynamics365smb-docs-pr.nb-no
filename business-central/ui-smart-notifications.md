@@ -1,8 +1,8 @@
 ---
-title: "Arbeide med smarte varsler og angi når du ser dem | Microsoft-dokumentasjon"
+title: Arbeide med smarte varsler og angi når du ser dem | Microsoft-dokumentasjon
 description: Du kan motta varsler som informerer deg om statusendringer eller hendelser, for eksempel en forfalt saldo eller lav beholdning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,14 +11,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: fa37e68f0544325e75e3869c61e00cde0d71a520
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852162"
 ---
-# <a name="smart-notifications"></a>Smarte varsler
+# <a name="managing-notifications"></a>Behandle varsler
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg å arbeide smartere ved å varsle deg om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Disse meldingene vises som diskrete tips i forbindelse med oppgaven du utfører, og du kan velge å ignorere varselet eller vise detaljer om problemet.  
 
 Hvis du velger å vise detaljer for et varsel, kan du iverksette tiltak for å løse problemet, for eksempel kontakte kunden, kjøper mer inn på lager og så videre. Du velger selv hva du gjør, og [!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg råd og anbefalinger.  
@@ -38,4 +38,3 @@ Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 11/14/2018
 ms.author: edupont
+ms.openlocfilehash: 2a71909faf66c13a0923a10bfc12369127642875
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 59afb06e9d43bdadc5ceacf563a9e6faf7439b7b
-ms.openlocfilehash: bc56e07a540c24f53b88651ad2b2ff5e1e56a571
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/05/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852890"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revidere endringer i Business Central
 
@@ -41,7 +41,6 @@ Når du har opprettet endringsloggen, aktivert den og endret data, kan du vise o
 ## <a name="see-also"></a>Se også
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Bruke Søk etter side eller rapport](ui-search.md)  
+[Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md)  
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)    
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

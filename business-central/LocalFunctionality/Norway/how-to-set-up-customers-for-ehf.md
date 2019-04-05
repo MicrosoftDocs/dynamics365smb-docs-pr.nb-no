@@ -1,23 +1,23 @@
 ---
 title: Sette opp kunder for EHF
-description: "Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene."
+description: Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 7fae0d71ad9b31d9bf57ed6eab7f0f9fd2c3d000
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: d7813b1f46f3071765b4df1a1bd2c4da875d5315
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826959"
 ---
 # <a name="set-up-customers-for-ehf"></a>Sette opp kunder for EHF
 Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.  
@@ -42,4 +42,3 @@ Disse feltene er spesifikke for EHF. Verdiene brukes i alle EHF-dokumenter du op
 ## <a name="see-also"></a>Se også  
  [Opprette elektroniske dokumenter for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Angi EHF](how-to-set-up-ehf.md)
-

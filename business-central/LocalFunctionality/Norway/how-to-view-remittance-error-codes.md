@@ -1,23 +1,23 @@
 ---
 title: Vise remitteringsfeilkoder
-description: "Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden Ventekladd."
+description: Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden Ventekladd.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: a22d3a48db00e9616fd7184c740b250bb37f43b0
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826997"
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  
@@ -50,4 +50,3 @@ Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklari
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Remitteringsfeil](remittance-errors.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-

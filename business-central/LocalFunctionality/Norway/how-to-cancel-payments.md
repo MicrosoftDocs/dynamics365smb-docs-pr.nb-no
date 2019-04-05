@@ -1,23 +1,23 @@
 ---
 title: Annullere betalinger
-description: "Forbedringer i den norske versjonen gjør det mulig å annullere betalinger."
+description: Forbedringer i den norske versjonen gjør det mulig å annullere betalinger.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 37a54b4d0d13f18bea07700fd35890bd72cdc415
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 19e07b2b45590537e7bfb78ffece1a0ecad35e32
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826995"
 ---
 # <a name="cancel-payments"></a>Annullere betalinger
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
@@ -54,4 +54,3 @@ ms.lasthandoff: 09/28/2018
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)
-

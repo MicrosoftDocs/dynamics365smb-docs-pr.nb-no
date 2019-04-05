@@ -1,6 +1,6 @@
 ---
-title: "Oversikt over oppgaver for å definere Business Central | Microsoft-dokumentasjon"
-description: "Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Business Central etter behov."
+title: Oversikt over oppgaver for å definere Business Central | Microsoft-dokumentasjon
+description: Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Business Central etter behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 2c766654faad241f57cd4a99648bb349e4258857
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852082"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
@@ -40,10 +40,20 @@ Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan
 | Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
 |Definere generelle regler og verdier for lagerprosesser og den spesifikke håndteringen på hver lokasjon.|[Definere lagerstyring](warehouse-setup-warehouse.md)|
 |Klargjør produksjonsstykklister og ruter til å definere hvordan sluttvarer produseres, og klargjør produksjonsressurser eller arbeidssentre til å utføre de nødvendige operasjonene.|[Definere produksjon](production-configure-production-processes.md)|
+|Etablere standardtjenester, symptomer og feilkoder og sette opp servicevarer, ressurser og dokumentasjon som trengs for å gi service til kundene dine.|[Konfigurere servicehåndtering](service-setup-service.md)|
 |Lese beste rutiner for å angi varene for beholdning og kostpris og forsyningsplanlegging.|[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)|
+|Forbedre kvaliteten på implementering og forkort distribusjonstiden ved hjelp av et verktøysettet for å opprette et nytt selskap ved hjelp av veivisere, maler, forslag og kundespørreskjemaer.|[Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
+|Overfør informasjon om kunder, leverandører, lager og bankkonti fra et annet system til [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).|
+|Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)|
+|Få innsikt i Business Central-data med Power BI- og Business Central-innholdspakker.|[Aktivere forretningsdata for Power BI](admin-powerbi.md)|
+|Bruke Business Central-data som en del av en arbeidsflyt i Microsoft Flow.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
+|Gjør Business Central-data tilgjengelig som en datakilde i PowerApps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
+|Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
+|Utfør massefakturering av avtaler som er opprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
 |Definer en SMTP-server for å aktivere e-kommunikasjon inn og ut av [!INCLUDE[d365fin](includes/d365fin_md.md)].| [Konfigurere e-post manuelt eller bruke assistert oppsett](admin-how-setup-email.md)|
 | Definer unike identifikasjonskodene for poster, for eksempel kort, bilag og kladdelinjer, til å spore dem i systemet. |[Opprette nummerserier](ui-create-number-series.md) |
-|Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalenderedefinerer og tilordner](across-how-to-assign-base-calendars.md)|  
+|Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalendere](across-how-to-assign-base-calendars.md)|  
 
 Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også  [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
 
@@ -64,5 +74,3 @@ Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fi
 [Komme i gang](product-get-started.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 
-

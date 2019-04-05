@@ -1,23 +1,23 @@
 ---
 title: Forsyningsplanlegging| Microsoft-dokumentasjon
-description: "Forbered en detaljert og utførbar plan og produksjonsplan for sluttmontering for salgs- og produksjonsbehov."
+description: Forbered en detaljert og utførbar plan og produksjonsplan for sluttmontering for salgs- og produksjonsbehov.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 849ea09fb84e2cf52971b582920debf89ca7c2b0
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852197"
 ---
 # <a name="planning"></a>Planlegging
 Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, må planlegges daglig eller ukentlig, avhengig av produktenes volum og beskaffenhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] har funksjoner for å dekke forventet og faktisk behov fra salg, montering og produksjon, i tillegg til funksjoner for distribusjonsplanlegging ved hjelp av lagerføringsenheter og lokasjonsoverføringer.
@@ -45,7 +45,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bruk siden **Planleggingsforslag** til å kjøre både MPS- og MRP-alternativet for automatisk å opprette en forsyningsplan på høyt nivå eller en detaljert forsyningsplan på alle varenivåer.|[Kjøre full planlegging, MPS eller MRP](production-how-to-run-mps-and-mrp.md)|
 |Kjøre bestillingsforslaget for automatisk å opprette en detaljert forsyningsplan for å dekke behovet for varer som bare etterfylles ved hjelp av kjøp eller overføring.|**Bestillingsforslag**-siden|  
 |Opprette eller oppdatere en produksjonsordre som grovplanlagte operasjoner i hovedproduksjonsplanen.|[Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md)|
-|Omberegne arbeidssenter- eller produksjonsressurskalendere som følge av planleggingsendringer.|Delen Beregne en arbeidssenterkalender i [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md)|
+|Omberegne arbeidssenter- eller produksjonsressurskalendere som følge av planleggingsendringer.|[Slik beregner du en arbeidssenterkalender](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Spore ordrebehovet (sporet antall), prognosen, rammebestillingen eller planleggingsparameteren (ikke-sporet antall) som har forårsaket den aktuelle planleggingslinjen.|[Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md)|
 |Vise en vares anslåtte disponible beholdning etter ulike visninger og se hvordan den påvirkes over tid av bruttobehov, planlagte ordremottak og annet.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|  
 |Utfør valgte planleggingsaktiviteter, for eksempel endre eller legge til planleggingsforslagslinjer, i en grafisk visning av forsyningsplanen.|[Endre planleggingsforslag i en grafisk visning](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|
@@ -60,4 +60,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

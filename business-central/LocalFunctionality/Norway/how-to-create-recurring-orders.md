@@ -1,23 +1,23 @@
 ---
 title: Opprette gjentakelsesordrer
-description: "Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden Opprett gjentakelsesordrer, og oppretter de nye salgsordrene."
+description: Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden Opprett gjentakelsesordrer, og oppretter de nye salgsordrene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: f89524dd57e4a0293bcccb7799930c5e0f45c996
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "826983"
 ---
 # <a name="create-recurring-orders"></a>Opprett gjentakelsesordrer
 Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene. Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.  
@@ -39,4 +39,3 @@ Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr so
  [Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprette rammeordrer](../../sales-how-to-create-blanket-sales-orders.md)
-

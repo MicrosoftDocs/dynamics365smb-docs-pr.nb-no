@@ -1,6 +1,6 @@
 ---
 title: Intelligent sky | Microsoft-dokumentasjon
-description: "Få en skykopi av dataene dine, slik at du er tilkoblet den intelligente skyen."
+description: Få en skykopi av dataene dine, slik at du er tilkoblet den intelligente skyen.
 author: bmeier94
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,15 +11,14 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 10/01/2018
 ms.author: bmeier
+ms.openlocfilehash: 932b6f45ed4f8704b48873518ba2b096efc33e7a
+ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
 ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
-ms.openlocfilehash: 0abf01698e25ae04a2e34696fb2443ff7d413a26
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "852131"
 ---
-
-# <a name="your-access-to-the-intelligent-cloud-with-includeprodlongincludesprodlongmd"></a>Tilgang til den intelligente skyen med [!INCLUDE[prodlong](includes/prodlong.md)]
+# <a name="your-access-to-the-intelligent-cloud-with-includeprodshortincludesprodshortmd"></a>Tilgang til den intelligente skyen med [!INCLUDE[prodshort](includes/prodshort.md)]
 
 Som en bruker av [!INCLUDE[prodshort](includes/prodshort.md)] på nettet har du full tilgang til scenarier som er basert på den intelligente skyen, for eksempel redigere dataene i Excel og gjøre om endringer tilbake til [!INCLUDE[prodshort](includes/prodshort.md)], eller når du viser dataene i Power BI. Selv om [!INCLUDE[prodshort](includes/prodshort.md)] primært er en skytjeneste, kan også kunder som må kjøre deres arbeidsmengder fullstendig lokalt eller på den intelligente kanten tilkoblet skyen, gjøre dette.  
 
@@ -53,4 +52,3 @@ Når Dynamics 365-videresalgspartneren din har fått den riktige lisensen for at
 [Intelligent skyutvidelse i Business Central](ui-extensions-intelligent-cloud.md)  
 [Datareplikeringsutvidelse](ui-extensions-data-replication.md)  
 [Koble til den intelligente skyen](/dynamics365/business-central/dev-itpro/administration/about-intelligent-edge)  
-

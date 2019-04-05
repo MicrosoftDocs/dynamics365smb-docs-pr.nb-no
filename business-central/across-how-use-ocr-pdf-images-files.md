@@ -1,7 +1,7 @@
 ---
-title: "Bruke OCR til å gjøre PDF om til e-fakturaer | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du kan bruke en OCR-tjeneste til å konvertere inngående PDF-filer til elektroniske dokumenter."
-documentationcenter: 
+title: Bruke OCR til å gjøre PDF om til e-fakturaer | Microsoft-dokumentasjon
+description: Beskriver hvordan du kan bruke en OCR-tjeneste til å konvertere inngående PDF-filer til elektroniske dokumenter.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 10/01/2018
+ms.date: 03/12/2019
 ms.author: sgroespe
+ms.openlocfilehash: d7d8d3d89eb72aed3bcd86e51a025c19ce55a116
+ms.sourcegitcommit: 3291f0d92c1f2af3bbbefb90d53af4db72fe1a93
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 7d74ae2b6ce94d1aa0e30a3234436a940aaa6219
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836115"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
 Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.
@@ -25,7 +25,7 @@ Som et alternativ til å sende filen fra siden **Inngående dokumenter** kan du 
 
 Etter noen sekunder vil du motta filen tilbake fra OCR-tjenesten som en elektronisk faktura som kan konverteres til en kjøpsfaktura for leverandøren. Dette er beskrevet i tredje fremgangsmåte.
 
-Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten vil tolke tegn i PDF-filer eller bildefiler feilaktig når den først behandleren en bestemt leverandørs dokumenter. Det kan hende at den ikke tolker firmalogoen som leverandørnavn, eller det kan hende at den feiltolker det totale beløpet på en kvittering på grunn av oppsettet. Hvis du vil unngå disse feilene fremover, kan du rette opp feilene i en egen versjon av siden **Inngående dokument**. Du kan deretter sende rettelser tilbake til OCR-tjenesten for å lære den å tolke bestemte tegn på rett måte neste gang den behandler et PDF- eller bildedokument for den samme leverandøren. Hvis du vil ha mer informasjon, kan du se avsnittet "Lære opp OCR-tjenesten for å unngå feil".
+Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten vil tolke tegn i PDF-filer eller bildefiler feilaktig når den først behandleren en bestemt leverandørs dokumenter. Det kan hende at den ikke tolker firmalogoen som leverandørnavn, eller det kan hende at den feiltolker det totale beløpet på en kvittering på grunn av oppsettet. Hvis du vil unngå disse feilene fremover, kan du rette opp feilene i en egen versjon av siden **Inngående dokument**. Du kan deretter sende rettelser tilbake til OCR-tjenesten for å lære den å tolke bestemte tegn på rett måte neste gang den behandler et PDF- eller bildedokument for den samme leverandøren. Hvis du vil ha mer informasjon, kan du se [Lære opp OCR-tjenesten for å unngå feil](across-how-use-ocr-pdf-images-files.md#to-train-the-ocr-service-to-avoid-errors).
 
 Trafikken av filer til og fra OCR-tjenesten behandles av en dedikerte jobbkøpost, som opprettes automatisk når du aktiverer den relaterte tjenestetilkoblingen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
@@ -45,7 +45,7 @@ Fra e-postprogrammet kan du sende en e-post til leverandøren av OCR-tjenesten m
 Fordi det ikke finnes noen inngående dokumentoppføring for filen, opprettes en ny post automatisk på siden **Inngående dokumenter** når du mottar det resulterende elektroniske dokumentet fra OCR-tjenesten. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
->   Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se avsnittet Opprette innkommende dokumentposter ved å ta et bilde i [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).
+>   Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en innkommende dokumentpost ved å ta et bilde](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
 
 ## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Slik mottar du det resulterende elektroniske dokumentet fra OCR-tjenesten:
 Det elektroniske dokumentet som opprettes av OCR-tjenesten fra PDF- eller bildefilen, mottas automatisk inn på siden **Inngående dokumenter** via jobbkøposten som settes opp når du aktiverer OCR-tjenesten.
@@ -56,7 +56,7 @@ Hvis du ikke bruker en jobbkø, eller hvis du vil motta et ferdig OCR-dokument r
 >   Hvis OCR-tjenesten er konfigurert til å kreve manuell godkjenning av behandlede dokumenter, vil feltet **OCR-status** inneholde **Venter på bekreftelse**. I så fall gjør du følgende for å logge deg på webområdet til OCR-tjenesten og bekrefte et OCR-dokument manuelt.
 
 1. I **OCR-status**-feltet velger du hyperkoblingen **Venter på bekreftelse**.
-2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, kan du se delen Definere en OCR-tjeneste i [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
+2. Logg på med legitimasjonen for OCR-tjenestekontoen på webområdet for OCR-tjenesten. Dette er legitimasjonen du også brukte da du satte opp tjenesten. Hvis du vil ha mer informasjon, kan du se [Slik definerer du en OCR-tjeneste](across-how-setup-income-documents.md#to-set-up-an-ocr-service).
 
     Informasjon for OCR-dokumentet vises, med både kildeinnholdet i PDF-filen eller bildefilen og de resulterende OCR-feltverdiene.
 3. Gå gjennom de ulike feltverdiene og rediger manuelt eller angi verdier i felt som OCR-tjenesten har merket som usikre.
@@ -69,15 +69,13 @@ Nå kan du fortsette å opprette dokumentposter for de elektroniske dokumentene 
 Følgende fremgangsmåte beskriver hvordan du oppretter en post for kjøpsfaktura fra en leverandørfaktura mottatt som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåten er den samme når du oppretter for eksempel en finanskladdelinje fra en utgiftskvittering., eller en ordreretur fra en kunde.
 
 > [!NOTE]  
->   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan utføre denne tilordningen som varekryssreferanser, for dokumentlinjer av typen Vare. Du kan også bruke funksjonen Tekst-til-konto-tilordning. Hvis du vil ha mer informasjon, kan du se delen Slik tilordner du tekst i et inngående dokument til en bestemt leverandør, finanskonto eller bankkonto.
-
-Hvis du vil tilordne varenumrene i dokumentet til beskrivelsene av leverandørens varer, åpner du kortet for hver vare, og velger deretter handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til leverandøren. Hvis du vil ha mer informasjon, kan du se verktøytipset for **Kryssreferanser**-handlingen på varekortene.
+>   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan utføre denne tilordningen som varekryssreferanser, for dokumentlinjer av typen Vare. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon. Du kan også bruke funksjonen Tekst-til-konto-tilordning. Hvis du vil ha mer informasjon, kan du se delen [Slik tilordner du tekst i et inngående dokument til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Merk linjen for det inngående dokumentet, og velg deretter **Opprett dokument**-handlingen.
 
 Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske leverandørdokumentet som du mottok fra OCR-tjenesten. Informasjon settes inn i den nye kjøpsfakturaen basert på tilordningen du har definert som kryssreferanse eller som tekst-til-konto-tilordning.
 
-Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se "Håndtere feil ved mottak av elektroniske dokumenter".
+Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se [Håndtere feil ved mottak av elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Slik tilordner du tekst i et inngående dokument til en bestemt leverandørkonto:
 For innkommende dokumenter bruker du vanligvis handlingen **Tilordne tekst til konto** for å definere at en bestemt tekst på en leverandørfaktura som er mottatt fra OCR-tjenesten, tilordnes til en bestemt leverandørkonto. Deler av beskrivelsen av det innkommende dokumentet som finnes som tilordningstekst, betyr at **Nr.**-feltet på det resulterende bilaget eller kladdelinjene av typen Finanskonto, fylles deretter ut med den aktuelle leverandøren.
@@ -124,4 +122,3 @@ Feltene i hurtigfanen **Økonomisk informasjon** på siden **Inngående dokument
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
