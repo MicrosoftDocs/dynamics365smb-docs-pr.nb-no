@@ -1,6 +1,6 @@
 ---
-title: "Minne kunder på forfalte betalinger eller bøtelegge dem | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du sender en påminnelse til en kunde om en betaling som er forfalt, og legger gebyrer til betalingen på grunn av forsinkelsen."
+title: Minne kunder på forfalte betalinger eller bøtelegge dem | Microsoft-dokumentasjon
+description: Beskriver hvordan du sender en påminnelse til en kunde om en betaling som er forfalt, og legger gebyrer til betalingen på grunn av forsinkelsen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f33d8a851c1c5a8f3c464a44ebd1d6319131af09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 3dfc2d9edbb72de196238748ab90ce8dd4990adb
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802897"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende Kontoutdrag-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
@@ -99,10 +99,10 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 |%11|Selskapsnavnet|  
 |%12|Innholdet i **Tilleggsgebyr per linje**-feltet i purrehodet|  
 
-Hvis du for eksempel skriver **Du skylder %7 %9 som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK som forfaller 02-02-2014**.
+Hvis du for eksempel skriver **Du skylder %9 %7, som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK, som forfaller 02-02-2014.**
 
 > [!NOTE]
-> Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se delen "Bruke datoformler" i [Skrive inn datoområder](ui-enter-date-ranges.md).
+> Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
 
@@ -201,7 +201,7 @@ I tillegg er hver kode i tabellen Rentenotatekst knyttet til en undertabell, tab
 |%4|Innholdet i **Restbeløp**-feltet i rentenotahodet|  
 |%5|Innholdet i **Rentebeløp**-feltet i rentenotahodet|  
 |%6|Innholdet i **Tilleggsgebyr**-feltet i rentenotahodet|  
-|%7|Purringens totalbeløp.|  
+|%7|Purringens totalbeløp|  
 |%8|Innholdet i **Valutakode**-feltet i rentenotahodet|  
 |%9|Innholdet i **Bokføringsdato**-feltet i rentenotahodet|  
 
@@ -254,4 +254,3 @@ Når du utsteder en purring, opprettes en purrepost på siden **Purre-/rentepost
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

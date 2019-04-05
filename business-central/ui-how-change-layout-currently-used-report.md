@@ -1,8 +1,8 @@
 ---
-title: "Endre utseendet på en rapport ved å velge et annet oppsett | Microsoft-dokumentasjon"
-description: "Du kan bruke ulike oppsett for en rapport og bytte mellom oppsett for å endre utseendet på den."
+title: Endre utseendet på en rapport ved å velge et annet oppsett | Microsoft-dokumentasjon
+description: Du kan bruke ulike oppsett for en rapport og bytte mellom oppsett for å endre utseendet på den.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a68c26e94aa4adda7c1f546e57331a741dcfe94b
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803825"
 ---
 # <a name="change-which-layout-is-currently-used-on-a-report"></a>Endre gjeldende oppsett som skal brukes i en rapport
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
@@ -48,4 +48,3 @@ Du går tilbake siden **Egendefinerte rapportoppsett**. Navnet på det valgte eg
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

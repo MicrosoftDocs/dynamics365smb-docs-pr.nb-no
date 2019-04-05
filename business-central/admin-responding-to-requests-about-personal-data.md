@@ -1,6 +1,6 @@
 ---
-title: "Svare på forespørsler om personopplysninger"
-description: "Du må svare på forespørsler fra dataemner."
+title: Svare på forespørsler om personopplysninger
+description: Du må svare på forespørsler fra dataemner.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
@@ -8,14 +8,13 @@ ms.custom: na
 ms.date: 11/06/2018
 ms.reviewer: na
 ms.topic: article
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803381"
 ---
-
 # <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert sensitiviteten til dataene dine og er sikker på at de er riktige, kan administrator svare på forespørsler ved hjelp av alternativene under **Datavern** i rollesenteret **Administrasjon av brukere, brukergrupper og tillatelser** eller, hvis du bruker Windows-klienten, i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
 
@@ -63,4 +62,3 @@ Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i hen
 [Eksportere forretningsdataene til Excel](about-export-data.md)  
 [Logge endringer](across-log-changes.md)  
 [Dataemneforespørsler for GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-

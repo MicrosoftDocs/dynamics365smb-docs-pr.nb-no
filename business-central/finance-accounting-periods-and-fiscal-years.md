@@ -1,23 +1,23 @@
 ---
-title: "Arbeide med regnskapsperioder og regnskapsår | Microsoft-dokumentasjon"
-description: "Lær hvordan du arbeider med regnskapsperioder for å definere når bedriften rapporterer økonomiske resultater."
+title: Arbeide med regnskapsperioder og regnskapsår | Microsoft-dokumentasjon
+description: Lær hvordan du arbeider med regnskapsperioder for å definere når bedriften rapporterer økonomiske resultater.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 08/13/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6f760f546ea02fbc19473c70eb26d8b4c47c0987
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803812"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeide med regnskapsperioder og regnskapsår
 Regnskapsperioder, som også kalles rapporteringsperioder, er tidsperioder som en bedrift eller organisasjon rapporterer økonomiske resultater for, for eksempel ved å generere resultatregnskapet eller balansen. Vanligvis viser regnskapsperioder til selskapets regnskapsår, som kan inneholde flere regnskapsperioder, for eksempel måneder eller kvartal.
@@ -66,7 +66,6 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Når d
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)  
   
-
 
 
 

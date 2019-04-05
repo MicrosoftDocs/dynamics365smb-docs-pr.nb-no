@@ -1,21 +1,21 @@
 ---
 title: Definere hvordan data utveksles elektronisk | Microsoft-dokumentasjon
-description: "Du kan bruke en ekstern leverandør av OCR-tjenester for å konvertere PDF- eller bildefiler til elektroniske dokumenter."
+description: Du kan bruke en ekstern leverandør av OCR-tjenester for å konvertere PDF- eller bildefiler til elektroniske dokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/26/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803308"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
@@ -55,7 +55,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |**Kodeenhet for datahåndtering**|Angi kodeenheten som overfører data inn i og ut av tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     |**Kodeenhet for validering**|Angi kodeenheten som brukes til å validere data mot forhåndsdefinerte forretningsregler.|  
     |**Kodeenhet for lesing/skriving**|Angi kodeenheten som behandler importerte data før tilordning og eksporterte data etter tilordning.|  
-    |**XMLport for lesing/skriving**|Angi XML-porten som en importert datafil eller tjeneste går gjennom før den tilordnes, og som eksporterte data går ut gjennom når de skrives til en datafil eller tjeneste etter at de er tilordnet.|  
+    |**XMLport for lesing/skriving**|Angir XMLport som en importert datafil eller tjeneste overføres via før tilordning, og som eksporterte data overføres via når de skrives til en datafil eller tjeneste etter tilordning.|  
     |**Kodeenhet for ekstern datahåndtering**|Angi kodeenheten som overfører eksterne data inn i og ut av rammeverket for datautveksling.|  
     |**Kodeenhet for brukertilbakemelding**|Angi kodeenheten som inneholder ulike oppryddinger etter tilordning, for eksempel markerer linjene som eksporteres og sletter midlertidige poster.|  
     |**Filkoding**|Angi kodingen for filen. **Obs!**  Dette feltet er bare relevant for import.|  
@@ -160,4 +160,3 @@ Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du
 [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-

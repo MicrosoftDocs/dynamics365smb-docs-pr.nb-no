@@ -1,8 +1,8 @@
 ---
 title: Finne videoer om bruk av Business Central | Microsoft-dokumentasjon
-description: "Gir tilgang til komme i gang-videoer som illustrerer hvordan du kan utføre vanlige oppgaver."
+description: Gir tilgang til komme i gang-videoer som illustrerer hvordan du kan utføre vanlige oppgaver.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: b9f8ba9113cdac79dfd8b20d99c194e834578a8e
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803682"
 ---
 # <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
 Vær tålmodig når vi bygger vårt bibliotek med instruksjonsvideoer på nytt. En bivirkning av de nyeste forbedringene i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at vi må kopiere innholdet vårt, slik at det gjenspeiler produktet på en nøyaktig måte. 
@@ -42,11 +42,10 @@ Bare for å nevne noen eksempler inneholder vil videoene som kommer, vise hvorda
 
 * Overfører forretningsdata fra en annen økonomiapp til [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Definerer dimensjoner, slik at du kan spore og analysere ulike dokumenter og enheter
-* Kobler [!INCLUDE[d365fin](includes/d365fin_md.md)] til Microsoft Dynamics 365 for Sales
+* Koble [!INCLUDE[d365fin](includes/d365fin_md.md)] med Microsoft Dynamics 365 for Sales
 * Konfigurer arbeidsflyter for godkjenning  
-* Bruker Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+* Bruk Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Konfigurerer e-post og sender dokumenter direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)
-

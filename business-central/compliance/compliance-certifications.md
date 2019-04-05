@@ -2,21 +2,21 @@
 title: Sertifiseringer | Microsoft-dokumentasjon
 description: Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: a18bf59c9b1cfd5008d99e521109fb7d29efaf48
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802885"
 ---
 # <a name="certifications"></a>Sertifiseringer  
 Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -40,4 +40,3 @@ Business Central som en skytjeneste har også oppnådd sertifiseringer som ISO 2
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

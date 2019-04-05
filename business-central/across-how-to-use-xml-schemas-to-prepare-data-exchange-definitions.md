@@ -1,26 +1,26 @@
 ---
-title: "Opprette XML-porter på XML-skjemaer | Microsoft-dokumentasjon"
-description: "Bruk XML-skjemaer til å konfigurere rammeverket for dokumentutveksling."
+title: Opprette XML-porter på XML-skjemaer | Microsoft-dokumentasjon
+description: Bruk XML-skjemaer til å konfigurere rammeverket for dokumentutveksling.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 91f21f3b6382aee410ea1de51f371999ac86281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: fbbf44cd7a98598ed25dadeb4d6e3a8d37a0bfb0
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803400"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
 Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket for datautveksling [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke XML-skjemaer til å definere hvilke dataelementer du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette på siden **Visningsprogram for XML-skjema** ved å laste inn XML-skjemafilen, velge de aktuelle dataelementene og deretter initialisere en datautvekslingsdefinisjon eller en XMLport.  
 
- Når du har angitt hvilke dataelementer som skal inkluderes basert på XML-skjemaet, kan du bruke handlingen **Generer XML-port** til å opprette XML-portobjektet.  
+ Når du har angitt hvilke dataelementer som skal inkluderes basert på XML-skjemaet, kan du bruke handlingen **Generer XMLport** til å opprette XMLport-objektet.  
 
  Du kan eventuelt bruke handlingen **Generer datautvekslingsdefinisjon** for å initialisere en datautvekslingsdefinisjon basert på de valgte dataelementene, som du deretter fullfører i rammeverket for datautveksling. Dermed opprettes en post på siden **Definisjoner av bokføringsutveksling**, der du fortsetter ved å definere hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] som elementene i filen skal tilordnes til. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 
@@ -32,9 +32,9 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 -   Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
 
--   Slik genererer du en XML-port for filen som er basert på et XML-skjema:  
+-   Slik genererer du en XMLport for filen som er basert på et XML-skjema  
 
--   Slik importerer du en XML-port til Object Designer:  
+-   Slik importerer du en XMLport til Object Designer  
 
 ### <a name="to-load-an-xml-schema-file"></a>Slik laster du inn en XML-skjemafil:  
 
@@ -69,7 +69,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**XML-skjemakode**|Angi XML-skjemafilen du lastet inn i trinn 5 under "Slik laster du inn en XML-skjemafil".|  
-    |**Nytt XMLport-nummer**|Angi nummeret på XML-porten som opprettes fra dette XML-skjemaet når du velger handlingen **Generer XML-port**.|  
+    |**Ny XMLport nr.**|Angi nummeret på XMLport som opprettes fra dette XML-skjemaet når du velger handlingen **Generer XMLport**.|  
 
      Linjene er nå fylt med noder som representerer alle elementene i XML-skjemaet. Noder for elementer som er obligatoriske i henhold til XML-skjemaet blir valgt som standard.  
 
@@ -113,23 +113,22 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 > [!NOTE]  
 >  Du kan også bruke **Hent filstruktur**-funksjonen fra siden **Definisjoner av bokføringsutveksling**, som bruker funksjonaliteten på siden **Visningsprogram for XML-skjema** til å forhåndsutfylle hurtigfanen **Kolonnedefinisjoner**.  
 
-### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Slik genererer du en XML-port som er basert på et XML-skjema:  
+### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Slik genererer du en XMLport som er basert på et XML-skjema  
 
 1.  Skriv inn **XML-skjemaer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
 
 2.  Velg det aktuelle XML-skjemaet, og velg deretter **Åpne XML-skjemavisning** under **Prosess** i fanebladet **Hjem**.  
 
-3.  I feltet **Nytt XMLport-nummer** angir du nummeret som det nye XMLport-objektet blir gitt når det genereres.  
+3.  I feltet **Ny XMLport nr.** angir du nummeret som det nye XMLport-objektet blir gitt når det genereres.  
 
 4.  Kontroller at de aktuelle nodene er valgt. Hvis du vil ha mer informasjon, kan du se avsnittet "Slik velger eller fjerner du noder i et XML-skjema".  
 
 5.  I kategorien **Hjem** i **Prosess**-gruppen velger du **Generer XMLport**, og deretter lagrer du objektet som en TXT-fil på ønsket plassering.  
 
-6. Importer den nye XML-porten i [!INCLUDE[d365fin](includes/d365fin_md.md)]-utviklingsmiljøet, og kompiler den.
+6. Importer den nye XMLport i [!INCLUDE[d365fin](includes/d365fin_md.md)]-utviklingsmiljøet, og kompiler den.
 
 ## <a name="see-also"></a>Se også  
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)   
 [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)   
-[Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+[Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md)
-

@@ -1,23 +1,23 @@
 ---
 title: Definere hovedkalendere | Microsoft-dokumentasjon
-description: "Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen."
+description: Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b00871f4074af32500678642cae63850956bfce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 2b1820a65fd1e9cd4e41828caddd737e79a2a45b
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803288"
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
@@ -41,7 +41,7 @@ Når du oppretter en post, merkes det av for **Fridag**. Du kan velge å fjerne 
 
 > [!IMPORTANT]  
 >  En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager.
-Angir en datoformel for tiden det tar å etterfylle varen. Det brukes til å beregne feltet **Planlagt mottaksdato** hvis det beregner fremover, og feltet **Ordredato** hvis det beregner bakover. Se delen "Beregning av leveringstid".
+Angir en datoformel for tiden det tar å etterfylle varen. Det brukes til å beregne feltet **Planlagt mottaksdato** hvis det beregner fremover, og feltet **Ordredato** hvis det beregner bakover. Se [Beregning av leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Beregning av leveringstid
 En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager. De to datofeltene i bestillingslinjer beregnes på samme måte som følger under forskjellige betingelser.
@@ -55,7 +55,7 @@ En hvilken som helst basiskalender som er definert for leverandøren eller lokas
 > I tillegg til beregning av leveringstid som påvirker planlagt mottaksdato og ordredato, som vist i tabellen over, kan lagerhåndteringstid og sikkerhetsleveringstid legges til i formlene for å fylle ut verdien i feltet **Forventet mottaksdato** slik: planlagt mottaksdato + sikkerhetsleveringstid + inngående lagerhåndteringstid = forventet mottaksdato.
 
 > [!Important]
-> Hvis lokasjonen bruker en helt annen kalender enn leverandørene gjør, er det viktig at du definerer spesifikke kalendere for disse leverandørene, slik at du kan beregne optimale leveringstider for leverandørene. Hvis du vil ha informasjon om hvordan du definerer leverandørkalendere, kan du se delen "Slik tilordner du en hovedkalender".
+> Hvis lokasjonen bruker en helt annen kalender enn leverandørene gjør, er det viktig at du definerer spesifikke kalendere for disse leverandørene, slik at du kan beregne optimale leveringstider for leverandørene. Hvis du vil ha informasjon om hvordan du definerer leverandørkalendere, kan du se [Slik tilordner du en hovedkalender](across-how-to-assign-base-calendars.md#to-assign-a-base-calendar).
 
 Innholdet i feltet **Beregning av leveringstid** kopieres fra varekortet eller LFE-kortet hvis leveringstiden er definert for varen, eller på siden **Leverandørens varekatalog** hvis leveringstiden er definert for leverandøren.
 
@@ -119,4 +119,3 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 [Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

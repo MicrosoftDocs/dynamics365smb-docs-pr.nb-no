@@ -1,23 +1,23 @@
 ---
 title: Endre planleggingsforslag i en grafisk visning | Microsoft-dokumentasjon
-description: "En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning."
+description: En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 35b8694710f031d99e4cfb6b5e0927266d7559b9
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4de53621a71569579fa05092dca36d8301098ffe
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803462"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
 En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
@@ -42,7 +42,7 @@ Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av 
     Siden **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
 
 2.  Kontroller at feltet **Inluder planleggingsforslag** er valgt.  
-3.  Finn den foreslåtte forsyningsordren du vil endre. Den grønne sirkelen og diskikonet identifiserer elementer som kan endres. Hvis du vil ha mer informasjon om ulike symboler, kan du se "Symboler og ikoner" på hurtigfanen Tidslinje.  
+3.  Finn den foreslåtte forsyningsordren du vil endre. Den grønne sirkelen og diskikonet identifiserer elementer som kan endres. Hvis du vil ha mer informasjon om ulike symboler, kan du se [Symboler og ikoner på hurtigfanen Tidslinje](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
 4.  Plasser pekeren over den grønne sirkelen til den forstørres og pekeren endres til Flytt figur (fire piler).  
 5.  Trykk og hold museknappen nede mens du drar pekeren opp elle ned for å endre antallet. Trykk og hold museknappen nede mens du drar pekeren til venstre eller høyre for å endre forfallsdatoen.  
 6.  I tillegg til å flytte elementer ved å dra og slippe kan du endre planleggingsforslag ved å bruke flere ulike funksjoner på rullegardinmenyen. Åpne rullegardinmenyen på den grønne sirkelen til en foreslått forsyning og velg én av følgende funksjoner  
@@ -61,12 +61,12 @@ Hvis du vil implementere forsyningsplanendringene, må du følge de resulterende
 ## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler og ikoner på hurtigfanen Tidslinje
  |Symbol/ikon|Beskrivelse|  
  |------------------|---------------------------------------|  
- |Svart kryss|Bestillinger (både forsyning og behov).<br /><br /> - Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
- |Rød sirkel|Eksisterende forsyningsordrer som ikke finnes i planleggingsforslag.<br /><br /> - Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
- |Gul stjerne|Prognosekrav.<br /><br /> - Kan ikke endres.<br />- Vises når **Prognosenavn**-feltet har en verdi.<br /><br /> Når det er merket av for både **Vis beregnet beholdning** og **Inkluder planleggingsforslag**, har hver gule stjerne et tilknyttet motstykke i diagrammet rett overfor. Dette illustrerer hvordan en foreslått forsyning oppfyller prognostisert behov.|  
- |Grønn sirkel med et ikon som er formet som en disk med et rødt kryss|Foreslått forsyningsordre med handlingsmeldingen *Avbryt*.<br /><br /> - Kan ikke endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
- |Grønn sirkel med et ikon som er formet som en disk med en stjerne|Foreslåtte forsyningsordrer med handlingsmeldingen *Ny*.<br /><br /> - Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
- |Grønn sirkel med et ikon som er formet som en disk med én eller to piler|Foreslåtte forsyningsordrer med handlingsmeldingen *Tidsplanlegg på nytt*, *Endre ant.* eller *Tidsplanl. på nytt og endre ant.*<br /><br /> - Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).<br /><br /> Pilene gjenspeiler retningen for planleggingsforslaget. En venstrepil sammen med en oppoverpil gjenspeiler for eksempel handlingsmeldingen *Tidsplanl. på nytt og endre ant.*, som består av en ny planlegging bakover og en økning i antall.|  
+ |Svart kryss|Bestillinger (både forsyning og behov).<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
+ |Rød sirkel|Eksisterende forsyningsordrer som ikke finnes i planleggingsforslag.<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
+ |Gul stjerne|Prognosekrav.<br /><br /> -   Kan ikke endres.<br />-   Vises når **Prognosenavn**-feltet har en verdi.<br /><br /> Når det er merket av for både **Vis beregnet beholdning** og **Inkluder planleggingsforslag**, har hver gule stjerne et tilknyttet motstykke i diagrammet rett overfor. Dette illustrerer hvordan en foreslått forsyning oppfyller prognostisert behov.|  
+ |Grønn sirkel med et ikon som er formet som en disk med et rødt kryss|Foreslått forsyningsordre med handlingsmeldingen *Avbryt*.<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
+ |Grønn sirkel med et ikon som er formet som en disk med en stjerne|Foreslåtte forsyningsordrer med handlingsmeldingen *Ny*.<br /><br /> -   Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
+ |Grønn sirkel med et ikon som er formet som en disk med én eller to piler|Foreslåtte forsyningsordrer med handlingsmeldingen *Tidsplanlegg på nytt*, *Endre ant.* eller *Tidsplanl. på nytt og endre ant.*<br /><br /> -   Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).<br /><br /> Pilene gjenspeiler retningen for planleggingsforslaget. En venstrepil sammen med en oppoverpil gjenspeiler for eksempel handlingsmeldingen *Tidsplanl. på nytt og endre ant.*, som består av en ny planlegging bakover og en økning i antall.|  
 
 Når du åpner rullegardinmenyen for hurtigfanen **Tidslinje**, vises følgende funksjoner avhengig av hva du velger:  
 
@@ -99,4 +99,3 @@ I tillegg til tastaturhandlingene som ble nevnt tidligere, kan du også bruke f�
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

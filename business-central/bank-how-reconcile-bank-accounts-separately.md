@@ -2,7 +2,7 @@
 title: Avstemme bankkonti separat | Microsoft-dokumentasjon
 description: Beskriver hvordan lagerverdien avstemmes med finans.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: feb29e3cee1a55833566657a6a007af8854f98f5
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802460"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
 Hvis du skal avstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med oppgaver som er mottatt fra banken, begynner du med å fylle ut ruten til venstre på siden **Bankkontoavstemming** med bankoppgaveinformasjon, som du deretter avstemmer med bankkontopostene i den høyre ruten. En effektiv måte å fylle ut bankkontoutdragslinjer på, er å importere en bankkontoutdragsfil eller feed.
@@ -100,4 +100,3 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

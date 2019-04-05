@@ -1,8 +1,8 @@
 ---
 title: Knytte en ordre til en bestilling for direkte levering | Microsoft-dokumentasjon
-description: "Beskriver hvordan du oppretter en ordre som er koblet til en bestilling, for å sikre levering direkte fra leverandøren til kunden."
+description: Beskriver hvordan du oppretter en ordre som er koblet til en bestilling, for å sikre levering direkte fra leverandøren til kunden.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 77bed1563a5c0187e78f7e7013dfed4a723d7702
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 68af9892db003a2200bd0ceb9b9fa839952dce36
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803167"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
@@ -36,7 +36,7 @@ Hvis du vil klargjøre en direkte levering for varen som skal selges, oppretter 
 1. Opprett en bestilling. Ikke fyll ut noen felt på linjene. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 2. I feltet **Salg til-kundenr.** velger du kunden som du selger til.
 3. Velg **Direkte levering**-handlingen, og velg deretter **Hent ordre**-handlingen.
-4. På siden **Salgsliste** merker du ordren som du har forberedt i "Slik oppretter du en ordre med direkte levering".
+4. På siden **Salgsliste** merker du ordren som du har forberedt i [Slik oppretter du en ordre med direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Velg **OK**.
 
 Linjeinformasjonen fra ordren settes inn på bestillingslinjene.
@@ -50,7 +50,7 @@ Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ve
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
-2. Åpne ordren som du laget i "Slik oppretter du en ordre med direkte levering".
+2. Åpne ordren som du laget i [Slik oppretter du en ordre med direkte levering]().
 3. I **Levere (antall)**-feltet angir du hvor mye av ordreantallet som skal leveres, hele eller deler av ordreantallet.
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
@@ -63,4 +63,3 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 [Salg](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

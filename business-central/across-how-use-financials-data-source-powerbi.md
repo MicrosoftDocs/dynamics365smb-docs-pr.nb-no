@@ -1,6 +1,6 @@
 ---
-title: Definere rapportering for Business Central i Power BI | Microsoft-dokumentasjon
-description: "Gjør dataene tilgjengelige som en datakilde i Power BI og bygg kraftige rapporter om status for din bedrift."
+title: Definere rapportering for Business Central i Power BI | Microsoft Docs
+description: Gjør dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: ca4c27eaa1fe66e9bee678d6ec197fee7b928bdd
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803420"
 ---
 # <a name="using-included365finlongmdincludesd365finlongmdmd-as-power-bi-data-source-for-building-reports"></a>Bruke [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som datakilde for Power BI for å bygge rapporter
-Du kan gjøre [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-data tilgjengelig som en datakilde i Power BI og bygge kraftige rapporter om status for din bedrift.  
+Gjør [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.  
 
 Du må ha en gyldig konto med [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).  
 
 ## <a name="to-add-included365finlongmdincludesd365finlongmdmd-as-a-data-source-in-power-bi-desktop"></a>Legge til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] som en datakilde i Power BI Desktop
 1. I Power BI Desktop, i den venstre navigasjonsruten, velger du **Hent Data**.
-2. På **Hent Data**-siden velger du **Online Services**, velg **Microsoft Dynamics 365 Business Central**, og velg deretter **Koble til**-knappen.
+2. På siden **Hent Data** velger du **Online Services**, **Microsoft Dynamics 365 Business Central** og deretter **Koble til**-knappen.
 3. Power BI viser en veiviser som veileder deg gjennom [tilkoblingsprosessen](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md). Du blir bedt om å logge på servicen. Velg **Logg på** og kontoen du vil logge på som. Dette må være samme konto som du bruker til å logge på [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 4. Velg **Koble til**-knappen for å fortsette. Veiviseren for Power BI viser en liste over Microsoft [!INCLUDE[d365fin](includes/d365fin_md.md)]-selskaper og -datakilder. Disse datakildene representerer alle webtjenester som du har publisert fra hvert selskap i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
 5. Alternativt, opprette en ny web service URL i [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] ved hjelp av **Opprett datasett** på siden **Web Services** ved hjelp av **Sett opp rapportering** assistert installasjonsveiledningen eller ved å velge **Rediger i Excel** i lister.
@@ -38,7 +38,7 @@ Når dataene er lastet inn, vil de vises i høyre navigering på siden. Nå har 
 
 Før du lager rapporten, anbefales det at du importerer Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-teamfilen.  Temafilen oppretter en fargepalett slik at du kan lage rapporter med samme fargestil som Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-innholdspakkene uten at du må definere egendefinerte farger for hver visuell effekt.
 
-Hvis du ønsker mer informasjon, se [Power BI-dokumentasjonen](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
+Hvis du vil ha mer informasjon, kan du se [Power BI-dokumentasjon](https://powerbi.microsoft.com/documentation/powerbi-landing-page/).
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  
@@ -47,4 +47,3 @@ Hvis du ønsker mer informasjon, se [Power BI-dokumentasjonen](https://powerbi.m
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)   
 [Finans](finance.md)  
 [Koble Power BI til [!INCLUDE[d365fin](includes/d365fin_md.md)]](across-how-to-connect-powerbi-dynamics-365-content-packs-help.md)  
-

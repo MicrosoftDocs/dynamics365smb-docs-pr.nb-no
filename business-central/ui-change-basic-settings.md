@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 11/19/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 353662322e36a564f30bc911f056817cafa7440c
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802939"
 ---
 # <a name="changing-basic-settings"></a>Endre grunnleggende innstillinger
 På siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central") kan du se og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Endringene du gjør, påvirker bare arbeidsområdet, ikke arbeidsområdene til andre brukere.  
@@ -36,7 +36,7 @@ Standard rollesenter er **Forretningsleder**, men du kan velge et annet rollesen
 ## <a name="company"></a>Selskap
 Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen.
 
-Standardfirma kalles CRONUS, og inneholder demonstrasjonsdata bare.
+Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare.
 
 > [!TIP]  
 >   Hvis du vil vise et annet navn for selskapet i programmet (for eksempel i rollesenteret), angir du **Navn**-feltet på siden **Selskapsopplysninger** eller **Visningsnavn** på **Selskaper**-siden.  
@@ -65,4 +65,3 @@ Velg denne koblingen for å vise eller endre varslingene som du får om bestemte
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-

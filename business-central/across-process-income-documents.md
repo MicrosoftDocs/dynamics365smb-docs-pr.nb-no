@@ -1,8 +1,8 @@
 ---
-title: "Behandle inngående dokumenter | Microsoft-dokumentasjon"
-description: "For å registrere et eksternt dokument i Business Central, for eksempel en PDF, må du først opprette eller fullføre en innkommende dokumentpost."
+title: Behandle inngående dokumenter | Microsoft-dokumentasjon
+description: For å registrere et eksternt dokument i Business Central, for eksempel en PDF, må du først opprette eller fullføre en innkommende dokumentpost.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 62400d6e5f6e67aca59ce836e9f20400e7b37635
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803749"
 ---
 # <a name="processing-incoming-documents"></a>Behandle inngående dokumenter
 For å registrere et eksternt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)] må du først opprette eller fullføre en innkommende dokumentpost. Du kan gjøre dette manuelt, eller du kan ta et bilde av det eksterne dokumentet og deretter opprette den inngående dokumentposten med bildefilen som vedlegg.
@@ -36,4 +36,3 @@ Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekste
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

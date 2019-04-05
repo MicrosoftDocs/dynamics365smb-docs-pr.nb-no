@@ -1,8 +1,8 @@
 ---
 title: Forsikre aktiva | Microsoft-dokumentasjon
-Description: You can assign a fixed asset to an insurance policy, which is represented by an insurance card.
+Description: Du tilordne et aktivum til en forsikringspolise, som representeres av et forsikringskort.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: bf30a9b9e783cbd9e54576a76369fc33647b3af3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 774d578d6dfe0533bfc900f796dfe39383ad869b
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803255"
 ---
 # <a name="insure-fixed-assets"></a>Forsikre aktiva
 En forsikringspolise for et aktiva representeres av et forsikringskort. Du kan tilordne ett aktiva til én forsikringspolise eller flere aktiva til én forsikringspolise.
 
 Du kan tilordne et aktiva til en forsikringspolise ved å bokføre i forsikringsdekningsposten fra **Forsikringskladd**-siden.
 
-I tillegg kan du tilordne et aktiva til en forsikringspolise og opprette forsikringsdekningsposter når du bokfører anskaffelseskostnaden. Du gjør dette ved å bokføre en anskaffelseskost fra aktivakladden med **Forsikringsnr.**-feltet fylt ut. **Autom. forsikringsbokføring** må være avmerket på **Aktivaoppsett**-siden. Hvis du vil ha mer informasjon, kan du se avsnittet Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden i [Anskaffe aktiva](fa-how-acquire.md).
+I tillegg kan du tilordne et aktiva til en forsikringspolise og opprette forsikringsdekningsposter når du bokfører anskaffelseskostnaden. Du gjør dette ved å bokføre en anskaffelseskost fra aktivakladden med **Forsikringsnr.**-feltet fylt ut. **Autom. forsikringsbokføring** må være avmerket på **Aktivaoppsett**-siden. Hvis du vil ha mer informasjon, se [Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
 Hvis **Autom. forsikringsbokføring** på **Aktivaoppsett**-siden ikke er valgt, vil bokføring av anskaffelser fra aktivakladden opprette linjer på **Forsikringskladd**-siden, som du deretter må bokføre manuelt.
 
@@ -119,4 +119,3 @@ Aktivaet frigjøres fra den gale forsikringspolisen på den andre linjen, og kny
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

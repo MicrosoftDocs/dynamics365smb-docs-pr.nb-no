@@ -1,8 +1,8 @@
 ---
 title: Forretningsintelligens | Microsoft-dokumentasjon
-description: "Registrer og analyser forretningsdata, for eksempel salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, som kan være verdifull informasjon for forretningsintelligens eller beslutningstaking."
+description: Registrer og analyser forretningsdata, for eksempel salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, som kan være verdifull informasjon for forretningsintelligens eller beslutningstaking.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 702ebfd345c7f2e09f7d84105d7d0a3e76f0550f
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803480"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
 Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
@@ -42,9 +42,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Finans](finance.md)    
 [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
-[Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)(across-import-data-configuration-packages.md)  
+[Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

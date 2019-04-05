@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Bokføre produksjonsordre | Microsoft-dokumentasjon"
-description: "De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer."
+title: Designdetaljer – Bokføre produksjonsordre | Microsoft-dokumentasjon
+description: De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: b71f12ad075197f1630e681b826ec3dff1f4ddff
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803347"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.
@@ -46,10 +46,10 @@ Avhengig av beholdningstype representeres økninger og reduksjoner av ulike tran
 
 ||Økninger|Nedganger|  
 |-|---------------|---------------|  
-|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruk|Materialforbruk|  
-|**VIA-beholdning**|-   Materialforbruk<br />-   Kapasitetsforbruk<br />-   Indir. prod.kostnader|Avgang av sluttvarer (kostnader for produserte varer)|  
+|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruket|Materialforbruk|  
+|**VIA-beholdning**|-   Materialforbruk<br />-   Kapasitetsforbruk<br />-   Indirekte produksjonskostnader|Avgang av sluttvarer (kostnader for produserte varer)|  
 |**Ferdige varer på lager**|Avgang av sluttvarer (kostnader for produserte varer)|-   Salg (solgte varers kost)<br />-   Negativ avgang|  
-|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruk|Materialforbruk|  
+|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruket|Materialforbruk|  
 
 Verdiene til økninger og reduksjoner registreres i ulike typer produsert beholdning på samme måte som for kjøpt beholdning. Hver gang det foregår en transaksjon for lagerøkning eller -reduksjon, opprettes det en varepost og en tilsvarende post i Finans for beløpet. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
 
@@ -112,4 +112,3 @@ I standardkostmiljøer er kostberegning for en produksjonsordre basert på følg
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeide med Business Central](ui-work-product.md)
-

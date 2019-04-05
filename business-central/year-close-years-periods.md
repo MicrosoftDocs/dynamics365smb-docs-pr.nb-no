@@ -1,8 +1,8 @@
 ---
 title: Lukke en regnskapsperiode og regnskapsperioder | Microsoft-dokumentasjon
-description: "Gir en oversikt over oppgavene for å lukke for eksempel et regnskapsår eller en regnskapsperiode og sørge for at dokumenter og kladder er bokført, og for å kontrollere banksaldoer."
+description: Gir en oversikt over oppgavene for å lukke for eksempel et regnskapsår eller en regnskapsperiode og sørge for at dokumenter og kladder er bokført, og for å kontrollere banksaldoer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 8ecd532a043ad53b7a1d5d6c38e87a7102407003
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802462"
 ---
 # <a name="closing-years-and-periods"></a>Avslutte år og perioder
 På slutten av et regnskapsår er det en rekke administrative oppgaver som du må utføre, for eksempel å passe på at alle dokumenter og kladder bokføres, pass på at valutadataene er oppdaterte, avslutte tablåer, og mye mer. De faktiske oppgavene avhenger av firmaet.
@@ -42,4 +42,3 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

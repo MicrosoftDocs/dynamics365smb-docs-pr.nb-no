@@ -1,23 +1,23 @@
 ---
-title: "Vise belastning på arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon"
+title: Vise belastning på arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon
 description: Fra **Arbeidssenter**-kortet kan du vise belastningen i arbeidssentrene som et resultat av frigitte produksjonsordrer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 5a740651cd2413415076f2a29726793f0c36db02
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803407"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastning på arbeidssentre og produksjonsressurser
 På sidene **Arbeidssenterkort** og **Maskinsenterkort** kan du vise produksjonsbelastningen som et resultat av planlagte og frigitte produksjonsordrer.    
@@ -35,4 +35,3 @@ Bruk feltene **Vis etter** og **Vis som** på hurtigfanen **Alternativer** til �
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

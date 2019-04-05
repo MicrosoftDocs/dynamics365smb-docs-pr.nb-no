@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Tabellstruktur | Microsoft-dokumentasjon"
-description: "For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen."
+title: Designdetaljer – Tabellstruktur | Microsoft-dokumentasjon
+description: For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/11/2019
 ms.author: sgroespe
+ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 900605cd276698e3e6146d18e36ed18363b6c99c
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802801"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.  
@@ -26,7 +26,7 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
  Tre nye tabeller er utformet for å behandle dimensjonssettposter.  
 
 ### <a name="table-480-dimension-set-entry"></a>Tabell 480 Dimensjonssettpost  
- Tabell 480 **Dimensjonssettpost** er en ny tabell. Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem. Sletting av data krever at du kontrollerer mot alle forekomster av dimensionssett-IDen i hele databasen, herunder partnerløsninger.  
+ Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +37,8 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |5|**Dimensjonsnavn**|Tekst 30|CalcField. Oppslag i tabell 348.|  
 |6|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-#### <a name="table-481-dimension-set-tree-node"></a>Tabell 481 Trenode for dimensjonssett  
- Tabell 481 **Trenode for dimensjonssett** er en ny tabell. Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
+### <a name="table-481-dimension-set-tree-node"></a>Tabell 481 Trenode for dimensjonssett  
+ Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +47,8 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |3|**Dimensjonssett-ID**|Heltall|AutoIncrement. Brukes i felt 1 i tabell 480.|  
 |4|**I bruk**|Boolsk|Usann hvis ikke i bruk.|  
 
-##### <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Reklass. dimensjonssettbuffer  
- Tabell 482 **Reklass. dimensjonssettbuffer** er en ny tabell. Tabellen brukes til å redigere en dimensjonssett-ID. Dette er nødvendig når du redigerer en dimensjonsverdikode og en ny dimensjonsverdikode, for eksempel i tabellen **Varereklassif.kladd**.  
+### <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Reklass. dimensjonssettbuffer  
+ Tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en varepost ved hjelp av siden **Varereklassifiseringskladd**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +71,7 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-#### <a name="changes-to-table-83-item-journal-line"></a>Endringer i varekladdlinje for tabell 83  
+### <a name="changes-to-table-83-item-journal-line"></a>Endringer i varekladdlinje for tabell 83  
  To nye felt er lagt til i tabell 83 **Varekladdelinje**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -79,14 +79,14 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 |481|**Ny dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-##### <a name="changes-to-table-349-dimension-value"></a>Endringer av dimensjonsverdi for tabell 349  
+### <a name="changes-to-table-349-dimension-value"></a>Endringer av dimensjonsverdi for tabell 349  
  Et nytt felt er lagt til tabell 349 **Dimensjonsverdi**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensjonsverdi-ID**|Heltall|AutoIncrement. Brukes til referanser i tabell 480 og tabell 481.|  
 
-###### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller som får det nye feltet 480 Dimensjonssett-ID  
+### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller som får det nye feltet 480 Dimensjonssett-ID  
  Et nytt felt, 480 **Dimensjonssett-ID**, er lagt til tabellene nedenfor. For tabellene som inneholder bokførte data vil feltet bare inneholde en ikke-redigerbar visning av dimensjoner, som er markert som detaljer. Feltet kan redigeres for tabeller som inneholder arbeidsdokumenter. Buffertabellene som brukes internt, trenger ikke redigerbar eller ikke-redigerbar funksjonalitet.  
 
  Felt 480 kan ikke redigeres i tabellene nedenfor.  
@@ -195,4 +195,3 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
  [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
  [Designdetaljer: Dimensjonsbehandling for kodeenhet 408](design-details-codeunit-408-dimension-management.md)   
  [Designdetaljer: Kodeeksempler på endrede mønstre i endringer](design-details-code-examples-of-changed-patterns-in-modifications.md)
-

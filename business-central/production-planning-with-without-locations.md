@@ -1,23 +1,23 @@
 ---
 title: Planlegge med/uten lokasjoner | Microsoft-dokumentasjon
-description: "Det er viktig å forstå planlegging med eller uten lokasjonskoder på behovslinjer."
+description: Det er viktig å forstå planlegging med eller uten lokasjonskoder på behovslinjer.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 211f990e21c8c0a5c6d1705de5345be20adae4d7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: a2043b50e9f398839034c87e8f0fb42f68d8c036
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802526"
 ---
 # <a name="planning-with-or-without-locations"></a>Se Planlegge med/uten lokasjoner.
 Når det gjelder planlegging med eller uten lokasjonskoder på behovslinjer, fungerer planleggingssystemet på ordinær måte når:  
@@ -146,4 +146,3 @@ Hvis du ofte planlegger for behov i lokasjoner, anbefaler vi derfor på det ster
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

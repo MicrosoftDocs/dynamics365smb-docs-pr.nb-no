@@ -1,25 +1,24 @@
 ---
-title: "Definere feilrapportering i servicehåndtering | Microsoft-dokumentasjon"
+title: Definere feilrapportering i servicehåndtering | Microsoft-dokumentasjon
 description: Finn ut hvordan du definerer feilrapporteringsprosesser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803004"
 ---
-
 # <a name="set-up-fault-reporting"></a>Konfigurere feilrapportering
 Feilrapportering lar deg opprette standarder for å registrere feilinformasjon for servicevarer. Du kan for eksempel angi hva problemet er, hvilke symptomene du ser, årsaken til problemet og hvordan du løse det.  
 
@@ -49,4 +48,3 @@ Når du skal fullføre definisjonen av feilrapportering, kan du også angi hvilk
 ## <a name="see-also"></a>Se også
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicehåndtering](service-service.md)  
-

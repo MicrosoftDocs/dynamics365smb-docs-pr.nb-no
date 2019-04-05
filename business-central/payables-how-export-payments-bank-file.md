@@ -1,6 +1,6 @@
 ---
 title: Eksportere betalinger til en fil for elektronisk betaling | Microsoft dokumenter
-description: "Du foretar leverandørbetalinger ved å aktivere en konverteringstjeneste for bankdata, eksportere en bankfil og laste opp filen til den elektroniske banken for å overføre midlene."
+description: Du foretar leverandørbetalinger ved å aktivere en konverteringstjeneste for bankdata, eksportere en bankfil og laste opp filen til den elektroniske banken for å overføre midlene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.keywords: bank file export, re-export, bank transfer, AMC, bank data c
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 14015c089e3cd6db19a12fe4eed72d523f3aefc5
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802798"
 ---
 # <a name="export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 Når du er klar til å utføre betalinger til leverandører eller refusjoner til de ansatte, kan du eksportere en fil med betalingsinformasjonen for linjene på siden **Betalingskladd**. Du kan deretter laste opp filen til banken for å behandle de relaterte pengeoverføringene.
@@ -81,4 +81,3 @@ Du kan eksportere betalingsfiler på nytt fra siden **Kredittoverføringsregistr
 [Kjøp](payables-manage-payables.md)  
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

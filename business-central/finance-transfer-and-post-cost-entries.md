@@ -1,23 +1,23 @@
 ---
-title: "Overføre og bokføre kostposter | Microsoft-dokumentasjon"
-description: "Før du definerer kostfordelinger, må du forstå hvor kostposter kommer fra."
+title: Overføre og bokføre kostposter | Microsoft-dokumentasjon
+description: Før du definerer kostfordelinger, må du forstå hvor kostposter kommer fra.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/13/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 43213f5d9e3056bdaa073624cd247e14b9925c1b
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802385"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overføre og bokføre kostposter
 Før du definerer kostfordelinger, må du forstå hvordan kostposter kommer fra følgende kilder:  
@@ -103,4 +103,3 @@ I **Kostjournal**-tabellen oppretter [!INCLUDE[d365fin](includes/d365fin_md.md)]
  [Definere kost.regnskap](finance-set-up-cost-accounting.md)   
  [Definere og fordele kostnader](finance-define-and-allocate-costs.md)   
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
-

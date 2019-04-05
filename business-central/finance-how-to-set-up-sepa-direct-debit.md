@@ -1,22 +1,22 @@
 ---
 title: Definere SEPA Direct Debit | Microsoft-dokumentasjon
-description: "Lær hvordan du definerer SEPA Direct Debit i Business Central."
+description: Lær hvordan du definerer SEPA Direct Debit i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 9e2ef9ec3b454e5a9bb5097ba3ed30c5756d2352
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: c5d14102299140fd93ec586d0ef6165d1408505d
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802655"
 ---
 # <a name="set-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
 Fra **Direct Debit-oppkrevinger**-siden kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter formatet for SEPA Direct Debit, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.  
@@ -76,8 +76,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
  Direct debitbelastningsfullmakten fylles automatisk ut i feltet **ID for Direct Debit-belastningsfullmakt** når du oppretter en salgsfaktura for kunden som du valgte i trinn 2. Hvis du vil ha mer informasjon, kan du se [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md).  
 
 ## <a name="see-also"></a>Se også  
-[Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
 [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)
 [Utveksle data elektronisk](across-data-exchange.md)
-

@@ -1,8 +1,8 @@
 ---
 title: Definere webkilder for kontaktselskaper | Microsoft-dokumentasjon
-description: "Du kan definere Internett-kilder eller webkilder og tilordne dem til et kontaktselskap for å bidra til å identifisere hvor du vil søke etter informasjon om kontaktene."
+description: Du kan definere Internett-kilder eller webkilder og tilordne dem til et kontaktselskap for å bidra til å identifisere hvor du vil søke etter informasjon om kontaktene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: internet
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: 22b9f0be189fa24f366c1ffa20934d2d8e7e8fc5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d7a02a85e65a663bc304becd8392e949d485f13a
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803202"
 ---
 # <a name="set-up-web-sources-for-contact-companies"></a>Definere webkilder for kontaktselskaper
 Du kan for eksempel bruke webkilder med kontaktselskaper for å identifisere søkemotorer og webområder på Internett, som du vil bruke til å søke etter informasjon om kontaktene. Når du tilordner webkilder, angir du hvilken søkemotor og søkeord programmet skal bruke for å finne de forespurte opplysningene.
@@ -30,7 +30,7 @@ Bruk av webkilder på kontakter er en totrinnsprosess. Først må du definere ko
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene **Kode**, **Beskrivelse** og **URL**.
 
-    Skriv inn %1 i feltet **Nettadresse** for å sette inn en plassholder for et søkeord i nettadressen. Når du starter webkilden fra et kontaktkort, erstattes %1 med søkeordet (for eksempel navnet på selskapet) som du angav på siden **Kontaktens webkilder**.
+    Skriv inn %1 i feltet **URL-adresse** for å sette inn en plassholder for et søkeord i nettadressen. Når du starter webkilden fra et kontaktkort, erstattes %1 med søkeordet (for eksempel navnet på selskapet) som du angav på siden **Kontaktens webkilder**.
 
 Gjenta disse trinnene hvis du vil definere flere webkilder.
 
@@ -47,6 +47,5 @@ Gjenta disse trinnene hvis du vil tilordne flere webkilder.
 Ved å følge samme fremgangsmåte kan du også tilordne webkilder på siden **Kontaktoversikt**.
 
 ## <a name="see-also"></a>Se også
-[Opprette kontaktselskaper](marketing-create-contact-companies.md)  
+[Opprette kontakter](marketing-create-contact-companies.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

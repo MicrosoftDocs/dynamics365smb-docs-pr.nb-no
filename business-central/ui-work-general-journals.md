@@ -1,20 +1,20 @@
 ---
-title: "Bruke finanskladder til å bokføre direkte i Finans | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du bruker kladder til å bokføre finanstransaksjoner på finanskonti og andre konti, for eksempel bank-, kunde- og leverandørkonti."
+title: Bruke finanskladder til å bokføre direkte i Finans | Microsoft-dokumentasjon
+description: Finn ut hvordan du bruker kladder til å bokføre finanstransaksjoner på finanskonti og andre konti, for eksempel bank-, kunde- og leverandørkonti.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/27/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: ddcda93c59df3f8390dc3852595d4f07f03648f5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f715dc4994fb3507d73f44bc9adc689f6d3f71cb
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803215"
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 
@@ -35,7 +35,7 @@ Opplysningene du angir i en kladd, er midlertidige og kan endres mens de fortsat
 
 ## <a name="using-journal-templates-and-batches"></a>Bruke kladder og kladdemaler
 
-Det finnes flere finanskladdemaler. Hver kladdemal er representert på en egen side med bestemte funksjoner og feltene som er nødvendige for å støtte disse funksjonene, for eksempel siden **Betalingsavstemmingskladd** for å behandle betalinger og **Betalingskladd** for å betale leverandører eller gi ansatte refusjon. Hvis du vil ha mer informasjon, kan du se [Foreta betalinger](payables-make-payments.md) og [Avstemme kundebetalinger manuelt](receivables-how-apply-sales-transactions-manually.md).
+Det finnes flere finanskladdemaler. Hver kladdemal er representert på en egen side med bestemte funksjoner og feltene som er nødvendige for å støtte disse funksjonene, for eksempel siden **Betalingsavstemmingskladd** for å behandle betalinger og **Betalingskladd** for å betale leverandører eller gi ansatte refusjon. Hvis du vil ha mer informasjon, se [Foreta betalinger](payables-make-payments.md) og [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md).
 
 Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladdemal. Du kan for eksempel definere din egen kladd for betalingskladden som har personlig oppsett og innstillinger. Tipset nedenfor er et eksempel på hvordan du kan tilpasse en kladd.
 
@@ -49,7 +49,7 @@ Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **
 >   Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbeide med gjentakelseskladder
-En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se delen "Fordeler gjentakelseskladden til flere konti".
+En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
 
 Når kladden er en gjentakelseskladd, trenger du bare å fylle ut feltene som skal bokføres jevnlig, én gang. Det vil si at kontiene, dimensjonene og dimensjonsverdiene og så videre som du angir, forblir i kladden etter bokføring. Hvis eventuelle justeringer er nødvendig, kan du gjøre det ved hver bokføring.
 
@@ -60,7 +60,7 @@ Dette feltet angir hvordan beløpet på kladdelinjen skal bli behandlet etter bo
 | --- | --- |
 |Fast|Beløpet på kladdelinjen vil bli stående etter bokføring.|
 |Variabel|Beløpet på kladdelinjen vil bli slettet etter bokføring.|
-|Saldo|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i tabellen Fordeling. Saldoen på kontoen blir på denne måten nullstilt. Husk å fylle ut feltet **Andel i pst.** på siden **Fordelinger**. Hvis du vil ha mer informasjon, kan du se delen "Fordeler gjentakelseskladden til flere konti".|
+|Saldo|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i tabellen Fordeling. Saldoen på kontoen blir på denne måten nullstilt. Husk å fylle ut feltet **Andel i pst.** på siden **Fordelinger**. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
 |Fast med tilbakeføring|Beløpet på kladdelinjen vil bestå etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
 |Variabel med tilbakeføring|Beløpet på kladdelinjen vil bli slettet etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
 |Saldo med tilbakeføring|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, på siden **Fordelinger**. Saldoen på kontoen blir satt til null, og en motpost bokførtes på den etterfølgende datoen.|
@@ -69,7 +69,7 @@ Dette feltet angir hvordan beløpet på kladdelinjen skal bli behandlet etter bo
 >  Mva. feltene kan fylles ut på gjentakelseskladdelinjen eller på fordelingskladdelinjen, men aldri på begge. Det vil si at disse feltene bare kan fylles ut på siden **Fordelinger** hvis tilsvarende linjer i gjentakelseskladden ikke er fylt ut.
 
 ### <a name="recurring-frequency-field"></a>Feltet Gjentakelsesintervall
-Dette feltet angir hvor ofte linjen på kladdelinjen skal bokføres. Det er et datoformelfelt, og det må fylles ut for gjentakende kladdelinjer. Hvis du vil ha mer informasjon, kan du se delen "Bruke datoformler" i [Skrive inn data](ui-enter-data.md).
+Dette feltet angir hvor ofte linjen på kladdelinjen skal bokføres. Det er et datoformelfelt, og det må fylles ut for gjentakende kladdelinjer. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
 #### <a name="examples"></a>Eksempler
 Hvis kladdelinjen skal bokføres hver måned, setter du inn "1M". Etter hver bokføring vil datoen i feltet **Bokføringsdato** bli oppdatert til samme dato neste måned.
@@ -164,4 +164,3 @@ Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnumme
 [Fordele kostnader og inntekter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

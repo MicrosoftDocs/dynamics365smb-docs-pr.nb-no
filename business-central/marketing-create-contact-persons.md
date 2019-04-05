@@ -1,6 +1,6 @@
 ---
 title: Opprette kontaktpersoner | Microsoft-dokumentasjon
-description: "Gir en oversikt over oppgavene for å opprette et kontaktkort for en person, for eksempel et prospekt eller en leverandør, noe som bidrar til å definere relasjonen og tilpasse kommunikasjon."
+description: Gir en oversikt over oppgavene for å opprette et kontaktkort for en person, for eksempel et prospekt eller en leverandør, noe som bidrar til å definere relasjonen og tilpasse kommunikasjon.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 12/07/2018
+ms.date: 02/26/2019
 ms.author: jswymer
+redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: 871e2c2fe75d5c14299651ab278aee9140430d19
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 80ab4bd8fe9a5c74f52a334cf8c4a0a297c01bd9
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802709"
 ---
 # <a name="creating-contact-persons"></a>Opprette kontaktpersoner
 Du oppretter en kontakt ved å sette opp et kontaktkort for personen. Du kan opprette kontaktpersoner fra eksisterende kontaktbedrifter, eller du kan opprette uavhengige kontaktpersoner.
@@ -44,8 +45,6 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 >   Innholdet i feltene som du har valgt i inndelingen **Arv** på siden **Markedsføringsoppsett**, kopieres fra selskapet til personene i selskapet.
 
 ## <a name="see-also"></a>Se også
-[Opprette kontaktselskaper](marketing-create-contact-companies.md)  
-[Opprette kontaktpersoner](marketing-create-contact-persons.md)  
+[Opprette kontakter](marketing-create-contact-companies.md)  
 [Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeide med Business Central](ui-work-product.md)
-

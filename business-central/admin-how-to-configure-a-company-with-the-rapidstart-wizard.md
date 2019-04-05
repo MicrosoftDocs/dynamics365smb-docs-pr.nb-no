@@ -2,22 +2,22 @@
 title: Konfigurere et selskap med RapidStart-veiviseren | Microsoft-dokumentasjon
 description: Du kan raskt konfigurere et nytt selskap du har opprettet, ved hjelp av konfigurasjonsveiviseren for RapidStart Services.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 63120671100b7caac7f3cb08bd3fbbcd1d29ff5c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
-ms.openlocfilehash: 4dd595fabbf8e4cd2a3eef73a934922dfea92858
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803272"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere et selskap med RapidStart-veiviseren
 Du kan raskt konfigurere et nytt selskap du har opprettet, ved hjelp av konfigurasjonsveiviseren for RapidStart Services.
@@ -33,7 +33,7 @@ I fremgangsmåten nedenfor har du gitt kunden konfigurasjonspakken, som deretter
 
     1. Bruk konfigurasjonen ved å velge handlingen **Bruk pakke**. Dette importerer konfigurasjonspakken og bruker alle databasedata i pakken samtidig.  
 
-    2. Se gjennom konfigurasjonen etter at den er tatt i bruk. Med dette alternativet kan du se gjennom konfiguasjonsdetaljer og spørreskjemaer som er levert av partneren, og importere noen hoveddata som kreves for firmaet. Velg handlingen **Konfigurasjonsforslag**. Hvis du vil ha mer informasjon, kan du se delen Fullføre konfigurasjonsspørreskjemaet i [Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md).  
+    2. Se gjennom konfigurasjonen etter at den er tatt i bruk. Med dette alternativet kan du se gjennom konfiguasjonsdetaljer og spørreskjemaer som er levert av partneren, og importere noen hoveddata som kreves for firmaet. Velg handlingen **Konfigurasjonsforslag**. Hvis du vil ha mer informasjon, kan du se [Fullføre konfigurasjonsspørreskjemaet](admin-gather-customer-setup-values.md#to-complete-the-configuration-questionnaire).  
 
 6. Vis hurtigfanen **Trinn 5**. Angi hvilket rollesenter som skal være standard for det nye selskapet.  
 
@@ -51,4 +51,3 @@ Du har nå konfigurert selskapet og brukt data i det.
 [Bruke konfigurasjoner for nye selskaper](admin-apply-configuration-to-new-companies.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
-

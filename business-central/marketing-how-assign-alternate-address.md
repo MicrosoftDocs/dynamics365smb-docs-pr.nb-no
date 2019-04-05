@@ -2,7 +2,7 @@
 title: Tilordne en annen kontaktadresse | Microsoft-dokumentasjon
 description: Beskriver hvordan du tilordner en alternativ adresse for kontakter eller prospekter som informasjon av og til sendes til.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-setup-contacts
+ms.openlocfilehash: d069a22603a969220a62e2c7458cb6259cfbc630
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4f036800f7d9e83fdeacb827bb195f1f36b6a38e
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802670"
 ---
 # <a name="set-up-alternative-addresses-for-contacts"></a>Definere alternative adresser for kontakter
 Du kan tilordne en alternativ adresse hvis det hender at du for eksempel sender post og informasjon til kontaktens sommerhus. Hvis du vil angi når hver enkelt adresse er gyldig, kan du også tilordne ett eller flere datointervall til hver alternative adresse du har angitt for kontaktene.
@@ -43,4 +43,3 @@ Gjenta disse trinnene hvis du vil tilordne flere datointervaller.
 ## <a name="see-also"></a>Se også
 [Opprette kontaktselskaper](marketing-create-contact-companies.md)  
 [Arbeide med Business Central](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Feilsøke registrering for Self-Service | Microsoft-dokumentasjon"
-description: "Finn ut mer om de vanligste årsakene til at du kanskje ikke kan fullføre registreringen for Business Central og hvordan du kan løse dem."
+title: Feilsøke registrering for Self-Service | Microsoft-dokumentasjon
+description: Finn ut mer om de vanligste årsakene til at du kanskje ikke kan fullføre registreringen for Business Central og hvordan du kan løse dem.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 1774492a94b271843ff5ae5bdd11ad285f48c7a3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7664360941313da6ea0b797ef00df2e9810ad62
-ms.openlocfilehash: de07dac85b9e24f50eb60570630feb6199089ec4
-ms.contentlocale: nb-no
-ms.lasthandoff: 07/09/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802988"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Feilsøke registrering for Self-Service
 Registrering for [!INCLUDE[d365fin](includes/d365fin_md.md)] er enkelt og kan gjøres svært raskt. Du kan opprette en gratis konto selv om du er en eksisterende organisasjon. Denne artikkelen beskriver problemer som kan oppstå under registrering.
@@ -30,10 +30,10 @@ I mange tilfeller kan du registrere deg for [!INCLUDE[d365fin](includes/d365fin_
 | Symptom/feilmelding | Årsak og løsning |
 | --- | --- |
 | For e-postadresser for Office 365 som ikke er registrert i et land som støttes, kan du få en melding som følgende, under registrering:<br /><br />**Dette fungerte ikke. Vi støtter ikke landet eller området ennå.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter for øyeblikket bare e-postkontoer for Office 365 som er registrert i et begrenset antall markeder. Hvis du vil ha mer informasjon, kan du se [Tilgjengelighet i områder](#regional-availability). |
-| Personlige e-postadresser, som nancy@gmail.com, støttes ikke. Du får en feilmelding som følgende, under registrering:<br /><br />**Du har angitt en personlig e-postadresse: Skriv inn e-postadressen for arbeid, slik at vi kan lagre firmaets data på en sikker måte.**<br> eller <br> **Dette ser ut som en personlig e-postadresse. Skriv inn adressen til arbeid, slik at vi kan koble til andre i firmaet. Og ikke bekymre deg. Vi deler ikke adressen din med andre.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Hvis du vil fullføre registreringen, kan du prøve på nytt med en e-postadresse som er tilordnet arbeid eller skole. Hvis du fremdeles ikke kan registrere deg og er villig til å fullføre et mer avansert oppsett, kan du registrere for et nytt prøveabonnement for Office 365 og bruke den e-postadressen til å registrere deg. |
+| Personlige e-postadresser, som nancy@gmail.com støttes ikke. Du får en feilmelding som følgende, under registrering:<br /><br />**Du har angitt en personlig e-postadresse: Skriv inn e-postadressen for arbeid, slik at vi kan lagre firmaets data på en sikker måte.**<br> eller <br> **Dette ser ut som en personlig e-postadresse. Skriv inn adressen til arbeid, slik at vi kan koble til andre i firmaet. Og ikke bekymre deg. Vi deler ikke adressen din med andre.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Hvis du vil fullføre registreringen, kan du prøve på nytt med en e-postadresse som er tilordnet arbeid eller skole. Hvis du fremdeles ikke kan registrere deg og er villig til å fullføre et mer avansert oppsett, kan du registrere for et nytt prøveabonnement for Office 365 og bruke den e-postadressen til å registrere deg. |
 | .gov- eller .mil e-postadresser Du mottar en melding som følgende, under registrering:<br /><br />**[!INCLUDE[d365fin](includes/d365fin_md.md)] ikke tilgjengelig: [!INCLUDE[d365fin](includes/d365fin_md.md)] er ikke tilgjengelig for brukere med e-postadressene .gov eller .mil på dette tidspunktet. Bruk en annen e-postadresse for arbeid eller kom tilbake senere.** <br>eller <br>**Vi kan ikke fullføre registreringen din. Det ser ut som [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke er tilgjengelig for arbeid eller skole.** |[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke .gov- eller .mil-adresser på dette tidspunktet. |
 | Registrering for Self-service er ikke aktivert. Du får en feilmelding som følgende, under registrering:<br /><br />**Vi kan ikke fullføre registreringen din. IT-avdelingen har deaktivert registrering for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kontakt dem for å fullføre registreringen.** <br>eller <br> **Dette ser ut som en personlig e-postadresse. Skriv inn adressen til arbeid, slik at vi kan koble til andre i firmaet. Og ikke bekymre deg. Vi deler ikke adressen din med andre.** |Organisasjonens systemansvarlige har deaktivert registrering for Self-service for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil fullføre registreringen, kontakter du systemansvarlig og ber om å følge instruksjonene på siden nedenfor, slik at eksisterende brukere kan registrere seg for [!INCLUDE[d365fin](includes/d365fin_md.md)] og nye brukere kan bli med i eksisterende leietaker. Du kan også oppleve dette problemet hvis du registrerte deg for Office 365 via en partner. |
-| E-postadressen er ikke en Office 365-ID. Du får en feilmelding som følgende, under registrering:<br /><br />**Vi finner deg ikke på contoso.com. Bruker du en annen ID på arbeid eller skole? Prøv å logge på med denne, og hvis det ikke fungerer, kan du kontakte IT-avdelingen.** |Organisasjonen din bruker ID-er til å logge på Office 365 og andre Microsoft-tjenester, som er forskjellig fra e-postadressen din. E-postadressen din kan for eksempel være Nancy.Smith@contoso.com, men ID-en er nancys@contoso.com. hvis du vil fullføre registreringen, kan du bruke ID-en som organisasjonen har tilordnet for å logge på Office 365 eller andre Microsoft-tjenester. Hvis du ikke vet hva dette er, kontakter du systemansvarlig. Hvis du fremdeles ikke kan registrere deg og kan fullføre et mer avansert oppsett, kan du registrere for et nytt prøveabonnement for Office 365 og bruke den e-postadressen til å registrere deg. |
+| E-postadressen er ikke en Office 365-ID. Du får en feilmelding som følgende, under registrering:<br /><br />**Vi finner deg ikke på contoso.com. Bruker du en annen ID på arbeid eller skole? Prøv å logge på med denne, og hvis det ikke fungerer, kan du kontakte IT-avdelingen.** |Organisasjonen din bruker ID-er til å logge på Office 365 og andre Microsoft-tjenester, som er forskjellig fra e-postadressen din. E-postadressen din er for eksempel Nancy.Smith@contoso.com, men ID-en er nancys@contoso.com. hvis du vil fullføre registreringen, kan du bruke ID-en som organisasjonen har tilordnet for å logge på Office 365 eller andre Microsoft-tjenester. Hvis du ikke vet hva dette er, kontakter du systemansvarlig. Hvis du fremdeles ikke kan registrere deg og kan fullføre et mer avansert oppsett, kan du registrere for et nytt prøveabonnement for Office 365 og bruke den e-postadressen til å registrere deg. |
 | Hvis Office 365-kontoen er registrert i et land som støttes og du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] når du er i et annet land, vises en melding under registreringen:<br /><br />**Dette fungerte ikke. Vi støtter ikke landet eller området ennå.**| Organisasjonens Office 365-abonnement er registrert i et bestemt land i administrasjonsportalen for Office 365. Registreringsopplevelsen for [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker språket og de nasjonale innstillingene som gjeldende nettleser bruker, og derfor kan du få du feilmelding selv om du er i et land som støttes. Be IT-ansvarlig om å kontrollere landet som er angitt i organisasjonsprofilen i [Office 365administrasjonsportalen](https://portal.office.com/adminportal/home#/companyprofile). Det kan hende du må bruke en annen konto for [!INCLUDE[d365fin](includes/d365fin_md.md)].|
 
 ## <a name="regional-availability"></a>Tilgjengelighet i området
@@ -63,4 +63,3 @@ For en liste over markeder som støttes, kan du se [Internasjonal tilgjengelighe
 [Velkommen til [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](index.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Lokal funksjonalitet](about-localization.md)  
-

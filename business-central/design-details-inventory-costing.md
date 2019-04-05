@@ -1,5 +1,5 @@
 ---
-title: "Designdetaljer – Kostberegning for beholdning | Microsoft-dokumentasjon"
+title: Designdetaljer – Kostberegning for beholdning | Microsoft-dokumentasjon
 description: Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
 ms.openlocfilehash: 830c14eb96557f8852d0a4758922503fe0179b58
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803057"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registre
 [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 [Designdetaljer: Revaluering](design-details-revaluation.md)
-

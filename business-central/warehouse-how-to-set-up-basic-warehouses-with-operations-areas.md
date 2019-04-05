@@ -1,23 +1,23 @@
 ---
-title: "Opprette grunnleggende lagre med operasjonsområder | Microsoft-dokumentasjon"
-description: "Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke tre grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:"
+title: Opprette grunnleggende lagre med operasjonsområder | Microsoft-dokumentasjon
+description: 'Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke tre grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:'
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: f11719cc9488adf84bca8cd5a23d28caaa75f4bf
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 04b1e87cb41df19559d85cf02eabbf6aaec0011a
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803444"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
 Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke følgende grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:  
@@ -35,7 +35,7 @@ Hvis du vil bruke disse sidene med interne operasjoner, for eksempel plukke og f
 - Definer standard hyllestrukturer for komponenter og sluttvarer som går til og fra operasjonsressurser.  
 - Opprett til- og fra-hyller som er dedikert til en bestemte operasjonsressurser for å hindre at varene blir plukket for utgående dokumenter.
 
-Hyllekoder som er definert på lokasjonskort, definerer en standard lagerflyt for bestemte aktiviteter, for eksempel komponenter i en monteringsavdeling. Det finnes flere funksjoner for å sørge for at når varer blir plassert i en bestemt hylle, kan de ikke flyttes eller plukkes til andre aktiviteter. Hvis du vil ha mer informasjon, kan du se delen "Slik lager du dedikerte komponenthyller".
+Hyllekoder som er definert på lokasjonskort, definerer en standard lagerflyt for bestemte aktiviteter, for eksempel komponenter i en monteringsavdeling. Det finnes flere funksjoner for å sørge for at når varer blir plassert i en bestemt hylle, kan de ikke flyttes eller plukkes til andre aktiviteter. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du dedikerte komponenthyller](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md#to-create-dedicated-component-bins).
 
 Fremgangsmåtene nedenfor er basert på definisjon av grunnleggende lageraktiviteter rundt et produksjonsområde. Trinnene er de samme for andre operasjonsområder, for eksempel montering, service og jobber.  
 
@@ -142,4 +142,3 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

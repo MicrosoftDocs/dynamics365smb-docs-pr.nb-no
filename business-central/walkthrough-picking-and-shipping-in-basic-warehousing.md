@@ -1,21 +1,21 @@
 ---
 title: Plukking og levering i enkle lageroppsett | Microsoft-dokumentasjon
-description: "I Business Central kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
+description: I Business Central kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 1b07a3b064f1bc45a183d0a2d27b810312007a22
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802644"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
 
@@ -55,7 +55,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 ## <a name="prerequisites"></a>Forutsetninger  
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
--   Installere CRONUS Norge AS.  
+-   CRONUS Norge AS installert.  
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
     1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
@@ -76,7 +76,7 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
     3.  Velg **Bokfør**-handlingen, og velg deretter **Ja**-knappen.  
 
 ## <a name="story"></a>Hovedscenario  
-Ellen, lagersjefen i CRONUS, setter opp SØLV-lageret for grunnleggende plukkhåndtering der lagermedarbeidere behandler utgående ordrer individuelt. Ordrebehandleren Heidi oppretter en ordre for 30 enheter av varen LS-81 som skal leveres til kunde 10000 fra SØLV-lageret. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver på siden **Lagerplukk**, som peker automatisk til hyllene der LS-81 er lagret.  
+Ellen, lagersjefen på CRONUS, setter opp SØLV-lageret for grunnleggende plukkhåndtering der lagermedarbeidere behandler utgående ordrer individuelt. Ordrebehandleren Heidi oppretter en ordre for 30 enheter av varen LS-81 som skal leveres til kunde 10000 fra SØLV-lageret. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver på siden **Lagerplukk**, som peker automatisk til hyllene der LS-81 er lagret.  
 
 ## <a name="setting-up-the-location"></a>Definere plassering  
 Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
@@ -131,4 +131,3 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
  [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)   
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

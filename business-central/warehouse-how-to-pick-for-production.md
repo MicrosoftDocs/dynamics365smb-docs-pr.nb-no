@@ -1,30 +1,30 @@
 ---
 title: Plukke for produksjon i enkle lageroppsett | Microsoft-dokumentasjon
-description: "Når lagerlokasjonen krever plukkbehandling, men ikke krever leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter."
+description: Når lagerlokasjonen krever plukkbehandling, men ikke krever leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 01/22/2019
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
-ms.openlocfilehash: 115bd8ef6d4069674f1d04878d0ec704214383ce
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803180"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plukke for montering eller produksjon i enkle lageroppsett
 Hvordan du plasserer plukkomponenter for produksjons- eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
 
 I enkle lageroppsett der lokasjonen krever plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter.  
 
-I grunnleggende lageroppsett må du plukke for monteringsorder ved å bruke **Lagerflytting**-siden. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-vare med lagerplukk i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).  
+I grunnleggende lageroppsett må du plukke for monteringsorder ved å bruke **Lagerflytting**-siden. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 I avanserte lageroppsett der lokasjoner krever både plukk og leveringer, bruker du **Plukk**-siden til å bringe komponenter til produksjons- eller monteringsordrer. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i avansert lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
 
@@ -80,4 +80,3 @@ Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomp
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

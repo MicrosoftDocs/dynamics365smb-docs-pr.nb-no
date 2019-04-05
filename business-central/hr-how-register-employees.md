@@ -2,7 +2,7 @@
 title: Definere ansatte og endre informasjon | Microsoft-dokumentasjon
 description: Beskriver hvordan du registrerer nytt personell eller redigerer informasjon om eksisterende ansatte.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 10/01/2018
 ms.author: SorenGP
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 74750011c638cf3733e20d7ab996887108bc2159
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803424"
 ---
 # <a name="register-employees"></a>Registrere ansatte
 Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ved å opprette et kort med all viktig og relatert informasjon.
@@ -61,4 +61,3 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)
-

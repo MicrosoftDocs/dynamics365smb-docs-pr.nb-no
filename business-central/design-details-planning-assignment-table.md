@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Tabell for planleggingstilordning | Microsoft-dokumentasjon"
-description: "Dette emnet gir innsikt i hva som skjer når du endrer hvordan du planlegger for en vare."
+title: Designdetaljer – Tabell for planleggingstilordning | Microsoft-dokumentasjon
+description: Dette emnet gir innsikt i hva som skjer når du endrer hvordan du planlegger for en vare.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 9a1661d71bd28009a0c0b83a50e27cae3c833ea7
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803628"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetaljer: Tabell for planleggingstilordning
 Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  
@@ -69,4 +69,3 @@ Følgende begrensninger gjelder ved beregning av MPS eller MRP:
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)   
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
-

@@ -1,24 +1,24 @@
 ---
-title: "Designdetaljer – Gjenbestillingsprinsipper | Microsoft-dokumentasjon"
+title: Designdetaljer – Gjenbestillingsprinsipper | Microsoft-dokumentasjon
 description: Dette emnet gir en oversikt over policyer for etterfylling av varen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-handling-reordering-policies
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 4aaef129da953596632b56716eaff2f0c47736f7
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802874"
 ---
 # <a name="design-details-reordering-policies"></a>Designdetaljer: Gjenbestillingsprinsipper
 Gjenbestillingsprinsipper angir hvor mye som skal bestilles når varen må etterfylles. Det finnes fire forskjellige gjenbestillingsprinsipper.  
@@ -100,4 +100,3 @@ Siden forsyningsordreantallet er basert på det faktiske behovet, kan det være 
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-

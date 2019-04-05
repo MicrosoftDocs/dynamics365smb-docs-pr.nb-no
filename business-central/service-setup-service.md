@@ -1,8 +1,8 @@
 ---
-title: "Sette opp servicehåndtering | Microsoft-dokumentasjon"
-description: "Oversikt over oppgaver for oppsett av servicehåndtering som er tilpasset måten organisasjonene håndterer tjenestene på."
+title: Sette opp servicehåndtering | Microsoft-dokumentasjon
+description: Oversikt over oppgaver for oppsett av servicehåndtering som er tilpasset måten organisasjonene håndterer tjenestene på.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: c4b8287c8e1c056bd45a30376e96aca1f8f4ddcc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: 772022a8224ff81e332783d95e6cd27500a306fa
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802735"
 ---
-
 # <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
 Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[d365fin](includes/d365fin_md.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
 
@@ -47,4 +46,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Servicehåndtering](service-service.md)  
 [Komme i gang](product-get-started.md)  
-

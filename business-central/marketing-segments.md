@@ -1,8 +1,8 @@
 ---
-title: "Håndtere segmenter og velge kontakter du vil inkludere | Microsoft-dokumentasjon"
-description: "Gir en oversikt over oppgavene for å opprette et segment for å velge en gruppe med kontakter i samsvar med bestemte kriterier, for eksempel kontakter i en bestemt bransje du vil ha som målgruppe."
+title: Håndtere segmenter og velge kontakter du vil inkludere | Microsoft-dokumentasjon
+description: Gir en oversikt over oppgavene for å opprette et segment for å velge en gruppe med kontakter i samsvar med bestemte kriterier, for eksempel kontakter i en bestemt bransje du vil ha som målgruppe.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: c49ccda1632eccabb412cfe44f59abd1ed2efc09
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: fab3aed9e8c426d6a8840177f63f74afe808428d
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803481"
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
 Du oppretter segmenter for å velge en gruppe med kontakter i henhold til bestemte kriterier. Et segment kan for eksempel være bransjen der kontaktene hører til, eller forretningsforholdet ditt med kontaktene. Du kan opprette et segment for å velge kontaktene du vil rette deg inn mot med en kampanje.
@@ -39,4 +39,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -2,7 +2,7 @@
 title: Selge Business Central | Microsoft-dokumentasjon
 description: Finn ut hvordan du kan utvide forretningsmulighetene og bli en Microsoft-partnere og Business Central-forhandler.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: cc628a8f9c4a9727b359877ebe54eef25c947138
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: ad1b888d475c0523c5a905e804a3f89ab4531b28
-ms.openlocfilehash: e47877a6cf6e7d9b976b8624786e725b87b0ee1f
-ms.contentlocale: nb-no
-ms.lasthandoff: 05/17/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803363"
 ---
 # <a name="become-a-reseller-of-included365finlongincludesd365finlongmdmd"></a>Bli en forhandler av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Utvid din forretningsmulighet med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, bransjeløsninger, analyse, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er Business Central en ny salgsmulighet i Financials.   
+Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, SharePoint, bransjeløsninger, analyse, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er Business Central en ny salgsmulighet i Financials.   
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg med å skille og styrke kunderelasjoner ved å gi deg muligheten til å levere en ende-til-ende-løsning som kobler mennesker og prosesser som aldri før, som er innebygd i kjente Microsoft Office-verktøy som små og mellomstore bedrifter bruker hver dag.  
 
@@ -35,4 +35,3 @@ Hvis du er interessert i å lære mer om hvordan du blir en [!INCLUDE[d365fin](i
 [Komme i gang](product-get-started.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/?product=project-madeira)  
-

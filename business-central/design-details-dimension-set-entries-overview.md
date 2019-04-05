@@ -1,6 +1,6 @@
 ---
-title: "Dimensjonssettposter – oversikt | Microsoft-dokumentasjon"
-description: "Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i Dynamics 365."
+title: Dimensjonssettposter – oversikt | Microsoft-dokumentasjon
+description: Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i Dynamics 365.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 927ec8c1379a3f03d5bd377e6cd3d21c66691a00
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803117"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensjonssettposter – oversikt
 Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -49,4 +49,3 @@ Ved å lagre dimensjonssett én gang i databasen beholdes databaseplassen, og de
 [Designdetaljer: Dimensjonsbehandling for kodeenhet 408](design-details-codeunit-408-dimension-management.md)   
 [Designdetaljer: Kodeeksempler på endrede mønstre i endringer](design-details-code-examples-of-changed-patterns-in-modifications.md)   
 [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
-

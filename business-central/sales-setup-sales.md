@@ -1,8 +1,8 @@
 ---
-title: "Oversikt over oppgaver for å konfigurere salgsprosesser | Microsoft-dokumentasjon"
-description: "Gir en oversikt over oppgaver for å definere regler og verdier som definerer salgsprinsipper og -prosesser."
+title: Oversikt over oppgaver for å konfigurere salgsprosesser | Microsoft-dokumentasjon
+description: Gir en oversikt over oppgaver for å definere regler og verdier som definerer salgsprinsipper og -prosesser.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 445b2c8ad3b5d4989324bae3d27423163d6808b5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 00e83452109c6fa31c3eb56d5631f972e5239314
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803751"
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
@@ -42,4 +42,3 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

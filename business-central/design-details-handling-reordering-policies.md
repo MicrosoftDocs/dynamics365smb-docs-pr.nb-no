@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Håndtere gjenbestillingsprinsipper | Microsoft-dokumentasjon"
-description: "Oversikt over oppgaver for å definere en gjenbestillingspolicy ved forsyningsplanlegging."
+title: Designdetaljer – Håndtere gjenbestillingsprinsipper | Microsoft-dokumentasjon
+description: Oversikt over oppgaver for å definere en gjenbestillingspolicy ved forsyningsplanlegging.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/14/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 42fc4a95c572f3afecc3b3a76ba987edd1fdd011
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803479"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Håndtere gjenbestillingsprinsipper
 Det må angis et gjenbestillingsprinsipp for at en vare skal kunne delta i forsyningsplanlegging. Det finnes fire gjenbestillingsprinsipper:  
@@ -298,4 +298,3 @@ Siden forsyningsordreantallet er basert på det faktiske behovet, kan det være 
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-

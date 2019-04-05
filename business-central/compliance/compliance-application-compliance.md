@@ -2,21 +2,21 @@
 title: Programsamsvar | Microsoft-dokumentasjon
 description: Dette innholdet omfatter informasjon om programsamsvar i tilknytning til Business Central.
 author: sorenfriisalexandersen
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: soalex
-ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
 ms.openlocfilehash: cda5dc10951981a5d2e496c6cd27bb84b875ede0
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/14/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803078"
 ---
 # <a name="application-compliance"></a>Programsamsvar
 Dette innholdet inneholder informasjon om programsamsvar i forhold til [!INCLUDE[d365fin](../includes/d365fin_md.md)], for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet, GDPR og så videre. Konfidens i en forretningsadministrasjonsløsning er viktig for å drive et effektiv firma. Med Business Central har selskaper muligheten til å strømlinjeforme forretningsprosesser og samtidig kosteffektivt overholde økte regulerings- og rapporteringskrav.
@@ -96,4 +96,3 @@ Microsoft lager lokaliserte versjoner av Business Central for noen land. Disse l
 
  ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
  
-

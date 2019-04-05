@@ -1,23 +1,23 @@
 ---
 title: Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon
-description: "Et **Arbeidssenter**-kort inneholder de faste verdiene og kravene til den aktuelle produksjonsressursen og styrer dermed avgangen for produksjonen som utføres i arbeidssenteret."
+description: Et **Arbeidssenter**-kort inneholder de faste verdiene og kravene til den aktuelle produksjonsressursen og styrer dermed avgangen for produksjonen som utføres i arbeidssenteret.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/08/2019
 ms.author: sgroespe
+ms.openlocfilehash: 2b2db4a7750a9313cc5970ef480518cdbbdca959
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 12d192338fc683cd1de8aa8092b781a559872df1
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802797"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 Programmet skiller mellom tre typer kapasiteter. Disse er rangert hierarkisk. Hvert nivå inneholder underordnede nivåer.  
@@ -48,22 +48,22 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 
 9.  I feltet **Beregning av enhetskost** definerer du om beregningen ovenfor skal baseres på medgått tidt:  **Tid**, eller på antall produserte enheter:  **Enheter**.  
 10.  Velg feltet **Bestemt enhetskost** hvis du vil definere arbeidssenterets kostnad på rutelinjen der den brukes. Dette kan være relevant for operasjoner med en totalt forskjellig kapasitetskostnad enn det som ville vært normalt ved arbeidssenteret.  
-11.  I **Trekkmetode**-feltet velger du om avgangsbokføring ved dette arbeidssenteret skal beregnes og bokføres manuelt eller automatisk ver hjelp av en av de følgende metoder.  
+11.  I **Trekkmetode**-feltet velger du om avgangsbokføring ved dette arbeidssenteret skal beregnes og bokføres manuelt eller automatisk ver hjelp av en av de følgende metoder.
 
-    |Alternativ|Beskrivelse|  
-    |----------------------------------|---------------------------------------|  
-    |**Manuell**|Forbruk bokføres manuelt i ferdigmeldingskladden eller produksjonskladden.|
-    |**Fremover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er frigitt.|  
-    |**Bakover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er ferdigstilt.|  
+|Alternativ|Beskrivelse|
+|------|-----------|
+|**Manuell**|Forbruk bokføres manuelt i ferdigmeldingskladden eller produksjonskladden.|
+|**Fremover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er frigitt.|
+|**Bakover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er ferdigstilt.|
 
-    > [!NOTE]  
-    >  Om nødvendig kan trekkmetoden som velges her og på **Vare**-kortet, overstyres for individuelle operasjoner ved å endre innstillingen på rutelinjene.
+> [!NOTE]
+> Om nødvendig kan trekkmetoden som velges her og på **Vare**-kortet, overstyres for individuelle operasjoner ved å endre innstillingen på rutelinjene
 
 12.  I **Enhetskode**-feltet registrerer du tidsenheten som arbeidssenterets kostnadsberegning og kapasitetsplanlegging beregnes i.
     Du må først definere en enhetsmetode for å kunne kontrollere forbruk konstant. Enhetene du angir, er basisenheter. Behandlingstiden, for eksempel, beregnes i timer og minutter.
 
-    > [!NOTE]  
-    > Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
+> [!NOTE]  
+> Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
 
 13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av  [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
 14.  I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
@@ -106,4 +106,3 @@ Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen 
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

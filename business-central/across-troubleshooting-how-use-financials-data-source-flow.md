@@ -1,7 +1,7 @@
 ---
-title: "Feilsøke integrering med Microsoft Flow| Microsoft-dokumentasjon"
-description: "Feilsøke hvordan du kan gjøre Business Central-dataene tilgjengelige som en datakilde og angi en OData-URL-adresse til webtjenestene dine for å utvikle automatisk arbeidsflyt."
-documentationcenter: 
+title: Feilsøke integrering med Microsoft Flow| Microsoft Docs
+description: Feilsøke hvordan du kan gjøre Business Central-dataene tilgjengelige som en datakilde og angi en OData-URL-adresse til webtjenestene dine for å utvikle automatisk arbeidsflyt.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: workflow, Odata, Power App, SOAP
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 0818550021bf17e5a269d3e11f8db54b9ff80dfa
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803118"
 ---
 # <a name="troubleshooting-integration-with-microsoft-flow---request-url-too-long"></a>Feilsøke integrering med Microsoft Flow – URL-forespørselen er for lang
 Du kan bruke dine [!INCLUDE[d365fin](includes/d365fin_md.md)]-data som en del av en arbeidsflyt i Microsoft Flow.  
@@ -52,4 +52,3 @@ Hvis tabellen du bruker for eksempel har 4 000 poster, angir du 4 000 som anta
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)    
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Finans](finance.md)  
-

@@ -2,7 +2,7 @@
 title: Informasjon om Finans og kontoplan | Microsoft dokumenter
 description: Beskriver Finans, kontoplanen og kontokategoriene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 40363e1ef9deeda6b39e2d554c5c3dc3a85334b8
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803525"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Forstå Finans og kontoplanen
 Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
@@ -65,4 +65,3 @@ Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kont
 [Finans](finance.md)  
 [Definere eller endre kontoplanen](finance-setup-chart-accounts.md)  
 [Forretningsintelligens](bi.md)  
-

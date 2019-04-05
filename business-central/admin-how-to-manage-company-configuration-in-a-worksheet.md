@@ -1,23 +1,23 @@
 ---
 title: Behandle selskapskonfigurasjon i et forslag | Microsoft-dokumentasjon
-description: "Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper."
+description: Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 12/07/2018
 ms.author: sgroespe
+ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 8a73de1aa2f4a0f633c401ea341bb7bde6579723
-ms.openlocfilehash: 1ba27ee0ac252bbe1fd47b900654980df5b18fdf
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/11/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803457"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
 Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  
@@ -74,7 +74,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
     > Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
     > - Den tilknyttede tabellen filtreres.  
     > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjonen er lagret i den virtuelle tabellen **Felt** og ikke er tilgjengelig på sider, for eksempel konfigurasjonsregnearket for ytelseshensyn.  
-    > Du må legge til relaterte tabeller med slike komplekse relasjoner manuelt ved å følge trinn 4 under "Legge til en tabell i forslaget".
+    > Du må legge til relaterte tabeller med slike komplekse relasjoner manuelt ved å følge trinn 4 i [Legge til en tabell i forslaget](admin-how-to-manage-company-configuration-in-a-worksheet.md#to-add-a-table-to-the-worksheet).
 
 7. Hvis du vil slette tabeller i listen over tabeller, merker du en tabell som du vil fjerne, og deretter velger du handlingen **Slett**.  
 
@@ -128,4 +128,3 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
-

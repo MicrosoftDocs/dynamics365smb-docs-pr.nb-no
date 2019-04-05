@@ -1,6 +1,6 @@
 ---
 title: Utligne betalinger mot ubetalte salgsdokumenter | Microsoft-dokumentasjon
-description: "Du utligner beløp betalt av kunder mot relaterte salgsdokumenter og bokfører betalingen for å oppdatere kunde-, finans- og bankposter."
+description: Du utligner beløp betalt av kunder mot relaterte salgsdokumenter og bokfører betalingen for å oppdatere kunde-, finans- og bankposter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 10/17/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: e00d7bb259ad8a8a494016746179b428b7975a8f
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802736"
 ---
-# <a name="reconcile-customer-payments-manually-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger manuelt fra en liste over ubetalte salgsdokumenter
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter
 Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
 
 > [!NOTE]  
 >   Du kan utføre de samme oppgavene, inkludert leverandørbetalinger, på siden **Betalingsavstemmingskladd** ved hjelp av funksjoner for import av bankkontoutdrag, automatisk utligning og bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
-Siden **Registrer kundebetalinger** er utformet for å støtte deg i oppgaver som omfatter å balansere interne konti ved hjelp av de faktiske kontanttallene for å sikre effektiv innkreving av betalinger fra kunder. Med dette betalingsbehandlingsverktøyet kan du raskt kontrollere og bokføre enkelt- eller engangsbetalinger, behandle rabatterte betalinger og søke etter bestemte ubetalte dokumenter som blir betalt.
+Siden **Registrer kundebetalinger** er utformet for å støtte deg i oppgaver som omfatter å balansere interne konti ved hjelp av de faktiske kontanttallene for å sikre effektiv innkreving av betalinger fra kunder. Med dette betalingsbehandlingsverktøyet kan du raskt kontrollere og bokføre individuelle betalinger eller engangsbetalinger, behandle rabatterte betalinger og søke etter bestemte ubetalte dokumenter som blir betalt.
 
 Betalinger for ulike kunder som har ulike betalingsdatoer, må bokføres som individuelle betalinger. Betalinger for den samme kunden, som har samme betalingsdato, kan bokføres som en engangsbetaling. Dette er nyttig, for eksempel når en kunde har foretatt en enkeltbetaling som dekker flere salgsfakturaer.
 
@@ -54,7 +54,7 @@ Betalingsinformasjonen bokføres for dokumenter som vises som linjer der det er 
 
 Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes på det relaterte bokførte salgsdokumentet.  
 
-## <a name="to-reconcile-lump-payments"></a>Avstemme engangsbetalinger
+## <a name="to-reconcile-lump-sum-payments"></a>Avstemme engangsbetalinger
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.
 2. Merk av for **Betaling utført** på linjene som representerer bokførte dokumenter for den samme kunden som en engangsbetaling er utført for.  
 
@@ -69,15 +69,15 @@ Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes
 4. I feltet **Beløp mottatt** angir du beløpene på flere linjer som summerer opp engangsbetalingsbeløpet.  
 
     > [!TIP]  
-    >   Prøv å bokføre så mange fullstendige betalinger som mulig med engangsbeløpet. Angi beløp som er det samme som beløpet i feltet **Restbeløp**, på så mange linjer som mulig.  
+    > Prøv å bokføre så mange fullstendige betalinger som mulig med engangsbeløpet. Angi beløp som er det samme som beløpet i feltet **Restbeløp**, på så mange linjer som mulig.  
 5. Gjenta trinn 2 til 4 for andre linjer som representerer bokførte dokumenter for samme kunde som det er utført en engangsbetaling for.  
 6. Velg handlingen **Bokfør som engangsbetaling**. Den angitte betalingsinformasjonen bokføres for dokumenter som vises som linjer der det er merket av for **Betaling utført** .  
 
 Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes på det relaterte bokførte salgsdokumentet.  
 
-Hvis en betaling i banken ikke er representert av en linje på siden **Betalingsregistrering**, kan det være fordi det tilknyttede dokumentet ennå ikke er bokført. I det tilfellet kan du bruke en søkefunksjon til raskt å finne dokumentet og bokføre det for å behandle betalingen. Hvis du vil ha mer informasjon, kan du se delen "Slik finner du et bestemt salgsdokument som ikke er fullstendig fakturert".  
+Hvis en betaling i banken ikke er representert av en linje på siden **Betalingsregistrering**, kan det være fordi det tilknyttede dokumentet ennå ikke er bokført. I det tilfellet kan du bruke en søkefunksjon til raskt å finne dokumentet og bokføre det for å behandle betalingen. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du et bestemt salgsdokument som ikke er fullstendig fakturert](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt. Hvis du vil ha mer informasjon, kan du se avsnittet "Registrere eller bokføre betalinger manuelt uten et relatert dokument".  
+Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt. Hvis du vil ha mer informasjon, kan du se delen [Registrere eller bokføre betalinger manuelt uten et relatert dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Behandle kundebetalinger med rabatter manuelt
 Hvis du har avtalt en kontantrabatt med kunden, kan betalingsbeløpene være lavere enn fakturabeløpene hvis betalingen finner sted før den avtalte rabattdatoen.  
@@ -187,4 +187,3 @@ Hvis du ikke bokfører kladdelinjen, øker verdien i feltet **Ikke-bokført sald
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

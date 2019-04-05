@@ -1,23 +1,23 @@
 ---
 title: Aktivere arbeidsflyter | Microsoft-dokumentasjon
-description: "Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten."
+description: Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9ee751670e39d1abe0e1d3e5faa04e57ce1fcc07
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803220"
 ---
 # <a name="enable-workflows"></a>Aktivere arbeidsflyter
 Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten.  
@@ -37,4 +37,3 @@ Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å s
  [Bruke arbeidsflyter](across-use-workflows.md)   
  [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Arbeidsflyt](across-workflow.md)   
-

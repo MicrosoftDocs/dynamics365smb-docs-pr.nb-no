@@ -1,7 +1,7 @@
 ---
-title: "Opprette en kjøpsfaktura og registrere kjøp | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du kjøper lager- og servicevarer ved å opprette og bokføre kjøpsfakturaer eller bestillinger."
-documentationcenter: 
+title: Opprette en kjøpsfaktura og registrere kjøp | Microsoft-dokumentasjon
+description: Beskriver hvordan du kjøper lager- og servicevarer ved å opprette og bokføre kjøpsfakturaer eller bestillinger.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cc0a5e88342e9f4c7493cf9d3390c248e6dd36b9
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803355"
 ---
 # <a name="record-purchases"></a>Registrere kjøp
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer og bestillinger også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer eller ordrer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
@@ -79,4 +79,3 @@ Kjøpet gjenspeiles nå i lager- og økonomiposter, og leverandørbetalingen akt
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Klargjøre direkte leveringer](sales-how-drop-shipment.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

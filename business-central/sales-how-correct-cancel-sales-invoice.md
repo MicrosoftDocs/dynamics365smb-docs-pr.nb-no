@@ -1,6 +1,6 @@
 ---
-title: "Korrigere eller annullere en bokført salgsfaktura | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du korrigerer, angrer eller annullerer en bokført salgsfaktura og utligner en salgskreditnota."
+title: Korrigere eller annullere en bokført salgsfaktura | Microsoft-dokumentasjon
+description: Beskriver hvordan du korrigerer, angrer eller annullerer en bokført salgsfaktura og utligner en salgskreditnota.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: a74dcd8e2d0409ca7385ea8a47a78dd9a74561b6
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803500"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Korrigere eller annullere ubetalte salgsfakturaer
 Du kan korrigere eller annullere en bokført salgsfaktura. Dette er nyttig hvis du gjør en feil eller hvis kunden ber om en endring tidlig.
@@ -60,4 +60,3 @@ Når du korrigerer eller annullerer en bokført salgsfaktura, utlignes den korri
 [Sette opp salg](sales-setup-sales.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

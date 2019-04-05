@@ -1,23 +1,23 @@
 ---
-title: "Flytte komponenter til et operasjonsområde i enkle lageroppsett | Microsoft-dokumentasjon"
-description: "Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen."
+title: Flytte komponenter til et operasjonsområde i enkle lageroppsett | Microsoft-dokumentasjon
+description: Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc3bbfa0ef8d655ef66aab219bcd7bcfb930b2
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802968"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
 Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.  
@@ -44,7 +44,7 @@ En lagermedarbeider kan også opprette den ved å peke på den aktuelle frigitte
 > [!NOTE]  
 >  Hvis flyttingen er for en monteringsordre der varen er montert til en ordre, kan du angi at lagerflyttingsdokumentet opprettes automatisk når du oppretter lagerplukkdokumentet som tar den ferdige monteringsvaren og bokfører leveringen. Hvis du vil konfigurere dette, kan du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**  
 >   
->  Hvis du vil ha mer informasjon om monteringsordrer og grunnleggende lagerstyring, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
+>  Hvis du vil ha mer informasjon om monteringsordrer og grunnleggende lageroppsett, kan du se [Håndtere montere-til-ordre-varer med lagerplukk](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
 
 Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **Lagerflytting** ved å referere til en frigitt monteringsordre som et kildedokument. Fremgangsmåten er den samme når du flytter komponenter for produksjonsordrer og serviceordrer.  
 
@@ -79,4 +79,3 @@ Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **La
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,8 +1,8 @@
 ---
-title: "Oversikt over oppgavene for å yte service | Microsoft-dokumentasjon"
-description: "Gir en oversikt over oppgaver å definere for å sikre du leverer kvalitetsservice og lever oppfyller avtaler med kunder."
+title: Oversikt over oppgavene for å yte service | Microsoft-dokumentasjon
+description: Gir en oversikt over oppgaver å definere for å sikre du leverer kvalitetsservice og lever oppfyller avtaler med kunder.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 129d82355771872f4c1385ec2f1dee4965721dd8
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803592"
 ---
 # <a name="delivering-service"></a>Yte service
 Med funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
@@ -46,4 +46,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Planlegge service](service-plan-service.md)  
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
-

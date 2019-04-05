@@ -1,24 +1,24 @@
 ---
 title: Administrere varslingsmaler | Microsoft-dokumentasjon
-description: "Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren."
+description: Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 11/08/2018
 ms.author: sgroespe
 redirect_url: across-how-to-specify-when-and-how-to-receive-notifications
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 6c84e5e9e0284249ee7be3f92a82cca2a2fbb3d5
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803704"
 ---
 # <a name="manage-notification-templates"></a>Behandle varslingsmaler
 Varslinger sendes til brukere i arbeidsflyten for å varsle dem om trinn de må utføre, eller for å informere om statusen for trinn i arbeidsflyten. Du definerer hvem som mottar varsel og når, ved å konfigurere godkjenning av brukere, brukernes varslingstidsplan og svarene i arbeidsflyten for å definere varslingsmottakeren. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md).  
@@ -67,13 +67,13 @@ De tre varslingsmaltypene **Ny post**, **Godkjenning** og **Forfalt** har forskj
 Parameterverdier settes automatisk inn i varslinger i henhold til typen varslingsmal.  
 
 #### <a name="new-record"></a>Ny post  
- ![NAV&#95;notification&#95;template&#95;new&#95;record&#95;type](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
+ ![NAV&#95;melding&#95;mal&#95;ny&#95;post&#95;type](media/nav_notification_template_new_record.png "NAV_notification_template_new_record")  
 
 #### <a name="approval"></a>Godkjenning  
- ![NAV&#95;notification&#95;template&#95;approval&#95;type](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
+ ![NAV&#95;varsel&#95;mal&#95;godkjenning&#95;type](media/nav_notification_template_approval_type.png "NAV_notification_template_approval_type")  
 
 #### <a name="overdue"></a>Forfalt  
- ![NAV&#95;notification&#95;overdue&#95;type](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
+ ![NAV&#95;varsel&#95;forfalt&#95;type](media/nav_notification_overdue_type.png "NAV_notification_overdue_type")  
 
 ## <a name="see-also"></a>Se også  
  [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)   
@@ -83,4 +83,3 @@ Parameterverdier settes automatisk inn i varslinger i henhold til typen varsling
  [Opprette arbeidsflyter](across-how-to-create-workflows.md)   
  [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)   
  [Arbeidsflyt](across-workflow.md)   
-

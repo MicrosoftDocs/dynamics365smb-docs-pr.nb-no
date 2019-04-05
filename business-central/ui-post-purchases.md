@@ -1,8 +1,8 @@
 ---
-title: "Forstå hvordan du bokfører kjøpsdokumenter | Microsoft-dokumentasjon"
-description: "Les om de ulike bokføringsfunksjonene for å bokføre kjøpsdokumenter."
+title: Forstå hvordan du bokfører kjøpsdokumenter | Microsoft-dokumentasjon
+description: Les om de ulike bokføringsfunksjonene for å bokføre kjøpsdokumenter.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 5f3c709e6e2588fe7cf409e44291d331acc09432
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802544"
 ---
 # <a name="posting-purchases"></a>Bokføre kjøp
 I **Bokføringsgruppe** i et kjøpsdokument, kan du velge mellom følgende bokføringsfunksjoner:
@@ -48,5 +48,4 @@ Når bokføringen er utført, fjernes de bokførte kjøpslinjene fra bestillinge
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

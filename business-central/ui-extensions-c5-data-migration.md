@@ -1,8 +1,8 @@
 ---
-title: "Bruke C5-utvidelse for dataoverføring | Microsoft-dokumentasjon"
-description: "Bruk denne utvidelsen til å overføre kunder, leverandører, varer og finanskonti fra Microsoft Dynamics C5 2012 til Business Central."
+title: Bruke C5-utvidelse for dataoverføring | Microsoft-dokumentasjon
+description: Bruk denne utvidelsen til å overføre kunder, leverandører, varer og finanskonti fra Microsoft Dynamics C5 2012 til Business Central.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,14 +12,13 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: e35b4329c8f9b4672591531524c9391e1a8c4868
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 5c89d841cdf0e92af4a3dc497cb9c807798e3924
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803291"
 ---
-
 # <a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også overføre historiske poster for finanskonti.
 
@@ -96,6 +95,9 @@ Hvis du overfører konti, overføres også følgende data:
 > [!Note]
 > Historiske finanstransaksjoner behandles på en litt annen måte. Når du overfører data, angir du parameteren **Inneværende periode**. Denne parameteren angir hvordan finanstransaksjoner behandles. Transaksjoner etter denne datoen overføres individuelt. Transaksjoner før denne datoen samles per konto og overføres som et enkelt beløp. La oss for eksempel si at det finnes transaksjoner i 2015, 2016, 2017, 2018, og du angir 1. januar 2017 i feltet Innværende periode. For hver konto samles beløpene for transaksjonene på eller før 31. desember 2106 i én finanskladdlinje for hver finanskonto. Alle transaksjoner etter denne datoen overføres individuelt.
 
+## <a name="file-size-requirements"></a>Filstørrelseskrav
+Den største størrelsen du kan laste opp til [!INCLUDE[d365fin](includes/d365fin_md.md)], er 150 MB. Hvis filen du eksporterer fra C5, er større enn det, vurder å overføre dataene i flere filer. For eksempel kan du eksportere én eller to typer enheter fra C5, for eksempel kunder og leverandører, til en fil, og deretter eksportere varer til en annen fil, og så videre. Du kan importere filer individuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
 ## <a name="to-migrate-data"></a>Migrere data
 Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -148,4 +150,3 @@ Du kan stoppe datamigreringen ved å velge **Stopp alle migreringer**. Hvis du g
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)
-

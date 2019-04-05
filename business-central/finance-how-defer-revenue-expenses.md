@@ -1,8 +1,8 @@
 ---
 title: Periodisere inntekter og utgifter | Microsoft-dokumentasjon
-description: "Hvis du vil føre inntekter og utgifter i andre perioder enn perioden som transaksjonen ble bokført i, kan du automatisk periodisere eller utsette dem etter en angitt tidsplan."
+description: Hvis du vil føre inntekter og utgifter i andre perioder enn perioden som transaksjonen ble bokført i, kan du automatisk periodisere eller utsette dem etter en angitt tidsplan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9a21f4e54dc5afd8144d0990a9f9bcc30401a82c
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803528"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere inntekter og utgifter
 Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som transaksjonen ble bokført, kan du bruke funksjonaliteten til å periodisere automatisk inntekter og utgifter etter en angitt tidsplan.
@@ -93,4 +93,3 @@ Finansposter som skal posteres til den angitte periodiseringskontoen, for eksemp
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

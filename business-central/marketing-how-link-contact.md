@@ -1,8 +1,8 @@
 ---
-title: "Knytte kontakter til kunder og leverandører | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du knytter en kontakt til en kunde, leverandør eller bankkonto fra det samme selskapet, slik at du kan synkronisere vanlige data."
+title: Knytte kontakter til kunder og leverandører | Microsoft-dokumentasjon
+description: Beskriver hvordan du knytter en kontakt til en kunde, leverandør eller bankkonto fra det samme selskapet, slik at du kan synkronisere vanlige data.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ae6b02e7ce73d4a13cdc7dd42858ac791d4bf1c2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2613e32873c91fe24c4734456338bb1f7e18849d
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803367"
 ---
 # <a name="link-contacts-with-customers-vendors-and-bank-accounts"></a>Knytte kontakter til kunder, leverandører og bankkonti
 Hvis du har kontakt og enten en kunde, leverandør eller bankkonto for samme selskap, kan du knytte sammen de to enhetene. Tilknytning av de to enhetene lar deg synkronisere data som er felles, slik at det er de samme i begge steder.
@@ -34,4 +34,3 @@ Hvis du har kontakt og enten en kunde, leverandør eller bankkonto for samme sel
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

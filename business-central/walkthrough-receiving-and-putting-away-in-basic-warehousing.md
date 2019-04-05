@@ -1,21 +1,21 @@
 ---
-title: "Gjennomgang – Mottak og plassering i enkle lageroppsett | Microsoft-dokumentasjon"
-description: "I Business Central kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret."
+title: Gjennomgang – Mottak og plassering i enkle lageroppsett | Microsoft-dokumentasjon
+description: I Business Central kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 01/31/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: a94c4f2f8d622a91b74ba0de6f0f18e7eb84a5ef
 ms.openlocfilehash: 2f92a8977905f5507fdcfd26613d422ebf6c23b2
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/31/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803606"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
 
@@ -62,7 +62,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 ## <a name="prerequisites"></a>Forutsetninger  
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
--   Installere CRONUS Norge AS.  
+-   CRONUS Norge AS installert.  
 -   Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
     1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
@@ -71,7 +71,7 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
     4.  Velg **Standard**-feltet.  
 
 ## <a name="story"></a>Hovedscenario  
-Ellen, lagerlederen hos CRONUS International Ltd., oppretter en bestilling for 10 enheter av varen LS-75 og 30 enheter av varen LS-81 fra leverandør 10000 som skal leveres til SILVER-lageret. Når leveringen ankommer til lageret, plasserer lagermedarbeideren John varene i standardhyller definert for varene. Når John bokfører plasseringen, bokføres varene som mottatt på lageret og tilgjengelig for salg eller andre behov.  
+Ellen, lagerlederen hos CRONUS Norge AS, oppretter en bestilling for 10 enheter av varen LS-75 og 30 enheter av varen LS-81 fra leverandør 10000 som skal leveres til SØLV-lageret. Når leveringen ankommer til lageret, plasserer lagermedarbeideren John varene i standardhyller definert for varene. Når John bokfører plasseringen, bokføres varene som mottatt på lageret og tilgjengelig for salg eller andre behov.  
 
 ## <a name="setting-up-the-location"></a>Definere plassering  
  Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
@@ -145,4 +145,3 @@ På siden **Lagerplassering** kan du håndtere alle inngående lageraktiviteter 
  [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)   
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

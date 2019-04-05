@@ -1,8 +1,8 @@
 ---
-title: "Definere kontantstrømanalyse| Microsoft-dokumentasjon"
-description: "Du definerer diagrammer i rollesenteret for regnskapsfører for å bidra til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger."
+title: Definere kontantstrømanalyse| Microsoft-dokumentasjon
+description: Du definerer diagrammer i rollesenteret for regnskapsfører for å bidra til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 01/18/2019
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
 ms.openlocfilehash: 24fad5d816260764a3eb2c476e5bff86268790a1
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/24/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802963"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -73,7 +73,7 @@ Slik bruker du den assisterte oppsettsveiledningen:
 Slik bruker du en manuell prosess:  
 
 1. Søk etter **Kontantstrømoppsett** i rollesenter for regnskapsfører, og velg deretter den relaterte koblingen.  
-2. Utvid den **Cortana Intelligence** hurtigfanen, og velg deretter den **Cortana Intelligence aktivert** merket.  
+2. Utvid **Cortana Intelligence**-hurtigfanen, og merk av for **Cortana Intelligence aktivert**.  
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
 4. På siden **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
@@ -83,16 +83,15 @@ Slik bruker du en manuell prosess:
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
 Du kan også opprette din egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
-1. Åpne en nettleser, og gå til [Cortana Intelligence Gallery](https://go.microsoft.com/fwlink/?linkid=828352)  
+1. Åpne en nettleser, og gå til [Cortana Intelligence -galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
 2. Søk etter **Forecasting Model for Microsoft Business Central**, og åpne deretter modellen i Azure Machine Learning Studio.  
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
 6. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
-7. Vis hurtigfanen **Cortana Intelligence**, og fyll deretter ut feltene.  
+7. Utvide hurtigfanen **Cortana Intelligence**, og fyll deretter ut feltene.  
 
 ## <a name="see-also"></a>Se også
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

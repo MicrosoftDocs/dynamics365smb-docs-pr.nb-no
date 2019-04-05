@@ -1,6 +1,6 @@
 ---
-title: "Legge til den eksterne regnskapsføreren i Business Central | Microsoft-dokumentasjon"
-description: "Finn ut hvordan du kan invitere den eksterne regnskapsføreren til Business Central."
+title: Legge til den eksterne regnskapsføreren i Business Central | Microsoft-dokumentasjon
+description: Finn ut hvordan du kan invitere den eksterne regnskapsføreren til Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting
 ms.date: 01/14/2019
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 79729b42b660399893aebe1116c80ef3b3209042
 ms.openlocfilehash: aff05be6ade45224a57f57c92c2d52fcf9e6eb13
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803829"
 ---
 # <a name="inviting-your-external-accountant-to-your-included365finincludesd365finmdmd"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at vedkommende kan arbeide med regnskapsdataene.
@@ -46,4 +46,3 @@ En av lisenstypene for [!INCLUDE[d365fin](includes/d365fin_md.md)] er lisensen *
 [Konfigurere e-post manuelt eller bruke assistert oppsett](admin-how-setup-email.md)  
 [Regnskapsføreropplevelser i Business Central ](finance-accounting.md)  
 [Business Central for regnskapsførere på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
-

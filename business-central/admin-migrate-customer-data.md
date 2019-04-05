@@ -1,23 +1,23 @@
 ---
 title: Flytte kundedata | Microsoft-dokumentasjon
-description: "Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til Business Central ved å bruke RapidStart Services. Du kan bruke Excel XLSX-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet."
+description: Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til Business Central ved å bruke RapidStart Services. Du kan bruke Excel XLSX-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 69630c095da4072f31f678895ee73ab74cc8cdad
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802387"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
@@ -92,14 +92,14 @@ Når du bruker data som du har importert fra Excel eller fra en RapidStart-pakke
 
 - Hvis de samme tilordningene er definert direkte for et felt og i den relaterte tabellen, men har ulike nye verdier, prioriteres tilordningen som er definert direkte for feltet, fremfor tilordningen som er definert for tabellen som feltet refererer til.  
 
-I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se delen Slik eksporterer du dataflyttingsfiler.
+I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
 2. Åpne pakken for det aktuelle selskapet.  
 3. Velg tabellen du vil tilordne verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 4. For hvert felt du vil tilordne velger du **Tilordning**-handlingen.  
-5. Angi verdien du vil endre, i **Gammel verdi**-feltet. Angi verdien du vil endre den gamle verdien til, i **Ny verdi**-feltet. Velg **OK**-knappen.  
-6. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se delen Importere kundedata.
+5. Angi verdien du vil endre, i **Gammel verdi**-feltet. Angi verdien du vil endre den gamle verdien til, i **Ny verdi**-feltet. Velg **OK**.  
+6. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Se om det er rapportert noen feil i feltet **Antall pakkefeil**. Hvis det er det, viser du detaljene for å se feilene. Siden **Konfig. pakkeposter** åpnes.
 8. Velg handlingen **Vis feil**. Du vil motta følgende feilmelding: **<option> er ikke et gyldig alternativ. Gyldige alternativer er <valid option list>**. Velg **OK**-knappen.  
 9. Hvis du vil bruke tilordningen som du har definert, kan du velge **Bruk Data**-handlingen.  
@@ -115,7 +115,7 @@ Følgende eksempel illustrerer hvordan [!INCLUDE[d365fin](includes/d365fin_md.md
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillate ytterligere verdier for under overføringen.  
-4. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se delen Importere kundedata.
+4. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Rydde og behandle data før du bruker data
 I noen tilfeller kan det være aktuelt å rydde kundedata og behandle dem før du bruker dem på databasen. Hvis du vil gjøre dette, kan du bruke kjørselen **Konfigurer pakke - prosess** for å løse problemer, for eksempel:  
@@ -134,7 +134,7 @@ Når du har eksportert en flyttingstabell, er neste trinn å angi kundens eldre 
 
 Hvis du trenger hjelp med XML, aktiverer du fanen **Utvikler** på Excel-båndet, og deretter velger du **Kilde**-handlingen for å se XML-skjemaet for overføringstabellen, som vist i Excel.
 
-Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet for overføring. Hvis du vil ha mer informasjon, kan du se delen Slik eksporterer du dataflyttingsfiler.
+Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet for overføring. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
 > Ikke endre kolonnene i Excel-regnearkene. Hvis du flytter, endrer eller sletter dem, kan ikke regnearket importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -187,4 +187,3 @@ Kundens firmadatabasen er nå konfigurert, og grunnleggende data er importert. N
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
-

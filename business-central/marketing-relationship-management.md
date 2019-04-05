@@ -1,8 +1,8 @@
 ---
 title: Forbindelser | Microsoft-dokumentasjon
-description: "Funksjonene for forbindelser i Business Central er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter, slik at du kan betjene kunder effektivt."
+description: Funksjonene for forbindelser i Business Central er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter, slik at du kan betjene kunder effektivt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2018
 ms.author: jswymer
+ms.openlocfilehash: 6e1e9f56cede3afe723f4184ce3e7249b61ad6a4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: c129dd63b3aabeeac15c6684f961e04bd2b08a2a
-ms.openlocfilehash: b3c766e8a43a0d4d4348a504b5142f7b83f8537a
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/24/2019
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802934"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
@@ -34,9 +34,7 @@ Se følgende emner for å komme i gang:
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
-[Sette opp forbindelser](marketing-setup-marketing.md)  
-[Integrere med Dynamics 365 for Sales.](marketing-integrate-dynamicscrm.md)  
+[Integrere med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
-

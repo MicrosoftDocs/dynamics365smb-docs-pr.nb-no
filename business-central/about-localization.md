@@ -1,6 +1,6 @@
 ---
 title: Lokal funksjonalitet i Business Central | Microsoft-dokumentasjon
-description: "Lær om lokal tilgjengelighet og forskriftsmessig samsvar for Dynamics 365 Business Central."
+description: Lær om lokal tilgjengelighet og forskriftsmessig samsvar for Dynamics 365 Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: availability, localization
 ms.date: 12/06/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 9d0836083f4e8506efbd077f9b0cd733b6dbf623
 ms.openlocfilehash: c7b581f7524199c33959756e858476aa9bbaac15
-ms.contentlocale: nb-no
-ms.lasthandoff: 02/01/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803701"
 ---
 # <a name="local-functionality-in-included365finlongincludesd365finlongmdmd"></a>Lokal funksjonalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en kombinert lokaliseringsstrategi inkludert både Microsoft-ledede og parterledede modeller. I denne delen finner du beskrivelser av funksjonene som gjelder land der Microsoft sørger for forskriftsmessig samsvar og andre lokale funksjoner.  
@@ -45,7 +45,7 @@ Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land,
 | Nord-Amerika |       |  |
 |        | Canada|[Funksjonalitet som er spesifikk for kanadiske brukere](localfunctionality/canada/canada-local-functionality.md) |
 |        | Mexico | [Lokal funksjonalitet, Mexico](localfunctionality/mexico/mexico-local-functionality.md) |
-|        | USA|[United States Local Functionality](localfunctionality/unitedstates/united-states-local-functionality.md) |
+|        | USA|[Lokal funksjonalitet for USA](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Asia/Stillehavskysten |       |  |
 |        | Australia | [Lokal funksjonalitet for Australia](localfunctionality/australia/australia-local-functionality.md) |
 |        | New Zealand | [Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
@@ -56,6 +56,5 @@ Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land,
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 [Samsvar](compliance/compliance-overview.md)  
-[Internasjonal tilgjengeligheten for Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
+[Internasjonal tilgjengelighet for Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/availability)  
 [Utvikling av en lokaliseringsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-

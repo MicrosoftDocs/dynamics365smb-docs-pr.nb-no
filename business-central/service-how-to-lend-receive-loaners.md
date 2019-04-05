@@ -1,23 +1,23 @@
 ---
-title: "Låne ut servicevarer som erstatninger | Microsoft-dokumentasjon"
-description: "Du kan låne ut utlånsvarer til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold."
+title: Låne ut servicevarer som erstatninger | Microsoft-dokumentasjon
+description: Du kan låne ut utlånsvarer til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 65a28156827551d19b8a4b23f6773c4a957e7895
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803410"
 ---
 # <a name="lend-and-receive-loaners"></a>Låne ut og mottar utlånsobjekter
 Du kan låne ut utlånsobjekter til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.  
@@ -48,4 +48,3 @@ Du kan bruke siden **Generelt Servicemerknadsark** til å registrere merknader o
   
 ## <a name="see-also"></a>Se også  
 [Konfigurere et program for utlånsobjekter](service-how-setup-loaner-program.md)   
-

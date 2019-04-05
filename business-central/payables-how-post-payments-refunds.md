@@ -1,6 +1,6 @@
 ---
-title: "Utligne betalinger mot dokumenter og bokføre dem | Microsoft Docs"
-description: "Beskriver hvordan du registrerer betalinger du gjør til leverandører og refusjoner du gjør til kunder."
+title: Utligne betalinger mot dokumenter og bokføre dem | Microsoft Docs
+description: Beskriver hvordan du registrerer betalinger du gjør til leverandører og refusjoner du gjør til kunder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 7b3065dd0528588fec4c05e4e9c391a3beb1cc9a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 605c4ad4043d8b7c4b5603a4821e683f63d4a33d
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803411"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere betalinger og refusjoner i utbetalingskladden
 
@@ -25,9 +25,9 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 
 - Utligne betalinger mot fakturaer eller kreditnotaer
 
-    Hvis du fyller ut feltet **Utligningsbilagsnr.** med fakturaen eller kreditnotaen som skal betales eller refunderes, settes det aktuelle dokumentet til betalt når du bokfører kladden. Dette omtales som «utlignet». Som et alternativ til å utligne under betalingsbokføringen, kan du bruke siden **Utlign levrd.poster** og **Utlign kundeposter** når du har utført betalingsbokføringen. Hvis du vil ha mer informasjon, kan du for eksempel se [Avstemme leverandørbetalinger manuelt](payables-how-apply-purchase-transactions-manually.md).  
+    Hvis du fyller ut feltet **Utligningsbilagsnr.** med fakturaen eller kreditnotaen som skal betales eller refunderes, settes det aktuelle dokumentet til betalt når du bokfører kladden. Dette omtales som «utlignet». Som et alternativ til å utligne under betalingsbokføringen, kan du bruke siden **Utlign levrd.poster** og **Utlign kundeposter** når du har utført betalingsbokføringen. Hvis du vil ha mer informasjon, kan du for eksempel se [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md).  
 
-- Hente foreslåtte betalinger til leverandører eller ansatte 
+- Hente foreslåtte betalinger til leverandører eller ansatte
 
     Funksjonene **Betalingsforslag - leverandør** og **Betalingsforslag - ansatt** kan hjelpe deg med å fylle ut betalingskladdelinjene automatisk i henhold til leverandørprioritering og forfallsdatoer. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md). Med denne funksjonen er **Utligningsbilagsnr.**-feltet alltid fylt ut.  
 
@@ -35,7 +35,7 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 
     I tillegg til å registrere at betalingen er utført, kan du også bruke siden **Utbetalingskladd** for å legge ut betalingen for ytterligere behandling av banken. Hvis du vil ha mer informasjon, kan du se [Foreta sjekkbetalinger](payables-how-work-checks.md) og [Foreta elektroniske betalinger](payables-how-export-payments-bank-file.md).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a>Foreta betalinger i utbetalingskladden 
+## <a name="to-make-payments-in-the-payment-journal"></a>Foreta betalinger i utbetalingskladden
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.
 2. Åpne kladden som er reservert for betalinger.
@@ -57,4 +57,3 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

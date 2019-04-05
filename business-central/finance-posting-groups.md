@@ -1,8 +1,8 @@
 ---
-title: "Konfigurasjon av bokføringsgruppe | Microsoft-dokumentasjon"
-description: "Oversikt over bokføringsgrupper du kan bruke for å spare tid og unngå feil når du bokfører transaksjoner."
+title: Konfigurasjon av bokføringsgruppe | Microsoft-dokumentasjon
+description: Oversikt over bokføringsgrupper du kan bruke for å spare tid og unngå feil når du bokfører transaksjoner.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 10/01/2018
+ms.date: 03/05/2019
 ms.author: bholtorf
+ms.openlocfilehash: d62742e7dbee8a4f050d95444b66fa06521b707b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 732b69df44681d3cc63391bc87c0645ed7e5e1a5
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802677"
 ---
 # <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
 Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
@@ -38,9 +38,9 @@ De følgende tabellene beskriver bokføringsgruppene under hver paraply.
 
 | Bestemte bokføringsgrupper | Description |
 | --- | --- |
-| Bokføringsgrupper - kunde |Definere konti som skal brukes når du bokfører transaksjoner for kortsiktige fordringer. Hvis du bruker lager med kundekonto, er det kombinasjonen av den generelle bokføringsgruppen for firma som er tilordnet kunden, og den generelle bokføringsgruppen for vare som er tilordnet lagervaren, som fastsetter hvilke kontoer salgsordrelinjene bokføres til. Definer disse på siden **Bokføringsgrupper - kunde**. |
+| Bokføringsgrupper - kunde |Definere konti som skal brukes når du bokfører transaksjoner for kortsiktige fordringer. Hvis du bruker lager med kundekonto, er det kombinasjonen av den generelle bokføringsgruppen for firma som er tilordnet kunden, og den generelle bokføringsgruppen for vare som er tilordnet lagervaren, som fastsetter hvilke kontoer salgsordrelinjene bokføres til. Se "Bokføringsgrupper - firma" og "Bokføringsgrupper – vare" under **Generelle bokføringsgrupper** over. Definer disse på siden **Bokføringsgrupper - kunde**. |
 | Bokføringsgrupper - leverandør |Definere hvor du vil bokføre transaksjoner for leverandørkonto, gebyr og kontantrabattkontiene. Dette ligner på kundebokføringsgrupper. Definer disse på siden **Bokføringsgrupper - leverandør**. |
-| Bokføringsgrupper - lager |Definere lageret for balansekontoer. Disse gir også en god måte å organisere lageret, slik at du kan skille elementer etter deres bokføringsgruppen når du genererer rapporter. Definer disse på siden **Bokføringsgrupper - lager**. |
+| Bokføringsgrupper - lager |Definer lagerbokføringsgrupper, som du deretter tilordner til relevante varekontor på siden **Lagerbokføringsoppsett**. Hvis du gjør dette når du bokfører poster som er knyttet til en vare, utføres det en bokføring i finanskontoen som er opprettet for kombinasjonen av lagerbokføringsgruppe og lokasjon som er knyttet til varen. Bokføringsgrupper for lager gir også et godt utgangspunkt for organisering av lageret, slik at du kan skille varer ved hjelp av bokføringsgruppene når du genererer rapporter. Definer disse på siden **Bokføringsgrupper - lager**. |
 | Bokføringsgrupper - bank |Definer kontoer for bankkontoer. Dette kan for eksempel forenkle prosessene i transaksjonssporing og avstemming av bankkontoer. Definer disse på siden **Bokføringsgrupper - bank**. |
 | Bokføringsgrupper - aktiva |Definer kontoer for diverse typer utgifter og kostnader, for eksempel anskaffelseskost, akkumulerte avskrivningsbeløp, anskaffelseskost ved salg, akkumulert avskrivning ved salg, vinning ved salg, tap ved salg, vedlikeholdsutgifter og avskrivningsutgifter. Definer disse på siden **Bokføringsgrupper - aktiva**. |
 
@@ -79,4 +79,3 @@ Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se 
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

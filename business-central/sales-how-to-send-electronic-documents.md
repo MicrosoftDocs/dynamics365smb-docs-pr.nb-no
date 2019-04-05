@@ -1,21 +1,21 @@
 ---
 title: Sende elektroniske dokumenter | Microsoft-dokumentasjon
-description: "Lær hvordan du sender fakturaer elektronisk."
+description: Lær hvordan du sender fakturaer elektronisk.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 76940b9133f6aef69c588b12dd4e8940717d0eab
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802416"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. En leverandør av dokumentutvekslingstjenester fordeler elektroniske dokumenter mellom handelspartnere. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
@@ -57,4 +57,3 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 [Utveksle data elektronisk](across-data-exchange.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-

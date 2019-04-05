@@ -1,6 +1,6 @@
 ---
 title: Finne funksjoner og informasjon | Microsoft-dokumentasjon
-description: "Dette emnet beskriver hvordan du bruker søk til å finne handlinger, sider, rapporter, dokumentasjon og data."
+description: Dette emnet beskriver hvordan du bruker søk til å finne handlinger, sider, rapporter, dokumentasjon og data.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: d260f7cf5db0bbd7c70320d0bd1d33ee29650616
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803316"
 ---
 # <a name="using-tell-me-to-find-features-and-information"></a>Bruke Fortell meg til å finne funksjoner og informasjon  
 Dette emnet beskriver ulike måter som Fortell meg kan hjelpe deg med å finne en handling, side eller rapport raskt eller lære å gjøre noe i [!INCLUDE[d365fin](includes/d365fin_md.md)] hvis du er usikker.  

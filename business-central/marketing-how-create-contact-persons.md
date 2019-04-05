@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
+ms.openlocfilehash: 983de37e20b69d6ce5d8630973d8fbac6403a346
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 1bcba95f33a504d5c87fbc27671184d71aa6468f
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803037"
 ---
 # <a name="create-contact-persons"></a>Opprette kontaktpersoner
 Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskapene du utfører samhandlinger med. For hvert kontaktselskap kan du angi så mange kontaktpersoner du vil. Du kan også opprette kontaktkort for personer du vil registrere som uavhengige.
@@ -37,11 +37,9 @@ Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskape
 >   Innholdet i feltene som du har valgt i inndelingen **Arv** på siden **Markedsføringsoppsett**, kopieres fra selskapet til personene i selskapet.
 
 ## <a name="see-also"></a>Se også
-[Sette opp forbindelser](marketing-setup-marketing.md)  
 [Tilordne postgrupper til en kontakt:](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Definere ansvarsområder på kontakter](marketing-job-responsibilities.md)  
 [Definere organisasjonsnivåer for kontaktpersoner](marketing-organizational-levels.md)  
 [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts.md)  
 [Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Arbeide med Business Central](ui-work-product.md)  
-

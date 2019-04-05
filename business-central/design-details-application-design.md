@@ -2,21 +2,21 @@
 title: Designdetaljer | Microsoft-dokumentasjon
 description: Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i Business Central.
 author: SorenGP
-documentationcenter: 
+documentationcenter: ''
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: f374daae5d7135324ef4fc3da4845a992aa0ccb5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 11f8ab8463270723c1974791a6ff295fd1ca31aa
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802786"
 ---
 # <a name="design-details"></a>Designdetaljer
 Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -41,4 +41,3 @@ Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunks
 
  ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
   
-

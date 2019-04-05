@@ -1,23 +1,23 @@
 ---
 title: Opprette ruter | Microsoft-dokumentasjon
-description: "En rute inneholder hoveddata som gjenspeiler prosesskravene for en gitt produsert vare. Når en produksjonsordre opprettes for denne varen, styrer varens rute planleggingen av operasjonen(e) som vist på siden **Prod.ordrerute** under produksjonsordren."
+description: En rute inneholder hoveddata som gjenspeiler prosesskravene for en gitt produsert vare. Når en produksjonsordre opprettes for denne varen, styrer varens rute planleggingen av operasjonen(e) som vist på siden **Prod.ordrerute** under produksjonsordren.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 6eb16bd42357646a9e88c4799a3f110be0e294eb
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d6f64c04f6451701bbbac23e82678c5649a7df56
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803660"
 ---
 # <a name="create-routings"></a>Opprette ruter
 Produksjonsselskaper bruker ruter til å visualisere og dirigere produksjonsprosessen.
@@ -43,11 +43,11 @@ Før du kan definere en rute, må følgende være på plass:
 6.  I feltet **Operasjonsnr.** registrerer du nummeret for den første operasjonen, for eksempel  **10**.  
 7.  Angi hvilken ressurstype som brukes, i **Type**-feltet, for eksempel **Arbeidssenter**.  
 8.  I **Nr.** -feltet velger du ressursen som skal brukes, eller skriv den inn i feltet.  
-9.  I feltet **Rutekoblingskode** registrerer du en kode for å koble komponenten til en bestemt operasjon. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter du rutekoblinger".
-10.  I feltene **Operasjonstid** og **Oppstillingstid** registrerer du tiden det tar å utføre operasjonen.  
+9.  I feltet **Rutekoblingskode** registrerer du en kode for å koble komponenten til en bestemt operasjon. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du rutekoblinger](production-how-to-create-routings.md#to-create-routing-links).
+10.  I feltene **Operasjonstid** og **Oppstillingstid** registrerer du tiden det tar å utføre operasjonen.
 
-    > [!NOTE]  
-    >  Oppstillingstiden beregnes per produksjonsordre, mens operasjonstiden beregnes per produserte vare.  
+    > [!NOTE]
+    > Oppstillingstiden beregnes per produksjonsordre, mens operasjonstiden beregnes per produserte vare.  
 
 11.  Angi hvor mange enheter av den valgte ressursen skal brukes til å utføre operasjonen, i feltet **Samtidige kapasiteter**. To personer som for eksempel er tildelt til én pakkeoperasjon, halverer operasjonstiden.  
 12.  Fortsett med å fylle ut linjer for alle operasjonene som kreves for å produsere den aktuelle varen.  
@@ -126,4 +126,3 @@ Tidsgyldigheten for versjonen angis i feltet **Startdato**.
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

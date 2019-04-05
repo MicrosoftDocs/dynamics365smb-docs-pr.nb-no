@@ -1,7 +1,7 @@
 ---
 title: Velkommen| Microsoft-dokumentasjon
-description: "Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og sidene du bruker til å bli klar til å gjøre forretninger i Business Central."
-documentationcenter: 
+description: Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og sidene du bruker til å bli klar til å gjøre forretninger i Business Central.
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 44d81c85b1519c3c916a4e6509121afda5b4d5a2
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802471"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -39,7 +39,7 @@ På siden **Assistert oppsett** finner du følgende sammen med **Essential**-opp
 | Konfigurer Office-tillegg |Konfigurerer muligheten til å bruke og starte [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Outlook. |
 | Oppsett av arbeidsflyt for godkj. |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre visse verdier for dokumenter, kladdelinjer eller kort, for eksempel beløp over en bestemt grense. |
 | Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å følge opp samhandlinger. |
-| Definere Business Central Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Definere Business Central Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
 
 Når du har kjørt et assistert oppsett, merkes det som **Fullført**. Hvis du vil kjøre assistert oppsett, velger du de tre prikkene, også kalt hurtigmenyen, og deretter velger du **Start oppsett**.
 
@@ -69,4 +69,3 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

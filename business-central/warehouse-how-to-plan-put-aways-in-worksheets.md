@@ -1,23 +1,23 @@
 ---
 title: Planlegge plasseringer i forslaget | Microsoft-dokumentasjon
-description: "Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget."
+description: Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: e0674c0c308cd83de8a6977e05445c22009f513c
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802586"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
 Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.  
@@ -58,7 +58,7 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 
     -   Du kan tilordne plasseringen til en bestemt ansatt.  
     -   Du kan sortere plasseringsinstruksjonslinjene på samme måte som i forslaget eller etter hylleprioritering. Når du sorterer etter hylleprioritering, vises Hent-linjen først, fordi de fleste mottak har hylleprioriteringen 0, og Plasser-linjen vises sist. Den begynner med hyllene med lavest hyllerangering. Hvis du har strukturert lageret slik at hyller med lignende hylleprioritering er side ved side, blir jobben enklere for de lageransatte ved at de slipper å utføre enkelte trinn.  
-    -   Du kan velge ikke å se de mellomliggende linjene som blir opprettet når programmet konverterer en større enhet til mindre enheter, ved å merke av i **Angi anbrekksfilter**-feltet. Hvis du vil ha mer informasjon, se [Aktivere automatisk samlet oppbryting med lagerstyring og plukk] (warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
+    -   Du kan velge ikke å se de mellomliggende linjene som blir opprettet når programmet konverterer en større enhet til mindre enheter, ved å merke av i **Angi anbrekksfilter**-feltet. Hvis du vil ha mer informasjon, se [Aktivere automatisk samlet oppbryting med lagerstyring og plukk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md).  
     -   Du kan velge at feltet **Ant. som skal håndt.** ikke fylles automatisk ut i plasseringsinstruksjonene.  
     -   Du kan velge å skrive ut dokumentet umiddelbart.  
 
@@ -71,4 +71,3 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

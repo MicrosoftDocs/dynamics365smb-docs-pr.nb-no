@@ -1,8 +1,8 @@
 ---
-title: "Designdetaljer – Prioritere ordrer | Microsoft-dokumentasjon"
-description: "Les mer om hvordan du prioriterer for å dekke både behov og forsyningskrav."
+title: Designdetaljer – Prioritere ordrer | Microsoft-dokumentasjon
+description: Les mer om hvordan du prioriterer for å dekke både behov og forsyningskrav.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.keywords: design, priority, prioritize, order, sku, demand, supply
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
+ms.openlocfilehash: 1d58a02bdfe4810d1116d20866d3b435bc7341bc
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 6e09ad64750493f99210d47516410d8471a83011
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803801"
 ---
 # <a name="design-details-prioritizing-orders"></a>Designdetaljer: Prioritere ordrer
 I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i neste uke. I tillegg til denne generelle prioriteten vil planleggingssystemet også foreslå hvilken type behov som må være oppfylt før andre behov oppfylles. Det vil foreslå hvilken forsyningskilde som skal brukes før du bruker andre forsyningskilder. Dette gjøres i henhold til ordreprioriteter.  
@@ -60,4 +60,3 @@ I tillegg til prioriteter som er angitt av behov og forsyning, definerer den nå
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-

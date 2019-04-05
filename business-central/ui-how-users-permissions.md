@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/08/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: add32e82465610830b68a979e238103bfa10d438
-ms.openlocfilehash: 78e83ee0740531935bd30a5988a72d1421a1fd89
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803304"
 ---
 # <a name="managing-users-and-permissions"></a>Administrere brukere og tillatelser
 For å legge til brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)] må selskapets Office 365-administrator først opprette brukere i administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://aka.ms/CreateOffice365Users).
@@ -26,7 +26,7 @@ Du kan deretter fortsette med å tildele tillatelser til brukere til å definere
 
 Et tillatelsessett er en samling tillatelser for bestemte objekter i databasen. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Fra siden **Brukerkort** kan du åpne siden **Gyldige tillatelser** for å se hvilke tillatelser brukeren har, og gjennom hvilke tillatelsessett de er gitt. Her kan du også endre tillatelsesdetaljer for tillatelsessett av typen **Brukerdefinert**. Hvis du vil ha mer informasjon, kan du se delen "Slik viser eller redigerer du en brukers tillatelser".
+Fra siden **Brukerkort** kan du åpne siden **Gyldige tillatelser** for å se hvilke tillatelser brukeren har, og gjennom hvilke tillatelsessett de er gitt. Her kan du også endre tillatelsesdetaljer for tillatelsessett av typen **Brukerdefinert**. Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 Administratorer kan bruke siden **Brukeroppsett** til å definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på.
 
@@ -38,7 +38,7 @@ Et annet system som definerer hvilke brukere som har tilgang til opplevelsesinns
 
 Alle nye brukere som allerede er opprettet for ditt Office 365-abonnement, legges til på siden **Brukere**.
 
-## <a name="to-group-users-in-a-user-group"></a>Slik grupperer du brukere i en brukergruppe
+## <a name="to-group-users-in-user-groups"></a>Slik grupperer du brukere i brukergrupper
 Du kan definere brukergrupper til å administrere tillatelsessett for grupper av brukere i firmaet.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
@@ -46,7 +46,7 @@ Du kan definere brukergrupper til å administrere tillatelsessett for grupper av
 3. Gå til siden **Brukergruppe** og velg handlingen **Brukergruppemedlemmer**.
 4. Velg **Legg til brukere** på siden **Brukergruppemedlemmer**.
 
-Når brukere eller brukergrupper er opprettet, må du tilordne tillatelsessett for hver for å definere hvilket objekt en bruker har tilgang til. Du må først organisere relevante tillatelser i tillatelsessett. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter eller viser du et tillatelsessett".
+Når brukere eller brukergrupper er opprettet, må du tilordne tillatelsessett for hver for å definere hvilket objekt en bruker har tilgang til. Du må først organisere relevante tillatelser i tillatelsessett. Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-how-users-permissions.md#to-get-an-overview-of-a-users-permissions).
 
 ## <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Slik kopierer du en brukergruppe og alle tillatelsessettene
 For å definere en ny brukergruppe raskt kan du kopiere alle tillatelsessett fra en eksisterende brukergruppe til den nye brukergruppen.
@@ -57,7 +57,7 @@ Brukergruppemedlemmene kopieres ikke til den nye brukergruppen. Du må legge dem
 2. Velg brukergruppen du vil kopiere, og velg deretter handlingen **Kopier brukergruppe**.
 3. I feltet **Ny brukergruppekode** angir du et navn på gruppen, og velger deretter **OK**-knappen.
 
-Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å legge til brukere. Hvis du vil ha mer informasjon, kan du se delen Slik grupperer du brukere i brukergrupper.  
+Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å legge til brukere. Hvis du vil ha mer informasjon, kan du se [Slik grupperer du brukere i brukergrupper](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
 Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
@@ -68,7 +68,7 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 4. Fyll ut feltene etter behov.
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Opprette eller endre et tillatelsessett
-Tillatelsessett fungerer som beholdere med tillatelser, slik at du enkelt kan behandle flere tillatelser i én post. Når du har opprettet et tillatelsessett, må du legge til de aktuelle tillatelsene. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter eller viser du tillatelsessett".
+Tillatelsessett fungerer som beholdere med tillatelser, slik at du enkelt kan behandle flere tillatelser i én post. Når du har opprettet et tillatelsessett, må du legge til de aktuelle tillatelsene. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelser manuelt](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).
 
 > [!NOTE]  
 > En [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsningen inneholder vanligvis et antall forhåndsdefinerte tillatelsessett som legges til av Microsoft eller programvareleverandøren. Disse tillatelsessettene er av typen **System** eller **Utvidelse**. Du kan ikke opprette eller redigere disse typene tillatelsessett eller tillatelsene i dem. Du kan imidlertid kopiere dem for å definere dine egne tillatelsessett og tillatelser. <br /><br />
@@ -91,7 +91,7 @@ Når du oppretter nye tillatelsessett, kan du bruke en kopieringsfunksjon til å
 Det nye tillatelsessettet, som inneholder alle tillatelsene i det kopierte tillatelsessettet, legges til som en ny linje på siden **Tillatelsessett**. Legg merke til at linjene sorteres alfabetisk innen hver type.
 
 ## <a name="to-create-or-modify-permissions-manually"></a>Opprette eller endre tillatelser manuelt
-Denne fremgangsmåten beskriver hvordan du legger til eller redigerer tillatelser manuelt. Du kan også generere et tillatelsessett automatisk fra handlingene i grensesnittet. Hvis du vil ha mer informasjon, kan du se delen "Opprette eller endre tillatelsessett ved å registrere handlingene dine".
+Denne fremgangsmåten beskriver hvordan du legger til eller redigerer tillatelser manuelt. Du kan også generere et tillatelsessett automatisk fra handlingene i grensesnittet. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelsessett ved å registrere handlingene dine](ui-how-users-permissions.md#to-create-or-modify-permission-sets-by-recording-your-actions).
 
 1. På siden **Tillatelsessett** merker du linjen for et tillatelsessett og velger deretter handlingen **Tillatelser**.
 2. På siden **Tillatelser** oppretter du en ny linje eller redigerer feltene i en eksisterende linje.
@@ -109,6 +109,10 @@ Du kan tilordne en indirekte tillatelse til å bruke et objekt, bare via et anne
 En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, Sales-Post. Kodeenheten Sales-Post utfører mange oppgaver, inkludert å endre tabell 37, salgslinjen. Når du bokfører et salgsdokument, codeunit Sales-Post, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] om brukeren har tillatelse til å endre Salgslinje-tabellen. Hvis ikke kan ikke kodeenheten fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
 
 Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre kodeenheten. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre kodeenheten Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
+
+### <a name="to-limit-a-users-access-to-specific-records-in-a-table"></a>Slik begrenser du brukerens adgang til bestemte poster i en tabell
+For sikkerhet på postnivå i [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. Dette betyr at brukeren ikke har tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruke sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) hjelpen for utviklere og IT-eksperter.
+
 
 ## <a name="to-create-or-modify-permission-sets-by-recording-your-actions"></a>Hvis du vil opprette eller endre tillatelsen angis ved makroregistreringen
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tillatelsessett**, og velg deretter den relaterte koblingen.
@@ -138,7 +142,7 @@ Du kan tilordne tillatelser til brukere på to måter:
 2. Velg brukeren du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Rediger** for å åpne **Brukerkort**-siden.
-4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se delen "Slik oppretter eller viser du et tillatelsessett".
+4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se [Slik oppretter eller viser du et tillatelsessett](ui-how-users-permissions.md#to-create-or-modify-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Slik tilordner du et tillatelsessett på siden **Tillatelsessett etter bruker**  
 Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en bruker på siden **Tillatelsessett etter bruker**. Trinnene er like på siden **Tillatelsessett etter brukergruppe**.
@@ -161,20 +165,20 @@ Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en
 
     > [!NOTE]  
     > Bare tillatelsessett av typen **Brukerdefinert** kan redigeres.<br /><br />
-    > Rader for kilderettighet er hentet fra abonnementsplanen. Tillatelsesverdiene for rettigheten overstyrer verdier i andre tillatelsessett hvis de har en høyere rangering. En verdi i et ikke-berettiget tillatelsessett som har en høyere rangering enn den relaterte verdien i berettigelsen, vil stå i parenteser for å angi at den ikke er gyldig, siden den er overstyrt av berettigelsen. For en forklaring av rangering kan du se delen "Slik oppretter eller viser du tillatelsessett".  
+    > Rader for kilderettighet er hentet fra abonnementsplanen. Tillatelsesverdiene for rettigheten overstyrer verdier i andre tillatelsessett hvis de har en høyere rangering. En verdi i et ikke-berettiget tillatelsessett som har en høyere rangering enn den relaterte verdien i berettigelsen, vil stå i parenteser for å angi at den ikke er gyldig, siden den er overstyrt av berettigelsen. For en forklaring av rangering kan du se [Slik oppretter eller viser du tillatelsessett manuelt](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 4. Hvis du vil redigere et tillatelsessett, går du til delen **Etter tillatelsessett** og linjen for et relevant tillatelsessett av typen **Brukerdefinerte** og velger ett av de fem tilgangstypefeltene og en annen verdi.
 
-5. Hvis du vil redigere enkelttillatelser i tillatelsessettene, kan du velge verdien i feltet **Tillatelsessett** for å åpne **Tillatelser**-siden. Følg trinnene beskrevet under "Slik oppretter eller redigerer du tillatelser".  
+5. Hvis du vil redigere enkelttillatelser i tillatelsessettene, kan du velge verdien i feltet **Tillatelsessett** for å åpne **Tillatelser**-siden. Følg trinnene beskrevet under [Slik oppretter eller redigerer du tillatelser](ui-how-users-permissions.md#to-create-or-modify-permissions-manually).  
 
 > [!NOTE]  
 > Når du redigerer et tillatelsessett, gjelder endringene også for andre brukere som har tillatelsessettet tilordnet.
 
 ## <a name="see-also"></a>Se også
+[Sikkerhet og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 [Forstå brukere, profiler og rollesentre](admin-users-profiles-roles.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Legge til brukere i Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)
-
+[Lisensveiledning for Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)

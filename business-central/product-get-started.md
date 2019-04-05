@@ -1,6 +1,6 @@
 ---
 title: Komme i gang | Microsoft-dokumentasjon
-description: "Finn ut mer om egenskaper og arbeidsscenarier i Business Central, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner."
+description: Finn ut mer om egenskaper og arbeidsscenarier i Business Central, en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 12/03/2018
 ms.author: edupont
+ms.openlocfilehash: 5386dc4158dbd1e944eac75f4339ca2295a92fd2
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 3f158d7ed56445d6d2acf2ef8e5e9ab8e7487531
-ms.openlocfilehash: 15c54c7c6514ce275ff242d620df7404f9f2fee4
-ms.contentlocale: nb-no
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803056"
 ---
 # <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet. Hvis du vil ha hjelp med abonnementet, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -83,9 +83,9 @@ Hvis du har flere spørsmål, anbefaler vi at du spør gruppen eller kontakter v
 Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search). Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apper
-Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [nettstedet for Dynamics 365 Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [Dynamics 365 Business Central-nettstedet](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
-Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få sømløs integrasjon med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
+Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få sømløs integrasjon med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
@@ -99,4 +99,3 @@ Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](in
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-

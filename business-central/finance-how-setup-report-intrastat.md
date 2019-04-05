@@ -1,8 +1,8 @@
 ---
 title: Konfigurere og rapportere Intrastat | Microsoft-dokumentasjon
-description: "Lær hvordan du konfigurerer Intrastat rapporteringsfunksjoner, og hvordan til å rapportere handel med selskaper i andre EU-land."
+description: Lær hvordan du konfigurerer Intrastat rapporteringsfunksjoner, og hvordan til å rapportere handel med selskaper i andre EU-land.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: b75d709933cd9d147a9b5e0862a88a44a300f3c1
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803110"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
@@ -122,4 +122,3 @@ Fordi du må levere en Intrastat-rapport hver måned, og du oppretter en ny klad
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)
-

@@ -1,112 +1,111 @@
 ---
-title: "Designdetaljer – Kodeenhet 12: Endringer i tilordning av globale variabler for Finanskladd – bokfør linje | Microsoft-dokumentasjon"
-description: "Følgende endringer er implementert i denne versjonen av Business Central."
+title: 'Designdetaljer – Kodeenhet 12: Endringer i tilordning av globale variabler for Finanskladd – bokfør linje | Microsoft-dokumentasjon'
+description: Følgende endringer er implementert i denne versjonen av Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 9cb19558c8c441eac188504e798ca36d86b599d5
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: aae8b02b95d3e385030610533f4b1b7f04602d5e
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803295"
 ---
 # <a name="codeunit-12-changes-mapping-global-variables-for-general-journal-post-line"></a>Endringer i kodeenhet 12: Tilordne globale variabler for Finanskladd – bokfør linje
 Følgende endringer er implementert i denne versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 |**Microsoft Dynamics NAV 2009 R2**|**Microsoft Dynamics NAV 2013 R2**|**Merknad**|  
 |----------------------------------------|----------------------------------------|-----------------|  
-|GLSetup@1009 : Post 98;|GLSetup@1009 : Post 98;|Uendret|  
-|SalesSetup@1010 : Post 311;||Endret til lokal|  
-|PurchSetup@1011 : Post 312;||Endret til lokal|  
-|AccountingPeriod@1012 : Post 50;||Endret til lokal|  
-|GLAcc@1013 : Post 15;||Endret til lokal|  
-|GLEntry@1014 : Post 17;|GlobalGLEntry@1014 : Post 17;|Nytt navn|  
-|GLEntryTmp@1015 : MIDLERTIDIG post 17;|TempGLEntryBuf@1010 : MIDLERTIDIG post 17;|Nytt navn|  
-|TempGLEntryVAT@1016 : MIDLERTIDIG post 17;|TempGLEntryVAT@1016 : MIDLERTIDIG post 17;|Uendret|  
-|OrigGLEntry@1017 : Post 17;||Slettet|  
-|VATPostingSetup@1019 : Post 325;||Endret til lokal|  
-|Cust@1020 : Post 18;||Endret til lokal|  
-|Vend@1021 : Post 23;||Endret til lokal|  
-|GenJnlLine@1022 : Post 81;||Endret til lokal|  
-|GLReg@1029 : Post 45;|GLReg@1029 : Post 45;|Uendret|  
-|CustPostingGr@1030 : Post 92;||Endret til lokal|  
-|VendPostingGr@1031 : Post 93;||Endret til lokal|  
-|Currency@1032 : Post 4;||Endret til lokal|  
-|AddCurrency@1033 : Post 4;|AddCurrency@1033 : Post 4;|Uendret|  
-|ApplnCurrency@1034 : Post 4;||Endret til lokal|  
-|CurrExchRate@1035 : Post 330;|CurrExchRate@1035 : Post 330;|Uendret|  
-|VATEntry@1038 : Post 254;|VATEntry@1038 : Post 254;|Uendret|  
-|BankAcc@1039 : Post 270;||Endret til lokal|  
-|BankAccLedgEntry@1040 : Post 271;||Endret til lokal|  
-|CheckLedgEntry@1041 : Post 272;||Endret til lokal|  
-|CheckLedgEntry2@1042 : Post 272;||Endret til lokal|  
-|BankAccPostingGr@1043 : Post 277;||Endret til lokal|  
-|GenJnlTemplate@1044 : Post 80;||Endret til lokal|  
-|TaxJurisdiction@1045 : Post 320;||Endret til lokal|  
-|TaxDetail@1046 : Post 322;|TaxDetail@1046 : Post 322;|Uendret|  
-|FAGLPostBuf@1047 : MIDLERTIDIG post 5637;||Endret til lokal|  
-|UnrealizedCustLedgEntry@1084 : Post 21;|UnrealizedCustLedgEntry@1084 : Post 21;|Uendret|  
-|UnrealizedVendLedgEntry@1085 : Post 25;|UnrealizedVendLedgEntry@1085 : Post 25;|Uendret|  
-|GLEntryVATEntryLink@1087 : Post 253;|GLEntryVATEntryLink@1087 : Post 253;|Uendret|  
-|TempVATEntry@1088 : MIDLERTIDIG post 254;|TempVATEntry@1088 : MIDLERTIDIG post 254;|Uendret|  
-|ReversedGLEntryTemp@1089 : MIDLERTIDIG post 17;||Flyttet til kodeenhet 17|  
-|CostAccSetup@1092 : Post 1108;||Endret til lokal|  
-|GenJnlCheckLine@1048 : Kodeenhet 11;|GenJnlCheckLine@1001 : Kodeenhet 11;|Uendret|  
-|ExchAccGLJnlLine@1049 : Kodeenhet 366;||Endret til lokal|  
-|FAJnlPostLine@1050 : Kodeenhet 5632;||Endret til lokal|  
-|SalesTaxCalculate@1051 : Kodeenhet 398;||Endret til lokal|  
-|GenJnlApply@1052 : Kodeenhet 225;||Endret til lokal|  
-|DimMgt@1053 : Kodeenhet 408;||Endret til lokal|  
-|JobPostLine@1028 : Kodeenhet 1001;||Endret til lokal|  
-|TransferGlEntriesToCA@1091 : Kodeenhet 1105;||Endret til lokal|  
-||PaymentToleranceMgt@1002 : Kodeenhet 426;|Lagt til|  
-||AddCurrencyCode@1117 : Kode[10];|Lagt til|  
-|FiscalYearStartDate@1054 : Dato;|FiscalYearStartDate@1011 : Dato;|Uendret|  
-|NextEntryNo@1055 : Heltall;|NextEntryNo@1022 : Heltall;|Uendret|  
-|BalanceCheckAmount@1056 : Desimal;|BalanceCheckAmount@1056 : Desimal;|Uendret|  
-|BalanceCheckAmount2@1057 : Desimal;|BalanceCheckAmount2@1057 : Desimal;|Uendret|  
-|BalanceCheckAddCurrAmount@1058 : Desimal;|BalanceCheckAddCurrAmount@1058 : Desimal;|Uendret|  
-|BalanceCheckAddCurrAmount2@1059 : Desimal;|BalanceCheckAddCurrAmount2@1059 : Desimal;|Uendret|  
-|CurrentBalance@1060 : Desimal;|CurrentBalance@1060 : Desimal;|Uendret|  
-|SalesTaxBaseAmount@1061 : Desimal;||Endret til lokal|  
-|TotalAddCurrAmount@1062 : Desimal;|TotalAddCurrAmount@1062 : Desimal;|Uendret|  
-|TotalAmount@1063 : Desimal;|TotalAmount@1063 : Desimal;|Uendret|  
-|UnrealizedRemainingAmountCust@1086 : Desimal;|UnrealizedRemainingAmountCust@1086 : Desimal;|Uendret|  
-|UnrealizedRemainingAmountVend@1074 : Desimal;|UnrealizedRemainingAmountVend@1074 : Desimal;|Uendret|  
-|NextVATEntryNo@1064 : Heltall;|NextVATEntryNo@1064 : Heltall;|Uendret|  
-|FirstNewVATEntryNo@1065 : Heltall;|FirstNewVATEntryNo@1065 : Heltall;|Uendret|  
-|NextTransactionNo@1066 : Heltall;|NextTransactionNo@1066 : Heltall;|Uendret|  
-|NextConnectionNo@1067 : Heltall;|NextConnectionNo@1067 : Heltall;|Uendret|  
-|InsertedTempGLEntryVAT@1068 : Heltall;|InsertedTempGLEntryVAT@1027 : Heltall;|Uendret|  
-|LastDocNo@1069 : Kode[20];|LastDocNo@1023 : Kode[20];|Uendret|  
-|LastLineNo@1070 : Heltall;||Slettet|  
-|LastDate@1071 : Dato;|LastDate@1021 : Dato;|Uendret|  
-|LastDocType@1072: ' ,Betaling,Faktura,Kreditnota,Rentenota,Purring';|LastDocType@1025: ' ,Betaling,Faktura,Kreditnota,Rentenota,Purring';|Uendret|  
-|NextCheckEntryNo@1073 : Heltall;|NextCheckEntryNo@1028 : Heltall;|Uendret|  
-|AddCurrGLEntryVATAmt@1075 : Desimal;|AddCurrGLEntryVATAmt@1017 : Desimal;|Uendret|  
-|CurrencyDate@1076 : Dato;|CurrencyDate@1020 : Dato;|Uendret|  
-|CurrencyFactor@1077 : Desimal;|CurrencyFactor@1019 : Desimal;|Uendret|  
-|UseCurrFactorOnly@1078 : Boolsk;|UseCurrFactorOnly@1078 : Boolsk;|Uendret|  
-|NonAddCurrCodeOccured@1079 : Boolsk;|NonAddCurrCodeOccured@1079 : Boolsk;|Uendret|  
-|FADimAlreadyChecked@1080 : Boolsk;|FADimAlreadyChecked@1080 : Boolsk;|Uendret|  
-|AllApplied@1081 : Boolsk;||Endret til lokal|  
-|OverrideDimErr@1018 : Boolsk;|OverrideDimErr@1018 : Boolsk;|Uendret|  
-|JobLine@1036 : Boolsk;|JobLine@1036 : Boolsk;|Uendret|  
-|Prepayment@1037 : Boolsk;||Slettet|  
-|CheckUnrealizedCust@1082 : Boolsk;|CheckUnrealizedCust@1082 : Boolsk;|Uendret|  
-|CheckUnrealizedVend@1083 : Boolsk;|CheckUnrealizedVend@1083 : Boolsk;|Uendret|  
-|GLEntryNo@1090 : Heltall;|GLEntryNo@1026 : Heltall;|Uendret|  
-||GLSetupRead@1015 : Boolsk;|Lagt til|  
-||AmountRoundingPrecision@1012 : Desimal;|Lagt til|  
-||CrCardTransactionEntryNo@1013 : Heltall;|Lagt til|  
+|GLSetup@1009 : Record 98;|GLSetup@1009 : Record 98;|Uendret|  
+|SalesSetup@1010 : Record 311;||Endret til lokal|  
+|PurchSetup@1011 : Record 312;||Endret til lokal|  
+|AccountingPeriod@1012 : Record 50;||Endret til lokal|  
+|GLAcc@1013 : Record 15;||Endret til lokal|  
+|GLEntry@1014 : Record 17;|GlobalGLEntry@1014 : Record 17;|Nytt navn|  
+|GLEntryTmp@1015 : TEMPORARY Record 17;|TempGLEntryBuf@1010 : TEMPORARY Record 17;|Nytt navn|  
+|TempGLEntryVAT@1016 : TEMPORARY Record 17;|TempGLEntryVAT@1016 : TEMPORARY Record 17;|Uendret|  
+|OrigGLEntry@1017 : Record 17;||Slettet|  
+|VATPostingSetup@1019 : Record 325;||Endret til lokal|  
+|Cust@1020 : Record 18;||Endret til lokal|  
+|Vend@1021 : Record 23;||Endret til lokal|  
+|GenJnlLine@1022 : Record 81;||Endret til lokal|  
+|GLReg@1029 : Record 45;|GLReg@1029 : Record 45;|Uendret|  
+|CustPostingGr@1030 : Record 92;||Endret til lokal|  
+|VendPostingGr@1031 : Record 93;||Endret til lokal|  
+|Currency@1032 : Record 4;||Endret til lokal|  
+|AddCurrency@1033 : Record 4;|AddCurrency@1033 : Record 4;|Uendret|  
+|ApplnCurrency@1034 : Record 4;||Endret til lokal|  
+|CurrExchRate@1035 : Record 330;|CurrExchRate@1035 : Record 330;|Uendret|  
+|VATEntry@1038 : Record 254;|VATEntry@1038 : Record 254;|Uendret|  
+|BankAcc@1039 : Record 270;||Endret til lokal|  
+|BankAccLedgEntry@1040 : Record 271;||Endret til lokal|  
+|CheckLedgEntry@1041 : Record 272;||Endret til lokal|  
+|CheckLedgEntry2@1042 : Record 272;||Endret til lokal|  
+|BankAccPostingGr@1043 : Record 277;||Endret til lokal|  
+|GenJnlTemplate@1044 : Record 80;||Endret til lokal|  
+|TaxJurisdiction@1045 : Record 320;||Endret til lokal|  
+|TaxDetail@1046 : Record 322;|TaxDetail@1046 : Record 322;|Uendret|  
+|FAGLPostBuf@1047 : TEMPORARY Record 5637;||Endret til lokal|  
+|UnrealizedCustLedgEntry@1084 : Record 21;|UnrealizedCustLedgEntry@1084 : Record 21;|Uendret|  
+|UnrealizedVendLedgEntry@1085 : Record 25;|UnrealizedVendLedgEntry@1085 : Record 25;|Uendret|  
+|GLEntryVATEntryLink@1087 : Record 253;|GLEntryVATEntryLink@1087 : Record 253;|Uendret|  
+|TempVATEntry@1088 : TEMPORARY Record 254;|TempVATEntry@1088 : TEMPORARY Record 254;|Uendret|  
+|ReversedGLEntryTemp@1089 : TEMPORARY Record 17;||Flyttet til kodeenhet 17|  
+|CostAccSetup@1092 : Record 1108;||Endret til lokal|  
+|GenJnlCheckLine@1048 : Codeunit 11;|GenJnlCheckLine@1001 : Codeunit 11;|Uendret|  
+|ExchAccGLJnlLine@1049 : Codeunit 366;||Endret til lokal|  
+|FAJnlPostLine@1050 : Codeunit 5632;||Endret til lokal|  
+|SalesTaxCalculate@1051 : Codeunit 398;||Endret til lokal|  
+|GenJnlApply@1052 : Codeunit 225;||Endret til lokal|  
+|DimMgt@1053 : Codeunit 408;||Endret til lokal|  
+|JobPostLine@1028 : Codeunit 1001;||Endret til lokal|  
+|TransferGlEntriesToCA@1091 : Codeunit 1105;||Endret til lokal|  
+||PaymentToleranceMgt@1002 : Codeunit 426;|Lagt til|  
+||AddCurrencyCode@1117 : Code[10];|Lagt til|  
+|FiscalYearStartDate@1054 : Date;|FiscalYearStartDate@1011 : Date;|Uendret|  
+|NextEntryNo@1055 : Integer;|NextEntryNo@1022 : Integer;|Uendret|  
+|BalanceCheckAmount@1056 : Decimal;|BalanceCheckAmount@1056 : Decimal;|Uendret|  
+|BalanceCheckAmount2@1057 : Decimal;|BalanceCheckAmount2@1057 : Decimal;|Uendret|  
+|BalanceCheckAddCurrAmount@1058 : Decimal;|BalanceCheckAddCurrAmount@1058 : Decimal;|Uendret|  
+|BalanceCheckAddCurrAmount2@1059 : Decimal;|BalanceCheckAddCurrAmount2@1059 : Decimal;|Uendret|  
+|CurrentBalance@1060 : Decimal;|CurrentBalance@1060 : Decimal;|Uendret|  
+|SalesTaxBaseAmount@1061 : Decimal;||Endret til lokal|  
+|TotalAddCurrAmount@1062 : Decimal;|TotalAddCurrAmount@1062 : Decimal;|Uendret|  
+|TotalAmount@1063 : Decimal;|TotalAmount@1063 : Decimal;|Uendret|  
+|UnrealizedRemainingAmountCust@1086 : Decimal;|UnrealizedRemainingAmountCust@1086 : Decimal;|Uendret|  
+|UnrealizedRemainingAmountVend@1074 : Decimal;|UnrealizedRemainingAmountVend@1074 : Decimal;|Uendret|  
+|NextVATEntryNo@1064 : Integer;|NextVATEntryNo@1064 : Integer;|Uendret|  
+|FirstNewVATEntryNo@1065 : Integer;|FirstNewVATEntryNo@1065 : Integer;|Uendret|  
+|NextTransactionNo@1066 : Integer;|NextTransactionNo@1066 : Integer;|Uendret|  
+|NextConnectionNo@1067 : Integer;|NextConnectionNo@1067 : Integer;|Uendret|  
+|InsertedTempGLEntryVAT@1068 : Integer;|InsertedTempGLEntryVAT@1027 : Integer;|Uendret|  
+|LastDocNo@1069 : Code[20];|LastDocNo@1023 : Code[20];|Uendret|  
+|LastLineNo@1070 : Integer;||Slettet|  
+|LastDate@1071 : Date;|LastDate@1021 : Date;|Uendret|  
+|LastDocType@1072 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|LastDocType@1025 : ' ,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder';|Uendret|  
+|NextCheckEntryNo@1073 : Integer;|NextCheckEntryNo@1028 : Integer;|Uendret|  
+|AddCurrGLEntryVATAmt@1075 : Decimal;|AddCurrGLEntryVATAmt@1017 : Decimal;|Uendret|  
+|CurrencyDate@1076 : Date;|CurrencyDate@1020 : Date;|Uendret|  
+|CurrencyFactor@1077 : Decimal;|CurrencyFactor@1019 : Decimal;|Uendret|  
+|UseCurrFactorOnly@1078 : Boolean;|UseCurrFactorOnly@1078 : Boolean;|Uendret|  
+|NonAddCurrCodeOccured@1079 : Boolean;|NonAddCurrCodeOccured@1079 : Boolean;|Uendret|  
+|FADimAlreadyChecked@1080 : Boolean;|FADimAlreadyChecked@1080 : Boolean;|Uendret|  
+|AllApplied@1081 : Boolean;||Endret til lokal|  
+|OverrideDimErr@1018 : Boolean;|OverrideDimErr@1018 : Boolean;|Uendret|  
+|JobLine@1036 : Boolean;|JobLine@1036 : Boolean;|Uendret|  
+|Prepayment@1037 : Boolean;||Slettet|  
+|CheckUnrealizedCust@1082 : Boolean;|CheckUnrealizedCust@1082 : Boolean;|Uendret|  
+|CheckUnrealizedVend@1083 : Boolean;|CheckUnrealizedVend@1083 : Boolean;|Uendret|  
+|GLEntryNo@1090 : Integer;|GLEntryNo@1026 : Integer;|Uendret|  
+||GLSetupRead@1015 : Boolean;|Lagt til|  
+||AmountRoundingPrecision@1012 : Decimal;|Lagt til|  
+||CrCardTransactionEntryNo@1013 : Integer;|Lagt til|  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer – Endringer i kodeenhet 12: Endringer i bokføringsprosedyrene for finans](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
-

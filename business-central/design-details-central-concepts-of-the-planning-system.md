@@ -1,23 +1,23 @@
 ---
-title: "Designdetaljer – Sentrale begreper for planleggingssystemet | Microsoft-dokumentasjon"
-description: "Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges, og foreslår deretter mulige handlinger som brukeren kan utføre i henhold til etterspørsels-/tilbudssituasjonen og varens planleggingsparametere."
+title: Designdetaljer – Sentrale begreper for planleggingssystemet | Microsoft-dokumentasjon
+description: Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges, og foreslår deretter mulige handlinger som brukeren kan utføre i henhold til etterspørsels-/tilbudssituasjonen og varens planleggingsparametere.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 06dc378a045f9217cd54a53fef9747fbd9c7ba1b
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: afbc6454fd133cfc5d2a40ffc12220b9cbf0f6dd
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803429"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
@@ -237,7 +237,7 @@ Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke ska
 Unntaksordreforslag sikrer vanligvis at forventet disponibel beholdning aldri er lavere enn sikkerhetslagernivået. Dette betyr at det foreslåtte antallet er akkurat nok til å dekke sikkerhetslageret, uten å ta hensyn planleggingsparametre. I noen scenarier vurderes imidlertid ordremodifikatorer.  
 
 > [!NOTE]  
->  Planleggingssystemet kan ha forbrukt sikkerhetslageret med hensikt og etterfyller det deretter med en gang. Hvis du vil ha mer informasjon, kan du se delen "Sikkerhetslager kan forbrukes" i [Designdetaljer: Laste inn lagerprofiler](design-details-loading-the-inventory-profiles.md).
+>  Planleggingssystemet kan ha forbrukt sikkerhetslageret med hensikt og etterfyller det deretter med en gang. Hvis du vil ha mer informasjon, se [Sikkerhetslager kan forbrukes](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
 
 ### <a name="attention"></a>Viktig  
 Tilsyn-advarselen vises i tre situasjoner:  
@@ -289,4 +289,3 @@ Dermed har du fått en oversikt over sentrale begreper som har å gjøre med for
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)   
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)
-

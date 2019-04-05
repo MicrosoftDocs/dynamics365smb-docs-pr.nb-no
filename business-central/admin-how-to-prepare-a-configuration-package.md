@@ -1,23 +1,23 @@
 ---
-title: "Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon"
-description: "Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken."
+title: Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon
+description: Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: ea4a7671788ba5c4bd251a83dab1f2616cfbe706
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803067"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken.  
@@ -93,7 +93,7 @@ Bruk konfigurasjonsforslaget til å samle inn og kategorisere informasjon du vil
 3.  Velg **Gruppe** i **Linjetype**-feltet. Skriv inn et beskrivende navn i **Navn**-feltet.  
 4.  Velg **Tabell** i **Linjetype**-feltet. Velg tabellen du vil ta med i forslaget, i **Tabell-ID**-feltet.  
 
-Nå kan du tilordne tabeller til spesifikk konfigurasjonspakker som du har opprettet eller planlegger å opprette. Hvis du vil ha mer informasjon, se delen Tilordne en tabell til en konfigurasjonspakke.
+Nå kan du tilordne tabeller til spesifikk konfigurasjonspakker som du har opprettet eller planlegger å opprette. Hvis du vil ha mer informasjon, se [Slik tilordner du en tabell til en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md#to-assign-a-table-to-a-configuration-package).
 
 ## <a name="to-work-with-promoted-tables"></a>Slik arbeider du med forfremmede tabeller:  
 1. Merk av for **Forfremmet tabell** for å indikere en tabell som ofte blir brukt av en vanlig kunde under oppsettprosessen , for eksempel **Finanskonto**-tabellen. Når en tabell har denne angivelsen, kan en kunde enkelt filtrere forslaget for å vise bare listen over forfremmede tabeller som krever oppmerksomhet.  
@@ -103,7 +103,7 @@ Nå kan du tilordne tabeller til spesifikk konfigurasjonspakker som du har oppre
 Når du har definert tabellene du vil skal behandles som en del av konfigurasjonen, kan du enkelt tilordne tabellene til konfigurasjonspakker. Du kan tilordne en tabell til bare én pakke. I fremgangsmåten nedenfor tilordner du pakken i konfigurasjonsforslaget.  
 
 > [!NOTE]  
->  Du kan også opprette en pakke direkte, og legge til tabeller i den. Hvis du vil ha mer informasjon, kan du se delene Opprette en konfigurasjonspakke.
+>  Du kan også opprette en pakke direkte, og legge til tabeller i den. Hvis du vil ha mer informasjon, se [Slik oppretter du en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Velg en linje eller gruppe med linjer i konfigurasjonsforslaget som du vil tilordne til konfigurasjonspakke, og velg deretter handlingen **Tilordne pakke**.  
@@ -139,4 +139,3 @@ Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med
 [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
-

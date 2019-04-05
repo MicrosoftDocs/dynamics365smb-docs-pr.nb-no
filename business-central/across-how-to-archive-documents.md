@@ -1,26 +1,30 @@
 ---
-title: "Arkivere salgs- og kjøpsdokumenter | Microsoft-dokumentasjon"
-description: "Du kan arkivere salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og du kan bruke det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra."
+title: Arkivere salgs- og kjøpsdokumenter | Microsoft-dokumentasjon
+description: Du kan arkivere salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og du kan bruke det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 10/01/2018
+ms.search.keywords: ''
+ms.date: 02/14/2018
 ms.author: sgroespe
+ms.openlocfilehash: 2f05313d30aede255e4ef49065f0189d649ce93c
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 4827e25d97127faf691b96df9868320bb47dee39
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803594"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
-Du kan arkivere salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og du kan bruke det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra.
+Du kan arkivere ordrer, bestillinger, tilbud, ordrereturer og rammebestillinger, for eksempel fordi du vil lagre en kopi av et dokument til bruk senere. Du arkivere et salgs- eller kjøpsdokument flere ganger og lagre en annen arkiverte versjon hver gang.
+
+For arkiverte dokumenter der originalen fortsatt finnes og ikke er bokført, kan du bruke funksjonen **Gjenopprett** til å overskrive originalen med den arkiverte versjonen av dokumentet. Dette er nyttig hvis du trenger å gjenopprette innholdet i et dokument til en tidligere tilstand.
+
+For arkiverte dokumenter der originalen er slettet, kan du bare bruke innholdet på nytt ved å kopiere dataene, for eksempel med funksjonen **Kopier dokument**.   
 
 ## <a name="to-set-up-automatic-document-archiving"></a>Konfigurere automatisk dokumentarkivering  
 Du kan konfigurere automatisk arkivering av salgs- og kjøpsordrer, tilbud, rammebestillinger og returordrer før du sletter dokumenter.
@@ -42,15 +46,15 @@ Fremgangsmåten nedenfor beskriver hvordan du arkiverer fra ordrer. Fremgangsmå
 2.  Åpne en ordre du vil arkivere.  
 3.  Velg handlingen **Arkiver dokument**.
 
-Ordren arkiveres. Du kan se den på siden **Arkiverte ordrer**. Herfra kan du også bruke det til å opprette ordren på nytt som den ble arkivert fra.
+Ordren arkiveres. Du kan se den på siden **Arkiverte ordrer**.
 
-## <a name="to-recreate-a-sales-order-from-the-archive"></a>Opprette en ordre fra arkivet
-Fremgangsmåten nedenfor beskriver hvordan du oppretter en ordre på nytt. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Slik gjenoppretter du salgordrer som ikke er bokført, fra arkivet
+Følgende fremgangsmåte beskriver hvordan du tar innholdet i en arkivert ordre tilbake den opprinnelige ordren. Dette er bare mulig når det opprinnelige dokumentet ikke er bokført. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arkiverte ordrer**, og velg deretter den relaterte koblingen.
-2.  Velg den arkiverte ordren som skal opprettes på nytt, og velg deretter **Gjenopprett**-handlingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arkiverte ordrer**, og velg deretter den relaterte koblingen.
+2. Velg den arkiverte ordren, eller versjonen av den, som du vil gjenopprette, og velg deretter **Gjenopprett**-handlingen.  
 
-Ordren opprettes og legges til på siden **Ordrer**.
+Innholdet i den opprinnelige ordren erstattes med den valgte arkiverte versjonen.
 
 ## <a name="to-delete-archived-sales-orders"></a>Slette arkiverte ordrer
 Fremgangsmåten nedenfor beskriver hvordan du sletter arkiverte ordrer. Fremgangsmåten er den samme for alle andre salgs- og kjøpsdokumenter.
@@ -64,4 +68,3 @@ Fremgangsmåten nedenfor beskriver hvordan du sletter arkiverte ordrer. Fremgang
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

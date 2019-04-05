@@ -1,8 +1,8 @@
 ---
 title: Definere automatisk registrering av samhandlinger | Microsoft-dokumentasjon
-description: "Du kan registrere kunde- eller klientsamhandlingene automatisk, for eksempel for salg, kjøp og servicedokumenter eller telefonsamtaler."
+description: Du kan registrere kunde- eller klientsamhandlingene automatisk, for eksempel for salg, kjøp og servicedokumenter eller telefonsamtaler.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 996bf575d463be365b0bbcdbeef319491065b873
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803085"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrere samhandlinger med kontakter automatisk
 Du kan definere programmet slik at det automatisk registrerer samhandlinger for salgs-, kjøps- og tjenestedokumenter, følgebrev, e-postmeldinger, telefonsamtaler, for eksempel:
@@ -34,4 +34,3 @@ Du åpner siden **Oppsett av samhandlingsmal** ved å velge ikonet ![lyspære so
 ## <a name="see-also"></a>Se også
 [Registrere samhandlinger med kontakter](marketing-interactions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

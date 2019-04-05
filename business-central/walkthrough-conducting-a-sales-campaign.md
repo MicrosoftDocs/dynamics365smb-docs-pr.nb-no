@@ -1,21 +1,21 @@
 ---
-title: "Gjennomgang – kjøre en salgskampanje | Microsoft-dokumentasjon"
-description: "En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I Business Central kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet."
+title: Gjennomgang – kjøre en salgskampanje | Microsoft-dokumentasjon
+description: En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I Business Central kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 1922c9c2112006b302851301224818f803d9f4e2
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803303"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
 En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.  
@@ -199,4 +199,3 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 [Forbindelser](marketing-relationship-management.md)  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

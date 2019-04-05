@@ -1,23 +1,23 @@
 ---
 title: Serviceprisstyring | Microsoft-dokumentasjon
-description: "Dette emnet beskriver hvordan du kan bruke best pris på serviceordrer, definere tilpassede serviceprisavtaler for kunder, øke de ansattes effektivitet og fremskynde faktureringsprosessen."
+description: Dette emnet beskriver hvordan du kan bruke best pris på serviceordrer, definere tilpassede serviceprisavtaler for kunder, øke de ansattes effektivitet og fremskynde faktureringsprosessen.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: bholtorf
+ms.openlocfilehash: eb3d9b075f7209634cdc8b6f88a24409f18811e7
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 75c50a7044e3494df5aadb90caa1c008a6ac101c
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803414"
 ---
 # <a name="service-price-management"></a>Serviceprisstyring
 Med funksjonen for serviceprisstyring kan du bruke best pris på serviceordrer, definere tilpassede serviceprisavtaler for kunder, øke de ansattes effektivitet og fremskynde faktureringsprosessen.  
@@ -69,4 +69,3 @@ Tabellen nedenfor beskriver beregningene.
 ## <a name="see-also"></a>Se også  
 [Definere priser og ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
-

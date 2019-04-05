@@ -1,6 +1,6 @@
 ---
-title: "Flere språk og oversettelse | Microsoft-dokumentasjon"
-description: "Lære hvordan språk og lokale innstillinger påvirker opplevelsen i Business Central."
+title: Flere språk og oversettelse | Microsoft-dokumentasjon
+description: Lære hvordan språk og lokale innstillinger påvirker opplevelsen i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture
 ms.date: 11/19/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 218b1b825501d64bef9d65640f922e690df3108f
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803283"
 ---
 # <a name="changing-language-and-locale"></a>Endre språk og nasjonal innstilling
 
@@ -52,4 +52,3 @@ Det er enkelt - bla nederst på weblesersiden, og velg verden symbolet nederst t
 ## <a name="see-also"></a>Se også  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  
-

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: caf7cf5afe370af0c4294c794c0ff9bc8ff4c31c
 ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/22/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803461"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du vil slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen eller få lisensen fjernet fra kontoen. Fremgangsmåten er forskjellig hvis du bruker gratis prøveversjon eller hvis du har månedsabonnement som en del av en Office 365-konto.  
@@ -32,10 +32,10 @@ Brukerkontoer og lisenser behandles i [Office-portalen](https://portal.office.co
 ## <a name="closing-your-free-trial-of-included365finincludesd365finmdmd"></a>Lukke gratis prøveversjon på [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen til enhver tid. Vi anbefaler at du eksporterer dataene før du lukker kontoen.  
 
-Hvis du vil lukke kontoen, må du for øyeblikket kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du vil lukke kontoen, må du for øyeblikket kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="unsubscribing-from-included365finincludesd365finmdmd-without-office-365"></a>Stoppe abonnementet fra [!INCLUDE[d365fin](includes/d365fin_md.md)] uten Office 365
-Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)] teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Den enkleste måten å gjøre dette på er å kopiere nettadressen fra Hjem-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="resetting-your-included365finincludesd365finmdmd-experience"></a>Tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelsen
 Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] og du vil starte på nytt med en ny opplevelse, kan du opprette et nytt firma og deretter tilbakestille det første firmaet. Hvis du åpner **Selskaper**-siden, kan du opprette en kopi av gjeldende firma, logge av og deretter logge på det nye firmaet, og deretter tilbakestille det opprinnelige firmaet.  
@@ -51,4 +51,3 @@ Hvis du vil skjule [!INCLUDE[d365fin](includes/d365fin_md.md)] fra appstarteren,
 [Eksportere forretningsdataene til Excel](about-export-data.md)  
 [Office-portal](https://portal.office.com)  
 [Hvor lenge varer prøveperioden, og hvordan avbestiller jeg?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-

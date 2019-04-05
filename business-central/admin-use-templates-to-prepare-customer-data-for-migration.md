@@ -1,23 +1,23 @@
 ---
 title: Forberede kundedatamigrering | Microsoft-dokumentasjon
-description: "Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene."
+description: Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
-ms.date: 11/07/2018
+ms.search.keywords: ''
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: 7861925cc318a7d23c612bc640e6d7e60bc5eed3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: dbc38deef740c6da31f93feb788b8dc5d62f25fe
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802382"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Klargjøre for å flytte kundedata
 Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene.  
@@ -115,7 +115,7 @@ Du kan bruke strukturen i data som datamalene inneholder, til å enkeltvis konve
 Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du kan opprette en post fra en hvilken som helst datamal ved å bruke den samme fremgangsmåten.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
-2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se delene Slik oppretter du en datamal.
+2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se [Slik oppretter du en datamal](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Velg handlingen **Opprett forekomst**. Et varekort opprettes.  
 4. Velg **OK**.  
 5. For å se gjennom det nye varekortet velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer** og velger deretter den relaterte koblingen.  
@@ -140,4 +140,3 @@ Standardverdiene fra den valgte kundemalen settes inn på kundekortet.
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Registrere nye kunder](sales-how-register-new-customers.md)
-

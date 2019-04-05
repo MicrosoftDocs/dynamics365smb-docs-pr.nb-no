@@ -1,22 +1,22 @@
 ---
-title: "Bokføre betalinger med SEPA Direct Debit | Microsoft-dokumentasjon"
-description: "Når en direct debit-samling er behandlet av banken din, kan du fortsette med å bokføre mottak av betalingen for de aktuelle salgsfakturaene."
+title: Bokføre betalinger med SEPA Direct Debit | Microsoft-dokumentasjon
+description: Når en direct debit-samling er behandlet av banken din, kan du fortsette med å bokføre mottak av betalingen for de aktuelle salgsfakturaene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
 redirect_url: finance-collect-payments-with-sepa-direct-debit
+ms.openlocfilehash: 6d24df38b980542b1c77d737b8f661fac0df29fa
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d427ab28e1344ece77baaab8ceefe4043d3beaa0
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803529"
 ---
 # <a name="post-sepa-direct-debit-payment-receipts"></a>Bokføre kvitteringer for SEPA Direct Debit
 Når en direct debit-samling er behandlet av banken din, kan du fortsette med å bokføre mottak av betalingen for de aktuelle salgsfakturaene. Hvis du vil ha mer informasjon, kan du se [Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil](finance-how-create-sepa-direct-debit-collection-entries-export-bank-file.md)  
@@ -39,6 +39,5 @@ Du kan bokføre kvittering direkte fra siden **Direct Debit\-oppkrevinger** elle
 5. Velg **OK**.  
 
 ## <a name="see-also"></a>Se også  
- [Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)   
+ [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)   
  [Salg](sales-manage-sales.md)
-

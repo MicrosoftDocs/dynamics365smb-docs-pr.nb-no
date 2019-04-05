@@ -2,7 +2,7 @@
 title: Opprette kontaktselskaper | Microsoft-dokumentasjon
 description: Beskriver hvordan du oppretter en kontakt for hvert nye selskap eller potensielle selskap du samhandler med eller har et forhold til.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -13,22 +13,20 @@ ms.search.keywords: relationship, prospect
 ms.date: 10/01/2018
 ms.author: jswymer
 redirect_url: marketing-create-contact-companies
+ms.openlocfilehash: ff585f1a96d509ef317aaaf3671bc91ca46a430a
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: d607b23f5cd41db8551a61b68be6bf265e85d328
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803842"
 ---
-# <a name="create-contact-companies"></a>Opprette kontaktselskaper
+# <a name="create-contacts"></a>Opprette kontakter
 Du kan opprette en kontakt for hvert nytt selskap du utfører en samhandling med, for eksempel kunder, leverandører, prospektive kunder, banker, advokatfirmaer, konsulenter og så videre.
 
 Det er to måter å opprette en kontakt på: fra grunnen av eller fra en eksisterende kunde, leverandør eller bankkonto.
 
-Før du oppretter en kontakt, bør du kontrollere innstillingene på siden **Markedsføringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Sette opp forbindelser](marketing-setup-marketing.md).
-
 ## <a name="create-a-company-contact-from-scratch"></a>Opprette en selskapskontakt fra bunnen av
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Angi et nummer på kontakten i feltet **Nr.**.
 
@@ -61,4 +59,3 @@ Hvis du allerede har definert en rekke kunder, leverandører og bankkonti, kan d
 [Tilordne postgrupper til en kontakt](marketing-mailing-groups.md#AssignMailGroupContact)  
 [Opprette kontaktpersoner](marketing-create-contact-persons.md)  
 [Arbeide med Business Central](ui-work-product.md)
-

@@ -1,23 +1,22 @@
 ---
 title: Elektroniske dokumenter i Business Central | Microsoft-dokumentasjon
-description: "Innføring i å sende og motta elektroniske dokumenter i Business Central."
+description: Innføring i å sende og motta elektroniske dokumenter i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: 
+ms.search.keywords: ''
 ms.date: 10/01/2018
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 147a7e41d490167fceb76ff89de1f6c628223914
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803818"
 ---
-
 # <a name="exchanging-data-electronically"></a>Utveksle data elektronisk
 Du kan bruke rammeverket for datautveksling til å utveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med forretningspartnerne.
 
@@ -35,9 +34,9 @@ Hvis du for eksempel vil motta en faktura fra en leverandør som et elektronisk 
 ## <a name="bank-files"></a>Bankfiler  
  Filformatene for utveksling av bankdata med ERP-systemer varierer avhengig av leverandøren av filen og landet/regionen. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import og eksport av SEPA-bankfiler (Single Euro Payments Area) og en konverteringstjeneste for bankdata fra ekstern leverandør, AMC Consult. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
 
-Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert kodeenhet og XML-port, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere konverteringstjenesten for bankdata til å utføre eksporten, representert av datautvekslingsdefinisjonen **Tjeneste for bankdatakonvertering – kredittoverføring**.  
+Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere konverteringstjenesten for bankdata til å utføre eksporten, representert av datautvekslingsdefinisjonen **Tjeneste for bankdatakonvertering – kredittoverføring**.  
 
-Hvis du vil eksportere instruksjoner for SEPA Direct Debit, velger du **Eksporter Direct Debit-fil**-knappen på **Direct Debit-oppkrevinger**-siden, og sender deretter til banken for automatisk å samle inn de aktuelle kundebetalingene. Du må først definere bankkontoer, kunder, direct debit-belastningsfullmakter og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert kodeenhet og XML-port, representert av oppsettet for bankeksport/-import for **SEPA Direct Debit**.  
+Hvis du vil eksportere instruksjoner for SEPA Direct Debit, velger du **Eksporter Direct Debit-fil**-knappen på **Direct Debit-oppkrevinger**-siden, og sender deretter til banken for automatisk å samle inn de aktuelle kundebetalingene. Du må først definere bankkontoer, kunder, direct debit-belastningsfullmakter og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA Direct Debit**.  
 
 Hvis du vil importere SEPA-bankkontoutdrag, kan du velge knappen Importer bankkontoutdrag på sidene **Betalingsavstemmingskladd** og **Bankkontoavstemming**, og deretter fortsette å bruke hver enkelt bankkontoutdragspost på betalinger eller bankkontoposter, manuelt eller automatisk. Du må først definere bankkontoer. Import og datakonvertering av SEPA-bankdata utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **SEPA CAMT**. Du kan eventuelt definere konverteringstjenesten for bankdata til å utføre importen, representert av datautvekslingsdefinisjonen **Tjeneste for bankdatakonvertering – bankkontoutdrag**.  
 
@@ -46,7 +45,7 @@ Hvis du vil importere SEPA-bankkontoutdrag, kan du velge knappen Importer bankko
 ## <a name="currency-exchange-rates"></a>Valutakurser  
 Du kan definere en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten som leverer oppdaterte valutakurser, er aktivert som en datautvekslingsdefinisjon. Tilsvarende er siden **Kort for oppsett for val.kursoppdatering** en komprimert visning av siden **Datautvekslingsdefinisjon** for den aktuelle datautvekslingsdefinisjonen.  
 
-For alle utvekslinger av data i XML-filer kan du klargjøre datautvekslingsoppsettet ved å laste inn den relaterte XML-skjemafilen på siden **Visningsprogram for XML-skjema**. Her velger du dataelementene du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter initialiserer du en datautvekslingsdefinisjon eller genererer en XML-port.  
+For alle utvekslinger av data i XML-filer kan du klargjøre datautvekslingsoppsettet ved å laste inn den relaterte XML-skjemafilen på siden **Visningsprogram for XML-skjema**. Her velger du dataelementene du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter initialiserer du en datautvekslingsdefinisjon eller genererer en XMLport.  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
 
@@ -63,4 +62,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Utveksle data](across-exchange-data.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
-

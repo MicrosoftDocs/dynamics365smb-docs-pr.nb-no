@@ -1,33 +1,33 @@
 ---
-title: "Legge til ekstra linjer for å definere utvidede varebeskrivelser | Microsoft-dokumentasjon"
-description: "Du kan legge til ekstra linjer for å utvide standardteksten som beskriver en vare."
+title: Legge til ekstra linjer for å definere utvidede varebeskrivelser | Microsoft-dokumentasjon
+description: Du kan legge til ekstra linjer for å utvide standardteksten som beskriver en vare.
 services: project-madeira
-documentationcenter: 
-author: SusanneWindfeldPedersen
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
-ms.author: solsen
+ms.date: 02/26/2019
+ms.author: sgroespe
+ms.openlocfilehash: ecf0dab7e8c1215c6e121735fe7507ee28cc25b8
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: f27608342eb0d91dc956f9d7ebb9887c02be07dc
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802879"
 ---
 # <a name="add-extended-item-text"></a>Legge til utvidet varetekst
 Du kan utvide en standardtekst for varer ved å legge til ekstra linjer, og du kan opprette betingelser for bruk av de ekstra linjene. Dette kan du gjøre fra varekort.
 
 ## <a name="to-define-extended-text-for-an-item-description"></a>Slik definerer du utvidet tekst for en varebeskrivelse
 1. Åpne kortet for en vare som du vil legge til utvidet tekst for, og velg deretter handlingen **Utvidet tekst**.
-2. I **Kode**-feltet angir du koden, og i **Beskrivelse**-feltet angir du ønsket tekst.
-3. Velg **Utvidede tekster**.
-4. Fyll ut linjene på siden **Utvidet tekst** med den ekstra teksten.
-5. Fyll ut **Språkkode**-feltet eller **Alle språkkoder**-feltet, hvis du bruker språkkoder.
-6. Fyll ut feltene **Startdato** og **Sluttdato** hvis du vil begrense perioden for bruk av den utvidete teksten.
+2. Fyll ut feltene **Kode** og **Beskrivelse**.
+3. Velg **Ny**.
+4. Fyll ut **Språkkode**-feltet eller merk av for **Alle språkkoder** hvis du bruker språkkoder.
+5. Fyll ut feltene **Startdato** og **Sluttdato** hvis du vil begrense perioden for bruk av den utvidete teksten.
+6. I feltet **Tekst** angir du koden for den utvidete teksten.
 7. Merk av for de aktuelle dokumenttypene du vil at de utvidete tekstene skal skrives ut på.
 8. Lukk siden.
 
@@ -38,4 +38,3 @@ Du kan utvide en standardtekst for varer ved å legge til ekstra linjer, og du k
 ## <a name="see-also"></a>Se også
 [Definere lager](inventory-setup-inventory.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

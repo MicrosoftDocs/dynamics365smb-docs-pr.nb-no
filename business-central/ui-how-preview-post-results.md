@@ -1,8 +1,8 @@
 ---
-title: "Forhåndsvise poster før du bokfører et dokument eller en kladd | Microsoft-dokumentasjon"
-description: "Du kan kontrollere at postene for dokumenter og kladder er nøyaktige, før du bokfører dem i Finans."
+title: Forhåndsvise poster før du bokfører et dokument eller en kladd | Microsoft-dokumentasjon
+description: Du kan kontrollere at postene for dokumenter og kladder er nøyaktige, før du bokfører dem i Finans.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2018
 ms.author: solsen
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 18c650a9f4c7fe1fa8daf8d9bac0949d90e3fc4f
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803807"
 ---
 # <a name="preview-posting-results"></a>Forhåndsvise bokføringsresultater
 I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokføring**-knappen for å se gjennom de forskjellige posttypene som opprettes når du bokfører dokumentet eller kladden.
@@ -31,5 +31,4 @@ I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokf
 ## <a name="see-also"></a>Se også
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-
 

@@ -1,8 +1,8 @@
 ---
 title: Behandle returer eller annulleringer | Microsoft-dokumentasjon
-description: "Forklarer hvordan du oppretter og bokfører en kjøpskreditnota når du vil returnere varer til en leverandør eller annullere kjøpte tjenester."
+description: Forklarer hvordan du oppretter og bokfører en kjøpskreditnota når du vil returnere varer til en leverandør eller annullere kjøpte tjenester.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 10/01/2018
+ms.date: 03/01/2019
 ms.author: sgroespe
+ms.openlocfilehash: eef48d2390a497692b19b0ce6eae6afc654f8d22
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: 8f73492e70d4d30a73030953eb235f586954867e
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802702"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 Hvis du vil returnere varer til leverandøren eller avbryte tjenester du har kjøpt, kan du opprette og bokføre en kjøpskreditnota som angir den ønskede endringen med hensyn til den opprinnelige kjøpsfakturaen. For å inkludere den riktige kjøpsfakturainformasjonen kan du opprette kjøpskreditnotaen direkte fra den bokførte kjøpsfakturaen, eller du kan opprette en ny kjøpskreditnota med kopiert fakturainformasjon.
 
-Hvis du trenger mer kontroll over returprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt ved tilbakelevering av varer fra flere kjøpsdokumenter med én bestillingsretur, kan du opprette bestillingsreturer. En bestillingsretur utsteder automatisk den relaterte kjøpskreditnotaen. Hvis du vil ha mer informasjon, kan du se delen "Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter".
+Hvis du trenger mer kontroll over returprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt ved tilbakelevering av varer fra flere kjøpsdokumenter med én bestillingsretur, kan du opprette bestillingsreturer. En bestillingsretur utsteder automatisk den relaterte kjøpskreditnotaen. Hvis du vil ha mer informasjon, kan du se [Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
 > [!NOTE]  
 >   Hvis en bokført kjøpsfaktura ennå ikke er betalt, kan du bruke funksjonen **Korriger** eller **Annuller** på den bokførte kjøpsfakturaen til å reversere de involverte transaksjonene automatisk. Disse funksjonene fungerer bare for ubetalte fakturaer, og de støtter ikke delvise returer eller annulleringer. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
@@ -42,7 +42,7 @@ Det finnes to funksjoner du kan bruke til å tilordne opprinnelig kosttilbakefø
 
 |Funksjon|Description|  
 |------------------|---------------------------------------|  
-|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Bestillingsretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til bestillingsreturen. Hvis du vil ha mer informasjon, kan du se delen "Opprette en bestillingsretur og relatert kjøpskreditnota for en eller flere bokførte kjøpsfakturaer".|  
+|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Bestillingsretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til bestillingsreturen. Hvis du vil ha mer informasjon, kan du se [Opprette en bestillingsretur basert på én eller flere bokførte kjøpsfakturaer](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents).|  
 |**Kopier dokument**-funksjonen på sidene **Kjøpskreditnota** og **Bestillingsretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** på siden **Kjøpsoppsett**.|
 
 For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra-varepost** på alle typer returdokumentlinjer, og deretter velge nummeret på den opprinnelige kjøpsposten. Dermed knyttes kjøpskreditnotaen eller bestillingsreturen til den opprinnelige kjøpsposten, og verdien av varen fastsettes til opprinnelig enhetskost.
@@ -78,9 +78,9 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 6. Velg feltet **Bilagsnr.** for å åpne siden **Bokførte kjøpsfakturaer**, og velg deretter den bokførte kjøpsfakturaen som inneholder linjer du vil tilbakeføre.
 7. Merk av for  **Gjenberegn linjer**  hvis du vil at de kopierte bokførte kjøpsfakturalinjene skal oppdateres med endringer i varepris og enhetskost etter at fakturaen er bokført.
 8. Velg **OK**. De kopierte fakturalinjene settes inn i kjøpskreditnotaen.
-9. Fullføre kjøpskreditnotaen som forklart i den avsnittet "Opprette en kjøpskreditnota fra en bokført kjøpsfaktura" i dette emnet.
+9. Fullføre kjøpskreditnotaen som forklart i [Opprette en kjøpskreditnota fra en bokført kjøpsfaktura](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-a-posted-purchase-documents"></a>Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.
@@ -186,4 +186,3 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

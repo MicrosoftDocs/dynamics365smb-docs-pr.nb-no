@@ -1,8 +1,8 @@
 ---
-title: "Oversikt over rapporter for å klargjøre avslutningsoppgaver | Microsoft-dokumentasjon"
-description: "Gir en oversikt over rapporter du kan bruke til å innhente informasjonen for å klargjøre selskapets avslutningsoppgaver når regnskapsåret er over."
+title: Oversikt over rapporter for å klargjøre avslutningsoppgaver | Microsoft-dokumentasjon
+description: Gir en oversikt over rapporter du kan bruke til å innhente informasjonen for å klargjøre selskapets avslutningsoppgaver når regnskapsåret er over.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 9dbd92409ba02281f008246194f3ce0c53e4e001
 ms.openlocfilehash: 2129b0ea989076e69588c17b0f4a8e72f38a8a9a
-ms.contentlocale: nb-no
-ms.lasthandoff: 09/28/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802965"
 ---
 # <a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
 Det finnes flere standardrapporter du kan bruke til å innhente informasjonen du trenger for å klargjøre selskapets avslutningsoppgaver.
@@ -40,4 +40,3 @@ Hvis du vil se en rapport, velger du ikonet ![lyspære som åpner Fortell meg-fu
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Forretningsintelligens](bi.md)
-

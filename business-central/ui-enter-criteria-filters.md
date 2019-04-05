@@ -1,6 +1,6 @@
 ---
-title: "Sortere, søke etter og filtrere oversikter | Microsoft-dokumentasjon"
-description: "Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av effektive filtersymboler og tastatursnarveier."
+title: Sortere, søke etter og filtrere oversikter | Microsoft-dokumentasjon
+description: Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av effektive filtersymboler og tastatursnarveier.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 5d6d2d9527e81a92987f6b8fcdbe8e087c3c537a
 ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803465"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortere, søke etter og filtrere oversikter
 Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og begrense poster i en oversikt. Dette omfatter sortering, søk og filtrering. Du kan bruke noen av eller alle disse samtidig til å finne eller analysere data raskt.
@@ -287,4 +287,3 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanlige spørsmål om søking og filtrering](ui-search-filter-faq.md)
-

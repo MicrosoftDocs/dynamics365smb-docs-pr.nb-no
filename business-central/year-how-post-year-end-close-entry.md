@@ -1,8 +1,8 @@
 ---
-title: "Se gjennom og bokføre avslutningsposten for årsslutt | Microsoft-dokumentasjon"
-description: "Beskriver hvordan du åpner kladden du angav i kjørselen Lukk resultatregnskapet, og deretter ser gjennom og bokfører avslutningsposten for årsslutt."
+title: Se gjennom og bokføre avslutningsposten for årsslutt | Microsoft-dokumentasjon
+description: Beskriver hvordan du åpner kladden du angav i kjørselen Lukk resultatregnskapet, og deretter ser gjennom og bokfører avslutningsposten for årsslutt.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 10/01/2018
 ms.author: jswymer
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: cd555cc389ff7d9e306645475ef042f7ee9bc934
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803726"
 ---
 # <a name="post-the-year-end-closing-entry"></a>Bokføre avslutningsposten for årsslutt
 Når du har brukt den satsvise jobben **Lukk resultatregnskapet** til å generere avslutningsposten eller -postene for årsslutt, må du åpne kladden du angav i kjørselen, og deretter se gjennom og bokføre postene.
@@ -36,4 +36,3 @@ Når du har brukt den satsvise jobben **Lukk resultatregnskapet** til å generer
 [Avslutte tablåer](year-close-books.md)  
 [Lukk resultatregnskapet](year-close-income-statement.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

@@ -1,6 +1,6 @@
 ---
-title: "Bruke profiler til å klassifisere kontakter"
-description: "Konfigurere profilspørreskjemaer til å klassifisere forretningskontaktene"
+title: Bruke profiler til å klassifisere kontakter
+description: Konfigurere profilspørreskjemaer til å klassifisere forretningskontaktene
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +10,13 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 10/01/2018
+ms.openlocfilehash: 1007bdb689b72cf3eccfc5c15c2df9e3c760d8b3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
-ms.openlocfilehash: edd2cae058d31e8f65d43ef14a5a96a294adf8d1
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802881"
 ---
-
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruke profilspørreskjemaer til å klassifisere forretningskontakter
 Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om profiler for kontaktene. Du kan definere de ulike spørsmålene du vil spørre kontaktene om, i hvert enkelt spørreskjema.  
 
@@ -158,7 +157,4 @@ Fyll deretter ut siden **Profilspørsmålsopplysninger** på følgende måte:
 Når du tilordner profilspørreskjemaet som inneholder dette spørsmålet til en kontakt, angir programmet automatisk riktig svar for denne kontakten på profillinjene på kontaktkortet.
 
 ## <a name="see-also"></a>Se også
-[Opprette kontaktpersoner](marketing-create-contact-persons.md)  
-[Opprette kontaktpersoner](marketing-how-create-contact-persons.md)  
-[Opprette kontaktselskaper](marketing-create-contact-companies.md)  
-
+[Opprette kontakter](marketing-create-contact-companies.md)  

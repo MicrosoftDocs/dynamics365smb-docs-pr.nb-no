@@ -1,6 +1,6 @@
 ---
-title: "Minimumskrav for å bruke Business Central | Microsoft-dokumentasjon"
-description: "Lær om minimumskrav til system og versjon for bruk av Business Central."
+title: Minimumskrav for å bruke Business Central | Microsoft-dokumentasjon
+description: Lær om minimumskrav til system og versjon for bruk av Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/01/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 8e69b29eff604a78151b6a6f3ad3564abb04a5b2
 ms.openlocfilehash: 650fb7c92e5d66d238462911011369201d102ea0
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803366"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 Før du åpner [!INCLUDE[d365fin](includes/d365fin_md.md)], anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
@@ -42,5 +42,4 @@ Før du åpner [!INCLUDE[d365fin](includes/d365fin_md.md)], anbefaler vi at du k
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
-[Systemkrav for Dynamics 365 Business Central lokalt](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  
-
+[Systemkrav for Dynamics 365 Business Central On-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central)  

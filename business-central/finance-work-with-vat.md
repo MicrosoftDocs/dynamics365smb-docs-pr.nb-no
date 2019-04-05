@@ -1,8 +1,8 @@
 ---
-title: "Arbeide med mva på kjøp og salg | Microsoft-dokumentasjon"
-description: "Dette emnet beskriver hvordan du utfører oppgaver som å korrigere bokført mav i EU-land/regioner, hver salgs- og kjøpstransaksjon er underlagt mva-beregninger. Dette emnet beskriver hvordan."
+title: Arbeide med mva på kjøp og salg | Microsoft-dokumentasjon
+description: Dette emnet beskriver hvordan du utfører oppgaver som å korrigere bokført mav i EU-land/regioner, hver salgs- og kjøpstransaksjon er underlagt mva-beregninger. Dette emnet beskriver hvordan.
 services: project-madeira
-documentationcenter: 
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803262"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
-Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift] (finance-setup-vat.md).
+Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 
 Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.
 
@@ -174,4 +174,3 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 ## <a name="see-also"></a>Se også  
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)   
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)   
-

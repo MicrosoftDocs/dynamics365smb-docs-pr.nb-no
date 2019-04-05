@@ -1,6 +1,6 @@
 ---
-title: "Hente klienter i regnskapsføreropplevelsen i Dynamics 365 | Microsoft-dokumentasjon"
-description: "Lær hvordan du legger til eksisterende klienter i Accountant Hub for Dynamics 365."
+title: Hente klienter i regnskapsføreropplevelsen i Dynamics 365 | Microsoft-dokumentasjon
+description: Lær hvordan du legger til eksisterende klienter i Accountant Hub for Dynamics 365.
 author: edupont04
 ms.service: dynamics365-accountant
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 11/23/2018
 ms.author: edupont
-ms.translationtype: HT
-ms.sourcegitcommit: 33b900f1ac9e295921e7f3d6ea72cc93939d8a1b
 ms.openlocfilehash: c7f0af8d3535f558567cd40c841909cd151ce313
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/26/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803274"
 ---
 # <a name="add-clients-to-your-dashboard-in-include-d365acclongincludesd365acclongmdmd"></a>Legge til klienter i instrumentbordet i [!INCLUDE [d365acc_long](includes/d365acc_long_md.md)]
 [!INCLUDE [d365fin_early_release](includes/d365fin_early_release.md.md)]
@@ -42,4 +42,3 @@ Når du har godtatt invitasjonen, logges du på og har tilgang til klienten øko
 ## <a name="see-also"></a>Se også
 [Kom i gang med [!INCLUDE[d365acc](includes/d365acc_md.md)]](get-started.md)  
 [Feilsøking [!INCLUDE[d365acc](includes/d365acc_md.md)]](troubleshooting.md)  
-

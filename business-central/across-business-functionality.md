@@ -1,6 +1,6 @@
 ---
-title: "Forretningsfunksjoner som støttes i Business Central | Microsoft-dokumentasjon"
-description: "Gir en funksjonsoversikt over alle forretningsfunksjoner og avdelinger som støttes av moduler, for eksempel finans, lager og prosjektledelse."
+title: Forretningsfunksjoner som støttes i Business Central | Microsoft-dokumentasjon
+description: Gir en funksjonsoversikt over alle forretningsfunksjoner og avdelinger som støttes av moduler, for eksempel finans, lager og prosjektledelse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 01/22/2019
 ms.author: sgroespe
-ms.translationtype: HT
-ms.sourcegitcommit: 1acac32a417f794801da50c866db2643ea0a4c2d
 ms.openlocfilehash: d00f8228d5a617ddf601bb1d4ffaf9f42f13e74a
-ms.contentlocale: nb-no
-ms.lasthandoff: 01/22/2019
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802886"
 ---
 # <a name="business-functionality"></a>Forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også.
@@ -47,4 +47,3 @@ ms.lasthandoff: 01/22/2019
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-

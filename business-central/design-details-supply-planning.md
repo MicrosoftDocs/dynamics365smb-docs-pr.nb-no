@@ -1,5 +1,5 @@
 ---
-title: "Designdetaljer – Forsyningsplanlegging | Microsoft-dokumentasjon"
+title: Designdetaljer – Forsyningsplanlegging | Microsoft-dokumentasjon
 description: Dette emnet gir en oversikt over begrepene og prinsippene som brukes i funksjonene for forsyningsplanlegging i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
 ms.date: 10/01/2018
 ms.author: sgroespe
+ms.openlocfilehash: 92496f25d354dd766acd8d301546a5bf4f36c1e3
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: d7fb34e1c9428a64c71ff47be8bcff174649c00d
-ms.openlocfilehash: 2b506561b35cab1fafd4cac05a71de988761cac8
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "802608"
 ---
 # <a name="design-details-supply-planning"></a>Designdetaljer: Forsyningsplanlegging
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for forsyningsplanlegging i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -31,4 +31,3 @@ Den forklarer hvordan planleggingssystemet fungerer, og hvordan du justerer algo
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
 [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)
-

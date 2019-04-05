@@ -1,6 +1,6 @@
 ---
-title: "Vanlige spørsmål om Fortell meg | Microsoft-dokumentasjon"
-description: "Denne artikkelen gir svar på spørsmål som våre kunder og partnere ofte stiller om Fortell meg."
+title: Vanlige spørsmål om Fortell meg | Microsoft-dokumentasjon
+description: Denne artikkelen gir svar på spørsmål som våre kunder og partnere ofte stiller om Fortell meg.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2018
 ms.author: bholtorf
-ms.translationtype: HT
-ms.sourcegitcommit: 74cd6b136cf5785237640b124472cd26aeff97de
 ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.contentlocale: nb-no
-ms.lasthandoff: 11/29/2018
-
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803412"
 ---
 # <a name="tell-me-faq"></a>Vanlige spørsmål om Fortell meg
 Dette emnet gir svar på spørsmål som våre avanserte brukere ofte spør om den nye Fortell meg-funksjonen, som har erstattet den tidligere sidesøkefunksjonen, kalt for **Søk etter side eller rapport**.
@@ -43,4 +43,3 @@ Hjelpeartiklene vises på språket du har angitt i **Mine innstillinger** hvis h
 
 ## <a name="see-also"></a>Se også  
 [Finne funksjoner og informasjon](ui-search.md)
-

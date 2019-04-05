@@ -1,7 +1,7 @@
 ---
 title: Bruke Business Central uten Outlook | Microsoft-dokumentasjon
-description: "Du kan bruke Business Central som innboks for virksomheten i Outlook fordi den er integrert med Office 365, men du kan også arbeide uten Outlook i en nettleser eller på den mobile enheten."
-documentationcenter: 
+description: Du kan bruke Business Central som innboks for virksomheten i Outlook fordi den er integrert med Office 365, men du kan også arbeide uten Outlook i en nettleser eller på den mobile enheten.
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 10/01/2018
 ms.author: edupont
+ms.openlocfilehash: 49ed0eea3af363b368693b9df34bb6284ccc47ce
+ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
 ms.translationtype: HT
-ms.sourcegitcommit: e7dcdc0935a8793ae226dfc2f9709b5b8f487a62
-ms.openlocfilehash: adeb5f554014e64921cccb9dc926552a2321d333
-ms.contentlocale: nb-no
-ms.lasthandoff: 03/22/2018
-
+ms.contentlocale: nb-NO
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "803617"
 ---
 # <a name="using-business-central-without-outlook"></a>Bruke Business Central uten Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har en tett integrasjon med Office 365, og du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook. Hvis du ikke har Outlook, kan du arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)] i nettleseren eller på mobilenheten.  
@@ -30,4 +30,3 @@ Du kan sende dokumenter som e-post, for eksempel fakturaer, ved hjelp av e-posta
 [Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)  
 [Få Business Central på mobilenheten](install-mobile-app.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)
-
