@@ -1,1 +1,0 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil vite hva som kommer, kan du se [veikartet for Microsoft Finance and Operations, Business edition](https://go.microsoft.com/fwlink/?linkid=842139).
