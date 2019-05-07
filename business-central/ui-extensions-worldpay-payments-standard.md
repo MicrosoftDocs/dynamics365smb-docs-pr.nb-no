@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ca48d31490446dd72c5d2f4997c5068a0acfd460
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a61fd494235a3c939822c423d4b0044ad0709e4d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802498"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935615"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard-utvidelsen
 Med WorldPay Payments Standard-utvidelsen kan du tilby kundene et praktisk alternativ til å foreta betalinger via bankoverføringer eller kredittkort. Ikke bare at betalinger som er gjort gjennom betalingstjenester vil vanligvis lander på bankkontoen din raskere.

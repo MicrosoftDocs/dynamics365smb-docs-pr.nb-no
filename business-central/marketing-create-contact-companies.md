@@ -10,28 +10,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aaeb98aa5e3c48a92be71546be33b1494a751cb9
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802488"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "938968"
 ---
-# <a name="creating-contacts"></a>Opprette kontakter
-Bedriften din møter regelmessig potensielle bedrifter som vanligvis utvikler seg til fremtidige forretningsforhold. Når bedriften har fått en ny kontakt, må denne informasjonen legges inn, slik at kommunikasjonen kan opprettholdes.
+# <a name="create-contacts"></a>Opprette kontakter
+Du møter regelmessig personer fra andre selskaper som kan utvikle seg til forretningsforhold, for eksempel en kunderelasjon. Når du får en ny kontakt, må så mye informasjon som mulig registreres på et kontaktkort, slik at kommunikasjonen kan opprettholdes.
 
-Ved å tilordne så mye data som mulig om en bestemt bedrift sørger du for effektiv kommunikasjon. Hvis du for eksempel tilordner den relevante bransjegruppen, sørger du for at spesifikke bedrifter inkluderes i all relevant kommunikasjon. Du kan også definere forretningsforholdet du har med en kontakt. En kontakt kan for eksempel være et prospekt, en bank eller en leverandør.
+## <a name="person-or-company"></a>Person eller selskap
+Du kan opprette en kontakt som en person eller et selskap, vanligvis avhengig av om du vil vite navnet på kontaktpersonen ved oppretting. Du gjør dette når du fyller ut feltet **Type** på **Kontaktkort**-siden. Du kan også vedlikeholde kontaktkort for både et selskap og én eller flere personer som jobber i selskapet. Dette skjer automatisk når du fyller ut feltet **Selskapsnavn** på et kontaktkort av typen **Person**.
 
-> [!NOTE]
-> I feltet **Type** på **Kontaktkort**-siden kan du definere en kontakt som en person eller et selskap, vanligvis avhengig av om du vil vite navnet på kontaktpersonen ved oppretting. Funksjonaliteten er den samme for begge typer, med unntak av noen av de ekstra informasjonstypene som kan tilordnes. Du kan endre verdien for feltet senere, eller du kan bruke feltene på **Arv**-hurtigfanen på **Markedsføringsoppsett**-siden til å styre hvilke data som deles mellom en person og det relaterte selskapet.
-
-Du kan opprette en kontakt for hver ny person eller hvert nytt selskap du utfører en samhandling med, for eksempel kunder, leverandører, prospektive kunder, banker, advokatfirmaer, konsulenter og så videre.
-
-Det finnes to måter å opprette en kontakt på:
- * Manuelt.
- * Fra en eksisterende kunde, leverandør eller bankkonto.
+Funksjonaliteten er den samme for begge typer, bortsett fra at alternativene for tilleggsinformasjon endres avhengig av typen. Du kan for eksempel bare tilordne ansvarsområder til en person og bransjegruppe til et selskap. Dette angis i grensesnittet ved å fjerne feltene og handlingene som ikke gjelder. Du kan endre verdien for **Type**-feltet senere, eller du kan bruke feltene på **Arv**-hurtigfanen på **Markedsføringsoppsett**-siden til å styre hvilke data som deles mellom en person og personens relaterte selskap. Hvis du vil ha mer informasjon, kan du se [Konfigurere kontakter](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Slik oppretter du en kontakt manuelt
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.

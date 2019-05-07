@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 02/15/2019
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 91db02673c1e408927d9863af9ec6751bc33e480
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803218"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937949"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -38,8 +38,7 @@ Du må ha et abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å k
 
 5. Velg **Finn ut mer** for å lese om scenarier som du kan prøve i et sandkassemiljø. Eller velg **Lukk** for å fortsette til rollesenteret i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandkasseforekomsten.
 6. Øverst i rollesenteret vises en melding som varsler deg at dette er et sandkassemiljø. Du kan også se typen miljø på tittellinjen i klienten.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> 
-En ny leietaker er opprettet i sandkassemiljøet. Denne leietakeren har standard demonstrasjonsdata for CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet under opprettelsen av sandkassen.
+<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> En ny leietaker er opprettet i sandkassemiljøet. Denne leietakeren har standard demonstrasjonsdata for CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet under opprettelsen av sandkassen.
 
 7. Når som helst kan du gå tilbake til siden **Sandkassemiljø** og tilbakestille sandkassemiljøet.
 > [!NOTE]  

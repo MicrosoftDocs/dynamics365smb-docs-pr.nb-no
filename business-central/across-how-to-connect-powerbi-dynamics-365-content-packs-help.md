@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: admin-powerbi
-ms.openlocfilehash: 48c57e03f4679ea05792304fe13bdf896be2f1e3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7e844f64a96ba02c1a5fa0231f7b6992f972677
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803715"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "932836"
 ---
 # <a name="connecting-power-bi-to-dynamics-365-business-central-content-packs"></a>Koble Power BI til Dynamics 365 Business Central-innholdspakker
 Få innsikt i Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dataene på en enkel måte med Power BI og Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-innholdspakkene. Power BI henter dataene og bygger deretter et forhåndskonfigurert instrumentbord og rapporter basert på dataene.
@@ -74,7 +74,7 @@ Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-d
 
 ## <a name="list-page-reports"></a>Rapporter for siden Liste 
 
-**Microsoft Dynamics 365 Business Central – kundeoversikt**
+**Microsoft Dynamics 365 Business Central – Customers List**
 - Varesalg etter kunde
 - Varekjøpsliste for Power BI
 - Varesalgsliste for Power BI
@@ -89,7 +89,7 @@ Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-d
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – vareliste**
+**Microsoft Dynamics 365 Business Central – Items List**
 - Varesalg etter kunde
 - Varekjøpsliste for Power BI
 - Varesalgsliste for Power BI
@@ -97,23 +97,23 @@ Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-d
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – prosjektliste**
+**Microsoft Dynamics 365 Business Central – Jobs List**
 - Prosjektliste for Power BI
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – kjøpsfakturaliste**
+**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
 - Kjøpsliste for Power BI
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – salgsordreoversikt**
+**Microsoft Dynamics 365 Business Central – Sales Orders List**
 - Salgsoversikt for Power BI
 - ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
 
-**Microsoft Dynamics 365 Business Central – leverandørliste**
+**Microsoft Dynamics 365 Business Central – Vendors List**
 - Varekjøpsliste for Power BI
 - Varesalgsliste for Power BI
 - Leverandørliste for Power BI

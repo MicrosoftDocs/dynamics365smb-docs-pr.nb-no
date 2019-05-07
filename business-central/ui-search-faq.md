@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 70ab7fb07cda5ce9d86b3f39dd14321829e85a52
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803412"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937584"
 ---
 # <a name="tell-me-faq"></a>Vanlige spørsmål om Fortell meg
 Dette emnet gir svar på spørsmål som våre avanserte brukere ofte spør om den nye Fortell meg-funksjonen, som har erstattet den tidligere sidesøkefunksjonen, kalt for **Søk etter side eller rapport**.
@@ -33,7 +33,7 @@ Handlinger, sider og rapporter som kommer fra utvidelser, hentes av Fortell meg,
 Sidesøk har utviklet seg til Fortell meg for å hjelpe deg med å arbeide raskt. Sidesøk kunne bare hjelpe deg med å navigere til sider eller rapporter. På et teknisk nivå er Fortell meg ikke lenger basert på det eldre MenuSuite-konseptet.
 
 ### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inkluderer dette Fortell meg?
-Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon. Brukere som kobler til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Dynamics NAV-klienten fortsetter å bruke Sidesøk.
+Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon, eller apper og konsulenttjenester på AppSource. Brukere som kobler til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Dynamics NAV-klienten fortsetter å bruke Sidesøk.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortell meg tilgjengelig for alle skjemafaktorer?
 Fortell meg er bare tilgjengelig i webklienten eller Windows-apper for stasjonær datamaskin.

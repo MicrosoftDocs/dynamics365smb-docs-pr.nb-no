@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4dae4dbfc06b5040eba09df94fe13e7fce7b1940
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802387"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953513"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
@@ -101,7 +101,7 @@ I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vi
 5. Angi verdien du vil endre, i **Gammel verdi**-feltet. Angi verdien du vil endre den gamle verdien til, i **Ny verdi**-feltet. Velg **OK**.  
 6. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data).
 7. Se om det er rapportert noen feil i feltet **Antall pakkefeil**. Hvis det er det, viser du detaljene for å se feilene. Siden **Konfig. pakkeposter** åpnes.
-8. Velg handlingen **Vis feil**. Du vil motta følgende feilmelding: **<option> er ikke et gyldig alternativ. Gyldige alternativer er <valid option list>**. Velg **OK**-knappen.  
+8. Velg handlingen **Vis feil**. Du vil motta følgende feilmelding: **XX er ikke et gyldig alternativ. Gyldige alternativer er XX**. Velg **OK**-knappen.  
 9. Hvis du vil bruke tilordningen som du har definert, kan du velge **Bruk Data**-handlingen.  
 
 ### <a name="mapping-example"></a>Eksempel på tilordning  
@@ -153,7 +153,11 @@ Når kundedataene er angitt i dataoverføringsfilene i Excel, importerer du file
 
 1. Åpne siden **Konfigurer pakkekort**.
 2. Velg tabellen du vil importere verdier for, og velg deretter fanen **Tabeller** og **Importer fra Excel**-handlingen.
-3. Finn og åpne filen som du vil bruke til å importere data fra til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. Finn og åpne filen som du vil importere data fra.
+4. På siden **Forhåndsvis. av konfig.pakkeimport** ser du hva som skal importeres.
+
+    Siden **Forhåndsvis. av konfig.pakkeimport** gir en oversikt over innholdet i Excel-filen som skal importeres. Den angir også om det opprettes en ny konfigurasjonspakke, eller den eksisterende oppdateres, og om nye konfigurasjonspakkelinjer (tabeller) opprettes eller eksisterende oppdateres.    
+5. Velg handlingen **Importer**
 
 Data fra filen importeres til konfigurasjonspakketabellene. I feltet **Antall pakkeposter** kan du se hvor mange databaseposter som er importert. I tillegg kan du vise antall feil under flyttingen.
 

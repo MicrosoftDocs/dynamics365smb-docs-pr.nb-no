@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: SorenGP
-ms.openlocfilehash: 8e4033412560e8dc847397c4399e12985490bf78
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802377"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "934330"
 ---
 # <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
@@ -32,10 +32,11 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Konfigurer en effektiv distribusjonsmodell med en kombinasjon av ulike lokasjoner og ansvarssentre tilordnet til forretningspartnere eller ansatte.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 | Organiser beholdningen på flere lokasjoner, inkludert overføringsruter. |[Definer lokasjoner](inventory-how-register-new-items.md) |
 | Opprett varekort for lagervarer, ikke-lagervarer eller servicevarer som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
-|Lær hvordan du fyller ut feltet **Type** på varekortene i henhold til selskapsformålet.|[Om varetyper](inventory-about-item-types.md)| 
+|Lær hvordan du fyller ut feltet **Type** på varekortene i henhold til selskapsformålet.|[Om varetyper](inventory-about-item-types.md)|
 |Definer flere enheter for en vare som kan brukes som alternative enheter, for eksempel for salgs-, kjøps- eller produksjonstransaksjoner.|[Definere vareenheter](inventory-how-setup-units-of-measure.md)|
 |Som et supplement til varekort kan du registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.|[Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tilordne varer til kategorier, og gi dem attributter for å hjelpe deg og kunder med å finne varer. |[Kategorisere varer](inventory-how-categorize-items.md) |
+|Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
 
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  

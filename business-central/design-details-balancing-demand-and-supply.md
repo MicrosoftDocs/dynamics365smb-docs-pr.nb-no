@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/14/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ec4746addfa3fad5d43ffe5579f7fd172e257dfb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802570"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "937559"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansere behov og forsyning
 For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet, og det viktigste er å sikre at følgende oppfylles:  

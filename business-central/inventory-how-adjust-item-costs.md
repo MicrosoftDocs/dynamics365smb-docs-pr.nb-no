@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6688b89dc9ef05456bca11fc722514b8bd47b05d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: dd48be8b92a03d50bc590d579de940599da6aa7e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802452"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941683"
 ---
 # <a name="adjust-item-costs"></a>Justere varekost
 Kostnaden for en vare (lagerverdien) som du kjøper og senere selger, kan endres i løpet av levetiden, for eksempel fordi en fraktkostnader er lagt til innkjøpskostnaden etter at du har solgt varen. Kostjustering er spesielt relevant i situasjoner der du selger varer før du fakturerer kjøpet av varene. Hvis du alltid vil vite riktig lagerverdi, må varekostnader derfor justeres regelmessig. Dette sikrer at salgs- og fortjenestestatistikk er oppdatert og at økonomiske KPI-er er riktige. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostjustering](design-details-cost-adjustment.md).
@@ -28,7 +28,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] justeres varekostnader automatisk 
 
 Du kan også bruke en funksjon til å justere kostnadene for en eller flere varer manuelt. Dette er nyttig, for eksempel når du vet at varekostnader er endret av andre grunner enn varetransaksjoner.
 
-Varekost justeres med lagermetoden FIFO eller Gjennomsnitt, avhengig av hva du valgte i det assisterte oppsettet **Konfigurere Mitt selskap** eller i feltet **Lagermetode** på varekortet. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  
+Varekost justeres med lagermetoden FIFO eller Gjennomsnitt, avhengig av hva du valgte i den assisterte oppsettsveiledningen **Konfigurere Mitt selskap** eller i feltet **Lagermetode** på varekortet. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Hvis du bruker lagermetoden FIFO, er enhetskosten for en vare den faktiske verdien for alle mottak av varen. Lageret verdisettes basert på antakelsen om at de første varene som plasseres på lager, selges først.
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: de60e6c10be1ecdda2390387fcac183762ef17e8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 8a2ea2ee6021daf0469b24cac33d149ed998f432
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827017"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "935561"
 ---
 # <a name="norwegian-vat-reporting"></a>Norsk mva-rapportering
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]../../inkluderer orbedringer i den norske versjonen som gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.  

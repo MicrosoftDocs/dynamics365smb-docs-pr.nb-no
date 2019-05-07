@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 03/13/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ac385409d72fea4ee43f7549a86da3516a299608
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853097"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939465"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
@@ -40,6 +40,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 |Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
 |Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)|
 |Forstå hva som skjer når du velger **Bokfør**-handlingen.|[Bokføre dokumenter og kladder](ui-post-documents-journals.md)|
+|Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)| 
 |Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|

@@ -4,18 +4,16 @@ description: Svar på vanlige spørsmål om søking og filtrering.
 author: mikebcMSFT
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: mikebc
-ms.openlocfilehash: a4bcdca8ecff80d8d47bf9c198cd69a71f09cd2a
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852059"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969858"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanlige spørsmål om søk og filtrering
 Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
@@ -36,7 +34,10 @@ Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet
 Filtrene og justeringene dine i forhåndsdefinerte filtre huskes gjennom økten (mens du er logget på), selv om du navigerer bort fra siden. Det er for øyeblikket ikke mulig å lagre filtre permanent. I motsetning til filtre huskes ikke søketekst når du navigerer bort fra en side.
 
 ## <a name="is-this-the-same-as-advanced-filters-and-limit-totals-in-microsoft-dynamics-nav"></a>Er dette det samme som Avanserte filtre og Begrens totaler i Microsoft Dynamics NAV?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bygger på disse populære funksjonene og gir deg en moderne og brukervennlig opplevelse for å finne og analysere data. Med flere hurtigtaster og innføringen av Søk overgår [!INCLUDE[d365fin](includes/d365fin_md.md)] funksjonaliteten i Dynamics NAV.
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] bygger på disse populære funksjonene og gir deg en moderne og brukervennlig opplevelse for å finne og analysere data. Med flere hurtigtaster og innføringen av Søk overgår [!INCLUDE[d365fin](includes/d365fin_md.md)] funksjonaliteten i Dynamics NAV.  
+
+Se også [Er filtreringsruten tilgjengelig for filtrering av rapporter?](#is-the-filter-pane-available-for-filtering-reports)  
 
 ## <a name="can-i-search-and-filter-using-the-companion-apps-and-outlook-addin"></a>Kan jeg søke og filtrere ved hjelp av medfølgende apper og Outlook-tillegget?
 På andre visningsmål, for eksempel mobilenheter eller Outlook, kan du søke i lister, men ikke filtrere på enkeltfelt i de fleste tilfeller.
@@ -54,5 +55,6 @@ Det er en tidsbegrensning på hvor lenge en søkeoperasjon kan ta. Prøv først 
 Som en lokal administrator kan du øke tidsgrensen for søk ved å endre innstillingen **Tidsavbrudd for søk** for [!INCLUDE[prodshort](includes/prodshort.md)]-serveren. Hvis du vil ha mer informasjon, se [Konfigurere Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjelpen for utviklere og IT-eksperter for Business Central.
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
-[Sortere, søke etter og filtrere i oversikter](ui-enter-criteria-filters.md)
+[Sortere, søke etter og filtrere i oversikter](ui-enter-criteria-filters.md)  

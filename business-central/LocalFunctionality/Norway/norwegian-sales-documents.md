@@ -10,14 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 313f3a0fd043d6ced7b6e5271497182e865b955e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+redirect_url: norway-local-functionality
+ms.openlocfilehash: 62e530e2dc8580013caba702c7442a6bb01cf349
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826977"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "953431"
 ---
 # <a name="norwegian-sales-documents"></a>Norske salgsdokumenter
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] støtter salgsdokumenter, for eksempel salgsfakturaer, salgskreditnotaer, purringer og rentenotaer. Dette dokumentsettet er basert på internasjonale rapporter. Standardrapporter er også tilgjengelige, men de inneholder ikke innstillinger som er spesifikke for Norge. Du kan for eksempel ikke skrive ut en norsk giro i dette settet med rapporter.  

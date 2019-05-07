@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2018
+ms.date: 04/05/2019
 ms.author: edupont
-ms.openlocfilehash: 3085ef58adf25ae7212ac17894fa54e5c2f8794e
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852082"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "969835"
 ---
 # <a name="setting-up-included365finincludesd365finmdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
@@ -27,7 +27,7 @@ Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hje
 > [!NOTE]
 > Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til det assistert oppsettet. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
+Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til den assisterte oppsettsveiledningen. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
 
 | Hvis du vil | Se |
 | --- | --- |
@@ -58,18 +58,18 @@ Noe funksjonalitet, både generelle eller for bestemte forretningsprosesser, kan
 Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også  [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
 
 ## <a name="see-also"></a>Se også
+
 [Administrasjon](admin-setup-and-administration.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Lager](inventory-manage-inventory.md)    
+[Lager](inventory-manage-inventory.md)  
 [Prosjektstyring](projects-manage-projects.md)  
-[Anleggsmidler](fa-manage.md)    
+[Aktiva](fa-manage.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administrasjon](admin-setup-and-administration.md)  
 [Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md)  
 [Komme i gang](product-get-started.md)  
 

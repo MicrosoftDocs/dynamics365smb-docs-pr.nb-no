@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9eb056bc98298a31833d205862d2d9bfeba04218
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
+ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803309"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "939155"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
 Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene på **Oppsett for SMTP-e-post**-siden.
@@ -24,7 +24,7 @@ Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365f
 > [!NOTE]  
 >   I stedet for å skrive inn detaljene for SMTP-server, kan du bruke en funksjon til å angi dem med informasjon fra Office 365-abonnementet.
 
-Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den **E-postoppsett** assistert oppsett. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den assisterte oppsettveiledningen **E-postoppsett**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurere e-post
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.

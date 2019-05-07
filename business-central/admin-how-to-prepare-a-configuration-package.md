@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b1dbe67852e197ab52aff58131576ffd6b9c49c4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803067"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "941637"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
-Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken.  
+Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 For å hjelpe kunden med å bruke konfigurasjonspakken kan du legge til et spørreskjema eller et sett av spørreskjemaer i pakken. Spørreskjemaet kan hjelpe kunden med å forstå de forskjellige oppsettsalternativene. Spørreskjemaer opprettes vanligvis for hovedoppsettstabellene når kunder vil ha ytterligere veiledning om hvordan de velger en riktig innstilling. Hvis du vil ha mer informasjon, kan du se [Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md).
 
