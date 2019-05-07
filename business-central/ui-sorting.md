@@ -7,24 +7,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
 redirect_url: ui-enter-criteria-filters
-ms.openlocfilehash: 7faec629f56f12f90768c1db361d4973286ae957
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: ae8bec7c0d9d7f23c607037588663d926237d352
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852864"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928488"
 ---
-# <a name="sorting"></a><span data-ttu-id="637be-104">Sortering</span><span class="sxs-lookup"><span data-stu-id="637be-104">Sorting</span></span>
-<span data-ttu-id="637be-105">Sorteringsfunksjonen gjør det enkelt å få et raskt overblikk over dataene.</span><span class="sxs-lookup"><span data-stu-id="637be-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="637be-106">Hvis du har mange kunder, kan du for eksempel velge å sortere dem etter **Kundenr.**, **Bokføringsgruppe - kunde**, **Valutakode**, **Lands-/regionkode** eller **Mva-organisasjonsnummer** for å få nødvendig oversikt.</span><span class="sxs-lookup"><span data-stu-id="637be-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
+# <a name="sorting"></a><span data-ttu-id="e3a83-104">Sortering</span><span class="sxs-lookup"><span data-stu-id="e3a83-104">Sorting</span></span>
+<span data-ttu-id="e3a83-105">Sorteringsfunksjonen gjør det enkelt å få et raskt overblikk over dataene.</span><span class="sxs-lookup"><span data-stu-id="e3a83-105">The sorting function makes it easy for you to get a quick overview of your data.</span></span> <span data-ttu-id="e3a83-106">Hvis du har mange kunder, kan du for eksempel velge å sortere dem etter **Kundenr.**, **Bokføringsgruppe - kunde**, **Valutakode**, **Lands-/regionkode** eller **Mva-organisasjonsnummer** for å få nødvendig oversikt.</span><span class="sxs-lookup"><span data-stu-id="e3a83-106">If you have many customers, for example, you can choose to sort them by **Customer No.**, **Customer Posting Group**, **Currency Code**, **Country Region Code**, or **Sales Tax Registration No.** to get the overview you need.</span></span>
 
-<span data-ttu-id="637be-107">Velg en kolonneoverskrift, og bruk den lille pilen til å sortere stigende eller synkende.</span><span class="sxs-lookup"><span data-stu-id="637be-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
+<span data-ttu-id="e3a83-107">Velg en kolonneoverskrift, og bruk den lille pilen til å sortere stigende eller synkende.</span><span class="sxs-lookup"><span data-stu-id="e3a83-107">Choose a column heading and use the small arrow to sort ascending or descending.</span></span>  
 
 > [!NOTE]  
->   <span data-ttu-id="637be-108">Sortering støttes ikke for bilder, BLOB-felt, FlowFilters og felt som ikke hører til i en tabell.</span><span class="sxs-lookup"><span data-stu-id="637be-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
+>   <span data-ttu-id="e3a83-108">Sortering støttes ikke for bilder, BLOB-felt, FlowFilters og felt som ikke hører til i en tabell.</span><span class="sxs-lookup"><span data-stu-id="e3a83-108">Sorting is not supported images, BLOB fields, FlowFilters, and fields that do not belong to a table.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="637be-109">Se også</span><span class="sxs-lookup"><span data-stu-id="637be-109">See Also</span></span>
-<span data-ttu-id="637be-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="637be-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="637be-111">Sortere, søke etter og filtrere oversikter</span><span class="sxs-lookup"><span data-stu-id="637be-111">Sorting, Searching, and Filtering Lists</span></span>](ui-enter-criteria-filters.md)
+## <a name="see-also"></a><span data-ttu-id="e3a83-109">Se også</span><span class="sxs-lookup"><span data-stu-id="e3a83-109">See Also</span></span>
+<span data-ttu-id="e3a83-110">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="e3a83-110">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="e3a83-111">Sortere, søke etter og filtrere oversikter</span><span class="sxs-lookup"><span data-stu-id="e3a83-111">Sorting, Searching, and Filtering Lists</span></span>](ui-enter-criteria-filters.md)
