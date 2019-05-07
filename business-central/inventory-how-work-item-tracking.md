@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3c8e58ae653d1e8fca520fc8f3e876df67f50950
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: c7a5aa7d768a4fe2fae111b04ffc1fdab65d07dc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802627"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919977"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
 Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet på siden **Varesporingslinjer**, som du kan åpne fra et inngående eller utgående dokument.
@@ -240,7 +240,7 @@ Innholdet i feltene **Serienr.** og **Partinr.** kan ikke redigeres. Du kan imid
 Å reklassifisere varesporing for en vare betyr å endre et parti- eller serienummer til et nytt parti- eller serienummer eller endre utløpsdatoen til en ny utløpsdato. Hvis du arbeider med partier, kan du også slå sammen flere partier til ett. Du utfører disse oppgavene ved å bruke varereklassifiseringskladden.
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareoverføringskladd**, og velg deretter den relaterte koblingen.  
-2.  Fyll ut linjen med de aktuelle opplysningene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md).
+2.  Fyll ut linjen med de aktuelle opplysningene. Hvis du vil ha mer informasjon, se [Telle lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md) eller [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md).
 3.  Velg **Varesporingslinjer**.  
 4.  I feltet **Serienr.** eller **Partinr.** velger du gjeldende serie- eller partinummer.  
 5.  Hvis du vil angi et nytt varesporingsnummer, angir du det i feltet **Nytt serienr.** eller **Nytt partinr.**. Hvis du vil, kan du slå sammen ett eller flere partier til ett nytt eller eksisterende parti.  

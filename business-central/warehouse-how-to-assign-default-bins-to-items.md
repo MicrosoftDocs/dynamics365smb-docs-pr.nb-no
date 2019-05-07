@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 290c26639234f3379fb4f9b6790fc511e17f683e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0eb6dc74d9ac050c692c003799c3142bdbdaeeaa
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802982"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927905"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilordne standardhyller til varer
 Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene for å gjøre levering, mottak og flytting av varene enklere. Når en standardhylle tilordnes en vare, foreslås denne hyllen hver gang du oppretter en transaksjon for denne varen. Standardhyller defineres på siden **Hylleinnhold**.  

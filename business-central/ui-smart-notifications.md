@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ea0429a42447a980cf9d23f0f3b70d7c57efa184
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c70a8fd066ffd5d312716891aa4cdf7768cd102a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852162"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926679"
 ---
 # <a name="managing-notifications"></a>Behandle varsler
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg å arbeide smartere ved å varsle deg om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Disse meldingene vises som diskrete tips i forbindelse med oppgaven du utfører, og du kan velge å ignorere varselet eller vise detaljer om problemet.  

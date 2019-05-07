@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 8f196f8df6683b0a7d11e75b8da53861facab0c0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2d20fc0849e90f74924ebc585662a9e461cc2313
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802916"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924879"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Vise lister på ulike måter
 I høyre hjørne i en hvilken som helst liste i [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du ikoner som lar deg bytte visning for listen. En liste kan vises som en detaljert liste, som er standardvisningen. Du kan også bytte til en visning som fliser, som vil vise færre detaljer om den bestemte posten og stable oppføringer som fliser. Denne visningen er svært nyttig for å få en oversikt over flere poster, og er spesielt nyttig på mindre enheter, fordi den gjør det enklere å trykke hver post.

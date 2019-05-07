@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0d6f0b27e9a49238ba3fa4209c38ee2e6bb7cda
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d8a9ba2f4fc819c1da515a0ace7d8641ec54ffc6
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802919"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929408"
 ---
-# <a name="count-adjust-and-reclassify-inventory"></a>Telle, justere og reklassifisere lagerbeholdning
+# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder
 Minst én gang hvert regnskapsår må du utføre en vareopptelling, det vil si telle alle varer på lager, for å se om antallet som er registrert i databasen, er det samme som det faktiske antallet i lageret. Når det faktiske antallet er funnet, må det bokføres i Finans som en del av verdifastsettelsen av lageret ved periodens avslutning.
 
 Selv om du teller alle varene i beholdningen minst én gang i året, kan du ha bestemt deg for å telle noen varer oftere, kanskje fordi de er mer verdifulle eller fordi de har rask omløpstid og utgjør en stor del av forretningene. Hvis du vil gjøre dette, kan du tilordne spesielle opptellingsperioder til disse varene. Hvis du vil ha mer informasjon, kan du se [Slik utfører du syklustelling](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -31,6 +31,10 @@ Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifis
 
 ## <a name="to-perform-a-physical-inventory"></a>Utføre en vareopptelling
 Ved slutten av et regnskapsår, eller oftere, må du foreta en vareopptelling, altså telle den faktiske varebeholdningen, for å se om det antallet som er registrert i programmet er identisk med det fysiske antallet som er på lager. Hvis det er en differanse, må denne bokføres til varekontiene før du kan fastsette verdien av lageret.
+
+> [!NOTE]
+> Denne fremgangsmåten beskriver hvordan du utfører en vareopptelling ved hjelp av en kladd, siden **Vareopptellingskladd**. Du kan også utføre oppgaven med dokumenter, sidene **Vareopptellingsordre** og **Registrering for vareopptelling**, som gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Hvis du vil ha mer informasjon, se [Telle lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Merk at den dokumentbaserte funksjonaliteten ikke kan brukes til å telle varer i hyller, lagerposter.
 
 Bortsett fra den fysiske opptellingsaktiviteten omfatter hele prosessen følgende tre oppgaver:
 
@@ -222,6 +226,7 @@ Eksempelet nedenfor er basert på en lokasjonskode. Fremgangsmåten er den samme
 Hvis du vil ha informasjon om overføring av varer med full kontroll over antall levert og mottatt, kan du se [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md).
 
 ## <a name="see-also"></a>Se også
+[Telle lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md)  
 [Lager](inventory-manage-inventory.md)
 [Lagerstyring](warehouse-manage-warehouse.md)    
 [Salg](sales-manage-sales.md)  

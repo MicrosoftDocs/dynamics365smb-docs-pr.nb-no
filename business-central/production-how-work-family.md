@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/05/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c3cb9f82688f89f00f934d1468492cfa752742fd
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b56ec1c5a0646c46ce5da71d35ebcff8bd01d476
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803530"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924431"
 ---
 # <a name="work-with-production-families"></a>Arbeide med produksjonsfamilier
 En produksjonsfamilie er en gruppe individuelle varer der forbindelsen er basert på likheten i produksjonsprosessen. Ved hjelp av produksjonsfamilier kan noen varer produseres to eller flere ganger i én produksjon, noe som optimaliserer materialforbruket.

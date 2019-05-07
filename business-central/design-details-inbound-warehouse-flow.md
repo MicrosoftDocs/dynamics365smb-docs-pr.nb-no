@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7990c907360a1ba7fb445e3eeefeb026315f9e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3083b52a2345d2c5dbaa15c34c7a93afb3b9d063
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802600"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921706"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
 Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. En ansatt registrerer varene, vanligvis ved å skanne en strekkode. Fra mottaksområdene utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer til lagringsområdet.  

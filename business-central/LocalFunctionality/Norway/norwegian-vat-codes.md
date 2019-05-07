@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6cb6c1df97113ffc093363828c927c3fa9f8a471
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4d261b15bd0e62450ac3d361a23d8794d732ef0a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826993"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912963"
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder.. Tabellen nedenfor viser norske standard mva-koder.  

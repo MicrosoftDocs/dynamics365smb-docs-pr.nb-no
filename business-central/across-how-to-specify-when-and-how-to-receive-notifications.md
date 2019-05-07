@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/08/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8bb1b2815740e3acfeb984c1b7cbad160dcd1016
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0e389e74e01d6e846d7f045069190fa1c67884fc
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803229"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912995"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angi når og hvor du kan motta varsler
 Når du konfigurerer brukere i godkjenningsarbeidsflyter, må du på sidene **Oppsett av varsling** og **Tidsplan for varsling** angi hvordan og når hver enkelt bruker mottar varsler om trinn i godkjenningsarbeidsflyten. Enkeltbrukere kan også endre sine varslingsoppsett ved å velge kappen **Endre varslingsinnstillinger** i et varsel.  

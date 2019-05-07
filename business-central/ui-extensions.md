@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: f093a9ce2a654d5ee693ee91f32e87f6546279d1
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 869d136498604a61b1f3016efca475b4784c4456
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852450"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "910368"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central for med utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.

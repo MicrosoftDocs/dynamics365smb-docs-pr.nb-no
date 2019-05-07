@@ -10,21 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 41fb80f39edc87aabce18c5ef39e799148eb0058
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852197"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929577"
 ---
 # <a name="planning"></a>Planlegging
 Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, må planlegges daglig eller ukentlig, avhengig av produktenes volum og beskaffenhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] har funksjoner for å dekke forventet og faktisk behov fra salg, montering og produksjon, i tillegg til funksjoner for distribusjonsplanlegging ved hjelp av lagerføringsenheter og lokasjonsoverføringer.
 
 > [!NOTE]
-> Dette emnet beskriver hovedsakelig planlegging for selskaper som er involvert i produksjons- eller monteringsstyring der de resulterende forsyningsordrene kan være produksjon, montering, overføring eller bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er siden **Planleggingsforslag**.
-
+> Dette emnet beskriver hovedsakelig planlegging for selskaper som er involvert i produksjons- eller monteringsstyring der de resulterende forsyningsordrene kan være produksjon, montering, overføring eller bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er siden **Planleggingsforslag**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter også forsyningsplanlegging for engrosselskaper der de resulterende forsyningsordrene bare kan være overføringsordrer og bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er siden **Bestillingsforslaget**, som beskrives indirekte i dette emnet siden det meste av planleggingsfunksjonaliteten gjelder for begge forslag.
 
 Før du kan planlegge og utføre produksjonsordrer, må du konfigurere produksjonskapasitet, for eksempel opprette produksjonskalendere, ruter, produksjonsstykklister og produksjonsressurser. Hvis du vil ha mer informasjon, kan du se [Definere produksjon](production-configure-production-processes.md).

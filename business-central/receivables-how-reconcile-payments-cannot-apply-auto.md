@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts
-ms.date: 03/05/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d952f46d5e688fe1b86077723a0482c91995661
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d96f46d7c0bd2b8a20294ff934ed645a76298e42
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803443"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926632"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Avstemme betalinger som ikke kan utlignes automatisk
 Noen ganger må du å håndtere betalinger til din bankkonto som ikke kan utlignes mot en relatert åpen kunde-, leverandør- eller bankkontopost. Årsakene kan være at det ikke finnes dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)] som betalingen kan utlignes mot, eller at det tilknyttede dokumentet i [!INCLUDE[d365fin](includes/d365fin_md.md)] har et annet beløp enn transaksjonsbeløpet, for eksempel på grunn av valutaveksling. På siden **Betalingsavstemmingskladd** vises alle transaksjonsbeløp for betalinger som ennå ikke er utlignet i **Differanse** -feltet, inkludert beløp som ikke kan brukes på grunn av årsaker som nevnt ovenfor.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: c575a83ab4a475bab5f9ec525eaaa985db0c324e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 29324e0927b926a5599ae19fe76a15ececeefe4b
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826986"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920143"
 ---
 # <a name="import-payroll-transactions"></a>Importer lønnstransaksjoner
 Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske lønnslisteløsningene: Huldt & Lillevik Lønn - Visma. Deretter kan du bruke finanskladden til å bokføre de importerte lønnstransaksjonene i finanskladdekontoer eller bankkontoer. Du må opprette lønnsintegrasjon før du kan importere lønnstransaksjoner.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 932abf3ee69f429c322fe82e150fa7a8f4aef8e8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: ca6edfb33aebedeb70deb17b78abbdb0024f7b2d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803712"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920253"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
 Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet  **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  

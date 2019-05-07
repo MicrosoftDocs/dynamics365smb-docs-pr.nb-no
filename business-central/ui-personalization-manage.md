@@ -10,33 +10,77 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: ad3b4cf3be7031ab1c7c4699bed6020fe09bd2d1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 37cdf2d7dcc46b1286cbb7a5ad620547e364309e
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803140"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "910865"
 ---
 # <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som Administrator
-<!--NAV in the Web client--> Brukere kan tilpasse arbeidsområdet etter egne behov. Som administrator kan du kontrollere og håndtere tilpasning ved å deaktivere muligheten for brukerne til å tilpasse sider og fjerne en hvilken som helst sidetilpasning som brukere har utført.
 
-## <a name="disable-personalization-for-a-profile"></a>Deaktivere tilpasning for en profil
+ Brukere kan tilpasse arbeidsområdet etter egne behov. Som en administrator kan du kontrollere og håndtere tilpasning av:
+
+-   Aktivering eller deaktivering av funksjonen for tilpasning for hele programmet (bare lokal installasjon).
+-   Aktivering eller deaktivering av funksjonen for tilpasning for brukere av en bestemt profil.
+-   Fjerning av sidetilpasninger som brukere har opprettet.
+
+## <a name="EnablePersonalization"></a>Aktivere eller deaktivere tilpasning (bare lokalt)
+
+Som standard er tilpasning ikke aktivert i klienten. Du aktiverer eller deaktiverer tilpasning ved å endre konfigurasjonsfilen (navsettings.json) for webserverforekomsten av Business Central som betjener klientene.
+
+1. Legg til følgende linje i filen navsettings.json for å aktivere tilpasning:
+
+    ```
+    "PersonalizationEnabled": "true"
+    ```
+
+    Hvis du vil deaktivere tilpasning, fjerner du linjen eller endrer den til:
+
+    ```
+    "PersonalizationEnabled": "false"
+    ```
+
+    Du finner mer informasjon om hvordan du kan endre filen navsettings.json, i [Endre filen navsettings.json direkte](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+
+2. Generere og laste ned programsymbolene.
+
+    Dette trinnet er valgfritt og kreves ikke for å aktivere tilpasning. Det sikrer imidlertid at nye sider som er opprettet av utviklere, kan tilpasses.
+
+    1. Først må du generere symbolene ved å kjøre finsql.exe med `generatesymbolreference`-kommandoen. Filen finsql.exe finnes i installasjonsmappen for [!INCLUDE[server](includes/server.md)] og Dynamics NAV Development Environment (CSIDE). For å generere symbolene åpne en ledetekst, endre katalogen der filen er lagret, og kjør følgende kommando:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
+        ```
+    Eksempel:
+
+        ```
+        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
+        ```
+
+    Hvis du vil ha mer informasjon, se [Kjøre C/SIDE og AL side ved side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+
+    2. Konfigurere [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-forekomst til **Aktivere lasting av programsymbolreferanser ved serveroppstart** (EnableSymbolLoadingAtServerStartup). Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+
+## <a name="to-disable-personalization-for-a-profile"></a>Deaktivere tilpasning for en profil
+
 Du kan hindre alle brukere som tilhører en bestemt profil, fra å tilpasse sine sider.
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profilliste**, og velg deretter den relaterte koblingen.
-2.  Velg profilen i listen som du vil endre.
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profiler**, og velg deretter den relaterte koblingen.
+2. Velg profilen i listen som du vil endre.
 3. Merk av for **Deaktiver tilpasning**, og velg deretter **OK**.
 
-## <a name="clear-user-personalizations"></a>Fjerne brukertilpasninger
+## <a name="to-clear-user-personalizations"></a>Fjerne brukertilpasninger
 
 Hvis du fjerner sidetilpasninger, endres siden tilbake til det opprinnelige oppsettet før eventuelle tilpasninger ble utført. Du kan slette tilpasninger brukere har gjort med sider, på to måter: ved hjelp av siden **Slett brukertilpasning** og ved hjelp av siden **Brukertilpasningskort**.
 
-### <a name="clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Slette brukertilpasninger ved hjelp av siden Slett brukertilpasning
+### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Slette brukertilpasninger ved hjelp av siden Slett brukertilpasning
 
 Siden **Slett brukertilpasning** lar deg slette tilpasninger for hver enkelt side og bruker.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett brukertilpasning**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett brukertilpasning**, og velg deretter den relaterte koblingen.
 
     Siden viser alle sidene som er tilpasset, og brukerne de tilhører.
 
@@ -47,17 +91,17 @@ Siden **Slett brukertilpasning** lar deg slette tilpasninger for hver enkelt sid
 
     Brukeren vil se endringene neste gang vedkommende logger på.
 
-### <a name="clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Slette brukertilpasninger ved hjelp av siden Brukertilpasningskort
+### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Slette brukertilpasninger ved hjelp av siden Brukertilpasningskort
 
 Siden **Brukertilpasningskort** gir deg muligheten til å slette tilpasningen på alle sider for en bestemt bruker. Dette krever skrivetilgang til tabellen 2000000072 **profil**.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukertilpasning**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukertilpasning**, og velg deretter den relaterte koblingen.
 
     Siden **Brukertilpasning** viser alle brukerne som kan ha tilpassede sider. Hvis du ikke finner en bruker i listen, betyr det at de ikke har tilpassede sider.
 
 2. Velg brukeren fra listen, og velg deretter handlingen **Rediger**.
 
-3.  I kategorien **Handlinger** velger du **Fjern tilpassede sider**.
+3. I kategorien **Handlinger** velger du **Fjern tilpassede sider**.
 
     Brukeren vil se endringene neste gang vedkommende logger på.
 

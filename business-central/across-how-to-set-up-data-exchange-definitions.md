@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0a8172f0c8770235291e7b9a29663f15932f38b4
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 382a95a579482a56597ffae053c53dab92f3739a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803308"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914425"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
 
-Som forberedelse til å opprette en datautvekslingsdefinisjon for en datafil eller -strøm, kan du bruke det tilknyttede XML-skjemaet til å definere hvilke dataelementer skal tas med i hurtigfanen **Kolonnedefinisjoner**. Se trinn 6 under Slik beskriver du formateringen av linjer og kolonner i filen. Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
+Som forberedelse til å opprette en datautvekslingsdefinisjon for en datafil eller -strøm, kan du bruke det tilknyttede XML-skjemaet til å definere hvilke dataelementer skal tas med i hurtigfanen **Kolonnedefinisjoner**. Se trinn 6 under [Slik beskriver du formateringen av linjer og kolonner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
 Vanligvis setter du opp datautvekslingsdefinisjoner på siden **Datautvekslingsdefinisjon**. Men når du setter opp en datautvekslingsdefinisjon for å oppdatere valutakurser, starter du prosessen på den forenklede siden **Kort for oppsett for val.kursoppdatering**.  
 
@@ -39,7 +39,10 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 1. På siden **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen.  
 2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-     Dette er beskrevet i følgende fremgangsmåter.  
+Dette er beskrevet i følgende fremgangsmåter.  
+
+> [!TIP]
+> Hvis du vil se hvilke codeunits Microsoft bruker i eksisterende definisjoner i standardproduktet, kan du se de tre **codeunit**-feltene i hodet på **Felttilordning**-siden for hver definisjon.
 
 #### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a>Slik beskriver du formateringen av linjer og kolonner i filen:  
 1. Skriv inn **Datautvekslingsdefinisjoner** i **Søk**-boksen, og velg deretter den tilknyttede koblingen.  

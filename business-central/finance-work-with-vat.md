@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9d6f3cf74582283e633d9c3347def5289aeb8f88
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803262"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "919517"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -63,7 +63,7 @@ Når kontantrabatten er tildelt, kan du tilbakestille den delen av kontantrabatt
 1. Åpne den aktuelle ordren.  
 2. Velg handlingen **Statistikk**.  
 3. Velg hurtigfanen **Fakturering**.  
-  
+
     > [!NOTE]  
     >  Det totale mva-beløpet for fakturaen, gruppert etter mva-type, vises på linjene. Du kan justere beløpet manuelt i **Mva-beløp**-feltet på linjene for hver mva-type. Når du endrer **Mva-beløp**-feltet, kontrolleres det at du ikke har endret mva med mer enn beløpet du har angitt som tillatt maksimumsdifferanse. Hvis beløpet er utenfor området for **Maks. tillatte mva-differanse**, vises det en advarsel som angir den maksimale differansen som er tillatt. Du kan ikke fortsette før beløpet er justert innenfor de godkjente parametrene. Klikk **OK** og angi et annet **mva-beløp** som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimum, deles mva proporsjonelt mellom dokumentlinjene som har samme mva-type.  
 
@@ -77,7 +77,7 @@ Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder
 #### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du kan angi mva manuelt i salgs- og kjøpskladder  
 1. På siden **Kjøpsoppsett** merker du av for **Tillat mva-differanse**.  
 2. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
-  
+
     > [!NOTE]  
     > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] differansen i feltet **Mva-differanse**.  
 
@@ -115,12 +115,12 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
     >  Hvis det ikke er merket av for **Leveringsbekreftelse er obligatorisk** i mva-bokføringsgruppedefinisjonen, opprettes det en post, og **Ikke i bruk** angis i **Status**-feltet. Du kan oppdatere feltet for å gjenspeile den riktige statusinformasjonen. Du kan manuelt endre statusen fra **Ikke i bruk** til **Påkrevd** og fra **Påkrevd** til **Ikke i bruk** etter behov.  
 
    Når du oppdaterer **Status**-feltet til **Påkrevet**, **Mottatt** eller **Ikke mottatt**, opprettes det en bekreftelse.  
-  
+
     > [!TIP]  
     >  Du kan bruke **Leveringsbekreftelser**-siden for å få en oversikt over statusen for alle bokførte leveringer som det er opprettet en leveringsbekreftelse for.  
 
 5. Velg **Skriv ut mottaksdeklarasjon**.  
-  
+
     > [!Note]  
     >  Du kan forhåndsvise eller skrive ut dokumentet. Når du velger **Skriv ut leveringsbekreftelse** og skriver ut dokumentet, blir det merket av for **Skrevet ut** automatisk. Hvis den ikke allerede er angitt, oppdateres statusen for bekreftelsen til **Påkrevd**. Om nødvendig inkluderer du den utskrevne bekreftelsen med leveringen.  
 

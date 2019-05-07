@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/16/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 95a00ec61db3b65b2be729bf0b68da7af960d6ab
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803051"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925973"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Trenger mer tid til å avgjøre om du vil abonnere?
 Det er viktig å ta de rette avgjørelsene når du velger en forretningsapplikasjon, og vi vet at det kan ta tid å utforske alle detaljene ved [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du trenger flere tid til å fullføre evalueringen, kan du utvide prøveperioden i ytterligere 30 dager. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 06fe745bca016a776d7a1865141110ec82b1d7d7
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 45fb2f1ac2b9d26e74e625321a64b4a5033880bf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802446"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917097"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 Kunder er kilden til dine inntekter. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -54,6 +54,7 @@ Hvis du vil bruke dette kundekortet som en mal når du oppretter nye kundekort, 
 Kundemalen legges til i listen over kundemaler, slik at du kan bruke den til å opprette nye kundekort.
 
 ## <a name="see-also"></a>Se også
+[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  
 [Opprette nummerserier](ui-create-number-series.md)  
 [Salg](sales-manage-sales.md)    
 [Sette opp salg](sales-setup-sales.md)    

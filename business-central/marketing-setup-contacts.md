@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71c48a677dbc684978271e19d67409dc07143f9d
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: d337da227214c88b8358eb07261f18443d9c5d93
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802685"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918150"
 ---
-# <a name="setting-up-contacts"></a>Konfigurere kontakter
+# <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
 
 Før du oppretter kontakter og registrerer detaljer om forretningsforhold, må du sette opp de ulike kodene du vil bruke til å tilordne disse opplysningene til kontaktbedriftene og -personene. Koder kan settes opp for postgrupper, bransjegrupper, forretningsrelasjoner, webkilder, organisasjonsnivåer og ansvarsområder. Du kan konfigurere dette ved å velge **Ny**-handlingen når du slår opp i listene fra kontaktkortet.  
@@ -151,10 +151,10 @@ Hvis du vil synkronisere kontaktkortet med en tilknyttet kunde, leverandør elle
 
 Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts-when-contacts-are-created"></a>Søke etter duplikatkontakter når kontakter opprettes
-Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter et kontaktselskap, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater.
+## <a name="searching-for-duplicate-contacts"></a>Søke etter duplikatkontakter
+Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter en kontakt, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater. Du definerer dette på **Duplikater**-hurtigfanen på **Markedsføringsoppsett**-siden.
 
-Du definerer dette på **Duplikater**-hurtigfanen på **Markedsføringsoppsett**-siden.
+Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplikat** til å flette det inn i en eksisterende kontaktpost som du vil beholde. Hvis du vil ha mer informasjon, se [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md).
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

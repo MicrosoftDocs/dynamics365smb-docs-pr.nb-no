@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 11/06/2018
+ms.date: 04/01/2019
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: f7a217bd61b185586c71d5982d783840dd7ffd2e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 3b49df32acdc9530eb56a26538dbc34e245ec1e3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803381"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917385"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert sensitiviteten til dataene dine og er sikker på at de er riktige, kan administrator svare på forespørsler ved hjelp av alternativene under **Datavern** i rollesenteret **Administrasjon av brukere, brukergrupper og tillatelser** eller, hvis du bruker Windows-klienten, i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
@@ -51,7 +51,7 @@ Hvis du har en situasjon der du må eksportere data som ikke er klassifisert sli
 -   Legg til denne tabellen og relasjonen manuelt i hurtigstartpakken, og eksporter dem direkte fra hurtigstartpakken. Derfor generere vi hurtigstartpakken for deg, slik at du kan endre den i situasjoner som denne.
 
 ## <a name="handling-data-about-minors"></a>Håndtere opplysninger om mindreårige
-Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i henhold til lovene i ditt område, kan du angi dette ved å merke av for **Mindreårig** på **Kontakt**-kortet. Når du gjør dette merkes det automatisk av for **Personvern sperret**. Når du mottar samtykke fra den mindreåriges forelder eller juridiske verge, kan du merke av for **Samtykke fra foreldre mottatt** for å oppheve blokkeringen av kontakten. Selv om du kan behandle personopplysninger for mindreårige, kan du ikke bruke profileringsfunksjonaliteten i Microsoft Dynamics 365 for Sales.
+Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i henhold til lovene i ditt område, kan du angi dette ved å merke av for **Mindreårig** på **Kontakt**-kortet. Når du gjør dette merkes det automatisk av for **Personvern sperret**. Når du mottar samtykke fra den mindreåriges forelder eller juridiske verge, kan du merke av for **Samtykke fra foreldre mottatt** for å oppheve blokkeringen av kontakten. Selv om du kan behandle personopplysninger for mindreårige, kan du ikke bruke profileringsfunksjonaliteten i Dynamics 365 for Sales.
 
 > [!Note]
 > Endringsloggen kan registrere opplysninger om for eksempel når og hvem som merket av for **Samtykke fra foreldre mottatt**. Administrator kan konfigurere dette ved å bruke veiledningen **Endringsloggoppsett** og også merke av for **Logge endring for samtykke fra foreldre mottatt** på **Kontakt**-kortet. Hvis du vil ha mer informasjon, kan du se [Logge endringer](across-log-changes.md).  

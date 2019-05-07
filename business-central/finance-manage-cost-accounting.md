@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/27/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 86268549bbf5d133b2d077b69507cf1b6a3617a3
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802764"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916685"
 ---
 # <a name="accounting-for-costs"></a>Gjøre rede for kostnader
 Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.  

@@ -1,23 +1,19 @@
 ---
 title: Prosjektoppgaver ved hjelp av ressurser og timelister | Microsoft-dokumentasjon
 description: Beskriver hvordan du bruker ressurser, timelister og jobber til å administrere prosjekter.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: 1de8a8feaa7ae9c7d2dd656a525be84cd5424dc6
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803669"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921031"
 ---
 # <a name="project-management"></a>Prosjektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
@@ -38,13 +34,18 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bokfør forbruket av materialer, ressurser, og andre utgifter for prosjektet av varer i arbeid (VIA) til å overvåke den økonomiske verdien og å opprettholde riktig regnskapsoppgjør, selv om du bokfører prosjektutgifter før fakturering av prosjektet. |[Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md) |
 | Registrer prosjektkostnader for ressursforbruk, materialer og prosjektrelaterte kjøp på en varig basis, og fakturer kunden når prosjektet er fullført, eller i henhold til en tidsplan for fakturering. |[Fakturere prosjekter](projects-how-invoice-jobs.md) |
 
+## <a name="get-started-with-projects"></a>Komme i gang med prosjekter
+
+Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
+
 ## <a name="see-also"></a>Se også
+
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
-[Endre hvilke funksjoner som vises](ui-experiences.md)      
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)    
+[Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Endre hvilke funksjoner som vises](ui-experiences.md)  
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
- 

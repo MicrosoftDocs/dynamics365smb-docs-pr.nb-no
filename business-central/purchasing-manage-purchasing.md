@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 11/15/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 87e3d134abe82e0f55acf4d3680b84fbc2c0c14b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 738cbfece41121eb05aeb598f9ea4367173f29a5
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802613"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918774"
 ---
 # <a name="purchasing"></a>Kjøp
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
@@ -42,6 +42,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Forbered fakturering av flere mottak fra samme leverandør én gang ved å kombinere mottakene på en faktura.|[Kombinere mottak på én faktura](purchasing-how-to-combine-receipts.md)|
 |Konverter for eksempel elektroniske fakturaer fra leverandører til kjøpsfakturaer i Business Central.|[Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Lære hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner når du må bestille en vare for å motta den på en bestemt dato.|[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)|
+|Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 1441e15785b159f7a8c13ee59c8ebea4c32512dc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: cf401500c34d8d40acc153a591229684770afa64
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802701"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917479"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Utvidelsen for Dynamics GP datamigrering 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevante poster og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[prodshort](includes/prodshort.md)]. Overføringsutvidelsen fungerer for alle støttede versjoner av Microsoft Dyanmics GP. Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).

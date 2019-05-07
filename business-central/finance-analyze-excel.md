@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: acd894ede7ad497311a793fb7153333a9a35e1cb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b816d7ff9f8446aa81746b980fd47b3b531e1396
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803194"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913805"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere årsregnskap i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ytelsesindikatorer og få en oversikt over selskapets økonomiske tilstand. Du kan også åpne lister i Excel og analysere dataene der. Men du kan også eksportere tunge årsregnskap, for eksempel balansen eller resultatregnskapet til Excel, analysere data og skrive ut rapportene.  

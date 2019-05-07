@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: c6eb9465d07b702e545347cad5acf0a42f01d1de
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803465"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928072"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortere, søke etter og filtrere oversikter
 Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og begrense poster i en oversikt. Dette omfatter sortering, søk og filtrering. Du kan bruke noen av eller alle disse samtidig til å finne eller analysere data raskt.
@@ -36,7 +36,8 @@ Hvis du vil sortere en liste, kan du enten velge en kolonneoverskriftstekst og v
 >   Sortering støttes ikke for bilder, BLOB-felt, FlowFilters og felt som ikke hører til i en tabell.  
 
 ## <a name="searching"></a>Søke
-<!--## Searching by using the Quick Filter --> Øverst på hver listeside er det et ![Søkeliste](media/ui-search/search-list.png "Søkeliste- ikonet") **Søk**-ikon som gir en rask og enkel måte å redusere postene i en oversikt, og viser bare postene som inneholder dataene du interessert i å se på.
+<!--## Searching by using the Quick Filter -->
+Øverst på hver listeside er det et ![Søkeliste](media/ui-search/search-list.png "Søkeliste-ikon") **Søk**-ikon som gir en rask og enkel måte å redusere postene i en oversikt på, og viser bare postene som inneholder dataene du interessert i å se på.
 
 For å søke velger du søkeikonet og skriver inn teksten som du søker etter, i boksen. Du kan skrive inn bokstaver, tall og andre symboler.
 
@@ -55,27 +56,6 @@ Du kan imidlertid foreta et mer nøyaktig søk ved hjelp av følgende spesialteg
 
 Tabellen nedenfor inneholder eksempler som forklarer hvordan du kan bruke søket.
 
-
-<!--
-In search criteria you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.-->
-
-<!--
-The Quick Filter provides an easy access to filter data by entering plain text, but does also provide a lot of search criteria options. Depending on whether you enter plain text or text including symbols, the Quick Filter behaves differently.  
-
-* If you enter plain text in the search criteria, the search criteria is interpreted as a case insensitive search that contains certain text.  
-* If you enter text including symbols in the search criteria, the search criteria is interpreted exactly as you entered it, and the search is case sensitive.
--->
-<!--
-
-|Search Criteria|Interpreted as...|Finds...|
-|---------------|----------------|----------|
-|`man`<br />or <br />`Man`|Contains the text; case insensitive|All records with fields that contain the text **man**, regardless of the case.|
-|`'Man'`|Entire text match; case sensitive.|All records with fields that only contain **Man** exactly.|
-|`Man*`|Starts with the text; case sensitive.|All records with fields that start with the text <b>Man</b> exactly.|
-|`@Man*`|Starts with the text; case insensitive.|All records with fields that start with **man**, regardless of the case.|
-|`@*man`|Ends with the text; case insensitive.|All records that end with **man**, regardless of the case.|
--->
-
 |Søkekriterier|Finner...|
 |---------------|----------|
 |`man`<br />eller <br />`Man`|Alle poster med felt som inneholder teksten **man**, uavhengig av store/små bokstaver. For eksempel **Manchester**, **manuell** eller **sportsmann**. |
@@ -87,7 +67,7 @@ The Quick Filter provides an easy access to filter data by entering plain text, 
 > [!TIP]
 > Du kan trykke F3 for å aktivere og deaktivere søkeboksen. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
 
-## <a name="filtering"></a>Filtrering
+## <a name="Filtering"> </a>Filtrering
 Filtrering er en mer avansert og allsidig måte for å kontrollere hvilke poster som vises i en oversikt. Det finnes to viktige forskjeller mellom søking og filtrering, som beskrevet i tabellen nedenfor.
 
 || **Søke** | **Filtrering** |
@@ -98,13 +78,14 @@ Filtrering er en mer avansert og allsidig måte for å kontrollere hvilke poster
 Med filtrering kan du vise poster for bestemte konti eller kunder, datoer, beløp og annen informasjon ved å angi filterkriterier. Bare poster som samsvarer med kriteriene, vises. Hvis du angir kriterier for flere felt, vises bare poster som samsvarer med alle kriteriene.
 
 ### <a name="working-in-the-filter-pane"></a>Arbeide i filtreringsruten
+
+For å vise filtreringsruten kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på **Skift+F3**. For lister i rollesenteret kan du også velge pil ned i nærheten av sidetittelen på navigasjonslinjen over listen og deretter velge **Vis filtreringsrute**, som vist her.
+
+![Vis filtreringsrute](media/open-filter-pane.png "Vis filtreringsrute")
+
 Filtreringsruten viser gjeldende filtre for en liste og gjør det mulig å angi egendefinerte filtre på ett eller flere felt. Figuren nedenfor viser et eksempel på en filtreringsrute for en tilbudsliste.
 
 ![Oversikt over filtreringsruten](media/filter-pane-overview.png "Filterikonet")
-
-Hvis du vil vise filtreringsruten, kan du bruke hurtigtasten **Skift+F3**. For lister i rollesenteret kan du også velge pil ned i nærheten av sidetittelen på navigasjonslinjen over listen og deretter velge **Vis filtreringsrute**.
-
-![Vis filtreringsrute](media/open-filter-pane.png "Vis filtreringsrute")
 
 En filtreringsrute er inndelt i tre deler: **Visninger**, **Filtrer listen etter** og **Filtrer totaler etter**:
 
@@ -137,7 +118,7 @@ Du kan nå skrive inn eller velge filterkriterier i boksen. Typen felt du filtre
 Kolonner som allerede har filtre, angis av ![filterikonet](media/ui-search/filter-icon.png "filterikonet") i kolonneoverskriften. Hvis du vil fjerne et filter, velger du kolonneoverskriven og velger deretter **Fjern Filter**.
 
 
-### <a name="entering-filter-criteria-without-the-filter-pane"></a>Angi filterkriterier uten filtreringsruten
+### <a name="entering-filter-criteria-without-using-the-filter-pane"></a>Angi filterkriterier uten å bruke filtreringsruten
 Du kan angi enkeltfiltre direkte fra listen uten å måtte bruke filtreringsruten.
 Når et feltet er merket på en rad, kan du bruke **Alt+F3**-hurtigtasten for å vise bare poster som har samme verdi. Du kan deretter velge et annet felt og bruke samme hurtigast på nytt for å fortsette finjustering av filtrene. Hvis det valgte feltet allerede filtreres, kan du fjerne dette filteret ved hjelp av **Alt+F3**.
 
@@ -248,7 +229,7 @@ Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan 
 Når du angir filterkriterier, kan du også skrive inn ord som har spesiell betydning, som kalles filtersymboler. Når du har angitt symbolordet, erstattes ordet av verdien eller verdiene det representerer. Dermed blir filtreringen enklere ved å redusere behovet for å navigere til en annen side for å slå opp verdiene du vil legge til i filteret. Tabellen nedenfor beskriver noen av symbolene du kan bruke som filterkriterier.
 
 > [!TIP]
-> Organisasjonen kan bruke egendefinerte symboler. Hvis du vil vite mer om det fullstendige settet med symboler du kan bruke, eller legge til flere egendefinerte symboler, kontakt systemansvarlig. For teknisk informasjon, se [Legge til filtersymboler](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens)
+> Organisasjonen kan bruke egendefinerte symboler. Hvis du vil vite mer om det fullstendige settet med symboler du kan bruke, eller legge til flere egendefinerte symboler, kontakt systemansvarlig. For teknisk informasjon, se [Legge til filtersymboler](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
 
 ### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) Poster som er tilordnet til deg

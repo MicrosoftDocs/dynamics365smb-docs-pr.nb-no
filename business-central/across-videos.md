@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71e92f587ac5697b96aca937e6a6d4b00dc41902
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 685487de30a50defa5fd3908c3b049e639a12843
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803682"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "928568"
 ---
 # <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
-Vær tålmodig når vi bygger vårt bibliotek med instruksjonsvideoer på nytt. En bivirkning av de nyeste forbedringene i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at vi må kopiere innholdet vårt, slik at det gjenspeiler produktet på en nøyaktig måte. 
+Vær tålmodig når vi bygger vårt bibliotek med instruksjonsvideoer på nytt. En bivirkning av de nyeste forbedringene i [!INCLUDE[d365fin](includes/d365fin_md.md)] er at vi må kopiere innholdet vårt, slik at det gjenspeiler produktet på en nøyaktig måte.
 
 Vi tilbyr i mellomtiden tre videoer som kan hjelpe deg å komme i gang raskt.
 
@@ -30,7 +30,7 @@ Vi tilbyr i mellomtiden tre videoer som kan hjelpe deg å komme i gang raskt.
 |Kom i gang|Forstå det første viktige trinnene når du prøver [!INCLUDE[d365fin](includes/d365fin_md.md)] eller nylig har kjøpt produktet. |
 |Få hjelp|Vite hvor du kan få svar på forskjellige spørsmål.|
 
-Du får tilgang til videoene på flere måter. Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, kan du starte videoer fra velkomstsiden siden vises. Hvis du allerede arbeider i [!INCLUDE[d365fin](includes/d365fin_md.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**. 
+Du får tilgang til videoene på flere måter. Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, kan du starte videoer fra velkomstsiden siden vises. Hvis du allerede arbeider i [!INCLUDE[d365fin](includes/d365fin_md.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.
 
 > [!Tip]  
 > Videoer i biblioteket vises i en ramme som kan virke litt liten. Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil øverst til høyre. Etter det vil videoene vises i en større ramme til du gjør den liten igjen.
@@ -42,7 +42,7 @@ Bare for å nevne noen eksempler inneholder vil videoene som kommer, vise hvorda
 
 * Overfører forretningsdata fra en annen økonomiapp til [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Definerer dimensjoner, slik at du kan spore og analysere ulike dokumenter og enheter
-* Koble [!INCLUDE[d365fin](includes/d365fin_md.md)] med Microsoft Dynamics 365 for Sales
+* Koble [!INCLUDE[d365fin](includes/d365fin_md.md)] med Dynamics 365 for Sales
 * Konfigurer arbeidsflyter for godkjenning  
 * Bruk Power BI med [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 * Konfigurerer e-post og sender dokumenter direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)]  

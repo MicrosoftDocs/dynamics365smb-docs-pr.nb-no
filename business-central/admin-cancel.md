@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3da4de9eee04f240d88d4128fefe273999f20cfc
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1fd6afcdeb42d2f2c594a2a1fce0f60596ac4e6d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803461"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926111"
 ---
 # <a name="unsubscribe-remove-or-reset-included365finincludesd365finmdmd"></a>Avbryte, fjerne eller tilbakestille [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du vil slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen eller få lisensen fjernet fra kontoen. Fremgangsmåten er forskjellig hvis du bruker gratis prøveversjon eller hvis du har månedsabonnement som en del av en Office 365-konto.  

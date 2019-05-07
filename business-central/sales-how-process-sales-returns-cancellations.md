@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46ea7cb3402f65d897cc8519a062ebbf8fb9b383
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803103"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917770"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. For å inkludere den riktige salgsfakturainformasjonen kan du opprette salgskreditnotaen direkte fra den bokførte salgsfakturaen, eller du kan opprette en ny salgskreditnota kopiert fakturainformasjon.
 
-Hvis du trenger mer kontroll over ordrereturprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt når du mottar varer fra flere salgsdokumenter med en ordreretur, kan du opprette ordrereturer. En ordreretur utsteder automatisk den relaterte salgskreditnotaen, og andre returrelaterte dokumenter, for eksempel en erstatningsordre om nødvendig. Hvis du vil ha mer informasjon, kan du se [Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).
+Hvis du trenger mer kontroll over ordrereturprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt når du mottar varer fra flere salgsdokumenter med en ordreretur, kan du opprette ordrereturer. En ordreretur utsteder automatisk den relaterte salgskreditnotaen, og andre returrelaterte dokumenter, for eksempel en erstatningsordre om nødvendig. Hvis du vil ha mer informasjon, kan du se [Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).
 
 > [!NOTE]  
 >   Hvis en bokført salgsfaktura ennå ikke er betalt, kan du bruke funksjonen **Korriger** eller **Annuller** på den bokførte salgsfakturaen for å tilbakeføre transaksjonene. Disse funksjonene fungerer bare for ubetalte fakturaer, og de støtter ikke delvise returer eller annulleringer. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md).
@@ -40,7 +40,7 @@ Det finnes to funksjoner du kan bruke til å tilordne opprinnelig kosttilbakefø
 
 |Funksjon|Description|  
 |------------------|---------------------------------------|  
-|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Ordreretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til ordrereturen. Hvis du vil ha mer informasjon, kan du se [Opprette en ordreretur basert på én eller flere bokførte salgsfakturaer](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-a-posted-sales-documents).|  
+|Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Ordreretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til ordrereturen. Hvis du vil ha mer informasjon, kan du se [Opprette en ordreretur basert på ett eller flere bokførte salgsdokumenter](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-return-order-based-on-one-or-more-posted-sales-documents).|  
 |**Kopier dokument**-funksjonen på sidene **Salgskreditnota** og **Ordreretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** på siden **Salgsoppsett**.|
 
 For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra-varepost** på alle typer returdokumentlinjer, og deretter velge nummeret på den opprinnelige salgsposten. Dermed knyttes salgskreditnotaen eller ordrereturen til den opprinnelige salgsposten, og verdien av varen fastsettes til opprinnelig enhetskost.

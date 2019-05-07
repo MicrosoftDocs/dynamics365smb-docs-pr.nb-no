@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 8a8aa06268a2b90189dee36a7cf2c5954e45b798
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: c5b76a434403da0d472b1e1fa9430d40ff082220
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852141"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924454"
 ---
 # <a name="administration"></a>Administrasjon
 Sentrale administrasjonsoppgaver utføres vanligvis av én rolle i selskapet. Omfanget av disse oppgavene kan avhenge av selskapets størrelse og administrators jobbansvar. Disse oppgavene kan omfatte administrasjon av databasesynkronisering for jobb- og e-postkøer, oppsett av brukere og tilpassing av brukergrensesnittet.  
@@ -44,7 +44,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Vis sider, kodeenheter og spørringer som web-tjenester.|[Publisere en webtjeneste](across-how-publish-web-service.md)|
 |Som en del av å opprette tilkoblingsapper mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartløsninger gjennom REST API-er, må du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom et API.|[Konfigurere API-maler](admin-configuring-api-template.md)|
 |Krypter data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved å generere nye eller importere eksisterende krypteringsnøkler som du aktiverer på serveren.|[Administrere datakryptering](admin-manage-data-encryption.md)|
-|Koble Dynamics 365 for Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] for å få en sømløs integrasjon mellom kunderelasjoner og ordrebehandling i interessent-til-kontanter-prosessen.|[Integrere med Dynamics 365 for Sales](marketing-integrate-dynamicscrm.md)|
+|Koble Dynamics 365 for Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] for å få en sømløs integrasjon mellom kunderelasjoner og ordrebehandling i interessent-til-kontanter-prosessen.|[Integrere med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser, og utvid løsningen med apper.|[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
 
 ## <a name="see-also"></a>Se også

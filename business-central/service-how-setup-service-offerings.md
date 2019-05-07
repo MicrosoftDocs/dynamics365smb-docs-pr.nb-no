@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 93afb98600552e58640d5aa12fa91efd15afebfb
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 1a33fbd8bebd24806c373b9e7d35c2e877e8b747
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803373"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923036"
 ---
 # <a name="set-up-service-offerings"></a>Konfigurere servicetilbud
 Når du konfigurerer servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  

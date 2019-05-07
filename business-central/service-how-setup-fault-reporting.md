@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7c25c4858600d959024dcbdba2ce5d0f7e3ad4c8
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 48361c529b682fc3989ceaa2baebcb1f4cb529a4
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803004"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913532"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurere feilrapportering
 Feilrapportering lar deg opprette standarder for å registrere feilinformasjon for servicevarer. Du kan for eksempel angi hva problemet er, hvilke symptomene du ser, årsaken til problemet og hvordan du løse det.  
@@ -38,7 +38,8 @@ Feilkoder beskriver de vanligste servicevarefeilene eller handlingene som er utf
 Når du skal fullføre definisjonen av feilrapportering, kan du også angi hvilke reparasjoner eller løsninger som er tilknyttet en feil eller defekt. Du definerer på siden **Forhold ml. feil-/løsningskoder**, der du angir kombinasjoner av koder for servicevaregruppen til servicevaren som du åpnet vinduet, og antall forekomster av hver enkelt.
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Opprette relasjoner mellom feilkode og løsningskode
-<!--this needs to go in a working with topic--> Hvis du vil kunne vise de vanligste reparasjonsmåtene for bestemte varefeil når du gir service til varene, må du samle opplysninger om forhold mellom feilløsningskoder. Bruk kjørselen **Sett inn forh. ml. feil/løsn.** til å finne alle kombinasjoner av feil- og løsningskoder i bokførte serviceordrer, og registrer dem på siden **Forhold ml. feil-/løsningskoder**.
+<!--this needs to go in a working with topic-->
+ Hvis du vil kunne vise de vanligste reparasjonsmåtene for bestemte varefeil når du gir service til varene, må du samle opplysninger om forhold mellom feilløsningskoder. Bruk kjørselen **Sett inn forh. ml. feil/løsn.** til å finne alle kombinasjoner av feil- og løsningskoder i bokførte serviceordrer, og registrer dem på siden **Forhold ml. feil-/løsningskoder**.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Sett inn forh. ml. feil/løsn.**, og velg deretter den relaterte koblingen.  
 2. Angi datoer for å definere perioden som du vil skal være med i kjørselen.  

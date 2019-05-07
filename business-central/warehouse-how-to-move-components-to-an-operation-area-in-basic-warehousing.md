@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a5f103ae832231be521e9faf1d9024cbbb393c33
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 0c14ae1300d0e569e04159484da6ffb6e0541947
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802968"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925835"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
 Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.  

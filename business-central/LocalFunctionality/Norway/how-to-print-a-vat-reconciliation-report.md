@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 05108db5783d18c7d5bd7b5ebc549fd0fcd76fce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b989432eb52b96b6481c3dfa94e6f289b8d2d169
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826996"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "920885"
 ---
 # <a name="print-a-vat-reconciliation-report"></a>Skrive ut en MVA-avstemmingsrapport
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.  

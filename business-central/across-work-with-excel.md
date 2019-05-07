@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 27c137ea6309d40cddc94bc676ec7ea27d5c01fa
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 68139f258595bcca2658e394a4251e30dfbe6510
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802972"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925043"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central 
 
@@ -43,6 +43,8 @@ Med sider som viser en oversikt over poster i rader og kolonner, som en liste ov
 >[!NOTE]
 >For lokal [!INCLUDE[prodshort](includes/prodshort.md)] er **Rediger i Excel**-handlingen bare tilgjengelig hvis Excel-tillegget er installert av systemansvarlig. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="see-also"></a>Se også
+### <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene 
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
+## <a name="see-also"></a>Se også
 [Arbeide med Business Central](ui-work-product.md)  

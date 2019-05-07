@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 02/21/2019
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 72fcf1b698b464cd21107184cd2bb166a8612cae
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: f86c8a3cd93995aaf52a9e7f95065751f8061fd7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852289"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "916152"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
@@ -49,12 +49,15 @@ Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettste
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
 
-Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[d365fin](includes/d365fin_md.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet.  
-
-Du finner en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Hvis du vil ha mer informasjon, kan du se [Hjelp og støtte](product-help-and-support.md).  
 
 ## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
-Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).  
+Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
+
+## <a name="where-is-the-save-button"></a>Hvor er lagreknappen?
+
+Det finnes ingen *lagre*-knapp på sider som i andre programmer du kanskje er kjent med. I [!INCLUDE[d365fin](includes/d365fin_md.md)] lagres endringer du gjør i et felt, automatisk så snart du går til neste felt eller lukker siden, forutsatt at det ikke finnes feil. Når du gjør endringer i et felt og flytter til en annet felt, vises teksten **Lagre** øverst til høyre på siden, som raskt endres til **Lagret** hvis det ikke oppstår noen feil. Hvis det oppstår en feil, endres teksten til **Ikke lagret**.
+
 
 ## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  

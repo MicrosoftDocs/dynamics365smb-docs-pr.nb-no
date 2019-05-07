@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 98d51b10d3ca415a463b58405cb3c4f2449b75ad
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852427"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921412"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbeide med rapporter og kjørsler
 En rapport samler inn informasjon basert på et bestemt sett med vilkår og organiserer og viser informasjonen i et format som er lett å lese og som kan skrives ut. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene og salgsstatistikken.
@@ -50,9 +50,9 @@ Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generer
 ### <a name="setting-options-and-filters"></a>Angi alternativer og filtre
 Hvis du vil ytterligere begrense eller tilspisse dataene som er inkludert i en rapport, kan du definere flere alternativer og filtre.
 
-Med filtre kan du vise data basert på bestemte kriterier. Filtre er gruppert etter enheten de tilhører, som for eksempel **Kunde** i eksemplet ovenfor. Du definerer et filter ved å sette boksen **Hvor** til feltet som du vil filtrere etter, og deretter legge til kriterier i boksen **er:**. Eksemplet ovenfor er et enkelt filter som oppretter en rapport for kunden som har **Nr.** er lik **01121212**.
+Med filtre kan du vise data basert på bestemte kriterier. Filtre er gruppert etter enheten de tilhører, som for eksempel **Kunde** i eksemplet ovenfor. Du definerer et filter ved å sette boksen **Hvor** til feltet som du vil filtrere etter, og deretter legge til kriterier i boksen **er:**.
 
-Du kan legge til flere filtre ved å definere boksene **Legg til**. Når du har flere enn ett filter, vil kun et resultatet som oppfyller kriteriene for alle filtre være med i rapporten.
+Du kan legge til flere filtre ved å fylle ut boksene **Og** og **er**. Når du har flere enn ett filter, vil kun et resultatet som oppfyller kriteriene for alle filtre være med i rapporten.
 
 Avhengig av hvilket felt du filtrerer på, kan du angi filterkriteriene til å søke etter et nøyaktig treff, delvis samsvar, verdiområder og så videre. Hvis du vil ha hjelp med å definerer filtre, kan du se:
 -   [Filtrering](ui-enter-criteria-filters.md#FilterCriteria)

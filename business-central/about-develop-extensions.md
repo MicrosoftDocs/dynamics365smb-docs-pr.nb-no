@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 796f48a719b30ce54752eb8ab02386f964c2e7b8
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: e8e2b011dc07657198ebf42663bd404b7850834a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "853143"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "917002"
 ---
 # <a name="extending-included365finincludesd365finmdmd"></a>Utvide [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning for bedriftsadministrasjon som hjelper selskaper å knytte sammen økonomi, salg, service og drift for å strømlinjeforme forretningsprosesser, forbedre kundesamhandling og ta bedre beslutninger. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i skyen og for brukere av forskjellige enheter som alltid er oppdatert. Med denne moderne forretningsplattformen kan du raskt og enkelt skreddersy, utvide og lage programmer slik at de passer til dine behov, med liten eller ingen kodeutvikling.  

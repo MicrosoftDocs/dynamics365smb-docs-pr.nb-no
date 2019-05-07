@@ -1,51 +1,51 @@
 ---
 title: Definere prosjektpriser og prosjektbokføringsgrupper | Microsoft-dokumentasjon
 description: Beskriver hvordan du definerer generell prosjektinformasjon og definerer priser for prosjektvarer, ressurser og finanskonti og prosjektbokføringsgrupper.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2018
-ms.author: sgroespe
-ms.openlocfilehash: fc4c413fcb02cda2e0eb2b8caf7af721a26dfe1b
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.date: 04/01/2019
+ms.author: edupont
+ms.openlocfilehash: 34dfdb463d3423d823b8f1439361d05296ca3c8a
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802386"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918831"
 ---
 # <a name="set-up-jobs"></a>Konfigurer prosjekter
-På siden **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
 
-Du må sette opp priser for prosjektvarer, prosjektressurser og finanskonti på individuelle prosjektkort, og må du definere prosjektbokføringsgrupper.
+Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du administrerer i [!INCLUDE [prodshort](includes/prodshort.md)]. På siden **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
+
+For hver jobb angir du deretter individuelle jobbkort med informasjon om priser for prosjektvarer, prosjektressurser og finanskonti, og må du definere prosjektbokføringsgrupper.
 
 ## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-> [!NOTE]  
->   Avmerkingsboksen **Bruk forbrukskobling som standard** er ganske komplisert og forklares derfor i delen nedenfor.
+> [!NOTE]
+> Bruken av feltet **Bruk forbrukskobling som standard** er ganske komplisert og forklares derfor i delen nedenfor.
 
-## <a name="to-set-up-job-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
+### <a name="to-set-up-job-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
+
 Når du kjører en jobb, vil du kanskje vite hvordan din bruk spores mot planen din. Du kan enkelt gjøre dette ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Dette lar deg spore kostnader og enkelt se hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
 
-Hvis du merker av for **Bruk forbrukskobling som standard**, kan du se gjennom informasjon om prosjektplanleggingslinjen. Du kan angi antallet for ressursen, varen eller finanskontoen og deretter angi antallet du vil overføre til prosjektkladden. Feltet **Restantall** på prosjektplanleggingslinjen angir det som gjenstår å overføres og bokføres til prosjektkladden.
+Hvis du velger feltet **Bruk forbrukskobling som standard**, kan du se gjennom informasjon om prosjektplanleggingslinjen. Du kan angi antallet for ressursen, varen eller finanskontoen og deretter angi antallet du vil overføre til prosjektkladden. Feltet **Restantall** på prosjektplanleggingslinjen angir det som gjenstår å overføres og bokføres til prosjektkladden.
 
-Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanleggingslinjetypen er **Fakturerbar**, oppretter Finans en prosjektplanleggingslinjer av typen **Budsjett** etter at du bokfører kladdelinjen.
+> [!TIP]  
+> Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt. Verdien av feltet **Bruk forbrukskobling** på det individuelle jobbkortet overstyrer innstillingen på siden **Prosjektoppsett**.  
 
-> [!NOTE]  
->   Hvis det er merket av for **Bruk forbrukskobling som standard** på prosjektkortet og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det nye prosjektplanleggingslinjer av linjetypen **Budsjett** når du bokfører prosjektkladdelinjer. Hvis det ikke er merket av for **Bruk forbrukskobling som standard** på prosjektkortet og feltet **Linjetype** på prosjektkortet er tomt, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladdelinjer. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
+Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanleggingslinjetypen er **Fakturerbar**, opprettes en prosjektplanleggingslinje av typen **Budsjett** etter at du bokfører en prosjektkladdelinje.
+
+> [!IMPORTANT]
+> Hvis sporing av prosjektforbruk er aktivert, enten på siden **Prosjektoppsett** eller på det individuelle prosjektet, og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det nye prosjektplanleggingslinjer av linjetypen **Budsjett** når du bokfører prosjektkladdelinjer.  
+>  
+> Hvis sporing av prosjektforbruk *ikke* er aktivert, enten på siden **Prosjektoppsett** eller på det individuelle prosjektet, og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladdelinjer. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
-2. Merk av for eller fjern merket for **Bruk forbrukskobling som standard**.
-
-> [!NOTE]  
->   Du kan angi en annen innstilling for avmerkingsboksen **Bruk forbrukskobling som standard** på hvert prosjektkort. I slike tilfeller overstyrer innstillingen for dette prosjektet den generelle standarden som er beskrevet ovenfor.
+2. Merk av for **Bruk forbrukskobling som standard**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Slik konfigurerer du priser for prosjektressurser
 Du kan definere bestemte priser for ressurser for et prosjekt. Du bruker siden **Ressurspriser for prosjekt** til å gjøre dette.
@@ -114,9 +114,11 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 | **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. |
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
+[Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

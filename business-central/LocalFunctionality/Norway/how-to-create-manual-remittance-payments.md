@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ddeb5c5453834562107d3a535be676b4cda0ce81
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 89ca04ac04ae404f9a851a24c2dda2dda35a4f57
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827011"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "925128"
 ---
 # <a name="create-manual-remittance-payments"></a>Opprette manuelle remitteringsoppdrag
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  

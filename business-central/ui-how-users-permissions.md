@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e60b7d875ebd0a598908f37a59a49953c61479f1
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 4a9bbc34893f1af257908558122f8e8cbe6ce757
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803304"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "912946"
 ---
 # <a name="managing-users-and-permissions"></a>Administrere brukere og tillatelser
 For å legge til brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)] må selskapets Office 365-administrator først opprette brukere i administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://aka.ms/CreateOffice365Users).
@@ -57,7 +57,7 @@ Brukergruppemedlemmene kopieres ikke til den nye brukergruppen. Du må legge dem
 2. Velg brukergruppen du vil kopiere, og velg deretter handlingen **Kopier brukergruppe**.
 3. I feltet **Ny brukergruppekode** angir du et navn på gruppen, og velger deretter **OK**-knappen.
 
-Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å legge til brukere. Hvis du vil ha mer informasjon, kan du se [Slik grupperer du brukere i brukergrupper](ui-how-users-permissions.md#to-group-users-in-a-user-group).  
+Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å legge til brukere. Hvis du vil ha mer informasjon, kan du se [Slik grupperer du brukere i brukergrupper](ui-how-users-permissions.md#to-group-users-in-user-groups).  
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
 Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).

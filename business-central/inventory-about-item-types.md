@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/18/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2240840e977bcd1186c74972ce0457deb03058a0
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 7e535abbc3fb61a958f63f648cca6694199acdc8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803814"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "921775"
 ---
 # <a name="about-item-types"></a>Om varetyper
 I feltet **Type** på siden **Varekort** kan du velge hva varen brukes for i din bedrift, og derfor hvordan den håndteres i programmet. Det finnes tre alternativer:

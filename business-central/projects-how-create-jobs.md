@@ -1,23 +1,19 @@
 ---
 title: Opprette et prosjektkort for et prosjekt og angi oppgaver | Microsoft-dokumentasjon
 description: For et nytt prosjekt oppretter du et prosjektkort som inneholder prosjektoppgaver og planleggingslinjer, slik at det blir enklere å administrere fremdrift og budsjett.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5db9709500ce20bc09e2dc651ae6b7aa763c0e5f
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 2e2ab155f4d326ab16b7730e64711d5b91343768
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802872"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915626"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
@@ -28,8 +24,8 @@ Det andre laget består av prosjektplanleggingslinjer, som angir den detaljerte 
 
 Lagstrukturen gjør det mulig å dele prosjektet inn i mindre oppgaver, slik at du kan bruke mer spesifikke detaljer i budsjettering, tilbud og registrering. I tillegg gir den deg innsikt i hvordan et prosjekt pågår. Du kan for eksempel spore om du innfrir angitte milepæler, eller er på vei til å innfri budsjettforventningene.
 
-> [!NOTE]  
->   Handlingen **Nytt prosjekt** i rollesenteret **Prosjektleder** starter et assistert oppsett som veileder deg gjennom trinnene for å opprette et prosjekt med integrerte oppgaver og planleggingslinjer. Følgende prosedyre beskriver hvordan du utfører trinnene manuelt.
+> [!TIP]
+> Velg **Nytt prosjekt**-handlingen i rollesenteret **Prosjektleder** for å starte en assistert oppsettveiledning som veileder deg gjennom trinnene for å opprette et prosjekt med integrerte oppgaver og planleggingslinjer. Følgende prosedyre beskriver hvordan du utfører trinnene manuelt. For et eksempel på hvordan du oppretter et prosjekt manuelt, kan du se [Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
 ## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
@@ -71,8 +67,10 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
 ## <a name="see-also"></a>Se også
+
 [Prosjektstyring](projects-manage-projects.md)  
+[Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

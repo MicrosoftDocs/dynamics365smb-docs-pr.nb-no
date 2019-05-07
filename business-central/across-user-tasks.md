@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: 492eeda86a392320c8b8205d3faa76416a9cf6fb
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 5befadf7a162cc2094fbb1ef426e25d02d50e856
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852358"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "918173"
 ---
 # <a name="define-user-tasks"></a>Definere brukeroppgaver
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.  

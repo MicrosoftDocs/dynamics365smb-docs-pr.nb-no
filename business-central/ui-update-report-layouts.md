@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/19/2019
+ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0231ab568ea435a389dae6f51f270f5b6363c203
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: 03eeb13e5087e064e80d444ab373b0407f5a93be
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852381"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "914544"
 ---
 # <a name="updating-report-or-document-layouts"></a>Oppdatere rapport- og dokumentoppsett
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  

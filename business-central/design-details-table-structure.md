@@ -10,23 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/11/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2e87b2ef999c04cc4c878d4ad087329d644b709
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 688c448f920a032a0f137bab7abdb9de51af1f96
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802801"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "927521"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
-For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.  
+For å forstå hvordan dimensjonsoppføringer lagres og bokføres, er det viktig å forstå tabellstrukturen.  
 
-## <a name="new-tables"></a>Nye tabeller  
- Tre nye tabeller er utformet for å behandle dimensjonssettposter.  
-
-### <a name="table-480-dimension-set-entry"></a>Tabell 480 Dimensjonssettpost  
- Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
+## <a name="table-480-dimension-set-entry"></a>Tabell 480, Dimensjonssettpost  
+Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -37,8 +34,8 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |5|**Dimensjonsnavn**|Tekst 30|CalcField. Oppslag i tabell 348.|  
 |6|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-### <a name="table-481-dimension-set-tree-node"></a>Tabell 481 Trenode for dimensjonssett  
- Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
+## <a name="table-481-dimension-set-tree-node"></a>Tabell 481, Trenode for dimensjonssett  
+Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -47,8 +44,8 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |3|**Dimensjonssett-ID**|Heltall|AutoIncrement. Brukes i felt 1 i tabell 480.|  
 |4|**I bruk**|Boolsk|Usann hvis ikke i bruk.|  
 
-### <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Reklass. dimensjonssettbuffer  
- Tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en varepost ved hjelp av siden **Varereklassifiseringskladd**.  
+## <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Reklass. dimensjonssettbuffer  
+Denne tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en varepost ved hjelp av siden **Varereklassifiseringskladd**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -61,33 +58,30 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |7|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 |8|**Nytt navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-## <a name="modified-tables"></a>Endrede tabeller  
- Alle transaksjonen og budsjettabeller er endret for å behandle dimensjonssettposter.  
-
-### <a name="changes-to-transaction-and-budget-tables"></a>Endringer i transaksjons- og budsjettabeller  
- Et nytt felt er lagt til alle transaksjons- og budsjettabeller.  
+## <a name="transaction-and-budget-tables"></a>Transaksjons- og budsjettabeller  
+I tillegg til andre dimensjonsfelt i denne tabellen er dette feltet viktig:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="changes-to-table-83-item-journal-line"></a>Endringer i varekladdlinje for tabell 83  
- To nye felt er lagt til i tabell 83 **Varekladdelinje**.  
+### <a name="table-83-item-journal-line"></a>Tabell 83, Varekladdlinje  
+I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 |481|**Ny dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="changes-to-table-349-dimension-value"></a>Endringer av dimensjonsverdi for tabell 349  
- Et nytt felt er lagt til tabell 349 **Dimensjonsverdi**.  
+### <a name="table-349-dimension-value"></a>Tabell 349, Dimensjonsverdi  
+I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensjonsverdi-ID**|Heltall|AutoIncrement. Brukes til referanser i tabell 480 og tabell 481.|  
 
-### <a name="tables-that-get-new-field-480-dimension-set-id"></a>Tabeller som får det nye feltet 480 Dimensjonssett-ID  
- Et nytt felt, 480 **Dimensjonssett-ID**, er lagt til tabellene nedenfor. For tabellene som inneholder bokførte data vil feltet bare inneholde en ikke-redigerbar visning av dimensjoner, som er markert som detaljer. Feltet kan redigeres for tabeller som inneholder arbeidsdokumenter. Buffertabellene som brukes internt, trenger ikke redigerbar eller ikke-redigerbar funksjonalitet.  
+### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller som inneholder Dimensjonssett-ID-feltet
+ Feltet **Dimensjonssett-ID** (480) finnes i følgende tabeller: For tabellene som inneholder bokførte data vil feltet bare inneholde en ikke-redigerbar visning av dimensjoner, som er markert som detaljer. Feltet kan redigeres for tabeller som inneholder arbeidsdokumenter. Buffertabellene som brukes internt, trenger ikke redigerbar eller ikke-redigerbar funksjonalitet.  
 
  Felt 480 kan ikke redigeres i tabellene nedenfor.  
 
@@ -143,7 +137,7 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |6660|**Returseddelhode**|  
 |6661|**Returseddellinje**|  
 
- Felt 480 kan redigeres i tabellene nedenfor.  
+Felt 480 kan redigeres i tabellene nedenfor.  
 
 |Tabellnr.|Tabellnavn|  
 |---------------|----------------|  
@@ -177,7 +171,7 @@ For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er
 |7134|**Varebudsjettpost**|  
 |99000829|**Planleggingskomponent**|  
 
- Felt 480 er lagt til i buffertabellene nedenfor.  
+Felt 480 finnes i følgende buffertabeller.  
 
 |Tabellnr.|Tabellnavn|  
 |---------------|----------------|  

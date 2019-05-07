@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c4616282a204077665a9dfb7e8e59ee51f2846ce
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 214ac7824dadca7d63c4ed1b91273a7409850e12
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803180"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923743"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plukke for montering eller produksjon i enkle lageroppsett
 Hvordan du plasserer plukkomponenter for produksjons- eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/07/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: bd228a418db3b3ee0b3094a0da520dea6139281c
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 66b3f7fb4955d66202818a22aaa2a36235c77e9d
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803457"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913413"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
 Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  

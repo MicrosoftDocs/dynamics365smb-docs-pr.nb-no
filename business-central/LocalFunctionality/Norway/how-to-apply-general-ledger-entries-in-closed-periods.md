@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38f604820978739436224bab41f6d130bc682561
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 5cf8745270b4cbd03e2e8ce922f27a5285c0c0ae
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826967"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "922256"
 ---
 # <a name="apply-general-ledger-entries-in-closed-periods"></a>Utligne finansposter i lukkede perioder
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  

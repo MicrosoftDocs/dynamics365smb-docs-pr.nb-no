@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b437246b22583e8e040bef78811765297ae2e675
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 9f44b2f134d87368b61bcf3b5ac84d225b1491e7
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802736"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "924589"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter
 Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  

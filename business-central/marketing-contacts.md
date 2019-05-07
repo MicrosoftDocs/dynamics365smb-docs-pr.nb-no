@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 02/26/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af87183dfd9785bfbe3dd56794682d13a5057ada
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 85975b28dbe19702412a05bb927f3fe59bd8bfc3
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803397"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "915120"
 ---
 # <a name="creating-and-managing-contacts"></a>Opprette og administrere kontakter
 Forskjellige grupper i bedriften vil ha forretningsforhold med forskjellige bedrifter. En selger kan for eksempel møte potensielle kunder regelmessig og registrere resultatene av disse besøkene ved slutten av uken.
@@ -28,8 +28,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 | Til | Se |
 | --- | --- |
-| Definer kontaktadministrasjon før du oppretter kontakter. |[Konfigurere kontakter](marketing-setup-contacts.md) |
+| Definer kontaktadministrasjon før du oppretter kontakter. |[Definere kontakter](marketing-setup-contacts.md) |
 | Opprette et kontaktkort for hver ny person eller hvert nytt selskap du samhandler med, for eksempel en kunde eller leverandør. |[Opprette kontakter](marketing-create-contact-companies.md) |
+|Løs forvirring når det finnes to eller flere poster for samme kontakt.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Se også
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  

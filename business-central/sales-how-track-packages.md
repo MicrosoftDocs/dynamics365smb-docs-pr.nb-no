@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fa51c4c5bc5370df07e6277c7c7e6403d71f5e2
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f6583c75fcc3268b6e081122d1e5bbe2ad60acd8
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803435"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "923884"
 ---
 # <a name="track-packages"></a>Spore pakker
 En rekke transportører tilbyr Internett-tjenester som gjør det mulig å spore pakker som befinner seg hos transportøren. Hvis du bruker én eller flere slike transportør, kan du definere bestemte opplysninger i programmet og du bruke funksjonen for automatisk sporing i bokførte leveringer. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md).  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7b753f291ebc4fefee523430e1b10d091e86cd0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: b3760be8694f8c65ae07abaea9234a5dd524bb47
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "803760"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "913110"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
 Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller som ikke er mottakshyller eller leveringshyller, uten et bestemt behov fra et kildedokument. Du kan utføre disse ad hoc-flyttingene for eksempel for å omorganisere lageret, for å hente varer til et kontrollområde eller for å flytte tilleggsvarer til og fra et produksjonsområde uten et systemforhold til kildedokumentet for produksjonsordren.  
@@ -57,7 +57,7 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
     Du utfører resten av ad hoc-flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter. Hvis du vil ha mer informasjon, kan du for eksempel se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Flytte varer med varereklassifiseringskladden
-I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning](inventory-how-count-adjust-reclassify.md).   
+I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)   
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareoverføringskladd**, og velg deretter den relaterte koblingen.  
 2.  På hver kladdelinje kan du definere hyllene du vil flytte elementer til og fra ved å fylle ut feltene **Hyllekode** og **Ny hyllekode**.  
 

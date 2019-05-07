@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b2115995f60a8ab3be9d05dd963c9a4e56833d0e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: 248f9010cd303b7d2b027ee4d116441748dea057
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "827025"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "926388"
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
