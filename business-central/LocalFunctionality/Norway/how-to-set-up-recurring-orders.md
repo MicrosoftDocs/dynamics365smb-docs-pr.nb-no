@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2018
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a4b7e839be68151eaeb73d6003739f9bb30e60e
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: f84f15a0a3080882d1678eb999faaefc2ed307ca
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "826957"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929882"
 ---
 # <a name="set-up-recurring-orders"></a>Definere gjentakelsesordrer
 Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer for rammeordren ved å legge til gruppen i ordren. Hvis du vil ha mer informasjon, kan du se [Opprette rammeordrer](how-to-set-up-recurring-groups.md).  

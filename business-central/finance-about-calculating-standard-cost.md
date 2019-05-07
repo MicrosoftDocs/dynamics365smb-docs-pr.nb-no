@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d35fdeae364a113fa1abb1d5828182f761331cee
-ms.sourcegitcommit: 1bcfaa99ea302e6b84b8361ca02730b135557fc1
+ms.openlocfilehash: a1c652c57b3b05e083f88566cf5253aa67dc6b76
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "802986"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "930010"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning av standardkost
 Mange produksjonsselskaper bruke standardkost som verdisettingsgrunnlag. Dette gjelder også for selskaper som utfører lett produksjon, for eksempel montering og kitting. En standard kostprissystem bestemmer lagerenhetskosten basert på noen rimelige historiske eller forventede kostnader. Undersøkelser av tidligere og anslåtte fremtidige kostdata danner grunnlaget for standardkost. Disse kostnadene fryses til det tas en beslutning om å endre dem. Den faktiske kostnaden for å produsere et produkt kan avvike fra de beregnede standardkostnadene. Når det gjelder administrasjonskontroll, sammenlignes faktisk kostnad med standardkostnad for en bestemt vare, og forskjeller, eller *avvik*, identifiseres og analyseres.  

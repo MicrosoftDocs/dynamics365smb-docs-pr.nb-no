@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/31/2019
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4cbefdb46c6ba09dad64650123d6459135aa7afe
-ms.sourcegitcommit: d09f5ee0e164c7716f4ccb2ed71e2f9732a1f4f9
+ms.openlocfilehash: b717de6bcefc774b3fb92ed440cde9f3597f34ce
+ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "852703"
+ms.lasthandoff: 03/31/2019
+ms.locfileid: "929748"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -106,7 +106,7 @@ Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **roduksjonsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Produksjonsoppsett** i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
-Opprett lager for monteringskomponenter ved å følge [Klargjøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#setting-up-the-sample-data).  
+Opprett lager for monteringskomponenter ved å følge [Klargjøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## <a name="story"></a>Hovedscenario  
 Den 23. januar tar ordrebehandleren Susanna en ordre fra Lydeksperten på tre enheter av sett B, som er en ATO-vare. Alle de tre enhetene er tilpasset, og de må inneholde sterke grafikkort og en ekstra RAM-blokk. Diskstasjonene er oppgradert til DWD fordi CD-stasjonene ikke er tilgjengelige. Heidi vet at enhetene kan monteres med en gang, så hun beholder den foreslåtte leveringsdatoen på 23. januar.  
