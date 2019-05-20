@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "953513"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247166"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
@@ -30,7 +30,7 @@ Når du oppretter et nytt selskap, kan du importere firmainnstillinger for det n
 > [!NOTE]  
 >  Du kan ikke gi nytt navn til en fil som ikke allerede er en RapidStart Services-konfigurasjonspakke, som en .rapidstart-konfigurasjonspakkefil, og deretter prøve å importere den. Hvis du prøver å gjøre dette, får du en feilmelding.  
 
-Før du begynner må du kontrollere at du er i rollesenteret for RapidStart Services-implementereren.
+Før du begynner, må du kontrollere at du er på rollesenteret for RapidStart Services-implementerer.
 
 > [!IMPORTANT]  
 >  Når du eksportere og importere konfigurasjonspakker mellom to firmadatabaser, må databasene har samme skjema for å sikre at alle dataene overføres. Dette betyr at databasene bør ha den samme tabell- og feltstruktur, der tabellene har samme primærnøkler og felt har samme IDer og datatyper.  

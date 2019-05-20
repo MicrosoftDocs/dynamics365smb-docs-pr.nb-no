@@ -11,11 +11,11 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: b6bd823dc38e5d9c372f0565ad437908b402594e
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917287"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240545"
 ---
 # <a name="setting-up-calculations-and-posting-methods-for-value-added-tax"></a>Definere beregninger og bokføringsmetoder for merverdiavgift
 Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller tjenester. Mva-beløpet som skal betales, kan variere, avhengig av flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] setter du opp for å angi satsene som skal brukes til å beregne mva-beløp som er basert på følgende:

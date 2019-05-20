@@ -12,11 +12,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: soalex
 ms.openlocfilehash: 283fe8bd51cca855f97b682c3b77c3e8805514e6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912805"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246890"
 ---
 # <a name="application-compliance"></a>Programsamsvar
 Dette innholdet inneholder informasjon om programsamsvar i forhold til [!INCLUDE[d365fin](../includes/d365fin_md.md)], for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet, GDPR og så videre. Konfidens i en forretningsadministrasjonsløsning er viktig for å drive et effektiv firma. Med Business Central har selskaper muligheten til å strømlinjeforme forretningsprosesser og samtidig kosteffektivt overholde økte regulerings- og rapporteringskrav.

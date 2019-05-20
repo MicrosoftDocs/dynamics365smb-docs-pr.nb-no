@@ -12,11 +12,11 @@ ms.date: 04/01/2019
 ms.author: jswymer
 redirect_url: marketing-create-contact-persons
 ms.openlocfilehash: b3012f5f22fc1dbbb78eb655e2d27abe290eb470
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930681"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238374"
 ---
 # <a name="create-contact-persons"></a>Opprette kontaktpersoner
 Du kan opprette et kontaktkort for de enkelte kontaktene som jobber for selskapene du utfører samhandlinger med. For hvert kontaktselskap kan du angi så mange kontaktpersoner du vil. Du kan også opprette kontaktkort for personer du vil registrere som uavhengige.

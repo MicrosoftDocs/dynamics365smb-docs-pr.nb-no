@@ -12,11 +12,11 @@ ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: b7f41e3630b818607dee18ad2b8afe6ba5daa3de
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939155"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245838"
 ---
 # <a name="set-up-email-manually-or-using-the-assisted-setup"></a>Konfigurere e-post manuelt eller bruke assistert oppsett
 Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene på **Oppsett for SMTP-e-post**-siden.

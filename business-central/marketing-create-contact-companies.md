@@ -13,11 +13,11 @@ ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 75f055dcc862f3954aa0c50d6d22643940baa538
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "938968"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243198"
 ---
 # <a name="create-contacts"></a>Opprette kontakter
 Du møter regelmessig personer fra andre selskaper som kan utvikle seg til forretningsforhold, for eksempel en kunderelasjon. Når du får en ny kontakt, må så mye informasjon som mulig registreres på et kontaktkort, slik at kommunikasjonen kan opprettholdes.

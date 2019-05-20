@@ -13,19 +13,19 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919274"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239915"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere et selskap med RapidStart-veiviseren
 Du kan raskt konfigurere et nytt selskap du har opprettet, ved hjelp av konfigurasjonsveiviseren for RapidStart Services.
 
-I fremgangsmåten nedenfor har du gitt kunden konfigurasjonspakken, som deretter installeres på datamaskinen. Kunden åpner det nye selskapet, som ikke inneholder noen kundedata. Du eller kunden følger trinnene i RapidStart Services-veiviseren, som er beskrevet i denne fremgangsmåten, for å angi grunnleggende informasjon om selskapet. Veiviseren importerer konfigurasjonspakken og bruker deretter pakken på selskapet.  
+I fremgangsmåten nedenfor har du gitt kunden konfigurasjonspakken, som deretter installeres på datamaskinen. Kunden åpner det nye selskapet, som ikke inneholder noen kundedata. Du eller kunden følger deretter trinnene i RapidStart Services-veiviseren, som er beskrevet i denne fremgangsmåten, for å angi grunnleggende informasjon om selskapet. Veiviseren importerer konfigurasjonspakken og bruker deretter pakken på selskapet.  
 
 ## <a name="to-configure-a-new-company"></a>Slik konfigurerer du et nytt selskap:  
-1. I rollesenteret for din RapidStart Services-implementerer velger du handlingen **RapidStart-veiviser**.  
+1. I rollesenteret for RapidStart Services-implementerer velger du handlingen **RapidStart-veiviser**.  
 2. Utvid hurtigfanen **Trinn 1**, som inneholder generelle opplysninger om det nye firmaet. Angi den aktuelle informasjonen om det nye selskapet i feltene. Ett felt er obligatorisk: **Navn**. Resten av feltene er valgfrie.  
 3. Utvid hurtigfanen **Trinn 2**, som inneholder kommunikasjons- og kontaktopplysninger for det nye firmaet. Angi den aktuelle informasjonen om det nye selskapet i feltene.
 4. Utvid hurtigfanen **Trinn 3**, som inneholder bankkonto- og betalingsopplysninger for det nye firmaet. Angi den aktuelle informasjonen om det nye selskapet i feltene.  

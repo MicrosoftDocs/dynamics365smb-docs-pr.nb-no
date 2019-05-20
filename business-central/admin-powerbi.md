@@ -8,27 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2019
+ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: f51de349c4b13eaabd185cdb728d59006dfe6db6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916377"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247503"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 Få innsikt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene på en enkel måte med Power BI- og [!INCLUDE[d365fin](includes/d365fin_md.md)]-innholdspakkene. Power BI henter dataene, og deretter bygger du et forhåndskonfigurert instrumentbord og rapporter basert på dataene.  
 
 Du må ha en gyldig konto med Power BI og med Dynamics 365. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-innholdspakker krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
 
+> [!IMPORTANT]
+> Innholdspakkene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme. Hvis du bruker [!INCLUDE [prodshort](includes/prodshort.md)] lokalt og bruker en annen godkjenningsmekanisme, kan ikke Power BI koble til dataene.  
+
 Microsoft har publisert følgende innholdspakker:
 
-| App | Description |
-| --- | --- |
-| Microsoft Business Central | Gir et instrumentbord med viktige økonomiske data over tid, for eksempel inntekter kontra utgifter, driftsmargin og kontantsyklus.|
-| Microsoft Business Central - CRM | Inneholder et instrumentbord med viktige opplysninger om salgsmuligheter og kontakter.  |
-| Microsoft Business Central - Sales | Inneholder et instrumentbord med viktige opplysninger om salg og beholdning. |
+- [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Kundeoversikt  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Finans  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Vareliste  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Prosjekter  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Prosjektliste  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Kjøpsfakturaer  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Salg  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Ordreoversikt  
+- [!INCLUDE [prodlong](includes/prodlong.md)] - Leverandørliste  
 
 ## <a name="using-the-dashboards"></a>Bruke instrumentbordene
 Hver innholdspkke inneholder rapporter som du kan se på:
@@ -47,14 +55,14 @@ Innholdspakkene er forhåndskonfigurert til å arbeide med data fra demonstrasjo
 1. Velg **Hent data** nederst i navigasjonsruten til venstre.  
 ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-Du kan også starte fra Dynamics 365 Business Edition. Gå til rollesenteret og deretter **Rapportvalg** i rollesenterdelen i Power BI. Velg enten **Service** eller **Min organisasjon** på båndet. Når en av disse handlingene er valgt, kommer du enten til organisasjonsgalleriet i Power BI eller til tjenestebiblioteket i Power BI, som også filtreres for å bare vise innholdspakker knyttet til [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)].
+Du kan også starte fra [!INCLUDE [prodshort](includes/prodshort.md)]. Gå til rollesenteret og deretter **Rapportvalg** i rollesenterdelen i Power BI. Velg enten **Service** eller **Min organisasjon** på båndet. Når en av disse handlingene er valgt, kommer du enten til organisasjonsgalleriet i Power BI eller til tjenestebiblioteket i Power BI, som også filtreres for å bare vise innholdspakker knyttet til [!INCLUDE[prodshort](includes/prodshort.md)].
 
 2. I **Tjenester**-boksen velger du **Hent**. Dette åpner en side med **AppSource** og **Apper for Power BI-apper**.  
 ![Velge innholdspakker fra elektroniske tjenester](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)
 3. Velg **Apper** fra fanen **Apper for Power BI-apper**, velg innholdspakken **Microsoft Dynamics 365 Business Central** som du vil bruke, og velg deretter **Få det nå**.  
 ![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-dynamics365-for-financials-get-it-now.png)
 4. Når du blir spurt, skriver du inn navnet på *selskapet ditt* i [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]. Dette er ikke visningsnavnet. Du finner selskapsnavnet på siden Selskaper i din [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-forekomst.  
-![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-finance-and-operations-crm.png)
+![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-connect-to-d365-business-central-finance.png)
 5. Når du er tilkoblet, lastes det automatisk inn et instrumentbord, en rapport og et datasett i Power BI-arbeidområdet. Når du er ferdig, oppdateres flisene med dataene fra [!INCLUDE[d365fin_md](includes/d365fin_long_md.md)]-selskapet.
 ![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
@@ -68,7 +76,7 @@ Du kan også starte fra Dynamics 365 Business Edition. Gå til rollesenteret og 
 ## <a name="system-requirements"></a>Systemkrav
 Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-dataene til Power BI, må du ha tilgang til webtjenestene som brukes for å hente data. Webtjenestene som kreves for hver innholdspakke:
 
-## <a name="role-center-reports"></a>Rapporter i rollesenter
+### <a name="role-center-reports"></a>Rapporter i rollesenter
 
 **Microsoft Dynamics 365 Business Central – CRM**
 - Salgsmuligheter
@@ -92,7 +100,7 @@ Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-d
 - Excel-mal – Vis selskap
 - Power BI-rapportetiketter
 
-## <a name="list-page-reports"></a>Rapporter for siden Liste
+### <a name="list-page-reports"></a>Rapporter for siden Liste
 
 **Microsoft Dynamics 365 Business Central – Customers List**
 - Varesalg etter kunde

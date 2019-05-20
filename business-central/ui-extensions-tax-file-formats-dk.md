@@ -13,11 +13,11 @@ ms. search.keywords: extension, bank, formats
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: bc93fe469eea824be20942033db0959f8fe643c8
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930192"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249426"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Utvidelsen TAX-filformat (Danmark)
 Hvis du samarbeider om handel med selskaper, eller interne filialer eller datterselskaper, i andre EU-land, må du rapportere om aktivitetene til SKAT og Statistics Denmark. Hvis du bruker mva og Intrastat-rapportering som finnes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan utvidelsen sikre at filen du vil eksportere er kompatibel med kravene fra disse organisasjoner. Utvidelsen legger Rapporteksportfilen MS ECSL og Intrastat eksportlinjer for sending av kodeenheter til konfigurasjonen av mva-rapporten, slik at du kan eksportere dataene i det nye formatet med én gang.

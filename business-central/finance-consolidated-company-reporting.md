@@ -12,11 +12,11 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: cdfcd99c484176d709288f2cf27f0a04e43bdf52
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914955"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244472"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten for konsolidert råbalanse i Rollesenter for regnskapsfører gi deg en samlet oversikt over den økonomiske situasjonen.  

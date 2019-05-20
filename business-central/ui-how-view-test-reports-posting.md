@@ -12,11 +12,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: solsen
 ms.openlocfilehash: 16ce39ef0603e65acbd161c122ed48492290de3c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923769"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249172"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter før bokføring
 Når du er klar til å bokføre et dokument, for eksempel en ordre, faktura eller kreditnota, kan du teste dokumentet for å sikre at det ikke foreligger problemer som vil sperre bokføringen.

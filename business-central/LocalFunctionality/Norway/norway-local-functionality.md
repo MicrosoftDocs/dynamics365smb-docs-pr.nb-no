@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: fe990411a3f6f2b2518a282811476a06f1ebb563
-ms.sourcegitcommit: 3aad1cfbba2a61b262f548e4ddbac6eca775d5f2
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "953529"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245801"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
@@ -82,4 +82,4 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
  -->
 
 ## <a name="see-also"></a>Se også
-[Arbeide med  [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    
+[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    

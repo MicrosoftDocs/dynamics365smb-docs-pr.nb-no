@@ -12,11 +12,11 @@ ms.search.keywords: product, image
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fa859d3e350cedb845df47521ee58ba8d2e4aade
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940263"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1243069"
 ---
 # <a name="import-multiple-item-pictures"></a>Importere flere varebilder
 Du kan importere flere varebilder på én gang. Bare gi bildefilene navn som svarer til dine varenumre, komprimer dem til en zip-fil, og bruk **Importer varebilder**-siden til å behandle hvilke varebilder som skal importeres.

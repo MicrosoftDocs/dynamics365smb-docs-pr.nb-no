@@ -1,5 +1,5 @@
 ---
-title: Konfigurere bankfeeder for Yodlee| Microsoft-dokumentasjon
+title: Konfigurere Yodlee Bank Feeds | Microsoft-dokumentasjon
 description: Du kan konvertere betalingsinformasjon til et hvilket som helst dataformat som banken krever, og gjøre det mulig å eksportere eller importere bankfiler.
 services: project-madeira
 documentationcenter: ''
@@ -13,18 +13,18 @@ ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 9fa3911ceeb94d523709d1029db9527b868bc199
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941822"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1246656"
 ---
-# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere bankfeedservicen Envestnet Yodlee
+# <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Konfigurere Envestnet Yodlee Bank Feeds-tjenesten
 Du kan importere elektroniske bankkontoutdrag fra banken slik at du raskt kan fylle ut på siden **Betalingsavstemmingskladd**. Dermed kan du utligne betalinger og avstemme bankkontoen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]
 > Envestnet Yodlee Bank Feeds-tjenesten støttes bare i den elektroniske versjonen av Business Central. Hvis du vil bruke denne funksjonaliteten lokalt, må du hente en cobrand-konto fra Envestnet Yodlee.<br /><br />
-> Bankfeeder for Envestnet Yodlee-tjenesten støttes bare i USA, Canada og Storbritannia.
+> Envestnet Yodlee Bank Feeds-tjenesten støttes bare i USA, Canada og Storbritannia.
 
 Envestnet Yodlee Bank Feeds-tjenesten er installert som en utvidelse til den elektroniske versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] og er klar til å bli aktivert i de støttede landene. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).
 
@@ -55,7 +55,7 @@ Bankfeedservicen vil bli aktivert når du kobler en bankkonto til den relaterte 
 2. Velg den relevante bankkontoen, og velg deretter **Opprett ny tilknyttet bankkonto**. Siden **Bankkontotilknytning** åpnes etter en liten stund.
 
     > [!NOTE]  
-    > Denne siden viser den faktiske nettsiden for bankfeedservicen Envestnet Yodlee. Terminologi og funksjonene på siden samsvarer kanskje ikke med instruksjonene i dette emnet.  
+    > Denne siden viser den faktiske nettsiden for Envestnet Yodlee Bank Feeds-tjenesten. Terminologi og funksjonene på siden samsvarer kanskje ikke med instruksjonene i dette emnet.  
 3. På siden **Tilknytning til nettbankkonto**, i ruten **Bankkontotilknytning**, bruker du søkefunksjonen til å finne banken der du har en eller flere nettbankkontoer.
 4. Velg banknavn. Ruten **Logg på** åpnes.
 5. Skriv inn brukernavnet og passordet du bruker til å logge på nettbanken, og velg deretter **Neste**.  

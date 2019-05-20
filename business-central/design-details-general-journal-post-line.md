@@ -11,11 +11,11 @@ ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 337f1e679ba2f0b1fcfc0ceb8b3f0ea45ca86ecc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935639"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242996"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetaljer: Finanskladd – bokfør linje
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes til å utforme funksjonen for bokføring av finanskladdelinjer på nytt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den nye utformingen forenkler kodeenhet 12 og gjør den enklere å vedlikeholde. Dokumentasjonen begynner med beskrivelse av begrepsmessige oversikter over den nye utformingen. Deretter blir den tekniske arkitekturen forklart for å vise endringene den nye utformingen gir.  

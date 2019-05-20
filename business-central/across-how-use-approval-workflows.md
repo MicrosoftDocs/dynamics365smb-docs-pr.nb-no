@@ -12,11 +12,11 @@ ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f7c959a44a7b27df464ce8a4c45567d036dc137f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941424"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245550"
 ---
 # <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.

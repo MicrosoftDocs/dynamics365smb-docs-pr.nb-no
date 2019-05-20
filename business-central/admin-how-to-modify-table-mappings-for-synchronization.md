@@ -11,11 +11,11 @@ ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: de924baa494ae00c09dcb7657c050f2d9ae3ba87
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "940270"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247447"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Endre tabelltilordningene for synkronisering
 En integrasjonstabelltilordning kobler en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)] til en integrasjonstabell for [!INCLUDE[crm_md](includes/crm_md.md)]-enheten. For hver enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vil synkronisere med tilhørende data i [!INCLUDE[d365fin](includes/d365fin_md.md)], må det være en tilsvarende integrasjonstabelltilordning. En integrasjonstabelltilordning inneholder flere innstillinger som du kan bruke til å kontrollere hvordan poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell og en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet synkroniseres med tilsvarende integrasjonssynkroniseringsjobber.  

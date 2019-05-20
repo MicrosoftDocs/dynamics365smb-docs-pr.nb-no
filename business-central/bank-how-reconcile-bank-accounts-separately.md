@@ -13,11 +13,11 @@ ms.search.keywords: bank account balance, bank statement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 60b3e0d732125f60b092a0e089cabc2b82ad71ef
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932035"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245099"
 ---
 # <a name="reconcile-bank-accounts-separately"></a>Avstemme bankkonti separat
 Hvis du skal avstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] med oppgaver som er mottatt fra banken, begynner du med å fylle ut ruten til venstre på siden **Bankkontoavstemming** med bankoppgaveinformasjon, som du deretter avstemmer med bankkontopostene i den høyre ruten. En effektiv måte å fylle ut bankkontoutdragslinjer på, er å importere en bankkontoutdragsfil eller feed.
@@ -28,7 +28,7 @@ Hvis du skal avstemme bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] me
 > [!TIP]  
 > Du kan også avstemme bankkonti på siden **Betalingsavstemmingskladd**. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
-Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først konfigurere og aktivere bankfeedtjenesten Envestnet Yodlee og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
+Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
 
 Linjene på siden **Bankkontoavstemming** er delt i to ruter. Ruten **Bankkontoutdragslinjer** viser importerte banktransaksjoner eller poster med utestående betalinger. Ruten **Bankkontoposter** viser postene i bankkontoen.
 

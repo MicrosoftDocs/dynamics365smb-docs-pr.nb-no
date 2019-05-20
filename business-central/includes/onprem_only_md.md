@@ -1,1 +1,1 @@
-Funksjonene Isabel er bare tilgjengelige for lokale distribusjon.
+Funksjonene Isabel er bare tilgjengelige for lokal distribusjon.

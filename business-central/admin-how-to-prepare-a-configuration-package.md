@@ -13,18 +13,18 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: fde77f873897d801e6bf06d55d57e9406f352eed
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941637"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245862"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 For å hjelpe kunden med å bruke konfigurasjonspakken kan du legge til et spørreskjema eller et sett av spørreskjemaer i pakken. Spørreskjemaet kan hjelpe kunden med å forstå de forskjellige oppsettsalternativene. Spørreskjemaer opprettes vanligvis for hovedoppsettstabellene når kunder vil ha ytterligere veiledning om hvordan de velger en riktig innstilling. Hvis du vil ha mer informasjon, kan du se [Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md).
 
-Kontroller at du er i rollesenteret for RapidStart Services-implementereren. Hvis du vil ha mer informasjon, kan du se [Bruke rollesenteret for RapidStart Services-implementerer](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+Kontroller at du er på rollesenteret for RapidStart Services-implementerer. Hvis du vil ha mer informasjon, kan du se [Bruke rollesenteret for RapidStart Services-implementerer](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
 
 > [!IMPORTANT]  
 >  Når du eksportere og importere konfigurasjonspakker mellom to firmadatabaser, må databasene har samme skjema for å sikre at alle dataene overføres. Dette betyr at databasene bør ha den samme tabell- og feltstruktur, der tabellene har samme primærnøkler og felt har samme IDer og datatyper.  
@@ -77,7 +77,7 @@ Pakken opprettes i en .rapidstart-fil, som leverer innholdet i pakken i et kompr
 Du kan lagre filen med et navn som gir mening for deg, men du kan ikke endre filtypen for filen. Den må være .rapidstart.  
 
 ### <a name="to-copy-a-configuration-package"></a>Slik konfigurerer du en konfigurasjonspakke:  
-Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den som grunnlag for å opprette lignende pakker. Dette kan forkorte implementeringstiden og forbedrer gjentakelsesaspektet ved RapidStart Services.
+Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den som grunnlag for å opprette lignende pakker. Dette kan forkorte implementeringstiden og forbedrer gjentakelse for RapidStart Services.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg en pakke fra listen, og velg deretter handlingen **Kopier pakke**.  

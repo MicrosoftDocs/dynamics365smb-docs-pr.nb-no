@@ -1,6 +1,6 @@
 ---
 title: Microsoft Pay-standard | Microsoft-dokumentasjon
-description: Gir informasjon om Microsoft Pay-utvidelsen
+description: Gir informasjon om Microsoft Pay-utvidelsen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -12,13 +12,13 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935829"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249931"
 ---
-# <a name="the-microsoft-pay-extension"></a>Utvidelsen Microsoft Pay
+# <a name="the-microsoft-pay-extension"></a>Microsoft Pay-utvidelsen
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingstjenester. Microsoft Pay-tjenesten hjelper deg med å forbedre din kundeservice.
 
 Microsoft Pay-utvidelsen legger til en Microsoft Pay-kobling i salgsdokumenter slik at kundene kan enkelt betale med Microsoft Pay. Du kan sende dokumenter via e-post for å gi bedre kundeservice og korte ned tiden det tar for kundens betalinger å komme inn på bankkontoen din.
@@ -26,7 +26,7 @@ Microsoft Pay-utvidelsen legger til en Microsoft Pay-kobling i salgsdokumenter s
 Microsoft Pay-utvidelsen gir følgende fordeler:
 - Kundebetalinger kommer raskere inn på bankkontoen din.
 - Kunder har flere måter å betale fakturaer på.
-- Microsoft Pay tilbyr en pålitelig betalingstjeneste, som kunder som foretrekker i stedet for å angi opplysninger på ukjente nettsteder.
+- Microsoft Pay tilbyr en pålitelig betalingstjeneste, som kunder som foretrekker i stedet for å angi opplysninger om kredittkort på ukjente nettsteder.
 - Microsoft Pay tilbyr flere måter for å håndtere betalinger, inkludert behandling av kredittkortbetaling som PayPal og Stripe.
 - Microsoft Pay-koblingen kan inkluderes automatisk på alle fakturadokumenter eller av brukeren.
 - Ettersom denne funksjonen er bygd som en utvidelse, får du full kontroll og kan aktivere den når og hvis forretningsprosessene trenger dette.

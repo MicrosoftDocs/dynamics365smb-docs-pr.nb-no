@@ -9,11 +9,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 2dab6ef56d9334d585b37367faf55916de57eb28
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935965"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1241591"
 ---
 # <a name="norwegian-giro-and-ocr-b-font"></a>Norsk giro og OCR-B-skrift
 En giro (General Interbank Recurring Order) er et betalingssystem som fungerer som en kredittoverføring.  

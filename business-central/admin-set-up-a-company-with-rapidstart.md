@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 04d665ac1cfcf66c2581d97bac05d636114a5ef4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "914788"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244319"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurere et selskap med RapidStart Services
 Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver.  
@@ -46,7 +46,7 @@ Du kan bruke følgende komponenter for å få et raskere oppsett av selskapet:
 |Konfigurer kjernehoveddataposter som bruker maler, for å klargjøre overføring av eksisterende kundedata.|[Klargjøre for å flytte kundedata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definer tabeller og felt, valider eksisterende kundedata, og overfør data til [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.|[Flytte kundedata](admin-migrate-customer-data.md)|
 |Forberede gjenbruk av firmakonfigurasjoner i andre selskaper.|[Opprette egendefinerte konfigurasjonspakker for selskap](admin-how-to-create-custom-company-configuration-packages.md)|
-|Finn løsninger på kjente problemer i RapidStart Services-verktøyet.|[Tips og råd: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
+|Finn løsninger på kjente problemer i RapidStart Services-verktøyet.|[Tips og triks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se også  
 [Administrasjon](admin-setup-and-administration.md)  

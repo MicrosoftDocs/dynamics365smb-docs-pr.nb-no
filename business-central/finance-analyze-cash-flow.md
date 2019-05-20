@@ -4,20 +4,20 @@ description: Beskriver hvordan du bruker diagrammene for kontantsyklus, inntekte
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics365-financials
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2019
+ms.date: 06/02/2017
 ms.author: bholtorf
 ms.openlocfilehash: 40e180222968f3ede5a69530e05bf5c0a74fdeb3
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932673"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1239064"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
 Som de sier, er kontanter konge. Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  

@@ -11,11 +11,11 @@ ms.search.keywords: upload, attach, attachments
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934563"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1240887"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Legge ved filer i kort og dokumenter
 Du kan legge ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og du kan legge til filer i alle typer salgs- og kjøpsdokumenter.

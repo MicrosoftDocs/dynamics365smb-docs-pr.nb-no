@@ -11,11 +11,11 @@ ms.search.keywords: phone, tablet
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 48dd62ab962c2a3ee0ad243a9e7d00d953c60dca
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912392"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244541"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
 Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.

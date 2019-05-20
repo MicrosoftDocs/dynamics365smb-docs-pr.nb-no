@@ -11,11 +11,11 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 38c1ee9b37513b270dcad09238df4f841a961d1a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "927545"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1245027"
 ---
 # <a name="set-up-the-bank-data-conversion-service"></a>Konfigurere tjeneste for konvertering av bankdata
 En global tjenesteleverandør for å konvertere betalingsinformasjon til hvilket som helst dataformat banken krever, er koblet til og klar til å aktiveres i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er det refereres til i [!INCLUDE[d365fin](includes/d365fin_md.md)] som tjenesten for konvertering av bankdata.
@@ -24,7 +24,7 @@ Du kan eksportere betalingslinjer fra siden **Betalingskladd** til en fil eller 
 
 Du kan importere filer med bankkontoutdrag til siden **Betalingsavstemmingskladd** ved hjelp av tjenesten for konvertering av bankdata til å konvertere en fil som du mottar fra banken din til en datastrøm som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Som et alternativ til å importere bankkontoutdrag med tjenesten for konvertering av bankdata kan du bruke tjenesten Bankfeeder for Envestnet Yodlee. Hvis du vil ha mer informasjon, kan du se [Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)
+Som et alternativ til å importere bankkontoutdrag med tjenesten for konvertering av bankdata kan du bruke tjenesten Envestnet Yodlee Bank Feeds. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
 
 Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankkonto og leverandørenes bankkonti. Hvis du vil ha mer informasjon, kan du se [Opprette bankkonti](bank-how-setup-bank-accounts.md).
 

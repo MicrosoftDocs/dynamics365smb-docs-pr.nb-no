@@ -11,11 +11,11 @@ ms.search.keywords: COA, cha of acc
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 8c75a214691b7d9886958866517afbb1d68b6f60
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920704"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1242448"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Definere eller endre kontoplanen
 Kontoplanen viser finanskontoene som lagrer dine økonomiske data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.

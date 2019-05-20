@@ -10,11 +10,11 @@ ms.workload: na
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: 240e3e8dc151c971dcf5875bb3e7e8bb3d5edd45
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "941729"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1244656"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
