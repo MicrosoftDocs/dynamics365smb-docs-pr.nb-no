@@ -13,53 +13,53 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ag
 ms.date: 04/01/2019
 ms.author: jswymer
 ms.openlocfilehash: cbbfb06052f8286822f4ab722d00706de303dc02
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "939511"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248695"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="0b7ed-103">Oversikt over oppgaver for lukking av regnskapsperioder</span><span class="sxs-lookup"><span data-stu-id="0b7ed-103">Overview of Tasks to Close Accounting Periods</span></span>
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="0b7ed-104">tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="0b7ed-105">Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
+# <a name="overview-of-tasks-to-close-accounting-periods"></a><span data-ttu-id="83d96-103">Oversikt over oppgaver for lukking av regnskapsperioder</span><span class="sxs-lookup"><span data-stu-id="83d96-103">Overview of Tasks to Close Accounting Periods</span></span>
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="83d96-104">tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre.</span><span class="sxs-lookup"><span data-stu-id="83d96-104">does not force you to close periods, however, there are many period-end (month-end) activities that you can do.</span></span> <span data-ttu-id="83d96-105">Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.</span><span class="sxs-lookup"><span data-stu-id="83d96-105">This topic provides an overview of optional processes and activities for closing periods.</span></span>  
 
-## <a name="general-ledger"></a><span data-ttu-id="0b7ed-106">Finans</span><span class="sxs-lookup"><span data-stu-id="0b7ed-106">General Ledger</span></span>
-* <span data-ttu-id="0b7ed-107">Angi systemomfattende og brukerspesifikke bokføringsperioder.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-107">Specify system-wide and user-specific posting periods.</span></span>  
+## <a name="general-ledger"></a><span data-ttu-id="83d96-106">Finans</span><span class="sxs-lookup"><span data-stu-id="83d96-106">General Ledger</span></span>
+* <span data-ttu-id="83d96-107">Angi systemomfattende og brukerspesifikke bokføringsperioder.</span><span class="sxs-lookup"><span data-stu-id="83d96-107">Specify system-wide and user-specific posting periods.</span></span>  
 
-    <span data-ttu-id="0b7ed-108">Dette angir datoene som bokføringer som er tillatt mellom.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="0b7ed-109">Avhengig av forretningsbehovene vil du kanskje tillate bokføring ved begynnelsen av perioden eller mot slutten.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="0b7ed-110">Hvis du vil ha mer informasjon, kan du se [Angi bokføringsperioder](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="0b7ed-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
-* <span data-ttu-id="0b7ed-111">Foreta alle nødvendige finansjusteringer.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-111">Make all necessary G/L adjustments.</span></span>  
-* <span data-ttu-id="0b7ed-112">Oppdater og bokfør gjentakelseskladder.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-112">Update and post Recurring Journals.</span></span>  
+    <span data-ttu-id="83d96-108">Dette angir datoene som bokføringer som er tillatt mellom.</span><span class="sxs-lookup"><span data-stu-id="83d96-108">This specifies the dates between which you allow posting.</span></span> <span data-ttu-id="83d96-109">Avhengig av forretningsbehovene vil du kanskje tillate bokføring ved begynnelsen av perioden eller mot slutten.</span><span class="sxs-lookup"><span data-stu-id="83d96-109">Depending on your business, you may want to allow posting at the start of the period, or toward the end.</span></span> <span data-ttu-id="83d96-110">Hvis du vil ha mer informasjon, kan du se [Angi bokføringsperioder](finance-how-specify-posting-periods.md).</span><span class="sxs-lookup"><span data-stu-id="83d96-110">For more information, see [Specify Posting Periods](finance-how-specify-posting-periods.md).</span></span>  
+* <span data-ttu-id="83d96-111">Foreta alle nødvendige finansjusteringer.</span><span class="sxs-lookup"><span data-stu-id="83d96-111">Make all necessary G/L adjustments.</span></span>  
+* <span data-ttu-id="83d96-112">Oppdater og bokfør gjentakelseskladder.</span><span class="sxs-lookup"><span data-stu-id="83d96-112">Update and post Recurring Journals.</span></span>  
   <!--* Process Consolidations-->
-* <span data-ttu-id="0b7ed-113">Kjør kontoskjemaer som følger:</span><span class="sxs-lookup"><span data-stu-id="0b7ed-113">Run account schedules as follows:</span></span>  
-  * <span data-ttu-id="0b7ed-114">Åpne **Kontoskjema**-siden, og velg deretter handlingen **Skriv ut**.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
+* <span data-ttu-id="83d96-113">Kjør kontoskjemaer som følger:</span><span class="sxs-lookup"><span data-stu-id="83d96-113">Run account schedules as follows:</span></span>  
+  * <span data-ttu-id="83d96-114">Åpne **Kontoskjema**-siden, og velg deretter handlingen **Skriv ut**.</span><span class="sxs-lookup"><span data-stu-id="83d96-114">Open the **Account Schedule** page, and then choose the **Print** action.</span></span>  
 
-## <a name="sales-and-receivables"></a><span data-ttu-id="0b7ed-115">Salg</span><span class="sxs-lookup"><span data-stu-id="0b7ed-115">Sales and Receivables</span></span>
-* <span data-ttu-id="0b7ed-116">Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="0b7ed-117">Bokfør alle innbetalingskladder.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-117">Post all cash receipt journals.</span></span>  
-* <span data-ttu-id="0b7ed-118">Oppdater og bokfør gjentakelseskladder som er relatert til salg.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
-* <span data-ttu-id="0b7ed-119">Avstem kortsiktige fordringer mot Finans.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-119">Reconcile accounts receivable to the general ledger.</span></span>  
-* <span data-ttu-id="0b7ed-120">Kjør kjørselen **Slett fakturerte ordrer**.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
+## <a name="sales-and-receivables"></a><span data-ttu-id="83d96-115">Salg</span><span class="sxs-lookup"><span data-stu-id="83d96-115">Sales and Receivables</span></span>
+* <span data-ttu-id="83d96-116">Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.</span><span class="sxs-lookup"><span data-stu-id="83d96-116">Post all sales orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="83d96-117">Bokfør alle innbetalingskladder.</span><span class="sxs-lookup"><span data-stu-id="83d96-117">Post all cash receipt journals.</span></span>  
+* <span data-ttu-id="83d96-118">Oppdater og bokfør gjentakelseskladder som er relatert til salg.</span><span class="sxs-lookup"><span data-stu-id="83d96-118">Update and post recurring journals that are related to sales and receivables.</span></span>  
+* <span data-ttu-id="83d96-119">Avstem kortsiktige fordringer mot Finans.</span><span class="sxs-lookup"><span data-stu-id="83d96-119">Reconcile accounts receivable to the general ledger.</span></span>  
+* <span data-ttu-id="83d96-120">Kjør kjørselen **Slett fakturerte ordrer**.</span><span class="sxs-lookup"><span data-stu-id="83d96-120">Run the **Delete Invoiced Sales Orders** batch job.</span></span>  
 
-## <a name="purchases-and-payables"></a><span data-ttu-id="0b7ed-121">Kjøp</span><span class="sxs-lookup"><span data-stu-id="0b7ed-121">Purchases and Payables</span></span>
-* <span data-ttu-id="0b7ed-122">Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
-* <span data-ttu-id="0b7ed-123">Bokfør alle utbetalingskladder.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-123">Post all payment journals.</span></span>  
-* <span data-ttu-id="0b7ed-124">Oppdater og bokfør gjentakelseskladder som er relatert til kjøp.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
-* <span data-ttu-id="0b7ed-125">Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
-* <span data-ttu-id="0b7ed-126">Kjør kjørselen **Slett fakturerte bestillinger**.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
+## <a name="purchases-and-payables"></a><span data-ttu-id="83d96-121">Kjøp</span><span class="sxs-lookup"><span data-stu-id="83d96-121">Purchases and Payables</span></span>
+* <span data-ttu-id="83d96-122">Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.</span><span class="sxs-lookup"><span data-stu-id="83d96-122">Post all purchase orders, invoices, credit memos, and return orders.</span></span>  
+* <span data-ttu-id="83d96-123">Bokfør alle utbetalingskladder.</span><span class="sxs-lookup"><span data-stu-id="83d96-123">Post all payment journals.</span></span>  
+* <span data-ttu-id="83d96-124">Oppdater og bokfør gjentakelseskladder som er relatert til kjøp.</span><span class="sxs-lookup"><span data-stu-id="83d96-124">Update and post recurring journals that are related to purchases & payables.</span></span>  
+* <span data-ttu-id="83d96-125">Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.</span><span class="sxs-lookup"><span data-stu-id="83d96-125">Run the **Aged Accounts Payable** report and reconcile accounts payable to the general ledger.</span></span>  
+* <span data-ttu-id="83d96-126">Kjør kjørselen **Slett fakturerte bestillinger**.</span><span class="sxs-lookup"><span data-stu-id="83d96-126">Run the **Delete Invoiced Purchase Orders** batch job.</span></span>  
 
-<span data-ttu-id="0b7ed-127">Anleggsmidler</span><span class="sxs-lookup"><span data-stu-id="0b7ed-127">Fixed Assets</span></span>
-* <span data-ttu-id="0b7ed-128">Bokfør all vedlikeholdskost gjennom aktivakladdene eller fakturaene.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
-* <span data-ttu-id="0b7ed-129">Bokfør justeringer.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-129">Post adjustments.</span></span>
-* <span data-ttu-id="0b7ed-130">Bokfør oppskrivning.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-130">Post appreciation.</span></span>
-* <span data-ttu-id="0b7ed-131">Bokfør avskrivning.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-131">Post depreciation.</span></span>
-* <span data-ttu-id="0b7ed-132">Oppdater og bokfør gjentakende aktivakladd.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-132">Update and post the recurring fixed asset journal.</span></span>
+<span data-ttu-id="83d96-127">Anleggsmidler</span><span class="sxs-lookup"><span data-stu-id="83d96-127">Fixed Assets</span></span>
+* <span data-ttu-id="83d96-128">Bokfør all vedlikeholdskost gjennom aktivakladdene eller fakturaene.</span><span class="sxs-lookup"><span data-stu-id="83d96-128">Post all maintenance costs have been posted through the fixed asset journals or invoices.</span></span>
+* <span data-ttu-id="83d96-129">Bokfør justeringer.</span><span class="sxs-lookup"><span data-stu-id="83d96-129">Post adjustments.</span></span>
+* <span data-ttu-id="83d96-130">Bokfør oppskrivning.</span><span class="sxs-lookup"><span data-stu-id="83d96-130">Post appreciation.</span></span>
+* <span data-ttu-id="83d96-131">Bokfør avskrivning.</span><span class="sxs-lookup"><span data-stu-id="83d96-131">Post depreciation.</span></span>
+* <span data-ttu-id="83d96-132">Oppdater og bokfør gjentakende aktivakladd.</span><span class="sxs-lookup"><span data-stu-id="83d96-132">Update and post the recurring fixed asset journal.</span></span>
 
-<span data-ttu-id="0b7ed-133">Konsernintern</span><span class="sxs-lookup"><span data-stu-id="0b7ed-133">Intercompany</span></span>
-* <span data-ttu-id="0b7ed-134">Behandle konserninterne transaksjoner</span><span class="sxs-lookup"><span data-stu-id="0b7ed-134">Process Intercompany Transactions</span></span>
+<span data-ttu-id="83d96-133">Konsernintern</span><span class="sxs-lookup"><span data-stu-id="83d96-133">Intercompany</span></span>
+* <span data-ttu-id="83d96-134">Behandle konserninterne transaksjoner</span><span class="sxs-lookup"><span data-stu-id="83d96-134">Process Intercompany Transactions</span></span>
 
-## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="0b7ed-135">Beregn og behandle mva.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-135">Calculate and Process Sales Tax</span></span>
-* <span data-ttu-id="0b7ed-136">Fullfør mva-oppgaver.</span><span class="sxs-lookup"><span data-stu-id="0b7ed-136">Complete Tax Statements.</span></span>  
+## <a name="calculate-and-process-sales-tax"></a><span data-ttu-id="83d96-135">Beregn og behandle mva.</span><span class="sxs-lookup"><span data-stu-id="83d96-135">Calculate and Process Sales Tax</span></span>
+* <span data-ttu-id="83d96-136">Fullfør mva-oppgaver.</span><span class="sxs-lookup"><span data-stu-id="83d96-136">Complete Tax Statements.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="0b7ed-137">Se også</span><span class="sxs-lookup"><span data-stu-id="0b7ed-137">See Also</span></span>
-[<span data-ttu-id="0b7ed-138">Avslutte år og perioder</span><span class="sxs-lookup"><span data-stu-id="0b7ed-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
-[<span data-ttu-id="0b7ed-139">Avslutte tablåer</span><span class="sxs-lookup"><span data-stu-id="0b7ed-139">Closing Books</span></span>](year-close-books.md)  
-<span data-ttu-id="0b7ed-140">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="0b7ed-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>
+## <a name="see-also"></a><span data-ttu-id="83d96-137">Se også</span><span class="sxs-lookup"><span data-stu-id="83d96-137">See Also</span></span>
+[<span data-ttu-id="83d96-138">Avslutte år og perioder</span><span class="sxs-lookup"><span data-stu-id="83d96-138">Closing Years and Periods</span></span>](year-close-years-periods.md)  
+[<span data-ttu-id="83d96-139">Avslutte tablåer</span><span class="sxs-lookup"><span data-stu-id="83d96-139">Closing Books</span></span>](year-close-books.md)  
+<span data-ttu-id="83d96-140">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="83d96-140">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

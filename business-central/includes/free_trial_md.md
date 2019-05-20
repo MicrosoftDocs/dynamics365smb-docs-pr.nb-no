@@ -1,1 +1,1 @@
-<span data-ttu-id="d1428-101">Start en [gratis prøveversjon!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="d1428-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>
+<span data-ttu-id="d6884-101">Start en [gratis prøveversjon!](https://go.microsoft.com/fwlink/?linkid=847861)</span><span class="sxs-lookup"><span data-stu-id="d6884-101">Start a [free trial!](https://go.microsoft.com/fwlink/?linkid=847861)</span></span>
