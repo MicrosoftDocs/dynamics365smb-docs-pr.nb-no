@@ -12,14 +12,14 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5f11d7c5607f54061166eebd11fb7e7cc58d5fbc
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: aeed39953f6b5219dcc290a3416a9dd7e2e69d89
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921681"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446764"
 ---
-# <a name="managing-interactions-for-segments"></a>Administrere samhandlinger for segmenter
+# <a name="manage-interactions-for-segments"></a>Administrere samhandlinger for segmenter
 Siden **Segment** er en type forslag der du kan:
 
 * Opprette segmenter.

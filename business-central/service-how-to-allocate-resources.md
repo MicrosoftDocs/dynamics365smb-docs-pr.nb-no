@@ -11,11 +11,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 79f4d6a549716011a5f01b3b8b7d6b065d1af295
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "931100"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251976"
 ---
 # <a name="allocate-resources"></a>Tildele ressurser
 Det viktigste elementet innen service er personene som utfører servicen. Du kan definere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å tildele de aktuelle personene til de aktuelle prosjektene. Tilordningen kan være basert på servicesoner der personene befinner seg, eller der servicen skjer. I tillegg kan du samle ressurser i grupper når du svarer på serviceforespørsler. Hvis du vil ha mer informasjon, kan du se [Definere ressurstildeling](service-how-setup-resource-allocation.md).

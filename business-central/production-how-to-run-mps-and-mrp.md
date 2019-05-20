@@ -13,11 +13,11 @@ ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: bf64955898ddbdce539a2e68c2db07c2c6b8c575
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934655"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253082"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  

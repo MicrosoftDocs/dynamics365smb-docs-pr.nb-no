@@ -11,11 +11,11 @@ ms.search.keywords: account linking, direct payment posting, automatic payment p
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 0df165440ebe34c35da8a59289f051239821ea5a
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "918960"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251932"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
 På siden **Tekst-til-konto-tilordning**, som du åpner fra siden **Betalingsavstemmingskladd**, kan du definere tilordninger mellom tekst på betalinger og bestemte debet-, kredit- og motkonti, slik at slike betalinger bokføres på de angitte kontiene når du bokfører kladden for betalingsavstemming.
@@ -58,6 +58,6 @@ Hvis du alltid vil bokføre drivstoffutgifter påløpt ved Shell-bensinstasjoner
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Konfigurere bankfeedservicen Envestnet Yodlee](bank-how-setup-bank-statement-service.md)  
+[Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -12,11 +12,11 @@ ms.search.keywords: procurement
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 77f8db5fee4322a7ac2715375988815e8c908a6c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "935975"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252737"
 ---
 # <a name="record-purchases"></a>Registrere kjøp
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer og bestillinger også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer eller ordrer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.

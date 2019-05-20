@@ -11,11 +11,11 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 3432e76bd01cb81cbc149f60165371466b3cd220
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "912972"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253451"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
 Du bruker kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Du må ha tillatelser for å kunne opprette timelister.

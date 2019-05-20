@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 04/01/2019
-ms.openlocfilehash: eb9d4ec76c0dbbd59763f7622ca51137c9563a91
-ms.sourcegitcommit: addfb47612cc2e4e98dfd7e338b6f41cde405d5c
+ms.openlocfilehash: e747757ec6942ede0e237e013703ebf6d3df189b
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "969881"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447017"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Kontrollere sider i Business Central
 
@@ -22,7 +22,7 @@ Sideinspeksjonsfunksjonen gjør det mulig å få opplysninger om en side ved å 
 
 ## <a name="working-with-page-inspection"></a>Arbeide med sideinspeksjon
 
-Hvis du vil kontrollere en side i øvre høyre hjørne, kan du velge ![Innstillinger-ikonet](media/ui-experience/settings_icon_small.png) og deretter velge **Inspiser**. Du kan også bruke hurtigtasten **Ctrl+Alt+F1**.
+Startsideinspeksjonen fra **Hjelp og støtte**-siden. Velg spørsmålstegnet øverst til høyre, velg **Hjelp og støtte**, og velg deretter **Undersøk sidene og dataene**. Du kan også bruke hurtigtasten **Ctrl+Alt+F1**.
 
 Ruten **Sideninspeksjon** åpnes på siden. Følgende figur viser ruten **Sideninspeksjon** på siden **Ordre**.
 
@@ -34,7 +34,7 @@ Du kan tastaturet eller pekeenheten til å flytte fokus til forskjellige element
 
 Hvis du vil ha mer informasjon om hva som vises i sideinspeksjonen, kan du se [Inspisere og feilsøke sider](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjelpen for utviklere og IT-eksperter for Business Central.
 
-Hvis du ikke ser opplysningene du forventer å se i ruten **Sideinspeksjon**, har du trolig ikke den nødvengige tillatelsen, som beskrevet i neste del.
+Hvis du ikke ser opplysningene du forventer å se i ruten **Sideinspeksjon**, har du trolig ikke den nødvendige tillatelsen, som beskrevet i neste del.
 
 ## <a name="controlling-access-to-page-inspection-details"></a>Kontrollere tilgang til sideinspeksjonsinformasjon
 

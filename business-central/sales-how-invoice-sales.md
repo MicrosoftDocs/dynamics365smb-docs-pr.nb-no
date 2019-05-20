@@ -11,11 +11,11 @@ ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: f80d98ee46f06a9c39928dcf6bcdb4f8bf203874
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "916307"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252599"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.  

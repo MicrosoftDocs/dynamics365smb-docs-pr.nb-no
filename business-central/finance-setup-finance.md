@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 68128de48b014e7ca44fba3909cf72dcf0d87135
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: c64b58c036395764191c05f47f8327c6479a4c6f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "920418"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1447040"
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
 For å få deg raskt i gang inkluderer [!INCLUDE[d365fin](includes/d365fin_md.md)] standardkonfigurasjoner for de fleste økonomiske prosesser. Hvis du vil endre konfigurasjoner til bedriften din, er det bare å fortsette. Fra Rollesenteret kan du for eksempel bruke en assistert installasjonsveiledningen til å definere mva-satsen for din plassering.  
@@ -44,7 +44,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Konfigurere forretningsintelligensdiagrammer (BI) for å analysere kontantstrøm. |[Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md) |
 |Aktiver fakturering av en kunde som ikke er definert i systemet.|[Definere kontantkunder](finance-how-to-set-up-cash-customers.md)|
 | Definere Intrastat-rapportering, og send inn rapporten til myndighetene | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
-|Forbered rapporten konsolidert råbalanse i rollesenteret for regnskapsfører for å få en økonomisk oversikt på tvers av flere selskaper.|[Konsolidere finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)|
 |Sørg for at en post i en finanskladd fordeles til flere forskjellige konti når du bokfører kladden, enten antall, prosent eller beløp.|[Bruke fordelingsnøkler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 
 ## <a name="see-also"></a>Se også

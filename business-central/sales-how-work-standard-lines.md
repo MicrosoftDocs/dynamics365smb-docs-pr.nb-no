@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2019
+ms.date: 04/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 35395ad71dbc0717410ed5a910f5bcd0170b1d8c
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "936791"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252256"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
@@ -33,14 +33,21 @@ Fremgangsmåtene nedenfor viser hvordan du arbeider med standardlinjer på en sa
 > [!NOTE]
 > Du kan ikke definere priser på standardsalgslinjene, fordi priser, rabatter og så videre. beregnes på de faktiske salgsdokumentene etter at du setter inn standardsalgslinjene.
 
-## <a name="to-assign-standard-sales-lines-to-a-customers"></a>Slik tilordner du standard salgslinjer til kunder
+## <a name="to-assign-standard-sales-lines-to-a-customer"></a>Slik tilordner du standard salgslinjer til kunder
 Tilordne én eller flere standard salgslinjer til en kunde, slik at de kan settes inn i salgsdokumenter for kunden.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle kunden.
 3. Velg handlingen **Gjentakende salgslinjer**.
 4. På siden **Gjentakende salgslinjer** velger du kodene for de gjentakende salgslinjene som du vil sette inn i salgsdokumenter for kunden.
-5. Fyll ut de andre feltene for å definere når, hvordan og hvor de gjentakende salgslinjene skal brukes. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fyll ut de andre feltene for å definere når, hvordan og hvor de gjentakende salgslinjene skal brukes.
+6. I de fire feltene der du velger hvordan linjene settes inn på fire dokumenttyper, kan du velge ett av følgende alternativer:
+
+|Alternativ|Beskrivelse|
+|-|-|
+|**Manuell**|Du må manuelt slå opp og sette inn en gjentakende salgslinje for kunden.|
+|**Automatisk**|Hvis det finnes flere gjentakende salgslinjer for kunden, får du melding om hvor du kan velge en som kan settes inn. Hvis det bare finnes én gjentakende salgslinje, settes den inn automatisk.|
+|**Be alltid om bekreftelse**|Det vises en melding, og alle gjentakende salgslinjer vises slik at du kan velge én.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Sette inn gjentakende salgslinjer i en salgsfaktura
 Hvis det finnes gjentakende salgslinjer for kunden, kan de kan settes inn på alle typer salgsdokumenter, for eksempel en salgsfaktura. Hvis du har aktivert den aktuelle meldingen, blir du informert om det finnes gjentakende salgslinjer.

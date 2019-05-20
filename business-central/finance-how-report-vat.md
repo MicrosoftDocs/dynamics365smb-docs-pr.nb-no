@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 04/01/2019
+ms.date: 05/02/2019
 ms.author: bholtorf
-ms.openlocfilehash: c4536dca720be5d52bc860c9acce8d7f903314ff
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: fcc9eda38a54e8e94bd74bfbcc76fe808a119525
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "919078"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446994"
 ---
-# <a name="how-to-report-vat-to-a-tax-authority"></a>Rapportere mva til skattemyndighetene
+# <a name="report-vat-to-a-tax-authority"></a>Rapportere mva til skattemyndighetene
 Dette emnet beskriver rapportene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen.
 
 Du kan bruke følgende rapporter:
@@ -110,7 +110,7 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 
 > [!Note]
 > Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2017** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.
- 
+
 ## <a name="see-also"></a>Se også
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  

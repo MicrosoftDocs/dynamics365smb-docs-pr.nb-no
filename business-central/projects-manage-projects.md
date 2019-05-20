@@ -9,11 +9,11 @@ ms.search.keywords: projects
 ms.date: 04/01/2019
 ms.author: edupont
 ms.openlocfilehash: dcd68331143cac2572b37e7bf130010d69dc05f4
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "921031"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253105"
 ---
 # <a name="project-management"></a>Prosjektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.

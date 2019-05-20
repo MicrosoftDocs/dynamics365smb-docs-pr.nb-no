@@ -12,11 +12,11 @@ ms.search.keywords: rfq
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "930455"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252691"
 ---
 # <a name="make-sales-quotes"></a>Gi salgstilbud
 Du kan opprette et tilbud for å registrere tilbudet til en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).

@@ -3,22 +3,21 @@ title: Konfigurere markedsføring og kontaktbehandlingsinformasjon | Microsoft-d
 description: Du kan konfigurere markedsføring og kontaktbehandling i Business Central for å optimalisere forholdet til prospekter eller kunder og forbedre kampanjer.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2019
-ms.author: jswymer
-redirect_url: marketing-setup-contacts
-ms.openlocfilehash: 40c7777cc630602b77392e636e4c29c4ec6c0696
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.date: 04/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7d294ba1a484af195b962bac827435e57ff5709f
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "934006"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446856"
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
 Før du begynner å arbeide med kontaktene og markedsføringsinteressene, er det noen beslutninger og trinn du må gjennomføre for å definere hvordan markedsføringsområdet håndterer bestemte aspekter ved kontaktene. Du kan for eksempel avgjøre om du skal synkronisere kontaktkortet med kundekortet, leverandørkortet og bankkontokortet, hvordan tallserier defineres, eller hva standard tiltaleform skal være under skriving til kontaktene dine.
@@ -27,7 +26,7 @@ Det å behandle kontaktene og ha en strategi for å identifisere kunder, få kun
 
 Du definerer markedsførings- og kontakthåndtering fra siden **Markedsføringsoppsett**. Du åpner siden **Markedsføringsoppsett** ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Markedsføringsoppsett** og deretter velge den relaterte koblingen.
 
-## <a name="automatically-copying-specific-information-from-the-contact-companies-to-the-contact-persons"></a>Kopiere spesifikk informasjon fra kontaktselskapene til kontaktpersonene automatisk
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiere spesifikk informasjon fra kontaktselskapene til kontaktpersonene
 Noen opplysninger om kontaktselskaper er identiske med opplysningene om kontaktpersonene som arbeider i disse selskapene, for eksempel opplysninger om adresse. I inndelingen **Arv** på siden **Markedsføringsoppsett** kan du angi at programmet automatisk kopiere bestemte felt fra kortet for kontaktselskapet til kortet for kontaktpersonen hver gang du oppretter en kontaktperson for et kontaktselskap. Du kan for eksempel velge for å kopiere selgerkoden, adresseopplysninger (adresse, adresse 2, poststed, postnummer og fylke), kommunikasjonsdetaljer (telefaksnummer, teleks (tilbakesvar) og telefonnummer) og mer.
 
 Når du endrer ett av disse feltene på kortet for kontaktselskapet, endres automatisk feltet på kortet for kontaktpersonen (med mindre du har endret feltet manuelt på dette kortet).

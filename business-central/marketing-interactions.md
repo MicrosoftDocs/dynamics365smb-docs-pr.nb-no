@@ -12,17 +12,15 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 7ef4416c695543cb93fcf0bed9501bfa4d04985d
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.openlocfilehash: eedb7a319a11b740f6afa869d162f15c167ccc6d
+ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917192"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "1446787"
 ---
-# <a name="managing-interactions-with-contacts"></a>Håndtere samhandlinger med kontakter
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per brev, telefaks, e-post, telefonsamtaler, møter og så videre.
-
-Området for relasjonshåndtering lar deg registrere alle samhandlingene med kontaktene, slik at du kan følge opp salgs- og markedsføringskampanjene som er rettet mot kontaktene, og forbedre fremtidige forretningssamhandlinger med dem. Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
+# <a name="record-interactions-with-contacts"></a>Registrere samhandlinger med kontakter
+Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
 
 * Definere samhandlingsmaler  
 * Opprette samhandlinger på kontakter eller segmenter  

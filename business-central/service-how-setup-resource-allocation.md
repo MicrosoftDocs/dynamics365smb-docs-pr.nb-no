@@ -13,11 +13,11 @@ ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2019
 ms.author: bholtorf
 ms.openlocfilehash: 7b7a01bc61d55379cd12563d1f31f331c3b4fd74
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "932484"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251955"
 ---
 # <a name="set-up-resource-allocation"></a>Definere ressurstildeling
 For å sikre at en serviceoppgave utføres tilfredsstillende, er det viktig å finne en ressurs som er kvalifisert for å gjøre arbeidet. Du kan definere [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at det er enkelt å tildele en person som har riktig kompetansen for prosjektet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kaller vi dette _ressurstildeling_. Du kan tildele ressurser basert på kompetanse, tilgjengelighet eller om de er i samme servicesone som kunden. 

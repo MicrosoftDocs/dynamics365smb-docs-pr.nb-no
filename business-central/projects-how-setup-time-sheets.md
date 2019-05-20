@@ -13,11 +13,11 @@ ms.search.keywords: project management, capacity, staff, resource
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: d2efe0d6d630f3548a41e164f0d71cb98fe09240
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "915170"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253220"
 ---
 # <a name="set-up-time-sheets"></a>Definere timelister
 Timelister i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer tidsregistrering i ukentlige intervaller på sju dager. Du kan bruke dem til å spore tiden som brukes på prosjekter, og du kan bruke dem til å registrere enkel registrering av ressurstid. Før du kan bruke timelister, må du angi hvordan du vil at de skal settes opp og konfigureres.

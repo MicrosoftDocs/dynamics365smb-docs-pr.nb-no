@@ -11,11 +11,11 @@ ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: 98618f60b0d6ac60ccb55aae56646a5ab13f4530
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "923651"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1252904"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
 De forskjellige pris- og rabattavtaler som gjelder når du kjøper fra forskjellige leverandører, må defineres slik at avtalte regler og verdier brukes på kjøpsdokumenter du oppretter for leverandørene.

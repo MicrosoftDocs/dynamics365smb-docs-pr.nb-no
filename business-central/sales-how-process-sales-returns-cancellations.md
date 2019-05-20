@@ -11,11 +11,11 @@ ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2019
 ms.author: sgroespe
 ms.openlocfilehash: a116dd3394e8aae36661815d72db3a8b13265bcf
-ms.sourcegitcommit: bd78a5d990c9e83174da1409076c22df8b35eafd
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2019
-ms.locfileid: "917770"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251863"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. For å inkludere den riktige salgsfakturainformasjonen kan du opprette salgskreditnotaen direkte fra den bokførte salgsfakturaen, eller du kan opprette en ny salgskreditnota kopiert fakturainformasjon.
