@@ -10,17 +10,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1175a7fe058de5f8e7876014d8a71227b7cc46d8
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 99d3a5b4048756e71711abf9fa24bef12c12d963
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243943"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621071"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
-Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres. Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres.
+
+> [!NOTE]
+> Du kan ikke endre varens lagermetode hvis det finnes vareposter for varen.<br /><br />
+> Informasjon vil snart bli publisert her om løsninger for å endre en lagermetode i spesielle situasjoner.
+
+Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 |Lagermetode|Beskrivelse|Når den brukes|  
 |--------------------|---------------------------------------|-----------------|  

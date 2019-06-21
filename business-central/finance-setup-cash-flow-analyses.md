@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 442d16561321acc552a2cf39a1659d763e6f319a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 933323815f0ee31e8bd281dd00ac2d604dd914db
+ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244081"
+ms.lasthandoff: 05/13/2019
+ms.locfileid: "1540320"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -81,10 +81,10 @@ Slik bruker du en manuell prosess:
 >   Ta hensyn til lengden på periodene som tjenesten bruker i beregningene. Jo mer data du angir, jo mer nøyaktig vil forutsigelsene være. Vær også oppmerksom på store avvik i perioder. De vil også ha innvirkning på forutsigelser. Hvis Cortana Intelligence ikke finner nok data eller dataene varierer mye, vil ikke tjenesten utføre en forutsigelse.  
 
 ## <a name="AnchorText"> </a>Opprette og bruke funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
-Du kan også opprette din egen prediktive webtjeneste basert på en felles modell som heter **Forecasting Model for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
+Du kan også opprette din egen prediktive webtjeneste basert på en felles modell som heter **Prognosemodell for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Cortana Intelligence-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
 1. Åpne en nettleser, og gå til [Cortana Intelligence -galleriet](https://go.microsoft.com/fwlink/?linkid=828352).  
-2. Søk etter **Forecasting Model for Microsoft Business Central**, og åpne deretter modellen i Azure Machine Learning Studio.  
+2. Søk etter **Prognosemodell for Microsoft Business Central**, og åpne deretter modellen i Azure Machine Learning Studio.  
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  

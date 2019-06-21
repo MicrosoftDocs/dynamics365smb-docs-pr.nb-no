@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 28ce599b2067faa904f917f8fce7390202c98d7b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245760"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621048"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Konfigurere en kobling til Dynamics 365 for Sales
 For å integrere med [!INCLUDE[crm_md](includes/crm_md.md)] må du sette opp en forbindelse mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]. 
@@ -55,6 +55,9 @@ Den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 for Sa
 |**Aktiver ordreintegrering**|Når brukere oppretter ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], kopier ordrene til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette krever at du oppgir rettigheter til en systemansvarligbrukerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Håndtere ordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
 |**Aktiver Dynamics 365 for Sales-tilkobling**|Aktiver tilkoblingen til [!INCLUDE[crm_md](includes/crm_md.md)].|
 |**Dynamics 365 SDK-versjon**|Dette er bare relevant hvis du integrerer med en lokal versjon av [!INCLUDE[crm_md](includes/crm_md.md)]. Dette er Dynamics 365 SDK-versjonen (også kalt Xrm) du bruker til å koble [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versjonen må være kompatibel med SDK-versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)], og er lik eller nyere enn versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)].|
+
+> [!Note]
+> Assistert oppsett-veiledningen **Konfigurere Dynamics 365 for Sales-tilkobling** tilordner sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker** til brukerkontoen som brukes til integrasjon. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Opprette eller vedlikeholde tilkoblingen manuelt
 Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** manuelt. Dette er også siden der du kan håndtere innstillingene for integrasjonen.
@@ -103,6 +106,10 @@ Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilk
     >  Hvis datakryptering ikke er aktivert i [!INCLUDE[d365fin](includes/d365fin_md.md)], får du bli spurt om du vil aktivere den. Hvis du vil aktivere datakryptering, velger du **Ja** og angir nødvendig informasjon. Ellers velger du **Nei**. Du kan aktivere datakryptering senere. Hvis du vil ha mer informasjon, kan du se [Kryptere data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i hjelpen for utviklere og IT-eksperter.  
 
 7. Hvis [!INCLUDE[crm_md](includes/crm_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], velger du **Ja** eller **Nei**. 
+
+> [!Note]
+> Ved tilkobling til Dynamics 365 for Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** må du kanskje [tilordne sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til brukerkontoen som brukes for integrasjon. 
+
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>For å koble fra [!INCLUDE[crm_md](includes/crm_md.md)]  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales**, og velg deretter den relaterte koblingen.

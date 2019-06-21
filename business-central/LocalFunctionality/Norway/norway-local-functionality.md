@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: fe990411a3f6f2b2518a282811476a06f1ebb563
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d92d0c55fbb403066832301bf0c52bb3e234b96e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245801"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594148"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
 
 ## <a name="feature-availability"></a>Funksjonstilgjengelighet
 
-* MVA og avgift
+* Merverdiavgift
     * [Norsk mva-rapportering](norwegian-vat-reporting.md) **Tilgjengelig nå**
     * [Norske mva-koder](norwegian-vat-codes.md) **Tilgjengelig nå**  
     * [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md) **Tilgjengelig nå**

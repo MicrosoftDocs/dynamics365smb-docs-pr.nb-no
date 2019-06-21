@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 04/05/2019
+ms.date: 06/03/2019
 ms.author: mikebc
-ms.openlocfilehash: 0f9f5db0e7031156848a5bd15c711d3108f3490b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: bf595cc54fa6d3d105770893864f655f82e04433
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249057"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620841"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanlige spørsmål om søk og filtrering
 Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
@@ -27,7 +27,7 @@ Ja.
 Søking og filtrering har blitt svært optimalisert for brukere som foretrekker musfri samhandling for å arbeide effektivt med data. Det finnes en rekke hurtigtaster som kan brukes i rekkefølge til å arbeide raskt. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
 
 ## <a name="is-the-filter-pane-available-on-all-lists"></a>Er filtreringsruten tilgjengelig i alle lister?
-Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet på siden, for eksempel forslag og listesider, inkludert lister som er tilgjengelig fra navigasjonslinjen. Filtreringsruten er foreløpig ikke blitt tilgjengelig for innebygde lister, for eksempel salgslinjer i salgsordrer, eller for lister med dynamisk kolonner (ofte referert til som matrisesider).
+Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet på siden, for eksempel forslag og listesider, inkludert lister som er tilgjengelig fra navigasjonslinjen. Filtreringsruten er ennå ikke tilgjengelig for lister som vises som deler, for eksempel faktabokser eller rollesenterdeler. Når en liste er innebygd på en side, for eksempel salgslinjer i en ordre, er filtreringsruten tilgjengelig når du fokuserer på denne listen ved hjelp av fokusmodusknappen. Hvis du vil ha mer informasjon, se [Fokusere på linjeelementer](ui-enter-data.md#Focus).
 
 ## <a name="how-can-i-save-my-filters"></a>Hvordan lagrer jeg filtre?
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: SorenGP
-ms.openlocfilehash: ab3e23f9d3128045e722bf2677b1b687b2218b10
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f1c7fbe75dfa9767e5a5dfbfbe354fbd3f9448b5
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243228"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621002"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
@@ -26,9 +26,11 @@ Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgje
 > [!NOTE]  
 >   Tilgjengelighetsvisninger etter lokasjon krever at du har beholdning på mer enn én lokasjon. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner](inventory-how-setup-locations.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene i to forskjellige felt, hver med en forskjellig definisjon:
+Hvis du bruker lagerfunksjonalitet, varierer tilgjengelighet avhengig av tildelinger på hyllenivå når det oppstår lageraktiviteter som plukking og flytting, og når lagerreservasjonssystemet bruker begrensninger som må overholdes. En ganske komplisert algoritme bekrefter at alle betingelsene er oppfylt før tildeling av antall i plukk for utgående flyter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md).
 
-* **Beholdning**-feltet viser det faktiske antallet i dag i henhold til bokførte vareposter.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene vanligvis i to forskjellige felt, hver med en forskjellig definisjon:
+
+* **Beholdning**-feltet, som kalles **Lager** enkelte steder, viser det faktiske antallet i dag i henhold til bokførte vareposter.
 * Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
 
 > [!TIP]  

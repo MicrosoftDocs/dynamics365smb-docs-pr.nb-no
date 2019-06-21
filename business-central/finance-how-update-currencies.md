@@ -1,23 +1,18 @@
 ---
 title: Oppdatere valutakurser | Microsoft-dokumentasjon
-description: Hvis du vil bruke flere valutaer i virksomheten, kan du definere en kode for hver valuta og bruke en ekstern valutakurstjeneste.
-services: project-madeira
-documentationcenter: ''
+description: Spor beløp i ulike valutaer ved hjelp av valutakoder, og la Business Central hjelpe deg med å justere valutakurser for bokførte poster med en ekstern service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2019
+ms.search.keywords: multiple currencies, adjust exchange rates
+ms.date: 06/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9fa636fb68a428da3c587e59be1bf76cf976207
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2958cf5dd124fd9437217214ea0df28944d07651
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238949"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621094"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan handle i og rapportere økonomien i mer enn én valuta. Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.

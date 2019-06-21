@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: jswymer
-ms.openlocfilehash: 00143454cf0b0da9b111f92bcdb7879c7e6743d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252461"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621163"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -39,7 +39,7 @@ Det kan være du allerede er kjent med bruk av tabulatortasten for å navigere f
 
 Alle felt kan merkes som *Ta med i hurtigoppføring* eller *Utelat fra hurtigoppføring*. Felt som er inkludert i hurtigoppføringen, inkluderes i banen når du trykker på Enter. Felt som er ekskludert fra hurtigoppføringen, inkluderes ikke.
 
-Når du er ferdig med å registrere data i et felt, kan du ganske enkelt trykke Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigreferanse for tastatursnarveier](keyboard-shortcuts.md#QuickEntry).
+Når du er ferdig med å registrere data i et felt, kan du ganske enkelt trykke Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigreferanse for tastatursnarveier for felt](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips og triks
 Nedenfor finner du nyttig informasjon om hvordan du bruker Hurtigoppføring.
@@ -90,7 +90,7 @@ Når du arbeider med dokumenter som inkluderer en linjeelementdel, som en ordre-
 
 En annen fordel er at det også gir deg avanserte filtreringsmuligheter, som i andre oversikter, så sporing og søk gjennom linjeelementer blir enda enklere.
 
-### <a name="switch-the-focus-on-and-off"></a>Bytte fokus på og av
+### <a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
 Når du skal fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen og velger deretter ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon") øverst til høyre, eller trykk på Ctrl+Skift+F12.
 

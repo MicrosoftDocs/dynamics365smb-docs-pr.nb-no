@@ -1,8 +1,6 @@
 ---
 title: Planlegge at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett | Microsoft-dokumentasjon
 description: Finn ut hvordan du legger en rapport i en jobbkø og planlegger at den skal behandles på en bestemt dato og et bestemt klokkeslett.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report
-ms.date: 04/01/2019
+ms.date: 05/16/2019
 ms.author: jswymer
-ms.openlocfilehash: 65fcba3f0222b324f132115ea7f1ec53b75d983f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 508a6406fe11099f19ce46c70147d62ba74278d1
+ms.sourcegitcommit: f4beaa63e2f32e2947de1c794c5619ed40a47301
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250690"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1586155"
 ---
 # <a name="working-with-reports-and-batch-jobs"></a>Arbeide med rapporter og kjørsler
 En rapport samler inn informasjon basert på et bestemt sett med vilkår og organiserer og viser informasjonen i et format som er lett å lese og som kan skrives ut. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene og salgsstatistikken.
@@ -88,7 +86,12 @@ Du kan planlegge at en rapport skal kjøres på en bestemt dato og et bestemt kl
 Du kan planlegge en rapport når du åpner en rapport. Du velger **Tidsplan** og angir deretter informasjon om skriveren, og dato og klokkeslett. Rapporten legges deretter til i jobbkøen og kjøres på angitt tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobbkøen. Hvis du lagret den behandlede rapporten i en fil, er den tilgjengelig i området **Rapportinnboks**.
 
 ## <a name="PrintReport"></a>Skrive ut en rapport
-Du kan skrive ut en rapport fra **Skriv ut**-knappen på siden med alternativer som vises når du åpner rapporten, eller fra menylinjen i forhåndsvisningen.
+Du kan skrive ut en rapport fra **Skriv ut**-knappen på siden med alternativer som vises når du åpner rapporten, eller fra menylinjen i forhåndsvisningen.  
+
+### <a name="printing-reports-in-thai"></a>Skrive ut rapporter på thailandsk
+Spesielt for den thailandske versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], kan ikke **Utskrift**-knappen skrive ut rapporter riktig på grunn av begrensninger i tjenesten som genererer den utskrivbare PDF-filen. Du kan i stedet åpne rapporten i Word og deretter lagre den som en utskrivbar PDF.  
+
+Du kan også be systemansvarlig om å opprette et Word-rapportoppsett for de mest brukte rapportene. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).  
 
 ## <a name="changing-the-layout-and-look-of-a-report"></a>Endre oppsettet og utseendet på en rapport
 Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet og stilen som brukes. Hvis du vil bytte til et annet oppsett, kan du se [Endre gjeldende oppsett som skal brukes i en rapport](ui-how-change-layout-currently-used-report.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).

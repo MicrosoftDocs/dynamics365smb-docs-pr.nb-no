@@ -1,21 +1,21 @@
 ---
 title: Sortere, søke etter og filtrere oversikter | Microsoft-dokumentasjon
 description: Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av effektive filtersymboler og tastatursnarveier.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 5cd8bce29b1973274cda673e22dd07e6b50f830f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/03/2019
+ms.author: sgroespe
+ms.openlocfilehash: fc9cefd33f6ca11ee4f2936671a84071e142a1bd
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253956"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621186"
 ---
 # <a name="sorting-searching-and-filtering-lists"></a>Sortere, søke etter og filtrere oversikter
 Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og begrense poster i en oversikt. Dette omfatter sortering, søk og filtrering. Du kan bruke noen av eller alle disse samtidig til å finne eller analysere data raskt.
@@ -41,7 +41,7 @@ Hvis du vil sortere en liste, kan du enten velge en kolonneoverskriftstekst og v
 
 For å søke velger du søkeikonet og skriver inn teksten som du søker etter, i boksen. Du kan skrive inn bokstaver, tall og andre symboler.
 
-### <a name="fine-tune-the-search"></a>Finjustere søket
+### <a name="fine-tuning-the-search"></a>Finjustere søket
 Vanligvis prøver Søk å samsvare teksten på tvers av alle feltene. Det skiller ikke mellom store og små bokstaver og samsvarer tekst plassert hvor som helst i feltet (ved begynnelsen, ved slutten eller i midten).
 
 Du kan imidlertid foreta et mer nøyaktig søk ved hjelp av følgende spesialtegn:

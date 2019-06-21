@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 04/01/2019
+ms.date: 05/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: fcae17577b448b4271adee299874cf5cad9da79f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c326b280e6539da69831fd4f9610540f1a1e139e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249379"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594130"
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter i e-post
 For å formidle innholdet i forretningsdokumenter raskt til dine forretningspartnere, for eksempel betalingsinformasjon for salgsdokumenter for kunder, kan du bruke funksjonen Rapportoppsett til å definere dokumentspesifikt innhold som blir satt inn automatisk i brødteksten i e-post. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).
@@ -54,7 +54,7 @@ Fremgangsmåten nedenfor beskriver hvordan du sender en bokført salgsfaktura so
 4. Velg **OK**. Siden **Send e-post** åpnes.
 5. Angi en gyldig e-postadresse i **Til**-feltet. Standardverdien er kundens e-postadresse.
 6. Angi en beskrivende emnetekst i **Emne**-feltet. Standardverdien er kundenavnet og fakturanummeret.
-7. Den genererte fakturaen legges som standard ved som en PDF-fil i **Vedlegg**-feltet. Velg oppslagsknappen for å åpne filen eller legge ved en annen.
+7. Den genererte fakturaen legges som standard ved som en PDF-fil i **Vedlegg**-feltet.
 8. Skriv inn en kort melding til mottakeren i **Tekst**-feltet.
 
     Hvis en dokumentspesifikk brødtekst i en e-post er konfigurert på siden **Rapportvalg - salg**, fylles **Brødtekst**-feltet ut automatisk. Hvis du vil ha mer informasjon, kan du se [Konfigurere en dokumentspesifikk brødtekst for e-post for salgsfakturaer](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).

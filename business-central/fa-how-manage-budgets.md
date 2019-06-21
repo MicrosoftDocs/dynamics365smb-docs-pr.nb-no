@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.date: 04/01/2019
+ms.date: 05/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0e7c7d665dc26a2af365daf6171affb679c22c1a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dfae781b7ddabd7283868886dd07699bf62be052
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247210"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620910"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Behandle budsjetter for aktiva
 Du kan definere budsjetterte aktiva. Dette gjør det for eksempel mulig å ta med forventede anskaffelser og salg i rapporter.  
@@ -51,7 +51,7 @@ Hvis du vil se de forventede salgsverdiene og beregne tap og vinning, kan du bru
 ## <a name="to-budget-depreciation"></a>Slik budsjetterer du avskrivninger
 Du kan bruke rapporten **Aktiva - forventet verdi** til å beregne fremtidig avskrivning. Rapporten viser den bokførte verdien og den akkumulerte avskrivningen ved begynnelsen og slutten av den valgte perioden, samt endringer i perioden.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva - forventet verdi**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forventet verdi for aktivum**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 3. Hvis du vil se de samlede verdiene for alle aktiva, fjerner du avmerkingen for **Skriv ut per aktiva**.
 4. La hurtigfanen **Aktiva** stå tom hvis du vil ha med alle aktivaene. I feltet **Budsjettert aktiva** angir du **Nei** hvis du ikke vil ha med budsjetterte aktiva, eller **Ja** hvis du bare vil se på de budsjetterte aktivaene.

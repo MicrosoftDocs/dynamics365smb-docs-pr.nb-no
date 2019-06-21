@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 57ac1956c2e7b22a04615c4ebd0ab5b502787a93
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: dcce77cae3f582f59ec07469342661ad2f4d9afa
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240651"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621025"
 ---
 # <a name="how-to-set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
@@ -25,6 +25,7 @@ Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebeveg
 ## <a name="required-and-optional-setups"></a>Nødvendige og valgfrie oppsett
 Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må du konfigurere flere ting:  
 
+* **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering. 
 * **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
 * **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
 * **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer.  

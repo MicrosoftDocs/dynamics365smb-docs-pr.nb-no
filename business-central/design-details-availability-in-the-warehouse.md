@@ -10,19 +10,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/03/2019
 ms.author: sgroespe
-ms.openlocfilehash: 38218c497f7d3892b19d0b594ff3863004f69ac4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: ab0f0e921fd7a321975330062d19869efc7d8ec7
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246867"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620933"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
 Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.  
 
- Tilgjengelighet varierer avhengig av tildelinger på hyllenivå når det oppstår lageraktiviteter som plukking og flytting, og når lagerreservasjonssystemet bruker begrensninger som må overholdes. En ganske komplisert algoritme bekrefter at alle betingelsene er oppfylt før tildeling av antall i plukk for utgående flyter.  
+Tilgjengelighet varierer avhengig av tildelinger på hyllenivå når det oppstår lageraktiviteter som plukking og flytting, og når lagerreservasjonssystemet bruker begrensninger som må overholdes. En ganske komplisert algoritme bekrefter at alle betingelsene er oppfylt før tildeling av antall i plukk for utgående flyter.
+
+Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger vises, inkludert den generiske "Ingenting å håndtere." meldingen. "Ingenting å håndtere." meldingen kan oppstå av mange ulike årsaker, både i utgående og inngående flyter, der en direkte eller indirekte involvert dokumentlinje inneholder feltet **Ant. som skal håndt**.
+
+> [!NOTE]
+> Informasjon vil snart bli publisert her om mulige årsaker og løsninger for "Ingenting å håndtere". meldingen.
 
 ## <a name="bin-content-and-reservations"></a>Hylleinnhold og reservasjoner  
  I en installasjon av lagerstyring finnes vareantall både som lagerposter i modulen Lager og som varepostene i modulen Beholdning. Disse to posttypene inneholder forskjellig informasjon om hvor varene er, og om de er tilgjengelige. Lagerposter angir disposisjonen til en vare etter hylle og hylletype, som kalles hylleinnhold. Vareposter angir varens tilgjengelighet ved reservasjon til utgående dokumenter.  
@@ -72,4 +77,5 @@ Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at u
  ![Disponibelt for reservering per lagerlokasjon](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
 
 ## <a name="see-also"></a>Se også  
- [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)
+ [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+ [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)

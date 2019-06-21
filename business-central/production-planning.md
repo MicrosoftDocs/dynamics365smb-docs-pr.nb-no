@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 05/23/2019
 ms.author: sgroespe
-ms.openlocfilehash: b0fdc5b1c0b76db96652e363979e6eb55f3c6c24
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 363cf9d0e7b90557867daaaab6f99378f51b9ef9
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252022"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621140"
 ---
 # <a name="planning"></a>Planlegging
 Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, må planlegges daglig eller ukentlig, avhengig av produktenes volum og beskaffenhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] har funksjoner for å dekke forventet og faktisk behov fra salg, montering og produksjon, i tillegg til funksjoner for distribusjonsplanlegging ved hjelp av lagerføringsenheter og lokasjonsoverføringer.
@@ -26,11 +26,9 @@ Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, 
 > Dette emnet beskriver hovedsakelig planlegging for selskaper som er involvert i produksjons- eller monteringsstyring der de resulterende forsyningsordrene kan være produksjon, montering, overføring eller bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er siden **Planleggingsforslag**.<br /><br />
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter også forsyningsplanlegging for engrosselskaper der de resulterende forsyningsordrene bare kan være overføringsordrer og bestillinger. Hovedgrensesnittet for dette planleggingsarbeidet er siden **Bestillingsforslaget**, som beskrives indirekte i dette emnet siden det meste av planleggingsfunksjonaliteten gjelder for begge forslag.
 
-Før du kan planlegge og utføre produksjonsordrer, må du konfigurere produksjonskapasitet, for eksempel opprette produksjonskalendere, ruter, produksjonsstykklister og produksjonsressurser. Hvis du vil ha mer informasjon, kan du se [Definere produksjon](production-configure-production-processes.md).
+Planlegging kan ses på som klargjøring av nødvendige forsyningsordrer i innkjøps-., monteringsstyrings- eller produksjonsavdelingene for å dekke salgs- og sluttvarebehovet. Hvis du vil ha mer informasjon, kan du se [Kjøp](purchasing-manage-purchasing.md), [Monteringsstyring](assembly-assemble-items.md) og [Produksjon](production-manage-manufacturing.md).
 
-Planlegging kan ses på som nødvendig klargjøring for forsyningsordrene i produksjons- eller produksjonsavdelingene for å dekke behovet. Hvis du vil ha mer informasjon, kan du se [Monteringsstyring](assembly-assemble-items.md) og [Produksjon](production-manage-manufacturing.md).
-
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
+Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  

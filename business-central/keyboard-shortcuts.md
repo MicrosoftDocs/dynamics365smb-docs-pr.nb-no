@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 423f5098589a0df5613190517fb933d0181360dd
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 11d63e2745ce35067d87e66c6077d51276f90075
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240582"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621209"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -85,7 +85,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |
 |Pil høyre|I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet.| Flytte i samme rad til neste flis til høyre. |
 |Pil venstre|I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet.| Flytte i samme rad til forrige flis til venstre. |
-|En side opp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
+|PgUp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
 |En side ned<br />(Fn + Pil ned)|Rulle for å vise de angitte radene under de gjeldende radene i visningen.|Rulle for å vise settet med fliser under de gjeldende flisene i visningen.|
 |TAB|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
 |Skift+TAB|I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
@@ -105,8 +105,8 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |Skift + PgUp<br />(Skift + Fn + Pil op)|Utvide valget av rader til å inkludere alle synlige rader ovenfor de merkede radene.|Ikke i bruk.|
 |Skift + PgDn<br />(Skift + Fn + Pil ned)|Utvide valget av rader til å inkludere synlige rader nedenfor de merkede radene.|Ikke i bruk.|
 |Ctrl+C<br />(Cmd + C)|Kopierer de merkede radene til utklippstavlen.|Ikke i bruk.|
-|Ctrl+V<br />(Cmd + V)|Limer inn de merkede radene fra utklippstavlen på den gjeldende siden eller i det eksterne dokumentet, som Microsoft Excel eller Outlook e-post.<br /><br />Du kan bare gjøre dette i redigerbare lister.|Ikke i bruk.|
-|F8|Kopier feltet i samme kolonne i raden over og lim det inn i den gjeldende raden.<br /><br />Du kan bare gjøre dette i redigerbare lister. Ved hjelp av denne hurtigtasten etterfulgt av en tabulator kan du raskt fylle ut feltene i linjevarene som du vil ha samme verdi som raden ovenfor.|Ikke i bruk.||
+|Ctrl+V<br />(Cmd + V)|Limer inn de merkede radene fra utklippstavlen på den gjeldende siden eller i det eksterne dokumentet, som Microsoft Excel eller Outlook e-post. Du kan bare gjøre dette i redigerbare lister.|Ikke i bruk.|
+|F8|Kopier feltet i samme kolonne i raden over og lim det inn i den gjeldende raden. Du kan bare gjøre dette i redigerbare lister. Ved hjelp av denne hurtigtasten etterfulgt av en tabulator kan du raskt fylle ut feltene i linjevarene som du vil ha samme verdi som raden ovenfor.|Ikke i bruk.|
 
 ### <a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
 
@@ -169,7 +169,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |Ctrl+End<br />(Cmd + End)|Lukke kalenderen og slette gjeldende dato.|
 |ESC|Lukke kalenderen uten et valg, beholde gjeldende dato.|
 |En side ned|Flytte til neste måned.|
-|En side opp|Flytte til forrige måned.|  
+|PgUp|Flytte til forrige måned.|  
 
 ## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Hurtigtaster i rapportforhåndsvisningen
 
@@ -183,7 +183,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |Pil venstre|Bla til venstre når siden er zoomet inn, slik at den ikke er helt i visningen. |
 |Pil høyre|Bla til høyre når siden er zoomet inn, slik at den ikke er helt i visningen. |
 |En side ned<br />(Fn + Pil ned)|Gå til den neste siden i rapporten.|
-|En side opp<br />(Fn + Pil opp)|Gå til den forrige siden i rapporten.|
+|PgUp<br />(Fn + Pil opp)|Gå til den forrige siden i rapporten.|
 
 ## <a name="see-also"></a>Se også
 

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/26/2019
 ms.author: edupont
-ms.openlocfilehash: a999a9533aa2dd4e8dcadea04e7838305b34ba5b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 79fa8f67a1b2d7ced65f002bd04fc69f61811c5e
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247503"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1620979"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 Få innsikt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene på en enkel måte med Power BI- og [!INCLUDE[d365fin](includes/d365fin_md.md)]-innholdspakkene. Power BI henter dataene, og deretter bygger du et forhåndskonfigurert instrumentbord og rapporter basert på dataene.  
 
-Du må ha en gyldig konto med Power BI og med Dynamics 365. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-innholdspakker krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
+Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-innholdspakker krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
 
 > [!IMPORTANT]
 > Innholdspakkene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme. Hvis du bruker [!INCLUDE [prodshort](includes/prodshort.md)] lokalt og bruker en annen godkjenningsmekanisme, kan ikke Power BI koble til dataene.  
@@ -28,15 +28,8 @@ Du må ha en gyldig konto med Power BI og med Dynamics 365. Du må også laste n
 Microsoft har publisert følgende innholdspakker:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] - CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Kundeoversikt  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Finans  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Vareliste  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Prosjekter  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Prosjektliste  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Kjøpsfakturaer  
 - [!INCLUDE [prodlong](includes/prodlong.md)] - Salg  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Ordreoversikt  
-- [!INCLUDE [prodlong](includes/prodlong.md)] - Leverandørliste  
 
 ## <a name="using-the-dashboards"></a>Bruke instrumentbordene
 Hver innholdspkke inneholder rapporter som du kan se på:
@@ -88,64 +81,9 @@ Hvis du vil importere [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-d
 - Excel-mal – Vis selskap
 - Power BI-rapportetiketter
 
-**Microsoft Dynamics 365 Business Central – Jobs**
-- Prosjektoversikt
-- Prosjektplanleggingslinjer
-- Prosjektoppgavelinjer
-- Power BI-rapportetiketter
-- Excel-mal – Vis selskap
-
 **Microsoft Dynamics 365 Business Central – Sales**
 - Instrumentbord for salg
 - Excel-mal – Vis selskap
-- Power BI-rapportetiketter
-
-### <a name="list-page-reports"></a>Rapporter for siden Liste
-
-**Microsoft Dynamics 365 Business Central – Customers List**
-- Varesalg etter kunde
-- Varekjøpsliste for Power BI
-- Varesalgsliste for Power BI
-- Instrumentbord for salg
-- Power BI Kundeoversikt
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central - General Ledger Entries List**
-- Finansbeløpsliste for Power BI
-- Finansbudsjettert beløp for Power BI
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Items List**
-- Varesalg etter kunde
-- Varekjøpsliste for Power BI
-- Varesalgsliste for Power BI
-- Instrumentbord for salg
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Jobs List**
-- Prosjektliste for Power BI
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Purchase Invoices List**
-- Kjøpsliste for Power BI
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-**Microsoft Dynamics 365 Business Central – Sales Orders List**
-- Salgsoversikt for Power BI
-- ExcelTemplateViewCompany
-- Power BI-rapportetiketter
-
-
-**Microsoft Dynamics 365 Business Central – Vendors List**
-- Varekjøpsliste for Power BI
-- Varesalgsliste for Power BI
-- Leverandørliste for Power BI
-- ExcelTemplateViewCompany
 - Power BI-rapportetiketter
 
 ## <a name="web-services"></a>Webtjenester
@@ -158,8 +96,7 @@ Power BI-instrumentbordet er avhengig av de publiserte webtjenestene som er nevn
 En vanlige feil er angi visningsnavnet for selskapet i stedet for selskapsnavnet. Søk etter **Selskaper** for å finne selskapsnavnet. Bruk **Navn**-feltet når du angir selskapsnavnet.
 
 ### <a name="incorrect-user-name-and-password"></a>Feil brukernavn og passord  
-Brukernavnet og passordet som brukes for å koble til, er det samme som brukes for å koble til Microsoft Office 365-kontoen.  
-
+Brukernavnet og passordet som brukes for å logge på Power BI, er det samme som brukes for å koble til Microsoft Office 365-kontoen.  
 Innholdspakker krever også at du har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto. Når du angir legitimasjonen, finner vi automatisk Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-leietakerne du har tilgang til. Hvis du ikke har en Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-konto som er lisensiert eller en prøveversjon, vises en feilmelding.
 
 ### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøkkelen samsvarer ikke med en rad i tabellen
