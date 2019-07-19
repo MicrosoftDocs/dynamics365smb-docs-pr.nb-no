@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a2adf188f616f3a9cbb0e0d3135ee79d238c453b
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540226"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629622"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkronisere data i Business Central og Dynamics 365 for Sales
 Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du fastsette om du vil synkronisere dataene i bestemte felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (for eksempel kunder, kontakter og selgere) med tilsvarende poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (for eksempel konti, kontakter og brukere). Du kan synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)] eller omvendt, avhengig av posttypen. Hvis du vil ha mer informasjon, kan du se [Integrere med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -77,7 +77,7 @@ Tabellen nedenfor viser tilordninger fra [!INCLUDE[d365fin](includes/d365fin_md.
 Tabellen nedenfor beskriver reglene som styrer synkroniseringen mellom appene.
 
 > [!NOTE]  
-> Endringer i data i [!INCLUDE[crm_md](includes/crm_md.md)] som ble foretatt av [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkontoen for tilkoblingen, synkroniseres ikke. Vi anbefaler derfor at du ikke endrer data mens du bruker denne kontoen. Hvis du vil ha mer informasjon, kan du se [Oppsett av integrering med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
+> Endringer i data i [!INCLUDE[crm_md](includes/crm_md.md)] som ble foretatt av [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkontoen for tilkoblingen, synkroniseres ikke. Vi anbefaler derfor at du ikke endrer data mens du bruker denne kontoen. Hvis du vil ha mer informasjon, se [Sette opp brukerkontoer for integrasjon med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md).
 
 |Bord|Regel|
 |-----|----|

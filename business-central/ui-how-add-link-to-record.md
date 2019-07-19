@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/12/2019
 ms.author: jswymer
-ms.openlocfilehash: 602d520043c5192109ccc4e2605ae0e231dafc1e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 781f43daf6482c7e29696dc7a03aa021550cde7d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250345"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629760"
 ---
 # <a name="add-links-to-websites-documents-or-programs-on-records"></a>Legge til koblinger i webområder, dokumenter eller programmer i poster
 Du kan legge til en kobling i et eksternt dokument, et webområde eller et program i en bestemt post som kunde, dokument eller ordre. Du kan også legge til en kobling som du kan velge for å åpne en ny, tom e-post til en bestemt mottaker. Kortsiden for noen poster, for eksempel kunde- og leverandørkort, har et **Hjemmeside**-felt der du kan angi en nettadresse (URL). Du kan bruke metoden som er beskrevet i denne artikkelen, for å inkludere andre koblinger.  
@@ -35,10 +35,9 @@ Et annet eksempel kan være når du mottar papirfakturaer fra leverandører. Du 
 
 4.  I vinduet **Koblingsadresse** angir du
 
-    -   Hvis du vil koble til en fil på datamaskinen eller nettverket, angir du fullstendig bane og filnavn som **C:My Documentsinvoice1.doc**.
+    -   Hvis du vil koble til en fil på datamaskinen eller nettverket, angir du fullstendig bane og filnavn, for eksempel **C:\My Documents\invoice1.doc**.
     -   Hvis du vil koble til et webområde, angir du Internett-adressen (URL-adressen), for eksempel **www.microsoft.com**.
-    -   Hvis du vil koble til et webområde, angir du Internett-adressen (URL-adressen), for eksempel **www.microsoft.com**.
-    -   Hvis du vil koble til et program, angir du en bestemt streng for å åpne programmet. Hvis du for eksempel vil åpne OneNote på en bestemt side, skriver du inn **onenote:///C:My Documentstest.one**. Eller hvis du vil åpne Outlook med en ny, tom e-post til et bestemt alias, skriver du inn **mailto:testalias**.  
+    -   Hvis du vil koble til et program, angir du en bestemt streng for å åpne programmet. Hvis du for eksempel vil åpne OneNote på en bestemt side, skriver du inn **onenote:///C:\My Documents/test.one**. Eller hvis du vil åpne Outlook med en ny, tom e-post til et bestemt alias, skriver du inn **mailto:testalias**.  
 
 5.  Fyll ut **Beskrivelse**-feltet med informasjon om koblingen.  
 

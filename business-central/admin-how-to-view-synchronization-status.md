@@ -1,6 +1,6 @@
 ---
-title: Vise statusen for en synkronisering | Microsoft Docs
-description: Slik viser du statusen for en individuell synkroniseringsjobb.
+title: Vise statusen til synkroniseringsjobber | Microsoft Docs
+description: Finn ut hvordan du viser statusen etter synkronisering av koblede poster.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,26 +8,41 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 06/13/2019
 ms.author: bholtorf
-ms.openlocfilehash: 11e29674c2d12031fdf4e7f66e767be4fcc74795
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: 8d7421d5fee1a6498c204730f873c3746aafc637
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1620887"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726747"
 ---
-# <a name="view-the-status-of-a-synchronization"></a>Vise statusen for en synkronisering
-Du kan vise statusen for individuelle synkroniseringsjobber som har blitt kjørt for [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjon. Dette inkluderer synkroniseringsjobber som har blitt kjørt fra jobbkøen, og manuelle synkroniseringsjobber som ble utført på poster fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er nyttig når du feilsøker synkroniseringsproblemer, fordi det gir deg tilgang til opplysninger om bestemte feil.
+# <a name="view-the-status-of-synchronization-jobs"></a>Vise statusen til synkroniseringsjobber
+Bruk siden **Feil ved synkronisering av koblede data** for å vise statusen til synkroniseringsjobber som har blitt kjørt for koblede poster i en [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjon. Dette inkluderer jobber som ble kjørt fra jobbkøen, og manuelle synkroniseringsjobber som kjørte på poster fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan for eksempel være nyttig å vise statusen deres når du feilsøker, fordi det gir deg tilgang til detaljer om feil relatert til koblede poster. Vanligvis er disse feiltypene forårsaket av brukerhandlinger, for eksempel når følgende er tilfelle:  
 
-### <a name="to-view-synchronization-issues-for-coupled-records"></a>Slik viser du synkroniseringsproblemer for koblede poster
+* To personer foretok en endring i den samme posten i begge bedriftsappene.
+* Noen slettet en post i en av appene, men ikke i begge.
+
+> [!Note]
+> Siden **Feil ved synkronisering av koblede data** viser informasjon om jobber relatert til koblede poster. Hvis du løser alle feilene, men poster fremdeles ikke synkroniseres, kan det ha noe å gjøre med en innstilling for integrasjonen. Vanligvis må disse feiltypene løses av administratoren.   
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+
+## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Slik viser du og løser synkroniseringsfeil for koblede poster
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Feil ved synkronisering av koblede data**, og velg deretter den relaterte koblingen.
-2. Siden **Feil ved synkronisering av koblede data** viser problemer som oppstod da du synkroniserte koblede poster. Du kan filtrere og sortere poster og utføre handlinger som for eksempel **Gjenopprett** eller **Slett poster** for å løse ett og ett problem.
+2. Siden **Feil ved synkronisering av koblede data** viser problemer som oppstod da du synkroniserte koblede poster. Følgende tabell inneholder handlinger som du kan bruke til å løse problemer ett etter ett:
 
-### <a name="to-view-synchronization-log-for-specific-manually-synchronized-record"></a>Vise synkroniseringslogg for bestemt (manuelt synkronisert) post
-1. Åpne for eksempel kunde, vare eller en annen post som synkroniserer data mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og Sales.
+|Handling|Beskrivelse|
+|----|----|
+|**Fjern kobling**|Opphever kobling av postene, og de vil ikke lenger synkroniseres. Hvis du vil gjenoppta synkronisering av postene, må du koble dem sammen på nytt.|
+|**Prøv på nytt**|For hver post der det oppdages en feil, blir synkronisering hoppet over med mindre du løser problemet manuelt. Hvis du prøver på nytt, inkluderes posten i neste synkronisering.|
+|**Synkroniser**|Appen vil prøve å løse en konflikt der en post ble endret i begge bedriftsappene. Du kan velge hvilken versjon av posten som skal brukes i begge appene.|
+|**Gjenopprett poster** og **Slett poster**|Dette er nyttig i tilfeller der en post ble slettet i en av appene. Slett poster sletter posten i appen der den fortsatt finnes. Gjenopprett gjenskaper posten i appen der den ble slettet.|
+
+## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Slik viser du synkroniseringsloggen for en bestemt (manuelt synkronisert) post
+1. Åpne for eksempel en kunde, vare eller en annen post som synkroniserer data mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Velg **Synkroniseringslogg**-handlingen for å vise synkroniseringsloggen for en valgt post. For eksempel en bestemt kunde du synkroniserte manuelt.
 
 ## <a name="see-also"></a>Se også  
-[Definere Dynamics 365 for Sales-integrering i Business Central](admin-setting-up-integration-with-dynamics-sales.md)  
+[Sette opp brukerkontoer for integrasjon med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Bruke Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)

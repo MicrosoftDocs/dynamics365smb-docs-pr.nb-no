@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 16f334548d9831507970a1b74ba5fa1716611380
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: de7acb10c76acc05fc6e6a5c708a8d412e4d9b30
+ms.sourcegitcommit: 6dc83b27ac47f3b39a7b84cfb7446e7f48b8ce63
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253726"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1632732"
 ---
 # <a name="personalizing-your-workspace"></a>Tilpasse arbeidsområdet
 
@@ -60,7 +60,7 @@ Avhengig av sidetypen og hva den omfatter, kan du gjøre ulike ting som å flytt
 |Vise et felt i overskriften i en hurtigfane når hurtigfanen er skjult.|Velg pilspissen, og velg <b>Vis når skjult</b>. <br /> <br />Hvis du ikke ser dette alternativet, er det allerede angitt. I dette tilfellet, hvis du slutte å vise feltet i hurtigfaneoverskriften, velger du <b>Vis alltid</b>.|*Hurtigfane* er ordet som brukes for en gruppe med felt som vises under en felles overskrift. Bruk <b>Vis når skjult</b>-alternativet for å vise de viktigste feltene. Hvis du velger et felt i overskriften, åpnes hurtigfanen med fokus på det valgte feltet.<br /><br />Dette alternativet er bare aktuelt hvis en side har mer enn én hurtigfane. Hvis det bare er én hurtigfane, kan den ikke bli skjult, og <b>Vis når skjult</b> er ikke tilgjengelig.|
 |Angi at et felt skal vises bare når du velger **Vis mer**.|Velg pilspissen, og velg <b>Vis under Vis mer</b>. <br /> <br />Hvis du ikke ser <b>Vis under Vis mer</b>-alternativet, er det allerede angitt. I dette tilfellet, for å vise et felt alltid og ikke bare når du velger **Vis mer**, velger du <b>Vis alltid</b>.||
 |Endre den fryste ruten i en liste til en annen kolonne. |Velg pilspissen for kolonnen som du vil ha som den siste kolonnen for den fryste ruten, og velg deretter <b>Sett Frys rute</b>.<br /><br/>Hvis du vil sette den fryste ruten tilbake til den opprinnelige utformede plasseringen, velger du pilspissen for den gjeldende kolonnen for fryst rute og velger <b>Fjern Frys rute</b>. Obs!  Du kan ikke fjerne den fryste ruten.|Den fryste ruten angir kolonnene som alltid vises til venstre, selv når du ruller vannrett.|  
-|Endre kolonnebredden.|Dra i kolonnens høyre ramme i raden for tabelloverskriften. <br /><br />Dobbeltklikk høyre rammen for å maksimere kolonnebredden slik at den passer til den lengste tekstlinjen i kolonnen.||
+|Endre kolonnebredden.|Dra grensen mellom kolonner i listens overskrift. <br /><br />Du kan dobbeltklikke på grensen mellom kolonneoverskrifter for å tilpasse automatisk, noe som setter bredden til en praktisk størrelse for lesbarhet.||
 |Du kan hoppe over et feltet når du trykker Enter.|Velg pilspissen ved siden av feltet eller kolonneoverskriften i en liste, og velg **Utelat fra hurtigoppføring**. <br /><br /> Hvis du ikke se dette alternativet, er feltet allerede definert til å hoppes over. I dette tilfellet, hvis du ikke vil hoppe over i feltet, velger du **Ta med i hurtigoppføring**. |Se [Raskere dataregistrering ved hjelp av hurtigoppføring](ui-enter-data.md#QuickEntry)|
 
 ## <a name="Actions"></a>Tilpasse handlinger

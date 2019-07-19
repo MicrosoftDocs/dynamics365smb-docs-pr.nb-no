@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 368bfc191aea4ae00c53d0c7ee892f3cc82c0ff7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245734"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629553"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisere tabelltilordninger manuelt
 En integrert tabelltilordning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell (posttype), for eksempel kunde, med en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet, for eksempel en konto. Synkronisering av en integrert tabelltilordning gjør det mulig å synkronisere data i alle poster av [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og [!INCLUDE[crm_md](includes/crm_md.md)]-enheten som er koblet. I tillegg, avhengig av oppsettet for tabelltilordningen, kan synkroniseringen opprette og koble nye poster i målløsningen for ukoblede poster i kilden.  
@@ -95,4 +95,4 @@ Ved å endre integrasjonstabelltilordningen på forhånd kan du konfigurere synk
 
 ## <a name="see-also"></a>Se også  
 [Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Definere Dynamics 365 for Sales-integrering i Business Central](admin-setting-up-integration-with-dynamics-sales.md)   
+[Sette opp brukerkontoer for integrasjon med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   

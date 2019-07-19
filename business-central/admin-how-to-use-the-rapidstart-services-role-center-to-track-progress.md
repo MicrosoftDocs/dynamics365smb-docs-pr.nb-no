@@ -1,8 +1,6 @@
 ---
 title: Bruke rollesenteret for RapidStart Services-implementerer | Microsoft-dokumentasjon
 description: Når du bruker RapidStart Services, anbefaler vi at du sporer arbeidet og bruker rollesenteret for RapidStart Services-implementereren som gir riktig kontekst for konfigurasjonsarbeidet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cb25c0266fe77454b20b471691e4d930110ac09a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: /dynamics365/business-central/admin-set-up-company-configuration
+ROBOTS: NOINDEX
+ms.openlocfilehash: e1cfcc47d5fb1112c4422be93ab49a345e9a30ec
+ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245169"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "1726908"
 ---
 # <a name="use-the-rapidstart-services-implementer-role-center"></a>Bruke rollesenteret for RapidStart Services-implementerer
 Når du bruker RapidStart Services, anbefaler vi at du bruker rollesenteret for RapidStart Services-implementereren som gir riktig kontekst for konfigurasjonsarbeidet. Hvis du vil ha mer informasjon, kan du se [Endre rollesenter](ui-change-basic-settings.md#to-change-role-center).

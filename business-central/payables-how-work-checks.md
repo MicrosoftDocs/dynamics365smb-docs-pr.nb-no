@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0eb1c99d38467969f072659996b0f598ba9d6576
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 97b98a334428f697e83bf655c1ec15a3539d3dea
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1254048"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701201"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
 Du kan utstede elektroniske og manuelle sjekker i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Begge metodene bruker utbetalingskladden til å utstede sjekker til leverandører. Du kan også kansellere sjekker og vise sjekkposter.
@@ -30,9 +30,9 @@ Du kan betale med to typer sjekker. For begge disse typene må feltet **Motkonto
 > [!NOTE]  
 > For å være sikker på at banken bare innfrir validerte sjekker og beløp, kan du sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. Hvis du vil ha mer informasjon, kan du se [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
-Skriveren må være riktig konfigurert for sjekkskjemaene, og du må definere hvilke sjekkoppsett som skal brukes. Hvis du vil ha mer informasjon, kan du se [Definere sjekkoppsett](finance-how-define-check-layouts.md)
+Skriveren må være riktig konfigurert for sjekkskjemaene, og du må definere hvilke sjekkoppsett som skal brukes. Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md)
 
-Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk gjelder for flere enn 10 fakturaer, kansellerer vi sjekken på den første siden og skrive ut ordet KANSELLER på sjekken når du skriver ut blanketten. Vi skriver deretter ut resten av fakturaene og det totale sjekkbeløpet på den andre siden. 
+Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk gjelder for flere enn 10 fakturaer, kansellerer vi sjekken på den første siden og skrive ut ordet KANSELLER på sjekken når du skriver ut blanketten. Vi skriver deretter ut resten av fakturaene og det totale sjekkbeløpet på den andre siden.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Slik betaler du en leverandørfaktura med en maskinell sjekk
 Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten er lik refusjon til kunde med sjekk.

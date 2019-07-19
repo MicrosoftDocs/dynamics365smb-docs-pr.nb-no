@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2019
+ms.date: 06/28/2019
 ms.author: edupont
-ms.openlocfilehash: d314b8ce94c5f8251298f0322acd2cdc4f6b15d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9248d39ed447f8c590db708567790edfd64da0db
+ms.sourcegitcommit: e8abfb78e13f3c29035087b09d7930f2950ab7a3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246737"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "1717587"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tillegget
-Det er enkelt å begynne med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget til Outlook. I den assisterte oppsettsveiledningen **Konfigurer forretningsinnboksen i Outlook** kan du definere forbindelsen for deg selv eller for organisasjonen. Hvis organisasjonen bruker office 365, må du angi ditt Office 365-navn og -passord. Hvis organisasjonen din ikke bruker Office 365, må du angi opplysninger om hvilken Exchange Server du bruker. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook.  
+Det er enkelt å begynne med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget til Outlook. I den assisterte oppsettsveiledningen **Konfigurer bedriftsinnboksen i Outlook** kan du definere forbindelsen for deg selv eller for organisasjonen hvis organisasjonen bruker Office 365. Spesifiser ganske enkelt ditt Office 365-brukernavn og -passord. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene legges deretter automatisk til i Outlook. Hvis du vil ha mer informasjon, kan du se [Minimumskrav for Outlook](product-requirements.md#outlook).  
 
 Deretter, når du åpner Outlook, vil du se en e-postmelding fra Dynamics 365 Business Central-administratoren. De nye tilleggene blir lagt til Outlook-båndet og i Outlook Web App kan du se tillegget [!INCLUDE[d365fin](includes/d365fin_md.md)] like over eller under brødteksten i e-postmeldingen. Tilleggene oppdateres med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
@@ -50,7 +50,7 @@ I Dokumentkoblinger-tillegget kan du endre og utføre handlinger med dokumentet,
 ## <a name="adding-the-add-ins-manually"></a>Legge til tillegg manuelt
 I noen tilfeller tilleggene ikke få legges til automatisk i Outlook. Selv om du eller en kollega kjørte assistert installasjonsveiledningen på vegne av selskapet, [!INCLUDE[d365fin](includes/d365fin_md.md)] kanskje ikke vises i Outlook. Hvis du opplever dette problemet, kan du legge til [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene manuelt.  
 
-Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Åpne ganske enkelt Outlook Web Access i en webleser, og legg deretter til `/owa/#path=/options/manageapps` i URL-adressen i adresselinjen. Dette åpner siden **Administrer tillegg**, der du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] skal være tilgjengelige.  
+Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Åpne ganske enkelt Outlook i en nettleser, og legg deretter til `/owa/#path=/options/manageapps` i URL-adressen i adresselinjen. Dette åpner siden **Administrer tillegg**, der du kan aktivere [!INCLUDE[d365fin](includes/d365fin_md.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[d365fin](includes/d365fin_md.md)] skal være tilgjengelige.  
 
 På samme måte i Outlook-skrivebordsklient, kan du bekrefte at [!INCLUDE[d365fin](includes/d365fin_md.md)] er oppført på siden **Administrer tillegg**.  
 

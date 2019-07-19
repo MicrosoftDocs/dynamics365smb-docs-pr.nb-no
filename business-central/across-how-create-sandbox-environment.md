@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2019
+ms.date: 06/26/2019
 ms.author: solsen
-ms.openlocfilehash: 113c081e60b825c48cfb85ae3475a713a1a1e215
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 217310522d7e54eeaa9dbd50df4ff89b0d68517d
+ms.sourcegitcommit: 5b6dd8d881c0eb65ece6936a94dfda3185574335
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241663"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711086"
 ---
 [!INCLUDE[d365fin_early_release](includes/d365fin_early_release.md.md)]
 
@@ -26,28 +26,36 @@ Et sandkassemiljø (forhåndsvisning) er en ikke-produktiv forekomst av [!INCLUD
 Du må ha et abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å kunne opprette et sandkassemiljø. Det kan være bare ett sandkassemiljø per abonnement.
 
 1. Logg deg på din produksjonsforekomst av [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenesten.
+
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Sandkassemiljø**, og velg deretter den relaterte koblingen.
 <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Velg **Opprett**.  
-  En annen kategori i webleseren åpnes for å fullføre oppsettet av sandkassemiljøet.
-> [!NOTE]  
->  Hvis du har aktivert popup-blokkering i webleseren, endrer du den til å tillate URL-adresser fra adressen *.businesscentral.dynamics.com.   
+3. Velg **Opprett**-knappen.  
+
+    Det åpnes en annen fane med [!INCLUDE[d365fin](includes/d365fin_md.md)], der du kan fullføre oppsettet av sandkassemiljøet.
+
+    > [!NOTE]  
+    >  Hvis du har aktivert popup-blokkering i webleseren, endrer du den til å tillate URL-adresser fra adressen *.businesscentral.dynamics.com.
 
 4. Når sandkassemiljøet er klart, vil du bli videresendt til velkomstveiviseren i sandkassemiljøet.
 <!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
 
-5. Velg **Finn ut mer** for å lese om scenarier som du kan prøve i et sandkassemiljø. Eller velg **Lukk** for å fortsette til rollesenteret i [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandkasseforekomsten.
-6. Øverst i rollesenteret vises en melding som varsler deg at dette er et sandkassemiljø. Du kan også se typen miljø på tittellinjen i klienten.
-<!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) --> En ny leietaker er opprettet i sandkassemiljøet. Denne leietakeren har standard demonstrasjonsdata for CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet under opprettelsen av sandkassen.
+5. Velg **Finn ut mer**-knappen for å lese om scenarioer som du kan prøve i et sandkassemiljø, eller velg **Lukk**-knappen for å fortsette til Rollesenteret for [!INCLUDE[d365fin](includes/d365fin_md.md)]-sandkasseforekomsten din.
 
-7. Når som helst kan du gå tilbake til siden **Sandkassemiljø** og tilbakestille sandkassemiljøet.
-> [!NOTE]  
->  Tilbakestilling av sandkassemiljøet fjerner det fullstendig, og deretter opprettes det på nytt med standard demonstrasjonsdata.  
+    Øverst i rollesenteret vises en melding som varsler deg at dette er et sandkassemiljø. Du kan også se typen miljø på tittellinjen i klienten.
+    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
-8. For å veksle mellom produksjons- og sandkassemiljøene kan du bruke Business Central-appstarteren.
+    > [!NOTE]
+    > Et sandkassemiljø som er opprettet på denne måten, inneholder bare standard demonstrasjonsdata for CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet.<br /><br />
+    > Du kan også opprette et sandkassemiljø som inneholder produksjonsdataene. Du må gjøre dette ved hjelp av administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Administrere miljøer](/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjelpen for utviklere og IT-eksperter.
+
+6. Når som helst kan du gå tilbake til siden **Sandkassemiljø** og tilbakestille sandkassemiljøet.
+    > [!NOTE]  
+    >  Tilbakestilling av sandkassemiljøet fjerner det fullstendig, og deretter opprettes det på nytt med standard demonstrasjonsdata.  
+
+7. For å veksle mellom produksjons- og sandkassemiljøene kan du bruke Business Central-appstarteren.
 <!-- ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
-9. Det er mulig for en administrator eller en annen bruker å begrense eller blokkere tilgang for enkelte brukere til sandkassemiljøet. Dette kan gjøres ved hjelp av standard sikkerhetsfunksjoner i produktet, for eksempel brukerkort, brukergrupper og tillatelsessett.
+8. Det er mulig for en administrator eller en annen bruker å begrense eller blokkere tilgang for enkelte brukere til sandkassemiljøet. Dette kan gjøres ved hjelp av produktets standard sikkerhetsfunksjoner, for eksempel brukerkort, brukergrupper og tillatelsessett.
 
 <!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
 
@@ -57,7 +65,7 @@ I et sandkassemiljø er den interne **designeren** klar, og du kan aktivere den 
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-### <a name="enable-the-advanced-user-experience"></a>Aktivere den avanserte brukeropplevelsen
+### <a name="to-enable-the-advanced-user-experience"></a>Slik aktiverer du den avanserte brukeropplevelsen
 Det er mulig å aktivere og prøve de avanserte (alle) funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasseleietaker ved å angi **Opplevelse**-feltet på **Selskapsopplysninger**-siden.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->

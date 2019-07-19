@@ -10,17 +10,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 06/06/2019
 ms.author: bholtorf
-ms.openlocfilehash: c95dee48b42fe5784c1d7d2fc6a11d5f487c7653
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.openlocfilehash: dfcb664d352683566df233d6b9b95900f2d76a5a
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621048"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629645"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-for-sales"></a>Konfigurere en kobling til Dynamics 365 for Sales
-For å integrere med [!INCLUDE[crm_md](includes/crm_md.md)] må du sette opp en forbindelse mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]. 
+For å integrere med [!INCLUDE[crm_md](includes/crm_md.md)] må du sette opp en forbindelse mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
@@ -30,7 +30,7 @@ Før du begynner å koble appene er det noen opplysninger som er nyttige å ha k
 * En URL-adresse til [!INCLUDE[crm_md](includes/crm_md.md)]-appen. En raskt mte å hente URL-adressen er å åpne [!INCLUDE[crm_md](includes/crm_md.md)] og kopiere URL-en, og deretter lime den inn **URL-adresse for Dynamics 365 for Sales**-feltet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] løser formateringen for deg.  
 * Et brukernavn og passord til en brukerkonto som bare brukes for integrasjonen.  
 * Brukernavnet og passordet på kontoen som har administratorrettigheter.  
-  
+
 > [!Note]
 > Følgende trinn beskriver fremgangsmåten for den elektroniske versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -38,7 +38,7 @@ Før du begynner å koble appene er det noen opplysninger som er nyttige å ha k
 For andre godkjenningstyper enn Office 365-godkjenning definerer du en tilkobling til Dynamics 365 for Sales på siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales**. For Office 365-godkjenning kan du også bruke den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 for Sales**, som hjelper deg med å angi den nødvendige informasjonen.
 
 ### <a name="to-use-an-assisted-setup-guide"></a>Slik bruker du en assistert oppsettsveiledning
-Den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 for Sales** hjelper deg med å definere tilkoblingen og angi om du vil aktivere avanserte funksjoner, for eksempel kobling mellom poster. 
+Den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 for Sales** hjelper deg med å definere tilkoblingen og angi om du vil aktivere avanserte funksjoner, for eksempel kobling mellom poster.
 
 1. Velg **Oppsett og utvidelser**, og velg deretter **Assistert oppsett**.
 2. Velg **Tilkoblingsoppsett for Dynamics 365 for Sales** for å starte assistert oppsettsveiledning.
@@ -57,7 +57,7 @@ Den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 for Sa
 |**Dynamics 365 SDK-versjon**|Dette er bare relevant hvis du integrerer med en lokal versjon av [!INCLUDE[crm_md](includes/crm_md.md)]. Dette er Dynamics 365 SDK-versjonen (også kalt Xrm) du bruker til å koble [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versjonen må være kompatibel med SDK-versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)], og er lik eller nyere enn versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)].|
 
 > [!Note]
-> Assistert oppsett-veiledningen **Konfigurere Dynamics 365 for Sales-tilkobling** tilordner sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker** til brukerkontoen som brukes til integrasjon. 
+> Assistert oppsett-veiledningen **Konfigurere Dynamics 365 for Sales-tilkobling** tilordner automatisk sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker** til brukerkontoen som brukes til integrasjon. 
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Opprette eller vedlikeholde tilkoblingen manuelt
 Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** manuelt. Dette er også siden der du kan håndtere innstillingene for integrasjonen.
@@ -105,10 +105,14 @@ Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilk
     > [!NOTE]  
     >  Hvis datakryptering ikke er aktivert i [!INCLUDE[d365fin](includes/d365fin_md.md)], får du bli spurt om du vil aktivere den. Hvis du vil aktivere datakryptering, velger du **Ja** og angir nødvendig informasjon. Ellers velger du **Nei**. Du kan aktivere datakryptering senere. Hvis du vil ha mer informasjon, kan du se [Kryptere data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i hjelpen for utviklere og IT-eksperter.  
 
-7. Hvis [!INCLUDE[crm_md](includes/crm_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], velger du **Ja** eller **Nei**. 
+7. Hvis [!INCLUDE[crm_md](includes/crm_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], velger du **Ja** eller **Nei**.
 
 > [!Note]
-> Ved tilkobling til Dynamics 365 for Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** må du kanskje [tilordne sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til brukerkontoen som brukes for integrasjon. 
+> Tilkobling til Dynamics 365 for Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** kan kreve at du tilordner sikkerhetsrollene Integrasjonsadministrator og Integrasjonsbruker til kontoen som brukes for integrasjon. Hvis du vil ha mer informasjon, kan du se [Tilordne en sikkerhetsrolle til en bruker](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Ved tilkobling til Dynamics 365 for Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** må du kanskje [tilordne sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker**](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til brukerkontoen som brukes for integrasjon.
 
 
 ### <a name="to-disconnect-from-includecrmmdincludescrmmdmd"></a>For å koble fra [!INCLUDE[crm_md](includes/crm_md.md)]  
@@ -116,7 +120,7 @@ Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilk
 2. På siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** fjerner du merket for **Aktivert**.  
 
 <!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension? 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
 
 
 1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
@@ -137,11 +141,11 @@ Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilk
 
 5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
 
-If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.--> 
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
 
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() --> 
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [How to: Set Up a Microsoft Dynamics 365 for Sales Connection]() -->
 
-<!-- 
+<!--
 # View Item Availability - Support Matrix
 For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 for Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
@@ -162,4 +166,3 @@ For more information, see [System Requirements for Business Central](../deployme
 
 ## <a name="see-also"></a>Se også  
 [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)  
-

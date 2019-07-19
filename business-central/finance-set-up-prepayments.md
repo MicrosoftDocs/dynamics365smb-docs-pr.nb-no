@@ -5,19 +5,19 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 04/01/2019
+ms.date: 06/24/2019
 ms.author: edupont
-ms.openlocfilehash: e8a6e0834b259358de5c07d3f83a7b5477a0d3a7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 77e53c7492a1c9ab5bd1e4d150b291ebd2b61917
+ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244702"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701155"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører og sørge for at alle delvise betalinger bokføres mot en faktura. Hvis du vil ha mer informasjon, kan du se [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
-Før du kan bokføre forskuddsfakturaer, må du definere bokføringskontiene i Finans, og du må definere en nummerserie for forskuddsdokumenter.  
+Før du kan bokføre forskuddsfakturaer, må du definere bokføringskontiene i Finans, og du må definere en nummerserie for forskuddsdokumenter. Du må angi en konto for forskuddsbetalinger som er knyttet til salg, og en konto for forskuddsbetalinger som er knyttet til innkjøp. Du kan angi at de samme bokføringskontoene skal brukes for alle forskuddsbetalinger knyttet til alle generelle bedriftsrelaterte bokføringsgrupper og generelle produktrelaterte bokføringsgrupper, eller du kan angi bestemte kontoer for bestemte bokføringsgrupper for henholdsvis salg og kjøp. Dette avhenger av selskapets krav for sporing av forskuddsbetalinger.  
 
 Du kan definere hvor stor prosentdel av linjebeløpet som skal faktureres for forskuddsbetaling, for en kunde eller leverandør, for alle varer eller for utvalgte varer. Når du har fullført oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger. Du kan bruke standardprosentsatsene for hver salgs- eller kjøpslinje, eller du kan endre beløpene på fakturaen etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
 
@@ -33,7 +33,10 @@ Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene e
     - **Konto for salgsforskudd**  
     - **Konto for kjøpsforskudd**  
 
-Hvis du ikke allerede har definert finanskonti for forskuddsbetalinger, kan du gjøre det på siden **Finanskontooversikt**.  
+> [!TIP]
+> Hvis du ikke kan se feltene på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
+
+Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du åpne siden **Finanskontooversikt** fra det relevante kontofeltet.  
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Slik setter du opp nummerserie for forskuddsdokumenter  
 
@@ -50,7 +53,7 @@ Hvis du ikke allerede har definert finanskonti for forskuddsbetalinger, kan du g
     - **Bokførte kreditnotanumre for forskudd**
 
 > [!NOTE]  
->  Du kan bruke samme nummerserie for forskuddsfakturaer og vanlige fakturaer, eller du kan bruke forskjellige nummerserier. Hvis du bruker forskjellige serier, kan de ikke overlappe hverandre fordi ett og samme nummer kan ikke forekomme i begge seriene.  
+> Du kan bruke samme nummerserie for forskuddsfakturaer og vanlige fakturaer, eller du kan bruke forskjellige nummerserier. Hvis du bruker forskjellige serier, kan de ikke overlappe hverandre fordi ett og samme nummer kan ikke forekomme i begge seriene.  
 
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definere forskuddsprosenter for varer, kunder og leverandører  
 For en vare kan du definere en standard forskuddsprosent for alle kunder, en bestemt kunde eller en kundeprisgruppe.  
@@ -67,7 +70,9 @@ For en kunde eller leverandør kan du definere en standard forskuddsprosent for 
 4. Gjenta fremgangsmåten for andre kunder eller leverandører.  
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Slik bestemmes hvilken forskuddsprosent som har førsteprioritet  
+
 En ordre kan ha en forskuddsprosent på salgshodet og en annen prosent for varene på linjene. For å bestemme hvilken forskuddsprosent som gjelder for hver salgslinje, leter systemet etter forskuddsprosenten i den følgende ordren. Den første standardverdien som blir funnet, blir tatt i bruk:  
+
 1. En forskuddsprosent for varen på linjen og kunden som ordren er for.  
 2. En forskuddsprosent for varen på linjen og kundeprisgruppen som kunden tilhører.  
 3. En forskuddsprosent for varen på linjen for alle kunder.  
