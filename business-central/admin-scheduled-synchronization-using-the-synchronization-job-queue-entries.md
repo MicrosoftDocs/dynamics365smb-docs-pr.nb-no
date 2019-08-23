@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 07/16/2019
 ms.author: bholtorf
-ms.openlocfilehash: b3fb3d2680cd85da8b2def7e82fbf62c0046fcc3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
+ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247424"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755221"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Planlegge en synkronisering mellom Business Central og Dynamics 365 for Sales
 Du kan synkronisere [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] på planlagte intervaller ved å definere jobber i jobbkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster og [!INCLUDE[crm_md](includes/crm_md.md)]-poster som har blitt koblet sammen tidligere. Eller for poster som ikke allerede er koblet, avhengig av synkroniseringsretningen og regler, kan synkroniseringsjobbene opprette og koble nye poster i målsystemet. Det finnes flere synkroniseringsjobber som er tilgjengelige som standard. Du kan vise dem på siden **Poster i jobbkø**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
@@ -31,7 +31,7 @@ For å kunne synkronisere data må [!INCLUDE[crm_md](includes/crm_md.md)]-enhets
 -   Som standard synkroniseres bare poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] som er koblet til poster i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan endre tabelltilordningen mellom en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet og en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell, slik at integrasjonssynkroniseringsjobbene oppretter nye poster i måldatabasen for hver post i kildedatabasen som ikke er koblet. De nye postene er også koblet til tilsvarende poster i kilden. Når du for eksempel synkroniserer kunder med [!INCLUDE[crm_md](includes/crm_md.md)]-konti, opprettes en ny postkonto for hver kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. De nye kontoene kobles automatisk til kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fordi synkronisering i dette tilfellet er toveis, opprettes og kobles en ny kunde for hver [!INCLUDE[crm_md](includes/crm_md.md)]-konto som ikke allerede er koblet.  
 
     > [!NOTE]  
-    >  Det finnes regler og filtre som bestemmer hvilke data som synkroniseres. Hvis du vil ha mer informasjon, kan du se [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
+    > Det finnes regler og filtre som bestemmer hvilke data som synkroniseres. Hvis du vil ha mer informasjon, kan du se [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md#synchronization-rules).
 
 -   Når nye poster opprettes i [!INCLUDE[d365fin](includes/d365fin_md.md)], bruker postene enten malen som er definert for integrasjonstabelltilordningen, eller standardmalen som er tilgjengelig for posttypen. Felt fylles ut med data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)], avhengig av synkroniseringsretningen. Hvis du vil ha mer informasjon, se [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -51,7 +51,7 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber.
 |CUSTOMER – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-kontoer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder.|Toveis|CUSTOMER|  
 |CUSTPRCGRP-PRICE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-salgspriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kundeprisgrupper.| |KUNDEPRISGRUPPER-SALGSPRISLISTER|
 |ITEM - PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-varer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|VARE-PRODUKT|
-|POSTEDSALESINV INV – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|
+|POSTEDSALESINV INV – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|
 |RESOURCE-PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-ressurser.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|RESSURS-PRODUKT|  
 |SALESPEOPLE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[d365fin](includes/d365fin_md.md)]-selgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brukere.|Fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]|SELGERE|
 |SALESPRC-PRODUCTPRICE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produktpriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgspriser.||PRODUKTPRIS-SALGSPRIS|
@@ -63,7 +63,7 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber.
 2.  Hvis én eller flere feil oppstod for en synkroniseringsjobb, vises antall feil i **Mislyktes**-kolonnen. Hvis du vil vise feil for prosjektet, kan du velge nummeret.  
 
     > [!TIP]  
-    >  Du kan vise alle synkroniseringsjobbfeil ved å åpne loggen for synkroniseringsjobbfeil direkte.
+    > Du kan vise alle synkroniseringsjobbfeil ved å åpne loggen for synkroniseringsjobbfeil direkte.
 
 ## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Slik viser du synkroniseringsjobbloggen fra tabelltilordningene  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.

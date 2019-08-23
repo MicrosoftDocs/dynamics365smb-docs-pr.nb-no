@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/13/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: 4854dc38fe395fb36381cda0e2c177e9e3abf591
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629484"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858269"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
 Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også lære hvordan du får teknisk støtte.  
 
-## <a name="is-included365finincludesd365finmdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
+## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land og oversettelser som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
@@ -30,25 +30,27 @@ For å hjelpe deg med å bli klar for å gjøre forretninger i [!INCLUDE [prodsh
 
 Når du er klar for å kjøpe [!INCLUDE [prodshort](includes/prodshort.md)], finner du en [!INCLUDE [prodshort](includes/prodshort.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
+[!INCLUDE [prodshort](includes/prodshort.md)] selges og implementeres gjennom et globalt nettverk av Dynamics 365-partnere med bransjeekspertise. Kontakt en partner for å få en detaljert vurdering, konsulenttjenester og flere priser. Hvis du vil ha mer informasjon, kan du se delen **Priser** på siden [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/).  
+
 ## <a name="where-do-i-go-if-i-have-questions"></a>Hvor går jeg hvis jeg har spørsmål?
 Hvis du har spørsmål om [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ikke finner et svar for i denne dokumentasjonen, kan du spørre Business Central-fellesskapet. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business Central-fellesskapet](https://community.dynamics.com/business).  
 
-Fra hjemmesiden for gruppen kan du også finne koblinger til våre blogger, der du også finner råd og tips. Hvis du vil ha mer informasjon, kan du se [Dynamics 365 Business Central-bloggen](https://community.dynamics.com/business/b/financials) og [Dynamics 365 Business Central-støttebloggen](https://community.dynamics.com/business/b/dynamics365financialssupport).  
+Fra hjemmesiden for gruppen kan du også finne koblinger til våre blogger, der du også finner råd og tips. Hvis du vil ha mer informasjon, kan du se [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og den eldre [Dynamics 365 Business Central-bloggen](https://community.dynamics.com/business/b/financials).  
 
 Til slutt kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for videresalg. Hvis du vil ha mer informasjon, kan du se [Hvordan får jeg teknisk støtte for?](across-faq.md#how-do-i-get-technical-support-for-)-delen.  
 
-## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365finmdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Har du lest om en ny funksjon i utgivelsesplanen eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er det noen forskjeller mellom en lokal distribusjon og skyversjonen av Business Central?
 Ja. Noen skybaserte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Funksjoner som ikke er implementert i lokale distribusjoner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
-## <a name="can-i-get-training-in-included365finincludesd365finmdmd"></a>Kan jeg få opplæring i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan jeg få opplæring i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Ja, det kan du. For øyeblikket må du imidlertid spørre videresalgspartneren. Hvis du ikke vet hvem det er, finner du en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
 Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettstedet Imagine Academy med e-læringsmateriale. Hvis du vil ha mer informasjon om hvordan du får tilgang, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
-## <a name="how-do-i-get-technical-support-for-included365finincludesd365finmdmd"></a>Hvordan får jeg teknisk støtte for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hvordan får jeg teknisk støtte for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
 
@@ -62,7 +64,7 @@ Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til *
 Det finnes ingen *lagre*-knapp på sider som i andre programmer du kanskje er kjent med. I [!INCLUDE[d365fin](includes/d365fin_md.md)] lagres endringer du gjør i et felt, automatisk så snart du går til neste felt eller lukker siden, forutsatt at det ikke finnes feil. Når du gjør endringer i et felt og flytter til en annet felt, vises teksten **Lagre** øverst til høyre på siden, som raskt endres til **Lagret** hvis det ikke oppstår noen feil. Hvis det oppstår en feil, endres teksten til **Ikke lagret**.
 
 
-## <a name="what-email-address-can-i-use-with-included365finincludesd365finmdmd"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="what-email-address-can-i-use-with-included365finincludesd365fin_mdmd"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 [!INCLUDE[d365fin](includes/d365fin_md.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  
 
 Hvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole. Hvis du vil ha mer informasjon, kan du se [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md).  
@@ -72,12 +74,12 @@ Hvis du vil distribuere [!INCLUDE[d365fin](includes/d365fin_md.md)] lokalt, kan 
 ## <a name="do-i-have-to-buy-office-365"></a>Må jeg kjøpe Office 365?
 Nr. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
 
-Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Office 365-abonnement, kan du knytte domenet (mysolution.com) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel *joe@mysolution.com*), og du har et Office 365-abonnement, kan du knytte domenet (*mysolution.com*) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Hvis du ikke har et Office 365-abonnement, og du ikke vil kjøpe et, vil vil, når du registrerer deg, klargjøre vi en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
 
 ## <a name="what-is-the-integration-with-office-365-about"></a>Hvordan fungerer integreringen med Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jeg utvide min 30-dagers "Nytt selskap"-prøveperiode?
 Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen. Du kan utvide prøveperioden én gang selv. Etterpå kan en Microsoft-partner utvide det i ytterligere i 30 dager. Hvis du vil ha mer informasjon, se [Utvide prøveversjonen](admin-extend-trial.md). Du kan kontakte en Microsoft-partner i landet eller regionen din nå og se en oversikt over telefonnumrene i [CustomerSource](https://mbs.microsoft.com/customersource/northamerica/CRM/support/support-news/Support_Telephone#linkc).  
@@ -85,7 +87,7 @@ Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som s
 > [!NOTE]
 > Det kan ta opptil to arbeidsdager å fullføre utvidelsen av prøveversjonen.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365finmdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme rollesenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme rollesenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 Dette er litt komplisert, men det ser ut som administratoren ikke endre ditt rollesenter og tilordne brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] avhengig av hvilken type plan (lisens) som du har - dette angir tillatelser og standardside for rollesenter. Du kan endre ditt rollesenter manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flytte fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle hjemmesiden fordi tillatelsene ikke ble endret.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jeg avbryte abonnementet?

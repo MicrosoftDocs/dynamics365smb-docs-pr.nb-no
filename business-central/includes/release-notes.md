@@ -2,4 +2,4 @@
 >
 > Er du interessert i kommende og nylig frigitte funksjoner i Dynamics 365 Business Central?
 >
-> [Se siste versjon av utgivelsesplanen](/business-applications-release-notes/April19/dynamics365-business-central/). Vi har registrert alle detaljene, og du finner også utgivelsesplanen som én enkelt PDF-fil som du kan bruke for planlegging.  
+> [Se siste versjon av utgivelsesplanen](/dynamics365/release-plans/index). Vi har registrert alle detaljene, ende til ende, øverst til nederst, som du kan bruke i planleggingen. For hver versjon kan du hente utgivelsesplanen som én enkelt PDF-fil.  

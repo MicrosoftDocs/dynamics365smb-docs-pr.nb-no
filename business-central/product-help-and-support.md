@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/03/2019
-ms.openlocfilehash: 6b19a566ada8e9708bb19a82ded3404b29cf260d
-ms.sourcegitcommit: 8fe694b7bbe7fc0456ed5a9e42291218d2251b05
+ms.date: 07/17/2019
+ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "1726957"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1755972"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
@@ -43,11 +43,11 @@ Hvis du bruker en prøveversjon av [!INCLUDE [prodshort](includes/prodshort.md)]
 
 ### <a name="blog"></a>Blogg
 
-I [Business Central-bloggen](https://community.dynamics.com/business/b/financials) kan du finne ut mer om de nye [!INCLUDE[prodshort](includes/prodshort.md)]-funksjonene, nye apputgivelser, tips og triks samt nyheter om nye landsversjoner.  
+Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
 
 ### <a name="capabilities-coming-soon"></a>Funksjoner som kommer snart
 
-[!INCLUDE[prodshort](includes/prodshort.md)] oppdateres med viktige funksjoner hver sjette måned og månedlige tjenesteoppdateringer. Velg koblingen for å vise den siste utgivelsesplanen. Du kan også få en oversikt over kommende og nylig lanserte funksjoner i utgivelsesplanen på tvers av Dynamics 365 på [https://dynamics.microsoft.com/en-us/business-applications/release/](https://dynamics.microsoft.com/en-us/business-applications/release/#release-notes).  
+[!INCLUDE[prodshort](includes/prodshort.md)] oppdateres med viktige funksjoner hver sjette måned og månedlige tjenesteoppdateringer. Velg koblingen for å vise den siste utgivelsesplanen. Du kan også få en oversikt over kommende og nylig lanserte funksjoner i utgivelsesplanen på tvers av Dynamics 365 på [https://aka.ms/businessappsreleasenotes](https://aka.ms/businessappsreleasenotes).  
 
 For å få oversikt over en lengre periode viser [!INCLUDE[prodshort](includes/prodshort.md)] [veikartsiden](https://dynamics.microsoft.com/roadmap/business-central/) de generelle prioriteringene for [!INCLUDE[prodshort](includes/prodshort.md)] de kommende årene.  
 

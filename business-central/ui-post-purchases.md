@@ -1,22 +1,21 @@
 ---
 title: Forstå hvordan du bokfører kjøpsdokumenter | Microsoft-dokumentasjon
-description: Les om de ulike bokføringsfunksjonene for å bokføre kjøpsdokumenter.
-services: project-madeira
-documentationcenter: ''
-author: SusanneWindfeldPedersen
+description: Lær om de forskjellige bokføringsfunksjonene for å bokføre kjøpsdokumenter og hvordan du kan oppdatere bokførte dokumenter.
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: cc3d2e5b0f3425c329e5567e7d00908cb7f5c7d5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.reviewer: edupont
+ms.date: 07/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 55a910e471db7b674b0107022647cfd7af7a500d
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247856"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796921"
 ---
 # <a name="posting-purchases"></a>Bokføre kjøp
 I **Bokføringsgruppe** i et kjøpsdokument, kan du velge mellom følgende bokføringsfunksjoner:
@@ -45,7 +44,9 @@ Du kan enten bokføre eller bokføre og skrive ut. Hvis du velger å bokføre og
 Når bokføringen er utført, fjernes de bokførte kjøpslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Kjøpsmottak** og **Bokførte kjøpsfakturaer**.
 
 ## <a name="see-also"></a>Se også
+
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
+[Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

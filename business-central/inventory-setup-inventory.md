@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2019
+ms.date: 06/20/2019
 ms.author: SorenGP
-ms.openlocfilehash: 038e3a9bfdb66a8d714f4f9452f0322623e6ddc4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 53214df635c637e265c6d302498beee08e9b806c
+ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238512"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870526"
 ---
 # <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
@@ -32,6 +32,7 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Konfigurer en effektiv distribusjonsmodell med en kombinasjon av ulike lokasjoner og ansvarssentre tilordnet til forretningspartnere eller ansatte.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 | Organiser beholdningen på flere lokasjoner, inkludert overføringsruter. |[Definer lokasjoner](inventory-how-register-new-items.md) |
 | Opprett varekort for lagervarer, ikke-lagervarer eller servicevarer som du handler med. |[Registrere nye varer](inventory-how-register-new-items.md) |
+|Bruk **Kopier vare**-funksjonen til raskt å opprette et nytt varekort basert på et eksisterende varekort.|[Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md)|
 |Lær hvordan du fyller ut feltet **Type** på varekortene i henhold til selskapsformålet.|[Om varetyper](inventory-about-item-types.md)|
 |Definer flere enheter for en vare som kan brukes som alternative enheter, for eksempel for salgs-, kjøps- eller produksjonstransaksjoner.|[Definere vareenheter](inventory-how-setup-units-of-measure.md)|
 |Som et supplement til varekort kan du registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.|[Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)|

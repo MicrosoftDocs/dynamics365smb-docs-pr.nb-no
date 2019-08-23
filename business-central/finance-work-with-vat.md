@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: bholtorf
-ms.openlocfilehash: 1665985ba00b291469146536a69a0dcfe9dec85a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238903"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796852"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -55,34 +55,42 @@ Selv om du kan ha satt opp én eller flere kombinasjoner for å håndtere import
 
 Når kontantrabatten er tildelt, kan du tilbakestille den delen av kontantrabatten som gjelder mva-beløpet hvis det er beregnet en kontantrabatt på bakgrunn av et fakturabeløp med mva. Merk at du må aktivere feltet **Juster for kontantrabatt** både i finansoppsettet generelt og i mva-bokføringsoppsettet for en bestemt kombinasjon av mva-firmabokføringsgrupper og mva-varebokføringsgrupper.  
 
-#### <a name="to-manually-enter-vat-in-sales-documents"></a>Slik angir du mva manuelt i salgsdokumenter  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Slik oppretter du et system for manuell mva-post i salgsdokumenter
+Nedenfor ser du hvordan du aktiverer manuelle mva-endringer på salgsdokumenter. Trinnene ligner på siden **Kjøpsoppsett**.
+
 1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
 2. Merk av for **Tillat mva-differanse** på siden **Salgsoppsett**.  
 
-#### <a name="to-adjust-vat-for-a-sales-document"></a>Slik justerer du mva for et salgsdokument  
+### <a name="to-adjust-vat-for-a-sales-document"></a>Slik justerer du mva for et salgsdokument  
 1. Åpne den aktuelle ordren.  
 2. Velg handlingen **Statistikk**.  
-3. Velg hurtigfanen **Fakturering**.  
+3. På hurtigfanen **Fakturering** velger du verdien i feltet **Ant. mva-linjer**.
+4. Rediger **mva-beløp**-feltet.   
 
-    > [!NOTE]  
-    >  Det totale mva-beløpet for fakturaen, gruppert etter mva-type, vises på linjene. Du kan justere beløpet manuelt i **Mva-beløp**-feltet på linjene for hver mva-type. Når du endrer **Mva-beløp**-feltet, kontrolleres det at du ikke har endret mva med mer enn beløpet du har angitt som tillatt maksimumsdifferanse. Hvis beløpet er utenfor området for **Maks. tillatte mva-differanse**, vises det en advarsel som angir den maksimale differansen som er tillatt. Du kan ikke fortsette før beløpet er justert innenfor de godkjente parametrene. Klikk **OK** og angi et annet **mva-beløp** som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimum, deles mva proporsjonelt mellom dokumentlinjene som har samme mva-type.  
+> [!NOTE]  
+> Det totale mva-beløpet for fakturaen, gruppert etter mva-type, vises på linjene. Du kan justere beløpet manuelt i **Mva-beløp**-feltet på linjene for hver mva-type. Når du endrer **Mva-beløp**-feltet, kontrolleres det at du ikke har endret mva med mer enn beløpet du har angitt som tillatt maksimumsdifferanse. Hvis beløpet er utenfor området for **Maks. tillatte mva-differanse**, vises det en advarsel som angir den maksimale differansen som er tillatt. Du kan ikke fortsette før beløpet er justert innenfor de godkjente parametrene. Klikk **OK** og angi et annet **mva-beløp** som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimum, deles mva proporsjonelt mellom dokumentlinjene som har samme mva-type.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Beregne mva manuelt ved hjelp av kladder  
 Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder. Dette kan for eksempel være nødvendig når du angir en leverandørfaktura i kladden og det er en differanse mellom mva-beløpet som er beregnet i [!INCLUDE[d365fin](includes/d365fin_md.md)], og mva-beløpet på leverandørfakturaen du har mottatt.  
 
-#### <a name="before-you-manually-enter-vat-on-a-general-journal"></a>Før du angir mva manuelt i en finanskladd  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Slik konfigurerer du systemet for manuell mva-post i en finanskladd.
+Du må utføre følgende trinn før du angir mva manuelt i en finanskladd.  
+
 1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
 2. På siden **Finanskladdemaler** merker du av for **Tillat mva-differanse** for den relevante kladden.  
 
-#### <a name="before-you-manually-enter-vat-on-sales-and-purchase-journals"></a>Før du kan angi mva manuelt i salgs- og kjøpskladder  
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Slik konfigurerer du systemet for manuell mva-post i salgs- og kjøpskladder
+Du må utføre følgende trinn før du angir mva manuelt i en salgs- eller kjøpskladd.
+
 1. På siden **Kjøpsoppsett** merker du av for **Tillat mva-differanse**.  
-2. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
+2. Gjenta trinn 1 for siden **Salgsoppsett**.
+3. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
 
     > [!NOTE]  
     > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] differansen i feltet **Mva-differanse**.  
 
-## <a name="to-post-import-vat-with-purchase-invoices"></a>Slik bokfører du import-mva med kjøpsfakturaer
-I stedet for å bruke en kladd til å bokføre en viktig mva-faktura, kan du bruke en kjøpsfaktura.  
+## <a name="posting-import-vat-with-purchase-invoices"></a>Bokføre import-mva med kjøpsfakturaer
+I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruke en kjøpsfaktura.  
 
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Slik definerer du kjøp for bokføring av fakturaer med import-mva.:  
 1. Opprett et leverandørkort for importmyndigheten som sender deg fakturaen for import-mva. **Bokføringsgruppe - firma** og **Mva-bokføringsgruppe - firma** må være definert på samme måte som finanskontoen for import-mva.  
@@ -102,7 +110,7 @@ I stedet for å bruke en kladd til å bokføre en viktig mva-faktura, kan du bru
 6. Angi mva-beløpet i feltet **Direkte enhetskost eks. mva**.  
 7. Bokfør fakturaen.  
 
-## <a name="to-process-certificates-of-supply"></a>Slik behandler du leveringsbekreftelser
+## <a name="processing-certificates-of-supply"></a>Behandle leveringsbekreftelser
 Når du selger varer til en kunde i et annet EU-land, må du sende kunden en leveringsbekreftelse som kunden må signere og returnere til deg. Følgende prosedyrer er for behandling av leveringsbekreftelser for følgesedler, men de samme trinnene gjelder for servicefølgesedler for varer og returforsendelser til leverandører.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Slik viser du detaljer om leveringsbekreftelser  

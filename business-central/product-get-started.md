@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: setup wizard
 ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 91ade518beb551d7b9c30cef0eef3c5c72b366aa
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629944"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858292"
 ---
-# <a name="getting-started-with-included365finlongincludesd365finlongmdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet. Hvis du vil ha hjelp med abonnementet, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
 
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]-prøveversjonen, får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette dine egne salgsdokumenter eller definere en bankkonto.  
 
-## <a name="get-to-know-included365finincludesd365finmdmd"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="get-to-know-included365finincludesd365fin_mdmd"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] vil noe være kjent for deg og andre ting som kanskje ikke er kjent. I demonstrasjonsselskapet forklarer visuelle veiledninger kjernefunksjonaliteten og hjelper deg med å prøve ut daglige oppgaver som å opprette en salgsfaktura og viser en rapport. Hvis du forlater en guide, for eksempel for å utforske [!INCLUDE[d365fin](includes/d365fin_md.md)] på egen hånd, men vil gå tilbake til den, gå tilbake til rollesenteret og start innføringen Komme i gang. Hvis du vil ha mer hjelp, kan du kontakte en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 > [!TIP]  
@@ -87,7 +87,7 @@ Hvis du har flere spørsmål, anbefaler vi at du spør gruppen eller kontakter v
 Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search). Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 ## <a name="other-dynamics-365-apps"></a>Andre Dynamics 365-apper
-Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](https://docs.microsoft.com/dynamics365)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [Dynamics 365 Business Central-nettstedet](https://dynamics.microsoft.com/en-us/business-central/overview/).  
+Naviger til innhold om de andre Dynamics 365-appene ved å velge [Dynamics 365](/dynamics365/)-koblingen i det blå banneret øverst på denne siden. Du kan også lære mer på [Dynamics 365 Business Central-nettstedet](https://dynamics.microsoft.com/en-us/business-central/overview/).  
 
 Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] og få sømløs integrasjon med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Velkommen til Dynamics 365 – Accountant Hub](/dynamics365/accountants/index).
 
@@ -99,7 +99,7 @@ Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](in
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
-[Dokumentasjon for Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/)  
+[Dokumentasjon for Dynamics 365](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central-utgivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  
 

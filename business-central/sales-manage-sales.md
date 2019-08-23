@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/01/2019
+ms.date: 07/30/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6f80d2e1a1a864d5aaff0660d21603f91c5ce229
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c0f2f591bf43113b160bd81cd37b03d6efc8d41e
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251518"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796799"
 ---
 # <a name="sales"></a>Salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -42,6 +42,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Opprett et tilbud der du tilbyr produkter på betingelser det kan forhandles om, før du konverterer tilbudet til en salgsfaktura. |[Gi salgstilbud](sales-how-make-offers.md) |
 | Opprett en salgsfaktura for å registrere avtalen med en kunde om å selge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandle en ordre som involverer delvis levering eller direkte levering. |[Selge produkter](sales-how-sell-products.md) |
+|Forstå hva som skjer når du bokfører salgsdokumenter.|[Bokføre salg](ui-post-sales.md)|
 |Definere standard salgs- eller kjøpslinjer som du raskt kan sette inn i dokumenter, for eksempel for gjentakende etterfyllingsordrer.|[Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)|  
 | Koble en ordre til en bestilling for å selge en vare med direkte levering som skal leveres direkte fra leverandøren til kunden. |[Foreta direkte leveringer](sales-how-drop-shipment.md) |
 |Få en katalogvare levert fra en leverandør til lageret ditt slik at du kan sende varen videre til kunden.|[Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|

@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2019
+ms.date: 08/02/2019
 ms.author: edupont
-ms.openlocfilehash: fc52d943938616041881c55f70c510e4c63b5de6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 27a57490101195f8dc05cc39538260e7db5e46af
+ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245812"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1858223"
 ---
-# <a name="understanding-users-profiles-and-role-centers"></a>Forstå brukere, profiler og rollesentre
+# <a name="understanding-users-roles-and-profiles"></a>Forstå brukere, roller og profiler
 
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] legges brukere til av en administrator som gir også brukere tilgang til deler av [!INCLUDE[d365fin](includes/d365fin_md.md)] som de trenger i arbeidet.  
 
-Tilgang til funksjonene behandles gjennom *brukergrupper* og *profiler*. Du kan som administrator legge til og fjerne brukere som en del av [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnementet, og du kan tilordne brukertillatelser gjennom brukergrupper.  
+Tilgang til funksjonene behandles gjennom *brukergrupper* og *profiler (roller)*. Du kan som administrator legge til og fjerne brukere som en del av [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnementet, og du kan tilordne brukertillatelser gjennom brukergrupper.  
 
 ## <a name="adding-users"></a>Legge til brukere
 
@@ -35,20 +35,20 @@ De mest avanserte tillatelsene som en bruker kan ha, er SUPER-tillatelsessettet.
 
 For lokale distribusjoner av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan systemansvarlig velge mellom forskjellige legitimasjonsgodkjenningsmekanismer for brukerne. Når du deretter oppretter en bruker, angir du ulike opplysninger avhengig av legitimasjonstypen du bruker i den spesifikke forekomsten av [!INCLUDE[server](includes/server.md)]. Hvis du vil ha mer informasjon, kan du se [Godkjenning og legitimasjonstyper](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i Administrasjon-delen for utviklere og ITPro-innholdet for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="profiles"></a>Profiler
+## <a name="profiles-roles"></a>Profiler (roller)
 
-Personene i selskapet som har tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle tilordnet en *profil* som gir dem tilgang til et *rollesenter*.
+Personene i selskapet som har tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], er alle tilordnet en rolle som gir dem tilgang til et *Rollesenter*.
 
-Profiler er samlinger av [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som deler samme rollesenter. Et rollesenter er utgangspunktet og hjemmesiden for [!INCLUDE[d365fin](includes/d365fin_md.md)], som gir deg rask tilgang til de viktigste oppgavene og viser forskjellig innsikt og viktige ytelsesindikatorer (KPI-er) om arbeidet.  
+Profiler er samlinger av [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som deler samme rolle. Et rollesenter er utgangspunktet og hjemmesiden for [!INCLUDE[d365fin](includes/d365fin_md.md)], som gir deg rask tilgang til de viktigste oppgavene og viser forskjellig innsikt og viktige ytelsesindikatorer (KPI-er) om arbeidet.  
 
 > [!NOTE]  
 >  I den gjeldende versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] på nettet kan du legge til, endre eller slette profiler.  
 
-### <a name="CreateProfile"></a>Opprette en profil
+### <a name="CreateProfile"></a>Slik oppretter du en profil
 
-1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Profilliste**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Profiler**, og velg deretter den relaterte koblingen.  
 
-2.  På siden **Profilliste** velger du handlingen **Ny** for å åpne **Nytt profilkort**-siden.  
+2.  På siden **Profiler** velger du handlingen **Ny** for å åpne **Nytt profilkort**-siden.  
 
 3.  Skriv inn et navn som beskriver den tiltenkte rollen for brukerne, i **Profil-ID**-feltet.  
 
@@ -56,7 +56,7 @@ Profiler er samlinger av [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som
 
 5.  Sett **Rollesenter-ID**-felttet til rollesenteret du vil tilordne til profilen.  
 
-Fremgangsmåten for å endre en eksisterende profil er det samme, bortsett fra at du velger en eksisterende profil på **Profilliste**-siden i stedet for å velge handlingen **Ny**.  
+Fremgangsmåten for å endre en eksisterende profil er den samme, bortsett fra at du velger en eksisterende profil på **Profiler**-siden i stedet for å velge handlingen **Ny**.  
 
 
 ### <a name="copy-a-profile"></a>Kopiere en profil
@@ -78,7 +78,7 @@ Du kan eksportere og importere profiler som XML-filer til og fra en [!INCLUDE[d3
 
 -   Hvis du vil eksportere en profil, kan du velge **Eksporter profiler**-handlingen fra **Profilliste**- eller **Profilkort**-siden, eller du kan søke etter og åpne **Eksporter profiler**-siden. Lagre XML-filen på datamaskinen eller i nettverket.
 
--   Hvis du vil importere en profil, kan du velge **Importer profil**-handlingen fra **Profilliste**-siden, eller du kan søke etter og åpne **Importer profiler**-siden. 
+-   Hvis du vil importere en profil, kan du velge **Importer profil**-handlingen fra **Profilliste**-siden, eller du kan søke etter og åpne **Importer profiler**-siden.
 
     > [!NOTE]  
     >  Du kan ikke importere en profil som allerede finnes i databasen, selv om XML-filen har et annet navn eller annet innhold. Du må slette den eksisterende profilen før du kan importere den nye profilen.

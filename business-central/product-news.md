@@ -5,31 +5,38 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 06/13/2019
+ms.date: 07/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3b1372b5a4a567820e0a4d4d87fffa51fc5bd52b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: a8f9efbf60f7e0d700453508a3f64b6b369ecd62
+ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629806"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "1756018"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nyheter i Dynamics 365 Business Central
 
 [!include [release notes](includes/release-notes.md)]
 
-Denne siden henviser til emner som gir deg informasjon om nye funksjoner i de siste versjonene av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]. Registrer deg for [prøveversjonen](https://trials.dynamics.com/) hvis du ikke allerede har gjort det, få en introduksjon til det grunnleggende om hva du kan gjøre med [!INCLUDE[d365fin](includes/d365fin_md.md)], og prøv deretter ut på egen hånd en stund. Når du er klar, kan du åpne et tomt selskap og konfigurere ting for deg selv.  
+Du kan alltid se i frigivelsesplanen for å få en oversikt over nye og kommende funksjoner. Her i dokumentasjonen kan du finne emner som kan hjelpe deg med å lære om nye og eksisterende funksjoner i [!INCLUDE[prodlong](includes/prodlong.md)].  
+
+Registrer deg for [prøveversjonen](https://go.microsoft.com/fwlink/?linkid=847861) hvis du ikke allerede har gjort det, få en introduksjon til det grunnleggende om hva du kan gjøre med [!INCLUDE[prodshort](includes/prodshort.md)], og prøv deretter ut på egen hånd en stund. Når du er klar, kan du åpne et tomt selskap og konfigurere ting for deg selv. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 Vi vil regelmessig oppdatere [!INCLUDE[d365fin](includes/d365fin_md.md)] med ytterligere funksjoner i kjerneappen og med nye utvidelser. Hvis du vil ha den gjeldende listen over Microsoft-utvidelser, kan du se [Tilpasse Business Central med utvidelser](ui-extensions.md).
 
 Hvis du vil se alle utvidelser som tilbys av [!INCLUDE[d365fin](includes/d365fin_md.md)]-partners, kan du se [AppSource, Business Central](http://go.microsoft.com/fwlink/?linkid=2081646).  
 
-## <a name="check-the-business-central-blog"></a>Se bloggen for Business Central
-Vi snakker også om de nye funksjonen i [bloggen for Business Central](https://community.dynamics.com/business/b/financials/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
+## <a name="check-the-dynamics-365-blog"></a>Kontrollere Dynamics 365-bloggen
+
+Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
+
+Når det gjelder partnerfellesskapet, publiserer vi informasjon på [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen for partnere](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og i [Hjelp for utviklere og IT-eksperter for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Business Central-prising](https://dynamics.microsoft.com/en-us/business-central/overview/#pricing)  
 [Dynamics 365 Business Central-gruppe](https://community.dynamics.com/business/)
 
