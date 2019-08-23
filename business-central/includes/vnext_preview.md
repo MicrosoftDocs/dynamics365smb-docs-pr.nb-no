@@ -1,0 +1,1 @@
+<span data-ttu-id="e7b81-101">Denne funksjonen, eller en del av funksjonen, er i forhåndsvisning, og innholdet er under arbeid.</span><span class="sxs-lookup"><span data-stu-id="e7b81-101">This feature, or part of the feature, is in preview and the content is work in progress.</span></span>
