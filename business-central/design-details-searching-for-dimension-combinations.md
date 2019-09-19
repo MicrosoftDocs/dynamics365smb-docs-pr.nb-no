@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cde720526fdad4c9e4352f08f649d6bd3fc51540
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: f79466819826185c501677e1d4a2c1dee74ddf3a
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240956"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970858"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Søke etter dimensjonskombinasjoner
 Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker [!INCLUDE[d365fin](includes/d365fin_md.md)] om det redigerte settet med dimensjoner finnes. Hvis gruppen ikke finnes, blir det opprettet et nytt sett, og det kombinasjon-IDen for dimensjonen blir returnert.  
@@ -77,5 +77,4 @@ EXIT(DimSet.ID);
  [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
  [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)   
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
- [Designdetaljer: Dimensjonsbehandling for kodeenhet 408](design-details-codeunit-408-dimension-management.md)   
- [Designdetaljer: Kodeeksempler på endrede mønstre i endringer](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 

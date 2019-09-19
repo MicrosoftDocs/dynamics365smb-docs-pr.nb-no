@@ -9,17 +9,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/13/2019
+ms.date: 08/22/2019
 ms.author: edupont
-ms.openlocfilehash: e1f7d9891be4ae31fc3f98fb768bfddcd38582ca
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 93d75f1ea55f47c6601cbdd3c3856e39b9dc1416
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629875"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917417"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central for med utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
+
+> [!NOTE]
+> Du må ha de rette tillatelsene for å installere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være medlem av Adm. av D365-utv.-brukergruppen eller ha tillatelsessettet Adm. av D365-utv. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.<br /><br />
+Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
+
 Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, er noen utvidelser allerede installert for deg. Over tid gjøres flere utvidelser tilgjengelig for deg, og du kan deretter velge om du vil bruke utvidelsen eller ikke.
 
 Microsoft tilbyr for eksempel en utvidelse som kan gi integrering med PayPal Payments Standard. Denne utvidelsen er installert som standard.
@@ -64,10 +69,10 @@ Microsoft tilbyr følgende utvidelser:
 * [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
 * [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Dansk - C5 datamigrering](ui-extensions-c5-data-migration.md)
+* [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
 * [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
-* [Dansk - TAX-filformat](ui-extensions-tax-file-formats-dk.md)
-* [Storbritannia - GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)
+* [Storbritannia – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 * [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 * [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
 

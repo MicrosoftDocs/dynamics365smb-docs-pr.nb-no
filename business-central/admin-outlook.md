@@ -3,19 +3,19 @@ title: Bruke Business Central med Outlook | Microsoft-dokumentasjon
 description: Denne tjenesten er tett integrert med Office 365, slik at du kan behandle alle forretningssamhandlinger og e-postmeldinger med kunder og leverandører direkte i Outlook.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 07/12/2019
+ms.date: 08/14/2019
 ms.author: edupont
-ms.openlocfilehash: 578f33dace52383ce588494d35c875ceaf6ffc21
-ms.sourcegitcommit: f5050fd209b8d66722c81abe48c4c0a6f749a1f7
+ms.openlocfilehash: 70299f86a1ebc3251780eb05f8b68afeff23fa5e
+ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1740459"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "1887694"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
@@ -53,9 +53,9 @@ I Dokumentkoblinger-tillegget kan du endre og utføre handlinger med dokumentet,
 ## <a name="adding-the-add-ins-manually"></a>Legge til tillegg manuelt
 I noen tilfeller tilleggene ikke få legges til automatisk i Outlook. Selv om du eller en kollega kjørte assistert installasjonsveiledningen på vegne av selskapet, [!INCLUDE[d365fin](includes/d365fin_md.md)] kanskje ikke vises i Outlook. Hvis du opplever dette problemet, kan du legge til [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene manuelt.  
 
-Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Du kan ganske enkelt åpne din Outlook i en nettleser, gå til **Innstillinger** og deretter velge **Administrer tillegg**. Dette åpner **Administrer tillegg**-siden, der du kan aktivere [!INCLUDE[prodshort](includes/prodshort.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] skal være tilgjengelige.  
+Først må du kontrollere at du har tilgang til tilleggene i Office 365-kontoen. Du kan ganske enkelt åpne din Outlook i en nettleser, åpne en melding, velge **Flere handlinger** (...) øverst i meldingen, og deretter velge **Hent tillegg** nederst i listen. Dette åpner siden **Tillegg for Outlook**, der du kan aktivere [!INCLUDE[prodshort](includes/prodshort.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[prodshort](includes/prodshort.md)] skal være tilgjengelige.  
 
-På samme måte i Outlook-skrivebordsklient, kan du bekrefte at [!INCLUDE[d365fin](includes/d365fin_md.md)] er oppført på siden **Administrer tillegg**.  
+På samme måte som i Outlook-skrivebordsklienten kan du bekrefte at [!INCLUDE[d365fin](includes/d365fin_md.md)] er oppført på siden **Hent tillegg**.  
 
 I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ikke er tilgjengelig, må du få tilleggsmanifestfilene. Hvis du vil ha mer informasjon, kontakt systemansvarlig for Office 365.
 

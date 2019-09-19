@@ -3,22 +3,22 @@ title: Oversikt over bokføring av dokumenter og kladder | Microsoft-dokumentasj
 description: Gir en oversikt over bokføringshandlinger og måtene du kan bokføre dokumenter og kladder på.
 services: project-madeira
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
-ms.author: solsen
-ms.openlocfilehash: c9f7a6e3539efa1a1923f05796c03ad70bbb5e58
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/24/2019
+ms.author: sgroespe
+ms.openlocfilehash: a3fabec129de3e59eff30f70d1084e3969fa9ddc
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247921"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921364"
 ---
-# <a name="post-documents-and-journals"></a>Bokføre dokumenter og kladder
+# <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.
 
 Praktisk talt alle dokumenter og kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr en **Bokføring**-gruppe der du kan velge mellom ulike bokføringshandlinger, for eksempel **Bokfør**, **Forhåndsvis bokføring**, **Bokfør og send** og **Bokfør og send e-post**.
@@ -34,6 +34,6 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 | Forhåndsvis i en rapport postene som blir opprettet når du bokfører. |[Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Se også
+[Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-

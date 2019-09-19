@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a39e43a430720c0453ba5bd9bccf864237b8ae6f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252760"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985889"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende Kontoutdrag-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
@@ -179,7 +179,7 @@ Renter kan beregnes ved hjelp av enten gjennomsnittlig dagssaldo eller forfalt b
 I tillegg er hver kode i tabellen Rentenotatekst knyttet til en undertabell, tabellen Rentenotatekst. For hver rentebetingelse kan du definere en start- og/eller slutt-tekst som kommer ut på rentenotaen.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenotabetingelser**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov.  
+2. Fyll ut feltene etter behov.
 3. Hvis du vil bruke flere kombinasjoner av rentebetingelser, definerer du en kode for hver kombinasjon.
 
     For hver rentebetingelse kan du spesifisere individuelle betingelser, som kan inkludere tilleggsgebyrer både i NOK og i utenlandsk valuta. Du kan definere mange tilleggsgebyrer i fremmed valuta for hver kode på siden **Rentenotabetingelser**.

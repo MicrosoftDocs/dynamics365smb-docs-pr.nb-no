@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2019
+ms.date: 08/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01e831ddddeffe6a64c6de24b4cd8c1b94bad9c3
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796898"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921433"
 ---
 # <a name="posting-sales"></a>Bokføre salg
-I **Bokføringsgruppe** i et salgsdokument, kan du velge mellom følgende bokføringsfunksjoner:
+I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
 
 * **Bokfør**
-* **Kontrollrapport**
+* **Bokfør og ny**
 * **Bokfør og Send**
-* **Bokfør og skriv ut**
-* **Bokfør og send e-post**
-* **Massebokfør**
 * **Forhåndsvis bokføring**
+* **Fakturakladd**
+* **Proformafaktura**
+* **Kontrollrapport**
 
 Når du har fylt ut alle linjene og angitt alle opplysningene i ordren, kan du bokføre den. Dette oppretter en levering og en faktura.
 
@@ -41,9 +41,11 @@ For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salg
 
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
-## <a name="see-also"></a>Se også
+Du kan redigere bestemte felt på bokførte salgsdokumenter, for eksempel **Pakkesporingsnr**. -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md).
 
+## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
+[Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md)  

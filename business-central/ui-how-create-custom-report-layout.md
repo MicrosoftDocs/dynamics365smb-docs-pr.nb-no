@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 6f86df1f98d3f00405380a4e2790a5bf7919a390
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 993c3b539df3a7479ed97eaf03203e3f1cceb4eb
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250184"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985790"
 ---
 # <a name="create-and-modify-a-custom-report-or-document-layout"></a>Opprette og endre et egendefinert rapportoppsett eller dokumentoppsett
 En rapport har som standard et innebygd rapportoppsett, som kan være et RDLC-rapportoppsett, et innebygd Word-rapportoppsett eller i noen tilfeller begge typer. Du kan ikke endre innebygde oppsett. Du kan imidlertid opprette egendefinerte oppsett der du kan endre utseendet på rapporten når den vises, skrives ut eller lagres. Du kan opprette flere egendefinerte rapportoppsett for samme rapport og deretter bytte oppsettet som brukes av en rapport, etter behov.
@@ -66,7 +66,7 @@ Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet 
 5. I dialogboksen **Importer** velger du **Velg** for å finne og velge rapportoppsettsdokumentet, og velger deretter **Åpne**.
 
 ##  <a name="MakeChangesToLayout"></a>Gjøre endringer i et Word-rapportoppsett  
-Når du skal foreta generelle formaterings- og oppsettsendringer, for eksempel endre skrift, legge til eller endre en tabell eller fjerne et datafelt, bruker du bare de grunnleggende redigeringsfunksjonene i Word, som du gjør med et Word-dokument.
+For å foreta generelle formaterings- og oppsettsendringer, for eksempel endre skrift, legge til eller endre en tabell eller fjerne et datafelt, bruker du bare de grunnleggende redigeringsfunksjonene i Word, som du gjør med et Word-dokument.
 
 Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye datafelt, begynner du med å legge til en tabell som inneholder rader og kolonner som omsider skal inneholde datafeltene.
 

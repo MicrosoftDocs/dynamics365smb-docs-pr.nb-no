@@ -12,19 +12,17 @@ ms.workload: na
 ms.search.keywords: design, dimensions, codeunit
 ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6b66ecee87e1fd128733f541d46b97f44af0453
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c97a03d9ce458cefe094b711bfe62a4b3c8e25d7
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242747"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970927"
 ---
 # <a name="design-details-dimension-set-entries"></a>Designdetaljer: Dimensjonssettposter
-Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene for funksjonen for lagring og bokføring av dimensjonsposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dokumentasjonen begynner med beskrivelse av begrepsmessige oversikter. Deretter forklarer den teknisk arkitektur. Til slutt inneholder det kodeeksempler for å gjøre deg klar for overføring og oppgradering av dimensjonskode fra tidligere versjoner enn Dynamics NAV 2013R2.  
+Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene for funksjonen for lagring og bokføring av dimensjonsposter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="in-this-section"></a>I denne delen  
 [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)  
 [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)  
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)  
-[Designdetaljer: Dimensjonsbehandling for kodeenhet 408](design-details-codeunit-408-dimension-management.md)  
-[Designdetaljer: Kodeeksempler på endrede mønstre i endringer](design-details-code-examples-of-changed-patterns-in-modifications.md)

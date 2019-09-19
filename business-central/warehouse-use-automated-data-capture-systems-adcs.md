@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 08/22/2019
 ms.author: sgroespe
-ms.openlocfilehash: 20ef2d88bb5f96326962efb53fd724b8fc706dc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 23561ba8ec0a93f8409abab483385a65d9853900
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248493"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917440"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
 > [!NOTE]
 > I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADFS bare på lokale distribusjoner. En Microsoft-partner kan imidlertid få den til å fungere i nettdistribusjoner ved å bruke PowerApps eller lignende.
 
-Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning.  
+Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning. ADFS innebærer vanligvis strekkodeskanning. 
 
 Hvis du vil bruke ADFS, må du gi hver vare som er lagret på lager, en vare-ID. Du må også sette opp miniformer, funksjoner for håndholdte enheter, datautveksling og angi innstillinger for felt som kontrollerer ADFS. Du angir om du vil bruke ADFS på lokasjonskortet for et lager.
 
@@ -100,7 +100,7 @@ Når du har opprettet en miniform, er de neste trinnene å opprette funksjoner o
     </xsl:template>  
     ```  
 2.  Åpne tabell 7702 i utviklingsmiljøet for [!INCLUDE[d365fin](includes/d365fin_md.md)], og legg til en kode som representerer den nye nøkkelen. I dette eksemplet oppretter du en nøkkel kalt **F6**.  
-3.  Legg til C/AL-kode for funksjonen som er relevant for den miniformsspesifikke kodeenheten, for å håndtere funksjonstasten.  
+3.  Legg til C/AL-kode for funksjonen som er relevant for den miniformsspesifikke codeuniten, for å håndtere funksjonstasten.  
 
 ### <a name="to-customize-miniform-functions"></a>Slik tilpasser du Miniform-funksjoner:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniformer**, og velg deretter den relaterte koblingen.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 04/01/2019
+ms.date: 07/24/2019
 ms.author: sgroespe
-ms.openlocfilehash: 063de8e16c01569c4a25e825b8804898a6f80e79
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
+ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250874"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1921410"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
@@ -40,7 +40,8 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 |Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
 |Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)|
 |Forstå hva som skjer når du velger **Bokfør**-handlingen.|[Bokføre dokumenter og kladder](ui-post-documents-journals.md)|
-|Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)| 
+|Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)|
+|Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)| 
 |Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|

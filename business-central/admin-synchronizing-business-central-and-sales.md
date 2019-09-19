@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: b5a3b83d21390711ff0517df67bf9912ece57f6b
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 9506b64229c4d936fa25d74d71a923bdf7915e45
+ms.sourcegitcommit: 6ef7d2fae52feff786f2e15e2863d7f5aaa762be
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629622"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1917463"
 ---
 # <a name="synchronizing-data-in-business-central-and-dynamics-365-for-sales"></a>Synkronisere data i Business Central og Dynamics 365 for Sales
 Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du fastsette om du vil synkronisere dataene i bestemte felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster (for eksempel kunder, kontakter og selgere) med tilsvarende poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] (for eksempel konti, kontakter og brukere). Du kan synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)] eller omvendt, avhengig av posttypen. Hvis du vil ha mer informasjon, kan du se [Integrere med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -92,7 +92,7 @@ Tabellen nedenfor beskriver reglene som styrer synkroniseringen mellom appene.
 |Salgspriser|Salgsprisene som har salgstypen Kundeprisgruppe og har en definert salgskode, synkroniseres med [!INCLUDE[crm_md](includes/crm_md.md)]-prislisteslinjer|
 |Salgsmuligheter|Salgsmuligheter synkroniseres med salgsmuligheter i [!INCLUDE[crm_md](includes/crm_md.md)]. Verdien Selgerkode definerer eieren av den sammenkoblede enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|
 |Bokførte salgsfakturaer|Bokførte salgsfakturaer synkroniseres med salgsfakturaer. Før du kan synkronisere en faktura, er det best å synkronisere alle andre enheter som kan inngå i fakturaen, fra selgere til prislister. Verdien Selgerkode i fakturaoverskriften definerer eieren av sammenkoblede enheten i Sales.|
-|Ordrer|Frigitt ordre (hodene) skal synkroniseres med ordren. Før du kan synkronisere en ordre er det best å synkronisere alle andre enheter som kan inngå i ordren, fra selgere til prislister. Verdien Selgerkode i ordreoverskriften definerer eieren av den sammenkoblede enheten i Sales.|  
+|Ordrer|Når ordreintegrasjon er aktivert, synkroniseres ordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)] som opprettes fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], med ordrer i INKLUDER SALG når de frigis. Før du synkroniserer ordrer anbefaler vi at du først synkroniserer alle enheter som er knyttet til ordren, for eksempel selgere og prislister. Feltet Selgerkode i ordreoverskriften definerer eieren av den sammenkoblede enheten i [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Se også  
 [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   

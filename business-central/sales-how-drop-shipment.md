@@ -10,19 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 04/01/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7a87023445ea10aa19cc0cc4f60d76ce4cf3e365
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9555aabe515757b71426ddca2f90b37e561f96e2
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251227"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985817"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
 
-Når en ordre merkes for direkte levering, og du oppretter en bestilling som angir kunden i **Salg til kundenr.**-feltet, kan du koble de to dokumentene og dermed be leverandøren levere direkte til kunden.
+Når en ordre er merket for direkte levering, og du oppretter en bestilling for kunden i **Forsendelsesadresse**-feltet, **Kundeadresse**, kan du koble de to dokumentene og på den måten instruere leverandøren til å levere direkte til kunden.
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Slik oppretter du en ordre med direkte levering:
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre for en vare som vanlig, bortsett fra at du må vise på salgslinjen at salget krever direkte levering.
@@ -34,7 +34,8 @@ Hvis du vil klargjøre en direkte levering, kan du opprette en ordre for en vare
 Hvis du vil klargjøre en direkte levering for varen som skal selges, oppretter du en bestilling som vanlig, bortsett fra at du må angi på bestillingen at den må leveres til kunden, ikke til deg selv.
 
 1. Opprett en bestilling. Ikke fyll ut noen felt på linjene. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
-2. I feltet **Salg til-kundenr.** velger du kunden som du selger til.
+2. I **Forsendelsesadresse**-feltet velger du **Kundeadresse**.
+3. I **Kunde**-feltet velger du kunden som du selger til.
 3. Velg **Direkte levering**-handlingen, og velg deretter **Hent ordre**-handlingen.
 4. På siden **Salgsliste** merker du ordren som du har forberedt i [Slik oppretter du en ordre med direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 5. Velg **OK**.

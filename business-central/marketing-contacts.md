@@ -10,21 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 09/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 407470afdca7a4e8b0e3cb2d2095903353e5d5b9
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: a0db1779172a9b2822ad4898e9dbf82e68b58622
+ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446948"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "1985742"
 ---
 # <a name="managing-contacts"></a>Administrere kontakter
-Forskjellige grupper i bedriften vil ha forretningsforhold med forskjellige bedrifter. En selger kan for eksempel møte potensielle kunder regelmessig og registrere resultatene av disse besøkene ved slutten av uken.
+Ansatte i selskapet møter regelmessig potensielle forretningsrelasjoner som kan utvikle seg til formelle relasjoner. Alle slike eksterne kontakter og deres detaljerte opplysninger bør registreres i systemet, slik at kommunikasjonen blir mer vellykket, og slik at de kan lett å konverteres til formelle kunde-, leverandør- eller bankforhold.
 
-Alle de eksterne enhetene du har forretningsforhold med (for eksempel kunder, potensielle kunder, leverandører, advokater og konsulenter), bør registreres som kontakter. Ved å ha disse dataene registrert på ett sentralt sted kan hver gruppe i bedriften vise og bruke opplysningene effektivt. Kommunikasjon med kontaktene blir mer vellykket hvis alle detaljer er enkelt tilgjengelig. En person som arbeider med markedsføring, ønsker kanskje å vite hvilke andre produkter en bestemt kunde har kjøpt, før han/hun prøver å få dem interessert i et nytt produkt.
-
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 
 | Til | Se |
 | --- | --- |

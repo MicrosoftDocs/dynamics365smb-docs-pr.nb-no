@@ -4,20 +4,21 @@ description: Dimensjonsbehandling for kodeenhet 408 er et funksjonsbibliotek som
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-financials
+ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2017
+ms.date: 04/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b0238fb26b71310b1f02e15be7d7040832ca644
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: design-details-dimension-set-entries
+ms.openlocfilehash: f725e5baea27b47399a50d041757fde83657673c
+ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242586"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "1970973"
 ---
 # <a name="design-details-codeunit-408-dimension-management"></a>Designdetaljer: Dimensjonsbehandling for kodeenhet 408
 Dimensjonsbehandling for kodeenhet 408 er et funksjonsbibliotek som håndterer vanlige oppgaver som er knyttet til dimensjoner, for eksempel kopiering fra én tabell til en annen eller fra ett dokument til et annet. Dette emnet viser funksjonene som er endret i Microsoft Dynamics NAV 2013 R2, og angir hva som må gjøres med funksjonene. Mange funksjoner blir slettet fordi det er ikke nødvendig å kopiere mellom dimensjonstabeller.  
@@ -192,4 +193,4 @@ Dimensjonsbehandling for kodeenhet 408 er et funksjonsbibliotek som håndterer v
  [Designdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)   
  [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
  [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
- [Designdetaljer: Kodeeksempler på endrede mønstre i endringer](design-details-code-examples-of-changed-patterns-in-modifications.md)
+ 
