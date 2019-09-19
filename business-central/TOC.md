@@ -217,9 +217,9 @@
 ## [Massefakturering for Microsoft Bookings](finance-bookings.md)
 ## [Bruke samme Office 365-konto i Business Central og i Microsoft Invoicing](about-reuse-company-invoicing.md)
 ## [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
-## [Konfigurere e-post](admin-how-setup-email.md)
+## [Konfigurer e-post](admin-how-setup-email.md)
 ## [Opprette nummerserier](ui-create-number-series.md)
-## [Definere hovedkalenderedefinerer og tilordner](across-how-to-assign-base-calendars.md)
+## [Definere hovedkalendere](across-how-to-assign-base-calendars.md)
 
 # Generelle forretningsfunksjoner
 ## [Oversikt](ui-across-business-areas.md)
@@ -234,6 +234,7 @@
 ## [Eksportere forretningsdataene til Excel](about-export-data.md)
 ## [Bokføre dokumenter og kladder](ui-post-documents-journals.md)
 ## [Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)
+## [Redigere bokførte dokumenter](across-edit-posted-document.md)
 ## [Arbeide med finanskladder](ui-work-general-journals.md)
 ## [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)
 ## [La Business Central foreslå verdier](ui-let-system-suggest-values.md)
@@ -526,7 +527,7 @@
 ## [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)
 ## [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)
 
-# Beholdning
+# Lager
 ## [Oversikt](inventory-manage-inventory.md)
 ## [Registrere nye varer](inventory-how-register-new-items.md)
 ## [Arbeide med stykklister](inventory-how-work-BOMs.md)
@@ -590,10 +591,12 @@
 ### [Oversikt](marketing-manage-sales-opportunities.md)
 ### [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Opprette salgsmuligheter](marketing-how-create-opportunities.md)
+### [Spore utveksling av e-postmeldinger](marketing-set-up-email-logging.md)
+
 ### [Behandle salgsmuligheter](marketing-processing-sales-opportunities.md)
-## [Administrere markedsføringskampanjer](marketing-campaigns.md)
-## Samhandle med kunder gjennom Dynamics 365 for Sales
-### [Bruke Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+### [Konfig. loggføring av e-post](marketing-set-up-email-logging.md)
+## [Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
+## [Bruke Dynamics 365 for Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 ### [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)
 ### [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)
 
@@ -1057,7 +1060,7 @@
 #### [Lukke et regnskapsår](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 #### [Definere debetbeløp og kreditbeløp](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 #### [Reversere kladdeposter](LocalFunctionality/Italy/reversing-journal-entries.md)
-### Beholdning
+### Lager
 #### [Definere opprinnelig varekost](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
 #### [Regnskapsmessig lagerverdisetting](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
 #### [Definere regnskapsmessig lagerverdisetting](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
@@ -1259,7 +1262,7 @@
 #### [Lovbestemte rapporter](LocalFunctionality/Russia/Statutory-Reports.md)
 #### Bankbehandling
 #### [Bankbehandling](LocalFunctionality/Russia/bank-management.md)
-### Beholdning
+### Lager
 #### [Lager](LocalFunctionality/Russia/Inventory.md)
 #### [Lageroppsett](LocalFunctionality/Russia/Inventory-Setup.md)
 #### [Varedokumenter](LocalFunctionality/Russia/Item-Documents.md)
@@ -1369,7 +1372,7 @@
 #### [Utstede leveringspåminnelser](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 #### [Generere leveringspåminnelser](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 #### [Skrive ut testrapporter for leveringspåminnelser](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-### Beholdning
+### Lager
 #### [Sveitsisk lagerstyring](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 #### [Skrive ut en lagerplukkliste fra en ordre](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
 ### Generelt    
