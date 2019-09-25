@@ -1,27 +1,27 @@
 ---
 title: Skrive inn data i felt | Microsoft-dokumentasjon
 description: Lære om generelle funksjoner som kan hjelpe deg med å registrere data i feltene.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/03/2019
-ms.author: jswymer
-ms.openlocfilehash: d0fac96313b41a0e41ea96ab4fedd25565498f12
-ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
+ms.date: 09/17/2019
+ms.author: sgroespe
+ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
+ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "1621163"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "2000790"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
 Det finnes mange generelle funksjoner som kan hjelpe deg med å registrere data enklere, raskere og mer nøyaktig. De generelle funksjonene for å skrive inn data beskrives i denne artikkelen.  
 
-<!-- The examples in this article use the demonstration data.-->
+Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
 ## <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -152,12 +152,12 @@ Du kan også angi en dato som en ukedag etterfulgt av et ukenummer og, hvis du v
 
 I stedet for å skrive inn en bestemt dato kan du skrive inn én av disse kodene.  
 
-| - kode|Resultat|  
+|Kode|Resultat|  
 |--------------|----------------|  
 |i|Dette angir dagens dato (systemdatoen for datamaskinen).|  
-|P|Dette angir en regnskapsperiode der `p` betyr at den første regnskapsperioden, `p2` betyr den andre andre regnskapsperioden og så videre. |
+|P|Dette angir en regnskapsperiode der p betyr den første regnskapsperioden, p2 betyr den andre regnskapsperioden og så videre. |
 |a|Dette angir arbeidsdatoen som er satt opp i programmet. Du kan endre arbeidsdatoen ved å se [Endre grunnleggende innstillinger](ui-change-basic-settings.md). Hvis du har mange transaksjoner å utføre på en dato som ikke er dagens dato, er det en fordel å bruke arbeidsdatoen.|
-|c|Dette angir at datoen etter `c` er en avslutningsdato, for eksempel `C123101`.|  
+|a|Dette angir at datoen etter a er en avslutningsdato, for eksempel A123101.|  
 
 ## <a name="entering-times"></a>Angi klokkeslett
 
@@ -186,15 +186,15 @@ Tabellen nedenfor viser de forskjellige måtene du kan angi dato og klokkeslett 
 |Post|Tolkning|  
 |---------------|------------------------|  
 |131202 132455|13.12.02 13.24.55|  
-|1.12.02 10|01.12.02 10:00:00|  
-|1.12.02 5|12.01.02 05:00:00|  
+|1-12-02 10|01.12.02 10:00:00|  
+|1.12.02 5|01.12.02 05:00:00|  
 |1.12.02|01.12.02 00.00.00|  
-|11 12|11 - inneværende måned - inneværende år 12.00.00|  
-|1112 12|11-12 - inneværende år 12.00.00|  
-|t eller i dag|dagens dato 00:00:00|  
-|klokkeslett|dagens dato og klokkeslett|  
-|k 10.30|dagens dato 10:30:00|  
-|k 3.3.3|dagens dato 03.03.03|  
+|11 12|11.nneværende måned.inneværende år 12.00.00|  
+|1112 12|11.12.inneværende år 12.00.00|  
+|d eller i dag|dagens dato 00:00:00|  
+|d klokkeslett|dagens dato og klokkeslett|  
+|d 10.30|dagens dato 10:30:00|  
+|d 3.3.3|dagens dato 03.03.03|  
 |a eller arbeidsdag|arbeidsdatoen 00.00.00|  
 |m eller mandag|mandag i inneværende uke 00.00.00|  
 |ti eller tirsdag|tirsdag i inneværende uke 00:00:00|  
@@ -207,7 +207,6 @@ Tabellen nedenfor viser de forskjellige måtene du kan angi dato og klokkeslett 
 |ti 3.3.3|tirsdag i inneværende uke 03.03.03|  
 
 ## <a name="entering-duration"></a>Angi varighet
-
 Du angir en varighet som et tall etterfulgt av enheten.  
 
 Her er noen eksempler.  
@@ -226,86 +225,6 @@ Her er noen eksempler.
  Hvis du vil se hvilken enhet som er brukt i et varighetsfelt, kan du angi et tall og se hvilken enhet programmet er konvertert det til.  
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
-
-<!--OnPrem  ##  <a name="BKMK_SettingDateRanges"></a> Setting Date Ranges  
- You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges.  
-
-|**Meaning**|**Sample expression**|**Entries included**|  
-|-----------------|---------------------------|--------------------------|  
-|**Equal to**|12 15 00|Only those posted on 12 15 00.|  
-|**Interval**|12 15 00..01 15 01<br /><br /> ..12 15 00|Those posted on dates between and including 12 15 00 and 01 15 01.<br /><br /> Those posted on 12 15 00 or earlier.|  
-|**Either/or**|12 15 00&#124;12 16 00|Those posted on either 12 15 00 or 12 16 00. If there are entries posted on both days, they will all be displayed.|  
-
- You can also combine the various format types.  
-
-|**Sample expression**|**Entries included**|  
-|---------------------------|--------------------------|  
-|12 15 00&#124;12 01 00..12 10 00|Entries posted either on 12 15 00 or on dates between and including 12 01 00 and 12 10 00.|  
-|..12 14 00&#124;12 30 00..|Entries posted on 12 14 00 or earlier, or entries posted on 12 30 00 or later - that is, all entries except those posted on dates between and including 12 15 00 and 12 29 00.|
-
-## Using Date Formulas
-
- A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.  
-
-> [!NOTE]  
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, if you enter 1W, for example, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter 6D or 1W-1D.  
-
- Here are some examples of how date formulas can be used:  
-
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.  
-
--   The date formula in the Grace Period field for a specified reminder level determines the period of time that must pass from the due date (or from the date of the previous reminder) before a reminder will be created.  
-
--   The date formula in the Due Date Calculation field determines how to calculate the due date on the reminder.  
-
- The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.  
-
-|||  
-|-|-|  
-|C|Current|  
-|D|Day(s)|  
-|W|Week(s)|  
-|M|Month(s)|  
-|Q|Quarter(s)|  
-|Y|Year(s)|  
-
- You can construct a date formula in three ways.  
-
- The following example shows how current plus a time unit.  
-
-|||  
-|-|-|  
-|CW|Current week|  
-|CM|Current month|  
-
- The following example shows how a number and a time unit. A number cannot be larger than 9999.  
-
-|||  
-|-|-|  
-|10D|10 days from today|  
-|2W|2 weeks from today|  
-
- The following example shows how a time unit and a number.  
-
-|||  
-|-|-|  
-|D10|The next 10th day of a month|  
-|WD4|The next 4th day of a week (Thursday)|  
-
- The following example shows how you can combine these three forms as needed.  
-
-|||  
-|-|-|  
-|CM+10D|Current month + 10 days|  
-
- The following example shows how you can use a minus sign to indicate a date in the past.  
-
-|||  
-|-|-|  
-|-1Y|1 year ago from today|
-
-[!CAUTION]  
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, a 1W means seven working days. For more information, see Base Calendar Card.-->
 
 ## <a name="see-also"></a>Se også  
  [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
