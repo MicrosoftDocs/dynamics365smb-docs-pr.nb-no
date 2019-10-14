@@ -2,30 +2,30 @@
 title: Velge brukeropplevelsen for å vise eller skjule avanserte funksjoner | Microsoft-dokumentasjon
 description: Finn ut hva brukeropplevelsesnivåene Essential og Premium betyr for brukergrensesnittet, moduler og selskapet ditt.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2019
-ms.author: edupont
-ms.openlocfilehash: 9110ee79e4d1788f41c8f1960f282cb490a3cc8a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5866ce2bc125d7e21c6dbdf93984a87b07ae46b1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251426"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311359"
 ---
-# <a name="changing-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å hjelpe deg med å drive bedriften din, uansett hvilken bransje du er i. I kjernen av [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du prosessene for finansrapportering, salg og innkjøp. Du legger til opplevelser i henhold til forretningsbehovene ved å legge til utvidelser fra AppSource eller ved å endre Opplevelse-innstillingen for selskapet. Hvis du vil ha mer informasjon, gå til [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md), eller [Velge en brukeropplevelse for å vise eller skjule funksjoner](ui-experiences.md#choosing-a-user-experience-to-show-or-hide-features).
+# <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å hjelpe deg med å drive bedriften din, uansett hvilken bransje du er i. I kjernen av [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du prosessene for finansrapportering, salg og innkjøp. Du legger til opplevelser i henhold til forretningsbehovene ved å endre innstillingen **Opplevelse** for selskapet, som beskrevet nedenfor, eller ved å legge til utvidelser fra AppSource. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).
 
 ## <a name="choosing-a-user-experience-to-show-or-hide-features"></a>Velge en brukeropplevelse for å vise eller skjule funksjoner
 Brukeropplevelsen bestemmer hvor mye av kjernefunksjonaliteten som er tilgjengelig, når du og dine kolleger bruker [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan velge brukeropplevelsen for firmaet, på siden **Selskapsopplysninger** i feltet **Opplevelse**.
 
 > [!NOTE]  
-> Denne innstillingen gjelder for alle brukerne i firmaet. Brukere kan ytterligere tilpasse sin egen opplevelse ved å endre sideoppsett og innholdet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet og sider](ui-personalization-user.md).  
+> Denne innstillingen gjelder for alle brukerne i firmaet. Brukere kan ytterligere tilpasse sin egen opplevelse ved å endre sideoppsett og innholdet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
 
 Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 
@@ -63,10 +63,11 @@ Du kan nå fortsette med å velge den nye opplevelsen.
 Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for funksjonsområdene Produksjon og Servicehåndtering, om at de krever **Premium**-opplevelsen.
 
 ## <a name="see-also"></a>Se også
+[Tilpasse arbeidsområdet](ui-personalization-user.md)  
+[Tilpasse Business Central](ui-customizing-overview.md)
 [Opprette nye selskaper](about-new-company.md)  
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)    
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Lisensveiledning for [!INCLUDE[d365fin](includes/d365fin_md.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 

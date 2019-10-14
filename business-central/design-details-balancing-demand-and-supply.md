@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 514c896c4bee0b5ade8532f8b08dba6b8a7a6657
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8e4cb09e8b391f9818c9dabbc25d88eeca4aeac
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243874"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303775"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansere behov og forsyning
 For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet, og det viktigste er å sikre at følgende oppfylles:  
@@ -28,7 +28,7 @@ For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forst
  Vanligvis oppnås disse målene ved å balansere forsyning med behov.  
 
 ## <a name="demand-and-supply"></a>Behov og forsyning
- Behov er det vanlige uttrykket som brukes for alle typer bruttobehov, for eksempel en salgsordre og komponentbehov fra en produksjonsordre. I tillegg tillater programmet mer tekniske typer behov, for eksempel negativ beholdning og bestillingsreturer.  
+ Behov er det vanlige uttrykket som brukes for alle typer bruttobehov, for eksempel ordre- og komponentbehov fra en produksjonsordre. I tillegg tillater programmet mer tekniske typer behov, for eksempel negativ beholdning og bestillingsreturer.  
 
   Forsyning er den vanlige betegnelsen som brukes om alle typer positive eller inngående antall, for eksempel beholdning, kjøp, montering, produksjon eller inngående overføringer. I tillegg kan en ordreretur også representere forsyning.  
 

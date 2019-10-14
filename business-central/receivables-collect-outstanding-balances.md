@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4b6f58c434c563021e94e55e47c547d39967502
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.openlocfilehash: ca99b44b7c96037d07c00902df3411db81745d86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985889"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316647"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende Kontoutdrag-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
@@ -161,6 +161,11 @@ I tillegg kan utstedelsen av purringen resultere i mva-poster.
 
 Purringen blir enten skrevet ut eller sendt til en bestemt e-postadresse som et PDF-vedlegg.
 
+### <a name="to-cancel-an-issued-reminder"></a>Avbryte den utstedte purringen
+Hvis påminnelser ble utstedt med en feil, kan du annullere dem før de sendes ut. Du kan gjøre dette enten én om gangen eller som en bunke.
+1. På siden **Utstedte purringer** velger du én eller flere linjer for de utstedte purringene du vil avbryte, og deretter velger du handlingen **Avbryt**.
+2. På siden **Avbryt utstedte purringer** fyller du ut feltene etter behov, og deretter velger du **OK**.
+
 ## <a name="to-set-up-finance-charge-terms"></a>Definere rentenotabetingelser
 Du definerer en kode som representerer de ulike måtene du vil at programmet skal beregne renter på. Deretter kan du angi denne koden i feltet **Rentenotabetingelseskode** på kunde- eller leverandørkort.
 
@@ -243,6 +248,11 @@ I tillegg kan utstedelsen av rentenotaen resultere i mva-poster.
 4. Velg **OK**.
 
 Rentenotaen blir enten skrevet ut eller sendt til en bestemt e-postadresse som et PDF-vedlegg.
+
+### <a name="to-cancel-an-issued-finance-charge-memo"></a>Avbryte den utstedte rentenotaen.
+Hvis rentenotaer ble utstedt med en feil, kan du annullere dem før de sendes ut. Du kan gjøre dette enten én om gangen eller som en bunke.
+1. På siden **Utstedte rentenotaer** velger du én eller flere linjer for de utstedte rentenotaene du vil avbryte, og deretter velger du handlingen **Avbryt**.
+2. På siden **Avbryt utstedte rentenotaer** fyller du ut feltene etter behov, og deretter velger du **OK**.
 
 ## <a name="to-view-reminder-and-finance-charge-entries"></a>Slik viser du purre- og renteposter  
 Når du utsteder en purring, opprettes en purrepost på siden **Purre-/renteposter** for hver purrelinje som inneholder en kundepost. Du kan deretter få en oversikt over hvilke purreposter som er opprettet for en bestemt kunde.    

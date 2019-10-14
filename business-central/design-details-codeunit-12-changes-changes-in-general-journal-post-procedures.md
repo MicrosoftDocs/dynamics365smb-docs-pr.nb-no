@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8daa5d57ed2f12daf3f3eef3572b2f7dbd39d92c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5f27bb652009c740066dfa0ef3659bb9e53cfb0e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1243414"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307351"
 ---
 # <a name="codeunit-12-changes-changes-in-general-journal-post-procedures"></a>Endringer i kodeenhet 12: Endringer i bokføringsprosedyrene for finans
 Følgende endringer er implementert i denne versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -139,19 +139,19 @@ Følgende endringer er implementert i denne versjonen av [!INCLUDE[d365fin](incl
 |CheckCalcPmtDiscCVVend||Flyttet til kodeenhet 426 Administrasjon av betalingstoleranse|  
 |CheckCalcPmtDiscVend||Flyttet til kodeenhet 426 Administrasjon av betalingstoleranse|  
 |CheckCalcPmtDiscGenJnlVend||Flyttet til kodeenhet 426 Administrasjon av betalingstoleranse|  
-|Reverse|Reverse|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ReverseCustLedgEntry|ReverseCustLedgEntry|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ReverseVendLedgEntry|ReverseVendLedgEntry|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ReverseVAT|ReverseVAT|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|SetReversalDescription|SetReversalDescription|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Flyttet til kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-||CheckDimComb|Lagt til i kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-||CopyCustLedgEntry|Lagt til i kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-||CopyVendLedgEntry|Lagt til i kodeenhet 17 Finanskladd – bokfør tilbakeført|  
-||CopyBankAccLedgEntry|Lagt til i kodeenhet 17 Finanskladd – bokfør tilbakeført|  
+|Reverse|Reverse|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ReverseCustLedgEntry|ReverseCustLedgEntry|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ReverseVendLedgEntry|ReverseVendLedgEntry|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ReverseBankAccLedgEntry|ReverseBankAccLedgEntry|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ReverseVAT|ReverseVAT|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|SetReversalDescription|SetReversalDescription|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ApplyCustLedgEntryByReversal|ApplyCustLedgEntryByReversal|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|ApplyVendLedgEntryByReversal|ApplyVendLedgEntryByReversal|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+|PostPmtDiscountVATByUnapply|PostPmtDiscountVATByUnapply|Flyttet til codeunit 17 Finanskladd – bokfør tilbakeført|  
+||CheckDimComb|Lagt til i codeunit 17 Finanskladd – bokfør tilbakeført|  
+||CopyCustLedgEntry|Lagt til i codeunit 17 Finanskladd – bokfør tilbakeført|  
+||CopyVendLedgEntry|Lagt til i codeunit 17 Finanskladd – bokfør tilbakeført|  
+||CopyBankAccLedgEntry|Lagt til i codeunit 17 Finanskladd – bokfør tilbakeført|  
 |HandlDtlAddjustment|HandleDtldAdjustment|Oppdatert|  
 |CollectAddjustment|CollectAdjustment|Oppdatert|  
 |SetOverDimErr|SetOverDimErr|Oppdatert|  
@@ -163,7 +163,7 @@ Følgende endringer er implementert i denne versjonen av [!INCLUDE[d365fin](incl
 |GetApplnRoundPrecision|GetApplnRoundPrecision|Oppdatert|  
 |CheckDimValueForDisposal|CheckDimValueForDisposal|Oppdatert|  
 |CalculateCurrentBalance|CalculateCurrentBalance|Oppdatert|  
-|IncludeVATAmount||Flyttet til tabell 81 Finanskladdelinje|  
+|IncludeVATAmount||Flyttet til tabell 81 kladdelinje|  
 |CalcVATAmountFromVATEntry|CalcVATAmountFromVATEntry|Oppdatert|  
 ||TotalVATAmountOnJnlLines|Lagt til|  
 ||SetGLRegReverse|Lagt til|  

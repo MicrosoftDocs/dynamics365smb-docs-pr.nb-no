@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/05/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 3139273b09a223c84c452b5fbe2ee8b637a4c493
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251012"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311479"
 ---
-# <a name="setting-up-included365finincludesd365finmdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
@@ -47,7 +47,7 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)|
 |Få innsikt i Business Central-data med Power BI- og Business Central-innholdspakker.|[Aktivere forretningsdata for Power BI](admin-powerbi.md)|
 |Bruke Business Central-data som en del av en arbeidsflyt i Microsoft Flow.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
-|Gjør Business Central-data tilgjengelig som en datakilde i PowerApps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Gjør Business Central-data tilgjengelige som en datakilde i PowerApps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
 |Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
 |Utfør massefakturering av avtaler som er opprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|

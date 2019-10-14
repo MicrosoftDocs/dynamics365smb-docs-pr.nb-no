@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 952f2b9dc301b6941d13b4c23ac55f83b781739f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245921"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305697"
 ---
 # <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
 Webtjenester er en lett måte å gjøre programfunksjonalitet tilgjengelig for en rekke eksterne systemer og brukere. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en rekke objekter som vises som webtjenester som standard på grunn av integrering med andre Microsoft-tjenester, men du kan også legge til andre webtjenester.  
 
-Du kan definere en webtjeneste i Windows-klienten eller i webklienten. Du må deretter publisere webtjenesten slik at den er tilgjengelig for serviceforespørsler over nettverket. Brukere kan oppdage webtjenester ved å velge en webleser på en server og be om liste over tilgjengelige tjenester. Når du publiserer en webtjeneste, er den umiddelbart tilgjengelig på nettverket for godkjente brukere. Alle autoriserte brukere har tilgang til metadata for webtjenester, men bare brukere som har tilstrekkelige tillatelser, har tilgang til faktiske data.
+Du definerer en webtjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten. Du må deretter publisere webtjenesten slik at den er tilgjengelig for serviceforespørsler over nettverket. Brukere kan oppdage webtjenester ved å velge en webleser på en server og be om liste over tilgjengelige tjenester. Når du publiserer en webtjeneste, er den umiddelbart tilgjengelig på nettverket for godkjente brukere. Alle autoriserte brukere har tilgang til metadata for webtjenester, men bare brukere som har tilstrekkelige tillatelser, har tilgang til faktiske data.
 
 ## <a name="creating-and-publishing-a-web-service"></a>Opprette og publisere en webtjeneste  
 De følgende trinnene forklarer hvordan du oppretter og publiserer en webtjeneste.  

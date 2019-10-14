@@ -1,8 +1,6 @@
 ---
 title: Samle oppsettsverdier for kunde | Microsoft-dokumentasjon
-description: Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i Business Central og deretter gi det til kunden som en Excel-fil (XLS) eller en XML-fil.
-services: project-madeira
-documentationcenter: ''
+description: Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i Business Central og deretter gi det til kunden som en Excel-fil (xlsx) eller en XML-fil.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6df4963c18e12efe4ddad68c6050776b45e7614c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245575"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304639"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
 Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
@@ -75,7 +73,7 @@ Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detal
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
 3. Velg spørreskjemaet for selskapet, og velg deretter handlingen **Eksporter til Excel**, eventuelt **Eksporter til XML**.
 4. Få kunden til å fullføre konfigurasjonsspørreskjemaet ved å skrive inn svarene i Excel-arbeidsboken. Det finnes forslag for hvert spørsmålsområde som er opprettet for spørreskjemaet.   
-5. Velg handlingen **importer fra Excel**, og velg deretter XLSX-filen med kundens svar.  
+5. Lagre Excel-arbeidsboken som *XML-data*. Velg handlingen **Importer fra XML**, og velg deretter XML-filen med kundens svar.
 6. Velg handlingen **Spørsmålsområder** for å starte prosessen med å validere og bruke svarene på konfigurasjonsspørreskjemaet.  
 
 ## <a name="to-complete-a-questionnaire-from-the-configuration-worksheet"></a>Slik fullfører du et spørreskjema fra konfigurasjonsforslaget:  

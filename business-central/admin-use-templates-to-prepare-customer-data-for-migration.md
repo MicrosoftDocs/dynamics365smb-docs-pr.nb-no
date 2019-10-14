@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 165eddfa28f2a48597d64c4480288e9280124fe7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247238"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307772"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Klargjøre for å flytte kundedata
 Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene.  

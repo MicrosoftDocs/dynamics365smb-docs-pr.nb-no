@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 24b89662ed772280da8f5f8f08677f644f75922e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240283"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309919"
 ---
 # <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
@@ -94,7 +94,7 @@ Når du har en fullført vareopptellingsregistrering, oppdateres feltet **Antall
 
 Hvis du vil se forventet antall og eventuelle registrerte avvik for varer som har varesporing, kan du velge handlingen **Linjer** og deretter velge handlingen **Varesporingslinjer** for å velge ulike visninger for serie- og partinumre i vareopptellingen.
 
-Du kan også velge handlingen **Differanse for vareopptellingsordre** for å se eventuelle avvik mellom det forventede antallet og det opptalte antallet.
+Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vise eventuelle differanser mellom det forventede antallet og det opptalte antallet.
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Slik finner du duplikate vareopptellingsordrelinjer
 

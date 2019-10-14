@@ -1,1 +1,1 @@
-Hent [opplæring.](/dynamics365/get-started/training/)
+Hent [opplæring.](/learn/browse/?products=dynamics-business-central)

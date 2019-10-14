@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: e3ca7a52bb01b9d4a7b6417be14396cc616131ca
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2b0cd58ebb61dba8fcdcb0f686a2afe88a5e9f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1241823"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2309367"
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
 Ved å ha en solid markedsføringsplan kan du identifisere, trekke til deg og beholde kunder. En markedsføringsplan består av forskjellige kampanjer og andre samhandlinger i forbindelse med salgs- og markedsføringsaktiviteter. Når du planlegger en kampanje, må du bestemme deg for hvilke kontakter du skal rette deg mot, hvilken type kampanje du vil kjøre (for eksempel salgsmesse eller direktereklame), og hvilke selgere som skal utføre hver oppgave.
@@ -39,7 +39,7 @@ Når du har definert kampanjen, bestemt hvilke segmenter du vil kampanjen skal d
 > [!NOTE]  
 >   For å kunne aktivere salgsprisene/linjerabattene, må du angi om hele segmentet eller bare noen kontakter er mål for kampanjen. Hvis salgsprisene/linjerabattene dekker alle kontaktene i segmentet, merker du av for **Kampanjemål**-feltet på hurtigfanen **Kampanje** på **Segment**-kortet.
 
-Hvis salgsprisene/linjerabattene ikke skal tilbys alle kontaktene i segmentet, kan du fjerne merket for **Kampanjemål**-feltet for de relavante kontaktene. Hvis du ikke ser dette feltet, kan du legge det til i visningen. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet ](ui-personalization-user.md).
+Hvis salgsprisene/linjerabattene ikke skal tilbys alle kontaktene i segmentet, kan du fjerne merket for **Kampanjemål**-feltet for de relavante kontaktene. Hvis du ikke ser dette feltet, kan du legge det til i visningen. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ## <a name="conducting-campaigns"></a>Utføre kampanjer
 Mens en kampanje kjører, registreres all samhandling med kontaktene eller segmentet, slik at du kan få statistikk og annen informasjon om kostnader og hvor vellykket kampanjen er.

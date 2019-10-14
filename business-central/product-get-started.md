@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: setup wizard
-ms.date: 06/13/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: dd3cf008e2d16a8d63c9fea930ddcb4ba14072a2
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: 00ab948c07e708ae22c63177f01ed4c6ada28c5a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858292"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313591"
 ---
 # <a name="getting-started-with-included365fin_longincludesd365fin_long_mdmd"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet. Hvis du vil ha hjelp med abonnementet, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)] partner [her](https://www.microsoft.com/en-us/solution-providers/search).  
@@ -42,6 +42,8 @@ Før du kan begynne å bruke funksjonaliteteten, må du utføre et bestemt oppse
 
 Hvis du vil ha en oversikt over gjeldende funksjoner og hva som kommer, kan du se utgivelsesplanen vår på [Microsoft Dynamics 365 Business Central-utgivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422).  
 
+Du kan også finne e-læringsinnholdinnhold på [Microsoft Learn](/learn/browse/?products=dynamics-business-central).  
+
 ## <a name="the-role-centers"></a>Rollesentrene
 Rollesenter-siden er basert på en rollesentrert design for å gi rask tilgang til forretningsprosessen og intelligensverktøyene du trenger for å gjøre jobben din. En regnskapsfører kan for eksempel overvåke betalinger og godkjenninger, og vise finansytelsesdiagrammer. Sjekk de forskjellige rollesentrene ved å velge **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter") i øvre høyre hjørne, velge **Mine innstillinger** og deretter rollesenteret som skal utforskes. Logg deg på på nytt for å aktivere endringen. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
@@ -65,7 +67,7 @@ På siden **Assistert oppsett** finner du følgende sammen med **Essential**-opp
 | Konfigurere rapportering |Konfigurerer datasett som du kan bruke til å bygge kraftige rapporter ved hjelp av Excel eller Power BI, for eksempel. |
 | Konfigurere en arbeidsflyt for varegodkjenning |Konfigurerer muligheten til å sende en melding til en godkjenner når en bruker endrer eller oppretter et element. |
 | Konfigurere en arbeidsflyt for godkjenning av utbetaling |Konfigurerer muligheten til å sende et varsel til en godkjenner når en bruker sender utbetalingskladdelinjer til godkjenning. |
-| Definere Business Central Connector |Konfigurerer en tilkobling til Dynamics 365 for Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Definere Business Central Connector |Konfigurerer en tilkobling til Dynamics 365 Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
 | Definere mva. |Lar deg komme i gang med standard mva-grupper og tilordne mva-områdekodene som du kan tilordne til kunder og leverandører for å automatisk beregne merverdiavgift i salgs- eller kjøpsdokumenter. |
 
 ## <a name="trying-things-out-in-your-own-company"></a>Prøve ting i din egen bedrift
@@ -99,6 +101,7 @@ Hvis du er regnskapsfører, kan du registrere deg for [!INCLUDE[d365acc_long](in
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som min innboks i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[d365fin](includes/d365fin_md.md)] på mobilenheten din](install-mobile-app.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
+[Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 [Dokumentasjon for Dynamics 365](/dynamics365/)  
 [Microsoft Dynamics 365 Business Central-utgivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422)  
 [Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=828707)  

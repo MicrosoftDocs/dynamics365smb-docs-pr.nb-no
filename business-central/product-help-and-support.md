@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/17/2019
-ms.openlocfilehash: 4ca4205fa5d2da35451f3a78c1534dd32d4d8f65
-ms.sourcegitcommit: b4fb54af9ed2e51479bb5293f86290c0de78858c
+ms.date: 10/01/2019
+ms.openlocfilehash: 0c710291b1039dedf23266b48940e123f425c9cc
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1755972"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313615"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
@@ -43,7 +43,7 @@ Hvis du bruker en prøveversjon av [!INCLUDE [prodshort](includes/prodshort.md)]
 
 ### <a name="blog"></a>Blogg
 
-Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/users/product/business-central/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
+Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
 
 ### <a name="capabilities-coming-soon"></a>Funksjoner som kommer snart
 
@@ -70,20 +70,20 @@ Delen **Feilsøking** viser teknisk informasjon som administratoren eller [!INCL
 
 ## <a name="report-a-problem"></a>Rapporter et problem
 
-[!INCLUDE[prodshort](includes/prodshort.md)]-partneren for videresalg forventes å hjelpe deg med den tekniske støtten. [!INCLUDE[prodshort](includes/prodshort.md)] selges via partnere, og denne delen gjør det enkelt for deg å kontakte partneren for videresalg hvis de har sendt e-postadresse for støtte. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
+[!INCLUDE[prodshort](includes/prodshort.md)]-partneren for videresalg hjelper deg med den tekniske støtten. [!INCLUDE[prodshort](includes/prodshort.md)] selges via partnere, og denne delen gjør det enkelt for deg å kontakte partneren for videresalg hvis de har sendt kontaktdetaljer for støtte. Hvis din [!INCLUDE[prodshort](includes/prodshort.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
 
 > [!NOTE]
 > Denne delen er bare tilgjengelig hvis du har betalt for et [!INCLUDE [prodshort](includes/prodshort.md)]-abonnement. Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[prodshort](includes/prodshort.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet. Du finner en [!INCLUDE[prodshort](includes/prodshort.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-### <a name="support-email-address"></a>E-postadresse for kundestøtte
+### <a name="support-contacts"></a>Kontakter for støtte
 
-E-postadressen som vises i delen **Rapporter et problem**, kan være for en person eller et team. Hvis du er [!INCLUDE[prodshort](includes/prodshort.md)]-partner for videresalg for en leier, kan du definere denne e-postadressen på siden **Kontaktinformasjonskort for kundestøtte**. Hvis du vil ha mer informasjon, se [Konfigurere teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support) i utvikler- og ITpro-innholdet for [!INCLUDE [prodshort](includes/prodshort.md)].  
+Delen **Rapporter et problem** viser en e-postadresse eller en hyperkobling der du kan komme inn kontakt med kundestøttepersonen eller-teamet. Hvis du er [!INCLUDE[prodshort](includes/prodshort.md)]-partner for videresalg for en leier, kan du definere detaljer for foretrukne kontaktdetaljer i administrasjonsenteret. Hvis du vil ha mer informasjon, se [Konfigurere støtteopplevelsen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i ITpro-innholdet for [!INCLUDE [prodshort](includes/prodshort.md)].  
 
-Velg koblingen for å varsle partneren din om et problem. Dette åpner en ny e-post i standard e-postredigeringsprogram, og du kan deretter legge til teknisk informasjon om din Azure Active Directory-leier og annen informasjon som du mener er aktuell.  
+Hvis du vil varsle partneren om et problem, kan du velge om du vil sende en e-postmelding eller åpne kundestøtteområdet i en ny leserkategori. Du kan deretter legge til de tekniske opplysningene om Azure Active Directory-leieren din fra **Feilsøking**-delen og annen informasjon som du synes er relevant.  
 
 ## <a name="see-also"></a>Se også
 
 [Blogginnlegg: Finne de riktige ressursene og gi tilbakemeldinger](https://community.dynamics.com/business/b/financials/archive/2018/12/04/find-the-right-resources-and-provide-feedback)  
 [Business Central-utvikler og ITpro-dokumenter](/dynamics365/business-central/dev-itpro/)  
 [Ressurser for hjelp og støtte for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Konfigurere teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support)  
+[Teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support)  

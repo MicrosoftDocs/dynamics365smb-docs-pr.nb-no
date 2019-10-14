@@ -12,15 +12,15 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
 redirect_url: finance-set-up-cost-accounting
-ms.openlocfilehash: f7556b204403f0abdb6361a0e1650b90e58810e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 36da19dbe011f3e26dc166955fb9c5f0decd3b94
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238879"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2305767"
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløp
 [!INCLUDE[d365fin](includes/d365fin_md.md)] har det du trenger for å effektivt administrere leverandører.  
@@ -47,7 +47,7 @@ Hvis du venter med å bokføre innbetalinger til etter at banken bekrefter at de
 
 * I en betalingskladd med foreslåtte betalingslinjer kan du sortere etter kolonnen **Lest ut til betalingsfil** eller **Totalt eksportert beløp**, og deretter slette betalingsforslag for åpne fakturaer som allerede er betalt og du ikke ønsker å betale.
 
-    **Merk:** Det kan være du må legge til disse kolonnene i oversikten. Hvis du vil ha mer informasjon, se [Tilpasse arbeidsområdet ](ui-personalization-user.md).  
+    **Merk:** Det kan være du må legge til disse kolonnene i oversikten. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
 * Du kan også merke av for **Hopp over eksporterte betalinger** i kjørselen **Betalingsforslag - leverandør**, der du angir hvilke betalinger som skal inkluderes i utbetalingskladden, hvis du ikke vil sette inn kladdelinjer for betalinger som allerede er eksportert.
 
 ## <a name="see-also"></a>Se også

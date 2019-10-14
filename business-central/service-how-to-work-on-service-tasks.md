@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b4a47608bbcc191ec413f08e0969f1bbd6fc4041
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251173"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311647"
 ---
 # <a name="work-on-service-tasks"></a>Arbeide med serviceoppgaver
 Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.  
@@ -100,7 +100,7 @@ Når du har reparert en servicevare, kan du registrere både feilkoden og løsni
 2. Velg linjen som inneholder den aktuelle servicevaren, og velg deretter handlingen **Arbeidsordre**.  
 3. På siden **Arbeidsordre** velger du **Forhold ml. feil-/løsningskoder**. Siden **Forhold ml. feil-/løsningskoder** åpnes.  
 
-  >  [!Note]
+  >  [!NOTE]
   >  Du angir filtre i relasjonene som vises på siden, ved å kopiere servicevaregruppen og feilkodene fra siden **Servicevareskjema**.  
 
 4. Fyll ut linjen. Velg riktig kombinasjon av feil- og løsningskoder, og velg deretter **OK** for å kopiere den til servicevaren. Hvis det ikke finnes en rett kombinasjon, kan du opprette en ny kombinasjon på siden.  

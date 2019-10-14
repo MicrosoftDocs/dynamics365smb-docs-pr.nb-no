@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 9e743a51e675431dc1759a6c3a58b7eb4de1ccc5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1245302"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300788"
 ---
 # <a name="changing-language-and-locale"></a>Endre språk og nasjonal innstilling
 
@@ -40,7 +40,7 @@ Du kan endre nasjonale innstillinger i webleserenkategorien som du bruker til å
 
 Hvis du vil endre nasjonal innstilling, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
-## <a name="languages-of-the-included365finincludesd365finmdmd-help"></a>Språkene i Hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Språkene i Hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Innholdet i hjelpen for kjernefunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] publiseres til området Microsoft-dokumentasjon og er tilgjengelig på flere ulike språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[d365fin](includes/d365fin_md.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den i norsk.
 
 ### <a name="how-do-i-change-the-language"></a>Hvordan endrer jeg språket?

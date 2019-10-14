@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9072bd45d5189ec42e8f1adaa3554fa182c36f1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1244725"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2302383"
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
 Hvis du vil gjøre det enklere å utføre analyser på dokumenter, for eksempel salgsordrer, kan du bruke dimensjoner. Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
@@ -50,7 +50,7 @@ Du også definere verdier for dimensjoner. Verdier kan for eksempel være avdeli
 
 Når dimensjoner og verdier er definert, kan du definere globale dimensjoner og snarveisdimensjoner på siden **Finansoppsett** som alltid er tilgjengelige for å velges som felt i kladde- og dokumentlinjer, uten å måtte åpne **Dimensjoner**-siden først. Hvis du vil ha mer informasjon, kan du se [Definere globale dimensjoner og snarveisdimensjoner](finance-dimensions.md#to-set-up-global-and-shortcut-dimensions).
 
-* **Globale dimensjoner** brukes som filtre, for eksempel i rapporter og kjørsler. Du kan bruke bare to globale dimensjoner, så velge dimensjonene du vil bruke ofte.
+* **Globale dimensjoner** brukes som filtre, for eksempel i rapporter, kjørsler og XML-porter. Du kan bruke bare to globale dimensjoner, så velge dimensjonene du vil bruke ofte.
 * **Snarveisdimensjoner** er tilgjengelige som felt på journal- og dokumentlinjer. Du kan opprette opptil seks av disse.  
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Definere standarddimensjoner for kunder, leverandører og andre kontoer

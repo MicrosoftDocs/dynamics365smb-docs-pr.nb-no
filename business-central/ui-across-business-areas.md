@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: 786b56fb247cc57062dfe98c29dce446dd77ccda
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921410"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315687"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
@@ -37,11 +37,11 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 |Arkiver salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og bruk det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra.|[Arkivere dokumenter](across-how-to-archive-documents.md)|
 | Opprette standardtekstkoder slik at du kan utvide standardtekst ved å legge til flere linjer, og definere vilkår for bruk av de ekstra linjene. |[Legge til utvidet varetekst](ui-how-define-ext-text.md) |
 |Opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver for deg selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.|[Definere brukeroppgaver](across-user-tasks.md)|
-|Legg ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og legg ved filer i alle typer salgs- og kjøpsdokumenter.|[Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)|
 |Arbeide med Business Central-data i Excel.|[Eksportere forretningsdataene til Excel](about-export-data.md)|
 |Forstå hva som skjer når du velger **Bokfør**-handlingen.|[Bokføre dokumenter og kladder](ui-post-documents-journals.md)|
+|Bokføre flere salgs- eller kjøpsdokumenter sammen, umiddelbart eller som planlagt.|[Bokføre flere dokumenter samtidig](ui-batch-posting.md)|  
 |Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)|
-|Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)| 
+|Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)|
 |Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|

@@ -10,15 +10,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-balancing-demand-and-supply
-ms.openlocfilehash: 13ab8097b9c6d75f838a58c347af31d560fa9374
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1bef0ad2a94e64ecf95614707b6746e6a381fcb0
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242885"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307399"
 ---
 # <a name="design-details-balancing-supply-with-demand"></a>Designdetaljer: Balansere forsyning med behov
 Kjernen i planleggingssystemet omfatter balansering av behov og forsyning ved å foreslå brukerhandlinger som endrer forsyningsordrene hvis det oppstår ubalanse. Dette skjer per kombinasjon av variant og lokasjon.  

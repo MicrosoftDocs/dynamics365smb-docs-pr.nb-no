@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 06/19/2019
+ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: e100350322a1cf840b4428868f77b104e07c23c1
-ms.sourcegitcommit: 0854c074b500c3031eaf86fde9d452f93f238081
+ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "1701224"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315303"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Virksomhetshjelp** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du åpner siden fra diagrammet i rollesenteret **Forretningsleder** ved å velge rullegardinlisten **Virksomhetshjelp** og deretter velge det **Vis ressurser for oppsett og hjelp**. Når du oppdaterer siden, erstattes diagrammet med ressurser for oppsett og hjelp.
+For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Virksomhetshjelp** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du åpner siden fra diagrammet i rollesenteret **Forretningsleder** ved å velge rullegardinpilen **Virksomhetshjelp** og deretter velge handlingen **Vis ressurser for oppsett og hjelp**. Når du oppdaterer siden, erstattes diagrammet med ressurser for oppsett og hjelp.
 
 Hvis du vil åpne listen over veiledninger for assistert oppsett, kan du alternativt velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett** og deretter velge den relaterte koblingen.
 

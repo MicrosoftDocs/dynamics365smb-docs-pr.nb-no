@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e7dfe565fc533ca5a724675c925cf6a415c49b94
-ms.sourcegitcommit: 8c0d734c7202fec81da79c7db382243aa49e37f6
+ms.openlocfilehash: 41b1b1b0459706a8c061a0044824b5b7c4c9aa62
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/10/2019
-ms.locfileid: "1737100"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312583"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregne dato for kjøp
 [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk datoen du må bestille en vare på for å ha den på lager på en bestemt dato. Dette er datoen da du kan forvente at varer som ble bestilt på en bestemt dato, vil være tilgjengelig for plukking.  

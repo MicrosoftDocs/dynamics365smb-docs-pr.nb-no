@@ -9,17 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a650bb8dec324e94801da828d7e967b514ae3ca1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 65d4562e133d8fa2383bd1fb5092ea001d577396
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251380"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311407"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
+
+> [!Important]
+> Som standard er det ikke tillatt med mellomrom i nummerserier, fordi den nøyaktige historikken for finanstransaksjoner må være tilgjengelige for revisjon, i henhold til lovgivningen, og må derfor følge en ubrutt sekvens uten slettede numre.<br /><br />
+Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se [Tomrom i nummerserier](ui-create-number-series.md#gaps-in-number-series).
 
 > [!NOTE]  
 >   Vi anbefaler at du bruker de samme nummerseriekodene som er oppført på siden **Nummerserieliste** i demoselskapet CRONUS. Koder som *P-INV+* gir kanskje ikke umiddelbar mening for deg, men [!INCLUDE[d365fin](includes/d365fin_md.md)] har en rekke standardinnstillinger som avhenger av disse nummerseriekodene.
@@ -30,6 +34,9 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
+## <a name="gaps-in-number-series"></a>Tomrom i nummerserier
+Ikke alle poster du oppretter i [!INCLUDE[d365fin](includes/d365fin_md.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
+
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. i dokumenter og kort
 På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylles ut automatisk fra en nummerserie eller manuelt, og det kan settes opp til å være usynlig.
 
@@ -38,9 +45,9 @@ På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylle
 1. Hvis det bare finnes én nummerserie for dokumenttypen eller kortet, der det er merket av for **Standardnr.** og ikke merket av for **Manuelle nr.**, fylles feltet ut automatisk med neste nummer i serien, og feltet **Nr.** vises ikke.
 
     > [!NOTE]  
-    > Hvis nummerserien ikke fungerer, for eksempel fordi den er tom for numre, vil feltet **Nr.** vises, og du kan angi et nummer manuelt eller løse problemene på siden **Nummerserieliste**.
+    > Hvis nummerserien ikke fungerer, for eksempel fordi den er tom for numre, vil feltet **Nr.** vises, og du kan angi et nummer manuelt eller løse problemene på siden **Nummerserie**.
 
-2. Hvis det finnes flere nummerserier for dokumenttypen eller kortet, og det ikke er merket av for **Standardnr.** for den tilordnede nummerserien, er feltet **Nr.** synlig, og du kan slå opp **Nummerserieliste**-siden og velge nummerserien du vil bruke. Det neste nummeret i serien settes deretter inn i feltet **Nr.** .
+2. Hvis det finnes flere nummerserier for dokumenttypen eller kortet, og det ikke er merket av for **Standardnr.** for den tilordnede nummerserien, er feltet **Nr.** synlig, og du kan slå opp **Nummerserie**-siden og velge nummerserien du vil bruke. Det neste nummeret i serien settes deretter inn i feltet **Nr.** .
 
 3. Hvis du ikke har definert en nummerserie for typen dokument eller kort, eller hvis det er merket av for **Manuelle nr.** for nummerserien, vises feltet **Nr.** og du må angi et nummer manuelt. Du kan angi opptil 20 tegn, både tall og bokstaver.
 
@@ -53,6 +60,9 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Nummerserie**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Velg handlingen **Linjer**.
+5. På siden **Nr.serielinjer** fyller du ut feltene for å angi faktisk bruk og innhold i nummerserien du opprettet i trinn 2.
+6. Gjenta trinn 5 for så mange typer bruk av nummerserien du trenger. Feltet **Startdato** definerer hvilken nummerserielinje som er aktiv.
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
 Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.

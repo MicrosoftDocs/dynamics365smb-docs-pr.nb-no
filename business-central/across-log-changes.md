@@ -1,6 +1,6 @@
 ---
-title: Spore brukeraktivitet i en endringsloggen | Microsoft-dokumentasjon
-description: Du kan aktivere en brukerlogg slik at du har en logg over eventuelle endringer i data i sporede tabeller.
+title: Revidere endringer | Microsoft Docs
+description: Du kan aktivere en brukerlogg slik at du har en logg over eventuelle endringer i data i sporede tabeller. Du kan også spore aktiviteter med bestemte typer aktivitetslogger.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fc14d11bf75ea39553c1ed04986273903874a0e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 43aea054ce4e66e9108f408d96c2eb491351b382
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240444"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304935"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revidere endringer i Business Central
 
@@ -38,9 +38,15 @@ På siden **Endringsloggoppsett**, hvis du velger **Tabeller**-handlingen, kan d
 
 Når du har opprettet endringsloggen, aktivert den og endret data, kan du vise og filtrere endringene på siden **Endringsloggposter**. Hvis du vil slette postene, kan du gjøre det på siden **Slett endringsloggposter**, der du kan definere filtre basert på datoene og tidspunktene.  
 
+## <a name="working-with-activity-logs"></a>Arbeide med aktivitetslogger
+
+Fra enkelte sider i [!INCLUDE [prodshort](includes/prodshort.md)] kan du vise en aktivitetslogg som viser statusen og eventuelle feil fra filer du eksporterer fra eller importerer til [!INCLUDE [prodshort](includes/prodshort.md)].  
+
+Informasjonen vises på **Aktivitetslogg**-siden i samsvar med konteksten den åpnes i. Du kan åpne vinduet fra sidene **Oppsett av dokumentutvekslingstjeneste**, **Innkommende dokument**, **Bokført salgsfaktura**og **Bokført salgskreditnota** , for eksempel. Du kan tømme oversikten over loggposter eller bare fjerne oversikten over poster som er eldre enn 7 dager.  
+
 ## <a name="see-also"></a>Se også
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Sortering](ui-sorting.md)  
-[Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md)  
+[Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Administrere brukere og tillatelser](ui-how-users-permissions.md)    
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

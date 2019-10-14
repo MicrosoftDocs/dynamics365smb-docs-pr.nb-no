@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 913537f5fad5732c729a5e00894400bedcf949b3
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249035"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310495"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -78,7 +78,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 2.  Velg handlingen **Ny**.  
 3.  I feltet **Nr.** -feltet angir du **2000** og forstetter med å fylle ut følgende felt.  
 
-    |Beskrivelse|Lagerenhet|Bokføringsgruppe - vare|Mva-bokføringsgruppe - vare|Bokføringsgruppe - lager|Varesporingskode|  
+    |Beskrivelse|Lagerenhet|Finans- - vare|Mva-bokføringsgruppe - vare|Bokføringsgruppe - lager|Varesporingskode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|------------------------|  
     |Racersykkelramme|STK|RÅVARER|Mva.25|RÅVARER|PARTIALL|  
 
@@ -90,7 +90,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 6.  Velg **Ny**.  
 7.  I feltet **Nr.** -feltet angir du **1002** og forstetter med å fylle ut følgende felt.  
 
-    |Beskrivelse|Lagerenhet|Bokføringsgruppe - vare|Mva-bokføringsgruppe - vare|Bokføringsgruppe - lager|Etterfyllingssystem|Varesporingskode|  
+    |Beskrivelse|Lagerenhet|Finans- - vare|Mva-bokføringsgruppe - vare|Bokføringsgruppe - lager|Etterfyllingssystem|Varesporingskode|  
     |-----------------|--------------------------|------------------------------|-----------------------------|-----------------------------|--------------------------|------------------------|  
     |Racersykkel|STK|DETALJ|Mva.25|FERDIG|Prod.ordre|SNALL|  
 

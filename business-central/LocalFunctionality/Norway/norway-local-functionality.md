@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d92d0c55fbb403066832301bf0c52bb3e234b96e
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: 7e66d2e3a3c1c5eee468e91e91c4638c498a2c22
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594148"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301216"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
@@ -23,6 +23,7 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
 ## <a name="feature-availability"></a>Funksjonstilgjengelighet
 
 * Merverdiavgift
+    * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Estimert oktober 2019**
     * [Norsk mva-rapportering](norwegian-vat-reporting.md) **Tilgjengelig nå**
     * [Norske mva-koder](norwegian-vat-codes.md) **Tilgjengelig nå**  
     * [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md) **Tilgjengelig nå**

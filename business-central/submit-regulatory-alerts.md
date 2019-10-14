@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: d4ceef0780306015795c0a2406245514c2a26de5
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250322"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315711"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
@@ -21,13 +21,21 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Sende forskriftsmessig varsel i LCS
 
-1. Gå til https://lcs.dynamics.com og logg på. Du vil se prosjektene du har tilgang til.
+1. Gå til https://lcs.dynamics.com og logg på  
 
-2. Velg **Forskriftsmessige varsler – globalt**-prosjektet. Dette åpner prosjektet og viser flere ting som er knyttet til prosjektet.
+    Du vil se prosjektene du har tilgang til.
 
-3. Velg **Varseltjeneste** til høyre i delen **Flere verktøy**. Du vil se en liste over varsler med overskriften **Forskriftsmessig Dynamics-varselsending**
+2. Velg prosjektet **Forskriftsmessige varsler – globalt**
 
-4. Du kan legge til et nytt varsel ved å klikke på plusstegn **(+)** øverst i listen. Da vises en veiledning med trinn 4 for å opprette varselet. Veiledningen har følgende trinn:
+    Dette åpner prosjektet og viser en rekke ting relatert til dette prosjektet
+
+3. Velg **Varseltjeneste** på høyre side i delen **Flere verktøy**
+
+    Det vises en oversikt over varsler med overskriften **Forskriftsmessig Dynamics-varselsending**
+
+4. Du kan legge til et nytt varsel ved å klikke på plusstegnet **(+)** på toppen av listen
+
+    Her får du en firetrinns veiledning for hvordan du oppretter varselet. Veiledningen har følgende trinn:
     - Søke etter eksisterende elementer
 
         Søk etter informasjon du synes er relevant for varselet du vil opprette. Hvis du ikke finner noen relevante søkeresultater, kan du velge knappen **Send forskriftsmessig varsel** nederst på siden for å gå videre med varselinnsendingen.
@@ -44,7 +52,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
         |Description  | Angi en kort oversikt av loven. Beskrivelsen må fokusere på problemer som er relevante for ERP-aktiviteter, slik at brukere kan forstå kravene på høyt nivå uten å måtte lese lovgivningen først.|
         |Land  | Angi landet eller regionen lovgivningen gjelder for.|
         |Bransje| Angi bransje hvis behovet bare gjelder for bestemte bransjer. Velg for eksempel **Offentlig sektor**, **Detaljhandel**, eller **Produksjon**.|
-        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på CustomerSource-området. |
         |Dato for håndhevelse av lov  | Angi datoen når berørte kunder må begynne å overholde loven.|
         |Offentlig kunngjøringsdato  | Angi datoen myndighetene skal kunngjøre endringen.|
         |Siste registreringsdato  | Velg fristen for den første sendingen av den nye eller endrede rapporten.|
@@ -66,7 +74,9 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 ## <a name="see-also"></a>Se også
 
-[Velkommen til Business Central](index.md)  
+[Lokal funksjonalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Endre språk og nasjonal innstilling](about-locale-language.md)  
 [Komme i gang](product-get-started.md)  
+[Velkommen til Business Central](index.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,6 +1,6 @@
 ---
 title: Manuell synkronisering i tabelltilordninger | Microsoft Docs
-description: Synkroniseringen kopierer data mellom Dynamics 365 for Sales-poster og Business Central for å holde begge systemene oppdatert.
+description: Synkroniseringen kopierer data mellom Dynamics 365 Sales-poster og Business Central for å holde begge systemene oppdatert.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 71284c8a2824e63c21768f2db55edb501486424d
-ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
+ms.openlocfilehash: 4aa56deaef4cd32f58fe4ad17abbc72a58b94ed9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1629553"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307943"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisere tabelltilordninger manuelt
 En integrert tabelltilordning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell (posttype), for eksempel kunde, med en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet, for eksempel en konto. Synkronisering av en integrert tabelltilordning gjør det mulig å synkronisere data i alle poster av [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og [!INCLUDE[crm_md](includes/crm_md.md)]-enheten som er koblet. I tillegg, avhengig av oppsettet for tabelltilordningen, kan synkroniseringen opprette og koble nye poster i målløsningen for ukoblede poster i kilden.  
@@ -39,13 +39,13 @@ Om og hvor det opprettes en post, avhenger av synkroniseringsretningen. Når du 
 
 Jobbene kjøres i denne rekkefølgen for å unngå å koble avhengigheter mellom enheter.  
 
-1.  CURRENCY – Dynamics 365 for Sales-synkroniseringsjobb  
-2.  SALESPEOPLE – Dynamics 365 for Sales-synkroniseringsjobb  
-3.  UNITOFMEASURE – Dynamics 365 for Sales-synkroniseringsjobb  
-4.  CUSTOMER – Dynamics 365 for Sales-synkroniseringsjobb  
-5.  CONTACTS – Dynamics 365 for Sales-synkroniseringsjobb  
-6.  RESOURCE-PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb  
-7.  ITEM-PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb  
+1.  VALUTA – Dynamics 365 Sales-synkroniseringsjobb  
+2.  SELGERE – Dynamics 365 Sales-synkroniseringsjobb  
+3.  MÅLEENHET – Dynamics 365 Sales-synkroniseringsjobb  
+4.  KUNDE – Dynamics 365 Sales-synkroniseringsjobb  
+5.  KONTAKTER – Dynamics 365 Sales-synkroniseringsjobb  
+6.  RESSURS-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb  
+7.  VARE-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb  
 
 > [!IMPORTANT]  
 >  Du bruker vanligvis bare fullstendig synkronisering første gang du definerer integrasjon mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] og bare én av løsningene inneholder data, som du vil kopiere til den andre løsningen. En fullstendig synkronisering kan være nyttige i et demonstrasjonsmiljø. Siden fullstendig synkronisering automatisk oppretter og kobler poster mellom løsninger, er det raskere å begynne å arbeide med synkronisering av data mellom poster. Derimot må du bare utføre en full synkronisering hvis du vil ha en post i [!INCLUDE[d365fin](includes/d365fin_md.md)] for hver post i [!INCLUDE[crm_md](includes/crm_md.md)] for de gitte tabelltilordningene. Hvis ikke kan det oppstå uønskede eller dupliserte poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller [!INCLUDE[crm_md](includes/crm_md.md)].  
@@ -54,7 +54,7 @@ Jobbene kjøres i denne rekkefølgen for å unngå å koble avhengigheter mellom
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085502]
 
 ### <a name="to-run-a-full-synchronization"></a>Kjøre en full synkronisering  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**, og velg deretter den relaterte koblingen.
 2.  Velg handlingen **Kjør full synkronisering**, og velg deretter **Ja**-knappen.  
 3.  Når full synkronisering er fullført, kan du angi om du vil at planlagte synkroniseringsjobber skal kunne opprette nye poster.  
 
@@ -65,15 +65,15 @@ Jobbene kjøres i denne rekkefølgen for å unngå å koble avhengigheter mellom
 Du kan se resultatet av den fullstendige synkroniseringen på siden **Synkroniseringsjobber for integrering**. Hvis du vil ha mer informasjon, kan du se [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md).  
 
 ## <a name="synchronizing-all-modified-records"></a>Synkronisere alle endrede poster
-Du kan bruke siden **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** til å synkronisere endringer i data i alle integrasjonstabelltilordninger. Dette ligner på en fullstendig synkronisering. Det synkroniseres data i alle koblede poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellene og [!INCLUDE[crm_md](includes/crm_md.md)]-enhetene som er definert i tabelltilordningene. Som standard synkroniseres bare poster som har blitt endret siden forrige gang de ble synkronisert. Tabelltilordninger synkroniseres i denne rekkefølgen for å unngå å koble avhengigheter mellom enhetene:  
+Du kan bruke siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales** til å synkronisere endringer i data i alle integrasjonstabelltilordninger. Dette ligner på en fullstendig synkronisering. Det synkroniseres data i alle koblede poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellene og [!INCLUDE[crm_md](includes/crm_md.md)]-enhetene som er definert i tabelltilordningene. Som standard synkroniseres bare poster som har blitt endret siden forrige gang de ble synkronisert. Tabelltilordninger synkroniseres i denne rekkefølgen for å unngå å koble avhengigheter mellom enhetene:  
 
-1.  CURRENCY – Dynamics 365 for Sales-synkroniseringsjobb  
-2.  SALESPEOPLE – Dynamics 365 for Sales-synkroniseringsjobb  
-3.  UNITOFMEASURE – Dynamics 365 for Sales-synkroniseringsjobb  
-4.  CUSTOMER – Dynamics 365 for Sales-synkroniseringsjobb  
-5.  CONTACTS – Dynamics 365 for Sales-synkroniseringsjobb  
-6.  RESOURCE-PRODUCT \- Dynamics 365 for Sales-synkroniseringsjobb  
-7.  ITEM-PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb  
+1.  VALUTA – Dynamics 365 Sales-synkroniseringsjobb  
+2.  SELGERE – Dynamics 365 Sales-synkroniseringsjobb  
+3.  MÅLEENHET – Dynamics 365 Sales-synkroniseringsjobb  
+4.  KUNDE – Dynamics 365 Sales-synkroniseringsjobb  
+5.  KONTAKTER – Dynamics 365 Sales-synkroniseringsjobb  
+6.  RESSURS-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb  
+7.  VARE-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb  
 
 Du kan se resultatet av synkroniseringen på siden **Synkroniseringsjobber for integrering**. Hvis du vil ha mer informasjon, kan du se [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md).  
 
@@ -81,7 +81,7 @@ Du kan se resultatet av synkroniseringen på siden **Synkroniseringsjobber for i
 >  Når du endrer integreringstabelltilordningen på forhånd, kan du konfigurere synkroniseringen med filtre for å kontrollere hvilke poster som er synkronisert, eller konfigurere den for å opprette nye poster i målløsningen for ukoblede poster i kilden. Hvis du vil ha mer informasjon, se [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-records-for-all-tables"></a>Synkronisere poster for alle tabeller  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**, og velg deretter den relaterte koblingen.
 2.  Velg **Synkroniser endrede poster**-handlingen, og velg deretter **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synkronisere individuelle tabelltilordninger
@@ -94,5 +94,5 @@ Ved å endre integrasjonstabelltilordningen på forhånd kan du konfigurere synk
 2.  Velg **Synkroniser endrede poster**-handlingen, og velg deretter **Ja**.  
 
 ## <a name="see-also"></a>Se også  
-[Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
-[Sette opp brukerkontoer for integrasjon med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)   
+[Synkronisere Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
+[Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   

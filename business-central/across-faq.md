@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 08/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 91cd5a7bd5b4aa5103e472fbf040599ac9740226
-ms.sourcegitcommit: 5bcc5f95e450ee9a3d9f7a380e592a5e75c4185b
+ms.openlocfilehash: bfe2c4bec0627aee83d0ca25db975c76b7f803ab
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1858269"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300572"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
@@ -40,15 +40,17 @@ Fra hjemmesiden for gruppen kan du også finne koblinger til våre blogger, der 
 Til slutt kan du kontakte din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for videresalg. Hvis du vil ha mer informasjon, kan du se [Hvordan får jeg teknisk støtte for?](across-faq.md#how-do-i-get-technical-support-for-)-delen.  
 
 ## <a name="why-cant-i-find-that-capability-in-my-included365finincludesd365fin_mdmd"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Har du lest om en ny funksjon i utgivelsesplanen eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource.  
+Har du lest om en ny funksjon i utgivelsesplanen eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har blitt oppgradere til siste versjon ennå. Du kan kontrollere hvilken versjon [!INCLUDE[d365fin](includes/d365fin_md.md)] som er basert på siden [Hjelp og støtte](product-help-and-support.md).  
+
+Dessuten, hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er det noen forskjeller mellom en lokal distribusjon og skyversjonen av Business Central?
 Ja. Noen skybaserte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Funksjoner som ikke er implementert i lokale distribusjoner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
 
 ## <a name="can-i-get-training-in-included365finincludesd365fin_mdmd"></a>Kan jeg få opplæring i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Ja, det kan du. For øyeblikket må du imidlertid spørre videresalgspartneren. Hvis du ikke vet hvem det er, finner du en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
+Ja, det kan du! Du kan finne gratis e-læringsinnhold på [Microsoft Learn-området.](/learn/browse/?products=dynamics-business-central) Du kan også be videresalgspartneren om ytterligere opplæring. Hvis du ikke vet hvem det er, finner du en Business Central-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145).  
 
-Hvis du har tilgang til Microsoft CustomerSource, kan du få tilgang til nettstedet Imagine Academy med e-læringsmateriale. Hvis du vil ha mer informasjon om hvordan du får tilgang, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
+Hvis du vil ha mer informasjon om opplæring fra Microsoft, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  
 
 ## <a name="how-do-i-get-technical-support-for-included365finincludesd365fin_mdmd"></a>Hvordan får jeg teknisk støtte for [!INCLUDE[d365fin](includes/d365fin_md.md)]?
 
@@ -74,7 +76,7 @@ Hvis du vil distribuere [!INCLUDE[d365fin](includes/d365fin_md.md)] lokalt, kan 
 ## <a name="do-i-have-to-buy-office-365"></a>Må jeg kjøpe Office 365?
 Nr. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
 
-Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel *joe@mysolution.com*), og du har et Office 365-abonnement, kan du knytte domenet (*mysolution.com*) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Office 365-abonnement, kan du knytte domenet (*mysolution.com*) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
 Hvis du ikke har et Office 365-abonnement, og du ikke vil kjøpe et, vil vil, når du registrerer deg, klargjøre vi en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
 
@@ -87,8 +89,8 @@ Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som s
 > [!NOTE]
 > Det kan ta opptil to arbeidsdager å fullføre utvidelsen av prøveversjonen.  
 
-## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-role-center-in-included365finincludesd365fin_mdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme rollesenter i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
-Dette er litt komplisert, men det ser ut som administratoren ikke endre ditt rollesenter og tilordne brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] avhengig av hvilken type plan (lisens) som du har - dette angir tillatelser og standardside for rollesenter. Du kan endre ditt rollesenter manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flytte fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle hjemmesiden fordi tillatelsene ikke ble endret.  
+## <a name="our-administrator-has-moved-me-to-another-plan-to-give-me-another-role-but-i-still-see-the-same-home-screen-in-included365finincludesd365fin_mdmd"></a>Vår administrator har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme startside i [!INCLUDE[d365fin](includes/d365fin_md.md)]?
+Dette er litt komplisert, men det ser ut som administratoren ikke endret din tilordnede rolle og tilordner brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)] avhengig av hvilken type plan (lisens) du har – dette angir tillatelser, din tilordnede rolle og standard startside. Du kan endre din gjeldende rolle manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flyttet fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle startsiden fordi tillatelsene ikke ble endret.  
 
 ## <a name="can-i-cancel-my-subscription"></a>Kan jeg avbryte abonnementet?
 Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  

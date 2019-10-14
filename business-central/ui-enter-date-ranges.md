@@ -9,22 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 96471b07d48120db7fda5e48a14c9ca0147688fb
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000766"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315591"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeide med datoer og klokkeslett i kalenderen
 
 [!INCLUDE[d365fin](includes/d365fin_long_md.md)] tilbyr flere måter å angi datoer og klokkeslett på, inkludert avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere innstillinger for region og språk
-
-Siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central") angir **Region** og **Språk** som er brukt i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett.
+Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett.
 
 -   **Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.
 
@@ -85,7 +84,7 @@ Regnskapsperioden er definert på **Regnskapsperioder**-siden. Hvis du vil vise 
 
 Arbeidsdatofunksjonen lar deg registrere transaksjoner med en dato som er forskjellig fra den gjeldende datoen.
 
-Ordet for "arbeidsdato"på språket som er angitt av **Språk**-innstillingen setter datoen til arbeidsdatoen som er angitt i på siden [**Mine innstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med brukerinnstillinger i Business Central"). I stedet for å angi hele ordet, kan du angi en del av ord fra begynnelsen, for eksempel "a" eller "arbeid".
+Ordet for "arbeidsdato" på språket som er angitt av **Språk**-innstillingen, setter datoen til arbeidsdatoen som er angitt på siden **Mine innstillinger**. I stedet for å angi hele ordet, kan du angi en del av ord fra begynnelsen, for eksempel "a" eller "arbeid".
 
 Hvis du ikke har definert en arbeidsdato, vil den gjeldende datoen bli brukt som arbeidsdato. Hvis du har mange transaksjoner å utføre på en dato som ikke er dagens dato, er det en fordel å bruke arbeidsdatoen.
 
@@ -129,8 +128,8 @@ I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett
 |**Betyr**|**Eksempeluttrykk (dato)**|**Data som er inkludert i filteret**|
 |-----------|---------------------|--------------------|
 |Intervall|15.12.00..15.01.01<br /><br />..15.12.00<br /><br />p1..p4|Poster med dato fra og med 15.12.00 til og med 15.01.01.<br /><br />Poster med datoer 15.12.00 eller tidligere.<br /><br />Datointervall som inneholder den andre, tredje eller fjerde regnskapsperioden, for eksempel 01.01.20–30.04.20.|
-|Enten/eller|15.12.00|16.12.00|Poster med datoer enten 15.12.00 eller 16.12.00. Hvis det er poster med begge datoer på begge dager, blir alle vist.|
-|Kombinasjon|15.12.00|01.12.00..10.12.00  \n..14.12.00|30.12.00..|Poster med datoer 15.12.00 eller fra og med 01.12.00 til og med 10.12.00.  \Poster med datoer 14.12.00 eller tidligere, eller datoer 30.12.00 eller senere, det vil si alle poster unntatt poster med datoer mellom og 15.12.00 og 29.12.00.|
+|Enten/eller|12 15 00\|12 16 00|Poster med datoer enten 15.12.00 eller 16.12.00. Hvis det er poster med begge datoer på begge dager, blir alle vist.|
+|Kombinasjon|12 15 00\|12 01 00..12 10 00  <br /><br />..12 14 00\|12 30 00..|Poster med datoer 15.12.00 eller fra og med 01.12.00 til og med 10.12.00.  <br /><br />Poster med datoer 14.12.00 eller tidligere, eller datoer 30.12.00 eller senere, det vil si alle poster unntatt poster med datoer mellom og 15.12.00 og 29.12.00.|
 
 Du kan bruke ethvert gyldig format i datointervallfiltre. For eksempel man14 3..t 4p brukt på en dato- og klokkeslettfelt resulterer i et filter fra 03:00 mandag i uke 14 i det gjeldende arbeidsdatoåret, inkludert til dagens dato klokken 16:00.
 

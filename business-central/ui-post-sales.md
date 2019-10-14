@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 08/27/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a2eb27a541033b755b9ab9d4ea9156bf7de9cab4
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921433"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310783"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
@@ -39,14 +39,17 @@ For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salg
 > [!IMPORTANT]  
 >   Når du bokfører en ordre, kan du opprette både en følgeseddel og en faktura. Dette kan gjøres samtidig eller hver for seg. Du kan også opprette en dellevering eller en delfaktura ved å fylle ut feltene **Levere (antall)** og **Fakturer (antall)** på hver enkelt ordrelinje før du bokfører. Merk at du ikke kan opprette en faktura for noe som ikke er levert. Det vil si at for å kunne fakturere, er det nødvendig at du på forhånd har registrert en levering, eller at du velger å levere og fakturere samtidig.
 
+Du kan enten bokføre eller bokføre og skrive ut. Hvis du velger å bokføre og skrive ut, skrives det ut en rapport når ordren bokføres. Du kan også velge funksjonen **Massebokfør** for å bokføre flere bestillinger samtidig. Hvis du vil ha mer informasjon, se [Bokføre flere dokumenter samtidig](ui-batch-posting.md).
+
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
 Du kan redigere bestemte felt på bokførte salgsdokumenter, for eksempel **Pakkesporingsnr**. -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md).
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
+[Bokføre flere dokumenter samtidig](ui-batch-posting.md)  
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
-[Bruke Fortell meg til å finne funksjoner og informasjon](ui-search.md)  
+[Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

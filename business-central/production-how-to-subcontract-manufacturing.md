@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dac30e8c48e37464bc503fcc1d2961cc5721868
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 020fde81b868a2aba65ae5d5acae2047a007eaa5
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253013"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313063"
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
 Underleveranse av valgte operasjoner til leverandør er vanlig i mange produksjonsselskaper. Underleveranse kan skje en sjelden gang eller være en vesentlig del av alle produksjonsprosesser.
 
-Programmet har mange verktøy for håndtering av underleveransearbeid:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] har mange verktøy for håndtering av underleveransearbeid:  
 
 - Arbeidssentre med tilordnet leverandør: Du kan bruke denne funksjonen til å definere et arbeidssenter som er tilknyttet en leverandør (underleverandør). Dette kalles et arbeidssenter for underleveranse. Du kan angi et arbeidssenter for underleveranse i en ruteoperasjon, slik at du enkelt kan behandle underleveranseaktiviteten. I tillegg kan operasjonskostbeløpet tildeles på rute- eller arbeidssenternivået.  
 - Arbeidssenterkost basert på enheter eller tid: Du kan bruke denne funksjonen til å angi om kost som er knyttet til arbeidssenteret, er basert på produksjonstiden eller på en ensartet pris per enhet. Selv om underleverandører vanligvis bruker en ensartet pris per enhet som betaling for tjenester, kan programmet håndtere begge alternativene (produksjonstid og ensartet pris per enhet).  

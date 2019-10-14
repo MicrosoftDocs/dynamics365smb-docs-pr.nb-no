@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54a7ad407ef3322ec1e02de4b20a934163a21a8e
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251334"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315507"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
@@ -41,7 +41,7 @@ Hvis du aktiverer utvidelsen, er flisen **Betalinger forutsatt til å være fors
 
 * **Sen betaling** - angir om betalingen av fakturaen forutsettes å bli forsinket.
 * **Prognosekonfidens** - angir hvor pålitelig du bør vurdere prognosen til å være. **Høy** betyr at prognosen er minst 90 % sikker, **Middels** er mellom 80 og 90 % og **Lav** er under 80 %.
-* **Prognosekonfidens %** - viser den faktiske prosenten bak prognoserangeringen. Denne kolonnen vises ikke som standard, men kan du legge den til hvis du vil. Hvis du vil ha mer informasjon, se [Tilpasse arbeidsområdet ](ui-personalization-user.md).
+* **Prognosekonfidens %** - viser den faktiske prosenten bak prognoserangeringen. Denne kolonnen vises ikke som standard, men kan du legge den til hvis du vil. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 > [!Tip]
 > Kundeposter-siden viser også en faktaboks på høyre side. Når du ser prognoser, informasjon i vinduet **Kundeinformasjon** kan være nyttig. Når du velger fakturaen i oversikten, viser delen informasjon om kunden. Du kan også agere umiddelbart. Hvis en kunde ofte glemmer å betale, kan du åpne kundekortet fra faktaboksen og sperre kunden for fremtidig salg.  

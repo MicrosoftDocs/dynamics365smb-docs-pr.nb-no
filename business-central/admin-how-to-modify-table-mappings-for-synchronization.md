@@ -1,6 +1,6 @@
 ---
 title: Endre tabelltilordninger for synkronisering | Microsoft Docs
-description: Lær hvordan du kan endre tabelltilordninger som brukes ved synkroniseringen av data mellom Business Central og Dynamics 365 for Sales.
+description: Lær hvordan du kan endre tabelltilordninger som brukes ved synkroniseringen av data mellom Business Central og Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c2b2df393afe7cf27964b1540deddf7760747a9d
-ms.sourcegitcommit: 92c7b6c5f0a5d8becbef106ab85258906765bc3e
+ms.openlocfilehash: 505c1427c63a0a6f9e68980ea0ff05c93918ea60
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/13/2019
-ms.locfileid: "1540203"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308078"
 ---
 # <a name="modify-table-mappings-for-synchronization"></a>Endre tabelltilordningene for synkronisering
 En integrasjonstabelltilordning kobler en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)] til en integrasjonstabell for [!INCLUDE[crm_md](includes/crm_md.md)]-enheten. For hver enhet i [!INCLUDE[crm_md](includes/crm_md.md)] som du vil synkronisere med tilhørende data i [!INCLUDE[d365fin](includes/d365fin_md.md)], må det være en tilsvarende integrasjonstabelltilordning. En integrasjonstabelltilordning inneholder flere innstillinger som du kan bruke til å kontrollere hvordan poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell og en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet synkroniseres med tilsvarende integrasjonssynkroniseringsjobber.  
@@ -33,7 +33,7 @@ En integrasjonstabelltilordning kobler en tabell i [!INCLUDE[d365fin](includes/d
 ## <a name="creating-new-records"></a>Opprette nye poster  
  Som standard vil bare poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] som er koblet, synkroniseres av integreringssynkroniseringsjobbene. Du kan definere tabelltilordninger slik at nye poster opprettes i målet (for eksempel [!INCLUDE[d365fin](includes/d365fin_md.md)]) for hver post i kilden (for eksempel [!INCLUDE[crm_md](includes/crm_md.md)]) som ikke allerede er koblet.  
 
- SELGERE – Dynamics 365 for Sales-synkroniseringsjobben bruker for eksempel tabelltilordningen SELGERE. Synkroniseringsjobben kopierer data fra brukerposter i [!INCLUDE[crm_md](includes/crm_md.md)] til selgerposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du setter opp tabelltilordningen til å opprette nye poster, for hver bruker i [!INCLUDE[crm_md](includes/crm_md.md)] som ikke er allerede koblet til en selger i [!INCLUDE[d365fin](includes/d365fin_md.md)], opprettes en ny selgerpost i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SELGERE – Dynamics 365 Sales-synkroniseringsjobben bruker for eksempel tabelltilordningen SELGERE. Synkroniseringsjobben kopierer data fra brukerposter i [!INCLUDE[crm_md](includes/crm_md.md)] til selgerposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du setter opp tabelltilordningen til å opprette nye poster, for hver bruker i [!INCLUDE[crm_md](includes/crm_md.md)] som ikke er allerede koblet til en selger i [!INCLUDE[d365fin](includes/d365fin_md.md)], opprettes en ny selgerpost i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Slik oppretter du nye poster under synkronisering  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
@@ -59,6 +59,6 @@ Hvis du installerer standard synkroniseringsoppsett, vil to konfigurasjonsmaler 
 3.  Sett **Malkode for konfigurasjon av int.tab.**-feltet til konfigurasjonsmalen som skal brukes for nye poster i [!INCLUDE[crm_md](includes/crm_md.md)].
 
 ## <a name="see-also"></a>Se også  
-[Om integrering av Dynamics 365 Business Central med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
-[Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)   
+[Om integrering av Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md )   
+[Synkronisere Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  

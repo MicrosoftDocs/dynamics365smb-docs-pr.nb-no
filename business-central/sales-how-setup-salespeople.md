@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01872122592db05ec49b765dd78b59e98b6239f6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 1809302d24a7921f06f1ca8532a4fb14291c166d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1251725"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312055"
 ---
 # <a name="set-up-salespeople"></a>Definere selgere
 Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. Se for eksempel rapporten **Provisjon for selgere**. Det kan også hende at et selskap vil knytte en selger til hver kontakt.

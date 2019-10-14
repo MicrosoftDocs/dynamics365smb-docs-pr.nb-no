@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9da76eb0058d2215e6437b52cf68720e663dd4c7
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246481"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303511"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
 Når du bokfører en lagertransaksjon, registreres antallsbokføringen i varepostene og verdibokføringen i verdipostene. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  

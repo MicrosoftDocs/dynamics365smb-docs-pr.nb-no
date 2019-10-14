@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/20/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8bf3c8d814c74ab85b72ddf06ca44d614a026923
-ms.sourcegitcommit: acbbe80503e61296310ea7f787a9d7f4bc6dccd7
+ms.openlocfilehash: 91f2aede108b767617f2aa8afd3db1b81713d8f7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870605"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310010"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for å opprette nye varer
 Når du legger til en ny vare for å spare tid, kan du bruke **Kopier vare**-funksjonen til å kopiere en eksisterende vare som skal brukes som mal for en ny vare.  

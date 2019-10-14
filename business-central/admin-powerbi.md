@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 07/08/2019
+ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: 4223d3eba6253f87aee3f86b3a9dfe4107d48947
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755267"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307975"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 
@@ -27,7 +27,7 @@ Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og me
 > [!IMPORTANT]
 > Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Hvis du vil installere en Power BI-app, må du også ha en Power BI Pro-lisens.  Når Power BI-appen er installert, kan den deles med brukere med en hvilken som helst lisenstype.
 
-Microsoft har publisert følgende apper for Power BI:
+[!INCLUDE [prodlong](includes/prodlong.md)] har publisert følgende apper for Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
@@ -64,7 +64,7 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap du h
 <!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
 4. Velg **Apper** fra fanen **Apper for Power BI**, velg **Microsoft Dynamics 365 Business Central**-appen du vil bruke, og velg deretter **Få det nå**.  
 <!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Når du blir spurt, skriver du inn navnet på selskapet i [!INCLUDE[prodshort](includes/prodshort.md)] du vil koble til. Dette er ikke visningsnavnet. Du finnner selskapsnavnet på siden **Selskap** i [!INCLUDE[prodshort](includes/prodshort.md)]-forekomsten.  
+5. Når du blir spurt, skriver du inn navnet på miljøet og selskapet i [!INCLUDE[prodshort](includes/prodshort.md)]-appen du vil koble til. Hvis du ikke har opprettet flere miljøer, angir du **Produksjon**. Pass på at du angir navnet og ikke visningsnavnet for selskapsparameteren. Du finnner selskapsnavnet på siden **Selskap** i [!INCLUDE[prodshort](includes/prodshort.md)]-forekomsten.  
 
     > [!NOTE]
     > Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, må du angi parameteren for *Nettadresse for webtjeneste*. Finn denne på siden **Webtjenester** i [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [server](includes/server.md)]-forekomsten må være konfigurert for enkel godkjenning, og du må angi en bruker og nettilgangsnøkkelen til denne brukeren som passord. I eksemplet nedenfor erstatt *myserver:7048* med [!INCLUDE [server](includes/server.md)]-navnet ditt og *CRONUS%20US* med selskapsnavnet ditt.  
@@ -162,6 +162,10 @@ Power BI-instrumentbordet er avhengig av de publiserte webtjenestene som er nevn
 
 En Power BI-konto er ikke satt opp. For at du skal kunne ha gyldig Power BI-konto, må du ha en lisens, og du må ha logget på Power BI tidligere for at Power BI-arbeidsområdet skal kunne opprettes.  
 
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Melding: Det finnes ingen aktiverte rapporter. Klikk Velg rapport for å se en liste over rapporter du kan vise.
+
+Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt. 
+
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
 Power BI-apper kan bare installeres av brukere som har en Power BI Pro-lisens. Når Power BI-appen er installert, kan du dele den med brukere som ikke har en Power BI Pro-lisens.  
@@ -170,6 +174,7 @@ Power BI-apper kan bare installeres av brukere som har en Power BI Pro-lisens. N
 
 Denne feilen angir at en av parameterne ikke er gyldige.
 
+- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø. 
 - Den angitte selskapsparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-selskaper. Kontroller selskapsnavnet på **Selskap**-siden i [!INCLUDE [prodshort](includes/prodshort.md)].
 - Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port er ikke åpen for å tillate at forespørselen din går gjennom brannmuren.
@@ -200,16 +205,16 @@ Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]
 
 ## <a name="see-also"></a>Se også
 
-[Kom i gang med Power BI](/power-bi/service-get-started)  
-[Power BI – grunnleggende begreper](/power-bi/service-basic-concepts)  
-[Apper i Power BI](/power-bi/consumer/end-user-app)  
+[Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
+[Nytt utseende på Power BI-tjenesten](/power-bi/service-new-look)  
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
 [Komme i gang](product-get-started.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for PowerApps](across-how-use-financials-data-source-powerapps.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

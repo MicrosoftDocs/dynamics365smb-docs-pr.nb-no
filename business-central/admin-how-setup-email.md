@@ -2,28 +2,28 @@
 title: Konfigurere e-post i Business Central | Microsoft-dokumentasjon
 description: Beskriver hvordan du bruker firmaets SMTP-serveren til å sende og motta e-postmeldinger i Business Central, eller alternativt hvordan du bruker innstillingene for e-postserver som ble opprettet med Office 365-abonnementet.
 documentationcenter: ''
-author: edupont04
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 09/09/2019
-ms.author: edupont
-ms.openlocfilehash: b9a443072d13e3cbf5f8e07006bea5477c275968
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 90e119dc44a23bcd9dca7920d05538ac685a44f6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985937"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304615"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene på Oppsett for SMTP-e-post-siden.
 
 I stedet for å skrive inn detaljene for SMTP-serveren manuelt, kan du bruke funksjonen **Bruk Office 365-serverinnstillinger** til å angi dem med informasjon fra Office 365-abonnementet.
 
-Du kan enten definere e-post manuelt, eller du kan få hjelp ved å bruke den assisterte oppsettveiledningen **E-postoppsett**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Du kan enten definere e-post manuelt, som beskrevet nedenfor, eller du kan få hjelp ved å bruke den assisterte oppsettveiledningen **E-postoppsett**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurere e-post
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.

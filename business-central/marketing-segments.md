@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0392e39957455702bb1aae8eef38d872f803ee42
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 186f14f25e4b158babcdd2930ace3263269415ea
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446810"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308767"
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
 Du oppretter segmenter for å velge en gruppe med kontakter i henhold til bestemte kriterier. Et segment kan for eksempel være bransjen der kontaktene hører til, eller forretningsforholdet ditt med kontaktene. Du kan opprette et segment for å velge kontaktene du vil rette deg inn mot med en kampanje.

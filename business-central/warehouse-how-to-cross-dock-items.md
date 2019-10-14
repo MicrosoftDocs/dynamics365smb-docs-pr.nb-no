@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e7bf29f6412c895ca1454ca007951b03a98669b
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248988"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310375"
 ---
 # <a name="cross-dock-items"></a>Kryssoverføringsvarer
 Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.  
@@ -96,7 +96,7 @@ Hvis du bruker hyller, kan du, hver gang du åpner en følgeseddel eller plukkfo
 
 Du må se etter varer i kryssoverføringsområdet før du plukker varer for levering. Hvis du under mottaksprosessen har merket deg hvilke kildedokumenter som var grunnlaget for kryssoverføringen, vil du ha en bedre forståelse av om varen finnes i kryssoverføringsområdet eller ikke.  
 
-Når en produksjonsordre er frigitt, er linjene tilgjengelig i plukkforslaget, og du kan se i feltet **Ant. i kryssoverføringshylle** om de varene du venter på, er ankommet og plassert i kryssoverføringshyllene. Når du oppretter en plukkinstruksjon, foreslår programmet at du først plukker de kryssoverførte varene, og vil senere søke etter varen i lagringshyllene.  
+Når en produksjonsordre er frigitt, er linjene tilgjengelige i plukkforslaget, og du kan se i feltet **Ant. i kryssoverføringshylle** om de varene du venter på, er ankommet og plassert i kryssoverføringshyllene. Når du oppretter en plukkinstruksjon, foreslår programmet at du først plukker de kryssoverførte varene, og vil senere søke etter varen i lagringshyllene.  
 
 Hvis du ikke bruker hyller, må du huske å kontrollere kryssoverføringsområdet jevnlig. Hvis ikke, må du stole på varsler fra mottak om at varene for produksjon er ankommet.  
 

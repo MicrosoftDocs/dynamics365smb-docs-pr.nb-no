@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/24/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83f6a24fc066faef49de456e18673f8059a9831d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: a85fb48251d5c1465dcd4be7aaf868d857a07fd4
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252256"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311959"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
@@ -46,7 +46,7 @@ Tilordne én eller flere standard salgslinjer til en kunde, slik at de kan sette
 |Alternativ|Beskrivelse|
 |-|-|
 |**Manuell**|Du må manuelt slå opp og sette inn en gjentakende salgslinje for kunden.|
-|**Automatisk**|Hvis det finnes flere gjentakende salgslinjer for kunden, får du melding om hvor du kan velge en som kan settes inn. Hvis det bare finnes én gjentakende salgslinje, settes den inn automatisk.|
+|**Automatisk**|Hvis det finnes flere gjentakende salgslinjer for kunden, får du melding om hvor du kan velge en som kan settes inn. Hvis det bare finnes én gjentakende salgslinje, settes den inn automatisk.<br /><br />Merk at dette bare fungerer hvis det nye dokumentet ble opprettet fra en dokumentliste, for eksempel ved å velge **Ny**-handlingen på **Ordrer**-siden. Den fungerer imidlertid ikke hvis dokumentet ble opprettet fra for eksempel et kundekort.|
 |**Be alltid om bekreftelse**|Det vises en melding, og alle gjentakende salgslinjer vises slik at du kan velge én.
 
 ## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Sette inn gjentakende salgslinjer i en salgsfaktura

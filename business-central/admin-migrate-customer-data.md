@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3a3e42d9468c9f1a8d23afd8284e210fa7145c3c
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247166"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304419"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
@@ -111,7 +111,7 @@ Følgende eksempel illustrerer hvordan [!INCLUDE[d365fin](includes/d365fin_md.md
 2. Legg til flere tabeller i pakken, for eksempel **Kunde** og **Leverandør**. Begge disse tabellene refererer til tabellen **Selger/innkjøper** via henholdsvis feltet **Selgerkode** og **Innkjøperkode**.  
 3. Når du bruker data, blir det også tatt hensyn til tilordningen du har angitt for **Kode**-feltet i tabellen **Selger/innkjøper**, under behandlingen av feltene **Selgerkode** og **Innkjøperkode**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365finmdmd"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillate ytterligere verdier for under overføringen.  

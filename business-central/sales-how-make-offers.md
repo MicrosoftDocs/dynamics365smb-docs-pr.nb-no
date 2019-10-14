@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6083e5ff57ebfb57a31d294e5c565b5bc6a3f8c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1252691"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316431"
 ---
 # <a name="make-sales-quotes"></a>Gi salgstilbud
 Du kan opprette et tilbud for å registrere tilbudet til en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Du kan fylle kundefelt i tilbudet på to måter, avhengig av om kunden allerede 
 11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.
 
     > [!NOTE]  
-    >   Hvis varen er av typen **Vare - tjeneste** eller **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen.  
+    >  Hvis varen er av typen **Service** eller **Type**-feltet inneholder **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen. Hvis du vil ha mer informasjon, kan du se [Definere vareenheter](inventory-how-setup-units-of-measure.md)
 
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 
@@ -69,7 +69,7 @@ Du kan fylle kundefelt i tilbudet på to måter, avhengig av om kunden allerede 
     Hvis du har definert fakturarabatter for kunden, settes den angitte prosentverdien automatisk inn i feltet **Fakturarabatt %** hvis kriteriene er oppfylt, og det relaterte beløpet settes inn i feltet **Fakturarabattbeløp før mva.**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 
     > [!TIP]
-    > For at **Gyldig til-dato for tilbud** skal fylles ut automatisk med et bestemt antall dager etter oppretting av tilbud, kan du fylle ut feltet **Beregning av tilbudets gyldighet** på siden **Salg**. 
+    > For at **Gyldig til-dato for tilbud** skal fylles ut automatisk med et bestemt antall dager etter oppretting av tilbud, kan du fylle ut feltet **Beregning av tilbudets gyldighet** på siden **Salg**.
 
 15. Når tilbudslinjene er fullført, kan du velge handlingen **Send via e-post**.
 16. På siden **Send e-post** fyller du ut resten av feltene, og gå gjennom det innebygde tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).

@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d04f78b31b9fb0403201cb9e5cb1f98f1ef935e1
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 9fac8d546a24839ebaa0719d721d886c03001521
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248018"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310759"
 ---
 # <a name="tell-me-faq"></a>Vanlige spørsmål om Fortell meg
-Dette emnet gir svar på spørsmål som våre avanserte brukere ofte spør om den nye Fortell meg-funksjonen, som har erstattet den tidligere sidesøkefunksjonen, kalt for **Søk etter side eller rapport**.
+Dette emnet gir svar på spørsmål som våre avanserte brukere ofte stiller om Fortell meg-funksjonen.
 
 ### <a name="are-all-actions-from-my-current-page-discoverable-in-tell-me"></a>Kan alle handlinger fra den gjeldende siden oppdages i Fortell meg?
 Nei. Handlinger i deler, for eksempel salgslinjer eller faktabokser, vises ikke i Fortell meg.
@@ -32,8 +32,8 @@ Handlinger, sider og rapporter som kommer fra utvidelser, hentes av Fortell meg,
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hva gjør dette forskjellig fra det som tidligere ble kalt for Sidesøk?
 Sidesøk har utviklet seg til Fortell meg for å hjelpe deg med å arbeide raskt. Sidesøk kunne bare hjelpe deg med å navigere til sider eller rapporter. På et teknisk nivå er Fortell meg ikke lenger basert på det eldre MenuSuite-konseptet.
 
-### <a name="i-use-on-premises-included365finincludesd365finmdmd-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inkluderer dette Fortell meg?
-Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon, eller apper og konsulenttjenester på AppSource. Brukere som kobler til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Dynamics NAV-klienten fortsetter å bruke Sidesøk.
+### <a name="i-use-on-premises-included365finincludesd365fin_mdmd-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inkluderer dette Fortell meg?
+Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon, eller apper og konsulenttjenester på AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortell meg tilgjengelig for alle skjemafaktorer?
 Fortell meg er bare tilgjengelig i webklienten eller Windows-apper for stasjonær datamaskin.
@@ -41,5 +41,14 @@ Fortell meg er bare tilgjengelig i webklienten eller Windows-apper for stasjonæ
 ### <a name="are-the-documentation-results-available-in-any-language"></a>Er dokumentasjonsresultatene tilgjengelige på alle språk?
 Hjelpeartiklene vises på språket du har angitt i **Mine innstillinger** hvis hjelp er tilgjengelig på dette språket.
 
+### <a name="why-dont-i-see-a-bookmark-icon-for-my-search-results"></a>Hvorfor ser jeg ikke et bokmerkeikon i søkeresultatene?
+Bokmerkeikonet vises ikke i Fortell meg-vinduet når tilpasning er deaktivert for en brukerrolle.
+
+### <a name="is-the-bookmark-icon-available-for-reports"></a>Er bokmerkeikonet tilgjengelig for rapporter?
+Nei. Du kan bare lage bokmerker for en kobling til en side eller hvilke som helst søkeresultater som vises i delen **Sider og oppgaver** i Fortell meg-vinduet.
+
+
 ## <a name="see-also"></a>Se også  
-[Finne funksjoner og informasjon](ui-search.md)
+[Lagre og tilpasse listevisninger](ui-views.md)  
+[Finne sider og informasjon med Fortell meg](ui-search.md)  
+[Finne sider fra en funksjonsoversikt](ui-role-explorer.md)

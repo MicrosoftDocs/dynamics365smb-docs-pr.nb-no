@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 776a39f10041dc540de53e5aa724db6fd755c2d6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 22ebbde0d04dfeb03fa52978e2d1e82d40713445
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247086"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2307615"
 ---
 # <a name="undo-assembly-posting"></a>Angre monteringsbokføring
 Noen ganger kan det hende at du må angre en bokført monteringsordre, for eksempel når ordren ble bokført med feil som må rettes opp, eller fordi den ikke skulle vært bokført i utgangspunktet og må rulles tilbake.
@@ -39,7 +39,7 @@ I tillegg kan eksisterende monteringsordrer bare gjenopprettes hvis antallet lin
 > [!TIP]  
 >  Du kan løse konflikter som skyldes linjeendringer, ved å tilbakestille endringene på de aktuelle linjene manuelt, før du angrer den tilknyttede bokførte monteringsordren. Du kan også bokføre monteringsordren fullstendig og deretter velge å opprette den på nytt når du angrer bokføringen.  
 
-Fremgangsmåten nedenfor beskriver hvordan du angrer bokførte monteringsordrer der varene ble montert til lager. Hvis du vil angre bokførte monteringsordrer der varene ble montert til en ordre, må du bruke **Angre levering**-funksjon på den bokførte følgeseddelen som er relatert til den bokførte monteringsordren. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md). Angring av bokførte monteringsorder skjer automatisk på samme måte som beskrevet i dette emnet.  
+Fremgangsmåten nedenfor beskriver hvordan du angrer bokførte monteringsordrer der varene ble montert til lager. Hvis du vil angre bokførte monteringsordrer der varene ble montert til en ordre, må du bruke **Angre levering**-funksjon på den bokførte følgeseddelen som er relatert til den bokførte monteringsordren. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md). Angring av bokførte monteringsorder skjer automatisk på samme måte som beskrevet i dette emnet.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Slik angrer du bokføringen av en monteringsordre:  
 1.  Hvis du vil angre en fullstendig eller delvis bokført monteringsordre, kan du velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte monteringsordrer** og velge den relaterte koblingen.  
@@ -57,7 +57,7 @@ Feltet **Tilbakeført** i monteringsordrehodet endres til **Ja**. Monteringsordr
 
 ## <a name="see-also"></a>Se også  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md)  
+[Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)    
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  

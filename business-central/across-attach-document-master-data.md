@@ -8,20 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: upload, attach, attachments
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: cfed7b7946aaa24544c6ae47dfc9ebc39c00716d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+redirect_url: ui-how-add-link-to-record
+ms.openlocfilehash: 2b5ed5ade59e2cf3b8832da088d79adfba4ad7fa
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1240887"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2300682"
 ---
 # <a name="attaching-files-to-cards-and-documents"></a>Legge ved filer i kort og dokumenter
 Du kan legge ved bilder, dokumenter og andre typer filer i alle kort, for eksempel varekortet og prosjektkortet, og du kan legge til filer i alle typer salgs- og kjøpsdokumenter.
 
 > [!Note]
-> Vanligvis er maksimumsstørrelsen for vedlegg 150 MB. Grensen kan imidlertid være lavere for enkelte funksjoner. 
+> Vanligvis er maksimumsstørrelsen for vedlegg 150 MB. Grensen kan imidlertid være lavere for enkelte funksjoner.
 
 ## <a name="to-attach-a-file-to-a-sales-order"></a>Legge ved en fil i en ordre
 Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle andre salgs- og kjøpsdokumenter og for alle kort.

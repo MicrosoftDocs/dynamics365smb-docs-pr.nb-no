@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 08/26/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e42618be17ff4f9bfe0d54a88e70d5a1841568c1
-ms.sourcegitcommit: 8d9f08304b2f3b5504332bc626383797564ac5e3
+ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "1920469"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308743"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spor utveksling av e-postmeldinger mellom selgere og kontakter
 Få mer ut av kommunikasjonen mellom selgere og de eksisterende eller potensielle kundene ved å spore e-postutvekslinger og deretter gjøre dem om til salgsmuligheter. [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer med Exchange Online for å føre en logg over innkommende og utgående meldinger. Du kan vise og analysere innholdet i hver enkelt melding på siden **Samhandlingsposter**.

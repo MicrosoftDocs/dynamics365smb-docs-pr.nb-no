@@ -1,6 +1,6 @@
 ---
-title: Synkronisere Business Central og Dynamics 365 for Sales | Microsoft Docs
-description: Lære om å synkronisere data mellom Business Central og Dynamics 365 for Sales.
+title: Synkronisere Business Central og Dynamics 365 Sales | Microsoft Docs
+description: Lær om å synkronisere data mellom Business Central og Dynamics 365 Sales.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 07/16/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9290730bb559d4ac03a437a49ed81b09f3c01853
-ms.sourcegitcommit: 519623f9a5134c9ffa97eeaed0841ae59835f453
+ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755221"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304351"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-for-sales"></a>Planlegge en synkronisering mellom Business Central og Dynamics 365 for Sales
+# <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales
 Du kan synkronisere [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] på planlagte intervaller ved å definere jobber i jobbkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster og [!INCLUDE[crm_md](includes/crm_md.md)]-poster som har blitt koblet sammen tidligere. Eller for poster som ikke allerede er koblet, avhengig av synkroniseringsretningen og regler, kan synkroniseringsjobbene opprette og koble nye poster i målsystemet. Det finnes flere synkroniseringsjobber som er tilgjengelige som standard. Du kan vise dem på siden **Poster i jobbkø**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
@@ -46,17 +46,17 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber.
 
 |Jobbkøpost|Beskrivelse|Retning|Tilordning for integreringstabell|  
 |---------------------|---------------------------------------|---------------|-------------------------------|  
-|CONTACT – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-kontakter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kontakter.|Toveis|CONTACT|  
-|CURRENCY – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-transaksjonsvalutaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-valutaer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|CURRENCY|  
-|CUSTOMER – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-kontoer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder.|Toveis|CUSTOMER|  
-|CUSTPRCGRP-PRICE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-salgspriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kundeprisgrupper.| |KUNDEPRISGRUPPER-SALGSPRISLISTER|
-|ITEM - PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-varer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|VARE-PRODUKT|
-|POSTEDSALESINV INV – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|
-|RESOURCE-PRODUCT – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-ressurser.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|RESSURS-PRODUKT|  
-|SALESPEOPLE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[d365fin](includes/d365fin_md.md)]-selgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brukere.|Fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]|SELGERE|
-|SALESPRC-PRODUCTPRICE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produktpriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgspriser.||PRODUKTPRIS-SALGSPRIS|
-|UNITOFMEASURE – Dynamics 365 for Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsgrupper med [!INCLUDE[d365fin](includes/d365fin_md.md)]-enheter.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|MÅLENHET|  
-|Kundestatistikk – Dynamics 365 for Sales-synkronisering|Oppdaterer [!INCLUDE[crm_md](includes/crm_md.md)]-konti med de nyeste [!INCLUDE[d365fin](includes/d365fin_md.md)]-kundedataene. I [!INCLUDE[crm_md](includes/crm_md.md)] vises denne informasjonen i **Business Central-kontostatistikk**-hurtigvisningsskjemaet for kontoer som er koblet til [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder.<br /><br /> Disse dataene kan også oppdateres manuelt fra hver enkelt kundepost. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Merk:**  Denne jobbkøen er relevant bare hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Om Business Central-integrasjonsløsningen](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ikke i bruk.|Ikke i bruk.|   
+|KONTAKT – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-kontakter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kontakter.|Toveis|CONTACT|  
+|VALUTA – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-transaksjonsvalutaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-valutaer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|CURRENCY|  
+|KUNDE – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-kontoer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder.|Toveis|CUSTOMER|  
+|KUNDEPRISGRUPPER-PRIS – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-salgspriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-kundeprisgrupper.| |KUNDEPRISGRUPPER-SALGSPRISLISTER|
+|VARE-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-varer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|VARE-PRODUKT|
+|BOKFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[d365fin](includes/d365fin_md.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|
+|RESSURS-PRODUKT – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produkter med [!INCLUDE[d365fin](includes/d365fin_md.md)]-ressurser.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|RESSURS-PRODUKT|  
+|SELGERE – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[d365fin](includes/d365fin_md.md)]-selgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brukere.|Fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)]|SELGERE|
+|SALGSPRIS-PRODUKTPRIS – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-produktpriser med [!INCLUDE[d365fin](includes/d365fin_md.md)]-salgspriser.||PRODUKTPRIS-SALGSPRIS|
+|MÅLEENHET – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-enhetsgrupper med [!INCLUDE[d365fin](includes/d365fin_md.md)]-enheter.|Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|MÅLENHET|  
+|Kundestatistikk – Dynamics 365 Sales-synkroniseringsjobb|Oppdaterer [!INCLUDE[crm_md](includes/crm_md.md)]-konti med de nyeste [!INCLUDE[d365fin](includes/d365fin_md.md)]-kundedataene. I [!INCLUDE[crm_md](includes/crm_md.md)] vises denne informasjonen i **Business Central-kontostatistikk**-hurtigvisningsskjemaet for kontoer som er koblet til [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder.<br /><br /> Disse dataene kan også oppdateres manuelt fra hver enkelt kundepost. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Merk:**  Denne jobbkøen er relevant bare hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Om Business Central-integrasjonsløsningen](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|Ikke i bruk.|Ikke i bruk.|   
 
 ## <a name="to-view-the-synchronization-job-log"></a>Slik viser du synkroniseringsjobbloggen  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Integrasjonssynkroniseringslogg**, og velg deretter den relaterte koblingen.
@@ -73,10 +73,10 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber.
 * Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Synkroniseringsfeil for integrering**, og velg deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også  
-[Synkronisere data i Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)  
+[Synkronisere data i Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)  
 [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)  
-[Planlegge en synkronisering mellom Business Central og Dynamics 365 for Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
-[Om integrering av Dynamics 365 Business Central med Dynamics 365 for Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+[Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
+[Om integrering av Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Skrive inn data i felt | Microsoft-dokumentasjon
+title: Angi data i Business Central | Microsoft Docs
 description: Lære om generelle funksjoner som kan hjelpe deg med å registrere data i feltene.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bf26c7059146978d46820144e5701fdbb3aa31
-ms.sourcegitcommit: 7ce8005806465417c7040c61da1d6cada29cd9c0
+ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "2000790"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311383"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -39,7 +39,7 @@ Det kan være du allerede er kjent med bruk av tabulatortasten for å navigere f
 
 Alle felt kan merkes som *Ta med i hurtigoppføring* eller *Utelat fra hurtigoppføring*. Felt som er inkludert i hurtigoppføringen, inkluderes i banen når du trykker på Enter. Felt som er ekskludert fra hurtigoppføringen, inkluderes ikke.
 
-Når du er ferdig med å registrere data i et felt, kan du ganske enkelt trykke Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigreferanse for tastatursnarveier for felt](keyboard-shortcuts.md#QuickEntry).
+Når du er ferdig med å registrere data i et felt, kan du ganske enkelt trykke Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster for hurtigoppføring for felt](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips og triks
 Nedenfor finner du nyttig informasjon om hvordan du bruker Hurtigoppføring.
@@ -51,11 +51,11 @@ Nedenfor finner du nyttig informasjon om hvordan du bruker Hurtigoppføring.
 - Hurtigoppføring fungerer uavhengig av om felt er obligatoriske. Derfor er det lurt å sikre at obligatoriske felt er inkludert i Hurtigoppføring.
 - Som standard inkluderes de fleste feltene automatisk i Hurtigoppføring. Så i starten vil oppgaven din sannsynligvis eksludere felt fra Hurtigoppføring.
 
-### <a name="how-to-change-quick-entry-fields"></a>Endre Hurtigoppføring-felt
+### <a name="to-change-quick-entry-fields"></a>Endre Hurtigoppføring-felt
 
 Hvis du vil endre hvilke felt som inkluderes i eller utelates fra Hurtigoppføring på en side, kan du bruke tilpasning.
 
-1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenteret"), og klikk deretter **Tilpass**.
+1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenteret"), og klikk deretter handlingen **Tilpass**.
 2. Velg et felt som du vil endre, eller velg tilsvarende kolonneoverskrift i lister, og velg deretter **Ta med i hurtigoppføring** eller **Utelat fra hurtigoppføring**.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -76,19 +76,25 @@ Selv om feltet inneholder en rød stjerne, er du ikke nødt til å fylle ut felt
 
 -   Rullegardin - viser settet med alternativer som finnes for feltet. Du kan bare velge ett av alternativene.  
 
-## <a name="copying-and-pasting-fields-and-lines"></a>Kopiere og lime inn felt og linjer
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Vanlige spørsmål om kopiere og lime inn felt og linjer
 
 Du kan kopiere en eller flere rader fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post). Kort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS).
 
 Trykk på F8 i listen for å kopiere feltet i den samme kolonnen i raden over, og lim det inn i den gjeldende raden.
 
-Hvis du vil ha mer informasjon, kan du se [Kopiere og lime inn i Business Central](ui-copy-paste.md).
+Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](ui-copy-paste.md).
+
+## <a name="filtering-line-items"></a>Filtrere linjeelementer
+
+For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på Skift+F3 for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#Filtering).
+
+Filtrere er spesielt nyttig når du viser og analysere lengre dokumenter. Tenk deg at du åpner en bokført salgsfaktura og filtrerer linjeelementene for å vise alle linjeelementer som har en individuell rabatt på mer enn 5 %, eller filtrer for å vise bare sykkeltilbehør med "pro" i navnet.
 
 ## <a name="Focus"></a>Fokusere på linjeelementer
 
-Når du arbeider med dokumenter som inkluderer en linjeelementdel, som en ordre- eller fakturaside, kan du bytte visningen slik at fokus endres til bare linjeelementene, og hovedsakelig utvide linjeelementdelen, slik at den opptar så godt som hele arbeidsområdet og skjuler andre deler av siden bortsett fra handlingsområdet øverst. Dette gir deg bedre oversikt over linjelementene og gir mer plass til å arbeide med dem. Dette er særlig nyttig når du arbeider med store linjeelementlister og rask dataregistrering er ønskelig.
+Når du arbeider med dokumenter som inneholder en linjeelementdel, for eksempel en ordre eller fakturaside, kan du bytte visning, slik at den bare fokuserer på linjeelementene. Linjeelementdelen utvides deretter, slik at den dekker omtrent hele arbeidsområdet og skjuler andre deler av siden, unntatt handlingsområdet øverst. Dette gir deg bedre oversikt over linjelementene og gir mer plass til å arbeide med dem.
 
-En annen fordel er at det også gir deg avanserte filtreringsmuligheter, som i andre oversikter, så sporing og søk gjennom linjeelementer blir enda enklere.
+Dette er særlig nyttig når du arbeider med store linjeelementlister og rask dataregistrering er ønskelig. En annen fordel er at det også gir deg avanserte filtreringsmuligheter, som i andre oversikter, så sporing og søk gjennom linjeelementer blir enda enklere.
 
 ### <a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
@@ -96,11 +102,16 @@ Når du skal fokusere på linjeelementer, velger du hvor som helst i linjeelemen
 
 Hvis du vil gå tilbake til den normale visningen, kan du velge ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon"), eller trykk på Ctrl+Skift+F12 på nytt.
 
-### <a name="filtering-the-line-items"></a>Filtrere linjeelementer
+## <a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
+Når du arbeider med flere oppgaver samtidig, eller når du håndterer avbrudd på gjeldende oppgave, for eksempel ved å ta en innkommende oppringing, kan du åpne et kort eller en dokumentside i et nytt vindu. Dette gjør at du kan holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i ett eller flere vinduer.
 
-For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på **Skift+F3** for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#Filtering).
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
 
-Filtrere er spesielt nyttig når du viser og analysere lengre dokumenter. Tenk deg at du åpner en bokført salgsfaktura og filtrerer linjeelementene for å vise alle linjeelementer som har en individuell rabatt på mer enn 5 %, eller filtrer for å vise bare sykkeltilbehør med "pro" i navnet.
+> [!NOTE]
+> Når du åpner andre sider fra et kort eller et dokument som er åpnet i et nytt vindu, vil sidene bli åpnet i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
+
+> [!NOTE]
+> Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
 
 ## <a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
 
@@ -183,9 +194,9 @@ Når du angir dato og klokkeslett, må du sette inn et mellomrom mellom datoen o
 
 Tabellen nedenfor viser de forskjellige måtene du kan angi dato og klokkeslett på, og hvordan de tolkes.  
 
-|Post|Tolkning|  
+|Angivelse|Tolkning|  
 |---------------|------------------------|  
-|131202 132455|13.12.02 13.24.55|  
+|`131202` 132455|13.12.02 13.24.55|  
 |1-12-02 10|01.12.02 10:00:00|  
 |1.12.02 5|01.12.02 05:00:00|  
 |1.12.02|01.12.02 00.00.00|  

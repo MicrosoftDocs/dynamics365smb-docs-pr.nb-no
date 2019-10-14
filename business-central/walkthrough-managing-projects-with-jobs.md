@@ -10,16 +10,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 570e001eb0f412599d66bda098563f772570cd29
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249632"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314823"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
+
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+
 I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosjekter. Prosjeker brukes til å estimere forbruket av selskapets ressurser og til å holde rede på de ulike kostbeløpene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som det kan hende du vil spore etter som et prosjekt går fremover.  
 
  Denne gjennomgangen tar for seg oppsett av et nytt prosjekt i tillegg til noen vanlige oppgaver, for eksempel håndtering av faste priser, betaling i avdrag, bokføring av fakturaer fra prosjekter og kopiering av prosjekter.  
@@ -84,7 +87,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     - **Navn**: **Marie**  
     - **Skriv inn**: **person**  
 
-4.  Velg feltet **Lagerenhet**, og velg **Ny**-handlingen for å åpne siden **Ressursenhet**. Velg **Time** i **Kode**-feltet. Velg **OK**.  
+4.  Velg feltet **Lagerenhet**, og velg **Ny**-handlingen for å åpne siden **Ressursenhet**. Velg **Time** i **Kode**-feltet.  
 5.  Skriv inn følgende informasjon på hurtigfanen **Fakturering**:  
 
     -   **Direkte enhetskost**: **5**  
@@ -93,9 +96,9 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Bokføringsgruppe - vare**: **Service**  
     -   **Mva-bokføringsgruppe – vare**: **mva 25**  
 
-6.  Velg **OK** -knappen for å lagre endringene.  
+6. Lukk siden.
 
- I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokføre forbruket hennes.  
+I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokføre forbruket hennes.  
 
 ### <a name="to-create-a-job-journal-batch"></a>Slik oppretter du en prosjektkladd  
 
@@ -107,7 +110,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Beskrivelse**: **Marie**  
     -   **Nr.serie**: **PKLD-GEN**  
 
-4.  Velg **OK**-knappen for å lukke alle åpne sider.  
+4.  Velg **OK** -knappen for å lagre endringene.
 
 ## <a name="setting-up-a-job"></a>Konfigurere et prosjekt  
  I dette scenariet har CRONUS fått i oppdrag av en kunde, Progressive Home Furnishings, å designe et konferanserom og en spisesal. Kunden er basert i USA, og prosjektet krever spesialprogramvare. Prosjektlederen inngår en avtale med kunden og oppretter et prosjekt som er i tråd med avtalen.  
@@ -123,7 +126,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
 4.  Skriv inn følgende informasjon på hurtigfanen **Bokføring**:  
 
-    -   **Status**: **Ordre**  
+    -   **Status**: **Planlegging**  
     -   **Bokføringsgruppe - prosjekt**: **Definere**  
     -   **VIA-metode**: **Kostverdi**  
 
@@ -140,21 +143,21 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Kode**: **Marie**  
     -   **Enhetspris**: **20**  
 
-3.  Velg **OK**-knappen for å lukke siden.  
+3.  Lukk siden.  
 4.  Velg handlingen **Vare**.  
 5.  Angi følgende informasjon og tilpasset pris på siden **Varepriser for prosjekt**:  
 
     1.  **Varenr.**: **80201 (Grafikkprogram)**  
     2.  **Enhetspris**: **200**  
 
-6.  Velg **OK**-knappen for å lukke siden.  
+6.  Lukk siden.  
 7.  Velg **Finanskonto**-handlingen.  
 8.  På siden **Finanskontopriser for prosjekt** skriver du inn følgende informasjon og reisekostnadene, som kunden har godtatt å betale kost pluss 25 prosent for:  
 
     1.  **Finanskonto**: **8430 (Reise)**  
     2.  **Enhetskostfaktor**: **1,25**  
 
-9. Velg **OK**-knappen for å lukke siden.  
+9. Lukk siden.  
 
  De siste trinnene for konfigurasjon av et prosjekt er å legge til prosjektoppgavene og planleggingslinjene som inngår i hver oppgave. Planleggingslinjene fastsetter hva som faktureres til kunden.  
 
@@ -176,9 +179,9 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
 -   **Estimat**: lagt til i tidsplanen, men ikke fakturert.  
 -   **Kontrakt**: fakturert, men ikke lagt til i tidsplanen.  
--   **Både estimat og kontrakt**: faktureres og legges til i tidsplanen.  
+-   **Både Budsjett og Fakturerbar**: Faktureres og legges til i tidsplanen.  
 
- I denne gjennomgangen bruker prosjektlederen **Både estimat og kontrakt**. Han oppretter tre planleggingslinjer for oppgave 1010 og to planleggingslinjer for oppgave 1020.  
+ I denne gjennomgangen bruker prosjektlederen **Både Budsjett og Fakturerbar**. Han oppretter tre planleggingslinjer for oppgave 1010 og to planleggingslinjer for oppgave 1020.  
 
 ### <a name="to-create-planning-lines"></a>Slik oppretter du planleggingslinjer:  
 
@@ -186,7 +189,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
      **Linje 1**  
 
-    -   **Linjetype**: **Både estimat og kontrakt**  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Planleggingsdato**: **(dagens dato)**  
     -   **Type**: **Ressurs**  
     -   **Nr.**: **Marie**  
@@ -194,7 +197,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
      **Linje 2**  
 
-    -   **Linjetype**: **Både estimat og kon**trakt  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Planleggingsdato**: **(dagens dato)**  
     -   **Type**: **Ressurs**  
     -   **Nr.**: **Egil**  
@@ -202,19 +205,19 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
      **Linje 3**  
 
-    -   **Linjetype**: **Både estimat og kontrakt**  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Planleggingsdato**: **(dagens dato)**  
     -   **Type**: **Finanskonto**  
     -   **Nr.**: **8430 (reise)**  
     -   **Antall**: **2**  
     -   **Enhetskost**: **400**  
 
-2.  Velg **OK**-knappen for å lukke siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
+2.  Lukk siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
 3.  Velg linje 1020 og velg deretter handlingen **Prosjektplanleggingslinjer**. Angi følgende informasjon:  
 
      **Linje 1**  
 
-    -   **Linjetype**: **Både estimat og kontrakt**  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Planleggingsdato**: **(dagens dato)**  
     -   **Type**: **Ressurs**  
     -   **Nr.**: **Marie**  
@@ -222,13 +225,13 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
      **Linje 2**  
 
-    -   **Linjetype**: **Både estimat og kontrakt**  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Planleggingsdato**: **(dagens dato)**  
     -   **Type**: **Vare**  
     -   **Nr.**: **80201 (grafikkprogram)**  
     -   **Antall**: **1**  
 
-4.  Velg **OK**-knappen for å lukke siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
+4.  Lukk siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
 
 ## <a name="calculating-remaining-usage"></a>Beregne gjenstående forbruk  
  Marie, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket på prosjektet. Hun har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Hun bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk for prosjektet i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
@@ -244,7 +247,8 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 7.  Velg **OK**-knappen. Dermed genereres prosjektkladdelinjer som hentes fra planleggingslinjene som Florian opprettet for prosjektet.  
 8.  Velg **OK**-knappen på bekreftelsessiden. De genererte linjene legges til i prosjektkladden.  
 9. Kontroller at alle bilagsnumrene er J00001, og velg deretter **Bokfør**-handlingen. Velg **Ja** for å bekrefte bokføringen.  
-10. Linjene er nå bokført. Velg **OK**-knappen for å lukke sidene.  
+
+Linjene er nå bokført.  
 
 ## <a name="creating-and-posting-a-job-sales-invoice"></a>Opprette og bokføre en salgsfaktura for prosjekt  
  Marie kan deretter opprette en ny faktura for hele prosjektet eller for deler av et prosjekt. Hun kan også knytte fakturaen til en annen faktura for samme kunde og samme prosjekt. I dette tilfellet fakturerer hun for hele prosjektet siden det nå er fullført.  
@@ -255,7 +259,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 2.  Velg prosjektet du opprettet tidligere, og velg handlingen **Opprett salgsfaktura for prosjekt**.  
 3.  På hurtigfanen **Prosjektoppgave** tømmer du eventuelle filtre på **Prosjektoppgavenr.** for å fakturere prosjektet. Velg det aktuelle prosjektet i **Prosjektnr.**-feltet.  
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
-5.  Velg **OK**-knappen for å opprette fakturaen, og velg deretter **OK**-knappen i bekreftelsessiden.  
+5.  Velg **OK**-knappen for å opprette fakturaen, og velg deretter **OK**-knappen på bekreftelsessiden.  
 
  Når Marie har opprettet fakturaen, har hun tilgang til den fra **Salg og markedsføring** under **Ordrebehandling** og kan behandle den ytterligere.  
 
@@ -293,16 +297,16 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 4.  På siden **Prosjektoppgavelinjer** velger du linje 1120, og deretter velger du handlingen **Prosjektplanleggingslinjer**.  
 5.  Velg **Ny** for å opprette en ny linje med følgende informasjon:  
 
-    -   **Linjetype**: **Både estimat og kontrakt**  
+    -   **Linjetype**: **Både Budsjett og Fakturerbar**  
     -   **Type**: **Ressurs**  
     -   **Nr.**: **Marie**  
     -   **Antall**: **30**  
 
-7.  Velg **OK**-knappen for å lukke siden.  
+7.  Lukk siden.  
 8.  Høyreklikk feltet **Estimat (kostbeløp)**, og velg **Drilldown** på nytt på siden **Prosjektoppgavelinjer**. Vis endringene av estimatet. Du ser at de 30 timene er lagt til i estimatet.  
-9. Velg **OK**-knappen for å lukke sidene.  
+9. Lukk sidene.  
 
- Etter at Marie er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 timer på prosjektet. Hun registrerer disse timene i prosjektkladden.  
+Etter at Marie er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 timer på prosjektet. Hun registrerer disse timene i prosjektkladden.  
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Slik angir du timer i prosjektkladden:  
 
@@ -333,9 +337,11 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Prosjektnr.**: **Tremøbler AS**  
     -   **Prosjektoppgavenr.**: **1120**  
 
-     Velg **OK**-knappen for å kjøre beregningen. Det gjenstår fem timers arbeid for Marie. **Linjetype**-feltet er tomt, noe som betyr at det bare er forbruket som gjenstår å bli bokført, siden arbeidet allerede er planlagt.  
+7. Velg **OK**-knappen for å kjøre beregningen.
 
-7.  Opprett en ny linje med følgende informasjon i **Prosjektkladd**-vinduet: Kontroller at begge prosjektnumrene er i fortløpende rekkefølge i forhold til de du allerede har brukt:  
+    Det gjenstår fem timers arbeid for Marie. **Linjetype**-feltet er tomt, noe som betyr at det bare er forbruket som gjenstår å bli bokført, siden arbeidet allerede er planlagt.  
+
+8.  Opprett en ny linje med følgende informasjon i **Prosjektkladd**-vinduet: Kontroller at begge prosjektnumrene er i fortløpende rekkefølge i forhold til de du allerede har brukt:  
 
     -   **Linjetype**: **Estimat**  
     -   **Prosjektnr.**: **Tremøbler AS**  
@@ -346,17 +352,17 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
      Estimatkostbeløpene og estimatprisene oppdateres ved hjelp av **Estimat**-linjetypen uten å oppdatere kontraktkostbeløpene og kontraktprisene som er fakturert til kunden.  
 
-8.  Velg handlingen **Bokfør**. Velg **OK**-knappen for å lukke siden.  
-9. Åpne **Prosjekter**-listen.  
-10. Velg prosjektet TREM., og velg deretter handlingen **Prosjektoppgavelinjer**.  
-11. Merk linje 1120, og høyreklikk beløpet i feltet **Estimat (kostbeløp)**. Velg **Drilldown** for å vise informasjonen.  
+9.  Velg handlingen **Bokfør**. Velg **OK**-knappen for å lukke siden.  
+10. Åpne **Prosjekter**-listen.  
+11. Velg prosjektet TREM., og velg deretter handlingen **Prosjektoppgavelinjer**.  
+12. Merk linje 1120, og høyreklikk beløpet i feltet **Estimat (kostbeløp)**. Velg **Drilldown** for å vise informasjonen.  
 
      Endringer blir automatisk lagt inn på linjen for prosjektoppgavenr. 1120. Fem ekstra timer arbeid av Tricia er lagt til i totalkostnaden for planlagt arbeid i tidsplanen.  
 
-12. Velg **Lukk**-knappen for å lukke siden.  
-13. Høyreklikk beløpet i feltet **Kontrakt (kostbeløp)**, og velg **Drilldown** for å vise informasjonen.  
+13. Velg **Lukk**-knappen for å lukke siden.  
+14. Høyreklikk beløpet i feltet **Kontrakt (kostbeløp)**, og velg **Drilldown** for å vise informasjonen.  
 
-     I kontraktens salgsbeløp er bare de opprinnelig avtalte 30 timene tatt med siden dette er det som ble avtalt med kunden.  
+I kontraktens salgsbeløp er bare de opprinnelig avtalte 30 timene tatt med siden dette er det som ble avtalt med kunden.  
 
 ## <a name="copying-jobs"></a>Kopiere prosjekter  
  Florian har inngått en avtale med en kunde, Møbelhandleren A/S, om å foreta oppsett av 10 konferanserom. Avtalen ligner på en tidligere jobb. Du sparer derfor tid ved å kopiere den tidligere jobben.  
@@ -383,7 +389,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
 5.  Velg **OK**-knappen for å kopiere prosjektet, og velg deretter **OK**-knappen for å lukke bekreftelsessiden.  
 
-     Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer for de to prosjektene kan du se at informasjonen ble kopiert.  
+Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer for de to prosjektene kan du se at informasjonen ble kopiert.  
 
 ## <a name="making-payments-by-installments"></a>Foreta betaling i avdrag  
  CRONUS har nettopp fått et stort prosjekt som kommer til å ta et år å fullføre. Siden mange ressurser må avsettes, setter prosjektlederen opp kontrakten slik at kunden betaler en del av prisen på forskudd, en del når prosjektet er halvveis fullført, og den siste delen når prosjektet er fullført.  
@@ -397,7 +403,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Nr.**: **6630**  
     -   **Navn**: **Prosjektbetaling**  
 
-4.  På hurtigfanen **Bokføring** i feltet **Bokføringsgruppe - vare** velger du **DIV**. Velg **OK**-knappen for å lukke siden.  
+4.  På hurtigfanen **Bokføring** i feltet **Bokføringsgruppe - vare** velger du **DIV**. Lukk siden.  
 5.  Velg **Nr. 6630 Prosjektbetaling** på siden **Kontoplan**, og velg deretter **Innrykk kontoplan**-handlingen. Velg **Ja** for å bekrefte.  
 
  Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetting og deretter definerer betaling i avdrag. Du kan opprette spesifikke linjer som er reservert for betalingen i avdrag, på prosjektoppgavelinjene. Alt fullført arbeid på prosjektet som legges til estimatet, angis på forbrukslinjene. Linjetypen er Kontrakt for hver betalingsoppgavelinje på planleggingslinjene, som betyr at kunden blir fakturert. Angi en ny linje for avdraget. Du kan angi informasjonen for varene og ressursene som er brukt i dette prosjektet, på forbruksoppgavelinjen. Dermed økes estimatet, for eksempel ansattes arbeidstid og antallet varer som er brukt i prosjektet.  
@@ -417,7 +423,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Kode**: **Marie**  
     -   **Enhetspris**: **10**  
 
-     Velg **OK**-knappen for å lukke siden.  
+     Lukk siden.  
 
 4.  På **Prosjekt**-kortet velger du handlingen **Prosjektoppgavelinjer**.  
 
@@ -440,7 +446,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Antall**: **1**  
     -   **Enhetspris**: **5000**  
 
-     Velg **OK**-knappen for å lukke siden.  
+     Lukk siden.  
 
 7.  Velg **oppgave 2000** på siden **Prosjektoppgavelinjer**, og åpne **Prosjektplanleggingslinjer** for den.  
 
@@ -449,9 +455,9 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     |Linje|Linjetype|Planleggingsdato|Type|Nr.|Antall|  
     |----------|---------------|-------------------|----------|---------|--------------|  
     |1|Estimat|(dagens dato)|Ressurs|Marie|120|  
-    |2|Estimat|(dagens dato)|Element|70104|10|  
+    |2|Estimat|(dagens dato)|Vare|70104|10|  
 
-     Velg **OK**-knappen for å lukke siden. På siden **Prosjektoppgavelinjer** kan du se at estimatbeløpene har blitt oppdatert.  
+     Lukk siden. På siden **Prosjektoppgavelinjer** kan du se at estimatbeløpene har blitt oppdatert.  
 
 8.  På siden **Prosjektoppgavelinjer** velger du **oppgave 3000**.  
 9. Opprett en planleggingslinje med følgende informasjon:  
@@ -463,7 +469,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
     -   **Antall**: **1**  
     -   **Enhetspris**: **5000**  
 
-     Velg **OK**-knappen for å lukke siden.  
+     Lukk siden.  
 
 10. Opprett en lignende planleggingslinjepost for prosjektoppgave 4000.  
 

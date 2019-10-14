@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
-ms.date: 07/24/2019
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 09aa4b5f6e08265e49a02e3014ffe6724edfcffd
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: ab408bbef4e2fc9535eaa64e61a9e93d2d87378c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796852"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301567"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -45,7 +45,7 @@ Tabellen nedenfor inneholder en oversikt over hvordan salgsprisbeløpene beregne
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
 |Ingen avmerking|Ingen avmerking|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
 |Ingen avmerking|Avmerking|Mva-beløpet per enhet beregnes og legges til i **enhetsprisen** på varekortet. Den totale salgsprisen angis deretter i feltet **Salgspris Inkl. mva.** på salgslinjene.|  
-|Avmerking|Ingen avmerking|Mva-beløpet i **Salgspris**på varekortet beregnes ved hjelp av mva-prosenten som er knyttet til kombinasjonen av mva-bokføringsgruppe for firma (pris) og mva-bokføringsgruppe for vare. **Salgsprisen** på varekortet, redusert med mva-beløpet, angis deretter i feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
+|Avmerking|Ingen avmerking|Mva-beløpet i **Salgspris** på varekortet beregnes ved hjelp av mva-prosenten som er knyttet til kombinasjonen av mva-bokføringsgruppe for firma (pris) og mva-bokføringsgruppe for vare. **Salgsprisen** på varekortet, redusert med mva-beløpet, angis deretter i feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
 |Avmerking|Avmerking|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Inkl. mva.** på salgslinjene.|
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter  

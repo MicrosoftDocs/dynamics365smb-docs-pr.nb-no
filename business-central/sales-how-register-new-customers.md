@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 07/22/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 195ab393046d56611445d7cba9ed39cdbaf75454
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.openlocfilehash: e8fd2d876a148c1107b4db1d7c554a79e21bf53d
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796813"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312127"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 Kunder er kilden til dine inntekter. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  

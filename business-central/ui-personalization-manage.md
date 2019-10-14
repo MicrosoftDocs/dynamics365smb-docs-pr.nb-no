@@ -1,115 +1,74 @@
 ---
-title: Administrere tilpasnings om administrator i Business Central | Microsoft-dokumentasjon
-description: Finn ut hvordan du kan tilpasse brukergrensesnittet slik at det passer til din arbeidsmåte.
+title: Tilpasse sider for roller | Microsoft Docs
+description: Lær hvordan du tilpasser brukergrensesnittet for en profil (rolle), slik at alle brukere som har tilordnet rollen, ser et tilpasset arbeidsområde.
 services: project-madeira
 documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 08/16/2019
-ms.author: jswymer
-ms.openlocfilehash: 268d61e05f84643abe8eeeb283bd035e0247fe1c
-ms.sourcegitcommit: 81b6062194bf04d8052a3cd394cc0b41e3f53e6d
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "1887740"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310807"
 ---
-# <a name="managing-personalization-as-an-administrator"></a>Administrere tilpasning som Administrator
+# <a name="customize-pages-for-profiles"></a>Tilpasse sider for profiler
+Brukere kan tilpasse sider som utgjør arbeidsområdet, slik at de passer til deres egne behov. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
- Brukere kan tilpasse arbeidsområdet etter egne behov. Som en administrator kan du kontrollere og håndtere tilpasning av:
+Administratorer kan tilpasse sider for en profil, for eksempel i henhold til den tilknyttede forretningsrollen eller avdelingen, slik at alle brukerne som er tilordnet profilen, får se det tilpassede sideoppsettet. Administratoren kan tilpasse sider ved å bruke samme funksjonalitet som brukere gjør når de tilpasser sider.
 
--   Aktivering eller deaktivering av funksjonen for tilpasning for hele programmet (bare lokal installasjon).
--   Aktivering eller deaktivering av funksjonen for tilpasning for brukere av en bestemt profil.
--   Fjerning av sidetilpasninger som brukere har opprettet.
+> [!NOTE]
+> Den typiske forretningsbruken av en profil er en rolle. En profil er derfor kalt *Profil (rolle)* i grensesnittet.
 
-## <a name="EnablePersonalization"></a>Aktivere eller deaktivere tilpasning (bare lokalt)
+Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpunkt for administrering av brukerprofiler på individuelle profilkort. I tillegg til å tilpasse sideoppsettet styrer du ulike innstillinger for profiler på siden **Profil (rolle)** for hver profil. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md).
 
-Som standard er tilpasning ikke aktivert i klienten. Du aktiverer eller deaktiverer tilpasning ved å endre konfigurasjonsfilen (navsettings.json) for webserverforekomsten av Business Central som betjener klientene.
+## <a name="to-customize-pages-for-a-profile"></a>Tilpasse sider for en profil
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profiler (rolle)**, og velg deretter den relaterte koblingen.
+2. Velg linjen for profilen du vil tilpasse sidene for, og velg deretter handlingen **Slett**.
+3. Velg handlingen **Tilpass sider**.
 
-1. Legg til følgende linje i filen navsettings.json for å aktivere tilpasning:
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] åpnes i en ny leserkategori for den valgte profilen med banneret **Tilpasse** aktivert. Banneret **Tilpasning** tilbyr samme funksjonalitet som banneret **Tilpasning** som brukerne kan bruke.
 
-    ```
-    "PersonalizationEnabled": "true"
-    ```
+4. Tilpass sider i henhold til behovene for gjeldende rolle eller avdeling, på samme måte som en bruker gjør ved tilpasning. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-    Hvis du vil deaktivere tilpasning, fjerner du linjen eller endrer den til:
+    > [!NOTE]
+    > Hvis du vil navigere under tilpasning, trykker du CTRL+klikk på en handling hvis den utheves av pilhodet.
 
-    ```
-    "PersonalizationEnabled": "false"
-    ```
+5. Når du er ferdig med å endre oppsettet på én eller flere sider, velger du **Fullført**-knappen på banneret **Tilpasning**.
+6. Lukk webleserkategorien.
 
-    Du finner mer informasjon om hvordan du kan endre filen navsettings.json, i [Endre filen navsettings.json direkte](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-web-server?branch=master#Settings).
+Tilpassing av sider er nå registrert for profilen.
 
-2. Generere og laste ned programsymbolene.
+## <a name="to-view-all-customized-pages-for-a-profile"></a>Vise alle tilpassede sider for en profil
+Du kan få en oversikt over hvilke sider som er tilpasset for en profil, for eksempel for å planlegge hvilke som skal tilpasses ytterligere eller slettes.
 
-    Dette trinnet er valgfritt og kreves ikke for å aktivere tilpasning. Det sikrer imidlertid at nye sider som er opprettet av utviklere, kan tilpasses.
+- På siden **Profil (rolle)** velger du handlingen **Tilpassede sider**.
 
-    1. Først må du generere symbolene ved å kjøre finsql.exe med `generatesymbolreference`-kommandoen. Filen finsql.exe finnes i installasjonsmappen for [!INCLUDE[server](includes/server.md)] og Dynamics NAV Development Environment (CSIDE). For å generere symbolene åpne en ledetekst, endre katalogen der filen er lagret, og kjør følgende kommando:
+## <a name="to-delete-all-customizations-for-a-profile"></a>Slette alle tilpasninger for en profil
+Du kan avbryte alle tilpasninger du har gjort for en profil. Tilpasninger som er innført med en utvidelse, og personlige tilpasninger gjort av en bruker, slettes ikke. Du kan slette alle personlige tilpasninger med en annen handling. Hvis du vil ha mer informasjon, kan du se [Slette alle tilpasninger som er gjort av en bruker](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="<Database Name>", ServerName=<SQL Server Name\<Server Instance>
-        ```
-    Eksempel:
+- På siden **Profil (rolle)** for en tilpasset profil velger du handlingen **Fjern tilpassede sider**.
 
-        ```
-        finsql.exe Command=generatesymbolreference, Database="Demo Database BC", ServerName=MySQLServer\BCDEMO
-        ```
+Oppsettet på sider for profilen tilbakestilles til standardoppsettet.  
 
-    Hvis du vil ha mer informasjon, se [Kjøre C/SIDE og AL side ved side](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-running-cside-and-al-side-by-side).
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Slette tilpasninger for bestemte sider for en profil
+Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Tilpasninger som er innført med en utvidelse, og personlige tilpasninger gjort av en bruker, slettes ikke. Du kan slette spesifikke sidetilpasninger med en annen handling. Hvis du vil ha mer informasjon, se [Slette personlige tilpasninger for en bestemt side](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-    2. Konfigurere [!INCLUDE[nav_server_md](includes/nav_server_md.md)]-forekomst til **Aktivere lasting av programsymbolreferanser ved serveroppstart** (EnableSymbolLoadingAtServerStartup). Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance#development-settings).
+1. På siden **Profil (rolle)** velger du handlingen **Tilpassede sider**.
+2. På siden **Profiltilpasninger** velger du én eller flere linjer for sidetilpasninger du vil slette, og deretter velger du handlingen **Slett**.
 
-## <a name="to-disable-personalization-for-a-profile"></a>Deaktivere tilpasning for en profil
-
-Du kan hindre alle brukere som tilhører en bestemt profil, fra å tilpasse sine sider.
-
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profiler**, og velg deretter den relaterte koblingen.
-2. Velg profilen i listen som du vil endre.
-3. Merk av for **Deaktiver tilpasning**, og velg deretter **OK**.
-
-> [!NOTE]  
-> I Business Central på nettet kan du bare deaktivere personalisering for en leierprofil, ikke for systemprofiler. 
-
-## <a name="to-clear-user-personalizations"></a>Fjerne brukertilpasninger
-
-Hvis du fjerner sidetilpasninger, endres siden tilbake til det opprinnelige oppsettet før eventuelle tilpasninger ble utført. Du kan slette tilpasninger brukere har gjort med sider, på to måter: ved hjelp av siden **Slett brukertilpasning** og ved hjelp av siden **Brukertilpasningskort**.
-
-### <a name="to-clear-user-personalizations-by-using-the-delete-user-personalization-page"></a>Slette brukertilpasninger ved hjelp av siden Slett brukertilpasning
-
-Siden **Slett brukertilpasning** lar deg slette tilpasninger for hver enkelt side og bruker.
-
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett brukertilpasning**, og velg deretter den relaterte koblingen.
-
-    Siden viser alle sidene som er tilpasset, og brukerne de tilhører.
-
-    >[!NOTE]
-    > Hvis det er merket av for **Gammel tilpassing**-kolonnene, angir dett at tilpassingen ble utført i en eldre versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)], som håndterte tilpassing annerledes enn nå. Brukere som prøver å tilpasse disse sidene, er låst fra å gjøre dette med mindre de ønsker å låse opp siden. Hvis du vil ha mer informasjon, kan du se [Hvorfor en side er låst fra tilpassing](ui-personalization-locked.md).
-
-2. Velg posten du vil slette, og velg deretter handlingen **Slett**.
-
-    Brukeren vil se endringene neste gang vedkommende logger på.
-
-### <a name="to-clear-user-personalizations-by-using-the-user-personalization-card-page"></a>Slette brukertilpasninger ved hjelp av siden Brukertilpasningskort
-
-Siden **Brukertilpasningskort** gir deg muligheten til å slette tilpasningen på alle sider for en bestemt bruker. Dette krever skrivetilgang til tabellen 2000000072 **profil**.
-
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukertilpasning**, og velg deretter den relaterte koblingen.
-
-    Siden **Brukertilpasning** viser alle brukerne som kan ha tilpassede sider. Hvis du ikke finner en bruker i listen, betyr det at de ikke har tilpassede sider.
-
-2. Velg brukeren fra listen, og velg deretter handlingen **Rediger**.
-
-3. I kategorien **Handlinger** velger du **Fjern tilpassede sider**.
-
-    Brukeren vil se endringene neste gang vedkommende logger på.
+Oppsettet på de valgte sidene justeres til endringene du har gjort.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Administrere profiler](admin-users-profiles-roles.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

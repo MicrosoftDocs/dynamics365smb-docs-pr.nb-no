@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c09eedbb812df909a43e514dc462dcf8c1cf182a
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249310"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314847"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
 Denne gjennomgangen beskriver hvordan du kan bruke kontoskjemaer til å lage kontantstrømprognoser. Kontoskjemaer utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I kontoskjemaer kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
@@ -68,11 +68,12 @@ Etter at et kontoskjemanavn er angitt, definerer Ken hver linje som vises i kont
     >  Du kan bruke funksjonen **Sett inn kontantstrømkonti** til raskt å merke kontantstrømkontoene i kontantstrømkontoplanen og kopiere dem til kontoskjemalinjer.  
 
     |Radnr.|Beskrivelse|Sammentellingstype|Sammentelling|Radtype|Beløpstype|Vis|  
-    |-------|-----------|-------------|--------|--------|---  ------|----| |C10|Beløp|Bevegelse|Poster|Nettobeløp|Alltid|  
-    |C20|Beløp til dato|Saldo per dato|Poster|Nettobeløp|Alltid|  
-    |C30|Helt regnskapsår|Helt regnskapsår|Poster|Nettobeløp Beløp|Alltid|  
+    |-------|-----------|-------------|--------|--------|-----------|----|
+    |C10|Beløp|Bevegelse|Poster|Nettobeløp|Alltid|  
+    |C20|Beløp til dato|Saldo til dato|Poster|Nettobeløp|Alltid|  
+    |C30|Hele regnskapsåret|Hele regnskapsåret|Poster|Nettobeløp|Alltid|  
 
-4.  Velg **OK**.  
+4.  Velg **OK**-knappen.  
 
 ## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Tilordne kolonneoppsettet til kontoskjemanavnet  
 Ken er nå klar til å tilordne kolonneoppsettet til kontoskjemanavnet.  

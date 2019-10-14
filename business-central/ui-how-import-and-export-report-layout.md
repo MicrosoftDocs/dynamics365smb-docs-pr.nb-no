@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 691a8af0a6b3646cc4cf6129fa99a9231bfd2324
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248183"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315231"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere en rapport eller et dokumentoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -54,4 +54,4 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 ## <a name="see-also"></a>Se også  
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
  [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
- [Arbeide med rapporter og kjørsler](ui-work-report.md)    
+ [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    

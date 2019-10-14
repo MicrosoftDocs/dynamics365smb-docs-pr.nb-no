@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/02/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 4f62954b7cc427eac84e78a4cb19a61387d423b3
-ms.sourcegitcommit: dac212009aadf3227e54c99976c438f6e56f182a
+ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "1446971"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301543"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
@@ -40,7 +40,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Legg til dimensjoner for bedre forretningsintelligens. |[Arbeide med dimensjoner](finance-dimensions.md) |
 | Opprette finansbudsjetter for å prognostisere ulike økonomiske aktiviteter og tilordne dimensjoner for forretningsanalyseformål. |[Opprette finansbudsjetter](finance-how-create-budgets.md) |
 |Registrere inntekt eller utgifter direkte i Finans, uten å bokføre dedikerte forretningsdokumenter.|[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)|
-|Bokfør tilbakeføringsposter hvis du vil angre verdibokføringer i finanskladden eller antallsbokføringer i salgs- og kjøpsdokumenter. |[Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md)|
+|Bokfør tilbakeføringsposter hvis du vil angre verdibokføringer i finanskladden eller antallsbokføringer i salgs- og kjøpsdokumenter. |[Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)|
 |Fordele en post i en finanskladd til flere forskjellige konti når du bokfører kladden. |[Fordele kostnader og inntekter](year-allocate-costs-income.md) |
 | Tilordne ekstra kostnader, for eksempel frakt og fysisk håndtering du pådrar deg i handel, til de involverte varene, slik at kostnadene gjenspeiles i lagerverdisettingen. |[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md) |
 |Bokfør de ansattes personlige utgifter for firmarelaterte aktiviteter, og refunder ansatte ved å betale dem på deres bankkontoer.|[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
