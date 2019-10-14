@@ -8,29 +8,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/22/2019
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 12763990a6d35f1c993e488e476328d1de05338b
-ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
+ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1594313"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311455"
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="f2b8f-103">Tilgjengelighet og hurtigtaster</span><span class="sxs-lookup"><span data-stu-id="f2b8f-103">Accessibility and Keyboard Shortcuts</span></span>
-<span data-ttu-id="f2b8f-104">Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-104">This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f2b8f-105">støtter følgende tilgjengelighetsfunksjoner:</span><span class="sxs-lookup"><span data-stu-id="f2b8f-105">supports the following accessibility features:</span></span>  
+# <a name="accessibility-and-keyboard-shortcuts"></a><span data-ttu-id="96db9-103">Tilgjengelighet og hurtigtaster</span><span class="sxs-lookup"><span data-stu-id="96db9-103">Accessibility and Keyboard Shortcuts</span></span>
+<span data-ttu-id="96db9-104">Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger.</span><span class="sxs-lookup"><span data-stu-id="96db9-104">This topic provides information about the features that make [!INCLUDE[d365fin](includes/d365fin_md.md)] readily available to people with disabilities.</span></span> [!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="96db9-105">støtter følgende tilgjengelighetsfunksjoner:</span><span class="sxs-lookup"><span data-stu-id="96db9-105">supports the following accessibility features:</span></span>  
 
--   <span data-ttu-id="f2b8f-106">Tastatursnarveier</span><span class="sxs-lookup"><span data-stu-id="f2b8f-106">Keyboard shortcuts</span></span>
+-   <span data-ttu-id="96db9-106">Tastatursnarveier</span><span class="sxs-lookup"><span data-stu-id="96db9-106">Keyboard shortcuts</span></span>
 
-    <span data-ttu-id="f2b8f-107">Hvis du vil ha mer informasjon, kan du se  [Hurtigtaster](keyboard-shortcuts.md)</span><span class="sxs-lookup"><span data-stu-id="f2b8f-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
+    <span data-ttu-id="96db9-107">Hvis du vil ha mer informasjon, kan du se  [Hurtigtaster](keyboard-shortcuts.md)</span><span class="sxs-lookup"><span data-stu-id="96db9-107">For more information, see [Keyboard Shortcuts](keyboard-shortcuts.md)</span></span>
 
--   <span data-ttu-id="f2b8f-108">Navigasjon</span><span class="sxs-lookup"><span data-stu-id="f2b8f-108">Navigation</span></span>  
+-   <span data-ttu-id="96db9-108">Navigasjon</span><span class="sxs-lookup"><span data-stu-id="96db9-108">Navigation</span></span>  
 
--   <span data-ttu-id="f2b8f-109">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="f2b8f-109">Headings</span></span>  
+-   <span data-ttu-id="96db9-109">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="96db9-109">Headings</span></span>  
 
--   <span data-ttu-id="f2b8f-110">Alternativ tekst for bilder og koblinger</span><span class="sxs-lookup"><span data-stu-id="f2b8f-110">Alternative text for images and links</span></span>  
+-   <span data-ttu-id="96db9-110">Alternativ tekst for bilder og koblinger</span><span class="sxs-lookup"><span data-stu-id="96db9-110">Alternative text for images and links</span></span>  
 
--   <span data-ttu-id="f2b8f-111">Støtte for vanlige tekniske hjelpefunksjoner</span><span class="sxs-lookup"><span data-stu-id="f2b8f-111">Support for common assistive technologies</span></span>  
+-   <span data-ttu-id="96db9-111">Støtte for vanlige tekniske hjelpefunksjoner</span><span class="sxs-lookup"><span data-stu-id="96db9-111">Support for common assistive technologies</span></span>  
 
 <!-- moved to separate article
 ##  <a name="Keyboard"></a> Keyboard Shortcuts in the browser
@@ -48,24 +48,24 @@ ms.locfileid: "1594313"
 
 -->
 
-##  <a name="Navigation"></a> <span data-ttu-id="f2b8f-112">Navigasjon</span><span class="sxs-lookup"><span data-stu-id="f2b8f-112">Navigation</span></span>  
- <span data-ttu-id="f2b8f-113">Du kan gå mellom faneblad og handlinger på båndet, elementer i navigasjonsstolpen og andre kontroller på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter med tastaturet.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-113">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="f2b8f-114">Hvis du vil flytte fokus fra én fane, handling eller kontroll til en annen, trykker du på tabulatortasten for å flytte fremover.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-114">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="f2b8f-115">Trykk på Skift+Tab for å flytte bakover.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-115">Press Shift+Tab to move backward.</span></span>  
+##  <a name="Navigation"></a> <span data-ttu-id="96db9-112">Navigasjon</span><span class="sxs-lookup"><span data-stu-id="96db9-112">Navigation</span></span>  
+ <span data-ttu-id="96db9-113">Du kan gå mellom faneblad og handlinger på båndet, elementer i navigasjonsstolpen og andre kontroller på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter med tastaturet.</span><span class="sxs-lookup"><span data-stu-id="96db9-113">You can navigate between the tabs and actions in the ribbon, elements in the navigation bar, and other controls on [!INCLUDE[d365fin](includes/d365fin_md.md)] pages and reports using the keyboard.</span></span> <span data-ttu-id="96db9-114">Hvis du vil flytte fokus fra én fane, handling eller kontroll til en annen, trykker du på tabulatortasten for å flytte fremover.</span><span class="sxs-lookup"><span data-stu-id="96db9-114">To move the focus from one tab, action, or control to another, press the Tab key to move forward.</span></span> <span data-ttu-id="96db9-115">Trykk på Skift+Tab for å flytte bakover.</span><span class="sxs-lookup"><span data-stu-id="96db9-115">Press Shift+Tab to move backward.</span></span>  
 
- <span data-ttu-id="f2b8f-116">Ved hjelp av tabulatorrekkefølgen kan du for eksempel også bytte mellom hovedlesersiden og dialogboksene som ber om bekreftelse, eller påloggingssiden.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-116">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
+ <span data-ttu-id="96db9-116">Ved hjelp av tabulatorrekkefølgen kan du for eksempel også bytte mellom hovedlesersiden og dialogboksene som ber om bekreftelse, eller påloggingssiden.</span><span class="sxs-lookup"><span data-stu-id="96db9-116">By using the tab order, you can also switch between the main browser page and dialog boxes that request confirmation, for example, or the login page.</span></span>  
 
-##  <a name="Headings"></a> <span data-ttu-id="f2b8f-117">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="f2b8f-117">Headings</span></span>  
- <span data-ttu-id="f2b8f-118">HTML-kilden for [!INCLUDE[d365fin](includes/d365fin_md.md)]-innhold bruker koder for å hjelpe brukere av hjelpeteknologi til å forstå strukturen og innholdet på siden.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-118">The HTML source for [!INCLUDE[d365fin](includes/d365fin_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="f2b8f-119">For eksempel på listesider defineres kolonnene i TH-koder og kolonneoverskriftene defineres med TITTEL-attributtet inni koden.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-119">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="f2b8f-120">Overskrifter for elementer, for eksempel hurtigfaner faktabokser og felt, inkluderes i overskriftskoder (H1, H2, H3 og H4).</span><span class="sxs-lookup"><span data-stu-id="f2b8f-120">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
+##  <a name="Headings"></a> <span data-ttu-id="96db9-117">Overskrifter</span><span class="sxs-lookup"><span data-stu-id="96db9-117">Headings</span></span>  
+ <span data-ttu-id="96db9-118">HTML-kilden for [!INCLUDE[d365fin](includes/d365fin_md.md)]-innhold bruker koder for å hjelpe brukere av hjelpeteknologi til å forstå strukturen og innholdet på siden.</span><span class="sxs-lookup"><span data-stu-id="96db9-118">The HTML source for [!INCLUDE[d365fin](includes/d365fin_md.md)] content uses tags to help users of assistive technology to understand the structure and content of the page.</span></span> <span data-ttu-id="96db9-119">For eksempel på listesider defineres kolonnene i TH-koder og kolonneoverskriftene defineres med TITTEL-attributtet inni koden.</span><span class="sxs-lookup"><span data-stu-id="96db9-119">For example, on list pages, the columns are defined in TH tags and the column headings are set with TITLE attribute inside the tag.</span></span> <span data-ttu-id="96db9-120">Overskrifter for elementer, for eksempel hurtigfaner faktabokser og felt, inkluderes i overskriftskoder (H1, H2, H3 og H4).</span><span class="sxs-lookup"><span data-stu-id="96db9-120">Captions for elements, such as FastTabs, FactBoxes, and fields are included in heading tags (H1, H2, H3, and H4).</span></span>  
 
-##  <a name="Images"></a> <span data-ttu-id="f2b8f-121">Bilde og koblinger</span><span class="sxs-lookup"><span data-stu-id="f2b8f-121">Image and Links</span></span>  
- <span data-ttu-id="f2b8f-122">Det angis en beskrivende tekst for bilder med ALT-attributtet inni IMG-koden.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-122">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="f2b8f-123">Det angis en beskrivende tekst for hyperkoblinger med tittelattributtet inni A-koden.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-123">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
+##  <a name="Images"></a> <span data-ttu-id="96db9-121">Bilde og koblinger</span><span class="sxs-lookup"><span data-stu-id="96db9-121">Image and Links</span></span>  
+ <span data-ttu-id="96db9-122">Det angis en beskrivende tekst for bilder med ALT-attributtet inni IMG-koden.</span><span class="sxs-lookup"><span data-stu-id="96db9-122">A descriptive text for images is set with the ALT attribute inside the IMG tag.</span></span> <span data-ttu-id="96db9-123">Det angis en beskrivende tekst for hyperkoblinger med tittelattributtet inni A-koden.</span><span class="sxs-lookup"><span data-stu-id="96db9-123">A descriptive text for hyperlinks is set with the title attribute inside the A tag.</span></span>  
 
-##  <a name="AssistiveTech"></a> <span data-ttu-id="f2b8f-124">Hjelpeteknologi</span><span class="sxs-lookup"><span data-stu-id="f2b8f-124">Assistive Technologies</span></span>  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="f2b8f-125">støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-125">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="f2b8f-126">Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.</span><span class="sxs-lookup"><span data-stu-id="f2b8f-126">Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.</span></span>  
+##  <a name="AssistiveTech"></a> <span data-ttu-id="96db9-124">Hjelpeteknologi</span><span class="sxs-lookup"><span data-stu-id="96db9-124">Assistive Technologies</span></span>  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] <span data-ttu-id="96db9-125">støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare.</span><span class="sxs-lookup"><span data-stu-id="96db9-125">supports various assistive technologies, such as high contrast, screen readers, and voice recognition software.</span></span> <span data-ttu-id="96db9-126">Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.</span><span class="sxs-lookup"><span data-stu-id="96db9-126">Some assistive technologies may not work well with certain elements in [!INCLUDE[d365fin](includes/d365fin_md.md)] pages.</span></span>  
 
-## <a name="for-more-accessibility-information"></a><span data-ttu-id="f2b8f-127">For mer informasjon om tilgjengelighet</span><span class="sxs-lookup"><span data-stu-id="f2b8f-127">For more accessibility information</span></span>  
-<span data-ttu-id="f2b8f-128">Du finner mer informasjon om tilgjengelighet med Microsoft-produkter og hjelpeteknologi på nettstedet for [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="f2b8f-128">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
+## <a name="for-more-accessibility-information"></a><span data-ttu-id="96db9-127">For mer informasjon om tilgjengelighet</span><span class="sxs-lookup"><span data-stu-id="96db9-127">For more accessibility information</span></span>  
+<span data-ttu-id="96db9-128">Du finner mer informasjon om tilgjengelighet med Microsoft-produkter og hjelpeteknologi på nettstedet for [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160).</span><span class="sxs-lookup"><span data-stu-id="96db9-128">You can find additional information about accessibility with Microsoft products and assistive technologies on the [Microsoft Accessibility](https://go.microsoft.com/fwlink/?LinkId=262160) site.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="f2b8f-129">Se også</span><span class="sxs-lookup"><span data-stu-id="f2b8f-129">See Also</span></span>
-[<span data-ttu-id="f2b8f-130">Komme i gang</span><span class="sxs-lookup"><span data-stu-id="f2b8f-130">Getting Started</span></span>](product-get-started.md)  
-<span data-ttu-id="f2b8f-131">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="f2b8f-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
-[<span data-ttu-id="f2b8f-132">Vanlige spørsmål</span><span class="sxs-lookup"><span data-stu-id="f2b8f-132">Frequently Asked Questions</span></span>](across-faq.md)  
+## <a name="see-also"></a><span data-ttu-id="96db9-129">Se også</span><span class="sxs-lookup"><span data-stu-id="96db9-129">See Also</span></span>
+[<span data-ttu-id="96db9-130">Komme i gang</span><span class="sxs-lookup"><span data-stu-id="96db9-130">Getting Started</span></span>](product-get-started.md)  
+<span data-ttu-id="96db9-131">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="96db9-131">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>  
+[<span data-ttu-id="96db9-132">Vanlige spørsmål</span><span class="sxs-lookup"><span data-stu-id="96db9-132">Frequently Asked Questions</span></span>](across-faq.md)  

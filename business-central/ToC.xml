@@ -185,7 +185,7 @@
     <Node Name="" DisplayName="Arbeide med dimensjoner" Page="finance-dimensions.html"/>
     <Node Name="" DisplayName="Opprette budsjetter" Page="finance-how-create-budgets.html"/>
     <Node Name="" DisplayName="Bokføre transaksjoner direkte i Finans" Page="finance-how-post-transactions-directly.html"/>
-    <Node Name="" DisplayName="Tilbakeføre bokføringer" Page="finance-how-reverse-journal-posting.html"/>
+    <Node Name="" DisplayName="Slik gjør du det: Tilbakeføre kladdebokføringer og angre mottak/leveringer" Page="finance-how-reverse-journal-posting.html"/>
     <Node Name="" DisplayName="Fordele kostnader og inntekter" Page="year-allocate-costs-income.html"/>
     <Node Name="" DisplayName="Bruke varegebyr til å gjøre rede for ekstra handelskostnader" Page="payables-how-assign-item-charges.html"/>
     <Node Name="" DisplayName="Registrere og refundere ansattes utgifter" Page="finance-how-record-reimburse-employee-expenses.html"/>

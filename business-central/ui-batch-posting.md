@@ -1,0 +1,62 @@
+---
+title: Bokføre flere dokumenter samtidig | Microsoft Docs
+description: I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for massebokføring, enten det er for umiddelbar bokføring eller planlagt, for eksempel på slutten av dagen.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.reviewer: edupont
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 15b0afcf04ad279000de227523f977fdb695fe01
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316790"
+---
+# <a name="post-multiple-documents-at-the-same-time"></a><span data-ttu-id="8df51-103">Bokføre flere dokumenter samtidig</span><span class="sxs-lookup"><span data-stu-id="8df51-103">Post Multiple Documents at the Same Time</span></span>
+<span data-ttu-id="8df51-104">I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for umiddelbar bokføring eller massebokføring i henhold til en tidsplan, for eksempel på slutten av dagen.</span><span class="sxs-lookup"><span data-stu-id="8df51-104">Instead of posting individual documents one by one, you can select multiple non-posted documents in a list for immediate posting or for batch posting according to a schedule, such as at the end of the day.</span></span> <span data-ttu-id="8df51-105">Dette kan være nyttig hvis bare en arbeidsleder kan bokføre dokumenter som er opprettet av andre brukere, eller for å unngå problemer med systemytelse ved bokføring i arbeidstiden.</span><span class="sxs-lookup"><span data-stu-id="8df51-105">This may be useful if only a supervisor can post documents created by other users or to avoid system performance issues from posting during work hours.</span></span>
+
+## <a name="to-post-multiple-purchase-orders-immediately"></a><span data-ttu-id="8df51-106">Bokføre flere bestillinger umiddelbart</span><span class="sxs-lookup"><span data-stu-id="8df51-106">To post multiple purchase orders immediately</span></span>
+<span data-ttu-id="8df51-107">Fremgangsmåten nedenfor forklarer hvordan du bokfører flere bestillinger umiddelbart.</span><span class="sxs-lookup"><span data-stu-id="8df51-107">The following procedure explains how to post multiple purchase orders immediately.</span></span> <span data-ttu-id="8df51-108">Trinnene er lignende for alle kjøps- og salgsdokumenter.</span><span class="sxs-lookup"><span data-stu-id="8df51-108">The steps are similar for all purchase and sales documents.</span></span>
+
+1. <span data-ttu-id="8df51-109">Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="8df51-109">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.</span></span>
+2. <span data-ttu-id="8df51-110">På **Bestilling**-siden fortsetter du for å velge alle bestillinger som skal bokføres:</span><span class="sxs-lookup"><span data-stu-id="8df51-110">On the **Purchase Orders** page, proceed to select all orders to be posted:</span></span>
+3. <span data-ttu-id="8df51-111">I **Nr.**</span><span class="sxs-lookup"><span data-stu-id="8df51-111">In the **No.**</span></span> <span data-ttu-id="8df51-112">-feltet velger du de tre loddrette prikkene for å åpne hurtigmenyen, og deretter velger du handlingen **Velg flere**.</span><span class="sxs-lookup"><span data-stu-id="8df51-112">field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.</span></span>
+4. <span data-ttu-id="8df51-113">Merk av i boksen for alle linjene som representerer ordrer du vil bokføre samtidig.</span><span class="sxs-lookup"><span data-stu-id="8df51-113">Select the check box for all the lines representing orders that you want to post at the same time.</span></span>
+5. <span data-ttu-id="8df51-114">Velg handlingen **Bokføring**, og velg deretter handlingen **Bokfør**.</span><span class="sxs-lookup"><span data-stu-id="8df51-114">Choose the **Posting** action, and then choose the **Post** action.</span></span>
+6. <span data-ttu-id="8df51-115">Velg **Ja** i bekreftelsesmeldingen.</span><span class="sxs-lookup"><span data-stu-id="8df51-115">Choose the **Yes** button on the confirmation message.</span></span>
+
+## <a name="to-batch-post-multiple-purchase-orders"></a><span data-ttu-id="8df51-116">Massebokføre flere bestillinger</span><span class="sxs-lookup"><span data-stu-id="8df51-116">To batch post multiple purchase orders</span></span>
+<span data-ttu-id="8df51-117">Fremgangsmåten nedenfor forklarer hvordan du massebokfører bestillinger.</span><span class="sxs-lookup"><span data-stu-id="8df51-117">The following procedure explains how to batch post purchase orders.</span></span> <span data-ttu-id="8df51-118">Trinnene er de samme for alle kjøps- og salgsdokumenter der handlingen **Massebokfør** er tilgjengelig.</span><span class="sxs-lookup"><span data-stu-id="8df51-118">The steps are similar for all purchase and sales documents where the **Batch Post** action is available.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8df51-119">Massebokføring av dokumenter skjer i bakgrunnen i henhold til en jobbkøpost som først må opprettes.</span><span class="sxs-lookup"><span data-stu-id="8df51-119">Batch posting of documents happens in the background as defined by a job queue entry, which must first be set up.</span></span> <span data-ttu-id="8df51-120">Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="8df51-120">For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).</span></span>
+
+1. <span data-ttu-id="8df51-121">Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="8df51-121">Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Purchase Orders**, and then choose the related link.</span></span>  
+2. <span data-ttu-id="8df51-122">På **Bestilling**-siden fortsetter du for å velge alle bestillinger som skal bokføres:</span><span class="sxs-lookup"><span data-stu-id="8df51-122">On the **Purchase Orders** page, proceed to select all orders to be posted:</span></span>
+3. <span data-ttu-id="8df51-123">I **Nr.**</span><span class="sxs-lookup"><span data-stu-id="8df51-123">In the **No.**</span></span> <span data-ttu-id="8df51-124">-feltet velger du de tre loddrette prikkene for å åpne hurtigmenyen, og deretter velger du handlingen **Velg flere**.</span><span class="sxs-lookup"><span data-stu-id="8df51-124">field, choose the three vertical dots to open the context menu, and then choose the **Select More** action.</span></span>
+4. <span data-ttu-id="8df51-125">Merk av i boksen for alle linjene som representerer ordrer du vil bokføre samtidig.</span><span class="sxs-lookup"><span data-stu-id="8df51-125">Select the check box for all the lines representing orders that you want to post at the same time.</span></span>
+5. <span data-ttu-id="8df51-126">Velg handlingen **Bokføring**, og velg deretter handlingen **Massebokfør**.</span><span class="sxs-lookup"><span data-stu-id="8df51-126">Choose the **Posting** action, and then choose the **Post Batch** action.</span></span>
+6. <span data-ttu-id="8df51-127">På siden **Bestillinger - massebokfør** fyller du ut resten av feltene.</span><span class="sxs-lookup"><span data-stu-id="8df51-127">On the **Batch Post Purchase Order** page, fill in the fields as necessary.</span></span> [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+    > [!NOTE]
+    > <span data-ttu-id="8df51-128">Hvis du vil skrive ut relaterte rapporter når du bokfører, for eksempel rapporten **Ordrebekreftelse** for salgsordrer, merker du av for **Skriv ut**.</span><span class="sxs-lookup"><span data-stu-id="8df51-128">To print related reports when posting, such as the **Order Confirmation** report for sales orders, select the **Print** check box.</span></span><br /><br /> <span data-ttu-id="8df51-129">I feltet **Rapportutdatatype** på siden **Oppsett av kunde- og leverandørkonto** eller på siden **Kjøpsoppsett** definerer du om rapporten skal skrives ut eller sendes som en PDF-fil.</span><span class="sxs-lookup"><span data-stu-id="8df51-129">In the **Report Output Type** field on the **Sales and Receivables Setup** page or **Purchases and Payables Setup** page, you define if the report will be printed or output as a PDF.</span></span><br /><br /> <span data-ttu-id="8df51-130">Legg også merke til at direkte utskrift til en valgt skriver bare er mulig på lokale installasjoner.</span><span class="sxs-lookup"><span data-stu-id="8df51-130">Note also that direct printing to a selected printer is only possible in on-premises installations.</span></span>
+
+7. <span data-ttu-id="8df51-131">Velg **OK**-knappen.</span><span class="sxs-lookup"><span data-stu-id="8df51-131">Choose the **OK** button.</span></span>
+8. <span data-ttu-id="8df51-132">Hvis du vil vise potensielle problemer som oppstod under massebokføring av dokumenter, åpner du siden **Feilmeldingsregister**.</span><span class="sxs-lookup"><span data-stu-id="8df51-132">To view potential issues that occurred during batch posting of documents, open the **Error Message Register** page.</span></span>
+
+<span data-ttu-id="8df51-133">Bestillingene blir nå lagt til i en dedikert jobbkø, som definerer når dokumentene bokføres.</span><span class="sxs-lookup"><span data-stu-id="8df51-133">The purchase orders will now be added to a dedicated job queue entry, which defines when the documents are posted.</span></span> <span data-ttu-id="8df51-134">Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).</span><span class="sxs-lookup"><span data-stu-id="8df51-134">For more information, see [Use Job Queues to Schedule Tasks](admin-job-queues-schedule-tasks.md).</span></span>
+
+<span data-ttu-id="8df51-135">Hvis du velger **PDF** i feltet **Rapportutdatatype**, vil bokførte bestillinger være tilgjengelige i delen **Rapportinnboks** i rollesenteret.</span><span class="sxs-lookup"><span data-stu-id="8df51-135">If you select **PDF** in the **Report Output Type** field, successfully posted purchase orders will be available in the **Report Inbox** part on your Role Center.</span></span>
+
+## <a name="see-also"></a><span data-ttu-id="8df51-136">Se også</span><span class="sxs-lookup"><span data-stu-id="8df51-136">See Also</span></span>
+[<span data-ttu-id="8df51-137">Bokføre dokumenter og kladder</span><span class="sxs-lookup"><span data-stu-id="8df51-137">Posting Documents and Journals</span></span>](ui-post-documents-journals.md)  
+[<span data-ttu-id="8df51-138">Bruke jobbkøer til å planlegge oppgaver</span><span class="sxs-lookup"><span data-stu-id="8df51-138">Use Job Queues to Schedule Tasks</span></span>](admin-job-queues-schedule-tasks.md)  
+[<span data-ttu-id="8df51-139">Redigere bokførte dokumenter</span><span class="sxs-lookup"><span data-stu-id="8df51-139">Edit Posted Documents</span></span>](across-edit-posted-document.md)  
+[<span data-ttu-id="8df51-140">Korrigere eller annullere ubetalte kjøpsfakturaer</span><span class="sxs-lookup"><span data-stu-id="8df51-140">Correct or Cancel Unpaid Purchase Invoices</span></span>](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[<span data-ttu-id="8df51-141">Finne sider og informasjon med Fortell meg</span><span class="sxs-lookup"><span data-stu-id="8df51-141">Finding Pages and Information with Tell Me</span></span>](ui-search.md)  
+<span data-ttu-id="8df51-142">[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="8df51-142">[Working with [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)</span></span>

@@ -10,27 +10,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 10/01/2019
 ms.author: sgroespe
 redirect_url: design-details-dimension-set-entries
-ms.openlocfilehash: 59fce0a432c7f433552cff21ef304fa16fa85a8a
-ms.sourcegitcommit: 1fa3d33db7bc71e3a27c826308a80ff24a436a72
+ms.openlocfilehash: d4ed71c8c196ea6beff49f7a40fc1605fe999abd
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "1970904"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2303727"
 ---
-# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="c568b-104">Designdetaljer: Kodeeksempler på endrede mønstre i endringer</span><span class="sxs-lookup"><span data-stu-id="c568b-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
-<span data-ttu-id="c568b-105">Dette emnet inneholder kodeeksempler som viser endrede mønstre i endring og flytting av dimensjonskode for fem ulike scenarier.</span><span class="sxs-lookup"><span data-stu-id="c568b-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="c568b-106">Det sammenligner kodeeksemplene i tidligere versjoner med kodeeksemplene i Business Central.</span><span class="sxs-lookup"><span data-stu-id="c568b-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
+# <a name="design-details-code-examples-of-changed-patterns-in-modifications"></a><span data-ttu-id="b8b23-104">Designdetaljer: Kodeeksempler på endrede mønstre i endringer</span><span class="sxs-lookup"><span data-stu-id="b8b23-104">Design Details: Code Examples of Changed Patterns in Modifications</span></span>
+<span data-ttu-id="b8b23-105">Dette emnet inneholder kodeeksempler som viser endrede mønstre i endring og flytting av dimensjonskode for fem ulike scenarier.</span><span class="sxs-lookup"><span data-stu-id="b8b23-105">This topic provides code examples to show changed patterns in dimension code modification and migration for five different scenarios.</span></span> <span data-ttu-id="b8b23-106">Det sammenligner kodeeksemplene i tidligere versjoner med kodeeksemplene i Business Central.</span><span class="sxs-lookup"><span data-stu-id="b8b23-106">It compares the code examples in earlier versions to the code examples in Business Central.</span></span>
 
-## <a name="posting-a-journal-line"></a><span data-ttu-id="c568b-107">Bokføre en kladdelinje</span><span class="sxs-lookup"><span data-stu-id="c568b-107">Posting a Journal Line</span></span>  
-<span data-ttu-id="c568b-108">Viktige endringer vises slik:</span><span class="sxs-lookup"><span data-stu-id="c568b-108">Key changes are listed as follows:</span></span>  
+## <a name="posting-a-journal-line"></a><span data-ttu-id="b8b23-107">Bokføre en kladdelinje</span><span class="sxs-lookup"><span data-stu-id="b8b23-107">Posting a Journal Line</span></span>  
+<span data-ttu-id="b8b23-108">Viktige endringer vises slik:</span><span class="sxs-lookup"><span data-stu-id="b8b23-108">Key changes are listed as follows:</span></span>  
 
-- <span data-ttu-id="c568b-109">Dimensjonstabeller for kladdelinjer blir fjernet.</span><span class="sxs-lookup"><span data-stu-id="c568b-109">Journal line dimension tables are removed.</span></span>  
+- <span data-ttu-id="b8b23-109">Dimensjonstabeller for kladdelinjer blir fjernet.</span><span class="sxs-lookup"><span data-stu-id="b8b23-109">Journal line dimension tables are removed.</span></span>  
 
-- <span data-ttu-id="c568b-110">En dimensjonssett-ID opprettes i **Dimensjonssett-ID**-feltet.</span><span class="sxs-lookup"><span data-stu-id="c568b-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
+- <span data-ttu-id="b8b23-110">En dimensjonssett-ID opprettes i **Dimensjonssett-ID**-feltet.</span><span class="sxs-lookup"><span data-stu-id="b8b23-110">A dimension set ID is created in the **Dimension Set ID** field.</span></span>  
 
-<span data-ttu-id="c568b-111">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="c568b-111">**Earlier Versions**</span></span>  
+<span data-ttu-id="b8b23-111">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="b8b23-111">**Earlier Versions**</span></span>  
 
 ```  
 ResJnlLine."Qty. per Unit of Measure" :=   
@@ -62,10 +62,10 @@ ResJnlPostLine.Run(ResJnlLine);
 
 ```  
 
-## <a name="posting-a-document"></a><span data-ttu-id="c568b-112">Bokføre et dokument</span><span class="sxs-lookup"><span data-stu-id="c568b-112">Posting a Document</span></span>  
- <span data-ttu-id="c568b-113">Når du bokfører et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], trenger du ikke lenger å kopiere dokumentdimensjonene.</span><span class="sxs-lookup"><span data-stu-id="c568b-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
+## <a name="posting-a-document"></a><span data-ttu-id="b8b23-112">Bokføre et dokument</span><span class="sxs-lookup"><span data-stu-id="b8b23-112">Posting a Document</span></span>  
+ <span data-ttu-id="b8b23-113">Når du bokfører et dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], trenger du ikke lenger å kopiere dokumentdimensjonene.</span><span class="sxs-lookup"><span data-stu-id="b8b23-113">When you post a document in [!INCLUDE[d365fin](includes/d365fin_md.md)], you no longer have to copy the document dimensions.</span></span>  
 
- <span data-ttu-id="c568b-114">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="c568b-114">**Earlier Versions**</span></span>  
+ <span data-ttu-id="b8b23-114">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="b8b23-114">**Earlier Versions**</span></span>  
 
 ```  
 DimMgt.MoveOneDocDimToPostedDocDim(  
@@ -84,10 +84,10 @@ SalesShptLine."Dimension Set ID”
   := SalesLine."Dimension Set ID”  
 ```  
 
-## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="c568b-115">Redigere dimensjoner fra et dokument</span><span class="sxs-lookup"><span data-stu-id="c568b-115">Editing Dimensions from a Document</span></span>  
- <span data-ttu-id="c568b-116">Du kan redigere dimensjoner fra et dokument.</span><span class="sxs-lookup"><span data-stu-id="c568b-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="c568b-117">Du kan for eksempel redigere en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="c568b-117">For example, you can edit a sales order line.</span></span>  
+## <a name="editing-dimensions-from-a-document"></a><span data-ttu-id="b8b23-115">Redigere dimensjoner fra et dokument</span><span class="sxs-lookup"><span data-stu-id="b8b23-115">Editing Dimensions from a Document</span></span>  
+ <span data-ttu-id="b8b23-116">Du kan redigere dimensjoner fra et dokument.</span><span class="sxs-lookup"><span data-stu-id="b8b23-116">You can edit dimensions from a document.</span></span> <span data-ttu-id="b8b23-117">Du kan for eksempel redigere en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="b8b23-117">For example, you can edit a sales order line.</span></span>  
 
- <span data-ttu-id="c568b-118">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="c568b-118">**Earlier Versions**</span></span>  
+ <span data-ttu-id="b8b23-118">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="b8b23-118">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function ShowDimensions:  
@@ -110,10 +110,10 @@ Table 37, function ShowDimensions:
     "Dimension ID");  
 ```  
 
-## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="c568b-119">Vise dimensjoner fra bokførte poster</span><span class="sxs-lookup"><span data-stu-id="c568b-119">Showing Dimensions from Posted Entries</span></span>  
- <span data-ttu-id="c568b-120">Du kan vise dimensjoner fra bokførte poster, for eksempel følgeseddellinjer.</span><span class="sxs-lookup"><span data-stu-id="c568b-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
+## <a name="showing-dimensions-from-posted-entries"></a><span data-ttu-id="b8b23-119">Vise dimensjoner fra bokførte poster</span><span class="sxs-lookup"><span data-stu-id="b8b23-119">Showing Dimensions from Posted Entries</span></span>  
+ <span data-ttu-id="b8b23-120">Du kan vise dimensjoner fra bokførte poster, for eksempel følgeseddellinjer.</span><span class="sxs-lookup"><span data-stu-id="b8b23-120">You can show dimensions from posted entries, such as sales shipment lines.</span></span>  
 
- <span data-ttu-id="c568b-121">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="c568b-121">**Earlier Versions**</span></span>  
+ <span data-ttu-id="b8b23-121">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="b8b23-121">**Earlier Versions**</span></span>  
 
 ```  
 Table 111, function ShowDimensions:  
@@ -136,10 +136,10 @@ DimSetEntry.ShowDimensionSet(
   "Dimension ID");  
 ```  
 
-## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="c568b-122">Hente standarddimensjoner for et dokument</span><span class="sxs-lookup"><span data-stu-id="c568b-122">Getting Default Dimensions for a Document</span></span>  
- <span data-ttu-id="c568b-123">Du kan hente standarddimensjoner for et dokument, for eksempel en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="c568b-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
+## <a name="getting-default-dimensions-for-a-document"></a><span data-ttu-id="b8b23-122">Hente standarddimensjoner for et dokument</span><span class="sxs-lookup"><span data-stu-id="b8b23-122">Getting Default Dimensions for a Document</span></span>  
+ <span data-ttu-id="b8b23-123">Du kan hente standarddimensjoner for et dokument, for eksempel en ordrelinje.</span><span class="sxs-lookup"><span data-stu-id="b8b23-123">You can get default dimensions for a document, such as a sales order line.</span></span>  
 
- <span data-ttu-id="c568b-124">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="c568b-124">**Earlier Versions**</span></span>  
+ <span data-ttu-id="b8b23-124">**Tidligere versjoner**</span><span class="sxs-lookup"><span data-stu-id="b8b23-124">**Earlier Versions**</span></span>  
 
 ```  
 Table 37, function CreateDim()  
@@ -194,6 +194,6 @@ GetSalesHeader;
 
 ```  
 
-## <a name="see-also"></a><span data-ttu-id="c568b-125">Se også</span><span class="sxs-lookup"><span data-stu-id="c568b-125">See Also</span></span>  
-<span data-ttu-id="c568b-126">[Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="c568b-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
-[<span data-ttu-id="c568b-127">Designdetaljer: Tabellstruktur</span><span class="sxs-lookup"><span data-stu-id="c568b-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   
+## <a name="see-also"></a><span data-ttu-id="b8b23-125">Se også</span><span class="sxs-lookup"><span data-stu-id="b8b23-125">See Also</span></span>  
+<span data-ttu-id="b8b23-126">[Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md) </span><span class="sxs-lookup"><span data-stu-id="b8b23-126">[Design Details: Dimension Set Entries](design-details-dimension-set-entries.md) </span></span>  
+[<span data-ttu-id="b8b23-127">Designdetaljer: Tabellstruktur</span><span class="sxs-lookup"><span data-stu-id="b8b23-127">Design Details: Table Structure</span></span>](design-details-table-structure.md)   

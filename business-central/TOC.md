@@ -18,35 +18,39 @@
 
 # Arbeide med Business Central
 ## [Oversikt](ui-work-product.md)
-## [Finne funksjoner og informasjon](ui-search.md)
+## [Finne sider og informasjon med Fortell meg](ui-search.md)
+## [Finne sider fra en funksjonsoversikt](ui-role-explorer.md)
 ## [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
-## [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)
+## [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)
 ## [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)
 ## [Skrive inn data](ui-enter-data.md)
+## [Vanlige spørsmål om kopiere og lime inn](ui-copy-paste.md)
 ## [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)
-## [Kopiere og lime inn](ui-copy-paste.md)
 ## [Registrere obligatoriske felt](ui-mandatory-fields.md)
 ## [Endre språk og nasjonal innstilling](about-locale-language.md)
 ## [Vise og redigere i Excel](across-work-with-excel.md)  
-## [Behandle varsler](ui-smart-notifications.md)
+## [Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md)
 ## [Endre grunnleggende innstillinger](ui-change-basic-settings.md)
+## [Behandle varsler](ui-smart-notifications.md)
 ## Tilpasse Business Central
 ### [Tilpasse arbeidsområdet](ui-personalization-user.md)
 ### [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md)
+### [Lagre og tilpasse listevisninger](ui-views.md)
+### [Legge til en sidehandling i rollesenteret](ui-bookmarks.md)
 ### [Vise lister på ulike måter](across-display-lists-different-views.md)
-## Skrive ut rapporter og kjøre kjørsler
-### [Arbeide med rapporter og kjørsler](ui-work-report.md)
+## Skrive ut rapporter og kjøre satsvise jobber og XML-porter
+### [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)
 ### [Angi skrivervalg for rapporter](ui-specify-printer-selection-reports.md)
-### [Planlegge en rapport eller satsvis jobb for kjøring](ui-work-report.md#ScheduleReport)
-### [Administrere lagrede innstillinger i rapporter](reports-saving-reusing-settings.md)
+### [Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport)
+### [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md)
 ### [Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md)
-### [Kjøre kjørsler](ui-how-run-batch-jobs.md)
-## Endre utseendet på dokumenter
+### [Kjøre satsvise jobber og XML-porter](ui-how-run-batch-jobs.md)
+## Endre hvordan eksternt dokumenter og rapporter ser ut
 ### [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)
 ### [Oppdatere rapport- og dokumentoppsett](ui-update-report-layouts.md)
 ### [Gjøre endringer i Word-rapportoppsett](ui-how-create-custom-report-layout.md)
 ### [Importere og eksportere en rapport eller et dokumentoppsett](ui-how-import-and-export-report-layout.md)
-### [Endre gjeldende oppsett som skal brukes i en rapport](ui-how-change-layout-currently-used-report.md)
+### [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)
 ### [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md)
 ## Bruke hurtigtaster
 ### [Tilgjengelighet og hurtigtaster](ui-accessibility.md)
@@ -229,10 +233,9 @@
 ## [Arkivere dokumenter](across-how-to-archive-documents.md)
 ## [Legge til utvidet varetekst](ui-how-define-ext-text.md)
 ## [Definere brukeroppgaver](across-user-tasks.md)
-## [Legge til koblinger i webområder, dokumenter eller programmer i poster](ui-how-add-link-to-record.md)
-## [Legge ved filer i kort og dokumenter](across-attach-document-master-data.md)
 ## [Eksportere forretningsdataene til Excel](about-export-data.md)
 ## [Bokføre dokumenter og kladder](ui-post-documents-journals.md)
+## [Bokføre flere dokumenter samtidig](ui-batch-posting.md)
 ## [Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)
 ## [Redigere bokførte dokumenter](across-edit-posted-document.md)
 ## [Arbeide med finanskladder](ui-work-general-journals.md)
@@ -304,8 +307,8 @@
 
 # Administrasjon
 ## [Oversikt](admin-setup-and-administration.md)
-## [Forstå brukere, roller og profiler](admin-users-profiles-roles.md)
 ## [Administrere brukere og tillatelser](ui-how-users-permissions.md)
+## [Administrere profiler](admin-users-profiles-roles.md)
 ## [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md)
 ## [Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)
 ## [Opprette nye seleskaper](about-new-company.md)
@@ -318,17 +321,11 @@
 ## [Utvide prøveversjonen](admin-extend-trial.md)
 ## [Kontrollere sider](across-inspect-page.md)
 ## [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md)
-## Integrere med Dynamics 365 for Sales
-### [Oversikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Sette opp brukerkontoer for integrasjon med Dynamics 365 for Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Tilkoblingsoppsett for Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkronisere Business Central og Dynamics 365 for Sales](admin-synchronizing-business-central-and-sales.md)
-### [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
-### [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)
-### [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Feilsøke synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
 ## Tilpasse Business Central
 ### [Oversikt](ui-customizing-overview.md)
+### [Tilpasse sider for profiler](ui-personalization-manage.md)
+### [Endre hvilke funksjoner som vises](ui-experiences.md)
+### [Definere en farget indikator for bunke-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
 ### Tilpasse ved hjelp av utvidelser
 #### [Oversikt](ui-extensions.md)
 #### [Tilpasse ved hjelp av utvidelser](ui-extensions.md)
@@ -354,9 +351,15 @@
 #### [Storbritannia – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
-### [Endre hvilke funksjoner som vises](ui-experiences.md)
-### [Administrere tilpasning som Administrator](ui-personalization-manage.md)
-### [Definere en farget indikator for bunke-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
+## Integrere med Dynamics 365 Sales.
+### [Oversikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
+### [Konfigurere en Dynamics 365 Sales-tilkobling](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkronisere Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+### [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)
+### [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Feilsøke synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
 
 # Finans
 ## [Oversikt](finance.md)
@@ -470,7 +473,7 @@
 ## [Arbeide med dimensjoner](finance-dimensions.md)
 ## [Opprette finansbudsjetter](finance-how-create-budgets.md)
 ## [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)
-## [Tilbakeføre bokføringer](finance-how-reverse-journal-posting.md)
+## [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
 ## [Fordele kostnader og inntekter](year-allocate-costs-income.md)
 ## [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)
 ## [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
@@ -592,7 +595,6 @@
 ### [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md)
 ### [Opprette salgsmuligheter](marketing-how-create-opportunities.md)
 ### [Spore utveksling av e-postmeldinger](marketing-set-up-email-logging.md)
-
 ### [Behandle salgsmuligheter](marketing-processing-sales-opportunities.md)
 ### [Konfig. loggføring av e-post](marketing-set-up-email-logging.md)
 ## [Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
@@ -839,7 +841,6 @@
 #### [Skrive ut testrapporter for leveringspåminnelser](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
 ### Generelt
 #### [Skrive ut informasjon om finansoppsett](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
-#### [Skrive ut ordrer og bestillinger under massebokføring](LocalFunctionality/Austria/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Belgia
 ### [Oversikt](LocalFunctionality/Belgium/belgium-local-functionality.md)
@@ -1022,7 +1023,6 @@
 #### [Valutakurser](LocalFunctionality/Germany/currency-exchange-rates.md)
 #### [EU-salgsliste i Tyskland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 #### [Ta med selskapsregistreringsnumre på salgsrapporter og kjøpsrapporter](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
-#### [Skrive ut ordrer og bestillinger under massebokføring](LocalFunctionality/Germany/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 #### [Skrive ut informasjon om finansoppsett](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 #### [Sertifisering av Business Central for tysk marked (dokumenter er på tysk)](https://go.microsoft.com/fwlink/?linkid=875256)
 
@@ -1074,7 +1074,6 @@
 #### [Konfigurere firmainformasjon](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 #### [Italiensk underleveranse](LocalFunctionality/Italy/italian-subcontracting.md)
 #### [Definere kladdemaler og kladder](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
-#### [Rapportere handel med kunder og leverandører i svartelistede land og regioner](LocalFunctionality/Italy/how-to-report-trade-with-customers-and-vendors-in-blacklist-countries-regions.md)  
 
 ## Mexico
 ### [Oversikt](LocalFunctionality/Mexico/mexico-local-functionality.md)
@@ -1168,6 +1167,7 @@
 ## Norge
 ### [Oversikt](LocalFunctionality/Norway/norway-local-functionality.md)
 ### Merverdiavgift
+#### [Administrere SAF-T (norsk standard revisjonsfil – avgift)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 #### [Norsk mva-rapportering](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 #### [Norske mva-koder](LocalFunctionality/Norway/norwegian-vat-codes.md)  
 #### [Bruke én mva-kode i kladder](LocalFunctionality/Norway/how-to-use-one-vat-code-in-journals.md)
@@ -1378,7 +1378,6 @@
 ### Generelt    
 #### [Importere sveitsisk postnumre](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 #### [Sveitsiske kjøpsdokumenter og ordrer](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
-#### [Skrive ut ordrer og bestillinger under massebokføring](LocalFunctionality/Switzerland/how-to-print-sales-and-purchase-orders-during-batch-posting.md)
 
 ## Storbritannia
 ### [Oversikt](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
