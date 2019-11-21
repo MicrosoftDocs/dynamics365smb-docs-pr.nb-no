@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3d9d602690b8d4ca7714b328759a705204c740ee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898548bd33bbc9a5a7ae7400c626bf7a7820bfd4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306055"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554137"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
 På siden **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
@@ -61,7 +61,7 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 ## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Slik bruker du en vareutligning på nytt med utligningsforslaget  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Siden **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
-3.  Hvis du vil utligne poster som ble fjernet siden forslaget ble åpnet, på nytt, velger du varepost du vil utligne på nytt. I fanebladet **Handlinger**, under **Funksjoner** velger du **Utligne på nytt**.  
+3.  Hvis du vil utligne poster som ble fjernet siden forslaget ble åpnet, på nytt, velger du varepost du vil utligne på nytt, og velg deretter handlingen **Utligne på nytt**.  
 
     > [!NOTE]  
     >  Denne nye utligningen mot den opprinnelige balansen skjer automatisk når du lukker siden **Utligningsforslag**.  

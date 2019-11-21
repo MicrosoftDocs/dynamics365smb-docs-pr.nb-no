@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 11/11/2019
 ms.author: sgroespe
-ms.openlocfilehash: f4bf8e694a7b034eb601c3bf39bd420ff61ab73a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf7ef0013cac921ec7ab7b1fa505a9c2f0852a33
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309319"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798574"
 ---
 # <a name="create-contacts"></a>Opprette kontakter
 Du møter regelmessig personer fra andre selskaper som kan utvikle seg til forretningsforhold, for eksempel en kunderelasjon. Når du får en ny kontakt, må så mye informasjon som mulig registreres på et kontaktkort, slik at kommunikasjonen kan opprettholdes.
@@ -32,7 +32,7 @@ Du kan opprette en kontakt som en person eller et selskap, vanligvis avhengig av
 Funksjonaliteten er den samme for begge typer, bortsett fra at alternativene for tilleggsinformasjon endres avhengig av typen. Du kan for eksempel bare tilordne ansvarsområder til en person og bransjegruppe til et selskap. Dette angis i grensesnittet ved å grå ut feltene og handlingene som ikke gjelder. Du kan endre verdien for **Type**-feltet senere, eller du kan bruke feltene på **Arv**-hurtigfanen på **Markedsføringsoppsett**-siden til å styre hvilke data som deles mellom en person og personens relaterte selskap. Hvis du vil ha mer informasjon, kan du se [Konfigurere kontakter](marketing-setup-contacts.md).
 
 ## <a name="to-create-a-contact-manually"></a>Slik oppretter du en kontakt manuelt
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I **Nr.** -feltet angir du et nummer på kontakten.
 
@@ -101,7 +101,7 @@ Synkronisering av vanlige data mellom kontakter og de relaterte kundene, leveran
 * Når du knytter kontakter til eksisterende kunder, leverandører eller bankkonti fra kontaktkortet. Se [Slik knytter du en kontakt til en eksisterende kunde, leverandør eller bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-or-bank-account).
 
 ## <a name="to-view-which-customer-vendor-or-bank-account-a-contact-is-related-to"></a>Slik viser du hvilken kunde, leverandør eller bankkonto en kontakt er relatert til
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg linjen for en kontakt, valg handlingen **Relatert informasjon**, og velg deretter **Kunde-/leverandør-/bankkonto**.
 
 Siden for det relaterte kortet åpnes.

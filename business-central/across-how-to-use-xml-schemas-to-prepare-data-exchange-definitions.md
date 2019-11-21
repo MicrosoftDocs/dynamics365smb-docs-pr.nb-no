@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b00ed408bcdc5b98a7c23a8083109b140db175ae
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305119"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554449"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
 Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket for datautveksling [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke XML-skjemaer til å definere hvilke dataelementer du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette på siden **Visningsprogram for XML-skjema** ved å laste inn XML-skjemafilen, velge de aktuelle dataelementene og deretter initialisere en datautvekslingsdefinisjon eller en XMLport.  
@@ -40,9 +40,9 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 1.  Kontroller at den aktuelle XML-skjemafilen er tilgjengelig. Filtypen er XSD.  
 
-2.  Skriv inn **XML-skjemaer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
-3.  I fanen **Hjem** under **Ny** velger du **Ny**.  
+3.  Velg handlingen **Ny**.  
 
 4.  Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -53,7 +53,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
      Feltet **Målnavneområde** angir eventuelle navneområder i XML-skjemafilen som er lastet inn for linjen.  
 
-5.  Velg **Last inn skjema** under **Prosess** i fanebladet **Hjem**, og velg deretter XML-skjemafilen.  
+5.  Velg **Last inn skjema**-handlingen, og velg deretter XML-skjemafilen.  
 
      Når filen er lastet inn, fylles resten av feltene på linjen med informasjon fra filen, og det merkes av for **Skjemaet er lastet inn**.  
 
@@ -62,7 +62,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Slik velger eller fjerner du noder i et XML-skjema:  
 
-1.  Skriv inn **Visningsprogram for XML-skjema** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Visningsprogram for XML-skjema**, og velg deretter den relaterte koblingen.  
 
 2.  Fyll ut feltene i hodet som beskrevet i tabellen nedenfor.  
 
@@ -77,7 +77,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
      Du kan også høyreklikke en node, og deretter velge **Vis alle**.  
 
-4.  I kategorien **Hjem** i **Vis**-gruppen velger du én av følgende handlinger for å endre hvilke noder som skal vises.  
+4.  Velg én av følgende handlinger for å endre hvilke noder som skal vises.  
 
     |**Handling**|Beskrivelse|  
     |----------------|---------------------------------------|  
@@ -85,7 +85,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
     |**Skjul ikke-obligatorisk**|Det vises bare noder som representerer elementer som er nødvendig i henhold til XML-skjemaet. Disse nodene er vanligvis angitt med **1** i feltet **MinOccurs**.<br /><br /> Velg **Vis alle** for å reversere visningen.|  
     |**Skjul ikke-valgt**|Det vises bare noder der det er merket av for **Valgt**.<br /><br /> Velg **Vis alle** for å reversere visningen.|  
 
-5.  I fanen **Hjem** under **Behandle** velger du **Rediger**.  
+5.  Velg handlingen **Rediger**.  
 
 6.  I avmerkingsboksen **Valgt** angir du for hver node om du vil at elementet skal støttes i datautvekslingsdefinisjonen for den relaterte SEPA-bankfilen.  
 
@@ -100,13 +100,13 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
 
-1.  Skriv inn **XML-skjemaer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
-2.  Velg det aktuelle XML-skjemaet, og velg deretter **Åpne XML-skjemavisning** under **Prosess** i fanebladet **Hjem**.  
+2.  Velg det relevante XML-skjemaet, og velg deretter handlingen **Åpne XML-skjemavisning**.  
 
 3.  Kontroller at de aktuelle nodene er valgt. Hvis du vil ha mer informasjon, kan du se avsnittet "Slik velger eller fjerner du noder i et XML-skjema".  
 
-4.  På siden **Visningsprogram for XML-skjema**, på **Hjem**-fanen, i **Prosess**-gruppen velger du **Generer datautvekslingsdefinisjon**.  
+4.  På siden **Visningsprogram for XML-skjema** velger du handlingen **Generer datautvekslingsdefinisjon**.  
 
  En datautvekslingsdefinisjon opprettes på siden **Definisjoner av bokføringsutveksling**, som du kan fullføre ved å angi hvilke elementer som er tilordnet hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 
@@ -115,15 +115,15 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Slik genererer du en XMLport som er basert på et XML-skjema  
 
-1.  Skriv inn **XML-skjemaer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
-2.  Velg det aktuelle XML-skjemaet, og velg deretter **Åpne XML-skjemavisning** under **Prosess** i fanebladet **Hjem**.  
+2.  Velg det relevante XML-skjemaet, og velg deretter handlingen **Åpne XML-skjemavisning**.  
 
 3.  I feltet **Ny XMLport nr.** angir du nummeret som det nye XMLport-objektet blir gitt når det genereres.  
 
 4.  Kontroller at de aktuelle nodene er valgt. Hvis du vil ha mer informasjon, kan du se avsnittet "Slik velger eller fjerner du noder i et XML-skjema".  
 
-5.  I kategorien **Hjem** i **Prosess**-gruppen velger du **Generer XMLport**, og deretter lagrer du objektet som en TXT-fil på ønsket plassering.  
+5.  Velg **Generer XMLport**-handlingen, og lagre deretter objektet som en .txt-fil i en passende plassering.  
 
 6. Importer den nye XMLport i [!INCLUDE[d365fin](includes/d365fin_md.md)]-utviklingsmiljøet, og kompiler den.
 

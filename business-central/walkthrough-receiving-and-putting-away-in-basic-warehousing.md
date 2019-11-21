@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 597f14f07f7e8ac690dce8a5473d01ec68d1669a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314748"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554647"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
 
@@ -126,7 +126,7 @@ På siden **Lagerplassering** kan du håndtere alle inngående lageraktiviteter 
 3.  Velg feltet **Kildedokument**, og velg deretter **Bestilling**.  
 4.  Velg feltet **Kildenr.**, velg linjen for kjøp fra leverandør 10000, og velg deretter **OK**-knappen.  
 
-    På fanebladet **Handlinger** i gruppen **Funksjoner** velger du eventuelt **Hent kildedokument**, og deretter velger du bestillingen.  
+    Velg eventuelt **Hent kildedokument**-handlingen, og velg deretter bestillingen.  
 
 5.  Velg handlingen **Autoutfyll ant som skal håndt**.  
 

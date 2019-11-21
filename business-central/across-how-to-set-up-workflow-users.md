@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ee8080689c948daa14d05e8b970de63da749746e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88919a3665aff5f9d9ae7a6ead1fa19581119977
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305215"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775406"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
 Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i arbeidsflyter. Det er for eksempel nødvendig å angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn.  
@@ -32,7 +32,7 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 
 ### <a name="to-set-up-a-workflow-user"></a>Slik konfigurerer du en arbeidsflytbrukere  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Brukergrupper for arbeidsflyt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper for arbeidsflyt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Brukergruppe for arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
 4. I **Beskrivelse**-feltet beskriver du arbeidsflyten.  
@@ -40,7 +40,7 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
-    |**Brukernavn**|Angi brukeren som skal inngå i arbeidsflyter.<br /><br /> Brukeren må finnes på siden **Brukeroppsett**. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).|  
+    |**Brukernavn**|Angi brukeren som skal inngå i arbeidsflyter.<br /><br /> Brukeren må finnes på siden **Brukeroppsett**. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).|  
     |**Sekvensnummer**|Angi rekkefølgen som arbeidsflytbrukeren deltar i en arbeidsflyt i forhold til andre brukere. Dette feltet kan for eksempel brukes til å angi når brukeren godkjenner i forhold til andre godkjennere når du bruker **Brukergruppe for arbeidsflyt**-alternativet i **Godkjennertype**-feltet på relaterte arbeidsflytsvar. **Tips!**  For å definere at en godkjenningsforespørsel ikke er godkjent før flere like godkjennere har godkjent den, uavhengig av et hierarki, kan du sette opp en flat brukergruppe for arbeidsflyt ved å tilordne samme sekvensnummeret til de aktuelle godkjennerne.|  
 6. Gjenta trinn 5 for å legge til flere arbeidsflytbrukere for brukergruppen.  
 7. Gjenta trinn 2 til 6 for å legge til flere brukergrupper for arbeidsflyt.  

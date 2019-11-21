@@ -12,15 +12,17 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 57a3acf17b91a8a2a8ffcbc8b070955086a80a0d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
+ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316743"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2577186"
 ---
 # <a name="set-up-purchasers"></a>Definere innkjøpere
 Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.

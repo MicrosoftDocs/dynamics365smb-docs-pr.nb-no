@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture
-ms.date: 10/01/2019
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 4cab6bd1ca01e6f4d66914cff8a3a026f8ecfc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300788"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692707"
 ---
 # <a name="changing-language-and-locale"></a>Endre språk og nasjonal innstilling
 
@@ -40,6 +40,10 @@ Du kan endre nasjonale innstillinger i webleserenkategorien som du bruker til å
 
 Hvis du vil endre nasjonal innstilling, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
+## <a name="application-version"></a>Programversjon
+
+På siden **Hjelp og støtte** kan du se versjonen av [!INCLUDE [prodshort](includes/prodshort.md)] som firmaet er basert på. Hvis du vil basere et selskap på en annen versjon, kan systemansvarlig opprette et nytt produksjonsmiljø. Hvis du vil ha mer informasjon, kan du se [Opprette et nytt produksjonsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i utvikler- og IT Pro-innholdet.  
+
 ## <a name="languages-of-the-included365finincludesd365fin_mdmd-help"></a>Språkene i Hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Innholdet i hjelpen for kjernefunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] publiseres til området Microsoft-dokumentasjon og er tilgjengelig på flere ulike språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[d365fin](includes/d365fin_md.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den i norsk.
 
@@ -49,6 +53,8 @@ Det er enkelt - bla nederst på weblesersiden, og velg verden symbolet nederst t
 > [!NOTE]  
 > Oversikten viser alle språk som støttes av Microsoft-dokumentasjonsområdet. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall land/regioner, men hjelpeinnholdet gjøres tilgjengelig på flere språk. Innholdet i Hjelp er ikke tilgjengelige i alle språk som støttes av Microsoft Docs området.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
+[Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  

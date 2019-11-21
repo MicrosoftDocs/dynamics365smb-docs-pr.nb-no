@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 10/01/2019
+ms.date: 11/12/2019
 ms.author: SorenGP
-ms.openlocfilehash: bf81f57aad5178a7f875381b274e43cab50899ad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 36c5446a2297dd0208104d22a7d2fd96077b3590
+ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309869"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "2798404"
 ---
 # <a name="set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
 Du angir det generelle lageroppsettet på siden **Lageroppsett**.
@@ -25,6 +25,8 @@ Du angir det generelle lageroppsettet på siden **Lageroppsett**.
 ## <a name="to-set-up-general-inventory-information"></a>Slik definerer du generell informasjon om lagerbeholdning
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Lageroppsett** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+Hvis du vil ha mer informasjon om kostnadsfelt, **Automatisk kostbokføring** og **Bokf. av forventet kost i Finans**, se [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md) og [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md).
 
 Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret, på siden **Lageroppsett**, og for lokasjonen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 

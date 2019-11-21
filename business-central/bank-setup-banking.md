@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dbbc8ff96f381a5e52c67eac9dfe2c91ee17eb5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 083bb3784e21621f97161e65ff3cfa80ed0efc52
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303991"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692731"
 ---
 # <a name="setting-up-banking"></a>Konfigurere banktjenester
 Ved hjelp av bankkort kan du holde oversikt over alle bankkontiene, i hvilken som helst valuta. Når du her definert bankkontiene, kan du også bruke alternativet for utskrift av sjekker.
@@ -28,7 +28,7 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 | --- | --- |
 | Definere bankkort for hver av bankkontiene, slik at du kan holde oversikt over banktransaksjoner. |[Opprette bankkonti](bank-how-setup-bank-accounts.md) |
 | Konfigurer en ekstern tjeneste som lar deg importere bankkontoutdrag som bankfeeder for betalingsutligning og bankavstemming. |[Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md) |
-| Konfigurer en ekstern tjeneste som lar deg eksportere betalinger til banken for behandling og importere bankkontoutdrag som bankfiler for betalingsutligning og bankavstemming. |[Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-data-conversion-service.md) |
+| Konfigurer en ekstern tjeneste som lar deg eksportere betalinger til banken for behandling og importere bankkontoutdrag som bankfiler for betalingsutligning og bankavstemming. |[Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 ## <a name="see-also"></a>Se også
 [Håndtere bankkonti](bank-manage-bank-accounts.md)  

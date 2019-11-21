@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 10/21/2019
 ms.author: sgroespe
-ms.openlocfilehash: 84d58193fa7ee272b372403d63702348fbfb1f77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315279"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649791"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -33,7 +33,7 @@ Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i e
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne salgsordren som du vil legge til en fil i.
 3. Åpne fanen **Vedlegg** i faktaboksen.
 4. Velg verdien bak feltet **Dokumenter**, for eksempel 0.
@@ -47,14 +47,12 @@ Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst
 
 Følgende fremgangsmåte er basert på et varekort. Trinnene er lignende for alle andre støttede kort og dokumenter.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg varen du vil legge til en kobling fra, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I **Koblinger** velger du **+**-ikonet.
 4. I vinduet **Koblingsadresse** angir du koblingen.
 
-    - Hvis du vil koble til en fil på datamaskinen eller nettverket, angir du fullstendig bane og filnavn, for eksempel **C:\My Documents\invoice1.doc**.
-    - Hvis du vil koble til et webområde, angir du Internett-adressen (URL-adressen), for eksempel **www.microsoft.com**.
-    - Hvis du vil koble til et program, angir du en bestemt streng for å åpne programmet. For eksempel hvis du vil åpne Outlook med en ny, tom e-post til et bestemt alias, skriver du inn **mailto:testalias**.  
+    Koblingen må være en gyldig URL-adresse for Internett eller intranett.
 
 5. I **Beskrivelse**-feltet angir du informasjon om koblingen.  
 6. Velg **OK**-knappen.
@@ -69,7 +67,7 @@ Du kan skrive et notat på et dokument eller kort, for eksempel for å formidle 
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren du vil skrive en merknad på, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I delen **Merknader** velger du **+**-ikonet.
 4. I **Merknad**-feltet skriver du hva som helst, for eksempel "Dette er en hasteordre".

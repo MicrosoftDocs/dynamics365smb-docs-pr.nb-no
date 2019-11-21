@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
 ms.date: 10/01/2019
 ms.author: solsen
-ms.openlocfilehash: 095d8ba53bce25df66bcb8c5daa1e06479b68f0c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e78f5151694ce2fe5c37e6cfcc78ac69e5954dc1
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315303"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775598"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -49,7 +49,7 @@ Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte 
 Under **Selskapsinnstillinger** kan du vise og redigere informasjon om gjeldende firma, og mye av dette ble forhåndsutfylt hvis du fullførte det assisterte oppsettet **Konfigurer selskap** da du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil endre firmalogo, kontaktinformasjon, innstillinger for banken eller mva-informasjon, kan du gjøre det fra denne siden.    
 
 ## <a name="adding-users-and-permissions"></a>Legge til brukere og tillatelser
-Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brukere er opprettet i Office 365, kan de importeres til siden **Brukere** ved å velge handlingen **Hent brukere fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).  
+Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenteret for Office 365. For mer informasjon, se [Legge til brukere i Office 365 for bedrifter](https://support.office.com/en-us/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc). Når brukere er opprettet i Office 365, kan de importeres til siden **Brukere** ved å velge handlingen **Hent brukere fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Få hjelp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du verktøytips som kan hjelpe deg gjennom ulike forretningsprosesser. For hvert feltverktøytips trykker du på Ctrl+F1 eller velger koblingen **Lær mer** for å åpne hjelpen for den aktuelle siden. Spørsmålstegnet øverst i høyre hjørne henviser også til hjelpen for produktet.
@@ -60,6 +60,6 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Administrere brukere og tillatelser](ui-how-users-permissions.md)
+[Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

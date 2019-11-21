@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f1724f95652194e426a353b4ebb89c54ef384754
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9fdc5deab54647f5a4387b62862fd45bc36dd39
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310543"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554623"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
 
@@ -169,7 +169,7 @@ Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1100. H
 2.  Angi **2** i **Antall**-feltet på linjen for vare **1100**.  
 
     Rull for å se forskuddsfeltene. Feltet **Linjebeløp for forskudd eks. mva** inneholder nå **630**, og feltet **Fakturert forskuddsbeløp eks. mva.** inneholder **315**. Dette viser at det er et ytterligere forskuddsbetalingsbeløp som ennå ikke er fakturert.  
-3.  Hvis du vil bokføre en faktura for det ekstra forskuddsbetalingsbeløpet, velger du **Forskuddsbetaling** under **Bokføring** i fanebladet **Handlinger** og velger deretter **Bokfør forskuddsfaktura**.  
+3.  Hvis du vil bokføre en faktura for det ytterligere forskuddsbetalingsbeløpet, velger du handlingen **Bokfør forskuddsfaktura**.  
 
 ## <a name="applying-the-prepayments"></a>Utligne forskuddsbetalingene  
 Kunden betaler forskuddsbeløpet, og Magnus, som arbeider i regnskapsavdelingen, registrerer betalingen og utligner den mot forskuddsfakturaene.  

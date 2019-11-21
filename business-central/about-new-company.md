@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 10/01/2019
+ms.date: 11/01/2019
 ms.author: edupont
-ms.openlocfilehash: e22b93182627a5954b2aa2f1fb1fa4938d89be89
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
+ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300740"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2695122"
 ---
 # <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-I [!INCLUDE[d365fin](includes/d365fin_md.md)], beholdere for forretningsdataene som hører til en konsern eller juridisk enhet kalles et *selskap*. Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt - simpelthen til **Mine innstillinger** og bytte til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[d365fin](includes/d365fin_md.md)], beholdere for forretningsdataene som hører til en konsern eller juridisk enhet kalles et *selskap*. Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-## <a name="create-new-company"></a>Opprett nytt selskap
-Hvis du vil legge til et selskap til din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet i **Mine innstillinger**.  
+## <a name="creating-a-new-company"></a>Opprette et nytt selskap
+Hvis du vil legge til et selskap til din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
 
 Oppsettsveiviseren har tre maler:
 
@@ -39,6 +39,12 @@ Hvis du ønsker å begynne med et nytt selskap, må du velge **Produksjon - Bare
 >   Når du oppretter et nytt selskap, tar litt tid før du kan bruke det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Statusen for oppsettet på siden **Selskaper** viser når det nye selskapet er klart. Deretter du kan bytte til et nytt selskap ved hjelp av **Mine innstillinger**.  
 
 Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de er bare tilgjengelige under prøveperioden. Ta kontakt med din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for mer informasjon.  
+
+## <a name="copying-a-company"></a>Kopiere et selskap
+På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et annet selskap basert på innholdet i et eksisterende selskap. Dette er for eksempel nyttig når du vil teste et selskap uten å forstyrre produksjonsdata.
+
+> [!Important]
+> Denne funksjonen kan ikke brukes til å ta en sikkerhetskopi av et selskap. Å ta en sikkerhetskopi av selskapet begynner ved å eksportere databasen som en bacpac-fil. Hvis du vil ha mer informasjon, kan du se [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjelpen for utviklere og ITPro.
 
 ## <a name="company-setup"></a>Selskapsoppsett
 Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** automatisk og hjelper deg med å komme i gang. Du blir bedt om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Vi ber om opplysningene fordi de brukes som grunnlag for mange områder i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan definere senere manuelt.  

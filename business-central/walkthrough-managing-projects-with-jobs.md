@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c50646a8e1f56d95256271f64ecf7dfb4992e4ce
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314823"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554719"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
 
@@ -173,7 +173,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
     |1020|Utvikling|Konto|  
     |1090|Konsultasjon totalt|Til-sum|  
 
-3.  Hvis du vil vise at noen oppgaver er underkategorier av andre oppgaver, velger du **Rykk inn prosjektoppgaver** under **Funksjoner** i fanebladet **Handlinger**.  
+3.  Hvis du vil vise at noen oppgaver er underkategorier av andre oppgaver, velger du handlingen **Rykk inn prosjektoppgaver**.  
 
  En planleggingslinje kan være én av følgende typer:  
 
@@ -261,7 +261,7 @@ Linjene er nå bokført.
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
 5.  Velg **OK**-knappen for å opprette fakturaen, og velg deretter **OK**-knappen på bekreftelsessiden.  
 
- Når Marie har opprettet fakturaen, har hun tilgang til den fra **Salg og markedsføring** under **Ordrebehandling** og kan behandle den ytterligere.  
+ Etter at Marie har opprettet fakturaen, kan hun f.eks. få tilgang til den fra rollesenteret **Ordrebehandler**. 
 
 ### <a name="to-post-a-new-sales-invoice"></a>Slik bokfører du en ny salgsfaktura:  
 

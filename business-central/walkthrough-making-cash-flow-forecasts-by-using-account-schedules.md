@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 70f1e51a0cd2c1b6c90ca3d76013fb3a5f30f80e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 415cabbb859bfc49477f69b19ad4a4daf1137837
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314847"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554695"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
 Denne gjennomgangen beskriver hvordan du kan bruke kontoskjemaer til å lage kontantstrømprognoser. Kontoskjemaer utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I kontoskjemaer kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
@@ -61,7 +61,7 @@ Etter at et kontoskjemanavn er angitt, definerer Ken hver linje som vises i kont
 
 ### <a name="to-set-up-account-schedule-lines"></a>Definere kontoskjemalinjer  
 
-1.  Velg det nye kontoskjemanavnet for **Prognose** du har opprettet, på siden **Kontoskjemanavn**. I fanebladet **Hjem**, under **Prosess**, velger du **Rediger kontoskjema**.  
+1.  På siden **Kontoskjemanavn** velger du det nye **Prognose**-kontoskjemanavnet du opprettet, og deretter velger du handlingen **Rediger kontoskjema**.  
 2.  På siden **Kontoskjema** angir du hver linje nøyaktig, som vist i tabellen nedenfor.  
 
     > [!NOTE]  

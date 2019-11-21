@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 20e934c3556f408a48e595e6c5ef4f46809aa742
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 898167c1b76a757dc4b6b06f8df64eef3a3c2b59
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302719"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554257"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
@@ -105,7 +105,7 @@ Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første 
 
     Aktiver integrering med Finans ved å følge de neste trinnene. Kontroller først at Finans-integreringen deaktiveres for alle avskrivningstablåer, bokføre deretter åpningsposter og aktiver til slutt Finans-integrering.  
 4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
-5. Velg det aktuelle avskrivningstablået. I fanebladet **Hjem**, under **Behandle**, velger du **Rediger liste** for å åpne **Avskrivningstablåkort**-siden.
+5. Velg det aktuelle avskrivningstablåkortet, og velg deretter **Rediger**-handlingen for å åpne siden **Avskrivningstablåkort**.
 6. På hurtigfanen **Integrering** må du kontrollere at alle feltene er tomme ved å fjerne alle haker. Hvis du har mer enn ett avskrivningstablå, deaktiverer du integrasjon med Finans for hvert enkelt tablå.  
 7. Skriv inn følgende linjer for hvert aktivum i aktivakladden:
    * En linje med anskaffelseskosten.

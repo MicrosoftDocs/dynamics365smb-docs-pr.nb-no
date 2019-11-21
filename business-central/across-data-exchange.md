@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209516aff6195901f06705d2a2fb27d7144c4a0a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 700c0e8456185ffdf9c322f58b59337c8be44328
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300644"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692683"
 ---
 # <a name="exchanging-data-electronically"></a>Utveksle data elektronisk
 Du kan bruke rammeverket for datautveksling til å utveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med forretningspartnerne.
@@ -32,15 +32,15 @@ Hvis du for eksempel vil motta en faktura fra en leverandør som et elektronisk 
  Hvis du for eksempel vil motta en faktura som et elektronisk OCR-dokument, behandler du den når du mottar et elektronisk PEPPOL-dokument. Mottak og konvertering av elektroniske dokumenter fra OCR utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **OCR - faktura**.  
 
 ## <a name="bank-files"></a>Bankfiler  
- Filformatene for utveksling av bankdata med ERP-systemer varierer avhengig av leverandøren av filen og landet/regionen. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import og eksport av SEPA-bankfiler (Single Euro Payments Area) og en konverteringstjeneste for bankdata fra ekstern leverandør, AMC Consult. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
+Filformatene for utveksling av bankdata med ERP-systemer varierer avhengig av leverandøren av filen og landet eller regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import og eksport av SEPA-bankfiler (Single Euro Payments Area) og med utvidelsen AMC Banking 365 Fundamentals kan du koble til en konverteringstjeneste for bankdata fra ekstern leverandør, AMC Consult. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
 
-Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere konverteringstjenesten for bankdata til å utføre eksporten, representert av datautvekslingsdefinisjonen **Tjeneste for bankdatakonvertering – kredittoverføring**.  
+Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere utvidelsen AMC Banking 365 Fundamentals til å utføre eksporten, representert av datautvekslingsdefinisjonen **Konverteringstjeneste for bankdata – kredittoverføring**.  
 
 Hvis du vil eksportere instruksjoner for SEPA Direct Debit, velger du **Eksporter Direct Debit-fil**-knappen på **Direct Debit-oppkrevinger**-siden, og sender deretter til banken for automatisk å samle inn de aktuelle kundebetalingene. Du må først definere bankkontoer, kunder, direct debit-belastningsfullmakter og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA Direct Debit**.  
 
-Hvis du vil importere SEPA-bankkontoutdrag, kan du velge knappen Importer bankkontoutdrag på sidene **Betalingsavstemmingskladd** og **Bankkontoavstemming**, og deretter fortsette å bruke hver enkelt bankkontoutdragspost på betalinger eller bankkontoposter, manuelt eller automatisk. Du må først definere bankkontoer. Import og datakonvertering av SEPA-bankdata utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **SEPA CAMT**. Du kan eventuelt definere konverteringstjenesten for bankdata til å utføre importen, representert av datautvekslingsdefinisjonen **Tjeneste for bankdatakonvertering – bankkontoutdrag**.  
+Hvis du vil importere SEPA-bankkontoutdrag, kan du velge knappen Importer bankkontoutdrag på sidene **Betalingsavstemmingskladd** og **Bankkontoavstemming**, og deretter fortsette å bruke hver enkelt bankkontoutdragspost på betalinger eller bankkontoposter, manuelt eller automatisk. Du må først definere bankkontoer. Import og datakonvertering av SEPA-bankdata utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **SEPA CAMT**. Du kan eventuelt definere utvidelsen AMC Banking 365 Fundamentals til å utføre importen, representert av datautvekslingsdefinisjonen **Konverteringstjeneste for bankdata – bankkontoutdrag**.  
 
- De lokale versjonene av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter i tillegg diverse andre filformater for import/eksport av bankdata, lønnstransaksjoner og andre data. Hvis du vil ha mer informasjon, se hjelpen for "Lokal funksjonalitet" i ditt lands versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De lokale versjonene av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter i tillegg diverse andre filformater for import/eksport av bankdata, lønnstransaksjoner og andre data. Hvis du vil ha mer informasjon, se hjelpen for "Lokal funksjonalitet" i ditt lands versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="currency-exchange-rates"></a>Valutakurser  
 Du kan definere en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten som leverer oppdaterte valutakurser, er aktivert som en datautvekslingsdefinisjon. Tilsvarende er siden **Kort for oppsett for val.kursoppdatering** en komprimert visning av siden **Datautvekslingsdefinisjon** for den aktuelle datautvekslingsdefinisjonen.  

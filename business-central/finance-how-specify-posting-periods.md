@@ -13,12 +13,12 @@ ms.workload: na
 ms.search.keywords: user setup
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 14ffdb7d4be38949a31aebeb86e6312a5e3128aa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e51853d3378fe07680667f38bf729673da40a3c7
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306151"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767517"
 ---
 # <a name="specify-posting-periods"></a>Angi bokføringsperioder
 Bruk bokføringsperioder til å angi når brukere kan postere til finans.  
@@ -28,7 +28,7 @@ Bruk bokføringsperioder til å angi når brukere kan postere til finans.
 2. På siden **Finansoppsett** definerer du perioden ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til**.  
 
 > [!NOTE]  
->   Disse bokføringsperiodene gjelder for selskapet og for alle brukere. For å tillate unntak kan du definere forskjellige bokføringsperioder for bestemte brukere på siden **Brukeroppsett**. Disse bokføringsperiodene overstyrer innstillingene angitt på **Finansoppsett**-siden. Se [Slik definerer du tidsbegrensninger for brukere](ui-how-users-permissions.md#to-set-up-user-time-constraints) hvis du vil ha mer informasjon.
+>   Disse bokføringsperiodene gjelder for selskapet og for alle brukere. For å tillate unntak kan du definere forskjellige bokføringsperioder for bestemte brukere på siden **Brukeroppsett**. Disse bokføringsperiodene overstyrer innstillingene angitt på **Finansoppsett**-siden. Se [Slik definerer du tidsbegrensninger for brukere](ui-define-granular-permissions.md#to-set-up-user-time-constraints) hvis du vil ha mer informasjon.
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

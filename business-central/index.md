@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9f84e224afa474cffd6c2956bd9ebf24169ce105
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 41dfc2ceb2fffb8f4ebb0eea50025ea50e0a0418
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301442"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767565"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.
@@ -36,6 +36,7 @@ ms.locfileid: "2301442"
 [Samsvar](compliance/compliance-overview.md)  
 [Dokumentasjon for Dynamics 365](/dynamics365/)  
 [Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
+[Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)  
 [Dynamics 365 Business Central på Microsoft Learn](/learn/browse/?products=dynamics-business-central)  
 
 

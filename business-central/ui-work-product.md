@@ -8,19 +8,24 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 81ba616c55b364843a718e9b000bfee02a513ad1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fbac11fc220184a2906ceed1811c7f5b0b7676b5
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310639"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774774"
 ---
 # <a name="working-with-included365finincludesd365fin_mdmd"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
 Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
+
+> [!TIP]
+> Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
+>
+> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
 > [!NOTE]
 > Du kan bruke andre generelle funksjoner som er mer firmarelaterte, i tillegg til de generelle grensesnittfunksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Generelle forretningsfunksjoner](ui-across-business-areas.md).
@@ -30,7 +35,7 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 | Til | Se |
 | --- | --- |
 |Søk etter en bestemt side, rapport, handling, hjelpeemne eller partnerutvidelse. |[Finne sider og informasjon med Fortell meg](ui-search.md) |
-|Få en oversikt over sider for rollen og andre roller, og gå til sider.|[Finne sider fra en funksjonsoversikt](ui-role-explorer.md)|
+|Få en oversikt over sider for rollen og andre roller, og gå til sider.|[Finne sider med rolleutforskeren](ui-role-explorer.md)|
 | Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md) |
 |Lær de mange generelle funksjonene som du kan bruke til å skrive inn data raskt og enkelt.|[Skrive inn data](ui-enter-data.md)|
 |Lær hvordan du raskt kopierer og limer inn dataene inkludert ved hjelp av tastatursnarveier.|[Vanlige spørsmål for Kopiere og lime inn](ui-copy-paste.md)|

@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 8b1fd4a676d1efe508e6fd2dcb37a67b3c24cdb1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e0d2974c3f71d7bbcac46931208f1f492121f11c
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304351"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554353"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dynamics-365-sales"></a>Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales
 Du kan synkronisere [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] på planlagte intervaller ved å definere jobber i jobbkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster og [!INCLUDE[crm_md](includes/crm_md.md)]-poster som har blitt koblet sammen tidligere. Eller for poster som ikke allerede er koblet, avhengig av synkroniseringsretningen og regler, kan synkroniseringsjobbene opprette og koble nye poster i målsystemet. Det finnes flere synkroniseringsjobber som er tilgjengelige som standard. Du kan vise dem på siden **Poster i jobbkø**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 <!--
 > [!Note]
-> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.--> 
+> For the on-premeses version of [!INCLUDE[d365fin](includes/d365fin_md.md)], the synchronization jobs are run by codeunit **5339 Integration synch Job Runner**.-->
 
 ## <a name="synchronization-process"></a>Synkroniseringsprosess  
 Hver jobbkøpost for synkronisering bruker en bestemt integrasjonstabelltilordning som angir hvilken [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell og [!INCLUDE[crm_md](includes/crm_md.md)]-enhet som skal synkroniseres. Tabelltilordningene inneholder også enkelte innstillinger som bestemmer hvilke poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og [!INCLUDE[crm_md](includes/crm_md.md)]-enheten som skal synkroniseres.  
 
-For å kunne synkronisere data må [!INCLUDE[crm_md](includes/crm_md.md)]-enhetspostene være koblet til [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. For eksempel må en [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunde være koblet til en [!INCLUDE[crm_md](includes/crm_md.md)]-konto. Du kan konfigurere koblinger manuelt før du kjører synkroniseringsjobber eller la synkroniseringsjobbene sette opp koblinger automatisk. Følgende liste beskriver hvordan dataene blir synkronisert mellom [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] når du bruker jobbkøposter for synkronisering. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). 
+For å kunne synkronisere data må [!INCLUDE[crm_md](includes/crm_md.md)]-enhetspostene være koblet til [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster. For eksempel må en [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunde være koblet til en [!INCLUDE[crm_md](includes/crm_md.md)]-konto. Du kan konfigurere koblinger manuelt før du kjører synkroniseringsjobber eller la synkroniseringsjobbene sette opp koblinger automatisk. Følgende liste beskriver hvordan dataene blir synkronisert mellom [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)] når du bruker jobbkøposter for synkronisering. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md).
 
 -   Som standard synkroniseres bare poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] som er koblet til poster i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan endre tabelltilordningen mellom en [!INCLUDE[crm_md](includes/crm_md.md)]-enhet og en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell, slik at integrasjonssynkroniseringsjobbene oppretter nye poster i måldatabasen for hver post i kildedatabasen som ikke er koblet. De nye postene er også koblet til tilsvarende poster i kilden. Når du for eksempel synkroniserer kunder med [!INCLUDE[crm_md](includes/crm_md.md)]-konti, opprettes en ny postkonto for hver kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. De nye kontoene kobles automatisk til kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fordi synkronisering i dette tilfellet er toveis, opprettes og kobles en ny kunde for hver [!INCLUDE[crm_md](includes/crm_md.md)]-konto som ikke allerede er koblet.  
 
@@ -77,6 +77,3 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber.
 [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)  
 [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Om integrering av Dynamics 365 Business Central med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
-
-

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 16b3a3be096bc8d5391b7a14b56524191663ff56
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315879"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553845"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   
@@ -93,7 +93,7 @@ En kontraktresultatpost genereres når et kontrakttilbud konverteres til en serv
 ## <a name="viewing-statistics-for-posted-service-documents"></a>Vise servicestatistikk for bokførte dokumenter
 Ved hjelp av funksjonen for servicestatistikk kan du få en statistisk oversikt over innholdet i bokførte servicedokumenter, for eksempel en bokført følgeseddel, bokført faktura og bokført kreditnota.  
 
-Den statistiske informasjonen vises på statistikksiden for det tilhørende bokførte servicedokumentet. Du kan åpne den relevante statistikksiden fra dokumenter for bokførte servicefølgesedler, bokførte servicefakturaer eller bokførte servicekreditnotaer. Velg **Statistikk** under **Prosess** i fanebladet **Hjem** for hver av disse dokumenttypene. Velg for eksempel **Statistikk** under **Prosess** i fanebladet **Hjem** på siden **Bokførte servicefakturaer**.  
+Den statistiske informasjonen vises på statistikksiden for det tilhørende bokførte servicedokumentet. Du kan åpne den relevante statistikksiden fra dokumenter for bokførte servicefølgesedler, bokførte servicefakturaer eller bokførte servicekreditnotaer. For hvert av disse dokumenttypene velger du **Statistikk**-handlingen. Velg for eksempel **Statistikk**-handlingen på siden **Bokførte servicefakturaer**.  
 
 ### <a name="posted-service-shipment-statistics"></a>Statistikk for bokført servicefølgeseddel  
 Siden **Statistikk for servicefølgesedler** gir en oversikt over en bokført servicefølgeseddel. Dette omfatter informasjon om det fysiske innholdet i leveringen, for eksempel antall leverte varer, ressurstimer eller -kost samt vekt og volum for de leverte varene.  

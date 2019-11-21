@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: inventory, periods
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 64c47b78555e1364bbc0e1d4be97ed4910bca04a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1a88456e91b3398ac9cae1b64ebdd80644b5d0aa
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305845"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554041"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeide med lagerperioder
 Lagerperioder er tidsperioder som du kan bokføre lagerendringer i. En lagerperiode defineres av datoen den slutter på, eller sluttdatoen. En lagerperiode defineres av datoen den slutter på, eller sluttdatoen. Du kan ikke bokføre eventuelle nye verdier til lageret før sluttdatoen. Hvis du har åpne vareposter i en lukket periode, det vil si positivt antall som ennå ikke er utlignet mot utgående transaksjoner, kan du fortsatt utligne utgående antall mot disse postene, selv om perioden er lukket.  
 
-De følgende delene handler om hvordan du kan:  
+De følgende delene handler om hvordan du kan:
 
 * Opprett lagerperioder.  
 * Lukk lagerperioder.  
@@ -45,7 +45,7 @@ Du kan lukke en hvilken som helst lagerperiode gitt at følgende betingelser er 
 Dette betyr at alle utgående transaksjonsantall, for eksempel de fra ordrer, utgående overføringer, salgsfakturaer, bestillingsreturer eller kjøpskreditnotaer, må utlignes mot eksisterende antall på lageret.  
 
 ### <a name="to-close-an-inventory-period"></a>Slik lukker du en lagerperiode:  
-1. Før du lukker en lagerperiode, kjører du den satsvise jobben **Juster kostverdi – vareposter** for å sikre at alle kostjusteringer er bokført. I fanebladet **Handlinger**, under **Funksjoner** velger du **Juster kostverdi - vareposter**.  
+1. Før du lukker en lagerperiode, velger du handlingen **Juster kostverdi – vareposter** for å sikre at alle kostjusteringer er bokført.
 
      Kjør rapporten **Lukk lagerperiode - test** for å fastslå om det er noen åpne utgående vareposter i lagerperioden eller varer som kost ikke er justert for ennå.  
 2. Velg **Lukk lagerperiode - test**.  

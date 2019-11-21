@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4b6626f13e04e3014df3c792e5ace05575b430c4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314704"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553895"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i avansert lageroppsett
 
@@ -136,7 +136,7 @@ På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermotta
 
 ### <a name="to-put-the-items-away"></a>Slik plasserer du varene  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lagerplasseringer**, og velg deretter den relaterte koblingen.  
-2.  Velg det eneste lagerplasseringsdokumentet i listen, og deretter i fanebladet **Hjem**, i gruppen **Behandle**, velger du **Rediger**.  
+2.  Velg det eneste lagerplasseringsdokumentet i listen, og deretter **Rediger**-handlingen.  
 
     Lagerplasseringsdokumentet åpnes med totalt åtte Hent- eller Plasser-linjer for de fire bestillingslinjene.
 

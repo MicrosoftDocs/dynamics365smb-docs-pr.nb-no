@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d3c72cf638e196d3b39287fef577c8293332aec
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310567"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554671"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
 
@@ -60,15 +60,12 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 
 ## <a name="using-the-order-planning-page"></a>Bruke siden Ordreplanlegging  
 
-<!--
-The **Order Planning** page can be accessed from several different locations on the **Departments** menu in the navigation pane:  
+Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:  
 
--   Manufacturing, Planning  
--   Sales & Marketing, Order Processing  
--   Purchase, Planning  
--   In addition, you can open this page for a specific production order by choosing **Planning** on the **Navigate** tab in the **Order** group.
-
--->  
+-   Produksjon, Planlegging  
+-   Salg og markedsføring, Ordrebehandling  
+-   Kjøp, Planlegging  
+-   I tillegg kan du åpne denne siden for en bestemt produksjonsordre ved å velge **Planlegging**-handlingen.
 
 ### <a name="to-use-the-order-planning-page"></a>Slik bruker du siden Ordreplanlegging:  
 

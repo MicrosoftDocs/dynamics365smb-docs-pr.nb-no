@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7fe47c3ae0faed5fbb8ca1c60314c774abf8143a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 63702465c9e2e7646adb3b91af43939b09d120e5
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312727"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775526"
 ---
 # <a name="set-up-time-sheets"></a>Definere timelister
 Timelister i [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer tidsregistrering i ukentlige intervaller på sju dager. Du kan bruke dem til å spore tiden som brukes på prosjekter, og du kan bruke dem til å registrere enkel registrering av ressurstid. Før du kan bruke timelister, må du angi hvordan du vil at de skal settes opp og konfigureres.
@@ -42,7 +42,7 @@ Når du har definert timelister, kan du opprette timelister for ressurser, tilor
 
 ## <a name="to-assign-a-time-sheet-administrator"></a>Slik tilordner du en timelisteadministrator
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.  
-2. Legg til en ny bruker hvis brukerlisten ikke inkluderer personen som du vil skal være ansvarlig for timelisteregistrering. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).
+2. Legg til en ny bruker hvis brukerlisten ikke inkluderer personen som du vil skal være ansvarlig for timelisteregistrering. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 3. Velg en bruker som administrator for en timeliste, og merk deretter av for **Administrator for timeliste**  
 
 > [!TIP]  

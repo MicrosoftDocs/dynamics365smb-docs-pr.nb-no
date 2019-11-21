@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 459c3f9ff695fe4cbee2dd1cb23e3cc5b989f939
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310039"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775478"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
@@ -40,14 +40,14 @@ Hvis du vil bruke ADFS, må du angi hvilke lagerlokasjoner som bruker teknologie
 > [!NOTE]  
 >  Vi anbefaler at du ikke definerer et lager slik at det bruker ADFS hvis det også har et hyllekapasitetsprinsippet.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg den relaterte koblingen.
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2.  Velg et lager i oversikten der du vil aktivere ADFS, og velg deretter **Rediger**-handlingen.
 3. På siden **Lokasjonskort** merker du av for **Bruk ADFS**.  
 
 ## <a name="to-specify-an-item-to-use-adcs"></a>Slik angir du at en vare skal bruke ADFS:  
 Hver lagervare som du vil bruke med ADFS, må være tilordnet en ID-kode for å knytte den til varenummer. Du kan for eksempel bruke varens strekkode som ID-kode. En vare kan også ha flere ID-koder. Dette kan være nyttig hvis en vare er tilgjengelig i ulike enheter, for eksempel stykk og paller. I dette tilfellet tilordner du en ID-kode til hver.    
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg en vare fra oversikten som er del av ADFS-løsningen, og velg deretter **Rediger**-handlingen.
 3. På siden **Varekort** velger du handlingen **Identifikatorer**.
 4. På siden **Vare-IDer** velger du handlingen **Ny**.
@@ -60,9 +60,9 @@ Hver lagervare som du vil bruke med ADFS, må være tilordnet en ID-kode for å 
 8.  Hvis du vil gå gjennom informasjonen, velger du **ID-kode**-feltet for å åpne **Vare-IDer**-siden.
 
 ## <a name="to-add-an-adcs-user"></a>Slik legger du til en ADFS-bruker:  
-Du kan legge til enhver bruker som en bruker av et automatisk datafangstsystem (ADFS). Når du gjør dette, må brukeren også angi et passord. Du kan eventuelt også angi en forbindelse som identifiserer ADFS-brukeren som lageransatt. ADFS-brukerpassordet kan være forskjellig fra brukerens Windows-påloggingspassord. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og tillatelser](ui-how-users-permissions.md).
+Du kan legge til enhver bruker som en bruker av et automatisk datafangstsystem (ADFS). Når du gjør dette, må brukeren også angi et passord. Du kan eventuelt også angi en forbindelse som identifiserer ADFS-brukeren som lageransatt. ADFS-brukerpassordet kan være forskjellig fra brukerens Windows-påloggingspassord. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **ADFS-brukere**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **ADCS-brukere**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3.  Angi et navn for brukeren i **Navn**-feltet. Navnet kan ikke inneholde mer enn 20 tegn, inkludert mellomrom.  
 4.  Angi et passord i **Passord**-feltet. Passordet er maskert.  
@@ -82,7 +82,7 @@ Du bruker miniformer til å beskrive informasjonen du vil presentere på en hån
 Hvis du vil implementere eller endre funksjonaliteten for en Miniform-funksjon, må du opprette en ny kodeenhet eller endre en eksisterende for å utføre handlingen eller svaret som er nødvendig. Du kan finne ut mer om ADFS-funksjonalitet ved å kontrollere kodeenheter som 7705, som er håndteringskodeenheten for påloggingsfunksjonalitet. Kodeenhet 7705 viser hvordan en miniform av typen kort fungerer.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Slik oppretter du Miniform for ADFS:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniformer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniforms**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3.  I feltet **Kode** angir du en kode for miniformen. Angi eventuelt verdier i alle andre felt.  
 
@@ -103,7 +103,7 @@ Når du har opprettet en miniform, er de neste trinnene å opprette funksjoner o
 3.  Legg til C/AL-kode for funksjonen som er relevant for den miniformsspesifikke codeuniten, for å håndtere funksjonstasten.  
 
 ### <a name="to-customize-miniform-functions"></a>Slik tilpasser du Miniform-funksjoner:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniformer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniforms**, og velg deretter den relaterte koblingen.  
 2.  Velg en miniform fra listen, og velg deretter handlingen **Rediger**.  
 3.  Velg handlingen **Funksjoner**.  
 4.  Velg en kode som skal representere funksjonen du vil knytte til miniformen, i rullegardinlisten **Funksjonskode**. Du kan for eksempel velge ESC, som gjør at funksjonalitet knyttes til trykk på ESC-tasten.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3071577689c7f292b27aef72291d9bfdd36c473a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 067db27e9b0000d39af06e877193e241d05bc4cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305287"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554476"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkjenningsbrukere
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen. På siden **Brukeroppsett for godkjenning** angir du også beløpsgrenser for bestemte typer forespørsler og definerer stedfortredende godkjennere som godkjenningsforespørsler delegeres til når den opprinnelige godkjenneren er borte.  
@@ -49,10 +49,10 @@ Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du define
     |**Ubegrenset forespørselsgodkjenning**|Angi at brukeren i **Bruker-ID**-feltet kan godkjenne alle kjøpstilbud uavhengig av beløp.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense forespørsel**.|  
     |**Stedfortreder**|Velg bruker-ID-en til brukeren som må godkjenne forespørsler fra brukeren i **Bruker-ID**-feltet, hvis brukeren i **Godkjenner-ID** ikke er tilgjengelig. **Obs!** Stedfortrederen kan enten være brukeren i **Stedfortreder**-feltet, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Hvis du vil ha mer informasjon, kan du se [Bruke godkjenningsarbeidsflyter](across-how-use-approval-workflows.md).|  
     |**E-post**|Angi e-postadressen for brukeren i **Bruker-ID**-feltet.|  
-    |**Godkjenningsansvarlig**|Angi brukeren som har rettigheter til å fjerne blokkeringen av godkjenningsarbeidsflyter, for eksempel ved å delegere godkjenningsforespørsler til nye stedfortredere for godkjenning og slette forfalte godkjenningsforespørsler.|  
+    |**Godkjenningsansvarlig**|Angi brukeren som har rettigheter til å fjerne blokkeringen av godkjenningsarbeidsflyter, for eksempel ved å delegere godkjenningsforespørsler til nye stedfortredere for godkjenning og slette forfalte godkjenningsforespørsler.|
 
-    > [!NOTE]  
-    >  Virkemåten til **Godkjennergrensetype** gjelder bare for modulene der grensene kan defineres, nemlig salgs- og kjøpsgodkjenninger. Andre typer godkjenning der grensene ikke gjelder, fungerer alltid som beskrevet for alternativet **Direkte godkjenner**.  
+    > [!Note]
+    > Det er bare én person som kan være godkjenningsansvarlig.|  
 
 3. Hvis du vil teste brukeroppsettet for godkjenning, velger du **Test av brukeroppsett for godkjenning**.  
 4. Gjenta trinn 2 og 3 for alle brukerne som du vil definere som godkjenningsbrukere.  

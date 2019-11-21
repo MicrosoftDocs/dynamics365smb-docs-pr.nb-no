@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 54f2a90939a47cc34f7dbcea3509b5e0b0f2d598
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9f56e96b86fb7462799c9a9c655010ee2fb04381
+ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304375"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "2775310"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
 Selgerrollen regnes ofte som den mest synlige jobben i et konsern. Det kan imidlertid være nyttig for selgere å kunne se innover i konsernet, og se hva som skjer internt. Ved å integrere [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du gi selgerne innsikt ved at de kan se informasjon i [!INCLUDE[d365fin](includes/d365fin_md.md)] når de arbeider i [!INCLUDE[crm_md](includes/crm_md.md)]. For eksempel, når du forbereder et tilbud, kan det være nyttig å vite om du har tilstrekkelig lagerbeholdning til å oppfylle ordren. Hvis du vil ha mer informasjon, kan du se [Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
@@ -52,7 +52,7 @@ Som standard importerer assistert oppsettsveiledning for **Tilkoblingsoppsett fo
 * Systemansvarlig  
 * Løsningstilpasser  
 
-Hvis du vil ha mer informasjon, se [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Opprette brukere i Microsoft Dynamics 365 (online) og tilordne sikkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Administrere brukere og tillatelser](ui-how-users-permissions.md).  
+Hvis du vil ha mer informasjon, se [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md), [Opprette brukere i Microsoft Dynamics 365 (online) og tilordne sikkerhetsroller](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles) og [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 Denne kontoen brukes bare én gang under oppsettet. Når løsningen er importert til [!INCLUDE[d365fin](includes/d365fin_md.md)], er kontoen ikke lenger nødvendig. Integrasjonen fortsetter å bruke brukerkontoen som er opprettet spesielt for integrasjonen.
 

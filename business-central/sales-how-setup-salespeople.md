@@ -10,17 +10,19 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1809302d24a7921f06f1ca8532a4fb14291c166d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 59138242b77af3b71a7feab566e2c66513547fdb
+ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312055"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "2764507"
 ---
 # <a name="set-up-salespeople"></a>Definere selgere
 Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. Se for eksempel rapporten **Provisjon for selgere**. Det kan også hende at et selskap vil knytte en selger til hver kontakt.
 
 Når du har angitt en selger på siden **Selgere**, kan du velge selgeren i feltet **Selgerkode** i alle relevante poster, for eksempel finanskonto, kunde, leverandør, kontakter og kampanjekort. Deretter, når du bokfører eller oppretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer og så videre, overføres selgerkoden til postene.
+<br><br>  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE43Vhm)]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Definere selgerkoder
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere**, og velg deretter den relaterte koblingen.

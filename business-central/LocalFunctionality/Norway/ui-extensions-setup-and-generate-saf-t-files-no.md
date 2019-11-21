@@ -12,17 +12,14 @@ ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 36d91aea77b1d8ff9dc4030c7755cb01935b901c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eb423dbb1c755dc7d3360667ce1d083f7fc36d51
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301205"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692505"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
-
-> [!Note]
-> Denne funksjonen er for øyeblikket bare tilgjengelig for lokale versjoner av [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Vi planlegger å gi den ut for den elektroniske versjonen senere.
 
 Fra januar 2020 må selskaper i Norge rapportere finansdata og angi et sett med Standard revisjonsfiler – avgift (SAF-T) til de norske myndighetene på forespørsel. Med denne utvidelsen er det enkelt å sette opp, generere og eksportere Standard revisjonsfiler – avgift i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. De eksporterte SAF-T-filene vil automatisk bli komprimert som en zip-fil som er klar til å lastes opp av brukeren på webområdet til Skatteetaten, de norske skattemyndighetene.  
 

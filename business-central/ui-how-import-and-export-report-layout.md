@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 5daf54251048137ca7829ef00d2f65c890b22b12
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 493217e3f7607c4553d6c0ac6500f21f0ff712cc
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315231"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553821"
 ---
 # <a name="import-and-export-a-report-or-document-layout"></a>Importere og eksportere en rapport eller et dokumentoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -29,9 +29,9 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
-2.  Velg raden for rapporten som inneholder det egendefinerte rapportoppsettet du vil eksportere, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
+2.  Velg raden for rapporten som inneholder det egendefinerte rapportoppsettet du vil eksportere, og velg deretter handlingen **Egendefinerte oppsett**.  
 
-3.  På siden **Rapportoppsett** velger du rapportoppsettet du vil eksportere til en fil, og velger deretter **Eksporter oppsett** under **Prosess** i fanebladet **Hjem**.  
+3.  På siden **Rapportoppsett** velger du rapportoppsettet du vil eksportere til en fil, og velger deretter **Eksporter oppsett**.  
 
 4.  Velg **Lagre** i dialogboksen **Eksporter fil**, og lagre deretter filen et sted på datamaskinen eller nettverket.  
 
@@ -43,9 +43,9 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
-3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter **Egendefinerte oppsett** under **Process** i fanebladet **Hjem**.  
+3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter handlingen **Egendefinerte oppsett**.  
 
-4.  På siden **Rapportoppsett** velger du rapportoppsettet du vil importere filen til, og velger deretter **Importer oppsett** under **Prosess** i fanebladet **Hjem**.  
+4.  På siden **Rapportoppsett** velger du rapportoppsettet du vil impportere filen til, og velger deretter **Importer oppsett**.  
 
 5.  Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.  
 

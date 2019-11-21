@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5b153d68636e948a01a5ab2d514828710e413f3d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311647"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553773"
 ---
 # <a name="work-on-service-tasks"></a>Arbeide med serviceoppgaver
 Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.  
@@ -31,7 +31,7 @@ Hvis du vil spore endringer og få en grafisk fremstilling av servicevirksomhete
 2. Hvis du ønsker en oversikt over serviceoppgaver en bestemt ressurs eller ressursgruppe er tildelt til, fyller du ut feltet **Ressursfilter** eller **Ressursgruppefilter** og trykker Enter.  
 3. Hvis du ønsker en oversikt over serviceoppgaver med en bestemt responsdato, eller responsdato innen en bestemt tidsperiode, fyller du ut feltet **Responsdatofilter** og trykker Enter.  
 4. Hvis du ønsker en oversikt over serviceoppgaver med en bestemt tildelingsstatus eller reparasjonsstatus, fyller du ut feltet **Filter for tildelingsstatus** eller **Filter for repar.statuskode** og trykker Enter.  
-5. Velg serviceoppgaven du vil arbeide med. I fanebladet **Naviger**, under **Serviceoppgaver**, velger du **Arbeidsordre**. Siden **Arbeidsordre** åpnes.  
+5. Velg serviceoppgaven du vil arbeide med. Velg handlingen **Arbeidsordre**. Siden **Arbeidsordre** åpnes.  
 6. Registrer standardtekst, reservedeler, ressurstimer og kostnader etter behov med de tilsvarende alternativene i **Type**-feltet: <Blank>, **Vare**, **Ressurs** og **Kostnad**.  
 7. Velg den aktuelle statusen i **Reparasjonsstatus**-feltet.  
 
@@ -43,7 +43,7 @@ Når du utfører en service i en serviceordre, kan du spesifisere detaljer om br
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne serviceordren du vil registrere service for, og velg varelinjen.  
-3. Velg **Handlinger**, **Linje** og **Arbeidsordre**.  
+3. Velg handlingen **Abeidsordre**.  
 4. På linjene spesifiserer du brukte varer, påløpt kost og tidsbruk for service.  
 
    > [!NOTE]  

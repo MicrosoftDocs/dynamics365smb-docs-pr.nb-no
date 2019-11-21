@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9bf9de93ca218d00cc1db467c74e0af9942f21d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 93411d5469373a1084579b1235dcd2befdf921a8
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302839"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554281"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
 Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
@@ -51,7 +51,7 @@ Du kan utføre kjørselen **Beregn avskrivninger** én gang i måneden, eller et
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.  
 3. I feltet **Aktivabokf.type** velger du **Avskrivning**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for bokføring av avskrivning. Hvis du vil ha mer informasjon, kan du se [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
-5. I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.  
+5. Velg handlingen **Bokfør** for å bokføre kladden.  
 
 Hvis du har definert aktivafordelingsnøkler for å fordele beløp på ulike avdelinger eller prosjekter, vil beløpene fordeles under bokføringen. Hvis du vil ha mer informasjon, kan du se [Definere generell aktivainformasjon](fa-how-setup-general.md).  
 
@@ -62,7 +62,7 @@ Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning autom
 2. Opprett en innledende linje, og fyll ut feltene etter behov.
 3. I feltet **Aktivabokf.type** velger du **Fordeling**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for fordelingsbokføring.  
-5. I fanebladet **Hjem** velger du **Bokfør** for å bokføre kladden.  
+5. Velg handlingen **Bokfør** for å bokføre kladden.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruke duplikatoversikter til å forberede bokføring av flere avskrivningstablåer
 Når du fyller ut kladdelinjer som skal bokføres i et avskrivningstablå, kan du duplisere linjene i en separat kladd, slik at du kan bokføre dem i et annet avskrivningstablå. Hvis du vil ha mer informasjon, kan du se [Slik bokfører du poster i ulike avskrivningstablåer](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).

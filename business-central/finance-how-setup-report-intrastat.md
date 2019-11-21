@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: cdf0eb137984bbc1988677ca53991d75659c022a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ddcc935a6ae539ad82894d6153f7c7f4b6fdeb48
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302191"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554161"
 ---
-# <a name="how-to-set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
+# <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
 
 ## <a name="required-and-optional-setups"></a>Nødvendige og valgfrie oppsett
 Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må du konfigurere flere ting:  
 
-* **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering. 
+* **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
 * **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
 * **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
 * **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer.  
@@ -47,7 +47,7 @@ Du kan eksportere postene til en fil som du kan sende til Intrastat-myndighetene
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intrastatkladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opprett en mal for hvert Intrastat-skjema du bruker.  
-3. Hvis du vil opprette kladder, velger du **Naviger** og deretter **Kladder**.  
+3. Velg **Kladder**-handlingen for å opprette kladder.  
 4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opprett en mal for hvert Intrastat-skjema du bruker.  
 
 > [!Note]
@@ -76,7 +76,7 @@ I noen land, for eksempel Spania og Storbritannia, krever skattemyndighetene at 
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett - Intrastat**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Oppsett for Intrastat-sjekkliste**.
-3. På siden **Oppsett for Intrastat-sjekkliste** klikker du i **Feltnavn** for å velge felt i Intrastat-rapporten du vil gjøre obligatorisk. 
+3. På siden **Oppsett for Intrastat-sjekkliste** klikker du i **Feltnavn** for å velge felt i Intrastat-rapporten du vil gjøre obligatorisk.
 
 ## <a name="to-report-intrastat"></a>Slik rapporterer du Intrastat
 Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** for å være sikker på at at all informasjon i kladden er riktig. Obligatoriske felt du har angitt på siden **Oppsett for Intrastat-sjekkliste** som mangler verdier, vises i faktaboksen Feil og advarsler på siden **Intrastatkladd**. Du kan deretter ut skrie ut en Intrastat-rapport som et skjema eller opprette en fil som skal sendes til skattemyndighetene i landet/regionen.  
@@ -110,7 +110,7 @@ Du kan sende inn Intrastat-rapporten som en fil. Før du oppretter filen kan du 
 2. På siden **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
 3. Hvis du ikke allerede har gjort dette, fyller du ut kladden manuelt eller velger **Foreslå linjer**.  
 4. Velg handlingen **Opprett fil**.  
-5. Velg **OK** på kjørselssiden.  
+5. Velg **OK**-knappen på kjørselssiden.  
 6. Velg **Lagre**.  
 7. Bla til plasseringen der du vil lagre filen, skriv inn filnavnet, og velg deretter **Lagre**.
 

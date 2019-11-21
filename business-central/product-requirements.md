@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 10/01/2019
+ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 3a5fc25004ce7dd838369ff178b8d613fb984acd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
+ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313519"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2649767"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
@@ -33,9 +33,9 @@ Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefal
 **Enhetsstørrelse:** [!INCLUDE[d365fin](includes/d365fin_md.md)] støttes på smarttelefoner med en minste skjermstørrelse på 4" og nettbrett med en minste skjermstørrelse på 7".  
 
 ## <a name="outlook"></a>Outlook
-**Outlook-apper:** Hvis du vil bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] på nettet som bedriftsinnboks i Outlook, må du ha Outlook 2016 eller nyere, Outlook Web App, OWA for iPhone, OWA for iPad eller OWA for Android. Organisasjonen må også bruke Office 365. Du kan ikke bruke [!INCLUDE [prodshort](includes/prodshort.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt.  
-**Nettlesere:** Når du bruker [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook eller Outlook Web App (OWA), krever tillegget at datamaskinen kjører én av de oppførte støttede nettleserne som er oppført tidligere i denne artikkelen.  
-**Plattformer:** Når du bruker [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget for Outlook i OWA for iPhone, OWA for iPad og OWA for Android, krever tillegget at mobilenheten kjører én av de oppførte mobilenhetene som støttes for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+**Outlook-apper:** Hvis du vil bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] på nettet som bedriftsinnboks i Outlook, må du ha Outlook 2016 eller nyere, Outlook i en leser, Outlook for iPhone, Outlook for iPad eller Outlook for Android. Organisasjonen må også bruke Office 365. Du kan ikke bruke [!INCLUDE [prodshort](includes/prodshort.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt.  
+**Nettlesere:** Når du bruker [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook i en nettleser, krever tillegget at datamaskinen kjører én av de oppførte støttede nettleserne som er oppført tidligere i denne artikkelen.  
+**Plattformer:** Når du bruker [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget for Outlook i Outlook for iPhone, Outlook for iPad eller Outlook for Android, krever tillegget at mobilenheten kjører én av de oppførte mobilenhetene som støttes for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="excel"></a>Excel
 **Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[d365fin](includes/d365fin_md.md)], må du ha Excel 2016 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  

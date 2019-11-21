@@ -8,22 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2019
+ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: f0c021edd416daff4b40dee6f4a541b4e3e8bc32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
+ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309463"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "2774846"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
 
+Hvis du vil ha en oversikt over de mest populære hurtigtastene, se [Tastatursnarveier for (bare PC)](keyboard-shortcuts-cheatsheet.md).
+
 > [!TIP]
-> Hvis du vil ha en rask, utskriftsvennlig oversikt over de mest populære snarveiene for PC [-brukere, kan du se](keyboard-shortcuts-cheatsheet.md)hurtig taster (bare på PCen). Velg følgende bilde for en grafisk representasjon:
+> Hvis du vil ha en grafisk visning av de mest brukte snarveiene, velger du følgende bilde og laster ned PDF-filen.
 >
->[ ![For å laste ned for utskrift, høyreklikk og velg Lagre bilde som](media/bckeyboardmap-inline.png) ](media/bckeyboardmap.png#lightbox)
+> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
 
 ## <a name="overview"></a>Oversikt
 Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å navigere til ulike områder og elementer på en side. De støttes av de fleste nettlesere. Virkemåten kan imidlertid være forskjellig.
@@ -47,11 +49,11 @@ Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til fors
 |Alt+Skift+F2|Skift mellom **Detaljer** og **Vedlegg** i Faktaboks-ruten.|
 |Alt+O|Legg til et nytt notat for den valgte posten, selv om Faktaboks-ruten ikke er åpen.|
 |Alt+Q<br />(Ctrl+Tilvalg+Q)|Åpne **Fortell meg**-vinduet. Hvis du vil ha mer informasjon, se [Finne sider og informasjon med Fortell meg](ui-search.md).|
-|Alt+N |Åpne en side for å opprette en ny post. (Som ligner på å velge **Ny** og **+**-handlinger.)
-|Alt+Skift+N |Lukk en nylig opprettet side, og åpne en ny for å opprette en ny post.
+|Alt+N |Åpne en side for å opprette en ny post. (Som ligner på å velge **Ny** og **+**-handlinger.)|
+|Alt+Skift+N |Lukk en nylig opprettet side, og åpne en ny for å opprette en ny post. På samme måte vil Alt+F9 bokføre et dokument og opprette et nytt.|
 |Alt+T|Åpne siden **Innstillinger**.|
-|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit"). Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
-|Shift+F12|Åpne funksjonsoversikten. Se [Finne sider fra en funksjonoversikt](ui-role-explorer.md) hvis du vil ha mer informasjon.|
+|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knapp"). Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
+|Shift+F12|Åpne rolleutforskeren, en oversikt over funksjoner. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).|
 |Ctrl+Alt+Skift+C|Vise informasjon i selskapsmerket.|
 |Ctrl+Alt+F1|Åpne og lukk sideinspeksjonsruten. Sideinspeksjonsruten viser informasjon om siden, som den tilhørende kildetabellen, felt, filtre, utvidelser og mer.<br /><br />Hvis du vil ha mer informasjon, kan du se [Kontrollere sider](across-inspect-page.md).|
 |Ctrl+C |Kopier verdien til feltet. Hvis feltet er i fokus og du ikke har valgt tekst i feltet, kopierer dette hele verdien. Hvis du har valgt tekst i feltet, vil det kopiere bare merket tekst.|

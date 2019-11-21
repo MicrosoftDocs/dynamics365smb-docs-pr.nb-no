@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ce236dd274baa02cafac8bfdcb7f7cb1d08ce46
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310591"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553969"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -146,23 +146,23 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     |80001|PLUKK|W-01-0001|20|  
     |80005|PLUKK|W-01-0001|20|  
     |80011|PLUKK|W-01-0001|20|  
-    |80014|PICK|A-01-0001|20|  
-    |80203|PICK|A-01-0001|20|  
-    |80209|PICK|A-01-0001|20|  
+    |80014|PICK|W-01-0001|20|  
+    |80203|PLUKK|W-01-0001|20|  
+    |80209|PLUKK|W-01-0001|20|  
 
-4.  I fanebladet **Hjem**, under **Registrering**, velger du **Registrer** og deretter **Ja**.  
+4.  Velg **Registrer**-handlingen, og velg deretter **Ja**-knappen.  
 
     Deretter synkroniserer du nye lagerposter med lageret.  
 
 5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-siden åpnes.  
-6.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Beregn lagerjustering**.  
+6.  Velg **Beregn lagerjust.**-handlingen.  
 7.  På siden **Beregn lagerjust.** velger du **OK**-knappen.  
-8.  Velg **Bokfør** i gruppen **Funksjoner** i kategorien **Handlinger** på siden **Varekladd**, og klikk deretter på **Ja**-knappen.  
+8.  På siden **Varekladd** velger du **Bokfør**-handlingen, og deretter velger du **Ja**-knappen.  
 
 ### <a name="creating-the-assembly-items"></a>Opprette monteringsvarer  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
-2.  I fanebladet **Hjem**, under **Behandle**, velger du **Ny**.  
+2.  Velg handlingen **Ny**.  
 3.  Opprette den første monteringsvaren basert på følgende informasjon.  
 
     |Felt|Verdi|  
@@ -177,7 +177,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     > [!NOTE]  
     >  Sett A forsynes vanligvis av montering til lager og har derfor et gjenbestillingsprinsipp for å gjøre det til en del av den generelle forsyningsplanleggingen.  
 
-4.  I fanebladet **Naviger**, under **Montering/Produksjon**, velger du **Montering** og deretter **Monteringsstykkliste**.  
+4.  Velg handlingen **Montering**, og velg deretter **Monteringsstykkliste**.  
 5.  Definer en monteringsstykkliste for sett A med følgende informasjon.  
 
     |**Type**|**Nr.**|**Antall per**|  
@@ -200,7 +200,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     > [!NOTE]  
     >  Sett B er forsynes vanligvis av montering til ordre og har derfor ingen gjenbestillingsprinsipp, fordi det ikke skal være en del av generell forsyningsplanlegging.  
 
-7.  I fanebladet **Naviger**, under **Montering/Produksjon**, velger du **Montering** og deretter **Monteringsstykkliste**.  
+7.  Velg handlingen **Montering**, og velg deretter **Monteringsstykkliste**.  
 8.  Definer en monteringsstykkliste for sett B med følgende informasjon.  
 
     |**Type**|**Nr.**|**Antall per**|  
@@ -213,7 +213,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 ### <a name="selling-the-assembly-items"></a>Selge monteringsvarer  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
-2.  I fanebladet **Hjem**, under **Behandle**, velger du **Ny**.  
+2.  Velg handlingen **Ny**.  
 3.  Opprett to ordrelinjer for kunde 62000, Lydeksperten, på arbeidsdatoen med følgende informasjon.  
 
     |**Type**|**Beskrivelse**|**Antall**|Ant. som skal monteres til ordre|Forsendelsesdato|  
@@ -259,14 +259,14 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
      Deretter endrer du leveringsdatoen for den andre salgsordrelinjen i henhold til monteringsplanen.  
 
 15. På ordrelinjen for 15 enheter av sett A angir du **27.01.2014** i **Forsendelsesdato**-feltet.  
-16. I fanebladet **Handlinger**, under **Frigi** velger du **Frigi**.  
-17. I fanebladet **Handlinger**, under **Lager** velger du **Opprett lagerlevering**.  
+16. Velg handlingen **Frigi**.  
+17. Velg handlingen **Opprett lagerlevering**.  
 18. Lukk ordren.  
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlegge for utilgjengelig ATS-varer  
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
-2.  I fanebladet **Handling**, under **Funksjoner** velger du **Beregn replanlegging**.  
+2.  Velg **Beregn replanlegging**-handlingen.  
 3.  Angi følgende filtre på **Beregn Plan**-siden.  
 
     |Startdato|Sluttdato|Nr.|  
@@ -277,7 +277,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     En ny planleggingslinje opprettes for den nødvendige monteringsordren på ti varer med forfallsdato 27. januar. Den trenger ingen endringer, så du kan opprette ordren nå.  
 
-5.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Utfør handlingsmelding**.  
+5.  Velg **Utfør handlingsmelding**-handlingen.  
 6.  Velg **Monteringsordre**-feltet på siden **Utfør handlingsmeld.**, og velg deretter **Lag monteringsordrer**.  
 7.  Velg **OK**.  
 
@@ -298,7 +298,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter oppretter du et plukkdokument for alle ATO-monteringskomponentene er nødvendige på lagerleveringen.  
 
-3.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Opprett plukk** og deretter **OK**.  
+3.  Velg **Opprett plukk**-handlingen, og velg deretter **OK**-knappen.  
 
     Deretter utfører du plukkerens siste oppgave.  
 
@@ -309,8 +309,8 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter registrerer du plukkingen uten å endre standardinformasjon.  
 
-6.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Autoutfyll ant. som skal hndt.**.  
-7.  I fanebladet **Hjem**, under **Registrering**, velger du **Registrer plukk**.  
+6.  Velg handlingen **Autoutfyll ant som skal håndt**.  
+7.  Velg handlingen **Registrer plukk**.  
 
     Gå tilbake til å utføre leveringsoppgavene.  
 
@@ -335,7 +335,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 12. Lukk **Monteringsordre**-siden for å gå tilbake til **Lagerlevering**-siden.  
 13. På leveringslinjen for tre enheter av sett B, i feltet **Levere (antall)**, angir du **3**.  
-14. I fanebladet **Handlinger**, under **Bokføring** velger du **Bokfør følgeseddel** og deretter **Lever**.  
+14. Velg **Bokfør følgeseddel**-handlingen, og velg deretter **Levere**-knappen.  
 
     Sammen med denne lagerleveringsbokføringen bokføres fullt forbruk og avgangsantall for den relaterte monteringsordren, og feltet **Restantall** er tomt. Salgsordrelinjen for sett B oppdateres og viser at de tre enhetene er levert.  
 
@@ -358,7 +358,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter registrere du at monteringsordren er fullført.  
 
-3.  I fanebladet **Naviger**, under **Lager**, velger du **Monter til ordre – lagerfølgeseddellinje**.  
+3.  Velg handlingen **Monter til ordre – lagerfølgeseddellinje**.  
 4.  Angi **5** i feltet **Levere (antall)** på siden **Monter til ordre – lagerfølgeseddellinje**, og lukk deretter siden.  
 
     Legg merke til at på siden **Monteringsordre** er feltene **Antall å montere** og **Antall som skal forbrukes** nå er fylt ut med avgangs- og forbruksantallene som vil bli bokført med leveringen.  
@@ -374,8 +374,8 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter oppretter du et plukkdokument for å hente de nødvendige komponentene.  
 
-3.  I fanebladet **Handlinger**, under **Frigi** velger du **Frigi**.  
-4.  I fanebladet **Handlinger**, under **Lager** velger du **Opprett plukk** og deretter **OK**.  
+3.  Velg handlingen **Frigi**.  
+4.  Velg **Opprett plukk**-handlingen, og velg deretter **OK**-knappen.  
 
     Deretter utfører du plukkerens siste oppgave.  
 
@@ -384,12 +384,12 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
      Fortsett med å registrere plukkingen uten å endre standardinformasjon.  
 
-7.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Autoutfyll ant. som skal hndt.**.  
-8.  I fanebladet **Hjem**, under **Registrering**, velger du **Registrer plukk**.  
+7.  Velg handlingen **Autoutfyll ant som skal håndt**.  
+8.  Velg handlingen **Registrer plukk**.  
 
     Gå tilbake til monteringsfordren for å utføre den siste monteringsoppgaven.  
 
-9. Velg **Bokfør** under **Bokføring** i fanebladet **Handlinger** i **Monteringsordre**, og velg deretter **Ja**-knappen.  
+9. I **Monteringsordre** velger du **Bokfør**-handlingen, og deretter velger du **Ja**-knappen.  
 
     Legg merke til at monteringsordren er fjernet fra listen over åpne ordrer.  
 
@@ -402,7 +402,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter plukker du eventuelle gjenværende varer.  
 
-3.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Opprett plukk** og deretter **OK**.  
+3.  Velg **Opprett plukk**-handlingen, og velg deretter **OK**-knappen.  
 
     Deretter utfører du plukkerens siste oppgave for denne lagerleveringen.  
 
@@ -413,8 +413,8 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter registrerer du plukkingen uten å endre standardinformasjon.  
 
-6.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Autoutfyll ant. som skal hndt.**.  
-7.  I fanebladet **Hjem**, under **Registrering**, velger du **Registrer plukk** og deretter **Ja**.  
+6.  Velg handlingen **Autoutfyll ant som skal håndt**.  
+7.  Velg **Registrer plukk**-handlingen, og velg deretter **Ja**-knappen.  
 
     Gå tilbake til lagerleveringen for å utføre den siste oppgaven.  
 
@@ -422,7 +422,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Legg merke til at feltet **Levere (antall)** og **Plukket ant.** på linjen for ti enheter i sett A på siden **Lagerlevering** nå inneholder **10**.  
 
-9. I fanebladet **Handlinger**, under **Bokføring** velger du **Bokfør følgeseddel** og deretter **Levert**.  
+9. Velg **Bokfør følgeseddel**-handlingen, og velg deretter **Levere**.  
 
     Lagerfølgeseddelen fjernes, som indikerer at de involverte lageraktivitetene er fullført. Deretter kontrollerer du at salgsordren har blitt behandlet.  
 
