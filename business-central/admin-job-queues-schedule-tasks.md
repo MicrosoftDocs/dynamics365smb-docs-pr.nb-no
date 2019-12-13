@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 21e3defe178a3619df58d712c86935515e303692
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308407"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879205"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 Med jobbkøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Det kan for eksempel være at du vil kjøre rapporten **Selger - salgsstatistikk** ukentlig for å spore salg etter selger hver uke, eller du vil kanskje kjøre kodeenheten **Behandle e-postkø - service** daglig, for å sørge for at ventende e-postmeldinger angående serviceordrer sendes ut til kundene i rett tid.
@@ -33,12 +33,12 @@ Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringsr
 
 Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bakgrunnen. Trinnene er de samme for kjøp og service.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Salgsoppsett** merker du av for **Bokfør med jobbkø**.
 3. Hvis du vil filtrere på jobbkøposter for ordrebokføring, velger du feltet **Kategorikode for jobbkø** og deretter **Salgsbokf**.
 
     Et jobbkøobjekt, codeunit 88 **Salgspost via jobbkø**, opprettes. Fortsett med å aktivere den på siden **Poster i jobbkø**.
-4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
+4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
 5. På siden **Poster i jobbkø** velger du **Ny**-handlingen.
 6. I feltet **Objekttype som skal kjøres** velger du **Codeunit**.  
 7. I feltet **Objekt-ID som skal kjøres** velger du 88, **Salgspost via jobbkø**.
@@ -51,12 +51,12 @@ Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bak
 Hvis du også vil at salgsdokumenter skal skrives ut når de bokføres, merker du av for **Bokfør og skriv ut med jobbkø** på siden **Salgsoppsett**.  
 
 > [!IMPORTANT]  
-> Hvis du konfigurerer en jobb som bokfører og skriver ut dokumenter, og skriveren viser en dialogboks, for eksempel en forespørsel om legitimasjon eller en advarsel om lavt skriverblekk, blir dokumentet bokført, men ikke skrevet ut. Den tilsvarende jobbkøposten blir til slutt tidsavbrutt, og  **Status**    -feltet settes til  **Feil**. Vi anbefaler derfor at du ikke bruker et skriveroppsett som krever samhandling med visningen av dialogbokser for skriveren i forbindelse med bakgrunnsbokføring.
+> Hvis du konfigurerer en jobb som bokfører og skriver ut dokumenter, og skriveren viser en dialogboks, for eksempel en forespørsel om legitimasjon eller en advarsel om lavt skriverblekk, blir dokumentet bokført, men ikke skrevet ut. Den tilsvarende jobbkøposten blir til slutt tidsavbrutt, og **Status**-feltet settes til **Feil**. Vi anbefaler derfor at du ikke bruker et skriveroppsett som krever samhandling med visningen av dialogbokser for skriveren i forbindelse med bakgrunnsbokføring.
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Opprette en jobbkøpost for massebokføring av ordrer
 Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør ordrer** til å automatisk bokføre frigitte ordrer kl. 16:00 i ukedager.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. I feltet **Objekttype som skal kjøres** velger du **Rapport**.  
 4. I feltet **Objekt-ID som skal kjøres** velger du 296, **Massebokfør ordrer**.
@@ -85,7 +85,7 @@ Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med min
 Data som genereres ved kjøring av en jobbkø, lagres i databasen, slik at du kan feilsøke jobbkøfeil.
 
 ### <a name="to-view-status-for-any-job"></a>Slik viser du statusen for en jobb
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
 2. På siden **Poster i jobbkø** velger du en jobbkøpost og deretter **Loggposter**-handlingen.  
 
 ### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Slik viser du status fra et salgs- eller kjøpsdokument
@@ -111,6 +111,9 @@ Når en jobbkø aktiveres automatisk, kjører den med legitimasjonen for brukere
 
 ## <a name="using-job-queues-effectively"></a>Bruke jobbkøer effektivt  
 Jobbkøposten inneholder mange felt som har som formål å sende parametere til en kodeenhet som du har angitt for kjøring sammen med en jobbkø. Dette betyr også at kodeenheter som skal kjøres via jobbkøen må angis med prosjektkøposten som en parameter i **OnRun**-utløseren. Dette gir et ekstra lag av sikkerhet, siden det forhindrer brukere fra å kjøre tilfeldige kodeenheter via jobbkøen. Hvis brukeren må sende parametere til en rapport, kan dette bare gjøres ved å wrappe rapportutførelsen i en kodeenhet, som deretter analyserer inndataparameterne og setter dem inn i rapporten før den utfører den.  
+
+## <a name="scheduling-synchronization-between-included365finincludesd365fin_mdmd-and-includecrm_mdincludescrm_mdmd"></a>Planlegge synkronisering mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
+Hvis du har integrert [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan du bruke jobbkøen til å planlegge når du vil synkronisere data for de postene du har kombinert i de to forretningsprogrammene. Avhengig av retningslinjer og regler du har definert for integrasjonen, kan synkroniseringsjobbene også opprette nye poster i målappen for å samsvare med kilden. Hvis for eksempel en selger oppretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsjobben opprette denne kontakten for den koblede selgeren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ## <a name="see-also"></a>Se også  
 [Administrasjon](admin-setup-and-administration.md)  

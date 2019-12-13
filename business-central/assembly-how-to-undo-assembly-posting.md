@@ -1,8 +1,6 @@
 ---
 title: Angre monteringsbokføring | Microsoft-dokumentasjon
 description: Noen ganger kan det hende at du må angre en bokført monteringsordre, for eksempel når ordren ble bokført med feil som må rettes opp, eller fordi den ikke skulle vært bokført i utgangspunktet og må rulles tilbake.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 22ebbde0d04dfeb03fa52978e2d1e82d40713445
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 11041ebb7c7154eed6959a99ec5b100c73ccd8c6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307615"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880763"
 ---
 # <a name="undo-assembly-posting"></a>Angre monteringsbokføring
 Noen ganger kan det hende at du må angre en bokført monteringsordre, for eksempel når ordren ble bokført med feil som må rettes opp, eller fordi den ikke skulle vært bokført i utgangspunktet og må rulles tilbake.

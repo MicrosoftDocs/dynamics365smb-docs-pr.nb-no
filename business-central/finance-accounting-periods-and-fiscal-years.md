@@ -1,8 +1,6 @@
 ---
 title: Arbeide med regnskapsperioder og regnskapsår | Microsoft-dokumentasjon
 description: Lær hvordan du arbeider med regnskapsperioder for å definere når bedriften rapporterer økonomiske resultater.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d70694a571c051f6160a721c8fa06c91fe9c42d3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aab482918eacb7bea068a5c5f536c9e88bdd7b2c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302623"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879851"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbeide med regnskapsperioder og regnskapsår
 Regnskapsperioder, som også kalles rapporteringsperioder, er tidsperioder som en bedrift eller organisasjon rapporterer økonomiske resultater for, for eksempel ved å generere resultatregnskapet eller balansen. Vanligvis viser regnskapsperioder til selskapets regnskapsår, som kan inneholde flere regnskapsperioder, for eksempel måneder eller kvartal.
@@ -34,7 +32,7 @@ Du kan masseopprette regnskapsperioder ved å bruke **Opprett regnskapsår**-kj�
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Slik masseoppretter du regnskapsperioder
 Bruk **Opprett regnskapsår**-kjørselen til å dele et regnskapsår inn i like lange perioder.  
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Opprett år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. I **Startdato**-feltet angir du datoen som regnskapsåret starter på.  
 4. I **Antall perioder**-feltet angir du antall regnskapsperioder som regnskapsåret skal deles inn i. Det kan være opptil 365 perioder i et år.  
@@ -44,7 +42,7 @@ Bruk **Opprett regnskapsår**-kjørselen til å dele et regnskapsår inn i like 
 ### <a name="how-to-create-accounting-periods-manually"></a>Slik oppretter du regnskapsperioder manuelt
 Hvis regnskapsperiodene i regnskapsåret har forskjellig varighet, som 4-4-5-kalenderen i detaljhandel, kan du opprette det manuelt.  
   
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
 2. I **Startdato**-feltet angir du datoen som regnskapsåret starter på. Feltet **Navn** vil vise navnet på måneden.  
 3. Merk av for **Nytt regnskapsår** for å angi at dette er den første perioden i året. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker denne perioden for å finne ut hvilke perioder som skal lukkes ved årsslutt.
 4. Gjenta trinn 2 og 3 for hver gjenværende periode.  
@@ -55,7 +53,7 @@ Lukking av regnskapsåret er en av oppgavene for lukking av tablåene. Når du h
 > [!NOTE]  
 >  Du må alltid ha minst ett åpent regnskapsår. Når du lukker et år, må du kontrollere at et nytt år er opprettet. Legg også merke til at etter du lukker ett år, er det ikke mulig å endre startdatoen for det etterfølgende året.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Lukk år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokføre poster i et lukket regnskapsår

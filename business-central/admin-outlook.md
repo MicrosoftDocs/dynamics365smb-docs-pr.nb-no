@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 10/17/2019
+ms.date: 11/22/2019
 ms.author: edupont
-ms.openlocfilehash: 6c1ec2e61b1a6d61b9662abe70e3177747b73a12
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 1e45b7cb19df3c057485451a95ae1633804fa865
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649719"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879134"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 ## <a name="getting-the-add-in"></a>Få tillegget
@@ -26,9 +27,13 @@ Det er enkelt å begynne med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegg
 Deretter, når du åpner Outlook, vil du se en e-postmelding fra *Dynamics 365 Business Central-admin*. De nye tilleggene blir lagt til Outlook-båndet, og i leseren kan du se tillegget [!INCLUDE[prodshort](includes/prodshort.md)] like over eller under brødteksten i e-postmeldingen. Tilleggene oppdateres med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
 > [!TIP]
-> Hvis du bruker den nye Outlook i en webleser, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene være skjult under **Flere handlinger**.
+> Hvis du bruker den nye Outlook på nettet, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene være skjult under **Flere handlinger**. Hvis du bruker tillegget ofte, kan du feste det slik at det alltid vises umiddelbart. Hvis du vil ha mer informasjon, se [Bruke tillegg i Outlook på Internett](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Hvis du arbeider med mer enn ett [!INCLUDE [prodshort](includes/prodshort.md)] selskap, kan du enkelt bytte mellom selskaper i Outlook.
+Hvis du arbeider med mer enn ett [!INCLUDE [prodshort](includes/prodshort.md)] selskap, kan du enkelt bytte mellom selskaper i Outlook. Velg **Flere handlinger**på handlingsfeltet til tillegget, og deretter kan du se alternativet for bytte mellom selskaper.  
+
+<!--TEMP-->
+> [!NOTE]
+> Bytte mellom firmaer krever [!INCLUDE [prodshort](includes/prodshort.md)] 2019 utgivelsesplan 2 eller nyere, som annonsert i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Enkelte selskaper bruker Office 365, begrense brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Office 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
@@ -74,4 +79,4 @@ Tilleggene er utformet for bruk med Office 365. Hvis du bruker [!INCLUDE [prodsh
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Minimumskrav for Outlook](product-requirements.md#outlook)  
-[Bruke tillegg i Outlook på Internett](https://support.office.com/en-us/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Bruke tillegg i Outlook på Internett](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  

@@ -1,8 +1,6 @@
 ---
 title: Montere varer| Microsoft-dokumentasjon
 description: Hvis feltet **Etterfyllingssystem** på varekortet inneholder **Montering**, er standardmetoden for å forsyne varen å montere den fra definerte komponenter og muligens av en definert ressurs.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 27a1674c06b4e874f5152117f00161dd053c4e73
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7effb54187a0b59a175b5fe19265e6fb32bbc295
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307687"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880907"
 ---
 # <a name="assemble-items"></a>Montere elementer
 Hvis feltet **Etterfyllingssystem** på varekortet inneholder **Montering**, er standardmetoden for å forsyne varen å montere den fra definerte komponenter og muligens av en definert ressurs.  
@@ -43,7 +41,7 @@ Disse oppsettsalternativene er standardinnstillinger som styrer hvordan salgs- o
 I denne fremgangsmåten oppretter og behandler du en monteringsordre for varer som er montert til lager, det vil si uten en koblet ordre. Trinnene inkluderer start av monteringsordren, håndtering av potensielle problemer med komponenttilgjengelighet og delvis avgangsbokføring av monteringsvarer.
 
 ## <a name="to-assemble-an-item"></a>Slik monterer du en vare:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**. Siden **Ny monteringsvare** åpnes.  
 3.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg monteringsvaren du vil behandle, i **Varenr.**-feltet. Feltet filtreres slik at det bare viser varer som er definert for montering, noe som betyr at monteringsstykklister er tilordnet varene.  

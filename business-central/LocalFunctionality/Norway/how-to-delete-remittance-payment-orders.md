@@ -1,8 +1,6 @@
 ---
 title: Slette remitteringsoppdrag
 description: Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden Ventekladd har statusen Sendt eller Godkjent.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e011f5db3227c5c0dfcc67691182dc69dc10684b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2ea64cb44a99cb8729d3fe8d8868e90d71aa1d1f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301235"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881338"
 ---
 # <a name="delete-remittance-payment-orders"></a>Slette remitteringsoppdrag
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
 ## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slette remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Slette remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

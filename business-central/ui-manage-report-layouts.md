@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: f64397d41eb4002221d9967b5b61145882aee0d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7c85b58de2ec9e497e2578a6241b7f1499a81ae9
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315159"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809379"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
 Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
@@ -59,9 +59,10 @@ Prosessen for å definere Word-rapportoppsett og RDLC-rapportoppsett i rapporter
 Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, kan du se [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md).
 
 ## <a name="see-also"></a>Se også
-[Oppdatere rapport- og dokumentoppsett](ui-update-report-layouts.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Opprette og endre et egendefinert rapportoppsett eller dokumentoppsett](ui-how-create-custom-report-layout.md)  
+[Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)  
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
+[Definere spesielle dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

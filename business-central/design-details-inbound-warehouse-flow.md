@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Inngående lagerflyt | Microsoft-dokumentasjon
 description: Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. En ansatt registrerer varene, vanligvis ved å skanne en strekkode. Fra mottaksområdene utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer til lagringsområdet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1b8a30732b0bf562e54d74c6477c95c36a5ab524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303487"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880438"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
 Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. En ansatt registrerer varene, vanligvis ved å skanne en strekkode. Fra mottaksområdene utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer til lagringsområdet.  
@@ -72,7 +70,7 @@ Det blir opprettet positive vareposter og lagerposter, og plasseringsforespørse
 ## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett  
 Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
-![Inngående flyt i avanserte lageroppsett](media/design_details_warehouse_management_inbound_advanced_flow.png "Inngående flyt i avanserte lageroppsett")  
+![Inngående flyt i avansert lageroppsett](media/design_details_warehouse_management_inbound_advanced_flow.png "Inngående flyt i avansert lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument  
 Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kildedokumentet, for eksempel en bestilling eller inngående overføringsordre, for å signalisere til lagermedarbeidere at de mottatte varene kan plasseres på lager.  

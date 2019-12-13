@@ -1,8 +1,6 @@
 ---
 title: Importere betalingsreturdata
 description: Mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 91245144c93c6069756472029a8869039f3a3430
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1c38594f2ffd6ab1dd604eda0348c485b298b4b0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301232"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881337"
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
 
 ## <a name="to-import-return-data"></a>Slik importerer du returdata  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -39,7 +37,7 @@ Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les i
 
 ## <a name="to-view-settlement-information"></a>Slik viser du avregningsopplysninger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avregningsopplysninger**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Generelt** viser du feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

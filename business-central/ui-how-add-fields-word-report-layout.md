@@ -1,8 +1,6 @@
 ---
 title: Legge til felt i et Word-rapportoppsett | Microsoft-dokumentasjon
 description: Beskriver hvordan du legger til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 0c16dbebe7f2bbfa5efebb246149d395d051b353
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5927a69199f72b09f133d63ac76bade7af361e8c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315327"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877018"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
@@ -25,7 +23,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
 > [!NOTE]  
 >  Du kan ikke endre innebygde rapportoppsett<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="OpenXMLPart"></a>Åpne den egendefinerte XML-delen for rapporten i Word  
+##  <a name="OpenXMLPart"></a> Åpne den egendefinerte XML-delen for rapporten i Word  
   
 1.  Åpne Word-rapportoppsettdokumentet i Word hvis det ikke allerede er åpent.  
   

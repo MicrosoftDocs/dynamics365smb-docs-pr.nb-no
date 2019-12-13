@@ -8,19 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: dfabf797ae9ba85a5a241d88f9ba3f5deb16bd4c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775478"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832338"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
 > [!NOTE]
-> I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADFS bare på lokale distribusjoner. En Microsoft-partner kan imidlertid få den til å fungere i nettdistribusjoner ved å bruke PowerApps eller lignende.
+> I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADFS bare på lokale distribusjoner. En Microsoft-partner kan imidlertid få den til å fungere i nettdistribusjoner ved å bruke Power Apps eller lignende.
 
 Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning. ADFS innebærer vanligvis skanning av en strekkode.
 

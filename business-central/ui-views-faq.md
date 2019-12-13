@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: list, filter, pane, views
 ms.date: 01/01/2019
 ms.author: mikebc
-ms.openlocfilehash: d2caa1d9b84d99c0b43a70bca1c45da81138f7b9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6357a025c58df8e55bf7aaad5961190ad6ed3350
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316836"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881993"
 ---
 # <a name="list-views-faq"></a>Vanlige spørsmål om listevisninger
 Dette emnet gir svar på spørsmål som våre avanserte brukere ofte spør om arbeid med listevisninger og lagring av filtre.  
@@ -58,7 +58,7 @@ Noen systemvisninger kan ha unike oppsett av kolonnene i listen. De kan for ekse
 ### <a name="what-does-the-show-system-filters-link-do"></a>Hva gjør koblingen Vis systemfiltre?
 På noen listesider vil filterruten vise **Vis systemfiltre** nederst i filtreringsruten når siden inneholder filtre som er angitt av systemet. Disse spesialfiltrene brukes vanligvis til å vise poster basert på gjeldende kontekst, for eksempel når en liste over ordre må filtreres for en bestemt kunde.
 
-Systemfiltre angis av utviklere med filtergruppe 0. Hvis du vil ha tekniske detaljer om systemet, se [Filtergruppefunksjon](https://docs.microsoft.com/en-us/dynamics-nav/filtergroup-function--record-)
+Systemfiltre angis av utviklere med filtergruppe 0. Hvis du vil ha tekniske detaljer om systemet, se [Filtergruppemetode](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)
 
 ### <a name="i-see-multiple-views-on-my-page-but-i-did-not-create-them-where-did-they-come-from"></a>Jeg ser flere visninger på siden, men jeg opprettet dem ikke. Hvor kom de fra?
 Visningene du ser i en hvilken som helst liste, er en kombinasjon av personlige visninger og systemvisninger. Det kan hende at systemvisninger kommer fra forretningsprogrammet, fra utvidelser eller er rollespesifikke hvis listen ble tilpasset for din rolle.

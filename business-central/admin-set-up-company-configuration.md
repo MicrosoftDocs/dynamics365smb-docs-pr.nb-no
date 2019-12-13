@@ -1,8 +1,6 @@
 ---
 title: Definere selskapskonfigurasjon | Microsoft-dokumentasjon
 description: Implementeringsprosessen starter med Business Central-løsningen som kreves. Du grupperer all denne informasjonen i konfigurasjonspakker.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e1863c6933cf5722c4a9940225ec59aabbdf84da
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ef6300121695a0c8836df58e31848024c87deb75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304327"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879061"
 ---
 # <a name="set-up-company-configuration"></a>Definere selskapskonfigurasjon
 Implementeringsprosessen begynner med Microsoft-partneren. Partneren er ansvarlig for å tenke gjennom konfigurasjonsdetaljer og lage en pakke som kunden enkelt kan bruke. Før du oppretter et nytt selskap, bør du planlegge hvordan det skal konfigureres. Du må vurdere grunnleggende oppsettsdata og hvilke typer data [!INCLUDE[d365fin](includes/d365fin_md.md)]-løsningen vil kreve. Du grupperer all denne informasjonen i konfigurasjonspakker.

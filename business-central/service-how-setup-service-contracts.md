@@ -1,8 +1,6 @@
 ---
 title: Definere servicekontrakter | Microsoft-dokumentasjon
 description: Finn ut hvordan du definerer servicekontrakter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, cost, service order
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 785a1f813956fa769d55b9bd71544613ca463b5b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316143"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877354"
 ---
 # <a name="set-up-service-contracts"></a>Definere servicekontrakter
 Før du kan arbeide med kontrakter må du definere følgende: 
@@ -28,19 +26,19 @@ Før du kan arbeide med kontrakter må du definere følgende:
 * **Kundemaler** som lar deg opprette tilbud for kontakter eller potensielle kunder som ikke er registrert som kunder i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Slik definerer du servicekontraktgrupper  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontraktgrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontraktgrupper**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Merk av for **Rab. bare på kontr. ordrer** hvis du vil at kontrakt- eller servicerabatter bare skal være gyldige for servicekontraktordrer, for eksempel vedlikehold.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Slik definerer du kontogrupper for servicekontrakter  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontogrupper for servicekontrakt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontogrp. for servicekontr.**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny kontogruppe for servicekontrakter.   
 3. Fyll ut feltene **Kode** og **Beskrivelse**. Disse feltene beskriver servicekontogruppen.  
 4. Fyll ut feltet **Ikke-forh.bet. kontraktkonto**, og velg finanskontonummeret for ikke-forhåndsbetalte konti.  
 5. I feltet **Ikke-forh.bet. kontraktkonto** velger du finanskontonummeret for forhåndsbetalte konti.  
 
 ## <a name="to-set-up-a-contract-template"></a>Slik definerer du kontraktmaler  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontraktmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontraktmaler**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny servicekontraktmal.  
 3. I feltet **Nr.** -feltet angir du et nummer for kontraktmalen.  
   

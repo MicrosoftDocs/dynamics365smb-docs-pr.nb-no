@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – Spore serie-/partinumre | Microsoft-dokumentasjon
 description: Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må unngå at påvirkede varer leveres til kunder. Hvis defekte varer allerede er levert, må du spore hvem som har mottatt dem, og om nødvendig tilbakekalle varene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a1a339c57e47f3722050209acbe83e246ccdbbb6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 23bbed9e19fa2a3fd99f45cfde24d6d16f31e795
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310495"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876826"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -74,7 +72,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 ### <a name="to-create-the-items"></a>Slik oppretter du varene  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I feltet **Nr.** -feltet angir du **2000** og forstetter med å fylle ut følgende felt.  
 
@@ -140,7 +138,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter produserer du to racersykler, SN1 og SN2.  
 
 ### <a name="to-produce-end-items"></a>Produsere sluttvarer  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg gruppen **Ny**.  
 3.  Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt.  
 
@@ -161,7 +159,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Deretter produserer du to racersykler til, SN3 og SN4.  
 
-11. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
+11. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
 12. Velg handlingen **Ny**.  
 13. Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt i hodet.  
 
@@ -186,7 +184,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter selger du racersykler. Selg først racersykkelen med SN1 til Møbelhandleren A/S.  
 
 ### <a name="to-sell-the-end-items"></a>Selge sluttvarer  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -198,7 +196,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Nå kan du selge racersykkelen med SN2 til Kontorkomplett AS  
 
-5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 6.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -210,7 +208,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Til sist selger du noen racersykkelrammer separat. Kontorkomplett AS bestiller også fire separate racersykkelrammer for sin egen produksjonslinje.  
 
-9. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+9. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 10. Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  

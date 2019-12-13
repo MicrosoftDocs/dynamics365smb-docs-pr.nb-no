@@ -1,8 +1,6 @@
 ---
 title: Opprette hyller | Microsoft-dokumentasjon
 description: Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 753e76ae1c1ca120896d71ade44222864658fded
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dd48519f471a8ead924c1d3512538ff71fe39640
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314631"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876731"
 ---
 # <a name="create-bins"></a>Opprette hyller
 Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt fra lokasjonskortet. Du kan også bruke en funksjon på siden **Hylleoppretting** til å opprette hyller automatisk.  
 
 ## <a name="to-create-a-bin-from-the-location-card"></a>Slik oppretter du en hylle fra lokasjonskortet  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette en hylle, og velg deretter **Hyller**-handlingen.  
 3. Velg handlingen **Ny**.
 4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +37,7 @@ Dedikering av hyller resulterer i lignende funksjonalitet i grunnleggende lagera
 > Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjons- eller monteringskomponenter med siden **Lagerplukk**. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i enkle lageroppsett](warehouse-how-to-pick-for-production.md).
 
 ## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Slik oppretter du hyller individuelt i hylleopprettingsforslaget  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleopprettingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleoppretting**, og velg deretter den relaterte koblingen.  
 2.  På hver linje fyller du ut de feltene som er nødvendig for å gi navn til og karakterisere hyllene du oppretter.  
 3.  Velg handlingen **Opprett hyller**.  
 
@@ -51,7 +49,7 @@ Før du begynner å opprette hyller automatisk, bør du finne ut hvilken slags h
 
 For å kunne arbeide på siden **Hylleoppretting** må du defineres som lageransatt på stedet der hyllene er. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleopprettingsforslag**, og velg den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleoppretting**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn hyller**-handlingen.
 3. På siden **Beregn hyller** i feltet **Kode for hyllemal** velger du hyllemalen du vil bruke som modell for hyllene du bruker.
 4.  Fyll ut en beskrivelse for hyllene du er i ferd med å opprette.  

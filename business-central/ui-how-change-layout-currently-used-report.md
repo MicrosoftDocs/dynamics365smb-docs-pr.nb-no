@@ -10,44 +10,50 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 10/01/2019
+ms.date: 11/15/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07de4be7bc516cf9f4b802a48dc59293b1992f5f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: af33d0679242e9915bc3e0de5825bf293e22c585
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315255"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809084"
 ---
 # <a name="change-the-current-report-layout"></a>Endre gjeldende rapportoppsett
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
 
 Avhengig av oppsettene som er tilgjengelige for en rapport, kan du velge om du vil bruke et innebygd RDLC-rapportoppsett, et innebygd Word-rapportoppsett eller et egendefinert oppsett. Hvis du vil ha mer informasjon om RDLC- og Word-rapportoppsett, innebygde og egendefinerte oppsett og mer, kan du se [Håndtere rapportoppsett](ui-manage-report-layouts.md).
 
+Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi at de valgte oppsettene skal brukes for dokumenter du oppretter for den aktuelle kunden eller leverandøren. Hvis du vil ha mer informasjon, se [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md).
+
 > [!TIP]  
-> Dokumentrapporter (ikke oversikter) som bruker et Word-rapportoppsett, er vanligvis raskere enn de som bruker et RDLC-rapportoppsett. Så hvis du kan velge mellom et Word- eller RDLC-rapportoppsett for en dokumentrapport, bør du bruke Word-rapportoppsettet for best ytelse.  
+> Dokumentrapporter (ikke oversikter) som bruker et Word-rapportoppsett, er vanligvis raskere enn de som bruker et RDLC-rapportoppsett. Så hvis du kan velge mellom et Word- eller RDLC-rapportoppsett for en dokumentrapport, bør du bruke Word-rapportoppsettet for best ytelse.
 
-## <a name="to-change-the-layout-that-is-used-on-a-report"></a>Slik endrer du oppsettet som brukes i en rapport
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
-   Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet Selskap øverst på siden. Feltet Valgt oppsett angir oppsettet som brukes i rapporten for øyeblikket.
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Slik endrer du hvilket rapportoppsett som skal brukes i en rapport eller et dokument
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+   Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet **Selskap** øverst på siden. Feltet **Valgt oppsett** angir oppsettet som brukes i rapporten for øyeblikket.
 2. Sett feltet **Selskap** øverst på siden til selskapet som inkluderer rapporten.
-3. Hvis du vil endre oppsettet som brukes av en rapport, angir du ett av følgende alternativer for feltet **Valgt oppsett** i raden for rapporten i listen:
-   * RDLC (innebygd): Bruker det innebygde RDLC-rapportoppsettet i rapporten.
-   * Word (innebygd): Bruker det innebygde Word-rapportoppsettet i rapporten.
-   * Egendefinert: Bruker et egendefinert oppsett i rapporten.  
-
-Du kan se hvilke egendefinerte oppsett som er tilgjengelige for rapporten, i faktaboksen **Rapportoppsettsdel**. Hvis det ikke finnes noen egendefinerte oppsett for rapporten, må du først opprette et. Hvis du velger dette alternativet, går du til neste fremgangsmåte for å angi det egendefinerte oppsettet du vil bruke.
+3. Hvis du vil endre oppsettet som brukes av en rapport, angir du ett av følgende alternativer for feltet **Valgt oppsett** i raden for rapporten:
+   * **RDLC (innebygd)**: Bruker det innebygde RDLC-rapportoppsettet i rapporten.
+   * **Word (innebygd)**: Bruker det innebygde Word-rapportoppsettet i rapporten.
+   * **Egendefinert**: Bruker et egendefinert oppsett i rapporten.  
 
 > [!NOTE]
-> Hvis du velger **RDLC (innebygd)** eller **Word (innebygd)** og får en feilmelding om at rapporten ikke har et oppsett for den angitte typen, må du velge et annet oppsettalternativ eller opprette et egendefinert rapportoppsett av typen du vil bruke.
+> Hvis du velger et rapportoppsett av typen **RDLC (innebygd)** eller **Word (innebygd)** og får en feilmelding om at rapporten ikke har et oppsett for den angitte typen, må du velge et annet oppsettalternativ eller opprette et egendefinert rapportoppsett av typen du vil bruke. Se den neste fremgangsmåten.
 
 Hvis du valgte et innebygd RDLC- eller Word-rapportoppsett, kreves ingen ytterligere handling, og oppsettet brukes neste gang rapporten kjøres.
 
-## <a name="to-specify-a-custom-layout-on-a-report"></a>Angi et egendefinert oppsett i en rapport
-1. Du angir hvilket egendefinert oppsett som skal brukes i rapporten, fra siden **Egendefinerte rapportoppsett**. Hvis siden **Egendefinerte rapportoppsett** ikke er åpen, velger du oppslagsknappen i feltet **Beskrivelse av rapportoppsett**.
-2. Merk raden for det egendefinerte oppsettet du vil bruke, på siden **Egendefinerte rapportoppsett**, og lukk deretter siden.
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Slik endrer du det egendefinerte rapportoppsettet som skal brukes for et rapportoppsett
+Det kan også hende du vil endre det egendefinerte oppsettet som brukes. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
-Du går tilbake siden **Egendefinerte rapportoppsett**. Navnet på det valgte egendefinerte oppsettet vises i feltet **Beskrivelse av egendefinert oppsett**. Det egendefinerte oppsettet brukes neste gang du kjører rapporten.
+Alle egendefinerte rapportoppsett som finnes for rapportoppsett i et selskap, vises på siden **Egendefinerte rapportoppsett**. På siden **Rapportoppsettsvalg** kan du se hvilke egendefinerte oppsett som er tilgjengelige for hver rapporten i faktaboksen **Egendefinerte oppsett**.
+
+1. På siden **Egendefinerte rapportoppsett**, på linjen for rapportoppsett du vil endre, velger du oppsettknappen i feltet **Beskrivelse av egendefinert oppsett**.
+2. På siden **Egendefinerte rapportoppsett** velger du raden for den egendefinerte oppsettet du vil bruke, og deretter velger du **OK**-knappen.
+
+Navnet på det valgte egendefinerte oppsettet vises nå i feltet **Beskrivelse av egendefinert oppsett** og vil bli brukt neste gang rapporten eller dokumentet forhåndsvises, skrives ut eller sendes.
+
+Nå kan du gå til kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for forskjellige dokumenter som du oppretter for den aktuelle kunden eller leverandøren, for eksempel ordrebekreftelser eller purringer. Hvis du vil ha mer informasjon, se [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md).
 
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

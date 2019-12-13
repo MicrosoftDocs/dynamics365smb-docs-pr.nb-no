@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7d52f1dce42bb8c3b84ff335eb07b6a12154fbcf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c39fb8e9c2b380674169a27d05a04f0f4b0d451
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316882"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832097"
 ---
 # <a name="add-a-page-action-to-your-role-center"></a>Legge til en sidehandling i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handlingskobling på en side på navigasjonsmenyen i rollesenteret. Du legger til bokmerket fra målsiden, som betyr siden du vil at handlingen i rollesenteret skal åpne.
@@ -33,6 +33,9 @@ Et handlingsnavn etter siden er nå lagt til på navigasjonsmenyen i rollesenter
 2. Beveg musepekeren over søkeresultatet for **Ordrer**-siden, og velg ![Bokmerke](media/ui_bookmark_icon.png "Bokmerke")-ikonet.
 
 Hvis det allerede finnes et bokmerke for siden, er ikonet mørkt, og verktøytipet viser "Bokmerket".
+
+> [!NOTE]  
+> Når et bokmerke legges til, er oversatt tekst som var tilgjengelig på det tidspunktet, også bokmerket. Hvis ny oversatt tekst legges til senere, oppdateres ikke koblingen med bokmerke.
 
 ## <a name="see-also"></a>Se også
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  

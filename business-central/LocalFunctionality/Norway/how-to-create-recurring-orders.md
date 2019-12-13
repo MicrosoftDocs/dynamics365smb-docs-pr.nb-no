@@ -1,8 +1,6 @@
 ---
 title: Opprette gjentakelsesordrer
 description: Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden Opprett gjentakelsesordrer, og oppretter de nye salgsordrene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ea78011595f06e481463354321162537277329c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 640a184003e604f74b665a61cfd47028ddfb1eca
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301237"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879270"
 ---
 # <a name="create-recurring-orders"></a>Opprett gjentakelsesordrer
 Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene. Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.  
 
 ## <a name="to-create-recurring-orders"></a>Slik oppretter du gjentakelsesordrer:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Opprett gjentakelsesordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Opprett gjentakelsesordrer**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

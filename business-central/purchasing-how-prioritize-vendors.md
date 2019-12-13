@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c37ff7d347788300bcd2c9e138ac8379fb12a78a
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 538a6f4b1ead61afde223391441bf097f3c26f77
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577162"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877594"
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).
 
 Først må du prioritere leverandørene ved å tilordne numre til dem.
 <br><br>
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3PRGa]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa]
 
 ## <a name="to-prioritize-vendors"></a>Slik prioriterer du leverandører
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.

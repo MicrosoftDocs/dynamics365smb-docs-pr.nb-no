@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 10/01/2019
+ms.date: 11/27/2019
 ms.author: sgroespe
-ms.openlocfilehash: 521ebb4ec1a1687ea4263f8f181dc32c69f2ad63
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309887"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878344"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 Varer, blant andre produkter, er grunnlaget for virksomheten din, varene eller tjenestene du handler med. Hver vare må være registrert som et varekort.
@@ -34,10 +34,12 @@ Varer som du tilbyr kunder, men som du ikke vil administrere i systemet før du 
 > [!NOTE]  
 > Hvis det finnes varemaler for ulike varetyper, vises en siden når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
 
-Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen av. Du kan også opprette nye varekort ved å kopiere eksisterende varekort. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).
+Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen av. Du kan også opprette nye varekort ved å kopiere eksisterende varekort. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).<br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2. På siden **Varer** velger du handlingen **Ny**.
 
     Hvis det bare finnes én varemal, åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
@@ -50,7 +52,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen 
 >
 > Hvis du velger **Gjennomsnitt**, blir enhetskosten for en vare beregnet som den gjennomsnittlige enhetskosten på hvert tidspunkt etter et kjøp. Lageret verdisettes basert på antakelsen om at alle beholdninger selges samtidig. Med denne innstillingen kan feltet **Enhetskost** for å vise en historikk over transaksjoner som gjennomsnittskosten beregnes fra, på siden **Oversikt over beregning av gjennomsnittskost**.
 
-I hurtigfanen **Pris og bokføring** kan du vise spesialpriser eller rabatter som skal gis for varen hvis bestemte kriterier oppfylles, for eksempel kunde, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
+Du kan vise eller redigere spesialpriser eller rabatter som skal gis for varen hvis bestemte kriterier oppfylles, for eksempel kunde, minimumsordreantall eller sluttdato. Dette gjør du ved å velge handlingene **Definer spesialpriser** eller **Definer spesialrabatter**. For eksempel vil hver rad på siden **Salgspriser** representere en spesialpris. Hver kolonne representerer et kriterium som må gjelde for å gi en kunde den spesialprisen du angir i feltet **Enhetspris** på siden **Salgspriser**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Varen er nå registrert, og varekortet er klart til å brukes på kjøps- og salgsdokumenter.
 
@@ -68,7 +70,7 @@ Varemalen legges til i listen over varemaler, slik at du kan bruke den til å op
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Slik definerer du flere leverandører for varer  
 Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninger om hver enkelt leverandør av varen, for eksempel priser, leveringstid, rabatter og så videre.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg den aktuelle varen, og velg deretter handlingen **Rediger**.  
 3.  Velg handlingen **Leverandører**.  
 4.  Velg feltet **Leverandørnr.**, og velg leverandøren du vil definere for varen.  

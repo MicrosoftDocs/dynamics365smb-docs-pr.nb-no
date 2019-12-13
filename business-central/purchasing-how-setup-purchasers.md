@@ -12,20 +12,20 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: af9673eb790b6e1e89607214b23476e5b415aca3
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 486637c66d7664931308c0133789ec8fbf291090
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577186"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883073"
 ---
 # <a name="set-up-purchasers"></a>Definere innkjøpere
-Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.
+Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side og tilordne en kode til hver enkelt. Deretter kan du bruke kodene til å forberede statistikk og filtrere opplysninger i utskrevne rapporter.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q7hU]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU]
 
 ## <a name="to-set-up-purchasers"></a>Slik definerer du innkjøpere
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere/innkjøpere**, og velg deretter den relaterte koblingen.
 2. På siden **Selgere/innkjøpere** velger du **Ny**.
 3. På siden **Selger/innkjøper** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

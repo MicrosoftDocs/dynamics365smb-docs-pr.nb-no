@@ -1,8 +1,6 @@
 ---
 title: Om lagerkost | Microsoft-dokumentasjon
 description: Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fd2365f26ac762eb1f3edab534e87e163077771f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7243b15ccd94fea5c0630e03f32dd94ab305402
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301978"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882617"
 ---
 # <a name="about-inventory-costing"></a>Om lagerkost
 Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.  
@@ -38,7 +36,7 @@ Administrering av lagerkost handler om å registrere og rapportere forretningsdr
 |Forstå hvordan lagerverdien gjenspeiles i Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Lære hvordan varegebyrer, for eksempel frakt og forsikring, kan tilordne tilleggskostkomponenter til en vares enhetskost.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|  
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
-|Forstå alle mekanismene i kostmotoren, inkludert hva som skjer når du bokfører transaksjoner for montering og produksjon.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|
+|Forstå alle mekanismene i kostmotoren, inkludert hva som skjer når du bokfører transaksjoner for montering og produksjon.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)    

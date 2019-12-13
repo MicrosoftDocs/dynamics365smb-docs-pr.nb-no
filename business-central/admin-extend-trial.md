@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/01/2019
+ms.date: 11/14/2019
 ms.author: bholtorf
-ms.openlocfilehash: bce2f8ec50fa836be87c0f1bd77a28e44b208167
-ms.sourcegitcommit: f9f805282c86fda55843f7a11020fb3df861d50e
+ms.openlocfilehash: 6468ab23e570066bfdc052461ff49f4ae3c03ad5
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "2764627"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808892"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Trenger mer tid til å avgjøre om du vil abonnere?
 Det er viktig å ta de rette avgjørelsene når du velger en forretningsapplikasjon, og vi vet at det kan ta tid å utforske alle detaljene ved [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du trenger flere tid til å fullføre evalueringen, kan du utvide prøveperioden i ytterligere 30 dager. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen.
@@ -31,6 +31,7 @@ Hvis den første 30-dagers prøveperioden er utløpt, kan du utvide den selv, og
 2. Velg varselet øverst i arbeidsområdet, og velg **Forleng prøveperiode**.
 
 ## <a name="see-also"></a>Se også
+
 [Opprette nye seleskaper](about-new-company.md)  
-[Tilgang til en forhåndsvisning](across-preview.md)  
+[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversjoner og abonnementer](across-preview.md)  
 [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner)  

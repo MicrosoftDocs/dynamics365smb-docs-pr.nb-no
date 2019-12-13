@@ -1,8 +1,6 @@
 ---
 title: Definere dokumentutskrift
 description: I Business Central kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d66fde0fbcbee9767db7e1854077aabc16da8546
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 68c6999f5c7f1a9c018e61ff51d6340118bc39a9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301227"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881334"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
@@ -43,7 +41,7 @@ Den norske versjonen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneho
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
 3.  Velg handlingen **Salgsdok.arkskuff - oppsett**.  
 4.  Velg en papirkilde i **Første side - papirkilde**-feltet.  

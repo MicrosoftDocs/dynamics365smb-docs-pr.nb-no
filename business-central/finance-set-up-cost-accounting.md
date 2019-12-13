@@ -1,8 +1,6 @@
 ---
 title: Definere kostregnskap | Microsoft-dokumentasjon
 description: Før du begynner å arbeide med kostregnskap, må du utføre konfigurasjonsprosedyrer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a521280c3a3f3f38e06a37984401652d9fa9e50c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f65755d13ccfb445006fec9dc8c1697777db66c4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301735"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882501"
 ---
 # <a name="setting-up-cost-accounting"></a>Definere kostregnskap
 Før du begynner å arbeide med kostregnskap, må du utføre konfigurasjonsprosedyrer.
@@ -38,7 +36,7 @@ Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagra
 -   Opprett et nytt kosttypediagram, eller legg til nye kosttyper i det eksisterende kosttypediagrammet. Du må opprette hver enkelt nye kosttype individuelt.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Slik overfører du finanskontoplanen til diagrammet med kosttyper:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kosttyper**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kosttyper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Hent kosttyper fra kontoplan**. Klikk **Ja**-knappen i dialogboksen for å bekrefte overføringen. Funksjonen bruker kontoplanen til å opprette et diagram med kosttyper.  
 
     Diagrammet over kostnadstypene inneholder nå alle resultatkontiene i finans og inkluderer overskrifter og delsummer. Du kan endre diagrammet med kosttyper etter behov. Du kan for eksempel slette eksisterende kosttypeduplikater.  
@@ -100,7 +98,7 @@ Kostsentre er avdelinger som er ansvarlig for kostnader og inntekter. Diagrammet
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Slik overfører du dimensjonsverdier i finans til diagrammet med kostsentre:  
 1.  Angi en dimensjon som kostsenterdimensjon på siden **Oppdater kostregnskapsdimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
-2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kostsentre**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kostsentre**, og velg deretter den relaterte koblingen.  
 3.  I fanebladet **Handlinger**, under **Funksjoner** velger du **Hent kostsentre fra dimensjon** for å overføre dimensjonsverdier til kostsenterdiagrammet. Funksjonen overfører dimensjonsverdiene som du definerte i trinn 1.  
 
     > [!NOTE]  
@@ -133,7 +131,7 @@ Kostobjekter er et selskaps prosjekter, produkter eller tjenester. Diagrammet me
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Slik overfører du dimensjonsverdier fra finans til diagrammet med kostobjekter:  
 1.  Angi en dimensjon som kostobjektdimensjon på siden **Oppdatere KR-dimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
-2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kostobjekter**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Diagram med kostobjekter**, og velg deretter den relaterte koblingen.  
 3.  Velg **Hent kostobjekter fra dimensjon** for å overføre dimensjonsverdier til kostobjektdiagrammet. Funksjonen overfører dimensjonsverdiene som du definerte i trinn 1.  
 
     > [!NOTE]  

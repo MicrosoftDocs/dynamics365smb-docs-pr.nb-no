@@ -1,8 +1,6 @@
 ---
 title: Plassere produksjonsavgang | Microsoft-dokumentasjon
 description: Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6d1684b170d050392b02a9b40070b17ff22ebd47
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d2a8e53d26ea6a6f0ab591b9695acb39024348b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314583"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881681"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
 Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
@@ -64,7 +62,7 @@ Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen
 >  Når lagerlokasjonen er definert til å bruke lagerstyring, er lageret koblet til produksjonsfunksjonen gjennom standardproduksjonshyllene: Dette er de inngående, utgående og åpne produksjonshyllene, som alle defineres på hurtigfanen **Hyller** på lokasjonskortet. Når du bokfører avgangen til en produksjonsordre, plasseres avgangen i den **utgående produksjonshyllen**. Du følger samme fremgangsmåte som den beskrevet ovenfor, til å plassere produksjonsavgangen, bortsett fra at i stedet for å bruke varens standardhylle vil du flytte eller plassere varene fra den **utgående produksjonshyllen** til varens standardhylle.  
 
 ## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Angi en hylle for plassering av varer fra produksjonsavgang manuelt  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut hodet, og opprett en linje for hver vare du vil flytte til lageret.  
 3.  Fyll ut både feltet **Fra hylle-kode** og feltet **Til hylle-kode**, og angi antallet i feltet **Antall**.  
 4.  Hvis du vil fylle ut forslagslinjene med hele hylleinnholdet eller det filtrerte hylleinnholdet i hyller i lokasjonen, velger du handlingen **Hent hylleinnhold**.  

@@ -1,8 +1,6 @@
 ---
 title: Selge lagervarer i monter-til-ordre-flyter | Microsoft-dokumentasjon
 description: Hvis varen er definert for et kort for en Monter til ordre, forutsetter standard ordreprosess at varen ikke er på lager og må monteres for denne bestemte ordren. Det blir derfor automatisk opprettet en monteringsordre når du legger varen til på en ordrelinje.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98d5b9e7efb4d195512010d9c18f875c946bcef7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 53118269f151ec0768f80151613afbbf36d8d075
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307663"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880811"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i monter-til-ordre-flyter
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til ordre**, forutsetter standard ordreprosess at varen ikke er på lager og må monteres for denne bestemte ordren. Det blir derfor automatisk opprettet en monteringsordre når du legger varen til på en ordrelinje. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md). Hvis en del av (eller hele) ordreantallet allerede er tilgjengelig i beholdningen, kan du redusere monteringsordreantallet ved å endre feltet **Ant. som skal monteres til ordre** på ordrelinjen.  
@@ -35,7 +33,7 @@ Det finnes lignende funksjonalitet når du selger monteringsvarer fra beholdning
 I denne fremgangsmåten erstatter du montere-til-ordre-antall med lagerantall på en ordrelinje. Trinnene inkluderer å finne ut om det er tilgjengelighet, trekke fra dette antallet fra den koblede monteringsordren og deretter reservere lagerantallet for å sikre at det blir plukket og levert for ordren.  
 
 ## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i montere til ordre-flyter  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3.  På en salgsordrelinje for en montere-til-ordre-vare angir du forespurt antall i feltet **Antall**.  
 4.  Finn ut om alt eller noe av behovsantallet er disponibelt, i faktaboksen **Salgslinjedetaljer**.  

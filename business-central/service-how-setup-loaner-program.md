@@ -1,8 +1,6 @@
 ---
 title: Definere utlånsobjekter | Microsoft-dokumentasjon
 description: Du kan definere utlånsobjekter som du kan låne ut til kunder for å erstatte servicevarer mens de får service.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: aa614e87a6414cb0d96f1130f02d40898cc2f2e3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311863"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877474"
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
 Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  

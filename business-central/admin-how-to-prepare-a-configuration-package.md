@@ -1,8 +1,6 @@
 ---
 title: Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon
 description: Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0f74b3472b081d7968336fd16b6ef6addccff861
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307999"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879253"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data). 
@@ -119,7 +117,7 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 2. Finn tabellene i konfigurasjonsforslaget som inneholder dataene du vil vise eller tilpasse.  
 
     > [!NOTE]  
-    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]\-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
+    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
 
 3. Velg handlingen **Databasedata**. Siden for den relaterte siden åpnes.
 4. Se gjennom informasjonen som er tilgjengelig. Endre den etter behov ved å slette poster som ikke er relevante eller ved å legge til nye.    

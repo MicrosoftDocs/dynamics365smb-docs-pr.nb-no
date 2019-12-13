@@ -1,8 +1,6 @@
 ---
 title: Konfigurere arbeidstimer og servicetimer | Microsoft-dokumentasjon
 description: Du kan angi de vanlige servicearbeidstimene i selskapet. Disse servicetimene brukes til å beregne responsdatoen og -klokkeslettet for serviceordrer og -tilbud, og til å sende advarsler om responstid.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3adc4f10e8a5b9d26440bf47170f117de7e17310
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6aaf78756f091d70a1a33532afbafb14a5b29bc7
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311767"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877282"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbeidstimer og servicetimer
 Med et servicesystem kan du vanligvis spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har innebygde verktøy du kan tilpasse for å registrere denne typen informasjon.  
@@ -29,7 +27,7 @@ Når du arbeider med en serviceordre, vil du oppdaterer statusen slik at du kan 
 ## <a name="to-set-up-default-service-hours"></a>Slik definerer du Standard servicetimer  
 Du bruker siden **Standard servicetimer** til å definere selskapets normale antall servicearbeidstimer. Disse servicetimene brukes til å beregne responsdatoen og -klokkeslettet for serviceordrer og -tilbud, og til å sende advarsler om responstid. Standard servicetimer brukes for servicekontrakter hvis du ikke angir spesifikke servicetimer for en kontrakt.  
   
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Standard servicetimer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Standard servicetimer**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!IMPORTANT]  
@@ -38,18 +36,18 @@ Du bruker siden **Standard servicetimer** til å definere selskapets normale ant
 ## <a name="to-set-up-work-hour-templates"></a>Definere arbeidstidsmaler
 Du kan bruke siden **Arbeidstidsmal** til å definere maler som inneholder vanlige arbeidstider i selskapet. Du kan for eksempel opprette maler for heltidsteknikere og deltidsteknikere. Du kan bruke arbeidstidsmaler når du legger til kapasitet i ressurser.  
   
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidstidsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidstidsmaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
   
 > [!Note]
 > Når du har angitt arbeidstimer for hver dag, beregnes verdien i feltet **Sum per uke** automatisk.  
 
 ## <a name="to-set-up-contract-specific-service-hours"></a>Slik definerer du kontraktsspesifikke servicetimer  
-Du kan bruke siden  **Servicetimer** til å definere spesifikke servicetimer timer for kunden som eier servicekontrakten. Servicetimer brukes til å beregne responsdatoen og -tiden for serviceordrer og -tilbud som hører til servicekontrakten.  
+Du kan bruke siden **Servicetimer** til å definere spesifikke servicetimer timer for kunden som eier servicekontrakten. Servicetimer brukes til å beregne responsdatoen og -tiden for serviceordrer og -tilbud som hører til servicekontrakten.  
   
 Hvis du ikke definerer spesifikke servicetimer for servicekontrakten, brukes standard servicetimer for servicekontraktene.  
   
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter**, og velg deretter den relaterte koblingen.  
 2. Åpne servicekontrakten du vil definere spesifikke servicetimer for, og velg **Servicetimer**.  
 4. Hvis du vil definere servicetimer basert på standard servicetimer, velger du handlingen **Kopier std. servicetimer**.  
 5. Rediger feltene i servicetimepostene. Sett inn eller slett poster for å definere servicetimer for kontrakten. Merk at feltene **Dag**, **Starttidspunkt** og **Sluttidspunkt** kreves for hver linje.  

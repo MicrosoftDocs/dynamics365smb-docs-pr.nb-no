@@ -1,8 +1,6 @@
 ---
 title: Definere gjentakelsesgrupper
 description: I feltet Kode for gjentakelsesgruppe på Rammebestillinger-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c64128b3f738e96aebfce16081202b08c7649af5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8b66d417f91cb436dd5d992747269044825b7787
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301221"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881331"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
 
 ## <a name="to-set-up-recurring-groups"></a>Slik oppretter du gjentakelsesgrupper:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

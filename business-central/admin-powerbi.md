@@ -11,18 +11,18 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: bmeier
-ms.openlocfilehash: e17485563e331f7e78500650e174f6b2b57bbb8e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307975"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879109"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 
 Få innsikt i [!INCLUDE[prodshort](includes/prodshort.md)]-dataene på en enkel måte med [!INCLUDE[prodshort](includes/prodshort.md)]-appene for Power BI. Power BI henter dataene, og deretter bygger du et forhåndskonfigurert instrumentbord og rapporter basert på dataene.  
 
-Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-apper krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
+Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-apper krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
 
 > [!IMPORTANT]
 > Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Hvis du vil installere en Power BI-app, må du også ha en Power BI Pro-lisens.  Når Power BI-appen er installert, kan den deles med brukere med en hvilken som helst lisenstype.
@@ -214,7 +214,7 @@ Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en PowerApps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Microsoft Flow](across-how-use-financials-data-source-flow.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

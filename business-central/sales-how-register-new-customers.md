@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 2d8ef273db1211228e71df30af77bc572a23f75d
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 1fcf6032b7084f0893d7a9ffa24c68b9ecb55c5f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577138"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877522"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 Kunder er kilden til dine inntekter. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -27,10 +27,10 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 > [!NOTE]  
 >   Hvis det finnes kundemaler for ulike kundetyper, vises en side når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.
 <br><br>
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3PZsM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2. På siden **Kunder** velger du handlingen **Ny**.
 
     Hvis det bare finnes én kundemal, åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.

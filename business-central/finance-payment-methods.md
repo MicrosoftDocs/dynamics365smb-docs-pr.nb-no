@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: e5b58fa76525274f34595fecb2a84632bb7af50b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 753b9f30648059a68c22b524008e21c6c866d19c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301855"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882545"
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsmåter
 Betalingsmåter definerer hvordan du foretrekker at kunder betaler deg, og hvordan du vil betale leverandørene. Metoden kan variere for hver kunde eller leverandør. Eksempler på typiske betalingsmåter er **bank**, **kontant**, **sjekk** eller **konto**.
@@ -24,7 +24,9 @@ Du kan knytte en betalingsmåte til kunder og leverandører slik at den samme me
 
 Samme betalingsmåter brukes for salgs- og kjøpsdokumenter. For eksempel en _kontant_ betalingsmåte brukes både når du foretar betalinger og når du mottar dem. [!INCLUDE[d365fin](includes/d365fin_md.md)] vet at når du oppretter en salgsfaktura, forventer du å motta betaling, og motsatt for kjøpsfakturaer.
 
-Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte retninger, fra deg til leverandøren og fra leverandøren til deg. En standard betalingsmåte tilordnes derfor ikke til kreditnotaer. Du kan imidlertid unngå dette hvis du har angitt betalingsbetingelser for kunden eller leverandøren. Selv om feltet **Beregn kontantrab. for kred.nota** ikke er beregnet for dette, hvis du velger å merke av i boksen på **Betalingsbetingelser**, legges en standard betalingsmåte til når du oppretter en kreditnota.
+Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte retninger, fra deg til leverandøren og fra leverandøren til deg. En standard betalingsmåte tilordnes derfor ikke til kreditnotaer. Du kan imidlertid unngå dette hvis du har angitt betalingsbetingelser for kunden eller leverandøren. Selv om feltet **Beregn kontantrab. for kred.nota** ikke er beregnet for dette, hvis du velger å merke av i boksen på **Betalingsbetingelser**, legges en standard betalingsmåte til når du oppretter en kreditnota. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys]
 
 ## <a name="to-set-up-a-payment-method"></a>Slik definerer du betalingsmåter
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.

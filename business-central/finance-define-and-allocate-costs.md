@@ -1,8 +1,6 @@
 ---
 title: Definere og fordele kostnader | Microsoft-dokumentasjon
 description: Kostfordelinger flytter kostnader og inntekter mellom kosttyper, kostsentre og kostobjekter. Du kan definere så mange fordelinger som du trenger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8261dee0b2ba56d9aec707b5614999697e19ef62
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7e66411200823961936e5c596461a9f227a85d9f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306391"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879803"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og fordele kostnader
 Kostfordelinger flytter kostnader og inntekter mellom kosttyper, kostsentre og kostobjekter. Du kan definere så mange fordelinger som du trenger. Hver fordeling består av:  
@@ -40,7 +38,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. Fordelingskilden fastsetter hvilke kostnader som blir fordelt. Fordelingsmålene fastsetter hvor kostnadene skal fordeles.  
 
 ### <a name="to-set-up-cost-allocations"></a>Definere kostfordelinger  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2.  På siden **Kostfordeling** velger du **Rediger**.  
 3.  Angi en ID for fordelingskilde i **ID**-feltet.  
 4.  Definer et nivå som et tall mellom 1 og 99 i **Nivå**-feltet. Fordelingsbokføringen vil følge rekkefølgen på nivåene.  

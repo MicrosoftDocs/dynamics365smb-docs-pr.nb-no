@@ -1,8 +1,6 @@
 ---
 title: Reservere varer| Microsoft-dokumentasjon
 description: Du kan reservere varer for ordrer, bestillinger og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokumentlinjer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8e951085df03dbb2ca444a9ab62db87447ec1368
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6e17d357aeb39f9a77266ae9e8593702080d389
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309751"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878284"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet på **Reservasjon**-siden.
@@ -26,7 +24,7 @@ Hver linje på **Reservasjon**-siden, som du åpner for å reservere varer, vise
 
 ## <a name="to-reserve-items-for-sales"></a>Slik reserverer du varer for salg
 Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fremgangsmåten er lignende for kjøps- service- og monteringsordrer.  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  I en ordre, i hurtigfanen **Linjer** velger du **Reserver**-handlingen. **Reservasjon**-siden åpnes.  
 3. Velg linjen som inneholder varene du vil reservere.  
 4. Velg en av de følgende handlingene.  
@@ -86,7 +84,7 @@ Fra utgående dokumenter for varesporede varer, for eksempel ordrer eller produk
 Dette kalles en spesifikk reservasjon, fordi du reserverer fra antallet av varen X som tilhører partiet X. Hvis du bare reserverer fra antall av varen X, er dette en normal, ikke-spesifikk reservasjon. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md).
 
 Følgende fremgangsmåte er basert på en ordre.    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ordrelinje for en varesporet vare.  
 3. Tilordne serie- eller partinumre til ordrelinjen. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 4. Velg handlingen **Reserver** på ordrelinjen.  

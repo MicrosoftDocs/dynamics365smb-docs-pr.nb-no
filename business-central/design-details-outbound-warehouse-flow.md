@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Utgående lagerflyt | Microsoft-dokumentasjon
 description: Den utgående flyten på lageret begynner med en forespørsel fra frigitte kildedokumenter om å sende varene ut av lagerlokasjonen, for å leveres til en ekstern part eller en annen selskapslokasjon. Fra lagringsområdet utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer ut til leveringsområdene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c5a3ce2049b1686da04842f7c73abb2255369ffa
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 973c248473f2f2eebc10e095f619b51e48de7886
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306991"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880115"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
 Den utgående flyten på lageret begynner med en forespørsel fra frigitte kildedokumenter om å sende varene ut av lagerlokasjonen, for å leveres til en ekstern part eller en annen selskapslokasjon. Fra lagringsområdet utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer ut til leveringsområdene.  
@@ -76,7 +74,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 ## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett  
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i avanserte lageroppsett](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avanserte lageroppsett")  
+ ![Utgående flyt i avansert lageroppsett](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avansert lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument  
  Når en bruker som er ansvarlig for kildedokumenter, for eksempel en ordrebehandler eller produksjonsplanlegger, er klar for den utgående lageraktiviteten, frigir vedkommende kildedokumentet for å signalisere til lagermedarbeidere at solgte varer eller komponenter kan plukkes og plasseres i de angitte hyllene.  

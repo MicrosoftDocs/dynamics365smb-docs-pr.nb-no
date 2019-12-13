@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a77c5bcadb15cd1180fc102a1f15881d0cc5db5a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8c8714bc1f12b6fd4bf68124cf1797bfa89ece6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315663"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882257"
 ---
 # <a name="copy-and-paste-faq"></a>Vanlige spørsmål om kopiere og lime inn
 Du kan kopiere en eller flere rader (poster) fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post). Kort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS).
@@ -38,7 +38,7 @@ Hvis du vil kopiere én rad, merker du den og trykk deretter på Ctrl+C.
 
 Hvis du vil kopiere flere rader, kan du:
 - Trykke Ctrl+klikk på på annen rad eller Skift+klikk for å merke raden og alle rader i mellom. Se [Tastatursnarveier](keyboard-shortcuts.md#CopyRows) for flere mus- og tastaturkombinasjoner for å velge rader.
-- Velg ![Vis flere alternativer](media/show-more-options-icon.png "Vis flere alternativer-ikonet") i den første kolonnen, velg **Velg flere**, merk av for hver rad du vil kopiere, og trykk Ctrl+C.
+- Velg ikonet ![Vis flere alternativer](media/show-more-options-icon.png "Ikonet Vis flere alternativer") i den første kolonnen, velg **Velg flere**, merk av for hver rad du vil kopiere, og trykk Ctrl+C.
 
 ## <a name="how-do-i-paste-rows"></a>Hvordan limer jeg inn rader?
 Merk en tom rad, med fokus i en hvilken som helst celle, og trykk deretter CRTL+V.
@@ -56,7 +56,7 @@ Ja. Dette limes inn som en flott formatert tabell som beholder innrykk, numerisk
 ## <a name="in-which-lists-can-i-copy-and-paste-rows"></a>I hvilke lister kan jeg kopiere og lime inn rader?
 Du kan kopiere rader i en hvilken som helst type liste, inkludert forslag, faktabokser eller lister som er bygd inn på en side (for eksempel linjer i en ordre). For å kunne lime inn rader må listen imidlertid kunne redigeres.
 
-På enkelte sider kan programmetutformingen forhindre deg fra å lime inn rader. Kontakt systemansvarlig eller programvareutvikleren for å endre den [redigerbare egenskapen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på siden eller [PasteIsValid-egenskapen](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i kildetabellen.
+På enkelte sider kan programmetutformingen forhindre deg fra å lime inn rader. Kontakt systemansvarlig eller programvareutvikleren for å endre den [redigerbare egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på siden eller [PasteIsValid-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i kildetabellen.
 
 ## <a name="on-which-clients-is-copy-and-paste-available"></a>På hvilke klienter er kopiering innliming tilgjengelig?
 Kopiering og innliming er tilgjengelig i nettleseren eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen for Windows 10.

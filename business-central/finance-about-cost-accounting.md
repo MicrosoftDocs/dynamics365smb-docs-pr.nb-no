@@ -1,8 +1,6 @@
 ---
 title: Om kostregnskap | Microsoft-dokumentasjon
 description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 053a0ca21ff26b53cabcc8894ed1cd0e48c904b0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ab142468f152b6430d5454c29a5b663be954412
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302671"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879875"
 ---
 # <a name="about-cost-accounting"></a>Om kostregnskap
 Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere:  

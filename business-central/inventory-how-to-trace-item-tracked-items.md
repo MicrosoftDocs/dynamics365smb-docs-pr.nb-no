@@ -1,8 +1,6 @@
 ---
 title: Spore varesporede varer | Microsoft-dokumentasjon
 description: Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og Naviger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3581babda20b1645168785adb6efc2000fb92e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cd97605ec3f000e738cde06fa44c6bc4ccc49499
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309727"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878248"
 ---
 # <a name="trace-item-tracked-items"></a>Spore varesporede varer
 Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og Naviger.  
@@ -32,7 +30,7 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 
 ## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
 2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst på siden.  
 3.  Velg om du også vil vise hvor komponentene for varen kommer fra, i feltet **Vis komponenter**. Alternativene i dette feltet er som følger.  
 
@@ -61,7 +59,7 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 
 ## <a name="to-find-item-tracked-items-with-navigate"></a>Slik søker du etter varesporede varer med Naviger:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Naviger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Naviger**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Varesporing**, under **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
 3.  Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
 

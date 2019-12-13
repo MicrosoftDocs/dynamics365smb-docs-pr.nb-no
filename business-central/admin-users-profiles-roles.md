@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: profiles, users
 ms.date: 11/06/2019
 ms.author: sgroespe
-ms.openlocfilehash: b96b5cbff2ec182ab1a7254ee3384a6d1869e3c4
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775430"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809036"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 Alle brukere av [!INCLUDE[d365fin](includes/d365fin_md.md)] får tilordnet en profil som gjenspeiler forretningsrollen sin, avdelingen de arbeider i, eller en annen kategorisering. Profiler gjør det mulig for administratorer å definere og administrere sentralt hva ulike typer brukere kan se og gjøre i brukergrensesnittet, slik at de kan utføre forretningsoppgavene effektivt.
@@ -22,7 +22,7 @@ Alle brukere av [!INCLUDE[d365fin](includes/d365fin_md.md)] får tilordnet en pr
 
 Som administrator kan du opprette og behandle profiler på siden **Profiler (roller)**. Hver profil har et kort der du håndterer ulike innstillinger for den relaterte rollen, for eksempel rollenavnet, brukerinnstillingene og hvilket rollesenter profilen bruker. Hvis du vil ha mer informasjon om brukerinnstillinger og rollesentre, se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
-Før du kan administrere brukernes profiler må brukerne opprettes og legges til ved hjelp av Office 365-administrasjonssenteret. Deretter kan du tilordne tillatelser til hver bruker eller brukergruppe for å definere hvilke funksjoner de kan vise og/eller redigere. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
+Før du kan administrere brukernes profiler må brukerne opprettes og legges til ved hjelp av Microsoft 365-administrasjonssenteret. Deretter kan du tilordne tillatelser til hver bruker eller brukergruppe for å definere hvilke funksjoner de kan vise og/eller redigere. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sidetilpasning
 Du kan tilpasse sideoppsett for en profil, slik at alle brukerne som er tilordnet profilen, ser de tilpassede sidene. Som administrator kan du tilpasse sider ved å bruke samme funksjonalitet som brukere gjør når de tilpasser. Hvis du vil ha mer informasjon, kan du se [Tilpasse sider for profiler](ui-personalization-manage.md).

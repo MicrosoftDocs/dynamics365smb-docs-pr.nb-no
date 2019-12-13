@@ -1,8 +1,6 @@
 ---
 title: Låne ut servicevarer som erstatninger | Microsoft-dokumentasjon
 description: Du kan låne ut utlånsvarer til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ab7950ca4b7d9239c6ab011fcff8a34392f8b800
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4b8ba590f2ee02fd0b9381381f5590641e46ac51
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311671"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882377"
 ---
 # <a name="lend-and-receive-loaners"></a>Låne ut og mottar utlånsobjekter
 Du kan låne ut utlånsobjekter til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.  
   
 ## <a name="to-lend-a-loaner-item"></a>Slik låner du ut en utlånsvare    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne det aktuelle serviceordrekortet.  
 3. Velg servicevarelinjen med servicevaren som du vil erstatte med et utlånsobjekt.  
 4. I **Utlånsobj.nr.**- -feltet velger den relevante utlånvaren.  

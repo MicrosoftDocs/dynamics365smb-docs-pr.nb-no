@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, Office 365
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: c28118ad9aa894678e4630800c638cf252c4f524
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5690d09423deab5d56b848688f82061c7765e02c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307764"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879019"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisere kontakter i Business Central med kontakter i Microsoft Outlook
 Du kan se de samme kontaktene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ser i Outlook, hvis du definerer kontaktsynkronisering. Hvis for eksempel du er selger, gjør du kanskje noe arbeid i Outlook og noen av arbeidet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis kontaktene er de samme begge steder, er arbeidet mer enkelt.  
@@ -53,4 +53,4 @@ I Outlook vises kontaktene fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i en 
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Bruke kontakter (personer) i Outlook på Internett](https://support.office.com/en-us/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  
+[Bruke kontakter (personer) i Outlook på Internett](https://support.office.com/article/Using-contacts-People-in-Outlook-on-the-web-1e3438c7-26b2-420c-87de-3cea9d31b5cb?appver=OWB150)  

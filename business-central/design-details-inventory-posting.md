@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Lagerbokføring | Microsoft-dokumentasjon
 description: Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokfører to postene av forskjellige typer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 71ee3624868f546ec7b45f5177dcc61acc5b7a21
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: dc3e997d0ca29c680cd6a915751a368dd77a5433
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303402"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880307"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokføring
 Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokfører to postene av forskjellige typer.  

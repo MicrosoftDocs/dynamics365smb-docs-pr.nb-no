@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Tilgjengelighet i lageret | Microsoft-dokumentasjon
 description: Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3cf793197ad607071df22aacb2fb98f96ac54597
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303799"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880619"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
 Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.  

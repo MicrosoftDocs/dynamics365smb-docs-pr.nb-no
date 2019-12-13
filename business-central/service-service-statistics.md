@@ -1,8 +1,6 @@
 ---
 title: Servicestatistikk | Microsoft-dokumentasjon
 description: Få en rask oversikt over innholdet i servicedokumenter, som ordrer, tilbud, fakturaer eller kreditnotaer, detaljene i bestemte servicelinjer og servicevarene.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 9016412d32176a99ca84831566d7bbb628ec88a8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 95bed832d95647ea538324544c302054328cae66
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553845"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877162"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   
@@ -86,7 +84,7 @@ En kontraktresultatpost genereres når et kontrakttilbud konverteres til en serv
 |**Kontraktresultat (årsaker)**|Slik viser du kontraktresultat etter årsakskode.|  
 |**Kontraktresultat (ansv.sent)**|Slik viser du kontraktresultat etter ansvarssenter.|  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på siden som skal vises. og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på siden som skal vises, og velg deretter den relaterte koblingen.  
 2. Fyll ut filtervilkårene du vil bruke. Velg for eksempel en verdi for **Filter for årsaksspor** på siden **Kontraktresultat (årsaker)**.  
 3. Velg handlingen **Vis matrise**.
 

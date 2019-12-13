@@ -1,8 +1,6 @@
 ---
 title: Planlegge ordre for ordre | Microsoft-dokumentasjon
 description: Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ecc317449642dafe43f294ecefba386ba7e08f51
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: aa0d9039ff48d05e0a96ceb5480b40cde864499c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313351"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883217"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlegge for nytt behov bestilling for bestilling
 Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.  
@@ -33,7 +31,7 @@ Du kan åpne **Ordreplanlegging**-siden på to måter, avhengig av fokus: fra en
 Siden viser planleggingslinjer i henhold til visningsfilteret **Produksjonsbehov**, som betyr komponentlinjer som ikke er oppfylt for alle eksisterende produksjonsordrer. De vises ikke behov for bare den ene produksjonsordren, fordi du må planlegge for én produksjonsordre med en oversikt over behov for eventuelle tidligere komponentlinjer. Planleggingslinjer for produksjonsordren i konteksten utvides.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Slik planlegger du for et nytt behov  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsplanlegging**, og velg deretter den relaterte koblingen.  
 2.  På **Ordreplanlegging**-siden velger du handlingen **Beregn plan**.
 3.  Velg **Utvid (+)**-knappen foran datoen i **Behovsdato**-feltet for å se de underliggende planleggingslinjene som representerer behovslinjer med utilstrekkelig tilgjengelighet.  
 4.  For hver utvidede planleggingslinje, det vil si behovslinje, kan du vise verdier i informasjonsfeltene nederst på siden.  

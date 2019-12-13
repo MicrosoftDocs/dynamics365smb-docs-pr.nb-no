@@ -1,8 +1,6 @@
 ---
 title: Opprette ruter | Microsoft-dokumentasjon
 description: En rute inneholder hoveddata som gjenspeiler prosesskravene for en gitt produsert vare. Når en produksjonsordre opprettes for denne varen, styrer varens rute planleggingen av operasjonen(e) som vist på siden **Prod.ordrerute** under produksjonsordren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aa03051a02309944c66d3fdf89de12627af8c4bf
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 79875b770dba5ef7b074bd3b7c52858f37951c25
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314099"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883289"
 ---
 # <a name="create-routings"></a>Opprette ruter
 Produksjonsselskaper bruker ruter til å visualisere og dirigere produksjonsprosessen.
@@ -32,7 +30,7 @@ Før du kan definere en rute, må følgende være på plass:
 - Produksjonsressurser er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-routing"></a>Slik oppretter du en rute  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Velg **Seriell** i **Type**-feltet for å beregne produksjonsruten i henhold til verdien i **Operasjonsnr.**-feltet .   
@@ -63,7 +61,7 @@ Du kan opprette rutekoblinger til å koble komponenter til bestemte operasjoner 
 
 En annen viktig fordel er at koblede komponenter og operasjoner vises i en logisk prosesstruktur når du bruker **Produksjonskladd**-siden til bokføring av avgang og forbruk.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Åpne ruten som inneholder operasjonene du vil koble.  
 
     Kontroller at rutestatus er **Under utvikling**.  
@@ -94,7 +92,7 @@ De valgte komponentene kobles nå til de valgte operasjonene når du oppretter e
 ## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Slik tilordner du personellet, verktøyene og kvalitetsmålene til ruteoperasjoner.
 Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell godkjenning for en operasjon, kan du tilordne dette personellet til operasjonen. Du kan dessuten tilordne verktøy og kvalitetskrav til operasjonen. Denne fremgangsmåten beskriver hvordan du tilordner personell. Fremgangsmåten er de samme som for andre typer informasjon om operasjoner.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ruten.  
 3.  På hurtigfanen **Linjer** velger du linjen du vil behandle, og velg deretter **Personell**.  
 4.  Fyll ut feltene på **Rutepersonell**-siden.  
@@ -103,7 +101,7 @@ Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell go
 ## <a name="to-create-a-new-versions-of-a-routing"></a>Slik oppretter du en ny versjon av en rute  
 Med versjonsprinsippet kan du håndtere flere versjoner av en rute. Strukturen i ruteversjonen tilsvarer strukturen i ruten som består av ruteversjonshodet og ruteversjonslinjene. Hovedforskjellen defineres av startdatoen.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
 2.  Velg ruten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3. På siden **Ruteversjoner** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov.

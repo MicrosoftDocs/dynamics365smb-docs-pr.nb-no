@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Bokføre monteringsordre | Microsoft-dokumentasjon
 description: Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3106cb9b89f25470c433b6f33e0e541bcf7c8e31
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4a64e6bf09914ebd24e7d00ac54a286a33cd2026
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307447"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880643"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  
@@ -71,7 +69,7 @@ Gjenkjenningsfunksjonen for ordrenivå brukes i konverteringsscenarier, produksj
 
 Figuren nedenfor viser justeringspoststrukturen og hvordan monteringskostnader justeres.  
 
-![Monteringsrelatert oppføringsflyt under kostjustering](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under kostjustering")  
+![Monteringsrelatert oppføringsflyt under kostjustering](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
 ### <a name="performing-the-adjustment"></a>Utføre justeringen  
 Spredningen av oppdagede justeringer fra material- og ressurskostpriser til monteringsavgangsposter utføres av kjørselen **Juster kostverdi – vareposter**. Den inneholder funksjonen for å justering flere nivåer, som består av følgende to elementer:  

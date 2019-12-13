@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: edupont
-ms.openlocfilehash: e4399c16c28d97c0c1c6d8826af14e1b4a48e454
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff9f17e6ac1625dc4d1f27a39fc843d9eaa375d7
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304975"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896256"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du velge å opprette et tomt firma, slik at du kan laste opp dine egne data og teste det nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet. Avhengig av økonomiløsning som selskapet ditt bruker i dag, kan du overføre informasjon om kunder, leverandører, lager og bankkonti.  
@@ -45,6 +45,9 @@ Når du eksporterer standard konfigurasjonspakke til Excel, inneholder generert 
 
 > [!IMPORTANT]  
 >  Ikke endre kolonnene i forslagene. Hvis du flytter, endrer eller sletter dem, kan ikke regnearket importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+> [!NOTE]
+> Felt av typen blob kan ikke eksporteres/importeres i Excel.
 
 ## <a name="tables-in-the-default-configuration-package"></a>Tabeller i standard konfigurasjonspakke
 Standard konfigurasjonspakke støtter følgende tabeller:

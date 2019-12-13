@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: a8acad8d0be760f567902587acada49ab68e740f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0506dad5f65766919405dd944d75b014957b509c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304936"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879430"
 ---
 # <a name="viewing-list-data-in-power-bi-reports-in-business-central"></a>Vise listedata i Power BI-rapporter i Business Central
 
 [!INCLUDE[prodlong](includes/prodlong.md)] inkluderer en faktaboks kontrollelement på en rekke viktige listesider som gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten. Du kan opprette egendefinerte rapporter for å vises i kontrollen, men det finnes et par regler å følge når du oppretter rapporter for å sikre at de gir den ønskede virkemåten.  
 
 > [!NOTE]  
-> Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Hvis du vil bygge egendefinerte rapporter, må du laste ned [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/). Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).  
+> Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Hvis du vil bygge egendefinerte rapporter, må du laste ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).  
 
 ## <a name="report-data-set"></a>Rapportdatasett
 Når du oppretter rapporten i Power BI Desktop, kan du angi datakilden eller webtjenesten som inneholder dataene som er knyttet til listen som du vil knytte til rapporten. For eksempel, hvis du vil opprette en rapport for salgslisten, sikre at datasettet ikke inneholder informasjon som er knyttet til salg.  

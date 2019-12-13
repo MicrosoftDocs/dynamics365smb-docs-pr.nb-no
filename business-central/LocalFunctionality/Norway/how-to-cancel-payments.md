@@ -1,8 +1,6 @@
 ---
 title: Annullere betalinger
 description: Forbedringer i den norske versjonen gjør det mulig å annullere betalinger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc300a2370ab005f6f6315e8887cece30bcf18a3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7f1e9b6e96bec26219b1a87b79b03ce754eb56e4
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301242"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878828"
 ---
 # <a name="cancel-payments"></a>Annullere betalinger
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
@@ -28,13 +26,13 @@ ms.locfileid: "2301242"
 
 ## <a name="to-cancel-a-payment-order"></a>Slik annullerer du et oppdrag:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  Velg oppdraget, velg **Eksportere**, og velg deretter handlingen **Annullere oppdrag**.  
 3.  Velg **Ja**-knappen.  
 
 ## <a name="to-cancel-a-payment"></a>Slik annullerer du en betaling:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Ventekladd**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ventekladd**, og velg deretter den relaterte koblingen.  
 2.  Velg betalingen, og velg deretter handlingen **Annullere betaling**.  
 3.  Velg **Ja**-knappen.  
 

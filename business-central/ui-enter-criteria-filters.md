@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 9e61ffff9e081d561eb637a398f0bcb05ff69f70
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 412c354313e571969c3ab7aa87210ff432ae0e91
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315615"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882185"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og begrense poster i en liste eller i en rapport eller XMLport. Dette omfatter sortering, søk og filtrering. Du kan bruke noen av eller alle disse samtidig til å finne eller analysere data raskt.
@@ -111,7 +111,7 @@ Filtreringsruten viser gjeldende filtre for en liste og gjør det mulig å angi 
   Enkelte lister som viser beregnede felt, for eksempel beløp og antall, inkluderer delen **Filtrer totaler etter**, der du kan justere forskjellige dimensjoner som påvirker beregninger. Hvis du vil legge til et filter, velger du handlingen **+ Filter**, skriver inn navnet på feltet du vil filtrere listen etter, eller velger et felt fra rullegardinlisten.
 
   > [!NOTE]
-  > Filtre i delen **Filtrer totaler etter** kontrolleres av FlowFilters i utformingen av siden. For teknisk Informasjon, se [FlowFilters](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
+  > Filtre i delen **Filtrer totaler etter** kontrolleres av FlowFilters i utformingen av siden. For teknisk Informasjon, se [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
 
 Du kan angi et enkelt filter direkte i en liste ved hjelp av filtreringsruten, det vil si et filter som viser bare poster med samme verdi som i den valgte cellen. Velg en celle i listen, velg rullegardinpilen, og velg deretter handlingen **Filtrer på denne verdien**. Du kan eventuelt trykke på **Alt+F3**.
 
@@ -127,10 +127,10 @@ Både i filtreringsruten og på forespørselssiden angir du filterkriteriene i b
 
 Typen filterfelt bestemmer hvilke kriterier du kan angi. For eksempel kan filtrering av et felt som har faste verdier, gjøre at du bare kan velge mellom disse verdiene. Du finner mer informasjon om spesielle filtersymboler i [Filterkriterier](#FilterCriteria) og [Filtersymboler](#FilterTokens).
 
-Kolonner som allerede har filtre, angis av ikonet ![filterikon](media/ui-search/filter-icon.png "filterikon") i kolonneoverskriften. Hvis du vil fjerne et filter, velger du rullegardinpilen, og deretter velger du handlingen **Fjern filter**.
+Kolonner som allerede har filtre, angis av ikonet ![filterikon](media/ui-search/filter-icon.png "Filter-ikon") i kolonneoverskriften. Hvis du vil fjerne et filter, velger du rullegardinpilen, og deretter velger du handlingen **Fjern filter**.
 
 > [!TIP]
-> Raskere søk analyse av data ved hjelp av kombinasjoner av tastatursnarveier. Du kan for eksempel velge et felt ved å bruke**Alt+Skift+F3** for å legge til feltet i filtreringsruten, skrive inn filterkriteriene, bruke **Ctrl+Enter** til å returnere til radene, velge et annet felt og bruke **Alt+F3** til å filtrere til den verdien. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
+> Raskere søk analyse av data ved hjelp av kombinasjoner av tastatursnarveier. Du kan for eksempel velge et felt ved å bruke **Alt+Skift+F3** for å legge til feltet i filtreringsruten, skrive inn filterkriteriene, bruke **Ctrl+Enter** til å returnere til radene, velge et annet felt og bruke **Alt+F3** til å filtrere til den verdien. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
 
 ### <a name="FilterCriteria"> </a>Filterkriterier og symboler
 Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan bruke i feltet. I tillegg til dette kan du bruke spesielle symboler (eller operatorer) til å filtrere resultatene ytterligere. Tabellene nedenfor viser hvilke symboler som kan brukes i filtre. For dato og klokkeslett kan du også se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) for mer informasjon.

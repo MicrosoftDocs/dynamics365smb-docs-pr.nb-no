@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3ace06e81029ea38bf393502743716b66b10fe74
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9bb72a85fb49b4316af2160e5823fbf77a18cbf
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316503"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881404"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
 Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles forespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innst
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Opprette og endre lagrede innstillinger for alle brukere
 Du kan administrere lagrede innstillinger på siden **Rapportinnstillinger**. Det er to måter å åpne en side på:
--   Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
+-   Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
 -   Åpne en rapport, velg oppslag i feltet **Bruk standardverdi fra:**, og velg handlingen **Velge fra hele listen**.
 
 Siden viser alle eksisterende lagrede innstillinger for alle brukere. Hvis det er et brukernavn i feltet **Tilordnet**, kan bare den brukeren bruke innstillingene som er lagret for den tilknyttede rapporten. Hvis det er en hake i feltet **Del med alle brukerne**, kan alle brukere bruke innstillingene som er lagret i rapporten.
@@ -52,7 +52,7 @@ Fra siden **Rapportinnstillinger**-siden kan du:
 > Vurder navnet som du gir en post med lagrede innstillinger. Hvis du oppretter en post med lagrede innstillinger for alle brukere, og den har samme navn som en eksisterende post med lagrede innstillinger som er tilordnet en bestemt bruker, kan brukeren ikke bruke posten med lagrede innstillinger som er tilordnet til alle.  I delen **Lagrede innstillinger** på rapportforespørselssiden vil brukeren se to lagrede innstillingsposter med samme navn. Uansett hvilket alternativ som velges, vil imidlertid den brukerspesifikke posten med lagrede innstillingene bli brukt.
 
 > [!NOTE]
-> Funksjonen Lagrede innstillinger er bare tilgjengelig i rapporter der [SaveValues-egenskapen](https://docs.microsoft.com/en-us/dynamics-nav/savevalues-property) for forespørselssiden er satt til **Ja**. **SaveValues**-egenskapen angis i utviklingsmiljøet.  
+> Funksjonen Lagrede innstillinger er bare tilgjengelig i rapporter der [SaveValues-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) for forespørselssiden er satt til **Ja**. **SaveValues**-egenskapen angis i utviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  

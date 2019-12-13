@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – Selge, montere og levere sett | Microsoft-dokumentasjon
 description: Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e138a96bdf2d3a4fd0d06dd913f3434ac4bd5988
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553969"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882065"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -91,7 +89,7 @@ Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:
 
 Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinnene:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet for lokasjonen KR.SAND.  
 3.  I **Hyller**-hurtigfanen angir du **W-10-0001** i feltet **Til-Hyllekode for montering**.  
 
@@ -103,7 +101,7 @@ Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinne
 
 Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **roduksjonsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Produksjonsoppsett** i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
 Opprett lager for monteringskomponenter ved å følge [Klargjøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
@@ -137,7 +135,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ## <a name="prepare-sample-data"></a>Klargjøre eksempeldata  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagervarekladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagervarekladder**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bunkenavn**, og velg deretter standardkladden.  
 3.  Opprette positive lagerjusteringer på HVIT-lokasjonen på arbeidsdatoen, 23. januar, ved å skrive inn følgende informasjon.  
 
@@ -154,14 +152,14 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter synkroniserer du nye lagerposter med lageret.  
 
-5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-siden åpnes.  
+5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen. **Varekladd**-siden åpnes.  
 6.  Velg **Beregn lagerjust.**-handlingen.  
 7.  På siden **Beregn lagerjust.** velger du **OK**-knappen.  
 8.  På siden **Varekladd** velger du **Bokfør**-handlingen, og deretter velger du **Ja**-knappen.  
 
 ### <a name="creating-the-assembly-items"></a>Opprette monteringsvarer  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprette den første monteringsvaren basert på følgende informasjon.  
 
@@ -212,7 +210,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="selling-the-assembly-items"></a>Selge monteringsvarer  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett to ordrelinjer for kunde 62000, Lydeksperten, på arbeidsdatoen med følgende informasjon.  
 
@@ -265,7 +263,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlegge for utilgjengelig ATS-varer  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  Angi følgende filtre på **Beregn Plan**-siden.  
 
@@ -283,7 +281,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere første ATO-antall  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
 
     > [!NOTE]  
     >  I denne delen er personen som er ansvarlig for levering, ansvarlig for å registrere fullført ATO-monteringsarbeid på lagerleveringslinjen. Denne arbeidsflyten kan oppstå i miljøer hvor monteringsarbeidet utføres av personen som er ansvarlig for levering, eller av monteringsarbeidere i leveringsområdet.  
@@ -302,7 +300,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave.  
 
-4.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukk**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 5.  Åpne lagerplukkdokumentet som du opprettet i trinn 3 i denne delen.  
 
     Legg merke til verdien i **Kildedokument**-feltet og at alle plukklinjene er for monteringskomponenter.  
@@ -343,7 +341,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere andre ATO-antall  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 
     Legg merke til at ATO-ordren for leverte enheter av sett B fremdeles er i listen, selv om **Restantall** er tomt. Dette er fordi den tilknyttede ordren fortsatt ikke er fullstendig fakturert.  
 
@@ -379,7 +377,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave.  
 
-5.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukk**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 6.  Åpne lagerplukkdokumentet som du opprettet i trinn 4 i denne delen.  
 
      Fortsett med å registrere plukkingen uten å endre standardinformasjon.  
@@ -395,7 +393,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levering av gjenværende varer, delvis fra lager og delvis montert til ordre  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerlevering**, og velg deretter den relaterte koblingen.  
 2.  Åpne den nyeste lagerfølgeseddelen som er opprettet på lokasjonen KR.SAND.  
 
     Legg merke til at på linjen for ti enheter av sett A er feltene **Levere (antall)** og **Plukket ant.** tomme.  
@@ -406,7 +404,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Deretter utfører du plukkerens siste oppgave for denne lagerleveringen.  
 
-4.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukk**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen.  
 5.  Åpne lagerplukkdokumentet som du opprettet i trinn 3 i denne delen.  
 
     Legg merke til at dette plukkdokumentet er for monteringsvare, ikke for monteringskomponenter.  
@@ -426,7 +424,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Lagerfølgeseddelen fjernes, som indikerer at de involverte lageraktivitetene er fullført. Deretter kontrollerer du at salgsordren har blitt behandlet.  
 
-10. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+10. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 11. Åpne salgsordren for Lydeksperten.  
 
     Legg merke til at feltet **Levert (antall)** inneholder hele antallet på begge linjer.  

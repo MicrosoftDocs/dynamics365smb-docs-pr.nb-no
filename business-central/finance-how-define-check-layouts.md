@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: fea52bfa75d953b96aecc0f3e354806324f77d83
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306319"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808580"
 ---
 # <a name="select-a-check-layout"></a>Velg et sjekkoppsett
 Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt av de lokale myndighetene. Sjekkbilder kan skrives ut på engelsk, fransk eller spansk.
@@ -23,7 +23,7 @@ Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt 
 Sjekkene er utformet for utskrift i sjekkbildeformatene for USA og Canada i formatet sjekk-blankett-sjekk eller blankett-sjekk-blankett.
 
 ## <a name="to-select-a-check-layout"></a>Slik velger du et sjekkoppsett
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportvalg – bankkonto**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportvalg – bankkonto**, og velg deretter den relaterte koblingen.
 2. På siden **Rapportvalg - bankkonto**, i **Bruk**-feltet, velger du **Sjekk**.
 3. Velg én av følgende rapport-ID-er:
 
@@ -36,10 +36,10 @@ Sjekkene er utformet for utskrift i sjekkbildeformatene for USA og Canada i form
 
 Når du har definert sjekkoppsettene, kan du skrive ut sjekker fra siden **Betalingskladd**. Hvis du vil ha mer informasjon, kan du se [Arbeide med sjekker](payables-how-work-checks.md).
 
-Hvis du vil endre en av disse standardsjekkoppsettene, bruker du Word- eller RDLC-integrasjonen til å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett eller dokumentoppsett](ui-how-create-custom-report-layout.md).
+Hvis du vil endre en av disse standardsjekkoppsettene, bruker du Word- eller RDLC-integrasjonen til å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
 ## <a name="see-also"></a>Se også
-[Opprette og endre et egendefinert rapportoppsett eller dokumentoppsett](ui-how-create-custom-report-layout.md)  
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Håndtere bankkonti](bank-manage-bank-accounts.md)   
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  

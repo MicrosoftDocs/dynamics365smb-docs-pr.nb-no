@@ -1,8 +1,6 @@
 ---
 title: Opprette produksjonsstykklister | Microsoft-dokumentasjon
 description: En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cbab5a90341fa3e04d47c8846b2f139febadcdf4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: edb5cec5d9cf4872dc105828055a555819d4fd33
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553749"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878002"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.

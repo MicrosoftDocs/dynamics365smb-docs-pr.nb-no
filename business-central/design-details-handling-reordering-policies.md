@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Håndtere gjenbestillingsprinsipper | Microsoft-dokumentasjon
 description: Oversikt over oppgaver for å definere en gjenbestillingspolicy ved forsyningsplanlegging.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 53d9d0ff2d9d1f42bb7f9c05ed49aa4df20f2a92
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0708a78be4dbd70d8555b8c088fedd88d3fb5459
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307159"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880475"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Håndtere gjenbestillingsprinsipper
 Det må angis et gjenbestillingsprinsipp for at en vare skal kunne delta i forsyningsplanlegging. Det finnes fire gjenbestillingsprinsipper:  
@@ -69,7 +67,7 @@ Følgende sekvens beskriver hvordan det forventede beholdningsnivået fastsettes
 
 Nedenfor vises en grafisk illustrasjon av dette prinsippet:  
 
-![Fastslå forventet lagernivå](media/nav_app_supply_planning_2_projected_inventory.png "Fastslå forventet lagernivå")  
+![Fastslå forventet beholdningsnivå](media/nav_app_supply_planning_2_projected_inventory.png "Fastslå forventet beholdningsnivå")  
 
 1. Forsyning **Sa** med 4 (fast) lukker behov **Da** med -3.  
 2. CloseDemand: Opprett en reduksjonspåminnelse med verdien -3 (vises ikke).  

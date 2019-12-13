@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – Planlegge forsyninger manuelt | Microsoft-dokumentasjon
 description: Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: cf3a0653b4094b9e7d90be2909572ed831863c4f
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554671"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876970"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
 
@@ -69,7 +67,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
 ### <a name="to-use-the-order-planning-page"></a>Slik bruker du siden Ordreplanlegging:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsplanlegging**, og velg deretter den relaterte koblingen.  
 
      Når siden **Ordreplanlegging** åpnes for første gang, må en plan beregnes for å vise det nye behovet siden det sist ble beregnet.  
 
@@ -227,7 +225,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Meldingen angir at alle nødvendige varer nå er forsynt. Kontroller de fast planlagte produksjonsordrene som opprettes.  
 
-13. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
+13. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
 
      Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, på siden **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
 

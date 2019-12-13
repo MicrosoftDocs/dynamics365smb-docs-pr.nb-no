@@ -1,8 +1,6 @@
 ---
 title: Arkivere salgs- og kjøpsdokumenter | Microsoft-dokumentasjon
 description: Du kan arkivere salgs- og kjøpsordrer, tilbud, ordrereturer og rammeordrer, og du kan bruke det arkiverte dokumentet til å gjenopprette dokumentet som den ble arkivert fra.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8a3bda8a7f4f953265e4191ac65b052e5af80157
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 41fabf67e34813323da0fd0b2acb32a904abeea9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305503"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878776"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
 Du kan arkivere ordrer, bestillinger, tilbud, ordrereturer og rammebestillinger, for eksempel fordi du vil lagre en kopi av et dokument til bruk senere. Du arkivere et salgs- eller kjøpsdokument flere ganger og lagre en annen arkiverte versjon hver gang.
@@ -30,7 +28,7 @@ For arkiverte dokumenter der originalen er slettet, kan du bare bruke innholdet 
 Du kan konfigurere automatisk arkivering av salgs- og kjøpsordrer, tilbud, rammebestillinger og returordrer før du sletter dokumenter.
 
 Fremgangsmåten nedenfor beskriver hvordan du konfigurerer automatisk arkivering av salgsdokumenter. Fremgangsmåten er den samme for kjøpsdokumenter.
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt.
 
 |Felt|Description|
@@ -42,7 +40,7 @@ Fremgangsmåten nedenfor beskriver hvordan du konfigurerer automatisk arkivering
 ## <a name="to-archive-a-sales-order"></a>Arkivere ordrer
 Fremgangsmåten nedenfor beskriver hvordan du arkiverer fra ordrer. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne en ordre du vil arkivere.  
 3.  Velg handlingen **Arkiver dokument**.
 
@@ -51,7 +49,7 @@ Ordren arkiveres. Du kan se den på siden **Arkiverte ordrer**.
 ## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Slik gjenoppretter du salgordrer som ikke er bokført, fra arkivet
 Følgende fremgangsmåte beskriver hvordan du tar innholdet i en arkivert ordre tilbake den opprinnelige ordren. Dette er bare mulig når det opprinnelige dokumentet ikke er bokført. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arkiverte ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arkiverte ordrer**, og velg deretter den relaterte koblingen.
 2. Velg den arkiverte ordren, eller versjonen av den, som du vil gjenopprette, og velg deretter **Gjenopprett**-handlingen.  
 
 Innholdet i den opprinnelige ordren erstattes med den valgte arkiverte versjonen.
@@ -59,7 +57,7 @@ Innholdet i den opprinnelige ordren erstattes med den valgte arkiverte versjonen
 ## <a name="to-delete-archived-sales-orders"></a>Slette arkiverte ordrer
 Fremgangsmåten nedenfor beskriver hvordan du sletter arkiverte ordrer. Fremgangsmåten er den samme for alle andre salgs- og kjøpsdokumenter.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Slett arkiverte ordreversjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett arkiverte ordreversjoner**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett arkiverte ordreversjoner** velger du de aktuelle filtrene.  
 3.  Velg **OK**.
 

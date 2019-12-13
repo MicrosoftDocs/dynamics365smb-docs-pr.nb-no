@@ -1,8 +1,6 @@
 ---
 title: Kjøre full planlegging, MPS og MRP | Microsoft-dokumentasjon
 description: Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9a9ba92be649c8272822c3c332c6c4c330910df8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313135"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883193"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
@@ -47,7 +45,7 @@ Med hver planlagte metode genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 >  Funksjonen for planen Hent handlingsmeldinger kan kjøres mellom kjøringer av bevegelsesplanlegging og replanlegging for å få en oversikt over virkningen av planendringer, men er ikke ment å være en erstatning for fullstendige prosesser for bevegelsesplanlegging eller replanlegging.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Slik beregner du planleggingsforslaget  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn replanlegging** for å åpne siden **Beregn Plan**.  
 3.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

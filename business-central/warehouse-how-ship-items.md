@@ -1,8 +1,6 @@
 ---
 title: Levere varer| Microsoft-dokumentasjon
 description: Avhengig av lageroppsettet kan du registrere levering på det tilknyttede utgående forretningsdokumentet direkte, for eksempel en ordre, eller du kan bruke lagerleveringsdokumenter som respekterer en arbeidsflyt og er integrert med ulike lageraktiviteter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 239810db7fa6f7cd74aaebf94581f9ad76fd5599
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a2bde69033ee208082662fa771616ac0b124d73e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314679"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876778"
 ---
 # <a name="ship-items"></a>Levere varer
 Når du leverer varer fra et lager som ikke er definert til lagerleveringsbehandling, må du ganske enkelt registrere leveringen i det relaterte forretningsdokumentet, for eksempel en ordre, serviceordre, bestillingsretur eller utgående overføringsordre.
@@ -29,7 +27,7 @@ Når du leverer varer fra et lager som er definert til lagerleveringsbehandling,
 
 ## <a name="to-ship-items-with-a-sales-order"></a>Slik leverer du varer med en ordre
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for bestillingsreturer, serviceordrer og utgående overføringsordrer.  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende ordre eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. I feltet **Levere (antall)** angir du det mottatte antallet.
 
@@ -41,7 +39,7 @@ Først oppretter du et leveringsdokument fra et forretningskildedokument. Derett
 
 ### <a name="to-create-a-warehouse-shipment"></a>Slik oppretter du en lagerlevering
 Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering.
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
@@ -74,12 +72,12 @@ Når du har de linjene du vil levere, kan du starte prosessen som sender linjene
 
 ### <a name="to-pick-and-ship"></a>Slik plukker og leverer du
 Vanligvis er det en lagermedarbeider som er ansvarlig for plukking, som oppretter et plukkdokument eller åpner et allerede opprettet plukkdokument.
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
 2. Velg lagerlevringen som du vil plukke for, og velg deretter **Opprett plukk**-handlingen.
 3. Fyll ut feltene på forespørselssiden, og velg deretter **OK**. Det angitte lagerplukkdokumentet opprettes.
 
     Du kan også åpne et eksisterende lagerplukk.
-4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukk**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
+4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
 
     Hvis lageret definert for bruk av hyller, så er plukklinjene konvertert til linjer for henting og plassering.
 

@@ -1,8 +1,6 @@
 ---
 title: Opprette et nytt selskap | Microsoft-dokumentasjon
 description: Bruke RapidStart Services-tabeller og -sider som er opprettet, uten at det finnes data for dem.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 697613b170d3d7c2db33ab91acd660f2d09ddea1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bbd845f7974ce2d0b6ade27d290e1173fad42f37
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304591"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878892"
 ---
 # <a name="create-a-new-company"></a>Opprett et nytt selskap.
 Hvis du vil bruke RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], oppretter du først et nytt selskap du vil utføre en kundeimplementering for. Når du oppretter et nytt selskap, opprettes standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller og -sider, men de inneholder ingen data.

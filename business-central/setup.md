@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 10/01/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 9ba3997b20c86c5ddd3bf3f21a6a9455b4f54ec6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311479"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832362"
 ---
 # <a name="setting-up-included365finincludesd365fin_mdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
@@ -46,8 +46,8 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Overfør informasjon om kunder, leverandører, lager og bankkonti fra et annet system til [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).|
 |Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)|
 |Få innsikt i Business Central-data med Power BI- og Business Central-innholdspakker.|[Aktivere forretningsdata for Power BI](admin-powerbi.md)|
-|Bruke Business Central-data som en del av en arbeidsflyt i Microsoft Flow.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
-|Gjør Business Central-data tilgjengelige som en datakilde i PowerApps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av PowerApps](across-how-use-financials-data-source-powerapps.md)|
+|Bruke Business Central-data som en del av en arbeidsflyt i Power Automate.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
+|Gjør Business Central-data tilgjengelig som en datakilde i Power Apps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
 |Utfør massefakturering av avtaler som er opprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
@@ -55,7 +55,7 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 | Definer unike identifikasjonskodene for poster, for eksempel kort, bilag og kladdelinjer, til å spore dem i systemet. |[Opprette nummerserier](ui-create-number-series.md) |
 |Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalendere](across-how-to-assign-base-calendars.md)|  
 
-Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også  [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
+Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
 
 ## <a name="see-also"></a>Se også
 

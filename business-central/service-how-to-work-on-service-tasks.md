@@ -1,8 +1,6 @@
 ---
 title: Arbeide med serviceoppgaver | Microsoft-dokumentasjon
 description: Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: f567bb154781c3fe506a5609325f793d47e231e5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: a1f448bf0d446d8a7a6bcc1db9a1cd636ea8cdd6
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553773"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882401"
 ---
 # <a name="work-on-service-tasks"></a>Arbeide med serviceoppgaver
 Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.  
@@ -27,7 +25,7 @@ Ved hjelp av **Serviceoppgave**-siden i [!INCLUDE[d365fin](includes/d365fin_md.m
 Hvis du vil spore endringer og få en grafisk fremstilling av servicevirksomheten, kan du bruke statistikkverktøyene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å generere diagrammer og analyse raskt og automatisk.  
 
 ## <a name="to-work-on-a-service-task"></a>Slik arbeider du med en serviceoppgave  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Hvis du ønsker en oversikt over serviceoppgaver en bestemt ressurs eller ressursgruppe er tildelt til, fyller du ut feltet **Ressursfilter** eller **Ressursgruppefilter** og trykker Enter.  
 3. Hvis du ønsker en oversikt over serviceoppgaver med en bestemt responsdato, eller responsdato innen en bestemt tidsperiode, fyller du ut feltet **Responsdatofilter** og trykker Enter.  
 4. Hvis du ønsker en oversikt over serviceoppgaver med en bestemt tildelingsstatus eller reparasjonsstatus, fyller du ut feltet **Filter for tildelingsstatus** eller **Filter for repar.statuskode** og trykker Enter.  
@@ -52,7 +50,7 @@ Når du utfører en service i en serviceordre, kan du spesifisere detaljer om br
 ## <a name="to-register-spare-parts"></a>Slik registrerer du reservedeler  
 Når du arbeider med servicevarer i serviceordrer, kan det hende du må bruke reservedeler for servicen. Følgende fremgangsmåte viser hvordan du registrerer reservedelene du bruker på siden **Abeidsordre**.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg linjen som inneholder den aktuelle servicevaren, og velg deretter handlingen **Arbeidsordre**.  
 3. Angi en ny servicelinje.  
 4. I feltet **Type** velger du **Vare**.  
@@ -70,7 +68,7 @@ Når du arbeider med servicevarer i serviceordrer, kan det hende du må bruke re
 ## <a name="to-replace-a-service-item-or-a-service-item-component"></a>Erstatte en servicevare eller servicevarekomponent  
 Når du gir service til en servicevare som består av komponenter, kan det hende du må erstatte en defekt komponent med en ny. Hver gang du angir en reservedel for en servicevare med komponenter, kan du velge mellom å erstatte en komponent eller å opprette en ny. Den nye varen registreres ikke som en komponent i servicevaren før du bokfører denne servicelinjen eller serviceordren.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg linjen som inneholder servicevaren, og velg deretter handlingen **Arbeidsordre**.  
 3. Angi en ny servicelinje.  
 4. I feltet **Type** velger du **Vare**.  
@@ -89,7 +87,7 @@ Når du gir service til en servicevare som består av komponenter, kan det hende
 ## <a name="to-change-the-response-time-for-a-service-item-line"></a>Slik endrer du responstiden for en servicevarelinje  
 Når du registrerer en servicevarelinje i en serviceordre eller et tilbud, avhengig av om servicevaren er i en servicekontrakt, angis automatisk responstid i timer, og responsdatoen og -tiden beregnes i henhold til denne. Du kan endre responstiden i timer, og responsdatoen og -tiden hvis du har behov for det.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer** eller **Servicetilbud**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordren eller tilbudet for å åpne kortet.  
 3. Angi nye responstimer eller ny responsdato og responstid i feltet **Responstid (timer)** eller i feltene **Responsdato** og **Responstid** på servicevarelinjen du vil endre responstid for.  
 

@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
 ms.date: 10/01/2019
-ms.openlocfilehash: ce3187199a0402961b1206077c4d1613093f1919
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: de9f34fc8aefc2d6803f658bf738b06af27f0ebe
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775382"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879382"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Kontrollere sider i Business Central
 
@@ -32,7 +32,7 @@ Når ruten **Sideinspeksjon** åpnes for første gang, vises informasjon som gje
 
 Du kan tastaturet eller pekeenheten til å flytte fokus til forskjellige elementer på siden. Når du velger en faktaboks eller en del på hovedsiden, markeres rammeområdet med en kant, og **Sidenspeksjon**-ruten viser informasjon om det valgte elementet. Den forrige figuren viser opplysninger om listedelen på siden **Ordre**. Når du går til andre sider i programmet, vil ruten **Sideinspeksjon** automatisk oppdateres med sideinformasjon når du flytter.
 
-Hvis du vil ha mer informasjon om hva som vises i sideinspeksjonen, kan du se [Inspisere og feilsøke sider](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjelpen for utviklere og IT-eksperter for Business Central.
+Hvis du vil ha mer informasjon om hva som vises i sideinspeksjonen, kan du se [Inspisere og feilsøke sider](/dynamics365/business-central/dev-itpro/developer/devenv-inspecting-pages) i hjelpen for utviklere og IT-eksperter for Business Central.
 
 Hvis du ikke ser opplysningene du forventer å se i ruten **Sideinspeksjon**, har du trolig ikke den nødvendige tillatelsen, som beskrevet i neste del.
 

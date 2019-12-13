@@ -1,8 +1,6 @@
 ---
 title: Definere prosesser for servicehåndtering | Microsoft-dokumentasjon
 description: Lær hvordan du konfigurerer prosesser som sørger for at kundene dine er tilfreds med kundeservicen.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: eb83c1a2e90e81060355e15c9d0e81d321ed8ed0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 665842a2ec24cbee6db469f5ce71b03ddd278555
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315855"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877138"
 ---
 # <a name="configure-service-processes"></a>Konfigurere serviceprosesser
 Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsprosessene:  
@@ -29,7 +27,7 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 * Nummerserier for servicerelaterte dokumenter og varer.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
@@ -38,4 +36,4 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 [Definere koder for standardservicer](service-how-setup-service-coding.md)  
 [Definere ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  
 [Definere feilsøking](service-how-setup-troubleshooting.md)  
-[Servicehåndtering](service-service.md)  
+[Servicebehandling](service-service.md)  

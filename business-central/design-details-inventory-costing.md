@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 10/01/2019
+ms.date: 11/25/2019
 ms.author: sgroespe
-ms.openlocfilehash: dc37aa410c9e9ba823894fad961b68897468b9ca
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 667adfcc9c470a9d4dbf26923fe5e6edfc7ed85a
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303439"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832194"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,6 +38,6 @@ Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registre
 [Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)  
 [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)  
 [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md)  
-[Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
+[Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 [Designdetaljer: Revaluering](design-details-revaluation.md)

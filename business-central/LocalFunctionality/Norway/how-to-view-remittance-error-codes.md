@@ -1,8 +1,6 @@
 ---
 title: Vise remitteringsfeilkoder
 description: Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden Ventekladd.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8e0c6eda531d3d714580fcc29fbdcef07fccc7d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4dcb2031e86b008a3baad988bc5960bf68a77c15
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301217"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881328"
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  
 
 ## <a name="to-view-error-codes"></a>Slik viser du feilkoder:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Returfeil**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Returfeil**, og velg deretter den relaterte koblingen.  
 2.  På siden **Returfeil** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

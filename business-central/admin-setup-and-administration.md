@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: b38a48c4b9a57a863518a6cd701176a0635b552b
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: a23af49140b683c5383287b3057f024644c19133
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774702"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808868"
 ---
 # <a name="administration"></a>Administrasjon
 Sentrale administrasjonsoppgaver utføres vanligvis av én rolle i selskapet. Omfanget av disse oppgavene kan avhenge av selskapets størrelse og administrators jobbansvar. Disse oppgavene kan omfatte administrasjon av databasesynkronisering for jobb- og e-postkøer, oppsett av brukere og tilpassing av brukergrensesnittet.  
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Definer hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å opprette brukere på administrasjonssenteret for Office 365 i henhold til produktlisensene.|[Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)| 
+|Definer hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å opprette brukere på administrasjonssenteret for Microsoft 365 i henhold til produktlisensene.|[Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)| 
 |Tilordne tillatelser til brukerne, endre tillatelsessett, og gruppere brukere for enkel behandling av tillatelser.|[Tilordne tillatelser til brukere og grupper](ui-how-users-permissions.md)|
 |Legg til brukere, behandle tillatelser og tilgang til data, tilordne roller.|[Administrere profiler](admin-users-profiles-roles.md)|
 |Klassifisere datafølsomheter for feltene slik at du kan svare på forespørsler fra dataobjekter relatert til personlig informasjon.|[Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md)|

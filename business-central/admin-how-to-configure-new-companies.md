@@ -1,8 +1,6 @@
 ---
 title: Konfigurere ny selskaper | Microsoft-dokumentasjon
 description: Du kan konfigurere og tilpasse et nytt selskap som du har opprettet. Hvis du vil finjustere implementeringen, fortsetter du i tre faser for å fullføre konfigurasjonen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: b3169663fd764bf4f7c9c6dc8895b152fdca19bd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304567"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878584"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
 Hvis du vil konfigurere et nytt selskap i løsningsimplementeringen, følger du vanligvis tre faser. I den første fasen importerer du konfigurasjonspakken, som er en .rapidstart-fil med konfigurasjonsinformasjon. I den andre fasen endrer du konfigurasjonsinformasjonen og bruker den deretter på det nye selskapet. Du ser gjennom og retter eventuelle feil i siste fase.  
@@ -31,7 +29,7 @@ Fremgangsmåtene nedenfor forutsetter at du har initialisert og åpnet det nye s
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**.  
 4. Naviger til plasseringen hvor du har lagret pakkefilen for .rapidstart-konfigurasjonen, og velg deretter **Åpne**.  
-5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen. Skriv inn informasjon om firmaet på kortet med selskapsopplysninger. Ta med informasjon, for eksempel bankinformasjon. Du kan også angi en logo for selskapet.  
+5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen. Skriv inn informasjon om firmaet på kortet med selskapsopplysninger. Ta med informasjon, for eksempel bankinformasjon. Du kan også angi en logo for selskapet.  
 
 Alle tabeller som du har angitt for inkludering i det nye selskapet, importeres. På dette tidspunktet kan du bruke pakkedataene i databasen eller justere og endre tabelldataene for å oppfylle kundespesifikasjonene.  
 

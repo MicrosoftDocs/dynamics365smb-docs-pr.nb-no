@@ -8,12 +8,12 @@ ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
 ms.date: 10/01/2019
 ms.author: mikebc
-ms.openlocfilehash: a0b5d48f5decbed87337e27145486a2884a6612d
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 79fb96b0262eacfd67326236c7cf8468689c6b5e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695194"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876874"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanlige spørsmål om søk og filtrering
 Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
@@ -47,7 +47,7 @@ Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og a
 
 Det er en tidsbegrensning på hvor lenge en søkeoperasjon kan ta. Prøv først å endre søkekriteriene og søk på nytt. Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, kontakt systemadministratoren, fordi en administrator kan øke tidsfristen for søk.
 
-Som en lokal administrator kan du øke tidsgrensen for søk ved å endre innstillingen **Tidsavbrudd for søk** for [!INCLUDE[prodshort](includes/prodshort.md)]-serveren. Hvis du vil ha mer informasjon, se [Konfigurere Business Central Server](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjelpen for utviklere og IT-eksperter for Business Central.
+Som en lokal administrator kan du øke tidsgrensen for søk ved å endre innstillingen **Tidsavbrudd for søk** for [!INCLUDE[prodshort](includes/prodshort.md)]-serveren. Hvis du vil ha mer informasjon, se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjelpen for utviklere og IT-eksperter for Business Central.
 
 ## <a name="see-also"></a>Se også
 [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  

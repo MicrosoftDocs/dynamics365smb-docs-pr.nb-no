@@ -1,8 +1,6 @@
 ---
 title: Beregne ordrebekreftelsesdatoer | Microsoft-dokumentasjon
 description: Ordrebekreftelsesfunksjonen er et verktøy for beregning av når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer for datoene du godtar.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 575d83652dde83c9b12358788a96d00c70ffcda3
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0bd5943f9c917f02fd319c07e51c95afb2de0a75
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316335"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882977"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
 Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
@@ -78,7 +76,7 @@ Ordrebehandleren fullfører CTP-prosessen ved å godta datoene. Dette betyr at e
 I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordrebekreftelseslinjer**, kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Slik angir du ordrebekreftelser  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
 2. Angi et nummer og en tidsenhetskode i feltet **Iverksett (tid)**. Velg én av følgende koder.  
 
     |Kode|Beskrivelse|  
@@ -120,7 +118,7 @@ Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i ber
 >  Hvis du har fylt ut feltet **Utgående lagerhåndteringstid** på lokasjonskortet for lokasjonen, brukes dette feltet som standard for utgående lagerhåndteringstid.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Slik angir du utgående lagerhåndteringstid på lokasjonskort  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
 3.  På hurtigfanen **Lager** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
@@ -129,12 +127,12 @@ Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i ber
 
 ## <a name="to-make-an-item-critical"></a>Slik gjør du en vare kritisk  
 Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være merket som kritisk. Dette oppsettet sikrer at ikke-kritiske varer ikke fører til uaktuell beregning av ordrebekreftelser.   
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle varekortet.  
 3.  På hurtifganen **Planlegging** velger du **Kritisk**-feltet.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Slik beregner du en ordrebekreftelsesdato  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordre**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ordren, og velg ordrelinjene du vil at programmet skal beregne.  
 3.  Velg handlingen **Ordrebekreftelse** og deretter **Ordrebekreftelseslinjer**.  
 4.  Velg en linje, og velg deretter ett av følgende alternativer:  

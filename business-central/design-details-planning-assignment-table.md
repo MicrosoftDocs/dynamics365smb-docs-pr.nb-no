@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Tabell for planleggingstilordning | Microsoft-dokumentasjon
 description: Dette emnet gir innsikt i hva som skjer når du endrer hvordan du planlegger for en vare.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3bc3699e7ec5d356ed1bd1b85ad574f2e50d831b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fac2dfffae5eb1e09b2a0568024f51a2bc93e215
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303223"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878512"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designdetaljer: Tabell for planleggingstilordning
 Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  

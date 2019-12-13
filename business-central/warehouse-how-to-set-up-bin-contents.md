@@ -1,8 +1,6 @@
 ---
 title: Opprette hylleinnhold | Microsoft-dokumentasjon
 description: Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c932a29c42b379e7ce7686e8ae3c4bc26b9d2fa9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d716040bae8f6e0cec3055af0ce2a26b6bc04e1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314559"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876515"
 ---
 # <a name="create-bin-contents"></a>Opprette hylleinnhold
 Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt på siden **Hylleinnhold** eller automatisk med **Opprett hylleinnholdforslag**-siden.
 
 ## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
 3.  Velg hyllen der du vil opprette innhold, og velg deretter **Innhold**-handlingen.  
 4.  For hver vare du vil lagre i hyllen, fyller du ut en linje på siden **Hylleinnhold** med den passende informasjonen. Noen av feltene er allerede fylt ut med informasjon om hyllen.  
@@ -41,7 +39,7 @@ Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [
 ## <a name="to-create-bin-content-with-a-worksheet"></a>Slik oppretter du hylleinnhold med et forslag:  
 Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for hver hylle i opprettingsforslaget for hylleinnhold.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forslag for oppretting av hylleinnhold**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleinnholdopprett. – forslag**, og velg deretter den relaterte koblingen.  
 2.  I feltet **Navn** i forslagshodet velger forslaget for lokasjonen der du vil opprette hylleinnholdet.  
 3.  I feltet **Hyllekode** velger du koden for hyllen som du vil definere hylleinnhold for.   
 

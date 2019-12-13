@@ -1,8 +1,6 @@
 ---
 title: Kombinere leveringer på én faktura | Microsoft-dokumentasjon
 description: Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6a9f4d6ee49b8958b3dcc33697db5ce0d77ae2c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: febf38da727cb7f41fa6d6c4bacf36877a8df1f3
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312031"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882910"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
@@ -25,7 +23,7 @@ Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjone
  Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel for den samme kunden i én og samme valuta. Du må med andre ord ha fylt ut minst to ordrer og bokført disse ordrene som levert, men ikke fakturert. Du kombinerer forsendelser ved å merke av for **Opprett samlefaktura** på hurtigfanen **Levering** på **kundekortet**.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura manuelt  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Salg til-kundenr.** angir du kunden som skal motta fakturaen for de leverte varene.  
 4. På hurtigfanen **Linjer** velger du handlingen **Hent leveringslinjer**.  
@@ -38,7 +36,7 @@ Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjone
 7. Velg handlingen **Bokfør** for å bokføre fakturaen.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett samlefaktura**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett samlefaktura**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Merk av for **Bokfør fakturaer**.  
 4.  Velg **OK**.  
@@ -51,7 +49,7 @@ Når du oppretter og bokfører en samlefaktura, opprettes en bokført salgsfaktu
 
 Når du fakturerer følgesedler på denne måten, eksisterer fortsatt ordrene som følgesedlene ble bokført fra, selv om de er fullstendig levert og fakturert.   
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett fakturerte ordrer**, og velg deretter koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett fakturerte ordrer**, og velg deretter den relaterte koblingen.  
 2. Angi hvilke ordrer som skal slettes, i **Nr.** -filterfeltet.  
 3. Velg **OK**-knappen.  
 

@@ -1,8 +1,6 @@
 ---
 title: Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon
 description: Et **Arbeidssenter**-kort inneholder de faste verdiene og kravene til den aktuelle produksjonsressursen og styrer dermed avgangen for produksjonen som utføres i arbeidssenteret.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: eb947aec01b7932b827332d0c283ec9b08981634
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1d8b24df628cbb41449e37b31cbf1082d434bb81
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313111"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877836"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 Programmet skiller mellom tre typer kapasiteter. Disse er rangert hierarkisk. Hvert nivå inneholder underordnede nivåer.  
@@ -65,7 +63,7 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 > [!NOTE]  
 > Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
 
-13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av  [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
+13.  I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
 14.  I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
 15. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
 16.  Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
@@ -89,7 +87,7 @@ På siden **Kapasitetsbegrensede ressurser** kan du gjøre oppsett som unngår o
 
 Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen ressurser lastes over den angitte kapasiteten (kritisk belastning). Dette gjøres ved å tilordne hver operasjon til nærmeste tilgjengelige tidsluke. Hvis tidsperioden ikke er stor nok til å fullføre hele operasjonen, vil operasjonen bli delt inn i to eller flere deler som plasseres i de nærmeste tilgjengelige tidsrommene.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kapasitetsbegrensede ressurser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kapasitetsbegrensede ressurser**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov.
 

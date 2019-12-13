@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – beregne varer i arbeid for et prosjekt | Microsoft-dokumentasjon
 description: Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 98ecc7dad5857d36ca662d1b35d4e1d066e8f851
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1ba3bb79978d9635239183e7bbfc14722951b222
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314871"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876994"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
@@ -62,7 +60,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### <a name="to-calculate-wip"></a>Slik beregner du VIA:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **Rediger**-handlingen. Dermed åpnes prosjektkortet i redigeringsmodus.  
 
      VIA kan beregnes basert på Kostverdi, Salgsverdi, Løpende eller Ved avslutning. I dette eksemplet bruker CRONUS metoden Kostverdi.  
@@ -94,7 +92,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### <a name="to-review-wip-warnings"></a>Se gjennom VIA-advarsler  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet **Klepp Datakontor A/S**, og velg deretter handlingen **Vis advarsler**.  
 3.  Se gjennom advarselen som er knyttet til prosjektet, på siden **VIA-advarsler for prosjekt**.  
 

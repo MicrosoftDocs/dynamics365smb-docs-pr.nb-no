@@ -1,8 +1,6 @@
 ---
 title: Planlegge prosjektordrer | Microsoft-dokumentasjon
 description: Denne planleggingsoppgaven starter fra en ordre og bruker **Ordreplanlegging**-siden. Når du har opprettet en prosjektproduksjonsordre, kan du planlegge den videre ved hjelp av **Ordreplanlegging**-siden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a9a98b654ee28fad43feeb827f7d97310df6d4a8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c090843a5adcca7fcdb5ba857ca06172a805fe90
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313327"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877762"
 ---
 # <a name="plan-project-orders"></a>Planlegge prosjektordrer
 Denne planleggingsoppgaven starter fra en ordre og bruker **Ordreplanlegging**-siden. Når du har opprettet en prosjektproduksjonsordre, kan du planlegge den videre ved hjelp av **Ordreplanlegging**-siden.  
 
 ## <a name="to-create-a-project-production-order"></a>Slik oppretter du en prosjektproduksjonsordre  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg ordren som representerer produksjonsprosjektet, og velg deretter **Planlegging**-handlingen.  
 4.  På **Ordreplanlegging**-siden velger du handlingen **Opprett prod.ordre**.  
 5.  På siden **Opprett ordre fra salg** velger du **Prosjektordre** i **Ordretype**-feltet.  

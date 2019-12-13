@@ -1,8 +1,6 @@
 ---
 title: Opprette en behovsprognose | Microsoft-dokumentasjon
 description: Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3611bf23466509d0bd4932fc660cf1dff8bfa4a4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8ae3e142946ff968a1b1357df1a1634734c0392c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314195"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883385"
 ---
 # <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
 Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.  
@@ -53,7 +51,7 @@ Det kan angis i produksjonsoppsettet om du vil filtrere prognose i henhold til l
 
 ## <a name="to-create-a-demand-forecast"></a>Slik oppretter du en behovsprognose:
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
 2.  Velg en prognose i feltet **Navn på behovsprognose** på hurtigfanen **Generelt**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
 3.  I **Lokasjonsfilter**-feltet velger du lokasjonen som denne prognosen skal brukes på.  
 4.  Velg **Salgsvare**, **Komponent** eller **Begge** i **Prognosetype**-feltet. Hvis du velger **Salgsvare** eller **Komponent**, kan du redigere antallet etter periode. Hvis du velger **Begge**, kan du ikke redigere antallet, men du kan velge rullegardinpilen og vise postene for behovsprognosen.  

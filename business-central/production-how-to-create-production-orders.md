@@ -1,8 +1,6 @@
 ---
 title: Opprette produksjonsordrehoder | Microsoft-dokumentasjon
 description: Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: fc0a0dda33b7b90658ca60285abab0562c28fbbc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2088cd12faaefb2d9902cad0cc149d209f905f71
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314123"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877978"
 ---
 # <a name="create-production-order-headers"></a>Opprette produksjonsordrehoder
 Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.

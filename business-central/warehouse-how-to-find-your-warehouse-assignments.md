@@ -1,8 +1,6 @@
 ---
 title: Finne lageroppgavene dine | Microsoft-dokumentasjon
 description: Hvis du vil søke etter lagertildelinger, åpner du kortsiden for en valgt vare. Hvis lagerinstruksjonene er opprettet, er Hent- og Plasser-linjene synlige, og du kan begynne å arbeide med en oppgave. I enkelte lagre kan lederen ha tildelt bestemte instruksjoner til hver ansatt.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3e056c16a700f6ce4dc08c0bc55ad54e6992ea71
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7952276992b28ec5c1c90da10634867ef7b7a35c
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314051"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881753"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finne lageroppgavene dine
 Hvis du vil søke etter lagertildelinger, åpner du kortsiden for en valgt vare. Hvis lagerinstruksjonene er opprettet, er Hent- og Plasser-linjene synlige, og du kan begynne å arbeide med en oppgave. I enkelte lagre kan lederen ha tildelt bestemte instruksjoner til hver ansatt. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](warehouse-how-to-set-up-warehouse-employees.md).

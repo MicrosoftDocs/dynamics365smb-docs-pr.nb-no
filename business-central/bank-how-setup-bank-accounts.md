@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 07274a495ba7047fafaf31a94225ac29b05aabb4
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 0e6d9bb39e36ca127ab9d64eb045ab4c64b91d30
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692779"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880739"
 ---
 # <a name="set-up-bank-accounts"></a>Opprette bankkonti
 Du bruker bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å holde orden på banktransaksjonene dine. Konti kan utstedes i norske kroner eller i fremmed valuta. Når du har opprettet bankkonti, kan du bruke mulighetene for utskriving av sjekker (gjelder ikke Norge).<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Vhpl]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Vhpl]
 
 ## <a name="to-set-up-bank-accounts"></a>Slik setter du opp bankkonti
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.

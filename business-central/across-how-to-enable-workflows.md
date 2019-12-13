@@ -1,8 +1,6 @@
 ---
 title: Aktivere arbeidsflyter | Microsoft-dokumentasjon
 description: Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c6a59947f212d0634c6b6918e751db6d8278925c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 48e95e17938c240862c8c5391bf328aa78bae7aa
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305407"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881147"
 ---
 # <a name="enable-workflows"></a>Aktivere arbeidsflyter
 Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten.  
@@ -25,7 +23,7 @@ Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å s
  På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Slik aktiverer du en arbeidsflyt:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2.  Åpne arbeidsflyten du vil aktivere.  
 3.  På siden **Arbeidsflyt** merker du av for **Aktivert**.  
 

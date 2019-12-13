@@ -1,8 +1,6 @@
 ---
 title: Bruke én mva-kode i kladder
 description: I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, Mva-kode.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 391c8db130f18f43036c8dac8c75d39d2a619530
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 988e5fca67e2b0fe95c880151231366da54c86c1
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301219"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881329"
 ---
 # <a name="use-one-vat-code-in-journals"></a>Bruke én mva-kode i kladder
 I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, **Mva-kode**. Når én mva-kode er konfigurert, er dette en rask måte å fylle ut mva-felt som brukes ofte.  
@@ -28,7 +26,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 
 ## <a name="to-create-a-vat-code"></a>Slik oppretter du en mva-kode:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **VAT-koder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-koder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Angi opplysninger i feltet **Kode**, **Bokføringstype** og **Beskrivelse** for hver mva-kode.  
 4.  Velg **OK**-knappen for å lukke siden **Mva-koder**.  
@@ -37,7 +35,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 
 ## <a name="to-set-up-vat-posting"></a>Slik definerer du mva-bokføring:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I kortet **Mva-bokføringsoppsett** må du fylle ut følgende felt:  
 

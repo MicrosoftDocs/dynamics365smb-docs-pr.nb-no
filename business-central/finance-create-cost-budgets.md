@@ -1,8 +1,6 @@
 ---
 title: Opprette kostbudsjetter | Microsoft-dokumentasjon
 description: Dette emnet gir en oversikt over hvor du kan opprette og analysere kostbudsjetter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c107daa3725cf2f8b06039655738e8763cc0f6b1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33999778898c671a87638ef5868103ea34875ff8
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306415"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879827"
 ---
 # <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
 Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett opprettes basert på kostnadstyper på samme måte som et finansbudsjett opprettes basert på finanskontoer.  
 
 Et kostnadsbudsjett opprettes for en bestemt tidsperiode, for eksempel et regnskapsår. Du kan opprette så mange kostbudsjetter som nødvendig. Du kan opprette et nytt kostbudsjett manuelt, ved å importere et kostbudsjett eller ved å kopiere et eksisterende kostbudsjett som grunnlag for budsjettet. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre ikonet") for å finne en side, og les deretter verktøytipset for hvert vindu.
+Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") for å finne en side, og les deretter verktøytipset for hvert vindu.
 
-|Til|Se|  
+|Hvis du vil|Se|  
 |--------|---------|  
 |Overfør budsjetter fra finans.|Kjørselen **Kopier finansbudsjett til kostregnskap**|  
 |Kopier kostbudsjetter.|Kjørselen **Kopier kostbudsjett**|  

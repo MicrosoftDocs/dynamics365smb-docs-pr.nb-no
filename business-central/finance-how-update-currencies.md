@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: c971a3cd11f34db0ff04cd66096d74909cca3651
-ms.sourcegitcommit: ab4141739a53ec100d42773f0da863fbeefa384f
+ms.openlocfilehash: 6e9456a17ccf8dc6c3e3e8ae8272baa03f43f7da
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577258"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882665"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan handle i og rapportere økonomien i mer enn én valuta. Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.
@@ -45,14 +45,14 @@ Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du få kjørselen til å
 Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 
 > [!Important]
-> Før du kan bruke kjørselen, må du angi justeringskursene som brukes til å justere valutasaldoen. Du gjør dette på siden **Valutakurser**.
+> Før du kan bruke kjørselen, må du angi justeringskursene som brukes til å justere valutasaldoen. Du gjør dette på siden **Valutakurser**.<br><br>  
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
 Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Merk av for **Aktivert** for å aktivere tjenesten.

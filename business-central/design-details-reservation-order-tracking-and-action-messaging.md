@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer - Reservasjon, ordresporing og handlingsmeldinger | Microsoft-dokumentasjon
 description: Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1408c3e97ffd54f516bf18823442f3f986131038
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306847"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878440"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger
 Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.  
@@ -31,7 +29,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Reservasjonssystemet danner også det strukturelle grunnlaget for varesporingssystemet. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing](design-details-item-tracking.md).  
 
- Hvis du vil ha mer informasjon om hvordan reservasjonssystemet fungerer, kan du se hvitboken Tabellen Reservasjonspost på [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348).  
+ Hvis du vil ha mer informasjon om hvordan reservasjonssystemet fungerer, kan du se hvitboken Tabellen Reservasjonspost på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservasjon  
  En reservasjon er en fast kobling som knytter sammen et bestemt behov og en bestemt forsyning. Denne koblingen påvirker den påfølgende lagertransaksjonen direkte og sikrer riktig utligning av vareposter for kostnadsformål. En reservasjon overstyrer standard lagermetode for en vare. Hvis du vil ha mer informasjon, kan du se Designdetaljer: Kostmetoder.  
@@ -184,7 +182,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  **Partinr.**-feltet er nå fylt ut i sporingsposten for tabell 5407 fordi partinumrene ble tilordnet til produksjonsordrekomponentlinjene.  
 
- Hvis du vil se flere eksempler på ordresporingsposter i tabellen **Reservasjonspost**, kan du se hvitboken Tabellen Reservasjonspost på [PartnerSource](http://go.microsoft.com/fwlink/?LinkId=258348) (krever pålogging).
+ Hvis du vil se flere eksempler på ordresporingsposter i tabellen **Reservasjonspost**, kan du se hvitboken Tabellen Reservasjonspost på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (krever pålogging).
 
 ## <a name="action-messaging"></a>Handlingsmeldingssystem  
  Når sporingssystemet oppdager en ubalanse i ordrenettverket, oppretter det automatisk en handlingsmelding for å varsle brukeren. Handlingsmeldinger er systemgenererte kall for brukerhandling som angir detaljer om ubalansen og forslag om hvordan du gjenoppretter balansen for ordrenettverket. De vises som planleggingslinjer på **Planleggingsforslag**-siden når du velger **Hent handlingsmeldinger**. Handlingsmeldinger vises dessuten på planleggingslinjer som er generert av planleggingskjøringen, for å gjenspeile planleggingssystemets forslag om hvordan balansen kan gjenopprettes i ordrenettverket. I begge tilfeller kjøres forslagene i ordrenettverket når du velger **Utfør handlingsmelding**.  

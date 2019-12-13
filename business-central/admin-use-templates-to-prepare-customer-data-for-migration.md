@@ -1,8 +1,6 @@
 ---
 title: Forberede kundedatamigrering | Microsoft-dokumentasjon
 description: Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0257b3bdb68a92cdc1719f19a2fc4b73a9e33dc2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f2289ff66e3d95a0df16b2e51b72719b56a20eda
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307772"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896088"
 ---
 # <a name="prepare-to-migrate-customer-data"></a>Klargjøre for å flytte kundedata
 Når du har importert og brukt oppsettsdata i den nye databasen, kan du begynne å overføre kundens eksisterende hoveddata, for eksempel vare- og kundenumre og navn. Hvis du vil forsikre deg om at disse dataene opprettes raskt og nøyaktig i det nye selskapet, bør du bruke maler til å strukturere dataene.  
@@ -34,9 +32,12 @@ Du kan imidlertid opprette en malstruktur og bruke den på en hvilken som helst 
 > [!TIP]  
 >  Du kan også bruke datamaler for daglige operasjoner for å opprette nye poster som er basert på maler. Disse datamalene fungerer bare for de støttede hoveddatatabellene. Hvis du vil ha mer informasjon, kan du for eksempel se [Registrere nye varer](inventory-how-register-new-items.md).  
 
-Når du importerer kundedata (for eksempel for varer) fra en fil, vil dataene i de obligatoriske feltene som du har angitt, hentes fra den tilknyttede datamalen. Når du oppretter en ny vare, fyller du bare ut generell informasjon som varenavn, beskrivelse og pris og samler deretter inn resten av dataene for de obligatoriske feltene fra en valgt datamal.  
+Når du importerer kundedata (for eksempel for varer) fra en fil, vil dataene i de obligatoriske feltene som du har angitt, hentes fra den tilknyttede datamalen. Når du oppretter en ny vare, fyller du bare ut generell informasjon som varenavn, beskrivelse og pris og samler deretter inn resten av dataene for de obligatoriske feltene fra en valgt datamal.
 
 Når du oppretter en ny hoveddatapost, for eksempel et kundekort, er noen av feltene obligatoriske og må fylles ut. Du kan gruppere de fleste obligatoriske felt, for eksempel bokføringgrupper og betalingsbetingelser, for å opprette hoveddataposter enklere og mer stabil. Du kan for eksempel gruppere obligatoriske felt for tabell 18, **Kunde**, som typene **Innland**, **Utland** eller **Eksporter**.
+
+> [!NOTE]
+> Felt av typen blob kan ikke eksporteres/importeres i Excel.
 
 ## <a name="to-select-a-data-template"></a>Velge en datamal
 Når du velger en eksisterende datamal, må du vurdere om malene som du opprettet for det nye selskapet, er tilstrekkelig for kunden. Se gjennom de angitte feltene og verdiene for å avgjøre hvilke maler som passer for et nytt selskap.  
@@ -118,7 +119,7 @@ Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du 
 2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se [Slik oppretter du en datamal](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Velg handlingen **Opprett forekomst**. Et varekort opprettes.  
 4. Velg **OK**.  
-5. For å se gjennom det nye varekortet velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer** og velger deretter den relaterte koblingen.  
+5. For å gå gjennom det nye varekortet velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer**, og velger deretter den relaterte koblingen.  
 6. Åpne det nye varekortet.  
 7. Utvid ulike hurtigfaner, og kontroller at informasjonen er opprettet på riktig måte på dem.  
 

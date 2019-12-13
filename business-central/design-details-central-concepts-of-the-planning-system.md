@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Sentrale begreper for planleggingssystemet | Microsoft-dokumentasjon
 description: Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges, og foreslår deretter mulige handlinger som brukeren kan utføre i henhold til etterspørsels-/tilbudssituasjonen og varens planleggingsparametere.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 025b8fb9100d8418e9e157e8098afe19d24843fc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303751"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880595"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
@@ -202,7 +200,7 @@ Planleggingssystemet vil imidlertid fremdeles inkludere reservert antall i profi
 
 Illustrasjonen nedenfor viser hvordan reservasjoner kan hindre den mest gjennomførbare planen.  
 
-![Planlegging med reservasjoner](media/NAV_APP_supply_planning_1_reservations.png "Planlegging med reservasjoner")  
+![Planlegge med reservasjoner](media/NAV_APP_supply_planning_1_reservations.png "Planlegge med reservasjoner")  
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
 

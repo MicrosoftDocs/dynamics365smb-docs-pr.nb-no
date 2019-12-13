@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 11/06/2019
+ms.date: 12/06/2019
 ms.author: edupont
-ms.openlocfilehash: cf4fe3abc4a31619015520f2be598976b0fc8f5c
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775502"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896188"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
@@ -20,7 +20,7 @@ Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for 
 
 ## <a name="is-included365finincludesd365fin_mdmd-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land og oversettelser som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (bare tilgjengelig på engelsk).  
 
 ## <a name="how-do-i-get-include-prodshortincludesprodshortmd"></a>Hvordan får jeg [!INCLUDE [prodshort](includes/prodshort.md)]?
 
@@ -84,7 +84,7 @@ Hvis du ikke har et Office 365-abonnement, og du ikke vil kjøpe et, vil vil, n�
 [!INCLUDE[d365fin](includes/d365fin_md.md)] online er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jeg utvide min 30-dagers "Nytt selskap"-prøveperiode?
-Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen. Du kan utvide prøveperioden én gang selv. Etterpå kan en Microsoft-partner utvide det i ytterligere i 30 dager. Hvis du vil ha mer informasjon, se [Utvide prøveversjonen](admin-extend-trial.md). 
+Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen. Du kan utvide prøveperioden én gang selv. Etterpå kan en Microsoft-partner utvide det i ytterligere i 30 dager. Hvis du vil ha mer informasjon, se [Utvide prøveversjonen](admin-extend-trial.md).
 
 > [!NOTE]
 > Det kan ta opptil to arbeidsdager å fullføre utvidelsen av prøveversjonen.  
@@ -108,10 +108,12 @@ Når du er klar for å kjøpe [!INCLUDE [prodshort](includes/prodshort.md)], fin
 
 Hvis du vil ha veiledning fra Microsoft, kontakter du [Microsoft Sales-teamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
-Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
+Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).
+
+## <a name="is-the-windows-client-supported"></a>Støttes Windows-klienten?
+De første utgivelsene av lokal [!INCLUDE[prodshort](includes/prodshort.md)] inkluderte en installert klient hentet fra Microsoft Dynamics NAV. Fra og med 2019 utgivelsesplan 2 er denne eldre komponenten, kalt "Windows-klienten", ikke lenger tilgjengelig for [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, se [Vanlige spørsmål om Windows-klienten og Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
 
 ## <a name="see-also"></a>Se også
-
 [Komme i gang](product-get-started.md)  
 [Vanlige spørsmål om Fortell meg](ui-search-faq.md)  
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
@@ -125,5 +127,7 @@ Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vi
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
+[Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Vanlige spørsmål om utvikler- og IT-ekspertopplevelser](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

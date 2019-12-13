@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/17/2019
+ms.date: 11/20/2019
 ms.author: edupont
-ms.openlocfilehash: 497045b1c79f1ea27bebe994bbfbc39d5a29e1d9
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649815"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881267"
 ---
 # <a name="extending-included365finincludesd365fin_mdmd"></a>Utvide [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning for bedriftsadministrasjon som hjelper selskaper å knytte sammen økonomi, salg, service og drift for å strømlinjeforme forretningsprosesser, forbedre kundesamhandling og ta bedre beslutninger. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i skyen og for brukere av forskjellige enheter som alltid er oppdatert. Med denne moderne forretningsplattformen kan du raskt og enkelt skreddersy, utvide og lage programmer slik at de passer til dine behov, med liten eller ingen kodeutvikling.  
@@ -30,7 +30,7 @@ Det finnes mange fordeler med å bruke [!INCLUDE[d365fin](includes/d365fin_md.md
 * Forbedre forretningsverdien og øke avtalestørrelsen med eksisterende og nye kunder
 * Oppnå mer med en plattform som gir moderne opplevelse og tilbyr skala  
 * Få innsikt i ytelsen til oppføringene dine via skypartnerportalen eller publiseringsprosessen for Office-apper.
-* Sammen med intelligente businessapper som PowerApps, Flow, Power BI, Azure AI og mange flere  
+* Sammen med intelligente businessapper som Power Apps, Power Automate, Power BI, Azure AI og mange flere  
 
 Ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenestene til Microsoft AppSource som:
 
@@ -39,9 +39,9 @@ Ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenestene til Microsoft AppS
 
 Med de nye utviklingsverktøyene kan du bygge utvidelser for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere. Hvis du vil gjøre deg kjent med de nye verktøyene eller lære om utvidelser 2.0, kan du ta en titt her: [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Finn opplysninger om apper og konsulenttjenester som er tilgjengelige i [Microsoft AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1).
+Finn opplysninger om apper og konsulenttjenester som er tilgjengelige i [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
 
-Microsoft har lagt til en katalog med konsulenttjenestetilbud for løsninger basert på [!INCLUDE[d365fin](includes/d365fin_md.md)], Power BI og PowerApps i AppSource som hjelper forretningsbrukere å komme raskt i gang. Lær mer om [konsulenttjenestene](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
+Microsoft har lagt til en katalog med konsulenttjenestetilbud for løsninger basert på [!INCLUDE[prodshort](includes/prodshort.md)], Power BI og Power Apps i AppSource som hjelper forretningsbrukere å komme raskt i gang. Lær mer om [konsulenttjenestene](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
 ## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Velge tjenestene som skal tilbys med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -58,17 +58,17 @@ Utvid opplevelsen og muligheten i [!INCLUDE[d365fin](includes/d365fin_md.md)] ve
 Overhold lokale lovmessige funksjoner ved å utvikle for [!INCLUDE[d365fin](includes/d365fin_md.md)], som tilpasser funksjonsområder til kravene i det lokale markedet sammen med [Dynamics 365-oversettelsestjenesten](/dynamics365/unified-operations/fin-ops-core/dev-itpro/lifecycle-services/translation-service-overview). Juster sentrale funksjoner i henhold til lokale lovmessige krav, og utvid eksisterende funksjonalitet for å konkurrere på det lokale markedet. Lær mer om [Utvikling av en lokaliseringsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization).
 
 ### <a name="reseller-solution"></a>Forhandlerløsning
-Ettersom hver virksomhet er unik, kan du med [Tilpasse leiere](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), tilpasse måten du arbeider på, til de strømlinjeformede prosessene, terminologien og hvordan de ansatte eller avdelingene har kontakt og samarbeider. I tillegg kan du videreselge og tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] til kundenes individuelle behov ved å tilby [konsulenttjenester](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Eller bruk Microsoft Flow, Power Apps og Power BI til å opprette [Tilpassede arbeidsflyter](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), apper og forretningsinnsiktsrapporter uten å skrive kode. Lær mer om [Dynamics 365 Reseller (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
+Ettersom hver virksomhet er unik, kan du med [Tilpasse leiere](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-customizing-tenants), tilpasse måten du arbeider på, til de strømlinjeformede prosessene, terminologien og hvordan de ansatte eller avdelingene har kontakt og samarbeider. I tillegg kan du videreselge og tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] til kundenes individuelle behov ved å tilby [konsulenttjenester](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting). Eller bruk Power Apps, Power Automate og Power BI til å opprette [Tilpassede arbeidsflyter](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-no-code), apper og forretningsinnsiktsrapporter uten å skrive kode. Lær mer om [Dynamics 365 Reseller (VAR)](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).
 
 ## <a name="where-do-i-learn-more"></a>Hvor finner jeg mer informasjon?
 Hvis du vil lære mer om Microsoft AppSource-konsulenttjenestetilbudene, ser du følgende koblinger:
 
-[Konsulenttilbud for AppSource](https://appsource.microsoft.com/en-us/marketplace/consulting-services?country=US&page=1)  
+[Konsulenttilbud for AppSource](https://appsource.microsoft.com/marketplace/consulting-services)  
 [Partnerberettigelse](https://smp-cdn-prod.azureedge.net/documents/Microsoft%20AppSource%20Partner%20Listing%20Guidelines.pdf)  
-[Partnernomineringsskjema](https://appsource.microsoft.com/en-us/partners/list-consulting-service)  
+[Partnernomineringsskjema](https://appsource.microsoft.com/partners/list-consulting-service)  
 
 ## <a name="the-ready-to-go-program"></a>Klar til å sette i gang-programmet
-Klar til å sette i gang-programmet er laget for å støtte deg når du skal ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilbud til Microsoft Appsource. Programmet omfatter:
+Klar til å sette i gang-prog+rammet er laget for å støtte deg når du skal ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilbud til Microsoft AppSource. Programmet omfatter:
 
 - [Elektronisk opplæring](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-learning-catalog)
 - [Opplæring og arbeidsgrupper](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)
@@ -82,6 +82,6 @@ Standardversjonen av produktet inneholder stadig flere utvidelser utviklet av Mi
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  
 
-[https://appsource.microsoft.com](https://appsource.microsoft.com/en-us/marketplace/apps?product=dynamics-365-for-financials&page=1)  
+[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

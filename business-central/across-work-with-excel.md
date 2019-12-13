@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 10/24/2019
 ms.author: jswymer
-ms.openlocfilehash: 71b4e5b7124f929255f1374b38cfbe28c9f12d2b
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99fe339426b755b70983d8ec9345858357043347
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692803"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808748"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
@@ -49,6 +49,8 @@ Dette ble forbedret i 2019 Release Wave 2. Hvis du vil ha mer informasjon, se [F
 > For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt er denne funksjonen bare tilgjengelig for webklienten.
 
 ### <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene 
+<br><br>  
+
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
 ## <a name="see-also"></a>Se også

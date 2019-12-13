@@ -1,8 +1,6 @@
 ---
 title: Opprette plasseringer fra interne plasseringer | Microsoft-dokumentasjon
 description: Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 791b23bd158c8dffcf75c511cd2607ef59dae5a6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad4d0a53f3a7c70ebfeecc9c513598a6ed8448c2
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310399"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881777"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument
 Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.  

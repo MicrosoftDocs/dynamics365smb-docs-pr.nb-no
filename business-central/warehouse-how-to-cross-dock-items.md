@@ -1,8 +1,6 @@
 ---
 title: Kryssoverføre varer| Microsoft-dokumentasjon
 description: Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 49e67bbdcf67b750f0de0d0c890df00281e381e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 717f6db3e8d53a8b2d75b9a27749e353e5ff28bc
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310375"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876802"
 ---
 # <a name="cross-dock-items"></a>Kryssoverføringsvarer
 Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.  
@@ -50,7 +48,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
     Alternativet **Bruk kryssoverføring** er bare tilgjengelig hvis feltene **Mottak nødv.**, **Levering nødv.**, **Plukk nødv.** og **Plassering nødv.** er valgt.  
 
 5.  Hvis du bruker hyller, fyller du ut feltet **Hyllekode for kryssoverføring** på hurtigfanen **Hyller** med koden for hyllen du vil bruke som standard kryssoverføringshylle.  
-6.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenhet**, og velg den relaterte koblingen.  
+6.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenhet**, og velg deretter den relaterte koblingen.  
 7.  For hver vare eller lagerføringsenhet du ønsker å kunne kryssoverføre, velger du varen og deretter **Rediger**-handlingen.
 8. På siden **Lagerføringsenhetskort** merker du av for **Bruk kryssoverføring**.  
 
@@ -58,7 +56,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 >  Kryssoverføring er mulig bare hvis du har definert lokasjonen til å kreve lagermottaksbehandling og plasseringsbehandling.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Slik kryssoverfører du varer uten å vise mulighetene  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 3.  Fyll ut feltet **Motta (antall)**, og velg deretter **Beregn kryssoverføring**-handlingen.  
 
@@ -75,7 +73,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 7.  Velg **Registrer**-handlingen for å registrere de kryssoverførte varene som plassert og tilgjengelig for plukking.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Slik kryssoverfører du varer etter å ha vist mulighetene  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 
     Du vil vise kildedokumentlinjer som ber om varen, før du bokfører mottaket.  

@@ -1,8 +1,6 @@
 ---
 title: Tilordne standardhyller til varer | Microsoft-dokumentasjon
 description: Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene for å gjøre levering, mottak og flytting av varene enklere. Når en standardhylle tilordnes en vare, foreslås denne hyllen hver gang du oppretter en transaksjon for denne varen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5183ce89e13b7d8aa33d3a32ebbe462cb024e9f2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d9a6efce014d3332a5dbb2f92a50c591c0c82eac
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310423"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881849"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilordne standardhyller til varer
 Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene for å gjøre levering, mottak og flytting av varene enklere. Når en standardhylle tilordnes en vare, foreslås denne hyllen hver gang du oppretter en transaksjon for denne varen. Standardhyller defineres på siden **Hylleinnhold**.  
 
 ## <a name="to-assign-a-default-bin-to-an-item"></a>Tilordne en standardhylle til en vare
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forslag for oppretting av hylleinnhold**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleinnholdopprett. – forslag**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut hyllekoden og opplysninger om varen for hver hylle du vil definere som standard for en vare. Pass på å velge **Standard**-feltet.  
 3.  Velg **Opprett hylleinnhold**-handlingen. Standardhyllene tilordnes for varen.  
 

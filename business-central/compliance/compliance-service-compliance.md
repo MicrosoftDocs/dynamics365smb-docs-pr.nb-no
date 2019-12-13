@@ -12,12 +12,12 @@ ms.search.keywords: ''
 ms.reviewer: edupont
 ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: a9378bd44dfbf0271987e748b03d7f2f3e17e1ac
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ad70b9d321ac4c8ee9b1d7c8a00e7e192187093a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307471"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880715"
 ---
 # <a name="service-compliance"></a>Servicesamsvar
 Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
@@ -26,11 +26,11 @@ Business Central er en skytjeneste med en global rekkevide og skala som kjører 
 
 Finner du en detaljert liste over [Skysamsvarstilbud for Business Central her](https://aka.ms/d365-compliance-list).
 
-Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se [Microsoft Klareringssenter](https://www.microsoft.com/en-us/trustcenter/compliance/complianceofferings).
+Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
 ## <a name="service-terms"></a>Tjenestevilkår
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] online er underlagt [Moderne livssykluspolicy](https://support.microsoft.com/en-us/help/30881/modern-lifecycle-policy). Vilkårene i servicenivåavtalen er beskrevet i dokumentet du kan laste ned fra delen **Servicenivåavtaler for Microsoft Online Services** på siden [Lisensvilkår](https://www.microsoft.com/en-us/licensing/product-licensing/products).  
+[!INCLUDE [prodshort](../includes/prodshort.md)] online er underlagt [Moderne livssykluspolicy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Vilkårene i servicenivåavtalen er beskrevet i dokumentet du kan laste ned fra delen **Servicenivåavtaler for Microsoft Online Services** på siden [Lisensvilkår](https://www.microsoft.com/licensing/product-licensing/products).  
 
 I tillegg kan du overvåke leietakers tilstand og angi oppgraderingsvinduer i [Administrasjonssenter for leiertaker](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

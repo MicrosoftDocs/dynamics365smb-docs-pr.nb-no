@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – Administrere prosjekter med underordnede prosjekter | Microsoft-dokumentasjon
 description: I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosjekter. Prosjeker brukes til å estimere forbruket av selskapets ressurser og til å holde rede på de ulike kostbeløpene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som det kan hende du vil spore etter som et prosjekt går fremover.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 43bad71f76fc441fee84c14d1890572130d3948a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 333c32d29e7095e95520badd375a3abde9a87834
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554719"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882017"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
 
@@ -79,7 +77,7 @@ Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma 
 
 ### <a name="to-prepare-the-sample-data"></a>Slik klargjør du eksempeldataene:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressurser**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt ressurskort.  
 3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
@@ -102,7 +100,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 
 ### <a name="to-create-a-job-journal-batch"></a>Slik oppretter du en prosjektkladd  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2.  Velg **Bunkenavn**-feltet på **Prosjektkladd**-siden. Siden **Prosjektkladder** åpnes.  
 3.  Velg **Ny**-handlingen for å opprette en ny linje med følgende informasjon:  
 
@@ -110,14 +108,14 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
     -   **Beskrivelse**: **Marie**  
     -   **Nr.serie**: **PKLD-GEN**  
 
-4.  Velg **OK** -knappen for å lagre endringene.
+4.  Velg **OK**-knappen for å lagre endringene.
 
 ## <a name="setting-up-a-job"></a>Konfigurere et prosjekt  
  I dette scenariet har CRONUS fått i oppdrag av en kunde, Progressive Home Furnishings, å designe et konferanserom og en spisesal. Kunden er basert i USA, og prosjektet krever spesialprogramvare. Prosjektlederen inngår en avtale med kunden og oppretter et prosjekt som er i tråd med avtalen.  
 
 ### <a name="to-set-up-a-job"></a>Slik konfigurerer du et prosjekt:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt kort.  
 3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
@@ -255,7 +253,7 @@ Linjene er nå bokført.
 
 ### <a name="to-create-a-job-sales-invoice"></a>Slik oppretter du en salgsfaktura for prosjekt:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet du opprettet tidligere, og velg handlingen **Opprett salgsfaktura for prosjekt**.  
 3.  På hurtigfanen **Prosjektoppgave** tømmer du eventuelle filtre på **Prosjektoppgavenr.** for å fakturere prosjektet. Velg det aktuelle prosjektet i **Prosjektnr.**-feltet.  
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
@@ -265,7 +263,7 @@ Linjene er nå bokført.
 
 ### <a name="to-post-a-new-sales-invoice"></a>Slik bokfører du en ny salgsfaktura:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2.  Åpne fakturaen for kundenr. 01445544. Nå kan du se informasjonen som ble registrert på planleggingslinjene.  
 3.  Velg handlingen **Bokfør**. Velg **Ja** for å bekrefte bokføringen.  
 
@@ -279,7 +277,7 @@ Linjene er nå bokført.
 
 ### <a name="to-open-the-statistics-page"></a>For å åpne statistikksiden  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Statistikk**. Du kan se gjennom detaljert informasjon om prosjektprisene, kostbeløpene og fortjenesten i både lokal og utenlandsk valuta.  
 3.  Velg **Lukk**-knappen for å lukke siden **Prosjektstatistikk**.  
 
@@ -288,7 +286,7 @@ Linjene er nå bokført.
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Slik håndterer du faste priser i prosjekter  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  Velg **Tremøbler AS**-prosjektnummeret og velg deretter **Prosjektoppgavelinjer**-handlingen.  
 3.  Velg linje 1120, og høyreklikk beløpet i feltet **Estimat (kostbeløp)** og velg **Drilldown**.  
 
@@ -310,7 +308,7 @@ Etter at Marie er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 
 
 ### <a name="to-enter-hours-in-the-job-journal"></a>Slik angir du timer i prosjektkladden:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2.  Skriv inn følgende informasjon på en ny linje:  
 
     -   **Linjetype**: **(tom)**  
@@ -371,7 +369,7 @@ I kontraktens salgsbeløp er bare de opprinnelig avtalte 30 timene tatt med side
 
 ### <a name="to-copy-a-job"></a>Slik kopierer du et prosjekt:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen for å opprette et nytt prosjekt. Angi følgende informasjon:  
 
     -   **Beskrivelse**: **Oppsett av ti konferanserom**  
@@ -396,7 +394,7 @@ Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer f
 
 ### <a name="to-set-up-a-new-account"></a>Slik konfigurerer du et nytt budsjett  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen på siden **Kontoplan** for å opprette et nytt kort.  
 3.  Angi følgende informasjon på kortet **Ny finanskonto**:  
 

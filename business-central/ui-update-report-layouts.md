@@ -1,25 +1,23 @@
 ---
 title: Holde et rapportoppsett oppdatert | Microsoft-dokumentasjon
 description: Du må kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet.
-services: project-madeira
-documentationcenter: ''
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 9bc4879e6461ad9a2a1f88e2c877bc80d27c2206
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 7a9389134c57d60999be2019a1e4394f8c3a00e5
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314991"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876946"
 ---
-# <a name="updating-report-or-document-layouts"></a>Oppdatere rapport- og dokumentoppsett
+# <a name="update-custom-report-layouts"></a>Oppdatere egendefinerte rapportoppsett
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  
 
 Du kan oppdatere automatisk et rapportoppsettet fra feilmeldingen som vises når du kjører rapporten, ved å velge **Ja**-knappen på feilmeldingen. Eller du kan oppdatere bestemte rapportoppsett eller alle tilpassede rapportoppsett som kan bli påvirket av endringer i datasettet, før du kjører rapportene.  
@@ -30,7 +28,7 @@ Ikke alle endringer i rapportdatasettet kan oppdateres automatisk i et rapportop
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Slik oppdaterer du én eller flere egendefinerte rapportoppsett  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsett**, og velg deretter den relaterte koblingen.  
 
 2.  Hvis du vil oppdatere en bestemt rapport, velger du oppsettet fra listen på siden **Rapportoppsett**, og velger deretter **Oppdater oppsett**. Hvis du vil oppdatere alle egendefinerte rapportoppsett for selskapet, velger du **Oppdater alle oppsett**-handlingen.  
 

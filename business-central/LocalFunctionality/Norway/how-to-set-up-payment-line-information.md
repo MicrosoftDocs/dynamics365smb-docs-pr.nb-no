@@ -1,8 +1,6 @@
 ---
 title: Definere betalingslinjeinformasjon
 description: Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden Betalingsinformasjon.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 83bb1fe0c5f152e6d711edd7b7121c38beeb6251
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6e9b714ff467e2afcc10003423049c06cfdef733
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301224"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881332"
 ---
 # <a name="set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
 Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  
 
 ## <a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Betalingsinformasjon**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Betalingsinformasjon**.  
 

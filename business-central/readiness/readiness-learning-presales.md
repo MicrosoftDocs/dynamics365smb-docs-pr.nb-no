@@ -7,12 +7,12 @@ ms.date: 11/06/2019
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.author: solsen
-ms.openlocfilehash: 4aa15d32143b909b206a10d8ae11906abfddc47b
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 8608fbc4198f4e3daf9fe0edd1f261367f3fcb55
+ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767847"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832266"
 ---
 # <a name="pre-sales-learning-catalog"></a>Læringskatalog for førsalg
 
@@ -39,7 +39,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 
 | Innhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Bare partnere) Denne økten vil lage en disposisjon av verdien for Business Central. Business Central tilbyr god verdi fordi den er integrert med andre Microsoft-skytjenester, inkludert Office 365, og kan tilpasses eller utvides for bestemte bransjebehov med PowerApps, Microsoft Flow og Power BI. | Video                                 | 8 minutter 5 sekunder |
+| [Dynamics 365 Business Central (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101760)                              | (Bare partnere) Denne økten vil lage en disposisjon av verdien for Business Central. Business Central tilbyr god verdi fordi den er integrert med andre Microsoft-skytjenester, inkludert Office 365, og kan tilpasses eller utvides for bestemte bransjebehov med Power Apps, Power Automate og Power BI. | Video                                 | 8 minutter 5 sekunder |
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/) | Utforske Dynamics 365 Business Central-funksjoner                                                                                                                                                                                                                                                        | Nettsted                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk.                                                                                                                                                                                                | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter          |
 

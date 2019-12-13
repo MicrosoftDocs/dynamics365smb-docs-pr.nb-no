@@ -1,8 +1,6 @@
 ---
 title: Endre planleggingsforslag i en grafisk visning | Microsoft-dokumentasjon
 description: En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313375"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877930"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
 En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
@@ -37,7 +35,7 @@ Når du velger **Lagre endringer** på siden **Varetilgjengelighet per tidslinje
 Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av dra og slipp. Som et alternativ kan du endre feltene **Forfallsdato** og **Antall** på hurtigfanen **Hendelsesendringer** og umiddelbart se endringene grafisk på hurtigfanen **Tidslinje** på siden **Planleggingsforslag**.  
 
 ## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Endre foreslåtte forsyningsordrer i den grafiske visningen  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
 
     Siden **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
 

@@ -1,8 +1,6 @@
 ---
 title: Flytte kundedata | Microsoft-dokumentasjon
 description: Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til Business Central ved å bruke RapidStart Services. Du kan bruke Excel XLSX-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 12/04/2019
 ms.author: sgroespe
-ms.openlocfilehash: 7f2d1f354b789931bde76ed8869e326a34e53919
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 80fbd0a1024ae104fb6fc0921e1260c89a26debf
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304419"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896208"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
+
+> [!NOTE]
+> Felt av typen blob kan ikke eksporteres/importeres i Excel.
 
 Siden **Flytting - oversikt** og **Konfigurer forslag** gir deg tilgang til funksjonene og visningene som lar deg utføre oppgavene som er relatert til overføring av data. Vi anbefaler at du flytter én tabell om gangen, for å håndtere avhengigheter i dataene. Når du flytter, berører du også hoveddatatabellene, som inneholder informasjon om kunder, leverandører, varer, kontakter og finans.  
 

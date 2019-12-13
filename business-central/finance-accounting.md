@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 12/02/2019
 ms.author: edupont
-ms.openlocfilehash: 79ed5e1b7200a668be2aa078531fd68e0131b6ff
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c575c0e482ebe4d34c9b699b22747486651efe04
+ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302598"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896136"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
@@ -25,33 +25,32 @@ Rollesenteret er et instrumentbord med aktivitetsfliser som viser deg nøkkeltal
 
 Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] er nytt for deg, kan du vise en oversikt over videoer rett fra rollesenteret. Du kan også starte **Komme i gang**, som angir viktige områder.  
 
-## <a name="accountant-hub"></a>Accountant Hub
-Hvis du er en regnskapsfører med flere klienter, kan du bruke [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for å få en bedre oversikt over klientene dine. Herfra har du tilgang til hver klients leier i [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan bruke rollesenter for regnskapsfører som beskrevet ovenfor. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
-
-> [!NOTE]
-> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er for øyeblikket i en offentlig forhåndsversjon i et begrenset antall markeder.
-
-## <a name="inviting-your-external-accountant-to-your-included365finincludesd365fin_mdmd"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at vedkommende kan arbeide med regnskapsdataene.
 
 Når regnskapsføreren har fått tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante sidene for arbeidet.  
 
 Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare åpne **Brukere**-siden, og velg deretter **Inviter ekstern regnskapsfører** i båndet. En e-post er opprettet slik at du bare legger til regnskapsførerens arbeids-e-post og sender invitasjonen.  
+> [!Note]  
+> Dette krever at du har definert SMTP-e-post. Hvis du vil ha mer informasjon, kan du se [Konfigurer e-post](admin-how-setup-email.md).   
 
 ![Invitere regnskapsføreren din](./media/finance-invite-accountant/invite-accountant.png)
-
-> [!TIP]  
-> Dette krever at du har definert SMTP-e-post. Du kan gjøre dette selv eller be din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. I tillegg du må være logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] som brukeradministrator, ikke som bedriftseier eller andre brukere. Til slutt må du ha igjen prøveselskapet slik at du har en administrator for Azure Active Directory.  
 
 > [!IMPORTANT]  
 > Regnskapsførerens e-postadresse må være en jobbadresse som er basert på Azure Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes.  
 
-### <a name="separate-license"></a>Egen lisens
-Regnskapsføreren blir lagt til i Active Directory-leietakeren din bakgrunnen. Systemansvarlig kan kontrollere at regnskapsføreren godtar invitasjonen og tilordnes riktig lisens. Fremgangsmåten for å gjøre dette er avhengig av kontotypen du brukte da du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette emnet er basert på bruken av en Office 365-konto, som bruker Microsoft Azure Active Directory.  
+### <a name="behind-the-scenes"></a>I bakgrunnen
+[!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer tre lisenser av typen ekstern regnskapsfører. Hvis selskapet bruker en ekstern regnskapsfører, kan du gi tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å tilordne dem en slik lisens. Hvis du vil ha mer informasjon om lisensiering, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590). 
 
-Hvis du har aktivert abonnementet på [!INCLUDE[d365fin](includes/d365fin_md.md)] og ikke lenger bruker evalueringsselskapet, har du en Azure Active Directory-leier. Administratoren eller [!INCLUDE[d365fin](includes/d365fin_md.md)]-partneren administrerer denne leieren i vinduet [Azure Portal](https://portal.azure.com). Det er her nye brukere legges til og lisenser brukes og fjernes. Hvis du vil ha mer informasjon, kan du se [Oversikt over Microsoft Azure Portal](https://docs.microsoft.com/en-us/azure/azure-portal-overview).  
+Hvis abonnementet fortsatt har en tilgjengelig lisens, kan systemansvarlig eller videresalgspartneren legge til en ekstern bruker via Azure Portal og tilordne denne brukeren den eksterne regnskapsførerlisensen. Hvis du vil ha mer informasjon, se [Legge til Azure Active Directory B2B-samarbeidsbrukere i Azure Portal](/azure/active-directory/b2b/add-users-administrator).
 
-En av lisenstypene for [!INCLUDE[d365fin](includes/d365fin_md.md)] er lisensen *Ekstern regnskapsfører*. Denne lisenstypen er beregnet på brukere som eksterne regnskapsførere. Dette betyr at du slipper å kjøpe en ekstra plass i Active Directory eller bruke en av de eksisterende [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerkontiene på den eksterne regnskapsføreren. Hvis det gjeldende Office 365-abonnementet ditt omfatter ti brukere for [!INCLUDE[d365fin](includes/d365fin_md.md)], og du bruker ti *Fullstendig bruker*-lisenser, kan systemansvarlig ganske enkelt legge til den eksterne regnskapsføreren som en gjestebruker i Azure Portal og tilordne denne brukeren til lisensen *Ekstern regnskapsfører* uten ekstra kostnad. Du kan imidlertid bare ha én bruker med lisensen *Ekstern regnskapsfører*. Hvis du vil legge til flere brukere, må du oppdatere Office 365-abonnementet tilsvarende.
+Deretter kan du invitere regnskapsføreren fra innsiden av [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke den assisterte oppsettsveiledningen **Invitere ekstern regnskapsfører**. Ettersom denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory, må imidlertid brukeren som sender denne invitasjonen, tilordnes rollen **Global administrator** eller **Brukeradministrator** i Office 365-administrasjonssenteret. Hvis du vil ha mer informasjon, se [Om administratorroller](/office365/admin/add-users/about-admin-roles) i Office 365-administratorinnholdet. 
+
+## <a name="accountant-hub"></a>Accountant Hub
+Hvis du er en regnskapsfører med flere klienter, kan du bruke [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)] for å få en bedre oversikt over klientene dine. Herfra har du tilgang til hver klients leier i [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan bruke rollesenter for regnskapsfører som beskrevet ovenfor. Hvis du vil ha mer informasjon, kan du se [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index).  
+
+> [!NOTE]
+> [!INCLUDE [d365acc_long_md](includes/d365acc_long_md.md)] er for øyeblikket i en offentlig forhåndsversjon i et begrenset antall markeder.
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  
@@ -63,4 +62,4 @@ En av lisenstypene for [!INCLUDE[d365fin](includes/d365fin_md.md)] er lisensen *
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
 [Velkommen til [!INCLUDE[d365acc_long](includes/d365acc_long_md.md)]](/dynamics365/accountants/index)  
-[Dynamics 365 – Accountant Hub på Microsoft.com](https://www.microsoft.com/en-us/dynamics365/financial-insights-for-accountants)  
+[Dynamics 365 – Accountant Hub på Microsoft.com](https://www.microsoft.com/dynamics365/financial-insights-for-accountants)  

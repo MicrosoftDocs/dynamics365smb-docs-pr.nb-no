@@ -1,8 +1,6 @@
 ---
 title: Opprette produksjonsordrer fra ordrer | Microsoft-dokumentasjon
 description: Du kan opprette produksjonsordrer fra ordrer i avdelingen Salg og markedsføring.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 362429f34c326996d9097ff23a0aec02787b2781
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314147"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883313"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Opprette produksjonsordrer fra ordrer
 Du kan opprette produksjonsordrer for produserte varer direkte fra ordrer.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Slik oppretter du en produksjonsordre fra en ordre  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg ordren du vil opprette en produksjonsordre for.  
 3.  Velg handlingen **Planlegging**. På **Ordreplanlegging**-siden kan du se tilgjengeligheten til ordrevaren.  
 4.  Velg handlingen **Opprett prod.ordre**.  

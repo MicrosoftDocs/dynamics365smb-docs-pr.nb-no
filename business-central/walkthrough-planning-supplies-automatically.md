@@ -1,8 +1,6 @@
 ---
 title: Gjennomgang – Planlegge forsyninger automatisk | Microsoft-dokumentasjon
 description: Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hovedproduksjonsplanen (MPS) og materialbehovsplanen (MRP) basert på faktisk og prognostisert behov.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ba3e5b085dba8b577ed9ca54e3956a02d5ecd841
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ec5de84594d733886bb42cfe251a83230556b060
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314775"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881894"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
 
@@ -76,7 +74,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-change-selected-planning-parameters"></a>Slik endrer du valgte planleggingsparametre:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
 2.  Åpne lagerføringsenhetskortet OSLO for vare 1100, forhjul.  
 3.  På hurtigfanen **Planlegging** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -93,7 +91,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  På siden **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -105,7 +103,7 @@ Uttrykk som "kjør planlegging" og "kjør MRP" refererer til beregningen av hove
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Slik oppretter du en replanlegging for å dekke behovet i OSLO  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

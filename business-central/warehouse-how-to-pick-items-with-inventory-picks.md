@@ -1,8 +1,6 @@
 ---
 title: Plukke varer med lagerplukk | Microsoft-dokumentasjon
 description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 66b4d9c3f9f84e9342cffd9446a4b3992ff62a57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f6f157de1d3d65eddf7e2db9c40f27ec56443de
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310279"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876634"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
 Når lokasjonen din er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du **Lagerplukk**-siden til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene. Det utgående kildedokument kan være en ordre, en bestillingsretur, en utgående overføringsordre eller en produksjonsordre som det skal plukkes komponenter til.
@@ -36,7 +34,7 @@ Du kan opprette lagerplukk på tre måter:
 ## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Be om et lagerplukk ved å frigi kildedokumentet  
 Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Fremgangsmåten nedenfor beskriver hvordan dette gjøres fra en ordre.
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren som skal frigis, og velg deretter **Frigi**-handlingen.
 
 Når det gjelder produksjonsordrer, oppretter du automatisk lagerforespørselen for plukking av komponenter, som kalles *trekk*, når produksjonsordrestatus endres til **Frigitt** eller når den frigitte produksjonsordren opprettes. Hvis du vil ha mer informasjon, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).
@@ -58,7 +56,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lager
 3.  Velg **OK**. Et nytt lagerplukk opprettes.
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Slik oppretter du flere lagerplukk med en kjørsel:  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett lagerplassering/-plukking**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
 3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
 4. Velg **OK**. De angitte lagerplukkingene blir opprettet.

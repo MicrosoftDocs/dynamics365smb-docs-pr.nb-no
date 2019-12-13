@@ -1,8 +1,6 @@
 ---
 title: Motta varer| Microsoft-dokumentasjon
 description: Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ea8d952f6ef88415b0fef27c1694ad7d29672e64
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d007c3a9433807f75e667e130c0b79355a4a051a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310459"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876749"
 ---
 # <a name="receive-items"></a>Motta varer
 Når varene ankommer et lager som ikke er definert til lagermottaksbehandling, må du ganske enkelt registrere mottaket i det relaterte forretningsdokumentet, for eksempel en bestilling, en ordreretur eller en inngående overføringsordre.
@@ -34,7 +32,7 @@ Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten e
 4. Velg handlingen **Bokfør**.
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Slik mottar du varer med et lagermottak
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  

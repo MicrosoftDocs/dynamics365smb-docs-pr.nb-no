@@ -1,8 +1,6 @@
 ---
 title: Designdetaljer – Varesporing og reservasjoner | Microsoft-dokumentasjon
 description: Dette emnet handler om varesporing og reservasjoner og beskriver konseptene bak to.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e5818f5bafd737738a99b4627ab36548a7f0ec4
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d7895b0068afaf73a113b6f656c1600ce2cc4a4a
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303397"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880235"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
 Samtidig bruk av reservasjon og bestemt varesporing er uvanlig, fordi begge oppretter en kobling mellom forsyning og behov. Med unntak av tilfeller der en kunde- eller produksjonsplanlegger ber om et bestemt parti, er det sjelden fornuftig å reservere lagervarer som allerede har varesporingsnumre for et bestemt utligning. Selv om det er mulig å reservere varer som krever en bestemt varesporing, kreves det spesialfunksjoner for å unngå tilgjengelighetskonflikter mellom ordrebehandlere som krever de samme varesporede varene.  

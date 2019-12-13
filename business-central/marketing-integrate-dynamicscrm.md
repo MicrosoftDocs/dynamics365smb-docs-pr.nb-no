@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: df539a8c1aa42fe8bc732e4819db10cbfbdaec2a
-ms.sourcegitcommit: cd5d3d288feee76d058d325720135275f4c8ad85
+ms.openlocfilehash: 33b2931e14cb7e41cc3e71c327d2237cd8308466
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2775574"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878200"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruke Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[d365fin](includes/d365fin_md.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
@@ -73,10 +73,10 @@ Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ik
 
 Hvis varebeskrivelsen i den opprinnelige ordren er lang, kan en ekstra ordrelinje av typen **Merknad** opprettes som har plass til hele teksten i ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Oppdateringer i ordrehodefelt, for eksempel Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i **Tilordninger for integreringstabell** for SALESORDER-ORDER, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre og levere eller fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/introduction-activity-feeds).
+Oppdateringer i ordrehodefelt, for eksempel Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i **Tilordninger for integreringstabell** for SALESORDER-ORDER, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre og levere eller fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](/dynamics365/customer-engagement/developer/introduction-activity-feeds).
 
 > [!NOTE]  
-> Periodisk synkronisering basert på **Tilordninger for integreringstabell** for SALESORDER-ORDER vil bare fungere når ordreintegrasjon er aktivert. Hvis du vil ha mer informasjon, kan du se [Koblet til Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Bare ordrer som er opprettet fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering basert på **Tilordninger for integreringstabell** for SALESORDER-ORDER vil bare fungere når ordreintegrasjon er aktivert. Hvis du vil ha mer informasjon, kan du se [Koblet til Dynamics 365 for Sales](admin-how-to-set-up-a-dynamics-crm-connection.md). Bare ordrer som er opprettet fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 

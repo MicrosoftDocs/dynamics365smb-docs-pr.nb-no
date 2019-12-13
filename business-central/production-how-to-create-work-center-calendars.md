@@ -1,8 +1,6 @@
 ---
 title: Definere produksjonskalendere | Microsoft-dokumentasjon
 description: En arbeidssenterkalender angir virkedager og arbeidstider, skift, ferie og fravær som utgjør arbeidssenterets disponible kapasitet, målt i tid, i henhold til senterets definerte effektivitets- og kapasitetsverdier. Opprettelse og aktivering av en arbeidssenterkalender omfatter flere forhåndsoppgaver.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1663f9092c21e1955f3e2531efc9935ba1c68982
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cc40361150d8368c46f9045451c0d542eff13779
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314075"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877954"
 ---
 # <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
 En arbeidssenter- eller maskinkalender angir virkedager/arbeidstider, skift, ferie og fravær som utgjør senterets disponible kapasitet (målt i tid) i henhold til senterets definerte effektivitets- og kapasitetsverdier.
@@ -35,7 +33,7 @@ I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner nå
 Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én arbeidsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonskalendere**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonskalendere**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
 4.  Velg **Virkedager**-handlingen.

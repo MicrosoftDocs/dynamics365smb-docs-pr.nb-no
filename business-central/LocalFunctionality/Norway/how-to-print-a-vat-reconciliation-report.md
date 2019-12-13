@@ -1,8 +1,6 @@
 ---
 title: Skrive ut en MVA-avstemmingsrapport
 description: Rapporten MVA-avstemming viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 4e94c460645f8039f2b379fe20fab0596e6b9761
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f4af88b3d1904bb7d6f3b29a364bb73a61ef9a29
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301231"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2881336"
 ---
 # <a name="print-a-vat-reconciliation-report"></a>Skrive ut en MVA-avstemmingsrapport
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.  
 
 ## <a name="to-print-the-vat-reconciliation-report"></a>Slik skriver du ut MVA-avstemmingsrapporten:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **MVA-avstemming**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **MVA-avstemming**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

@@ -1,8 +1,6 @@
 ---
 title: Flytte komponenter til et operasjonsområde i enkle lageroppsett | Microsoft-dokumentasjon
 description: Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ce7830c4fa7c40bb0da08ba27fac6b5a9121c50a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc3211ef873e3cf31768210e9659ae54dd59d10d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310351"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882881"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
 Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.  
@@ -49,7 +47,7 @@ En lagermedarbeider kan også opprette den ved å peke på den aktuelle frigitte
 Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **Lagerflytting** ved å referere til en frigitt monteringsordre som et kildedokument. Fremgangsmåten er den samme når du flytter komponenter for produksjonsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerflytting**, og velg den relevante koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerflytting**, og velg deretter den relevante koblingen.  
 2.  På hurtigfanen **Generelt** fyller du ut **Nr.**-feltet . Du kan trykke ENTER for å velge fra nummerserien.  
 3.  Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
 4.  Velg handlingen **Hent kildedokumenter**. Du kan også fylle ut feltet **Kildedokument** og deretter velge **AssistEdit**-knappen i feltet **Kildenr.**  
