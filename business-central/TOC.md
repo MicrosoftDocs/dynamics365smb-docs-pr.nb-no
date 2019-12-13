@@ -16,14 +16,14 @@
 
 ## [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
-## [Forsøke en forhåndsvisningsversjon](across-preview.md)
-## [Avbryte, fjerne eller tilbakestille Business Central](admin-cancel.md)
-## [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)
+## [Prøveversjoner og abonnementer](across-preview.md)
+### [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)
+### [Avbryte eller fjerne Business Central](admin-cancel.md)
 ## [Tilgang til den intelligente skyen med Business Central](about-intelligent-cloud.md)
 ## [Gå til videobiblioteket vårt](across-videos.md)
-## [Bli en forhandler](product-sell.md)
-## [Utvide Business Central](about-develop-extensions.md)
-## [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
+## Forhandlere og partnere
+### [Bli en forhandler](product-sell.md)
+### [Utvide Business Central](about-develop-extensions.md)
 
 # Arbeide med Business Central
 ## [Oversikt](ui-work-product.md)
@@ -38,7 +38,7 @@
 ## [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)
 ## [Registrere obligatoriske felt](ui-mandatory-fields.md)
 ## [Endre språk og nasjonal innstilling](about-locale-language.md)
-## [Vise og redigere i Excel](across-work-with-excel.md)  
+## [Vise og redigere i Excel](across-work-with-excel.md)
 ## [Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md)
 ## [Endre grunnleggende innstillinger](ui-change-basic-settings.md)
 ## [Behandle varsler](ui-smart-notifications.md)
@@ -55,12 +55,13 @@
 ### [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md)
 ### [Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md)
 ### [Kjøre satsvise jobber og XML-porter](ui-how-run-batch-jobs.md)
-## Endre hvordan eksternt dokumenter og rapporter ser ut
+## Endre utseendet til eksternt dokumenter og rapporter
 ### [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)
-### [Oppdatere rapport- og dokumentoppsett](ui-update-report-layouts.md)
-### [Gjøre endringer i Word-rapportoppsett](ui-how-create-custom-report-layout.md)
-### [Importere og eksportere en rapport eller et dokumentoppsett](ui-how-import-and-export-report-layout.md)
 ### [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)
+### [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)
+### [Importere og eksportere en egendefinert rapportoppsett](ui-how-import-and-export-report-layout.md)
+### [Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)
+### [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)
 ### [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md)
 ## Bruke hurtigtaster
 ### [Tilgjengelighet og hurtigtaster](ui-accessibility.md)
@@ -222,10 +223,10 @@
 ### [Aktivere forretningsdata for Power BI](admin-powerbi.md)
 ### [Vise listedata i Power BI-rapporter i Business Central](across-how-use-powerbi-reports-factbox.md)
 ### [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)
-## Bruke Flow med Business Central
+## Bruke Power Automate med Business Central
 ### [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)
-### [Feilsøke integrering med Microsoft Flow – URL-forespørselen er for lang](across-troubleshooting-how-use-financials-data-source-flow.md)
-## [Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av PowerApps](across-how-use-financials-data-source-powerapps.md)
+## Bruke Power Apps med Business Central
+### [Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)
 ## [Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
 ## [Få Business Central på mobilenheten din](install-mobile-app.md)
 ## [Massefakturering for Microsoft Bookings](finance-bookings.md)
@@ -271,7 +272,7 @@
 #### [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)
 #### [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)
 #### [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Opprette og endre et egendefinert rapportoppsett eller dokumentoppsett](ui-how-create-custom-report-layout.md)
+#### [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)
 #### [Konfigurere e-post](admin-how-setup-email.md)
 #### [Opprette arbeidsflyter](across-how-to-create-workflows.md)
 #### [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)
