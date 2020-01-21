@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b999e8670c2d9208fb0a9f86d6c0ec26353207b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302357"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953806"
 ---
 # <a name="create-gl-budgets"></a>Opprette finansbudsjetter
 Du kan ha flere budsjetter for de samme periodene hvis du oppretter budsjetter med forskjellige navn. Først definerer du budsjettnavn og angir budsjettallene. Budsjettnavnet inkluderes da på alle budsjettpostene du oppretter.  
@@ -29,7 +29,7 @@ Budsjetter spiller en viktig rolle i forretningsintelligens, for eksempel i års
 I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha mer informasjon, kan du se [Opprette kostbudsjetter](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Opprette et nytt finansbudsjett  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velg handlingen **Rediger budsjett**.
 4. Øverst på siden **Budsjett** fyller du ut feltene etter behov for å definere det som vises.  
@@ -47,6 +47,8 @@ For nesten alle andre sider kan du eksportere data på budsjettsider til Excel f
 
 > [!NOTE]
 > Kontoplanen som finansbudsjetter er basert på, har linjer med kontotypen Overskrift som inneholder summen av linjene under. Når du eksporterer et finansbudsjett, eksporteres data på alle linjer uavhengig av kontotypen. Imidlertid kan bare data på linjer av kontotypen Bokføring importeres tilbake. I henhold til dette: <br /><br /> **Når du importerer et finansbudsjett, slettes verdier som finnes i Overskrift-linjene.** <br /><br /> Dette er for å unngå feil totaler når du importerer data som er opprettet eller redigert i Excel.<br /><br /> **Scenario**: Du vet at de nye budsjetterte lønnskostnadene vil bli NOK 1 200 000. Du vil at lønnsavdelingen skal budsjettere for de tre bestemte linjene (av kontotypen Bokføring) for fulltidsansatte, deltidsansatte og midlertidig hjelp. De tre linjene grupperes under en Lønn-overskriftslinje.<br /><br />Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og sender det til lønnsavdelingen og informerer dem om å distribuere NOK 1 200 000.<br /><br /> Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til NOK 1 200 000, og overskriftslinjen er tom.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Eksportere forretningsdataene til Excel](about-export-data.md)  

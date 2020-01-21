@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 12/06/2019
+ms.date: 12/12/2019
 ms.author: edupont
-ms.openlocfilehash: 4df167f27fc9fe456cece9c8738fa5f3aff8338c
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: cb470cd72c3352ca5de9fc27264b30b67abbadec
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896188"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910931"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
@@ -111,7 +111,7 @@ Hvis du vil ha veiledning fra Microsoft, kontakter du [Microsoft Sales-teamet](h
 Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).
 
 ## <a name="is-the-windows-client-supported"></a>Støttes Windows-klienten?
-De første utgivelsene av lokal [!INCLUDE[prodshort](includes/prodshort.md)] inkluderte en installert klient hentet fra Microsoft Dynamics NAV. Fra og med 2019 utgivelsesplan 2 er denne eldre komponenten, kalt "Windows-klienten", ikke lenger tilgjengelig for [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, se [Vanlige spørsmål om Windows-klienten og Business Central](/dynamics365/business-central/dev-itpro/across-faq-win-cli).
+De første utgivelsene av lokal [!INCLUDE[prodshort](includes/prodshort.md)] inkluderte en installert klient hentet fra Microsoft Dynamics NAV. Fra og med 2019 utgivelsesplan 2 er denne eldre komponenten, kalt "Windows-klienten", ikke lenger tilgjengelig for [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, se [Vanlige spørsmål om Windows-klienten og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  

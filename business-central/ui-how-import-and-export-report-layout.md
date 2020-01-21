@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 97f66d28576586c4e09c0bc700785eac969d316a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881969"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954050"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere en egendefinert rapportoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -48,6 +48,8 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 5.  Velg dokumentet som definerer rapportoppsettet, i dialogboksen **Importer**, og velg deretter **Åpne**.  
 
  Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   

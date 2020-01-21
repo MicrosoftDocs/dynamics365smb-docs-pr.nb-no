@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 12/03/2019
+ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1d0b7b7363df88e52631b4ba6e2f495be13f7397
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896160"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943236"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 Nedenfor beskrives hvordan du kan opprette brukere og definere hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], og hvilke grunnleggende rettigheter ulike brukertyper har i henhold til lisensene.
@@ -83,6 +83,45 @@ Hvis du endrer brukeren i Office 365 etterpå, og du må synkronisere endringene
 |Oppdater brukerposten basert på faktisk informasjon i Office 365: status, fullt navn, kontaktens e-post, godkjennings-e-post.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph|**X**|**X**|**X**|**X**| |
 |Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Office 365.<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans|**X**|**X**| |**X**|**X**|
 |Legg til brukeren i brukergrupper i henhold til gjeldende brukerplaner. Tilbakekall SUPER-tillatelsessettet. (Det må være minst én SUPER. Ikke tilbakekall fra [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration).)<br /><br />Codeunit "Rettighetsadministrator". AddUserToDefaultUserGroups|**X**|**X**| |**X**<br /><br />Skriv over: Fjern brukeren fra andre grupper. Fjern manuelt tilordnede tillatelsessett.|**X**<br /><br />Legg til: Behold gjeldende medlemskap i brukergruppen og tilordnede tillatelsessett intakte. Legg bare til bruker i grupper hvis det er nødvendig.|
+
+## <a name="the-device-license"></a>Enhetslisensen
+Med Dynamics 365 Business Central-enhetslisensen kan flere brukere bruke en enhet som er lisensiert med enhetslisensen, til å betjene en salgsstedsenhet, en produksjonsenhet eller en lagerenhet. For mer informasjon, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing).
+
+Enhetslisensen implementeres som en samtidig bruker-modell. Når du har kjøpt X antall enhetslisenser, kan opptil X antall brukere fra den utpekte gruppen kalt for Dynamics 365 Business Central-enhetsbrukere* logge på samtidig.
+
+Selskapet Office 365-administrator eller Microsoft-partner bør opprette den angitte enhetsgruppen og legge til enhetsbrukere som medlemmer av den gruppen. De kan gjøre dette i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com/) eller på [Azure-portalen](https://portal.azure.com/).
+
+### <a name="device-user-limitations"></a>Begrensninger for enhetsbrukere
+Brukere med enhetslisensen kan ikke utføre følgende oppgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
+
+-   Definere jobber som skal kjøres som planlagte oppgaver i jobbkøen. Enhetsbrukere er samtidige brukere, og vi kan derfor ikke sikre at den involverte brukeren finnes i systemet når en oppgave utføres, noe som kreves.
+
+-   En enhetsbruker kan ikke være første bruker til å logge på. En bruker av typen administrator, fullstendig bruker eller ekstern regnskapsfører må være den første til å logge på, slik at de kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se også [Administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration) for mer informasjon.
+
+### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Slik oppretter du en Dynamics 365 Business Central-enhetsbrukergruppe
+1.  Gå til **Grupper**-siden i administrasjonssenteret for Microsoft 365.
+2.  Velg handlingen **Legg til en gruppe**.
+3.  På siden **Velg en gruppetype** velger du **Sikkerhet** og deretter **Legg til**.
+4.  På siden **Grunnleggende** skriver du *Dynamics 365 Business Central Device Users* som navnet på gruppen.
+
+    > [!Note]
+    > Navnet på gruppen må være stavet nøyaktig som ovenfor, også i et ikke-engelsk oppsett.
+5. Velg **Lukk**-knappen.
+
+> [!NOTE]
+> Du kan også opprette en gruppe av typen Office 365. Hvis du vil ha mer informasjon, kan du se [Sammenligne grupper](https://docs.microsoft.com/office365/admin/create-groups/compare-groups).
+
+### <a name="to-add-members-to-the-group"></a>Slik legger du til medlemmer i gruppen
+1.  I administrasjonssenteret for Microsoft 365 oppdaterer du **Grupper**-siden, slik at den nye gruppen vises.
+2.  Velg gruppen **Dynamics 365 Business Central Device Users**, og velg deretter **Vis alle og administrer medlemmer**.
+3.  Velg handlingen **Legg til medlemmer**.
+4.  Velg brukerne du vil legge til, og velg deretter **Lagre**-knappen.
+5.  Velg **Lukk**-knappen tre ganger.
+
+Du kan legge til så mange brukere i gruppen Dynamics 365 Business Central Device Users som du trenger. Antall enheter som brukere kan logge på samtidig, er definert av antall kjøpte enhetslisenser.
+
+> [!NOTE]
+> Du trenger ikke å tilordne en [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisens til brukere som er medlemmer av gruppen Dynamics 365 Business Central Device Users.
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Behandle brukere og lisenser i lokale distribusjoner
 For distribusjon på stedet er det angitt en rekke lisensierte brukere i lisensfilen (.flf). Når administratoren eller Microsoft-partneren laster opp lisensfilen, kan administratoren angi hvilke brukere som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)].

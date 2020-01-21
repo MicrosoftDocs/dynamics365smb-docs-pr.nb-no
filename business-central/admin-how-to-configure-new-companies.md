@@ -10,19 +10,25 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ae54c2f764deafe34df8d38e1213757ee9b05515
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: aade98d02744ef2e40b7d844c4bddea4d231fceb
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878584"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910811"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
 Hvis du vil konfigurere et nytt selskap i løsningsimplementeringen, følger du vanligvis tre faser. I den første fasen importerer du konfigurasjonspakken, som er en .rapidstart-fil med konfigurasjonsinformasjon. I den andre fasen endrer du konfigurasjonsinformasjonen og bruker den deretter på det nye selskapet. Du ser gjennom og retter eventuelle feil i siste fase.  
 
 Fremgangsmåtene nedenfor forutsetter at du har opprettet og lagret en konfigurasjonspakke. Hvis du vil ha mer informasjon, kan du se [Klargjøre en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md).  
 
-Fremgangsmåtene nedenfor forutsetter at du har initialisert og åpnet det nye selskapet og at du bruker rollesenteret for RapidStart Services-implementerer.
+Fremgangsmåtene nedenfor forutsetter at du har initialisert og åpnet det nye selskapet og at du bruker rollesenteret for administrasjon.
+
+## <a name="before-you-import-a-configuration-package"></a>Før du importerer en konfigurasjonspakke
+Før du importerer en konfigurasjonspakke, er det lurt å kontrollere at følgende utsagn er sanne. Hvis ikke, kan du eller kunden ikke importere konfigurasjonspakken.
+
+* Lisensen inkluderer tabellene du oppdaterer. Hvis du er usikker, kan **konfigurasjonsforslaget** hjelpe. Hvis lisensen inkluderer tabellene, er det merket av for **Lisensiert tabell**.  
+* Brukeren som importerer konfigurasjonspakken, har gjeldende tillatelser for Sett inn og Endre for alle tabellene som pakken vil oppdatere. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). 
 
 ## <a name="to-import-a-configuration-package"></a>Slik importerer du en konfigurasjonspakke:  
 1. Åpne det nye selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  

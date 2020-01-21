@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: c389a93a71b251b5b0e11f4450251fdf68b64345
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 842aaeeb5665e8e02ef6873dd2210e03e415aade
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310783"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953974"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
@@ -44,6 +44,8 @@ Du kan enten bokføre eller bokføre og skrive ut. Hvis du velger å bokføre og
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
 Du kan redigere bestemte felt på bokførte salgsdokumenter, for eksempel **Pakkesporingsnr**. -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

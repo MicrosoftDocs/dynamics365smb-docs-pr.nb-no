@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 11/07/2019
 ms.author: sgroespe
-ms.openlocfilehash: 03656014a2b7826008d415e53afbad2d88aac357
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809351"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943212"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhetssystemet kan du kontrollere hvilke objekter en bruker har tilgang til i hver database eller hvert enkelt miljø. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utviklerhåndboken og ITPro-hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -120,7 +120,7 @@ I hvert av de fem tilgangstypefeltene, **Lesetillatelse**, **Innsettingstillatel
 |Alternativ|Description|Rangering|
 |------|-----------|
 |**Ja**|Brukeren kan utføre handlingen for det aktuelle objektet.|Høyeste|
-|**Indirekte**|Brukeren kan utføre handlingen for det aktuelle objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til.|Nest høyeste|
+|**Indirekte**|Brukeren kan utføre handlingen for det aktuelle objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til. Hvis du vil ha mer informasjon om indirekte tillatelser, kan du se [Tillatetlser-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjelpen for utviklere og IT-eksperter.|Nest høyeste|
 |**Tom**|Brukeren kan ikke utføre handlingen for det aktuelle objektet.|Laveste|
 
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse

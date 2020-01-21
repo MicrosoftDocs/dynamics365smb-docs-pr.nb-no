@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 11/11/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0360396d0379ca325a8563fffbfead971b8ba7f1
-ms.sourcegitcommit: 02f1633213793bfc040ad0d2a96fe76572215aa5
+ms.openlocfilehash: b64d0cf270678206cbcb077de937acb0f8220776
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "2798526"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953686"
 ---
 # <a name="set-up-value-added-tax"></a>Definere merverdiavgift (mva)
 Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller tjenester. Mva-beløpet som skal betales, kan variere, avhengig av flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] setter du opp for å angi satsene som skal brukes til å beregne mva-beløp som er basert på følgende:
@@ -37,7 +37,8 @@ Vi anbefaler at du bruker den medfølgende mva-oppsettguiden til å definere mva
 
 Hvis du vil oppsettguiden, gjør du følgende:
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**.  
-2. Velg **Angi MVA**.
+2. Velg **Angi MVA**, og fullfør trinnene.
+3. Når du har fullført det assisterte oppsettet, kan du gå til siden **Mva-bokføringsoppsett** og kontrollere om du må fylle ut flere felt i henhold til den lokale versjonen for landet. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet i Business Central](about-localization.md).  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
 Du kan definere formater for organisasjonsnumre som brukes i land og områder som du handler med, for å sikre at det angis gyldige organisasjonsnumre. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en feilmelding når noen gjør en feil eller bruker et format som er feil for landet eller området.
@@ -269,7 +270,10 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 > [!IMPORTANT]  
 >  Etter konverteringen er feltet **Konvertert** i tabellen **Loggpost for mva-satsendring** valgt og feltet **Konvertert dato** i tabellen **Loggpost for mva-satsendring** viser konverteringsdatoen.  
 
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også  
-[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)  
+[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)      
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
+[Lokal funksjonalitet i Business Central](about-localization.md)

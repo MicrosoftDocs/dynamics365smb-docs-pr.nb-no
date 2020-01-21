@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4f65a4908fee045190229c1423ef61c6c7bed8c7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 34c09b4acdad057bd5accd388335439e555dc733
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315111"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953350"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 Du kan tilpasse arbeidsområdet slik at det passer til arbeidet og preferansene, ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
@@ -37,14 +37,14 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 
 ## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Tilpasse en side gjennom banneret **Tilpasning**
 1. Åpne en side som du vil tilpasse.
-2. Velg ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenteret") øverst til høyre, og velg deretter handlingen **Tilpass**.
+2. Øverst til høyre velger du ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass** action.
 
     Banneret **Tilpassing** vises øverst, noe som betyr at du kan begynne å gjøre endringer.
 
     > [!NOTE]
     > Hvis du vil navigere under tilpasning, trykker du CTRL+klikk på en handling hvis den utheves av pilhodet.
 
-    Hvis du ser ![Tilpassingslås](media/personalization-lock-icon.png "Tilpassingslås") eller ![Tilpassing sperret](media/personalization-blocked-icon.png "Tilpassing sperret") i banneret, kan du ikke tilpasse siden. Hvis du vil ha mer informasjon, kan du se [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md).
+    Hvis du ser ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås") eller ![Tilpassing sprret](media/personalization-blocked-icon.png "Tilpassing blokkert") i banneret, kan du ikke tilpasse siden. Hvis du vil ha mer informasjon, kan du se [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md).
 
 3. Hvis du vil legge til et felt, velger du **Felt**-handlingen.
 4. Fra ruten **Legg til felt på side** drar og slupper du et felt på ønsket plassering på siden.
@@ -56,7 +56,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 
 |Hva vil du gjøre|Hvordan du gjør det|Merknader|
 |----|------------|-------|
-|Flytte noe, for eksempel et felt, en kolonne i en liste, en flis, en handling eller en del|Pek hvor som helst på det du vil flytte, og dra det til den nye plasseringen. Plasseringen angis av en tykk vannrett eller loddrett linje.<br /><br />![Kan ikke flytte hit-ikon](media/personalization-cannot-move-here.png "Tilpassingsmodus – Kan ikke flytte hit-ikon") angir at du ikke kan flytte elementet til den valgte lokasjonen.|Deler er ytterligere inndelinger eller områder på en side som for eksempel inneholder flere felt, en annen side, et diagram eller fliser.<br /><br />Hvis du vil ha mer informasjon om handlingstilpassing, se [Tilpasse handlinger](ui-personalization-user.md#Actions). |
+|Flytte noe, for eksempel et felt, en kolonne i en liste, en flis, en handling eller en del|Pek hvor som helst på det du vil flytte, og dra det til den nye plasseringen. Plasseringen angis av en tykk vannrett eller loddrett linje.<br /><br />![Kan ikke flytte hit-ikon](media/personalization-cannot-move-here.png "Tilpassingmodus - Kan ikke flytte hit-ikonet") angir at du ikke kan flytte elementet til den valgte lokasjonen.|Deler er ytterligere inndelinger eller områder på en side som for eksempel inneholder flere felt, en annen side, et diagram eller fliser.<br /><br />Hvis du vil ha mer informasjon om handlingstilpassing, se [Tilpasse handlinger](ui-personalization-user.md#Actions). |
 |Skjul noe, for eksempel et felt, en kolonne i en liste, en flis, en handling eller en del.|Velg pilspissen, og velg <b>Skjul</b>.|Elementet blir nedtonet når du er i tilpasningsmodus. Hvis feltet du skjuler, også vises i hurtigfaneoverskriften når hurtigfanen er skjult, vil feltet ikke lenger vises der.|
 |Vis skjulte handlinger og felt.|For et grått (skjult) element velger du pilspissen og deretter <b>Vis</b>.|Det skjulte elementet er igjen synlig.|
 |Legge til et felt eller en kolonne.|I banneret <b>Personalisering</b> velger du handlingen <b>+ Felt</b>.<br /></br>Ruten <b>Legg til felt på side</b> åpnes til høyre. Den viser feltene du kan legge til på siden.<br /><br />Hvis du vil legge til et felt, drar du det fra ruten til den ønskede plasseringen. Plasseringen angis av en tykk vannrett eller loddrett linje.|Hver side inneholder et forhåndsdefinert sett med felt som du kan vise. Bruk denne fremgangsmåten for å legge til felt og kolonner som ikke er vist tidligere, eller for å vise feltene du har skjult.|
@@ -115,6 +115,8 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 - Endringer som du utfører, trer i kraft på alle rollesentrene. Hvis du for eksempel gjør en endring i kundelisten når Rollesenter er satt til Forretningsleder, vises også endringen på siden **Kunder** når rollesenteret er angitt til Ordrebehandler.
 - Endringer av en side i en rute trer i kraft på siden der den vises.  
 - Du kan bare legge til felt og kolonner fra en forhåndsdefinert liste, som er basert på siden. Du kan ikke opprette nye.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Tilpasse sider for profiler](ui-personalization-manage.md)  

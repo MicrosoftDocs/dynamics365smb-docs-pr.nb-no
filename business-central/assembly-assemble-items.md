@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 636b8a23d3952536a8cd8de92d44402baf4a56e5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878940"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953878"
 ---
 # <a name="assembly-management"></a>Monteringsstyring
 For å kunne støtte selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, har [!INCLUDE[d365fin](includes/d365fin_md.md)] funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  
@@ -45,6 +45,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Angre en bokført monteringsordre, for eksempel fordi ordren ble bokført med feil som må rettes.|[Angre monteringsbokføring](assembly-how-to-undo-assembly-posting.md)|
 |Lære mer om forskjellen mellom monteringsstykklister og produksjonsstykklister og forskjeller i involverte prosesser.|[Arbeide med stykklister](inventory-how-work-BOMs.md)|
 |Lær hvordan monteringsforbruk og avgang håndteres når du bokfører monteringsordrer og hvordan de avledede vare- og ressurskostnadene behandles og distribueres til finans.|[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  

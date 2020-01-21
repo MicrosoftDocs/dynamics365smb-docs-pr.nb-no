@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 10/01/2019
+ms.date: 12/20/2019
 ms.author: edupont
-ms.openlocfilehash: 964cbf52362db7a5f9131375925adbf8f941938d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 36185512ff17e7044dfc9bb6539d3f7b102472b5
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883337"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918145"
 ---
 # <a name="become-a-reseller-of-included365fin_longincludesd365fin_long_mdmd"></a>Bli en forhandler av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Utvid din forretningsmulighet med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,10 +26,7 @@ Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, SharePoin
 
 ## <a name="get-started"></a>Kom i gang
 
-Programmet "Klar til å sette i gang" er én måte å komme i gang som [!INCLUDE [prodshort](includes/prodshort.md)]-forhandler. Du kan også kontakte Microsoft-kontoret i ditt land eller område. Hvis du vil ha mer informasjon om ressurser som er tilgjengelige fra "Klar til å sette i gang"-programmet, se [aka.ms/readytogo](https://aka.ms/readytogo). Lære mer om å bli en forhandler på [Videreselge forskjellige løsninger](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller).  
-
-Registrerer deg for en prøveversjon på [https://dynamics.microsoft.com/business-central/overview/ ](https://dynamics.microsoft.com/business-central/overview/
-), og send tilbakemelding på [https://community.dynamics.com/business](https://community.dynamics.com/business/f/758).  
+Programmet "Klar til å sette i gang" er én måte å komme i gang som [!INCLUDE [prodshort](includes/prodshort.md)]-forhandler. Du kan også kontakte Microsoft-kontoret i ditt land eller område. For mer informasjon om tilgjengelige ressurser gjennom programmet "Klar til å sette i gang", se [aka.ms/readytogo](https://aka.ms/readytogo), [Videreselge forskjellige løsninger](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) og [Komme i gang som selger](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Se også
 

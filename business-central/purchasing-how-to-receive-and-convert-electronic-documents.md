@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: e9543d9fc361f2948907bc0e84d37dd870139cd8
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553869"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953494"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -41,7 +41,7 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Slik mottar og konverterer du en elektronisk faktura til en kjøpsfaktura  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.  
 
 2.  Velg linjen for den innkommende dokumentposten som representerer en ny innkommende elektronisk faktura, og velg deretter **Rediger**-handlingen.  
 
@@ -56,6 +56,8 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta
      Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske dokumentet.  
 
      Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i hurtigfanen **Feilmeldinger**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Administrere skyldige beløp](payables-manage-payables.md)  

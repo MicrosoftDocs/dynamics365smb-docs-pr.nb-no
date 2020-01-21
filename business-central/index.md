@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/12/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: b640450df709320b961c042736edeed7554096c4
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 44a534a5de37ff1c85aca9f659e113c1b325b850
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882833"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953590"
 ---
 # <a name="welcome-to-included365fin_longincludesd365fin_long_mdmd"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.
@@ -26,6 +26,8 @@ ms.locfileid: "2882833"
 |**Forretningsprosesser**|-   [Komme i gang](product-get-started.md)<br />-   [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administrasjon](admin-setup-and-administration.md)<br />-   [Forretningsfunksjoner](across-business-functionality.md)<br />-   [Lokal funksjonalitet](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Generelle forretningsfunksjoner](ui-across-business-areas.md)<br />-   [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)<br />-   [Detaljer for utforming av programmet](design-details-application-design.md)|  
 |**Innhold for utviklere og IT-eksperter**|-   [Hjelp for utviklere og IT-eksperter for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Utvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-utviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Grupperessurser**|-   [Microsoft Dynamics 365 Business Central-gruppe](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365-utgivelsesplaner](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central-veikart](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(krever PartnerSource-konto\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
+
+## <a name="see-related-training-at-microsoft-learnlearnbrowseproductsdynamics-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/browse/?products=dynamics-business-central)
 
 ## <a name="see-also"></a>Se også
 
@@ -41,4 +43,3 @@ ms.locfileid: "2882833"
 
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]
-## [!INCLUDE[d365fin](includes/training_link_md.md)]

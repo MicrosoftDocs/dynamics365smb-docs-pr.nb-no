@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 66cdbd317d448d42ce46bf6a1d05c78432ffaeee
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ceaf6828ac5067a0a34c4120627e0352dc90d2d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316671"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954005"
 ---
 # <a name="setting-up-purchasing"></a>Definere kjøp
 Før du kan håndtere kjøpsprosesser, må du konfigurere regler og verdier som definerer selskapets kjøpsprinsipper.
@@ -34,6 +34,8 @@ Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives
 | Angi de forskjellige rabattene og spesialprisene som leverandør gir deg avhengig av vare, antall og/eller dato. |[Registrere avtaler om kjøpspris, rabatt og betaling](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Prioritere leverandører |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
 | Definere innkjøpere |[Definere innkjøpere](purchasing-how-setup-purchasers.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  

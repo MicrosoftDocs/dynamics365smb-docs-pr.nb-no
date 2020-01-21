@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 11/27/2019
+ms.date: 01/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 51c2260f4c8b5251cc466f8969921ee6cad92c1d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883025"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953374"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 De ulike pris- og rabattavtalene som gjelder ved salg til ulike kunder, må defineres slik at de avtalte reglene og verdiene brukes på salgsdokumenter du oppretter for kundene.
@@ -89,7 +89,9 @@ Du knytter rabattprosentene til bestemte fakturabeløp på sidene **Kundefaktura
 I tillegg til (eller i stedet for) en rabattprosent, kan du knytte et gebyrbeløp til et bestemt fakturabeløp.  
 
 > [!TIP]  
->  Før du angir disse opplysningene i programmet, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.  
+>  Før du angir disse opplysningene i programmet, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
+
+Hvis du vil ha mer informasjon om rabatter i salg, kan du se [Definere rabatter for kundene](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
 ## <a name="best-price-calculation"></a>Beregning av beste pris
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.
@@ -139,6 +141,8 @@ Hvis du vil oppdatere varepriser satsvis, for eksempel øke alle varepriser med 
 
 > [!NOTE]   
 >  Denne kjørselen oppretter forslag, men implementerer ikke de foreslåtte endringene. Hvis du er tilfreds med forslagene og vil implementere dem, det vil si legge dem inn i tabellen **Salgspriser**, kan du bruke kjørselen **Implementer prisendringer**, som du finner i fanebladet **Handlinger**, i gruppen **Funksjoner**, på siden **Salgsprisforslag**.
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesmanage-sales-prices-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  

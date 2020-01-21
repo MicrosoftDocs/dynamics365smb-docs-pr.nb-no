@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 277a35063bb006dc1dfe284c64a153c8ca0d71da
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692899"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910715"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Sette opp Envestnet Yodlee Bank Feeds-tjenesten
 Du kan importere elektroniske bankkontoutdrag fra banken slik at du raskt kan fylle ut på siden **Betalingsavstemmingskladd**. Dermed kan du utligne betalinger og avstemme bankkontoen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
@@ -127,7 +127,7 @@ Hver time viser siden **Betalingsavstemmingskladd** nye betalinger som er gjort 
 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktjenester](bank-setup-banking.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
+[Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 46b18910efb1abb8df1ef1f427933f75deb3912c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305263"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952942"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
@@ -111,6 +111,9 @@ Dette er beskrevet i følgende fremgangsmåter.
 >  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
 #### <a name="to-map-columns-in-the-data-file-to-fields-in-included365finincludesd365fin_mdmd"></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+> [!TIP]
+> Noen ganger er verdiene i feltene du vil tilordne, forskjellige. For eksempel, i én virksomhetapp er språkkoden for USA "U.S.", men i den andre er det "US". Det betyr at du må transformere verdien når du utveksler data. Dette skjer gjennom transformeringsregler som du definerer for feltene. Hvis du vil ha mer informasjon, kan du se [Transformeringsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
+
 1. I hurtigfanen **Linjedefinisjoner** velger du linjen for tilordning av kolonner til felt, og deretter velger du **Felttilordning**. Siden **Tilordning for datautveksling** åpnes.  
 2. I hurtigfanen **Generelt** angir du tilordningsoppsettet ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -138,9 +141,44 @@ Dette er beskrevet i følgende fremgangsmåter.
 
 Datautvekslingsdefinisjonen er nå klar til å aktiveres for brukere. Hvis du vil ha mer informasjon, kan du se [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Definere SEPA-kredittoverføring](finance-how-to-set-up-sepa-credit-transfer.md), [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md) og [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
-Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du eksportere datautvekslingsdefinisjonen som en XML-fil som kan brukes til å aktivere import av den aktuelle datafilen raskt. Dette er beskrevet i følgende fremgangsmåte.  
+### <a name="transformation-rules"></a>Transformasjonsregler
+Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeringsregler for datautvekslingsdefinisjoner for å gjøre dem like. Du definerer transformeringsregler for datautvekslingsdefinisjoner ved å åpne en eksisterende definisjon eller opprette en ny definisjon, og deretter, på hurtigfanen **Linjedefinisjoner**, velger du **Administrer**og deretter **Felttilordning**. Forhåndsdefinerte regler er angitt, men du kan også opprette dine egne. Tabellen nedenfor beskriver hvilke typer transformasjoner du kan utføre.
 
-### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Slik eksporterer en datautvekslingsdefinisjon som en XML-fil som andre kan bruke:  
+|Alternativ|Beskrivelse|
+|---------|---------|
+|**Store bokstaver**|Gjør alle bokstaver til store bokstaver.|
+|**Små bokstaver**|Gjør alle bokstaver til små bokstaver.|
+|**Store forbokstaver**|Den første bokstaven i hvert ord er en stor bokstav.|
+|**Trim**|Fjern tomme mellomrom før og etter verdien.|
+|**Delstreng**|Transformer en bestemt del av en verdi. Hvis du vil angi hvor transformasjonen skal starte, velger du enten **Startposisjon** eller **Starttekst**. Startposisjonen er et tall som representerer det første tegnet som skal transformeres. Startteksten er bokstaven rett foran bokstaven som skal erstattes. Hvis du vil begynne med den første bokstaven i verdien, bruker du en startposisjon i stedet. Hvis du vil angi hvor du vil stoppe transformeringen, velger du **Lengde**, som er antall tegn som skal erstattes, eller **Sluttekst**, som er tegnet som er rett etter det siste tegnet som skal transformeres.|
+|**Erstatt**|Finn en verdi, og erstatt den med en annen. Dette er nyttig når du skal erstatte enkle verdier, for eksempel et bestemt ord.|
+|**Regulært uttrykk - Erstatt**|Bruk et regulært uttrykk som en del av en søk-og-erstatt-operasjon. Dette er nyttig for å erstatte flere, eller kanskje mer komplekse, verdier.|
+|**Fjern ikke-alfanumeriske tegn**|Slett tegn som ikke er bokstaver eller tall, for eksempel symboler eller spesialtegn.|
+|**Datoformatering**|Angi hvordan datoer skal vises. Du kan for eksempel transformere DD-MM-ÅÅÅÅ til ÅÅÅÅ-MM-DD.|
+|**Desimalformatering**|Definer regler for desimalplassering og avrundingspresisjon.|
+|**Regulært uttrykk - Samsvar**|Bruk et regulært uttrykk for å finne én eller flere verdier. Dette ligner på alternativene **Delstreng** og **Vanlig uttrykk - Erstatt**.|
+|**Egendefinert**|Dette er et avansert alternativ som krever assistanse fra en utvikler. Det muliggjør en integreringshendelse som du kan abonnere på, hvis du vil bruke din egen transformeringskode. Hvis du er utvikler og vil bruke dette alternativet, kan du se [eksemplet](across-how-to-set-up-data-exchange-definitions.md#tip-for-developers-example-of-the-custom-option) nedenfor.|
+|**Dato- og klokkeslettformatering**|Definer hvordan gjeldende dato skal vises i tillegg til tidspunktet på dagen.|
+
+#### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips for utviklere: eksempel på alternativet Egendefinert
+Følgende eksempel viser hvordan du implementerer din egen transformeringskode.
+
+```
+codeunit 60100 "Hello World"
+{
+    [EventSubscriber(ObjectType::Table, Database::"Transformation Rule", 'OnTransformation', '', false, false)]
+    procedure OnTransformation(TransformationCode: Code[20]; InputText: Text; var OutputText: Text)
+    begin
+        if TransformationCode = 'CUST' then
+            OutputText := InputText + ' testing';
+    end;
+}
+```
+Når du har definert reglene, kan du teste dem. I **Test**-delen skriver du inn et eksempel på en verdi du vil transformere, og deretter kontrollerer du resultatene.
+
+### <a name="to-export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Slik eksporterer en datautvekslingsdefinisjon som en XML-fil som andre kan bruke:
+Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du eksportere datautvekslingsdefinisjonen som en XML-fil som du kan importere. Dette er beskrevet i følgende fremgangsmåte.  
+
 1. Skriv inn **Datautvekslingsdefinisjoner** i **Søk**-boksen, og velg deretter den tilknyttede koblingen.  
 2. Velg datautvekslingsdefinisjonen du vil eksportere.  
 3. Velg **Eksporter datautvekslingsdefinisjon**.  

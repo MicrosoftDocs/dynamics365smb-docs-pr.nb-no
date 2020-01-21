@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 32d9b8a733c3edb2717fca724769feba3ea26321
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e66c2d6beb24c82fcd314caeac00f3c7b20412a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306463"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953158"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
 Som de sier, er kontanter konge. Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
@@ -48,6 +48,8 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 1. Søk etter **Kontantstrømprognoser**, og velg deretter den relaterte koblingen.  
 2. Velg en kontantstrømprognose, og velg deretter den **Kontantstrømforslag**.  
 3. På siden **Kontantstrømforslag** velger du handlingen **Foreslå forslagslinjer**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Konfigurere finans](finance-setup-finance.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 26b2e5bf479f3343f66bd852078b337ad87e852a
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 10547ee8f8a9e760721e12746fc25031001e7330
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554819"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954107"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. En leverandør av dokumentutvekslingstjenester fordeler elektroniske dokumenter mellom handelspartnere. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
@@ -26,7 +26,7 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende
 
 ### <a name="to-send-an-electronic-sales-invoice"></a>Slik sender du en elektronisk salgsfaktura:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 
 2.  Opprett en ny salgsfaktura.  
 
@@ -48,6 +48,8 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende
 
     > [!NOTE]  
     >  Du kan også sende en bokført salgsfaktura som et elektronisk dokument. Fremgangsmåten er den samme som beskrevet i dette emnet for ikke-bokførte salgsdokumenter. På siden **Bokført salgsfaktura** velger du **Aktivitetslogg**-handlingen for å vise statusen for det elektroniske dokumentet. Hvis du vil ha mer informasjon, kan du se **Aktivitetslogg**.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmoduleselectronic-documents-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Fakturere salg](sales-how-invoice-sales.md)  

@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 10/01/2019
+ms.date: 12/13/2019
 ms.author: sgroespe
-ms.openlocfilehash: c38666d6e3dcdaf2a5426795930887d726767190
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3618ad87377ebc47f183292207d2f25dc6c3ed34
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304017"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910423"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankkapital
-Noen ganger har du behov for å overføre av et beløp fra én konto til en annen. Hvis du vil gjøre dette, må du bokføre transaksjonen i finanskladden. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
+Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på siden **Finanskladd**. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Bokføre en overføring mellom bankkonti med samme valutakode
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
 2. På en av kladdelinjene fyller du ut feltet **Bokføringsdato** og **Bilagsnr.**.
 3. Velg **Bankkonto** i **Kontotype**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.
@@ -36,7 +36,7 @@ Noen ganger har du behov for å overføre av et beløp fra én konto til en anne
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Slik bokfører du en overføring mellom bankkonti med ulike valutakoder
 Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, må du bokføre to linjer i finanskladden.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
 2. Opprett to kladdelinjer, og fyll ut feltene **Bokføringsdato** og **Bilagsnr.**
 3. På den første kladdelinje angir du **Bankkonto** i **Type**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.
@@ -54,7 +54,7 @@ Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, 
 13. Bokfør kladden.
 
 ## <a name="see-also"></a>Se også
-[Håndtere bankkonti](bank-manage-bank-accounts.md)  
+[Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

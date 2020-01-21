@@ -10,24 +10,37 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 48127ea1fb363bd22d4f6d7dec85df47a11f8ce8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 398ca571c7b201ca80d252aaff958ee295890f4e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879253"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910615"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 Når du konfigurerer et nytt selskap, gjenkjennes og behandles tabellrelasjoner. Dataene importeres og brukes i riktig rekkefølge. Dimensjonstabeller importeres også hvis de er inkludert i konfigurasjonspakken. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data). 
 
 For å hjelpe kunden med å bruke konfigurasjonspakken kan du legge til et spørreskjema eller et sett av spørreskjemaer i pakken. Spørreskjemaet kan hjelpe kunden med å forstå de forskjellige oppsettsalternativene. Spørreskjemaer opprettes vanligvis for hovedoppsettstabellene når kunder vil ha ytterligere veiledning om hvordan de velger en riktig innstilling. Hvis du vil ha mer informasjon, kan du se [Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md).
 
-Kontroller at du er på rollesenteret for RapidStart Services-implementerer. Hvis du vil ha mer informasjon, kan du se [Bruke rollesenteret for RapidStart Services-implementerer](admin-how-to-use-the-rapidstart-services-role-center-to-track-progress.md).
+## <a name="before-you-create-a-configuration-package"></a>Før du oppretter en konfigurasjonspakke
+Det er noen ting du bør vurdere før du oppretter en konfigurasjonspakke, fordi de vil påvirke deg eller kundens mulighet til å importere den. 
 
-> [!IMPORTANT]  
->  Når du eksportere og importere konfigurasjonspakker mellom to firmadatabaser, må databasene har samme skjema for å sikre at alle dataene overføres. Dette betyr at databasene bør ha den samme tabell- og feltstruktur, der tabellene har samme primærnøkler og felt har samme IDer og datatyper.  
->   
->  Du kan importere en konfigurasjonspakke som har blitt eksportert fra en database, som har et annet skjema enn måldatabasen. Tabeller eller felt i konfigurasjonpakken som ikke finnes i måldatabasen, blir imidlertid ikke importert. Tabeller med forskjellige primærnøkler og felt med ulike datatyper, blir heller ikke importert. Hvis konfigurasjonspakken inneholder en tabell, for eksempel **50000-kunden**, som har primærnøkkelen **Kode20**, og databasen du importerer pakken til, som inneholder tabellen **Bankkonto for 50000-kunde**, som har primærnøkkelen **Kode20 + Kode20**, importeres ikke dataene.  
+### <a name="tables-that-contain-posted-entries"></a>Tabeller som inneholder bokførte poster
+Du kan ikke importere data til tabeller som inneholder bokførte poster, for eksempel tabellene for kunde-, leverandør- og vareposter, så du bør ikke ta med disse dataene i konfigurasjonspakken. Du kan legge til oppføringer i disse tabellene når du har importert konfigurasjonspakken ved hjelp av journaler for å bokføre postene. Hvis du vil ha mer informasjon, kan du se [Bokføre dokumenter og kladder](ui-post-documents-journals.md).
+
+### <a name="licensing"></a>Lisensiering
+Lisensen må inkludere tabellene du oppdaterer. Hvis du er usikker, kan siden **Konfigurasjonsforslag** hjelpe. Hvis lisensen inkluderer tabellen, er det merket av for **Lisensiert tabell**.  
+
+### <a name="permissions"></a>Tillatelser
+Prosessen med å opprette og importere en konfigurasjonspakke omfatter følgende effektive tillatelser for alle tabellene i pakken: 
+
+* Brukeren som eksporterer data for konfigurasjonspakken, må ha effektive **Lese**-tillatelser.
+* Brukeren som importerer data for konfigurasjonspakken, må ha effektive **Sett inn** og **Endre**-tillatelser.
+
+### <a name="database-schema"></a>Databaseskjema
+Når du eksportere og importere konfigurasjonspakker mellom to firmadatabaser, må databasene har samme skjema for å sikre at alle dataene overføres. Dette betyr at databasene bør ha den samme tabell- og feltstruktur, der tabellene har samme primærnøkler og felt har samme IDer og datatyper.  
+
+Du kan importere en konfigurasjonspakke som har blitt eksportert fra en database, som har et annet skjema enn måldatabasen. Tabeller eller felt i konfigurasjonpakken som ikke finnes i måldatabasen, blir imidlertid ikke importert. Tabeller med forskjellige primærnøkler og felt med ulike datatyper, blir heller ikke importert. Hvis konfigurasjonspakken inneholder en tabell, for eksempel **50000-kunden**, som har primærnøkkelen **Kode20**, og databasen du importerer pakken til, som inneholder tabellen **Bankkonto for 50000-kunde**, som har primærnøkkelen **Kode20 + Kode20**, importeres ikke dataene.  
 
 ## <a name="to-create-a-configuration-package"></a>Slik oppretter du en konfigurasjonspakke:  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  

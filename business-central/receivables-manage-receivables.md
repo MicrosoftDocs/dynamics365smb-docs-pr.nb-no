@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba5214c357e3682a182ce91f3846aa22120af484
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 387b8269e5da978c25c1c5436f5a737fa055a78c
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312271"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954160"
 ---
 # <a name="managing-receivables"></a>Håndtere fordringer
 Et vanlig trinn i en hvilken som helst finansielle rytmen er å avstemme bankkonti, som krever at du bruker innkommende betalinger til kunden eller leverandøren poster for å lukke salgsfakturaer og kreditnotaer til innkjøp som betalt.
@@ -28,9 +28,11 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] er en av de raskeste måtene å re
 
 Det finnes andre sider der du kan utligne betalinger eller avstemme bankkonti:
 
-* **Bankkontoavstemming**-siden, der du avstemmer bankkonti ved å samsvare importerte bankkontoutdragslinjer med bankkontopostene i systemet. Her kan du også avstemme sjekkutbetalinger. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md). Her kan du ikke utligne betalinger.
+* **Bankkontoavstemming**-siden, der du avstemmer bankkonti ved å samsvare importerte bankkontoutdragslinjer med bankkontopostene i systemet. Her kan du også avstemme sjekkutbetalinger. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md). Her kan du ikke utligne betalinger.
 * Siden **Betalingsregistrering**, der du kan manuelt utligne betalinger mottatt som kontanter, sjekk eller banktransaksjon, mot en generert liste over ubetalte salgsdokumenter. Legg merke til at denne funksjonen bare er tilgjengelig for salgsdokumenter. Her kan du ikke utligne utgående betalinger, og du kan ikke avstemme bankkonti.
-* Siden **Innbetalingskladd**, der du manuelt bokfører mottak på relevante finans-, kunde- eller andre kontoer, ved å angi en betalingslinje. Du kan bruke mottaket eller refundere til én eller flere åpne poster før du bokfører innbetalingskladden, eller du kan utligne fra kundepostene. Her kan du ikke avstemme bankkonti.  
+* Siden **Innbetalingskladd**, der du manuelt bokfører mottak på relevante finans-, kunde- eller andre kontoer, ved å angi en betalingslinje. Du kan bruke mottaket eller refundere til én eller flere åpne poster før du bokfører innbetalingskladden, eller du kan utligne fra kundepostene. Her kan du ikke avstemme bankkonti.
+
+Sidene **Betalingsavstemmingskladd** og **Bankkontoavstemming** bruker automatisk samsvarende logikk som du kan definere på siden **Betalingsutligningsregler**. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md).
 
 Andre sider ved behandling av kundekontoer er å innkreve utestående saldi, inkludert rentenotaer og purringer, og å definere bankkonti for å tillate at kundebetalinger trekkes fra kontoen automatisk.
 
@@ -47,6 +49,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Sikre at du vet hva leverte varer koster, ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg etter salg.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forutse når betalinger foretas sent for salgsdokumenter. | [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md) |
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-customer-vendor-payments-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  

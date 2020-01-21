@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: edupont
-ms.openlocfilehash: 70ee472953e470fe5d069ce3536d729677a1a135
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 858116d656ef264c7c9445596c8b5345da944c8e
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302556"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952580"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere årsregnskap i Microsoft Excel
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du se ytelsesindikatorer og få en oversikt over selskapets økonomiske tilstand. Du kan også åpne lister i Excel og analysere dataene der. Men du kan også eksportere tunge årsregnskap, for eksempel balansen eller resultatregnskapet til Excel, analysere data og skrive ut rapportene.  
@@ -40,6 +40,8 @@ I Excel ser du en fane der dataene er ordnet du første forslaget. Data som ble 
 Din [!INCLUDE[d365fin](includes/d365fin_md.md)]-opplevelse inneholder et tillegg til Excel. Avhengig av abonnementet er du logget på automatisk, eller du må angi samme pålogging som du bruker for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Med tillegget kan du få ferske data fra [!INCLUDE[d365fin](includes/d365fin_md.md)], og du kan overføre endringer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Muligheten til å legge inn data tilbake til databasen deaktiveres imidlertid for Excel-årsregnskap i listen ovenfor.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

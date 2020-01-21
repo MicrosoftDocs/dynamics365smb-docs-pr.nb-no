@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: acdac865286577b30f9fe036cca8a50eb7e143a0
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 890a6e87ec25293232f089b68e57a577fec6aa56
+ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878989"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2918169"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tips og triks: RapidStart Services
 Når du konfigurerer selskaper som bruker RapidStart Services, kan du dra nytte av noen tips og råd for å sikre en problemfri implementering.  
@@ -30,10 +30,10 @@ Du bør vurdere å definere standardsvar for å angi anbefalte fremgangsmåter f
 Vi anbefaler at du bruker verktøyene for dataflytting til å flytte kladdeposter. Ellers, hvis du bruker en kjørsel for å opprette kladdelinjer, som har et begrenset omfang og bare genererer pre-standardfelt i en kladd. Resten av kladden må deretter fylles ut manuelt.  
 
 ## <a name="migrating-transactions"></a>Flytte transaksjoner  
-Vi anbefaler at du flytter inngående balanser i følgende rekkefølge.  
+Vi anbefaler at du flytter inngående balanser i følgende rekkefølge. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
 1.  Flytt finanskontoens inngående balanser uten å bruke finanskontoens underliggende poster. Bruk bestemte motkonti for inngående balanse der én er definert for hvert underregnskap. Definer motkontoer for å aktivere direkte bokføringer.  
-2.  Flytt åpne kundeposter.  
+2.  Flytt åpne kundeposter.  <!--work on these-->
 3.  Flytte åpne vareposter.  
 4.  Flytte åpne aktivaposter.  
 

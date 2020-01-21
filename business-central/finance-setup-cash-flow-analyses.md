@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88b84c13da3b443714bcfb7cb86a52ee49264c64
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 8fc2bd353a80bf72f8bb9a0d282bec7c216fc0fa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879492"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953710"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -28,6 +28,9 @@ Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan d
 * **Kontantstrømprognoser**  
 
 Dette emnet beskriver hvor dataene i diagrammene kommer fra, og om nødvendig, hva du skal gjøre for å begynne å bruke diagrammene.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc]
 
 ## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagrammene Kontaktsyklus og Inntekter og utgifter
 Diagrammene **Kontantsyklus** og **Inntekter og utgifter** er klare til å starte, basert på kontoplanene og kontoskjemaene. Kontoene er hvor dataene kommer fra, og kontoskjemaene beregner forholdet mellom salg og tilgodehavender. Enkelte kontoer og kontoskjemaer tilbys. Du kan bruke dem som de er, endre dem, og legge til nye. Hvis du legger til finanskonti i kontoplanen, for eksempel ved å importere dem fra QuickBooks, må du tilordne til kontoene på siden **Kontoskjemaer** for følgende kontoskjemanavn:  
@@ -90,6 +93,8 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
 6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
 7. Utvid hurtigfanen **Azure AI**, og fyll deretter ut feltene.  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesforecast-cash-flow-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  

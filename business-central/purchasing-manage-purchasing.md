@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 10/08/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0f4cf7026ad3a12262c8e88b9360bcac3ac079b3
-ms.sourcegitcommit: cf36611ca187bb2996a514e9ff395086cd6b3275
+ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "2566971"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954190"
 ---
 # <a name="purchasing"></a>Kjøp
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
@@ -45,6 +45,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lære hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner når du må bestille en vare for å motta den på en bestemt dato.|[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)|
 |Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 |Håndter forpliktelsen din til en leverandør om å kjøpe store antall levert i flere forsendelser over tid.|[Arbeide med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathspurchase-items-services-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  

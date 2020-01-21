@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 69014460131bd80bf08403a079e30b61d56cf307
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2152e5535f35be234753895ca024791f912f6869
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301543"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911098"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
@@ -31,7 +31,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bruke inngående betalinger, avstemme bankkonti under betalingsutligning og samle utestående saldoer. |[Håndtere fordringer](receivables-manage-receivables.md) |
 | Foreta betalinger, utligne utgående betalinger og arbeide med sjekker. |[Administrere skyldige beløp](payables-manage-payables.md) |
 |Få kundene til å sende betaling før du leverer til dem, eller send betaling til leverandører før de leverer til deg.|[Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)|
-| Avstemme bankkonti og overføre penger mellom konti. |[Håndtere bankkonti](bank-manage-bank-accounts.md) |
+| Avstemme bankkonti og overføre penger mellom konti. |[Avstemme bankkonter](bank-manage-bank-accounts.md) |
 |Konfigurer konserninterne partnere og behandle transaksjoner, manuelt eller automatisk, mellom juridiske enheter i det samme selskapet.|[Behandle konserninterne transaksjoner](intercompany-manage.md)|
 |Analyser kostbeløpene for å kjøre bedriften ved å tildele faktiske og budsjetterte kostbeløpe for operasjoner, avdelinger, produkter og prosjekter til kostsentre.|[Gjøre rede for kostnader](finance-manage-cost-accounting.md)|
 |Håndtere lager- og produksjonskost, rapportere kost og avstemme kost mot Finans.|[Administrere lagerkostnader](finance-manage-inventory-costs.md)|

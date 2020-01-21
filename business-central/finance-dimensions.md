@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 74e4c2e26ec4b51c00ece9ff8f56f7d556b74416
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302383"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952629"
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
 Hvis du vil gjøre det enklere å utføre analyser på dokumenter, for eksempel salgsordrer, kan du bruke dimensjoner. Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
@@ -72,7 +72,7 @@ Du kan tilordne en standarddimensjon for en spesifikk konto. Dimensjonen kopiere
 ### <a name="to-set-up-default-dimension-priorities"></a>Slik setter du opp standard dimensjonsprioriteringer  
 Ulike kontotyper, for eksempel en kundekonto og en varekonto, kan ha ulike standarddimensjoner. Følgelig kan en post ha mer enn én alternativ standarddimensjon for en dimensjon. For å unngå en slik konflikt, kan du sette opp prioriteringsregler for de ulike kildene.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Standarddimensjonsprioriteter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Standarddimensjonsprioriteter**, og velg deretter den relaterte koblingen.  
 2.  På siden **Standarddimensjonsprioriteter**, i **Kildekode**-feltet, angir du kildesporet for posttabellen som standarddimensjonsprioriteter skal gjelde for.  
 3.  Fyll ut en linje for hver standarddimensjonsprioritet du vil bruke for det valgte kildesporet.
 4.  Gjenta prosedyren for hvert kildespor du vil definere standarddimensjonsprioriteter for.  
@@ -115,7 +115,7 @@ Globale dimensjoner og snarveisdimensjoner kan brukes som et filter overalt i [!
 2. Fyll ut feltene på hurtigfanen **Dimensjoner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Endre globale dimensjoner
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Endre globale dimensjonerr**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Endre globale dimensjoner**, og velg deretter den relaterte koblingen.
 2. Hold markøren over handlinger og felt på siden for å lære hvordan du kan endre globale dimensjoner og snarveisdimensjoner.
 
 ### <a name="example-of-dimension-setup"></a>Eksempel på dimensjonsoppsett
@@ -181,7 +181,7 @@ Globale dimensjoner er alltid definerte og navngitt i henhold til selskap. Du vi
 
 På en postside kan du se om det finnes globale dimensjoner for postene. De to globale dimensjonene skiller seg fra resten av dimensjonene ved at de kan brukes som filter over alt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2.  På siden **Kontoplan** velger du handlingen **Poster**.  
 3.  Hvis du bare vil vise relevante poster, angir du ett eller flere filtre på siden.  
 4.  Hvis du vil vise alle dimensjonene for en post, velger du posten og klikker deretter på handlingen **Dimensjoner**.  
@@ -208,6 +208,8 @@ Når du bokfører dokumenter eller kladdelinjer som inneholder dimensjoner, kan 
 |Feil dimensjonsverdikoden for standarddimensjon, der feltet **Verdibokføring** inneholder **Samme kode**|- Velg %1 %2 for %3 %4.<br />- Velg %1 %2 for %3 %4 for %5 %6.|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Angi nødvendig dimensjonsverdi for dimensjonen som er i konflikt i dimensjonssettet.|
 |Ikke-tom dimensjonsverdikoden for tom standarddimensjon, der feltet **Verdibokføring** inneholder **Samme kode**|- %1 %2 må være tom.<br />- %1 %2 må være tom for %3 %4.|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Angi en tom dimensjonsverdikode for dimensjonen som er i konflikt i dimensjonssettet.|
 |Uventet dimensjonsverdi for standarddimensjon, der feltet **Verdibokføring** inneholder **Ingen kode**|- %1 %2 skal ikke nevnes.<br />- %1 %2 må ikke nevnes for %3 %4|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Fjerne den motstridende linjen fra dimensjonssettet.|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64b0f8f551ac505e2e289bc1abea719947cc058a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0d5c47a7dbd4339eff85bd6fe70078f5e56009aa
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316311"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2954097"
 ---
 # <a name="sales"></a>Salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -54,6 +54,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Informer kundene om ordreleveringsdatoer ved å beregne første mulige forsendelsesdato eller tilgjengelig for ordre-datoen.|[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 |Registrer overslagene for fremtidig salg, spesifisert etter vare og etter periode, for å fungere hovedsakelig som inndata til produksjonsplanlegging.|[Opprette en prognose](production-how-to-create-a-forecast.md)|
 |Løs forvirring når det finnes to eller flere poster for samme kunde.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnpathssell-items-services-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  

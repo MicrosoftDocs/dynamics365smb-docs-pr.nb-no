@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 11/14/2019
+ms.date: 12/10/2019
 ms.author: edupont
-ms.openlocfilehash: 8905a7dccc96f85a3803b1cf89862718d6a0df2e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 17f8a61507659f05e12bc7b5d4560bd50f344b0e
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879406"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2942993"
 ---
 # <a name="included365fin_longincludesd365fin_long_mdmd-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversjoner og abonnementer
 
@@ -29,7 +29,7 @@ Hvis det oppstår problemer, kan siden [Vanlige spørsmål](across-faq.md) hjelp
 
 ### <a name="try-out-your-own-company"></a>Prøve ut i ditt eget selskap
 
-Hvis du vil prøve [!INCLUDE [prodshort](includes/prodshort.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon med et tomt selskap, slik at du kan importere dine egne data.  
+Hvis du vil prøve [!INCLUDE [prodshort](includes/prodshort.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon med et tomt selskap. Den assisterte oppsettsveiledningen **Konfigurere mitt selskap** kan hjelpe deg med å angi grunnleggende informasjon om bedriften din. Du kan eventuelt importere data fra den eksisterende løsningen for forretningsadministrasjon, slik at du kan evaluere [!INCLUDE [prodshort](includes/prodshort.md)] med dine egne data.  
 
 Hvis det ikke er nok med 30 dager til å ta en avgjørelse, kan du forlenge prøveperioden. Hvis du vil ha mer informasjon, se [Trenger mer tid til å avgjøre om du vil abonnere?](admin-extend-trial.md).  
 
@@ -72,11 +72,11 @@ Du kan også kontakte [[!INCLUDE[d365fin](includes/d365fin_md.md)]-salgsteamet](
 
 ## <a name="getting-started-with-sandboxes"></a>Komme i gang med sandkasser
 
-Du kan bruke sandkassemiljøer til å få trening med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan tenke på en sandkasse som et ikke-produksjonsmiljø som du kan bruke i tillegg til produksjonsforekomsten av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan bruke sandkassemiljøer til å få trening med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan tenke på en sandkasse som et ikke-produksjonsmiljø som du kan bruke i tillegg til produksjonsforekomsten av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du for eksempel vil ha gratis opplæring fra [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan administratoren din opprette et sandkassemiljø, slik at du og kollegaene dine kan øve dere der i stedet for i produksjonsmiljøet.  
 
-En sandkasse lar deg trygt bygge og teste utvidelser og utvikle nye funksjoner for å tilpasse tjenesten uten å påvirke data og innstillinger for produksjonsmiljø. Hvis du for eksempel vil ha gratis opplæring fra [Microsoft Learn](/learn/browse/?products=dynamics-business-central), kan du opprette et sandkassemiljø og øve deg der i stedet for i produksjonsmiljøet.  
+Hvis du er en utvikler, lar en sandkasse deg trygt bygge og teste utvidelser og utvikle nye funksjoner for å tilpasse tjenesten uten å påvirke data og innstillinger for produksjonsmiljø.  
 
-Nå kan alle kunder bruke en sandkasse. For mer informasjon om hvordan du kan begynne med en sandkasse, se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).  
+Akkurat nå kan alle kunder bruke en sandkasse, inkludert organisasjoner som har registrert seg for en prøveversjon. For mer informasjon om hvordan du kan begynne med en sandkasse, se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).  
 
 > [!NOTE]
 > Sandkasser som opprettes på denne måten, inneholder demonstrasjonsdata for det fiktive CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet.  
@@ -96,6 +96,7 @@ For example, you can use an API to build a connected app to exchange data betwee
 ## <a name="see-also"></a>Se også
 
 [Komme i gang](product-get-started.md)  
+[Utvide prøveversjonen](admin-extend-trial.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
 [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner)  

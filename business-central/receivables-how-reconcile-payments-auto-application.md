@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 10/01/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: 121212f41d5dadff53a10f828c88279865828788
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c0746551b21f96dde6e938e6bdbcc573ded2066a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316575"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911050"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
 Siden **Betalingsavstemmingskladd** angir inngående eller utgående betalinger som er registrert som transaksjoner på nettbankkontoen, og som du kan utligne mot de relaterte åpne kunde-, leverandør og bankkontopostene. Linjene i kladden fylles ut ved å importere et bankkontoutdrag som bankfeed eller fil.
@@ -33,7 +33,7 @@ Med handlingen **Tilordne tekst til konto** kan du definere tilordninger mellom 
 
 Det finnes liknende funksjon hvis du vil avstemme overskytende beløp på linjene for betalingsavstemmingskladd på ad hoc-basis. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger som ikke kan utlignes.](receivables-how-reconcile-payments-cannot-apply-auto.md)
 
-Du bruker **Utlign automatisk**-funksjonen enten automatisk når du importerer en bankfil eller feed med betalingstransaksjoner eller aktiverer den, for å utligne betalinger mot tilknyttede åpne poster basert på samsvar av tekst på en bankkontoutdragslinje (kladdelinje) med tekst på én eller flere åpne poster.
+Du bruker **Utlign automatisk**-funksjonen enten automatisk når du importerer en bankfil eller feed med betalingstransaksjoner eller aktiverer den, for å utligne betalinger mot tilknyttede åpne poster basert på samsvar av tekst på en bankkontoutdragslinje (kladdelinje) med tekst på én eller flere åpne poster. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md).
 
 På kladdelinjer der en betaling er utlignet automatisk mot én eller flere åpne poster, har **Konfidensintervall**-feltet en verdi mellom Lav og Høy for å angi kvaliteten på datasamsvaret som den foreslåtte betalingsutligningen er basert på. Feltene **Kontotype** og **Kontonr.** fylles i tillegg med informasjon om kunden eller leverandøren som betalingen utlignes mot. Hvis du har definert en tekst-til-kontotilordning, kan den automatiske utligningen føre til verdien **Høy – tekst-til-kontotilordning** for samsvarskonfidens.
 
@@ -63,7 +63,7 @@ For hver kladdelinje som representerer en betaling på siden **Betalingsavstemmi
 10. Når du er sikker på at alle betalinger i kladdelinjene er riktig utlignet eller satt til direkte bokføring, velger du handlingen **Bokfør**, og velger deretter ett av alternativene:
 
     - **Bokfør betalinger og avstem bankkonto** - Bokfører betalingene som utlignet og lukker de relaterte bankkontopostene som avstemt.
-    - **Bokfør bare betalinger** - Bokfører bare betalingene som utlignet, og lar de relaterte bankkontopostene være åpne. Krever at du avstemmer bankkontoen separat, for eksempel: Hvis du vil ha mer informasjon, se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md).
+    - **Bokfør bare betalinger** - Bokfører bare betalingene som utlignet, og lar de relaterte bankkontopostene være åpne. Krever at du avstemmer bankkontoen separat, for eksempel: Hvis du vil ha mer informasjon, se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
     - **Kontrollrapport** - Hvis du vil se resultatet av bokføringen før du bokfører. **Bankkontoutdrag**-rapporten åpnes og viser de samme feltene som nederst i på siden **Betalingsavstemmingskladd**.
 
 Når du bokfører kladden for betalingsavstemming, lukkes de utlignede åpne postene, og de relaterte kunde-, leverandør- eller finanskontiene oppdateres. De angitte kunde-, leverandør- og finanskontiene oppdateres for betalinger på kladdelinjer basert på tekst-til-kontotilordning. Det opprettes bankkontoposter for alle kladdelinjene. Hvis du velger handlingen **Bokfør betalinger og avstem bankkonto**, vil alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden.
@@ -71,7 +71,7 @@ Når du bokfører kladden for betalingsavstemming, lukkes de utlignede åpne pos
 Du kan sammenligne verdien i feltet **Saldo på bankkonto etter bokføring** med verdien i feltet **Utdrag - sluttsaldo** for å spore når bankkontoen avstemmes basert på betalinger som du bokfører.
 
 > [!NOTE]  
->   Hvis du ikke vil avstemme en bankkonto fra siden **Betalingsavstemmingskladd**, må du bruke siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md).
+>   Hvis du ikke vil avstemme en bankkonto fra siden **Betalingsavstemmingskladd**, må du bruke siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
 
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  

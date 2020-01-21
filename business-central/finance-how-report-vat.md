@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4560de9740d0b4918d685fb0278b905baf1a8ecd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306237"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953782"
 ---
-# <a name="report-vat-to-a-tax-authority"></a>Rapportere mva til skattemyndighetene
+# <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
 Dette emnet beskriver rapportene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen.
 
 Du kan bruke følgende rapporter:
@@ -25,7 +25,7 @@ Du kan bruke følgende rapporter:
 * Den **EU-salg -oversikt** europeisk gruppen (EU) Salgsoversikt viser verdien som er lagt til mva-beløp som du har samlet for salg til mva-registrerte kunder i EU-land.  
 * Rapporten **Omsetningsoppgave** inkluderer mva for salg og kjøp for kunder i alle land som bruker mva.
 
-Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. For å vise mva-poster velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Mva-poster** og velger deretter den relaterte koblingen.
+Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. Hvis du vil vise MVA-oppføringer, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **MVA-oppføringer** og velger deretter den relaterte koblingen.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten EU-salg - oversikt
 Storbritannia, må alle selskapene som selger varer og tjenester til mva-registrerte kunder, inkludert kunder i andre EU EU-land, sende en elektronisk versjon av rapporten i XML-format gjennom Her Majesty Salgsoversikt europeisk gruppen (EU) Nettstedet for inntekts- og avgiftsmyndighetene (HMRC). Rapporten EU-salg - oversikt fungerer bare for land i EU.
@@ -55,19 +55,19 @@ For omsetningsoppgaven kan du angi postene som skal tas med:
 
 For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!INCLUDE[d365fin](includes/d365fin_md.md)]til webtjenesten til skattemyndigheten. Dette krever at du oppretter en konto hos skattemyndigheten. Når du har en konto, kan du aktivere en tjenestetilkobling vi gir i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter den aktuelle koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter den aktuelle koblingen.
 2. Fyll ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     >   Det er lurt å teste tilkoblingen. Du gjør dette ved å merke av for **Testmodus** og deretter forberede og sende mva-rapporten som beskrevet i delen _Forberede og sende inn en omsetningsoppgave_. I testmodus tester tjenesten om skattemyndighetene kan motta rapporten, og statusen for rapporten angir om testinnsendingen var vellykket. Det er viktig å huske at dette ikke er en faktisk innsending. Hvis du vil faktisk sende inn rapporten, må du fjerne merket for **Testmodus** og deretter gjenta innsendingsprosessen.
 
 ## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-rapportoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-rapportoppsett**, og velg deretter den relaterte koblingen.  
 2. Hvis du vil at brukere skal kunne endre rapporten og sende den inn på nytt, merker du av for **Endre sendte rapporter**.  
 3. Velg nummerserien som skal brukes for hver rapport.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Slik forbereder du og sender inn en omsetningsoppgave
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **EU-salg - oversikt** eller **Omsetningsoppgave**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **EC-salg - oversikt** eller **Omsetningsoppgave**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du genererer innholdet i rapporten ved å velge handlingen **Foreslå linjer**.  
 
@@ -110,6 +110,8 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 
 > [!Note]
 > Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2017** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.
+
+## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  

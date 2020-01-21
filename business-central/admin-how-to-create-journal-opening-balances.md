@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: ebf6d29a388ed3c66159a8c8a8e8fd65abe709ed
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 63013d244b5cab25e520bb05af4c84293aa5ed48
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878844"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910763"
 ---
 # <a name="create-journal-opening-balances"></a>Opprette inngående balanser for kladd
 [!INCLUDE[d365fin](includes/d365fin_md.md)] omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap. Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.
 
 Det første trinnet er å opprette en konfigurasjonspakke som inneholder oppsettstabellene for disse kladdene. Følgende fremgangsmåte forutsetter at dette trinnet er fullført. Du finner mer informasjon under [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md). Denne fremgangsmåten beskriver de påfølgende trinnene, blant annet å bruke pakken som er levert av en partner.  
 
-Før du kan begynne, kontrollerer du at du er på rollesentersiden for RapidStart Services-implementereren, som gir riktig kontekst for konfigurasjonsarbeidet. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
+Før du begynner, må du kontrollere at du bruker rollesentersiden for administrasjon, fordi denne gir riktig kontekst for konfigurasjonsarbeidet. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
 ## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Slik utligner du poster i en kladd mot et nytt selskap:  
 1. Konfigurer og bruk en konfigurasjonspakke for det. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart-veiviseren](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  

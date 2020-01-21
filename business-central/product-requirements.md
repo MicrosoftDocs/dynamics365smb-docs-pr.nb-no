@@ -10,21 +10,27 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 10/17/2019
 ms.author: edupont
-ms.openlocfilehash: 96825fcc03bbbbc43c00f3bce4b9ac257a915a6f
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: b75ad760448b595e0241918006d5a888b5d5d625
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649767"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911242"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
 
 ## <a name="browsers"></a>Nettlesere
+
+### <a name="recommended-browsers"></a>Anbefalte nettlesere
+
 **Chrome for Windows og Firefox for Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med gjeldende versjon av disse skrivebordsnettleserne.  
 **Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Safari på OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows.  
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Microsoft Edge.
+
+### <a name="other-supported-browsers"></a>Andre nettlesere som støttes
+
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows. 
 
 ## <a name="mobile-devices"></a>Mobilenheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows kan installeres på enheter med minst 1 GB RAM og Windows 10 Home, Pro, Enterprise eller Education (32-biters og 64-biters versjoner).  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 8f333831c4e8aac1ba0eb4939131a9d80347441d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4fc9ffe9205e8f075f1b133686c2b869495bf42a
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304639"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910859"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
 Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
@@ -29,6 +29,11 @@ Når kunden fullfører spørreskjemaet, kan du importere filen til kundens nye [
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Opprette et konfigurasjonsspørreskjema
 Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og behovet for konfigurasjon. Du kan opprette et nytt spørreskjema eller endre et eksisterende spørreskjema ved å legge til nye spørsmål eller spørsmålsområder.  
+
+<!-- A configuration questionnaire has the following structure
+* The name of the questionnaire itself
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Du kan opprette spørreskjemaer bare for tabeller av typen oppsett. Du kan for eksempel bruke verktøyet til å gi informasjon til følgende sider:  
 
@@ -48,7 +53,30 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 >  Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett** og velger deretter den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**. Siden **Konfig.spørreskjema** åpnes.  
+2. Velg handlingen **Ny**.   
+3. På siden **Konfigurasjonsspørreskjema**, i **Kode**-feltet, angir du ... 
+<!--4. In the **Name** field, enter...
+5. Choose the **Question Areas** action. .
+6. On the **Config. Question Areas** page, in the **Code** field, enter...
+  
+    > [!Note]  
+    > The code is alphanumeric, and must start with a letter of the alphabet.
+7. In the Table ID field, choose the table to which to apply the answer to the question. Your selection will determine the fields that are available for the questions, and thereby the answer selections.
+  
+    > [!Tip]
+    > The list of table objects is long. If you know the name of the table, use **Search** in the upper left to find it in the list.
+8. In the **Description** field, enter text that indicates the subject of the question group.
+9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
+10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
+  
+    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+11. To add more questions to the questionnaire, repeat steps seven through 10.
+
+> [!Tip]
+> If at some point you change a question, or add a new one, choose the **Update Questions** action to update the list.
+
+-->
+
 3. Velg handlingen **Spørsmålsområder**. Siden **Spørsmålsområder** åpnes.  
 4. Velg handlingen **Ny**. Siden **Konfig. spørsmålsområde** åpnes.  
 5. I **Tabell-ID**-feltet velger du ID-en for tabellen du vil samle inn informasjon for. Feltet **Tabellnavn** fylles ut automatisk.  
@@ -111,7 +139,7 @@ Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema
 - Hvis du vil bruke svarene for bare et bestemt **spørsmålsområde**, velger du handlingen **Spørsmålsområder**, velger et **spørsmålsområde** i listen, og deretter velger handlingen **Bruk svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:  
-1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir navnet på oppsettssiden og velger deretter den relaterte koblingen.  
+1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på konfigurasjonssiden og deretter velge den relaterte koblingen.  
 2. Kontroller at feltene er fylt ut med de riktige dataene fra de ulike spørsmålsområdene i konfigurasjonsspørreskjemaet.  
 
 Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.

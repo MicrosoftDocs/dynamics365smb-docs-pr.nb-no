@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 12/06/2019
+ms.date: 12/10/2019
 ms.author: solsen
-ms.openlocfilehash: 0f8f0f85df89c1d71fc3e114ebd902f2aa85f802
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: 7d189ab6fa5aff518b643c797b7600570fcad43e
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896112"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910639"
 ---
 # <a name="creating-a-sandbox-environment-in-include-prodshortincludesprodshortmd"></a>Opprette et sandkassemiljø i [!INCLUDE [prodshort](includes/prodshort.md)]
 
@@ -74,13 +74,13 @@ I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer v
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ### <a name="to-enable-the-advanced-user-experience"></a>Slik aktiverer du den avanserte brukeropplevelsen
-Det er mulig å aktivere og prøve de avanserte (alle) funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasseleietaker ved å angi **Opplevelse**-feltet på **Selskapsopplysninger**-siden.
+Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasseleietaker ved å angi **Opplevelse**-feltet på **Selskapsopplysninger**-siden.
 
 <!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
 
 <!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
 
-Når du har aktivert de avanserte funksjonene i en sandkasseleietaker, får du tilgang til alle standardprofiler (roller) og rollesentre. Du kan også opprette et evalueringsselskap med et fullstendig oppsett, inkludert demonstrasjonsdata og tilgang til avanserte områder i produktet.
+Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Du kan også opprette et evalueringsselskap med et fullstendig oppsett, inkludert demonstrasjonsdata og tilgang til avanserte områder i produktet. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner).  
 
 <!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 

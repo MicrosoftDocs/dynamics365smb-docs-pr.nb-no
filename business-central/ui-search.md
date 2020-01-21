@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 11/01/2019
+ms.date: 01/13/2020
 ms.author: bholtorf
-ms.openlocfilehash: 75bff4d303ac13c2ba76cb21a76de1ac6a08dca1
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695050"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953950"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg  
 Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage flere apper og konsulenttjenester for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -62,6 +62,8 @@ Funksjonen **Fortell hva du vil gjøre** søker ikke etter data, for eksempel ku
 
 ## <a name="questions"></a>Spørsmål?
 Vi har vist Fortell meg for interessenter, lagt merke til spørsmål fra dem og gjort merknadene våre om til en liste over vanlige spørsmål. Hvis du er interessert, se [Vanlige spørsmål om Fortell meg](ui-search-faq.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbeide med Business Central](ui-work-product.md)  

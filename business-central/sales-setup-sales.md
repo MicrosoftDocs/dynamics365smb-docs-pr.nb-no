@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 701556c09944c5dcce74543b550c9036c5cc77dd
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311935"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953398"
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
@@ -38,7 +38,9 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 | Angi at e-post skal inneholde et sammendrag av informasjonen i salgsdokumentet som sendes. |[Sende dokumenter i e-post](ui-how-send-documents-email.md) |
 |Bruke en EU-webtjeneste for å bekrefte kundens organisasjonsnummer.|[Bekrefte organisasjonsnumre](finance-setup-vat.md)|
 |Definer de ulike incoterms-vilkårene som du tilbyr kunder eller som leverandører tilbyr deg.|[Sette opp leveringsmåter](sales-how-set-up-shipment-methods.md)|
-|Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Definere transportører](sales-how-to-set-up-shipping-agents.md)|
+|Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Sett opp transportører](sales-how-to-set-up-shipping-agents.md)|
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

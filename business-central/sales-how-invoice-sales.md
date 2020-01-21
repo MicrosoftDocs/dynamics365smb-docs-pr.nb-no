@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ccc909b56e3d1d1d48915470b819be2c91c92b9b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4bc122f2d1dc34f4c36fb74d0d6875f3d82c991a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312199"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953422"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
@@ -39,7 +39,7 @@ Varekortet kan være av typen **Lager**, **Service** eller **Ikke-lagervarer** f
 Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-invoice"></a>Slik oppretter du en salgsfaktura
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
    Andre felt på siden **Salgsfaktura** inneholder nå standardinformasjon for den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:
@@ -103,6 +103,8 @@ I forretningsmiljøer der kunden betaler en stund etter levering, i henhold til 
 I forretningsmiljøer der kunden betaler umiddelbart, for eksempel ved PayPal eller kontant, registreres betalingen umiddelbart når du bokfører salgsfakturaen, det vil si at den bokførte salgsfakturaen lukkes som fullstendig utlignet. Du velger den relevante metoden i **Betalingsmåte - kode**-feltet i ordren. Se under trinn 8. For elektroniske betalinger, for eksempel PayPal, må du også fylle ut feltet **Betalingstjeneste**. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).  
 
 Du kan opprette direkte betalte fakturaer for kunder som ikke er registrert ved å definere et kontant kundekort, som du velger på salgsfakturaen. Du finner mer informasjon under [Definere kontantkunder](finance-how-to-set-up-cash-customers.md).  
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulesinvoicing-customers-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

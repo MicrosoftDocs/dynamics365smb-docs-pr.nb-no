@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: bmeier
-ms.openlocfilehash: 0750f1724260eb7767757d947f30dcb074ef1aeb
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879109"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952990"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 
@@ -164,7 +164,7 @@ En Power BI-konto er ikke satt opp. For at du skal kunne ha gyldig Power BI-kont
 
 ### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Melding: Det finnes ingen aktiverte rapporter. Klikk Velg rapport for å se en liste over rapporter du kan vise.
 
-Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt. 
+Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt.
 
 ### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
@@ -174,7 +174,7 @@ Power BI-apper kan bare installeres av brukere som har en Power BI Pro-lisens. N
 
 Denne feilen angir at en av parameterne ikke er gyldige.
 
-- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø. 
+- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø.
 - Den angitte selskapsparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-selskaper. Kontroller selskapsnavnet på **Selskap**-siden i [!INCLUDE [prodshort](includes/prodshort.md)].
 - Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port er ikke åpen for å tillate at forespørselen din går gjennom brannmuren.
@@ -203,6 +203,8 @@ Når Power BI-appen er installert og dataene vises i Power BI, oppdager du kansk
 
 Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
 
+## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+
 ## <a name="see-also"></a>Se også
 
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
@@ -214,7 +216,7 @@ Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
 [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power Apps](across-how-use-financials-data-source-powerapps.md)  
+[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

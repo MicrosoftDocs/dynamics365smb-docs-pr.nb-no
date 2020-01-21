@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ecceb1fc9ccc5245ef5305d9723f26e6270de79e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 5f6f62e146f6799cad552e60b399f74636091ea7
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311431"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953309"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
@@ -30,7 +30,7 @@ Rollesenteret representerer hjemmesiden, et startskjermbilde som er tilpasset be
 
 ### <a name="to-change-the-role"></a>Endre rollen
 Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.
-1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
+1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 2. På siden **Mine innstillinger**, i feltet **Rolle**, velger du rollen som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**-knappen.
 
@@ -42,7 +42,7 @@ Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan oppret
 ## <a name="to-change-the-company-name"></a>Endre selskapsnavnet
 Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. Skriv inn det nye selskapsnavnet i feltet **Navn**.
 3. Forlat siden. Systemet starter på nytt og viser det nye selskapet i øvre venstre hjørne.
 
@@ -83,6 +83,8 @@ Det første språket bestemmes enten av systemansvarlig eller leserinnstillingen
 
 ## <a name="changing-when-i-receive-notifications"></a>Endre når jeg mottar varsler
 Velg denne koblingen for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Administrere varsler](ui-smart-notifications.md).
+
+## <a name="see-related-training-at-microsoft-learnlearnmodulespersonalize-ui-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Opprette nye seleskaper](about-new-company.md)  

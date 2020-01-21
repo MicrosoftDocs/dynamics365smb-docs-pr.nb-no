@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/21/2019
+ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88e6a04a8e4a992b6a5df3fee87104eba7b5510e
-ms.sourcegitcommit: be1e2c49a8434d3f440d5a201508af9c3c8cc87f
+ms.openlocfilehash: 84d9c0768a457fd13a73b3d70d2b8c329098fe82
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2649791"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953278"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -23,7 +23,10 @@ I faktaboksen på de fleste kort og dokumenter kan du legge ved filer, legge til
 
 Hvis du vil vise eller endre noen av disse vedlagte informasjonstypene, må du først åpne **Vedlegg**-kategorien i faktaboksen. Nummeret bak kategoritittelen angir hvor mange vedlagte filer, koblinger eller merknader som finnes for kortet eller dokumentet.
 
-Vedlegg, koblinger og merknader forblir tilknyttet når kortet eller dokumentet behandles i andre statuser, for eksempel fra en pågående ordre til en bokført salgsfaktura. Vær imidlertid oppmerksom på at ingen av vedleggstypene blir skrevet ut fra systemet, for eksempel ved utskrift eller lagring til en fil.
+Vedlegg, koblinger og merknader forblir tilknyttet når kortet eller dokumentet behandles i andre statuser, for eksempel fra en pågående ordre til en bokført salgsfaktura. Ingen av vedleggstypene blir imidlertid skrevet ut fra systemet, for eksempel ved utskrift eller lagring til en fil.
+
+> [!NOTE]
+> Når du delvis sender og fakturerer en ordre eller bestilling, blir vedlegget bare knyttet til den endelige fakturaen for den ordren. På samme måte, når du fakturerer ved hjelp av Periodiseringer-funksjonen, knyttes vedlegget bare til finanspostene for bilaget, men ikke for periodiseringspostene.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Knytte en fil til en kjøpsfaktura
 Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i et kort eller dokument. Dette er for eksempel nyttig når du vil lagre fakturaen for en leverandør som en PDF-fil på den relaterte kjøpsfakturaen i [!INCLUDE[d365fin](includes/d365fin_md.md)].

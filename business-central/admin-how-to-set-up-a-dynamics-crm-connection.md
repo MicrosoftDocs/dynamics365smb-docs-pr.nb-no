@@ -10,22 +10,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ffcaaf6550601c181913ebe32e80d4cbcf0756bd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879286"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910739"
 ---
 # <a name="set-up-a-connection-to-dynamics-365-sales"></a>Konfigurere en kobling til Dynamics 365 Sales
-For å integrere med [!INCLUDE[crm_md](includes/crm_md.md)] må du sette opp en forbindelse mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+Dette emnet beskriver hvordan du setter opp en tilkobling mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
+<br><br>  
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Før du begynner
-Før du begynner å koble appene er det noen opplysninger som er nyttige å ha klar:  
+Før du oppretter tilkoblingen, er det noen få opplysninger å ha klar:  
 
-* En URL-adresse til [!INCLUDE[crm_md](includes/crm_md.md)]-appen. En raskt måte å hente URL-adressen er å åpne [!INCLUDE[crm_md](includes/crm_md.md)] og kopiere URL-en, og deretter lime den inn i feltet **URL-adresse for Dynamics 365 Sales** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] løser formateringen for deg.  
+* En URL-adresse til [!INCLUDE[crm_md](includes/crm_md.md)]-appen. En rask måte å hente URL-adressen er å åpne [!INCLUDE[crm_md](includes/crm_md.md)], kopiere URL-en, og deretter lime den inn i feltet **URL-adresse for Dynamics 365 Sales** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] løser formateringen for deg.  
 * Et brukernavn og passord til en brukerkonto som bare brukes for integrasjonen.  
 * Brukernavnet og passordet på kontoen som har administratorrettigheter.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: d4818c9dfe96f7e890d84a16c717d4451f56497a
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 137d44db160d0f1e832cc344a779e6bf01a64bbd
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2808580"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911138"
 ---
 # <a name="select-a-check-layout"></a>Velg et sjekkoppsett
 Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt av de lokale myndighetene. Sjekkbilder kan skrives ut på engelsk, fransk eller spansk.
@@ -41,7 +41,7 @@ Hvis du vil endre en av disse standardsjekkoppsettene, bruker du Word- eller RDL
 ## <a name="see-also"></a>Se også
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Håndtere bankkonti](bank-manage-bank-accounts.md)   
+[Avstemme bankkonter](bank-manage-bank-accounts.md)   
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  
 [Arbeide med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

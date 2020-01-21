@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 11/07/2019
+ms.date: 12/17/2019
 ms.author: sgroespe
-ms.openlocfilehash: e8d55ffd434ff2c7666d0b90a5cfd091fc68a015
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774846"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2911124"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -66,6 +66,7 @@ Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til fors
 |ESC|Lukk gjeldende side eller rullegardinliste.|
 |TAB|Flytte fokus til neste kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
 |Skift+TAB|Flytte fokus til forrige kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
+|J og N|Aktiver knappene **Ja** og **Nei** i dialogbokser. Dette er språkstøttet. Du kan for eksempel trykke på J i Norge for å aktivere en **Ja**-knapp.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Hurtigtaster i lister
 
@@ -141,6 +142,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
 |Alt+Skift+W |Åpne gjeldende kort eller dokument i et nytt vindu. Hvis du vil ha mer informasjon, se [Multitaske på tvers av flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
+|Ctrl+Enter|Lagre og lukk siden.|
 |CTRL+PIL NED|Åpne neste post for en enhet.|
 |CTRL+PIL OPP |Åpne forrige post for en enhet.|
 |Ctrl+Insert |Sett inn en ny linje i dokumenter.|

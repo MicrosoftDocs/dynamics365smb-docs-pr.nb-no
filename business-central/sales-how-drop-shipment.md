@@ -12,17 +12,20 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 01799b1881fbcdc6285e84f86f9db88a8c4196a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
+ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312223"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943188"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
 
 Når en ordre er merket for direkte levering, og du oppretter en bestilling for kunden i **Forsendelsesadresse**-feltet, **Kundeadresse**, kan du koble de to dokumentene og på den måten instruere leverandøren til å levere direkte til kunden.
+<br><br>  
+  
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Slik oppretter du en ordre med direkte levering:
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre for en vare som vanlig, bortsett fra at du må vise på salgslinjen at salget krever direkte levering.
@@ -50,7 +53,7 @@ Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ve
 ## <a name="to-post-a-drop-shipment"></a>Bokføre en direkte levering
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne ordren som du laget i [Slik oppretter du en ordre med direkte levering]().
 3. I **Levere (antall)**-feltet angir du hvor mye av ordreantallet som skal leveres, hele eller deler av ordreantallet.
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.

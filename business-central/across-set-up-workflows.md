@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 6ff257a13a995b9617bdae9de98830f50e45edee
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 96c39641c9665542c8c27b004bb27f92768d57dc
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879358"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910907"
 ---
 # <a name="setting-up-workflows"></a>Konfigurere arbeidsflyter
 Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).  
@@ -41,6 +41,12 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 |Del arbeidsflyter med andre [!INCLUDE[d365fin](includes/d365fin_md.md)]-databaser.|[Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)|  
 |Lær hvordan du konfigurerer en arbeidsflyt for godkjenning av salgsdokumenter ved å følge en ende-til-ende-fremgangsmåte.|[Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 |Legg til støtte for et forretningsscenario som krever nye arbeidsflythendelser eller svar ved å tilpasse programkoden.|[Gjennomgang: Implementering av nye arbeidsflythendelser og svar](/dynamics-nav/Walkthrough--Implementing-New-Workflow-Events-and-Responses)|  
+
+## <a name="example-of-an-approval-workflow"></a>Eksempel på en godkjenningsarbeidsflyt
+Denne videoen viser hvordan du konfigurerer en arbeidsflyt som krever at noen ber om en annens godkjenning før de kan endre informasjon om en eksisterende kunde eller opprette en ny kunde.  
+<br><br>  
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI]
 
 ## <a name="see-also"></a>Se også  
  [Bruke arbeidsflyter](across-use-workflows.md)   
