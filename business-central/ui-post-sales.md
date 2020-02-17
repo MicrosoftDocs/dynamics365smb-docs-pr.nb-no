@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 842aaeeb5665e8e02ef6873dd2210e03e415aade
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953974"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992124"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
@@ -41,9 +41,13 @@ For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salg
 
 Du kan enten bokføre eller bokføre og skrive ut. Hvis du velger å bokføre og skrive ut, skrives det ut en rapport når ordren bokføres. Du kan også velge funksjonen **Massebokfør** for å bokføre flere bestillinger samtidig. Hvis du vil ha mer informasjon, se [Bokføre flere dokumenter samtidig](ui-batch-posting.md).
 
+## <a name="viewing-ledger-entries"></a>Vise poster
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
-Du kan redigere bestemte felt på bokførte salgsdokumenter, for eksempel **Pakkesporingsnr**. -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md).
+I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokumentet. På siden **Kundekort** velger du for eksempel handlingen **Poster**.
+
+## <a name="editing-ledger-entries"></a>Redigere poster
+Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pakkesporingsnr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
 ## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 

@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: d47290db285090ce9c22f3ccb5535bf47fd0c8e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 266b2e67b8ab3814e940dce183865aaf2a021a94
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309679"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030127"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
@@ -54,10 +54,17 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 2. På siden **Varekort** for en monteringsvare velger du **Montering** og velger deretter **Monteringsstykkliste**.
 3. Fyll ut feltene etter behov på siden **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-the-components-of-an-assembly-item-indented-according-to-the-bom-structure"></a>Vise komponentene i en monteringsvare som er rykket inn i henhold til stykklistestrukturen
+## <a name="to-edit-assembly-boms"></a>Slik redigerer du monteringsstykklister
+Du kan når som helst redigere linjene i en monteringsstykkliste. Vær oppmerksom på at stykklisten kan være i bruk på pågående salg eller sammenstillinger av den overordnede, noe som kan påvirkes av endringen. Velg **Inngår i**-handlingen for å se hvilke varer den brukes i, og deretter om ordre-eller monteringsordrer kan påvirkes.
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+2. Velg **Ja** i kolonnen **Monteringsstykkliste**.
+3. På siden **Monteringsstykkliste** velger du **Rediger liste**-handlingen, og deretter endrer du felt etter behov.
+
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Vise komponentene og ressursene som er rykket inn i henhold til stykklistestrukturen
 Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
 3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
 4. På siden **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.

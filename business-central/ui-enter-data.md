@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 722f81e9e06cdab13bdd838837e2053de0215821
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311383"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992090"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -55,7 +55,7 @@ Nedenfor finner du nyttig informasjon om hvordan du bruker Hurtigoppføring.
 
 Hvis du vil endre hvilke felt som inkluderes i eller utelates fra Hurtigoppføring på en side, kan du bruke tilpasning.
 
-1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikonet for rollesenteret"), og klikk deretter handlingen **Tilpass**.
+1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og deretter **Tilpasse**-handlingen.
 2. Velg et felt som du vil endre, eller velg tilsvarende kolonneoverskrift i lister, og velg deretter **Ta med i hurtigoppføring** eller **Utelat fra hurtigoppføring**.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -105,13 +105,14 @@ Hvis du vil gå tilbake til den normale visningen, kan du velge ![Fokusmodusikon
 ## <a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
 Når du arbeider med flere oppgaver samtidig, eller når du håndterer avbrudd på gjeldende oppgave, for eksempel ved å ta en innkommende oppringing, kan du åpne et kort eller en dokumentside i et nytt vindu. Dette gjør at du kan holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i ett eller flere vinduer.
 
-Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
 
 > [!NOTE]
 > Når du åpner andre sider fra et kort eller et dokument som er åpnet i et nytt vindu, vil sidene bli åpnet i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
 
 > [!NOTE]
-> Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).  
+> Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Det kan skje i andre lesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) for mer informasjon.  
 
 ## <a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
 

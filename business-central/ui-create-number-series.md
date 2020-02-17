@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: ad00fffd79d35e7e1dc29134b75c4c5213891e0b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: bd86c129f2c6161860505a1127c3160e1e2da8ad
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953299"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030079"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
@@ -35,7 +35,7 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
 ## <a name="gaps-in-number-series"></a>Tomrom i nummerserier
-Ikke alle poster du oppretter i [!INCLUDE[d365fin](includes/d365fin_md.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
+Ikke alle poster du oppretter i [!INCLUDE[d365fin](includes/d365fin_md.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Denne innstillingen kan også endres etter at du har opprettet nummerserien. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. i dokumenter og kort
 På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylles ut automatisk fra en nummerserie eller manuelt, og det kan settes opp til å være usynlig.

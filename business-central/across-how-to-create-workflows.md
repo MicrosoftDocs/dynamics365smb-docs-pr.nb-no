@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/15/2019
+ms.date: 01/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0589314914b2f7982c52b62475d41754845a48d5
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bb7c64727979b7e8f53898c03781a24bcf8f40c4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881195"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991835"
 ---
 # <a name="create-workflows"></a>Opprette arbeidsflyter
 Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
@@ -59,7 +59,7 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
         |**Varsle avsender**|Angi om godkjenningsanmoderen skal varsles i stedet for mottakeren av godkjenningsforespørselen. Hvis du setter en hake i avmerkingsboksen, deaktiveres feltet **Bruker-ID for mottaker**, fordi godkjenningsanmoderen, avsenderen, blir varslet i stedet. Navnet på arbeidsflytsvarendringene endres i henhold til dette til **Opprett varsel for &lt;avsender&gt;**. Hvis det ikke er merket av i avmerkingsboksen, er navnet på arbeidsflytsvaret **Opprett varsel for &lt;Bruker&gt;**.
         |**Bruker-ID for mottaker**|Angi brukeren som meldingen må sendes til. Obs! Dette alternativet er bare tilgjengelig for arbeidsflytsvar med en plassholder for en bestemt bruker. For arbeidsflytsvar uten plassholdere for brukere er varslingsmottakeren vanligvis definert av brukeroppsettet for godkjenning.|  
         |**Posttype for varsling**|Angir om arbeidsflytvarslingen utløses av en postendring, en godkjenningsforespørsel eller en forfalt data.|
-        |**Kobling til målside**|Angi en annen side i [!INCLUDE[d365fin](includes/d365fin_md.md)] som koblingen i meldingen åpner i stedet for standardsiden.|  
+        |**Kobling til målside**|Angi en annen side i [!INCLUDE[d365fin](includes/d365fin_md.md)] som koblingen i meldingen åpner i stedet for standardsiden.<br /><br />Merk at siden må ha samme kildetabell som den aktuelle posten.|  
         |**Egendefinert kobling**|Angi URL-adressen til en kobling som legges til i meldingen i tillegg til koblingen til en side i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
     2.  Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av en godkjenningsforespørsel, fyller du ut feltene som beskrevet i følgende tabell.  
 
@@ -91,7 +91,7 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 >  Ikke aktiver en arbeidsflyt før du er sikker på at arbeidsflyten er fullført og at de involverte arbeidsflyttrinnene kan starte.  
 
 > [!TIP]  
->  Hvis du vil se relasjoner mellom tabeller som er brukt i arbeidsflyter, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "TFortell hva du vil gjøre), og deretter angir du **Arbeidsflyt – tabellrelasjoner**.  
+>  Hvis du vil se relasjoner mellom tabeller som er brukt i arbeidsflyter, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), og deretter angir du **Arbeidsflyt – tabellrelasjoner**.  
 
 ## <a name="see-also"></a>Se også  
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)   

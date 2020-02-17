@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: edupont
-ms.openlocfilehash: 05a414d6f12243f55105863b66d9b6e759a29189
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4e09df754895a8d0d3a1cc1ed84a7c8332e32880
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305697"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030247"
 ---
 # <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
@@ -28,7 +28,7 @@ De følgende trinnene forklarer hvordan du oppretter og publiserer en webtjenest
 
 ### <a name="to-create-and-publish-a-web-service"></a>Slik oppretter og publiserer du en webtjeneste  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Webtjenester**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Webtjenester**, og velg deretter den relaterte koblingen.  
 2. På siden **Webtjenester** velger du **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
@@ -52,8 +52,8 @@ Når du publiserer en webtjeneste, er den tilgjengelig for eksterne parter. Du k
     > [!div class="mx-tdBreakAll"]
     > |Type|Syntaks|Eksempel|
     > |----------------|------|-------|
-    > |SOAP |https://api.businesscentral.dynamics.com/*versjon*/*leier*/WS/*Selskapsnavn*/*enhet*/ |`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument`|
-    > |OData V4|https://api.businesscentral.dynamics.com/*versjon*/*leier*/ODataV4/Selskap('*Selskapsnavn*')/*enhet*|`https://api.businesscentral.dynamics.com/v1.0/a10b3ee6-d9a2-42fe-926f-946e23bb8ddd/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/InvoiceDocument`<br/>    Selskapsnavnet skiller mellom store og små bokstaver.|
+    > |SOAP|https://api.businesscentral.dynamics.com/*versjon*/*leier*/Produksjon/WS/*Selskapsnavn*/*enhet*/ |https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/WS/CRONUS%20USA%2C%20Inc./Page/InvoiceDocument|
+    > |OData V4|https://api.businesscentral.dynamics.com/*versjon*/*leier*/Produksjon/ODataV4/Selskap('*Selskapsnavn*')/*enhet*|https://api.businesscentral.dynamics.com/v2.0/7acc9d3d-d354-4616-8bbd-c4fc9f2b15b3/Production/ODataV4/Company('CRONUS%20USA%2C%20Inc.')/Fakturadokument<br/>    Selskapsnavnet skiller mellom store og små bokstaver.|
 
 2. Se gjennom informasjone som vises i webleseren. Kontroller at du kan se navnet på webtjenesten som du har opprettet.  
 

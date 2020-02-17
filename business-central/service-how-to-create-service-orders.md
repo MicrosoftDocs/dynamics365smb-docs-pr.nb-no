@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5415475d2dd820ff03615b6911db3082c33be9b6
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b941d451a5c3ef288128a271855958a954f70f9c
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877330"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030103"
 ---
 # <a name="create-service-orders"></a>Opprette serviceordrer
 Du kan bruke siden **Serviceordre** til å opprette dokumenter der du angir opplysninger om en service, for eksempel reparasjon og vedlikehold, på servicevarer etter forespørsel fra kunde.  
@@ -46,6 +46,8 @@ Du kan automatisk opprette serviceordrer for vedlikehold av servicevarer basert 
     >  Det finnes en begrensning på antall dager du kan bruke som datointervall hver gang du bruker denne kjørselen. Du angir denne begrensningen i feltet **Kontraktserv.ordre - maks. dager** på siden **Serviceoppsett**.  
 
 4. I feltet **Handling** velger du **Opprett serviceordre**.  
+    > [!NOTE]  
+    >  Du kan ikke opprette ordre med flere servicevarer hvis du angir feltet **Én servicevarelinje/ordre** på siden **Serviceoppsett**. 
 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Slik konverterer du et servicetilbud til en serviceordre
 Når en kunde har godkjent et servicetilbud, konverterer du det til en serviceordre. Tilbudet slettes, og en ny serviceordre defineres med den samme beskrivelsen som servicetilbudet. Responsdatoen og -tiden beregnes på nytt for serviceordren, og statusen settes til **I kø**. Reparasjonsstatusen til servicevarene i ordren endres til **Første**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2cc4f25ad0ae861579789d05dd192c1019bfe505
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554305"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030199"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innkreve betalinger med SEPA direct debit
 Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.  
@@ -32,7 +32,10 @@ Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i h
 >  Hvis du vil innkreve betalinger ved hjelp av SEPA Direct Debit, må valutaen på salgsfakturaen være EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
-Fra **Direct Debit-oppkrevinger**-siden kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter formatet for SEPA Direct Debit, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.  
+Fra **Direct Debit-oppkrevinger**-siden kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto i samsvar med SEPA Direct Debit-formatet.
+
+> [!NOTE]
+> Den globale versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter bare SEPA direct debit-formatet. Versjonen for ditt land/område kan støtte andre formater for elektronisk betaling. Se under **Lokal funksjonalitet** i innholdsfortegnelsen.  
 
 Du kan gjøre det mulig å eksportere et bankfilformat som ikke støttes som standard i [!INCLUDE[d365fin](includes/d365fin_md.md)], ved å definere en datautvekslingsdefinisjon ved hjelp av rammeverket for datautveksling. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 
@@ -43,7 +46,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 * Konfigurer direct debit-belastningsfullmakten som gjenspeiler avtalen med kunden om å samle sine betalinger i en bestemt avtaleperiode.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Slik konfigurerer du din bankkonto for SEPA direct debit  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Bankkonti**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.  
 2. Åpne bankkontoen som du vil bruke til direct debit.  
 3. Velg alternativet for SEPA direct debit i feltet **Eksportformat for SEPA Direct Debit** i hurtigfanen **Overfør**.  
 
@@ -61,13 +64,13 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
     >  Ikke angi en verdi i feltet **Motkontonr.**  
 
 4. Velg **OK**-knappen for å lukke siden **Betalingsmåter**.  
-5. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 6. Åpne kundekortet for kunden som du vil konfigurere SEPA direct debit-samling for.  
 7. Velg feltet **Betalingsmåte - kode**, og velg deretter koden for betalingsmåte som du angav i trinn 3.  
 8. Gjenta trinn 6 og 7 for alle kundene du vil konfigurere SEPA direct debit-samling for.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Slik konfigurerer du direct debit-belastningsfullmakten som representerer kundeavtalen  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for kunden som du vil konfigurere SEPA direct debit for.  
 3. Velg **Bankkonti**-handlingen.  
 4. På siden **Kundebankkonto - oversikt** velger du kundebankkonto som skal bruke direct debit, og deretter velger du handlingen **Direct Debit-belastningsfullmakter**.  
@@ -96,7 +99,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 
 ### <a name="to-create-a-direct-debit-collection"></a>Slik oppretter du en avtalegirooppkreving  
 
- 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
+ 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
  2. På siden **Direct Debit-oppkrevinger** velger du handlingen **Opprett Direct Debit-oppkreving**.  
  3. På siden **Opprett Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -112,7 +115,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 
  4. Velg **OK**.  
 
-      En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én eller flere poster for avtalegirosamlingen blir opprettet.  
+En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én eller flere poster for avtalegirosamlingen blir opprettet.  
 
 ### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Slik oppretter du en post for avtalegirosamling til en bankfil  
  1. På siden **Direct Debit-oppkrevinger** velger du handlingen **Poster for Direct Debit-oppkreving**.  
@@ -142,7 +145,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
  Du kan bokføre kvittering direkte fra siden **Direct Debit\-oppkrevinger** eller siden **Poster for Direct Debit-oppkreving**. Du kan også overføre arbeidet til en annen bruker ved klargjøre de relaterte kladdelinjene.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Slik bokfører du en kvittering for direct debit fra siden Direct Debit-samlinger  
- 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
+ 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
  2. Velg en linje for en direct debit-samling som er eksportert til en bankfil og behandlet av banken.
  3. Velg handlingen **Bokfør kvitteringer**.  
  4. På siden **Bokfør Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  

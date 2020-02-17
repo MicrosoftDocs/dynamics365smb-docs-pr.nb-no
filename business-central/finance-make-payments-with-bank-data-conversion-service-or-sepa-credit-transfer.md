@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: 35904d33c7e456e3797dae0835ed7462a65f4a7f
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: aa4ce82cd1a156561fa2dc929c45e231730fb084
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692851"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992003"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring
 Nå kan du behandle betalinger til leverandører på siden **Betalingskladd** ved å eksportere en fil sammen med betalingsinformasjonen fra kladdelinjene. Du kan deretter laste opp filen til nettbanken der de relaterte pengeoverføringene behandles. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter formatet for SEPA-kreidttoverføring, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.
 
-I den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I Nord-Amerika versjoner, den samme tjenesten som kan brukes til å sende betalinger som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i [Slik eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
+> [!NOTE]
+> I den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I Nord-Amerika versjoner, den samme tjenesten som kan brukes til å sende betalinger som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i [Slik eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).   
 
  Hvis du vil gjøre det mulig å foreta SEPA-kredittoverføringer, må du først opprette en bankkonto, en leverandør og finanskladden som utbetalingskladden er basert på. Deretter gjør du klar betalinger til leverandører ved å fylle ut siden **Betalingskladd** med forfalte betalinger som har angitte bokføringsdatoer.  
 
@@ -94,7 +95,8 @@ Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten 
 2. Fyll ut utbetalingskladdelinjene. Hvis du vil ha mer informasjon, kan du se [Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md).
 
 > [!NOTE]  
->   Hvis du bruker EFT, må du velge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**. Andre fileksporttjenester og formater krever ulike oppsettsverdier på siden **Bankkort** og **Leverandørs bankkort**. Du blir informert om feil eller manglende oppsettsverdier når du prøver å eksportere filen.
+> Hvis du bruker EFT, må du velge enten **Elektronisk betaling** eller **Elektronisk betaling-IAT** i feltet **Bankbetalingstype**. Andre fileksporttjenester og formater krever ulike oppsettsverdier på siden **Bankkort** og **Leverandørs bankkort**. Du blir informert om feil eller manglende oppsettsverdier når du prøver å eksportere filen.<br /><br />
+> EFT-funksjonen kan bare brukes for bankkonti i lokal valuta. Den kan ikke brukes med utenlandsk valuta, angitt med en verdi i feltet **Valutakode**. (Tom feltverdi betyr lokal valuta.)
 
 3. Når du har fullført alle betalingskladdlinjene, velger du **Eksporter**.
 4. På siden **Eksporter elektroniske betalinger** fyller du ut feltene etter behov.

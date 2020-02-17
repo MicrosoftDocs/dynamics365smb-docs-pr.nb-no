@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: SorenGP
-ms.openlocfilehash: 73ed7ac7ef80aa9e85f4d87ee1adbd5ba53ba44f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 58f4787a5e9bb845fc72b2ce6d9a1872c4245ee4
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308599"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991907"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
@@ -42,7 +42,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene vanl
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner på siden **Tilgjengelighet per hendelse**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Hendelse**-handlingen.
 
@@ -52,7 +52,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på siden **Varetilgjengelighet per periode**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Periode**-handlingen.
 
@@ -62,7 +62,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på si
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, på siden **Varetilgjengelighet per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Lokasjon**-handlingen.
 
@@ -73,7 +73,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på siden **Varer per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Varer per lokasjon**.
 
     Siden **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.
@@ -91,13 +91,16 @@ På hver linje på siden for både overordnede og underordnede varer angir følg
 |**Kan lage overordnet**|Viser hvor mange enheter av en hvilken som helst delmontering i toppvaren du kan lage. Feltet angir hvor mange umiddelbare overordnede enheter du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 |**Kan lage toppvare**|Viser hvor mange enheter av toppvaren du kan lage. Feltet angir hvor mange enheter av stykklistevaren på øverste linje som du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 
-### <a name="item-availability-by-bom-level-page"></a>Siden Varetilgjengelighet per stykklistenivå
+### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Slik viser du tilgjengeligheten for en vare i henhold til behov for den overordnede
 Siden **Varetilgjengelighet per stykklistenivå** viser informasjon for varen på kortet eller dokumentlinjen som siden er åpnet for. Varen vises alltid på øverste linje. Du kan vise informasjon for andre varer eller for alle varer ved å endre verdien i feltet **Varefilter**.
 
 > [!NOTE]  
 >   Som standard viser tilgjengelighetsfigurer på linjene den totale tilgjengeligheten for alle varene under den øverste varen. Disse tallene vises i feltet **Disponibelt antall**, og fokus er på toppvaren. Informasjon om hvor mange halvfabrikater du kan lage, kan imidlertid være skjevt. For å få en realistisk indikasjon om hvor mange av de viste delmonteringene du kan lage, må du fjerne merket for **Vis samlet tilgjengelighet** og deretter se tallet i feltet **Kan lage overordnet**.
 
 Feltet **Flaskehals** angir hvilken vare i stykklistestrukturen som hindrer deg i å opprette et større antall enn antallet som vises i feltet **Kan lage toppvare**. Flaskehalsen kan for eksempel være en innkjøpt komponent med forventet mottaksdato som er for sen til å lage ekstra enheter av toppvaren etter datoen i feltet **Trengs innen dato**.
+
+### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Slik viser du tilgjengeligheten for en vare ved hjelp av måleenheten
+Siden **Varedisposisjon etter måleenhet** viser varedisposisjon brytt ned ulike måleenheter som den er lagret i.
 
 ## <a name="assembly-availability-page"></a>Siden Montering – tilgjengelighet
 Siden **Montering – tilgjengelighet** viser detaljerte tilgjengelighetsinformasjon for monteringsvaren. Det åpnes:

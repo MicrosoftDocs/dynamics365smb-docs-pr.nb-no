@@ -9,17 +9,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 01/16/2020
 ms.author: edupont
-ms.openlocfilehash: c5798baec1130c3fc662a8751aee87bb8b438146
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b05959eea09289db7878145347362786ab336de8
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311287"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992148"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Utvidelsen for Dynamics GP datamigrering 
-Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevante poster og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[prodshort](includes/prodshort.md)]. Overføringsutvidelsen fungerer for alle støttede versjoner av Microsoft Dyanmics GP. Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
+Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis virksomheten din bruker Dynamics GP i dag, kan du eksportere relevante poster og deretter åpne en assistert oppsettsveiledning for å legge til data i [!INCLUDE[prodshort](includes/prodshort.md)]. Overføringsutvidelsen fungerer for alle støttede versjoner av Microsoft Dynamics GP. Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
+
+> [!NOTE]
+>  Denne utvidelsen vil bli avskrevet i 15.3-oppdateringen. Vi anbefaler at brukere som vil overføre fra Dynamics GP, begynner å bruke veiviseren for **skyoverføring** i stedet. Utvidelsen for **skyoverføring** har mer robust funksjonalitet og henter flere data til Business Central fra Dynamics GP.
 
 ## <a name="exporting-data-from-dynamics-gp"></a>Eksportere data fra Dynamics GP
 Du må ha eksportert noen av eller alle dine eksisterende kunder, leverandører, varer og finanskontoer til en fil ved hjelp av funksjonen for dataeksport i Dynamics GP. Når du velger å eksportere data, kan du velge følgende typer:

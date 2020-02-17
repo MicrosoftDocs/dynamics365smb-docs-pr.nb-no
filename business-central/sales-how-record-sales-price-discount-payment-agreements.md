@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/14/2020
+ms.date: 02/04/2020
 ms.author: sgroespe
-ms.openlocfilehash: c41f331ebd1d49d03e8cf5177911c37accb05882
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 820439f8b18026d8a92a07dfe320423381847cb7
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953374"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030271"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 De ulike pris- og rabattavtalene som gjelder ved salg til ulike kunder, må defineres slik at de avtalte reglene og verdiene brukes på salgsdokumenter du oppretter for kundene.
@@ -49,6 +49,10 @@ Ettersom salgspriser og salgslinjerabatter er basert på en kombinasjon av vare 
 
     På siden **Salgslinjerabatter** er feltet **Salgstype** forhåndsutfylt med **Kunde**, og feltet **Salgskode** er forhåndsutfylt med kundenummeret.
 3. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll ut en linje for hver kombinasjon som gir en salgslinjerabatt for kunden.
+
+> [!Note]
+> Når du åpner vinduene **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, angis feltene **Salgstypefilter** og **Salgskodefilter** for kunden, og de kan ikke endres eller fjernes, angitt av den grå verdien i feltet **Salgskodefilter**.<br /><br />
+> Hvis du vil definere priser eller linjerabatter for alle kunder, en kundeprisgruppe eller en kampanje, må du åpne vinduene fra et varekort. Du kan eventuelt bruke siden **Salgsprisforslag** for salgspriser. Hvis du vil ha mer informasjon, se [Slik samleoppdaterer du varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Definere en fakturarabatt for en kunde
 Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du fakturarabattkode på kundekortet og definerer betingelsene for hver kode.
@@ -89,7 +93,7 @@ Du knytter rabattprosentene til bestemte fakturabeløp på sidene **Kundefaktura
 I tillegg til (eller i stedet for) en rabattprosent, kan du knytte et gebyrbeløp til et bestemt fakturabeløp.  
 
 > [!TIP]  
->  Før du angir disse opplysningene i programmet, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
+>  Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
 
 Hvis du vil ha mer informasjon om rabatter i salg, kan du se [Definere rabatter for kundene](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
 
@@ -116,7 +120,7 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 
 ## <a name="to-copy-sales-prices"></a>Slik kopierer du salgspriser  
-Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde som skal brukes i en kundeprisgruppe, må du utføre kjørselen **Foreslå salgspris i forslag**. Kjørselen . Du finner en handling for den satsvise jobben på siden **Salgsprisforslag**.    
+Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde som skal brukes i en kundeprisgruppe, må du utføre kjørselen **Foreslå salgspris i forslag**. kjørselen, som du starter fra siden **Salgsprisforslag**.    
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Foreslå salgspris i forslag.** .  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: abca7de7ce91ebe32e8c17a2288c49684b53455c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879205"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999786"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 Med jobbkøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Det kan for eksempel være at du vil kjøre rapporten **Selger - salgsstatistikk** ukentlig for å spore salg etter selger hver uke, eller du vil kanskje kjøre kodeenheten **Behandle e-postkø - service** daglig, for å sørge for at ventende e-postmeldinger angående serviceordrer sendes ut til kundene i rett tid.
@@ -31,6 +31,11 @@ Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringsr
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ordrebokføring i bakgrunnen for alle salgs-, kjøps- og servicedokumenter.
 
+> [!NOTE]
+> Noen av jobbene endrer samme data og bør ikke kjøres samtidig, fordi dette kan forårsake konflikter. Bakgrunnsjobber for salgsdokumenter vil for eksempel prøve å endre de samme dataene samtidig. Jobbkøkategorier bidrar til å forhindre denne typen konflikter ved å sørge for at et annet prosjekt som tilhører samme jobbkøkategori, ikke blir kjørt før den er ferdig. Et prosjekt som for eksempel tilhører en jobbkøkategori for salg, vil vente til alle andre salgsrelaterte jobber er utført. Du angir en jobbkøkategori på hurtigfanen **Bakgrunnsbokføring** på siden **Salgsoppsett**. 
+> 
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] gir jobbkøkategorier for salg, kjøp og finansbokføring. Vi anbefaler at én av disse eller en du oppretter, alltid angis. Hvis det oppstår feil på grunn av konflikter, kan du vurdere å definere en kategori for all bakgrunnsbokføring av salg, kjøp og finans.
+
 Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bakgrunnen. Trinnene er de samme for kjøp og service.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
@@ -41,7 +46,7 @@ Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bak
 4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
 5. På siden **Poster i jobbkø** velger du **Ny**-handlingen.
 6. I feltet **Objekttype som skal kjøres** velger du **Codeunit**.  
-7. I feltet **Objekt-ID som skal kjøres** velger du 88, **Salgspost via jobbkø**.
+7. I feltet **Objekt-ID som skal kjøres** velger du **88**. Feltene Beskrivelse og Objektoverskrift som skal kjøres viser Salgspost via jobbkø.
 
     Ingen andre felt er relevante for denne situasjonen.
 8. Velg **Sett status til Klar**-handlingen.

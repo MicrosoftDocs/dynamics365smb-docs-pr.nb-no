@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 01/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3388e30168e6f0da0dfee2b6dcd7e70cb7a62eac
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: f71c3fa29ab12c13395c07d5919fc14e86511e75
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953566"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999690"
 ---
 # <a name="administration"></a>Administrasjon
 Sentrale administrasjonsoppgaver utføres vanligvis av én rolle i selskapet. Omfanget av disse oppgavene kan avhenge av selskapets størrelse og administrators jobbansvar. Disse oppgavene kan omfatte administrasjon av databasesynkronisering for jobb- og e-postkøer, oppsett av brukere og tilpassing av brukergrensesnittet.  
@@ -24,7 +24,7 @@ Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen ti
 
 Enten du bruker RapidStart Services til å implementere oppsettsverdier eller du angir dem manuelt i det nye selskapet, kan du støtte opp om oppsettsbeslutningene dine ved å følge noen generelle anbefalinger for utvalgte oppsettsfelt som er kjent for å redusere løsningens effektivitet hvis de defineres feil.  
 
-En superbruker eller en administrator kan opprette et rammeverk for datautveksling slik at brukere kan eksportere og importere data i bank- og lønnsfiler, for eksempel for forskjellige bankstyringsprosesser.
+En superbruker eller en administrator kan opprette et rammeverk for datautveksling slik at brukere kan eksportere og importere data i bank- og lønnsfiler, for eksempel for forskjellige bankstyringsprosesser. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).
 
 > [!NOTE]
 > Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).

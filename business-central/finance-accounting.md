@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 01/06/2020
 ms.author: edupont
-ms.openlocfilehash: 9c409b3aa0301b959cde0681307cf8346fbe7a54
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943041"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991859"
 ---
 # <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
@@ -42,7 +42,7 @@ Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare
 > 
 > Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory, så brukeren som sender denne invitasjonen, må tilordnes rollen **Global administrator** eller **Brukeradministrator** i Office 365-administrasjonssenteret. Hvis du vil ha mer informasjon, se [Om administratorroller](/office365/admin/add-users/about-admin-roles) i Office 365-administratorinnholdet.  
 
-### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Legge til regnskapsføreren din i Office 365 via Azure-portalen
+### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Legge til regnskapsføreren din i Office 365 via Azure Portal
 
 Hvis administratoren eller videresalgspartneren din ikke vil bruke veiledningen **Inviter ekstern regnskapsfører**, kan de legge til en ekstern bruker i Azure-portalen og tilordne denne brukeren den eksterne regnskapsførerlisensen. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Legge til gjestebrukere i katalogen i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

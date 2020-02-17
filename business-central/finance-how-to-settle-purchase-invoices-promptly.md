@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: bholtorf
-ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b38f5f97c7b5be46f1d6cd4d1bc898e72060417e
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879683"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999622"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Gjøre opp kjøpsfakturaer omgående
 Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betalingen når du bokfører selve fakturaen.  
@@ -26,7 +26,7 @@ Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betali
 3.  Hvis du vil betale enten med kontanter eller med giro, angir du nummeret på kassekontoen eller bankkontoen i feltet **Motkontonr.**.  
 
 > [!IMPORTANT]  
->  Feltene **Motkontotype** og **Motkontonr.** inngår ikke i standardoppsettet for fakturahodet. Hvis du vil bokføre betalingen av en faktura, må du først sette dem inn ved hjelp av designfunksjonene.  
+>  Feltene **Motkontotype** og **Motkontonr.** inngår ikke i standardoppsettet for fakturahodet. Hvis du vil bokføre betalingen av en faktura, må du først sette dem inn ved hjelp av designfunksjonene. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md). 
 
 > [!NOTE]  
 >  Hvis du vanligvis betaler kjøpsfakturaer kontant, er det lurt å definere en bestemt betalingsmåte med en motkonto, og angi denne betalingsmåten i feltet **Betalingsmåte** på leverandørkortet. Motkontonummeret settes automatisk inn i fakturahodet hver gang du oppretter en ny faktura.  

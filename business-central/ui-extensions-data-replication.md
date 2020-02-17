@@ -1,37 +1,37 @@
 ---
-title: Intelligente skyutvidelser i Business Central | Microsoft-dokumentasjon
-description: Bruk denne datareplikeringsutvidelsen til å opprette en skykopi av dataene, slik at du er koblet til den intelligente skyen.
-author: edupont04
-manager: edupont
+title: Intelligente skyutvidelser i Business Central for skyoverføring | Microsoft-dokumentasjon
+description: Bruk skyoverføringsutvidelsene til å overføre de lokale dataene til Business Central på nettet. Disse utvidelsene flytter de lokale dataene til skyen, slik at du kan bruke Business Central på nettet med de eksisterende dataene.
+author: jenolson
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
-ms.author: edupont
-ms.openlocfilehash: 7f218983e4269c1e35bc7713883bea0fa5195d4b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.reviewer: edupont
+ms.date: 01/30/2020
+ms.author: jenolson
+ms.openlocfilehash: 17bcc754612782903ca0a977f6cd3e80e0e1c6b1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311311"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999598"
 ---
 # <a name="intelligent-cloud-extensions"></a>Intelligente skyutvidelser
 
-Denne utvidelsen vil koble dataene dine fra [!INCLUDE [prodshort](includes/prodshort.md)] lokalt til [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent innsikt.  
+Denne utvidelsen vil koble dataene fra [!INCLUDE [prodshort](includes/prodshort.md)] lokalt med [!INCLUDE [prodshort](includes/prodshort.md)] på nettet for å overføre løsningen til skyen.  
 
-Hvis du bruker én av de støttede lokale produktene, kan du konfigurere det intelligente skymiljøet basert på en produktspesifikk utvidelse. Når det intelligente skymiljøet er konfigurert, vil du kunne replikere data fra den lokale løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]-skyleietakeren. Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.  
+Hvis du bruker én av de støttede lokale produktene, kan du konfigurere skymiljøet basert på en produktspesifikk utvidelse. Når skymiljøet er konfigurert, vil du kunne overføre data fra den lokale løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]. Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.  
 
 ## <a name="business-central-on-premises"></a>Business Central lokalt
-Hvis du bruker en lokal distribusjon av [!INCLUDE[prodshort](includes/prodshort.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent sky for Business Central**, og kjør deretter den assisterte oppsettsveiledningen **Installasjon av intelligent sky**.  
+Hvis du bruker en lokal distribusjon av [!INCLUDE[prodshort](includes/prodshort.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent sky for Business Central**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
-Hvis du bruker Dynamics GP, hent utvidelsen for **Intelligent skybaseutvidelse**, utvidelsen for **Dynamics GP-datamigrering** og utvidelsen **Intelligent sky for Dynamics GP**, og kjør deretter den assisterte oppsettsveiledningen **Installasjon av intelligent sky**.  
+Hvis du bruker Dynamics GP, hent utvidelsen for **Intelligent skybaseutvidelse** og utvidelsen for **Intelligent sky for Dynamics GP** , og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
-## <a name="dynamics-nav"></a>Dynamics NAV
-Hvis du bruker Dynamics NAV, hent utvidelsen for **Intelligent skybaseutvidelse** og utvidelsen for **Intelligent sky for Dynamics NAV**, og kjør deretter den assisterte oppsettsveiledningen **Installasjon av intelligent sky.**  
+## <a name="dynamics-sl"></a>Dynamics SL
+Hvis du bruker Dynamics SL, hent utvidelsen for **Intelligent skybaseutvidelse**, utvidelsen for **Microsoft Dynamics SL intelligent sky** og utvidelsen for **Microsoft Dynamics SL historikksmartlister**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
 ## <a name="see-also"></a>Se også
 

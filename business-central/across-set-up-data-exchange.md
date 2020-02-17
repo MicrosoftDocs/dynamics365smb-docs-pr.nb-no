@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 5fa6f0ea5f12d44ae538df5a2be3489819963e47
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 79fe847cdfaef12c16ce972ec20f3213f0af352a
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692827"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999714"
 ---
 # <a name="setting-up-data-exchange"></a>Definere datautveksling
 Før du kan sende og motta elektroniske dokumenter eller importere og eksportere bankfiler, må du definere rammeverket for datautveksling til å behandle filer som er involvert. I tillegg må du definere tilknyttede områder, for eksempel kundene du sender elektroniske fakturaer til, eller utvidelsen AMC Banking 365 Fundamentals hvis du bruker den eksterne tjenesteleverandøren til å konvertere bankfilene. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
@@ -40,6 +40,5 @@ Før du kan sende og motta elektroniske dokumenter eller importere og eksportere
 
 ## <a name="see-also"></a>Se også  
 [Utveksle data elektronisk](across-data-exchange.md)  
-[Utveksle data](across-exchange-data.md)   
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  

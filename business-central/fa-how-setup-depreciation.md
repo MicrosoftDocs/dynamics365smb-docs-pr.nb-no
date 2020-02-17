@@ -8,24 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: db3a3cf0426c97ebebff9c4a486975c44b8d6510
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 4f11ac5080c8601ce8ae46178bf5c1ed8bb646e1
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302743"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999574"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
- Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md).
+ Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).
 
- Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst ett avskrivningstablå til hvert enkelt aktiva. Et avskrivningstablå som tilordnes til et aktiva, blir referert til som et avskrivningstablå for aktiva. Tilsvarende kalles siden for tilordnede avskrivningstablåer **Aktivaavskrivningstablå**.
+ I avskrivningstablåer definerer du de ulike måtene avskrivning må beregnes på for de ulike aktivaene. I hver bok kan du angi individuelle avskrivningsbetingelser. Du kan for eksempel angi at et aktiva skal avskrives over en periode på tre år i ett tablå, og over en periode på fem år i et annet tablå.
+
+ Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst ett avskrivningstablå til hvert enkelt aktiva. Et avskrivningstablå som tilordnes til et aktiva, blir referert til som et avskrivningstablå for aktiva. Du kan definere et ubegrenset antall avskrivningstablåer for et aktivum. 
 
 ## <a name="to-create-a-depreciation-book"></a>Slik oppretter du et avskrivningstablå:
 I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vil tilpasse ulike avskrivningsmetoder, kan du definere flere avskrivningstablåer.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.
 2. På siden **Avskrivningstablå - oversikt** velger du handlingen **Ny**.
 3. På siden **Avskrivningstablåkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -35,7 +37,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 5. Gjenta trinn 2 til 4 for hver avskrivningsmetode eller bokføringsmetode som du vil tilordne til aktiva som et avskrivningstablå.
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Slik tilordner du et avskrivningstablå til et aktiva:
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktiva**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil definere et aktivaavskrivningstablå for.
 3. På hurtigfanen **Avskrivningstablå** fyller du ut feltene etter behov.
 4. Hvis du vil tilordne mer enn ett avskrivningstablå til aktivaet, velger du **Legg til flere avskrivningstablåer**.
@@ -47,7 +49,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Slik tilordner du et avskrivningstablå til flere aktiva med en kjørsel:
 Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørselen **Opprett aktivaavskr.tablåer** til å opprette aktivaavskrivningstablåer.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktiva**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil tilordne et avskrivningstablå til, og velg deretter **Rediger**-handlingen.
 3. På **Avskrivningstablåkort**-siden velger du **Opprett aktivaavskr.tablåer**.
 4. På siden **Opprett aktivaavskr.tablåer** fyller du ut **Avskrivningstablå**-feltet.
@@ -60,7 +62,7 @@ Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørsel
 ## <a name="to-set-up-depreciation-posting-types"></a>Slik definerer du bokføringstyper for avskrivning:
 For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal håndtere ulike bokføringstyper. Du må for eksempel angi om bokføringen skal være debet eller kredit, og om bokføringstypen skal tas med i avskrivningsgrunnlaget.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået du vil definere, og velg deretter handlingen **Aktivabokf.type - oppsett**.
 3. Fyll ut resten av feltene på siden **Aktivabokf.type - oppsett** etter behov.
 
@@ -72,14 +74,14 @@ Vi anbefaler at du ikke endrer oppsettet av avskrivningstablåer med poster som 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Slik definerer du standardmaler og kladder for aktivaavskrivning:
 Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskrivningstablå. Du kan bruke disse standardene til å kopiere linjer fra en kladd til en annen, opprette kladdelinjer ved hjelp av kjørslene **Beregn avskrivning** eller **Indeksreg. aktiva**, duplisere anskaffelseskostnader i forsikringskladden.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået du vil definere standardkladder for, og velg deretter handlingen **Aktivakladdoppsett**.  
 3. Hvis du vil bruke et standardoppsett for alle brukerne, velger du **Bruker-ID**-feltet som skal velges fra siden **Brukere**.  
 4. Velg kladdemalen eller kladden som skal brukes som standard i de andre feltene.  
 
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  
-[Anleggsmidler](fa-manage.md)  
+[Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

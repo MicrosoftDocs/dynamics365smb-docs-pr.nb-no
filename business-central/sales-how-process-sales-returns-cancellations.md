@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/13/2020
+ms.date: 01/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3d7c1fa772263aa863b6398e86f35be47998f455
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: a8388c81bfdf767463a27d845dded64ee0f08c7e
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954008"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991931"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. For å inkludere den riktige salgsfakturainformasjonen kan du opprette salgskreditnotaen direkte fra den bokførte salgsfakturaen, eller du kan opprette en ny salgskreditnota kopiert fakturainformasjon.
@@ -32,6 +32,9 @@ I tillegg til den opprinnelige bokførte salgsfakturaen, kan du bruke salgskredi
 Du kan sende den bokførte salgskreditnotaen til kunden for å bekrefte returen eller annulleringen, og formidle at den tilknyttede verdien blir refundert, for eksempel når varene returneres.
 
 Bokføringen av kreditnotaen tilbakefører også eventuelle varegebyr som var tilordnet det bokførte dokumentet, slik at varens verdiposter er de samme som før varegebyret ble tilordnet.
+
+> [!NOTE]
+> Bokføringsaspekter ved ordrereturer, for eksempel betaling til kunder som refusjoner, anses som bokføringsarbeid og er ikke beskrevet her. Hvis du vil ha mer informasjon, kan du se [Administrere skyldige beløp](payables-manage-payables.md).
 
 ## <a name="inventory-costing"></a>Beholdning og kostberegning
 For å beholde riktig lagerverdi vil du vanligvis sette returnerte varene tilbake i lageret med enhetskosten som de er solgt på, ikke på gjeldende enhetskost. Dette kalles opprinnelig kostpris.
@@ -220,5 +223,6 @@ Du kan også slette individuelle ordrereturer manuelt.
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
+[Administrere skyldige beløp](payables-manage-payables.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 10/01/2019
+ms.date: 01/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81b2ab1956e1468bfcce2f438edbed934f4de703
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 2896bfc5cafed679bd54dced6c7726a1c49859de
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2883121"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2992027"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigere eller annullere ubetalte kjøpsfakturaer
 Du kan korrigere eller annullere en bokført kjøpsfaktura. Dette er praktisk hvis du vil rette en skrivefeil, eller hvis du vil endre kjøpet tidlig i bestillingsprosessen.
@@ -49,6 +49,9 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 
     En kjøpskreditnota opprettes og bokføres automatisk for å annullere den første bokførte kjøpsfakturaen. Feltet **Kansellert** i den første bokførte kjøpsfakturaen endres til **Ja**.
 4. Velg **Vis korrigerende kreditnota** for å vise den bokførte kjøpskreditnotaen som annullerer den første bokførte kjøpsfakturaen.
+
+### <a name="partial-invoice-posting-also-supported"></a>Delvis fakturabokføring støttes også
+Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den opprinnelige bestillingslinjen for å gjenspeile det annullerte fakturerte antallet. Feltene **Ant. som skal fakt.** og **Ant. fakturert** på den tilknyttede bestillingslinjen tilbakestilles til verdiene før den delvise bokføringen.
 
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 01/06/2020
 ms.author: sgroespe
-ms.openlocfilehash: b9fbf0b2793c6239f3a1a416230d4afb17bdb5c6
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: e07636b6211eb57205d41d982bfbfb4bc2d5b330
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943236"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030055"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 Nedenfor beskrives hvordan du kan opprette brukere og definere hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], og hvilke grunnleggende rettigheter ulike brukertyper har i henhold til lisensene.
@@ -61,7 +61,7 @@ Noen ganger kan det hende du må endre lisensen som er tilordnet en bruker. Hvis
 1. Endre lisensen i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Office 365](https://aka.ms/CreateOffice365Users).
 2. Logg på [!INCLUDE[d365fin](includes/d365fin_md.md)] som administrator.
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
-4. På siden **Brukere** velger du handlingen **Oppdater alle brukergrupper**.
+4. På siden **Brukere** velger du handlingen **Gjenopprett brukerens standardbrukergrupper**.
 
 Brukerne vil bli flyttet til en riktig brukergruppe, og tillatelsessettene blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md#to-manage-permissions-through-user-groups).
 

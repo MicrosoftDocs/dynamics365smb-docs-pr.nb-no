@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 02/07/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8cf6c70c3794a5f231f9072d01d671afdebc54ca
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 8a2e134c072fd27d08c9ad2c90858eef507fe5e4
+ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952942"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030175"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  

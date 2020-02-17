@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 10/01/2019
+ms.date: 01/29/2020
 ms.author: sgroespe
-ms.openlocfilehash: c91015877b661f9939dddc891f601e50c8299557
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fe8b5bc5304a87fbb2cce14067e7cbd74cbf1198
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306631"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999738"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Avhending eller tilbaketrekking av aktiva
 Når du selger eller på annen måte avhender et aktiva, må salgsverdien bokføres for å beregne og registrere tap eller vinning. En salgspost må være den siste posten som bokføres for et aktiva. Du kan bokføre mer enn én salgspost for aktiva som er delvis solgt. Summen av alle bokførte salgsbeløp må være et kreditbeløp.  
@@ -24,7 +24,7 @@ Når du selger eller på annen måte avhender et aktiva, må salgsverdien bokfø
 >   Hvis du bytter ut et aktivum med et annet, må du registrere både salget av det gamle aktivumet (salg) og innkjøpet av det nye (anskaffelse). Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Slik bokfører du et salg fra aktivafinanskladden:
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. I feltet **Aktivabokf.type** velger du **Salg**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for salgsbokføring.  
@@ -38,7 +38,7 @@ Hvis du selger eller på avhender deler av et aktiva, må du dele opp aktivaet f
 ## <a name="to-view-disposal-ledger-entries"></a>Slik viser du salgsposter
 Når du selger eller avhender et aktiva, bokføres salgsverdien til finans der du kan se resultatet.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Aktiva**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg aktivaet du vil vise poster for, og velg deretter **Avskrivningstablåer**.  
 3. Velg avskrivningstablået du vil vise poster for, og velg deretter **Poster**.  
 4. Velg en linje med **Salg** i **Bokføringskategori, aktiva**-feltet, og velg deretter **Naviger**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 01/13/2020
+ms.date: 01/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: 575e46f7988184f52cddf8e986a7aef05a61804b
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 73e488270862e62a237575929caa3753b4c7f545
+ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953470"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "2991979"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende Kontoutdrag-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
@@ -216,8 +216,11 @@ Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuel
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rentenotaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov.  
 3. Velg handlingen **Foreslå rentenotalinjer**.
-4. På siden **Foreslå rentenotalinjer** angir du et filter på hurtigfanen **Kundepost** hvis du vil opprette rentenotaer bare for bestemte poster.  
-5.  Velg **OK** hvis du vil starte kjørselen.  
+4. På siden **Foreslå rentenotalinjer** angir du et filter på hurtigfanen **Kundepost** hvis du vil opprette rentenotaer bare for bestemte poster.
+
+    > [!NOTE]
+    > Selv om de er oppført, vil valg av **Betaling** og **Kreditnota** som **Dokumenttype**-filtre ikke ha noen virkning fordi funksjonen **Foreslå rentenotalinjer** bare behandler positive beløp.
+5.  Velg **OK** for å starte kjørselen.  
 
 ## <a name="to-update-finance-charge-memo-texts"></a>Slik oppdaterer du rentenotatekst  
 Av og til vil du kanskje endre start- og slutteksten som du har definert for rentenotabetingelsene. Hvis du gjør dette etter at du har opprettet, men ikke utstedt rentenotaer, kan du angi at notaene skal oppdateres med den endrede teksten.
