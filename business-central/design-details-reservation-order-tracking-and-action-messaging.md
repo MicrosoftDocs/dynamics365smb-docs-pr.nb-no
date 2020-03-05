@@ -45,7 +45,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
 ||Felt i T27|Kildetabell|Tabellfilter|Kildefelt|  
 |-|------------------|------------------|------------------|------------------|  
-|**Beholdning**|Beholdning|Varepost|I/T|Antall|  
+|**Lager**|Lager|Varepost|I/T|Antall|  
 |**Tidsplanlagte mottak**|Fast planl. ordremott. (ant.)|Prod.ordrelinje|= Fast planlagt|Restlager (ant.)|  
 |**Tidsplanlagte mottak**|Tilh. ordremottak (ant.)|Prod.ordrelinje|= Frigitt|Restlager (ant.)|  
 |**Tidsplanlagte mottak**|Ant. på monteringsordre|Monteringshode|= Ordre|Restlager (ant.)|  
