@@ -105,7 +105,7 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 > [!NOTE]  
 >   Det følgende beskriver hvordan den beste prisen beregnes for salg. Beregningen er den samme for kjøp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kuindenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kundenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
 
     - Har kunden en avtale om pris/rabatt, eller tilhører kunden en gruppe som har det?
     - Er varen eller varerabattgruppen på linjen tatt med i noen av disse avtalene om pris/rabatt?
@@ -146,7 +146,7 @@ Hvis du vil oppdatere varepriser satsvis, for eksempel øke alle varepriser med 
 > [!NOTE]   
 >  Denne kjørselen oppretter forslag, men implementerer ikke de foreslåtte endringene. Hvis du er tilfreds med forslagene og vil implementere dem, det vil si legge dem inn i tabellen **Salgspriser**, kan du bruke kjørselen **Implementer prisendringer**, som du finner i fanebladet **Handlinger**, i gruppen **Funksjoner**, på siden **Salgsprisforslag**.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesmanage-sales-prices-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  

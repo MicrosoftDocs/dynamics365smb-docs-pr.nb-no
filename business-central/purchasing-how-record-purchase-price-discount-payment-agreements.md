@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 01/13/2020
+ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: d0f65eeb44b6a9a2608c05f6b7c71f989a0b9386
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2495292a967d81cd64694d3a238399e964c1d94f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953518"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316719"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
 De forskjellige pris- og rabattavtaler som gjelder når du kjøper fra forskjellige leverandører, må defineres slik at avtalte regler og verdier brukes på kjøpsdokumenter du oppretter for leverandørene.
@@ -73,7 +73,7 @@ Når du bokfører en kjøpsfaktura som inneholder én eller flere rabatter, kan 
 
 Før du kan gjøre dette, må du definere de nødvendige kontiene for å kunne bokføre rabattbeløp i kontoplanen. Kontroller også at du har angitt riktige kontonumre i det generelle bokføringsoppsettet i feltene **Best.linjerabattkonto** og **Kjøpsfakturarabattkonto**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
 2. I feltet **Rabattbokføring** velger du ett av følgende prinsipper for bokføring av rabatter.
 
 |**Prinsipp for rabattbokføring**|**Fakturarabatt**|**Linjerabatt**|  
@@ -107,7 +107,7 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 > [!NOTE]  
 >   Det følgende beskriver hvordan den beste prisen beregnes for salg. Beregningen er den samme for kjøp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kuindenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
+1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kundenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
 
     - Har kunden en avtale om pris/rabatt, eller tilhører kunden en gruppe som har det?
     - Er varen eller varerabattgruppen på linjen tatt med i noen av disse avtalene om pris/rabatt?
@@ -120,8 +120,6 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
     - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om NOK gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[d365fin](includes/d365fin_md.md)] inn den laveste prisen og den høyeste linjerabatten i NOK.
 
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
-
-## <a name="see-related-training-at-microsoft-learnlearnmodulesset-up-prices-discounts-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  
