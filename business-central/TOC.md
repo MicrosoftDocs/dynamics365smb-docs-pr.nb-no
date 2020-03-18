@@ -5,6 +5,15 @@
 ## [Minstekrav](product-requirements.md)
 ## [Vanlige spørsmål](across-faq.md)
 ## [Ressurser for hjelp og støtte](product-help-and-support.md)
+## [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
+## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
+## [Tilgang til den intelligente skyen med Business Central](about-intelligent-cloud.md)
+## [Gå til videobiblioteket vårt](across-videos.md)
+## Prøveversjoner og abonnementer
+### [Oversikt](across-preview.md)
+### [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)
+### [Utvide prøveversjonen](admin-extend-trial.md)
+### [Avbryte eller fjerne Business Central](admin-cancel.md)
 ## Finne opplæring
 ### [Læringskatalog](readiness/readiness-learning-catalog.md)
 ### [Læringskatalog for bedriftens beslutningstaker](readiness/readiness-learning-bus-decision-makers.md)
@@ -13,14 +22,6 @@
 ### [Læringskatalog for funksjonell konsulent](readiness/readiness-learning-functional-consultants.md)
 ### [Læringskatalog for førsalg](readiness/readiness-learning-presales.md)
 ### [Læringskatalog for salg](readiness/readiness-learning-sales.md)
-
-## [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
-## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
-## [Prøveversjoner og abonnementer](across-preview.md)
-### [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)
-### [Avbryte eller fjerne Business Central](admin-cancel.md)
-## [Tilgang til den intelligente skyen med Business Central](about-intelligent-cloud.md)
-## [Gå til videobiblioteket vårt](across-videos.md)
 ## Forhandlere og partnere
 ### [Bli en forhandler](product-sell.md)
 ### [Utvide Business Central](about-develop-extensions.md)
@@ -46,7 +47,7 @@
 ### [Tilpasse arbeidsområdet](ui-personalization-user.md)
 ### [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md)
 ### [Lagre og tilpasse listevisninger](ui-views.md)
-### [Legge til en sidehandling i rollesenteret](ui-bookmarks.md)
+### [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)
 ### [Vise lister på ulike måter](across-display-lists-different-views.md)
 ## Skrive ut rapporter og kjøre satsvise jobber og XML-porter
 ### [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)
@@ -63,6 +64,7 @@
 ### [Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)
 ### [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)
 ### [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md)
+### [Tilgjengelige skrifter](ui-fonts.md)
 ## Bruke hurtigtaster
 ### [Tilgjengelighet og hurtigtaster](ui-accessibility.md)
 ### [Hurtigtaster](keyboard-shortcuts.md)
@@ -296,8 +298,7 @@
 #### [Konfigurere inngående dokumenter](across-how-setup-income-documents.md)
 #### [Oppdatere valutakurser](finance-how-update-currencies.md)
 #### [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
-#### [Definere SEPA-kredittoverføring](finance-how-to-set-up-sepa-credit-transfer.md)
-#### [Definere SEPA Direct Debit](finance-how-to-set-up-sepa-direct-debit.md)
+#### [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-statement-service.md)
 #### [Opprette bankkonti](bank-how-setup-bank-accounts.md)
@@ -308,13 +309,13 @@
 #### [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
 #### [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 #### [Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
-#### [Sett opp Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
-#### [Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)
-#### [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
+#### [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
+#### [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Oppdatere valutakurser](finance-how-update-currencies.md)
 #### [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Felttilordning ved eksport av betalingsfiler ved hjelp av konverteringstjeneste for bankdata](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Felttilordning for utvidelsen AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administrasjon
 ## [Oversikt](admin-setup-and-administration.md)
@@ -369,7 +370,7 @@
 ### [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Konfigurere en Dynamics 365 Sales-tilkobling](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisere Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
-### [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøke synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
@@ -384,6 +385,7 @@
 #### [Se gjennom eller utligne betalinger manuelt etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Avstemme betalinger som ikke kan utlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
+#### [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)
 ### [Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 ### [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md)
 ### [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)
@@ -401,7 +403,7 @@
 #### [Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md)
 #### [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md)
 #### [Foreta sjekkbetalinger](payables-how-work-checks.md)
-#### [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Gjøre opp kjøpsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)
 ### Utligne betalinger automatisk og avstemme bankkonti
@@ -415,7 +417,7 @@
 ### [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md)
 ### [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)
 ### [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
-### [Sperre kunder](receivables-how-block-customers.md)
+### [Blokkere leverandører](payables-how-block-vendors.md)
 ### [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)
 ### [Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 ### [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
@@ -426,11 +428,10 @@
 ### [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)
 ### [Korrigere forskudd](finance-how-to-correct-prepayments.md)
 
-## Håndtere bankkonti
+## Avstemme bankkonter
 ### [Oversikt](bank-manage-bank-accounts.md)
+### [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md)
 ### [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-### [Avstemme bankkonti separat](bank-how-reconcile-bank-accounts-separately.md)  
-### [Overføre bankkapital](bank-how-transfer-bank-funds.md)
 
 ## Behandle konserninterne transaksjoner
 ### [Oversikt](intercompany-manage.md)
@@ -499,6 +500,7 @@
 ## [Analysere kontantstrømmer i firmaet](finance-analyze-cash-flow.md)
 ## [Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ## [Analysere årsregnskap i Excel](finance-analyze-excel.md)
+## [Overføre bankkapital](bank-how-transfer-bank-funds.md)
 ## [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
 
 # Forretningsintelligens
@@ -916,7 +918,6 @@
 #### [Definere amerikansk mva. og innkjøpsavgift](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 ### Banktjenester og betalinger
 #### [Opprette innskudd](LocalFunctionality/Canada/how-to-create-deposits.md)
-#### [Administrere kundekredittinformasjon](LocalFunctionality/Canada/how-to-manage-customer-credit-information.md)
 #### [Foreta elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generelt
 #### [Skrive ut feilsøkingsrapporter](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
@@ -924,10 +925,29 @@
 
 ## Den tsjekkiske rep.
 ### [Oversikt](LocalFunctionality/Czech/czech-local-functionality.md)
+### Kjerneøkonomi  
+#### [Finans](LocalFunctionality/Czech/finance.md)
+#### [Lukkeoperasjoner for år](LocalFunctionality/Czech/year-close-operations.md)
+#### [Avstemme finansposter](LocalFunctionality/Czech/general-ledger-entries-application.md)
+#### [Oppdatere valutakurser](LocalFunctionality/Czech/exchange-rate-update.md)
 ### Merverdiavgift
+#### [Finans - mva](LocalFunctionality/Czech/finance-vat.md)
 #### [VAT-kontrollrapport](LocalFunctionality/Czech/vat-control-report.md)
+### Anleggsmidler
+#### [Aktiva](LocalFunctionality/Czech/fixed-assets.md)
 ### Banktjenester og betalinger
+#### [Bankfunksjon](LocalFunctionality/Czech/bank-feature.md)
+#### [Kontantstyring](LocalFunctionality/Czech/cash-desk-management.md)
 #### [Registrering av salg (EET)](LocalFunctionality/Czech/eet.md)
+#### [Forskudd](LocalFunctionality/Czech/advances.md)
+### Skyldige beløp og fordringer
+#### [Skyldige beløp og fordringer](LocalFunctionality/Czech/receivables-payables.md)
+#### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+### Lager
+#### [Lager](LocalFunctionality/Czech/inventory.md)
+### Generelt
+#### [Utvidet brukerkontroll](LocalFunctionality/Czech/general.md)
+#### [Anbefalte fremgangsmåter](LocalFunctionality/Czech/best-practices.md)
 
 ## Danmark
 ### [Oversikt](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1043,7 +1063,6 @@
 ## Island
 ### [Oversikt](LocalFunctionality/Iceland/iceland-local-functionality.md)
 ### Merverdiavgift
-#### [Islandske avgiftsregler for betingede rabatter](LocalFunctionality/Iceland/icelandic-tax-regulations-of-conditional-discounts.md)
 #### [Skrive ut mva-oversiktsinformasjon på dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 #### [Spesielle utdata og rapporter for skattemyndighetene](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
 ### Elektroniske fakturaer
@@ -1092,6 +1111,7 @@
 ## Mexico
 ### [Oversikt](LocalFunctionality/Mexico/mexico-local-functionality.md)
 ### Avgift
+#### [Definere og generere DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 #### [Utgående mva for Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)  
 #### [Definere amerikansk mva. og innkjøpsavgift](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
 #### [Definere urealisert salgs-mva og kontantrabatter for salg](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
@@ -1423,7 +1443,6 @@
 #### [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [Konfigurere GetAddress.io UK Postcodes-utvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 #### [Angi eksterne dokumentnumre](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
-#### [Skrive ut rapporter for direktesalg og kjøpsdetaljer](LocalFunctionality/UnitedKingdom/how-to-print-direct-sales-and-purchase-details-reports.md)
 
 ## USA
 ### [Oversikt](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1438,7 +1457,6 @@
 #### [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 #### [Foreta elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ### Generelt
-#### [Administrere kundekredittinformasjon](LocalFunctionality/UnitedStates/how-to-manage-customer-credit-information.md)  
 #### [Skrive ut feilsøkingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ## [Sende forskriftsmessige varsler](submit-regulatory-alerts.md)
 # Samsvar
