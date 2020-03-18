@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 11/20/2019
 ms.author: sgroespe
-ms.openlocfilehash: 209bbe3539fb99c626376149c22c419b4b476608
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 64391913910dfc963d430efa3d00a75491a6c41f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832338"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097795"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
 > [!NOTE]
-> I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer ADFS bare på lokale distribusjoner. En Microsoft-partner kan imidlertid få den til å fungere i nettdistribusjoner ved å bruke Power Apps eller lignende.
+> ADFS-løsningen (Automatisk datafangstsystem) gjør det mulig for [!INCLUDE[d365fin](includes/d365fin_md.md)] å kommunisere med håndholdte enheter gjennom webtjenester. Du må arbeide med en Microsoft-partner som kan opprette koblingen mellom webtjenesten og den bestemte håndholdte enheten. 
 
 Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning. ADFS innebærer vanligvis skanning av en strekkode.
 
@@ -32,7 +32,23 @@ På bakgrunn av lagerets behov definerer du hvor mye som skal vises i miniformop
 - Tekstinformasjon.  
 - Meldinger for å vise bekreftelser eller feil om aktiviteter som er utført og registrert av brukeren av den håndholdte enheten.
 
-Hvis du vil ha mer informasjon, se [Konfigurere et automatisk datafangstsystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjelpen for utviklere og IT-eksperter.
+## <a name="to-enable-web-services-for-adcs"></a>Slik aktiverer du webtjenester for ADFS
+Du må aktivere ADFS-webtjenesten for å kunne bruke automatisisk datafangstsystem.  
+
+## <a name="to-enable-and-publish-the-adcs-web-service"></a>Slik aktiverer og publiserer du ADFS-webtjenesten  
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Webtjenester**, og velg deretter den relaterte koblingen.
+2. Velg handlingen **Ny**.  
+3. Skriv inn følgende informasjon på en ny linje på siden **Webtjenester**:  
+
+    |Felt|Verdi|  
+    |---------------------------------|-----------|  
+    |**Type objekt**|Kodeenhet|  
+    |**ID for objekt**|7714|  
+    |**Tjenestenavn**|ADFS **Viktig:** Du må gi et navn til tjenesten **ADFS**.|  
+
+5. Merk av for **Publisert**.  
+6. Velg **OK**-knappen.  
 
 ## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Slik konfigurerer du et lager til å bruke ADFS  
 Hvis du vil bruke ADFS, må du angi hvilke lagerlokasjoner som bruker teknologien.  
@@ -79,7 +95,8 @@ Du kan legge til enhver bruker som en bruker av et automatisk datafangstsystem (
 ## <a name="to-create-and-customize-miniforms"></a>Slik oppretter og tilpasser du miniformer:
 Du bruker miniformer til å beskrive informasjonen du vil presentere på en håndholdt enhet. Du kan for eksempel opprette miniformer for å støtte lageraktiviteten med å plukke varer. Når du har opprettet en miniform, kan du legge til funksjoner for vanlige handlinger som en bruker utfører med håndholdte enheter, for eksempel flytte opp eller ned en linje.  
 
-Hvis du vil implementere eller endre funksjonaliteten for en Miniform-funksjon, må du opprette en ny kodeenhet eller endre en eksisterende for å utføre handlingen eller svaret som er nødvendig. Du kan finne ut mer om ADFS-funksjonalitet ved å kontrollere kodeenheter som 7705, som er håndteringskodeenheten for påloggingsfunksjonalitet. Kodeenhet 7705 viser hvordan en miniform av typen kort fungerer.  
+> [!NOTE] 
+> Hvis du vil implementere eller endre funksjonaliteten for en Miniform-funksjon, må du opprette en ny kodeenhet for feltet **Codeunit for håndtering** for å utføre handlingen eller svaret som er nødvendig. Du kan lære mer om ADFS-funksjonalitet ved å undersøke kodeenheter, for eksempel 7705, 7706, 7712 og 7713.  
 
 ### <a name="to-create-a-miniform-for-adcs"></a>Slik oppretter du Miniform for ADFS:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniforms**, og velg deretter den relaterte koblingen.  
@@ -92,25 +109,11 @@ Hvis du vil implementere eller endre funksjonaliteten for en Miniform-funksjon, 
 
 Når du har opprettet en miniform, er de neste trinnene å opprette funksjoner og knytte til funksjonalitet for ulike tastaturinndata.  
 
-### <a name="to-add-support-for-a-function-key"></a>Slik legger du til støtte for en funksjonstast:  
-1.  Legg til kode som ligner på følgende eksempel, i XSL-filen for plugin-modulen. Dette oppretter en funksjon for **F6**-tasten. Tastesekvensinformasjonen kan fås fra enhetsprodusenten.  
-    ```xml  
-    <xsl:template match="Function[.='F6']">  
-      <Function Key1="27" Key2="91" Key3="49" Key4="55" Key5="126" Key6="0"><xsl:value-of select="."/></Function>  
-    </xsl:template>  
-    ```  
-2.  Åpne tabell 7702 i utviklingsmiljøet for [!INCLUDE[d365fin](includes/d365fin_md.md)], og legg til en kode som representerer den nye nøkkelen. I dette eksemplet oppretter du en nøkkel kalt **F6**.  
-3.  Legg til C/AL-kode for funksjonen som er relevant for den miniformsspesifikke codeuniten, for å håndtere funksjonstasten.  
-
 ### <a name="to-customize-miniform-functions"></a>Slik tilpasser du Miniform-funksjoner:  
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Miniforms**, og velg deretter den relaterte koblingen.  
 2.  Velg en miniform fra listen, og velg deretter handlingen **Rediger**.  
 3.  Velg handlingen **Funksjoner**.  
 4.  Velg en kode som skal representere funksjonen du vil knytte til miniformen, i rullegardinlisten **Funksjonskode**. Du kan for eksempel velge ESC, som gjør at funksjonalitet knyttes til trykk på ESC-tasten.  
-
-Rediger koden for feltet **Kodeenhet for håndtering** i utviklingsmiljøet for [!INCLUDE[d365fin](includes/d365fin_md.md)] for å opprette eller endre koden for å utføre nødvendig handling eller svar.
-
-Hvis du vil ha mer informasjon, se [Konfigurere et automatisk datafangstsystem](/dynamics-nav/Configuring-Automated-Data-Capture-System) i hjelpen for utviklere og IT-eksperter.
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  

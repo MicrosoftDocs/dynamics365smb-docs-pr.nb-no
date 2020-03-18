@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 0d028206d1e17c7a1093cf2b93da02894909deb5
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554449"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076686"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
 Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket for datautveksling [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke XML-skjemaer til å definere hvilke dataelementer du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gjøre dette på siden **Visningsprogram for XML-skjema** ved å laste inn XML-skjemafilen, velge de aktuelle dataelementene og deretter initialisere en datautvekslingsdefinisjon eller en XMLport.  
@@ -40,7 +40,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 1.  Kontroller at den aktuelle XML-skjemafilen er tilgjengelig. Filtypen er XSD.  
 
-2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
 3.  Velg handlingen **Ny**.  
 
@@ -62,7 +62,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Slik velger eller fjerner du noder i et XML-skjema:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Visningsprogram for XML-skjema**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Visningsprogram for XML-skjema**, og velg deretter den relaterte koblingen.  
 
 2.  Fyll ut feltene i hodet som beskrevet i tabellen nedenfor.  
 
@@ -100,7 +100,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
 2.  Velg det relevante XML-skjemaet, og velg deretter handlingen **Åpne XML-skjemavisning**.  
 
@@ -115,7 +115,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>Slik genererer du en XMLport som er basert på et XML-skjema  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
 2.  Velg det relevante XML-skjemaet, og velg deretter handlingen **Åpne XML-skjemavisning**.  
 
@@ -129,6 +129,6 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ## <a name="see-also"></a>Se også  
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)   
-[Eksportere betalinger til en bankfil](payables-how-export-payments-bank-file.md)   
+[Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)   
 [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md)

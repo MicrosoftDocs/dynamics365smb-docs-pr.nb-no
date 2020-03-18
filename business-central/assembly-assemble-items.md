@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 01/13/2020
 ms.author: sgroespe
-ms.openlocfilehash: 1b7936a73274545dc0e8a9fcddec2fe68fdb62c9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 946b14c6d3a480bda217b9d78330343a8d772de1
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953878"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097723"
 ---
 # <a name="assembly-management"></a>Monteringsstyring
 For å kunne støtte selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, har [!INCLUDE[d365fin](includes/d365fin_md.md)] funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  
 
  En monteringsvare er definert som en salgbar vare som inneholder en monteringsstykkliste. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
 
- Monteringsordrer er interne ordrer, akkurat som produksjonsordrer, som brukes til å håndtere monteringsprosessen og knytte sammen salgskravene med de involverte lageraktivitetene. Monteringsordrer er forskjellige fra andre ordretyper fordi de inkluderer både avgang og forbruk under bokføring. Monteringsordrehodet fungerer på samme måte som en ordrelinje, og monteringsordrelinjene fungerer på samme måte som forbrukskladdelinjer.  
+ Monteringsordrer er interne ordrer, akkurat som produksjonsordrer, som brukes til å håndtere monteringsprosessen og knytte sammen salgskravene med de involverte lageraktivitetene. Monteringsordrer er forskjellige fra andre ordretyper fordi de inkluderer både avgang og forbruk under bokføring. Monteringsordrehodet fungerer på samme måte som en ferdigmeldingskladdelinje, og monteringsordrelinjene fungerer på samme måte som forbrukskladdelinjer.  
 
  Hvis du vil støtte en JIT-lagerstrategi (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren på et øyeblikk, bekrefte leveringsdatoer i henhold til komponenttilgjengelighet og bokføre avgang og levering av den monterte varen direkte fra salgsordregrensesnittet. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -46,7 +46,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Lære mer om forskjellen mellom monteringsstykklister og produksjonsstykklister og forskjeller i involverte prosesser.|[Arbeide med stykklister](inventory-how-work-BOMs.md)|
 |Lær hvordan monteringsforbruk og avgang håndteres når du bokfører monteringsordrer og hvordan de avledede vare- og ressurskostnadene behandles og distribueres til finans.|[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsassemble-items-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  

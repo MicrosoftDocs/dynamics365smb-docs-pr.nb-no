@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: a3b7c5c52590644a8f61c0d97312d7dd1342fc97
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f179075a63ee42ba2cb61c3647b116536afd5a65
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878440"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076952"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger
 Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.  
@@ -80,7 +80,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
 -   En produksjonsordrer på flere nivåer der **Produksjonsprinsipp**-feltet for involverte overordnede og underordnede elementene er satt til **Produser til ordre**. Planleggingssystemet oppretter reservasjoner mellom den overordnede produksjonsordren og de underliggende produksjonsordrene for å sikre at de behandles sammen. En slik reservasjonsbinding overstyrer varens standard lagermetode og utligningsmetode.  
 
--   En produksjon, montering eller bestilling der feltet **Gjenbestillingsprinsipp** for den aktuelle varen er satt til **Bestilling**. Planleggingssystemet oppretter reservasjoner mellom behovet og den planlagte forsyningen for å sikre at den bestemte forsyningen opprettes. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Ordre](design-details-order.md).  
+-   En produksjon, montering eller bestilling der feltet **Gjenbestillingsprinsipp** for den aktuelle varen er satt til **Bestilling**. Planleggingssystemet oppretter reservasjoner mellom behovet og den planlagte forsyningen for å sikre at den bestemte forsyningen opprettes. Hvis du vil ha mer informasjon, kan du se [Ordre](design-details-handling-reordering-policies.md#order).  
 
 -   En produksjonsordre blir opprettet fra en ordre med **Ordreplanlegging**-funksjonen knyttet til ordren med en automatisk reservasjon.  
 

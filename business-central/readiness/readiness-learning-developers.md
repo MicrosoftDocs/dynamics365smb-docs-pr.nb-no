@@ -1,21 +1,20 @@
 ---
 title: Katalog for utviklerlæring
-description: Katalog for utviklerlæring
-author: SusanneWindfeldPedersen
-ms.custom: na
-ms.date: 11/19/2019
+description: Finn alle tilgjengelige opplæringer for Business Central.
+author: loreleishannonmsft
+ms.date: 02/19/2020
 ms.topic: article
-ms.service: dynamics365-business-central
-ms.reviewer: margoc
-ms.author: solsen
-ms.openlocfilehash: cdca386a3feb505364152b831d3e105b94db6c43
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.author: v-lshann
+ms.openlocfilehash: 05c2f4426f8d84f5e478a7ca7f63bd6ab64eeb6a
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832242"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097843"
 ---
-# <a name="developer-learning-catalog"></a>Katalog for utviklerlæring
+# <a name="developers-learning-catalog"></a>Katalog for utviklerlæring
+
+Må du skrive kode for å integrere med andre datakilder, utvide kjernesystemfunksjonalitet eller bygge opp en komplisert applikasjon?
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov. 
 
@@ -57,7 +56,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [81226AE: Utvide bokføringsfunksjonaliteten i Microsoft Dynamics 365 Business Central]()                        | Dette kurset gir detaljert informasjon om å utvide bokføringen i Microsoft Dynamics 365 Business Central, inkludert bokføringsprosessen og tabellene som er involvert. Det dekker også kodeenhetene som er ansvarlige for bokføring av dataene, navigasjonsfunksjonene og statistikksidene som gir en strukturert oversikt over de bokførte dataene.                                                                                                                                                                                                                                                                                                     | Gratis, elektronisk opplæringsbane i eget tempo | 1 time 36 minutter     |
 | [81227AE: Skreddersy roller og grensesnittutforming for Microsoft Dynamics 365 Business Central]()                              | Dette kurset gir detaljert informasjon om å skreddersying av roller og grensesnittutforming, inkludert hvordan du bygger et rollesenter, assistert oppsett og veivisersider, ved å bruke grensesnitt til å sende meldinger, og modul-funksjonen og hvordan du utvider den.                                                                                                                                                                                                                                                                                                                                                                                                               | Gratis, elektronisk opplæringsbane i eget tempo | 25 minutter            |
 | [81226AE: Utvide bokføringsfunksjonaliteten i Microsoft Dynamics 365 Business Central]()                        | Dette kurset gir detaljert informasjon om å utvide bokføringen i Microsoft Dynamics 365 Business Central, inkludert bokføringsprosessen og tabellene som er involvert. Det dekker også kodeenhetene som er ansvarlige for bokføring av dataene, navigasjonsfunksjonene og statistikksidene som gir en strukturert oversikt over de bokførte dataene.                                                                                                                                                                                                                                                                                                     | Gratis, elektronisk opplæringsbane i eget tempo | 1 time 36 minutter     |
-| [81228AE: Grensesnitt for Microsoft Dynamics 365 Business Central]()                                               | I dette kurset får du vite hvordan du kobler Microsoft Dynamics 365 Business Central til eksterne programmer via web- og OData-tjenester. For å få tilgang til REST-tjenester i Microsoft Dynamics 365 Business Central kan du bruke de nye HTTP-og JSON-klassene. Dette kurset gir også en introduksjon av Azure-funksjoner, for å være vert for ekstern .NET-kode og håndtere kontrolltillegg med JavaScript. Til slutt kobler vi til Microsoft Dynamics 365 Business Central med Microsoft Power Apps og Microsoft Power Automate.                                                                                                                                                   | Gratis, elektronisk opplæringsbane i eget tempo | 1 time 51 minutter     |
+| [81228AE: Grensesnitt for Microsoft Dynamics 365 Business Central]()                                               | I dette kurset får du vite hvordan du kobler Microsoft Dynamics 365 Business Central til eksterne programmer via web- og OData-tjenester. For å få tilgang til REST-tjenester i Microsoft Dynamics 365 Business Central kan du bruke de nye HTTP-og JSON-klassene. Dette kurset gir også en introduksjon av Azure-funksjoner, for å være vert for ekstern .NET-kode og håndtere kontrolltillegg med JavaScript. Til slutt vil vi koble Microsoft Dynamics 365 Business Central med Microsoft Power Apps og Microsoft Power Automate.                                                                                                                                                   | Gratis, elektronisk opplæringsbane i eget tempo | 1 time 51 minutter     |
 | [Flytte koden til hendelser med Dynamics 365 Business Central](https://www.youtube.com/watch?v=vpow-WN5wmw)       | Muligheten til å utvide standardfunksjonaliteten i Microsoft Dynamics 365 Business Central er tilrettelagt for hendelser. Lær hvordan hendelser fungerer, hvordan du bruker hendelser i AL-koden, og hvordan du kan flytte eksisterende IP til hendelser. I tillegg vil vi vise deg hvordan du kan gjøre IP utvidbar ved å vise dine egne hendelser.                                                                                                                                                                                                                                                                                                                                          | YouTube-video                         | 22 minutter 16 sekunder |
 | [Strukturert utviklingsmetodologi i Dynamics 365 Business Central](https://www.youtube.com/watch?v=JCMx2BwKtrc) | Bygging og publiserering av apper for Microsoft Dynamics 365 Business Central er en komplisert prosess. Lær hvordan du kan effektivisere utviklingsmetoder og la oss vise deg noen viktige gode rutiner for å hjelpe deg med å løfte organisasjonen til et profesjonelt nivå.                                                                                                                                                                                                                                                                                                                                                                                                        | YouTube-video                         | 24 minutter 52 sekunder |
 | [Utviklere for leverandør av skytjenester](https://channel9.msdn.com/Series/cspdev)                                      | Dette kurset er for Microsoft-partnere som er programmet for leverandør av skyløsninger (CSP), og som er interessert i SDK for Partner Center og REST-API for Partner Center. Dette omfatter partnere som har brukt den forrige CREST-API-en. Kurset består av flere videoleksjoner og -demoer som har en varighet på 10-60 minutter. Det omfatter også selvstyrte, praktisk øvelser for kursdeltakere.                                                                                                                                                                                                                                                          | Gratis, elektronisk opplæringsbane i eget tempo |                       |

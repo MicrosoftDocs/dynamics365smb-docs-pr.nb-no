@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 1dda414746c8661e5a9cee3eee5ce569cfa83e16
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 54e7aabe2989033a33373b960633b1c8f8e38eab
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882953"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076415"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansere behov og forsyning
 For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet, og det viktigste er å sikre at følgende oppfylles:  
@@ -66,7 +66,7 @@ Hvis den første disponible beholdningen er under null, foreslår planleggingssy
 ## <a name="loading-the-inventory-profiles"></a>Laste inn lagerprofiler
 For å sortere ut de mange kildene til behov og forsyning organiserer planleggingssystemet dem på to tidslinjer kalt beholdningsprofiler.  
 
-De vanlige typene behov og forsyning med forfallsdatoer på eller etter den planlagte startdatoen lastes inn i hver beholdningsprofil. Når de er lastet inn, sorteres de ulike behovs og forsyningstypene i henhold til generelle prioriteter, for eksempel forfallsdato, lavnivåkoder, lokasjon og variant. I tillegg brukes ordreprioriteter på de forskjellige typene for å sikre at det viktigste behovet oppfylles først. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Prioritere ordrer](design-details-prioritizing-orders.md).  
+De vanlige typene behov og forsyning med forfallsdatoer på eller etter den planlagte startdatoen lastes inn i hver beholdningsprofil. Når de er lastet inn, sorteres de ulike behovs og forsyningstypene i henhold til generelle prioriteter, for eksempel forfallsdato, lavnivåkoder, lokasjon og variant. I tillegg brukes ordreprioriteter på de forskjellige typene for å sikre at det viktigste behovet oppfylles først. Hvis du vil ha mer informasjon, kan du se [Prioritere ordrer](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 Behov kan også være negative, som nevnt tidligere. Dette betyr at det må behandles som forsyning. I motsetning til vanlige typer forsyning regnes imidlertid negativt behov som fast forsyning. Planleggingssystemet kan ta det med i betraktningen, men foreslår ingen endringer av det.  
 

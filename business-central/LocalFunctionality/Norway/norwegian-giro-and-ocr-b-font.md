@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 39810c4e5074247bf9c2dbfa8240668bd12dc4d6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a6ce9e5b3f844646b5b98b2e4fb06dd630a52728
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301215"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076482"
 ---
 # <a name="norwegian-giro-and-ocr-b-font"></a>Norsk giro og OCR-B-skrift
 En giro (General Interbank Recurring Order) er et betalingssystem som fungerer som en kredittoverføring.  
@@ -24,5 +24,4 @@ OCR-B-10 BT-skriften er vanligvis tilgjengelig programvareleverandører. I [!INC
 
 Du kan bruke enhver OCR-B-skrift, men hvis du bruker andre skrifter, må salgsdokumentene oppdateres av en sertifisert Microsoft-partner. Ta kontakt med din partner for mer informasjon.  
 
-## <a name="see-also"></a>Se også  
- [Norske salgsdokumenter](norwegian-sales-documents.md)
+## <a name="see-also"></a>Se også

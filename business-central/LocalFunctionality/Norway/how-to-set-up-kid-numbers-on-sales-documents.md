@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 318ff4419f1e9fa601b368ae3f51cc334af97553
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 5ab83049eba92cbd700f4d0c36e2b14913d6fba4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881333"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076481"
 ---
 # <a name="set-up-kid-numbers-on-sales-documents"></a>Opprette KID-numre på salgsdokumenter
 Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsreferanse til leverandøren, og sikrer at betalingen bokføres riktig hos leverandøren. Du kan opprette KID-numre på salgsdokumenter for å identifisere bilags- og kundeinformasjon ved elektroniske banktransaksjoner.  
@@ -36,5 +36,4 @@ Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsrefer
 3.  Velg **OK**-knappen.  
 
 ## <a name="see-also"></a>Se også  
- [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md)   
- [Norske salgsdokumenter](norwegian-sales-documents.md)
+ [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md) 

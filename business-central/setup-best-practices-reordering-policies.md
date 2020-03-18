@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 97d299372bc140c29138d6b83c34ec18254c4fcd
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e128e5a4f08364ccea9ae0aa4e284943688404c4
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882233"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076441"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper
 **Gjenbestillingsprinsipp**-feltet på varekortene tilbyr fire forskjellige planleggingsmetoder som bestemmer hvordan individuelle planleggingsparameter samhandler.  
@@ -43,10 +43,6 @@ Tabellen nedenfor inneholder anbefalte fremgangsmåter for å velge mellom de fi
 
 ## <a name="see-also"></a>Se også  
  [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)   
- [Designdetaljer: Gjenbestillingsprinsipper](design-details-reordering-policies.md)   
- [Designdetaljer: Ordre](design-details-order.md)   
- [Designdetaljer: Parti for parti](design-details-lot-for-lot.md)   
- [Designdetaljer: Fast gjenbest.ant.](design-details-fixed-reorder-qty.md)   
- [Designdetaljer: Maks.ant.](design-details-maximum-qty.md)   
+ [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

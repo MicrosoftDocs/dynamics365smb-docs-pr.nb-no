@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: aba62a1b784fa9adf640f4d236b2148eeb8bf914
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 106d818c6611d93d257614a111d42936b4b1c29d
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878830"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3072025"
 ---
 # <a name="ehf-electronic-invoicing-in-norway"></a>EHF – Elektronisk fakturering i Norge
 Selskaper som må sende salgsfakturaer og kreditnotaer elektronisk til norsk offentlig sektor i Elektronisk Handelsformat (EHF) basert på UBL (Universal Business Language). Hvis et selskap ikke sender dokumentene elektronisk, kan myndighetene nekte betaling. Standardformatet som støttes for elektronisk utveksling mellom parter, er formatet Ehandel.no. Hvis du vil ha mer informasjon om EHF elektronisk fakturering, kan du se [E-innkjøp](https://www.anskaffelser.no/public-procurement-information-english).  
 
-## <a name="implementation-in-included365finincludesd365fin_mdmd"></a>Implementering i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
+## <a name="implementation-in-d365fin"></a>Implementering i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 Fra januar 2019 vil kravene for å sende elektroniske fakturaer være basert på PEPPOL BIS Billing 3.0-standarden. Hvis du vil ha mer informasjon, kan du se siden [EHF Billing 3.0](https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/) fra Direktoratet for forvaltning og ikt. Selskaper som allerede sender elektroniske dokumenter i før-2019-format, kan fortsette å gjøre dette i 2019.
 
 Hvis du vil sende dokumenter elektronisk, må du tilordne EAN-lokasjonsnumre (European Article Numbering) og kontokoder til de aktuelle kundene på **Kundekort**-siden. Du finner mer informasjon under [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md). Disse numrene inkluderes når du oppretter, bokfører eller utsteder dokumenter. Nå dokumentene bokføres eller utstedes, kan du opprette elektroniske versjoner som sendes til kunder.  
@@ -54,6 +54,9 @@ Mva-prosenter og transaksjonstypen bestemmer mva-typen som eksporteres i det ele
 |Ø|Mva-fritak|
 |Z|Mva-fritak (varer og tjenester som ikke omfattes av mva-bestemmelsene)|
 |K|Mva-fritak for intra-EU-levering av varer og tjenester|
+
+## <a name="vat-scheme"></a>MVA-skjema
+Kontroller at du har definert den riktige verdien i feltet **Mva-skjema** på siden **Land/regioner**.
 
 ## <a name="see-also"></a>Se også  
 [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md)

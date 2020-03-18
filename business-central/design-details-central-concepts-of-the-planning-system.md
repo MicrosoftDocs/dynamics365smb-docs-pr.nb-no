@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2019
 ms.author: sgroespe
-ms.openlocfilehash: 92c30770b62b6456a16ab26db2c4ea3cda526b8e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b809743aa25aee409b9a71ca98da77ea64b58fb1
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880595"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076517"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
@@ -46,7 +46,7 @@ Alle tilbud og etterspørsel før startdatoen for planleggingsperioden blir betr
 
 Det antar med andre ord at planen for fortiden utførtes i henhold til den angitte planen.  
 
-Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Håndtere ordrer før den planlagte startdatoen](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Hvis du vil ha mer informasjon, kan du se [Håndtere ordrer før den planlagte startdatoen](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
 
 ## <a name="dynamic-order-tracking-pegging"></a>Dynamisk sporing (utligning)  
 Dynamisk sporing, med den samtidige opprettingen av handlingsmeldinger i planleggingsforslaget, er ikke en del av forsyningsplanleggingssystemet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne funksjonen knytter sammen behovene og antallene som kan dekke dem, i sanntid, hver gang et nytt behov eller en ny forsyning opprettes eller endres.  
@@ -76,7 +76,7 @@ I motsetning håndterer planleggingssystemet alle behov og forsyning for en best
 
 Etter planleggingskjøringen lagres ingen handlingsmeldinger i tabellen Handlingsmeldingspost fordi de har blitt erstattet av de foreslåtte handlingene i planleggingsforslaget  
 
-Hvis du vil ha mer informasjon, kan du se sporingskoblinger under Planlegging i [Designdetaljer: Balansere forsyning med behov](design-details-balancing-supply-with-demand.md).  
+Hvis du vil ha mer informasjon, kan du se sporingskoblinger under Planlegging i [Balansere forsyning med behov](design-details-balancing-demand-and-supply.md#balancing-supply-with-demand).  
 
 ## <a name="sequence-and-priority-in-planning"></a>Rekkefølge og prioritet i planlegging  
 Når du oppretter en plan, er rekkefølgen beregningene gjøres i, viktig for å få jobben gjort innen rimelig tid. I tillegg spiller prioritering av krav og ressurser en viktig rolle for å oppnå de beste resultatene.  
@@ -90,7 +90,7 @@ Behovet for en ferdig og salgbare vare i et produksjonsmiljø, vil føre til avl
 
 Figurene illustrerer i hvilken rekkefølge systemet lager forslag til forsyningsordrer på øverste nivå og, forutsatt at brukeren godtar disse forslagene, for alle varene på lavere nivå også.  
 
-Du finner mer informasjon om produksjonshensyn i [Designdetaljer: Laste inn lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Du finner mer informasjon om produksjonshensyn i [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ### <a name="locations--transfer-level-priority"></a>Lokasjoner / prioritet for overføringsnivå  
 Firmaer som driver virksomhet på mer enn ett sted må kanskje planlegge individuelt for hver enkelt lokasjon. Sikkerhetslagernivået og gjenbestillingsprinsippet for en vare kan for eksempel være forskjellig på ulike lokasjoner. I slike tilfeller må planleggingsparameterne angis per vare og per lokasjon.  
@@ -106,14 +106,14 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Overføringer i planl
 ### <a name="order-priority"></a>Bestillingsprioritet  
 I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i de neste dagene. Bortsett fra denne typen prioritet blir ulike behovs- og forsyningstyper sortert i henhold til viktighet i virksomheten for å avgjøre hvilke behov som må oppfylles før andre behov oppfylles. På forsyningssiden vil ordreprioriteten vise hvilken forsyningskilde som skal brukes før bruk av andre forsyningskilder.  
 
-Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Prioritere ordrer](design-details-prioritizing-orders.md).  
+Hvis du vil ha mer informasjon, kan du se [Prioritere ordrer](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer  
 Både prognoser og rammeordrer representerer forventet behov. Rammeordren, som dekker kjøp en kunde har tenkt å foreta i en bestemt tidsperiode, er med på å redusere usikkerheten ved den samlede prognosen. Rammeordren er en kundespesifikk prognose oppå den uspesifiserte prognosen som illustreres nedenfor.  
 
 ![Planlegging med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlegging med prognoser")  
 
-Hvis du vil ha mer informasjon, kan du se delen Prognosebehov blir redusert av ordrer i [Designdetaljer: Laste inn lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Hvis du vil ha mer informasjon, kan du se delen Prognosebehov blir redusert av ordrer i [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
 ## <a name="planning-assignment"></a>Planleggingstilordning  
 Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  
@@ -171,9 +171,9 @@ Serie-/partinummererte varer uten et bestemt varesporingsoppsett kan ha serie-/p
 
 Behov/forsyning med serie-/partinumre, spesifikke eller ikke-spesifikke, anses som høy prioritet og er derfor er unntatt fra den frosne sonen, noe som betyr at de blir en del av planleggingen selv om de er forfalt før den planlagte startdatoen.  
 
-Hvis du vil ha mer informasjon, kan du se avsnittet Serie-/partinumre lastes inn etter spesifikasjonsnivå i [Designdetaljer: Laste inn lagerprofiler](design-details-loading-the-inventory-profiles.md).  
+Hvis du vil ha mer informasjon, kan du se avsnittet Serie-/partinumre lastes inn etter spesifikasjonsnivå i [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
 
-Hvis du vil ha mer informasjon om hvordan planleggingssystemet balanserer attributter, kan du se den Serie-/partinumre og ordre-til-ordre-koblinger er fritatt fra den frosne sonen i [Designdetaljer: Håndtere ordrer før den planlagte startdatoen](design-details-dealing-with-orders-before-the-planning-starting-date.md).  
+Hvis du vil ha mer informasjon om hvordan planleggingssystemet balanserer attributter, kan du se [Serie-/partinumre og ordre-til-ordre-koblinger er fritatt fra den frosne sonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
 
 ## <a name="order-to-order-links"></a>Odre-til-ordre-koblinger  
 Ordre-til-ordre-innkjøp betyr at en vare utelukkende blir kjøpt, montert eller produsert for å dekke et spesifikt behov. Vanligvis er dette knyttet til A-varer, og motivasjon for å velge dette prinsippet kan være at behovet er sjeldent, leveringstiden er ubetydelig eller de nødvendige attributtene varierer.  
@@ -223,14 +223,14 @@ Kritisk-advarselen vises i to situasjoner:
 -   Når beholdningen er negativ på den planlagte startdatoen.  
 -   Når det finnes tilbakedatert forsyning eller behov.  
 
-Hvis beholdningen for en vare er negativ på den planlagte startdatoen, foreslår planleggingssystemet at det opprettes en kritisk ordre for det negative antallet, med ankomst på den planlagte startdatoen. Advarselsteksten angir startdatoen og antallet på den kritiske ordren. Hvis du vil ha mer informasjon, se [Designdetaljer: Håndtere forventet negativ lagerbeholdning](design-details-handling-projected-negative-inventory.md).  
+Hvis beholdningen for en vare er negativ på den planlagte startdatoen, foreslår planleggingssystemet at det opprettes en kritisk ordre for det negative antallet, med ankomst på den planlagte startdatoen. Advarselsteksten angir startdatoen og antallet på den kritiske ordren. Hvis du vil ha mer informasjon, se [Håndtere forventet negativ lagerbeholdning](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
 Dokumentlinjer med forfallsdato før den planlagte startdatoen konsolideres til én kritisk ordre for varen, med ankomst på den planlagte startdatoen.  
 
 ### <a name="exception"></a>Unntak  
 Unntak-advarselen vises hvis den beregnede disponible beholdningen faller under sikkerhetslagerantallet. Planleggingssystemet foreslår at det opprettes en forsyningsordre for å oppfylle behovet på forfallsdatoen. Advarselsteksten angir varens sikkerhetslagerantall og datoen da antallet ble for lavt.  
 
-Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke skal forekomme hvis gjenbestillingspunktet er riktig angitt. Hvis du vil ha mer informasjon, se [Designdetaljer: Rollen til gjenbestillingspunktet](design-details-the-role-of-the-reorder-point.md).  
+Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke skal forekomme hvis gjenbestillingspunktet er riktig angitt. Hvis du vil ha mer informasjon, se [Rollen til gjenbestillingspunktet](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
 Unntaksordreforslag sikrer vanligvis at forventet disponibel beholdning aldri er lavere enn sikkerhetslagernivået. Dette betyr at det foreslåtte antallet er akkurat nok til å dekke sikkerhetslageret, uten å ta hensyn planleggingsparametre. I noen scenarier vurderes imidlertid ordremodifikatorer.  
 
@@ -242,7 +242,7 @@ Tilsyn-advarselen vises i tre situasjoner:
 
 -   Den planlagte startdatoen er tidligere enn arbeidsdatoen.  
 -   Planleggingslinjen foreslår at en frigitt bestilling eller produksjonsordre endres.  
--   Den beregnede beholdningen overskrider overflytnivået på forfallsdatoen. Hvis du vil ha mer informasjon, se [Designdetaljer: Holde seg under overflytnivået](design-details-staying-under-the-overflow-level.md).  
+-   Den beregnede beholdningen overskrider overflytnivået på forfallsdatoen. Hvis du vil ha mer informasjon, se [Holde seg under overflytnivået](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
 
 > [!NOTE]  
 >  På planleggingslinjer med advarsler er ikke feltet **Godta handlingsmelding** valgt, fordi planleggeren må undersøke disse linjene ytterligere før planen utføres.  
