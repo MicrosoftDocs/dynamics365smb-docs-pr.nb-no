@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/19/2019
 ms.author: sgroespe
-ms.openlocfilehash: d5c9badf083352e04e118cd7ddc25e5a337e5686
-ms.sourcegitcommit: 53565fea987af861f3846e5c1e0e868c279aeb30
+ms.openlocfilehash: 2da58a4f5a3655fc2153647d80c5d69e1356b503
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2918217"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097699"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
@@ -31,7 +31,7 @@ Når du oppretter et nytt selskap, kan du importere firmainnstillinger for det n
 > [!NOTE]  
 >  Du kan ikke gi nytt navn til en fil som ikke allerede er en RapidStart Services-konfigurasjonspakke, som en .rapidstart-konfigurasjonspakkefil, og deretter prøve å importere den. Hvis du prøver å gjøre dette, får du en feilmelding.  
 
-Før du begynner, må du kontrollere at du har tillatelse til å kjøre RapidStart Services-objektene. Du kan for eksempel ha SUPER-tillatelsessettet, eller være en intern eller delegert administrator. Vi anbefaler også at du er på et rollesenter med koblinger til RapidStart Services, for eksempel rollesenteret for administrasjon. Hvis du vil ha mer informasjon, kan du se [Endre rollen](ui-change-basic-settings.md#to-change-the-role).  
+Før du begynner, må du kontrollere at du har tillatelse til å kjøre RapidStart Services-objektene. Du kan for eksempel ha SUPER- eller D365 RAPIDSTART-tillatelessett. Vi anbefaler også at du er på et rollesenter med koblinger til RapidStart Services, for eksempel rollesenteret for administrasjon. Hvis du vil ha mer informasjon, kan du se [Endre rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Når du eksportere og importere konfigurasjonspakker mellom to firmadatabaser, må databasene har samme skjema for å sikre at alle dataene overføres. Dette betyr at databasene bør ha den samme tabell- og feltstruktur, der tabellene har samme primærnøkler og felt har samme IDer og datatyper.  
@@ -116,7 +116,7 @@ Følgende eksempel illustrerer hvordan [!INCLUDE[d365fin](includes/d365fin_md.md
 2. Legg til flere tabeller i pakken, for eksempel **Kunde** og **Leverandør**. Begge disse tabellene refererer til tabellen **Selger/innkjøper** via henholdsvis feltet **Selgerkode** og **Innkjøperkode**.  
 3. Når du bruker data, blir det også tatt hensyn til tilordningen du har angitt for **Kode**-feltet i tabellen **Selger/innkjøper**, under behandlingen av feltene **Selgerkode** og **Innkjøperkode**.
 
-## <a name="to-add-additional-values-to-included365finincludesd365fin_mdmd"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+## <a name="to-add-additional-values-to-d365fin"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillate ytterligere verdier for under overføringen.  
