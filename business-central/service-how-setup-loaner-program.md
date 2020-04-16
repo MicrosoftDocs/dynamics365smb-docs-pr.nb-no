@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: fdf20f215cee14d8cfb2d4287f8f0a5173ce4466
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877474"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195229"
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
 Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: edd9e1d65c4bbfadf5c74e296ed1a9c6cffd1dfb
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2d6037b7310eba798696d0aca7881b4927f1d14b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316359"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194838"
 ---
 # <a name="work-with-blanket-sales-orders"></a>Arbeide med rammeordrer
 En rammeordre utgjør rammene for en langsiktig avtale mellom deg og kunden.
@@ -29,20 +29,21 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 > [!NOTE]
 > Rammebestillinger fungerer på lignende måte som rammeordrer. Denne dokumentasjonen dekker bare rammeordrer.
 
-## <a name="to-create-a-blanket-sales-order"></a>Slik oppretter du en rammeordre  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordrer**, og velg deretter den relaterte koblingen.  
+## <a name="to-create-a-blanket-sales-order"></a>Slik oppretter du en rammeordre
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordre**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  La **Ordredato**-feltet stå tomt. Når egne ordrer opprettes fra rammeordren, settes ordredatoen for salgsordren til faktisk arbeidsdato.
-5. På hurtigfanen **Linjer** oppretter du egne linjer for hver levering. Hvis kunden for eksempel vil ha 1 000 enheter fordelt jevnt på fire uker, angir du fire linjer på 250 enheter hver.   
+4. La **Ordredato**-feltet stå tomt. Når egne ordrer opprettes fra rammeordren, settes ordredatoen for salgsordren til faktisk arbeidsdato.
+5. På hurtigfanen **Linjer** oppretter du egne linjer for hver levering. Hvis kunden for eksempel vil ha 1 000 enheter fordelt jevnt på fire uker, angir du fire linjer på 250 enheter hver.  
 
 ## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Slik oppretter du en ordre fra en rammeordre  
 
-1.  Hvis du vil opprette en ordre fra noen av linjene i rammeordren, fjerner du antallet i **Levere (antall)**-feltet på alle linjene som du ikke vil levere på dette tidspunktet.  
-2.  Når du er klar til å opprette bestillinger, velger du handlingen **Lag ordre** og velger deretter **Ja**. Det vises en melding om at rammebestillingen er tilordnet et bestillingsnummer. Vær oppmerksom på at rammebestillingen ikke slettes.  
-3.  Velg **OK**.  
-4.  Hvis du vil se resultatene av de foregående trinnene, velger du **Linje**-handlingen velger handlingen **Ikke-bokførte linjer** og deretter handlingen **Ordrer**.  
-5.  På siden **Salgslinjer** velger du ønsket ordre, velger **Linje**-handlingen og deretter **Vis dokument**.  
+1. Hvis du vil opprette en ordre fra noen av linjene i rammeordren, fjerner du antallet i **Levere (antall)**-feltet på alle linjene som du ikke vil levere på dette tidspunktet.  
+2. Når du er klar til å opprette bestillinger, velger du handlingen **Lag ordre** og velger deretter **Ja**. Det vises en melding om at rammebestillingen er tilordnet et bestillingsnummer. Vær oppmerksom på at rammebestillingen ikke slettes.  
+3. Velg **OK**.  
+4. Hvis du vil se resultatene av de foregående trinnene, velger du **Linje**-handlingen velger handlingen **Ikke-bokførte linjer** og deretter handlingen **Ordrer**.  
+5. På siden **Salgslinjer** velger du ønsket ordre, velger **Linje**-handlingen og deretter **Vis dokument**.  
 
 Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:  
 
@@ -58,7 +59,7 @@ Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Slik viser du statusen for en rammeordre  
 Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette kan være relevant når du begynner å fakturere ordren som opprettes fra rammeordren.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordre**, og velg deretter den relaterte koblingen.  
 2.  Velg en rammeordre, og velg deretter **Statistikk**-handlingen.  
 3.  På siden **Rammeordrestatistikk** i hurtigfanen **Generelt** vises informasjonsoversikt over hele bestillingen basert på det totale antallet i **Antall**-feltene på rammebestillingslinjene.  
 
@@ -70,7 +71,7 @@ Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Vise ikke-bokførte og bokførte rammeordrelinjer   
 Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andre salgsdokumenter, beholdes etter bokføring som en liste over bokførte og ikke-bokførte salgsordrefakturalinjer.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordrer**, og velg deretter den relaterte koblingen.
 2. Åpne rammeordren du vil vise.
 3. Hvis du vil vise ikke-bokførte poster, velger du den aktuelle linjen, velger **Linje**-handlingen og deretter **Ikke-bokførte linjer**. Velg ett av følgende alternativene.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b6b5173f23d2315bbaeb01018ae4ee1ba26712b6
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 0238a5fc1799ba78616aeb08aa8d84e089094e6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554828"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195012"
 ---
 # <a name="allocate-resources"></a>Tildele ressurser
 Det viktigste elementet innen service er personene som utfører servicen. Du kan definere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å tildele de aktuelle personene til de aktuelle prosjektene. Tilordningen kan være basert på servicesoner der personene befinner seg, eller der servicen skjer. I tillegg kan du samle ressurser i grupper når du svarer på serviceforespørsler. Hvis du vil ha mer informasjon, kan du se [Definere ressurstildeling](service-how-setup-resource-allocation.md).
@@ -27,7 +27,7 @@ Du kan tildel den samme ressursen, for eksempel en tekniker eller ressursgruppe,
 ## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Slik får du oversikt over serviceordrer og -tilbud  
 Det kan ofte være nødvendig å skaffe seg oversikt over serviceordre eller servicetilbud som oppfyller visse krav, slik at det kan utføres bestemte handlinger på dem, en etter en. Du kan for eksempel bli nødt til å tildele ressurser til serviceordrer som tilhører en bestemt kunde.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
 2. I feltet **Dokumentfilter** velger du hvilken type dokument du vil se.
 3. Hvis du ønsker en oversikt over dokumenter som har serviceoppgaver som en bestemt ressurs eller ressursgruppe er tildelt til, fyller du ut feltene **Ressursfilter** og **Ressursgruppefilter**, og trykker på Enter.  
 4. Hvis du ønsker en oversikt over dokumenter med en bestemt responsdato, eller responsdato innen en bestemt tidsperiode, fyller du ut feltet **Responsdatofilter**, og trykker på **Enter**.  
@@ -38,7 +38,7 @@ Det kan ofte være nødvendig å skaffe seg oversikt over serviceordre eller ser
     **Serviceordre**- eller **Servicetilbud**-siden åpnes, og du kan arbeide med dokumentet. Hvis du vil gå tilbake til **Servicefordeling**-siden, velger du **OK**.
 
 ## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Slik tildeler du en ressurs ved hjelp av ressurs eller ressursgruppedisponering    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordren, og velg deretter handlingen **Ressurstildelinger**.  
 3. Velg posten med serviceoppgaven som du vil tildele en ressurs til.  
 4. Velg handlingen **Ressursdisponering** eller **Ress.grp.disponering**.  
@@ -58,7 +58,7 @@ Det kan ofte være nødvendig å skaffe seg oversikt over serviceordre eller ser
 ## <a name="to-allocate-a-resource-using-a-service-order"></a>Slik tildeler du en ressurs med en serviceordre  
 Når du har opprettet og fylt ut en serviceordre eller et servicetilbud, kan du tildele ressurser, for eksempel teknikere, som skal utføre serviceoppgaver som er registrert som servicevarelinjer i dokumentet.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordren, og velg deretter **Rediger**.  
 3. Velg servicevarelinjen som er knyttet til serviceoppgaven du vil tildele en ressurs til.  
 4. Velg **Ressurstildelinger**.
@@ -78,7 +78,7 @@ Du kan tildele ressurser på nytt direkte fra en serviceordre eller et serviceti
 * Hvis servicen ikke ble startet mens tildelingen var **Aktiv**, endres tildelingsstatusen fra **Ny tildeling nødvendig** til **Avbrutt**.  
 * Hvis du tildeler en serviceordre på nytt, som du har konvertert fra et tilbud, endres alltid statusen til fordelingspostene som er registrert for tilbudet, til **Ferdig** når du tildeler servicevarene i serviceordren på nytt.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. Velg servicevarelinjen som er knyttet til serviceoppgaven du vil tildele en ressurs til, og velg deretter handlingen **Ressurstildelinger**.  
 4. På siden **Ressurstildelinger** velger du en tildelingspost med serviceoppgaven du vil tildele ressursen til på nytt. Velg den aktuelle ressursen i **Ressursnr.**-feltet. Dermed overskrives ressursnummeret som allerede finnes i feltet.  
@@ -88,7 +88,7 @@ Du kan tildele ressurser på nytt direkte fra en serviceordre eller et serviceti
 ## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Slik tildeler du en ressurs på nytt ved bruk av servicefordeling  
 Hvis ressursene som er tildelt til en serviceoppgave, ikke kan fullføre arbeidet, betyr det at denne serviceoppgaven trenger ny tildeling. Vanligvis tildeler du ressurser på nytt til en serviceoppgave med **Servicefordeling**.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
 2. I feltet **Tildelingsfilter** velger du **Ny tildeling nødvendig**. Siden **Servicefordeling** viser nå en liste over serviceordrer som omfatter serviceoppgaver som trenger ny tildeling.  
 3. Velg den relevatne serviceordren, og velg deretter handlingen **Ressurstildelinger**. **Ressurstildelinger**-siden åpnes.  
 4. Velg tildelingsposten med serviceoppgaven som du vil tildele en ressurs til på nytt.  
@@ -110,7 +110,7 @@ Du kan bruke samme fremgangsmåte til å registrere timene på siden **Serviceli
 
 Hvis den samme ressursen kan brukes på alle servicevarene i serviceordren, kan du registrere samlede ressurstimer for bare én servicevare, og deretter dele ressurslinjen for å tilordne ressurstimene til de andre servicevarene.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg linjen som inneholder den aktuelle servicevaren, og velg deretter handlingen **Arbeidsordre**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -119,7 +119,7 @@ Hvis den samme ressursen, for eksempel en tekniker, kan brukes på alle servicev
 
 Følgende fremgangsmåte viser hvordan du deler ressurslinjer på siden **Servicefakturalinjer**.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle serviceordren.  
 3. På hurtigfanen **Linjer** velger du handlingen **Servicelinjer**. Siden **Servicelinjer** åpnes.  
 4. Velg ressurslinjen du vil dele. Innholdet i feltet **Antall** fordeles mellom alle servicevarene i ordren.  
@@ -130,7 +130,7 @@ Følgende fremgangsmåte viser hvordan du deler ressurslinjer på siden **Servic
 ## <a name="to-cancel-an-allocation"></a>Slik kansellerer du en tildeling  
 Du kan kansellere ressurstildelinger for serviceoppgaver uten å tildele oppgavene på nytt.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefordeling**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordren, og velg deretter handlingen **Ressurstildelinger**.  
 3. Velg tildelingsposten med serviceoppgaven som du vil avbryte tildeling for.  
 4. Velg handlingen **Kanseller tildeling**.  

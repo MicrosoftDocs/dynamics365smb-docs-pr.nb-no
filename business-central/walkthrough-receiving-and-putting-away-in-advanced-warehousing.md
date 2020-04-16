@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c567652331d82e4386bcf8829dd7d296f8ebecb4
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.openlocfilehash: 4027fd2d7ce3e514aa451279c8800453ba62711b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553895"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195654"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i avansert lageroppsett
 
@@ -71,7 +71,7 @@ Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.
 
 ### <a name="to-review-the-location-setup"></a>Slik går du gjennom lokasjonsoppsettet  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet KR.SANd.  
 3.  På hurtigfanen **Lager** legger du merke til at det er merket av for **Lagerstyring**.  
 
@@ -86,7 +86,7 @@ Bestillinger er den vanligste typen inngående kildedokument.
 
 ### <a name="to-create-the-purchase-orders"></a>Slik oppretter du bestillinger  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Opprett en bestilling for leverandør 10000 på arbeidsdatoen (23. januar) med følgende bestillingslinjer.  
 
@@ -117,7 +117,7 @@ Bestillinger er den vanligste typen inngående kildedokument.
 På siden **Lagermottak** kan du håndtere flere inngående ordrer for kildedokumenter, for eksempel en bestilling.  
 
 ### <a name="to-receive-the-items"></a>Slik mottar du varer  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg handlingen **Bruk filtre til å hente k.dok...**.  
@@ -135,7 +135,7 @@ På siden **Lagermottak** kan du håndtere flere inngående ordrer for kildedoku
 På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermottaksdokumentet som dekker flere kildedokumenter. Som for alle lageraktivitetsdokumenter er hvert element på lagerplasseringen er representert ved en Hent-linje og en Plasser-linje. I den følgende fremgangsmåten er hyllekoden på Hent-linjene den standard mottakshyllen på lokasjonen KR.SAND, W-08-0001.  
 
 ### <a name="to-put-the-items-away"></a>Slik plasserer du varene  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Lagerplasseringer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plasseringer**, og velg deretter den relaterte koblingen.  
 2.  Velg det eneste lagerplasseringsdokumentet i listen, og deretter **Rediger**-handlingen.  
 
     Lagerplasseringsdokumentet åpnes med totalt åtte Hent- eller Plasser-linjer for de fire bestillingslinjene.

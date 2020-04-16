@@ -8,24 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ac1cc92d67142b22de67dc417686a869a9ea5277
-ms.sourcegitcommit: e97e1df1f5d7b1d8af477580960a8737fcea4d16
+ms.openlocfilehash: 80f33734365ad52b59e77d89e35af81d5a798fcb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832362"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194670"
 ---
-# <a name="setting-up-included365finincludesd365fin_mdmd"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for bedriften.
+# <a name="setting-up-prodshort"></a>Konfigurere [!INCLUDE[prodshort](includes/prodshort.md)]
+
+[!INCLUDE[prodshort](includes/prodshort.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen.
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
-Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
-
-> [!NOTE]
-> Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+Fra menyen ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) får du tilgang til hjelpelinjer for assistert installasjon, som hjelper deg med å konfigurere visse scenarier og legge til funksjoner i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
 Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til den assisterte oppsettsveiledningen. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
 
@@ -47,7 +45,7 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)|
 |Få innsikt i Business Central-data med Power BI- og Business Central-innholdspakker.|[Aktivere forretningsdata for Power BI](admin-powerbi.md)|
 |Bruke Business Central-data som en del av en arbeidsflyt i Power Automate.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
-|Gjør Business Central-data tilgjengelig som en datakilde i Power Apps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
+|Gjør Business Central-data tilgjengelige som en datakilde i Power Apps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
 |Utfør massefakturering av avtaler som er opprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
@@ -56,6 +54,9 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalendere](across-how-to-assign-base-calendars.md)|  
 
 Noen områder krever at du er administrator i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnement. Se også [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
+
+> [!NOTE]
+> Som administrator kan du konfigurere et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 ## <a name="see-also"></a>Se også
 

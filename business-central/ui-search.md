@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 13b3e82d184e83841ea5daeb32c735e5383b3e02
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 37ee56fef2f7424e0655303f2a6111a8b3eae94f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953950"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195318"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg  
 Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage flere apper og konsulenttjenester for [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -38,7 +38,7 @@ Nederst i **Fortell meg**-vinduet er det en handling som kalles **utforsking**, 
 Delen **På gjeldende side** lar deg søke etter og utføre handlinger på siden du har åpnet. Hvis for eksempel **Tilbud**-siden er åpen og du skriver inn "kunde", inneholder delen en handling som åpner kundekortet for kunden som er valgt på Tilbud-siden.
 
 > [!NOTE]  
->   Oversikten inneholder bare handlinger som er tilgjengelige på navigasjonslinjen øverst på siden. Handlinger i hurtigfaner er ikke inkludert.  
+>   Oversikten inneholder bare handlinger som er tilgjengelige i navigasjonsfeltet øverst på siden. Handlinger i hurtigfaner er ikke inkludert.  
 
 ### <a name="finding-a-page-or-a-task"></a>Finne en side eller en oppgave
 Resultatene i delen **Gå til sider og oppgaver** gir deg tilgang til andre sider og lar deg utføre oppgaver eller søke etter informasjon. Hvis du bruker disse sidene ofte, kan du velge bokmerkeikonet for å legge til en kobling på en hvilken som helst side, i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Legge til en sidehandling i rollesenteret](ui-bookmarks.md).
@@ -63,7 +63,7 @@ Funksjonen **Fortell hva du vil gjøre** søker ikke etter data, for eksempel ku
 ## <a name="questions"></a>Spørsmål?
 Vi har vist Fortell meg for interessenter, lagt merke til spørsmål fra dem og gjort merknadene våre om til en liste over vanlige spørsmål. Hvis du er interessert, se [Vanlige spørsmål om Fortell meg](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesuser-interface-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbeide med Business Central](ui-work-product.md)  

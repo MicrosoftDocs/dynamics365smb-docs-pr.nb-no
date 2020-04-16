@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c0cd3a1d72b466946f8efcd4774a1629c21af6d0
-ms.sourcegitcommit: 2a6d629cf290645606356b714a77ef2872bdec64
+ms.openlocfilehash: 5e6e034aa6a071751893ebae477cb3e22b2635bb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "2774798"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195366"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
@@ -27,7 +27,9 @@ Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fort
 - I rollesenteret eller på en listeside velger du ![Meny-knapp](media/ui_menu_button.png "Meny-knapp")-knappen på høyre side av navigasjonslinjen, eller trykker Skift+F12.
 - I **Fortell meg**-vinduet velger du **utforsker**-handlingen nederst.
 
-Hvis du vil ha en oversikt over forretningsfunksjoner som er tilgjengelige for alle andre roller, i tillegg til dine egne, velger du **Utforsk alle**-handlingen på siden som viser rolleutforskeren.
+Velg handlingen **Søk** på toppen av rolleutforskeren for raskt å finne funksjonsnavn som inneholder et bestemt uttrykk.
+
+Velg handlingen **Utforsk alle** øverst i rolleutforskeren for å vise en oversikt over alle forretningsfunksjoner som er tilgjengelige for alle roller, inkludert din egen rolle.
 
 > [!NOTE]
 > Bare rollesenter-handlinger for profiler der det er merket av for **Vis i rolleutforsker**, vises i den utvidede versjonen av rolleutforskeren (vist med handlingen **Utforsk alle**). Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md).

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 02/07/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8a0814c8fc275e4324195cddadddafe1683d809f
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 34e9b896eeca0e1c9856013ac427c844a6bde070
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071985"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195390"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 Du kan tilpasse arbeidsområdet slik at det passer til arbeidet og preferansene, ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
@@ -35,7 +35,7 @@ Det er enkelt å endre størrelse på kolonner i en liste ved å dra grenselinje
 
 På samme måte som med andre personlige tilpasninger lagres endringene du gjør i kolonnebredden, på kontoen og følger deg uansett hvilken enhet du logger på.
 
-## <a name="to-personalize-a-page-through-the-personalizing-banner"></a>Tilpasse en side gjennom banneret **Tilpasning**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Slik tilpasser du en side med **Tilpasse**-banneret
 1. Åpne en side som du vil tilpasse.
 2. Øverst til høyre velger du ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass** action.
 
@@ -52,7 +52,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 6. Velg elementet, og velg deretter enten **Flytt**, **Fjern**, **Skjul**, **Vis**, **Vis under Vis mer**, **Vis når skjult**, **Vis alltid**, **Sett/Fjern frys rute** eller **Inkluder/Utelat fra hurtigoppføring**, avhengig av type og tilstand for UI-elementet. Hvis du vil ha mer informasjon, kan du se [Hva du kan tilpasse](#What).
 7. Når du er ferdig med å endre oppsettet på én eller flere sider, velger du **Fullført**-knappen på banneret **Tilpasning**.
 
-## <a name="What"></a>Hva du kan tilpasse
+## <a name="what-you-can-personalize"></a><a name="What"></a>Hva du kan tilpasse
 
 |Hva vil du gjøre|Hvordan du gjør det|Merknader|
 |----|------------|-------|
@@ -67,9 +67,10 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 |Endre rekkefølge på og fjerne visninger som representerer filtrerte lister.|Velg pilspissen ved siden av en visning, og velg deretter **Flytt**, **Fjern** eller **Skjul**.|Se [Lagre og tilpasse listevisninger](ui-views.md)|  
 |Legg til en ny handling på en side eller rapport i rollesenteret.|Velg bokmerkeikonet fra målsiden, rapportforespørselssiden eller Fortell meg-vinduet.|Se [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)|
 
-## <a name="Actions"></a>Tilpasse handlinger
 
-Tilpasning lar deg bestemme hvilke handlinger som skal vises i handlingsfeltet og i rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpassing av handlingsfeltet gjøres mye på samme måte som med andre grensesnittelementer. Hva du kan gjøre med en handling eller gruppe, avhenger imidlertid av hvor handlingen eller gruppen er plassert. Den beste måten å finne det ut på, er å gå inn i tilpasningsmodus og deretter la pilhodene veilede deg.
+## <a name="personalizing-actions"></a><a name="Actions"></a>Tilpasse handlinger
+
+Tilpassing lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsfelt samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpassing av navigasjons- og handlingsfeltene gjøres mye på samme måte som med andre grensesnittelementer. Hva du kan gjøre med en handling eller gruppe, avhenger imidlertid av hvor handlingen eller gruppen er plassert. Den beste måten å finne det ut på, er å gå inn i tilpasningsmodus og deretter la pilhodene veilede deg.
 
 Det finnes noen begreper du bør være kjent med for å bedre forstå handlingstilpasning: *handlingsgruppe* og *forfremmet kategori*.  
 
@@ -87,9 +88,9 @@ Når du vil vise eller skjule en handling, definerer alternativene under pilspis
 
 |Alternativ|Hva det gjør|
 |------|------------
-|**Fjern**|Dette alternativet vises hvis den valgte handlingen også vises et annet sted i handlingsfeltet. Hvis du velger dette alternativet, slettes handlingen fra den valgte lokasjonen, slik at den ikke lenger vises. Handlingen eller handlingsgruppen forblir på de andre lokasjonene. |
-|**Skjul**|Dette alternativet vises hvis handlingen eller handlingsgruppen ikke finnes et annet sted i handlingsfeltet. Som med **Fjern** forsvinner handlingen eller handlingsgruppen fra handlingsfeltet hvis du velger dette alternativet. Med i modusen tilpasning vises handlingen eller handlingsgruppen fremdeles på den aktuelle plasseringen, bortsett fra at den vises nedtonet.|
-|**Vis**|Dette alternativet vises hvis handlingen eller handlingsgruppen har vært skjult tidligere (nedtonet). Valg av dette alternativet gjør at handlingen eller handlingsgruppen vises i handlingsfeltet.|
+|**Fjern**|Dette alternativet vises hvis den valgte handlingen også vises et annet sted i navigasjons- eller handlingsfeltet. Hvis du velger dette alternativet, slettes handlingen fra den valgte lokasjonen, slik at den ikke lenger vises. Handlingen eller handlingsgruppen forblir på de andre lokasjonene. |
+|**Skjul**|Dette alternativet vises hvis handlingen eller handlingsgruppen ikke finnes et annet sted i navigasjons- eller handlingsfeltet. Som med **Fjern** forsvinner handlingen eller handlingsgruppen fra navigasjons- eller handlingsfeltet hvis du velger dette alternativet. Med i modusen tilpasning vises handlingen eller handlingsgruppen fremdeles på den aktuelle plasseringen, bortsett fra at den vises nedtonet.|
+|**Vis**|Dette alternativet vises hvis handlingen eller handlingsgruppen har vært skjult tidligere (nedtonet). Valg av dette alternativet gjør at handlingen eller handlingsgruppen vises i navigasjons- eller handlingsfeltet.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Flytte handlinger og handlingsgrupper
 Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje mellom to handlinger eller en ramme rundt en handlingsgruppe. Følgende begrensninger finnes:
@@ -100,6 +101,18 @@ Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje me
 1. For å flytte en handling eller handlingsgruppe dra og slipp den til ønsket plassering, på samme måte som med felt og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en annen handlingsgruppe som er tom, drar du handlingen eller handlingsgruppen til den nye gruppen og slipper den i boksen **Slipp en handling her**.
 
+
+## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasse deler
+
+Deler er områder på en side som vanligvis er satt sammen av flere felt, diagrammer eller annet innhold, og som kan identifiseres med en farget kantlinje når du setter fokus på delen. En startside for rollesenter har for eksempel flere deler. På grunn av sin veldefinerte grense, kan du tilpasse hele delen og innholdet i den.
+
+- Hvis du vil flytte en del, drar og slipper du den til ønsket plassering. En farget linje angir gyldige posisjoner på skjermen. Faktabokser kan for eksempel bare flyttes ved siden av andre faktabokser i faktaboksruten.
+- Du kan skjule en del ved å velge alternativet **Skjul** under pilspissen.
+- Når du begynner å tilpasse eller navigere til en ny side, vises eventuelle deler som er skjult, på siden med spesielle effekter for å angi at de er skjult. Du kan oppheve skjulingen av den delen ved å velge alternativet **Vis** under pilspissen.
+
+Du kan fjerne alle tilpassingsendringer du har gjort i én del, ved å velge alternativet **Fjern tilpassing** under delens pilspiss. Når du fjerner tilpassingen av en del, påvirkes bare endringer i innholdet i delen, ikke plasseringen eller synligheten for delen på siden.  
+
+
 ## <a name="to-clear-personalization"></a>Fjerne tilpassing
 Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsendringene du har foretatt på en side over tid.
 
@@ -109,9 +122,9 @@ Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsend
 |Alternativ|Hva det gjør|
 |------|------------
 |**Bare navigasjonsmenyen**|Fjerner alle tilpassingsendringer du har gjort på navigasjonsmenyen som deles på tvers av rollesenteret og andre sider. Dette omfatter eventuelle nye handlinger som er lagt til som bokmerker, og endringer i koblinger og grupper på menyen.|  
-|**Bare handlinger**|Fjerner alle tilpasningsendringer du har gjort for handlingfeltet på siden.|
-|**Bare felt, kolonner og deler**|Fjerner alle tilpasningsendringer du har gjort for handlingfeltet på siden, unntatt de i handlingsfeltet. Dette inkluderer endringer i felt, kolonner, deler og ruter. |
-|**Alle**|Fjerner alle tilpassingsendringene du har gjort på siden, slik at den ser ut slik den gjorde opprinnelig. Dette inkluderer endringer i handlingsfelt, kolonner, deler og ruter.|
+|**Bare handlinger**|Fjerner alle tilpassingsendringer du har gjort for navigasjons- eller handlingsfeltet på siden.|
+|**Bare felt, kolonner og deler**|Fjerner alle tilpassingsendringer du har gjort for handlingfeltet på siden, unntatt de i navigasjons- eller handlingsfeltet. Dette inkluderer endringer i felt, kolonner, deler og ruter. |
+|**Alle**|Fjerner alle tilpassingsendringene du har gjort på siden, slik at den ser ut slik den gjorde opprinnelig. Dette inkluderer endringer i navigasjons- eller handlingsfelt, kolonner, deler og ruter.|
 
 ## <a name="additional-points-of-interest"></a>Flere interessepunkter
 Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
