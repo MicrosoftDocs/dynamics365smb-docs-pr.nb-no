@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8864ab3fcd579e3b2cb908d2129f25c37e710541
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a294ca42a45792a465ae62e03662c79b19d73e74
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301207"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181003"
 ---
 # <a name="the-payroll-data-definitions-no-extension"></a>Utvidelsen Lønnsdatadefinisjoner (NO)
 
@@ -30,7 +30,7 @@ Når du har installert utvidelsen, er neste trinn å angi formatet for lønnsdat
 
 ## <a name="to-import-a-payroll-file"></a>Slik importerer du en lønnsfil
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.   
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.   
 2.  Velg kladden som skal brukes, og bruk deretter handlingen **Importer lønnsfil** til å importere datafilen fra lønnstjenesteleverandøren.  
 
 ## <a name="see-also"></a>Se også

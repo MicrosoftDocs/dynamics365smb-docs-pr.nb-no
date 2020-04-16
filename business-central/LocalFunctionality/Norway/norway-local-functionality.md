@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84f72476d5b9d082480f89217c3af5d8ea11b743
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: a514ec822273abe5b643e86d999ba4c3538b5896
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692554"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181015"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  

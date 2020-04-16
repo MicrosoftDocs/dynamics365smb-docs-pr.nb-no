@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7253e4fc4e4f1418a7c9bd1e2ac5e19298e4fb57
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308341"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185999"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
 Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
@@ -37,6 +37,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Definere analysevisninger for å analysere data ved hjelp av dimensjoner.|[Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)|
 |Opprette nye analyserapporter for salg, kjøp og beholdning, og definere analysemaler.|[Opprette analyserapporter](bi-how-create-analysis-views-reports.md)|
 |Aktiver global finansrapportering til internasjonale regnskapsorganisasjoner med eXtensible Business Reporting Language-standarden.|[Opprette rapporter med XBRL](bi-create-reports-with-xbrl.md)|
+|Endre tilgangsformålet for databasen i rapporter, sider av typen API, og spørringer for å redusere belastningen og forbedre ytelsen.|[Administrere databasetilgangsformål](admin-data-access-intent.md)|
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    

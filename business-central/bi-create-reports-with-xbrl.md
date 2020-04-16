@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9aec5c57c66ce39bc9d314dc257e2a801ed961ea
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952749"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186143"
 ---
 # <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
 XBRL, som er en forkortelse for eXtensible Business Reporting Language, er et XML-basert språk for merking av økonomiske data, slik at selskaper kan behandle og dele data på en effektiv og nøyaktig måte. XBRL-initiativet gjør det mulig med global finansrapportering fra flere ERP-programvareselskaper og internasjonale regnskapsorganisasjoner. Målet med initiativet er å skape en standard for enhetlig rapportering av økonomisk informasjon for banker, investorer og myndigheter. Slik forretningsrapportering kan omfatte følgende:  
@@ -105,7 +105,7 @@ Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende
 6.  Du importerer koblingsbasen ved å velge den **Importer**.  
 7.  Velg **Ja**-knappen for å bruke koblingsbasen på skjemaet.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    

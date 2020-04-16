@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2595efa188aed593bf1d112f984acf411446959b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 843e0590bbcff22b5d0ad40fcae5dd51c64eae3a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307135"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185279"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetaljer: Bokføringsdato på verdiposten for justering
 Denne artikkelen gir en beskrivelse av funksjonen for kostberegning av beholdning i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne artikkelen beskriver hvordan kjørselen **Juster kostverdi - vareposter** identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.  
@@ -33,7 +33,7 @@ Fra versjon 5.0, **Juster kostverdi - vareposter**-kjørselen tilordner en bokf�
 
  La oss se på prosessen ved hjelp av et praktisk eksempel. Anta at vi har en varepost for salg. Varen ble levert 5. september 2013, og den ble fakturert dagen etter.  
 
-![Statusen til varepostene i scenariet](media/helene/TechArticleAdjustcost1.png "Statusen til varepostene i scenariet")  
+![Status for vareposter i scenariet](media/helene/TechArticleAdjustcost1.png "Status for vareposter i scenariet")  
 
 Den første verdiposten (379) nedenfor representerer leveringen og har samme bokføringsdato som den overordnede vareposten.  
 
@@ -41,7 +41,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Den tredje verdiposten (391) er en justering av faktureringsverdiposten (381)  
 
- ![Statusen til verdipostene i scenariet](media/helene/TechArticleAdjustcost2.png "Statusen til verdipostene i scenariet")  
+ ![Status for verdiposter i scenariet](media/helene/TechArticleAdjustcost2.png "Status for verdiposter i scenariet")  
 
  Trinn 1: Verdiposten for justering som skal opprettes, tildeles samme bokføringsdato som posten den justerer, som vist ovenfor ved verdipost 391.  
 
@@ -69,7 +69,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Første tilordnede bokføringsdato var 6. september, som vist i trinn 1. Men i det andre trinnet identifiserer kjørselen Juster kostverdi – vareposter at den tidligste tillatte bokføringsdatoen er 10. september, og dermed tilordnes 10. september til verdiposten for justeringsposten nedenfor.  
 
- ![Statusen til verdipostene i scenariet 2](media/helene/TechArticleAdjustcost5.png "Statusen til verdipostene i scenariet 2")
+ ![Status for verdiposter i scenariet 2](media/helene/TechArticleAdjustcost5.png "Status for verdiposter i scenariet 2")
 
  Vi har nå sett på begrepet om å tilordne bokføringsdatoer til verdiposter som opprettes av kjørselen Juster kostverdi - vareposter.  
 

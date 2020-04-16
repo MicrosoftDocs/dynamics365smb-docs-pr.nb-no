@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 753b9f30648059a68c22b524008e21c6c866d19c
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 708ae474b15724e151cba367842091763544a434
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882545"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182975"
 ---
 # <a name="defining-payment-methods"></a>Definere betalingsmåter
 Betalingsmåter definerer hvordan du foretrekker at kunder betaler deg, og hvordan du vil betale leverandørene. Metoden kan variere for hver kunde eller leverandør. Eksempler på typiske betalingsmåter er **bank**, **kontant**, **sjekk** eller **konto**.
@@ -26,7 +26,7 @@ Samme betalingsmåter brukes for salgs- og kjøpsdokumenter. For eksempel en _ko
 
 Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte retninger, fra deg til leverandøren og fra leverandøren til deg. En standard betalingsmåte tilordnes derfor ikke til kreditnotaer. Du kan imidlertid unngå dette hvis du har angitt betalingsbetingelser for kunden eller leverandøren. Selv om feltet **Beregn kontantrab. for kred.nota** ikke er beregnet for dette, hvis du velger å merke av i boksen på **Betalingsbetingelser**, legges en standard betalingsmåte til når du oppretter en kreditnota. <br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
 ## <a name="to-set-up-a-payment-method"></a>Slik definerer du betalingsmåter
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb40c1d479267ba2e8111bd1183f2c7454a2bd16
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2911124"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181751"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -38,7 +38,7 @@ De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. 
 > [!NOTE]
 > I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
 
-##  <a name="Keyboard"></a> Generelle hurtigtaster
+##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
 Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til forskjellige elementer på en side, for eksempel handlinger rullegardinlister, oppslag og mye mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
@@ -83,7 +83,8 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |Alt+N|Sett inn en ny linje i en redigerbar liste, for eksempel **Finansbudsjetter**-siden.|Samme.|
 |Shift+F10 |Åpne et menyalternativ som finnes for den valgte raden.|Samme.|
 
-### <a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
+### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
+Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prodshort](includes/prodshort.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
 |-----------------|-------|-------|
@@ -93,16 +94,17 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |End<br />(Fn + Pil høyre)|Flytte til det første feltet i raden.|Flytte til den siste flisen i raden.|
 |Angi|Åpner posten som er knyttet til dette feltet.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|Åpner posten.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|
 |Ctrl+Enter|Flytte fokus til neste element utenfor listen.|Flytte fokus til neste element utenfor listen.|
+|PgUp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
+|En side ned<br />(Fn + Pil ned)|Rulle for å vise de angitte radene under de gjeldende radene i visningen.|Rulle for å vise settet med fliser under de gjeldende flisene i visningen.|
 |Pil ned|Flytte i samme kolonne til feltet i raden nedenfor. |Flytte i samme kolonne til flisen i raden nedenfor. |
 |Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |
 |Pil høyre|I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet.| Flytte i samme rad til neste flis til høyre. |
 |Pil venstre|I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet.| Flytte i samme rad til forrige flis til venstre. |
-|PgUp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
-|En side ned<br />(Fn + Pil ned)|Rulle for å vise de angitte radene under de gjeldende radene i visningen.|Rulle for å vise settet med fliser under de gjeldende flisene i visningen.|
-|TAB|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
+|Tab|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
 |Skift+TAB|I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
-### <a name="CopyRows"></a>Velge, kopiere og lime inn
+
+### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
 |-----------------|-------|-------|
@@ -120,7 +122,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |Skift + PgDn<br />(Skift + Fn + Pil ned)|Utvide valget av rader til å inkludere synlige rader nedenfor de merkede radene.|Ikke i bruk.|
 |F8|Kopier feltet i samme kolonne i raden over og lim det inn i den gjeldende raden. Du kan bare gjøre dette i redigerbare lister. Ved hjelp av denne hurtigtasten etterfulgt av en tabulator kan du raskt fylle ut feltene i linjevarene som du vil ha samme verdi som raden ovenfor.|Ikke i bruk.|
 
-### <a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
+### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |-----------------|-------|
@@ -138,7 +140,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |----------------|-----------|
-|Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane.|
+|Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane eller del (underordnet side).|
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
 |Alt+Skift+W |Åpne gjeldende kort eller dokument i et nytt vindu. Hvis du vil ha mer informasjon, se [Multitaske på tvers av flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -151,7 +153,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |F6|Flytt til neste hurtigfane eller del (underordnet side).|
 |Shift+F6|Flytte til forrige hurtigfane eller del (underordnet side).|
 
-## <a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
+## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
 
 Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumenter og listesider. På lister kan ikke hurtigtaster brukes når listene er i flisvisning. Du finner mer informasjon om hurtigoppføring i [Raskere dataregistrering ved hjelp av hurtigoppføring](ui-enter-data.md#QuickEntry).
 
@@ -161,7 +163,7 @@ Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumen
 |Skift+Enter|Bekrefte verdien i det gjeldende feltet, og gå til forrige hurtigoppføringsfelt.||
 |Ctrl+Skift+Enter|Bekrefte verdien i den gjeldende kolonnen, og gå til neste hurtigoppføringsfelt utenfor listen.<br /><br />Denne snarveien gjelder for innebygde lister på en side, for eksempel linjeelementer på en ordre. Den gjør at du raskt kan gå ut av listen og fortsette å registrere data i andre felt på siden.|
 
-## <a name="a-namecalendarshortcuts-keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Hurtigtaster i kalenderen (datovelger)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Hurtigtaster i kalenderen (datovelger)
 
 Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
 
@@ -185,7 +187,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |i|Angi gjeldende dato. "I" betyr "i dag".|
 |a|Angi arbeidsdato. Hvis du vil ha mer informasjon, kan du se [Arbeidsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="a-namereportpreviewshortcutskeyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Hurtigtaster i rapportforhåndsvisningen
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Hurtigtaster i rapportforhåndsvisningen
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |-----------------|-------|

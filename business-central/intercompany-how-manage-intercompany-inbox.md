@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9bdeb10b10c7d31ded2036f4240e6b430bf2cc4d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 652ad700a4e2d979620560f1f5ba543d07f08832
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308498"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182471"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
@@ -58,7 +58,7 @@ Hvis du har en konsernintern partner som ikke er i samme database som selskapet 
 
 1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. Lagre filen på lokasjonen du har angitt i feltet **Detaljer om konsernintern innboks** på siden **Selskapsopplysninger**.  
-3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
 4. På siden **Konserninterne inngående transaksjoner** velger du **Importer transaksjonsfil**.  
 5. På siden som vises, velger du XML-filen som inneholder transaksjonene, og deretter velger du **Åpne**-knappen.  
 
@@ -67,7 +67,7 @@ Transaksjonene importeres til innboksen, og du kan nå behandle dem.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Slik behandler du inngående konserninterne transaksjoner  
 Når de konserninterne partnerne sender deg konserninterne transaksjoner, ender transaksjonene opp i den konserninterne innboksen. Du må vurdere hver transaksjon i innboksen og utføre de nødvendige handlingene.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne inngående transaksjoner** velger du en linje og velger en handling som **Godta**, for å behandle linjen.
 3. På siden **Fullfør KI-innbokshandling** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.  
@@ -81,7 +81,7 @@ For linjer du behandlet med **Returnert av partner**-handlingen, må du nå bokf
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Slik behandler du utgående konserninterne transaksjoner  
 Når du bokfører konserninterne kladder eller bilag eller sender en konsernintern bestillingsbekreftelse, sendes transaksjonene til den konserninterne utboksen. Du må åpne utboksen og behandle dem for at de skal bli sendt videre til de konserninterne partnerne.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne utgående transaksjoner** velger du en linje og velger en handling som **Gå tilbake til innboks**, for å behandle linjen.
 
 Linjene som du behandlet med **Send til konsernintern partner**-handlingen, vil bli sendt til innboksen til den relevante partneren.
@@ -95,7 +95,7 @@ Noen ganger vil du kanskje opprette en transaksjon på nytt i innboksen eller ut
 
 Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på nytt, men de samme trinnene gjelder også for utboksen.
 
-  1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
+  1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
 
   2.  På siden **Håndterte inngående KI-transaksjoner** velger du linjen med transaksjonen du vil opprette på nytt i innboksen, og velger deretter **Opprett inngående transaksjon på nytt**.  
 

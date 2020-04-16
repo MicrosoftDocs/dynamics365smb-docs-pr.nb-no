@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 134709e3a5054e6c09de3ba1c8a5809a609e48e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ac0b0013897e1e0cb31b1be564d7d51d2886fc01
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301240"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181036"
 ---
 # <a name="create-manual-remittance-payments"></a>Opprette manuelle remitteringsoppdrag
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  
 
 ## <a name="to-create-a-manual-remittance-payment"></a>Slik oppretter du manuelle remitteringsoppdrag:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
 2.  På siden **Betalingsinformasjon** velger du handlingen **Initialiser betalingsinformasjon**.  
 
     Hvis betalingen er knyttet til en eksisterende leverandørpost, overføres informasjonen fra posten. Hvis betalingen ikke er knyttet til en leverandørpost, opprettes bare noe av informasjonen.  

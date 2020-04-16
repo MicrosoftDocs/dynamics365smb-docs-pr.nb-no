@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1a2d0fa994638fed9c0b46508e80c3b0443a9c58
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: f4d08d96621d5ff59b65a35e899d66afe0ddaa52
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301663"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182711"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Definere urealisert merverdiavgift for kontantbasert regnskap
 Hvis du bruker metoder for kontantbasert regnskap, kan du definere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å håndtere urealisert MVA.
@@ -24,9 +24,9 @@ Hvis du bruker metoder for kontantbasert regnskap, kan du definere [!INCLUDE[d36
 Du kan beregne og bokføre mva-beløp til en midlertidig finanskonto når fakturaen bokføres, og deretter bokføre den til den riktige finanskontoen og inkludere den i mva-oppgaver når den faktiske betalingen av fakturaen bokføres. Før du kan gjøre dette, må du fullføre mva.-bokføringsoppsettet.
 
 Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, og angi **Finansoppsett**.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**.
 2. På siden **Finansoppsett** merker du av for **Urealisert mva**.
-3. Velg ikonet **Søk etter side eller rapport** ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), og angi **Mva-bokføringsoppsett**.
+3. Velg ikonet **Søk etter side eller rapport** og ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), og angi **Mva-bokføringsoppsett**.
 4. På siden **Mva-bokføringsoppsett** velger du Mva-bokføringsgruppen, og velg deretter handlingen **Rediger**.
 5. I feltet **Urealisert mva-type** velger du et alternativ for å angi hvordan betalinger skal knyttes til fakturabeløpet (ekskl. mva) og selve mva-beløpet, og hvordan mva-beløp skal overføres fra en urealisert mva-konto til en (realisert) mva-konto. Tabellen nedenfor beskriver alternativene.
 

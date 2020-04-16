@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f939b74aaad4c5ee301220ca69b0b7319b02e9e5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0650fcfddef87e9b96822e14c3cdc9b7b301b8f3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308494"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182351"
 ---
 # <a name="adjust-item-costs"></a>Justere varekost
 Kostnaden for en vare (lagerverdien) som du kjøper og senere selger, kan endres i løpet av levetiden, for eksempel fordi en fraktkostnader er lagt til innkjøpskostnaden etter at du har solgt varen. Kostjustering er spesielt relevant i situasjoner der du selger varer før du fakturerer kjøpet av varene. Hvis du alltid vil vite riktig lagerverdi, må varekostnader derfor justeres regelmessig. Dette sikrer at salgs- og fortjenestestatistikk er oppdatert og at økonomiske KPI-er er riktige. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostjustering](design-details-cost-adjustment.md).
@@ -37,7 +37,7 @@ Hvis du bruker lagermetoden Gjennomsnitt, blir enhetskosten for en vare beregnet
 Funksjonen for kostnadsjustering behandler bare verdiposter som ennå ikke er justert. Hvis funksjonen støter på en situasjon der endrede inngående kost må videresendes til tilknyttede utgående poster, opprettes det nye justeringsoppføringer, som er basert på informasjonen i de opprinnelige verdipostene, men som inneholder justeringsbeløpet. Funksjonen for kostnadsjustering bruker bokføringsdatoen for den opprinnelige verdiposten i justeringsposten hvis denne datoen ikke er i en lukket lagerperiode. I så tilfelle bruker programmet startdatoen for den neste åpne lagerperioden. Hvis lagerperioder ikke brukes, styrer datoen i feltet **Bokf. tillatt fra** på siden **Finansoppsett** når justeringsposten bokføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Justere varekost manuelt
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Juster kostverdi - vareposter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Juster kostverdi – vareposter**, og velg deretter den relaterte koblingen.
 2. På siden **Juster kostverdi - vareposter** angir du hvilke varer du vil justere kostnader for.
 3. Velg **OK**.
 
@@ -46,7 +46,7 @@ Hvis du må endre direkte enhetskost for flere varer, kan du bruke kjørselen **
 
  Kjørselen endrer innholdet i **Salgspris**-feltet på varekortet. Innholdet endres på samme måte for alle varene eller for utvalgte varer. Kjørselen multipliserer verdien i feltet med en justeringsfaktor som du angir.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Juster varekost/priser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Juster varekost/priser**, og velg deretter den relaterte koblingen.  
 2. I feltet **Juster felt** angir du hvilket vare- eller LFE-kortfelt du vil justere.  
 3. Angi faktoren som verdien skal justeres med, i **Justeringsfaktor**-feltet. Angi for eksempel **1,5** for å øke verdien med 50 %.  
 4. På hurtigfanen **Vare** definerer du filtre til å angi, for eksempel, hvilke varer kjørselen skal behandle.  

@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 11/06/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4c485d722de2a51f22310308b102ed066b4f01d2
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809036"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186503"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 Alle brukere av [!INCLUDE[d365fin](includes/d365fin_md.md)] får tilordnet en profil som gjenspeiler forretningsrollen sin, avdelingen de arbeider i, eller en annen kategorisering. Profiler gjør det mulig for administratorer å definere og administrere sentralt hva ulike typer brukere kan se og gjøre i brukergrensesnittet, slik at de kan utføre forretningsoppgavene effektivt.
@@ -79,12 +79,23 @@ Når du oppretter en profil, kan du velge ulike avmerkingsbokser som definerer o
     - **Deaktiver tilpasning** for å angi om brukere av den relaterte rollen kan tilpasse arbeidsområdet sitt.
     - **Vis i Rolletforsker** for å angi om handlinger til forretningsfunksjoner som er inkludert i profilen, vises i utvidet visning av rolleutforskeren, en funksjonsoversikt. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).
 
-## <a name="to-export-user-created-profiles"></a>Eksportere brukeropprettede profiler
-Du kan eksportere profiler som er endret enten av deg eller av brukere, som angitt av **(Brukeropprettet)** i **Kilde**-feltet. Profilen eksporteres til en zip-fil som inneholder Al-filer som kan brukes på nytt til å utvikle utvidelser. Hvis du vil ha mer informasjon, se [Bruke klienten til å opprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+## <a name="to-export-profiles"></a>Slik eksporterer du profiler
+Du kan eksportere profiler fra [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel for å bruke dem på nytt i en annen leier. Profilene blir eksportert til en ZIP-fil som inneholder AL-filer som kan brukes på nytt til å utvikle utvidelser. Hvis du vil ha mer informasjon, se [Bruke klienten til å opprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
-* På siden **Profiler (roller)** velger du **Eksporter brukeropprettede profiler**.
+* På siden **Profiler (roller)** velger du handlingen **Eksporter profiler**.
 
-En zip-fil med Al-filene for profiler som nylig ble lagt til eller endret, eksporteres.
+En ZIP-fil med AL-filene for alle profiler blir eksportert.
+
+## <a name="to-import-profiles"></a>Slik importerer du profiler
+Du kan importere profiler som er eksportert fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Trinnene er mer eller mindre enn de motsatte av trinnene for å eksportere profiler. Hvis du vil ha mer informasjon, kan du se [Slik eksporterer du profiler](admin-users-profiles-roles.md#to-export-profiles).
+
+1. På siden **Profiler (roller)** velger du handlingen **Importer profiler**.
+2. Følg trinnene i veiviseren **Importere profiler**.
+
+    Hvis du bare vil importere valgte profiler, bruker du avmerkingsboksen **Valgt** til å angi hvilken som skal importeres.
+3. Velg knappen **Importer valgt**.
+
+En ZIP-fil med AL-filer for de valgte profilene blir importert.
 
 ## <a name="to-delete-a-profile"></a>Slette en profil
 Du kan slette en profil ved å velge **Slett**-handlingen på siden **Profiler (roller)**. Følgende begrensninger gjelder imidlertid:

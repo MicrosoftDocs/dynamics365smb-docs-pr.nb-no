@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 26ce0f4661a44c1f478b38a2709015ea6ff1f602
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c7d383fdaf75857013651944207616bdc7208e6d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309703"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181967"
 ---
 # <a name="transfer-inventory-between-locations"></a>Overføre beholdning mellom lokasjoner
 Du kan overføre lagervarer mellom lokasjoner ved å opprette overføringsordrer. Du kan også bruke varereklassifiseringskladden.
@@ -30,7 +30,7 @@ Med reklassifiseringskladden fyller du ganske enkelt ut feltene **Lokasjonskode*
 Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Slik overfører du varer med en overføringsordre
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Overføringsordrer**, og velg deretter den relaterte koblingen.
 2. I hodet på siden **Overføringsordre** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
@@ -51,7 +51,7 @@ Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis
 5. Velg **Bokfør**-handlingen, velg **Motta**-alternativet, og velg deretter **OK**-knappen.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Slik overfører du varer med varereklassifiseringskladden
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareoverføringskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareoverføringskladder**, og velg deretter den relaterte koblingen.
 2. På siden **Vareoverføringskladder** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I **Lokasjonskode**-feltet angir du lokasjonen der varene er lagret.
 

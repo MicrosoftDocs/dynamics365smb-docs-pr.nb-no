@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: aa8433735f1f09d71e4597485abfd4d48e2292ea
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 4686f509f81ba31e3215687630cc14f0a6e45402
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991955"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181729"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
 
 #### <a name="general"></a>Generelt
 |||  
 |-|-|
-|Alt+F2<br />Alt+N<br />Alt+Skift+N<br />Alt+O<br />Alt+Q<br />ALT+OPP<br />Alt+Pil ned<br />Alt+T<br />Alt+Skift+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl + klikk<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Skift+Tab<br />|Vis og skjul faktaboksruten<br />Opprett en ny post<br />Lukk en nylig opprettet post, og opprett en ny<br />Legg til et nytt notat for den valgte posten<br />Åpne **Fortell meg**<br />Åpne verktøytips eller valideringsfeil<br />Åpne en rullegardinmeny eller slå opp<br />Åpne siden **Mine innstillinger**<br />Åpne gjeldende kort eller dokument i et nytt vindu<br />Sett inn en ny linje i et dokument<br />Slett linjen i et dokument, kladd og forslag.<br />Maksimer linjeelementdelen på en dokumentside<br />Åpne hjelpen for siden<br />Navigere når du tilpasser og egendefinerer<br />Åpne rolleutforskeren, en oversikt over funksjoner<br />Oppdatere / laste inn side på nytt<br />Flytte fokus til neste/forrige element|
+|Alt+F2<br />Alt+N<br />Alt+Skift+N<br />Alt+O<br />Alt+Q<br />ALT+OPP<br />Alt+Pil ned<br />Alt+T<br />Alt+Skift+W<br />Ctrl+Insert<br />Ctrl-Delete<br />Ctrl+Shift+F12<br />Ctrl+F1<br />Ctrl + klikk<br />Shift+F12<br />F5/Ctrl+F5<br />Tab/Skift+Tab<br />F6/Skift+F6<br />|Vis og skjul faktaboksruten<br />Opprett en ny post<br />Lukk en nylig opprettet post, og opprett en ny<br />Legg til et nytt notat for den valgte posten<br />Åpne **Fortell meg**<br />Åpne verktøytips eller valideringsfeil<br />Åpne en rullegardinmeny eller slå opp<br />Åpne siden **Mine innstillinger**<br />Åpne gjeldende kort eller dokument i et nytt vindu<br />Sett inn en ny linje i et dokument<br />Slett linjen i et dokument, kladd og forslag.<br />Maksimer linjeelementdelen på en dokumentside<br />Åpne hjelpen for siden<br />Navigere når du tilpasser og egendefinerer<br />Åpne rolleutforskeren, en oversikt over funksjoner<br />Oppdatere / laste inn side på nytt<br />Flytte fokus til neste/forrige element<br />Flytt til neste hurtigfane/del|
 
 #### <a name="navigate--select-rows"></a>Navigere og velge rader
 |||
@@ -37,7 +37,7 @@ ms.locfileid: "2991955"
 #### <a name="search-filter--sort"></a>Søk, filtrer og sorter
 |||
 |-|-|
-|F6<br />Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Skift+F3|Flytt til neste hurtigfane<br />Sorter kolonne i stigende/synkende rekkefølge<br />Slå søk på/av<br />Vise/skjule filtreringsruten. fokusere på feltfiltre<br />Vise/skjule filtreringsruten; fokusere på totalfiltre<br />Filtrere på den valgte celleverdien<br />Legg til filter for valgt felt<br />Tilbakestill filtre|
+|Alt+F7<br />F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Skift+F3|Sorter kolonne i stigende/synkende rekkefølge<br />Slå søk på/av<br />Vise/skjule filtreringsruten. fokusere på feltfiltre<br />Vise/skjule filtreringsruten; fokusere på totalfiltre<br />Filtrere på den valgte celleverdien<br />Legg til filter for valgt felt<br />Tilbakestill filtre|
 
 #### <a name="quick-entry"></a>Hurtigoppføring
 |||

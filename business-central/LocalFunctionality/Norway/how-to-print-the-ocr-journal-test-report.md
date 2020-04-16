@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f03b9fa5ed7f831dfc6ebe14e239620007e60676
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: b10ad525ccbee5c1e16d36013807d24d8d8afb5f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881335"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181026"
 ---
 # <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  

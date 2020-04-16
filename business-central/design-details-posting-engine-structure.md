@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0adc68cadb250ad56cf070eaef10c791cc9519ea
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878488"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185471"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Strukturen til bokføringsmotoren
 Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster. Bokføringsmotoren er også ansvarlig for opprettelse av finansjournal.  

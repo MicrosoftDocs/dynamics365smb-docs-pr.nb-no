@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 11/27/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2609a18c26f968dab65037c684cc770666038e9a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e5d1d56f4035311e3c90d3dba9d4e8d49df48d25
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882761"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184559"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffe aktiva
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Et avskrivningstablå må defineres og tilordnes til hvert enkelt aktiva før du kan anskaffe det.

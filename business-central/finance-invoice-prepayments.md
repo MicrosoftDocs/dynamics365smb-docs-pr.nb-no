@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f08e9549d83d689721657584eb95733cb8ac323c
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953758"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183108"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
 Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.  
@@ -30,7 +30,7 @@ Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller 
 |Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.|[Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.|[Korrigere forskudd](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprepayment-invoices-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

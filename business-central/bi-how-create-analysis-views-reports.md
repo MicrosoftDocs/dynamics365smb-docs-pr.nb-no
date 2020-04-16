@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8c3b7ee476287b25740648758ff7b87ff13f22a7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303943"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186095"
 ---
 #  <a name="create-analysis-reports"></a>Opprette analyserapporter
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi.  
@@ -61,7 +61,7 @@ I en analyserapport vises analyseparameterne som kolonner. Du kan definere kolon
 
 En mal består av et sett med linjer som representerer analysekolonnene du ser i analyserapporten. For å kunne definere en kolonne må du tilordne en analysetypekode til en linje. Denne analysetypekoden bestemmer typen kildedata i varepostene som analysen baseres på. Kildedataene inkluderer kostnader, salgsbeløp eller antall, og deres tilknyttede verdiposter. Du kan definere så mange kolonnemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Kolonner**.  
 4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten på siden **Analysekolonner**.  
@@ -78,7 +78,7 @@ I en analyserapport vises analyseobjektene på linjene. Du kan definere linjene 
 
 En mal består av et sett med linjer som representerer analyselinjene du ser i analyserapporten. En linje kan angi én eller flere varer, kunder, leverandører eller grupper. Du kan også opprette en formel på en linje for å summere de andre linjene. Du kan definere så mange linjemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Linjer**.  
 4. Opprett linjer for varene, kundene, leverandørene eller selgerne du vil vise tall for i analyserapporten, på **Analyselinje**-siden. Du må fylle ut feltene **Type**, **Fra/til** og **Beskrivelse**.  
@@ -91,7 +91,7 @@ Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåte
 
 Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til viktige indikatorer for salgsprestasjon du velger, for eksempel salgsomsetning i både beløp og antall, bidragsmargin eller fremdrift for faktisk salg mot budsjettet. Du kan også bruke rapporten til å analysere gjennomsnittlig salgspris og evaluere salgsprestasjonen for salgskorpset.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
 2. På siden **Analyserapport - salg** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Rediger analyserapport**.

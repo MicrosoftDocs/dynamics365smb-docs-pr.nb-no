@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d7895b0068afaf73a113b6f656c1600ce2cc4a4a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185111"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
 Samtidig bruk av reservasjon og bestemt varesporing er uvanlig, fordi begge oppretter en kobling mellom forsyning og behov. Med unntak av tilfeller der en kunde- eller produksjonsplanlegger ber om et bestemt parti, er det sjelden fornuftig å reservere lagervarer som allerede har varesporingsnumre for et bestemt utligning. Selv om det er mulig å reservere varer som krever en bestemt varesporing, kreves det spesialfunksjoner for å unngå tilgjengelighetskonflikter mellom ordrebehandlere som krever de samme varesporede varene.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5098087fc5d4ea821e32d644c159deeb5289b837
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953022"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186904"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 
@@ -68,9 +68,9 @@ I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ik
 
 ## <a name="using-other-email-accounts"></a>Bruke andre e-postkontoer
 
-Tilleggene er utformet for bruk med Office 365. Hvis du bruker [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#what-email-address-can-i-use-with-) og [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilleggene er utformet for bruk med Office 365. Hvis du bruker [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesalternative-interfaces-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 33710cd80ba1218ad59c98ec605bcba98c8b7e1c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309919"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182207"
 ---
 # <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
@@ -36,9 +36,9 @@ Telling av beholdningen ved hjelp av dokumenter består av følgende generelle t
 ## <a name="to-create-a-physical-inventory-order"></a>Slik opprettes en vareopptellingsordre
 En vareopptellingsordre er et fullstendig dokument som består av et ordrehode for vareopptelling og noen vareopptellingordrelinjer. Informasjonen i et vareopptellingshode beskriver hvordan du utfører vareopptellingen. Vareopptellingordrelinjer inneholder opplysninger om varene og plasseringen.
 
-Hvis du vil opprette vareopptellingsordrelinjer, bruker du vanligvis funksjonen **Beregn linjer** for å gjenspeile gjeldende beholdning som linjer i ordren. Du kan også bruke funksjonen **Kopier dokument** til å fylle ut linjene med innholdet til en annen åpen eller bokført vareopptellingsordre. Følgende fremgangsmåte viser hvordan du bruker funksjonen **Beregn linjer**.
+Hvis du vil opprette vareopptellingsordrelinjer, bruker du vanligvis funksjonen **Beregn linjer** for å gjenspeile gjeldende beholdning som linjer i ordren. Du kan også bruke funksjonen **Kopier fra dokument** til å fylle ut linjene med innholdet til en annen åpen eller bokført vareopptellingsordre. Følgende fremgangsmåte viser hvordan du bruker funksjonen **Beregn linjer**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut de obligatoriske feltene på hurtigfanen **Generelt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Beregn linjer**-handlingen.
@@ -98,7 +98,7 @@ Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vis
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Slik finner du duplikate vareopptellingsordrelinjer
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
 2. Åpne vareopptellingsordren du vil vise dupliserte linjer for.
 3. Velg **Vis dupliserte linjer**-handlingen.
 
@@ -111,7 +111,7 @@ Når du har fullført en vareopptellingsordre og endre statusen til **Fullført*
 - Hver vareopptellingsordrelinje er talt opp av minst én registeringen for vareopptelling.
 - Boksene **På registreringslinjer** og **Antall forventet (beregnet)** er merket av for alle vareopptellingsordrelinjer.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
 2. Velg vareopptellingsordren som skal fullføres, og velg deretter **Rediger**-handlingen.
 
     På siden **Vareopptellingsordre** vises antallet som er registrert i feltet **Antall registrert (lagerenhet)**.
@@ -125,7 +125,7 @@ De involverte varepostene oppdateres sammen med eventuelle tilknyttede varespori
 ### <a name="to-view-posted-physical-inventory-orders"></a>Slik viser du bokførte vareopptellingsordrer
 Etter bokføring slettes vareopptellingsordren, og du kan vise og evaluere dokumentet som en bokført vareopptellingsordre, inkludert vareopptellingsregistreringer og eventuelle merknader som er opprettet.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer for bokført vareopptelling**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer for bokført vareopptelling**, og velg deretter den relaterte koblingen.
 2. På siden **Ordrer for bokført vareopptelling** velger du den bokførte vareopptellingsordren som du vil vise, og velg deretter handlingen **Vis**.
 3. Hvis du vil se en oversikt over relaterte vareopptellingsregistreringer, velger du **Registreringer**-handlingen.
 

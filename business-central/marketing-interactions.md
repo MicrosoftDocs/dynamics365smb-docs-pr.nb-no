@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 156e36af1110bcf153ed00b16eb041f28a5c3168
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308959"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181391"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere samhandlinger med kontakter
 Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
@@ -50,7 +50,7 @@ På denne siden kan du gjøre følgende:
 * Vise statusen til samhandlinger.
 * Merke samhandlinger som annullert.
 
-Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Slett annullerte samhandlingsposter**, velger den relaterte koblingen og fyller ut informasjonen.
+Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Slett annullerte samhandlingsposter**, velger deretter den relaterte koblingen, og fyller deretter ut informasjonen.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

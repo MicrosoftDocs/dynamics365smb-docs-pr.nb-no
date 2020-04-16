@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 65087f044c410f41ace0a218d810675e19c856d0
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309415"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181676"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Registrere samhandlinger med kontakter automatisk
 Du kan definere programmet slik at det automatisk registrerer samhandlinger for salgs-, kjøps- og tjenestedokumenter, følgebrev, e-postmeldinger, telefonsamtaler, for eksempel:
@@ -29,7 +29,7 @@ Du kan definere programmet slik at det automatisk registrerer samhandlinger for 
 * Ringe kontaktene, forutsatt at du har en TAPI-kompatibel telefon og riktig installasjon.
 
 Hvis du vil konfigurere automatisk registrering av disse samhandlingene, angir du samhandlingsmaler for disse dokumentene og handlingene ved hjelp av siden **Oppsett av samhandlingsmal**.  
-Du åpner siden **Oppsett av samhandlingsmal** ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av samhandlingsmal** og deretter velge den relaterte koblingen.
+Hvis du vil åpne **Oppsett av samhandlingsmal**, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett av samhandlingsmal**, og velger deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Registrere samhandlinger med kontakter](marketing-interactions.md)  

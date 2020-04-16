@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4dcb2031e86b008a3baad988bc5960bf68a77c15
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 9d124b947cdcdb0124c4f93c33cfcc70d20f0d55
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881328"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181013"
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  

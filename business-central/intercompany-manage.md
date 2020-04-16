@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8e7a26f3086249e1e36fe302e75141c44bbb46d7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bb8147038b1f6aba0758b36bb139727a65c9c3eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308575"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182375"
 ---
 # <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
 Organisasjonen kan bestå av flere selskaper, men har kanskje ikke samme antall regnskapsteam og administrative team. De konserninterne funksjonene lar deg gjøre forretninger med datterselskaper og interne partnerorganisasjoner på samme måte som med eksterne leverandører og kunder. Du angir informasjon om konserninterne transaksjoner bare én gang i de tilhørende dokumentene. Du kan bruke funksjoner du allerede kjenner, for eksempel styring av kjøp og salg. Tilordningsfunksjoner for kontoplanen og dimensjonene hjelper deg med å sikre at informasjonen vises på riktige steder.  

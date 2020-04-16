@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2455cbf74520ddbc2ddb6ba6ae2e02064370ac2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302479"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183863"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten for konsolidert råbalanse i Rollesenter for regnskapsfører gi deg en samlet oversikt over den økonomiske situasjonen.  
@@ -54,7 +54,7 @@ Hvis du trenger mer avanserte innstillingene for konsolideringen, kan du definer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] lar deg sette opp en liste over selskaper som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
 
 1. Logg deg på det konsoliderte selskapet.
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
 3. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!IMPORTANT]
@@ -65,7 +65,7 @@ Hvis konsernet bruker en fremmed valuta, må du angi hvilken valutakurs som skal
 ### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Slik klargjør du finanskonti for konsolidering
 Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må du klargjøre finanskonti for konsolidering. Du kan angi kontiene for å bokføre debet og kredit og metoden som skal brukes til å oversette valutaer i det konsoliderte selskapet. Dette er for eksempel nyttig hvis du kjører rapporten ofte.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for kontoen, og deretter fyller du ut feltene på **Konsolidering**-hurtigfanen.
 
 ### <a name="to-specify-exchange-rates-for-consolidations"></a>Slik angir du valutakurser for konsolideringer
@@ -84,7 +84,7 @@ Tabellen nedenfor beskriver valutakursmetodene du kan bruke for kontoer.
 
 Du kan angi valutakurser for konserner ved å gjøre følgende:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
 2. På siden **Konsernoversikt** velger du konsernet og velger deretter **Gjennomsnittskurs (manuell)**.   
 3. På siden **Endre valutakurs** har innholdet i feltet **Tilhørende valutakursbeløp** blitt kopiert fra **Valutakurs**-tabellen, men du kan endre det. Lukk siden.  
 4. Velg handlingen **Sluttkurs**.  
@@ -110,7 +110,7 @@ Hvis du bare eier en del av et selskap, kan du ta med en prosentandel av hver en
 Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.   
 
 1. Åpne det konsoliderte selskapet.  
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
 3. Gjør ett av følgende:  
 
     * For å teste en fil velger du **Test fil**, angir navnet på filen som skal testes, og velger deretter **Skriv ut**.  

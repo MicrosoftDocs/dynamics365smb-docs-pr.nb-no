@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 5554bb1576705cd1f3cbcddc7ef33da7b5db3796
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 37815e275e478663a310ee052d16afde973d32ef
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878320"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182087"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må du definere hver lokasjon med et lokasjonskort og definere overføringsruter.
@@ -25,7 +25,7 @@ Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må
 Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengelighet etter lokasjon og overføre beholdning mellom lokasjoner. Hvis du vil ha mer informasjon, kan du se [Håndtere lager](inventory-manage-inventory.md).
 <br><br>  
   
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="to-create-a-location-card"></a>Slik oppretter du et lokasjonskort
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.

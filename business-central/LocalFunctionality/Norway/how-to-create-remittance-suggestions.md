@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: bef0df99e323d92b22bef2313faa2d0b99d19636
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 149cbd14db228bdcf0e415bee3bd15e6dee997dc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301236"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181033"
 ---
 # <a name="create-remittance-suggestions"></a>Opprette remitteringsforslag
 Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til leverandører som skal motta remitteringsoppdrag. Én betalingstransaksjon per bokføringsdato overføres til banken for hver leverandør.  
@@ -27,7 +27,7 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
 
 ## <a name="to-create-a-remittance-suggestion"></a>Slik oppretter du et remitteringsforslag:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Remitteringsforslag**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Alternativer** på siden **Remitteringsforslag**.  
 

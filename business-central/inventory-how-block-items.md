@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/04/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0218cf1b4982b9e8c5b5c2817590bc5ebd8f1941
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: c453a10f30d2a45f6d4641bda8b24ee3659b1a32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896064"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182303"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Blokkere varer fra salg eller kjøp
 Du kan blokkere en vare fra å bli lagt inn på salgs- eller bestillingslinjene, og du kan blokkere den fra å bli bokført i en transaksjon.  
@@ -31,7 +31,7 @@ Tabellen nedenfor viser hva som skjer når varer er sperret.
 > [!NOTE]
 > Sperrede varer kan returneres. Dette betyr at ingen av innstillingene ovenfor gjelder når varen brukes i returordrer og kreditnotaer.
 
-Når du bruker funksjonen **Kopier dokument** til å opprette nye dokumenter som er basert på eksisterende dokumenter, blir du varslet hvis det blir sperret varer på kildedokumentlinjene. De sperrede dokumentlinjene utelates fra det nye dokumentet, og en melding viser en oversikt over alle dokumentlinjene som er sperret i kildedokumentet.
+Når du bruker funksjonen **Kopier fra dokument** til å opprette nye dokumenter som er basert på eksisterende dokumenter, blir du varslet hvis det blir sperret varer på kildedokumentlinjene. De sperrede dokumentlinjene utelates fra det nye dokumentet, og en melding viser en oversikt over alle dokumentlinjene som er sperret i kildedokumentet.
 
 ## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Sperre en vare fra å legges inn på salgslinjer  
 

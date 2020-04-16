@@ -1,8 +1,6 @@
 ---
 title: Definere økonomiske prosesser | Microsoft-dokumentasjon
 description: Få informasjon om oppgavene for å konfigurere finans i virksomheten slik at alle regnskaps-, revisjons- og bokføringsbehov dekkes.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fa8b324c0a63f7c00209579878b9739af8178041
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 400506fe0b39944e683fd5e65e6b710ffdb9089b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953662"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182735"
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
 Før du kan begynne å drive selskapet, må du angi regler og standarder for hvordan du vil administrere økonomiprosessene for dette selskapet. Du starter ved å definere de viktigste regnskapspostene i selskapet - kontoplanen. Deretter definerer du bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.
@@ -36,7 +34,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Angi bokføringsgruppene som tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. |[Definere bokføringsgrupper](finance-posting-groups.md)|
 |Opprette kontoskjemaer og definere kontokategorier for å angi innholdet i økonomiske diagrammer og rapporter, for eksempel balanse- og resultatregnskapsrapporter.|[Klargjøre finansrapportering med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-| Definere regnskapsperioder. |[Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md) |
+| Definere regnskapsperioder. |[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md) |
 | Definere hvordan du rapporterer merverdiavgiftsbeløp du har innkrevd for salg, til skattemyndighetene. |[Definere merverdiavgift (mva)](finance-setup-vat.md)|
 |Klargjør for å håndtere urealisert mva i forbindelse med kontantbaserte regnskapsmetoder.|[Definere urealisert merverdiavgift for kontantbasert regnskap](finance-setup-unrealized-vat.md)|
 | Angi funksjoner for salg og kjøp til å håndtere betalinger i fremmed valuta.|[Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -50,7 +48,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Definere Intrastat-rapportering, og send inn rapporten til myndighetene | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 |Sørg for at en post i en finanskladd fordeles til flere forskjellige konti når du bokfører kladden, enten antall, prosent eller beløp.|[Bruke fordelingsnøkler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)  

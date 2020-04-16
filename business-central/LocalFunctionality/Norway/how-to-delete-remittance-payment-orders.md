@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ea64cb44a99cb8729d3fe8d8868e90d71aa1d1f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 303471ad0f76d2687a66a352bcf8d7cdb12bef33
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181034"
 ---
 # <a name="delete-remittance-payment-orders"></a>Slette remitteringsoppdrag
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  

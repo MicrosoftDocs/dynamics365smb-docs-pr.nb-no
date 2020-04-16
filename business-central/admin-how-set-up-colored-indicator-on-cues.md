@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: bd2130f317d79ecb0199f64dd2ddcb1e9e141316
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076614"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187343"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  

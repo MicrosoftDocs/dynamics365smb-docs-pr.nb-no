@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5d84dee6ed6cf0b17f488d67e5403638ecb79ce9
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953806"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183719"
 ---
 # <a name="create-gl-budgets"></a>Opprette finansbudsjetter
 Du kan ha flere budsjetter for de samme periodene hvis du oppretter budsjetter med forskjellige navn. Først definerer du budsjettnavn og angir budsjettallene. Budsjettnavnet inkluderes da på alle budsjettpostene du oppretter.  
@@ -48,7 +48,7 @@ For nesten alle andre sider kan du eksportere data på budsjettsider til Excel f
 > [!NOTE]
 > Kontoplanen som finansbudsjetter er basert på, har linjer med kontotypen Overskrift som inneholder summen av linjene under. Når du eksporterer et finansbudsjett, eksporteres data på alle linjer uavhengig av kontotypen. Imidlertid kan bare data på linjer av kontotypen Bokføring importeres tilbake. I henhold til dette: <br /><br /> **Når du importerer et finansbudsjett, slettes verdier som finnes i Overskrift-linjene.** <br /><br /> Dette er for å unngå feil totaler når du importerer data som er opprettet eller redigert i Excel.<br /><br /> **Scenario**: Du vet at de nye budsjetterte lønnskostnadene vil bli NOK 1 200 000. Du vil at lønnsavdelingen skal budsjettere for de tre bestemte linjene (av kontotypen Bokføring) for fulltidsansatte, deltidsansatte og midlertidig hjelp. De tre linjene grupperes under en Lønn-overskriftslinje.<br /><br />Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og sender det til lønnsavdelingen og informerer dem om å distribuere NOK 1 200 000.<br /><br /> Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til NOK 1 200 000, og overskriftslinjen er tom.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbudgets-exchange-rates-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Eksportere forretningsdataene til Excel](about-export-data.md)  

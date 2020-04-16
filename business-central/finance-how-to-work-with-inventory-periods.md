@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b2a34db5d4e40f99fceb844150312d6c6dffc55
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: be0222536f0281a700542b7ada80a327b9f21317
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2879635"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183215"
 ---
 # <a name="work-with-inventory-periods"></a>Arbeide med lagerperioder
 Lagerperioder er tidsperioder som du kan bokføre lagerendringer i. En lagerperiode defineres av datoen den slutter på, eller sluttdatoen. En lagerperiode defineres av datoen den slutter på, eller sluttdatoen. Du kan ikke bokføre eventuelle nye verdier til lageret før sluttdatoen. Hvis du har åpne vareposter i en lukket periode, det vil si positivt antall som ennå ikke er utlignet mot utgående transaksjoner, kan du fortsatt utligne utgående antall mot disse postene, selv om perioden er lukket.  

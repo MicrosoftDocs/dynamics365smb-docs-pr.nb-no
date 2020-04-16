@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 01d93b7b60876801a44922d5cfdb730fee8177d8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d6b8ce498d4eadc430790c7c37a31c89b8756c48
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301233"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181031"
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
 Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følgende forberedelser:  
@@ -27,7 +27,7 @@ Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følge
 
 ## <a name="to-import-ocr-payments"></a>Slik leser du inn OCR-betalinger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg en kladd i feltet **Bunkenavn**.  
 
     > [!NOTE]  
@@ -44,7 +44,7 @@ Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følge
 
 ## <a name="to-post-ocr-payments"></a>Slik bokfører du OCR-betalinger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Bokfør**.  
 
 OCR-betalingsfilene bokføres i innbetalingskladden.  

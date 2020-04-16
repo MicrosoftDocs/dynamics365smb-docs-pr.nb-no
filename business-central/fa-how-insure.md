@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6c6e8ac025033e061ff3bd6d1a3a66decc700a0f
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 3e26786d1568cdae30be0bcb17de7a5ed824c364
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2302815"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184463"
 ---
 # <a name="insure-fixed-assets"></a>Forsikre aktiva
 En forsikringspolise for et aktiva representeres av et forsikringskort. Du kan tilordne ett aktiva til én forsikringspolise eller flere aktiva til én forsikringspolise.
@@ -38,7 +38,7 @@ En forsikringspolise for et aktiva må representeres av et forsikringskort.
 
 Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye opplysningene på **Forsikringskort**-siden for å sikre at du foretar riktig analyse av forsikringspolisedekningen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikring**, og velg deretter den relaterte koblingen.
 2. Velg **Ny** for å opprette et nytt kort for en forsikringspolise. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velg eventuelt forsikringspolisen du vil endre, og velg deretter **Rediger**.
 
@@ -47,7 +47,7 @@ Du tilordner et aktiva til en forsikringspolise ved å bokføre i forsikringsdek
 
 Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinje manuelt. Hvis **Autom. forsikringsbokføring** er avmerket på **Aktivaoppsett**-siden, opprettes forsikringskladdelinjene automatisk når du bokfører anskaffelseskostnader. I så fall trenger du bare å bokføre kladden.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kladden, og fyll ut kladdelinjene etter behov.  
 3. Hvis du vil tilordne flere aktiva til én forsikringspolise, oppretter du kladdelinjer med samme verdi i **Forsikringsnr.-feltet** og forskjellige verdier i **Aktivane.**-feltet.  
 4. Velg handlingen **Bokfør**.  
@@ -58,7 +58,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinj
 ## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Slik oppdaterer du forsikringsverdien for et aktiva:
 Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de dekkede aktivaene.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Indeksreg. forsikring**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Indeksreg. forsikring**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
     > [!NOTE]  
@@ -66,7 +66,7 @@ Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de
 3. Velg **OK**.  
 
    Kjørselen beregner det nye beløpet som en prosentverdi av den totale forsikringsverdien, slik det er oppgitt på siden **Forsikringsstatistikk**, og oppretter deretter en linje i forsikringskladden.  
-4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 5. Åpne den aktuelle forsikringskladden, gå gjennom verdiene som er opprettet, og bokfør dem deretter i forsikringsdekningsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Slik kontrollerer du forsikringsdekningen:
@@ -92,13 +92,13 @@ Hvis du vil sjekke om du har glemt å tilordne et aktiva til en forsikringspolis
 ## <a name="to-view-insurance-coverage-ledger-entries"></a>Slik viser du forsikringsdekningsposter
 Du kan vise postene du har opprettet i forsikringsdekningsposten.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikring**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante forsikringspolisen, og velg deretter handlingen **Fors.dekningsposter**.  
 
 ## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Slik viser du den totale forsikringsverdien for aktiva:
 En dedikert matriseside viser forsikringsverdiene som er registrert for hver forsikringspolise for hvert aktiva som resultat av forsikringsrelaterte beløp du har bokført.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Forsikring**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikring**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante forsikringspolisen, og velg deretter handlingen **Total forsikr.verdi per aktiva**.  
 3. Fyll ut feltene etter behov.  
 4. Velg handlingen **Vis matrise**.  
@@ -107,7 +107,7 @@ En dedikert matriseside viser forsikringsverdiene som er registrert for hver for
 ## <a name="to-correct-insurance-coverage-entries"></a>Slik korrigerer du forsikringsdekningsposter
 Hvis et aktiva er knyttet til feil forsikringspolise, kan du korrigere den ved å opprette to reklassifiseringsposter fra forsikringskladden.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett én kladdelinje for aktivaet og den riktige forsikringspolisen der verdien i **Beløp**-feltet er positivt.  
 3. Opprett en ny kladdelinje for aktivaet og den gale forsikringspolisen der verdien i **Beløp**-feltet er negativt.  
 4. Velg handlingen **Bokfør**.  

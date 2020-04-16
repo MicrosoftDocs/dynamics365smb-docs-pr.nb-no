@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: prepayment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2c594da7c8cc11a08420f6bf8a5fb16cccb5ec0b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c1e129947d6230578b5c553fd985030e2f5ebc5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305623"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182831"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører og sørge for at alle delvise betalinger bokføres mot en faktura. Hvis du vil ha mer informasjon, kan du se [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md).
@@ -27,7 +27,7 @@ Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene e
 
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Slik legger du til forskuddskonti til generelt bokføringsoppsett  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:  
 
     - **Konto for salgsforskudd**  
@@ -40,13 +40,13 @@ Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du
 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Slik setter du opp nummerserie for forskuddsdokumenter  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:  
 
    - **Bokførte fakturanumre for forskudd**
    - **Bokførte kreditnotanumre for forskudd**
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:
 
     - **Bokførte fakturanumre for forskudd**
@@ -58,13 +58,13 @@ Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du
 ## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definere forskuddsprosenter for varer, kunder og leverandører  
 For en vare kan du definere en standard forskuddsprosent for alle kunder, en bestemt kunde eller en kundeprisgruppe.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg en vare, og velg deretter handlingen **Forskuddsprosenter**.  
 3. Fyll ut feltene etter behov på siden **Forskuddsprosenter for salg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For en kunde eller leverandør kan du definere en standard forskuddsprosent for alle varer og alle typer salgslinjer. Du angir denne på kortet for kunden eller leverandøren.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en kunde.
 3. Fyll ut feltet **Forskuddsprosent**.
 4. Gjenta fremgangsmåten for andre kunder eller leverandører.  

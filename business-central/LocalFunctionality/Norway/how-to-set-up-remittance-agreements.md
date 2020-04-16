@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 52daa105d34015a6baf0da4cba5e335edd414415
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 22a1d80fa6d66bc73fd09401a67c0c9e7f7e08aa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301223"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181018"
 ---
 # <a name="set-up-remittance-agreements"></a>Sette opp remitteringsavtaler
 Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker. For hver avtale må du spesifisere én eller flere kontoer som betalingen skal utføres fra. Du må opprette en remitteringskonto for hver konto. For mer informasjon, se [Sette opp remitteringskontoer](how-to-create-remittance-accounts.md).  
 
 ## <a name="to-set-up-a-remittance-agreement"></a>Slik setter du opp en remitteringsavtale  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

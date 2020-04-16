@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 79a640a01dbd0c1ca82b5190e690a4ff71a136a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: b606c01e694e95c7f539fb317f58304f4047a379
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952701"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181823"
 ---
 # <a name="inventory"></a>Lager
 Du må opprette et varekort av typen **Lager** for hvert fysiske produkt du handler i. Varer du tilbyr til kunder, men ikke har på lager, kan du registrere som katalogvarer, som du kan konvertere til lagervarer når det er nødvendig. Du kan øke eller redusere antall varer på lager ved å bokføre direkte til varepostene, for eksempel etter en fysisk opptelling eller hvis du ikke registrerer kjøp.

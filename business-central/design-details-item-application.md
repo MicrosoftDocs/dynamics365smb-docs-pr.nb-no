@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9f4ef853d62e76ce3ade8062a341eb4336116028
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303511"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185159"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
 Når du bokfører en lagertransaksjon, registreres antallsbokføringen i varepostene og verdibokføringen i verdipostene. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
@@ -189,7 +189,7 @@ Følgende tabell viser resultatet av nøyaktig tilbakeføring av kostnad i varen
 Når du kjører kjørselen **Juster kostverdi - vareposter**, økes kostnaden for kjøpsposten på grunn av varegebyret, og den økte kostnaden videresendes til salgsposten (postnummer 2). Salgsposten videresender deretter denne økte kostnaden til salgskreditposten (post nummer 3). Sluttresultatet er at kostnaden er riktig tilbakeført.  
 
 > [!NOTE]  
->  Hvis du arbeider med returer eller kreditnotaer og har definert feltet **Bruk opprinnelig kostpris** enten på siden **Kjøpsoppsett** eller siden **Salgsoppsett**, avhengig av hva som er aktuelt i din situasjon, fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk ut disse feltene når du bruker funksjonen **Kopier dokument**. Hvis du bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, fylles feltene alltid ut automatisk.  
+>  Hvis du arbeider med returer eller kreditnotaer og har definert feltet **Bruk opprinnelig kostpris** enten på siden **Kjøpsoppsett** eller siden **Salgsoppsett**, avhengig av hva som er aktuelt i din situasjon, fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk ut disse feltene når du bruker funksjonen **Kopier fra dokument**. Hvis du bruker funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres**, fylles feltene alltid ut automatisk.  
 
 > [!NOTE]  
 >  Hvis du bokfører en transaksjon med en fast utligning, og vareposten som du utligner mot, er lukket, som betyr at restantallet er null, angres den gamle utligningen automatisk, og vareposten utlignes på nytt ved hjelp av den faste utligningen du angav.  

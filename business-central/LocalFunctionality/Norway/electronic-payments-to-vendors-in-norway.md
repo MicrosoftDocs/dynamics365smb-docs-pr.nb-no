@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b522a07b5a3bfe2e24b780555bdabf80a91aa489
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7ed625ee0c35a570d1e62ee44bd5b46f358cd9b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301246"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181042"
 ---
 # <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  

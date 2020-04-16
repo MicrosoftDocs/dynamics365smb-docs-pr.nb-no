@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6ac8d49d2b3a88d472a61a9a61c2893360036eb7
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952629"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183791"
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
 Hvis du vil gjøre det enklere å utføre analyser på dokumenter, for eksempel salgsordrer, kan du bruke dimensjoner. Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
@@ -209,7 +209,7 @@ Når du bokfører dokumenter eller kladdelinjer som inneholder dimensjoner, kan 
 |Ikke-tom dimensjonsverdikoden for tom standarddimensjon, der feltet **Verdibokføring** inneholder **Samme kode**|- %1 %2 må være tom.<br />- %1 %2 må være tom for %3 %4.|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Angi en tom dimensjonsverdikode for dimensjonen som er i konflikt i dimensjonssettet.|
 |Uventet dimensjonsverdi for standarddimensjon, der feltet **Verdibokføring** inneholder **Ingen kode**|- %1 %2 skal ikke nevnes.<br />- %1 %2 må ikke nevnes for %3 %4|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Fjerne den motstridende linjen fra dimensjonssettet.|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  

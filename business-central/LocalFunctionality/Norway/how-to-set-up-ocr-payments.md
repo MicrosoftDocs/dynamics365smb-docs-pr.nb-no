@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2f2aa73837ed39a2f3808cd8092f2d3519e25e97
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8190ab93f9b2fb0e544604edcb6c41502c2772aa
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301225"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181022"
 ---
 # <a name="set-up-ocr-payments"></a>Opprette OCR-betalinger
 Du kan behandle elektroniske betalinger fra kunder i henhold til en forhåndsdefinert betalings-ID. Dette blir ofte referert til som en OCR-betaling (optisk tegngjenkjenning). Betalings-ID-en brukes med elektroniske betalingstransaksjoner. Kunder kan vise til denne ID-en når de foretar betalinger. Betalings-IDen brukes også til å identifisere importerte betalingstransaksjoner og anvende importerte betalingsdata automatisk.  
 
 ## <a name="to-set-up-ocr-payments"></a>Slik oppretter du OCR-betalinger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **OCR-oppsett**, og angi deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **OCR-oppsett**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

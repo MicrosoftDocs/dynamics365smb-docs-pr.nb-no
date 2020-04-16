@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4d3656c81a6964a01632865b6163be9ec0365de8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: e53c1f7b0b2af4a94579863197ec7348c9b6ff18
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952797"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186311"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 Du utfører bankavstemming for å sikre at de ulike forretningstransaksjonene og utgiftene gjenspeiles riktig i selskapstablåene. Dette gjør du ved å sammenligne og utligne poster i de interne bankkontoene med banktransaksjoner i banken, og deretter bokføre saldoene på de interne bankkontoene for å gjøre totaler tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
@@ -111,7 +111,7 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 5. Oppdater eller åpne siden **Bankkontoavstemming**. Den nye posten vises i ruten **Bankkontoposter**.
 6. Utligne bankkontoutdragslinjen med bankkontopost, enten manuelt eller automatisk.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesbank-reconciliation-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  

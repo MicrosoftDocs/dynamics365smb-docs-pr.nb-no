@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: be39f8a56dc95ed48e339e89513a103d044faa08
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 252636417dab633b8b95a15f206d1be82fc78a32
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952677"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183191"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan handle i og rapportere økonomien i mer enn én valuta. Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.
@@ -47,7 +47,7 @@ Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 > [!Important]
 > Før du kan bruke kjørselen, må du angi justeringskursene som brukes til å justere valutasaldoen. Du gjør dette på siden **Valutakurser**.<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
 Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
@@ -63,7 +63,7 @@ Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksemp
 
 Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  

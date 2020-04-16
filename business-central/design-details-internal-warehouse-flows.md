@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 55f58acc0f65469261903c28b71942010d44c695
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880355"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185327"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interne lagerflyter
 Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om å plukke komponenter og plassere sluttvarer for montering eller produksjonsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten en relasjon til kildedokumenter. Omfanget av og karakteren til aktivitetene som er involvert, varierer mellom grunnleggende og avanserte lagerstyring.  

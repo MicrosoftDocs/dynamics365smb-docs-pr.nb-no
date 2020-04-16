@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/04/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e3270864e184bdb7473a95fd1620ea98c3e3fbd2
-ms.sourcegitcommit: 0cb8a646dcba8f6d6336ebd008587874d25f4629
+ms.openlocfilehash: 9cc15893963672f14aef33b8bd35560957a826ea
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030199"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183911"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innkreve betalinger med SEPA direct debit
 Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.  
@@ -32,7 +32,7 @@ Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i h
 >  Hvis du vil innkreve betalinger ved hjelp av SEPA Direct Debit, må valutaen på salgsfakturaen være EURO.  
 
 ## <a name="setting-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
-Fra **Direct Debit-oppkrevinger**-siden kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-samling fra kundens bankkonto til din bankkonto i samsvar med SEPA Direct Debit-formatet.
+Fra siden **Direct Debit-oppkrevinger** kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-oppkreving fra kundens bankkonto til din bankkonto i samsvar med SEPA Direct Debit-formatet.
 
 > [!NOTE]
 > Den globale versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter bare SEPA direct debit-formatet. Versjonen for ditt land/område kan støtte andre formater for elektronisk betaling. Se under **Lokal funksjonalitet** i innholdsfortegnelsen.  
@@ -137,7 +137,7 @@ En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én 
 
       Den relaterte avtalegirosamlingen er lukket.  
 
- Du kan deretter fortsette å bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel på siden **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra siden **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, kan du se [Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md).
+ Du kan deretter fortsette å bokføre kvitteringer for betaling for de aktuelle salgsfakturaene. Dette kan du gjøre slik du vanligvis bokfører kvitteringer, for eksempel på siden **Betalingsregistrering**, eller du kan bokføre de relaterte kvitteringene direkte fra siden **Poster for Direct Debit-oppkreving** . Hvis du vil ha mer informasjon, kan du se [Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
 ## <a name="posting-sepa-direct-debit-payment-receipts"></a>Bokføre kvitteringer for SEPA Direct Debit
  Når en direct debit-samling er behandlet av banken din, kan du fortsette med å bokføre mottak av betalingen for de aktuelle salgsfakturaene. Hvis du vil ha mer informasjon, kan du se [Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6e3ae476a5d41f5aeea47a30cedf21dc755cf34
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 031d7e378ae0ee8dd0fd04c0d70e358cbdae8ede
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881330"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181017"
 ---
 # <a name="set-up-vendors-for-remittance"></a>Angi leverandører for remittering
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 9fd5c6c242932d75addcfa5c1811bdd1aff99a94
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953052"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187511"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
@@ -40,20 +40,22 @@ Med sider som viser en oversikt over poster i rader og kolonner, som en liste ov
 
 - Den fungerer bare i Windows, ikke i macOS.
 
-Dette ble forbedret i 2019 Release Wave 2. Hvis du vil ha mer informasjon, se [Forbedringer i Excel-integrasjon](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+- Du kan bytte ut selskapet du arbeider med. Dette gjør du ved å velge ikonet **Alternativer** under ![Alternativer for Excel-tillegg](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg, og deretter velger du selskapet fra **Selskap**-feltet. 
+
+    > [!IMPORTANT]
+    > Når du endrer firmaet, må du sørge for at **Miljø**-feltet ikke er tomt. Hvis det er det, setter du det til ett av de tilgjengelige alternativene. Hvis ikke, vil ikke tillegget fungere som det skal.  
+
+Excel-tillegget ble forbedret i utgivelsesplan 2 i 2019. Hvis du vil ha mer informasjon, se [Forbedringer i Excel-integrasjon](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
 
 > [!NOTE]
-> For lokal [!INCLUDE[prodshort](includes/prodshort.md)] er **Rediger i Excel**-handlingen bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
-
-> [!NOTE]
-> For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt er denne funksjonen bare tilgjengelig for webklienten.
+> For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt er handlingen **Rediger i Excel** bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig, og den er bare tilgjengelig for webklienten. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.
 
 ### <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbeide med Business Central](ui-work-product.md)  

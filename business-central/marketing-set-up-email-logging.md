@@ -10,21 +10,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e325cce98256b723c6fcfdf4d16068f852a2b032
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 13699c002402b6b6d32edc13dca3710fefff2129
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2308743"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181263"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spor utveksling av e-postmeldinger mellom selgere og kontakter
 Få mer ut av kommunikasjonen mellom selgere og de eksisterende eller potensielle kundene ved å spore e-postutvekslinger og deretter gjøre dem om til salgsmuligheter. [!INCLUDE[d365fin](includes/d365fin_md.md)] fungerer med Exchange Online for å føre en logg over innkommende og utgående meldinger. Du kan vise og analysere innholdet i hver enkelt melding på siden **Samhandlingsposter**.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085401]
 
-## <a name="setting-up-included365finincludesd365fin_mdmd-to-log-email-messages"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å logge e-postmeldinger
+## <a name="setting-up-d365fin-to-log-email-messages"></a>Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å logge e-postmeldinger
 Kom i gang med e-postpålogging med to enkle trinn:
 
 1. Koble [!INCLUDE[d365fin](includes/d365fin_md.md)] til Exchange Online for Office 365-abonnementet. Exchange Online behandler e-postmeldingene. Vi har gjort dette trinnet enkelt ved å tilby en veiledning for assistert oppsett. Du trenger bare administratorlegitimasjon for administratorkontoen i Office 365. Gå til **Assistert oppsett** og velg deretter **Konfigurer loggføring av e-post**. 

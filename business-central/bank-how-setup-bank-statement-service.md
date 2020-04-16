@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 99be988a8e5cdea5392e9f105acade41f19e6da3
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: 39e31cad30c1e55c651abd818a52ea8b0a6941cf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910715"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186239"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Sette opp Envestnet Yodlee Bank Feeds-tjenesten
 Du kan importere elektroniske bankkontoutdrag fra banken slik at du raskt kan fylle ut på siden **Betalingsavstemmingskladd**. Dermed kan du utligne betalinger og avstemme bankkontoen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).

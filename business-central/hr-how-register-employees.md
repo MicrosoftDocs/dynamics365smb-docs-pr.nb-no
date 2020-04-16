@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: db5b7bdf247919b12a6c803dd33f0f9ff8caf7cc
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 264ae00ff26156bd0d740d015664f260bd062f4a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301495"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182567"
 ---
 # <a name="register-employees"></a>Registrere ansatte
 Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ved å opprette et kort med all viktig og relatert informasjon.
@@ -30,14 +30,14 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvord
 > Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** på siden **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
 Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet til den ansatte.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. I faktaboksen **Bilde av ansatt** klikker du på knappen for rullegardinlisten og velger deretter **Importer**.
 4. På siden **Velg et bilde for opplasting** velger du **Velg** knappen.
@@ -50,7 +50,7 @@ På ansattkortet kan du definere opplysninger, for eksempel fagforeningsmedlemsk
 
 Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enhver tid befinner seg, for eksempel om de er stasjonert i utlandet, er på lengre forretningsreiser eller har sommerferie.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.
 3. Velg **Alternative adresser**.
 4. Fyll ut feltene etter behov på siden **Oversikt over alternativ adr.**.

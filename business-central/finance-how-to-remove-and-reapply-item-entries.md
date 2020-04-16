@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 81565950191b40f2c54646d17f02ee857856c436
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2882695"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183335"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
 På siden **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
@@ -28,7 +28,7 @@ Følgende scenarier kan kreve at du må angre en utligning eller utligne varepos
 - Du har opprettet en feil fast utligning.
 - Du må returnere en vare som et salg allerede er utlignet mot.
 
-Hvis det er mulig, bruker du et dokument til å utligne en varepost på nytt. Hvis du for eksempel må opprette en bestillingsretur for en vare som et salg allerede er utlignet mot, kan du utligne på nytt ved ganske enkelt å opprette og bokføre bestillingsreturdokumentet ved å bruke den riktige utligningen i feltet **Utligningsvarepost** på bestillingsreturlinjen. Du kan bruke funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** eller **Kopier dokument** i bestillingsreturdokumentet for å gjøre dette enklere. Når du bokfører dokumentet, utlignes vareposten automatisk på nytt. Hvis du vil ha mer informasjon, kan du se [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
+Hvis det er mulig, bruker du et dokument til å utligne en varepost på nytt. Hvis du for eksempel må opprette en bestillingsretur for en vare som et salg allerede er utlignet mot, kan du utligne på nytt ved ganske enkelt å opprette og bokføre bestillingsreturdokumentet ved å bruke den riktige utligningen i feltet **Utligningsvarepost** på bestillingsreturlinjen. Du kan bruke funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** eller **Kopier fra dokument** i bestillingsreturdokumentet for å gjøre dette enklere. Når du bokfører dokumentet, utlignes vareposten automatisk på nytt. Hvis du vil ha mer informasjon, kan du se [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
 Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du må korrigere en fast utligning, bruker du siden **Utligningsforslag** til å korrigere en utligning.
 

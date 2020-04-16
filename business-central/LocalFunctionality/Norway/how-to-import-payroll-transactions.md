@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81a508727a2db15dbee83f4eb2f3bcd121f01670
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: d83279e231cfeb568e47a56cf3c9d8add2ddf8d5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301239"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181030"
 ---
 # <a name="import-payroll-transactions"></a>Importer lønnstransaksjoner
 Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske lønnslisteløsningene: Huldt & Lillevik Lønn - Visma. Deretter kan du bruke finanskladden til å bokføre de importerte lønnstransaksjonene i finanskladdekontoer eller bankkontoer. Du må opprette lønnsintegrasjon før du kan importere lønnstransaksjoner.  
@@ -25,7 +25,7 @@ Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske l
 
 ## <a name="to-import-payroll-transactions"></a>Slik importerer du lønnstransaksjoner  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg kladden som skal brukes, og bruk deretter handlingen **Importer lønnsfil** til å importere datafilen fra lønnstjenesteleverandøren.  
 3.  Velg **OK**.  
 

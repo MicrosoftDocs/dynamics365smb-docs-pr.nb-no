@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0b53d1af23051ae2ac5f54a921e8fca36263d777
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2300016"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182423"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
 Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
@@ -29,7 +29,7 @@ Du kan sende ordrer, bestillinger og returordrer før bokføring. Fakturaer og k
 
 Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konsernintern ordre. Den samme fremgangsmåten gjelder for konserninterne bestillinger og returordrer og for bokførte konserninterne fakturaer og kreditnotaer.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny** for å opprette en ny ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kointroller at kunden er en konsernintern partner.
@@ -41,7 +41,7 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Slik fyller du ut og bokfører en konsernintern kladd
 Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne finanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne finanskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kjørselen for kladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 3. Fyll ut feltene etter behov.
 4. I feltet **Finanskontonr. for KI-partner** angir du nummeret til den konserninterne finanskontoen der beløpet skal bokføres i partnerens selskap.

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: 86ddde5339631915a997cbbebe63a3a2d6d68835
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952605"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181775"
 ---
 # <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
@@ -39,7 +39,7 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 | Tilordne varer til kategorier, og gi dem attributter for å hjelpe deg og kunder med å finne varer. |[Kategorisere varer](inventory-how-categorize-items.md) |
 |Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-get-started-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  

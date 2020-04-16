@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 62fc3227c02656713afa1f890f7ea8acbce524be
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 23759b874f7a92bf9ff91cd0822ac8f9bb716ab1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952773"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183527"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
@@ -121,7 +121,7 @@ Fordi du må levere en Intrastat-rapport hver måned, og du oppretter en ny klad
 2. Velg **Bunkenavn**-feltet for å vise alternativene.  
 3. Velg kladdebunkene som skal slettes, og velg deretter **Slett**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)

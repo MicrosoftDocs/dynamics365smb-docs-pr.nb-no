@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: eb423dbb1c755dc7d3360667ce1d083f7fc36d51
-ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
+ms.openlocfilehash: 1a62fb41127b2574160d2d7cdb321c6613fbe5cc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2692505"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181005"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5aacb325eec2a8679aed845c496744e05535e30
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953734"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183551"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.
@@ -121,7 +121,7 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 > [!NOTE]  
 >  Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-multiple-currencies-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Oppdatere valutakurser](finance-how-update-currencies.md)  

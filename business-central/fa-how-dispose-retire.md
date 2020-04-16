@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 01/29/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: fe8b5bc5304a87fbb2cce14067e7cbd74cbf1198
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 97c21286b640571f374e97a02b7953ce839645c6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999738"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184439"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Avhending eller tilbaketrekking av aktiva
 Når du selger eller på annen måte avhender et aktiva, må salgsverdien bokføres for å beregne og registrere tap eller vinning. En salgspost må være den siste posten som bokføres for et aktiva. Du kan bokføre mer enn én salgspost for aktiva som er delvis solgt. Summen av alle bokførte salgsbeløp må være et kreditbeløp.  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f30093a7b21942e79135b6c2ff8a81b24ce9cf93
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 8e5e6859c0e9aee54c1792c8639a5b0f96214dde
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301206"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181004"
 ---
 # <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]omfatter to typer importerbare betalingsreturfiler:  

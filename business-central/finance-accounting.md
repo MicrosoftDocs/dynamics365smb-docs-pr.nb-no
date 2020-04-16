@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 01/06/2020
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50cc4aba9f3a01b9518d974cf011de3b9b20a4da
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2991859"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184031"
 ---
-# <a name="accountant-experiences-in-included365fin_longincludesd365fin_long_mdmd"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-d365fin_long"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
 
 ## <a name="accountant-role-center"></a>Rollesenter for regnskapsfører
@@ -25,7 +25,7 @@ Rollesenteret er et instrumentbord med aktivitetsfliser som viser deg nøkkeltal
 
 Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] er nytt for deg, kan du vise en oversikt over videoer rett fra rollesenteret. Du kan også starte **Komme i gang**, som angir viktige områder.  
 
-## <a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan administratoren din invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at vedkommende kan arbeide med regnskapsdataene. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer tre lisenser av typen ekstern regnskapsfører. For mer informasjon om lisensiering, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Når regnskapsføreren har fått tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante sidene for arbeidet.  
@@ -61,7 +61,7 @@ Hvis administratoren eller videresalgspartneren din ikke vil bruke veiledningen 
 
 Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE [prodshort](includes/prodshort.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-include-prodshortincludesprodshortmd"></a>Slik gir du regnskapsføreren tilgang til [!INCLUDE [prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Slik gir du regnskapsføreren tilgang til [!INCLUDE [prodshort](includes/prodshort.md)]
 
 1. I Azure-portalen velger du **Profil** for brukeren som nylig er lagt til,og deretter velger du **Rediger**.
 2. Oppdater feltet **Brukssted** til det aktuelle landet, og velg deretter **Lagre**.
@@ -73,7 +73,7 @@ Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE [prodsho
 
 Hvis vellykket, er lisensen tilordnet til gjestebruker, og gjestekontoen er opprettet.
 
-### <a name="importing-the-new-user-into-include-prodshortincludesprodshortmd"></a>Importere den nye brukeren til [!INCLUDE [prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prodshort"></a>Importere den nye brukeren til [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang til Active Directory. Deretter må du gi dem tilgang til det rette selskapet i [!INCLUDE [prodshort](includes/prodshort.md)].
 
@@ -83,7 +83,7 @@ Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Hent nye brukere fra Office 365**.
 
-Dette importerer brukerkontoen du opprettet i Azure-portalen, til selsksapet. Hvis du vil ha mer informasjon, kan du se [Slik legger du til en bruker i Business Central](ui-how-users-permissions.md#to-add-a-user-in-business-central).  
+Dette importerer brukerkontoen du opprettet i Azure-portalen, til selsksapet. Hvis du vil ha mer informasjon, kan du se [Slik legger du til en bruker i Business Central](ui-how-users-permissions.md#adduser).  
 
 Hvis du vil gi tilgang til flere firmaer, må du logge deg på hvert firma og gjenta denne prosessen. Du kan også oppdatere tillatelsesgruppene for regnskapsførerens brukerprofil i [!INCLUDE [prodshort](includes/prodshort.md)], for eksempel tilordne dem *D365 Bus Premium*-brukergruppen. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 

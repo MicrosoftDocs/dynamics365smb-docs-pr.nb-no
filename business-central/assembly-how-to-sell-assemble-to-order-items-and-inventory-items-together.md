@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 88564e7bb1f62a504a70b675774e021fd7e1eee9
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 790e4cae4e13eae0d394859f2944b56f2dbefc50
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880835"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186455"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  

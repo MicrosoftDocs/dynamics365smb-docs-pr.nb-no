@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 209df24710837e3407498c600ec77bea3f76690d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0971998feed22b61dbcb948dda719e7e40287e63
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2309127"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181535"
 ---
 # <a name="create-sales-opportunities"></a>Opprette salgsmuligheter
 Du kan opprette salgsmuligheter for de salgsmulighetene du har med kontaktene. Alle salgsmulighetene må tilordnes en selger eller en innkjøper, og må ha en kontakt.
@@ -35,7 +35,7 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Opprette en salgsmulighet fra en kontakt
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg kontakten fra listen som du vil opprette en salgsmulighet for.
 3. Gjør ett av følgende:
    * Velg handlingen **Opprett salgsmulighet**.

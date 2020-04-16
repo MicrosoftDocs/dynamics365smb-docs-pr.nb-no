@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7671e54f95a48322df186b5aed5a81552f9f91f
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 7365886f09e1e3d1b67dcbea82594f3d3599f25a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953782"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183887"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
 Dette emnet beskriver rapportene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen.
@@ -61,7 +61,7 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
     > [!NOTE]  
     >   Det er lurt å teste tilkoblingen. Du gjør dette ved å merke av for **Testmodus** og deretter forberede og sende mva-rapporten som beskrevet i delen _Forberede og sende inn en omsetningsoppgave_. I testmodus tester tjenesten om skattemyndighetene kan motta rapporten, og statusen for rapporten angir om testinnsendingen var vellykket. Det er viktig å huske at dette ikke er en faktisk innsending. Hvis du vil faktisk sende inn rapporten, må du fjerne merket for **Testmodus** og deretter gjenta innsendingsprosessen.
 
-## <a name="to-set-up-vat-reports-in-included365finincludesd365fin_mdmd"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-d365fin"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-rapportoppsett**, og velg deretter den relaterte koblingen.  
 2. Hvis du vil at brukere skal kunne endre rapporten og sende den inn på nytt, merker du av for **Endre sendte rapporter**.  
 3. Velg nummerserien som skal brukes for hver rapport.  
@@ -111,7 +111,7 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 > [!Note]
 > Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2017** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsprocess-vat-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  

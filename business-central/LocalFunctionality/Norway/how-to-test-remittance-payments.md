@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 35e8ef5fc0698aa63de3f39dc732786e705d4948
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 123c62cb4c9ec7d2c2cefc2a0f7625f485bd8c2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301218"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181016"
 ---
 # <a name="test-remittance-payments"></a>Kontrollere remitteringsoppdrag
 Etter at du har opprettet remitteringsoppdrag og generert forslag, kan du kontrollere at det ikke finnes feil i utbetalingskladdelinjene før du bokfører dem.  
@@ -28,7 +28,7 @@ Hvis det skrives ut en advarsel i kontrollrapporten, kan du ikke overføre betal
 
 ## <a name="to-print-a-remittance-test-report"></a>Slik skriver du ut en remitteringskontrollrapport  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Betalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Kontrollrapport**.  
 3.  På hurtigfanen **Alternativer** velger du **Vis dimensjoner**-feltet for å skrive ut dimensjoner i kontrollrapporten.  
 4.  Velg **Skriv ut** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  

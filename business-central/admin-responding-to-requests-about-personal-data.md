@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 4f96ddb96d9f0b816a4fd6651d4c1453bbf65ca1
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2307856"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186767"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  

@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 1450db26598da2f2735df1979cfacc16034fcf3a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2952990"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186888"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 
@@ -25,18 +25,15 @@ Få innsikt i [!INCLUDE[prodshort](includes/prodshort.md)]-dataene på en enkel 
 Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-apper krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
 
 > [!IMPORTANT]
-> Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Hvis du vil installere en Power BI-app, må du også ha en Power BI Pro-lisens.  Når Power BI-appen er installert, kan den deles med brukere med en hvilken som helst lisenstype.
+> Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Du trenger i tillegg en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
 [!INCLUDE [prodlong](includes/prodlong.md)] har publisert følgende apper for Power BI:
 
 - [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
 - [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
-- [!INCLUDE [prodlong](includes/prodlong.md)](lokalt) – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)](lokalt) – Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)](lokalt) – Sales  
 
-## <a name="using-the-include-prodshortincludesprodshortmd-dashboards-in-power-bi"></a>Bruke [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentbordene i Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Bruke [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentbordene i Power BI
 
 Hver app inneholder rapporter som du kan se på:
 
@@ -81,7 +78,7 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap du h
 - [Velge en flis](/power-bi/service-dashboard-tiles) for å åpne den underliggende rapporten.  
 - Som standard er ikke datasettet ditt satt til å oppdatere. Du kan endre oppdateringsplanen eller prøve å oppdatere det ved behov ved hjelp av **Oppdater nå**. Hvis du vil ha mer informasjon, se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-include-prodshortincludesprodshortmd"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
 
 Startsiden i [!INCLUDE [prodshort](includes/prodshort.md)] kan inneholde et Power BI-kontrollelement som kan konfigureres til å vise Power BI-rapporter på startsiden.
 
@@ -166,9 +163,9 @@ En Power BI-konto er ikke satt opp. For at du skal kunne ha gyldig Power BI-kont
 
 Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-include-prodshortincludesprodshortmd-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
 
-Power BI-apper kan bare installeres av brukere som har en Power BI Pro-lisens. Når Power BI-appen er installert, kan du dele den med brukere som ikke har en Power BI Pro-lisens.  
+Du trenger en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
 ### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidering mislyktes, du må kontrollere at alle parametrene er gyldige"
 
@@ -179,9 +176,9 @@ Denne feilen angir at en av parameterne ikke er gyldige.
 - Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE [prodshort](includes/prodshort.md)]  
 - En port er ikke åpen for å tillate at forespørselen din går gjennom brannmuren.
 
-### <a name="login-failed"></a>Påloggingen mislyktes
+### <a name="cannot-sign-in"></a>Kan ikke logge på
 
-Hvis du får en "påloggingen mislyktes"-feil etter at du bruker [!INCLUDE [prodshort](includes/prodshort.md)]-legitimasjonen din for å logge deg på, kan dette skyldes et av følgende problemer:
+Hvis du får en "påloggingen mislyktes"-feil etter at du bruker [!INCLUDE [prodshort](includes/prodshort.md)]-legitimasjonen din for å logge på, kan dette skyldes et av følgende problemer:
 
 - Kontoen du bruker, har ikke tillatelse til å hente [!INCLUDE [prodshort](includes/prodshort.md)]-dataene fra kontoen din. Kontroller at du har tilgang til de nødvendige dataene i [!INCLUDE [prodshort](includes/prodshort.md)], og prøv på nytt.
 - Du har valgt en annen godkjenningstype enn Enkel hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt.
@@ -203,7 +200,7 @@ Når Power BI-appen er installert og dataene vises i Power BI, oppdager du kansk
 
 Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 11/27/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3cb9ffd6dadaeba7aab782c0bd8f45d3f4aa5387
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 061c0148601f3aaa871fbf4d613b51ceaf9cdfb1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878344"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182159"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 Varer, blant andre produkter, er grunnlaget for virksomheten din, varene eller tjenestene du handler med. Hver vare må være registrert som et varekort.
@@ -36,7 +36,7 @@ Varer som du tilbyr kunder, men som du ikke vil administrere i systemet før du 
 
 Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen av. Du kan også opprette nye varekort ved å kopiere eksisterende varekort. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).<br><br>  
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  

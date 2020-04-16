@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 12/04/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ff9f17e6ac1625dc4d1f27a39fc843d9eaa375d7
-ms.sourcegitcommit: b6e506a45a1cd632294bafa1c959746cc3a144f6
+ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896256"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187823"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du velge å opprette et tomt firma, slik at du kan laste opp dine egne data og teste det nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet. Avhengig av økonomiløsning som selskapet ditt bruker i dag, kan du overføre informasjon om kunder, leverandører, lager og bankkonti.  

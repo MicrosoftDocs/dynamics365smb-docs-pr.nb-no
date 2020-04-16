@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: cd0b2e586b87fdf58e740fe4fc8dcf30f3ebee84
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 7133c527b65faddc08b796bb6e4df9c50588e481
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2301238"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181035"
 ---
 # <a name="create-remittance-accounts"></a>Opprette remitteringskontoer
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
@@ -27,7 +27,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 ## <a name="to-create-a-remittance-account"></a>Slik oppretter du en remitteringskonto  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Remitteringskontokort**.  
 

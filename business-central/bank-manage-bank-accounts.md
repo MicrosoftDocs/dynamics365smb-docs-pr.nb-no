@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 01/10/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 0d1a38468f5d07a1170027bc728ba16996f2b782
-ms.sourcegitcommit: 2f741f442226b8be74586e355f283f365e43220f
+ms.openlocfilehash: 050519c77f7c1dca5dd451a57ac47f71b4803a91
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "2947240"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186191"
 ---
 # <a name="reconciling-bank-accounts"></a>Avstemme bankkonter
 En bankavstemming bør fullføres med jevne mellomrom for alle bankkontoene for å sikre at firmaets kontantposter er riktige. Dette gjør du ved å sammenligne og utligne poster i de interne bankkontoene med banktransaksjoner i banken, og deretter bokføre saldoene på de interne bankkontoene for å gjøre totaler tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
@@ -36,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Du avstemmer bankkontoer som en separat oppgave på siden **Bankkontoavstemming**. |[Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md) |
 | Avstemme bankkonti i forbindelse med betalingsbehandling på siden **Betalingsavstemmingskladd**. |[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreconcile-bank-accounts-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktjenester](bank-setup-banking.md)  

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 29814983ab01b7bb8b00364e6484be90d15f607f
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: aebb3e9c0605d8b604ba314606f4b9b707a40738
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076483"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181032"
 ---
 # <a name="export-remittance-payments"></a>Eksportere remitteringsoppdrag
 Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din. Deretter kan du overføre remitteringsoppdragene til banken.  

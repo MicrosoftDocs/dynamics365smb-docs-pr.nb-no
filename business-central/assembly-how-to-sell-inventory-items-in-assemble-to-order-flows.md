@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53118269f151ec0768f80151613afbbf36d8d075
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: e33bc68698a20909e1eda1e6a7e19501b9c38fc5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186359"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i monter-til-ordre-flyter
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til ordre**, forutsetter standard ordreprosess at varen ikke er på lager og må monteres for denne bestemte ordren. Det blir derfor automatisk opprettet en monteringsordre når du legger varen til på en ordrelinje. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md). Hvis en del av (eller hele) ordreantallet allerede er tilgjengelig i beholdningen, kan du redusere monteringsordreantallet ved å endre feltet **Ant. som skal monteres til ordre** på ordrelinjen.  
