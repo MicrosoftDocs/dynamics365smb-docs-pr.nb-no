@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bbfbb187ff533a2c786d0a5b4aa26a20518f760b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: c3e5415c5da03c4dd9a2228cc21b7c08a9beeec3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315423"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189726"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Utvidelsen QuickBooks Online-datamigrering
 Utvidelsen er inkludert i den assisterte oppsettsveiledningen **Datamigrering** for å hjelpe deg å overføre viktige forretningsdata fra QuickBooks Online til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er for eksempel praktisk når virksomheten er i vekst og du har besluttet å oppgradere appen for forretningsdrift ved å begynne å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -50,7 +50,7 @@ Hvis transaksjoner i QuickBooks Online har mva-beløp, må du definere en mva-ko
 ## <a name="how-do-i-start-using-the-extension"></a>Hvordan begynner jeg å bruke utvidelsen?
 Det er enkelt å komme i gang. Alt du trenger å gjøre, er å kjøre den assisterte oppsettsveiledningen **Datamigrering**. Slik gjør du det:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
 2. Følg instruksjonene for hvert trinn i den assisterte oppsettsveiledningen.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hva gjør jeg etter at jeg har overført dataene?

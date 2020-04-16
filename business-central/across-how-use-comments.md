@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 00aef090b99ee41962ed59fd6050b6f17be77ed5
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: db3d7dd3b7efdd10aa22e3aa4ca0ff445428bbd2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2305071"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187967"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Legge til kommentarer i kort og dokumenter
 Du kan legge til tilleggsinformasjon for finanskontoer, kundekort eller ordrer for å formidle unntak eller spesielle avtaler avtaler til andre brukere.
@@ -31,7 +31,7 @@ I tillegg kan du angi om du vil at merknader overføres fra én dokumenttype til
 Nedenfor beskrives det hvordan du legger til en merknad på et varekort. Trinnene ligner for alle andre leverandørkort og -dokumenter, bortsett fra at på dokumentlinjer er **Merknader**-handlingen plassert på en linjehandlingsmeny.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Legge til merknader på varekort
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle varekortet.
 3. Velg handlingen **Merknader**.
 4. Skriv inn tekst på **Merknadsark**-siden, og velg **OK**-knappen.

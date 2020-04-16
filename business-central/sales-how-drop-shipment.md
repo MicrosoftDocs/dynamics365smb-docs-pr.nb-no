@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50198afaa8caae9a11a06a25357fa94ad26b0b8f
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c61f55701ecb07862f42d3cce242756001529588
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943188"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193686"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
@@ -25,7 +25,7 @@ En direkte levering er levering av varer fra en av leverandørene dine, direkte 
 Når en ordre er merket for direkte levering, og du oppretter en bestilling for kunden i **Forsendelsesadresse**-feltet, **Kundeadresse**, kan du koble de to dokumentene og på den måten instruere leverandøren til å levere direkte til kunden.
 <br><br>  
   
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
 ## <a name="to-create-a-sales-order-for-drop-shipment"></a>Slik oppretter du en ordre med direkte levering:
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre for en vare som vanlig, bortsett fra at du må vise på salgslinjen at salget krever direkte levering.

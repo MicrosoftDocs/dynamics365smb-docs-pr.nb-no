@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba14e98e8387981d108b4a8440419f617fa3b3d8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: c9822e35ea4ad6ad1b32894bbe0b980bf70149ae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877186"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192534"
 ---
 # <a name="multiple-contracts"></a>Flere kontrakter
 Avhengig av servicenivåavtalene du har med kunden, må du kanskje behandle en servicevare på flere enn én servicekontrakt.  
@@ -38,7 +38,7 @@ Du kan opprette en servicekontrakt eller et kontrakttilbud manuelt for serviceva
 Når du legger til en servicevare på en kontraktlinje som er registrert i andre servicekontrakter eller kontrakttilbud, vises en advarsel som sier at servicevaren allerede tilhører én eller flere servicekontrakter eller kontrakttilbud. Hvis du bekrefter denne meldingen, kopieres alle aktuelle servicevareopplysninger til en nyopprettet kontraktlinje.  
   
 ## <a name="copying-documents"></a>Kopiere dokumenter  
-Du kan automatisk opprette en servicekontrakt eller et kontrakttilbud for servicevarer som allerede er registrert i andre servicekontrakter eller kontrakttilbud, ved å bruke handlingen **Kopier dokument**.  
+Du kan automatisk opprette en servicekontrakt eller et kontrakttilbud for servicevarer som allerede er registrert i andre servicekontrakter eller kontrakttilbud, ved å bruke handlingen **Kopier fra dokument**.  
   
 ## <a name="creating-service-orders-for-multiple-contracts"></a>Opprette serviceordrer for flere kontrakter  
 Du kan manuelt opprette en serviceordre for en servicevare som er registrert i flere aktive kontrakter. En servicekontrakt er aktiv hvis den er undertegnet og ikke er utgått.  

@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 318e9afb29539b68aea4babf97c0608365406394
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 7e1ef15d8076aa0a17978de5418f39a2de8a1ac0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881267"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188951"
 ---
-# <a name="extending-included365finincludesd365fin_mdmd"></a>Utvide [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="extending-d365fin"></a>Utvide [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Microsoft [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] er en løsning for bedriftsadministrasjon som hjelper selskaper å knytte sammen økonomi, salg, service og drift for å strømlinjeforme forretningsprosesser, forbedre kundesamhandling og ta bedre beslutninger. [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i skyen og for brukere av forskjellige enheter som alltid er oppdatert. Med denne moderne forretningsplattformen kan du raskt og enkelt skreddersy, utvide og lage programmer slik at de passer til dine behov, med liten eller ingen kodeutvikling.  
 
 Det finnes mange fordeler med å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en plattform for apputviklere, blant annet disse:
@@ -30,7 +30,7 @@ Det finnes mange fordeler med å bruke [!INCLUDE[d365fin](includes/d365fin_md.md
 * Forbedre forretningsverdien og øke avtalestørrelsen med eksisterende og nye kunder
 * Oppnå mer med en plattform som gir moderne opplevelse og tilbyr skala  
 * Få innsikt i ytelsen til oppføringene dine via skypartnerportalen eller publiseringsprosessen for Office-apper.
-* Sammen med intelligente businessapper som Power Apps, Power Automate, Power BI, Azure AI og mange flere  
+* Sammen med intelligente forretningsapper, for eksempel Power Apps, Power Automate, Power BI, Azure AI og mange flere  
 
 Ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenestene til Microsoft AppSource som:
 
@@ -39,11 +39,11 @@ Ta med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tjenestene til Microsoft AppS
 
 Med de nye utviklingsverktøyene kan du bygge utvidelser for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere. Hvis du vil gjøre deg kjent med de nye verktøyene eller lære om utvidelser 2.0, kan du ta en titt her: [aka.ms/GetStartedWithApps](https://aka.ms/GetStartedWithApps).  
 
-Finn opplysninger om apper og konsulenttjenester som er tilgjengelige i [Microsoft AppSource](https://appsource.microsoft.com/consulting-services).
+Finn opplysninger om apper og konsulenttjenester som er tilgjengelige i [Microsoft AppSource](https://appsource.microsoft.com/marketplace/consulting-services?country=US&page=1&product=dynamics-365%3Bdynamics-365-business-central).
 
 Microsoft har lagt til en katalog med konsulenttjenestetilbud for løsninger basert på [!INCLUDE[prodshort](includes/prodshort.md)], Power BI og Power Apps i AppSource som hjelper forretningsbrukere å komme raskt i gang. Lær mer om [konsulenttjenestene](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-consulting).
 
-## <a name="choosing-which-services-to-offer-with-included365finincludesd365fin_mdmd"></a>Velge tjenestene som skal tilbys med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="choosing-which-services-to-offer-with-d365fin"></a>Velge tjenestene som skal tilbys med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 ### <a name="integrate-a-3rd-party-solution"></a>Integrere en tredjepartsløsning
 [!INCLUDE[d365fin](includes/d365fin_md.md)] viser mange API-er som er klare til bruk for [tilkoblingsapper](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-connect-apps) for at integrasjonen mellom tjenesten og [!INCLUDE[d365fin](includes/d365fin_md.md)] skal bli sømløs. Du kan gruppere tjenestene sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)] og gi kundene en integrert opplevelse. Lær mer om å [integrere en tredjepartsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-thirdparty-solution).
@@ -76,7 +76,7 @@ Klar til å sette i gang-prog+rammet er laget for å støtte deg når du skal ta
 
 Lær mer om hvordan du kan lage et [!INCLUDE[d365fin](includes/d365fin_md.md)]-tilbud i [Klar til å sette i gang-program](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-ready-to-go)-detaljene. Hvis du har spørsmål eller tilbakemelding om **Klar til å sette i gang**-programtilbudet, kan du [kontakte oss](mailto:dyn365bep@microsoft.com).
 
-## <a name="included365finincludesd365fin_mdmd-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra Microsoft
+## <a name="d365fin-extensions-provided-by-microsoft"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-utvidelser fra Microsoft
 Standardversjonen av produktet inneholder stadig flere utvidelser utviklet av Microsoft. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md).
 
 ## <a name="see-also"></a>Se også

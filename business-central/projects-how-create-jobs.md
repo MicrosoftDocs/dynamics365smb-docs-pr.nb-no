@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management, task
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4ac7fc5f7b3a7d4510ccf75002ca720eaae47e77
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2dd4dfa75f5ff8fc127da1e6981b3a23641362f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312919"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191286"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
@@ -30,7 +30,7 @@ Lagstrukturen gjør det mulig å dele prosjektet inn i mindre oppgaver, slik at 
 ## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil angi prosjektet med informasjon om andre prosjekter, kan du velge handlingen **Kopier prosjekt**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
@@ -40,7 +40,7 @@ Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanle
 ## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
 En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Dette gjør du ved å legge til nye linjer i hurtigfanen **Oppgaver** på siden **Prosjektkort** med én oppgave per linje. Hvert prosjekt må ha minst én oppgave.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
 2. Åpne prosjektkortet for det aktuelle prosjektet.
 3. På hurtigfanen **Oppgaver** fyller du ut feltene etter behov på en ny linje.
 4. Hvis du vil rykke inn oppgaver og opprette et hierarki, velger du handlingen **Oppgaver**, og deretter velger du handlingen **Rykk inn prosjektoppgaver**.
@@ -60,7 +60,7 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 
 **Merk**. Etter hvert som du angir informasjon på prosjektplanleggingslinjer, fylles kostinformasjon automatisk ut. Kost, pris og rabatt for ressurser og varer er i utgangspunktet basert på for eksempel informasjonen som er definert på ressurs- og varekortene.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
 2. Åpne et aktuelt prosjektkort.
 3. Velg en prosjektoppgave der feltet **Prosjektoppgavetype** inneholder **Bokføring**, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.

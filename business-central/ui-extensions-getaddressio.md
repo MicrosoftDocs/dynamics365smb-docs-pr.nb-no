@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: GetAddress.io, postcodes, postal, address, extension
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 489106d6e4e5dbb6f9c787d6ad5de556c5ec5bee
-ms.sourcegitcommit: 659cbd179d207b21fce2e365d60b423680d5156a
+ms.openlocfilehash: 98465aed1ce01122d82dbb2e0157539d014eeb03
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622356"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194214"
 ---
 # <a name="the-getaddressio-uk-postcodes-extension"></a>GetAddress.io UK Postcodes-utvidelsen
 GetAddress.io UK Postcodes-utvidelsen kan spare tid og unngå feil når du angir adresser for enhetene som kunder, leverandører, bankkonti og ansatte. For eksempel når du oppretter en kunde, du velger et postnummer og [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en liste over adresser. Velg adressen du vil bruke, og presto, er adressefeltene er fylt.  

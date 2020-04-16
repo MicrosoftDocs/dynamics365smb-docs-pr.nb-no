@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 01/17/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: e6dfedea8f6266186f2a2e380cea74ab6b9404bf
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 7c75a96b749469ca4a9fb9794281aa64e8d3678e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992124"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189534"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
@@ -49,7 +49,7 @@ I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokument
 ## <a name="editing-ledger-entries"></a>Redigere poster
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pakkesporingsnr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesship-invoice-items-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

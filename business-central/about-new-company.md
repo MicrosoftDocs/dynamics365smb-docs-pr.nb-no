@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.date: 11/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bd78244c4d8570a5e9b8fbe2d1e8a4c74d7530
-ms.sourcegitcommit: 49309bdff9b680a35032b355fe97c565845dba15
+ms.openlocfilehash: 48f540bd1f8de19ab6ae0284febf6c9c87ababdb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2695122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188903"
 ---
-# <a name="creating-new-companies-in-included365finincludesd365fin_mdmd"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-d365fin"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 I [!INCLUDE[d365fin](includes/d365fin_md.md)], beholdere for forretningsdataene som hører til en konsern eller juridisk enhet kalles et *selskap*. Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="creating-a-new-company"></a>Opprette et nytt selskap

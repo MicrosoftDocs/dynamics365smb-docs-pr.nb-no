@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2d068ed3e206f7d93b15d0cd2af56a7557ce3977
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 51c52da767fb9c192fbadbdfe68df8c36b17fb2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877930"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190422"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
 En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.

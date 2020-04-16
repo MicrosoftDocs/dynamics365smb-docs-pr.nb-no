@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/27/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6a57af4a29e2b355dfe3f261a5d83fade992551d
-ms.sourcegitcommit: 877af26e3e4522ee234fbba606615e105ef3e90a
+ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "2992090"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194430"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -29,7 +29,7 @@ Det finnes flere tastatursnarveier som lar deg jobbe uten musen og utføre raske
 
 Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster](keyboard-shortcuts.md). Noen av hurtigtastene beskrives i denne artikkelen.
 
-## <a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
 
 Hurtigoppføring er en funksjon som er beregnet på dataregistrering når du bruker tastaturet. Hurtigoppføring fungerer på felt (som på kortsider) og i lister (rader og kolonner). Det er nyttig når du utfører gjentakende skriveoppgaver som krever oppretting av flere poster i rekkefølge, for eksempel en kjørsel for ordrer eller registrering av nye varer.
 
@@ -86,11 +86,11 @@ Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime
 
 ## <a name="filtering-line-items"></a>Filtrere linjeelementer
 
-For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på Skift+F3 for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#Filtering).
+For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på Skift+F3 for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 Filtrere er spesielt nyttig når du viser og analysere lengre dokumenter. Tenk deg at du åpner en bokført salgsfaktura og filtrerer linjeelementene for å vise alle linjeelementer som har en individuell rabatt på mer enn 5 %, eller filtrer for å vise bare sykkeltilbehør med "pro" i navnet.
 
-## <a name="Focus"></a>Fokusere på linjeelementer
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusere på linjeelementer
 
 Når du arbeider med dokumenter som inneholder en linjeelementdel, for eksempel en ordre eller fakturaside, kan du bytte visning, slik at den bare fokuserer på linjeelementene. Linjeelementdelen utvides deretter, slik at den dekker omtrent hele arbeidsområdet og skjuler andre deler av siden, unntatt handlingsområdet øverst. Dette gir deg bedre oversikt over linjelementene og gir mer plass til å arbeide med dem.
 
@@ -113,6 +113,11 @@ Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger 
 > [!NOTE]
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det kan skje i andre lesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) for mer informasjon.  
+
+En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør dette, må du opprette en ny kategori og deretter kopiere/lime inn URL-adressen for den opprinnelige kategorien i den nye kategorien. Dermed opprettes det en ny økt.   
+
+> [!NOTE]
+> Ikke bruk funksjonen **Dupliser** i leseren til å opprette den nye kategorien, ettersom dette kan føre til at handlinger i én kategori blokkerer handlinger i andre kategorier, ettersom de er en del av samme økt.
 
 ## <a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
 

@@ -2,15 +2,15 @@
 title: Læringskatalog for salg og markedsføring for partner
 description: Finn alle tilgjengelige opplæringer for Business Central.
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 0e5dd14a9d7da8ea6dc25623f15338ace7d11e80
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 6c9a8952a5f0bc0144665eedd92f5c8c2384a344
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097626"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190739"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Læringskatalog for salg og markedsføring for partner
 
@@ -18,7 +18,7 @@ Er du ansvarlig for å hjelpe kundene med å kjøpe riktig løsning?
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov.  
 
-## Forretningsverdi<a name="busvalue"></a>
+## <a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
 
 | Innhold                                                                          | Beskrivelse                                                                                                                                                                                                                                                                                              | Format                                | Lengde              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -26,7 +26,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/) | Utforske Dynamics 365 Business Central-funksjoner                                                                                                                                                                                                                                                        | Nettsted                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk.                                                                                                                                                                                                | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter          |
 
-## Komme i gang<a name="get-started"></a>
+## <a name="getting-started"></a>Komme i gang<a name="get-started"></a>
 
 | Innhold                                                                                                                             | Beskrivelse                                                                                                                                                                                                                                                                                               | Format                                | Lengde              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -35,7 +35,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Arbeid som en profesjonell med data i Business Central](https://docs.microsoft.com/learn/paths/work-pro-data-dynamics-365-business-central)                                    | Har du nettopp kommet i gang med Business Central? Denne opplæringsbanen gjør det enklere for deg å forberede deg til datatypene i Business Central og finne informasjon du trenger i programmet.                                                                                                           | Gratis, elektronisk opplæringsbane i eget tempo | 2 timer 27 minutter  |
 | [Business Central YouTube-spilliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-målside for Dynamics 365 Business Central-videoer                                                                                                                                                                                                                                             | YouTube-videoer                        |                     |
 
-## Forretningsverdi<a name="busvalue"></a>
+## <a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
 
 | Innhold                                                                          | Beskrivelse                                                                                                                                                                                                                                                                                               | Format                                | Lengde              |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------|
@@ -43,7 +43,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/) | Utforske Dynamics 365 Business Central-funksjoner                                                                                                                                                                                                                                                        | Nettsted                               |                     |
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/)            | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk.                                                                                                                                                                                                | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter          |
 
-## Utvikle bedriften<a name="grow"></a>
+## <a name="grow-your-business"></a>Utvikle bedriften<a name="grow"></a>
 
 | Innhold                                                                                                                               | Beskrivelse                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | Format                                | Lengde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

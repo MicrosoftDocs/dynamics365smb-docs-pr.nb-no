@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5e7312e6e660d74089b0dce43ddf015be60ab446
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 0f5b472dca560ba12eb0461842878d622c6eaee3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315500"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194190"
 ---
 # <a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
 Image Analyzer-utvidelsen bruker kraftig bildeanalyse fra API-et for visuelt innhold for Microsoft Cognitive Services til å registrere attributter på bilder du importerer for varer og kontaktpersoner, slik at du enkelt kan gå gjennom og tilordne dem. Når det gjelder varer, kan attributter angi om varen er et bord eller en bil og om den er rød eller blå. Når det gjelder kontaktpersoner, kan attributter være kjønn eller alder.
@@ -46,7 +46,7 @@ Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[d365fin](includes/d365fin_md.m
 1. Gjør ett av følgende for å aktivere Image Analyzer-utvidelsen:
 
 * Åpne et vare- eller kontaktkort. Velg **Analyser bilder** på varslingslinjen, og følge deretter fremgangsmåten i den assisterte oppsettsveiledningen.  
-* Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Oppsett for bildeanalyse**. Merk av for **Aktiver Image Analyzer**, og fullfør deretter fremgangsmåten i den assisterte oppsettsveiledningen.  
+* Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Oppsett for bildeanalyse**. Merk av for **Aktiver Image Analyzer**, og fullfør deretter fremgangsmåten i den assisterte oppsettsveiledningen.  
 
     > [!TIP]  
     > På siden **Oppsett for bildeanalyse** kan du også endre graden av konfidens for attributtforslag. Hvis du for eksempel vil kreve en større grad av konfidens, kan du angi en høyere prosentsats.
@@ -54,7 +54,7 @@ Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[d365fin](includes/d365fin_md.m
 ## <a name="to-analyze-an-image-of-an-item"></a>Analysere et bilde av en vare
 Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble importert før du aktiverte Image Analyzer-utvidelsen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2. Velg varen, og velg deretter handlingen **Analyser bilde**.  
 3. Siden **Image Analyzer-attributter** viser de registrerte attributtene, konfidensnivået og annen informasjon om attributtet. Bruk alternativene for **Handling som skal utføres** til å angi det du vil gjøre med attributtet.  
 
@@ -64,7 +64,7 @@ Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble import
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Analysere et bilde av en kontaktperson
 Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble importert før du aktiverte Image Analyzer-utvidelsen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kontakter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.  
 2. Velg kontaktpersonen, og velg deretter handlingen **Analyser bilde**.  
 3. I hurtigfanen **Profilspørreskjema** går du gjennom forslagene og foretar korrigerer om nødvendig.  
 
@@ -74,7 +74,7 @@ Hvis analysen foreslår et attributt du ikke vil se, kan du svarteliste attribut
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Bruke din egen konto for API-et for visuelt innhold
 Du kan også bruke din egen konto for API-et for visuelt innhold, for eksempel hvis du vil analysere flere bilder enn det vi tillater.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for bildeanalyse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Image Analyzer-oppsett**, og velg deretter den relaterte koblingen.  
 2. Angi **API-URI** og **API-nøkkel** som du har fått for API-et for visuelt innhold.  
 
     > [!NOTE]  
@@ -83,11 +83,11 @@ Du kan også bruke din egen konto for API-et for visuelt innhold, for eksempel h
 ## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Se hvor mange analyser har du igjen i den gjeldende perioden
 Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjøre, i den gjeldende perioden.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for bildeanalyse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Image Analyzer-oppsett**, og velg deretter den relaterte koblingen.  
 2. **Grensetype**, **Grenseverdi** og **Utførte analyser** gir bruksinformasjonen.  
 
 ## <a name="to-stop-using-the-image-analyzer-extension"></a>Slutte å bruke Image Analyzer-utvidelsen
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Oppsett for bildeanalyse**.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Image Analyzer-oppsett**.  
 2. Fjern merket for **Aktiver Image Analyzer**.  
 
 ## <a name="see-also"></a>Se også

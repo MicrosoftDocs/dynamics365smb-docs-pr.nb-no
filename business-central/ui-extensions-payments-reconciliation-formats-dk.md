@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: aa738f326782bacdc5450bbd78ea0dffb5646fa5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076492"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194070"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Utvidelsen Betalinger og avstemminger (Danmark)
 Betal fort og uten feil ved å eksportere filer som er formatert spesielt for utveksling med leverandører eller banken. Filene øker hastigheten til betalings- og avstemmingsprosessen, og du unngår feil som kan skje når du angir informasjonen på bankens webområde manuelt.  
@@ -101,5 +101,4 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 ## <a name="see-also"></a>Se også
 [Tilpasse Business Central for [!INCLUDE[d365fin](includes/d365fin_md.md)]med utvidelser](ui-extensions.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  

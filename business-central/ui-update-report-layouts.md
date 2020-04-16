@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953110"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189390"
 ---
 # <a name="update-custom-report-layouts"></a>Oppdatere egendefinerte rapportoppsett
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  
@@ -42,7 +42,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
  Endringer i rapportoppsettene testes, men brukes ikke i de faktiske rapportoppsettene. Siden **Oppdateringslogg for rapportoppsett** åpnes og viser statusen for mulige oppdateringer for hvert rapportoppsett. Hvis det er feil i et rapportoppsett, kan du åpne rapportoppsettet direkte for redigering fra meldingen for å løse eventuelle problemer. Hvis du vil ha mer informasjon, kan du se [Rette feil](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Begrensninger i oppdateringen for egendefinert rapportoppsett  
+##  <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a> Begrensninger i oppdateringen for egendefinert rapportoppsett  
  Det finnes flere typer endringer som den automatiske oppdateringen kan bruke på egendefinert rapportoppsett, for eksempel et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Den automatiske oppdateringen kan imidlertid ikke håndtere følgende endringer i et rapportdatasett.  
 
 1.  Slettede felt, etiketter eller dataelementer.  
@@ -53,7 +53,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
  Hvis oppdateringsprosessen oppdager ett av disse problemene, kan ikke oppdateringen brukes. Du må rette opp problemene manuelt, for eksempel ved å redigere rapportoppsettet i Word, eller programmatisk ved hjelp av oppgraderingskodeenheter.  
 
-##  <a name="FixErrors"></a> Rette feil  
+##  <a name="fixing-errors"></a><a name="FixErrors"></a> Rette feil  
  Hvis du får en feilmelding når du oppdaterer eller tester oppdateringer av rapportoppsett, må du mest sannsynlig endre rapportoppsettet for å løse problemet. Les feilmeldingen for å gjøre det enklere å finne årsaken til problemet.  
 
  De vanligste problemet oppstår når et felt som brukes på oppsettet, fjernes fra rapportdatasettet. I dette tilfellet vises en linje om at et element er fjernet, i feilmeldingen. Hvis du vil løse dette problemet, må du endre oppsettet og fjerne det aktuelle feltet.  
@@ -62,7 +62,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
 Når du har endret oppsettet, kan du prøve å oppdatere det på nytt.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
  [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

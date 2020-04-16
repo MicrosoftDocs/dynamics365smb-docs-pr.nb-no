@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 53bc73248b8c69e8c2fcd03270f7698f7f6f503a
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: fc2a3a372ac82ce936418f793cdd33eb3b0ea4b9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953542"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193982"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 Hvis du vil returnere varer til leverandøren eller avbryte tjenester du har kjøpt, kan du opprette og bokføre en kjøpskreditnota som angir den ønskede endringen med hensyn til den opprinnelige kjøpsfakturaen. For å inkludere den riktige kjøpsfakturainformasjonen kan du opprette kjøpskreditnotaen direkte fra den bokførte kjøpsfakturaen, eller du kan opprette en ny kjøpskreditnota med kopiert fakturainformasjon.
@@ -43,7 +43,7 @@ Det finnes to funksjoner du kan bruke til å tilordne opprinnelig kosttilbakefø
 |Funksjon|Description|  
 |------------------|---------------------------------------|  
 |Funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** på siden **Bestillingsretur**|Kopierer linjer i en eller flere bokførte dokumenter som skal tilbakeføres til bestillingsreturen. Hvis du vil ha mer informasjon, kan du se [Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents).|  
-|**Kopier dokument**-funksjonen på sidene **Kjøpskreditnota** og **Bestillingsretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** på siden **Kjøpsoppsett**.|
+|Funksjonen **Kopier fra dokument** på siden **Kjøpskreditnota** og **Bestillingsretur**|Kopierer både hodet og linjene i et bokført bilag som skal tilbakeføres.<br /><br /> Krever at du merker av for **Bruk opprinnelig kostpris** på siden **Kjøpsoppsett**.|
 
 For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra-varepost** på alle typer returdokumentlinjer, og deretter velge nummeret på den opprinnelige kjøpsposten. Dermed knyttes kjøpskreditnotaen eller bestillingsreturen til den opprinnelige kjøpsposten, og verdien av varen fastsettes til opprinnelig enhetskost.
 
@@ -73,7 +73,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.
 3. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
-4. Velg handlingen **Kopier dokument**.
+4. Velg handlingen **Kopier fra dokument**.
 5. Velg **Kopier kjøpsdokument** i **Bilagstype**-feltet på siden **Kopier salgsdokument**.
 6. Velg feltet **Bilagsnr.** for å åpne siden **Bokførte kjøpsfakturaer**, og velg deretter den bokførte kjøpsfakturaen som inneholder linjer du vil tilbakeføre.
 7. Merk av for  **Gjenberegn linjer**  hvis du vil at de kopierte bokførte kjøpsfakturalinjene skal oppdateres med endringer i varepris og enhetskost etter at fakturaen er bokført.
@@ -87,7 +87,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 4. I **Linjer**-hurtigfanen fyller du ut linjene manuelt, eller kopier informasjon fra andre dokumenter for å fylle ut linjene automatisk:
 
     - Bruk funksjonen  **Hent bokførte dokumentlinjer som skal tilbakeføres** for å kopiere én eller flere bokførte dokumentlinjer fra ett eller flere bokførte dokumenter. Denne funksjonen tilbakefører alltid kost nøyaktig fra den bokførte dokumentlinjen. Denne funksjonen er beskrevet i følgende fremgangsmåter.    
-    - Bruk funksjonen **Kopier dokument** til å kopiere et eksisterende dokument til ordrereturen. Bruk denne funksjonen til å kopiere hele dokumentet. Det kan være et bokført dokument eller et dokument som ikke er bokført ennå. Med denne funksjonen er nøyaktig kosttilbakeføring bare mulig hvis det er merket av for **Bruk opprinnelig kostpris** på siden **Salgsoppsett**.  
+    - Bruk funksjonen **Kopier fra dokument** til å kopiere et eksisterende dokument til ordrereturen. Bruk denne funksjonen til å kopiere hele dokumentet. Det kan være et bokført dokument eller et dokument som ikke er bokført ennå. Med denne funksjonen er nøyaktig kosttilbakeføring bare mulig hvis det er merket av for **Bruk opprinnelig kostpris** på siden **Salgsoppsett**.  
 
 4. Velg handlingen **Hent bokførte dokumentlinjer som skal tilbakeføres**.
 5. Øverst på siden **Bokførte kjøpsdokumentlinjer** merker du av for **Vis bare reversible linjer** hvis du bare vil se salgslinjer med antall som ennå ikke er tilbakeført. Hvis for eksempel antallet for en bokført kjøpsfaktura allerede har blitt tilbakeført, kan det hende du ikke vil inkludere det antallet på et nytt bestillingsreturdokument.
@@ -181,7 +181,7 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 2.  Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3.  Du kan også slette individuelle bestillingsreturer manuelt.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsreturn-items-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  

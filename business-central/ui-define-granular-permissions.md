@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 11/07/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a162246fcd0a6f3db07922cc100e21aacbc76fbe
-ms.sourcegitcommit: b570997f93d1f7141bc9539c93a67a91226660a8
+ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943212"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194478"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhetssystemet kan du kontrollere hvilke objekter en bruker har tilgang til i hver database eller hvert enkelt miljø. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utviklerhåndboken og ITPro-hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -130,18 +130,18 @@ En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, Sales-Post.
 Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre kodeenheten. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre kodeenheten Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tillatelsessett**, og velg deretter den relaterte koblingen.
-2.  Du kan også gå til siden **Brukere** og velge handlingen **Tillatelsessett**.
-3.  På siden **Tillatelsessett** velger du handlingen **Ny**.
-4.  Fyll ut feltene etter behov på en ny linje.
-5.  Velg handlingen **Tillatelser**.
-6.  På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.
+1.    Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tillatelsessett**, og velg deretter den relaterte koblingen.
+2.    Du kan også gå til siden **Brukere** og velge handlingen **Tillatelsessett**.
+3.    På siden **Tillatelsessett** velger du handlingen **Ny**.
+4.    Fyll ut feltene etter behov på en ny linje.
+5.    Velg handlingen **Tillatelser**.
+6.    På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.
 
     Dette starter en innspillingsprosess som fanger opp alle handlingene dine i brukergrensesnittet.
-7.  Gå til de ulike sidene og aktivitetene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
-8.  Når du vil avslutte opptaket, gå tilbake til **Tillatelser**-siden, og velg deretter **Stopp**-handlingen.
-9.  Velg **Ja**-knappen for å legge til registrerte rettigheter til det nye tillatelsessettet.
-10. Angi om brukere skal kunne sette inn, endre eller slette poster i tabeller som er registrert for hvert objekt i listen over registrerte.
+7.    Gå til de ulike sidene og aktivitetene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
+8.    Når du vil avslutte opptaket, gå tilbake til **Tillatelser**-siden, og velg deretter **Stopp**-handlingen.
+9.    Velg **Ja**-knappen for å legge til registrerte rettigheter til det nye tillatelsessettet.
+10.    Angi om brukere skal kunne sette inn, endre eller slette poster i tabeller som er registrert for hvert objekt i listen over registrerte.
 
 ## <a name="security-filters---to-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhetsfiltre - Slik begrenser du brukerens adgang til bestemte poster i en tabell
 For sikkerhet på postnivå i [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. Dette betyr at brukeren ikke har tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruke sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) hjelpen for utviklere og IT-eksperter.
@@ -204,5 +204,4 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Legge til brukere i Office 365 for business](https://aka.ms/CreateOffice365Users)  
-[Lisensveiledning for Microsoft Dynamics 365 Business Central](https://aka.ms/BusinessCentralLicensing)  
 [Sikkerhet og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjelpen for utviklere og IT-eksperter

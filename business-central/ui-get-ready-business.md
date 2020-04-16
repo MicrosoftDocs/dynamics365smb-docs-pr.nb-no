@@ -2,32 +2,32 @@
 title: Velkommen| Microsoft-dokumentasjon
 description: Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og sidene du bruker til å bli klar til å gjøre forretninger i Business Central.
 documentationcenter: ''
-author: SusanneWindfeldPedersen
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, setup, wizard, experience
-ms.date: 11/15/2019
-ms.author: solsen
-ms.openlocfilehash: 4f711e2bf06d0072fb063fd3d8ab5cb1e0813b68
-ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
+ms.date: 04/01/2020
+ms.author: edupont
+ms.openlocfilehash: 4eb11d34927c329d35fb8ff9ab2bef7d5b18438c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809108"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193494"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du åpner siden fra rollesenteret for forretningsleder ved å velge handlingen **Oppsett og utvidelser** og deretter handlingen **Assistert oppsett**.
+For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Hvis du vil ha tilgang til siden, velger du ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og deretter handlingen **Assistert oppsett**.
 
 Hvis du vil åpne listen over veiledninger for assistert oppsett for en hvilken som helst rolle, kan du alternativt velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett** og deretter velge den relaterte koblingen.
 
 Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre veiledninger for assistert oppsett på listen kan hjelpe deg, avhengig av dine behov.
 
-Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt oppsett** for å få tilgang til oppsettsider der du kan fylle ut oppsettfelt for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
+Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og deretter handlingen **Avanserte innstillinger**. I **Avanserte innstillinger** gir delen **Manuelt oppsett** tilgang til å konfigurere sider der du kan fylle ut feltene for oppsett for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
 > [!NOTE]  
 > Listen over assisterte oppsettsveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Essential**-opplevelsen gir tilgang til færre enn hva **Premium**-opplevelsen gjør.<br /><br />
@@ -36,7 +36,7 @@ Hvis et område ikke er dekket av et automatisk oppsett, velger du **Manuelt opp
 Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**. Hvis du vil kjøre veiledningen for assistert oppsett, velger du de tre prikkene og velger deretter **Start oppsett**-handlingen.
 
 ## <a name="role-center"></a>Rollesenter
-Få en oversikt over bedriften din i Rollesenter. Til venstre ser du et navigasjonsfelt som gir deg enkel tilgang til kunder, leverandører, varer og så videre. I midten finner du **Aktiviteter**-flisene. **Aktiviteter** viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet.
+Få en oversikt over bedriften din i Rollesenter. Øverst ser du et navigasjonsfelt som gir deg enkel tilgang til kunder, leverandører, varer og så videre. I midten finner du **Aktiviteter**-flisene. **Aktiviteter** viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet.
 
 **Sentrale ytelsesindikatorer** kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over **favorittkunder** i rollesenteret, for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
 
@@ -51,7 +51,7 @@ Under **Selskapsinnstillinger** kan du vise og redigere informasjon om gjeldende
 ## <a name="adding-users-and-permissions"></a>Legge til brukere og tillatelser
 Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
 
-Når brukere opprettes i Microsoft 365, kan de importeres til **Brukere**-siden i ved å bruke handlingen **Hent nye brukere fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
+Når brukere opprettes i Microsoft 365, kan de importeres til **Brukere**-siden i ved å bruke handlingen **Få oppdateringer fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 ## <a name="getting-help"></a>Få hjelp
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du verktøytips som kan hjelpe deg gjennom ulike forretningsprosesser. For hvert feltverktøytips trykker du på Ctrl+F1 eller velger koblingen **Lær mer** for å åpne hjelpen for den aktuelle siden. Spørsmålstegnet øverst i høyre hjørne henviser også til hjelpen for produktet.

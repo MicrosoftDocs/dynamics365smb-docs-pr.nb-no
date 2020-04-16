@@ -9,20 +9,20 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: 7ba27dd454bfac63a68db93520afaca266506029
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 56adf1822da10e4743d242df29aacad122fc954f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310951"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189654"
 ---
 # <a name="preview-posting-results"></a>Forhåndsvise bokføringsresultater
 I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokføring**-knappen for å se gjennom de forskjellige posttypene som opprettes når du bokfører dokumentet eller kladden.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Forhåndsvise finansposter som opprettes ved bokføring av en kjøpsfaktura
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Opprett en kjøpsfaktura. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. Velg **Forhåndsvis bokføring**.
 4. På siden **Forhåndsvisning av bokføring** velger du **Finanspost** og deretter **Vis relaterte poster**.  

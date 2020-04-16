@@ -2,15 +2,15 @@
 title: Læringskatalog for bedriftens beslutningstaker
 description: Læringskatalog for bedriftens beslutningstaker
 author: loreleishannonmsft
-ms.date: 02/19/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: 29830b2d243cde7ab5b68f0967883db07c713f24
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.openlocfilehash: 1e02527e370308f5332a0453b0e05f3838b0194a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097578"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3190878"
 ---
 # <a name="business-decision-makers-learning-catalog"></a>Læringskatalog for bedriftens beslutningstaker
 
@@ -18,13 +18,13 @@ Avgjør du om du skal investere i ny teknologi?
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov.  
 
-## Forretningsverdi<a name="busvalue"></a>
+## <a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
 
 | Innhold                                                                 | Beskrivelse                                                                                                | Format                                | Lengde     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](https://docs.microsoft.com/learn/modules/dynamics-365-business-central/) | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk. | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter |
 
-## Komme i gang<a name="get-started"></a>
+## <a name="getting-started"></a>Komme i gang<a name="get-started"></a>
 
 | Innhold                                                                                                                             | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

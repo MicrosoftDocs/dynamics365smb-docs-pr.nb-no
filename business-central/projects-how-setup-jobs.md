@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97e0a8743cc9c86f37432c0b7d6cd5351883176b
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: e6d277656ab5b159aaca93e03a333ba6232c3bcc
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312775"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191181"
 ---
 # <a name="set-up-jobs"></a>Konfigurer prosjekter
 
@@ -22,7 +22,7 @@ Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du a
 For hver jobb angir du deretter individuelle jobbkort med informasjon om priser for prosjektvarer, prosjektressurser og finanskonti, og må du definere prosjektbokføringsgrupper.
 
 ## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -44,13 +44,13 @@ Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanl
 >  
 > Hvis sporing av prosjektforbruk *ikke* er aktivert, enten på siden **Prosjektoppsett** eller på det individuelle prosjektet, og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladdelinjer. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Merk av for **Bruk forbrukskobling som standard**.
 
 ## <a name="to-set-up-prices-for-job-resources"></a>Slik konfigurerer du priser for prosjektressurser
 Du kan definere bestemte priser for ressurser for et prosjekt. Du bruker siden **Ressurspriser for prosjekt** til å gjøre dette.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Ressurs**.
 3. Fyll ut feltene etter behov på siden **Ressurspriser for prosjekt**.
 
@@ -64,7 +64,7 @@ Verdien i feltet **Salgspris** for ressursen blir brukt på prosjektplanleggings
 ## <a name="to-set-up-prices-for-job-items"></a>Slik konfigurerer du priser for prosjektvarer
 Du kan definere bestemte priser for varer for et prosjekt. Du bruker siden **Varepriser for prosjekt** til å gjøre dette.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Vare**.
 3. Fyll ut feltene etter behov på siden **Varepriser for prosjekt**.
 
@@ -78,7 +78,7 @@ Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinj
 ## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Slik setter du opp priser for prosjektfinanskonti
 Du kan definere bestemte priser for finansutgifter for et prosjekt. Du bruker siden **Finanskontopriser for prosjekt** til å gjøre dette.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Finanskonto**.  
 3. Fyll ut feltene etter behov på siden **Finanskontopriser for prosjekt**.
 
@@ -92,7 +92,7 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 > [!NOTE]  
 >   De nødvendige kontiene i kontoplanen må defineres før du definerer bokføringsgrupper. Hvis du vil ha mer informasjon, kan du se [Definere eller endre kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper – prosjekt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** og fyll deretter ut kontofeltene som beskrevet i tabellen nedenfor.  
 
 | Kontofelt | Beskrivelse |

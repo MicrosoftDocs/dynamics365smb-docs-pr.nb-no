@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a11e2064467ffa168603aed74c24f4bb972ea10d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 368461d6d29f77586e2ee047f571ef4fae583b14
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312823"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192822"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig. Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).
@@ -38,23 +38,23 @@ Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasj
 > [!NOTE]
 > Når du har brukt den nye metoden til å opprette VIA-poster, kan ikke du slette metoden eller endre den.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Lukk siden.   
-4. Hvis du vil at denne nye metoden skal være standard, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Prosjektoppsett** og velger deretter den relaterte koblingen.  
+4. Hvis du vil at denne nye metoden skal være standard, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Prosjektoppsett**, og velger deretter den relaterte koblingen.  
 5. Velg metoden fra listen i feltet **Standard VIA-metode**.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Slik definerer du en VIA-metode for et prosjekt:
 Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt som gjelder. I enkelte tilfeller er VIA-metoden for prosjekt som du kan bruke, definert for deg som en standard.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Jobber**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).  
 3. På siden **Prosjektkort** i feltet **VIA-metode** velger du en VIA-metode fra listen. Hvis en standardmetode er definert, kan du velge et annet alternativ etter behov.  
 
 ## <a name="to-calculate-wip"></a>Slik beregner du VIA:
 Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapportering ved periodeslutt. Du bruker kjørselen **Beregn VIA for prosjekt** til å gjøre dette.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Beregn VIA for prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Beregn VIA for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Beregn VIA**.
 3. På siden **Beregn VIA for prosjekt** fyller du ut feltene etter behov.
 4. Velg **OK**.  
@@ -65,7 +65,7 @@ Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapporteri
 ## <a name="to-post-wip"></a>Slik bokfører du VIA
 Når du har beregnet VIA, kan du bokføre VIA i balansekonti for rapporteringen ved periodens slutt. Du bruker kjørselen **Bokfør VIA i Finans for prosjekt** til å gjøre dette.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokfør VIA i Finans for prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokfør VIA i Finans for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov på siden **Bokfør VIA i Finans for prosjekt**.  
 3. Velg **OK**.
 
@@ -77,7 +77,7 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 > [!NOTE]  
 >   Vareposter oppretter vareposter og reduserer lagerantallet. Kjørselen **Bokfør lagerkost i Finans** overfører kosten fra lager til Finans. For ressurser opprettes ressursposter.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg en journal for det aktuelle prosjektet, og velg deretter handlingen **Beregn gjenstående forbruk**.  
 3. På siden **Beregn gjenstående forbruk for prosjekt** skriver du inn dokumentnummeret og bokføringsdatoen som skal settes inn i kladden, og deretter velger du **OK**-knappen.  
 4. Oppdater journalen med eventuelle endringer som kreves.  
@@ -86,7 +86,7 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 ## <a name="to-view-job-ledger-entries"></a>Slik viser du prosjektposter
 Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fortløpende og starter med 1. I prosjektjournalen kan du få en oversikt over alle prosjektpostene.    
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektjournaler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektjournaler**, og velg deretter den relaterte koblingen.
 2. Velg den relevante journalen, og velg deretter handlingen **Prosjektposter**.
 
 På siden **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ee57d1faf3603229e9ef9017a47c681bd78336c
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a8db87b7dd365123a21633e4905d56dd13bf7b40
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2316431"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193614"
 ---
 # <a name="make-sales-quotes"></a>Gi salgstilbud
 Du kan opprette et tilbud for å registrere tilbudet til en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -26,7 +26,7 @@ Mens du forhandler med kunden, kan du endre og sende tilbudet på nytt så ofte 
 Du kan fylle kundefelt i tilbudet på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-quote"></a>Slik oppretter du et tilbud
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilbud**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilbud**, og velg deretter den relaterte koblingen.
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
    Andre felt på siden **Tilbud** inneholder nå standardinformasjon om den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:

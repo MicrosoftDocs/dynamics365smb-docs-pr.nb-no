@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 22014c6df6ccffa08ff2fed25d40ce4c0312d57d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: ff34a7a8a1086b41d2df2a75955017fc82866fb6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315591"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194406"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeide med datoer og klokkeslett i kalenderen
 
@@ -121,7 +121,7 @@ Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det 
 |t 23|Tirsdag i uke 23 i arbeidsdatoåret|
 |t-1|Tirsdag i uke 1 i arbeidsdatoåret|
 
-##  <a name="BKMK_SettingDateRanges"></a> Angi intervaller
+##  <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Angi intervaller
 
 I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett og datoer og klokkeslett som inneholder en startverdi og eventuelt en sluttverdi, for å vise bare dataene i dette intervallet. Standardreglene gjelder for angivelse av datointervaller.
 

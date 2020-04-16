@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b5129e4e9ddfe60d969e705d62e023716cde5b6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 33543ffddf286fd2e224b74768adb5d00046078b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311143"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189750"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Utvidelsen QuickBooks Datamigrering
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra QuickBooks til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis virksomheten din bruker QuickBooks i dag, kan du eksportere relevant informasjon og deretter åpner en assistert oppsettsveiledning for å laste opp data til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -54,7 +54,7 @@ Du må laste ned Microsofts verktøy for dataeksport for å få dataene dine ut 
 > For tiden fungerer bare dataeksportverktøyet med QuickBooks 2017 og 2018.
 
 ## <a name="finding-the-quickbooks-data-migration-extension"></a>Finne QuickBooks-utvidelse for dataoverføring
-Utvidelsen Datamigrering for QuickBooks er installert og klar som en integrert del av den assisterte oppsettsveiledningen for datamigrering. Hvis du er klar til å starte nå og har eksportert dataene dine fra QuickBooks, kan du velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Assistert oppsett** og deretter velge den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.  
+Utvidelsen Datamigrering for QuickBooks er installert og klar som en integrert del av den assisterte oppsettsveiledningen for datamigrering. Hvis du er klar til å starte nå og har eksportert dataene dine fra QuickBooks, kan du velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**, og deretter velge den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.  
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hva gjør jeg etter at jeg har overført dataene?
 Etter at du har overført dataene, har transaksjoner statusen Ikke bokført, slik at du kan se gjennom dem og foreta justeringer. Hvis du vil se gjennom transaksjonene, går du til siden der de vanligvis er. Hvis du for eksempel vil se gjennom ikke-bokførte salgsfakturaer, går du til siden Salgsfakturaer. Hvis du vil se gjennom utbetalingskladder, går du til siden Utbetalingskladder.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 85dfc44f453e27cad0b0a3385f2822715bc252e7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: 279ca56885eb4bab95322387bc6b9f857139c370
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877642"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191310"
 ---
 # <a name="planning"></a>Planlegging
 Produksjonsoperasjonene som kreves for å transformere tilgang til ferdigvarer, må planlegges daglig eller ukentlig, avhengig av produktenes volum og beskaffenhet. [!INCLUDE[d365fin](includes/d365fin_md.md)] har funksjoner for å dekke forventet og faktisk behov fra salg, montering og produksjon, i tillegg til funksjoner for distribusjonsplanlegging ved hjelp av lagerføringsenheter og lokasjonsoverføringer.
@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |------------|-------------|  
 |Få en kort innføring i hvordan planleggingssystemet kan brukes til å avdekke og prioritere behov og foreslå en konsolidert, balansert forsyningsplan for MPS eller MRP.|[Om planleggingsfunksjonalitet](production-about-planning-functionality.md)|
 |Forstå hvordan alle aspekter av planleggingssystemet fungerer, og hvordan du justerer algoritmer for å oppfylle krav i forskjellige miljøer.|[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)|
-|Lære hvordan planleggingslogikken skiller mellom behov i lokasjoner i henhold til LFE-oppsettet, og behov uten lokasjonskoder.|Se [Planlegge med/uten lokasjoner](production-planning-with-without-locations.md).|
+|Lære hvordan planleggingslogikken skiller mellom behov i lokasjoner i henhold til LFE-oppsettet, og behov uten lokasjonskoder.|[Planlegge med/uten lokasjoner](production-planning-with-without-locations.md)|
 |Prognose for behov presentert av forventede salgs- og produksjonskomponenter.|[Opprette en behovsprognose](production-how-to-create-a-forecast.md)|  
 |Opprette én-til-én-produksjonsordrer automatisk fra en ordre for å dekke det nøyaktige behovet for den aktuelle ordrelinjen.|[Opprette produksjonsordrer fra ordrer](production-how-to-create-production-orders-from-sales-orders.md)|
 |Opprette en prosjektproduksjonsordre direkte fra en flerlinjers ordre som representerer et produksjonsprosjekt.|[Planlegge prosjektordrer](production-how-to-plan-project-orders.md)|

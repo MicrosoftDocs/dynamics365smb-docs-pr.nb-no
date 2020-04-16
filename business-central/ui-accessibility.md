@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: cb898a459bdf5d0b4ced3baadd2a245cd23b8f38
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 1098e0998369e15bd9484ba33b808b9b435b538c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311455"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192126"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Tilgjengelighet og hurtigtaster
 Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter følgende tilgjengelighetsfunksjoner:  
@@ -48,18 +48,18 @@ Dette emnet inneholder informasjon om funksjonene som gjør [!INCLUDE[d365fin](i
 
 -->
 
-##  <a name="Navigation"></a> Navigasjon  
+##  <a name="navigation"></a><a name="Navigation"></a> Navigasjon  
  Du kan gå mellom faneblad og handlinger på båndet, elementer i navigasjonsstolpen og andre kontroller på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider og -rapporter med tastaturet. Hvis du vil flytte fokus fra én fane, handling eller kontroll til en annen, trykker du på tabulatortasten for å flytte fremover. Trykk på Skift+Tab for å flytte bakover.  
 
  Ved hjelp av tabulatorrekkefølgen kan du for eksempel også bytte mellom hovedlesersiden og dialogboksene som ber om bekreftelse, eller påloggingssiden.  
 
-##  <a name="Headings"></a> Overskrifter  
+##  <a name="headings"></a><a name="Headings"></a> Overskrifter  
  HTML-kilden for [!INCLUDE[d365fin](includes/d365fin_md.md)]-innhold bruker koder for å hjelpe brukere av hjelpeteknologi til å forstå strukturen og innholdet på siden. For eksempel på listesider defineres kolonnene i TH-koder og kolonneoverskriftene defineres med TITTEL-attributtet inni koden. Overskrifter for elementer, for eksempel hurtigfaner faktabokser og felt, inkluderes i overskriftskoder (H1, H2, H3 og H4).  
 
-##  <a name="Images"></a> Bilde og koblinger  
+##  <a name="image-and-links"></a><a name="Images"></a> Bilde og koblinger  
  Det angis en beskrivende tekst for bilder med ALT-attributtet inni IMG-koden. Det angis en beskrivende tekst for hyperkoblinger med tittelattributtet inni A-koden.  
 
-##  <a name="AssistiveTech"></a> Hjelpeteknologi  
+##  <a name="assistive-technologies"></a><a name="AssistiveTech"></a> Hjelpeteknologi  
 [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare. Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[d365fin](includes/d365fin_md.md)]-sider.  
 
 ## <a name="for-more-accessibility-information"></a>For mer informasjon om tilgjengelighet  

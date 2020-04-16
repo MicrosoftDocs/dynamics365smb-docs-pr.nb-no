@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881921"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189270"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
 Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS Norge AS. Noen utføres vanligvis av én bruker, mens andre omfatter flere ulike brukerroller. For å simulere arbeidsmiljøet inneholder noen av gjennomgangene konfigureringstrinn som er nødvendige for å fullføre øvelsene som beskrevet. Disse trinnene kan gi innsikt i typen informasjon som brukerne må dele med IT-medarbeiderne i selskapet.  

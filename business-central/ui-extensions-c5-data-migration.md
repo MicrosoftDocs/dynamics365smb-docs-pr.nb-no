@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c8eba304746125e9262ebfff95cfd2379eec08c8
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: cdf14002e28b777441a803fc7804fdac8afe5b77
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311335"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194334"
 ---
 # <a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også overføre historiske poster for finanskonti.
@@ -102,7 +102,7 @@ Den største størrelsen du kan laste opp til [!INCLUDE[d365fin](includes/d365fi
 Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
 1. I C5 bruker du **Eksportere databasen**-funksjonen for å eksportere dataene. Deretter sender du eksportmappen til en komprimert (pakket) mappe.  
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Datamigrering** og deretter velge **Datamigrering**.  
+2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Datamigrering**, og velger deretter **Datamigrering**.  
 3. Fullfør trinnene i den assisterte oppsettsveiledningen. Pass på at du velger **Importer fra Microsoft Dynamcis C5 2012** som datakilde.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Se statusen for migreringen

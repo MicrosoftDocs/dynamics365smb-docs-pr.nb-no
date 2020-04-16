@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 74d161636d9110fcc366733245951e3044662e80
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953254"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3193820"
 ---
 # <a name="change-the-current-report-layout"></a>Endre gjeldende rapportoppsett
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
@@ -55,7 +55,7 @@ Navnet på det valgte egendefinerte oppsettet vises nå i feltet **Beskrivelse a
 
 Nå kan du gå til kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for forskjellige dokumenter som du oppretter for den aktuelle kunden eller leverandøren, for eksempel ordrebekreftelser eller purringer. Hvis du vil ha mer informasjon, se [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleschange-documents-dynamics-365-business-centralindex"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

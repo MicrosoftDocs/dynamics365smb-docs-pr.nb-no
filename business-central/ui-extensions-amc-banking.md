@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 10/14/2019
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9c9d927fb13d68c195bd457eb6bd2cbbfe078ea2
-ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
+ms.openlocfilehash: 493abf6f7309d6eb0274f4f416e6e5aea782b031
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767541"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3194358"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Bruke utvidelsen AMC Banking 365 Fundamentals
 Utvidelsen AMC Banking 365 Fundamentals gjør det enklere og mer nøyaktig å sende data til banker. Utvidelsen kobler [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med tjenesten AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central, som kan konvertere bankdata fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til formater som kreves av over 600 banker over hele verden. Dette gjør det for eksempel enklere å overføre betalinger og kreditter til leverandører ved å registrere innbetalingene i [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter laste dem opp til banken. Formatene kan også forenkle bankavstemmingsprosesser. Se [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help) mer informasjon.

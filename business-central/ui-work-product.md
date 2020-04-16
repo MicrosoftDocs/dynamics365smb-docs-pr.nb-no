@@ -1,38 +1,41 @@
 ---
 title: Arbeide med de generelle funksjonene i Business Central | Microsoft-dokumentasjon
 description: Beskriver de generelle funksjonene du bruker til å arbeide med data i Business Central, for eksempel angi verdier, sortere data og bytte visninger.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/13/2020
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 45db775e7d615f3c11a9617d36e4111baa40ccc1
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953926"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189345"
 ---
-# <a name="working-with-included365finincludesd365fin_mdmd"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-d365fin"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
 Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
+
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips og triks
 
 > [!TIP]
 > Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
 >
 > [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
 
-> [!NOTE]
-> Du kan bruke andre generelle funksjoner som er mer firmarelaterte, i tillegg til de generelle grensesnittfunksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Generelle forretningsfunksjoner](ui-across-business-areas.md).
+## <a name="links-to-learn-more"></a>Koblinger til Finn ut mer
 
 Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til emnene som beskriver dem.
 
-| Til | Se |
+> [!NOTE]
+> Du kan bruke andre generelle funksjoner som er mer firmarelaterte, i tillegg til de generelle grensesnittfunksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Generelle forretningsfunksjoner](ui-across-business-areas.md).
+
+| Hvis du vil  | Se |
 | --- | --- |
 |Søk etter en bestemt side, rapport, handling, hjelpeemne eller partnerutvidelse. |[Finne sider og informasjon med Fortell meg](ui-search.md) |
 |Få en oversikt over sider for rollen og andre roller, og gå til sider.|[Finne sider med rolleutforskeren](ui-role-explorer.md)|
@@ -56,11 +59,22 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365f
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathswork-pro-data-dynamics-365-business-central"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="choosing-a-desktop-browser"></a>Velge en skrivebordsleser
+
+[!INCLUDE[prodshort](includes/prodshort.md)] støtter flere weblesere som alle tilbyr forskjellige funksjoner og muligheter. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) og lesere for [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+
+- Hvis det mulig, bør du unngå eldre lesere, for eksempel Internet Explorer, og bytte til en av våre anbefalte, moderne lesere, for eksempel den [nye Microsoft Edge](https://www.microsoft.com/edge/).  
+
+    Internet Explorer støttes fremdeles, men ettersom den nye Edge-leseren er tilgjengelig for Windows Server nå, ser vi en nedadgående trend for Internet Explorer. Du kan også få [en prøveversjon med Edge i IE-modus](https://www.microsoft.com/edge/business). Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+- La nettleseren alltid være oppdatert til den nyeste versjonen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
 [Definere Business Central](setup.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
+[Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]

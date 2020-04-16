@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 11/20/2019
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cf587dca8224e742ecbde30bcabc35697bb6f2a
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881003"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187919"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps
 
@@ -24,7 +24,7 @@ Du kan gjøre [!INCLUDE[prodshort](includes/prodshort.md)]-data tilgjengelige so
 > [!NOTE]  
 > Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power Apps.  
 
-## <a name="to-add-includeprodshortincludesprodshortmd-as-a-data-source-in-power-apps"></a>Legge til [!INCLUDE[prodshort](includes/prodshort.md)] som en datakilde i Power Apps
+## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>Legge til [!INCLUDE[prodshort](includes/prodshort.md)] som en datakilde i Power Apps
 
 1. I leseren, kan du gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/), og deretter logge på.
 2. På startsiden velger du **Apper**, **Opprett en app** og **Lerret** for å opprette en ny lerretsapp. Denne appen blir utformet for bruk på en mobil enhet, men du kan også velge å bruke en annen mal.
@@ -32,7 +32,7 @@ Du kan gjøre [!INCLUDE[prodshort](includes/prodshort.md)]-data tilgjengelige so
     Neste trinn for å opprette en Power App er å velge data. Velg pilikonet og deretter velge **Ny tilkobling** i øvre venstre side av siden.
 3. Velg **Business Central** i listen over tilgjengelige tilkoblinger, og velg deretter **Opprett**-knappen.
 
-    Power Apps vil koble til dine [!INCLUDE [prodshort](includes/prodshort.md)] med legitimasjonen du logget på med. Hvis du ikke er administrator i [!INCLUDE [prodshort](includes/prodshort.md)], må du kanskje logge på med en annen konto.  
+    Power Apps kobler til [!INCLUDE [prodshort](includes/prodshort.md)] med legitimasjonen du logget på med. Hvis du ikke er administrator i [!INCLUDE [prodshort](includes/prodshort.md)], må du kanskje logge på med en annen konto.  
 
 4. Power Apps viser en liste over *Miljøer og selskaper* som er tilgjengelige fra [!INCLUDE [prodshort](includes/prodshort.md)]. Velg miljøet og selskapet som inneholder dataene du vil koble til. Nå skal du se en liste over APIer. Velg en **API** du vil koble til.
 
