@@ -1,8 +1,6 @@
 ---
 title: Lukke regnskapsperioder for et regnskapsår | Microsoft-dokumentasjon
 description: Beskriver hvordan du lukker regnskapsperiodene som utgjør regnskapsåret.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ba6cd85d50f9d2b4d98fb45cbd38bcc57e08e3a2
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a696f45446f93dba2dedb0976ff646dd6e4b12b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313811"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195878"
 ---
 # <a name="close-accounting-periods"></a>Lukke regnskapsperioder
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 
 ## <a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. På siden **Regnskapsperioder** velger du handling **Lukk år**.
 
     Hvis flere enn ett regnskapsår er åpne, blir det tidligste valg for lukking. Det vises en melding som sier hvilket år som lukkes, og følgene ved å lukke året forklares.
@@ -39,7 +37,8 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Posten
 Når et regnskapsår er avsluttet, må du lukke resultatkontiene, og overføre årets resultat til resultatkontoen i balansen. Du kan gjenta dette hver gang du bokfører til det lukkede regnskapsåret.
 
 ## <a name="see-also"></a>Se også
+
 [Avslutte tablåer](year-close-books.md)  
 [Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  
-[Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md)  
+[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

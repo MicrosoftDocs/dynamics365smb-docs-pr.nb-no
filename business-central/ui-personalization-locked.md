@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 10/01/2019
+ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: c77664a1013804de13303c8e1d162c437cf5d6e7
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 9774c3472a70967f6b0250e2f02e817f26e9b710
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2315135"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3195726"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor en side er låst fra tilpasning
 
-Det finnes to betingelser som hindrer deg i å tilpasse en side. Enten hvis siden er låst (som angis av ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpassingslås")), eller den er sperret (som angis av ![Tilpassing sperret](media/personalization-blocked-icon.png "Tilpassing sperret")-ikonet).
+Det finnes to betingelser som hindrer deg i å tilpasse en side. Siden er låst (som angitt av ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås")), eller den er blokkert (angitt av ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpassing blokkert")).
 
 ## <a name="locked-from-personalizing"></a>Låst for tilpasning
 
-Hvis det er et ![Tilpassingslås](media/personalization-lock-icon.png "Tilpassingslås")-ikon i **Tilpassing**-banneret når du åpner en side, betyr dette at du er hindret fra å foreta flere tilpasningsendringer av siden.
+Hvis ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås") vises på **Tilpasse**-banneret når du åpner en side, betyr dette at du ikke kan foreta flere tilpassingsendringer av siden.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +38,7 @@ Det kan være to årsaker til dette:
 
 ### <a name="unlocking-the-page"></a>Låse opp siden
 
-Hvis du vil frigi en side og fortsette med å tilpasse den, velger du ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpassingslås") og deretter handlingen **Lås opp**.  
+Hvis du vil låse opp en side og fortsette med å tilpasse den, velger du ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås") og deretter handlingen **Lås opp**.  
 
 Før du låser opp siden må du være oppmerksom på følgende:
 
@@ -48,7 +48,7 @@ Før du låser opp siden må du være oppmerksom på følgende:
 
 ## <a name="blocked-from-personalizing"></a>Blokkert for tilpasning
 
-Hvis det er et ![Tilpassing sperret](media/personalization-blocked-icon.png "Tilpassing sperret")-ikon i **Tilpasning**-banneret, betyr det at du er sperret for å gjøre eventuelle tilpasninger på siden.
+Hvis ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpassing blokkert") vises på **Tilpasse**-banneret, betyr det at du ikke kan gjøre eventuelle tilpassinger på siden.
 
 <!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
 

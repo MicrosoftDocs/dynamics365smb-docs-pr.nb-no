@@ -28,7 +28,7 @@
 
 # Arbeide med Business Central
 ## [Oversikt](ui-work-product.md)
-## [Utskriftsvennlig jukselapp](ui-work-product.md)
+## [Utskriftsvennlig jukselapp](ui-work-product.md#cheatsheet)
 ## [Finne sider og informasjon med Fortell meg](ui-search.md)
 ## [Finne sider med rolleutforskeren](ui-role-explorer.md)
 ## [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
@@ -43,6 +43,7 @@
 ## [Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md)
 ## [Endre grunnleggende innstillinger](ui-change-basic-settings.md)
 ## [Behandle varsler](ui-smart-notifications.md)
+## [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ## Tilpasse Business Central
 ### [Tilpasse arbeidsområdet](ui-personalization-user.md)
 ### [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md)
@@ -51,7 +52,7 @@
 ### [Vise lister på ulike måter](across-display-lists-different-views.md)
 ## Skrive ut rapporter og kjøre satsvise jobber og XML-porter
 ### [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)
-### [Angi skrivervalg for rapporter](ui-specify-printer-selection-reports.md)
+### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
 ### [Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport)
 ### [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md)
 ### [Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md)
@@ -78,7 +79,7 @@
 ### [Definere bokføringsgrupper](finance-posting-groups.md)
 ### [Klargjøre finansrapportering med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)
 ### [Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
-### [Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md)
+### [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)
 ### [Definere merverdiavgift (mva)](finance-setup-vat.md)
 ### [Definere urealisert merverdiavgift for kontantbasert regnskap](finance-setup-unrealized-vat.md)
 ### [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
@@ -322,6 +323,7 @@
 ## [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)
 ## [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)
 ## [Administrere profiler](admin-users-profiles-roles.md)
+## [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
 ## [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md)
 ## [Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)
 ## [Opprette nye seleskaper](about-new-company.md)
@@ -367,13 +369,17 @@
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
 ## Integrere med Dynamics 365 Sales.
 ### [Oversikt](admin-prepare-dynamics-365-for-sales-for-integration.md)
-### [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)
-### [Konfigurere en Dynamics 365 Sales-tilkobling](admin-how-to-set-up-a-dynamics-crm-connection.md)
-### [Synkronisere Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)
+## Integrere med Common Data Service
+### [Oversikt](admin-common-data-service.md)
+### [Dataeierskapsmodeller](admin-cds-company-concept.md)
+### [Sette opp brukerkontoer for integrasjon med Common Data Service](admin-setting-up-integration-with-dynamics-sales.md)
+### [Koble til Common Data Service](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Synkronisere Business Central og Common Data Service](admin-synchronizing-business-central-and-sales.md)
 ### [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøke synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
+<!-- ### [Developer Walkthrough: Custom Integration with Common Data Service](admin-walkthrough-customizing-cds-integration.md) moved to devitpro -->
 
 # Finans
 ## [Oversikt](finance.md)
@@ -511,6 +517,7 @@
 ## [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)
 ## [Opprette analyserapporter](bi-how-create-analysis-views-reports.md)
 ## [Opprette rapporter med XBRL](bi-create-reports-with-xbrl.md)
+## [Administrere databasetilgangsformål](admin-data-access-intent.md)
 
 # Salg
 ## [Oversikt](sales-manage-sales.md)
@@ -627,7 +634,7 @@
 ## [Oversikt](production-planning.md)
 ## [Om planleggingsfunksjonalitet](production-about-planning-functionality.md)
 ## [Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)
-## Se [Planlegge med/uten lokasjoner](production-planning-with-without-locations.md).
+## [Planlegge med/uten lokasjoner](production-planning-with-without-locations.md)
 ## [Opprette en prognose](production-how-to-create-a-forecast.md)
 ## [Opprette produksjonsordrer fra ordrer](production-how-to-create-production-orders-from-sales-orders.md)
 ## [Planlegge prosjektordrer](production-how-to-plan-project-orders.md)
@@ -1068,7 +1075,7 @@
 ### Elektroniske fakturaer
 #### [Krav til elektronisk fakturering: Utstede én fakturakopi](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
 ### Generelt  
-#### [Tilordne IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md).  
+#### [Tilordne IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 #### [Slette bokførte fakturaer og kreditnotaer](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
 ## Italia
@@ -1162,7 +1169,7 @@
 #### [Redigere dokumentbeløp på kjøpsfakturaer og kreditnotaer](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 #### [Definere validering av kjøpsbeløp](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
 ### Generelt
-#### [CMR-merknader](LocalFunctionality/Netherlands/cmr-notes.md):
+#### [CMR-merknader](LocalFunctionality/Netherlands/cmr-notes.md)
 #### [Nederlandske postnumre](LocalFunctionality/Netherlands/dutch-post-codes.md)
 #### [Importere postnumre](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 #### [Importere postnummeroppdateringer](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
@@ -1390,7 +1397,7 @@
 #### [Sveitsisk mva](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 #### [Mva-satser for Sveits](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 ### Banktjenester og betalinger
-#### QR-kode på sveitsiske betalingsbilag
+#### Håndtering av QR-kvittering (LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 #### [Lukke en LSV-samling](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 #### [Eksportere betalinger med LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 #### [Importere ESR-betalinger](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
