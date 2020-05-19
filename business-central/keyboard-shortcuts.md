@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2dd601784418468a0f70befaced4b87e497fc2d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181751"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262217"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
@@ -33,18 +33,19 @@ Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å n
 > [!NOTE]
 > Hurtigtastene som er beskrevet her, gjelder amerikansk tastaturoppsett. Oppsettet av taster på andre tastaturer tilsvarer kanskje ikke tastene på det amerikanske tastaturet.
 
-De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. Noen snarveier er imidlertid forskjellige for macOS. Disse angis med hakeparenteser i avsnittene nedenfor.
+De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. Noen snarveier er imidlertid forskjellige for macOS. Disse snarveiene angis med hakeparenteser i avsnittene nedenfor.
 
 > [!NOTE]
 > I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
-Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til forskjellige elementer på en side, for eksempel handlinger rullegardinlister, oppslag og mye mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
+Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang til ulike elementer på en side. Elementer omfatter ting som handlinger, rullegardinlister, oppslag og mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |----------------|-----------|
 |Alt+Pil ned|Åpne en rullegardinliste eller slå opp en verdi for et felt.|    
 |Alt+Pil opp|Vis verktøytips for et felt eller en kolonneoverskrift i en tabell. Hvis feltet har valideringsfeil, trykker du Alt+Pil opp for å vise valideringsfeilen. Trykk Esc eller Alt + Pil opp for å lukke verktøytipset.|
+|F2|Veksle mellom å merke hele feltverdien eller å plassere markøren på slutten av feltverdien.|
 |Alt+F2|Vis og skjul faktaboksruten.|
 |Alt+Skift+F2|Skift mellom **Detaljer** og **Vedlegg** i Faktaboks-ruten.|
 |Alt+O|Legg til et nytt notat for den valgte posten, selv om Faktaboks-ruten ikke er åpen.|
@@ -61,12 +62,12 @@ Tabellen nedenfor beskriver hurtigtaster for å navigere og få tilgang til fors
 |Ctrl+F12|Bytte mellom bred og smal oppsettvisning.|
 |Ctrl + klikk|Naviger under egendefinering eller tilpassing når handlingen er uthevet med en pilspiss. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).|  
 |Ctrl+F5|Last inn [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (På lignende måte som å velge oppdater / last inn på nytt i webleseren.)|
-|F5|Oppdater dataene på gjeldende side.<br /><br />Bruk dette for å sikre at data på siden blir oppdatert med endringer andre har utført mens du arbeider.|
+|F5|Oppdater dataene på gjeldende side.<br /><br />Bruk dette tasten til å sikre at data på siden blir oppdatert med endringer andre har utført mens du arbeider.|
 |Angi|Aktivere eller få tilgang til elementet eller kontrollen som er i fokus.|
 |ESC|Lukk gjeldende side eller rullegardinliste.|
 |TAB|Flytte fokus til neste kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
 |Skift+TAB|Flytte fokus til forrige kontroll eller element på en side, for eksempel handlinger, knapper, felt eller listeoverskrifter.|
-|J og N|Aktiver knappene **Ja** og **Nei** i dialogbokser. Dette er språkstøttet. Du kan for eksempel trykke på J i Norge for å aktivere en **Ja**-knapp.|
+|J og N|Aktiver knappene **Ja** og **Nei** i dialogbokser. Faktiske taster varierer avhengig av gjeldende språk som er angitt i **Mine innstillinger**. Du kan for eksempel klikke på J for å aktivere **Ja**-knappen når du bruker tysk språk.|
 
 ## <a name="keyboard-shortcuts-in-lists"></a>Hurtigtaster i lister
 
@@ -127,8 +128,8 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |-----------------|-------|
 |F3|Slår søkeboksen på/av.<ul><li>Aktivere søkeboksen, slik at du kan begynne å skrive inn tekst.</li><li>Hvis søkeboksen allerede er aktivert, returnerer F3 til listen uten å fjerne merket tekst.</li><ul>|
-|Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpnes den med SKIFT + F3 og fokuserer på **+ Filter**-handlingen under **Filtrer listen etter**, som lar deg bare trykke Enter for å begynne å legge til et filter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>|
-|Ctrl+Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpnes den med CTRL + SKIFT + F3 og fokuserer på **+ Filter**-handlingen under **Filtrer totalsum etter**, som lar deg bare trykke Enter for å begynne å legge til et totalsumfilter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med CTRL + SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>  |
+|Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpner Skift + F3 ruten og fokuserer på **+Filtrer**-handlingen under **Filtrer listen etter**. Du kan deretter trykke på ENTER for å begynne å legge til et feltfilter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>|
+|Ctrl+Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpner Ctrl + Skift + F3 ruten og fokuserer på **+Filtrer**-handlingen under **Filtrer totalsum etter**. Du kan deretter trykke på ENTER for å begynne å legge til et totalsumfilter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med Ctrl + SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>  |
 |Alt+F3|Slå filtrering på/av for den valgte verdien.<ul><li>Bruker et kolonnefilter på den valgte feltverdien i listen. Dette gjør det samme å velge **Filtrer på denne verdien** fra en kolonneoverskrift. Dette åpnes filtreringsruten, definerer filteret til den valgte verdien, mens fokus forblir på cellen i listen.</li><li>Hvis kolonnen allerede er filtrert, fjerner Alt + F3 filteret på den aktuelle kolonnen.</li></ul> |
 |Shift+Alt+F3|Åpne filtreringsruten og legge til et filter i den valgte kolonnen i listen. Fokus er på det nye filterfeltet som lar deg skrive inn filterkriteriene med én gang.<br /><br /> Dette gjør det samme som å velge **Filter** fra kolonneoverskriften.<br /><br />Hvis det finnes et filter i feltet, legges det til et nytt filter. |
 |Ctrl+Skift+Alt+F3|Tilbakestille filtre. Dette gjør det samme å velge **Tilbakestill filtre** i filtringsruten, noe som gjelder for felt- og totalfiltre.<br /><br /> Filtre går tilbake til standardfiltrene for gjeldende visning. Hvis gjeldende visning er **Alle**, tilsvarer dette å gå tilbake til en ufiltrert visning med alle poster. |
@@ -169,7 +170,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |-----------------|-------|
-|Ctrl+Home|Åpne kalenderen hvis lukket. **Obs**: Dette fungerer ikke hvis datofeltet er i et rutenett der CTRL+Home hopper til den første raden.|
+|Ctrl+Home|Åpne kalenderen hvis lukket. **Obs!**   Dette fungerer ikke hvis datofeltet er i et rutenett der CTRL+Home hopper til den første raden.|
 |Ctrl+Home<br />(Cmd + Home)|Flytte til gjeldende måned, gjeldende dag.|
 |CTRL+PIL VENSTRE<br />(Cmd+Pil venstre)|Flytte til forrige dag.|
 |CTRL+PIL HØYRE<br />(Cmd+Pil høyre)|Flytte til neste dag.|

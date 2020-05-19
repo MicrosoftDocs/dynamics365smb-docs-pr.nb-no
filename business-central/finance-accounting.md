@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 05/11/2020
 ms.author: edupont
-ms.openlocfilehash: 2c99b8bef9bff22edd2d27856e703b41c6ec6441
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eae48b25446e4c81d1b8eae86fd2d0d7d0126df6
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184031"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372619"
 ---
 # <a name="accountant-experiences-in-d365fin_long"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
@@ -40,7 +40,7 @@ Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare
 > [!IMPORTANT]  
 > Regnskapsførerens e-postadresse må være en jobbadresse som er basert på Azure Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes. 
 > 
-> Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory, så brukeren som sender denne invitasjonen, må tilordnes rollen **Global administrator** eller **Brukeradministrator** i Office 365-administrasjonssenteret. Hvis du vil ha mer informasjon, se [Om administratorroller](/office365/admin/add-users/about-admin-roles) i Office 365-administratorinnholdet.  
+> Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory, så brukeren som sender denne invitasjonen, må tilordnes rollen **Global administrator** eller **Brukeradministrator** i Microsoft 365-administrasjonssenteret. Hvis du vil ha mer informasjon, se [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorinnholdet.  
 
 ### <a name="adding-your-accountant-to-your-office-365-via-azure-portal"></a>Legge til regnskapsføreren din i Office 365 via Azure Portal
 

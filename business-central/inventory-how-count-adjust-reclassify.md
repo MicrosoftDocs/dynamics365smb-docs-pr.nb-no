@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.author: sgroespe
-ms.openlocfilehash: d3d2770cd261215144edfe0992d0bb2b269971df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 815956fe6eefa069a9930043d4a0c93a725b4fc1
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182231"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272065"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder
 Minst én gang hvert regnskapsår må du utføre en vareopptelling, det vil si telle alle varer på lager, for å se om antallet som er registrert i databasen, er det samme som det faktiske antallet i lageret. Når det faktiske antallet er funnet, må det bokføres i Finans som en del av verdifastsettelsen av lageret ved periodens avslutning.
@@ -94,6 +94,9 @@ Når du registrerer lageropptellingen, bokfører du ikke til vareposten, vareopp
 4. Velg **Skriv ut**.
 
 Ansatte kan nå fortsette med å telle lagerbeholdningen og registrere eventuelle avvik på den utskrevne rapporten.
+
+> [!NOTE]
+> Det kan ta flere dager før utskrevne rapporter kommer tilbake for endelig behandling og bokføring. Når du angir og bokfører faktisk opptalt lager, justerer systemet lager for å gjenspeile differansen mellom forventet og faktisk opptalt beholdning. Du må beholde de opprinnelig beregnede kladdelinjene, og ikke beregne forventet beholdning på nytt, fordi det forventede lageret kan endres og føres til feil lagernivåer. Hvis du har behov for å utstede flere rapporter, for eksempel for ulike lokasjoner eller gruppe varer, må du opprette og holde separate kladder.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Slik angir og bokfører du den faktiske opptalte beholdningen i et enkelt lageroppsett
 1. Angi den faktiske beholdningen i feltet **Antall (opptalt)** for hver linje på siden **Vareopptellingskladd** der den faktiske lagerbeholdningen, som fastsatt ved fysisk opptelling, avviker fra det beregnede antallet.

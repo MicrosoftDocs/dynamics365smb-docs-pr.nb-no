@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5fefafc1ca8ac7f5cd9862ff741a0f0fd9fec7ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9a2fdbaafd2a6668d7fb4edf42c25438bd881e98
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194022"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324441"
 ---
 # <a name="sell-products"></a>Selge produkter
 Du kan opprette en ordre eller salgsfaktura for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -128,6 +128,7 @@ Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
+[Skrive ut plukklisten](sales-how-print-picking-list.md)  
 [Lager](inventory-manage-inventory.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

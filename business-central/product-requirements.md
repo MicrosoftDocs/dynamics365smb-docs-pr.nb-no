@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2020
+ms.date: 05/06/2020
 ms.author: edupont
-ms.openlocfilehash: cf0091de7446aff07b039d795b07334e3ba9d2a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 417b7ba9743ec0dabb4c7b311535ed8c22d8896a
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190086"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372595"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
@@ -24,13 +24,14 @@ Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefal
 
 ### <a name="recommended-browsers"></a>Anbefalte nettlesere
 
+**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av nye Microsoft Edge.  
 **Chrome for Windows og Firefox for Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med gjeldende versjon av disse skrivebordsnettleserne.  
-**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Safari på OSX.  
-**Microsoft Edge:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Microsoft Edge.
+**Safari:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med gjeldende versjon av Safari på macOS.  
 
 ### <a name="other-supported-browsers"></a>Andre nettlesere som støttes
 
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows. Du kan også kjøre den nye Edge-forekomsten og fremdeles få tilgang til nettsteder som krever Internet Explorer. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](/deployedge/edge-ie-mode).
+**Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med den eldre versjonen av Microsoft Edge.  
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows. Du kan også kjøre den nye Edge-forekomsten og fremdeles få tilgang til andre nettsteder som krever Internet Explorer. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](/deployedge/edge-ie-mode).
 
 ## <a name="mobile-devices"></a>Mobilenheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows kan installeres på enheter med minst 1 GB RAM og Windows 10 Home, Pro, Enterprise eller Education (32-biters og 64-biters versjoner).  
@@ -45,6 +46,13 @@ Før du åpner [!INCLUDE [prodshort](includes/prodshort.md)] på nettet, anbefal
 
 ## <a name="excel"></a>Excel
 **Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[d365fin](includes/d365fin_md.md)], må du ha Excel 2016 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
+
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Bruk administrasjonssenteret for Business Central
+Administrasjonssenteret er utviklet for å fungere med gjeldende versjon av følgende nettlesere:
+- Nye Microsoft Edge
+- Chrome for Windows
+- Firefox for Windows
+- Safari for macOS
 
 ## <a name="using-business-central-on-premises"></a>Bruke Business Central lokalt
 

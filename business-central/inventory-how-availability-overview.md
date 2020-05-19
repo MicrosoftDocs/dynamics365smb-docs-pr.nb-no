@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 04/01/2020
 ms.author: SorenGP
-ms.openlocfilehash: fc7a0c6f750958cb35b2a85ed9d548f2e8219484
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182327"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324249"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
@@ -80,9 +80,9 @@ Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på si
 3. Velg verdien i feltet **Disponibel beholdning** for å vise vareposter som utgjør verdien.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Vise tilgjengeligheten til en vare etter bruk i monterings- eller produksjonsstykklister
-Hvis det finnes en vare i monterings- eller produksjonsstykklister, enten som en overordnet vare eller som en komponent, kan du se hvor mange enheter av varen som er påkrevd på siden **Varetilgjengelighet per stykklistenivå**. Siden viser hvor mange enheter av en overordnet vare du kan lage basert på tilgjengeligheten av underordnede varer på underliggende linjer. Varene som har en monterings- eller produksjonsstykkliste, vises på siden som en linje som kan skjules. Du kan utvide denne linjen for å se de underliggende komponentene og delmonteringer på lavere nivå med sine egne stykklister.
+Hvis en vare er en del av monterings- eller produksjonsstykklister, enten som en overordnet vare eller som en komponent, kan du se hvor mange enheter av varen som er påkrevd på siden **Varetilgjengelighet per stykklistenivå**. Siden viser hvor mange enheter av en overordnet vare du kan lage basert på tilgjengeligheten av underordnede varer på underliggende linjer. Varene som har en monterings- eller produksjonsstykkliste, vises på siden som en linje som kan skjules. Du kan utvide denne linjen for å se de underliggende komponentene og delmonteringer på lavere nivå med sine egne stykklister.
 
-Du kan bruke siden for å finne ut om du kan oppfylle en ordre for en vare på en angitt dato. Du gjør dette ved å se på varens gjeldende tilgjengelighet og antallene som kan leveres av varens komponenter. Du kan også bruke siden til å identifisere flaskehalser i relaterte stykklister.
+Du kan for eksempel bruke siden for å bestemme om du kan oppfylle en ordre for en vare på en angitt dato. Du gjør dette ved å se på varens gjeldende tilgjengelighet og antallene som kan leveres av varens komponenter. Du kan også bruke siden til å identifisere flaskehalser i relaterte stykklister.
 
 På hver linje på siden for både overordnede og underordnede varer angir følgende nøkkelfelt tilgjengelighetstall. Du kan bruke disse tallene for å bekrefte hvor mange enheter av en overordnet vare du kan levere hvis du starter den relaterte monteringsprosessen.
 
@@ -99,8 +99,11 @@ Siden **Varetilgjengelighet per stykklistenivå** viser informasjon for varen p�
 
 Feltet **Flaskehals** angir hvilken vare i stykklistestrukturen som hindrer deg i å opprette et større antall enn antallet som vises i feltet **Kan lage toppvare**. Flaskehalsen kan for eksempel være en innkjøpt komponent med forventet mottaksdato som er for sen til å lage ekstra enheter av toppvaren etter datoen i feltet **Trengs innen dato**.
 
-### <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Slik viser du tilgjengeligheten for en vare ved hjelp av måleenheten
-Siden **Varedisposisjon etter måleenhet** viser varedisposisjon brytt ned ulike måleenheter som den er lagret i.
+## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Slik viser du tilgjengeligheten for en vare ved hjelp av måleenheten
+Siden **Varedisposisjon etter måleenhet** viser tilgjengeligheten av en vare i måleenheten som den er lagret i.
+
+> [!NOTE]  
+> Hvis du vil beholde denne informasjonen nøyaktig, må du konvertere måleenheten for varen. Hvis du for eksempel kjøper en vare i én enhet, for eksempel bokser, og du selger varer i en annen enhet, for eksempel stykker, må du bruke en varekladd til å konvertere enhetene, eller pakke ut varer. Du kan bruke en nedjusterings varekladdelinje til å redusere lageret i kjøpsenheten, for eksempel bokser og en oppjustering for å øke lager beholdningen i salgsenheten, for eksempel stykker. 
 
 ## <a name="assembly-availability-page"></a>Siden Montering – tilgjengelighet
 Siden **Montering – tilgjengelighet** viser detaljerte tilgjengelighetsinformasjon for monteringsvaren. Det åpnes:

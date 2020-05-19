@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/01/2020
+ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: d027999692323960327e8b34ddb2efaea23c59a8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189486"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272089"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
@@ -27,6 +27,9 @@ Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert s
 På siden **Utskriftsbehandling** kan du se hvilke skrivere som er definert. Når du har opprettet én eller flere skrivere, kan du åpne siden **Skrivervalg** for å opprette brukerkontoen som bestemte rapporter som skal skrives ut med hvilken skriver.
 
 Når en skriver er definert og tilordnet bestemte rapporter, skriver du ut en rapport ved å velge **Skriv ut** på rapportforespørselssiden. Hvis du vil ha mer informasjon, kan du se [Skrive ut en rapport](ui-work-report.md#PrintReport).
+
+### <a name="sizing-print-jobs"></a>Endre størrelse på utskriftsjobber
+Skyutskrifter er utformet for dokumenter med en fornuftig størrelse. De fleste skytjenester, inkludert PrintNode og HP ePrint, har en grense på 10 MB per jobb. Hvis du må skrive ut store rapporter, må du kanskje dele dem opp i flere utskrifter.
 
 ## <a name="to-set-up-a-printer"></a>Slik definerer du en skriver
 På siden **Utskriftsbehandling** kan du se skriverne som er definert, og du kan få tilgang til siden **Innstillinger** for hver skriver for å redigere et eksisterende oppsett eller definere en ny skriver.

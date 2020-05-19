@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: f3355fb6ff46e7fa59d5b76aec8e88e675de31f8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 466736905815efb0b013a66fd05854769da24be5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195960"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324009"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivere plukking av varer etter FEFO
 FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste elementene, det vil si de med de tidligste utløpsdato, plukkes først.  
@@ -23,7 +23,7 @@ FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste 
  Denne funksjonaliteten fungerer bare når følgende kriterier er oppfylt:  
 
 -   Varen må ha et serie-/partinummer.  
--   På varens varesporingskodeoppsett må feltet **Lagerporing basert på s.nr.** eller feltet **Sporing basert på parti** velges.  
+-   På varens varesporingskodeoppsett må feltet **Lagers.nr. - sporing** eller feltet **Lagerparti - sporing** velges.  
 -   Varen må bokføres til lager med en utløpsdato.  
 -   Det må merkes av for **Plukk nødv.** på lokasjonskortet.  
 -   Det må merkes av for **Plukk i henhold til FEFO** på lokasjonskortet.  

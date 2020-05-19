@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2020
+ms.date: 04/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: c71b56812b67c4ec51ea8d48d095cabc79c585fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d6fe5cff52d3ed8c2404e12b3e37703c8e8db8bb
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194478"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324033"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 Med [!INCLUDE[d365fin](includes/d365fin_md.md)]-sikkerhetssystemet kan du kontrollere hvilke objekter en bruker har tilgang til i hver database eller hvert enkelt miljø. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utviklerhåndboken og ITPro-hjelpen for [!INCLUDE[d365fin](includes/d365fin_md.md)].
@@ -106,6 +106,26 @@ Du kan også bruke en kopieringsfunksjon til å overføre alle tillatelser i et 
 
 Det nye tillatelsessettet, som inneholder alle tillatelsene i det kopierte tillatelsessettet, legges til som en ny linje på siden **Tillatelsessett**. Nå kan du endre tillatelser i det nye tillatelsessettet. Legg merke til at linjene sorteres alfabetisk innen hver type.
 
+### <a name="to-export-and-import-a-permission-set"></a>Slik eksporterer og importerer du et tillatelsessett
+Hvis du vil definere tillatelser raskt, kan du importere tillatelsessett du har eksportert fra en annen [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker.
+
+I miljøer med mange leietakere importeres et tillatelsessett til en spesiell leietaker, det vil si at omfanget av importen er Leietaker.
+
+1. I leietaker 1 på siden **Tillatelsessett** merker du linjen eller linjene for tillatelsessettene du vil eksportere, og velger deretter handlingen **Eksporter tillatelsessett**.
+
+    En XML-fil opprettes i nedlastingsmappen på maskinen. Som standard kalles den Export Permission Sets.xml
+
+2. I leietaker 2 på **Tillatelsessett**-siden velger du handlingen **Importer tillatelsessett**.
+3. På siden **Importer tillatelsessett** må du vurdere om du vil slå sammen eksisterende tillatelsessett med nye tillatelsessett i XML-filen.
+
+    Hvis du merker av for **Oppdater eksisterende tillatelser**, slås eksisterende tillatelsessett med samme navn som de som finnes i XML-filen, sammen med de importerte tillatelsessettene.
+
+    Hvis du ikke merker av for **Oppdater eksisterende tillatelser**, blir eksisterende tillatelsessett med samme navn som de som finnes i XML-filen, hoppet over under importen. I dette tilfellet blir du varslet om tillatelsessett som hoppes over.
+
+4. Fra siden **Importer** finner og velger du filen som skal importeres, og velger handlingen **Åpne**.
+
+Tillatelsessettene importeres.
+
 ## <a name="to-create-or-modify-permissions-manually"></a>Opprette eller endre tillatelser manuelt
 Denne fremgangsmåten beskriver hvordan du legger til eller redigerer tillatelser manuelt. Du kan også generere tillatelser automatisk fra handlingene i grensesnittet. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelser ved å registrere handlingene dine](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
 
@@ -187,6 +207,9 @@ Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en
 2. På siden **Brukere** velger du den aktuelle brukeren, og velger deretter handlingen **Tillatelsessett etter brukergruppe**.
 3. På siden **Tillatelsessett etter brukergruppe** merker du av for **[brukergruppenavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukergruppen.
 4. Merk av for **Alle brukergrupper** for å tilordne tillatelsessettet til alle brukergrupper.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Slik fjerner du foreldede tillatelser fra alle tillatelsessett
+1. På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
 Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).

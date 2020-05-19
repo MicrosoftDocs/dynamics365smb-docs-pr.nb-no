@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 04/01/2020
+ms.date: 04/02/2020
 ms.author: sgroespe
-ms.openlocfilehash: ec17c59ebbc336cf6c4757be447ff7765098c816
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0b7c1ad6a19869c5d79f7da34e89e25b2b9456aa
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190686"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262121"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende Kontoutdrag-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
@@ -123,11 +123,12 @@ På siden **Purring** kan du fylle ut hurtigfanen **Generelt** manuelt og derett
 4. Velg handlingen **Foreslå purrelinjer**.
 5. I vinduet **Opprett purringer** fyller du ut feltene for å definere hvordan og for hvem purringene skal opprettes.
 6. Merk av for **Ta med avventende poster** hvis du vil at purringen skal bestå av forfalte åpne poster som er avventende.
+7. Merk av for **Bare poster med forfalte beløp** hvis du vil at purringen skal bestå av bare forfalte åpne poster. Bare fakturaer og betalinger vil vises siden dette er postene som kundenes betalinger kan forfalt til.
 
     > [!Important]
-    > Åpne poster som er på vent, settes inn, uavhengig av innstillingen i avmerkingsboksen Bare poster med forfalte beløp.
+    > Åpne poster som er på vent, settes inn, uavhengig av innstillingen i avmerkingsboksen **Bare poster med forfalte beløp**.
 
-7. Velg **OK**.
+8. Velg **OK**.
 
 ## <a name="to-replace-reminder-texts"></a>Slik erstatter du purretekst  
 Du kan angi teksten som vises i purringsutskrifter på flere måter. Av og til vil du kanskje erstatte start- og slutteksten som er angitt for den gjeldende purregraden, men tekst fra en annen grad.

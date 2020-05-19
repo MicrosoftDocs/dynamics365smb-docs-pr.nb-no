@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/27/2020
 ms.author: sgroespe
-ms.openlocfilehash: c5d9dcc46e05cef21961e20008227a1a35b737af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193881"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324417"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -40,10 +40,16 @@ Følgende fremgangsmåte er basert på en kjøpsfaktura. Trinnene er lignende fo
 2. Åpne salgsordren som du vil legge til en fil i.
 3. Åpne fanen **Vedlegg** i faktaboksen.
 4. Velg verdien bak feltet **Dokumenter**, for eksempel 0.
-5. På **Vedlagte dokumenter**-siden i **Vedlegg**-feltet velger du **Velg fil**-knappen.
+5. På **Vedlagte dokumenter**-siden i **Vedlegg**-feltet velger du **Velg fil**-handlingen.
 5. Velg en fil fra en hvilken som helst plassering, og velg deretter **Åpne**-knappen.
 
 Filen er nå knyttet til kjøpsfakturaen.
+
+## <a name="to-view-an-attached-file"></a>Slik ser du en vedlagt fil
+1. Åpne fanen **Vedlegg** i faktaboksen.
+2. Velg verdien bak feltet **Dokumenter**, for eksempel 1.
+3. På siden **Vedlagte dokumenter** velger du handlingen **Forhåndsvis**.
+4. Åpne den nedlastede filen.
 
 ## <a name="to-save-a-document-as-a-pdf-attachment"></a>Slik lagrer du et dokument som et PDF-vedlegg
 Når du skal lagre et dokument som en fil, kan du bruke handlingen **Legg ved som PDF** til å lagre gjeldende dokumentinnhold som en PDF-fil som er knyttet til faktaboksen for dokumentet. Dette er for eksempel nyttig når dokumenter følger flere trinn i en prosess, for eksempel en salgsprosess eller en godkjenningsarbeidsflyt, og du vil referere til en utskrift av forrige trinn.
@@ -53,7 +59,7 @@ Følgende fremgangsmåte er basert på en ordre. Trinnene er de samme for alle s
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg en ordre, og velg deretter handlingen **Legg ved som PDF**.
 
-En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen. 
+En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Legge til en kobling fra varekortet
 Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse eller bane. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.

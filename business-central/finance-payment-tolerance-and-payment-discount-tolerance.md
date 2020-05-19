@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: a322144f9c55d87ad615122ad321572c476de1ef
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183047"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262241"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
-Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
+Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
 
 Du kan bruke betalingstoleranser slik at alle utestående beløp har en definert maksimalt tillatt betalingstoleranse. Hvis betalingstoleransen oppfylles, analyseres beløpet. Hvis beløpet er en underbetaling, lukkes utestående beløp helt av underbetalingen. En detaljert post bokføres til betalingsposten, slik at det ikke blir noe restbeløp igjen på den utlignede fakturaposten. Hvis beløpet er en overbetaling, bokføres en ny detaljert post i betalingsposten, slik at det ikke blir noe restbeløp igjen på betalingsposten.
 
@@ -36,7 +36,10 @@ Du kan velge å vise en advarsel som er basert på ulike toleransesituasjoner.
 - Den første advarselen gjelder kontantrabattoleranse. Du blir informert om at du kan godta kontantrabatt ved sen betaling. Deretter kan du velge om det skal godtas toleranse på rabattdatoen.  
 - Den andre advarselen gjelder betalingstoleranse. Du blir informert om at alle poster kan lukkes fordi differansen er innenfor summen av maksimum betalingstoleranse for de utlignede postene. Deretter kan du velge om det skal godtas toleranse på beløpet.
 
-Hvis du vil ha mer informasjon, kan du se [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).     
+> [!NOTE]
+> Hvis du aktiverer advarselsmeldingen, kan du velge hvordan du vil behandle betalinger som er innenfor toleranse. Hvis du ikke aktiverer meldingen og det er angitt et kompatibilitetsnivå, blir fakturaer med beløp som er innenfor toleransen, automatisk lukket, og du kan ikke velge å la restbeløpet være. 
+
+Hvis du vil ha mer informasjon, kan du se [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
 ## <a name="to-set-up-tolerances"></a>Slik definerer du toleranser  
 Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Dette gjelder også for refusjoner og kreditnotaer.  
@@ -67,7 +70,7 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
-2. På siden **Finansoppsett**, på hurtigfanen **Utligning**, merker du av for **Betalingstoleranse - advarsel** for å aktivere advarselen. Fjern merket når du skal deaktivere meldingen.  
+2. På siden **Finansoppsett**, på hurtigfanen **Utligning**, slå du på **Betalingstoleranse - advarsel** for å aktivere advarselen. Hvis du vil deaktivere advarselen, slår du av vekslebryteren.  
 
 > [!NOTE]  
 >  Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kont.rab.toleranse - advarsel** er **Ikke godta den forsinkede kontantrabatten**.

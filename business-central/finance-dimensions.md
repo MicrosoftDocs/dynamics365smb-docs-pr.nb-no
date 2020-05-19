@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 04/01/2020
+ms.date: 04/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 61e39b15042a4c3bd21ef1297d90803496305f8f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d353381c9267e9039d0b4391aa7fdac1c8a3c405
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183791"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262169"
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
 Hvis du vil gjøre det enklere å utføre analyser på dokumenter, for eksempel salgsordrer, kan du bruke dimensjoner. Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
@@ -106,7 +106,8 @@ For å unngå å bokføre poster med mostridende eller uaktuelle dimensjoner, ka
 Globale dimensjoner og snarveisdimensjoner kan brukes som et filter overalt i [!INCLUDE[d365fin](includes/d365fin_md.md)], inkludert i rapporter, kjørsler og analysevisninger. Global dimensjoner og snarveisdimensjoner er alltid tilgjengelige for direkte innsetting uten å åpne siden **Dimensjoner** først. På kladdelinjer og dokumentlinjer kan du velge globale dimensjoner og snarveisdimensjoner i et felt på linjen. Du kan også definere to globale dimensjoner og åtte snarveisdimensjoner. Velg dimensjonene du bruker mest.
 
 > [!Important]  
-> Hvis du endrer en global dimensjon eller snarveisdimensjon, kreves det at alle poster med dimensjonen oppdateres. Du kan utføre denne oppgaven med funksjonen **Endre globale dimensjoner**, men det kan ta tid og kan påvirke ytelsen. Derfor må du velge de globale dimensjonene og snarveisdimensjonene med omhu, slik at du trenger ikke å endre dem senere.
+> Hvis du endrer en global dimensjon eller snarveisdimensjon, kreves det at alle poster med dimensjonen oppdateres. Du kan utføre denne oppgaven med funksjonen **Endre globale dimensjoner**, men det kan ta tid og kan påvirke ytelsen og tabeller kan være låst i løpet av oppdateringen. Derfor må du velge de globale dimensjonene og snarveisdimensjonene med omhu, slik at du trenger ikke å endre dem senere. <br /><br />
+> Hvis du vil ha mer informasjon, kan du se [Endre globale dimensjoner](finance-dimensions.md#to-change-global-dimensions).
 
 > [!Note]
 > Når du legger til eller endrer en global dimensjon eller snarveisdimensjon, logges du automatisk av og på igjen, slik at den nye verdien klargjøres for bruk i hele programmet.
@@ -115,8 +116,24 @@ Globale dimensjoner og snarveisdimensjoner kan brukes som et filter overalt i [!
 2. Fyll ut feltene på hurtigfanen **Dimensjoner**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Endre globale dimensjoner
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Endre globale dimensjoner**, og velg deretter den relaterte koblingen.
-2. Hold markøren over handlinger og felt på siden for å lære hvordan du kan endre globale dimensjoner og snarveisdimensjoner.
+Når du endrer en global dimensjon eller snarveisdimensjon, oppdateres alle poster med dimensjonen det gjelder. Denne prosessen kan ta tid, og det kan påvirke ytelsen, to forskjellige moduser oppgir for å tilpasse prosessen til størrelsen på databasen.  
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.
+2. Velg **Endre globale dimensjoner**-handlingen.
+3. Øverst på siden velger du ett av følgende alternativer for å definere i hvilken modus den satsvise jobben skal kjøres.
+
+    |Alternativ|Beskrivelse|
+    |-|-|
+    |**Sekvensiell**|(Standard) Hele dimensjonsendringen utføres i én transaksjon for å hente alle poster tilbake til dimensjonene de hadde før endringen.<br /><br />Dette alternativet anbefales hvis selskapet inneholder relativt få bokførte poster der det vil ta kort tid å fylle det ut. Prosessen låser flere tabeller og blokkerer andre brukere til den er fullført. Legg merke til at på store databaser er mulig at prosessen ikke kan fullføres i det hele tatt i denne modusen. I dette tilfellet bruker du **Parallell**-alternativet.|
+    |**Parallell**|(Velg avmerkingsboksen **Parallell behandling**.) Dimensjonsendringen utføres som flere bakgrunnsøkter, og operasjonen deles inn i flere transaksjoner.<br /><br />Dette alternativet anbefales for store databaser eller selskap med mange bokførte poster der det vil ta kort tid å fylle det ut. Vær oppmerksom på at når du bruker denne modusen, vil ikke oppdateringsprosessen starte hvis det finnes mer enn én aktiv databaseøkt.|  
+
+4. Angi de nye dimensjonene   feltene **Global dimensjon 1-kode** eller **Global dimensjon 2-kode**. Nåværende dimensjoner vises i grått bak feltene.
+5. Hvis du har valgt **Sekvensiell**-modus, velger du **Start**-handlingen.
+6. Hvis du har valgt **Parallell**-modus, velger du **Klargjør**-handlingen.
+
+    **Loggposter**-fanen fylles ut med informasjon om dimensjonene som blir endret.
+7. Logg av [!INCLUDE[d365fin](includes/d365fin_md.md)], og logg deretter på igjen.
+8. Velg **Start**-handlingen for å starte parallell behandling av dimensjonsendringene.
 
 ### <a name="example-of-dimension-setup"></a>Eksempel på dimensjonsoppsett
 La oss si at selskapet ønsker å spore transaksjoner som er basert på organisasjonsstruktur og geografiske steder. Hvis du vil gjøre dette, kan du definere to dimensjoner på **Dimensjoner**-siden:

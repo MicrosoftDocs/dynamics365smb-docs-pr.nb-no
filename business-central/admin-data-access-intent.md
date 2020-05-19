@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/30/2020
 ms.author: jswymer
-ms.openlocfilehash: 33b5a3ff604b0ddf7525b89d7a8a82bcfdd7f653
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b46786b60d7c5799b056c49188785bd595db57ff
+ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196387"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3333911"
 ---
 # <a name="managing-database-access-intent"></a>Administrere databasetilgangsformål 
 
@@ -29,7 +29,7 @@ Når objekter kjøres, bestemmer databasetilgangsformålet om det skal brukes en
 
 Siden **Liste over databasetilgangsformål** gjør det mulig å overstyre det forhåndsdefinerte databasetilgangsformålet for objekter når de kjøres.
 
-I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis du vil ha mer informasjon om leseutskalering og datatilgangsformål i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du se [Bruke leseutskalering for bedre ytelse](https://review.docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview?branch=tfs337368-readscaleout) i [!INCLUDE[d365fin](includes/d365fin_md.md)] Developer og hjelpen for IT-eksperter.
+I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis du vil ha mer informasjon om leseutskalering og datatilgangsformål i [!INCLUDE[prodshort](includes/prodshort.md)], kan du se [Bruke leseutskalering for bedre ytelse](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prodshort](includes/prodshort.md)] Developer og hjelpen for administrasjon.
 
 ## <a name="to-change-the-database-access-intent"></a>Slik endrer du databasetilgangsformålet
 

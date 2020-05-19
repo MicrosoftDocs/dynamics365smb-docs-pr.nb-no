@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
 ms.date: 01/17/2020
 ms.author: bholtorf
-ms.openlocfilehash: ccd371711a53c598279fcc981c5581be5ee9bdaf
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196883"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324057"
 ---
 # <a name="data-ownership-models"></a>Dataeierskapsmodeller
 [!INCLUDE[d365fin](includes/cds_long_md.md)] krever at du angir en eier av dataene du lagrer. Hvis du vil ha mer informasjon, kan du se [Enhetseierskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i dokumentasjonen for Power Apps. Når du definerer integreringen mellom [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], må du velge én av to eierskapsmodeller for poster som synkroniseres:
@@ -34,6 +34,9 @@ Ettersom forretningsenheter mangler juridiske og forretningsmessige konsekvenser
 * Det opprettes en standard forretningsenhet som har samme navn som selskapet. Det kan for eksempel være Cronus Norge AS (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Det opprettes egne eierteam med samme navn som selskapet, og knytter det til forretningsenheten. Navnet på teamet har prefikset "BCI-". Det kan for eksempel være BCI – Cronus Norge AS (93555b1a-af3e-ea11-bb35-000d3a492db1).
 * Poster som opprettes og synkroniseres til [!INCLUDE[d365fin](includes/cds_long_md.md)], blir tilordnet til teamet BCI-eier som er knyttet til forretningsenheten.
+
+> [!NOTE]
+> Hvis du gir nytt navn til et selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], oppdateres ikke navnene på selskapet, bedriften og teamet vi oppretter automatisk i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Siden bare selskaps-ID-en brukes til integrasjon, påvirker ikke dette synkroniseringen. Hvis du vil at navnene skal samsvare, må du oppdatere selskapet, forretningsenheten og teamet i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
 Det følgende bildet viser et eksempel på dette dataoppsettet i [!INCLUDE[d365fin](includes/cds_long_md.md)].
 
@@ -56,11 +59,17 @@ Synkronisering bestemmer hvilket team som skal eie poster. Dette styres av felte
 > [!NOTE]
 > Poster blir skrivebeskyttet etter at et selskap er lagt til og lagret, så sørg for at du velger riktig selskap.
 
-### <a name="choosing-a-different-business-unit"></a>Velge en annen forretningsenhet
-Du kan endre valget av forretningsenhet. Hvis du velger en annen enhet, for eksempel en som du opprettet tidligere i CDS, beholder den det opprinnelige navnet. Det vil si at den ikke vil få et suffiks med firma-ID-en. Det opprettes et team som bruker navnekonvensjonen.
+## <a name="choosing-a-different-business-unit"></a>Velge en annen forretningsenhet
+Du kan endre valgt forretningsenhet hvis du bruker Team-eierskapsmodellen. Hvis du bruker Person-eierskapsmodellen, blir standard forretningsenhet alltid valgt. 
+
+Hvis du velger en annen forretningsenhet, for eksempel et som du opprettet tidligere i [!INCLUDE[d365fin](includes/cds_long_md.md)], beholder den det opprinnelige navnet. Det vil si at den ikke vil få et suffiks med firma-ID-en. Det opprettes et team som bruker navnekonvensjonen.
+
+Når du endrer en forretningsenhet, kan du bare velge de konsernene som er ett nivå under rotforretningsenheten.
 
 ## <a name="person-ownership"></a>Personeierskap
-Hvis du velger personeierskapsmodellen, må du angi hver selger som skal eie nye poster. Forretningsenheten og teamet opprettes som beskrevet i forrige del.  
+Hvis du velger personeierskapsmodellen, må du angi hver selger som skal eie nye poster. Forretningsenheten og teamet opprettes som beskrevet i delen [Teameierskap](admin-cds-company-concept.md#team-ownership).
+
+Standard forretningsenhet brukes når Person-eierskapsmodellen er valgt, og du kan ikke velge en annen forretningsenhet. Teamet som er knyttet til standard forretningsenhet, vil eie poster for vanlige enheter, for eksempel produktenheten, som ikke er knyttet til bestemte selgere.
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

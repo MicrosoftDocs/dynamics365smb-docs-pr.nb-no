@@ -8,67 +8,105 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/03/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9405e285613c95e6c3bfcf19a5fc57e109b3f419
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194430"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262145"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
-Det finnes mange generelle funksjoner som kan hjelpe deg med å registrere data enklere, raskere og mer nøyaktig. De generelle funksjonene for å skrive inn data beskrives i denne artikkelen.  
+Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. Grunnprinsippene og de avanserte funksjonene for å registrere data beskrives i denne artikkelen.  
 
 Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
+## <a name="working-with-editable-fields"></a>Arbeide med felter som kan redigeres
+Felter [!INCLUDE[d365fin](includes/d365fin_md.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
+
+Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.  
+
+<!-- TODO: Add illustrations or images of each picker -->
+|**Plukker**        |**Slik hjelper den deg å angi en verdi**|
+|------------------|------------------------------------|
+|Datovelger       |Denne velgeren viser en kalender basert på gjeldende områdeinnstillinger. Den hjelper deg med å velge én dato.|
+|Rullegardinliste          |Rullegardinlister gir et valg med faste verdier eller referanseoppføringer fra en annen tabell|
+|Bryter eller avmerkingsboks|Enkelte felter gir en et enkelt valg med *Ja*- eller *Nei*-verdier. Bryteren brukes til å angi denne verdien og vises alltid som en avmerkingsboks i lister|
+|Redigeringshjelp       |Enkelte felter gir egendefinerte velgere som er egnet til å slå opp og velge den beste verdien for det feltet, som et popup-vindu|
+
+
+### <a name="modifying-a-field-value"></a>Endre en feltverdi
+
+For å endre verdien i et felt må du først sette fokus på feltet. Du setter fokus ved å gjøre følgende handling:
+
+- Bruk **Tab**-tasten. Handlingen velger hele verdien.
+- Venstreklikk med musen eller en lignende inndataenhet. Denne handlingen vil bare velge hele feltverdien hvis feltet er i en liste.  
+
+Når du samhandler med felt i brukergrensesnitt, velger [!INCLUDE[d365fin](includes/d365fin_md.md)] ofte hele feltverdien for å gjøre det enklere for deg å erstatte verdien.
+
+Når hele feltverdien velges:
+- Erstatt verdien ved å bare skrive for å angi en ny verdi. Hvis felter har en velger, kan du aktivere den ved å bruke **Alt + pil ned**-tastatursnarveien.
+- Bruk **Delete**- eller **Tilbake**-tasten for å fjerne verdien.
+
+Trykk på **F2**-tasten for å veksle mellom å velge hele feltverdien eller å sette markøren etter feltets verdi. Hvis du setter markøren på slutten av verdien, er det enklere for deg å tilføye til den eksisterende verdien.
+
+Når markøren vises på slutten av feltverdien:
+- Legg til verdien ved å skrive.
+- Bruk tastene **Home**, **End**, **pil venstre** og **pil høyre** til å flytte markøren innenfor verdien. Hvis du redigerer et felt i en liste, settes fokuset på forrige felt hvis du trykker på **pil venstre**-tasten igjen når markøren er på begynnelsen av verdien. På samme måte settes fokuset på neste felt hvis du trykker på **pil høyre**-tasten igjen når markøren er på slutten av verdien.
+
+> [!NOTE]
+> Når du angir en verdi, vil Business Central bare kontrollere at den er gyldig etter at du klikker utenfor feltet eller setter fokus til et annet element, som det neste feltet.  
+
+
 ## <a name="keyboard-shortcuts"></a>Hurtigtaster
 
-Det finnes flere tastatursnarveier som lar deg jobbe uten musen og utføre raskere dataregistrering, særlig med oppføringer i stor skala og gjentakende tasteoppgaver.
+Det finnes en rekke hurtigtaster som du kan bruke til å utføre dataregistreringen raskere og uten mus. Disse hurtigtastene er spesielt nyttige med mange registreringer og repeterende skriveoppgaver.
 
-Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster](keyboard-shortcuts.md). Noen av hurtigtastene beskrives i denne artikkelen.
+Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster](keyboard-shortcuts.md). Noen hurtigsnarveier beskrives i denne artikkelen.
 
 ## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
 
-Hurtigoppføring er en funksjon som er beregnet på dataregistrering når du bruker tastaturet. Hurtigoppføring fungerer på felt (som på kortsider) og i lister (rader og kolonner). Det er nyttig når du utfører gjentakende skriveoppgaver som krever oppretting av flere poster i rekkefølge, for eksempel en kjørsel for ordrer eller registrering av nye varer.
+Hurtigoppføring er en funksjon som er beregnet på dataregistrering når du bruker tastaturet. Hurtigoppføring fungerer på felt (som på kortsider) og i lister (rader og kolonner). Det er en fordel når du gjør gjentakende skriveoppgaver som krever oppretting av flere poster i sekvens. Eksempler omfatter en bunke med ordre eller registrering av nye elementer.
 
-Det kan være du allerede er kjent med bruk av tabulatortasten for å navigere fra ett felt på en side til neste redigerbare felt. En ulempe ved bruk av tabulatoren er at den alltid går fortløpende til neste felt. <!-- even if the field is non-editable or seldom filled it in.-->Med Hurtigoppføring kan du endre denne banen. Med Hurtigoppføring kan du bruke Enter-tasten til å navigere gjennom feltene du er interessert i, og hoppe over ikke-redigerbare felt og felt du vanligvis ikke fyller ut. Du kan allerede ha oppdaget denne atferden på noen sider. Dette er fordi programmet allerede angir hvilke felt som skal tas med når det trykkes på Enter, og hvilke som skal hoppes over. Du kan tilpasse Hurtigoppføring ved å tilpasse arbeidsområdet og optimalisere hvordan du registrerer data på hver side.
+Du kan bruke Tab-tasten til å gå fra ett felt på en side til det neste redigerbare feltet. En ulempe ved bruk av tabulatoren er at den alltid går fortløpende til neste felt. <!-- even if the field is non-editable or seldom filled it in.-->Med Hurtigoppføring kan du endre denne banen. Med Hurtigoppføring bruker du Enter-tasten til å navigere til bare de feltene du er interessert i. Hurtigoppføring hopper og felter som ikke kan redigeres, og felt du vanligvis ikke fyller ut. Du kan allerede ha oppdaget denne atferden på noen sider. Denne virkemåten er fordi feltene som skal inkluderes når du trykker på Enter, og de som skal hoppes over, er forhåndsangitt. Du kan tilpasse Hurtigoppføring ved å tilpasse arbeidsområdet og optimalisere hvordan du registrerer data på hver side.
 
 ### <a name="how-quick-entry-works"></a>Hvordan Hurtigoppføring fungerer
 
-Alle felt kan merkes som *Ta med i hurtigoppføring* eller *Utelat fra hurtigoppføring*. Felt som er inkludert i hurtigoppføringen, inkluderes i banen når du trykker på Enter. Felt som er ekskludert fra hurtigoppføringen, inkluderes ikke.
+Hvert felt kan merkes som enten *inkludert i Hurtigoppføring* eller *ekskludert fra Hurtigoppføring*. Felter som inkluderes i Hurtigoppføring, er inkludert i banen når du trykker på Enter. Felter som er ekskludert fra Hurtigoppføring, er ikke det.
 
-Når du er ferdig med å registrere data i et felt, kan du ganske enkelt trykke Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster for hurtigoppføring for felt](keyboard-shortcuts.md#QuickEntry).
+Når du er ferdig med å registrere data i et felt, trykker du på Enter for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, trykker du på Skift+Enter. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster for hurtigoppføring for felt](keyboard-shortcuts.md#QuickEntry).
 
 #### <a name="tips-and-tricks"></a>Tips og triks
-Nedenfor finner du nyttig informasjon om hvordan du bruker Hurtigoppføring.
 
-- Funksjonen er tilgjengelig for alle redigerbare felt.
+Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
+
+- Det er tilgjengelig for alle redigerbare felt.
 - Den fungerer også i kolonner og rader.
-- Den hindrer ikke tilgang til andre elementer på en side, for eksempel handlinger. Disse er fortsatt tilgjengelige ved hjelp av tabulatoren og Skift+Tab.  
-- Hurtigfaner trenger ikke å utvides for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet befinner seg i en skjult hurtigfane, vil denne hurtigfanen utvides automatisk og fokusere på det valgte feltet.
-- Hurtigoppføring fungerer uavhengig av om felt er obligatoriske. Derfor er det lurt å sikre at obligatoriske felt er inkludert i Hurtigoppføring.
+- Det hindrer ikke tilgang til andre elementer på en side, som handlinger. Disse elementene kan fremdeles nås ved å bruke Tab og Skift + Tab.  
+- Det er ikke nødvendig at FastTabs er utvidet for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet er plasser i en skjult FastTab, utvides den FastTab-en automatisk og fokuserer på det valgte feltet. [!INCLUDE[d365fin](includes/d365fin_md.md)] husker at FastTab skal ekskluderes neste gang du besøker siden.  
+- Hurtigoppføring fungerer uansett om felter er obligatoriske. Det kan derfor være lurt å sørge for at obligatoriske felt er inkludert i Hurtigoppføring.
 - Som standard inkluderes de fleste feltene automatisk i Hurtigoppføring. Så i starten vil oppgaven din sannsynligvis eksludere felt fra Hurtigoppføring.
 
 ### <a name="to-change-quick-entry-fields"></a>Endre Hurtigoppføring-felt
 
-Hvis du vil endre hvilke felt som inkluderes i eller utelates fra Hurtigoppføring på en side, kan du bruke tilpasning.
+Du bruker tilpasning til å konfigurere Hurtigoppføring på felt.
 
 1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og deretter **Tilpasse**-handlingen.
-2. Velg et felt som du vil endre, eller velg tilsvarende kolonneoverskrift i lister, og velg deretter **Ta med i hurtigoppføring** eller **Utelat fra hurtigoppføring**.
+2. Velg et felt du vil endre. I lister velger du tilsvarende kolonneoverskrift. Velg deretter enten **Inkludert i Hurtigoppføring** eller **Ekskludert fra Hurtigoppføring**.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ## <a name="mandatory-fields"></a>Obligatoriske felt
 
-Når du angir data på sider, merkes bestemte felt med en rød stjerne. Den røde stjernen betyr at feltet må fylles ut for å fullføre en bestemt prosess som bruker feltet, for eksempel bokføre en transaksjon som bruker verdien i feltet.  
+Når du angir data på sider, merkes bestemte felt med en rød stjerne. Det røde stjernetegnet betyr at feltet må fylles ut for å fullføre en bestemt prosess. Et eksempel er når du poster en transaksjon som bruker verdien i feltet.  
 
-Selv om feltet inneholder en rød stjerne, er du ikke nødt til å fylle ut feltet før du går videre til andre felt eller lukker siden. Stjernen bare fungerer som en påminnelse om at du vil bli blokkert fra å fullføre en bestemt prosess.  
+Selv om et felt er obligatorisk, må du ikke fylle ut feltet før du fortsetter til andre felt eller lukker siden. Den røde stjernen er bare en påminnelse om at du blir blokkert fra å fullføre en bestemt prosess.  
 
 ## <a name="finding-data-as-you-type"></a>Finne data mens du skriver
 
- Når du begynner å skrive inn tegn i et felt, åpnes en rullegardinliste med mulige feltverdier. Innholdet i listen endres etter hvert som du skriver inn flere tegn, og du kan velge ønsket verdi når den vises.  
+ Når du begynner å skrive inn tegn i et felt, åpnes en rullegardinliste med mulige feltverdier. Listen endres mens du skriver flere tegn, og du kan velge riktig verdi når den vises.  
 
  Mange felt har en pil-ned-knapp som du kan velge. Du velger pilen for å få frem en liste over data som kan settes inn i feltet. Knappen har to funksjoner, avhengig av felttype:  
 
@@ -78,7 +116,7 @@ Selv om feltet inneholder en rød stjerne, er du ikke nødt til å fylle ut felt
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Vanlige spørsmål om kopiere og lime inn felt og linjer
 
-Du kan kopiere en eller flere rader fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post). Kort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS).
+Du kan kopiere én eller flere rader fra en liste eller fra ett felt på en side. Deretter limer du inne det du kopierte, på samme side, en annen side eller et eksternt dokument. Du kan for eksempel lime inn i Microsoft Excel eller Outlook-e-post. Kort fortalt for å kopiere trykker du CTRL + C (kommando + C i macOS) på tastaturet. Du limer inn ved å trykke på CTRL + V eller kommando + V i macOS.
 
 Trykk på F8 i listen for å kopiere feltet i den samme kolonnen i raden over, og lim det inn i den gjeldende raden.
 
@@ -88,13 +126,13 @@ Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime
 
 For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller trykke på Skift+F3 for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#filtering).
 
-Filtrere er spesielt nyttig når du viser og analysere lengre dokumenter. Tenk deg at du åpner en bokført salgsfaktura og filtrerer linjeelementene for å vise alle linjeelementer som har en individuell rabatt på mer enn 5 %, eller filtrer for å vise bare sykkeltilbehør med "pro" i navnet.
+Filtrering er spesielt nyttig når du viser og analyserer lengre dokumenter. Du åpner for eksempel en postert salgsfaktura. Deretter filtrerer du linjeelementene til å vise alle linjeelementene som har en individuell rabatt over 5 %. Eller du kan filtrere for å vise bare sykkeltilbehør med «pro» i navnet.
 
 ## <a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusere på linjeelementer
 
-Når du arbeider med dokumenter som inneholder en linjeelementdel, for eksempel en ordre eller fakturaside, kan du bytte visning, slik at den bare fokuserer på linjeelementene. Linjeelementdelen utvides deretter, slik at den dekker omtrent hele arbeidsområdet og skjuler andre deler av siden, unntatt handlingsområdet øverst. Dette gir deg bedre oversikt over linjelementene og gir mer plass til å arbeide med dem.
+Når du arbeider i dokumenter som inkluderer en del for linjeelementer, kan du bytte visning til å fokusere bare på linjeelementene. Eksempeldokumenter er ordre eller fakturaside. Delen for linjeelementer utvides slik at den bruker nesten hele arbeidsområdet. Den skjuler andre deler på siden unntatt handlingsområdet øverst. Dette oppsettet gir deg bedre oversikt over linjeelementene og gir deg mer plass til å arbeide med dem.
 
-Dette er særlig nyttig når du arbeider med store linjeelementlister og rask dataregistrering er ønskelig. En annen fordel er at det også gir deg avanserte filtreringsmuligheter, som i andre oversikter, så sporing og søk gjennom linjeelementer blir enda enklere.
+Det er særlig nyttig når du arbeider med store linjeelementlister og du vil registrere data raskt. Denne funksjoner inneholder også filtreringsegenskaper. Som i andre lister blir blaing og søking gjennom linjeelementer enda enklere.
 
 ### <a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
@@ -103,21 +141,31 @@ Når du skal fokusere på linjeelementer, velger du hvor som helst i linjeelemen
 Hvis du vil gå tilbake til den normale visningen, kan du velge ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon"), eller trykk på Ctrl+Skift+F12 på nytt.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
-Når du arbeider med flere oppgaver samtidig, eller når du håndterer avbrudd på gjeldende oppgave, for eksempel ved å ta en innkommende oppringing, kan du åpne et kort eller en dokumentside i et nytt vindu. Dette gjør at du kan holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i ett eller flere vinduer.
+
+Du kan åpne et kort eller en dokumentside i et nytt vindu. Ved å åpne i et nytt vindu kan du:
+
+- arbeide på flere oppgaver samtidig
+- administrere avbrudd for gjeldende oppgave, som å besvare et innkommende anrop
+- holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i vinduer
 
 Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
 
+<!--
+When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
+-->
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+
 > [!NOTE]
-> Når du åpner andre sider fra et kort eller et dokument som er åpnet i et nytt vindu, vil sidene bli åpnet i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
+> Når du åpner andre sider fra et kort eller dokument som er åpnet i et nytt vindu, åpnes disse sidene i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
 
 > [!NOTE]
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det kan skje i andre lesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) for mer informasjon.  
 
-En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør dette, må du opprette en ny kategori og deretter kopiere/lime inn URL-adressen for den opprinnelige kategorien i den nye kategorien. Dermed opprettes det en ny økt.   
+En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
 
 > [!NOTE]
-> Ikke bruk funksjonen **Dupliser** i leseren til å opprette den nye kategorien, ettersom dette kan føre til at handlinger i én kategori blokkerer handlinger i andre kategorier, ettersom de er en del av samme økt.
+> Ikke bruk **Dupliser**-funksjonen i nettleseren til å opprette den nye fanen, siden dette kan forårsake at handlinger på én fane blokkerer handlinger på andre faner fordi de er en del av den samme økten.
 
 ## <a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
 
@@ -148,39 +196,39 @@ Du kan angi negative tall på to måter. Tallet -20,5 kan angis som:
 
 ## <a name="entering-dates-and-times"></a>Angi datoer og klokkeslett
 
-Du kan sette inn datoer og klokkeslett i alle felt som er spesifikt tilordnet til datoer (datofelt). Datoene kan skrives inn med eller uten skilletegn.
+Du kan angi datoer og klokkeslett i alle feltene som er tilordnet datoer (datofelt). Datoene kan skrives inn med eller uten skilletegn.
 
 > [!NOTE]  
 > Hvordan du angir dato og klokkeslett på, avhenger av dine **Område**-innstillinger. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Sette inn datoer
 
-For datofelt kan du bruke datavelgeren, som lar deg velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Hvis du vil ha mer informasjon, se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
+Du kan bruke enten datovelgeren til å velge en dato fra kalenderen, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
 
 For manuell datoregistrering kan du angi to, fire, seks eller åtte tall:  
 
--   Hvis du bare skriver inn to tall, tolkes disse som dagen, og måneden og året for arbeidsdatoen legges til.  
+-   To sifre tolkes som dagen. Det legger til måneden og året i arbeidsdatoen.  
 
--   Hvis du skriver inn fire tall, tolkes disse som dagen og måneden, og året for arbeidsdatoen legges til.  
+-   Fire sifre tolkes som dagen og måneden. Det legger til året i arbeidsdatoen.  
 
--   Hvis datoen du vil angi ligger i intervallet 01.01.1930 til og med 31.12.2029, kan du angi året med to eller fire sifre.  
+-   Hvis datoen du ønsker, er i området 01.01.1930 til 31.12.2029, angir du året med to tall. Hvis ikke angir du året med fire tall.  
 
-Du kan også angi en dato som en ukedag etterfulgt av et ukenummer og, hvis du vil, et år (for eksempel Man25 eller man25 betyr mandag i uke 25).  
+Du kan også angi en dato som en ukedag etterfulgt av et ukenummer. Eller du kan angi et år. For eksempel Man25 eller man25 betyr mandag i uke 25.  
 
 I stedet for å skrive inn en bestemt dato kan du skrive inn én av disse kodene.  
 
-|Kode|Resultat|  
+| - kode|Resultat|  
 |--------------|----------------|  
-|i|Dette angir dagens dato (systemdatoen for datamaskinen).|  
-|P|Dette angir en regnskapsperiode der p betyr den første regnskapsperioden, p2 betyr den andre regnskapsperioden og så videre. |
-|a|Dette angir arbeidsdatoen som er satt opp i programmet. Du kan endre arbeidsdatoen ved å se [Endre grunnleggende innstillinger](ui-change-basic-settings.md). Hvis du har mange transaksjoner å utføre på en dato som ikke er dagens dato, er det en fordel å bruke arbeidsdatoen.|
-|a|Dette angir at datoen etter a er en avslutningsdato, for eksempel A123101.|  
+|i|Angir dagens dato (systemdatoen til datamaskinen).|  
+|P|Angir en regnskapsperiode der p betyr den første regnskapsperioden, p2 betyr den andre regnskapsperioden og så videre. |
+|a|Angir arbeidsdatoen som er konfigurert i programmet. Du kan endre arbeidsdatoen ved å se [Endre grunnleggende innstillinger](ui-change-basic-settings.md). Hvis du har mange transaksjoner å utføre på en dato som ikke er dagens dato, er det en fordel å bruke arbeidsdatoen.|
+|a|Angir at datoen etter a er for en lukkingsdato, for eksempel C123101.|  
 
 ## <a name="entering-times"></a>Angi klokkeslett
 
-Et vilkårlig skilletegn kan settes inn mellom tidsinndelingene, men det er ikke obligatorisk. Du behøver ikke å skrive inn minutter eller sekunder.  
+Når du angir klokkeslett, kan du sette i et skilletegn du ønsker mellom enhetene, men det er ikke nødvendig. Du trenger ikke å skrive minutter eller sekunder.  
 
-Tabellen nedenfor viser en oversikt over ulike måter å angi tidsinnstillinger på, og hvordan de tolkes.  
+Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hvordan de tolkes.  
 
 |Angivelse|Tolkning|  
 |---------------|------------------------|  
@@ -192,13 +240,13 @@ Tabellen nedenfor viser en oversikt over ulike måter å angi tidsinnstillinger 
 |5:30:5,50|05:30:05.5|  
 |053005050|05:30:05.05|  
 
- Du må angi to sifre for hver tidsenhet dersom du ikke setter inn et skilletegn.  
+ Du angir to tall for hver tidsenhet hvis du ikke angir et skilletegn.  
 
 ## <a name="entering-datetimes"></a>Angi datoer og klokkeslett
 
-Når du angir dato og klokkeslett, må du sette inn et mellomrom mellom datoen og klokkeslettet.  
+Når du angir datoer og klokkeslett, må du angi et mellomrom mellom datoen og klokkeslettet.  
 
-Tabellen nedenfor viser de forskjellige måtene du kan angi dato og klokkeslett på, og hvordan de tolkes.  
+Tabellen nedenfor viser forskjellige måter som du kan angi datoer og klokkeslett på, og hvordan de tolkes.  
 
 |Angivelse|Tolkning|  
 |---------------|------------------------|  
@@ -224,6 +272,7 @@ Tabellen nedenfor viser de forskjellige måtene du kan angi dato og klokkeslett 
 |ti 3.3.3|tirsdag i inneværende uke 03.03.03|  
 
 ## <a name="entering-duration"></a>Angi varighet
+
 Du angir en varighet som et tall etterfulgt av enheten.  
 
 Her er noen eksempler.  
@@ -237,9 +286,9 @@ Her er noen eksempler.
 |2d 6t 30m|2 dager 6 timer 30 min|  
 |2d 6t 30m 56s 600ms|2 dager 6 timer 30 min 56 sek 600 msek|  
 
- Du kan også angi et tall, og det blir automatisk konvertert til et tidsintervall. Tallet du angir, konverteres i henhold til standardenheten som er angitt for feltet Varighet.  
+ Du kan også angi et tall, og det konverteres automatisk til en varighet. Tallet du angir, konverteres i henhold til standardenheten som er angitt for feltet Varighet.  
 
- Hvis du vil se hvilken enhet som er brukt i et varighetsfelt, kan du angi et tall og se hvilken enhet programmet er konvertert det til.  
+ Hvis du vil se hvilken enhet som brukes i et varighetsfelt, kan du angi et tall og se hvilken enhet programmet er konvertert det til.  
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
 

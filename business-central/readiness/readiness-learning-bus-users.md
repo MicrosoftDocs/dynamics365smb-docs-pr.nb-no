@@ -2,15 +2,15 @@
 title: Læringskatalog for forretningsbruker
 description: Finn alle tilgjengelige opplæringer for Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2020
+ms.date: 04/20/2020
 ms.topic: article
 ms.author: v-lshann
-ms.openlocfilehash: c169bde62c9ff2bf32160801d258d034d0187371
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190854"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271945"
 ---
 # <a name="business-users-learning-catalog"></a>Læringskatalog for forretningsbruker
 
@@ -33,7 +33,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Bruke kostnadsregnskap i Microsoft Dynamics 365 Business Central](/learn/paths/use-cost-accounting-dynamics-365-business-central/)                                     | Må du bruke kostnadsregnskap i selskapet? Dette læringsforløpet kan hjelpe deg med å komme i gang med kostnadsregnskap i Business Central. Det beskriver oppsett av kostregnskap, hvordan du oppretter hoveddata for kostregnskap, hvordan du overfører transaksjoner og fordeler kostnader til en gruppe med konti.   | Gratis, elektronisk opplæringsbane i eget tempo | 3 timer 16 minutter |
 | [Bruke kladder i Microsoft Dynamics 365 Business Central](/learn/paths/use-journals-dynamics-365-business-central/)                                                   | Trenger du å opprette og bokføre loggoppføringer i Business Central? Da er denne banen for deg. Definere finanskladdemaler, opprette kladdetransaksjoner, inkludert regelmessige transaksjoner og bokføre transaksjoner blir beskrevet i modulene i dette læringsforløpet.                  | Gratis, elektronisk opplæringsbane i eget tempo | 2 timer 1 minutt   |
 | [Avstemme bankkonti i Microsoft Dynamics 365 Business Central](/learn/paths/reconcile-bank-accounts-dynamics-365-business-central/)                             | Vil du finne ut hvordan du avstemmer bankkonti i Business Central? Bankavstemmingsfunksjonen og avstemmingskladdene omtales i dette læringsforløpet.                                                                                                                           | Gratis, elektronisk opplæringsbane i eget tempo | 1 timer 3 minutter   |
-| [Bruke flere valutaer i Microsoft Dynamics 365 Business Central](https://docs.microsoft.com/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbeider du med flere valutaer? Hvis du gjør dette, vil denne banen hjelpe deg med å forstå hva du må gjøre for å definere og bruke flere valutaer, behandle betalinger og fakturaer i ulike valutaer, og justere valutakurser når det er nødvendig.                                             | Gratis, elektronisk opplæringsbane i eget tempo | 3 timer 4 minutter  |
+| [Bruke flere valutaer i Microsoft Dynamics 365 Business Central](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)                             | Arbeider du med flere valutaer? Hvis du gjør dette, vil denne banen hjelpe deg med å forstå hva du må gjøre for å definere og bruke flere valutaer, behandle betalinger og fakturaer i ulike valutaer, og justere valutakurser når det er nødvendig.                                             | Gratis, elektronisk opplæringsbane i eget tempo | 3 timer 4 minutter  |
 | [Opprette finansrapporter i Microsoft Dynamics 365 Business Central](/learn/paths/create-financial-reports-dynamics-365-business-central/)                           | Er du ansvarlig for å generere finansrapporter fra Business Central? Dette opplæringsforløpet beskriver hvordan du oppretter budsjetter og bruker kontoskjemaer, dimensjoner og eXtensible Business Reporting Language (XBRL) til å generere de økonomiske rapportene som vanligvis kreves for de fleste bedrifter. | Gratis, elektronisk opplæringsbane i eget tempo | 3 timer 44 minutter |
 | [Behandle finansielle periodiske aktiviteter i Microsoft Dynamics 365 Business Central](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/) | Er du ansvarlig for periode- og årsavslutningsprosesser? Fullfør denne modulen, som diskuterer hvordan du sender purringer og rentenotaer til kunder. Den diskuterer også Intrastat-behandling og -rapportering og avslutning av et regnskapsår.                                                     | Gratis, elektronisk opplæringsbane i eget tempo | 3 timer 3 minutter  |
 ## <a name="trade"></a>Handel<a name="trade"></a>
