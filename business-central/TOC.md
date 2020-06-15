@@ -99,7 +99,7 @@
 ### [Oversikt](bank-setup-banking.md)
 ### [Opprette bankkonti](bank-how-setup-bank-accounts.md)
 ### [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
-### [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+### [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md)
 ### [Velg et sjekkoppsett](finance-how-define-check-layouts.md)
 
 ## Sette opp salg
@@ -302,7 +302,7 @@
 #### [Oppdatere valutakurser](finance-how-update-currencies.md)
 #### [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
-#### [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+#### [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md)
 #### [Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-statement-service.md)
 #### [Opprette bankkonti](bank-how-setup-bank-accounts.md)
 #### [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -314,11 +314,11 @@
 #### [Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
 #### [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
 #### [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Innkreve betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Oppdatere valutakurser](finance-how-update-currencies.md)
 #### [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
-#### [Felttilordning for utvidelsen AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+#### [Felttilordning for AMC Banking 365 Fundamentals-utvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
 # Administrasjon
 ## [Oversikt](admin-setup-and-administration.md)
@@ -364,7 +364,7 @@
 #### [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
 #### [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
-#### [Utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+#### [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
 #### [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -414,7 +414,7 @@
 #### [Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md)
 #### [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md)
 #### [Foreta sjekkbetalinger](payables-how-work-checks.md)
-#### [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
+#### [Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 #### [Gjøre opp kjøpsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md)
 #### [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)
 ### Utligne betalinger automatisk og avstemme bankkonti
@@ -544,6 +544,7 @@
 ## [Beregne dato for salg](sales-date-calculation-for-sales.md)
 ## [Opprette en prognose](production-how-to-create-a-forecast.md)
 ## [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)
+## [Arbeide med gjentakelsesomsetning](finance-recurring-invoicing.md)
 
 # Kjøp
 ## [Oversikt](purchasing-manage-purchasing.md)

@@ -1,8 +1,6 @@
 ---
 title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt | Microsoft-dokumentasjon
 description: Beskriver hvordan du kan fakturere kunder for prosjektutgifter etter hvert som et prosjekt skrider frem.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 04/01/2020
+ms.date: 05/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: 277e5e6cb212202f930ed49012184aa67a23d03f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191262"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402482"
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
@@ -28,19 +26,24 @@ I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk,
 Du kan fakturere hele prosjektet fra siden **Prosjektoppgavelinjer** eller bare fakturere utvalgte fakturerbare linjer fra siden **Planleggingslinjer**. Fakturering kan utføres etter at prosjektet er fullført, eller ved bestemte intervaller under fremdriften til prosjektet, basert på en faktureringsplan.
 
 > [!NOTE]  
->   Hvis du velger **Fakturerbar** i feltet **Prosjektlinjetype** i kjøpsdokumentene for prosjektrelaterte kjøp, opprettes prosjektplanleggingslinjer som er klare til å bli fakturert til kunden. Hvis du vil ha mer informasjon, kan du se [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md).
+> Hvis du velger **Fakturerbar** i feltet **Prosjektlinjetype** i kjøpsdokumentene for prosjektrelaterte kjøp, opprettes prosjektplanleggingslinjer som er klare til å bli fakturert til kunden. Hvis du vil ha mer informasjon, kan du se [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md).
 
-## <a name="to-create-and-post-a-job-sales-invoice"></a>Slik oppretter og bokfører du en salgsfaktura for prosjekt
+## <a name="to-create-multiple-job-sales-invoices"></a>Opprette flere salgsfakturaer for prosjekt
 Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektoppgaver for en kunde enten når arbeidet som skal faktureres, er fullført, eller når faktureringsdatoen som er basert på et faktureringsestimat, er nådd.
 
-Fra siden **Prosjekter** kan du fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
+Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett salgsfaktura for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Angi filtre hvis du vil begrense prosjektene som kjørselen skal behandle.
 4. Velg **OK** for å opprette fakturaene.  
 
-## <a name="to-create-multiple-job-sales-invoices-from-job-planning-lines"></a>Slik oppretter du flere prosjektsalgsfakturaer fra prosjektplanleggingslinjer
+Du kan gå gjennom og bokføre opprettede fakturaer i **Salgsfakturaer**-vinduet.
+
+> [!NOTE]
+> Du kan også fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. 
+
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Slik oppretter og bokfører du prosjektsalgsfaktura fra prosjektplanleggingslinjer
 Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi antallet for varen, ressursen eller finanskontoen som du vil fakturere.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
@@ -49,12 +52,10 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 4. På en prosjektplanleggingslinjer, i feltet **Ant. som skal overføres til faktura** angir du antallet av varen, ressursen, finanskontotypen du vil fakturere.  
 5. Velg handlingen **Opprett salgsfaktura**.
 6. På siden **Opprett salgsfaktura for prosjekt** skriver du inn bokføringsdatoen og om du vil opprette en ny faktura eller føye til denne fakturaen til en eksisterende.
-7. Velg **OK**.  
-
-    Du kan se antallet i feltet **Ant. overført til faktura** på prosjektplanleggingslinjen.
+7. Velg **OK**-knappen.  
 8. På siden **Prosjektplanleggingslinjer** velger du handlingen **Salgsfakturaer/kreditnotaer**.
 
-    Siden **Salgsfaktura** åpnes og viser antallet du har overført til fakturaen.  
+    Siden **Salgsfaktura** åpnes og viser antallet du har overført til fakturaen.
 9. Gjør flere endringer, og velg deretter handlingen **Bokfør**.
 
 > [!NOTE]  

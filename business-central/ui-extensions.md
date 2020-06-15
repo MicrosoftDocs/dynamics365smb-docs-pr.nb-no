@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15f88c2ab05914db71820d45c6326af36235a9d2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 1cf5c08f00565bbaea914405397f340cd281fcef
+ms.sourcegitcommit: 6aa830e3286729bac3cbe5e911d72a2c69d50f73
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193542"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428350"
 ---
 # <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central for med utvidelser
 Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
@@ -24,6 +24,9 @@ Du kan endre [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å installere utvid
 > [!NOTE]
 > Du må ha de rette tillatelsene for å installere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være medlem av Adm. av D365-utv.-brukergruppen eller ha tillatelsessettet Adm. av D365-utv. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.<br /><br />
 Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
+
+> [!IMPORTANT]  
+> Det er ikke støtte for opplasting av per leier-utvidelser og installasjon av AppSource-utvidelser fra **Administrasjon av utvidelse**-siden for lokale installasjoner.
 
 Når du starter [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, er noen utvidelser allerede installert for deg. Over tid gjøres flere utvidelser tilgjengelig for deg, og du kan deretter velge om du vil bruke utvidelsen eller ikke.
 
@@ -69,7 +72,7 @@ Microsoft tilbyr følgende utvidelser:
 * [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
 * [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
 * [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
+* [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)
 * [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
 * [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
 * [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)

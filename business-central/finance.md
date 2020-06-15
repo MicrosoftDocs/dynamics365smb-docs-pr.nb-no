@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8424d94b25ce56ceae65b04e41071c1a70f520ea
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182615"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410750"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
@@ -45,6 +45,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Tilordne ekstra kostnader, for eksempel frakt og fysisk håndtering du pådrar deg i handel, til de involverte varene, slik at kostnadene gjenspeiles i lagerverdisettingen. |[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md) |
 |Bokfør de ansattes personlige utgifter for firmarelaterte aktiviteter, og refunder ansatte ved å betale dem på deres bankkontoer.|[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Gjenkjenne inntekter og utgifter i andre perioder enn da transaksjonene ble bokført. |[Periodisere inntekter og utgifter](finance-how-defer-revenue-expenses.md)|
+| Finn ut mer om de tilgjengelige alternativene for å automatisere sending av abonnementsfakturaer til kundene og registrere gjentakelsesomsetning. |[Gjentakelsesomsetning (abonnement)](finance-recurring-invoicing.md)|
 |Lær hvordan du bruker flere valutaer og oppdaterer valutakurser automatisk. |[Oppdatere valutakurser](finance-how-update-currencies.md)|
 | Importere lønnstransaksjoner fra lønnssystemet til Finans. |[Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)|
 |Bruk funksjoner til å beregne merverdiavgift (mva) på salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til skattemyndighetene.|[Arbeide med mva på kjøp og salg](finance-work-with-vat.md)|

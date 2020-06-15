@@ -8,21 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 05/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5303974c1f7e9c4b2386980c949b67df7d60f457
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189918"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402528"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Opprette servicefakturaer eller kreditnotaer
-Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan sende fakturaer til kundene når du måtte ønske, eller opprette fakturaer periodisk.  
-  
-Hvis du vil opprette en faktura direkte, kan du bruke **Servicekontrakt**-siden. Du kan også sette opp systemet slik at en servicetekniker ute hos kunden kan opprette en faktura for service som ikke er knyttet til en kontrakt eller ordre.  
+Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan også sette opp [!INCLUDE[prodshort](includes/prodshort.md)] slik at en servicetekniker ute hos kunden kan opprette en faktura for en tjeneste som ikke er knyttet til en kontrakt eller ordre. Du kan også sette opp [!INCLUDE[prodshort](includes/prodshort.md)] slik at du fakturerer servicekontrakter regelmessig. Fakturaperioden for hver enkelt kontrakt angir hvor ofte du fakturerer den.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Fakturere en servicekontrakt fra siden Servicekontrakt   
+## <a name="to-invoice-several-service-contracts"></a>Fakturere flere servicekontrakter
+
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett servicekontraktfakturaer**, og velg deretter den relaterte koblingen.  
 2. Angi hvilke filtre du vil bruke.  
 3. I feltet **Bokføringsdato** angir du datoen som du vil bruke som bokføringsdato på servicefakturaene.  
@@ -30,9 +29,17 @@ Hvis du vil opprette en faktura direkte, kan du bruke **Servicekontrakt**-siden.
 5. I feltet **Handling** velger du **Opprett fakturaer**.  
 6. Velg **OK** for å opprette servicefakturaene.  
   
-  > [!NOTE]  
-  >  Du kan ikke opprette servicefakturaer for servicekontrakten nåe feltverdien i **Endringsstatus** satt til **Åpen**.  
+Du kan også fakturere en servicekontrakt direkte fra **Servicekontrakt**-siden hvis neste faktureringsdato på kontrakten er tidligere enn arbeidsdatoen.
+
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Fakturere en servicekontrakt fra siden Servicekontrakt   
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter**, og velg deretter den relaterte koblingen.  
+2. Velg servicekontrakten du vil fakturere, og åpne kontraktkortet.  
+3. Velg handlingen **Opprett servicefaktura**. 
+4. Velg **Ja** for å opprette servicefakturaene.  
   
+  > [!NOTE]  
+  > Du kan ikke opprette servicefakturaer for servicekontrakten nåe feltverdien i **Endringsstatus** satt til **Åpen**.  
+
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Slik bokfører du en faktura fra en serviceordre  
 Følgende fremgangsmåte beskriver hvordan du definerer delen av service som kunden skal betale for.  
 
@@ -42,9 +49,9 @@ Følgende fremgangsmåte beskriver hvordan du definerer delen av service som kun
 4. Finn de nødvendige postene, og angi deretter antallene som kunden skal betale for i feltet **Fakturer (antall)**.  
   
    > [!NOTE]  
-   >  Du kan fakturere kunden for den registrerte servicen enten fullstendig eller delvis. Hvis du velger å fakturere kunden fullstendig, må verdien i feltet **Fakturer (antall)** være lik verdien i **Antall**-feltet. Du kan bokføre en fullstendig faktura sammen med en fullstendig levering, og du kan bokføre en fullstendig faktura for en allerede bokført fullstendig levering som verken er fakturert eller forbrukt tidligere.  
-   >   
-   >  Når du bokfører en delfaktura, har du to måter å angi fakturaantall på. Hvis du skal bokføre service med alternativet **Levere og fakturere**, må verdien i feltet **Fakturer (antall)** være lik verdien i feltet **Levere (antall)**. Hvis du vil fakturere en allerede bokført følgeseddel, må fakturaantallet ikke være større enn verdien i feltet **Levert (antall)**.  
+   > Du kan fakturere kunden for den registrerte servicen enten fullstendig eller delvis. Hvis du velger å fakturere kunden fullstendig, må verdien i feltet **Fakturer (antall)** være lik verdien i **Antall**-feltet. Du kan bokføre en fullstendig faktura sammen med en fullstendig levering, og du kan bokføre en fullstendig faktura for en allerede bokført fullstendig levering som verken er fakturert eller forbrukt tidligere.  
+   >  
+   > Når du bokfører en delfaktura, har du to måter å angi fakturaantall på. Hvis du skal bokføre service med alternativet **Levere og fakturere**, må verdien i feltet **Fakturer (antall)** være lik verdien i feltet **Levere (antall)**. Hvis du vil fakturere en allerede bokført følgeseddel, må fakturaantallet ikke være større enn verdien i feltet **Levert (antall)**.  
   
 5. Velg **Bokfør**, og deretter **Fakturer** eller **Lever og fakturer**. Hvis du vil ha mer informasjon om disse alternativene, kan du se [Bokføring i Servicehåndtering](service-service-posting.md).  
   
@@ -70,7 +77,7 @@ Når du bokfører en serviceordre med alternativet **Fakturer** eller **Lever og
 6. Fyll ut feltet **Bilagsdato**. Datoen som angis her, vises på fakturautskriften, og brukes til å beregne forfallsdatoen.  
 7. Fyll ut servicelinjene i fakturaen. Fyll ut feltene **Type**, **Nr.** og **Antall** for å registrere varer, ressurser og kost som er brukt ved service. 
 
-## <a name="to-invoice-posted-shipment-lines"></a>Slik fakturerer du bokførte følgeseddellinjer  
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Slik oppretter du en faktura som kombinerer bokførte følgeseddellinjer fra én eller flere serviceordrer 
 Du må kanskje opprette en servicefaktura for service som allerede er levert, enten fra én eller flere serviceordrer, men ennå ikke fakturert eller forbrukt. Du kan fylle ut fakturalinjene automatisk med de valgte bokførte følgeseddellinjene for en bestemt kunde.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
@@ -79,14 +86,6 @@ Du må kanskje opprette en servicefaktura for service som allerede er levert, en
 4. Bokfør servicefakturaen.  
   
  Den bokførte servicefakturaen og tilhørende poster blir opprettet. De tidligere bokførte leveringsdokumentene oppdateres med fakturerte antall og relevante antall i servicelinjene i kildeordrene.  
-
-## <a name="to-create-a-combined-invoice"></a>Slik oppretter du en samlefaktura  
-Du kan fakturere kunden for servicer som er utført i forskjellige serviceordrer. Fakturalinjer opprettes for varer, ressurstimer eller kost som allerede er levert fra forskjellige serviceordrer, men som ennå ikke er fakturert.  
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Velg handlingen **Hent følgeseddellinjer**. På siden **Hent servicefølgeseddellinjer** vises alle linjer som er leverte, men ikke fakturerte for kunden.  
-4. Velg linjene for servicen du vil fakturere, og velg **OK** for å legge til servicefølgeseddellinjene i fakturaen.  
 
 ## <a name="to-create-a-service-credit-memo"></a>Slik oppretter du en servicekreditnota  
 Et servicekreditnotadokument brukes vanligvis når en kunde returnerer varer, men kan også brukes til å kompensere en kunde eller til å korrigere feilaktige fakturaer.  

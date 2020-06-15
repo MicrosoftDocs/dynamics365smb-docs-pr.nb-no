@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73390a2857714e87378affb34409500d8f1436d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195054"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402562"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Endre årlig beløp på servicekontrakter eller kontrakttilbud
 Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.  
@@ -80,45 +80,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
     * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
     * Fortjeneste = Linjebeløp - Linjekostnad  
 
-### <a name="distribution-based-on-line-amount"></a>Distribusjon basert på linjebeløp
-Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil du kanskje fordele differansen mellom det nye og det beregnede beløpet på kontraktlinjene. Fordeling basert på linjebeløp er en automatiske metode som kan hjelpe deg å fordele differansen mellom nytt og beregnet årlig beløp, på linjebeløpene på kontraktlinjene. Denne fordelingen utføres proporsjonalt med linjebeløpsandelen i det beregnede årlige beløpet. Følgende oversikt over fordelingsbehandlingen for hver kontraktlinje, beskriver hovedtanken bak denne metoden:  
-
-1. Prosentfordeling etter linjebeløp beregnes slik: Innholdet i feltet **Linjebeløp** divideres med summen av feltverdiene i **Beregnet årlig beløp** på alle kontraktlinjer.  
-2. Feltverdien i **Linjebeløp** oppdateres ved addisjon av differansen mellom det nye årlige beløpet og det beregnede årlige beløpet. Deretter multipliseres det med prosentfordelingen for linjebeløp.  
-3. Innholdet i feltene **Linjerabattbeløp**, **Linjerabatt-%** og **Bruttofortjeneste** oppdateres i henhold til den nye verdien i feltet **Linjerabattbeløp**, på følgende måte:  
-
-    * Linjerabattbeløp = Linjeverdi - Linjebeløp  
-    * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
-    * Fortjeneste = Linjebeløp - Linjekostnad  
-
 Trinnene gjentas for hver kontraktlinje.  
-
-#### <a name="example"></a>Eksempel  
-Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
-
-|Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vare 1|15,00|17,00|3,00|0,51|25,00|1,49|  
-|Vare 2|20,00|23,00|Ingen|0,00|55,10|3,00|  
-|Vare 3|24,00|27,00|3,00|0,81|112,70|2,19|  
-
-Verdien i feltet **Årlig beløp** er lik den i feltet **Beregnet årlig beløp**, som alltid er lik summen av linjebeløpene. I dette tilfellet er det lik følgende: 16,49 + 23,00 + 26,19 = 65,68.  
-
-Hvis du endrer **Årlig beløp** til 60, beregnes prosentfordelingen av bruttofortjenesten for hver kontraktlinje:  
-
-* Vare 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
-* Vare 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
-* Vare 3 – 12.7 / (5 + 5,1 +12,7) = 0,557 %  
-
-Verdien i feltet **Linjebeløp** oppdateres på hver kontraktlinje ved bruk av følgende formel: Linjebeløp = Linjebeløp + differansen mellom nytt og beregnet årlig beløp * Prosentfordeling. Deretter oppdateres feltverdiene i **Linjerabattbeløp**, **Linjerabatt-%** og **Bruttofortjeneste** ved bruk av formelen som er beskrevet i fremgangsmåten ovenfor.  
-
-Til slutt viser kontraktlinjene disse dataene.  
-
-|Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
-|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
-|Vare 1|15,00|17,00|11,41|1,94|15,06|0,06|  
-|Vare 2|20,00|23,00|8.65|1.99|21.01|1.01|  
-|Vare 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
 
 #### <a name="example"></a>Eksempel  
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
