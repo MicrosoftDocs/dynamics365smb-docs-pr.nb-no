@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, edge
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: e3fccf0fbbc0031c0b2bf4dc73059bece1c465f4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188927"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528866"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligent innsikt med [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
@@ -24,7 +24,7 @@ Som en bruker av [!INCLUDE[prodshort](includes/prodshort.md)] på nettet har du 
 
 Hvis du er interessert i [!INCLUDE[prodshort](includes/prodshort.md)], kan du registrere deg for en gratis prøveversjon på Internett, eller du kan velge å arbeide med en partner for å distribuere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på din egen maskinvare. Du kan deretter bestemme deg for å få intelligent innsikt ved å koble til en leietaker i skyen. Dermed vil dataene fra den lokalt distribuerte [!INCLUDE[prodshort](includes/prodshort.md)] repliseres til skyen for scenarier med den intelligente skyen.  
 
-Koble til den intelligente skyen fra en lokal løsning krever at systemansvarlig angir opplysninger om databasen. Verktøyene som brukes til å koble den lokale distribusjonen til [!INCLUDE [prodshort](includes/prodshort.md)] online, er de samme som også brukes for overføring fra lokal til online. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
+Koble til den intelligente skyen fra en lokal løsning krever at systemansvarlig angir opplysninger om databasen. Verktøyene som brukes til å koble den lokale distribusjonen til [!INCLUDE[prodshort](includes/prodshort.md)] online, er de samme som også brukes for overføring fra lokal til online. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 ## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Vise intelligent skyinnsikt i [!INCLUDE[prodshort](includes/prodshort.md)] Online
 

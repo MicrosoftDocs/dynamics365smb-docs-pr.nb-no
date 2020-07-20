@@ -1,8 +1,6 @@
 ---
 title: Organisere varer i kategorier | Microsoft-dokumentasjon
 description: For å gjøre det enklere å søke etter og finne varer kan du tilordne vareattributter og organisere varer i kategorier.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: category, search, attribute, facet
-ms.date: 04/01/2020
+ms.date: 06/22/2020
 ms.author: sgroespe
-ms.openlocfilehash: d75a24a065d87cee1b40149e1a30f2bc595eaa88
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 206a7bcfe9152102dffbb9b2653c273dc8a27cdd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182279"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528566"
 ---
 # <a name="categorize-items"></a>Kategorisere varer
+
 For å holde oversikt over varene og hjelpe deg med å sortere og søke etter varer, er det nyttig å kunne organisere dem i varekategorier.
 
 Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter til varer og også varekategorier. Hvis du vil ha mer informasjon, kan du se [Arbeide med vareattributter](inventory-how-work-item-attributes.md).
@@ -34,17 +33,23 @@ Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter 
 4. I **Attributter**-hurtigfanen angir du hvilke som helst vareattributter for varekategorien. Hvis du vil ha mer informasjon, kan du se [Slik tilordner du vareattributter til varekategorier](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
 
 > [!NOTE]  
->   Hvis varekategorien har en overordnet varekategori, som angitt av feltet **Overordnet kategori**, blir vareattributter som er tilordnet til denne overordnede varekategorien, forhåndsutfylt i hurtigfanen **Attributter**.
+> Hvis varekategorien har en overordnet varekategori, som angitt av feltet **Overordnet kategori**, blir vareattributter som er tilordnet til denne overordnede varekategorien, forhåndsutfylt i hurtigfanen **Attributter**.
 
 > [!NOTE]  
->   Vareattributter du tilordner til en varekategori, brukes automatisk på varen som varekategorien er tilordnet til.
+> Vareattributter du tilordner til en varekategori, brukes automatisk på varen som varekategorien er tilordnet til.
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Slik tilordner du en varekategori til en vare:
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for varen som du vil tilordne til en varekategori.
 3. Velg oppslagsknappen i feltet **Varekategorikode** og velg en eksisterende varekategori. Du kan også velge **Ny**-handlingen for å opprette en ny varekategori først, som forklart under [Slik oppretter du en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).
 
+## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
 ## <a name="see-also"></a>Se også
+
 [Arbeide med vareattributter](inventory-how-work-item-attributes.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  

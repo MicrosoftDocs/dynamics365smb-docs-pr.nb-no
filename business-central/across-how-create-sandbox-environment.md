@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 04/01/2020
+ms.date: 07/03/2020
 ms.author: solsen
-ms.openlocfilehash: 59b659ca458e6cfe7c13ef5094dbbf80a144c369
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d85ec46d5514c91e9a6b1403b5f90a7094d9deba
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188567"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535437"
 ---
-# <a name="creating-a-sandbox-environment-in-prodshort"></a>Opprette et sandkassemiljø i [!INCLUDE [prodshort](includes/prodshort.md)]
+# <a name="creating-a-sandbox-environment-in-prodshort"></a>Opprette et sandkassemiljø i [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Med [!INCLUDE [prodshort](includes/prodshort.md)] kan du enkelt opprette et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
+Med [!INCLUDE[prodshort](includes/prodshort.md)] kan du enkelt opprette et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
 
-Systemansvarlig kan opprette sandkassemiljøer i [administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men hvis du raskt vil teste noe, kan du opprette et sandkassemiljø fra innsiden [!INCLUDE [prodshort](includes/prodshort.md)].  
+Systemansvarlig kan opprette sandkassemiljøer i [administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men hvis du raskt vil teste noe, kan du opprette et sandkassemiljø fra innsiden [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Teknisk sett er sandkassemiljøer svært forskjellige fra produksjonsmiljøer, selv om systemansvarlig oppretter en sandkasse som inkluderer produksjonsdata. Du kan ikke bruke en sandkasse for ytelsestester, og du kan for eksempel ikke be om databaseeksport. Hvis du vil opprette en sandkasse for ytelsestest, kan systemansvarlig opprette et eget produksjonsmiljø i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Typer miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments).
 
-## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Slik oppretter du et sandkassemiljø i [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="to-create-a-sandbox-environment-in-your-prodshort"></a>Slik oppretter du et sandkassemiljø i [!INCLUDE[prodshort](includes/prodshort.md)]
 
 1. Logg deg på din produksjonsforekomst av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
@@ -67,22 +67,31 @@ En administrator kan begrense eller blokkere tilgang for enkelte brukere til san
 
 Sandkassemiljøet er ikke minst nyttig fordi det inneholder et par nyttige funksjoner.
 
+### <a name="to-enable-the-advanced-user-experience"></a>Slik aktiverer du den avanserte brukeropplevelsen
+
+Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasseleietaker ved å sette **Opplevelse**-feltet på **Selskapsopplysninger**-siden til *Premium*. Finn **Selskapsopplysninger**-siden på ikonmenyen for :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Innstillinger":::.  
+
+Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Du kan også opprette et evalueringsselskap med et fullstendig oppsett, inkludert demonstrasjonsdata og tilgang til avanserte områder i produktet. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner).  
+
+### <a name="to-enable-complete-sample-data"></a>Slik aktiverer du fullstendige eksempeldata
+
+I sandkasse miljøet kan du også opprette et nytt selskap med alternativet **Avansert evaluering - Fullfør eksempeldata**, slik at du kan utføre opplæring eller gå gjennom gjennomganger som krever flere eksempeldata, for eksempel [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).  
+
+#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Slik oppretter du et selskap med fullstendige eksempeldata i en sandkasse
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskaper**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny**, og velg deretter **Opprett nytt selskap**.  
+3. Velg **Neste** på siden for **assistert oppsett av oppretting av et selskap**.  
+4. Angi et navn for det nye selskapet, og velg deretter **Avansert evaluering - Fullfør eksempeldata** i feltet **Velg dataene og oppsettet for å komme i gang**.  
+5. Fullfør resten av den assisterte oppsettsveiledningen.  
+
+Når veiledningen for assistert oppsett er fullført, kan du begynne å utforske det nye selskapet med de fullstendige eksempeldataene. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+
 ### <a name="designer"></a>Designer
 
 I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer ved å velge designikonet ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side, eller ved å velge **Utforming**-menyen på menyen ![Innstillinger](media/ui-experience/settings_icon_small.png).
 
 <!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-### <a name="to-enable-the-advanced-user-experience"></a>Slik aktiverer du den avanserte brukeropplevelsen
-Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] i en sandkasseleietaker ved å angi **Opplevelse**-feltet på **Selskapsopplysninger**-siden.
-
-<!-- ![Sandbox Environment Advanced](./media/across-sandbox/sandbox-advanced.png) -->
-
-<!-- ![Sandbox Production](./media/across-sandbox/sandbox-production.png) -->
-
-Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Du kan også opprette et evalueringsselskap med et fullstendig oppsett, inkludert demonstrasjonsdata og tilgang til avanserte områder i produktet. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner).  
-
-<!-- ![Sandbox New Company](./media/across-sandbox/sandbox-newcompany.png) -->
 
 ## <a name="see-also"></a>Se også
 

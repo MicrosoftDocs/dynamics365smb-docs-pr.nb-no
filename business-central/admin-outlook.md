@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: cad495da807695b99e6ca052031ccbbc330c1db5
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186904"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529266"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 
@@ -27,18 +27,18 @@ Det er enkelt å begynne med [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegg
 Deretter, når du åpner Outlook, vil du se en e-postmelding fra *Dynamics 365 Business Central-admin*. De nye tilleggene blir lagt til Outlook-båndet, og i leseren kan du se tillegget [!INCLUDE[prodshort](includes/prodshort.md)] like over eller under brødteksten i e-postmeldingen. Tilleggene oppdateres med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
 
 > [!TIP]
-> Hvis du bruker den nye Outlook på nettet, kan [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene være skjult under **Flere handlinger**. Hvis du bruker tillegget ofte, kan du feste det slik at det alltid vises umiddelbart. Hvis du vil ha mer informasjon, se [Bruke tillegg i Outlook på Internett](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+> Hvis du bruker den nye Outlook på nettet, kan [!INCLUDE[prodshort](includes/prodshort.md)]-tilleggene være skjult under **Flere handlinger**. Hvis du bruker tillegget ofte, kan du feste det slik at det alltid vises umiddelbart. Hvis du vil ha mer informasjon, se [Bruke tillegg i Outlook på Internett](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-Hvis du arbeider med mer enn ett [!INCLUDE [prodshort](includes/prodshort.md)] selskap, kan du enkelt bytte mellom selskaper i Outlook. Velg **Flere handlinger**på handlingsfeltet til tillegget, og deretter kan du se alternativet for bytte mellom selskaper.  
+Hvis du arbeider med mer enn ett [!INCLUDE[prodshort](includes/prodshort.md)] selskap, kan du enkelt bytte mellom selskaper i Outlook. Velg **Flere handlinger**på handlingsfeltet til tillegget, og deretter kan du se alternativet for bytte mellom selskaper.  
 
 <!--TEMP-->
 > [!NOTE]
-> Bytte mellom firmaer krever [!INCLUDE [prodshort](includes/prodshort.md)] 2019 utgivelsesplan 2 eller nyere, som annonsert i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Bytte mellom firmaer krever [!INCLUDE[prodshort](includes/prodshort.md)] 2019 utgivelsesplan 2 eller nyere, som annonsert i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
 Enkelte selskaper bruker Office 365, begrense brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Office 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Office 365 gratis](https://products.office.com/try).  
 
 ## <a name="using-the-contact-insights-add-in"></a>Bruke tillegget Innsikt for kontakter
-La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for hans firma. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kontakt, kan du opprette dem som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uten å forlate Outlook.  
+La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne [!INCLUDE[d365fin](includes/d365fin_md.md)]-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for firmaet. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kontakt, kan du opprette dem som en ny kunde i [!INCLUDE[d365fin](includes/d365fin_md.md)] uten å forlate Outlook.  
 
 I tillegget kan du opprette et tilbud og sende det tilbake til kunden uten å forlate Outlook. All informasjon du trenger for å sende tilbudet er tilgjengelig i innboksen for virksomheten i Outlook.  
 Når du har angitt dataene, kan du publisere tilbudet. Du kan deretter sende det i e-post. [!INCLUDE[d365fin](includes/d365fin_md.md)] genererer en PDF-fil med tilbudet og legger det ved i e-postmeldingen som du kladder i tillegget.  
@@ -68,7 +68,7 @@ I begge tilfeller, hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fremdeles ik
 
 ## <a name="using-other-email-accounts"></a>Bruke andre e-postkontoer
 
-Tilleggene er utformet for bruk med Office 365. Hvis du bruker [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE [prodshort](includes/prodshort.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+Tilleggene er utformet for bruk med Office 365. Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE[prodshort](includes/prodshort.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prodshort](includes/prodshort.md)]?](across-faq.md#email) og [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

@@ -5,16 +5,17 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
+ms.date: 06/26/2020
 ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34e72f5b80f4516dcd7e9061f263a8f08b06b0d7
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186503"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528516"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
+
 Alle brukere av [!INCLUDE[d365fin](includes/d365fin_md.md)] får tilordnet en profil som gjenspeiler forretningsrollen sin, avdelingen de arbeider i, eller en annen kategorisering. Profiler gjør det mulig for administratorer å definere og administrere sentralt hva ulike typer brukere kan se og gjøre i brukergrensesnittet, slik at de kan utføre forretningsoppgavene effektivt.
 
 > [!NOTE]
@@ -130,9 +131,15 @@ Du kan slette tilpasninger som én eller flere brukere har gjort på bestemte si
 
 2. Velg linjen for sidetilpassingen du vil slette, og velg deretter handlingen **Slett**.
 
-Brukeren vil se endringene neste gang vedkommende logger på.    
+Brukeren vil se endringene neste gang vedkommende logger på.  
 
 Du kan også slette individuelle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette tilpasninger for en bestemt side for en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+
+## <a name="managing-user-sessions"></a>Behandle brukerøkter
+
+Du kan som administrator for [!INCLUDE[prodshort](includes/prodshort.md)] online behandle brukerøkter i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Behandle økter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrasjonsinnholdet.  
+
+For lokal [!INCLUDE[prodshort](includes/prodshort.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server/?view=sql-server-ver15).  
 
 ## <a name="see-also"></a>Se også  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  

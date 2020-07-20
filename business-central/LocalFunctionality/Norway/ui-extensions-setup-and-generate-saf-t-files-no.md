@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 04/01/2020
+ms.date: 06/17/2020
 ms.author: soalex
-ms.openlocfilehash: 1a62fb41127b2574160d2d7cdb321c6613fbe5cc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6e8f67a853aded86b0ba4c53758bd623c7685a21
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181005"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458903"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
 
@@ -70,7 +70,10 @@ Når du skal eksportere SAF-T-filer fra [!INCLUDE[d365fin](../../includes/d365fi
 6. Du kan kontrollere statusen for SAF-T-filgenerering ved å se på **Linjer**-delen nederst på siden. 
 7. Når alle filer er generert, velger **Last ned fil** for å laste ned en zip-fil som inneholder SAF-T-filene. Denne filen kan lastes opp til Skatteetaten.
 
-> [!Note]
+### <a name="saf-t-files-and-data-quality"></a>SAF-T-filer og datakvalitet
+Du kan konfigurere [!INCLUDE[d365fin](../../includes/d365fin_md.md)] med ekstra valideringskontroller for datakvalitet som bidrar til å sikre at SAF-filene kan valideres av Skatteetaten. SAF-T-filer kan for eksempel bare valideres når det finnes bestemt informasjon for relevante poster i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For å sikre datakvaliteten for SAF-T kan du aktivere flere aktive kontroller i hurtigfanen **Datakvalitet** på siden **SAF-T-oppsett**. I tillegg bruker du handlingen **Datakontroll** til å kontrollere datakvaliteten før du eksporterer filen, på **SAF-T-eksport**-kortsiden.
+
+> [!NOTE]
 > SAF-T-eksporter genererer én fil med hoveddata og separate filer for hver måned som er inkludert i det valgte tilordningsområdet. Vurder transaksjonsbeløpet i den valgte perioden, og juster **Maks. antall prosjekter** tilsvarende på siden for SAF-T-eksport. Som en generell anbefaling starter du med tre parallelle jobber for å tillate parallell eksport og likevel beholde ressurser for andre [!INCLUDE[d365fin](../../includes/d365fin_md.md)]-brukere. I tillegg kan du angi en delt nettverksressurs i **Mappebane** lokalt for å generere SAF-T-filene direkte på en delt nettverksressurs i stedet for i databasen. For elektroniske versjoner av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] er dette alltid tilfellet. Hvis du angir **Mappenavn**, vil den genererte zip-filen bli plassert her. 
 
 ## <a name="see-also"></a>Se også

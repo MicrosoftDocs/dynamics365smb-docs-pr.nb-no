@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
 ms.date: 05/13/2020
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: d80b76614ad0ddf901a288859d8e6595d908c7ae
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402509"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527988"
 ---
 # <a name="send-documents-by-email"></a>Sende dokumenter i e-post
 
@@ -65,7 +65,7 @@ Fremgangsmåten nedenfor beskriver hvordan du sender en bokført salgsfaktura so
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter merket som skrevet ut når de sendes
 
-Noen dokumenter i [!INCLUDE [prodshort](includes/prodshort.md)] har et felt som angir hvor mange ganger dokumentet er skrevet ut. Feltet oppdateres også hvis du ikke skriver ut dokumentet, men du sender det på e-post i stedet. Feltet oppdateres selv om du ikke faktisk sender dokumentet, for eksempel når organisasjonen ikke har satt opp e-post, eller når kontakten du vil sende dokumentet til, ikke har en e-postadresse oppført. I alle scenarier, når det gjelder [!INCLUDE [prodshort](includes/prodshort.md)], er dokumentet skrevet ut fordi det genereres en PDF-fil.  
+Noen dokumenter i [!INCLUDE[prodshort](includes/prodshort.md)] har et felt som angir hvor mange ganger dokumentet er skrevet ut. Feltet oppdateres også hvis du ikke skriver ut dokumentet, men du sender det på e-post i stedet. Feltet oppdateres selv om du ikke faktisk sender dokumentet, for eksempel når organisasjonen ikke har satt opp e-post, eller når kontakten du vil sende dokumentet til, ikke har en e-postadresse oppført. I alle scenarier, når det gjelder [!INCLUDE[prodshort](includes/prodshort.md)], er dokumentet skrevet ut fordi det genereres en PDF-fil.  
 
 Det kan hende brukeren ikke ser denne genererte filen, men det er grunnen til at feltet oppdateres.
 

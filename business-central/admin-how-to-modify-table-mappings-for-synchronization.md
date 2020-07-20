@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/20/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0a6d6e08db723979fa938488bb0df6fb08a5c4d1
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271993"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527938"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilordne tabellene og feltene som skal synkroniseres
 Det grunnleggende for å synkronisere data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] er å tilordne tabellene og feltene som inneholder dataene, til hverandre. Tilordning skjer gjennom integrasjonstabeller. 
 
 ## <a name="mapping-integration-tables"></a>Tilordne integrasjonstabeller
-En integrasjonstabell er en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen som representerer en enhet, for eksempel en konto, i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integrasjonstabeller inneholder felt som samsvarer med feltene i tabellen for [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-enheten. Integrasjonstabellen Konto kobler for eksempel til Kontoer-enheten i [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Det må være en integrasjonstabelltilordning for hver enhet i [!INCLUDE [cds_short_md](includes/cds_short_md.md)] som du vil synkronisere med data i [!INCLUDE[prodshort](includes/prodshort.md)].
+En integrasjonstabell er en tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen som representerer en enhet, for eksempel en konto, i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Integrasjonstabeller inneholder felt som samsvarer med feltene i tabellen for [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-enheten. Integrasjonstabellen Konto kobler for eksempel til Kontoer-enheten i [!INCLUDE[cds_short_md](includes/cds_long_md.md)]. Det må være en integrasjonstabelltilordning for hver enhet i [!INCLUDE[cds_short_md](includes/cds_short_md.md)] som du vil synkronisere med data i [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Når du oppretter tilkoblingen mellom appene, definerer [!INCLUDE[d365fin](includes/d365fin_md.md)] enkelte standard tabell- og felttilordninger. Du kan endre tabelltilordningene hvis du vil. Hvis du vil ha mer informasjon, kan du se [Standard enhetstilordning for synkronisering](admin-synchronizing-business-central-and-sales.md#standard-entity-mapping-for-synchronization). Hvis du har endret standardtilordningene og vil tilbakestille endringene, går du til siden **Tilkoblingsoppsett for [!INCLUDE[d365fin](includes/cds_long_md.md)]** og velger **Bruk standard synkroniseringsoppsett**.
 

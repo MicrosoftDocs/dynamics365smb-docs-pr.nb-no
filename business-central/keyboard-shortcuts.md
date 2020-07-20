@@ -1,33 +1,34 @@
 ---
 title: Hurtigtaster
 description: Den fullstendige listen over hurtigtastkombinasjoner for å arbeide effektivt med data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: 34d620e0c3f84f7ace651b1434290778df2aace9
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/26/2020
+ms.author: bholtorf
+ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262217"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528491"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
+
 Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
 
 Hvis du vil ha en oversikt over de mest populære hurtigtastene, se [Tastatursnarveier for (bare PC)](keyboard-shortcuts-cheatsheet.md).
 
 > [!TIP]
-> Hvis du vil ha en grafisk visning av de mest brukte snarveiene, velger du følgende bilde og laster ned PDF-filen.
->
-> [ ![](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf)
+> Hvis du vil ha en grafisk visning av de mest brukte snarveiene, velger du følgende bilde og laster ned PDF-filen.  
+> [ ![Ikon for PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som åpner en PDF-fil")
 
 ## <a name="overview"></a>Oversikt
+
 Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å navigere til ulike områder og elementer på en side. De støttes av de fleste nettlesere. Virkemåten kan imidlertid være forskjellig.
 
 > [!NOTE]
@@ -39,11 +40,12 @@ De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. 
 > I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
+
 Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang til ulike elementer på en side. Elementer omfatter ting som handlinger, rullegardinlister, oppslag og mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|----------------|-----------|
-|Alt+Pil ned|Åpne en rullegardinliste eller slå opp en verdi for et felt.|    
+|--------------------------------|----------|
+|Alt+Pil ned|Åpne en rullegardinliste eller slå opp en verdi for et felt.|
 |Alt+Pil opp|Vis verktøytips for et felt eller en kolonneoverskrift i en tabell. Hvis feltet har valideringsfeil, trykker du Alt+Pil opp for å vise valideringsfeilen. Trykk Esc eller Alt + Pil opp for å lukke verktøytipset.|
 |F2|Veksle mellom å merke hele feltverdien eller å plassere markøren på slutten av feltverdien.|
 |Alt+F2|Vis og skjul faktaboksruten.|
@@ -79,16 +81,17 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 ### <a name="general"></a>Generelt
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning|Hvis du vil gjøre dette i en flisvisning |
-|-----------------|-------|-------|
+|--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sorter valgt kolonne i stigende eller synkende rekkefølge.|Ikke i bruk.|
 |Alt+N|Sett inn en ny linje i en redigerbar liste, for eksempel **Finansbudsjetter**-siden.|Samme.|
 |Shift+F10 |Åpne et menyalternativ som finnes for den valgte raden.|Samme.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
+
 Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prodshort](includes/prodshort.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl+Home<br />(Fn + Ctrl + Pil venstre)|Merk den første raden i listen, fokus forblir i samme kolonne.|Flytt til den første flisen i den første raden. |
 |Ctrl+End<br />(Fn + Ctrl + Pil høyre)|Merk den siste raden i listen, fokus forblir i samme kolonne.|Flytt til den siste flisen i den siste raden.|
 |Startside<br />(Fn + Pil venstre)|Flytte til det første feltet i raden.|Flytte til den første flisen i raden.|
@@ -104,11 +107,10 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 |Tab|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
 |Skift+TAB|I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
-
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
-|-----------------|-------|-------|
+|--------------------------------|--------------------------|--------------------------|
 |Ctrl + klikk<br />(Cmd + klikk)|Utvid valget av rader til å inkludere raden du klikker på.|Ikke i bruk.|
 |Skift + klikk|Utvide valget av rader til å inkludere raden du klikker på og alle radene mellom.<br /><br />Du kan bruke dette når du har brukt Ctrl + Pil opp eller ned Ctrl + Pil ned til å utvide valget.|Ikke i bruk.|
 |CTRL+PIL OPP<br />(Ctrl + Cmd + Pil opp)|Flytte fokus til raden ovenfor, og beholde gjeldende rad valgt.|Ikke i bruk.|
@@ -126,7 +128,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 ### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|-----------------|-------|
+|--------------------------------|----------|
 |F3|Slår søkeboksen på/av.<ul><li>Aktivere søkeboksen, slik at du kan begynne å skrive inn tekst.</li><li>Hvis søkeboksen allerede er aktivert, returnerer F3 til listen uten å fjerne merket tekst.</li><ul>|
 |Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpner Skift + F3 ruten og fokuserer på **+Filtrer**-handlingen under **Filtrer listen etter**. Du kan deretter trykke på ENTER for å begynne å legge til et feltfilter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>|
 |Ctrl+Shift+F3|Åpne og lukke filtreringsruten.<ul><li> Hvis filtreringsruten ikke er åpen, åpner Ctrl + Skift + F3 ruten og fokuserer på **+Filtrer**-handlingen under **Filtrer totalsum etter**. Du kan deretter trykke på ENTER for å begynne å legge til et totalsumfilter.</li><li>Hvis filtreringsruten allerede er åpen, lukkes den med Ctrl + SKIFT + F3, men dette fjerner ikke eventuelle filtre du har lagt til.</li></ul>  |
@@ -140,7 +142,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort**, og dokumentsider, for eksempel **Salgsordre**, for å vise og endre poster.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|----------------|-----------|
+|--------------------------------|----------|
 |Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane eller del (underordnet side).|
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
@@ -159,7 +161,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumenter og listesider. På lister kan ikke hurtigtaster brukes når listene er i flisvisning. Du finner mer informasjon om hurtigoppføring i [Raskere dataregistrering ved hjelp av hurtigoppføring](ui-enter-data.md#QuickEntry).
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|Merknader|
-|-----------------|-------|-------|
+|--------------------------------|----------|-------|
 |Angi|Bekrefte verdien i det gjeldende feltet, og gå til neste hurtigoppføringsfelt.||
 |Skift+Enter|Bekrefte verdien i det gjeldende feltet, og gå til forrige hurtigoppføringsfelt.||
 |Ctrl+Skift+Enter|Bekrefte verdien i den gjeldende kolonnen, og gå til neste hurtigoppføringsfelt utenfor listen.<br /><br />Denne snarveien gjelder for innebygde lister på en side, for eksempel linjeelementer på en ordre. Den gjør at du raskt kan gå ut av listen og fortsette å registrere data i andre felt på siden.|
@@ -169,7 +171,7 @@ Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumen
 Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|-----------------|-------|
+|--------------------------------|----------|
 |Ctrl+Home|Åpne kalenderen hvis lukket. **Obs!**   Dette fungerer ikke hvis datofeltet er i et rutenett der CTRL+Home hopper til den første raden.|
 |Ctrl+Home<br />(Cmd + Home)|Flytte til gjeldende måned, gjeldende dag.|
 |CTRL+PIL VENSTRE<br />(Cmd+Pil venstre)|Flytte til forrige dag.|
@@ -184,14 +186,14 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Hurtigtaster i datofelt
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|-----------------|-------|
+|--------------------------------|----------|
 |i|Angi gjeldende dato. "I" betyr "i dag".|
 |a|Angi arbeidsdato. Hvis du vil ha mer informasjon, kan du se [Arbeidsdato](ui-change-basic-settings.md#work-date).|
 
 ## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Hurtigtaster i rapportforhåndsvisningen
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
-|-----------------|-------|
+|--------------------------------|----------|
 |Pil ned|Rull ned siden.|  
 |Pil opp|Rull opp siden.|
 |Ctrl + 0 (null)<br />(Cmd + 0)|Fyller hele siden på siden. |
@@ -203,6 +205,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |PgUp<br />(Fn + Pil opp)|Gå til den forrige siden i rapporten.|
 
 ## <a name="see-also"></a>Se også
+
 [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)  
 [Hjelpefunksjoner](ui-accessibility.md)  
 [Komme i gang](product-get-started.md)  

@@ -10,30 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ad10aa53b4fe6a8b9b65ad798c206fa251e08a7a
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 9cd00cd3b3cb55ce3af35bd82284570b86720d63
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196498"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484264"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-common-data-service"></a>Sette opp brukerkontoer for integrasjon med Common Data Service
 Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[d365fin](includes/cds_long_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="setting-up-the-administrator-user-account"></a>Sette opp administratorbrukerkontoen
-Du må legge til administratorkontoen din for [!INCLUDE[d365fin](includes/d365fin_md.md)] som en bruker i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter. <!--Verify this-->
-
-## <a name="setting-up-the-user-account-for-the-integration"></a>Konfigurere brukerkontoen for integrasjonen
-Du må opprette en dedikert brukerkonto i Office 365-abonnement som både [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)] kan bruke til å synkronisere data. Denne brukerkontoen må kunne logge på [!INCLUDE[d365fin](includes/cds_long_md.md)], noe som betyr at denne brukeren må ha lisens for [!INCLUDE[d365fin](includes/cds_long_md.md)] og minst én sikkerhetsrolle tilordnet til den i [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--not sure that this applies as described [here](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). For more information about how to create users in [!INCLUDE[d365fin](includes/cds_long_md.md)], see [Manage security, users, and teams](https://go.microsoft.com/fwlink/?LinkID=616518). --> Når tilkoblingen er opprettet, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] tilordne brukerkontoen sikkerhetsrollene som nødvendige i [!INCLUDE[d365fin](includes/d365fin_md.md)].
-
-<!--![Assisted setup guide showing place to enter synchronization user credentials](media/sync-user-setup.png "Visualization assisted setup wizard page showing place to enter synchronization user credentials")-->
-
-> [!IMPORTANT]  
-> Ikke bruk administratorkontoen for [!INCLUDE[d365fin](includes/cds_long_md.md)] til synkronisering. Når du gjør det, brytes synkroniseringen.
+Du må legge til administratorkontoen din for [!INCLUDE[d365fin](includes/d365fin_md.md)] som en bruker i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[d365fin](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter. 
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-d365fin"></a>Tillatelser og sikkerhetsroller for brukerkontoer i [!INCLUDE[d365fin](includes/cds_long_md.md)]
-Når du installerer grunnleggende løsningen for CDS-integrering, konfigureres tillatelser for integrasjonsbrukerkontoen. Hvis disse tillatelsene endres, er det mulig at du må tilbakestille dem. Dette kan du gjøre ved å installere den grunnleggende løsningen for CDS-integrering på nytt ved å velge **Distribuer integreringsløsning på nytt** på siden **Tilkoblingsoppsett for Common Data Service**. Sikkerhetsrollen CDS-integrasjon for Business Central blir distribuert.
-
+Når du installerer grunnleggende løsningen for CDS-integrering, konfigureres tillatelser for integrasjonsbrukerkontoen. Hvis disse tillatelsene endres manuelt, kan du tilbakestille dem. Dette kan du gjøre ved å installere den grunnleggende løsningen for CDS-integrering på nytt ved å velge **Distribuer integreringsløsning på nytt** på siden **Tilkoblingsoppsett for Common Data Service**. Sikkerhetsrollen CDS-integrasjon for Business Central blir distribuert.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[d365fin](includes/cds_long_md.md)].
@@ -60,8 +51,8 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-#### Integration User
-The following table displays the minimum permissions on each tab for each security role that is required for the integration user.
+### Minimum Permissions for automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[d365fin](includes/d365fin_md.md)] Integration application user.
 
 ##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f48f5785ffc62b124b26764da5e86838c1e01dfa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187439"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528415"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Avbryte eller fjerne [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -31,7 +31,7 @@ Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjel
 
 ## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Office 365-opplevelsen
 
-Hvis selskapet abonnerer på [!INCLUDE [prodshort](includes/prodshort.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensen fra din Office 365-brukerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
+Hvis selskapet abonnerer på [!INCLUDE[prodshort](includes/prodshort.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensen fra din Office 365-brukerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
 
 Hvis selskapet vil slutte å abonnere på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365-partneren for videresalg fjerne abonnementet fra selskapets konto. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innholdet for utviklere og IT-eksperter.  
 

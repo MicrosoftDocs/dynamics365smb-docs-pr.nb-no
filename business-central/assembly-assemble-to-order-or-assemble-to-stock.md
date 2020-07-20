@@ -1,7 +1,7 @@
 ---
 title: Forstå montere til ordre og montere til lager | Microsoft-dokumentasjon
 description: Monteringsvarer kan leveres ved å montere dem når de bestilles, eller ved å montere dem og beholde dem på lageret før de er nødvendig i en ordre.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: bholtorf
+ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186815"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496803"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
@@ -70,7 +70,7 @@ Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk o
 
  Et eksempel på hvorfor du kan ønske å endre antallet som skal monteres, er at du vil bokføre levering av lagerantall delvis før monteringsavgangen kan leveres.  
 
- Følgende forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi manuelt i **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
+ Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
 
 ||Ordrelinje|Monteringsordrehode|  
 |-|----------------------|---------------------------|  

@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1a9aea8ef63874b63bfd608d04b16dd3da4c7c35
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 05a41839035c271b1f3e8c94d76702f1384d5025
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190014"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529041"
 ---
 # <a name="project-management"></a>Prosjektstyring
 I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
@@ -36,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="get-started-with-projects"></a>Komme i gang med prosjekter
 
-Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
+Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE[prodshort](includes/prodshort.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 

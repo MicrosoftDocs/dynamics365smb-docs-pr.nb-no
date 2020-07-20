@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182207"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529066"
 ---
 # <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
@@ -40,7 +40,7 @@ Hvis du vil opprette vareopptellingsordrelinjer, bruker du vanligvis funksjonen 
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. Fyll ut de obligatoriske feltene på hurtigfanen **Generelt**. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut de obligatoriske feltene på hurtigfanen **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Beregn linjer**-handlingen.
 5. Velg alternativer etter behov.
 6. Angi filtre, for eksempel for å inkludere bare et delsett av varene som skal telles sammen med den første registreringen.

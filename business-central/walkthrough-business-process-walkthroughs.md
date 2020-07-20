@@ -8,24 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2020
 ms.author: sgroespe
-ms.openlocfilehash: ddd5ae8f701caab38b11072f3eb8bd61cfc9d251
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189270"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527811"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
+
 Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS Norge AS. Noen utføres vanligvis av én bruker, mens andre omfatter flere ulike brukerroller. For å simulere arbeidsmiljøet inneholder noen av gjennomgangene konfigureringstrinn som er nødvendige for å fullføre øvelsene som beskrevet. Disse trinnene kan gi innsikt i typen informasjon som brukerne må dele med IT-medarbeiderne i selskapet.  
 
  Gjennomganger er fullstendig scenarier, og du bør utføre dem fra begynnelse til slutt for å få størst mulig utbytte av dem. Mange er basert på demonstrasjoner av [!INCLUDE[d365fin](includes/d365fin_md.md)] og gjør det mulig å prøve disse prosedyrene selv, i ditt eget tempo.  
 
 > [!NOTE]
-> Noen av gjennomgangene bruker demodata som ikke er tilgjengelig i standard CRONUS-selskap. For disse gjennomgangene må du utføre trinnene i et selskap som er opprettet fra alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+> Noen av gjennomgangene krever eksempeldata som ikke er tilgjengelig i standard demoselskap i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Opprette et selskap med fullstendige eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
-|Til|Se|  
+|Hvis du vil|Se|  
 |--------|---------|  
 |Konfigurer en markedsføringskampanje.|[Gjennomgang: kjøre en salgskampanje](walkthrough-conducting-a-sales-campaign.md)|  
 |Bruk forskuddsbetalinger til å håndtere delbetalinger for kjøp og salg. **Krever fullstendige eksempeldata** |[Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
@@ -41,6 +42,7 @@ Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretnings
 |Utfør defekthåndtering. **Krever fullstendige eksempeldata**|[Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Se også
+
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

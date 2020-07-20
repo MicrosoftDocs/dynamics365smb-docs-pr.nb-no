@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 479281e24bffb824f9fc8499bb34ab6b11311a52
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8346e8a868f73d3de729a56e86530048c58229aa
+ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183671"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3458928"
 ---
 # <a name="select-a-check-layout"></a>Velg et sjekkoppsett
 Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt av de lokale myndighetene. Sjekkbilder kan skrives ut på engelsk, fransk eller spansk.
@@ -54,6 +54,9 @@ Følgende summerer spesifikasjoner for MICR E-13B-skriftene som kan være nyttig
 
 ![MICR E-13B-spesifikasjoner](media/font_MICR_E-13B_Specifications.png "MICR E-13B-spesifikasjoner")
 
+### <a name="delimiter-characters"></a>Skilletegn
+![Skilletegn](media/font-micr-letters.png "Skilletegn")
+
 Den fullstendige spesifikasjonen av MICR E-13B-skrifter finnes i dokumentasjonen for leverandøren her: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-spesifikasjoner
@@ -67,6 +70,9 @@ Følgende CMC-7-skrifter er tilgjengelige i [!INCLUDE[d365fin](includes/d365fin_
 Følgende summerer spesifikasjoner for MICR CMC-7-skriftene som kan være nyttige når du kalibrerer skrifter for å være på sjekkoppsett med spesifikke MICR-skrivere.
 
 ![MICR CMC-7-spesifikasjoner](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-spesifikasjoner")
+
+### <a name="delimiter-characters"></a>Skilletegn
+![Skilletegn](media/font-cmc7-letters.png "Skilletegn")
 
 Den fullstendige spesifikasjonen av MICR CMC-7-skrifter finnes i dokumentasjonen for leverandøren her: (http://www.idautomation.com/micr-fonts/cmc7/).
 

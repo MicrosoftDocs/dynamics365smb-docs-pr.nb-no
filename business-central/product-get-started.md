@@ -7,19 +7,19 @@ ms.topic: get-started-article
 ms.search.keywords: setup wizard
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 62ee42fe2b6e03ad1137a50a38c1cd2ee4bfcd0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 41281996dccf0c3ee142c063ad56c782dab49230
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190158"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528741"
 ---
 # <a name="getting-started-with-d365fin_long"></a>Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. Det er enkelt å registrere seg, og du kan overføre eksisterende forretningsdata fra det gamle systemet.  
 
 Hvis du vil ha hjelp med abonnementet, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner).  
 
-Når du registrerer deg for [!INCLUDE [prodshort](includes/prodshort.md)], får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette nye salgsdokumenter eller definere en bankkonto. Hvis du imidlertid vil bruke [!INCLUDE [prodshort](includes/prodshort.md)] til å drive virksomheten, må du kontakte en [!INCLUDE [prodshort](includes/prodshort.md)]-partner for videresalg og kjøpe et abonnement. Hvis du vil ha mer informasjon om prøveversjoner og abonnementer, se [Prøveversjoner og abonnementer](across-preview.md).  
+Når du registrerer deg for [!INCLUDE[prodshort](includes/prodshort.md)], får har tilgang til et demonstrasjonsselskap. Demonstrasjonsselskapet inneholder eksempeldata, men du kan for eksempel opprette nye salgsdokumenter eller definere en bankkonto. Hvis du imidlertid vil bruke [!INCLUDE[prodshort](includes/prodshort.md)] til å drive virksomheten, må du kontakte en [!INCLUDE[prodshort](includes/prodshort.md)]-partner for videresalg og kjøpe et abonnement. Hvis du vil ha mer informasjon om prøveversjoner og abonnementer, se [Prøveversjoner og abonnementer](across-preview.md).  
 
 ## <a name="get-to-know-d365fin"></a>Bli kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
@@ -34,7 +34,7 @@ Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE[d365fin](includ
 > [!TIP]  
 > Du kan alltid gå tilbake til rollesenteret ved å velge navnet på selskapet øverst til venstre.
 
-I demoselskapet kan rollesentrene for forretningsleder og regnskapsfører inkludere Komme i gang- og Produktvideoer-flisen. Begge fliser har sider der du kan velge mellom ulike videoer som kan hjelpe deg med å komme i gang med ulike aspekter av [!INCLUDE [prodshort](includes/prodshort.md)]. Du kan finne flere videoer på vår YouTube-kanal. Se [Gå til videobiblioteket vårt](across-videos.md) for mer informasjon. Du kan også finne eLearning-innhold for basisversjonen av [!INCLUDE [prodshort](includes/prodshort.md)] på [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Hvis du vil ha mer hjelp, kan du kontakte en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
+I demoselskapet kan rollesentrene for forretningsleder og regnskapsfører inkludere Komme i gang- og Produktvideoer-flisen. Begge fliser har sider der du kan velge mellom ulike videoer som kan hjelpe deg med å komme i gang med ulike aspekter av [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finne flere videoer på vår YouTube-kanal. Se [Gå til videobiblioteket vårt](across-videos.md) for mer informasjon. Du kan også finne eLearning-innhold for basisversjonen av [!INCLUDE[prodshort](includes/prodshort.md)] på [Microsoft Learn](/learn/browse/?products=dynamics-business-central). Hvis du vil ha mer hjelp, kan du kontakte en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner.  
 
 Når du er klar til å begynne å jobbe, og ønsker å se på noen av forretningsprosessene som [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter, kan du se [Forretningsfunksjoner](across-business-functionality.md).
 

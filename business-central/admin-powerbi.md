@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 59ea09440624f2311d69b0c1657de4d9fc420826
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186888"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528591"
 ---
 # <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
 
@@ -27,13 +27,13 @@ Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og me
 > [!IMPORTANT]
 > Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Du trenger i tillegg en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-[!INCLUDE [prodlong](includes/prodlong.md)] har publisert følgende apper for Power BI:
+[!INCLUDE[prodlong](includes/prodlong.md)] har publisert følgende apper for Power BI:
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – CRM  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – Finance  
+- [!INCLUDE[prodlong](includes/prodlong.md)] – Sales  
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Bruke [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentbordene i Power BI
+## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Bruke [!INCLUDE[prodshort](includes/prodshort.md)]-instrumentbordene i Power BI
 
 Hver app inneholder rapporter som du kan se på:
 
@@ -42,7 +42,7 @@ Hver app inneholder rapporter som du kan se på:
 - Fest denne tilpassede visningen på instrumentbordet for å fortsette sporing.  
   Du kan oppdatere dataene manuelt, og kan du definere en oppdateringstidsplan. Hvis du vil ha mer informasjon, se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).  
 
-Appene er utformet for å fungere med data fra et hvilket som helst selskap du har i [!INCLUDE[prodshort](includes/prodshort.md)]. Når du installerer Power BI-appen, angir du én eller flere parametere du vil koble til [!INCLUDE [prodshort](includes/prodshort.md)].  
+Appene er utformet for å fungere med data fra et hvilket som helst selskap du har i [!INCLUDE[prodshort](includes/prodshort.md)]. Når du installerer Power BI-appen, angir du én eller flere parametere du vil koble til [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 > [!NOTE]
 > Du kan også lage dine egne rapporter og instrumentbord i Power BI basert på [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene dine. Hvis du vil ha mer informasjon, kan du se [Koble forretningsdata til Power BI](across-how-use-financials-data-source-powerbi.md).  
@@ -54,7 +54,7 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap du h
 
     ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Du kan også starte fra [!INCLUDE [prodshort](includes/prodshort.md)]. Fra startsiden navigerer du til **Rapportvalg** i Power BI-delen. Velg enten **Service** eller **Min organisasjon** på båndet. Når en av disse handlingene er valgt, kommer du enten til organisasjonsgalleriet i Power BI eller til Microsoft AppSource, som også filtreres for å bare vise apper knyttet til [!INCLUDE[prodshort](includes/prodshort.md)].
+    Du kan også starte fra [!INCLUDE[prodshort](includes/prodshort.md)]. Fra startsiden navigerer du til **Rapportvalg** i Power BI-delen. Velg enten **Service** eller **Min organisasjon** på båndet. Når en av disse handlingene er valgt, kommer du enten til organisasjonsgalleriet i Power BI eller til Microsoft AppSource, som også filtreres for å bare vise apper knyttet til [!INCLUDE[prodshort](includes/prodshort.md)].
 
 3. I **Tjenester**-boksen velger du **Hent**. Dette åpner en side som viser **AppSource** og **Apper for Power BI**.  
 
@@ -64,7 +64,7 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap du h
 5. Når du blir spurt, skriver du inn navnet på miljøet og selskapet i [!INCLUDE[prodshort](includes/prodshort.md)]-appen du vil koble til. Hvis du ikke har opprettet flere miljøer, angir du **Produksjon**. Pass på at du angir navnet og ikke visningsnavnet for selskapsparameteren. Du finnner selskapsnavnet på siden **Selskap** i [!INCLUDE[prodshort](includes/prodshort.md)]-forekomsten.  
 
     > [!NOTE]
-    > Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, må du angi parameteren for *Nettadresse for webtjeneste*. Finn denne på siden **Webtjenester** i [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [server](includes/server.md)]-forekomsten må være konfigurert for enkel godkjenning, og du må angi en bruker og nettilgangsnøkkelen til denne brukeren som passord. I eksemplet nedenfor erstatt *myserver:7048* med [!INCLUDE [server](includes/server.md)]-navnet ditt og *CRONUS%20US* med selskapsnavnet ditt.  
+    > Hvis du kobler til [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, må du angi parameteren for *Nettadresse for webtjeneste*. Finn denne på siden **Webtjenester** i [!INCLUDE[prodshort](includes/prodshort.md)]. [!INCLUDE[server](includes/server.md)]-forekomsten må være konfigurert for enkel godkjenning, og du må angi en bruker og nettilgangsnøkkelen til denne brukeren som passord. I eksemplet nedenfor erstatt *myserver:7048* med [!INCLUDE[server](includes/server.md)]-navnet ditt og *CRONUS%20US* med selskapsnavnet ditt.  
     > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
 
 6. Ved tilkobling legges det til et instrumentbord og rapporter i Power BI-arbeidsområdet. Når du er ferdig, vises dataene fra [!INCLUDE[prodshort](includes/prodshort.md)]-selskapet.
@@ -78,18 +78,18 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap du h
 - [Velge en flis](/power-bi/service-dashboard-tiles) for å åpne den underliggende rapporten.  
 - Som standard er ikke datasettet ditt satt til å oppdatere. Du kan endre oppdateringsplanen eller prøve å oppdatere det ved behov ved hjelp av **Oppdater nå**. Hvis du vil ha mer informasjon, se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="power-bi-in-prodshort"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="power-bi-in-prodshort"></a>Power BI i [!INCLUDE[prodshort](includes/prodshort.md)]
 
-Startsiden i [!INCLUDE [prodshort](includes/prodshort.md)] kan inneholde et Power BI-kontrollelement som kan konfigureres til å vise Power BI-rapporter på startsiden.
+Startsiden i [!INCLUDE[prodshort](includes/prodshort.md)] kan inneholde et Power BI-kontrollelement som kan konfigureres til å vise Power BI-rapporter på startsiden.
 
 > [!IMPORTANT]
-> Du må ha en gyldig konto med [!INCLUDE [prodshort](includes/prodshort.md)] og med Power BI. Hvis du vil endre noen av rapportene, må du også laste ned Power BI Desktop. Hvis du vil ha mer informasjon, kan du se [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
+> Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Hvis du vil endre noen av rapportene, må du også laste ned Power BI Desktop. Hvis du vil ha mer informasjon, kan du se [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
 
 ### <a name="on-first-login"></a>Ved første pålogging
 
-Når du logger på [!INCLUDE [prodshort](includes/prodshort.md)] første gang, vil du legge merke til en tom Power BI-del på startsiden. Hvis du vil vise rapportene, må du først koble til Power BI ved å velge koblingen *Kom i gang med Power BI*.
+Når du logger på [!INCLUDE[prodshort](includes/prodshort.md)] første gang, vil du legge merke til en tom Power BI-del på startsiden. Hvis du vil vise rapportene, må du først koble til Power BI ved å velge koblingen *Kom i gang med Power BI*.
 
-[!INCLUDE [prodshort](includes/prodshort.md)] kommuniserer deretter med Power BI-tjenesten for å finne ut om du har en gyldig Power BI-konto. Når lisensen er kontrollert, vises standard Power BI-rapporter på startsiden din.
+[!INCLUDE[prodshort](includes/prodshort.md)] kommuniserer deretter med Power BI-tjenesten for å finne ut om du har en gyldig Power BI-konto. Når lisensen er kontrollert, vises standard Power BI-rapporter på startsiden din.
 
 ### <a name="selecting-power-bi-reports"></a>Velge Power BI-rapporter
 
@@ -115,11 +115,11 @@ Gå tilbake til rollesenteret, så vil du se den oppdaterte rapporten. Hvis du v
 
 ### <a name="uploading-reports"></a>Laste opp rapporter
 
-Du kan laste opp nye Power BI-rapporter og dele dem med alle brukerne av [!INCLUDE [prodshort](includes/prodshort.md)]. Rapportene deles i hvert selskap i [!INCLUDE [prodshort](includes/prodshort.md)].  
+Du kan laste opp nye Power BI-rapporter og dele dem med alle brukerne av [!INCLUDE[prodshort](includes/prodshort.md)]. Rapportene deles i hvert selskap i [!INCLUDE[prodshort](includes/prodshort.md)].  
 
 For å laste opp en rapport velger du handlingen **Last opp rapport** fra rullegardinkommandolisten. Deretter kan du laste opp en pbix-fil som definerer rapportene du vil dele. Du kan endre standardnavnet på filen.  
 
-Når rapporten er lastet opp til Power BI-arbeidsområdet, blir det automatisk lastet opp til Power BI-arbeidsområdene til alle andre brukere i selskapet neste gang de logger på [!INCLUDE [prodshort](includes/prodshort.md)].
+Når rapporten er lastet opp til Power BI-arbeidsområdet, blir det automatisk lastet opp til Power BI-arbeidsområdene til alle andre brukere i selskapet neste gang de logger på [!INCLUDE[prodshort](includes/prodshort.md)].
 
 ## <a name="system-requirements"></a>Systemkrav
 
@@ -145,7 +145,7 @@ Hvis du vil importere [!INCLUDE[prodshort](includes/prodshort.md)]-data til Powe
 - Power BI-rapportetiketter
 
 > [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] lokalt bruker samme webtjenesteendepunkt som [!INCLUDE [prodshort](includes/prodshort.md)] online.
+> [!INCLUDE[prodshort](includes/prodshort.md)] lokalt bruker samme webtjenesteendepunkt som [!INCLUDE[prodshort](includes/prodshort.md)] online.
 
 ## <a name="web-services"></a>Webtjenester
 
@@ -163,7 +163,7 @@ En Power BI-konto er ikke satt opp. For at du skal kunne ha gyldig Power BI-kont
 
 Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
+### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE[prodshort](includes/prodshort.md)]-appen i Power BI
 
 Du trenger en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -171,17 +171,17 @@ Du trenger en [Power BI Pro-lisens](/power-bi/service-features-license-type) for
 
 Denne feilen angir at en av parameterne ikke er gyldige.
 
-- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø.
-- Den angitte selskapsparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-selskaper. Kontroller selskapsnavnet på **Selskap**-siden i [!INCLUDE [prodshort](includes/prodshort.md)].
-- Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE [prodshort](includes/prodshort.md)]  
+- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE[prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø.
+- Den angitte selskapsparameteren samsvarer ikke med eksisterende [!INCLUDE[prodshort](includes/prodshort.md)]-selskaper. Kontroller selskapsnavnet på **Selskap**-siden i [!INCLUDE[prodshort](includes/prodshort.md)].
+- Hvis du kobler til [!INCLUDE[prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE[prodshort](includes/prodshort.md)]  
 - En port er ikke åpen for å tillate at forespørselen din går gjennom brannmuren.
 
 ### <a name="cannot-sign-in"></a>Kan ikke logge på
 
-Hvis du får en "påloggingen mislyktes"-feil etter at du bruker [!INCLUDE [prodshort](includes/prodshort.md)]-legitimasjonen din for å logge på, kan dette skyldes et av følgende problemer:
+Hvis du får en "påloggingen mislyktes"-feil etter at du bruker [!INCLUDE[prodshort](includes/prodshort.md)]-legitimasjonen din for å logge på, kan dette skyldes et av følgende problemer:
 
-- Kontoen du bruker, har ikke tillatelse til å hente [!INCLUDE [prodshort](includes/prodshort.md)]-dataene fra kontoen din. Kontroller at du har tilgang til de nødvendige dataene i [!INCLUDE [prodshort](includes/prodshort.md)], og prøv på nytt.
-- Du har valgt en annen godkjenningstype enn Enkel hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt.
+- Kontoen du bruker, har ikke tillatelse til å hente [!INCLUDE[prodshort](includes/prodshort.md)]-dataene fra kontoen din. Kontroller at du har tilgang til de nødvendige dataene i [!INCLUDE[prodshort](includes/prodshort.md)], og prøv på nytt.
+- Du har valgt en annen godkjenningstype enn Enkel hvis du kobler til [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.
 - Du har ikke skrevet inn et gyldig brukernavn eller passord.
 
 ### <a name="incorrect-company-name"></a>Feil selskapsnavn
@@ -198,7 +198,7 @@ Når Power BI-appen er installert og dataene vises i Power BI, oppdager du kansk
 
 ### <a name="i-only-see-data-for-a-single-company"></a>Jeg ser bare data for ett selskap
 
-Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
+Power BI-appen viser bare data fra [!INCLUDE[prodshort](includes/prodshort.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

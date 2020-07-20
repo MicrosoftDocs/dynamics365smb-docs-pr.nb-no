@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1f150535e8d3441bddd0144b14592592f405b201
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 458576ac91955d4f98036dbc9f1253f199f9ac00
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186023"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528941"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Klargjøre finansrapportering med kontoskjemaer og kontokategorier
 Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er lagret i kontoplanen. Kontoskjemaer analyserer tall på finanskonti og sammenligner faktiske finansposter med finansbudsjettposter. Resultatet vises i diagrammer i rollesenteret, for eksempel ut Kontantstrøm-diagrammet, og i rapporter, for eksempel rapporten Resultatregnskap og Balanse.
@@ -71,7 +71,7 @@ Du bruker kolonneoppsett til å angi hvilke kolonner som skal være med i den re
 > En utskrifts-/forhåndsvisnings-/lagret versjon av et kontoskjema kan vise maksimalt fem kolonner. Hvis kontoskjemaet bare er beregnet for analyse på siden **Kto.skjemaoversikt**, kan du opprette så mange kolonner du vil.
 
 1. På **Kontoskjemaer**-siden velger du det aktuelle kontoskjemaet, og velger deretter **Rediger oppsett for kolonneutforming**-handlingen.
-2. På siden **Kolonneoppsett** oppretter du en rad for hver kolonne som økonomiske data skal vises etter i den økonomiske rapporten. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. På siden **Kolonneoppsett** oppretter du en rad for hver kolonne som økonomiske data skal vises etter i den økonomiske rapporten. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velg **OK**.
 4. Åpne siden **Kto.skjemaoversikt** med jevne mellomrom for å kontrollere at det nye kolonneoppsettet fungerer som forventet.
 

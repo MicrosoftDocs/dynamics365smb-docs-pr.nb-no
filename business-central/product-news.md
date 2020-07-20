@@ -7,16 +7,16 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d759db09e7e3835a07b9e9138f31da48adc8851
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 496c6bad5e309064ae2d6e7d15591578b1d46c6a
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190110"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528766"
 ---
 # <a name="whats-new-in-dynamics-365-business-central"></a>Nyheter i Dynamics 365 Business Central
 
-[!include [release notes](includes/release-notes.md)]
+[!INCLUDE[release notes](includes/release-notes.md)]
 
 Du kan alltid se i frigivelsesplanen for å få en oversikt over nye og kommende funksjoner. Her i dokumentasjonen kan du finne emner som kan hjelpe deg med å lære om nye og eksisterende funksjoner i [!INCLUDE[prodlong](includes/prodlong.md)].  
 
@@ -30,7 +30,7 @@ Hvis du vil se alle utvidelser som tilbys av [!INCLUDE[d365fin](includes/d365fin
 
 Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/), inkludert når de blir gjort tilgjengelig, og om det er noen spesielle hensyn som må tas.  
 
-Når det gjelder partnerfellesskapet, publiserer vi informasjon på [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen for partnere](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og i [Hjelp for utviklere og IT-eksperter for [!INCLUDE [prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
+Når det gjelder partnerfellesskapet, publiserer vi informasjon på [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen for partnere](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) og i [Hjelp for utviklere og IT-eksperter for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index).  
 
 ## <a name="see-also"></a>Se også
 

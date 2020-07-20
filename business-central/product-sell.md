@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: microsoft partner
 ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0c0ef6e00c2d1564c2f19c98a07c3cc4771c1d8a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190062"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528691"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Bli en forhandler av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 Utvid din forretningsmulighet med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
@@ -26,7 +26,7 @@ Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, SharePoin
 
 ## <a name="get-started"></a>Kom i gang
 
-Programmet "Klar til å sette i gang" er én måte å komme i gang som [!INCLUDE [prodshort](includes/prodshort.md)]-forhandler. Du kan også kontakte Microsoft-kontoret i ditt land eller område. For mer informasjon om tilgjengelige ressurser gjennom programmet "Klar til å sette i gang", se [aka.ms/readytogo](https://aka.ms/readytogo), [Videreselge forskjellige løsninger](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) og [Komme i gang som selger](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
+Programmet "Klar til å sette i gang" er én måte å komme i gang som [!INCLUDE[prodshort](includes/prodshort.md)]-forhandler. Du kan også kontakte Microsoft-kontoret i ditt land eller område. For mer informasjon om tilgjengelige ressurser gjennom programmet "Klar til å sette i gang", se [aka.ms/readytogo](https://aka.ms/readytogo), [Videreselge forskjellige løsninger](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-reseller) og [Komme i gang som selger](/dynamics365/business-central/dev-itpro/index#get-started-as-a-reseller).  
 
 ## <a name="see-also"></a>Se også
 

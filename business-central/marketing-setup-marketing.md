@@ -1,8 +1,6 @@
 ---
 title: Konfigurere markedsføring og kontaktbehandlingsinformasjon | Microsoft-dokumentasjon
 description: Du kan konfigurere markedsføring og kontaktbehandling i Business Central for å optimalisere forholdet til prospekter eller kunder og forbedre kampanjer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
+ms.date: 06/30/2020
 ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8fb9975508cccaeb0f5a0dec4d6e43db4df9fc14
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181223"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3529141"
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
+
 Før du begynner å arbeide med kontaktene og markedsføringsinteressene, er det noen beslutninger og trinn du må gjennomføre for å definere hvordan markedsføringsområdet håndterer bestemte aspekter ved kontaktene. Du kan for eksempel avgjøre om du skal synkronisere kontaktkortet med kundekortet, leverandørkortet og bankkontokortet, hvordan tallserier defineres, eller hva standard tiltaleform skal være under skriving til kontaktene dine.
 
 Det å behandle kontaktene og ha en strategi for å identifisere kunder, få kundenes oppmerksomhet og beholde dem vil bidra til å optimalisere bedriften og gjøre kundene mer fornøyde. Bruken av et godt kontaktbehandlingssystem vil også hjelpe deg med å danne og beholde relasjoner med kundene. Kommunikasjon er nøkkelen til disse relasjonene. Det å være i stand til å tilpasse kommunikasjon med potensielle og eksisterende kunder, leverandører og forretningspartner i henhold til behovene, er nødvendig for at bedrifter skal lykkes. Utvikling av en strategi og definering av hvordan bedriften bruker kontaktinformasjon er et grunnleggende trinn. Disse opplysningene vil bli vist av mange forskjellige grupper i bedriften, så alle vil bli mer produktive hvis du har et godt system etablert.
@@ -48,7 +47,7 @@ Hvis du vil ha mer informasjon, kan du se [Automatisk registrere samhandlinger m
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Synkronisere kontakter med kunder og mer
 Når du skal synkronisere kontaktkortet med kundekortet, leverandørkortet og bankkontokortet, må du velge en kode for forretningsforbindelse for kunder, leverandører og bankkonti. Du kan for eksempel knytte en kontakt til en eksisterende kunde bare hvis du har valgt en kode for forretningsforbindelse for kunder på siden **Markedsføringsoppsett**.
 
-Hvis du vil ha mer informasjon, kan du se [Synkronisere kontaktene med kunder, leverandører og bankkonti](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Hvis du vil ha mer informasjon, kan du se [Synkronisere kontaktene med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Tilordne en nummerserie til kontakter og salgsmuligheter
 Du kan definere en nummerserie for kontakter og salgsmuligheter. Hvis du har definert en nummerserie for kontakter, og du oppretter en kontakt og trykker Enter i Nr. -feltet på kontaktkortet, angir programmet automatisk neste tilgjengelige kontaktnummer.

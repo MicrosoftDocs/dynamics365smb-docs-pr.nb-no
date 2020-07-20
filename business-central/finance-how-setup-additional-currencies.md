@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9802821985550668d460aa3213c9fb64764169c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 34d1c9d1f61f2ab89d58d0c3f4a8c512fe6ea0f1
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183551"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528841"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.
@@ -103,7 +103,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 5. Den satsvise jobben **Justere tilleggsrapporteringsvaluta** åpnes.
 
     Denne kjørselen konverterer NOK-beløp i eksisterende poster til tilleggsrapporteringsvalutaen. Den satsvise jobben bruker en standard valutakurs som er kopiert fra valutakursen som er gyldig på arbeidsdatoen, på **Valutakurser**-siden. Restbeløp som oppstår ved omregning fra NOK til tilleggsrapporteringsvalutaen, bokføres i agio- og disagiokontoene som er angitt på **Valutaer**-siden. Bokføringsdatoen og bilagsnummeret for disse postene er identiske for den opprinnelige finansposten. Når alle disse restbeløpene er bokført, bokfører kjørselen en avrundingspost på avslutningsdatoen for hvert avsluttet år til kontoen for fri egenkapital. Dette er for å sikre at sluttsaldoen for inntektskontoene for hvert avsluttet år er 0 i både NOK og tilleggsrapporteringsvalutaen.
-6. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
+6. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Velg **OK** for å kjøre kjørselen.  
 
 Når kjørselen er utført, vil beløpene i følgende eksisterende poster være både i NOK og tilleggsrapporteringsvalutaen:  

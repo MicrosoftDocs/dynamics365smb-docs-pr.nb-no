@@ -1,7 +1,6 @@
 ---
 title: Konfigurere e-post i Business Central | Microsoft-dokumentasjon
 description: Beskriver hvordan du bruker firmaets SMTP-serveren til å sende og motta e-postmeldinger i Business Central, eller alternativt hvordan du bruker innstillingene for e-postserver som ble opprettet med Office 365-abonnementet.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -9,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
+ms.date: 06/15/2020
 ms.author: sgroespe
-ms.openlocfilehash: 9ece89b1d797d31a99c92f1bb292280b7f54ab7b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 36f9c561cd2bde8256e9bbb9694c89cd780b67ad
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187271"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528390"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
+
 Hvis du vil sende og motta e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)], må du fylle ut feltene på **Oppsett for SMTP-e-post**-siden.
 
 I stedet for å skrive inn detaljene for SMTP-serveren manuelt, kan du bruke funksjonen **Bruk Office 365-serverinnstillinger** til å angi dem med informasjon fra Office 365-abonnementet.
@@ -26,6 +26,7 @@ I stedet for å skrive inn detaljene for SMTP-serveren manuelt, kan du bruke fun
 Du kan enten definere e-post manuelt, som beskrevet nedenfor, eller du kan få hjelp ved å bruke den assisterte oppsettveiledningen **E-postoppsett**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 ## <a name="to-set-up-email"></a>Konfigurere e-post
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -36,6 +37,7 @@ Du kan enten definere e-post manuelt, som beskrevet nedenfor, eller du kan få h
 5. Når testen er vellykket, lukker du siden.
 
 ## <a name="using-a-substitute-sender-address-on-outbound-email-messages"></a>Bruke en erstatningsavsenderadresse i utgående e-postmeldinger
+
 Alle utgående e-postmeldinger fra [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker standardadressen for kontoen du angav på siden Oppsett for SMTP-e-post, som beskrevet ovenfor. Du kan imidlertid bruke funksjonene **Send som** eller **Send på vegne av** på Exchange-serveren til å endre avsenderadressen i utgående meldinger. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker standardkontoen til å godkjenne til Exchange, men erstatter avsenderadressen med den du angir, eller endrer den med "på vegne av".
 
 Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
@@ -54,6 +56,7 @@ Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCL
 5. I **Administrasjonssenter for Exchange** finner du postboksen som skal brukes som erstatningsadresse, og deretter angir du adressen fra **Bruker-ID**-feltet i **Send som**-feltet. Hvis du vil ha mer informasjon, kan du se [Bruke EAC til å tilordne tillatelser til individuelle postbokser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Slik bruker du erstatningsadressen i arbeidsflyter for godkjenning
+
 1. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett for SMTP-e-post**, og velger deretter den relaterte koblingen.
 2. Kopier eller noter adressen i feltet **Bruker-ID**.
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.
@@ -64,6 +67,13 @@ Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCL
 > [!Note]
 > [!INCLUDE[d365fin](includes/d365fin_md.md)] vil avgjøre hvilken adresse som skal vises i følgende rekkefølge: <br><br> 1. Adressen som er angitt i feltet **E-post** på siden **Brukeroppsett for godkjenning** for meldinger i en arbeidsflyt. <br> 2. Adressen som er angitt i **Send som**-feltet på siden **Oppsett for SMTP-e-post**. <br> 3. Adressen som er angitt i **Bruker-ID**-feltet på siden **Oppsett for SMTP-e-post**.
 
+## <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Definere fellesmapper og regler for e-postpålogging i Exchange Online
+
+Få mer ut av kommunikasjonen mellom selgere og de eksisterende eller potensielle kundene ved å spore e-postutvekslinger og deretter gjøre dem om til salgsmuligheter. Hvis du vil ha mer informasjon, kan du se [Spore utveksling av e-postmeldinger mellom selgere og kontakter](marketing-set-up-email-logging.md).  
+
+[!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
+
+Deretter kobler du [!INCLUDE[prodshort](includes/prodshort.md)] til Exchange Online. Hvis du vil ha mer informasjon, kan du se [Spore utveksling av e-postmeldinger mellom selgere og kontakter](marketing-set-up-email-logging.md).  
 
 ## <a name="see-also"></a>Se også
 

@@ -1,8 +1,6 @@
 ---
 title: Opprette et kundekort for å registrere nye kunder | Microsoft-dokumentasjon
 description: Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,26 +8,32 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/27/2020
+ms.date: 06/24/2020
 ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: cc48c7c55edac8af9333dd04661a828c528621b8
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324273"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503976"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
+
 Kunder er kilden til dine inntekter. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Før du kan registrere nye kunder, må du definere forskjellige salgskoder som du kan velge fra når du fyller ut kundekort. Hvis du vil ha mer informasjon, kan du se [Sette opp salg](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
+## <a name="adding-new-customers"></a>Legge til nye kunder
+
+Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprette maler for ulike kundeprofiler, eller du kan legge til kunder uten maler.  
+
 > [!NOTE]  
 > Hvis det finnes kundemaler for ulike kundetyper, vises en side når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.  
 
-## <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
+### <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2. På siden **Kunder** velger du handlingen **Ny**.
 
@@ -44,12 +48,10 @@ I hurtigfanen **Salgspriser** kan du vise spesialpriser eller rabatter som skal 
 
 Kunden er nå registrert, og kundekortet er klart til å brukes på salgsdokumenter.
 
-### <a name="deleting-customer-cards"></a>Slette kundekort
-Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette kundekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.
+Hvis du vil bruke dette kundekortet som en mal når du oppretter nye kundekort, kan du lagre det som en mal. Hvis du vil ha mer informasjon, kan du se følgende avsnitt:  
 
-Hvis du vil bruke dette kundekortet som en mal når du oppretter nye kundekort, kan du lagre det som en mal. Hvis du vil ha mer informasjon, kan du se følgende avsnitt:
+### <a name="to-save-the-customer-card-as-a-template"></a>Lagre kundekortet som en mal
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Lagre kundekortet som en mal
 1. På siden **Kundekort** velger du handlingen **Lagre som mal**. **Kundemal**-siden åpnes og viser kundekortet som en mal.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil bruke dimensjoner i maler, velger du handlingen **Dimensjoner**. **Dimensjonsmaler**-siden åpnes med alle dimensjonskoder som er definert for kunden.
@@ -58,10 +60,15 @@ Hvis du vil bruke dette kundekortet som en mal når du oppretter nye kundekort, 
 
 Kundemalen legges til i listen over kundemaler, slik at du kan bruke den til å opprette nye kundekort.
 
+## <a name="deleting-customer-cards"></a>Slette kundekort
+
+Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette kundekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
+
 ## <a name="see-also"></a>Se også
+
 [Definere betalingsmåter](finance-payment-methods.md)  
 [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  
 [Opprette nummerserier](ui-create-number-series.md)  
-[Salg](sales-manage-sales.md)    
-[Sette opp salg](sales-setup-sales.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Salg](sales-manage-sales.md)  
+[Sette opp salg](sales-setup-sales.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -7,14 +7,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 06/19/2020
 ms.author: sgroespe
-ms.openlocfilehash: 666102d7f75028035b4b4087c2c8de0c693268c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189345"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496727"
 ---
 # <a name="working-with-d365fin"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
@@ -26,7 +26,7 @@ Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolon
 > [!TIP]
 > Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
 >
-> [ ![](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf)
+> [ ![Ikon for PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som åpner en PDF-fil")
 
 ## <a name="links-to-learn-more"></a>Koblinger til Finn ut mer
 

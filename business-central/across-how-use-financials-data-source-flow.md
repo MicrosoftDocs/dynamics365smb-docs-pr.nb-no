@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 04/01/2020
 ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2fbd841332ff48bd4716a082b0c9ef2bb9ac6df
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187943"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528991"
 ---
 # <a name="using-prodshort-in-an-automated-workflow"></a>Bruke [!INCLUDE[prodshort](includes/prodshort.md)] i en automatisk arbeidsflyt
 
@@ -55,7 +55,7 @@ Du kan bruke dine [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del a
     > [!NOTE]
     > Kontakten [!INCLUDE[prodshort](includes/prodshort.md)] for Power Automate støtter flere produksjons- og sandkassemiljøer. Hvis du ikke har opprettet flere produksjons- eller sandkassemiljøer, er **Produksjon** det eneste tilgjengelige alternativet du kan velge.  
 
-    Nå har du koblet til Business Central[!INCLUDE [prodshort](includes/prodshort.md)]-dataene og er klar til å begynne å bygge din flyt.
+    Nå har du koblet til Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-dataene og er klar til å begynne å bygge din flyt.
 
 9. Når du skal opprette fra en mal, velger du **Start fra mal**.
 10. Søk etter **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-maler.

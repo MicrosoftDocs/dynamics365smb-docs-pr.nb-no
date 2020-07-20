@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2020
+ms.date: 06/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 12de08f6163c141a2c2e8669a814616b2b5fc04b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
+ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190230"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3503801"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
+
 Du kan utstede elektroniske og manuelle sjekker i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Begge metodene bruker utbetalingskladden til å utstede sjekker til leverandører. Du kan også kansellere sjekker og vise sjekkposter.
 
 Følgende fremgangsmåte viser hvordan du betaler en leverandør med maskinelle sjekker ved å utligne betalingen mot den aktuelle leverandørfakturaen, skrive ut sjekken og deretter bokføre betalingen som betalt. Dette fører til positive leverandørposter, utlignet mot negative bankposter og fysiske sjekker for behandling i banken.
@@ -30,7 +31,8 @@ Du kan betale med to typer sjekker. For begge disse typene må feltet **Motkonto
 > [!NOTE]  
 > For å være sikker på at banken bare innfrir validerte sjekker og beløp, kan du sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. Hvis du vil ha mer informasjon, kan du se [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
 
-Skriveren må være riktig konfigurert for sjekkskjemaene, og du må definere hvilke sjekkoppsett som skal brukes. Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Skriveren må være riktig konfigurert for sjekkskjemaene, og du må definere hvilke sjekkoppsett som skal brukes. Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md). Du kan for eksempel også sende sjekken som en PDF-fil.  
 
 Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk gjelder for flere enn 10 fakturaer, kansellerer vi sjekken på den første siden og skrive ut ordet KANSELLER på sjekken når du skriver ut blanketten. Vi skriver deretter ut resten av fakturaene og det totale sjekkbeløpet på den andre siden.
 
@@ -43,7 +45,7 @@ Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten 
 4. I feltet **Bankbetalingstype** velger du **Maskinell sjekk**.
 5. Velg **Skriv ut sjekk**-handlingen.
 6. Fyll ut feltene etter behov på siden **Sjekk**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Velg **Send til**-knappen, velg **PDF-dokument**, og velg deretter **OK**-knappen.
+7. Hvis skriveren er konfigurert til å skrive ut sjekker, klikker du på **Skriv ut**-knappen. Hvis ikke velger du **Send til**-knappen, velger **PDF-dokument**, velger **OK**-knappen og skriver deretter ut PDF-dokumentet.
 
     De fysiske sjekkene kan nå flyttes til banken for behandling. Fortsett med å bokføre betalingen som utlignet til leverandøren, og dermed betalt i systemet.
 8. Velg handlingen **Bokfør**.

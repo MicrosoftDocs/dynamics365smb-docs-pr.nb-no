@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 7a6be696756643496954b8ee0940efff7996f352
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 67b11d9c763ef4688af35a3f9cd83ee8c364fcee
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181607"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3528440"
 ---
 # <a name="create-contacts"></a>Opprette kontakter
 Du møter regelmessig personer fra andre selskaper som kan utvikle seg til forretningsforhold, for eksempel en kunderelasjon. Når du får en ny kontakt, må så mye informasjon som mulig registreres på et kontaktkort, slik at kommunikasjonen kan opprettholdes.
@@ -37,7 +37,7 @@ Funksjonaliteten er den samme for begge typer, bortsett fra at alternativene for
 3. I **Nr.** -feltet angir du et nummer på kontakten.
 
     Hvis du har definert en nummerserie for kontakter på siden **Markedsføringsoppsett**, kan du eventuelt trykke Enter-tasten for å sette inn det neste tilgjengelige kontaktnummeret.  
-5. Fyll ut feltene som gjenstår, etter behov. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Fyll ut feltene som gjenstår, etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Slik oppretter du en kontakt fra en kunde, leverandør eller bankkonto
 Hvis du har kunder, leverandører og bankkonti du vil opprette kontaktkort for, kan du bruke de satsvise jobbene **Opprett kontakter fra** til å opprette kontakter på grunnlag av de eksisterende dataene. Når du oppretter en kontakt på denne måten, synkroniseres kontaktinformasjonen etterpå med relatert informasjon om kunden, leverandøren eller bankkontoen. Hvis du vil ha mer informasjon, kan du se [Synkronisere kontaktene med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).

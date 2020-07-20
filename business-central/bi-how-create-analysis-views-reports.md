@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d975b0e61228f650cea5b9d6d75b27f4334bb88a
+ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186095"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3496828"
 ---
 #  <a name="create-analysis-reports"></a>Opprette analyserapporter
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi.  
@@ -41,9 +41,9 @@ Deretter kan du definere kolonner som disse:
 - Salg i prosent forrige måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
- På **Analyserapport**-siden kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler på siden **Maler for analyselinje**. På denne siden kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. På denne siden kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
+ På siden **Analyserapport** kan du vise ulike linje- og kolonneoppsett i henhold til linjene eller linjemalene du definerer på siden **Maler for analyselinje**. Du kan definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. Du kan definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
 
-Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten på matrisesiden **Analyserapport**, for eksempel slik som i dette eksemplet:  
+Basert på linjene og kolonnene du har definert, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] samle resultatene av rapporten på siden **Analyserapport**, som vist i tabellen nedenfor.  
 
 | |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
 |-|-|-|-|  
