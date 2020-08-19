@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 5586c8cbff247296483210fe4e772d49123b4202
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4880ea1477cc4cf61c692cca753c11096e361ebd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181025"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677238"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
 I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
@@ -41,7 +41,7 @@ Den norske versjonen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneho
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
 3.  Velg handlingen **Salgsdok.arkskuff - oppsett**.  
 4.  Velg en papirkilde i **Første side - papirkilde**-feltet.  

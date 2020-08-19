@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 8566856ade03531ce01f0fca35828d9af4fe785d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6d9cbf61160a2f8d64cfc7cd6b65aae4bd84a881
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188879"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611537"
 ---
 # <a name="local-functionality-in-prodlong"></a>Lokal funksjonalitet i [!INCLUDE[prodlong](includes/prodlong.md)]
 
@@ -25,7 +25,7 @@ Hvis du vil se oversikten over gjeldende støttede markeder, kan du se [Land-/om
 
 ## <a name="local-functionality"></a>Lokal funksjonalitet
 
-Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land, velger du den relaterte koblingen:
+Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land/område, velger du den relaterte koblingen:
 
 | Område | Land | Mer informasjon |
 | --- | --- |--- |
@@ -54,9 +54,11 @@ Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land,
 |        | New Zealand | [Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Andre land
-[!INCLUDE[d365fin](includes/d365fin_md.md)] finnes også i andre markeder via lokaliseringsapper. Hvis en Microsoft-partner har utviklet en lokaliseringsapp for landet ditt, finner du den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
+
+[!INCLUDE[d365fin](includes/d365fin_md.md)] finnes også i andre markeder via lokaliseringsapper. Hvis en Microsoft-partner har utviklet en lokaliseringsapp for landet/området ditt, finner du den i [AppSource](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
+
 [Komme i gang](product-get-started.md)  
 [Samsvar](compliance/compliance-overview.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

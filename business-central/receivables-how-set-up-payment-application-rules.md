@@ -1,5 +1,5 @@
 ---
-title: Bruke automatisk utligning til å avstemme betalinger | Microsoft-dokumentasjon
+title: Definere regler for automatisk utligning av betalinger
 description: På siden Betalingsutligningsregler definerer du regler for å styre hvordan betalinger/banktransaksjoner skal utlignes automatisk mot de relaterte åpne finanspostene, når du bruker funksjonen Utlign automatisk på siden Betalingsavstemmingskladd.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,17 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191934"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617576"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
+
 På siden **Betalingsutligningsregler** kan du definere regler for å styre hvordan betalingstekst (på en banktransaksjon) automatisk samsvarer med teksten i åpne poster, i følgende to prosesser:
+
 - Utligne automatisk betalinger mot tilknyttede åpne (ubetalte) fakturaer, kreditnotaer eller andre poster når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
 - Avstem automatisk banktransaksjoner med relaterte, interne bankkontoposter når du velger handlingen **Avstem automatisk** på siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).

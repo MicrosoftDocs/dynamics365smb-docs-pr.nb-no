@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: eb2eb1413e71353412f78dc7d2ae878c2e2034e2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 50cab6b108cb4f8003d8cc415f36ac101fea1d05
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181027"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677248"
 ---
 # <a name="import-payment-return-data"></a>Importere betalingsreturdata
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
 
 ## <a name="to-import-return-data"></a>Slik importerer du returdata  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -33,11 +33,11 @@ Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les i
 
 3.  Velg **Returfiler**-knappen for å vise returfilene.  
 4.  På siden **Returfiler** velger du **Importer** ved siden av hver fil som skal importeres. Hvis alternativet ikke er merket, blir ikke filen importert.  
-5.  Velg **OK**.  
+5.  Velg **OK**-knappen.  
 
 ## <a name="to-view-settlement-information"></a>Slik viser du avregningsopplysninger  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avregningsopplysninger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avregningsopplysninger**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Generelt** viser du feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

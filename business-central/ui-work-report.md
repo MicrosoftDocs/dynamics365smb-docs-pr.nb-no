@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report
 ms.date: 06/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 19811dadb284ee9e629c9dc518df5cb989175fdb
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 11c3fa284a457db1de272a3d92ebc7fc873ad933
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454332"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549895"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeide med rapporter, satsvise jobber og XML-porter
 
@@ -50,7 +50,7 @@ Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generer
 
 ## <a name="previewing-a-report"></a>Forhåndsvise en rapport
 
-Velg **Forhåndsvisning** for å vise rapporten. Bruk menylinjen i rapportforhåndsvisningen for å:
+Velg **Forhåndsvisning** for å vise rapporten på rapportforespørselssiden. Bruk menylinjen i rapportforhåndsvisningen for å:
 
 - Gå gjennom sider
 - Zoome inn og ut
@@ -77,17 +77,32 @@ Når du planlegger å kjøre en rapport, kan du for eksempel angi at den må kj�
 Du kan velge å lagre den behandlede rapporten som en fil, for eksempel en Excel-, Word- eller PDF-fil, skrive den ut på en valgt skriver eller bare behandle rapporten. Hvis du lagrer rapporten i en fil, sendes den behandlede rapporten til området **Rapportinnboks** på Rollesenteret, der du kan vise den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Skrive ut en rapport
-Du kan skrive ut en rapport ved å velge **Skriv ut** på rapportforespørselssiden eller på menylinjen på siden **Forhåndsvisning**.
 
-Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
+Du skriver ut en rapport ved å velge **Skriv ut** på rapportforespørselssiden eller på menylinjen på siden **Forhåndsvisning**.
 
-Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert skriver mislykkes, blir utskriftsalternativene automatisk angitt for leseren. Dette angis av denne verdien i feltet **Skriver** på rapportforespørselssiden: *(ingen, behandlet av leseren)*.
+### <a name="printer-selection"></a>Skrivervalg
 
-På siden **Utskriftsbehandling** kan du se hvilke skrivere som er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere skrivere](ui-specify-printer-selection-reports.md).
+Rapporten skriver ut på skriveren som vises i felltet **Valgt skriver** på rapportforespørselssiden. Du kan ikke endre skriveren på denne siden.
+
+Den valgte skriveren er enten angitt på **Skrivervalg**-siden, eller det er standardskriveren som er satt opp på siden **Utskriftsbehandling**. Hvis du vil bruke en annen skriver, kan du se [Konfigurere skrivere](ui-specify-printer-selection-reports.md).
+
+Hvis det ikke er angitt noen skriver på **Skrivervalg**-siden, eller ingen skriver er satt som standard på siden **Utskriftsbehandling**, brukes leserutskriftsfunksjonen. I dette tilfellet vises **Nettleser** i feltet **Valgt skriver** på rapportforespørselssiden. 
+
+### <a name="browser-printing"></a>Utskrift fra nettleser
+
+Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til datamaskinen din. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
+
+Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert skriver mislykkes, blir utskriftsalternativene automatisk angitt for leseren.
 
 > [!NOTE]
-> Du kan ikke endre feltet **Skriver** på rapportforespørselssiden. Hvis du vil bruke en annen skriver, må du velge den fra siden **Utskriftsbehandling**.
+> Utskriftsalternativene i leseren arbeider uavhengig av [!INCLUDE[prodshort](includes/prodshort.md)]. Så eventuelle skriverinnstillinger som er satt opp fra skrivere i [!INCLUDE[prodshort](includes/prodshort.md)], overføres ikke til alternativene for nettleserutskrift.
 
+<!-- 
+On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+
+> [!NOTE]
+> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
+-->
 ### <a name="printing-reports-in-thai"></a>Skrive ut rapporter på thai
 Spesielt for den thailandske versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], kan ikke **Utskrift**-knappen skrive ut rapporter riktig på grunn av begrensninger i tjenesten som genererer den utskrivbare PDF-filen. Du kan i stedet åpne rapporten i Word og deretter lagre den som en utskrivbar PDF.  
 

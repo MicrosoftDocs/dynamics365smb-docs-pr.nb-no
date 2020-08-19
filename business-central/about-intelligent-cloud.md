@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms. search.keywords: cloud, edge
-ms.date: 04/01/2020
+ms.date: 07/13/2020
 ms.author: bmeier
-ms.openlocfilehash: c2c30715c730aec51f31f80ea95fd896cb1b257f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8948864c1e3d00f3955b0952fd70048c13f4585c
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528866"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577282"
 ---
 # <a name="intelligent-insights-with-prodshort-online"></a>Intelligent innsikt med [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
 Som en bruker av [!INCLUDE[prodshort](includes/prodshort.md)] på nettet har du full tilgang til scenarier som er basert på den intelligente skyen, for eksempel KPI-er som er basert på maskinlæring, eller når du viser dataene i Power BI. Selv om [!INCLUDE[prodshort](includes/prodshort.md)] primært er en skytjeneste, kan også kunder som må kjøre deres arbeidsmengder fullstendig lokalt eller på den intelligente kanten tilkoblet skyen, gjøre dette.  
 
-Hvis du er interessert i [!INCLUDE[prodshort](includes/prodshort.md)], kan du registrere deg for en gratis prøveversjon på Internett, eller du kan velge å arbeide med en partner for å distribuere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på din egen maskinvare. Du kan deretter bestemme deg for å få intelligent innsikt ved å koble til en leietaker i skyen. Dermed vil dataene fra den lokalt distribuerte [!INCLUDE[prodshort](includes/prodshort.md)] repliseres til skyen for scenarier med den intelligente skyen.  
+Hvis du er interessert i [!INCLUDE[prodshort](includes/prodshort.md)], kan du registrere deg for en gratis prøveversjon på Internett, eller du kan velge å arbeide med en partner for å distribuere [!INCLUDE[prodshort](includes/prodshort.md)] lokalt på din egen maskinvare. Du kan deretter bestemme deg for å få intelligent innsikt ved å koble til en leietaker i skyen. Dermed vil dataene fra de lokalt distribuerte replikeringene av [!INCLUDE[prodshort](includes/prodshort.md)] til skyen for scenarier med den intelligente skyen.  
 
 Koble til den intelligente skyen fra en lokal løsning krever at systemansvarlig angir opplysninger om databasen. Verktøyene som brukes til å koble den lokale distribusjonen til [!INCLUDE[prodshort](includes/prodshort.md)] online, er de samme som også brukes for overføring fra lokal til online. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
 
@@ -49,6 +49,5 @@ Når Dynamics 365-videresalgspartneren din har fått den riktige lisensen for at
 ## <a name="see-also"></a>Se også
 
 [Velkommen til Business Central](index.md)  
-[Intelligent skyutvidelse i Business Central](ui-extensions-intelligent-cloud.md)  
-[Datareplikeringsutvidelse](ui-extensions-data-replication.md)  
+[Intelligente skyutvidelser for skyoverføring](ui-extensions-data-replication.md)  
 [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

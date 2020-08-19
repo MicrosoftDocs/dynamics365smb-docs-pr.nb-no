@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfd2c67c7e7133f13a2e021cb9cf70ba82f6bb21
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 098bb0e946d78f69a848ddeb8405ea43579c4597
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185159"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617630"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
+
 Når du bokfører en lagertransaksjon, registreres antallsbokføringen i varepostene og verdibokføringen i verdipostene. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
 
 I tillegg utføres en vareutligning for å koble kostnadsmottaker til kostnadskilden for å angi videresending av kostnader i henhold til lagermetoden. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).  
@@ -34,21 +35,21 @@ Vareutligninger kan utføres på følgende måter.
 |Metode|Beskrivelse|Utligningstype|  
 |------------|---------------------------------------|----------------------|  
 |Automatisk|Forekommer som videresending av generelle kostnader i henhold til lagermetoden|Antallsutligning|  
-|Fast|Utføres av brukeren når:<br /><br /> -   Behandle returer<br />-   Bokføring av rettelser<br />-   Angrer antallsbokføringer<br />-   Opprette direkte leveringer **Obs!**  Du kan gjøre fast utligning manuelt ved å skrive inn et postnummer i feltet **Utlignet fra-varepost**, eller ved å bruke en funksjon, for eksempel **Hent bokførte dokumentlinjer som skal tilbakeføres**.|Antallsutligning<br /><br /> Kostutligning **Obs!**  Kostutligning oppstår bare i innkommende transaksjoner når feltet **Utlignet fra-varepost** fylles ut for å opprette en fastsatt utligning. Se den neste tabellen.|  
+|Fast|Utføres av brukeren når:<br /><br /> -   Behandler returer<br />-   Bokfører rettelser<br />-   Angrer antallsbokføringer<br />-   Oppretter direkte leveringer **Obs!**  Du kan gjøre fast utligning manuelt ved å skrive inn et postnummer i feltet **Utlignet fra-varepost**, eller ved å bruke en funksjon, for eksempel **Hent bokførte dokumentlinjer som skal tilbakeføres**.|Antallsutligning<br /><br /> Kostutligning **Obs!**  Kostutligning oppstår bare i innkommende transaksjoner når feltet **Utlignet fra-varepost** fylles ut for å opprette en fastsatt utligning. Se den neste tabellen.|  
 
 Om det er antallsutligninger eller kostutligninger som utføres, avhenger av retningen til lagertransaksjonen og om vareutligningen utføres automatisk eller er fast, i forbindelse med spesialprosesser.  
 
 Tabellen nedenfor viser hvordan kostnader flyter avhengig av transaksjonsretningen, basert på de sentrale utligningsfeltene på lagertransaksjonslinjer. Dette angir også når og hvorfor vareutligning er av typen antall eller kost.  
 
-||Feltet Utligningsvarepost|Feltet Utlignet fra-varepost|  
+|-|Feltet Utligningsvarepost|Feltet Utlignet fra-varepost|  
 |-|--------------------------------|----------------------------------|  
 |Utligning for utgående post|Den utgående posten henter kostnaden fra den åpne inngående posten.<br /><br /> **Antallsutligning**|Støttes ikke|  
 |Utligning for inngående post|Den inngående posten skyver kostnaden over på den utgående posten.<br /><br /> Den inngående posten er kostnadskilden.<br /><br /> **Antallsutligning**|Den inngående posten henter kostnaden fra den utgående posten. **Obs!** Når denne faste utligningen foretas, behandles den inngående transaksjonen som en ordreretur. Derfor holdes den utlignede utgående posten åpen. <br /><br /> Den inngående posten er IKKE kostnadskilden.<br /><br /> **Kostutligning**|  
 
 > [!IMPORTANT]  
->  En ordreretur regnes IKKE som en kostnadskilde når fast brukes.  
->   
->  Salgsposten forblir åpen til den faktiske kilden er bokført.  
+> En ordreretur regnes IKKE som en kostnadskilde når fast brukes.  
+>
+> Salgsposten forblir åpen til den faktiske kilden er bokført.  
 
 En vareutligningspost inneholder følgende informasjon.  
 

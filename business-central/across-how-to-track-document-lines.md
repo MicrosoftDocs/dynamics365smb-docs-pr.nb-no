@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: d6440c4cf2f7b5e41f320fcbb1d72d353ae4f5e9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 48d8e3baf3adfbd4836cadb638949e54555a39c9
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188020"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577381"
 ---
 # <a name="track-document-lines"></a>Spore dokumentlinje
 Du kan vise dokumenter som er relatert til ordrelinjer og bestillingslinjer, herunder fra arkiverte ordrelinjer. Dokumenter som du kan spore, inkluderer forespørsler, følgesedler, mottak og rammeordrer. Dette hjelper deg med å identifisere dokumenter som er brukt til å behandle ordrer.  
@@ -28,6 +28,8 @@ Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremg
 3.  Merk en linje, og velg deretter **Sporing av dokumentlinje**-handlingen.
 4. På siden **Sporing av dokumentlinje** velger du dokumentet du vil vise, og deretter velger du **Vis**-handlingen for å vise den relaterte linjen.
 5. Hvis du vil vise hele dokumentet for den valgte dokumentlinjen, velger du **Vis dokument**-handlingen.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  

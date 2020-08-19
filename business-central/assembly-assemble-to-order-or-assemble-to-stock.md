@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: a5fc9b13e28b51d776fad6d02feae4624b756c4c
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496803"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617939"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
@@ -72,7 +72,7 @@ Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk o
 
  Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
 
-||Ordrelinje|Monteringsordrehode|  
+|-|Ordrelinje|Monteringsordrehode|  
 |-|----------------------|---------------------------|  
 ||**Antall**|**Levere (antall)**|**Ant. som skal monteres til ordre**|**Levert (antall)**|**Antall**|**Antall å montere**|**Montert antall**|**Restantall**|  
 |Første|10|7|7|0|7|7|0|7|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bf893e2f8ea7eaeee9867566da92461eef7a9578
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184199"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666800"
 ---
 # <a name="fixed-assets"></a>Anleggsmidler
 Aktivafunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
@@ -47,6 +47,11 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Beregne avskrivning, bokføre avskrivning og analysere avskrivning i aktivarapporter. |[Avskrive eller amortisere aktiva](fa-how-depreciate-amortize.md) |
 | Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md) |
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Behandle budsjetter for aktiva](fa-how-manage-budgets.md) |
+
+## <a name="video-overview"></a>Videooversikt
+Følgende video dekker det grunnleggende ved aktiva:
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS]
 
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 06/23/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: 09047315c701bd2076f59b6c3f4840ba95eb06cc
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.openlocfilehash: 7438502e14d1aa0eecdd56db0eb4ae2f2790413a
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503547"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677119"
 ---
 # <a name="set-up-incoming-documents"></a>Konfigurere inngående dokumenter
 
@@ -23,7 +23,7 @@ Hvis du oppretter finanskladdelinjer fra innkommende dokumentposter, må du angi
 
 Hvis du ikke vil at brukerne skal opprette fakturaer eller finanskladdelinjer fra innkommende dokumentposter med mindre dokumentene først er godkjent, må du definere arbeidsflytgodkjennere.
 
-Hvis du vil gjøre om PDF- og bildefiler til elektroniske dokumenter som du kan konvertere til, for eksempel kjøpsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du først sette opp OCR-funksjonen og aktivere tjenesten.
+Hvis du vil gjøre om PDF- og bildefiler til elektroniske dokumenter som du kan konvertere til, for eksempel kjøpsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du først sette opp OCR-funksjonen og aktivere tjenesten. Velg en tjenestepakke som passer for organisasjonen og/eller landet/området. Du kan også opprette poster manuelt for å representere de eksterne dokumentene.  
 
 Når funksjonen for inngående dokumenter er konfigurert, kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere inngående dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter. Hvis du vil ha mer informasjon, kan du se [Behandle inngående dokumenter](across-process-income-documents.md).
 
@@ -38,7 +38,7 @@ Hvis du bruker en tjeneste til å konvertere PDF-eller bildefiler som represente
 
 ## <a name="to-set-up-approvers-of-incoming-document-records"></a>Slik definerer du godkjennere av inngående dokumentposter:
 
-Godkjennere av innkommende dokumenter må konfigureres som brukere av arbeidsflyt for godkjenning.
+Du kan eventuelt definere en godkjenningsprosess for innkommende dokumenter. Godkjennere av innkommende dokumenter må konfigureres som brukere av arbeidsflyt for godkjenning.
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen. På siden **Brukeroppsett for godkjenning** angir du også beløpsgrenser for bestemte typer forespørsler og definerer stedfortredende godkjennere som godkjenningsforespørsler delegeres til når den opprinnelige godkjenneren er borte. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).
 

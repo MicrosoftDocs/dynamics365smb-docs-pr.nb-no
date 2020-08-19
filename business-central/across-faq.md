@@ -5,20 +5,20 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 06/25/2020
+ms.date: 07/21/2020
 ms.author: edupont
-ms.openlocfilehash: 865a7511a086d38ae1edeabb008557a7101498ff
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528088"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611587"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
 Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også lære hvordan du får teknisk støtte.  
 
-## <a name="is-d365fin-available-in-my-country"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgengelig i mitt land?
+## <a name="is-d365fin-available-in-my-countryregion"></a>Er [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgjengelig i mitt land/region?
 
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig i et begrenset antall markeder, men nye land legges inn via Microsoft-ledet lokalisering eller via partnerledet lokalisering kvartalsvis. Hvis du vil ha mer informasjon, se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (bare tilgjengelig på engelsk).  
 
@@ -108,6 +108,10 @@ Når du er klar for å kjøpe [!INCLUDE[prodshort](includes/prodshort.md)], finn
 Hvis du vil ha veiledning fra Microsoft, kontakter du [Microsoft Sales-teamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 
 Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
+
+## <a name="where-do-i-find-that-line-number"></a>Hvor finner jeg det aktuelle linjenummeret?
+
+Dokumenter, for eksempel ordrer eller kjøpsfakturaer, består av hoder og linjer. Hver linje har et nummer som [!INCLUDE [prodshort](includes/prodshort.md)] bruker til å identifisere denne linjen. Resultatet er at du kan få en advarsel eller en feilmelding om at det er feil i linjenummer 1000 for eksempel. I standardversjonen av [!INCLUDE [prodshort](includes/prodshort.md)] skjules linjenumre. Hvis du vil se linjenumrene, må du tilpasse gjeldende side og legge til feltet **Linjenr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
 
 ## <a name="why-is-new-information-not-available-in-my-language"></a>Hvorfor er ny informasjon ikke tilgjengelig på språket mitt?
 

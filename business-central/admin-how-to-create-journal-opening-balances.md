@@ -8,29 +8,33 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2c42e87db1e0dd792d9b4444db3cfe5d1a05ed48
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5360b3a8a72387cda8d0e640562a118ca1f20ff4
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187151"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577129"
 ---
 # <a name="create-journal-opening-balances"></a>Opprette inngående balanser for kladd
+
 [!INCLUDE[d365fin](includes/d365fin_md.md)] omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap. Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.
 
 Det første trinnet er å opprette en konfigurasjonspakke som inneholder oppsettstabellene for disse kladdene. Følgende fremgangsmåte forutsetter at dette trinnet er fullført. Du finner mer informasjon under [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md). Denne fremgangsmåten beskriver de påfølgende trinnene, blant annet å bruke pakken som er levert av en partner.  
 
 Før du begynner, må du kontrollere at du bruker rollesentersiden for administrasjon, fordi denne gir riktig kontekst for konfigurasjonsarbeidet. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
-## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Slik utligner du poster i en kladd mot et nytt selskap:  
+## <a name="to-apply-the-entries-in-a-journal-to-a-new-company"></a>Slik utligner du poster i en kladd mot et nytt selskap:
+
 1. Konfigurer og bruk en konfigurasjonspakke for det. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart-veiviseren](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md).  
 
     Det nye selskapet inneholder ikke informasjon om inngående balanser for kladd.  
 
 2. Åpne konfigurasjonsforslaget og importer eksisterende data om kunder, varer, leverandører og finans. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
-3. Velg for eksempel handlingen **Opprett finanskladdelinjer**.  
+
+    Nå er hoveddata på plass. Deretter legger du til åpningssaldoer. Trinnene nedenfor beskriver hvordan du oppretter kladdelinjer finanskonti, men det samme gjelder for oppretting av kladdelinjer for kunder, leverandører og varer.  
+3. Velg handlingen **Opprett finanskladdelinjer**.  
 4. Fyll ut det som er aktuelt i hurtigfanen **Alternativer**, og angi filtre etter behov. Skriv for eksempel inn et navn i **Kladdemal**-feltet.  
 5. Velg **OK**-knappen. Nå er postene i kladden, men beløpene er tomme.  
 6. Eksporter kladdetabellen til Excel, og angi informasjon om bokføring og motkonto fra eldre data manuelt.
@@ -39,7 +43,11 @@ Før du begynner, må du kontrollere at du bruker rollesentersiden for administr
 9. Se gjennom informasjonen, og velg deretter **Bokfør**-handlingen.  
 10. Gjenta trinnene for å importere og bokføre eventuelle åpningssaldoer.  
 
-## <a name="see-also"></a>Se også  
+> [!TIP]
+> Du kan bruke de samme kjørslene til å legge til åpningssaldoer når du registrerer en ny kunde eller leverandør som du har gjort forretninger med før, men som ikke er registrert i [!INCLUDE [prodshort](includes/prodshort.md)]. Bare søk etter den aktuelle oppgaven, og velg deretter den relevante koblingen.
+
+## <a name="see-also"></a>Se også
+
 [Bruke konfigurasjoner for nye selskaper](admin-apply-configuration-to-new-companies.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Administrasjon](admin-setup-and-administration.md)
+[Administrasjon](admin-setup-and-administration.md)  

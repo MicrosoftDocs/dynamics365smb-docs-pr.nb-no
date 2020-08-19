@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 303471ad0f76d2687a66a352bcf8d7cdb12bef33
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8c1a5f5b5d3d8fd138922586befc8c0460b0f7dd
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181034"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677255"
 ---
 # <a name="delete-remittance-payment-orders"></a>Slette remitteringsoppdrag
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
 ## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Slette remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

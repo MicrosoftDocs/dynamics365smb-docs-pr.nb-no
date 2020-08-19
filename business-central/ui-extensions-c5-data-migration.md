@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 07/23/2020
 ms.author: bholtorf
-ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: d52b04f000617ac037ccc37bcf02061609e680c6
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486374"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617839"
 ---
 # <a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
 
@@ -146,8 +146,8 @@ Etter at du har korrigert én eller flere feil, kan du velge **Migrer** for å m
 
 Du kan kontrollere at dataene er overført riktig ved å se på følgende sider i C5 og [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Kjørsel som skal brukes |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Kjørsel som skal brukes |
+|---------------------------|------------------------------|------------------|
 |Kundeposter| Finanskladder| CUSTMIGR |
 |Leverandørposter| Finanskladder| VENDMIGR|
 |Vareposter| Varekladder| ITEMMIGR |

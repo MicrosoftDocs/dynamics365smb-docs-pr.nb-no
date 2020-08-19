@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 8bbd9b07976dc4d54f8bee9f5eb8c23270c5a10c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c133a678d3628fa8274399d22e7f53b73740e3d8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187175"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3666850"
 ---
 # <a name="create-custom-company-configuration-packages"></a>Opprette egendefinerte konfigurasjonspakker for selskap
 Etter hvert som virksomheten øker, kommer du sannsynligvis til å være avhengig av et sett med selskapstyper som du bruker med de fleste av kundene dine. Du kan forenkle implementeringsprosessen ved å gjøre disse typene om til selskapskonfigurasjonspakker som kan brukes på nytt.  
@@ -38,6 +38,11 @@ En annen tilnærming ville være å opprette en pakke som inneholder tabeller so
 -   Lagerbokføringsoppsett  
 
 Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Manuelt oppsett** og velger deretter den relaterte koblingen.  
+
+> [!IMPORTANT]
+> Vær forsiktig hvis du velger tabeller eller felt som har samme temporale navn, men som skilles med spesialtegn, for eksempel %, &, <, >, ( og ). Tabellen XYZ kan for eksempel inneholde feltene "Felt 1" og "Felt 1%".
+>
+> XML-prosessoren godtar bare noen spesialtegn, og vil fjerne tegn som ikke godtas. Hvis du fjerner et spesialtegn, for eksempel %-tegnet i "Felt 1%", vil det føre til to eller flere tabeller eller felt får samme navn, og det vil oppstå en feil når du eksporterer eller importerer en konfigurasjonspakke.
 
 ## <a name="to-create-a-custom-company-configuration-package"></a>Opprette egendefinerte konfigurasjonspakker for selskap  
 1.  Opprett et nytt selskap. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i Business Central](about-new-company.md).  

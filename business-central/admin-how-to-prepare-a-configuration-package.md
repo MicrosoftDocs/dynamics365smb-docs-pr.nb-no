@@ -1,7 +1,7 @@
 ---
 title: Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon
 description: Finn ut nå hvordan du konfigurerer en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.author: bholtorf
+ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
+ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535975"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3667000"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 
@@ -30,6 +30,12 @@ Det er noen ting du bør vurdere før du oppretter en konfigurasjonspakke, fordi
 ### <a name="tables-that-contain-posted-entries"></a>Tabeller som inneholder bokførte poster
 
 Du kan ikke importere data til tabeller som inneholder bokførte poster, for eksempel tabellene for kunde-, leverandør- og vareposter, så du bør ikke ta med disse dataene i konfigurasjonspakken. Du kan legge til oppføringer i disse tabellene når du har importert konfigurasjonspakken ved hjelp av journaler for å bokføre postene. Hvis du vil ha mer informasjon, kan du se [Bokføre dokumenter og kladder](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Tabellnavn som inneholder spesialtegn
+
+Vær forsiktig hvis du har tabeller eller felt som har samme temporale navn, men som skilles med spesialtegn, for eksempel %, &, <, >, ( og ). Tabellen XYZ kan for eksempel inneholde feltene "Felt 1" og "Felt 1%".
+
+XML-prosessoren godtar bare noen spesialtegn, og vil fjerne tegn som ikke godtas. Hvis du fjerner et spesialtegn, for eksempel %-tegnet i "Felt 1%", vil det føre til to eller flere tabeller eller felt får samme navn, og det vil oppstå en feil når du eksporterer eller importerer en konfigurasjonspakke. 
 
 ### <a name="licensing"></a>Lisensiering
 

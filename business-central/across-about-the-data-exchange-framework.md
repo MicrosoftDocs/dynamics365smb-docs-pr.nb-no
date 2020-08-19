@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: sgroespe
-ms.openlocfilehash: 18611cf98d8299900d2f517d2899404341933a80
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b09bd9836b4764a436a76d7ef0fc52d105d43470
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188807"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611616"
 ---
 # <a name="about-the-data-exchange-framework"></a>Rammeverket for datautveksling
+
 Du kan bruke rammeverket for datautveksling til å utveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med forretningspartnerne.
 
 Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integrasjonsfunksjoner ved å definere hvilke data som skal utveksles, og hvordan. Filformater for utveksling av data i bankfiler, elektroniske dokumenter, valutakurser og andre med ERP-systemer varierer for eksempel avhengig av leverandøren av datafilen eller -strømmen og landet/regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ulike bankfilformater og dataservicestandarder. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.
@@ -28,8 +29,9 @@ Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integra
 
  ![Rammeverket for datautveksling &#45; Eksport](media/across-data-exchange/dataexchangeframework_export.png)  
 
- ## <a name="electronic-documents"></a>Elektroniske dokumenter
- Som et alternativ til å sende forretningsdokumenter som filvedlegg via e-post, kan du sende og motta dem elektronisk. Med elektronisk dokument menes en standardkompatibel fil som representerer et forretningsdokument, for eksempel en faktura fra en leverandør som du kan motta og konvertere til en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utvekslingen av elektroniske dokumenter mellom to handelspartnere uføres ved hjelp av en ekstern leverandør av dokumentutvekslingstjenester. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende og motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. En større leverandør av dokumentutvekslingstjenester er forhåndskonfigurert og klar til å bli definert for firmaet. Hvis du vil ha støtte for andre elektroniske dokumentformater, må du opprette nye datautvekslingsdefinisjoner ved hjelp av rammeverket for datautveksling.  
+## <a name="electronic-documents"></a>Elektroniske dokumenter
+
+Som et alternativ til å sende forretningsdokumenter som filvedlegg via e-post, kan du sende og motta dem elektronisk. Med elektronisk dokument menes en standardkompatibel fil som representerer et forretningsdokument, for eksempel en faktura fra en leverandør som du kan motta og konvertere til en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utvekslingen av elektroniske dokumenter mellom to handelspartnere uføres ved hjelp av en ekstern leverandør av dokumentutvekslingstjenester. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan sende og motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. En større leverandør av dokumentutvekslingstjenester er forhåndskonfigurert og klar til å bli definert for firmaet. Hvis du vil ha støtte for andre elektroniske dokumentformater, må du opprette nye datautvekslingsdefinisjoner ved hjelp av rammeverket for datautveksling.  
 
  Fra PDF- eller bildefiler som representerer inngående dokumenter, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å opprette elektroniske dokumenter som du deretter kan konvertere til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)], på samme måte som for elektroniske PEPPOL-dokumenter. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Etter noen få sekunder får du filen tilbake som en elektronisk faktura som kan konverteres til en kjøpsfaktura for leverandøren. Hvis du sender filen til OCR-tjenesten via e-post, opprettes deretter en ny post for inngående dokument automatisk når du får det elektroniske dokumentet tilbake.  
 
@@ -39,23 +41,26 @@ Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integra
 
   Hvis du for eksempel vil motta en faktura som et elektronisk OCR-dokument, behandler du den når du mottar et elektronisk PEPPOL-dokument. Mottak og konvertering av elektroniske dokumenter fra OCR utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **OCR - faktura**.  
 
- ## <a name="bank-files"></a>Bankfiler  
- Filformatene for utveksling av bankdata med ERP-systemer varierer avhengig av leverandøren av filen og landet eller regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import og eksport av SEPA-bankfiler (Single Euro Payments Area) og AMC Banking med utvidelsen 365 Fundamentals kan du koble til en AMC Banking med utvidelsen Fundamentals fra ekstern leverandør, AMC Consult. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
+## <a name="bank-files"></a>Bankfiler
 
- Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere utvidelsen AMC Banking 365 Fundamentals til å utføre eksporten, representert av datautvekslingsdefinisjonen **AMC Banking 365 Fundamentals – kredittoverføring** .  
+Filformatene for utveksling av bankdata med ERP-systemer varierer avhengig av leverandøren av filen og landet eller regionen. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import og eksport av SEPA-bankfiler (Single Euro Payments Area), og med AMC Banking 365 Fundamentals-utvidelsen kan du koble til en AMC Banking 365 Fundamentals-utvidelse fra ekstern leverandør, AMC Consult. Hvis du vil ha støtte for andre elektroniske dokumentformater, kan du bruke rammeverket for datautveksling.  
+
+Hvis du vil eksportere SEPA-kredittoverføringer, velger du **Eksporter betalinger til fil**-knappen på **Utbetalingskladd**-siden, og deretter laster du opp filen for å behandle betalinger i banken. Først må du definere forskjellige hoveddata, for eksempel bankkonto, leverandører og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA-kredittoverføring**. Du kan eventuelt definere utvidelsen AMC Banking 365 Fundamentals til å utføre eksporten, representert av datautvekslingsdefinisjonen **AMC Banking 365 Fundamentals – kredittoverføring** .  
 
  Hvis du vil eksportere instruksjoner for SEPA Direct Debit, velger du **Eksporter Direct Debit-fil**-knappen på **Direct Debit-oppkrevinger**-siden, og sender deretter til banken for automatisk å samle inn de aktuelle kundebetalingene. Du må først definere bankkontoer, kunder, direct debit-belastningsfullmakter og betalingsmåter. Datakonvertering og eksport av SEPA-bankdata utføres av en dedikert codeunit og XMLport, representert av oppsettet for bankeksport/-import for **SEPA Direct Debit**.  
 
  Hvis du vil importere SEPA-bankkontoutdrag, kan du velge knappen Importer bankkontoutdrag på sidene **Betalingsavstemmingskladd** og **Bankkontoavstemming**, og deretter fortsette å bruke hver enkelt bankkontoutdragspost på betalinger eller bankkontoposter, manuelt eller automatisk. Du må først definere bankkontoer. Import og datakonvertering av SEPA-bankdata utføres av rammeverket for datautveksling, representert av datautvekslingsdefinisjonen **SEPA CAMT**. Du kan eventuelt definere utvidelsen AMC Banking 365 Fundamentals til å utføre importen, representert av datautvekslingsdefinisjonen **AMC Banking 365 Fundamentals – bankkontoutdrag** .  
 
- De lokale versjonene av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter i tillegg diverse andre filformater for import/eksport av bankdata, lønnstransaksjoner og andre data. Hvis du vil ha mer informasjon, se hjelpen for "Lokal funksjonalitet" i ditt lands versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+ De lokale versjonene av [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter i tillegg diverse andre filformater for import/eksport av bankdata, lønnstransaksjoner og andre data. Hvis du vil ha mer informasjon, kan du se målsiden [Lokal funksjonalitet](about-localization.md) for ditt land/område i hjelpen.  
 
-  ## <a name="currency-exchange-rates"></a>Valutakurser  
- Du kan definere en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten som leverer oppdaterte valutakurser, er aktivert som en datautvekslingsdefinisjon. Tilsvarende er siden **Kort for oppsett for val.kursoppdatering** en komprimert visning av siden **Datautvekslingsdefinisjon** for den aktuelle datautvekslingsdefinisjonen.  
+## <a name="currency-exchange-rates"></a>Valutakurser
 
- For alle utvekslinger av data i XML-filer kan du klargjøre datautvekslingsoppsettet ved å laste inn den relaterte XML-skjemafilen på siden **Visningsprogram for XML-skjema**. Her velger du dataelementene du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter initialiserer du en datautvekslingsdefinisjon eller genererer en XMLport.
+Du kan definere en ekstern tjeneste for å holde valutakurser oppdatert. Tjenesten som leverer oppdaterte valutakurser, er aktivert som en datautvekslingsdefinisjon. Tilsvarende er siden **Kort for oppsett for val.kursoppdatering** en komprimert visning av siden **Datautvekslingsdefinisjon** for den aktuelle datautvekslingsdefinisjonen.  
 
-## <a name="see-also"></a>Se også  
+For alle utvekslinger av data i XML-filer kan du klargjøre datautvekslingsoppsettet ved å laste inn den relaterte XML-skjemafilen på siden **Visningsprogram for XML-skjema**. Her velger du dataelementene du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter initialiserer du en datautvekslingsdefinisjon eller genererer en XMLport.
+
+## <a name="see-also"></a>Se også
+
 [Utveksle data elektronisk](across-data-exchange.md)  
 [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Definere datautveksling](across-set-up-data-exchange.md)  

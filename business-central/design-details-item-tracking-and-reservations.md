@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 07/23/2020
 ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5270d0a45b6da568506db8ae9b166be57d391f17
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185111"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617549"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
+
 Samtidig bruk av reservasjon og bestemt varesporing er uvanlig, fordi begge oppretter en kobling mellom forsyning og behov. Med unntak av tilfeller der en kunde- eller produksjonsplanlegger ber om et bestemt parti, er det sjelden fornuftig å reservere lagervarer som allerede har varesporingsnumre for et bestemt utligning. Selv om det er mulig å reservere varer som krever en bestemt varesporing, kreves det spesialfunksjoner for å unngå tilgjengelighetskonflikter mellom ordrebehandlere som krever de samme varesporede varene.  
   
 Begrepet om sen binding sikrer at en ikke-spesifikk reservasjon av et serienummer eller partinummer holdes løst koblet før bokføring. På bokføringstidspunktet kan reservasjonssystemet stokke om på ikke-spesifikke reservasjoner for å sikre at fast utligning er mulig mot serie- eller partinummeret som faktisk plukkes. I mellomtiden gjøres serie- eller partinumre tilgjengelige for bestemte reservasjon i andre dokumenter som krever det bestemte serie- eller partinummeret.  
@@ -25,7 +26,7 @@ Begrepet om sen binding sikrer at en ikke-spesifikk reservasjon av et serienumme
 En ikke-spesifikk reservasjon er en reservasjon der brukeren ikke bryr deg om hvilken bestemt vare som velges, og en spesifikk reservasjon er en reservasjon der brukeren bryr seg.  
   
 > [!NOTE]  
->  Funksjonen for sen binding gjelder bare for varer som er definert med spesifikk varesporing, og den gjelder bare for reservasjoner mot lager, ikke mot inngående forsyningsordrer.  
+> Funksjonen for sen binding gjelder bare for varer som er definert med spesifikk varesporing, og den gjelder bare for reservasjoner mot lager, ikke mot inngående forsyningsordrer.  
   
 Reservasjon av varesporingsnumre faller innenfor to kategorier, som vist i tabellen nedenfor.  
   
@@ -36,10 +37,8 @@ Reservasjon av varesporingsnumre faller innenfor to kategorier, som vist i tabel
   
 Hovedforskjellen på spesifikk og ikke-spesifikk reservasjon angis av serie- eller partinumre som finnes på behovssiden, som vist i følgende tabell.  
   
-||||  
-|-|-|-|  
-||**Forsyning**|**Behov**|  
-|**Serienummer**|Serie- eller partinummer.|Serie- eller partinummer.|  
+|<!--blank -->|**Forsyning**|**Behov**|  
+|**Spesifikk**|Serie- eller partinummer.|Serie-eller partinummer.|  
 |**Ikke-spesifikk**|Serie- eller partinummer.|Ingen serie- eller partinumre.|  
   
 Når du reserverer lagerantall fra en linje i et utgående dokument for en vare som har fått tilordnet varesporingsnumre, og er opprettet for spesifikk varesporing, blir du ledet gjennom ulike arbeidsflyter på **Reservasjon**-siden, avhengig av behovet for serie- eller partinumrene.  

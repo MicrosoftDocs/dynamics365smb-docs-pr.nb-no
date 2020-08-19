@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 08/10/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbe03ccde8111a4d14ce34db5b5b5e73297796be
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c2d0558febd8bd895bbc591f4165a7a8fdda8600
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191454"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677311"
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
 Underleveranse av valgte operasjoner til leverandør er vanlig i mange produksjonsselskaper. Underleveranse kan skje en sjelden gang eller være en vesentlig del av alle produksjonsprosesser.
@@ -71,13 +71,6 @@ Forslagslinjen som ble gjort om til en bestilling, slettes fra forslaget. Når e
 
 ## <a name="posting-subcontract-purchase-orders"></a>Bokføre underleverandørbestillinger  
 Når underleverandørbestillingene er opprettet kan de bli bokført. Når bestillingen mottas bokføres en kapasitetspost i produksjonsordren, og når den faktureres, bokføres den direkte kostnaden i produksjonsordren.  
-
-Det bokføres automatisk en ferdigmeldingskladdelinjepost for produksjonsordren når kjøpet er bokført som mottatt. Dette gjelder bare hvis underleveranseoperasjonen er den siste operasjonen på produksjonsordreruten.  
-
-> [!CAUTION]  
->  Det kan være at det ikke er ønskelig å bokføre utdata for en pågående produksjonsordre automatisk når underleveransevarer mottas. Årsaker til dette kan være at det forventede avgangsantallet som er bokført, kan være forskjellig fra det faktiske antallet og at bokføringsdatoen for de automatiske utdataene er misvisende.  
->   
->  For å unngå at den forventede avgangen for en produksjonsordre bokføres når kjøp fra underleverandører mottas, må du passe på at underleveranseoperasjonen ikke er den siste. Du kan også sette inn en ny siste operasjon for endelig avgangsantall.
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Slik bokfører du en underleverandørbestilling  
 1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  

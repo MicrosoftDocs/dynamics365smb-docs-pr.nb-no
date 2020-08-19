@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2020
+ms.date: 07/21/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7ca1937b34b157a4b76314b5ad38f7918ac7dded
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: bbaf458e39ec45dcbcb34bd50e38feb70fd8426b
+ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182783"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3611670"
 ---
 # <a name="set-up-value-added-tax"></a>Definere merverdiavgift (mva)
+
 Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller tjenester. Mva-beløpet som skal betales, kan variere, avhengig av flere faktorer. I [!INCLUDE[d365fin](includes/d365fin_md.md)] setter du opp for å angi satsene som skal brukes til å beregne mva-beløp som er basert på følgende:
 
 * Hvem du selger til  
@@ -28,22 +29,26 @@ Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller
 Du kan definere mva-beregninger manuelt, men som kan være vanskelig og tidkrevende. For å gjøre det enkelt har vi laget en assistert oppsettsveiledning kalt **Mva-oppsett** som hjelper deg gjennom fremgangsmåten. Vi anbefaler at du bruker den assisterte oppsettsveiledningen til å definere mva.
 
 > [!NOTE]  
->   Du kan bare bruke veiledningen hvis du har opprettet et Mitt selskap og ikke har bokført transaksjoner som inkluderer mva. Det ville ellers være svært enkelt å bruke forskjellige mva-satser ved en feiltakelse, og gjøre mva-relaterte rapporter unøyaktige.  
+> Du kan bare bruke veiledningen hvis du har opprettet et Mitt selskap og ikke har bokført transaksjoner som inkluderer mva. Det ville ellers være svært enkelt å bruke forskjellige mva-satser ved en feiltakelse, og gjøre mva-relaterte rapporter unøyaktige.  
 
 Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder dette emnet beskrivelser av hvert trinn.
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Slik bruker du mva-oppsettguiden til å definere mva (anbefales)
+
 Vi anbefaler at du bruker den medfølgende mva-oppsettguiden til å definere mva i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 Hvis du vil oppsettguiden, gjør du følgende:
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**.  
 2. Velg **Angi MVA**, og fullfør trinnene.
-3. Når du har fullført det assisterte oppsettet, kan du gå til siden **Mva-bokføringsoppsett** og kontrollere om du må fylle ut flere felt i henhold til den lokale versjonen for landet. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet i Business Central](about-localization.md).  
+3. Når du har fullført det assisterte oppsettet, kan du gå til siden **Mva-bokføringsoppsett** og kontrollere om du må fylle ut flere felt i henhold til de lokale kravene i versjonen av [!INCLUDE [prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet i Business Central](about-localization.md).  
 
 ## <a name="to-set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
+
 Du kan definere formater for organisasjonsnumre som brukes i land og områder som du handler med, for å sikre at det angis gyldige organisasjonsnumre. [!INCLUDE[d365fin](includes/d365fin_md.md)] viser en feilmelding når noen gjør en feil eller bruker et format som er feil for landet eller området.
 
 Gjør følgende for å definere organisasjonsnumre:
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Land/regioner**.
 2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
 3. I **Formater**-feltet definerer du formatet ved å angi én eller flere av følgende tegn:  

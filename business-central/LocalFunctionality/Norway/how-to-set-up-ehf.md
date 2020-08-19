@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: b1fe4a585b0994422a0f213eb9ea818cdf72aed8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c5227b5422c93d692da4d6ef7c1c26d0cf9c2fcf
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181024"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3676917"
 ---
 # <a name="set-up-ehf"></a>Angi EHF
 Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer. Du må også definere betalingsmåter og definere aktuelle kunder for EHF.  
 
 ## <a name="to-set-up-ehf-file-locations-for-sales-and-receivables"></a>Slik definerer du EHF-filplasseringer for salg:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Salgsoppsett**-vinduet på **E-faktura**-hurtigfanen i **Utdatabaner**-delen, fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -38,7 +38,7 @@ Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat)
 
 ## <a name="to-set-up-ehf-file-locations-for-service-management"></a>Slik definerer du EHF-filplasseringer for servicestyring:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.  
 2.  På **Serviceoppsett**-siden på **E-faktura**-hurtigfanen i **Utdatabaner**-delen, fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

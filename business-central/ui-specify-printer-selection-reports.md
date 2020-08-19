@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 04/17/2020
 ms.author: sgroespe
-ms.openlocfilehash: dbfdb22447f20b4e4b811dc40cf892d9b971dc77
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: dc92c499aa201278abc0c8cdc351eeb1406b1cca
+ms.sourcegitcommit: 99cecd005f8ede70e9a3d163a457fcb9aadb6843
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272089"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3549870"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
@@ -55,7 +55,11 @@ Hvis du bruker utvidelsen E-postskriver, vil alle eller enkelte utskriftsjobber 
 Du må ta alle nødvendige forholdsregler for personvern, inkludert å sørge for at utskriftsløsningen for e-post har riktig konfigurerte tillatelser, personverninnstillinger og oppbevaringspolicyer. Det er ditt ansvar å oppgi en riktig, bekreftet og fungerende e-postadresse. Hvis du vil ha mer informasjon, kan du se [Personvernerklæring for Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## <a name="to-select-which-printers-print-which-reports"></a>Slik velger du hvilke skrivere som skriver ut hvilke rapporter
+
 På siden **Skrivervalg** kan du definere hvilke rapporter som skrives ut av hvilken skriver, for brukerkontoen din. Dette er nyttig hvis du arbeider med forskjellige rapporter som krever ulike skrivere på grunn av sin plassering i firmaet eller utskriftsmulighetene.
+
+> [!IMPORTANT]
+> For lokal [!INCLUDE[prodshort](includes/prodshort.md)] kan siden **Skrivervalg** bare brukes for skrivere som er definert av skriverutvidelser. Den kan ikke brukes for lokale skrivere.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen. Alternativt kan du velge siden **Utskriftsbehandling**, velge en skriver, og deretter velge handlingen **Skrivervalg**.
 2. Velg handlingen **Ny** hvis du vil legge til et skrivervalg for en bestemt rapport.

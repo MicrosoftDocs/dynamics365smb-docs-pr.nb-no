@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 05/25/2020
+ms.date: 07/14/2020
 ms.author: sgroespe
-ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 70ce34984a98631d20c2d836164f9328fbb15a2a
+ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402559"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "3577179"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
@@ -31,6 +31,8 @@ Fremgangsmåtene nedenfor viser hvordan du arbeider med standardlinjer på en sa
 
 > [!NOTE]
 > Du kan ikke definere priser på gjentakende salgslinjer, fordi priser, rabatter og så videre. beregnes på de faktiske salgsdokumentene etter at du setter inn de gjentakende salgslinjene.
+
+[!INCLUDE [line-no-info](includes/line-no-info.md)]
 
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Slik tilordner du gjentakende salgslinjer til kunder
 
