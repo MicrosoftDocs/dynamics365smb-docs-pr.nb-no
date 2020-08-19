@@ -10,30 +10,30 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
 ms.author: sgroespe
-ms.openlocfilehash: 2ee6811759594047ae15b0f280cff2ba694de9c1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 9867572c3d0835c9d00f82841f8659c227019f4b
+ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181037"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677020"
 ---
-# <a name="create-recurring-orders"></a><span data-ttu-id="5e2df-103">Opprett gjentakelsesordrer</span><span class="sxs-lookup"><span data-stu-id="5e2df-103">Create Recurring Orders</span></span>
-<span data-ttu-id="5e2df-104">Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene.</span><span class="sxs-lookup"><span data-stu-id="5e2df-104">The create recurring orders process will find all of the recurring orders based on the options selected on the **Create Recurring Orders** page and will create the new sales orders.</span></span> <span data-ttu-id="5e2df-105">Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.</span><span class="sxs-lookup"><span data-stu-id="5e2df-105">This is a periodic activity that you must run regularly.</span></span>  
+# <a name="create-recurring-orders"></a><span data-ttu-id="9421b-103">Opprett gjentakelsesordrer</span><span class="sxs-lookup"><span data-stu-id="9421b-103">Create Recurring Orders</span></span>
+<span data-ttu-id="9421b-104">Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene.</span><span class="sxs-lookup"><span data-stu-id="9421b-104">The create recurring orders process will find all of the recurring orders based on the options selected on the **Create Recurring Orders** page and will create the new sales orders.</span></span> <span data-ttu-id="9421b-105">Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.</span><span class="sxs-lookup"><span data-stu-id="9421b-105">This is a periodic activity that you must run regularly.</span></span>  
 
-## <a name="to-create-recurring-orders"></a><span data-ttu-id="5e2df-106">Slik oppretter du gjentakelsesordrer:</span><span class="sxs-lookup"><span data-stu-id="5e2df-106">To create recurring orders</span></span>  
+## <a name="to-create-recurring-orders"></a><span data-ttu-id="9421b-106">Slik oppretter du gjentakelsesordrer:</span><span class="sxs-lookup"><span data-stu-id="9421b-106">To create recurring orders</span></span>  
 
-1.  <span data-ttu-id="5e2df-107">Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Opprett gjentakelsesordrer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="5e2df-107">Choose the ![Search for Page or Report](../../media/ui-search/search_small.png "Search for Page or Report icon") icon, enter **Create Recurring Orders**, and then choose the related link.</span></span>  
-2.  <span data-ttu-id="5e2df-108">I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.</span><span class="sxs-lookup"><span data-stu-id="5e2df-108">On the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
+1.  <span data-ttu-id="9421b-107">Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett gjentakelsesordrer**, og velg deretter den relaterte koblingen.</span><span class="sxs-lookup"><span data-stu-id="9421b-107">Choose the ![Lightbulb that opens the Tell Me feature](../../media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Create Recurring Orders**, and then choose the related link.</span></span>  
+2.  <span data-ttu-id="9421b-108">I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.</span><span class="sxs-lookup"><span data-stu-id="9421b-108">On the **Options** FastTab, fill in the fields as described in the following table.</span></span>  
 
-    |<span data-ttu-id="5e2df-109">Felt</span><span class="sxs-lookup"><span data-stu-id="5e2df-109">Field</span></span>|<span data-ttu-id="5e2df-110">Description</span><span class="sxs-lookup"><span data-stu-id="5e2df-110">Description</span></span>|  
+    |<span data-ttu-id="9421b-109">Felt</span><span class="sxs-lookup"><span data-stu-id="9421b-109">Field</span></span>|<span data-ttu-id="9421b-110">Description</span><span class="sxs-lookup"><span data-stu-id="9421b-110">Description</span></span>|  
     |---------------------------------|---------------------------------------|  
-    |<span data-ttu-id="5e2df-111">**Behandlingsdato**</span><span class="sxs-lookup"><span data-stu-id="5e2df-111">**Processing Date**</span></span>|<span data-ttu-id="5e2df-112">Angi datoen for når rammeordrene skal behandles.</span><span class="sxs-lookup"><span data-stu-id="5e2df-112">Enter the date to process the blanket orders.</span></span>|  
-    |<span data-ttu-id="5e2df-113">**Opprett bare siste**</span><span class="sxs-lookup"><span data-stu-id="5e2df-113">**Create only latest**</span></span>|<span data-ttu-id="5e2df-114">Velg å opprette bare den siste gjentakelsesordren for rammeordrene som er behandlet.</span><span class="sxs-lookup"><span data-stu-id="5e2df-114">Select to create only the latest recurring order for the blanket orders processed.</span></span> <span data-ttu-id="5e2df-115">Dette alternativet overstyrer det tilsvarende alternativet for gjentakelsesgruppen.</span><span class="sxs-lookup"><span data-stu-id="5e2df-115">This option overrides the equivalent option for the recurring group.</span></span>|  
+    |<span data-ttu-id="9421b-111">**Behandlingsdato**</span><span class="sxs-lookup"><span data-stu-id="9421b-111">**Processing Date**</span></span>|<span data-ttu-id="9421b-112">Angi datoen for når rammeordrene skal behandles.</span><span class="sxs-lookup"><span data-stu-id="9421b-112">Enter the date to process the blanket orders.</span></span>|  
+    |<span data-ttu-id="9421b-113">**Opprett bare siste**</span><span class="sxs-lookup"><span data-stu-id="9421b-113">**Create only latest**</span></span>|<span data-ttu-id="9421b-114">Velg å opprette bare den siste gjentakelsesordren for rammeordrene som er behandlet.</span><span class="sxs-lookup"><span data-stu-id="9421b-114">Select to create only the latest recurring order for the blanket orders processed.</span></span> <span data-ttu-id="9421b-115">Dette alternativet overstyrer det tilsvarende alternativet for gjentakelsesgruppen.</span><span class="sxs-lookup"><span data-stu-id="9421b-115">This option overrides the equivalent option for the recurring group.</span></span>|  
 
-3.  <span data-ttu-id="5e2df-116">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="5e2df-116">Choose the **OK** button.</span></span>  
+3.  <span data-ttu-id="9421b-116">Velg **OK**.</span><span class="sxs-lookup"><span data-stu-id="9421b-116">Choose the **OK** button.</span></span>  
 
-## <a name="see-also"></a><span data-ttu-id="5e2df-117">Se også</span><span class="sxs-lookup"><span data-stu-id="5e2df-117">See Also</span></span>  
- <span data-ttu-id="5e2df-118">[Gjentakelsesordrer](recurring-orders.md) </span><span class="sxs-lookup"><span data-stu-id="5e2df-118">[Recurring Orders](recurring-orders.md) </span></span>  
- <span data-ttu-id="5e2df-119">[Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md) </span><span class="sxs-lookup"><span data-stu-id="5e2df-119">[Set Up Recurring Groups](how-to-set-up-recurring-groups.md) </span></span>  
- <span data-ttu-id="5e2df-120">[Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md) </span><span class="sxs-lookup"><span data-stu-id="5e2df-120">[Set Up Recurring Orders](how-to-set-up-recurring-orders.md) </span></span>  
- [<span data-ttu-id="5e2df-121">Opprette rammeordrer</span><span class="sxs-lookup"><span data-stu-id="5e2df-121">Create Blanket Sales Orders</span></span>](../../sales-how-to-create-blanket-sales-orders.md)
+## <a name="see-also"></a><span data-ttu-id="9421b-117">Se også</span><span class="sxs-lookup"><span data-stu-id="9421b-117">See Also</span></span>  
+ <span data-ttu-id="9421b-118">[Gjentakelsesordrer](recurring-orders.md) </span><span class="sxs-lookup"><span data-stu-id="9421b-118">[Recurring Orders](recurring-orders.md) </span></span>  
+ <span data-ttu-id="9421b-119">[Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md) </span><span class="sxs-lookup"><span data-stu-id="9421b-119">[Set Up Recurring Groups](how-to-set-up-recurring-groups.md) </span></span>  
+ <span data-ttu-id="9421b-120">[Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md) </span><span class="sxs-lookup"><span data-stu-id="9421b-120">[Set Up Recurring Orders](how-to-set-up-recurring-orders.md) </span></span>  
+ [<span data-ttu-id="9421b-121">Opprette rammeordrer</span><span class="sxs-lookup"><span data-stu-id="9421b-121">Create Blanket Sales Orders</span></span>](../../sales-how-to-create-blanket-sales-orders.md)
