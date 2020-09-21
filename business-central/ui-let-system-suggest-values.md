@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4e40f53543b094233c896e627ecfe6eb056e3d20
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 9703034a622b07d4e0154112eff23cdfa6d556ba
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3195474"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781413"
 ---
 # <a name="letting-d365fin-suggest-values"></a>La [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå verdier
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv. Selv om slik automatisk dataregistrering alltid er riktig, kan du endre den senere ved behov.

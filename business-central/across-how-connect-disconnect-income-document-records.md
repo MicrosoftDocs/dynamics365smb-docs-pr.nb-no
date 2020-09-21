@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b6866e8b60eda67ce28b7d67517f3f7d1ecab059
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 58da32ce111ef69dd73dfdcbb7fffd9c9684ac59
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188599"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780663"
 ---
 # <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Opprette innkommende dokumentposter direkte fra dokumenter og poster
 Du kan lagre eksterne forretningsdokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å knytte dokumentfilene til de relaterte innkommende dokumentpostene. Hvis dokumentet, for eksempel en kjøpsfaktura, ikke ble opprettet som en innkommende dokumentpost, kan du likevel opprette og koble en innkommende dokumentpost til det senere. Du kan også knytte inngående dokumentfiler til bokførte kjøps- og salgsdokumenter og til leverandør-, kunde- og finansposter ved hjelp av faktaboksen **Inngående dokumentfiler**, for eksempel på siden **Bokførte kjøpsfakturaer** og **Leverandørposter**.

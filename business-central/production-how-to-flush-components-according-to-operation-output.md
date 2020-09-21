@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c063c243f37c44ad7d84b2fc4303e72487c97d5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: d895ede7ec603b1f4892b1aacb2683f6ace11233
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190470"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779765"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Lagertrekke komponenter i henhold til operasjonsavgang
 For varer som er definert med trekkmetoden Bakover, er standard virkemåte å beregne og bokføre komponentforbruk når du endrer statusen for en frigitt produksjonsordre til **Ferdig**.  

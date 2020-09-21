@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: df4fc94bba7b0ffb6ba37363e953fc277c7b6e0a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182423"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780138"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
 Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.

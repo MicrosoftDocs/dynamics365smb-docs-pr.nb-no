@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e1dac4724209cc9020bf3d7f67a2d870f9b2b73
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 97e65ebb534072cd7f8423a6b7454afd9eb1451b
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181320"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781563"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.

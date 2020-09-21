@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: 113370eaad1696fd21944d4896f7e2d9fdf41531
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262241"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780613"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  

@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 285752074585eef8378f54b0f8dfa0d11b913a50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 29aa67a3b892b07139975cf805ce33960b22bdab
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182447"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780163"
 ---
 # <a name="set-up-intercompany"></a>Oppsett av konserninternt
 Hvis du vil sende en transaksjon (for eksempel en salgskladdelinje) fra ett selskap og få den tilsvarende transaksjonen (for eksempel en kjøpskladdelinje) til å opprettes automatisk i partnerselskapet, må de involverte selskapene bli enige om en felles kontoplan og et felles sett av dimensjoner som skal brukes under konserninterne transaksjoner. Den konserninterne kontoplanen kan for eksempel være en forenklet versjon av morselskapets kontoplan. Hvert selskap tilordner hele kontoplanen til den delte, konserninterne kontoplanen, og hvert selskap tilordner dimensjonene til de konserninterne dimensjonene.  
 
 Du må også definere en konsernintern partnerkode for hvert partnerselskap, som avtales mellom alle selskapene, og tilordne dem til kunde- og leverandørkortene henholdsvis ved å fylle ut feltet **Konsernintern partnerkode**.  
 
-Hvis du oppretter eller mottar konserninterne linjer med varer, kan du bruke dine egne varenumre eller definere partnerens varenumre for hver relevante vare, enten i feltet **Leverandørs varenr.** eller i feltet **Felles varenr.** på varekortet. Du kan også bruke funksjonen **Varekryssreferanse**: Hvis du vil tilordne varenumrene til de konserninterne partnerbeskrivelsene av varene, åpner du kortet for hver vare, og velger deretter handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til den konserninterne partnere.  
+Hvis du oppretter eller mottar konserninterne linjer med varer, kan du bruke dine egne varenumre eller definere partnerens varenumre for hver relevante vare, enten i feltet **Leverandørs varenr.** eller i feltet **Felles varenr.** på varekortet. Du kan også bruke funksjonen **Varekryssreferanse** til å tilordne varenumrene til de konserninterne partnerbeskrivelsene av varene, åpne kortet for hver vare og deretter velge handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til den konserninterne partneren. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon. 
 
 Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, må du fylle ut feltet **Finanskontonr. for KI-partnerkjøp** på ressurskortet for hver relevante ressurs. Dette er nummeret til den konserninterne finanskontoen der beløpet for denne ressursen skal bokføres i partnerens selskap. Hvis du vil ha mer informasjon, kan du se [Definere ressurser](projects-how-setup-resources.md).
 
@@ -34,6 +34,9 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Konsernintern partner** fyller du ut feltene etter behov.
+
+> [!NOTE]
+> I [!INCLUDE[d365fin](includes/d365fin_md.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Slik definerer du konserninterne leverandører og kunder
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
@@ -50,19 +53,19 @@ Hvis selskapet ditt er det overordnede selskapet og har den definerende konserni
 Hvis selselskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen, følger du fremgangsmåten [Slik importerer du den konserninterne kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Slik setter du opp den definerende konserninterne kontoplanen
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan***, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
 2. Angi hver konto på en linje på siden **Konsernintern kontoplan**.  
 3. Hvis den konserninterne kontoplanen vil være identisk med eller vil ligne på den vanlige kontoplanen, kan du fylle ut siden automatisk ved å velge handlingen **Kopier fra kontoplan**. Du kan redigere de nye linjene etter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Slik eksporterer du en konsernintern kontoplan
 Hvis du vil at de konserninterne partnerne skal kunne importere den definerende kontoplanen, må du eksportere den til en fil.      
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan***, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
 2. På siden **Konsernintern kontoplan** velger du **Eksporter**-handlingen og velger deretter **Lagre**-knappen.
 3. Angi filnavnet og lokasjonen der du vil lagre XML-filen, og velg deretter **Lagre**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Slik importerer du den konserninterne kontoplanen  
 Når det finnes en fil for den definerende konserninterne kontoplanen, kan konserninterne partnere importere den for å sikre at de har de samme kontiene.  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan***, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
 2. På siden **Konsernintern kontoplan** velger du handlingen **Importer**.  
 3. Velg filnavnet og lokasjonen for XML-filen, og velg deretter **Åpne**-knappen.  
 
@@ -73,7 +76,7 @@ Når du har definert eller importert den konserninterne kontoplanen du og de kon
 
 Hvis kontiene i den konserninterne kontoplanen har samme numrene som de tilsvarende kontiene i kontoplanen, kan du tilordne kontoene automatisk.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan***, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
 2. Velg linjene du vil tilknytte automatisk, og velg deretter **Samkjør med konto med samme nummer**.  
 3. For hver konserninterne finanskonto som ikke ble tilknyttet automatisk, fyller du ut feltet **Samkjør med finanskontonr.**  
 

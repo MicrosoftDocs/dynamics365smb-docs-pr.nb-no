@@ -9,20 +9,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e222e133313147cecd94c8cb7f2644776ee1034a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186263"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779789"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere utvidelsen AMC Banking 365 Fundamentals
-En global tjenesteleverandør for å konvertere betalingsinformasjon til hvilket som helst dataformat banken krever, er koblet til og klar til å aktiveres i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette er referert til i [!INCLUDE[d365fin](includes/d365fin_md.md)] som utvidelsen AMC Banking 365 Fundamentals.
+En global tjenesteleverandør for å konvertere betalingsinformasjon til hvilket som helst dataformat banken krever, er koblet til og klar til å aktiveres i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne omtales i [!INCLUDE[d365fin](includes/d365fin_md.md)] som utvidelsen AMC Banking 365 Fundamentals.
 
 Du kan eksportere betalingslinjer fra siden **Betalingskladd** til en fil eller datastrøm som du deretter laster opp til banken for automatisk behandling, slik at du ikke trenger å foreta elektroniske betalinger individuelt. Hvis du vil ha mer informasjon, kan du se [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Du kan importere filer med bankkontoutdrag til siden **Betalingsavstemmingskladd** ved å bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en fil som du mottar fra banken din til en datastrøm som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan importere filer med bankkontoutdrag til siden **Betalingsavstemmingskladd** ved å bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en fil som du mottar fra banken din, til en datastrøm som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Som et alternativ til å importere bankkontoutdrag med utvidelsen AMC Banking 365 Fundamentals kan du bruke tjenesten Envestnet Yodlee Bank Feeds. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
 
@@ -31,7 +31,7 @@ Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankk
 > [!NOTE]  
 > Utvidelsen AMC Banking 365 Fundamentals kan sette en grense for hvor mange linjer som kan eksporteres i én fil. Du får en feilmelding hvis grensen er overskredet. Det anbefales at bankkontoutdragsfiler ikke overstiger 1 000 linjer, siden behandlingstiden i utvidelsen AMC Banking 365 Fundamentals kan øke betraktelig.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Slik registrerer du selskapet ditt for utvidelsen AMC Banking 365 Fundamentals
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Registrere selskapet ditt for utvidelsen AMC Banking 365 Fundamentals
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.  
 2. Siden **Tjenesteoppsett for bankdatakonvertering** åpnes med tre felt som er forhåndsutfylt med de aktuelle URL-adressene til utvidelsen AMC Banking 365 Fundamentals.
 

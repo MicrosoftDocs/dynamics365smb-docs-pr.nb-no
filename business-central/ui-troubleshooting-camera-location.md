@@ -9,13 +9,13 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
-ms.prod: dynamics365-business-central
-ms.openlocfilehash: befb7af01ba26512a4b62005e81b5a3ff351b02f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.service: dynamics365-business-central
+ms.openlocfilehash: 10338040ddcfb64dd91e9e55f607280e99720403
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324474"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781138"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Feilsøking: Få tilgang til kamera og plassering
 
@@ -38,7 +38,7 @@ Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] i en nettleser, må 
 Som standard vil enheten eller nettleseren vise en forespørsel om tilgang til disse egenskapene når brukeren aktiverer dem for første gang.
 
 > [!NOTE]  
-> Enkelte eldre nettlesere gir ikke tilgang til kamera og plassering. Kamera er for eksempel ikke tilgjengelig i Internet Explorer eller den eldre Edge-nettleseren.
+> Enkelte eldre nettlesere gir ikke tilgang til kamera og plassering. Kamera er for eksempel ikke tilgjengelig i Internet Explorer eller den gamle Microsoft Edge.
 
 ## <a name="web-client-connection-not-secure"></a>Nettklienttilkobling ikke sikker
 

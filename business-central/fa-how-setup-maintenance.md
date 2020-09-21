@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5681caba59be7c573f8c85f1629dd05da86e243
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: b3ecec35e4dc99d330424a009218fad5009ce7d5
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184223"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780238"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Definere aktivavedlikehold
 For å styre vedlikehold av aktiva, må du først definere noen generelle vedlikeholdsopplysninger, en bokføringskonto for vedlikeholdskostnader og vedlikeholdskoder for typer arbeid, for eksempel rutineservice eller reparasjon.

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0faaff33db107f61c56d13f7f0c979e4935cb65f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e0f55d52c866dbe6a9738dbec374c7a20af63b56
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3189390"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781113"
 ---
 # <a name="update-custom-report-layouts"></a>Oppdatere egendefinerte rapportoppsett
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  

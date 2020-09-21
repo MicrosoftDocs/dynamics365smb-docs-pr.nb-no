@@ -1,5 +1,5 @@
 ---
-title: Forretningsfunksjoner som støttes i Business Central | Microsoft-dokumentasjon
+title: Forretningsfunksjoner som støttes i Business Central
 description: Gir en funksjonsoversikt over alle forretningsfunksjoner og avdelinger som støttes av moduler, for eksempel finans, lager og prosjektledelse.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
-ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
+ms.date: 08/27/2020
+ms.author: edupont
+ms.openlocfilehash: 7c78106eaf843435ea41e06c0388cd54e1e3dde4
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499519"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780764"
 ---
 # <a name="business-functionality"></a>Forretningsfunksjoner
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også.

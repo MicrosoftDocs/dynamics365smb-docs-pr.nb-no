@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188639"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780638"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Felttilordning ved import av SEPA CAMT-filer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, se [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
  SEPA CAMT-standarden har også lokale variasjoner. Derfor må du kanskje endre den generiske datautvekslingsdefinisjonen (angitt med **SEPA CAMT**-koden på siden **Definisjoner av bokføringsutveksling**) for å tilpasse det til en lokal variant av standarden. Tabellene nedenfor viser til element-til-felt-tilordningen for tabell 81, 273 og 274 i implementeringen av SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

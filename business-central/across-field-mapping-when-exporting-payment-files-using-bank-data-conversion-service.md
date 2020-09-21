@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 06747ec283cb4b64f23433fbb81eea4a62e1f832
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188663"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780688"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilordning ved eksport av betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals
-Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, eksponeres dataene du eksporterer, til tjenesteleverandøren. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om utvidelsen AMC Banking 365 Fundamentals, se [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, eksponeres dataene du eksporterer, til tjenesteleverandøren. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om utvidelsen AMC Banking 365 Fundamentals, kan du se [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, blir noen av forretningsdataene dine eksponert for leverandøren av tjenesten. Tjenesteleverandøren, AMC Consult A/S, er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon, kan du se [personvernpolicyen for AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  

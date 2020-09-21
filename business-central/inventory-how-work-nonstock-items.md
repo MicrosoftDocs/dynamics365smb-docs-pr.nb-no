@@ -10,13 +10,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a13eec5bd1df674da6255f732b5f68c8a7fcbaf6
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e4db83e4d2e3efffc1523fe3eadb65a14b431027
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181847"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781038"
 ---
 # <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
 Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil administrere i systemet før du begynner å selge dem. Når du vil begynne å administrere slike varer i systemet, kan du konvertere dem til vanlige varekort på to måter.

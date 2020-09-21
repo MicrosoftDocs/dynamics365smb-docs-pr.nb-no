@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c292a7bdaaa94a457a98a478e38a90d60639abf1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 2eb195d194ae2091a10f2d85d1b802577239b268
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190710"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781463"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Utligne betalinger automatisk og avstemme bankkonti
 Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -30,7 +30,7 @@ Du kan også avstemme bankkonti uten å utligne betalinger samtidig. Du kan gjø
 
 Hvis du vil importere bankkontoutdrag som en bankfeed, må du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).  
 
-Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 

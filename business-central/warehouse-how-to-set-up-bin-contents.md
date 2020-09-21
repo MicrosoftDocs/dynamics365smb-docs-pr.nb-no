@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7e2b7dbc00d096f32f4ec3d04b5c6f775c355598
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 922b1a83a7c89585de7d7f8b280058ecdc449ad8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196214"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3780289"
 ---
 # <a name="create-bin-contents"></a>Opprette hylleinnhold
 Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt på siden **Hylleinnhold** eller automatisk med **Opprett hylleinnholdforslag**-siden.

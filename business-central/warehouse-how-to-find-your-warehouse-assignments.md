@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fa9fd11847a2da603288ce406722eb765cecc3a0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 479ad10ee6bd10d123202749c1cc934bc67493af
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193134"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779639"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finne lageroppgavene dine
 Hvis du vil søke etter lagertildelinger, åpner du kortsiden for en valgt vare. Hvis lagerinstruksjonene er opprettet, er Hent- og Plasser-linjene synlige, og du kan begynne å arbeide med en oppgave. I enkelte lagre kan lederen ha tildelt bestemte instruksjoner til hver ansatt. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](warehouse-how-to-set-up-warehouse-employees.md).

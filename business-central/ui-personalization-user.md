@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dfc7b91c50297c130a4a6d50401c7adb53bd608b
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.author: edupont
+ms.openlocfilehash: e41c3dd810367f254bd62271083e884afdc9da50
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666950"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781313"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 Du kan tilpasse arbeidsområdet slik at det passer til arbeidet og preferansene, ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
@@ -31,7 +31,7 @@ Administratorer kan også overstyre eller deaktivere brukeres tilpasning, og de 
 ## <a name="video-overview"></a>Videooversikt
 Følgende video viser noen av måtene du kan tilpasse rollesenteret på.
 
-> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB]
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>Endre kolonnebredden
 Det er enkelt å endre størrelse på kolonner i en liste ved å dra grenselinjen mellom to kolonner til venstre eller høyre.
