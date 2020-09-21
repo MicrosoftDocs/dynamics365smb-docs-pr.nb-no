@@ -227,9 +227,17 @@
 ### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ### [Bruke Business Central uten Outlook](admin-no-outlook.md)
 ## Bruke Power BI med Business Central
-### [Aktivere forretningsdata for Power BI](admin-powerbi.md)
-### [Vise listedata i Power BI-rapporter i Business Central](across-how-use-powerbi-reports-factbox.md)
-### [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)
+### [Introduksjon](admin-powerbi.md)
+### Administrator
+#### [Oversikt over integrering](admin-powerbi-overview.md)
+#### [Aktivere Power BI-integrering](admin-powerbi-setup.md)
+### Designer
+#### [Komme i gang med å bygge rapporter](across-how-use-financials-data-source-powerbi.md)
+#### [Opprette rapporter for å vise listedata](across-how-use-powerbi-reports-factbox.md)
+### Forbruker
+#### [Arbeide med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+#### [Arbeide med Business Central Data i Power BI](across-working-with-business-central-in-powerbi.md)
+#### [Bruke Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
 ## Bruke Power Automate med Business Central
 ### [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)
 ## Bruke Power Apps med Business Central
@@ -424,8 +432,6 @@
 #### [Se gjennom eller utligne betalinger manuelt etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md)
 #### [Avstemme betalinger som ikke kan utlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
 #### [Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
-### [Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
-### [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md)
 ### [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md)
 ### [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)
 ### [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)
@@ -1170,7 +1176,6 @@
 #### [Opprette og eksportere betalingshistorikk](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 #### [Importere og avstemme bankkontoutdrag](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
 ### Kjerneøkonomi
-#### [Finans](LocalFunctionality/Netherlands/general-ledger.md)
 #### [Bruke og oppheve finansposter](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 #### [Obligatoriske beskrivelser i finansposter](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
 ### Kjøp
