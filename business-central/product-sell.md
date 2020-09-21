@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: microsoft partner
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 4567f62a7866f6d02103f8f80aea13b92415d0bd
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 37b813e417d4d20be5c35678639f9f4c49184e33
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528691"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693052"
 ---
 # <a name="become-a-reseller-of-d365fin_long"></a>Bli en forhandler av [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+
 Utvid din forretningsmulighet med [!INCLUDE[d365fin](includes/d365fin_md.md)]!  
 
-Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, SharePoint, bransjeløsninger, analyse, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er Business Central en ny salgsmulighet i Financials.   
+Hvis du spesialiserer deg innen skyløsninger, Office 365, SharePoint, SharePoint, bransjeløsninger, analyse, ERP, CRM, regnskapsprogramvare, og/eller business process optimalisering programvare og tjenester, er Business Central en ny salgsmulighet i Financials.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg med å skille og styrke kunderelasjoner ved å gi deg muligheten til å levere en ende-til-ende-løsning som kobler mennesker og prosesser som aldri før, som er innebygd i kjente Microsoft Office-verktøy som små og mellomstore bedrifter bruker hver dag.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] kan hjelpe deg å skille og styrke kunderelasjoner ved å gi deg muligheten til å levere en ende-til-ende-løsning som kobler mennesker og prosesser som aldri før, og som er innebygd i velkjente Microsoft Office-verktøy som små og mellomstore bedrifter bruker hver dag.  
 
 ## <a name="get-started"></a>Kom i gang
 
@@ -32,4 +33,4 @@ Programmet "Klar til å sette i gang" er én måte å komme i gang som [!INCLUDE
 
 [Komme i gang](product-get-started.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[https://appsource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1)  
+[https://appsource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646)  

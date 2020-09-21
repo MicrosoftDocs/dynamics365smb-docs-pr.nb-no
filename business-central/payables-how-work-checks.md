@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 06/23/2020
-ms.author: sgroespe
-ms.openlocfilehash: bf52a225d458f19651d79e82bac2a6b0f593f82c
-ms.sourcegitcommit: 63102669366eb26f9c32729848170bc2e5c4d6ae
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 787f6eecef82abf7b76bf7273b49deb13b18554a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3503801"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3777989"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
 
@@ -47,7 +47,7 @@ Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten 
 6. Fyll ut feltene etter behov på siden **Sjekk**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Hvis skriveren er konfigurert til å skrive ut sjekker, klikker du på **Skriv ut**-knappen. Hvis ikke velger du **Send til**-knappen, velger **PDF-dokument**, velger **OK**-knappen og skriver deretter ut PDF-dokumentet.
 
-    De fysiske sjekkene kan nå flyttes til banken for behandling. Fortsett med å bokføre betalingen som utlignet til leverandøren, og dermed betalt i systemet.
+    De fysiske sjekkene kan nå sendes til leverandørene for behandling. Fortsett med å bokføre betalingen som utlignet til leverandøren, og dermed betalt i systemet.
 8. Velg handlingen **Bokfør**.
 
 Fullstendig utlignede leverandørposter og bankposter opprettes.
@@ -61,7 +61,11 @@ Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av
 1. På siden **Betalingskladd** velger du **Kanseller sjekk**, og deretter velger du hvilke sjekker som skal kanselleres.
 
 ## <a name="to-void-checks"></a>Kansellere sjekker
+
 Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de resulterende bankpostene.
+
+> [!IMPORTANT]
+> Hvis sjekken utlignes mot en faktura, opphever du utligningen av sjekken først, slik at fakturaen kan betales på nytt, og deretter annullerer du sjekken. Hvis sjekken ble skrevet ut og ikke betalte en faktura, velger du **Bare kanseller sjekk** som beskrevet i denne delen.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg relevant bankkonto, velg handlingene **Rediger** og **Sjekkposter**.

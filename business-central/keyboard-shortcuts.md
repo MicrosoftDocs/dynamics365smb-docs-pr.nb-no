@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 06/26/2020
+ms.date: 09/02/2020
 ms.author: bholtorf
-ms.openlocfilehash: 84ce43b7e3305380e46d16e5b4e2f8b1a25aaf08
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
+ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528491"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3765949"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -166,7 +166,7 @@ Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumen
 |Skift+Enter|Bekrefte verdien i det gjeldende feltet, og gå til forrige hurtigoppføringsfelt.||
 |Ctrl+Skift+Enter|Bekrefte verdien i den gjeldende kolonnen, og gå til neste hurtigoppføringsfelt utenfor listen.<br /><br />Denne snarveien gjelder for innebygde lister på en side, for eksempel linjeelementer på en ordre. Den gjør at du raskt kan gå ut av listen og fortsette å registrere data i andre felt på siden.|
 
-## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"/> Hurtigtaster i kalenderen (datovelger)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker"></a><a name="calendarshortcuts"></a> Hurtigtaster i kalenderen (datovelger)
 
 Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
 
@@ -185,12 +185,13 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |PgUp|Flytte til forrige måned.|  
 
 ## <a name="keyboard-shortcuts-in-date-fields"></a>Hurtigtaster i datofelt
+
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
 |i|Angi gjeldende dato. "I" betyr "i dag".|
 |a|Angi arbeidsdato. Hvis du vil ha mer informasjon, kan du se [Arbeidsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"/>Hurtigtaster i rapportforhåndsvisningen
+## <a name="keyboard-shortcuts-in-the-report-preview"></a><a name="reportpreviewshortcuts"></a>Hurtigtaster i rapportforhåndsvisningen
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|

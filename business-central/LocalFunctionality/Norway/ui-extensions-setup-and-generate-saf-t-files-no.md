@@ -1,8 +1,6 @@
 ---
 title: Installere og generere SAF-T-filer | Microsoft Docs
 description: Bruk denne utvidelsen til å konfigurere og generere SAF-T-filer for de norske myndighetene, i Business Central.
-services: project-madeira
-documentationcenter: ''
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 06/17/2020
+ms.date: 08/24/2020
 ms.author: soalex
-ms.openlocfilehash: 6e8f67a853aded86b0ba4c53758bd623c7685a21
-ms.sourcegitcommit: 3945f16d6d9c9853651e6291ce1465a44fd71fc8
+ms.openlocfilehash: a112a5121543c344da029a9556eed6af46207e54
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "3458903"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731132"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
 
@@ -74,7 +72,25 @@ Når du skal eksportere SAF-T-filer fra [!INCLUDE[d365fin](../../includes/d365fi
 Du kan konfigurere [!INCLUDE[d365fin](../../includes/d365fin_md.md)] med ekstra valideringskontroller for datakvalitet som bidrar til å sikre at SAF-filene kan valideres av Skatteetaten. SAF-T-filer kan for eksempel bare valideres når det finnes bestemt informasjon for relevante poster i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. For å sikre datakvaliteten for SAF-T kan du aktivere flere aktive kontroller i hurtigfanen **Datakvalitet** på siden **SAF-T-oppsett**. I tillegg bruker du handlingen **Datakontroll** til å kontrollere datakvaliteten før du eksporterer filen, på **SAF-T-eksport**-kortsiden.
 
 > [!NOTE]
-> SAF-T-eksporter genererer én fil med hoveddata og separate filer for hver måned som er inkludert i det valgte tilordningsområdet. Vurder transaksjonsbeløpet i den valgte perioden, og juster **Maks. antall prosjekter** tilsvarende på siden for SAF-T-eksport. Som en generell anbefaling starter du med tre parallelle jobber for å tillate parallell eksport og likevel beholde ressurser for andre [!INCLUDE[d365fin](../../includes/d365fin_md.md)]-brukere. I tillegg kan du angi en delt nettverksressurs i **Mappebane** lokalt for å generere SAF-T-filene direkte på en delt nettverksressurs i stedet for i databasen. For elektroniske versjoner av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] er dette alltid tilfellet. Hvis du angir **Mappenavn**, vil den genererte zip-filen bli plassert her. 
+> SAF-T-eksporter genererer som standard én fil med hoveddata og separate filer for hver måned som er inkludert i det valgte tilordningsområdet. Vurder transaksjonsbeløpet i den valgte perioden, og juster **Maks. antall prosjekter** tilsvarende på siden for SAF-T-eksport. Som en generell anbefaling starter du med tre parallelle jobber for å tillate parallell eksport og likevel beholde ressurser for andre [!INCLUDE[d365fin](../../includes/d365fin_md.md)]-brukere. I tillegg kan du angi en delt nettverksressurs i **Mappebane** lokalt for å generere SAF-T-filene direkte på en delt nettverksressurs i stedet for i databasen. For elektroniske versjoner av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] er dette alltid tilfellet. Hvis du angir **Mappenavn**, vil den genererte zip-filen bli plassert her. 
+
+
+> [!IMPORTANT]
+> På grunn av måten eksport av transaksjoner fungerer på, påvirker eksport av SAF-T-filer ytelsen til [!INCLUDE[d365fin](../../includes/d365fin_md.md)].
+
+Det er et par ting du kan gjøre for å forbedre ytelsen:
+
+* Alternativet **Del etter dato**
+
+   Denne fremgangsmåten samler inn finansposter etter dato i stedet for måned, som er standarden, med bedre ytelse som resultat. 
+   
+* **XML-alternativet**
+
+   Når det gjelder [!INCLUDE[d365fin](../../includes/d365fin_md.md)] lokalt, kan du la være å generere ZIP-filer fra eksporten. Dermed eksporteres de rå XML-filene, som bare er mulig når det finnes en **Mappebane** å eksportere til. Brukeren kan deretter komprimere filene manuelt, som gjør at du sparer serverressurser. SAF-T-filer kan være store, og det kan ta en stor mengde serverressurser å komprimere dem til en ZIP-fil. 
+   
+* Alternativet **Opprett flere ZIP-filer**
+
+Når det gjelder både Online og lokalt, kan du også bruke alternativet for å opprette flere ZIP-filer for svært store eksporter med mange transaksjoner. Dette er nyttig hvis enkeltfiler per måned er svært store, eller antallet filer per dato er for stort. Bruk dette alternativet når den ene store ZIP-filen ikke kan valideres på myndighetenes nettsted, for eksempel på grunn av størrelsen. Når du bruker denne funksjonen, deles eksporten inn i flere ZIP-filer, opptil 10 i samsvar med kravene som er angitt i den generelle SAF-T-dokumentasjonen. Siden **SAF-T-eksporterte filer** åpnes alltid når du bruker handlingen **Last ned fil**. Her kan du se hvor mange filer som ble generert, og laste dem ned én etter én.  
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[d365fin](../../includes/d365fin_md.md)] ved hjelp av utvidelser](../../ui-extensions.md)  

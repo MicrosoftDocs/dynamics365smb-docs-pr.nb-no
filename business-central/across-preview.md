@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 04/01/2020
+ms.date: 08/12/2020
 ms.author: edupont
-ms.openlocfilehash: 805a8be94ccd38ffa696fe19157a08f4772c9ef3
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 342ffb57090aa78e10b8448b6316c610f6485040
+ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529091"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693102"
 ---
 # <a name="d365fin_long-trials-and-subscriptions"></a>[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] Prøveversjoner og abonnementer
 
@@ -68,7 +68,7 @@ Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[prodshort](i
 
 ## <a name="getting-started-with-a-subscription"></a>Komme i gang med et abonnement
 
-Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner her. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner). Videresalgspartneren kan hjelpe deg med oppsettet av [!INCLUDE[prodshort](includes/prodshort.md)], slik at det passer til din virksomhet, inkludert å importere dataene fra det tidligere systemet. Du kan også tilpasse [!INCLUDE[prodshort](includes/prodshort.md)] ved å legge til apper fra [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365-business-central).  
+Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner her. Hvis du vil ha mer informasjon, se [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner). Videresalgspartneren kan hjelpe deg med oppsettet av [!INCLUDE[prodshort](includes/prodshort.md)], slik at det passer til din virksomhet, inkludert å importere dataene fra det tidligere systemet. Du kan også tilpasse [!INCLUDE[prodshort](includes/prodshort.md)] ved å legge til apper fra [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prodshort](includes/prodshort.md)] på nettet bruker Office 365. Hvis selskapet ditt bruker en annen type e-postoppsett, kan partneren for videresalg hjelpe deg med å bestemme hvordan du skal migrere, eller om du skal bruke [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.  
 

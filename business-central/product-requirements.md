@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 05/06/2020
+ms.date: 08/25/2020
 ms.author: edupont
-ms.openlocfilehash: 55af97f27768d4b0c83379dd9eb5174613aabaa9
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 65d8295c6beb4fe918ad11434bc9813c34e81a93
+ms.sourcegitcommit: 3e2eab6920e96596cb4b3c61e590a8c577e8b630
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528716"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3731221"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 Før du åpner [!INCLUDE[prodshort](includes/prodshort.md)] på nettet, anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
@@ -31,7 +31,10 @@ Før du åpner [!INCLUDE[prodshort](includes/prodshort.md)] på nettet, anbefale
 ### <a name="other-supported-browsers"></a>Andre nettlesere som støttes
 
 **Microsoft Edge Legacy:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å fungere med den eldre versjonen av Microsoft Edge.  
-**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows. Du kan også kjøre den nye Edge-forekomsten og fremdeles få tilgang til andre nettsteder som krever Internet Explorer. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](/deployedge/edge-ie-mode).
+**Internet Explorer:** [!INCLUDE[d365fin](includes/d365fin_md.md)] er utviklet for å fungere med Internet Explorer 11 (build 11.0.9600.17239) for Windows 10 (32-biters og 64-biters versjoner). Vi anbefaler at du oppgraderer til den nyeste versjonen av Internet Explorer som støttes for din versjon av Windows. Du kan også kjøre nye Microsoft Edge og fremdeles få tilgang til andre nettsteder som krever Internet Explorer. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](/deployedge/edge-ie-mode).
+
+> [!IMPORTANT]
+> I april 2021 avsluttes støtten for Internet Explorer 11 og Microsoft Edge Legacy. Vi anbefaler at du bytter til en av de anbefalte, moderne nettleserne så raskt som mulig.
 
 ## <a name="mobile-devices"></a>Mobilenheter
 **Windows:** [!INCLUDE[d365fin](includes/d365fin_md.md)] for Windows kan installeres på enheter med minst 1 GB RAM og Windows 10 Home, Pro, Enterprise eller Education (32-biters og 64-biters versjoner).  

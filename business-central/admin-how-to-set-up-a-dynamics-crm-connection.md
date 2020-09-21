@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/24/2020
 ms.author: bholtorf
-ms.openlocfilehash: e6ee18367ad229ab56d694d0bbac23e1959b1a5f
-ms.sourcegitcommit: edad0d0b129e916c2cfdfa9c4f8d9d83513f4fd1
+ms.openlocfilehash: 10a257b60aedfb22066148fd48145779cd6d4a62
+ms.sourcegitcommit: ac492bff0c87bf2a23fa93113e7571da9d5094c7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/24/2020
-ms.locfileid: "3619413"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3701995"
 ---
 # <a name="connect-to-common-data-service"></a>Koble til Common Data Service
 
@@ -71,7 +71,7 @@ Følgende fremgangsmåte beskriver hvordan du konfigurerer tilkoblingen manuelt 
     |Felt|Beskrivelse|
     |-----|-----|
     |**[!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere må samordne med CDS-brukere**|Hvis du bruker personeierskapsmodellen, angir du om [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerkontoer må ha en samsvarende brukerkonto i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. **E-postadresse for godkjenning for Office 365** for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukeren må være den samme som **Primær-e-postadresse** til [!INCLUDE[crm_md](includes/crm_md.md)]-brukeren.<br /><br /> Hvis du angir verdien til **Ja**, vil [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som ikke har en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkonto, ikke ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrasjonsfunksjonene i brukergrensesnittet. Tilgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)] er utført på vegne av [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkontoen.<br /><br /> Hvis du angir verdien til **Nei**, vil alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere ha [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjonsfunksjonene i brukergrensesnittet. Tilgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data gjøres på vegne av [!INCLUDE[crm_md](includes/crm_md.md)]-tilkoblings(integrerings)bruker.|
-    |**Gjeldende Business Central-selger er tilordnet til en bruker**|Angir om brukerkontoen er tilordnet en konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field|-->
+    |**Gjeldende Business Central-selger er tilordnet til en bruker**|Angir om brukerkontoen er tilordnet til en konto i [!INCLUDE[crm_md](includes/crm_md.md)] <!--double check the name of this field-->|
 
 4. Hvis du vil teste tilkoblingsinnstillingene, velger du **Tilkobling** og deretter **Test tilkobling**.  
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 05/19/2020
 ms.author: edupont
-ms.openlocfilehash: 9650539c44a464aab238914ca5d3d65cb8b5c0b8
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 230f3a7fc11e19813d77da2ff15388433642c744
+ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528188"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "3697650"
 ---
 # <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
@@ -23,6 +23,14 @@ Du definerer en webtjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klient
 ## <a name="creating-and-publishing-a-web-service"></a>Opprette og publisere en webtjeneste
 
 De følgende trinnene forklarer hvordan du oppretter og publiserer en webtjeneste.  
+
+<!--
+    You can also create a new web service URL in [!INCLUDE [prodshort](includes/prodshort.md)] instead. Choose one of the following methods:
+
+      - Use the **Create Data Set** action on the **Web Services** page
+      - Use the **Set Up Reporting** Assisted Setup guide
+      - Choose the **Edit in Excel** action in any lists
+    -->
 
 ### <a name="to-create-and-publish-a-web-service"></a>Slik oppretter og publiserer du en webtjeneste  
 
