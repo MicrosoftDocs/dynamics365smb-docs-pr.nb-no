@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 3891d97788cbb4751a9ee9e06baab39f7088f67f
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185447"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787949"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversikt over Finanskladd – bokfør linje
 Kodeenhet 12, **Finanskladd – bokfør linje**, er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter. Denne kodeenheten brukes også for alle operasjoner med Utlign, Opphev utligning og Tilbakefør.  

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
 ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.author: edupont
+ms.openlocfilehash: 5d7c419158134c78993c00d6644bb828dd3be1a9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272041"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787374"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planleggingsparametere
 Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
@@ -29,7 +29,7 @@ Måten planleggingssystemet kontrollerer vareforsyning på, fastsettes av ulike 
 |Angi hvor mye som skal gjenbestilles|Sikkerhetslagerantall<br /><br /> Gjenbestillingsprinsipp:<br /><br /> -   Fast gjenbest.ant pluss Gjenbestillingsantall<br />-   Maks.ant. pluss Maks. beholdning<br />-   Bestilling<br />-   Parti for parti|  
 |Optimalisere når og hvor mye som skal gjenbestilles|Periode for ny planlegging<br /><br /> Akkumuleringsperiode for parti<br /><br /> Avdempingsperiode|  
 |Endre forsyningsordrene|Min. bestillingsantall<br /><br /> Maks. bestillingsantall<br /><br /> Bestillingsfaktor|  
-|Avgrense den planlagte varen|Produksjonsprinsipp:<br /><br /> -   Produser-til-lager<br />-   Produser-til-ordre|  
+|Avgrense den planlagte varen|Produksjonsprinsipp:<br /><br /> -   Produser til lager<br />-   Produser til ordre|  
 
 ## <a name="define-if-the-item-will-be-planned"></a>Angi om varen vil bli planlagt  
 Hvis du vil ta med en vare/LFE i planleggingsprosessen, må den ha et gjenbestillingsprinsipp, ellers må den planlegges manuelt, for eksempel med ordreplanleggingsfunksjonen.  
