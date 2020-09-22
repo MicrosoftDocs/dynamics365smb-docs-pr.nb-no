@@ -8,13 +8,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/19/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0f8cc20f9f5f9afcd3db5fbeb3dc6d12ad8d6cad
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.author: edupont
+ms.openlocfilehash: f948451001c2e280ea52f92d5d3b58eca6222687
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496727"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789303"
 ---
 # <a name="working-with-d365fin"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
@@ -65,7 +65,7 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365f
 
 - Hvis det mulig, bør du unngå eldre lesere, for eksempel Internet Explorer, og bytte til en av våre anbefalte, moderne lesere, for eksempel den [nye Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer støttes fremdeles, men ettersom den nye Edge-leseren er tilgjengelig for Windows Server nå, ser vi en nedadgående trend for Internet Explorer. Du kan også få [en prøveversjon med Edge i IE-modus](https://www.microsoft.com/edge/business). Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer støttes fremdeles, men ettersom nye Microsoft Edge er tilgjengelig for Windows Server nå, ser vi en nedadgående trend for Internet Explorer. Du kan også få [en prøveversjon med Microsoft Edge i IE-modus](https://www.microsoft.com/edge/business). Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - La nettleseren alltid være oppdatert til den nyeste versjonen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
