@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 72baaa4304ac3bc64f66b02360a0d8ae2a00b174
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 5e1871083613b2e280cf2fbf2d610c996eccd542
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183839"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786424"
 ---
 # <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
 Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett opprettes basert på kostnadstyper på samme måte som et finansbudsjett opprettes basert på finanskontoer.  

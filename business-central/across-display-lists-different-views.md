@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: cb9c29f6123edc4cad2b5e34381db574fab3685a
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188775"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784260"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Vise lister på ulike måter
 I høyre hjørne i en hvilken som helst liste i [!INCLUDE[d365fin](includes/d365fin_md.md)] finner du ikoner som lar deg velge hvordan listen over poster vises. En liste kan vises som detaljerte rader, noe som er ideelt når du har behov for å arbeide med mange felt eller redigere felt i listen. Men du kan også bytte for å vise poster som fliser, som er mer kompakt, og som viser færre felt på den bestemte posten. Denne visningen er svært nyttig for å få en oversikt over flere poster, og er spesielt nyttig på mindre enheter, fordi den er kompakt og enklere å trykke.

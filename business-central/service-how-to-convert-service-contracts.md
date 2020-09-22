@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ed1f0d928299a1f72b40be6e7fe1ac1567c4906c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: e531a80521cdb76a337cbfec95b6b30a0d1d118d
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194934"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784362"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter som inkluderer mva-beløp
 Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrakter, må du konvertere disse kontraktene manuelt. Dette emnet beskriver flere alternative metoder som du kan bruke for servicekontraktkonvertering.  

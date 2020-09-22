@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 467b43b14f1905018c2a26a06c15abc5a0a17e99
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.author: edupont
+ms.openlocfilehash: fb80cecd119cf061b3102d94f586da4c103bd21c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410647"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3784816"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Blokkere varer fra salg eller kjøp
 Du kan blokkere en vare fra å bli lagt inn på linjer i salgs- eller bestillingsdokumenter, og du kan blokkere den fra å bli bokført i en transaksjon. Dette er for eksempel nyttig når en vare har en kjent defekt. Hvis noen velger en sperret vare på et salgs- eller kjøpsdokument, vil en melding gi beskjed om at varen er sperret.

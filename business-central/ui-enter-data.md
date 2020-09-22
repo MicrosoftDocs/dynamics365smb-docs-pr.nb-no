@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.author: edupont
+ms.openlocfilehash: 1ad2eb6d2e9a423aa1891eb52f71e815f4b89eff
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262145"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785449"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -160,7 +160,7 @@ Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger 
 
 > [!NOTE]
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Det kan skje i andre lesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) for mer informasjon.  
+> Det samme kan skje i andre nettlesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) hvis du vil ha mer informasjon.  
 
 En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
 
@@ -203,7 +203,7 @@ Du kan angi datoer og klokkeslett i alle feltene som er tilordnet datoer (datofe
 
 ### <a name="entering-dates"></a>Sette inn datoer
 
-Du kan bruke enten datovelgeren til å velge en dato fra kalenderen, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
+Du kan enten bruke datovelgeren til å velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
 
 For manuell datoregistrering kan du angi to, fire, seks eller åtte tall:  
 

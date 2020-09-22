@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 44069b903df5426ae2aa3e851404c2b9e01f3979
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: c8a1fb9e6491eb70d71ba86381c5925f939addf2
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188183"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3785549"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
@@ -124,7 +124,7 @@ Dette er beskrevet i følgende fremgangsmåter.
     |**Navn**|Angi et navn for tilordningsoppsettet.|  
     |**Kodeenhet for forhåndstilordning**|Angi kodeenheten som klargjør tilordningen mellom felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
     |**Kodeenhet for tilordning**|Angi kodeenheten som brukes til å tilordne de angitte kolonnene eller XML-dataelementene til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Obs!**  Når utvidelsesfunksjonen for AMC Banking 365 Fundamentals brukes, konverterer kodeenheten eksporterte data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Obs!** Når utvidelsesfunksjonen for AMC Banking 365 Fundamentals brukes, konverterer kodeenheten eksporterte data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
 
 3.  I hurtigfanen **Felttilordning** angir du hvilke kolonner som er tilordnet hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)], ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
 
