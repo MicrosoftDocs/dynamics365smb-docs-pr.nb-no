@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 23bead12bc8a8618798f3ab0f139488b128b7bbc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 34a9461a967760b682f9a219389bd4078e3e654c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3190974"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782877"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[d365fin](includes/d365fin_md.md)].

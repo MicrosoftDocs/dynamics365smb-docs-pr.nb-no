@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8152299efea0ef07e1506d5897ff9cd27d21d21a
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.author: edupont
+ms.openlocfilehash: ae40390d2aa095739154a635c0e4fdf77933e648
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529066"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782121"
 ---
 # <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.

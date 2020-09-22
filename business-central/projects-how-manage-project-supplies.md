@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 78a11b0c20f8ef6c1c190f38cc5dcfcee918c8e2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: acf85015ead55bea4cec5af7577ff58ce3d77af7
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191238"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783885"
 ---
 # <a name="manage-job-supplies"></a>Administrere prosjektforsyninger
 Behandling av prosjektforsyninger som varer, tjenester og utgifter inngår i og er en viktig del av alle prosjektutførelser. Du kan bruke lagerantallene eller foreta prosjektspesifikke kjøp ved hjelp av bestillinger eller kjøpsfakturaer. En servicejobb på en datamaskin krever for eksempel en ny disk. Du oppretter en kjøpsfaktura for å kjøpe en ny disk, og registrerer prosjektet den skal brukes på.

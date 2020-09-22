@@ -11,13 +11,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cede9a43bb66d314640e0e28443c63c925fd575a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: 6dfa7237cde2a88c8d36baa2daa69f4cde97a4eb
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192726"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783102"
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[d365fin](includes/d365fin_md.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).

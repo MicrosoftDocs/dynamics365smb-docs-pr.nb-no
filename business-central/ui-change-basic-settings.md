@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd3d7a821c088b6e9f457e3bf3dc05d0c53525c4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: edupont
+ms.openlocfilehash: fa091993d64aeba6982a871aeb794c97be3e81d9
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194598"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782446"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
@@ -67,10 +67,11 @@ Den mest brukte arbeidsdatoen er i dag. Du må kanskje endre arbeidsdatoen midle
 ### <a name="work-date-indication"></a>Arbeidsdatoindikasjon
 Når arbeidsdatoen ikke er satt til i dag, vil to typer indikatorer vises på sider som kan redigeres, og hvor arbeidsdatoen derfor er kritisk:
 
-- Det vises en påminnelse øverst på siden som forteller deg hva arbeidsdatoen er satt til. Påminnelsen gir en direkte kobling til arbeidsdatoinnstillingen på siden **Mine innstillinger**, slik at du kan endre datoen hvis du vil. Fra purringen kan du også velge å lukke påminnelsen for resten av økten. Med mindre du endrer arbeidsdatoen til "i dag", vil påminnelsen vises neste gang du logger på.
+* Det vises en påminnelse øverst på siden som forteller deg hva arbeidsdatoen er satt til. Påminnelsen gir en direkte kobling til arbeidsdatoinnstillingen på siden **Mine innstillinger**, slik at du kan endre datoen hvis du vil. Fra purringen kan du også velge å lukke påminnelsen for resten av økten. Med mindre du endrer arbeidsdatoen til "i dag", vil påminnelsen vises neste gang du logger på.
 
-- Hvis du lukker purringen, vises arbeidsdatoen vises i tittelen på siden.  
---> Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbeidsdato vises øverst til venstre på siden på alle sider der kan du redigere data.
+* Hvis du lukker purringen, vises arbeidsdatoen vises i tittelen på siden.  
+
+Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbeidsdato vises øverst til venstre på siden på alle sider der kan du redigere data.
 
 ## <a name="region"></a><a name="region"></a> Region
 

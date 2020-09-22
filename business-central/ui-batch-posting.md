@@ -8,19 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 32998248de254facdb225d60a0c8b55066b2707c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 08/18/2020
+ms.author: edupont
+ms.openlocfilehash: 2c04dac37b043995a9b78e2f662f9411c3cf9ae1
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192102"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782521"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokføre flere dokumenter samtidig
+
 I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for umiddelbar bokføring eller massebokføring i henhold til en tidsplan, for eksempel på slutten av dagen. Dette kan være nyttig hvis bare en arbeidsleder kan bokføre dokumenter som er opprettet av andre brukere, eller for å unngå problemer med systemytelse ved bokføring i arbeidstiden.
 
 ## <a name="to-post-multiple-purchase-orders-immediately"></a>Bokføre flere bestillinger umiddelbart
+
 Fremgangsmåten nedenfor forklarer hvordan du bokfører flere bestillinger umiddelbart. Trinnene er lignende for alle kjøps- og salgsdokumenter.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
@@ -31,10 +33,11 @@ Fremgangsmåten nedenfor forklarer hvordan du bokfører flere bestillinger umidd
 6. Velg **Ja** i bekreftelsesmeldingen.
 
 ## <a name="to-batch-post-multiple-purchase-orders"></a>Massebokføre flere bestillinger
+
 Fremgangsmåten nedenfor forklarer hvordan du massebokfører bestillinger. Trinnene er de samme for alle kjøps- og salgsdokumenter der handlingen **Massebokfør** er tilgjengelig.
 
 > [!NOTE]
-> Massebokføring av dokumenter skjer i bakgrunnen i henhold til en jobbkøpost som først må opprettes. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
+> Massebokføring av dokumenter skjer i bakgrunnen. [!INCLUDE [prodshort](includes/prodshort.md)] Online omfatter standardjobber for bakgrunnsbokføring og massebokføring. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2. På **Bestilling**-siden fortsetter du for å velge alle bestillinger som skal bokføres:
@@ -42,10 +45,6 @@ Fremgangsmåten nedenfor forklarer hvordan du massebokfører bestillinger. Trinn
 4. Merk av i boksen for alle linjene som representerer ordrer du vil bokføre samtidig.
 5. Velg handlingen **Bokføring**, og velg deretter handlingen **Massebokfør**.
 6. På siden **Bestillinger - massebokfør** fyller du ut resten av feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!NOTE]
-    > Hvis du vil skrive ut relaterte rapporter når du bokfører, for eksempel rapporten **Ordrebekreftelse** for salgsordrer, merker du av for **Skriv ut**.<br /><br /> I feltet **Rapportutdatatype** på siden **Oppsett av kunde- og leverandørkonto** eller på siden **Kjøpsoppsett** definerer du om rapporten skal skrives ut eller sendes som en PDF-fil.<br /><br /> Legg også merke til at direkte utskrift til en valgt skriver bare er mulig på lokale installasjoner.
-
 7. Velg **OK**-knappen.
 8. Hvis du vil vise potensielle problemer som oppstod under massebokføring av dokumenter, åpner du siden **Feilmeldingsregister**.
 
@@ -54,6 +53,7 @@ Bestillingene blir nå lagt til i en dedikert jobbkø, som definerer når dokume
 Hvis du velger **PDF** i feltet **Rapportutdatatype**, vil bokførte bestillinger være tilgjengelige i delen **Rapportinnboks** i rollesenteret.
 
 ## <a name="see-also"></a>Se også
+
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
