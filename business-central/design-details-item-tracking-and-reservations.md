@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f671fc4c3a8b08d1bf9b21cef79ae35defb636
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb79b0538f4f55b2841815c23c4446d7c6278fb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787624"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922095"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
 
@@ -36,10 +36,11 @@ Reservasjon av varesporingsnumre faller innenfor to kategorier, som vist i tabel
 |Ikke-spesifikk|Du velger ikke et bestemt serie- eller partinummer når du reserverer lagervaren fra et behov, for eksempel en ordre.<br /><br /> Dette er en tilstand som en reservasjonspost pålegges for serie- eller partinumre som ikke spesifikt velges. **Obs!** Behovet har ikke serie- eller partinumre. <br /><br /> Hvis du for eksempel vil reservere et spann med blå maling fra et hvilket som helst parti for ordren. Et spann med blå maling fra en tilfeldig serie- eller partinummer leveres til kunden.|  
   
 Hovedforskjellen på spesifikk og ikke-spesifikk reservasjon angis av serie- eller partinumre som finnes på behovssiden, som vist i følgende tabell.  
-  
-|<!--blank -->|**Forsyning**|**Behov**|  
-|**Spesifikk**|Serie- eller partinummer.|Serie-eller partinummer.|  
-|**Ikke-spesifikk**|Serie- eller partinummer.|Ingen serie- eller partinumre.|  
+
+| Type            | Forsyning                | Behov                   |
+|-----------------|-----------------------|--------------------------|
+| **Serienummer**    | Serie- eller partinummer. | Serie- eller partinummer.    |
+| **Ikke-spesifikk** | Serie- eller partinummer. | Ingen serie- eller partinumre. |
   
 Når du reserverer lagerantall fra en linje i et utgående dokument for en vare som har fått tilordnet varesporingsnumre, og er opprettet for spesifikk varesporing, blir du ledet gjennom ulike arbeidsflyter på **Reservasjon**-siden, avhengig av behovet for serie- eller partinumrene.  
   

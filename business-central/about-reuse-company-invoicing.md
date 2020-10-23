@@ -7,18 +7,18 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Office 365
-ms.date: 04/30/2020
+ms.search.keywords: Invoicing, Microsoft 365
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: 90f5f913fdaa96b2d4c4a057cc675e3a9edcc95c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333863"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914442"
 ---
-# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Bruke samme Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
-Når du registrerer deg for en prøveversjon med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du flytte over til en 30 dager evalueringsfase, du kan du starte et abonnement eller du kan slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)]. I alle tilfeller kan du på et eller annet ha sett noe kalt **Microsoft Invoicing** og klikket på det. Dette var en app som var en del av det som nå er Microsoft 365 Business Standard, og ble tidligere kalt Office 365 Business Premium-abonnement, så det er ikke alle som har sett denne flisen i Office 365-opplevelsen.  
+# <a name="using-the-same-microsoft-365-account-in-d365fin-and-microsoft-invoicing"></a>Bruke samme Microsoft 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
+Når du registrerer deg for en prøveversjon med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du flytte over til en 30 dager evalueringsfase, du kan du starte et abonnement eller du kan slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)]. I alle tilfeller kan du på et eller annet ha sett noe kalt **Microsoft Invoicing** og klikket på det. Dette var en app som var en del av det som nå er Microsoft 365 Business Standard, og ble tidligere kalt Microsoft 365 Business Premium-abonnement, så det er ikke alle som har sett denne flisen i Microsoft 365-opplevelsen.  
 
 Microsoft Invoicing er ikke lenger tilgjengelig, men hvis du må logge deg på Invoicing for å hente dataene, kan du se en melding om at du ikke får tilgang til Microsoft Invoicing fordi kontoen din brukes i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 

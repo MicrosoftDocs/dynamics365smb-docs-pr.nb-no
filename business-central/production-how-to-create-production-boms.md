@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10795ffc60861766f3fcc4aebcb086ab55a0094f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779938"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919291"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.

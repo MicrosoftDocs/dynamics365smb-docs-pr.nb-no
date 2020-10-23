@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b13bc643a93d7558c4760791af81a9a6cc6190b2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 14aae820463718357d3bac69524751833f5dd79d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787674"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913666"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
 
@@ -35,7 +35,7 @@ Vareutligninger kan utføres på følgende måter.
 |Metode|Beskrivelse|Utligningstype|  
 |------------|---------------------------------------|----------------------|  
 |Automatisk|Forekommer som videresending av generelle kostnader i henhold til lagermetoden|Antallsutligning|  
-|Fast|Utføres av brukeren når:<br /><br /> -   Behandle returer<br />-   Bokføring av rettelser<br />-   Angrer antallsbokføringer<br />-   Opprette direkte leveringer **Obs!**  Du kan gjøre fast utligning manuelt ved å skrive inn et postnummer i feltet **Utlignet fra-varepost**, eller ved å bruke en funksjon, for eksempel **Hent bokførte dokumentlinjer som skal tilbakeføres**.|Antallsutligning<br /><br /> Kostutligning **Obs!**  Kostutligning oppstår bare i innkommende transaksjoner når feltet **Utlignet fra-varepost** fylles ut for å opprette en fastsatt utligning. Se den neste tabellen.|  
+|Fast|Utføres av brukeren når:<br /><br /> -   Behandler returer<br />-   Bokfører rettelser<br />-   Angrer antallsbokføringer<br />-   Oppretter direkte leveringer **Obs!**  Du kan gjøre fast utligning manuelt ved å skrive inn et postnummer i feltet **Utlignet fra-varepost**, eller ved å bruke en funksjon, for eksempel **Hent bokførte dokumentlinjer som skal tilbakeføres**.|Antallsutligning<br /><br /> Kostutligning **Obs!**  Kostutligning oppstår bare i innkommende transaksjoner når feltet **Utlignet fra-varepost** fylles ut for å opprette en fastsatt utligning. Se den neste tabellen.|  
 
 Om det er antallsutligninger eller kostutligninger som utføres, avhenger av retningen til lagertransaksjonen og om vareutligningen utføres automatisk eller er fast, i forbindelse med spesialprosesser.  
 

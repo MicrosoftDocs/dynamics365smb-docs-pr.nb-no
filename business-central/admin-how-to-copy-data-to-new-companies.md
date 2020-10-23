@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 120ad8c446f0626443c8c76a649424cd5bc11a4b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783704"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911433"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye selskaper
 Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database. Hvis du for eksempel har en standardliste over symptomkoder som er felles for alle serviceimplementeringene, kan du enkelt kopiere kodene fra ett firma til et annet.  

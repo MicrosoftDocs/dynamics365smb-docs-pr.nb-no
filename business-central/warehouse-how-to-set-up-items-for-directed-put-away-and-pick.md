@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dfe65a99ca1095e11580a74bdc141eb23f917aaa
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cb31975e076a923d1e1f371fa27ccbf4f1c01661
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785599"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918216"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
 Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt. For å kunne utnytte denne funksjonaliteten fullt ut må du angi tilleggsopplysninger om varene, noe som i neste omgang hjelper å utføre de nødvendige beregningene for å foreslå de mest effektive og praktiske måtene å utføre lageraktiviteter på. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).

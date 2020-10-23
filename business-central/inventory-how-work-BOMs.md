@@ -8,14 +8,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/27/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fbfe510c420187ba881ee1cace8ecdafe47b4924
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786349"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919391"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.

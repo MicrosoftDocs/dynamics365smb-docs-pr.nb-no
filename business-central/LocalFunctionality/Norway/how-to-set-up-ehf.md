@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b4c6938f86b163b3263f4b7113e0861f4c9b90b3
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2014d4592f655a33cb4e8f7b427a88a55a6f88fd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777899"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919767"
 ---
 # <a name="set-up-ehf"></a>Angi EHF
 Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer. Du må også definere betalingsmåter og definere aktuelle kunder for EHF.  

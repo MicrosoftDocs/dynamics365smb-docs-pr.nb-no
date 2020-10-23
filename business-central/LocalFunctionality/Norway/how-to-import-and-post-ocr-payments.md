@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca7b03841eee93f829f965e510ce8e0b63b5f5cd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9eaeb9a3c8d1f22b96fb328fb7a8cbc2787dd620
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779035"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919783"
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
 Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følgende forberedelser:  

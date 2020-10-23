@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d3258bdc7781b6160bcb3a73a73358c2cac313f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: fe5261a2253659480aabe36a6fff1586bd4478c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779714"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911799"
 ---
 # <a name="create-bins"></a>Opprette hyller
 Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt fra lokasjonskortet. Du kan også bruke en funksjon på siden **Hylleoppretting** til å opprette hyller automatisk.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 663d1c846e957be1b3d85a95a56a6f7f6cc940e8
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 7e2c8aeda1d71c7f01e7999dd540ce9194806dc5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787324"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917304"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.
@@ -44,10 +44,10 @@ Avhengig av beholdningstype representeres økninger og reduksjoner av ulike tran
 
 ||Økninger|Nedganger|  
 |-|---------------|---------------|  
-|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruket|Materialforbruk|  
-|**VIA-beholdning**|-   Materialforbruk<br />-   Kapasitetsforbruk<br />-   Indirekte produksjonskostnader|Avgang av sluttvarer (kostnader for produserte varer)|  
+|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruk|Materialforbruk|  
+|**VIA-beholdning**|-   Materialforbruk<br />-   Kapasitetsforbruk<br />-   Indir. prod.kostnader|Avgang av sluttvarer (kostnader for produserte varer)|  
 |**Ferdige varer på lager**|Avgang av sluttvarer (kostnader for produserte varer)|-   Salg (solgte varers kost)<br />-   Negativ avgang|  
-|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruket|Materialforbruk|  
+|**Råvarerbeholdning**|-   Nettokjøp av materiale<br />-   Avgang for halvfabrikater<br />-   Negativt forbruk|Materialforbruk|  
 
 Verdiene til økninger og reduksjoner registreres i ulike typer produsert beholdning på samme måte som for kjøpt beholdning. Hver gang det foregår en transaksjon for lagerøkning eller -reduksjon, opprettes det en varepost og en tilsvarende post i Finans for beløpet. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
 

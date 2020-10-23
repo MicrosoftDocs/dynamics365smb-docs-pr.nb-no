@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7383fe5e716fbd63012e8ab5ffa236af9e7a979e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 68a62afd8ca154f8a5270899fe458a6841407000
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181703"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922847"
 ---
 # <a name="add-contacts-to-segments"></a>Legge til kontakter i segmenter
 Etter at du har opprettet et segment og angitt grunnleggende opplysninger om segmentet, kan det være du vil legge til kontakter i segmentet. Dette kan du gjøre ved å fylle ut linjene manuelt på siden **Segment**, men det enkleste og raskeste er å bruke handlingen **Legg til kontakter**.

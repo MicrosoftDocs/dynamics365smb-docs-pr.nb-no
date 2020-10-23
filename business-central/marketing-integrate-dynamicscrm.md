@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: b9926ced6827354c438445f0618db5a525b080d2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: 37e94bcc276ee8526a336e13eabe81c694130196
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196738"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923698"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruke Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[d365fin](includes/d365fin_md.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
@@ -69,14 +69,17 @@ Ordrer som personer sender i [!INCLUDE[crm_md](includes/crm_md.md)], blir automa
 Du kan eventuelt manuelt konvertere sendte ordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjelp av handlingen **Opprett i [!INCLUDE[d365fin](includes/d365fin_md.md)]**-handlingen som er tilgjengelig på siden **Ordrer – Dynamics 365 for Sales**.
 For slike ordrer blir **Navn**-feltet i den opprinnelige ordren overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ikke er i produktkatalogen, det vil si varer eller ressurser som ikke er registrert i en app. I så fall må du fylle ut feltene **Produkt som ikke er i produktkatalogen** og **Nummer på produktet som ikke er i produktkatalogen** på **Salgsoppsett**-siden, slik at alle slike ikke-registrerte produktsalg er tilordnet til en bestemt vare/ressurs for finansanalyse.
+Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ikke er i produktkatalogen, det vil si varer eller ressurser som ikke er registrert i en app. I så fall må du fylle ut feltene **Produkt som ikke er i produktkatalogen** og **Nummer på produktet som ikke er i produktkatalogen** på **Salgsoppsett**-siden, slik at salg for ikke-registrerte produkter er tilordnet til en bestemt vare eller ressurs.
+
+> [!NOTE]
+> Du kan ikke tilordne et produkt som ikke finnes i produktkatalogen, til en vare eller ressurs i [!INCLUDE[d365fin](includes/d365fin_md.md)] som er koblet til et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. For å tillate produkter som ikke er i produktkatalogen, anbefaler vi at du oppretter en vare eller ressurs spesielt for dette formålet og ikke kobler det med et produkt i [!INCLUDE[crm_md](includes/crm_md.md)]. 
 
 Hvis varebeskrivelsen i den opprinnelige ordren er lang, kan en ekstra ordrelinje av typen **Merknad** opprettes som har plass til hele teksten i ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Oppdateringer av felt i salgsordrehoder, for eksempel feltene Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i **Tilordninger for integreringstabell** for SALESORDER-ORDER, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre og levere eller fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](/dynamics365/sales-enterprise/developer/introduction-activity-feeds). <!--The link is broken. Should this actually point to https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/manage-activities-->
+Oppdateringer av felt i salgsordrehoder, for eksempel feltene Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i integrasjonstabelltilordningen for **SALESORDER-ORDER**, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre og levere eller fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
-> Periodisk synkronisering basert på **Tilordninger for integreringstabell** for SALESORDER-ORDER vil bare fungere når ordreintegrasjon er aktivert. Hvis du vil ha mer informasjon, kan du se [Tilkoblingsinnstillinger på siden for konfigurasjon av Sales-tilkobling](admin-prepare-dynamics-365-for-sales-for-integration.md). Bare ordrer som er opprettet fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
+> Periodisk synkronisering basert på integrasjonstabelltilordningen for **SALESORDER-ORDER** vil bare fungere når ordreintegrasjon er aktivert. Hvis du vil ha mer informasjon, kan du se [Tilkoblingsinnstillinger på siden for konfigurasjon av Sales-tilkobling](admin-prepare-dynamics-365-for-sales-for-integration.md). Bare ordrer som er opprettet fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
@@ -86,6 +89,8 @@ Du kan eventuelt manuelt konvertere aktiverte tilbud fra [!INCLUDE[crm_md](inclu
 For slike tilbud blir **Navn**-feltet i det opprinnelige tilbudet overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Også **Gjelder til**-feltet for tilbudet overføres og tilordnes til **Gyldig til-dato for tilbud**-feltet for tilbudet i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Tilbud går gjennom mange revisjoner når de ferdigstilles. Både manuell og automatisk behandling av tilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] sikrer at tidligere versjoner av tilbud arkiveres før behandling av nye revisjoner av tilbud fra [!INCLUDE[crm_md](includes/crm_md.md)].
+
+Når du velger **Behandle** i [!INCLUDE[d365fin](includes/d365fin_md.md)] for et tilbud som har statusen **Vunnet**, opprettes en ordre i [!INCLUDE[d365fin](includes/d365fin_md.md)] bare hvis en tilsvarende ordre sendes i [!INCLUDE[crm_md](includes/crm_md.md)]. Ellers blir tilbudet bare frigitt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis en tilsvarende ordre sendes i [!INCLUDE[crm_md](includes/crm_md.md)] senere, og det opprettes en ordre fra den, oppdateres **Tilbudsnr.** på ordren og tilbudet arkiveres.
 
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bokførte salgsfakturaer, kundebetalinger og statistikk
 Når du har fullført ordre, opprettes fakturaer for den. Når du fakturerer ordre, kan du overføre den bokførte salgsfakturaen til [!INCLUDE[crm_md](includes/crm_md.md)] hvis du velger **Opprett faktura i [!INCLUDE[crm_md](includes/crm_md.md)]**-avmerkingsboksen på siden **Bokført salgsfaktura**. Bokførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **Fakturert**.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 9a155c5b2f616963da34c4d512bcc0f52623f58b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435210"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920725"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Avhending eller tilbaketrekking av aktiva
 
@@ -45,8 +45,8 @@ Når du selger eller avhender et aktiva, bokføres salgsverdien til finans der d
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg aktivaet du vil vise poster for, og velg deretter **Avskrivningstablåer**.  
 3. Velg avskrivningstablået du vil vise poster for, og velg deretter **Poster**.  
-4. Velg en linje med **Salg** i **Bokføringskategori, aktiva**-feltet, og velg deretter **Naviger**.  
-5. På **Naviger**-siden velger du finanspostlinjen og deretter **Vis**.  
+4. Velg en linje med **Salg** i **Bokføringskategori, aktiva**-feltet, og velg deretter **Søk etter poster**.  
+5. På **Søk etter poster**-siden velger du finanspostlinjen og deretter **Vis relaterte poster**.  
 
 **Finansposter**-siden åpnes der du kan se postene som er resultat av salgsbokføringen.  
 
@@ -57,4 +57,5 @@ Når du selger eller avhender et aktiva, bokføres salgsverdien til finans der d
 [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Søk etter poster](ui-find-entries.md)  

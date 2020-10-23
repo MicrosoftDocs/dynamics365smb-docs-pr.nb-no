@@ -1,6 +1,6 @@
 ---
-title: Opprette rammeordrer | Microsoft-dokumentasjon
-description: Bruk rammeordrer når en kunde har forpliktet seg til å kjøpe store antall som skal leveres i flere mindre leveringer over en bestemt tidsperiode.
+title: Arbeide med rammeordrer eller rammebestillinger
+description: Bruk rammeordrer når en kunde har forpliktet seg til å kjøpe store antall som skal leveres i flere mindre leveringer over en bestemt tidsperiode. Det samme gjelder kjøp.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f2e5ed9ad2d85e011162eaf8706c41a0935a73e6
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d3202f380da6b58ba30fa301c7ea6a24efb91cf5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788978"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925925"
 ---
-# <a name="work-with-blanket-sales-orders"></a>Arbeide med rammeordrer
-En rammeordre utgjør rammene for en langsiktig avtale mellom deg og kunden.
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeide med rammeordrer eller rammebestillinger
+
+En rammeordre utgjør rammene for en langsiktig avtale mellom deg og kunden. På samme måte bruker du rammebestillinger til å håndtere langsiktige avtaler mellom deg og leverandøren.
 
 En rammeordre opprettes som regel når en kunde har forpliktet seg til å kjøpe store antall som skal leveres i flere mindre leveringer over en bestemt tidsperiode. Rammeordrer dekker ofte bare én vare med forhåndsbestemte leveringsdatoer. Hovedgrunnen til å bruke en rammeordre i stedet for en salgsordre er at antallene som angis på en rammeordre ikke påvirker tilgjengeligheten for varene.
 
@@ -94,7 +95,8 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
 5. På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 
 ## <a name="see-also"></a>Se også
-[Salg](sales-manage-sales.md)
+
+[Salg](sales-manage-sales.md)  
 [Opprette rammemonteringsordrer](assembly-how-to-create-blanket-assembly-orders.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d7aafe33ac70546378abd90cc98aea3b1a326c77
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d53932be1597a96ced906ed7546ce8ff011639e3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782471"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912624"
 ---
 # <a name="copy-and-paste-faq"></a>Vanlige spørsmål om kopiere og lime inn
 Du kan kopiere en eller flere rader (poster) fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post). Kort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS).

@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2020
-ms.openlocfilehash: 9cf4817cd85951f193ffadbcd3e7ebc971bcca36
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: ef8b2c90ef01841e2c641b9fc96348d899d4997e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181583"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919341"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruke profilspørreskjemaer til å klassifisere forretningskontakter
 Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om profiler for kontaktene. Du kan definere de ulike spørsmålene du vil spørre kontaktene om, i hvert enkelt spørreskjema.  

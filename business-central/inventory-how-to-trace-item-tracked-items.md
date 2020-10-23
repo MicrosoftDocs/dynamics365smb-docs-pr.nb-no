@@ -8,25 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 219826af340d887b4856841b5600da4448190504
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785874"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916096"
 ---
 # <a name="trace-item-tracked-items"></a>Spore varesporede varer
-Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og Naviger.  
+Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og [Søk etter poster](ui-find-entries.md).  
 
- Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må finne ut hvilke kunder som mottok produkter fra et bestemt partinummer, eller når du må finne ut hvilket parti en defekt komponent kom fra.  
+Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må finne ut hvilke kunder som mottok produkter fra et bestemt partinummer, eller når du må finne ut hvilket parti en defekt komponent kom fra.  
 
  På siden **Varesporing** kan du spore fremover og bakover i en sekvens med bokførte lagertransaksjoner for serie- eller partinummeret.  
 
- Du kan ikke se transaksjonssekvensen på siden **Naviger**, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
+ Du kan ikke se transaksjonssekvensen på siden **Søk etter poster**, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
 
- De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer på siden **Naviger** hvis du vil fullføre et fullstendig sporingsscenario. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).  
+ De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer på siden **Søk etter poster** hvis du vil fullføre et fullstendig sporingsscenario. Hvis du vil ha mer informasjon, kan du se [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).  
 
 ## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer  
 
@@ -57,11 +57,12 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 >   
 >  Når du skal søke etter varesporingslinjer der transaksjonsloggen allerede er sporet, velger du knappen **Gå til allerede sporet**. Den aktuelle varesporingslinjen velges, og alle underliggende linjer utvides.  
 
-## <a name="to-find-item-tracked-items-with-navigate"></a>Slik søker du etter varesporede varer med Naviger:  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Slik søker du etter varesporede varer med Søk etter poster:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Naviger**, og velg deretter den relaterte koblingen.  
-2.  På hurtigfanen **Varesporing**, under **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
-3.  Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Søk etter poster**, og velg deretter den relaterte koblingen.  
+2. Velg **Handlinger** > **Finn etter** > **Finn etter varereferanse**.
+3. I feltene **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
+4. Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
 
 ## <a name="see-also"></a>Se også  
 [Lager](inventory-manage-inventory.md)  
@@ -69,4 +70,5 @@ Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble 
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
-[Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)
+[Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)  
+[Søk etter poster](ui-find-entries.md)  

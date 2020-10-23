@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, Common Data Service, integration, sync
-ms.date: 01/17/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 795656cd5b4ad8d40c48a2edf327cffb56ad6906
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 4f8e5959098e01cd08134a37ae706aa852d88729
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324057"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911662"
 ---
 # <a name="data-ownership-models"></a>Dataeierskapsmodeller
 [!INCLUDE[d365fin](includes/cds_long_md.md)] krever at du angir en eier av dataene du lagrer. Hvis du vil ha mer informasjon, kan du se [Enhetseierskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-entities#entity-ownership) i dokumentasjonen for Power Apps. Når du definerer integreringen mellom [!INCLUDE[d365fin](includes/cds_long_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], må du velge én av to eierskapsmodeller for poster som synkroniseres:
@@ -70,6 +70,8 @@ Når du endrer en forretningsenhet, kan du bare velge de konsernene som er ett n
 Hvis du velger personeierskapsmodellen, må du angi hver selger som skal eie nye poster. Forretningsenheten og teamet opprettes som beskrevet i delen [Teameierskap](admin-cds-company-concept.md#team-ownership).
 
 Standard forretningsenhet brukes når Person-eierskapsmodellen er valgt, og du kan ikke velge en annen forretningsenhet. Teamet som er knyttet til standard forretningsenhet, vil eie poster for vanlige enheter, for eksempel produktenheten, som ikke er knyttet til bestemte selgere.
+
+Når du kobler selgere i [!INCLUDE[d365fin](includes/d365fin_md.md)] med brukere i [!INCLUDE[d365fin](includes/cds_long_md.md)], vil [!INCLUDE[d365fin](includes/d365fin_md.md)] legge til brukeren i standardgruppen i [!INCLUDE[d365fin](includes/cds_long_md.md)]. Du kan bekrefte at brukerne er lagt til ved å se på kolonnen **Standard teammedlem** på **Brukere - Common Data Service**-siden. Hvis brukeren ikke er lagt til, kan du legge dem til manuelt ved å bruke handlingen **Legg til koblede brukere i Team**. Hvis du vil ha mer informasjon, kan du se [Synkronisere data i Business Central med Common Data Service](admin-synchronizing-business-central-and-sales.md).
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[d365fin](includes/cds_long_md.md)]](admin-common-data-service.md)

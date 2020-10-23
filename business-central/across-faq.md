@@ -4,15 +4,15 @@ description: Svarer på vanlige spørsmål om hvordan du registrerer deg for ell
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.keywords: FAQ, email, Office 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 07/21/2020
+ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 70bf35dccb071c379738c8e8054ed8490c262beb
-ms.sourcegitcommit: bdb6d18d512aa76d8d4f477d73ccfb284b0047fc
+ms.openlocfilehash: 57e16c820da7879d92223050979b6f9c6a770644
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3611587"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918104"
 ---
 # <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
@@ -72,15 +72,15 @@ Hvis du prøver å registrere deg med en personlig e-postadresse, får du en mel
 
 Hvis du vil distribuere [!INCLUDE[d365fin](includes/d365fin_md.md)] lokalt, kan du bruke andre godkjenningsmetoder. Hvis du vil ha mer informasjon, kan du se [Distribusjon av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="do-i-have-to-buy-office-365"></a>Må jeg kjøpe Office 365?
-Nr. Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Office 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Office 365 [her](https://products.office.com/try).  
+## <a name="do-i-have-to-buy-microsoft-365"></a>Må jeg kjøpe Microsoft 365?
+Antall Hvis du vil oppleve [!INCLUDE[d365fin](includes/d365fin_md.md)] som fullstendig integrert med Microsoft 365, kan du imidlertid registrere deg for en 1 måned gratis prøveversjon av Microsoft 365 [her](https://products.office.com/try).  
 
-Hvis kontoen du registrerer deg med, er en ikke-Office 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Office 365-abonnement, kan du knytte domenet (*mysolution.com*) til Office 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Office 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
+Hvis kontoen du registrerer deg med, er en ikke-Microsoft 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte domenet (*mysolution.com*) til Microsoft 365-abonnementet. Hvis du vil ha mer informasjon, se [Få hjelp med Microsoft 365-domener](/office365/admin/get-help-with-domains/get-help-with-domains?view=o365-worldwide).  
 
-Hvis du ikke har et Office 365-abonnement, og du ikke vil kjøpe et, vil vil, når du registrerer deg, klargjøre vi en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
+Hvis du ikke har et Microsoft 365-abonnement, og du ikke vil kjøpe et, vil vi, når du registrerer deg, klargjøre en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
 
-## <a name="what-is-the-integration-with-office-365-about"></a>Hvordan fungerer integreringen med Office 365?
-[!INCLUDE[d365fin](includes/d365fin_md.md)] online er fullstendig integrert med Office 365, slik at du kan navigere fritt mellom Office 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
+## <a name="what-is-the-integration-with-microsoft-365-about"></a>Hvordan fungerer integreringen med Microsoft 365?
+[!INCLUDE[d365fin](includes/d365fin_md.md)] online er fullstendig integrert med Microsoft 365, slik at du kan navigere fritt mellom Microsoft 365-apper og [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av appstarteren. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
 
 ## <a name="can-i-extend-my-30-day-new-company-trial-period"></a>Kan jeg utvide min 30-dagers Nytt selskap-prøveperiode?
 Ja. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen. Du kan utvide prøveperioden én gang selv. Etterpå kan en Microsoft-partner utvide det i ytterligere i 30 dager. Hvis du vil ha mer informasjon, se [Utvide prøveversjonen](admin-extend-trial.md).
@@ -97,7 +97,7 @@ Dette er litt komplisert, men det ser ut som administratoren ikke endret din til
 Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[d365fin](includes/d365fin_md.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan jeg bruke godkjenning med flere faktorer?
-Klart det. Hvis du gjør det, trenger du kanskje et apppassord for å sende e-postmeldinger. Apppassordene gi en app eller enhet tilgang til e-kontoen din. Trinnene for å få et apppassord varierer avhengig av leverandøren av e-post. Hvis du vil ha mer informasjon, ser du hjelpen fra leverandøren. Hvis du for eksempel bruker Outlook, se [Opprette et apppassord for Office 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Klart det. Hvis du gjør det, trenger du kanskje et apppassord for å sende e-postmeldinger. Apppassordene gi en app eller enhet tilgang til e-kontoen din. Trinnene for å få et apppassord varierer avhengig av leverandøren av e-post. Hvis du vil ha mer informasjon, ser du hjelpen fra leverandøren. Hvis du for eksempel bruker Outlook, se [Opprette et appassord for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvordan finner jeg en partner for videresalg?
 

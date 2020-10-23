@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c1742447287273a1661ccb87056ca93abbbab76b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a9cdea97b9753adbbe8128b674dc4161178bc6f8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787574"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917429"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetaljer: Varesporingsutforming
 I den første versjonen av varesporing i [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 ble serie- eller partinumre registrert direkte på vareposter. Denne utformingen ga fullstendig tilgjengelighetsinformasjon og enkel sporing av historiske poster, men den manglet fleksibilitet og funksjonalitet.  

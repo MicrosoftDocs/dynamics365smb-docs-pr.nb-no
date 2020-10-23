@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03b80cc7dd0ae37ba06f453e07bf585a4728039d
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 4d8ce273a2db6c682a205c767e28aee3792ea14b
+ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782271"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968308"
 ---
 # <a name="assembly-management"></a>Monteringsstyring
 For å kunne støtte selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, har [!INCLUDE[d365fin](includes/d365fin_md.md)] funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  
@@ -30,7 +30,7 @@ For å kunne støtte selskaper som leverer produkter til kundene ved å kombiner
 
  Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-antall. Når et montere-til-ordre-antall er klart til å leveres, bokfører den overordnede lagermedarbeideren en lagerplukking for den/de aktuelle ordrelinjen(e). Deretter blir det opprettet en lagerflytting for komponentene, og monteringsavgangen og ordreforsendelsen blir bokført. Hvis du vil ha mer informasjon, kan du se delen Håndtere montere-til-ordre-varer i lagerplukk i [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
+Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -48,10 +48,14 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
+[Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)  
+[Gjennomgang: Selge, montere og levere sett](walkthrough-selling-assembling-and-shipping-kits.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

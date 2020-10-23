@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03e24a4720963c40a17ad9734d22825dab852a41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3f71ac45e4d4b63e9087089d74d0c4e84e449ec6
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779027"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921342"
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  

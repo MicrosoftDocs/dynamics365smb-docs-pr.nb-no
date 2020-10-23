@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: efd92647db0ebca283fe4d424954981fb73815b7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919166"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlegge for nytt behov bestilling for bestilling
 Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.  

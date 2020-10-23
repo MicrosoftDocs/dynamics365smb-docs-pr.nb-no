@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 79b57454d0e4ac1bcdad9817b53f1b273e416658
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194166"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915063"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.

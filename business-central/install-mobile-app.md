@@ -8,17 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 558f457291b3e182444eeb78fab24fe80766e70b
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.openlocfilehash: a19c11e98c9b263c601e0e8f34fb24036126350f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693077"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910683"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
-Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
+Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Microsoft 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 

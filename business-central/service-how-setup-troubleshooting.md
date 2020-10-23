@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f9b92b0a884588e6cbf068d9d6e3a8d6d2ea87fc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea836775e8dc32107620d90d67fbf4a614c5d9b8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784487"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910232"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Definere feilsøking av servicevarer
 Du kan definere retningslinjer for feilsøking for teknikere som bidrar til å løse problemer ved service. Retningslinjene kan for eksempel være en oversikt over trinn for å utføre en reparasjon eller en serie med spørsmål å stille om varene. Når du har definert retningslinjene for feilsøking, kan du tilordne dem til servicevaregrupper, servicevarer eller varer. Det finnes et arvehierarki for retningslinjer. Hvis du tilordner dem til en servicevaregruppe, vil varene i gruppen arver retningslinjene med mindre du angir dem for varene. På samme måte arver servicevarer retningslinjene fra varer.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 07/06/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 296e150eec01e3aee4ec8ccc32b4bf5299b86d3e
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782071"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923823"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -92,12 +92,19 @@ Leverandørene vises nå på siden **Vare/leverandør-katalog**, som du åpner f
 
 ## <a name="deleting-item-cards"></a>Slette varekort
 
-Hvis du har bokført en transaksjon for en vare, kan du ikke slette kortet, fordi postene kan være nødvendige for å lagervurdering eller -revisjon. Hvis du vil slette varekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.
+Hvis du har bokført en transaksjon for en vare, kan du ikke slette kortet, fordi postene kan være nødvendige for å lagervurdering eller -revisjon. Hvis du vil slette varekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
+
+## <a name="manage-inventory-in-warehouses"></a>Håndtere lager på lagre
+
+Når du registrerer en ny vare, vil du se felt som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prodshort](includes/prodshort.md)], kan du ignorere disse feltene.  
+
+Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller gå tilbake til hver eksisterende vare for å være sikker på at den har de riktige opplysningene i de ulike feltene, slik at lagerprosessene kan kjøres som forventet. Denne informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
 ## <a name="see-also"></a>Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Definere enheter](inventory-how-setup-units-of-measure.md)  
+[Tariffnumre](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Opprette nummerserier](ui-create-number-series.md)  
 [Definere bokføringsgrupper](finance-posting-groups.md)  

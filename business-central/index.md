@@ -7,14 +7,14 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbf101e5bd56069792c2f1d7ddb7d242394ea5ae
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 2b34e29f13cf569d4bee7040f89402712785a525
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528063"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922947"
 ---
 # <a name="welcome-to-d365fin_long"></a>Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
 
@@ -22,12 +22,14 @@ ms.locfileid: "3528063"
 
 Hvis du allerede har [!INCLUDE[prodshort](includes/prodshort.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke kan du [starte en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Hvis du vil ha mer informasjon om hvordan du registrerer deg for [!INCLUDE[prodshort](includes/prodshort.md)], kan du se [Komme i gang med [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](product-get-started.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] er rask å implementere, enkel å konfigurere og enkelhet har vært veiledende for nyskaping innenfor utforming, utvikling og implementering av produkter samt brukervennligheten til dem. I navigasjonsruten til venstre kan du finne informasjon om bruk av [!INCLUDE[d365fin](includes/d365fin_md.md)] i selskapet. Det finnes også noen viktige artikler i den første delen av tabellen nedenfor. Hvis du er en partner eller kunde som ser på muligheter for å utvide funksjonaliteten, finner du relevante koblinger i delen **Innhold for utviklere og IT-eksperter**.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] er rask å implementere, enkel å konfigurere og enkelhet har vært veiledende for nyskaping innenfor utforming, utvikling og implementering av produkter samt brukervennligheten til dem. I navigasjonsruten til venstre kan du finne informasjon om bruk av [!INCLUDE[d365fin](includes/d365fin_md.md)] i selskapet.  
+
+Det finnes også noen viktige artikler i den første delen av tabellen nedenfor. Hvis du er en partner eller kunde som ser på muligheter for å utvide funksjonaliteten, finner du relevante koblinger i delen **Innhold for utvikling og administrasjon**. Hvis [!INCLUDE [prodshort](includes/prodshort.md)] er nytt for deg, anbefaler vi at du starter med [Kom i gang med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/)-læringsforløpet på Microsoft Learn.  
 
 |||  
 |-|-|  
-|**Forretningsprosesser**|-   [Komme i gang](product-get-started.md)<br />-   [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administrasjon](admin-setup-and-administration.md)<br />-   [Forretningsfunksjoner](across-business-functionality.md)<br />-   [Lokal funksjonalitet](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Generelle forretningsfunksjoner](ui-across-business-areas.md)<br />-   [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)<br />-   [Detaljer for utforming av programmet](design-details-application-design.md)|  
-|**Innhold for utviklere og IT-eksperter**|-   [Hjelp for utviklere og IT-eksperter for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Utvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-utviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Forretningsprosesser**|-   [Komme i gang](product-get-started.md)<br />-   [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)<br />-   [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)<br />-   [Administrasjon](admin-setup-and-administration.md)<br />-   [Forretningsfunksjoner](across-business-functionality.md)<br />-   [Lokal funksjonalitet](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Generelle forretningsfunksjoner](ui-across-business-areas.md)<br />-   [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)<br />-   [Detaljer for utforming av programmet](design-details-application-design.md)<br />- [Tilpasse Business Central](ui-customizing-overview.md)|  
+|**Innhold for utvikling og administrasjon**|-   [Utvikling og administrasjon for [!INCLUDE[prodshort](includes/prodshort.md)] ](/dynamics365/business-central/dev-itpro/index)<br />-   [Utvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-utviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
 |**Grupperessurser**|-   [Microsoft Dynamics 365 Business Central-gruppe](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365-utgivelsesplaner](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central-veikart](https://dynamics.microsoft.com/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(krever PartnerSource-konto\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 > [!TIP]

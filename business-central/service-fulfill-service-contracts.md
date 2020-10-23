@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 57e10efcd6ec5a2ed54df2bdaa4f2a647a1e981c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 27bdbb3fffab0e946dabdbdfe5fd2172895ac4ad
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194718"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910358"
 ---
 # <a name="fulfilling-service-contracts"></a>Oppfylle servicekontrakter 
 Én måte å sette opp en servicevirksomhet på er å ha standardavtaler mellom virksomheten og kundene som beskriver servicenivået og forventningene til servicen. Du kan opprette kontraktmaler som inneholder nødvendige opplysninger, for eksempel kunde, startdato for kontrakten og fakturaperiode.  

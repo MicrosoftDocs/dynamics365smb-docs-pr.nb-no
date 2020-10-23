@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 82b5f3ec52be27c4fbe60a6a63a0cfc5f6f1bd7c
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: db8b05aa74583d8ba74fcfeb8fae1d3c28893fac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196546"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922395"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Feilsøke synkroniseringsfeil
 Mange bevegelige deler er involvert i integrasjon av [!INCLUDE[d365fin](includes/d365fin_md.md)] med Common Data Service, og noen ganger går det galt. I dette emnet omtales noen av de typiske feilene som oppstår, og det oppgis noen punkter for hvordan de skal løses.
@@ -50,6 +50,9 @@ Feilmeldingen om konflikt "Kan ikke oppdatere kundeposten fordi den har en sener
 Konflikten oppstår fordi målposten også ble endret – posttidsstemplet er nyere enn tidsstempelet for salgsintegrasjonsposten. Målkontrollen skjer bare for toveis tabeller. 
 
 Disse postene flyttes nå til siden "Hoppet over synkroniserte poster", som du åpner fra siden Tilkoblingsoppsett for Microsoft Dynamics i Business Central. Der kan du angi endringene du vil beholde, og deretter synkronisere postene på nytt.
+
+## <a name="remove-couplings-between-records"></a>Fjerne koblinger mellom poster
+Når noe går galt i integrasjonen din, og du må frakoble poster for å stoppe synkroniseringen av dem, kan du gjøre det for én eller flere poster om gangen. På siden **Tilordninger for integreringstabell** kan du velge **Frakobling**, og deretter **Slett kobling**. På siden **Feil ved synkronisering av koblede data** kan du også velge feilene og deretter velge **Fjern koblinger**. 
 
 ## <a name="see-also"></a>Se også
 [Integrere med Common Data Service](admin-prepare-dynamics-365-for-sales-for-integration.md)  

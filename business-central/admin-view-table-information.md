@@ -1,19 +1,20 @@
 ---
 title: Vis Tabellinformasjon
+description: Lær hvordan du kan vise informasjon om databasetabellene rett fra klientgrensesnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.openlocfilehash: 72e220aa310515c665ce85bd43f4ebd3aac157d0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275321"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922270"
 ---
 # <a name="viewing-table-information"></a>Vise Tabellinformasjon
 
@@ -33,7 +34,7 @@ Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 |Tabellnavn|Navnet på tabellen.|
 |Tabellnr.|ID-en for tabellen|
 |Antall poster|Totalt antall poster lagret i tabellen.|
-|Poststørrelse|Gjennomsnittlig poststørrelse i kB/post. Verdien beregnes ved å bruke følgende formel: 1024(størrelse)/(antall poster). |
+|Poststørrelse|Gjennomsnittlig poststørrelse i kB/post. Verdien beregnes ved hjelp av følgende formel: 1024 (størrelse)/(antall poster). |
 
 ## <a name="see-also"></a>Se også
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 163c1522fce412e1877aa63dad914ca0a75c661e
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528415"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927150"
 ---
 # <a name="unsubscribe-or-remove-prodshort"></a>Avbryte eller fjerne [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -25,13 +25,13 @@ Hvis du vil slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du 
 
 Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen til enhver tid. Vi anbefaler at du eksporterer dataene før du lukker kontoen. 
 
-Du må be Office 365-systemansvarlig om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/) 
+Du må be Microsoft 365-systemansvarlig om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/). 
 
-Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Office 365-bedriftskonto, har du ikke en Office 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
+Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-office-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Office 365-opplevelsen
+## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Microsoft 365-opplevelsen
 
-Hvis selskapet abonnerer på [!INCLUDE[prodshort](includes/prodshort.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensen fra din Office 365-brukerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
+Hvis selskapet abonnerer på [!INCLUDE[prodshort](includes/prodshort.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensen fra din Microsoft 365-brukerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
 
 Hvis selskapet vil slutte å abonnere på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365-partneren for videresalg fjerne abonnementet fra selskapets konto. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innholdet for utviklere og IT-eksperter.  
 

@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410750"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970467"
 ---
 # <a name="finance"></a>Finans
 [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
@@ -54,7 +54,12 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Overvåke kontantstrømmen inn og ut av bedriften din. |[Analysere kontantstrømmer i firmaet](finance-analyze-cash-flow.md) |
 |Følg en ende-til-ende-fremgangsmåte for å bruke kontoskjemaer til å lage kontantstrømprognoser.|[Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeid med årsregnskap og økonomiske oversikter i Excel. |[Analysere årsregnskap i Excel](finance-analyze-excel.md) |
-|Lær hvordan du bruker rollesenteret for regnskapsførere, inviter en ekstern regnskapsfører, og bruk Accountant Hub til å håndtere konti for flere klienter.|[Regnskapsføreropplevelser i Business Central](finance-accounting.md)|  
+|Lær hvordan du bruker rollesenteret for regnskapsførere, inviter en ekstern regnskapsfører, og bruk selskapshuben til å håndtere konti for flere klienter.|[Regnskapsføreropplevelser i Business Central](finance-accounting.md)|  
+
+## <a name="take-a-video-tour"></a>Få en videoinnføring
+Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><br>  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se også
 [Konfigurere finans](finance-setup-finance.md)  

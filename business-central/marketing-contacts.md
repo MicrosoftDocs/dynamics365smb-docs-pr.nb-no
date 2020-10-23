@@ -1,8 +1,6 @@
 ---
 title: Opprette og administrere firmakontakter | Microsoft-dokumentasjon
 description: Du kan definere alle de eksterne enhetene du har et forretningsforhold til (for eksempel prospekter, kunder, leverandører og konsulenter), som kontakter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,17 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e1c951a3eb0a8b519ac5c0f7c5112cb40272219
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ea0bf893088694115e5cb54f2b9500bb4eacf6ac
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779264"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922771"
 ---
 # <a name="managing-contacts"></a>Administrere kontakter
+
 Ansatte i selskapet møter regelmessig potensielle forretningsrelasjoner som kan utvikle seg til formelle relasjoner. Alle slike eksterne kontakter og deres detaljerte opplysninger bør registreres i systemet, slik at kommunikasjonen blir mer vellykket, og slik at de kan lett å konverteres til formelle kunde-, leverandør- eller bankforhold.
+
+Bruk **Kontakter**-listen til å behandle kontaktene. Derfra kan du opprette salgsmuligheter og håndtere andre samhandlinger med enkeltkontakter. Du kan også se statistikk for en kontakt, og du kan få tilgang til en rekke rapporter. Se [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md) hvis du vil ha mer informasjon om hvordan du finner den riktige kontakten i listen.  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 
@@ -32,5 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Løs forvirring når det finnes to eller flere poster for samme kontakt.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Se også
+
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
+[Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  
 [Arbeide med Business Central](ui-work-product.md)  

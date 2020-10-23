@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 04/01/2020
-ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.openlocfilehash: 8d26a8a2f6ec5ffe17f38d5dc429e50efe08ea7e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187415"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911633"
 ---
 # <a name="classifying-data-sensitivity"></a>Klassifisere datasensitivitet
 Hvis du vil klassifisere feltene som inneholder sensitive opplysninger eller personopplysninger, kan en Microsoft-partner angi ```DataClassification```-egenskapen for felt. Dette krever tilgang til databasetabellene via utviklingsmiljø eller ved å kjøre et Windows PowerShell-skript. Hvis du vil ha mer informasjon, kan du se [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/16/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8c055dcca0c529ff62e32efa00bff359466aaba
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf310ff190682b22ffe81d0ad3072b3bdc8803b7
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779814"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921075"
 ---
 # <a name="set-up-bank-accounts"></a>Opprette bankkonti
 Du bruker bankkonti i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å holde orden på banktransaksjonene dine. Konti kan utstedes i norske kroner eller i fremmed valuta. Når du har opprettet bankkonti, kan du bruke mulighetene for utskriving av sjekker (gjelder ikke Norge).<br><br>  
@@ -46,7 +46,7 @@ Felt i hurtigfanen **Overføring** på siden **Leverandørs bankkort** er relate
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en leverandør med en bankkonto som du vil eksportere betalingsbankfiler til.
-3. Velg handlingen **Naviger** og deretter **Bankkontoer**.
+3. Velg **Bankkonti**-handlingen.
 4. Fra **listen over bankkonti for leverandør** velger eller legger du til den aktuelle bankkontoen eller legget til en ny bankkonto.  
 5. På siden **Leverandørs bankkort**, i hurtigfanen **Overføring**, fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

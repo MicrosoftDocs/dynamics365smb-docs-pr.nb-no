@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 78993c655ff4912e212588269f897a39e8441924
-ms.sourcegitcommit: f9aec4a72172d9270e14e2938c5550d69508f1aa
+ms.openlocfilehash: 0af6881b98aae103a6d37ce16b06dfb316c4a9f0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3532622"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911533"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Trenger mer tid til å avgjøre om du vil abonnere?
 
@@ -29,7 +29,7 @@ Men utvidelse av prøveperioden kan bare gjøres én gang. Du kan ikke utvide to
 
     Logg på med e-postkontoen du brukte da du registrerte deg for prøveversjonen.  
 
-    Hvis du registrerte deg for en e-postkonto fra en [30-dagers prøveversjon av Office 365](/microsoft-365/commerce/sign-up-for-office-365-trial), må du først utvide prøveversjonen av Office 365 eller kjøpe et Office 365-abonnement. Hvis du vil ha mer informasjon, kan du se [Utvide prøveversjonen av Office 365 for bedrifter](/microsoft-365/commerce/extend-your-trial).
+    Hvis du registrerte deg for en e-postkonto fra en [30-dagers prøveversjon av Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), må du først utvide prøveversjonen av Microsoft 365 eller kjøpe et Microsoft 365-abonnement. Hvis du vil ha mer informasjon, kan du se [Utvide prøveversjonen av Microsoft 365 for bedrifter](/microsoft-365/commerce/extend-your-trial).
 2. Velg varselet øverst i arbeidsområdet, og velg **Forleng prøveperiode**.
 
     Hvis du forkastet varslingen, må du logge av og deretter på igjen.

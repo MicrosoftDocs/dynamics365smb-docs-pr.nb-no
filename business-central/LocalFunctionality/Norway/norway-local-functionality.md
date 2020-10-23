@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6d7447db84c025c2d1d0c45ad28496eea0bad10e
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: 3eca008826427c4d1a7dfd8949374cb3c8fa5b78
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454350"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921344"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 

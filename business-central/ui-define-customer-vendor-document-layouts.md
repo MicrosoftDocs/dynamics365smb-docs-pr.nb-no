@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 603a4bc69accd326ec7cc2540efe39ba7660fdca
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 6b517c9b34d7046e8a4aae49f0392edf28cf4341
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782371"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912549"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definere dokumentoppsett for kunder og leverandører
 Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for ulike typer dokumenter du oppretter for den aktuelle kunden eller leverandøren. Verdien i feltet **Bruk** definerer hvilken prosess dokumentoppsettet skal brukes til, for eksempel **Purring**, **Levering** og **Bekreftelse**.

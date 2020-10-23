@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a1e2e8ceee41c2c6ed517d000fc7c3a4a6aa274c
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: e339033e8529f59f548e8bf71fd683f9a2a17eba
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697675"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917879"
 ---
 # <a name="prodshort-and-power-bi"></a>[!INCLUDE[prodshort](includes/prodshort.md)] og Power BI
 
@@ -31,10 +31,10 @@ Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prodshort](includes/pro
 
 |Funksjon|Beskrivelse|Online|Lokalt|Mer informasjon|
 |-------|-----------|--------------|-----------|----------------|
-|Vis [!INCLUDE[prodshort](includes/prodshort.md)] data i Power BI.|Du kan vise dataene fra [!INCLUDE[prodshort](includes/prodshort.md)] i rapporter i Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] Online omfatter noen forhåndsdefinerte Power BI-rapporter. Det kan også hende at organisasjonen har gjort enkelte egendefinerte rapporter tilgjengelige for deg.|![avmerking](media/check.png)|![avmerking](media/check.png)|[Se ...](across-working-with-powerbi.md)|
-|Vis Power BI-rapporter i [!INCLUDE[prodshort](includes/prodshort.md)]-klienten.| Power BI-rapporter som viser [!INCLUDE[prodshort](includes/prodshort.md)]-data, kan bygges inn direkte i deler på [!INCLUDE[prodshort](includes/prodshort.md)]-sider. Du kan bytte del for å vise enhver rapport som er gjort tilgjengelig for deg. |![avmerking](media/check.png)|![avmerking](media/check.png)<sup>[*](#onprem)</sup>|[Se ...](across-working-with-business-central-in-powerbi.md)|
-|Opprett rapporter og instrumentbord i Power BI som viser [!INCLUDE[prodshort](includes/prodshort.md)]-dataene.|Bruk Power BI Desktop til å opprette egne rapporter og instrumentbord. Du kan publisere rapportene til din egen Power BI-tjeneste eller dele dem med andre i organisasjonen.|![avmerking](media/check.png)|![avmerking](media/check.png)|[Se ...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prodshort](includes/prodshort.md)]-apper i Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publiserer tre apper for Power BI på Microsoft AppSource. Disse appene oppretter detaljerte rapporter og instrumentbord i Power BI-tjenesten for å vise [!INCLUDE[prodshort](includes/prodshort.md)]-data. Tilgjengelige apper omfatter følgende: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![avmerking](media/check.png)||[Se ...](across-powerbi-business-central-apps.md)
+|Vis [!INCLUDE[prodshort](includes/prodshort.md)] data i Power BI.|Du kan vise dataene fra [!INCLUDE[prodshort](includes/prodshort.md)] i rapporter i Power BI. [!INCLUDE[prodshort](includes/prodshort.md)] Online omfatter noen forhåndsdefinerte Power BI-rapporter. Det kan også hende at organisasjonen har gjort enkelte egendefinerte rapporter tilgjengelige for deg.|![Fungerer online](media/check.png)|![Fungerer lokalt](media/check.png)|[Se ...](across-working-with-powerbi.md)|
+|Vis Power BI-rapporter i [!INCLUDE[prodshort](includes/prodshort.md)]-klienten.| Power BI-rapporter som viser [!INCLUDE[prodshort](includes/prodshort.md)]-data, kan bygges inn direkte i deler på [!INCLUDE[prodshort](includes/prodshort.md)]-sider. Du kan bytte del for å vise enhver rapport som er gjort tilgjengelig for deg. |![fungerer online](media/check.png)|![Fungerer lokalt](media/check.png)<sup>[*](#onprem)</sup>|[Se ...](across-working-with-business-central-in-powerbi.md)|
+|Opprett rapporter og instrumentbord i Power BI som viser [!INCLUDE[prodshort](includes/prodshort.md)]-dataene.|Bruk Power BI Desktop til å opprette egne rapporter og instrumentbord. Du kan publisere rapportene til din egen Power BI-tjeneste eller dele dem med andre i organisasjonen.|![Fungerer online](media/check.png)|![fungerer lokalt](media/check.png)|[Se ...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prodshort](includes/prodshort.md)]-apper i Power BI| [!INCLUDE[prodshort](includes/prodshort.md)] publiserer tre apper for Power BI på Microsoft AppSource. Disse appene oppretter detaljerte rapporter og instrumentbord i Power BI-tjenesten for å vise [!INCLUDE[prodshort](includes/prodshort.md)]-data. Tilgjengelige apper omfatter følgende: <ul><li>[!INCLUDE [prodlong](includes/prodlong.md)] – CRM </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Finance </li><li>[!INCLUDE [prodlong](includes/prodlong.md)] – Sales </li></ul>  |![Fungerer online](media/check.png)||[Se ...](across-powerbi-business-central-apps.md)
 
 <a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrere Business Central lokalt i Azure AD for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 

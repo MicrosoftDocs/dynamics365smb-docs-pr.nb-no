@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 35819d7db3e22059738c6738d998319d0eb6691c
-ms.sourcegitcommit: 89d0ea903f61ab0628f99329c762d9f1619c49a7
+ms.openlocfilehash: df34469bc28b081800ddf583e7aa9cf08a15dc27
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "3577231"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925650"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 
@@ -24,7 +24,7 @@ Denne artikkelen beskriver hvordan administratorer kan opprette brukere og defin
 Når du oppretter brukere i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du tilordne bestemte tillatelser til dem via tillatelsessett og organisere brukere i brukergrupper. Brukergrupper gjør det enklere å behandle tillatelser for flere brukere samtidig. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Prosessen med å behandle brukere og lisenser varierer avhengig av om [!INCLUDE[d365fin](includes/d365fin_md.md)] er distribuert elektronisk eller lokalt. For [!INCLUDE [prodshort](includes/prodshort.md)] online må du legge til brukere fra Office 365. I lokale distribusjoner kan du opprette, redigere og slette brukere direkte.  
+> Prosessen med å behandle brukere og lisenser varierer avhengig av om [!INCLUDE[d365fin](includes/d365fin_md.md)] er distribuert elektronisk eller lokalt. For [!INCLUDE [prodshort](includes/prodshort.md)] online må du legge til brukere fra Microsoft 365. I lokale distribusjoner kan du opprette, redigere og slette brukere direkte.  
 
 ## <a name="managing-users-and-licenses-in-online-deployments"></a>Behandle brukere og lisenser i nettdistribusjoner
 
@@ -32,12 +32,12 @@ I den nettbaserte versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er an
 
 Hvis du vil definere hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)], må du tilordne produktlisenser til brukere i henhold til de rollene de skal utføre i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette kan gjøres på følgende måter:
 
-- Selskapets Office 365-administrator kan gjøre dette i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com). Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Office 365](https://aka.ms/CreateOffice365Users).  
+- Selskapets Microsoft 365-administrator kan gjøre dette i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com). Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Microsoft 365](https://aka.ms/CreateOffice365Users).  
 - En Microsoft-partner kan tilordne lisenser i administrasjonssenteret for Microsoft 365 eller i Microsoft Partner Center. Hvis du vil ha mer informasjon, se [Brukerbehandlingoppgaver for kundekonti](/partner-center/assign-licenses-to-users) i hjelpen for Microsoft Partner Center.
 
 Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i hjelpen for administrasjon.
 
-Når brukere får tilordnet en [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisens i Office 365, kan du importere dem til **Brukere**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke handlingen **Hent nye brukere fra Office 365**.
+Når brukere får tilordnet en [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisens i Microsoft 365, kan du importere dem til **Brukere**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke handlingen **Hent nye brukere fra Office 365**.
 
 ### <a name="to-add-a-user-or-update-user-information-in-business-central"></a><a name="adduser"></a>Slik legger du til en bruker eller oppdaterer brukerinformasjon i Business Central
 
@@ -46,12 +46,12 @@ Bruk dedikerte importfunksjoner til å legge til nye brukere eller oppdatere bru
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Oppdater brukere fra Office 365**.
 
-    Hvis dette er første gang du legger til brukere fra Office 365, velger du handlingen **Hent nye brukere fra Office 365**.  
+    Hvis dette er første gang du legger til brukere fra Microsoft 365, velger du handlingen **Hent nye brukere fra Office 365**.  
 3. Følg fremgangsmåten i veiledningen som vises.
 
-De nye brukerne og brukerinformasjonen i Office 365-abonnementet legges til på **Brukere**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nå kan du tilordne brukergrupper og tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
+De nye brukerne og brukerinformasjonen i Microsoft 365-abonnementet legges til på **Brukere**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Nå kan du tilordne brukergrupper og tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
-Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Office 365, kan du se delen [Synkronisering med Office 365](#synchronization-with-office-365).
+Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Microsoft 365, kan du se delen [Synkronisering med Microsoft 365](#m365).
 
 > [!NOTE]
 > Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til Business Central, slik at vedkommende kan arbeide med regnskapsdataene. Hvis du vil ha mer informasjon, kan du se [Invitere den eksterne regnskapsføreren til Business Central](finance-accounting.md#inviteaccountant)
@@ -60,7 +60,7 @@ Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Office 3
 
 Noen ganger kan det hende du må endre lisensen som er tilordnet en bruker. Hvis du for eksempel bestemmer deg for å bruke Servicehåndtering-modulen og derfor må oppgradere alle Essential-lisenser til Premium. Eller hvis en brukers ansvar er endret, og du må erstatte en Team Member-lisens til Essential.
 
-1. Endre lisensen i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Office 365](https://aka.ms/CreateOffice365Users).
+1. Endre lisensen i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Microsoft 365](https://aka.ms/CreateOffice365Users).
 2. Logg på [!INCLUDE[d365fin](includes/d365fin_md.md)] som administrator.
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
 4. På siden **Brukere** velger du handlingen **Gjenopprett brukerens standardbrukergrupper**.
@@ -80,30 +80,30 @@ I nettbaserte distribusjoner kan du fjerne en brukers tilgang til [!INCLUDE[d365
 
 Du kan også fjerne lisensen fra en bruker i administrasjonssenteret for Microsoft 365. Brukeren kan da ikke logge på. Hvis du vil ha mer informasjon, kan du se [Fjerne lisenser fra brukere](https://docs.microsoft.com/office365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-office-365"></a>Synkronisere med Office 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synkronisering med Microsoft 365
 
-Når du tilordner en lisens for [!INCLUDE[d365fin](includes/d365fin_md.md)] til en bruker i Office 365, kan du opprette brukeren i [!INCLUDE[d365fin](includes/d365fin_md.md)] på to måter.  
+Når du tilordner en lisens for [!INCLUDE[d365fin](includes/d365fin_md.md)] til en bruker i Microsoft 365, kan du opprette brukeren i [!INCLUDE[d365fin](includes/d365fin_md.md)] på to måter.  
 
 - Administratoren kan legge til brukeren ved å velge **Oppdater brukere fra Office 365**-handlingen på **Brukere**-siden som beskrevet i delen [Slik legger du til en bruker eller oppdaterer brukerinformasjon i Business Central](#adduser).
 - Lisensinformasjonen blir oppdatert automatisk når brukeren logger på første gang.
 
 I begge tilfeller utføres det en rekke innstillinger automatisk. Disse er oppført i andre og tredje kolonne i tabellen nedenfor.
 
-Hvis du endrer brukerinformasjon i Office 365, kan du oppdatere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å gjenspeile endringen. Avhengig av hva du vil oppdatere, kan du bruke én av handlingene på **Brukere**-siden. Handlingene beskrives i de tre siste kolonnene i tabellen nedenfor.
+Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å gjenspeile endringen. Avhengig av hva du vil oppdatere, kan du bruke én av handlingene på **Brukere**-siden. Handlingene beskrives i de tre siste kolonnene i tabellen nedenfor.
 
-|Hva skjer når:|Første bruker, første pålogging|Hent brukere fra Office Office 365|Oppdater brukere fra Office 365|Gjenopprett brukerens standardbrukergrupper|Oppdater brukergrupper|
+|Hva skjer når:|Første bruker, første pålogging|Hent brukere fra Microsoft 365|Oppdater brukere fra Microsoft 365|Gjenopprett brukerens standardbrukergrupper|Oppdater brukergrupper|
 |-|-|-|-|-|-|
-|Omfang:|Gjeldende bruker|Nye brukere i Office 365|Flere valgte brukere|Enkeltvalgt bruker (bortsett fra gjeldende)|Flere valgte brukere|
+|Omfang:|Gjeldende bruker|Nye brukere i Microsoft 365|Flere valgte brukere|Enkeltvalgt bruker (bortsett fra gjeldende)|Flere valgte brukere|
 |Opprett den nye brukeren, og tilordne SUPER-tillatelsessett.<br /><br /><!--Platform-->|**X**|| | | |
-|Oppdater brukerposten basert på faktisk informasjon i Office 365: status, fullt navn, kontaktens e-post, godkjennings-e-post.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**| |
-|Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Office 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**| |**X**|**X**|
+|Oppdater brukerposten basert på faktisk informasjon i Microsoft 365: status, fullt navn, kontaktens e-post, godkjennings-e-post.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**| |
+|Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**| |**X**|**X**|
 |Legg til brukeren i brukergrupper i henhold til gjeldende brukerplaner. Fjern tillatelsessettet SUPER for alle andre brukere enn den første brukeren som skal logge på, samt [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Det må være minst en forekomst av tillatelsessettet SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**| |**X**<br /><br />Fjerner manuelt tilordnede brukergrupper og tillatelser.|**X**<br /><br />Oppdater brukergruppetilordninger.|
 
 ## <a name="the-device-license"></a>Enhetslisensen
 
 Enhetslisensen for Dynamics 365 Business Central tillater flere brukere å bruke en enhet som dekkes av lisensen samtidig. Dette kan for eksempel være et salgssted, et verksted eller en lagerenhet. Når du har kjøpt et antall enhetslisenser, kan opptil det antallet brukere som er tilordnet til gruppen Enhetsbrukere for Dynamics 365 Business Central, logge på samtidig. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/business-central/overview/)-nettstedet.
 
-Selskapets Office 365-administrator eller Microsoft-partner kan opprette gruppen Enhetsbrukere for Dynamics 365 Business Central og legge til enhetsbrukere som medlemmer i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com/) eller i [Azure Portal](https://portal.azure.com/).
+Selskapets Microsoft 365-administrator eller Microsoft-partner kan opprette gruppen Enhetsbrukere for Dynamics 365 Business Central og legge til enhetsbrukere som medlemmer i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com/) eller i [Azure Portal](https://portal.azure.com/).
 
 ### <a name="device-user-limitations"></a>Begrensninger for enhetsbrukere
 
@@ -125,7 +125,7 @@ Brukere med enhetslisensen kan ikke utføre følgende oppgaver i [!INCLUDE[d365f
 5. Velg **Lukk**-knappen.
 
 > [!NOTE]
-> Du kan også opprette en gruppe av typen Office 365. Hvis du vil ha mer informasjon, kan du se [Sammenligne grupper](https://docs.microsoft.com/office365/admin/create-groups/compare-groups).
+> Du kan også opprette en gruppe av typen Microsoft 365. Hvis du vil ha mer informasjon, kan du se [Sammenligne grupper](https://docs.microsoft.com/office365/admin/create-groups/compare-groups).
 
 ### <a name="to-add-members-to-the-group"></a>Slik legger du til medlemmer i gruppen
 
@@ -166,5 +166,5 @@ Ved distribusjon på stedet oppretter, redigerer og sletter administratoren bruk
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Administrasjon](admin-setup-and-administration.md)  
-[Legge til brukere i Office 365 for business](https://aka.ms/CreateOffice365Users)  
+[Legg til brukere i Microsoft 365 for bedrifter](https://aka.ms/CreateOffice365Users)  
 [Sikkerhet og beskyttelse i Business Central (administrasjonsinnhold)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  

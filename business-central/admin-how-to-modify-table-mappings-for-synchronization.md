@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
-ms.date: 04/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0b814c18c328ea0647e38b6a837577b277ca4e63
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 382328e88c828afbf4316eb1f9bab73f6a2b7f95
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527938"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911383"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilordne tabellene og feltene som skal synkroniseres
 Det grunnleggende for å synkronisere data i [!INCLUDE[d365fin](includes/d365fin_md.md)] med data i [!INCLUDE[d365fin](includes/cds_long_md.md)] er å tilordne tabellene og feltene som inneholder dataene, til hverandre. Tilordning skjer gjennom integrasjonstabeller. 
@@ -30,6 +30,17 @@ Når du oppretter tilkoblingen mellom appene, definerer [!INCLUDE[d365fin](inclu
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En integreringstabelltilordning inneholder også regler som styrer hvordan integrasjonssynkroniseringsjobber synkroniserer poster i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell og en enhet i [!INCLUDE[d365fin](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->
+
+### <a name="strategies-for-auto-resolving-conflicts"></a>Strategier for automatisk løsing av konflikter
+Det kan enkelt oppstå datakonflikter når forretningsapplikasjoner utveksler data fortløpende. Det kan for eksempel hende at noen sletter eller endrer en post i ett av programmene, eller begge deler. Hvis du vil redusere antall konflikter du må løse manuelt, kan du angi løsningsstrategier og [!INCLUDE[d365fin](includes/d365fin_md.md)] vil løse konflikter automatisk i henhold til reglene i strategiene.
+
+Integrasjonstabelltilordninger omfatter regler som styrer hvordan synkroniseringsjobber synkroniserer poster. På siden **Tilordning for integreringstabell** i kolonnene **Løs slettekonflikter** og **Løs oppdateringskonflikter** kan du angi hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] skal løse konflikter som oppstår fordi poster ble slettet i tabeller i én eller den andre forretningsapplikasjonen, eller oppdatert i begge. 
+
+I kolonnen **Løs slettekonflikter** kan du velge at [!INCLUDE[d365fin](includes/d365fin_md.md)] gjenoppretter automatisk slettede poster, fjerner koblingen mellom postene, eller ikke gjøre noe. Hvis du ikke gjør noe, må du løse konflikter manuelt. 
+
+I kolonnen **Løs oppdateringskonflikter** kan du velge at [!INCLUDE[d365fin](includes/d365fin_md.md)] sender en dataoppdatering automatisk til integreringstabellen når du sender data til [!INCLUDE[d365fin](includes/cds_long_md.md)], eller henter en dataoppdatering fra integreringstabellen ved henting av data fra [!INCLUDE[d365fin](includes/cds_long_md.md)], eller ikke gjøre noe. Hvis du ikke gjør noe, må du løse konflikter manuelt.
+
+Når du har angitt strategien, kan du velge handlingen **Prøv alle på nytt** på siden **Feil ved synkronisering av koblede data** for å løse konflikter automatisk. 
 
 ## <a name="mapping-integration-fields"></a>Tilordne integreringsfelt
 Tilordning av tabeller er bare det første trinnet. Du må også tilordne feltene i tabellene. Integreringsfelttilordninger kobler felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller med tilsvarende felt i [!INCLUDE[d365fin](includes/cds_long_md.md)], og avgjør om data skal synkroniseres i hver tabell. Standard tabelltilordning som [!INCLUDE[d365fin](includes/d365fin_md.md)] sørger for, inneholder felttilordninger, men du kan endre dem hvis du vil. Hvis du vil ha mer informasjon, kan du se [Vise enhetstilordninger](admin-synchronizing-business-central-and-sales.md#tip-for-admins-viewing-entity-mappings).

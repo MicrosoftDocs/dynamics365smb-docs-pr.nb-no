@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc25efa746e7dd3282159b13ecea66ec66ac5e82
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e4de0f59788bb49ebaead7a4ee2516ff32147eb
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785399"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912449"
 ---
 # <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[d365fin](includes/d365fin_md.md)] er utformet for å hjelpe deg med å drive bedriften din uavhengig av størrelse og kompleksitet. I kjernen av produktet finner du viktige funksjoner, for eksempel regnskapsrapporter, salg, kjøp og lagerstyring. Etter hvert som bedriftskompleksiteten øker, kan du f.eks. aktivere funksjonaliteten for produksjons- og servicestyring.
@@ -40,7 +40,7 @@ Før du definerer et selskapets opplevelsesinnstilling, definerer du brukernes t
 **Opplevelse**-innstillingen gjelder for alle brukerne i et selskap, men hver bruker kan tilpasse sin egen opplevelse ved å endre sideoppsett og innhold. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funksjoner etter oppgradering av en plan
-Brukere tilordnes til planer i Microsoft 365-administrasjonssenteret i forbindelse med det generelle arbeidet med å opprette Business Central-brukere. Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Office 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
+Brukere tilordnes til planer i Microsoft 365-administrasjonssenteret i forbindelse med det generelle arbeidet med å opprette Business Central-brukere. Hvis du vil ha mer informasjon, se [Legge til brukere individuelt eller gruppevis i Microsoft 365](https://support.office.com/article/Add-users-to-Office-365-for-business-435ccec3-09dd-4587-9ebd-2f3cad6bc2bc).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Slik oppdaterer du planendringer i brukergrupper
 Når du har endret brukerplaner i Microsoft 365-administrasjonssenteret, for eksempel tilordnet flere brukere til Premium-planen, må du gjenspeile endringen i [!INCLUDE[d365fin](includes/d365fin_md.md)].

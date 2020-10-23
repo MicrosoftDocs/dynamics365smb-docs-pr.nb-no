@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 88cf4dc7200fbaa6959a2e54c9cf2024f3da9dc4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c2b663208a1bed8522ea532efdb2dee0d519b646
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3782346"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3912524"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
@@ -253,5 +253,5 @@ Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og 
 [Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Administrasjon](admin-setup-and-administration.md)  
-[Legge til brukere i Office 365 for business](https://aka.ms/CreateOffice365Users)  
+[Legg til brukere i Microsoft 365 for bedrifter](https://aka.ms/CreateOffice365Users)  
 [Sikkerhet og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjelpen for utviklere og IT-eksperter

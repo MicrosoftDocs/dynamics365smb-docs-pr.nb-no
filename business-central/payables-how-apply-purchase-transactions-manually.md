@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e4fae5478cf872d280342de8ddc830f91aa68ec7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b981a0062c628f3ffe3b0de8eaf4c811a13632ec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786299"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916829"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter
 Når du sender en betaling eller mottar en refusjon fra en leverandør, må du bestemme om du vil utligne betalingen eller refundere til én eller flere åpne poster. Du kan angi det nøyaktige beløpet du vil utligne mot, kvitteringen eller refusjonen, og deretter bare delvis utligne leverandørposter. Du må utligne alle leverandørposter for å få riktig leverandørstatistikk og riktige rapporter av kontoutdrag og rentenotaer.

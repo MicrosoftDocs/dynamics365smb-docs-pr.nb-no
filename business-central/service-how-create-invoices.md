@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/20/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 66a32f8ecdc0ddd07794be9354edc75adf96df42
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 4cdc60905f03b5fab6ae43b8a5a99cda352e03c1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402528"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925836"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Opprette servicefakturaer eller kreditnotaer
 Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan også sette opp [!INCLUDE[prodshort](includes/prodshort.md)] slik at en servicetekniker ute hos kunden kan opprette en faktura for en tjeneste som ikke er knyttet til en kontrakt eller ordre. Du kan også sette opp [!INCLUDE[prodshort](includes/prodshort.md)] slik at du fakturerer servicekontrakter regelmessig. Fakturaperioden for hver enkelt kontrakt angir hvor ofte du fakturerer den.

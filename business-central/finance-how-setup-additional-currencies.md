@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0b5370b8babf000b1dc2f5b1980ada383788067
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3785749"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920550"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.

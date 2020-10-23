@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d867b9a0f16551641ab9e02efb546df8518aa1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ebaaa2593e7e0983246ad100482543a82ce4182a
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779514"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914738"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plukke for montering eller produksjon i avanserte lageroppsett
 I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter ved å bruke **Plukk**-siden.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 09/04/2020
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: da6e53a314438ef7ce5063febf8ece1d18c69f7b
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: a0e62b60f9624cad44efa7fd42c5840a2ecd07b5
+ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766094"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970363"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og avinstallere utvidelser i Business Central
 
@@ -48,29 +48,29 @@ Noen utvidelser leveres av Microsoft, og andre utvidelser leveres av [andre sels
 
 Microsoft tilbyr følgende utvidelser:
 
-* [Regnskapsførerportal for Business Central](ui-extensions-accountant-portal.md)  
-* [Ceridian lønn](ui-extensions-ceridian-payroll.md) 
-* [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md) 
-* [Viktig forretningsinnsikt](ui-extensions-essential-business-insights.md)   
-* [Bildeanalyse](ui-extensions-image-analyzer.md) 
-* [Intelligent sky](ui-extensions-data-replication.md)    
+* [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)
+* [Ceridian lønn](ui-extensions-ceridian-payroll.md)
+* [Selskapshub](ui-extensions-company-hub.md)  
+* [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)
+* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
+* [Viktig forretningsinnsikt](ui-extensions-essential-business-insights.md)
+* [Bildeanalyse](ui-extensions-image-analyzer.md)
+* [Intelligent sky](ui-extensions-data-replication.md)
 * [Intelligent skybase](ui-extensions-intelligent-cloud.md)  
-* [Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)  
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)  
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md) 
-* [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)   
-* [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md) 
-* [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md) 
-* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)   
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md) 
-* [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)    
-* [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)  
-* [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)  
-* [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md) 
-* [Storbritannia – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md) 
-* [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
+* [Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
+* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
+* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
+* [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)
+* [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)
+* [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
+* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
+* [Mva-gruppe](ui-extensions-vat-group.md)
+* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
+* [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
+* [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
+* [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)
+* [Storbritannia – GetAddress.io UK Postcodes](ui-extensions-getaddressio.md)
+* [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 
 ## <a name="uninstalling-an-extension"></a>Avinstallere en utvidelse
 
@@ -80,8 +80,8 @@ Du avinstallerer en utvidelse ved å bruke siden **Administrasjon av utvidelse**
 > Hvis du merker av for alternativet **Slett utvidelsesdata**, vises en bekreftelsesdialogboks der du må velge **OK**. Når det er merket av for **Slett utvidelsesdata**, kan du nå avinstallere utvidelsen. Du blir da bedt om å bekrefte på nytt at du vil avinstallere utvidelsen og slette dataene. Du kan ikke angre denne handlingen.
 Noen utvidelser er nødvendige. Du nektes å avinstallere disse fra siden for **Administrasjon av utvidelse**. Hvis du prøver, vises en feilmelding.  
 
-
 ## <a name="see-also"></a>Se også
+
 [Utvide Dynamics 365 Business Central](about-develop-extensions.md)  
 [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Sett opp Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)  

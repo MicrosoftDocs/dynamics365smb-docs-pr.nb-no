@@ -1,21 +1,21 @@
 ---
 title: Dele kontakter mellom Business Central og Outlook| Microsoft Docs
-description: Denne tjenesten er tett integrert med Office 365 slik at du kan dele kontakter mellom Outlook og Business Central.
+description: Denne tjenesten er tett integrert med Microsoft 365 slik at du kan dele kontakter mellom Outlook og Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contacts, Office 365
-ms.date: 04/01/2020
+ms.search.keywords: contacts, Microsoft 365
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f7cf42a003e68d68bf29a3623e9573f6e33eed4b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: c475f837d81f7b035e06ff29eef334fd974726cd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186623"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922495"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisere kontakter i Business Central med kontakter i Microsoft Outlook
 Du kan se de samme kontaktene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du ser i Outlook, hvis du definerer kontaktsynkronisering. Hvis for eksempel du er selger, gjør du kanskje noe arbeid i Outlook og noen av arbeidet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis kontaktene er de samme begge steder, er arbeidet mer enkelt.  
@@ -23,7 +23,7 @@ Du kan se de samme kontaktene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som 
 En egen mappe i Outlook gjør at kontakter er lette å finne, og du kan angi et filter for å synkronisere bare kontaktene fra [!INCLUDE[d365fin](includes/d365fin_md.md)] som du vil vise i Outlook. Når kontaktsynkroniseringen er definert, kan du starte synkroniseringen manuelt eller sette opp automatisk synkronisering som vil holde kontaktene synkronisert regelmessig.  
 
 ## <a name="set-up-synchronization"></a>Definere synkronisering
-Du definerer hvordan du vil synkronisere kontaktene med Outlook på siden **Konfigurasjon av Exchange-synkronisering** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det er en forutsetning at brukerprofilen din i [!INCLUDE[d365fin](includes/d365fin_md.md)] må angi din e-postkonto for Office 365. Du kan kontrollere dette i **Office 365-godkjenning**-delen av brukerprofilen din i **Brukere**-listen.  
+Du definerer hvordan du vil synkronisere kontaktene med Outlook på siden **Konfigurasjon av Exchange-synkronisering** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det er en forutsetning at brukerprofilen din i [!INCLUDE[d365fin](includes/d365fin_md.md)] må angi din e-postkonto for Microsoft 365. Du kan kontrollere dette i **Microsoft 365-godkjenning**-delen av brukerprofilen din i **Brukere**-listen.  
 
 Deretter på **Konfigurasjon av Exchange-synkronisering**-siden kan du validere at tilkoblingen til Exchange fungerer, og deretter definere kontaktsynkronisering. Åpne siden **Oppsett for synkronisering av kontakt**, og start synkroniseringen. Du kan også angi et filter for hvilke kontakter som skal synkroniseres mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og Outlook. Du kan for eksempel angi et filter på navn, type, selskap eller lignende. Du kan også endre standardnavnet på mappen som kontaktene skal synkroniseres til i Outlook. Standardnavnet er *Business Central*.  
 
@@ -38,13 +38,13 @@ I **Kontakter**-listen kan du synkronisere kontakter på to måter:
 
 * **Synkroniser med Office 365**
 
-  Denne handlingen synkroniserer alle endringer fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til Office 365 siden den forrige synkroniseringen, basert på dato med siste endring. Alle nye kontakter fra Office 365 synkroniseres tilbake til [!INCLUDE[d365fin](includes/d365fin_md.md)] også. Dette er vanligvis raskere enn å utføre en fullstendig synkronisering.  
+  Denne handlingen synkroniserer alle endringer fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til Microsoft 365 siden den forrige synkroniseringen, basert på dato med siste endring. Alle nye kontakter fra Microsoft 365 synkroniseres tilbake til [!INCLUDE[d365fin](includes/d365fin_md.md)] også. Dette er vanligvis raskere enn å utføre en fullstendig synkronisering.  
 
 * **Synkroniser fullstendig med Office 365**
 
   Denne handlingen synkroniserer alle kontaktene i begge retninger uavhengig av den siste synkroniseringsdatoen og datoen for siste endring.  
 
-I begge tilfeller synkroniseres bare kontakter fra Outlook hvis de har utfylt de obligatoriske feltene. Obligatoriske felt som skal synkroniseres til Office 365, er **Navn**, **E-postadresse** og de må være av typen Person. [!INCLUDE[d365fin](includes/d365fin_md.md)] er hovedtabellen for kontaktopplysningene, slik at [!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktinformasjonen lagres i tilfelle duplikater.  
+I begge tilfeller synkroniseres bare kontakter fra Outlook hvis de har utfylt de obligatoriske feltene. Obligatoriske felt som skal synkroniseres til Microsoft 365, er **Navn**, **E-postadresse** og de må være av typen Person. [!INCLUDE[d365fin](includes/d365fin_md.md)] er hovedtabellen for kontaktopplysningene, slik at [!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktinformasjonen lagres i tilfelle duplikater.  
 
 I Outlook vises kontaktene fra [!INCLUDE[d365fin](includes/d365fin_md.md)] i en mappe under **Andre kontakter** i **Personer**-visningen. Hvis du ikke kjenner til Personer-visningen i Outlook, kan få tilgang til den fra navigasjonsvalgene nederst til venstre i Outlook.  
 

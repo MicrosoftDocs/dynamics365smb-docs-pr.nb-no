@@ -5,15 +5,15 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186767"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917854"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
@@ -35,7 +35,7 @@ Tabellen nedenfor inneholder eksempler på ulike typer forespørsler du kan svar
 Et dataemne kan be om at du midlertidig stopper behandling av deres personopplysninger. Hvis du vil overholde slike forespørsler, kan du merke posten som blokkert på grunn av personvern for å stoppe behandling av opplysningene deres. Når en post er merket som blokkert, kan du ikke opprette nye transaksjoner som bruker denne posten. Du kan for eksempel ikke opprette en ny faktura for en kunde når kunden eller selgeren er blokkert. Hvis du vil merke et dataemne som blokkert, åpner du kortet for dataemnet, for eksempel kunde-, leverandør- eller kontaktkortet, og merker av for **Personvern sperret**. Du må kanskje velge **Vis mer** for å vise feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtere dataemneforespørsler ved prøveversjon
-Enkelte typer personopplysninger inngår i Office 365-kontoen og krever administratortilgang for å eksporteres hvis du får en dataemneforespørsel fra en bruker angående denne typen personopplysninger under EUs personvernforordning (GDPR). Prosessen for å håndtere dataemneforespørsler er forskjellig avhengig av typen [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker.  
+Enkelte typer personopplysninger inngår i Microsoft 365-kontoen og krever administratortilgang for å eksporteres hvis du får en dataemneforespørsel fra en bruker angående denne typen personopplysninger under EUs personvernforordning (GDPR). Prosessen for å håndtere dataemneforespørsler er forskjellig avhengig av typen [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker.  
 
 Hvis du har et betalt abonnement for [!INCLUDE[d365fin](includes/d365fin_md.md)], må du kontakte organisasjonens leietakeradministrator for å opprette en dataemneforespørsel. Administratoren har administrasjonsrettigheter og verktøy for å oppfylle forespørselen.  
 

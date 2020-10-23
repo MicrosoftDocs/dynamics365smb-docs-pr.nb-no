@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 947bc883994d82cfb25f7d757d501d95e722916a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: cab1663aa1e584780f7544f0bd9b61c9038b5922
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780913"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3926118"
 ---
 # <a name="process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. For å inkludere den riktige salgsfakturainformasjonen kan du opprette salgskreditnotaen direkte fra den bokførte salgsfakturaen, eller du kan opprette en ny salgskreditnota kopiert fakturainformasjon.
@@ -216,13 +216,15 @@ Når retursedler slås sammen på en kreditnota og bokføres, opprettes en bokf�
 2.  Angi hvilke ordrer som skal slettes, i **Nr.** -filterfeltet.  
 3.  Velg **OK**-knappen.  
 
-Du kan også slette individuelle ordrereturer manuelt.   
+Du kan også slette individuelle ordrereturer manuelt.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

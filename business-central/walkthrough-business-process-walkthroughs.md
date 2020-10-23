@@ -1,6 +1,6 @@
 ---
 title: Gjennomgang av forretningsprosesser | Microsoft-dokumentasjon
-description: Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS Norge AS. Noen utføres vanligvis av én bruker, mens andre omfatter flere ulike brukerroller. For å simulere arbeidsmiljøet inneholder noen av gjennomgangene konfigureringstrinn som er nødvendige for å fullføre øvelsene som beskrevet. Disse trinnene kan gi innsikt i typen informasjon som brukerne må dele med IT-medarbeiderne i selskapet.
+description: Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS Norge AS.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d278175606927cc1ee1ee2dda86099f6f080822c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788374"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923323"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
 
@@ -39,7 +39,8 @@ Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretnings
 |Planlegg et prosjekt fra start til slutt. **Krever fullstendige eksempeldata**|[Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)|  
 |Rapporter kostnadene i et prosjekt. **Krever fullstendige eksempeldata**|[Gjennomgang: beregne varer i arbeid for et prosjekt](walkthrough-calculating-work-in-process-for-a-job.md)|  
 |Plukk varer for levering i grunnleggende lageroppsett. **Krever fullstendige eksempeldata**|[Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Utfør defekthåndtering. **Krever fullstendige eksempeldata**|[Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)|  
+|Utfør defekthåndtering. **Krever fullstendige eksempeldata**|[Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)|
+|Eksporter forretningsdata for revisjonsformål i Tyskland.|[Gjennomgang: Eksportere data for en digital revisjon](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
 
 ## <a name="see-also"></a>Se også
 

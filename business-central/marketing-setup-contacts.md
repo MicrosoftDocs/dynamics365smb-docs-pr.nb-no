@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 82b5ec1e1be1cf39b2b1f0c55cefbedc259a0d41
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781538"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3916071"
 ---
 # <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
@@ -149,7 +149,7 @@ Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel h
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisere kontakter med kunder, leverandører og bankkonti
 Hvis du vil synkronisere kontaktkortet med en tilknyttet kunde, leverandør eller bankkontokortet, må du fylle ut det aktuelle feltet i inndelingen **Forr.forbindelseskode for** på **Samhandlinger**-hurtigfanen på **Markedsføringsoppsett**-siden.  
 
-Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Søke etter duplikatkontakter
 Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter en kontakt, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater. Du definerer dette på **Duplikater**-hurtigfanen på **Markedsføringsoppsett**-siden.

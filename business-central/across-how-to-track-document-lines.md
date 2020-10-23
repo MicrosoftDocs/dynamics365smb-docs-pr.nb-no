@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/14/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ee77fe46999d6b586d7c524232ba4883f9c18340
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 056cb7d0aec55ae939c09adb47477343908c2e6c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781988"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924981"
 ---
 # <a name="track-document-lines"></a>Spore dokumentlinje
 Du kan vise dokumenter som er relatert til ordrelinjer og bestillingslinjer, herunder fra arkiverte ordrelinjer. Dokumenter som du kan spore, inkluderer forespørsler, følgesedler, mottak og rammeordrer. Dette hjelper deg med å identifisere dokumenter som er brukt til å behandle ordrer.  

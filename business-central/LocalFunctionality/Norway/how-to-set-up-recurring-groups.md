@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8445d0c1acda140bb1fdb459cb5c7a12909b91ed
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a5f56569519eb7f9bdee33971c2a221d60d2ea22
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777891"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921355"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  

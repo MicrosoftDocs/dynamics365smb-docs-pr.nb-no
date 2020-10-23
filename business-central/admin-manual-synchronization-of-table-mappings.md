@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 015084b999f7488339c98605018bff2bc9a4ded2
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: ba79088bc386a856f1b3e7727f1f778ebabb7d51
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196714"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911333"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisere tabelltilordninger manuelt
 En integrert tabelltilordning knytter en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabell (posttype), for eksempel kunde, med en [!INCLUDE[d365fin](includes/cds_long_md.md)]-enhet, for eksempel en konto. Synkronisering av en integrert tabelltilordning gjør det mulig å synkronisere data i alle poster av [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og [!INCLUDE[d365fin](includes/cds_long_md.md)]-enheten som er koblet. I tillegg, avhengig av oppsettet for tabelltilordningen, kan synkroniseringen opprette og koble nye poster i målløsningen for ukoblede poster i kilden.  

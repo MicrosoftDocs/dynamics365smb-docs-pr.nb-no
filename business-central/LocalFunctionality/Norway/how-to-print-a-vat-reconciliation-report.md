@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ca919ee20a5b5e45301a95f0c2605a3e8d69572c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: c0dd05954085c5b535eea5abc1718d5f129cd08c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777901"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919777"
 ---
 # <a name="print-a-vat-reconciliation-report"></a>Skrive ut en MVA-avstemmingsrapport
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.  

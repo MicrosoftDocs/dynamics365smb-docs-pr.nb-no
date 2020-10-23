@@ -1,6 +1,6 @@
 ---
-title: Aktivere Power BI-integrering med Business Central | Microsoft Docs
-description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
+title: Aktivere Power BI-integrering med Business Central
+description: Lær hvordan du konfigurerer tilkoblingen til Power BI, slik at du får innsikt, forretningsintelligens og KPI-er fra Business Central-data med Business Central-appene for Power BI.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 92b3bb1d04c58332db20c978928fe1b04ed2ab37
-ms.sourcegitcommit: aeaa0dc64e54432a70c4b0e1faf325cd17d01389
+ms.openlocfilehash: ce4b45dbe80ab1972c92cde144b457eeeaff3402
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3697780"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927075"
 ---
 # <a name="enabling-power-bi-integration-with-prodshort"></a>Aktivere Power BI-integrering med [!INCLUDE[prodshort](includes/prodshort.md)]
 
@@ -27,8 +27,8 @@ Med [!INCLUDE[prodshort](includes/prodshort.md)] får brukere en gratis Power BI
 
 |Power-lisens|Vise rapporter|Opprette rapporter|Dele rapporter|Oppdatere rapporter| [!INCLUDE[prodshort](includes/prodshort.md)]-apper|
 |-------------|--------||
-|Power BI free|![avmerking](media/check.png)|![avmerking](media/check.png)|(begrenset)|(begrenset)||
-|Power BI Pro|![avmerking](media/check.png)|![avmerking](media/check.png)|![avmerking](media/check.png)|(omfattende)|![avmerking](media/check.png)|
+|Power BI free|![en hake](media/check.png)|![en ny hake](media/check.png)|(begrenset)|(begrenset)||
+|Power BI Pro|![enda en ny hake](media/check.png)|![det er en hake](media/check.png)|![igjen en hake](media/check.png)|(omfattende)|![siste hake](media/check.png)|
 
 Hvis du vil ha mer informasjon, kan du se [Lisensiere Power BI-tjenesten for brukere i organisasjonen](/power-bi/admin/service-admin-licensing-organization) eller [Registrere deg for Power BI-tjenesten som enkeltperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 

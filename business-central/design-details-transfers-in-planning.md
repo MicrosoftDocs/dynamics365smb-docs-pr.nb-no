@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 06/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0948dce78320d677ac7362bdfbe6971da789911
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787148"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3920900"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
 Overføringsordrer er også en kilde til forsyning når du arbeider på LFE-nivået. Når flere lokasjoner (lagre) brukes, kan Overfør angis for LFE-etterfyllingssystemet, som betyr at lokasjonen etterfylles ved å overføre varer fra en annen lokasjon. I en situasjon med flere lagre kan selskaper ha en kjede av overføringer der forsyning til GRØNN lokasjon overføres fra GUL, forsyning til GUL overføres fra RØD og så videre. I begynnelsen av kjeden finnes etterfyllingssystemet Prod.ordre. eller Kjøp.  

@@ -1,29 +1,31 @@
 ---
 title: Konsolidere data fra flere selskaper | Microsoft-dokumentasjon
-description: Få en oversikt over den økonomiske situasjonen for alle selskapene dine.
-documentationcenter: ''
-author: bholtorf
+description: Få en oversikt over den økonomiske situasjonen for alle konsernene dine.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2020
-ms.author: bholtorf
-ms.openlocfilehash: fc026d34c39b7f045100e16024d971493041fb80
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183863"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913399"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
-Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten for konsolidert råbalanse i Rollesenter for regnskapsfører gi deg en samlet oversikt over den økonomiske situasjonen.  
 
-Rapporten kombinerer finansposter fra hvert av selskapene i et nytt selskap du oppretter med de konsoliderte dataene. Dette selskapet kalles vanligvis for "det konsoliderte selskapet". Det konsoliderte selskapet er bare en beholder for de konsoliderte dataene og har ikke noen live forretningsdata. Selskapene du tar med i det konsoliderte selskapet, blir **Konserner** i rapporten.
+Noen organisasjoner bruker [!INCLUDE [prodshort](includes/prodshort.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prodshort](includes/prodshort.md)] i datterselskaper som må rapportere til overordnede organisasjoner. I begge tilfeller bruker regnskapsførere innebygde verktøy til å konsolidere regnskapsdataene.  
 
-Konsolidere økonomisk data kan være spesielt aktuelt i forbindelse med konserninterne prosesser. Hvis du vil ha mer informasjon, kan du se [Behandle konserninterne transaksjoner](intercompany-manage.md).
+Du kan konsolidere finanspostene fra to eller flere atskilte selskaper (datterselskaper) i et konsolidert selskap. Hvert enkelt selskap som er involvert i en konsolidering, kalles et konsern. Det kombinerte selskapet kalles de konsoliderte selskapet.  
+
+Du kan importere data til det konsoliderte selskapet fra andre selskaper i samme [!INCLUDE [prodshort](includes/prodshort.md)]-leietaker, fra leietakere eller fra filer.  
+
+Hvis årsregnskapene i et konsern er i en annen valuta enn i det konsoliderte selskapet, må du definere valutakurser for konsolidering.  
 
 Du kan konsolidere:  
 
@@ -31,83 +33,26 @@ Du kan konsolidere:
 * Selskaper med ulike regnskapsår og i ulike valutaer.  
 * Hele beløpet eller en prosentdel av den økonomiske informasjonen i et selskap
 * Bruke ulike valutakurser i individuelle finanskontoer
+* Selskaper i andre regnskaps- og forretningsstyringsprogrammer
 
-Det finnes to måter å definere rapporten på, avhengig av forretningenes kompleksitet:
+Du definerer det konsoliderte selskapet på samme måte som du definerer andre selskaper. Kontoplanen er uavhengig av kontoplanen i de andre konsernene, og kontoplanene i de individuelle konsernene kan være forskjellige. Du setter opp en liste over selskaper som skal konsolideres, bekrefter regnskapsdataene før konsolidering, importerer fra filer eller databaser og genererer konsolideringsrapporter. Du finner mer informasjon under [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
-* Hvis du ikke trenger avanserte innstillinger, for eksempel inkludere et selskap som du bare eier en del av, kan du bruke veiledningen **Selskapskonsolidering** med assistert oppsett for å definere en konsolidering raskt. Veiledningen hjelper deg gjennom de grunnleggende trinnene.
-* Hvis du trenger mer avanserte innstillinger, kan du definere det konsoliderte selskapet og konsernene selv.
+> [!TIP]
+> Konsolidere økonomisk data kan være spesielt aktuelt i forbindelse med konserninterne prosesser. Hvis du vil ha mer informasjon, kan du se [Behandle konserninterne transaksjoner](intercompany-manage.md).
 
-## <a name="to-do-a-simple-consolidation-setup"></a>Slik utfører du et enkelt konsolideringsoppsett
-Hvis konsolideringen er enkel, for eksempel fordi du er eneeier av konsernene som skal konsolideres, vil veiledningen **Selskapskonsolidering** med assistert oppsett hjelpe deg gjennom følgende trinn:
+## <a name="trial-balance"></a>Råbalanse
 
-* Velg om du vil opprette et nytt konsolidert selskap eller om du vil konsolidere dataene i et selskap som allerede er opprettet for konsolidering. Selskapet kan ikke inneholde transaksjoner.
-* Forhåndsvis resultatene. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at hoveddata og transaksjoner kan bli overført til det konsoliderte selskapet.
+Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten **Konsolidert råbalanse** gi deg en samlet oversikt over den økonomiske situasjonen.  
 
-Hvis du vil bruke veiledningen med assistert oppsett, gjør du følgende:
+Rapporten kombinerer finansposter fra hvert av selskapene i et nytt selskap du oppretter med de konsoliderte dataene. Dette selskapet kalles vanligvis for "det konsoliderte selskapet". Det konsoliderte selskapet er bare en beholder for de konsoliderte dataene og har ikke noen live forretningsdata. Selskapene du tar med i det konsoliderte selskapet, blir **Konserner** i rapporten. Du finner mer informasjon under [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
-1. I **Regnskapsfører**-rollesenteret velger du **Assistert oppsett**.
-2. Velg **Konfigurer konsolideringsrapportering**, og fullfør deretter hvert trinn i veiledningen med assistert oppsett.
+## <a name="consolidate-data"></a>Konsolidere data
 
-## <a name="to-do-an-advanced-consolidation-setup"></a>Slik gjør du et avansert konsolideringsoppsett
-Hvis du trenger mer avanserte innstillingene for konsolideringen, kan du definere konsolideringen manuelt. For eksempel hvis du har selskaper som du bare eier delvis, eller hvis du har selskaper som du ikke vil ta med i konsolideringen. Du definerer det konsoliderte selskapet på samme måte som du definerer andre selskaper. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lar deg sette opp en liste over selskaper som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
-
-1. Logg deg på det konsoliderte selskapet.
-2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
-3. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!IMPORTANT]
-> Når du fyller ut feltene **Startdato** og **Sluttdato**, kontrollere at du overholde GAAP-reglene for regnskapsperiodene i konsernet kontra moderselskapet.
-
-Hvis konsernet bruker en fremmed valuta, må du angi hvilken valutakurs som skal brukes i konsolideringen. Du må også angi konsolideringsopplysninger om konsernets finanskonti. Disse prosessene beskrives nedenfor.
-
-### <a name="to-prepare-general-ledger-accounts-for-consolidation"></a>Slik klargjør du finanskonti for konsolidering
-Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må du klargjøre finanskonti for konsolidering. Du kan angi kontiene for å bokføre debet og kredit og metoden som skal brukes til å oversette valutaer i det konsoliderte selskapet. Dette er for eksempel nyttig hvis du kjører rapporten ofte.
-
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
-2. Åpne kortet for kontoen, og deretter fyller du ut feltene på **Konsolidering**-hurtigfanen.
-
-### <a name="to-specify-exchange-rates-for-consolidations"></a>Slik angir du valutakurser for konsolideringer
-Hvis et konsern bruker en annen valuta enn det konsoliderte selskapet, må du angi valutakursmetoder for hver konto før du konsoliderer. For hver konto bestemmer innholdet i feltet **Kons. oversettelsesmetode** valutakursen. På hvert konsernkort angir du i **Valutakurstabell**-feltet om konsolidering skal bruke valutakurser fra konsernselskapet eller det konsoliderte selskapet. Hvis du bruker valutakurser fra det konsoliderte selskapet, kan du endre valutakursene for et konsern. For konserner, hvis feltet **Valutakurstabell** på konsernkortet inneholder **Lokal**, kan du endre valutakursen fra konsernkortet. Valutakurser kopieres fra **Valutakurs**-tabellen, men du kan endre dem før konsolidering.
-
-Tabellen nedenfor beskriver valutakursmetodene du kan bruke for kontoer.
-
-|Valutakurs | Vanlig bruk |
-|---|---|
-|Gjennomsnittskurs (manuell) | Du beregner gjennomsnittskursen manuelt for perioden som skal konsolideres. Beregn gjennomsnittet som et aritmetisk gjennomsnitt eller som et best mulig overslag, og angi resultatet for hvert konsern. Brukes for resultatregnskapskonti.|
-|Sluttkurs | Brukes for balansekonti.|
-|Siste sluttkurs | Kursen som gjaldt på valutamarkedet på datoen som balansen eller resultatregnskapet forberedes for. Du angir denne kursen for hvert konsern. Brukes for balansekonti.|
-|Historisk kurs | Valutakursen som var gyldig da transaksjonen ble utført.|
-|Sammensatt kurs | Gjeldende periodebeløp omregnes med gjennomsnittskursen og legges til i den tidligere registrerte balansen i det konsoliderte selskapet. Denne metoden brukes vanligvis for konti for fri egenkapital fordi de inkluderer beløp fra forskjellige perioder og består dermed av en sammensetning av beløp som er omregnet med forskjellig valutakurs.|
-|Egenkapitalkurs | Dette ligner på **Sammensatt**. Forskjellene bokføres på separate finanskonti.|   
-
-Du kan angi valutakurser for konserner ved å gjøre følgende:
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
-2. På siden **Konsernoversikt** velger du konsernet og velger deretter **Gjennomsnittskurs (manuell)**.   
-3. På siden **Endre valutakurs** har innholdet i feltet **Tilhørende valutakursbeløp** blitt kopiert fra **Valutakurs**-tabellen, men du kan endre det. Lukk siden.  
-4. Velg handlingen **Sluttkurs**.  
-5. I feltet **Tilhørende valutakursbeløp** angir du valutakursen.
-
-<!-- ### To include or exclude dimensions
-
-COMMENTING THIS OUT BECAUSE i CANNOT REPRODUCE THE SETTINGS. tHERE IS NO CONSOLIDATION CODE FIELD ON DIMENSIONS OR DIMENSIOIN VALUES.
-
-You can consolidate dimension information and general ledger accounts, as follows:
-
-* To exclude dimension information in the consolidation, leave the **Consolidation Code** field blank, and do not choose dimensions in the **Copy Dimensions** fields in any consolidation functions or reports described later in this topic.
-* To include dimension information in the consolidation, leave the **Consolidation Code** field blank. However, the consolidation will only work if the dimension values in the business unit are the same as the consolidated company.
-* To consolidate the dimension value code in the business unit with a different dimension value code in the consolidated company, fill in the **Consolidation Code**. -->
-
-### <a name="to-exclude-a-company-from-consolidation"></a>Slik utelater du et selskap fra konsolidering
-Hvis du ikke vil ta med et konsern i konsolideringen, kan du utelate det. Hvis du vil gjøre dette, går du til konsernkortet og fjerner merket for **Konsolider**.
-
-### <a name="to-include-a-partially-owned-company-in-consolidation"></a>Slik inkluderer du et delvis eid selskap i konsolideringen
-Hvis du bare eier en del av et selskap, kan du ta med en prosentandel av hver enkelt transaksjon som samsvarer med prosentdelen av selskapet du eier. Hvis du for eksempel eier 70 % av selskapet, vil konsolideringen inkludere 70 kr av en faktura på 100 kr. For å angi hvor stor del av selskapet du eier, går du til konsernkortet og skriver inn prosentsatsen i feltet **Konsoliderings-%**.  
+Prosessen med å overføre tall fra konsernene til det konsoliderte selskapet er den faktiske *konsolideringen*. Før du gjør dette, er det lurt å kontrollere om det er forskjell på de grunnleggende opplysningene for konsernene og konsoliderte selskapene. Det finnes to rapporter du kan bruke til å teste databasen og filen.
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Slik tester du dataene før konsolidering
-Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.   
+
+Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
 1. Åpne det konsoliderte selskapet.  
 2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
@@ -116,18 +61,24 @@ Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!IN
     * For å teste en fil velger du **Test fil**, angir navnet på filen som skal testes, og velger deretter **Skriv ut**.  
     * Hvis du vil teste databasen, kan du velge **Test database**.  
 
-## <a name="to-run-the-consolidation"></a>Slik kjører du konsolideringen
+### <a name="run-the-consolidation"></a>Kjøre konsolideringen
+
 Når du har testet dataene, kan du overføre dem til det konsoliderte selskapet.  
 
 1. Logg deg på det konsoliderte selskapet.  
 2. I **Regnskapsfører-rollesenteret** velger du **Kjør konsolidering**.  
 3. Fyll ut de obligatoriske feltene.  
-4. I **Der**-feltet velger du **Selskapsnavn** og velger deretter det konsoliderte selskapet i **er**-feltet.
+4. I Filter-delen definerer du et filter for det relevante konsernet eller selskapsnavnet.  
+5. Du kan også planlegge at en rapport skal kjøres på et passende tidspunkt.  
 
-## <a name="to-eliminate-repeated-transactions"></a>Slik fjerner du gjentatte transaksjoner
+## <a name="eliminate-repeated-transactions"></a>Fjerne gjentatte transaksjoner
+
 Når du har konsolidert alle selskapene, må du finne transaksjoner som er registrert mer enn én gang på tvers av flere selskaper, og deretter postere elimineringsoppføringer for å fjerne dem.
 
-Behandle konsoliderte elimineringer i en manuell prosess. Du kan følge disse trinnene:
+Behandle konsoliderte elimineringer i en manuell prosess.  
+
+Slik fjerner du gjentatte transaksjoner:
+
 1. Finn transaksjoner som potensielt må justeres, og angi finanskladdelinjer for å fjerne dem.
 2. Kjør rapporten **Konsoliderte elimineringer for finans** for å vurdere resultatet av finanskladdelinjene før bokføringen.
 3. Bokfør justeringstransaksjonene.
@@ -147,9 +98,12 @@ Hver konto skrives ut på en egen linje, i likhet med kontoplanens oppbygning. E
 * Bokføringsteksten kopiert fra finanskladden.
 * Det konsoliderte selskapets total etter elimineringen hvis den bokføres.
 
+## <a name="export-and-import-consolidated-data-between-databases"></a>Eksportere og importere konsoliderte data mellom databaser
 
-## <a name="to-export-and-import-consolidated-data-between-databases"></a>Slik eksporterer og importerer du konsoliderte data mellom databaser
 Hvis data for et konsern er i en annen database, må du eksportere dataene til en fil før du kan inkludere dem i konsolideringen. Hvert selskap må eksporteres separat. Til dette formålet brukes kjørselen **Eksporter konsolidering**.  
+
+> [!TIP]
+> Bruk samme fremgangsmåte for å eksportere konsoliderte data som må sendes til Dynamics 365 Finance, for eksempel hvis det aktuelle konsernet er et datterselskap og moderselskapet bruker Dynamics 365 Finance.
 
 Når du kjører den satsvise jobben, behandles alle postene i finanskontiene. For hver kombinasjon av valgte dimensjoner og dato legges innholdet fra postenes **Beløp**-felt sammen og eksporteres. Neste kombinasjon av valgte dimensjoner og dato med samme kontonummer blir behandlet, deretter behandles kombinasjonene for neste kontonummer og så videre.  
 
@@ -157,10 +111,12 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 
 1. For hver eksporterte linje eksporteres kontonummeret som er definert i konsernets **Kons. debetkonto**-felt, til linjen, hvis summen i **Beløp**-feltene er et debetbeløp. Hvis summen er et kreditbeløp, eksporteres det tilsvarende nummeret i **Kons. kreditkonto**-feltet til linjen.  
 2. Datoen som brukes for hver eksporterte linje, er periodens sluttdato eller den nøyaktige datoen for beregningen, hvis overføringen skjer hver dag.  
-3. Dimensjonsverdien som eksporteres for posten, vil være dimensjonsverdien for det konsoliderte selskapet som er definert i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien. Hvis ingen dimensjonsverdi for konsolidert selskap er angitt i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien, vil selve dimensjonsverdien bli eksportert til linjen.   
-4. XML-filene inneholder også valutakursene i konsolideringsperioden. Disse kursene er inkludert i en separat del på begynnelsen av filen.
+3. Dimensjonsverdien som eksporteres for posten, vil være dimensjonsverdien for det konsoliderte selskapet som er definert i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien. Hvis ingen dimensjonsverdi for konsolidert selskap er angitt i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien, vil selve dimensjonsverdien bli eksportert til linjen.  
+4. XML-filene inneholder også valutakursene i konsolideringsperioden. Disse kursene er inkludert i en separat del på begynnelsen av filen.  
 
 ## <a name="see-also"></a>Se også
+
+[Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)

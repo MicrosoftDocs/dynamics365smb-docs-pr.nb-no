@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37be68e0235fa326344bc0f024b4584eb0289f9f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3e79957c7e9106b4f67c3d4c7b6ac58703e8eb2f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779339"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918266"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
 Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for kildedokumentet. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en monterings- eller produksjonsordre med avgang som er klar til å plasseres.  

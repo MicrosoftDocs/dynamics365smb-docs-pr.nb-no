@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4a54ed9896c6d9921d13f2a4c9c43ed1ba5b7eea
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784662"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921913"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
  Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).

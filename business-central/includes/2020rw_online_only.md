@@ -1,0 +1,1 @@
+> **GJELDER:** Business Central online (2020 lanseringsbølge 2 og senere)

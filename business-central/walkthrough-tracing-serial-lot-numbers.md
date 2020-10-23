@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e165e5fcdad0909f6ad4def81987d1837dd0c48c
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.openlocfilehash: 90327ababa08d28baadcec26353f67c8736c62ee
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3528138"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925450"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -25,7 +25,7 @@ Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må u
 
 Den første oppgaven i defekthåndtering er å undersøke hvor de defekte varene kommer fra, og hvor de ble brukt. Denne undersøkelsen er basert på historiske data og gjøres enklere ved å søke gjennom varesporingsposter på siden **Varesporing**.  
 
-Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres på siden **Naviger**. Du kan bruke Naviger-funksjonen til å søke i alle typer databaseposter.  
+Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres på siden ****. Du kan bruke Søk etter poster-funksjonen til å søke i alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen
 
@@ -64,7 +64,7 @@ Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at 
 
 Resultatet av denne første varesporingsoppgaven identifiserer hvilke racersykkelrammer som var defekte, og hvilken leverandør som leverte dem. Etterpå, men i samme generelle sporingsprosess, må kvalitetskontrolløren finne alle solgte racersykler med rammer fra feil parti, slik at disse ordrene kan stoppes eller tilbakekalles. Til slutt må kvalitetskontrolløren finne alle åpne dokumenter hvor det defekte partiet er i bruk slik at ingen flere transaksjoner gjøres.  
 
-De to første oppgavene i defekthåndteringen gjøres på siden **Varesporing**. Den siste oppgaven gjøres på siden **Naviger** sammen med **Varesporing**-siden.  
+De to første oppgavene i defekthåndteringen gjøres på siden **Varesporing**. Den siste oppgaven gjøres på siden **Søk etter poster** sammen med **Varesporing**-siden.  
 
 ## <a name="prepare-sample-data"></a>Klargjøre eksempeldata
 
@@ -227,7 +227,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     > [!NOTE]  
     >  Ikke bokfør den siste ordren for fem racersykkelrammer.  
 
-    Nå har du fullført klargjøringen av dataene som skal brukes til å vise funksjonene Varesporing og Naviger.  
+    Nå har du fullført klargjøringen av dataene som skal brukes til å vise funksjonene Varesporing og Søk etter poster.  
 
 ## <a name="tracing-from-usage-to-origin"></a>Spore fra forbruk til opprinnelse  
  Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at den returnerte racersykkelen, vare 1002, har serienummeret SN1. Ved hjelp av denne enkle informasjonen kan han finne ut hvor den ferdige racersykkelen sist ble brukt, i dette tilfellet på følgeseddelen til Møbelhandleren A/S. Kvalitetskontrolløren må deretter søke bakover til den tidligste opprinnelsen for å bestemme hvilket partinummer den defekte racersykkelrammen kom fra og hvilken leverandør som leverte den.  
@@ -279,27 +279,29 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Samtidig kan han se ut fra de tre siste sporingslinjene at to nye varer, SN3 og SN4, er produsert basert på racersykkelrammer fra PARTI1. Han blokkerer disse sluttvarene på lageret.  
 
-    Nå har du fullført andre oppgave i defekthåndteringen ved å bruke **Varesporing**-siden til defekthåndtering. Siden **Varesporing**-siden er basert på bare bokførte poster, må kvalitetskontrolløren gå videre til **Naviger**-siden for å sikre at PARTI1 ikke brukes i dokumenter som ikke er bokført.  
+    Nå har du fullført andre oppgave i defekthåndteringen ved å bruke **Varesporing**-siden til defekthåndtering. Siden **Varesporing**-siden er basert på bare bokførte poster, må kvalitetskontrolløren gå videre til **Søk etter poster**-siden for å sikre at PARTI1 ikke brukes i dokumenter som ikke er bokført.  
 
 ## <a name="finding-all-records-of-a-seriallot-number"></a>Søke etter alle poster for et serie-/partinummer  
- Kvalitetskontrolløren brukte **Varesporing**-siden til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Naviger**-siden der han kan foreta et søk gjennom alle databaseposter.  
+ Kvalitetskontrolløren brukte **Varesporing**-siden til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Søk etter poster**-siden der han kan foreta et søk gjennom alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Slik finner du alle forekomster av PARTI1 i poster som ikke er bokført, for eksempel åpne ordrer:  
 
 1.  Velg den første sporingslinjen på siden **Varesporing**, kjøpsmottaket for PARTI1.  
-2.  Velg handlingen **Naviger**.  
+2.  Velg handlingen **Søk etter poster**.  
 
-    **Naviger**-siden er forhåndsinnstilt med søkefiltre basert på sporingsresultatet for PARTI1. Kvalitetskontrolløren ser at de fleste postene angår dokumenter som allerede er identifisert på siden **Varesporing**. Den siste navigasjonslinjen av typen Produksjonsordre refererer for eksempel til de to frigitte produksjonsordrene som forbrukte racersykkelrammer fra PARTI1.  
+    **Søk etter poster**-siden er forhåndsinnstilt med søkefiltre basert på sporingsresultatet for PARTI1. Kvalitetskontrolløren ser at de fleste postene angår dokumenter som allerede er identifisert på siden **Varesporing**. Den siste Søk etter poster-linjen av typen Produksjonsordre refererer for eksempel til de to frigitte produksjonsordrene som forbrukte racersykkelrammer fra PARTI1.  
 
-    Den andre navigasjonslinjen av typen **Salgslinje** er imidlertid en dokumentlinje som ikke er bokført. Dermed blir dette undersøkt av kvalitetskontrolløren.  
+    Den andre Søk etter poster-linjen av typen **Salgslinje** er imidlertid en dokumentlinje som ikke er bokført. Dermed blir dette undersøkt av kvalitetskontrolløren.  
 
-3.  Merk den andre navigasjonslinjen, velg handlingen **Vis** for å åpne salgslinjeposten. Du kan eventuelt også velge verdien i **Antall poster**-feltet.  
+3.  Merk den andre Søk etter poster-linjen, velg handlingen **Vis** for å åpne salgslinjeposten. Du kan eventuelt også velge verdien i **Antall poster**-feltet.  
 
     Her ser kvalitetskontrolløren én åpen salgslinje for de defekte racersykkelrammene. Han foreslår øyeblikkelig for salgsavdelingen at de kansellerer ordren og oppretter en ny produksjonsordre som er basert på racersykkelrammer uten defekter.  
 
- Nå har du fullført gjennomgangen av hvordan du bruker **Naviger**-siden til defekthåndtering sammen med **Varesporing**-siden.  
+ Nå har du fullført gjennomgangen av hvordan du bruker **Søk etter poster**-siden til defekthåndtering sammen med **Varesporing**-siden.  
 
 ## <a name="see-also"></a>Se også
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
+[Søk etter poster](ui-find-entries.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
+

@@ -1,23 +1,22 @@
 ---
 title: Vise databaselåser
+description: Lær hvordan du kan vise informasjon om en databaselås rett fra klientgrensesnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 6880ffa9a2ab42c1af7c22f9cace64697c9f905b
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324105"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922320"
 ---
 # <a name="viewing-database-locks"></a>Visning av databaselåser
-
-## <a name="about-locks"></a>Om låser
 
 Databaselåsing kontrollerer tilgang for flere brukere til de samme dataene samtidig. For å beskytte en transaksjon mot andre transaksjoner som endrer de samme dataene, setter den første transaksjonen en lås på dataene. Låsen blir værende til transaksjonen er ferdig.
 

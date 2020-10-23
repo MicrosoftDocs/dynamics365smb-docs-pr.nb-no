@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67378fa23bb92fa42a758645a88ee0bb4cb9424b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 55b2a6672e1c447655d19a49b071b4a9dc23cbaf
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777885"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921326"
 ---
 # <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]omfatter to typer importerbare betalingsreturfiler:  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 08/10/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 96d815a39428abc23c050da02c92d8a46a9111c1
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784135"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910708"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 
@@ -27,7 +27,10 @@ Du kan tilordne forskjellige produksjonsressurser til hvert arbeidssenter. En pr
 
 Planlagt kapasitet i et arbeidssenter består av hvor tilgjengelige tilhørende produksjonsressurser er og annen planlagt tilgjengelighet i arbeidssenteret. Den planlagte tilgjengeligheten i arbeidssentergruppen er derfor summen av all tilhørende tilgjengelighet i produksjonsressursene og arbeidssentrene.  
 
-Tilgjengeligheten lagres i kalenderposter. Før du definerer arbeidssentre eller produksjonsressurser, må du definere produksjonskalendere. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
+Tilgjengeligheten lagres i kalenderposter.  
+
+> [!IMPORTANT]
+> Før du definerer arbeidssentre eller produksjonsressurser, må du definere produksjonskalendere. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).
 
 ## <a name="to-set-up-a-work-center"></a>Slik oppretter du et arbeidssenter:
 

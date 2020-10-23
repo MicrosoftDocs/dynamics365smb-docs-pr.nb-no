@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b1f56578ece88502dd17f0e9ea8433b07f9259fc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d6a285562f80e7885ebfaf73f79a4cfeb6c2ab5c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779025"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921334"
 ---
 # <a name="norwegian-vat-reporting"></a>Norsk mva-rapportering
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)]../../inkluderer orbedringer i den norske versjonen som gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.  

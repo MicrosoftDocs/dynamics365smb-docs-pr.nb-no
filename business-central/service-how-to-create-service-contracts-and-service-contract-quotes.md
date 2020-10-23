@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8368d4b1fba14e33cde37ecca0a03107a53f27f2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194958"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925700"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeide med servicekontrakter og servicekontrakttilbud
 Du kan opprette servicekontrakter manuelt eller fra et servicekontrakttilbud. Du kan bruke et servicekontrakttilbud som en forløper til en servicekontrakt der selskapet kommer med et tilbud overfor kunden, og som får godkjenning fra kunden før du kan konvertere tilbudet til en servicekontrakt. Prosedyrene for oppretting av servicekontrakt og servicekontrakttilbud er like.  

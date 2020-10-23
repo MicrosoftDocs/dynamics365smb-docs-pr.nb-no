@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97cd7c2f74875317a3d4559c15d0bd22367e6df7
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: d9b1990e1379b958aaa3723b4e5a984d066d0b2e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778095"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915838"
 ---
 # <a name="delete-workflows"></a>Slette arbeidsflyter
 Hvis du er sikker på at en arbeidsflyt ikke lenger er i bruk, kan du slette den. Alle forekomster av arbeidsflyttrinn som er definert i arbeidsflyten, må ha statusen **Fullført**.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 814494609a0a3e8ec3657dca633bcb43084331c9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: aff406ac56ec625fdc8f8674b84b3f14acce7d36
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778523"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919799"
 ---
 # <a name="cancel-payments"></a>Annullere betalinger
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  

@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b16edb8a5c2e5422fc072b80242ad5d0b174af35
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: 877f7dbd58176433a8859dd01498425ab8f8afb1
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3676993"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921324"
 ---
 # <a name="the-payroll-data-definitions-no-extension"></a>Utvidelsen Lønnsdatadefinisjoner (NO)
 

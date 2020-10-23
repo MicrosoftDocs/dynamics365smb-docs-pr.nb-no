@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d2c3536f87fedb4703cdf91f1bd32885229274bd
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788778"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910383"
 ---
 # <a name="delivering-service"></a>Yte service
 Med funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  

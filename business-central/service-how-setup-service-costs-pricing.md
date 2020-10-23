@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b80a2f89ae958a58b8cddd3c239df1a11e63a0f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c993027b54c624ea393c6bfc96554d02c0882ed
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784587"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925800"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Definere priser og ekstra kostnader for servicer
 Du kan bruke prissettingsfunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å definere og tilpasse programmet slik at du bruker og justerer prissetting for servicevarer, -reparasjoner og -ordrer. Disse prissettingsavgjørelsene kan deretter enkelt overføres til faktureringsprosessen.  

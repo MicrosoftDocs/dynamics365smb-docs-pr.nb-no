@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3a0d397695dfdd1d60a13c5e387c0de05127c737
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 280915af533d27efd5067518cd5492815662371d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3789128"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910083"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper. Dette er en aktivitet du ikke utfører så ofte, men det kan oppstå situasjoner der det er nødvendig med en omklassifisering for å oppnå eller vedlikeholde en mer effektiv drift. Eksempel:  

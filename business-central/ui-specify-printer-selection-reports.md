@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing
-ms.date: 04/17/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4bf794dd423a2049887eb1a4fe725a091fdbd190
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781188"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915996"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.

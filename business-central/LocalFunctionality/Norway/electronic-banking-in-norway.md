@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5f4c34a283b18d66c3a2f38a85838b1e0e368d22
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 2c4e8ddb72ce78b2a4738dd185f1f049b4c8294e
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778530"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919803"
 ---
 # <a name="electronic-banking-in-norway"></a>Elektroniske banktjenester i Norge
 [!INCLUDE[d365fin](../../includes/d365fin_md.md)] omfatter forbedringer i den norske versjonen for elektroniske banktjenester. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  

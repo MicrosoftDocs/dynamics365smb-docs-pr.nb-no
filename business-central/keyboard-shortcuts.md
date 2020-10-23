@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 09/02/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7d2a891f55ff41e1e236c57ca76eb5d1444b7160
-ms.sourcegitcommit: 43284728c34b72ad1984a516273dc80e4cdc99ab
+ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3765949"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922872"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -144,6 +144,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
 |Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane eller del (underordnet side).|
+|Alt+G|Åpner **Søk etter poster**-siden for å finne poster som er knyttet til det bokførte dokumentet. Fungerer i lister også.|
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
 |Alt+Skift+W |Åpne gjeldende kort eller dokument i et nytt vindu. Hvis du vil ha mer informasjon, se [Multitaske på tvers av flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
@@ -212,3 +213,4 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
+[Søk etter poster](ui-find-entries.md)  

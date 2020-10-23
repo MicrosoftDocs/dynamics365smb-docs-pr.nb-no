@@ -8,22 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e3ec3ad00d73fcb74d41ff46cc2d2c0e34e78489
-ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
+ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3617914"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3927025"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
 
 Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres.
 
 > [!NOTE]
-> Du kan ikke endre varens lagermetode hvis det finnes vareposter for varen.<br /><br />
-> Informasjon vil snart bli publisert her om løsninger for å endre en lagermetode i spesielle situasjoner.
+> Du kan ikke endre varens lagermetode hvis det finnes vareposter for varen. Hvis du vil ha mer informasjon, kan du se [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md).
 
 Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
 
@@ -41,7 +40,7 @@ Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
 
  Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og om de bruker faktiske kostnad eller standard kostnad som verdisettingsgrunnlag. Tabellen nedenfor forklarer de ulike egenskapene. (LIFO-metoden er utelukket fordi den er veldig lik FIFO-metoden.)  
 
-|<!--blank -->|FIFO|Gjennomsnitt|Standard|Serienummer|  
+|Kategori|FIFO|Gjennomsnitt|Standard|Serienummer|  
 |-|----------|-------------|--------------|--------------|  
 |Generelle kjennetegn|Lett å forstå|Basert på periodealternativer: **Dag**/**Uke**/**Måned**/**Kvartal**/**Regnskapsperiode**.<br /><br /> Kan beregnes per vare eller per vare/lokasjon/variant.|Enkel å bruke, men krever kvalifisert vedlikehold.|Krever varesporing på både inngående og utgående transaksjon.<br /><br /> Brukes vanligvis for serialiserte varer.|  
 |Utligning/justering|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Justering videresender kostnader i henhold til antallsutligning.|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Kostnader beregnes og videresendt på **verdisettingsdato**.|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Utligning er basert på FIFO.|Alle utligninger er faste.|  

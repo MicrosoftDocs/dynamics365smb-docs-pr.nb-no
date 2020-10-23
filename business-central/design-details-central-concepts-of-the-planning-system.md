@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6cfe028d21086269f1492aefde31fe6b659d06b4
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 76a25b3810c41d413c662d77bdcc72678bf8c59f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788124"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917504"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
@@ -91,6 +91,14 @@ Behovet for en ferdig og salgbare vare i et produksjonsmiljø, vil føre til avl
 Figurene illustrerer i hvilken rekkefølge systemet lager forslag til forsyningsordrer på øverste nivå og, forutsatt at brukeren godtar disse forslagene, for alle varene på lavere nivå også.  
 
 Du finner mer informasjon om produksjonshensyn i [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+
+#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimere ytelse for lavnivåberegninger
+Beregninger av lavnivåkode kan påvirke systemytelsen. Hvis du vil redusere innvirkningen, kan du deaktivere **Dynamisk beregning av lavnivåkode** på **Produksjonsoppsett**-siden. Når du gjør det, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå at du oppretter en gjentakende jobbkøpost som vil oppdatere lavnivåkoder daglig. Du kan sikre at jobben vil kjøre utenom arbeidstiden ved å angi et starttidspunkt i feltet **Tidligste startdato/-klokkeslett**.
+
+Du kan også aktivere logikk som øker hastigheten på beregninger av lavnivåkoder ved å velge **Optimaliser beregning av lavnivåkode** på siden **Produksjonsoppsett**. 
+
+> [!IMPORTANT]
+> Hvis du velger å optimalisere ytelsen, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] bruke nye beregningsmetoder til å bestemme lavnivåkoder. Hvis du har en utvidelse som er avhengig av hendelsene som brukes av de gamle beregningene, kan det hende at utvidelsen slutter å virke.   
 
 ### <a name="locations--transfer-level-priority"></a>Lokasjoner / prioritet for overføringsnivå  
 Firmaer som driver virksomhet på mer enn ett sted må kanskje planlegge individuelt for hver enkelt lokasjon. Sikkerhetslagernivået og gjenbestillingsprinsippet for en vare kan for eksempel være forskjellig på ulike lokasjoner. I slike tilfeller må planleggingsparameterne angis per vare og per lokasjon.  

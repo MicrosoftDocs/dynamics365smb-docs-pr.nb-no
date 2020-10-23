@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2371c61c36a17df93ccc1a24c588b12613f5c380
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: c185ab8fecc8f8d70dad7696a5fb5f67207717aa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196618"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924606"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Vise statusen til synkroniseringsjobber
 Bruk siden **Feil ved synkronisering av koblede data** for å vise statusen til synkroniseringsjobber som har blitt kjørt for koblede poster i en Common Data Service- eller [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjon. Dette inkluderer jobber som ble kjørt fra jobbkøen, og manuelle synkroniseringsjobber som kjørte på poster fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan for eksempel være nyttig å vise statusen deres når du feilsøker, fordi det gir deg tilgang til detaljer om feil relatert til koblede poster. Vanligvis er disse feiltypene forårsaket av brukerhandlinger, for eksempel når følgende er tilfelle:  
@@ -34,10 +34,13 @@ Bruk siden **Feil ved synkronisering av koblede data** for å vise statusen til 
 
 |Handling|Beskrivelse|
 |----|----|
-|**Fjern kobling**|Opphever kobling av postene, og de vil ikke lenger synkroniseres. Hvis du vil gjenoppta synkronisering av postene, må du koble dem sammen på nytt.|
-|**Prøv på nytt**|For hver post der det oppdages en feil, blir synkronisering hoppet over med mindre du løser problemet manuelt. Hvis du prøver på nytt, inkluderes posten i neste synkronisering.|
-|**Synkroniser**|Appen vil prøve å løse en konflikt der en post ble endret i begge bedriftsappene. Du kan velge hvilken versjon av posten som skal brukes i begge appene.|
+|**Fjern kobling**|Opphever kobling av postene, og de vil ikke lenger synkroniseres. Hvis du vil starte synkroniseringen på nytt, må du koble dem sammen på nytt. |
+|**Prøv på nytt** og **Prøv alle på nytt**|For hver post der det oppdages en feil, blir synkronisering hoppet over med mindre du løser problemet. Prøv på nytt vil inkludere den valgte posten i neste synkronisering, og **Prøv alle på nytt** inkluderer alle oppføringene.|
+|**Synkroniser**|Appen vil prøve å løse en konflikt der en post ble endret i begge bedriftsappene. Du kan velge hvilken versjon av posten som skal brukes.|
 |**Gjenopprett poster** og **Slett poster**|Dette er nyttig i tilfeller der en post ble slettet i en av forretningsappene. Slett poster sletter posten i appen der den fortsatt finnes. Gjenopprett gjenskaper posten i forretningsappen der den ble slettet.|
+
+> [!NOTE]
+> Hvis du vil redusere antall konflikter du må løse, kan du konfigurere integreringstabelltilordningene for å bruke disse handlingene automatisk. Hvis du vil ha mer informasjon, kan du se [Tilordne integrasjonstabeller](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Slik viser du synkroniseringsloggen for en bestemt (manuelt synkronisert) post
 1. Åpne for eksempel en kunde, vare eller en annen post som synkroniserer data mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og Common Data Service eller [!INCLUDE[crm_md](includes/crm_md.md)].

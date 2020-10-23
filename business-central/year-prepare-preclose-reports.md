@@ -9,14 +9,14 @@ ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b45fe3d89502e5a4e42bc43cc4679afe1b13699d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b270a7b1f9ffda71d68fa981885aacbe31f55eab
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191694"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3923123"
 ---
 # <a name="using-pre-closing-reports"></a>Bruke forhåndslukking av rapporter
 Det finnes mange standardrapporter du kan bruke til å bekrefte nøyaktigheten av kontiene før du lukker tablåene ved utgangen av et år eller en periode. Du kan for eksempel bruke rapporten **Kunde – saldoliste** til å bekrefte at saldoen for en bokføringsgruppe for kunde er lik saldoen på den tilsvarende finanskontoen på en bestemt dato.

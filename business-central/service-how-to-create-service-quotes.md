@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 26b250a6c902e70bd4badf712d620f835d4ebb5a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 41cb742ac256e124a273ac202a1c7f112a69795d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3784437"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918641"
 ---
 # <a name="create-service-quotes"></a>Opprette servicetilbud
 Du kan betrakte servicetilbud som grunnlag for serviceordrer. De er faktisk omtrent like. Begge inneholder opplysninger som hvem kunden er, ordretype, varen som trenger service, fakturerings- og leveringsopplysninger og informasjon om det faktiske servicearbeidet.

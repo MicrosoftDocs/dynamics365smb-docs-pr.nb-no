@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e99444fc0c6bddd0174f7d34890ce410847d661c
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 10c491e16b10996a6a81fec19a752e9c276fb875
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777887"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921330"
 ---
 # <a name="recurring-orders"></a>Gjentakelsesordrer
 Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer. Hvis du for eksempel leverer den samme salgsordren annenhver uke, kan du bruke en rammeordre til å opprette gjentakelsesordrer.  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 923bebdb83d4814e1efdf4e6abbc58022e942fb2
-ms.sourcegitcommit: 007b331b6974983ee614db0406f00777da359ecb
+ms.openlocfilehash: 7891bb33c9bae27c9be0179679fefed05bb618d8
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677245"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919779"
 ---
 # <a name="import-payroll-transactions-in-the-norwegian-version"></a>Importere lønnstransaksjoner i den norske versjonen
 

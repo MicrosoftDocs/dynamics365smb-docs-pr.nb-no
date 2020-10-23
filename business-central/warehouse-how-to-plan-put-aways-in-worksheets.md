@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aefbc04e188cc5ac5f87c063819d673fb9cdef8a
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5c957005251b65e1b6c37bb42946146c6a013cfd
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779414"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925425"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
 Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.  

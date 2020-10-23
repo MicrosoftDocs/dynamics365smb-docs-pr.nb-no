@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73005b4c9886e44cf7a9e23e75c247c3739d19ec
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 1d65156d46749e7d06bb746899cee4aa439a1e93
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787299"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3917279"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, produksjonsavgang eller nedjusteringer, registreres endringene i antall og verdi på lageret i henholdsvis varepostene og verdipostene. Det neste trinnet i denne fremgangsmåten er å bokføre lagerverdier i lagerkontiene i Finans.  

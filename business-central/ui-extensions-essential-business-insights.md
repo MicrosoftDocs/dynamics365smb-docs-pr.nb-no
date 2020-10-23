@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ab06a76319897b1eef00ba57d5a1c2cba5773334
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3194238"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3915163"
 ---
 # <a name="the-essential-business-insights-extension"></a>Utvidelsen Viktig forretningsinnsikt
 UtvidelsenViktig forretningsinnsikt finner interessante forretningsfakta i selskapsdataene og viser dem som avisliknende overskrifter i rollesentre. Avhengig av hva utvidelsen finner i dataene, er innsikten fra forrige uke, forrige måned eller tre måneder fra dagens dato. Innsikten oppdateres hvert 10. minutt  

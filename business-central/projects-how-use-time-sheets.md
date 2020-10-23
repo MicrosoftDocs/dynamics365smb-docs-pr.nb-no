@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource
-ms.date: 06/22/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 371f9c8629d699d7c07f2d72c99b8b64fac3b4b9
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 68271b7f6f90f88af74cee848af82d28abbf339f
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780338"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3921370"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
 
@@ -113,6 +113,27 @@ Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den 
     >   Bare linjer som har statusen **Godkjent**, kan åpnes på nytt. Linjer som har statusen **Avvist**, kan ikke åpnes på nytt. Du kan ikke åpne en timeliste på nytt hvis den er bokført.  
 3. På siden **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt på siden **Timeliste**.
 4. Velg **OK**. Statusen for timelistelinjen eller -linjene endres til **Sendt**.  
+
+## <a name="to-view-and-approve-time-sheets-by-job"></a>Slik viser og godkjenner du timelister etter prosjekt
+
+På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne informasjonen er knyttet til timelistelinjer, og kan brukes til å lage en liste over timelistene som en prosjektleder må gjennomgå og godkjenne. Prosjektlederen for en prosjektgruppe kan for eksempel ha ansvaret for bestemte prosjekter i selskapet. I dette tilfellet bør lederen velges som **Ansvarlig person** på prosjektkortet. I denne visningen av timelisteinformasjon kan du se prosjektoppgaver som er knyttet til et prosjekt, og antall timer som er brukt.
+
+> [!NOTE]
+> For å kunne godkjenne timelister i vinduet **Timeliste for leder etter prosjekt** må du først velge et alternativ for **Timeliste etter jobbgodkjenning** på siden **Ressursoppsett**. Hvis du vil ha mer informasjon, kan du se [Definere ressurser](projects-how-setup-resources.md).
+
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Slik godkjenner eller avviser du timelister etter prosjekt:
+
+1. Skriv inn **Timeliste for leder etter prosjekt** i **Søk**-boksen, og velg deretter den relaterte koblingen. Microsoft Dynamics NAV viser en liste over timelistelinjer som er knyttet til prosjektene du har ansvar for.
+2. I fanebladet **Hjem** velger du **Godkjenn**. Velg **Alle** for å godkjenne alle linjene. Velg **Valgt** for å godkjenne bare valgte linjer.
+
+    > [!NOTE]
+    > Du kan bare godkjenne timelister som har statusen **Sendt**.
+
+3. For å gi tilleggsinformasjon om godkjenningen eller avvisningen kan du velge en timelistelinje og gå til kategorien **Naviger** og velge **Merknader**. Angi en dato i **Dato**-feltet, og skriv deretter inn en merknad i **Merknad**-feltet.
+4. Velg **OK**-knappen.
+
+> [!NOTE]
+> Når du har godkjent eller avvist en timelistelinje etter prosjekt, kan den ikke åpnes på nytt eller endres i vinduet **Timeliste**.
 
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Slik bokfører du timelistelinjer i en ressurskladd
 Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem til den relevante ressurskladden.

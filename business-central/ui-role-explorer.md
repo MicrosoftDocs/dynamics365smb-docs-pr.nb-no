@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 732ba4989b5097e57ed6e42df1502053151ca36b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781213"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3914913"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.

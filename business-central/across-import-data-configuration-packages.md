@@ -1,5 +1,5 @@
 ---
-title: Bruke Excel til å importere data til Business Central | Microsoft-dokumentasjon
+title: Bruke Excel til å importere data til Business Central
 description: Bruk standard konfigurasjonspakke til å legge kundedata i Excel og importere dataene tilbake til Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: migration, Excel
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e5f8ed744e6596e59789b1fa1857e124026ab63b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 143d40c1005b3ce6b54f9a2f5abc865b3d76b361
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187823"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924681"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
+
 Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du velge å opprette et tomt firma, slik at du kan laste opp dine egne data og teste det nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet. Avhengig av økonomiløsning som selskapet ditt bruker i dag, kan du overføre informasjon om kunder, leverandører, lager og bankkonti.  
 
 Fra Rollesenteret kan du starte en assistert oppsettsveiledning som hjelper deg med å overføre forretningsdata fra en Excel-fil eller fra andre formater. Filtypene du kan laste opp, avhenger av utvidelsene som er tilgjengelige. Du kan for eksempel overføre opp data fra QuickBooks fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en utvidelse som håndterer konverteringen fra QuickBooks. Hvis du vil overføre data fra andre økonomiløsninger, må du kontrollere om en utvidelse er tilgjengelig for denne løsningen eller importere fra Excel.  
@@ -27,7 +28,7 @@ Fra Rollesenteret kan du starte en assistert oppsettsveiledning som hjelper deg 
 Du kan importere hoveddata og noen transaksjonsdata fra andre finanssystemer som er basert på standard konfigurasjonspakke i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På siden **Konfigurasjonspakker** kan du arbeide med pakken for å importere og validere dataene før du bruker pakken.  
 
 > [!TIP]  
-> Du kan også bruke veivisere for datamigrering til å importere data fra QuickBooks eller Dynamics GP. Hvis du vil ha mer informasjon, kan du se [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md) eller [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md).
+> Vi anbefaler at du bruker veivisere for datamigrering til å importere data fra Dynamics GP, Dynamics NAV eller QuickBooks. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet eller [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md).
 
 > [!NOTE]  
 > For omfattende implementasjonsarbeid kan du bruke RapidStart Services for [!INCLUDE[d365fin](includes/d365fin_md.md)], et omfattende verktøy for å definere nye løsninger basert på kundens forretningskrav og oppsettsdata. RapidStart Services har dessuten funksjoner for import av forretningsdata. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
@@ -81,8 +82,8 @@ Standard konfigurasjonspakke støtter følgende tabeller:
 
 ## <a name="see-also"></a>Se også
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
+[Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)  
-[Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)  
 [Importere flere varebilder](inventory-how-import-item-pictures.md)
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

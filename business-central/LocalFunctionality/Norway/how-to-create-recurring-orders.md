@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 175420f95a2f609e43a391c584e6c5e6b98bb294
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 05f24f28573a3a6b3b637fb70d6eda6cb159cf94
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778516"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919791"
 ---
 # <a name="create-recurring-orders"></a>Opprett gjentakelsesordrer
 Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene. Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.  

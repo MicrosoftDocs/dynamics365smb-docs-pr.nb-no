@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fdc407ef26d238ba54a2566cdd9003c29da2eeb3
-ms.sourcegitcommit: d67328e1992c9a754b14c7267ab11312c80c38dd
+ms.openlocfilehash: d8140f71709208a271eff5c8de415b0e95736072
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3196666"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911408"
 ---
 # <a name="couple-and-synchronize-records-manually"></a>Sammenkoble og synkronisere poster manuelt
 Dette emnet beskriver hvordan du kobler sammen én eller flere poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] med poster i Common Data Service eller [!INCLUDE[crm_md](includes/crm_md.md)]. Kobling av poster lar deg vise Common Data Service-informasjon fra [!INCLUDE[d365fin](includes/d365fin_md.md)], og omvendt. Kopling lar deg også synkronisere data mellom postene. Du kan koble eksisterende poster, eller du kan opprette og koble nye poster.

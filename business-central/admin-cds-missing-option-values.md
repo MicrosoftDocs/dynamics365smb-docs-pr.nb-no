@@ -7,13 +7,13 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.date: 02/03/2020
-ms.openlocfilehash: 5f914904aaa1ec568b396a830ebc18a0fe4e40c1
-ms.sourcegitcommit: 79d6d270325f1cc88bd4e9a273f9ff859ceadcbc
+ms.date: 10/01/2020
+ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3693027"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3911674"
 ---
 # <a name="handling-missing-option-values"></a>Håndtere manglende alternativverdier
 [!INCLUDE[d365fin](includes/cds_long_md.md)] inneholder bare tre alternativsettfelt som inneholder alternativverdier som du kan tilordne til [!INCLUDE[d365fin](includes/d365fin_md.md)]-felt av typen Alternativ<!-- Option type, not enum? @Onat can you vertify this? --> for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og legges til i systemtabellen **Tilordning av CDS-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen. Dette avsnittet beskriver hvordan det fungerer.

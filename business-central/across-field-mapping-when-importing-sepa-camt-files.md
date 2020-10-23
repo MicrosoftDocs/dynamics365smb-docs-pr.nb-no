@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 32e9ea2c4902a579a36134d1ac69ca4b1c06de8f
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3780638"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918054"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Felttilordning ved import av SEPA CAMT-filer
 [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
@@ -57,7 +57,11 @@ ms.locfileid: "3780638"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ustrukturert|Tekst|Informasjon for å aktivere tilsvarende/avstemming av en post med varene som betalingen skal utlignes mot, for eksempel kommersielle fakturaer i et kundefordringsystem i et ustrukturert skjema||6|Beskrivelse|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Mer informasjon om posten||16|Transaksjonsinformasjon|  
 
- Elementer i **Ntry**-noden som importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)], men som ikke tilordnes til felt som er lagret i tabellen **Kolonnedefinisjon for bokføringsutveksl.**. Brukere kan vise disse elementene fra sidene **Betalingsavstemmingskladd**, **Betalingsutligning** og **Bankkontoavstemming** ved å velge handlingen **Detaljer om bankkontoutdragslinje**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).  
+ Elementer i **Ntry**-noden som importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)], men som ikke tilordnes til felt som er lagret i tabellen **Kolonnedefinisjon for bokføringsutveksl.**. Brukere kan vise disse elementene fra sidene **Betalingsavstemmingskladd**, **Betalingsutligning** og **Bankkontoavstemming** ved å velge handlingen **Detaljer om bankkontoutdragslinje**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> I en import av CAMT-bankkontoutdrag forventer [!INCLUDE[d365fin](includes/d365fin_md.md)] at hver transaksjon er unik, noe som betyr at feltet **Transaksjons-ID** som kommer fra *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId*-koden i CAMT-filen, må være unik innenfor den åpne bankkontoavstemmingen. Hvis informasjonen ikke vises, ignorerer [!INCLUDE[d365fin](includes/d365fin_md.md)] betalingen. Hvis en tidligere bankavstemming på den samme bankkontoen ble bokført med den samme transaksjons-ID-en som i gjeldende import, avstemmes ikke gjeldende transaksjon automatisk, men den kan fortsatt importeres.
+
 ## <a name="see-also"></a>Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)  

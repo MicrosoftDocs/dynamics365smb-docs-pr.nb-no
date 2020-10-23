@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 04/01/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781888"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924881"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Legge til kommentarer i kort og dokumenter
 Du kan legge til tilleggsinformasjon for finanskontoer, kundekort eller ordrer for å formidle unntak eller spesielle avtaler avtaler til andre brukere.

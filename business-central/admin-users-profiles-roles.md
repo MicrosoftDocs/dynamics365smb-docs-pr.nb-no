@@ -5,14 +5,14 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.keywords: profiles, users
-ms.date: 06/26/2020
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d44ccf98ac02e24d1cd136bf1a0fe31b5bf0437
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 16be03cec9799817646bcc04f842b2f5d3519caa
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3786099"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3922295"
 ---
 # <a name="manage-profiles"></a>Administrere profiler
 
@@ -67,7 +67,7 @@ På siden **Mine innstillinger** kan brukerne definere grunnleggende virkemåte 
 Som administrator kan du definere disse innstillingene for en profil og dermed bruke innstillingene for alle brukerne av den relaterte rollen.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profiler (Roller)**, og velg deretter den relaterte koblingen.
-2. Velg linje for profilen du vil endre brukerinnstillinger for, velg **Naviger**-handlingen, og velg deretter handlingen **Brukertilpasninger**.
+2. Velg linje for profilen du vil endre brukerinnstillinger for, og velg deretter handlingen **Brukertilpasningsliste**.
 3. Åpne siden **Brukertilpasninger**, åpne kortet for brukeren du vil endre innstillinger for.
 4. På siden **Brukertilpasningskort** redigerer du feltene etter behov.
 
@@ -139,7 +139,7 @@ Du kan også slette individuelle sidetilpasninger for en profil. Hvis du vil ha 
 
 Du kan som administrator for [!INCLUDE[prodshort](includes/prodshort.md)] online behandle brukerøkter i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Behandle økter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrasjonsinnholdet.  
 
-For lokal [!INCLUDE[prodshort](includes/prodshort.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server/?view=sql-server-ver15).  
+For lokal [!INCLUDE[prodshort](includes/prodshort.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server).  
 
 ## <a name="see-also"></a>Se også  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
