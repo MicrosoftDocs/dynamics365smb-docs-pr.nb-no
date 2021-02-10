@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0e6218a313c2cb9031da8ee1c66a90cfe9dd0207
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf19cc5b0ae606ce7f235e707057516dba4ca5e0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915263"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757845"
 ---
 # <a name="planning-services"></a>Planlegge servicer
-Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere standardoppgaver som er nødvendige for å oppfylle kundeservicekravene. For å gjøre dette må du fastsette hvilke tilbud av servicevarer som serviceorganisasjon støtter og til hvilken pris.   
+Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere standardoppgaver som er nødvendige for å oppfylle kundeservicekravene. For å gjøre dette må du fastsette hvilke tilbud av servicevarer som serviceorganisasjon støtter og til hvilken pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder også neon statistikkverktøy du kan bruke til å bestemme hvor godt det går og finne områder der du kan forbedre deg.
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder også neon statistikkverktøy du kan bruke til å bestemme hvor godt det går og finne områder der du kan forbedre deg.
   
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
   

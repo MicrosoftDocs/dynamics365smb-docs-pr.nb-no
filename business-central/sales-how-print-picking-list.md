@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c89cb40559a570605401108d7560f6b989e06773
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 47ae132d862d2c05bef4ea0d0af26688bdd16588
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926150"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758220"
 ---
 # <a name="print-the-picking-list"></a>Skrive ut plukklisten
 Du kan skrive ut en plukkliste for lager direkte fra en ordre, salgsfaktura eller andre dokumenter som igangsetter levering av varer.
@@ -38,4 +38,4 @@ Du kan også lagre plukklisten som et dokument, for eksempel for å sende til no
 ## <a name="see-also"></a>Se også  
 [Lager](inventory-manage-inventory.md)  
 [Plukke varer](warehouse-pick-items.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)   
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dff5ad97f8fa4b8fecf2906806d74283b46fd95d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914913"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756696"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
 
-Hvert element i rolleutforskeren er en handling som åpner en side. Du kan også bruke rolleutforskeren som en metode for å navigere i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hvert element i rolleutforskeren er en handling som åpner en side. Du kan også bruke rolleutforskeren som en metode for å navigere i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fortell meg**-vinduet.
 
@@ -44,4 +44,4 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
 ## <a name="see-also"></a>Se også
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,16 +11,16 @@ ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f658764eafa6f9aa35e33cf8098ca77799fb1e0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 853a45dc32907c2d9b69f7b2e592dc164c20a094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912474"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757370"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbeide med datoer og klokkeslett i kalenderen
 
-[!INCLUDE[d365fin](includes/d365fin_long_md.md)] tilbyr flere måter å angi datoer og klokkeslett på, inkludert avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
+[!INCLUDE[prod_short](includes/prod_long.md)] tilbyr flere måter å angi datoer og klokkeslett på, inkludert avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere innstillinger for region og språk
 Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett.
@@ -30,7 +30,7 @@ Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i program
 -   For datomønstre som involverer ord, må ordene du bruker, samsvare med **Språk**-innstillingen.
 
 > [!NOTE]
-> [!INCLUDE[d365fin](includes/d365fin_long_md.md)] bruker det gregorianske kalendersystemet.
+> [!INCLUDE[prod_short](includes/prod_long.md)] bruker det gregorianske kalendersystemet.
 
 <!--
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
@@ -217,7 +217,7 @@ You can also combine the various format types.
 |12 15 16&#124;12 01 16..05 31 17 | Entries posted either on December 15 2016 or on dates between and including December 01 2016 and May 31 2017. |
 |..12 14 16&#124;12 30 16.. | Entries posted on December 14 or earlier, or entries posted on December 30 or later - that is, all entries except those posted on dates between and including December 15 and 29. |
 
-Note that we have used the US date format MMDDYY here. As [!INCLUDE[d365fin](includes/d365fin_md.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
+Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
 ## Using Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
@@ -312,7 +312,7 @@ Vær oppmerksom på at millisekunder tolkes som desimalformat. Derfor betyr båd
 
 Du kan ikke bruke 24:00 til å angi midnatt eller bruke en verdi som er større enn 24:00.
 
-Ordet for tidspunkt på språket som brukes av [!INCLUDE[d365fin](includes/d365fin_long_md.md)], evalueres etter gjeldende dato og klokkeslett på datamaskinen eller mobilenheten. Du kan angi en del av ordet, fra begynnelsen, som for eksempel t eller TIM.
+Ordet for tidspunkt på språket som brukes av [!INCLUDE[prod_short](includes/prod_long.md)], evalueres etter gjeldende dato og klokkeslett på datamaskinen eller mobilenheten. Du kan angi en del av ordet, fra begynnelsen, som for eksempel t eller TIM.
 
 ## <a name="entering-combined-dates-and-times"></a>Angi kombinerte datoer og klokkeslett
 Når du angir dato og klokkeslett, som er en dato og klokkeslett kombinert i ett felt, må du angi et mellomrom mellom datoen og klokkeslettet. Datodelen kan bare inneholde mellomrom i form av det offisielle datoskilletegnet i regioninnstillingene. Klokkeslettet kan inneholde mellomrom rundt AM/PM-indikatoren.
@@ -366,6 +366,6 @@ Hvis du vil se hvilken enhet som er brukt i et varighetsfelt, kan du angi et tal
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_long_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Angi vilkår i filtre](ui-enter-criteria-filters.md)  

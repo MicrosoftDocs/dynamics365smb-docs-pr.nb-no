@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2cfc545e328da020ce8ecd4dc7a79e6303902636
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed2cd341010ef8d90e037a9afaa240d755fc3d7a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916554"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759120"
 ---
 # <a name="post-scrap-manually"></a>Bokføre vrak manuelt
 Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigmeldingskladden. 
@@ -36,4 +36,4 @@ Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigme
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

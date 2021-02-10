@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e3b0b01eb85cc6b24cc665e340da1d479517924a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 650f45093688825565eb664ebca7daaa3e972140
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914863"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756520"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
@@ -38,7 +38,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
  I denne gjennomgangen brukes Marie (medlem i prosjektgruppen) som rollefiguren.  
 
 ## <a name="prerequisites"></a>Forutsetninger  
- Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[d365fin](includes/d365fin_md.md)] være installert på datamaskinen.  
+ Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[prod_short](includes/prod_short.md)] være installert på datamaskinen.  
 
 ## <a name="story"></a>Hovedscenario  
  Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet i CRONUS er prosjektorientert og Marie, et prosjektgruppemedlem, bruker prosjekter til å ha oversikt over hvert pågående prosjekt som CRONUS har startet, og også prosjekter som er fullført. Noen av prosjektene kan være svært lange og kan kjøre over måneder. Marie kan bruke en VIA-konto til å registrere varer i arbeid og spore kostnadene i hele prosjektet.  
@@ -156,11 +156,11 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
     >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan hun tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
 
 ## <a name="next-steps"></a>Neste trinn  
- Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
+ Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[prod_short](includes/prod_short.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
 
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)   
  [Forstå VIA-metoder](projects-understanding-wip.md)   
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

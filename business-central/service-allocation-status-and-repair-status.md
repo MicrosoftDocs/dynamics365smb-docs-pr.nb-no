@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910408"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757945"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
 Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  
@@ -38,7 +38,7 @@ Når du konverterer et servicetilbud til en serviceordre, oppdateres serviceordr
 * Det søkes etter tildelingsposter for alle servicevarene i serviceordren, med status **Aktiv**. Hvis det blir funnet slike tildelingsposter, endres tildelingsstatusen fra **Aktiv** til **Ny tildeling nødvendig**.  
   
 ## <a name="canceling-allocations"></a>Avbryte tildelinger  
-Når du avbryter en tildeling for en servicevare, oppdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] tildelingsstatusen til den tilhørende tildelingsposten fra **Aktiv** til **Ny tildeling nødvendig**.
+Når du avbryter en tildeling for en servicevare, oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] tildelingsstatusen til den tilhørende tildelingsposten fra **Aktiv** til **Ny tildeling nødvendig**.
 
 Reparasjonsstatusen til servicevaren i tildelingsposten oppdateres på følgende måter:  
   

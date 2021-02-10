@@ -1,21 +1,21 @@
 ---
 title: Sortere, søke etter og filtrere oversikter | Microsoft-dokumentasjon
-description: Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av effektive filtersymboler og tastatursnarveier.
-author: SorenGP
+description: Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av filtersymboler og tastatursnarveier.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 5c67ea33937ded164626e4c403522a7dc1f3dca0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.date: 11/16/2020
+ms.author: jswymer
+ms.openlocfilehash: eda7ab79b326f860816504014d6eefa9fb13a600
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912574"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757595"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 
@@ -24,7 +24,7 @@ Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og beg
 For rapporter og XML-porter kan du definere filtre som i lister for å avgrense hvilke data som skal inkluderes i rapporten eller XMLport, men du kan ikke sortere og søke.
 
 > [!TIP]
-> Når du viser dataene som fliser, kan du søke etter og bruke grunnleggende filtrering. Hvis du vil bruke hele settet med avanserte funksjoner for å sortere, søke og filtrere, velger du ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste, pil venstre") for å vise postene som en liste.
+> Når du viser dataene som fliser, kan du søke etter og bruke filtrering. Hvis du vil bruke hele settet med avanserte funksjoner for å sortere, søke og filtrere, velger du ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste, pil venstre") for å vise postene som en liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -32,9 +32,12 @@ When you want to search for data, such as customer names, addresses, or product 
 
 ## <a name="sorting"></a>Sortering
 
-Sortering gjør det enkelt å få et raskt overblikk over dataene. Hvis du har mange kunder, kan du for eksempel velge å sortere dem etter **Kundenr.**, **Bokføringsgruppe - kunde**, **Valutakode**, **Lands-/områdekode** eller **Mva-organisasjonsnummer** for å få nødvendig oversikt.
+Sortering gjør det enkelt å få et raskt overblikk over dataene. Hvis du for eksempel har mange kunder, kan du velge å sortere dem etter **Kundenr.**, **Valutakode** eller **Lands-/områdekode** for å få nødvendig oversikt.
 
-Hvis du vil sortere en liste, kan du enten velge en kolonneoverskriftstekst og veksle mellom stigende og synkende rekkefølge, eller velge nedpilen i kolonneoverskriften og deretter velge handlingen **Stigende** eller **Synkende**.  
+Hvis du vil sortere en liste, kan du:
+
+- velge en kolonneoverskriftstekst for å veksle mellom stigende og synkende rekkefølge, eller
+- velge rullegardinpilen i kolonneoverskriften, og deretter velge handlingen **Stigende** eller **Synkende**.  
 
 > [!NOTE]  
 > Sortering støttes ikke for bilder, BLOB-felt, FlowFilters og felt som ikke hører til i en tabell.  
@@ -46,11 +49,18 @@ Hvis du vil sortere en liste, kan du enten velge en kolonneoverskriftstekst og v
 
 For å søke velger du **Søk**-handlingen, og deretter skriver inn teksten som du søker etter, i boksen. Du kan skrive inn bokstaver, tall og andre symboler.
 
-### <a name="fine-tuning-the-search"></a>Finjustere søket
-
 Vanligvis vil søket forsøke å samsvare tekst i alle felt. Det skiller ikke mellom store og små bokstaver og samsvarer tekst plassert hvor som helst i feltet, ved begynnelsen, ved slutten eller i midten.
 
-Du kan imidlertid foreta et mer nøyaktig søk ved hjelp av spesialtegn.
+> [!TIP]
+> Du kan trykke **F3** for å aktivere og deaktivere søkeboksen. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter).
+
+> [!NOTE]  
+> Søket vil ikke tilsvare verdier i bilder, BLOB-felt, FlowFilters, FlowFields og andre felt som ikke er en del av en tabell.
+
+
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Finjustere søket med filterkriterier
+
+Du kan foreta et mer nøyaktig søk ved å bruke filteroperatorer, uttrykk og filterkoder. I motsetning til filtrering brukes disse på tvers av alle felter når de brukes i søkefeltet, noe som gjør dem mindre effektive enn filtrering.
 
 - Hvis du vil finne bare feltverdiene som nøyaktig samsvarer med hele teksten og store/små bokstaver, setter du tekst mellom enkle anførselstegn `''` (for eksempel `'man'`).
 
@@ -70,20 +80,15 @@ Tabellen nedenfor inneholder eksempler som forklarer hvordan du kan bruke søket
 |`@Man*`|Alle poster med felt som starter med teksten **man**, uavhengig av store/små bokstaver. For eksempel **Manchester** og **manuell**, men ikke **sportsmann**.|
 |`@*man`|Alle poster som slutter med teksten **man**, uavhengig av store/små bokstaver. For eksempel **Sportsman**, men ikke **Manchester** eller **manuell**.|
 
-> [!TIP]
-> Du kan trykke **F3** for å aktivere og deaktivere søkeboksen. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
-
-> [!NOTE]  
-> Søket vil ikke tilsvare verdier i bilder, BLOB-felt, FlowFilters, FlowFields og andre felt som ikke er en del av en tabell.
 
 ## <a name="filtering"></a><a name="filtering"></a>Filtrering
 
-Filtrering er en mer avansert og allsidig måte å kontrollere hvilke poster som vises i en liste eller inkluderes i en rapport eller XMLport. Det finnes to viktige forskjeller mellom søking og filtrering, som beskrevet i tabellen nedenfor.
+Filtrering er en mer avansert og allsidig måte å kontrollere hvilke poster som tas med i en liste, rapport eller XMLport. Det finnes to viktige forskjeller mellom søking og filtrering, som beskrevet i tabellen nedenfor.
 
 || **Søke** | **Filtrering** |
 |--|----------|------------|
 | **Gjeldende felt** | Søker i alle feltene som vises på siden. | Filtrerer ett eller flere felt hver for seg, og du kan velge fra et hvilket som helst felt i tabellen, inkludert felt som ikke vises på siden. |
-| **Avstemming** | Viser poster med felt som samsvarer med søketeksten, uavhengig av store/små bokstaver eller plassering av teksten. | Viser poster der feltet samsvarer med filteret nøyaktig, og skiller mellom store/små bokstaver, med mindre spesielle filtersymboler er angitt.
+| **Avstemming** | Viser poster med felter som samsvarer med søketeksten, uavhengig av store/små bokstaver i teksten eller plassering av teksten i feltet. | Viser poster der feltet samsvarer med filteret nøyaktig, og skiller mellom store/små bokstaver i teksten, med mindre spesielle filtersymboler er angitt.
 
 Med filtrering kan du vise poster for bestemte konti eller kunder, datoer, beløp og annen informasjon ved å angi filterkriterier. Bare poster som samsvarer med kriteriene, vises i oversikten eller inkluderes i rapporten, den satsvise jobben eller XMLport. Hvis du angir kriterier for flere felt, vises bare poster som samsvarer med alle kriteriene.
 
@@ -91,7 +96,7 @@ For lister vises filtrene i en filtreringsrute som vises til venstre for listen 
 
 ### <a name="filtering-with-option-fields"></a>Filtrere med alternativfelt
 
-Når det gjelder "vanlige" felt som inneholder data, oppsettdata eller forretningsdata, kan du angi filtre både ved å merke dataene og skrive inn filterverdier, og du kan bruke symboler til å definere avanserte filterkriterier. Hvis du vil ha mer informasjon, kan du se [Angi filterkriterier](ui-enter-criteria-filters.md#entering-filter-criteria).
+Når det gjelder «vanlige» felt som inneholder data, oppsettdata eller forretningsdata, kan du angi filtre både ved å merke dataene og skrive inn filterverdier, og du kan bruke symboler til å definere avanserte filterkriterier. Hvis du vil ha mer informasjon, kan du se [Angi filterkriterier](ui-enter-criteria-filters.md#entering-filter-criteria).
 
 For felt av typen **Alternativ** kan du imidlertid bare angi et filter ved å velge ett eller flere alternativer fra en rullegardinliste med de tilgjengelige alternativene. Et eksempel på et alternativfelt er feltet **Status** på siden **Salgsordrer**.
 
@@ -110,15 +115,15 @@ Filtreringsruten viser gjeldende filtre for en liste og gjør det mulig å angi 
 
 - **Visninger**
 
-  Enkelte lister inkluderer delen **Visninger**. Visninger er variasjoner av listen som er forhåndsdefinert med filtre. Du kan definere og lagre så mange visninger du vil, per liste, og visningene vil være tilgjengelige på alle enheter du logger på. Hvis du vil ha mer informasjon, kan du se [Lagre og tilpasse listevisninger](ui-views.md).
+  Enkelte lister inkluderer delen **Visninger**. Visninger er variasjoner av listen som er forhåndsdefinert med filtre. Du kan definere og lagre så mange visninger som du ønsker per liste. Visningene vil være tilgjengelige på alle enheter du logger på. Hvis du vil ha mer informasjon, kan du se [Lagre og tilpasse listevisninger](ui-views.md).
 
 - **Filtrer listen etter**
 
-  Det er her du legger til filtre på bestemte felt for å redusere antall poster som vises. Hvis du vil legge til et filter, velger du handlingen **+ Filter**, skriver inn navnet på feltet du vil filtrere listen etter, eller velger et felt fra rullegardinlisten.
+  Det er i denne inndelingen du legger til filtre på bestemte felt for å redusere antall poster som vises. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere listen etter, eller velg et felt fra rullegardinlisten.
 
 - **Filtrer totaler etter**
 
-  Enkelte lister som viser beregnede felt, for eksempel beløp og antall, inkluderer delen **Filtrer totaler etter**, der du kan justere forskjellige dimensjoner som påvirker beregninger. Hvis du vil legge til et filter, velger du handlingen **+ Filter**, skriver inn navnet på feltet du vil filtrere listen etter, eller velger et felt fra rullegardinlisten.
+  Enkelte lister som viser beregnede felt, for eksempel beløp og antall, inkluderer delen **Filtrer totaler etter**, der du kan justere forskjellige dimensjoner som påvirker beregninger. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere listen etter, eller velg et felt fra rullegardinlisten.
 
   > [!NOTE]
   > Filtre i delen **Filtrer totaler etter** kontrolleres av FlowFilters i utformingen av siden. For teknisk Informasjon, se [FlowFilters](/dynamics365/business-central/dev-itpro/developer/devenv-flowfilter-overview).
@@ -129,9 +134,9 @@ Du kan angi et enkelt filter direkte i en liste ved hjelp av filtreringsruten, d
 
 For rapporter og XML-porter vises filtrene direkte på forespørselssiden. På forespørselssiden vises de sist brukte filtrene i henhold til valget i feltet **Bruk standardverdi fra**. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
 
-Hoveddelen for **Filter** viser standardfilterfeltene du bruker til å avgrense hvilke poster som skal tas med i rapporten eller XMLport. Hvis du vil legge til et filter, velger du handlingen **+ Filter**, skriver inn navnet på feltet du vil filtrere etter, eller velger et felt fra rullegardinlisten.
+Hoveddelen for **Filter** viser standardfilterfeltene du bruker til å avgrense hvilke poster som skal tas med i rapporten eller XMLport. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere etter, eller velg et felt fra rullegardinlisten.
 
-I delen **Filtrer totaler etter** kan du justere ulike dimensjoner som påvirker beregninger i rapporten eller XMLport. Hvis du vil legge til et filter, velger du handlingen **+ Filter**, skriver inn navnet på feltet du vil filtrere etter, eller velger et felt fra rullegardinlisten.
+I delen **Filtrer totaler etter** kan du justere ulike dimensjoner som påvirker beregninger i rapporten eller XMLport. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere etter, eller velg et felt fra rullegardinlisten.
 
 ## <a name="entering-filter-criteria"></a>Angi filtervilkår
 
@@ -142,19 +147,19 @@ Typen filterfelt bestemmer hvilke kriterier du kan angi. For eksempel kan filtre
 Kolonner som allerede har filtre, angis av ikonet ![filterikon](media/ui-search/filter-icon.png "Filter-ikon") i kolonneoverskriften. Hvis du vil fjerne et filter, velger du rullegardinpilen, og deretter velger du handlingen **Fjern filter**.
 
 > [!TIP]
-> Raskere søk analyse av data ved hjelp av kombinasjoner av tastatursnarveier. Du kan for eksempel velge et felt ved å bruke **Alt+Skift+F3** for å legge til feltet i filtreringsruten, skrive inn filterkriteriene, bruke **Ctrl+Enter** til å returnere til radene, velge et annet felt og bruke **Alt+F3** til å filtrere til den verdien. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
+> Raskere søk analyse av data ved hjelp av kombinasjoner av tastatursnarveier. Du kan for eksempel velge et felt ved å bruke **Alt+Skift+F3** for å legge til feltet i filtreringsruten, skrive inn filterkriteriene, bruke **Ctrl+Enter** til å returnere til radene, velge et annet felt og bruke **Alt+F3** til å filtrere til den verdien. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="filter-criteria-and-symbols"></a><a name="FilterCriteria"> </a>Filterkriterier og symboler
+### <a name="filter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filterkriterier og -operatorer
 
-Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan bruke i feltet. I tillegg til dette kan du bruke spesielle symboler (eller operatorer) til å filtrere resultatene ytterligere. Tabellene nedenfor viser hvilke symboler som kan brukes i filtre. For dato og klokkeslett kan du også se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) for mer informasjon.
+Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan bruke i feltet. Men det er også et sett med spesialtegn du kan bruke som operatorer, til å filtrere resultatene ytterligere. Følgende avsnitt beskriver disse symbolene og hvordan de brukes som operatorer i filtre.
 
-> [!IMPORTANT]  
-> Det kan være tilfeller der feltverdiene inneholder disse symbolene og du vil filtrere på dem. Hvis du vil gjøre dette, må du ta med filteruttrykket som inneholder symbolet, i anførselstegn (''). Hvis du for eksempel vil filtrere på poster som begynner med teksten *S&R*, er filteruttrykket `'S&R*'`.
+> [!TIP]
+> Hvis du vil ha mer informasjon om filtrering av datoer og klokkeslett, kan du se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
-Følgende avsnitt beskriver hvordan du bruker de ulike operatorene.
-
-> [!NOTE]
-> Hvis det er mer enn 200 operatører i ett enkelt filter, vil systemet automatisk gruppere enkelte uttrykk i parenteser `()` for å behandle det. Dette har ingen innvirkning på filteret eller resultatet.  
+> [!IMPORTANT]
+> - Det kan oppstå situasjoner der verdien du vil filtrere på, inneholder et symbol som er en operator. Hvis du vil ha mer informasjon om hvordan du håndterer disse situasjonene, kan du se [Filtrere etter verdier som inneholder symboler](#symbols) for å få mer informasjon om hvordan du håndterer denne situasjonen.
+>
+> - Hvis det er mer enn 200 operatører i ett enkelt filter, vil systemet automatisk gruppere enkelte uttrykk i parenteser `()` for å behandle det. Dette har ingen innvirkning på filteret eller resultatet.  
 
 #### <a name="-interval"></a>(..) Intervall
 
@@ -214,27 +219,27 @@ Følgende avsnitt beskriver hvordan du bruker de ulike operatorene.
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`'man'`|Tekst som samsvarer nøyaktig med man og skiller mellom store og små bokstaver.|  
+|`'man'`|Tekst som samsvarer nøyaktig med **man** og skiller mellom store og små bokstaver.|  
 
 #### <a name="-case-insensitive"></a>(@) Skiller ikke mellom små og store bokstaver  
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`@man*`|Tekst som begynner med man og skiller mellom store og små bokstaver.|  
+|`@man*`|Tekst som begynner med **man** og skiller mellom store og små bokstaver.|  
 
 #### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Et ubegrenset antall ukjente tegn
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`*Co*`|Tekst som inneholder A/S og skiller mellom små og store bokstaver.|  
-|`*Co`|Tekst som slutter med A/S og skiller mellom små og store bokstaver.|  
-|`Co*`|Tekst som begynner med A/S og skiller mellom små og store bokstaver.|  
+|`*Co*`|Tekst som inneholder **A/S** og skiller mellom små og store bokstaver.|  
+|`*Co`|Tekst som slutter med **A/S** og skiller mellom små og store bokstaver.|  
+|`Co*`|Tekst som begynner med **A/S** og skiller mellom små og store bokstaver.|  
 
 #### <a name="-one-unknown-character"></a>(?) Ett ukjent tegn  
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
-|`Hans?n`|Tekst som for eksempel Hansen eller Hanson|  
+|`Hans?n`|Tekst som for eksempel **Hansen** eller **Hanson**|  
 
 #### <a name="combined-format-expressions"></a>Kombinerte formatuttrykk  
 
@@ -244,8 +249,23 @@ Følgende avsnitt beskriver hvordan du bruker de ulike operatorene.
 |`..1299|1400..`|Ta med poster som har numre som er mindre enn eller lik 1299 eller nummeret 1400 eller høyere (alle numre utenom fra og med 1300 til og med 1399).|  
 |`>50&<100`|Inkluder poster med numre som er større enn 50 og mindre enn 100 (det vil si tallene fra og med 51 til og med 99).|  
 
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrere etter verdier som inneholder symboler
+
+Det kan være tilfeller der feltverdier inneholder ett av følgende symboler:
+
+- &
+- (
+- )
+- =
+- &#124;
+
+Hvis du vil filtrere etter noen av disse symbolene, plasserer du filteruttrykket i anførselstegn (''). Hvis du for eksempel vil filtrere på poster som begynner med teksten *J & V*, er filteruttrykket `'J & V*'`.
+
+Dette kravet er ikke nødvendig for andre symboler.
+
 ### <a name="filter-tokens"></a><a name="FilterTokens"> </a>Filtersymboler
-Når du angir filterkriterier, kan du også skrive inn ord som har spesiell betydning, som kalles filtersymboler. Når du har angitt symbolordet, erstattes ordet av verdien eller verdiene det representerer. Dermed blir filtreringen enklere ved å redusere behovet for å navigere til en annen side for å slå opp verdiene du vil legge til i filteret. Tabellen nedenfor beskriver noen av symbolene du kan bruke som filterkriterier.
+
+Når du angir filterkriterier, kan du også skrive inn ord som har spesiell betydning, som kalles filtersymboler. Når du har angitt symbolordet, erstattes ordet av verdien eller verdiene det representerer. Filterkoder gjør filtreringen enklere ved å redusere behovet for å navigere til en annen side for å slå opp verdiene du vil legge til i filteret. Tabellen nedenfor beskriver noen av symbolene du kan bruke som filterkriterier.
 
 > [!TIP]
 > Organisasjonen kan bruke egendefinerte symboler. Hvis du vil vite mer om det fullstendige settet med symboler du kan bruke, eller legge til flere egendefinerte symboler, kontakt systemansvarlig. For teknisk informasjon, se [Legge til filtersymboler](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
@@ -286,4 +306,4 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
 [Lagre og tilpasse listevisninger](ui-views.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

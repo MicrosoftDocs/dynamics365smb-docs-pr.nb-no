@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb76950dcf84a49ed2644a7db19827999579d24b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918966"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758569"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere prosjektstyring
-Før du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter.
+Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter.
 
 Deretter kan du opprette prosjekter og planlegge ressurser for prosjekter i tillegg til å administrere budsjetter og spore maskin- og ansattimer med timelister. Hvis du vil ha mer informasjon, kan du se [Administrere prosjekter](projects-manage-projects.md).  
 
@@ -38,4 +38,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

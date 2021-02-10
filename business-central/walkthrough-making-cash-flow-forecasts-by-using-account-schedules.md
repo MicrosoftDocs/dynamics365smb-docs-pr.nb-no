@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 67a6e963800bf5f0ce8e1a293463d53b51470ee5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a210792a187bde0217917659f118c58a6a135df2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914788"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756544"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
 Denne gjennomgangen beskriver hvordan du kan bruke kontoskjemaer til å lage kontantstrømprognoser. Kontoskjemaer utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I kontoskjemaer kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
@@ -32,7 +32,7 @@ Denne gjennomgangen beskriver følgende oppgaver:
 ### <a name="prerequisites"></a>Forutsetninger  
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
-- [!INCLUDE[d365fin](includes/d365fin_md.md)] installert.  
+- [!INCLUDE[prod_short](includes/prod_short.md)] installert.  
 - Forslagslinjene for kontantstrøm registreres.  
 
 ## <a name="roles"></a>Roller  
@@ -89,4 +89,4 @@ Ken er nå klar til å tilordne kolonneoppsettet til kontoskjemanavnet.
 ## <a name="see-also"></a>Se også  
  [Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)   
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

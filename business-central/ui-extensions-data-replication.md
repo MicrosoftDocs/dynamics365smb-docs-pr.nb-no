@@ -10,25 +10,25 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 10/01/2020
-ms.author: jenolson
-ms.openlocfilehash: dde6797139f383948d72c52ca1d05298a280087b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f2d8d556ca4628a66c10f323f47137cd35732a68
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915213"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757295"
 ---
 # <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente skyutvidelser for skyoverføring
 
-Avhengig av din lokale løsning må du bruke ulike utvidelser for å koble data til lokal [!INCLUDE[prodshort](includes/prodshort.md)] for å overføre løsningen til skyen.  
+Avhengig av din lokale løsning må du bruke ulike utvidelser for å koble data til lokal [!INCLUDE[prod_short](includes/prod_short.md)] for å overføre løsningen til skyen.  
 
-Hvis du bruker én av de støttede lokale produktene, kan du konfigurere skymiljøet basert på en produktspesifikk utvidelse. Når skymiljøet er konfigurert, vil du kunne overføre data fra den lokale løsningen til [!INCLUDE[prodshort](includes/prodshort.md)]. Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.  
+Hvis du bruker én av de støttede lokale produktene, kan du konfigurere skymiljøet basert på en produktspesifikk utvidelse. Når skymiljøet er konfigurert, vil du kunne overføre data fra den lokale løsningen til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gjør at du kan dra nytte av hva skyen har å tilby bedriften din, for eksempel utvidet innsikt i din bedrift, AI, tilgang til flere enheter og tilgang når og hvor som helst.  
 
-Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prodshort](includes/prodshort.md)].  
+Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="business-central-on-premises"></a>Business Central lokalt
 
-Hvis du bruker en lokal distribusjon av [!INCLUDE[prodshort](includes/prodshort.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent sky for Business Central**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
+Hvis du bruker en lokal distribusjon av [!INCLUDE[prod_short](includes/prod_short.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent sky for Business Central**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
 

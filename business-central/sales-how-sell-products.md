@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30976629fbee935ccefb15fafa11e38527eb922c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f6d913681967bbe609a03d7d6a2736e9c86b4ce0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910633"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758170"
 ---
 # <a name="sell-products"></a>Selge produkter
 
 Du kan opprette en ordre eller salgsfaktura for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
 > [!NOTE]  
-> Bruk ordrer hvis salgsprosessen krever at du kan sende deler av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig samtidig. Hvis du bruker salgsfakturaer, antar [!INCLUDE [prodshort](includes/prodshort.md)] at du leverer hele antallet når du bokfører fakturaen. Hvis du selger varer ved å levere direkte fra leverandøren til kunden, som en direkte levering, må du også å bruke ordrer. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer ordrer på samme måte som salgsfakturaer. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
+> Bruk ordrer hvis salgsprosessen krever at du kan sende deler av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig samtidig. Hvis du bruker salgsfakturaer, antar [!INCLUDE [prod_short](includes/prod_short.md)] at du leverer hele antallet når du bokfører fakturaen. Hvis du selger varer ved å levere direkte fra leverandøren til kunden, som en direkte levering, må du også å bruke ordrer. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer ordrer på samme måte som salgsfakturaer. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
 
 Du kan forhandle med kunden ved først å opprette et tilbud, som du kan konvertere til en ordre når dere blir enige om salget. Hvis du vil ha mer informasjon, kan du se [Gi salgstilbud](sales-how-make-offers.md).
 
@@ -132,4 +132,4 @@ Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut 
 [Skrive ut plukklisten](sales-how-print-picking-list.md)  
 [Lager](inventory-manage-inventory.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

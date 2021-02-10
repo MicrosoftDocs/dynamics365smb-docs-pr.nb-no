@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 424d497154e9fc8023ba38cbd22859c0874124ec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1ec87cbf0885b392dc92bbd9a25fca81db38c5a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926025"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758145"
 ---
 # <a name="set-up-document-sending-profiles"></a>Definere en profil for dokumentsending
 Du kan definere hver kunde med en foretrukket metode for sending av salgsdokumenter, slik at du ikke trenger å velge et alternativ for sending hver gang du velger handlingen **Bokfør og send**.
@@ -42,4 +42,4 @@ Når du velger handlingen **Bokfør og send** i et salgsdokument, viser dialogbo
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

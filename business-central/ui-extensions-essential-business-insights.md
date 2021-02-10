@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 88aba42c6d30cb28020386f265150a0a8f201179
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2be073fbb2216e9a87c54b7c4d9fd3fa86e02aee
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915163"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757220"
 ---
 # <a name="the-essential-business-insights-extension"></a>Utvidelsen Viktig forretningsinnsikt
 UtvidelsenViktig forretningsinnsikt finner interessante forretningsfakta i selskapsdataene og viser dem som avisliknende overskrifter i rollesentre. Avhengig av hva utvidelsen finner i dataene, er innsikten fra forrige uke, forrige måned eller tre måneder fra dagens dato. Innsikten oppdateres hvert 10. minutt  
@@ -37,4 +37,4 @@ Tabellen nedenfor beskriver innsiktene som denne utvidelsen leverer for hver rol
 |Administrator| Viser en hilsen og en kobling til produktinformasjon.|
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)

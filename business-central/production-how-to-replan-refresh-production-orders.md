@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edfcb7904f540edad7f471511de9047c511a2cb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6f66d96f03146d60422413c3031405da2338a01f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921595"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759070"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Planlegge på nytt eller fornye produksjonsordrer direkte
 Funksjonen **Planlegg på nytt** for produksjonsordrer brukes vanligvis etter at du har lagt til eller endret komponenter som utgjør underliggende produksjonsordrer. Funksjonen beregner endringer som utføres i komponenter og rutelinjer, og den inkluderer varer på lavere produksjonsstykklistenivåer. For disse varene genereres det kanskje nye produksjonsordrer.  
@@ -92,4 +92,4 @@ Hvis du har endret produksjonsordrelinjer, komponenter eller rutelinjer, må du 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

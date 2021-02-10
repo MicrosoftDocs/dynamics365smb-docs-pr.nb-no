@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 192ce7cfea150e78bfdcac6961e529046c920e21
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8aef21c49c92e7440723a7cdff8ba68c3ae507b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915013"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756995"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
@@ -35,7 +35,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
   
 3.  Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
   
-4.  I ruten **XML-tilordning** i rullegardinlisten **Egendefinert XML-del** velger den egendefinerte XML-delen for ADD INCLUDE-rapporten,<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> som vanligvis er sist i oversikten. Navnet på den egendefinerte XML-delen har følgende format:  
+4.  I ruten **XML-tilordning** i rullegardinlisten **Egendefinert XML-del** velger den egendefinerte XML-delen for ADD INCLUDE-rapporten,<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> som vanligvis er sist i oversikten. Navnet på den egendefinerte XML-delen har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
   
@@ -78,7 +78,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
  Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[d365fin](../../includes/d365fin_md.md)]--> -klienten.  
+>  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> -klienten.  
   
 #### <a name="to-add-an-image"></a>Legge til et bilde  
   
@@ -99,8 +99,8 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
 |------------------|-----------------|  
 |`<?xml version="1.0" encoding="utf-16"?>`|Overskrift|  
 |`<WordReportXmlPart xmlns="urn:microsoft-dynamics-365/report/<reportname>/<id>/"`|Spesifikasjon av XML-navneområde. `<reportname>` er navnet som er tilordnet til rapporten. `<id>` er ID-en som er tilordnet til rapporten.|  
-|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Inneholder alle etikettene for rapporten.<!--OnPren The element includes labels that are related to columns that have the [IncludeCaption Property](../FullExperience/Name%20Property-duplicate.md).--><br />-   Etikettelementer som er knyttet til kolonner, har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`.<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Etikettelementer har formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Etiketter er oppført i alfabetisk rekkefølge.|  
-|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dataelement og kolonner på øverste nivå. Kolonner er oppført i alfabetisk rekkefølge.<!--OnPrem <br /><br /> The element names and values are determined by the [Name Property-duplicate](../FullExperience/Name%20Property-duplicate.md) of the data item or column.-->|  
+|`..<Labels>`<br /><br /> `....<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`<br /><br /> `....<LabelName>LabelCaption</LabelName>`<br /><br /> `..</Labels>`|Inneholder alle etikettene for rapporten.<!--OnPren The element includes labels that are related to columns that have the IncludeCaption Property.--><br />-   Etikettelementer som er knyttet til kolonner, har formatet `<ColumnNameCaption>ColumnNameCaption</ColumnNameCaption>`.<!--OnPrem where `ColumnName` is determined by the column's Name Property.-->.<br />- Etikettelementer har formatet `<LabelName>LabelName</LabelName`<!--OnPrem where LabelName is determined by the label's Name Property.-->.<br />-   Etiketter er oppført i alfabetisk rekkefølge.|  
+|`..<DataItem1>`<br /><br /> `....<DataItem1Column1>DataItem1Column1</DataItem1Column1>`|Dataelement og kolonner på øverste nivå. Kolonner er oppført i alfabetisk rekkefølge.<!--OnPrem <br /><br /> The element names and values are determined by the Name Property of the data item or column.-->|  
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataelementer og kolonner som er nestet i dataelementet på øverste nivå. Kolonner er oppført i alfabetisk rekkefølge under det respektive dataelementet.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Avsluttende element.|  
   
@@ -119,7 +119,7 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
   
 -   Når det gjelder etiketter, er den faktiske teksten som vises i den genererte rapporten, verdien til egenskapen **Caption** for feltet i dataelementtabellen (hvis etiketten er knyttet til kolonnen i rapportdatasettet), eller en etikett i Report Label Designer (hvis etiketten ikke er knyttet til en kolonne i datasettet).  
   
--   Språket på etiketten som vises når du kjører rapporten, avhenger av språkinnstillingen for rapportobjektet. <!--OnPrem For more information, see [Multiple Document Languages](../FullExperience/Viewing%20the%20Application%20in%20Different%20Languages.md).-->  
+-   Språket på etiketten som vises når du kjører rapporten, avhenger av språkinnstillingen for rapportobjektet.  
   
 ## <a name="see-also"></a>Se også  
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   

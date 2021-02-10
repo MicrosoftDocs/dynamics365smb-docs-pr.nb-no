@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1afd60dc4c9c86b476c3c2c80974ce805b19a4ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c8dd465213a9882a98c1ac1623d8a093f3eecb9a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912324"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757495"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Utvidelsen Betalinger og avstemminger (Danmark)
 
@@ -53,7 +53,7 @@ Det er noen trinn for å komme i gang.
 
 I tillegg må du tilordne leverandørene til et innenlands **Bokføringsgruppe - firma** og en **Bokføringsgruppe - leverandør**. Innstillingen land/region for leverandøren må være Danmark (dansk). Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-d365fin-to-export-payment-data"></a>Tillat [!INCLUDE[d365fin](includes/d365fin_md.md)]å eksportere betalingsdata.
+### <a name="to-allow-prod_short-to-export-payment-data"></a>Tillat [!INCLUDE[prod_short](includes/prod_short.md)]å eksportere betalingsdata.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladd**, og velg deretter den relaterte koblingen.  
 2. Velg **Bank**-bunken på siden **Rediger betalingskladd**.  
@@ -61,7 +61,7 @@ I tillegg må du tilordne leverandørene til et innenlands **Bokføringsgruppe -
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Angi betalingsmåten for en leverandør
 
-Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støttes av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støttes av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Kombinasjon|Type 01 | Type 04 | Type 71 | Type 73 |
 |----|--------|---------|---------|---------|
@@ -87,7 +87,7 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 4. I **Betalingsreferanse**-vinduet angir du nummeret med 15 sifre som står på leverandørens faktura.  
 
     > [!Tip]
-    > Du trenger kun å legge inn de 11 siste sifrene i nummeret. [!INCLUDE[d365fin](includes/d365fin_md.md)] legger til fire nuller i begynnelsen av nummeret.  
+    > Du trenger kun å legge inn de 11 siste sifrene i nummeret. [!INCLUDE[prod_short](includes/prod_short.md)] legger til fire nuller i begynnelsen av nummeret.  
 
 5. Bokfør fakturaen.
 
@@ -105,6 +105,6 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 
 ## <a name="see-also"></a>Se også
 
-[Tilpasse Business Central for [!INCLUDE[d365fin](includes/d365fin_md.md)]med utvidelser](ui-extensions.md)  
+[Tilpasse Business Central for [!INCLUDE[prod_short](includes/prod_short.md)]med utvidelser](ui-extensions.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  

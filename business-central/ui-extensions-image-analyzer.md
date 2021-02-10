@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4946eb43dd854f8f04b0c267a9ba1bc328cc62bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3957936f7a95ce493443ed86c791ebceee6b56b9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915138"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757245"
 ---
 # <a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
 
@@ -23,13 +23,13 @@ Image Analyzer-utvidelsen bruker kraftig bildeanalyse fra API-et for visuelt inn
 
 Image Analyzer foreslår attributter basert på koder som API-et for visuelt innhold finner, og et konfidensnivå. Den foreslår som standard attributter bare hvis det er minst 80 % sannsynlighet for at attributtet er riktig. Du kan om nødvendig angi et annet konfidensnivå. Hvis du vil vite mer om hvordan kodene og konfidensnivået fastsettes, kan du se [API for visuelt innhold](https://go.microsoft.com/fwlink/?linkid=851476).  
 
-Image Analyzer er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men det er en grense for hvor mange varer du kan analysere i en bestemt tidsperiode. Du kan som standard analysere 100 bilder per måned.
+Image Analyzer er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men det er en grense for hvor mange varer du kan analysere i en bestemt tidsperiode. Du kan som standard analysere 100 bilder per måned.
 
 Når du har aktivert utvidelsen, kjører Image Analyzer hver gang du importerer et bilde til en vare eller kontaktperson. Attributter, konfidensnivå og detaljer vises med en gang, og du bestemmer hva du vil gjøre med hvert attributt. Hvis du importerte bilder før du aktiverte Image Analyzer-utvidelsen, må du gå til vare- eller kontaktkortene og velge handlingen **Analyser bilde**.  
 
 ## <a name="privacy-notice"></a>Personvernerklæring
 
-Denne utvidelsen bruker API-en for visuelt innhold fra Microsoft Cognitive Services, som kan ha andre typer samsvarsforpliktelser enn [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du aktiverer Image Analyzer-utvidelsen, sendes kundedata, for eksempel kontaktbilde eller varebilde, til API-en for visuelt innhold. Ved å installere denne utvidelsen godtar du at dette begrensede settet med data sendes til API-en for visuelt innhold. Vær oppmerksom på at du kan deaktivere samt avinstallere, Image Analyzer-utvidelsen når som helst for å slutte å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Microsoft Klareringssenter](https://go.microsoft.com/fwlink/?linkid=851463).
+Denne utvidelsen bruker API-en for visuelt innhold fra Microsoft Cognitive Services, som kan ha andre typer samsvarsforpliktelser enn [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer Image Analyzer-utvidelsen, sendes kundedata, for eksempel kontaktbilde eller varebilde, til API-en for visuelt innhold. Ved å installere denne utvidelsen godtar du at dette begrensede settet med data sendes til API-en for visuelt innhold. Vær oppmerksom på at du kan deaktivere samt avinstallere, Image Analyzer-utvidelsen når som helst for å slutte å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Microsoft Klareringssenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 
@@ -41,7 +41,7 @@ Noen få krav er gjeldende for bildene:
 
 ## <a name="to-enable-image-analyzer"></a>Aktivere Image Analyzer
 
-Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du trenger bare å aktivere den.
+Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[prod_short](includes/prod_short.md)]. Du trenger bare å aktivere den.
 
 > [!NOTE]  
 > Du må være en administrator for å kunne aktivere Image Analyzer-utvidelsen. Kontroller at du er tilordnet brukertillatelsessettet **SUPER**.
@@ -102,5 +102,5 @@ Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjø
 ## <a name="see-also"></a>Se også
 
 [Arbeide med vareattributter](inventory-how-work-item-attributes.md)  
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)  

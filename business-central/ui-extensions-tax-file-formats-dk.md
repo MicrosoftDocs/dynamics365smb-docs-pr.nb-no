@@ -12,15 +12,15 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dced6a3ae539e795c9207acd7eb7873798e570ab
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 07c6e22e6bd9729fbf5ba436644834fbeba0d085
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923448"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757420"
 ---
 # <a name="the-tax-file-formats-dk-extension"></a>Utvidelsen TAX-filformat (Danmark)
-Hvis du samarbeider om handel med selskaper, eller interne filialer eller datterselskaper, i andre EU-land, må du rapportere om aktivitetene til SKAT og Statistics Denmark. Hvis du bruker mva og Intrastat-rapportering som finnes i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan utvidelsen sikre at filen du vil eksportere er kompatibel med kravene fra disse organisasjoner. Utvidelsen legger Rapporteksportfilen MS ECSL og Intrastat eksportlinjer for sending av kodeenheter til konfigurasjonen av mva-rapporten, slik at du kan eksportere dataene i det nye formatet med én gang.
+Hvis du samarbeider om handel med selskaper, eller interne filialer eller datterselskaper, i andre EU-land, må du rapportere om aktivitetene til SKAT og Statistics Denmark. Hvis du bruker mva og Intrastat-rapportering som finnes i [!INCLUDE[prod_short](includes/prod_short.md)], kan utvidelsen sikre at filen du vil eksportere er kompatibel med kravene fra disse organisasjoner. Utvidelsen legger Rapporteksportfilen MS ECSL og Intrastat eksportlinjer for sending av kodeenheter til konfigurasjonen av mva-rapporten, slik at du kan eksportere dataene i det nye formatet med én gang.
 
 Utvidelsen er gratis, du trenger bare å installere den.
 

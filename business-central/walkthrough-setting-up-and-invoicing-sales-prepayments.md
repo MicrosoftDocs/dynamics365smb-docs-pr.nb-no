@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e94bef3f127d52ca7ee5c7e31f0f126e57b44210
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3a02f54863bf7d0bf6e6e2db03e16e8bedd53c6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914813"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756420"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du krever kanskje et depositum før du produserer varer på bestilling, eller kanskje du krever betaling før du leverer varer til en kunde. Du bruker funksjonene for forskuddsbetaling i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sørge for at alle betalinger bokføres mot en faktura.  
+Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du krever kanskje et depositum før du produserer varer på bestilling, eller kanskje du krever betaling før du leverer varer til en kunde. Du bruker funksjonene for forskuddsbetaling i [!INCLUDE[prod_short](includes/prod_short.md)] til å fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sørge for at alle betalinger bokføres mot en faktura.  
 
  Krav til forskuddsbetaling kan defineres for en kunde eller leverandør for alle varer eller utvalgte varer. Når du har fullført det nødvendige oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger for det beregnede forskuddsbeløpet. Du kan endre standardbeløpene på fakturaen etter behov. Du kan for eksempel sende flere forskuddsfakturaer hvis flere varer blir lagt til i ordren.  
 
@@ -43,7 +43,7 @@ Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller 
 -   Kundeansvarlig (Magnus)  
 
 ## <a name="story"></a>Hovedscenario  
- Jenny er regnskapssjef. Hun gjør beslutninger om hvilke kunder som må betale depositum før varer produseres eller leveres. Jenny konfigurerer [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne forskuddsbetalinger automatisk.  
+ Jenny er regnskapssjef. Hun gjør beslutninger om hvilke kunder som må betale depositum før varer produseres eller leveres. Jenny konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne forskuddsbetalinger automatisk.  
 
  Heidi er en ordrebehandler. Når en kunde ringer for å bestille, registrerer hun ordren i systemet mens er kunden på telefonen. På denne måten kan hun kontrollere priser og betalingsbetingelser med kunden umiddelbart, og hun kan foreta justeringer i ordren mens hun forhandler med kunden.  
 
@@ -208,14 +208,14 @@ Arnie kan vise historikken for å bekrefte at salgsfakturaen ble opprettet som t
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 
 ## <a name="next-steps"></a>Neste trinn  
-Denne gjennomgangen har ledet deg gjennom trinnene for å konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] slik at du kan håndtere forskuddsbetalinger i det. Du har konfigurert standard forskuddsprosenter for kunder og varer, og du har også brukt flere ulike metoder til å beregne forskuddsbetalingene i en ordre. Du har prøvd å tilordne ett totalt forskuddsbeløp i ordren, og du har fått beregnet forskuddsbeløpet som en prosentsats for hele ordren.  
+Denne gjennomgangen har ledet deg gjennom trinnene for å konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] slik at du kan håndtere forskuddsbetalinger i det. Du har konfigurert standard forskuddsprosenter for kunder og varer, og du har også brukt flere ulike metoder til å beregne forskuddsbetalingene i en ordre. Du har prøvd å tilordne ett totalt forskuddsbeløp i ordren, og du har fått beregnet forskuddsbeløpet som en prosentsats for hele ordren.  
 
 Du har også bokført en forskuddsfaktura, opprettet en ekstra forskuddsfaktura når ordren har blitt endret, og bokført den endelige fakturaen for restbeløpet.  
 
-Med funksjonene for forskuddsbetaling i [!INCLUDE[d365fin](includes/d365fin_md.md)] blir det enkelt å konfigurere og håndheve forskuddsregler for kunder og varer, og du kan bokføre hver betaling mot en faktura.  
+Med funksjonene for forskuddsbetaling i [!INCLUDE[prod_short](includes/prod_short.md)] blir det enkelt å konfigurere og håndheve forskuddsregler for kunder og varer, og du kan bokføre hver betaling mot en faktura.  
 
 ## <a name="see-also"></a>Se også  
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)

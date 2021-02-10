@@ -12,22 +12,22 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: acc635cd13924fdb1aec95cc1267b02e5f6f0cf3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8a3cfebf90ba639b8d8563ce437c6f5605acf2eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916021"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756820"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
-Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
+Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[prod_short](includes/prod_short.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
 
 > [!NOTE]  
->   I [!INCLUDE[d365fin](includes/d365fin_md.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
+>   I [!INCLUDE[prod_short](includes/prod_short.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
 
 Et rapportoppsett brukes især til å konfigurere følgende:
 
-* Etikett- og datafeltene som skal tas med fra datasettet for [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporten.
+* Etikett- og datafeltene som skal tas med fra datasettet for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten.
 * Tekstformatet, for eksempel skrifttype, størrelse og farge.
 * Selskapets logo og plasseringen.
 * Generelle sideinnstillinger, for eksempel marger og bakgrunnsbilder.
@@ -45,14 +45,14 @@ Et Word-rapportoppsett er basert på et Word-dokument (DOCX-filtypen). Rapportop
 RDLC-oppsett er basert på oppsett for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder. Konseptet for utforming for RDLC ligner på Word-oppsett, der oppsettet definerer det generelle formatet for rapporten og bestemmer feltene fra datasettet som skal inkluderes. Å utforme RDLC-oppsett er en mer avansert oppgave enn å utforme Word-oppsett. Hvis du vil ha mer informasjon, kan du se [Utforme RDLC-rapportoppsett](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
 ## <a name="built-in-and-custom-report-layouts"></a>Innebygde og egendefinerte rapportoppsett
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder flere innebygde oppsett. Innebygde oppsett er forhåndsdefinerte oppsett som er utformet for bestemte rapporter. [!INCLUDE[d365fin](includes/d365fin_md.md)]-rapporter har en innebygget utforming som et RDLC-rapportoppsett, Word-rapportoppsett, eller i noen tilfeller begge. Du kan ikke endre innebygde rapportoppsett fra [!INCLUDE[d365fin](includes/d365fin_md.md)], men du bruker dem som et utgangspunkt for å lage egendefinerte rapportoppsett.
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder flere innebygde oppsett. Innebygde oppsett er forhåndsdefinerte oppsett som er utformet for bestemte rapporter. [!INCLUDE[prod_short](includes/prod_short.md)]-rapporter har en innebygget utforming som et RDLC-rapportoppsett, Word-rapportoppsett, eller i noen tilfeller begge. Du kan ikke endre innebygde rapportoppsett fra [!INCLUDE[prod_short](includes/prod_short.md)], men du bruker dem som et utgangspunkt for å lage egendefinerte rapportoppsett.
 
-Egendefinerte oppsett er rapportoppsett du utformer for å endre utseendet på en rapport. Vanligvis oppretter du et egendefinert oppsett basert på et innebygd oppsett, men du kan opprette dem fra grunnen av eller fra en kopi av et eksisterende egendefinert oppsett. Egendefinerte oppsett gjør at du kan ha flere oppsett for samme rapport som du kan bytte mellom etter behov. Du kan for eksempel ha ulike oppsett for hvert selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], eller du kan ha ulike oppsett for samme selskap for bestemte anledninger eller hendelser, for eksempel en kampanje eller julehøytiden.
+Egendefinerte oppsett er rapportoppsett du utformer for å endre utseendet på en rapport. Vanligvis oppretter du et egendefinert oppsett basert på et innebygd oppsett, men du kan opprette dem fra grunnen av eller fra en kopi av et eksisterende egendefinert oppsett. Egendefinerte oppsett gjør at du kan ha flere oppsett for samme rapport som du kan bytte mellom etter behov. Du kan for eksempel ha ulike oppsett for hvert selskap i [!INCLUDE[prod_short](includes/prod_short.md)], eller du kan ha ulike oppsett for samme selskap for bestemte anledninger eller hendelser, for eksempel en kampanje eller julehøytiden.
 
 ## <a name="deciding-whether-to-use-a-word-or-rdlc-report-layout"></a>Avgjøre om du skal bruke et Word- eller RDLC-rapportoppsett
 Et rapportoppsett kan være basert på et Word-dokument eller en RDLC-fil. Når du skal velge mellom et Word-rapportoppsett og et RDLC-rapportoppsett, avhenger valget av hvordan du vil at den genererte rapporten skal se ut, og hvor god kjennskap du har til Word og SQL Server Report Builder.
 
-Generelle utformingskonsepter for Word og RDLC oppsett er svært like. Hver type har imidlertid visse utformingsfunksjoner som påvirker hvordan den genererte rapporten vises i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette betyr at Word-rapportoppsettet og RDLC-rapportoppsettet kan gi ulike utseender i samme rapport.
+Generelle utformingskonsepter for Word og RDLC oppsett er svært like. Hver type har imidlertid visse utformingsfunksjoner som påvirker hvordan den genererte rapporten vises i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette betyr at Word-rapportoppsettet og RDLC-rapportoppsettet kan gi ulike utseender i samme rapport.
 
 Prosessen for å definere Word-rapportoppsett og RDLC-rapportoppsett i rapporter er den samme. Den viktigste forskjellen er måten du endrer oppsett på. Word-rapportoppsettene er vanligvis enklere å opprette og endre enn RDLC-rapportoppsett, fordi du kan bruke Word. RDLC-rapportoppsett endres ved hjelp av SQL Server Report Builder, der målgruppen er mer erfarne brukere.
 
@@ -67,4 +67,4 @@ Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, ka
 [Definere spesielle dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

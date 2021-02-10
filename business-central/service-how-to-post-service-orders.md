@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2e8dcdaa2cf275ff439257bc7146f90ab753f32f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 36a4bdea7967544ad19cb562077a8bdf498dc655
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915313"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757870"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokføre serviceordrer og kreditnotaer
 Når du har opprettet en serviceordre, fylt ut alle nødvendige opplysninger og foretatt eventuelle endringer, kan du bokføre serviceordren. Ordren må inneholde minst én servicevarelinje og én servicelinje før du kan bokføre den. Hvis ordren inneholder mer enn én servicelinje, bokføres alle linjene samtidig.  
@@ -85,7 +85,7 @@ Fremgangsmåten nedenfor beskriver hvordan du bokfører varer, ressurstimer og/e
 Servicen bokføres som forbrukt, enten delvis eller fullstendig, avhengig av verdien i feltet **Antall til forbruk**, og de aktuelle postene blir opprettet. I tillegg oppdateres tidligere bokførte servicefølgeseddeldokumenter kronologisk med forbrukt antall. De relevante antallene blir oppdatert på servicelinjene i ordren.  
 
 ## <a name="to-post-shipments-from-service-orders"></a>Slik bokfører du følgesedler fra serviceordrer  
-Når du har angitt detaljene for en service, kan du justere og bokføre antall brukte varer, tidsbruk og påløpt kost. Som følge av dette gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] nødvendige endringer for å gjenspeile den nye statusen for lagerbeholdningen og gjeldende status for den aktuelle ordrebehandlingen.  
+Når du har angitt detaljene for en service, kan du justere og bokføre antall brukte varer, tidsbruk og påløpt kost. Som følge av dette gjør [!INCLUDE[prod_short](includes/prod_short.md)] nødvendige endringer for å gjenspeile den nye statusen for lagerbeholdningen og gjeldende status for den aktuelle ordrebehandlingen.  
 
 Følgende fremgangsmåte viser hvordan du bokfører levering av servicelinjevarer på lokasjoner som ikke er definert slik at lagerhåndtering kreves.  
 
@@ -97,7 +97,7 @@ Følgende fremgangsmåte viser hvordan du bokfører levering av servicelinjevare
 
 4. Velg handlingen **Bokfør**. På siden som vises, velger du **Levere**-knappen.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter poster (i garantiposten, vareposten, serviceposten eller Finans). I tillegg produseres det bokførte servicefølgeseddeldokumentet, og relevante felt i servicelinjene i serviceordren oppdateres.  
+[!INCLUDE[prod_short](includes/prod_short.md)] oppretter poster (i garantiposten, vareposten, serviceposten eller Finans). I tillegg produseres det bokførte servicefølgeseddeldokumentet, og relevante felt i servicelinjene i serviceordren oppdateres.  
 
 Hvis lokasjonen er definert slik at lagerhåndtering kreves, fungerer levering og flytting av servicelinjevarer på samme måte som for andre kildedokumenter. Den eneste forskjellen er at servicelinjevarer kan forbrukes eksternt eller internt, og krever derfor to forskjellige frigivelsesfunksjoner.  
 

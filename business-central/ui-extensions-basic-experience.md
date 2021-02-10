@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: e7377d1413e2f1969543374f1b819e6fc8a2a263
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58c8a66e9fbe1609dc2e65c764dd3c4f60b4bc54
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927701"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757345"
 ---
 # <a name="the-basic-experience-extension"></a>Grunnleggende opplevelse-utvidelsen
-Hvis du har brukt Microsoft Dynamics C5, kan Microsoft-partnere hjelpe deg med å gå over til en mer moderne løsning som er basert på [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at du kan fortsette å nyte de samme strømlinjeformede funksjonene som Dynamics C5.
+Hvis du har brukt Microsoft Dynamics C5, kan Microsoft-partnere hjelpe deg med å gå over til en mer moderne løsning som er basert på [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan fortsette å nyte de samme strømlinjeformede funksjonene som Dynamics C5.
 
-Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre brukere. Hvis du trenger flere brukere, må du oppgradere til en [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisens og avinstallere denne utvidelsen.
+Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre brukere. Hvis du trenger flere brukere, må du oppgradere til en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens og avinstallere denne utvidelsen.
 
 > [!NOTE]
 > Per nå er denne utvidelsen bare tilgjengelig for kunder i Danmark og Island. 
@@ -39,7 +39,7 @@ Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer
 ## <a name="getting-started"></a>Komme i gang
 Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en Microsoft-partner for å installere og konfigurere den. Slik at du vet hva du kan forvente, får du her en overordnet oversikt over hva Microsoft-partneren vil gjøre.
 
-1. Opprett en ny [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker. Dette kan være enten en prøveversjon eller en CSP-versjon.
+1. Opprett en ny [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker. Dette kan være enten en prøveversjon eller en CSP-versjon.
 2. Legg til minst én bruker som er tilordnet til en grunnleggende opplevelse-lisens i Azure Active Directory-kontoen.
 3. Fjern alle selskaper, inkludert eksempelselskapet CRONUS.
 4. Opprett et nytt selskap som ikke inneholder eksempeldata eller oppsett.
@@ -47,7 +47,7 @@ Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en
 6. Last ned og installer utvidelsen for grunnleggende opplevelse fra AppSource.
 
 ## <a name="migrating-data"></a>Migrere data
-Ta med Dynamics C5-dataene dine. Når Microsoft-partneren har installert den grunnleggende opplevelsesutvidelsen, vil du ha et tomt selskap. En enkel måte å flytte dataene fra Dynamics C5 til grunnleggende opplevelse er å bruke dataoverføringsutvidelsen i C5, som er inkludert i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Utvidelsen migrerer kunder, leverandører, varer og finanskontoer og tilhørende poster.
+Ta med Dynamics C5-dataene dine. Når Microsoft-partneren har installert den grunnleggende opplevelsesutvidelsen, vil du ha et tomt selskap. En enkel måte å flytte dataene fra Dynamics C5 til grunnleggende opplevelse er å bruke dataoverføringsutvidelsen i C5, som er inkludert i [!INCLUDE[prod_short](includes/prod_short.md)]. Utvidelsen migrerer kunder, leverandører, varer og finanskontoer og tilhørende poster.
 
 ## <a name="see-also"></a>Se også
 [Utvidelsen C5-datamigrering](ui-extensions-c5-data-migration.md)

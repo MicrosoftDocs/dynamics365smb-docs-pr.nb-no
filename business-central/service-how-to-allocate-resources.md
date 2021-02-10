@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 29c97a2fbb8fab50d9d433f4c73d840846e32b95
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1b790743feb2c32bec1cdb45f69ac30c529e02ac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925775"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757968"
 ---
 # <a name="allocate-resources"></a>Tildele ressurser
-Det viktigste elementet innen service er personene som utfører servicen. Du kan definere [!INCLUDE[d365fin](includes/d365fin_md.md)] for å tildele de aktuelle personene til de aktuelle prosjektene. Tilordningen kan være basert på servicesoner der personene befinner seg, eller der servicen skjer. I tillegg kan du samle ressurser i grupper når du svarer på serviceforespørsler. Hvis du vil ha mer informasjon, kan du se [Definere ressurstildeling](service-how-setup-resource-allocation.md).
+Det viktigste elementet innen service er personene som utfører servicen. Du kan definere [!INCLUDE[prod_short](includes/prod_short.md)] for å tildele de aktuelle personene til de aktuelle prosjektene. Tilordningen kan være basert på servicesoner der personene befinner seg, eller der servicen skjer. I tillegg kan du samle ressurser i grupper når du svarer på serviceforespørsler. Hvis du vil ha mer informasjon, kan du se [Definere ressurstildeling](service-how-setup-resource-allocation.md).
 
 Du kan tildele ressurser, for eksempel teknikere, ved hjelp av feltet **Servicefordeling** eller fra en serviceordre. Du kan bruke ressursdisponering til å tildele ressurser til å utføre serviceoppgavene i ordrene eller tilbudene.
 

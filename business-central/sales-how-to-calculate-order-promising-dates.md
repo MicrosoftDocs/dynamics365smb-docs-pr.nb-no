@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5e9609ae65cd2cd23abad5680e576c3c16d89493
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 150c5c552e314d17af15968ebcbe57d8e8bc3fc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926000"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758120"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
 Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
 
-Basert på en vares kjente og forventede tilgjengelighetsdatoer beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] forsendelses- og leveringsdato på et øyeblikk, som deretter kan loves kunden.  
+Basert på en vares kjente og forventede tilgjengelighetsdatoer beregner [!INCLUDE[prod_short](includes/prod_short.md)] forsendelses- og leveringsdato på et øyeblikk, som deretter kan loves kunden.  
 
 Hvis du angir en ønsket leveringsdato på en ordrelinje, brukes denne datoen som utgangspunkt for følgende beregninger:  
 
@@ -37,37 +37,37 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 ## <a name="about-order-promising"></a>Om ordrebekreftelse
 Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes for datoene du godtar.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker to grunnleggende begreper:  
+[!INCLUDE[prod_short](includes/prod_short.md)] bruker to grunnleggende begreper:  
 
 - Tilgjengelig for ordre (ATP)  
 - Første mulige forsendelsesdato (CTP)  
 
 ### <a name="available-to-promise"></a>Tilgjengelig for ordre (ATP)  
-Tilgjengelig for ordre (ATP) beregner datoer basert på reservasjonssystemet. Den utfører en tilgjengelighetskontroll for de ureserverte antallene på lager i forhold til planlagt produksjon, kjøp, overføringer og ordrereturer. Basert på denne informasjonen beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk leveringsdatoen for kundens ordre fordi varene er tilgjengelige, enten på lager eller i planlagte mottak.  
+Tilgjengelig for ordre (ATP) beregner datoer basert på reservasjonssystemet. Den utfører en tilgjengelighetskontroll for de ureserverte antallene på lager i forhold til planlagt produksjon, kjøp, overføringer og ordrereturer. Basert på denne informasjonen beregner [!INCLUDE[prod_short](includes/prod_short.md)] automatisk leveringsdatoen for kundens ordre fordi varene er tilgjengelige, enten på lager eller i planlagte mottak.  
 
 ### <a name="capable-to-promise"></a>Første mulige forsendelsesdato (CTP)  
-Første mulige forsendelsesdato (CTP) forutsetter et "Hva om"-scenario som bare gjelder for vareantall som ikke er på lager eller på planlagte ordrer. Basert på dette scenariet beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den tidligste datoen varen kan være tilgjengelig, hvis den skal produseres, kjøpes eller overføres.
+Første mulige forsendelsesdato (CTP) forutsetter et "Hva om"-scenario som bare gjelder for vareantall som ikke er på lager eller på planlagte ordrer. Basert på dette scenariet beregner [!INCLUDE[prod_short](includes/prod_short.md)] den tidligste datoen varen kan være tilgjengelig, hvis den skal produseres, kjøpes eller overføres.
 
 #### <a name="example"></a>Eksempel
 Hvis det er en bestilling på ti enheter og seks stykker er tilgjengelige på lageret eller i tidsplanlagte ordrer, baseres beregningen for første mulige forsendelsesdato på fire enheter.
 
 ### <a name="calculations"></a>Beregninger  
-Når [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner kundens leveringsdato, utføres to oppgaver:  
+Når [!INCLUDE[prod_short](includes/prod_short.md)] beregner kundens leveringsdato, utføres to oppgaver:  
 
 - Beregner den tidligste leveringsdatoen når kunden ikke har bedt om en bestemt leveringsdato.  
 - Kontrollerer om leveringsdatoen som kunden har bedt om, eller som du har lovet kunden, er realistisk.  
 
-Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som leveringsdato, og tilgjengelighet baseres deretter på denne datoen. Hvis varen er på lager, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] fremover i tid for å fastsette når ordren kan leveres. Dette kan gjøres med følgende formler:  
+Hvis kunden ikke ber om en bestemt leveringsdato, brukes arbeidsdatoen som leveringsdato, og tilgjengelighet baseres deretter på denne datoen. Hvis varen er på lager, beregner [!INCLUDE[prod_short](includes/prod_short.md)] fremover i tid for å fastsette når ordren kan leveres. Dette kan gjøres med følgende formler:  
 
 - Forsendelsesdato + Utgående lagerhåndtering = Planlagt forsendelsesdato  
 - Planlagt forsendelsesdato + Leveringstid = Planlagt leveringsdato  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
+[!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer deretter om beregnet leveringsdato er realistisk ved å beregne bakover i tid, for å bestemme når varen må være tilgjengelig for å overholde datoen som ble lovet. Dette kan gjøres med følgende formler:  
 
 - Planlagt forsendelsesdato - Leveringstid = Planlagt leveringsdato  
 - Planlagt forsendelsesdato - Utgående lagerhåndteringstid = Forsendelsesdato  
 
-Leveringsdatoen brukes til å utføre tilgjengelighetskontrollen. Hvis varen er tilgjengelig på denne datoen, bekrefter [!INCLUDE[d365fin](includes/d365fin_md.md)] at forespurt/lovet levering kan innfris ved å angi at planlagt leveringsdato skal være lik forespurt/lovet leveringsdato. Hvis varen ikke er tilgjengelig, returneres en tom dato, og ordrebehandleren kan deretter bruke CTP-funksjonalitet.  
+Leveringsdatoen brukes til å utføre tilgjengelighetskontrollen. Hvis varen er tilgjengelig på denne datoen, bekrefter [!INCLUDE[prod_short](includes/prod_short.md)] at forespurt/lovet levering kan innfris ved å angi at planlagt leveringsdato skal være lik forespurt/lovet leveringsdato. Hvis varen ikke er tilgjengelig, returneres en tom dato, og ordrebehandleren kan deretter bruke CTP-funksjonalitet.  
 
 Basert på nye datoer og klokkeslett beregnes alle relaterte datoer i henhold til formlene som er oppført tidligere i denne delen. CTP-beregningen tar lengre tid, men den gir en nøyaktig dato for når kunden kan forvente å få varen levert. Datoene som er beregnes fra CTP, vises i feltene **Planlagt lev.dato** og **Tidligste forsendelsesdato** på siden **Ordrebekreftelseslinjer**.  
 
@@ -144,4 +144,4 @@ Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være me
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

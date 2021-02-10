@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44d2031c41a8077e072255be60dd71ff98cd9e78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 17468db82be1ad816bd77d12693e8720860d6df6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926511"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758419"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter
 Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
@@ -77,7 +77,7 @@ Betalingsposter bokføres til finans-, bank- og kundekonti. Hver betaling brukes
 
 Hvis en betaling i banken ikke er representert av en linje på siden **Betalingsregistrering**, kan det være fordi det tilknyttede dokumentet ennå ikke er bokført. I det tilfellet kan du bruke en søkefunksjon til raskt å finne dokumentet og bokføre det for å behandle betalingen. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du et bestemt salgsdokument som ikke er fullstendig fakturert](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
 
-Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt. Hvis du vil ha mer informasjon, kan du se delen [Registrere eller bokføre betalinger manuelt uten et relatert dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
+Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt. Hvis du vil ha mer informasjon, kan du se delen [Registrere eller bokføre betalinger manuelt uten et relatert dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
 ## <a name="to-process-customer-payments-with-discounts-manually"></a>Behandle kundebetalinger med rabatter manuelt
 Hvis du har avtalt en kontantrabatt med kunden, kan betalingsbeløpene være lavere enn fakturabeløpene hvis betalingen finner sted før den avtalte rabattdatoen.  
@@ -166,10 +166,10 @@ Søkefunksjonen søker blant dokumenter som ikke er fullstendig fakturert, baser
 
 Hvis ett eller flere dokumenter samsvarer med søkekriteriene, åpnes siden **Dokumentsøkeresultat** for å vise linjer som representerer disse dokumentene. Hver linje inneholder et bilagsnummer, beskrivelse og beløp, slik at du enkelt kan finne et bestemt dokument, for eksempel basert på informasjon på bankkontoutdraget.  
 
-Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt.  
+Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åpne en forhåndsutfylt finanskladd fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er fastsatt.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Slik registrerer eller bokfører du en betaling uten et relatert dokument:
-Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du åpne en forhåndsutfylt finanskladdlinje fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er klarlagt.  
+Hvis en betaling i banken ikke er representert av noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åpne en forhåndsutfylt finanskladdlinje fra siden **Betalingsregistrering** for å bokføre betalingen direkte til motkontoen uten å bruke betalingen på et dokument. Alternativt kan du registrere betalingen i kladden til opprinnelsen til betalingen er klarlagt.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsregistrering**, og velg deretter den relaterte koblingen.  
 
@@ -186,4 +186,4 @@ Hvis du ikke bokfører kladdelinjen, øker verdien i feltet **Ikke-bokført sald
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

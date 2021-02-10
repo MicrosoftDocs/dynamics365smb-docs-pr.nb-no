@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3f98cd6423b67fd9bbcc6081d06eca4cb21e81c7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: df3807f3d5d2baa7f50df4091a0d1f2622d09ff8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912674"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757645"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
-På siden **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Endringene du gjør, påvirker bare ditt arbeidsområde, ikke arbeidsområdene til andre brukere.  
+På siden **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[prod_short](includes/prod_short.md)]. Endringene du gjør, påvirker bare ditt arbeidsområde, ikke arbeidsområdene til andre brukere.  
 
 ## <a name="role-center"></a><a name="role-center"></a> Rollesenter
 Rollesenteret representerer hjemmesiden, et startskjermbilde som er tilpasset behovene til en spesifikk rolle i en organisasjon. Avhengig av rollen din gir rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Det kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
@@ -35,7 +35,7 @@ Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å b
 3. Velg **OK**-knappen.
 
 ## <a name="company"></a><a name="company"></a>Selskap
-Et selskap fungerer som en beholder for data i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen.
+Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen.
 
 Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan opprette et nytt selskap med egendefinerte data. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper](about-new-company.md).
 
@@ -80,9 +80,9 @@ Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbei
 ## <a name="language"></a><a name="language"></a> Språk
 Endre visningsspråket. Dette feltet vises bare når det er mer enn ett språk som kan velges.
 
-Det første språket bestemmes enten av systemansvarlig eller leserinnstillingene når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Språket som du har angitt, vil bli brukt på alle enhetene du logger på fra, for eksempel telefon eller nettbrett.
+Det første språket bestemmes enten av systemansvarlig eller leserinnstillingene når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)]. Språket som du har angitt, vil bli brukt på alle enhetene du logger på fra, for eksempel telefon eller nettbrett.
 
-Flere språk for [!INCLUDE[prodshort](includes/prodshort.md)] kan installeres fra AppSource. Alle støttede visningsspråk vises i listen. Systemansvarlig må installere den relevante språkappen på leieren før brukere kan bytte til det nye språket i [!INCLUDE[prodshort](includes/prodshort.md)].  
+Flere språk for [!INCLUDE[prod_short](includes/prod_short.md)] kan installeres fra AppSource. Alle støttede visningsspråk vises i listen. Systemansvarlig må installere den relevante språkappen på leieren før brukere kan bytte til det nye språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-when-i-receive-notifications"></a>Endre når jeg mottar varsler
 Velg denne koblingen for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Administrere varsler](ui-smart-notifications.md).
@@ -91,5 +91,5 @@ Velg denne koblingen for å vise eller endre varslingene som du får om bestemte
 
 ## <a name="see-also"></a>Se også
 [Opprette nye seleskaper](about-new-company.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

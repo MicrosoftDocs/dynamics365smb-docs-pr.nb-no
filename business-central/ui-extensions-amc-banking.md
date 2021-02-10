@@ -10,21 +10,21 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8eb45d8c65a09ac56617f84a41543c38a4518fa9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2147240aac15b805a6f64473b5eb2febb38deac
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912399"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757570"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Bruke utvidelsen AMC Banking 365 Fundamentals
-Utvidelsen AMC Banking 365 Fundamentals gjør det enklere og mer nøyaktig å sende data til banker. Utvidelsen kobler [!INCLUDE[d365fin](includes/d365fin_md.md)] sammen med tjenesten AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central, som kan konvertere bankdata fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til formater som kreves av over 600 banker over hele verden. Dette gjør det for eksempel enklere å overføre betalinger og kreditter til leverandører ved å registrere innbetalingene i [!INCLUDE[d365fin](includes/d365fin_md.md)], og deretter laste dem opp til banken. Formatene kan også forenkle bankavstemmingsprosesser. Se [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help) mer informasjon.
+Utvidelsen AMC Banking 365 Fundamentals gjør det enklere og mer nøyaktig å sende data til banker. Utvidelsen kobler [!INCLUDE[prod_short](includes/prod_short.md)] sammen med tjenesten AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central, som kan konvertere bankdata fra [!INCLUDE[prod_short](includes/prod_short.md)] til formater som kreves av over 600 banker over hele verden. Dette gjør det for eksempel enklere å overføre betalinger og kreditter til leverandører ved å registrere innbetalingene i [!INCLUDE[prod_short](includes/prod_short.md)], og deretter laste dem opp til banken. Formatene kan også forenkle bankavstemmingsprosesser. Se [AMC Banking for Microsoft Dynamics 365 Business Central](https://amcbanking.com/landing365bc/help) mer informasjon.
 
 > [!Note]
-> AMC Banking har bygd flere utvidelser som fungerer sammen med [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette emnet beskriver bare den grunnleggende utvidelsen.
+> AMC Banking har bygd flere utvidelser som fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)]. Dette emnet beskriver bare den grunnleggende utvidelsen.
 
 ## <a name="using-our-demonstration-account"></a>Bruke vår demonstrasjonskonto
-[!INCLUDE[d365fin](includes/d365fin_md.md)] leveres med en demonstrasjonskonto som lar deg prøve ut utvidelsen AMC Banking 365 Fundamentals. Vi gir standardinnstillinger for tilkobling til AMC Banking, med angivelse av bankkontoer som data skal hentes fra i [!INCLUDE[d365fin](includes/d365fin_md.md)], i tillegg til noen få datautvekslingsdefinisjoner. Du kan vise tilkoblingsinnstillingene på siden **AMC Banking-oppsett**. For bankkonto bruker utvidelsen verdier i feltene **Banknavn**, **Numre på kredittoverføringsmeldinger**, **Importformat for bankkontoutdrag** og **Betalingseksportformat**.
+[!INCLUDE[prod_short](includes/prod_short.md)] leveres med en demonstrasjonskonto som lar deg prøve ut utvidelsen AMC Banking 365 Fundamentals. Vi gir standardinnstillinger for tilkobling til AMC Banking, med angivelse av bankkontoer som data skal hentes fra i [!INCLUDE[prod_short](includes/prod_short.md)], i tillegg til noen få datautvekslingsdefinisjoner. Du kan vise tilkoblingsinnstillingene på siden **AMC Banking-oppsett**. For bankkonto bruker utvidelsen verdier i feltene **Banknavn**, **Numre på kredittoverføringsmeldinger**, **Importformat for bankkontoutdrag** og **Betalingseksportformat**.
 
 Vi tilbyr innstillingene, men hvis du vil prøve ut utvidelsen, må du kjøre veiledningen assistert oppsett for å bruke dem. På siden **AMC Banking-oppsett** velger du handlingen **Assistert oppsett** for å kjøre veiledningen.
 
@@ -48,7 +48,7 @@ For hvert nye tillatelsessett gir du bare **Lese**-tillatelsen for **AMC Banking
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Slik kobler du utvidelsen til AMC Banking
 1. Anskaff en modul og en serviceplan for AMC Banking. Dette gjør du ved å gå til siden [AMC-lisens](https://license.amcbanking.com/register).
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **AMC Banking-oppsett**, og velg deretter den relaterte koblingen.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **AMC Banking-oppsett**, og velg deretter den relaterte koblingen.  
 3. På siden **AMC Banking-oppsett** velger du handlingen **Assistert oppsett**.
 4. Fullfør trinnene i den assisterte oppsettsveiledningen.
 
@@ -82,8 +82,8 @@ Bruk av denne utvidelsen er bare et spørsmål om å eksportere data på **Betal
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsavstemmingskladd**, og velg deretter den relaterte koblingen.
 2. Velg **Importer banktransaksjon**-handlingen, og velg deretter den konverterte filen.  
 
-   [!INCLUDE[d365fin](includes/d365fin_md.md)] vil opprette en ny betalingsavstemmingskladd som inneholder dataene i filen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+   [!INCLUDE[prod_short](includes/prod_short.md)] vil opprette en ny betalingsavstemmingskladd som inneholder dataene i filen. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)

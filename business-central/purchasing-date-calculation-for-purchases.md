@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 046c829955b38f6f5ea416e0a80c1fe058476942
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22153df1e56d274256b53d426e2dff30cad3e4bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918896"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758595"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregne dato for kjøp
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk datoen du må bestille en vare på for å ha den på lager på en bestemt dato. Dette er datoen da du kan forvente at varer som ble bestilt på en bestemt dato, vil være tilgjengelig for plukking.  
+[!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk datoen du må bestille en vare på for å ha den på lager på en bestemt dato. Dette er datoen da du kan forvente at varer som ble bestilt på en bestemt dato, vil være tilgjengelig for plukking.  
 
 Hvis du angir en ønsket mottaksdato på et bestillingshode, er den beregnede bestillingsdatoen datoen bestillingen må foretas for at du skal kunne motta varene på ønsket dato. Deretter beregnes datoen da varene er tilgjengelige for plukking, og denne angis i feltet **Forventet mottaksdato**.  
 
@@ -50,7 +50,7 @@ Hvis du endrer bestillingsdatoen i hodet, så kopieres denne datoen til feltet *
 
 ## <a name="default-values-for-lead-time-calculation"></a>Standardverdier for beregning av leveringstid
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker verdien fra feltet **Beregning av leveringstid** på bestillingslinjen for å beregne ordren og de forventede mottaksdatoene.  
+[!INCLUDE[prod_short](includes/prod_short.md)] bruker verdien fra feltet **Beregning av leveringstid** på bestillingslinjen for å beregne ordren og de forventede mottaksdatoene.  
 
 Du kan angi verdien på linjen manuelt eller la programmet bruke verdier som er definert på leverandørkortet, varekortet, lagerføringsenhetskortet eller leverandørens varekatalog.
 Verdien for leveringstid på leverandørkortet brukes imidlertid bare hvis det ikke er angitt en leveringstid på varekortet, lagerføringsenhetskortet eller i leverandørens varekatalog for varen. Dette er også den eskalerende prioritetsrekkefølgen for disse verdiene. Hvis alle er angitt, har leveringstiden fra leverandørkortet laveste prioritet, og leveringstiden fra leverandørens varekatalog har høyeste prioritet.  
@@ -59,4 +59,4 @@ Verdien for leveringstid på leverandørkortet brukes imidlertid bare hvis det i
 
 [Beregne dato for salg](sales-date-calculation-for-sales.md)   
 [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

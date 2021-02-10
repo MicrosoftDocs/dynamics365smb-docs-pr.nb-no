@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b8c0acb51467d8320a6ebe91ee6dbf6827f8e85
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 404255e33d0fc689ee463b6fa0305bcd5cec0785
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915388"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758970"
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
 Underleveranse av valgte operasjoner til leverandør er vanlig i mange produksjonsselskaper. Underleveranse kan skje en sjelden gang eller være en vesentlig del av alle produksjonsprosesser.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har mange verktøy for håndtering av underleveransearbeid:  
+[!INCLUDE[prod_short](includes/prod_short.md)] har mange verktøy for håndtering av underleveransearbeid:  
 
 - Arbeidssentre med tilordnet leverandør: Du kan bruke denne funksjonen til å definere et arbeidssenter som er tilknyttet en leverandør (underleverandør). Dette kalles et arbeidssenter for underleveranse. Du kan angi et arbeidssenter for underleveranse i en ruteoperasjon, slik at du enkelt kan behandle underleveranseaktiviteten. I tillegg kan operasjonskostbeløpet tildeles på rute- eller arbeidssenternivået.  
 - Arbeidssenterkost basert på enheter eller tid: Du kan bruke denne funksjonen til å angi om kost som er knyttet til arbeidssenteret, er basert på produksjonstiden eller på en ensartet pris per enhet. Selv om underleverandører vanligvis bruker en ensartet pris per enhet som betaling for tjenester, kan programmet håndtere begge alternativene (produksjonstid og ensartet pris per enhet).  
@@ -95,4 +95,4 @@ Direkte kost for bestillingen bokføres til bestillingen når bestillingen er bo
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

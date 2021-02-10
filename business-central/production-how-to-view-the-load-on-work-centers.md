@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e1e3dd1f6e651d7490657f217b52513ba88792
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54b32e4befaf510c1c0d1714e580d4e7939be8a5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4758895"
 ---
 # <a name="view-load-on-work-and-machine-centers"></a>Vise belastning på arbeidssentre og produksjonsressurser
 På sidene **Arbeidssenterkort** og **Maskinsenterkort** kan du vise produksjonsbelastningen som et resultat av planlagte og frigitte produksjonsordrer.    
@@ -32,4 +32,4 @@ Bruk feltene **Vis etter** og **Vis som** på hurtigfanen **Alternativer** til �
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
