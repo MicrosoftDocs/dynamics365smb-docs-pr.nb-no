@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31432399981befb3b844c5d951b5b752e1152458
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5890fa0200a2661a68f6eae32246d562970e3c14
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912499"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840256"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -24,7 +24,7 @@ Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere
 Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
 ## <a name="working-with-editable-fields"></a>Arbeide med felter som kan redigeres
-Felter [!INCLUDE[d365fin](includes/d365fin_md.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
+Felter [!INCLUDE[prod_short](includes/prod_short.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
 
 Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.  
 
@@ -44,7 +44,7 @@ For å endre verdien i et felt må du først sette fokus på feltet. Du setter f
 - Bruk **Tab**-tasten. Handlingen velger hele verdien.
 - Venstreklikk med musen eller en lignende inndataenhet. Denne handlingen vil bare velge hele feltverdien hvis feltet er i en liste.  
 
-Når du samhandler med felt i brukergrensesnitt, velger [!INCLUDE[d365fin](includes/d365fin_md.md)] ofte hele feltverdien for å gjøre det enklere for deg å erstatte verdien.
+Når du samhandler med felt i brukergrensesnitt, velger [!INCLUDE[prod_short](includes/prod_short.md)] ofte hele feltverdien for å gjøre det enklere for deg å erstatte verdien.
 
 Når hele feltverdien velges:
 - Erstatt verdien ved å bare skrive for å angi en ny verdi. Hvis felter har en velger, kan du aktivere den ved å bruke **Alt + pil ned**-tastatursnarveien.
@@ -85,7 +85,7 @@ Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 - Det er tilgjengelig for alle redigerbare felt.
 - Den fungerer også i kolonner og rader.
 - Det hindrer ikke tilgang til andre elementer på en side, som handlinger. Disse elementene kan fremdeles nås ved å bruke Tab og Skift + Tab.  
-- Det er ikke nødvendig at FastTabs er utvidet for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet er plasser i en skjult FastTab, utvides den FastTab-en automatisk og fokuserer på det valgte feltet. [!INCLUDE[d365fin](includes/d365fin_md.md)] husker at FastTab skal ekskluderes neste gang du besøker siden.  
+- Det er ikke nødvendig at FastTabs er utvidet for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet er plasser i en skjult FastTab, utvides den FastTab-en automatisk og fokuserer på det valgte feltet. [!INCLUDE[prod_short](includes/prod_short.md)] husker at FastTab skal ekskluderes neste gang du besøker siden.  
 - Hurtigoppføring fungerer uansett om felter er obligatoriske. Det kan derfor være lurt å sørge for at obligatoriske felt er inkludert i Hurtigoppføring.
 - Som standard inkluderes de fleste feltene automatisk i Hurtigoppføring. Så i starten vil oppgaven din sannsynligvis eksludere felt fra Hurtigoppføring.
 
@@ -120,7 +120,7 @@ Du kan kopiere én eller flere rader fra en liste eller fra ett felt på en side
 
 Trykk på F8 i listen for å kopiere feltet i den samme kolonnen i raden over, og lim det inn i den gjeldende raden.
 
-Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](ui-copy-paste.md).
+Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrere linjeelementer
 
@@ -162,7 +162,7 @@ Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger 
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det samme kan skje i andre nettlesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) hvis du vil ha mer informasjon.  
 
-En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
+En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[prod_short](includes/prod_short.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
 
 > [!NOTE]
 > Ikke bruk **Dupliser**-funksjonen i nettleseren til å opprette den nye fanen, siden dette kan forårsake at handlinger på én fane blokkerer handlinger på andre faner fordi de er en del av den samme økten.
@@ -294,4 +294,4 @@ Her er noen eksempler.
 
 ## <a name="see-also"></a>Se også  
  [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

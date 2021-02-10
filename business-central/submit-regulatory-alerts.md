@@ -8,12 +8,12 @@ ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: da0469ddb00e0c29fc04dc421a21724dc247b80b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4176f79aabba652208f7c0aacb6a000924009451
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912799"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817259"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
@@ -74,9 +74,9 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 ## <a name="see-also"></a>Se også
 
-[Lokal funksjonalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
 [Komme i gang](product-get-started.md)  
 [Velkommen til Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

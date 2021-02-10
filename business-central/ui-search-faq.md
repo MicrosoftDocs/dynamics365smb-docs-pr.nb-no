@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7534d1e3365dd02b6f9f1afde03b5de76640e1a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b880ef5cb49a02dcbb3973f87bc64eae48b2b3a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914888"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760245"
 ---
 # <a name="tell-me-faq"></a>Vanlige spørsmål om Fortell meg
 Dette emnet gir svar på spørsmål som våre avanserte brukere ofte stiller om Fortell meg-funksjonen.
@@ -32,7 +32,7 @@ Handlinger, sider og rapporter som kommer fra utvidelser, hentes av Fortell meg,
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hva gjør dette forskjellig fra det som tidligere ble kalt for Sidesøk?
 Sidesøk har utviklet seg til Fortell meg for å hjelpe deg med å arbeide raskt. Sidesøk kunne bare hjelpe deg med å navigere til sider eller rapporter. På et teknisk nivå er Fortell meg ikke lenger basert på det eldre MenuSuite-konseptet.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inkluderer dette Fortell meg?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Inkluderer dette Fortell meg?
 Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon, eller apper og konsulenttjenester på AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortell meg tilgjengelig for alle skjemafaktorer?

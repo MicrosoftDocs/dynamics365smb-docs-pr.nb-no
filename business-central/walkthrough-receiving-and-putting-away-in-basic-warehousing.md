@@ -1,6 +1,6 @@
 ---
-title: Gjennomgang – Mottak og plassering i enkle lageroppsett | Microsoft-dokumentasjon
-description: I Business Central kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.
+title: Gjennomgang – Motta og plassere i grunnleggende lageroppsett
+description: I Business Central kan de inngående prosessene for mottak og plassering utføres på fire ulike måter, avhengig av kompleksitetsnivået til lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b119883babf1f44ff78482c4849faff72c1ec257
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 674b095c515c6c8be5dde41861ab2cfdc943855f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918441"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035559"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
 
 |Prinsipp|Inngående prosess|Hyller|Mottak|Plassering|Kompleksitetsnivå (se [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -52,6 +52,9 @@ Denne gjennomgangen viser følgende oppgaver.
 -   Verifiserer at plasseringshyllene er arvet fra bestillingen.  
 -   Registrerer lagerflyttingen til lageret og bokfører samtidig mottaket for kildebestillingen.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Roller  
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
@@ -76,9 +79,9 @@ Ellen, lagerlederen hos CRONUS Norge AS, oppretter en bestilling for 10 enheter 
 ## <a name="setting-up-the-location"></a>Definere plassering  
  Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
-### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:  
+### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet SØLV.  
 3.  Merk av for **Plassering nødv.**.  
 
@@ -144,4 +147,4 @@ På siden **Lagerplassering** kan du håndtere alle inngående lageraktiviteter 
  [Flytte varer ad hoc i enkle lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)   
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

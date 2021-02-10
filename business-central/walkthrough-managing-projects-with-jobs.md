@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12d168b24ad28c3895ee7800b0ab5fed99861ec4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 05f45c0c7041771a63dc7b7c7a6b61512d67af2a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923298"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760070"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
 
@@ -68,7 +68,7 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 -   Opprett eksempeldata ved å bruke fremgangsmåten i neste del.  
 
 ## <a name="story"></a>Hovedscenario  
-Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Florian er en prosjektleder hos CRONUS. Han bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Han er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Han synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
+Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Florian er en prosjektleder hos CRONUS. Han bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Han er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
 
  Marie, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Hun angir sitt eget arbeid i tillegg til arbeidet som utføres av teknikerne på hver oppgave. Hun registrerer varene som de har brukt og de påløpte kostnadene.  
 
@@ -480,7 +480,7 @@ Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer f
 3.  Velg handlingen **Salgsfaktura/kreditnota**. I salgsfakturaen kan du se at det bare er avdraget som er tatt med i fakturaen. Du kan nå sende denne til kunden som avtalt.  
 
 ## <a name="next-steps"></a>Neste trinn  
- Denne gjennomgangen har vist deg noen av de grunnleggende trinnene for å arbeide med prosjekter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du har lært hvordan du oppretter et nytt prosjekt, hvordan du kopierer et prosjekt og hvordan du håndterer betalinger. Du har også sett en demonstrasjon av hvordan du sporer timer og oppretter fakturaer.  
+ Denne gjennomgangen har vist deg noen av de grunnleggende trinnene for å arbeide med prosjekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært hvordan du oppretter et nytt prosjekt, hvordan du kopierer et prosjekt og hvordan du håndterer betalinger. Du har også sett en demonstrasjon av hvordan du sporer timer og oppretter fakturaer.  
 
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
@@ -488,4 +488,4 @@ Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer f
  [Bruke ressurser](projects-how-use-resources.md)   
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)   
  [Fakturere prosjekter](projects-how-invoice-jobs.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

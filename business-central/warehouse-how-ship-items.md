@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0ff9dd0851b220b9e3e4888e43ffa070397b8943
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8e5a9c93315c1bc199dbcbfe9076c01828524e96
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911924"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759945"
 ---
 # <a name="ship-items"></a>Levere varer
 
@@ -38,7 +38,7 @@ Fremgangsmåten nedenfor beskriver hvordan du leverer varer fra en ordre. Fremga
 4. Velg handlingen **Bokfør**.
 
 > [!NOTE]
-> Hvis organisasjonen ikke bruker ordrer, antar [!INCLUDE [prodshort](includes/prodshort.md)] at du har levert hele antallet når du bokfører salgsfakturaen. Hvis dette er i strid med hvordan organisasjonen arbeider, anbefaler vi at du bruker ordrer og registrerer leveringer som forklart i denne artikkelen.
+> Hvis organisasjonen ikke bruker ordrer, antar [!INCLUDE [prod_short](includes/prod_short.md)] at du har levert hele antallet når du bokfører salgsfakturaen. Hvis dette er i strid med hvordan organisasjonen arbeider, anbefaler vi at du bruker ordrer og registrerer leveringer som forklart i denne artikkelen.
 
 ## <a name="to-ship-items-with-a-warehouse-shipment"></a>Slik leverer du varer med en lagerlevering
 
@@ -46,7 +46,7 @@ Først oppretter du et leveringsdokument fra et forretningskildedokument. Derett
 
 ### <a name="to-create-a-warehouse-shipment"></a>Slik oppretter du en lagerlevering
 
-Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering. Fremgangsmåten nedenfor viser hvordan du oppretter leveringen manuelt i standardversjonen av [!INCLUDE[prodshort](includes/prodshort.md)], men organisasjonen kan ha automatiserte deler av prosessen, for eksempel med bruk av håndholdte eller monterte skannere som støttes av eksterne leverandører.  
+Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering. Fremgangsmåten nedenfor viser hvordan du oppretter leveringen manuelt i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)], men organisasjonen kan ha automatiserte deler av prosessen, for eksempel med bruk av håndholdte eller monterte skannere som støttes av eksterne leverandører.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -105,7 +105,7 @@ Hvis du vil ha mer informasjon om hvordan du plukker for lagerlevering, kan du s
 Du kan også bruke plukkforslaget til å gjøre flere plukkinstruksjoner om til én instruksjon (for flere leveringer), og derved forbedre effektiviteten for plukkingen i lageret. Hvis du vil ha mer informasjon, kan du se [Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)
 
 > [!NOTE]
-> Hvis du venter på at en bestemt vare skal ankomme lageret og du bruker kryssoverføringsfunksjonalitet, så beregner [!INCLUDE[d365fin](includes/d365fin_md.md)], på hver følgeseddel- eller plukkforslagslinje, antallet for varen som er i kryssoverføringshyllen. Dette feltet oppdateres hver gang du går ut av eller åpner følgeseddelen eller forslaget. Hvis du vil ha mer informasjon, kan du se [Kryssoverføre varer](warehouse-how-to-cross-dock-items.md).
+> Hvis du venter på at en bestemt vare skal ankomme lageret og du bruker kryssoverføringsfunksjonalitet, så beregner [!INCLUDE[prod_short](includes/prod_short.md)], på hver følgeseddel- eller plukkforslagslinje, antallet for varen som er i kryssoverføringshyllen. Dette feltet oppdateres hver gang du går ut av eller åpner følgeseddelen eller forslaget. Hvis du vil ha mer informasjon, kan du se [Kryssoverføre varer](warehouse-how-to-cross-dock-items.md).
 
 ## <a name="see-also"></a>Se også
 
@@ -114,4 +114,4 @@ Du kan også bruke plukkforslaget til å gjøre flere plukkinstruksjoner om til 
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

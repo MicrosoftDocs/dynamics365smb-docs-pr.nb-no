@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6456d982629571d4d39622a910df4bfd7039d7a8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6fc4f700f7469c280474e4a1f606ade24ef1266b
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915063"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817057"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
@@ -30,7 +30,7 @@ Hvis du vil aktivere utvidelsen manuelt, følger du denne fremgangsmåten:
 2. Fyll ut feltene etter behov.
 
 > [!Note]
-> Hvis du velger å aktivere utvidelsen manuelt, må du være klar over at [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke tillater at du gjør dette hvis kvaliteten på modellen er lav. Kvaliteten på modellen angir hvor nøyaktig modellens prognoser sannsynligvis vil være. Flere faktorer kan påvirke kvaliteten på en modell. Dette var for eksempel ikke er nok data, eller dataene inneholdt ikke nok variasjon. Du kan vise kvaliteten på modellen du bruker, på siden **Oppsett av prognose for forsinket betaling**. Du kan også angi e minimumsgrense for modellkvaliteten.   
+> Hvis du velger å aktivere utvidelsen manuelt, må du være klar over at [!INCLUDE[prod_short](includes/prod_short.md)] ikke tillater at du gjør dette hvis kvaliteten på modellen er lav. Kvaliteten på modellen angir hvor nøyaktig modellens prognoser sannsynligvis vil være. Flere faktorer kan påvirke kvaliteten på en modell. Dette var for eksempel ikke er nok data, eller dataene inneholdt ikke nok variasjon. Du kan vise kvaliteten på modellen du bruker, på siden **Oppsett av prognose for forsinket betaling**. Du kan også angi e minimumsgrense for modellkvaliteten.   
 
 ## <a name="viewing-all-payment-predictions"></a>Vis alle betalingsprognoser
 Hvis du aktiverer utvidelsen, er flisen **Betalinger forutsatt til å være forsinket** tilgjengelig i **Forretningsleder**-rollesenteret. Flisen viser hvor mange betalinger som er forutsatt å bli sene, og lar deg åpne siden **Kundeposter**, der du kan se nærmere på de bokførte fakturaene. Det finnes tre kolonner til å være oppmerksom:  
@@ -49,7 +49,7 @@ Du kan også forutse sen betalinger direkte. På sidene **Tilbud**, **Ordrer** o
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
 ## <a name="design-details"></a>Designdetaljer
-Microsoft distribuerer og opererer med mange forutsigbare webtjenester i alle områder der [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgjengelig. Tilgang til disse webtjenestene er inkludert i [!INCLUDE[d365fin](includes/d365fin_md.md)]-abonnementet. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/)-nettstedet.
+Microsoft distribuerer og opererer med mange forutsigbare webtjenester i alle områder der [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig. Tilgang til disse webtjenestene er inkludert i [!INCLUDE[prod_short](includes/prod_short.md)]-abonnementet. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/)-nettstedet.
 
 Webtjenestene fungerer i tre modi:
 - Opplæringsmodell. Webtjenesten lærer opp modellen basert på det angitte datasettet.
@@ -82,13 +82,13 @@ I tillegg blir posten supplert med aggregerte data fra andre fakturaer som er kn
 > Informasjonen om kunden er ikke inkludert i datasettet.
 
 ### <a name="standard-model-and-my-model"></a>Standardmodell og Min modell
-Utvidelsen Prognose for forsinket betaling inneholder en prognosemodell som ble lært opp ved hjelp av data som er representative for en rekke små og mellomstore bedrifter. Når du starter bokføring av fakturaer og mottaksbetalinger, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] vurdere om standardmodellen passer til din forretningsflyt. 
+Utvidelsen Prognose for forsinket betaling inneholder en prognosemodell som ble lært opp ved hjelp av data som er representative for en rekke små og mellomstore bedrifter. Når du starter bokføring av fakturaer og mottaksbetalinger, vil [!INCLUDE[prod_short](includes/prod_short.md)] vurdere om standardmodellen passer til din forretningsflyt. 
 
-Hvis det viser seg at prosessene ikke samsvarer med standardmodellen, kan du likevel bruke filtypen, men du må få mer data. Fortsett bare å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Hvis det viser seg at prosessene ikke samsvarer med standardmodellen, kan du likevel bruke filtypen, men du må få mer data. Fortsett bare å bruke [!INCLUDE[prod_short](includes/prod_short.md)].
 > [!Note]
 > Vi bruker litt av databehandlingstiden din hver uke når vi evaluerer og lærer opp modellen på nytt. 
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kjører opplæring og evaluering automatisk når det er nok betalte og forfalte fakturaer. Du kan imidlertid kjøre modellen manuelt når du vil.
+[!INCLUDE[prod_short](includes/prod_short.md)] kjører opplæring og evaluering automatisk når det er nok betalte og forfalte fakturaer. Du kan imidlertid kjøre modellen manuelt når du vil.
 
 #### <a name="to-train-and-use-your-model"></a>Slik lærer du opp og bruker modellen
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av prognose for forsinket betaling**, og velg deretter den relaterte koblingen.  
@@ -110,4 +110,4 @@ Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell
 ## <a name="see-also"></a>Se også  
 [Dokumentasjon for Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)  
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  

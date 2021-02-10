@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 12/03/2020
 ms.author: edupont
-ms.openlocfilehash: 5ca69a35aac0ba61591dfdfd71d739726e2fb62f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa2830aeb62fe6acea5f8e3879c678e9d8407fb4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910133"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760320"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 
@@ -25,9 +25,10 @@ I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokfør
 * **Bokfør og ny**
 * **Bokfør og Send**
 * **Forhåndsvis bokføring**
-* **Fakturakladd**
-* **Proformafaktura**
+* **Massebokfør**
 * **Kontrollrapport**
+
+> [Obs!] For ordrer kan du også se alternativer som er knyttet til funksjonene for forskuddsbetaling. Hvis du vil ha mer informasjon, kan du se [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md). 
 
 Når du har fylt ut alle linjene og angitt alle opplysningene i ordren, kan du bokføre den. Dette oppretter en levering og en faktura.
 
@@ -62,4 +63,4 @@ Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pak
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

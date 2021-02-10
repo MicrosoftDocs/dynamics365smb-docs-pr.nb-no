@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c67f55e1de336e7a191b1d10affe0134110a70b5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 558b93677d4045f68bdc6fea0b68936658816b92
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923249"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759845"
 ---
 # <a name="cross-dock-items"></a>Kryssoverføringsvarer
 Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.  
@@ -60,7 +60,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 3.  Fyll ut feltet **Motta (antall)**, og velg deretter **Beregn kryssoverføring**-handlingen.  
 
-    Utgående kildedokumenter som ber om varene som er planlagt å skulle forlate lageret innefor datoformelens tidsperiode, identifiseres.  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner antall slik at du kan kryssoverføre så mye som mulig og unngå å plassere varene, uten å samle opp for mange varer i kryssoverføringsområdet. Verdien i feltet **Ant. som skal kryssoverf** blir derved den minste av enten summen av alle de utgående linjene som ber om varen innenfor beregningstiden minus det antallet varer som allerede er plassert i kryssoverføringsområdet, eller verdien i feltet **Motta (antall)** på mottakslinjen. Du kan ikke kryssoverføre mer enn du har mottatt.  
+    Utgående kildedokumenter som ber om varene som er planlagt å skulle forlate lageret innefor datoformelens tidsperiode, identifiseres.  [!INCLUDE[prod_short](includes/prod_short.md)] beregner antall slik at du kan kryssoverføre så mye som mulig og unngå å plassere varene, uten å samle opp for mange varer i kryssoverføringsområdet. Verdien i feltet **Ant. som skal kryssoverf** blir derved den minste av enten summen av alle de utgående linjene som ber om varen innenfor beregningstiden minus det antallet varer som allerede er plassert i kryssoverføringsområdet, eller verdien i feltet **Motta (antall)** på mottakslinjen. Du kan ikke kryssoverføre mer enn du har mottatt.  
 
 4.  Hvis du vil kryssoverføre det antallet som blir foreslått, bokfører du mottaket. Du kan også bestemme deg for å endre antallet som skal kryssoverføres til en høyere eller lavere verdi, og deretter bokføre mottaket.  
 
@@ -104,4 +104,4 @@ Hvis du ikke bruker hyller, må du huske å kontrollere kryssoverføringsområde
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

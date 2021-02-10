@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb9caf6fa4dbca9d51d66e329321fdecc6478ec0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cf7f261f945828b78db55cde0dda70d12b158127
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912074"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760345"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider for profiler
 Brukere kan tilpasse sider som utgjør arbeidsområdet, slik at de passer til deres egne behov. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -29,7 +29,7 @@ Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpu
 2. Velg linjen for profilen du vil tilpasse sidene for, og velg deretter handlingen **Slett**.
 3. Velg handlingen **Tilpass sider**.
 
-    [!INCLUDE[d365fin](includes/d365fin_md.md)] åpnes i en ny leserkategori for den valgte profilen med banneret **Tilpasse** aktivert. Banneret **Tilpasning** tilbyr samme funksjonalitet som banneret **Tilpasning** som brukerne kan bruke.
+    [!INCLUDE[prod_short](includes/prod_short.md)] åpnes i en ny leserkategori for den valgte profilen med banneret **Tilpasse** aktivert. Banneret **Tilpasning** tilbyr samme funksjonalitet som banneret **Tilpasning** som brukerne kan bruke.
 
 4. Tilpass sider i henhold til behovene for gjeldende rolle eller avdeling, på samme måte som en bruker gjør ved tilpasning. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
@@ -70,4 +70,4 @@ Oppsettet på de valgte sidene justeres til endringene du har gjort.
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

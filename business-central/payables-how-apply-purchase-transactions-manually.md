@@ -1,8 +1,6 @@
 ---
-title: Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter | Microsoft Docs
+title: Avstem leverandørbetalingsmottak eller refusjoner i utbetalingskladden
 description: Hvis du vil behandle eller avstemme leverandørbetalinger eller refusjoner manuelt, utligner du beløpet mot én eller flere åpne leverandørposter.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b981a0062c628f3ffe3b0de8eaf4c811a13632ec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8f88f7df150f988b0d365b383a89a778a0dc9a15
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916829"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013670"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter
 Når du sender en betaling eller mottar en refusjon fra en leverandør, må du bestemme om du vil utligne betalingen eller refundere til én eller flere åpne poster. Du kan angi det nøyaktige beløpet du vil utligne mot, kvitteringen eller refusjonen, og deretter bare delvis utligne leverandørposter. Du må utligne alle leverandørposter for å få riktig leverandørstatistikk og riktige rapporter av kontoutdrag og rentenotaer.
@@ -122,4 +120,4 @@ Når du opphever utligningen for en feilaktig utligning, opprettes og bokføres 
 ## <a name="see-also"></a>Se også
 [Kjøp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

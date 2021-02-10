@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6138bc80b96e55c559067abad2957044d2e7c87f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: babd447411d1ea6000fc67379eda132b3d3e94f3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914838"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760109"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
-En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.  
+En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.  
 
  Du bruker disse funksjonene i Salg og markedsføring til å planlegge markedsføringsaktivitetene omhyggelig og å håndtere samhandling med kontakter og kunder. Du kan opprette kampanjer og definere segmenter for kontaktene for utsendelser og andre typer samhandlinger med kontaktene og potensielle kunder.  
 
@@ -42,7 +42,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 -   Markedsføringsmedarbeider  
 
 ## <a name="prerequisites"></a>Forutsetninger  
- Før du kan utføre oppgavene i gjennomgangen, må du installere [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ Før du kan utføre oppgavene i gjennomgangen, må du installere [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="story"></a>Hovedscenario  
  Markedsføringssjefen i salgsavdelingen hos CRONUS har ansvaret for å planlegge og kjøre kampanjer. Han bestemmer også hvilke varemesser de skal delta på, og han evaluerer kampanjefremdriften.  
@@ -198,4 +198,4 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 ## <a name="see-also"></a>Se også  
 [Forbindelser](marketing-relationship-management.md)  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

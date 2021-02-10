@@ -11,20 +11,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2cca707134ec4072aa1e87206c8f78619164d450
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e952a988c314e2427c05b4370543ea390f8a90a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912180"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760595"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard-utvidelsen
 Med WorldPay Payments Standard-utvidelsen kan du tilby kundene et praktisk alternativ til å foreta betalinger via bankoverføringer eller kredittkort. Ikke bare at betalinger som er gjort gjennom betalingstjenester vil vanligvis lander på bankkontoen din raskere.
 Hvis du aktiverer filtypen og sender en faktura eller ordre via e-post, vil dokumentet inneholder en kobling til tjenesten i brødteksten for e-post og i det vedlagte PDF-dokumentet. En kunde kan velge koblingen, og deretter bruke tjenesten til å gjøre betalingen.
 
-Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

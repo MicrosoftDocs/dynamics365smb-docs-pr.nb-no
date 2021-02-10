@@ -1,5 +1,5 @@
 ---
-title: Opprette produksjonsstykklister | Microsoft-dokumentasjon
+title: Opprette produksjonsstykklister
 description: En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 01/05/2020
 ms.author: edupont
-ms.openlocfilehash: 1d053c65b94efdb3b033c617f1b6b2db316c1ec2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5c9f2fa03f5f20e533237e60762dc60fc679d0d0
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919291"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838485"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
+
 En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 Før du kan definere en rute, må følgende være på plass:  
 
@@ -48,7 +49,7 @@ Før du kan definere en rute, må følgende være på plass:
 12.  Nå kan du knytte den nye produksjonsstykklisten til kortet for den aktuelle overordnede varen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
->  Hvis du vil beregne varens standardkost fra varekortet, velger du **Produksjon** og deretter **Beregn standardkost**.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil beregne varens standardkost fra varekortet, velger du **Produksjon** og deretter **Beregn standardkost**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Slik oppretter du nye versjoner av en produksjonsstykkliste
 Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstattes av en annen vare, eller når en kunde krever en spesialversjon av et produkt. Versjonsprinsippet gjør det mulig å håndtere flere versjoner av en produksjonsstykkliste. Strukturen i produksjonsstykklisteversjonen tilsvarer strukturen i produksjonsstykklistene. Hovedforskjellen ligger i versjonenes tidsgyldighet. Gyldigheten defineres av startdatoen.  
@@ -96,4 +97,4 @@ I en produksjonsstykkliste kreves det sytti metalldeler med dimensjonslengde = 0
 [Planlegging](production-planning.md)   
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

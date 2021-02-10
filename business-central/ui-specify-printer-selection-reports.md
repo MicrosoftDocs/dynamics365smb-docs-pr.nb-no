@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: online printing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5bc01e711be7d05205362536f4b44a5dbfc4aa2c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e088d13ead96111023df7781f0d6d1c1dcd58cfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915996"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760295"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
-Ettersom [!INCLUDE[prodshort](includes/prodshort.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
+Ettersom [!INCLUDE[prod_short](includes/prod_short.md)] er en skytjeneste, kan den ikke nå lokale skrivere som er koblet til brukernes maskiner. Den kan imidlertid koble til skyaktiverte skrivere. I den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], blir en skyskriver kalt **E-postskriver** installert som en utvidelse, og den er klar til bruk etter første installasjon.
 
 Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert skriver mislykkes, blir utskriftsalternativene automatisk angitt for leseren. Dette angis av denne verdien i feltet **Skriver** på rapportforespørselssiden: *(ingen, behandlet av leseren)*.
 
@@ -59,7 +59,7 @@ Du må ta alle nødvendige forholdsregler for personvern, inkludert å sørge fo
 På siden **Skrivervalg** kan du definere hvilke rapporter som skrives ut av hvilken skriver, for brukerkontoen din. Dette er nyttig hvis du arbeider med forskjellige rapporter som krever ulike skrivere på grunn av sin plassering i firmaet eller utskriftsmulighetene.
 
 > [!IMPORTANT]
-> For lokal [!INCLUDE[prodshort](includes/prodshort.md)] kan siden **Skrivervalg** bare brukes for skrivere som er definert av skriverutvidelser. Den kan ikke brukes for lokale skrivere.
+> For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan siden **Skrivervalg** bare brukes for skrivere som er definert av skriverutvidelser. Den kan ikke brukes for lokale skrivere.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen. Alternativt kan du velge siden **Utskriftsbehandling**, velge en skriver, og deretter velge handlingen **Skrivervalg**.
 2. Velg handlingen **Ny** hvis du vil legge til et skrivervalg for en bestemt rapport.
@@ -88,6 +88,6 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 
 ## <a name="see-also"></a>Se også
 [Skrive ut en rapport](ui-work-report.md#PrintReport)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kjøre kjørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  

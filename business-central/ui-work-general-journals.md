@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d0fba2dc1359da074ddf8fd21823803d49ba1234
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760101"
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 
-De fleste finanstransaksjoner bokføres i Finans via dedikerte forretningsdokumenter, for eksempel kjøpsfakturaer eller ordrer. Men du kan også behandle forretningsaktiviteter som kjøp, betaling, ved å bruke gjentakelseskladder til å bokføre justeringer, eller refundering av ansattutgifter ved bokføring av kladdelinjene som opprettes i de forskjellige kladdene i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+De fleste finanstransaksjoner bokføres i Finans via dedikerte forretningsdokumenter, for eksempel kjøpsfakturaer eller ordrer. Men du kan også behandle forretningsaktiviteter som kjøp, betaling, ved å bruke gjentakelseskladder til å bokføre justeringer, eller refundering av ansattutgifter ved bokføring av kladdelinjene som opprettes i de forskjellige kladdene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 De fleste kladder er basert på *Finanskladd*, og du kan behandle alle transaksjonene på siden **Finanskladd**. Hvis du vil ha mer informasjon, kan du se [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md).  
 
@@ -41,15 +41,15 @@ Det finnes flere finanskladdemaler. Hver kladdemal er representert på en egen s
 Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladdemal. Du kan for eksempel definere din egen kladd for betalingskladden som har personlig oppsett og innstillinger. Tipset nedenfor er et eksempel på hvordan du kan tilpasse en kladd.
 
 > [!TIP]  
-> Hvis du merker av for **Foreslå motkontobeløp** på linjen for den kladden på siden **Finanskladder**, vil deretter for eksempel **Beløp**-feltet på finanskladdelinjer for samme dokumentnummer, automatisk forhåndsutfylles med verdien som kreves for å balansere dokumentet. Hvis du vil ha mer informasjon, kan du se [La [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå verdier](ui-let-system-suggest-values.md).
+> Hvis du merker av for **Foreslå motkontobeløp** på linjen for den kladden på siden **Finanskladder**, vil deretter for eksempel **Beløp**-feltet på finanskladdelinjer for samme dokumentnummer, automatisk forhåndsutfylles med verdien som kreves for å balansere dokumentet. Hvis du vil ha mer informasjon, kan du se [La [!INCLUDE[prod_short](includes/prod_short.md)] foreslå verdier](ui-let-system-suggest-values.md).
 
 > [!TIP]
 > Hvis du vil legge til eller fjerne felt i kladder, bruker du banneret **Tilpass**. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Validere finanskladder
-For å unngå forsinkelser ved bokføring kan du aktivere en bakgrunnskontroll som varsler deg når det oppstår en feil i finanskladden du arbeider med, som forhindrer at du bokfører kladden. På siden **Finanskladd** kan du velge **Bakgrunnsfeilkontroll** for at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal validere finanskladder, for eksempel finans- eller utbetalingskladder, mens du arbeider med dem. 
+For å unngå forsinkelser ved bokføring kan du aktivere en bakgrunnskontroll som varsler deg når det oppstår en feil i finanskladden du arbeider med, som forhindrer at du bokfører kladden. På siden **Finanskladd** kan du velge **Bakgrunnsfeilkontroll** for at [!INCLUDE[prod_short](includes/prod_short.md)] skal validere finanskladder, for eksempel finans- eller utbetalingskladder, mens du arbeider med dem. 
 
-Når du aktiverer valideringen, vises faktaboksen **Kladdkontroll** ved siden av kladdelinjene, og viser feil i gjeldende linje og i hele kladden. Valideringen skjer når du laster inn en finanskladd, og når du velger en annen kladdelinje. Flisen **Totalt antall problemer** i faktaboksen viser totalt antall problemer som [!INCLUDE[d365fin](includes/d365fin_md.md)] har funnet, og du kan velge den for å åpne en oversikt over problemene. 
+Når du aktiverer valideringen, vises faktaboksen **Kladdkontroll** ved siden av kladdelinjene, og viser feil i gjeldende linje og i hele kladden. Valideringen skjer når du laster inn en finanskladd, og når du velger en annen kladdelinje. Flisen **Totalt antall problemer** i faktaboksen viser totalt antall problemer som [!INCLUDE[prod_short](includes/prod_short.md)] har funnet, og du kan velge den for å åpne en oversikt over problemene. 
 
 Du kan bruke handlingene **Vis linjer med problemer** og **Vis alle linjer** for å veksle mellom kladdelinjer som har eller ikke har problemer. Den nye faktaboksen **Kladdelinjedetaljer** gir rask oversikt over og tilgang til data fra kladdelinjer, for eksempel finanskonto, kunde eller leverandør, i tillegg til bokføringsoppsettet for bestemte konti.     
 
@@ -203,7 +203,7 @@ Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnumme
 [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Fordele kostnader og inntekter](year-allocate-costs-income.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lukke åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Revaluere beholdning i revalueringskladden](inventory-how-revalue-inventory.md)  
 [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)  

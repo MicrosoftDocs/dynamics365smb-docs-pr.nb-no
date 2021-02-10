@@ -1,21 +1,20 @@
 ---
-title: Arbeide med stykklister for å håndtere komponenter | Microsoft-dokumentasjon
+title: Arbeide med stykklister for å håndtere komponenter
 description: Du oppretter en monteringsstykkliste eller produksjonsstykkliste for å spesifisere komponenter eller ressurser som kreves for å sette sammen varen som stykklisten representerer.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 01/05/2021
 ms.author: edupont
-ms.openlocfilehash: 4aa769c8a2b044f434a9643209eecb97f7f51f13
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5d372c72d70c72f9c809fe6b3a05ed5b5528a8f
+ms.sourcegitcommit: cdba82235c0c07497bd04b9bd5134ef245d92c09
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919391"
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "4838460"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
@@ -89,11 +88,15 @@ Alle feltene på salgsfakturalinjen for monteringsvaren er tomme med unntak av f
 > **Plukkliste etter ordre**-rapporten endres også for å vise bare komponentene. Dette betyr at en lagerarbeider som plukker den overordnede varen, monteringsvaren, ikke kan se den i plukklisten. Se [Skrive ut plukklisten](sales-how-print-picking-list.md) hvis du vil ha mer informasjon .
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Slik beregner du standardkosten for en monteringsvare
+
 Du beregner enhetskosten for en monteringsvare ved å opprullere enhetskosten for hver komponent og ressurs i varens monteringsstykkliste.
 
 Du kan også beregne og oppdatere standardkost for én eller flere varer på siden **Standardkost - forslag**. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).  
 
-Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskostnadene for komponentene, inkludert andre monteringsstykklister og ressurser.
+Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskostnadene for komponentene, inkludert andre monteringsstykklister og ressurser.  
+
+> [!NOTE]
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
 
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Varer** og velger deretter den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
@@ -114,4 +117,4 @@ Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvar
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 94c793441d413820f3dd752179c0268147fc2f8f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c96691ada97f0ee91b53d9cde303c2413e99025e
+ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920223"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024390"
 ---
 # <a name="setting-up-warehouse-management"></a>Definere lagerstyring
 Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette omfatter å definere hvordan ulike varer skal håndteres på ulike lagerlokasjoner, for eksempel graden av hyllekontroll og omfanget av påkrevd arbeidsflyt mellom lageraktiviteter.  
@@ -40,10 +40,11 @@ Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette
 |Konfigurere lageret til å automatisk foreslå plukking av varer som utløper først.|[Aktivere plukking etter FEFO](warehouse-picking-by-fefo.md)|
 |Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Integrer strekkodelesere i lagerstyringsløsningen. Bare for lokal distribusjon.|[Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

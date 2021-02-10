@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 114124fa73c0de1ec45efedd913ea7ffe3439a57
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89ee34bac855e40bc44f1e32764968cfd36324a9
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923323"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760130"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
 
 Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS Norge AS. Noen utføres vanligvis av én bruker, mens andre omfatter flere ulike brukerroller. For å simulere arbeidsmiljøet inneholder noen av gjennomgangene konfigureringstrinn som er nødvendige for å fullføre øvelsene som beskrevet. Disse trinnene kan gi innsikt i typen informasjon som brukerne må dele med IT-medarbeiderne i selskapet.  
 
- Gjennomganger er fullstendig scenarier, og du bør utføre dem fra begynnelse til slutt for å få størst mulig utbytte av dem. Mange er basert på demonstrasjoner av [!INCLUDE[d365fin](includes/d365fin_md.md)] og gjør det mulig å prøve disse prosedyrene selv, i ditt eget tempo.  
+ Gjennomganger er fullstendig scenarier, og du bør utføre dem fra begynnelse til slutt for å få størst mulig utbytte av dem. Mange er basert på demonstrasjoner av [!INCLUDE[prod_short](includes/prod_short.md)] og gjør det mulig å prøve disse prosedyrene selv, i ditt eget tempo.  
 
 > [!NOTE]
-> Noen av gjennomgangene krever eksempeldata som ikke er tilgjengelig i standard demoselskap i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Opprette et selskap med fullstendige eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
+> Noen av gjennomgangene krever eksempeldata som ikke er tilgjengelig i standard demoselskap i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Opprette et selskap med fullstendige eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Hvis du vil|Se|  
 |--------|---------|  
@@ -44,6 +44,6 @@ Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretnings
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

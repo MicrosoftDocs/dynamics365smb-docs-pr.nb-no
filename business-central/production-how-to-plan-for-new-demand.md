@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43e93d44a1fb4e3fe840313ebff9171cebddf4f9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 62f5254da05749c2da4690e7d49488af852ac67a
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919166"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013847"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlegge for nytt behov bestilling for bestilling
 Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.  
@@ -109,6 +109,7 @@ Når du har fullført planleggingen på **Ordreplanlegging**-siden, for eksempel
 >  Forsyningsordrene du oppretter, kan introdusere et nytt avhengighetsbehov, for eksempel for underliggende produksjonsordrer, og du bør derfor velge **Beregn plan** igjen for å finne dem og løse dette før du går nedover i oversikten.  
 
 ## <a name="see-also"></a>Se også  
+[Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)  
 [Planlegging](production-planning.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)    
@@ -116,4 +117,4 @@ Når du har fullført planleggingen på **Ordreplanlegging**-siden, for eksempel
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

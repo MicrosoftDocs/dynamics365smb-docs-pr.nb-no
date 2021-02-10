@@ -3,7 +3,7 @@ title: Analysere data etter dimensjoner | Microsoft-dokumentasjon
 description: Beskriver hvordan du analyserer ulike forretningsdata etter dimensjoner.
 services: project-madeira
 documentationcenter: ''
-author: SorenGP
+author: edupont
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f408330e7306a364a5272bc3568858f4765df711
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4086da516f9a1ecccf5a3a0c2f86d0f42877b637
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917629"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817082"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
 I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Dimensjoner kan brukes på poster i kladder, dokumenter og budsjetter. Begrepet dimensjon beskriver hvordan analyser utføres. En todimensjonal analyse er for eksempel salg per område. Hvis du imidlertid bruker mer enn to dimensjoner når du oppretter en post, kan du utføre en mer omfattende analyse, for eksempel salg per salgskampanje per kundegruppe per område. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
@@ -82,4 +82,4 @@ Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra sid
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

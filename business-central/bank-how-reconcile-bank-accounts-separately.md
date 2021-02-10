@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b5441eaf7ea379f7ebdc221c2edef274a36ced4b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 746fd31dfad378bd067e977f2a55a5cf329b7aaa
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921050"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013615"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -24,14 +24,14 @@ Du utfører bankavstemming for å sikre at de ulike forretningstransaksjonene og
 Følgende beskriver hvordan du utfører bankavstemming med siden **Bankkontoavstemming**.
 
 > [!TIP]
-> Du kan avstemme bankkontoer på siden **Betalingsavstemmingskladd** i forbindelse med betalingsbehandling. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+> Du kan avstemme bankkontoer på siden **Betalingsavstemmingskladd** når du behandler betalinger. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette avstemmer automatisk bankkontoen for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
 > I nord-amerikanske versjoner kan du også utføre dette arbeidet på **Bankavstemmingsforslag**-siden, som er mer egnet for sjekker og innskudd, men tilbyr ikke import av filer med bankkontoutdrag. Hvis du vil bruke denne siden i stedet for **Bankkontoavstemming**-siden, fjerner du avmerkingen for feltet **Bankavstemming med automatisk samsvar** på siden **Finansoppsett**. Hvis du vil ha mer informasjon, kan du se delen [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under lokal funksjonalitet for USA.
 
 Linjene på siden **Bankkontoavstemming** er delt i to ruter. Ruten **Bankkontoutdragslinjer** viser importerte banktransaksjoner eller poster med utestående betalinger. Ruten **Bankkontoposter** viser postene i den interne bankkontoen.
 
-Aktiviteten med å avstemme banktransaksjoner med interne bankposter refereres til som *samsvarende*. Du kan angi at avstemming skal utføres automatisk, ved å bruke funksjonen **Avstem automatisk**. Du kan eventuelt velge linjer manuelt i begge rutene for å koble hver bankkontoutdragslinje til én eller flere relaterte bankkontoposter, og deretter bruke funksjonen **Avstem manuelt**. Det er merket av for **Utlignet** på linjer der postene som er utlignet. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md).
+Avstemming av banktransaksjoner med interne bankposter refereres til som *samsvarende*. Du kan angi at avstemming skal utføres automatisk, ved å bruke funksjonen **Avstem automatisk**. Du kan eventuelt velge linjer manuelt i begge rutene for å koble hver bankkontoutdragslinje til én eller flere relaterte bankkontoposter, og deretter bruke funksjonen **Avstem manuelt**. Det er merket av for **Utlignet** på linjer der postene som er utlignet. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md).
 
 > [!NOTE]  
 > Hvis bankeoppgavelinjene vedrører sjekkposter, kan du ikke bruke avstemmingsfunksjonene. I stedet må du velge handlingen **Utlign poster** og deretter velge den relevante sjekkposten som bankkontoutdragslinjen skal utlignes mot.
@@ -42,8 +42,8 @@ Alle linjer som ikke kan sammenlignes, angitt med en verdi i **Differanse**-felt
 
 |Differanse|Årsak|Løsning|
 |-|-|
-|En transaksjon i den interne bankkontoen er ikke på bankkontoutdraget.|Banktransaksjonen inntraff ikke, selv om det ble gjort en bokføring i [!INCLUDE[d365fin](includes/d365fin_md.md)].|Utfør den manglende pengetransaksjonen (eller be en debitor om å utføre den), og importer deretter bankkontoutdragsfilen eller angi transaksjonen manuelt.|
-|En transaksjon på bankkontoutdraget finnes ikke som et bilag eller en kladdelinje i [!INCLUDE[d365fin](includes/d365fin_md.md)].|En banktransaksjon ble foretatt uten en tilsvarende bokføring i [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel en kladdelinjebokføring for en utgift.|Opprett og bokfør den manglende oppføringen. Hvis du vil ha informasjon om hvordan du raskt kan starte dette, kan du se [Opprette manglende poster for utligning av banktransaksjoner](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
+|En transaksjon i den interne bankkontoen er ikke på bankkontoutdraget.|Banktransaksjonen inntraff ikke, selv om det ble gjort en bokføring i [!INCLUDE[prod_short](includes/prod_short.md)].|Utfør den manglende pengetransaksjonen (eller be en debitor om å utføre den), og importer deretter bankkontoutdragsfilen eller angi transaksjonen manuelt.|
+|En transaksjon på bankkontoutdraget finnes ikke som et bilag eller en kladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)].|En banktransaksjon ble foretatt uten en tilsvarende bokføring i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel en kladdelinjebokføring for en utgift.|Opprett og bokfør den manglende oppføringen. Hvis du vil ha informasjon om hvordan du raskt kan starte dette, kan du se [Opprette manglende poster for utligning av banktransaksjoner](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
 |En transaksjon i den interne bankkontoen tilsvarer en banktransaksjon, men noe informasjon er for forskjellig for å utgjøre et samsvar.|Informasjon, for eksempel beløpet eller kundenavnet, ble skrevet inn på en annen måte i forbindelse med banktransaksjonen eller den interne posteringen.|Se gjennom informasjonen, og samsvar de to deretter manuelt. Du kan eventuelt korrigere informasjonen som ikke samsvarer.||
 
 Du må løse forskjellene, for eksempel ved å opprette manglende poster og korrigere ikke-samsvarende informasjon, eller ved å utføre transaksjoner som mangler penger, til bankkontoavstemmingen er fullført og postert.
@@ -51,7 +51,7 @@ Du må løse forskjellene, for eksempel ved å opprette manglende poster og korr
 Du kan fylle ut ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming** på følgende måter:
 
 * Automatisk, ved hjelp av funksjonen **Importer bankkontoutdrag** for å fylle ut ruten **Bankkontoutdragslinjer** med banktransaksjoner i henhold til en importert fil eller strøm oppgitt av banken.
-* Manuelt, ved hjelp av funksjonen **Foreslå linjer**, for å fulle ut ruten **Bankkontoutdragslinjer** i henhold til fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)] som har utestående betalinger.
+* Manuelt, ved hjelp av funksjonen **Foreslå linjer**, for å fulle ut ruten **Bankkontoutdragslinjer** i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalinger.
 
 ## <a name="to-fill-bank-reconciliation-lines-by-importing-a-bank-statement"></a>Fylle ut bankavstemmingslinjer ved å importere et bankkontoutdrag
 
@@ -69,7 +69,7 @@ Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først k
 
 ## <a name="to-fill-bank-reconciliation-lines-with-the-suggest-lines-function"></a>Fylle ut bankavstemmingslinjer med funksjonen Foreslå linjer
 
-Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)] som har utestående betalinger.  
+Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalinger.  
 
 1. På siden **Bankkontoavstemming** velger du handlingen **Foreslå linjer**.
 2. I feltet **Startdato** angir du den første bokføringsdatoen postene skal avstemmes for.
@@ -102,7 +102,7 @@ Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet baser
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Opprette manglende poster for utligning av bankkontoutdragslinjer med
 
-Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike bankkontoutdragslinjer kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
+Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike bankkontoutdragslinjer kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[prod_short](includes/prod_short.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
 
 1. På siden **Bankkontoavstemming** velger du handlingen **Overfør til finanskladd**.  
 2. På siden **Overfør bankavst. til finans** angir du hvilken finanskladd du vil bruke, og velger deretter **OK**-knappen.
@@ -116,6 +116,40 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 6. Oppdater eller åpne siden **Bankkontoavstemming**. Den nye posten vises i ruten **Bankkontoposter**.
 7. Utligne bankkontoutdragslinjen med bankkontopost, enten manuelt eller automatisk.
 
+## <a name="undo-a-bank-account-reconciliation"></a>Angre en bankkontoavstemming
+Hvis du oppdager en feil i en bokført bankavstemming, kan du ved hjelp av **Angre**- handlingen på **Bankkontoutdrag**-siden rette opp feilen. Når du angrer en bokført bankavstemming, flyttes postene til **Bankavstemming**-siden og merkes som **Åpne**, og det betyr at de ikke er avstemt. Deretter kan du korrigere bankavstemmingen og bokføre den på nytt.
+
+> [!NOTE]
+> Hvis du vil bruke Angre-funksjonen for bokførte bankavstemminger og bankkontoutdrag i Nord-Amerika, må du aktivere **Bankavstemming med automatisk samsvar** på **Finansoppsett**-siden. Angre-funksjonen er ikke tilgjengelig for bankkontoutdrag som er bokført fra bankavstemmingsforslag.
+
+### <a name="reusing-the-bank-statement-number"></a>Bruke bankkontoutdragsnummeret på nytt
+Bankkontoutdragsnummeret som brukes for den nye bankavstemmingen, hentes fra bankkontoen, som er Saldo ved forrige utdrag. Du kan endre disse verdiene før du starter en ny bankavstemming. Når du oppretter en ny bankavstemming, kontrollerer imidlertid [!INCLUDE[d365fin](includes/d365fin_md.md)] om utdragsnummeret allerede er tilordnet et bokført bankkontoutdrag. Hvis nummeret er i bruk, men du vil at det nye bankkontoutdraget skal bruke det i stedet, kan du bruke handlingen **Endre utdragsnummer** på siden **Bankkontoavstemming**.
+
+### <a name="examples"></a>Eksempler
+Nedenfor følger noen få eksempler på hvordan du kan rette opp en feil i en bokført bankavstemming med eller uten å bruke det samme kontoutdragsnummeret.
+
+#### <a name="example-1"></a>Eksempel 1
+Du gjorde bankavstemminger for januar, februar og mars. Bankkontoutdragsnummeret er 100 for mars. Senere oppdager du at mars bare tok med poster frem til 30. Dette betyr at det mangler poster for 31. Du må derfor gjøre om bankavstemmingen for mars. I dette tilfellet åpner du siden **Bankkontoutdrag**, velger utdraget for mars, og deretter velger du **Angre**. 
+
+Den nye bankavstemmingen får kontoutdragsnummer 101. Hvis du vil tilordne nummeret 100 på nytt, velger du **Endre utdragsnummer** og angir **100**. 
+
+> [!TIP]
+> Husk å angi den aktuelle sluttdatoen for utdraget (i dette eksemplet er det 31. mars), og rediger feltet **Saldo ved forrige utdrag**. 
+
+#### <a name="example-2"></a>Eksempel 2
+Du gjorde bankavstemminger for januar, februar, juni og juli. Du oppdager at februar var feil. La oss anta at den har utdragsnummer 100. Som i eksempel 1 bruker du handlingene Angre og Endre utdragsnummer til å endre kontoutdragsnummeret, som i eksempel 1 ovenfor, og du kan nå gjøre om bankavstemmingen for februar.  
+
+Når du har bokført den korrigerte bankavstemmingen for februar, på det tilhørende bankkontokortet, viser feltet **Siste kontoutdragsnr.** **100**, og feltet **Saldo ved forrige utdrag** viser sluttsaldoen for februar-utdraget. 
+
+Hvis den neste bankavstemmingen gjelder mars, tilordner [!INCLUDE[d365fin](includes/d365fin_md.md)] 101 som utdragsnummer og gir den riktig **Saldo ved forrige utdrag**.
+
+Hvis den neste bankavstemmingen er for august, kan du vurdere å endre verdiene i feltene **Siste kontoutdragsnr.** og **Saldo ved forrige utdrag** på kortet **Bankkonto** før du oppretter den neste bankavstemmingen, eller bruke handlingen Endre utdragsnummer og endre verdien i feltet Saldo ved forrige utdrag på bankavstemmingssiden.
+
+> [!NOTE]
+> Kontoutdragsnummeret er viktig når du gjør bankavstemminger med importerte CAMT-filer som inneholder kontoutdragsnumre, eller når du avstemmer basert på utskrevne bankkontoutdrag. Hvis du bare laster ned en rekke banktransaksjoner fra nettbanken, er utdragsnummeret vanligvis ikke viktig. 
+>
+>Saldo ved forrige utdrag beholdes på bankkontoen for å redusere feil ved bankavstemming, men den kan også redigeres, slik at du kan gjøre bankavstemmingene i den rekkefølgen du ønsker. Dette betyr også at hvis du angrer et bankkontoutdrag, kan det hende at den nye sluttsaldoen ikke er saldoen ved siste utdrag på neste bankutdrag. Det finnes ingen funksjon som gjør at du kan flytte en saldo fremover til alle påfølgende bankkontoutdrag, så vær klar over dette når du bruker Angre. 
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
@@ -124,4 +158,4 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

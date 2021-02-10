@@ -8,34 +8,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/01/2020
+ms.date: 11/05/2020
 ms.author: edupont
-ms.openlocfilehash: 5aaf2b72fc282eceabb6991345a2eac9508bdb13
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 96ca3f5896ea56a211e8efd6d1844c8ed4d61368
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970415"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817032"
 ---
-# <a name="accountant-experiences-in-d365fin_long"></a>Regnskapsføreropplevelser i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]
+# <a name="accountant-experiences-in-prod_long"></a>Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
-Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
+Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[prod_short](includes/prod_short.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
 
 ## <a name="accountant-role-center"></a>Rollesenter for regnskapsfører
 
 Rollesenteret er et instrumentbord med aktivitetsfliser som viser deg nøkkeltall i sanntid og gir deg rask tilgang til data. På båndet øverst på siden har du tilgang til flere handlinger, som åpne mest vanlig brukte finansrapporter og årsregnskap i Excel. I navigasjonsstolpen på toppen kan du raskt bytte mellom oversiktene du bruker mest. Her vises andre områder som **bokførte dokumenter** med de ulike dokumenttypene som er bokført i selskapet.  
 
-Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] er nytt for deg, kan du vise en oversikt over videoer rett fra rollesenteret. Du kan også starte **Komme i gang**, som angir viktige områder.  
+Hvis [!INCLUDE[prod_short](includes/prod_short.md)] er nytt for deg, kan du vise en oversikt over videoer rett fra rollesenteret. Du kan også starte **Komme i gang**, som angir viktige områder.  
 
 ## <a name="company-hub"></a>Selskapshub
 
-Hvis du arbeider i flere [!INCLUDE [prodshort](includes/prodshort.md)]-firmaer, kan det være nyttig å bruke **Selskapshub**-siden for å holde oversikt over arbeid.  Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).  
+Hvis du arbeider i flere [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer, kan det være nyttig å bruke **Selskapshub**-siden for å holde oversikt over arbeid.  Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).  
 
-## <a name="inviting-your-external-accountant-to-your-d365fin"></a><a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="inviting-your-external-accountant-to-your-prod_short"></a><a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan administratoren din invitere regnskapsføreren til [!INCLUDE[d365fin](includes/d365fin_md.md)], slik at vedkommende kan arbeide med regnskapsdataene. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer tre lisenser av typen ekstern regnskapsfører. For mer informasjon om lisensiering, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
+Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan administratoren din invitere regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)], slik at vedkommende kan arbeide med regnskapsdataene. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer tre lisenser av typen ekstern regnskapsfører. For mer informasjon om lisensiering, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
-Når regnskapsføreren har fått tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante sidene for arbeidet. De kan også bruke selskapshuben i sin egen [!INCLUDE [prodshort](includes/prodshort.md)] for å håndtere arbeidet sitt. Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).  
+Når regnskapsføreren har fått tilgang til [!INCLUDE[prod_short](includes/prod_short.md)], kan vedkommende bruke rollesenteret **Revisor**, som gir enkel tilgang til de mest relevante sidene for arbeidet. De kan også bruke selskapshuben i sin egen [!INCLUDE [prod_short](includes/prod_short.md)] for å håndtere arbeidet sitt. Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Fnyw?rel=0]
 
@@ -63,38 +63,40 @@ Hvis administratoren eller videresalgspartneren din ikke vil bruke veiledningen 
 4. Velg **Ny gjestebruker**.
 5. På siden **Ny bruker** velger du **Inviter bruker** og legger deretter til informasjon om den eksterne regnskapsføreren.  
 
-   Du kan også inkludere en personlig velkomstmelding til regnskapsføreren for å la de vite at du legger de til i [!INCLUDE[prodshort](includes/prodshort.md)].
+   Du kan også inkludere en personlig velkomstmelding til regnskapsføreren for å la de vite at du legger de til i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 6. Velg **Inviter** for å sende invitasjonen automatisk. Det vises et varsel øverst til høyre om at **brukeren er invitert**. 
 7. Når du har sendt invitasjonen, legges brukerkontoen automatisk til i mappen som gjest.
 
-Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE[prodshort](includes/prodshort.md)].
+Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-prodshort"></a>Slik gir du regnskapsføreren tilgang til [!INCLUDE[prodshort](includes/prodshort.md)]
+#### <a name="to-give-your-accountant-access-to-your-prod_short"></a>Slik gir du regnskapsføreren tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. I Azure-portalen velger du **Profil** for brukeren som nylig er lagt til,og deretter velger du **Rediger**.
 2. Oppdater feltet **Brukssted** til det aktuelle landet, og velg deretter **Lagre**.
 3. Velg **Lisenser**, og åpne deretter **Tilordninger**.
 4. Velg lisensen **Dynamics 365 Business Central ekstern regnskapsfører**.  
+    
+    Hvis denne lisensen ikke er tilgjengelig, kontakter du partneren for videresalg for å legge til lisensen i abonnementet.
 
-    Hvis denne lisensen ikke er tilgjengelig, må du i stedet bruke en tilgjengelig lisensen av typen **Dynamics 365 Business Central for IW-er**.
+    For evalueringsformål i en prøveversjonsleietaker kan du bruke en tilgjengelig lisens for **Dynamics 365 Business Central for IW-er**. Du kan imidlertid ikke bruke denne lisenstypen hvis du allerede har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)]. 
 5. Lagre tilordningen.
 
 Hvis vellykket, er lisensen tilordnet til gjestebruker, og gjestekontoen er opprettet.
 
-### <a name="importing-the-new-user-into-prodshort"></a>Importere den nye brukeren til [!INCLUDE[prodshort](includes/prodshort.md)]
+### <a name="importing-the-new-user-into-prod_short"></a>Importere den nye brukeren til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang til Active Directory. Deretter må du gi dem tilgang til det rette selskapet i [!INCLUDE[prodshort](includes/prodshort.md)].
+Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang til Active Directory. Deretter må du gi dem tilgang til det rette selskapet i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Slik legger du til regnskapsføreren i det rette selskapet
 
-1. Åpne [!INCLUDE[prodshort](includes/prodshort.md)]-selskapet du vil gi regnskapsføreren tilgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
+1. Åpne [!INCLUDE[prod_short](includes/prod_short.md)]-selskapet du vil gi regnskapsføreren tilgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Hent nye brukere fra Office 365**.
 
 Dette importerer brukerkontoen du opprettet i Azure-portalen, til selsksapet. Hvis du vil ha mer informasjon, kan du se [Slik legger du til en bruker i Business Central](ui-how-users-permissions.md#adduser).  
 
-Hvis du vil gi tilgang til flere firmaer, må du logge deg på hvert firma og gjenta denne prosessen. Du kan også oppdatere tillatelsesgruppene for regnskapsførerens brukerprofil i [!INCLUDE[prodshort](includes/prodshort.md)], for eksempel tilordne dem *D365 Bus Premium*-brukergruppen. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
+Hvis du vil gi tilgang til flere firmaer, må du logge deg på hvert firma og gjenta denne prosessen. Du kan også oppdatere tillatelsesgruppene for regnskapsførerens brukerprofil i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel tilordne dem *D365 Bus Premium*-brukergruppen. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 ## <a name="see-also"></a>Se også
 
@@ -105,5 +107,5 @@ Hvis du vil gi tilgang til flere firmaer, må du logge deg på hvert firma og gj
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Analysere årsregnskap i Excel](finance-analyze-excel.md)  
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  

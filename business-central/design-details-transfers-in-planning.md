@@ -10,17 +10,20 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43237bcec983870cb7a9655126b5c912e0286657
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 829594fa196758502c67f52c4a7277d3b63aa41f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920900"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035584"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
 Overføringsordrer er også en kilde til forsyning når du arbeider på LFE-nivået. Når flere lokasjoner (lagre) brukes, kan Overfør angis for LFE-etterfyllingssystemet, som betyr at lokasjonen etterfylles ved å overføre varer fra en annen lokasjon. I en situasjon med flere lagre kan selskaper ha en kjede av overføringer der forsyning til GRØNN lokasjon overføres fra GUL, forsyning til GUL overføres fra RØD og så videre. I begynnelsen av kjeden finnes etterfyllingssystemet Prod.ordre. eller Kjøp.  
 
 ![Eksempel på overføringsflyt](media/nav_app_supply_planning_7_transfers1.png "Eksempel på overføringsflyt")  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Når du sammenligner situasjonen der en forsyningsordre er vendt direkte mot en behovsordre, med en situasjon der ordren leveres gjennom en kjede med LFE-overføringer, er det åpenbart at planleggingsoppgaven i sistnevnte situasjon kan bli svært komplisert. Hvis behov endres, kan dette føre til at dominoeffekt i kjeden, fordi alle overføringsordrer og kjøps-/produksjonsordren i den andre enden av kjeden, må manipuleres til å gjenopprette balansen mellom behov og forsyning.  
 

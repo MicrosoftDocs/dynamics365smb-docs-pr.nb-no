@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f4a82722108a3e647a2ff2744deea8774372f0c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e035ba04795cf2afb71ae196c9409bb00a955370
+ms.sourcegitcommit: d80cf8aa0723f9aa2b7e0b3689edf8e2682f49fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920400"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4840181"
 ---
-# <a name="working-with-d365fin"></a>Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="working-with-prod_short"></a>Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
 Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
@@ -41,27 +41,27 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 |Få en oversikt over sider for rollen og andre roller, og gå til sider.|[Finne sider med rolleutforskeren](ui-role-explorer.md)|
 | Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md) |
 |Lær de mange generelle funksjonene som du kan bruke til å skrive inn data raskt og enkelt.|[Skrive inn data](ui-enter-data.md)|
-|Lær hvordan du raskt kopierer og limer inn dataene inkludert ved hjelp av tastatursnarveier.|[Vanlige spørsmål for Kopiere og lime inn](ui-copy-paste.md)|
+|Lær hvordan du raskt kopierer og limer inn dataene inkludert ved hjelp av tastatursnarveier.|[Vanlige spørsmål for Kopiere og lime inn](faq-copy-paste.yml)|
 | Vise eller prosessen data i et bestemt tidsrom. |[Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) |
 | Se hvilke felt som må fylles ut. |[Registrere obligatoriske felt](ui-mandatory-fields.md) |
 |Forstå hvordan datamaskinens regionale innstillinger påvirker brukergrensesnittet og hvordan du kan endre språket.|[Endre språk og nasjonal innstilling](about-locale-language.md)|
-|Lær hvordan du samhandler med Excel fra nesten hvor som helst i [!INCLUDE[d365fin](includes/d365fin_md.md)]|[Vise og redigere i Excel](across-work-with-excel.md)|
+|Lær hvordan du samhandler med Excel fra nesten hvor som helst i [!INCLUDE[prod_short](includes/prod_short.md)]|[Vise og redigere i Excel](across-work-with-excel.md)|
 |Legg ved filer, legg til koblinger eller skriv merknader på kort og dokumenter.|[Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md)|
 | Endre grunnleggende innstillinger, for eksempel firma, arbeidsdato eller rollesenter. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
 |Bli varslet om bestemte hendelser eller endringer i statusen, for eksempel når du skal fakturere en kunde som har en forfalt saldo.|[Behandle varsler](ui-smart-notifications.md)|
 | Endre hvilke og hvor grensesnittelementer skal vises for å etterkomme dine behov.|[Tilpasse arbeidsområdet](ui-personalization-user.md) |
 |Definer, forhåndsvis, skriv ut eller lagre rapporter, og definer og utfør kjørsler.|[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)|
 | Administrere innhold og format av rapporter og dokumenter, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer.|[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md) |
-|Lære om funksjoner som gjør [!INCLUDE[d365fin](includes/d365fin_md.md)] lett tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
+|Lære om funksjoner som gjør [!INCLUDE[prod_short](includes/prod_short.md)] lett tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
 
 ## <a name="getting-around-in-business-central"></a>Navigere i Business Central
-Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
 ## <a name="choosing-a-desktop-browser"></a>Velge en skrivebordsleser
 
-[!INCLUDE[prodshort](includes/prodshort.md)] støtter flere weblesere som alle tilbyr forskjellige funksjoner og muligheter. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) og lesere for [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter flere weblesere som alle tilbyr forskjellige funksjoner og muligheter. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) og lesere for [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
 
 - Hvis det mulig, bør du unngå eldre lesere, for eksempel Internet Explorer, og bytte til en av våre anbefalte, moderne lesere, for eksempel den [nye Microsoft Edge](https://www.microsoft.com/edge/).  
 
@@ -77,4 +77,4 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[d365fin](includes/d365f
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]

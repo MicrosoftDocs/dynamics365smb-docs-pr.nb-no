@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 097a1853b671afe582e40446c43cd628d807dfc0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918416"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035509"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -37,7 +37,7 @@ Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. 
 -   Opprette en monteringsstykkliste som viser monteringskomponentene og ressursen som inngår i monteringsvaren.  
 
 ### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
+[!INCLUDE[prod_short](includes/prod_short.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
 
 -   Opprette en ren ATO-ordrelinje der det fullstendige antallet er utilgjengelig og må være montert før levering.  
 -   Tilpasse ATO-varer.  
@@ -79,13 +79,16 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 ## <a name="prerequisites"></a>Forutsetninger  
 Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:  
 
--   Installere [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+-   Installere [!INCLUDE[prod_short](includes/prod_short.md)].  
 -   Gjør deg til lageransatt på lokasjonen KR.SAND ved å følge disse trinnene:  
 
 1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2.  Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg **Standard**-feltet.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 Klargjør lokasjonen KR.SAND for monteringsbehandling ved å følge disse trinnene:  
 
@@ -286,7 +289,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     > [!NOTE]  
     >  I denne delen er personen som er ansvarlig for levering, ansvarlig for å registrere fullført ATO-monteringsarbeid på lagerleveringslinjen. Denne arbeidsflyten kan oppstå i miljøer hvor monteringsarbeidet utføres av personen som er ansvarlig for levering, eller av monteringsarbeidere i leveringsområdet.  
     >   
-    >  I denne delen utføres handlinger på monteringsordren indirekte fra lagerleveringslinjen. Hvis du vil ha mer informasjon om hvordan du behandler en monteringsordre direkte, kan du se delen "Monteringsvarer til lager" i denne gjennomgangen.  
+    >  I denne delen utføres handlinger på monteringsordren indirekte fra lagerleveringslinjen. Hvis du vil ha mer informasjon om hvordan du behandler en monteringsordre direkte, kan du se delen Monteringsvarer til lager i denne gjennomgangen.  
 
 2.  Åpne den nyeste lagerfølgeseddelen som er opprettet på lokasjonen KR.SAND.  
 

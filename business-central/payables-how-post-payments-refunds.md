@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 353b2074edf80ddba705004e62a86e47943a4366
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b45b4c109d33773ead4e920d5692a615faa7a366
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916779"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759595"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere betalinger og refusjoner i utbetalingskladden
 
 På siden **Utbetalingskladd** registrerer du betalinger du gjør til leverandører og refusjoner du gjør til kunder. Når du bokfører en utbetalingskladdelinje, registreres det betalte beløpet på den angitte systembankkontoen. Deretter må du utføre trinnene for å foreta den faktiske pengeoverføringen fra den aktuelle bankkontoen.  
 
-Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan raskt legge til linjer manuelt, du kan la [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå leverandørbetalinger, og du kan utligne betalingen mot bokførte dokumenter. Selv om du foretar betalinger, kan du angi et positivt beløp i feltet **Dokumentbeløp**. Avhengig av dokumenttypen for kladdelinjen konverteres dette beløpet deretter til et negativt beløp i de underliggende transaksjonene. På denne måten er det raskere for deg å legge til kladdelinjene manuelt. Hvis du foretrekker å angi negative beløp, kan du tilpasse utbetalingskladden til å vise feltet **Beløp** i stedet.  
+Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan raskt legge til linjer manuelt, du kan la [!INCLUDE[prod_short](includes/prod_short.md)] foreslå leverandørbetalinger, og du kan utligne betalingen mot bokførte dokumenter. Selv om du foretar betalinger, kan du angi et positivt beløp i feltet **Dokumentbeløp**. Avhengig av dokumenttypen for kladdelinjen konverteres dette beløpet deretter til et negativt beløp i de underliggende transaksjonene. På denne måten er det raskere for deg å legge til kladdelinjene manuelt. Hvis du foretrekker å angi negative beløp, kan du tilpasse utbetalingskladden til å vise feltet **Beløp** i stedet.  
 
 - Utligne betalinger mot fakturaer eller kreditnotaer
 
@@ -56,4 +56,4 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

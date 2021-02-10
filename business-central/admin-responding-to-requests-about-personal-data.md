@@ -8,15 +8,15 @@ ms.custom: na
 ms.date: 10/01/2020
 ms.reviewer: na
 ms.topic: article
-ms.openlocfilehash: 5661396629572530b3c639f1e7dcbcbf832abb28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 52e453f8a2d63fbfd8c7e3fa292a8d0a98fcaa3c
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917854"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817157"
 ---
 # <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
-Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
+Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[prod_long](includes/prod_long.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer forespørsler
 
@@ -35,13 +35,13 @@ Tabellen nedenfor inneholder eksempler på ulike typer forespørsler du kan svar
 Et dataemne kan be om at du midlertidig stopper behandling av deres personopplysninger. Hvis du vil overholde slike forespørsler, kan du merke posten som blokkert på grunn av personvern for å stoppe behandling av opplysningene deres. Når en post er merket som blokkert, kan du ikke opprette nye transaksjoner som bruker denne posten. Du kan for eksempel ikke opprette en ny faktura for en kunde når kunden eller selgeren er blokkert. Hvis du vil merke et dataemne som blokkert, åpner du kortet for dataemnet, for eksempel kunde-, leverandør- eller kontaktkortet, og merker av for **Personvern sperret**. Du må kanskje velge **Vis mer** for å vise feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtere dataemneforespørsler ved prøveversjon
-Enkelte typer personopplysninger inngår i Microsoft 365-kontoen og krever administratortilgang for å eksporteres hvis du får en dataemneforespørsel fra en bruker angående denne typen personopplysninger under EUs personvernforordning (GDPR). Prosessen for å håndtere dataemneforespørsler er forskjellig avhengig av typen [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker.  
+Enkelte typer personopplysninger inngår i Microsoft 365-kontoen og krever administratortilgang for å eksporteres hvis du får en dataemneforespørsel fra en bruker angående denne typen personopplysninger under EUs personvernforordning (GDPR). Prosessen for å håndtere dataemneforespørsler er forskjellig avhengig av typen [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker.  
 
-Hvis du har et betalt abonnement for [!INCLUDE[d365fin](includes/d365fin_md.md)], må du kontakte organisasjonens leietakeradministrator for å opprette en dataemneforespørsel. Administratoren har administrasjonsrettigheter og verktøy for å oppfylle forespørselen.  
+Hvis du har et betalt abonnement for [!INCLUDE[prod_short](includes/prod_short.md)], må du kontakte organisasjonens leietakeradministrator for å opprette en dataemneforespørsel. Administratoren har administrasjonsrettigheter og verktøy for å oppfylle forespørselen.  
 
-Hvis du har registrert deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] fra siden med [prøveversjoner](https://trials.dynamics.com/), og du ikke har flyttet fra denne prøveversjonsopplevelsen gjennom et betalt abonnement av organisasjonens leietakeradministrator, kan du oppfylle din egen dataemneforespørsel på [personvernsiden for arbeid og skole i Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og laste ned dine egne persondata.
+Hvis du har registrert deg for [!INCLUDE[prod_short](includes/prod_short.md)] fra siden med [prøveversjoner](https://trials.dynamics.com/), og du ikke har flyttet fra denne prøveversjonsopplevelsen gjennom et betalt abonnement av organisasjonens leietakeradministrator, kan du oppfylle din egen dataemneforespørsel på [personvernsiden for arbeid og skole i Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og laste ned dine egne persondata.
 
-På personvernsiden for arbeid og skole kan du også lukke kontoen. Vi anbefaler imidlertid at du sørger for at du har eksportert og slettet alle data først siden sletting av kontoen betyr at du mister tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+På personvernsiden for arbeid og skole kan du også lukke kontoen. Vi anbefaler imidlertid at du sørger for at du har eksportert og slettet alle data først siden sletting av kontoen betyr at du mister tilgang til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan fortsatt merke personer som blokkert på grunn av personvern og eksportere, redigere eller slette transaksjoner som beskrevet et annet sted i denne artikkelen.  
 

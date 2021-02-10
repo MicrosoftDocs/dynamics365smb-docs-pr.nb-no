@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1a378d4b5a93d1397512739cce898fe7566707c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912049"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760395"
 ---
 # <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.
 
-Praktisk talt alle dokumenter og kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr en **Bokføring**-gruppe der du kan velge mellom ulike bokføringshandlinger, for eksempel **Bokfør**, **Forhåndsvis bokføring**, **Bokfør og send** og **Bokfør og send e-post**.
+Praktisk talt alle dokumenter og kladder i [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr en **Bokføring**-gruppe der du kan velge mellom ulike bokføringshandlinger, for eksempel **Bokfør**, **Forhåndsvis bokføring**, **Bokfør og send** og **Bokfør og send e-post**.
 
 Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnene som beskriver oppgavene.
 
@@ -37,4 +37,4 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 ## <a name="see-also"></a>Se også
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

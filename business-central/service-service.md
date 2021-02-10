@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bf97a81c41823b9b4d839af4d53045f0bdaa74e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cb82642f5526db849ad5344d1f7347513d80c57a
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913049"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817007"
 ---
 # <a name="service-management"></a>Servicehåndtering
 > [!NOTE]
 > Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt. Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[d365fin](includes/d365fin_md.md)] har et sett med verktøy som kan være til hjelp. Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.  
+Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt. Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[prod_short](includes/prod_short.md)] har et sett med verktøy som kan være til hjelp. Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.  
 
  Med disse verktøyene kan du oppnå følgende:  
 
@@ -46,6 +46,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også  
 [Håndtere fordringer](receivables-manage-receivables.md)   
 [Prosjekter](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

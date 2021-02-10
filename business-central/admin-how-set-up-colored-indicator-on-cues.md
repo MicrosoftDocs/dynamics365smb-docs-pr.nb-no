@@ -1,5 +1,5 @@
 ---
-title: Angi fargede indikatorer for å tilpasse visuelle signaler om aktiviteten for et bunke-ikon for selskapet eller individuelle brukere | Microsoft-dokumentasjon
+title: Konfigurer egendefinerte fargeindikatorer for et bunke-ikons aktivitet
 description: Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 1d296f51aa307d3a3336f7a999eb02c51acc18e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c2ffd8e39f09e501964c659efa1d711da5370c0e
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911458"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013974"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  

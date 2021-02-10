@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 12cb799668430fe8eaaa47ebb2d93549539bb4eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3ee126fae6e658700a6f83a37b4c4b77daa98a6e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916704"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759570"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
 
-Du kan utstede elektroniske og manuelle sjekker i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Begge metodene bruker utbetalingskladden til å utstede sjekker til leverandører. Du kan også kansellere sjekker og vise sjekkposter.
+Du kan utstede elektroniske og manuelle sjekker i [!INCLUDE[prod_short](includes/prod_short.md)]. Begge metodene bruker utbetalingskladden til å utstede sjekker til leverandører. Du kan også kansellere sjekker og vise sjekkposter.
 
 Følgende fremgangsmåte viser hvordan du betaler en leverandør med maskinelle sjekker ved å utligne betalingen mot den aktuelle leverandørfakturaen, skrive ut sjekken og deretter bokføre betalingen som betalt. Dette fører til positive leverandørposter, utlignet mot negative bankposter og fysiske sjekker for behandling i banken.
 
@@ -83,4 +83,4 @@ Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

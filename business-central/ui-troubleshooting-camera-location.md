@@ -10,16 +10,16 @@ ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.openlocfilehash: b44044b9ec2c71ad3b99f25b4a941a3ab473ca4f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a29b2ea19d812d60d2824c131e311c34d74612af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912024"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760219"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Feilsøking: Få tilgang til kamera og plassering
 
-Du kan oppleve problemer når du prøver å få til gang til kamera- og plasseringsinformasjon for en enhet fra [!INCLUDE[prodshort](includes/prodshort.md)]. Nedenfor finner du mulige årsaker til disse problemene og hvordan du omgår dem.
+Du kan oppleve problemer når du prøver å få til gang til kamera- og plasseringsinformasjon for en enhet fra [!INCLUDE[prod_short](includes/prod_short.md)]. Nedenfor finner du mulige årsaker til disse problemene og hvordan du omgår dem.
 
 ## <a name="device-must-have-camera-and-location-capabilities"></a>Enheten må ha kamera- og plasseringsegenskaper
 
@@ -29,11 +29,11 @@ Hvis enheten har kamera- og plasseringsegenskaper, men du fremdeles har probleme
 
 ## <a name="access-permissions-not-enabled"></a>Tilgangstillatelser ikke aktivert
 
-Du må aktivere generell tilgang til kamera og plassering fra enhetens personverninnstillinger og uttrykkelig tillate at [!INCLUDE[prodshort](includes/prodshort.md)] får tilgang til dem. For å se eller endre tillatelser for en enhet som kjører i Windows, går du for eksempel til **Innstillinger**, velger **Personvern** og **Apptillatelser**. 
+Du må aktivere generell tilgang til kamera og plassering fra enhetens personverninnstillinger og uttrykkelig tillate at [!INCLUDE[prod_short](includes/prod_short.md)] får tilgang til dem. For å se eller endre tillatelser for en enhet som kjører i Windows, går du for eksempel til **Innstillinger**, velger **Personvern** og **Apptillatelser**. 
 
-For mobile enheter må du gi kamera- og plasseringstilgangstillatelser til [!INCLUDE[prodshort](includes/prodshort.md)]-mobilappen. For å gjøre det for en iOS-enhet går du til **Innstillinger**, velger **Personvern** og **Kamera** eller **Plassering**. For å gjøre det for Android-enheter går du til **Innstillinger**, velger **Apper og varsler**, **Avansert**, **Tillatelsesbehandling** og **Kamera** eller **Plassering**.
+For mobile enheter må du gi kamera- og plasseringstilgangstillatelser til [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen. For å gjøre det for en iOS-enhet går du til **Innstillinger**, velger **Personvern** og **Kamera** eller **Plassering**. For å gjøre det for Android-enheter går du til **Innstillinger**, velger **Apper og varsler**, **Avansert**, **Tillatelsesbehandling** og **Kamera** eller **Plassering**.
 
-Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] i en nettleser, må du i tillegg gi [!INCLUDE[prodshort](includes/prodshort.md)]-nettstedet tillatelse til å få tilgang til kamera- eller plasseringsinformasjon. For å se eller endre et nettsteds tillatelser i Microsoft Edge-nettleseren går du til **Innstillinger**, **Nettstedstillatelser** og **Kamera** eller **Plassering**. Vær oppmerksom på at dette kan være annerledes for andre nettlesere.
+Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] i en nettleser, må du i tillegg gi [!INCLUDE[prod_short](includes/prod_short.md)]-nettstedet tillatelse til å få tilgang til kamera- eller plasseringsinformasjon. For å se eller endre et nettsteds tillatelser i Microsoft Edge-nettleseren går du til **Innstillinger**, **Nettstedstillatelser** og **Kamera** eller **Plassering**. Vær oppmerksom på at dette kan være annerledes for andre nettlesere.
 
 Som standard vil enheten eller nettleseren vise en forespørsel om tilgang til disse egenskapene når brukeren aktiverer dem for første gang.
 
@@ -49,7 +49,7 @@ Det eneste unntaket er å koble til `http://localhost`, som brukes til formål f
 
 ## <a name="working-with-virtualization-technologies"></a>Arbeide med visualiseringsteknologier
 
-Når du kobler til [!INCLUDE[prodshort](includes/prodshort.md)] via Eksternt skrivebord eller en annen virtualisering, kan det hende tilgang til kamera og plassering ikke er tilgjengelig. I dette tilfellet bruker du det fysiske systemet i stedet.
+Når du kobler til [!INCLUDE[prod_short](includes/prod_short.md)] via Eksternt skrivebord eller en annen virtualisering, kan det hende tilgang til kamera og plassering ikke er tilgjengelig. I dette tilfellet bruker du det fysiske systemet i stedet.
 
 ## <a name="antivirus-software"></a>Antivirusprogramvare
 Enkelte antivirusprogramvarer blokkerer tilgang til kamera og plassering som standard. Husk å sjekke innstillingene for antivirusprogramvaren.

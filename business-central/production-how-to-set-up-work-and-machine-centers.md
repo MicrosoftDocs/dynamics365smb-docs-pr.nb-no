@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1e162dadd88fd7db781e884d0cde395bcff6250c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
+ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910708"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "4817284"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 
@@ -68,11 +68,14 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
     > [!NOTE]  
     > Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
 
-13. I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av [!INCLUDE[d365fin](includes/d365fin_md.md)], må verdien i dette feltet være **1**.  
+13. I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av [!INCLUDE[prod_short](includes/prod_short.md)], må verdien i dette feltet være **1**.  
 14. I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
 15. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
 16. Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
-17. I **Køtid**-feltet angir du en fast tidsrom som må forløpe før tilordnet arbeid kan begynne ved dette arbeidssenteret. Vær oppmerksom på at Køtid legges til i andre ikke-produktive tidselementer, for eksempel Ventetid og Transporttid, som du kan definere på rutelinjene ved hjelp av dette arbeidssenteret.  
+17. I **Køtid**-feltet angir du en fast tidsrom som må forløpe før tilordnet arbeid kan begynne ved dette arbeidssenteret. 
+
+> [!NOTE]
+> Bruk køtid til å angi en buffer mellom tiden som en komponent ankommer ved en produksjonsressurs eller arbeidssenter, og når operasjonen faktisk starter. En del leveres for eksempel til en produksjonsressurs på 10:00, men det tar en time å montere den på maskinen, slik at operasjonen ikke starter før 11,00. For å ta med denne timen vil køtiden være én time. Verdien i feltet **Køtid** på et produksjonsressurskort eller arbeidssenterkortet, pluss summen av verdiene i feltene **Oppstillingstid**, **Operasjonstid**, **Ventetid** og **Transporttid** på varerutelinjen slås sammen for å få leveringstiden for varen. Dette bidrar til å gi nøyaktig total produksjonstid.  
 
 ## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
 
@@ -88,7 +91,7 @@ Hvis kapasiteter i arbeidssentre ikke skal bidra i den totale kapasiteten, kan d
 
 Du må sette opp produksjonsressurser som du anser som kritiske og utpeke dem som i stand til å håndtere en begrenset belastning i stedet for den ubegrensede belastningen som andre produksjonsressurser godtar. En kapasitetsbegrenset ressurs være et arbeidssenter eller en produksjonsressurs som er identifisert som flaskehals, og som du derfor vil tildele en begrenset belastning for.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter ikke detaljert Shop Floor Control. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.
 
 På siden **Kapasitetsbegrensede ressurser** kan du gjøre oppsett som unngår overbelastning av bestemte ressurser og sikre at all kapasitet fordeles hvis den kan øke gjennomløpstiden til en produksjonsordre. I feltet **Avdemping (% av total kap.)** kan du legge til avdempningstid i ressurser for å minimere oppdeling av operasjonen. Dette gjør at systemet kan planlegge belastning på den aller siste dagen ved å overskride den kritiske belastningsprosenten litt hvis dette kan redusere antall delte operasjoner.
 
@@ -111,4 +114,4 @@ Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen 
 [Planlegging](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

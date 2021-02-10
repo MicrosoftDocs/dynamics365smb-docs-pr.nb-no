@@ -1,8 +1,6 @@
 ---
-title: Bruke varekryssreferanser | Microsoft Docs
+title: Bruke varekryssreferanser
 description: Definer referanser mellom beskrivelsene som du og leverandøren bruker for en vare, slik at du kan sette inn leverandørens varebeskrivelse i kjøpsdokumenter.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 10/01/2020
+ms.date: 01/12/2021
 ms.author: edupont
-ms.openlocfilehash: 056897c799dd12755432637690446a0797c9f18c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7d670f6553a1bd70dcc3d97f90436f36c6627c56
+ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919441"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5013795"
 ---
 # <a name="use-item-cross-references"></a>Bruke varekryssreferanser
 Hvis du har definert en kryssreferanse mellom varebeskrivelsen som du bruker for en vare, og beskrivelsen som leverandøren av varen bruker, settes leverandørvarebeskrivelsen automatisk inn på kjøpsdokumenter for leverandøren når du fyller ut **Kryssreferansenr.** . Den samme funksjonaliteten gjelder for kundevarenumre på salgsdokumenter.
@@ -25,7 +23,7 @@ Hvis du har definert en kryssreferanse mellom varebeskrivelsen som du bruker for
 Den følgende fremgangsmåten beskriver hvordan du bruker varekryssreferanser på kjøpssiden. Trinnene er de samme for salgssiden.
 
 > [!NOTE]
-> Det blir mer vanlig at vare-ID-er, for eksempel GTIN eller GUID, inneholder 30 eller flere tegn, som er mer enn den gjeldende funksjonen for varekryssreferanser kan håndtere. Hvis du må bruke referanser som inneholder mer enn 30 tegn, kan systemansvarlig aktivere funksjonen **Skriv lengre varereferanser** på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=xzy) (koblingen krever at du har en [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietaker). Hvordan du bruker referanser endres ikke, men navnet på ting som sider og knapper vil bli endret. Siden **Varekryssreferanseposter** vil for eksempel bli siden **Varereferanseposter**.
+> Det blir mer vanlig at vare-ID-er, for eksempel GTIN eller GUID, inneholder 30 eller flere tegn, som er mer enn den gjeldende funksjonen for varekryssreferanser kan håndtere. Hvis du må bruke referanser som inneholder mer enn 30 tegn, kan systemansvarlig aktivere funksjonen **Skriv lengre varereferanser** på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=2610) (koblingen krever at du har en [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker). Hvordan du bruker referanser endres ikke, men navnet på ting som sider og knapper vil bli endret. Siden **Varekryssreferanseposter** vil for eksempel bli siden **Varereferanseposter**.
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Slik definerer du en varekryssreferanse til en leverandørs varebeskrivelse
 
@@ -49,4 +47,4 @@ Den følgende fremgangsmåten beskriver hvordan du bruker varekryssreferanser p�
 ## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

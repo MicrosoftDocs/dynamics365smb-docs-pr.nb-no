@@ -1,5 +1,5 @@
 ---
-title: Opprett en salgsfaktura eller ordre | Microsoft-dokumentasjon
+title: Opprett en salgsfaktura eller ordre
 description: Beskriver hvordan du oppretter en sluttseddel, eller en salgsfaktura eller ordre, for å registrere avtalen med en kunde om å selge produkter i samsvar med bestemte betingelser.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 10/01/2020
+ms.date: 01/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2613a328ad1274a690d3d394fef054527e5a75de
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926225"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035409"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -94,6 +94,10 @@ Dialogboksen **Bokfør og send bekreftelse** viser kundens foretrukne metode for
 
 Beslektet element og kundeposter opprettes nå i systemet, og salgsfakturaen skrives ut som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nytt dokument i listen over bokførte salgsfakturaer.  
 
+### <a name="calculating-invoice-discounts-on-sales"></a>Beregne fakturarabatter på salg
+
+[!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
+
 ## <a name="registering-payments"></a>Registrere betalinger
 
 Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
@@ -106,13 +110,18 @@ I forretningsmiljøer der kunden betaler umiddelbart, for eksempel ved PayPal el
 
 Du kan opprette direkte betalte fakturaer for kunder som ikke er registrert ved å definere et kontant kundekort, som du velger på salgsfakturaen. Du finner mer informasjon under [Definere kontantkunder](finance-how-to-set-up-cash-customers.md).  
 
+> [!TIP]
+> Hvis du vil sende kundene purringer om forfalte betalinger, må du definere purregrader og betingelser. Hvis du vil ha mer informasjon, kan du se [Definer betingelser og grader for purringer](finance-setup-reminders.md).  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Skrive ut plukklisten](sales-how-print-picking-list.md)  
 [Lager](inventory-manage-inventory.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
+[Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Massefakturering fra Microsoft Bookings i Business Central ](finance-bookings.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

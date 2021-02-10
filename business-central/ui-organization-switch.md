@@ -7,23 +7,23 @@ ms.topic: article
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 24ea6b353a22ae00ca98901c080c031870f66168
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925600"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4760420"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)] Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Hvis du ofte bytter mellom selskaper, kan det være lett å miste oversikten over hvor du er. For å hjelpe deg med å holde oversikt kan du legge til et merke som viser selskapsnavnet, slik at du raskt kan kontrollere at du er på riktig sted. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
 
 ## <a name="switch-to-another-environment"></a>Bytte til et annet miljø
 
-Når du er logget på [!INCLUDE[d365fin](includes/d365fin_md.md)], er miljøene du har tilgang til, tilgjengelige på Dynamics 365-hjemmesiden. Du kan åpne siden ved å velge ikonet for **appstarterikonet** ![Appstarter](media/app-launcher-icon.png "Appstarteren gir tilgang til flere funksjoner"), og velge **Dynamics 365**. Hvis du vil gå til standardselskapet ditt i dette miljøet, velger du flisen. Det vil være én flis for hver type miljø. Hvis du har mer enn ett miljø av en bestemt type, kan du velge hvilket miljø du vil ha tilgang til når du velger flisen.
+Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige på Dynamics 365-hjemmesiden. Du kan åpne siden ved å velge ikonet for **appstarterikonet** ![Appstarter](media/app-launcher-icon.png "Appstarteren gir tilgang til flere funksjoner"), og velge **Dynamics 365**. Hvis du vil gå til standardselskapet ditt i dette miljøet, velger du flisen. Det vil være én flis for hver type miljø. Hvis du har mer enn ett miljø av en bestemt type, kan du velge hvilket miljø du vil ha tilgang til når du velger flisen.
 
 Bildet nedenfor viser fliser for tilgang til produksjons- og sandkassemiljøer på Dynamics 365-hjemmesiden.
 
@@ -31,7 +31,7 @@ Bildet nedenfor viser fliser for tilgang til produksjons- og sandkassemiljøer p
 
 ## <a name="switch-to-another-company"></a>Bytte til et annet selskap
 
-Når du er logget på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du raskt bytte til et annet selskap. Når du har byttet, blir selskapet du velger standardselskap og vil vises neste gang du logger på.
+Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du raskt bytte til et annet selskap. Når du har byttet, blir selskapet du velger standardselskap og vil vises neste gang du logger på.
 
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 
