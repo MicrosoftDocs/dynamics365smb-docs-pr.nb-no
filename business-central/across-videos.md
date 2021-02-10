@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a053692e9e58dc7b64962c8d117e8cec832fd8fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927300"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752952"
 ---
 # <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
 
 Vi vet at noen personer foretrekker å se på innholdet i stedet for å lese det. Vi lager derfor korte og enkle videoer som enten står alene eller utfyller brukerhjelpen vår.  
 
-Hvis du ikke er kjent med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du starte introduksjonsvideoene fra velkomstsiden som vises. Hvis du allerede arbeider i [!INCLUDE[d365fin](includes/d365fin_md.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.  
+Hvis du ikke er kjent med [!INCLUDE[prod_short](includes/prod_short.md)], kan du starte introduksjonsvideoene fra velkomstsiden som vises. Hvis du allerede arbeider i [!INCLUDE[prod_short](includes/prod_short.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.  
 
-Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[d365fin](includes/d365fin_md.md)]. Gå til videoene nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).
+Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[prod_short](includes/prod_short.md)]. Gå til videoene nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Videoer i biblioteket vises i en ramme som kan virke litt liten. Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil øverst til høyre. Etter det vil videoene vises i en større ramme til du gjør den liten igjen.

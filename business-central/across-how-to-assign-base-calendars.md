@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f6fcaf1594408a80cc9731abca1906082d311bb3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4b6400b304c24dff6cb0aa29bdfb5463340c466c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916346"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754820"
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
@@ -116,4 +116,4 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

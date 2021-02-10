@@ -6,20 +6,23 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05e5078253d63fac61039d26cc0d700e96c7d21a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911283"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753870"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
 
 En sentral rolle, for eksempel programadministrator, må regelmessig håndtere oppsamlede historiske dokumenter ved å slette eller komprimere dem.  
 
+> [!TIP]
+> Hvis du vil ha informasjon om andre måter å redusere mengden data som er lagret i en database på, kan du se [Redusere data som er lagret i Business Central-databaser ](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i Hjelp for utviklere og IT-eksperter.
+
 ## <a name="delete-documents"></a>Slette dokumenter
 
-I enkelte situasjoner kan det hende du må slette fakturerte bestillinger som ikke allerede er slettet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at de slettede bestillingene er fullstendig fakturert. Du kan ikke slette bestillinger som ikke er fullstendig fakturert og mottatt.  
+I enkelte situasjoner kan det hende du må slette fakturerte bestillinger som ikke allerede er slettet. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer at de slettede bestillingene er fullstendig fakturert. Du kan ikke slette bestillinger som ikke er fullstendig fakturert og mottatt.  
 
 Ordrereturer slettes vanligvis etter at de er fakturert. Når du bokfører en faktura, overføres den til siden **Bokført kjøpskreditnota**. Hvis du merket av for **Returforsendelse i kreditnota** på **Kjøpsoppsett**-siden, overføres fakturaen til siden **Bokført returforsendelse**. Du kan slette dokumentene ved hjelp av kjørselen **Slett fakturerte best.returer**. Før du sletter, kontrollerer kjørselen om bestillingsreturer er fullstendig levert og fakturert.  
 
@@ -31,13 +34,13 @@ Serviceordrer slettes ikke automatisk hvis det totale antallet i ordren ikke er 
 
 ## <a name="compress-data-with-date-compression"></a>Komprimere data med datokomprimering
 
-Du kan komprimere data i [!INCLUDE [prodshort](includes/prodshort.md)] slik at du sparer plass i databasen, som i [!INCLUDE [prodshort](includes/prodshort.md)] online til og med kan spare deg for penger. Komprimeringen er basert på datoer og fungerer ved å kombinere flere gamle poster til én ny post. Du kan bare komprimere poster fra avsluttede regnskapsår, og bare leverandørposter der feltet **Åpne** er satt til *Nei*.  
+Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)] slik at du sparer plass i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online til og med kan spare deg for penger. Komprimeringen er basert på datoer og fungerer ved å kombinere flere gamle poster til én ny post. Du kan bare komprimere poster fra avsluttede regnskapsår, og bare leverandørposter der feltet **Åpne** er satt til *Nei*.  
 
 Leverandørposter fra tidligere regnskapsår kan for eksempel komprimeres slik at det bare er én debet- og kreditpost per konto per måned. Beløpet i den nye posten blir summen av alle de komprimerte postene. Datoen settes til startdatoen for den perioden som komprimeres, for eksempel 1. dag i måneden, hvis det komprimeres pr. måned. Etter komprimeringen kan du fremdeles se bevegelsen på hver konto i foregående regnskapsår.
 
 Hvor mange poster det kommer ut av en datokomprimering, avhenger av hvor mange filtre du angir, hvilke felt som skal slås sammen, og hvilken periodelengde du velger. Det vil alltid være minst én post. Når kjørselen er ferdig, kan du se resultatet på siden **Datokomprim.journaler**.
 
-Du kan komprimere følgende typer data i [!INCLUDE [prodshort](includes/prodshort.md)] ved hjelp av kjørsler:
+Du kan komprimere følgende typer data i [!INCLUDE [prod_short](includes/prod_short.md)] ved hjelp av kjørsler:
 
 * Bankkontoposter
 
@@ -47,6 +50,9 @@ Du kan komprimere følgende typer data i [!INCLUDE [prodshort](includes/prodshor
   Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (NOK)**, **Restbeløp (NOK)**, **Beløp (NOK)**, **Kjøp (NOK)**, **Fakturarabatt (NOK)**, **Kont.rabatt gitt (NOK)** og **Mulig kont.rabatt**.
 
   Ved hjelp av funksjonen **Behold feltinnhold** kan du også beholde innholdet i følgende felt: **Bilagsnr.**, **Kjøp fra-leverandørnr.**, **Innkjøperkode**, **Kode for global dimensjon 1** og **Kode for global dimensjon 2**.
+
+> [!NOTE]
+> Når du har kjørt datokomprimering, låses alle kontoene i finans. Du kan for eksempel ikke oppheve utligning av leverandør- eller bankposter for noen konti i perioden der datoer er komprimert.
 
 <!--* General ledger entries
 * Customer ledger entries-->

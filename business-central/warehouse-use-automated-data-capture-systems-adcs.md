@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe40d26a9128b9f689c5ec4502af929d0af04c2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925350"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755720"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
 > [!NOTE]
-> ADFS-løsningen (Automatisk datafangstsystem) gjør det mulig for [!INCLUDE[d365fin](includes/d365fin_md.md)] å kommunisere med håndholdte enheter gjennom webtjenester. Du må arbeide med en Microsoft-partner som kan opprette koblingen mellom webtjenesten og den bestemte håndholdte enheten. 
+> ADFS-løsningen (Automatisk datafangstsystem) gjør det mulig for [!INCLUDE[prod_short](includes/prod_short.md)] å kommunisere med håndholdte enheter gjennom webtjenester. Du må arbeide med en Microsoft-partner som kan opprette koblingen mellom webtjenesten og den bestemte håndholdte enheten. 
 
 Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning. ADFS innebærer vanligvis skanning av en strekkode.
 
@@ -28,7 +28,7 @@ Hvis du vil bruke ADFS, må du gi hver vare som er lagret på lager, en vare-ID.
 
 På bakgrunn av lagerets behov definerer du hvor mye som skal vises i miniformoppsettet for den bestemte enheten. Følgende er eksempler på informasjon som du kan vise:  
 
-- Data fra tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel en liste over plukkdokumenter som brukeren kan velge fra.  
+- Data fra tabeller i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel en liste over plukkdokumenter som brukeren kan velge fra.  
 - Tekstinformasjon.  
 - Meldinger for å vise bekreftelser eller feil om aktiviteter som er utført og registrert av brukeren av den håndholdte enheten.
 
@@ -121,4 +121,4 @@ Når du har opprettet en miniform, er de neste trinnene å opprette funksjoner o
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

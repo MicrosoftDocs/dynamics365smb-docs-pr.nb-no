@@ -10,23 +10,23 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 04c0c5d203e78c2ae0be48609a5ee90f45b83c6f
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: 069efcef517cd442539f13fad5e5a2c89e1533ff
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968388"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754470"
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-prodshort"></a>Opprette Power BI-rapporter for å vise listedata i [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Opprette Power BI-rapporter for å vise listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prodlong](includes/prodlong.md)] omfatter et element for faktabokskontroll på en rekke viktige listesider som gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten. Du kan opprette egendefinerte rapporter som skal vises i denne kontrollen. Det finnes imidlertid noen få regler du må følge, for å sikre at rapporter fungerer som forventet.  
+[!INCLUDE[prod_long](includes/prod_long.md)] omfatter et element for faktabokskontroll på en rekke viktige listesider som gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten. Du kan opprette egendefinerte rapporter som skal vises i denne kontrollen. Det finnes imidlertid noen få regler du må følge, for å sikre at rapporter fungerer som forventet.  
 
 ## <a name="prerequisites"></a>Forutsetninger
 
 - En Power BI-konto.
 - Power BI Desktop.
 
-Hvis du vil ha mer informasjon om hvordan du kommer i gang, kan du se [Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).
+Hvis du vil ha mer informasjon om hvordan du kommer i gang, kan du se [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde for Power BI](across-how-use-financials-data-source-powerbi.md).
 
 ## <a name="defining-the-report-data-set"></a>Definere rapportdatasettet
 
@@ -42,7 +42,7 @@ Hvis du vil definere et filter for rapporten, velger du primærnøkkelen fra lis
 
 ## <a name="setting-the-report-size-and-color"></a>Angi rapportstørrelsen og -fargen
 
-Størrelsen på rapporten må settes til 325 x 310 piksler. Denne størrelsen gir riktig skalering av rapporten på den ledige plassen for Power BI-faktabokskontrollen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil definere størrelsen på rapporten, fokusere utenfor oppsettsområdet til rapporten, og velg deretter malerrulleikonet.
+Størrelsen på rapporten må settes til 325 x 310 piksler. Denne størrelsen gir riktig skalering av rapporten på den ledige plassen for Power BI-faktabokskontrollen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil definere størrelsen på rapporten, fokusere utenfor oppsettsområdet til rapporten, og velg deretter malerrulleikonet.
 
 ![Angi bredden og høyden på Salgsfaktura-aktivitetsrapporten](./media/across-how-use-powerbi-reports-factbox/financials-powerbi-report-sizing-v3.png)
 
@@ -58,7 +58,7 @@ Du kan opprette én enkelt rapport med flere sider med Power BI. Når det gjelde
 
 Gi rapporten et navn som inneholder navnet på listesiden som er knyttet til rapporten. Hvis rapporten for eksempel er for listesiden **Leverandør**, tar du med ordet *leverandør* et sted i navnet.  
 
-Denne navnekonvensjonen er ikke et krav. Den gjør det imidlertid raskere å velge rapporter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når siden for valg av rapport åpnes fra en listeside, filtreres den automatisk basert på sidenavnet. Denne filtreringen utføres for å begrense antall rapporter som vises. Brukere kan fjerne filteret for å få en fullstendig liste over rapporter som er tilgjengelige i Power BI.  
+Denne navnekonvensjonen er ikke et krav. Den gjør det imidlertid raskere å velge rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når siden for valg av rapport åpnes fra en listeside, filtreres den automatisk basert på sidenavnet. Denne filtreringen utføres for å begrense antall rapporter som vises. Brukere kan fjerne filteret for å få en fullstendig liste over rapporter som er tilgjengelige i Power BI.  
 
 ## <a name="fixing-problems"></a>Løse problemer
 
@@ -85,7 +85,7 @@ Kontroller at størrelsen på rapporten er satt til 325 x 310 piksler. Lagre rap
 ## <a name="see-also"></a>Se også
 
 [Aktivere forretningsdata for Power BI](admin-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Komme i gang](product-get-started.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  

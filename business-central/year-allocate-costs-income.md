@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 303d84e317814e4baeb686d190037194794bfb50
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 61d6aab8435297d2e41c777df38d9656dc426fbf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3909983"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4755694"
 ---
 # <a name="allocate-costs-and-income"></a>Fordele kostnader og inntekter
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres med tre ulike metoder:
@@ -56,4 +56,4 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)    
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

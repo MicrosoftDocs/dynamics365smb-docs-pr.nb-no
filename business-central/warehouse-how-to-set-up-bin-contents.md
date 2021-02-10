@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9cd37ecbadda34238d9fb7e74ef26f1bb218073a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cc805db942ce9ebf178b49468129a83bb20a325e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923148"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4756045"
 ---
 # <a name="create-bin-contents"></a>Opprette hylleinnhold
 
@@ -33,7 +33,7 @@ Velg feltet **Fast** om nødvendig. Hvis hyllen skal brukes som standardhylle fo
 
 Hvis du bruker lagerstyring og har angitt riktig størrelsesinformasjon om hver vares målenhet på varekortet, kontrolleres maksimumsantallet du angir på siden **Hylleinnhold**, mot hyllens fysiske kapasitet. Minimums- og maksimumsantallene brukes når det beregnes etterfylling av hyller og plasseringsforslag.  
 
-Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [!INCLUDE[d365fin](includes/d365fin_md.md)] vil prøve å legge denne varen i hyllen hvis det er plass til den, og det vil beholde posten som gir varen fast plass i hyllen, selv om antallet i hyllen er 0. Andre varer kan legges i hyllen, selv om en bestemt vare har fast plass der. Andre varer kan plasseres på hyllen, selv om en bestemt vare er fast i hyllen.  
+Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [!INCLUDE[prod_short](includes/prod_short.md)] vil prøve å legge denne varen i hyllen hvis det er plass til den, og det vil beholde posten som gir varen fast plass i hyllen, selv om antallet i hyllen er 0. Andre varer kan legges i hyllen, selv om en bestemt vare har fast plass der. Andre varer kan plasseres på hyllen, selv om en bestemt vare er fast i hyllen.  
 
 > [!NOTE]  
 > Du kan sette opp flere hylleinnhold samtidig på siden **Hylleinnholdopprett. - forslag**.  
@@ -65,4 +65,4 @@ I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

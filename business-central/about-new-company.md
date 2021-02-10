@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: company, setup wizard
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 891718f35c2d2edfe4e4956a2de4124d77749b2b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7724afe2cbc8872fe71f881e436f175668d09a9e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914531"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753595"
 ---
-# <a name="creating-new-companies-in-d365fin"></a>Opprette nye seleskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="creating-new-companies-in-prod_short"></a>Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[d365fin](includes/d365fin_md.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[d365fin](includes/d365fin_md.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)], avhengig av forretningsbehovene. Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="creating-a-new-company"></a>Opprette et nytt selskap
 
-Hvis du vil legge til et selskap til din [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
+Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
 
 Veiviseren for oppsett har tre maler og et tomt alternativ:
 
@@ -38,9 +38,9 @@ Veiviseren for oppsett har tre maler og et tomt alternativ:
 Hvis du ønsker å begynne med et nytt selskap, må du velge **Produksjon - Bare oppsettsdata** og deretter importere egne forretningsdata, for eksempel kunder, varer og leverandører. Velg **Ny**-malen hvis du vil definere alt fra begynnelsen. I så fall kan du bruke veiviseren **Selskapsoppsett** med assistert oppsettsveiledning for å komme i gang med grunnleggende oppsettsdata.  
 
 > [!NOTE]  
-> Når du oppretter et nytt selskap, tar litt tid før du kan bruke det i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Statusen for oppsettet på siden **Selskaper** viser når det nye selskapet er klart. Deretter du kan bytte til et nytt selskap ved hjelp av **Mine innstillinger**.  
+> Når du oppretter et nytt selskap, tar litt tid før du kan bruke det i [!INCLUDE[prod_short](includes/prod_short.md)]. Statusen for oppsettet på siden **Selskaper** viser når det nye selskapet er klart. Deretter du kan bytte til et nytt selskap ved hjelp av **Mine innstillinger**.  
 
-Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de er bare tilgjengelige under prøveperioden. Ta kontakt med din [!INCLUDE[d365fin](includes/d365fin_md.md)]-partner for mer informasjon.  
+Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de er bare tilgjengelige under prøveperioden. Ta kontakt med din [!INCLUDE[prod_short](includes/prod_short.md)]-partner for mer informasjon.  
 
 ## <a name="copying-a-company"></a>Kopiere et selskap
 
@@ -51,22 +51,29 @@ På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et an
 
 ## <a name="company-setup"></a>Selskapsoppsett
 
-Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** automatisk og hjelper deg med å komme i gang. Du blir bedt om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Vi ber om opplysningene fordi de brukes som grunnlag for mange områder i [!INCLUDE[d365fin](includes/d365fin_md.md)], som du ikke kan definere senere manuelt.  
+Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** automatisk og hjelper deg med å komme i gang. Du blir bedt om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Vi ber om opplysningene fordi de brukes som grunnlag for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], som du ikke kan definere senere manuelt.  
 
 For eksempel firmaadressen er inkludert i fakturaer og andre dokumenter, bankinformasjonen brukes i betalinger og kostmetoden brukes til å beregne priser og lagerverdisetting.  
 
-Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).  
+Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Selskaper og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Hvis du vil ha mer informasjon, kan du se [Bytte til et annet selskap eller miljø](ui-organization-switch.md).  
+Hvis du vil ha mer informasjon, kan du se [Bytte til et annet selskap eller miljø](ui-organization-switch.md). 
+
+## <a name="changing-a-companys-name"></a>Endre et selskaps navn
+
+Når et selskap er opprettet, kan du ikke endre navnet på det. Du kan imidlertid endre **visningsnavnet**, som er tekst som skal vises for selskapet i programmet.  
+
+> [!TIP]
+> Du kan gi et selskap nytt navn hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
 ## <a name="see-also"></a>Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  

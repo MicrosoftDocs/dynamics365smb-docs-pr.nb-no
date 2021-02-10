@@ -11,16 +11,16 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d02740b0f4c73b96be9268cfdf5e4c3de157d5d5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 23a0c72775dbddc89a81105de3b2ed79d1f09432
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924531"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753773"
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-prodshort"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
 
-I denne artikkelen får du informasjon om de forskjellige aspektene ved Power BI-integrering med [!INCLUDE[prodshort](includes/prodshort.md)] for å gjøre det enklere å forstå hvordan du implementerer og bruker den.
+I denne artikkelen får du informasjon om de forskjellige aspektene ved Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)] for å gjøre det enklere å forstå hvordan du implementerer og bruker den.
 
 ## <a name="components"></a>Komponenter
 
@@ -30,39 +30,39 @@ Tabellen nedenfor beskriver de hovedkomponentene som er involvert i Power BI-int
 |---------|-----------|
 |Power BI|En skybasert tjeneste for drifting og administrasjon av rapporter.|
 |Power BI Desktop|Et redigeringsverktøy du bruker til å bygge rapporter og instrumentbord, og gjør at du kan kjøre rapporter. Det er tilgjengelig som en gratis nedlasting i Microsoft Store og installeres lokalt.|
-|[!INCLUDE[prodshort](includes/prodshort.md)]|Online eller lokal løsning med koblinger som er eksponert for Power BI, og kan bygge inn en Power BI-del.|
+|[!INCLUDE[prod_short](includes/prod_short.md)]|Online eller lokal løsning med koblinger som er eksponert for Power BI, og kan bygge inn en Power BI-del.|
 
 ## <a name="whats-available-from-the-start"></a>Hva som er tilgjengelig fra begynnelsen
 
 Tabellen nedenfor beskriver tilgjengelige funksjoner.
 
-|Funksjon|Støtte for [!INCLUDE[prodshort](includes/prodshort.md)] Online eller lokalt|
+|Funksjon|Støtte for [!INCLUDE[prod_short](includes/prod_short.md)] Online eller lokalt|
 |-------|---------------------|
 |Power BI-koblinger|Begge deler. Ulike koblinger for Online og lokalt. Samme kobling brukes for Power BI Desktop og Power BI-tjeneste. |
-|Innebygd opplevelse for visning av en gitt rapport i en faktaboks i [!INCLUDE[prodshort](includes/prodshort.md)]|Begge deler. Må konfigureres for å kunne vise rapporter for den lokale versjonen.|
-|Power BI-rapportadministrasjon fra [!INCLUDE[prodshort](includes/prodshort.md)]|Online|
+|Innebygd opplevelse for visning av en gitt rapport i en faktaboks i [!INCLUDE[prod_short](includes/prod_short.md)]|Begge deler. Må konfigureres for å kunne vise rapporter for den lokale versjonen.|
+|Power BI-rapportadministrasjon fra [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standard Power BI-rapporter for rollesentre distribueres til Power BI|Online|
 |Power BI-apper i Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prodshort](includes/prodshort.md)] integreres med Power BI via en kobling som bruker OData. Datakilden for Power BI-rapporter eksponeres som OData-nettjenester.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en kobling som bruker OData. Datakilden for Power BI-rapporter eksponeres som OData-nettjenester.
 
 ![Power BI-arkitektur for integrering med Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Generell flyt
 
-Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du kobler [!INCLUDE[prodshort](includes/prodshort.md)] til Power BI.
+Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du kobler [!INCLUDE[prod_short](includes/prod_short.md)] til Power BI.
 
 ![Power BI-arbeidsflyt for integrering med Business Central](./media/power-bi-flow.png)
 
 1. Brukeren registrerer seg for en Power BI-konto.
-2. Brukeren kobler seg til Power BI fra [!INCLUDE[prodshort](includes/prodshort.md)].
-3. [!INCLUDE[prodshort](includes/prodshort.md)] kontrollerer lisensen.
-4. [!INCLUDE[prodshort](includes/prodshort.md)] distribuerer standardrapporter til Power BI-tjenesten. Dette trinnet skjer bare for [!INCLUDE[prodshort](includes/prodshort.md)] Online.
-5. [!INCLUDE[prodshort](includes/prodshort.md)] gjør rapporter i Power BI tilgjengelige for valg i [!INCLUDE[prodshort](includes/prodshort.md)]. Standardrapporter vises automatisk i Power BI-deler.
+2. Brukeren kobler seg til Power BI fra [!INCLUDE[prod_short](includes/prod_short.md)].
+3. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer lisensen.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] distribuerer standardrapporter til Power BI-tjenesten. Dette trinnet skjer bare for [!INCLUDE[prod_short](includes/prod_short.md)] Online.
+5. [!INCLUDE[prod_short](includes/prod_short.md)] gjør rapporter i Power BI tilgjengelige for valg i [!INCLUDE[prod_short](includes/prod_short.md)]. Standardrapporter vises automatisk i Power BI-deler.
 6. Brukeren oppretter en rapport i Power BI Desktop.
-7. Brukeren publiserer rapporten til Power BI-tjenesten. Rapportene blir deretter tilgjengelige for valg i [!INCLUDE[prodshort](includes/prodshort.md)].
+7. Brukeren publiserer rapporten til Power BI-tjenesten. Rapportene blir deretter tilgjengelige for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -76,9 +76,9 @@ Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du ko
 [Forretningsintelligens](bi.md)  
 [Komme i gang](product-get-started.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb6abdb25db5567a49e394b3f13f257e3a97cf1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ca9f3dc4cbc21cad8a2369ed4c29ab6682723cc1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921175"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754695"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
 
 Som forberedelse til å opprette en datautvekslingsdefinisjon for en datafil eller -strøm, kan du bruke det tilknyttede XML-skjemaet til å definere hvilke dataelementer skal tas med i hurtigfanen **Kolonnedefinisjoner**. Se trinn 6 under [Slik beskriver du formateringen av linjer og kolonner i filen](across-how-to-set-up-data-exchange-definitions.md#to-describe-the-formatting-of-lines-and-columns-in-the-file). Hvis du vil ha mer informasjon, kan du se [Bruke XML-skjemaer til å forberede datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).  
 
@@ -37,7 +37,7 @@ Dette emnet inneholder følgende fremgangsmåter:
 Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:  
 
 1. På siden **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen.  
-2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Dette er beskrevet i følgende fremgangsmåter.  
 
@@ -55,7 +55,7 @@ Dette er beskrevet i følgende fremgangsmåter.
     |**Navn**|Angi et navn for datautvekslingsdefinisjonen.|  
     |**Filtype**|Angi hvilken type fil datautvekslingsdefinisjonen brukes til. Du kan velge mellom fire filtyper:<br /><br /> -   **XML**: lagdelte strenger med innhold og kode omgitt av koder som angir funksjon.<br />-   **Variabel tekst**: Poster har variabel lengde og er atskilt med et tegn, for eksempel komma eller semi\-kolon. Kalles også *kommadelt fil*.<br />-   **Fast tekst**: Poster har samme lengde ved hjelp av utfyllingstegn, og hver post er på en separat linje. Kalles også *fil med fast bredde*.<br />- **Json**: Lagvise strenger med innhold i JavaScript.|  
     |**Type**|Angi hvilken type forretningsvirksomhet datautvekslingsdefinisjonen brukes til, for eksempel **betalingseksport**.|  
-    |**Kodeenhet for datahåndtering**|Angi kodeenheten som overfører data inn i og ut av tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Kodeenhet for datahåndtering**|Angi kodeenheten som overfører data inn i og ut av tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Kodeenhet for validering**|Angi kodeenheten som brukes til å validere data mot forhåndsdefinerte forretningsregler.|  
     |**Kodeenhet for lesing/skriving**|Angi kodeenheten som behandler importerte data før tilordning og eksporterte data etter tilordning.|  
     |**XMLport for lesing/skriving**|Angir XMLport som en importert datafil eller tjeneste overføres via før tilordning, og som eksporterte data overføres via når de skrives til en datafil eller tjeneste etter tilordning.|  
@@ -95,7 +95,7 @@ Dette er beskrevet i følgende fremgangsmåter.
     |**Kolonnenr.**|Angi tallet som gjenspeiler kolonneposisjonen på linjen i filen.<br /><br /> For XML-filer angir du tallet som gjenspeiler elementtype i filen som inneholder dataene.|  
     |**Navn**|Angi navnet på kolonnen.<br /><br /> For XML-filer kan du angi markeringen som merker dataene som skal utveksles.|  
     |**Datatype**|Angi om dataene som skal utveksles, er av typen **Tekst**, **Dato** eller **Desimal**.|  
-    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[d365fin](includes/d365fin_md.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466).|  
+    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[prod_short](includes/prod_short.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466).|  
     |**Dataformateringskultur**|Angi den eventuelle kulturen for dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466). **Obs!**  Dette feltet er bare relevant for import.|  
     |**Lengde**|Angi lengden på linjen med fast bredde som inneholder kolonnen, hvis datafilen er av typen **Fast tekst**.|  
     |**Beskrivelse**|Angi en beskrivelse for kolonnen for informasjon.|  
@@ -103,14 +103,14 @@ Dette er beskrevet i følgende fremgangsmåter.
     |**Identifikator for minustegn**|Angi verdien som brukes i datafilen til å identifisere negative beløp i datafiler som ikke kan inneholde negative fortegn. Denne identifikatoren brukes deretter til å gi de identifiserte beløpene negative fortegn under import. **Obs!**  Dette feltet er bare relevant for import.|  
     |**Konstant**|Angi data du vil eksportere i denne kolonnen, for eksempel tilleggsinformasjon om betalingstypen. **Obs!**  Dette feltet er bare relevant for eksport.|  
 
-9. Gjenta trinn 8 for hvert kolonne- eller XML-element i datafilen som har data du vil utveksle med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+9. Gjenta trinn 8 for hvert kolonne- eller XML-element i datafilen som har data du vil utveksle med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]som kolonner eller XML-elementer i datafilen skal tilordnes til.  
+ Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvilke felt i [!INCLUDE[prod_short](includes/prod_short.md)]som kolonner eller XML-elementer i datafilen skal tilordnes til.  
 
 > [!NOTE]  
->  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
+>  Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[prod_short](includes/prod_short.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-#### <a name="to-map-columns-in-the-data-file-to-fields-in-d365fin"></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+#### <a name="to-map-columns-in-the-data-file-to-fields-in-prod_short"></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]  
 > [!TIP]
 > Noen ganger er verdiene i feltene du vil tilordne, forskjellige. For eksempel, i én virksomhetapp er språkkoden for USA "U.S.", men i den andre er det "US". Det betyr at du må transformere verdien når du utveksler data. Dette skjer gjennom transformeringsregler som du definerer for feltene. Hvis du vil ha mer informasjon, kan du se [Transformeringsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
 
@@ -120,13 +120,13 @@ Dette er beskrevet i følgende fremgangsmåter.
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Tabell-ID**|Angi tabellen som inneholder feltene som data utveksles til eller fra i samsvar med tilordningen.|  
-    |**Bruk som foreløpig tabell**|Angi om tabellen du velger i feltet **Tabell-ID**, er en foreløpig tabell der de importerte dataene lagres før de tilordnes til måltabellen.<br /><br /> Du bruker vanligvis en midlertidig tabell når datautvekslingsdefinisjonen brukes til å importere og konvertere elektroniske dokumenter, for eksempel leverandørfakturaer til kjøpsfakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).|  
+    |**Bruk som foreløpig tabell**|Angi om tabellen du velger i feltet **Tabell-ID**, er en foreløpig tabell der de importerte dataene lagres før de tilordnes til måltabellen.<br /><br /> Du bruker vanligvis en midlertidig tabell når datautvekslingsdefinisjonen brukes til å importere og konvertere elektroniske dokumenter, for eksempel leverandørfakturaer til kjøpsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angi et navn for tilordningsoppsettet.|  
-    |**Kodeenhet for forhåndstilordning**|Angi kodeenheten som klargjør tilordningen mellom felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data.|  
-    |**Kodeenhet for tilordning**|Angi kodeenheten som brukes til å tilordne de angitte kolonnene eller XML-dataelementene til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
-    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[d365fin](includes/d365fin_md.md)] og eksterne data. **Obs!** Når utvidelsesfunksjonen for AMC Banking 365 Fundamentals brukes, konverterer kodeenheten eksporterte data fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+    |**Kodeenhet for forhåndstilordning**|Angi kodeenheten som klargjør tilordningen mellom felt i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data.|  
+    |**Kodeenhet for tilordning**|Angi kodeenheten som brukes til å tilordne de angitte kolonnene eller XML-dataelementene til felt i [!INCLUDE[prod_short](includes/prod_short.md)].|  
+    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data. **Obs!** Når utvidelsesfunksjonen for AMC Banking 365 Fundamentals brukes, konverterer kodeenheten eksporterte data fra [!INCLUDE[prod_short](includes/prod_short.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[prod_short](includes/prod_short.md)].|  
 
-3.  I hurtigfanen **Felttilordning** angir du hvilke kolonner som er tilordnet hvilke felt i [!INCLUDE[d365fin](includes/d365fin_md.md)], ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
+3.  I hurtigfanen **Felttilordning** angir du hvilke kolonner som er tilordnet hvilke felt i [!INCLUDE[prod_short](includes/prod_short.md)], ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
@@ -142,7 +142,7 @@ Dette er beskrevet i følgende fremgangsmåter.
 Datautvekslingsdefinisjonen er nå klar til å aktiveres for brukere. Hvis du vil ha mer informasjon, kan du se [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md), [Definere SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer), [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md) og [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).  
 
 ### <a name="transformation-rules"></a>Transformasjonsregler
-Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeringsregler for datautvekslingsdefinisjoner for å gjøre dem like. Du definerer transformeringsregler for datautvekslingsdefinisjoner ved å åpne en eksisterende definisjon eller opprette en ny definisjon, og deretter, på hurtigfanen **Linjedefinisjoner**, velger du **Administrer**og deretter **Felttilordning**. Forhåndsdefinerte regler er angitt, men du kan også opprette dine egne. Tabellen nedenfor beskriver hvilke typer transformasjoner du kan utføre.
+Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeringsregler for datautvekslingsdefinisjoner for å gjøre dem like. Du definerer transformeringsregler for datautvekslingsdefinisjoner ved å åpne en eksisterende definisjon eller opprette en ny definisjon, og deretter, på hurtigfanen **Linjedefinisjoner**, velger du **Administrer** og deretter **Felttilordning**. Forhåndsdefinerte regler er angitt, men du kan også opprette dine egne. Tabellen nedenfor beskriver hvilke typer transformasjoner du kan utføre.
 
 |Alternativ|Beskrivelse|
 |---------|---------|

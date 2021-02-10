@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a2c2dc42ad600d4e3d05f4f3bdc1e5cbe2947812
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8ffb5b8b90d0fdd4f3e1bd90271db8568c05d41e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915764"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753970"
 ---
 # <a name="create-journal-opening-balances"></a>Opprette inngående balanser for kladd
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap. Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.
+[!INCLUDE[prod_short](includes/prod_short.md)] omfatter mange kjørsler som er gitt for å hjelpe i overføringen av eldre kontobalanser til et nylig konfigurert selskap. Du kan enkelt overføre disse dataene med kundekladden, leverandørkladden, varekladden eller finanskladden.
 
 Det første trinnet er å opprette en konfigurasjonspakke som inneholder oppsettstabellene for disse kladdene. Følgende fremgangsmåte forutsetter at dette trinnet er fullført. Du finner mer informasjon under [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md). Denne fremgangsmåten beskriver de påfølgende trinnene, blant annet å bruke pakken som er levert av en partner.  
 
@@ -44,7 +44,7 @@ Før du begynner, må du kontrollere at du bruker rollesentersiden for administr
 10. Gjenta trinnene for å importere og bokføre eventuelle åpningssaldoer.  
 
 > [!TIP]
-> Du kan bruke de samme kjørslene til å legge til åpningssaldoer når du registrerer en ny kunde eller leverandør som du har gjort forretninger med før, men som ikke er registrert i [!INCLUDE [prodshort](includes/prodshort.md)]. Bare søk etter den aktuelle oppgaven, og velg deretter den relevante koblingen.
+> Du kan bruke de samme kjørslene til å legge til åpningssaldoer når du registrerer en ny kunde eller leverandør som du har gjort forretninger med før, men som ikke er registrert i [!INCLUDE [prod_short](includes/prod_short.md)]. Bare søk etter den aktuelle oppgaven, og velg deretter den relevante koblingen.
 
 ## <a name="see-also"></a>Se også
 

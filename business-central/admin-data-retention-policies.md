@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 279a76751b6652221d83ee453cc171bf357c0328
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754045"
 ---
 # <a name="define-retention-policies"></a>Definere oppbevaringspolicyer
-Administratorer kan definere oppbevaringspolicyer for å angi hvor ofte de vil at [!INCLUDE[prodshort](includes/prodshort.md)] skal slette foreldede data i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med dataene som faktisk er relevante. Policyer kan omfatte alle data i tabellene som har passert utløpsdatoen, eller du kan legge til filterkriterier som bare inkluderer bestemte utgåtte data i policyen. 
+Administratorer kan definere oppbevaringspolicyer for å angi hvor ofte de vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal slette foreldede data i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med dataene som faktisk er relevante. Policyer kan omfatte alle data i tabellene som har passert utløpsdatoen, eller du kan legge til filterkriterier som bare inkluderer bestemte utgåtte data i policyen. 
 
 ## <a name="required-setups-and-permissions"></a>Nødvendige konfigurasjoner og tillatelser
 Før du kan opprette oppbevaringspolicyer må du definere følgende.
@@ -31,7 +31,7 @@ Før du kan opprette oppbevaringspolicyer må du definere følgende.
 I tillegg må du ha SUPER-brukertillatelsene eller tillatelsessettet Oppbevaringspolicyoppsett. Brukere som har tillatelsessettet Oppbevaringspolicyoppsett kan definere oppbevaringspolicyer for tabeller, selv om de ikke har lese- og slettetillatelser for disse tabellene. Jobbkøoppføringen må kjøre som en bruker med tillatelser til å lese og slette dataene. Vi anbefaler at du ikke gir tillatelsessettet Oppbevaringspolicyoppsett til brukere som ikke skal kunne slette data.
 
 > [!NOTE]
-> Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, og du vil prøve ut oppbevaringspolicyer i Cronus-demonstrasjonsdatabasen, er det noen ting du må gjøre. Demonstrasjonsselskapet inneholder ikke tabeller som du kan bruke med oppbevaringspolicyer, så du må legge dem til. Det gjør du ved å opprette et nytt, tomt selskap i demonstrasjonsdatabasen. I det nye selskapet importerer du RapidStart-konfigurasjonspakken for landet ditt som tilsvarer standard NAV17.0.W1.ENU.STANDARD.rapidstart-pakken. Oppsettsdataene for oppbevaringspolicyer vil være tilgjengelige i det nye selskapet.
+> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, og du vil prøve ut oppbevaringspolicyer i Cronus-demonstrasjonsdatabasen, er det noen ting du må gjøre. Demonstrasjonsselskapet inneholder ikke tabeller som du kan bruke med oppbevaringspolicyer, så du må legge dem til. Det gjør du ved å opprette et nytt, tomt selskap i demonstrasjonsdatabasen. I det nye selskapet importerer du RapidStart-konfigurasjonspakken for landet ditt som tilsvarer standard NAV17.0.W1.ENU.STANDARD.rapidstart-pakken. Oppsettsdataene for oppbevaringspolicyer vil være tilgjengelige i det nye selskapet.
 
 ### <a name="to-create-retention-periods"></a>Slik oppretter du oppbevaringsperioder
 Oppbevaringsperioder kan være så lang eller så kort du vil. Hvis du vil opprette oppbevaringsperioder, bruker du handlingen **Oppbevaringsperiode** på siden **Oppbevaringspolicyer**. Periodene du definerer, vil være tilgjengelige for alle policyer.
@@ -59,7 +59,7 @@ Du kan bruke en policy manuelt ved hjelp av handlingen **Bruk manuelt** på side
 Du kan vise aktivitet som er knyttet til oppbevaringspolicyer, på siden **Oppbevaringspolicylogg**. Det opprettes for eksempel poster når en policy brukes, eller hvis det oppstod feil når det skjedde. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Inkludere utvidelsen i en oppbevaringspolicy (krever hjelp fra en utvikler)
-Oppbevaringspolicyer dekker som standard bare tabeller som er inkludert i listen over [!INCLUDE[prodshort](includes/prodshort.md)]-tabeller som vi tilbyr. Du kan fjerne standardtabeller fra listen, og du kan legge til tabeller som du eier. Det vil si at du ikke kan legge til en tabell du ikke har opprettet selv. Du kan for eksempel ikke legge til andre tabeller fra [!INCLUDE[prodshort](includes/prodshort.md)] eller fra en utvidelse du har kjøpt.
+Oppbevaringspolicyer dekker som standard bare tabeller som er inkludert i listen over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller som vi tilbyr. Du kan fjerne standardtabeller fra listen, og du kan legge til tabeller som du eier. Det vil si at du ikke kan legge til en tabell du ikke har opprettet selv. Du kan for eksempel ikke legge til andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en utvidelse du har kjøpt.
 
 For å legge til tabellene dine i listen over tillatte tabeller, må en utvikler legge til kode, for eksempel i installasjonsprogrammets codeunit for utvidelsen (en codeunit med undertypen *installasjon*). 
 
@@ -104,4 +104,4 @@ Når en utvikler har lagt til tabeller i listen, kan en administrator inkludere 
 [Revidere endringer i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
 [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

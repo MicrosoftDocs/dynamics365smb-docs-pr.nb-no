@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3dafae41b015df7b3b87657014a901128d34b7c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0db0e2e6705a7d2fd1907227996d8c258dcbc554
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915888"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754795"
 ---
 # <a name="create-workflows"></a>Opprette arbeidsflyter
 Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
 På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse endret av hendelsesbetingelsene og et arbeidsflytsvar med svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
 
-Når du oppretter arbeidsflyter, kan du kopiere trinnene fra eksisterende arbeidsflyter eller arbeidsflytmaler. Arbeidsflytmaler representerer ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-", som i "MS PIW". Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
+Når du oppretter arbeidsflyter, kan du kopiere trinnene fra eksisterende arbeidsflyter eller arbeidsflytmaler. Arbeidsflytmaler representerer ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-", som i "MS PIW". Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 
 Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støttes, må en Microsoft-partner implementere dem ved å tilpasse programkoden.  
 
@@ -59,8 +59,8 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
         |**Varsle avsender**|Angi om godkjenningsanmoderen skal varsles i stedet for mottakeren av godkjenningsforespørselen. Hvis du setter en hake i avmerkingsboksen, deaktiveres feltet **Bruker-ID for mottaker**, fordi godkjenningsanmoderen, avsenderen, blir varslet i stedet. Navnet på arbeidsflytsvarendringene endres i henhold til dette til **Opprett varsel for &lt;avsender&gt;**. Hvis det ikke er merket av i avmerkingsboksen, er navnet på arbeidsflytsvaret **Opprett varsel for &lt;Bruker&gt;**.
         |**Bruker-ID for mottaker**|Angi brukeren som meldingen må sendes til. Obs! Dette alternativet er bare tilgjengelig for arbeidsflytsvar med en plassholder for en bestemt bruker. For arbeidsflytsvar uten plassholdere for brukere er varslingsmottakeren vanligvis definert av brukeroppsettet for godkjenning.|  
         |**Posttype for varsling**|Angir om arbeidsflytvarslingen utløses av en postendring, en godkjenningsforespørsel eller en forfalt data.|
-        |**Kobling til målside**|Angi en annen side i [!INCLUDE[d365fin](includes/d365fin_md.md)] som koblingen i meldingen åpner i stedet for standardsiden.<br /><br />Merk at siden må ha samme kildetabell som den aktuelle posten.|  
-        |**Egendefinert kobling**|Angi URL-adressen til en kobling som legges til i meldingen i tillegg til koblingen til en side i [!INCLUDE[d365fin](includes/d365fin_md.md)].|  
+        |**Kobling til målside**|Angi en annen side i [!INCLUDE[prod_short](includes/prod_short.md)] som koblingen i meldingen åpner i stedet for standardsiden.<br /><br />Merk at siden må ha samme kildetabell som den aktuelle posten.|  
+        |**Egendefinert kobling**|Angi URL-adressen til en kobling som legges til i meldingen i tillegg til koblingen til en side i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     2.  Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av en godkjenningsforespørsel, fyller du ut feltene som beskrevet i følgende tabell.  
 
         |Felt|Beskrivelse|  

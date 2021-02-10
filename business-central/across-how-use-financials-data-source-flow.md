@@ -10,33 +10,33 @@ ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: workflow, OData, Power App, SOAP
 ms.date: 10/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 8f4da5b51b4e0df5cdf6f41f7a78c0a51cf0f083
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.author: edupont
+ms.openlocfilehash: f44b727a353208d1b2b8f5d918400de1687acc52
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924856"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754545"
 ---
-# <a name="using-prodshort-in-an-automated-workflow"></a>Bruke [!INCLUDE[prodshort](includes/prodshort.md)] i en automatisk arbeidsflyt
+# <a name="using-prod_short-in-an-automated-workflow"></a>Bruke [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt
 
-Du kan bruke dine [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del av en arbeidsflyt i Microsoft Power Automate.
+Du kan bruke dine [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del av en arbeidsflyt i Microsoft Power Automate.
 
 > [!NOTE]
-> I tillegg til Power Automate kan du bruke arbeidsflytfunksjonaliteten i [!INCLUDE[prodshort](includes/prodshort.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en arbeidsflytmal som du oppretter med Power Automate, til i listen over arbeidsflyter i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
+> I tillegg til Power Automate kan du bruke arbeidsflytfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en arbeidsflytmal som du oppretter med Power Automate, til i listen over arbeidsflyter i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
 
 > [!NOTE]  
-> Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power Automate.  
+> Du må ha en gyldig konto med [!INCLUDE[prod_short](includes/prod_short.md)] og med Power Automate.  
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>Legge til [!INCLUDE[prodshort](includes/prodshort.md)] som en datakilde i Power Automate
+## <a name="to-add-prod_short-as-a-data-source-in-power-automate"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Automate
 
 1. I leseren, kan du gå til [flow.microsoft.com](https://flow.microsoft.com), og deretter logge på.
 2. Velg **Mine flyter** fra båndet øverst på siden.
-3. Du kan opprette en flyt på tre måter: **Start fra mal**, **Begynn med tom**og **Start fra en kobling**. En mal er en forhåndsdefinert flyt som er opprettet for deg. Hvis du vil bruke en mal, bare velger du den og oppretter en kobling for hver tjeneste malen bruker. Med alternativene **Begynn med tom** og **Start fra en kobling** kan du opprette en ny flyt fullstendig fra grunnen av.
+3. Du kan opprette en flyt på tre måter: **Start fra mal**, **Begynn med tom** og **Start fra en kobling**. En mal er en forhåndsdefinert flyt som er opprettet for deg. Hvis du vil bruke en mal, bare velger du den og oppretter en kobling for hver tjeneste malen bruker. Med alternativene **Begynn med tom** og **Start fra en kobling** kan du opprette en ny flyt fullstendig fra grunnen av.
 4. Når du skal opprette fra en tom, går du til siden **Mine flyter** og velger alternativene **Opprett fra tom** og **Automatisk flyt**.
-5. Søk etter **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** connector.
+5. Søk etter **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]** connector.
 6. Definer et navn og velg utløseren du vil bruke for flyten.
-7. Fra listen over tilgjengelige utløsere velger du én av de tilgjengelige [!INCLUDE[prodshort](includes/prodshort.md)]-utløserne:  
+7. Fra listen over tilgjengelige utløsere velger du én av de tilgjengelige [!INCLUDE[prod_short](includes/prod_short.md)]-utløserne:  
 
     *Det bes om godkjenning av en leverandør*,  
     *Det bes om godkjenning av en finanskladdelinje*,  
@@ -50,31 +50,31 @@ Du kan bruke dine [!INCLUDE[prodshort](includes/prodshort.md)]-data som en del a
     *Det bes om godkjenning av et kjøpsdokument* eller  
     *Det bes om godkjenning av et salgsdokument*.
 
-8. Power Automate ber deg om å velge et miljø eller selskap i din [!INCLUDE[prodshort](includes/prodshort.md)]-leier, samt eventuelle forhold i dataene du vil lytte til.
+8. Power Automate ber deg om å velge et miljø eller selskap i din [!INCLUDE[prod_short](includes/prod_short.md)]-leier, samt eventuelle forhold i dataene du vil lytte til.
 
     > [!NOTE]
-    > Kontakten [!INCLUDE[prodshort](includes/prodshort.md)] for Power Automate støtter flere produksjons- og sandkassemiljøer. Hvis du ikke har opprettet flere produksjons- eller sandkassemiljøer, er **Produksjon** det eneste tilgjengelige alternativet du kan velge.  
+    > Kontakten [!INCLUDE[prod_short](includes/prod_short.md)] for Power Automate støtter flere produksjons- og sandkassemiljøer. Hvis du ikke har opprettet flere produksjons- eller sandkassemiljøer, er **Produksjon** det eneste tilgjengelige alternativet du kan velge.  
 
-    Nå har du koblet til Business Central[!INCLUDE[prodshort](includes/prodshort.md)]-dataene og er klar til å begynne å bygge din flyt.
+    Nå har du koblet til Business Central[!INCLUDE[prod_short](includes/prod_short.md)]-dataene og er klar til å begynne å bygge din flyt.
 
 9. Når du skal opprette fra en mal, velger du **Start fra mal**.
-10. Søk etter **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**-maler.
+10. Søk etter **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]**-maler.
 11. Fra listen over tilgjengelige maler velger du én av malene, og deretter velger du **Opprett**.  
 
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-ordren*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-tilbudet*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-salgsfakturaen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-salgskreditnotaen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-kunden*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-bestillingen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-kjøpsfakturaen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-kjøpskreditnotaen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-varen*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-leverandøren*,  
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladden* eller    
-    *Be om godkjenning for Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]-finanskladdelinjer*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-ordren*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-tilbudet*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-salgsfakturaen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-salgskreditnotaen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-kunden*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-bestillingen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-kjøpsfakturaen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-kjøpskreditnotaen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-varen*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-leverandøren*,  
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-finanskladden* eller    
+    *Be om godkjenning for Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]-finanskladdelinjer*,  
 12. Power Automate vil vise en liste over tjenester som brukes i flytmalen, og vil forsøke å koble automatisk til disse tjenestene. Hvis du ikke tidligere har koblet til en tjeneste, blir du bedt om å logge deg på hver av tjenestene du må koble til. En grønn hake vises ved siden av hver tjeneste når en tilkobling er opprettet. Velg **Fortsett**.
-13. Power Automate ber deg om å velge et miljø og selskap i din [!INCLUDE[prodshort](includes/prodshort.md)]-leier. Siden hvert trinn i flyten er uavhengig av neste, kan det hende at du må definere miljøet og selskapet flere ganger når du bruker en [!INCLUDE[prodshort](includes/prodshort.md)] Power Automate-mal.
+13. Power Automate ber deg om å velge et miljø og selskap i din [!INCLUDE[prod_short](includes/prod_short.md)]-leier. Siden hvert trinn i flyten er uavhengig av neste, kan det hende at du må definere miljøet og selskapet flere ganger når du bruker en [!INCLUDE[prod_short](includes/prod_short.md)] Power Automate-mal.
 
 Hvis du vil ha mer informasjon, kan du se [Power Automate-dokumentasjonen](/power-automate/getting-started).
 
@@ -84,7 +84,7 @@ Hvis du vil ha mer informasjon, kan du se [Power Automate-dokumentasjonen](/powe
 [Arbeidsflyt](across-workflow.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
-[Administrer arbeidsflyter for [!INCLUDE[prodlong](includes/prodlong.md)]](across-use-workflows.md)  
+[Administrer arbeidsflyter for [!INCLUDE[prod_long](includes/prod_long.md)]](across-use-workflows.md)  
 [Brukeroppsett for godkjenning](across-how-to-set-up-approval-users.md)  
-[Konfigurere [!INCLUDE[prodshort](includes/prodshort.md)]](setup.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  

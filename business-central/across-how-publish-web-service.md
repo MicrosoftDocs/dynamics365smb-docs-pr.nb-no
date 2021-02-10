@@ -7,18 +7,18 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/08/2020
 ms.author: edupont
-ms.openlocfilehash: 658816cfb65580404bc8ef10472a5b62c6815c9e
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2220b5227cfe0e99a53071829096a67b6aeb0521
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754920"
 ---
 # <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
-Webtjenester er en lett måte å gjøre programfunksjonalitet tilgjengelig for forskjellige eksterne systemer og brukere. Som standard viser [!INCLUDE[d365fin](includes/d365fin_md.md)] flere objekter som webtjenester for bedre integrasjon med andre Microsoft-tjenester. Du kan legge til andre webtjenester etter behov.  
+Webtjenester er en lett måte å gjøre programfunksjonalitet tilgjengelig for forskjellige eksterne systemer og brukere. Som standard viser [!INCLUDE[prod_short](includes/prod_short.md)] flere objekter som webtjenester for bedre integrasjon med andre Microsoft-tjenester. Du kan legge til andre webtjenester etter behov.  
 
-Sett opp en webtjeneste i [!INCLUDE[d365fin](includes/d365fin_md.md)], og publiser deretter webtjenesten slik at den er tilgjengelig for godkjente brukere. Alle autoriserte brukere har tilgang til metadata for webtjenester, men bare brukere som har tilstrekkelige tillatelser, har tilgang til faktiske data.  
+Sett opp en webtjeneste i [!INCLUDE[prod_short](includes/prod_short.md)], og publiser deretter webtjenesten slik at den er tilgjengelig for godkjente brukere. Alle autoriserte brukere har tilgang til metadata for webtjenester, men bare brukere som har tilstrekkelige tillatelser, har tilgang til faktiske data.  
 
 ## <a name="creating-and-publishing-a-web-service"></a>Opprette og publisere en webtjeneste
 
@@ -40,7 +40,7 @@ Når du publiserer webtjenesten, viser feltene **OData-URL-adresse** og **SOAP-U
 Du kan teste webtjenesten umiddelbart ved å velge koblingene i feltene **OData URL-adresse** og **SOAP-URL-adresse**. Kopier eventuelt feltets verdi, og lagre den for senere bruk. Hvis du vil teste codeunits som vises som OData v4-ubundne handlinger, følger du instruksjonene i delen [Verifisere tilgjengelighet for webtjeneste](/dynamics365/business-central/dev-itpro/developer/devenv-creating-and-interacting-with-odatav4-unbound-action#verifying-web-service-availability) i innholdet for utviklere.
 
 > [!NOTE]
-> Hvis objektene du eksponerer som nettjenester, ikke må være tilgjengelige fra [!INCLUDE[prodshort](includes/prodshort.md)] online, må du merke av for metodene som vises i koden, som `[Scope('OnPrem')]`. Se [Scope-attributtet](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute) hvis du vil ha mer informasjon.
+> Hvis objektene du eksponerer som nettjenester, ikke må være tilgjengelige fra [!INCLUDE[prod_short](includes/prod_short.md)] online, må du merke av for metodene som vises i koden, som `[Scope('OnPrem')]`. Se [Scope-attributtet](/dynamics365/business-central/dev-itpro/developer/methods/devenv-scope-attribute) hvis du vil ha mer informasjon.
 
 Når du publiserer en webtjeneste, er den tilgjengelig for eksterne parter. Du kan kontrollere tilgjengeligheten til denne webtjenesten ved hjelp av en leser, eller velge koblingen i feltene **OData URL-adresse** og **SOAP-URL-adresse** på siden **Webtjenester**. Følgende fremgangsmåte viser hvordan du kan kontrollere webtjenestens tilgjengelighet for senere bruk.  
 
@@ -56,7 +56,7 @@ Når du publiserer en webtjeneste, er den tilgjengelig for eksterne parter. Du k
 
 2. Se gjennom informasjone som vises i webleseren. Kontroller at du kan se navnet på webtjenesten som du har opprettet.  
 
-Når du åpner en webtjeneste, og du vil skrive data tilbake til [!INCLUDE[d365fin](includes/d365fin_md.md)], må du angi firmanavnet. Du kan angi selskapet som en del av URI-en som vist i eksemplene, eller angi selskapet som en del av spørringsparameterne. Følgende URIer peker for eksempel til den samme OData web-tjenesten, og de er begge gyldige URIer.  
+Når du åpner en webtjeneste, og du vil skrive data tilbake til [!INCLUDE[prod_short](includes/prod_short.md)], må du angi firmanavnet. Du kan angi selskapet som en del av URI-en som vist i eksemplene, eller angi selskapet som en del av spørringsparameterne. Følgende URIer peker for eksempel til den samme OData web-tjenesten, og de er begge gyldige URIer.  
 
 ```
 https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS International Ltd.')/Customer  

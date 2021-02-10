@@ -10,22 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 77534395d868b1ea82317c32aaed0e70d222e1e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ffe9e73312142f8cb7848620fd4acbfbb2db9798
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911483"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752778"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
-Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[d365fin](includes/d365fin_md.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
+Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
 
 Du kan endre alle standardverdier i et spørreskjema slik at de er mer i samsvar med kundebehov.  
 
 > [!TIP]  
 >  Hvis du vil ha mer informasjon om hvordan du definerer oppsettsverdier i felt for forsyningsplanlegging, kan du se [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md).  
 
-Når kunden fullfører spørreskjemaet, kan du importere filen til kundens nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-selskap. Du og kunden validerer svarene i spørreskjemaet før du kan bruke dem til selskapet.
+Når kunden fullfører spørreskjemaet, kan du importere filen til kundens nye [!INCLUDE[prod_short](includes/prod_short.md)]-selskap. Du og kunden validerer svarene i spørreskjemaet før du kan bruke dem til selskapet.
 
 ## <a name="to-create-a-configuration-questionnaire"></a>Opprette et konfigurasjonsspørreskjema
 Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og behovet for konfigurasjon. Du kan opprette et nytt spørreskjema eller endre et eksisterende spørreskjema ved å legge til nye spørsmål eller spørsmålsområder.  
@@ -69,7 +69,7 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 9. In the **No.** field, enter a number to define where the question appears in the sequence of questions.
 10. In the **Field ID** field, choose the field the the customer's answer will be applied to. You can choose from the fields on the table you chose in the **Table ID** field.
   
-    When you choose a field, [!INCLUDE[d365fin](includes/d365fin_md.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
+    When you choose a field, [!INCLUDE[prod_short](includes/prod_short.md)] provides a suggestion in the **Question** field. You can edit the question if needed.
 11. To add more questions to the questionnaire, repeat steps seven through 10.
 
 > [!Tip]
@@ -92,7 +92,7 @@ Du kan også slette spørsmål som du ikke vil inkludere i spørreskjemaet.
 >  Etter behov kan du også definere standardsvar i **Svar**-feltet. Disse verdiene brukes som standard for tilpasset installasjon. Personen som fyller ut spørreskjemaet, kan imidlertid endre og oppdatere svaret.  
 
 ## <a name="to-complete-the-configuration-questionnaire"></a>Fullføre konfigurasjonsspørreskjemaet
-Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detaljert diskusjon om kundens spesifikke behov. Du bruker det også til å innhente oppsettsdata fra kunden for å konfigurere de relevante [!INCLUDE[d365fin](includes/d365fin_md.md)]-oppsettstabellene, for eksempel finans, lager og kunder.  
+Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detaljert diskusjon om kundens spesifikke behov. Du bruker det også til å innhente oppsettsdata fra kunden for å konfigurere de relevante [!INCLUDE[prod_short](includes/prod_short.md)]-oppsettstabellene, for eksempel finans, lager og kunder.  
 
 > [!NOTE]  
 >  Du kan også opprette ditt eget konfigurasjonsspørreskjema slik du vil ha det.  
@@ -113,23 +113,23 @@ Fremgangsmåten nedenfor gir en alternativ måte å få tilgang til konfigurasjo
 4. Velg **OK**-knappen for å lukke spørreskjemaet.
 
 ## <a name="to-validate-the-configuration-questionnaire"></a>Validere konfigurasjonsspørreskjemaet
-Det er viktig å validere konfigurasjonsspørreskjemaet før du bruker det på [!INCLUDE[d365fin](includes/d365fin_md.md)]-formatet. Det er også en måte å kontrollere at dataformateringen bevares under importen fra Excel.  
+Det er viktig å validere konfigurasjonsspørreskjemaet før du bruker det på [!INCLUDE[prod_short](includes/prod_short.md)]-formatet. Det er også en måte å kontrollere at dataformateringen bevares under importen fra Excel.  
 
 En vanlig valideringsoppgave er å kontrollere at tekststrenger ikke blir lagt inn i datofeltene. Denne kontrollprosessen er nødvendig fordi formatet for svaret i spørreskjemaet ikke bekreftes automatisk når du kjører funksjonen **Bruk svar**.  
 
 > [!NOTE]  
->  Vanligvis er validering av konfigurasjonsspørreskjemaet en manuell prosess. Det foretas imidlertid kontroll av inkonsekvens i regional formatering. I tillegg får du feil hvis strukturen i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen ikke samsvarer med strukturen i flyttingsdatabasen.  
+>  Vanligvis er validering av konfigurasjonsspørreskjemaet en manuell prosess. Det foretas imidlertid kontroll av inkonsekvens i regional formatering. I tillegg får du feil hvis strukturen i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen ikke samsvarer med strukturen i flyttingsdatabasen.  
 
 1. På siden **Konfigurasjonsspørreskjema** velger du det aktuelle spørreskjemaet, og deretter velger du handlingen **Spørsmålsområder**.  
 2. Åpne det aktuelle spørsmålsområdet.  
 3. For hvert spørsmål validerer du at verdien i **Svar**-feltet svarer til formatet i **Svaralternativ**-feltet. Bekreft for eksempel at adressen til et selskap er i tekstformat.  
-4. Hvis du finner feil, kan du feilsøke og korrigere i Excel ved å eksportere spørreskjemaet og deretter importere det på nytt. Du kan også rette opp feil direkte i [!INCLUDE[d365fin](includes/d365fin_md.md)] etter hvert som du ser gjennom svarene på siden **Konfig. spørsmålsområde**.  
+4. Hvis du finner feil, kan du feilsøke og korrigere i Excel ved å eksportere spørreskjemaet og deretter importere det på nytt. Du kan også rette opp feil direkte i [!INCLUDE[prod_short](includes/prod_short.md)] etter hvert som du ser gjennom svarene på siden **Konfig. spørsmålsområde**.  
 5. Gjenta disse trinnene for hvert spørsmålsområde.  
 
 Når du har fullført valideringen, er dataene klar til å bli brukt i databasen.  
 
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Bruke svar fra konfigurasjonsspørreskjemaet
-Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
 2. Velg et konfigurasjonsspørreskjema fra listen, og velg deretter handlingen **Rediger oversikt**.  
@@ -139,7 +139,7 @@ Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema
 - Hvis du vil bruke svarene for bare et bestemt **spørsmålsområde**, velger du handlingen **Spørsmålsområder**, velger et **spørsmålsområde** i listen, og deretter velger handlingen **Bruk svar**.  
 
 ### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:  
-1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på konfigurasjonssiden og deretter velge den relaterte koblingen.  
+1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på konfigurasjonssiden og deretter velge den relaterte koblingen.  
 2. Kontroller at feltene er fylt ut med de riktige dataene fra de ulike spørsmålsområdene i konfigurasjonsspørreskjemaet.  
 
 Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.

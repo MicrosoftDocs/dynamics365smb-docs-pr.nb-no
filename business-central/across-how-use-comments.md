@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0d9b84ff608d6778bb20dfe009978fbe624f47c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3f84b6d7d03bd8766bfd485870cef8401a3e3382
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924881"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4754570"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Legge til kommentarer i kort og dokumenter
 Du kan legge til tilleggsinformasjon for finanskontoer, kundekort eller ordrer for å formidle unntak eller spesielle avtaler avtaler til andre brukere.
@@ -37,5 +37,5 @@ Nedenfor beskrives det hvordan du legger til en merknad på et varekort. Trinnen
 4. Skriv inn tekst på **Merknadsark**-siden, og velg **OK**-knappen.
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

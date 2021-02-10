@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aa24a1530d9e1d74e688f2ec9b44e1d615919c7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e0195ea3cf635da2e0088e5f20b729017ced776d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924781"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4753103"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
-Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.
+Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.
 
 Som et alternativ til å sende filen fra siden **Inngående dokumenter** kan du sende filen til OCR-tjenesten via e-post. Deretter, når du får tilbake det elektroniske dokumentet, opprettes det automatisk en relatert innkommende dokumentpost. Dette er beskrevet i andre fremgangsmåte.
 
@@ -60,22 +60,22 @@ Hvis du ikke bruker en jobbkø, eller hvis du vil motta et ferdig OCR-dokument r
 
     Informasjon for OCR-dokumentet vises, med både kildeinnholdet i PDF-filen eller bildefilen og de resulterende OCR-feltverdiene.
 3. Gå gjennom de ulike feltverdiene og rediger manuelt eller angi verdier i felt som OCR-tjenesten har merket som usikre.
-4. Velg **OK**. OCR-prosessen er fullført, og det resulterende elektroniske dokumentet sendes til **Inngående dokumenter**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)] i henhold til jobbkøplanen.
+4. Velg **OK**. OCR-prosessen er fullført, og det resulterende elektroniske dokumentet sendes til **Inngående dokumenter**-siden i [!INCLUDE[prod_short](includes/prod_short.md)] i henhold til jobbkøplanen.
 5. Gjenta trinn 4 for andre OCR-dokumenter som skal bekreftes.
 
-Nå kan du fortsette å opprette dokumentposter for de elektroniske dokumentene som er mottatt i [!INCLUDE[d365fin](includes/d365fin_md.md)], manuelt eller automatisk. Hvis du vil ha mer informasjon, kan du se neste fremgangsmåte. Du kan også koble den nye innkommende dokumentposten til eksisterende postert eller ikke-postert dokument slik at kildefilen er lett tilgjengelige fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Behandle inngående dokumenter](across-process-income-documents.md).
+Nå kan du fortsette å opprette dokumentposter for de elektroniske dokumentene som er mottatt i [!INCLUDE[prod_short](includes/prod_short.md)], manuelt eller automatisk. Hvis du vil ha mer informasjon, kan du se neste fremgangsmåte. Du kan også koble den nye innkommende dokumentposten til eksisterende postert eller ikke-postert dokument slik at kildefilen er lett tilgjengelige fra [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Behandle inngående dokumenter](across-process-income-documents.md).
 
 ## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Slik oppretter du en kjøpsfaktura fra et elektronisk dokument som er mottatt fra OCR-tjenesten:
 Følgende fremgangsmåte beskriver hvordan du oppretter en post for kjøpsfaktura fra en leverandørfaktura mottatt som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåten er den samme når du oppretter for eksempel en finanskladdelinje fra en utgiftskvittering., eller en ordreretur fra en kunde.
 
 > [!NOTE]  
->   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan utføre denne tilordningen som varekryssreferanser, for dokumentlinjer av typen Vare. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon. Du kan også bruke funksjonen Tekst-til-konto-tilordning. Hvis du vil ha mer informasjon, kan du se delen [Slik tilordner du tekst i et inngående dokument til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Feltene **Beskrivelse** og **Nr.** på dokumentlinjene som er opprettet, fylles bare ut hvis du først har tilordnet teksten som finnes på OCR-dokumentet til de to feltene i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan utføre denne tilordningen som varekryssreferanser, for dokumentlinjer av typen Vare. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon. Du kan også bruke funksjonen Tekst-til-konto-tilordning. Hvis du vil ha mer informasjon, kan du se delen [Slik tilordner du tekst i et inngående dokument til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Merk linjen for det inngående dokumentet, og velg deretter **Opprett dokument**-handlingen.
 
-Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske leverandørdokumentet som du mottok fra OCR-tjenesten. Informasjon settes inn i den nye kjøpsfakturaen basert på tilordningen du har definert som kryssreferanse eller som tekst-til-konto-tilordning.
+Det blir opprettet en kjøpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] basert på informasjonen i det elektroniske leverandørdokumentet som du mottok fra OCR-tjenesten. Informasjon settes inn i den nye kjøpsfakturaen basert på tilordningen du har definert som kryssreferanse eller som tekst-til-konto-tilordning.
 
-Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se [Håndtere feil ved mottak av elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
+Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i **Feil og advarsler**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se [Håndtere feil ved mottak av elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
 ### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Slik tilordner du tekst i et inngående dokument til en bestemt leverandørkonto:
 For innkommende dokumenter bruker du vanligvis handlingen **Tilordne tekst til konto** for å definere at en bestemt tekst på en leverandørfaktura som er mottatt fra OCR-tjenesten, tilordnes til en bestemt leverandørkonto. Deler av beskrivelsen av det innkommende dokumentet som finnes som tilordningstekst, betyr at **Nr.**-feltet på det resulterende bilaget eller kladdelinjene av typen Finanskonto, fylles deretter ut med den aktuelle leverandøren.
@@ -121,4 +121,4 @@ Feltene i hurtigfanen **Økonomisk informasjon** på siden **Inngående dokument
 [Behandle inngående dokumenter](across-process-income-documents.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
