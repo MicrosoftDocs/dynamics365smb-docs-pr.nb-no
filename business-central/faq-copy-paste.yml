@@ -1,0 +1,81 @@
+### YamlMime:FAQ
+metadata:
+  title: Vanlige spørsmål om å kopiere og lime inn data
+  description: Få svar på vanlige spørsmål om kopiering og innliming av data fra felter og rader fra Business Central-sider.
+  author: SorenGP
+  ms.topic: article
+  ms.service: dynamics365-business-central
+  ms.search.keywords: accessibility, shortcuts, keyboarding
+  ms.date: 01/08/2021
+  ms.author: edupont
+  ms.openlocfilehash: 93b9f28fec418fef9968fb729ee03b3b0df3918a
+  ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+  ms.translationtype: HT
+  ms.contentlocale: nb-NO
+  ms.lasthandoff: 01/15/2021
+  ms.locfileid: "5013924"
+title: Vanlige spørsmål om kopiere og lime inn
+summary: "Du kan kopiere en eller flere rader (poster) fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post).  \n\nKort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS). Det finnes flere tastatursnarveier for å kopiere og lime inn som sparer tid når du registrerer data. Hvis du vil ha mer informasjon om disse, kan du se [Hurtigtaster](keyboard-shortcuts.md#CopyRows). Denne artikkelen svarer på vanlige spørsmål du måtte ha om å kopiere og lime inn.  \n"
+sections:
+- name: Generelt
+  questions:
+  - question: Hva kan jeg kopiere og lime inn?
+    answer: >
+      Du kan kopiere og lime inn denne typen data:
+
+      - Kopier én eller flere rader i [!INCLUDE[prod_short](includes/prod_short.md)] til samme liste eller til en liste med identiske kolonner.
+
+      - Kopier én eller flere rader i [!INCLUDE[prod_short](includes/prod_short.md)] og lim inn i Excel eller andre programmer.
+
+      - Kopier én eller flere rader i Excel og lim inn i en [!INCLUDE[prod_short](includes/prod_short.md)]-liste.
+
+      - Kopier verdien for et individuelt felt i [!INCLUDE[prod_short](includes/prod_short.md)] og lim inn hvor som helst.
+  - question: Fungerer kopiering og innliming med fliser?
+    answer: >
+      Ja, men bare for én enkelt merket flis.
+  - question: Hvordan kopierer jeg en rad?
+    answer: >
+      Hvis du vil kopiere én rad, merker du den og trykk deretter på Ctrl+C.
+
+
+      Hvis du vil kopiere flere rader, kan du:
+
+      - Trykke Ctrl+klikk på på annen rad eller Skift+klikk for å merke raden og alle rader i mellom. Se [Tastatursnarveier](keyboard-shortcuts.md#CopyRows) for flere mus- og tastaturkombinasjoner for å velge rader.
+
+      - Velg ikonet ![Vis flere alternativer](media/show-more-options-icon.png "Ikonet Vis flere alternativer") i den første kolonnen, velg **Velg flere**, merk av for hver rad du vil kopiere, og trykk Ctrl+C.
+  - question: Hvordan limer jeg inn rader?
+    answer: >
+      Merk en tom rad, med fokus i en hvilken som helst celle, og trykk deretter CRTL+V.
+
+
+      Hvis du vil erstatte eksisterende rader, velger du radene og trykker deretter CTRL+V. I dette tilfellet kan du bare lime inn samme antall rader som du har valgt.
+
+
+      > [!NOTE]
+
+      > Listen du limer inn i, må kunne redigeres.
+
+
+      <!-- Rows are pasted directly where your cursor is located. If you paste into an empty line, any existing subsequent lines will be moved after the pasted lines. If you paste into an existing line or lines, this will be overwritten.-->
+  - question: Kan jeg lime inn rader i Outlook-e-post?
+    answer: >
+      Ja. Dette limes inn som en flott formatert tabell som beholder innrykk, numerisk justering og farger, på samme måte som du ville sett det i [!INCLUDE[prod_short](includes/prod_short.md)].
+  - question: I hvilke lister kan jeg kopiere og lime inn rader?
+    answer: >
+      Du kan kopiere rader i en hvilken som helst type liste, inkludert forslag, faktabokser eller lister som er bygd inn på en side (for eksempel linjer i en ordre). For å kunne lime inn rader må listen imidlertid kunne redigeres.
+
+
+      På enkelte sider kan programmetutformingen forhindre deg fra å lime inn rader. Kontakt systemansvarlig eller programvareutvikleren for å endre den [redigerbare egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-editable-property) på siden eller [PasteIsValid-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-pasteisvalid-property) i kildetabellen.
+  - question: På hvilke klienter er kopiering innliming tilgjengelig?
+    answer: >
+      Kopiering og innliming er tilgjengelig i nettleseren eller [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Windows 10.
+  - question: Hva er maksimalt antall rader som kan kopieres?
+    answer: >
+      Du kan kopiere så mange rader du har rullet inn i visningen. For eksempel hvis du vil kopiere alle 1000 rader på en side, må du først rulle nederst på siden og vente til radene vises, før du kopierer. Det maksimale antallet rader som du kan kopiere, begrenses bare av minnet på enheten.
+  - question: Må jeg ha nøyaktig samme antall kolonner når jeg limer inn rader?
+    answer: >
+      Ja. Om du kopierer fra [!INCLUDE[prod_short](includes/prod_short.md)], fra Excel eller en annen tabellkilde, må radene du limer inn i [!INCLUDE[prod_short](includes/prod_short.md)], ha nøyaktig antall tilsvarende kolonner – hverken færre eller flere.
+  - question: Hvorfor får jeg feil når jeg limer inn rader?
+    answer: >
+      Når du limer inn i [!INCLUDE[prod_short](includes/prod_short.md)], kontrolleres hver rad slik at verdiene i hver kolonne er gyldig. Hvis en kolonne inneholder en verdi som ikke er gyldig, stopper innlimingen, og det vises en feilmelding. Kontroller at kolonnene har gyldige verdier før du limer dem inn, for å unngå dette.
+additionalContent: "## <a name=\"next-steps\"></a>Neste trinn\nFinn relatert informasjon her: \n  - [Hjelpefunksjoner](ui-accessibility.md)  \n  - [Komme i gang](product-get-started.md)  \n  - [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Vanlige spørsmål](across-faq.md)"
