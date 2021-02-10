@@ -1,8 +1,6 @@
 ---
-title: Økonomistyring | Microsoft-dokumentasjon
-description: Få informasjon om oppgavene for å konfigurere finans i virksomheten slik at alle regnskaps-, revisjons- og bokføringsbehov dekkes.
-services: project-madeira
-documentationcenter: ''
+title: Økonomistyring
+description: Finn ut hvordan Business Central støtter dine behov for økonomistyring, regnskap, revisjon eller bokføring.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -12,15 +10,16 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cffe1bf3cc73660a75e6cca5d2d0e1e640c32423
-ms.sourcegitcommit: aea079b66e35c447bf31a11ffc2069cfdaf2ef38
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970467"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750283"
 ---
 # <a name="finance"></a>Finans
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre konfigurasjonen slik at den passer til din virksomhet. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
 
 Standardkonfigurasjonen inneholder kontoplaner og standard bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.  
 
@@ -57,18 +56,20 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Lær hvordan du bruker rollesenteret for regnskapsførere, inviter en ekstern regnskapsfører, og bruk selskapshuben til å håndtere konti for flere klienter.|[Regnskapsføreropplevelser i Business Central](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Få en videoinnføring
+
 Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
-[Administrere prosjekter](projects-manage-projects.md)    
+[Administrere prosjekter](projects-manage-projects.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

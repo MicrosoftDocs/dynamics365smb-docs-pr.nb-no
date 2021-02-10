@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b265f8a910ba4d6e36856ce6d4485532b4e1337a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8842bd23f6d2d470599afe9b4382b35cec3d9251
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920825"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749546"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Lageroversikt
 For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret. Dette håndteres i **Lagerpost**-tabellen. Hver transaksjon lagres i en lagerjournal.  
@@ -31,7 +31,7 @@ Illustrasjonen nedenfor gir en oversikt over vanlig lagerflyter.
 ![Oversikt over lagerprosesser](media/design_details_warehouse_management_overview.png "Oversikt over lagerprosesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunnleggende eller avanserte lagerstyring  
-Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres på ulike kompleksitetsnivåer, avhengig av rutiner og ordrevolum i et selskap. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerstyring, mens de konsolideres for flere ordrer i avansert lagerstyring.  
+Lagerfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres på ulike kompleksitetsnivåer, avhengig av rutiner og ordrevolum i et selskap. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerstyring, mens de konsolideres for flere ordrer i avansert lagerstyring.  
 
  For å skille mellom de ulike kompleksitetsnivåene henviser denne dokumentasjonen til to generelle betegnelser, grunnleggende og avansert lagerstyring. Denne enkle differensieringen dekker flere ulike kompleksitetsnivåer, som defineres av produktgranuler og lokasjonsoppsettet, der hvert nivå støttes av ulike grensesnittdokumenter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implemen
 Hvis du vil ha mer informasjon om hvert dokument, kan du se de respektive emnene for siden.  
 
 ### <a name="terminology"></a>Terminologi  
-Lagerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] henviser til følgende termer for vareflyt på lageret, slik at den passer med de økonomiske begrepene om kjøp og salg.  
+Lagerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] henviser til følgende termer for vareflyt på lageret, slik at den passer med de økonomiske begrepene om kjøp og salg.  
 
 |Begrep|Beskrivelse|  
 |----------|---------------------------------------|  

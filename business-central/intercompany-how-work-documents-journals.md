@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 30c8eac184987e82b9bfb158a61efdbbc559207a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 338c5dce8ae2011bb36ad126d4926635a86d3e95
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924056"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746394"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
 Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
@@ -57,4 +57,4 @@ De involverte postene bokføres i selskapet ditt, og en kladd med tilhørende po
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

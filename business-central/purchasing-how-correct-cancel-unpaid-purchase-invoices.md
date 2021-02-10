@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6644b7df13c70143d239de68ec419bdd196bfe3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6568828a50e274de0ac6364a1df72cc48abd4956
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926925"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748721"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigere eller annullere ubetalte kjøpsfakturaer
 
@@ -57,4 +57,4 @@ Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den op
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

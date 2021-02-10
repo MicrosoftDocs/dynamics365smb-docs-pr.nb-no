@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8f4bd2978652366ecd18109377f4ebeeebfbb4a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b45c9095674b6bb633717f3985557ef7e6a681b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745919"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Klargjøre for å flytte kundedata med maler
 
@@ -28,7 +28,7 @@ Du oppretter vanligvis datamaler for følgende hoveddatatabeller:
 - **Vare**  
 - **Leverandør**  
 
-Du kan imidlertid opprette en malstruktur og bruke den på en hvilken som helst tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan imidlertid opprette en malstruktur og bruke den på en hvilken som helst tabell i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > Du kan også bruke datamaler for daglige operasjoner for å opprette nye poster som er basert på maler. Disse datamalene fungerer bare for de støttede hoveddatatabellene. Hvis du vil ha mer informasjon, kan du for eksempel se [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -87,7 +87,7 @@ Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i 
 3. Angi en aktuell verdi i **Standardverdi**-feltet. I noen tilfeller vil du kanskje bruke en verdi som ikke finnes i databasen. I dette tilfellet kan du merke av for **Hopp over relasjonskontroll**, slik at du kan bruke data uten å få feil.
 
     > [!TIP]  
-    > Siden **Standardverdi**-feltet ikke har et oppslag for tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltalternativer, kopierer du verdien du vil bruke fra den tilknyttede siden og limer den inn i malen.
+    > Siden **Standardverdi**-feltet ikke har et oppslag for tilsvarende [!INCLUDE[prod_short](includes/prod_short.md)]-feltalternativer, kopierer du verdien du vil bruke fra den tilknyttede siden og limer den inn i malen.
 
 4. Merk av for **Obligatorisk** hvis brukere må fylle ut det aktuelle feltet.
 
@@ -98,7 +98,7 @@ Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i 
 
 ## <a name="to-export-to-a-template-in-excel"></a>Slik eksporterer du til en mal i Excel:
 
-Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Legg til en tabell i listen, eller velg en eksisterende tabell. Hvis du vil ha mer informasjon, se [Behandle selskapskonfigurasjon i et forslag](admin-how-to-manage-company-configuration-in-a-worksheet.md).
@@ -122,7 +122,7 @@ Når du bruker data fra en Excel-mal i en tabell som også har en tilknyttet kon
 Enhver post der dataene er brukt på denne måten, er fullført fordi den består av data som er angitt av en bruker i Excel, i tillegg til standardverdiene som er angitt av konfigurasjonsmalen.
 
 > [!NOTE]
-> Hvis dataene i tabellene i konfigurasjonspakken inneholder datoer, for eksempel bokføringsdatoer på fakturaer, tas datoene med i tidssonen som er angitt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Hvis dataene i tabellene i konfigurasjonspakken inneholder datoer, for eksempel bokføringsdatoer på fakturaer, tas datoene med i tidssonen som er angitt i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Slik oppretter du en post fra en konfigurasjonsmal:
 
@@ -140,7 +140,7 @@ Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du 
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Slik bruker du en konfigurasjonsmal på en post:
 
-Du kan bruke en datamal for en hvilken som helst post i [!INCLUDE[d365fin](includes/d365fin_md.md)] og bruke denne teknikken til å endre eller modifisere en post. Når du gjør dette, skriver du imidlertid over eksisterende verdier i posten med de som er i malen. Du bør derfor være forsiktig når du bruker en mal i eksisterende poster.
+Du kan bruke en datamal for en hvilken som helst post i [!INCLUDE[prod_short](includes/prod_short.md)] og bruke denne teknikken til å endre eller modifisere en post. Når du gjør dette, skriver du imidlertid over eksisterende verdier i posten med de som er i malen. Du bør derfor være forsiktig når du bruker en mal i eksisterende poster.
 
 > [!WARNING]  
 > **Bruk mal**-funksjonen overskriver eksisterende data i en post. Hvis denne funksjonen brukes i flytting av hoveddata, overskriver den de importerte dataene når du oppretter poster.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4137064ddb61039a2f748076c415b595e9750bc9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2b4d785697d12f00e6a2621d914d696e444faab5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914292"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750608"
 ---
 # <a name="accounting-for-costs"></a>Gjøre rede for kostnader
 Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.  
@@ -35,4 +35,4 @@ Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et 
 ## <a name="see-also"></a>Se også  
 [Finans](finance.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

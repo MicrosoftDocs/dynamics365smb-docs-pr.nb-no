@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 104049b15cb379e65f84b9d1280ee52c4b2215f0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3dc4baf66b2ad01cece291f633698ec524d2c000
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926375"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748496"
 ---
 # <a name="managing-receivables"></a>Håndtere fordringer
 
@@ -23,7 +23,7 @@ Et vanlig trinn i en hvilken som helst finansielle rytmen er å avstemme bankkon
 
 Selv om de fleste kundene i B2B-miljøer betaler en stund etter levering, slik at de bokførte salgsfakturaene er åpne og kan lukkes av regnskapsavdelingen når betalingen mottas, kan noen salgsfakturaer betales umiddelbart, for eksempel med PayPal. Slike fakturaer utlignes umiddelbart som betalt når de bokføres, og vises derfor ikke som betalinger som skal behandles i kortsiktige fordringer. Hvis du vil ha mer informasjon, kan du for eksempel se [Fakturere salg](sales-how-invoice-sales.md).  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] er en av de raskeste måtene å registrere betalinger på fra siden **Betalingsavstemmingskladd** ved å importere en bankkontoutdragsfil eller feed. Betalingene brukes til å åpne kunde- eller leverandørpostoppføringer basert på datasammenligninger mellom betalingstekst og oppføringsinformasjon. Du kan se gjennom og endre treff før du bokfører kladden, og lukk bankkontoposter for postene når du bokfører kladden. Bankkontoen avstemmes når alle betalinger er utlignet.
+I [!INCLUDE[prod_short](includes/prod_short.md)] er en av de raskeste måtene å registrere betalinger på fra siden **Betalingsavstemmingskladd** ved å importere en bankkontoutdragsfil eller feed. Betalingene brukes til å åpne kunde- eller leverandørpostoppføringer basert på datasammenligninger mellom betalingstekst og oppføringsinformasjon. Du kan se gjennom og endre treff før du bokfører kladden, og lukk bankkontoposter for postene når du bokfører kladden. Bankkontoen avstemmes når alle betalinger er utlignet.
 
 Det finnes andre sider der du kan utligne betalinger eller avstemme bankkonti:
 
@@ -45,7 +45,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Minne kundene om forfalte beløp, beregne rente og rentenotaer, og håndtere kortsiktige fordringer. |[Innkreve utestående saldi](receivables-collect-outstanding-balances.md) |
 |Med kundens samtykke kan du kreve inn betaling direkte fra kundens bankkonto bare i euro.|[Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)|
 |Sperr en kunde fra å bli registrert i dokumenter eller fra bokføring, for eksempel på grunn av insolvens.|[Sperre kunder](receivables-how-block-customers.md)|
-|Sikre at du vet hva leverte varer koster, ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg etter salg.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forutse når betalinger foretas sent for salgsdokumenter. | [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md) |
 
@@ -54,7 +53,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

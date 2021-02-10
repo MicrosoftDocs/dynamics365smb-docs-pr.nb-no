@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b529e838e94128ceb9951c59e4b31baaf483b795
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6245da565cbded0cc4b6b06129cca50927d85316
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919811"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752459"
 ---
 # <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
 
 - Søke etter fakturaer som er forfalt, basert på ulike kriterier.  
 - Sende betalinger til banken.  
@@ -37,8 +37,8 @@ Elektroniske betalinger behandles på følgende måte:
 
 1.  Betalingsforslaget kjøres i den elektroniske betalingsfunksjonen og overføres til banken ved hjelp av bankens programvare.  
 2.  Bankens programvare mottar betalingene og overfører dem til banken.  
-3.  Banken mottar betalingene og sender den første mottaksreturen til [!INCLUDE[d365fin](../../includes/d365fin_md.md)] via bankens programvare.  
-4.  Banken utfører betalingene og sender avregningsreturen (andre mottaksretur) til [!INCLUDE[d365fin](../../includes/d365fin_md.md)] via bankens programvare, hvor betalingene bokføres.  
+3.  Banken mottar betalingene og sender den første mottaksreturen til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare.  
+4.  Banken utfører betalingene og sender avregningsreturen (andre mottaksretur) til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare, hvor betalingene bokføres.  
 
 ## <a name="vendor-payment-requirements"></a>Krav til leverandørbetalinger  
 Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du kan ikke opprette en betalingsfil for overføringer til banken. Følgende kriterier må oppfylles ved når du behandler betalinger til leverandører:  

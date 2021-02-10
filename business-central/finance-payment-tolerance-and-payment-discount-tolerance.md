@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 823403fc34ad57cb170fc39bd9533b53c4008950
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 50e37e54d840c82cbcbfc92ab8f5fc009642a6b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910883"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750533"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
@@ -58,14 +58,14 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 11. På siden **Endre betalingstoleranse** fyller du ut feltene **Betalingstoleransepst.** og **Maks. betalingstoleransebeløp**, og deretter velger du **OK**-knappen.
 
 > [!IMPORTANT]  
->  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
+>  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
 
 > [!NOTE]  
 >  Hvis du vil motta en betalingstoleranseadvarsel hver gang du bokfører en utligning innenfor toleransen, må du aktivere betalingstoleranseadvarselen. Hvis du vil ha mer informasjon, kan du se delen [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Hvis du vil deaktivere toleranse for en kunde eller en leverandør, må du sperre for toleranser på det aktuelle kunde- eller leverandørkortet. Hvis du vil ha mer informasjon, kan du se delen [Slik sperrer du for betalingstoleranse for kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Når du definerer toleranse, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
+>  Når du definerer toleranse, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
@@ -208,7 +208,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 1](media/multiplePmtTolRules(Pre1503).gif "Regler for flere betalingstoleranser 1")  
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Regler for flere betalingstoleranser 1a":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -219,7 +219,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstoleranser 2")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Regler for flere betalingstoleranser 2":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -230,7 +230,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstoleranser 3")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Regler for flere betalingstoleranser 3":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -241,7 +241,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regler for flere betalingstoleranser 4")  
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Regler for flere betalingstoleranser 4":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -252,7 +252,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 5](media/multiplePmtTolRules(Post0122).gif "Regler for flere betalingstoleranser 5")  
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Regler for flere betalingstoleranser 5":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -262,4 +262,4 @@ Vanlige utligningsregler
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

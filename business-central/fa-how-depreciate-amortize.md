@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8686b0d7f739b292f733239b7348428dbed56be3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3eb4cffd4e67c4cd375619ec8b36e17e6ee527b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920750"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749446"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
 Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
@@ -25,7 +25,7 @@ Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utst
 * Automatisk, ved å utføre kjørselen **Beregn avskrivning**.  
 * Manuelt, ved hjelp av aktivafinanskladden.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan beregne daglig avskrivning slik at du kan beregne avskrivninger for en hvilken som helst periode. Du kan derfor analysere gjeldende operasjonsresultater på for eksempel månedlig, kvartalsvis eller årlig basis. Beregningen bruker et standardår på 360 dager og en standardmåned på 30 dager. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] kan beregne daglig avskrivning slik at du kan beregne avskrivninger for en hvilken som helst periode. Du kan derfor analysere gjeldende operasjonsresultater på for eksempel månedlig, kvartalsvis eller årlig basis. Beregningen bruker et standardår på 360 dager og en standardmåned på 30 dager. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md).  
 
 Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.  
 
@@ -111,4 +111,4 @@ De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden,
 [Aktiva](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

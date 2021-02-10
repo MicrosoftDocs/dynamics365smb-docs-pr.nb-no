@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 510958f185f748f1c8d122d2f199e164b7e45fba
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921870"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746094"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
 Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet på siden **Varesporingslinjer**, som du kan åpne fra et inngående eller utgående dokument.
@@ -36,7 +36,7 @@ I enkle prosesser har lagervarene allerede serie- eller partinumre, for eksempel
 Bestemte serie- eller partinumre er definert i kildedokumentet, for eksempel en ordre, som lagermedarbeideren må respektere under utgående lagerhåndtering i spesielle situasjoner for serie - eller partinummererte varer. Dette kan skyldes at kunden har bedt om et bestemt parti under bestillingsprosessen. Når lagerplukk- eller plukkdokumentet opprettes fra et utgående kildedokument der serie- eller partinumre allerede er definert, vil alle felt på siden **Varesporingslinjer** låses for skriving under lagerplukkingen, bortsett fra feltet **Ant. som skal håndt**. I så fall angir lagerplukklinjene varesporingsnumrene på individuelle hentings- og plasseringslinjer. Antallet er allerede delt inn i unike serie- eller partinummerkombinasjoner, fordi ordren spesifiserer varesporingsnumrene som skal leveres.  
 
 ## <a name="item-tracking-availability"></a>Varesporingstilgjengelighet
-Når du arbeider med serie- og partinumre, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] tilgjengelighetsinformasjon for parti- og serienumre og viser den på de ulike varesporingssidene. Dette viser hvor mye av et parti- eller serienummer som for tiden brukes på andre dokumenter. Dette reduserer antall feil og usikkerhet forårsaket av doble tildelinger.
+Når du arbeider med serie- og partinumre, beregner [!INCLUDE[prod_short](includes/prod_short.md)] tilgjengelighetsinformasjon for parti- og serienumre og viser den på de ulike varesporingssidene. Dette viser hvor mye av et parti- eller serienummer som for tiden brukes på andre dokumenter. Dette reduserer antall feil og usikkerhet forårsaket av doble tildelinger.
 
 På siden **Varesporingslinjer** vises et advarselsikon i feltet **Tilgjengelighet, Partinr.** eller **Tilgjengelighet, Serienr.** hvis noe av eller hele antallet du har valgt allerede brukes i andre dokumenter, eller hvis parti- eller serienummeret ikke er tilgjengelig.
 
@@ -88,28 +88,6 @@ Du ønsker kanskje å opprette bestemte garantier for enkelte varer i varesporin
     |---------------------------------|---------------------------------------|  
     |**Garantidatoformel**|Angir den siste garantidagen for varen.|  
     |**Manuelt angitt garantidato obl.**|Angir at du må angi en garantidato på varesporingslinjen manuelt.|  
-
-## <a name="to-record-serial-or-lot-number-information"></a>Slik registrerer du opplysninger om serie-/partinumre  
-Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnummer, for eksempel av kvalitetshensyn, kan du gjøre dette på kortet med serie- eller partinummeropplysninger.
-
-1. Åpne et dokument som har serie- eller partinumre tilordnet.
-2. Åpne siden **Varesporingslinjer** for dokumentet.
-3. Velg for eksempel handlingen **Informasjonskort for serienr.**  
-
-    **Serienr.**- og **Partinr.**-feltet blir forhåndsutfylt fra varesporingslinjen.  
-4. Skriv inn litt informasjon i **Beskrivelse**-feltet, for eksempel om tilstanden til varen.  
-5. Velg **Kommentar** for å opprette en egen kommentarpost.  
-6. Merk av for **Sperret** for å utelate serie- eller partinummeret fra alle transaksjoner.  
-
-## <a name="to-modify-existing-serial-or-lot-number-information"></a>Slik endrer du eksisterende informasjon om serie- eller partinumre  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
-2. Velg en vare som har en varesporingskode, og som har informasjon om serie- eller partinumre.
-3. Fra **Varekort**-siden velger du **Poster** og deretter **Poster**.
-4. Velg feltet **Partinr.** eller **Serienr.** Hvis det finnes informasjon for dette varesporingsnummeret, åpnes siden **Informasjonsoversikt for partinummer** eller **Informasjonsoversikt for serienummer**.  
-5. Velg et kort, og velg deretter **Informasjonskort for partinr. eller Informasjonskort for serienr.**  
-6. Endre teksten for kort beskrivelse, merknadsposten eller **Sperret**-feltet.  
-
-Du kan ikke endre serie- eller partinumre eller antall. Du må reklassifisere den aktuelle vareposten for å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Reklassifisere parti- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
 ## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Slik tilordner du serie- eller partinumre ved en inngående transaksjon  
 For selskaper som vil holde styr på varene allerede fra begynnelsen, er bestillingen ofte det sentrale dokumentet. I dette tilfellet er ofte bestillingsordren det sentrale dokumentet, men varesporing kan imidlertid håndteres fra et hvilket som helst inngående dokument, og bokførte poster kan vises i de tilhørende varepostene.  
@@ -236,6 +214,34 @@ I disse tilfellene kopieres de eksisterende varesporingslinjene automatisk til f
 
 Innholdet i feltene **Serienr.** og **Partinr.** kan ikke redigeres. Du kan imidlertid slette hele linjer eller endre antallene slik at de samsvarer med endringer gjort på kildelinjen.  
 
+## <a name="to-record-serial-or-lot-number-information"></a>Slik registrerer du opplysninger om serie-/partinumre  
+Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnummer, for eksempel av kvalitetshensyn, kan du gjøre dette på kortet med serie- eller partinummeropplysninger.
+
+1. Åpne et dokument som har serie- eller partinumre tilordnet.
+2. Åpne siden **Varesporingslinjer** for dokumentet.
+3. Velg for eksempel handlingen **Informasjonskort for serienr.**  
+
+    **Serienr.**- og **Partinr.**-feltet blir forhåndsutfylt fra varesporingslinjen.  
+4. Skriv inn litt informasjon i **Beskrivelse**-feltet, for eksempel om tilstanden til varen.  
+5. Velg **Kommentar** for å opprette en egen kommentarpost.  
+6. Merk av for **Sperret** for å utelate serie- eller partinummeret fra alle transaksjoner.  
+
+Hvis du oppretter serienumre i bulk ved hjelp av handlingene **Opprett egendefinert s.nr.** eller **Tilordne serienr.**, kan du aktivere **Opprett SN-informasjon**, så opprettes det et informasjonskort for hver sporingslinje.
+
+Du kan eventuelt opprette et informasjonskort når du bokfører kladder eller dokumenter ved å aktivere **Opprett SN-informasjon ved bokføring** eller **Opprett SN-informasjon ved bokføring** på siden **Varesporingskode**. 
+
+Du kan endre opprettede seriekort eller partiinformasjonskort senere.
+
+## <a name="to-modify-existing-serial-or-lot-number-information"></a>Slik endrer du eksisterende informasjon om serie- eller partinumre  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+2. Velg en vare som har en varesporingskode, og som har informasjon om serie- eller partinumre.
+3. Fra **Varekort**-siden velger du **Poster** og deretter **Poster**.
+4. Velg feltet **Partinr.** eller **Serienr.** Hvis det finnes informasjon for dette varesporingsnummeret, åpnes siden **Informasjonsoversikt for partinummer** eller **Informasjonsoversikt for serienummer**.  
+5. Velg et kort, og velg deretter **Informasjonskort for partinr. eller Informasjonskort for serienr.**  
+6. Endre teksten for kort beskrivelse, merknadsposten eller **Sperret**-feltet.  
+
+Du kan ikke endre serie- eller partinumre eller antall. Du må reklassifisere den aktuelle vareposten for å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Reklassifisere parti- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
+
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Slik reklassifiserer du serie- eller partinumre  
 Å reklassifisere varesporing for en vare betyr å endre et parti- eller serienummer til et nytt parti- eller serienummer eller endre utløpsdatoen til en ny utløpsdato. Hvis du arbeider med partier, kan du også slå sammen flere partier til ett. Du utfører disse oppgavene ved å bruke varereklassifiseringskladden.
 
@@ -268,4 +274,4 @@ Innholdet i feltene **Serienr.** og **Partinr.** kan ikke redigeres. Du kan imid
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

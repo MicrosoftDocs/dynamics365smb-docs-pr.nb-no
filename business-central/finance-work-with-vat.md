@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 5b24fe2373e8f6fd71008a5d155e985d2aaa460f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924081"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746619"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
-Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[d365fin](includes/d365fin_md.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
+Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 
 Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.
 
@@ -26,7 +26,7 @@ Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For 
 Du kan beregne og vise mva-beløp i salgs- og kjøpsdokumenter på forskjellig måte, avhengig av hvilken type kunde eller leverandør du handler med. Du kan også overstyre det beregnede mva-beløpet, slik at det tilsvarer med mva-beløpet leverandøren har beregnet for en gitt transaksjon.  
 
 ### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Salgspris og linjebeløp med/uten mva på salgsdokumenter  
-Når du velger et varenummer i **Nr.**- feltet i et salgsdokument, blir også **Salgspris**-feltet fylt ut i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Salgsprisen kommer fra **varekortet** eller fra salgsprisene som er tillatt for varen og kunden. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner **linjebeløpet** bare når du angir en mengde for linjen.  
+Når du velger et varenummer i **Nr.**- feltet i et salgsdokument, blir også **Salgspris**-feltet fylt ut i [!INCLUDE[prod_short](includes/prod_short.md)]. Salgsprisen kommer fra **varekortet** eller fra salgsprisene som er tillatt for varen og kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beregner **linjebeløpet** bare når du angir en mengde for linjen.  
 
 Hvis du selger til detaljistkunder, vil du kanskje at priser på salgsdokumenter skal inkludere mva. Dette gjør du ved å merke av for **Priser inkl. mva.** for dokumentet.  
 
@@ -69,7 +69,7 @@ Nedenfor ser du hvordan du aktiverer manuelle mva-endringer på salgsdokumenter.
 > Det totale mva-beløpet for fakturaen, gruppert etter mva-type, vises på linjene. Du kan justere beløpet manuelt i **Mva-beløp**-feltet på linjene for hver mva-type. Når du endrer **Mva-beløp**-feltet, kontrolleres det at du ikke har endret mva med mer enn beløpet du har angitt som tillatt maksimumsdifferanse. Hvis beløpet er utenfor området for **Maks. tillatte mva-differanse**, vises det en advarsel som angir den maksimale differansen som er tillatt. Du kan ikke fortsette før beløpet er justert innenfor de godkjente parametrene. Klikk **OK** og angi et annet **mva-beløp** som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimum, deles mva proporsjonelt mellom dokumentlinjene som har samme mva-type.  
 
 ## <a name="calculating-vat-manually-using-journals"></a>Beregne mva manuelt ved hjelp av kladder  
-Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder. Dette kan for eksempel være nødvendig når du angir en leverandørfaktura i kladden og det er en differanse mellom mva-beløpet som er beregnet i [!INCLUDE[d365fin](includes/d365fin_md.md)], og mva-beløpet på leverandørfakturaen du har mottatt.  
+Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder. Dette kan for eksempel være nødvendig når du angir en leverandørfaktura i kladden og det er en differanse mellom mva-beløpet som er beregnet i [!INCLUDE[prod_short](includes/prod_short.md)], og mva-beløpet på leverandørfakturaen du har mottatt.  
 
 ### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Slik konfigurerer du systemet for manuell mva-post i en finanskladd.
 Du må utføre følgende trinn før du angir mva manuelt i en finanskladd.  
@@ -82,10 +82,10 @@ Du må utføre følgende trinn før du angir mva manuelt i en salgs- eller kjøp
 
 1. På siden **Kjøpsoppsett** merker du av for **Tillat mva-differanse**.  
 2. Gjenta trinn 1 for siden **Salgsoppsett**.
-3. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
+3. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
 
     > [!NOTE]  
-    > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] differansen i feltet **Mva-differanse**.  
+    > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[prod_short](includes/prod_short.md)] differansen i feltet **Mva-differanse**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Bokføre import-mva med kjøpsfakturaer
 I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruke en kjøpsfaktura.  
@@ -95,7 +95,7 @@ I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruk
 2. Opprett en **Bokføringsgruppe - vare** for import-mva, og definer en **Std. mva-bokf.gruppe - vare** for import-mva for den tilknyttede **Bokføringsgruppe - vare**.  
 3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 4. Velg finanskontoen for import-mva, og velg deretter **Rediger**-handlingen.  
-5. På hurtigfanen **Bokføring** velger du oppsettet **Bokføringsgruppe \- vare** for import-mva . [!INCLUDE[d365fin](includes/d365fin_md.md)] fyller automatisk i feltet **Mva\-bokføringsgruppe \- vare**.  
+5. På hurtigfanen **Bokføring** velger du oppsettet **Bokføringsgruppe \- vare** for import-mva . [!INCLUDE[prod_short](includes/prod_short.md)] fyller automatisk i feltet **Mva\-bokføringsgruppe \- vare**.  
 6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 7. Opprett en kombinasjon av **Bokføringsgruppe - firma** for mva-myndighetene og **Bokføringsgruppe - vare** for import-mva.. For denne nye kombinasjonen velger du finanskontoen for import-mva i **Innkjøpskonto**-feltet.  
 
@@ -139,7 +139,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
     >  Alternativt kan du skrive ut et sertifikat fra siden **Mottaksdeklarasjon**.  
 
 4. Hvis du vil inkludere informasjon fra linjene i leveringsdokumentet i bekreftelsen, kan du merke av for **Skriv ut linjedetaljer**.  
-5. Merk av for **Opprett mottaksdeklarasjoner hvis de ikke allerede er opprettet** hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal opprette bekreftelser for bokførte følgesedler som ikke har slike ved kjøring. Når du merker av for dette alternativet, opprettes nye bekreftelser for alle bokførte følgesedler som ikke har bekreftelser i det merkede området.  
+5. Merk av for **Opprett mottaksdeklarasjoner hvis de ikke allerede er opprettet** hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal opprette bekreftelser for bokførte følgesedler som ikke har slike ved kjøring. Når du merker av for dette alternativet, opprettes nye bekreftelser for alle bokførte følgesedler som ikke har bekreftelser i det merkede området.  
 6. Filterinnstillingene er som standard for følgeseddelen du har valgt. Fyll ut filterinformasjonen for å velge en bestemt leveringsbekreftelse du vil skrive ut.  
 7. Velg **Skriv ut** på siden **Mottaksdeklarasjon** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
@@ -155,7 +155,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 
    Hvis kunden har returnert den signerte leveringsbekreftelsen, velger du **Mottatt**. **Mottaksdato**-feltet er oppdatert. Gjeldende arbeidsdato er som standard angitt for mottaksdatoen.  
 
-   Du kan endre datoen for å gjenspeile datoen da du mottok kundens signerte leveringsbekreftelse. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-kobling.  
+   Du kan endre datoen for å gjenspeile datoen da du mottok kundens signerte leveringsbekreftelse. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[prod_short](includes/prod_short.md)]-kobling.  
 
    Hvis kunden ikke returnerer den signerte leveringsbekreftelsen, velger du **Ikke mottatt**. Du må deretter sende kunden en ny faktura som inkluderer mva., fordi den opprinnelige fakturaen ikke vil bli godtatt av skattemyndighetene.  
 
@@ -169,7 +169,7 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 
    Hvis kunden har returnert den signerte leveringsbekreftelsen, velger du **Mottatt**. **Mottaksdato**-feltet er oppdatert. Gjeldende arbeidsdato er som standard angitt for mottaksdatoen.  
 
-   Du kan endre datoen for å gjenspeile datoen da du mottok den signerte leveringsbekreftelsen. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-dokumentkobling.  
+   Du kan endre datoen for å gjenspeile datoen da du mottok den signerte leveringsbekreftelsen. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentkobling.  
 
     > [!NOTE]  
     >  Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-siden når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  

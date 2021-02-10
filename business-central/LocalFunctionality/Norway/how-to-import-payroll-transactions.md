@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7891bb33c9bae27c9be0179679fefed05bb618d8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e075c19aec2e03dff08564057bc9293d407025cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919779"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752453"
 ---
 # <a name="import-payroll-transactions-in-the-norwegian-version"></a>Importere lønnstransaksjoner i den norske versjonen
 
 Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske lønnslisteløsningene: Huldt & Lillevik Lønn - Visma. Deretter kan du bruke finanskladden til å bokføre de importerte lønnstransaksjonene i finanskladdekontoer eller bankkontoer. Du må opprette lønnsintegrasjon før du kan importere lønnstransaksjoner.  
 
 > [!NOTE]  
-> For å importere lønnstransaksjoner må [!INCLUDE[prodshort](../../includes/prodshort.md)] inneholde utvidelsen **Lønnsdatadefinisjoner (NO)**. Hvis du ikke er sikker på om du har denne utvidelsen, kontakt systemansvarlig.  
+> For å importere lønnstransaksjoner må [!INCLUDE[prod_short](../../includes/prod_short.md)] inneholde utvidelsen **Lønnsdatadefinisjoner (NO)**. Hvis du ikke er sikker på om du har denne utvidelsen, kontakt systemansvarlig.  
 
 ## <a name="to-import-payroll-transactions"></a>Slik importerer du lønnstransaksjoner  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 18fcc084b1ac15747fde64a2aa93e37591d7f95f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e15f8419c4b7fa10bcec0b672beb05d076d1bb3c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750572"
 ---
 # <a name="about-inventory-costing"></a>Om lagerkost
 Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.  
@@ -33,11 +33,11 @@ Administrering av lagerkost handler om å registrere og rapportere forretningsdr
 |Skille forventet kost (ikke fakturert ennå) fra faktisk kost og lære hvordan dette håndteres i Finans.|[Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)|  
 |Forstå mekanismen for kostjustering, som sikrer at kost videreføres selv om lagertransaksjoner skjer tilfeldig.|[Designdetaljer: Kostjustering](design-details-cost-adjustment.md)|  
 |Lese hvorfor standardkost ofte brukes som verdisettingsgrunnlag for komponenter og sluttvarer i produksjonsselskaper.|[Om beregning av standardkost](finance-about-calculating-standard-cost.md)|  
-|Forstå hvordan lagerverdien gjenspeiles i Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
+|Forstå hvordan lagerverdien gjenspeiles i Finans.|[Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Lære hvordan varegebyrer, for eksempel frakt og forsikring, kan tilordne tilleggskostkomponenter til en vares enhetskost.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|  
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismene i kostmotoren, inkludert hva som skjer når du bokfører transaksjoner for montering og produksjon.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

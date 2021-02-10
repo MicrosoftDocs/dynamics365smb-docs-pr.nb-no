@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f1cf5b1a865ea468e96f5b8e174ffeccfeb61022
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 16f8a37a22540caca2faa84005db16a9da59e098
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910937"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751183"
 ---
 # <a name="design-details-rounding"></a>Designdetaljer: Avrunding
 Avrundingsoverskudd kan oppstå når du verdsetter kostnaden for en lagerreduksjon som måles i et annet antall enn den tilsvarende lagerøkningen. Avrundingsoverskudd beregnes for alle lagermetoder når du starter kjørselen **Juster kostverdi - vareposter**.  
@@ -64,4 +64,4 @@ Avrundingsoverskudd kan oppstå når du verdsetter kostnaden for en lagerreduksj
  [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

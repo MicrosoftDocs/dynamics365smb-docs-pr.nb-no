@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 83bb0691baada420d8360736b613d1fbb33690e4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a9a44faea1f92159930124992c9c070880d0c9eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922070"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751308"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
 
@@ -37,7 +37,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Prosesser og dokumenter for brukergrensesnitt i utgående lagerflyter er forskjellige for grunnleggende og avanserte lagerkonfigurasjoner. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerkonfigurasjoner, og de konsolideres for flere ordrer i avanserte lagerkonfigurasjoner. Hvis du vil ha mer informasjon om ulike kompleksitetsnivåer for lageret, kan du se [Designdetaljer: Lageroversikt](design-details-warehouse-setup.md).  
 
- I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner, avhengig av kompleksitetsnivået til lageret.  
+ I [!INCLUDE[prod_short](includes/prod_short.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner, avhengig av kompleksitetsnivået til lageret.  
 
 |Prinsipp|Utgående prosess|Hyller|Plukking|Følgesedler|Kompleksitetsnivå (se [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  

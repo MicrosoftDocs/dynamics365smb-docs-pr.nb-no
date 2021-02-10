@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 74eb66c4303acb452972f9ac3c7dda008e3c6502
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6e4bf13885ccd7888e1750f4351741150df7b7df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923823"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746219"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -25,7 +25,7 @@ Varekort inneholder informasjonen som er nødvendig for å kjøpe, lagre, selge,
 
 Varekortet kan være av typen **Lager**, **Service** eller **Ikke-lagervarer** for å angi om varen er en fysisk lagerenhet, en arbeidstidsenhet eller en fysisk enhet som ikke spores i lagerbeholdningen. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykkliste være en monteringsstykkliste eller en produksjonsstykkliste, avhengig av bruken. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en stykkliste være en monteringsstykkliste eller en produksjonsstykkliste, avhengig av bruken. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
 
 Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varekortet. Leverandørene vises deretter på siden **Vare/leverandør-katalog**, slik at du enkelt kan velge en annen leverandør.
 
@@ -96,7 +96,7 @@ Hvis du har bokført en transaksjon for en vare, kan du ikke slette kortet, ford
 
 ## <a name="manage-inventory-in-warehouses"></a>Håndtere lager på lagre
 
-Når du registrerer en ny vare, vil du se felt som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prodshort](includes/prodshort.md)], kan du ignorere disse feltene.  
+Når du registrerer en ny vare, vil du se felt som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse feltene.  
 
 Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller gå tilbake til hver eksisterende vare for å være sikker på at den har de riktige opplysningene i de ulike feltene, slik at lagerprosessene kan kjøres som forventet. Denne informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
@@ -110,4 +110,4 @@ Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller
 [Definere bokføringsgrupper](finance-posting-groups.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

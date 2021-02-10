@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f294fdce544de36992c3b6793ee397dfc271a319
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 66f74554ee2619935b2b27ace6b4812602747139
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752703"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
 Hvis du vil konfigurere et nytt selskap i løsningsimplementeringen, følger du vanligvis tre faser. I den første fasen importerer du konfigurasjonspakken, som er en .rapidstart-fil med konfigurasjonsinformasjon. I den andre fasen endrer du konfigurasjonsinformasjonen og bruker den deretter på det nye selskapet. Du ser gjennom og retter eventuelle feil i siste fase.  
@@ -31,7 +31,7 @@ Før du importerer en konfigurasjonspakke, er det lurt å kontrollere at følgen
 * Brukeren som importerer konfigurasjonspakken, har gjeldende tillatelser for Sett inn og Endre for alle tabellene som pakken vil oppdatere. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). 
 
 ## <a name="to-import-a-configuration-package"></a>Slik importerer du en konfigurasjonspakke:  
-1. Åpne det nye selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
+1. Åpne det nye selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**.  
 4. Naviger til plasseringen hvor du har lagret pakkefilen for .rapidstart-konfigurasjonen, og velg deretter **Åpne**.  

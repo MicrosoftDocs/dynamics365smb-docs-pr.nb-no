@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 20dd616b52c1d6752d8aeeeb7c95e9d4f814b9a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 51f60e938ddb8ffd53b37b5664cf6e1ba8ba396f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751783"
 ---
 # <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostjustering
 
@@ -38,7 +38,7 @@ Lagerkostnader må justeres før de tilknyttede verdipostene kan avstemmes med F
 
 Oppgaven med å finne ut om kostjustering skal skje, utføres hovedsakelig av rutinen Varekladd – bokfør linje, mens oppgaven med å beregne og generere kostjusteringspostene utføres av kjørselen **Juster kostverdi – vareposter**.  
 
-For å kunne videresende kostnader fastslår gjenkjenningsmekanismen hvilke kilder som har endrede kostnader, og hvilket mål disse kostnadene skal videresendes til. Følgende tre gjenkjenningsfunksjoner finnes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+For å kunne videresende kostnader fastslår gjenkjenningsmekanismen hvilke kilder som har endrede kostnader, og hvilket mål disse kostnadene skal videresendes til. Følgende tre gjenkjenningsfunksjoner finnes i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 * Vareutligningspost  
 * Inngangspunkt for gjennomsnittlig kostjustering  
@@ -82,7 +82,7 @@ Det er lurt å kjøre kostjusteringen automatisk når du bokfører, fordi enhets
 
 Siden det er viktig å holde enhetskost for en vare oppdatert, anbefales det at du kjører den satsvise jobben **Juster kostverdi - vareposter** så ofte som mulig utenfor arbeidstiden. Du kan også bruke automatisk kostjustering. Dette sikrer at enhetskosten oppdateres daglig for varer.  
 
-Uavhengig av om du kjører kostjusteringen manuelt eller automatisk, er justeringsprosessen og konsekvensen den samme. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner verdien av den inngående transaksjonen og videresender denne kostnaden til en hvilken som helst utgående transaksjoner, for eksempel salg eller forbruk, som er brukt på den inngående transaksjonen. Kostjusteringen oppretter verdiposter som inneholder justeringsbeløp og beløp som kompenserer for avrunding.  
+Uavhengig av om du kjører kostjusteringen manuelt eller automatisk, er justeringsprosessen og konsekvensen den samme. [!INCLUDE[prod_short](includes/prod_short.md)] beregner verdien av den inngående transaksjonen og videresender denne kostnaden til en hvilken som helst utgående transaksjoner, for eksempel salg eller forbruk, som er brukt på den inngående transaksjonen. Kostjusteringen oppretter verdiposter som inneholder justeringsbeløp og beløp som kompenserer for avrunding.  
 
 De nye verdipostene for justering og avrunding har bokføringsdatoen til den tilknyttede fakturaen. Unntak er hvis verdipostene faller i en lukket regnskapsperiode eller lagerperiode, eller hvis bokføringsdatoen er tidligere enn datoen i feltet **Bokf. tillatt fra** på siden **Finansoppsett**. Hvis dette skjer, tilordner den satsvise jobben bokføringsdatoen som den første datoen i den neste åpne perioden.  
 
@@ -188,4 +188,4 @@ Hvis du har angitt at automatisk kostjustering skal gjelde for bokføringer som 
 [Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

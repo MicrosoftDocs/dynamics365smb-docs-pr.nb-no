@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 5782a49732550d6f8ffc516634a4b45ec7e22e6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5fe1054825058c30e0a26e11e258804e7256bfcb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923573"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749833"
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
 Du oppretter segmenter for å velge en gruppe med kontakter i henhold til bestemte kriterier. Et segment kan for eksempel være bransjen der kontaktene hører til, eller forretningsforholdet ditt med kontaktene. Du kan opprette et segment for å velge kontaktene du vil rette deg inn mot med en kampanje.
@@ -38,4 +38,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

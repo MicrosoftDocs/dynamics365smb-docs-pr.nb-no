@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dee2521faf6d76ffb36a426361b7f326073770cf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cde6af59068954f8404b18fbce5e4c388d3c7a2c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917254"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749321"
 ---
 # <a name="revalue-fixed-assets"></a>Revaluere aktiva
 Revaluering av aktiva kan bestå av oppskrivinger, nedskrivninger eller generelle verdijusteringer.
@@ -121,4 +121,4 @@ Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivaet gl
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

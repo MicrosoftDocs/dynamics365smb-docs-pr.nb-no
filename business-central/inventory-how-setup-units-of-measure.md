@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e6a9465f13e272d653ec9a0544618b243928af03
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b10d8e8c8dd6142a4b9ed2c9604fd4e9c7e9c74
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923723"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746269"
 ---
 # <a name="set-up-units-of-measure"></a>Definere enheter
 
-Som en del av å definere [!INCLUDE [prodshort](includes/prodshort.md)] kan du definere generelle enheter på **Enheter**-siden. Når du deretter registrerer nye varer, angir du lagerenheten på **varekortet**. Du kan også legge til enheter senere.  
+Som en del av å definere [!INCLUDE [prod_short](includes/prod_short.md)] kan du definere generelle enheter på **Enheter**-siden. Når du deretter registrerer nye varer, angir du lagerenheten på **varekortet**. Du kan også legge til enheter senere.  
 
 Du kan definere flere enheter for en vare slik at du kan tilordne enheter til varen for følgende formål:
 
@@ -50,9 +50,9 @@ Når du registrerer en ny vare, kan du velge lagerenheten fra oversikten over en
 5. Velg handlingen **Ny**. Det settes inn en ny, tom linje.
 6. I feltet **Kode** angir du navnet på enheten. Du kan også velge feltet for å velge fra enhetskodene som finnes i databasen.
 7. I feltet **Antall per enhet** angir du hvor mange enheter av lagerenheten den nye enheten inneholder.
-8. I **Høyde**-, **Bredde**-, **Lengde**- og **Vekt**-feltene kan du også angi eksakte opplysninger om vareenheten, slik at [!INCLUDE [prodshort](includes/prodshort.md)] kan beregne hvor mange av hver vareenhet som kan plasseres på en bestemt hylle. **Kubikkinnhold**-feltet beregnes automatisk basert på **høyde**, **bredde** og **lengde**.
+8. I **Høyde**-, **Bredde**-, **Lengde**- og **Vekt**-feltene kan du også angi eksakte opplysninger om vareenheten, slik at [!INCLUDE [prod_short](includes/prod_short.md)] kan beregne hvor mange av hver vareenhet som kan plasseres på en bestemt hylle. **Kubikkinnhold**-feltet beregnes automatisk basert på **høyde**, **bredde** og **lengde**.
 
-    Hvis noen av disse feltene inneholder en annen verdi enn 0, brukes dette målet i alle prosesser som omfatter plassering av varer på en hylle: plasseringer, flyttinger, mottak, leveringer, plukkinger og justeringer. [!INCLUDE [prodshort](includes/prodshort.md)] kontrollerer summen av hver fysiske enhet til varene som plasseres og de varene som allerede finnes på hyllen, opp mot maksimal størrelse eller andre mål som får plass på en hylle i henhold til det hyllekapasitetsprinsippet som du valgte på lokasjonskortet for varen. Du må med andre ord bruke samme enhet for hver dimensjon på tvers av alle vareenheter – bruk for eksempel kilo eller pund for vekt, men være konsekvent.
+    Hvis noen av disse feltene inneholder en annen verdi enn 0, brukes dette målet i alle prosesser som omfatter plassering av varer på en hylle: plasseringer, flyttinger, mottak, leveringer, plukkinger og justeringer. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerer summen av hver fysiske enhet til varene som plasseres og de varene som allerede finnes på hyllen, opp mot maksimal størrelse eller andre mål som får plass på en hylle i henhold til det hyllekapasitetsprinsippet som du valgte på lokasjonskortet for varen. Du må med andre ord bruke samme enhet for hver dimensjon på tvers av alle vareenheter – bruk for eksempel kilo eller pund for vekt, men være konsekvent.
 9. Gjenta trinn 5 til 7 for å definere alle alternative enheter som du vil bruke i ulike prosesser for denne varen.
 
     I **Lagerenhet**-feltet nederst i vinduet, kan du vise eller endre varens lagerenhet. Du kan også endre lagerenheten i **Lagerenhet**-feltet på varekortet. På **Enheter**-siden må lagerenheter ha verdien **1** i feltet **Antall per enhet**.
@@ -86,4 +86,4 @@ Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

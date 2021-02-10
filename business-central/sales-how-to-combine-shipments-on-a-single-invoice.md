@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 19b6cb69d33d76d4263ad75a666eba14deaeeae8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 757f7cd38a6325df0e8dc0d283d58c42a8ab823e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748271"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
@@ -36,7 +36,7 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
 7. Velg handlingen **Bokfør** for å bokføre fakturaen.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] velger bare ordrer der **Opprett samlefaktura** er valgt. 
+[!INCLUDE[prod_short](includes/prod_short.md)] velger bare ordrer der **Opprett samlefaktura** er valgt. 
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett samlefaktura**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,4 +61,4 @@ Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel ordr
 
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

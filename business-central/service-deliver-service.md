@@ -12,21 +12,21 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bf4a825c8d035b4dab6f6e8b8fc3472eb48ddf6d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910383"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748058"
 ---
 # <a name="delivering-service"></a>Yte service
-Med funksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
+Med funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
   
 En annen måte å gjennomgå ventende serviceordrer på er å bruke siden **Serviceoppgaver**. I denne visningen av serviceforpliktelsene dine ser du hvor i servicearbeidsflyten en ordre befinner seg, og du kan endre statusen for ordren for å gjenspeile kommunikasjon med kunden.  
   
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
 
-Et serviceprogram må fungere som et grensesnitt for serviceforespørsler fra kunder. Serviceforespørselen blir vanligvis konvertert til en serviceordre. [!INCLUDE[d365fin](includes/d365fin_md.md)] har verktøyene du trenger for å opprette en ordre både direkte som svar på kundeforespørselen eller som en del av kontraktsprosessen, hvis det er slik programmet er satt opp.  
+Et serviceprogram må fungere som et grensesnitt for serviceforespørsler fra kunder. Serviceforespørselen blir vanligvis konvertert til en serviceordre. [!INCLUDE[prod_short](includes/prod_short.md)] har verktøyene du trenger for å opprette en ordre både direkte som svar på kundeforespørselen eller som en del av kontraktsprosessen, hvis det er slik programmet er satt opp.  
   
 Ved behov kan du håndtere et program for utlånsobjekter for kundene. Du kan også fastsette prissettingsstrukturen, plassere serviceprissettingstilbud i logiske grupper og opprette prisjusteringer.  
   

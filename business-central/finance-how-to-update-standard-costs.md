@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8343a4169c127abdcee18a0a2e15cbc5f6b2b7c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: faa5b0f7ffc30d0f575f9b6e61d925f9606b4581
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924106"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750658"
 ---
 # <a name="update-standard-costs"></a>Oppdatere standardkost
 Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de nye kostnadene til den overordnede varen. Prosessen består vanligvis av følgende fire trinn:  
@@ -46,4 +46,4 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
  [Om beregning av standardkost](finance-about-calculating-standard-cost.md)   
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

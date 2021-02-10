@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aff406ac56ec625fdc8f8674b84b3f14acce7d36
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 13b661ec98b39accd510c8c1decd4a5423199f11
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919799"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752479"
 ---
 # <a name="cancel-payments"></a>Annullere betalinger
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
 
 - Et betalingsoppdrag kan annulleres hvis banken ikke mottar betalingen, og det må utføres en ny remittering. Du kan også annullere et oppdrag hvis du ikke vil overføre betalingene til banken, for eksempel hvis åpne oppdrag er feil. Bare åpne betalingsoppdrag kan avbrytes.  
 

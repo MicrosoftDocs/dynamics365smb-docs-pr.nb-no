@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0442a935442890d0edaec4fa803e887da47477f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8b548d6d8426fefa01bb45d3d1fdedaeb98966ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920550"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746894"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.
 
-Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[d365fin](includes/d365fin_md.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster.
+Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster.
 
 > [!Warning]
 > Funksjonen for tilleggsrapporteringsvaluta må ikke brukes som grunnlag for oversettelse av årsregnskap. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta kan bare brukes til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
@@ -59,7 +59,7 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 |**Konto for restdisagio**|Finanskontoen der du vil bokføre restbeløp som er tap hvis du bokfører i finansmodulen i både NOK og en tilleggsrapporteringsvaluta.|
 
 > [!NOTE]  
->  Restbeløp kan forekomme når [!INCLUDE[d365fin](includes/d365fin_md.md)] avrunder debet- og kreditbeløp som er konvertert fra NOK til en tilleggsrapporteringsvaluta.  
+>  Restbeløp kan forekomme når [!INCLUDE[prod_short](includes/prod_short.md)] avrunder debet- og kreditbeløp som er konvertert fra NOK til en tilleggsrapporteringsvaluta.  
 
 For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom NOK og tilleggsrapporteringsvalutaen.  
 
@@ -98,7 +98,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 ### <a name="to-activate-the-additional-reporting-currency"></a>Slik aktiverer du tilleggsrapporteringsvalutaen  
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Tilleggsrapporteringsvaluta** på siden **Finansoppsett** for å velge tilleggsvalutaen du vil rapportere i.  
-3. Når du forlater feltet, viser [!INCLUDE[d365fin](includes/d365fin_md.md)] en bekreftelsesmelding som beskriver virkningene av å aktivere tilleggsrapporteringsvalutaen.  
+3. Når du forlater feltet, viser [!INCLUDE[prod_short](includes/prod_short.md)] en bekreftelsesmelding som beskriver virkningene av å aktivere tilleggsrapporteringsvalutaen.  
 4. Velg **Ja**-knappen for å bekrefte at du ønsker å aktivere valutaen.  
 5. Den satsvise jobben **Justere tilleggsrapporteringsvaluta** åpnes.
 
@@ -126,4 +126,4 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 ## <a name="see-also"></a>Se også
 [Oppdatere valutakurser](finance-how-update-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d1b9a1af6edde26e9c966bb25bc6d237a510d00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1fc20ebadc9d516d45c74d963be7b26cfd2b8d4d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921695"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749758"
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
 
@@ -40,7 +40,7 @@ Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel h
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Registrere samhandlinger automatisk
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan automatisk registrere salgs- og kjøpsdokumenter som samhandlinger (for eksempel ordrer, fakturaer, mottak og så videre), men også e-post, telefonsamtaler og følgebrev.
+[!INCLUDE[prod_short](includes/prod_short.md)] kan automatisk registrere salgs- og kjøpsdokumenter som samhandlinger (for eksempel ordrer, fakturaer, mottak og så videre), men også e-post, telefonsamtaler og følgebrev.
 
 Hvis du vil ha mer informasjon, kan du se [Automatisk registrere samhandlinger med kontakter](marketing-auto-record-interactions.md).
 
@@ -59,4 +59,4 @@ Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

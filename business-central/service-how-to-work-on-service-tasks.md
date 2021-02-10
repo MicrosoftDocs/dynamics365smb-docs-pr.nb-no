@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: de32dea618259d8a7ecde20e47f6f258f12f525a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21f4dc7f2f0fa6602f02720fc441d1007d0f6bfe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913199"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747996"
 ---
 # <a name="work-on-service-tasks"></a>Arbeide med serviceoppgaver
 Når du har opprettet en serviceordre eller -tilbud, registrert servicevarelinjer og tildelt ressurser til servicevarene i ordren eller tilbudet, kan du begynne å reparere og vedlikeholde servicevarene.  
 
-Ved hjelp av **Serviceoppgave**-siden i [!INCLUDE[d365fin](includes/d365fin_md.md)] får du en oversikt over alle servicevarene som trenger tilsyn. Tenk på vinduet som et servicekontrollpanel der du kan se hvilke ordrer som venter, finne og registrere reservedeler og holde lageret oppdatert.  
+Ved hjelp av **Serviceoppgave**-siden i [!INCLUDE[prod_short](includes/prod_short.md)] får du en oversikt over alle servicevarene som trenger tilsyn. Tenk på vinduet som et servicekontrollpanel der du kan se hvilke ordrer som venter, finne og registrere reservedeler og holde lageret oppdatert.  
 
-Hvis du vil spore endringer og få en grafisk fremstilling av servicevirksomheten, kan du bruke statistikkverktøyene i [!INCLUDE[d365fin](includes/d365fin_md.md)] til å generere diagrammer og analyse raskt og automatisk.  
+Hvis du vil spore endringer og få en grafisk fremstilling av servicevirksomheten, kan du bruke statistikkverktøyene i [!INCLUDE[prod_short](includes/prod_short.md)] til å generere diagrammer og analyse raskt og automatisk.  
 
 ## <a name="to-work-on-a-service-task"></a>Slik arbeider du med en serviceoppgave  
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.

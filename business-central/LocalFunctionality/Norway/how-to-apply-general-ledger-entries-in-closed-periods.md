@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb3f87e656b32ffdb83c479116e043bcc7791397
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3a88a05e6f1f04981541f2187ca2f0c685e2d075
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919805"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752477"
 ---
 # <a name="apply-general-ledger-entries-in-closed-periods"></a>Utligne finansposter i lukkede perioder
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  
 
 ## <a name="to-apply-an-entry-in-a-closed-period"></a>Slik utligner du en post i en lukket periode  
 

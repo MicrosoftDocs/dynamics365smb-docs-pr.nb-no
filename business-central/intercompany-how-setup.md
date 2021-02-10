@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 10/01/2020
+ms.date: 12/15/2020
 ms.author: edupont
-ms.openlocfilehash: 2f85488cd3e3a764d1fd0c60e4d314d4729f03d2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 81e19144e309e98c7887f264ac914202690977cc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915488"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750133"
 ---
 # <a name="set-up-intercompany"></a>Oppsett av konserninternt
+
 Hvis du vil sende en transaksjon (for eksempel en salgskladdelinje) fra ett selskap og få den tilsvarende transaksjonen (for eksempel en kjøpskladdelinje) til å opprettes automatisk i partnerselskapet, må de involverte selskapene bli enige om en felles kontoplan og et felles sett av dimensjoner som skal brukes under konserninterne transaksjoner. Den konserninterne kontoplanen kan for eksempel være en forenklet versjon av morselskapets kontoplan. Hvert selskap tilordner hele kontoplanen til den delte, konserninterne kontoplanen, og hvert selskap tilordner dimensjonene til de konserninterne dimensjonene.  
 
 Du må også definere en konsernintern partnerkode for hvert partnerselskap, som avtales mellom alle selskapene, og tilordne dem til kunde- og leverandørkortene henholdsvis ved å fylle ut feltet **Konsernintern partnerkode**.  
@@ -36,7 +37,7 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 3. På siden **Konsernintern partner** fyller du ut feltene etter behov.
 
 > [!NOTE]
-> I [!INCLUDE[d365fin](includes/d365fin_md.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
+> I [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Slik definerer du konserninterne leverandører og kunder
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
@@ -90,7 +91,11 @@ Når du nå angir en finanskonto i feltet **Motkontonr.** i en konsernintern lin
 3. Gjenta trinn 2 for hver konto du ofte angir, i feltet **Motkontonr.** på en linje i en konsernintern kladd eller et konserninternt dokument.
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Slik definerer du konserninterne bokføringer
+
 Hvis du og de konserninterne partnerne vil ha mulighet til å utveksle transaksjoner med tilknyttede dimensjoner, må dere bli enige om dimensjonene som alle skal bruke. Morselskapet i gruppen oppretter for eksempel en forenklet versjon av sitt eget sett med dimensjoner, eksporterer disse konserninterne dimensjonene fra databasen til en XML-fil og distribuerer den til alle selskapene i gruppen. Hvert av datterselskapene importerer deretter XML-filen til siden **Konserninterne dimensjoner** og knytter de konserninterne dimensjonene til dimensjonene i sin egen **Dimensjoner**-side.  
+
+> [!NOTE]
+> Hvert selskap i [!INCLUDE [prod_short](includes/prod_short.md)] må tilordne dimensjoner til konserninterne dimensjoner for utgående dokumenter, og tilordne konserninterne dimensjoner til egne dimensjoner for inngående dokumenter. Denne tilordningen bidrar til å sikre konsekvens på tvers av selskapene. Hvis du vil ha mer informasjon, kan du se delen [Slik tilordner du konserninterne dimensjoner til selskapets dimensjoner](#to-map-intercompany-dimensions-to-your-companys-dimensions).
 
 Hvis selskapet ditt er det overordnede selskapet og har det definerende settet med konerninterne dimensjoner som gruppen din skal bruke som en felles referanse, følger du fremgangsmåten [Slik definerer du de konserninterne dimensjonene](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
 
@@ -113,9 +118,11 @@ Når det finnes en fil for de definerende konserninterne dimensjonene, kan konse
 Linjene på siden **Konserinterne dimensjoner** og siden **Konserinterne dimensjonsverdier** importeres.  
 
 ### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Slik tilordner du konserninterne dimensjoner til selskapets dimensjoner
-Når du har definert og importert dimensjonene du og de konserninterne partnerne er blitt enige om å bruke, må du knytte hver av de konserninterne dimensjonene til én av dimensjonene i selskapet ditt, og omvendt. På siden **Konserninterne dimensjoner** angir du hvordan konserninterne dimensjoner for innkommende transaksjoner vil bli oversatt til dimensjoner fra selskapets liste over dimensjoner. På **Dimensjon**-siden angir du hvordan dimensjonene skal oversettes til konserninterne dimensjoner i utgående transaksjoner.
+Når du har definert og importert dimensjonene du og de konserninterne partnerne er blitt enige om å bruke, må du knytte hver av de konserninterne dimensjonene til én av dimensjonene i selskapet ditt, og omvendt. På siden **Konserninterne dimensjoner** angir du hvordan konserninterne dimensjoner for *innkommende transaksjoner* blir oversatt til dimensjoner fra selskapets liste over dimensjoner. På **Dimensjon**-siden angir du hvordan dimensjonene skal oversettes til konserninterne dimensjoner i *utgående transaksjoner*.
 
-Hvis noen av de konserninterne dimensjonene har samme kode som de tilsvarende dimensjonene i selskapets liste over dimensjoner, kan du få programmet til å tilknytte dimensjonene automatisk.
+Hvis noen av de konserninterne dimensjonene har samme kode som de tilsvarende dimensjonene i selskapets liste over dimensjoner, kan du få programmet til å tilknytte dimensjonene automatisk.  
+
+I fremgangsmåten nedenfor tilordner du først konserninterne dimensjoner til dimensjoner for inngående dokumenter på siden **Konserninterne dimensjoner**. Deretter tilordner du dimensjoner til konserninterne dimensjoner for utgående dokumenter på siden **Dimensjoner**.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserinterne dimensjoner**, og velg deretter den relaterte koblingen.
 2. På siden **Konserninterne dimensjoner** velger du linjene du vil tilknytte automatisk, og deretter velger du **Samkjør med dimensjon med samme kode**.
@@ -133,8 +140,9 @@ Hvis noen av de konserninterne dimensjonene har samme kode som de tilsvarende di
 10. På siden **Dimensjonsverdier** fyller du ut feltet **Samkjør med KI-dimensjonsverdikode**.
 
 ## <a name="see-also"></a>Se også
+
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

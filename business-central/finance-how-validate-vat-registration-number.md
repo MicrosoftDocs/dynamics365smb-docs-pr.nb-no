@@ -1,25 +1,25 @@
 ---
-title: Validere et organisasjonsnummer | Microsoft-dokumenter
-description: Validere et organisasjonsnummer
-author: andregu
+title: Valider organisasjonsnumre
+description: La Business Central bruke VIES-tjenesten til å validere organisasjonsnumre for deg automatisk.
+author: kielkenny
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 130449368e5b96e3c9e6cb6274dcd6e06f568114
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80e955e96a64c5a0bd91d0a72297b32d67ff4ab6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916979"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750561"
 ---
-# <a name="validate-a-vat-registration-number"></a>Validere et organisasjonsnummer
+# <a name="validate-vat-registration-numbers"></a>Valider organisasjonsnumre
 
 Det er viktig at organisasjonsnumrene du har for kunder, leverandører og kontakter, er gyldige. For eksempel selskaper noen ganger endre status for mva-ansvar, og i noen land kan skattemyndighetene ber deg om å gi rapporter, for eksempel rapporten EU-salgslisten som listen mva registreringsnumre du bruker når du gjør forretninger.
 
-EU-kommisjonen gir tjenesten EU-mva-nummer validering på webområdet sitt, som er felles og gratis. [!INCLUDE[d365fin](includes/d365fin_md.md)] kan spare deg for et trinn, og du kan bruke tjenesten VIES til å validere og spore mva-numre for kunder, leverandører og kontakter direkte fra kunde-, leverandør- og kontaktkort. Tjenesten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kalles **Tjeneste for validering av EU-organisasjonsnr.**. Tjenesten er tilgjengelig på siden **Tjenestetilkoblinger**, og du kan begynne å bruke den med en gang. Tjenestetilkoblingen er gratis, og registrering er ikke nødvendig.
+EU-kommisjonen gir tjenesten EU-mva-nummer validering på webområdet sitt, som er felles og gratis. [!INCLUDE[prod_short](includes/prod_short.md)] kan spare deg for et trinn, og du kan bruke tjenesten VIES til å validere og spore mva-numre for kunder, leverandører og kontakter direkte fra kunde-, leverandør- og kontaktkort. Tjenesten i [!INCLUDE[prod_short](includes/prod_short.md)] kalles **Tjeneste for validering av EU-organisasjonsnr.**. Tjenesten er tilgjengelig på siden **Tjenestetilkoblinger**, og du kan begynne å bruke den med en gang. Tjenestetilkoblingen er gratis, og registrering er ikke nødvendig.
 
 ## <a name="to-verify-vat-registration-numbers"></a>Slik bekrefter du organisasjonsnumre
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e39de1d4656b272c5c6cf5c01f54d5d6ebeca05b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fc491b060d6a4b1039376b0051ef58da104ff1d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914217"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750358"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Definere kildespor og årsaksspor for revisjonsspor
 
@@ -94,6 +94,6 @@ Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
-[Arbeide med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b8d764bcbf1a7f6a2bc97130eddbdc1a644f9f1c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70fb5f5e1670dfbee3d8313099924321368f4e81
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914167"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750159"
 ---
 # <a name="adjust-item-costs"></a>Justere varekost
 Kostnaden for en vare (lagerverdien) som du kjøper og senere selger, kan endres i løpet av levetiden, for eksempel fordi en fraktkostnader er lagt til innkjøpskostnaden etter at du har solgt varen. Kostjustering er spesielt relevant i situasjoner der du selger varer før du fakturerer kjøpet av varene. Hvis du alltid vil vite riktig lagerverdi, må varekostnader derfor justeres regelmessig. Dette sikrer at salgs- og fortjenestestatistikk er oppdatert og at økonomiske KPI-er er riktige. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostjustering](design-details-cost-adjustment.md).
 
 Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standardkost for varer med standard lagermetode. For varer med andre lagermetoder er den basert på beregning av tilgjengelig lagerbeholdning (fakturerte kostnader og forventede kostnader) delt på aktuell beholdning. Du finner flere opplysninger i [Forstå beregning av enhetskost](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] justeres varekostnader automatisk hver gang det oppstår en lagertransaksjon, for eksempel når du bokfører en kjøpsfaktura for en vare.
+I [!INCLUDE[prod_short](includes/prod_short.md)] justeres varekostnader automatisk hver gang det oppstår en lagertransaksjon, for eksempel når du bokfører en kjøpsfaktura for en vare.
 
 Du kan også bruke en funksjon til å justere kostnadene for en eller flere varer manuelt. Dette er nyttig, for eksempel når du vet at varekostnader er endret av andre grunner enn varetransaksjoner.
 
@@ -60,10 +60,10 @@ Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standa
 ## <a name="unit-cost-calculation-for-purchases"></a>Beregne enhetskost for kjøp  
  Når du kjøper varer, blir verdien i feltet **Siste kjøpspris/prod.kost** på varekortet kopiert til feltet **Direkte enhetskost** på en bestillingslinje eller til Enhetsbeløp-linjen på en varekladdelinje.  
 
- Det du velger i **Lagermetode**-feltet, har innvirkning på hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner innholdet i **Enhetskost**-feltet på linjene.  
+ Det du velger i **Lagermetode**-feltet, har innvirkning på hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i **Enhetskost**-feltet på linjene.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagermetoden FIFO, LIFO, Serienummer eller Gjennomsnitt  
- [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner innholdet i feltet **Enhetskost NOK** på bestillingslinjen, eller innholdet i feltet **Enhetskost** på varekladdelinjen etter følgende formel:  
+ [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i feltet **Enhetskost NOK** på bestillingslinjen, eller innholdet i feltet **Enhetskost** på varekladdelinjen etter følgende formel:  
 
  Enhetskost (NOK) = (Direkte enhetskost - (Rabattbeløp / Antall)) x (1 + Indirekte kost-% / 100) + Sats for indirekte kostnader  
 
@@ -78,11 +78,11 @@ Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standa
 ## <a name="unit-cost-calculation-for-sales"></a>Beregne enhetskost for salg  
  Når du selger varer, kopieres enhetskosten fra feltet Enhetskost på varekortet til salgslinjen eller varekladdelinjen.  
 
- Ved bokføring kopieres enhetskosten til salgsfakturaposten, og den kan dermed ses på varens postoversikt. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker enhetskosten til å beregne innholdet i feltet **Kostbeløp faktisk**, eller feltet **Kostbeløp forventet**, hvis det brukes, i verdiposten som er knyttet til denne vareposten.  
+ Ved bokføring kopieres enhetskosten til salgsfakturaposten, og den kan dermed ses på varens postoversikt. [!INCLUDE[prod_short](includes/prod_short.md)] bruker enhetskosten til å beregne innholdet i feltet **Kostbeløp faktisk**, eller feltet **Kostbeløp forventet**, hvis det brukes, i verdiposten som er knyttet til denne vareposten.  
 
 ## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

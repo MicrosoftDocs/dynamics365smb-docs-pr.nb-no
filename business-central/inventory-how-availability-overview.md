@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d34b34d5629779d7b87016fb9e83bf1d3f25fd82
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40c5b81ec3cb4022e45358020b816cb9d368bb82
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914142"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746345"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
@@ -28,10 +28,10 @@ Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgje
 
 Hvis du bruker lagerfunksjonalitet, varierer tilgjengelighet avhengig av tildelinger på hyllenivå når det oppstår lageraktiviteter som plukking og flytting, og når lagerreservasjonssystemet bruker begrensninger som må overholdes. En ganske komplisert algoritme bekrefter at alle betingelsene er oppfylt før tildeling av antall i plukk for utgående flyter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene vanligvis i to forskjellige felt, hver med en forskjellig definisjon:
+I [!INCLUDE[prod_short](includes/prod_short.md)] vises tilgjengelighetstallene vanligvis i to forskjellige felt, hver med en forskjellig definisjon:
 
 * **Beholdning**-feltet, som kalles **Lager** enkelte steder, viser det faktiske antallet i dag i henhold til bokførte vareposter.
-* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
+* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
 
 > [!TIP]  
 >   Beregnet disponibel saldo er spesielt relevant å vise på sidene **Varetilgjengelighet per periode** og **Varetilgjengelighet per hendelse** fordi de inneholder datodimensjonen.  

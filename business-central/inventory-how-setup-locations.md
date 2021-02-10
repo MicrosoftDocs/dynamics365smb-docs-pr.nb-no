@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: warehouse, distribution center
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 81ee1ad91bd4ec887d85e940152f18e99a6d464c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6cdfee54927dd6e966f1fd1ac0b4e40ba9df1135
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923773"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750083"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må du definere hver lokasjon med et lokasjonskort og definere overføringsruter.
@@ -47,6 +47,6 @@ Nå kan du overføre lagervarer mellom to lokasjoner. Hvis du vil ha mer informa
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

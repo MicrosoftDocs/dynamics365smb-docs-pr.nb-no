@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7437d2f9cf812f6a098648f6359fd7f0b489e94
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 03db8c6c430da3f5af7bbfb660a56dffadff2fa0
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919773"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752455"
 ---
 # <a name="set-up-customers-for-ehf"></a>Sette opp kunder for EHF
 Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.  
@@ -33,7 +33,7 @@ Dette emnet beskriver bare felt som gjelder EHF. Hvis du vil ha mer informasjon 
     |Felt|Description|  
     |---------------------------------|---------------------------------------|  
     |**GLN**|Påkrevd. Angi det globale lokasjonsnummeret (GLN) for kunden.|  
-    |**Kontokode**|Angi kontokoden for kunden.<br /><br /> Kunder i offentlig sektor gir en kontokode når de plasserer en ordre eller rekvisisjon. Basert på verdien i dette feltet, inkluderes kontokoden i EHF-dokumentene du oppretter i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Se Kontokode for mer informasjon.|  
+    |**Kontokode**|Angi kontokoden for kunden.<br /><br /> Kunder i offentlig sektor gir en kontokode når de plasserer en ordre eller rekvisisjon. Basert på verdien i dette feltet, inkluderes kontokoden i EHF-dokumentene du oppretter i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Se Kontokode for mer informasjon.|  
     |**E-faktura**|Merk av for å bruke elektronisk fakturering med kunden.|  
     |**Ansvarssenter**|Kontroller at ansvarssenteret du har valgt, har angitt en lands-/regionkode.|  
 

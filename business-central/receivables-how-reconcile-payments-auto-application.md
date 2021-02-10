@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0b759aef09fc2a19ac06a829a64a9ed0ea9b1efa
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3b90cb523449367672be71abe0a7cf02effcde5a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926507"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748546"
 ---
 # <a name="reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
 
@@ -24,7 +24,7 @@ Siden **Betalingsavstemmingskladd** angir inngående eller utgående betalinger 
 > [!NOTE]
 > Siden inneholder automatisk samsvarsfunksjonalitet som gjelder betalinger til de relaterte åpne postene, basert på samsvar av tekst på en bankkontoutdragslinje (kladdelinje) med tekst på én eller flere åpne poster. Merk at du kan overskrive foreslått automatisk bruk, og du kan velge ikke å bruke automatisk bruk i det hele tatt. Hvis du vil ha mer informasjon, kan du se trinn 7.
 
-En betalingsavstemmingskladd er knyttet til én bankkonto i [!INCLUDE[d365fin](includes/d365fin_md.md)] som gjenspeiler nettbankkontoen der betalingstransaksjonene registreres. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden.
+En betalingsavstemmingskladd er knyttet til én bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)] som gjenspeiler nettbankkontoen der betalingstransaksjonene registreres. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette betyr at bankkontoen automatisk avstemmes for betalinger du bokfører med kladden.
 
 Hvis du vil importere bankkontoutdrag som bankfeeder, må du først aktivere Envestnet Yodlee Bank Feeds-tjenesten og deretter knytte bankkontoen til den relaterte nettbankkontoen. Betalingsavstemmingskladden oppdager deretter automatisk bankfeeder når du velger handlingen **Importer banktransaksjoner**. I tillegg kan du konfigurere en bankkonto til automatisk å importere nye bankkontoutdragsfeeder hver time. Transaksjoner for betalinger som allerede er bokført som utlignet og/eller avstemt vil ikke bli importert. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
 
@@ -75,4 +75,4 @@ Du kan sammenligne verdien i feltet **Saldo på bankkonto etter bokføring** med
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

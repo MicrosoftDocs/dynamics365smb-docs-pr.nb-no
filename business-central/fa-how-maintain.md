@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: repair, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3548576f498808a215f52b25302866cd2041269c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0aac3f40cb8a6aa7f2e9a3eff182edb86dd1efb8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910858"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749371"
 ---
 # <a name="maintain-fixed-assets"></a>Vedlikehold aktiva
 Vedlikeholdsutgifter er periodiske kostnader som er pådratt for å opprettholde aktivaverdien. I motsetning til kapitaløkninger bidrar de ikke til noen verdiøkning.
@@ -89,4 +89,4 @@ I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsp
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9e04dcccfde480ca72d09c65608c309eba09aa6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c36b365b0828a19fa82ef28f8d901915937995c2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910833"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746669"
 ---
 # <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
 Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
@@ -78,4 +78,4 @@ Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se 
 ## <a name="see-also"></a>Se også
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

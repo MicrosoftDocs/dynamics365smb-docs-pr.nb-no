@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct posting, general ledger
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 84b6c80131662675df1117bcb771aaa0ee9553c1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 72e2851ee60d6cb79f722d12e16ddcb30e95fdbe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914317"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746944"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Bokføre transaksjoner direkte i Finans
 
@@ -47,4 +47,4 @@ I motsetning til poster som bokføres med dokumenter, som krever en kreditnotapr
 [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

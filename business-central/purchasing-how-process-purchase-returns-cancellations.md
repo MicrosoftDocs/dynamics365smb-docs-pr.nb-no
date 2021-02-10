@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b3d45d4a058ea21adefafd13e640346e61a249d3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f8cc23b4108b460f4a9c6d890dcfd962b23f9e1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926875"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748746"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 
@@ -193,5 +193,5 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  

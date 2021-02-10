@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 4a4f4cf4c27ff995be3d0caac25c6ab849a13eec
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 60cbb65da2de80ad19bb30e3023a4b3a801244ab
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925700"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747971"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeide med servicekontrakter og servicekontrakttilbud
 Du kan opprette servicekontrakter manuelt eller fra et servicekontrakttilbud. Du kan bruke et servicekontrakttilbud som en forløper til en servicekontrakt der selskapet kommer med et tilbud overfor kunden, og som får godkjenning fra kunden før du kan konvertere tilbudet til en servicekontrakt. Prosedyrene for oppretting av servicekontrakt og servicekontrakttilbud er like.  
@@ -194,7 +194,7 @@ Du kan bli nødt til å annullere en servicekontrakt når den er utløpt eller e
 6. Hvis det finnes fakturaer, kreditnotaer eller åpnede betalte poster for kontrakten, vises en bekreftelsesmelding. Velg **Nei** i meldingsboksen for å gå tilbake til kontrakten for å bokføre dokumentene, eller på **Ja** for å fortsette annulleringsprosessen.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Arkivere en servicekontrakt elle et kontrakttilbud  
-Du kan når som helst arkivere servicekontrakter og kontrakttilbud for å registrere og arkivere en kopi av kontrakten eller kontrakttilbudet. [!INCLUDE[d365fin](includes/d365fin_md.md)] arkiverer servicekontrakter automatisk når du konverterer kontrakttilbud til servicekontrakter eller avbryter servicekontrakter. Du kan arkivere en kontrakt eller et tilbud selv ved å velge handlingen **Arkiver kontrakt** på siden **Servicekontrakter** eller **Servicekontrakttilbud**. Hvis du vil vise de arkiverte kontraktene for tilbud ved å søke etter **Arkiverte kontrakter**.
+Du kan når som helst arkivere servicekontrakter og kontrakttilbud for å registrere og arkivere en kopi av kontrakten eller kontrakttilbudet. [!INCLUDE[prod_short](includes/prod_short.md)] arkiverer servicekontrakter automatisk når du konverterer kontrakttilbud til servicekontrakter eller avbryter servicekontrakter. Du kan arkivere en kontrakt eller et tilbud selv ved å velge handlingen **Arkiver kontrakt** på siden **Servicekontrakter** eller **Servicekontrakttilbud**. Hvis du vil vise de arkiverte kontraktene for tilbud ved å søke etter **Arkiverte kontrakter**.
 
 ## <a name="see-also"></a>Se også  
 [Definere servicekontrakter](service-how-setup-service-contracts.md)  

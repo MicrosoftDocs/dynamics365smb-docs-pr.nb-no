@@ -10,34 +10,34 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fcc8e97a61c777a7857e95db04fe16973c4c7b07
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 959afdf56b192f959c3ceb9067d7790f788d309d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918816"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748671"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
-Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[prod_short](includes/prod_short.md)].
 
  I tillegg til å motta elektroniske dokumenter direkte fra handelspartnere, kan du motta elektroniske dokumenter fra en OCR-tjeneste som har gjort om PDF- eller bildefiler til elektroniske dokumenter.  
 
- Før du kan motta elektroniske dokumenter gjennom dokumentutvekslingstjenesten, må du definere forskjellige hoveddata, for eksempel firmainformasjon, leverandører, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i elementer i den innkommende dokumentfilen til felt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurere en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
+ Før du kan motta elektroniske dokumenter gjennom dokumentutvekslingstjenesten, må du definere forskjellige hoveddata, for eksempel firmainformasjon, leverandører, varer og enheter. Disse brukes til å identifisere forretningspartnere og elementer ved konvertering av data i elementer i den innkommende dokumentfilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurere en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
 
  Før du kan motta elektroniske dokumenter gjennom OCR-tjenesten, må du sette opp og aktiverer den forhåndskonfigurerte tjenestetilkoblingen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).  
 
- Trafikk for elektroniske dokumenter inn og ut av [!INCLUDE[d365fin](includes/d365fin_md.md)] administreres av jobbkøfunksjonen. Før du kan motta elektroniske dokumenter, må relevant jobbkø være startet.  
+ Trafikk for elektroniske dokumenter inn og ut av [!INCLUDE[prod_short](includes/prod_short.md)] administreres av jobbkøfunksjonen. Før du kan motta elektroniske dokumenter, må relevant jobbkø være startet.  
 
- Du kan enten starte konverteringen av elektroniske dokumenter manuelt, slik det er beskrevet i denne fremgangsmåten, eller du kan aktivere en arbeidsflyt til å konvertere elektroniske dokumenter automatisk når de mottas. Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en arbeidsflytmal, *Arbeidsflyten Fra innkommende elektronisk via OCR til Åpne kjøpsfakturaer*, som er klar til å bli kopiert til en arbeidsflyt og aktivert. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
+ Du kan enten starte konverteringen av elektroniske dokumenter manuelt, slik det er beskrevet i denne fremgangsmåten, eller du kan aktivere en arbeidsflyt til å konvertere elektroniske dokumenter automatisk når de mottas. Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en arbeidsflytmal, *Arbeidsflyten Fra innkommende elektronisk via OCR til Åpne kjøpsfakturaer*, som er klar til å bli kopiert til en arbeidsflyt og aktivert. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
 
 > [!NOTE]  
->  Når du konverterer elektroniske dokumenter som er mottatt fra OCR-tjenesten, til dokumenter eller kladdelinjer i [!INCLUDE[d365fin](includes/d365fin_md.md)], summeres flere linjer i kildedokumentet på én linje. Enkeltlinjen kommer til å være av typen Finanskonto, og feltene **Beskrivelse** og **Nr.** på finanskonto. -feltene kommer til å være tomme. Verdien i **Beløp**-feltet kommer til å være lik det totale beløpet ekskl. mva. på alle linjene i kildedokumentet.  
+>  Når du konverterer elektroniske dokumenter som er mottatt fra OCR-tjenesten, til dokumenter eller kladdelinjer i [!INCLUDE[prod_short](includes/prod_short.md)], summeres flere linjer i kildedokumentet på én linje. Enkeltlinjen kommer til å være av typen Finanskonto, og feltene **Beskrivelse** og **Nr.** på finanskonto. -feltene kommer til å være tomme. Verdien i **Beløp**-feltet kommer til å være lik det totale beløpet ekskl. mva. på alle linjene i kildedokumentet.  
 >   
 >  Forsikre deg om at **Beskrivelse**- og **Nr.** -feltene er utfylt, og velg **Tilordne tekst til konto**-knappen på siden **Inngående dokumenter** for å definere at en bestemt fakturatekst alltid er tilordnet en bestemt debet- eller kreditkonto i finans. Videre utfylles **Beskrivelse**-feltet i dokument- eller kladdelinjer som er opprettet fra et elektronisk dokument for kunden eller leverandøren, med den aktuelle teksten og **Nr.** for finanskonto. -feltet med den aktuelle kontoen.  
 >   
 >  I stedet for tilordning til en finanskonto, kan du tilordne til en bankkonto. Dette er praktisk, for eksempel for elektroniske dokumenter for utgifter som allerede er betalt, der du vil opprette en finanskladdelinje som er klar til å bokføre på en bankkonto.  
 
- Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konverterer den til en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Fremgangsmåten er den samme når du konverterer en leverandørfaktura til en finanskladdelinje.  
+ Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konverterer den til en kjøpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Fremgangsmåten er den samme når du konverterer en leverandørfaktura til en finanskladdelinje.  
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Slik mottar og konverterer du en elektronisk faktura til en kjøpsfaktura  
 
@@ -53,9 +53,9 @@ Den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] kan motta
 
 5.  Velg handlingen **Opprett dokument**.  
 
-     Det blir opprettet en kjøpsfaktura i [!INCLUDE[d365fin](includes/d365fin_md.md)] basert på informasjonen i det elektroniske dokumentet.  
+     Det blir opprettet en kjøpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] basert på informasjonen i det elektroniske dokumentet.  
 
-     Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[d365fin](includes/d365fin_md.md)], vises i hurtigfanen **Feilmeldinger**.  
+     Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i hurtigfanen **Feilmeldinger**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 

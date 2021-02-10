@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: design, general ledger, post
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d778b29a5789d015b26b504ea8699ac64a92286c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 54f72fdfdea362cee6f3e3833f9d0e46cb9ac22a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911108"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751608"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversikt over Finanskladd – bokfør linje
 Kodeenhet 12, **Finanskladd – bokfør linje**, er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter. Denne kodeenheten brukes også for alle operasjoner med Utlign, Opphev utligning og Tilbakefør.  
   
-Selv om kodeenheten har blitt forbedret i hver utgivelse over de siste ti årene, har arkitekturen i hovedsak vært den samme. Kodeenheten ble svært stor, med omtrent 7 600 kodelinjer. I denne utgivelsen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er arkitekturen endret, og kodeenheten er forenklet og gjort enklere å vedlikeholde. Denne dokumentasjonen beskriver endringene og inneholder informasjon du trenger for å oppgradere.  
+Selv om kodeenheten har blitt forbedret i hver utgivelse over de siste ti årene, har arkitekturen i hovedsak vært den samme. Kodeenheten ble svært stor, med omtrent 7 600 kodelinjer. I denne utgivelsen av [!INCLUDE[prod_short](includes/prod_short.md)] er arkitekturen endret, og kodeenheten er forenklet og gjort enklere å vedlikeholde. Denne dokumentasjonen beskriver endringene og inneholder informasjon du trenger for å oppgradere.  
   
 ## <a name="old-architecture"></a>Gammel arkitektur  
 Den gamle arkitekturen hadde følgende funksjoner:  
@@ -34,7 +34,7 @@ Den gamle arkitekturen hadde følgende funksjoner:
 * Bokføring, Utlign, Opphev utligning, Tilbakefør, Kontantrabatt, Betalingstoleranse og Valutakursjustering var tilknyttet i kodeenhet 12 ved hjelp av en lang liste med globale variabler.  
   
 ### <a name="new-architecture"></a>Ny arkitektur  
-Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[prod_short](includes/prod_short.md)]:  
   
 * Kodeenhet 12 er refaktorert til mindre prosedyrer (alle er færre enn 100 kodelinjer).  
 * Standardiserte mønstre for søk i finanskonti er implementert ved hjelp av hjelperfunksjoner fra Bokføringsgruppe-tabeller.  

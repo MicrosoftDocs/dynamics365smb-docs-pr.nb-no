@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5dda40147d86bbe67e3eb20860ffa4648e2e9918
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9165a7392f5c95b2ebb8a056f69be49d93476b66
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913916"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747369"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  
@@ -43,4 +43,4 @@ Det finnes en lignende fleksibilitet når du selger varer som skal monteres til 
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

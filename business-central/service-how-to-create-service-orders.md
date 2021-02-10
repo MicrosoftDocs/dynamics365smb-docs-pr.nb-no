@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4f2f9602cb050639651a17ea6728eb40762f1ea6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f99a41a60b446f0f225d6112e07f37ded0dd2a78
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748046"
 ---
 # <a name="create-service-orders"></a>Opprette serviceordrer
 Du kan bruke siden **Serviceordre** til å opprette dokumenter der du angir opplysninger om en service, for eksempel reparasjon og vedlikehold, på servicevarer etter forespørsel fra kunde.  
@@ -52,7 +52,7 @@ Du kan automatisk opprette serviceordrer for vedlikehold av servicevarer basert 
 ## <a name="to-convert-a-service-quote-to-a-service-order"></a>Slik konverterer du et servicetilbud til en serviceordre
 Når en kunde har godkjent et servicetilbud, konverterer du det til en serviceordre. Tilbudet slettes, og en ny serviceordre defineres med den samme beskrivelsen som servicetilbudet. Responsdatoen og -tiden beregnes på nytt for serviceordren, og statusen settes til **I kø**. Reparasjonsstatusen til servicevarene i ordren endres til **Første**.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] søker etter fordelingsposter for alle servicevarene i servicetilbudet med statusen **Aktiv**. Hvis programmet finner slike tildelingsposter, oppdateres tildelingsstatusen til **Ny tildeling nødvendig**. Når du tildeler servicevarene på nytt i serviceordren, oppdateres statusen for tildelingspostene som er registrert for tilbudet, til **Ferdig.**   
+[!INCLUDE[prod_short](includes/prod_short.md)] søker etter fordelingsposter for alle servicevarene i servicetilbudet med statusen **Aktiv**. Hvis programmet finner slike tildelingsposter, oppdateres tildelingsstatusen til **Ny tildeling nødvendig**. Når du tildeler servicevarene på nytt i serviceordren, oppdateres statusen for tildelingspostene som er registrert for tilbudet, til **Ferdig.**   
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg servicetilbudet du vil konvertere til en serviceordre.  

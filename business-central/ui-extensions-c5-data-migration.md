@@ -10,19 +10,19 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fb71224df8730c68fb5c56c255353a05a7846eed
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0f257b81f1e36e86e40e67ca8ba07169ec22d938
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912360"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747596"
 ---
 # <a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
 
-Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan også overføre historiske poster for finanskonti.
+Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også overføre historiske poster for finanskonti.
 
 > [!Note]
-> Selskapet i [!INCLUDE[d365fin](includes/d365fin_md.md)]kan ikke inneholde data. I tillegg, når du starter en migrering, bør du ikke opprette kunder, leverandører, varer eller kontoer til migreringen er ferdig.
+> Selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]kan ikke inneholde data. I tillegg, når du starter en migrering, bør du ikke opprette kunder, leverandører, varer eller kontoer til migreringen er ferdig.
 
 ## <a name="what-data-is-migrated"></a>Hvilke data overføres?
 Følgende data overføres for hver enhet:
@@ -100,14 +100,14 @@ Hvis du overfører konti, overføres også følgende data:
 
 ## <a name="file-size-requirements"></a>Filstørrelseskrav
 
-Den største størrelsen du kan laste opp til [!INCLUDE[d365fin](includes/d365fin_md.md)], er 150 MB. Hvis filen du eksporterer fra C5, er større enn det, vurder å overføre dataene i flere filer. For eksempel kan du eksportere én eller to typer enheter fra C5, for eksempel kunder og leverandører, til en fil, og deretter eksportere varer til en annen fil, og så videre. Du kan importere filer individuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Den største størrelsen du kan laste opp til [!INCLUDE[prod_short](includes/prod_short.md)], er 150 MB. Hvis filen du eksporterer fra C5, er større enn det, vurder å overføre dataene i flere filer. For eksempel kan du eksportere én eller to typer enheter fra C5, for eksempel kunder og leverandører, til en fil, og deretter eksportere varer til en annen fil, og så videre. Du kan importere filer individuelt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="to-migrate-data"></a>Migrere data
 
-Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. I C5 bruker du **Eksportere databasen**-funksjonen for å eksportere dataene. Deretter sender du eksportmappen til en komprimert (pakket) mappe.  
-2. I [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Datamigrering**, og velger deretter **Datamigrering**.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Datamigrering**, og velger deretter **Datamigrering**.  
 3. Fullfør trinnene i den assisterte oppsettsveiledningen. Pass på at du velger **Importer fra Microsoft Dynamcis C5 2012** som datakilde.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Se statusen for migreringen
@@ -144,7 +144,7 @@ Etter at du har korrigert én eller flere feil, kan du velge **Migrer** for å m
 
 ## <a name="verifying-data-after-migrating"></a>Kontrollere dataene etter migrering
 
-Du kan kontrollere at dataene er overført riktig ved å se på følgende sider i C5 og [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan kontrollere at dataene er overført riktig ved å se på følgende sider i C5 og [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Kjørsel som skal brukes |
 |---------------------------|------------------------------|------------------|
@@ -159,5 +159,5 @@ Du kan stoppe datamigreringen ved å velge **Stopp alle migreringer**. Hvis du g
 
 ## <a name="see-also"></a>Se også
 
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)  

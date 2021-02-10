@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer – Lagerverdisetting | Microsoft-dokumentasjon
-description: Lagerverdisetting XE "Lagerverdisetting" er fastsettelse av kostnadene som er tilordnet en lagervare, som uttrykt med følgende ligning.
+description: Lagerverdisetting er fastsettelse av kostnadene for en lagervare.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,21 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 15ad8d52508148449fcb82c8c4b3b5b3c42b8443
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad2698338f717541665cc5b53f6196c02f694562
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913691"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751433"
 ---
 # <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagerverdisetting
-Lagerverdisetting XE "Lagerverdisetting" er fastsettelse av kostnadene som er tilordnet en lagervare, som uttrykt med følgende ligning.  
+Lagerverdisetting fastsettelse av kostnadene som er tilordnet en lagervare, som uttrykt med følgende ligning.  
 
 Sluttbeholdning = startbeholdning + nettokjøp – solgte varers kost  
 
-Beregningen av lagerverdien bruker feltet **Kostbeløp (faktisk)** i verdipostene for varen. Postene klassifiseres i henhold til posttypen XE "Posttype" som svarer til kostnadskomponentene, direkte kostnad, indirekte kostnad, avvik, revaluering og avrunding. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostkomponenter](design-details-cost-components.md).  
+Beregningen av lagerverdien bruker feltet **Kostbeløp (faktisk)** i verdipostene for varen. Postene klassifiseres i henhold til posttypen som svarer til kostnadskomponentene, direkte kostnad, indirekte kostnad, avvik, revaluering og avrunding. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostkomponenter](design-details-cost-components.md).  
 
-Poster utlignes mot hverandre ved fast utligning XE "Utligning; Fast" eller i henhold til generell kostflytforutsetning angitt av lagermetoden XE "Metode; Lager" XE "Lagermetode". Én lagerreduksjonspost kan brukes til flere enn én økningspost med ulike bokføringsdatoer og eventuell annen anskaffelseskost XE "Anskaffelseskost". Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vareutligning](design-details-item-application.md). Beregningen av lagerverdien XE "Lagerverdi" for en gitt dato er derfor basert på summering av positive og negative verdiposter.  
+Poster utlignes mot hverandre med ved fast utligning eller i henhold til generell kostflytforutsetning angitt av lagermetoden. Én lagerreduksjonspost kan brukes til flere enn én økningspost med ulike bokføringsdatoer og eventuell annen anskaffelseskost. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vareutligning](design-details-item-application.md). Beregningen av lagerverdien for en gitt dato er derfor basert på summering av positive og negative verdiposter.  
 
 ## <a name="inventory-valuation-report"></a>Rapporten Lagerverdisetting  
 For å beregne lagerverdien i **Lagerverdisetting**-rapporten begynner den ved å beregne verdien til beholdningen for varen på en gitt startdato. Deretter blir verdien av lagerøkningene lagt til, og verdien av lagerreduksjoner opptil en bestemt sluttdato, blir trukket fra. Sluttresultatet er lagerverdien på sluttdatoen. Rapporten beregner disse verdiene ved å summere verdiene i feltet **Kostbeløp (faktisk)** i verdipostene, og bruker bokføringsdatoene som filtre.  
@@ -58,4 +58,4 @@ Formålet med VIA-lagerverdisetting er å fastslå verdien til varer som ennå i
 [Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

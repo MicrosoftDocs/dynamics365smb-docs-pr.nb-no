@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, material, purchase
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c501160901435e25dd7ddf82753adc0330d64722
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7b3abf9ae0cb07e6b3e79fc21ee10467f4f611b6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921420"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748946"
 ---
 # <a name="manage-job-supplies"></a>Administrere prosjektforsyninger
 Behandling av prosjektforsyninger som varer, tjenester og utgifter inngår i og er en viktig del av alle prosjektutførelser. Du kan bruke lagerantallene eller foreta prosjektspesifikke kjøp ved hjelp av bestillinger eller kjøpsfakturaer. En servicejobb på en datamaskin krever for eksempel en ny disk. Du oppretter en kjøpsfaktura for å kjøpe en ny disk, og registrerer prosjektet den skal brukes på.
@@ -55,4 +55,4 @@ Hvis du pådrar deg ekstraordinære eller enkeltstående prosjektutgifter, kan d
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

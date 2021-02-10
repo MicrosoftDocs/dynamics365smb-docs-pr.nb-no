@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2886548e1af66e0f28eadc16c80f64263f3e1917
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e863f3140301fe31c029ecbf207a3b255d90c5d8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920625"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747244"
 ---
 # <a name="fixed-assets"></a>Anleggsmidler
-Aktivafunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
+Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Deretter kan du begynne å kjøpe, vedlikeholde og selge aktiva. Du kan også definere budsjetterte aktiva. Dette gjør det mulig å ta med eventuelle forventede anskaffelser og salg i rapporter.
 
-Hvis du vil holde rede på aktivaavskrivninger samt andre finansielle transaksjoner knyttet til aktiva, definerer du ett eller flere avskrivningstablåer for hvert aktiva i firmaet. Avskrivning gjøres ved å kjøre en rapport for å beregne periodiske avskrivninger og fylle ut en kladd med de resulterende postene, klare til å bokføres. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter flere ulike avskrivningsmetoder. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere avskrivningstablåer per aktiva for ulike formål, for eksempel ett for mva-rapportering og et annet for intern rapportering.
+Hvis du vil holde rede på aktivaavskrivninger samt andre finansielle transaksjoner knyttet til aktiva, definerer du ett eller flere avskrivningstablåer for hvert aktiva i firmaet. Avskrivning gjøres ved å kjøre en rapport for å beregne periodiske avskrivninger og fylle ut en kladd med de resulterende postene, klare til å bokføres. [!INCLUDE[prod_short](includes/prod_short.md)] støtter flere ulike avskrivningsmetoder. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere avskrivningstablåer per aktiva for ulike formål, for eksempel ett for mva-rapportering og et annet for intern rapportering.
 
 For hvert enkelt aktiva kan du registrere vedlikeholdskostnader og dato for neste service. Det kan være viktig å holde oversikt over vedlikeholdsutgifter i forbindelse med budsjettering og dessuten når det gjelder avgjørelser om utskiftning av aktiva.
 
@@ -58,7 +58,7 @@ Følgende video dekker det grunnleggende ved aktiva:
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

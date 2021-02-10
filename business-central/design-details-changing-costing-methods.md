@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 344aa53f965f832d8e7fb2abd3431a1853105c8c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e71ccc7961efdff4dcfc26660f48bafb3d5fd88f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917529"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751733"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Utformingsdetaljer: Endre lagermetode for varer
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du ikke endre lagermetode for en vare etter at du har tatt med varen i en transaksjon. Etter at du for eksempel har kjøpt eller solgt varen. Hvis en feil lagermetode ble tilordnet varen eller varene, kan det være at du ikke oppdager problemet før du har gjort finansrapporteringen.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ikke endre lagermetode for en vare etter at du har tatt med varen i en transaksjon. Etter at du for eksempel har kjøpt eller solgt varen. Hvis en feil lagermetode ble tilordnet varen eller varene, kan det være at du ikke oppdager problemet før du har gjort finansrapporteringen.
 
 Dette emnet beskriver hvordan du løser dette problemet. Den anbefalte fremgangsmåten er å erstatte varen med den uriktige lagermetoden med en ny vare og bruke en monteringsordre til å overføre lageret fra den gamle varen til den nye.
 
@@ -35,7 +35,7 @@ Lagermetoder styrer kostnadsberegninger når varer kjøpes, mottas på lager og 
 
 *bruttofortjeneste* = *omsetning - vareforbruk*
 
-Når du definerer lagervarer, må du tilordne en lagermetode. Metoden kan variere mellom ulike virksomheter og varer, så det er viktig å velge den riktige. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter følgende lagermetoder:
+Når du definerer lagervarer, må du tilordne en lagermetode. Metoden kan variere mellom ulike virksomheter og varer, så det er viktig å velge den riktige. [!INCLUDE[prod_short](includes/prod_short.md)] støtter følgende lagermetoder:
 
 * Gjennomsnitt
 * FIFO
@@ -60,7 +60,7 @@ Denne delen beskriver følgende fremgangsmåte for å endre lagermetoden som er 
 
 ### <a name="define-a-default-costing-method"></a>Definere standard lagermetode
 
-For å unngå fremtidige feil kan du angi en standard lagermetode for nye varer. Når noen oppretter en ny vare, foreslår [!INCLUDE[d365fin](includes/d365fin_md.md)] denne standard lagermetoden. Du angir standardmetoden i feltet **Standard lagermetode** på **Lageroppsett**-siden. 
+For å unngå fremtidige feil kan du angi en standard lagermetode for nye varer. Når noen oppretter en ny vare, foreslår [!INCLUDE[prod_short](includes/prod_short.md)] denne standard lagermetoden. Du angir standardmetoden i feltet **Standard lagermetode** på **Lageroppsett**-siden. 
 
 ### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifisere varene lagermetoden skal endres for, og nummerere dem på nytt
 
@@ -84,7 +84,7 @@ Hvis du vil gjøre slik at de nye varene kan brukes, må du kopiere noen hovedda
 |     |Standardkladder         |Kontroller om standardkladdene refererer til den opprinnelige varen, og overfør disse dataene til den nye varen når det er nødvendig. Denne informasjonen finnes i standardkladdene som er tilgjengelige i varekladden.          |
 |Salg     |Forskuddsprosenter for salg         | Kontroller om forskuddsprosenter for salg er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Salg** på **Varekort**-siden, og deretter **Forskuddsprosenter**.        |
 |Kjøp     |Forskuddsprosenter for kjøp         |Kontroller om forskuddsprosenter for kjøp er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Kjøp** på **Varekort**-siden, og deretter **Forskuddsprosenter**.                 |
-|Lager     |Hylleinnhold         |Se gjennom hylleinnholdet som er definert for den opprinnelige varen. Hvis kolonner som min. ant., maks. ant., standard og dedikert er definert enkeltvis, må du manuelt opprette hylleinnhold for den nye varen. Hvis ikke, kreves det ingen handling. [!INCLUDE[d365fin](includes/d365fin_md.md)] vedlikeholder postene når du registrerer lagerdokumenter og -journaler.|
+|Lager     |Hylleinnhold         |Se gjennom hylleinnholdet som er definert for den opprinnelige varen. Hvis kolonner som min. ant., maks. ant., standard og dedikert er definert enkeltvis, må du manuelt opprette hylleinnhold for den nye varen. Hvis ikke, kreves det ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedlikeholder postene når du registrerer lagerdokumenter og -journaler.|
 |Jobb     |Prosjektpriser         |Kontroller om prosjektpriser er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Denne informasjonen er tilgjengelig på **Prosjektkort**-siden i delen **Prosjektdetaljer - antall priser** i **faktaboksruten**.         |
 |Tjeneste     |Ressurskompetanse for service         |Kontroller om ressurskompetanse for service er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise ressurskompetanse, bruker du handlingen **Ressurskompetanse** på **Varekort**-siden.          |
 |     |Servicevarekomponenter         |Kontroller om komponenter er definert for den opprinnelige servicevaren, og overfør disse dataene til den nye varen. Hvis du vil vise servicevarekomponenter, bruker du **Servicevare**-handlingen på **Varekort**-sideb til å åpne listen over relaterte servicevarer, og deretter velger du **Komponenter**-handlingen.          |
@@ -169,7 +169,7 @@ Når beholdningen for den opprinnelige varen er null, kan du sperre varen for å
 
 ## <a name="summary"></a>Sammendrag
 
-Endring av lagermetoden for varer som er brukt i transaksjoner, er en prosess og ikke en standardhandling i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan bruke fremgangsmåtene som er beskrevet i dette emnet, som en mal for prosessen.
+Endring av lagermetoden for varer som er brukt i transaksjoner, er en prosess og ikke en standardhandling i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bruke fremgangsmåtene som er beskrevet i dette emnet, som en mal for prosessen.
 
 Prosessen kan ta tid fordi det er flere manuelle trinn. Når du tar deg td til å fullføre dett, vil det imidlertid redusere innvirkningen av feil i finans.
 

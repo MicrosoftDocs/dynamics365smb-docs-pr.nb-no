@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 183a127ff9584723c52159397c75d1f17765d81f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ba177ba40a11048a19cd401b18b8e4a5a7198d87
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917679"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752283"
 ---
 # <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
 XBRL, som er en forkortelse for eXtensible Business Reporting Language, er et XML-basert språk for merking av økonomiske data, slik at selskaper kan behandle og dele data på en effektiv og nøyaktig måte. XBRL-initiativet gjør det mulig med global finansrapportering fra flere ERP-programvareselskaper og internasjonale regnskapsorganisasjoner. Målet med initiativet er å skape en standard for enhetlig rapportering av økonomisk informasjon for banker, investorer og myndigheter. Slik forretningsrapportering kan omfatte følgende:  
@@ -27,17 +27,17 @@ XBRL, som er en forkortelse for eXtensible Business Reporting Language, er et XM
  • Ikke-økonomisk informasjon  
  • Lovpålagte innleveringer, for eksempel årsrapporter og kvartalsrapporter.  
 
- Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan selskaper implementere data i XBRL og dra nytte av fleksibiliteten og automatiseringen i innsamling og deling av data.  
+ Med [!INCLUDE[prod_short](includes/prod_short.md)] kan selskaper implementere data i XBRL og dra nytte av fleksibiliteten og automatiseringen i innsamling og deling av data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
-XBRL (e **X**tensible **B**usiness **R**eporting **L**anguage) er et XML-basert språk for finansrapportering. XBRL er en standard for enhetlig rapportering, som kan brukes i alle ledd i forsyningskjeden for finansinformasjon, som for eksempel børsnoterte og privateide selskaper, regnskapsførere, reguleringsinstanser, analytikere, investorer, kapitalmarkeder og långivere, samt viktige tredjeparter som programvareutviklere, datainnsamlere og så videre.  
+XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) er et XML-basert språk for finansrapportering. XBRL er en standard for enhetlig rapportering, som kan brukes i alle ledd i forsyningskjeden for finansinformasjon, som for eksempel børsnoterte og privateide selskaper, regnskapsførere, reguleringsinstanser, analytikere, investorer, kapitalmarkeder og långivere, samt viktige tredjeparter som programvareutviklere, datainnsamlere og så videre.  
 
 Taksonomiene vedlikeholdes av www.xbrl.org. Du kan laste ned taksonomiene og få mer detaljerte opplysninger på webområdet for XBRL.  
 
-En person som ønsker finansinformasjon fra deg, gir deg en taksonomi (et XML-dokument) som inneholder ett eller flere skjemaer med en eller flere linjer som skal fylles ut. Linjene samsvarer med de enkelte økonomiske opplysninger som senderen ber om. Du leser taksonomien inn i programmet og fyller ut skjemaene ved å angi hvilke(n) konto/konti som hører til hver linje, hvilken tidsramme som gjelder, for eksempel bevegelse eller saldo per dato. I noen tilfeller kan du i stedet legge inn en konstant, for eksempel antall ansatte. Du er nå klar til å sende kjøringsdokumentet (et XML-dokument) til den personen som ba om informasjon. Tanken er at dette skjer gjentatte ganger, slik at med mindre det gjøres endringer i taksonomien, trenger du bare eksportere nye kjøringsdokumenter for nye perioder når du blir bedt om det.  
+En person som ønsker finansinformasjon fra deg, gir deg en taksonomi (et XML-dokument) som inneholder ett eller flere skjemaer med en eller flere linjer som skal fylles ut. Linjene samsvarer med de enkelte økonomiske opplysninger som senderen ber om. Du leser taksonomien og fyller ut skjemaene ved å angi hvilke(n) konto/konti som hører til hver linje og hvilken tidsramme som gjelder, for eksempel bevegelse eller saldo per dato. I noen tilfeller kan du i stedet legge inn en konstant, for eksempel antall ansatte. Du er nå klar til å sende kjøringsdokumentet (et XML-dokument) til anmoderen. Tanken er at dette skjer gjentatte ganger, slik at med mindre det gjøres endringer i taksonomien, trenger du bare eksportere nye kjøringsdokumenter for nye perioder når du blir bedt om det.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL består av følgende komponenter  
-XBRL- **spesifikasjonen** forklarer hva XBRL er, hvordan det er mulig å lage kjøringsdokumenter og taksonomier i XBRL. XBRL-spesifikasjonen gir en teknisk forklaring på hva XBRL er, og er rettet mot et publikum som er teknisk kyndig.  
+XBRL- **spesifikasjonen** forklarer hva XBRL er og hvordan det er mulig å lage kjøringsdokumenter og taksonomier i XBRL. XBRL-spesifikasjonen gir en teknisk forklaring på hva XBRL er, og er rettet mot et publikum som er teknisk kyndig.  
 
 XBRL- **skjemaene** er de viktigste grunnkomponentene til XBRL. Skjemaet er den fysiske XSD-filen som uttrykker hvordan kjøringsdokumenter og taksonomier bygges opp.  
 
@@ -74,11 +74,14 @@ Du definerer XBRL-linjer ved å tilordne taksonomidataene til finansdataene.
 6.  Hvis du vil definere tilordningen av finanskontiene i kontoplanen for XBRL-linjer, velger du **Knytt til finans**.  
 7.  Hvis du vil legge til merknader i regnskapet, velger du **Merknader**.  
 
-> [!NOTE]  
->  Du kan bare eksportere data som tilsvarer kildetypen du har valgt i **Kildetype**-feltet, som inkluderer beskrivelse og merknader.  
+   > [!TIP]
+   > Hvis du vil utelate linjer fra eksporten, velger du **IKKE I BRUK** som kildetypen.
 
-> [!NOTE]  
->  Linjer som ikke er relevante, kan merkes med **IKKE I BRUK** slik at linjene ikke eksporteres.
+   > [!NOTE]  
+   > Du kan bare eksportere data som samsvarer med det du har valgt i feltet **Kildetype**. Dette omfatter beskrivelser og merknader.  
+
+   > [!NOTE]  
+   > Taksonomier kan inneholde elementer som [!INCLUDE[prod_short](includes/prod_short.md)] ikke støtter. Hvis et element ikke støttes, viser feltet **Kildetype** **Ikke i bruk** og feltet **Beskrivelse** viser en feilmelding, for eksempel **Uventet type: spesifikk type er ikke gjenkjent**. Hvis du må eksportere elementet, velger du en tilsvarende kildetype. Dette er vanligvis en konstant eller en beskrivelse. Dette gir deg muligheten til å skrive inn og eksportere data, slike elementer kan imidlertid ha valideringsregler som ikke kan kontrolleres før eksportert.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Slik importerer du en XBRL-taksonomi  
 Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i selskapsdatabasen. En taksonomi består av ett eller flere skjemaer og noen koblingsbaser. Når du har fullført innlesingen av både skjemaer og koblingsbaser, og har brukt koblingsbasene på skjemaet, kan du definere linjene og tilordne finanskontiene i kontoplanen til riktig taksonomilinje.  
@@ -110,4 +113,4 @@ Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    
 [Forretningsintelligens](bi.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9a8a7967bdb0947fbfb0b86cc073fc4f96ea0595
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5e14b19b2e8be97a683dfbb9fb7a46e2c825b4e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920591"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750808"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbakeføre kladdebokføringer og angre mottak/leveringer
 Hvis du vil angre en feilaktig kladdebokføring, velger du posten og oppretter en tilbakeføringspost (poster som er identiske med den opprinnelige posten, men med motsatt fortegn i beløpsfeltet) med samme bilagsnummer og bokføringsdato som den opprinnelige posten. Når du har tilbakeført en post, må du lage den riktige posten.
@@ -84,4 +84,4 @@ Følgende beskriver hvordan du angrer en bokført returforsendelse av varer elle
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

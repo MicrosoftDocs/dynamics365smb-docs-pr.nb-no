@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: fd26f288ee6128539c9a8dd415d98126d693c3fe
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2eb3b42c5b76487d579065b9a60ae614bbb71dda
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926625"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748621"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Utligne betalinger automatisk og avstemme bankkonti
-Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan utføre denne oppgaven på siden **Betalingsavstemmingskladd**, for eksempel ved å importere en bankkontoutdragsfil eller feed for hurtig å registrere betalinger. Betalinger brukes til å åpne kunde- eller leverandørpostoppføringer basert på sammenligninger mellom betalingstekst og oppføringsinformasjon. Du kan se gjennom og endre automatiske utligninger før du bokfører kladden. Du kan velge å lukke alle åpne bankposter relatert til de utlignede postene når du bokfører kladden. Bankkontoen avstemmes automatisk når alle betalinger er utlignet.
 
@@ -30,7 +30,7 @@ Du kan også avstemme bankkonti uten å utligne betalinger samtidig. Du kan gjø
 
 Hvis du vil importere bankkontoutdrag som en bankfeed, må du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).  
 
-Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
+Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
@@ -48,4 +48,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 98916c0843d84c76529e7b6f475ba207b2590a08
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911183"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751683"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensjonssettposter – oversikt
-Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Dimensjonssett  
 Et dimensjonssett er en unik kombinasjon av dimensjonsverdier. Det lagres som dimensjonssettposter i databasen. Hver dimensjonssettpost representerer én enkelt dimensjonsverdi. Dimensjonssettet identifiseres av en felles dimensjonssett-ID som tilordnes hver dimensjonssettpost som tilhører dimensjonssettet.  

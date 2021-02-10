@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd2ff853ba4e98115988b318663714ef4a842719
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: caa9a0445a001620d403d5298921bf9a25b35a94
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919417"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750033"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet på **Reservasjon**-siden.
@@ -98,4 +98,4 @@ Følgende fremgangsmåte er basert på en ordre.
 [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

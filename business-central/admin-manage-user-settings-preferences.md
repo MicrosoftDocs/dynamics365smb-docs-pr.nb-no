@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
 ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: a08845f3465e24036abcb82ea6d2917deda24663
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 25b3c8a795c1a3f9d08ae0971da88b78e4d29b25
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911308"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752578"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Behandle brukerinnstillinger og innstillinger
 
-Du kan som administrator behandle brukerinnstillinger i [!INCLUDE[d365fin](includes/d365fin_md.md)], på samme måte som enkeltbrukere kan behandle sine egne innstillinger på siden **Mine innstillinger**.  
+Du kan som administrator behandle brukerinnstillinger i [!INCLUDE[prod_short](includes/prod_short.md)], på samme måte som enkeltbrukere kan behandle sine egne innstillinger på siden **Mine innstillinger**.  
 
 ## <a name="types-of-user-settings"></a>Typer brukerinnstillinger
 
@@ -31,27 +31,27 @@ Du kan som administrator behandle brukerinnstillinger i [!INCLUDE[d365fin](inclu
 
 - **Profil (roller)**  
 
-  Profilen beskriver brukerens funksjon i selskapet, for eksempel *salgssjef*, *regnskapsfører* eller *innkjøper*. Profilen bestemmer deretter brukerens rollesenter, hjemmesiden som brukerne vil se når de logger på. Profilen påvirker ikke tilgangsrettigheter til funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+  Profilen beskriver brukerens funksjon i selskapet, for eksempel *salgssjef*, *regnskapsfører* eller *innkjøper*. Profilen bestemmer deretter brukerens rollesenter, hjemmesiden som brukerne vil se når de logger på. Profilen påvirker ikke tilgangsrettigheter til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 - **Lokal ID (områdeinnstillinger)**  
 
-  Definerer hvordan datoer og numre presenteres i [!INCLUDE[d365fin](includes/d365fin_md.md)]-klienten, for eksempel om det skal brukes europeiske eller amerikanske datoformater, eller hvordan desimaltegn og tusenskilletegn skal vises i beløp. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere synkroniseres fra Microsoft 365, brukes områdeinnstillinger fra Microsoft 365, og det antas at brukeren vil bruke de samme innstillingene i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruker kan endre disse innstillingene manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de tilbakestilles til verdien fra Microsoft 365 når den neste synkroniseringen blir utført.
+  Definerer hvordan datoer og numre presenteres i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten, for eksempel om det skal brukes europeiske eller amerikanske datoformater, eller hvordan desimaltegn og tusenskilletegn skal vises i beløp. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brukere synkroniseres fra Microsoft 365, brukes områdeinnstillinger fra Microsoft 365, og det antas at brukeren vil bruke de samme innstillingene i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. En administrator eller bruker kan endre disse innstillingene manuelt i [!INCLUDE[prod_short](includes/prod_short.md)], men de tilbakestilles til verdien fra Microsoft 365 når den neste synkroniseringen blir utført.
 
 - **Språk**  
 
-  Definerer programspråket som [!INCLUDE[d365fin](includes/d365fin_md.md)] presenterer tekst, titler og feilmeldinger i. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere synkroniseres fra Microsoft 365, brukes språkinnstillinger fra Microsoft 365, og det antas at brukeren vil bruke de samme innstillingene i Office-produkter og [!INCLUDE[d365fin](includes/d365fin_md.md)]. En administrator eller bruker kan endre disse innstillingene manuelt i [!INCLUDE[d365fin](includes/d365fin_md.md)], men de tilbakestilles til verdien fra Microsoft 365 når den neste synkroniseringen blir utført.
+  Definerer programspråket som [!INCLUDE[prod_short](includes/prod_short.md)] presenterer tekst, titler og feilmeldinger i. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brukere synkroniseres fra Microsoft 365, brukes språkinnstillinger fra Microsoft 365, og det antas at brukeren vil bruke de samme innstillingene i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. En administrator eller bruker kan endre disse innstillingene manuelt i [!INCLUDE[prod_short](includes/prod_short.md)], men de tilbakestilles til verdien fra Microsoft 365 når den neste synkroniseringen blir utført.
 
-  Hvis språkinnstillingen fra Microsoft 365 samsvarer med et språk som støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)], velges dette språket for brukeren.  
+  Hvis språkinnstillingen fra Microsoft 365 samsvarer med et språk som støttes i [!INCLUDE[prod_short](includes/prod_short.md)], velges dette språket for brukeren.  
 
   > [!NOTE]
-  > Du må kanskje installere en språkapp for [!INCLUDE[d365fin](includes/d365fin_md.md)] for å kunne vise språket. Det er derfor en god praksis å installere de nødvendige språkappene før alle brukere logger på for første gang, slik at de får en god opplevelse den første dagen. Hvis du vil ha mer informasjon, kan du se listen over [språk som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+  > Du må kanskje installere en språkapp for [!INCLUDE[prod_short](includes/prod_short.md)] for å kunne vise språket. Det er derfor en god praksis å installere de nødvendige språkappene før alle brukere logger på for første gang, slik at de får en god opplevelse den første dagen. Hvis du vil ha mer informasjon, kan du se listen over [språk som støttes](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
   
 - **Tidssone**  
 
   Definerer tidssonen brukeren befinner seg i. Dette synkroniseres for øyeblikket ikke fra Microsoft 365 og må angis manuelt.  
 
 > [!NOTE]
-> Hvis det gjøres en Microsoft 365-brukersynkronisering mens brukerne er logget på [!INCLUDE[d365fin](includes/d365fin_md.md)], må disse brukerne oppdatere nettleseren eller logge av og på [!INCLUDE[d365fin](includes/d365fin_md.md)] for å se et mulig språk som er angitt av synkroniseringshandlingen.
+> Hvis det gjøres en Microsoft 365-brukersynkronisering mens brukerne er logget på [!INCLUDE[prod_short](includes/prod_short.md)], må disse brukerne oppdatere nettleseren eller logge av og på [!INCLUDE[prod_short](includes/prod_short.md)] for å se et mulig språk som er angitt av synkroniseringshandlingen.
 
 ## <a name="overview-of-all-user-settings"></a>Oversikt over alle brukerinnstillinger
 

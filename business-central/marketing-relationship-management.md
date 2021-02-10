@@ -12,17 +12,17 @@ ms.workload: na
 ms.search.keywords: contact, prospect, client
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 00ffaf4cefa87ad530a94495386998d65be4fdc5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6c1539b19274c4e31fa66b31af17be5429c719f5
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923523"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4745969"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
-Funksjonen for forbindelser i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
+Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
 
-God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.
+God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[prod_short](includes/prod_short.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 

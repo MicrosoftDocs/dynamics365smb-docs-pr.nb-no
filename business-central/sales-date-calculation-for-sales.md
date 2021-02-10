@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a8f272b73f7cc5940f2e0b845c62fd28395b6923
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 26782d211d205bb5414c5bd423ccf240f70f197e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926325"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748471"
 ---
 # <a name="date-calculation-for-sales"></a>Beregne dato for salg
-[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.
+[!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.
 
 Hvis en kunde har bedt om en bestemt leveringsdato, beregnes datoen varene må være tilgjengelige for plukking, for at leveringsdatoen skal kunne innfris.
 
@@ -45,4 +45,4 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 ## <a name="see-also"></a>Se også  
  [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

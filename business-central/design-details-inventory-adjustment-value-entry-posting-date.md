@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b40af343751d99d3e16f2a6ac7a57f85d40a2ba4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fe03f25c4f9024cb82b83af915e69073d2fdcf1e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913788"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751508"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetaljer: Bokføringsdato på verdiposten for justering
-Denne artikkelen gir en beskrivelse av funksjonen for kostberegning av beholdning i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Denne artikkelen beskriver hvordan kjørselen **Juster kostverdi - vareposter** identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.  
+Denne artikkelen gir en beskrivelse av funksjonen for kostberegning av beholdning i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne artikkelen beskriver hvordan kjørselen **Juster kostverdi - vareposter** identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.  
 
 Først gjennomgås begrepet om prosessen, hvordan kjørselen identifiserer og tilordner bokføringsdatoen til verdiposten som skal opprettes. Deretter formidler vi noen scenarier som vi i støtteteamet møter på med jevne mellomrom, og til slutt er det en oppsummering av begrepene fra versjon 3.0.  
 

@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: margoc
-ms.openlocfilehash: d0ab1b4894c9e8c586692e17210e8254eadb57eb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c4a12f7a79840790a98c2a3a19a845fdd1bb91c2
+ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926650"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4367962"
 ---
 # <a name="partner-sales-and-marketing-learning-catalog"></a>Læringskatalog for salg og markedsføring for partner
 
@@ -39,11 +39,10 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 
 | Innhold   | Beskrivelse        | Format                                | Lengde                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Bare partnere) Bli med Errol Schoenfish, direktør for produktmarkedsføring, mens han snakker om hvordan du kan ha overbevisende samtaler med kundeemner på Microsoft Dynamics 365 Business Central.   | Video    | 11 minutter 15 sekunder |
-| [Søk etter kundehistorier](https://customers.microsoft.com/search?sq=%22Dynamics%20365%20Business%20Central%20%22&ff=&p=0&so=story_publish_date%20desc)  | Søk etter kundereferansehistorier for Dynamics 365 Business Central på [https://customer.microsoft.com](https://customer.microsoft.com).  | Nettsted |                       |
+| [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Bare partnere) Bli med Errol Schoenfish, direktøren for produktmarkedsføring, mens han snakker om hvordan du kan ha overbevisende samtaler med kundeemner på Microsoft Dynamics 365 Business Central.   | Video    | 11 minutter 15 sekunder |
 | [Program for leverandør av skytjenester](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Bare partnere) Om program for leverandør av skyløsninger     | Nettsted |                       |
 | [Markedsføring i en skyverden](https://mbspartner.microsoft.com/OSS/Topic/19) | (Bare partner) Hvordan gjøre det mulig å optimalisere markedsføringspraksisen og justere markedsføringsprinsippene for en skytjeneste er en primær faktor for å finne ut hvor vellykket eller mislykket organisasjonen går fremover. Denne serien med videoer og ressurser inneholder gode fremgangsmåter for markedsføring, verktøy for oppretting av innhold, nyttige tips og verktøy for å bruke prinsipper for markedsføring i skyen til å skape økt etterspørsel etter løsningene dine. | Emneside | 35 minutter |
 | [Program for leverandør av skyløsninger - selge etterspurte skyløsninger](https://docs.microsoft.com/partner-center/csp-overview)  | Programmet for leverandør av skyløsninger (CSP) hjelper deg med å gå lenger enn å videreselge lisenser til å være mer involvert i kundens virksomhet.   | Nettsted      |                       |
 | [Program for leverandør av skyløsninger - sammenligne partnerstøtteprogrammer](https://partner.microsoft.com/support/partnersupport) | Se denne videoen for å se hvordan du kan velge den riktige planen for partnerstøtte for bedriften. Deretter ser du en side ved side-sammenligning nedenfor.    | Nettsted                               |                       |
-| [Cloud SureStep-akselerert salg](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Bare partnere) Prosessen Cloud SureStep SureStep-akselerert salg er bygget rundt behovene til moderne kjøpere og søker å utløse en emosjonell, erfaringsdrevet strategisk vendepunkt tidlig i salgsprosessen. Denne serien med videoer og ressurser forklarer en normativ salgsprosess som er spesielt utformet for å motvirke den tradisjonelle ressursintensive, "demo-orienterte" tilnærmingen til salg som vanligvis fører til svært tilpassede produktdemonstrasjoner, komplekse salgssykluser og lange implementeringsprosjekter. Ressursblioteket omfatter en rekke tilpassbare maler, slik at du kan opprette ditt eget sett med salgsressurser for å støtte akselerert salg. | Nettsted     |                       |
-| [Tillegg til strategiplanen for overgangspartner (juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette tillegget til strategiplanen for overgangspartner gir oppdatert og ny veiledning for partnere for å sikre den eksisterende kundebasen mot konkurransen og nye SaaS-konkurrenter.  | PowerPoint-lysbildefremvisning | 15 lysbilder |
+| [Cloud SureStep-akselerert salg](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Bare partnere) Prosessen Cloud SureStep SureStep-akselerert salg er bygget rundt behovene til moderne kjøpere og søker å utløse en emosjonell, erfaringsdrevet strategisk vendepunkt tidlig i salgsprosessen. Denne serien med videoer og ressurser forklarer en normativ salgsprosess som er spesielt utformet for å motvirke den tradisjonelle ressursintensive, demoorienterte tilnærmingen til salg som vanligvis fører til svært tilpassede produktdemonstrasjoner, komplekse salgssykluser og lange implementeringsprosjekter. Ressursblioteket omfatter en rekke tilpassbare maler, slik at du kan opprette ditt eget sett med salgsressurser for å støtte akselerert salg. | Nettsted     |                       |
+| [Tillegg til strategiplanen for overgangspartner (juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette tillegget til strategiplanen for overgangspartner gir oppdatert og ny veiledning for partnere for å sikre den eksisterende kundebasen mot konkurransen og nye SaaS-konkurrenter.  | PowerPoint-lysbildefremvisning | 15 lysbilder |

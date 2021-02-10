@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 65331f8c60c57bd87e3a459012a9a5678d033790
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: eabb6962dba09e7837e271f3ad2d6b14313941e3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920577"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746919"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
-Dette emnet beskriver rapportene i [!INCLUDE[d365fin](includes/d365fin_md.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen. 
+Dette emnet beskriver rapportene i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen. 
 
 Du kan bruke følgende rapporter:
 
@@ -28,7 +28,7 @@ Du kan bruke følgende rapporter:
 Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. Hvis du vil vise MVA-oppføringer, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **MVA-oppføringer** og velger deretter den relaterte koblingen.
 
 > [!NOTE]
-> Hvert [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljø er ment å håndtere samsvarsrapporter i ett enkelt land. Den nederlandske versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] håndterer for eksesmpel mva-rapportering i Nederland, men ikke i andre land. På samme måte håndterer USA-versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] 1099-rapportering i USA og støtter ikke mva-rapportering i andre land, med mindre via en utvidelse som leveres av partnerøkosystemet eller en kundespesifikk kodeendring.
+> Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø er ment å håndtere samsvarsrapporter i ett enkelt land. Den nederlandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] håndterer for eksesmpel mva-rapportering i Nederland, men ikke i andre land. På samme måte håndterer USA-versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportering i USA og støtter ikke mva-rapportering i andre land, med mindre via en utvidelse som leveres av partnerøkosystemet eller en kundespesifikk kodeendring.
 
 ## <a name="about-the-ec-sales-list-report"></a>Om rapporten EU-salg - oversikt
 Storbritannia, må alle selskapene som selger varer og tjenester til mva-registrerte kunder, inkludert kunder i andre EU EU-land, sende en elektronisk versjon av rapporten i XML-format gjennom Her Majesty Salgsoversikt europeisk gruppen (EU) Nettstedet for inntekts- og avgiftsmyndighetene (HMRC). Rapporten EU-salg - oversikt fungerer bare for land i EU.
@@ -41,7 +41,7 @@ Rapporten inneholder én linje for hver type transaksjon med kunden og viser det
 
 B2B-varer og -tjenester angir om du har solgt en vare eller en service, og styres av innstillingen for **EU-tjeneste** i mva-bokføringsoppsettet. Triangulerte B2B-varer angir om du handlet med en tredjepart, og styres av innstillingen for **Trekanthandel** i salgsdokumenter, for eksempel ordrer, fakturaer, kreditnotaer og så videre.  
 
-Når skattemyndigheten har sett gjennom rapporten, sender de en e-postmelding til kontaktpersonen for selskapet. I [!INCLUDE[d365fin](includes/d365fin_md.md)] er kontaktpersonen angitt på siden **Selskapsopplysninger**. Før du sender inn rapporten, kontrollerer du at du har valgt en kontaktperson.
+Når skattemyndigheten har sett gjennom rapporten, sender de en e-postmelding til kontaktpersonen for selskapet. I [!INCLUDE[prod_short](includes/prod_short.md)] er kontaktpersonen angitt på siden **Selskapsopplysninger**. Før du sender inn rapporten, kontrollerer du at du har valgt en kontaktperson.
 
 ## <a name="about-the-vat-return-report"></a>Om rapporten Omsetningsoppgave
 Bruk denne rapporten til å sende inn mva for salg og kjøpsdokumenter, for eksempel innkjøp og ordrer, fakturaer og kreditnotaer. Informasjonen i rapporten vises i samme format som i deklarasjonen fra toll- og avgiftsmyndighetene.  
@@ -54,9 +54,9 @@ For omsetningsoppgaven kan du angi postene som skal tas med:
 * Sende inn bare poster fra de angitte periodene, eller også ta med poster fra tidligere perioder. Dette er nyttig hvis du vil oppdatere en omsetningsoppgave du har allerede har sendt, for eksempel hvis en leverandør sender en faktura for sent.    
 
 ## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Koble til webtjenesten til skattemyndigheten
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har tjenestetilkoblinger til nettstedene til skattemyndigheten. Hvis du har Storbritannia, kan du aktivere den **GovTalk** service tilkobling sende EU Salgsoversikt og gå tilbake mva-rapporter elektronisk. Hvis du vil sende rapporten manuelt, er for eksempel ved dataregistrering for skattemyndighetene webområde, ikke nødvendig.   
+[!INCLUDE[prod_short](includes/prod_short.md)] har tjenestetilkoblinger til nettstedene til skattemyndigheten. Hvis du har Storbritannia, kan du aktivere den **GovTalk** service tilkobling sende EU Salgsoversikt og gå tilbake mva-rapporter elektronisk. Hvis du vil sende rapporten manuelt, er for eksempel ved dataregistrering for skattemyndighetene webområde, ikke nødvendig.   
 
-For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!INCLUDE[d365fin](includes/d365fin_md.md)]til webtjenesten til skattemyndigheten. Dette krever at du oppretter en konto hos skattemyndigheten. Når du har en konto, kan du aktivere en tjenestetilkobling vi gir i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!INCLUDE[prod_short](includes/prod_short.md)]til webtjenesten til skattemyndigheten. Dette krever at du oppretter en konto hos skattemyndigheten. Når du har en konto, kan du aktivere en tjenestetilkobling vi gir i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter den aktuelle koblingen.
 2. Fyll ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -64,7 +64,7 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
     > [!NOTE]  
     > Det er lurt å teste tilkoblingen. Du gjør dette ved å merke av for **Testmodus** og deretter forberede og sende mva-rapporten som beskrevet i delen _Forberede og sende inn en omsetningsoppgave_. I testmodus tester tjenesten om skattemyndighetene kan motta rapporten, og statusen for rapporten angir om testinnsendingen var vellykket. Det er viktig å huske at dette ikke er en faktisk innsending. Hvis du vil faktisk sende inn rapporten, må du fjerne merket for **Testmodus** og deretter gjenta innsendingsprosessen.
 
-## <a name="to-set-up-vat-reports-in-d365fin"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+## <a name="to-set-up-vat-reports-in-prod_short"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-rapportoppsett**, og velg deretter den relaterte koblingen.  
 2. Hvis du vil at brukere skal kunne endre rapporten og sende den inn på nytt, merker du av for **Endre sendte rapporter**.  
 3. Velg nummerserien som skal brukes for hver rapport.  
@@ -79,10 +79,10 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
 4. Du validerer og klargjør rapporten for innsending ved å velge handlingen **Frigi**.  
 
     > [!NOTE]  
-    > [!INCLUDE[d365fin](includes/d365fin_md.md)] validerer om rapporten er riktig definert. Hvis valideringen mislykkes, vises feilene under **Feil og advarsler**, slik at du vet hva du må løse. Vanligvis, hvis meldingen er om en manglende innstilling i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du klikke meldingen for å åpne siden som inneholder informasjon for å korrigere.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)] validerer om rapporten er riktig definert. Hvis valideringen mislykkes, vises feilene under **Feil og advarsler**, slik at du vet hva du må løse. Vanligvis, hvis meldingen er om en manglende innstilling i [!INCLUDE[prod_short](includes/prod_short.md)], kan du klikke meldingen for å åpne siden som inneholder informasjon for å korrigere.  
 5. Du sender inn rapporten ved å velge handlingen **Send**.  
 
-Når du har sendt inn rapporten, overvåker [!INCLUDE[d365fin](includes/d365fin_md.md)] tjenesten og holder en oversikt over kommunikasjonen din. **Status**-feltet angir hvor rapporten er i prosessen. Når myndighetene behandler rapporten, endres for eksempel statusen til **Vellykket**. Hvis skattemyndigheten finner feil i rapporten du har sendt inn, blir statusen for rapporten **Mislyktes**. Du kan vise feilene under **Feil og advarsler**, rette dem og deretter sende inn rapporten på nytt. Hvis du vil se en oversikt over alle rapportene for EU-salg - oversikt, går du til siden **Rapporter for EU-salg - oversikt**.  
+Når du har sendt inn rapporten, overvåker [!INCLUDE[prod_short](includes/prod_short.md)] tjenesten og holder en oversikt over kommunikasjonen din. **Status**-feltet angir hvor rapporten er i prosessen. Når myndighetene behandler rapporten, endres for eksempel statusen til **Vellykket**. Hvis skattemyndigheten finner feil i rapporten du har sendt inn, blir statusen for rapporten **Mislyktes**. Du kan vise feilene under **Feil og advarsler**, rette dem og deretter sende inn rapporten på nytt. Hvis du vil se en oversikt over alle rapportene for EU-salg - oversikt, går du til siden **Rapporter for EU-salg - oversikt**.  
 
 ## <a name="viewing-communications-with-your-tax-authority"></a>Vise kommunikasjon med skattemyndigheten
 I enkelte land utveksler du meldinger med skattemyndigheten når du sender inn rapporter. Du kan vise den første og siste meldingen du har sendt eller mottatt, ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding**.  

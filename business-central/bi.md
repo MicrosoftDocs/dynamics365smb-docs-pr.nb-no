@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 006df06509175a19ee63317ee89526192a924808
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: aa4cfa543fc7c5cf1ea527468a50bc80afcaeade
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924331"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752133"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
-Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
+Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
 
 Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens. En dimensjon er data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Blant annet bruker du dimensjoner når du definerer analysevisninger, og når du oppretter kontoskjemaer for rapportering. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
 
@@ -44,6 +44,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

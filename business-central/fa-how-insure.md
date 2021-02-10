@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 38e983f1491d4836db6a2d3f294d29e1b03c53d9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2ffddd60158a328916b891f0730c1f25684b04a1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920675"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749396"
 ---
 # <a name="insure-fixed-assets"></a>Forsikre aktiva
 En forsikringspolise for et aktiva representeres av et forsikringskort. Du kan tilordne ett aktiva til én forsikringspolise eller flere aktiva til én forsikringspolise.
@@ -70,7 +70,7 @@ Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de
 5. Åpne den aktuelle forsikringskladden, gå gjennom verdiene som er opprettet, og bokfør dem deretter i forsikringsdekningsposten.  
 
 ## <a name="to-monitor-insurance-coverage"></a>Slik kontrollerer du forsikringsdekningen:
-[!INCLUDE[d365fin](includes/d365fin_md.md)] tilbyr dedikerte rapporter og statistikksider for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
+[!INCLUDE[prod_short](includes/prod_short.md)] tilbyr dedikerte rapporter og statistikksider for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
 
 ### <a name="overview-of-insurance-policies"></a>Oversikt over forsikringspoliser
 For å få en oversikt over forsikringspolisene, forhåndsvis eller skriv ut rapporten **Forsikring - oversikt**. Rapporten viser alle policyene og de viktigste feltene fra forsikringskortene.  
@@ -118,4 +118,4 @@ Aktivaet frigjøres fra den gale forsikringspolisen på den andre linjen, og kny
 [Aktiva](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

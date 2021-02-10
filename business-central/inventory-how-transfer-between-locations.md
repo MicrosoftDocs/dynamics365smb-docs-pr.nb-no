@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: move, warehouse
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 79dfe973780269480285bac6aca380461b1ab403
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f406a44a3d786c06ea1ac1e61d5b51bb97b67f12
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913299"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746144"
 ---
 # <a name="transfer-inventory-between-locations"></a>Overføre beholdning mellom lokasjoner
 Du kan overføre lagervarer mellom lokasjoner ved å opprette overføringsordrer. Du kan også bruke varereklassifiseringskladden.
@@ -63,6 +63,6 @@ Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  
 [Definer lokasjoner](inventory-how-setup-locations.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

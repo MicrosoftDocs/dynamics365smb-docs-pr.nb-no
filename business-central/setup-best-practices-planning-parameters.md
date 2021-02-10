@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a1f6002f0c57530282b5688c0fe81c36a1d4e7e1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5b9a2064605d34e4c78bbd9cae5cddbaead70f29
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912924"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747871"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
 Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.  
@@ -45,4 +45,4 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: feeb8913f54b003d003caf1363194cbcf1a7a2b8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3925008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749046"
 ---
 # <a name="about-production-orders"></a>Om produksjonsordrer
 Produksjonsordrer brukes til å håndtere konverteringen av kjøpt materiale til produserte varer. Produksjonsordrer dirigerer arbeid gjennom ulike arbeidssentre eller produksjonsressurser i produksjonen.  
@@ -234,4 +234,4 @@ I produksjonskladden bokføres forbruksantall som negative vareposter, avgangsan
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

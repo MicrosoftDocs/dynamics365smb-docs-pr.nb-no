@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: policy, coverage
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e7396b4acfbed7199e1364287cfb7e8dcbe57c19
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c5c9af3a076647380e2f6bed8ef7d0a55c3d8efe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924231"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749296"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere aktivaforsikring
 Hvis du vil behandle forsikringsdekning for aktiva, må du først sette opp noen generelle forsikringsopplysninger og et forsikringskort per polise.
 
 ## <a name="to-set-up-general-insurance-information"></a>Slik definerer du generelle forsikringsopplysninger
-Hvis du vil bruke forsikringsfunksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du angi noen generelle forsikringsopplysninger.  
+Hvis du vil bruke forsikringsfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)], må du angi noen generelle forsikringsopplysninger.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -42,7 +42,7 @@ Du kan samle opplysninger om hver enkelt forsikringspolise på forsikringskortet
 3. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Slik definerer du forsikringskladdemaler
-[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en forsikringskladdemal første gang du åpner **Forsikringskladd**-siden, men du kan definere flere kladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en forsikringskladdemal første gang du åpner **Forsikringskladd**-siden, men du kan definere flere kladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forsikringskladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -62,4 +62,4 @@ Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

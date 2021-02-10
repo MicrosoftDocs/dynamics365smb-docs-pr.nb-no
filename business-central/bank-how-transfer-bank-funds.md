@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 746c5be8f77f7afd7a65de17c9893ce1a16fccb2
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 934124d419e19c1dc8180f11fcae748cd2afd15d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924406"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752358"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankkapital
-Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på siden **Finanskladd**. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
+Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på siden **Finanskladd**. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Bokføre en overføring mellom bankkonti med samme valutakode
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
@@ -57,4 +57,4 @@ Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

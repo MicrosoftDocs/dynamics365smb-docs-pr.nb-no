@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e88cc5ad2eaf449d22dd0c9840a4fc33ae0f56f7
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4d19fceae0fd5c9b72910880d0f87b21206e8f47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916171"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750833"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere ansattes utgifter
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter transaksjoner for en ansatt på lignende måte som for leverandører. Derfor finnes det bokføringsgrupper for de ansatte for å sikre at de ansattes finansposter bokføres til de relevante kontiene i Finans.
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter transaksjoner for en ansatt på lignende måte som for leverandører. Derfor finnes det bokføringsgrupper for de ansatte for å sikre at de ansattes finansposter bokføres til de relevante kontiene i Finans.
 
 > [!NOTE]  
 > Ansattes transaksjoner kan bare bokføres i den lokale valutaen. Refusjonsutbetalinger til de ansatte støtter ikke rabatter og betalingstoleranser.
@@ -59,4 +59,4 @@ Du utligner ansattes utbetalinger til de relaterte åpne finanspostene for de an
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

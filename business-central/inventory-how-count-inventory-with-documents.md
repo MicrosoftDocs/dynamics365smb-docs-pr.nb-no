@@ -1,5 +1,5 @@
 ---
-title: Telle lagerbeholdning med dokumentetbasert funksjonalitet | Microsoft Docs
+title: Telle lagerbeholdning med dokumentbasert funksjonalitet
 description: Beskriver hvordan du utfører vareopptelling ved hjelp av sidene for vareopptellingsordrer og registrering for vareopptelling.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,23 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/01/2020
+ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: ff2bd25a76da32ad680bc94cff8801ca5328ad00
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3403d0536b195517f6924a803342b4301e39591a
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923848"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750183"
 ---
 # <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
+
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
 
-Rapporten **Registrering for vareopptelling** kan skrives ut fra hver registrering og inneholder tomme felt for antall for å angi den opptalte lagerbeholdningen. Når en bruker er ferdig med å telle, og antallet angis på siden **Registrering for vareopptelling**, kan du velge **Fullfør**-handlingen. Dette overfører antallet i de relaterte linjene på siden **Vareopptellingsordre**. Funksjonalitet sikrer at ingen vareopptelling kan registreres to ganger.      
+Rapporten **Registrering for vareopptelling** kan skrives ut fra hver registrering og inneholder tomme felt for antall for å angi den opptalte lagerbeholdningen. Når en bruker er ferdig med å telle, og antallet angis på siden **Registrering for vareopptelling**, kan du velge **Fullfør**-handlingen. Dette overfører antallet i de relaterte linjene på siden **Vareopptellingsordre**. Funksjonalitet sikrer at ingen vareopptelling kan registreres to ganger.  
 
 > [!NOTE]
-> Fremgangsmåten nedenfor beskriver hvordan du utfører en vareopptelling ved hjelp av dokumenter, en metode som gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Du kan også utføre aktiviteten ved hjelp av kladder, på sidene **Vareopptellingskladder** og **Lagervareopptellingskladd**. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)<br /><br />
-> Vær oppmerksom på at hvis du bruker funksjonen Hyller eller Soner, kan du ikke bruke vareopptellingsordrer. I stedet kan du bruke siden **Lagervareopptellingskladd** til å telle lagerpostene før synkronisering med varepostene.
+> Denne artikkelen beskriver hvordan du utfører en vareopptelling ved hjelp av dokumenter, en metode som gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Du kan også utføre aktiviteten ved hjelp av kladder, som sidene **Vareopptellingskladder** og **Lagervareopptellingskladd**. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)<br /><br />
+> Vær oppmerksom på at hvis du bruker funksjonen Soner, kan du ikke bruke vareopptellingsordrer. I stedet kan du bruke siden **Lagervareopptellingskladd** til å telle lagerpostene før synkronisering med varepostene.
 
 Telling av beholdningen ved hjelp av dokumenter består av følgende generelle trinn:
 
@@ -46,11 +47,11 @@ Hvis du vil opprette vareopptellingsordrelinjer, bruker du vanligvis funksjonen 
 6. Angi filtre, for eksempel for å inkludere bare et delsett av varene som skal telles sammen med den første registreringen.
 
     > [!TIP]
-    > Hvis du vil planlegge for flere ansatte for vareopptelling, er det lurt å angi forskjellige filtre hver gang du bruker handlingen **Beregn linjer**, for å bare fylle ordren med delsettet av lagervarer som én bruker skal registrere. Når du deretter genererer flere vareopptellingsregistreringer for flere ansatte, kan du minimere risikoen for å telle varene to ganger. Hvis du vil ha mer informasjon, kan du se delen "Slik opprettes en vareopptellingsregistrering".
+    > Hvis du vil planlegge for flere ansatte for vareopptelling, er det lurt å angi forskjellige filtre hver gang du bruker handlingen **Beregn linjer**, for å bare fylle ordren med delsettet av lagervarer som én bruker skal registrere. Når du deretter genererer flere vareopptellingsregistreringer for flere ansatte, kan du minimere risikoen for å telle varene to ganger. Hvis du vil ha mer informasjon, kan du se delen [Slik opprettes en vareopptellingsregistrering](#to-create-a-physical-inventory-recording).
 
-7.  Velg **OK**-knappen.
+7. Velg **OK**-knappen.
 
-En linje for hver vare som finnes i den valgte lokasjonen, og per angitte filtre og alternativer, settes inn på ordren. For varer som er definert for varesporing, merkes det av for **Bruk varesporing**, og opplysninger om forventet antall for serie- og partinumre er tilgjengelig ved å velge **Linjer**-handlinger og deretter **Varesporingslinjer**. Hvis du vil ha mer informasjon, kan du se delen "Håndtering av varesporing ved telling av varelager".
+En linje for hver vare som finnes i den valgte lokasjonen, og per angitte filtre og alternativer, settes inn på ordren. For varer som er definert for varesporing, merkes det av for **Bruk varesporing**, og opplysninger om forventet antall for serie- og partinumre er tilgjengelig ved å velge **Linjer**-handlinger og deretter **Varesporingslinjer**. Hvis du vil ha mer informasjon, kan du se delen [Håndtering av varesporing ved telling av varelager](#handling-item-tracking-when-counting-inventory).
 
 Du kan deretter fortsette med å opprette én eller flere registreringer, som er instruksjoner til de ansatte som utfører den faktiske tellingen.  
 
@@ -72,22 +73,23 @@ Ved manuell opptellingsdato kan du skrive ut en liste, rapporten **Registrering 
 5. Velg handlingen **Registreringer**, og åpne siden **Liste over registreringer for vareopptelling**.
 6. Åpne den aktuelle registreringen.
 7. Fyll ut feltene i hurtigfanen **Generelt** etter behov.
-8. For varer som bruker varesporing, opprett en ekstra linje for hver parti- eller serienummerkode ved å velge handlingen **Funksjon**, og klikk deretter på **Kopier linjen**-handlingen. Hvis du vil ha mer informasjon, kan du se delen "Håndtering av varesporing ved telling av varelager".    
+8. For varer som bruker varesporing, opprett en ekstra linje for hver parti- eller serienummerkode ved å velge handlingen **Funksjon**, og klikk deretter på **Kopier linjen**-handlingen. Hvis du vil ha mer informasjon, kan du se delen [Håndtering av varesporing ved telling av varelager](#handling-item-tracking-when-counting-inventory).  
 9. Velg **Skriv ut**-handlingen for å forberede det fysiske dokumentet som de ansatte skal bruke til å notere det opptalte antallet.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Slik avsluttes vareopptellingsregistrering
+
 Når de ansatte har talt lagerantallene, må du forberede registrering av antallet i systemet.
 
 1. Fra siden **Liste over registreringer for vareopptelling** velger du vareopptellingsregistreringen som du vil fullføre, og velg deretter **Rediger**-handlingen.
 2. På hurtigfanen **Linjer** fyller du ut det faktisk opptalte antallet i feltet **Antall** for hver linje.
-3. For varer med serie- eller partinumre (boksen **Bruk varesporing** er avmerket) angi de opptalte antallene på linjene som er reservert for henholdsvis varens serie- og partinumre. Hvis du vil ha mer informasjon, kan du se delen "Håndtering av varesporing ved telling av varelager".
+3. For varer med serie- eller partinumre (boksen **Bruk varesporing** er avmerket) angi de opptalte antallene på linjene som er reservert for henholdsvis varens serie- og partinumre. Hvis du vil ha mer informasjon, kan du se delen [Håndtering av varesporing ved telling av varelager](#handling-item-tracking-when-counting-inventory).
 4. Merk av for **Registrert** for hver linje.
 5. Når du har angitt alle data for registrering av en vareopptelling, velger du **Fullfør**-handlingen. Vær oppmerksom på at alle linjene må ha **Registrert**-alternativet valgt.
 
 > [!NOTE]
 > Når du har fullført en vareopptellingsregistrering, overføres hver linje til linjen på den relaterte vareopptellingsordre som samsvarer nøyaktig med linjen. For å samsvare med verdiene i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode** være like på registreringen og ordrelinjene.<br /><br />
 > Hvis det ikke finnes noen tilsvarende vareopptellingsordrelinje, og hvis det er merket av for **Tillat registrering uten ordre**, settes det inn en ny linje automatisk, det merkes av for **Registrert uten ordre** på den relaterte vareopptellingsordrelinjen. Ellers vises det en feilmelding, og prosessen avbrytes.<br /><br />
-> Hvis mer enn én vareopptellingsregistreringslinje samsvarer med en vareopptellingsordrelinje, vises en melding, og prosessen avbrytes. Hvis to identiske vareopptellingslinjer av én eller annen grunn havner i vareopptellingsordren, kan du bruke en funksjon for å løse problemet. Hvis du vil ha mer informasjon, kan du se delen "Slik finner du duplikate vareopptellingsordrelinjer".
+> Hvis mer enn én vareopptellingsregistreringslinje samsvarer med en vareopptellingsordrelinje, vises en melding, og prosessen avbrytes. Hvis to identiske vareopptellingslinjer av én eller annen grunn havner i vareopptellingsordren, kan du bruke en funksjon for å løse problemet. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du dupliserte vareopptellingsordrelinjer](#to-find-duplicate-physical-inventory-order-lines).
 
 ## <a name="to-complete-a-physical-inventory-order"></a>Slik fullføres en vareopptellingsordre
 Når du har en fullført vareopptellingsregistrering, oppdateres feltet **Antall registrert (lagerenhet)** i den relaterte vareopptellingsordren med opptalte (registrerte) verdier, og det merkes av for **På registreringslinjer**. Hvis en opptalt verdi avviker fra forventet, vises differansen i henholdsvis feltet **Positivt antall (lagerenhet)** og **Negativt antall (lagerenhet)**.
@@ -184,10 +186,11 @@ En partisporet vare lagres i lageret med "PARTI"-nummerserier.
 På siden **Vareopptellingsordre** inneholder feltet **Negativt antall (lagerenhet)** *8*. For den aktuelle ordrelinjen vil siden **Liste over varesporinger for vareopptelling** inneholde de positive eller negative antallene for de enkelte partinumrene.
 
 ## <a name="see-also"></a>Se også
+
 [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)  
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Lager](inventory-manage-inventory.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)    
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e7d6380465eed64a7086b9348e1a2261555a024
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 99111bce195e4436aac597cc4eb2e5f8f3ef77cd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913891"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747294"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare er **Monter til ordre**, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  
@@ -62,4 +62,4 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

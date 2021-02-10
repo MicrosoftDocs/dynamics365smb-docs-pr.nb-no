@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920650"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749247"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
@@ -51,7 +51,7 @@ Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Slik definerer du aktivakladdemaler:
 En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysninger om sporingskoder, rapporter og nummerserier. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-siden, men du kan definere flere kladdemaler.  
+[!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-siden, men du kan definere flere kladdemaler.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -64,7 +64,7 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt k
 3. På siden **Aktivakladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Slik definerer du aktivareklassifiseringskladdemaler:
-Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[d365fin](includes/d365fin_md.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-siden, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-siden, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -95,7 +95,7 @@ Du bruker aktivalokasjonskoder til å registrere aktivalokasjonen, for eksempel 
 2. Angi koder og navn for aktivalokasjonene du vil opprette.
 
 ## <a name="to-register-opening-entries"></a>Slik registrerer du åpningsposter
-Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første gang, må du først definere modulen Finans før du kan definere aktiva. Hvordan du gjør dette, avhenger av om aktiva er integrert med finans.  
+Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for første gang, må du først definere modulen Finans før du kan definere aktiva. Hvordan du gjør dette, avhenger av om aktiva er integrert med finans.  
 
  Bruk følgende fremgangsmåte hvis aktivatransaksjoner skal bokføres i Finans.  
 
@@ -110,7 +110,7 @@ Hvis du bruker aktiva i [!INCLUDE[d365fin](includes/d365fin_md.md)] for første 
 7. Skriv inn følgende linjer for hvert aktivum i aktivakladden:
    * En linje med anskaffelseskosten.
    * En linje med den akkumulerte avskrivningen til slutten av forrige regnskapsår.
-   * En linje med den akkumulerte avskrivningen fra begynnelsen av gjeldende regnskapsår til datoen som [!INCLUDE[d365fin](includes/d365fin_md.md)] har angitt for å starte beregningen av avskrivningen.
+   * En linje med den akkumulerte avskrivningen fra begynnelsen av gjeldende regnskapsår til datoen som [!INCLUDE[prod_short](includes/prod_short.md)] har angitt for å starte beregningen av avskrivningen.
 
     Hvis du har andre åpningsbalanser, kan du også oppgi disse nå, for eksempel nedskrivning og oppskrivning.  
 8. Når du har angitt og bokført kladdelinjene for hvert aktivum, aktiverer du integrasjon med Finans i avskrivningstablåene.
@@ -122,4 +122,4 @@ Hvis ikke aktivaene er integrert med Finans, hopper du over trinn 6 og 8.
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

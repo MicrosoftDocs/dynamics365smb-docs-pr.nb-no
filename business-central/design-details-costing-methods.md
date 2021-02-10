@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 55af47a23a36630f373b314690d0e09afe2d1c90
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a9b8b1fc46f953fb545f5c2f14e4b0479897ef1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927025"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751708"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
 
@@ -24,7 +24,7 @@ Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapital
 > [!NOTE]
 > Du kan ikke endre varens lagermetode hvis det finnes vareposter for varen. Hvis du vil ha mer informasjon, kan du se [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md).
 
-Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:  
+Følgende metoder støttes i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 | Lagermetode | Beskrivelse | Når den brukes |
 |--|--|--|
@@ -163,4 +163,4 @@ Følgende metoder støttes i [!INCLUDE[d365fin](includes/d365fin_md.md)]:
  [Designdetaljer: Vareutligning](design-details-item-application.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

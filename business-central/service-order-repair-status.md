@@ -8,37 +8,47 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 10/15/2020
 ms.author: edupont
-ms.openlocfilehash: 0c4dd1916f60c424d93d4e225aa87830d34a1fff
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f9b8fa679254e4886993ee29a1ceba1cf2542cda
+ms.sourcegitcommit: 2d2dfb6c3eca1322835f0167dc7dab614346972e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915239"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038463"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Definere statuser for serviceordrer og reparasjoner
+
 Du må definere ni alternativer for reparasjonsstatus som identifiserer fremdriften av reparasjon og vedlikehold på servicevarer i serviceordrer. Du må definerer minst ni alternativer for reparasjonsstatus som identifiserer situasjoner eller handlinger som er iverksatt under vedlikehold av servicevarer.  
 
-Du kan angi prioritetsnivå for alternativene for serviceordrestatus. De fire prioritetene er Høy, Middels høy, Middels lav og Lav.  
+Du kan angi prioritetsnivå for alternativene for serviceordrestatus. De fire prioritetene er **Høy**, **Middels høy**, **Middels lav** og **Lav**.  
 
 Når du endrer reparasjonsstatusen til en servicevare i en serviceordre, oppdateres serviceordrestatusen. Reparasjonsstatusen til hver enkelt servicevare er knyttet til serviceordrestatusen. Hvis servicevarene er koblet til to eller flere alternativer for serviceordrestatus, velges serviceordrestatusen med høyest prioritet.  
 
-## <a name="to-set-up-a-repair-status"></a>Slik definerer du reparasjonsstatus  
+Før du kan definere en reparasjonsstatus, må du definere servicestatusprioritet.
+
+## <a name="to-set-up-service-status-priorities"></a>Slik definerer du servicestatusprioritet
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrestatus**, og velg deretter den relaterte koblingen.  
+2. Velg serviceordrestatusen du vil angi en prioritet for.  
+3. I feltet **Prioritet** velger du prioriteten du vil ha for denne serviceordrestatusen.  
+
+Gjenta trinnene 2 og 3 til du har angitt prioriteten for hvert enkelt av de fire statusalternativene: **Venter**, **I arbeid**, **Ferdig** og **Avvent**.  
+
+## <a name="to-set-up-a-repair-status"></a>Slik definerer du reparasjonsstatus
+
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Reparasjonsstatus**, og velg deretter den relaterte koblingen.
 2. Opprett en ny reparasjonsstatus.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. I **Serviceordrestatus**-feltet velger du ordrestatusen å knytte reparasjonsstatusen til. **Prioritet**-feltet viser prioriteten til serviceordrestatusen du har valgt.  
-5. Velg en reparasjonsstatus. Du kan bare velge én.  
+5. Velg en reparasjonsstatus. Du kan bare velge én. En reparasjonsstatus kan ikke kobles til mer enn ett reparasjonsstatusalternativ.  
 6. Velg feltet **Bokføring tillatt** hvis du vil kunne bokføre serviceordrer som omfatter servicevarer, med reparasjonsstatusen.  
 7. Merk av for **I kø-status tillatt** for å tillate manuell endring av alternativet for serviceordrestatusen til alternativet **I kø** i serviceordrer som omfatter servicevarer med denne reparasjonsstatusen.  
 8. Merk av for **I arbeid-status tillatt**, **Ferdig-status tillatt** og **Avvent-status tillatt** på samme måte.
-  
-## <a name="to-set-up-service-status-priorities"></a>Slik definerer du servicestatusprioritet  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrestatus**, og velg deretter den relaterte koblingen.  
-2. Velg serviceordrestatusen du vil angi en prioritet for.  
-3. I feltet **Prioritet** velger du prioriteten du vil ha for denne serviceordrestatusen. Gjenta dette trinnet for hver status.  
 
-## <a name="see-also"></a>Se også  
+Gjenta disse trinnene for hvert enkelt alternativ for reparasjonsstatusen du vil opprette.
+
+## <a name="see-also"></a>Se også
+
 [Serviceordrestatus og reparasjonsstatus](service-service-order-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aed172663290ce3ac467e405266d513a8978a128
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 22b8ae947ceb82753aa0e881ba8b0ebf603cca9f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912999"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747896"
 ---
 # <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
-Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[d365fin](includes/d365fin_md.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
+Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
 
 Når du setter opp servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  
   

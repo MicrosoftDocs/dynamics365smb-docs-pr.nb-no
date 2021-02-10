@@ -1,6 +1,6 @@
 ---
 title: Bokføre lagerkost i finans | Microsoft-dokumentasjon
-description: Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret.
+description: Ved slutten av en regnskapsperiode, enten månedlig, årlig eller annet, må en sekvens med oppgaver innen kostkontroll og sporing utføres for å rapportere en korrekt og balansert lagerverdi til finansavdelingen. I tillegg til bokføringsrutinen som overfører de enkeltstående vareverdipostene til dedikerte finanskonti, er flere rapporter, sporingsfunksjoner og et spesielt avstemmingsverktøy tilgjengelig for revisoren eller kontrolleren som er ansvarlig for dette forretningskritiske arbeidet.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e760818349cf59a9c85d0a0d22b72baefd99af6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ad6c8d2084c2bffb38f1c98855e837b9ba13e8fe
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919491"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746819"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
@@ -69,9 +69,21 @@ De neste kolonnene viser totalene for de samme kontotypene som er beregnet fra f
 
 Velg beløpet i et av totalfeltene for å vise postene i lagerrapporten som ble brukt til å beregne totalene. For lagertotaler er postene i lagerrapporten summene av verdipostene for varene. For finanstotalene er postene i lagerrapporten summene fra finanspostene.
 
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere kostnader og avstemme med Finans
+Andre rapporter, sporingsfunksjoner og et spesielt avstemmingsverktøy er tilgjengelige for revisoren eller kontrolløren som har ansvaret for å rapportere en riktig og balansert lagerverdi til finansavdelingen.
+
+Tabellen nedenfor beskriver dem.    
+
+|**Hvis du vil**|**Se**|  
+|------------|-------------|  
+|Vise lagerverdien for utvalgte varer, inkludert informasjon om antall og verdier for økninger eller reduksjoner i lageret i løpet av en utvalgt periode.|Rapporten **Lagerverdisetting**|  
+|Vise lagerverdien for utvalgte produksjonsordrer i VIA-beholdningen (varer i arbeid), for eksempel antall og verdier for forbruk, kapasitetsbruk og produksjon fra produksjonsordrer som pågår.|Rapporten **Lagerverdisetting - VIA**|  
+|Vise lagerverdien for utvalgte varer, inkludert faktisk og forventet kost på den angitte datoen.|Rappporten **Lagerverdisetting - kostspesifikasjon**|  
+|Bruke en rapport til å analysere årsakene til prisavvik eller få innsikt i kostandelen for solgte varer (vareforbruk).|Rapporten **Spesifikasjon av kostandeler**|  
+
 ## <a name="see-also"></a>Se også  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

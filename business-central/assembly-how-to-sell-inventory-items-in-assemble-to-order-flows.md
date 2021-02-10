@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 170f98f5bf876f6b090a1980e345b40809cea545
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fb2487f2c8300fa73c2251b978e8deebc50ed404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927050"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747344"
 ---
 # <a name="sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i monter-til-ordre-flyter
 Hvis **Monteringsprinsipp**-feltet p책 varekortet for en monteringsvare inneholder **Monter til ordre**, forutsetter standard ordreprosess at varen ikke er p책 lager og m책 monteres for denne bestemte ordren. Det blir derfor automatisk opprettet en monteringsordre n책r du legger varen til p책 en ordrelinje. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md). Hvis en del av (eller hele) ordreantallet allerede er tilgjengelig i beholdningen, kan du redusere monteringsordreantallet ved 책 endre feltet **Ant. som skal monteres til ordre** p책 ordrelinjen.  
@@ -54,4 +54,4 @@ I denne fremgangsm책ten erstatter du montere-til-ordre-antall med lagerantall p�
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

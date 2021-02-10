@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 10/01/2020
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 73b0044dae3035c7156812b1f4ff4b8722df57c9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922872"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746119"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
-Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prodshort](includes/prodshort.md)].
+Denne artikkelen inneholder en oversikt over noen av hurtigtastkombinasjonene som du kan bruke når du arbeider med [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hvis du vil ha en oversikt over de mest populære hurtigtastene, se [Tastatursnarveier for (bare PC)](keyboard-shortcuts-cheatsheet.md).
 
@@ -37,7 +37,7 @@ Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å n
 De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. Noen snarveier er imidlertid forskjellige for macOS. Disse snarveiene angis med hakeparenteser i avsnittene nedenfor.
 
 > [!NOTE]
-> I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prodshort](includes/prodshort.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
+> I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post når du åpner posten i et kort. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
 
@@ -63,7 +63,7 @@ Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang t
 |Ctrl+F1|Åpne Business Central-hjelpen for siden.|
 |Ctrl+F12|Bytte mellom bred og smal oppsettvisning.|
 |Ctrl + klikk|Naviger under egendefinering eller tilpassing når handlingen er uthevet med en pilspiss. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).|  
-|Ctrl+F5|Last inn [!INCLUDE[prodshort](includes/prodshort.md)]-programmet på nytt. (På lignende måte som å velge oppdater / last inn på nytt i webleseren.)|
+|Ctrl+F5|Last inn [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (På lignende måte som å velge oppdater / last inn på nytt i webleseren.)|
 |F5|Oppdater dataene på gjeldende side.<br /><br />Bruk dette tasten til å sikre at data på siden blir oppdatert med endringer andre har utført mens du arbeider.|
 |Angi|Aktivere eller få tilgang til elementet eller kontrollen som er i fokus.|
 |ESC|Lukk gjeldende side eller rullegardinliste.|
@@ -88,7 +88,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
 
-Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prodshort](includes/prodshort.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
+Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -206,11 +206,19 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |En side ned<br />(Fn + Pil ned)|Gå til den neste siden i rapporten.|
 |PgUp<br />(Fn + Pil opp)|Gå til den forrige siden i rapporten.|
 
+## <a name="keyboard-shortcuts-for-zooming-in-and-out"></a><a name="zoomshortcuts"></a>Hurtigtaster for å zoome inn og ut
+
+|Trykk på disse tastene|Hvis du vil gjøre dette|
+|--------------------------------|----------|
+|Ctrl++|Zoom inn på gjeldende side.|  
+|Ctrl+-|Zoom ut på gjeldende side.|  
+|Ctrl+0|Zoom inn eller ut til 100 % på gjeldende side.|  
+
 ## <a name="see-also"></a>Se også
 
 [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)  
 [Hjelpefunksjoner](ui-accessibility.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
 [Søk etter poster](ui-find-entries.md)  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3096bdcdf7ed6570e28d0e636b7dc8f1b28113c4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 868b8afe7fb9b36b9fc55930fa702bd181e395f2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916071"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746019"
 ---
 # <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
@@ -160,4 +160,4 @@ Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplik
 [Administrere kontakter](marketing-contacts.md)  
 [Opprette kontakter](marketing-create-contact-companies.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

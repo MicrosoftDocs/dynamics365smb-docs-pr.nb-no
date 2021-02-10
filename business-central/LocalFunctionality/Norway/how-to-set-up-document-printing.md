@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bc7432f7415e49920e4d5da6cc83b9ca8a5a9a47
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cecdc4bc748d2d96f9d46e8d53755780eaec2404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919771"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752451"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
-I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
+I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
 
 Du må vurdere hvordan skriveren og skriverdriveren tolker denne informasjonen når du bruker skuffnumre og papirkilder for norske salgsdokumenter. Du må kanskje angi andre skuffnumre for din spesifikke skriver.  
 
@@ -32,11 +32,11 @@ Følgende dokumenter krever en utskrevet giro:
 - Rentenotaer  
 - Purringer  
 
-Den norske versjonen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder følgende sett med salgsdokumenter.  
+Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inneholder følgende sett med salgsdokumenter.  
 
 |**Valg**|Description|  
 |-------------|---------------------------------------|  
-|1|Standard [!INCLUDE[d365fin](../../includes/d365fin_md.md)]-dokumenter. Ingen giroinformasjon skrives ut.|  
+|1|Standard [!INCLUDE[prod_short](../../includes/prod_short.md)]-dokumenter. Ingen giroinformasjon skrives ut.|  
 |2|Giroen skrives ut på hver side. Den siste siden skriver ut girosummen.|  
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  

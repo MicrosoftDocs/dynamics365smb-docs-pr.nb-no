@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9c4574f913355961d5bee6baa51bc88f0bdc64d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 383025059d14bf10abcb812f4a5f17f8f3379d06
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913716"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751458"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokføring
 
@@ -134,4 +134,4 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsor
  [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
  [Designdetaljer: Kostkomponenter](design-details-cost-components.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

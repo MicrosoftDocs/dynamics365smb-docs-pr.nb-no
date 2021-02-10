@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8027465189507ce9ad78ebadea9dcc086e512ea4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926825"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748772"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
 De forskjellige pris- og rabattavtaler som gjelder når du kjøper fra forskjellige leverandører, må defineres slik at avtalte regler og verdier brukes på kjøpsdokumenter du oppretter for leverandørene.
 
-Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under [Beregning av beste pris](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
+Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[prod_short](includes/prod_short.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under [Beregning av beste pris](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
 
 Når det gjelder priser, kan du sette inn en spesialkjøpspris på bestillingslinjer hvis en bestemt kombinasjon av leverandør, vare, minste antall, enhet, eller start-/sluttdato finnes.
 
@@ -94,30 +94,30 @@ Hvis du har faste betingelser for fakturarabatter fra leverandører, kan du angi
 
  Du kan definere betingelsene for fakturarabatten i NOK for innenlandske leverandører, og i fremmed valuta for utenlandske leverandører.  
 
- Du kan la [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk beregne fakturarabattene for forespørsler, rammebestillinger, bestillinger, fakturaer eller kreditnotaer.  
+ Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] automatisk beregne fakturarabattene for forespørsler, rammebestillinger, bestillinger, fakturaer eller kreditnotaer.  
 
 > [!TIP]  
 >  Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke leverandører som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
 
 ## <a name="best-price-calculation"></a>Beregning av beste pris
-Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.
+Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[prod_short](includes/prod_short.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.
 
-Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerabatten på denne en gitt dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner dette automatisk når det setter inn salgsprisen og linjerabattprosenten for varer på nye dokument- og kladdelinjer.
+Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerabatten på denne en gitt dato. [!INCLUDE[prod_short](includes/prod_short.md)] beregner dette automatisk når det setter inn salgsprisen og linjerabattprosenten for varer på nye dokument- og kladdelinjer.
 
 > [!NOTE]  
 >   Det følgende beskriver hvordan den beste prisen beregnes for salg. Beregningen er den samme for kjøp.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinasjonen av faktura til-kundenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer kombinasjonen av faktura til-kundenr. og varen og beregner deretter den aktuelle prisen/linjerabattprosenten ved hjelp av disse kriteriene:
 
     - Har kunden en avtale om pris/rabatt, eller tilhører kunden en gruppe som har det?
     - Er varen eller varerabattgruppen på linjen tatt med i noen av disse avtalene om pris/rabatt?
     - Er ordredatoen (eller bokføringsdatoen for fakturaen eller kreditnotaen) innenfor start- og sluttdatoen for avtalen om pris/rabatt?
-    - Er det angitt en enhetskode? I så fall kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] om det finnes priser/rabatter med samme enhetskode, og priser/rabatter uten enhetskode.
+    - Er det angitt en enhetskode? I så fall kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] om det finnes priser/rabatter med samme enhetskode, og priser/rabatter uten enhetskode.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer om avtaler om pris/rabatt gjelder for informasjon om dokument- eller journallinjen, og setter deretter inn den aktuelle enhetsprisen og rabattprosent, ved hjelp av følgende kriterier:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer om avtaler om pris/rabatt gjelder for informasjon om dokument- eller journallinjen, og setter deretter inn den aktuelle enhetsprisen og rabattprosent, ved hjelp av følgende kriterier:
 
     - Er det et minimumsbehov i pris/rabatt-avtalen som er oppfylt?
-    - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om NOK gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[d365fin](includes/d365fin_md.md)] inn den laveste prisen og den høyeste linjerabatten i NOK.
+    - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om NOK gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[prod_short](includes/prod_short.md)] inn den laveste prisen og den høyeste linjerabatten i NOK.
 
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 
@@ -126,4 +126,4 @@ Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste d
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

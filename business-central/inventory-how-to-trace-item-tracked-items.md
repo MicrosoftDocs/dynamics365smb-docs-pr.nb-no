@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b9e77925a46f57b3c45a21f86ae583024146ff4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 21eff2a2c52dfabb3788bb06d1d2f684c34441ce
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916096"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750008"
 ---
 # <a name="trace-item-tracked-items"></a>Spore varesporede varer
 Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og [Søk etter poster](ui-find-entries.md).  
@@ -69,6 +69,6 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)  
 [Søk etter poster](ui-find-entries.md)  

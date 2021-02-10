@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 746aa6c0146205cbc3f3ed1796b084825bbfdbdf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915713"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747419"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
@@ -88,4 +88,4 @@ Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk o
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

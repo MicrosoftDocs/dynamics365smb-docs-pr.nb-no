@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 03ad2bea6ed87b5f27bea9210a03c8760c87ffcf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910158"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748021"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbeidstimer og servicetimer
-Med et servicesystem kan du vanligvis spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov. [!INCLUDE[d365fin](includes/d365fin_md.md)] har innebygde verktøy du kan tilpasse for å registrere denne typen informasjon.  
+Med et servicesystem kan du vanligvis spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har innebygde verktøy du kan tilpasse for å registrere denne typen informasjon.  
   
 Etter at du har angitt selskapets standard servicetimer, kan du beregne responstiden for serviceordrer eller sende advarsler eller varsler når det kommer serviceanrop. Varslingsfunksjonen implementeres sammen med jobbskjemaet.   
   

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: reconcile
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7d5610e86ea06b6edd2ef0ae4cb7c1473dd096e9
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7eb749c17ea9f17b3ef7c7c29c5dc9037fcbaf9c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924356"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752333"
 ---
 # <a name="reconciling-bank-accounts"></a>Avstemme bankkonter
 
@@ -26,7 +26,7 @@ Du kan utføre oppgaven på **Bankkontoavstemming**-siden der du avstemmer banke
 > [!NOTE]  
 > I nord-amerikanske versjoner kan du også utføre bankavstemming på **Bankavstemmingsforslag**-siden, som er mer egnet for sjekker og innskudd, men tilbyr ikke import av filer med bankkontoutdrag. Hvis du vil bruke denne siden i stedet for **Bankkontoavstemming**-siden, fjerner du avmerkingen for feltet **Bankavstemming med automatisk samsvar** på siden **Finansoppsett**. Hvis du vil ha mer informasjon, kan du se delen [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under lokal funksjonalitet for USA.
 
-Før du kan administrere bankkontoer i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du definere hver bankkonto som et bankkort. I tillegg må du definere elektroniske tjenester som du kan bruke for import av bankutdrag og eksport av betalingsfil. Hvis du vil ha mer informasjon, kan du se [Konfigurere banktjenester](bank-setup-banking.md).
+Før du kan administrere bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)], må du definere hver bankkonto som et bankkort. I tillegg må du definere elektroniske tjenester som du kan bruke for import av bankutdrag og eksport av betalingsfil. Hvis du vil ha mer informasjon, kan du se [Konfigurere banktjenester](bank-setup-banking.md).
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 
@@ -48,5 +48,5 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Overføre bankkapital](bank-how-transfer-bank-funds.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

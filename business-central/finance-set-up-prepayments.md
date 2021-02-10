@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: prepayment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7f8d0109b42eb75f022bac580c2bef006f311157
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 34e5d1e0f424097de259d01e438158f6a92390ae
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914242"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750433"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører og sørge for at alle delvise betalinger bokføres mot en faktura. Hvis du vil ha mer informasjon, kan du se [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md).
@@ -93,4 +93,4 @@ Forskuddsprosenten på kundekortet gjelder med andre ord bare hvis det ikke er s
 [Beregne mva på varer og tjenester på forskuddsbetalinger i New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Forstå Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

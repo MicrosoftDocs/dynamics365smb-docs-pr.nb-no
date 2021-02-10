@@ -11,17 +11,17 @@ ms.search.keywords: recurring, invoicing, subscription, billing
 ms.reviewer: edupont
 ms.date: 10/01/2020
 ms.author: andreipa
-ms.openlocfilehash: 25cf2c75ac6beca4f187b329c610914452d7dfcb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 311af347fede15b3d246e66d66b47a5fd09c90db
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910808"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750483"
 ---
-# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbeide med gjentakelsesomsetning i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeide med gjentakelsesomsetning i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mange selskaper flytter fra en bedriftsomsetningsmodell der omsetningen foretas fra en kundes engangskjøps til en abonnementsmodell der omsetningen er regelmessig i bytte mot konsekvent tilgang til levering av en vare eller tjeneste.
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har følgende alternativer for å automatiskere hvordan du sender abonnementsfakturaer til kundene og registrere gjentakelsesomsetning. 
+[!INCLUDE[prod_short](includes/prod_short.md)] har følgende alternativer for å automatiskere hvordan du sender abonnementsfakturaer til kundene og registrere gjentakelsesomsetning. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrere omsetning med en gjentakende finanskladd
 
@@ -31,7 +31,7 @@ En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av tr
 
 Med dette alternativet kan du definere fleksible faktureringsperioder med [datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
-Med dette alternativet kan du imidlertid ikke skrive ut og sende fakturaer i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Med dette alternativet kan du imidlertid ikke skrive ut og sende fakturaer i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Hvis du vil ha mer informasjon, kan du se [Arbeide med gjentakelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
 
@@ -57,7 +57,7 @@ Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan d
 
 Med dette alternativet kan du tilordne de samme gjentakelseslinjene til flere kunder. Du kan definere gyldighetsperioden for gjentakende salgslinjer for en bestemt kunde. Du kan tilordne flere gjentakelseslinjer til samme kunde, og alle blir tatt med i fakturaen.
 
-Det er imidlertid ingen måte å definere faste priser for varer på fordi [!INCLUDE[d365fin](includes/d365fin_md.md)] vil bruke de faktiske prisene og den gyldige rabatt på bilagsdatoen og prøve å finne den beste kombinasjonen som gir den laveste prisen.  
+Det er imidlertid ingen måte å definere faste priser for varer på fordi [!INCLUDE[prod_short](includes/prod_short.md)] vil bruke de faktiske prisene og den gyldige rabatt på bilagsdatoen og prøve å finne den beste kombinasjonen som gir den laveste prisen.  
 
 Hvis du vil ha mer informasjon, kan du se [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md).
 
@@ -77,7 +77,7 @@ Dette alternativet krever imidlertid Premium-lisens. Det kan hende at konfiguras
 Hvis du vil ha mer informasjon, kan du se [Arbeide med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Relaterte funksjoner
-Det finnes flere relaterte funksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Det finnes flere relaterte funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="blanket-sales-orders"></a>Rammeordrer
 
@@ -103,7 +103,7 @@ Med dette alternativet kan du velge mellom faste og beste priser.
 
 Dette alternativet er imidlertid bare tilgjengelig i Norge. Gyldighetsperioden kan defineres på gjentakende gruppenivå.
 
-Hvis du vil ha mer informasjon, kan du se [Gjentakelsesordrer (Norge)](/localfunctionality/norway/recurring-orders.md).
+Hvis du vil ha mer informasjon, kan du se [Gjentakelsesordrer](LocalFunctionality/Norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Gjentakelsesomsetning og abonnementsfakturering av andre leverandører
 
@@ -120,4 +120,4 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få utvid
 [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeide med rammeordrer](sales-how-to-create-blanket-sales-orders.md)  
-[Gjentakelsesordrer (Norge)](/localfunctionality/norway/recurring-orders.md)  
+[Gjentakelsesordrer (Norge)](LocalFunctionality/Norway/recurring-orders.md)  

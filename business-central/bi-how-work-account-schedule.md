@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 23a90d6529da231194b80f75e570e106d66a99c6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 58bc5001400a1a6ed03f5780a71b2f1ab96c43bc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922195"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752158"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Klargjøre Financial Reporting med kontoskjemaer og kontokategorier
 
@@ -23,7 +23,7 @@ Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er la
 
 Du får tilgang til disse to rapportene for eksempel med handlingen **Årsregnskap** i rollesentrene for forretningsleder og regnskapsfører.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder et par eksempler på kontoskjemaer som du kan bruke med én gang, eller du kan definere dine egne rader og kolonner for å angi tallene som skal sammenlignes. Du kan for eksempel opprette kontoskjemaer for å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. Du kan opprette så mange egendefinerte regnskapsrapporter du vil.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder et par eksempler på kontoskjemaer som du kan bruke med én gang, eller du kan definere dine egne rader og kolonner for å angi tallene som skal sammenlignes. Du kan for eksempel opprette kontoskjemaer for å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. Du kan opprette så mange egendefinerte regnskapsrapporter du vil.  
 
 Oppretting av kontoskjemaer krever en forståelse av de økonomiske dataene i kontoplanen. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene. Dette krever at budsjetter opprettes. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
@@ -50,7 +50,7 @@ Du kan bruke finanskontokategoriene til å endre oppsettet for regnskapsoppgjør
 
 Du bruker kontoskjemaer til å analysere tall på finanskonti eller til å sammenligne faktiske finansposter med finansbudsjettposter. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene.
 
-Kontoskjemaene i standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] er grunnlaget for standard finansrapporter som kanskje ikke oppfylle kravene til virksomheten. Hvis du raskt vil opprette dine egne finansrapporter, kan du begynne med å kopiere et eksisterende kontoskjema. Se trinn 3 nedenfor.
+Kontoskjemaene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er grunnlaget for standard finansrapporter som kanskje ikke oppfylle kravene til virksomheten. Hvis du raskt vil opprette dine egne finansrapporter, kan du begynne med å kopiere et eksisterende kontoskjema. Se trinn 3 nedenfor.
 
 Siden **Kto.skjemaoversikt** er der du kan forhåndsvise den økonomiske rapporten som kontoskjemaet definerer. I det følgende er det viktig å forstå at det du definerer som kontoskjemarader og -kolonner, bare kan ses og valideres på siden **Kto.skjemaoversikt**, som du åpner fra et kontoskjema ved å velge **Oversikt**-handlingen. Selve **Kontoskjema**-siden er bare et oppsettsområde.  
 
@@ -121,7 +121,7 @@ Kontoskjemaet kan sammenligne resultatene av ulike regnskapsperioder, for eksemp
 
 En regnskapsperiode trenger ikke å sammenfalle med kalenderen, men regnskapsåret må ha samme antall regnskapsperioder, selv om hver periode kan variere i lengde.  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] bruker periodeformelen til å beregne beløpet fra sammenligningsperioden, i forhold til perioden som er angitt i datofilteret i rapportforespørselen. Sammenligningsperioden er basert på perioden for startdatoen i datofilteret. Periodene forkortes slik:
+[!INCLUDE[prod_short](includes/prod_short.md)] bruker periodeformelen til å beregne beløpet fra sammenligningsperioden, i forhold til perioden som er angitt i datofilteret i rapportforespørselen. Sammenligningsperioden er basert på perioden for startdatoen i datofilteret. Periodene forkortes slik:
 
 | Forkortelse | Beskrivelse                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -142,7 +142,7 @@ Eksempler på formler:
 | \-1RÅ\[1..IP\]  | Fra begynnelsen av forrige regnskapsår til og med inneværende periode i forrige regnskapsår, inkludert begge perioder |
 | \-1RÅ\[IP..SP\] | Fra inneværende periode i forrige regnskapsår til siste periode i forrige regnskapsår, inkludert begge perioder   |
 
-Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet **Datoformel - sammenligning** i stedet. Hvis feltet eksempelvis er satt til -1Å, foretar [!INCLUDE [prodshort](includes/prodshort.md)] en sammenligning med samme periode 1 år tidligere.
+Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet **Datoformel - sammenligning** i stedet. Hvis feltet eksempelvis er satt til -1Å, foretar [!INCLUDE [prod_short](includes/prod_short.md)] en sammenligning med samme periode 1 år tidligere.
 
 > [!NOTE]
 > Det er ikke alltid gjennomsiktig hvilke perioder du sammenligner, siden du kan angi et datofilter i en rapport som inneholder forskjellige datoer enn regnskapsperiodene som gjenspeiles i dataene i kontoplanen. Du oppretter for eksempel et kontoskjema der du vil sammenligne denne perioden med samme periode i fjor, så du setter **Datoformel - sammenligning**-feltet til *-1RÅ*. Deretter kjører du rapporten 28. februar og setter datofilteret til januar og februar. Dermed sammenligner kontoskjemaet januar og februar i år med januar i fjor, som er den eneste fullførte regnskapsperioden av de to for forrige år.  
@@ -157,4 +157,4 @@ Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeide med datoer og 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

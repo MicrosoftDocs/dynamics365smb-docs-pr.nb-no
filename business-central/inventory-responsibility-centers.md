@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/06/2020
+ms.date: 11/03/2020
 ms.author: edupont
-ms.openlocfilehash: 97904add0f97be5a93bec5e53b45179fadfddffb
-ms.sourcegitcommit: 0fb6952376d853a878ed33257e73aadc03b95572
+ms.openlocfilehash: cb9586e207f3eda516d11dd4f184351ff66ca4b2
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968336"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749958"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeide med ansvarssentre
 
@@ -53,7 +53,7 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 5. I feltet **Filter for ansv.sent - service** angir du i hvilket ansvarssenter brukeren skal ha oppgaver som er knyttet til servicehåndtering.  
 
 > [!NOTE]  
-> Brukerne kan fremdeles se alle bokførte dokumenter og poster, ikke bare de som gjelder deres ansvarssenter.
+> Brukere kan vise bare de bokførte dokumentene som gjelder sitt eget ansvarssenter. De kan imidlertid vise alle postene og navigere til andre bokførte dokumenter fra postene.
 
 ## <a name="see-also"></a>Se også
 
@@ -62,4 +62,4 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 [Beholdning](inventory-manage-inventory.md)[Lagerstyring](warehouse-manage-warehouse.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

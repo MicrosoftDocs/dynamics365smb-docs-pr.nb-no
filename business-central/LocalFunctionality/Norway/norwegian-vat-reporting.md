@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d6a285562f80e7885ebfaf73f79a4cfeb6c2ab5c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4c430bd04dfe4196965bc09002b2961dbe9b2c33
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921334"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747463"
 ---
 # <a name="norwegian-vat-reporting"></a>Norsk mva-rapportering
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]../../inkluderer orbedringer i den norske versjonen som gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]../../inkluderer orbedringer i den norske versjonen som gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.  
 
 Dette emnet forklarer de vanlige trinnene du skal følge når du rapporterer norsk mva.  
 

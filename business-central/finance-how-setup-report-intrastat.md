@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f0c10948aef6db58474de5c627e1ce82f0a13102
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a5aa40d2f202019a238f76c0fe2ff2480d97c9bf
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920525"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750783"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
@@ -29,7 +29,7 @@ Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må
 * **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
 * **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
 * **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer.  
-* **Transportmåter**: Det finnes sju koder med ett siffer for Intrastat-transportmåter. **1** for båt, **2** for jernbane, **3** for bil, **4** for fly, **5** for post **7** for faste installasjoner og **9** for egen fremdrift (for eksempel transportere en bil ved å kjøre den). [!INCLUDE[d365fin](includes/d365fin_md.md)] trenger ikke disse kodene, men vi anbefaler at beskrivelsene formidler en lignende betydning.  
+* **Transportmåter**: Det finnes sju koder med ett siffer for Intrastat-transportmåter. **1** for båt, **2** for jernbane, **3** for bil, **4** for fly, **5** for post **7** for faste installasjoner og **9** for egen fremdrift (for eksempel transportere en bil ved å kjøre den). [!INCLUDE[prod_short](includes/prod_short.md)] trenger ikke disse kodene, men vi anbefaler at beskrivelsene formidler en lignende betydning.  
 
 Du kan også konfigurere følgende:
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3c4e5b5211b9e56193698e2f86b587e5f8951f79
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 41c10e142d2a64a7e86a0bf3604af649978bef83
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913816"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752208"
 ---
 #  <a name="create-analysis-reports"></a>Opprette analyserapporter
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi.  
@@ -43,7 +43,7 @@ Deretter kan du definere kolonner som disse:
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
  På siden **Analyserapport** kan du vise ulike linje- og kolonneoppsett i henhold til linjene eller linjemalene du definerer på siden **Maler for analyselinje**. Du kan definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. Du kan definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
 
-Basert på linjene og kolonnene du har definert, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] samle resultatene av rapporten på siden **Analyserapport**, som vist i tabellen nedenfor.  
+Basert på linjene og kolonnene du har definert, vil [!INCLUDE[prod_short](includes/prod_short.md)] samle resultatene av rapporten på siden **Analyserapport**, som vist i tabellen nedenfor.  
 
 |- |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
 |-|-|-|-|  
@@ -105,4 +105,4 @@ Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfb7c0186f7ed81687ad3f4d667b3f71d77af424
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922520"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752728"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 
@@ -63,7 +63,7 @@ Du kan importere en konfigurasjonspakke som har blitt eksportert fra en database
 5. Velg handlingen **Hent tabeller**. Kjørselssiden **Hent pakketabeller** åpnes.  
 6. Velg feltet **Velg tabeller**. Siden **Konfig. valg** åpnes.  
 7. Velg handlingen **Merk alt** for å legge til alle tabeller i pakken, eller du merker avmerkingsboksen **Valgt** for hver tabell i listen som du vil legge til.
-8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)] tabeller legges til i linjene på **Konfig.pakke**-siden.  
+8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[prod_short](includes/prod_short.md)] tabeller legges til i linjene på **Konfig.pakke**-siden.  
 
     > [!NOTE]  
     >  Du kan også gjøre dette i konfigurasjonsforslaget. Velg tabellene du vil inkludere i pakken, og velg deretter handlingen **Tilordne pakke**.
@@ -151,7 +151,7 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 2. Finn tabellene i konfigurasjonsforslaget som inneholder dataene du vil vise eller tilpasse.  
 
     > [!NOTE]  
-    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
+    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
 
 3. Velg handlingen **Databasedata**. Siden for den relaterte siden åpnes.
 4. Se gjennom informasjonen som er tilgjengelig. Endre den etter behov ved å slette poster som ikke er relevante eller ved å legge til nye.  
@@ -174,3 +174,4 @@ Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med
 [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
+[Analysere sporingstelemetri for konfigurasjonspakke](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

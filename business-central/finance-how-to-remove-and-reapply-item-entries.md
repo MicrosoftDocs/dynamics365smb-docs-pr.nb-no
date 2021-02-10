@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f90f17fa962bc8a18ea3ba1c30b01af52463ede4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 006681473227ccf371c66708e5855da1bf868ddc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3915588"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750683"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
 På siden **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
@@ -36,7 +36,7 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 > Det er viktig å være oppmerksom på følgende når du arbeider med utligningsforslaget:
     - Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle varene før du utligner utligningspostene på nytt eller lukker siden **Utligningsforslag**. Brukere som prøver å utføre handlinger som omfatter en manuelt opphevet utligningspost, får følgende feilmelding: "Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen XXX er opphevet i Utligningsforslag av brukeren XXX."
     - Du bør bare utligne vareposter på nytt utenfor arbeidstiden for å unngå eventuelle konflikter med andre brukere som bokfører transaksjoner med de samme varene.
-    - Når du lukker utligningsforslaget, utfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
+    - Når du lukker utligningsforslaget, utfører [!INCLUDE[prod_short](includes/prod_short.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
     - Du kan fjerne utligninger fra flere enn én post om gangen i utligningsforslaget. Siden utligning av poster påvirker settet med poster som er tilgjengelige for utligning, kan du imidlertid ikke opprette en utligning for flere enn én post om gangen.
     - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
 
@@ -77,4 +77,4 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
  [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Vareutligning](design-details-item-application.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

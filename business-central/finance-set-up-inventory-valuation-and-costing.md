@@ -7,19 +7,19 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910733"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750458"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
 
 For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner. Vanligvis velger bedrifter en bestemt lagermetode og bruker den på lagervarer, for eksempel for å hjelpe dem med å spore verdien av varer på lager.  
 
 > [!TIP]
-> Hvis du vil ha en innføring i kostberegning i [!INCLUDE [prodshort](includes/prodshort.md)], se [Om lagerkost](finance-learn-about-costing.md).
+> Hvis du vil ha en innføring i kostberegning i [!INCLUDE [prod_short](includes/prod_short.md)], se [Om lagerkost](finance-learn-about-costing.md).
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 587e41ebb4e700b376e555e761a4aa221b49b6c0
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0a2a8ba7de175ae717dae42da44b719a9c920a15
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917654"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752258"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
 Som en del av innsamling, analyse og deling av selskapsdataene viser du faktiske beløp sammenlignet med budsjetterte beløp for alle konti og for flere perioder.
@@ -41,7 +41,7 @@ I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjett
 >   Hvis du vil endre budsjettet, kan du endre budsjettpostene. Velg et beløp for å vise de underliggende finansbudsjettpostene.
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Slik viser du faktiske og budsjetterte beløp for alle konti  
-Du kan vise finansbudsjetter og sammenligne dem med reelle tall, i flere moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan vise finansbudsjetter og sammenligne dem med reelle tall, i flere moduler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
 2. På siden **Kontoplan** velger du handlingen **Finanssaldo/Budsjett**.
@@ -72,4 +72,4 @@ I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

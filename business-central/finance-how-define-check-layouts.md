@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: print check, customize
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 31a3df66b3b82e7901a494c7ef552c27b317ba99
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4a402e9cdcaa7eea55b693f697db3b47138cdd02
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917079"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746994"
 ---
 # <a name="select-a-check-layout"></a>Velg et sjekkoppsett
 Du kan utforme sjekkene dine slik at de samsvarer med standardene som er angitt av de lokale myndighetene. Sjekkbilder kan skrives ut på engelsk, fransk eller spansk.
@@ -39,15 +39,15 @@ Når du har definert sjekkoppsettene, kan du skrive ut sjekker fra siden **Betal
 Hvis du vil endre en av disse standardsjekkoppsettene, bruker du Word- eller RDLC-integrasjonen til å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>Bruke MICR-og sikkerhetsskrifter
-Den elektroniske versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder forhåndsinstallerte skrifter på serverne som kan brukes til å definere sjekkoppsett. Følgende beskriver hvilke skrifter som er tilgjengelige, og som inneholder koblinger til detaljert informasjon om tredjeparts leverandørene av skriftene.
+Den elektroniske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneholder forhåndsinstallerte skrifter på serverne som kan brukes til å definere sjekkoppsett. Følgende beskriver hvilke skrifter som er tilgjengelige, og som inneholder koblinger til detaljert informasjon om tredjeparts leverandørene av skriftene.
 
 > [!Important]
-> MICR og sjekk sikkerhet-skrifter i Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)] er lisensiert i en skriftpakke fra IDAutomation.com, Inc. Disse produktene kan bare brukes som en del av og i forbindelse med Microsoft Dynamics [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> MICR og sjekk sikkerhet-skrifter i Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)] er lisensiert i en skriftpakke fra IDAutomation.com, Inc. Disse produktene kan bare brukes som en del av og i forbindelse med Microsoft Dynamics [!INCLUDE[prod_short](includes/prod_short.md)].
 
 I oppdatering 15.3 og nyere kan MICR-skrifter installeres og være tilgjengelige for bruk. Både E-13B- og de CMC-7-standardene støttes. I tillegg til MICR-skrifter er spesielle sikkerhetsskrifter tilgjengelige for å generere tekst, navn, beløp og valutasymbolene dollar, euro, pund og yen, som kan være vanskelige å endre når en sjekk er skrevet ut.
 
 > [!NOTE]
-> Av sikkerhetsgrunner og rettslige grunner kan du ikke laste opp egendefinerte skrifter til [!INCLUDE[d365fin](includes/d365fin_md.md)]-miljøet.
+> Av sikkerhetsgrunner og rettslige grunner kan du ikke laste opp egendefinerte skrifter til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-spesifikasjoner
 Følgende summerer spesifikasjoner for MICR E-13B-skriftene som kan være nyttige når du kalibrerer skrifter for å være på sjekkoppsett med spesifikke MICR-skrivere.
@@ -60,7 +60,7 @@ Følgende summerer spesifikasjoner for MICR E-13B-skriftene som kan være nyttig
 Den fullstendige spesifikasjonen av MICR E-13B-skrifter finnes i dokumentasjonen for leverandøren her: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7-spesifikasjoner
-Følgende CMC-7-skrifter er tilgjengelige i [!INCLUDE[d365fin](includes/d365fin_md.md)] online:
+Følgende CMC-7-skrifter er tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] online:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
@@ -83,7 +83,7 @@ Følgende summerer spesifikasjoner for sjekk sikkerhet-skrifter som kan være ny
 
 Den fullstendige spesifikasjonen av sjekk sikkerhet-skrifter finnes i dokumentasjonen for leverandøren her: (https://www.idautomation.com/security-fonts/).
 
-Skrifter for andre formål er også tilgjengelige i [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Tilgjengelige skrifter](ui-fonts.md)
+Skrifter for andre formål er også tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Tilgjengelige skrifter](ui-fonts.md)
 
 ## <a name="see-also"></a>Se også
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
@@ -91,5 +91,5 @@ Skrifter for andre formål er også tilgjengelige i [!INCLUDE[prodshort](include
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)   
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  
-[Arbeide med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

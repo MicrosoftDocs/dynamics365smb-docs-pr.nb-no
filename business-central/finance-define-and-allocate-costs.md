@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e620772e5e83777d0ef48cc2b86bfbdc372daf8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 802706f3b501b7c0bdc7959573d5a7c830a7bf90
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913324"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747069"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og fordele kostnader
 Kostfordelinger flytter kostnader og inntekter mellom kosttyper, kostsentre og kostobjekter. Du kan definere så mange fordelinger som du trenger. Hver fordeling består av:  
@@ -78,7 +78,7 @@ Statisk fordelingsmetode er basert på en bestemt verdi, for eksempel kvadratmet
 Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsmål for PROD-kostsenteret for fordelingskilden ved hjelp av det fastsatte fordelingsforholdet på 5:2:4. De tre målkostobjektene er TILBEHØR, MALING og ARMATUR.  
 
 > [!NOTE]  
->  I eksempelet brukes demodataene i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  I eksempelet brukes demodataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Slik definerer du PROD-kostsenteret for fordelingskilden i hurtigfanen Generelt:  
 
@@ -109,13 +109,13 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 15. På den tredje linjen, i feltet **Del**, angir du fordelingsforholdet **4**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk **Prosent**-feltet ved å bruke en prosentsats som er avhengige av alle de tre fordelingsforholdene som er angitt i **Del**-feltet for alle de tre linjene.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk **Prosent**-feltet ved å bruke en prosentsats som er avhengige av alle de tre fordelingsforholdene som er angitt i **Del**-feltet for alle de tre linjene.
 
 ## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Definere dynamiske fordelinger basert på solgte varer
 Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp av metoden dynamisk tildeling. I eksemplet endrer du dynamisk fordeling av kostnadene for SALG-kostsenteret slik at det støtter det nye kostobjektet IT-UTSTYR. IT-UTSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du kan bruke salgstall for fjoråret til å beregne andelen. Tildelingen er bokført til hjelpekosttype 9903.  
 
 > [!NOTE]  
->  I eksempelet brukes demodataene i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+>  I eksempelet brukes demodataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Slik definerer du dynamisk fordelinger basert på varer solgt i fjoråret:  
 
@@ -135,7 +135,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 14. Hvis du vil beregne delen, velger du handlingen **Beregn fordelingsnøkkel**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 NOK med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 NOK med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
 ## <a name="see-also"></a>Se også  
  [Definere kost.regnskap](finance-set-up-cost-accounting.md)   

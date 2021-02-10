@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 1078b9839920684c4be54e1753db5c87e1694912
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 1bcbd23658ff2a74ae0ab88b6020e1d859f37355
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912699"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747721"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som 책pner en side eller en rapport fra navigasjonsmenyen i rollesenteret. Dette gir deg muligheten til 책 komme raskt i kontakt med favorittinnhold eller forretningsoppgaver. Du legger til bokmerket fra m책lsiden eller rapporten, som betyr skjermbildet du vil at koblingen i rollesenteret skal 책pne.
@@ -81,6 +81,6 @@ N책r du legger til en ny handling, brukes oversatt tekst som var tilgjengelig p�
 
 ## <a name="see-also"></a>Se ogs책
 [Tilpasse arbeidsomr책det](ui-personalization-user.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.date: 10/01/2020
 ms.author: andregu
-ms.openlocfilehash: 7d75cb42b064f8541a1142ef149c9641baa6f69a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 9d01d332457d85c0450cdf98c79778b18eba304e
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923923"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746794"
 ---
 # <a name="managing-vat-rate-changes"></a>Håndtere endringer i mva-satser
 
-MVA-satser kan endres avhengig av lokal lovgivning. Eventuelle endringer i mva påvirker dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)] om mva-satsen reduseres, økes eller fjernes. Mva er knyttet til mange enheter i [!INCLUDE[d365fin](includes/d365fin_md.md)], for eksempel kunder, leverandører, varer, ressurser, varegebyrer og finanskonti. Endringer i mva-satser skjer vanligvis på en bestemt dato, og fra hvilket punkt må du ha endret mva-oppsettet, bokføringsgruppene og så videre, for å sikre at nye ordrer og bestillinger opprettes med den nye mva-satsen.
+MVA-satser kan endres avhengig av lokal lovgivning. Eventuelle endringer i mva påvirker dataene i [!INCLUDE[prod_short](includes/prod_short.md)] om mva-satsen reduseres, økes eller fjernes. Mva er knyttet til mange enheter i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel kunder, leverandører, varer, ressurser, varegebyrer og finanskonti. Endringer i mva-satser skjer vanligvis på en bestemt dato, og fra hvilket punkt må du ha endret mva-oppsettet, bokføringsgruppene og så videre, for å sikre at nye ordrer og bestillinger opprettes med den nye mva-satsen.
 
 ## <a name="changing-vat-rates"></a>Endre mva-satser
 

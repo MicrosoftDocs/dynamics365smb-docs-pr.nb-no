@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 233785c6d118ef9c23fef56ec113e008226c1a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 302552a32e2c6322c156a22095c926dee40b4cf7
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3916121"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746594"
 ---
 # <a name="set-up-invoice-rounding"></a>Definere fakturaavrunding
 Hvis du må runde av fakturabeløp når du oppretter fakturaer, kan du bruke funksjonen for automatisk avrunding. Når en faktura rundes av, legges det til en ekstra linje med avrundingsbeløpet, og denne linjen bokføres sammen med de andre fakturalinjene.
@@ -37,7 +37,7 @@ Hvis du vil bruke funksjonen for automatisk fakturaavrunding, må du opprette fi
 
 ### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>Slik setter du opp finanskonti for avrundingsdifferanser på fakturaer  
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
-2. Sett opp kontoen på siden **Kontoplan**, og gi den navnet **Fakturaavrunding** eller noe lignende. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruker kontonavnet som tekst for fakturaer som er avrundet.  
+2. Sett opp kontoen på siden **Kontoplan**, og gi den navnet **Fakturaavrunding** eller noe lignende. [!INCLUDE[prod_short](includes/prod_short.md)] bruker kontonavnet som tekst for fakturaer som er avrundet.  
 3. Avhengig av om du bruker mva eller salgsmva, i feltene **Mva-bokføringsgruppe - vare** eller **Mva-bokf.gruppe - vare** velger du en bokføringsgruppe for avrundede beløp. Du kan også definere en ny gruppekode som skal brukes til fakturaavrunding.
 4. La feltet **Bokføringstype** og ett av feltene **Mva-bokføringsgruppe - firma** eller **Mva-bokf.gruppe - firma** stå tomt. <!-- Why do we say to leave these blank, when there are a lot of other fields we also leave blank but don't mention? -->  
 

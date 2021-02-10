@@ -7,12 +7,12 @@ ms.topic: article
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 426c99da80f4e4fe13ae5752a683b1c13b4746fc
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 0c9cf50b7c3b46c67cacebf67b80b4ba911023c4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919528"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747219"
 ---
 # <a name="about-finished-production-order-costs"></a>Om fullførte produksjonsordrekostnader
 Det er viktig å gjøre ferdig produksjonsordren for å fullføre kostlivssyklusen til varen som produseres. De endelige kostbeløpene, herunder avvik i et standardkostmiljø, faktiske beløp i et kostmiljø av typen FIFO, gjennomsnitt eller LIFO, beregnes ved hjelp av kjørselen **Juster kostverdi - vareposter**, som tillater økonomisk avstemming av kostbeløpene for vareproduksjon. For at en produksjonsordre skal kunne behandles ved kostjustering, må statusen være **Ferdig**. Derfor er det avgjørende at statusen til en produksjonsordre endres til **Ferdig** når ordren er fullført.  
@@ -23,4 +23,4 @@ Det er viktig å gjøre ferdig produksjonsordren for å fullføre kostlivssyklus
 ## <a name="see-also"></a>Se også  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Produksjon](production-manage-manufacturing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

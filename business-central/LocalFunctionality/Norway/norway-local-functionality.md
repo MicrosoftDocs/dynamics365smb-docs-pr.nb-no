@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3eca008826427c4d1a7dfd8949374cb3c8fa5b78
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c1961ca765eedd9fc6e4fab6ce77ffe83191a1eb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921344"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752447"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 
-Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
+Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Funksjonstilgjengelighet
 
@@ -85,5 +85,5 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

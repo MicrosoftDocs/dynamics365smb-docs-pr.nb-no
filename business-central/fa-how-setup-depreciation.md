@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a08c4dbdb54343f1ec2a66064508496517617555
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921913"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749272"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
  Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).
@@ -60,7 +60,7 @@ Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørsel
 7. Velg **OK**.
 
 ## <a name="to-set-up-depreciation-posting-types"></a>Slik definerer du bokføringstyper for avskrivning:
-For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal håndtere ulike bokføringstyper. Du må for eksempel angi om bokføringen skal være debet eller kredit, og om bokføringstypen skal tas med i avskrivningsgrunnlaget.  
+For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere ulike bokføringstyper. Du må for eksempel angi om bokføringen skal være debet eller kredit, og om bokføringstypen skal tas med i avskrivningsgrunnlaget.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået du vil definere, og velg deretter handlingen **Aktivabokf.type - oppsett**.
@@ -84,4 +84,4 @@ Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskriv
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

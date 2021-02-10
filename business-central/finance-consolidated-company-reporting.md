@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0961fb9cda09596e0c40ecd7f6478340d40f2e4d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6a2100a1f945153d9c89d3cd86fb5d16860c4930
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913399"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747094"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 
-Noen organisasjoner bruker [!INCLUDE [prodshort](includes/prodshort.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prodshort](includes/prodshort.md)] i datterselskaper som må rapportere til overordnede organisasjoner. I begge tilfeller bruker regnskapsførere innebygde verktøy til å konsolidere regnskapsdataene.  
+Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper som må rapportere til overordnede organisasjoner. I begge tilfeller bruker regnskapsførere innebygde verktøy til å konsolidere regnskapsdataene.  
 
 Du kan konsolidere finanspostene fra to eller flere atskilte selskaper (datterselskaper) i et konsolidert selskap. Hvert enkelt selskap som er involvert i en konsolidering, kalles et konsern. Det kombinerte selskapet kalles de konsoliderte selskapet.  
 
-Du kan importere data til det konsoliderte selskapet fra andre selskaper i samme [!INCLUDE [prodshort](includes/prodshort.md)]-leietaker, fra leietakere eller fra filer.  
+Du kan importere data til det konsoliderte selskapet fra andre selskaper i samme [!INCLUDE [prod_short](includes/prod_short.md)]-leietaker, fra leietakere eller fra filer.  
 
 Hvis årsregnskapene i et konsern er i en annen valuta enn i det konsoliderte selskapet, må du definere valutakurser for konsolidering.  
 
@@ -42,7 +42,7 @@ Du definerer det konsoliderte selskapet på samme måte som du definerer andre s
 
 ## <a name="trial-balance"></a>Råbalanse
 
-Hvis du har mer enn ett selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)], kan rapporten **Konsolidert råbalanse** gi deg en samlet oversikt over den økonomiske situasjonen.  
+Hvis du har mer enn ett selskap i [!INCLUDE[prod_short](includes/prod_short.md)], kan rapporten **Konsolidert råbalanse** gi deg en samlet oversikt over den økonomiske situasjonen.  
 
 Rapporten kombinerer finansposter fra hvert av selskapene i et nytt selskap du oppretter med de konsoliderte dataene. Dette selskapet kalles vanligvis for "det konsoliderte selskapet". Det konsoliderte selskapet er bare en beholder for de konsoliderte dataene og har ikke noen live forretningsdata. Selskapene du tar med i det konsoliderte selskapet, blir **Konserner** i rapporten. Du finner mer informasjon under [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
@@ -52,7 +52,7 @@ Prosessen med å overføre tall fra konsernene til det konsoliderte selskapet er
 
 ### <a name="to-test-the-data-before-you-consolidate"></a>Slik tester du dataene før konsolidering
 
-Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[d365fin](includes/d365fin_md.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
+Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[prod_short](includes/prod_short.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
 1. Åpne det konsoliderte selskapet.  
 2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
@@ -118,5 +118,5 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 
 [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)

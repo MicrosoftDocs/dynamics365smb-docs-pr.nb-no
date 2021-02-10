@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3f7e9c33e5dab3de6461fcda5732168f0e6e89b
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3913499"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751033"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
 Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
@@ -53,5 +53,5 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 
 ## <a name="see-also"></a>Se også
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  

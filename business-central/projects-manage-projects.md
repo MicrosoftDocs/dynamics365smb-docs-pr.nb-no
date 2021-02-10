@@ -8,17 +8,17 @@ ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0e3f5f489822cef693242c46a47d84f429af0706
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 4fe5f22774ca670353b0079140f35137f427c5b3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926950"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748846"
 ---
 # <a name="project-management"></a>Prosjektstyring
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
 
-Før du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  
+Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
@@ -36,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="get-started-with-projects"></a>Komme i gang med prosjekter
 
-Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE[prodshort](includes/prodshort.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prodshort](includes/prodshort.md)] YouTube-kanalen.  
+Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 
@@ -46,6 +46,6 @@ Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du opprett
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

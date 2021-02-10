@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: design, general journal, posting, codeunit 12
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: aaffac8fe7e10d0155649c960803f65a8136c46d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 56cf606151f687cf48138b3e14758d7febc47db6
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911083"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751582"
 ---
 # <a name="design-details-general-journal-post-line"></a>Designdetaljer: Finanskladd – bokfør linje
-Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes til å utforme funksjonen for bokføring av finanskladdelinjer på nytt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Den nye utformingen forenkler kodeenhet 12 og gjør den enklere å vedlikeholde. Dokumentasjonen begynner med beskrivelse av begrepsmessige oversikter over den nye utformingen. Deretter blir den tekniske arkitekturen forklart for å vise endringene den nye utformingen gir.  
+Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes til å utforme funksjonen for bokføring av finanskladdelinjer på nytt i [!INCLUDE[prod_short](includes/prod_short.md)]. Den nye utformingen forenkler kodeenhet 12 og gjør den enklere å vedlikeholde. Dokumentasjonen begynner med beskrivelse av begrepsmessige oversikter over den nye utformingen. Deretter blir den tekniske arkitekturen forklart for å vise endringene den nye utformingen gir.  
 
 ## <a name="in-this-section"></a>I denne delen  
 [Oversikt over Finanskladd – bokfør linje](design-details-general-journal-post-line-overview.md)  

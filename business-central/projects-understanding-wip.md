@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8b2cebfbee991bcb9aa9c9bebe9e9112a024c429
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8d23cd7ca8badf10bc8c734d84b5142d34ad4362
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918941"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4748821"
 ---
 # <a name="understanding-wip-methods"></a>Forstå VIA-metoder
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig.
 
 Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans. Hvis du vil ha mer informasjon, se [Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter følgende måter å beregne og registrere verdien av varer i arbeid på.
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter følgende måter å beregne og registrere verdien av varer i arbeid på.
 
 | VIA-metode | Beregningsformel | Beskrivelse av beregning |
 | --- | --- | --- |
@@ -39,4 +39,4 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

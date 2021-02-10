@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d39d30891d822c25b0ce4aaec84bbbbc714ae311
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 194e9acb40233e23470aee6e61f6cabc503cea72
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910758"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746644"
 ---
 # <a name="setting-up-cost-accounting"></a>Definere kostregnskap
 Før du begynner å arbeide med kostregnskap, må du utføre konfigurasjonsprosedyrer.
@@ -87,8 +87,8 @@ Det er et n:1-forhold mellom finanskonti og kosttyper. Flere finanskontoer kan t
 En kostnadstype kan ikke ha en relasjon til finanskontoer hvis én av følgende betingelser er oppfylt:  
 
 * Kontoer for driftsregnskap, for eksempel beregnede renter og avskrivning, tar bare kostnader fra driftsregnskapet.  
-* Hjelpekosttyper, for eksempel kosttypene 9901, 9902 og 9903 i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen, brukes som kredit- og debetkontoer for fordelinger.  
-* Hjelpekontoen, 9920 i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen, inneholder faktiske avsetninger som viser differansen mellom kost og utgiftene fra Finans.
+* Hjelpekosttyper, for eksempel kosttypene 9901, 9902 og 9903 i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen, brukes som kredit- og debetkontoer for fordelinger.  
+* Hjelpekontoen, 9920 i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen, inneholder faktiske avsetninger som viser differansen mellom kost og utgiftene fra Finans.
 
 ## <a name="setting-up-cost-centers"></a>Definere kostsentre
 Kostsentre er avdelinger som er ansvarlig for kostnader og inntekter. Diagrammet med kostsentre ligner dimensjonsinformasjonen for finans. Du kan definere diagrammet med kostsentre på følgende måter:  
@@ -157,7 +157,7 @@ Du kan definere og vedlikeholde kostobjekter i kortet **Kostobjektkort** eller s
 >  Hvis du har angitt definisjoner i feltene **Total fra/til** for **Til-sum**-kostobjekter før du kjører innrykksfunksjonen, må du angi dem på nytt. Funksjonen overskriver verdiene i alle **Til-sum**-felt.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definere kostsentre og kostobjekter for kontoplanen
-Du kan automatisk overføre utgifts- og inntektspostene fra finans til kostregnskap enten for hver finansbokføring eller sammen med en kjørsel. Når du foretar overføringen, overfører [!INCLUDE[d365fin](includes/d365fin_md.md)] bare postene som allerede er koblet til et kostsenter eller et kostobjekt. Hvis du vil opprette en meningsfull overføring, må du kontrollere at kostsentre og kostobjekter er riktig definert.  
+Du kan automatisk overføre utgifts- og inntektspostene fra finans til kostregnskap enten for hver finansbokføring eller sammen med en kjørsel. Når du foretar overføringen, overfører [!INCLUDE[prod_short](includes/prod_short.md)] bare postene som allerede er koblet til et kostsenter eller et kostobjekt. Hvis du vil opprette en meningsfull overføring, må du kontrollere at kostsentre og kostobjekter er riktig definert.  
 
 ### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standard dimensjonsverdier for finanskontoer  
 For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimensjon**-tabellen. Eksempelet nedenfor viser hvordan du definerer at det alltid skal finnes et kostsenter for AVDELING, men aldri et kostobjekt for PROSJEKT, ved bokføring til en finanskonto.  
@@ -182,4 +182,4 @@ For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimen
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
 [Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)   
 [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

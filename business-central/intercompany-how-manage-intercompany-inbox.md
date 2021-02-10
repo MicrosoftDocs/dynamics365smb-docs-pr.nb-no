@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cd2d5e39edb82ebf8720b4ad98f490fa851ed2b4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7e50370c73085f3e0e86e3956a1b3c5a07390094
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921845"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746419"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
@@ -104,4 +104,4 @@ Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

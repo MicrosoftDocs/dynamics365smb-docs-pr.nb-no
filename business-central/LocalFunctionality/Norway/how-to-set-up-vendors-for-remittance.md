@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bb625c01d2db17291459c7113abd3dee93ffd2b8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 39f66c1d23d5934d0780459b3a7b88e1f25cf826
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921352"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752449"
 ---
 # <a name="set-up-vendors-for-remittance"></a>Angi leverandører for remittering
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
 
 ## <a name="to-set-up-a-vendor-for-remittance"></a>Slik angir du en leverandør for remittering  
 

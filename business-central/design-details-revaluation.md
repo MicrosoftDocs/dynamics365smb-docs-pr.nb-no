@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 43a62271bab9401bfea21663c72b6363884c2ef4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911008"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751208"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Revaluering
 Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.  
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] støttes følgende fleksibilitet med hensyn til revaluering:  
+I [!INCLUDE[prod_short](includes/prod_short.md)] støttes følgende fleksibilitet med hensyn til revaluering:  
 
 -   Antallet som kan revalueres, kan beregnes for en hvilken som helst dato, også tilbake i tid.  
 -   Forventede kostposter inkluderes i revaluering for varer som bruker lagermetoden Standard.  
@@ -82,13 +82,13 @@ Verdisettingsdatoen settes til datoen for forbruksbokføring (01.02.20) som en v
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |15.01.20|Kjøpspris/prod.kost|01.01.20|150,00|2|2|  
 |01.02.20|Kjøpspris/prod.kost|01.02.20|-150,00|2|2|  
-|15.02.20|Kjøpspris/prod.kost|15.02.20|150.00|3|3|  
+|15.02.20|Kjøpspris/prod.kost|15.02.20|150,00|3|3|  
 
 ## <a name="expected-cost-in-revaluation"></a>Forventet kostnad i revaluering  
-Antallet revaluable XE "Revaluable antall" XE "antall; Revaluable"beregnes som summen av antall XE"antall"ferdig fakturerte XE"Faktura"XE"Vareposten"vareposter med en bokføringsdato som er lik eller før datoen revaluering XE"Revaluering". Dette betyr at når noen varer mottas/leveres, men ikke faktureres, kan ikke lagerverdien deres beregnes XE "Lagerverdi" . Varer som bruker lagermetoden Standard er ikke begrenset på dette området. XE "Verdi"  
+Antallet som kan revalueres, beregnes som summen av antallet for fullstendig fakturerte vareposter med en bokføringsdato som er lik eller tidligere enn revalueringsdatoen. Dette betyr at når noen varer mottas/leveres, men ikke faktureres, kan ikke lagerverdien deres beregnes. Varer som bruker lagermetoden Standard er ikke begrenset på dette området.  
 
 > [!NOTE]  
->  En annen type forventede kostnader som kan revalueres i henhold til bestemte regler, er via-beholdning. Hvis du vil ha mer informasjon, kan du se delen "Revaluering av VIA-beholdning" i dette emnet.  
+>  En annen type forventede kostnader som kan revalueres i henhold til bestemte regler, er via-beholdning. Hvis du vil ha mer informasjon, kan du se [Revaluering av VIA-beholdning](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Når antallet som kan revalueres, beregnes for varer som bruker lagermetoden Standard, blir vareposter som ikke er fullstendig fakturert, tatt med i beregningen. Disse postene revalueres deretter når du bokfører revalueringen. Når du fakturerer den revaluerte posten, opprettes følgende verdiposter:  
 
@@ -114,9 +114,9 @@ Tabellen nedenfor viser de resulterende verdipostene.
 |2.|20.01.20|Revaluering|20.01.20|150,00|0,00|1|2|  
 |3.a.|15.01.20|Kjøpspris/prod.kost|15.01.20|-300,00|0,00|1|3|  
 |3.b.|15.01.20|Revaluering|20.01.20|-150,00|0,00|1|4|  
-|3.c.|15.01.20|Avvik|15.01.20|0,00|450,00|1|5|  
+|3.c.|15.01.20|Avvik|15.01.20|0.00|450,00|1|5|  
 
-## <a name="determining-if-an-inventory-decrease-is-affected-by-revaluation"></a>Fastslå om en lagerreduksjon påvirkes av revaluering  
+## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Fastslå om en lagerreduksjon påvirkes av revaluering  
 Datoen for bokføringen eller revalueringen brukes til å fastslå om en lagerreduksjon påvirkes av en revaluering.  
 
 Tabellen nedenfor viser kriteriene som brukes for en vare som ikke bruker lagermetoden Gjennomsnitt.  
@@ -163,13 +163,13 @@ Tabellen nedenfor viser de resulterende verdipostene.
 ## <a name="wip-inventory-revaluation"></a>Revaluering av VIA-beholdning  
 Revaluering av VIA-beholdning innebærer revaluering av komponenter som er registrert som en del av VIA-beholdning da revalueringen ble utført.  
 
-Med hensyn til dette er det viktig å opprette konvensjoner som angir når en vare regnes som en del av VIA-beholdningen, fra et økonomisk synspunkt. I [!INCLUDE[d365fin](includes/d365fin_md.md)] finnes følgende konvensjoner:  
+Med hensyn til dette er det viktig å opprette konvensjoner som angir når en vare regnes som en del av VIA-beholdningen, fra et økonomisk synspunkt. I [!INCLUDE[prod_short](includes/prod_short.md)] finnes følgende konvensjoner:  
 
 -   En innkjøpt komponent blir en del av råvarebeholdningen fra tidspunktet for postering av en bestilling som fakturert.  
 -   En komponent som er kjøpt / satt sammen av halvfabrikater blir en del av VIA-beholdning fra posteringstidspunktet for forbruket i forbindelse med en produksjonsordre.  
 -   En komponent som er kjøpt / satt sammen av halvfabrikater forblir en del av VIA-beholdning til en produksjonsordre (produsert vare) blir fakturert.  
 
-Måten verdisettingsdatoen for verdiposten for forbruk angis på, følger de samme reglene som for ikke-VIA-beholdning. Hvis du vil ha mer informasjon, kan du se avsnittet Fastslå om en lagerreduksjon påvirkes av revaluering i dette emnet.  
+Måten verdisettingsdatoen for verdiposten for forbruk angis på, følger de samme reglene som for ikke-VIA-beholdning. Hvis du vil ha mer informasjon, kan du se [Fastslå om en lagerreduksjon påvirkes av revaluering](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
 
 VIA-beholdning kan revalueres så lenge revalueringsdatoen ikke kommer etter bokføringsdatoen for de tilsvarende varepostene av typen Forbruk, og så lenge den tilsvarende produksjonsordren ikke er fakturert ennå.  
 
@@ -181,4 +181,4 @@ VIA-beholdning kan revalueres så lenge revalueringsdatoen ikke kommer etter bok
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md)   
  [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

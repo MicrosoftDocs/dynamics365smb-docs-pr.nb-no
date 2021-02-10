@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 73fbf09cff59556c04b43383c507a01883bbb071
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: e3ecf8d206e50244c19a820bdb67d2992cbefe36
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3923748"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746369"
 ---
 # <a name="set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
 
@@ -31,12 +31,12 @@ Hvis du vil ha mer informasjon om kostnadsfelt, **Automatisk kostbokføring**, *
 Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret, på siden **Lageroppsett**, og for lokasjonen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Alternativet **Automatisk kostjustering** er aktivert som standard for å sikre at lagerverdier alltid er riktige i finans, som i sin tur holder salgs- og fortjenestestatistikk oppdatert. Kostendringer fra inngående poster, for eksempel de for kjøp eller produksjonsavgang, tilordnes til de relaterte utgående postene, for eksempel salg eller overføringer. Dette er nyttig for nye [!INCLUDE[d365fin](includes/d365fin_md.md)]-kunder og små bedrifter med relativt lave lagertransaksjonsnivåer. Når virksomheten vokser og lagernivåer øker, kan imidlertid dette redusere systemets ytelse. Hvis du vil minimere redusert ytelse under bokføringen, velger du et tidsalternativ for å definere hvor langt tilbake i tid fra arbeidsdatoen en inngående transaksjon kan forekomme for potensielt å utløse justering av relaterte utgående verdiposter. Alternativt kan du justere kostnader manuelt ved jevne mellomrom med kjørselen Juster kostverdi – vareposter.
+> Alternativet **Automatisk kostjustering** er aktivert som standard for å sikre at lagerverdier alltid er riktige i finans, som i sin tur holder salgs- og fortjenestestatistikk oppdatert. Kostendringer fra inngående poster, for eksempel de for kjøp eller produksjonsavgang, tilordnes til de relaterte utgående postene, for eksempel salg eller overføringer. Dette er nyttig for nye [!INCLUDE[prod_short](includes/prod_short.md)]-kunder og små bedrifter med relativt lave lagertransaksjonsnivåer. Når virksomheten vokser og lagernivåer øker, kan imidlertid dette redusere systemets ytelse. Hvis du vil minimere redusert ytelse under bokføringen, velger du et tidsalternativ for å definere hvor langt tilbake i tid fra arbeidsdatoen en inngående transaksjon kan forekomme for potensielt å utløse justering av relaterte utgående verdiposter. Alternativt kan du justere kostnader manuelt ved jevne mellomrom med kjørselen Juster kostverdi – vareposter.
 
 ## <a name="see-also"></a>Se også
 [Definere lager](inventory-setup-inventory.md)  
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)    
 [Håndtere lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)

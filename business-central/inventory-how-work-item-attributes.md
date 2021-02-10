@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: categories, search words, facets
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: cc93d954e55a4bcae1057d7a0b72b67c20606842
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 80f1418e71396ababc4d85bb7f231fb9985654c8
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919366"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749933"
 ---
 # <a name="work-with-item-attributes"></a>Arbeide med vareattributter
 Når en kunde sender en forespørsel om en vare, enten i korrespondanse eller i en integrert nettbutikk, kan kunden spørre om eller søke etter i henhold til egenskaper, for eksempel høyde og modellår. Hvis du vil levere denne kundeservicen, kan du tilordne varen attributtverdier av forskjellige typer, som deretter kan brukes ved søk etter varer.
@@ -79,4 +79,4 @@ Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattribu
 [Kategorisere varer](inventory-how-categorize-items.md)    
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d87d2e635bbe0872fac0c98d93481b71e16d15f4
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b9d936cffabaea38571fe755ca43ed0cd9a961b4
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3917054"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750883"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere inntekter og utgifter
 Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som transaksjonen ble bokført, kan du bruke funksjonaliteten til å periodisere automatisk inntekter og utgifter etter en angitt tidsplan.
@@ -93,4 +93,4 @@ Finansposter som skal posteres til den angitte periodiseringskontoen, for eksemp
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

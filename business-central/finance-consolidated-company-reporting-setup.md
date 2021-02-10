@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7a5ad9eeb2dc42f1cb6fe7640bda721a6f511a75
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d733b8000d5ea476d32a96bcccdceebc32e0f43c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927702"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750983"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere selskapskonsolidering
 
@@ -33,7 +33,7 @@ Det finnes to måter å definere konsolideringen på, avhengig av forretningenes
 Hvis konsolideringen er enkel, for eksempel fordi du er eneeier av konsernene som skal konsolideres, vil veiledningen **Selskapskonsolidering** med assistert oppsett hjelpe deg gjennom følgende trinn:
 
 * Velg om du vil opprette et nytt konsolidert selskap eller om du vil konsolidere dataene i et selskap som allerede er opprettet for konsolidering. Selskapet kan ikke inneholde transaksjoner.
-* Forhåndsvis resultatene. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at hoveddata og transaksjoner kan bli overført til det konsoliderte selskapet.
+* Forhåndsvis resultatene. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer at hoveddata og transaksjoner kan bli overført til det konsoliderte selskapet.
 
 Hvis du vil bruke veiledningen med assistert oppsett, gjør du følgende:
 
@@ -70,7 +70,7 @@ Følgende oversikt illustrerer viktige aspekter ved det konsoliderte selskapet.
 
 ### <a name="add-business-units"></a><a name="busunit"></a>Legge til konsern
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] lar deg sette opp en liste over konsern som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
+[!INCLUDE[prod_short](includes/prod_short.md)] lar deg sette opp en liste over konsern som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
 
 1. Logg deg på det konsoliderte selskapet.
 2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
@@ -88,7 +88,7 @@ Kontoplanen for et selskap som skal konsolideres, må angi kontoer for konsolide
 
 Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må du klargjøre finanskonti for konsolidering. Du kan angi kontiene for å bokføre debet og kredit og metoden som skal brukes til å oversette valutaer i det konsoliderte selskapet. Dette er for eksempel nyttig hvis du kjører rapporten ofte.
 
-1. I hvert konserns [!INCLUDE [prodshort](includes/prodshort.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Kontoplan**, og velger deretter den relaterte koblingen.  
+1. I hvert konserns [!INCLUDE [prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Kontoplan**, og velger deretter den relaterte koblingen.  
 2. Åpne kortet for kontoen, og deretter fyller du ut feltene på **Konsolidering**-hurtigfanen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Angi valutakurser for konsolideringer
@@ -136,5 +136,5 @@ Hvis du bare eier en del av et selskap, kan du ta med en prosentandel av hver en
 
 [Konsolidere finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)  
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)

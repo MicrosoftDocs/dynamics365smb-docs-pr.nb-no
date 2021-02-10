@@ -11,15 +11,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b473da21e35ee09b2ffad16a1acd01c03ac92a7f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: a2280fbeccd51d1c959aa2aa09121d728a18326f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3924306"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751858"
 ---
 # <a name="design-details"></a>Designdetaljer
-Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere som trenger større innsikt for å implementere, tilpasse eller konfigurere den aktuelle funksjonen.  
 
@@ -37,6 +37,6 @@ Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunks
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
  [Lagerstyring](warehouse-manage-warehouse.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
- ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

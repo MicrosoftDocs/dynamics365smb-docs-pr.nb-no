@@ -12,15 +12,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 55b2a6672e1c447655d19a49b071b4a9dc23cbaf
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 749e50d3b69b9d8003c250afa1be8dd86427f93d
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921326"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752440"
 ---
 # <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]omfatter to typer importerbare betalingsreturfiler:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)]omfatter to typer importerbare betalingsreturfiler:  
 
 - Mottaksreturer  
 - Avregningsreturer  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 953be4038a65917e10bca1921d9ff4f80f584b28
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d92b4d5ad8b473f517af9fba5e1097e2452d1446
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920775"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749471"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffe aktiva
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Et avskrivningstablå må defineres og tilordnes til hvert enkelt aktiva før du kan anskaffe det.
@@ -48,7 +48,7 @@ Når du velger **Fullfør**, blir **Bokført verdi**-feltet på **Aktivakort**-s
 ## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Slik definerer du en komponentoversikt for et hovedaktiva:
 Du kan gruppere aktiva i hovedaktiva og komponenter i hovedaktivaene. Det kan for eksempel tenkes at du har en produksjonsmaskin som består av mange deler som du vil gruppere på denne måten.  
 
-Både hovedaktivaet og alle komponentene må defineres som individuelle aktivakort. Når du har definert en komponentoversikt, fyller [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk ut feltene **Hovedaktiva/komponent** og **Komponent til hovedaktiva** på aktivakortene.
+Både hovedaktivaet og alle komponentene må defineres som individuelle aktivakort. Når du har definert en komponentoversikt, fyller [!INCLUDE[prod_short](includes/prod_short.md)] automatisk ut feltene **Hovedaktiva/komponent** og **Komponent til hovedaktiva** på aktivakortene.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som er hovedaktivaet, og velg deretter **Hovedaktivakomponenter**-handlingen.
@@ -70,7 +70,7 @@ Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å
 4. Velg handlingen **Bokfør**.  
 
 > [!TIP]  
->   Hvis du fyller ut feltet **Forsikringsnr.** i aktivafinanskladden når du bokfører en anskaffelseskost, bokfører [!INCLUDE[d365fin](includes/d365fin_md.md)] også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil ha mer informasjon, kan du se [Forsikre aktiva](fa-how-insure.md).
+>   Hvis du fyller ut feltet **Forsikringsnr.** i aktivafinanskladden når du bokfører en anskaffelseskost, bokfører [!INCLUDE[prod_short](includes/prod_short.md)] også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil ha mer informasjon, kan du se [Forsikre aktiva](fa-how-insure.md).
 
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
 Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-siden.
@@ -103,4 +103,4 @@ Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivakladd.
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
