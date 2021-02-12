@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 10/08/2020
 ms.author: jswymer
-ms.openlocfilehash: 38c95baa74d94246c38f1ff985b1457506a03f22
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 723437b0e5acb5b5c4dca8374667ea1279243a80
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989465"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046431"
 ---
-# <a name="install-the-prodshort-app-for-microsoft-teams"></a>Installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen for Microsoft Teams
+# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prodshort](includes/prodshort.md)]-appen for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med web-, skrivebords- eller mobilappen for Teams.
+I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med web-, skrivebords- eller mobilappen for Teams.
 
 ## <a name="prerequisites"></a>Forutsetninger
+
+- Tilgang til Teams-skrivebordsappen eller Teams i nettleseren. Du kan ikke installere [!INCLUDE [prod_short](includes/prod_short.md)] ved hjelp av Teams-mobilappen.
 
 - Organisasjonens policyer må tillate at du installerer apper i Microsoft Teams.
 
@@ -58,7 +60,8 @@ Du er nå klar til å bruke appen i Teams for å dele Business Central-data. Hvi
 ## <a name="see-also"></a>Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
+[Vanlige spørsmål om Teams](teams-faq.md)  
+[Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Komme i gang](product-get-started.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

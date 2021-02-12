@@ -1,7 +1,6 @@
 ---
-title: Bruke Business Central uten Outlook | Microsoft-dokumentasjon
-description: Du kan bruke Business Central som innboks for virksomheten i Outlook fordi den er integrert med Microsoft 365, men du kan også arbeide uten Outlook i en nettleser eller på den mobile enheten.
-documentationcenter: ''
+title: Bruke Business Central uten Outlook
+description: Hvis du ikke har Outlook, kan du ikke bruke Business Central som innboks for virksomheten i Outlook, men du kan arbeide i en nettleser eller på den mobile enheten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,15 +10,15 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 40e2130c1142c29b01ba3ba8b04598fabe9feb3e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 273db30e18628d5114d7bad3f498e574e74a407e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927100"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068336"
 ---
 # <a name="using-business-central-without-outlook"></a>Bruke Business Central uten Outlook
-[!INCLUDE[d365fin](includes/d365fin_md.md)] har en tett integrasjon med Microsoft 365, og du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som innboks for virksomheten i Outlook. Hvis du ikke har Outlook, kan du arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)] i nettleseren eller på mobilenheten.  
+[!INCLUDE[prod_short](includes/prod_short.md)] har en tett integrasjon med Microsoft 365, og du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook. Hvis du ikke har Outlook, kan du arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] i nettleseren eller på mobilenheten.  
 
 ## <a name="sending-email"></a>Sende e-post
 Du kan sende dokumenter som e-post, for eksempel fakturaer, ved hjelp av e-postadressen for virksomheten. På rollesenter-siden kan du åpne en assistert oppsettsveiledning som hjelper deg å konfigurere e-post. Hvis du ikke bruker en e-postkonto for Microsoft 365, må du angi teknisk informasjon om e-postserveren. Hvis du ikke har denne informasjonen tilgjengelig, kontakter du IT-brukerstøtte.  

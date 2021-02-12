@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dd07d7d25bea1e49ffa4927a717088663c5d48da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d6b59df9677216cfcc3fd7e60ec92b1a17890763
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911033"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035734"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interne lagerflyter
 Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om å plukke komponenter og plassere sluttvarer for montering eller produksjonsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten en relasjon til kildedokumenter. Omfanget av og karakteren til aktivitetene som er involvert, varierer mellom grunnleggende og avanserte lagerstyring.  
@@ -90,7 +90,7 @@ Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om �
 ## <a name="flushing-production-components-in-the-warehouse"></a>Trekke produksjonskomponenter i lageret  
  Hvis det er angitt på varekortet, vil komponenter som er plukket med lagerplukk, bli bokført som forbrukte av produksjonsordren når lagerplukket registreres. Ved hjelp av trekkmetodene **Plukk + Fremover** og **Plukk + Bakover**, utløser plukkregistreringen den relaterte forbruksbokføringen henholdsvis når den første operasjonen starter, eller når den siste operasjonen er fullført.  
 
- Tenk deg følgende scenario basert på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrasjonsdatabasen, HVIT lokasjon.  
+ Tenk deg følgende scenario basert på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrasjonsdatabasen.  
 
  Det finnes en produksjonsordre for 15 STK av varen LS-100. Noen av varene i komponentoversikten må trekkes manuelt i en forbrukskladd, og andre varer i oversikten kan plukkes og trekkes automatisk ved hjelp av trekkmetoden **Plukk + Bakover**.  
 

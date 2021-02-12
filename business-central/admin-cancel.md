@@ -1,6 +1,6 @@
 ---
-title: Avbryte Business Central | Microsoft-dokumentasjon
-description: Beskriver hvordan du fjerner eller sletter Business Central-opplevelsen.
+title: Avbryte eller fjerne Business Central
+description: Finn ut hvordan du fjerner eller sletter Business Central-opplevelsen hvis du har et prøveversjonsabonnement, eller hvis du har et betalt abonnement.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,35 +10,35 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 8c70989e841da98594e8bc0c2436dbed8cda997b
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ee1acd4f7e3d036ec091392b637519f45d8a8af6
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927150"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068287"
 ---
-# <a name="unsubscribe-or-remove-prodshort"></a>Avbryte eller fjerne [!INCLUDE[prodshort](includes/prodshort.md)]
+# <a name="unsubscribe-or-remove-prod_short"></a>Avbryte eller fjerne [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Hvis du vil slutte å bruke [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen eller få lisensen fjernet fra kontoen. Fremgangsmåten er forskjellig hvis du bruker gratis prøveversjon eller hvis du har abonnement.  
+Hvis du vil slutte å bruke [!INCLUDE[prod_short](includes/prod_short.md)], kan du lukke kontoen eller få lisensen fjernet fra kontoen. Fremgangsmåten er forskjellig hvis du bruker gratis prøveversjon eller hvis du har abonnement.  
 
-## <a name="closing-your-free-trial-of-prodshort"></a>Lukke gratis prøveversjon på [!INCLUDE[prodshort](includes/prodshort.md)]
+## <a name="closing-your-free-trial-of-prod_short"></a>Lukke gratis prøveversjon på [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du lukke kontoen til enhver tid. Vi anbefaler at du eksporterer dataene før du lukker kontoen. 
+Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!INCLUDE[prod_short](includes/prod_short.md)], kan du lukke kontoen til enhver tid. Vi anbefaler at du eksporterer dataene før du lukker kontoen. 
 
-Du må be Microsoft 365-systemansvarlig om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/). 
+Du må be Microsoft 365-systemansvarlig om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/).  
 
-Hvis du registrerte deg for [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[d365fin](includes/d365fin_md.md)]-teamet ved å sende en e-postmelding til cancelbusinesscentra@microsoft.com. Du må inkludere navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
+Hvis du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[prod_short](includes/prod_short.md)]-teamet ved å sende en e-postmelding til [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du må inkludere navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
-## <a name="unsubscribing-by-removing-d365fin-from-your-microsoft-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra Microsoft 365-opplevelsen
+## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Stoppe abonnementet ved å fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra Microsoft 365-opplevelsen
 
-Hvis selskapet abonnerer på [!INCLUDE[prodshort](includes/prodshort.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisensen fra din Microsoft 365-brukerkonto. Hvis [!INCLUDE[d365fin](includes/d365fin_md.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-firmaet.  
+Hvis selskapet abonnerer på [!INCLUDE[prod_short](includes/prod_short.md)], men du ikke lenger vil ha tilgang, må du be systemansvarlig eller din Dynamics 365-partner for videresalg om å fjerne [!INCLUDE[prod_short](includes/prod_short.md)]-lisensen fra din Microsoft 365-brukerkonto. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] fjernes fra brukerkontoen din og firmaet fortsetter abonnementet, vil de fortsatt ha tilgang til de delte dataene i [!INCLUDE[prod_short](includes/prod_short.md)]-firmaet.  
 
-Hvis selskapet vil slutte å abonnere på [!INCLUDE[d365fin](includes/d365fin_md.md)], kan Dynamics 365-partneren for videresalg fjerne abonnementet fra selskapets konto. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innholdet for utviklere og IT-eksperter.  
+Hvis selskapet vil slutte å abonnere på [!INCLUDE[prod_short](includes/prod_short.md)], kan Dynamics 365-partneren for videresalg fjerne abonnementet fra selskapets konto. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i innholdet for utviklere og IT-eksperter.  
 
-Brukerkontoer og lisenser behandles i [Microsoft 365-administrasjonssenter](https://admin.microsoft.com/). Bare administratorer kan fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)]-lisenser på brukerkontoer eller fjerne abonnementet fra firmaets konto.  
+Brukerkontoer og lisenser behandles i [Microsoft 365-administrasjonssenter](https://admin.microsoft.com/). Bare administratorer kan fjerne [!INCLUDE[prod_short](includes/prod_short.md)]-lisenser på brukerkontoer eller fjerne abonnementet fra firmaets konto.  
 
-## <a name="removing-d365fin-from-your-app-launcher"></a>Fjerne [!INCLUDE[d365fin](includes/d365fin_md.md)] fra appstarteren
-Hvis du vil skjule [!INCLUDE[d365fin](includes/d365fin_md.md)] fra appstarteren, kan du ganske enkelt løsne den. Dette fjerner ikke data, og det avbryter ikke abonnementet.  
+## <a name="removing-prod_short-from-your-app-launcher"></a>Fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren
+Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren, kan du ganske enkelt løsne den. Dette fjerner ikke data, og det avbryter ikke abonnementet.  
 
 ## <a name="see-also"></a>Se også
 [Komme i gang](product-get-started.md)  

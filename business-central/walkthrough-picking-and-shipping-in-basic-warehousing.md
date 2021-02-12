@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c05456ca45b4508be0ba44acedf81997a92b56bb
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918491"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035759"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
 
 [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
 
 |Prinsipp|Inngående prosess|Hyller|Plukking|Følgesedler|Kompleksitetsnivå (se [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -33,6 +33,9 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående prosessene for pl
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md).  
 
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.  
+
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen
 
@@ -46,6 +49,9 @@ Denne gjennomgangen viser følgende oppgaver:
 - Opprette et lagerplukk basert på et frigitt kildedokument.  
 - Registrerer lagerflyttingen fra lageret og bokfører samtidig følgeseddelen for salgsordrekilden.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Roller
 
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
@@ -58,7 +64,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
-- For [!INCLUDE[prodshort](includes/prodshort.md)] online bruker du et selskap basert på det alternativet **Avansert evaluering - Fullfør eksempeldata** i et sandkassemiljø. For lokal [!INCLUDE[prodshort](includes/prodshort.md)] installeres CRONUS International Ltd..  
+- For [!INCLUDE[prod_short](includes/prod_short.md)] online bruker du et selskap basert på det alternativet **Avansert evaluering - Fullfør eksempeldata** i et sandkassemiljø. For lokal [!INCLUDE[prod_short](includes/prod_short.md)] installeres CRONUS International Ltd..  
 - Gjør deg til lageransatt på lokasjonen SØLV ved å følge disse trinnene:  
 
   1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
@@ -143,4 +149,4 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 [Flytte varer ad hoc i enkle lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

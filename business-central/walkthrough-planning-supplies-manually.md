@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b01235241ccdcb837063f786157349ed7094e81e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7ec1276600ab84a43363708e037fccb5b2ca0cf2
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918466"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035634"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
 
@@ -38,10 +38,10 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 -   Ordrebehandler  
 
 ## <a name="prerequisites"></a>Forutsetninger  
- Før du begynner med denne gjennomgangen, må du installere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må gjøre følgende endringer i databasen:  
+ Før du begynner med denne gjennomgangen, må du installere [!INCLUDE[prod_short](includes/prod_short.md)]. Du må gjøre følgende endringer i databasen:  
 
 -   Slett alle eksisterende ordrer for sykler.  
--   Opprett én ordre for ti sykler i OSLO.  
+-   Opprett én ordre for ti sykler i ØST.  
 -   Slett alle planlagte og fast planlagte produksjonsordrer. Ikke slett påbegynte ordrer med poster som allerede er bokført.  
 
  Som en regel bruker du de foreslåtte dataene i denne gjennomgangen siden disse dataene har de nødvendige postene.  
@@ -148,7 +148,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 4.  Velg **OK**-knappen for å bestille de ti varene som er tilgjengelige.  
 
     > [!NOTE]  
-    >  På behovslinjen er det foreslåtte kjøpet erstattet med en en overføring fra lokasjonen GRØNN. Funksjonen **Lag bestillinger** oppretter en overføringsordre fra GRØNN til den etterspurte lokasjonen. **Erstatning finnes**-feltet fungerer på samme måte.  
+    >  På behovslinjen er det foreslåtte kjøpet erstattet med en en overføring fra lokasjonen HOVED. Funksjonen **Lag bestillinger** oppretter en overføringsordre fra HOVED til den etterspurte lokasjonen. **Erstatning finnes**-feltet fungerer på samme måte.  
 
 5.  Velg handlingen **Lag bestillinger**. Siden **Lag forsyningsordrer** åpnes.  
 6.  På hurtigfanen **Ordreplanlegging**, i feltet **Lag ordrer for**, velger du alternativet **Den aktive ordren**.  

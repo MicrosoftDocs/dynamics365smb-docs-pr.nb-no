@@ -8,77 +8,105 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 10/08/2020
+ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 3c04dfb2f77eba906b2567ca9438849e1cc20861
-ms.sourcegitcommit: 4bca699d2a5ce182eb5572d72fac4fb478c4f293
+ms.openlocfilehash: 2d86e96b1778df47f0ead9845e2585905087adae
+ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989361"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5046483"
 ---
-# <a name="managing-microsoft-teams-integration-with-business-central"></a>Administrere Microsoft Teams-integrering med Business Central
+# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
-[!INCLUDE [teams_preview.md](includes/teams_preview.md)]
+[!INCLUDE [online_only](includes/online_only.md)]
 
-Denne artikkelen gir en oversikt over hva du kan gjøre som administrator for å styre Microsoft Teams-integrasjon med [!INCLUDE [prodshort](includes/prodshort.md)].
+Denne artikkelen gir en oversikt over hva du kan gjøre som administrator for å styre Microsoft Teams-integrasjon med [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="in-microsoft-teams"></a>I Microsoft Teams
 
 ### <a name="minimum-requirements"></a>Minstekrav
 
-Denne delen beskriver minimumskravene for at [!INCLUDE [prodshort](includes/prodshort.md)]-appfunksjonene skal fungere i Teams.
+Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunksjonene skal fungere i Teams.
 
 - Nødvendige lisenser
 
-    Denne tabellen gir deg en oversikt over nødvendige lisenser for at [!INCLUDE [prodshort](includes/prodshort.md)]-appfunksjonene skal fungere i Teams.
+    Denne tabellen gir deg en oversikt over nødvendige lisenser for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunksjonene skal fungere i Teams.
 
-    |Hva|Teams-lisens|Business Central-lisens|
+    |Hva|Teams-lisens|[!INCLUDE [prod_short](includes/prod_short.md)]-lisens|
     |----|---|---|
-    |Lim inn en kobling til en [!INCLUDE [prodshort](includes/prodshort.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
-    |Vis et kort for en [!INCLUDE [prodshort](includes/prodshort.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")||
-    |Vis flere detaljer i kort for en [!INCLUDE [prodshort](includes/prodshort.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
+    |Lim inn en kobling til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
+    |Vis et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")||
+    |Vis flere detaljer i kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
 
 - Tillat URL-forhåndsvisninger
 
-    Policyinnstillingen **Tillat URL-forhåndsvisninger** må være aktivert. Ellers kan ikke et kort genereres for Business Central-koblinger som limes inn i en Teams-samtale. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
+    Policyinnstillingen **Tillat URL-forhåndsvisninger** må være aktivert. Ellers kan ikke et kort genereres for [!INCLUDE [prod_short](includes/prod_short.md)]-koblinger som limes inn i en Teams-samtale. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-business-central-app-optional"></a>Administrere Business Central-appen (valgfritt)
+### <a name="managing-the-prod_short-app-optional"></a>Administrere [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfritt)
 
-Som Teams-administrator kan du behandle alle apper for organisasjonen, inkludert [!INCLUDE [prodshort](includes/prodshort.md)]-appen. Du kan godkjenne eller installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen for organisasjonen, hindre at brukere installerer appen, med mer.
+Som Teams-administrator kan du behandle alle apper for organisasjonen, inkludert [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkjenne eller installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for organisasjonen, hindre at brukere installerer appen, med mer.
 
 Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-dokumentasjonen:
 
 - [Behandle appene i Microsoft Teams-administrasjonssenteret](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
 - [Administrere policyer for appoppsett i Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prodshort"></a>I [!INCLUDE [prodshort](includes/prodshort.md)]
+## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
 
 ### <a name="minimum-requirements"></a>Minstekrav
 
-- [!INCLUDE [prodshort](includes/prodshort.md)] versjon:
+- [!INCLUDE [prod_short](includes/prod_short.md)] versjon:
 
-    [!INCLUDE [prodshort](includes/prodshort.md)] 2020 lanseringsbølge 2 (versjon 17) eller nyere. Teams-integrasjon støttes bare for [!INCLUDE [prodshort](includes/prodshort.md)] online, ikke lokalt.
+    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 lanseringsbølge 2, oppdatering 17.3 eller nyere. Teams-integrasjon støttes bare for [!INCLUDE [prod_short](includes/prod_short.md)] online, ikke lokalt.
 
 - Codeunit **2718 Page Summary Provider** publiseres som en webtjeneste:
 
-    Denne codeunit publiseres som en webtjeneste som standard. Codeunit-en er en del av [!INCLUDE [prodshort](includes/prodshort.md)]-systemapplikasjonen. Den brukes til å hente feltdataene for en [!INCLUDE [prodshort](includes/prodshort.md)]-side som legges til i en Teams-samtale. 
+    Denne codeunit publiseres som en webtjeneste som standard. Codeunit-en er en del av [!INCLUDE [prod_short](includes/prod_short.md)]-systemapplikasjonen. Den brukes til å hente feltdataene for en [!INCLUDE [prod_short](includes/prod_short.md)]-side som legges til i en Teams-samtale. Hvis du vil ha informasjon om publisering av nettjenester, kan du se [Publiser en nettjeneste](across-how-publish-web-service.md).
 
-- Brukertillatelser:
+- <a name="permissions"></a>Brukertillatelser:
 
-    For det meste kontrolleres sidene og dataene som brukere kan vise og redigere i en Teams-samtale, av tillatelsene deres i [!INCLUDE [prodshort](includes/prodshort.md)].
+    For det meste kontrolleres sidene og dataene som brukere kan vise og redigere i en Teams-samtale, av tillatelsene deres i [!INCLUDE [prod_short](includes/prod_short.md)].
     
-    - For å lime inn en [!INCLUDE [prodshort](includes/prodshort.md)]-kobling i en Teams-samtale og la den utvides til et kort, må brukerne minst ha lesetillatelse på siden og tilhørende data.
-    - Når et kort er sendt til en samtale, kan alle brukere i denne samtalen vise kortet uten tillatelse til Business Central.
-    - For å vise flere detaljer for et kort eller åpne posten i [!INCLUDE [prodshort](includes/prodshort.md)], må brukere ha lesetillatelse på siden og tilhørende data.
+    - For å lime inn en [!INCLUDE [prod_short](includes/prod_short.md)]-kobling i en Teams-samtale og la den utvides til et kort, må brukerne minst ha lesetillatelse på siden og tilhørende data.
+    - Når et kort er sendt til en samtale, kan alle brukere i denne samtalen vise kortet uten tillatelse til [!INCLUDE [prod_short](includes/prod_short.md)].
+    - For å vise flere detaljer for et kort eller åpne posten i [!INCLUDE [prod_short](includes/prod_short.md)], må brukere ha lesetillatelse på siden og tilhørende data.
     - For å endre data må brukere ha endringstillatelse.
     
     Hvis du vil ha informasjon om tillatelser, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
-## <a name="see-also"></a>Se også
-[Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
-[Installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
-[Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
-[Komme i gang](product-get-started.md)  
+## <a name="managing-privacy-and-compliance"></a>Administrere personvern og samsvar 
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+Microsoft Teams gir omfattende kontroller for samsvar og håndtering av sensitive eller personlige data, inkludert data som er lagt til i chatter og kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
+
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Forstå hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagres 
+
+Når et kort er sendt til en chat, blir kortet og feltene som vises på kortet, kopiert til Teams. Denne informasjonen er underlagt Teams-policyene for organisasjonen, for eksempel policyer for dataoppbevaring. Når du viser kortopplysninger, lagres ingen av dataene i detaljvinduet i Teams. Dataene forblir lagret i [!INCLUDE [prod_short](includes/prod_short.md)] og hentes bare av Teams når brukeren velger å vise detaljene. 
+
+- Hvis du vil vite mer om hvor Teams lagrer disse dataene, kan du se [Plasseringen av dataene i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
+- Hvis du vil finne ut mer om oppbevaringspolicyer i Teams, kan du se [Oppbevaringspolicyer i Microsoft Teams](/microsoftteams/retention-policies).
+
+### <a name="restricting-sharing-of-cards"></a>Begrense deling av kort 
+
+Du hindrer at bestemte brukere eller grupper sender kort til chatter eller kanaler ved å definere meldingspolicyer som deaktiverer innstillingen **URL-forhåndsvisning**. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams). 
+
+Du kan også bruke informasjonshindringer for å hindre at enkelt personer eller grupper kommuniserer med hverandre. Hvis du vil finne ut mer, kan du se [informasjonshindringer i Microsoft Teams](/microsoftteams/information-barriers-in-teams).
+
+Funksjonene for hindring av tap av data i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. Hvis du vil spore kommende, avanserte funksjoner som omfatter å aktivere DLP for kort, kan du se [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+
+### <a name="responding-to-data-requests"></a>Svare på dataforespørsler
+
+Du tillater at teammedlemmer og teameiere sletter meldinger som inneholder sensitive kort ved å definere meldingspolicyer, for eksempel **Eiere kan slette sendte meldinger** og **Brukere kan slette sendte meldinger**. Hvis du vil ha mer informasjon, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
+
+Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. Hvis du vil spore kommende samsvarsfunksjoner for kort, kan du se [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+
+Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruke [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner til å eksportere kundens data hvis du blir bedt om det. Hvis du vil ha mer informasjon om personvern i [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om personvern for Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
+
+## <a name="see-also"></a>Se også
+[Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
+[Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Vanlige spørsmål om Teams](teams-faq.md)  
+[Feilsøke Teams](admin-teams-troubleshooting.md)  
+[Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

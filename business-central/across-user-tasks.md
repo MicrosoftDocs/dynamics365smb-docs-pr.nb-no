@@ -1,6 +1,6 @@
 ---
-title: Tilordne og håndtere oppgaver | Microsoft-dokumentasjon
-description: Lære hvordan du tilordner oppgaver til brukere, inkludert din regnskapsfører i Business Central
+title: Tilordne og håndtere aktiviteter
+description: Finn ut hvordan du tilordner oppgaver til brukere, inkludert regnskapsføreren, i Business Central, og hvordan du henter og fullfører oppgaver.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: article
@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c76751726f5cd680fafc0887fc57a1464d0ac3ca
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dd8b774f8dea2762df177ae141730cce8285480e
+ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922620"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "5068385"
 ---
 # <a name="define-user-tasks"></a>Definere brukeroppgaver
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette oppgaver for å holde orden på arbeid. Du kan opprette oppgaver selv, men du kan også tilordne aktiviteter til andre eller bli tilordnet til en aktivitet av andre i organisasjonen.  
 
 ## <a name="managing-user-tasks"></a>Administrere brukeroppgaver
 
-**Brukeroppgaver**-siden viser alle oppgaver, og du kan opprette og tilordne nye aktiviteter enkel måte. Når du oppretter en oppgave, kan du angi start- og forfallsdato, og du kan legge til en kobling til siden eller rapporten i [!INCLUDE[d365fin](includes/d365fin_md.md)] hvor oppgaven må utføres.  
+**Brukeroppgaver**-siden viser alle oppgaver, og du kan opprette og tilordne nye aktiviteter enkel måte. Når du oppretter en oppgave, kan du angi start- og forfallsdato, og du kan legge til en kobling til siden eller rapporten i [!INCLUDE[prod_short](includes/prod_short.md)] hvor oppgaven må utføres.  
 
 Du kan for eksempel opprette en oppgave for deg selv eller en medarbeider for å vise alle bokførte salgsfakturaer. I så fall knytter du oppgaven til side 143, **Bokførte salgsfakturaer**. I det følgende skjermbildet oppretter noen en oppgave for MeganB for å se gjennom de bokførte salgsfakturaene.  
 
@@ -47,4 +47,4 @@ Hvis du vil slette alle eller noen brukeroppgaver samlet, kan du bruke **Slett b
 ## <a name="see-also"></a>Se også
 
 [Søke etter en side eller rapport](ui-search.md)  
-[Regnskapsføreropplevelser i [!INCLUDE[d365fin](includes/d365fin_md.md)]](finance-accounting.md)  
+[Regnskapsføreropplevelser i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
