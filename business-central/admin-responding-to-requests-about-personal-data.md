@@ -62,3 +62,6 @@ Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i hen
 [Eksportere forretningsdataene til Excel](about-export-data.md)  
 [Logge endringer](across-log-changes.md)  
 [Dataemneforespørsler for GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

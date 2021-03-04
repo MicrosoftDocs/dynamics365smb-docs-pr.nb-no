@@ -37,3 +37,6 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

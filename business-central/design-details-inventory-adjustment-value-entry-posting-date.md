@@ -365,3 +365,6 @@ Den andre verdiposten (381) representerer fakturaen.
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
 [Designdetaljer: Vareutligning](design-details-item-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

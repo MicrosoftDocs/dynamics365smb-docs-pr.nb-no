@@ -66,3 +66,6 @@ I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

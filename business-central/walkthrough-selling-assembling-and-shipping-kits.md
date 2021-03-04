@@ -444,3 +444,6 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
  [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)   
  [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

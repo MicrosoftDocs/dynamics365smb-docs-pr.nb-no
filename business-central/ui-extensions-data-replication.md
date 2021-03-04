@@ -45,3 +45,6 @@ Hvis du bruker Dynamics SL, hent utvidelsen for **Intelligent skybase**, utvidel
 
 [Intelligent innsikt](about-intelligent-cloud.md)  
 [Intelligent skybaseutvidelse](ui-extensions-intelligent-cloud.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

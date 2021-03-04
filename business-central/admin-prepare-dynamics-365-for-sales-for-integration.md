@@ -201,3 +201,6 @@ Du må ha et Microsoft Azure-abonnement. En prøveversjonskonto vil fungere for 
 [Sette opp en tilkobling til [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Synkronisere Business Central og [!INCLUDE[crm_md](includes/crm_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Klargjøre Dynamics 365 Sales for lokal integrasjon](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

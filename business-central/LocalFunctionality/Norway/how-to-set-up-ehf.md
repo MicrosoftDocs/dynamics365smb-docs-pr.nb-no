@@ -51,3 +51,6 @@ Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat)
 ## <a name="see-also"></a>Se også  
  [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md)   
  [EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

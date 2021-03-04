@@ -123,3 +123,6 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
   
 ## <a name="see-also"></a>Se også  
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 [Definere ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  
 [Definere feilsøking](service-how-setup-troubleshooting.md)  
 [Servicebehandling](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

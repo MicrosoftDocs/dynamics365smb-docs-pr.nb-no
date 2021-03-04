@@ -50,3 +50,6 @@ ms.locfileid: "4752481"
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ For å sørge for at salgs- og kjøpsfakturaer avrundes automatisk, må du aktiv
 ## <a name="see-also"></a>Se også  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

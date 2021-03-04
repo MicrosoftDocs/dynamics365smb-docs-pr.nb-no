@@ -104,3 +104,6 @@ Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjø
 [Arbeide med vareattributter](inventory-how-work-item-attributes.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

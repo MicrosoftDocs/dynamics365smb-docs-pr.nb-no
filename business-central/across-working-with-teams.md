@@ -94,3 +94,6 @@ Hvis du vil vite mer om hvordan du arbeider med kort og kortdetaljer, kan du se 
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

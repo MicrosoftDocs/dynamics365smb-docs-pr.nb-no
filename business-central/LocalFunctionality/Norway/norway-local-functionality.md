@@ -87,3 +87,6 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
 
 [Arbeide med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

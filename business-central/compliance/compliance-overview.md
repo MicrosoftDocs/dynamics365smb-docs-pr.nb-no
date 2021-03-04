@@ -35,3 +35,6 @@ I denne delen kan du lese mer om vår tilnærming til samsvar fra et program-, s
 |Lære om vilkårene i servicenivåavtalen og andre betingelser for service|[Tjenestevilkår](compliance-service-compliance.md#service-terms)|  
 
 ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

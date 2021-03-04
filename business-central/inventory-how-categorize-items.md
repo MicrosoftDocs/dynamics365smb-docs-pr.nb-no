@@ -56,3 +56,6 @@ Hvis du ombestemmer deg om en varekategori, kan du slette den. Hvis den imidlert
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

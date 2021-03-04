@@ -143,3 +143,6 @@ Du kan kansellere ressurstildelinger for serviceoppgaver uten å tildele oppgave
 ## <a name="see-also"></a>Se også
 [Definere ressurstildeling](service-how-setup-resource-allocation.md)  
 [Tildelingsstatus og reparasjonsstatus](service-allocation-status-and-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

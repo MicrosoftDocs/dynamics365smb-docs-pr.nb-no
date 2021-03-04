@@ -68,3 +68,6 @@ En XML-fil opprettes og lagres på lokasjonen som er definert på **Salgsoppsett
 
 ## <a name="see-also"></a>Se også  
  [EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

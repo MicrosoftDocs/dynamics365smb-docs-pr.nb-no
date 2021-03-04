@@ -74,3 +74,6 @@ Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den op
 [Sette opp salg](sales-setup-sales.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

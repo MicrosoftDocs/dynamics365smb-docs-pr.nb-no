@@ -64,3 +64,6 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

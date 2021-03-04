@@ -39,3 +39,6 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
 [Arbeidsflyt](across-workflow.md)   
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

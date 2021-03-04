@@ -81,3 +81,6 @@ Du finner mer informasjon om tilgjengelighet med Microsoft-produkter og hjelpete
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

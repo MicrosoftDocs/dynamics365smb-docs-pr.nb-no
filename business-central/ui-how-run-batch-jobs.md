@@ -36,3 +36,6 @@ Du kan planlegge når en kjørsel skal kjøres. Hvis du vil ha mer informasjon, 
 [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
 [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

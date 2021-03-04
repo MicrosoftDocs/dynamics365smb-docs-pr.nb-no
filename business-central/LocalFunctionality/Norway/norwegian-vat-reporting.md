@@ -43,3 +43,6 @@ Når du bokfører mva., opprettes den tilsvarende mva-perioden, og merkes som lu
 
 ## <a name="see-also"></a>Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

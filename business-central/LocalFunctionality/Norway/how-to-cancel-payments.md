@@ -52,3 +52,6 @@ ms.locfileid: "4752479"
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

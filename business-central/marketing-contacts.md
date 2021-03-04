@@ -37,3 +37,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

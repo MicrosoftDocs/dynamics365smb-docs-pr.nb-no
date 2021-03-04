@@ -200,3 +200,6 @@ Du kan når som helst arkivere servicekontrakter og kontrakttilbud for å regist
 [Definere servicekontrakter](service-how-setup-service-contracts.md)  
 [Servicebehandling](service-service.md)  
 [Konvertere servicekontrakter som inkluderer mva-beløp](service-how-to-convert-service-contracts.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

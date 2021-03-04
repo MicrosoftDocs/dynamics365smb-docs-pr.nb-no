@@ -233,3 +233,6 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

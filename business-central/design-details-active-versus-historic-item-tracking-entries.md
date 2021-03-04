@@ -62,3 +62,6 @@ Når deler av et dokumentlinjeantall bokføres, overføres bare dette bestemte a
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Varesporing](design-details-item-tracking.md)   
  [Designdetaljer: Side for varesporingslinjer](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

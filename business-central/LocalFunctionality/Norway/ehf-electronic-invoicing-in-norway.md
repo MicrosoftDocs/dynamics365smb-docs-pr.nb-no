@@ -60,3 +60,6 @@ Kontroller at du har definert den riktige verdien i feltet **Mva-skjema** på si
 
 ## <a name="see-also"></a>Se også  
 [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

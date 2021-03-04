@@ -55,3 +55,6 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

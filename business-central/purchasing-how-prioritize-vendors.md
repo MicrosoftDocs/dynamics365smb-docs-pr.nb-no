@@ -39,3 +39,6 @@ Hvis du ikke vil prioritere en leverandør, lar du feltet **Prioritet** stå tom
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

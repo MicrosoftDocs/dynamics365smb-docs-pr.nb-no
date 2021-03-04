@@ -141,3 +141,6 @@ Plasseringsmalen kan tilordnes til en vare og en lokasjon. Plasseringsmalen angi
 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

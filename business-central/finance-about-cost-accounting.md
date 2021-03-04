@@ -73,3 +73,6 @@ De fleste rapporter og statistikker er basert på bokførte kostposter. Du kan a
  [Finans](finance.md)   
  [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

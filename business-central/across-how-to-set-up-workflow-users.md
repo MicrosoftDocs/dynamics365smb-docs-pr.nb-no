@@ -52,3 +52,6 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 [Bruke arbeidsflyter](across-use-workflows.md)  
 [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeidsflyt](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

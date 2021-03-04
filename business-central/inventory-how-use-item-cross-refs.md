@@ -48,3 +48,6 @@ Den følgende fremgangsmåten beskriver hvordan du bruker varekryssreferanser p�
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

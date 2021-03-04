@@ -62,3 +62,6 @@ Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel ordr
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

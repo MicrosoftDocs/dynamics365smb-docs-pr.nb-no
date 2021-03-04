@@ -55,3 +55,6 @@ Bruk siden **Feil ved synkronisering av koblede data** for å vise statusen til 
 ## <a name="see-also"></a>Se også  
 [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

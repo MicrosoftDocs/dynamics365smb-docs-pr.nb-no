@@ -55,3 +55,6 @@ Du kan bokføre i et tidligere regnskapsår, selv etter at resultatkontoene er a
 
 [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

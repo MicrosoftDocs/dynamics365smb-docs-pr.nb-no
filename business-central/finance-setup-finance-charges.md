@@ -73,3 +73,6 @@ I tillegg er hver betingelse i tabellen Rentenotatekst knyttet til en undertabel
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Definer betingelser og grader for purringer](finance-setup-reminders.md)  
 [Konfigurere finans](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

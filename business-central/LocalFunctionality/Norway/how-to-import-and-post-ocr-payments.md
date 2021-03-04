@@ -53,3 +53,6 @@ OCR-betalingsfilene bokføres i innbetalingskladden.
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   
  [Arbeide med finanskladder](../../ui-work-general-journals.md)   
  [Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

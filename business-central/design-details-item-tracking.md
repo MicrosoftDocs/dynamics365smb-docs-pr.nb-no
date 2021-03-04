@@ -31,3 +31,6 @@ Et varesporingssystem skal gi et selskap enkel håndtering av serie- og partinum
 [Designdetaljer: Varesporing og planlegging](design-details-item-tracking-and-planning.md)  
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Designdetaljer: Varesporing på lageret](design-details-item-tracking-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

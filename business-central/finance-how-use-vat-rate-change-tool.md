@@ -112,3 +112,6 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Lokal funksjonalitet i Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

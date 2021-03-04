@@ -56,3 +56,6 @@ Felt i hurtigfanen **Overføring** på siden **Leverandørs bankkort** er relate
 [Definere bokføringsgrupper](finance-posting-groups.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

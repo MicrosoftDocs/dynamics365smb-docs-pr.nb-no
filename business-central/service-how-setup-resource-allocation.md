@@ -83,3 +83,6 @@ Hvis du vil endre kompetansekodene som er tilordnet til varer, for eksempel fra 
 [Definere koder for standardservicer](service-how-setup-service-coding.md)  
  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

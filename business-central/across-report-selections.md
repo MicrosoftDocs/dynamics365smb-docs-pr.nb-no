@@ -68,3 +68,6 @@ På sidene **Rapportvalg – salg** og **Rapportvalg – kjøp** hjelper følgen
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
 [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Konfigurere skrivere](ui-specify-printer-selection-reports.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

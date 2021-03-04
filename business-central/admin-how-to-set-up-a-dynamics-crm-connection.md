@@ -144,3 +144,6 @@ Hvis du ikke bruker Azure Active Directory til å administrere identiteter og ti
 ## <a name="see-also"></a>Se også
 
 [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

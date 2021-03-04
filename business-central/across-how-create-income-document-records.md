@@ -70,3 +70,6 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Velg denne koblingen for å vise eller endre varslingene som du får om bestemte
 [Opprette nye seleskaper](about-new-company.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

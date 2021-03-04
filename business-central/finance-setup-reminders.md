@@ -103,3 +103,6 @@ Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrere
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Definer rentenotabetingelser](finance-setup-finance-charges.md)  
 [Konfigurere finans](finance-setup-finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

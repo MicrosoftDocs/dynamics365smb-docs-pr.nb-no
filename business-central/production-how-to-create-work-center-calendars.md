@@ -111,3 +111,6 @@ Kapasiteten for den valgte dagen er nå redusert med den registrerte fraværstid
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

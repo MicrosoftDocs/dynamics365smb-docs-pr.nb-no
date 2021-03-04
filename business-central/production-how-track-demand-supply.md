@@ -62,3 +62,6 @@ Siden inneholder poster som gjør rede for et ikke-sporet overskuddsantall i ord
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

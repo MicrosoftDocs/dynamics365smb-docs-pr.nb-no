@@ -58,3 +58,6 @@ Kundenes varer som du utfører service på, for eksempel en skriver, kalles serv
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

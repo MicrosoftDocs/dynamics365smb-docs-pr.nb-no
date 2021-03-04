@@ -42,3 +42,6 @@ Mottakerreferansekodene blir beskrevet i tabellen nedenfor.
 
 ## <a name="see-also"></a>Se også  
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

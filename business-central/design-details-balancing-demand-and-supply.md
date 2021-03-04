@@ -291,3 +291,6 @@ Med dette avsluttes beskrivelsene av hvordan behov og forsyning lastes, priorite
  [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om �
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

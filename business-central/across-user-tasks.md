@@ -48,3 +48,6 @@ Hvis du vil slette alle eller noen brukeroppgaver samlet, kan du bruke **Slett b
 
 [Søke etter en side eller rapport](ui-search.md)  
 [Regnskapsføreropplevelser i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

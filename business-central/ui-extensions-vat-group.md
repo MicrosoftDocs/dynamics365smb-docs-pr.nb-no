@@ -115,3 +115,6 @@ Når mva-grupperepresentantens omsetningsoppgave er sendt til myndighetene på v
 ## <a name="see-also"></a>Se også
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Definere merverdiavgift (mva)](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

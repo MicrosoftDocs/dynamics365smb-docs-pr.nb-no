@@ -40,3 +40,5 @@ Du kan bruke et servicetilbud som et foreløpig utkast til en serviceordre, og d
 [Arbeide med serviceoppgaver](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra sid
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

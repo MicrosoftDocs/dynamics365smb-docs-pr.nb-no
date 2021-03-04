@@ -30,3 +30,6 @@ Du kan importere varebilder, enten enkeltvis eller flere samtidig. Hvis du vil h
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles de
 [Selge produkter](sales-how-sell-products.md)      
 [Arbeide med Business Central](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

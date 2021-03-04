@@ -33,3 +33,6 @@ Hvis du vil ha mer informasjon om databaselåsing, kan du se [Overvåke database
 ## <a name="see-also"></a>Se også
 
 [Overvåke databaselåser](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

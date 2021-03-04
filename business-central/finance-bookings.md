@@ -43,3 +43,6 @@ Støtten for fakturering av avtaler fra Bookings er enklere enn den mer fullsten
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Microsoft Bookings](https://products.office.com/business/scheduling-and-booking-app)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

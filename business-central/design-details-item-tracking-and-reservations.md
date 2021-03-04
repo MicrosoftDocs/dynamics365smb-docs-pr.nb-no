@@ -92,3 +92,5 @@ Dette forretningsscenariet støttes med funksjonen for sen binding som gjør det
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

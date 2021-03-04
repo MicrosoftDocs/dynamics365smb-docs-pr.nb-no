@@ -89,3 +89,6 @@ Kontroller at størrelsen på rapporten er satt til 325 x 310 piksler. Lagre rap
 [Komme i gang](product-get-started.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

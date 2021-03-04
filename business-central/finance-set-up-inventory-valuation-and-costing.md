@@ -47,3 +47,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md)  
 [Arbeide med Business Central](ui-work-product.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

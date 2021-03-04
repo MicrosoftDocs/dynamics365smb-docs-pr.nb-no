@@ -117,3 +117,6 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 [Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

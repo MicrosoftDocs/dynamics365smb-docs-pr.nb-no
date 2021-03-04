@@ -125,3 +125,6 @@ Endringer du gjør i et felt i detaljvinduene, lagres automatisk når du forlate
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

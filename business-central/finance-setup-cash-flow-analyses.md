@@ -132,3 +132,6 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

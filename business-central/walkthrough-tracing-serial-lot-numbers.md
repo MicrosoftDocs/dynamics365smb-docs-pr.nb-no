@@ -305,3 +305,6 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 [Søk etter poster](ui-find-entries.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

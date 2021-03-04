@@ -161,3 +161,6 @@ På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermotta
  [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)   
  [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

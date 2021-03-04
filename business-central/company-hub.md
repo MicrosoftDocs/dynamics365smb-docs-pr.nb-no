@@ -94,3 +94,6 @@ Administratorer kan bruke samme assisterte oppsettsveiledning for å legge deg t
 [Regnskapsføreropplevelser i Business Central](finance-accounting.md)  
 [Utvidelsen Selskapshub for Business Central](ui-extensions-company-hub.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Gjenta disse trinnene for hvert enkelt alternativ for reparasjonsstatusen du vil
 
 [Serviceordrestatus og reparasjonsstatus](service-service-order-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

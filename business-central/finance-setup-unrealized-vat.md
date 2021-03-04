@@ -50,3 +50,6 @@ Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
 
 ## <a name="see-also"></a>Se også
 [Definere merverdiavgift](finance-setup-vat.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

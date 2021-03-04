@@ -46,3 +46,6 @@ Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[prod_short](includes/p
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)   
 [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

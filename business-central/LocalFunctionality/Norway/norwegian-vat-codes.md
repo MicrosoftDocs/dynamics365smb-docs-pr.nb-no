@@ -75,3 +75,6 @@ Bokføringstypen behandles på to måter, avhengig av verdien i feltet **Test bo
 
 ## <a name="see-also"></a>Se også  
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

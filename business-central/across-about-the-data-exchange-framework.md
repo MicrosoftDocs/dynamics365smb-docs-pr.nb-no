@@ -66,3 +66,6 @@ For alle utvekslinger av data i XML-filer kan du klargjøre datautvekslingsoppse
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mv
 ## <a name="see-also"></a>Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  [Rapportere mva til skattemyndighetene](../../finance-how-report-vat.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

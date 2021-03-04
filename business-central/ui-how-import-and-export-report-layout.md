@@ -55,3 +55,6 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
  [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
  [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
  [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

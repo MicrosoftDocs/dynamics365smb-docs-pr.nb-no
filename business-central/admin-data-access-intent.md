@@ -59,3 +59,6 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 [Komme i gang](product-get-started.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du ras
 
 [Administrasjonssenter for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

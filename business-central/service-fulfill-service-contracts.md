@@ -37,3 +37,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Yte service](service-deliver-service.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

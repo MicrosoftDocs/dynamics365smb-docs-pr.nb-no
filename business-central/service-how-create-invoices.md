@@ -99,3 +99,6 @@ Et servicekreditnotadokument brukes vanligvis når en kunde returnerer varer, me
 [Bokføre servicefakturaer](service-how-to-post-service-orders.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicebokføring](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -219,3 +219,6 @@ Med funksjonene for forskuddsbetaling i [!INCLUDE[prod_short](includes/prod_shor
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

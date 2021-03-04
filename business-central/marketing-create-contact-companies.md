@@ -116,3 +116,6 @@ Det er tre måter du kan aktivere datasynkronisering på mellom kontakter og kun
 [Administrere kontakter](marketing-contacts.md)  
 [Konfigurere kontakter](marketing-setup-contacts.md)  
 [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

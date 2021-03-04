@@ -30,3 +30,6 @@ For å skille mellom de ulike kompleksitetsnivåene i lagerstyring er denne doku
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)  
 [Designdetaljer: Integrasjon med lagerbeholdning](design-details-integration-with-inventory.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

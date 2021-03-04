@@ -158,3 +158,6 @@ Når du tilordner profilspørreskjemaet som inneholder dette spørsmålet, til e
 
 ## <a name="see-also"></a>Se også
 [Opprette kontakter](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

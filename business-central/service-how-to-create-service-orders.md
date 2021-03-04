@@ -110,3 +110,6 @@ Serviceordrer slettes ikke automatisk hvis det totale antallet i ordren ikke er 
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Arbeide med serviceoppgaver](service-how-to-work-on-service-tasks.md)  
 [Tildele ressurser](service-how-to-allocate-resources.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

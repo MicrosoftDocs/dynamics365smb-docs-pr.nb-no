@@ -357,3 +357,6 @@ Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Br
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

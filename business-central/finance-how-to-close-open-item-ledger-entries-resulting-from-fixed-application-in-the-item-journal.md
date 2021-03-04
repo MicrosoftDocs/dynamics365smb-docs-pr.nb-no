@@ -46,3 +46,6 @@ Følgende fremgangsmåte viser hvordan du lukker slike poster ved å utføre to 
 [Definere lagerverdisetting og kostberegning](finance-set-up-inventory-valuation-and-costing.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

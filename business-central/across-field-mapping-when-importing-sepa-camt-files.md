@@ -68,3 +68,6 @@ ms.locfileid: "4753345"
 [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

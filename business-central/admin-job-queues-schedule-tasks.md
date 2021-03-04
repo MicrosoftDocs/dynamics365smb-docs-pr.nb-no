@@ -93,3 +93,6 @@ Hvis du vil ha mer informasjon, kan du se [Konfigurere bokføring i bakgrunnen m
 [Definere Business Central](setup.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Analysere telemetri for sporing av jobbkølivssyklus](/dynamics365smb-devitpro\dev-itpro\administration\telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

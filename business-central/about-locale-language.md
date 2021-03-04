@@ -61,3 +61,6 @@ Det er enkelt - bla nederst på weblesersiden, og velg verden symbolet nederst t
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

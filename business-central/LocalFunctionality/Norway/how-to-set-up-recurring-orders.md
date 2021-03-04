@@ -47,3 +47,6 @@ Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer 
  [Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)   
  [Arbeide med rammeordrer](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

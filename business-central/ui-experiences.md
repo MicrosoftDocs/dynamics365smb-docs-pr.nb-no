@@ -69,3 +69,6 @@ Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](inc
 [Lisensveiledning for [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

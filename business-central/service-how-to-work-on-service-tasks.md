@@ -107,3 +107,6 @@ Når du har reparert en servicevare, kan du registrere både feilkoden og løsni
 [Definere feilrapportering](service-how-setup-fault-reporting.md)
 [Tildelingsstatus og reparasjonsstatus](service-allocation-status-and-repair-status.md)  
 [Servicebokføring](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

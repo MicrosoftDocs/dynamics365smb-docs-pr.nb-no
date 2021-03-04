@@ -143,3 +143,6 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)   
  [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)   
  [Om kostregnskap](finance-about-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

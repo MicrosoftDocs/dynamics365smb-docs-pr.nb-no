@@ -183,3 +183,6 @@ For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimen
 [Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)   
 [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

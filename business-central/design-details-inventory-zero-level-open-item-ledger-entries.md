@@ -151,3 +151,6 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Vareutligning](design-details-item-application.md)   
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

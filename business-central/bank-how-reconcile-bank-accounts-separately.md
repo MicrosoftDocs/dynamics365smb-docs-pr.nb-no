@@ -159,3 +159,6 @@ Hvis den neste bankavstemmingen er for august, kan du vurdere å endre verdiene 
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

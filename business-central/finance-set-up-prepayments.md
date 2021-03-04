@@ -94,3 +94,6 @@ Forskuddsprosenten på kundekortet gjelder med andre ord bare hvis det ikke er s
 [Forstå Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

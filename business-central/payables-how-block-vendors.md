@@ -37,3 +37,6 @@ Tabellen nedenfor beskriver alternativene for å sperre leverandører.
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Utføre betalinger](payables-make-payments.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

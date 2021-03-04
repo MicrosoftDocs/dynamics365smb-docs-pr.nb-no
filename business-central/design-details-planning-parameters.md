@@ -120,3 +120,6 @@ Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet anal
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

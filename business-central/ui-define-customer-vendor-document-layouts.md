@@ -62,3 +62,6 @@ E-postadressen til kontakten settes nå inn på dokumentoppsettlinjen, slik at d
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

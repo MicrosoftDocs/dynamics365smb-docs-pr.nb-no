@@ -76,3 +76,6 @@ I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av var
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

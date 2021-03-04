@@ -157,3 +157,6 @@ Ved distribusjon på stedet oppretter, redigerer og sletter administratoren bruk
 [Administrasjon](admin-setup-and-administration.md)  
 [Legg til brukere i Microsoft 365 for bedrifter](https://aka.ms/CreateOffice365Users)  
 [Sikkerhet og beskyttelse i Business Central (administrasjonsinnhold)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

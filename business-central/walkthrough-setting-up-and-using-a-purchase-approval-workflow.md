@@ -130,3 +130,6 @@ Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsv
 [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
 [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

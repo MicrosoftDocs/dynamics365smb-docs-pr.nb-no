@@ -39,3 +39,5 @@ Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokf�
   
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

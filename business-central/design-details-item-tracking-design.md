@@ -45,3 +45,6 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføringsstruktur f
 
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

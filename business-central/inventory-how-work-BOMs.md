@@ -118,3 +118,6 @@ Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvar
 [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

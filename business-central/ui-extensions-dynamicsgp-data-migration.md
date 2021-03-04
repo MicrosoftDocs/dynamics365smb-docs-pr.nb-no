@@ -29,3 +29,6 @@ ms.locfileid: "4757270"
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Overføre til Business Central Online fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

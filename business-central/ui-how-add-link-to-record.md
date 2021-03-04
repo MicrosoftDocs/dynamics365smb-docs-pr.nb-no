@@ -98,3 +98,6 @@ Merknaden er nå knyttet til ordren.
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

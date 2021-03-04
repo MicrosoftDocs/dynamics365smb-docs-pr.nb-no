@@ -138,3 +138,6 @@ Hvis du bare eier en del av et selskap, kan du ta med en prosentandel av hver en
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

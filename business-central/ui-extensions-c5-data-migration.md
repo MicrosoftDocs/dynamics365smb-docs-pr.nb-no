@@ -161,3 +161,6 @@ Du kan stoppe datamigreringen ved å velge **Stopp alle migreringer**. Hvis du g
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

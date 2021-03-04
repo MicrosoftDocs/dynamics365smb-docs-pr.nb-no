@@ -59,3 +59,6 @@ For eksempel: mva-satsen som er bokført i kladden, defineres av oppsettet du ha
 
 ## <a name="see-also"></a>Se også  
  [Norske mva-koder](norwegian-vat-codes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

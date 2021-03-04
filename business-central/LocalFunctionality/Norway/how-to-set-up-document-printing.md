@@ -57,3 +57,6 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 ## <a name="see-also"></a>Se også  
   [Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

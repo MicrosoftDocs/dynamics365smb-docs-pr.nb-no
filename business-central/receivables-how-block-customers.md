@@ -40,3 +40,6 @@ Tabellen nedenfor beskriver alternativene for å sperre kunder.
 [Registrere nye kunder](sales-how-register-new-customers.md)  
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -31,3 +31,6 @@ Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, 
 [Bruke konfigurasjoner for nye selskaper](admin-apply-configuration-to-new-companies.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

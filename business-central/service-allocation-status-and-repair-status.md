@@ -70,3 +70,6 @@ Det opprettes en ny tildelingspost som inneholder den nye ressursen, og som har 
 [Definere ressurstildelinger](service-how-setup-resource-allocation.md)  
 [Tildele ressurser](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

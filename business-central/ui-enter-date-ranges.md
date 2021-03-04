@@ -369,3 +369,6 @@ Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 [Arbeide med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Angi vilkår i filtre](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

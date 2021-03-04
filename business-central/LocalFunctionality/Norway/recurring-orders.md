@@ -30,3 +30,6 @@ Du kan bruke gjentakelsesordrer til å definere en rekke parametere som viser hv
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)   
  [Arbeide med rammeordrer](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

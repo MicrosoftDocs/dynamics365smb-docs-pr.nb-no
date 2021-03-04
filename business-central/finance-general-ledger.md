@@ -71,3 +71,6 @@ Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kont
 [Finans](finance.md)  
 [Definere eller endre kontoplanen](finance-setup-chart-accounts.md)  
 [Forretningsintelligens](bi.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

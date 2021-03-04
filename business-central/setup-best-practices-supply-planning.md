@@ -35,3 +35,6 @@ Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanleggin
  [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

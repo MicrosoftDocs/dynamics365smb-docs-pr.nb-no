@@ -39,3 +39,6 @@ Når du legger til en ny vare for å spare tid, kan du bruke **Kopier vare**-fun
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Definere lager](inventory-setup-inventory.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

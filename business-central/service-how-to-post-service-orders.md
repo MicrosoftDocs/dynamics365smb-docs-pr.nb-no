@@ -132,3 +132,6 @@ Fremgangsmåten nedenfor beskriver leveringsbokføring direkte fra en serviceord
 ## <a name="see-also"></a>Se også  
 [Bokføring i servicehåndtering](service-service-posting.md)  
 [Opprette en serviceordre](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

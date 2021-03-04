@@ -49,3 +49,6 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 [Håndtere salg](sales-manage-sales.md)    
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

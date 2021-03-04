@@ -84,3 +84,6 @@ Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

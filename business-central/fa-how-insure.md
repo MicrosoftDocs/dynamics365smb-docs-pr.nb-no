@@ -119,3 +119,6 @@ Aktivaet frigjøres fra den gale forsikringspolisen på den andre linjen, og kny
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

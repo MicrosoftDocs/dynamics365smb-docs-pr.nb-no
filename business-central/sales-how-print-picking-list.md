@@ -39,3 +39,6 @@ Du kan også lagre plukklisten som et dokument, for eksempel for å sende til no
 [Lager](inventory-manage-inventory.md)  
 [Plukke varer](warehouse-pick-items.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

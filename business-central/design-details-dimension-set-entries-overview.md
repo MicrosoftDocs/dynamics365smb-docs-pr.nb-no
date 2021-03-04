@@ -50,3 +50,6 @@ Ved å lagre dimensjonssett én gang i databasen beholdes databaseplassen, og de
 [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
 [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

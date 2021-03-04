@@ -27,3 +27,6 @@ Listen over utvidelser fra andre selskaper, vokser hver måned. Så følg med p�
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

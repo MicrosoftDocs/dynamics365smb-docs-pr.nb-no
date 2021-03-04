@@ -42,3 +42,6 @@ Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

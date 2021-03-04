@@ -199,3 +199,6 @@ Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledni
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på mobilenheten min](install-mobile-app.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

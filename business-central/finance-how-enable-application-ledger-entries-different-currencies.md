@@ -51,3 +51,6 @@ Hvis du vil utligne poster i ulike valutaer, må du opprette finanskontoer som d
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

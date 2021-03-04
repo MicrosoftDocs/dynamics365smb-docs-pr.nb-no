@@ -105,3 +105,6 @@ Prosessen med å oppdatere eller beregne standardkostnader vanligvis består av 
  [Arbeide med stykklister](inventory-how-work-BOMs.md)   
  [Oppdatere standardkost](finance-how-to-update-standard-costs.md)   
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

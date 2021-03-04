@@ -29,3 +29,6 @@ Når tilkoblingen er konfigurert, kan du overføre data eller behandle datarepli
 [Intelligent innsikt](about-intelligent-cloud.md)  
 [Kjøre skyoverføringsverktøyet](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente skyutvidelser for skyoverføring](ui-extensions-data-replication.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

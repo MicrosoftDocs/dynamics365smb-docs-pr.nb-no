@@ -87,3 +87,6 @@ Hvis en salgsmulighet følger en salgssyklus, kan du flytte den fremover eller b
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

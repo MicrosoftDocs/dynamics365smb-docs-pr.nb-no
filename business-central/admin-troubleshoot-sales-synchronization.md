@@ -62,3 +62,6 @@ Når noe går galt i integrasjonen din, og du må frakoble poster for å stoppe 
 [Sette opp en tilkobling til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  
 [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)  
 [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/pr
 [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

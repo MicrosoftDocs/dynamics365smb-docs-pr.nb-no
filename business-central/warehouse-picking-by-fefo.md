@@ -49,3 +49,6 @@ Hvis feltet **Bruk ikke etter utløpsdato** er valgt, inkluderes bare varer som 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

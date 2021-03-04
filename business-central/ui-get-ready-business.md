@@ -74,3 +74,6 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

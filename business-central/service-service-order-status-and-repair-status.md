@@ -94,3 +94,6 @@ Hvis én servicevare for eksempel har reparasjonsstatusen **Første**, knyttet t
 
 [Definere statuser for serviceordrer og reparasjoner](service-order-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

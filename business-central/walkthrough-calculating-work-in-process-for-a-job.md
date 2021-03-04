@@ -164,3 +164,6 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
  [Forstå VIA-metoder](projects-understanding-wip.md)   
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

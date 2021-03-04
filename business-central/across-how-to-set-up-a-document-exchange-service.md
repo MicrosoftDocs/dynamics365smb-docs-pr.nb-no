@@ -43,3 +43,6 @@ Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter
 ## <a name="see-also"></a>Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

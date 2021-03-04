@@ -47,3 +47,6 @@ Hvis du vil kunne vise de vanligste reparasjonsmåtene for bestemte varefeil nå
 ## <a name="see-also"></a>Se også
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicebehandling](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være me
 [Salg](sales-manage-sales.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

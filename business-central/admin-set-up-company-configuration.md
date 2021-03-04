@@ -38,3 +38,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emner s
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

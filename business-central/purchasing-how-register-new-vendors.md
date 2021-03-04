@@ -65,3 +65,6 @@ Hvis du har bokført en transaksjon for en leverandør, kan du ikke slette korte
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)   
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

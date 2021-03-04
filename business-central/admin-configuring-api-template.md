@@ -49,3 +49,5 @@ Den definerte malen brukes på en ny post som er opprettet gjennom API-et, hvis,
 [Endepunkt for API-ene](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

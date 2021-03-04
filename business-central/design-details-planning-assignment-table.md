@@ -67,3 +67,6 @@ Følgende begrensninger gjelder ved beregning av MPS eller MRP:
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)   
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

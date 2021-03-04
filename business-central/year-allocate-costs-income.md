@@ -57,3 +57,6 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 [Arbeide med finanskladder](ui-work-general-journals.md)    
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)    
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

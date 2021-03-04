@@ -49,3 +49,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

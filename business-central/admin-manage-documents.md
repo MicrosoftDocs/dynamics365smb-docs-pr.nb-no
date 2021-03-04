@@ -93,3 +93,6 @@ Tabellen nedenfor inneholder en oversikt over feltene i hurtigfanen **Alternativ
 ## <a name="see-also"></a>Se også
 
 [Administrasjon](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

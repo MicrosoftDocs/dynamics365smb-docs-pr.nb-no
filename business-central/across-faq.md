@@ -147,3 +147,6 @@ De første utgivelsene av lokal [!INCLUDE[prod_short](includes/prod_short.md)] i
 [Vanlige spørsmål om utvikler- og IT-ekspertopplevelser](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

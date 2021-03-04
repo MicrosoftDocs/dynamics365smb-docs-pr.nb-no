@@ -67,3 +67,6 @@ Ja, det kan du! Det er en litt annen måte å logge seg på, det er alt. Hvis du
 
 [Få Business Central på mobilenheten din](install-mobile-app.md)  
 [Installer Business Central-appen for Microsoft Teams](across-install-app-for-teams.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

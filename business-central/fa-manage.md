@@ -62,3 +62,6 @@ Følgende video dekker det grunnleggende ved aktiva:
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

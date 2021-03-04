@@ -44,3 +44,6 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

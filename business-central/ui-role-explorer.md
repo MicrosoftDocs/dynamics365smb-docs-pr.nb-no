@@ -45,3 +45,6 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

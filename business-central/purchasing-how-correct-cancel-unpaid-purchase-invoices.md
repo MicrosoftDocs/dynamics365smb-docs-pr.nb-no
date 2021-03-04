@@ -58,3 +58,6 @@ Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den op
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

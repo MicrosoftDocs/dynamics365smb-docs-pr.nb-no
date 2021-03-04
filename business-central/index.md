@@ -98,3 +98,6 @@ Delene nedenfor peker til viktige artikler som kan hjelpe deg med å bli kjent m
 [Innføring i docs.microsoft.com (opprinnelig blogginnlegg)](https://docs.microsoft.com/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

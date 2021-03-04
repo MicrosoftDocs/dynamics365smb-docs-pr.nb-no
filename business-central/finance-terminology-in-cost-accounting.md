@@ -51,3 +51,6 @@ Dette emnet definerer de viktigste begrepene som brukes i kostregnskap.
  [Om kostregnskap](finance-about-cost-accounting.md)   
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

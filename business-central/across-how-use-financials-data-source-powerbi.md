@@ -138,3 +138,6 @@ Du kan sende rapporter til kolleger og andre på et par ulike måter:
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

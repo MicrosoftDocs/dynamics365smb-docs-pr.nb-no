@@ -119,3 +119,6 @@ Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skrif
 [Klargjøre Financial Reporting med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md) 
 [Forretningsintelligens](bi.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

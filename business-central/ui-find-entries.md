@@ -76,3 +76,6 @@ Når du har gjort et valg, angir du relevant søkeinformasjon i feltene øverst.
 [Arbeide med Business Central](ui-work-product.md)  
 [Legge til en sidehandling i rollesenteret](ui-bookmarks.md)  
 [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

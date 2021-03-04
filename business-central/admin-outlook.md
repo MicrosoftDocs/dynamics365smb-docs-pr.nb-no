@@ -82,3 +82,6 @@ Tilleggene er utformet for bruk med Microsoft 365. Hvis du bruker [!INCLUDE[prod
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Minimumskrav for Outlook](product-requirements.md#outlook)  
 [Bruke tillegg i Outlook på Internett](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

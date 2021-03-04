@@ -35,3 +35,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Behandle innkommende interessenter ved å opprette salgsmuligheter og knytte dem til selgere, slik at du kan holde oversikt over potensielt salg.|[Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)|
 |Opprett markedsføringsplaner for å identifisere, trekke til deg og beholde kunder.|[Administrere markedsføringskampanjer](marketing-campaigns.md)|
 |Bruk Dynamics 365 Sales for Customer Engagement, og dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med Business Central for serverdelaktiviteter som å behandle bestillinger, håndtere lager og gjøre finansene.|[Integrere med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

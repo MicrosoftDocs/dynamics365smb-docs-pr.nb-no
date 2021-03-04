@@ -46,3 +46,6 @@ Brukere som ikke har tilgang til **Systemobjekt 5330**, har fremdeles tilgang ti
 ## <a name="see-also"></a>Se også
 
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

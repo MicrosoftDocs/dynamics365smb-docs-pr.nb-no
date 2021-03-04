@@ -77,3 +77,6 @@ Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
  [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

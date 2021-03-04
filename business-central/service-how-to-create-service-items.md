@@ -62,3 +62,6 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 [Definere servicevarer og servicevarekomponenter](service-how-setup-service-items.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicebehandling](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

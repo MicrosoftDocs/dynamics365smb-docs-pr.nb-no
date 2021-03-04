@@ -34,3 +34,6 @@ Du kan bruke selgere i diverse arbeid vedrørende håndtering av kunderelasjoner
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

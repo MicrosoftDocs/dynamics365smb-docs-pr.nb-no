@@ -48,3 +48,5 @@ Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
  [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

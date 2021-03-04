@@ -50,3 +50,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

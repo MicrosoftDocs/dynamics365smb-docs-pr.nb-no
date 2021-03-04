@@ -35,3 +35,6 @@ Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Yte service](service-deliver-service.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

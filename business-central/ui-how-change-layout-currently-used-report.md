@@ -60,3 +60,6 @@ Nå kan du gå til kunde- og leverandørkortene for å angi hvilke oppsett som s
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

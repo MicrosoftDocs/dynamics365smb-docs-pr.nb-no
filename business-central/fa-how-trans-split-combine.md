@@ -79,3 +79,6 @@ Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distr
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

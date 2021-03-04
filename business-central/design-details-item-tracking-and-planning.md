@@ -56,3 +56,6 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Balansere behov og fo
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

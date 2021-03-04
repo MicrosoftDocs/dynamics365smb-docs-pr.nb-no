@@ -93,3 +93,6 @@ I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer v
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
 [Behandle miljøer i administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

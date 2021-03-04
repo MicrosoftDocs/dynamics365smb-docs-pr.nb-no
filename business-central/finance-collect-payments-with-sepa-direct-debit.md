@@ -162,3 +162,6 @@ En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én 
 ## <a name="see-also"></a>Se også  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Servicebehandling](service-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

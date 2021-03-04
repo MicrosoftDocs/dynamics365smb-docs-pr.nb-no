@@ -34,3 +34,6 @@ Bruk bokføringsperioder til å angi når brukere kan postere til finans.
 [Finans](finance.md)  
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

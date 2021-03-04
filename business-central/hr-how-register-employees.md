@@ -61,3 +61,6 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

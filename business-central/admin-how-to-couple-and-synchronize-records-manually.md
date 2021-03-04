@@ -59,3 +59,6 @@ Du kan slette én eller flere poster fra listesider eller siden **Feil ved synkr
 
 ## <a name="see-also"></a>Se også  
 [Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

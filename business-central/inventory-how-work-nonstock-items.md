@@ -73,3 +73,6 @@ Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov.
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

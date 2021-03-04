@@ -87,3 +87,6 @@ Når du så registrerer noe som trenger et nummer, kan du bruke forbindelsene du
 ## <a name="see-also"></a>Se også
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes og viser alle arkive
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
  [Bruke arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

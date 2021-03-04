@@ -77,3 +77,5 @@ Når du kobler selgere i [!INCLUDE[prod_short](includes/prod_short.md)] med bruk
 
 ## <a name="see-also"></a>Se også
 [Om [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

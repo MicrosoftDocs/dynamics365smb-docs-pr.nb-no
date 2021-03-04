@@ -58,3 +58,6 @@ Hvis du ikke definerer spesifikke servicetimer for servicekontrakten, brukes sta
 [Forstå tildelingsstatus og reparasjonsstatus](service-allocation-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Forstå serviceordre- og reparasjonsstatus](service-order-repair-status.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

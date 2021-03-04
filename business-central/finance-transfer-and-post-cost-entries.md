@@ -101,3 +101,6 @@ I **Kostjournal**-tabellen oppretter [!INCLUDE[prod_short](includes/prod_short.m
  [Definere kost.regnskap](finance-set-up-cost-accounting.md)   
  [Definere og fordele kostnader](finance-define-and-allocate-costs.md)   
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Etter hvert som antall visninger på en side vokser, kan det hende du trenger me
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

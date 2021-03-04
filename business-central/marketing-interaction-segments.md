@@ -52,3 +52,6 @@ På siden **Loggførte segmenter** kan du avgjøre om du vil opprette et oppføl
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

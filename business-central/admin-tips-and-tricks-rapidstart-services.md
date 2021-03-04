@@ -50,3 +50,6 @@ Når du bruker konfigurasjonspakker til å overføre data, deler du dataene inn 
 
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

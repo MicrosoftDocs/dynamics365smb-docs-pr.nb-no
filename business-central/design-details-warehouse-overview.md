@@ -79,3 +79,6 @@ Lagerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] henviser
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

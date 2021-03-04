@@ -110,3 +110,6 @@ I standardkostmiljøer er kostberegning for en produksjonsordre basert på følg
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

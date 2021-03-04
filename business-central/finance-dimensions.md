@@ -234,3 +234,6 @@ Når du bokfører dokumenter eller kladdelinjer som inneholder dimensjoner, kan 
 [Finans](finance.md)  
 [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

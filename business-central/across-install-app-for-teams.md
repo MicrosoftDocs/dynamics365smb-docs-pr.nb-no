@@ -65,3 +65,6 @@ Du er nå klar til å bruke appen i Teams for å dele Business Central-data. Hvi
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

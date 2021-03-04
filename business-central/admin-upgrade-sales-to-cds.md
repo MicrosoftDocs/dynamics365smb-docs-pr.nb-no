@@ -39,3 +39,6 @@ Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCL
 ## <a name="see-also"></a>Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrere med Microsoft Dataverse](admin-common-data-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

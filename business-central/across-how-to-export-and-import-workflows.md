@@ -47,3 +47,6 @@ For å overføre arbeidsflyter til andre [!INCLUDE[prod_short](includes/prod_sho
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
  [Bruke arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

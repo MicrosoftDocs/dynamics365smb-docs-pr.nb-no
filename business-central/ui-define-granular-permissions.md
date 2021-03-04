@@ -263,3 +263,6 @@ Du kan konfigurere at [!INCLUDE[prod_short](includes/prod_short.md)] skal sende 
 [Administrasjon](admin-setup-and-administration.md)  
 [Legg til brukere i Microsoft 365 for bedrifter](https://aka.ms/CreateOffice365Users)  
 [Sikkerhet og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjelpen for utviklere og IT-eksperter
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

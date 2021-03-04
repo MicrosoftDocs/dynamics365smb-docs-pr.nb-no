@@ -29,3 +29,5 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
   
 ## <a name="see-also"></a>Se også  
 [Konfigurere servicehåndtering](service-setup-service.md)   
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

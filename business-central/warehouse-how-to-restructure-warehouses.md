@@ -88,3 +88,6 @@ Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilkny
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

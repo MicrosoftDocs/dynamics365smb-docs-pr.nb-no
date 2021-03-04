@@ -40,3 +40,6 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

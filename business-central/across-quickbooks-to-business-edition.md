@@ -37,3 +37,6 @@ Hvis du er klar til å starte nå, kan du velge ikonet ![Lyspære som åpner For
 ## <a name="see-also"></a>Se også
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

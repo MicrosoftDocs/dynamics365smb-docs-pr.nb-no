@@ -47,3 +47,6 @@ Når du har lagt til miljøene, vises selskapene automatisk. Hvis du imidlertid 
 
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

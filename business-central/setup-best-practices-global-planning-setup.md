@@ -35,3 +35,6 @@ Hurtigfanen **Planlegging** på siden **Produksjonsoppsett** inneholder flere fe
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattribu
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

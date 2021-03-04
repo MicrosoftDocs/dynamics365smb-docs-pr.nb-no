@@ -150,3 +150,6 @@ Til slutt viser kontraktlinjene disse dataene.
 ## <a name="see-also"></a>Se også  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklari
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Remitteringsfeil](remittance-errors.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

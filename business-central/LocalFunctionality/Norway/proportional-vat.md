@@ -41,3 +41,6 @@ Dette vil også fungere hvis transaksjonen med denne mva-kombinasjonen bokføres
 ## <a name="see-also"></a>Se også  
  [Beregne forholdsmessig MVA](how-to-calculate-proportional-vat.md)   
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

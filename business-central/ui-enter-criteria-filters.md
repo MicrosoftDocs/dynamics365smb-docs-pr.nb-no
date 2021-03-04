@@ -307,3 +307,6 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
 [Lagre og tilpasse listevisninger](ui-views.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

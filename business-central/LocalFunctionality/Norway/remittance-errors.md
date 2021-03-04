@@ -57,3 +57,6 @@ Hvis betalingen avvises, vises feilkoden fra banken samt en forklaring for betal
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

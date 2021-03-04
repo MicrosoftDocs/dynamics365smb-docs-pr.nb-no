@@ -57,3 +57,6 @@ Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![ly
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

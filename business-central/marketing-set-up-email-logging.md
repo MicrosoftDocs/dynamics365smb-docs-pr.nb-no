@@ -111,3 +111,6 @@ Hvis du ikke bruker Azure Active Directory til å administrere identiteter og ti
 ## <a name="see-also"></a>Se også
 [Administrere forbindelser](marketing-relationship-management.md)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

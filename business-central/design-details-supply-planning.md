@@ -31,3 +31,6 @@ Den forklarer hvordan planleggingssystemet fungerer, og hvordan du justerer algo
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
 [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

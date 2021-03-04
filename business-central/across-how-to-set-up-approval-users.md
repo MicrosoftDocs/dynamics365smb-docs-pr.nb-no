@@ -63,3 +63,6 @@ Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du define
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
 [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Arbeidsflyt](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

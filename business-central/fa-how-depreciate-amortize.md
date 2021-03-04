@@ -112,3 +112,6 @@ De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden,
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

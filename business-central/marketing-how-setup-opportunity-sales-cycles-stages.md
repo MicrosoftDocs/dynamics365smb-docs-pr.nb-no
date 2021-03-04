@@ -66,3 +66,6 @@ Når du har definert en oppgave, kan du tilordne den til en salgsmulighet og der
 [Behandle salgsmuligheter](marketing-processing-sales-opportunities.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

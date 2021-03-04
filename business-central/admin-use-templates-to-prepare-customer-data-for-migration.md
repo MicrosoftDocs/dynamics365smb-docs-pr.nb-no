@@ -158,3 +158,6 @@ Standardverdiene fra den valgte kundemalen settes inn på kundekortet.
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Registrere nye kunder](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

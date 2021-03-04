@@ -99,3 +99,6 @@ Følgende fremgangsmåte er basert på en ordre.
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

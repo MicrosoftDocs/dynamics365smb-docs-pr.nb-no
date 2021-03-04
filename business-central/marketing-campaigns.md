@@ -51,3 +51,6 @@ Kampanjer utføres av selgere, og du må opprette aktiviteter for å representer
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

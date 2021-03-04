@@ -63,3 +63,6 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

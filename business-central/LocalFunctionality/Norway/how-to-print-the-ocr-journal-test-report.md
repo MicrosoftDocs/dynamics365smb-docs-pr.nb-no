@@ -38,3 +38,6 @@ Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betal
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
  [Arbeide med finanskladder](../../ui-work-general-journals.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

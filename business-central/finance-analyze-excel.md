@@ -56,3 +56,6 @@ Med tillegget kan du få ferske data fra [!INCLUDE [prod_short](includes/prod_sh
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

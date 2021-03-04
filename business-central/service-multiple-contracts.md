@@ -46,3 +46,6 @@ Du kan manuelt opprette en serviceordre for en servicevare som er registrert i f
 ## <a name="see-also"></a>Se også  
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Opprette serviceordrer](service-how-to-create-service-orders.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

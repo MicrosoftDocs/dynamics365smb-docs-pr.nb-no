@@ -55,3 +55,6 @@ Du kan behandle elektroniske betalinger fra kunder i henhold til en forhåndsdef
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
  [Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

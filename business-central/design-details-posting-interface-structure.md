@@ -28,3 +28,5 @@ I strukturen til bokføringsgrensesnittet i [!INCLUDE[prod_short](includes/prod_
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

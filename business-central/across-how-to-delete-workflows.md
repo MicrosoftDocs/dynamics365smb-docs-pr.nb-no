@@ -40,3 +40,6 @@ Hvis du er sikker på at en arbeidsflyt ikke lenger er i bruk, kan du slette den
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
  [Bruke arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

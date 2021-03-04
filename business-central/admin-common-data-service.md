@@ -67,3 +67,6 @@ Under tilkoblingsoppsettet opprettes integreringstabelltilordninger som er nødv
 
 
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

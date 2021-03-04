@@ -122,3 +122,6 @@ I kombinasjonsscenarier, der en del av antallet først må monteres og en annen 
 [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

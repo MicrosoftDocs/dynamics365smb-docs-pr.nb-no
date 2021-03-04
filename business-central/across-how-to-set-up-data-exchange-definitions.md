@@ -200,3 +200,6 @@ Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du
 [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

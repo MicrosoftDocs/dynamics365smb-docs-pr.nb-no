@@ -39,3 +39,5 @@ Når du utfører typisk service, må du ofte opprette servicedokumenter som bruk
 ## <a name="see-also"></a>Se også
 
 [Servicebehandling](service-service.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Når du utsteder en rentenota, viser den rentebelastningene med flere rentesatse
 ## <a name="see-also"></a>Se også  
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Konfigurere finans](finance-setup-finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

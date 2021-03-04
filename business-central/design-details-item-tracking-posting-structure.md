@@ -48,3 +48,5 @@ Kodeenhet 22 går gjennom varesporingsnumrene og deler opp posteringen i de resp
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)   
 [Designdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

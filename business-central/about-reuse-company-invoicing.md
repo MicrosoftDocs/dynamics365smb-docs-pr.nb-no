@@ -51,3 +51,6 @@ Hvis du bruker både fakturering og [!INCLUDE[prod_short](includes/prod_short.md
 ## <a name="see-also"></a>Se også
 [Vanlige spørsmål](across-faq.md)  
 [Administrasjon](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

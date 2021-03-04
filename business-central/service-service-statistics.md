@@ -112,3 +112,6 @@ Du kan bruke siden **Statistikk for salgskreditnota (service)** til å få en st
 [Opprette serviceordrer](service-how-to-create-service-orders.md)   
 [Opprette servicevarer](service-how-to-create-service-items.md)   
 [Planlegge service](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

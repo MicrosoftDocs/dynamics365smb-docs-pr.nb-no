@@ -163,3 +163,6 @@ Feltene under **Avansert** setter begrensninger på den genererte rapporten for 
 [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

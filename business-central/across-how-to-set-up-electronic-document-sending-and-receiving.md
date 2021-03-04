@@ -149,3 +149,6 @@ Dette emnet inneholder følgende fremgangsmåter:
 [Utveksle data elektronisk](across-data-exchange.md)   
 [Fakturere salg](sales-how-invoice-sales.md)   
 [Registrere kjøp](purchasing-how-record-purchases.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

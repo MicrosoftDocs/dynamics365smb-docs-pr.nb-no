@@ -95,3 +95,6 @@ Når det gjelder både Online og lokalt, kan du også bruke alternativet for å 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](../../includes/prod_short.md)] ved hjelp av utvidelser](../../ui-extensions.md)  
 [Komme i gang](../../product-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

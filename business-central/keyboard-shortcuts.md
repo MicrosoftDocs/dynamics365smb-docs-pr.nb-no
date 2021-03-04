@@ -222,3 +222,6 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  
 [Søk etter poster](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

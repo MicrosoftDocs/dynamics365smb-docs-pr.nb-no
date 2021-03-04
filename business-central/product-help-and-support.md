@@ -141,3 +141,6 @@ docs.microsoft.com har innhold for andre produkter og andre typer innhold. Bruk 
 [Business Central-utvikler og administrasjonsdokumenter](/dynamics365/business-central/dev-itpro/)  
 [Ressurser for hjelp og støtte for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

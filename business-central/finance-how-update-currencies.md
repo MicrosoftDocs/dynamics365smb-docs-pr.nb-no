@@ -78,3 +78,6 @@ Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste
 [Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

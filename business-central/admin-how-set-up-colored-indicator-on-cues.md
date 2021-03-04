@@ -64,3 +64,6 @@ Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som defin
     |**Underordnet**|Grå|  
 
 ## <a name="see-also"></a>Se også
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

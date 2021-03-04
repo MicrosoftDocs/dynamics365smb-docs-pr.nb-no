@@ -35,3 +35,6 @@ Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen ti
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

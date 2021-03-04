@@ -210,3 +210,6 @@ Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnumme
 [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md)  
 [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md)  
 [Arbeide med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

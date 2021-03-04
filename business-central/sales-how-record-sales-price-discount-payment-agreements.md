@@ -164,3 +164,6 @@ Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste d
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

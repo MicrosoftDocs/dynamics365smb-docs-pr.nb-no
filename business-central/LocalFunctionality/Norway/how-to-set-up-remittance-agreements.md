@@ -98,3 +98,6 @@ Du må undertegne en avtale om remittering med banken når du oppretter elektron
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

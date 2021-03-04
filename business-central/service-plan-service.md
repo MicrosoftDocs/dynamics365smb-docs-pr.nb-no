@@ -41,3 +41,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Definere servicevarer og servicevarekomponenter](service-how-setup-service-items.md)  
 [Definere statuser for serviceordrer og reparasjoner](service-order-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

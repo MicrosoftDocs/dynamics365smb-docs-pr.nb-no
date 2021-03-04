@@ -54,3 +54,6 @@ Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt seg
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

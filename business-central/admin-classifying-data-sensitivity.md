@@ -50,3 +50,6 @@ Dataklassifiseringsforslag lar deg for eksempel gjøre følgende:
 ## <a name="see-also"></a>Se også
 
 [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

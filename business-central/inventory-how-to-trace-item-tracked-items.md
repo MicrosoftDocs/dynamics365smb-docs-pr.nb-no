@@ -72,3 +72,6 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)  
 [Søk etter poster](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

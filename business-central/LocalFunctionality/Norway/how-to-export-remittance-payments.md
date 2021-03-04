@@ -71,3 +71,6 @@ Utbetalingskladden slettes og transaksjonene overføres til ventekladden.
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

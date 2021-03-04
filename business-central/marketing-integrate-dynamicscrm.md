@@ -106,3 +106,6 @@ Når kundebetalingen er mottatt for salgsfakturaen i [!INCLUDE[prod_short](inclu
 [Oversikt over salg og salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

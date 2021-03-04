@@ -84,3 +84,6 @@ N√•r du legger til en ny handling, brukes oversatt tekst som var tilgjengelig p√
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

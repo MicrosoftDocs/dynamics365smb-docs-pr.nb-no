@@ -46,3 +46,6 @@ Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med web-, sk
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

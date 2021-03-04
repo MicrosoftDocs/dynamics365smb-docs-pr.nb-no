@@ -100,3 +100,6 @@ Som standard vil for eksempel CURRENCY-jobbkøoppføringen, som synkroniserer va
 [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)  
 [Planlegge en synkronisering mellom Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Om integrering av Dynamics 365 Business Central med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

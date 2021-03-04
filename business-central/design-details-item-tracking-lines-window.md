@@ -32,3 +32,5 @@ Reglene for registrering av data på siden **Varesporingslinjer** støtter også
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Hvis du har lagt til et selskap, men det vises ikke i oversikten, kan du også b
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Legge til selskaper i selskapshuben](company-hub-add-company.md)  
 [Regnskapsføreropplevelser i Business Central](finance-accounting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

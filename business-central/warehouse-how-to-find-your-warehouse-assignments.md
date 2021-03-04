@@ -37,3 +37,6 @@ Du kan bruke feltet **Tilordnet bruker-ID** i hodet til å gjøre krav på arbei
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

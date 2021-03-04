@@ -41,3 +41,6 @@ Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registre
 [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 [Designdetaljer: Revaluering](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

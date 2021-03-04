@@ -110,3 +110,6 @@ Følgende endringer er implementert i versjoner av [!INCLUDE [navnow_md](include
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer – Endringer i kodeenhet 12: Endringer i bokføringsprosedyrene for finans](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Når du arbeider med servicevarer og serviceordrer, kan det hende du må registr
 ## <a name="see-also"></a>Se også
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicebehandling](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

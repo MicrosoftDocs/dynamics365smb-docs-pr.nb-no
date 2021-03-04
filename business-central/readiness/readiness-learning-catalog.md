@@ -77,3 +77,6 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

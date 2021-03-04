@@ -38,3 +38,6 @@ Tabellen nedenfor beskriver innsiktene som denne utvidelsen leverer for hver rol
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

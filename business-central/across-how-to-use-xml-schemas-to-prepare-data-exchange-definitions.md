@@ -117,3 +117,6 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

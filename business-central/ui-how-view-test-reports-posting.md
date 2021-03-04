@@ -34,3 +34,6 @@ Alle deler av kjøpsfakturaen testes, og resultatet presenteres i en rapport. Hv
 ## <a name="see-also"></a>Se også
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

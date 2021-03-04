@@ -91,3 +91,6 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kjøre kjørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

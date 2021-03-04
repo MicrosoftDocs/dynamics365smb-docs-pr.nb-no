@@ -150,3 +150,6 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

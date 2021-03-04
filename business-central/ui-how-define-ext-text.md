@@ -44,3 +44,6 @@ Du kan nå legge til den utvidede teksten i dokumenter. Fremgangsmåten nedenfor
 
 [Definere lager](inventory-setup-inventory.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

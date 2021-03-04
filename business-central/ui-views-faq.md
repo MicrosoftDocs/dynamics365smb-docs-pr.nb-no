@@ -115,3 +115,6 @@ Uttrykk som bare bruker symboler, for eksempel `|` eller `..`, anses som trygge 
 [Lagre og tilpasse listevisninger](ui-views.md)  
 [Finne funksjoner og informasjon](ui-search.md)  
 [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

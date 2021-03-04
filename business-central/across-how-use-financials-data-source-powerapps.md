@@ -56,3 +56,6 @@ Når du har utformet og bygd appen, kan du dele den med kollegene dine. Hvis du 
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Komme i gang med å utvikle tilkoblingsapper for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

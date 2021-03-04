@@ -58,3 +58,6 @@ Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du k
 ## <a name="see-also"></a>Se også  
 [Postere serviceordrer](service-how-to-post-service-orders.md)   
 [Opprette serviceordrer](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

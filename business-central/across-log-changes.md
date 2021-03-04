@@ -88,3 +88,5 @@ Du kan opprette oppbevaringspolicyer for å slette unødvendige data i logger et
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)    
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere oppbevaringspolicyer](admin-data-retention-policies.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

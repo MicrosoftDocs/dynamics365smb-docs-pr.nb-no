@@ -36,3 +36,6 @@ Når du har brukt den satsvise jobben **Lukk resultatregnskapet** til å generer
 [Avslutte tablåer](year-close-books.md)  
 [Lukk resultatregnskapet](year-close-income-statement.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

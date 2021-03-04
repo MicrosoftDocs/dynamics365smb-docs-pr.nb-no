@@ -191,3 +191,6 @@ Følgende endringer er implementert i versjoner av [!INCLUDE [navnow_md](include
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer – Kodeenhet 12: Tilordne globale variabler for Finanskladd – bokfør linje](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

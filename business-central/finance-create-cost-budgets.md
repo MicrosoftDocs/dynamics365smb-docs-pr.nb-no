@@ -38,3 +38,6 @@ Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg i
 [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)   
 [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

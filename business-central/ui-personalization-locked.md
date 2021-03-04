@@ -59,3 +59,6 @@ Dette er fordi rollesenteret eller rollen som er knyttet til brukerkontoen, endr
 [Tilpasse sider for profiler](ui-personalization-manage.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

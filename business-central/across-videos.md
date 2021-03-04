@@ -32,3 +32,6 @@ Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, p
 
 [Komme i gang](product-get-started.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -71,3 +71,6 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS Int
 [Administrasjon](admin-setup-and-administration.md)  
 [Business Central-webtjenester for utviklere](/dynamics365/business-central/dev-itpro/webservices/web-services)  
 [OData-forespørselsgrenser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#ODataServices)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

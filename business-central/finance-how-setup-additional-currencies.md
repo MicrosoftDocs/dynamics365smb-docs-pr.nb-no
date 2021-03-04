@@ -127,3 +127,6 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 [Oppdatere valutakurser](finance-how-update-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

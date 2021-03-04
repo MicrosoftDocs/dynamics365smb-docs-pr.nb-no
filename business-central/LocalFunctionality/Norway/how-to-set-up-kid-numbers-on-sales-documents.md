@@ -37,3 +37,6 @@ Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsrefer
 
 ## <a name="see-also"></a>Se også  
  [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md) 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

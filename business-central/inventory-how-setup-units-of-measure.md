@@ -87,3 +87,6 @@ Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

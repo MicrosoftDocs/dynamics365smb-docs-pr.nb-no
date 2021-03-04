@@ -110,3 +110,6 @@ Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/p
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

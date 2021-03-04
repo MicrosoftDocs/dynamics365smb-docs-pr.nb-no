@@ -49,3 +49,6 @@ Hvis det skrives ut en advarsel i kontrollrapporten, kan du ikke overføre betal
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

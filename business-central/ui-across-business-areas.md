@@ -54,3 +54,6 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 [Administrasjon](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

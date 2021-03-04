@@ -232,3 +232,6 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
  [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

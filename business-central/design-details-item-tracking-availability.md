@@ -44,3 +44,6 @@ Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk t
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Varesporing](design-details-item-tracking.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

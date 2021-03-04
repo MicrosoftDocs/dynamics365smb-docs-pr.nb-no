@@ -31,3 +31,6 @@ Reservasjonssystemet tar imidlertid hensyn til lageraktiviteter ved beregning av
 [Designdetaljer: Integrasjon med lagerbeholdning](design-details-integration-with-inventory.md)  
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  
 [Designdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

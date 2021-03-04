@@ -60,3 +60,6 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

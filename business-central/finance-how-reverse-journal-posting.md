@@ -85,3 +85,6 @@ Følgende beskriver hvordan du angrer en bokført returforsendelse av varer elle
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

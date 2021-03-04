@@ -47,3 +47,6 @@ Når du har definert betalingsbetingelsene, tilordner du dem til kunder og lever
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

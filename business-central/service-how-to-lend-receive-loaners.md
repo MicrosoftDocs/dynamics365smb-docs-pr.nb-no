@@ -46,3 +46,6 @@ Du kan bruke siden **Generelt Servicemerknadsark** til å registrere merknader o
   
 ## <a name="see-also"></a>Se også  
 [Konfigurere et program for utlånsobjekter](service-how-setup-loaner-program.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

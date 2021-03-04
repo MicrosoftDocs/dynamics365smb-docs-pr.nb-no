@@ -48,3 +48,6 @@ Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avslu
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

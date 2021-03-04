@@ -109,3 +109,6 @@ Hvis du vil gi tilgang til flere firmaer, må du logge deg på hvert firma og gj
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

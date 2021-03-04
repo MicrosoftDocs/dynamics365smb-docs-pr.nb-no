@@ -52,3 +52,6 @@ I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden definer
  [Gjentakelsesordrer](recurring-orders.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

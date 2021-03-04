@@ -25,3 +25,6 @@ OCR-B-10 BT-skriften er vanligvis tilgjengelig programvareleverandører. I [!INC
 Du kan bruke enhver OCR-B-skrift, men hvis du bruker andre skrifter, må salgsdokumentene oppdateres av en sertifisert Microsoft-partner. Ta kontakt med din partner for mer informasjon.  
 
 ## <a name="see-also"></a>Se også
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

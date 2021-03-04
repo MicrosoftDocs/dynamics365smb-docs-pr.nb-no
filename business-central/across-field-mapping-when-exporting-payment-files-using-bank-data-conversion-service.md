@@ -72,3 +72,6 @@ Tabellen nedenfor inneholder en oversikt over feltene i [!INCLUDE[prod_short](in
 [Utveksle data elektronisk](across-data-exchange.md)
 [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

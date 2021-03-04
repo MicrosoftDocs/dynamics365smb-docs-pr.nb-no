@@ -53,3 +53,6 @@ Denne videoen viser hvordan du konfigurerer en arbeidsflyt som krever at noen be
  [Arbeidsflyt](across-workflow.md)   
  [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

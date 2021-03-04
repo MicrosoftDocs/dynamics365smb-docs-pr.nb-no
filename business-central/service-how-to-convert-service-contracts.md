@@ -68,3 +68,6 @@ Følgende fremgangsmåte beskriver hvordan du oppretter en ny kreditnota ved hje
 [Finans](finance.md)  
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremg
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

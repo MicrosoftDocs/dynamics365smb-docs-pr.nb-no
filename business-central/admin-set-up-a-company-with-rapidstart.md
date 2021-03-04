@@ -49,3 +49,6 @@ Du kan bruke følgende komponenter for å få et raskere oppsett av selskapet:
 [Administrasjon](admin-setup-and-administration.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

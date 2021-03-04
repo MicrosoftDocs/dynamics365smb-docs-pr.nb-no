@@ -50,3 +50,6 @@ Du må først angi et kontonummer på siden **Bokf.grupper - aktiva** for å kun
 [Finans](finance.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

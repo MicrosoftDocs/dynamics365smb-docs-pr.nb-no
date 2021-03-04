@@ -134,3 +134,6 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 ## <a name="see-also"></a>Se også
 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

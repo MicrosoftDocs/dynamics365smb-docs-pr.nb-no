@@ -70,3 +70,6 @@ Kontroller startsaldoene for konti i Finans. QuickBooks lagrer ikke gjeldende sa
 
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

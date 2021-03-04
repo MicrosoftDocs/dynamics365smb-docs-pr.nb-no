@@ -51,3 +51,6 @@ Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at de
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Lokal funksjonalitet i Business Central](about-localization.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

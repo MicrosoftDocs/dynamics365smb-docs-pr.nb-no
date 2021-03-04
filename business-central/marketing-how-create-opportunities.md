@@ -46,3 +46,6 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

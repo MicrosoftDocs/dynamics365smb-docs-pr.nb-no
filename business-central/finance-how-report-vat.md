@@ -121,3 +121,6 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

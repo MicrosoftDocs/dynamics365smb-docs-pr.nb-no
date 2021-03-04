@@ -56,3 +56,6 @@ Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlin
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

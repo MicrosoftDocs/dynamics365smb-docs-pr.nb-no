@@ -50,3 +50,6 @@ Bokmerkeikonet vises ikke i Fortell meg-vinduet når tilpasning er deaktivert fo
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Finne sider med rolleutforskeren](ui-role-explorer.md)  
 [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

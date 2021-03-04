@@ -42,3 +42,6 @@ Hvis du er administrator eller en superbruker, kan du hjelpe andre ved å slå o
 [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

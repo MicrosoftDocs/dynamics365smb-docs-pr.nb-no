@@ -195,3 +195,6 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Du kan ikke opprette en faktura uten √• oppgi et kundenummer. Dette gjelder ogs√
 [Registrere nye kunder](sales-how-register-new-customers.md)    
 [Finans](finance.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

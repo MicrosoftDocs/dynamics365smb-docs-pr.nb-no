@@ -44,3 +44,6 @@ De viktigste handlingene på siden er å merke av for **Betaling utført** og fy
 ## <a name="see-also"></a>Se også
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Finans](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

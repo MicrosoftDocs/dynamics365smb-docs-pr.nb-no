@@ -105,3 +105,6 @@ Hvis du ikke bruker hyller, må du huske å kontrollere kryssoverføringsområde
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Følgende fremgangsmåte beskriver hvordan du begrenser bestillinger fra å post
 ## <a name="see-also"></a>Se også  
 [Opprette arbeidsflyter](across-how-to-create-workflows.md)   
 [Arbeidsflyt](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

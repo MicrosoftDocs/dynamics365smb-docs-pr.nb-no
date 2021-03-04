@@ -158,3 +158,6 @@ Bokfør betalingene når den elektroniske betalingen er behandlet av banken. Hvi
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

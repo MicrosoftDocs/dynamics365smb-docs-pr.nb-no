@@ -77,3 +77,6 @@ Når et selskap er opprettet, kan du ikke endre navnet på det. Du kan imidlerti
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

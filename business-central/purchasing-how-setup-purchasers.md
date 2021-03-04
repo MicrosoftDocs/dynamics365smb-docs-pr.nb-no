@@ -38,3 +38,6 @@ Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

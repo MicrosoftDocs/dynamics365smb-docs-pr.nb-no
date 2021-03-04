@@ -70,3 +70,6 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Når d
 [Lukke tablåene](year-close-books.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

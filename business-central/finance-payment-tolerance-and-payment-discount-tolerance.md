@@ -263,3 +263,6 @@ Vanlige utligningsregler
 [Konfigurere finans](finance-setup-finance.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

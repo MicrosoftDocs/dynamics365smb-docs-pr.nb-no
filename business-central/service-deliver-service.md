@@ -46,3 +46,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Planlegge service](service-plan-service.md)  
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

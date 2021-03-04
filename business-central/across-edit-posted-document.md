@@ -54,3 +54,6 @@ Den bokførte følgeseddelen oppdateres.
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

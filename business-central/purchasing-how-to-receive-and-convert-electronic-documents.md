@@ -65,3 +65,6 @@ Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan mo
 [Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Utveksle data elektronisk](across-data-exchange.md)   
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

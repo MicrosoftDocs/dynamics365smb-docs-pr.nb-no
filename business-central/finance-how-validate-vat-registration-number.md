@@ -49,3 +49,6 @@ Det er et par ting å merke seg når det gjelder EU-mva-nummer validering-tjenes
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Lokal funksjonalitet i Business Central](about-localization.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

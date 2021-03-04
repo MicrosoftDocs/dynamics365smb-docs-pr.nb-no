@@ -29,3 +29,6 @@ Du kan sende dokumenter som e-post, for eksempel fakturaer, ved hjelp av e-posta
 [Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)  
 [Få Business Central på mobilenheten](install-mobile-app.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

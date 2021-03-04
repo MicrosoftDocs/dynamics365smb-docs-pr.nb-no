@@ -88,3 +88,6 @@ Hvis du vil ha mer informasjon, kan du se [Power Automate-dokumentasjonen](/powe
 [Brukeroppsett for godkjenning](across-how-to-set-up-approval-users.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

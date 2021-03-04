@@ -31,3 +31,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Definer systemet slik at samhandlinger registreres. |[Definere kontakter](marketing-setup-contacts.md) |
 |Opprett samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel e-postutsendinger.|[Opprette samhandlinger på kontakter og segmenter](marketing-how-create-interactions.md)|
 |Definer systemet slik at det registrerer automatisk samhandlinger for salgs-, kjøps- og servicedokumenter, for eksempel når et dokument opprettes, bokføres eller skrives ut.|[Automatisk registrere samhandlinger med kontakter](marketing-auto-record-interactions.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

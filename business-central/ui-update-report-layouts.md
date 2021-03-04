@@ -67,3 +67,6 @@ Når du har endret oppsettet, kan du prøve å oppdatere det på nytt.
 ## <a name="see-also"></a>Se også  
  [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
  [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

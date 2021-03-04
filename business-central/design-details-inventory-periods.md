@@ -33,3 +33,6 @@ Tilbakedaterte transaksjoner eller kostnadsjusteringer påvirker ofte saldoer og
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Du kan bruke forholdsmessig MVA til å beregne MVA når både fradragsberettiget
  [Forholdsmessig MVA](proportional-vat.md)   
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, ka
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
 [Bruke arbeidsflyter](across-use-workflows.md)   
 [Arbeidsflyt](across-workflow.md)      
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

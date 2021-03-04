@@ -34,3 +34,6 @@ Når du installerer utvidelsen i [!INCLUDE [prod_short](includes/prod_short.md)]
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Regnskapsføreropplevelser i Business Central ](finance-accounting.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

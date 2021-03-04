@@ -182,3 +182,6 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 ## <a name="see-also"></a>Se også  
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)   
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -161,3 +161,6 @@ Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplik
 [Opprette kontakter](marketing-create-contact-companies.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

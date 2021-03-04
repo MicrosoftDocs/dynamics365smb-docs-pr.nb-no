@@ -170,3 +170,6 @@ Hvis du vil ha detaljer om planlegging med lokasjoner og overføringer, se [Plan
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

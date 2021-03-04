@@ -38,3 +38,6 @@ For å ta høyde for lønnsutbetalinger og relaterte transaksjoner, må du impor
 [Finans](finance.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

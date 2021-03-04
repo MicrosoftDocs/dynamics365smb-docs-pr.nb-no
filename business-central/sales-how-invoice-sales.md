@@ -125,3 +125,6 @@ Du kan opprette direkte betalte fakturaer for kunder som ikke er registrert ved 
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Massefakturering fra Microsoft Bookings i Business Central ](finance-bookings.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

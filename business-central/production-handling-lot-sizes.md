@@ -52,3 +52,6 @@ Når det gjelder forsyningsplanlegging, fungerer innstillingen for partistørrel
 [Arbeide med produksjonsbunkeenhet](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Opprett ruter](production-how-to-create-routings.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

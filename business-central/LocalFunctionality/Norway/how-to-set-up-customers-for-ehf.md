@@ -42,3 +42,6 @@ Disse feltene er spesifikke for EHF. Verdiene brukes i alle EHF-dokumenter du op
 ## <a name="see-also"></a>Se også  
  [Opprette elektroniske dokumenter for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Angi EHF](how-to-set-up-ehf.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

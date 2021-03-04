@@ -57,3 +57,6 @@ Du kan også opprette betalingslinjer manuelt ved å bruke forfallsdatoen til å
 [Utføre betalinger](payables-make-payments.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

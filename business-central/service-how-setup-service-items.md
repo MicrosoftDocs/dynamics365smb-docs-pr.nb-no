@@ -63,3 +63,6 @@ Du kan definere servicehyller som identifiserer hvor du lagrer servicevarene. Du
 ## <a name="see-also"></a>Se også
 [Definere koder for standardservicer](service-how-setup-service-coding.md)   
 [Definere feilsøking](service-how-setup-troubleshooting.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

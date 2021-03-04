@@ -56,3 +56,6 @@ Når den forlengede prøveperioden er utgått, kan du [abonnere](https://go.micr
 [Hvordan finner jeg en partner for videresalg?](across-faq.md#findpartner)  
 [Utvide prøveversjoner (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Komme i gang som en forhandler for Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

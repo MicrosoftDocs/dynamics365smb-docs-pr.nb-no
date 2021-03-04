@@ -47,3 +47,6 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

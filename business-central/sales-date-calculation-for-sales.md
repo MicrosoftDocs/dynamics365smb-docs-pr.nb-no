@@ -46,3 +46,6 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
  [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

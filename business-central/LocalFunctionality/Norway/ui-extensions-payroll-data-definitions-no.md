@@ -35,3 +35,6 @@ Når du har installert utvidelsen, er neste trinn å angi formatet for lønnsdat
 
 ## <a name="see-also"></a>Se også
 [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

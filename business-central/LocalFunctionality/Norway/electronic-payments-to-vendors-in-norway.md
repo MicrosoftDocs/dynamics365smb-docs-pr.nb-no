@@ -66,3 +66,6 @@ Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

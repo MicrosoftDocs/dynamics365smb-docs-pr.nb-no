@@ -39,3 +39,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Utveksle data](across-exchange-data.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

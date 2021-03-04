@@ -62,3 +62,6 @@ Hvis du gjør endringer i tillegget, må du laste det inn på nytt for å oppdat
 [Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeide med Business Central](ui-work-product.md)  
 [Forbedringer i Excel-integrasjon i 2019 Release Wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

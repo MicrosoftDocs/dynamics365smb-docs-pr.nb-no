@@ -46,3 +46,6 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

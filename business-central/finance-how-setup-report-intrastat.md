@@ -131,3 +131,6 @@ På siden **Tariffnummer** kan du legge til alle kodene du bruker. Du må skrive
 
 ## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

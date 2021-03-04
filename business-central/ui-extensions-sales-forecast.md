@@ -64,3 +64,6 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 [Salg](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

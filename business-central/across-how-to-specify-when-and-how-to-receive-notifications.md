@@ -66,3 +66,6 @@ Når du konfigurerer brukere i godkjenningsarbeidsflyter, må du på sidene **Op
  [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)   
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
  [Bruke arbeidsflyter](across-use-workflows.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

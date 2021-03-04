@@ -145,3 +145,6 @@ For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel beh
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [Tilpasse sider for profiler](ui-personalization-manage.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

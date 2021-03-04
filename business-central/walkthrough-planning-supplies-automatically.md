@@ -267,3 +267,6 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
  [Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)   
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

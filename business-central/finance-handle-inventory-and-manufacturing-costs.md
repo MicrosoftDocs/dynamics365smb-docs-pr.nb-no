@@ -38,3 +38,6 @@ Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende pro
 ## <a name="see-also"></a>Se også  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

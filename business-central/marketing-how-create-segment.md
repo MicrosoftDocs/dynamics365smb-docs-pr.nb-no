@@ -36,3 +36,6 @@ Nå kan du legge til koblinger i segmentet. Hvis du vil ha mer informasjon, kan 
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

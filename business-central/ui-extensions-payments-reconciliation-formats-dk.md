@@ -108,3 +108,6 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 [Tilpasse Business Central for [!INCLUDE[prod_short](includes/prod_short.md)]med utvidelser](ui-extensions.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

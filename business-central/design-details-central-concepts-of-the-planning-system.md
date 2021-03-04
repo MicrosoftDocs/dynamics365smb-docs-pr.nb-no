@@ -295,3 +295,6 @@ Dermed har du fått en oversikt over sentrale begreper som har å gjøre med for
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)   
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

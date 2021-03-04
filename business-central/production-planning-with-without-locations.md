@@ -144,3 +144,6 @@ Hvis du ofte planlegger for behov i lokasjoner, anbefaler vi derfor på det ster
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

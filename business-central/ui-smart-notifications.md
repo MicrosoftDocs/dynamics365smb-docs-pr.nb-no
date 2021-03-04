@@ -40,3 +40,6 @@ Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.
 ## <a name="see-also"></a>Se også
 
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

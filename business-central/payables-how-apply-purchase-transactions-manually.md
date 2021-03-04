@@ -121,3 +121,6 @@ Når du opphever utligningen for en feilaktig utligning, opprettes og bokføres 
 [Kjøp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

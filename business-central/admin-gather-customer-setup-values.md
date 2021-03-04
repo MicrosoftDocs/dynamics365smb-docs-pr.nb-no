@@ -147,3 +147,6 @@ Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

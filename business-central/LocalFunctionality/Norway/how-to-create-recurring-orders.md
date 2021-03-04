@@ -37,3 +37,6 @@ Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr so
  [Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprette rammeordrer](../../sales-how-to-create-blanket-sales-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

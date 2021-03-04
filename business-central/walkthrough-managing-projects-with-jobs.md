@@ -489,3 +489,6 @@ Ved å sammenligne priser, prosjektoppgavelinjer og prosjektplanleggingslinjer f
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)   
  [Fakturere prosjekter](projects-how-invoice-jobs.md)  
  [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

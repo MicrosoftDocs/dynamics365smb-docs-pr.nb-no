@@ -33,3 +33,6 @@ Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakk
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

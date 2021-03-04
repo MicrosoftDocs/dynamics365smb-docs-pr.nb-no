@@ -49,3 +49,6 @@ Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil
 [Definer betalingsbetingelser](finance-payment-terms.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

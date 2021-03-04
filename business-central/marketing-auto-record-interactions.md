@@ -34,3 +34,6 @@ Hvis du vil åpne **Oppsett av samhandlingsmal**, velger du ikonet ![Lyspære so
 ## <a name="see-also"></a>Se også
 [Registrere samhandlinger med kontakter](marketing-interactions.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

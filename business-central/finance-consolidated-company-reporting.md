@@ -120,3 +120,6 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

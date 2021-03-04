@@ -24,3 +24,6 @@ Det er viktig å gjøre ferdig produksjonsordren for å fullføre kostlivssyklus
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

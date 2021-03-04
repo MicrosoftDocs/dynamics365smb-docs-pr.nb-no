@@ -72,3 +72,6 @@ Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kortet, for
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

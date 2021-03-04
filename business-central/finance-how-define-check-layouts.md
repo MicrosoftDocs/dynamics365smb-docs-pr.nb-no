@@ -93,3 +93,6 @@ Skrifter for andre formål er også tilgjengelige i [!INCLUDE[prod_short](includ
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

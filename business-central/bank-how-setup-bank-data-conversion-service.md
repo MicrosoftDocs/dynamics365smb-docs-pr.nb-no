@@ -64,3 +64,6 @@ Du har nå registrert deg for utvidelsen AMC Banking 365 Fundamentals. Fortsette
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

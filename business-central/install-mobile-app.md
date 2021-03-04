@@ -66,3 +66,6 @@ Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du ogs
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.md)  
 [Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

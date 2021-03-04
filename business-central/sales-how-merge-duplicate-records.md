@@ -68,3 +68,6 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 [Salg](sales-manage-sales.md)  
 [Definere kontakter](marketing-setup-contacts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

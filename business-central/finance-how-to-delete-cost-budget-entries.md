@@ -38,3 +38,6 @@ Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over 
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
 [Opprette kostbudsjetter](finance-create-cost-budgets.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

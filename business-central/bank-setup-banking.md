@@ -35,3 +35,6 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

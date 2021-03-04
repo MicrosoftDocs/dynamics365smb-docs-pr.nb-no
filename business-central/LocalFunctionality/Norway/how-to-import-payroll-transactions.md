@@ -34,3 +34,6 @@ Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske l
 
 [Utvidelsen Lønnsdatadefinisjoner (NO)](ui-extensions-payroll-data-definitions-no.md)  
 [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

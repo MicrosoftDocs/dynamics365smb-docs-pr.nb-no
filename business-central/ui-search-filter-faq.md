@@ -60,3 +60,6 @@ Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og a
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Finne sider med rolleutforskeren](ui-role-explorer.md)  
 [Komme i gang](product-get-started.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
