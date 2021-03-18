@@ -3,32 +3,35 @@ title: Finne videoer om bruk av Business Central | Microsoft-dokumentasjon
 description: Gir tilgang til komme i gang-videoer som illustrerer hvordan du kan utføre vanlige oppgaver.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fad4d9bdd68bc6299bf573432e0a33f6afb0ddfb
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6dfd44dfe6c73a0e60d377388a9f1721f6b7b06d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752952"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378851"
 ---
-# <a name="visit-our-video-library"></a><span data-ttu-id="33233-103">Gå til videobiblioteket vårt</span><span class="sxs-lookup"><span data-stu-id="33233-103">Visit Our Video Library</span></span>
+# <a name="visit-our-video-library"></a><span data-ttu-id="57b5a-103">Gå til videobiblioteket vårt</span><span class="sxs-lookup"><span data-stu-id="57b5a-103">Visit Our Video Library</span></span>
 
-<span data-ttu-id="33233-104">Vi vet at noen personer foretrekker å se på innholdet i stedet for å lese det.</span><span class="sxs-lookup"><span data-stu-id="33233-104">We know that some people prefer to watch content rather than read it.</span></span> <span data-ttu-id="33233-105">Vi lager derfor korte og enkle videoer som enten står alene eller utfyller brukerhjelpen vår.</span><span class="sxs-lookup"><span data-stu-id="33233-105">To that end, we're producing short, easily digestible videos that either stand alone, or supplement our user assistance.</span></span>  
+<span data-ttu-id="57b5a-104">Vi vet at noen personer foretrekker å se på innholdet i stedet for å lese det.</span><span class="sxs-lookup"><span data-stu-id="57b5a-104">We know that some people prefer to watch content rather than read it.</span></span> <span data-ttu-id="57b5a-105">Vi lager derfor korte og enkle videoer som enten står alene eller utfyller brukerhjelpen vår.</span><span class="sxs-lookup"><span data-stu-id="57b5a-105">To that end, we're producing short, easily digestible videos that either stand alone, or supplement our user assistance.</span></span>  
 
-<span data-ttu-id="33233-106">Hvis du ikke er kjent med [!INCLUDE[prod_short](includes/prod_short.md)], kan du starte introduksjonsvideoene fra velkomstsiden som vises.</span><span class="sxs-lookup"><span data-stu-id="33233-106">If you are new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch the introduction videos from the welcome page that displays.</span></span> <span data-ttu-id="33233-107">Hvis du allerede arbeider i [!INCLUDE[prod_short](includes/prod_short.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.</span><span class="sxs-lookup"><span data-stu-id="33233-107">If you're already working in [!INCLUDE[prod_short](includes/prod_short.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centers by choosing the **Product Videos** tile.</span></span>  
+<span data-ttu-id="57b5a-106">Hvis du ikke er kjent med [!INCLUDE[prod_short](includes/prod_short.md)], kan du starte introduksjonsvideoene fra velkomstsiden som vises.</span><span class="sxs-lookup"><span data-stu-id="57b5a-106">If you are new to [!INCLUDE[prod_short](includes/prod_short.md)], you can launch the introduction videos from the welcome page that displays.</span></span> <span data-ttu-id="57b5a-107">Hvis du allerede arbeider i [!INCLUDE[prod_short](includes/prod_short.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.</span><span class="sxs-lookup"><span data-stu-id="57b5a-107">If you're already working in [!INCLUDE[prod_short](includes/prod_short.md)], you can get to the library from the **Business Manager** and **Accountant** Role Centers by choosing the **Product Videos** tile.</span></span>  
 
-<span data-ttu-id="33233-108">Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="33233-108">You can also view our "how to" videos, plus a lot of other content, on the YouTube playlist that we created for [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="33233-109">Gå til videoene nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).</span><span class="sxs-lookup"><span data-stu-id="33233-109">To visit the videos now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).</span></span>
+<span data-ttu-id="57b5a-108">Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="57b5a-108">You can also view our "how to" videos, plus a lot of other content, on the YouTube playlist that we created for [!INCLUDE[prod_short](includes/prod_short.md)].</span></span> <span data-ttu-id="57b5a-109">Gå til videoene nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).</span><span class="sxs-lookup"><span data-stu-id="57b5a-109">To visit the videos now, [click here](https://go.microsoft.com/fwlink/?linkid=851533).</span></span>
 
 > [!Tip]  
-> <span data-ttu-id="33233-110">Videoer i biblioteket vises i en ramme som kan virke litt liten.</span><span class="sxs-lookup"><span data-stu-id="33233-110">Videos in the library display in a frame that might seem a little small.</span></span> <span data-ttu-id="33233-111">Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil øverst til høyre.</span><span class="sxs-lookup"><span data-stu-id="33233-111">To make the frame larger, choose the double-ended arrow icon in the upper-right corner.</span></span> <span data-ttu-id="33233-112">Etter det vil videoene vises i en større ramme til du gjør den liten igjen.</span><span class="sxs-lookup"><span data-stu-id="33233-112">Afterward, videos will display in the larger frame until you make it small again.</span></span>
+> <span data-ttu-id="57b5a-110">Videoer i biblioteket vises i en ramme som kan virke litt liten.</span><span class="sxs-lookup"><span data-stu-id="57b5a-110">Videos in the library display in a frame that might seem a little small.</span></span> <span data-ttu-id="57b5a-111">Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil øverst til høyre.</span><span class="sxs-lookup"><span data-stu-id="57b5a-111">To make the frame larger, choose the double-ended arrow icon in the upper-right corner.</span></span> <span data-ttu-id="57b5a-112">Etter det vil videoene vises i en større ramme til du gjør den liten igjen.</span><span class="sxs-lookup"><span data-stu-id="57b5a-112">Afterward, videos will display in the larger frame until you make it small again.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="33233-113">Se også</span><span class="sxs-lookup"><span data-stu-id="33233-113">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="57b5a-113">Se også</span><span class="sxs-lookup"><span data-stu-id="57b5a-113">See Also</span></span>
 
-[<span data-ttu-id="33233-114">Komme i gang</span><span class="sxs-lookup"><span data-stu-id="33233-114">Getting Started</span></span>](product-get-started.md)  
-[<span data-ttu-id="33233-115">Dynamics 365-kanal på YouTube</span><span class="sxs-lookup"><span data-stu-id="33233-115">Dynamics 365 channel on YouTube</span></span>](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+[<span data-ttu-id="57b5a-114">Komme i gang</span><span class="sxs-lookup"><span data-stu-id="57b5a-114">Getting Started</span></span>](product-get-started.md)  
+[<span data-ttu-id="57b5a-115">Dynamics 365-kanal på YouTube</span><span class="sxs-lookup"><span data-stu-id="57b5a-115">Dynamics 365 channel on YouTube</span></span>](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
