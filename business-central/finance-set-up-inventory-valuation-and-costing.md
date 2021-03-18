@@ -3,16 +3,16 @@ title: Definere lagerverdisetting og kostberegning | Microsoft-dokumentasjon
 description: Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: edcaaaedde3bb42c0c0d69c3e71dd659f5475712
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 140e3b95607c6a937e88d517831771af16e52ffe
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4750458"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389002"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
 

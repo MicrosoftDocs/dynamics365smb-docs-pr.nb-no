@@ -3,7 +3,7 @@ title: Overføre data fra Dynamics GP før 15.3 | Microsoft Docs
 description: Før 15.3-oppdateringen kunne du bruke utvidelsen Dynamics GP-datamigrering til å overføre kunder, leverandører, lagervarer, finanskonti og åpne transaksjoner med skyldige beløp og tilgodehavender fra Dynamics GP til Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 10/01/2020
 ms.author: edupont
 ROBOTS: NOINDEX
-ms.openlocfilehash: a8f6c35d031cdbe6376ed57ea9ba2e9ce79188b4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 986612a04ea75e89c2ef7cc983af4ae507738871
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377301"
 ---
 # <a name="the-dynamics-gp-data-migration-extension"></a>Utvidelsen for Dynamics GP datamigrering
 

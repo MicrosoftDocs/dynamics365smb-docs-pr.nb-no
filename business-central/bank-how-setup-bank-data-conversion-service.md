@@ -3,19 +3,19 @@ title: Konfigurere bankdatakonvertering | Microsoft-dokumentasjon
 description: Du kan definere bankkonti for å holde rede på transaksjoner og importere eller eksportere bankfeeder, for eksempel Yodlee.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 7021b09fd113ec87ff8d155fff24b31ca497bc42
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8be8c83c4cad5029a31b09fec482fa534741c840
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5376590"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere utvidelsen AMC Banking 365 Fundamentals
 En global tjenesteleverandør for å konvertere betalingsinformasjon til hvilket som helst dataformat banken krever, er koblet til og klar til å aktiveres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne omtales i [!INCLUDE[prod_short](includes/prod_short.md)] som utvidelsen AMC Banking 365 Fundamentals.

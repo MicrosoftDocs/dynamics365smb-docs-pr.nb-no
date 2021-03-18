@@ -3,19 +3,19 @@ title: Opprette gjentakelsesordrer
 description: Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden Opprett gjentakelsesordrer, og oppretter de nye salgsordrene.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 05f24f28573a3a6b3b637fb70d6eda6cb159cf94
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8c0f93551f8c4749499dc83c16da7526fb2e1d4a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919791"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383536"
 ---
 # <a name="create-recurring-orders"></a>Opprett gjentakelsesordrer
 Funksjonen for å opprette gjentakelsesordrer finner alle gjentakelsesordrenr som samsvarer med alternativene du har valgt på siden **Opprett gjentakelsesordrer**, og oppretter de nye salgsordrene. Dette er en periodisk aktivitet som må kjøres med jevne mellomrom.  

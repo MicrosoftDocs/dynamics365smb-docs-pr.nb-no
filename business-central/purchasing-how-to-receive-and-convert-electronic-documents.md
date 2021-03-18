@@ -3,19 +3,19 @@ title: Motta og konvertere elektroniske dokumenter | Microsoft-dokumentasjon
 description: Du kan motta elektroniske dokumenter direkte fra handelspartnere eller fra en OCR-tjeneste.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 959afdf56b192f959c3ceb9067d7790f788d309d
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b2855a74da02a195b9ac24c34471bf4de3dd3181
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748671"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387677"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[prod_short](includes/prod_short.md)].

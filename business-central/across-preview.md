@@ -3,17 +3,17 @@ title: Prøveversjoner og abonnementer
 description: Lær hvordan du får en prøveversjon av Business Central, hvordan du arbeider med sandkassemiljøer, og hvordan du registrerer deg for et abonnement.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a30129ba0d3d1b2fd77590c96056c4475debe7ce
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817182"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5379101"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 

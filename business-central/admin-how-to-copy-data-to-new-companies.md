@@ -3,19 +3,19 @@ title: Slik kopierer du data til nye selskaper | Microsoft-dokumentasjon
 description: Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database. Hvis du for eksempel har en standardliste over symptomkoder som er felles for alle serviceimplementeringene, kan du enkelt kopiere kodene fra ett firma til et annet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d43d41541607985f9e4e9d94788099fd5e438a17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 6776fcd85ce353dd63cc222a59b6ceef28bcd751
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911433"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378376"
 ---
 # <a name="copy-data-to-new-companies"></a>Kopiere data til nye selskaper
 Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database. Hvis du for eksempel har en standardliste over symptomkoder som er felles for alle serviceimplementeringene, kan du enkelt kopiere kodene fra ett firma til et annet.  

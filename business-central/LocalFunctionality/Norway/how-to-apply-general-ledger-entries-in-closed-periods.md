@@ -3,19 +3,19 @@ title: Utligne finansposter i lukkede perioder
 description: Du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3a88a05e6f1f04981541f2187ca2f0c685e2d075
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1dd7fc7e1b12da02c87f09d8779c729e3c4ab990
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752477"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382115"
 ---
 # <a name="apply-general-ledger-entries-in-closed-periods"></a>Utligne finansposter i lukkede perioder
 [!INCLUDE[prod_short](../../includes/prod_short.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  

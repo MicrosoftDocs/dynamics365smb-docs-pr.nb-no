@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 01/20/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7a98b53a34ddf403cf6507da7740b97924d4c81c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046535"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385202"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -103,7 +103,7 @@ Hvis du trenger hjelp til å endre disse innstillingene, kan du se at [Kameraet 
 
 Med noen nettlesere, som nye Microsoft Edge, kan du velge hvilket enhetskamera som skal brukes når enheten støtter flere kameraer. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede språk for kort og kortdetaljer 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede språk for kort og kortdetaljer
 
 Hvis kort og kortdetaljer skal vise samme språk i Teams, må språket for Teams-klienten og språket du bruker i [!INCLUDE [prod_short](includes/prod_short.md)]-nettklienten, samsvare.
 
@@ -117,10 +117,25 @@ Hvis du vil ha mer informasjon om hvordan språk fungerer mellom Teams og [!INCL
 
 Endringer du gjør i et felt i detaljvinduene, lagres automatisk når du forlater feltet. Før du lukker vinduet etter at du har endret et felt, trykker du Tab-tasten eller klikker/trykker utenfor feltet.
 
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>En ny flis ble vist i appstarteren. Hvordan fjerner jeg den?
+
+Når du viser appene på Office 365-hjemmesiden (https://home.office.com) eller i appstarteren, vises en ny flis med navnet "Business Central Teams Integration Service Connector" når du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams. Denne flisen har ingen verdi i seg selv, og kan trygt skjules.
+
+Som en administrator, som har Azure Active Directory-administratorrettigheter, kan du skjule flisen ved å gjøre følgende:
+
+1. Logg på [Azure Active Directory-administrasjonssenteret](https://aad.portal.azure.com/).
+2. Velg **Enterprise-apper**, og velg deretter **Business Central Teams Integration Service Connector**.
+3. Velg **Egenskaper**, og sett deretter bryteren **Synlig for brukere** til **Nei**.
+4. Velg **Lagre**.
+
+> [!NOTE]
+> Det tar en liten stund før endringen trer i kraft.
+
+
 ## <a name="see-also"></a>Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
-[Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

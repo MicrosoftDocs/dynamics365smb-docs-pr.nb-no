@@ -3,19 +3,19 @@ title: Designdetaljer – Behov og forsyning | Microsoft-dokumentasjon
 description: Dette emnet introduserer konseptet med behov, som er det vanlige uttrykket som brukes for alle typer bruttobehov, for eksempel en salgsordre og komponentbehov fra en produksjonsordre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4661104e32e648cc134b3ba0c3d44b5a8c6daca6
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: cbafba8d012244b10c142912b357188a1f7eece4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386952"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetaljer: Behov på tom lokasjon
 Når en bruker oppretter en behovshendelse, for eksempel en salgsordrelinje, tillater programmet at brukeren noen ganger angir en lokasjonskode og andre ganger ikke, dvs. bruker en tom lokasjon.

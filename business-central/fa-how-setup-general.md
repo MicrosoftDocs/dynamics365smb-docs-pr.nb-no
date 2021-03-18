@@ -3,18 +3,18 @@ title: Definere aktiva for Finans | Microsoft-dokumentasjon
 description: Før du kan arbeide med aktiva, må du definere standard finanskonti, bokføringsgrupper, fordelingsnøkler, kladdemaler og kladder samt klassekoder.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9dabf51c3961690b9faa19ee58a809013427ad47
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 62eeab6d03f0fde0b1f55f414d48c2d3cd3f573c
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749247"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380205"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.

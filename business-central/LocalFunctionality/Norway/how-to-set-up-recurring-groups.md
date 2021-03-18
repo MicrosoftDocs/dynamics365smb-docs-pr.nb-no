@@ -3,19 +3,19 @@ title: Definere gjentakelsesgrupper
 description: I feltet Kode for gjentakelsesgruppe på Rammebestillinger-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a5f56569519eb7f9bdee33971c2a221d60d2ea22
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: ed69515308af647c3335cf8000c125cc404ff42a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921355"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383526"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  

@@ -3,19 +3,19 @@ title: Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasj
 description: Et **Arbeidssenter**-kort inneholder de faste verdiene og kravene til den aktuelle produksjonsressursen og styrer dermed avgangen for produksjonen som utføres i arbeidssenteret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a230560b897f92cb871e72edb3ccfa2f74884bd3
-ms.sourcegitcommit: edac6cbb8b19ac426f8dcbc83f0f9e308fb0d45d
+ms.openlocfilehash: bc9f087c4f105f0ecdbadece9d72deaef230a6f8
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4817284"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5383353"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 

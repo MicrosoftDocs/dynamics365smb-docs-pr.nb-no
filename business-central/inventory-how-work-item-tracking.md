@@ -3,19 +3,19 @@ title: Slik tilordner du serie- og partinumre til varer for varesporing | Micros
 description: Du kan legge til serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0136c253e38f4950837bc0fdafae5f5c35cab28
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 1ffb80f4571e96dcaa8acfbcb106f7fb582b4783
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377576"
 ---
 # <a name="work-with-serial-and-lot-numbers"></a>Arbeide med serie- og partinumre
 Du kan tilordne serie- og partinumre i ethvert utgående eller inngående dokument, og tilhørende bokførte varesporingsposter vises i de relaterte varepostene. Du utfører arbeidet på siden **Varesporingslinjer**, som du kan åpne fra et inngående eller utgående dokument.
@@ -226,9 +226,9 @@ Hvis du trenger å knytte spesielle opplysninger til et spesielt varesporingsnum
 5. Velg **Kommentar** for å opprette en egen kommentarpost.  
 6. Merk av for **Sperret** for å utelate serie- eller partinummeret fra alle transaksjoner.  
 
-Hvis du oppretter serienumre i bulk ved hjelp av handlingene **Opprett egendefinert s.nr.** eller **Tilordne serienr.**, kan du aktivere **Opprett SN-informasjon**, så opprettes det et informasjonskort for hver sporingslinje.
+<!--If you create serial numbers in bulk by using the **Create Customized SN** or **Assign Serial No.** actions, you can enable **Create SN Information** and an information card will be created for each tracking line.
 
-Du kan eventuelt opprette et informasjonskort når du bokfører kladder eller dokumenter ved å aktivere **Opprett SN-informasjon ved bokføring** eller **Opprett SN-informasjon ved bokføring** på siden **Varesporingskode**. 
+Alternatively, you can create an information card when you post journals or documents. On the **Item Tracking Code** page, turn on the **Create SN Info. on posting** or **Create SN Info. on posting** toggles. -->
 
 Du kan endre opprettede seriekort eller partiinformasjonskort senere.
 

@@ -3,19 +3,19 @@ title: Skrive ut en MVA-avstemmingsrapport
 description: Rapporten MVA-avstemming viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c0dd05954085c5b535eea5abc1718d5f129cd08c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 63117bc3ab254340ebe027be747d762beeb55ce5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919777"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382801"
 ---
 # <a name="print-a-vat-reconciliation-report"></a>Skrive ut en MVA-avstemmingsrapport
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Disse beløpene grupperes etter ulike mva-typer.  

@@ -3,19 +3,19 @@ title: Definere en selger | Microsoft-dokumentasjon
 description: Du kan definere en identifikator for hver enkelt selger, slik at du kan spore prestasjonen til en person eller tilordne en selger til en kontakt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 37b684c1f8bda394f777e43904b77b5f7747ce36
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a1721988ca713128a407ec67691cf7ed42865bd9
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748346"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387127"
 ---
 # <a name="set-up-salespeople"></a>Definere selgere
 Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. Se for eksempel rapporten **Provisjon for selgere**. Det kan også hende at et selskap vil knytte en selger til hver kontakt.

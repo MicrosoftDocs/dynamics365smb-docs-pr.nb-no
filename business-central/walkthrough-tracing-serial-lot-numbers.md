@@ -3,19 +3,19 @@ title: Gjennomgang – Spore serie-/partinumre | Microsoft-dokumentasjon
 description: Dette emnet beskriver handlingene som skal utføres for å stoppe salg av en defekt vare.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 8fc5da8ca5dc69f93dfa81d4f581a7323ad01811
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 51486dac343ed6047988acedc97122136ab61b3b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756370"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385727"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -25,7 +25,7 @@ Når det oppstår produktdefekter, må feilene identifiseres, og selskapet må u
 
 Den første oppgaven i defekthåndtering er å undersøke hvor de defekte varene kommer fra, og hvor de ble brukt. Denne undersøkelsen er basert på historiske data og gjøres enklere ved å søke gjennom varesporingsposter på siden **Varesporing**.  
 
-Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres på siden ****. Du kan bruke Søk etter poster-funksjonen til å søke i alle typer databaseposter.  
+Den andre oppgaven i defekthåndtering er å avgjøre om de sporede varene er planlagt i åpne dokumenter, for eksempel ordrer eller forbrukskladder som ikke er bokført. Dette arbeidet utføres på siden **Søk etter poster**. Du kan bruke Søk etter poster-funksjonen til å søke i alle typer databaseposter.  
 
 ## <a name="about-this-walkthrough"></a>Denne gjennomgangen
 

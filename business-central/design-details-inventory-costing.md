@@ -3,19 +3,19 @@ title: Designdetaljer – Kostberegning for beholdning | Microsoft-dokumentasjon
 description: Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97aa9dc23397403b74fc8f1c65d302733ab3301c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a14c2a81a6aa36ce57384decb9342660297f9a84
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751483"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389927"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  

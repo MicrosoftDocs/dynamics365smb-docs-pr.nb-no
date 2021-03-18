@@ -3,19 +3,19 @@ title: Låne ut servicevarer som erstatninger | Microsoft-dokumentasjon
 description: Du kan låne ut utlånsvarer til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: fd5fc6ad6dabcd3c7bc47caa1af4810474d9a6da
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 7e7aa8f1b29a81011d0451a98f3d7551cd4a1f6a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3918666"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390302"
 ---
 # <a name="lend-and-receive-loaners"></a>Låne ut og mottar utlånsobjekter
 Du kan låne ut utlånsobjekter til kunder for å midlertidig erstatte servicevarer som du har mottatt for vedlikehold.  

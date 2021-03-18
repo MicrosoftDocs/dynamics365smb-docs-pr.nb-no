@@ -3,19 +3,19 @@ title: Lese inn lønnstransaksjoner
 description: Du kan importere lønnstransaksjoner til en finanskladd fra to eksterne lønnslisteløsninger.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e075c19aec2e03dff08564057bc9293d407025cc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f98e661c5728f53c2cfe5317b9e0befe46859317
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752453"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382111"
 ---
 # <a name="import-payroll-transactions-in-the-norwegian-version"></a>Importere lønnstransaksjoner i den norske versjonen
 

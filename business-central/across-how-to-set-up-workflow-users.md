@@ -3,19 +3,19 @@ title: Konfigurere arbeidsflytbrukere | Microsoft-dokumentasjon
 description: Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i arbeidsflyter. Det er for eksempel nødvendig å angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 87cba590a76c1b14d97351b4b0fd2f2f64d49705
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 79c8057211f872ff18be32b1acd143a1a51d4f4a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921125"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384277"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
 

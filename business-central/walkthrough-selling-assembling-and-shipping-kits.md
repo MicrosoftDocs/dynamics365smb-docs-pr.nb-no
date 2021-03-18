@@ -3,19 +3,19 @@ title: Gjennomgang – Selge, montere og levere sett | Microsoft-dokumentasjon
 description: Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 09819006540b6d88ecbc71c9db52a61da195a399
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: a3cfba18f15cf64576fca2cf8a86f7f55652e44f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035509"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385752"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 10a9407d7d44ff7ddd04ed81ef7ce46c8877311c
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fdc2ebb76563020d63653132b4384d006d766f67
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3919795"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5382815"
 ---
 # <a name="create-manual-remittance-payments"></a>Opprette manuelle remitteringsoppdrag
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  

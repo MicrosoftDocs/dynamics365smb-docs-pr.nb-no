@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 672e94526eabacf088acf771bdfca1e2b2361922
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748058"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377451"
 ---
 # <a name="delivering-service"></a>Yte service
 Med funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  

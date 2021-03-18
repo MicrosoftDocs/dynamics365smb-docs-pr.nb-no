@@ -3,19 +3,19 @@ title: Bruke konfigurasjon ny selskaper | Microsoft-dokumentasjon
 description: Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering. Du bruker konfigurasjonen for et nytt, tomt selskap.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d62d28f74cbbc0971dbe29dbe0cf719eabc9fe6e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927175"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5378776"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Bruke konfigurasjoner for nye selskaper
 Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering. Du jobber med konfigurasjonspakken i et nytt, tomt selskap.  

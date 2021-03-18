@@ -3,19 +3,19 @@ title: Definere ressurser, timelister og prosjekter | Microsoft-dokumentasjon
 description: Gir en oversikt over hvordan du konfigurerer ressurser, timelister og jobber for å administrere prosjekter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6189968a44a4001d76f44bf1331594f73ea58e05
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ae031822f6d52e3fc066935cadab1d2e2ae924ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758569"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388302"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere prosjektstyring
 Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter.

@@ -3,19 +3,19 @@ title: Forstå montere til ordre og montere til lager | Microsoft-dokumentasjon
 description: Monteringsvarer kan leveres ved å montere dem når de bestilles, eller ved å montere dem og beholde dem på lageret før de er nødvendig i en ordre.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c9341e68ef47bbb2614db2b5c9db40bf6cac2403
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4747419"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380684"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
