@@ -3,19 +3,19 @@ title: Fakturere bestillinger i Business Central | Microsoft-dokumentasjon
 description: Finn ut hvordan du kan foreta massefakturering fra Microsoft Bookings i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9b683fa14801c00904c131ada5bcce1f669c9b2a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a53467265f0dac62de95c4d8e93ee6c897ef3d01
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751008"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391127"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 Hvis selskapet ditt bruker Bookings-appen i Microsoft 365, kan du foreta massefakturering for avtaler. Siden **Ufakturerte Bookings** i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over selskapets fullførte bestillinger. På denne siden kan du raskt velge avtalene du vil fakturere, og opprette fakturakladder for de leverte tjenestene.  

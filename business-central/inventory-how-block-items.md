@@ -3,19 +3,19 @@ title: Slik sperrer du varer fra salg eller kjøp
 description: Du kan hindre at en vare brukes, for eksempel i salgs- og kjøpsdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f958600a47daa12a665975d6c41e214fca7cf5ad
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 87628f1983e0bafda9119ef3729dbb142c761b1a
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3914093"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393127"
 ---
 # <a name="block-items-from-sales-or-purchasing"></a>Blokkere varer fra salg eller kjøp
 Du kan blokkere en vare fra å bli lagt inn på linjer i salgs- eller bestillingsdokumenter, og du kan blokkere den fra å bli bokført i en transaksjon. Dette er for eksempel nyttig når en vare har en kjent defekt. Hvis noen velger en sperret vare på et salgs- eller kjøpsdokument, vil en melding gi beskjed om at varen er sperret.

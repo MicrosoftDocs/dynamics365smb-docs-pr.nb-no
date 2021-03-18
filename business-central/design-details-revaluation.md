@@ -3,19 +3,19 @@ title: Designdetaljer – Revaluering | Microsoft-dokumentasjon
 description: Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6bd55d93a5710e9059793ccc5f8f1324c150c33f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5388652"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Revaluering
 Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.  

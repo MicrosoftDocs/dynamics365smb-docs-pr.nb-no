@@ -3,19 +3,19 @@ title: Tildelingsstatus og reparasjonsstatus | Microsoft-dokumentasjon
 description: Finn ut mer om forholdet mellom reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingspostene for dem.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2a206386039e277eddd13801da23bb32c2845227
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9aa7850f53c8fd4f5098feb4ebdba14282568b34
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757945"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5386002"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
 Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  

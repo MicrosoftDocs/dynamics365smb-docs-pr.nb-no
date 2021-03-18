@@ -3,19 +3,19 @@ title: Definere tekst-til-konto-tilordning for gjentakende betalinger | Microsof
 description: Knytt tekst på betalinger til bestemte konti, slik at betalinger bokføres på kontiene når du bokfører betalingsavstemmingskladden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6e389d31d6f9a28c9cff12950c37f01c1cf51004
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 225883d8b5d6c3d6fe327340d32ae4dbfd2a718b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392627"
 ---
 # <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
 På siden **Tekst-til-konto-tilordning**, som du åpner fra siden **Betalingsavstemmingskladd**, kan du definere tilordninger mellom tekst på betalinger og bestemte debet-, kredit- og motkonti, slik at slike betalinger bokføres på de angitte kontiene når du bokfører kladden for betalingsavstemming.

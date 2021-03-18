@@ -3,19 +3,19 @@ title: Konfigurere servicetilbud | Microsoft-dokumentasjon
 description: Finn ut hvordan du konfigurerer servicene som du tilbyr kundene.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c7b6a70c800308fd04067be191f80f89f02f5a0d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 2aa988e4a0424a7ec7c0d703fc5ed872ff4d7974
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910283"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391701"
 ---
 # <a name="set-up-service-offerings"></a>Konfigurere servicetilbud
 Når du konfigurerer servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  

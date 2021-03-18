@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 14fcd5059bf270a3845cf9f96762c424c372323c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 13059ffb8701428e8a4c72b49e57fb3c87257cac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749883"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392927"
 ---
 # <a name="add-contacts-to-segments"></a>Legge til kontakter i segmenter
 Etter at du har opprettet et segment og angitt grunnleggende opplysninger om segmentet, kan det være du vil legge til kontakter i segmentet. Dette kan du gjøre ved å fylle ut linjene manuelt på siden **Segment**, men det enkleste og raskeste er å bruke handlingen **Legg til kontakter**.

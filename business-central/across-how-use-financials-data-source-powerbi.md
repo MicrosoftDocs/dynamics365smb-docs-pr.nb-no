@@ -3,19 +3,19 @@ title: Bygge rapporter i Power BI Desktop for å vise Business Central-data | Mi
 description: Gjør dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: ce1ce3039758d5991eb3a770713d2f1e273bbe0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7226a8b8c1acd624890cd668cd9a8437e7bd08b7
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754520"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384177"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 

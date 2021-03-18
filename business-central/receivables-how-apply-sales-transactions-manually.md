@@ -3,19 +3,19 @@ title: Utligne kundeposter for å avstemme betalinger | Microsoft-dokumentasjon
 description: Beskriver hvordan du utligner kundeinnbetalinger eller -refusjoner mot én eller flere åpne kundeposter, og avstemmer kundebetalinger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c5f0ba926208d831cac4d5e3b54c5a8e83a9d92c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: bf43e2ac755678f46549e220a49c87de61fc1901
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748596"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392727"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Avstem kundebetalinger med innbetalingskladden eller fra kundeposter
 Når du mottar en innbetaling fra en kunde eller foretar en refusjon, må du bestemme om du vil utligne betalingen eller refusjonen for å lukke én eller flere åpne debet- eller kreditposter. Du kan angi beløpet du vil utligne. Du kan for eksempel bruke akontobetalinger kundeposter. Lukke kundeposter sørger for at informasjon som kundestatistikk, kontoutdrag og rentenotaer er riktig.

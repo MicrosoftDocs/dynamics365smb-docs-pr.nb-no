@@ -3,19 +3,19 @@ title: Definere ressurstildeling | Microsoft-dokumentasjon
 description: Finn ut hvordan systemet kan sørge for at du tilordner en person som ikke har de nødvendige kompetansen til å yte service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 48d0f9f9e51a0da3f82abdb43e8c4bb6044a5f29
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 6cd246809d6b05f87c131c584267551938f74810
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757995"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392527"
 ---
 # <a name="set-up-resource-allocation"></a>Definere ressurstildeling
 For å sikre at en serviceoppgave utføres tilfredsstillende, er det viktig å finne en ressurs som er kvalifisert for å gjøre arbeidet. Du kan definere [!INCLUDE[prod_short](includes/prod_short.md)], slik at det er enkelt å tildele en person som har riktig kompetansen for prosjektet. I [!INCLUDE[prod_short](includes/prod_short.md)] kaller vi dette _ressurstildeling_. Du kan tildele ressurser basert på kompetanse, tilgjengelighet eller om de er i samme servicesone som kunden. 

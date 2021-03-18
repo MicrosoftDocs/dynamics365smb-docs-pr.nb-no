@@ -3,19 +3,19 @@ title: Designdetaljer – Håndtere gjenbestillingsprinsipper | Microsoft-dokume
 description: Oversikt over oppgaver for å definere en gjenbestillingspolicy ved forsyningsplanlegging.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dbe63d653120eb9e6450af401558414cf2057b1d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: fa9563c503fac844abb67d02934e0a0a666deeab
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3922245"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390052"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Håndtere gjenbestillingsprinsipper
 Det må angis et gjenbestillingsprinsipp for at en vare skal kunne delta i forsyningsplanlegging. Det finnes fire gjenbestillingsprinsipper:  

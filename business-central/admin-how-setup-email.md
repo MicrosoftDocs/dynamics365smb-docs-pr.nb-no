@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 06/15/2020
 ms.author: bholtorf
-ms.openlocfilehash: 44fb1f467b0b44c41456a64c8de3f5ae9dc85786
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752753"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470440"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -37,7 +37,7 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 |Utvidelse  |Beskrivelse  |Eksempler på når den kan brukes  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i Office 365-administrasjonssenteret. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md) hvis du vil ha mer informasjon.|
+|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i Office 365-administrasjonssenteret. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes) hvis du vil ha mer informasjon.|
 |**Gjeldende bruker**|Alle sender e-post fra kontoen de brukte til å logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillat kommunikasjon fra individuelle konti.|
 |**Andre (SMTP)**|Bruk SMTP-protokoll til å sende e-poster.|Tillat kommunikasjon via SMTP-e-postserveren. |
 
@@ -47,7 +47,7 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
 ## <a name="legacy-smtp-settings-and-the-email---smtp-connector-extension"></a>Gamle SMTP-innstillinger og utvidelsen E-post – SMTP-tilkobling
-Hvis du allerede bruker [!INCLUDE[prod_short](includes/prod_short.md)] og har konfigurert e-post gjennom det gamle SMTP-oppsettet, kan du fortsette å bruke installasjonsprogrammet parallelt utvidelsen E-post – SMTP-tilkobling. Når vi oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] til neste versjon, kopierer vi de gamle SMTP-innstillingene til utvidelsen E-post – SMTP-tilkobling. Når den er klar, kan systemansvarlig aktivere de forbedrede e-postegenskapene, og du kan begynne å bruke utvidelsen E-post – SMTP-tilkobling. Hvis du vil ha mer informasjon, kan du se [Om funksjonsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management.md#about-feature-management). Det er imidlertid ingen synkronisering mellom utvidelsen SMTP-tilkobling og de gamle innstillingene. Hvis du endrer SMTP-innstillingene i utvidelsen, må du gjøre de samme endringene i det gamle SMTP-oppsettet, eller omvendt.
+Hvis du allerede bruker [!INCLUDE[prod_short](includes/prod_short.md)] og har konfigurert e-post gjennom det gamle SMTP-oppsettet, kan du fortsette å bruke installasjonsprogrammet parallelt utvidelsen E-post – SMTP-tilkobling. Når vi oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] til neste versjon, kopierer vi de gamle SMTP-innstillingene til utvidelsen E-post – SMTP-tilkobling. Når den er klar, kan systemansvarlig aktivere de forbedrede e-postegenskapene, og du kan begynne å bruke utvidelsen E-post – SMTP-tilkobling. Hvis du vil ha mer informasjon, kan du se [Om funksjonsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management#about-feature-management). Det er imidlertid ingen synkronisering mellom utvidelsen SMTP-tilkobling og de gamle innstillingene. Hvis du endrer SMTP-innstillingene i utvidelsen, må du gjøre de samme endringene i det gamle SMTP-oppsettet, eller omvendt.
 
 > [!NOTE]
 > Hvis du har tilpasninger som er avhengige av det gamle oppsettet for SMTP-e-post, er det en mulighet for at noe går galt med tilpasningene dine hvis du begynner å bruke e-postutvidelser. Vi anbefaler at du konfigurerer og tester utvidelsene før du aktiverer funksjonen for forbedrede e-postfunksjoner.
@@ -157,7 +157,7 @@ Fremgangsmåten for å registrere [!INCLUDE[prod_short](includes/prod_short.md)]
 > * URI-adresse for omdirigering (valgfritt)
 > * Klienthemmelighet
 
-Hvis du se generelle retningslinjer for å registrere en app, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app.md). 
+Hvis du se generelle retningslinjer for å registrere en app, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledning **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.

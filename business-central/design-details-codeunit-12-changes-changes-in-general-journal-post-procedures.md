@@ -3,19 +3,19 @@ title: Endringer i bokføringsprosedyrene for finans i codeunit 12
 description: I tidligere versjoner ble codeunit 12 endret for å bidra til å forbedre ytelsen i bokføringen fra finanskladden. Finn ut mer om endringene i bokføringsprosedyrene i denne artikkelen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/28/2020
 ms.author: edupont
-ms.openlocfilehash: c1ec373b6c7226d6b2548f2b29f326dcd9c6a459
-ms.sourcegitcommit: a95681db16e81af109b34f8e5d88028c1552c6a2
+ms.openlocfilehash: 43232e1c38176bc947d33b5e3f55b7535afbcad4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4367912"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390552"
 ---
 # <a name="historical-changes-to-codeunit-12-changes-in-general-journal-post-procedures"></a>Historiske endringer i Codeunit 12: Endringer i bokføringsprosedyrene for finans
 

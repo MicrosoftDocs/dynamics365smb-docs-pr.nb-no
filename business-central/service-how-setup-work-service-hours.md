@@ -3,19 +3,19 @@ title: Konfigurere arbeidstimer og servicetimer | Microsoft-dokumentasjon
 description: Du kan angi de vanlige servicearbeidstimene i selskapet. Disse servicetimene brukes til å beregne responsdatoen og -klokkeslettet for serviceordrer og -tilbud, og til å sende advarsler om responstid.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 043d745b0676a6fe939a6d236fefe4dad01ca742
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 559c4f2617241fb30f90639387f9df9e80739a22
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748021"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380791"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbeidstimer og servicetimer
 Med et servicesystem kan du vanligvis spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har innebygde verktøy du kan tilpasse for å registrere denne typen informasjon.  
