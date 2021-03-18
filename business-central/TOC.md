@@ -110,6 +110,7 @@
 #### [Definer betingelser og grader for purringer](finance-setup-reminders.md)
 #### [Definer rentenotabetingelser](finance-setup-finance-charges.md)
 #### [Definere merverdiavgift (mva)](finance-setup-vat.md)
+#### [Definer beregninger og bokføringsmetoder for merverdiavgift (mva)](finance-setup-vat.md)
 #### [Definere urealisert merverdiavgift for kontantbasert regnskap](finance-setup-unrealized-vat.md)
 #### [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md)
 #### [Definere kildespor og årsaksspor for revisjonsspor](finance-setup-trail-codes.md)
@@ -437,6 +438,7 @@
 ##### [Felttilordning for AMC Banking 365 Fundamentals-utvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 ## Finans
 ### [Oversikt over finans](finance.md)
+### [Finansrapporter](finance-reports.md)
 ### Håndtere fordringer
 #### [Oversikt over fordringer](receivables-manage-receivables.md)
 #### Utligne betalinger automatisk og avstemme bankkonti
@@ -560,8 +562,9 @@
 ### [Overføre bankkapital](bank-how-transfer-bank-funds.md)
 ### [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
 
-## Forretningsintelligens
-### [BI-oversikt](bi.md)
+## Business Intelligence og Financial Reporting
+### [Oversikt over Business Intelligence og Financial Reporting](bi.md)
+### [Finansrapporter](finance-reports.md)
 ### [Analysere faktiske beløp i forhold til budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)
 ### [Klargjøre Financial Reporting med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)
 ### [Konfigurere og publisere KPI-webtjenester basert på kontoskjemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1533,7 +1536,7 @@
 
 # Sikkerhet, personvern, samsvar
 ## Sikkerhet og beskyttelse
-### [Oversikt over sikkerhet og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
+### [Oversikt over sikkerhet og beskyttelse (bare på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Personvern
 ### [Personvern (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
 ## Samsvar
@@ -1541,6 +1544,7 @@
 ### [Programsamsvar](compliance/compliance-application-compliance.md)
 ### [Servicesamsvar](compliance/compliance-service-compliance.md)
 ### [Sertifiseringer](compliance/compliance-certifications.md)
+## [Serviceoversikt (bare på engelsk)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 
 # Utvikling og administrasjon
 ## [Komme i gang med utviklings- og administrasjonsdokumentasjon](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
