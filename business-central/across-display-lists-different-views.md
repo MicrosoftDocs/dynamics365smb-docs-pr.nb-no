@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: c6771cba5d386c8eec5041aa9cb9a7152827ab9f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 9670b1c1d8d1fcb9305877998908014804bc4217
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753470"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384902"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Vise lister på ulike måter
 I høyre hjørne i en hvilken som helst liste i [!INCLUDE[prod_short](includes/prod_short.md)] finner du ikoner som lar deg velge hvordan listen over poster vises. En liste kan vises som detaljerte rader, noe som er ideelt når du har behov for å arbeide med mange felt eller redigere felt i listen. Men du kan også bytte for å vise poster som fliser, som er mer kompakt, og som viser færre felt på den bestemte posten. Denne visningen er svært nyttig for å få en oversikt over flere poster, og er spesielt nyttig på mindre enheter, fordi den er kompakt og enklere å trykke.
