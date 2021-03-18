@@ -3,15 +3,15 @@ title: Behandle lagring ved å slette dokumenter eller komprimere data
 description: Lær hvordan du kan beholde de historiske dataene dine ved å komprimere poster eller slette dem.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f0d713f57345c312ddbfe6b5462f2623b1088dfc
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753870"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493050"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
 
@@ -47,7 +47,13 @@ Du kan komprimere følgende typer data i [!INCLUDE [prod_short](includes/prod_sh
   Etter komprimeringen kan du ved hjelp av funksjonen **Beholde feltinnhold** også velge å beholde innholdet i feltene **Bilagsnr., Vår kontakt**, **Kode for global dimensjon 1** og **Kode for global dimensjon 2**.
 * Leverandørposter
 
-  Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (NOK)**, **Restbeløp (NOK)**, **Beløp (NOK)**, **Kjøp (NOK)**, **Fakturarabatt (NOK)**, **Kont.rabatt gitt (NOK)** og **Mulig kont.rabatt**.
+> [!NOTE]
+> Komprimerte poster for kunder, leverandører, bank og FA-underposter bokføres på en litt annen måte enn standard bokføring. Dette er for å redusere antallet nye finansposter som opprettes ved hjelp av datokomprimering, og er spesielt viktig når du lagrer informasjon som dimensjoner og dokumentnumre. Datokomprimering oppretter nye oppføringer på følgende måte:
+>* På siden **Finansposter** opprettes nye poster med nye postnumre for de komprimerte postene. **Beskrivelse**-feltet inneholder **Datokomprimert**, slik at de komprimerte postene er enkle å identifisere. 
+>* På finanssider, for eksempel siden **Kundeposter**, opprettes det én eller flere poster med nye postnumre. 
+> Bokføringsprosessen oppretter hull i nummerseriene for poster på siden **Finansposter**. Disse numrene tilordnes bare postene på finanssidene. Nummerintervallet som ble tilordnet til postene, er tilgjengelig på siden **Finansjournal** i feltene **Fra løpenr.** og **Til løpenr.** 
+
+Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (NOK)**, **Restbeløp (NOK)**, **Beløp (NOK)**, **Kjøp (NOK)**, **Fakturarabatt (NOK)**, **Kont.rabatt gitt (NOK)** og **Mulig kont.rabatt**.
 
   Ved hjelp av funksjonen **Behold feltinnhold** kan du også beholde innholdet i følgende felt: **Bilagsnr.**, **Kjøp fra-leverandørnr.**, **Innkjøperkode**, **Kode for global dimensjon 1** og **Kode for global dimensjon 2**.
 

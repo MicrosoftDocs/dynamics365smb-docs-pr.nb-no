@@ -3,19 +3,19 @@ title: Bruke og endre lagrede innstillinger i rapporter | Microsoft-dokumentasjo
 description: Beskriver hvordan du bruker forhåndsdefinerte alternativer og filtre til å tilpasse rapporter og generere riktige data.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: d9ae0f8e45c940d2a78d4d383a733ad378e90650
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 70b3f391c141aa53dcef258a131d6395782a4488
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926350"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392552"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
 Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles forespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).

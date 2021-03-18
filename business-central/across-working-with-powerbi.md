@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: a747a0bdb67187597cc33185b418844247b2e2b2
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 8cf8946d8b9792c7fb557969257380d0b48d0d83
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752978"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492947"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeide med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -40,11 +40,11 @@ Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må den ak
 
 Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
 
-## <a name="connect-to-power-bi---one-time-only"></a>Koble til Power BI – bare én gang
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Koble til Power BI – bare én gang
 
 Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, ser du kanskje en tom Power BI-del på en side, som vist i forrige figur. Det første du må gjøre, er å koble til Power BI-kontoen. Når du er tilkoblet, kan du se rapporter. Du trenger bare å utføre dette trinnet én gang.
 
-Du kan koble til Power BI ved å velge koblingen **Kom i gang med Power BI** i delen **Power BI-rapporter**.
+Du kan koble til Power BI ved å velge koblingen **Kom i gang med Power BI** i delen **Power BI-rapporter**. 
 
 Under tilkoblingsprosessen kommuniserer [!INCLUDE [prod_short](includes/prod_short.md)] med Power BI-tjenesten for å finne ut om du har en gyldig Power BI-konto og -lisens. Når lisensen er kontrollert, vises standard Power BI-rapportvisninger på siden. Hvis en rapport ikke vises, kan du velge en rapport fra delen.
 
@@ -53,7 +53,7 @@ Under tilkoblingsprosessen kommuniserer [!INCLUDE [prod_short](includes/prod_sho
 
 ##### <a name="from-prod_short-on-premises"></a>Fra [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
 
-Tilkoblingen til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] er lignende den i Online. Du blir imidlertid bedt om å gi tilgang til Power BI-tjenester på siden **TILLATELSER FOR AZURE ACTIVE DIRECTORY-TJENESTEN**. Du gir tilgang ved å velge **Autoriser Azure-tjenester** og deretter **Godta**.
+Tilkoblingen til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] er lignende den i Online. Du kan imidlertid bli bedt om å gi tilgang til Power BI-tjenester på siden **TILLATELSER FOR AZURE ACTIVE DIRECTORY-TJENESTEN**. Du gir tilgang ved å velge **Autoriser Azure-tjenester** og deretter **Godta**.
 
 Når du er tilkoblet, kan du velge en rapport fra Power BI-delen på sider.
 

@@ -3,19 +3,19 @@ title: Planlegge plukkinger i forslaget | Microsoft-dokumentasjon
 description: Hvis lageret er definert til å kreve både plukkbehandling og lagerleveringsbehandling, kan lageret velge å fungere slik at linjene på leveringsdokumentene ikke automatisk blir omgjort til plukkinstrukser, men at de i stedet blir gjort tilgjengelig for plukkforslaget.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 250d85308e60f93ccba28e2354e47be185918d52
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 977db9c072defbbd7a76ef58bdbcf739116a858d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756145"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393226"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
 

@@ -3,19 +3,19 @@ title: Aktivere kundebetalinger gjennom betalingstjenester | Microsoft-dokumenta
 description: Gjør det lettere for kundene å betale sine fakturaer ved å aktivere betalingstjenester.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 3bcfac75d1d161a4163fda466e320b0efd408655
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 5fa58c177629fdf386bca0ebfce2b668a55cbc8f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393352"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Aktivere kundebetalinger gjennom betalingstjenester
 Som et alternativ til å samle inn betalinger via bankoverføring eller kredittkort, kan kundene betale via egne kontoer med betalingstjenester, som Microsoft Pay, PayPal eller WorldPay.  

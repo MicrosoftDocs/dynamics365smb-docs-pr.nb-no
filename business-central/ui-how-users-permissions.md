@@ -3,19 +3,19 @@ title: Opprette brukere i henhold til lisenser | Microsoft Docs
 description: Beskriver hvordan du legger til brukere i Business Central Online eller lokalt basert på lisenser.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 217b658e6a4c54996d3f0e9cfa7470f02908b380
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: cc6a32653d443d45a8cb037be275ff84e449ca02
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846343"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573354"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 

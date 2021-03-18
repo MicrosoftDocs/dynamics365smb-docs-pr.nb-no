@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 01/26/2021
+ms.date: 03/04/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b6069ffb4c73d783b2c05d3a44a55763805a52
-ms.sourcegitcommit: 1c9eec7554305603d688bf85ce3986d0b1f72ede
+ms.openlocfilehash: d95e97a232cfb7fda8f40f68875b747723abbd4b
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "5068437"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573379"
 ---
 # <a name="teams-faq"></a>Vanlige spørsmål om Teams
 
@@ -50,7 +50,6 @@ Ja. Når [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen utvider en kob
 Ja. Appen er ment å fungere med en hvilken som helst lokalisering av [!INCLUDE [prod_short.md](includes/prod_short.md)], om denne lokaliseringen tilbys direkte fra Microsoft eller via en partner. Hvis du vil ha mer informasjon, kan du se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Hvilke språk støtter [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen?
-<!--TODO Run by Mike -->
 
 To ting avgjør hvilket språk som brukes for kort og kortdetaljer i Teams:
 
@@ -66,15 +65,19 @@ Tabellen nedenfor inneholder informasjon om hvordan funksjonen er forskjellig fo
 
 Hvis du vil listen over støttede språk for [!INCLUDE [prod_short.md](includes/prod_short.md)], kan du se [Støttede språk](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
 
+### <a name="does-the-business-central-app-work-with-industry-solutions"></a>Fungerer Business Central-appen med bransjeløsninger?
+
+Ja. Appen fungerer med koblinger basert på **\*.bc.dynamics.com**-mønsteret som vanligvis brukes med [Bygg inn apper](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview).
+
 ### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Hvor finner jeg Teams-integrering i [!INCLUDE [prod_short.md](includes/prod_short.md)]-nettklienten? 
 
-Det finnes for øyeblikket ingen innbygging av Teams-kontroller eller tilgjengelighet av Teams-funksjoner i [!INCLUDE [prod_short.md](includes/prod_short.md)]-nettklienten eller andre klienter.  
+Det finnes for øyeblikket ingen innbygging av Teams-kontroller eller tilgjengelighet av Teams-funksjoner i [!INCLUDE [prod_short.md](includes/prod_short.md)]-nettklienten eller andre klienter.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Fungerer [!INCLUDE [prod_short.md](includes/prod_short.md)] med Teams-mobilappen?
 
 Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen kan installeres fra Teams-skrivebordsappen eller nettleseren, eller av en administrator for alle brukere. Når den er installert, er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen automatisk tilgjengelig i Teams for iOS og Android. På mobile enheter kan du vise kort som er sendt av andre, tilgangsdetaljer eller åpne kortet til fullskjerm i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Du kan imidlertid ikke lime inn koblinger som utvides til kort når du skriver meldinger. Se [Minimumskrav for bruk av Business Central](product-requirements.md) for minimumskrav for mobil.
 
-### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams det samme som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for iOS og Android? 
+### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams det samme som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for iOS og Android?
 
 Antall Appen for Teams er et tillegg til Microsoft Teams og eksklusivt utformet for samarbeidsfunksjoner som lyses opp i Teams. På den andre siden leverer [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen en flott opplevelse der du kan arbeide med [!INCLUDE [prod_short.md](includes/prod_short.md)]-data på mobile enheter.
 
@@ -108,13 +111,26 @@ Hvis du er en partner for videresalg, vil du kanskje ha et miljø som du kan vis
 
 Feltene som vises på et kort i Teams, kan også påvirkes av [!INCLUDE [prod_short.md](includes/prod_short.md)]-tilpasninger som er installert for organisasjonen. Kort tar ikke hensyn til rollespesifikke tilpasninger eller brukertilpasning. Kortdetaljvinduet viser imidlertid postdetaljer slik du ser dem i [!INCLUDE [prod_short.md](includes/prod_short.md)], deriblant alle utvidelser, rolletilpasninger og brukertilpasning.
 
+### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Hvordan påvirker tillatelsene som kreves av appen, personvernet mitt?
+
+Før du installerer [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams, kan du gå gjennom minimumstillatelsene som kreves for at appen skal fungere. Når du installerer appen, godtar du at appen har tillatelse til å motta meldinger og data som du oppgir, og at Teams har tillatelse til å lagre og behandle disse meldingene.
+
+Enkelte [!INCLUDE [prod_short.md](includes/prod_short.md)]-funksjoner krever også eksterne koblinger eller tilgang til kameraet eller geografisk plassering. La oss for eksempel anta at du vil ta et bilde av en kjøpsfaktura for behandling. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen bruker ikke disse funksjonene uten ditt samtykke, og de brukes bare av bestemte funksjoner i **Detaljer**-vinduet. Når du bruker en av disse funksjonene for første gang, vises en dialogboks i Teams der du blir bedt om å gi tilgang til de nødvendige enhetsegenskapene.
+
+- På Teams-skrivebordet går du gjennom og justerer apptillatelser fra **Innstillinger**-vinduet. Velg profilbildet ditt øverst i appen, velg **Innstillinger** > **Tillatelser**, og velg deretter [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen.
+
+- For Teams i nettleseren og Teams for iOS eller Android kan du gå gjennom eller endre tillatelsene fra nettleser- eller enhetsinnstillingene.
+
+> [!NOTE]
+> Nøyaktig hvilke [!INCLUDE [prod_short.md](includes/prod_short.md)]-funksjoner som ber deg om tillatelser, avhenger av hvilke tilleggsapper og tilpasninger som er brukt i [!INCLUDE [prod_short.md](includes/prod_short.md)]-miljøet du kobler til.
+
 ### <a name="where-can-i-learn-about-my-privacy"></a>Hvor kan jeg finne ut mer om personvernet mitt? 
 
 Du kan finne ut mer om hvordan Microsoft håndterer opplysningene dine i [Microsofts personvernerklæringen](https://go.microsoft.com/fwlink/?linkid=2030602). 
 
-Kontakt administratoren for å finne ut hvordan organisasjonen håndterer personvernet til opplysningene dine. 
+Kontakt administratoren for å finne ut hvordan organisasjonen håndterer personvernet til opplysningene dine.
 
-### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Hvordan avinstallerer jeg [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams? 
+### <a name="how-do-i-uninstall-the-prod_shortmd-app-for-teams"></a>Hvordan avinstallerer jeg [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams?
 
 Hvis du vil fjerne appen du installerte selv, kan du gå til chatmeldingsboks, finne [!INCLUDE [prod_short.md](includes/prod_short.md)]-ikonet under, høyreklikke på ikonet og velge Avinstaller.  
 
@@ -153,29 +169,33 @@ Antall Feltverdiene på et kort i Teams, deriblant bilder, er basert på dataene
 
 Når du skriver og sender en melding til chat som inneholder et kort, vil alle brukere se kortet, selv om de ikke har installert [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams.
 
+### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Hvordan finner jeg ut hvilket selskap et kort i Teams tilhører?
+
+Hvis du arbeider på tvers av [!INCLUDE [prod_short.md](includes/prod_short.md)]-selskaper, må du snakke med systemansvarlig om å aktivere et firmakort for hvert selskap. Når dette alternativet er aktivert, vises dette iøynefallende tipset i alle detaljvinduer i Teams, med selskapet og miljøene som posten tilhører. Hvis du vil vite hvordan du oppretter firmakort, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).
+
 ## <a name="working-with-card-details"></a>[Arbeide med kortdetaljer](#tab/carddetails)
 
-### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvor er Lagre-knappen i detaljvinduet i Teams? 
+### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvor er Lagre-knappen i detaljvinduet i Teams?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)] lagrer automatisk endringer du gjør i felter så snart du går ut av feltet. Hvis du vil forlate et felt, klikker/trykker du hvor som helst utenfor feltet eller bruker TAB-tasten til å flytte til det neste feltet. Når data vises i en dialogboks i detaljvinduet, må du kanskje velge **OK** for å [!INCLUDE [prod_short.md](includes/prod_short.md)] lagre endringene.
 
-### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Hvis jeg velger å vise detaljer for et kort, kan andre brukere se detaljvinduet mitt? 
+### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Hvis jeg velger å vise detaljer for et kort, kan andre brukere se detaljvinduet mitt?
 
 Antall Selv om alle i chatten kan vise selve kortet, vises detaljvinduet bare for deg på enheten når du velger **Detaljer**. Andre brukere må velge **Detaljer** hvis de vil se detaljvinduet på enheten sin.
 
-### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kan jeg starte et Teams-anrop fra detaljvinduet i Teams? 
+### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kan jeg starte et Teams-anrop fra detaljvinduet i Teams?
 
 Ja. Du kan starte et anrop ved å velge det koblede nummeret for oppringing i et telefonnummerfelt, for eksempel feltet **Mobiltelefonnr.** på **Kontakt**-kortet. Teams må være den angitte oppringingsappen.
 
 Hvis du vil ringe lokale eller internasjonale fasttelefoner og mobiltelefoner fra Teams, må du ha en Teams-lisens for bedriftsanrop. Du må også konfigurere Teams som anropsløsningen. Hvis du vil finne ut mer, kan du se [Planlegg Teams-taleløsningen](/microsoftteams/cloud-voice-landing-page) i Teams-dokumentasjonen.
 
-### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Kan jeg skrive ut dokumenter fra detaljvinduet i Teams? 
+### <a name="can-i-print-documents-from-the-details-window-in-teams"></a>Kan jeg skrive ut dokumenter fra detaljvinduet i Teams?
 
 Ja. Du kan skrive ut rapporter og andre dokumenter ved hjelp av standard [!INCLUDE [prod_short.md](includes/prod_short.md)]-utskriftsfunksjoner og alle skyaktiverte skrivere som er konfigurert på siden **Utskriftsbehandling** i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Du kan ikke skrive ut fra Teams til lokale skrivere som er kjent for klientenheten, for eksempel skrivere som du vanligvis skriver ut til fra nettleseren. Du kan derfor ikke skrive ut fra forhåndsvisningsvinduet for rapport, men bare fra forespørselssiden for hovedrapporten, direkte til skyskriverne.
 
 Hvis du vil ha mer informasjon om å konfigurere skyskrivere, kan du se [Konfigurer skrivere](ui-specify-printer-selection-reports.md).
 
-### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Får jeg tilgang til kameraet fra detaljvinduet i Teams? 
+### <a name="can-i-access-the-camera-from-the-details-window-in-teams"></a>Får jeg tilgang til kameraet fra detaljvinduet i Teams?
 
 Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-funksjoner i detaljvinduet som bruker kameraet, er tilgjengelig i alle Teams-klientene.
 
@@ -185,7 +205,7 @@ Hvis du bruker funksjonalitet i [!INCLUDE [prod_short.md](includes/prod_short.md
 
 ## <a name="collaborating-with-guests"></a>[Samarbeide med gjester ](#tab/collaborating)
 
-### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kan jeg dele kort med brukere utenfor organisasjonen min? 
+### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kan jeg dele kort med brukere utenfor organisasjonen min?
 
 Ja. Når du skriver og sender en melding som inneholder et kort, vil alle mottakerne i chatten se kortet, selv om de er gjester eller eksterne i organisasjonen. Gjester kan også åpne detaljvinduet hvis de har fått tilgang til dataene i [!INCLUDE [prod_short.md](includes/prod_short.md)].
 

@@ -3,19 +3,19 @@ title: Tilgjengelige skrifter
 description: Den elektroniske versjonen av Business Central inneholder forhåndsinstallerte skrifter på serverne som kan brukes til å definere rapporter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/20/2020
 ms.author: edupont
-ms.openlocfilehash: 534e0d7c86dd49b9790cd7f8d5d644b56e8b28d4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756970"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493257"
 ---
 # <a name="available-fonts"></a>Tilgjengelige skrifter
 
@@ -26,7 +26,7 @@ Den elektroniske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inn
 
 ## <a name="document-fonts"></a>Dokumentskrifter
 
-Følgende skrifter installeres og er tilgjengelige for bruk i Word og RDLC-dokumentrapporter:
+Følgende skrifter installeres og er tilgjengelige for bruk både i Word og RDLC-rapportoppsett:
 
 * Arial
 * Consolas
@@ -46,6 +46,17 @@ MICR-skrifter er installert og tilgjengelige for bruk. Både E-13B- og de CMC-7-
 I tillegg til MICR-skrifter er spesielle sikkerhetsskrifter tilgjengelige for å generere tekst, navn, beløp og valutasymbolene dollar, euro, pund og yen, som kan være vanskelige å endre når en sjekk er skrevet ut.  
 
 Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Skrifter for strekkoder
+Skrifter for generering av endimensjonale strekkoder er installert og tilgjengelig for bruk i både Word- og RDLC-rapportoppsett.
+
+Følgende strekkode-symbologier støttes:
+* Code 3 of 9 (Code 39)
+* Kode 128
+* Kode 93
+* Codabar
+* MSI
+* Interleaved 2 of 5
 
 ## <a name="see-also"></a>Se også
 

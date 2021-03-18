@@ -10,18 +10,23 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: bce5c61afd2a1119c25e37ece65081ef0519694e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c4891cb047cb16f4051b6f468115e2b6bad9f24c
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754345"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470365"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revidere endringer i Business Central
 En vanlig utfordring i mange forretningsadministrasjonsprogrammer er å unngå uønskede endringer i dataene. Det kan være alt fra et uriktig kundetelefonnummer til uriktig bokføring i finanspostene. Dette emnet beskriver funksjonene for å finne ut hva som er endret, hvem som endret det, og når endringen ble gjort.
 
 ## <a name="about-the-change-log"></a>Om endringsloggen 
 Ved hjelp av endringsloggen kan du spore alle direkte endringer som brukeren gjør i dataene i databasen. For må angi hver tabell og hvert felt du vil at systemet skal logge. Deretter må du aktivere endringsloggen.  
+
+Sporing av endringer kan påvirke ytelsen, noe som kan koste deg tid, og øke størrelsen på databasen, noe som kan koste deg penger. Vurder følgende for å redusere disse kostnadene:
+- Vær forsiktig når du velger tabellene og operasjonene.
+- Ikke legg til poster og bokførte dokumenter. I stedet prioriterer du systemfelt som Opprettet av og Opprettingsdato.
+- Ikke bruk sporings typen Alle felt. I stedet velger du Noen felt og sporer bare de viktigste feltene.
 
 Endringsloggen er basert på endringene som utføres på dataene i tabellene som du vil spore. På siden **Endringsloggposter** er oppføringene ordnet kronologisk og viser alle endringer som gjøres i verdiene i feltene i tabellene du angir.
 

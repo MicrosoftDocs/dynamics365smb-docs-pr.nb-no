@@ -3,19 +3,19 @@ title: Utforske og navigere sider per rolle | Microsoft Docs
 description: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: dc96e0f21a85e98bc871cf90972d397f70e1eb44
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: ef447ca9d0341983b43c0c90c96698ccc0eab77a
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4756696"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470315"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
@@ -39,7 +39,9 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
 
 - Hvis du vil vise eller skjule en node, velger du noden. Dette gjelder noder på øverste nivå og undernoder.
 - Hvis du vil vise/skjule alle noder på øverste nivå på siden, velger du handlingen **Utvid** eller **Skjul** i øvre høyre hjørne.
-- Hvis du vil vise/skjule en node på øverste nivå og alle undernoder under den, trykker du CTRL+SKIFT mens du velger handlingen **Utvid** eller **Skjul** i øvre høyre hjørne.
+- Hvis du vil vise/skjule alle noder på øverste nivå og alle undernoder under den, gjør du ett av følgende:
+    - Trykk på Ctrl+Skift mens du velger handlingen **Utvid** eller **Skjul** i øvre høyre hjørne.
+    - Velg **...** i øvre høyre hjørne, og velg deretter **Vis alle** eller **Skjul alle**.
 
 ## <a name="see-also"></a>Se også
 [Finne sider og informasjon med Fortell meg](ui-search.md)  

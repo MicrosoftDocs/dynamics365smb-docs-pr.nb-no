@@ -4,12 +4,12 @@ ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 10/02/2020
 ms.author: edupont
-ms.openlocfilehash: 1b9f60eab5b0bcf812343e82389087ac5535301a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d58d8d628577f163d36199b8fc5785982aac830a
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749783"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493003"
 ---
 Før du kan opprette e-postpålogging må du klargjøre Exchange Online med [fellesmapper](/exchange/collaboration/public-folders/public-folders?view=exchserver-2019&preserve-view=true ). Du kan gjøre dette i [Administrasjonssenter for Exchange](/Exchange/architecture/client-access/exchange-admin-center?view=exchserver-2019&preserve-view=true ), eller du kan bruke [Exchange Management Shell](/powershell/exchange/exchange-management-shell?view=exchange-ps&preserve-view=true ).  
 
@@ -72,4 +72,4 @@ Listen nedenfor beskriver de viktigste trinnene med koblinger for å finne ut me
   Hvis du vil ha mer informasjon, kan du se [Administrere regler for e-postflyt i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules) og [Regelhandlinger for e-postflyt i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions).
 
 > [!NOTE]
-> Hvis du utfører endringer i Exchange Management Shell, blir endringene synlige i Administrasjonssenter for Exchange etter en forsinkelse. Endringene som er gjort i Exchange, vil også være tilgjengelige i [!INCLUDE[prod_short](prod_short.md)] etter en forsinkelse.
+> Hvis du utfører endringer i Exchange Management Shell, blir endringene synlige i Administrasjonssenter for Exchange etter en forsinkelse. Endringene som er gjort i Exchange, vil også være tilgjengelige i [!INCLUDE[prod_short](prod_short.md)] etter en forsinkelse. Forsinkelsen kan være på flere timer.

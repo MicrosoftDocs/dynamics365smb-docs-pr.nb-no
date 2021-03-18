@@ -3,19 +3,19 @@ title: Hurtigtaster
 description: Den fullstendige listen over hurtigtastkombinasjoner for å arbeide effektivt med data.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746119"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470490"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -56,7 +56,6 @@ Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang t
 |Alt+Skift+N |Lukk en nylig opprettet side, og åpne en ny for å opprette en ny post. På samme måte vil Alt+F9 bokføre et dokument og opprette et nytt.|
 |Alt+T|Åpne siden **Innstillinger**.|
 |Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knapp"). Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
-|Shift+F12|Åpne rolleutforskeren, en oversikt over funksjoner. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).|
 |Ctrl+Alt+Skift+C|Vise informasjon i selskapsmerket.|
 |Ctrl+Alt+F1|Åpne og lukk sideinspeksjonsruten. Sideinspeksjonsruten viser informasjon om siden, som den tilhørende kildetabellen, felt, filtre, utvidelser og mer.<br /><br />Hvis du vil ha mer informasjon, kan du se [Kontrollere sider](across-inspect-page.md).|
 |Ctrl+C |Kopier verdien til feltet. Hvis feltet er i fokus og du ikke har valgt tekst i feltet, kopierer dette hele verdien. Hvis du har valgt tekst i feltet, vil det kopiere bare merket tekst.|
@@ -213,6 +212,18 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |Ctrl++|Zoom inn på gjeldende side.|  
 |Ctrl+-|Zoom ut på gjeldende side.|  
 |Ctrl+0|Zoom inn eller ut til 100 % på gjeldende side.|  
+
+## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Hurtigtaster for Rolleutforsker
+
+Rolleutforsker gir deg en oversikt og rask tilgang til alle forretningsfunksjonene som er tilgjengelige for din rolle. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).
+
+|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
+|--------------------------------|----------|
+|Shift+F12|Åpne rolleutforskeren.|
+|F3|Åpne **Søk etter**-boksen i rolleutforskeren for å finne funksjoner basert på et gitt søkeord eller -uttrykk.|
+|F3 eller CTRL+PIL NED|Flytter fokus til neste funksjon som ble funnet, i rolleutforskeren. F3 flytter fokus til **Søk etter**-boksen etter funksjonen som ble funnet sist.|
+|Skift F3 eller Ctrl+Pil opp|Flytt fokus til forrige funksjon som ble funnet, i rolleutforskeren.|
+|Ctrl+Skift|Vis eller skjul alle undernoder, i tillegg til noder på øverste nivå, når du velger **Vis**- eller **Skjul**-handlingen.|
 
 ## <a name="see-also"></a>Se også
 

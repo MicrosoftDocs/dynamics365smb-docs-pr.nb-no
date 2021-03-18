@@ -3,20 +3,20 @@ title: Installere utvidelser for å tilpasse Business Central
 description: Finn ut hvordan du legger til funksjoner og tilpasser Business Central ved å installere utvidelser.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 10/01/2020
+ms.date: 03/02/2021
 ms.author: edupont
-ms.openlocfilehash: fa72fad5899fab4830bf6c0956eaf99b6c773a53
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757020"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493281"
 ---
-# <a name="customizing-business-central-using-extensions"></a>Tilpasse Business Central for med utvidelser
+# <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online med utvidelser
 
-Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
+Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] Online ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
 
 > [!NOTE]
 > Du må ha de rette tillatelsene for å installere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være medlem av Adm. av D365-utv.-brukergruppen eller ha tillatelsessettet Adm. av D365-utv. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.
@@ -24,7 +24,7 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere ut
 Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
 
 > [!IMPORTANT]  
-> Det er ikke støtte for opplasting av per leier-utvidelser og installasjon av AppSource-utvidelser fra **Administrasjon av utvidelse**-siden for lokale installasjoner.
+> Det er ikke støtte for opplasting av per leier-utvidelser og installasjon av AppSource-utvidelser fra **Administrasjon av utvidelse**-siden for lokale installasjoner. Du kan ikke installere AppSource-utvidelser lokalt, inkludert i Docker-baserte distribusjoner.
 
 Når du starter [!INCLUDE[prod_short](includes/prod_short.md)] for første gang, er noen utvidelser allerede installert for deg. Over tid gjøres flere utvidelser tilgjengelig for deg, og du kan deretter velge om du vil bruke utvidelsen eller ikke.
 
@@ -37,7 +37,7 @@ Du administrerer utvidelsene på siden **Administrasjon av utvidelse**. Du kan g
 > Hvis du mener at du skal ha tilgang til en utvidelse, men ikke finner funksjonaliteten, kontrollerer du siden **Administrasjon av utvidelse**. Hvis utvidelsen ikke er oppført der, kan du installere den, som beskrevet i delen nedenfor.  
 
 > [!NOTE]  
-> Logg på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved å bruke e-postkontoen du bruker med [!INCLUDE[prod_short](includes/prod_short.md)]. Bruk samme e-postkonto for andre tjenester og produkter for en problemfri opplevelse.  
+> Logg på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved å bruke e-postkontoen du bruker med [!INCLUDE[prod_short](includes/prod_short.md)] Online. Bruk samme e-postkonto for andre tjenester og produkter for en problemfri opplevelse.  
 
 Du kan også gå til markedsplassen fra [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Administrasjon av utvidelse** kan du se utvidelsene som er installert, og du kan åpne **Markedsplass for utvidelser**-siden som viser [!INCLUDE[prod_short](includes/prod_short.md)]-utvidelsene som for øyeblikket er tilgjengelige i AppSource. Hvis du velger *Flere apper*-koblingen, kommer du til [AppSourceAppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
@@ -77,7 +77,7 @@ Microsoft tilbyr følgende utvidelser:
 * [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 
 > [!NOTE]  
-> Nye utvidelser er ikke tilgjengelige i AppSource like etter at vi har kunngjort en oppdatering. Du kan følge med på utvidelsene på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Du kan holde øye med nye utvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 ## <a name="see-also"></a>Se også
 

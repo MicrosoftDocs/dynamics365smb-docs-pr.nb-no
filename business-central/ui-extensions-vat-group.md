@@ -4,19 +4,19 @@ description: Du kan samarbeide med andre bedrifter for å danne en mva-gruppe, o
 author: bholtorf
 manager: annbe
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: ebe3c8748da04a2552f8f3d10967303459ba23c4
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757045"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498590"
 ---
 # <a name="the-vat-group-management-extension"></a>Utvidelsen for mva-gruppestyring
 
@@ -111,6 +111,9 @@ Når mva-grupperepresentantens omsetningsoppgave er sendt til myndighetene på v
 
 > [!NOTE]
 > Mva-gruppemedlemmer kan korrigere innsendte omsetningsoppgaver så lenge grupperepresentanten ikke har frigitt omsetningsoppgaven for gruppen. For å foreta en korrigering må mva-gruppemedlemmet opprette en ny omsetningsoppgave for omsetningsoppgaveperioden og sende den til mva-grupperepresentanten. På mva-grupperepresentantens side vil den siste omsetningsoppgaven bli inkludert på **Omsetningsoppgaver**-siden. 
+
+> [!IMPORTANT]
+> Funksjonen for mva-gruppe støttes bare i de markeder der [!INCLUDE[prod_short](includes/prod_short.md)] bruker et mva-rammeverk som består av mva-returer og mva-returperioder. Du kan ikke bruke mva-grupper i andre markeder som har andre implementeringer av lokal mva-rapportering, for eksempel Østerrike, Tyskland, Italia, Spania og Sveits. 
 
 ## <a name="see-also"></a>Se også
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  

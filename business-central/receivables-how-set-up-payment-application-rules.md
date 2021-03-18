@@ -3,19 +3,19 @@ title: Definere regler for automatisk utligning av betalinger
 description: På siden Betalingsutligningsregler definerer du regler for å styre hvordan betalinger/banktransaksjoner skal utlignes automatisk mot de relaterte åpne finanspostene, når du bruker funksjonen Utlign automatisk på siden Betalingsavstemmingskladd.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6ffd2a12d399f0a05517d9e1031df3227aa7248a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758345"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392602"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
@@ -50,8 +50,9 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 |**Treff på relatert part**|Angir hvor mye informasjon om kunden eller leverandøren, for eksempel adresse, stedsnavn og bankkontonummer, på kladdelinjen for betalingsavstemming som må samsvare med informasjonen om den åpne posten før utligningsregelen brukes til å utligne betalingen automatisk mot den åpne posten.|
 |**Treff på dok.nr. / ekst. dok.nr.**|Angir om teksten på linjen for betalingsavstemmingskladd må samsvare med verdien i feltet **Bilagsnr.** eller feltet **Eksterndokumentnr.** i den åpne posten før utligningsregelen blir brukt til å utligne betalingen til den åpne posten automatisk.|
 |**Treff på beløp inkludert toleranse**|Angir hvor mange poster for en kunde eller leverandør som må samsvare med beløpet inklusive betalingstoleranse før utligningsregelen brukes til å utligne en betaling automatisk mot den åpne posten.|
+|**Gjennomgang obligatorisk**|Angir om den automatiske betalingsutligningen anbefales for manuell gjennomgang av brukeren før postering. Hvis du velger feltet **Linjer som skal gjennomgås** på siden **Betalingsutligningskladd**, startes en veiledet opplevelse der du enkelt kan gå gjennom flere utligninger i rekkefølge, på siden **Se gjennom betalingsutligning**.|
 
-Tabellen nedenfor viser hvilke utligningsregler for betaling som er satt opp i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)].
+Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!Important]
 > Utligningsreglene for betaling kan være annerledes i din implementering av [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -1,30 +1,29 @@
 ---
-title: Definere aktivaavskrivning | Microsoft-dokumentasjon
+title: Definere aktivaavskrivning
 description: Du angir i et avskrivningstablå hvordan du vil at avskrivning eller nedskrivning av aktiva skal foretas.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 10/01/2020
+ms.date: 02/22/2021
 ms.author: edupont
-ms.openlocfilehash: c9eea613db52d327caa1c3d5449864900fc867d1
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e5d000b1ff7d1b83188449c80a9a9eefe79e8676
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749272"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493231"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
- Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).
 
- I avskrivningstablåer definerer du de ulike måtene avskrivning må beregnes på for de ulike aktivaene. I hver bok kan du angi individuelle avskrivningsbetingelser. Du kan for eksempel angi at et aktiva skal avskrives over en periode på tre år i ett tablå, og over en periode på fem år i et annet tablå.
+Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).
 
- Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst ett avskrivningstablå til hvert enkelt aktiva. Et avskrivningstablå som tilordnes til et aktiva, blir referert til som et avskrivningstablå for aktiva. Du kan definere et ubegrenset antall avskrivningstablåer for et aktivum. 
+Du konfigurerer avskrivningstablåer der du definerer de ulike måtene avskrivning må beregnes på for ulike typer aktiva. Hvert avskrivningstablå spesifiserer individuelle avskrivningsbetingelser. Du kan for eksempel angi at et aktiva skal avskrives over en periode på tre år i ett tablå, og over en periode på fem år i et annet tablå.
+
+Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst ett avskrivningstablå til hvert enkelt aktiva. Et avskrivningstablå som tilordnes til et aktiva, blir referert til som et avskrivningstablå for aktiva. Du kan definere et ubegrenset antall avskrivningstablåer for et aktivum.  
 
 ## <a name="to-create-a-depreciation-book"></a>Slik oppretter du et avskrivningstablå:
+
 I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vil tilpasse ulike avskrivningsmetoder, kan du definere flere avskrivningstablåer.  
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.
@@ -32,9 +31,14 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 3. På siden **Avskrivningstablåkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Du kan registrere aktivatransaksjoner på siden **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Følg neste trinn for å definere hvilken type kladd som brukes for de ulike aktivaaktivitetene som standard.
+    > Du kan registrere aktivatransaksjoner på siden **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Følg neste trinn for å definere hvilken type kladd som brukes for de ulike aktivaaktivitetene som standard.
 4. I **Integrasjon**-hurtigfanen merker du av for hver aktivaaktivitet som har transaksjoner du vil bokføre ved hjelp av **Aktivafinanskladd**-siden.
 5. Gjenta trinn 2 til 4 for hver avskrivningsmetode eller bokføringsmetode som du vil tilordne til aktiva som et avskrivningstablå.
+
+> [!IMPORTANT]
+> Velg feltet **Bruk avrunding i period.avskr.** til å avrunde de beregnede periodiske avskrivningsbeløpene til hele tall. Hvis selskapet for eksempel også bruker fakturaavrunding til hele tall på siden **Finansoppsett**, kan avrunding av også avskrivningsbeløp til hele tall bidra til å gi gjennomsiktighet.
+
+Hvis du for eksempel selger et aktiva der avskrivningstablået ikke angir avrunding, men selskapets finansoppsett krever avrunding, vil du få en feilmelding om at et beløp må avrundes i en post når du kvitter deg med aktivumet.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Slik tilordner du et avskrivningstablå til et aktiva:
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.

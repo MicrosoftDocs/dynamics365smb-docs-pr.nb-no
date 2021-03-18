@@ -1,23 +1,26 @@
 ---
 title: Spesielle og alternative priser og rabatter for leverandører | Microsoft-dokumentasjon
 description: Du kan definere ulike eller alternative priser og rabattavtaler og bruke dem i kjøpsdokumenter for leverandører.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 10/01/2020
-ms.author: edupont
-ms.openlocfilehash: 4fbc36a1dbe9970932718336d21b7ea7c4dc2a71
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.author: bholtorf
+ms.openlocfilehash: f1c036b33d80d3f8a4f7b45e38b823631b93fc53
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748772"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476748"
 ---
 # <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
+> [!NOTE]
+> I lanseringsbølge 2 i 2020 lanserte vi strømlinjeformede prosesser for å definere og håndtere priser og rabatter. Hvis du er en ny kunde som bruker denne versjonen, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
 De forskjellige pris- og rabattavtaler som gjelder når du kjøper fra forskjellige leverandører, må defineres slik at avtalte regler og verdier brukes på kjøpsdokumenter du oppretter for leverandørene.
 
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[prod_short](includes/prod_short.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under [Beregning av beste pris](purchasing-how-record-purchase-price-discount-payment-agreements.md#best-price-calculation).
@@ -34,12 +37,26 @@ Når det gjelder rabatter, kan du opprette og bruke to typer kjøpsrabatter:
 Ettersom bestillingslinjerabatter og kjøpspriser er basert på en kombinasjon av vare og leverandør, kan du også angi denne konfigurasjonen fra varekortet, der regler og verdier er definert. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
 ## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Definere en spesialkjøpspris for en leverandør
+
+#### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience)  
+
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet, og velg deretter handlingen **Priser**.
-
-    **Kjøpstype**-feltet er forhåndsutfylt med **Leverandør**, og **Kjøpskode**-feltet er forhåndsutfylt med leverandørnummeret.
 3. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fylle ut en linje for hver kombinasjon som leverandøren gir deg en bestillingslinjerabatt for.
+
+#### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience)  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+2. Velg leverandøren, og velg deretter handlingen **Salgsprislister**. 
+3. Velg **Ny** for å opprette en ny kjøpsprisliste.
+4. Fyll ut feltene i hurtigfanen **Generelt** og **Avgift**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Hvis du vil legge til elementer i oversikten, gjør du ett av følgende:
+   * Hvis du vil legge til mange varer, velger du **Foreslå linjer** og angir deretter filterkriterier for å angi hvilke typer varer du vil legge til. Du kan eventuelt også angi tilleggsinnstillinger for varene som er spesifikke for prislisten. Du kan endre disse senere ved behov.
+   * Hvis du vil kopiere varer fra en annen prisliste, velger du **Kopier linjer**, og deretter velger du prislisten du vil kopiere.
+   * Hvis du vil legge til varer manuelt i rutenettet i feltet **Produkttype**, velger du produkttypen prislisten gjelder for. Fyll ut resten av feltene etter behov, avhengig av det du har valgt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Hvis du vil begynne å bruke prislisten, går du til **Status**-feltet og velger **Aktiv**.
+
+---
 
 ## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Definere en linjerabatt for en leverandør
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.

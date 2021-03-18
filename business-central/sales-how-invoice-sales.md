@@ -3,19 +3,19 @@ title: Opprett en salgsfaktura eller ordre
 description: Beskriver hvordan du oppretter en sluttseddel, eller en salgsfaktura eller ordre, for å registrere avtalen med en kunde om å selge produkter i samsvar med bestemte betingelser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
-ms.date: 01/21/2021
+ms.date: 01/25/2021
 ms.author: edupont
-ms.openlocfilehash: b417ed7a4ef520ab652a66ac6f961c7c2f1a970e
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 625259457528ed79b863604e65a55ff63a879ec3
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035409"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470415"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -38,37 +38,41 @@ Du kan enkelt korrigere eller annullere en bokført salgsfaktura før den er bet
 
 Varekortet kan være av typen **Lager**, **Service** eller **Ikke-lagervarer** for å angi om varen er en fysisk lagerenhet, en arbeidstidsenhet eller en fysisk enhet som ikke beholdes i lagerbeholdningen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md). Salgsfakturaprosessen er den samme for alle de tre varetypene.
 
-Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 og 3 i fremgangsmåten nedenfor.
+Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden allerede er registrert. Se trinn 2 i fremgangsmåten nedenfor.
 
 ## <a name="to-create-a-sales-invoice"></a>Slik oppretter du en salgsfaktura
+
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
-   Andre felt på siden **Salgsfaktura** inneholder nå standardinformasjon for den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:
-3. I feltet **Kunde** angir du navnet på den nye kunden.
-4. Klikk **Ja**-knappen i dialogboksen for å registrere den nye kunden.
-5. På siden **Velg en mal for en ny kunde** velger du en mal som du vil basere det nye kundekortet på, og deretter velger du **OK**-knappen.
-6. Det åpnes et nytt kundekort som viser informasjon om den valgte kundemalen. Fyll ut feltene som gjenstår. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
-7. Når du har fullført kundekortet, velger du **OK**-knappen for å gå tilbake til siden **Salgsfaktura**.
+    Andre felt på siden **Salgsfaktura** inneholder nå standardinformasjon for den valgte kunden.  
+
+    Hvis kunden ikke er registrert, følger du denne fremgangsmåten:
+
+    1. I feltet **Kunde** angir du navnet på den nye kunden.
+    2. Klikk **Ja**-knappen i dialogboksen for å registrere den nye kunden.
+    3. På siden **Velg en mal for en ny kunde** velger du en mal som du vil basere det nye kundekortet på, og deretter velger du **OK**-knappen.
+    4. Det åpnes et nytt kundekort som viser informasjon om den valgte kundemalen. Fyll ut feltene som gjenstår. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
+    5. Når du har fullført kundekortet, velger du **OK**-knappen for å gå tilbake til siden **Salgsfaktura**.
 
    Flere felt i salgsfakturen er nå fylt ut med informasjon du har angitt på det nye kundekortet.  
-8. Fyll ut resten av feltene på siden **Salgsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Fyll ut resten av feltene på siden **Salgsfaktura** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Hvis du vil at kunden betaler umiddelbart, for eksempel ved kontant eller PayPal, fyller du ut feltet **Betalingsmåte - kode**. Betalingen registreres deretter når du bokfører salgsfakturaen. Hvis du velger KONTANT, registreres betalingen på en bestemt motkonto.
 
-    Du er nå klar til å fylle ut linjene salgsfaktura for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.   
+    Du er nå klar til å fylle ut linjene salgsfaktura for produktene du selger til kunden eller for noen transaksjon med kunden som du vil registrere i en finanskonto.  
 
     Hvis du har definert gjentakende salgslinjer for kunden, for eksempel en månedlig etterfyllingsordre, kan du sette inn disse linjene på ordren ved å velge handlingen **Hent gjentakende salgslinjer**.  
-9. På **Linjer**-hurtigfanen i **Type**-feltet velger du typen produkt, tillegg eller transaksjon som du vil legge til for kunden med salgslinjen.
-10. I **Nr.** velger du en post skal bokføres, i henhold til verdien i **Type**-feltet.
+4. På **Linjer**-hurtigfanen i **Type**-feltet velger du typen produkt, tillegg eller transaksjon som du vil legge til for kunden med salgslinjen.
+5. I **Nr.** velger du en post skal bokføres, i henhold til verdien i **Type**-feltet.
 
     La feltet **Nr.** stå tomt i følgende tilfeller:
 
     * Hvis linjen er for en kommentar. Skriv inn kommentaren i **Beskrivelse**-feltet.
     * Hvis linjen er for en katalogvare. Velg handlingen **Velg katalogvarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).
 
-11. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
+6. I **Antall**-feltet angir du hvor mange enheter av produktet, gebyret eller transaksjonen som linjen skal registrere for kunden.  
 
     > [!NOTE]  
     > Hvis varen er av typen **Service** eller **Type**-feltet inneholder **Ressurs**, er antallet en tidsenhet, for eksempel timer, som angitt i feltet **Enhetskode** på linjen. Hvis du vil ha mer informasjon, kan du se [Definere vareenheter](inventory-how-setup-units-of-measure.md)
@@ -76,29 +80,31 @@ Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden all
     Verdien i **Linjebeløp**-feltet beregnes som *salgspris* x *antall*.  
 
     Prisen og linjebeløpene er med eller uten mva, avhengig av hva du valgte i feltet **Priser inkludert merverdiavgift** på kundekortet.  
-12. Hvis du vil gi en rabatt, skriver du inn en prosentandel i feltet **Linjerabatt-%**. Verdien i feltet **Linjebeløp** oppdateres tilsvarende.  
+7. Hvis du vil gi en rabatt på salgslinjen, skriver du inn en prosentandel i feltet **Linjerabatt-%**. Verdien i feltet **Linjebeløp** oppdateres tilsvarende.  
 
-    Hvis du har konfigurert varepriser i hurtigfanen **Salgspriser og salgslinjerabatter** i kunde- eller varekortet, oppdateres prisen og beløpet på salgslinjen automatisk hvis de avtalte priskriteriene er oppfylt. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).  
-13. Gjenta trinn 9 til 12 for hver hvert produkt eller gebyr som du vil fakturere kunden for.  
+    Hvis du har konfigurert varepriser på kunde- eller varekortet, oppdateres prisen og beløpet på salgslinjen automatisk hvis de avtalte priskriteriene er oppfylt. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).  
+8. Gjenta trinn 9 til 12 for hver hvert produkt eller gebyr som du vil fakturere kunden for.  
 
     Totaler-feltene under linjene oppdateres automatisk når du oppretter eller endrer linjer for å vise beløpene som skal bokføres i postene.
 
     > [!NOTE]
-    > I svært sjeldne tilfeller kan de bokførte beløpene avvike fra det som vises i totalfeltene. Dette skyldes vanligvis avrundingsberegninger i forbindelse med mva eller salgsmva.<br /><br />Når du skal kontrollere beløpene som faktisk skal bokføres, kan du bruke siden **Statistikk**, som tar hensyn til avrundingsberegningene. Hvis du velger **Frigi**-handlingen, oppdateres totaler-feltene slik at de omfatter avrundingsberegninger.
-14. I feltet **Fakturarabattbeløp** angir du et beløp som skal trekkes fra verdien som vises i feltet **Totalt inkl. mva.**.
+    > I svært sjeldne tilfeller kan de bokførte beløpene avvike fra det som vises i totalfeltene. Dette skyldes vanligvis avrundingsberegninger i forbindelse med mva eller salgsmva.
+    >
+    > Når du skal kontrollere beløpene som faktisk skal bokføres, kan du bruke siden **Statistikk**, som tar hensyn til avrundingsberegningene. Hvis du velger **Frigi**-handlingen, oppdateres totaler-feltene slik at de omfatter avrundingsberegninger.
+9. I feltet **Fakturarabattbeløp** angir du eventuelt et beløp som skal trekkes fra verdien som vises i feltet **Totalt inkl. mva.**.
 
     Hvis du har definert fakturarabatter for kunden, settes den angitte prosentverdien automatisk inn i feltet **Fakturarabatt %** hvis kriteriene er oppfylt, og det relaterte beløpet settes inn i feltet **Fakturarabattbeløp før mva.**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).  
-15. Når salgsfakturalinjene er fullført, kan du velge handlingen **Bokfør og send**.  
+10. Når salgsfakturalinjene er fullført, kan du velge handlingen **Bokfør og send**.  
 
 Dialogboksen **Bokfør og send bekreftelse** viser kundens foretrukne metode for mottak av dokumenter. Du kan endre sendemetoden ved å velge oppslagsknappen for feltet **Send dokument til**. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).
 
 Beslektet element og kundeposter opprettes nå i systemet, og salgsfakturaen skrives ut som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nytt dokument i listen over bokførte salgsfakturaer.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Beregne fakturarabatter på salg
+### <a name="calculating-invoice-discounts-on-sales"></a>Beregning av fakturarabatter på salg
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="registering-payments"></a>Registrere betalinger
+## <a name="registering-payments"></a>Registrering av betalinger
 
 Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
 

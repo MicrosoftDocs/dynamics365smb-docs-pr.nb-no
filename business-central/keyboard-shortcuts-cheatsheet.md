@@ -3,19 +3,19 @@ title: Hurtigreferanse for tastatursnarveier for PC
 description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tastatursnarveiene for PC-brukere.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c27d350ae95df7f07caa145bdde12a9762292fe8
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 33365f7cd9abe8844b1ba9387c908d7189c28bde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3921720"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392977"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
 

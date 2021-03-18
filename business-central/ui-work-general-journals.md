@@ -1,21 +1,21 @@
 ---
-title: Bruke finanskladder til å bokføre direkte i Finans | Microsoft-dokumentasjon
-description: Finn ut hvordan du bruker kladder til å bokføre finanstransaksjoner på finanskonti og andre konti, for eksempel bank-, kunde- og leverandørkonti.
+title: Arbeide med finanskladder for å bokføre direkte i Finans
+description: Finn ut hvordan du bruker kladder til å bokføre finanstransaksjoner på finanskonti og andre konti, for eksempel bank-, kunde- og leverandørkonti. Bruk gjentakelseskladder til å bokføre avsetninger og fordele saldoer etter dimensjonsverdier.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: journals, recurring, accrual
-ms.date: 10/01/2020
+ms.date: 02/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18c36bf409b2bb5d4e67eeccfdf16193ec4dac62
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6a2c6ed0c3fe163f64a3eb7d55f8e128f53a50d
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760101"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393602"
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 
@@ -74,24 +74,27 @@ Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **
 >   Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbeide med gjentakelseskladder
-En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).
+En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Når kladden er en gjentakelseskladd, trenger du bare å fylle ut feltene som skal bokføres jevnlig, én gang. Det vil si at kontiene, dimensjonene og dimensjonsverdiene og så videre som du angir, forblir i kladden etter bokføring. Hvis eventuelle justeringer er nødvendig, kan du gjøre det ved hver bokføring.
 
 ### <a name="recurring-method-field"></a>Feltet Gjentakelsesprinsipp
+
 Dette feltet angir hvordan beløpet på kladdelinjen skal bli behandlet etter bokføring. Du kan for eksempel velge å la beløpet stå hvis du skal bruke samme beløp hver gang du bokfører linjen. Hvis du vil bruke samme konto og tekst på linjen, men at beløpet vil variere hver gang du bokfører, kan du velge å slette beløpet etter bokføring.
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
-|Fast|Beløpet på kladdelinjen vil bli stående etter bokføring.|
-|Variabel|Beløpet på kladdelinjen vil bli slettet etter bokføring.|
-|Saldo|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i tabellen Fordeling. Saldoen på kontoen blir på denne måten nullstilt. Husk å fylle ut feltet **Andel i pst.** på siden **Fordelinger**. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](ui-work-general-journals.md#allocating-recurring-journal-amounts-to-several-accounts).|
-|Fast med tilbakeføring|Beløpet på kladdelinjen vil bestå etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
-|Variabel med tilbakeføring|Beløpet på kladdelinjen vil bli slettet etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
-|Saldo med tilbakeføring|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, på siden **Fordelinger**. Saldoen på kontoen blir satt til null, og en motpost bokførtes på den etterfølgende datoen.|
+|F Fast|Beløpet på kladdelinjen vil bli stående etter bokføring.|
+|V Variabel|Beløpet på kladdelinjen vil bli slettet etter bokføring.|
+|S Saldo|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, i tabellen Fordeling. Saldoen på kontoen blir på denne måten nullstilt. Husk å fylle ut feltet **Andel i pst.** på siden **Fordelinger**. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](#allocating-recurring-journal-amounts-to-several-accounts).|
+|FT Fast med tilbakeføring|Beløpet på kladdelinjen vil bestå etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
+|VT Variabel med tilbakeføring|Beløpet på kladdelinjen vil bli slettet etter bokføring og en motpost vil bli bokført på den etterfølgende dato.|
+|ST Saldo med tilbakeføring|Det bokførte beløpet i kontoen på linjen vil bli fordelt til kontiene som er angitt for linjen, på siden **Fordelinger**. Saldoen på kontoen blir satt til null, og en motpost bokførtes på den etterfølgende datoen.|
+|BD Saldo etter dimensjon|Kladdelinjen fordeler kostnader på grunnlag av saldoen på en finanskonto per dimensjon. Du blir bedt om å angi at dimensjonsfiltrene skal brukes til å beregne saldoen på finanskontoen per dimensjon som du vil fordele kostnader fra. Du kan eventuelt velge handlingen **Angi dimensjonsfiltre** senere.|
+|RBD Saldo med tilbakeføring etter dimensjon|Kladdelinjen fordeler kostnader på grunnlag av saldoen med tilbakeføring på en finanskonto per dimensjon. Du blir bedt om å angi at dimensjonsfiltrene skal brukes til å beregne saldoen på finanskontoen per dimensjon som du vil fordele kostnader fra. Du kan eventuelt velge handlingen **Angi dimensjonsfiltre** senere.|
 
 > [!NOTE]  
->  Mva. feltene kan fylles ut på gjentakelseskladdelinjen eller på fordelingskladdelinjen, men aldri på begge. Det vil si at disse feltene bare kan fylles ut på siden **Fordelinger** hvis tilsvarende linjer i gjentakelseskladden ikke er fylt ut.
+> Mva. feltene kan fylles ut på gjentakelseskladdelinjen eller på fordelingskladdelinjen, men aldri på begge. Det vil si at disse feltene bare kan fylles ut på siden **Fordelinger** hvis tilsvarende linjer i gjentakelseskladden ikke er fylt ut.
 
 ### <a name="recurring-frequency-field"></a>Feltet Gjentakelsesintervall
 Dette feltet angir hvor ofte linjen på kladdelinjen skal bokføres. Det er et datoformelfelt, og det må fylles ut for gjentakende kladdelinjer. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).
@@ -113,11 +116,19 @@ Fordelen med å bruke feltet er at linjen ikke slettes fra kladden med en gang, 
 Hvis feltet er tomt, bokføres linjen hver gang du bokfører, helt til den slettes fra kladden.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fordele gjentakelseskladden til flere konti
+
 På siden **Gjentakende finanskladd** kan du velge **Fordelinger**-handlingen for å vise eller håndtere hvordan beløp på gjentakelseskladdelinjen tildeles flere konti og dimensjoner. Vær oppmerksom på at tildeling fungerer som motkontolinje til gjentakelseskladdelinjen.
 
 På samme måte som i en gjentakelseskladd er det tilstrekkelig å angi en fordeling én gang. Du behøver ikke å angi beløp og fordelinger hver gang du bokfører gjentakelseskladdelinjen, fordi fordelingen blir i fordelingskladden etter bokføring.
 
-Hvis **Saldo** eller **Saldo med tilbakeføring** er angitt for det gjentakende prinsippet i den gjentakende kladden, tas det ikke hensyn til eventuelle dimensjonsverdikoder i den gjentakende kladden når kontoen nullstilles. Det vil si at hvis du i fordelingskladden fordeler en gjentakelseskladdelinje til forskjellige dimensjonsverdier på siden **Fordelinger**, vil det bare bli opprettet én post i tilbakeføringen. Derfor må du ikke angi samme kode på siden **Fordelinger** hvis du fordeler en gjentakelseskladdelinje som inneholder en dimensjonsverdikode. Hvis du gjør det, vil dimensjonsverdiene bli feile.
+Hvis **Saldo** eller **Saldo med tilbakeføring** er angitt for det *gjentakende prinsippet* i den gjentakende kladden, tas det ikke hensyn til eventuelle dimensjonsverdikoder i den gjentakende kladden når kontoen nullstilles. Det vil si at hvis du i fordelingskladden fordeler en gjentakelseskladdelinje til forskjellige dimensjonsverdier på siden **Fordelinger**, vil det bare bli opprettet én post i tilbakeføringen. Derfor må du ikke angi samme kode på siden **Fordelinger** hvis du fordeler en gjentakelseskladdelinje som inneholder en dimensjonsverdikode. Hvis du gjør det, vil dimensjonsverdiene bli feile.  
+
+Hvis du vil tildele gjentakende kladdebeløp basert på dimensjoner, setter du feltet **Gjentakelsesprinsipp** til **Saldo etter dimensjon** eller **Saldo med tilbakeføring etter dimensjon** i stedet. Hvis **Saldo etter dimensjon** eller **Saldo med tilbakeføring etter dimensjon** er angitt for det gjentakende prinsippet i den gjentakende kladden, tas det hensyn til eventuelle dimensjonsverdikoder i den gjentakende kladden når kontoen nullstilles. Hvis du tildeler en gjentakende linje til forskjellige dimensjonsverdier på **Fordelinger**-siden, opprettes det en rekke tilbakeførende poster som samsvarer med antall dimensjonsverdikombinasjoner som saldoen består av. Hvis du fordeler kontosaldoen gjennom den gjentakende kladden som inneholder en dimensjonsverdikode, må du huske å bruke **Saldo etter dimensjon** eller **Saldo med tilbakeføring etter dimensjon** for å sikre at dimensjonsverdiene balanseres eller tilbakeføres riktig fra kildekontoen.  
+
+Det kan for eksempel være at selskapet ditt har et par konsern og noen avdelinger som kontrollører har definert som dimensjoner. Når du skal registrere kjøpsfakturaen raskere, bestemmer du deg for å kreve at leverandørens assistenter bare skal fylle ut konserndimensjoner. Ettersom hver forretningsenhet har spesifikke fordelingsnøkler for avdelingsdimensjonen, for eksempel basert på antall ansatte, kan du bruke de gjentakende metodene **BD Saldo etter dimensjon** eller **RBD Saldo med tilbakeføring etter dimensjon** for å tildele utgifter på nytt for hvert konsern, til de riktige avdelingene basert på fordelingsnøklene.  
+
+> [!NOTE]
+> Dimensjoner du angir på tildelinglinjer, beregnes ikke automatisk, og du må angi hvilke dimensjonsverdier som skal angis på tildelingskontoene. Hvis du vil beholde koblingen mellom kildekontodimensjonen og fordelingskontodimensjonen, anbefaler vi at du bruker [Kostregnskap](finance-about-cost-accounting.md)-funksjonene i stedet.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordele leiebetalinger til ulike avdelinger
 Husleie betales hver måned, så derfor er husleiebeløpet angitt i kassakontoen på gjentakelseskladdelinjen. På siden **Fordelinger** kan du fordele utgiftene på flere avdelinger (avdelingsdimensjon), avhengig av hvor mange kvadratmeter hver avdeling opptar. Beregningen er basert på tildelingsprosenten på hver linje. Du kan for eksempel angi ulike konti på ulike fordelingslinjer (hvis leien også skal fordeles til flere konti), eller du kan angi samme konto, men med forskjellige dimensjonsverdikoder for avdelingsdimensjonen på hver linje.

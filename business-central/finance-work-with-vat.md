@@ -3,24 +3,27 @@ title: Arbeide med mva på kjøp og salg | Microsoft-dokumentasjon
 description: Dette emnet beskriver hvordan du utfører oppgaver som å korrigere bokført mav i EU-land/regioner, hver salgs- og kjøpstransaksjon er underlagt mva-beregninger. Dette emnet beskriver hvordan.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases,
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bce25a87849a65d0307e6475716891396167697c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4746619"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5493095"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 
-Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.
+Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.  
+
+> [!TIP]
+> Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] bekrefte organisasjonsnumre og andre selskapsopplysninger når du oppretter eller oppdaterer dokumenter. Hvis du vil ha mer informasjon, kan du se [Validering av organisasjonsnumre](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beregne og vise mva-beløp i salgs- og kjøpsdokumenter  
 Du kan beregne og vise mva-beløp i salgs- og kjøpsdokumenter på forskjellig måte, avhengig av hvilken type kunde eller leverandør du handler med. Du kan også overstyre det beregnede mva-beløpet, slik at det tilsvarer med mva-beløpet leverandøren har beregnet for en gitt transaksjon.  
@@ -173,15 +176,16 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 
     > [!NOTE]  
     >  Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-siden når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  
-    >   
+    >
     > * Opprette en leveringsbekreftelse manuelt  
     > * Slik skriver du ut en leveringsbekreftelse.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
-[Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)   
-[Rapportere mva til skattemyndighetene](finance-how-report-vat.md)   
+## <a name="see-also"></a>Se også
 
+[Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  
+[Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
+[Validere et organisasjonsnummer](finance-how-validate-vat-registration-number.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

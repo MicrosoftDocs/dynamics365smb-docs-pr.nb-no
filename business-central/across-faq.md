@@ -3,16 +3,16 @@ title: Vanlige spørsmål om å bruke Business Central
 description: Svarer på vanlige spørsmål om hvordan du registrerer deg for eller kjøper Business Central, utvider en prøveversjon, avslutter et abonnement og finner opplæring og annen støtte.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: e674aed9dd6f2e3fade52675f77113ac4ee42a0b
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014028"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498565"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanlige spørsmål om å bruke Business Central
 
@@ -40,7 +40,9 @@ Til slutt kan du kontakte din [!INCLUDE[prod_short](includes/prod_short.md)]-par
 ## <a name="why-cant-i-find-that-capability-in-my-prod_short"></a>Hvorfor finner jeg ikke denne funksjonen i [!INCLUDE[prod_short](includes/prod_short.md)]?
 Har du lest om en ny funksjon i utgivelsesplanen eller på bloggen vår nylig? I så fall kan det hende at [!INCLUDE[prod_short](includes/prod_short.md)] ikke har blitt oppgradere til siste versjon ennå. Du kan kontrollere hvilken versjon [!INCLUDE[prod_short](includes/prod_short.md)] som er basert på siden [Hjelp og støtte](product-help-and-support.md).  
 
-Dessuten, hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource.  
+Dette gjelder for [!INCLUDE [prod_short](includes/prod_short.md)] online og lokalt.  
+
+Dessuten, hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource. Dette gjelder bare for [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 ## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er det noen forskjeller mellom en lokal distribusjon og skyversjonen av Business Central?
 Ja. Noen skybaserte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Funksjoner som ikke er implementert i lokale distribusjoner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
@@ -65,8 +67,9 @@ Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til *
 
 Det finnes ingen *lagre*-knapp på sider som i andre programmer du kanskje er kjent med. I [!INCLUDE[prod_short](includes/prod_short.md)] lagres endringer du gjør i et felt, automatisk så snart du går til neste felt eller lukker siden, forutsatt at det ikke finnes feil. Når du gjør endringer i et felt og flytter til en annet felt, vises teksten **Lagre** øverst til høyre på siden, som raskt endres til **Lagret** hvis det ikke oppstår noen feil. Hvis det oppstår en feil, endres teksten til **Ikke lagret**.
 
-## <a name="what-email-address-can-i-use-with-prod_short"></a><a name="email"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)]?
-[!INCLUDE[prod_short](includes/prod_short.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[prod_short](includes/prod_short.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  
+## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)] online?
+
+[!INCLUDE[prod_short](includes/prod_short.md)] online krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[prod_short](includes/prod_short.md)] online støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  
 
 Hvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole. Hvis du vil ha mer informasjon, kan du se [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md).  
 
@@ -147,6 +150,5 @@ De første utgivelsene av lokal [!INCLUDE[prod_short](includes/prod_short.md)] i
 [Vanlige spørsmål om utvikler- og IT-ekspertopplevelser](/dynamics365/business-central/dev-itpro/faq)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

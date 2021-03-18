@@ -3,19 +3,19 @@ title: Designdetaljer – Varesporing | Microsoft-dokumentasjon
 description: Dette emnet gir en oversikt over designdetaljene for varesporing.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 50ae6f2f3538269cc7c82dd2d84644a1a31d7f56
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390877"
 ---
 # <a name="design-details-item-tracking"></a>Designdetaljer: Varesporing
 Etter hvert som flyt av varer i dagens forsyningskjede blir mer og mer komplisert, er muligheten til å holde oversikt over varer stadig viktigere for involverte selskaper. Overvåking av en vares transaksjonsflyt er et juridisk krav i bransjer for medisinske og kjemiske produkter, men andre bedrifter vil kanskje også overvåke produkter med garantier eller utløpsdatoer av med hensyn til kundeservice.  

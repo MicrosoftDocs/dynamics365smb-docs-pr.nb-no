@@ -3,17 +3,17 @@ title: Definere prosjektpriser og prosjektbokføringsgrupper | Microsoft-dokumen
 description: Beskriver hvordan du definerer generell prosjektinformasjon og definerer priser for prosjektvarer, ressurser og finanskonti og prosjektbokføringsgrupper.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 6fe583e93261b58d13802eadef5f3d807045fa20
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 04f5538b7c904b64c921cc50f64924bcaef93401
+ms.sourcegitcommit: a9b771cc2b4b75aed835efca63ef7a6a44219d59
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4758645"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476773"
 ---
 # <a name="set-up-jobs"></a>Konfigurer prosjekter
 
@@ -47,44 +47,31 @@ Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanl
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Merk av for **Bruk forbrukskobling som standard**.
 
-## <a name="to-set-up-prices-for-job-resources"></a>Slik konfigurerer du priser for prosjektressurser
-Du kan definere bestemte priser for ressurser for et prosjekt. Du bruker siden **Ressurspriser for prosjekt** til å gjøre dette.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Slik definerer du priser for ressurser, varer og finanskonti for jobber
+> [!NOTE]
+> I lanseringsbølge 2 i 2020 lanserte vi nye prosesser for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
+Du kan definere priser for varene, ressursene og finanskontiene som er relatert til en jobb. 
+
+#### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience)
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
-2. Velg det aktuelle prosjektet, og velg deretter handlingen **Ressurs**.
-3. Fyll ut feltene etter behov på siden **Ressurspriser for prosjekt**.
+2. Velg jobben, og velg deretter handlingen **Ressurs**, **Vare** eller **Finanskonto**.
+3. Fyll ut feltene etter behov på sidene **Ressurspriser for prosjekt**, **Varepriser for prosjekt** og **Finanskontopriser for prosjekt**.
 
-Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskostfaktor** blir brukt på prosjektplanleggingslinjene og i forbrukskladdene når denne ressursen angis og legges til i prosjektet.  
+Tabellen nedenfor viser hvordan opplysningene i de valgfrie feltene vil bli brukt på prosjektplanleggingslinjer og kladder når ressursen, varen eller finanskontoen er valgt for prosjektet.
 
-Verdien i feltet **Salgspris** for ressursen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne ressursen, en ressurs som er tilordnet ressursgruppen, eller en hvilken som helst ressurs.  
+|Kolonne 1  |Kolonne 2  |
+|---------|---------|
+|**Prosjektressurser**|Feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskostfaktor**. Verdien i feltet **Salgspris** for ressursen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne ressursen, en ressurs som er tilordnet ressursgruppen, eller en hvilken som helst ressurs. Legg merke til at denne prisen overstyrer alltid eventuelle priser som er definert i de eksisterende sidene **Ressurssalgspris/Ressursgruppepriser**.|
+|**Prosjektvarer**|Feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%**. Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen. Merk at denne prisen overstyrer alltid den vanlige kundeprisen (funksjonen for "beste pris") for varer. Hvis du vil bruke de vanlige kundeprismekanismene, må du ikke opprette prosjektvarepriser for prosjektet.|
+|**Finanskonti**|Informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt. Verdien i feltet **Salgspris** for finansprosjektutgiften blir brukt på prosjektplanleggingslinjene og i prosjektkladder når denne finanskontoen angis.|
 
-> [!NOTE]  
->   Denne prisen overstyrer alltid eventuelle priser som er definert i de eksisterende sidene **Ressurssalgspris/Ressursgruppepriser**.
-
-## <a name="to-set-up-prices-for-job-items"></a>Slik konfigurerer du priser for prosjektvarer
-Du kan definere bestemte priser for varer for et prosjekt. Du bruker siden **Varepriser for prosjekt** til å gjøre dette.
-
+---
+#### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience)
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
-2. Velg det aktuelle prosjektet, og velg deretter handlingen **Vare**.
-3. Fyll ut feltene etter behov på siden **Varepriser for prosjekt**.
+2. Velg det aktuelle prosjektet, og velg deretter handlingen **Salgsprislister**.
 
-Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%** blir brukt på prosjektplanleggingslinjene og prosjektkladdene når denne varen angis og legges til i prosjektet.  
-
-Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen.  
-
-> [!NOTE]  
->   Denne prisen overstyrer alltid den vanlige kundeprisen (funksjonen for «beste pris») for varer. Hvis du vil bruke de vanlige kundeprismekanismene, må du ikke opprette prosjektvarepriser for prosjektet.
-
-## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Slik setter du opp priser for prosjektfinanskonti
-Du kan definere bestemte priser for finansutgifter for et prosjekt. Du bruker siden **Finanskontopriser for prosjekt** til å gjøre dette.
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
-2. Velg det aktuelle prosjektet, og velg deretter handlingen **Finanskonto**.  
-3. Fyll ut feltene etter behov på siden **Finanskontopriser for prosjekt**.
-
-Den valgfrie informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt.  
-
-Verdien i feltet **Salgspris** for finansprosjektutgiften blir brukt på prosjektplanleggingslinjene og i prosjektkladder når denne finanskontoen angis.
+---
 
 ## <a name="to-set-up-job-posting-groups"></a>Slik definerer du prosjektbokføringsgrupper
 Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom jobben og hvordan den skal behandles i finans. Når du oppretter en jobb, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  

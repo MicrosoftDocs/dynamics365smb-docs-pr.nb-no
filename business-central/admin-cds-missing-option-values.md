@@ -6,21 +6,23 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.date: 10/01/2020
-ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2b6d27ed04eb7f09bc884930105867c25b2b4a5f
+ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752878"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5492964"
 ---
 # <a name="handling-missing-option-values"></a>Håndtere manglende alternativverdier
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] inneholder bare tre alternativsettfelt som inneholder alternativverdier som du kan tilordne til [!INCLUDE[prod_short](includes/prod_short.md)]-felt av typen Alternativ<!-- Option type, not enum? @Onat can you vertify this? --> for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og legges til i systemtabellen **Tilordning av CDS-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen. Dette avsnittet beskriver hvordan det fungerer.
+Dette emnet er ment for en teknisk målgruppe. Prosessene som beskrives, krever hjelp av en utvikler.
 
-Siden **Tilordning for integreringstabell** inneholder tre tilordninger for felt som inneholder én eller flere tilordnede alternativverdier. Etter en full synkronisering inneholder siden **Tilordning av CDS-alternativ** de ikke-tilordnede alternativene i respektive tre felt.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] inneholder tre alternativsettfelt som inneholder verdier du kan tilordne til [!INCLUDE[prod_short](includes/prod_short.md)]-felt av typen Alternativ for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og legges til i systemtabellen **Tilordning av Dataverse-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen.
+
+Siden **Tilordning for integreringstabell** inneholder tre felt som inneholder én eller flere tilordnede alternativverdier. Etter en full synkronisering inneholder siden **Tilordning av Dataverse-alternativ** de ikke-tilordnede alternativene i de tre feltene.
 
 |         Post             | Alternativverdi | Tittel for alternativverdi |
 |----------------------------|--------------|----------------------|
@@ -38,7 +40,7 @@ Siden **Tilordning for integreringstabell** inneholder tre tilordninger for felt
 | Transportør: FULLLOAD   | 6            | Full Load            |
 | Transportør: WILLCALL   | 7            | Will Call            |
 
-Innholdet på siden **Tilordning av CDS-alternativ** er basert på opplistingsverdier i tabellen **CDS-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] blir følgende felt i kontotabellen tilordnet til felt i kunde- og leverandørpostene:
+Innholdet på siden **Tilordning av Dataverse-alternativ** er basert på opplistingsverdier i tabellen **CRM-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] blir følgende felt i kontotabellen tilordnet til felt i kunde- og leverandørpostene:
 
 - **Adresse 1: Fraktvilkår** for datatypen Opplisting, der verdier defineres som følger:
 
@@ -55,7 +57,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adresse 1: Leveringmåte** for datatypen Opplisting, der verdier defineres som følger:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +112,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
 Nå kan du gjenopprette tilordningen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativer og [!INCLUDE[prod_short](includes/prod_short.md)]-poster.
 
-På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av CDS-alternativ** oppdateres med tilleggspostene nedenfor.
+På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av Dataverse-alternativ** oppdateres med tilleggspostene nedenfor.
 
 |         Post                 | Alternativverdi   | Tittel for alternativverdi |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +123,7 @@ På siden **Tilordning for integreringstabell** velger du linjen for tilordninge
 | **Betalingsbetingelser: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Betalingsbetingelser: TRANSFER**    | **779800002**  | **Overføring**         |
 
-Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] viser da nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og vil bli ignorert under synkronisering. Du kan fjerne eller utvide CDS-alternativer med samme navn.)
+Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] viser da nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og vil bli ignorert under synkronisering. Du kan fjerne eller utvide Dataverse-alternativer med samme navn.)
 
 |  - kode       | Beregning av forfallsdato | Beregning av kontantrabattdato | Rabattprosent | Beregn kontantrab. for kred.nota | Beskrivelse       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,10 +137,10 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md
 | 30 DAGER    | 30D                  |                           | 0.         | USANN                         | 30 dager netto       |
 | 60 DAGER    | 60D                  |                           | 0.         | USANN                         | 60 dager netto       |
 | 7 DAGER     | 7D                   |                           | 0.         | USANN                         | 7 dager netto        |
-| ***CASH PAYME** _ |                      |                           | 0.         | USANN                         |                   |
+| ***CASH PAYME*** |                      |                           | 0.         | USANN                         |                   |
 | LM         | LM                   |                           | 0.         | USANN                         | Gjeldende måned     |
 | KVL        | 0D                   |                           | 0.         | USANN                         | Kontant ved levering  |
-| _NET30*      |                      |                           | 0.         | USANN                         |                   |
+| *NET30*      |                      |                           | 0.         | USANN                         |                   |
 | *NET45*      |                      |                           | 0.         | USANN                         |                   |
 | *NET60*      |                      |                           | 0.         | USANN                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | USANN                         |                   |

@@ -3,19 +3,19 @@ title: Plukking og levering i enkle lageroppsett | Microsoft-dokumentasjon
 description: I Business Central kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: f3815e0e928041ca9fcef09b1c7410e45ebb57a1
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: 96a837eaded2cf9be5e1fabb4d7f81415a171f96
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035759"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393452"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
 
@@ -92,7 +92,7 @@ Ellen, lagersjefen på CRONUS, setter opp SØLV-lageret for grunnleggende plukkh
 
 Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
-### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen:
+### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Åpne lokasjonskortet SØLV.  

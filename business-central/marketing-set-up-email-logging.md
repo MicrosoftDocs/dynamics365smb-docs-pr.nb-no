@@ -3,19 +3,19 @@ title: Konfigurere loggføring av e-post| Microsoft Docs
 description: Lær hvordan du kan gjøre om e-postinteraksjon mellom selgere og kunder til reelle salgsmuligheter.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f099072561e5a35f893a42edbbe6f27a5b4722ed
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: a431eba8881eb6bb32e01d67f25ea53981da445e
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749808"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470340"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spor utveksling av e-postmeldinger mellom selgere og kontakter
 
@@ -65,7 +65,7 @@ Fremgangsmåten nedenfor forutsetter at du bruker Azure Active Directory til å 
     > Hvis du ikke angir en nettadresse for omdirigering, kan du gjøre det senere ved å velge **Legg til en plattform** og deretter velge **Nett** for å legge til nettprogrammet og nettadressen for omdirigering. 
 
 3. Velg **Manifest** under **Behandle**.
-4. Finn **requiredResourceAccess**-egenskapen i manifestet, og legg til følgende kode i hakeparentesene ([]) for å legge til de nødvendige tillatelsene. Hvis du vil ha mer informasjon, kan du se [Registrer programmet](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth.md#register-your-application).
+4. Finn **requiredResourceAccess**-egenskapen i manifestet, og legg til følgende kode i hakeparentesene ([]) for å legge til de nødvendige tillatelsene. Hvis du vil ha mer informasjon, kan du se [Registrer programmet](/exchange/client-developer/exchange-web-services/how-to-authenticate-an-ews-application-by-using-oauth#register-your-application).
 
 ```
 {

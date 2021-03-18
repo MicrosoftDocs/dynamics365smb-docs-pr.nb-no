@@ -1,21 +1,21 @@
 ---
-title: Opprette et kundekort for å registrere nye kunder | Microsoft-dokumentasjon
+title: Registrer nye kunder ved å opprette et kundekort
 description: Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 10/01/2020
+ms.search.keywords: client, customer, credit
+ms.date: 03/09/2021
 ms.author: edupont
-ms.openlocfilehash: 86527387653d198bc8cf6f7817058b5ff551e1d0
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748322"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573429"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -64,6 +64,29 @@ Kundemalen legges til i listen over kundemaler, slik at du kan bruke den til å 
 
 Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette kundekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
 
+## <a name="managing-credit-limits"></a>Håndtering av kredittgrenser
+
+Kredittgrenser, saldobeløp og betalingsbetingelser gjør det mulig for [!INCLUDE [prod_short](includes/prod_short.md)] å utstede kreditt og gi en advarsel om forfalte beløp når du oppretter en ordre.  Funksjoner for purre- og rentebetingelser gir deg dessuten mulighet til å fakturere renter og/eller tilleggsgebyr.  
+
+Feltet **Kredittgrense** på et kundekort angir maksimumsbeløpet som du tillater kunden å overskride betalingssaldoen med, før det utstedes advarsler. Når du deretter angir opplysninger i kladder, tilbud, ordrer og fakturaer, tester [!INCLUDE [prod_short](includes/prod_short.md)] salgshodet og de enkelte salgslinjene for å se om kredittgrensen er overskredet.
+
+Du kan bokføre selv om kredittgrensen er blitt overskredet. Hvis du lar feltet være tomt, betyr det at kunden ikke har noen kredittgrense.  
+
+Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet, og du kan angi hvilke typer advarsel du vil vise.
+
+### <a name="to-specify-credit-limit-warnings"></a>Slik angir du advarsler om kredittgrense
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+
+2. På hurtigfanen **Generelt** i feltet **Kredittvarsler** velger du det relevante alternativet som er beskrevet i følgende tabell:
+
+    |Alternativ| Beskrivelse|
+    |------|------------|
+    |**Begge advarslene**| Både feltet **Kredittgrense** og feltet **Forfalt beløp** på kundekortet merkes av, og en advarsel vises hvis kunden har oversteget sin kredittgrense, eller hvis kunden har et forfalt beløp.|
+    |**Kredittgrense**|Verdien i feltet **Kredittgrense** på kundekortet sammenlignes med kundens saldo, og det vises en advarsel hvis kundens saldo overskrider dette beløpet.|
+    |**Forfalt beløp**|Feltet **Forfalt beløp** er merket av på kundekortet, og det vises en advarsel hvis kunden har en forfalt saldo.|
+    |**Ingen advarsel**|Det vises ingen advarsler om kundens status.|
+
 ## <a name="see-also"></a>Se også
 
 [Definere betalingsmåter](finance-payment-methods.md)  
@@ -72,6 +95,5 @@ Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kortet, for
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

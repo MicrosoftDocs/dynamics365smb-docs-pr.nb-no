@@ -3,19 +3,19 @@ title: Bruke automatisk datafangstsystem (ADFS) | Microsoft-dokumentasjon
 description: Du kan bruke det automatiske datafangstsystemet (ADFS) til å registrere flyttingen av varer i lageret, og til å registrere noen kladdeaktiviteter, for eksempel antallsjusteringer i lagerets varekladd og beholdning.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: barcode
 ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4d35c0774fc777fd5b45983f03e6204daed0a3af
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: cb87eb928baeba9b56d4ef07287aa07fbe08ad00
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755720"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393252"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 

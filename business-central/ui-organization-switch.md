@@ -3,23 +3,23 @@ title: Bytte til et annet selskap eller miljø | Microsoft Docs
 description: Hvis du arbeider for flere organisasjoner, kan du raskt bytte mellom miljøet og selskapene.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 10/01/2020
+ms.date: 03/04/2020
 ms.author: bholtorf
-ms.openlocfilehash: fea55295867e42f450dc7e3826224d7e1698666a
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 2847d3240ed12acf356f6c68f4c0fcb67c362f61
+ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4760420"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573454"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
 [!INCLUDE [company_environment](includes/company_environment.md)] Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
-> Hvis du ofte bytter mellom selskaper, kan det være lett å miste oversikten over hvor du er. For å hjelpe deg med å holde oversikt kan du legge til et merke som viser selskapsnavnet, slik at du raskt kan kontrollere at du er på riktig sted. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#to-display-a-company-badge-for-quick-access-to-company-information).
+> Hvis du ofte bytter mellom selskaper eller arbeider med [!INCLUDE[prod_short](includes/prod_short.md)] fra en annen app, som Microsoft Teams, kan det være lett å miste oversikten over hvor du er. For å hjelpe deg med å holde oversikt kan du legge til et merke som viser selskapsnavnet, slik at du raskt kan kontrollere at du er på riktig sted. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).
 
 ## <a name="switch-to-another-environment"></a>Bytte til et annet miljø
 
