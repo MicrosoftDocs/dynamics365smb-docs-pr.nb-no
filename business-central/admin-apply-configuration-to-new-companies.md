@@ -8,31 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dc93e248b0691a23b9937579cd16213d1d6c2ae5
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 22b4c770f182aa9e5df72ff3d625dc32c5a6f827
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378776"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773364"
 ---
-# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="f9fed-104">Bruke konfigurasjoner for nye selskaper</span><span class="sxs-lookup"><span data-stu-id="f9fed-104">Apply Configurations to New Companies</span></span>
-<span data-ttu-id="f9fed-105">Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering.</span><span class="sxs-lookup"><span data-stu-id="f9fed-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="f9fed-106">Du jobber med konfigurasjonspakken i et nytt, tomt selskap.</span><span class="sxs-lookup"><span data-stu-id="f9fed-106">You work with the configuration package within a new empty company.</span></span>  
+# <a name="apply-configurations-to-new-companies"></a><span data-ttu-id="5a423-104">Bruke konfigurasjoner for nye selskaper</span><span class="sxs-lookup"><span data-stu-id="5a423-104">Apply Configurations to New Companies</span></span>
+<span data-ttu-id="5a423-105">Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering.</span><span class="sxs-lookup"><span data-stu-id="5a423-105">After you have created a configuration package, the next step is to deploy the package to your customer for implementation.</span></span> <span data-ttu-id="5a423-106">Du jobber med konfigurasjonspakken i et nytt, tomt selskap.</span><span class="sxs-lookup"><span data-stu-id="5a423-106">You work with the configuration package within a new empty company.</span></span>  
 
- <span data-ttu-id="f9fed-107">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emner som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="f9fed-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
+ <span data-ttu-id="5a423-107">Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emner som beskriver dem.</span><span class="sxs-lookup"><span data-stu-id="5a423-107">The following table describes a sequence of tasks with links to topics that describe them.</span></span>
 
-|<span data-ttu-id="f9fed-108">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="f9fed-108">**To**</span></span>|<span data-ttu-id="f9fed-109">**Se**</span><span class="sxs-lookup"><span data-stu-id="f9fed-109">**See**</span></span>|  
+|<span data-ttu-id="5a423-108">**Hvis du vil**</span><span class="sxs-lookup"><span data-stu-id="5a423-108">**To**</span></span>|<span data-ttu-id="5a423-109">**Se**</span><span class="sxs-lookup"><span data-stu-id="5a423-109">**See**</span></span>|  
 |------------|-------------|  
-|<span data-ttu-id="f9fed-110">Opprett et nytt selskap som skal utføre en kundeimplementering.</span><span class="sxs-lookup"><span data-stu-id="f9fed-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="f9fed-111">Opprett et nytt selskap.</span><span class="sxs-lookup"><span data-stu-id="f9fed-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
-|<span data-ttu-id="f9fed-112">Importere og bruke en konfigurasjonspakke for et nytt selskap.</span><span class="sxs-lookup"><span data-stu-id="f9fed-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="f9fed-113">Konfigurere nye selskaper</span><span class="sxs-lookup"><span data-stu-id="f9fed-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
-|<span data-ttu-id="f9fed-114">Bruke en assistert oppsettsveiledning til å fullføre en firmakonfigurasjon.</span><span class="sxs-lookup"><span data-stu-id="f9fed-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="f9fed-115">Konfigurere et selskap med RapidStart-veiviseren</span><span class="sxs-lookup"><span data-stu-id="f9fed-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
-|<span data-ttu-id="f9fed-116">Kopiere de vanligst brukte verdier fra et eksisterende selskap til et nytt, i samme database.</span><span class="sxs-lookup"><span data-stu-id="f9fed-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="f9fed-117">Kopiere data til nye selskaper</span><span class="sxs-lookup"><span data-stu-id="f9fed-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
-|<span data-ttu-id="f9fed-118">Bruke en kjørsel til å overføre eldre kontosaldoer til et selskap som er nylig konfigurert og deretter bruke de resulterende postene i journalen.</span><span class="sxs-lookup"><span data-stu-id="f9fed-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="f9fed-119">Opprette inngående balanser for kladd</span><span class="sxs-lookup"><span data-stu-id="f9fed-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
+|<span data-ttu-id="5a423-110">Opprett et nytt selskap som skal utføre en kundeimplementering.</span><span class="sxs-lookup"><span data-stu-id="5a423-110">Create a new company in which to perform a customer implementation.</span></span>|[<span data-ttu-id="5a423-111">Opprett et nytt selskap.</span><span class="sxs-lookup"><span data-stu-id="5a423-111">Create a New Company</span></span>](admin-how-to-create-a-new-company.md)|  
+|<span data-ttu-id="5a423-112">Importere og bruke en konfigurasjonspakke for et nytt selskap.</span><span class="sxs-lookup"><span data-stu-id="5a423-112">Import and apply a configuration package to a new company.</span></span>|[<span data-ttu-id="5a423-113">Konfigurere nye selskaper</span><span class="sxs-lookup"><span data-stu-id="5a423-113">Configure New Companies</span></span>](admin-how-to-configure-new-companies.md)|  
+|<span data-ttu-id="5a423-114">Bruke en assistert oppsettsveiledning til å fullføre en firmakonfigurasjon.</span><span class="sxs-lookup"><span data-stu-id="5a423-114">Use an assisted setup guide to easily complete a company configuration.</span></span>|[<span data-ttu-id="5a423-115">Konfigurere et selskap med RapidStart-veiviseren</span><span class="sxs-lookup"><span data-stu-id="5a423-115">Configure a Company with the RapidStart Wizard</span></span>](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)|
+|<span data-ttu-id="5a423-116">Kopiere de vanligst brukte verdier fra et eksisterende selskap til et nytt, i samme database.</span><span class="sxs-lookup"><span data-stu-id="5a423-116">Copy commonly used values from an existing company to a new one, within the same database.</span></span>|[<span data-ttu-id="5a423-117">Kopiere data til nye selskaper</span><span class="sxs-lookup"><span data-stu-id="5a423-117">Copy Data to New Companies</span></span>](admin-how-to-copy-data-to-new-companies.md)|  
+|<span data-ttu-id="5a423-118">Bruke en kjørsel til å overføre eldre kontosaldoer til et selskap som er nylig konfigurert og deretter bruke de resulterende postene i journalen.</span><span class="sxs-lookup"><span data-stu-id="5a423-118">Use a batch job to transfer legacy account balances to a newly configured company and then apply the resulting journal entries.</span></span>|[<span data-ttu-id="5a423-119">Opprette inngående balanser for kladd</span><span class="sxs-lookup"><span data-stu-id="5a423-119">Create Journal Opening Balances</span></span>](admin-how-to-create-journal-opening-balances.md)|  
 
-## <a name="see-also"></a><span data-ttu-id="f9fed-120">Se også</span><span class="sxs-lookup"><span data-stu-id="f9fed-120">See Also</span></span>  
-[<span data-ttu-id="f9fed-121">Konfigurere et selskap med RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="f9fed-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
-[<span data-ttu-id="f9fed-122">Administrasjon</span><span class="sxs-lookup"><span data-stu-id="f9fed-122">Administration</span></span>](admin-setup-and-administration.md)
+## <a name="see-also"></a><span data-ttu-id="5a423-120">Se også</span><span class="sxs-lookup"><span data-stu-id="5a423-120">See Also</span></span>  
+[<span data-ttu-id="5a423-121">Konfigurere et selskap med RapidStart Services</span><span class="sxs-lookup"><span data-stu-id="5a423-121">Setting Up a Company With RapidStart Services</span></span>](admin-set-up-a-company-with-rapidstart.md)  
+[<span data-ttu-id="5a423-122">Administrasjon</span><span class="sxs-lookup"><span data-stu-id="5a423-122">Administration</span></span>](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
