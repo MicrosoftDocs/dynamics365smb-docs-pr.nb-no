@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d53ab4833332ad488c7b1b9c6031515377e5f58c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377501"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780610"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.

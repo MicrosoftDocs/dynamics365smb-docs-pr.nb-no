@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 11/05/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fbe696c8f85327ad775ad3bcf071b3e7ec16dd6
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391252"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780938"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -92,7 +92,7 @@ Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang
 
 1. Åpne [!INCLUDE[prod_short](includes/prod_short.md)]-selskapet du vil gi regnskapsføreren tilgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.  
-3. Velg handlingen **Hent nye brukere fra Office 365**.
+3. Velg handlingen **Hent nye brukere fra Microsoft 365**.
 
 Dette importerer brukerkontoen du opprettet i Azure-portalen, til selsksapet. Hvis du vil ha mer informasjon, kan du se [Slik legger du til en bruker i Business Central](ui-how-users-permissions.md#adduser).  
 

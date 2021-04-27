@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db43728efb4c57a60f23a62c03246f1059373a54
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379376"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774514"
 ---
 # <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
@@ -25,7 +25,7 @@ Du setter opp arbeidsflyter for godkjenning på **Arbeidsflyt**-siden. Hvis du v
 
 I tillegg til godkjenningsarbeidsflyter som beskrives i dette emnet, kan du utføre diverse andre arbeidsflytoppgaver. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).
 
-Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Hvis du vil ha mer informasjon, kan du se [Komme i gang](product-get-started.md).
+Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
 Oppgavene nedenfor utføres av en godkjenningsbruker.

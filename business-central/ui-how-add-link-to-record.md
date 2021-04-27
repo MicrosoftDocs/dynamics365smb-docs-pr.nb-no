@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6aa7018a43db8c663c209894e118518c3de2f7cf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393889"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771138"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -26,7 +26,9 @@ Hvis du vil vise eller endre noen av disse vedlagte informasjonstypene, må du f
 Vedlegg, koblinger og merknader forblir tilknyttet når kortet eller dokumentet behandles i andre statuser, for eksempel fra en pågående ordre til en bokført salgsfaktura. Ingen av vedleggstypene blir imidlertid skrevet ut fra systemet, for eksempel ved utskrift eller lagring til en fil.
 
 > [!NOTE]
-> Når du delvis sender og fakturerer en ordre eller bestilling, blir vedlegget bare knyttet til den endelige fakturaen for den ordren. På samme måte, når du fakturerer ved hjelp av Periodiseringer-funksjonen, knyttes vedlegget bare til finanspostene for bilaget, men ikke for periodiseringspostene.
+> Når du delvis sender og fakturerer en salgsordre eller bestilling, blir vedlegget bare knyttet til den endelige fakturaen for ordren. Når du på samme måte fakturerer ved hjelp av funksjonen Periodiseringer, knyttes vedlegget til finanspostene for bilaget, men ikke for periodiseringspostene.
+>
+> Hvis du sletter en ordre før den faktureres, fjernes også vedlegget. Når du fakturerer bestillinger ved hjelp av handlingen Hent mottakslinjer fra en kjøpsfaktura, blir ikke vedlegget på bestillingene lagt til i kjøpsfakturaen.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Knytte en fil til en kjøpsfaktura
 Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i et kort eller dokument. Dette er for eksempel nyttig når du vil lagre fakturaen for en leverandør som en PDF-fil på den relaterte kjøpsfakturaen i [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e446b3e5415299954098abb92088277b7da2bbc
-ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
+ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5498565"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776150"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanlige spørsmål om å bruke Business Central
 
@@ -44,8 +44,9 @@ Dette gjelder for [!INCLUDE [prod_short](includes/prod_short.md)] online og loka
 
 Dessuten, hvis funksjonen er lagt til som en utvidelse i AppSource, er det en forsinkelse mellom utvidelsen og tilgjengeligheten i AppSource. Dette gjelder bare for [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
-## <a name="are-there-any-differences-between-an-on-premises-deployment-and-the-cloud-version-of-business-central"></a>Er det noen forskjeller mellom en lokal distribusjon og skyversjonen av Business Central?
-Ja. Noen skybaserte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Funksjoner som ikke er implementert i lokale distribusjoner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises).
+## <a name="are-there-any-differences-between-an-on-premises-deployment-and-business-central-online"></a>Er det noen forskjeller mellom en lokal distribusjon og Business Central Online?
+
+Ja. [!INCLUDE [prod_short](includes/prod_short.md)] er optimalisert for distribusjon på Internett, og enkelte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Features not implemented in on-premises deployments of Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (bare tilgjengelig på engelsk).
 
 ## <a name="can-i-get-training-in-prod_short"></a>Kan jeg få opplæring i [!INCLUDE[prod_short](includes/prod_short.md)]?
 Ja, det kan du! Du kan finne gratis e-læringsinnhold på [Microsoft Learn-området.](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) Du kan også be videresalgspartneren om ytterligere opplæring. Hvis du ikke vet hvem det er, kan du se delen [Hvordan finner jeg en partner for videresalg?](#findpartner).  
@@ -60,12 +61,23 @@ Mer innhold leveres av [!INCLUDE[prod_short](includes/prod_short.md)] fellesskap
 
 Hvis du vil ha mer informasjon, se delene [Hjelp og støtte?](product-help-and-support.md) og [Hvordan finner jeg en partner for videresalg?](#findpartner).  
 
-## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
-Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
-
 ## <a name="where-is-the-save-button"></a>Hvor er lagreknappen?
 
-Det finnes ingen *lagre*-knapp på sider som i andre programmer du kanskje er kjent med. I [!INCLUDE[prod_short](includes/prod_short.md)] lagres endringer du gjør i et felt, automatisk så snart du går til neste felt eller lukker siden, forutsatt at det ikke finnes feil. Når du gjør endringer i et felt og flytter til en annet felt, vises teksten **Lagre** øverst til høyre på siden, som raskt endres til **Lagret** hvis det ikke oppstår noen feil. Hvis det oppstår en feil, endres teksten til **Ikke lagret**.
+Det finnes ingen *lagre*-knapp på sider som i andre programmer du kanskje er kjent med. I [!INCLUDE[prod_short](includes/prod_short.md)] lagres endringer du gjør i et felt, automatisk så snart du går til neste felt eller lukker siden, forutsatt at det ikke finnes feil. Når du gjør endringer i et felt og flytter til en annet felt, vises teksten **Lagre** øverst til høyre på siden, som raskt endres til **Lagret** hvis det ikke oppstår noen feil. Hvis det oppstår en feil, endres teksten til **Ikke lagret**.  
+
+## <a name="where-do-i-find-that-line-number"></a>Hvor finner jeg det aktuelle linjenummeret?
+
+Dokumenter, for eksempel ordrer eller kjøpsfakturaer, består av hoder og linjer. Hver linje har et nummer som [!INCLUDE [prod_short](includes/prod_short.md)] bruker til å identifisere denne linjen. Resultatet er at du kan få en advarsel eller en feilmelding om at det er feil i linjenummer 1000 for eksempel. I standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] skjules linjenumre. Hvis du vil se linjenumrene, må du tilpasse gjeldende side og legge til feltet **Linjenr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+
+
+## <a name="why-does-help-describe-functionality-that-i-cannot-access"></a>Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
+Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).  
+
+## <a name="why-is-new-information-not-available-in-my-language"></a>Hvorfor er ny informasjon ikke tilgjengelig på språket mitt?
+
+På nettstedet docs.microsoft.com publiseres innhold om forretningsfunksjoner på en rekke språk. Innholdet er skrevet på engelsk og publisert til nettadresser med *en-us* som språkkode. Når ny informasjon publiseres på engelsk, sendes den deretter til oversettelse til språkene som støttes. Dette betyr at du ikke kan lese det nye innholdet på ditt eget språk i opptil 4 uker.  
+
+Vi forstår problemene dette kan forårsake, og vi oppfordrer brukerne til å søke på engelsk etter det de leter etter, hvis de ikke finner det på sitt eget språk.  
 
 ## <a name="what-email-address-can-i-use-with-prod_short-online"></a><a name="email"></a>Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)] online?
 
@@ -80,7 +92,7 @@ Antall Hvis du vil oppleve [!INCLUDE[prod_short](includes/prod_short.md)] som fu
 
 Hvis kontoen du registrerer deg med, er en ikke-Microsoft 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte domenet (*mysolution.com*) til Microsoft 365-abonnementet. Hvis du vil ha mer informasjon, kan du se [Hva er et domene?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-innholdet.  
 
-Hvis du ikke har et Microsoft 365-abonnement, og du ikke vil kjøpe et, vil vi, når du registrerer deg, klargjøre en ny Azure Active Directory-leier, slik at du har tilgang til Azure Portal, der du har tilgang til avanserte administrasjonsverktøy.  
+Hvis du ikke har et Microsoft 365-abonnement, og du ikke vil kjøpe et, vil vi, når du registrerer deg, klargjøre en ny Azure Active Directory-leier, slik at du har tilgang til avanserte administrasjonsverktøy i Azure-portalen.  
 
 ## <a name="what-is-the-integration-with-microsoft-365-about"></a>Hvordan fungerer integreringen med Microsoft 365?
 [!INCLUDE[prod_short](includes/prod_short.md)] online er fullstendig integrert med Microsoft 365, slik at du kan navigere fritt mellom Microsoft 365-apper og [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av appstarteren. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel åpne data i Excel, skrive ut rapporter ved hjelp av Word, og du kan arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]-data i Outlook. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook](admin-outlook.md).  
@@ -104,7 +116,7 @@ Dette er litt komplisert, men det ser ut som administratoren ikke endret din til
 Ja, men avhengig av hvordan du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)] kan dataene slettes eller beholdes. Hvis du vil ha mer informasjon, kan du se [Avbryte [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md).  
 
 ## <a name="can-i-use-multi-factor-authentication"></a>Kan jeg bruke godkjenning med flere faktorer?
-Klart det. Hvis du gjør det, trenger du kanskje et apppassord for å sende e-postmeldinger. Apppassordene gi en app eller enhet tilgang til e-kontoen din. Trinnene for å få et apppassord varierer avhengig av leverandøren av e-post. Hvis du vil ha mer informasjon, ser du hjelpen fra leverandøren. Hvis du for eksempel bruker Outlook, se [Flerfaktorgodkjenning for Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2082543).  
+Klart det. Hvis du gjør det, trenger du kanskje et apppassord for å sende e-postmeldinger. Apppassordene gi en app eller enhet tilgang til e-kontoen din. Trinnene for å få et apppassord varierer avhengig av leverandøren av e-post. Hvis du vil ha mer informasjon, ser du hjelpen fra leverandøren. Hvis du for eksempel bruker Outlook, kan du se [Flerfaktorgodkjenning for Microsoft 365](/microsoft-365/admin/security-and-compliance/multi-factor-authentication-microsoft-365).  
 
 ## <a name="how-do-i-find-a-reselling-partner"></a><a name="findpartner"></a>Hvordan finner jeg en partner for videresalg?
 
@@ -116,23 +128,13 @@ Hvis du vil ha veiledning fra Microsoft, kontakter du [Microsoft Sales-teamet](h
 
 Partneren for videresalg hjelper deg også med den tekniske støtten. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
-## <a name="where-do-i-find-that-line-number"></a>Hvor finner jeg det aktuelle linjenummeret?
-
-Dokumenter, for eksempel ordrer eller kjøpsfakturaer, består av hoder og linjer. Hver linje har et nummer som [!INCLUDE [prod_short](includes/prod_short.md)] bruker til å identifisere denne linjen. Resultatet er at du kan få en advarsel eller en feilmelding om at det er feil i linjenummer 1000 for eksempel. I standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] skjules linjenumre. Hvis du vil se linjenumrene, må du tilpasse gjeldende side og legge til feltet **Linjenr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
-
-## <a name="why-is-new-information-not-available-in-my-language"></a>Hvorfor er ny informasjon ikke tilgjengelig på språket mitt?
-
-På nettstedet docs.microsoft.com publiseres innhold om forretningsfunksjoner på en rekke språk. Innholdet er skrevet på engelsk og publisert til nettadresser med *en-us* som språkkode. Når ny informasjon publiseres på engelsk, sendes den deretter til oversettelse til språkene som støttes. Dette betyr at du ikke kan lese det nye innholdet på ditt eget språk i opptil 4 uker.  
-
-Vi forstår problemene dette kan forårsake, og vi oppfordrer brukerne til å søke på engelsk etter det de leter etter, hvis de ikke finner det på sitt eget språk.  
-
 ## <a name="is-the-windows-client-supported"></a>Støttes Windows-klienten?
 
 De første utgivelsene av lokal [!INCLUDE[prod_short](includes/prod_short.md)] inkluderte en installert klient hentet fra Microsoft Dynamics NAV. Fra og med 2019 utgivelsesplan 2 er denne eldre komponenten, kalt "Windows-klienten", ikke lenger tilgjengelig for [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Vanlige spørsmål om Windows-klienten og Business Central](/dynamics365/business-central/dev-itpro/faq-win-cli).
 
 ## <a name="see-also"></a>Se også
 
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Vanlige spørsmål om Fortell meg](ui-search-faq.md)  
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
 [Vanlige spørsmål om listevisninger](ui-views-faq.md)  

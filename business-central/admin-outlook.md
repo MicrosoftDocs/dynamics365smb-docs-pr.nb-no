@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377951"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777444"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 
@@ -74,9 +74,9 @@ Tilleggene er utformet for bruk med Microsoft 365. Hvis du bruker [!INCLUDE[prod
 
 ## <a name="see-also"></a>Se også
 
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Få Business Central på mobilenheten](install-mobile-app.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

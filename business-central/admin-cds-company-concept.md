@@ -8,24 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: CDS, , integration, sync
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f218b50e40f6bb0e8e9ab3be8fcd00d23b1adbe2
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378726"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5773339"
 ---
 # <a name="data-ownership-models"></a>Dataeierskapsmodeller
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-[!INCLUDE[prod_short](includes/cds_long_md.md)] krever at du angir en eier av dataene du lagrer. Hvis du vil ha mer informasjon, kan du se [Enhetseierskap](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-tables#table-ownership) i dokumentasjonen for Power Apps. Når du definerer integreringen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], må du velge én av to eierskapsmodeller for poster som synkroniseres:
-
-* Team 
-* Person (bruker)
-
-Handlinger som kan utføres på disse postene, kan kontrolleres på et brukernivå. Hvis du vil ha mer informasjon, kan du se [Tabeller for bruker og team](https://docs.microsoft.com/powerapps/developer/common-data-service/user-team-tables). Teameierskapsmodellen anbefales fordi den gjør det enklere å administrere eierskap for flere personer.
+[!INCLUDE[prod_short](includes/cds_long_md.md)] krever at du angir en eier av dataene du lagrer. Hvis du vil ha mer informasjon, kan du se [Tabelltyper](/powerapps/maker/data-platform/types-of-entities) i dokumentasjonen for Power Apps. Når du definerer integreringen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], må du velge eierskapet **Bruker eller Team** for poster som synkroniseres. Handlinger som kan utføres på disse postene, kan kontrolleres på et brukernivå. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
 ## <a name="team-ownership"></a>Teameierskap
 I [!INCLUDE[prod_short](includes/prod_short.md)] er et selskap en juridisk og forretningsmessig tabell som har metoder for å sikre og visualisere forretningsdata. Brukere arbeider alltid i en bedrifts kontekst. Det nærmeste [!INCLUDE[prod_short](includes/cds_long_md.md)] kommer til dette konseptet, er konserntabellen, som ikke har juridiske eller forretningsmessige konsekvenser.

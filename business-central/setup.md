@@ -8,22 +8,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c46aa4f920924c4b1d11f3d6ef636ce96feb22f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385552"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781459"
 ---
-# <a name="setting-up-prod_short"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen.
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen.  
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
-Fra menyen ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) får du tilgang til hjelpelinjer for assistert installasjon, som hjelper deg med å konfigurere visse scenarier og legge til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
+Fra menyen ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) får du tilgang til hjelpelinjer for assistert installasjon, som hjelper deg med å konfigurere visse scenarier og legge til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til den assisterte oppsettsveiledningen. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
 
@@ -73,7 +76,7 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

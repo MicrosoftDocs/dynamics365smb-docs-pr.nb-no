@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cc5b128d3e9655697b5dc3a2176dcfe926442bc8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: db971af61719bfa84566c78cc91b4c805c14ab9b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388627"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783850"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Søke etter dimensjonskombinasjoner
 Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker [!INCLUDE[prod_short](includes/prod_short.md)] om det redigerte settet med dimensjoner finnes. Hvis gruppen ikke finnes, blir det opprettet et nytt sett, og det kombinasjon-IDen for dimensjonen blir returnert.  
@@ -72,7 +72,8 @@ EXIT(DimSet.ID);
 
 ```  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
  [GET-funksjonen (post)](/dynamics-nav/GET-Function--Record-)    
  [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
  [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)   

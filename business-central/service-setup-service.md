@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdb540fa5fbbf91da2b59f71b3523fd5c702c3bd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391377"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778101"
 ---
 # <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
 Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
@@ -42,8 +42,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lag et fundament for opprettelse av servicekontrakter og kontrakttilbud. |[Definere servicekontrakter](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Se også
-[Servicehåndtering](service-service.md)  
-[Komme i gang](product-get-started.md)  
+[Servicebehandling](service-service.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98838737ec9c20cfe5cedc7372af028fd5b1c636
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772132"
 ---
 # <a name="working-with-prod_short"></a>Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
@@ -61,18 +61,18 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/pr
 
 ## <a name="choosing-a-desktop-browser"></a>Velge en skrivebordsleser
 
-[!INCLUDE[prod_short](includes/prod_short.md)] støtter flere weblesere som alle tilbyr forskjellige funksjoner og muligheter. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](https://go.microsoft.com/fwlink/?linkid=2110804) og lesere for [Business Central on-premises](https://go.microsoft.com/fwlink/?linkid=2110719).
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter flere weblesere som alle tilbyr forskjellige funksjoner og muligheter. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](./product-requirements.md) og lesere for [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
 - Hvis det mulig, bør du unngå eldre lesere, for eksempel Internet Explorer, og bytte til en av våre anbefalte, moderne lesere, for eksempel den [nye Microsoft Edge](https://www.microsoft.com/edge/).  
 
-    Internet Explorer støttes fremdeles, men ettersom nye Microsoft Edge er tilgjengelig for Windows Server nå, ser vi en nedadgående trend for Internet Explorer. Du kan også få [en prøveversjon med Microsoft Edge i IE-modus](https://www.microsoft.com/edge/business). Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
+    Internet Explorer støttes ikke lenger. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - La nettleseren alltid være oppdatert til den nyeste versjonen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Definere Business Central](setup.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)

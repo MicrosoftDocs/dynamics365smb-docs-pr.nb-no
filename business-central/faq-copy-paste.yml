@@ -2,12 +2,12 @@
 metadata:
   title: Vanlige spørsmål om å kopiere og lime inn data
   description: Få svar på vanlige spørsmål om kopiering og innliming av data fra felter og rader fra Business Central-sider.
-  ms.openlocfilehash: 7d3d0e29bb6751913297974f611aa9695677ed66
-  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
+  ms.openlocfilehash: 41f92191cf00ff7cbf0a3be2d0902bb9386efc56
+  ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 02/15/2021
-  ms.locfileid: "5181832"
+  ms.lasthandoff: 03/31/2021
+  ms.locfileid: "5775578"
 title: Vanlige spørsmål om kopiere og lime inn
 summary: "Du kan kopiere en eller flere rader (poster) fra en oversikt eller ett enkelt felt på en side og deretter lime inn det du kopierte, på samme side, en annen side eller et eksternt dokument (som Microsoft Excel og Outlook-e-post).  \n\nKort sagt, for å kopiere trykker du CTRL+C (cmd+C i macOS) på tastaturet. For å lime inn trykker du CTRL+V (cmd+V i macOS). Det finnes flere tastatursnarveier for å kopiere og lime inn som sparer tid når du registrerer data. Hvis du vil ha mer informasjon om disse, kan du se [Hurtigtaster](keyboard-shortcuts.md#CopyRows). Denne artikkelen svarer på vanlige spørsmål du måtte ha om å kopiere og lime inn.  \n"
 sections:
@@ -72,4 +72,4 @@ sections:
   - question: Hvorfor får jeg feil når jeg limer inn rader?
     answer: >
       Når du limer inn i [!INCLUDE[prod_short](includes/prod_short.md)], kontrolleres hver rad slik at verdiene i hver kolonne er gyldig. Hvis en kolonne inneholder en verdi som ikke er gyldig, stopper innlimingen, og det vises en feilmelding. Kontroller at kolonnene har gyldige verdier før du limer dem inn, for å unngå dette.
-additionalContent: "## <a name=\"next-steps\"></a>Neste trinn\nFinn relatert informasjon her: \n  - [Hjelpefunksjoner](ui-accessibility.md)  \n  - [Komme i gang](product-get-started.md)  \n  - [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Vanlige spørsmål](across-faq.md)"
+additionalContent: "## <a name=\"next-steps\"></a>Neste trinn\nFinn relatert informasjon her: \n  - [Hjelpefunksjoner](ui-accessibility.md)  \n  - [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  \n  - [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Vanlige spørsmål](across-faq.md)"

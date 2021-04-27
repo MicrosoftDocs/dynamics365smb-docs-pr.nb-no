@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 349ef585054fcf08338e32258929863099d4a3cc
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 36238b18e7b29a866fd83e244543502871ab2726
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382097"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775242"
 ---
 # <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
 
@@ -78,7 +78,6 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  
-  [Norwegian Sales Documents](norwegian-sales-documents.md)  
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->

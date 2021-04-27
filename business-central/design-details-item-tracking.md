@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c5a72fd3026f0dd78a547809e0ad6afe9de2d420
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6e5f20d2f450f3f544cc2f7023160e4e9babdf33
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390877"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772807"
 ---
 # <a name="design-details-item-tracking"></a>Designdetaljer: Varesporing
 Etter hvert som flyt av varer i dagens forsyningskjede blir mer og mer komplisert, er muligheten til å holde oversikt over varer stadig viktigere for involverte selskaper. Overvåking av en vares transaksjonsflyt er et juridisk krav i bransjer for medisinske og kjemiske produkter, men andre bedrifter vil kanskje også overvåke produkter med garantier eller utløpsdatoer av med hensyn til kundeservice.  
@@ -32,5 +32,8 @@ Et varesporingssystem skal gi et selskap enkel håndtering av serie- og partinum
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Designdetaljer: Varesporing på lageret](design-details-item-tracking-in-the-warehouse.md)
 
+## <a name="see-also"></a>Se også
+
+[Arbeide med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

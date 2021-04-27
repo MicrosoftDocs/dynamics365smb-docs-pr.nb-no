@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c9d267df2fb58da3b4a7aa1505030c9510bdf4f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1ccada415d506193e52ac37981252a47e6088971
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386102"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777169"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisere kontakter i Business Central med kontakter i Microsoft Outlook
 Du kan se de samme kontaktene i [!INCLUDE[prod_short](includes/prod_short.md)] som du ser i Outlook, hvis du definerer kontaktsynkronisering. Hvis for eksempel du er selger, gjør du kanskje noe arbeid i Outlook og noen av arbeidet i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis kontaktene er de samme begge steder, er arbeidet mer enkelt.  
@@ -32,15 +32,15 @@ Når synkroniseringen er definert, blir endringer som du gjør i kontakten i Out
 Hver av kollegaene kan også konfigurere sin egen Exchange-synkronisering og definere sitt eget filter for kontaktene som skal synkroniseres.  
 
 ## <a name="synchronize-contacts"></a>Synkronisere kontakter
-Hvis du er vant med å arbeide med kontakter i [!INCLUDE[prod_short](includes/prod_short.md)], vil du synes det er enkelt å starte synkroniseringen manuelt når det passer deg, fra **Kontakter**-listen. Velg bare **Synkroniser med Office 365**-handlingen, og bestem om du vil endre filteret du har definert. Når du velger OK-knappen, starter synkroniseringen umiddelbart, og de siste endringene brukes på kontaktene i Outlook.  
+Hvis du er vant med å arbeide med kontakter i [!INCLUDE[prod_short](includes/prod_short.md)], vil du synes det er enkelt å starte synkroniseringen manuelt når det passer deg, fra **Kontakter**-listen. Velg bare handlingen **Synkroniser med Microsoft 365**, og bestem om du vil endre filteret du har definert. Når du velger OK-knappen, starter synkroniseringen umiddelbart, og de siste endringene brukes på kontaktene i Outlook.  
 
 I **Kontakter**-listen kan du synkronisere kontakter på to måter:
 
-* **Synkroniser med Office 365**
+* **Synkronisere med Microsoft 365**
 
   Denne handlingen synkroniserer alle endringer fra [!INCLUDE[prod_short](includes/prod_short.md)] til Microsoft 365 siden den forrige synkroniseringen, basert på dato med siste endring. Alle nye kontakter fra Microsoft 365 synkroniseres tilbake til [!INCLUDE[prod_short](includes/prod_short.md)] også. Dette er vanligvis raskere enn å utføre en fullstendig synkronisering.  
 
-* **Synkroniser fullstendig med Office 365**
+* **Synkronisere fullstendig med Microsoft 365**
 
   Denne handlingen synkroniserer alle kontaktene i begge retninger uavhengig av den siste synkroniseringsdatoen og datoen for siste endring.  
 
@@ -49,7 +49,7 @@ I begge tilfeller synkroniseres bare kontakter fra Outlook hvis de har utfylt de
 I Outlook vises kontaktene fra [!INCLUDE[prod_short](includes/prod_short.md)] i en mappe under **Andre kontakter** i **Personer**-visningen. Hvis du ikke kjenner til Personer-visningen i Outlook, kan få tilgang til den fra navigasjonsvalgene nederst til venstre i Outlook.  
 
 ## <a name="see-also"></a>Se også
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

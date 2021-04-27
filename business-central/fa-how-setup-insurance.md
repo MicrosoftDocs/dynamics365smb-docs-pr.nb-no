@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: policy, coverage
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10527690d19d019f8a5d94d8c4817f6a3bcd8479
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0ebb62a4ef9ea84ec5bfddc099dfb6120a4e6405
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380180"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774044"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere aktivaforsikring
 Hvis du vil behandle forsikringsdekning for aktiva, må du først sette opp noen generelle forsikringsopplysninger og et forsikringskort per polise.
@@ -61,7 +61,7 @@ Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som
 [Definere aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

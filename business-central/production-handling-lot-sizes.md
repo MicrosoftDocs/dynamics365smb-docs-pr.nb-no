@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4d119b5ea35ba41d658226f108f9bd14014ef644
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376740"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779385"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Håndtere partistørrelser i produksjon
 Når det gjelder antall, kan det hende at antall varer du produserer i en produksjonsoperasjon, ikke koordineres til hvordan de selges. Du kan for eksempel produsere hundrevis av varer i et enkelt parti, men selge hver vare individuelt. Når du konfigurerer produksjonsrutene og stykklistene, er det noen få nyanser du bør ta hensyn til når det gjelder partistørrelser. Dette emnet beskriver hvordan partistørrelser påvirker kostnadsberegninger og ressursplanlegging.

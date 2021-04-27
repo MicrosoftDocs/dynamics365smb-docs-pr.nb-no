@@ -4,14 +4,14 @@ description: Lær hvordan du kan beholde de historiske dataene dine ved å kompr
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b17e4df039ef713bf5c0048d258aefd175157ba4
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493050"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781214"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
 

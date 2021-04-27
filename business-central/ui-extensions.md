@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 03/02/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d92fbe7c21da74c7818be4f249cdb373ed73539f
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 805350a7b1213ec0e0d0550e5c5b63c557ee470a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493281"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771342"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online med utvidelser
 
@@ -79,6 +79,27 @@ Microsoft tilbyr følgende utvidelser:
 > [!NOTE]  
 > Du kan holde øye med nye utvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+
+## <a name="extensions-and-data-transfer"></a>Utvidelser og dataoverføring
+
+Etter hvert som følgende utvidelser kommuniserer med andre tjenester, kan de overføre data fra [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
+
+* AMC Banking 365 Fundamentals-utvidelse
+* Bildeanalyse
+* Prognose for forsinket betaling
+* PayPal Payments Standard
+* Salgs- og lagerprognose
+* WorldPay Payments Standard
+
+Dette gjelder også for enkelte funksjoner i basisprogrammet, for eksempel følgende funksjoner:
+
+* Kontantstrømprognose
+* Dokumentutvekslingstjeneste
+* Dataverse-tilkoblinger
+* OCR-tjeneste
+* Online Map
+* EU-mva.-reg.nr. Tjeneste
+
 ## <a name="see-also"></a>Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
@@ -88,7 +109,7 @@ Microsoft tilbyr følgende utvidelser:
 [Overføre forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere GetAddress.io UK Postal Code-utvidelsen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-utvidelser fra andre leverandører](ui-extensions-other.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

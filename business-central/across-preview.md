@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f8d8b2744fb5179183e223c8741669f7af9754b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c3f807a7e02a9791fb8ea465bc399e3e3345a0f3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379101"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777494"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 
@@ -27,7 +27,7 @@ Du kan registrere deg for en gratis prøveversjon [her](https://go.microsoft.com
 
 Avhengig av landet eller regionen inkluderer prøveversjonen språkene og funksjonaliteten som landet eller regionen krever. Hvis du vil ha mer informasjon, se [Endre språk og nasjonal innstilling](about-locale-language.md).  
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] vil noe være kjent for deg, og andre ting er kanskje ikke kjent. Første gang du logger deg på demoselskap får du tilgang til en Komme i gang-side med koblinger til videoer som kan hjelpe deg med å komme i gang. Hvis du vil ha mer informasjon, kan du se [Komme i gang med [!INCLUDE[prod_long](includes/prod_long.md)]](product-get-started.md).  
+I [!INCLUDE[prod_short](includes/prod_short.md)] vil noe være kjent for deg, og andre ting er kanskje ikke kjent. Første gang du logger deg på demoselskap, får du tilgang til en Komme i gang-side med veiledninger for assistert oppsett som kan hjelpe deg med å komme i gang. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 Hvis det oppstår problemer, kan siden [Vanlige spørsmål](across-faq.md) hjelpe deg med å besvare noen av spørsmålene dine. Hvis du ikke kunne registrere deg for prøveversjonen, kan siden [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md). Du kan også kontakte en [partner](across-faq.md#findpartner) og be vedkommende om å opprette en gratis prøveversjon eller en annen type forhåndsvisning av [!INCLUDE[prod_short](includes/prod_short.md)] for deg.  
 
@@ -89,7 +89,7 @@ Administratoren av [!INCLUDE[prod_short](includes/prod_short.md)] og partneren f
 
 ## <a name="see-also"></a>Se også
 
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Utvide prøveversjonen](admin-extend-trial.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.md)  

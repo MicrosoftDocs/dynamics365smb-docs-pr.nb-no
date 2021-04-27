@@ -1,17 +1,17 @@
 ---
-title: Advarsler og feilmeldinger | Microsoft Docs
+title: Advarsler og feilmeldinger
 description: Lær hvordan du kan feilsøke og finne løsninger på feilmeldinger når du arbeider i Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d57ffe82cefb3e15d9b175c3ac17631e75a3edb3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387176"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5779485"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og feilmeldinger i Dynamics 365 Business Central
 
@@ -19,7 +19,7 @@ I løpet av arbeidsdagen kan du se meldinger i [!INCLUDE [prod_short](includes/p
 
 ## <a name="in-product-user-assistance"></a>Innebygd brukerstøtte
 
-Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] omfatter beskrivelser for de fleste feltene, kolonnene og handlingene du får tilgang til når du velger navnet. I kombinasjon med beskrivende tekster og instruksjonstekster, er disse verktøytipsene, eller bildeforklaringene, vår nåværende implementering av *innebygd brukerstøtte*, som er et viktig prinsipp i dagens programvaredesign.  
+Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] omfatter beskrivelser for de fleste feltene, kolonnene og handlingene du får tilgang til når du velger navnet. I kombinasjon med læringstips for viktige sider, beskrivende tekster og instruksjonstekster, er disse verktøytipsene, eller bildeforklaringene, vår nåværende implementering av *innebygd brukerstøtte*, som er et viktig prinsipp i dagens programvaredesign.  
 
 Hvis du har spørsmål om et felt eller et annet element i brukergrensesnittet, velger du navnet, og du får frem en kort beskrivelse. Velg *Lær mer*-koblingen hvis det ikke er nok.  
 
@@ -41,7 +41,7 @@ Hvis du er administrator eller en superbruker, kan du hjelpe andre ved å slå o
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
 [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

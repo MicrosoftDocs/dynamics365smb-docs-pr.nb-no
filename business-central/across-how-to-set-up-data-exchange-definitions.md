@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384327"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774689"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
 Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å utveksle data i bestemte tabeller med data i eksterne filer, for eksempel for å sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, valutakurser og elementkataloger. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
@@ -95,8 +95,8 @@ Dette er beskrevet i følgende fremgangsmåter.
     |**Kolonnenr.**|Angi tallet som gjenspeiler kolonneposisjonen på linjen i filen.<br /><br /> For XML-filer angir du tallet som gjenspeiler elementtype i filen som inneholder dataene.|  
     |**Navn**|Angi navnet på kolonnen.<br /><br /> For XML-filer kan du angi markeringen som merker dataene som skal utveksles.|  
     |**Datatype**|Angi om dataene som skal utveksles, er av typen **Tekst**, **Dato** eller **Desimal**.|  
-    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[prod_short](includes/prod_short.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466).|  
-    |**Dataformateringskultur**|Angi den eventuelle kulturen for dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](https://go.microsoft.com/fwlink/?LinkID=323466). **Obs!**  Dette feltet er bare relevant for import.|  
+    |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!**  For eksport angir du dataformatet i henhold til [!INCLUDE[prod_short](includes/prod_short.md)]. For import angir du dataformatet i henhold til .NET Framework. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
+    |**Dataformateringskultur**|Angi den eventuelle kulturen for dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Hvis du vil ha mer informasjon, kan du se [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Obs!**  Dette feltet er bare relevant for import.|  
     |**Lengde**|Angi lengden på linjen med fast bredde som inneholder kolonnen, hvis datafilen er av typen **Fast tekst**.|  
     |**Beskrivelse**|Angi en beskrivelse for kolonnen for informasjon.|  
     |**Bane**|Angi posisjonen til elementet i det tilknyttede XML-skjemaet.|  

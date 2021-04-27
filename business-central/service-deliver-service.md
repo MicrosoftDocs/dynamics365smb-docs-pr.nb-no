@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 356ca50a1814756d0ef2ad9c3e478d94af5fd461
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: efb5942dfd58365effdf4d46759ea81f75fe718e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377451"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778325"
 ---
 # <a name="delivering-service"></a>Yte service
 Med funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  

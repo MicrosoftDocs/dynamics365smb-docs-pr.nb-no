@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ed7eaa0d430845afe7efa1e3c3e4d53de172264
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2a55a499d067786f9319a6c81744d67d3e39d9dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382095"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775240"
 ---
 # <a name="norwegian-giro-and-ocr-b-font"></a>Norsk giro og OCR-B-skrift
 En giro (General Interbank Recurring Order) er et betalingssystem som fungerer som en kredittoverføring.  

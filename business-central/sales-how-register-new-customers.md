@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 03/09/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d873c1546cebfccc6d2549b1de2b9d111589c553
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573429"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778600"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -27,7 +27,7 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 
 ## <a name="adding-new-customers"></a>Legge til nye kunder
 
-Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprette maler for ulike kundeprofiler, eller du kan legge til kunder uten maler.  
+Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprette maler for ulike kundeprofiler, eller du kan legge til kunder uten maler. Du kan også opprette en kunde fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 > [!NOTE]  
 > Hvis det finnes kundemaler for ulike kundetyper, vises en side når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.  

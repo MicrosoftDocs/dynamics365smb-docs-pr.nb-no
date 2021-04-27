@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 354d090b567ebdd63280ecc71248a616bc22342d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393927"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771213"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
@@ -23,7 +23,14 @@ Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[prod_short](i
 
 For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Hvis du vil ha tilgang til siden, velger du ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og deretter handlingen **Assistert oppsett**.
 
-Hvis du vil åpne listen over veiledninger for assistert oppsett for en hvilken som helst rolle, kan du alternativt velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett** og deretter velge den relaterte koblingen.
+Hvis du vil åpne listen over veiledninger for assistert oppsett for en hvilken som helst rolle, kan du alternativt velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett** og deretter velge den relaterte koblingen.  
+
+> [!TIP]
+> [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
+
+## <a name="get-started"></a>Kom i gang
+
+Fra og med lanseringsbølge 1 for 2021 kan du bruke kontrollisten **Komme i gang** til å veilede deg gjennom fremgangsmåten slik at du blir klar til å komme i gang, etter at du har logget på for første gang eller starter et nytt selskap. Fremgangsmåten varierer avhengig av land og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre veiledninger for assistert oppsett på listen kan hjelpe deg, avhengig av dine behov.
 
@@ -34,20 +41,28 @@ Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![Sprocket
 >
 > Første gang du logger på, bruker du **Essential**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**. Hvis du vil kjøre veiledningen for assistert oppsett, velger du de tre prikkene og velger deretter **Start oppsett**-handlingen.
+Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**. <!--VERIFY-->  
 
-## <a name="role-center"></a>Rollesenter
+## <a name="teaching-tips-and-tours"></a>Læringstips og innføringer
 
-Få en oversikt over bedriften din i Rollesenter. Øverst ser du et navigasjonsfelt som gir deg enkel tilgang til kunder, leverandører, varer og så videre. I midten finner du **Aktiviteter**-flisene. **Aktiviteter** viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet.
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
-**Sentrale ytelsesindikatorer** kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over **favorittkunder** i rollesenteret, for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
+[!INCLUDE [prod_short](includes/prod_short.md)] omfatter innføring i produkter og opplæringstips som kan hjelpe deg med å komme i gang. I gjeldende versjon er det innføringer i fremgangsmåten for trinnene i listen **Komme i gang** og noen av de mest brukte sidene i demonstrasjonsselskapet, for eksempel kortsiden **Salgsfaktura**.  
 
-Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte data. Øverst i rollesenteret finner du alle handlingene som kan brukes på gjeldende innhold. Dette kan også være skjult, og du trenger bare å klikke eller trykke i det skjulte området for å vise det på nytt.
+Opplæringstips er korte meldinger som informerer, minner eller lærer deg om viktige og nye funksjoner som startes automatisk når du åpner en side. Hvis du for eksempel vil se opplæringstipset for kortet **Salgsfaktura**, kan du velge koblingen i øvre venstre hjørne på siden der det står *Salgsfaktura*. Dette starter en bildeforklaring med en kort beskrivelse av siden, og hva du kan gjøre. Hvis det finnes en innføring i siden, inviterer en kobling til innføringen. Koblingen *Lær mer* tar deg til produkthjelpen for siden.
+
+## <a name="role-specific-home-pages"></a>Rollespesifikke startsider
+
+Avhengig av rollen din så finnes det en oversikt over virksomheten på startsiden. Øverst ser du et navigasjonsfelt som gir deg enkel tilgang til kunder, leverandører, varer og så videre. I midten finner du **Aktiviteter**-flisene. **Aktiviteter** viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet.
+
+**Sentrale ytelsesindikatorer** kan settes opp til å vise et valgt diagram for en visuell fremstilling av, for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste kalt **Favorittkunder** på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
+
+Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte data. Øverst på startsiden finner du alle handlingene som kan brukes på gjeldende innhold. Dette kan også være skjult, og du trenger bare å klikke eller trykke i det skjulte området for å vise det på nytt.
 
 > [!TIP]  
-> Du kan gå tilbake til rollesenteret ved å velge navnet på selskapet øvre venstre.
+> Du kan gå tilbake til startsiden ved å velge navnet på selskapet øvre venstre.
 
-## <a name="company-information"></a>Selskapsopplysninger
+## <a name="company-information"></a>Selskapsinformasjon
 
 Under **Selskapsinnstillinger** kan du vise og redigere informasjon om gjeldende firma, og mye av dette ble forhåndsutfylt hvis du fullførte det assisterte oppsettet **Konfigurer selskap** da du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil endre firmalogo, kontaktinformasjon, innstillinger for banken eller mva-informasjon, kan du gjøre det fra denne siden.  
 
@@ -57,23 +72,22 @@ Hvis du vil legge til flere brukere, kan dette gjøres fra administrasjonssenter
 
 Når brukere opprettes i Microsoft 365, kan de importeres til **Brukere**-siden i ved å bruke handlingen **Få oppdateringer fra Office 365**. Du kan deretter fortsette med å tilordne tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
-## <a name="getting-help"></a>Få hjelp
+## <a name="product-help"></a>Produkthjelp
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] finner du verktøytips som kan hjelpe deg gjennom ulike forretningsprosesser. For hvert verktøytips velger du koblingen **Lær mer** for å åpne hjelpen for den aktuelle siden. På alle sider bruker du Ctrl+F1 på tastaturet for å åpne hjelpen for den aktuelle siden. Spørsmålstegnet i øvre høyre hjørne åpner siden **Hjelp og støtte**, og du kan også gå til produkthjelpen derfra.
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
 ## <a name="next-steps"></a>Neste trinn
 
-Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk **Handlinger**-delen i rollesenteret til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering.
+Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk delen **Handlinger** på startsiden til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering.
 
 ## <a name="see-also"></a>Se også
 
-[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
+[Microsoft Learn-område](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

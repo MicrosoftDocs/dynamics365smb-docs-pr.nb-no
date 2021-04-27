@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7dad6212361eaebc4e08cc2c638a84c41850e9d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385077"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776450"
 ---
 # <a name="changing-language-and-region"></a>Endre språk og område
 
@@ -36,10 +36,10 @@ Endring av tekst som er lagret som applikasjonsdata inngår imidlertid ikke i de
 ## <a name="changing-the-region"></a>Endre område
 Område er forskjellig fra både språket og de juridiske kravene i lokale markeder. Område bestemmer hvordan dataene vises når det gjelder komma justert til venstre eller høyre og visse andre innstillinger. Området bestemmer også noen systemelementer i nettleseren, for eksempel handlingen til å opprette et nytt element i en liste.  
 
-Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringen gjelder bare for deg og ikke for andre brukere i selskapet.  Vær oppmerksom på at valg av område tilbakestilles til innstillingen i Microsoft 365-profilen hvis administrator synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringen gjelder bare for deg og ikke for andre brukere i selskapet.  Valget av område tilbakestilles til innstillingen i Microsoft 365-profilen hvis administratoren synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
->  Når du endrer området, vises en lang liste over språk og områder. Språket påvirkes imidlertid ikke av områdevalget.  
+> Når du endrer området, vises en lang liste over språk og områder. Språket påvirkes imidlertid ikke av områdevalget.  
 
 Hvis du vil endre område, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
@@ -48,19 +48,21 @@ Hvis du vil endre område, går du til **Mine innstillinger**-siden. Hvis du vil
 På siden **Hjelp og støtte** kan du se versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] som firmaet er basert på. Hvis du vil basere et selskap på en annen versjon, kan systemansvarlig opprette et nytt produksjonsmiljø. Hvis du vil ha mer informasjon, kan du se [Opprette et nytt produksjonsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i utvikler- og IT Pro-innholdet.  
 
 ## <a name="languages-of-the-prod_short-help"></a>Språkene i Hjelpen for [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Innholdet i hjelpen for kjernefunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] publiseres til området Microsoft-dokumentasjon og er tilgjengelig på flere ulike språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den i norsk.
 
-### <a name="how-do-i-change-the-language"></a>Hvordan endrer jeg språket?
+### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hvordan endrer jeg språket for Microsoft Docs-området?
+
 Det er enkelt - bla nederst på weblesersiden, og velg verden symbolet nederst til venstre.
 
 > [!NOTE]  
-> Oversikten viser alle språk som støttes av Microsoft-dokumentasjonsområdet. [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig i et begrenset antall land/regioner, men hjelpeinnholdet gjøres tilgjengelig på flere språk. Innholdet i Hjelp er ikke tilgjengelige i alle språk som støttes av Microsoft Docs området.
+> Oversikten viser alle språk som støttes av Microsoft-dokumentasjonsområdet. [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig i et begrenset antall land/områder, og hjelpeinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)] er ikke tilgjengelig på alle språk som Microsoft Docs-området støtter.
 
 ## <a name="see-also"></a>Se også
 
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

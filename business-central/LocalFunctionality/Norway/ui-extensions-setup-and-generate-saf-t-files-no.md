@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fce3505349fb783c2d5276aa370d95dc79aa546a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 08620d5d6e3166936976b127506de8756ee4365d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383507"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5771375"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
 
@@ -94,7 +94,7 @@ Når det gjelder både Online og lokalt, kan du også bruke alternativet for å 
 
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](../../includes/prod_short.md)] ved hjelp av utvidelser](../../ui-extensions.md)  
-[Komme i gang](../../product-get-started.md)
+[Bli klar til å gjøre forretninger](../../ui-get-ready-business.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

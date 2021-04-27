@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont04
 ms.search.keywords: keyboarding, productivity, how do i, filter pane
-ms.date: 11/16/2020
+ms.date: 04/01/2021
 ms.author: mikebc
-ms.openlocfilehash: debbf621795564344f11609236b2faac397c6762
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7ed2b43a1269e97e22de78ff3c6a9a1e0666eb3a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386802"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772232"
 ---
 # <a name="searching-and-filtering-faq"></a>Vanlige spørsmål om søk og filtrering
 Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
@@ -59,7 +59,7 @@ Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og a
 [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Finne sider med rolleutforskeren](ui-role-explorer.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
