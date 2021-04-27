@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a17ce72c88ecb9df07169814a50701635239d725
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: daaa18af0c0255a6e57c5e035e630b0fd34e5d0c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381318"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788005"
 ---
-# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="b2d9f-104">Endre planleggingsforslag i en grafisk visning</span><span class="sxs-lookup"><span data-stu-id="b2d9f-104">Modify Planning Suggestions in a Graphical View</span></span>
+# <a name="modify-planning-suggestions-in-a-graphical-view"></a><span data-ttu-id="504fc-104">Endre planleggingsforslag i en grafisk visning</span><span class="sxs-lookup"><span data-stu-id="504fc-104">Modify Planning Suggestions in a Graphical View</span></span>
 
-<span data-ttu-id="b2d9f-105">En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**.</span><span class="sxs-lookup"><span data-stu-id="b2d9f-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="b2d9f-106">Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.</span><span class="sxs-lookup"><span data-stu-id="b2d9f-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="b2d9f-107">Dette støttes imidlertid ikke i [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="b2d9f-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
+<span data-ttu-id="504fc-105">En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**.</span><span class="sxs-lookup"><span data-stu-id="504fc-105">A typical planning activity is to change or add planning worksheet lines to modify the suggested supply orders before you commit them by running the **Carry out Action Message** function.</span></span> <span data-ttu-id="504fc-106">Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.</span><span class="sxs-lookup"><span data-stu-id="504fc-106">An alternative to doing this in the planning worksheet is to use a graphical view.</span></span> <span data-ttu-id="504fc-107">Dette støttes imidlertid ikke i [!INCLUDE[prod_short](includes/prod_short.md)].</span><span class="sxs-lookup"><span data-stu-id="504fc-107">However, this is currently not supported in [!INCLUDE[prod_short](includes/prod_short.md)].</span></span>  
 
 <!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
@@ -93,16 +93,16 @@ To implement the supply plan changes, you must follow the resulting action messa
  |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
 -->
 
-## <a name="see-also"></a><span data-ttu-id="b2d9f-108">Se også</span><span class="sxs-lookup"><span data-stu-id="b2d9f-108">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="504fc-108">Se også</span><span class="sxs-lookup"><span data-stu-id="504fc-108">See Also</span></span>
 
-[<span data-ttu-id="b2d9f-109">Planlegging</span><span class="sxs-lookup"><span data-stu-id="b2d9f-109">Planning</span></span>](production-planning.md)  
-[<span data-ttu-id="b2d9f-110">Definere produksjon</span><span class="sxs-lookup"><span data-stu-id="b2d9f-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
-[<span data-ttu-id="b2d9f-111">Produksjon</span><span class="sxs-lookup"><span data-stu-id="b2d9f-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
-[<span data-ttu-id="b2d9f-112">Lager</span><span class="sxs-lookup"><span data-stu-id="b2d9f-112">Inventory</span></span>](inventory-manage-inventory.md)  
-[<span data-ttu-id="b2d9f-113">Innkjøp</span><span class="sxs-lookup"><span data-stu-id="b2d9f-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
-[<span data-ttu-id="b2d9f-114">Designdetaljer: Forsyningsplanlegging</span><span class="sxs-lookup"><span data-stu-id="b2d9f-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
-[<span data-ttu-id="b2d9f-115">Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging</span><span class="sxs-lookup"><span data-stu-id="b2d9f-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
-<span data-ttu-id="b2d9f-116">[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="b2d9f-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
+[<span data-ttu-id="504fc-109">Planlegging</span><span class="sxs-lookup"><span data-stu-id="504fc-109">Planning</span></span>](production-planning.md)  
+[<span data-ttu-id="504fc-110">Definere produksjon</span><span class="sxs-lookup"><span data-stu-id="504fc-110">Setting Up Manufacturing</span></span>](production-configure-production-processes.md)  
+[<span data-ttu-id="504fc-111">Produksjon</span><span class="sxs-lookup"><span data-stu-id="504fc-111">Manufacturing</span></span>](production-manage-manufacturing.md)  
+[<span data-ttu-id="504fc-112">Lager</span><span class="sxs-lookup"><span data-stu-id="504fc-112">Inventory</span></span>](inventory-manage-inventory.md)  
+[<span data-ttu-id="504fc-113">Innkjøp</span><span class="sxs-lookup"><span data-stu-id="504fc-113">Purchasing</span></span>](purchasing-manage-purchasing.md)  
+[<span data-ttu-id="504fc-114">Designdetaljer: Forsyningsplanlegging</span><span class="sxs-lookup"><span data-stu-id="504fc-114">Design Details: Supply Planning</span></span>](design-details-supply-planning.md)  
+[<span data-ttu-id="504fc-115">Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging</span><span class="sxs-lookup"><span data-stu-id="504fc-115">Setup Best Practices: Supply Planning</span></span>](setup-best-practices-supply-planning.md)  
+<span data-ttu-id="504fc-116">[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span><span class="sxs-lookup"><span data-stu-id="504fc-116">[Working with [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)</span></span>
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
