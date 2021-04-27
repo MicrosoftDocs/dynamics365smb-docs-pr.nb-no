@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 01/20/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fc5957695145ad3bbc4225c7c7e18dd7ca0c728
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
+ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386302"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5882208"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,6 +35,7 @@ Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/pro
 
     |Hva|Teams-lisens|[!INCLUDE [prod_short](includes/prod_short.md)]-lisens|
     |----|---|---|
+    |Søk etter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
     |Lim inn en kobling til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
     |Vis et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")||
     |Vis flere detaljer i kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
@@ -49,8 +50,8 @@ Som Teams-administrator kan du behandle alle apper for organisasjonen, inkludert
 
 Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-dokumentasjonen:
 
-- [Behandle appene i Microsoft Teams-administrasjonssenteret](https://docs.microsoft.com/MicrosoftTeams/manage-apps)
-- [Administrere policyer for appoppsett i Microsoft Teams](https://docs.microsoft.com/microsoftteams/teams-app-setup-policies)
+- [Behandle appene i administrasjonssenteret i Microsoft Teams](/MicrosoftTeams/manage-apps)
+- [Administrere policyer for appoppsett i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
 ## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -58,7 +59,7 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] versjon:
 
-    [!INCLUDE [prod_short](includes/prod_short.md)] 2020 lanseringsbølge 2, oppdatering 17.3 eller nyere. Teams-integrasjon støttes bare for [!INCLUDE [prod_short](includes/prod_short.md)] online, ikke lokalt.
+    Lanseringsbølge 1 eller nyere for [!INCLUDE [prod_short](includes/prod_short.md)] 2021. Teams-integrasjon støttes bare for [!INCLUDE [prod_short](includes/prod_short.md)] online, ikke lokalt.
 
 - Codeunit **2718 Page Summary Provider** publiseres som en webtjeneste:
 
@@ -66,8 +67,9 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
 
 - <a name="permissions"></a>Brukertillatelser:
 
-    For det meste kontrolleres sidene og dataene som brukere kan vise og redigere i en Teams-samtale, av tillatelsene deres i [!INCLUDE [prod_short](includes/prod_short.md)].
+    For det meste kontrolleres kontaktene, søkene, sidene og dataene som brukere kan vise og redigere i en Teams-samtale, av tillatelsene deres i [!INCLUDE [prod_short](includes/prod_short.md)].
     
+    - For å kunne søke etter kontakter, må brukerne minst ha lesetilgang til tabellen **Kontakter**. 
     - For å lime inn en [!INCLUDE [prod_short](includes/prod_short.md)]-kobling i en Teams-samtale og la den utvides til et kort, må brukerne minst ha lesetillatelse på siden og tilhørende data.
     - Når et kort er sendt til en samtale, kan alle brukere i denne samtalen vise kortet uten tillatelse til [!INCLUDE [prod_short](includes/prod_short.md)].
     - For å vise flere detaljer for et kort eller åpne posten i [!INCLUDE [prod_short](includes/prod_short.md)], må brukere ha lesetillatelse på siden og tilhørende data.
@@ -92,13 +94,13 @@ Du hindrer at bestemte brukere eller grupper sender kort til chatter eller kanal
 
 Du kan også bruke informasjonshindringer for å hindre at enkelt personer eller grupper kommuniserer med hverandre. Hvis du vil finne ut mer, kan du se [informasjonshindringer i Microsoft Teams](/microsoftteams/information-barriers-in-teams).
 
-Funksjonene for hindring av tap av data i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. Hvis du vil spore kommende, avanserte funksjoner som omfatter å aktivere DLP for kort, kan du se [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).
+Funksjonene for hindring av tap av data i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
 ### <a name="responding-to-data-requests"></a>Svare på dataforespørsler
 
 Du tillater at teammedlemmer og teameiere sletter meldinger som inneholder sensitive kort ved å definere meldingspolicyer, for eksempel **Eiere kan slette sendte meldinger** og **Brukere kan slette sendte meldinger**. Hvis du vil ha mer informasjon, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
-Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. Hvis du vil spore kommende samsvarsfunksjoner for kort, kan du se [https://www.microsoft.com/microsoft-365/roadmap?featureid=68875](https://www.microsoft.com/microsoft-365/roadmap?featureid=68875).
+Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Compliance Center kan også brukes for kort.
 
 Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruke [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner til å eksportere kundens data hvis du blir bedt om det. Hvis du vil ha mer informasjon om personvern i [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om personvern for Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 

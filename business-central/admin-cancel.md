@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a34e79b1cc77844ce712a6a6df294b2f3218f363
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378751"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786860"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Avbryte eller fjerne [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -41,7 +41,7 @@ Brukerkontoer og lisenser behandles i [Microsoft 365-administrasjonssenter](http
 Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren, kan du ganske enkelt løsne den. Dette fjerner ikke data, og det avbryter ikke abonnementet.  
 
 ## <a name="see-also"></a>Se også
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Opprette nye seleskaper](about-new-company.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)  
 [Microsoft 365-admininstrasjonssenter](https://admin.microsoft.com/)  

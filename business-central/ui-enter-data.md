@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6ad3faedc77b1293fa9e42d65e59db4c2d00b529
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393302"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784818"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -242,34 +242,9 @@ Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hv
 
  Du angir to tall for hver tidsenhet hvis du ikke angir et skilletegn.  
 
-## <a name="entering-datetimes"></a>Angi datoer og klokkeslett
+## <a name="entering-combined-datetimes"></a>Angi kombinerte datoer og klokkeslett
 
-Når du angir datoer og klokkeslett, må du angi et mellomrom mellom datoen og klokkeslettet.  
-
-Tabellen nedenfor viser forskjellige måter som du kan angi datoer og klokkeslett på, og hvordan de tolkes.  
-
-|Angivelse|Tolkning|  
-|---------------|------------------------|  
-|`131202` 132455|13.12.02 13.24.55|  
-|1-12-02 10|01.12.02 10:00:00|  
-|1.12.02 5|01.12.02 05:00:00|  
-|1.12.02|01.12.02 00.00.00|  
-|11 12|11.nneværende måned.inneværende år 12.00.00|  
-|1112 12|11.12.inneværende år 12.00.00|  
-|d eller i dag|dagens dato 00:00:00|  
-|d klokkeslett|dagens dato og klokkeslett|  
-|d 10.30|dagens dato 10:30:00|  
-|d 3.3.3|dagens dato 03.03.03|  
-|a eller arbeidsdag|arbeidsdatoen 00.00.00|  
-|m eller mandag|mandag i inneværende uke 00.00.00|  
-|ti eller tirsdag|tirsdag i inneværende uke 00:00:00|  
-|o eller onsdag|onsdag i inneværende uke 00.00.00|  
-|to eller torsdag|torsdag i inneværende uke 00.00.00|  
-|f eller fredag|fredag i inneværende uke 00.00.00|  
-|l eller lørdag|lørdag i inneværende uke 00.00.00|  
-|s eller søndag|søndag i inneværende uke 00.00.00|  
-|ti 10.30|tirsdag i inneværende uke 10:30:00|  
-|ti 3.3.3|tirsdag i inneværende uke 03.03.03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angi varighet
 

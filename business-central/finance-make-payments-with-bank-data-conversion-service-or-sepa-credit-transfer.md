@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/13/2021
 ms.author: bholtorf
-ms.openlocfilehash: 210dbfd3450d4cc703f73fc2cd078b0155c599da
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d48172569ba8e93410dfb20a22eed785574f3989
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5391852"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889234"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring
 
@@ -46,6 +46,9 @@ Før du kan behandle betalingen elektronisk ved å eksportere betalingsfiler i f
 * Definer den tilknyttede finanskladden slik at betalingseksport kan utføres fra siden **Utbetalingskladd**.  
 * Knytt datautvekslingsdefinisjon for én eller flere betalingstyper til de(n) aktuelle betalingsmåten(e):  
 
+> [!TIP]
+> Denne artikkelen gjelder den generelle versjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. I ditt land eller din region kan flere nødvendige felt ha blitt lagt til på de ulike sidene. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
 ### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Slik oppretter du en bankkonto for SEPA-kredittoverføring:
 
 1. Skriv inn **Bankkontoer** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
@@ -64,15 +67,14 @@ Før du kan behandle betalingen elektronisk ved å eksportere betalingsfiler i f
 3. Velg **BANK** i hurtigfanen **Betaling** i feltet **Betalingsmåte - kode**.  
 4. I feltet **Foretrukket bankkonto** velger du banken som pengene skal overføres til når den behandles av den elektroniske banken.  
 
-     Verdien i feltet **Foretrukket bankkonto** overføres til feltet **Mottakerbankkonto** på siden **Utbetalingskladd**.  
+     Hvis du ennå ikke har definert en bank for denne leverandøren, kan du gjøre det nå. Hvis du vil ha mer informasjon, kan du se [Definere bankkonti for eksport av bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Verdien i feltet **Foretrukket bankkonto** overføres til feltet **Mottakerbankkonto** på siden **Utbetalingskladd**.  
 
 ### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Slik definerer du utbetalingskladden for eksport av betalingsfiler:
 
 1. Skriv inn **Utbetalingskladder** i **Søk**-boksen, og velg deretter den relaterte koblingen.  
-2. Åpne utbetalingskladden du bruker til å behandle betalinger med, ved å eksportere filer i formatet for SEPA-kredittoverføring.  
-3. Velg rulle\-gardinknappen i **Bunkenavn**-feltet.  
-4. På siden **Finanskladder** velger du handlingen **Rediger liste**.  
-5. På linjen for utbetalingskladden du vil bruke til å eksportere betalinger, merker du av for **Tillat betalingseksport**.  
+2. Velg rulle\-gardinknappen i **Bunkenavn**-feltet.  
+3. På siden **Finanskladder** velger du handlingen **Rediger liste**.  
+4. På linjen for utbetalingskladden du vil bruke til å eksportere betalinger, merker du av for **Tillat betalingseksport**.  
 
 ### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Slik knytter du datautvekslingsdefinisjon for én eller flere betalingstyper til de(n) aktuelle betalingsmåten(e):
 

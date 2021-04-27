@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: f2659bcebc046153948ca2a90f97d8437e86a610
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f75e75cbc220e673fe0e841f8a1f1f04b247bb88
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5380359"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784843"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
@@ -52,7 +52,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
         |Description  | Angi en kort oversikt av loven. Beskrivelsen må fokusere på problemer som er relevante for ERP-aktiviteter, slik at brukere kan forstå kravene på høyt nivå uten å måtte lese lovgivningen først.|
         |Land  | Angi landet eller regionen lovgivningen gjelder for.|
         |Bransje| Angi bransje hvis behovet bare gjelder for bestemte bransjer. Velg for eksempel **Offentlig sektor**, **Detaljhandel**, eller **Produksjon**.|
-        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](https://docs.microsoft.com/dynamics/s-e/) på CustomerSource-området. |
+        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](/dynamics/s-e/) på området CustomerSource. |
         |Dato for håndhevelse av lov  | Angi datoen når berørte kunder må begynne å overholde loven.|
         |Offentlig kunngjøringsdato  | Angi datoen myndighetene skal kunngjøre endringen.|
         |Siste registreringsdato  | Velg fristen for den første sendingen av den nye eller endrede rapporten.|
@@ -76,7 +76,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 [Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Velkommen til Business Central](index.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

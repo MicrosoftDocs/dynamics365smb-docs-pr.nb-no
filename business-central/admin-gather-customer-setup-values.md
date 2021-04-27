@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81f70d503f09e7dc6f2b555a21d249105060904b
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378547"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5783977"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
 Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  

@@ -1,31 +1,32 @@
 ---
-title: Telle lagerbeholdning med dokumentbasert funksjonalitet
-description: Beskriver hvordan du utfører vareopptelling ved hjelp av sidene for vareopptellingsordrer og registrering for vareopptelling.
+title: Telle og justere lager
+description: Beskriver hvordan du utfører vareopptelling ved hjelp av lageropptellingsordrene og lageropptellingssidene og foretar negative eller positive justeringer med lagerdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 10/20/2020
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: be22209240f3bff70619a31f60cb0acac7e51228
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5393176"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785951"
 ---
-# <a name="count-inventory-using-documents"></a>Telle lagerbeholdning ved hjelp av dokumenter
+# <a name="count-and-adjust-inventory-using-documents"></a>Telle og justere lagerbeholdning ved hjelp av dokumenter
 
-Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **registrering for vareopptelling** brukes til å kommunisere og registrere den faktiske tellingen av varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
+Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **Registrering for vareopptelling** brukes til å formidle og registrere det faktiske antallet varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
 
 Rapporten **Registrering for vareopptelling** kan skrives ut fra hver registrering og inneholder tomme felt for antall for å angi den opptalte lagerbeholdningen. Når en bruker er ferdig med å telle, og antallet angis på siden **Registrering for vareopptelling**, kan du velge **Fullfør**-handlingen. Dette overfører antallet i de relaterte linjene på siden **Vareopptellingsordre**. Funksjonalitet sikrer at ingen vareopptelling kan registreres to ganger.  
 
 > [!NOTE]
-> Denne artikkelen beskriver hvordan du utfører en vareopptelling ved hjelp av dokumenter, en metode som gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Du kan også utføre aktiviteten ved hjelp av kladder, som sidene **Vareopptellingskladder** og **Lagervareopptellingskladd**. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)<br /><br />
-> Vær oppmerksom på at hvis du bruker funksjonen Soner, kan du ikke bruke vareopptellingsordrer. I stedet kan du bruke siden **Lagervareopptellingskladd** til å telle lagerpostene før synkronisering med varepostene.
+> Bruk av dokumenter til å utføre en vareopptelling, gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Du kan også utføre aktiviteten ved hjelp av kladder, som sidene **Vareopptellingskladder** og **Lagervareopptellingskladd**. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md) Denne artikkelen beskriver hvordan du utfører en vareopptelling ved hjelp av dokumenter.
+>
+> Hvis du bruker soner, kan du ikke bruke vare opptellingsordrer. I stedet kan du bruke siden **Lagervareopptellingskladd** til å telle lagerpostene før synkronisering med varepostene.
 
 Telling av beholdningen ved hjelp av dokumenter består av følgende generelle trinn:
 
@@ -77,7 +78,6 @@ Ved manuell opptellingsdato kan du skrive ut en liste, rapporten **Registrering 
 9. Velg **Skriv ut**-handlingen for å forberede det fysiske dokumentet som de ansatte skal bruke til å notere det opptalte antallet.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Slik avsluttes vareopptellingsregistrering
-
 Når de ansatte har talt lagerantallene, må du forberede registrering av antallet i systemet.
 
 1. Fra siden **Liste over registreringer for vareopptelling** velger du vareopptellingsregistreringen som du vil fullføre, og velg deretter **Rediger**-handlingen.
@@ -185,8 +185,52 @@ En partisporet vare lagres i lageret med "PARTI"-nummerserier.
 
 På siden **Vareopptellingsordre** inneholder feltet **Negativt antall (lagerenhet)** *8*. For den aktuelle ordrelinjen vil siden **Liste over varesporinger for vareopptelling** inneholde de positive eller negative antallene for de enkelte partinumrene.
 
-## <a name="see-also"></a>Se også
+## <a name="inventory-documents"></a>Lagerdokumenter
+Følgende dokumenttyper er nyttige når du skal håndtere lageret:
 
+- Bruke **Lagermottak** til å registrere positive justeringer av varer basert på kvalitet, antall og kostnad.
+- Bruk **Lagerleveringer** til å skrive av manglende eller skadde varer.
+
+Du kan skrive ut disse dokumentene når som helst, frigi og åpne dem på nytt, og tilordne felles verdier, inkludert dimensjoner, i hodet. Hvis du vil skrive ut dokumentene på nytt etter at de er bokført, kan du gjøre det på sidene **Bokført lagermottak** og **Bokført lagerlevering**.
+
+> [!NOTE]
+> Før du kan bruke disse dokumentene, må du angi en nummerserie for å opprette ID-ene. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Definere nummerering for lagerdokumenter
+Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumenter.
+
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
+2. I hurtigfanen **Nummerering** angir du følgende nummerserien for dokumenter i følgende felt:
+   - **Numre for lagermottak**  
+   - **Numre for bokførte lagermottak**  
+   - **Numre for lagerlevering**  
+   - **Numre for bokført lagerlevering**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Opprette og bokføre et lagerdokument
+Følgende fremgangsmåte viser hvordan du oppretter, skriver ut og bokfører et lagermottak. Trinnene er de samme for lagerleveringer.
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+2. I toppteksten på siden **Lagermottak** velger du lokasjonen i feltet **Lokasjonskode**, og deretter fyller du ut de gjenværende feltene etter behov.
+3. I hurtigfanen **Linjer** velger du lagervaren i feltet **Vare**. I feltet **Antall** angir du hvor mange varer som skal legges til. 
+4. Hvis du vil skrive ut en rapport kalt **Lagermottak** fra siden **Lagermottak**, velger du handlingen **Skriv ut**.
+
+Følgende funksjoner er tilgjengelige på siden **Lagermottak**:
+
+- Velg handlingene **Frigi** eller **Åpne på nytt** for å angi statusen for neste behandlingsfase  
+- Velge handlingen **Bokfør** for å bokføre lagermottaket, eller velg **Bokfør og skriv ut** for å bokføre mottaket og skrive ut testrapporten  
+
+## <a name="printing-inventory-documents"></a>Skrive ut lagerdokumenter
+Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge ett av følgende alternativer i feltet **Bruk** på siden **Rapportvalg – beholdning**:
+
+- Lagermottak
+- Lagerlevering
+- Bokført lagermottak
+- Bokført lagerlevering
+
+> [!NOTE]
+> De tilgjengelige rapportene kan variere avhengig av hvor landet befinner seg. Basisprogrammet inkluderer ikke oppsett.
+
+## <a name="see-also"></a>Se også
 [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)  
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Lager](inventory-manage-inventory.md)  

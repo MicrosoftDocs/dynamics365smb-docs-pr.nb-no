@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 60c264bec6719acac574f60980a7a3fdb903b775
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 3b73c2cde88292a38c43e9fcc3bd63b031cd6591
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377476"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787830"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
 Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
@@ -37,15 +37,15 @@ Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombine
     > [!NOTE]  
     >  Bokføringsdatoer som er angitt på individuelle linjer, vil overstyre dette feltet.  
 
-4.  I feltet **Filter for trekkmetode** øverst i kladden kan du også velge å vise forbruk og avgang som er bokført automatisk i henhold til trekkmetodene som er definert for henholdsvis varen og ressursen.  
+4.  I feltet **Filter for trekkmetode** øverst i kladden kan du også velge å vise forbruk og avgang som er bokført automatisk i henhold til trekkmetodene som er definert for henholdsvis varen og ressursen. Hvis du vil ha mer informasjon, kan du se [Aktivere lagertrekk av komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Fortsett med å angi det relevante forbruks- og avgangsantallet i de redigerbare feltene.  
+  
     For hver linjetype i kladden vises bare relevante felt. Resten er tomme og skrivebeskyttet.  
 
     Når kladden åpnes, er den forhåndsdefinert med antallene som skal bokføres. Hvis ingenting er bokført så langt, vil alle antallsfeltene som standard vise de forventede antallene fra produksjonsordren. Hvis delvise bokføringer er foretatt, vil antallsfeltene på linjene vise de gjenstående antallene. Antallene og tidene som allerede er bokført for ordren, vises som faktiske poster nederst i kladden.  
 
     Når det gjelder antallene i **Avgangsantall**-feltet, kan du definere hvilke verdier som skal forhåndsdefineres første gang kladden åpnes. Det gjør du fra **Produksjonsoppsett**-siden, hurtigfanen **Generelt**, i feltet **Forhåndsdefinert avgangsantall**.
-
-5.  Fortsett med å angi det relevante forbruks- og avgangsantallet i de redigerbare feltene.  
 
     > [!NOTE]  
     >  Bare avgangsmengden på den siste kladdelinjen for posttypen **Avgang** vil justere lagernivået ved bokføring av kladden. Derfor må du ikke bokføre kladden med det forventede avgangsantallet forhåndsdefinert på den siste avgangslinjen, før alle sluttvarene faktisk er produsert.  

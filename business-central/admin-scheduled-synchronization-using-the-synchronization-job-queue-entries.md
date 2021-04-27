@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4948dac105a62501ee3006cce0683be819db7ce8
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385327"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889208"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planlegge en synkronisering mellom Business Central og Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -72,7 +72,7 @@ Noen jobbkøoppføringer, for eksempel de som planlegger synkronisering mellom [
 
 Når verdien i dette feltet ikke er null, og jobbkøen ikke fant noen endringer under siste kjøring, setter [!INCLUDE[prod_short](includes/prod_short.md)] jobbkøoppføringen på vent. Når dette skjer, viser **Status for jobbkø**-feltet **Avvent på grunn av inaktivitet**, og [!INCLUDE[prod_short](includes/prod_short.md)] venter på tidsrommet som er angitt i feltet **Tidsavbrudd for inaktivitet** før jobbkøoppføringen kjøres på nytt.  
 
-Som standard vil for eksempel CURRENCY-jobbkøoppføringen, som synkroniserer valutaer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)], se etter endringer i valutakursene hvert 30. minutt. Hvis ingen endringer blir funnet, setter [!INCLUDE[prod_short](includes/prod_short.md)] CURRENCY-jobbkøoppføringen på vent i 720 minutter (seks timer). Hvis en valutakurs endres i [!INCLUDE[prod_short](includes/prod_short.md)] mens jobbkøoppføringen er på vent, vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk aktivere jobbkøoppføringen og starte jobbkøen på nytt. 
+Som standard vil for eksempel CURRENCY-jobbkøoppføringen, som synkroniserer valutaer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)], se etter endringer i valutakursene hvert 30. minutt. Hvis ingen endringer blir funnet, setter [!INCLUDE[prod_short](includes/prod_short.md)] CURRENCY-jobbkøoppføringen på vent i 720 minutter (tolv timer). Hvis en valutakurs endres i [!INCLUDE[prod_short](includes/prod_short.md)] mens jobbkøoppføringen er på vent, vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk aktivere jobbkøoppføringen og starte jobbkøen på nytt. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] vil automatisk bare aktivere jobbkøoppføringer som er satt på vent, når endringer forekommer i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vil ikke aktivere jobbkøoppføringer.

@@ -1,5 +1,5 @@
 ---
-title: Intelligente skyutvidelser i Business Central for skyoverføring | Microsoft-dokumentasjon
+title: Skyoverføringsutvidelser
 description: Bruk skyoverføringsutvidelsene til å overføre de lokale dataene til Business Central på nettet. Disse utvidelsene flytter de lokale dataene til skyen, slik at du kan bruke Business Central på nettet med de eksisterende dataene.
 author: jenolson
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d6110744f14cb959494e2fd5c9b970bd339a77f
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f02face497affd1fd1467c118e10e69f2be39b85
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377351"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889127"
 ---
-# <a name="intelligent-cloud-extensions-for-cloud-migration"></a>Intelligente skyutvidelser for skyoverføring
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Skyoverføringsutvidelser for overføring til Business Central Online
 
 Avhengig av din lokale løsning må du bruke ulike utvidelser for å koble data til lokal [!INCLUDE[prod_short](includes/prod_short.md)] for å overføre løsningen til skyen.  
 
@@ -43,8 +43,7 @@ Hvis du bruker Dynamics SL, hent utvidelsen for **Intelligent skybase**, utvidel
 
 ## <a name="see-also"></a>Se også
 
-[Intelligent innsikt](about-intelligent-cloud.md)  
-[Intelligent skybaseutvidelse](ui-extensions-intelligent-cloud.md)  
-
+[Utvidelse for skyoverføringsbase](ui-extensions-intelligent-cloud.md)  
+[Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

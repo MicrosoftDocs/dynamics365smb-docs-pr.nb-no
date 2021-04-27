@@ -1,5 +1,5 @@
 ---
-title: Konfigurere e-post i Business Central | Microsoft-dokumentasjon
+title: Konfigurere e-post i Business Central
 description: Beskriver hvordan du kobler e-postkontoer til Business Central, slik at du kan sende utgående meldinger uten å måtte åpne en annen app.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.date: 06/15/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b683a8567afbbec812a229e8e8ee0fda81d55bfb
-ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
+ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
+ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470440"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889155"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -37,12 +37,12 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 |Utvidelse  |Beskrivelse  |Eksempler på når den kan brukes  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i Office 365-administrasjonssenteret. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes) hvis du vil ha mer informasjon.|
+|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i administrasjonssenteret i Microsoft 365. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md) hvis du vil ha mer informasjon.|
 |**Gjeldende bruker**|Alle sender e-post fra kontoen de brukte til å logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillat kommunikasjon fra individuelle konti.|
 |**Andre (SMTP)**|Bruk SMTP-protokoll til å sende e-poster.|Tillat kommunikasjon via SMTP-e-postserveren. |
 
 > [!NOTE]
-> Utvidelsene **Microsoft 365** og **Gjeldende bruker** bruker de kontiene du konfigurerte for brukere i administrasjonssenteret for Microsoft 365 for Office 365-abonnementet. Brukere må ha en gyldig lisens for Exchange Online for å sende e-post med utvidelsene. 
+> Utvidelsene **Microsoft 365** og **Gjeldende bruker** bruker de kontiene du konfigurerte for brukere i administrasjonssenteret for Microsoft 365 for Microsoft 365-abonnementet. Brukere må ha en gyldig lisens for Exchange Online for å sende e-post med utvidelsene. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
@@ -51,6 +51,9 @@ Hvis du allerede bruker [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 
 > [!NOTE]
 > Hvis du har tilpasninger som er avhengige av det gamle oppsettet for SMTP-e-post, er det en mulighet for at noe går galt med tilpasningene dine hvis du begynner å bruke e-postutvidelser. Vi anbefaler at du konfigurerer og tester utvidelsene før du aktiverer funksjonen for forbedrede e-postfunksjoner.
+
+> [!IMPORTANT]
+> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du ikke bruke OAuth 2.0-godkjenningsmetoden.<br> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du bruke OAuth 2.0 til godkjenning, men du må opprette en programregistrering i Azure-portalen, og deretter kjører du den assisterte oppsettsveiledningen **Konfigurer Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for å koble til Azure AD. Hvis du vil ha mer informasjon, kan du se [Opprette en programregistrering for Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Legg til e-postkontoer
 Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i gang med e-post.
@@ -61,9 +64,10 @@ Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurer e-postkontoer**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
+
 <!--
 > [!NOTE]
-> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Office 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
+> If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tilordne e-postscenarier til e-postkontoer
@@ -89,10 +93,10 @@ Du kan bruke rapporter til å ta med viktig informasjon fra salgs- og kjøpsdoku
 2. På siden **Rapportvalg - salg**, i **Bruk**-feltet, velger du **Faktura**.
 3. På en ny linje i **-Rapport-ID**-feltet, velger du for eksempel standardrapport 1306.
 4. Merk av for **Bruk for brødtekst i e-post**.
-5. Velg feltet **Oppsettskode for brødtekst i e-post**, og velg deretter et oppsett fra rullegardinlisten.
+5. Velg feltet **Oppsettbeskrivelse for brødtekst i e-post**, og velg deretter et oppsett fra listen.
 
-    Rapportoppsett definerer stilen og innholdet i selve teksten i e-posten, inkludert tekster som en hilsen eller instruksjoner som kommer foran dokumentinformasjonen. Du kan se alle tilgjengelige rapportoppsett hvis du velger **Velg fra hele listen**.
-6. Hvis du vil vise eller redigere oppsettet som teksten i e-post er basert på, velger du oppsettet på siden **Egendefinerte rapportoppsett** og velger deretter handlingen **Rediger oppsett**.
+    Rapportoppsett definerer stilen og innholdet i selve teksten i e-posten, inkludert tekster som en hilsen eller instruksjoner som kommer foran dokumentinformasjonen. Hvis organisasjonen din har mange oppsett, kan du vise alle tilgjengelige rapportoppsett hvis du velger **Velg fra hele listen**.
+6. Hvis du vil vise eller redigere oppsettet som teksten i e-post er basert på, velger du oppsettet på siden **Egendefinerte rapportoppsett** og velger deretter handlingen **Oppdater oppsett**.
 7. Hvis du vil tilby kundene å betale for salg med elektroniske, kan du konfigurere de relaterte betalingstjenestene, for eksempel PayPal, og deretter sette inn PayPal-informasjonen og -koblingen i teksten i e-posten. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
 8. Velg **OK**.
 
@@ -140,7 +144,7 @@ Deretter kobler du [!INCLUDE[prod_short](includes/prod_short.md)] til Exchange O
 ## <a name="setting-up-email-for-business-central-on-premises"></a>Konfigurere e-post for Business Central lokalt 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester som er basert på Microsoft Azure. Du kan for eksempel bruke Cortana Intelligence til smartere kontantstrømprognoser, Power BI til å visualisere bedriften din og Exchange Online til å sende e-post. Integrering med disse tjenestene er basert på en appregistrering i Azure Active Directory. Appregistreringen tilbyr godkjennings- og autorisasjonstjenester for kommunikasjon. Hvis du vil bruke e-postfunksjonen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du registrere [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure Portal, og deretter koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen. De følgende delene beskriver hvordan.
 
-### <a name="create-an-app-registration-for-prod_short-in-azure-portal"></a>Opprett en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal
+### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Opprette en programregistrering for Business Central i Azure Portal
 Fremgangsmåten for å registrere [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal er beskrevet i [Registrer en app i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Innstillingene som er spesifikke for e-postfunksjonen, er de delegerte tillatelsene du gir til appregistreringen. Tabellen nedenfor viser minimumstillatelsene.
 
 |API / navn på tillatelse  |Type  |Beskrivelse  |
@@ -148,16 +152,28 @@ Fremgangsmåten for å registrere [!INCLUDE[prod_short](includes/prod_short.md)]
 |Microsoft Graph / User.Read |Delegert|Logg på og les brukerprofil.         |
 |Microsoft Graph / Mail.ReadWrite |Delegert|Skriv e-postmeldinger.         |
 |Microsoft Graph / Mail.Send|Delegert|Send e-postmeldinger.         |
-|Microsoft Graph / offline_access|Delegert|Behold datatilgangssamtykke. <!--need to verify this-->|
+|Microsoft Graph / offline_access|Delegert|Behold datatilgangssamtykke.|
 
-> [!TIP]
-> Når du oppretter appregistreringen, må du skrive ned følgende informasjon. Du trenger den for å koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen.
-> 
-> * App-ID (klient) 
-> * URI-adresse for omdirigering (valgfritt)
-> * Klienthemmelighet
+Hvis du bruker et gammelt SMTP-oppsett eller SMTP-kontakten og vil bruke OAuth til godkjenning, er tillatelsene litt forskjellige. Tabellen nedenfor viser tillatelsene.
+
+|API / navn på tillatelse  |Type  |Beskrivelse  |
+|---------|---------|---------|
+|Microsoft Graph / offline_access|Delegert|Behold datatilgangssamtykke.|
+|Microsoft Graph / openid|Delegert|Logger brukere på.|
+|Microsoft Graph / User.Read |Delegert|Logg på og les brukerprofil.         |
+|Microsoft Graph / SMTP.Send|Delegert|Sender e-postmeldinger fra postbokser ved hjelp av SMTP-godkjenning.         |
+|Office 365 Exchange Online / User.Read |Delegert|Logger på og leser brukerprofil.         |
+
+Når du oppretter appregistreringen, må du skrive ned følgende informasjon. Du trenger den for å koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen.
+ 
+* App-ID (klient) 
+* URI-adresse for omdirigering (valgfritt)
+* Klienthemmelighet
 
 Hvis du se generelle retningslinjer for å registrere en app, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
+
+> [!NOTE]
+Hvis du har problemer med å bruke det gamle SMTP-oppsettet til å sende e-post etter at du har koblet [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen, kan det skyldes at SMTP-godkjenning ikke er aktivert for leieren din. Det anbefales at du bruker e-postkoblingene til Microsoft 365 og Gjeldende bruker i stedet, ettersom de bruker APIer for Microsoft Graph Mail. Hvis du imidlertid må bruke SMTP-oppsettet, kan du aktivere SMTP-godkjenning. Hvis du vil ha mer informasjon, kan du se [Aktivere eller deaktivere SMTP-sending av godkjent klient (SMTP-godkjenning) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledning **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
@@ -198,7 +214,8 @@ Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledni
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
-[Få [!INCLUDE[prod_short](includes/prod_short.md)] på mobilenheten min](install-mobile-app.md)
-
+[Henter [!INCLUDE[prod_short](includes/prod_short.md)] på mobilenheten min](install-mobile-app.md)
+[Hente [!INCLUDE[prod_short](includes/prod_short.md)] på mobilenheten min](install-mobile-app.md)
+[Analyserer e-posttelemetri (administrasjonsinnhold)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

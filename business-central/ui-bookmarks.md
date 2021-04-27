@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e85c6200f9fafa800e2e44978a5efb10ececefb
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376690"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787480"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som åpner en side eller en rapport fra navigasjonsmenyen i rollesenteret. Dette gir deg muligheten til å komme raskt i kontakt med favorittinnhold eller forretningsoppgaver. Du legger til bokmerket fra målsiden eller rapporten, som betyr skjermbildet du vil at koblingen i rollesenteret skal åpne.
@@ -60,7 +60,7 @@ Muligheten til å sette bokmerke på en side eller rapport er én av mange bruke
 - **Hvorfor kan jeg ikke sette bokmerke på visse sider eller rapporter?**  
 Ikke alle sider og rapporter kan bokmerkes. Når en side eller en rapport kjøres innenfor en spesiell kontekst som styres av forretningsprogrammet, vises ikke bokmerkeikonet. Sider som ikke finnes i **Fortell meg** -vinduet, men som startes fra andre steder, viser for eksempel ikke et bokmerkeikon. Rapportforespørselssider som bare brukes til å samle filtre uten å kjøre rapporten, viser heller ikke et bokmerkeikon.
 
-Se tekniske detaljer om [RunRequestPage](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+Se tekniske detaljer om [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Når tilpassingen fjernes, fjernes også bokmerkene automatisk?**  
 Ja. Bokmerker ligger på navigasjonsmenyen. Hvis du fjerner endringer av navigasjonsmenyen fra en hvilken som helst side, eller fjerner all tilpassinger i rollesenteret, fjernes alle de nye handlingene for godt.

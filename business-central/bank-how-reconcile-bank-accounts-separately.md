@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08b7f6c092267b965af491cd80144950db138c3d
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388702"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786810"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -40,11 +40,11 @@ Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik 
 
 Alle linjer som ikke kan sammenlignes, angitt med en verdi i **Differanse**-feltet, blir værende på siden **Bankkontoavstemming** etter bokføring. De representerer en form for avvik som du må løse før du kan fullføre bankkontoavstemmingen. Typiske forretningssituasjoner som kan forårsake forskjeller:
 
-|Differanse|Årsak|Løsning|
-|-|-|
-|En transaksjon i den interne bankkontoen er ikke på bankkontoutdraget.|Banktransaksjonen inntraff ikke, selv om det ble gjort en bokføring i [!INCLUDE[prod_short](includes/prod_short.md)].|Utfør den manglende pengetransaksjonen (eller be en debitor om å utføre den), og importer deretter bankkontoutdragsfilen eller angi transaksjonen manuelt.|
-|En transaksjon på bankkontoutdraget finnes ikke som et bilag eller en kladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)].|En banktransaksjon ble foretatt uten en tilsvarende bokføring i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel en kladdelinjebokføring for en utgift.|Opprett og bokfør den manglende oppføringen. Hvis du vil ha informasjon om hvordan du raskt kan starte dette, kan du se [Opprette manglende poster for utligning av banktransaksjoner](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with).|
-|En transaksjon i den interne bankkontoen tilsvarer en banktransaksjon, men noe informasjon er for forskjellig for å utgjøre et samsvar.|Informasjon, for eksempel beløpet eller kundenavnet, ble skrevet inn på en annen måte i forbindelse med banktransaksjonen eller den interne posteringen.|Se gjennom informasjonen, og samsvar de to deretter manuelt. Du kan eventuelt korrigere informasjonen som ikke samsvarer.||
+| Differanse | Årsak | Løsning |
+|------------|--------|------------|
+| En transaksjon i den interne bankkontoen er ikke på bankkontoutdraget. | Banktransaksjonen inntraff ikke, selv om det ble gjort en bokføring i [!INCLUDE[prod_short](includes/prod_short.md)]. | Utfør den manglende pengetransaksjonen (eller be en debitor om å utføre den), og importer deretter bankkontoutdragsfilen eller angi transaksjonen manuelt. |
+| En transaksjon på bankkontoutdraget finnes ikke som et bilag eller en kladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)]. | En banktransaksjon ble foretatt uten en tilsvarende bokføring i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel en kladdelinjebokføring for en utgift. | Opprett og bokfør den manglende oppføringen. Hvis du vil ha informasjon om hvordan du raskt kan starte dette, kan du se [Opprette manglende poster for utligning av banktransaksjoner](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines-with). |
+| En transaksjon i den interne bankkontoen tilsvarer en banktransaksjon, men noe informasjon er for forskjellig for å utgjøre et samsvar. | Informasjon, for eksempel beløpet eller kundenavnet, ble skrevet inn på en annen måte i forbindelse med banktransaksjonen eller den interne posteringen. | Se gjennom informasjonen, og samsvar de to deretter manuelt. Du kan eventuelt korrigere informasjonen som ikke samsvarer. |
 
 Du må løse forskjellene, for eksempel ved å opprette manglende poster og korrigere ikke-samsvarende informasjon, eller ved å utføre transaksjoner som mangler penger, til bankkontoavstemmingen er fullført og postert.
 
@@ -57,7 +57,10 @@ Du kan fylle ut ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming
 
 Ruten **Bankkontoutdragslinjer** fylles ut med banktransaksjoner i henhold til en importert fil eller strøm fra banken.
 
-Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
+Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og deretter knytte bankkontoene til relaterte nettbankkonti. Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).  
+
+> [!TIP]
+> Du kan også importere bankkontoutdragsfiler i komma- eller semikolondelt format (.CSV). Bruk veiviseren **Definer et filformat for bankkontoutdrag** for assistert installasjon til å definere importformater for bankkontoutdrag og knytte formatet til en bankkonto. Du kan deretter bruke disse formatene når du importerer bankkontoutdrag på siden **Bankkontoavstemming**.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.

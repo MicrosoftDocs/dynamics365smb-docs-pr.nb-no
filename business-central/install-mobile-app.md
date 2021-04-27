@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/15/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd6b60a284b060fd44339d6f9e10ac7acbb5d159
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: a751254ae127e3bcde2a5313ca6d5bcfe3ec1117
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387227"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786226"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
 
-Få tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
+Få tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Microsoft 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
@@ -64,7 +64,7 @@ Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du ogs
 ## <a name="see-also"></a>Se også
 
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

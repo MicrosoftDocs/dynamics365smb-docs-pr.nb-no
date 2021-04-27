@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: db90c35bde2a08d6131e4a7102f9cdda1f36dfe8
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385952"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5870001"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
@@ -29,6 +29,9 @@ Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med r
 >   Vi anbefaler at du bruker de samme nummerseriekodene som er oppført på siden **Nummerserieliste** i demoselskapet CRONUS. Koder som *P-INV+* gir kanskje ikke umiddelbar mening for deg, men [!INCLUDE[prod_short](includes/prod_short.md)] har en rekke standardinnstillinger som avhenger av disse nummerseriekodene.
 
 Et nummereringssystem lager du ved å opprette én eller flere koder for hver hoveddatatype eller dokumenttype. Du kan for eksempel opprette én kode for å nummerere kunder, en annen kode for å nummerere salgsfakturaer, og enda en kode for å nummerere dokumenter i finanskladder. Når du har opprettet en kode, må du opprette minst én nummerserielinje. Nummerserielinjen inneholder informasjon som for eksempel første og siste nummer i serien, samt startdato. Du kan opprettet mer enn én nummerserielinje per nummerseriekode, med ulik startdato for hver linje. Seriene brukes i rekkefølge, og hver serie starter på sin respektive startdato.
+
+> [!NOTE]
+> Den maksimale lengden på et tall i en nummerserie er 20 tegn. Det finnes noen tilfeller der [!INCLUDE[prod_short](includes/prod_short.md)] vil føye til et nummer med en systemgenerert ID. Når dokumenter som fakturaer for eksempel brukes til å gjennomføre transaksjoner, for eksempel betalinger, genererer [!INCLUDE[prod_short](includes/prod_short.md)] identifikatorer for de utlignede transaksjonene. Identifikatoren består av et tall fra en nummerserie og en systemgenerert ID på seks tegn, for eksempel -12345. Hvis du forventer å behandle mer enn 9999 dokumenter i bank-eller GIRO-kladder, eller innbetalingskladder, kan du definere en nummerserie for disse dokumenttypene for å inkludere færre enn 14 tegn.
 
 Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i rekken på nye kort eller dokumenter du oppretter. Men kan du også definere en nummerserie som tillater at du angir det nye nummeret manuelt. Du angir dette med avmerkingsboksen **Manuelle nr.**
 

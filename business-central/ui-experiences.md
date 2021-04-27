@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e53ef4e33d489de7ff92e537b01b8563e62ba77
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 6991b640319abf43718c1832b8bbea17bce0a0f1
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379636"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784295"
 ---
 # <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er utformet for å hjelpe deg med å drive bedriften din uavhengig av størrelse og kompleksitet. I kjernen av produktet finner du viktige funksjoner, for eksempel regnskapsrapporter, salg, kjøp og lagerstyring. Etter hvert som bedriftskompleksiteten øker, kan du f.eks. aktivere funksjonaliteten for produksjons- og servicestyring.
@@ -30,7 +30,7 @@ Tabellen nedenfor viser opplevelsene som er tilgjengelige for øyeblikket.
 | **Essential** |Viser alle handlinger og felt for alle vanlige forretningsfunksjoner.|
 | **Premium** |Viser alle handlingene og felt for alle forretningsfunksjonene, inkludert produksjons- og servicehåndtering.|
 
-Opplevelser som kan velges i [!INCLUDE[prod_short](includes/prod_short.md)], gjenspeiler løsningslisensene, kalt planer, som er definert for produktet. For informasjon om Essential- og Premium-planer, se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også [[!INCLUDE[prod_short](includes/prod_short.md)]-lisensveiledningen](https://go.microsoft.com/fwlink/?linkid=2068931) (krever tilgang til CustomerSource eller PartnerSource).
+Opplevelser som kan velges i [!INCLUDE[prod_short](includes/prod_short.md)], gjenspeiler løsningslisensene, kalt planer, som er definert for produktet. For informasjon om Essential- og Premium-planer, se [Business Central](https://go.microsoft.com/fwlink/?linkid=870242) på markedsføringssiden for Microsoft Dynamics 365. Se også [lisensveiledningen for [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?linkid=2068931).
 
 > [!IMPORTANT]  
 > Alle vanlige brukere av en løsning må tilordnes samme plan, Essential eller Premium, før denne opplevelsen kan velges for selskapet. På samme måte får ikke én bruker tilgang til Premium-funksjoner hvis én eller flere brukere bare har tilgang til Essential-funksjoner. Dette gjelder ikke for ikke-vanlige brukere av typen teammedlem, intern administrasjon, ekstern regnskapsfører og delegert administrator, som hver kan tilordnes en annen plan enn andre brukere av løsningen.<br /><br /> Bare brukere av typen Evaluering eller Premium kan endre verdien i **Opplevelse**-feltet fra Essential til Premium.

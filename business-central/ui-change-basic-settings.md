@@ -1,6 +1,6 @@
 ---
-title: Vise og redigere grunnleggende innstillinger | Microsoft-dokumentasjon
-description: Finn ut hvordan du kan endre noen av de grunnleggende innstillingene, for eksempel rollesenteret, selskapet eller arbeidsdatoen.
+title: Endre grunnleggende innstillinger for gjeldende bruker
+description: Finn ut hvordan du kan endre noen av de grunnleggende innstillingene, for eksempel rollesenter, selskap eller arbeidsdato.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,30 +8,31 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 61d0ddfd19dede42497607dd0f1897598ac61b80
-ms.sourcegitcommit: 35f7e24c301926b39094aa64fe608afd04fdb8e1
+ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5573329"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787455"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
-På siden **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for [!INCLUDE[prod_short](includes/prod_short.md)]. Endringene du gjør, påvirker bare ditt arbeidsområde, ikke arbeidsområdene til andre brukere.  
+På siden **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for din forekomst av [!INCLUDE[prod_short](includes/prod_short.md)]. Endringene du gjør, påvirker bare ditt arbeidsområde, ikke arbeidsområdene til andre brukere.  
 
-## <a name="role-center"></a><a name="role-center"></a> Rollesenter
+## <a name="role"></a><a name="role-center"></a>Rolle
 
-Rollesenteret representerer hjemmesiden eller startskjermbildet. Den er utformet for behovene til en bestemt rolle i en organisasjon. Avhengig av rollen din gir rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Rollesenteret kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
+Rollen fastslår startsiden, som er et startskjermbilde som er tilpasset behovene til en spesifikk rolle i en organisasjon. Avhengig av rollen din, gir startsiden eller rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Det kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
 
-- Øverst i navigeringen kan du veksle mellom kunder, leverandører, varer og andre viktige lister med opplysninger. På samme måte kan handlinger la deg starte oppgaver, for eksempel opprette en ny salgsfaktura direkte fra rollesenteret.
+* Øverst i navigeringen kan du veksle mellom kunder, leverandører, varer og andre viktige lister med opplysninger. På samme måte kan handlinger la deg opprette oppgaver, for eksempel opprette en ny salgsfaktura direkte fra startsiden.
 
-- I midten finner du **Aktiviteter**-området, som viser gjeldende data. Du kan velge eller trykke på dataene for å vise mer detaljert informasjon. Sentrale ytelsesindikatorer (KPIer) kan settes opp for å vise et valgt diagram for en visuell fremstilling av for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder i rollesenteret, for forretningsforbindelser som du gjør forretninger med ofte, eller som må vies spesiell oppmerksomhet.
+* I midten finner du **Aktiviteter**-området, som viser gjeldende data og kan klikkes eller trykkes for å vise mer detaljert informasjon. Sentrale ytelsesindikatorer (KPIer) kan settes opp for å vise et valgt diagram for en visuell fremstilling av for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
 
 ### <a name="to-change-the-role"></a>Endre rollen
 
-Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.
+Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.  
+
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 2. På siden **Mine innstillinger**, i feltet **Rolle**, velger du rollen som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**-knappen.
@@ -42,15 +43,15 @@ Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/pr
 
 Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan opprette et nytt selskap med egendefinerte data. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper](about-new-company.md).
 
-## <a name="to-change-the-company-name"></a>Endre selskapsnavnet
+### <a name="to-change-the-company-name"></a>Endre selskapsnavnet
 
-Selskapsnavnet vises alltid øverst i venstre hjørne. Det fungerer som en handling du kan velge å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
+Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
 
 1. Velg ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og velg deretter handlingen **Selskapsinformasjon**.
 2. Skriv inn det nye selskapsnavnet i feltet **Navn**.
 3. Forlat siden. Systemet starter på nytt og viser det nye selskapet i øvre venstre hjørne.
 
-## <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Vise et selskapsmerke for rask tilgang til selskapsinformasjon
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Vise et selskapsmerke for rask tilgang til selskapsinformasjon
 
 Du kan legge til et tilpasset merke i øvre høyre hjørne, som du kan velge for å raskt vise selskapsinformasjon og leietakerinformasjon i en popup-boks. Selskapsmerket er også nyttig når [!INCLUDE[prod_short](includes/prod_short.md)] er innebygd i et annet program, for eksempel Microsoft Teams eller i et annet nettprogram. I slike tilfeller, siden [!INCLUDE[web_client](includes/web_client.md)] viser mindre omkringliggende kontekstinformasjon, fungerer firmamerket som den eneste måten å avgjøre hvilket selskap eller hvilket miljø en post tilhører.
 
@@ -61,22 +62,21 @@ Du kan legge til et tilpasset merke i øvre høyre hjørne, som du kan velge for
 > Hvis et selskapsmerke er definert, kan du ikke endre selskapsnavnet slik det er beskrevet i [Endre selskapsnavn](ui-change-basic-settings.md#to-change-the-company-name)
 
 ## <a name="work-date"></a><a name="work-date"></a>Arbeidsdato
-
 Den mest brukte arbeidsdatoen er i dag. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er i dag.
 
 > [!TIP]  
 > I alle dataofelt skriver du inn **i** for å raskt angi i dag, og **a** for å raskt angi arbeidsdato, som er verdien i feltet **Arbeidsdato** på siden **Mine innstillinger**.
 
 > [!IMPORTANT]  
->  Når du endrer arbeidsdatoen, og hvis du logger ut eller bytter til et annet selskap, reverteres arbeidsdataene til standard arbeidsdato. Så neste gang du logger deg på eller bytter tilbake til det opprinnelige selskapet, må du kanskje angi arbeidsdatoen på nytt.
+> Når du endrer arbeidsdatoen, og hvis du logger ut eller bytter til et annet selskap, reverteres arbeidsdataene til standard arbeidsdato. Så neste gang du logger deg på eller bytter tilbake til det opprinnelige selskapet, må du kanskje angi arbeidsdatoen på nytt.
 
 ### <a name="work-date-indication"></a>Arbeidsdatoindikasjon
 
 Arbeidsdatoen er viktig på sider som kan redigeres. Når arbeidsdatoen ikke er satt til dagens dato på en redigerbar side, vises to typer indikatorer på siden:
 
-- Det vises en påminnelse øverst på siden som forteller deg hva arbeidsdatoen er satt til. Påminnelsen gir en direkte kobling til arbeidsdatoinnstillingen på siden **Mine innstillinger**, slik at du kan endre datoen hvis du vil. Fra purringen kan du også velge å lukke påminnelsen for resten av økten. Med mindre du endrer arbeidsdatoen til "i dag", vil påminnelsen vises neste gang du logger på.
+* Det vises en påminnelse øverst på siden som forteller deg hva arbeidsdatoen er satt til. Påminnelsen gir en direkte kobling til arbeidsdatoinnstillingen på siden **Mine innstillinger**, slik at du kan endre datoen hvis du vil. Fra purringen kan du også velge å lukke påminnelsen for resten av økten. Med mindre du endrer arbeidsdatoen til "i dag", vil påminnelsen vises neste gang du logger på.
 
-- Hvis du lukker purringen, vises arbeidsdatoen vises i tittelen på siden.  
+* Hvis du lukker purringen, vises arbeidsdatoen vises i tittelen på siden.  
 
 Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbeidsdato vises øverst til venstre på alle sider der kan du redigere data.
 
@@ -90,18 +90,26 @@ Endre visningsspråket. Dette feltet vises bare når det er mer enn ett språk s
 
 Det første språket bestemmes enten av systemansvarlig eller leserinnstillingene når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)]. Språket som du har angitt, vil bli brukt på alle enhetene du logger på fra, for eksempel telefon eller nettbrett.
 
-Flere språk for [!INCLUDE[prod_short](includes/prod_short.md)] kan installeres fra AppSource. Alle støttede visningsspråk vises i listen. Systemansvarlig må installere den relevante språkappen før brukere kan bytte til det nye språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Flere språk for [!INCLUDE[prod_short](includes/prod_short.md)] kan installeres fra AppSource. Alle støttede visningsspråk vises i listen. Systemansvarlig må installere den relevante språkappen på leieren før brukere kan bytte til det nye språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-when-i-receive-notifications"></a>Endre når jeg mottar varsler
+## <a name="time-zone"></a>Tidssone
 
-Velg denne koblingen for å vise eller endre varslene om bestemte hendelser eller endringer i status. Du kan for eksempel få et varsel om når du er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Administrere varsler](ui-smart-notifications.md).
+Definerer tidssonen du befinner deg i. Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, angis tidssonen basert på selskapets adresse. Endre den hvis den ikke stemmer med den fysiske plasseringen din.  
+
+## <a name="notifications"></a>Varslinger
+
+Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Administrere varsler](ui-smart-notifications.md).
+
+## <a name="teaching-tips"></a>Læringstips
+
+[!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Opprette nye seleskaper](about-new-company.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

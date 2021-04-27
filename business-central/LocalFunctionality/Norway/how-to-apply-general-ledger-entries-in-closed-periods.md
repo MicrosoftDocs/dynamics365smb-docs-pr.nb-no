@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1dd7fc7e1b12da02c87f09d8779c729e3c4ab990
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: f6d6f960e8f93be6243e45ad5283295706a64d1a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5382115"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784039"
 ---
 # <a name="apply-general-ledger-entries-in-closed-periods"></a>Utligne finansposter i lukkede perioder
 [!INCLUDE[prod_short](../../includes/prod_short.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  

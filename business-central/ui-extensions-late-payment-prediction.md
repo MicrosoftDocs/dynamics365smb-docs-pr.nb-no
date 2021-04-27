@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32532dfb1d78f27dc2dac8b61cfc8d0c47e6b6b4
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386852"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5787355"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
@@ -108,7 +108,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell
 8. På hurtigfanen **Legitimasjon for min modell** angir API URL-adressen og API-nøkkelen for modellen.  .  
 
 ## <a name="see-also"></a>Se også  
-[Dokumentasjon for Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
+[Dokumentasjon for Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
 

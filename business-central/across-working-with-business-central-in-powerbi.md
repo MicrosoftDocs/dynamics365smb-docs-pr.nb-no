@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5384152"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786910"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
-I denne artikkelen får du grunnleggende informasjon om å arbeide med rapporter og instrumentbord i Power BI som bruker [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. Artikkelen tar for seg noen aspekter som hjelper deg å komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruker. Når det gjelder generelle retningslinjer og instruksjoner for hvordan du bruker Power BI, kan du se [Power BI-dokumentasjon for forbrukere](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+I denne artikkelen får du grunnleggende informasjon om å arbeide med rapporter og instrumentbord i Power BI som bruker [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. Artikkelen tar for seg noen aspekter som hjelper deg å komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruker. Når det gjelder generelle retningslinjer og instruksjoner for hvordan du bruker Power BI, kan du se [Power BI-dokumentasjon for forbrukere](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Gjøre deg klar
 
@@ -89,7 +89,7 @@ Hvis du vil dele en rapport, velger du **Del** i en liste over rapporter eller i
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  

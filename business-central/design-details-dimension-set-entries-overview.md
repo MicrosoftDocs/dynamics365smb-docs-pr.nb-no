@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0df3fc05935f5a3142564b132e89931fb2647f1
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e03275c55290cccb2d8e91d7a934379184744a36
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5377191"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788336"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensjonssettposter – oversikt
 Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -46,7 +46,7 @@ Codeunit 408, dimensjonsbehandling, er et funksjonsbibliotek som håndterer vanl
 ## <a name="performance-improvement"></a>Ytelsesforbedring  
 Ved å lagre dimensjonssett én gang i databasen beholdes databaseplassen, og den generelle ytelsen blir forbedret.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
 [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
 [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   

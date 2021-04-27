@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/20/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79ce3aba4acf5d5d889bce5ff37bf6d91d83e47c
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: 0267d4af029410da2107fbb4bbbde2e27c364e31
+ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493257"
+ms.lasthandoff: 04/08/2021
+ms.locfileid: "5869976"
 ---
 # <a name="available-fonts"></a>Tilgjengelige skrifter
 
@@ -58,11 +58,13 @@ Følgende strekkode-symbologier støttes:
 * MSI
 * Interleaved 2 of 5
 
+Hvis du vil ha mer informasjon, kan du se [Barcode-skrifter med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
+
 ## <a name="see-also"></a>Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Velg et sjekkoppsett](finance-how-define-check-layouts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Barcode-skrifter med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

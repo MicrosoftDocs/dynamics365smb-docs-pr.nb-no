@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e18566a05a9580c53329d95f52a6e197807e30b3
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381041"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786251"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere selskapskonsolidering
 
@@ -30,6 +30,7 @@ Det finnes to måter å definere konsolideringen på, avhengig av forretningenes
 
 ## <a name="simple-consolidation-setup"></a>Enkelt konsolideringsoppsett
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Hvis konsolideringen er enkel, for eksempel fordi du er eneeier av konsernene som skal konsolideres, vil veiledningen **Selskapskonsolidering** med assistert oppsett hjelpe deg gjennom følgende trinn:
 
 * Velg om du vil opprette et nytt konsolidert selskap eller om du vil konsolidere dataene i et selskap som allerede er opprettet for konsolidering. Selskapet kan ikke inneholde transaksjoner.

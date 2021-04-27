@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 44f52ac27eea6dc9ceb3601b8f42f0aeee56a51c
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: b6bfdbf06597f1ec26c4d25f2c8edccca58afc75
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383518"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784647"
 ---
 # <a name="set-up-vendors-for-remittance"></a>Angi leverandører for remittering
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
