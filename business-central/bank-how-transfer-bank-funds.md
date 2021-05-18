@@ -1,8 +1,6 @@
 ---
-title: Overføre bankkapital| Microsoft-dokumentasjon
+title: Overføre bankkapital
 description: Du kan overføre beløp fra én bankkonto til en annen, inkludert ulike valutaer, ved å bokføre transaksjonen i finanskladden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,50 +8,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
-ms.date: 04/01/2021
+ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: dea39ba380eee574205d57ba198f15213c341ea0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779735"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985390"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankkapital
-Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på siden **Finanskladd**. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
+
+Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på **Finanskladd**-siden. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Bokføre en overføring mellom bankkonti med samme valutakode
+
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
 2. På en av kladdelinjene fyller du ut feltet **Bokføringsdato** og **Bilagsnr.**.
 3. Velg **Bankkonto** i **Kontotype**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.
 5. Angi beløpet som skal overføres i feltet **Beløp**.
-6. Velg handlingen **Vis flere kolonner** for å vise alle tilgjengelige felt.
-7. Velg **Bankkonto** i **Motkontotype**-feltet.
-8. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler til.
-9. Bokfør kladden.
+
+    Du må deretter angi motkontoen. Hvis de relevante feltene ikke vises, velger du handlingen **Vis flere kolonner** for å vise alle tilgjengelige felter.
+6. Velg **Bankkonto** i **Motkontotype**-feltet.
+7. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler til.
+8. Bokfør kladden.
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Slik bokfører du en overføring mellom bankkonti med ulike valutakoder
+
 Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, må du bokføre to linjer i finanskladden.
 
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
 2. Opprett to kladdelinjer, og fyll ut feltene **Bokføringsdato** og **Bilagsnr.**
 3. På den første kladdelinje angir du **Bankkonto** i **Type**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.
-5. I **Beløp**-feltet angir du beløpet i valutaen til bankkontoen. Angi kreditbeløp med minus som fortegn. Angi debetbeløp uten minus som fortegn.
-6. Velg **Bankkonto** i **Motkontotype**-feltet.
-7. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler til.
-8. På den andre kladdelinje angir du **Bankkonto** i **Type**-feltet.
-9. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler til.
-10. I **Beløp**-feltet angir du beløpet i valutaen til bankkontoen. Angi kreditbeløp med minus som fortegn. Angi debetbeløp uten minus som fortegn.
-11. Velg **Bankkonto** i **Motkontotype**-feltet.  
-12. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler fra.
+5. I **Beløp**-feltet angir du beløpet i valutaen til bankkontoen med eller uten et minustegn.
 
-    > [!NOTE]  
-    > Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene på siden **Valutakurser**, angir du en tredje linje for agio/disagio. Angi **Finanskonto** i **Kontotype**-feltet. Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet. Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn for henholdsvis kredit og debet.
-13. Bokfør kladden.
+    > [!TIP]
+    > Et beløp uten et fortegn er et debetbeløp, og et beløp med et minustegn er et kreditbeløp.
+
+    > [!NOTE]
+    > Noen selskaper foretrekker å overføre mellom konti på separate kladdelinjer. Andre selskaper foretrekker å bokføre alt på én kladdelinje ved hjelp av en motkonto. Kontakt den lokale eksperten hvis du ikke er sikker på hva du skal gjøre.
+    >
+    > Hvis selskapet foretrekker å bruke en motkonto, setter du feltet **Motkontotype** til **Bankkonto** og feltet **Motkontonr.** til bankkontoen du vil overføre midlene til. Gå deretter videre til trinn 9 eller 10.
+    >
+    > Hvis selskapet foretrekker å bruke en separat kladdelinje, går du videre til neste trinn.
+6. På den andre kladdelinje angir du **Bankkonto** i **Type**-feltet.
+7. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler til.
+8. I **Beløp**-feltet angir du beløpet i valutaen til bankkontoen med eller uten et minustegn.
+
+    > [!TIP]
+    > Et beløp uten et fortegn er et debetbeløp, og et beløp med et minustegn er et kreditbeløp.
+9. Hvis valutakursene som brukes i kladden, ikke er de samme som valutakursene på siden **Valutakurser**, angir du en ny kladdelinje for agio eller disagio.  
+
+    1. Angi **Finanskonto** i **Kontotype**-feltet.  
+
+    2. Angi finanskontonummeret for agio eller disagio i **Kontonr.**-feltet.  
+
+    3. Angi agio eller disagio i **Beløp**-feltet med eller uten et minustegn.
+
+    > [!TIP]
+    > Et beløp uten et fortegn er et debetbeløp, og et beløp med et minustegn er et kreditbeløp.
+10. Bokfør kladden.
 
 ## <a name="see-also"></a>Se også
+
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  

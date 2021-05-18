@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b66b9f0e158e7947ebaa3f8835d5ca0ca4531113
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772175"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017077"
 ---
 # <a name="save-and-personalize-list-views"></a>Lagre og tilpasse listevisninger
 Når du har definert et filter i en liste og vil beholde filteret til senere bruk, kan du lagre det som en visning. Hvis du vil ha mer informasjon om filtrering av lister, se [Definere filtre på oversikter](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -35,7 +35,7 @@ Hvis det finnes visninger, vises gruppen **Visninger** øverst i filtreringsrute
 Hvis du ikke angir et navn, blir navnet **Alle (kopi)**.
 
 > [!TIP]
-> Ser du ikke ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning")? Hvis du vil ha mer informasjon, kan du se [Hvorfor har jeg ikke et lagringsikon](ui-views-faq.md#save).
+> Ser du ikke ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning")? Hvis du vil ha mer informasjon, kan du se [Hvorfor har jeg ikke et lagringsikon](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Endre navn på eller fjerne en visning
 1. For visningen som for øyeblikket viser listen, velger du ikonet ![Vis flere alternativer](media/show-more-options-icon.png "Vis flere alternativer") for å se hvilke alternativer som er tilgjengelige.
@@ -45,7 +45,7 @@ Hvis du ikke angir et navn, blir navnet **Alle (kopi)**.
 Etter hvert som antall visninger på en side vokser, kan det hende du trenger mer kontroll over hvordan visninger presenteres i filtreringsruten. Med banneret **Tilpasning** kan du skjule uønskede visninger eller omorganisere visningene for å få den perfekte rekkefølgen. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ## <a name="see-also"></a>Se også
-[Vanlige spørsmål om listevisninger](ui-views-faq.md)  
+[Vanlige spørsmål om listevisninger](ui-views-faq.yml)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)    
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

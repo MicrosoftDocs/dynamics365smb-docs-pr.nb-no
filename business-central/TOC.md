@@ -271,8 +271,9 @@
 ###### [Opprette rapporter for å vise listedata](across-how-use-powerbi-reports-factbox.md)
 ##### Forbruker
 ###### [Arbeide med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-###### [Arbeide med Business Central Data i Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Arbeide med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Bruke Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
+##### [Vanlige spørsmål](power-bi-faq.md)
 #### Bruke Power Automate med Business Central
 ##### [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)
 #### Bruke Power Apps med Business Central
@@ -288,8 +289,8 @@
 ## Vanlige spørsmål
 ### [Vanlige spørsmål](across-faq.md)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
-### [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)
-### [Vanlige spørsmål om listevisninger](ui-views-faq.md)
+### [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)
+### [Vanlige spørsmål om listevisninger](ui-views-faq.yml)
 ### [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml)
 ### [Vanlige spørsmål om mobilapper](ui-mobile-faq.md)
 ### [Vanlige spørsmål om Teams](teams-faq.md)
@@ -321,7 +322,7 @@
 ## [Finne sider med rolleutforskeren](ui-role-explorer.md)
 ## [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
 ## [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)
-## [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)
+## [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)
 ## [Skrive inn data](ui-enter-data.md)
 ## [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml)
 ## [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)
@@ -340,13 +341,13 @@
 ### [Lagre og tilpasse listevisninger](ui-views.md)
 ### [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)
 ### [Vise lister på ulike måter](across-display-lists-different-views.md)
-## Skrive ut rapporter og kjøre satsvise jobber og XML-porter
-### [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)
+## Skrive ut rapporter og kjøre satsvise jobber og XMLport-er
+### [Arbeide med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)
 ### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
 ### [Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport)
 ### [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md)
 ### [Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md)
-### [Kjøre satsvise jobber og XML-porter](ui-how-run-batch-jobs.md)
+### [Kjøre satsvise jobber og XMLport-er](ui-how-run-batch-jobs.md)
 ## Endre utseendet til eksternt dokumenter og rapporter
 ### [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)
 ### [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)
@@ -356,10 +357,11 @@
 ### [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)
 ### [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md)
 ### [Tilgjengelige skrifter](ui-fonts.md)
-## Bruke hurtigtaster
-### [Tilgjengelighet og hurtigtaster](ui-accessibility.md)
+## Tilgjengelighet, hurtigtaster og berøringsbevegelser
+### [Tilgjengelighet](ui-accessibility.md)
 ### [Hurtigtaster](keyboard-shortcuts.md)
 ### [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)
+### [Berørings- og pennebevegelser](touch-gestures.md)
 ## [Feilsøking: Få tilgang til kamera og plassering](ui-troubleshooting-camera-location.md)
 ## [Intelligent innsikt (bare online)](about-intelligent-cloud.md)
 # Forretningsfunksjoner
@@ -429,9 +431,10 @@
 ##### [Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-statement-service.md)
 ##### [Opprette bankkonti](bank-how-setup-bank-accounts.md)
 ##### [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
-##### [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
+
 #### Utveksle data
 ##### [Utveksle data](across-exchange-data.md)
+##### [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
 ##### [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 ##### [Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)
@@ -550,6 +553,7 @@
 #### [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md)
 ### [Forstå Finans og kontoplanen](finance-general-ledger.md)
 ### [Arbeide med dimensjoner](finance-dimensions.md)
+### [Feilsøke og korrigere dimensjoner](finance-troubleshooting-correcting-dimensions.md)
 ### [Opprette finansbudsjetter](finance-how-create-budgets.md)
 ### [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)
 ### [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
@@ -567,6 +571,7 @@
 ### [Analysere årsregnskap i Excel](finance-analyze-excel.md)
 ### [Overføre bankkapital](bank-how-transfer-bank-funds.md)
 ### [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
+### [Organisasjoner med flere lokasjoner og internasjonale organisasjoner](finance-multi-site-organizations.md)
 
 ## Business Intelligence og Financial Reporting
 ### [Oversikt over Business Intelligence og Financial Reporting](bi.md)
@@ -705,6 +710,8 @@
 ### [Kjøre full planlegging, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ### [Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ### [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md)
+### [Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)
+### [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Monteringsstyring
@@ -745,8 +752,6 @@
 #### [Plassere produksjonsavgang eller monteringsavgang](warehouse-how-to-put-away-production-output.md)
 #### [Planlegge plasseringer i forslag](warehouse-how-to-plan-put-aways-in-worksheets.md)
 #### [Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
-#### [Gjennomgang: Mottak og plassering i avansert lageroppsett](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 ### Flytte varer
 #### [Flytte varer](warehouse-move-items.md)
 #### [Flytte varer ad hoc i enkle lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -770,8 +775,6 @@
 ### [Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)
 ### [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Gjennomgang: Mottak og plassering i avansert lageroppsett](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-### [Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)
-### [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
 
 ## Servicehåndtering
 ### [Servicebehandling](service-service.md)

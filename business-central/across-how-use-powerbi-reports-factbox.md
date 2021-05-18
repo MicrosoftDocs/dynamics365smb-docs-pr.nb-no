@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 04/26/2021
 ms.author: jswymer
-ms.openlocfilehash: a600b24e16172134d4f8e78cf47efa4e262cac09
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c74593a429c520730efbd503a1884065ca6cd7e4
+ms.sourcegitcommit: 57e8ab70d70849752567eecf29529efe2dcdf3af
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777519"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5941616"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Opprette Power BI-rapporter for å vise listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_long](includes/prod_long.md)] inkluderer et kontrollelement for en Power BI-faktaboks på mange viktige listesider. Formålet med denne faktaboksen er å vise Power BI-rapporter som er knyttet til poster i listene, og som gir ekstra innsikt i dataene. Poenget er at etter hvert som du flytter mellom radene i listen, oppdateres og filtreres rapporten for den valgte posten.
+[!INCLUDE[prod_long](includes/prod_long.md)] inkluderer et kontrollelement for en Power BI-faktaboks på mange viktige listesider. Formålet med denne faktaboksen er å vise Power BI-rapporter som er knyttet til poster i listene, og som gir ekstra innsikt i dataene. Poenget er at etter hvert som du flytter mellom radene i listen, oppdateres rapporten for den valgte posten.
 
 [!INCLUDE[prod_long](includes/prod_long.md)] leveres med noen av disse rapportene. Du kan også opprette egendefinerte rapporter som vises i denne faktaboksen. Oppretting av disse rapportene minner om andre rapporter. Det er imidlertid noen få utformingsregler du må følge for å være sikker på at rapportene vises som forventet. Disse reglene forklares i denne artikkelen.
 
@@ -39,7 +39,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 1. Start Power BI Desktop.
 2. Velg **Hent data**, og begynn med å velge datakilden for rapporten.
 
-    I dette trinnet angir du listesidene for Business Central som inneholder dataene du vil ha med i rapporten. Hvis du for eksempel vil opprette en rapport for Salgsoversikt, sikrer du at datasettet inneholder informasjon knyttet til salg.
+    Angi listesidene for Business Central som inneholder dataene du vil ha med i rapporten. Hvis du for eksempel vil opprette en rapport for **Salgsfakturaer**-listen, tar du med sider som er knyttet til salg.
 
     Hvis du vil ha mer informasjon, følger du instruksjonene under [Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop](across-how-use-financials-data-source-powerbi.md#getdata).
 
@@ -62,9 +62,9 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 6. Lagre og gi navn til rapporten.
 
-    Det er viktig å gi rapporten et navn som inneholder navnet på listesiden som er knyttet til rapporten. Hvis rapporten for eksempel er for listesiden **Varer**, tar du med ordet *varer* et sted i navnet.  
+    Gi rapporten et navn som inneholder navnet på listesiden som er knyttet til rapporten, slik det er i klienten. Det skilles imidlertid ikke mellom store og små bokstaver i navnet. La oss si at rapporten er for **Salgsfakturaer**-listesiden. I dette tilfellet tar du med ordet **salgsfakturaer** et sted i navnet, for eksempel **mine salgsfakturaer.pbix** eller **mine_Salgsfakturaer_listen.pbix**.
 
-    Denne navnekonvensjonen er ikke et krav. Den gjør det imidlertid raskere å velge rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når siden for valg av rapport åpnes fra en listeside, filtreres den automatisk basert på sidenavnet. Denne filtreringen utføres for å begrense antall rapporter som vises. Brukere kan fjerne filteret for å få en fullstendig liste over rapporter som er tilgjengelige i Power BI.
+    Denne navnekonvensjonen er ikke et krav. Den gjør det imidlertid raskere å velge rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når siden for valg av rapport åpnes fra en listeside, brukes et filter automatisk basert på sidenavnet. Filteret har syntaksen `@*<caption>*`, for eksempel `@*Sales Invoices*`. Denne filtreringen utføres for å begrense antall rapporter som vises. Brukere kan fjerne filteret for å få en fullstendig liste over rapporter som er tilgjengelige i Power BI.
 
 7. Når du er ferdig, publiserer du rapporten på vanlig måte.
 
@@ -72,7 +72,7 @@ For more information about getting started, see [Using [!INCLUDE[prod_short](inc
 
 8. Test rapporten.
 
-    Når rapportene er publisert på arbeidsområdet, skal det være tilgjengelig fra Power BI-faktaboksen på listesiden i [!INCLUDE[prod_short](includes/prod_short.md)].
+    Når rapporten er publisert på arbeidsområdet, skal den være tilgjengelig fra Power BI-faktaboksen på listesiden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
     Gjør følgende for å teste det.
 
@@ -97,11 +97,11 @@ Hvis du vil at bakgrunnen i rapporten skal blandes med bakgrunnsfargen til Power
 
 ## <a name="reports-with-multiple-pages"></a>Rapporter med flere sider
 
-Du kan opprette én enkelt rapport med flere sider med Power BI. Når det gjelder rapporter som skal vises på listesider, anbefaler vi ikke at de har flere enn én side. Power BI-faktaboksen viser bare den første siden i rapporten.
+Du kan opprette én enkelt rapport med flere sider med Power BI. Når det gjelder rapporter som skal vises med listesider, anbefaler vi at de ikke har flere enn én side. Power BI-faktaboksen viser bare den første siden i rapporten.
 
 ## <a name="fixing-problems"></a>Løse problemer
 
-Denne delen inneholder instruksjoner om hvordan du løser problemer som kan oppstå i når du prøver å vise en Power BI-rapport for en listeside i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Denne delen forklarer hvordan du løser problemer som kan oppstå i når du prøver å vise en Power BI-rapport for en listeside i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Du kan ikke se Power BI-faktaboksen på en listeside
 
@@ -109,7 +109,7 @@ Power BI-faktaboksen er som standard skjult for visning. Hvis du vil vise faktab
 
 ### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Du kan ikke se rapporten i ruten Velg rapport
 
-Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på listesiden som vises. Fjern filteret for å få en fullstendig liste over tilgjengelige Power BI-rapporter.  
+Navnet på rapporten inneholder ikke navnet på listesiden som vises. Fjern filteret for å få en fullstendig liste over tilgjengelige Power BI-rapporter.  
 
 ### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Rapporten er lastet inn, men tom, ikke filtrert eller filtrert feil
 

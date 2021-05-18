@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9d8f9fc9b74df561aab3109b631fc10c7f46108
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780060"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935339"
 ---
 # <a name="define-retention-policies"></a>Definere oppbevaringspolicyer
 Administratorer kan definere oppbevaringspolicyer for å angi hvor ofte de vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal slette foreldede data i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med dataene som faktisk er relevante. Policyer kan omfatte alle data i tabellene som har passert utløpsdatoen, eller du kan legge til filterkriterier som bare inkluderer bestemte utgåtte data i policyen. 
@@ -67,7 +67,7 @@ Når en utvikler legger til en tabell, kan de angi obligatoriske og standard fil
 
 Følgende er eksempler på hvordan du legger til en tabell i listen over tillatte tabeller med, og uten, obligatoriske eller standard filtre. Hvis du vil ha et mer komplisert eksempel, se codeunit 3999 "Reten. Pol. Install - BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ Følgende er eksempler på hvordan du legger til en tabell i listen over tillatt
 
 Følgende eksempel inneholder et obligatorisk filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,9 +98,12 @@ Følgende eksempel inneholder et obligatorisk filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Når en utvikler har lagt til tabeller i listen, kan en administrator inkludere dem i en oppbevaringspolicy. 
 
 ## <a name="see-also"></a>Se også
+
+[Analysere sporingstelemetri for oppbevaringspolicy](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revidere endringer i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
 [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 86e540a34efba3fccbc0615cac692fd6c405bee0
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882233"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935214"
 ---
 # <a name="teams-faq"></a>Vanlige spørsmål om Teams
 
@@ -230,7 +230,7 @@ Ja. Søk etter kontakter fra Teams er basert på API-er for [!INCLUDE [prod_shor
 
 Etter at du har logget på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams for første gang, prøver appen å fastslå det foretrukne selskapet i [!INCLUDE [prod_short.md](includes/prod_short.md)]. Hvis appen ikke kan fastslå selskapet, må du kanskje gå til **Innstillinger** og velge selskapet du vil søke i. Denne situasjonen oppstår for eksempel hvis du har tilgang til flere selskaper på tvers av miljøer i organisasjonen. I dette tilfellet må du velge et selskap før du kan begynne å søke.  
 
-Appen kan også be deg om å gå til **Innstillinger** hvis du ikke har et [!INCLUDE [prod_short.md](includes/prod_short.md)]-abonnement, ingen [!INCLUDE [prod_short.md](includes/prod_short.md)]-miljøer eller kontoen din ikke har en [!INCLUDE [prod_short.md](includes/prod_short.md)]-lisens.
+Appen kan også be deg om å gå til **Innstillinger** hvis du ikke har et [!INCLUDE [prod_short.md](includes/prod_short.md)]-abonnement, det ikke finnes noen [!INCLUDE [prod_short.md](includes/prod_short.md)]-miljøer eller kontoen din ikke har en [!INCLUDE [prod_short.md](includes/prod_short.md)]-lisens.
 
 ### <a name="id-like-to-search-for-items-or-records-from-other-tables-can-i-do-this-from-teams"></a>Jeg vil gjerne søke etter varer eller poster fra andre tabeller. Kan jeg gjøre dette fra Teams?
 

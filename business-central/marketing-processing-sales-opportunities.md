@@ -1,5 +1,5 @@
 ---
-title: Behandle salgsmuligheter i salgssykluser | Microsoft-dokumentasjon
+title: Behandle salgsmuligheter i salgssykluser | Microsoft Docs
 description: Du kan vise, lukke eller slette salgsmuligheter, du kan opprette tilbud og ordrer for salgsmuligheter, og du kan flytte en salgsmulighet gjennom fasene i en salgssyklus.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: bde08ec0b6f970dc65023cfcc7ab3e4021d4d29f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcdbfe7077b2038879d38a962272c532f97500b1
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784445"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017252"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsmuligheter
 Når du oppretter en salgsmulighet, er det flere funksjoner for å behandle salgsmuligheten og fullføre den.
@@ -44,7 +44,8 @@ Du kan lukke salgsmuligheter når forhandlingene er over. Når du lukker en salg
    I feltet **Lukk. av salgsmuligh. - kode** kan du velge fra en av de eksisterende kodene for lukking av salgsmulighet eller legge til en ny kode. Hvis du vil legge til en ny kode fra rullegardinlisten, velger du **Velge fra hele listen** og deretter **ny**. På den nye, tomme linjen fyller du ut feltet **Kode**, **Type** og **Beskrivelse**, og deretter velg du **OK** knappen.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Opprette tilbud for salgsmuligheter
-Du kan opprette tilbud for kontakter som ikke er registrert som kunder.
+> [!NOTE]
+> Du kan bare opprette tilbud fra salgsmuligheter der kontakttypen er Selskap.
 
 1. På siden **Oversikt over salgsmuligheter** velger du salgsmuligheten og deretter handlingen **Tilordne nytt tilbud**. Siden **Tilbud** åpnes.
 2. Fyll ut de aktuelle feltene.

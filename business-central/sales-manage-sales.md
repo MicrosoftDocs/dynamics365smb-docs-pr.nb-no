@@ -1,5 +1,5 @@
 ---
-title: Oversikt over oppgaver for å håndtere salg | Microsoft-dokumentasjon
+title: Oversikt over oppgaver for å håndtere salg | Microsoft Docs
 description: Beskriver hvordan du håndterer salgsaktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a7d013ab7a630703b38163252359ba803140da9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c80cbbc4ed4feb088116577157407dd8fb98aaf
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773808"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935014"
 ---
 # <a name="sales"></a>Salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -55,7 +55,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Selg monteringsvarer som ikke er tilgjengelige for øyeblikket, ved å opprette koblet monteringsordre for å levere hele eller en del av ordreantallet.|[Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fakturer en kunde én gang for flere leveringer ved å kombinere følgesedler på én faktura.|[Kombinere leveringer på én faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informer kundene om ordreleveringsdatoer ved å beregne første mulige forsendelsesdato eller tilgjengelig for ordre-datoen.|[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
-|Registrer overslagene for fremtidig salg, spesifisert etter vare og etter periode, for å fungere hovedsakelig som inndata til produksjonsplanlegging.|[Opprette en prognose](production-how-to-create-a-forecast.md)|
 |Løs forvirring når det finnes to eller flere poster for samme kunde.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)

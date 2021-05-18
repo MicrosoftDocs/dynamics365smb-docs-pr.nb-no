@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3b79d6245a0f1b8277c94faa58c24edc66662e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
+ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777019"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025811"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Oppgradere en integrasjon med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
@@ -38,6 +38,9 @@ Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCL
    > Når du har aktivert tilkoblingen, er Business Central-integreringsløsningen distribuert til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gjør det mulig å integrere med tabeller som er spesifikke for [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel ordrer, tilbud og fakturaer.
 5. Velg **Distribuer integreringsløsning på nytt** for å installere Business Central-integreringsløsningen på nytt.
 6. På siden **Tilkoblingsoppsett for Sales** velger du **Bruk standard synkroniseringsoppsett** til å initialisere integrasjonstabelltilordninger for [!INCLUDE[crm_md](includes/crm_md.md)].
+
+   > [!IMPORTANT]
+   > Hvis du bruker handlingen **Bruk standard synkroniseringsoppsett**, brukes standard integrasjonstabelltilordninger. Alle egendefinerte tilordninger blir overskrevet. Hvis du har egendefinerte tilordninger du vil beholde, anbefaler vi at du eksporterer dem til Excel eller snakker med Microsoft-partneren om andre måter å beholde de egendefinerte tilordningene på.    
 
 ## <a name="see-also"></a>Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

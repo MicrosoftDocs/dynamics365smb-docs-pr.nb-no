@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: afd64672bac5af39bd5377db417a36ec0ea39fe0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af13192ed4b5ca94d4a01ec913d3c94fd85e5fbc
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776150"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017152"
 ---
 # <a name="frequently-asked-questions-about-using-business-central"></a>Vanlige spørsmål om å bruke Business Central
 
@@ -136,8 +136,8 @@ De første utgivelsene av lokal [!INCLUDE[prod_short](includes/prod_short.md)] i
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Vanlige spørsmål om Fortell meg](ui-search-faq.md)  
-[Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
-[Vanlige spørsmål om listevisninger](ui-views-faq.md)  
+[Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)  
+[Vanlige spørsmål om listevisninger](ui-views-faq.yml)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] uten Outlook](admin-no-outlook.md)  

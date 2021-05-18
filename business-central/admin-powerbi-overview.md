@@ -1,6 +1,6 @@
 ---
 title: Oversikt over komponent og arkitektur for Power BI-integrering for Business Central | Microsoft Docs
-description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
+description: Få informasjon om de ulike aspektene ved Power BI-integrering med Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e1091496b7d4ec4bed4cc8c49fa1e2e00a336a3c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777419"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935239"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -80,8 +80,6 @@ Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du ko
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

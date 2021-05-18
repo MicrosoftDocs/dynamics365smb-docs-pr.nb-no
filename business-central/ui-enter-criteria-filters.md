@@ -1,5 +1,5 @@
 ---
-title: Sortere, søke etter og filtrere oversikter | Microsoft-dokumentasjon
+title: Sortere, søke etter og filtrere oversikter | Microsoft Docs
 description: Økt effektivitet i oversikter ved å søke på tvers av data, sortere kolonner og forbedring av resultater ved hjelp av filtersymboler og tastatursnarveier.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a3d42fccebafdfa80346f04b43a0e3dd29f467d8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
+ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770641"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017177"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 
 Det finnes et par ting du kan gjøre som hjelper deg med å skanne, finne og begrense poster i en liste eller i en rapport eller XMLport. Dette omfatter sortering, søk og filtrering. Du kan bruke noen av eller alle disse samtidig til å finne eller analysere data raskt.
 
-For rapporter og XML-porter kan du definere filtre som i lister for å avgrense hvilke data som skal inkluderes i rapporten eller XMLport, men du kan ikke sortere og søke.
+For rapporter og XMLport-er kan du definere filtre som i lister for å avgrense hvilke data som skal inkluderes i rapporten eller XMLport, men du kan ikke sortere og søke.
 
 > [!TIP]
 > Når du viser dataene som fliser, kan du søke etter og bruke filtrering. Hvis du vil bruke hele settet med avanserte funksjoner for å sortere, søke og filtrere, velger du ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste, pil venstre") for å vise postene som en liste.
@@ -92,7 +92,7 @@ Filtrering er en mer avansert og allsidig måte å kontrollere hvilke poster som
 
 Med filtrering kan du vise poster for bestemte konti eller kunder, datoer, beløp og annen informasjon ved å angi filterkriterier. Bare poster som samsvarer med kriteriene, vises i oversikten eller inkluderes i rapporten, den satsvise jobben eller XMLport. Hvis du angir kriterier for flere felt, vises bare poster som samsvarer med alle kriteriene.
 
-For lister vises filtrene i en filtreringsrute som vises til venstre for listen når du aktiverer den. For rapporter, kjørsler og XML-porter vises filtrene direkte på forespørselssiden.
+For lister vises filtrene i en filtreringsrute som vises til venstre for listen når du aktiverer den. For rapporter, kjørsler og XMLport-er vises filtrene direkte på forespørselssiden.
 
 ### <a name="filtering-with-option-fields"></a>Filtrere med alternativfelt
 
@@ -130,9 +130,9 @@ Filtreringsruten viser gjeldende filtre for en liste og gjør det mulig å angi 
 
 Du kan angi et enkelt filter direkte i en liste ved hjelp av filtreringsruten, det vil si et filter som viser bare poster med samme verdi som i den valgte cellen. Velg en celle i listen, velg rullegardinpilen, og velg deretter handlingen **Filtrer på denne verdien**. Du kan eventuelt trykke på **Alt+F3**.
 
-### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Definere filtre i rapporter, kjørsler og XML-porter
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Definere filtre i rapporter, kjørsler og XMLport-er
 
-For rapporter og XML-porter vises filtrene direkte på forespørselssiden. På forespørselssiden vises de sist brukte filtrene i henhold til valget i feltet **Bruk standardverdi fra**. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
+For rapporter og XMLport-er vises filtrene direkte på forespørselssiden. På forespørselssiden vises de sist brukte filtrene i henhold til valget i feltet **Bruk standardverdi fra**. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
 
 Hoveddelen for **Filter** viser standardfilterfeltene du bruker til å avgrense hvilke poster som skal tas med i rapporten eller XMLport. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere etter, eller velg et felt fra rullegardinlisten.
 
@@ -259,7 +259,7 @@ Det kan være tilfeller der feltverdier inneholder ett av følgende symboler:
 - =
 - &#124;
 
-Hvis du vil filtrere etter noen av disse symbolene, plasserer du filteruttrykket i anførselstegn (''). Hvis du for eksempel vil filtrere på poster som begynner med teksten *J & V*, er filteruttrykket `'J & V*'`.
+Hvis du vil filtrere etter noen av disse symbolene, plasserer du filteruttrykket i enkle anførselstegn (`'<expression with symbol>'`). Hvis du for eksempel vil filtrere på poster som begynner med teksten *J & V*, er filteruttrykket `'J & V*'`.
 
 Dette kravet er ikke nødvendig for andre symboler.
 
@@ -304,7 +304,7 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 
 ## <a name="see-also"></a>Se også
 
-[Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.md)  
+[Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)  
 [Lagre og tilpasse listevisninger](ui-views.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 67e6c0fe9a9653d243b7fd221ed004a1f1495ddf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
+ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783137"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "5985415"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
@@ -36,11 +36,13 @@ Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_shor
 
 Universell utskrift er en tjeneste basert på et Microsoft 365-abonnement som kjører på Microsoft Azure. Den gir deg sentralisert utskriftsbehandling via portalen for Universell utskrift. [!INCLUDE[prod_short](includes/prod_short.md)] gjør at skrivere som er konfigurert med Universell utskrift, tilgjengelige for klientbrukere via utvidelsen **Integrering med Universell utskrift**.
 
+![Konfigurasjon av Universell utskrift](media/Universal-Print-arch.png)
+
 Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved hjelp av [Azure-portalen](https://posrtal.azure.com), og i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Støttede skrivere
 
-[!INCLUDE[prod_short](includes/prod_short.md)] støtter de samme skriverne som Universell utskrift, som kan være enten kompatible eller ikke-kompatible skrivere for Universell utskrift. Ikke-kompatible skrivere kan ikke kommunisere med Universell utskrift direkte, så de krever ekstra koblingsprogramvare, som leveres av Universell utskrift. Det kan hende at enkelte eldre skrivere ikke støttes.
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter de samme skriverne som Universell utskrift, som kan være enten kompatible eller ikke-kompatible skrivere for Universell utskrift. Ikke-kompatible skrivere kan ikke kommunisere med Universell utskrift direkte, så de krever ekstra koblingsprogramvare, som leveres av Universell utskrift. Det kan hende at enkelte eldre skrivere ikke støttes. 
 
 <!-- TODO If not installed, go to AppSource -->
 

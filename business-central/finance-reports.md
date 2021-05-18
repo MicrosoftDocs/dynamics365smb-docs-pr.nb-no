@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783775"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935289"
 ---
 # <a name="financial-reports-in-business-central"></a>Finansrapporter i Business Central
 
@@ -24,7 +24,6 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i Financial Reporting.
 
 |Rapport |Beskrivelse  |
 |---------|---------|
-|**Juster kostverdi – vareposter** | Justerer lagerverdier i verdiposter slik at du bruker det riktige justerte kostbeløpet til å oppdatere Finans, og slik at verdi- og fortjenestestatistikker er oppdaterte. Kostjusteringen videresender eventuelle kostendringer fra inngående poster, for eksempel de for kjøp eller produksjonsavgang, til de relaterte utgående postene, for eksempel salg eller overføringer.  |
 |**Råbalanse**| Viser kontoplanen med saldoer og bevegelser. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. |
 |**Råbalanse etter periode**  | Viser inngående balanse etter finanskonto, bevegelsene i den valgte perioden (måned, kvartal eller år) samt den resulterende utgående balansen.         |
 |**Råbalanse/Budsjett** | Viser en råbalanse sammenlignet med et budsjett. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår.        |

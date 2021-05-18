@@ -1,5 +1,5 @@
 ---
-title: Definere prosjektpriser og prosjektbokføringsgrupper | Microsoft-dokumentasjon
+title: Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 description: Beskriver hvordan du definerer generell prosjektinformasjon og definerer priser for prosjektvarer, ressurser og finanskonti og prosjektbokføringsgrupper.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 597d0ceb94e72305675b446af0031d97e0bc6478
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780460"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938074"
 ---
-# <a name="set-up-jobs"></a>Konfigurer prosjekter
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
 Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
 
@@ -26,30 +26,31 @@ For hver jobb angir du deretter individuelle jobbkort med informasjon om priser 
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Bruken av feltet **Bruk forbrukskobling som standard** er ganske komplisert og forklares derfor i delen nedenfor.
+> Feltet **Bruk forbrukskobling som standard** angir om prosjektposter er koblet til prosjektplanleggingslinjer som standard. Velg feltet hvis du vil bruke denne innstillingen på alle nye prosjekter du oppretter. Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt ved å endre verdien i feltet **Bruk forbrukskobling** på det enkelte prosjektkortet. Konsekvensene forklares i delen nedenfor.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
 
-Når du kjører en jobb, vil du kanskje vite hvordan din bruk spores mot planen din. Du kan enkelt gjøre dette ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Dette lar deg spore kostnader og enkelt se hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
+Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan enkelt gjøre dette ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Dette lar deg spore kostnader og enkelt se hvor mye arbeid som gjenstår. Linjetypen for prosjektplanlegging er som standard *Budsjett*, men bruk av linjetypen **Både Budsjett og Fakturerbar** har lignende virkning.
 
-Hvis du velger feltet **Bruk forbrukskobling som standard**, kan du se gjennom informasjon om prosjektplanleggingslinjen. Du kan angi antallet for ressursen, varen eller finanskontoen og deretter angi antallet du vil overføre til prosjektkladden. Feltet **Restantall** på prosjektplanleggingslinjen angir det som gjenstår å overføres og bokføres til prosjektkladden.
+Etter at du har konfigurert forbrukssporing ved å velge feltet **Bruk forbrukskobling**, kan du se gjennom informasjon om prosjektplanleggingslinjen. Du kan angi antallet for ressursen, varen eller finanskontoen og deretter angi antallet du vil overføre til prosjektkladden. Feltet **Restantall** på prosjektplanleggingslinjen angir det som gjenstår å overføres og bokføres til prosjektkladden.
 
-> [!TIP]  
-> Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt. Verdien av feltet **Bruk forbrukskobling** på det individuelle jobbkortet overstyrer innstillingen på siden **Prosjektoppsett**.  
-
-Når det er merket av for **Bruk forbrukskobling som standard** og prosjektplanleggingslinjetypen er **Fakturerbar**, opprettes en prosjektplanleggingslinje av typen **Budsjett** etter at du bokfører en prosjektkladdelinje.
+>[!NOTE]
+> Hvis **Bruk forbrukskobling** er valgt for enkeltprosjektet og feltet **Linjetype** på prosjektkladdelinjen eller kjøpslinjen er *Fakturerbar*, opprettes det nye prosjektplanleggingslinjer av linjetypen *Budsjett* når du bokfører prosjektkladden eller kjøpsdokumentet.  
+> Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md) og [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Hvis sporing av prosjektforbruk er aktivert, enten på siden **Prosjektoppsett** eller på det individuelle prosjektet, og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det nye prosjektplanleggingslinjer av linjetypen **Budsjett** når du bokfører prosjektkladdelinjer.  
->  
-> Hvis sporing av prosjektforbruk *ikke* er aktivert, enten på siden **Prosjektoppsett** eller på det individuelle prosjektet, og feltet **Linjetype** på prosjektkladdelinjen er tomt, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladdelinjer. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
+> Hvis feltet **Linjetype** på prosjektkladdelinjen eller kjøpslinjen er tomt, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladden eller kjøpsdokumentet.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
-2. Merk av for **Bruk forbrukskobling som standard**.
+<!--
+>[!Important]
+If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
+If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
+-->
+
 
 ## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Slik definerer du priser for ressurser, varer og finanskonti for jobber
 > [!NOTE]
-> I lanseringsbølge 2 i 2020 lanserte vi nye prosesser for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> I lanseringsbølge 2 for 2020 lanserte vi nye fremgangsmåter for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Du kan definere priser for varene, ressursene og finanskontiene som er relatert til en jobb. 
 

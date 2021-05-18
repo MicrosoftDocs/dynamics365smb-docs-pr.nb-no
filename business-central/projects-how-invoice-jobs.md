@@ -1,5 +1,5 @@
 ---
-title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt | Microsoft-dokumentasjon
+title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt | Microsoft Docs
 description: Beskriver hvordan du kan fakturere kunder for prosjektutgifter etter hvert som et prosjekt skrider frem.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9290bda4437ea43edcaa19d7759f2fdee24e8c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 873135d2fa6053b7101a999981fb3117ee8689ab
+ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775068"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938149"
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
@@ -61,21 +61,6 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 > [!NOTE]  
 >   Fremgangsmåten ovenfor er identisk for å opprette, gå gjennom og bokføre en prosjektrelatert salgskreditnota.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Slik beregner og bokfører du prosjektferdiggjørelsesposter
-Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og fakturering, må du oppdatere prosjektet for å sette **Status** til **Ferdig**. Deretter må du reversere alle VIA-er som er bokført i finans.
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
-2. Merk et åpent prosjekt, og velg handlingen **Rediger**.
-3. I feltet **Status** velger du **Fullført**.
-4. Følg hjelpetrinnene for å beregne og bokføre VIA. Alternativt følger du trinn 5 og 6 hvis du vil gjøre dette manuelt.  
-5. Velg handlingen **Beregn VIA**.
-6. På siden **Beregn VIA for prosjekt** fyller du ut feltene etter behov.  
-
-     VIA-postene for prosjekt du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.  
-7. Velg handlingen **Bokfør VIA i Finans for prosjekt**.
-8. Fyll ut feltene etter behov på siden **Bokfør VIA i Finans for prosjekt**.  
-
-     VIA-finanspostene for prosjekt som du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.
 
 ## <a name="see-also"></a>Se også
 [Administrere prosjekter](projects-manage-projects.md)  

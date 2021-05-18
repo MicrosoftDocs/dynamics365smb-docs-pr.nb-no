@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 77108cab69a05165616ad5e1a44f1a3ddc9d4cd9
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882497"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935164"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams
 
@@ -25,7 +25,7 @@ ms.locfileid: "5882497"
 
 - Slå opp [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter fra kommandoboksen i Teams eller fra meldingsområdet. Kontakter kan omfatte kundeemner, leverandører, kunder eller andre forretningsforhold.
 - Dele en kontakt som et kort i en Teams-samtale.
-- Vise detaljer om kontakt informasjon, samhandlingslogg og annen innsikt som utestående betalinger eller åpne dokumenter.
+- Vise detaljer om kontakten, samhandlingsloggen og annen innsikt som utestående betalinger eller åpne dokumenter.
 
 ## <a name="prerequisites"></a>Forutsetninger
 
