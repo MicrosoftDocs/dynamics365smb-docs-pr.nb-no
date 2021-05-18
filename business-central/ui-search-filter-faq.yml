@@ -1,0 +1,72 @@
+### YamlMime:FAQ
+metadata:
+  title: Om søking og filtrering i Business Central
+  description: Svar på vanlige spørsmål om søking og filtrering.
+  author: mikebcMSFT
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.reviewer: edupont04
+  ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.date: 04/01/2021
+  ms.author: mikebc
+  ms.openlocfilehash: 782afb4a5cc811f950226d5812558055772edcad
+  ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+  ms.translationtype: HT
+  ms.contentlocale: nb-NO
+  ms.lasthandoff: 05/11/2021
+  ms.locfileid: "6017313"
+title: Vanlige spørsmål om søk og filtrering
+summary: Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering.
+sections:
+- name: Ignorert
+  questions:
+  - question: >
+      Er det forskjell mellom søking og filtrering?
+    answer: >
+      Ja.
+
+      - Søking er enkelt og bredt: Det samsvarer poster som inneholder tekst på tvers av alle feltene som vises på siden, og er skiller ikke mellom store/små bokstaver.
+
+      - Filtrering er svært fleksibelt og kan brukes mot et bestemt felt, inkludert de som ikke vises på siden: Det viser poster med nøyaktige treff som skiller mellom store/små bokstaver, men kan endres med effektive søkesymboler, spesialtegn og formler. Hvis du vil ha mer informasjon om hvordan du bruker disse funksjonene, se [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md).
+  - question: >
+      Hvilke felter samsvarer nøyaktig med søkingen?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] bruker søkekriteriene på alle felter som er synlige på siden. Hvis et felt er skjult, for eksempel ved hjelp av tilpasning, vil ikke søket vurdere dette feltet. Søkekriterier brukes bare på felter hvis datatypen samsvarer med søkekriteriene. Hvis du for eksempel søker etter begrepet *i dag*, vil det søkes i alle tekst- og kodefelter for den bokstavelige verdien «i dag», og også i datofelter *dagens dato* evalueres som et uttrykk for gjeldende dato, men vil ikke søke i noen numeriske felter. Hvis du vil ha mer informasjon om filterkriterier, kan du se [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md#-filter-criteria-and-operators).
+  - question: >
+      Er det en tastaturopplevelse for søking og filtrering?
+    answer: >
+      Søking og filtrering har blitt svært optimalisert for brukere som foretrekker musfri samhandling for å arbeide effektivt med data. Det finnes en rekke hurtigtaster som kan brukes i rekkefølge til å arbeide raskt. Hvis du vil ha mer informasjon, kan du se [Hurtigtaster](keyboard-shortcuts.md#KeyboardFilter)
+  - question: >
+      Er filtreringsruten tilgjengelig i alle lister?
+    answer: >
+      Filtreringsruten er tilgjengelig på sidene der listen er det primære innholdet på siden, for eksempel forslag og listesider, inkludert lister som er tilgjengelig fra navigasjonslinjen. Filtreringsruten er ennå ikke tilgjengelig for lister som vises som deler, for eksempel faktabokser eller rollesenterdeler, eller for lister som vises som dialogbokser, for eksempel i oppslag. Når en liste er innebygd på en side, for eksempel salgslinjer i en ordre, er filtreringsruten tilgjengelig når du fokuserer på denne listen ved hjelp av fokusmodusknappen. Hvis du vil ha mer informasjon, se [Fokusere på linjeelementer](ui-enter-data.md#Focus).
+  - question: >
+      Hvordan lagrer jeg filtre?
+    answer: >
+      Filtrene og justeringene dine i forhåndsdefinerte filtre huskes gjennom økten (mens du er logget på), selv om du navigerer bort fra siden. Du kan lagre filtre permanent som en navngitt visning av listen ved å velge ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning") i filtreringsruten. Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om listevisninger](ui-views-faq.yml). I motsetning til filtre blir ikke søketeksten husket når du navigerer bort fra en side, og lagres ikke når du lagrer en visning.
+
+
+      På rapportforespørselssider kan du også lagre filtre eller bruke forhåndsdefinerte filtre. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
+  - question: >
+      Er dette det samme som Avanserte filtre og Begrens totaler i Microsoft Dynamics NAV?
+    answer: "[!INCLUDE[prod_short](includes/prod_short.md)] bygger på disse populære funksjonene og gir deg en moderne og brukervennlig opplevelse for å finne og analysere data. Med flere hurtigtaster og innføringen av Søk overgår [!INCLUDE[prod_short](includes/prod_short.md)] funksjonaliteten i Dynamics NAV.  \n"
+  - question: >
+      Kan jeg søke og filtrere ved hjelp av medfølgende apper og tillegg for Microsoft 365?
+    answer: >
+      På andre visningsmål, for eksempel mobilenheter eller Outlook, kan du søke i lister, men ikke filtrere på enkeltfelt i de fleste tilfeller. I [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Microsoft Teams er både søk og filtre tilgjengelige i lister.
+  - question: >
+      Hvordan viser jeg hvordan søkeordene er brukt på felter i listen?
+    answer: >
+      Når du har skrevet inn søkeord i søkefeltet, kan du vise nøyaktige søkekriterier og hvilke felter de er brukt på, ved å åpne ruten for sideinspeksjon (**CTRL + ALT + F1**) og velge fanen **Sidefiltre**.
+  - question: >
+      Kan jeg gjore noe med meldingen "Søk etter rader tar for lang tid"?
+    answer: >
+      Det er en tidsbegrensning på hvor lenge en søkeoperasjon kan ta. Prøv først å endre søkekriteriene og søk på nytt. Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kontakt systemadministratoren, fordi en administrator kan øke tidsfristen for søk.
+
+
+      Som en lokal administrator kan du øke tidsgrensen for søk ved å endre innstillingen **Tidsavbrudd for søk** for [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Hvis du vil ha mer informasjon, se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance?#Database) i hjelpen for utviklere og IT-eksperter for Business Central.
+  - question: >
+      Vil Microsoft utvide filtreringsruteopplevelsen?
+    answer: >
+      Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og agerer på de mest populære forslagene. Hvis du er interessert i å utvide filtreringsturen til flere formfaktorer og flere typer oversikter eller har en god idé om hvordan du kan forbedre den, kan du legge til en idé eller stemme på eksisterende idéer på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+additionalContent: "\n## <a name=\"see-also\"></a>Se også\n   [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  \n   [Finne sider og informasjon med Fortell meg](ui-search.md)  \n   [Finne sider med rolleutforskeren](ui-role-explorer.md)  \n   [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"
