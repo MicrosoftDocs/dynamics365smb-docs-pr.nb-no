@@ -1,5 +1,5 @@
 ---
-title: Skrive ut en lagerplukkliste fra en ordre
+title: Skriv ut en lagerplukkliste fra en ordre
 description: Du kan skrive ut en plukkliste for lager direkte fra en ordre, salg, faktura og andre utgående salgsdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 705302fac91b29592c26b82d3e64a49bdc001d02
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778725"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115464"
 ---
 # <a name="print-the-picking-list"></a>Skrive ut plukklisten
-Du kan skrive ut en plukkliste for lager direkte fra en ordre, salgsfaktura eller andre dokumenter som igangsetter levering av varer.
+
+Du kan skrive ut en plukkliste for lager direkte fra en ordre og andre dokumenter som igangsetter leveringen av varer.
 
 Denne rapporten brukes vanligvis i selskaper uten egen funksjonalitet for lagerstyring, slik at en lagerarbeider ganske enkelt kan vise eller skrive ut plukklisten fra det tilknyttede salgsdokumentet. I selskaper med høyere volum eller mer komplekse prosesser, planlegges plukking og utføres i egne lagerdokumenter. Hvis du vil ha mer informasjon, kan du se [Plukke varer](warehouse-pick-items.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Skrive ut en plukkliste fra en ordre  
-Følgende fremgangsmåte er basert på en ordre. Fremgangsmåten er de samme for alle salgsdokumenter som kan brukes til å starte levering av varer.
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Skrive ut en plukkliste fra en ordre
+
+Følgende fremgangsmåte er basert på en ordre. Fremgangsmåten er de samme for alle andre dokumenter som kan brukes til å starte levering av varer, for eksempel en overføringsordre.
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne ordren du vil plukke varer for.  
@@ -35,10 +37,10 @@ Du kan også lagre plukklisten som et dokument, for eksempel for å sende til no
 > [!NOTE]
 > Hvis du brukte **Utfold stykkliste**-funksjonen på ordren, vises bare komponentene for den tilknyttede monteringsvaren i rapporten. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Lager](inventory-manage-inventory.md)  
 [Plukke varer](warehouse-pick-items.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
-
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

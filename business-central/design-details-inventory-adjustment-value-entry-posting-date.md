@@ -8,22 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 3685a2145186d3e26da7ba0ad6ace0af0b8c0dd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786785"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215106"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetaljer: Bokføringsdato på verdiposten for justering
 Denne artikkelen gir en beskrivelse av funksjonen for kostberegning av beholdning i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne artikkelen beskriver hvordan kjørselen **Juster kostverdi - vareposter** identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.  
 
-Først gjennomgås begrepet om prosessen, hvordan kjørselen identifiserer og tilordner bokføringsdatoen til verdiposten som skal opprettes. Deretter formidler vi noen scenarier som vi i støtteteamet møter på med jevne mellomrom, og til slutt er det en oppsummering av begrepene fra versjon 3.0.  
+Først gjennomgås begrepet om prosessen, hvordan kjørselen identifiserer og tilordner bokføringsdatoen til verdiposten som skal opprettes. Deretter formidler vi noen scenarier som vi i støtteteamet møter på med jevne mellomrom, og til slutt er det en oppsummering av begrepene.  
 
 ## <a name="the-concept"></a>Begrepet  
-Fra versjon 5.0, **Juster kostverdi - vareposter**-kjørselen tilordner en bokføringsdato til verdiposten den skal opprette, på følgende måte:  
+Kjørselen **Juster kostverdi – vareposter** tilordner en bokføringsdato til verdiposten den skal opprette, på følgende måte:  
 
 1.  Først er bokføringsdatoen for posten som skal opprettes, samme dato som posten den justerer  
 
@@ -185,13 +185,13 @@ Den andre verdiposten (381) representerer fakturaen.
 
  **Nedjustering i trinn 4:** Tilordnet bokføringsdato er 15. januar. Verdiposten i området for justering har bokføringsdatoen 15. januar, som er innenfor det tillatte bokføringsdatointervallet i henhold til Finansoppsett.  
 
- Justeringen foretatt for nedjusteringen i trinn 3 fører til diskusjon. Den beste bokføringsdatoen for verdiposten for justering ville vært 20. desember 20 eller i det minste i desember siden revalueringen som forårsaker endringen i vareforbruk, ble bokført i desember.  
+ Justeringen foretatt for nedjusteringen i trinn 3 fører til diskusjon. Den beste bokføringsdatoen for verdiposten for justering ville vært 20. desember eller i det minste i desember siden revalueringen som forårsaker endringen i vareforbruk, ble bokført i desember.  
 
  For å oppnå justering i desember for nedjusteringen i trinn 3, må feltet Bokf. tillatt fra i Finansoppsett angi en dato i desember.  
 
  **Konklusjon:**  
 
- Med erfaringene fra dette scenarioet, når du skal vurdere det best egnede oppsettet for tillatt bokføringsdatointervall for et selskap, kan følgende være nyttig: Såfremt endringer i lagerverdien kan bokføres i en periode, desember i dette tilfellet, må oppsettet selskapet bruker for tillatt bokføringsdatoområde, justeres i henhold til denne beslutningen. Bokf. tillatt fra i finansoppsettet, som angir 1. desember, ville tillatt at revalueringen i desember kunne overføres til påvirkede utgående poster i samme periode.  
+ Med erfaringene fra dette scenarioet, når du skal vurdere det best egnede oppsettet for tillatt bokføringsdatointervall for et selskap, kan du vurdere følgende informasjon: Såfremt du tillater endringer i lagerverdien kan bokføres i en periode, desember i dette tilfellet, må oppsettet som selskapet bruker for tillatt bokføringsdatoområde, justeres i henhold til denne beslutningen. Bokf. tillatt fra i finansoppsettet, som angir 1. desember, ville tillatt at revalueringen i desember kunne overføres til påvirkede utgående poster i samme periode.  
 
  Brukergrupper som ikke kan bokføre i desember, men i januar, som sannsynligvis var ment å være begrenset av finansoppsettet i dette scenarioet, bør i stedet løses via brukeroppsettet.  
 
@@ -220,7 +220,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
 -   Bokf. tillatt til = tom  
 
-##### <a name="to-test-the-scenario"></a>Slik tester du scenarioet:  
+##### <a name="to-test-the-scenario"></a>Slik tester du scenarioet  
 
 1.  Opprett varegebyr:  
 
@@ -333,31 +333,17 @@ Den andre verdiposten (381) representerer fakturaen.
  I dette scenarioet kunne ett alternativ ha vært å angi en dato i desember for noen flere dager i feltet Bokf. tillatt fra i Finansoppsett, og utsette bokføringen av det første varegebyret, slik at alle kostnader for forrige periode/regnskapsår føres for perioden de tilhører først, og kjøre kjørselen Juster kostverdi - vareposter, og deretter flytte den tillatte bokføringsdatoen til den nye perioden\/regnskapsåret. Det første varegebyret med bokføringsdato 2. januar kunne deretter bli bokført.  
 
 ## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Historikk for kjørselen Juster kostverdi - vareposter  
- Nedenfor finner du et sammendrag av begrepet om tilordning av bokføringsdatoer til verdiposter for justering med kjørselen Juster kostverdi - vareposter siden versjon 3.0.  
+ Nedenfor finner du et sammendrag av begrepet om tilordning av bokføringsdatoer til verdiposter for justering med kjørselen Juster kostverdi – vareposter.  
 
-### <a name="from-version-30370a"></a>Fra versjon 3.0..3.70.A  
- I forespørselsskjemaet for kjørselen Juster kostverdi - vareposter finnes det en bokføringsdato som skal angis av brukeren. Kjørselen kjører gjennom alle nødvendige endringer og oppretter verdiposter med bokføringsdatoen som er angitt i forespørselsskjemaet. Foreslått bokføringsdato som skal brukes, er dagens dato.  
-
-### <a name="version-370b40"></a>Versjon 3.70.B..4.0  
- I forespørselsskjemaet for kjørselen Juster kostverdi - vareposter finnes det en lukket bokføringsdato for periodepost som skal angis av brukeren. Kjørselen kjører gjennom alle nødvendige endringer og oppretter verdiposter med bokføringsdatoen for den overordnede vareposten (leveringsdatoen for salget som justeringen adresserer). Hvis bokføringsdatoen for den overordnede vareposten ikke er innenfor tillatt bokføringsdatointervall, tilordnes bokføringsdatoen angitt som lukket bokføringsdato for periodepost til verdiposten for justering. En dato regnes å være i en lukket periode når den er før datoen i feltet Bokf. tillatt fra i finansoppsettet.  
-
-### <a name="from-version-50"></a>Fra versjon 5.0:  
+### <a name="about-the-request-form-posting-date"></a>Om forespørselsskjemaet Bokføringsdato:  
  Det finnes ikke lenger en bokføringsdato som skal angis i forespørselsskjemaet for kjørselen Juster kostverdi - vareposter. Kjørselen kjører gjennom alle nødvendige endringer og oppretter verdiposter med bokføringsdatoen for verdiposten den justerer. Hvis bokføringsdatoen ikke er innenfor tillatt datointervall for bokføring, brukes bokføringsdatoen i feltet Bokf. tillatt fra i finansoppsettet, eller hvis lagerperiodene brukes, brukes den seneste datoen av de to. Se beskrevet begrep ovenfor.  
 
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historikk for kjørselen Bokfør lagerkost i Finans  
  Kjørselen Bokfør lagerkost i Finans er nært knyttet til kjørselen Juster kostverdi – vareposter, og er grunnen til at denne kjørselen oppsummeres og formidles her også.  
-
-### <a name="from-version-30370a"></a>Fra versjon 3.0..3.70.A  
- I forespørselsskjemaet for kjørselen Bokfør lagerkost i Finans finnes det en bokføringsdato som skal angis av brukeren. Kjørselen kjører gjennom alle eventuelle verdiposter i filteret og oppretter finansposter med bokføringsdatoen som er angitt i forespørselsskjemaet.  
-
-### <a name="version-370b40"></a>Versjon 3.70.B..4.0  
- I forespørselsskjemaet for Bokfør lagerkost i Finans er feltet lukket bokføringsdato for periodepost tilgjengelig. Programmet bruker datoen du angir i dette feltet som bokføringsdato for finanspostene som det oppretter for verdiposter, som har bokføringsdatoer i lukkede regnskapsperioder. Ellers vil finanspostene ha samme bokføringsdato som de opprinnelige verdipostene. En dato regnes å være i en lukket periode når den er før datoen i feltet Bokf. tillatt fra i finansoppsettet. Hvis du bokfører til finans per bokføringsgruppe, må finanspostene ha bokføringsdatoen som er angitt i feltet Bokføringsdato i forespørselsskjemaet.  
-
- I versjon 3 og 4 søker kjørselen i alle verdiposter for å se om det finnes verdiposter der Kostbeløp (faktisk) er forskjellig fra Bokført kost. Hvis det er en differanse, bokføres beløpet i en finanspost. Hvis bokføring av forventede kostnader brukes, behandles tilsvarende felt på samme måte.  
-
+ 
 ![Faktiske kostnader og forventede kostnader](media/helene/TechArticleAdjustcost14.png "Faktiske kostnader og forventede kostnader")
 
-### <a name="from-version-50"></a>Fra versjon 5.0:  
+### <a name="about-the-posting-date"></a>Om bokføringsdatoen
  Det finnes ikke lenger en bokføringsdato som skal angis i forespørselsskjemaet for kjørselen Bokfør lagerkost i Finans. Finansposten opprettes med samme bokføringsdato som den relaterte verdiposten. For å fullføre kjørselen må det tillatte bokføringsdatointervallet tillate bokføringsdatoen for den opprettede finansposten. Hvis ikke, må det tillatte bokføringsdatointervallet midlertidig åpnes på nytt ved å endre eller fjerne datoene i feltet Bokf. tillatt fra og Tillat bokf. til i Finansoppsett. For å unngå avstemmingsproblemer må bokføringsdato for finansposten svare til bokføringsdatoen for verdiposten.  
 
  Kjørselen søker gjennom tabell 5811 - Bokfør verdipost i Finans for å identifisere verdipostene innenfor området for bokføring i Finans. Tabellen tømmes når du har utført kjørselen.

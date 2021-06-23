@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: cfdcdd68baa8fdd73ebc75d46650eeee65a28802
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935423"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087672"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
 Organisasjoner med flere lokasjoner bruker ofte en nav-og-eiker-forretningsmodell der et moderselskap, eller hovedkontor, håndterer den generelle driften av virksomheten, mens hver lokasjon fungerer som en frittstående enhet. Lokasjoner er ofte geografisk spredt og har ulike behov for å dele informasjon med moderselskapet. Lokasjoner trenger vanligvis ikke samme grad av kompleksitet og har ofte ikke ressursene til å opprettholde et stort system.
@@ -38,8 +38,8 @@ Forretningsbehov på lokasjoner varierer etter bransje, forretningsmetoder eller
 
 Når det gjelder flernasjonale organisasjoner, støtter [!INCLUDE[prod_short](includes/prod_short.md)] lokale lovfestede krav og lokal forretningspraksis.
 
-* Når det gjelder nettversjoner, finnes det flere enn [40 lokaliserte landsversjoner](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installere som utvidelser fra Microsoft AppSource.  
-* Når det gjelder lokale versjoner, er [landsversjoner](https://docs.microsoft.com/azure/architecture/solution-ideas/articles/business-central) tilgjengelige som Microsoft-lokaliserte versjoner eller partnerledede tilleggslokaliseringer.
+* Når det gjelder nettversjoner, finnes det flere enn [40 lokaliserte landsversjoner](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installere som utvidelser fra Microsoft AppSource.  
+* Når det gjelder lokale versjoner, er [landsversjoner](/azure/architecture/solution-ideas/articles/business-central) tilgjengelige som Microsoft-lokaliserte versjoner eller partnerledede tilleggslokaliseringer.
 
 Et nettverk med flere enn 4 000 Microsoft-partnere over hele verden tilbyr lokal ekspertise.
 
@@ -80,12 +80,12 @@ API-er og XMLport-er gjør det enklere å koble sammen forekomster av [!INCLUDE[
 | **Forretningsbehov** | **Hvordan Business Central støtter det** | **Finn ut mer** |
 |-------------------------|-------------------------|-------------------------|
 | Koble sammen egendefinerte versjoner mellom lokasjoner og moderselskapet. | API-sider kan vise alle representasjoner av en enhet, inkludert tilpassingene. | [Aktivere API-er for Business Central](/dynamics-nav/enabling-apis-for-dynamics-nav) |
-| Versjonskontroll og sikkerhet. | API-er bruker ODataV4, som gir versjonskontroll, og webhooks og endringssporing. | [Sikkerhet og beskyttelse](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/security/security-and-protection) |
-| Bokfør og importer XML-dokumenter. | Kodeenheter kan vises som ubundne handlinger for å støtte bokføring og inntak av XML-dokumenter. XMLport-er kan brukes ved behandling av XML-dokumenter. Ubundne handlinger kan også generere et XML- eller JSON-dokument. | [XMLport-objekter](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
+| Versjonskontroll og sikkerhet. | API-er bruker ODataV4, som gir versjonskontroll, og webhooks og endringssporing. | [Sikkerhet og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection) |
+| Bokfør og importer XML-dokumenter. | Kodeenheter kan vises som ubundne handlinger for å støtte bokføring og inntak av XML-dokumenter. XMLport-er kan brukes ved behandling av XML-dokumenter. Ubundne handlinger kan også generere et XML- eller JSON-dokument. | [XMLport-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Gjør vedlikehold enklere via elektronisk datautveksling. | Det går an å legge til en elektronisk datautvekslingsløsning som fungerer som et integreringslag mellom moderselskapet og lokasjonene. | [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md) |
-| Utveksle data mellom ulike systemer. | Bruk XMLport-er til å opprette XML-dokumenter, som deretter kan utveksles mellom et moderselskap som bruker ett system og lokasjoner som bruker Business Central. | [Oversikt over XMLport](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
+| Utveksle data mellom ulike systemer. | Bruk XMLport-er til å opprette XML-dokumenter, som deretter kan utveksles mellom et moderselskap som bruker ett system og lokasjoner som bruker Business Central. | [Oversikt over XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
 | Iverksett komplekse datautvekslinger. | Bruk en kombinasjon av XMLport-er med Business Central og Microsoft BizTalk Server til å oppfylle unike behov på lokasjonene.</br>Når det gjelder komplekse behov, bruker du en elektronisk datautvekslingsløsning basert på BizTalk Server og Commerce Gateway i Business Central sammen med XMLport-ene. | [Arbeide med rapporter, satsvise jobber og XMLport-er](ui-work-report.md) |
-| Koble til tredjepartsløsninger og -tjenester. | API-er oppretter en punkt-til-punkt-forbindelse mellom Business Central og tredjepartsløsninger og -tjenester. | [API v2.0](https://docs.microsoft.com/dynamics-nav/api-reference/v2.0/) |
+| Koble til tredjepartsløsninger og -tjenester. | API-er oppretter en punkt-til-punkt-forbindelse mellom Business Central og tredjepartsløsninger og -tjenester. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
 ## <a name="promote-an-efficient-intercompany-supply-chain"></a>Fremme en effektiv konsernintern forsyningskjede

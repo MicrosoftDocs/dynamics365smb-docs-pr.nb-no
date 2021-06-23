@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e4ca4287c0fda629e8c6e5b923a01ba8691563c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f7badb1b8e43e98b8d2088ab8d963f46a5fc3f48
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782837"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214631"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i avansert lageroppsett
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
 
@@ -159,7 +159,7 @@ På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermotta
  [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)   
- [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)   
+ <!-- [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)    -->
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)
 
 

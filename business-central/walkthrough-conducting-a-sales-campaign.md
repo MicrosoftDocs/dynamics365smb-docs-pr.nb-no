@@ -1,5 +1,5 @@
 ---
-title: Gjennomgang – kjøre en salgskampanje | Microsoft-dokumentasjon
+title: 'Gjennomgang: kjøre en salgskampanje'
 description: En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I Business Central kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,48 +8,54 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4e83d43f03601568f46758deae74670d4eee9043
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
+ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782937"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102436"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
+
 En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.  
 
  Du bruker disse funksjonene i Salg og markedsføring til å planlegge markedsføringsaktivitetene omhyggelig og å håndtere samhandling med kontakter og kunder. Du kan opprette kampanjer og definere segmenter for kontaktene for utsendelser og andre typer samhandlinger med kontaktene og potensielle kunder.  
 
  Du kan bruke funksjonene for kampanje og segment samt de automatiserte prosessene i dem til å planlegge, organisere og holde rede på markedsføringsaktivitetene. Dette øker mulighetene for å få nye kunder og beholde eksisterende kunder.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+
  Denne gjennomgangen viser fremgangsmåten for oppfølging av en varemesse og utvalg av potensielle kunder (kontakter) i en oppfølgingskampanje.  
 
  Gjennomgangen introduserer funksjonen for håndtering av kampanje og segment i avdelingen Salg og markedsføring. Denne gjennomgangen tar for seg følgende oppgaver:  
 
--   Opprette en kampanje  
--   Velge målgruppen  
--   Utvinne data  
--   Sende brev til kontakter  
--   Registrere kampanjesvar  
+- Klargjøre dataene.
+- Opprette en kampanje  
+- Velge målgruppen  
+- Utvinne data  
+- Sende brev til kontakter  
+- Registrere kampanjesvar  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
--   Markedsføringssjef eller salgssjef  
--   Markedsføringsmedarbeider  
+- Markedsføringssjef eller salgssjef  
+- Markedsføringsmedarbeider  
 
-## <a name="prerequisites"></a>Forutsetninger  
+## <a name="prerequisites"></a>Forutsetninger
+
  Før du kan utføre oppgavene i gjennomgangen, må du installere [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="story"></a>Hovedscenario  
+## <a name="story"></a>Hovedscenario
+
  Markedsføringssjefen i salgsavdelingen hos CRONUS har ansvaret for å planlegge og kjøre kampanjer. Han bestemmer også hvilke varemesser de skal delta på, og han evaluerer kampanjefremdriften.  
 
  Markedsføringsmedarbeideren i markedsføringsavdelingen håndterer produksjon, distribusjon og plassering av markedsføringsmateriell.  
 
- Selskapet har nettopp lansert et nytt produkt de kaller Millenniumserver. Produktet ble nylig presentert på en varemesse, Data Futurus. Mange kunder viste stor interesse for produktet, og som en del av et salgsfremmende tiltak får kunder Millenniumserver til en egen kampanjepris når de kjøper den i løpet av en kampanjeperiode.  
+ Selskapet har nettopp lansert et nytt produkt de kaller Rome Guest Chair. Produktet ble nylig presentert på en varemesse, Office Futurus. Mange kunder viste stor interesse for produktet, og som en del av et salgsfremmende tiltak får kunder Rome Guest Chair til en egen kampanjepris når de kjøper den i løpet av en kampanjeperiode.  
 
  En av oppgavene til markedsføringsmedarbeideren etter varemessen er å registrere alle potensielle kunder som kontakter.  
 
@@ -57,144 +63,143 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
  Medarbeideren hjelper til med å sende ut takkebrev til alle kontaktene som gav visittkortene sine til de ansatte ved standen, og til slutt registrerer sjefen alle svarene de mottar fra de potensielle kundene.  
 
-## <a name="setting-up-a-campaign"></a>Opprette en kampanje  
+## <a name="setting-up-a-campaign"></a>Opprette en kampanje
+
  Så snart medarbeideren har registrert visittkortene som ble mottatt på varemessen, oppretter markedsføringssjefen et kampanjekort for å håndtere aktivitetene i kampanjen.  
 
 ### <a name="to-set-up-a-campaign"></a>Slik oppretter du en kampanje:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kampanjer**, og velg deretter den relaterte koblingen.  
-2.  Velg **Ny** for å opprette en ny kampanje. Trykk Enter på kampanjekortet for å få et kampanjenummer til å settes inn automatisk.  
-3.  Skriv inn en beskrivelse for kampanjen i **Beskrivelse**-feltet, for eksempel **FUTURUS varemesse**.  
-4.  Velg **Statuskode**-feltet, og velg en statuskode fra listen som åpnes på siden **Kampanjestatus**.  
-5.  Fyll ut feltene **Startdato** og **Sluttdato** i kampanjen med de aktuelle datoene.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kampanjer**, og velg deretter den relaterte koblingen.  
+2. Velg **Ny** for å opprette en ny kampanje. Trykk på **Enter** på kampanjekortet for å få et kampanjenummer til å settes inn automatisk.  
+3. Skriv inn en beskrivelse for kampanjen i **Beskrivelse**-feltet, for eksempel **Office Futurus varemesse**.  
+4. Velg **Statuskode**-feltet, og velg statuskoden 1-PLAN. 
+5. Fyll ut feltene **Startdato** og **Sluttdato** i kampanjen med de aktuelle datoene.  
 
-## <a name="selecting-the-target-audience"></a>Velge målgruppen  
- Markedsføringssjefen oppretter et segment for å velge kontaktene han vil kommunisere med.  
+## <a name="selecting-the-target-audience"></a>Velge målgruppen
+
+ Markedsføringssjefen oppretter et segment for å velge kontaktene de vil kommunisere med.  
+ 
+ Når du oppretter et segment, kan du bruke en rekke kriterier til å velge hvilke kontakter som skal være mål for segmentet. Du kan for eksempel velge kontaktpersoner som arbeider hos en kunde eller en potensiell kunde, og som er innkjøpsansvarlige i selskapet. Du bruker filtre til å legge til kontakter i henhold til kriteriene som passer best til formålene. Du kan for eksempel filtrere etter ansvarsområdet til kontaktpersonen eller forretningsforbindelsen eller bransjen til kontaktselskapet. I denne gjennomgangen bruker vi **Ansvarsområde**-filteret til å velge kontakter.
 
 ### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Slik oppretter du et segment med de relevante kontaktene:  
 
-1.  Velg handlingen **Segmenter**.  
-2.  Velg **Ny** for å opprette et nytt segment. Trykk Enter på segmentkortet for å få et segmentnummer til å settes inn automatisk.  
-3.  Skriv inn for eksempel **Besøkende på varemessen FUTURUS** i **Beskrivelse**-feltet på hurtigfanen **Generelt**.  
+1. Velg handlingen **Naviger** og deretter **Segmenter**.  
+2. Velg **Ny** for å opprette et nytt segment. Velg **Enter** på segmentkortet for å få et segmentnummer til å settes inn automatisk.  
+3. Skriv inn for eksempel **Besøkende på varemessen Office Futurus** i **Beskrivelse**-feltet på hurtigfanen *Generelt*.
+4. Velg handlingen **Legg til kontakter** for å åpne filteret **Legg til kontakter**.  
+5. Bla ned til hurtigfanen **Kontaktens ansvarsområder**, velg **Kjøp**-filteret som **Ansvarsområde – kode**, og velg knappen **OK**.  
 
-     Når du har skrevet inn generell informasjon om segmentet, velger du kontaktene som skal inkluderes i det.  
+**Segment**-siden inneholder nå en liste over kontakter basert på filteret du har angitt. På fanebladet **Generelt**, i feltet **Antall linjer** kan du med et raskt blikk se hvor mange kontakter som oppfyller disse kriteriene.  
 
-     Du kan bruke mange ulike kriterier for å velge kontakter. Du kan for eksempel velge kontaktpersoner som arbeider hos en kunde eller en potensiell kunde, og som er innkjøpsansvarlige i selskapet.  
+> [!NOTE]  
+> Du kan lagre segmenteringskriteriene, slik at du kan bruke dem senere.
 
-     Du bruker filtre til å legge til kontakter i henhold til kriteriene som passer best til formålene. Du kan for eksempel filtrere etter ansvarsområdet til kontaktpersonen eller forretningsforbindelsen eller bransjen til kontaktselskapet. I denne gjennomgangen bruker du **Ansvarsområde**-filteret til å velge kontakter.  
+### <a name="to-save-your-segmentation-criteria"></a>Slik lagrer du segmenteringskriteriene
 
-4.  Velg handlingen **Legg til kontakter** på siden **Segment** for å åpne filteret **Legg til kontakter**.  
-5.  Velg **Kjøp**-filteret som **Ansvarsområde - kode** på hurtigfanen **Ansvarsområde**, og velg **OK**.  
+1. Velg **Handlinger** på siden **Segment**.
+2. Velg **Funksjoner**, deretter **Segment** og velg handlingen **Lagre kriterier**.  
+3. Angi en kode for segmentet på siden **Lagre segmentkriterier**. Skriv inn en beskrivelse av segmentkriteriet i **Beskrivelse**-feltet.
+4. Velg **OK**-knappen.  
 
-     **Segment**-siden inneholder nå en liste over kontakter basert på filteret du har angitt. På fanebladet **Generelt**, i feltet **Antall linjer** kan du med et raskt blikk se hvor mange kontakter som oppfyller disse kriteriene.  
+## <a name="mining-the-data"></a>Utvinne dataene
 
-    > [!NOTE]  
-    >  Du kan lagre segmenteringskriteriene, slik at du kan bruke dem senere.
-
-    1.  På **Segment**-siden velger du handlingen **Segment** og deretter **Lagre kriterier**.  
-    2.  Angi en kode for segmentet på siden **Lagre segmentkriterier**. Skriv inn en beskrivelse av segmentkriteriet i **Beskrivelse**-feltet.
-    3.  Velg **OK**-knappen.  
-
-## <a name="mining-the-data"></a>Utvinne dataene  
  Markedsføringssjefen ser nærmere på den segmenterte listen over kontakter og finner ut at listen er altfor lang. Han bestemmer seg for å korte ned listen basert på faktiske potensielle kunder for å sikre at han fokuserer på riktig målgruppe. Denne raffineringen og reduseringen av dataene kalles også datautvinning.  
 
 ### <a name="to-remove-contacts-from-the-segment"></a>Slik fjerner du kontakter fra segmentet:  
 
-1.  Velg **Kontakter**-handlingen på siden **Segment**, og velg deretter **Reduser kontakter** for å åpne siden **Fjern kontakter - reduser**.  
-2.  Velg **PROS**-filteret som **Forretn.forbindelseskode** på hurtigfanen **Forretningsforbindelse**, og velg **OK**.  
+1. Velg **Handlinger** på siden **Segment**.
+2. På menylinjen under velger du **Funksjoner**, velger **Kontakter** og deretter **Reduser kontakter**.  
 
-     Nå inneholder **Segment**-siden en redusert liste over kontakter, og antallet kontakter som nå oppfyller disse kriteriene, vises nå i feltet **Antall linjer**.  
+  Dette åpner dialogboksen **Fjern kontakter – reduser**.  
+4. Velg **KUNDE**-filteret som **Forretn.forbindelseskode** på hurtigfanen **Kontaktens forr.forbindelse**, og velg knappen **OK**.
 
-    > [!NOTE]  
-    >  Hvis du må reversere denne fjerningen av en kontaktgruppe, kan du bruke funksjonen **Gå tilbake**. Med andre ord kan du angre den siste segmenteringen.  
-    >   
-    >  På siden **Segment** velger du handlingen **Segment** og deretter **Gå tilbake**.  
-    >   
-    >  Kontaktene du nettopp fjernet, legges til i listen over kontakter på nytt.  
+ Nå inneholder **Segment**-siden en redusert liste over kontakter, og antallet kontakter som nå oppfyller disse kriteriene, vises nå i feltet **Antall linjer**.  
 
-## <a name="linking-a-segment-to-a-campaign"></a>Knytte et segment til en kampanje  
- Markedsføringssjefen bestemmer seg for at den reduserte listen er den endelige listen over kontakter han vil skal være en del av kampanjen. Han knytter derfor dette segmentet til kampanjen FUTURUS varemesse.  
+ > [!NOTE]  
+ > Hvis du må reversere denne fjerningen av en kontaktgruppe, kan du bruke funksjonen **Gå tilbake**. Med andre ord kan du angre den siste segmenteringen.  
+
+### <a name="to-bring-back-the-removed-contacts"></a>Slik henter du tilbake kontakter som er fjernet
+
+1. Velg **Segment**-handlingen på siden **Segment**.
+2. Velg handlingen **Gå tilbake**.
+
+Kontaktene du nettopp fjernet, legges til i listen over kontakter på nytt.
+
+## <a name="linking-a-segment-to-a-campaign"></a>Knytte et segment til en kampanje
+
+Markedsføringssjefen bestemmer seg for at den reduserte listen er den endelige listen over kontakter vedkommende vil skal være en del av kampanjen. Sjefen knytter derfor dette segmentet til kampanjen FUTURUS varemesse.  
 
 ### <a name="to-link-a-segment-to-the-campaign"></a>Slik knytter du et segment til kampanjen:  
 
-1.  På siden **Segment** i hurtigfanen **Kampanje** velger du **Kampanjenr.** -feltet for å velge kampanjen som du vil segmentet skal knyttes til, for eksempel **KM0001**.  
-2.  Velg **Kampanjemål**-avmerkingsboksen siden dette segmentet er målgruppen for kampanjen.  
+1. På siden **Segment** i hurtigfanen **Kampanje** velger du **Kampanjenr.** -feltet for å velge kampanjen som du vil segmentet skal knyttes til, for eksempel **KM0001**.
+2. Velg **Ja**.  
+3. Velg **Kampanjemål**-avmerkingsboksen siden dette segmentet er målgruppen for kampanjen, og velg **Ja**.  
 
-## <a name="sending-letters-and-email-messages-to-contacts"></a>Sende brev og e-postmeldinger til kontakter  
- Markedsføringsmedarbeideren hjelper markedsføringssjefen med å sende ut korrespondanse til de potensielle kundene, der han takker dem for besøket på varemessen.  
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Sende brev og e-postmeldinger til kontakter
+
+ Markedsføringsmedarbeideren hjelper markedsføringssjefen med å sende ut korrespondanse til de potensielle kundene, der han takker dem for besøket på varemessen.
 
 ### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Slik bruker du et segment til å sende et brev til en kontakt:  
 
-1.  Åpne **Segment**-kortet for **Besøkende på varemessen FUTURUS**.  
-2.  På hurtigfanen **Samhandling**, under **Samhandlingsmal - kode**, velger du malen Forretningsbrev, kode **FORR**.  
-3.  I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**.  
+> [!NOTE]  
+> I denne fremgangsmåten må du legge ved et Word-dokument. Du kan legge til vedlegg på et hvilket som helst språk.
 
-    > [!NOTE]  
-    >  Denne malen består av flere vedlegg, og hvert av dem er skrevet på et ulikt språk. Engelsk og dansk er eksempler på språk som er inkludert.  
+> [!NOTE]  
+> Klikk om nødvendig på ikonet **Redigeringsblyant** for å åpne siden i redigeringsmodus.
 
-4.  Velg feltet **Språkkode (standard)** for å åpne siden **Samhandlingsspråk for segment**. Velg en språkkode og deretter **OK**-knappen.  
-5.  Du kan vise dokumentet på det valgte språket. Velg handlingen **Vedlegg** og deretter **Åpne**.  
+1. Åpne **Segment**-kortet for **Besøkende på varemessen FUTURUS**.  
+2. På hurtigfanen **Samhandling**, under **Samhandlingsmal – kode**, velger du malen Forretningsbrev, kode **FORR.** og velger **Ja**.
+3. Velg feltet **Språkkode (standard)** for å åpne siden **Samhandlingsspråk for segment**. Velg en **språkkode** og deretter **OK**-knappen.
+4. Kontroller at **Korrespondansetypen (standard)** er satt til **Brev**.
+5. Merk av boksen **Ellipse** i feltet **Vedlegg**. Dette åpner dialogboksen Importer vedlegg.
+    1. Velg knappen **Velg** for å velge filen.
+    1. Finn filen, og velg **Åpne**-knappen for å legge den ved.
+6. I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**. Trykk på TAB-tasten for å gå ut av feltet, og velg **Ja**-knappen.
+7. Skyv **Send Word-dok.er som vedl.** til på, og velg **Ja**-knappen.
+8. Velg handlingen **Logg**. I popup-vinduet Loggfør segment aktiverer du: **Opprett oppfølgingssegment**
+9. Velg **OK**-knappen for å starte kjørselen **Loggfør segment**.  
 
-     Du svarer på meldingen med spørsmål om tillatelse til å starte Word ved å velge **Tillat for denne klientøkten**.  
+Vedleggene sendes. Når prosessen er ferdig, velger du **OK** i meldingen om at segmentet er loggført.  
 
-     Dette åpner det vedlagte Word-dokumentet slik at du kan undersøke det. Du kan også benytte denne anledningen til å redigere og endre brevet. Lukk Word når du er ferdig.  
+ Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
 
-6.  Skriv inn emnet for brevet i **Emne**-feltet på språket som er valgt for malen.  
-7.  Velg handlingen **Logg**.
-8.  Merk av for **Send vedlegg** for å skrive ut vedleggene.  
+Når segmentet er loggført, registreres hvert sendte brev som en samhandling, som du kan se i loggen.  
 
-    1. Merk av for **Opprett oppfølgingssegment**.  
-    2. Velg **OK**-knappen for å starte kjørselen **Loggfør segment**.  
-
-9. Vedleggene sendes. Når prosessen er ferdig, velger du **OK** i meldingen om at segmentet er loggført.  
-
-     Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
-
-10. Når segmentet er loggført, registreres hvert sendte brev som en samhandling, som du kan se i loggen.  
-
-     Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Samhandlingsposter**, og velg deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
+Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Samhandlingsposter**, og velg deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Sende en e-postmelding til en kontakt  
 
-1.  På hurtigfanen **Samhandling**, under **Samhandlingsmal - kode**, velger du malen Forretningsbrev, kode **FORR**.  
-2.  I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**.  
-3.  Velg **E-post** i **Korrespondansetype**-feltet.  
-4.  Angi språkinnstillinger, som i forrige fremgangsmåte.  
-5.  Velg handlingen **Logg**. **Loggfør segment**-siden åpnes.  
-6.  Merk av for **Send vedlegg** for å sende vedleggene via e-post.  
-7.  Merk av for **Opprett oppfølgingssegment**.  
-8.  Velg **OK**.  
+1. På hurtigfanen **Samhandling**, under **Samhandlingsmal - kode**, velger du malen Forretningsbrev, kode **FORR**.  
+2. I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**.  
+3. Velg **E-post** i **Korrespondansetype**-feltet.  
+4. Angi språkinnstillinger, og legg ved et Word-dokument, som i forrige fremgangsmåte.  
+5. Velg handlingen **Logg**. **Loggfør segment**-siden åpnes.  
+6. Merk av for **Send vedlegg** for å sende vedleggene via e-post.  
+7. Merk av for **Opprett oppfølgingssegment**.  
+8. Velg **OK**.  
 
-     Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
+ Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
 
-## <a name="registering-campaign-responses"></a>Registrere kampanjerespons  
+## <a name="registering-campaign-responses"></a>Registrere kampanjerespons
+
  De potensielle kundene svarer på brevet i løpet av de neste par ukene. Markedsføringssjefen ønsker å holde rede på disse svarene og registrerer dem.  
 
  Opprett et segment for kontaktene som har svart på brevet, for dette formålet.  
 
 ### <a name="to-register-campaign-responses"></a>Slik registrerer du kampanjerespons:  
 
-1.  Vis hurtigfanen **Samhandling** på siden **Segment**.  
-2.  Velg feltet **Samhandlingsmal - kode**.  
+1. På siden **Segment** på hurtigfanen **Samhandling** velger du feltet **Samhandlingsmal – kode**.  
 
-     Det finnes ingen samhandlingsmal for å registrere respons på kampanjer. Opprett derfor en ny mal.  
+ Det finnes ingen samhandlingsmal for å registrere respons på kampanjer. Opprett derfor en ny mal.  
 
-3.  Velg handlingen **Ny** på siden **Samhandlingsmaler**.  
-4.  Angi **RESP** i **Kode**-feltet, og angi **Kampanjerespons** i **Beskrivelse**-feltet.  
-5.  Velg **OK**-knappen.  
-6.  Velg denne samhandlingsmalen i feltet **Samhandlingsmal - kode**, og bekreft meldingen med spørsmål om du vil oppdatere segmentlinjene med den samme koden for samhandlingsmal.  
-
-     Nå angir du at disse kontaktene har svart på kampanjen:  
-7.  I hurtigfanen **Kampanje** i **Kampanjenr.** -feltet, velger du kampanje.  
-8.  La **Kampanjenr.** -feltet være tomt, og bekreft meldingen med spørsmål om du vil oppdatere segmentlinjene med den samme koden for samhandlingsmal.  
-9. Velg **Kampanjerespons**-feltet, og bekreft den påfølgende meldingen.  
-
-     Loggfør segmentet for å kontrollere at samhandlingene registreres.  
-10. Velg **Logg**-handlingen på siden **Segment**.  
-11. Fjern merket for **Send vedlegg** på siden **Loggfør segment**, og velg deretter **OK**, og bekreft meldingen som vises.  
-
-     Når segmentet er loggført, blir det automatisk opprettet en post for kampanjen på siden **Kampanjeposter** for å registrere denne handlingen.  
-
+2. Velg handlingen **Ny** på rullegardinmenyen **Samhandlingsmaler**.  
+3. Angi **RESP** i **Kode**-feltet, og angi **Kampanjerespons** i **Beskrivelse**-feltet.  
+4. Velg **OK**-knappen.
+5. Velg **Ja** for å bekrefte at du vil bruke denne koden for samhandlingsmal på alle segmentlinjer.
+6. På hurtigfanen **Kampanje** felger du feltet **Kampanjerespons**. Velg **Ja** for å bekrefte meldingen *Du har endret kampanjesvar*.  
+7. Velg **Logg**-handlingen på siden **Segment**.  
+8. På siden **Loggfør segment** fjerner du merket for **Send vedlegg**. Velg deretter **OK**-knappen for å bekrefte meldingen om at segmentet er loggført.  
+  
 ## <a name="see-also"></a>Se også  
 [Forbindelser](marketing-relationship-management.md)  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  

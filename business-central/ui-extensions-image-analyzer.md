@@ -1,25 +1,25 @@
 ---
-title: Bruke Image Analyzer-utvidelsen | Microsoft-dokumentasjon
+title: Image Analyzer-utvidelsen
 description: Du kan bruke denne utvidelsen til å analysere bilder av kontaktpersoner og varer for å finne attributter, slik at du kan raskt tilordne dem i Business Central.
-author: bholtorf
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
-ms.date: 04/01/2021
+ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 841ad4ff4963d8cfc6a284859affb60336e805a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bbeffd4175751e08043d79f596027a79c88503bc
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771315"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074615"
 ---
 # <a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
 
-Image Analyzer-utvidelsen bruker kraftig bildeanalyse fra API-et for visuelt innhold for Microsoft Cognitive Services til å registrere attributter på bilder du importerer for varer og kontaktpersoner, slik at du enkelt kan gå gjennom og tilordne dem. Når det gjelder varer, kan attributter angi om varen er et bord eller en bil og om den er rød eller blå. Når det gjelder kontaktpersoner, kan attributter være kjønn eller alder.
+Image Analyzer-utvidelsen bruker kraftig bildeanalyse fra API-et for visuelt innhold for Azure Cognitive Services til å registrere attributter på bilder du importerer for varer og kontaktpersoner, slik at du enkelt kan gå gjennom og tilordne dem. Når det gjelder varer, kan attributter angi om varen er et bord eller en bil og om den er rød eller blå. Når det gjelder kontaktpersoner, kan attributter være kjønn eller alder.
 
 Image Analyzer foreslår attributter basert på koder som API-et for visuelt innhold finner, og et konfidensnivå. Den foreslår som standard attributter bare hvis det er minst 80 % sannsynlighet for at attributtet er riktig. Du kan om nødvendig angi et annet konfidensnivå. Hvis du vil vite mer om hvordan kodene og konfidensnivået fastsettes, kan du se [API for visuelt innhold](https://go.microsoft.com/fwlink/?linkid=851476).  
 
@@ -29,7 +29,7 @@ Når du har aktivert utvidelsen, kjører Image Analyzer hver gang du importerer 
 
 ## <a name="privacy-notice"></a>Personvernerklæring
 
-Denne utvidelsen bruker API-en for visuelt innhold fra Microsoft Cognitive Services, som kan ha andre typer samsvarsforpliktelser enn [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer Image Analyzer-utvidelsen, sendes kundedata, for eksempel kontaktbilde eller varebilde, til API-en for visuelt innhold. Ved å installere denne utvidelsen godtar du at dette begrensede settet med data sendes til API-en for visuelt innhold. Vær oppmerksom på at du kan deaktivere samt avinstallere, Image Analyzer-utvidelsen når som helst for å slutte å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Microsoft Klareringssenter](https://go.microsoft.com/fwlink/?linkid=851463).
+Denne utvidelsen bruker API-en for visuelt innhold fra Azure Cognitive Services, som kan ha andre typer samsvarsforpliktelser enn [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer Image Analyzer-utvidelsen, sendes kundedata, for eksempel kontaktbilde eller varebilde, til API-en for visuelt innhold. Ved å installere denne utvidelsen godtar du at dette begrensede settet med data sendes til API-en for visuelt innhold. Vær oppmerksom på at du kan deaktivere samt avinstallere, Image Analyzer-utvidelsen når som helst for å slutte å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Microsoft Klareringssenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Krav
 
@@ -44,9 +44,9 @@ Noen få krav er gjeldende for bildene:
 Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[prod_short](includes/prod_short.md)]. Du trenger bare å aktivere den.
 
 > [!NOTE]  
-> Du må være en administrator for å kunne aktivere Image Analyzer-utvidelsen. Kontroller at du er tilordnet brukertillatelsessettet **SUPER**.
+> Du må være en administrator for å kunne aktivere Image Analyzer-utvidelsen. Kontroller at du er tilordnet brukertillatelsessettet **SUPER**. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
-1. Gjør ett av følgende for å aktivere Image Analyzer-utvidelsen:
+Gjør en av følgende handlinger for å aktivere Image Analyzer-utvidelsen:
 
 * Åpne et vare- eller kontaktkort. Velg **Analyser bilder** på varslingslinjen, og følge deretter fremgangsmåten i den assisterte oppsettsveiledningen.  
 * Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Oppsett for bildeanalyse**. Merk av for **Aktiver Image Analyzer**, og fullfør deretter fremgangsmåten i den assisterte oppsettsveiledningen.  
@@ -60,10 +60,25 @@ Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble import
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2. Velg varen, og velg deretter handlingen **Analyser bilde**.  
-3. Siden **Image Analyzer-attributter** viser de registrerte attributtene, konfidensnivået og annen informasjon om attributtet. Bruk alternativene for **Handling som skal utføres** til å angi det du vil gjøre med attributtet.  
+3. Siden **Image Analyzer-attributter** viser de registrerte attributtene, konfidensnivået og annen informasjon om attributtet. Bruk alternativene **Handling som skal utføres** til å angi hva som skal gjøres med attributtet, eller velg **Legg til i varebeskrivelse** for å legge til navnet på attributtet i varebeskrivelsen. Dette kan for eksempel være nyttig for å legge til detaljer raskt. 
 
-    > [!TIP]  
-    > Du kan legge til navnet på attributtet i varebeskrivelsen ved å velge **Legg til i varebeskrivelse**. Dette kan for eksempel være nyttig for å legge til detaljer raskt.  
+Handlingen **Handling som skal utføres** har følgende alternativer:
+
+  * *Ignorer*
+
+    Ingen handlinger utføres
+  * *Bruk som attributt*
+
+    Verdien legges til i vareattributtene. Hvis du vil ha mer informasjon, kan du se [Arbeid med vareattributter](inventory-how-work-item-attributes.md)
+  * *Bruk som en kategori*
+
+    Den valgte verdien legges til som en kategori. Hvis du vil ha mer informasjon, kan du se [Kategoriser varer](inventory-how-categorize-items.md)
+  * *Legg til i listen over ikke tillatt*
+
+    Hvis analysen foreslår et attributt du ikke vil se, kan du blokkere attributtet. Du må imidlertid være forsiktig. Blokkerte attributter blir heller ikke foreslått for andre varer. Hvis du angrer at du blokkerte et attributt, kan du velge **Vis ikke tillatte attributter** og deretter slette attributtet fra oversikten.
+  
+    > [!NOTE]  
+    > Som standard viser **Vareattributter** attributter der **Konfidensresultat** er over **Terskel-% for konfidensresultat** som er definert i **Image Analyzer-oppsettet**. Hvis du vil vise alle registrerte attributter, velger du handlingen **Vis alle attributter**.
 
 ## <a name="to-analyze-a-picture-of-a-contact-person"></a>Analysere et bilde av en kontaktperson
 
@@ -71,12 +86,20 @@ Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble import
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen.  
 2. Velg kontaktpersonen, og velg deretter handlingen **Analyser bilde**.  
-3. I hurtigfanen **Profilspørreskjema** går du gjennom forslagene og foretar korrigerer om nødvendig.  
+3. I hurtigfanen **Profilspørreskjema** går du gjennom forslagene og foretar korrigerer om nødvendig. Hvis du vil ha mer informasjon, kan du se [Bruk profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md).  
 
-## <a name="block-suggested-attributes"></a>Blokkere foreslåtte attributter
-
-Hvis analysen foreslår et attributt du ikke vil se, kan du blokkere attributtet. Du må imidlertid være forsiktig. Blokkerte attributter blir heller ikke foreslått for andre varer eller kontaktpersoner. Hvis du angrer at du blokkerte et attributt, kan du velge **Vis svartelistede attributter** og deretter slette attributtet fra oversikten.
-
+    > [!NOTE]  
+    > 
+    > API-en for visuelt innhold returnerer følgende attributter:
+    > * *alder*
+    >
+    >     En anslått «visuell alder» i år. Det er hvor gammel en person ser ut til å være sammenlignet med den faktiske biologiske alderen.
+    > * *kjønn*
+    >
+    >    Mann eller kvinne.
+    > 
+    > API-en for visuelt innhold returnerer ikke konfidensnivået for attributtene alder og kjønn.
+  
 ## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Bruke din egen konto for API-et for visuelt innhold
 
 Du kan også bruke din egen konto for API-et for visuelt innhold, for eksempel hvis du vil analysere flere bilder enn det vi tillater.  
@@ -99,9 +122,13 @@ Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjø
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter **Image Analyzer-oppsett**.  
 2. Fjern merket for **Aktiver Image Analyzer**.  
 
+Du kan eventuelt avinstallere utvidelsen fullstendig. Du kan alltids hente den tilbake fra AppSource. Hvis du vil ha mer informasjon, kan du se [Installere og avinstallere utvidelser i Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
+
 ## <a name="see-also"></a>Se også
 
 [Arbeide med vareattributter](inventory-how-work-item-attributes.md)  
+[Kategorisere varer](inventory-how-categorize-items.md)  
+[Bruke profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 

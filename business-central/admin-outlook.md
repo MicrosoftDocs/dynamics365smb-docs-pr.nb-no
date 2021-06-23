@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ee9587b323fe1b104a85319eba03bfdcfce8c13e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777444"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115389"
 ---
 # <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
 
@@ -68,7 +68,7 @@ I begge tilfeller, hvis [!INCLUDE[prod_short](includes/prod_short.md)] fremdeles
 
 ## <a name="using-other-email-accounts"></a>Bruke andre e-postkontoer
 
-Tilleggene er utformet for bruk med Microsoft 365. Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, kan du se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email), artikkelen [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og delen [Hvorfor fungerer ikke Outlook-tillegget for mine brukere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i Vanlige spørsmål (generelt) i administrasjonsinnholdet.  
+Tilleggene er utformet for bruk med Microsoft 365. Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, kan du se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), artikkelen [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og delen [Hvorfor fungerer ikke Outlook-tillegget for mine brukere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i Vanlige spørsmål (generelt) i administrasjonsinnholdet.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

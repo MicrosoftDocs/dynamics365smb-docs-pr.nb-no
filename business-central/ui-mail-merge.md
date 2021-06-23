@@ -10,15 +10,18 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 118d8db1266bb7150965ec4d1ce44ece77638764
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788572"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110957"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Bruke Word-maler til massekommunikasjon
 Microsoft Word-maler kan gjøre det enklere å massekommunisere med enheter som kunder og leverandører. Du kan for eksempel opprette brosjyrer for å varsle kunder om en salgskampanje, brev til å informere leverandører om en ny kjøpspolicy, eller invitasjoner til å tiltrekke kontakter til et kommende arrangement.
+
+> [!NOTE]
+> Du kan bare bruke Word-maler på enheter som har Microsoft Word 2019 og Windows-operativsystemet installert.
 
 Du kan bruke enheter i [!INCLUDE[prod_short](includes/prod_short.md)] som datakilde for malen, og legge til flettefelt for å tilpasse dokumenter for hver enhet. Flettefeltene kommer fra enheten i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du bruker en Word-mal på en enhet, settes det inn data fra flettefeltene i dokumentet.
 

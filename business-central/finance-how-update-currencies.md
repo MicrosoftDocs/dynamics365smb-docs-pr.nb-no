@@ -5,20 +5,127 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 04/01/2021
+ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: d6132d84909509a76b196d6ae20d1fb8a2566309
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782308"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184452"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
-Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan handle i og rapportere økonomien i mer enn én valuta. Du må definere en kode for hver valuta du bruker hvis du kjøper eller selger i andre valutaer enn din lokale valuta, har kundekonti eller leverandørkonti i andre valutaer, eller registrerer finanstransaksjoner i forskjellige valutaer.
+Ettersom selskaper har drift i stadig flere land/regioner, blir det viktigere at de kan handle og rapportere finansinformasjon i mer enn én valuta. Den lokale valutaen (NOK) er definert på siden **Finansoppsett** som beskrevet i artikkelen [Konfigurer finans](finance-setup-finance.md). Når den lokale valutaen (NOK) er definert, vises den som en tom valuta, så når feltet **Valuta** er tomt, betyr det at valutaen er i NOK.  
 
-Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
+Deretter må du definere valutakoder for hver valuta du bruker, hvis du kjøper eller selger i andre valutaer enn den lokale valutaen (NOK). Bankkonti kan også opprettes ved hjelp av valutaer. Det er mulig å registrere finanstransaksjoner i ulike valutaer, men finanstransaksjonen vil alltid bokføres i lokal valuta (NOK).
+
+> [!Important]
+> Du må ikke opprette den lokale valuta koden **Finansoppsett** og på siden **Valutaer**. Dette vil skape forvirring mellom den tomme valutaen og den lokale valutakoden i valutatabellen, og bankkonti, kunder eller leverandører kan opprettes ved en feiltakelse, noen med den tomme valutaen og noen med den lokale valutakoden.
+
+Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (NOK).
+
+## <a name="currencies"></a>Valutaer
+
+Du angir valutakodene i **Valutar**, inkludert tilleggsinformasjon og innstillinger som er nødvendige for hver valutakode.
+
+> [!TIP]
+> Opprett valutaene med den internasjonale ISO-koden som kode for å forenkle arbeidet med valutaen i fremtiden.
+
+|Felt|Beskrivelse|  
+|---------------------------------|---------------------------------------|  
+|**Kode**|Identifikatoren for valutaen.|
+|**Beskrivelse**|En fritekstbeskrivelse av valutaen.|
+|**ISO-kode**|Den internasjonale koden som består av tre bokstav koden, til valutaen som er definert i ISO 4217.|
+|**Numerisk ISO-kode**|Den internasjonale numeriske referansen til valutaen som er definert i ISO 4217.|
+|**Valutakursdato**|Den seneste datoen for den faktiske valutakursen.|
+|**ØMU-valuta**|Angir om valutaen er en ØUM-valuta (Economic and Monetary Union), for eksempel EUR.|
+|**Konto for realisert agio**|Kontoen der den faktiske fortjenesten skal bokføres når du mottar betaling for salg eller registrerer den faktiske valutakursen for betalinger til leverandører. Hvis du vil ha et eksempel på en valutatransaksjon, kan du se eksemplet under denne tabellen. |
+|**Konto for realisert disagio**|Kontoen der det faktiske tapet skal bokføres når du mottar betaling for salg eller registrerer den faktiske valutakursen for betalinger til leverandører. Hvis du vil ha et eksempel på en valutatransaksjon, kan du se eksemplet under denne tabellen. |
+|**Konto for urealisert agio**|Kontoen der den teoretiske vinningen blir postert når du utfører en valutajustering.|
+|**Konto for urealisert disagio**|Kontoen der det teoretiske tapet blir postert når du utfører en valutajustering.|
+|**Avrundingspresisjon, beløp**|Noen valutaer har andre formater for fakturabeløp enn det som er definert på siden **Finansoppsett**. Hvis du endrer avrundingspresisjonen for en valuta, blir alle fakturabeløp i den valutaen avrundet med den oppdaterte presisjonen.|
+|**Beløp, antall desimaler**|Noen valutaer har andre formater for fakturabeløp enn det som er definert på siden **Finansoppsett**. Hvis du endrer antall desimaler for en valuta, blir alle fakturabeløp i valutaen avrundet med de oppdaterte desimalene|
+|**Fakturaavrundingstype**|Angir metoden som skal brukes hvis beløpene må avrundes. Alternativene er **Nærmest**, **Opp** og **Ned**.|
+|**Avrundingspresisjon, pris**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer prisavrundingspresisjonen for en valuta, blir alle priser i den valutaen avrundet med den oppdaterte presisjonen.|
+|**Pris, antall desimaler**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer antall desimaler for pris for en valuta, blir alle priser i valutaen avrundet med de oppdaterte desimalene.|
+|**Avrundingspresisjon, utligning**|Angir størrelsen på intervallet som er tillatt som avrundingsdifferanse når du utligner poster i ulike valutaer med hverandre.|
+|**Konvertering av NOK-avrunding – debetkonto**|Angir konverteringsinformasjon som også må inneholde en debetkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – NOK**.|
+|**Konvertering av NOK-avrunding – kreditkonto**|Angir konverteringsinformasjon som også må inneholde en kreditkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – NOK**.|
+|**Justert den**|Datoen for den siste valutajusteringen.|
+|**Endret den**|Datoen for endringen av valutaens oppsett.|
+|**Betalingstoleranse %**|Maksimum betalingstoleranseprosent som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Maks. betalingstoleransebeløp**|Maksimum betalingstoleransebeløp som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
+|**Valutafaktor**|Angir forholdet mellom valutaen og den lokale valutaen som bruker den faktiske valutakursen.|
+|**Kto. for real. agio - t.val.**|Angir finanskontoen som brukes til å bokføre agio for kursjusteringer mellom den lokale valutaen (NOK) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Kto. for real. disagio - t.val**|Angir finanskontoen som brukes til å bokføre disagio for kursjusteringer mellom den lokale valutaen (NOK) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Konto for restagio**|Angir finanskontoen som brukes til å bokføre restagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Konto for restdisagio**|Angir finanskontoen som brukes til å bokføre restdisagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Maks. tillatte mva-differanse**|Maksimumsbeløpet som er tillatt for mva-forskjeller i denne valutaen. Hvis du vil ha mer informasjon, kan du se [Korriger mva-beløp manuelt i salgs- og kjøpsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Mva-avrundingstype**|Angir avrundingsmetoden for å korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+
+### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
+
+I eksemplet nedenfor er en faktura mottatt den 1. januar med valutabeløpet på 1 000. På tidspunktet er valutakursen er 1,123.
+
+|Dato|Handling|Valutabeløp|Dokumentsats|NOK-beløp på dokument|Justeringssats|Beløp for urealisert agio|Betalingssats|Beløp for realisert disagio|  
+|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
+|1/1|**Fakturering**|1000|1,123|1123|||||
+|1/31|**Justering**|1000||1125|1,125|2|||
+|2/15|**Justeringstilbakeføring på betaling**|1000||||-2|||
+|2/15|**Betaling**|1000||1120|||1,120|–3|
+
+På slutten av måneden utføres det en valutajustering der justeringsvalutakursen er satt til 1,125, som utløser en urealisert agio på 2.
+
+På betalingstidspunktet viser den faktiske valutakursen som er registrert på banktransaksjonen, en valutakurs på 1,120.
+
+Her finnes en urealisert transaksjon, og derfor blir den tilbakeført sammen med betalingen.
+
+Til slutt registreres betalingen, og det faktiske tapet blir postert til kontoen for realisert disagio.
+
+## <a name="available-currency-functions"></a>Tilgjengelige valutafunksjoner
+
+Følgende tabell beskriver nøkkelhandlinger på siden ***Valutaer**. Noen av handlingene forklares i de neste avsnittene.  
+
+|Meny|Handling|Beskrivelse|
+|-------------|--------------|------------------------------|
+|**Behandle**|**Foreslå konti**|Bruk konti fra andre valutaer. De mest brukte kontiene blir satt inn.|
+||Endre betalingstoleranse|Endre én av eller både den maksimale betalingstoleransen eller betalingstoleranseprosenten og filter etter valuta. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
+||**Valutakurser**|Vis oppdaterte valutakurser for valutaene du bruker.|
+||**Juster valutakurser**|Juster finans-, kunde-, leverandør- og bankkontoposter slik at de gjenspeiler en mer oppdatert saldo hvis valutakursen har endret seg siden postene ble bokført.|
+||**Journal for justering av valutakurs**|Vis resultatet av å kjøre den satsvise jobben **Juster valutakurser**. Det opprettes én linje for hver valuta eller hver kombinasjon av valuta og bokføringsgruppe som er med i justeringen.|
+|**Valutakurstjeneste**|**Valutakurstjenester**|Vis eller rediger oppsettet av tjenestene som er konfigurert til å hente oppdaterte valutakurser når du velger handlingen **Oppdater valutakurser**.|
+||**Oppdater valutakurser**|Få de siste valutakursene fra en tjenesteleverandør.|
+|**Rapporter**|**Valutaoppgjør**|Vis saldoene for alle kunder og leverandører i både utenlandsk og lokal valuta (NOK). Rapporten viser to saldoer i NOK. Den ene er valutaoppgjøret konvertert til NOK med gjeldende kurs på transaksjonstidspunktet. Den andre er saldo for fremmed valuta omgjort til NOK med gjeldende kurs på arbeidsdatoen.|
+
+## <a name="exchange-rates"></a>Valutakurser
+
+Valutakursene er verktøyet for å beregne den lokale valutaverdien (NOKk) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
+
+|Felt|Beskrivelse|  
+|---------------------------------|---------------------------------------|  
+|**Startdato**|Datoen da valutakursen ble effektuert|  
+|**Valutakode**|Valutakoden som er knyttet til denne valutakursen|  
+|**Tilhørende valutakode**|Hvis denne valutaen er en del av en triangulær valutaberegning, kan den tilhørende valutakoden defineres her|  
+|**Valutakurs**|Valutakursbeløpet er kursen som skal brukes for valutakoden som er valgt på linjen. Vanligvis 1 eller 100|  
+|**Tilhørende valutakursbeløp**|Tilhørende valutakursbeløp er knyttet til kursen som skal brukes for den tilhørende valutakoden|  
+|**Justering valutakursbeløp**|Justeringsvalutakursen er satsen som skal brukes for valutakoden som er valgt på linjen for bruk av den satsvise jobben **Juster valutakurser**|  
+|**Tilhør. just. valutakursbeløp**|Den tilhørende justeringsvalutakursen er satsen som skal brukes for valutakoden som er valgt på linjen for bruk av den satsvise jobben **Juster valutakurser**|  
+|**Fast valutakursbeløp**|Angir om valutakursen kan endres på fakturaer og kladdelinjer.|  
+
+Verdiene i feltene **Valutakurs** og **Tilhørende valutakurs** brukes som standard valutakurs i alle nye samle dokumenter som opprettes fremover. Dokumentet tilordnes valutakursen i henhold til gjeldende arbeidsdato.  
+
+> [!Note]
+> Den faktiske valutakursen blir beregnet ved hjelp av denne formelen:
+> 
+> `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
+
+Justeringsvalutakursen eller den tilhørende valutakursen blir brukt til å oppdatere alle åpne bank-, kunde- eller leverandørtransaksjoner.  
+
+> [!Note]
+> Den faktiske valutakursen blir beregnet ved hjelp av denne formelen:
+> 
+> `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
 
@@ -61,7 +168,11 @@ Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksemp
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Merk av for **Aktivert** for å aktivere tjenesten.
+4. Aktiver alternativet **Aktivert** for å aktivere tjenesten.
+
+> [!NOTE]
+> Den følgende videoen viser et eksempel på hvordan du kan koble til en valutakurstjeneste ved hjelp av Den europeiske sentralbank som eksempel. I segmentet som beskriver hvordan du definerer felttilordninger, returnerer innstillingen i kolonnen **Kilde** for den **overordnede noden for valutakode** bare den første valutaen som blir funnet. Innstillingen må være **/gesmes: Envelope/Code/Code/Code**.
+
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]

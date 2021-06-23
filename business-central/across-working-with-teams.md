@@ -1,5 +1,5 @@
 ---
-title: Arbeide med Business Central-data i Microsoft Teams | Microsoft Docs
+title: Deling av Business Central-oppføringer i Microsoft Teams
 description: Lær hvordan du bruker Business Central-appen for Microsoft Teams.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,21 +7,21 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/01/2021
+ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: e20208d50eb65f1a92e6661396bf53007ab88eb8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786885"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074590"
 ---
-# <a name="working-with-business-central-data-in-microsoft-teams"></a>Arbeide med Business Central Data i Microsoft Teams
+# <a name="sharing-business-central-records-in-microsoft-teams"></a>Deling av Business Central-oppføringer i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en app som kobler Microsoft Teams til forretningsdataene dine i [!INCLUDE [prod_short](includes/prod_short.md)], slik at du raskt kan dele detaljer mellom gruppemedlemmer og svare raskere på forespørsler. I denne artikkelen lærer du hvordan du bruker appen til å dele [!INCLUDE [prod_short](includes/prod_short.md)]-data med kolleger i en Teams-samtale.
+[!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en app som kobler Microsoft Teams til forretningsdataene dine i [!INCLUDE [prod_short](includes/prod_short.md)], slik at du raskt kan dele detaljer mellom gruppemedlemmer og svare raskere på forespørsler. I denne artikkelen lærer du hvordan du bruker appen til å dele [!INCLUDE [prod_short](includes/prod_short.md)]-oppføringer, for eksempel en kunde, ordre eller faktura, med kolleger i en Teams-samtale.
 
 ## <a name="overview"></a>Oversikt
 

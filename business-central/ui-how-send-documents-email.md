@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 978989e12fc8c5ac236bb1dda1a8a5d1c2687de2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a4304b80e453296a3012d9e68ecc416371ee0ad3
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772282"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063405"
 ---
 # <a name="send-documents-and-emails"></a>Send dokumenter og e-poster
 Du kan enkelt dele informasjon og dokumenter, for eksempel ordrer og bestillinger samt fakturaer, via e-post direkte fra [!INCLUDE[prod_short](includes/prod_short.md)]], uten å måtte åpne en e-postapp. 
@@ -56,7 +56,7 @@ Denne fremgangsmåten beskriver hvordan du knytter en bokført salgsfaktura til 
 Noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt som angir hvor mange ganger dokumentet er skrevet ut. Nummeret i dette feltet <!--"that field?" need a name...--> oppdateres også hvis du sender dokumentet via e-post fordi det genereres en PDF-fil for det. Nummeret oppdateres selv om du ikke sender e-posten. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
 ## <a name="sent-emails-and-your-email-outbox"></a>Sendte e-poster og e-postutboksen
-[!INCLUDE[prod_short](includes/prod_short.md)]] lagrer e-postene du sender, på siden **Sendte elementer**. Det gjør at du kan sende e-poster på nytt eller videresende dem til andre. Hvis du ikke finner en e-post i de sendte elementene, ser du etter den på siden **E-postutboks**. 
+[!INCLUDE[prod_short](includes/prod_short.md)] lagrer e-postene du sender, på siden **Sendte elementer**. Det gjør at du kan sende e-poster på nytt eller videresende dem til andre. Hvis du ikke finner en e-post i de sendte elementene, ser du etter den på siden **E-postutboks**. 
 
 > [!NOTE]
 > Avhengig av utvidelsen som selskapet ditt for e-post, kan administratorer se en liste over meldinger som alle har sendt, men ikke innholdet i meldingene

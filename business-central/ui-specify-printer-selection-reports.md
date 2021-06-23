@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 04/01/2021
+ms.date: 05/17/2021
 ms.author: jswymer
-ms.openlocfilehash: 69c5ab889ae1fe98d50c04e31f47ecc28cc0e1b0
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985415"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063455"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
@@ -38,7 +38,7 @@ Universell utskrift er en tjeneste basert på et Microsoft 365-abonnement som kj
 
 ![Konfigurasjon av Universell utskrift](media/Universal-Print-arch.png)
 
-Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved hjelp av [Azure-portalen](https://posrtal.azure.com), og i [!INCLUDE[prod_short](includes/prod_short.md)].
+Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved hjelp av [Azure-portalen](https://portal.azure.com), og i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="supported-printers"></a>Støttede skrivere
 
@@ -78,7 +78,7 @@ Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved 
 
 Før du kan begynne å administrere skrivere for Universell utskrift i Business Central, må du gå gjennom en rekke oppgaver for å få Universell utskrift til å fungere i Azure med de skriverne du vil bruke.
 
-Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [Komme i gang: konfigurere Universal utskrift](https://docs.microsoft.com/universal-print/fundamentals/universal-print-getting-started) i dokumentasjonen for Universell utskrift. Her er en oversikt over trinnene du må fullføre. De fleste av disse trinnene gjøres i Azure-portalen.
+Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [Kom i gang: konfigurer Universal utskrift](/universal-print/fundamentals/universal-print-getting-started) i dokumentasjonen for Universell utskrift. Her er en oversikt over trinnene du må fullføre. De fleste av disse trinnene gjøres i Azure-portalen.
 
 1. Tilordne lisenser for Universell utskrift til deg selv og andre brukere.
 
@@ -104,29 +104,34 @@ Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [K
 
     - For andre skrivere kan du registrere skriverne ved å bruke koblingen Universell utskrift. 
 
-      Hvis du vil ha mer informasjon, kan du se [Skriverregistrering](/universal-print-connector-printer-registration).
+      Hvis du vil ha mer informasjon, kan du se [Skriverregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Endre skriveregenskaper (valgfritt)
 
     Når en skriver er registrert, kan du vise og endre skriveregenskaper, for eksempel standardinnstillinger.
 
-    Hvis du vil ha mer informasjon, kan du se [Administrere innstillinger for skrivermetadata](/universal-print/fundamentals/universal-print-printer-property-settings).
+    Hvis du vil ha mer informasjon, kan du se [Administrere skriverinnstillinger ved hjelp av portalen for Universell utskrift](/universal-print/portal/configure-printer-settings).
 
-5. Gi brukere tilgang til skriverne.
-
-    Hvis du vil ha mer informasjon, kan du se [Skrivertillatelser](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).
-
-6. Del skriverne.
+5. Del skriverne.
 
     Alle skrivere du vil bruke i [!INCLUDE[prod_short](includes/prod_short.md)], må deles i Universell utskrift.
 
-    Hvis du vil ha mer informasjon, kan du se [Dele en skriver](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer).
+    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+
+    Hvis du vil ha mer informasjon, kan du se [Del en skriver](/universal-print/portal/share-printers).
+
+6. Gi brukere tilgang til de delte skriverne.
+
+    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+
+    Hvis du vil ha mer informasjon, kan du se [Skrivertillatelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+
 
 7. Aktiver dokumentkonvertering.
 
     Universell utskrift gjengir innhold for utskrift i XPS-format. Noen eldre skrivere i markedet støtter ikke gjengivelse av XPS-innhold, i mange tilfeller bare PDF-format. Utskrift til slike skrivere vil mislykkes med mindre Universell utskrift konfigureres til å konvertere dokumenter til formatet som støttes av skriveren.
 
-    Hvis du vil ha mer inforamsjon, kan du se [Oversikt over dokumentkonvertering](/universal-print/fundamentals/universal-print-document-conversion).
+    Hvis du vil ha mer informasjon, kan du se [Oversikt over dokumentkonvertering](/universal-print/portal/document-conversion).
 
     > [!TIP]
     > Hvis ingen av skriverne krever format for gjengivelse av PDF-innhold, anbefales det at du ikke aktiverer dokumentkonvertering, ettersom det kan påvirke utskriftskvaliteten.

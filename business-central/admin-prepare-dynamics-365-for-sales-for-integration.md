@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 136a96c880c7abf9b082d7f8859e484be54da4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
+ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777334"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6184502"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -44,7 +44,6 @@ Når du installerer integrasjonsløsningen, konfigureres tillatelser for integra
 * Produkttilgjengelighetsbruker for Dynamics 365 Business Central
 
 ### <a name="connection-settings-in-the-setup-guide"></a>Tilkoblingsinnstillinger i installasjonsveiledningen
-
 Du kan bruke en assistert oppsettsveiledning til raskt å konfigurere tilkoblingen og angi avanserte funksjoner, for eksempel kobling mellom poster.
 
 1. Velg **Oppsett og utvidelser**, og velg deretter **Assistert oppsett**.
@@ -56,11 +55,10 @@ Du kan bruke en assistert oppsettsveiledning til raskt å konfigurere tilkobling
 |--|--|
 | **Importer Dynamics 365 Sales-løsning** | Aktiver dette for å installere og konfigurere integreringsløsningen i [!INCLUDE[crm_md](includes/crm_md.md)]. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 | **Publiser webtjenesten Varetilgjengelighet** | Aktiver brukere som har [!INCLUDE[crm_md](includes/crm_md.md)], til å vise tilgjengeligheten av varer (produkter) på lageret i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette krever en [!INCLUDE[prod_short](includes/prod_short.md)]-brukerkonto med tilgangsnøkkel for webtjenester. Tilordning av nøkkelen er en totrinnsprosess. I brukerkontoen i [!INCLUDE[prod_short](includes/prod_short.md)] må du velge **Endre webtjenestenøkkel**-handlingen. I den assisterte oppsettguiden Tilkoblingsoppsett for Dynamics 365 Sales må du angi URL-adresse for webtjenesten OData for Dynamics 365 Business Central og angi [!INCLUDE[prod_short](includes/prod_short.md)]-brukerlegitimasjon for å få tilgang til tjenesten. Hvis du vil ha mer informasjon, kan du se [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). |
-| **URL-adresse for webtjenesten OData for Business Central** | Hvis du aktiverer webtjenesten for visning av varedisposisjon, angis URL-adressen for webtjenesten OData for deg. |
-| **Brukernavn for OData-webtjeneste for Business Central** | Navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen i [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webtjenesten. |
+|**Brukernavn for OData-webtjeneste for Business Central** | Navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen i [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webtjenesten. |
 | **Tilgangsnøkkel for OData-webtjeneste for Business Central** | Tilgangsnøkkelen for brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen fra [!INCLUDE[prod_short](includes/prod_short.md)] via OData-webtjenesten. Nøkkelen tilordnes til brukeren som er valgt i feltet **Brukernavn for OData-webtjeneste for Business Central** Hvis du vil ha nøkkelen, kan du velge knappen **Oppslagsverdi** ved siden av brukernavn, velge brukeren, **Administrer** og deretter klikke på **Rediger**. På kortet velger du **Handlinger**, **Godkjenning** og deretter **Endre webtjenestenøkkel**. |
 | **Aktiver ordreintegrering** | Når brukerne oppretter ordrer i [!INCLUDE[crm_md](includes/crm_md.md)] og oppfyller ordrer i [!INCLUDE[prod_short](includes/prod_short.md)], integreres prosessen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dette krever at du oppgir rettigheter til en systemansvarligbrukerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Håndtere ordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data). |
-| **Aktiver CDS-tilkobling** | Aktiver tilkoblingen til [!INCLUDE[prod_short](includes/cds_long_md.md)]. |
+|**Aktiver Dynamics 365 Sales-tilkobling** | Aktiver tilkoblingen til [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK-versjon** | Dette er bare relevant hvis du integrerer med en lokal versjon av [!INCLUDE[crm_md](includes/crm_md.md)]. Dette er Dynamics 365 SDK-versjonen (også kalt Xrm) du bruker til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versjonen må være kompatibel med SDK-versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)], og er lik eller nyere enn versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
 ### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Tilkoblingsinnstillinger på siden Konfigurere Microsoft Dynamics 365-tilkobling

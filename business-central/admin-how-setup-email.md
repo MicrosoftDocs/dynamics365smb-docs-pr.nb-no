@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ac53955d897e8c69da5136c6326353999460625
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889155"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6063430"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -53,7 +53,7 @@ Hvis du allerede bruker [!INCLUDE[prod_short](includes/prod_short.md)] og har ko
 > Hvis du har tilpasninger som er avhengige av det gamle oppsettet for SMTP-e-post, er det en mulighet for at noe går galt med tilpasningene dine hvis du begynner å bruke e-postutvidelser. Vi anbefaler at du konfigurerer og tester utvidelsene før du aktiverer funksjonen for forbedrede e-postfunksjoner.
 
 > [!IMPORTANT]
-> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du ikke bruke OAuth 2.0-godkjenningsmetoden.<br> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du bruke OAuth 2.0 til godkjenning, men du må opprette en programregistrering i Azure-portalen, og deretter kjører du den assisterte oppsettsveiledningen **Konfigurer Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for å koble til Azure AD. Hvis du vil ha mer informasjon, kan du se [Opprette en programregistrering for Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du bruke OAuth 2.0 til godkjenning, men du må opprette en programregistrering i Azure-portalen, og deretter kjører du den assisterte oppsettsveiledningen **Konfigurer Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for å koble til Azure AD. Hvis du vil ha mer informasjon, kan du se [Opprette en programregistrering for Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 
 ## <a name="add-email-accounts"></a>Legg til e-postkontoer
 Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i gang med e-post.

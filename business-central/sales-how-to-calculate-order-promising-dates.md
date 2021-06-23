@@ -1,5 +1,5 @@
 ---
-title: Beregne ordrebekreftelsesdatoer | Microsoft-dokumentasjon
+title: Beregne ordrebekreftelsesdatoer
 description: Ordrebekreftelsesfunksjonen er et verktøy for beregning av når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer for datoene du godtar.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0fda3e2cdbbb04d025d0142b94add8c75eb98c5a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778475"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115593"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
-Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordrelinje.  
+Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordre.  
 
 Basert på en vares kjente og forventede tilgjengelighetsdatoer beregner [!INCLUDE[prod_short](includes/prod_short.md)] forsendelses- og leveringsdato på et øyeblikk, som deretter kan loves kunden.  
 
@@ -35,7 +35,7 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 - planlagt forsendelsesdato + leveringstid = planlagt leveringsdato  
 
 ## <a name="about-order-promising"></a>Om ordrebekreftelse
-Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes for datoene du godtar.
+Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes eller produseres for datoene du godtar.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruker to grunnleggende begreper:  
 

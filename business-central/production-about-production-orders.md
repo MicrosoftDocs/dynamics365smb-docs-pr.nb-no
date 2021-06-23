@@ -1,5 +1,5 @@
 ---
-title: Om produksjonsordrer | Microsoft-dokumentasjon
+title: Om produksjonsordrer
 description: Produksjonsordrer brukes til å håndtere konverteringen av kjøpt materiale til produserte varer. Produksjonsordrer (prosjekt- eller arbeidsordrer) dirigerer arbeid gjennom ulike innretninger (arbeidssentre eller produksjonsressurser) i produksjonen.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ecf65fef85d7f7f184ec8cddd8551eeaa990d92d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb0d2a369e81636fab8af9ffb58c09ffc7614625
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779435"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115339"
 ---
 # <a name="about-production-orders"></a>Om produksjonsordrer
 Produksjonsordrer brukes til å håndtere konverteringen av kjøpt materiale til produserte varer. Produksjonsordrer dirigerer arbeid gjennom ulike arbeidssentre eller produksjonsressurser i produksjonen.  
@@ -51,17 +51,17 @@ Produksjonsordrer opprettes ved å bruke informasjon fra:
 ## <a name="limitations-on-production-order-creation"></a>Begrensninger på oppretting av produksjonsordrer  
 Produksjonsordrer blir automatisk reservert og sporet til kilden når:  
 
--   de opprettes fra **Planleggingsforslag**  
--   De opprettes med ordrefunksjonen på **Ordreplanlegging**-siden  
--   De opprettes fra **Ordreplanlegging**-siden  
--   funksjonen **Planlegg på nytt** brukes på produksjonsordrer  
+-   de opprettes fra **[Planleggingsforslag](production-how-to-run-mps-and-mrp.md)**.  
+-   de opprettes fra siden **[Ordreplanlegging](production-how-to-create-production-orders-from-sales-orders.md)**  
+-   de opprettes fra siden **[Ordreplanlegging](production-how-to-plan-for-new-demand.md)**  
+-   ved å bruke funksjonen **[Planlegg på nytt](production-how-to-replan-refresh-production-orders.md)** på produksjonsordrer  
 
 Hvis du vil ha mer informasjon, kan du se [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md).
 
 Produksjonsordrer som opprettes på andre måter, blir ikke automatisk reservert og sporet.   
 
 ## <a name="production-order-status"></a>Produksjonsordrestatus  
-Statusen for produksjonsordren styrer hvordan produksjonsordren skal fungere i programmet. Produksjonsformen og -innholdet dikteres av ordrens status. Produksjonsordrene vises på forskjellige sider i henhold til statusen. Du kan ikke endre statusen til en produksjonsordre manuelt. Du må bruke **Endre status**-funksjonen.  
+Statusen for produksjonsordren styrer hvordan produksjonsordren skal fungere i programmet. Produksjonsformen og -innholdet dikteres av ordrens status. Produksjonsordrene vises på forskjellige sider i henhold til statusen. Du kan ikke endre statusen for en produksjonsordre manuelt. Du må bruke funksjonen **Endre status** i den individuelle produksjonsordren eller i vinduet **Endre produksjonsordrestatus**.  
 
 ### <a name="simulated-production-order"></a>Simulert produksjonsordre  
 Den simulerte produksjonsordren er unik basert på følgende egenskaper:  
@@ -110,12 +110,12 @@ Når en produksjonsordre er opprettet og planlagt, må den frigis til produksjon
 - hvor lenge det har vært arbeidet på ordren  
 - antall overordnede varer som er produsert  
 
-Denne informasjonen kan registreres manuelt eller via automatisk rapportering i henhold til vareoppsettet i feltet Trekkmetode.  
+Denne informasjonen kan registreres manuelt eller via automatisk rapportering i henhold til oppsettet i feltet Trekkmetode for varen og arbeidssenteret.  
 
 ### <a name="material-consumption"></a>Materialforbruk  
 Programmet har mange ulike alternativer for hvordan et produksjonsselskap kan registrere materialforbruk. Materialforbruk kan for eksempel registreres manuelt, noe som kan være aktuelt hvis komponenter erstattes regelmessig eller vrakmengden er større enn forventet.  
 
-Forbruk av materialer kan behandles gjennom forbrukskladden, men det kan også registreres automatisk av programmet, noe som kalles automatisk rapportering. Rapporteringsmetodene er:  
+Forbruk av materialer kan behandles gjennom [forbrukskladden](production-how-to-post-consumption.md), men det kan også registreres automatisk av programmet, noe som kalles automatisk rapportering (lagertrekk). Rapporteringsmetodene er:  
 
 -   Manuell  
 -   Fremover  
@@ -130,62 +130,14 @@ Forbruksrapportering fremover forutsetter at det forventede antallet av alt mate
 
 Forbruksrapportering bakover rapporterer det faktiske antallet av alt materiale som plukkes eller forbrukes når statusen til en produksjonsordre endres til *Ferdig*, med mindre rutekoblingskoder brukes. Når rutekoblingskoder brukes, forbrukes materialet etter at et antall av den overordnede varen registreres for operasjonstrinnet i ferdigmeldingskladden.  
 
-Når produksjonsordren fornyes, kopieres trekkmetoden fra varekortet. Siden trekkmetoden for hver produksjonsordrekomponent kontrollerer hvordan og når forbruket registreres, er det viktig å være oppmerksom på at du kan endre trekkmetoden for bestemte varer direkte i produksjonsordren.  
+Når produksjonsordren fornyes, kopieres trekkmetoden fra varekortet. Siden trekkmetoden for hver produksjonsordrekomponent kontrollerer hvordan og når forbruket registreres, er det viktig å være oppmerksom på at du kan endre trekkmetoden for bestemte varer direkte i produksjonsordren. 
 
-#### <a name="automatic-consumption-posting-flushing"></a>Automatisk forbruksbokføring (lagertrekk)  
-Fordelen med automatisk lagertrekk er at det i sterk grad reduserer registrering av data. Når du har muligheten til å trekke en operasjon automatisk, kan hele registreringen av forbruk og avgang automatiseres. Ulempen ved å bruke automatisk lagertrekk er at du kanskje ikke nøyaktig registrerer - eller til og med ikke legger merke til - vrak. De automatiske rapporteringsmetodene er:  
-
-- Lagertrekk fremover for hele ordren  
-- Lagertrekk fremover etter operasjon  
-- Lagertrekk bakover etter operasjon  
-- Lagertrekk bakover for hele ordren  
-
-#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering - lagertrekk fremover for hele ordren  
-Hvis du utfører lagertrekk fremover for produksjonsordren ved begynnelsen på prosjektet, ligner virkemåten til programmet svært mye på manuelt forbruk. Den store forskjellen er at forbruket skjer automatisk.  
-
-- Hele innholdet i produksjonsstykklisten forbrukes og trekkes fra beholdningen når den frigitte produksjonsordren fornyes.  
-- Forbruksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer du lager.  
-- Du trenger ikke å registrere informasjon i forbrukskladden hvis alle varene skal trekkes.  
-- Når varer fra lageret forbrukes, har tidspunktet for registrering av poster i ferdigmeldingskladden ingen betydning siden ferdigmeldingskladden ikke påvirker denne måten å bokføre forbruk på.  
-- Ingen rutekoblingskoder kan defineres.  
-
-Lagertrekk fremover for en hel ordre er egnet for produksjonsmiljøer med:  
-
--   et lavt antall defekter  
--   et lavt antall operasjoner  
--   høyt komponentforbruk i tidlige operasjoner  
-
-#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering - lagertrekk fremover etter operasjon  
-Lagertrekk etter operasjon gir deg muligheten til å trekke fra beholdningen under en bestemt operasjon i ruten for den overordnede varen. Materiale er knyttet til ruten ved hjelp av rutekoblingskoder, som svarer til rutekoblingskoder som er knyttet til komponenter i produksjonsstykklisten.  
-
-Lagertrekket skjer når operasjonen som har samme rutekoblingskode, startes. Det som menes med startes, er at en aktivitet registreres i ferdigmeldingskladden for operasjonen. Og denne aktiviteten er kanskje bare registreringen av en oppstillingstid.  
-
-Lagertrekksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer som skal lages (forventet antall).  
-
-Denne teknikken er best egnet når det er mange operasjoner og enkelte komponenter ikke trengs før sent i monteringssekvensen. Et JIT-oppsett (Just In Time) har kanskje ikke engang varene tilgjengelige når den frigitte produksjonsordren er begynt.  
-
-Materiale kan forbrukes under operasjoner ved hjelp av rutekoblingskoder. Noen komponenter kan kanskje ikke brukes før de siste monteringsoperasjonene finner sted, og må ikke trekkes fra beholdningen før da.  
-
-#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering - lagertrekk bakover etter operasjon  
-Lagertrekk bakover etter operasjon registrerer forbruk etter at operasjonen er bokført i ferdigmeldingskladden.  
-
-Fordelen med denne metoden er at antallet ferdige overordnede deler i operasjonen er kjent.  
-
-Materiale i produksjonsstykklisten er knyttet til ruteposter ved hjelp av rutekoblingskoder. Lagertrekket bakover skjer når en operasjon med en bestemt rutekoblingskode bokføres med et ferdig antall.  
-
-Lagertrekksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer som ble bokført som avgangsantall i denne operasjonen. Dette kan være forskjellig fra det forventede antallet.  
-
-#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering - lagertrekk bakover for hele ordren  
-Denne rapporteringsmetoden tar ikke hensyn til rutekoblingskoder.  
-
-Ingen komponenter plukkes før statusen til den frigitte produksjonsordren endres til *Ferdig*. Lagertrekksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer som ble ferdige og plassert på lager.  
-
-Lagertrekk bakover for hele produksjonsordren krever samme oppsett som for lagertrekk fremover: Rapporteringsmetoden må settes til bakover på hvert varekort for alle varer i den overordnede stykklisten som skal rapporteres. I tillegg må alle rutekoblingskoder fjernes fra produksjonsstykklisten.  
+Hvis du vil ha mer informasjon, kan du se [Lagertrekk komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md)
 
 ### <a name="production-output"></a>Produksjonsavgang  
 Programmet gir deg muligheten til å spore hvor lenge det arbeides på en produksjonsordre, i tillegg til å registrere antallet som produseres. Denne informasjonen kan hjelpe deg med å fastsette produksjonskosten mer nøyaktig. Produsenter som bruker et standardkostsystem, vil kanskje registrere faktisk informasjon for å bidra til utvikling av bedre standarder.  
 
-Avgang kan behandles gjennom ferdigmeldingskladden, men kan også registreres automatisk av programmet. Programmet kopierer trekkmetoden fra produksjonsressurs- eller arbeidssenterkortet til produksjonsordreruten ved fornying. Som med materialforbruk er det tre rapporteringsmetoder for avgang:  
+Avgang kan behandles gjennom [ferdigmeldingskladden](production-how-to-post-output-quantity.md), men kan også registreres automatisk av programmet. Programmet kopierer trekkmetoden fra produksjonsressurs- eller arbeidssenterkortet til produksjonsordreruten ved fornying. Som med materialforbruk er det tre rapporteringsmetoder for avgang:  
 
 - Manuell  
 - Fremover  
@@ -203,7 +155,7 @@ Du kan bruke en hvilken som helst kombinasjon av automatisk lagertrekk og manuel
 Hvis du registrerer forbruk og avgang manuelt, må du til slutt avgjøre hvilken rekkefølge du skal registrere denne informasjonen i. Du kan registrere forbruk først og bruke en kortfattet metode til å registrere informasjonen som er basert på forventet avgangsantall. Eller du kan registrere avgang først ved å bruke **Utfold rute**-funksjonen. Du kan da registrere forbruk basert på faktisk avgangsantall.  
 
 ### <a name="production-journal"></a>Produksjonskladd  
-I produksjonskladden kombineres funksjonene i forbrukskladden og ferdigmeldingskladden i én kladd, som du har direkte tilgang til fra den frigitte produksjonsordren.  
+I [produksjonskladden](production-how-to-register-consumption-and-output.md) kombineres funksjonene i forbrukskladden og ferdigmeldingskladden i én kladd, som du har direkte tilgang til fra den frigitte produksjonsordren.  
 
 Formålet med produksjonskladden er å gi deg ett enkelt grensesnitt for registrering av forbruk og avgang fra en produksjonsordre.  
 

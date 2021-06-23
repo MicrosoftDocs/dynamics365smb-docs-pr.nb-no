@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3811841784144d1c9dc786f8ae6435bedb5fb1d5
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
+ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017102"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115264"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +36,7 @@ Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logg
 Du kan også [besøke videobiblioteket vårt](across-videos.md), eller du kan starte med læringsbanen [Kom i gang med Microsoft Dynamics 365 Business Central](/learn/paths/get-started-dynamics-365-business-central/) på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
-> Hvis ikke annet er angitt, gjenspeiler innholdet på nettstedet Docs.microsoft.com den nyeste versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis organisasjonen bruker en annen versjon av [!INCLUDE[prod_short](includes/prod_short.md)] online, kan det være at noen funksjoner ikke er tilgjengelige ennå. Hvis organisasjonen din bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du også bruke en tidligere versjon. Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål](across-faq.md).
+> Hvis ikke annet er angitt, gjenspeiler innholdet på nettstedet Docs.microsoft.com den nyeste versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis organisasjonen bruker en annen versjon av [!INCLUDE[prod_short](includes/prod_short.md)] online, kan det være at noen funksjoner ikke er tilgjengelige ennå. Hvis organisasjonen din bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du også bruke en tidligere versjon. Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål](across-faq.yml).
 
 Delene nedenfor peker til viktige artikler som kan hjelpe deg med å bli kjent med [!INCLUDE [prod_short](includes/prod_short.md)].  
 

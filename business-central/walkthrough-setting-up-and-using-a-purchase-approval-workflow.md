@@ -1,5 +1,5 @@
 ---
-title: Definere og bruke en arbeidsflyt for kjøpsgodkjenning | Microsoft-dokumentasjon
+title: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 description: Du kan automatisere prosessen med å godkjenne nye eller endrede poster, for eksempel dokumenter, kladdelinjer og kundekort, ved å opprette arbeidsflyter med trinnene for godkjenninger som er aktuelle. Før du oppretter arbeidsflyter for godkjenning, må du definere en godkjenner og stedfortredende godkjenner for hver bruker for godkjenning. Du kan også angi godkjenneres beløpsgrenser for å definere hvilke salgs- og kjøpsposter de er kvalifisert til å godkjenne. Forespørsler om godkjenning og andre meldinger kan sendes som e-post eller intern merknad. For hvert brukeroppsett for godkjenning kan du også definere når de mottar meldinger.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 05/26/2021
 ms.author: edupont
-ms.openlocfilehash: 11a4bd84395d50a1b39417c5c3abab0dd757e7ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
+ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782812"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6110982"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 
@@ -30,11 +30,11 @@ Du kan automatisere prosessen med å godkjenne nye eller endrede poster, for eks
 
 Denne gjennomgangen tar for seg følgende oppgaver:  
 
-- Definere godkjenningsbrukere.  
-- Definere meldinger for godkjenningsbrukere.  
-- Endre og aktivere en godkjenningsarbeidsflyt.  
-- Be om godkjenning av en bestilling, som Charlotte.  
-- Motta en varsling og deretter godkjenne forespørselen, som Stig.  
+- Definere godkjenningsbrukere  
+- Definere meldinger for godkjenningsbrukere  
+- Endre og aktivere en godkjenningsarbeidsflyt  
+- Be om godkjenning av en bestilling, som Charlotte  
+- Motta en varsling og deretter godkjenne forespørselen, som Stig  
 
 ## <a name="story"></a>Hovedscenario
 
@@ -87,8 +87,8 @@ Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra ar
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Slik oppretter og aktiverer du en arbeidsflyt for bestillingsgodkjenning:
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
-2. På siden **Arbeidsflyter** velger du **Ny arbeidsflyt fra mal**-handlingen.  
-3. På siden **Arbeidsflytmaler** velger du arbeidsflytmalen kalt **Arbeidsflyt for bestillingsgodkjenning**, og deretter velger du **OK**.  
+2. På siden **Arbeidsflyter** velger du **Handlinger**, velger **Ny** og velger handlingen **Ny arbeidsflyt fra mal**.  
+3. På siden **Arbeidsflytmaler** velger du arbeidsflytmalen kalt **Arbeidsflyt for bestillingsgodkjenning**.  
 
     **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med *-01* for å angi at dette er den første arbeidsflyten som er opprettet fra arbeidsflytmalen **Arbeidsflyt for bestillingsgodkjenning**.  
 4. Merk av for **Aktivert** i hodet på **Arbeidsflyt**-siden.  
@@ -100,9 +100,9 @@ Bruk den nye arbeidsflyten for bestillingsgodkjenning ved først å logge på [!
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Slik ber du om godkjenning av en bestilling som Charlotte:
 
 1. Logg på som Charlotte.
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
-3. Merk linjen for å åpne bestillingen 106001, og velg deretter **Rediger**-handlingen.  
-4. På siden **Bestilling** velger du **Send godkjenningsforespørsel**-handlingen.  
+2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+3. Velg linjen for å åpne bestilling 106001.  
+4. På siden **Bestilling** velger du **Handlinger**, **Be om godkjenning** og deretter velger du handlingen **Send godkjenningsforespørsel**.  
 
 Legg merke til at verdien i **Status**-feltet er endret til **Venter på godkjenning**.  
 

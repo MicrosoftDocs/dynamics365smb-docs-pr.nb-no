@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 6866e852899df3de3de2c4560c26ad981e46fda5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f6060eb7672b332fb570eb13fe027a3b58e6594
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777851"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215256"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversikt over Finanskladd – bokfør linje
+
 Kodeenhet 12, **Finanskladd – bokfør linje**, er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter. Denne kodeenheten brukes også for alle operasjoner med Utlign, Opphev utligning og Tilbakefør.  
   
-Selv om kodeenheten har blitt forbedret i hver utgivelse over de siste ti årene, har arkitekturen i hovedsak vært den samme. Kodeenheten ble svært stor, med omtrent 7 600 kodelinjer. I denne utgivelsen av [!INCLUDE[prod_short](includes/prod_short.md)] er arkitekturen endret, og kodeenheten er forenklet og gjort enklere å vedlikeholde. Denne dokumentasjonen beskriver endringene og inneholder informasjon du trenger for å oppgradere.  
+I Microsoft Dynamics NAV 2013 R2 ble codeunit utformet på nytt fordi den hadde blitt svært stor, med ca. 7 600 kodelinjer. Arkitekturen ble endret, og codeunit er forenklet og gjort enklere å vedlikeholde. Denne dokumentasjonen beskriver endringene og inneholder informasjon du trenger for å oppgradere.  
   
 ## <a name="old-architecture"></a>Gammel arkitektur  
 Den gamle arkitekturen hadde følgende funksjoner:  
@@ -43,9 +44,11 @@ Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[prod_short](includes/p
 * Mange hjelperfunksjoner er overført til tilsvarende tabeller for kunde- og leverandørposter.  
 * Bruken av globale variabler er minimert, slik at hver prosedyre bruker parametere og kapsler inn sin egen programlogikk.  
   
-## <a name="see-also"></a>Se også  
-[Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)   
-[Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Se også
+
+[Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
+[Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
+[Designdetaljer: Finanskladd – bokfør linje (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,20 +10,22 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8f21ea01cd3676320dee3cf6949fdde01b09877
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771213"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074665"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Hvis du vil ha tilgang til siden, velger du ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og deretter handlingen **Assistert oppsett**.
+For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du får tilgang til siden ved ganske enkelt å velge [denne koblingen](https://businesscentral.dynamics.com/?page=1801).  
 
-Hvis du vil åpne listen over veiledninger for assistert oppsett for en hvilken som helst rolle, kan du alternativt velge ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett** og deretter velge den relaterte koblingen.  
+Du kan også velge ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) og deretter handlingen **Assistert oppsett**.
+
+Du finner også listen over veiledninger for assistert oppsett hvis du velger ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Assistert oppsett** og deretter velger den relaterte koblingen.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]

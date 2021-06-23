@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: bc4e39727abcb0bfabb9580ad79e47e9c0b4495b
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
+ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882158"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6074690"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -49,7 +49,7 @@ Kopier en kobling til en Business Central-oppføring, og lim den inn i en Teams-
 
 Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
 
-Hvis du vil ha mer informasjon, kan du se [Arbeide med Business Central-data i Microsoft Teams](across-working-with-teams.md).
+Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="get-started"></a>Kom i gang
 
@@ -62,7 +62,7 @@ Hvis du vil ha mer informasjon, kan du se [Arbeide med Business Central-data i M
 
 2. Som administrator kan du se [Administrere Microsoft Teams-integrering med Business Central](admin-teams-integration.md) for informasjon om hvordan du kan konfigurere brukere til å arbeide med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Installer [!INCLUDE [prod_short](includes/prod_short.md)]-app i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md).
-4. Når appen er installert, kan du sette i gang. Se [Arbeide med Business Central-data i Teams](across-working-with-teams.md). 
+4. Når appen er installert, kan du sette i gang. Se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Del oppføringer i Microsoft Teams](across-working-with-teams.md). 
 
 ## <a name="see-also"></a>Se også
 

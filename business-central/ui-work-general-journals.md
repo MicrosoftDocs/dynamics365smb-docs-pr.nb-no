@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: journals, recurring, accrual
+ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7ed8bba5510e4e17cc645c5dd8f935f50a7fac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
+ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783037"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087722"
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 
@@ -71,7 +71,7 @@ Hvis du vil tillate at kladder kopieres til bokførte finanskladder, merker du a
 Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **Finanskladder** bli fylt ut automatisk når du fyller ut **Kontonr.**-feltet. Hvis ikke, fyller du ut feltene **Kontonr.** og **Motkontonr.** manuelt. Et positivt beløp i **Beløp**-feltet debiteres hovedkontoen og krediteres motkontoen. Et negativt beløp krediteres hovedkontoen og debiteres motkontoen.
 
 > [!NOTE]  
->   Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
+> Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
 
 ## <a name="working-with-recurring-journals"></a>Arbeide med gjentakelseskladder
 En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet og varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Du kan også angi automatisk tilbakeføringsoppføringer for dagen etter bokføringsdatoen. Du kan også bruke fordelingsnøkler til å dele gjentakende poster mellom flere konti. Hvis du vil ha mer informasjon, kan du se [Fordeler gjentakelseskladden til flere konti](#allocating-recurring-journal-amounts-to-several-accounts).
@@ -167,6 +167,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 Når du har lagret standardvarekladden, vises Varekladd-siden, slik at du kan fortsette med å bokføre den – i forvissning om at den enkelt kan gjenopprettes neste gang du har behov for å bokføre de samme eller lignende linjer.
 
 ### <a name="to-reuse-a-standard-journal"></a>Bruke en standardkladd på nytt
+
 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Hent standardkladder**.
 
@@ -181,23 +182,26 @@ Når du har lagret standardvarekladden, vises Varekladd-siden, slik at du kan fo
     Hvis du ikke merket av for **Lagre enhetsbeløp** da du brukte funksjonsjobben **Lagre som standard varekladd**, blir **Enhetsbeløp**-feltet på linjer du satte inn fra standardkladden, fylt ut automatisk med varens gjeldende verdi, som er kopiert fra **Enhetskost**-feltet på varekortet.
 
     > [!NOTE]  
-    >   Hvis du har valgt feltet **Lagre enhetsbeløp** eller **Lagre mengde**, må du kontrollere at de innsatte verdiene er riktige for den aktuelle lagerjusteringen før du bokfører varekladden.
+    > Hvis du har valgt feltet **Lagre enhetsbeløp** eller **Lagre mengde**, må du kontrollere at de innsatte verdiene er riktige for den aktuelle lagerjusteringen før du bokfører varekladden.
 
     Hvis de innsatte varekladdelinjene inneholder lagrede enhetsbeløp du ikke vil bokføre, kan du raskt justere verdien til gjeldende verdi for varen, som i det følgende.
 
-6. Velg varekladdelinjene du vil justere, og velg deretter handlingen **Beregn enhetsbeløp på nytt**. Deretter oppdateres Enhetsbeløp-feltet med gjeldende enhetskost for varen.
-7. Velg handlingen **Bokfør**.
+5. Velg varekladdelinjene du vil justere, og velg deretter handlingen **Beregn enhetsbeløp på nytt**. Deretter oppdateres Enhetsbeløp-feltet med gjeldende enhetskost for varen.
+6. Velg handlingen **Bokfør**.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Nummerere bilagsnumre i kladder på nytt
+
 Hvis du vil sikre at det ikke oppstår posteringsfeil på grunn av rekkefølgen på bilagsnumrene, kan du bruke funksjonen **Nummerere bilagsnumre på nytt** før du bokfører en kladd.
 
 I alle kladdene som er basert på finanskladden, kan feltet **Bilagsnr.** redigeres, slik at du kan angi forskjellige bilagsnumre for ulike kladdelinjer eller det samme bilagsnummeret for relaterte kladdelinjer.
 
-Hvis feltet **Nummerserie** i den satsvise jobben for kladden er fylt ut, vil deretter posteringsfunksjonen i finanskladder kreve at bilagsnummeret på individuelle eller grupperte kladdelinjene er i sekvensiell rekkefølge. Hvis du vil sikre at det ikke oppstår posteringsfeil på grunn av rekkefølgen på bilagsnumrene, kan du bruke funksjonen **Nummerere bilagsnumre på nytt** før du bokfører kladden. Hvis relaterte linjer ble gruppert etter bilagsnummer før du brukte funksjonen, forblir de gruppert, men kan tilordnes til et annet bilagsnummer.
+Hvis feltet **Nummerserie** i den satsvise jobben for kladden er fylt ut, vil deretter posteringsfunksjonen i finanskladder kreve at bilagsnummeret på individuelle eller grupperte kladdelinjene er i sekvensiell rekkefølge. Bare velg handlingen **Nummerer dokumentnumre på nytt** så oppdateres de relevante **Dokumentnr.**-feltene. Hvis relaterte linjer ble gruppert etter bilagsnummer før du brukte funksjonen, forblir de gruppert, men kan tilordnes til et annet bilagsnummer.  
 
 Denne funksjonen fungerer også for filtrerte visninger.
 
 Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for eksempel en betalingsutligning som er utført fra dokumentet på kladdelinjen til en leverandørkonto. Dette betyr at feltet **Utlignings-ID** og **Utligningsbilagsnr.** i de berørte postene kan oppdateres.
+
+### <a name="to-renumber-documents-in-journals"></a>Slik nummererer du dokumentnumre i kladder på nytt
 
 Følgende fremgangsmåte er basert på siden **Finanskladd**, men gjelder for alle andre kladder som er basert på finanskladden, for eksempel siden **Utbetalingskladd**.
 
