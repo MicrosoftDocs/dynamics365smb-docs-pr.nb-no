@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab6625213bdca813bb2ace08b0b07c828ef99678
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98fe9a8e3600156f158cdfc1ce37ad3349cafa1b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782862"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216308"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Hvis du vil støtte JIT-lager (Just In Time) og muligheten til å tilpasse produkter til kundens ønsker, kan monteringsordrer opprettes og kobles automatisk så snart ordrelinjen opprettes. Koblingen mellom salgsbehovet og monteringsforsyningen gjør det mulig for salgsordrebehandlere å tilpasse monteringsvaren og bekrefte leveringsdatoer i henhold til komponenttilgjengelighet. I tillegg bokføres monteringsforbruk og -avgang automatisk med leveringen av den tilknyttede ordren.  
 
@@ -107,7 +107,7 @@ Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:
 1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Produksjonsoppsett** i **Planlegging**-hurtigfanen fjerner du verdien i feltet **Standard sikkerhetstid**.  
 
-Opprett lager for monteringskomponenter ved å følge [Klargjøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
+<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
 ## <a name="story"></a>Hovedscenario  
 Den 23. januar tar ordrebehandleren Susanna en ordre fra Lydeksperten på tre enheter av sett B, som er en ATO-vare. Alle de tre enhetene er tilpasset, og de må inneholde sterke grafikkort og en ekstra RAM-blokk. Diskstasjonene er oppgradert til DWD fordi CD-stasjonene ikke er tilgjengelige. Heidi vet at enhetene kan monteres med en gang, så hun beholder den foreslåtte leveringsdatoen på 23. januar.  
@@ -443,7 +443,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)   
  [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md)   
  [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)   
- [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

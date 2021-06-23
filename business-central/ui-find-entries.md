@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f8ddd7176e69c9d1eb3b8d8ff98c93695d50993
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a29cea15cba15da1bc68816e07f76de59f43958b
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771164"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216131"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Søke etter relaterte poster for bokførte dokumenter 
 
@@ -67,7 +67,7 @@ Du kan søke etter oppføringer basert på informasjon om enten dokumentet, forr
 Når du har gjort et valg, angir du relevant søkeinformasjon i feltene øverst. Bruk verktøytipsene i feltene som hjelp. Når du er ferdig, velger du **Søk** for å starte søket. Hvis du endrer noen av filtrene, må du velge **Søk** på nytt.
 
 > [!TIP]
-> Hvis du vil ha et par eksempler på hvordan du bruker **Søk etter poster**, kan du se [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md) og [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).
+> Hvis du vil se noen eksempler på hvordan du bruker **Søk etter poster**, kan du se [Spor varesporede varer](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 

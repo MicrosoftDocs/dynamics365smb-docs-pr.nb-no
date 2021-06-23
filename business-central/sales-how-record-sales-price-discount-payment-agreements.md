@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c5b7f3d4ac36bb2d4a3213217a521e5286f74bb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778675"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216156"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 > [!NOTE]
@@ -127,7 +127,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
     > Fakturarabattkoder representeres av eksisterende kundekort. Dette lar deg raskt tilordne fakturarabattbetingelsene til kunder ved å velge navnet på en annen kunde som har de samme betingelsene. Hvis du vil definere kundespesifikke fakturarabattbetingelser, angir du feltet **Fakturarabattkode** til kundens kundekode, og deretter går du videre til neste trinn.
 
 8. På siden **Kundekort** velger du handlingen **Fakturarabatter**. Siden **Kundefakturarabatter** åpnes.
-9. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
+9. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i den lokale valutaen.
 10. I **Minimumsbeløp**-feltet kan du eventuelt angi hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 11. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 12. Gjenta trinn 5 til 7 for hver valuta som kunden vil motta en forskjellig fakturarabatt for.
@@ -149,7 +149,7 @@ Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du faktura
 Fortsett å definere nye betingelser for salgsfakturarabatt.
 
 1. På siden **Kunder** velger du handlingen **Fakturarabatter**. Siden **Kundefakturarabatter** åpnes.
-2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
+2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i den lokale valutaen.
 3. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 4. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 5. Gjenta trinn 5 til 7 for hver valuta som kunden vil motta en forskjellig fakturarabatt for.

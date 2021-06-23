@@ -11,15 +11,15 @@
 #### [Gjennomgang: kjøre en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
 #### [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Gjennomgang: Mottak og plassering i avansert lageroppsett](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
-#### [Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)
-#### [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
-#### [Gjennomgang: Selge, montere og levere sett](walkthrough-selling-assembling-and-shipping-kits.md)
+<!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- #### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
+<!-- #### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- #### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+<!-- #### [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md) -->
 #### [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)
 #### [Gjennomgang: beregne varer i arbeid for et prosjekt](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-#### [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md)
+<!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 
 ### Designdetaljer
@@ -79,8 +79,6 @@
 ##### [Oversikt over Finanskladd – bokfør linje](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 ##### [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
-##### [Designdetaljer – Kodeenhet 12: Tilordne globale variabler for Finanskladd – bokfør linje](design-details-codeunit-12-changes-mapping-global-variables-for-general-journal-post-line.md)  
-##### [Designdetaljer – Endringer i kodeenhet 12: Endringer i bokføringsprosedyrene for finans](design-details-codeunit-12-changes-changes-in-general-journal-post-procedures.md)
 #### Designdetaljer: Dimensjonssettposter
 ##### [Designdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)  
 ##### [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)  
@@ -241,9 +239,10 @@
 #### [Tips og triks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Konfigurere e-post
 #### [Konfigurer e-post](admin-how-setup-email.md)
-#### Konfigurer forretningsinnboksen i Outlook 
+#### Konfigurer innboksen for forretning i Microsoft Outlook 
 ##### [Bruke Business Central som forretningsinnboks i Outlook](admin-outlook.md)
-##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Synkroniser med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimaliser Outlook](admin-outlook-optimize.md)
 ##### [Bruke Business Central uten Outlook](admin-no-outlook.md)
 ### Konfigurere rapporter
 #### [Rapportvalg](across-report-selections.md)
@@ -257,7 +256,7 @@
 ##### [Administrere Teams-integrering](admin-teams-integration.md)
 ##### [Installere Business Central-appen for Teams](across-install-app-for-teams.md)
 ##### [Søke etter kunder, leverandører og andre kontakter](across-search-contacts-teams.md)
-##### [Arbeide med Business Central-data i Teams](across-working-with-teams.md)
+##### [Dele poster i Teams](across-working-with-teams.md)
 ##### [Endre selskap og andre innstillinger](across-teams-settings.md)
 ##### [Vanlige spørsmål om Teams](teams-faq.md)
 ##### [Feilsøking](admin-teams-troubleshooting.md)
@@ -287,12 +286,12 @@
 ### [Få Business Central på mobilenheten din](install-mobile-app.md)
 
 ## Vanlige spørsmål
-### [Vanlige spørsmål](across-faq.md)
+### [Vanlige spørsmål](across-faq.yml)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
 ### [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)
 ### [Vanlige spørsmål om listevisninger](ui-views-faq.yml)
 ### [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml)
-### [Vanlige spørsmål om mobilapper](ui-mobile-faq.md)
+### [Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)
 ### [Vanlige spørsmål om Teams](teams-faq.md)
 ### [Vanlige spørsmål om elektronisk fakturering](faq-electronic-invoicing.yml)
 ### [Minstekrav](product-requirements.md)
@@ -534,6 +533,10 @@
 #### [Lukke åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 
+### Administrere kontantstrøm
+#### [Oversikt over kontantstrøm](finance-cash-flow-overview.md)
+#### [Analysere kontantstrømmer i firmaet](finance-analyze-cash-flow.md)
+
 ### Avslutte år og perioder
 #### [Oversikt over årsavslutning](year-close-years-periods.md)
 #### [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)
@@ -566,7 +569,6 @@
 ### [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)
 ### [Konvertere servicekontrakter som inkluderer mva-beløp](service-how-to-convert-service-contracts.md)
 ### [Håndtere endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
-### [Analysere kontantstrømmer i firmaet](finance-analyze-cash-flow.md)
 ### [Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysere årsregnskap i Excel](finance-analyze-excel.md)
 ### [Overføre bankkapital](bank-how-transfer-bank-funds.md)
@@ -586,6 +588,7 @@
 
 ## Salg
 ### [Oversikt over salg](sales-manage-sales.md)
+### [Salgsrapporter](sales-reports.md)
 ### [Gjennomgang: kjøre en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
 ### [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrere nye kunder](sales-how-register-new-customers.md)
@@ -606,9 +609,11 @@
 ### [Beregne dato for salg](sales-date-calculation-for-sales.md)
 ### [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)
 ### [Arbeide med gjentakelsesomsetning](finance-recurring-invoicing.md)
+### [Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)
 
 ## Kjøp
 ### [Oversikt over kjøp](purchasing-manage-purchasing.md)
+### [Kjøpsrapporter](purchase-reports.md)
 ### [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrere kjøp](purchasing-how-record-purchases.md)
 ### [Be om tilbud](purchasing-how-request-quotes.md)
@@ -621,9 +626,13 @@
 ### [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)
 ### [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)
 ### [Arbeide med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)
+### [Eksterne dokumentnumre i kjøpsdokumenter](purchasing-ext-doc-no.md)
+### [Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)
+
 
 ## Lager
 ### [Oversikt over lager](inventory-manage-inventory.md)
+### [Lager og lagerrapporter](inventory-WMS-reports.md)
 ### [Registrere nye varer](inventory-how-register-new-items.md)
 ### [Arbeide med stykklister](inventory-how-work-BOMs.md)
 ### [Kategorisere varer](inventory-how-categorize-items.md)
@@ -642,6 +651,7 @@
 
 ## Prosjektstyring
 ### [Oversikt over prosjektstyring](projects-manage-projects.md)
+### [Prosjektrapporter](project-reports.md)
 ### [Opprette prosjekter](projects-how-create-jobs.md)
 ### [Bruke ressurser for prosjekter](projects-how-use-resources.md)
 ### [Bruke timelister for prosjekter](projects-how-use-time-sheets.md)
@@ -701,21 +711,20 @@
 ## Planlegging
 ### [Produksjonsplanlegging](production-planning.md)
 ### [Om planleggingsfunksjonalitet](production-about-planning-functionality.md)
-### [Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)
 ### [Planlegge med/uten lokasjoner](production-planning-with-without-locations.md)
 ### [Opprette en prognose](production-how-to-create-a-forecast.md)
 ### [Opprette produksjonsordrer fra ordrer](production-how-to-create-production-orders-from-sales-orders.md)
-### [Planlegge prosjektordrer](production-how-to-plan-project-orders.md)
 ### [Planlegge for nytt behov bestilling for bestilling](production-how-to-plan-for-new-demand.md)
 ### [Kjøre full planlegging, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ### [Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ### [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md)
-### [Gjennomgang: planlegge forsyninger manuelt](walkthrough-planning-supplies-manually.md)
-### [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)
+<!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
+<!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
 ## Monteringsstyring
 ### [Montere elementer](assembly-assemble-items.md)
+### [Monteringsrapporter](assembly-reports.md)
 ### [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md)
 ### [Gi tilbud på et montere-til-ordre-salg](assembly-how-to-quote-an-assemble-to-order-sale.md)
 ### [Montere elementer](assembly-how-to-assemble-items.md)
@@ -729,6 +738,7 @@
 
 ## Produksjon
 ### [Oversikt over produksjon](production-manage-manufacturing.md)
+### [Produksjonsrapporter](production-reports.md)
 ### [Om produksjonsordrer](production-about-production-orders.md)
 ### [Opprette produksjonsordrer](production-how-to-create-production-orders.md)
 ### [Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)
@@ -743,6 +753,7 @@
 
 ## Lagerstyring
 ### [Lagerstyring](warehouse-manage-warehouse.md)
+### [Lager og lagerrapporter](inventory-WMS-reports.md)
 ### [Motta varer](warehouse-how-receive-items.md)
 ### [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md)
 ### Plassere varer
@@ -773,8 +784,8 @@
 ### [Levere varer](warehouse-how-ship-items.md)
 ### [Finne lageroppgavene dine](warehouse-how-to-find-your-warehouse-assignments.md)
 ### [Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)
-### [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
-### [Gjennomgang: Mottak og plassering i avansert lageroppsett](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
+<!-- ### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->
+<!-- ### [Walkthrough: Receiving and Putting Away in Advanced Warehouse Configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md) -->
 
 ## Servicehåndtering
 ### [Servicebehandling](service-service.md)
@@ -840,6 +851,7 @@
 ##### [Angi salgspris ved kost pluss prosent](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australske firmanumre og justeringsmerknader](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Angi australske firmanumre](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
+##### [Rapporter om betalingstider](LocalFunctionality/Australia/payment-times-reporting.md)
 
 ### Østerrike
 #### [Lokal funksjonalitet i østerriksk versjon](LocalFunctionality/Austria/austria-local-functionality.md)
@@ -1544,7 +1556,6 @@
 ##### [Angi lovbestemt informasjon](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Konfigurere GetAddress.io UK Postcodes-utvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
-##### [Angi eksterne dokumentnumre](LocalFunctionality/UnitedKingdom/how-to-enter-external-document-numbers.md)
 
 ### USA
 #### [Lokal funksjonalitet i den amerikanske versjonen](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
@@ -1599,6 +1610,7 @@
 ### [Vise Tabellinformasjon](admin-view-table-information.md)
 ### [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md)
 ### [Aktivere nye funksjoner på forhånd](admin-feature-management.md)
+### [Introduser brukere med sjekklister](admin-checklist.md)
 ## Tilpasse Business Central
 ### [Oversikt over tilpassing](ui-customizing-overview.md)
 ### [Tilpasse sider for profiler](ui-personalization-manage.md)
