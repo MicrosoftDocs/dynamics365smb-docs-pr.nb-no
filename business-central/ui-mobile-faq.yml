@@ -1,0 +1,88 @@
+### YamlMime:FAQ
+metadata:
+  title: Vanlige spørsmål om mobilapper
+  description: Se svar på vanlige spørsmål om bruk av Business Central på telefonen eller nettbrettet.
+  author: edupont04
+  ms.service: dynamics365-business-central
+  ms.topic: conceptual
+  ms.devlang: na
+  ms.tgt_pltfrm: na
+  ms.workload: na
+  ms.search.keywords: phone, tablet
+  ms.date: 04/01/2021
+  ms.author: edupont
+  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
+  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.translationtype: HT
+  ms.contentlocale: nb-NO
+  ms.lasthandoff: 05/28/2021
+  ms.locfileid: "6115984"
+title: Vanlige spørsmål om mobilapper
+summary: "Denne artikkelen gir svar på spørsmål som våre avanserte brukere ofte stiller om mobilappene for [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
+sections:
+- name: Ignorert
+  questions:
+  - question: >
+      Finnes det en app for enheten min?
+    answer: >
+      Sannsynligvis! Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheten ved å laste ned appen fra Windows Store, App Store eller Google Play.
+
+
+      - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (bare PC)
+
+      - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+
+      - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+  - question: >
+      Er det samme funksjoner i appene som i nettleseren?
+    answer: >
+      Nei, ikke helt. Vi viser for eksempel bare **Hjem**-aktivitetsgruppen på grunn av den begrensede skjermstørrelsen på mobile enheter. Hurtigtastene er heller ikke tilgjengelige fordi du hovedsakelig bruker berøring i stedet for et tastatur til å navigere på mobile enheter.
+
+
+      Tabellen nedenfor beskriver noen av de vanligste forskjellene og begrensningene som kan oppstå når du bruker [!INCLUDE [prod_short](includes/prod_short.md)] på mobile enheter, sammenlignet med i nettleseren.
+
+
+      | Begrep | På nettbrett | På telefoner | Eksempel fra nettleseren |
+
+      |--|--|--|--|
+
+      | Aktivitetsgrupper | Bare **Hjem**-aktivitetsgruppen vises. | Bare **Hjem**-aktivitetsgruppen vises. | **Hjem** og **Bokførte dokumenter** i `Sales Order Processor`-rollesenteret. |  |
+
+      | Velge flere poster i lister | Ikke tilgjengelig. | Ikke tilgjengelig. | `Ctrl+A` eller `Ctrl+Click` på rader i en liste i nettleseren. |
+
+      | Handlinger på handlingslinjen | Bare forfremmede handlinger vises. | Bare forfremmede handlinger vises. |  |
+
+      | Faktabokser | Vises ikke på listesider eller forslagssider. | Vises ikke på listesider eller forslagssider. | `Customer`-listen i `Small Business`-rollesenteret. |
+
+      | Avanserte filtre | Ingen kolonnespesifikk filtrering er tilgjengelig. | Ingen kolonnespesifikk filtrering er tilgjengelig. | På `Customer`-listesiden. |
+
+      | Fortell meg | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Se [Finne sider og informasjon med Fortell meg](ui-search.md). |  |
+
+      | Rolleutforsker | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Se [Finne sider med rolleutforskeren](ui-role-explorer.md). |
+
+      | Felter i hurtigfaner | Felter i hurtigfaner på listesider vises ikke. Bare repeater-kontrollen vises på innholdsområdet til siden. | Ikke tilgjengelig. |  |
+
+      | Velg fra hele listen | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | På `Item Card` når du velger **Lagerenheter**. |
+
+      | Søke på tvers av listekolonner | Støttes delvis. Søket vil ikke inkludere FlowFields. | Støttes delvis. Søket vil ikke inkludere FlowFields. | Se eksempler på `Customers`-listesiden. |
+
+      | Oppslag | Tilgjengelig. | Tilgjengelig, med den forskjellen at avanserte og enkle oppslag har samme virkemåte på telefonen. Oppslaget vil ikke hente kortet, vise faktabokser eller feltgrupper. | Se eksempler på `Customer Card`-siden. |
+
+      | Matrisekontroller | Ikke tilgjengelig. | Ikke tilgjengelig. | Se eksempel i `G/L Budget`. |
+
+      | Filnedlasting | Tilgjengelig. Kan ikke laste ned flere filer samtidig. | Tilgjengelig. Kan ikke laste ned flere filer samtidig. | `Trial Balance`-rapporten i avmerkingsboksen **Skriv ut til Excel**. |
+
+      | Forslagssider | Tilgjengelig. | Ikke tilgjengelig. Det vises en feilmelding. | `Sales Price`-forslaget eller `Cash Flow`-forslaget. |
+
+      | Oversikter | Tilgjengelig. | Tilgjengelig, med den forskjellen at de vises i et mursteinsoppsett. | Sidene Kunder eller Ordrer. |
+
+      | Innrykk i repeater-kontroller | Tilgjengelig. | Ikke tilgjengelig. Repeater-kontrollen blir gjengitt som et vanlig, flatt mursteinsoppsett. | Sidene Kontoplan og Kontaktlister. |
+
+      | Automatisk inndatafokus på første redigerbare felt på en side | Ikke tilgjengelig. | Ikke tilgjengelig. | `Customer Card`-side.<BR /><BR />I nettleseren plasseres fokus automatisk på det første redigerbare feltet (for eksempel `Name`-feltet), slik at du kan endre verdien med en gang.<BR /><BR />I nettbrett- og telefonappene vil ikke dette feltet være i fokus. I stedet må du merke av i feltet manuelt for å gjøre endringer.|
+  - question: >
+      Er det samme funksjoner på nettbrett og telefoner?
+    answer: "Nesten, men ikke helt. Ser listen i delen [Er det samme funksjoner i appene som i nettleseren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  \n"
+  - question: >
+      Kan jeg koble appen til vår lokale løsning?
+    answer: "Ja, det kan du! Det er en litt annen måte å logge seg på, det er alt. Hvis du vil ha mer informasjon, kan du se [Bruker du Business Central lokalt?](install-mobile-app.md#using-business-central-on-premises).  \n"
+additionalContent: "\n## <a name=\"see-also\"></a>Se også\n\n[Få Business Central på mobilenheten din](install-mobile-app.md)  \n[Installer Business Central-appen for Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"
