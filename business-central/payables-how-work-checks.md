@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2f204daefe5ed9473d64592d67e3c4cf026bce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3f0a848e1a7011b163a92fbf5a58f4cd761ef95
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775093"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438780"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
 
@@ -39,7 +39,7 @@ Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Slik betaler du en leverandørfaktura med en maskinell sjekk
 Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten er lik refusjon til kunde med sjekk.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.
 2. Fyll ut utbetalingskladdelinjene. Hvis du vil ha mer informasjon, kan du se [Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md).
 3. I feltet **Betalingsmåte - kode** velger du **Sjekk**.
 4. I feltet **Bankbetalingstype** velger du **Maskinell sjekk**.
@@ -67,7 +67,7 @@ Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de re
 > [!IMPORTANT]
 > Hvis sjekken utlignes mot en faktura, opphever du utligningen av sjekken først, slik at fakturaen kan betales på nytt, og deretter annullerer du sjekken. Hvis sjekken ble skrevet ut og ikke betalte en faktura, velger du **Bare kanseller sjekk** som beskrevet i denne delen.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. Velg relevant bankkonto, velg handlingene **Rediger** og **Sjekkposter**.
 3. På siden **Sjekkposter** velger du handlingen **Kanseller sjekk**.
 4. Merk av for **Kanseller sjekk**.
@@ -75,7 +75,7 @@ Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de re
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Slik viser du et sammendrag av bokførte sjekker
 Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere sjekker som er betalt til én leverandør, kan du bruke rapporten **Bankkonto - sjekkopplysninger**.
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonto – sjekkopplysninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Bankkontoavstemming – sjekkopplysninger**, og velg deretter den relaterte koblingen.
 2. Angi filtre som er relevante, og velg deretter **Forhåndsvisning**-knappen.
 
 ## <a name="see-also"></a>Se også

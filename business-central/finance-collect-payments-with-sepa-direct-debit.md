@@ -1,6 +1,6 @@
 ---
-title: SEPA Direct Debit i Business Central | Microsoft-dokumentasjon
-description: Du kan samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.
+title: SEPA Direct Debit i Business Central
+description: Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f18bc08a6bb0a2581c8e0983ffa029c07a34cb64
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d39b30fbe625cd92b85bf8055673fa651242007e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786351"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439513"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Innkreve betalinger med SEPA direct debit
 Med kundens samtykke kan du samle inn betaling direkte fra kundens bankkonto i henhold til SEPA-formatet.  
@@ -46,12 +46,12 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 * Konfigurer direct debit-belastningsfullmakten som gjenspeiler avtalen med kunden om å samle sine betalinger i en bestemt avtaleperiode.  
 
 ### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Slik konfigurerer du din bankkonto for SEPA direct debit  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.  
 2. Åpne bankkontoen som du vil bruke til direct debit.  
 3. Velg alternativet for SEPA direct debit i feltet **Eksportformat for SEPA Direct Debit** i hurtigfanen **Overfør**.  
 
 ### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Slik konfigurerer du kundens betalingsmåte for SEPA direct debit  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsmåter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Konfigurer betalingsmåter. Fyll ut de spesifikke feltene for direct\- debit som beskrevet i tabellen nedenfor.  
 
@@ -64,13 +64,13 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
     >  Ikke angi en verdi i feltet **Motkontonr.**  
 
 4. Velg **OK**-knappen for å lukke siden **Betalingsmåter**.  
-5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 6. Åpne kundekortet for kunden som du vil konfigurere SEPA direct debit-samling for.  
 7. Velg feltet **Betalingsmåte - kode**, og velg deretter koden for betalingsmåte som du angav i trinn 3.  
 8. Gjenta trinn 6 og 7 for alle kundene du vil konfigurere SEPA direct debit-samling for.  
 
 #### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Slik konfigurerer du direct debit-belastningsfullmakten som representerer kundeavtalen  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2. Åpne kortet for kunden som du vil konfigurere SEPA direct debit for.  
 3. Velg **Bankkonti**-handlingen.  
 4. På siden **Kundebankkonto - oversikt** velger du kundebankkonto som skal bruke direct debit, og deretter velger du handlingen **Direct Debit-belastningsfullmakter**.  
@@ -99,7 +99,7 @@ Før du kan behandle kundebetalinger elektronisk ved å eksportere direct debit-
 
 ### <a name="to-create-a-direct-debit-collection"></a>Slik oppretter du en avtalegirooppkreving  
 
- 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
+ 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Direct Debit-samlinger**, og velg deretter den relaterte koblingen.  
  2. På siden **Direct Debit-oppkrevinger** velger du handlingen **Opprett Direct Debit-oppkreving**.  
  3. På siden **Opprett Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -145,7 +145,7 @@ En avtalegirosamling legges til på siden **Direct Debit-oppkrevinger**, og én 
  Du kan bokføre kvittering direkte fra siden **Direct Debit\-oppkrevinger** eller siden **Poster for Direct Debit-oppkreving**. Du kan også overføre arbeidet til en annen bruker ved klargjøre de relaterte kladdelinjene.  
 
 ### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Slik bokfører du en kvittering for direct debit fra siden Direct Debit-samlinger  
- 1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Direct Debit-oppkrevinger**, og velg deretter den relaterte koblingen.  
+ 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Direct Debit-samlinger**, og velg deretter den relaterte koblingen.  
  2. Velg en linje for en direct debit-samling som er eksportert til en bankfil og behandlet av banken.
  3. Velg handlingen **Bokfør kvitteringer**.  
  4. På siden **Bokfør Direct Debit-oppkreving** fyller du ut feltene som beskrevet i tabellen nedenfor.  

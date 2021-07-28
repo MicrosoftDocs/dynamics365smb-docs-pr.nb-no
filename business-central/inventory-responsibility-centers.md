@@ -1,6 +1,6 @@
 ---
-title: Arbeide med ansvarssentre | Microsoft-dokumentasjon
-description: Ansvarssentre gir mulighet til å håndtere administrative sentre. Et ansvarssenter kan være et kostsenter, et resultatsenter, et investeringssenter eller et annet administrativt senter som er definert av selskapet.
+title: Arbeid med ansvarssentre
+description: Ansvarssenter som administrative sentre hjelper selskaper med å sette opp brukerspesifikke visninger av salgs- og kjøpsdokumenter eksklusivt til hvert senter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e552378625325710b50989c513d303acd9c480af
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774792"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439388"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeide med ansvarssentre
 
@@ -27,12 +27,12 @@ Med flere lokasjoner kan selskaper styre lageret på flere lokasjoner ved hjelp 
 
 ## <a name="to-set-up-a-responsibility-center"></a>Slik definerer du ansvarssentre
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ansvarssentre**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ansvarssentre** og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     Hvis du bruker ansvarssentre til å administrere selskapet, kan det være nyttig å ha et standard ansvarssenter for selskapet.
-4. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 5. I feltet **Ansvarssenter** angir du en ansvarssenterkode.
 
 Koden brukes i alle kjøps-, salgs og servicedokumenter hvis brukeren, kunden eller leverandøren ikke har noe standard ansvarssenter. I et hvilket som helst salgs-, kjøps- eller servicedokument kan du angi et annet ansvarssenter enn standard.
@@ -46,7 +46,7 @@ Du kan lage et oppsett som gjør at brukerne bare kan hente dokumenter som er re
 
 Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: Kjøp, Salg og Servicehåndtering.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
 2. På siden **Brukeroppsett** velger du brukeren du vil tilordne et ansvarssenter til. Hvis brukeren ikke er på oversikten, må du angi bruker-ID i feltet **Bruker-ID**.  
 3. I feltet **Filter for ansv.senter - salg** angir du i hvilket ansvarssenter brukeren skal ha oppgaver som er knyttet til salg.  
 4. I feltet **Filter for ansv.senter - kjøp** angir du i hvilket ansvarssenter brukeren skal ha oppgaver som er knyttet til innkjøp.  
@@ -58,8 +58,8 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 ## <a name="see-also"></a>Se også
 
 [Definere lager](inventory-setup-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)
-[Beholdning](inventory-manage-inventory.md)[Lagerstyring](warehouse-manage-warehouse.md)  
+[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Lager](inventory-manage-inventory.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

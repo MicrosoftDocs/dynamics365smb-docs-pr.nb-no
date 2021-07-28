@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 04d5679ccb2d335fd308343724c09a9f827cd059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778250"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440106"
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
 Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  
@@ -24,7 +24,7 @@ Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen
 * Angi en merknad på en servicevare om behovet for et utlånsobjekt.  
 
 ## <a name="to-set-up-a-loaner"></a>Slik definerer du utlånsobjekter  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utlånsprodukter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utlånsobjekter** og velg den relaterte koblingen.  
 2. Opprett et nytt kort for utlånsobjekt. 
 3. I feltet **Nr.** -feltet angir du et nummer på utlånsobjektet. Hvis du har definert en nummerserie for utlånsobjekter på siden **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige utlånsobjektnummeret.  
 4. Fyll ut feltene **Beskrivelse**, **Beskrivelse 2** og **Serienr**.  

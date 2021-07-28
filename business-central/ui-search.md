@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d5af514baf18d1d5fbfd3de900d0ef964ff40bc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783187"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440005"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg  
 Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage flere apper og konsulenttjenester for [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -23,7 +23,7 @@ Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ti
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
 
-Når du trenger hjelp til å finne noe, bruker du ikonet ![Fortell hva du vil gjøre](media/ui-search/search.png "Søk etter side eller rapport") **Fortell hva du vil gjøre**-ikonet for å søke etter det. Du kan også bruke ALT+Q for å bruke Fortell meg.
+Når du trenger hjelp til å finne noe, kan bruker ![Fortell meg hva du vil gjøre.](media/ui-search/search.png "Søk etter side eller rapport") **Fortell meg hva du vil gjøre**-ikonet til å søke etter det. Du kan også bruke ALT+Q for å bruke Fortell meg.
 
 Når du begynner å skrive inn tegn, viser [!INCLUDE[prod_short](includes/prod_short.md)] umiddelbart treff. Resultater i listen endres når du skriver inn flere tegn. Hvis du oppdager at resultatet inkluderer ordet "produkt" når du skriver inn ordet **Varer**, skyldes det at Fortell meg bruker synonymer og alternative søkeord for å gjøre det enklere å finne handlinger, sider og rapporter.
 

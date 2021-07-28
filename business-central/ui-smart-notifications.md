@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3fbf2905f20f1f19fc3bd6fb315e63f9944528b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783162"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439980"
 ---
 # <a name="manage-notifications"></a>Behandle varsler
 
@@ -32,7 +32,7 @@ I tillegg kan noen meldinger du angi betingelsene som de ble sendt. For eksempel
 
 Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.  
 
-1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.  
+1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.  
 2. På siden **Mine innstillinger**, i feltet **Varsler**, velger du *Endre når jeg mottar varsler*. kobling.  
 3. På siden som vises, aktiverer eller deaktiverer du et varsel ved å merke av for eller fjerne merket for **Aktivert**.  
 4. Hvis du vil angi vilkårene som utløser et varsel, kan du velge koblingen **Vis filterdetaljer**, og deretter fyller du ut feltene.  

@@ -1,6 +1,6 @@
 ---
-title: Definere standardlinjer for gjentakende salg og kjøp | Microsoft-dokumentasjon
-description: Du kan definere salgslinjer og kjøpslinjer du ofte lager, og deretter sette dem inn i salgs- og kjøpsdokumenter for å fylle ut linjene raskt med standardinformasjon.
+title: Standard gjentakende salgs- og kjøpslinjer
+description: Definere ofte brukte salgslinjer og kjøpslinjer for å sette dem inn i salgs- og kjøpsdokumenter og fylle ut linjene raskt med standardinformasjon.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 32a42f9d420ccab90a733d031c69d0fb6aa1182a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770791"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440181"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
@@ -24,7 +24,7 @@ Fremgangsmåtene nedenfor viser hvordan du arbeider med standardlinjer på en sa
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Konfigurere gjentakende salgslinjer
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakende salgslinjer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende salgslinjer**, og velg deretter den relaterte koblingen.  
 2. På siden **Gjentakende salgslinjer** velger du handlingen **Ny**.  
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I hurtigfanen **Linjer** angir du informasjon i feltene for å klargjøre salgslinjer som gjenspeiler standardlinjene du forventer å bruke som gjentakende linjer i salgsdokumenter.  
@@ -38,7 +38,7 @@ Fremgangsmåtene nedenfor viser hvordan du arbeider med standardlinjer på en sa
 
 Tilordne én eller flere gjentakende salgslinjer til en kunde, slik at de kan settes inn i salgsdokumenter for kunden.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Åpne kortet for den aktuelle kunden.
 3. Velg handlingen **Gjentakende salgslinjer**.
 4. På siden **Gjentakende salgslinjer** velger du kodene for de gjentakende salgslinjene som du vil sette inn i salgsdokumenter for kunden.
@@ -60,7 +60,7 @@ Tilordne én eller flere gjentakende salgslinjer til en kunde, slik at de kan se
 
 Hvis det finnes gjentakende salgslinjer for kunden, kan du sette dem inn eller få dem satt inn, på alle typer salgsdokumenter, for eksempel en salgsfaktura. Hvis du har aktivert alternativene for **Be alltid om bekreftelse**, blir du informert om det finnes gjentakende salgslinjer.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Fakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne salgsfakturaen du vil sette inn én eller flere standard salgslinjer på.
 3. Velg handlingen **Hent gjentakende salgslinjer**.
 4. På siden **Gjentakende salgslinjer** velger du oppslagsknappen i **Kode**-feltet, og deretter velger du et sett med standard salgslinjer.
@@ -69,7 +69,7 @@ Hvis det finnes gjentakende salgslinjer for kunden, kan du sette dem inn eller f
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Opprette flere salgsfakturaer basert på gjentakende salgslinjer
 Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette salgsfakturaer i henhold til standard salgslinjer som er tilordnet til kundene, og med bokføringsdatoer innenfor gyldig-fra- og gyldig til-datoer du angir på standardsalgslinjene.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett gjentakende salgsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett gjentakende salgsfakturaer**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene på siden **Opprett gjentakende salgsfakturaer** etter behov.
 3. I filterfeltet **Kode** angir du koden for standard salgslinjer som er tilordnet en kunde du vil opprette salgsfakturaer for.
 4. Velg **OK**.

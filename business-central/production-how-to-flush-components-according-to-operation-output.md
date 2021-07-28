@@ -1,6 +1,6 @@
 ---
 title: Lagertrekke komponenter i henhold til operasjonsavgang
-description: For varer som er definert med trekkmetoden Bakover, er standard virkemåte å beregne og bokføre komponentforbruk når du endrer statusen for en frigitt produksjonsordre til Ferdig.
+description: Dette emnet beskriver hvordan du tømmer komponenter i henhold til operasjonsavgang og andre trekkmetoder som gjelder.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 82d5148bd99870b623a0b37693e105bcf8b862b2
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f774c3e626ae7db282d87797a59f0f0aaf89d599
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115868"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439096"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Lagertrekke komponenter i henhold til operasjonsavgang
 Du kan definere forskjellige lagerstrategier for å automatisere registrering av forbruk av komponenter. 
@@ -91,18 +91,18 @@ Hvis en produksjonsordre om å produsere 800 meter for eksempel krever 8 kg av e
 
 ## <a name="to-flush-components-according-to-operation-output"></a>Slik utfører du lagertrekk i henhold til operasjonsavgang:
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2.  Velg handlingen **Rediger**.  
 3.  I hurtigfanen **Etterfylling** velger du **Bakover** i feltet **Trekkmetode**.  
 
     > [!NOTE]  
     >  Velg **Plukk + Bakover** hvis komponenten er brukt på en lokasjon som er konfigurert for lagerstyring.  
 
-4.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 5.  Definer rutekoblingskoder for hver operasjon som forbruker komponenten. Hvis du vil ha mer informasjon, kan du se [Opprette ruter](production-how-to-create-routings.md).  
     > [!IMPORTANT]  
     > Du må ikke bruke samme rutekobling for forskjellige operasjoner i ruten, fordi den fører til registrering av komponentens forbruk for hver tilknyttede operasjon.  
-6.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+6.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
 7.  Definer rutekoblingskoder fra hver forekomst av komponenten til operasjonen der den er brukt.
 
 Forbruket bokføres automatisk når du registrerer avgang. Hvis du vil ha mer informasjon, kan du se [Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md)

@@ -1,6 +1,6 @@
 ---
-title: Gjennomgang – Planlegge forsyninger automatisk | Microsoft-dokumentasjon
-description: Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av hovedproduksjonsplanen (MPS) og materialbehovsplanen (MRP) basert på faktisk og prognostisert behov.
+title: Gjennomgang – planlegge forsyninger automatisk
+description: Denne gjennomgangen beskriver hvordan du bruker forsyningsplanleggingssystemet til å planlegge automatisk bestillinger og produksjonsordrer på forskjellige ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e790c33cb10e9e71d8ec6f9482615c41562e379
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214706"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439363"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Gjennomgang: planlegge forsyninger automatisk
 
@@ -48,7 +48,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 ## <a name="prerequisites"></a>Forutsetninger  
  For å fullføre denne gjennomgangen må du gjøre følgende:  
 
--   Installere demoselskapet CRONUS Norge AS  
+-   Installere demoselskapet CRONUS Norge AS.  
 -   Endre ulike vareoppsettverdier ved å følge fremgangsmåten under Klargjøre eksempeldata, senere i denne gjennomgangen.  
 
 ## <a name="story"></a>Hovedscenario  
@@ -74,7 +74,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
 ### <a name="to-change-selected-planning-parameters"></a>Slik endrer du valgte planleggingsparametre:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
 2.  Åpne lagerføringsenhetskortet ØST for vare 1100, forhjul.  
 3.  På hurtigfanen **Planlegging** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -91,7 +91,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  På siden **Ordre** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -103,7 +103,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
 ### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Slik oppretter du en ny planlegging for å dekke behovet i ØST  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -126,7 +126,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Slik beregner du MRP for å inkludere underliggende komponentbehov:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
 3.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -220,7 +220,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
 3.  Godta tilgjengelighetsadvarselen, og velg **Ja** for å registrere behovsmengden.  
 4.  Fortsett med å planlegge på nytt for å justere den aktuelle forsyningsplanen.  
-5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 6.  Velg **Beregn bevegelsesplan**-handlingen.  
 7.  I siden **Beregn plan - planl.forslag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: e38882e31a14c7918348d0db584a870fe9ceeb73
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063430"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439713"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -23,6 +23,8 @@ Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og be
 E-post-funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] er bare for utgående meldinger. Du kan ikke motta svar, det vil si at det ikke finnes noen innboksside i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
+> Du kan bare bruke e-postfunksjonene til [!INCLUDE[prod_short](includes/prod_short.md)] online med Exchange Online. Vi støtter ikke hybride scenarier, for eksempel tilkobling av [!INCLUDE[prod_short](includes/prod_short.md)] online til en lokal Exchange-versjon.
+> 
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du opprette en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal før du kan konfigurere e-post. Appregistreringen gjør det mulig for [!INCLUDE[prod_short](includes/prod_short.md)] å autorisere og godkjenne e-postleverandøren. Hvis du vil ha mer informasjon, se [Konfigurere e-post for Business Central lokalt](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). I [!INCLUDE[prod_short](includes/prod_short.md)] på nett håndteres dette for deg.
 
 ## <a name="required-permissions"></a>Nødvendige tillatelser
@@ -37,7 +39,7 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 |Utvidelse  |Beskrivelse  |Eksempler på når den kan brukes  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i administrasjonssenteret i Microsoft 365. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes.md) hvis du vil ha mer informasjon.|
+|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i administrasjonssenteret i Microsoft 365. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes) hvis du vil ha mer informasjon.|
 |**Gjeldende bruker**|Alle sender e-post fra kontoen de brukte til å logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillat kommunikasjon fra individuelle konti.|
 |**Andre (SMTP)**|Bruk SMTP-protokoll til å sende e-poster.|Tillat kommunikasjon via SMTP-e-postserveren. |
 
@@ -61,7 +63,7 @@ Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i 
 > [!NOTE]
 > Du må ha en standard e-postkonto selv om du bare legger til én konto. Standardkontoen blir brukt i alle e-postscenarioer som ikke er tilordnet en konto. Hvis du vil ha mer informasjon, kan du se [Tilordne e-postscenarioer til e-postkontoer](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurer e-postkontoer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Konfigurer e-postkontoer**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
 
@@ -75,7 +77,7 @@ E-postscenarioer er prosesser som omfatter sending av et dokument, for eksempel 
  
 <!--
 ## To set up email
-1. Choose the ![Lightbulb that opens the Tell Me feature](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -89,7 +91,7 @@ E-postscenarioer er prosesser som omfatter sending av et dokument, for eksempel 
 ## <a name="set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents"></a>Konfigurer gjenbrukbare e-posttekster og -oppsett for salgs- og kjøpsdokumenter
 Du kan bruke rapporter til å ta med viktig informasjon fra salgs- og kjøpsdokumenter i tekster for e-poster. Denne fremgangsmåten beskriver hvordan du konfigurerer rapporten **Salg – faktura** for bokførte salgsfakturaer, men prosessen er lik for andre rapporter.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportvalg – salg**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rapportvalg – salg**, og velg deretter den relaterte koblingen.
 2. På siden **Rapportvalg - salg**, i **Bruk**-feltet, velger du **Faktura**.
 3. På en ny linje i **-Rapport-ID**-feltet, velger du for eksempel standardrapport 1306.
 4. Merk av for **Bruk for brødtekst i e-post**.
@@ -115,17 +117,17 @@ Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCL
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Sette opp erstatningsavsenderadresse for alle utgående e-postmeldinger
 1. I **Administrasjonssenter for Exchange** for Microsoft 365-kontoen finner du e-postboksen som skal brukes som erstatningsadresse, og deretter kopierer eller noterer du adressen. Hvis du trenger en ny adresse, går du til administrasjonssenteret for Microsoft 365 for å opprette en ny bruker og konfigurere postboksen.
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett for SMTP-e-post**, og velger deretter den relaterte koblingen.
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.
 3. I **Send som**-feltet angir du erstatningsadressen.
 4. Kopier eller noter adressen i feltet **Bruker-ID**.
-5. I **Administrasjonssenter for Exchange** finner du postboksen som skal brukes som erstatningsadresse, og deretter angir du adressen fra **Bruker-ID**-feltet i **Send som**-feltet. Hvis du vil ha mer informasjon, kan du se [Bruke EAC til å tilordne tillatelser til individuelle postbokser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019#use-the-eac-to-assign-permissions-to-individual-mailboxes).
+5. I **Administrasjonssenter for Exchange** finner du postboksen som skal brukes som erstatningsadresse, og deretter angir du adressen fra **Bruker-ID**-feltet i **Send som**-feltet. Hvis du vil ha mer informasjon, kan du se [Bruk EAC til å tilordne tillatelser til individuelle postbokser](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
 ### <a name="to-use-the-substitute-address-in-approval-workflows"></a>Slik bruker du erstatningsadressen i arbeidsflyter for godkjenning
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett for SMTP-e-post**, og velger deretter den relaterte koblingen.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.
 2. Kopier eller noter adressen i feltet **Bruker-ID**.
-3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.
-4. I **Administrasjonssenter for Exchange** finner du postboksene for hver bruker i **Brukeroppsett for godkjenning**, og i feltet **Send som** angir du adressen fra feltet **Bruker-ID** fra siden **Oppsett for SMTP-e-post** i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser for mottakere](/Exchange/recipients/mailbox-permissions?view=exchserver-2019).
-5. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett for SMTP-e-post**, og velger deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.
+4. I **Administrasjonssenter for Exchange** finner du postboksene for hver bruker i **Brukeroppsett for godkjenning**, og i feltet **Send som** angir du adressen fra feltet **Bruker-ID** fra siden **Oppsett for SMTP-e-post** i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Administrer tillatelser for mottakere](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true).
+5. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for SMTP-e-post**, og velg deretter den relaterte koblingen.
 6. For å aktivere erstatning slår du på aktivering/deaktivering av **Tillat avsendererstatning**.
 
 > [!Note]
@@ -178,7 +180,7 @@ Hvis du har problemer med å bruke det gamle SMTP-oppsettet til å sende e-post 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledning **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **AAD-registrering for e-postapp**, og velger deretter den relaterte koblingen.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **AAD-registrering for e-postapp**, og velger deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
@@ -207,11 +209,14 @@ Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledni
 
 -->
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/set-up-email/)
+
 ## <a name="see-also"></a>Se også
+
 [Delte postbokser i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook](admin-outlook.md)  
 [Henter [!INCLUDE[prod_short](includes/prod_short.md)] på mobilenheten min](install-mobile-app.md)

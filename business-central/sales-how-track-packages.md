@@ -1,18 +1,18 @@
 ---
-title: Slik sporer du pakker | Microsoft-dokumentasjon
-description: Bruk sporingstjenesten til transportøren for å se fremdriften til en levering.
+title: Spore pakker
+description: Bruk sporingstjenesten for transportører på Internett til å spore kolli og følge fremdriften i en levering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fea12afc4c9c1273fe8ba6da563240781fb1bc9d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778350"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440206"
 ---
 # <a name="track-packages"></a>Spore pakker
 
@@ -22,7 +22,7 @@ Følgende fremgangsmåte viser hvordan du sporer en pakke fra en bokført følge
 
 ## <a name="to-track-a-package"></a>Slik sporer du pakker
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokført følgeseddel**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokført følgeseddel**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle leveringen.
 3. Velg handlingen **Oppdater dokument**.
 4. I feltet **Pakkesporingsnr.** angir du pakkenummeret du har mottatt fra transportøren. Oppdater **Transportør** om nødvendig, og lukk siden.

@@ -1,6 +1,6 @@
 ---
 title: Plukking og levering i enkle lageroppsett
-description: I Business Central kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.
+description: I Business Central kan de utgående prosessene for plukking og levering utføres på følgende fire måter avhengig av kompleksitetsnivået til lageret.
 author: jill-kotel-andersson
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/27/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: e1763e6288c8b8218955049ba7ef4c461ee5164e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3eefe17d0ebe89d006c5904cb73a75975b6c38f2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214656"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439071"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
 
@@ -81,7 +81,7 @@ For å kunne bruke denne funksjonaliteten må du legge deg selv til på lokasjon
 
 #### <a name="to-make-yourself-a-warehouse-employee"></a>Slik oppretter du deg selv som en lageransatt
 
-  1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen første](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageransatte**, og velg deretter den relaterte koblingen.  
+  1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg første.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageransatte**, og velg deretter den relaterte koblingen.  
   2. Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Lageransatte**.
   3. Velg SØR i feltet **Lokasjonskode**.  
   4. Velg feltet **Standard**, og velg deretter **Ja**-knappen.  
@@ -90,7 +90,7 @@ For å kunne bruke denne funksjonaliteten må du legge deg selv til på lokasjon
 
 For å gjøre varen 1928-S tilgjengelig på SØR-plasseringen følger du denne fremgangsmåten:  
 
-  1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen andre](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen.  
+  1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg andre.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.  
   2. Åpne standardkladden, og opprett deretter to varekladdelinjer med følgende informasjon om arbeidsdatoen (23. januar).  
 
         |Posttype|Varenummer|Lokasjonskode|Hyllekode|Antall|  
@@ -109,7 +109,7 @@ Salgsordrer er den vanligste typen av utgående kildedokumenter.
 
 ### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen tredje](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg tredje.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Opprett en ordre for kunde 10000 på arbeidsdatoen (23. januar) med følgende ordrelinje.  
 
@@ -129,7 +129,7 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 
 ### <a name="to-pick-and-ship-items"></a>Slik plukker og leverer du varer:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen fjerde](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg fjerde.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 
     Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.

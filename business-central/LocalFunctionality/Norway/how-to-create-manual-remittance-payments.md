@@ -12,19 +12,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3450ec080872204978c23b26a8e16c7dfc645037
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1e30e28144ef8db041d8951d1dde12c9bc39cae7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770996"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439940"
 ---
 # <a name="create-manual-remittance-payments"></a>Opprette manuelle remitteringsoppdrag
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  
 
 ## <a name="to-create-a-manual-remittance-payment"></a>Slik oppretter du manuelle remitteringsoppdrag:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
 2.  På siden **Betalingsinformasjon** velger du handlingen **Initialiser betalingsinformasjon**.  
 
     Hvis betalingen er knyttet til en eksisterende leverandørpost, overføres informasjonen fra posten. Hvis betalingen ikke er knyttet til en leverandørpost, opprettes bare noe av informasjonen.  

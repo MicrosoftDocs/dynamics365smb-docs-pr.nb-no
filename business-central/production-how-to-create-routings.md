@@ -1,6 +1,6 @@
 ---
-title: Opprette ruter | Microsoft-dokumentasjon
-description: En rute inneholder hoveddata som gjenspeiler prosesskravene for en gitt produsert vare. Når en produksjonsordre opprettes for denne varen, styrer varens rute planleggingen av operasjonen(e) som vist på siden Prod.ordrerute under produksjonsordren.
+title: Opprette ruter
+description: Dette emnet gir en oversikt over ulike måter å opprette ruter på, inkludert nødvendige krav og hvordan du oppretter rutekoblinger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 40c3a8b938e2d4fa07ae0f5794443d659b06e2e2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ebd8d0c264dde17522eae3c8a6f718b485ec7f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779306"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439848"
 ---
 # <a name="create-routings"></a>Opprette ruter
 
@@ -32,7 +32,7 @@ Før du kan definere en rute, må følgende være på plass:
 
 ## <a name="to-create-a-routing"></a>Slik oppretter du en rute
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Seriell** i **Type**-feltet for å beregne produksjonsruten i henhold til verdien i **Operasjonsnr.**-feltet .  
@@ -64,7 +64,7 @@ Du kan opprette rutekoblinger til å koble komponenter til bestemte operasjoner 
 
 En annen viktig fordel er at koblede komponenter og operasjoner vises i en logisk prosesstruktur når du bruker **Produksjonskladd**-siden til bokføring av avgang og forbruk.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 2. Åpne ruten som inneholder operasjonene du vil koble.  
 
     Kontroller at rutestatus er **Under utvikling**.  
@@ -96,7 +96,7 @@ De valgte komponentene kobles nå til de valgte operasjonene når du oppretter e
 
 Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell godkjenning for en operasjon, kan du tilordne dette personellet til operasjonen. Du kan dessuten tilordne verktøy og kvalitetskrav til operasjonen. Denne fremgangsmåten beskriver hvordan du tilordner personell. Fremgangsmåten er de samme som for andre typer informasjon om operasjoner.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle ruten.  
 3. I hurtigfanen **Linjer** velger du linjen du vil behandle, velger handlingen **Operasjoner** og deretter **Personell**.  
 4. Fyll ut feltene på **Rutepersonell**-siden.  
@@ -106,7 +106,7 @@ Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell go
 
 Med versjonsprinsippet kan du håndtere flere versjoner av en rute. Strukturen i ruteversjonen tilsvarer strukturen i ruten som består av ruteversjonshodet og ruteversjonslinjene. Hovedforskjellen defineres av startdatoen.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 2. Velg ruten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3. På siden **Ruteversjoner** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov.

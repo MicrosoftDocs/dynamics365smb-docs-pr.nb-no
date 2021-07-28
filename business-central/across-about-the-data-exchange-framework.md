@@ -1,21 +1,21 @@
 ---
-title: Rammeverket for datautveksling | Microsoft-dokumentasjon
-description: Filformater for utveksling av data i bankfiler, elektroniske dokumenter, valutakurser og andre med ERP-systemer varierer avhengig av leverandøren av datafilen eller -strømmen og landet/regionen.
+title: Rammeverket for datautveksling
+description: Dette emnet forklarer hvordan du bruker rammeverket for datautveksling til å håndtere utvekslingen av data i forretningsdokumenter som fakturaer med forretningspartnere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file, OCR
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 6ae76aa8f8522b7d93dd442d6d8cc748f1d2dac4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53c0bcbf03f989175783ebb93228815712c25552
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776325"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439121"
 ---
 # <a name="about-the-data-exchange-framework"></a>Rammeverket for datautveksling
 
@@ -25,9 +25,9 @@ Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integra
 
  Diagrammene nedenfor viser arkitekturen til rammeverket for datautveksling.  
 
- ![Rammeverket for datautveksling &#45; Import](media/across-data-exchange/dataexchangeframework_import.png)  
+ ![Rammeverket for datautveksling &#45; Import.](media/across-data-exchange/dataexchangeframework_import.png)  
 
- ![Rammeverket for datautveksling &#45; Eksport](media/across-data-exchange/dataexchangeframework_export.png)  
+ ![Rammeverket for datautveksling &#45; Eksport.](media/across-data-exchange/dataexchangeframework_export.png)  
 
 ## <a name="electronic-documents"></a>Elektroniske dokumenter
 

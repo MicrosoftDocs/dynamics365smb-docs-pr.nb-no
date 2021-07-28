@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 939b280e631113d3196f6fbbc90d9bf19b9fc408
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025836"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438755"
 ---
 # <a name="power-bi--faq"></a>Vanlige spørsmål om Power BI
 
@@ -65,8 +65,20 @@ Vi har ikke kontroll over dette kravet. Dette kravet stilles av Power BI. Hvis d
 <!-- 7 -->
 ### <a name="does-the-connector-work-with-api-pages"></a>Fungerer koblingen med API-sider?
 
-Ikke ennå. Men den nye Power BI-koblingen får støtte for både Business Central-webtjenester og API-sider i juni 2021. Hvis du vil ha mer informasjon, kan du se [Aktivere Power BI-koblingen slik at den fungerer med API-er for Business Central, i stedet for bare webtjenester](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
+Ja. Fra og med juni 2021 støtter den nye Power BI-koblingen både Business Central-nettjenester og API-sider. Hvis du vil ha mer informasjon, kan du se [Aktivere Power BI-koblingen slik at den fungerer med API-er for Business Central, i stedet for bare webtjenester](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/enable-power-bi-connector-work-business-central-apis-instead-web-services-only).
 
+### <a name="can-i-build-a-power-bi-report-using-the-sales-invoice-lines-or-journal-lines-apis"></a>Kan jeg bygge en Power BI-rapport ved hjelp av API-ene Salgsfakturalinjer eller Kladdelinjer?
+
+De mest brukte linjepostene er tilgjengelige i [Business Central-API-ene v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)). Du kan dermed bruke dem til å bygge opp rapporter i Power BI ved å merke dem i **Dynamics 365 Business Central**-koblingen. API-ene for **linjer** er imidlertid utformet for bare å brukes sammen med enkelte svært spesifikke filtre, og fungerer kanskje ikke i ditt scenario. Du kan få feilmeldingen som ligner: Du må angi en ID eller en dokument-ID for å hente linjene. Du løser dette problemet ved å gjøre følgende når du henter data fra Business Central for rapporten i Power BI Desktop:
+
+1. I stedet for å inkludere datakilden for linjeenheten, legger du til den overordnede datakilden. Du kan for eksempel legge til **salgsfaktura** i stedet for **salgsfakturalinjer**.
+2. Velg **Transformer data** på Power BI Desktop-handlingslinjen.
+3. Velg spørringen du nettopp la til, for eksempel **Salgsfakturaer**.
+4. Bruke alle nødvendige filtreringer på postene for å redusere antall poster som lastes inn i rapporten.
+5. Rull mot høyre til du finner en kolonne som heter linjer, for eksempel **SalesInvoiceLines**.
+6. Velg Vis-knappen i kolonneoverskriften ved siden av kolonnenavnet.
+
+   :::image type="content" source="media/saleinvoicelines.png" alt-text="Viser SalesInvoiceLines-kolonnen i Power BI Desktop.":::
 <!-- 11 --> 
 ### <a name="is-it-possible-to-choose-which-business-central-environment-to-get-data-from-for-power-bi-for-example-like-a-sandbox-or-production-environment"></a>Går det an å velge hvilket Business Central-miljø du kan hente data fra, for Power BI, for eksempel et sandkasse- eller produksjonsmiljø? 
 
@@ -137,14 +149,23 @@ Når det gjelder webtjenester, går det vanligvis raskere å bruke publiserte sp
 Når den nye koblingen er tilgjengelig i juni 2021, oppfordres du til å bruke API-sider i stedet for spørringer som er publisert som webtjenester.
 
 <!-- 13 --> 
-### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-developer-have-to-create-a-custom-query"></a>Kan en sluttbruker opprette en webtjeneste med en kolonne som er i en Business Central-tabell, men ikke på en side? Eller må utvikleren opprette en egendefinert spørring? 
+### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Kan en sluttbruker opprette en webtjeneste med en kolonne som er i en Business Central-tabell, men ikke på en side? Eller må utvikleren opprette en egendefinert spørring? 
 
-Ikke ennå. Men når den nye koblingen er tilgjengelig i juni 2021, kan en utvikler lage en ny API-side som oppfyller dette kravet. 
+Ja. Med lanseringen av den nye koblingen i juni 2021 kan en utvikler lage en ny API-side som oppfyller dette kravet. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Kan jeg koble Power BI til en skrivebeskyttet databaseserver for Business Central Online? 
 
-Nei. Men vi har denne funksjonen på det langsiktige veikartet vårt. 
+Antall Men vi har denne funksjonen på det langsiktige veikartet vårt. 
+
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Hvordan endrer eller tømmer jeg brukerkontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?
+
+Gjør ett av følgende i Power BI Desktop:
+
+1. Velg **Alternativer og innstillinger** > **Datakildeinnstillinger** på Fil-menyen.
+2. Velg **Dynamics Business Central** i oversikten, og velg deretter **Slett tillatelser** > **Slett**.
+
+Neste gang du kobler til Business Central for å hente data, blir du bedt om å logge på.
 
 ## <a name="performance"></a>[Ytelse](#tab/performance)
 

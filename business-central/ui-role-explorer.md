@@ -1,6 +1,6 @@
 ---
-title: Utforske og navigere sider per rolle | Microsoft Docs
-description: ''
+title: Utforske og navigere sider per rolle
+description: Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller med rolleutforskeren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9b0c85b181f68e0fd6078b85d43b7b0d08bccd80
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2c6acdd0370144c4a49f068a26c5f5f6c6f6a9a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783237"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440030"
 ---
 # <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
@@ -24,7 +24,7 @@ Hvert element i rolleutforskeren er en handling som åpner en side. Du kan også
 
 Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fortell meg**-vinduet.
 
-- I rollesenteret eller på en listeside velger du ![Meny-knapp](media/ui_menu_button.png "Meny-knapp")-knappen på høyre side av navigasjonslinjen, eller trykker Skift+F12.
+- I rollesenteret eller på en listeside velger du knappen ![Meny-knapp.](media/ui_menu_button.png "Meny-knapp") til høyre for navigasjonsfeltet eller trykker på SKIFT + F12.
 - I **Fortell meg**-vinduet velger du **utforsker**-handlingen nederst.
 
 Velg handlingen **Søk** på toppen av rolleutforskeren for raskt å finne funksjonsnavn som inneholder et bestemt uttrykk.

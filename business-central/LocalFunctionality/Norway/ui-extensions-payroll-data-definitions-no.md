@@ -1,6 +1,6 @@
 ---
-title: Lønnsdatadefinisjoner (NO) | Microsoft-dokumentasjon
-description: Denne utvidelsen gjør det enkelt å utveksle data med lønnstjenesteleverandøren i Norge.
+title: Lønnsdatadefinisjoner [NO]
+description: Utvidelsen Lønnsdatadefinisjoner gjør det enkelt å utveksle data med lønnstjenesteleverandøren i Norge.
 author: edupont04
 manager: edupont04
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: de448f78865d13f4cb48919c6cac4aab9ca77bb2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c6c809c9cc2d4b957c4d3d953f9a1dd1c45ea236
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770619"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440056"
 ---
-# <a name="the-payroll-data-definitions-no-extension"></a>Utvidelsen Lønnsdatadefinisjoner (NO)
+# <a name="the-payroll-data-definitions-extension-in-the-norwegian-version"></a>Utvidelsen Lønnsdatadefinisjoner i den norske versjonen
 
 Hvis bedriften din bruker Huldt & Lillevik Lønn - Visma-lønnstjenesteleverandørene i Norge kan utvidelsen **Lønnsdatadefinisjoner (NO)** hjelpe deg med å registrere lønnstransaksjoner fra disse leverandørene raskt og nøyaktig. Utvidelsen inneholder datautvekslingsdefinisjoner som lar deg lese inn lønnstransaksjoner i filer som leverandørene sender til deg. Hvis du vil ha mer informasjon om datautvekslingsdefinisjoner, kan du se [Definere datautvekslingsdefinisjoner](../../across-how-to-set-up-data-exchange-definitions.md).   
 
@@ -30,7 +30,7 @@ Når du har installert utvidelsen, er neste trinn å angi formatet for lønnsdat
 
 ## <a name="to-import-a-payroll-file"></a>Slik importerer du en lønnsfil
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladder**, og velg deretter den relaterte koblingen.   
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen.   
 2.  Velg kladden som skal brukes, og bruk deretter handlingen **Importer lønnsfil** til å importere datafilen fra lønnstjenesteleverandøren.  
 
 ## <a name="see-also"></a>Se også

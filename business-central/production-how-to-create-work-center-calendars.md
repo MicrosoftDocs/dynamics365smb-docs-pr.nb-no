@@ -1,6 +1,6 @@
 ---
-title: Definere produksjonskalendere | Microsoft-dokumentasjon
-description: En arbeidssenterkalender angir virkedager og arbeidstider, skift, ferie og fravær som utgjør arbeidssenterets disponible kapasitet, målt i tid, i henhold til senterets definerte effektivitets- og kapasitetsverdier. Opprettelse og aktivering av en arbeidssenterkalender omfatter flere forhåndsoppgaver.
+title: Opprette produksjonskalendere
+description: Oppretting og aktivering av en arbeidssenterkalender omfatter flere oppgaver, inkludert oppsett av produksjonskalendere og oppretting av arbeidsskift.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781952"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440406"
 ---
 # <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
 En arbeidssenter- eller maskinkalender angir virkedager/arbeidstider, skift, ferie og fravær som utgjør senterets disponible kapasitet (målt i tid) i henhold til senterets definerte effektivitets- og kapasitetsverdier.
@@ -25,7 +25,7 @@ Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurs
 I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner når du definerer produksjonsressurskalendere.  
 
 ## <a name="to-create-work-shifts"></a>Slik oppretter du arbeidsskift  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere arbeidsskiftet, for eksempel **1**.  
 3.  Beskriv arbeidsskiftet i **Beskrivelse**-feltet, for eksempel **1. skift**.  
 4.  Fyll eventuelt ut linjer for et andre eller tredje arbeidsskift.  
@@ -33,7 +33,7 @@ I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner nå
 Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én arbeidsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonskalendere**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Produksjonskalender**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
 4.  Velg **Virkedager**-handlingen.
@@ -68,7 +68,7 @@ Produksjonskalenderen kan nå tilordnes til et arbeidssenter for å beregne prod
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Slik beregner du en arbeidssenterkalender  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidssentre**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidssentre**, og velg deretter den relaterte koblingen.
 2. Åpne arbeidssenteret som du vil oppdatere.  
 3. I feltet **Produksjonskalenderkode** velger du hvilken produksjonskalender som skal brukes som grunnlag for en arbeidssenterkalender.  
 4. Velg handlingen **Kalender**.  

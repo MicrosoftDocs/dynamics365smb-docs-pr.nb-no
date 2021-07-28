@@ -1,6 +1,6 @@
 ---
 title: Opprette et nytt selskap | Microsoft-dokumentasjon
-description: Bruke RapidStart Services-tabeller og -sider som er opprettet, uten at det finnes data for dem.
+description: Bruk RapidStart Services-tabeller og -sider til å opprette et nytt selskap som du vil utføre en kundeimplementering for.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c21d86c67c6020d1a32da4816246bc7aaf96c2ca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb2e3e8d431160c94f7944fe8986ea9cc115ffe7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779885"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439638"
 ---
 # <a name="create-a-new-company"></a>Opprett et nytt selskap.
 Hvis du vil bruke RapidStart Services for [!INCLUDE[prod_short](includes/prod_short.md)], oppretter du først et nytt selskap du vil utføre en kundeimplementering for. Når du oppretter et nytt selskap, opprettes standard [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og -sider, men de inneholder ingen data.
@@ -26,7 +26,7 @@ Eksempelkonfigurasjonspakker, inkludert lands-regionspesifikke filer, er inklude
 
 ## <a name="to-use-the-sample-basicconfig-configuration-package"></a>Bruke eksempelkonfigurasjonspakken BASICCONFIG  
 1. Åpne demonstrasjonsselskapet CRONUS Norge AS. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg BASICCONFIG-pakken fra listen, og velg deretter handlingen **Eksporter pakke**.  
 
 Bruk følgende fremgangsmåte til å opprette et nytt selskap, og bruk BASICCONFIG-pakken som en del av prosessen.  

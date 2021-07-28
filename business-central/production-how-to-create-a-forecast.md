@@ -1,6 +1,6 @@
 ---
 title: Slik oppretter du en behovsprognose
-description: Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.
+description: Lær om prognosefunksjonen i Business Central og hvordan du kan opprette salgsprognoser og produksjonsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b2a24eeb4e50cb6f7a1c9e02c861ec51668438
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779331"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438690"
 ---
 # <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
 Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.  
@@ -62,7 +62,7 @@ Tenk deg dette eksemplet: Selskapet kjøper og selger varer på to lokasjoner: �
 Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggingssystemet foreslår at du gjør følgende:
 
 - Etterfyller 10 stykker for lokasjon ØST, basert på data fra prognosen.  
-- Etterfyller 12 stykker for lokasjon VEST, basert på ordre. De fire stykkene som ble angitt i prognosen, blir fullstendig forbrukt av det faktiske behovet for ordren. Hvis du vil ha mer informasjon, kan du se avsnittet [Prognosebehovet reduseres av ordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
+- Etterfyller 12 stykker for lokasjon VEST, basert på ordren. De fire stykkene som ble angitt i prognosen, blir fullstendig forbrukt av det faktiske behovet for ordren. Hvis du vil ha mer informasjon, kan du se avsnittet [Prognosebehovet reduseres av ordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders). 
 
 > [!NOTE]  
 >  Hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
@@ -85,7 +85,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 
 ## <a name="to-create-a-demand-forecast"></a>Slik oppretter du en behovsprognose:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
 2. Velg en prognose i feltet **Navn på behovsprognose** på hurtigfanen **Generelt**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
 3. I **Lokasjonsfilter**-feltet velger du lokasjonen som denne prognosen skal brukes på.
 4. I **Vis etter**-feltet for å endre perioden som vises i hver kolonne. Du kan velge mellom følgende intervaller: **Dag**, **Uke**, **Måned**, **Kvartal**, **År** eller **Regnskapsperiode**, som definert i finansområdet.    

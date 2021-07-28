@@ -1,6 +1,6 @@
 ---
 title: Opprette produksjonsstykklister
-description: En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
+description: Lær hvordan du oppretter en produksjonsstykkliste, nye versjoner av en produksjonsstykkliste, og hvordan du bruker antallsberegningsformelen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 122a907e7b61c9fe19853226de8549a073f0cddd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781991"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438681"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 
@@ -29,7 +29,7 @@ Før du kan definere en rute, må følgende være på plass:
 - Produksjonsressurser er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
 ## <a name="to-create-a-production-bom"></a>Slik oppretter du en produksjonsstykkliste  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil kunne redigere stykklisten, setter du **Status**-feltet til **Ny** eller **Under utvikling**. Hvis du vil aktivere den, setter du **Status**-feltet til **Sertifisert**.  
@@ -56,7 +56,7 @@ Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstatt
 
 Startdatoen angir starten på perioden som denne versjonen er gyldig i. I alle andre tilfeller er startdatoen et filterkriterium for beregninger og evalueringer. Stykklisteversjonen er gyldig til neste versjon blir gyldig.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
 2.  Velg produksjonsstykklisten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3.  Velg handlingen **Ny**.  
 4. Fyll ut feltene etter behov.

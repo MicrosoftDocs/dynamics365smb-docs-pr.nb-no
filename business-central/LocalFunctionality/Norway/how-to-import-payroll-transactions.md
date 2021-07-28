@@ -1,6 +1,6 @@
 ---
-title: Lese inn lønnstransaksjoner
-description: Du kan importere lønnstransaksjoner til en finanskladd fra to eksterne lønnslisteløsninger.
+title: Importer lønnstransaksjoner [NO]
+description: Du kan bruke Business Central til importere lønnstransaksjoner til en finanskladd fra to eksterne lønnslisteløsninger.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: af29734b94c1de03a2ca2524918a3dfa369f3971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 25d70ed6a417cdb496569155a11fe4fd36bb60df
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773235"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438980"
 ---
 # <a name="import-payroll-transactions-in-the-norwegian-version"></a>Importere lønnstransaksjoner i den norske versjonen
 
@@ -26,7 +26,7 @@ Du kan importere lønnstransaksjoner til en finanskladd fra den ledende norske l
 
 ## <a name="to-import-payroll-transactions"></a>Slik importerer du lønnstransaksjoner  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen.  
 2. Velg kladden som skal brukes, og bruk deretter handlingen **Importer lønnsfil** til å importere datafilen fra lønnstjenesteleverandøren.  
 3. Velg **OK**.  
 
