@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215106"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436954"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetaljer: Bokføringsdato på verdiposten for justering
 Denne artikkelen gir en beskrivelse av funksjonen for kostberegning av beholdning i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne artikkelen beskriver hvordan kjørselen **Juster kostverdi - vareposter** identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.  
@@ -33,7 +33,7 @@ Kjørselen **Juster kostverdi – vareposter** tilordner en bokføringsdato til 
 
  La oss se på prosessen ved hjelp av et praktisk eksempel. Anta at vi har en varepost for salg. Varen ble levert 5. september 2013, og den ble fakturert dagen etter.  
 
-![Status for vareposter i scenariet](media/helene/TechArticleAdjustcost1.png "Status for vareposter i scenariet")  
+![Status for vareposter i scenariet.](media/helene/TechArticleAdjustcost1.png "Status for vareposter i scenariet")  
 
 Den første verdiposten (379) nedenfor representerer leveringen og har samme bokføringsdato som den overordnede vareposten.  
 
@@ -41,7 +41,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Den tredje verdiposten (391) er en justering av faktureringsverdiposten (381)  
 
- ![Status for verdiposter i scenariet](media/helene/TechArticleAdjustcost2.png "Status for verdiposter i scenariet")  
+ ![Status for verdiposter i scenariet.](media/helene/TechArticleAdjustcost2.png "Status for verdiposter i scenariet")  
 
  Trinn 1: Verdiposten for justering som skal opprettes, tildeles samme bokføringsdato som posten den justerer, som vist ovenfor ved verdipost 391.  
 
@@ -53,13 +53,13 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Lagerperioder:  
 
-![Lagerperioder i scenariet](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariet")
+![Lagerperioder i scenariet.](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariet")
 
  Den første tillatte bokføringsdatoen er den første dagen i den første åpne perioden. 1. september 2013.  
 
  Finansoppsett:  
 
-![Finansoppsett i scenariet](media/helene/TechArticleAdjustcost4.png "Finansoppsett i scenariet")
+![Finansoppsett i scenariet.](media/helene/TechArticleAdjustcost4.png "Finansoppsett i scenariet")
 
  Første tillatte bokføringsdato er datoen som er angitt i feltet Bokf. tillatt fra: 10. september 2013.  
 
@@ -69,7 +69,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Første tilordnede bokføringsdato var 6. september, som vist i trinn 1. Men i det andre trinnet identifiserer kjørselen Juster kostverdi – vareposter at den tidligste tillatte bokføringsdatoen er 10. september, og dermed tilordnes 10. september til verdiposten for justeringsposten nedenfor.  
 
- ![Status for verdiposter i scenariet 2](media/helene/TechArticleAdjustcost5.png "Status for verdiposter i scenariet 2")
+ ![Status for verdiposter i scenariet 2.](media/helene/TechArticleAdjustcost5.png "Status for verdiposter i scenariet 2")
 
  Vi har nå sett på begrepet om å tilordne bokføringsdatoer til verdiposter som opprettes av kjørselen Juster kostverdi - vareposter.  
 
@@ -82,15 +82,15 @@ Den andre verdiposten (381) representerer fakturaen.
 
  I forrige del der vi beskrev begrepet om tilordning av bokføringsdatoer, var kjørselen Juster kostverdi - vareposter ment å opprette en verdipost med bokføringsdato 10. september.  
 
-![Feilmelding om bokføringsdato](media/helene/TechArticleAdjustcost6.png "Feilmelding om bokføringsdato")
+![Feilmelding om bokføringsdato.](media/helene/TechArticleAdjustcost6.png "Feilmelding om bokføringsdato")
 
  Vi følge opp med brukeroppsettet:  
 
-![Oppsett av brukerens tillatte bokføringsdatoer](media/helene/TechArticleAdjustcost7.png "Oppsett av brukerens tillatte bokføringsdatoer")
+![Oppsett av brukerens tillatte bokføringsdatoer.](media/helene/TechArticleAdjustcost7.png "Oppsett av brukerens tillatte bokføringsdatoer")
 
  Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september til 30. september, og kan dermed ikke bokføre justeringsverdiposten med bokføringsdato 10. september.  
 
-![Oversikt over involvert oppsett for bokføringsdato](media/helene/TechArticleAdjustcost8.png "Oversikt over involvert oppsett for bokføringsdato")
+![Oversikt over involvert oppsett for bokføringsdato.](media/helene/TechArticleAdjustcost8.png "Oversikt over involvert oppsett for bokføringsdato")
 
  Kunnskapsbaseartikkel [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) beskriver flere scenarioer knyttet til den nevnte feilmeldingen.  
 
@@ -173,9 +173,9 @@ Den andre verdiposten (381) representerer fakturaen.
 
  Følgende vareposter og verdiposter er bokført:  
 
-![Oversikt over resulterende finans- og vareposter 1](media/helene/TechArticleAdjustcost9.png "Oversikt over resulterende finans- og vareposter 1")
+![Oversikt over resulterende finans- og vareposter 1.](media/helene/TechArticleAdjustcost9.png "Oversikt over resulterende finans- og vareposter 1")
 
- ![Oversikt over resulterende finans- og vareposter 2](media/helene/TechArticleAdjustcost10.png "Oversikt over resulterende finans- og vareposter 2")
+ ![Oversikt over resulterende finans- og vareposter 2.](media/helene/TechArticleAdjustcost10.png "Oversikt over resulterende finans- og vareposter 2")
 
  Juster kostverdi – vareposter-kjørselen har gjenkjent en endring i kost og justert nedjusteringene.  
 
@@ -290,7 +290,7 @@ Den andre verdiposten (381) representerer fakturaen.
 
      Bokfør mottak og faktura.  
 
-     ![Oversikt over resulterende finans- og vareposter 3](media/helene/TechArticleAdjustcost11.png "Oversikt over resulterende finans- og vareposter 3")
+     ![Oversikt over resulterende finans- og vareposter 3.](media/helene/TechArticleAdjustcost11.png "Oversikt over resulterende finans- og vareposter 3")
 
 6.  På arbeidsdatoen 3. januar kommer en kjøpsfaktura som inneholder et ekstra varegebyr for kjøpet som ble gjort i trinn 2. Denne fakturaen har bilagsdato 30. desember, og bokføres derfor med bokføringsdatoen 30. desember 2013.  
 
@@ -314,11 +314,11 @@ Den andre verdiposten (381) representerer fakturaen.
 
      Bokfør mottak og faktura.  
 
-   ![Oversikt over resulterende finans- og vareposter 4](media/helene/TechArticleAdjustcost12.png "Oversikt over resulterende finans- og vareposter 4")
+   ![Oversikt over resulterende finans- og vareposter 4.](media/helene/TechArticleAdjustcost12.png "Oversikt over resulterende finans- og vareposter 4")
 
  Lagerverdisettingsrapporten skrives ut per 31. desember 2013  
 
-![Innholdet i rapporten Lagerverdisetting](media/helene/TechArticleAdjustcost13.png "Innholdet i rapporten Lagerverdisetting")
+![Innholdet i rapporten Lagerverdisetting.](media/helene/TechArticleAdjustcost13.png "Innholdet i rapporten Lagerverdisetting")
 
  **Sammendrag av scenarioet:**  
 
@@ -341,7 +341,7 @@ Den andre verdiposten (381) representerer fakturaen.
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Historikk for kjørselen Bokfør lagerkost i Finans  
  Kjørselen Bokfør lagerkost i Finans er nært knyttet til kjørselen Juster kostverdi – vareposter, og er grunnen til at denne kjørselen oppsummeres og formidles her også.  
  
-![Faktiske kostnader og forventede kostnader](media/helene/TechArticleAdjustcost14.png "Faktiske kostnader og forventede kostnader")
+![Faktiske kostnader og forventede kostnader.](media/helene/TechArticleAdjustcost14.png "Faktiske kostnader og forventede kostnader")
 
 ### <a name="about-the-posting-date"></a>Om bokføringsdatoen
  Det finnes ikke lenger en bokføringsdato som skal angis i forespørselsskjemaet for kjørselen Bokfør lagerkost i Finans. Finansposten opprettes med samme bokføringsdato som den relaterte verdiposten. For å fullføre kjørselen må det tillatte bokføringsdatointervallet tillate bokføringsdatoen for den opprettede finansposten. Hvis ikke, må det tillatte bokføringsdatointervallet midlertidig åpnes på nytt ved å endre eller fjerne datoene i feltet Bokf. tillatt fra og Tillat bokf. til i Finansoppsett. For å unngå avstemmingsproblemer må bokføringsdato for finansposten svare til bokføringsdatoen for verdiposten.  

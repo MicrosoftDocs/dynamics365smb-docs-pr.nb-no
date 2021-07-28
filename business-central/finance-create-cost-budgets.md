@@ -1,6 +1,6 @@
 ---
-title: Opprette kostbudsjetter | Microsoft-dokumentasjon
-description: Dette emnet gir en oversikt over hvor du kan opprette og analysere kostbudsjetter.
+title: Opprette kostbudsjetter
+description: Dette emnet gir en oversikt over hvor du kan opprette og analysere kostbudsjetter. Budsjettering i kostregnskap ligner budsjettering i finans.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: da976e1e8ac2988aa2842925c2b10f4f8515ea47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785247"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436176"
 ---
 # <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
 Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett opprettes basert på kostnadstyper på samme måte som et finansbudsjett opprettes basert på finanskontoer.  
 
 Et kostnadsbudsjett opprettes for en bestemt tidsperiode, for eksempel et regnskapsår. Du kan opprette så mange kostbudsjetter som nødvendig. Du kan opprette et nytt kostbudsjett manuelt, ved å importere et kostbudsjett eller ved å kopiere et eksisterende kostbudsjett som grunnlag for budsjettet. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") for å finne en side, og les deretter verktøytipset for hvert vindu.
+Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") for å finne en side, og les deretter verktøytipset for hver side.
 
 |Hvis du vil|Se|  
 |--------|---------|  

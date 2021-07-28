@@ -1,6 +1,6 @@
 ---
-title: Definere priser og kostnader for servicer | Microsoft-dokumentasjon
-description: Finn ut hvordan du definerer priser og ekstra kostnader for servicer.
+title: Definere priser og kostnader for servicer
+description: Lær hvordan du bruker prissettingsfunksjonene til å definere og tilpasse programmet slik at du bruker og justerer prissetting for servicevarer, -reparasjoner og -ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 44f6064d33d132f4a7d80bc8adc9dbff55d3a516
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773708"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436554"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Definere priser og ekstra kostnader for servicer
 Du kan bruke prissettingsfunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] til å definere og tilpasse programmet slik at du bruker og justerer prissetting for servicevarer, -reparasjoner og -ordrer. Disse prissettingsavgjørelsene kan deretter enkelt overføres til faktureringsprosessen.  
@@ -25,7 +25,7 @@ Alt etter implementering kan du definere prissettingsgrupper og knytte dem til b
 ## <a name="to-set-up-a-service-price-group"></a>Slik definerer du serviceprisgrupper
 Du kan definere grupper som inneholder servicevarer som du vil skal ha samme spesielle serviceprissetting. Du tilordner serviceprisgrupper til servicevarer på servicevarelinjer. Du kan dessuten tilordne serviceprisgrupper til servicevaregrupper.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceprisgrupper**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny serviceprisgruppe.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. Velg handlingen **Oppsett**.  
@@ -37,7 +37,7 @@ Du kan definere grupper som inneholder servicevarer som du vil skal ha samme spe
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Slik definerer du serviceprisjusteringsgrupper  
 Du kan definere prisjusteringsgrupper for å justere serviceprissetting av servicevarer. Du kan for eksempel definere prisjusteringsgrupper som justerer prisen på frakt eller reservedeler.  
   
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceprisjusteringsgrupper**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceprisjusteringsgrupper**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny serviceprisjusteringsgruppe.  
 3. Fyll ut feltene **Kode** og **Beskrivelse**.  
 4. Angi hvilken posttype du vil justere, i **Type**-feltet.  
@@ -55,11 +55,11 @@ Du kan definere prisjusteringsgrupper for å justere serviceprissetting av servi
 Når du arbeider med servicevarer og serviceordrer, kan det hende du må registrere tilleggskostnader, for eksempel reiseutgifter til bestemte servicesoner eller startgebyrer. Når du oppretter en serviceordre, kan du sette inn disse kostnadene, og en linje av typen **Kost** legges til i ordren. Hvis du vil bruke kostnaden for alle serviceordrer, kan du definere en standardkost. For eksempel hvis du vil bruke et startgebyr.
   
 ### <a name="to-set-up-service-costs"></a>Definere servicekostnader
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekostnader**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicekostnader**, og velg deretter den relaterte koblingen. 
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Angi en standardkost for serviceordrer
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppsett**, og velg deretter den relaterte koblingen. 
 2. I feltet **Startgebyr for serviceordre** velger du den aktuelle servicekostnaden.
 
 ## <a name="see-also"></a>Se også

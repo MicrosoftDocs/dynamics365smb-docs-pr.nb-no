@@ -1,6 +1,6 @@
 ---
-title: Konfigurere en dokumentutvekslingstjeneste | Microsoft-dokumentasjon
-description: Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter med handelspartnere.
+title: Konfigurere en dokumentutvekslingstjeneste
+description: Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter med handelspartnere ved å bruke Oppsett av dokumentutvekslingstjeneste.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a89cf3988e7576070a58a798e0f88693e598ef92
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 357c48c6b7ed8e2d44316805bba04ff9236f0e9b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787285"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436301"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentutvekslingstjeneste
 Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter med handelspartnere. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  
 
 ## <a name="to-set-up-a-document-exchange-service"></a>Slik konfigurerer du en dokumentutvekslingstjeneste:  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av dokumentutvekslingstjeneste**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Oppsett av dokumentutvekslingstjeneste**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  

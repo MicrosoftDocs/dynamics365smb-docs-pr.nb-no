@@ -1,6 +1,6 @@
 ---
 title: Plasser produksjonsavgang
-description: Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon.
+description: 'Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon. Lagerplassering kan utføres på følgende måter:'
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2b04e07a6660ebeb32cc93594c77b8ff8e782766
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784220"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438135"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
 
@@ -33,14 +33,14 @@ I avanserte lageroppsett hvor lokasjonen krever både plasserings- og mottaksbeh
 Det første trinnet ved opprettelse av plasseringsavgang, er å opprette den inngående lagerforespørselen. Denne forespørselen informerer lageret om at produksjons- eller monteringsordreavgangen er klar til å plasseres.
 
 ### <a name="to-create-the-inbound-warehouse-request"></a>Slik oppretter du den inngående lagerforespørselen  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
 2.  På produksjonsordren som er klar til plassering, velger du handlingen **Opprett inngående lagerforespørsel**.  
 
 > [!NOTE]  
 > Du kan også opprette den inngående lagerforespørselen ved å velge feltet **Opprett inngående foresp.** når du fornyer produksjonsordren. Hvis du vil ha mer informasjon, se [Fornye eller planlegge produksjonsordrer på nytt](production-how-to-replan-refresh-production-orders.md).  
 
 ### <a name="to-put-output-away-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplassering** og velg den relaterte koblingen.  
 2.  Opprett en ny lagerplassering. Hvis du vil ha mer informasjon, kan du se [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du får tilgang til produksjonsordreavgang ved å velge handlingen **Hent kildedokumenter** og deretter velge den frigitte produksjonsordren.  
 4.  Fyll ut plasseringslinjene.

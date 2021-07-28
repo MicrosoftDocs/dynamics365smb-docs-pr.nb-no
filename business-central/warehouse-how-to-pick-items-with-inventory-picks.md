@@ -1,6 +1,6 @@
 ---
-title: Plukke varer med lagerplukk | Microsoft-dokumentasjon
-description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
+title: Plukke varer med lagerplukk
+description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke levering, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e8798f9581d3f0ae416a52bfdd53c7bb4893eab
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05bd840f0e4db2f383544b99d3edc26a443f423b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771707"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438210"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
 
@@ -36,7 +36,7 @@ Du kan opprette lagerplukk på tre måter:
 
 Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Fremgangsmåten nedenfor beskriver hvordan dette gjøres fra en ordre.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren som skal frigis, og velg deretter **Frigi**-handlingen.
 
 Når det gjelder produksjonsordrer, oppretter du automatisk lagerforespørselen for plukking av komponenter, som kalles *trekk*, når produksjonsordrestatus endres til **Frigitt** eller når den frigitte produksjonsordren opprettes. Hvis du vil ha mer informasjon, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).
@@ -47,7 +47,7 @@ Når lagerforespørselen er opprettet, kan lageransatte som er tilordnet arbeide
 
 Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lagerplukk basert på det frigitte kildedokumentet.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
     Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.
 3. Velg hvilken type kildedokument du plukker for, i **Kildedokument**-feltet.  
@@ -63,7 +63,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lager
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Slik oppretter du flere lagerplukk med en kjørsel:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
 3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
 4. Velg **OK**. De angitte lagerplukkingene blir opprettet.
@@ -75,7 +75,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lager
 
 ## <a name="to-record-the-inventory-picks"></a>Slik registrerer du lagerplukk
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. I **Hyllekode**-feltet på plukklinjene foreslås hyllen som varene skal plukkes fra, per varens standardhylle. Du kan endre hylle på denne siden hvis det er nødvendig.  
 3. Utfør plukkingen, og angi opplysninger om det faktiske plasseringsantallet i feltet **Ant. som skal håndt**.
 

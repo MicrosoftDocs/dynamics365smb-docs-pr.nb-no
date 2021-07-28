@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781170"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437469"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 
@@ -42,7 +42,7 @@ Før du begynner, må du kontrollere at du har tillatelse til å kjøre RapidSta
 > Tabeller som har forskjellige primærnøkler og felt med ulike datatyper, blir heller ikke importert. Hvis konfigurasjonspakken inneholder en tabell, for eksempel **50000-kunden**, som har primærnøkkelen **Kode20**, og databasen du importerer pakken til, som inneholder tabellen **Bankkonto for 50000-kunde**, som har primærnøkkelen **Kode20 + Kode20**, importeres ikke dataene.  
 
 1. Åpne det nye selskapet.  
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**. Gå til .rapidstart-pakkefilen du vil importere, og velg deretter den **Åpne**-handlingen. Under import dekomprimeres innholdet i pakken og pakkeposten opprettes.  
 
     Når importen er fullført, kan du se hvor mange konfigurasjonstabeller som er importert, i feltet **Antall tabeller**.  
@@ -63,7 +63,7 @@ Du kan opprette nye dataoverføringsfiler og tilpasse dem for å støtte forretn
 > [!TIP]
 > En fil kan bare brukes til å flytte et felt der **Normal** er angitt for **FieldClass**-egenskapen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken som du vil bruke til å flytte data, og velger deretter **Hent tabeller**-handlingen. Siden **Hent pakketabeller** åpnes.  
 3. Skriv inn et tabellnummer i **Tabell-ID**-feltet, eller velg en tabell fra listen, for eksempel tabell 18, **Kunde**. Feltet **Tabellnavn** fylles ut automatisk.  
 4. Velg den nye flyttingsstabellen, og deretter, i fanen **Tabeller**, velger du **Felt**-handlingen. Siden **Flyttingsfelt** åpnes.  
@@ -79,7 +79,7 @@ Det opprettes en ny flyttingstabell.
 ## <a name="to-export-data-migration-files"></a>Slik eksporterer du dataflyttingsfiler:
 Når du har bestemt hvilke tabeller du vil overføre kundedata til, eksporterer du filene.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken du vil bruke til eksport.
 3. Velg tabellen eller tabellene som du vil eksportere, og velg deretter den **Eksporter til Excel**-handlingen.
 4. Lagre den eksporterte Excel-filen.  
@@ -100,7 +100,7 @@ Når du bruker data som du har importert fra Excel eller fra en RapidStart-pakke
 
 I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[prod_short](includes/prod_short.md)]. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
 2. Åpne pakken for det aktuelle selskapet.  
 3. Velg tabellen du vil tilordne verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 4. For hvert felt du vil tilordne velger du **Tilordning**-handlingen.  
@@ -118,7 +118,7 @@ Følgende eksempel illustrerer hvordan [!INCLUDE[prod_short](includes/prod_short
 3. Når du bruker data, blir det også tatt hensyn til tilordningen du har angitt for **Kode**-feltet i tabellen **Selger/innkjøper**, under behandlingen av feltene **Selgerkode** og **Innkjøperkode**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Legge til flere verdier i [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[prod_short](includes/prod_short.md)] skal tillate ytterligere verdier for under overføringen.  
 4. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data).

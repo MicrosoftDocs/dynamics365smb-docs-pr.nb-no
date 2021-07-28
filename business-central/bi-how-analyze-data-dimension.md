@@ -1,6 +1,6 @@
 ---
-title: Analysere data etter dimensjoner | Microsoft Docs
-description: Beskriver hvordan du analyserer ulike forretningsdata etter dimensjoner.
+title: Analysere data etter dimensjoner
+description: Dette emnet beskriver hvordan du analyserer ulike forretningsdata etter dimensjoner. Dimensjoner gir deg større innsikt i bedriften din, slik at du kan vurdere informasjon.
 services: project-madeira
 documentationcenter: ''
 author: edupont
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ea949363506e9bc0d9bb3a1a4d53937501e8a5bb
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 9637aabd44f0714983a5d0ce129bf5bc9f1eaee4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947391"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437079"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
 I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Dimensjoner kan brukes på poster i kladder, dokumenter og budsjetter. Begrepet dimensjon beskriver hvordan analyser utføres. En todimensjonal analyse er for eksempel salg per område. Hvis du imidlertid bruker mer enn to dimensjoner når du oppretter en post, kan du utføre en mer omfattende analyse, for eksempel salg per salgskampanje per kundegruppe per område. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
@@ -33,7 +33,7 @@ Analyse av data etter dimensjoner gir deg større innsikt i forretningsdriften, 
 ## <a name="to-set-up-an-analysis-view"></a>Slik setter du opp en analysevisning  
 En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan lagre og hente fram hver analyse du har opprettet. Informasjonen som brukes til å definere en analyse, er lagret på et **Analysevisning**-kort for å forenkle fremtidige analyser.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. På siden **Analysevisningsoversikt** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil legge til flere dimensjonskoder i tillegg til de fire kodene i hurtigfanen **Dimensjoner**, velger du handlingen **Filtrer**, og deretter velger du **OK**.  
@@ -42,7 +42,7 @@ En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan 
 ## <a name="to-analyze-by-dimensions"></a>Analysere etter dimensjoner
 Du kan bruke matrisen **Analyse per dimensjon** til å vise beløpene i Finans ved å bruke analysevisningene du allerede har definert. Du fyller ut på siden **Analyse per dimensjon** for å definere hva som skal vises i matrisen, og deretter velger du handlingen **Vis matrise** for å vise matrisen.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante analysevisningen, og velg deretter handlingen **Analyse per dimensjon**.
 3. På siden **Analyse per dimensjon** fyller du ut feltene for å definere dataene som skal vises, og hvordan.
 4. Velg handlingen **Vis matrise** for å åpne den respektive matrisesiden for den definerte analysevisningen.
@@ -65,7 +65,7 @@ Beløpene som vises på siden **Analyse per dimensjon**, gir deg oversikt over s
 
 Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra siden **Analyse per dimensjoner**. Fremgangsmåten ligner den fra sidene **Analysevisningskort** og **Analysevisningsoversikt**.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.
 2. Velg den relevante analysevisningen, og velg deretter handlingen **Analyse per dimensjon**.
 2. På siden **Analyse per dimensjon** velger du feltet **Analysevisningskode**.  
 3. Velg linjen med den relevante analysevisningen.  

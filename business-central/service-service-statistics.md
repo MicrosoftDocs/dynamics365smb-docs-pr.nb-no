@@ -1,6 +1,6 @@
 ---
-title: Servicestatistikk | Microsoft-dokumentasjon
-description: Få en rask oversikt over innholdet i servicedokumenter, som ordrer, tilbud, fakturaer eller kreditnotaer, detaljene i bestemte servicelinjer og servicevarene.
+title: Servicestatistikk
+description: Få en rask oversikt over innholdet og statistikken i servicedokumenter, som ordrer, tilbud, fakturaer, kreditnotaer, servicelinjer med mer.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9b3c9199e018b9bb4607cbb5919195aa526aa56
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776744"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438260"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   
@@ -84,7 +84,7 @@ En kontraktresultatpost genereres når et kontrakttilbud konverteres til en serv
 |**Kontraktresultat (årsaker)**|Slik viser du kontraktresultat etter årsakskode.|  
 |**Kontraktresultat (ansv.sent)**|Slik viser du kontraktresultat etter ansvarssenter.|  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på siden som skal vises, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi navnet på siden som skal vises, og velg deretter den relaterte koblingen.  
 2. Fyll ut filtervilkårene du vil bruke. Velg for eksempel en verdi for **Filter for årsaksspor** på siden **Kontraktresultat (årsaker)**.  
 3. Velg handlingen **Vis matrise**.
 

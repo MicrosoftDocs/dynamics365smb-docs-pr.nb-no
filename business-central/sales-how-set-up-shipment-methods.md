@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778575"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436704"
 ---
 # <a name="set-up-shipment-methods"></a>Sette opp leveringsmåter
 
@@ -25,7 +25,7 @@ Du definerer beskrivelsen og koden for hver leveringsmåte på siden **Leverings
 
 ## <a name="to-set-up-a-shipment-method"></a>Slik definerer du leveringsmåter
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leveringsmåter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Leveringsmåter**, og velg deretter den relaterte koblingen.
 2. På siden **Leveringsmåter** velger du **Ny**-handlingen.
 3. Angi en kode og en beskrivelse for leveringsmåten på den nye linjen.
 

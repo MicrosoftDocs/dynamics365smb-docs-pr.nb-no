@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087672"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437369"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
 Organisasjoner med flere lokasjoner bruker ofte en nav-og-eiker-forretningsmodell der et moderselskap, eller hovedkontor, håndterer den generelle driften av virksomheten, mens hver lokasjon fungerer som en frittstående enhet. Lokasjoner er ofte geografisk spredt og har ulike behov for å dele informasjon med moderselskapet. Lokasjoner trenger vanligvis ikke samme grad av kompleksitet og har ofte ikke ressursene til å opprettholde et stort system.
@@ -30,7 +30,7 @@ Denne artikkelen gir en innføring i noen av måtene [!INCLUDE[prod_short](inclu
 
 Diagrammet nedenfor er et eksempel på ulike lokasjoner som er integrert med et moderselskap.
 
-![Automatisk generert beskrivelse av diagram](media/multisite-headquarter-sites.png)
+![Automatisk generert beskrivelse av diagram.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Oppfylle behovene til innenlandske og internasjonale lokasjoner
 
@@ -101,7 +101,7 @@ Lokasjoner må ofte ha tilgang til forsyningskjeden og kunne håndtere visse asp
 
 Moderselskapet må kunne reagere raskt på forretningsendringer på hver lokasjon. Power Automate kan sammen med [!INCLUDE[prod_short](includes/prod_short.md)] fungere som en forvarselsmekanisme.
 
-![Et skjermbilde av en automatisk generert beskrivelse av et innlegg på sosiale medier](media/multisite-apps.png)
+![Et skjermbilde av en automatisk generert beskrivelse av et innlegg på sosiale medier,](media/multisite-apps.png)
 
 | **Forretningsbehov** | **Hvordan Business Central støtter det** | **Finn ut mer** |
 |-------------------------|-------------------------|-------------------------|

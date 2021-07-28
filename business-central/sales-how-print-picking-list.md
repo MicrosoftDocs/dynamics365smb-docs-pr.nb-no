@@ -1,5 +1,5 @@
 ---
-title: Skriv ut en lagerplukkliste fra en ordre
+title: Skriv ut en lagerplukkliste fra ordre
 description: Du kan skrive ut en plukkliste for lager direkte fra en ordre, salg, faktura og andre utgående salgsdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115464"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436829"
 ---
 # <a name="print-the-picking-list"></a>Skrive ut plukklisten
 
@@ -27,7 +27,7 @@ Denne rapporten brukes vanligvis i selskaper uten egen funksjonalitet for lagers
 
 Følgende fremgangsmåte er basert på en ordre. Fremgangsmåten er de samme for alle andre dokumenter som kan brukes til å starte levering av varer, for eksempel en overføringsordre.
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne ordren du vil plukke varer for.  
 3. Velg **Rapport**-handlingen, og velg deretter **Plukklisten etter ordre**-handlingen.  
 4. Velg **Skriv ut** for å skrive ut plukklisten, eller velg **Forhåndsvisning** for å vise den på skjermen.

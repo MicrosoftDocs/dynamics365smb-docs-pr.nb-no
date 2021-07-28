@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e836b43392cd915a77c5ee85d5a322753dcd5df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: de37cfd8719615dbc736ff6e7b03ee75d97c87ce
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773958"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437344"
 ---
 # <a name="set-up-payment-methods"></a>Definer betalingsmåter
 
@@ -33,14 +33,14 @@ Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte ret
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil ha mer informasjon, kan du se [Definer betalingsbetingelser](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Slik tilordner du en betalingsmåte til en kunde eller leverandør
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.
 2. I **Betalingsmåte - kode**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
 ## <a name="see-also"></a>Se også

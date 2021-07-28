@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: project management
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fc936a6839bbed7fee061b62a851441caddb5a4f
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: cff8ae1b376079aa1b9162cade59e88da985e263
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436151"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
@@ -22,7 +22,7 @@ Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du a
 For hver jobb angir du deretter individuelle jobbkort med informasjon om priser for prosjektvarer, prosjektressurser og finanskonti, og må du definere prosjektbokføringsgrupper.
 
 ## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
@@ -55,7 +55,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 Du kan definere priser for varene, ressursene og finanskontiene som er relatert til en jobb. 
 
 #### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience)
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg jobben, og velg deretter handlingen **Ressurs**, **Vare** eller **Finanskonto**.
 3. Fyll ut feltene etter behov på sidene **Ressurspriser for prosjekt**, **Varepriser for prosjekt** og **Finanskontopriser for prosjekt**.
 
@@ -69,7 +69,7 @@ Tabellen nedenfor viser hvordan opplysningene i de valgfrie feltene vil bli bruk
 
 ---
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience)
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Salgsprislister**.
 
 ---
@@ -80,7 +80,7 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 > [!NOTE]  
 >   De nødvendige kontiene i kontoplanen må defineres før du definerer bokføringsgrupper. Hvis du vil ha mer informasjon, kan du se [Definere eller endre kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper – prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektbokføringsgrupper**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** og fyll deretter ut kontofeltene som beskrevet i tabellen nedenfor.  
 
 | Kontofelt | Beskrivelse |

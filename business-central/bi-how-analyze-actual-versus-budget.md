@@ -1,6 +1,6 @@
 ---
-title: Analysere faktiske i forhold til budsjetterte beløp | Microsoft-dokumentasjon
-description: Beskriver hvordan du analyserer faktiske beløp i forhold til budsjetterte beløp.
+title: Analysere faktiske i forhold til budsjetterte beløp
+description: Dette emnet beskriver hvordan du analyserer faktiske beløp kontra budsjetterte beløp som en måte å samle inn, analysere og dele selskapsopplysninger på.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9c601dc3507b0777f3aeecb063e6cebe8866768c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437104"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
 Som en del av innsamling, analyse og deling av selskapsdataene viser du faktiske beløp sammenlignet med budsjetterte beløp for alle konti og for flere perioder.
@@ -27,7 +27,7 @@ Hvis du vil analysere budsjetterte beløp, må du først opprette finansbudsjett
 ## <a name="to-view-a-gl-budget"></a>Slik viser du et finansbudsjett
 I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjettene.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.
 2. Åpne budsjettet du vil vise, på siden **Finansbudsjetter**.  
 3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -43,7 +43,7 @@ I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjett
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Slik viser du faktiske og budsjetterte beløp for alle konti  
 Du kan vise finansbudsjetter og sammenligne dem med reelle tall, i flere moduler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. På siden **Kontoplan** velger du handlingen **Finanssaldo/Budsjett**.
 3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises.  
 4. Hvis du vil vise en spesifisering som utgjør beløpet som vises, velger du feltet.  
@@ -59,7 +59,7 @@ Kolonnene ytterst til venstre inneholder kontoplanen. Av de fem kolonnene lengst
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Slik viser du faktiske og budsjetterte beløp for flere perioder  
 I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én enkelt periode, kan du vise et antall perioder for én enkelt konto.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. På siden **Kontoplan** velger du den aktuelle finanskontoen, og deretter velger du handlingen **Finanskontosaldo/Budsjett**.  
 3. Øverst på siden fyller du ut feltene etter behov for å definere det som skal vises.   
 4. Hvis du vil vise en spesifisering av et beløp som vises, velger du feltet.  

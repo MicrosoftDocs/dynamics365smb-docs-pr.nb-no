@@ -1,6 +1,6 @@
 ---
-title: Planlegge plasseringer i forslaget | Microsoft-dokumentasjon
-description: Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.
+title: Planlegge plasseringer i forslag
+description: Definere lageret slik at mottakslinjer er tilgjengelige i plasseringsforslaget når du vil planlegge plasseringsinstruksjoner for mottak.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771682"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438185"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
 Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.  
@@ -31,7 +31,7 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 > 2.  Fortsett med prosessen i så mange plasseringer som du ønsker, til du har slettet de linjene du vil arbeide med i forslaget. Velg deretter på **Plasseringsforslag** og fortsett med planleggingen.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Slik planlegger du instruksjoner i plasseringsforslaget  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plasseringsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringsforslag** og velg den relaterte koblingen.  
 2.  Velg handlingen **Hent lagerdokumenter**. **Plasseringsutvalg**-siden åpnes.  
 
     Du ser alle de bokførte mottakene og registrerte plasseringene som er videresendt til plasseringsfunksjonen, inkludert de som det allerede er opprettet plasseringsinstruksjoner for. Dokumenter med plasseringslinjer som er fullstendig plassert og registrert, blir ikke vist i denne oversikten.  

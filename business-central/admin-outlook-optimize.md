@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 24718b65fe5a5795d2a5a92a20fe4eb32aa4b2ac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6064859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437494"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimalisering av Outlook for innboks for virksomheten 
 
@@ -50,7 +50,7 @@ Hvis du vil kontrollere om du har Microsoft Edge WebView2 installert på en data
 
 Fra Start-menyen:
 
-1. Velg **Start** ![Windows Start](media/windows-start-icon.png "Windows Start-ikon") > **Innstillinger** ![Windows-innstillinger](media/windows-settings-icon.png "Ikon for Windows-innstillinger") > **Apper og funksjoner**.
+1. Velg **Start** ![Windows-start.](media/windows-start-icon.png "Windows Start-ikon") > **Innstillinger** ![Windows-innstillinger](media/windows-settings-icon.png "Ikon for Windows-innstillinger") > **Apper og funksjoner**.
 2. Skriv inn **WebView2** i søkefeltet. Hvis Microsoft Edge WebView2 er installert, vises en oppføring kalt **Microsoft Edge WebView2 Runtime**.
 
 Fra kontrollpanel:

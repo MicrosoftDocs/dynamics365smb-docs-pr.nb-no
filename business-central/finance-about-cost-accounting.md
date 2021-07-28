@@ -1,6 +1,6 @@
 ---
-title: Om kostregnskap | Microsoft-dokumentasjon
-description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap.
+title: Om kostregnskap
+description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere ulike problemer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba956c883c567e7acc2cd625d8d5e51d94ee753
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 461bdff64d785291923fe5f954887eb052805124
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784918"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436276"
 ---
 # <a name="about-cost-accounting"></a>Om kostregnskap
 Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere:  
@@ -37,7 +37,7 @@ Kostregnskap har følgende hovedkomponenter:
 
 Følgende diagram viser arbeidsflyten i kostregnskap.  
 
-![Oversikt over kostregnskap](media/costaccountingoverview.png "CostAccountingOverview")  
+![Oversikt over kostregnskap.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kosttyper, kostsentre og kostobjekter  
 Du definerer kosttyper, kostsentre og kostobjekter for å analysere hva kostnadene er, hvor kostnadene kommer fra og hvem som skal bære kostnadene.  

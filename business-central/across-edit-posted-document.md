@@ -1,6 +1,6 @@
 ---
-title: Redigere bokførte salgs- og kjøpsdokumenter | Microsoft Docs
-description: Lær om de forskjellige bokføringsfunksjonene for å bokføre kjøpsdokumenter og hvordan du kan oppdatere bokførte dokumenter.
+title: Rediger bokførte salgs- og kjøpsdokumenter
+description: Dette emnet forklarer hvordan du oppdaterer informasjon i et bokført dokument, for eksempel en følgeseddel eller kjøpsfaktura når relevante opplysninger er endret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776200"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437805"
 ---
 # <a name="edit-posted-documents"></a>Redigere bokførte dokumenter
 
@@ -41,7 +42,7 @@ Følgende tilleggsdokumenter kan redigeres i de utvalgte landene eller områdene
 
 Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel. Trinnene er de samme for de andre dokumentene som støttes.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte følgesedler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsforsendelser**, og velg deretter den relaterte koblingen.
 2. Velg dokumentet du vil redigere, og velg deretter **Oppdater dokument**. Du kan eventuelt åpne dokumentet og velge handlingen.
 3. På siden **Bokført følgeseddel – oppdater** redigerer du **Pakkesporingsnr.** -feltet, for eksempel.
 4. Velg **OK**-knappen.

@@ -1,6 +1,6 @@
 ---
-title: Plassere varer med lagerplasseringer | Microsoft-dokumentasjon
-description: Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for kildedokumentet. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en produksjonsordre med avgang som er klar til plassering.
+title: Plassere varer med lagerplasseringer
+description: Les mer om hvordan du bruker lagerplasseringsdokumentet til å registrere og bokføre plasserings- og mottaksopplysninger for kildedokumentene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35d512bc6d8181c03752c1de6b9f1275de85e815
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782562"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438110"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
 Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for kildedokumentet. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en monterings- eller produksjonsordre med avgang som er klar til å plasseres.  
@@ -29,11 +29,11 @@ Du kan opprette lagerplassering på tre måter:
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Be om en lagerplassering ved å frigi kildedokumentet
 Når det gjelder bestillinger, ordrereturer, inngående overføringsordrer og monteringsorder, oppretter du lagerforespørselen ved å frigi ordren. Fremgangsmåten nedenfor beskriver hvordan dette gjøres fra en bestilling.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.
 2. Velg bestillingen som skal frigis, og velg deretter **Frigi**-handlingen.  
 
     Når det gjelder produksjonsordrer, oppretter du lagerforespørselen ved å opprette en inngående forespørsel fra den frigitte produksjonsordren.  
-3.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
+3.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
 4. Velg handlingen **Opprett inng. lagerforespørsel**.  
 
 > [!NOTE]  
@@ -43,7 +43,7 @@ Når lagerforespørselen er opprettet, kan en lageransatt som har som oppgave å
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Slik oppretter du en lagerplassering basert på kildedokumentet
 Nå som forespørselen er opprettet, kan den lageransatte opprette en ny lagerplassering basert på det frigitte kildedokumentet.   
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplassering** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Velg hvilken type kildedokument du plasserer for, i **Kildedokument**-feltet.  
 4. Velg kildedokumentet i **Kildenr.**-feltet.  
@@ -56,7 +56,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette en ny lagerpl
 3. Velg **OK**. En ny lagerplassering er opprettet.
 
 ## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Slik oppretter du flere lagerplasseringer med en kjørsel:  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Lagerforespørsel** på forespørselssiden bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller.  
 3.  Merk av for **Opprett lagerplassering** på hurtigfanen **Alternativer**.
 4.  Velg **OK**. De angitte lagerplasseringene blir opprettet.

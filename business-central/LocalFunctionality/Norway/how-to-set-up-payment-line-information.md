@@ -1,6 +1,6 @@
 ---
-title: Definere betalingslinjeinformasjon
-description: Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden Betalingsinformasjon.
+title: Definer betalingslinjeinformasjon [NO]
+description: Les om hvordan utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden Betalingsinformasjon.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: e0858425d573170e473702668f6bee84e6a12fc2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1b24d3c28ee52aef16f75534d9954745d4c090e7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781703"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437525"
 ---
-# <a name="set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
+# <a name="set-up-payment-line-information-in-the-norwegian-version"></a>Definer betalingslinjeinformasjon i den norske versjonen
 Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  
 
 ## <a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Betalingsinformasjon**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Betalingsinformasjon**.  
 

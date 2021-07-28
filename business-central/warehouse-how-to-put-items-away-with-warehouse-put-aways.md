@@ -1,6 +1,6 @@
 ---
 title: Plassere varer med lagerplasseringer | Microsoft-dokumentasjon
-description: Når lokasjonen er definert til å bruke plasseringsbehandling og lagermottaksbehandling, må du bruke funksjonen for plasseringsdokumenter til å styre plasseringen av varene.
+description: Lær hvordan de ulike måtene for å plasser varer i Business Central med lagerplasseringsoppgavene nedenfor.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed7374fb2d718417639a2f1f74c69bff61847d2e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0f4dbac3c3131cf31690710cba9457e7508acad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782512"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438085"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Plassere varer med lagerplasseringer
 Når lokasjonen er definert til å bruke plasseringsbehandling og lagermottaksbehandling, må du bruke funksjonen for plasseringsdokumenter til å styre plasseringen av varene.  
@@ -27,7 +27,7 @@ Avhengig av lageroppsettet gjøres linjene tilgjengelige for plasseringsforslage
 I tillegg til standardmåter å opprette plasseringer på, som er beskrevet i dette emnet, kan du opprette plasseringen fra det relaterte bokførte lagermottaket. Dette er nyttig hvis du har slettet plasseringslinjer, eller hvis du bruker lagerstyring og har bestemt deg for å ikke bruke plasseringsforslaget, fordi du kan opprette eller gjenopprette plasseringsinstruksjoner fra de bokførte mottakslinjene.  
 
 ## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Slik plasserer du varer uten lagerstyring  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.  
 2.  Åpne lagerplasseringen som er klar til å håndtere.  
 
     Du kan sortere plasseringslinjene etter ulike kriterier, for eksempel etter vare, hyllenummer eller forfallsdato, og dermed optimalisere plasseringsprosessen.  
@@ -35,7 +35,7 @@ I tillegg til standardmåter å opprette plasseringer på, som er beskrevet i de
 4.  Når du har fullført plasseringen av varene, velger du handlingen **Registrer plassering** for å registrere at aktiviteten er fullført, og gjøre varene tilgjengelig for plukking.  
 
 ## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Slik plasserer du varer med lagerstyring  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plassering**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.
     Hvis det er opprettet plasseringsinstruksjoner, er en plassering synlig.  
 2.  Åpne lagerplasseringen som du vil arbeide med.  
 3.  Hvis lageret krever det, angir du bruker-IDen på hurtigfanen **Generelt** når du begynner å arbeide med en bestemt plassering.  
@@ -63,7 +63,7 @@ Hylleprioriteringen trer i kraft hvis det er flere enn én hylle som er i samsva
 ## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Slik oppretter du en plassering fra et bokførte mottak:  
  Hvis lokasjonen bruker både plasserings- og mottaksbehandling og du har slettet plasseringslinjer, eller hvis du bruker lagerstyring og har bestemt deg for å ikke bruke plasseringsforslaget, kan du opprette eller gjenopprette plasseringsinstruksjoner for de bokførte mottakslinjene på følgende måte:
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Bokførte lagermottak**, og velg deretter den relaterte koblingen.  
 2.  Velg et bokført mottak som skal plasseres.  
 3.  Velg handlingen **Kort**.  
 

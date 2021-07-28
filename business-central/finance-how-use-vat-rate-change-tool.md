@@ -1,20 +1,20 @@
 ---
-title: Håndtere endringer i mva-satser | Microsoft Docs
-description: Finn ut hvordan du kan bruke verktøyet for endring av mva-sats for Dynamics 365 Business Central.
+title: Håndtere endringer i mva-satser
+description: Lær hvordan du bruker verktøyet for endring av mva-satser for Dynamics 365 Business Central for å endre mva-satser basert på lokal lovgivning.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770444"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437394"
 ---
 # <a name="managing-vat-rate-changes"></a>Håndtere endringer i mva-satser
 
@@ -71,13 +71,13 @@ Før du konfigurerer verktøyet for mva-satsendring, må du gjøre følgende for
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Slik konfigurerer du verktøyet for endring av mva-sats:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanene **Hoveddata**, **Kladder** og **dokumenter** velger du en bokføringsgruppeverdi fra alternativlisten over nødvendige felt. For hver gruppe kan du velge om du vil konvertere mva-bokføringsgrupper for varer eller varebokføringsgrupper, eller konvertere begge verdier hvis de er tilgjengelige i hoveddataelementet. For enkelte områder kan du også angi et filter for å konvertere bare et delsett med verdier, for eksempel finanskonti. 
 3. I hurtigfanen **Priser inkl. mva** velger du hvilke linjetyper i ordrer du vil oppdatere salgsprisene for. Salgspriser på linjer av typen vare og ressurs vil alltid bli oppdatert.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Slik definerer du omregning av varebokføringsgruppe:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for endring av mva-sats**, og velg deretter den relaterte koblingen.  
 2. På siden **Oppsett for endring av mva-sats** velger du handlingen **Mva-bokføringsgruppekonv.** eller **Gen. varebokføringsgruppekonv.**  
 3. Angi gjeldende bokføringsgruppe i feltet **Fra-kode**.  
 4. Angi den nye bokføringsgruppen i feltet **Til-kode**.  
@@ -92,7 +92,7 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 > [!IMPORTANT]  
 > Før du foretar endringen av mva-satsen, kan du teste konverteringen. Hvis du vil gjøre dette, følger du fremgangsmåten nedenfor, men må du fjerne merket for **Utfør konvertering** og **Verktøy for endring av mva-sats ferdig**. Under testkonvertering fjernes feltet **Konvertert** i tabellen **Mva-sats – endringsloggpost** og feltet **Konvertert dato** i tabellen **Mva-sats – endringsloggpost** er tom. Når konverteringen er fullført, velger du **Mva-sats – endringsloggposter** for å vise resultatene av testkonverteringen. Kontroller hver post før du utfører konvertering. Kontroller særlig transaksjoner som bruker en gammel mva-sats.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Endring av mva-sats**, og velg koblingen **Oppsett for endring av mva-sats**.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Endring av mva-sats** og velg deretter koblingen **Oppsett for endring av mva-sats**.  
 2. Kontroller at du allerede har definert omregningen av mva-varebokføringsgruppen eller omregningen av varebokføringsgruppen.  
 3. Merk av for **Utfør konvertering**.  
 

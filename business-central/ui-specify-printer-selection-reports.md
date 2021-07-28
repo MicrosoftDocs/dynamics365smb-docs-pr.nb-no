@@ -1,6 +1,6 @@
 ---
 title: Konfigurere skrivere
-description: Lære om oppsett av skrivere du kan bruke til rapporter og dokumenter.
+description: Lær om hvordan du konfigurerer skrivere du kan bruke til rapporter og dokumenter, og hvilke ulike utskriftsfunksjoner som er tilgjengelige i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
-ms.date: 05/17/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: c98006d85607a62f99286e1179728b969fa4d005
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 4f59ac35a6c5ffb266603ac2e98c513d279ddd1e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063455"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437219"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
@@ -25,8 +25,8 @@ Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_shor
 
 |Funksjon|Beskrivelse|Webklient| Mobilapp|App for Teams|
 |-------|-----------|----------|-----------|--------------|
-|Universell utskrift|Universell utskrift er en utskriftsbehandlingsløsning som er tilgjengelig som en skytjeneste fra Microsoft. Med denne funksjonen kan du konfigurere skriverne med Universell utskrift, og deretter registrere dem for bruk i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funksjonen krever abonnement på Universell utskrift og utvidelsen **Integrering med Universell utskrift**|![fungerer online](media/check.png)|![fungerer online](media/check.png)|![fungerer online](media/check.png)|
-|E-postutskrift|Med denne funksjonen kan du konfigurere e-postbaserte skrivere. [!INCLUDE[prod_short](includes/prod_short.md)] sender deretter utskriftsjobber til en skriver ved å bruke e-postadressen til skriveren. Denne funksjonen krever e-postbaserte skrivere og filtypen **Send til e-post**.|![fungerer online](media/check.png)|![fungerer online](media/check.png)|![fungerer online](media/check.png)|
+|Universell utskrift|Universell utskrift er en utskriftsbehandlingsløsning som er tilgjengelig som en skytjeneste fra Microsoft. Med denne funksjonen kan du konfigurere skriverne med Universell utskrift, og deretter registrere dem for bruk i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funksjonen krever abonnement på Universell utskrift og utvidelsen **Integrering med Universell utskrift**|![fungerer online.](media/check.png)|![fungerer online.](media/check.png)|![fungerer online](media/check.png)|
+|E-postutskrift|Med denne funksjonen kan du konfigurere e-postbaserte skrivere. [!INCLUDE[prod_short](includes/prod_short.md)] sender deretter utskriftsjobber til en skriver ved å bruke e-postadressen til skriveren. Denne funksjonen krever e-postbaserte skrivere og filtypen **Send til e-post**.|![fungerer online.](media/check.png)|![fungerer online](media/check.png)|![fungerer online](media/check.png)|
 |Utskrift fra nettleser|Utskriftsjobber håndteres av utskriftsfunksjonaliteten i brukerens nettleser. Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert skriver mislykkes, blir utskriftsalternativene automatisk angitt for leseren. Feltet **Skriver** på forespørselssiden vil vise *(Håndteres av nettleseren)*.|![fungerer online](media/check.png)|||
 
 > [!NOTE]
@@ -36,7 +36,7 @@ Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_shor
 
 Universell utskrift er en tjeneste basert på et Microsoft 365-abonnement som kjører på Microsoft Azure. Den gir deg sentralisert utskriftsbehandling via portalen for Universell utskrift. [!INCLUDE[prod_short](includes/prod_short.md)] gjør at skrivere som er konfigurert med Universell utskrift, tilgjengelige for klientbrukere via utvidelsen **Integrering med Universell utskrift**.
 
-![Konfigurasjon av Universell utskrift](media/Universal-Print-arch.png)
+![Konfigurasjon av Universell utskrift.](media/Universal-Print-arch.png)
 
 Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved hjelp av [Azure-portalen](https://portal.azure.com), og i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -146,7 +146,7 @@ Når du legger til skrivere enkeltvis, kan du konfigurere den samme skriveren fo
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
 2. Velg **Universell utskrift**, og velg deretter ett av følgende alternativer:
 
     - **Legg til alle skrivere for Universell utskrift** for å legge til alle skrivere som ikke allerede er lagt til. Du kan bruke dette alternativet selv om skrivere allerede er lagt til. 
@@ -206,7 +206,7 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 Siden **Utskriftsbehandling** viser skriverne som for øyeblikket er konfigurert. På denne siden får du også tilgang til siden **Innstillinger** for hver skriver for å redigere et eksisterende oppsett eller konfigurere en ny skriver.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
 2. Velg **E-postutskrift**, og velg deretter **Legg til en e-postskriver**.
 3. Fyll ut de nødvendige feltene på siden **Innstillinger for e-postskriver**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -230,7 +230,7 @@ Det finnes noen andre måter å konfigurere skrivere på som skal brukes som sta
 
 På siden **Utskriftsbehandling** kan du konfigurere en skriver som standardskriver for alle utskriftsjobber. Du kan bare angi skriveren som standard for deg selv eller for alle brukere.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
 
     > [!TIP]
     > Du kan også åpne siden **Utskriftsbehandling** fra siden **Skrivertvalg** ved å velge **Utskriftsbehandling**.  
@@ -246,7 +246,7 @@ På siden **Skrivervalg** kan du angi hvilken skriver en rapport skal bruke som 
 > [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan siden **Skrivervalg** bare brukes for skybaserte skrivere som er definert av skriverutvidelser, for eksempel skrivere for E-postutskrift og Universell utskrift. Den kan ikke brukes for lokale skrivere.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen. Fra siden **Utskriftsbehandling** kan du i stedet velge en skriver, og deretter velger du handlingen **Skrivervalg**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen. Fra siden **Utskriftsbehandling** kan du i stedet velge en skriver, og deretter velger du handlingen **Skrivervalg**.
 2. Velg handlingen **Ny** hvis du vil legge til et skrivervalg for en bestemt rapport.
 3. Fyll ut feltene etter behov.
 

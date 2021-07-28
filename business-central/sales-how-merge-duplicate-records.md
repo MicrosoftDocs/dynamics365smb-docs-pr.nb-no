@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f5972e7489b9aa8c537d8aaa6677c79ffd4a6414
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778750"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436854"
 ---
 # <a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.
@@ -28,7 +28,7 @@ Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over ti
 
 Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en leverandør og kontaktkort.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Angi kunden som du vet eller mistenker at det finnes en duplisert post for, og velg deretter **Rediger**-handlingen.
 3. På siden **Kundekort** velger du handlingen **Slå sammen med**.
 4. På siden **Slå sammen duplikat** i feltet **Slå sammen med** velger du kunden som du mener er et duplikat av kunden du har åpnet, som er angitt i feltet **Gjeldende**.

@@ -1,6 +1,6 @@
 ---
-title: Tilordne varegebyr til salg og kjøp | Microsoft-dokumentasjon
-description: Hvis du vil at lagervarene skal bære ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer, kan du bruke funksjonen Varegebyr.
+title: Tilordne varegebyr til salg og kjøp
+description: Tilordne varegebyr når du trenger at lagervarene skal bære ekstra kostnader, for eksempel frakt og fysisk håndtering som du pådrar deg når du kjøper eller selger varer.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: dbf96c4f09c82bf409c0e082b6df116f3563402f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ef440a79cec7c59fe6aa7c6cfe34c441817bad5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773783"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436904"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruke varegebyr til å gjøre rede for ekstra handelskostnader
 For å sikre riktig verdisetting må lagervarene bære eventuelle ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer. Når det gjelder kjøp, består netto innkjøpspris for en vare av innkjøpsprisen fra leverandøren samt alle direkte tilleggsvaregebyr som kan tilordnes enkeltstående mottak eller returforsendelser. Når det gjelder salg, kan det være like viktig for selskapet ditt å være klar over kostnaden ved å levere solgte varer som netto innkjøpspris for kjøpte varer.
@@ -45,14 +45,14 @@ Denne videoen viser hvordan du håndterer en ekstra leveringskostnad som del av 
 ## <a name="to-set-up-item-charge-numbers"></a>Definere varegebyrnumre
 Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr som brukes i selskapet.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varegebyrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varegebyr** og velg den relaterte koblingen.
 2. Velg handlingen **Ny** på **Varegebyr**-siden for å opprette en ny linje.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr direkte til kjøpsfakturaen for varen
 Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du denne fremgangsmåten.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Opprett en ny kjøpsfaktura. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. Kontroller at kjøpsfakturaen har én eller flere linjer av typen Vare.
 4. Velg **Gebyr (vare)** i **Type**-feltet på en ny linje.

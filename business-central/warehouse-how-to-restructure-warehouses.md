@@ -1,6 +1,6 @@
 ---
-title: Omstrukturere lageret | Microsoft-dokumentasjon
-description: Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper.
+title: Omstrukturere lagre
+description: Lær hvordan du omstrukturerer lageret med nye hyllekoder og nye egenskaper for hyllen for å oppnå eller vedlikeholde en mer effektiv operasjon.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ad541c54f696b19e9c37fba88134522cc5b7bb90
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771657"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438060"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper. Dette er en aktivitet du ikke utfører så ofte, men det kan oppstå situasjoner der det er nødvendig med en omklassifisering for å oppnå eller vedlikeholde en mer effektiv drift. Eksempel:  
@@ -27,11 +27,11 @@ Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegens
 Hvis lageret er definert slik at hyller brukes, men ikke lagerstyring, omstrukturerer du lageret ved å opprette de nye hyllene du vil bruke i fremtiden.  
 
 ## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Omstrukturere et enkelt lager som bare bruker hyller  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Lager** angir du feltet **Standard hyllevalg** til **Sist brukte hylle**.  
 3.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
 
-    1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varereklassifiseringskladd**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varereklassifiseringskladd** og velg den relaterte koblingen.  
     2.  Velg en kladdelinje, og velg deretter **Hent hylleinnhold**-handlingen.  
     3.  På hurtigfanen **Hylleinnhold** definerer du filtre i feltene **Lokasjonskode**, **Hyllekode** og **Varenr.** for å angi innholdet du vil flytte.  
     4.  Velg **OK**-knappen for å fylle ut en kladdelinje.  
@@ -46,13 +46,13 @@ Du har nå tømt hyllene der varene pleide å være. Standardhyllene for varene 
 1.  Opprett de nye hyllene du vil bruke i fremtiden. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 2.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
 
-    1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerreklassifiseringskladd**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerreklassifiseringskladd** og velg den relaterte koblingen.  
     2.  For hyller der det ikke var noen virkelig flytting av varer, oppretter du en linje for hver enkelt av de nåværende hyllene i **lageroverføringskladden** med den gamle hyllekoden, **Fra hylle-kode**, og den nye hyllekoden, **Til hylle-kode**.  
     3.  Hvis noen av flyttingene betyr faktiske flyttinger som du vil at de ansatte skal utføre, bruker du **flytteforslag** til å forberede flytteinstruksjoner i stedet for å bruke lagerreklassifiseringskladden. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
 3.  Når de gamle hyllene er tømt, reklassifiserer du dem som **KK**-hyller (kvalitetskontroll)for å sikre at de ikke tas med i vareflyter.  
 
-    1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+    1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
     2.  Velg linjen med lokasjonen og velg deretter **Hyller**-handlingen.  
     3.  Angi **KK** i feltet **Hylletypekode** på siden **Hyller** for hver av de gamle hyllene du tømte i trinn 3 i fremgangsmåten ovenfor.  
 
@@ -60,7 +60,7 @@ Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-
 
 ## <a name="to-delete-a-bin"></a>Slik sletter du en hylle  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil slette hyller. Velg handlingen **Hyller**.  
 3.  Velg linjene for hyllene som du vil slette.  
 4.  Velg handlingen **Slett**.  
@@ -71,7 +71,7 @@ Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilkny
 
 ## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Slik gir du nytt navn til en hylle og endrer hyllekoden i alle poster  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil gi nytt navn til en hylle eller endre hyllekoden, og velg handlingen **Hyller**.  
 3.  Velg hyllen som du vil endre og angi en ny hyllekode i **Kode**-feltet.  
 4.  Velg **Ja**-knappen.  

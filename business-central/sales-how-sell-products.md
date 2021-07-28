@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19b32e8faa6b9e56505379d1f06fd5ad79466614
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 67d7ad0d10ddc5c6065df482c7ceb4b98058d504
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115518"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436729"
 ---
 # <a name="sell-products"></a>Selge produkter
 
@@ -44,7 +44,7 @@ Du kan fylle kundefelt i ordren på to måter, avhengig av om kunden allerede er
 
 ## <a name="to-create-a-sales-order"></a>Opprette en ordre
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
     Andre felt på siden **Ordre** fylles nå med standardinformasjon for den valgte kunden.  

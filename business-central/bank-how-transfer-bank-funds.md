@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account transfer, multiple currencies
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: da9c8711751040cecb267a3b2209bad2534b618b
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: e9a285db48593828fbb01b281459df6c1e3111d0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985390"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437154"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankkapital
 
@@ -23,7 +23,7 @@ Noen ganger har du behov for å overføre av et beløp fra én konto til en anne
 
 ## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Bokføre en overføring mellom bankkonti med samme valutakode
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladd** og velg den relaterte koblingen.
 2. På en av kladdelinjene fyller du ut feltet **Bokføringsdato** og **Bilagsnr.**.
 3. Velg **Bankkonto** i **Kontotype**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.
@@ -38,7 +38,7 @@ Noen ganger har du behov for å overføre av et beløp fra én konto til en anne
 
 Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, må du bokføre to linjer i finanskladden.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladd** og velg den relaterte koblingen.
 2. Opprett to kladdelinjer, og fyll ut feltene **Bokføringsdato** og **Bilagsnr.**
 3. På den første kladdelinje angir du **Bankkonto** i **Type**-feltet.
 4. I feltet **Kontonr.** velger du bankkontoen du vil overføre midler fra.

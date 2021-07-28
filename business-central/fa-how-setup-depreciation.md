@@ -1,18 +1,18 @@
 ---
 title: Definere aktivaavskrivning
-description: Du angir i et avskrivningstablå hvordan du vil at avskrivning eller nedskrivning av aktiva skal foretas.
+description: Det finnes ulike avskrivningsmetoder. I Business Central definerer du avskrivningsmetoden for et aktivum på siden **Aktivakort**.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: eb7e0d0d082d8a86ce61b6dffab46ce6248a29d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 166e0a534632b0bf67dc14a860088e6a846d6957
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782282"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437865"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
 
@@ -26,7 +26,7 @@ Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst 
 
 I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vil tilpasse ulike avskrivningsmetoder, kan du definere flere avskrivningstablåer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.
 2. På siden **Avskrivningstablå - oversikt** velger du handlingen **Ny**.
 3. På siden **Avskrivningstablåkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -41,7 +41,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 Hvis du for eksempel selger et aktiva der avskrivningstablået ikke angir avrunding, men selskapets finansoppsett krever avrunding, vil du få en feilmelding om at et beløp må avrundes i en post når du kvitter deg med aktivumet.  
 
 ## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Slik tilordner du et avskrivningstablå til et aktiva:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil definere et aktivaavskrivningstablå for.
 3. På hurtigfanen **Avskrivningstablå** fyller du ut feltene etter behov.
 4. Hvis du vil tilordne mer enn ett avskrivningstablå til aktivaet, velger du **Legg til flere avskrivningstablåer**.
@@ -50,10 +50,13 @@ Hvis du for eksempel selger et aktiva der avskrivningstablået ikke angir avrund
     > [!NOTE]  
     >   Når du bruker den manuelle avskrivningsmetoden, må du angi avskrivning manuelt i aktivafinanskladden. Funksjonen **Beregn avskrivninger** utelater aktiva som avskrives etter den manuelle metoden. Du kan bruke denne metoden for aktiva som ikke skal avskrives, for eksempel tomter.
 
+    > [!NOTE]  
+    > Når du bruker den brukerdefinerte avskrivningsmetoden, må du tilordne avskrivningstablået på en annen måte. Hvis du vil ha mer informasjon, kan du se [Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md).
+
 ## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Slik tilordner du et avskrivningstablå til flere aktiva med en kjørsel:
 Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørselen **Opprett aktivaavskr.tablåer** til å opprette aktivaavskrivningstablåer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil tilordne et avskrivningstablå til, og velg deretter **Rediger**-handlingen.
 3. På **Avskrivningstablåkort**-siden velger du **Opprett aktivaavskr.tablåer**.
 4. På siden **Opprett aktivaavskr.tablåer** fyller du ut **Avskrivningstablå**-feltet.
@@ -66,7 +69,7 @@ Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørsel
 ## <a name="to-set-up-depreciation-posting-types"></a>Slik definerer du bokføringstyper for avskrivning:
 For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere ulike bokføringstyper. Du må for eksempel angi om bokføringen skal være debet eller kredit, og om bokføringstypen skal tas med i avskrivningsgrunnlaget.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået du vil definere, og velg deretter handlingen **Aktivabokf.type - oppsett**.
 3. Fyll ut resten av feltene på siden **Aktivabokf.type - oppsett** etter behov.
 
@@ -78,10 +81,17 @@ Vi anbefaler at du ikke endrer oppsettet av avskrivningstablåer med poster som 
 ## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Slik definerer du standardmaler og kladder for aktivaavskrivning:
 Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskrivningstablå. Du kan bruke disse standardene til å kopiere linjer fra en kladd til en annen, opprette kladdelinjer ved hjelp av kjørslene **Beregn avskrivning** eller **Indeksreg. aktiva**, duplisere anskaffelseskostnader i forsikringskladden.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået du vil definere standardkladder for, og velg deretter handlingen **Aktivakladdoppsett**.  
 3. Hvis du vil bruke et standardoppsett for alle brukerne, velger du **Bruker-ID**-feltet som skal velges fra siden **Brukere**.  
 4. Velg kladdemalen eller kladden som skal brukes som standard i de andre feltene.  
+
+## <a name="fiscal-year-365-days-field-depreciation"></a>Regnskapsår 365 dager-feltavskriving
+
+Når kjørselen Beregn avskrivninger beregner avskrivninger, brukes vanligvis et standardisert år på 360 dager, der hver av de 12 månedene har 30 dager.
+
+Hvis du velger dette feltet, bruker kjørselen Beregn avskrivninger i stedet kalenderåret på 365 dager, der hver måned beregnes med samme antall dager som i kalenderen. Det eneste unntaket er februar i skuddår, som kjørselen behandler som om den har 28 dager, ikke 29. Derfor anses alle år, inkludert skuddår, for å ha 365 dager.
+
 
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  

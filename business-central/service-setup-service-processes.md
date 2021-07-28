@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 73d50160e95717df3056200bda01874ef2f82fd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778150"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438235"
 ---
 # <a name="configure-service-processes"></a>Konfigurere serviceprosesser
 Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsprosessene:  
@@ -27,7 +27,7 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 * Nummerserier for servicerelaterte dokumenter og varer.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  

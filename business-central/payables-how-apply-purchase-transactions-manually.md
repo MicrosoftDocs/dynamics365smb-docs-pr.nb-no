@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ee71047b2c236fe404800a5227e108c91344e4d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785426"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437244"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter
 Når du sender en betaling eller mottar en refusjon fra en leverandør, må du bestemme om du vil utligne betalingen eller refundere til én eller flere åpne poster. Du kan angi det nøyaktige beløpet du vil utligne mot, kvitteringen eller refusjonen, og deretter bare delvis utligne leverandørposter. Du må utligne alle leverandørposter for å få riktig leverandørstatistikk og riktige rapporter av kontoutdrag og rentenotaer.
@@ -37,7 +37,7 @@ Du kan utligne leverandørbetalinger manuelt til de relaterte kjøpsdokumentene 
 Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalingene vises som negative banktransaksjoner i banken. På siden **Betalingsavstemmingskladd** kan du bruke funksjonene for bankkontoutdragsimport, automatisk utligning og bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
 ## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Utligne en betaling mot en eller flere leverandørposter
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladd** og velg den relaterte koblingen.
 2. På siden **Betalingskladd**, på den første kladdelinjen, angir du aktuelle opplysninger om betalingsposten.
 3. Utligne én enkelt leverandørpost:
    1. I feltet **Utligningsbilagsnr.** velger du feltet for å åpne siden **Utlign leverandørposter**.
@@ -55,7 +55,7 @@ Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalinge
 6. Velg handlingen **Bokfør** for å bokføre betalingskladden.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Utligne en kreditnota mot en eller flere leverandørposter
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpskreditnota**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpskreditnota**, og velg deretter den relaterte koblingen.
 2. Åpne kjøpskreditnotaen du vil utligne.
 3. Skriv inn relevant informasjon i hodet.
 4. For å utligne en enkelt leverandørpost, på hurtigfanen **Utligning** i feltet **Utligningsbilagsnr.** velger du posten som kreditten skal utlignes til, og deretter, i feltet **Beløp som skal utlignes** angir du beløpet som skal utlignes til posten.
@@ -72,7 +72,7 @@ Du kan også utligne leverandørbetalinger og kundebetalinger etter at betalinge
 7. Velg **Bokfør**-knappen for å bokføre kjøpskreditnotaen.
 
 ## <a name="to-apply-posted-vendor-ledger-entries"></a>Slik utligner du bokførte leverandørposter
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Åpne den aktuelle leverandøren med poster som allerede er bokført.
 3. Velg handlingen **Poster**, og velg deretter handlingen **Utlign poster**.
 4. De åpne postene for leverandøren vises på siden **Utlign levrd.poster**.
@@ -93,7 +93,7 @@ Hvis du kjøper fra en leverandør i én valuta og betaler i en annen valuta, ka
 
 Hvis du utligner en post (post 1) i én valuta mot en post (post 2) i en annen valuta, brukes bokføringsdatoen i post 1 til å søke etter den relevante valutakursen for å konvertere beløp i post 2. Den relevante valutakursen finnes på **Valutakurser**-siden. I så fall må du aktivere utligning av leverandørposter i forskjellige valutaer. Hvis du vil ha mer informasjon, kan du se [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladd** og velg den relaterte koblingen.
 2. Åpne kladden du vil bruke, og fyll ut den første tomme kladdelinjen med en valutakode.
 3. Velg handlingen **Utlign poster**.
 4. Velg linjen med posten du vil utligne mot posten i betalingskladden. Deretter velger du handlingen **Angi utlignings-ID** og merker posten du vil utligne mot.
@@ -106,7 +106,7 @@ Hvis du utligner en post (post 1) i én valuta mot en post (post 2) i en annen v
 ## <a name="to-unapply-an-application-of-vendor-entries"></a>Oppheve utligning av utlignede leverandørposter
 Når du opphever utligningen for en feilaktig utligning, opprettes og bokføres korreksjonsposter (poster som er identiske med de opprinnelige postene, men som har motsatt fortegn i beløpsfeltet) for alle poster, inkludert alle finansbokføringer som er avledet fra utligningen, for eksempel betalingsrabatt og valutagevinst/-tap. Postene som ble lukket av utligningen, åpnes på nytt.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet.
 3. Velg handlingen **Poster**.
 4. Velg den relevante posten, og velg deretter handlingen **Opphev utligning**.

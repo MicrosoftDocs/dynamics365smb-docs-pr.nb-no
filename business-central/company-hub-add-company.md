@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b4ed57dbc6202e44487ca13363b0b34d915d01b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786540"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436979"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Legge til selskaper i selskapshuben
 
@@ -29,7 +29,7 @@ En miljøkobling er et kort der du angir [!INCLUDE [prod_short](includes/prod_sh
 
 Koblingen brukes når du velger firmaet i firmahuben.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben.":::
 
 > [!TIP]
 > Hvis du arbeider i en gratis prøveversjon av [!INCLUDE [prod_short](includes/prod_short.md)], er det enkelt å legge til selskapene i leieren. Du kan finne miljøkoblingen ved å kopiere Azure Active Directory-ID-en fra **Feilsøking**-delen på siden Hjelp og støtte. Miljønavnet er sannsynligvis standardverdien PRODUKSJON. Legg til denne informasjonen i feltet **Miljøkobling**, for eksempel ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og velg deretter **Test tilkoblingen**. Evalueringsselskapet blir lagt til i listen.

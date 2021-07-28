@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bb93853d878ec1aa9b8b0095eb89589c35610f1a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6d358afec4689a3543245295427d5fae992dd680
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216156"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436779"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 > [!NOTE]
@@ -53,13 +53,13 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 #### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience/)
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Velg kunden, og velg deretter handlingen **Priser**.
 3. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll ut en linje for hver kombinasjon som gir en spesialsalgspris for kunden.
 
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience/)  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Velg kunden, og velg deretter handlingen **Salgsprislister**. 
 3. Velg **Ny** for å opprette en ny salgsprisliste.
 4. Fyll ut feltene i hurtigfanen **Generelt** og **Avgift**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -101,7 +101,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 #### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience/)  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Åpne det aktuelle kundekortet, og velg deretter handlingen **Linjerabatter**.
 3. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Fyll ut en linje for hver kombinasjon som gir en salgslinjerabatt for kunden.
 
@@ -112,7 +112,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience/)  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Velg kunden, og velg deretter handlingen **Salgsprislister**.
 3. Åpne prislisten der du vil angi linjerabatt.
 4. Slå på **Tillat linjerabatt**.
@@ -139,7 +139,7 @@ Fakturarabatten er nå definert og tilordnet til kunden. Når du velger kundekod
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Definere en fakturarabatt for en kunde
 Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du fakturarabattkode på kundekortet og definerer betingelsene for hver kode.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Åpne kundesiden for kunden som skal ha fakturarabatter.
 3. I feltet **Fakturarabattkode** velger du en kode for de aktuelle fakturarabattbetingelsene som skal brukes til å beregne fakturarabatter for kunden. <!--Looks like I can only choose customers in this list-->
 
@@ -161,7 +161,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde som skal brukes i en kundeprisgruppe, må du utføre kjørselen **Foreslå salgspris i forslag**. kjørselen på siden **Salgspris i forslag**.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Foreslå salgspris i forslag.** .  
 3. I hurtigfanen **Salgspriser** fyller du ut feltene **Salgstype** og **Salgskode** med de opprinnelige salgsprisene du vil kopiere.  
 4. På den øverste delen av forespørselssiden fyller du ut feltene **Salgstype** og **Salgskode** med type og navn du vil at salgsprisene skal kopieres til.  
@@ -175,7 +175,7 @@ Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde so
 
 Statusen for prislistelinjen må være **Utkast**. 
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprislister**, og velg deretter den relaterte koblingen. 
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsprislister**, og velg deretter den relaterte koblingen. 
 2. Velg prislisten du vil kopiere, og velg deretter **Kopier linjer**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -191,7 +191,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 Hvis du vil oppdatere varepriser satsvis, for eksempel øke alle varepriser med en bestemt prosentdel, må du kjøre **Foreslå varepris i forslag** Kjørselen . Du finner en kobling til den satsvise jobben på siden **Salgsprisforslag**.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Foreslå varepris i forslag** .  
 3. I hurtigfanen **Vare** fyller du ut **Nr.** eller **Bokføringsgruppe - lager** eller andre felt med de opprinnelige salgsprisene du vil oppdatere.  
 4. På den øverste delen av forespørselssiden fyller du ut **Salgstype** og **Salgskode** med type og navn du vil at salgsprisene skal kopieres til.

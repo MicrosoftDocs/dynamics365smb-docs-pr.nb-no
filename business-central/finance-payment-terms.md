@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783800"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437319"
 ---
 # <a name="set-up-payment-terms"></a>Definer betalingsbetingelser
 
@@ -28,7 +28,7 @@ Hvis du vil sende kundene purringer om forfalte betalinger, må du definere purr
 
 ## <a name="to-set-up-payment-terms"></a>Slik definerer du betalingsbetingelser
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsbetingelser**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsbetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du har definert betalingsbetingelsene, tilordner du dem til kunder og leverandører. Du kan eventuelt tilordne betalingsbetingelser til betalingsmåtene.  
@@ -36,7 +36,7 @@ Når du har definert betalingsbetingelsene, tilordner du dem til kunder og lever
 > [!TIP]
 > I grunnversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støttes ikke betalingsbetingelser med delvise betalinger. Du må i stedet bruke funksjonene for forskuddsbetaling. Hvis du vil ha mer informasjon, kan du se [Definere forskudd](finance-set-up-prepayments.md).
 >
-> I visse land *kan* du definere betalingsbetingelser med delvise betalinger. Hvis du vil finne ut om denne funksjonen støttes i ditt land, kan du se delen **Lokale funksjoner** i navigasjonsruten til venstre på nettstedet [Docs.microsoft.com ](about-localization.md).
+> I visse land *kan* du definere betalingsbetingelser med delvise betalinger. Hvis du vil finne ut om denne funksjonen støttes i ditt land, kan du se delen **Lokale funksjoner** i navigasjonsruten til venstre på nettstedet [Docs.microsoft.com](about-localization.md).
 
 ## <a name="see-also"></a>Se også
 

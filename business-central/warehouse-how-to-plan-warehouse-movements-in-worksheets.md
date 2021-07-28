@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 434f730b7b7f541ed7387b278672cdd032afb093
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e779bb1d2916c031dea66a52ed7b3b9ccc006aee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782539"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438160"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planlegge lagerflyttinger i forslag
 Planlegge flyttinger i forslaget ved hjelp av en funksjon for etterfylling av hyller eller ved manuell planlegging av linjene du vil opprette som flytteinstruksjoner.  
@@ -23,7 +23,7 @@ Planlegge flyttinger i forslaget ved hjelp av en funksjon for etterfylling av hy
 ## <a name="to-calculate-a-replenishment-movement"></a>Slik beregner du en etterfyllingsflytting  
 Etter hvert som lageret leverer varer til kundene, vil hyllene med de høyeste hylleprioriteringene inneholde færre og færre varer. For å fylle opp disse hyllene med varer fra andre hyller, kjører du funksjonen **Beregn etterfylling av hylle** på siden **Flytteforslag**.
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn etterfylling av hyller**.  
 
     [!INCLUDE[prod_short](includes/prod_short.md)] oppretter linjer som angir nøyaktig hvordan du skal flytte varer fra hyller med lav prioritering til hyller med høy prioritering.  
@@ -44,7 +44,7 @@ Etter hvert som lageret leverer varer til kundene, vil hyllene med de høyeste h
 ## <a name="to-move-the-entire-contents-of-one-or-more-bins-by-using-the-get-bin-content-function"></a>Slik flytter du hele innholdet i én eller flere hyller med funksjonen Hent hylleinnhold  
 Du kan også bruke flytteforslaget til å planlegge andre flyttinger av beholdning i lageret. Du kan for eksempel bruke denne handlingen når du vil plassere varer i en hylle for kvalitetskontroll, og deretter opprette en flytting for å lage instruksjoner for en ansatt.  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Hent hylleinnhold**-handlingen. Bruk forespørselssiden til å filtrere hyller og varer som du vil skal vises på flytteforslagslinjene.  
 3.  Fyll ut de aktuelle feltene på siden for forespørsel om kjørsel. Hvis du for eksempel vil se hylleinnholdet i alle hyllene i en bestemt sone i lokasjonen, fyller du ut **Sonekode**-feltet. Hvis du vil hente linjer for hver hylle som inneholder en bestemt vare, fyller du ut **Varenr.**-feltet.  
 

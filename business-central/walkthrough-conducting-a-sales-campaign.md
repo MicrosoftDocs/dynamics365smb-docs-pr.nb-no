@@ -1,6 +1,6 @@
 ---
 title: 'Gjennomgang: kjøre en salgskampanje'
-description: En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I Business Central kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.
+description: Denne gjennomgangen gir en detaljert oversikt over alle oppgavene som gjelder når du utfører en salgskampanje i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102436"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437840"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
 
@@ -69,7 +69,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ### <a name="to-set-up-a-campaign"></a>Slik oppretter du en kampanje:  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kampanjer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kampanjer**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny** for å opprette en ny kampanje. Trykk på **Enter** på kampanjekortet for å få et kampanjenummer til å settes inn automatisk.  
 3. Skriv inn en beskrivelse for kampanjen i **Beskrivelse**-feltet, for eksempel **Office Futurus varemesse**.  
 4. Velg **Statuskode**-feltet, og velg statuskoden 1-PLAN. 
@@ -161,11 +161,11 @@ Markedsføringssjefen bestemmer seg for at den reduserte listen er den endelige 
 
 Vedleggene sendes. Når prosessen er ferdig, velger du **OK** i meldingen om at segmentet er loggført.  
 
- Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
+ Brevene skrives ut automatisk og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er flyttet til listen over loggførte segmenter. Hvis du vil listen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Loggførte segmenter**, og velg deretter den relaterte koblingen.  
 
 Når segmentet er loggført, registreres hvert sendte brev som en samhandling, som du kan se i loggen.  
 
-Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Samhandlingsposter**, og velg deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
+Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Samhandlingsposter** og velger deretter den relaterte koblingen. Det finnes en post for hvert sendte brev.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Sende en e-postmelding til en kontakt  
 
@@ -178,7 +178,7 @@ Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search
 7. Merk av for **Opprett oppfølgingssegment**.  
 8. Velg **OK**.  
 
- Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil vise den listen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Loggførte segmenter**, og velger deretter den relaterte koblingen.  
+ Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil listen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Loggførte segmenter**, og velg deretter den relaterte koblingen.  
 
 ## <a name="registering-campaign-responses"></a>Registrere kampanjerespons
 

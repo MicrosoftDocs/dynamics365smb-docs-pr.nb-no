@@ -1,5 +1,5 @@
 ---
-title: Konfigurere og publisere KPI-webtjenester for kontoskjemaer | Microsoft Docs
+title: Konfigurere og publisere KPI-nettjenester for kontoskjemaer
 description: Dette emnet beskriver hvordan du viser kontoskjemaet KPI-data som er basert på bestemte kontoskjemaer.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 72687930e20f00c8a6d244cac0e8f682de2d34a4
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: b224ea5e9bb2d0f53ce41c2dac66a1686dd5a90b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961530"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437004"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Konfigurere og publisere KPI-webtjenester basert på kontoskjemaer
 På siden **Oppsett av KPI-webtjeneste for kontoskjema** definerer du hvordan du vil vise kontoskjemaets KPI-data og hvilke bestemte kontoplaner KPI-ene skal baseres på. Når du velger **Publiser webtjeneste**, legges kontoskjemaets angitte KPI-data til i listen over publiserte webtjenester i vinduet over publiserte webtjenester på siden **Webtjenester**.  
@@ -24,7 +24,7 @@ På siden **Oppsett av KPI-webtjeneste for kontoskjema** definerer du hvordan du
 > Når du bruker denne nettjenesten, tas ikke avslutningsdatoer med i datasettet. Dermed kan du bruke filtre i Power BI til å analysere ulike tidsperioder.
 
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>Slik konfigurerer og publiserer du en KPI-webtjeneste som er basert på kontoskjemaer  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av KPI-webtjeneste for kontoskjema**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av KPI-nettjeneste for kontoskjema**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  

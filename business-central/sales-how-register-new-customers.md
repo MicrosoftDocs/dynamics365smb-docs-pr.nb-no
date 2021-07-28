@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 178bc8374d50bac5b7f7a6793c596c5109943fa6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778600"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436754"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -34,7 +34,7 @@ Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprett
 
 ### <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2. På siden **Kunder** velger du handlingen **Ny**.
 
     Hvis det bare finnes én kundemal, åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.
@@ -76,7 +76,7 @@ Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet,
 
 ### <a name="to-specify-credit-limit-warnings"></a>Slik angir du advarsler om kredittgrense
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 
 2. På hurtigfanen **Generelt** i feltet **Kredittvarsler** velger du det relevante alternativet som er beskrevet i følgende tabell:
 

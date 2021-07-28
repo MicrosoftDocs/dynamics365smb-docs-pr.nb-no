@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 120db7bf4336444f6cf726d0f784a86841dc3e11
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d97b0fe65a610c4b0a9dab694678afdf4631a514
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215956"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436929"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokføring
 
@@ -32,7 +32,7 @@ Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokf�
 
  Med jevne mellomrom vil verdiposter som opprettes i vareopptellingen, bli bokført til finans for å avstemme de to postene for økonomisk styring. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Postflyt ved avstemming av lager med finans](media/design_details_inventory_costing_1_entry_flow.png "Postflyt ved avstemming av lager med finans")  
+ ![Postflyt ved avstemming av lager med finans.](media/design_details_inventory_costing_1_entry_flow.png "Postflyt ved avstemming av lager med finans")  
 
 ## <a name="example"></a>Eksempel
 

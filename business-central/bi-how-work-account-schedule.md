@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1e29820a3bb8254368e14ba1fa8b7dba17ed661
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f180efb198fce757af263710fab2561323fd69b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786590"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437029"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Klargjøre Financial Reporting med kontoskjemaer og kontokategorier
 
@@ -54,7 +54,7 @@ Kontoskjemaene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.
 
 Siden **Kto.skjemaoversikt** er der du kan forhåndsvise den økonomiske rapporten som kontoskjemaet definerer. I det følgende er det viktig å forstå at det du definerer som kontoskjemarader og -kolonner, bare kan ses og valideres på siden **Kto.skjemaoversikt**, som du åpner fra et kontoskjema ved å velge **Oversikt**-handlingen. Selve **Kontoskjema**-siden er bare et oppsettsområde.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** på siden **Kontoskjemaer** for å opprette et nytt kontoskjemanavn.
 3. Du kan også velge handlingen **Kopier kontoskjema**, fylle ut de to feltene, og deretter velge **OK**.
 4. Fyll ut feltene etter behov. I feltet **Standard kolonneoppsett** velger du et eksisterende oppsett. Det kan endres senere om du vil.
@@ -88,7 +88,7 @@ Du bruker kolonneoppsett til å angi hvilke kolonner som skal være med i den re
 
 Noen ganger vil du kanskje ta med en kolonne i et kontoskjema for å beregne prosentdeler av en sum. Hvis du for eksempel har et antall rader som bryter ned salg etter dimensjon, vil du kanskje ta med en kolonne som angir hvor stor prosentdel av totalt salg hver rad representerer.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.
 2. Velg et kontoskjema på siden **Kontoskjemanavn**.  
 3. Velg handlingen **Rediger kontoskjema** for å definere en kontoskjemarad som skal brukes til å beregne summen prosentene skal baseres på.  
 4. Sett inn en linje like over den første raden som du vil vise en prosentdel for.  
@@ -101,7 +101,7 @@ Noen ganger vil du kanskje ta med en kolonne i et kontoskjema for å beregne pro
 
 Du kan bruke et kontoskjema til å opprette en oppgave som sammenligner finanstall og finansbudsjettall.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.
 2. Velg et kontoskjema på siden **Kontoskjemanavn**.  
 3. Velg handlingen **Rediger kontoskjema**.  
 4. Velg standard kontoskjemanavn i **Navn**-feltet på **Kontoskjema**-siden.

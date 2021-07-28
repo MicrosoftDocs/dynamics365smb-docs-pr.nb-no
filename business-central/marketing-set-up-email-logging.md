@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c46fc5107413c4b00b7283e29a75d835de5434e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777676"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437580"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spor utveksling av e-postmeldinger mellom selgere og kontakter
 
@@ -105,7 +105,7 @@ Fremgangsmåten nedenfor forutsetter at du bruker Azure Active Directory til å 
 Hvis du ikke bruker Azure Active Directory til å administrere identiteter og tilgang, trenger du litt hjelp fra en utvikler. Hvis du foretrekker å lagre app-ID-en og -hemmeligheten på en annen plassering, kan du la feltene klient-ID og klienthemmelighet stå tomme og skrive en utvidelse for å hente ID-en og hemmeligheten fra plasseringen. Du kan gi hemmeligheten under kjøring ved å abonnere på hendelsene OnGetEmailLoggingClientId og OnGetEmailLoggingClientSecret i codeunit 1641, Konfig. loggføring av e-post.
 
 ### <a name="to-stop-logging-email"></a>Slik stopper du loggføring av e-post
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Markedsføringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Markedsføringsoppsett** og velg den relaterte koblingen.
 2. Deaktiver **Aktivert**-bryteren.
 
 ## <a name="see-also"></a>Se også

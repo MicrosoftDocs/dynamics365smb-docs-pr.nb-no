@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8ed7c53d4352dcebc1475f4cafdd6a13db5385bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e64624006c8760037acaab48ab351dad9636bfdb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783437"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437555"
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
 
@@ -23,7 +23,7 @@ Før du begynner å arbeide med kontaktene og markedsføringsinteressene, er det
 
 Det å behandle kontaktene og ha en strategi for å identifisere kunder, få kundenes oppmerksomhet og beholde dem vil bidra til å optimalisere bedriften og gjøre kundene mer fornøyde. Bruken av et godt kontaktbehandlingssystem vil også hjelpe deg med å danne og beholde relasjoner med kundene. Kommunikasjon er nøkkelen til disse relasjonene. Det å være i stand til å tilpasse kommunikasjon med potensielle og eksisterende kunder, leverandører og forretningspartner i henhold til behovene, er nødvendig for at bedrifter skal lykkes. Utvikling av en strategi og definering av hvordan bedriften bruker kontaktinformasjon er et grunnleggende trinn. Disse opplysningene vil bli vist av mange forskjellige grupper i bedriften, så alle vil bli mer produktive hvis du har et godt system etablert.
 
-Du definerer markedsførings- og kontakthåndtering fra siden **Markedsføringsoppsett**. Du åpner siden **Markedsføringsoppsett** ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Markedsføringsoppsett** og deretter velge den relaterte koblingen.
+Du definerer markedsførings- og kontakthåndtering fra siden **Markedsføringsoppsett**. Du åpner siden **Markedsføringsoppsett** ved å velge ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Markedsføringsoppsett** og velg den relaterte koblingen.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiere spesifikk informasjon fra kontaktselskapene til kontaktpersonene
 Noen opplysninger om kontaktselskaper er identiske med opplysningene om kontaktpersonene som arbeider i disse selskapene, for eksempel opplysninger om adresse. I inndelingen **Arv** på siden **Markedsføringsoppsett** kan du angi at programmet automatisk kopiere bestemte felt fra kortet for kontaktselskapet til kortet for kontaktpersonen hver gang du oppretter en kontaktperson for et kontaktselskap. Du kan for eksempel velge for å kopiere selgerkoden, adresseopplysninger (adresse, adresse 2, poststed, postnummer og fylke), kommunikasjonsdetaljer (telefaksnummer, teleks (tilbakesvar) og telefonnummer) og mer.

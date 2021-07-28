@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e3926db3bcc1b34e2f75e6b338a86f2ddc2c20b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4849f1a1b6c802a597ff9a70abfb8133f85baed0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783362"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438008"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider for profiler
 Brukere kan tilpasse sider som utgjør arbeidsområdet, slik at de passer til deres egne behov. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -25,7 +25,7 @@ Administratorer kan tilpasse sider for en profil, for eksempel i henhold til den
 Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpunkt for administrering av brukerprofiler på individuelle profilkort. I tillegg til å tilpasse sideoppsettet styrer du ulike innstillinger for profiler på siden **Profil (rolle)** for hver profil. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Tilpasse sider for en profil
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Profiler (Roller)**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Profiler (roller)**, og velg deretter den relaterte koblingen.
 2. Velg linjen for profilen du vil tilpasse sidene for, og velg deretter handlingen **Slett**.
 3. Velg handlingen **Tilpass sider**.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770866"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436201"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og fordele kostnader
 Kostfordelinger flytter kostnader og inntekter mellom kosttyper, kostsentre og kostobjekter. Du kan definere så mange fordelinger som du trenger. Hver fordeling består av:  
@@ -38,7 +38,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. Fordelingskilden fastsetter hvilke kostnader som blir fordelt. Fordelingsmålene fastsetter hvor kostnadene skal fordeles.  
 
 ### <a name="to-set-up-cost-allocations"></a>Definere kostfordelinger  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2.  På siden **Kostfordeling** velger du **Rediger**.  
 3.  Angi en ID for fordelingskilde i **ID**-feltet.  
 4.  Definer et nivå som et tall mellom 1 og 99 i **Nivå**-feltet. Fordelingsbokføringen vil følge rekkefølgen på nivåene.  
@@ -82,7 +82,7 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Slik definerer du PROD-kostsenteret for fordelingskilden i hurtigfanen Generelt:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2.  På siden **Kostfordeling** velger du **Ny**.  
 3.  Trykk på Enter eller angi en ID i **ID**-feltet.  
 4.  I feltet **Grad** angir du **1**.  
@@ -119,7 +119,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Slik definerer du dynamisk fordelinger basert på varer solgt i fjoråret:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kostfordelinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordelinger**, og velg deretter den relaterte koblingen.  
 2.  På siden **Kostfordeling** velger du **Ny**.  
 3.  Trykk på Enter eller angi en ID i **ID**-feltet.  
 4.  I feltet **Grad** angir du **1**.  

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 59b6febc147687e88f11423b4ad317ab6ee5a408
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bca44382de10299ecbea73eda26ba858fbd2ef32
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775950"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437630"
 ---
 # <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
@@ -26,7 +26,7 @@ De følgende trinnene forklarer hvordan du oppretter og publiserer en webtjenest
 
 ### <a name="to-create-and-publish-a-web-service"></a>Slik oppretter og publiserer du en webtjeneste  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Webtjenester**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Nettjenester**, og velg deretter den relaterte koblingen.  
 2. På siden **Webtjenester** velger du **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  

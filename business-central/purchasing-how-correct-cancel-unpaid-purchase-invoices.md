@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b2e2e64cd3845f20e9c3e0fea5c114ebcd08491d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc930c319a1d1c6ae7ff0615bb6bf20cf125cf64
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780235"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436101"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigere eller annullere ubetalte kjøpsfakturaer
 
@@ -28,7 +28,7 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
 ## <a name="to-correct-a-posted-purchase-invoice"></a>Slik korrigerer du en bokført kjøpsfaktura:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte kjøpsfakturaen du vil korrigere.  
 
     > [!NOTE]  
@@ -41,7 +41,7 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 4. Velg **Vis korrigerende kreditnota** for å vise den bokførte kjøpskreditnotaen som annullerer den første bokførte kjøpsfakturaen.
 
 ## <a name="to-cancel-a-posted-purchase-invoice"></a>Slik annullerer du en bokført kjøpsfaktura:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte kjøpsfakturaen du vil avbryte.
 
     > [!NOTE]  

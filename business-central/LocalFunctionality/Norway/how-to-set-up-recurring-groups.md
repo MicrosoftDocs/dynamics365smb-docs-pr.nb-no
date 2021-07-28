@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2e3921864e84779f8bea5ccce9e50bb0600bd21e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 88825fb59fe6d109a3e58c21b38d23b7f4898a31
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437523"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
 
 ## <a name="to-set-up-recurring-groups"></a>Slik oppretter du gjentakelsesgrupper:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

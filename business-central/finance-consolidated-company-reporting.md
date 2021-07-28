@@ -1,6 +1,6 @@
 ---
-title: Konsolidere data fra flere selskaper | Microsoft-dokumentasjon
-description: Få en oversikt over den økonomiske situasjonen for alle konsernene dine.
+title: Konsolidere data fra flere selskaper
+description: Dette emnet forklarer hvordan du kan konsolidere finanspostene fra to eller flere atskilte selskaper (datterselskaper) i et konsolidert selskap.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2be133009314b714d7b86e6257f642f13720b5e8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24b9dd8d332091508a21620c3ac1d32fd7be8d55
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774332"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436251"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 
@@ -55,7 +55,7 @@ Prosessen med å overføre tall fra konsernene til det konsoliderte selskapet er
 Du kan teste dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[prod_short](includes/prod_short.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
 1. Åpne det konsoliderte selskapet.  
-2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsern**, og velg deretter den relaterte koblingen.  
 3. Gjør ett av følgende:  
 
     * For å teste en fil velger du **Test fil**, angir navnet på filen som skal testes, og velger deretter **Skriv ut**.  

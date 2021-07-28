@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718131ab06bd81a2394d82b9645a9e70be3f95a0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775328"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436454"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Endre årlig beløp på servicekontrakter eller kontrakttilbud
 Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Slik endrer du årlig beløp på servicekontrakten eller kontrakttilbudet  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg kontrakten eller kontrakttilbudet.  
 3. Velg handlingen **Åpne kontakt** for å åpne kontrakten eller kontrakttilbudet for redigering.  
 4. Merk av for **Tillat beløp som ikke er i balanse** hvis du vil endre årlig beløp og fordele differansen i årlig beløp manuelt på kontraktlinjene. Hvis ikke, fjerner du merket for å fordele differansen i årlig beløp automatisk på kontraktlinjene når du har endret årlig beløp.  

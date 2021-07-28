@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Planleggingsparametere | Microsoft-dokumentasjon
-description: Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i Business Central.
+title: Designdetaljer – Planleggingsparametere
+description: Dette emnet beskriver de ulike planleggingsparameterne du kan bruke og hvordan de påvirker planleggingssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215856"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437890"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planleggingsparametere
 Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,25 +82,25 @@ For å få en rasjonell forsyningsplan finjusterer en planlegger planleggingspar
 
 Tidsberegningen av periode for ny planlegging, avdempingsperiode og akkumuleringsperiode for parti er basert på en forsyningsdato. Tidsperioden er basert på den planlagte startdatoen, som vist i illustrasjonen nedenfor.  
 
-![Tidsperiodeelementer](media/supply_planning_5_time_bucket_elements.png "Tidsperiodeelementer")  
+![Tidsperiodeelementer.](media/supply_planning_5_time_bucket_elements.png "Tidsperiodeelementer")  
 
 I eksemplene nedenfor representerer svarte piler eksisterende forsyning (opp) og behov (ned). Røde, grønne og oransje piler er planleggingsforslag.  
 
 **Eksempel 1**: Den endrede datoen er utenfor perioden for ny planlegging, noe som fører til at eksisterende forsyning avbrytes. En ny forsyning blir foreslått for å dekke behovet i akkumuleringsperioden for partiet.  
 
-![Periode for ny planlegging og akkumuleringsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periode for ny planlegging og akkumuleringsperiode")  
+![Periode for ny planlegging og akkumuleringsperiode.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periode for ny planlegging og akkumuleringsperiode")  
 
 **Eksempel 2**: Den endrede datoen er i perioden for ny planlegging, noe som fører til at eksisterende forsyning planlegges på nytt. En ny forsyning blir foreslått for å dekke behovet utenfor akkumuleringsperioden for partiet.  
 
-![Periode for ny planlegging, akkumuleringsperiode og ny planlegging](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periode for ny planlegging, akkumuleringsperiode og ny planlegging")  
+![Periode for ny planlegging, akkumuleringsperiode og ny planlegging.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periode for ny planlegging, akkumuleringsperiode og ny planlegging")  
 
 **Eksempel 3**: Det er et behov i avdempingsperioden, og forsyningsantallet i akkumuleringsperioden for parti samsvarer med forsyningsantallet. Det neste behovet er ikke dekket, og en ny forsyning foreslås.  
 
-![Avdempingsperiode og akkumuleringsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Avdempingsperiode og akkumuleringsperiode")  
+![Avdempingsperiode og akkumuleringsperiode.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Avdempingsperiode og akkumuleringsperiode")  
 
 **Eksempel 4**: Det er et behov i avdempingsperioden, og forsyningen forblir på samme dato. Gjeldende forsyningsantall er imidlertid ikke nok til å dekke behovet i akkumuleringsperioden for partiet, slik at det foreslås en handling for antallsendring for den eksisterende forsyningsordren.  
 
-![Avdempingsperiode, akkumuleringsperiode for parti og endre antall](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Avdempingsperiode, akkumuleringsperiode for parti og endre antall")  
+![Avdempingsperiode, akkumuleringsperiode for parti og endre antall.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Avdempingsperiode, akkumuleringsperiode for parti og endre antall")  
 
 **Standardverdier:** Standardverdien for feltet **Tidsperiode** og de tre feltene for gjenbestillingsperiode er tomme. For alle felt, bortsett fra feltet **Avdempingsperiode**, betyr dette 0D (null dager). Hvis **Avdempingsperiode**-feltet er tomt, brukes den globale verdien i feltet **Standard avdempingsperiode** på siden **Produksjonsoppsett**.  
 

@@ -1,6 +1,6 @@
 ---
-title: Serviceprisstyring | Microsoft-dokumentasjon
-description: Dette emnet beskriver hvordan du kan bruke best pris på serviceordrer, definere tilpassede serviceprisavtaler for kunder, øke de ansattes effektivitet og fremskynde faktureringsprosessen.
+title: Serviceprisstyring
+description: Med serviceprisstyring kan du definere serviceprisgrupper, servicepriser, serviceprisjustering og mer.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: af69e0aeb80b3406e26200a7a2f8f04aceb10914
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1857efe5dd3accf7f8ec53a57ce9a614efbeacad
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776769"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438285"
 ---
 # <a name="service-price-management"></a>Serviceprisstyring
 Med funksjonen for serviceprisstyring kan du bruke best pris på serviceordrer, definere tilpassede serviceprisavtaler for kunder, øke de ansattes effektivitet og fremskynde faktureringsprosessen.  
@@ -52,7 +52,7 @@ Du definerer de faktiske typene serviceprissetting (prisjusteringstype og pris) 
 Du kan for eksempel definere typer med serviceprissetting for en serviceprisgruppe for radio. For kunder uten en prisgruppe kan du fastsette å bruke serviceprissetting med maksimalpris på arbeid, som er prisjusteringsgruppen for arbeid. For kunder med en bestemt prisgruppe kan du beslutte å bruke serviceprissetting med en fast pris på arbeid, den samme prisjusteringsgruppen for arbeid.  
 
 #### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience)
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicevarer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicevarer**, og velg deretter den relaterte koblingen.  
 2. Velg servicevaren, utvid hurtigfanen **Priser og salg**, og velg handlingen **Ressurs**, **Vare** eller **Finanskonto**.
 3. Fyll ut feltene etter behov på sidene **Ressurspriser for prosjekt**, **Varepriser for prosjekt** og **Finanskontopriser for prosjekt**.
 
