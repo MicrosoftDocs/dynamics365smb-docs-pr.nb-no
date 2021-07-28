@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772582"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435112"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinere mottak på én faktura
 
@@ -30,7 +30,7 @@ Når kjøpsmottak kombineres i en faktura og bokføres, opprettes det en bokfør
 
 ## <a name="to-combine-receipts"></a>Slik kombinerer du mottak
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).  
 3. På hurtigfanen **Linjer** velger du handlingen **Hent mottakslinjer**.  
 4. Velg flere mottakslinjer du vil inkludere på fakturaen.  
@@ -40,7 +40,7 @@ Når kjøpsmottak kombineres i en faktura og bokføres, opprettes det en bokfør
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Fjerne åpne bestillinger etter kombinert mottaksbokføring
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett fakturerte bestillinger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett fakturerte bestillinger**, og velg den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Velg **OK**.  
 

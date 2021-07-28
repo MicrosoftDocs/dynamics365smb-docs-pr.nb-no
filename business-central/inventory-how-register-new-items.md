@@ -1,6 +1,6 @@
 ---
-title: Opprette varekort for varer eller tjenester | Microsoft-dokumentasjon
-description: Du kan opprette varekort for tjenester du selger som timer, og for fysiske produkter, for eksempel monteringsvarer, ferdigvarer, komponenter eller råvarer, du selger fra lageret.
+title: Opprette varekort for varer eller tjenester
+description: Du kan opprette varekort for tjenester du selger som timer, og for fysiske produkter, for eksempel monteringsvarer, ferdigvarer, du selger fra lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785876"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435646"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -40,7 +40,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen 
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. På siden **Varer** velger du handlingen **Ny**.
 
     Hvis det bare finnes én varemal, åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.
@@ -77,7 +77,7 @@ Hvis du vil registrere varer som deretter brukes i produksjonsordrer, angir du e
 
 Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninger om hver enkelt leverandør av varen, for eksempel priser, leveringstid, rabatter og så videre.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Velg den aktuelle varen, og velg deretter handlingen **Rediger**.  
 3. Velg handlingen **Leverandører**.  
 4. Velg feltet **Leverandørnr.**, og velg leverandøren du vil definere for varen.  
@@ -100,6 +100,12 @@ Når du registrerer en ny vare, vil du se felt som er knyttet til lagerstyring, 
 
 Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller gå tilbake til hver eksisterende vare for å være sikker på at den har de riktige opplysningene i de ulike feltene, slik at lagerprosessene kan kjøres som forventet. Denne informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
+## <a name="planning"></a>Planlegging
+
+Når selskapet bruker forsyningsplanleggingsprosessene i [!INCLUDE [prod_short](includes/prod_short.md)], må du fylle ut de aktuelle feltene på hurtigfanen **Planlegging**. Se [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md) for å få en innføring i planleggingsområdet.  
+
+Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Planlegging**, kan du se [Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Se også
 
 [Lager](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller
 [Definere bokføringsgrupper](finance-posting-groups.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
+[Om planleggingsfunksjonalitet](production-about-planning-functionality.md)  
+[Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md)  
+[Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
+[Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
+[Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
+[Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

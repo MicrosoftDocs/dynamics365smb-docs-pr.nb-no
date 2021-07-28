@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: f3c9626fa73247b2109e5f179aef405e80b44b07
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074643"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341511"
 ---
 # <a name="teams-faq"></a>Vanlige spørsmål om Teams
 
@@ -325,7 +325,10 @@ Gjester har ikke tilgang til appmarkedsplassen for å installere appene selv. Ap
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md)  
+[Dele poster i Microsoft Teams](across-working-with-teams.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
+[Endre selskap og andre innstillinger i Teams](across-teams-settings.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

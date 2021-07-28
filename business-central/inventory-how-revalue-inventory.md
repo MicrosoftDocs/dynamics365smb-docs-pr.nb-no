@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe164e6e71756ee56990610bc6c6cb0557ad2c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785851"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435600"
 ---
 # <a name="revalue-inventory"></a>Revaluere beholdning
 Hvis du vil endre lagerverdien for en vare eller en bestemt varepost, må du bruke revalueringskladden.
 
 ## <a name="to-revalue-inventory"></a>Slik revaluerer du beholdning
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Revalueringskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Revalueringskladd** og velg den relaterte koblingen.
 2. Velg handlingen **Beregn lagerverdi**.
 3. På siden **Beregn lagerverdi** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.

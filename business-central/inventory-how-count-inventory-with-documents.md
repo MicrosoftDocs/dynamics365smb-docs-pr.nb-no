@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785951"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435675"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Telle og justere lagerbeholdning ved hjelp av dokumenter
 
@@ -40,7 +40,7 @@ En vareopptellingsordre er et fullstendig dokument som består av et ordrehode f
 
 Hvis du vil opprette vareopptellingsordrelinjer, bruker du vanligvis funksjonen **Beregn linjer** for å gjenspeile gjeldende beholdning som linjer i ordren. Du kan også bruke funksjonen **Kopier fra dokument** til å fylle ut linjene med innholdet til en annen åpen eller bokført vareopptellingsordre. Følgende fremgangsmåte viser hvordan du bruker funksjonen **Beregn linjer**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsordrer** og velg den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut de obligatoriske feltene på hurtigfanen **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **Beregn linjer**-handlingen.
@@ -100,7 +100,7 @@ Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vis
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Slik finner du duplikate vareopptellingsordrelinjer
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsordrer** og velg den relaterte koblingen.
 2. Åpne vareopptellingsordren du vil vise dupliserte linjer for.
 3. Velg **Vis dupliserte linjer**-handlingen.
 
@@ -113,7 +113,7 @@ Når du har fullført en vareopptellingsordre og endre statusen til **Fullført*
 - Hver vareopptellingsordrelinje er talt opp av minst én registeringen for vareopptelling.
 - Boksene **På registreringslinjer** og **Antall forventet (beregnet)** er merket av for alle vareopptellingsordrelinjer.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vareopptellingsordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsordrer** og velg den relaterte koblingen.
 2. Velg vareopptellingsordren som skal fullføres, og velg deretter **Rediger**-handlingen.
 
     På siden **Vareopptellingsordre** vises antallet som er registrert i feltet **Antall registrert (lagerenhet)**.
@@ -127,7 +127,7 @@ De involverte varepostene oppdateres sammen med eventuelle tilknyttede varespori
 ### <a name="to-view-posted-physical-inventory-orders"></a>Slik viser du bokførte vareopptellingsordrer
 Etter bokføring slettes vareopptellingsordren, og du kan vise og evaluere dokumentet som en bokført vareopptellingsordre, inkludert vareopptellingsregistreringer og eventuelle merknader som er opprettet.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer for bokført vareopptelling**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ordrer for bokført vareopptelling** og velg den relaterte koblingen.
 2. På siden **Ordrer for bokført vareopptelling** velger du den bokførte vareopptellingsordren som du vil vise, og velg deretter handlingen **Vis**.
 3. Hvis du vil se en oversikt over relaterte vareopptellingsregistreringer, velger du **Registreringer**-handlingen.
 
@@ -199,7 +199,7 @@ Du kan skrive ut disse dokumentene når som helst, frigi og åpne dem på nytt, 
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Definere nummerering for lagerdokumenter
 Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumenter.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.
 2. I hurtigfanen **Nummerering** angir du følgende nummerserien for dokumenter i følgende felt:
    - **Numre for lagermottak**  
    - **Numre for bokførte lagermottak**  
@@ -209,7 +209,7 @@ Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumen
 ### <a name="to-create-and-post-an-inventory-document"></a>Opprette og bokføre et lagerdokument
 Følgende fremgangsmåte viser hvordan du oppretter, skriver ut og bokfører et lagermottak. Trinnene er de samme for lagerleveringer.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak**, og velg deretter den relaterte koblingen.  
 2. I toppteksten på siden **Lagermottak** velger du lokasjonen i feltet **Lokasjonskode**, og deretter fyller du ut de gjenværende feltene etter behov.
 3. I hurtigfanen **Linjer** velger du lagervaren i feltet **Vare**. I feltet **Antall** angir du hvor mange varer som skal legges til. 
 4. Hvis du vil skrive ut en rapport kalt **Lagermottak** fra siden **Lagermottak**, velger du handlingen **Skriv ut**.

@@ -1,6 +1,6 @@
 ---
-title: Definere regler for automatisk utligning av betalinger
-description: På siden Betalingsutligningsregler definerer du regler for å styre hvordan betalinger/banktransaksjoner skal utlignes automatisk mot de relaterte åpne finanspostene, når du bruker funksjonen Utlign automatisk på siden Betalingsavstemmingskladd.
+title: Regler for automatisk utligning av betalinger
+description: Les mer om hvordan du definerer regler for den automatiske utligning av betalinger på siden Betalingsutligningsregler.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 57f9fa038c8631db87d03d9054dcf8a17a874345
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778975"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435062"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
@@ -40,7 +40,7 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 - For positive beløp blir det først avstemt mot åpne poster som representerer leverandørfakturaer og deretter mot kundekreditnotaer.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Slik definerer du en utligningsregel for betaling
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsutligningsregler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsutligningsregler** og velge den relaterte koblingen.
 2. Definer en ny eller redigert utligningsregel for betaling ved å fylle ut feltene på en linje, som beskrevet i tabellen nedenfor.
 
 |Felt|Beskrivelse|

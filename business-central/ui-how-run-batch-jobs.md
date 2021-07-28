@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: task, process
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 05b65f5b001259fff25d0f59dfc6267d9ee00c7f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782256"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435272"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Kjøre satsvise jobber og XML-porter
 Satsvise jobber er rutineoppgaver som behandler data bunkevis, for eksempel den satsvise jobben **Juster valutakurser**. Det finnes kjørsler som utfører periodiske regnskapsoppgaver, som for eksempel å avslutte resultatregnskapet på slutten av et regnskapsår. Mange kjørsler utfører beregninger, for eksempel beregning av renteinntekter/-utgifter, justering av valutakurser og utregning av salgspris.
@@ -27,7 +27,7 @@ En satsvis jobb ligner på en rapport, bortsett fra at den satsvise jobben bruke
 Du kan planlegge når en kjørsel skal kjøres. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
 ## <a name="to-run-a-batch-job"></a>Slik kjører du en satsvis jobb
-1. Hvis du vil åpne forespørselssiden for den relevante kjørselen, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir navnet på kjørselen, og velger deretter den relaterte koblingen.
+1. Hvis du vil åpne forespørselssiden for den aktuelle kjørselen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriver inn navnet på kjørselen, og deretter velger du den tilknyttede koblingen.
 2. Hvis kjørselen har hurtigfanen **Alternativer**, fyller du ut feltene for å bestemme hva kjørselen skal gjøre.
 3. Siden kan inneholde én eller flere hurtigfaner med filtre som du kan bruke til å begrense hvilke data som skal inkluderes i kjørselen. Du kan legge inn kriterier i de foreslåtte filtrene eller legge til flere filtre.
 4. Velg **OK** for å starte kjørselen.

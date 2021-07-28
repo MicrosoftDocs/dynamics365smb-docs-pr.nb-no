@@ -1,6 +1,6 @@
 ---
-title: Eksportere remitteringsoppdrag
-description: Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din.
+title: Eksporter remitteringsoppdrag [NO]
+description: Dette emnet forklarer hvordan du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 2251d1455e4c6eb25e9dd1a56abc3bf5fdf79e9a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d5d75a5c02974c042761a50f1dca3ad652634830
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784035"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435718"
 ---
-# <a name="export-remittance-payments"></a>Eksportere remitteringsoppdrag
+# <a name="export-remittance-payments-in-the-norwegian-version"></a>Eksporter remitteringsoppdrag i den norske versjonen
 Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din. Deretter kan du overføre remitteringsoppdragene til banken.  
 
 > [!IMPORTANT]  
@@ -35,7 +35,7 @@ Fremgangsmåten for å eksportere betalinger ved hjelp av **Eksporter remitterin
 
 ## <a name="to-export-remittance-payments-using-the-remittance---export-batch-jobs"></a>Slik eksporterer du remitteringsoppdrag ved hjelp av Eksporter remittering-kjørsler:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Klargjør for å eksportere betalingene fra kladden. Hvis du vil ha mer informasjon, kan du se [Eksportere betalinger til en bankfil](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 3.  Velg handlingen **Eksporter betalinger**.  
 4.  Fyll ut feltene som beskrevet i tabellen nedenfor, ved å velge hurtigfanen **Alternativer** på rapportsiden som åpnes.  

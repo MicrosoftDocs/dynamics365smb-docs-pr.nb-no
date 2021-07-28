@@ -1,6 +1,6 @@
 ---
 title: Avskrivningsmetoder for aktiva
-description: Lær om de ulike innebygde metodene for å avskrive eller nedskrive aktiva i standardversjonen av Business Central.
+description: Lær om de ulike innebygde metodene for å avskrive eller nedskrive aktiva i standardversjonen av Business Central som omfatter åtte metoder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774158"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343377"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder for aktiva
 
@@ -29,7 +29,7 @@ Det er åtte tilgjengelige avskrivningsmetoder i standardversjonen av [!INCLUDE 
 * Brukerdefinert  
 
   > [!NOTE]  
-  > Angi din egen avskrivningsmetode ved å definere avskrivningstabeller.
+  > Angi din egen avskrivningsmetode ved å definere avskrivningstabeller. Hvis du vil ha informasjon om hvordan du bruker en brukerdefinert avskrivningsmetode, kan du se [Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md).
 * Manuell  
 
   > [!NOTE]  
@@ -220,74 +220,6 @@ Beregningsmetode:
     *Lineært beløp = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
 
     Det lineære beløpet brukes fordi det er det største beløpet.  
-
-## <a name="user-defined-depreciation"></a>Brukerdefinert avskrivning
-
-Programmet gjør det mulig å definere brukerdefinerte avskrivningsmetoder.  
-
-Hvis du velger en slik metode, bruker du siden **Avskrivningstabeller** til å angi en prosentsats for avskrivning for hver enkelt periode (måned, kvartal, år og regnskapsperiode). Når du deretter tilordner et avskrivningstablå med en brukerdefinert metode til et aktivum, må du angi feltene **Første brukerdef. avskr.dato** og **Startdato for avskrivning** på siden **Aktivaavskrivningstablå** for det spesifikke aktivumet.  
-
-Formelen for beregning av avskrivningsbeløp er følgende:  
-
-*Avskrivningsbeløp = (Avskrivnings-% x Antall avskrivningsdager x Avskrivningsgrunnlag ) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Avskrivning etter antall enheter
-
-Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. På siden **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Slik definerer du brukerdefinerte avskrivningsmetoder
-
-På **Avskrivningstabell**-siden kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstabeller**, og velg deretter den relaterte koblingen.  
-2. På siden **Avskrivningstabell - oversikt** velger du handlingen **Ny**.  
-3. Fyll ut feltene etter behov på siden **Avskrivningstabellkort**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Bruk funksjonen **Opprett sum av sifre - tabell** til å definere en avskrivningstabell basert på metoden *Sum av sifre*.
-
-Hvis et aktivum avskrives over 4 år med metoden *Sum av sifre*, blir avskrivningen for hvert år beregnet på følgende måte:
-
-Sum av sifre = 1 + 2 + 3 + 4 = 10 avskrivning:
-
-* År 1 = 4/10  
-* År 2 = 3/10  
-* År 3 = 2/10  
-* År 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Eksempel – brukerdefinert avskrivning
-
-Bruk en avskrivningsmetode som gjør det mulig å foreta en hurtig avskrivning av aktiva på grunn av skattemessige årsaker.  
-
-For aktiva med en levetid på tre år bruker du av skattemessige årsaker følgende avskrivningssatser:  
-
-* År 1: 25 %  
-* År 2: 38 %  
-* År 3: 37 %  
-
-Anskaffelseskostnadene er NOK 100 000, og avskrivningslevetiden er fem år. Avskrivningen beregnes årlig.  
-
-| Dato | Aktivabokf.type | dager | Beløp | Bokført verdi |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Anskaffelseskost |(Startdato for avskrivning) |100,000.00 |100,000.00 |
-| 12/31/20 |Avskrivning |360 |-25 000,00 |75,000.00 |
-| 12/31/21 |Avskrivning |360 |-38 000,00 |37,000.00 |
-| 12/31/22 |Avskrivning |360 |-37 000,00 |0 |
-| 12/31/23 |Avskrivning |Ingen |Ingen |0 |
-| 12/31/24 |Avskrivning |Ingen |Ingen |0 |
-
-Hvis du bruker en brukerdefinert metode, må du fylle ut feltene **Første brukerdef. avskr.dato** og **Startdato for avskrivning** på siden **Aktivaavskrivningstablå** for det spesifikke aktivumet. Feltet **Første brukerdef. avskr.dato** og innholdet i feltet **Periodelengde** på siden **Avskrivningstabeller** brukes til å angi hvilke tidsintervall som skal brukes i beregning av avskrivninger. Dette sikrer at programmet begynner å bruke den angitte prosenten på samme dag for alle aktiva. Feltet **Startdato for avskrivning** brukes til å beregne antall avskrivningsdager.  
-
-I det forrige eksemplet ville både feltet **Første brukerdef. avskr.dato** og **Startdato for avskrivning** blitt satt til 01/01/20 på siden **Aktivaavskrivningstablå** for det spesifikke aktivumet. Hvis feltet **Første brukerdef. avskr.dato** imidlertid inneholdt 01/01/20 og feltet **Startdato for avskrivning** inneholdt 04/01/20, ville resultatet vært følgende:  
-
-| Dato | Aktivabokf.type | dager | Beløp | Bokført verdi |
-| --- | --- | --- | --- | --- |
-| 01/01/20 |Anskaffelseskost |(Startdato for avskrivning) |100,000.00 |100,000.00 |
-| 12/31/20 |Avskrivning |270 |-18 750,00 |81,250.00 |
-| 12/31/21 |Avskrivning |360 |-38 000,00 |42,250.00 |
-| 12/31/22 |Avskrivning |360 |-37 000,00 |6,250.00 |
-| 12/31/23 |Avskrivning |90 |-6 250,00 |0 |
-| 12/31/24 |Avskrivning |Ingen |Ingen |0 |
 
 ## <a name="half-year-convention-depreciation"></a>Halvårsavskrivning
 

@@ -1,6 +1,6 @@
 ---
-title: Oversikt over bokføring av dokumenter og kladder | Microsoft-dokumentasjon
-description: Gir en oversikt over bokføringshandlinger og måtene du kan bokføre dokumenter og kladder på.
+title: Oversikt over bokføring av dokumenter og kladder
+description: Dette emnet oppsummerer bokføringshandlinger og metoder for å bokføre dokumenter og kladder i de ulike firmapostene.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5d34178523d0020d35c4f24985871a05fed33e49
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783337"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325941"
 ---
 # <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.

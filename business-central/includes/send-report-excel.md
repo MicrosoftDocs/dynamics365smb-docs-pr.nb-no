@@ -1,0 +1,2 @@
+> [!TIP]
+> **Hva med rapporter?** Vel, du kan eksportere rapportresultatene til en Excel-fil for å vise hele datasettet, inkludert alle kolonner. Excel-filen kan hjelpe deg med å validere at rapporten returnerer de forventede dataene. Hvis du vil eksportere en rapport, kjører du rapporten og velger **Send til** > **Microsoft Excel-dokument (bare data)** på forespørselssiden. Hvis du vil ha mer informasjon, kan du se [Arbeide med rapporter – send til Excel](../ui-work-report.md#send-to-excel).

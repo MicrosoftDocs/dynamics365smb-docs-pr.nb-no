@@ -1,6 +1,6 @@
 ---
-title: Avstemme bankkontoer | Microsoft Docs
-description: Beskriver hvordan lagerverdien avstemmes med finans.
+title: Avstemme bankkontoer
+description: Dette beskriver hvordan du utfører bankavstemming med siden **Bankkontoavstemming**, hvordan lagerverdien avstemmes med finans.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786810"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435405"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -62,7 +62,7 @@ Hvis du vil aktivere importer av bankkontoutdrag som bankfeeder, må du først k
 > [!TIP]
 > Du kan også importere bankkontoutdragsfiler i komma- eller semikolondelt format (.CSV). Bruk veiviseren **Definer et filformat for bankkontoutdrag** for assistert installasjon til å definere importformater for bankkontoutdrag og knytte formatet til en bankkonto. Du kan deretter bruke disse formatene når du importerer bankkontoutdrag på siden **Bankkontoavstemming**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Bankkontoavstemming**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I feltet **Bankkontonr.** velger du den aktuelle bankkontoen. Bankkontoposter som finnes i å bankkontoen som vises i ruten **Bankkontoposter**.
 4. I feltet **Utdragsdato** angir du datoen på utdraget fra banken.

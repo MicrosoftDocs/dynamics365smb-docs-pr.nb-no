@@ -1,6 +1,6 @@
 ---
 title: Definer et lokasjonskort og definere overføringsruter
-description: Du oppretter et lokasjonskort for hvert sted der du oppbevarer lagervarer, for eksempel et lager eller distribusjonssenter, og definerer ruter for å overføre varer mellom lokasjoner.
+description: Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må du definere hver lokasjon med et lokasjonskort og definere overføringsruter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184327"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435575"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
@@ -38,7 +38,7 @@ Velg handlingen **Soner** eller **Hyller** for å vise informasjon om soner og h
 
 ### <a name="to-create-a-location-card"></a>Slik oppretter du et lokasjonskort
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gjenta trinn 2 og 3 for hver beholdninglokasjon.
@@ -52,7 +52,7 @@ Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjone
 
 ### <a name="to-create-a-transfer-route"></a>Slik oppretter du overføringsruter
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Overføringsruter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Overføringsruter**, og velg deretter den relaterte koblingen.
 2. Fra en **Lokasjonskort**-side kan du også velge handlingen **Overføringsruter**.
 3. Velg handlingen **Ny**.
 4. På siden **Lokasjonskort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]

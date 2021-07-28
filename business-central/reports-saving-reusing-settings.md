@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778925"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435766"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
 Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles forespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innst
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Opprette og endre lagrede innstillinger for alle brukere
 Du kan administrere lagrede innstillinger på siden **Rapportinnstillinger**. Det er to måter å åpne en side på:
--   Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
+-   Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
 -   Åpne en rapport, velg oppslag i feltet **Bruk standardverdi fra:**, og velg handlingen **Velge fra hele listen**.
 
 Siden viser alle eksisterende lagrede innstillinger for alle brukere. Hvis det er et brukernavn i feltet **Tilordnet**, kan bare den brukeren bruke innstillingene som er lagret for den tilknyttede rapporten. Hvis det er en hake i feltet **Del med alle brukerne**, kan alle brukere bruke innstillingene som er lagret i rapporten.

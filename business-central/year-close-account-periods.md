@@ -1,6 +1,6 @@
 ---
-title: Lukke regnskapsperioder for et regnskapsår | Microsoft-dokumentasjon
-description: Beskriver hvordan du lukker regnskapsperiodene som utgjør regnskapsåret.
+title: Lukk regnskapsperioder for et regnskapsår
+description: Denne artikkelen beskriver hvordan du lukker regnskapsperiodene som utgjør regnskapsåret for årsavslutning.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786685"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436001"
 ---
 # <a name="close-accounting-periods"></a>Lukke regnskapsperioder
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 
 ## <a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. På siden **Regnskapsperioder** velger du handling **Lukk år**.
 
     Hvis flere enn ett regnskapsår er åpne, blir det tidligste valg for lukking. Det vises en melding som sier hvilket år som lukkes, og følgene ved å lukke året forklares.

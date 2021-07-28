@@ -1,6 +1,6 @@
 ---
 title: Sertifiseringer for tjenesten
-description: Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til Business Central.
+description: Dette innholdet inneholder informasjon om sertifiseringer i forbindelse med Business Central, for eksempel områdespesifikke sertifiseringer og akkrediteringer.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 69a8012631c38e949d2aa0ccd6ba3f3d51f69b50
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788436"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373190"
 ---
 # <a name="certifications"></a>Sertifiseringer
 
@@ -28,7 +28,7 @@ I noen land eller områder må regnskapsprogramvare sertifiseres for å overhold
 > [!NOTE]
 > Bare enkelte land har dette kravet.
 
-- Frankrike (skatterevideringssertifisering) [(kobling til sertifisering på fransk)](https://certificates.infocert.org/#)<!--(https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf)-->  
+- Frankrike (avgiftsovervåkingssertifisering) [(søk etter produktnavnet på https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
 - Tyskland (dekker også Østerrike og Sveits) [(kobling til sertifisering på tysk)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
 
 > [!NOTE]  

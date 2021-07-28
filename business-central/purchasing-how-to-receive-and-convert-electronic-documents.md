@@ -1,6 +1,6 @@
 ---
-title: Motta og konvertere elektroniske dokumenter | Microsoft-dokumentasjon
-description: Du kan motta elektroniske dokumenter direkte fra handelspartnere eller fra en OCR-tjeneste.
+title: Motta og konvertere elektroniske dokumenter
+description: Dette emnet beskriver hvordan du mottar elektroniske dokumenter direkte fra handelspartnere eller fra en OCR-tjeneste.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772557"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435087"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
 Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan mo
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Slik mottar og konverterer du en elektronisk faktura til en kjøpsfaktura  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.  
 
 2.  Velg linjen for den innkommende dokumentposten som representerer en ny innkommende elektronisk faktura, og velg deretter **Rediger**-handlingen.  
 

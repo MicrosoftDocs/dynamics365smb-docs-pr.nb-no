@@ -12,12 +12,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f55bad5c26e1f1fbb336090ff862e0e931ff9c39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 86ff1e678882e4bfb7e95c253f55558c5b57defd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784743"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434837"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Utvidelsen Salgs- og lagerprognose
 Lagerstyring er en avveining mellom kundeservice og håndtering av kostnader. På den ene siden krever en lav beholdning mindre arbeidskapital, men på den annen side kan tomme lagre føre til tapt salg. Salgs- og lagerprognose-utvidelsen forutsier mulig salg ved hjelp av historiske data og gir en tydelig oversikt over forventet tomt lager. Basert på prognosen hjelper utvidelsen med å opprette etterfyllingsforespørsler til leverandørene og sparer deg for tid.  
@@ -56,7 +56,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for salgs- og varelagerprognose**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Oppsett for salgs- og varelagerprognose**, og velg deretter den relaterte koblingen.  
 7. Utvid hurtigfanen **Generelt**, og fyll deretter ut feltene URL-adresse for API og API-nøkkel.  
 
 

@@ -1,6 +1,6 @@
 ---
-title: Opprette remitteringskontoer
-description: Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
+title: Opprett remitteringskontoer [NO]
+description: Følgende emne forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 2713d83af5703e1fac35ece2ffacfab5eea88dc5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 854063888fd5fd1275030b37b9d8aadc8533b3a2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784037"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435724"
 ---
-# <a name="create-remittance-accounts"></a>Opprette remitteringskontoer
+# <a name="create-remittance-accounts-in-the-norwegian-version"></a>Opprett remitteringskonti i den norske versjonen
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  
@@ -27,7 +27,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 ## <a name="to-create-a-remittance-account"></a>Slik oppretter du en remitteringskonto  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Remitteringskontokort**.  
 

@@ -1,6 +1,6 @@
 ---
 title: Konfigurere arbeidsflyter
-description: Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Finn ut mer om de ulike trinnene du må utføre.
+description: Definer arbeidsflyter, arbeidsflytbrukere og godkjenningsbrukere for å koble sammen systemoppgaver for forretningsprosesser som utføres av disse forskjellige brukerne.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cb1d6d1ed4332a9d9217495e7792ead0ccd12229
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7defebe91fb19148eb860f1d2c45a9f778a9d5aa
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787035"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325042"
 ---
 # <a name="set-up-workflows"></a>Konfigurere arbeidsflyter
 

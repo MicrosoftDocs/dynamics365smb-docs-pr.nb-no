@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 564b9574188acd63acaa660f4a440be791846ef7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216208"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435039"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og avinstallere utvidelser i Business Central
 
@@ -32,7 +32,7 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere ut
 
 ## <a name="installing-an-extension"></a>Installere en utvidelse
 
-Du administrerer utvidelser på siden **Administrasjon av utvidelse**. Du kan gå til denne siden fra Hjem. Du kan også velge ikonet **Søk etter en side eller rapport** ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") øverst til høyre, angi **Utvidelse**, og deretter velge den relaterte koblingen.  
+Du administrerer utvidelser på siden **Administrasjon av utvidelse**. Du kan gå til denne siden fra Hjem. Du kan ogs å velge ikonet **Søk etter side eller rapport** ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi i øvre høyre hjørne **Utvidelse**, og deretter velger du den relaterte koblingen.  
 
 Du kan få nye utvidelser fra markedsplassen på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Her kan du se alle tilgjengelige utvidelser for [!INCLUDE[prod_short](includes/prod_short.md)], og du kan få apper, utvidelser og innholdspakker for andre Microsoft-produkter. Definer de aktuelle filtrene, ta en titt på informasjonen for hver utvidelse, og få en utvidelse for [!INCLUDE[prod_short](includes/prod_short.md)].  
 

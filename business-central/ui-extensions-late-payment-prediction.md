@@ -1,6 +1,6 @@
 ---
-title: Forutsi forsinket betaling for salgsdokumenter | Microsoft-dokumentasjon
-description: Bruk prognosemodellen vår til å forutse om en faktura blir betalt i tide.
+title: Forutsi forsinket betaling for salgsdokumenter
+description: Dette emnet forklarer hvordan du bruker prognosemodellen vår til å forutse om en faktura blir betalt i tide.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787355"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434911"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
@@ -26,7 +26,7 @@ Når du åpner et bokført salgsdokument, vises en melding øverst på siden. Hv
 
 Hvis du vil aktivere utvidelsen manuelt, følger du denne fremgangsmåten:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av prognose for forsinket betaling**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 > [!Note]
@@ -91,7 +91,7 @@ Hvis det viser seg at prosessene ikke samsvarer med standardmodellen, kan du lik
 [!INCLUDE[prod_short](includes/prod_short.md)] kjører opplæring og evaluering automatisk når det er nok betalte og forfalte fakturaer. Du kan imidlertid kjøre modellen manuelt når du vil.
 
 #### <a name="to-train-and-use-your-model"></a>Slik lærer du opp og bruker modellen
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av prognose for forsinket betaling**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
 2. I vinduet **Valgt modell** velger du **Min modell**.
 3. Velg handlingen **Opprett min modell** for å lære opp dataene dine.  
 
@@ -103,7 +103,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett av prognose for forsinket betaling**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
 7. Merk av for **Bruk Azure-abonnementet mitt**.
 8. På hurtigfanen **Legitimasjon for min modell** angir API URL-adressen og API-nøkkelen for modellen.  .  
 

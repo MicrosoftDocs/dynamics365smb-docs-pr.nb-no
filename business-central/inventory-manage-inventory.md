@@ -1,6 +1,6 @@
 ---
-title: Håndtere lager | Microsoft-dokumentasjon
-description: Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret.
+title: Håndtere lager
+description: Dette emnet beskriver hvordan du administrerer de fysiske produktene du handler med, ved å opprette et lagervarekort.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,16 +9,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f72ef570151babaa9bf32150c214e82374ddd0ec
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780760"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325321"
 ---
-# <a name="inventory"></a>Lager
+# <a name="how-to-manage-inventory"></a>Administrer lager
 Du må opprette et varekort av typen **Lager** for hvert fysiske produkt du handler i. Varer du tilbyr til kunder, men ikke har på lager, kan du registrere som katalogvarer, som du kan konvertere til lagervarer når det er nødvendig. Du kan øke eller redusere antall varer på lager ved å bokføre direkte til varepostene, for eksempel etter en fysisk opptelling eller hvis du ikke registrerer kjøp.
 
 Lagerøkning og -reduksjon registreres også når du bokfører henholdsvis salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md), [Selge produkter](sales-how-sell-products.md) og [Fakturere salg](sales-how-invoice-sales.md). Overføringer mellom lokasjoner endrer lagerantallene på tvers av selskapets lagere.   

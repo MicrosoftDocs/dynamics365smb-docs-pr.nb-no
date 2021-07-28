@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947492"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373241"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Feilsøke og korrigere dimensjoner
 Finansrapportering og analysevisninger er ofte avhengige av data fra dimensjoner. Til tross for de tilgjengelige beskyttelsestiltakene oppstår det av og til en feil som kan føre til unøyaktighet. Dette emnet beskriver noen av de vanligste feilene og forklarer hvordan du korrigerer dimensjonstilordninger på bokførte transaksjoner, slik at finansrapporter blir nøyaktige.
@@ -108,4 +108,18 @@ Hvis en korrigering ikke blir fullført, vises det en advarsel på korrigeringsk
 > Tilbakestilling av en ufullstendig korrigering påvirker ikke oppdateringer for analysevisninger, ettersom de skjer på slutten av korrigeringsprosessen.
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Bruke kostnadsregnskap med korrigerte finansposter
-Når du har korrigert dimensjoner, vil dataene for kostnadsregnskap være usynkronisert. Kostnadsregnskap bruker dimensjoner til å aggregere beløp for kostsentre og kostobjekter, og til å kjøre kostnadsfordelinger. Når du endrer dimensjoner for finansposter, betyr det sannsynligvis at du må kjøre kostnadsregnskapsmodellene på nytt. Enten du bare trenger å slette noen få kostposter og kjøre tildelinger på nytt, eller hvis du skal slette alt og kjøre alle modellene på nytt, er avhengig av hvilke data som er oppdatert og hvordan dine kostnadsregnskapsfunksjoner er definert. Identifisere hvor dimensjonskorrigeringer vil påvirke kostnadsregnskap og hvor nødvendige oppdateringer er manuelle prosesser. [!INCLUDE[prod_short](includes/prod_short.md)] har for øyeblikket ikke noen automatisert måte å gjøre dette på.
+Når du har korrigert dimensjoner, vil dataene for kostnadsregnskap være usynkronisert. Kostnadsregnskap bruker dimensjoner til å aggregere beløp for kostsentre og kostobjekter, og til å kjøre kostnadsfordelinger. Når du endrer dimensjoner for finansposter, betyr det sannsynligvis at du må kjøre kostnadsregnskapsmodellene på nytt. Enten du bare trenger å slette noen få kostposter og kjøre tildelinger på nytt, eller hvis du skal slette alt og kjøre alle modellene på nytt, er avhengig av hvilke data som er oppdatert og hvordan dine kostnadsregnskapsfunksjoner er definert. Identifisering av hvor dimensjonskorrigeringer vil påvirke kostnadsregnskap og hvor nødvendige oppdateringer er manuelle prosesser. [!INCLUDE[prod_short](includes/prod_short.md)] har for øyeblikket ikke noen automatisert måte å gjøre dette på.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Korrigere antall tilordninger for globale dimensjoner
+I tabellen Dimensjonssettpost blir globale dimensjoner tilordnet **0** i feltet Snarveisdimensjon nummer. og snarveisdimensjoner tilordnes snarveisdimensjonsnummeret, som kan være 1 til 8. Noen rapporter bruker disse nummertilordningene til å bestemme verdiene som skal brukes i beregninger.
+
+Når dimensjonsverdier ble importert ved hjelp av konfigurasjonspakker som ble opprettet uten å kjøre valideringsutløsere, eller ved hjelp av egendefinert kode for å kalle opp metodene Sett inn eller Endre uten å kjøre OnInsert- eller OnModify-valideringsutløsere, ble snarveisdimensjonene noen ganger tilordnet et tall som ikke er 0. Når dette skjer, vil beregningene bli feilaktige for dimensjoner i gjentakende finanskladder som bruker gjentakelsesmetodene BD-saldo per konto eller BD-Saldo per dimensjon. 
+
+Hvis feil nummer er tilordnet, vil **Feilmeldinger**-siden vises når du prøver å bokføre eller forhåndsvise kladder på siden **Gjentakende finanskladder**. Fra Feilmeldinger-siden kan du velge koblingen i feltet **Kilde** for å kjøre en rapport som korrigerer snarveisdimensjonsnummertilordninger i tabellen Dimensjonssettpost. Du kan også søke etter **Oppdater snarveisdimensjonsnr. for dimensjonssettposter** til å kjøre rapporten.
+
+Etter at du har kjørt rapporten, kan du gå gjennom endringene som er gjort i nummeret i feltet Global dimensjonsnr. på siden **Endringsloggposter**. -feltet. [!INCLUDE[prod_short](includes/prod_short.md)] registrerer alltid tidligere og nye verdier. 
+
+## <a name="see-also"></a>Se også
+[Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)
+[Arbeid med dimensjoner](finance-dimensions.md)
+[Analyser data per dimensjoner](bi-how-analyze-data-dimension.md)

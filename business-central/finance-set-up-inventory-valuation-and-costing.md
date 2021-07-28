@@ -1,18 +1,18 @@
 ---
-title: Definere lagerverdisetting og kostberegning | Microsoft-dokumentasjon
-description: Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+title: Definere lagerverdisetting og kostberegning
+description: For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2194a29247b6ec3c2ee87dfbfe6631f433d0514e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783725"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327141"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
 

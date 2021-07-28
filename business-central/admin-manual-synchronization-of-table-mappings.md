@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781174"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435525"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisere tabelltilordninger manuelt
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -43,7 +43,7 @@ Om og hvor det opprettes en rad, avhenger av synkroniseringsretningen. Når du f
 >  Du bruker vanligvis bare fullstendig synkronisering første gang du definerer integrasjon mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] og bare én av løsningene inneholder data, som du vil kopiere til den andre løsningen. En fullstendig synkronisering kan være nyttige i et demonstrasjonsmiljø. Siden fullstendig synkronisering automatisk oppretter og kobler poster mellom løsninger, er det raskere å begynne å arbeide med synkronisering av data mellom poster. Derimot må du bare utføre en full synkronisering hvis du vil ha en rad i [!INCLUDE[prod_short](includes/prod_short.md)] for hver rad i [!INCLUDE[prod_short](includes/cds_long_md.md)] for de gitte tabelltilordningene. Hvis ikke kan det oppstå uønskede eller dupliserte poster i [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>Kjøre en full synkronisering  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Dataverse**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Dataverse-tilkoblingsoppsett** og velger den relaterte koblingen.
 
     > [!NOTE]
     > Hvis du vil kjøre en fullstendig synkronisering for tabeller via Dynamics 365 Sales, bruker du i stedet siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**.
@@ -72,14 +72,14 @@ Du kan se resultatet av synkroniseringen på siden **Synkroniseringsjobber for i
 >  Når du endrer integreringstabelltilordningen på forhånd, kan du opprette filtre til å styre dataene som skal sunkroniseres, eller konfigurere tilordninger for å opprette nye data i målløsningen for ukoblede poster eller rader i kilden. Hvis du vil ha mer informasjon, se [Endre tabelltilordningene for synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Synkronisere data for alle tabeller  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Microsoft Dynamics 365 Sales-tilkoblingsoppsett** og velger den relaterte koblingen.
 2.  Velg **Synkroniser endrede poster**-handlingen, og velg deretter **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synkronisere individuelle tabelltilordninger
 Du kan bruke siden **Tilordninger for integreringstabell** til å kjøre en synkroniseringsjobb for tabelltilordninger. Dette synkroniserer data for alle koblede poster og rader i [!INCLUDE[prod_short](includes/prod_short.md)]- og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellene som er definert av tabelltilordningen. Som standard synkroniseres bare data som har blitt endret siden forrige synkronisert.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Synkronisere poster i en integrasjonstabelltilordning  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
 2.  Velg **Synkroniser endrede poster**-handlingen, og velg deretter **Ja**.  
 
 ## <a name="see-also"></a>Se også  

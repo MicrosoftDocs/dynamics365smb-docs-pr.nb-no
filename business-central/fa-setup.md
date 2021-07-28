@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770419"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343552"
 ---
 # <a name="setting-up-fixed-assets"></a>Definere aktiva
 Før du kan arbeide med aktiva, må du definere et par ting:  
@@ -40,6 +40,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Aktivere forsikring av aktiva, definere generelle forsikringsopplysninger, et forsikringskort per polise, og forberede kladder for bokføring av forsikringskostnader. |[Definere aktivaforsikring](fa-how-setup-insurance.md) |
 | Aktivere vedlikehold av aktiva, definere generell vedlikeholdsinformasjon, definere kontoer for postering av vedlikehold, og definere typer av vedlikeholdsarbeid. |[Definere aktivavedlikehold](fa-how-setup-maintenance.md) |
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
+| Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Se også
 [Aktiva](fa-manage.md)  

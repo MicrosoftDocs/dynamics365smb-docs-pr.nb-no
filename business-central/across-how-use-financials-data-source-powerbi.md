@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a80b6515b8397a275285ae15086a11bad9c35921
-ms.sourcegitcommit: 103d1433454dbedf8a72a292853eac3501872f24
+ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
+ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961505"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6341336"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -27,28 +27,28 @@ Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å 
 
 - Registrer deg for Power BI-tjenesten.
 
-    Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
+  Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
 
 - Last ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-   Power BI Desktop er et gratis program du kan installere på den lokale datamaskinen. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
+  Power BI Desktop er et gratis program du kan installere på den lokale datamaskinen. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Kontroller at dataene du vil ha med i rapporten, er publisert som en webtjeneste.
-    
-    Mange webtjenester er publisert som standard. Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På **Webtjenester**-siden kontrollerer du at **Publiser**-feltet er valgt. Denne oppgaven er vanligvis en administrativ oppgave.
-    
-    Hvis du vil ha mer informasjon om publisering av webtjenester, kan du se [Publisere en webtjeneste](across-how-publish-web-service.md).
+- Kontroller at dataene du vil ha med i rapporten er tilgjengelig som en API-side eller er publisert som en nettjeneste.
+
+  Hvis du vil ha mer informasjon, kan du se [Eksponere data via API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata).
 
 - Hent følgende informasjon for [!INCLUDE[prod_short](includes/prod_short.md)] lokalt:
 
-    - OData URL-adressen for [!INCLUDE[prod_short](includes/prod_short.md)]. Denne URL-adressen har vanligvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for eksempel `https://localhost:7048/BC160/ODataV4`. Hvis du har en distribusjon med flere leietakere, tar du med leietakeren i URL-adressen, for eksempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
-    - Et brukernavn og en tilgangsnøkkel for webtjeneste for en [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
+  - OData URL-adressen for [!INCLUDE[prod_short](includes/prod_short.md)].
+  
+    Denne URL-adressen har vanligvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for eksempel `https://localhost:7048/BC160/ODataV4`. Hvis du har en distribusjon med flere leietakere, tar du med leietakeren i URL-adressen, for eksempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+  - Et brukernavn og en tilgangsnøkkel for webtjeneste for en [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
 
-      Power BI bruker enkel godkjenning til å hente data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Så du trenger et brukernavn og en tilgangsnøkkel for webtjeneste for å koble til. Kontoen kan være din egen brukerkonto, eller organisasjonen kan ha en bestemt konto for dette formålet.
+    Power BI bruker enkel godkjenning til å hente data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Så du trenger et brukernavn og en tilgangsnøkkel for webtjeneste for å koble til. Kontoen kan være din egen brukerkonto, eller organisasjonen kan ha en bestemt konto for dette formålet.
 
 - Last ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfritt).
 
-    Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikkelen.
+  Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikkelen.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
@@ -58,26 +58,46 @@ Den første oppgaven i opprettelse av rapporter, er å legge til [!INCLUDE[prod_
 2. Velg **Hent data**.
 
     Hvis du ikke ser **Hent data**, velger du **Fil**-menyen og deretter **Hent data**.
-2. På **Hent data**-siden velger du **Online Services**.
-3. I **Online Services**-ruten gjør du ett av følgende:
+3. På **Hent data**-siden velger du **Online Services**.
+4. I **Online Services**-ruten gjør du ett av følgende:
 
-    1. Hvis du kobler til [!INCLUDE [prod_short](includes/prod_short.md)] Online, velger du **Dynamics 365 Business Central** og deretter **Koble til**.
-    2. Hvis du kobler til [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, velger du **Dynamics 365 Business Central** (lokalt) og deretter **Koble til**.
+    - Hvis du vil koble til [!INCLUDE [prod_short](includes/prod_short.md)] online, velger du **Dynamics 365 Business Central** og deretter **Koble til**.
+    - Hvis du vil koble til [!INCLUDE [prod_short](includes/prod_short.md)] lokal, velger du **Dynamics 365 Business Central (lokal)** og deretter **Koble til**.
 
-4. Power BI viser en veiviser som veileder deg gjennom tilkoblingsprosessen, inkludert pålogging til [!INCLUDE [prod_short](includes/prod_short.md)].
+5. Logg på [!INCLUDE [prod_short](includes/prod_short.md)] (bare én gang).
 
-    For Online velger du **Logg på** og deretter den relevante kontoen. Bruk den samme kontoen du bruker til å logge på [!INCLUDE [prod_short](includes/prod_short.md)].
-    
-    For den lokale versjonen angir du OData URL-adressen for [!INCLUDE[prod_short](includes/prod_short.md)] og eventuelt selskapsnavnet. Når du blir bedt om det, skriver du inn brukernavnet og passordet for kontoen du vil bruke til å koble til [!INCLUDE[prod_short](includes/prod_short.md)]. I **Passord**-boksen angir du tilgangsnøkkelen for webtjeneste.
+    Hvis du ikke er logget på [!INCLUDE [prod_short](includes/prod_short.md)] fra Power BI Desktop før, blir du bedt om å logge på.
+
+    - For [!INCLUDE [prod_short](includes/prod_short.md)] Online velger du **Logg på** og deretter den relevante kontoen. Bruk den samme kontoen du bruker til å logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Velg **Koble til** når du er ferdig.
+
+    - For [!INCLUDE [prod_short](includes/prod_short.md)] lokal skriver du først inn URL-adressen OData for [!INCLUDE[prod_short](includes/prod_short.md)] og deretter velger du **OK**. Når du blir bedt om det, skriver du inn brukernavnet og passordet for kontoen du vil bruke til å koble til [!INCLUDE[prod_short](includes/prod_short.md)]. I **Passord**-boksen angir du tilgangsnøkkelen for webtjeneste. Velg **Koble til** når du er ferdig.
 
     > [!NOTE]  
-    > Når du er koblet til [!INCLUDE[prod_short](includes/prod_short.md)], blir du ikke bedt på nytt om å logge på.
-    
-5. Velg **Koble til** for å fortsette.
+    > Når du er koblet til [!INCLUDE[prod_short](includes/prod_short.md)], blir du ikke bedt på nytt om å logge på. [Hvordan endrer eller tømmer jeg kontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-    Veiviseren for Power BI viser en liste over Microsoft [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, -selskaper og -datakilder. Disse datakildene representerer alle webtjenestene du har publisert fra [!INCLUDE [prod_short](includes/prod_short.md)].
-6. Angi hvilke data du vil legge til datamodellen, og velg deretter **Last inn**-knappen.
-7. Gjenta de forrige trinnene for å legge til flere [!INCLUDE [prod_short](includes/prod_short.md)]-data eller andre data i Power BI-datamodellen.
+6. Når du er tilkoblet, kontakter Power BI Business Central-tjenesten. **Navigatør**-vinduene vises og viser tilgjengelige datakilder for bygging av rapporter. Velg en mappe for å utvide den, og se de tilgjengelige datakildene. 
+
+   Disse datakildene representerer alle nettjenestene og API-sidene som er publisert for [!INCLUDE [prod_short](includes/prod_short.md)]. Datakildene er gruppert etter Business Central-miljøer og -selskaper. Med Business Central online har **navigatøren** følgende struktur:
+
+    - **Miljønavn**
+      - **Selskapsnavn**
+        - **Avanserte API-er**
+
+          Denne mappen viser avanserte API-sider som er publisert av Microsoft, som [Automatiserings-API-er for Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [tilpassede API-sider for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Egendefinerte API-sider grupperes ytterligere i mapper etter [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-egenskaper for kildekoden for API-siden.
+
+        - **Standard API-er v 2.0**
+
+          Denne mappen inneholder en oversikt over API-sidene som vises av [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
+
+        - **Nettjenester \(eldre)**
+
+          Denne mappen inneholder en oversikt over sider, codeunit og spørringer som er publisert som nettjenester i Business Central.
+
+    > [!NOTE]
+    > Strukturen for Business Central lokal er forskjellig, fordi den ikke støtter API-sider.
+
+7. Velg datakilden eller -kildene du vil legge til datamodellen, og velg deretter **Last inn**-knappen.
+8. Hvis du senere vil legge til flere Business Central-data, kan du gjenta trinnene ovenfor.
 
 Når dataene er lastet inn, kan du se dem i høyre navigering på siden. Nå har du koblet til [!INCLUDE[prod_short](includes/prod_short.md)]-dataene, og du kan begynne å bygge Power BI-rapporten.  
 

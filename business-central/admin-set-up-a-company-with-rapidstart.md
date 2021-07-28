@@ -1,6 +1,6 @@
 ---
-title: Konfigurere et selskap med RapidStart Services | Microsoft-dokumentasjon
-description: Du kan opprette et nytt selskap i Business Central med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver.
+title: Konfigurer et selskap med RapidStart Services
+description: Du kan sette opp et nytt selskap i Business Central med RapidStart Services for å øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1f471bcebf634eeac92e10a816e65460f03a1de5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777269"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325422"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurere et selskap med RapidStart Services
 Du kan opprette et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver.  

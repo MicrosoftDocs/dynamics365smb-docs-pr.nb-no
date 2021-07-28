@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c491f9b59b84b9c702497b51ef56df34eb1eb16b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b7bbd218e71f489ea32773bd63feef4d8cf34d85
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774241"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435716"
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
 Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følgende forberedelser:  
@@ -25,7 +25,7 @@ Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følge
 
 ## <a name="to-import-ocr-payments"></a>Slik leser du inn OCR-betalinger  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg en kladd i feltet **Bunkenavn**.  
 
     > [!NOTE]  
@@ -42,7 +42,7 @@ Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følge
 
 ## <a name="to-post-ocr-payments"></a>Slik bokfører du OCR-betalinger  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Bokfør**.  
 
 OCR-betalingsfilene bokføres i innbetalingskladden.  

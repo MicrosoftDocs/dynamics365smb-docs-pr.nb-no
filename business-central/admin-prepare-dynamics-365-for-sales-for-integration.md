@@ -1,6 +1,6 @@
 ---
-title: Integrere med Dynamics 365 Sales | Microsoft Docs
-description: Lær hvordan du klargjør Dynamics 365 Business Central for integrering med Dynamics 365 Sales.
+title: Integrere med Dynamics 365 Sales.
+description: Lær hvordan du gjør Dynamics 365 Business Central klar til å integrere med Dynamics 365 Sales for å se hva som skjer på serverdelen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6683d8b3a01693d23366f95292eb92f0aabcd268
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 437287401003cc008e3a998e7d28fb7862415abc
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184502"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325471"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -67,7 +67,6 @@ Skriv inn følgende informasjon for tilkoblingen fra [!INCLUDE[crm_md](includes/
 
 | Felt | Beskrivelse |
 |--|--|
-| **URL-adresse for Dynamics 365 Sales** | URL-adressen for [!INCLUDE[crm_md](includes/crm_md.md)]-forekomsten din. Dette gjør det mulig for brukere å åpne tilhørende poster i [!INCLUDE[prod_short](includes/prod_short.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel en konto eller et produkt. [!INCLUDE[prod_short](includes/prod_short.md)]-poster åpnes i [!INCLUDE[prod_short](includes/prod_short.md)]. |
 |**URL-adresse for Dynamics 365 Sales**|URL-adressen for [!INCLUDE[crm_md](includes/crm_md.md)]-forekomsten din. Dette gjør det mulig for brukere å åpne tilhørende poster i [!INCLUDE[prod_short](includes/prod_short.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel en konto eller et produkt. [!INCLUDE[prod_short](includes/prod_short.md)]-poster åpnes i [!INCLUDE[prod_short](includes/prod_short.md)].|
 |**Webtjenesten Varetilgjengelighet er aktivert**|Aktiver brukere som har [!INCLUDE[crm_md](includes/crm_md.md)], til å vise tilgjengeligheten av varer (produkter) på lageret i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du aktiverer dette, må du også angi et brukernavn og en tilgangsnøkkel for [!INCLUDE[crm_md](includes/crm_md.md)] for å spørre OData-webtjeneste etter tilgjengelighet for varer (produkter). Hvis du vil ha mer informasjon, kan du se [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
 |**URL-adresse for webtjenesten OData for Dynamics 365 Business Central**|Hvis du aktiverer webtjenesten Varetilgjengelighet, angis URL-adressen for webtjenesten OData for deg. Sett dette feltet til URL-adressen til [!INCLUDE[prod_short](includes/prod_short.md)]-forekomsten du vil bruke.<br /><br /> For å tilbakestille feltet til standard nettadresse for [!INCLUDE[prod_short](includes/prod_short.md)] velger du **Tilbakestill URL-adresse for webklient**.<br /><br /> Dette feltet er aktuelt hvis [!INCLUDE[prod_short](includes/prod_short.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)].|
@@ -149,8 +148,11 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber for Sales.
 |BOKFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[prod_short](includes/prod_short.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|30|1440<br> (24 timer)|
 |Kundestatistikk – Dynamics 365 Sales-synkroniseringsjobb|Oppdaterer [!INCLUDE[crm_md](includes/crm_md.md)]-konti med de nyeste [!INCLUDE[prod_short](includes/prod_short.md)]-kundedataene. I [!INCLUDE[crm_md](includes/crm_md.md)] vises denne informasjonen i **Business Central-kontostatistikk**-hurtigvisningsskjemaet for kontoer som er koblet til [!INCLUDE[prod_short](includes/prod_short.md)]-kunder.<br /><br /> Disse dataene kan også oppdateres manuelt fra hver enkelt kundepost. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Merk:**  Denne jobbkøen er relevant bare hvis [!INCLUDE[prod_short](includes/prod_short.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)]. |Ikke i bruk|Ikke i bruk|30|Ikke i bruk| 
 
-## <a name="connecting-business-central-on-premises-versions-earlier-than-version-16"></a>Koble til en lokal versjon av Business Central som er eldre enn versjon 16
-Microsoft Power Platform-teamet har [annonsert](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) at det avskriver godkjenningstypen Office365. Hvis du bruker en lokal versjon av [!INCLUDE[prod_short](includes/prod_short.md)] som er eldre enn versjon 16, må du bruke OAuth-godkjenningstypen til å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nett. Trinnene i denne delen beskriver hvordan du oppretter tilkoblingen.
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tilkobling til lokale versjoner av Business Central 2019 lanseringsbølge 1 og Microsoft Dynamics NAV 2018
+Microsoft Power Platform-teamet har [annonsert](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) at det avskriver godkjenningstypen Office365. Hvis du bruker en lokal versjon av [!INCLUDE[prod_short](includes/prod_short.md)] som er eldre enn Business Central 2019 lanseringsbølgeversjon 1, må du bruke OAuth-godkjenningstypen til å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nett. Trinnene i denne delen beskriver hvordan du kobler til følgende produktversjoner:
+
+* Business Central 2019 lanseringsbølge 1
+* Microsoft Dynamics NAV 2018
 
 ### <a name="prerequisites"></a>Forutsetninger
 
@@ -164,9 +166,13 @@ Microsoft Power Platform-teamet har [annonsert](/power-platform/important-change
 
    - OAuth
 
-### <a name="to-connect-a-version-of-business-central-earlier-than-version-16"></a>Slik kobler du til en versjon av Business Central som er eldre enn versjon 16
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Slik kobler du til Business Central 2019 lanseringsbølge 1 og Dynamics NAV 2018
 
-1. Importer Microsoft Dynamics 365 Business Central-integreringsløsningen til [!INCLUDE[crm_md](includes/crm_md.md)]-miljøet. Integreringsløsningen er tilgjengelig i CrmCustomization-mappen på installasjons-DVD-en for Business Central. Det finnes flere versjoner av løsningen, for eksempel DynamicsNAVIntegrationSolution_v8 eller DynamicsNAVIntegrationSolution_v9 eller DynamicsNAVIntegrationSolution_v91. Løsningen du skal importere, avhenger av hvilken versjon av [!INCLUDE[crm_md](includes/crm_md.md)] du kobler til. [!INCLUDE[crm_md](includes/crm_md.md)] Online krever DynamicsNAVIntegrationSolution_v91-integreringsløsningen.
+1. Importer Microsoft Dynamics 365 Business Central-integreringsløsningen til [!INCLUDE[crm_md](includes/crm_md.md)]-miljøet. Integreringsløsningen er tilgjengelig i CrmCustomization-mappen på installasjons-DVD-en for [!INCLUDE[prod_short](includes/prod_short.md)] eller Dynamics NAV 2018. Importer et av følgende, avhengig av produktversjonen:
+
+   * For [!INCLUDE[prod_short](includes/prod_short.md)] inneholder mappen løsningene DynamicsNAVIntegrationSolution_v9 og DynamicsNAVIntegrationSolution_v91. . Løsningen du skal importere, avhenger av hvilken versjon av [!INCLUDE[crm_md](includes/crm_md.md)] du kobler til. [!INCLUDE[crm_md](includes/crm_md.md)] Online krever DynamicsNAVIntegrationSolution_v91-integreringsløsningen.
+   * For Dynamics NAV 2018 installerer du løsningen DynamicsNAVIntegrationSolution.
+
 2. Opprett en ikke-interaktiv integreringsbruker i [!INCLUDE[crm_md](includes/crm_md.md)], og tilordne brukeren følgende sikkerhetsroller. Hvis du vil ha mer informasjon, kan du se [Opprette en ikke-interaktiv brukerkonto](/power-platform/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
 
    * Integrasjonsadministrator for Dynamics 365 Business Central
@@ -175,17 +181,29 @@ Microsoft Power Platform-teamet har [annonsert](/power-platform/important-change
    > [!Important]
    > Denne brukeren må ikke ha sikkerhetsrollen Systemansvarlig. Du kan heller ikke bruke systemansvarligkontoen som integreringsbrukeren.
 
-3.  Opprett en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal. Du finner fremgangsmåten under [Registrer en app i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Innstillingene som gjelder spesielt for tilkobling til [!INCLUDE[crm_md](includes/crm_md.md)], er de delegerte tillatelsene. Tabellen nedenfor viser og beskriver tillatelsene.
+3.  Opprett en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal. Hvis du vil ha mer informasjon, kan du se [Registrer et program i Azure Active Directory](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+  
+   > [!NOTE]
+   > Vi anbefaler at du registrerer appen i samme leietaker som Dataverse-miljøet ditt, slik at du ikke trenger samtykke til å la appen få tilgang til miljøet. Hvis du registrerer appen i et annet miljø, må du logge inn med Azure AD-administratorkontoen for Dataverse-miljøet og gi samtykke.
+   >
+   > I tillegg kan ikke appen du registrerer, ha en hemmelighet. Tilkobling av en app med en hemmelighet i Dataverse er bare tilgjengelig i Business Central 2020 lanseringsbølge 1 og senere.
+  
+4. Gjør et av følgende, avhengig av produktversjonen:
 
-   |API / navn på tillatelse |Type  |Beskrivelse  |
-   |---------|---------|---------|
-   |Financials.ReadWrite.All     |Delegert|Kreves for [!INCLUDE[prod_short](includes/prod_short.md)].    |
-   |user_impersonation     |Delegert|Kreves for [!INCLUDE[crm_md](includes/crm_md.md)].|
-   
-4. I [!INCLUDE[prod_short](includes/prod_short.md)] søker du etter **Tilkoblingsoppsett for Microsoft Dynamics 365**, og velg deretter relatert kobling. 
-5. På siden **Tilkoblingsoppsett for Microsoft Dynamics 365** i feltet **Godkjenningstype** velger du alternativet for OAuth. 
+    * I [!INCLUDE[prod_short](includes/prod_short.md)] søker du etter **Tilkoblingsoppsett for Microsoft Dynamics 365**, og velg deretter relatert kobling. 
+    * I Dynamics NAV 2018 søker du etter **Tilkoblingsoppsett for Microsoft Dynamics 365 for Sales** og velger deretter relatert kobling.
+
+5. I **Godkjenningstype**-feltet velger du alternativet for OAuth. 
 6. Velg CRM SDK-versjonen som samsvarer med løsningsversjonen du importerte i trinn 1.
-7. I feltet **Serveradresse** skriver du inn URL-adressen i [!INCLUDE[crm_md](includes/crm_md.md)]-miljøet, og deretter skriver du inn brukernavnet og passordet for integreringsbrukeren.
+
+   > [!NOTE]
+   > Dette trinnet er bare relevant for [!INCLUDE[prod_short](includes/prod_short.md)].
+
+7. Angi URL-adressen til [!INCLUDE[crm_md](includes/crm_md.md)]-miljøet, og deretter skriver du inn brukernavnet og passordet for integreringsbrukeren. 
+
+   * I [!INCLUDE[prod_short](includes/prod_short.md)] bruker du **Serveradresse**-feltet.
+   * I Dynamics NAV 2018 bruker du **URL-adresse for Dynamics 365 Sales**-feltet.
+
 8. I feltet **Tilkoblingsstreng** angir du ID-en til appregistreringen. Dette feltet har to tokener der ID-en til appen skal angis.
 
    |Token           |Beskrivelse  |

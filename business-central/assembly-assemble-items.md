@@ -1,6 +1,6 @@
 ---
-title: Monteringsstyring | Microsoft-dokumentasjon
-description: Støtt selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, men med funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.
+title: Monteringsstyring
+description: Støtt selskaper som leverer produkter til kundene sine ved å kombinere komponenter i enkle prosesser uten behov for produksjonsfunksjonalitet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 111f78578f298c662cc5a923a0b05c487f68b4c7
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215606"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326366"
 ---
 # <a name="assembly-management"></a>Monteringsstyring
 For å kunne støtte selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, har [!INCLUDE[prod_short](includes/prod_short.md)] funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  

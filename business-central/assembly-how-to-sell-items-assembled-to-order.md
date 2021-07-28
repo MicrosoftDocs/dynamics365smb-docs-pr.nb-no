@@ -1,6 +1,6 @@
 ---
-title: Selge varer som er montert til ordre | Microsoft-dokumentasjon
-description: Hvis varen er definert for Monter til ordre, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.
+title: Selge varer som er montert til ordre
+description: Hvis varen er definert for Monter til ordre, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 92a1faa77132e4f26c1999411f6d8304c24dd8f7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 34e869166ed3b556a91ba6c0793c60455cebfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772907"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435373"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare er **Monter til ordre**, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  
@@ -29,7 +29,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 >  Følgende fremgangsmåte omfatter ikke standardtrinnene for ordrer før trinnet der du angir montere-til-ordre-varen på en ordrelinje.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Selge en vare som er montert til ordre  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3.  I feltet **Nr.** -feltet angir du en vare som er definert for å monteres til ordre.  
 4.  Definer hvilken lokasjon varen skal selges fra, i **Lokasjonskode**-feltet. Monteringsprosessen vil skje på den lokasjonen.  

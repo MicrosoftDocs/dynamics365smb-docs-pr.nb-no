@@ -1,6 +1,6 @@
 ---
-title: Levere varer| Microsoft-dokumentasjon
-description: Avhengig av lageroppsettet kan du registrere levering på det tilknyttede utgående forretningsdokumentet direkte, for eksempel en ordre, eller du kan bruke lagerleveringsdokumenter som respekterer en arbeidsflyt og er integrert med ulike lageraktiviteter.
+title: Levere varer
+description: Dette emnet beskriver hvordan du leverer varer fra lageret, avhengig av lagerkonfigurasjonen for leveringsbehandling.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782762"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435937"
 ---
 # <a name="ship-items"></a>Levere varer
 
 Når du leverer varer fra et lager som ikke er definert til lagerleveringsbehandling, må du ganske enkelt registrere leveringen i det relaterte forretningsdokumentet, for eksempel en ordre, serviceordre, bestillingsretur eller utgående overføringsordre.
 
-Når du leverer varer fra et lager som er definert til lagerleveringsbehandling, kan du levere varer bare på basis av kildedokumenter som andre enheter i selskapet har frigitt til lageret for behandling.
+Når du leverer varer fra et lager som er definert for lagerleveringsbehandling, kan du bare levere varer på basis av kildedokumenter som andre enheter i selskapet har frigitt til lageret for behandling.
 
 > [!NOTE]
 > Hvis lageret bruker kryssoverføring og hyller, kan du for hver linje vise antall varer som er plassert i kryssoverføringshyllene. Programmet beregner disse antallene automatisk hver gang feltene på følgeseddelen oppdateres. Hvis dette er varer som gjelder for den leveringen du forbereder, kan du opprette en plukking for alle linjene, og deretter fullføre leveringen. Hvis du vil ha mer informasjon, kan du se [Kryssoverføre varer](warehouse-how-to-cross-dock-items.md).
@@ -30,7 +30,7 @@ Når du leverer varer fra et lager som er definert til lagerleveringsbehandling,
 
 Fremgangsmåten nedenfor beskriver hvordan du leverer varer fra en ordre. Fremgangsmåten er lik for bestillingsreturer, serviceordrer og utgående overføringsordrer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende ordre eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. I feltet **Levere (antall)** angir du det leverte antallet.
 
@@ -48,7 +48,7 @@ Først oppretter du et leveringsdokument fra et forretningskildedokument. Derett
 
 Vanligvis er det ansatte som er ansvarlige for leveringer, som oppretter en lagerlevering. Fremgangsmåten nedenfor viser hvordan du oppretter leveringen manuelt i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)], men organisasjonen kan ha automatiserte deler av prosessen, for eksempel med bruk av håndholdte eller monterte skannere som støttes av eksterne leverandører.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerleveringer** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
@@ -83,12 +83,12 @@ Når du har de linjene du vil levere, kan du starte prosessen som sender linjene
 
 Vanligvis er det en lagermedarbeider som er ansvarlig for plukking, som oppretter et plukkdokument eller åpner et allerede opprettet plukkdokument.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerleveringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerleveringer** og velg den relaterte koblingen.
 2. Velg lagerlevringen som du vil plukke for, og velg deretter **Opprett plukk**-handlingen.
 3. Fyll ut feltene på forespørselssiden, og velg deretter **OK**. Det angitte lagerplukkdokumentet opprettes.
 
     Du kan også åpne et eksisterende lagerplukk.
-4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen. Velg plukkingen du vil arbeide med.
+4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen. Velg plukkingen du vil arbeide med.
 
     Hvis lageret definert for bruk av hyller, så er plukklinjene konvertert til linjer for henting og plassering.
 

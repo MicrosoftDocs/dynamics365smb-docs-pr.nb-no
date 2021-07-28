@@ -1,6 +1,6 @@
 ---
-title: Bruke fordelingsnøkler i finanskladder | Microsoft-dokumentasjon
-description: Lær hvordan du kan bruke fordelingsnøkler i kladder.
+title: Bruke fordelingsnøkler i finanskladder
+description: Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden.
 services: project-madeira
 documentationcenter: ''
 author: edupont04
@@ -10,20 +10,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2760b53bfa1e277d4c4763810d580f5b66a223dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98316cbaf22546a9a2d01329fa1e242e219a1460
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772257"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435219"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Bruke fordelingsnøkler i finanskladder
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
 
 ## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg feltet **Bunkenavn** for å åpne siden **Finanskladder**.
 3. Du kan endre fordelinger på en eksisterende bunke i listen, eller du kan opprette en ny bunke med tildelinger.
    * Hvis du vil opprette en ny bunke, velger du handlingen **Ny** og går til neste trinn.
@@ -38,7 +38,7 @@ Du kan fordele en post i en finanskladd på flere forskjellige konti når du bok
 11. Bokfør kladden.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Slik endrer du en fordelingsnøkkel som allerede er definert
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg kladden med fordelingen, på siden **Finansgjentak.kladd**.
 3. Velg linjen med fordelingen, og velg deretter handlingen **Fordelinger**.
 4. Endre de relevante feltene, og velg deretter **OK**.

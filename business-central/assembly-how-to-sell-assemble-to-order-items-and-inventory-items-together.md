@@ -1,6 +1,6 @@
 ---
-title: Selge montere-til-ordre-varer og lagervarer sammen | Microsoft-dokumentasjon
-description: Hvis en monteringsvare er definert for Monter til lager, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Men hvis det er en del av (eller hele) antallet som ikke er tilgjengelig, må du å opprette en monteringsordre for det gjenværende antallet direkte.
+title: Selge montere til ordre-varer og lagervarer sammen
+description: Hvis det er en del av en monteringsvare er konfigurert for montere-til-lager ikke er tilgjengelig, må du å opprette en monteringsordre for det gjenværende antallet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 123d4613d042d9c3f7f863e7cd98b45c84a368ad
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 08b7d36eb7cace9b70f5b58a387907ecb54f39e8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772932"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326306"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  

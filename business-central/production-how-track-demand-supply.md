@@ -1,6 +1,6 @@
 ---
-title: Spore relasjoner mellom behov og forsyning | Microsoft-dokumentasjon
-description: Fra ethvert forsynings- eller behovsdokument i det såkalte ordrenettverket kan du spore ordrebehovet (sporet antall), prognosen, rammebestillingen eller planleggingsparameteren (ikke-sporet antall) som har forårsaket den aktuelle planleggingslinjen.
+title: Spore relasjoner mellom behov og forsyning
+description: Dette emnet forklarer de forskjellige måtene å spore relasjoner mellom behov og forsyning, for eksempel sporing av koblede varer og håndtering av ikke-sporede planleggingselementer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff7653ec28e70c13842f9b66bff91b7d8b48f98
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ccf2b753e11d0f6a23235125e99f58a011606788
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787630"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435297"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spore relasjoner mellom behov og forsyning
 Fra ethvert forsynings- eller behovsdokument i det såkalte ordrenettverket kan du spore ordrebehovet (sporet antall), prognosen, rammebestillingen eller planleggingsparameteren (ikke-sporet antall) som har forårsaket den aktuelle planleggingslinjen.
@@ -27,7 +27,7 @@ Sporing viser hvordan ordrer, produksjonsordrer og bestillinger er knyttet til p
 
 Nedenfor beskrives hvordan du kan spore tilknyttede varer på en fast planlagt produksjonsordre. Fremgangsmåten er lik for alle andre ordretyper og fra planleggingsforslagslinjer.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagt prod.ordre**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagt prod.ordre** og velg den relaterte koblingen.
 2. Åpne den aktuelle fast planlagte produksjonsordren fra oversikten.
 3. På hurtigfanen **Linjer** velger du **Funksjoner**-handlingen og deretter **Sporing**.
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 04/01/2021
+ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 7560131ec60d9cf494bdd87884f169e00ec89382
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784718"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434862"
 ---
 # <a name="send-remittance-advice"></a>Sende remitteringsønske
 
@@ -34,7 +34,14 @@ Du kan sende remitteringsønske på to ulike måter:
 [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
-
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
+[Elektronisk pengeoverføring (EFT) i den australske versjonen](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
+[Foreta elektroniske betalinger (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+[Elektronisk pengeoverføring (EFT) i versjonen for New Zealand](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
+[Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md)  
+[Lokal funksjonalitet for Storbritannia i den britiske versjonen](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
+[Skriv ut remitteringsoppdrag i den britiske versjonen](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
+[Foreta elektroniske betalinger (USA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
+  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

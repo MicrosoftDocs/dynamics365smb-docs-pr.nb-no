@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785751"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435550"
 ---
 # <a name="set-up-units-of-measure"></a>Definere enheter
 
@@ -30,7 +30,7 @@ Hvis en vare lagerføres i én enhet, men produseres i en annen, opprettes en pr
 
 ## <a name="to-set-up-units-of-measure"></a>Slik definerer du enheter
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Enheter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Enheter** og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Det settes inn en ny, tom linje.  
 3. Fyll ut feltene. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vet at organisasjonen vil selge varer med denne enhetskoden til kunder i andre land, kan du legge til oversettelser.  
@@ -43,7 +43,7 @@ Når du registrerer en ny vare, kan du velge lagerenheten fra oversikten over en
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Slik definerer du flere vareenheter
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne varekortet som du vil definere alternative enheter for.
 3. Velg handlingen **Enheter**. Siden **Vareenheter** åpnes.
 4. Hvis feltet **Lagerenhet** på varekortet er fylt ut, er denne enheten allerede konfigurert.
@@ -63,7 +63,7 @@ Du kan nå bruke de alternative enhetene i kjøps-, produksjons-og salgsdokument
 
 Når du selger varer til kunder i utlandet, kan du angi enheten på kundens språk. Dette gjør du etter at du har definert de enhetsoversettelsene du trenger.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Enheter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Enheter** og velg deretter den relaterte koblingen.
 2. Velg koden du vil definere oversettelser for, og velg deretter handlingen **Oversettelser**.
 3. I **Språkkode**-feltet velger du rullegardinpilen for å vise en oversikt over tilgjengelige språkkoder. Velg språkkoden du vil opprette en oversettelse for, og klikk deretter OK-knappen for å kopiere koden til feltet.
 4. Angi den teksten i feltet **Beskrivelse**.
@@ -73,7 +73,7 @@ Når du selger varer til kunder i utlandet, kan du angi enheten på kundens spr�
 
 Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du angi en separat enhet for innkjøp og salg. Hvis du vil gjøre dette, må du definere enheter på siden **Vareenheter**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne det aktuelle varekortet du vil angi en standardkode for salgs- eller kjøpsenhet for.
 3. For salg åpner du siden **Vareenheter** i feltet **Salgsenhet** på hurtigfanen **Fakturering**.
 4. For kjøp åpner du siden **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
