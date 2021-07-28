@@ -1,6 +1,6 @@
 ---
-title: Norsk mva-rapportering
-description: Forbedringer i den norske versjonen gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.
+title: Norsk mva-rapportering [NO]
+description: Forbedringer i den norske versjonen av Business Central gjør det mulig for deg å beregne og rapportere mva. til de norske skattemyndighetene.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: c28f3912dd7cac60ed9a01e5ad53b589c7f12f15
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d100a361748de2d8e46ef7ed591095bd5188929b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775236"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320792"
 ---
-# <a name="norwegian-vat-reporting"></a>Norsk mva-rapportering
+# <a name="norwegian-vat-reporting-in-the-norwegian-version"></a>Norsk mva-rapportering i den norske versjonen
 [!INCLUDE[prod_short](../../includes/prod_short.md)]../../inkluderer orbedringer i den norske versjonen som gjør det mulig for deg å beregne og rapportere mva til de norske skattemyndighetene.  
 
 Dette emnet forklarer de vanlige trinnene du skal følge når du rapporterer norsk mva.  

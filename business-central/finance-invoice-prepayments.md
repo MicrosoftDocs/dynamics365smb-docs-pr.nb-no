@@ -1,6 +1,6 @@
 ---
-title: Fakturere forskudd | Microsoft-dokumentasjon
-description: Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.
+title: Fakturere forskudd
+description: Finn ut hvordan du bruker forskuddsbetalinger til å fakturere og kreve inn innskudd fra kunder, og remittere innskudd til leverandører i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770344"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322532"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
 
-Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.  
+Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, og remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.  
 
  Krav til forskuddsbetaling kan defineres for en kunde eller leverandør for alle varer eller utvalgte varer. Når du har fullført det nødvendige oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger for det beregnede forskuddsbeløpet. Du kan endre beløpene på fakturaen etter behov. Du kan for eksempel angi et totalbeløp for hele ordren. Du kan også sende flere forskuddsfakturaer, for eksempel hvis flere varer blir lagt til i ordren. Du kan øke antall eller legge til nye linjer i en ordre etter at en forskuddsbetaling er utstedt, og deretter kan du bokføre en ny forskuddsfaktura. Hvis du vil slette en linje som en forskuddsbetaling allerede er fakturert for, må du utstede en kreditnota for forskudd før du kan slette linjen.  
 

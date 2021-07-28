@@ -1,6 +1,6 @@
 ---
-title: Referansekoder for mottaker
-description: Mottakerreferansekoden bestemmer hvilken melding som skal sendes til mottakeren. Koden vises i remitteringskontoen, og brukes for leverandører som betales fra denne kontoen.
+title: Referansekoder for mottaker [NO]
+description: Referansekoden for mottaker bestemmer hvilken melding som skal sendes til mottakeren, og vises på remitteringskontoen.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 89561ab82c58da7de817db7b0c4d7fed7163fbd0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fa5202f9fb929c3cdcc26a02e399fbd0687275cf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775232"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320790"
 ---
-# <a name="recipient-reference-codes"></a>Referansekoder for mottaker
+# <a name="recipient-reference-codes-in-the-norwegian-version"></a>Referansekoder for mottaker i den norske versjonen
 Mottakerreferansekoden bestemmer hvilken melding som skal sendes til mottakeren. Koden vises i remitteringskontoen, og brukes for leverandører som betales fra denne kontoen. Det kan opprettes en egen mottakerreferansekode for hver leverandør hvis den generelle referanseteksten ikke benyttes.  
 
 Teksten i mottakerreferansefeltene kan formateres automatisk ved hjelp av spesielle koder. Hvis du for eksempel angir **Betaling av faktura nr. %2** i et mottakerreferansefelt, blir informasjonen som skrives ut, **Betaling av faktura nr. 10000**.  

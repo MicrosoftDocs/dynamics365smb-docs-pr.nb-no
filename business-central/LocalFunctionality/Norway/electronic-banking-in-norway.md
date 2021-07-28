@@ -1,6 +1,6 @@
 ---
 title: Elektroniske banktjenester i Norge
-description: Forbedringer i den norske versjonen omfatter elektroniske banktjenester.
+description: Dette emnet beskriver forbedringene i den norske Business Central for håndtering av elektroniske banktjenester med flere operasjoner.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: a63ea6f713aa6c7895f34890b0b0e6e24e64d200
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f8230655af4295d4153d1265ffc6def43d4691af
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782203"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320800"
 ---
 # <a name="electronic-banking-in-norway"></a>Elektroniske banktjenester i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] omfatter forbedringer i den norske versjonen for elektroniske banktjenester. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  

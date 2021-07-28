@@ -1,6 +1,6 @@
 ---
-title: Minimumskrav for å bruke Business Central | Microsoft-dokumentasjon
-description: Lær om minimumskravene til system og versjon for bruk av Business Central på nettet.
+title: Minimumskrav for å bruke Business Central
+description: Lær om minimumskravene til system og versjon for bruk av Business Central Online beskrevet nedenfor.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 1dafd874523be75e00e224fd5b1d3f3d33a7e712
-ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
+ms.openlocfilehash: 3c116786612b62587dd68dc90c358a5a51a24a29
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6063505"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321419"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 

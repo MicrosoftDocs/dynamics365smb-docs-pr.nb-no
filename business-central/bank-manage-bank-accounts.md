@@ -1,5 +1,5 @@
 ---
-title: Håndtere bankkonti| Microsoft-dokumentasjon
+title: Håndtere bankkonti
 description: Du må regelmessig avstemme bankposter med de relaterte banktransaksjonene i bankkontiene.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reconcile
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: db4afccdd67e400f2effd34b2db3c449db10432a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0e98609dfe176a685d46112a233d3394eb312eaf
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779710"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323771"
 ---
-# <a name="reconciling-bank-accounts"></a>Avstemme bankkonter
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Administrer og avstem bankkontiene
 
 En bankavstemming bør fullføres med jevne mellomrom for alle bankkontoene for å sikre at firmaets kontantposter er riktige. Dette gjør du ved å sammenligne og utligne poster i de interne bankkontoene med banktransaksjoner i banken, og deretter bokføre saldoene på de interne bankkontoene for å gjøre totaler tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
 

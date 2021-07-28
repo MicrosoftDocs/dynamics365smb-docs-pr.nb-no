@@ -1,6 +1,6 @@
 ---
-title: Typer betalingsreturfiler
-description: 'Forbedringer i den norske versjonen omfatter to typer importerbare betalingsreturfiler:'
+title: Typer betalingsreturfiler [NO]
+description: Forbedringer i den norske versjonen omfatter to typer importerbare betalingsreturfiler – mottaksreturer og avregningsreturer.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 04c833e85764d9ab46ae2c7057c0c51977a2961e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1a1e67373f9a15a93f620ec22489ce7c6d0bf148
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770621"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320786"
 ---
-# <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
+# <a name="types-of-payment-returns-files-in-the-norwegian-version"></a>Typer betalingsreturfiler i den norske versjonen
 [!INCLUDE[prod_short](../../includes/prod_short.md)]omfatter to typer importerbare betalingsreturfiler:  
 
 - Mottaksreturer  

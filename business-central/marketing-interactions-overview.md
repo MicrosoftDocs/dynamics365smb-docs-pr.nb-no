@@ -1,6 +1,6 @@
 ---
-title: Opprette og administrere samhandlinger med kontakter | Microsoft-dokumentasjon
-description: I Business Central betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per e-post, brev, telefonsamtaler, møter og så videre.
+title: Opprette og administrere samhandlinger med kontakter
+description: I Business Central betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Les om hvordan du oppretter og administrerer kontaktene dine.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,16 +10,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: a7e8a009b4d1702689ac61b2874d8970c9c629d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780635"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321865"
 ---
-# <a name="managing-interactions"></a>Administrere samhandlinger
+# <a name="managing-interactions-with-your-contacts"></a>Administrere samhandlinger med kontaktene dine
 I [!INCLUDE[prod_short](includes/prod_short.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per e-post, brev, telefonsamtaler, møter og så videre.
 
 Du kan registrere alle samhandlingene med kontaktene, slik at du kan følge opp salgs- og markedsføringskampanjene som er rettet mot kontaktene, og forbedre fremtidige forretningssamhandlinger med dem.

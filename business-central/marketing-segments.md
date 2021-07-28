@@ -1,6 +1,6 @@
 ---
-title: Håndtere segmenter og velge kontakter du vil inkludere | Microsoft-dokumentasjon
-description: Gir en oversikt over oppgavene for å opprette et segment for å velge en gruppe med kontakter i samsvar med bestemte kriterier, for eksempel kontakter i en bestemt bransje du vil ha som målgruppe.
+title: Håndtere segmenter og velge kontakter
+description: Dette emnet beskriver hvordan du oppretter et segment ved å velge en gruppe med kontakter i henhold til bestemte kriterier, og senere angi at segmentet skal ha en kampanje.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 04034f51379874f9d8755b229ef4b251af0be37e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784420"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323596"
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
 Du oppretter segmenter for å velge en gruppe med kontakter i henhold til bestemte kriterier. Et segment kan for eksempel være bransjen der kontaktene hører til, eller forretningsforholdet ditt med kontaktene. Du kan opprette et segment for å velge kontaktene du vil rette deg inn mot med en kampanje.

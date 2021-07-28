@@ -1,6 +1,6 @@
 ---
-title: Bruke PayPal Payments Standard-utvidelsen | Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker utvidelsen til å gjøre det mulig for kunder å betale med PayPal.
+title: Bruke PayPal Payments Standard-utvidelsen
+description: Dette emnet beskriver hvordan du bruker standardutvidelsen til å gjøre det mulig for kunder å betale med PayPal.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd7a1faf7b80547fe5b26d43495b4713a27d4a5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cc7db26df0cfd554b083ac606c14965eecc991eb
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785071"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322880"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard-utvidelsen
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.

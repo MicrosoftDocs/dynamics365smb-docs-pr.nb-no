@@ -1,6 +1,6 @@
 ---
 title: Elektroniske betalinger til leverandører i Norge
-description: Forbedringer i den norske versjonen inkluderer automatisk betaling til leverandører.
+description: Norske forbedringer omfatter automatisk betaling til leverandører i den norske versjonen av Business Central.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 066db7f76d58ac1a5d3e8b2a1a2c8c8fdb4b9556
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ff1a02bc6737ba5c13f42df8a18043741c663da9
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770998"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320798"
 ---
 # <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  

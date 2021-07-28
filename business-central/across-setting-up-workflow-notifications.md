@@ -1,19 +1,19 @@
 ---
-title: Arbeidsflytvarslinger
-description: Mange arbeidsflytsvar omhandler å varsle brukere om at det har skjedd en hendelse de må gjøre noe med. I ett arbeidsflyttrinn kan hendelsen for eksempel være at bruker 1 ber om godkjenning av en ny post, og svaret er at det er sendt en melding til bruker 2, godkjenneren. I det neste arbeidsflyttrinnet kan hendelsen være at bruker 2 godkjenner posten, og svaret er at det er sendt en melding til bruker 3 om å starte en relatert behandling av den godkjente posten. Hver varsling er knyttet til en godkjenningspost for arbeidsflyttrinn som omhandler godkjenning.
+title: Konfigurering av arbeidsflytvarsler
+description: Dette emnet forteller deg hvordan du konfigurerer arbeidsflytvarsler for å varsle en bruker om at det har oppstått en hendelse som de må reagere på. Det kreves et arbeidsflytsvar.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d72c3ba220c98d0c77806466f467ab233b3db65c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787049"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320617"
 ---
 # <a name="workflow-notifications"></a>Arbeidsflytvarslinger
 

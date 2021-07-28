@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Varesporing og reservasjoner | Microsoft-dokumentasjon
-description: Dette emnet handler om varesporing og reservasjoner og beskriver konseptene bak to.
+title: Designdetaljer – Varesporing og reservasjoner
+description: Dette emnet handler om varesporing og reservasjoner og beskriver konseptene bak de to alternativene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0765cf63162cebcdd4eb2a52f9b76d0ed7c508cc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215006"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320891"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
 

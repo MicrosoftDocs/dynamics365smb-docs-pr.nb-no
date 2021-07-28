@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Side for varesporingslinjer | Microsoft-dokumentasjon
-description: Les om hvordan du administrerer flyten av serie- og partinumre i lageret.
+title: Designdetaljer – Side for varesporingslinjer
+description: Les om hvordan du administrerer flyten av serie- og partinumre i lageret ved å bruke siden Varesporingslinjer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 24454de31ff2424481c574f79098472719c84c82
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 50888b8d00696645841f37aa24b5cb3bc031fed2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214937"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320317"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designdetaljer: Side for varesporingslinjer
 Varesporings- og reservasjonsposter opprettes i reservasjonssystemet, og tilgjengeligheten beregnes dynamisk. Data som skrives inn på siden **Varesporingslinjer**, behandles i en midlertidig versjon av tabellen **Sporingsspesifikasjon**. Når siden lukkes, lagres de aktive dataene i **Reservasjonspost**-tabellen, og historiske dataene lagres i **Sporingsspesifikasjon**-tabellen. Hvis du vil ha mer informasjon, se [Designdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  

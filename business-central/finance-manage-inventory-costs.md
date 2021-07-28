@@ -1,6 +1,6 @@
 ---
-title: Administrere lagerkostnader | Microsoft-dokumentasjon
-description: Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.
+title: Administrere lagerkostnader
+description: Kostandshåndtering handler om å registrere og rapportere kostnader for forretningskostnader og omfatter rapportering av produksjonskost og lagerkost.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1dc6cade08a3aab9c5d1cda4b6a2c64995988df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780835"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321890"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
 Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   

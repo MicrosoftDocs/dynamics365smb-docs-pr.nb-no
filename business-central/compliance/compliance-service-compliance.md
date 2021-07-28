@@ -1,6 +1,6 @@
 ---
 title: Servicesamsvar og serviceavtale
-description: Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til Business Central på nett.
+description: Fra et serviceperspektiv lever Business Central opptil de strengt kravene og overholdelse av serviseavtale i flere ISO-sertifiseringer og bransjespesifikke sertifiseringer.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 8ea17f10621a152832de7862ed438681d54500f9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772842"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323671"
 ---
 # <a name="service-compliance"></a>Servicesamsvar
 

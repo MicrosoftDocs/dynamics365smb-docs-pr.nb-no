@@ -1,6 +1,6 @@
 ---
-title: Programsamsvar | Microsoft-dokumentasjon
-description: Dette innholdet omfatter informasjon om programsamsvar i tilknytning til Business Central.
+title: Programsamsvar
+description: Dette emnet forklarer programsamsvar i forhold til Business Central, for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet og GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c9511a0737e5324f311bb5489cce0d194c7e68ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788461"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323721"
 ---
 # <a name="application-compliance"></a>Programsamsvar
 

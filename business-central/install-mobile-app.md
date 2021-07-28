@@ -1,6 +1,6 @@
 ---
 title: Få Business Central på mobilenheten din
-description: Du kan vise og redigere Business Central-dataene på telefonen eller nettbrettet.
+description: Dette emnet beskriver de ulike måtene du kan vise og redigere Business Central-data på, sende til Excel og mer på telefonen eller nettbrettet.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 5179444b80db50fdd1c4afca6b313ec74e16a292
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115371"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324003"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
 

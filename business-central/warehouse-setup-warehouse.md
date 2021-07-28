@@ -1,6 +1,6 @@
 ---
-title: Konfigurere lagerprosesser | Microsoft-dokumentasjon
-description: Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette omfatter å definere hvordan ulike varer skal håndteres på ulike lagerlokasjoner, for eksempel graden av hyllekontroll og omfanget av påkrevd arbeidsflyt mellom lageraktiviteter.
+title: Konfigurere lagerprosesser
+description: Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene, for eksempel lagerlokasjoner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6730e88bff36347a387bbbbb05b82ec67bac8cac
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778000"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324717"
 ---
 # <a name="setting-up-warehouse-management"></a>Definere lagerstyring
 Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette omfatter å definere hvordan ulike varer skal håndteres på ulike lagerlokasjoner, for eksempel graden av hyllekontroll og omfanget av påkrevd arbeidsflyt mellom lageraktiviteter.  
