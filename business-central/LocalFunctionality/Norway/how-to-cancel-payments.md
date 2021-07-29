@@ -1,6 +1,6 @@
 ---
-title: Annullere betalinger
-description: Forbedringer i den norske versjonen gjør det mulig å annullere betalinger.
+title: Annullere betalinger [NO]
+description: Dette emnet beskriver hvordan de norske forbedringene i Business Central lar deg annullere betalinger og remitteringer mottatt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 71d543a947c8395a9bcf1dcbd3a0d41ce94446db
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 481af4238b7bdb1aac886ae2aaf48e476eb56eab
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784643"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445069"
 ---
-# <a name="cancel-payments"></a>Annullere betalinger
+# <a name="cancel-payments-in-the-norwegian-version"></a>Annuller betalinger i den norske versjonen
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
 
 - Et betalingsoppdrag kan annulleres hvis banken ikke mottar betalingen, og det må utføres en ny remittering. Du kan også annullere et oppdrag hvis du ikke vil overføre betalingene til banken, for eksempel hvis åpne oppdrag er feil. Bare åpne betalingsoppdrag kan avbrytes.  
@@ -26,13 +26,13 @@ ms.locfileid: "5784643"
 
 ## <a name="to-cancel-a-payment-order"></a>Slik annullerer du et oppdrag:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  Velg oppdraget, velg **Eksportere**, og velg deretter handlingen **Annullere oppdrag**.  
 3.  Velg **Ja**-knappen.  
 
 ## <a name="to-cancel-a-payment"></a>Slik annullerer du en betaling:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ventekladd**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ventekladd** og velg den relaterte koblingen.  
 2.  Velg betalingen, og velg deretter handlingen **Annullere betaling**.  
 3.  Velg **Ja**-knappen.  
 

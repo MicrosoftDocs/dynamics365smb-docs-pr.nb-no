@@ -1,6 +1,6 @@
 ---
-title: Lagre og tilpasse listevisninger | Microsoft Docs
-description: Lær hvordan du oppretter egne visninger av filtrerte lister.
+title: Lagre og tilpasse listevisninger
+description: Lær hvordan du oppretter egne visninger for filtrerte lister, og hvordan du lagrer, gir nytt navn til og administrerer disse visningene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017077"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445354"
 ---
 # <a name="save-and-personalize-list-views"></a>Lagre og tilpasse listevisninger
 Når du har definert et filter i en liste og vil beholde filteret til senere bruk, kan du lagre det som en visning. Hvis du vil ha mer informasjon om filtrering av lister, se [Definere filtre på oversikter](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Hvis det finnes visninger, vises gruppen **Visninger** øverst i filtreringsrute
 
 ## <a name="to-save-a-view"></a>Lagre en visning
 1. Åpne en listeside.
-2. Velg ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i listen, eller trykk på Skift+F3 for å ppne filterruten.
+2. Velg ![Filtreringsrute-ikon.](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i listen, eller trykk på Skift+F3 for å åpne filterruten.
 3. Angi ett eller flere nye filtre. Hvis du vil ha mer informasjon, kan du se [Definere filtre i lister](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Når du har angitt filtrene, velger du ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning").
+4. Når du har angitt filtrene, velger du ikonet ![Lagre visning.](media/save_view_icon.png "Lagre visning") .
 
     Hvis du angir et filter for en listevisning som allerede er lagret som en visning, vil den eksisterende visningen bli oppdatert når du lagrer.
 5. Hvis du lagrer en ny visning, skriver du inn et navn for visningen i boksen **Alle (kopi)**, for eksempel Elementer jeg eier.
@@ -38,7 +38,7 @@ Hvis du ikke angir et navn, blir navnet **Alle (kopi)**.
 > Ser du ikke ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning")? Hvis du vil ha mer informasjon, kan du se [Hvorfor har jeg ikke et lagringsikon](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Endre navn på eller fjerne en visning
-1. For visningen som for øyeblikket viser listen, velger du ikonet ![Vis flere alternativer](media/show-more-options-icon.png "Vis flere alternativer") for å se hvilke alternativer som er tilgjengelige.
+1. I visningen som viser listen nå, velger du ikonet ![Vis flere alternativer.](media/show-more-options-icon.png "Vis flere alternativer") for å se hvilke alternativer som er tilgjengelige.
 2. Velg handlingen **Gi nytt navn** eller handlingen **Fjern**.
 
 ## <a name="managing-many-views"></a>Behandle mange visninger

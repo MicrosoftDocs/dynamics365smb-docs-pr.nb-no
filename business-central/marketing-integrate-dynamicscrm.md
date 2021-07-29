@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985365"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444873"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruke Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[prod_short](includes/prod_short.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
@@ -115,7 +115,7 @@ I gjeldende prisopplevelse synkroniserer [!INCLUDE[prod_short](includes/prod_sho
     1. Koble sammen varene som kundeprisgruppen har angitt priser for.
     2. Koble sammen kundeprisgruppen på siden **Kundeprisgrupper** ved å velge **Relatert**, **Dynamics 365 Sales**, **Kobling** og deretter **Konfigurer kobling**. Koblingen oppretter en aktiv prisliste i [!INCLUDE[prod_short](includes/prod_short.md)] med same navn som kundeprisgruppen i [!INCLUDE[crm_md](includes/crm_md.md)] og synkroniserer automatisk alle varer som kundeprisgruppen definerer prisen for.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Siden Kundeprisgruppe":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Siden Kundeprisgruppe.":::
 
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Den nye prisopplevelsen synkroniserer prislister som oppfyller følgende kriteri
 
 Du kan synkronisere prislister på siden **Salgsprisliste** ved å velge **Relatert**, **Dynamics 365 Sales**, **Kobling** og deretter **Konfigurer kobling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Siden Salgsprisliste":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Siden Salgsprisliste.":::
 
 ---
 

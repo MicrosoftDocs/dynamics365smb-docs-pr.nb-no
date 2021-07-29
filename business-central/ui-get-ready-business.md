@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074665"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444823"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
@@ -23,9 +23,9 @@ Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[prod_short](i
 
 For å hjelpe deg med å få klar for å gjøre forretninger, kan du gå til siden **Assistert oppsett** der du kan starte assistert oppsett, videoer eller emner i hjelp for utvalgte oppsettoppgaver. Du får tilgang til siden ved ganske enkelt å velge [denne koblingen](https://businesscentral.dynamics.com/?page=1801).  
 
-Du kan også velge ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) og deretter handlingen **Assistert oppsett**.
+Du kan også velge ikonet ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) og deretter handlingen **Assistert oppsett**.
 
-Du finner også listen over veiledninger for assistert oppsett hvis du velger ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Assistert oppsett** og deretter velger den relaterte koblingen.  
+Du kan også finne oversikten over veiledninger for assistert oppsett hvis du velger ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Fra og med lanseringsbølge 1 for 2021 kan du bruke kontrollisten **Komme i gang
 
 Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre veiledninger for assistert oppsett på listen kan hjelpe deg, avhengig av dine behov.
 
-Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og deretter handlingen **Avanserte innstillinger**. I **Avanserte innstillinger** gir delen **Manuelt oppsett** tilgang til å konfigurere sider der du kan fylle ut feltene for oppsett for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![tannhjulsikon for å åpne Innstillinger-meny.](media/ui-experience/settings_icon_small.png) og deretter handlingen **Avanserte innstillinger**. I **Avanserte innstillinger** gir delen **Manuelt oppsett** tilgang til å konfigurere sider der du kan fylle ut feltene for oppsett for alle områder manuelt. Hvis du vil ha mer informasjon, kan du også se [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > Listen over assisterte oppsettsveiledninger, utvidelser og tjenester som er tilgjengelige, varierer avhengig av brukeropplevelsen du velger for din bedrift. **Essential**-opplevelsen gir tilgang til færre enn hva **Premium**-opplevelsen gjør.

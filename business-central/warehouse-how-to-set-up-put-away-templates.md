@@ -1,6 +1,6 @@
 ---
-title: Definere plasseringsmaler | Microsoft-dokumentasjon
-description: Med funksjonaliteten for lagerstyring foreslås den hyllen som passer best til varene på et hvilket som helst tidspunkt, i henhold til den plasseringsmalen du har definert for lageret, de hylleprioriteringene du har gitt til hyllene, og de minimums- og maksimumsantallene du har definert for faste hyller.
+title: Definere plasseringsmaler
+description: Bruk plasseringsmaler til å få de mest riktige hyllene for varene foreslått for deg, når som helst.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784195"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445079"
 ---
 # <a name="set-up-put-away-templates"></a>Definere plasseringsmaler
 
@@ -25,7 +25,7 @@ Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal s
 
 ## <a name="to-set-up-put-away-templates"></a>Slik setter du opp plasseringsmaler
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plasseringsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plasseringsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Angi en kode som er den unike identifikatoren for malen du er i ferd med å opprette.  
 4. Hvis du vil, kan du angi en kort beskrivelse.  

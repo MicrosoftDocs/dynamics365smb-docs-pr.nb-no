@@ -1,6 +1,6 @@
 ---
-title: Gjennomgang – Spore serie-/partinumre | Microsoft-dokumentasjon
-description: Dette emnet beskriver handlingene som skal utføres for å stoppe salg av en defekt vare.
+title: Gjennomgang – spore serie-partinumre
+description: Dette emnet beskriver handlingene som må utføres for å forhindre salg av en defekt vare, og også spore og tilbakekalle varer når det er nødvendig.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216283"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445104"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -77,7 +77,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 ### <a name="to-create-the-items"></a>Slik oppretter du varene  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. I feltet **Nr.** -feltet angir du **2000** og forstetter med å fylle ut følgende felt.  
 
@@ -114,7 +114,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 ### <a name="to-purchase-components"></a>Kjøpe komponenter
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Opprett en bestilling for leverandøren, Klubben, ved å fylle ut følgende linjefelt.  
 
@@ -128,7 +128,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 7. Velg **Bokfør**-handlingen, velg **Motta og fakturer**-alternativet, og velg deretter **OK**-knappen.  
 
     Deretter kjøper du racersykkelrammer fra Coolwood Technologies.  
-8. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+8. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 9. Velg handlingen **Ny**.
 10. Opprett en bestilling for leverandøren, Kontorengros A/S, ved å fylle ut følgende linjefelt.  
 
@@ -145,7 +145,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
 ### <a name="to-produce-end-items"></a>Produsere sluttvarer
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitte produksjonsordrer** og velg den relaterte koblingen.  
 2. Velg gruppen **Ny**.  
 3. Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt.  
 
@@ -166,7 +166,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Deretter produserer du to racersykler til, SN3 og SN4.  
 
-11. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte produksjonsordrer**, og velg deretter den relaterte koblingen.  
+11. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitte produksjonsordrer** og velg den relaterte koblingen.  
 12. Velg handlingen **Ny**.  
 13. Opprett en ny frigitt produksjonsordre ved å fylle ut følgende felt i hodet.  
 
@@ -191,7 +191,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
     Deretter selger du racersykler. Selg først racersykkelen med SN1 til Møbelhandleren A/S.  
 
 ### <a name="to-sell-the-end-items"></a>Selge sluttvarer  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -203,7 +203,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Nå kan du selge racersykkelen med SN2 til Kontorkomplett AS  
 
-5.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+5.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 6.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -215,7 +215,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Til sist selger du noen racersykkelrammer separat. Kontorkomplett AS bestiller også fire separate racersykkelrammer for sin egen produksjonslinje.  
 
-9. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+9. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 10. Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
     |Kunde|Vare|Antall|Serienr.|  
@@ -233,7 +233,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
  Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at den returnerte racersykkelen, vare 1002, har serienummeret SN1. Ved hjelp av denne enkle informasjonen kan han finne ut hvor den ferdige racersykkelen sist ble brukt, i dette tilfellet på følgeseddelen til Møbelhandleren A/S. Kvalitetskontrolløren må deretter søke bakover til den tidligste opprinnelsen for å bestemme hvilket partinummer den defekte racersykkelrammen kom fra og hvilken leverandør som leverte den.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Slik finner du ut hvilket parti den defekte rammen var i, og hvem som leverte den:  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varesporing** og velg den relaterte koblingen.  
 2.  Angi **SN1** i feltet **Serienr.filter** på siden **Varesporing**, og angi deretter **1002** i **Varefilter**-feltet.  
 3.  Behold standardinnstillingen **Bare varesporet** i **Vis komponenter**-feltet, og behold standard sporingsmetode **Forbruk – Opprinnelse** i **Sporingsmetode**.  
 4.  Velg handlingen **Spor**.  

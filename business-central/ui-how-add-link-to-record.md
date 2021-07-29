@@ -1,6 +1,6 @@
 ---
-title: Legge til vedlegg, koblinger og merknader i poster | Microsoft Docs
-description: Legg til en hyperkobling i et dokument eller et webområde til en bestemt post, for eksempel en kunde eller et dokument.
+title: Legge til vedlegg, koblinger og merknader i poster
+description: Legg til en hyperkobling i et dokument eller et nettsted til en bestemt post, for eksempel en kunde eller et dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771138"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444746"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -38,7 +38,7 @@ Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i e
 
 Følgende fremgangsmåte er basert på en kjøpsfaktura. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne salgsordren som du vil legge til en fil i.
 3. Åpne fanen **Vedlegg** i faktaboksen.
 4. Velg verdien bak feltet **Dokumenter**, for eksempel 0.
@@ -58,7 +58,7 @@ Når du skal lagre et dokument som en fil, kan du bruke handlingen **Legg ved so
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er de samme for alle støttede dokumenter.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg en ordre, og velg deretter handlingen **Legg ved som PDF**.
 
 En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen.
@@ -68,7 +68,7 @@ Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst
 
 Følgende fremgangsmåte er basert på et varekort. Trinnene er lignende for alle andre støttede kort og dokumenter.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg varen du vil legge til en kobling fra, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I **Koblinger** velger du **+**-ikonet.
 4. I vinduet **Koblingsadresse** angir du koblingen.
@@ -88,7 +88,7 @@ Du kan skrive et notat på et dokument eller kort, for eksempel for å formidle 
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren du vil skrive en merknad på, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I delen **Merknader** velger du **+**-ikonet.
 4. I **Merknad**-feltet skriver du hva som helst, for eksempel "Dette er en hasteordre".

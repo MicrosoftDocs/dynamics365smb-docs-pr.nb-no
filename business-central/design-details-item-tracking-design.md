@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214981"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445023"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetaljer: Varesporingsutforming
 
@@ -27,7 +27,7 @@ Med tilføyelsen av serie-, parti- og pakkenumre håndterer reservasjonssystemet
 
 Diagrammet nedenfor gir en oversikt over utformingen av varesporingsfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Eksempel på varesporingsflyt](media/design_details_item_tracking_design.png "Eksempel på varesporingsflyt")  
+![Eksempel på varesporingsflyt.](media/design_details_item_tracking_design.png "Eksempel på varesporingsflyt")  
 
 Hovedbokføringsobjektet er omformet slik at det kan håndtere den unike underklassifiseringen av en dokumentlinje i form av serie- eller partinumre, og spesielle relasjonstabeller er lagt til for å opprette én-til-mange-relasjoner mellom bokførte dokumenter og de delte varepostene og verdipostene.  
 

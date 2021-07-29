@@ -1,6 +1,6 @@
 ---
-title: åpne vareposter
-description: Lær hvorfor lagernivået er null selv om det finnes åpne vareposter.
+title: Vareposter der lagernivået er null
+description: Denne artikkelen beskriver et problem der lagernivået er null selv om det finnes åpne vareposter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215931"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444998"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kjent vareutligningsproblem
 Denne artikkelen beskriver et problem der lagernivået er null selv om det finnes åpne vareposter i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +54,7 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
 
  Diagrammet nedenfor viser hvordan antallsutligning utføres.  
 
-![Flyt for kostjustering fra kjøp til salg](media/helene/TechArticleInventoryZero2.png "Flyt for kostjustering fra kjøp til salg")
+![Flyt for kostjustering fra kjøp til salg.](media/helene/TechArticleInventoryZero2.png "Flyt for kostjustering fra kjøp til salg")
 
  Legg merke til at ovenfor er varepost 1 (kjøp) både leverandør for varen og kostnadskilde for den utlignede vareposten, varepost 2 (salg).  
 
@@ -78,7 +78,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Diagrammet nedenfor viser kostnadsflyten.  
 
-![Flyt for kostjustering fra salg til ordreretur](media/helene/TechArticleInventoryZero4.png "Flyt for kostjustering fra salg til ordreretur")
+![Flyt for kostjustering fra salg til ordreretur.](media/helene/TechArticleInventoryZero4.png "Flyt for kostjustering fra salg til ordreretur")
 
  Legg merke til ovenfor at kostnaden overføres til varepost 2 (salg), deretter til varepost 3 (ordreretur), og til sist til varepost 4 (salg 2).  
 
@@ -91,7 +91,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Diagrammet nedenfor viser hvordan vareutligning utføres i begge tilfellene.  
 
-![Flyt for kostjustering går i begge retninger](media/helene/TechArticleInventoryZero6.png "Flyt for kostjustering går i begge retninger")  
+![Flyt for kostjustering går i begge retninger.](media/helene/TechArticleInventoryZero6.png "Flyt for kostjustering går i begge retninger")  
 
  Legg merke til ovenfor at en kostutligning utføres (angitt med blå pil) for å sikre at varepost 2 (ordreretur) tilordnes samme kostnader som vareposten som den tilbakefører, varepost 1 (salg 1). En antallsutligning (representert med rød pil) utføres imidlertid ikke.  
 
@@ -133,7 +133,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
      |Postnr.|Varepostnr.|Inngående vareløpenr.|Utgående vareløpenr.|Antall|Bokføringsdato|Kostutligning|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28.01.2018|Ja|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Legg merke til ovenfor at den inngående vareposten 334 er utlignet mot utgående varepost 333.  
 

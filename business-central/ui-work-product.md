@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772132"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445254"
 ---
 # <a name="working-with-prod_short"></a>Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
 Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolonnebredden og høyden på kolonneoverskrifter, og du kan endre sorteringen av data i kolonner. Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en oversiktsside eller på dokumentlinjer, vil du se at det er en fryst loddrett rute for å hindre at bestemte kolonner ruller.
@@ -26,7 +27,7 @@ Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolon
 > [!TIP]
 > Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
 >
-> [ ![Ikon for PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som åpner en PDF-fil")
+> [ ![Ikon for PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som åpner en PDF-fil")
 
 ## <a name="links-to-learn-more"></a>Koblinger til Finn ut mer
 
@@ -67,6 +68,21 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/pr
 
     Internet Explorer støttes ikke lenger. Hvis du vil ha mer informasjon, kan du se [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - La nettleseren alltid være oppdatert til den nyeste versjonen.
+
+## <a name="action-bars"></a>Handlingsfelter
+
+I [!INCLUDE [prod_short](includes/prod_short.md)] kan du gjøre mesteparten av arbeidet ditt i en liste, et dokument eller et kort. Alle tre sidetyper har en linje med handlinger som er relevante for den bestemte siden, og handlingene er nesten like for det enkelte kortet eller dokumentet, og for listen over enheter. På denne måten kan du administrere én enkelt ordre på **Ordre**-siden og i **Ordrer**-oversikten, inkludert bokføring av den og fakturering av den.  
+
+Handlingene kan også se annerledes ut eller til og med være utilgjengelige, avhengig av hvordan du åpner siden. Spesielt for listesider er ikke listesiden du åpner fra startsiden og siden som gjengis når du søker etter den med ikon ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") identiske.  
+
+Når du søker etter en åpen listeside, for eksempel **Ordrer**-listen, er den i visningsmodus. Handlingene for å redigere, vise eller slette en enkelt enhet, for eksempel en ordre, vises når du velger **Administrer**-handlingen.  
+
+> [!TIP]
+> Hvis du vet at du vil bruke handlinger på dette andre nivået av handlingslinjen ofte, velger du ikonet :::image type="icon" source="media/pin.png" border="false"::: for å feste handlingslinjen og gjøre handlingene under de ulike menyene umiddelbart synlig.
+>
+> Hvis du vil at det andre nivået på handlingsfeltet skal forsvinne igjen, velger du ikonet :::image type="icon" source="media/unpin.png" border="false":::.
+
+Men når du åpner den samme listesiden fra startsiden din, er ikke **Administrer**-handlingen til stede. Hvis du vil åpne en individuell ordre, velger du bare **Nummer**-feltet. I denne visningen kan du ikke feste handlingslinjen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

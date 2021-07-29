@@ -1,6 +1,6 @@
 ---
-title: Motta varer| Microsoft-dokumentasjon
-description: Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket.
+title: Motta varer
+description: Dette emnet er en oversikt over ulike måter å motta varer på i et lager, for eksempel varer med en bestilling eller varer ved hjelp av et lagermottak.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771907"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445129"
 ---
 # <a name="receive-items"></a>Motta varer
 
@@ -27,7 +27,7 @@ Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar
 
 Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for ordrereturer og overføringsordrer.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.
 2. Åpne en eksisterende bestilling eller opprett en ny. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. I feltet **Motta (antall)** angir du det mottatte antallet.
 
@@ -43,7 +43,7 @@ Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten e
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Slik mottar du varer med et lagermottak
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 
     Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
@@ -96,7 +96,7 @@ Du må definere en prosentverdi der du kan overskride det bestilte antallet ved 
 
 Nedenfor ser du hvordan du definerer og tilordner en overmottakskode til en vare. Trinnene er de samme for en leverandør.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare du har mistanke om at noen ganger kan bli levert med et høyere antall enn bestilt.
 3. Velg oppslagsknappen i feltet **Overmottakskode**.
 4. Velg handlingen **Ny**.
