@@ -10,16 +10,18 @@ ms.service: dynamics365-business-central
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 09dba629e977707921129261ea2540cc223c15dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784943"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440902"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Kontrollere sider i Business Central
 
 Sideinspeksjonsfunksjonen gjør det mulig å få opplysninger om en side ved å gi innsikt i sideutformingen, de ulike elementene som utgjør siden, og kilden bak dataene som vises. Sideninspeksjon er spesielt utviklet for administratorer, avanserte brukere, støttepersonell og utviklere. Den er ideell for å lære datamodellen bak en side og feilsøking. Hvis du har et problem på en side, kan du bruke sideninspeksjon til å få informasjon som kan videresendes til systemansvarlig eller servicepersonell.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Arbeide med sideinspeksjon
 
@@ -27,7 +29,7 @@ Startsideinspeksjonen fra **Hjelp og støtte**-siden. Velg spørsmålstegnet øv
 
 Ruten **Sideninspeksjon** åpnes på siden. Følgende figur viser ruten **Sideninspeksjon** på siden **Ordre**.
 
-![Sideinspeksjon](media/page-inspection-example.png)
+![Sideinspeksjon.](media/page-inspection-example.png)
 
 Når ruten **Sideinspeksjon** åpnes for første gang, vises informasjon som gjelder hovedobjektet på siden.
 

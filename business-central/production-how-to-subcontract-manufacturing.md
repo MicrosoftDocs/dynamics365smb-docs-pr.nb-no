@@ -1,6 +1,6 @@
 ---
-title: Underleveranse av produksjon | Microsoft-dokumentasjon
-description: Når bestillingen er opprettet fra underleverandørforslaget, kan den bokføres.
+title: Underleveranse av produksjon
+description: Dette emnet gir en utvidet oversikt over den utvidede funksjonaliteten av underleveranser i Business Central, inkludert arbeidssenterfelter og -ruting.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 08b717e5674130661e12b48e6c0f37473098b892
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441525"
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
 Underleveranse av valgte operasjoner til leverandør er vanlig i mange produksjonsselskaper. Underleveranse kan skje en sjelden gang eller være en vesentlig del av alle produksjonsprosesser.
@@ -52,7 +52,7 @@ Siden **Underleveranseforslag** fungerer som **Planleggingsforslag** ved å bere
 >  Du kan bare få tilgang til og bruke produksjonsordrer med statusen **Frigitt** fra et underleveranseforslag.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Slik beregner du underleveranseforslaget  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
 2.  Hvis du vil beregne forslaget, velger du handlingen **Beregn underleveranser**.  
 3.  På siden **Beregn underleveranser** angir du filtre for underleveranseoperasjonene, eller arbeidssentrene der de utføres, for å beregne bare de relevante produksjonsordrene.  
 4.  Velg **OK**.  
@@ -60,7 +60,7 @@ Siden **Underleveranseforslag** fungerer som **Planleggingsforslag** ved å bere
     Gå gjennom linjene på siden **Underleveranseforslag**. Informasjonen i dette forslaget kommer fra produksjonsordren og produksjonsordrerutelinjene og sendes til bestillingen når bestillingsdokumentet opprettes. Som i de andre forslagene, kan du slette en rad fra dette forslaget uten at det påvirker den opprinnelige informasjonen. Informasjonen vises igjen neste gang du kjører funksjonen **Beregn underleveranser**.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Slik oppretter du underleverandørbestillingen  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Underleveranseforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Utfør handlingsmelding**-handlingen.  
 3.  Velg feltet **Skriv ut bestillinger** hvis du vil skrive ut bestillingen når den opprettes.  
 4.  Velg **OK**.  
@@ -73,7 +73,7 @@ Forslagslinjen som ble gjort om til en bestilling, slettes fra forslaget. Når e
 Når underleverandørbestillingene er opprettet kan de bli bokført. Når bestillingen mottas bokføres en kapasitetspost i produksjonsordren, og når den faktureres, bokføres den direkte kostnaden i produksjonsordren.  
 
 ## <a name="to-post-a-subcontract-purchase-order"></a>Slik bokfører du en underleverandørbestilling  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Åpne en bestilling som er opprettet fra underleveranseforslaget.  
 
     På bestillingslinjene ser du den samme informasjonen som far i forslaget. Feltene **Prod.ordrenr.**, **Prod.ordrelinjenr.**, **Operasjonsnr.**, og **Arbeidssenternr.** er fylt med informasjon fra kildeproduksjonsordren.  

@@ -1,6 +1,6 @@
 ---
-title: Definere kontantkunder | Microsoft-dokumentasjon
-description: Dette emnet beskriver hvordan du definerer kunder som betaler kontant.
+title: Definere kontantkunder
+description: Dette emnet beskriver trinnene som kreves for å definere fakturaen med et kundenummer for kunder som betaler kontant.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f047876678d26e7e53bf304433f38a410ba7d7fa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9462b7bb887b5c4d2dcc0f602d5cd0fe57ccc1fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770394"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442088"
 ---
 # <a name="set-up-cash-customers"></a>Definere kontantkunder
 Du kan ikke opprette en faktura uten å oppgi et kundenummer. Dette gjelder også ved kontantsalg og selv om ikke har noe å registrere på en kundekonto.  
 
 ## <a name="to-set-up-a-cash-customer"></a>Slik definerer du kontantkunder  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** og velg den relaterte koblingen.  
 2.  Opprett et nytt **kundekort**. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
 3.  I feltet **Nr.** -feltet angir du for eksempel **Kontantsalg**.  
 4.  I feltet **Navn** angir du for eksempel **Kontantsalg**.  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 92965b353dadb78e50b11138a832115885518f4f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 19cfc6b241e72d63a0f2c00ee43b32682cdeefae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780710"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441096"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
 Du kan opprette samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel utsendinger.
@@ -38,7 +38,7 @@ Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du v
 3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Segmenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene i inndelingen **Samhandling** på **Segment**-siden for å angi hvilken samhandling du vil tilordne segmentet.
 
     Etter at du har tilordnet en samhandling til segmentet, kan du tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene på siden **Segment**.  

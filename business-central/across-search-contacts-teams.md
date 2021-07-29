@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 6d094e365ad0c7da73467e5a3160d926902c45d9
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 18a0eaf953c99050edb3b047cb5b4a31c83feeeb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935164"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440752"
 ---
 # <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams
 
@@ -42,13 +42,13 @@ Kommandoboksen vises øverst i alle skjermbilder i Teams. Det gjør det mulig å
 
 1. Skriv inn **@Business Central** i kommandoboksen, og velg deretter Business Central-appen fra resultatene.
 
-    ![Åpne Business Central-appen hvis du vil søke etter kontakter fra kommandoboks](media/teams-contacts-command-1.png)
+    ![Åpne Business Central-appen hvis du vil søke etter kontakter fra kommandoboks.](media/teams-contacts-command-1.png)
 
 2. I **Business Central**-boksen begynner du å skrive søketekst, som navn, adresse eller telefonnummer.
 
     Etter hvert som du skriver inn, vises samsvarsresultater.
 
-    ![Søk etter Business Central-kontakter fra kommandoboksen i Teams](media/teams-contacts-command-2.png)
+    ![Søk etter Business Central-kontakter fra kommandoboksen i Teams.](media/teams-contacts-command-2.png)
 3. Velg en kontakt fra resultatene.
 
     Kontaktkortet vises under kommandoboksen.
@@ -65,13 +65,13 @@ Fordelen med å bruke meldingsboksen er at du kan legge til et kontaktkort direk
 
     Hvis **Business Central**-ikonet ikke vises, velger du **... (Meldingsutvidelser)**.
 
-    ![Åpne Business Central-appen hvis du vil søke etter kontakter fra meldingsboks](media/teams-contacts-message-box.png)
+    ![Åpne Business Central-appen hvis du vil søke etter kontakter fra meldingsboks.](media/teams-contacts-message-box.png)
 
 2. I **Business Central**-boksen begynner du å skrive søketekst, som navn, adresse eller telefonnummer.
 
     Etter hvert som du skriver inn, vises samsvarsresultater.
 
-    ![Søke etter Business Central-kontakter fra meldingsboks](media/teams-contacts-5.png)
+    ![Søk etter Business Central-kontakter fra meldingsboks.](media/teams-contacts-5.png)
 3. Velg en kontakt fra resultatene.
 
     Kontaktkortet vises i meldingsboksen.
@@ -101,6 +101,8 @@ Kontaktkortet fungerer på samme måte som kort for poster, for eksempel varer, 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
+[Endre selskap og andre innstillinger i Teams](across-teams-settings.md)  
+[Dele poster i Microsoft Teams](across-working-with-teams.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

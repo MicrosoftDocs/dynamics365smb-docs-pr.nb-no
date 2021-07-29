@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00fab887fa5680560ddcf4d612889be91c842fcf
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784668"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441071"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere en egendefinert rapportoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -25,7 +25,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Slik eksporterer du et rapportoppsett til en fil  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
 2.  Velg raden for rapporten som inneholder det egendefinerte rapportoppsettet du vil eksportere, og velg deretter handlingen **Egendefinerte oppsett**.  
 
@@ -39,7 +39,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
      En Word-rapportoppsettfil må filen ha filtypen DOCX. En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.  
 
-2.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
 3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter handlingen **Egendefinerte oppsett**.  
 

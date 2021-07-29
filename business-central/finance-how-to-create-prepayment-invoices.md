@@ -1,6 +1,6 @@
 ---
-title: Opprette forskuddsfakturaer | Microsoft-dokumentasjon
-description: Lær hvordan du vil håndtere situasjoner der du eller leverandøren krever forskuddsbetaling.
+title: Opprette forskuddsfakturaer
+description: Håndter situasjoner der du eller leverandøren krever forskuddsbetaling. Bruk standardprosentene for hver salgslinje eller bestillingslinje, eller juster beløpet etter behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 72a073fcde9ddf20df7c138ab544afb6719b93ce
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782166"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442188"
 ---
 # <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 
@@ -29,7 +29,7 @@ Fremgangsmåten nedenfor beskriver hvordan du fakturerer et forskudd for en ordr
 
 ## <a name="to-create-a-prepayment-invoice"></a>Slik oppretter du en forskuddsfaktura:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny ordre for den aktuelle kunden. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 
     I hurtigfanen **Forskudd** angir feltet **Forskuddsprosent** prosenten som skal brukes til å beregne forskuddsbeløpet. Hvis det er angitt en standard forskuddsprosent på kundekortet, fylles feltet ut automatisk. Du kan endre prosenten. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  

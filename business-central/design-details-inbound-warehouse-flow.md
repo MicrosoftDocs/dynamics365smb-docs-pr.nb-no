@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Inngående lagerflyt | Microsoft-dokumentasjon
-description: Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. En ansatt registrerer varene, vanligvis ved å skanne en strekkode. Fra mottaksområdene utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer til lagringsområdet.
+title: Designdetaljer – Inngående lagerflyt
+description: Inngående lagerflyt begynner når varer ankommer til lagerlokasjonen. Varer registreres og til slutt samsvares med inngående kildedokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: c2a78d585f949922e9f05e42a6ab61dcd7adc521
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a3a300deaaf4b64e7f26e34168ff1f69b72e90de
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215181"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441775"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
 Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. En ansatt registrerer varene, vanligvis ved å skanne en strekkode. Fra mottaksområdene utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer til lagringsområdet.  
@@ -51,7 +51,7 @@ I metode A, B og C kombineres mottaks- og plasseringshandlingen i ett trinn når
 ## <a name="basic-warehouse-configurations"></a>Enkle lageroppsett  
 Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i grunnleggende lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
-![Inngående flyt i grunnleggende lageroppsett](media/design_details_warehouse_management_inbound_basic_flow.png "Inngående flyt i grunnleggende lageroppsett")  
+![Inngående flyt i grunnleggende lageroppsett.](media/design_details_warehouse_management_inbound_basic_flow.png "Inngående flyt i grunnleggende lageroppsett")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Frigi kildedokument / opprett lagerplassering  
 Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kildedokumentet, for eksempel en bestilling eller inngående overføringsordre, for å signalisere til lagermedarbeidere at de mottatte varene kan plasseres på lager. Brukeren kan også opprette lagerplasseringsdokumenter for enkelte ordrelinjene med en push-metode, basert på angitte hyller og antall som skal håndteres.  
@@ -70,7 +70,7 @@ Det blir opprettet positive vareposter og lagerposter, og plasseringsforespørse
 ## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett  
 Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
-![Inngående flyt i avansert lageroppsett](media/design_details_warehouse_management_inbound_advanced_flow.png "Inngående flyt i avansert lageroppsett")  
+![Inngående flyt i avansert lageroppsett.](media/design_details_warehouse_management_inbound_advanced_flow.png "Inngående flyt i avansert lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument  
 Når varer mottas på lageret, frigir brukeren som er ansvarlig for mottak, kildedokumentet, for eksempel en bestilling eller inngående overføringsordre, for å signalisere til lagermedarbeidere at de mottatte varene kan plasseres på lager.  

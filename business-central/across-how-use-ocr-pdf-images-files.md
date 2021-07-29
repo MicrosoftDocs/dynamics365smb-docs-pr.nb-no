@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 81fb35e3bfc4e55e0327cb436974cc3d1730e9e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777544"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440952"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
 Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.
@@ -30,7 +30,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 Trafikken av filer til og fra OCR-tjenesten behandles av en dedikerte jobbkøpost, som opprettes automatisk når du aktiverer den relaterte tjenestetilkoblingen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
 ## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Sende en PDF- eller bildefil til OCR-tjenesten fra siden **Inngående dokumenter**
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.
 2. Opprett en ny innkommende dokumentpost, og legg ved filen. Hvis du vil ha mer informasjon, kan du se [Opprette innkommende dokumentposter](across-how-create-income-document-records.md).  
 3. På siden **Innkommende dokumenter** velger du én eller flere linjer, og deretter velger du handlingen **Send til jobbkø**.
 
@@ -107,7 +107,7 @@ Siden OCR er basert på optisk gjenkjenning, er det sannsynlig at OCR-tjenesten 
 
 Siden **OCR-datakorrigering**, som du åpner fra siden **Inngående dokumenter**, viser feltene fra hurtigfanen **Økonomisk informasjon** i to kolonner, én med OCR-data du kan redigere, og én med skrivebeskyttede OCR-data. Når du velger **Send OCR-tilbakemelding**, sendes innholdet på siden **OCR-datakorrigering** til OCR-tjenesten. Neste gang tjenesten behandler PDF-filer eller bildefiler som inneholder de aktuelle dataene, blir korrigeringene dine tatt med for å unngå de samme feilene.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Inngående dokumenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.
 2. Åpne en innkommende dokumentpost som inneholder data som mottas fra OCR-tjenesten som du vil korrigere.
 3. På siden **Inngående dokument** velger du handlingen **Korriger OCR-Data**.
 4. På siden **OCR-datakorrigering** overskriver du dataene i den redigerbare kolonnen for hvert felt som har feil verdi.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a0eb78d64948498b315679c45eb9a8b48fd5606
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784345"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441450"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper
 **Gjenbestillingsprinsipp**-feltet på varekortene tilbyr fire forskjellige planleggingsmetoder som bestemmer hvordan individuelle planleggingsparameter samhandler.  
@@ -30,7 +30,7 @@ Varens ABC-klassifisering er et det beste grunnlaget for valg av gjenbestillings
 
 ABC-klassifisering sier at du kan spare både krefter og penger ved å ha mindre streng kontroll på lav verdi-volumvarer enn på høy verdi-volumvarer. Illustrasjonen nedenfor viser hvilket gjenbestillingsprinsipp i [!INCLUDE[prod_short](includes/prod_short.md)] som passer best for henholdsvis A-, B- og C-varer.
 
-![ABC-klassifisering](media/abc_classification.png "abc_classification")
+![ABC-klassifisering.](media/abc_classification.png "abc_classification")
 
 Tabellen nedenfor inneholder anbefalte fremgangsmåter for å velge mellom de fire prinsippene.  
 

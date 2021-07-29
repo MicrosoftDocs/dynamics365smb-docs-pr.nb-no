@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 55196b8026e5efc5a79ce1a547e2ff594fae231c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786026"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441146"
 ---
 # <a name="categorize-items"></a>Kategorisere varer
 
@@ -27,7 +27,7 @@ Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
 ## <a name="to-create-an-item-category"></a>Slik oppretter du en varekategori:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekategorier**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekategorier** og velg den relaterte koblingen.
 2. På siden **Varekategorier** velger du handlingen **Ny**.
 3. Fyll ut følgende felt på hurtigfanen **Generelt** på siden **Varekategorikort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. I **Attributter**-hurtigfanen angir du hvilke som helst vareattributter for varekategorien. Hvis du vil ha mer informasjon, kan du se [Slik tilordner du vareattributter til varekategorier](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-item-categories).
@@ -42,7 +42,7 @@ Hvis du ombestemmer deg om en varekategori, kan du slette den. Hvis den imidlert
 
 ## <a name="to-assign-an-item-category-to-an-item"></a>Slik tilordner du en varekategori til en vare:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for varen som du vil tilordne til en varekategori.
 3. Velg oppslagsknappen i feltet **Varekategorikode** og velg en eksisterende varekategori. Du kan også velge **Ny**-handlingen for å opprette en ny varekategori først, som forklart under [Slik oppretter du en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).
 

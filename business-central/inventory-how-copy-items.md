@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1f3016900fab6e6c277dfa01e2d3a455bef8863
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f32ed673905e155e3876b71e4607bf33448e5327
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786001"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441121"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for å opprette nye varer
 
@@ -23,7 +23,7 @@ Når du legger til en ny vare for å spare tid, kan du bruke **Kopier vare**-fun
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Slik kopierer du en eksisterende vare til en ny vare
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Velg varen du vil kopiere, og velg deretter **Kopier vare**-handlingen.  
 
     Hvis du ikke finner handlingen **Kopier vare**, velger du å vise flere alternativer og finner det under **Handlinger**, **Funksjoner**.  

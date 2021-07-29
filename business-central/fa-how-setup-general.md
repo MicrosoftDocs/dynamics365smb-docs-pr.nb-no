@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 877891affde9b1719c30bc265cd0c08bf14824b0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8fed97e698cf5613700b53db3aa5a4292d12f554
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770519"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440677"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
@@ -22,13 +22,13 @@ Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnø
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Slik definerer du generelle standardverdier for aktiva
 Du definerer den generelle virkemåten eller aktivafunksjonaliteten og bilagsnummerserien på **Aktivaoppsett**-siden.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivaoppsett** og velger den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Slik definerer du bokføringsgrupper for aktiva:
 Du bokfører grupper for å definere aktivagrupper. Poster for disse bokføringsgruppene bokføres på de samme finanskontiene.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut resten av feltene på siden **Kort for bokf.grp.- aktiva** etter behov.
 
@@ -43,7 +43,7 @@ Ved hjelp av brukerdefinerte fordelingsnøkler kan du fordele transaksjoner på 
 
 Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.  
 2. På siden **Bokf.grupper - aktiva** velger du handlingen **Fordelinger**, og velger deretter en bokføringstype.
 3. På siden **Aktiva - fordelinger** fyller du ut feltene etter behov.
 4. Gjenta trinn 2 og 3 for bokføringstypene du vil definere fordelingsnøkler for.
@@ -53,45 +53,45 @@ En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-siden, men du kan definere flere kladdemaler.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Slik definerer du aktivakladder:
 Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt kladdemal. Ansatte kan for eksempel ha egne kladder der initialene til de ansatte brukes som kladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
 3. På siden **Aktivakladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Slik definerer du aktivareklassifiseringskladdemaler:
 Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-siden, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Slik definerer du aktivareklassifiseringskladder:
 Du kan definere flere kladder, som vil si individuelle kladder for hver reklassifiseringskladd. Ansatte kan for eksempel ha egne kladder for reklassifisering der initialene til den ansatte brukes som reklassifiseringskladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
 3. På siden **Aktivareklass.kladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Slik definerer du aktivaklassekoder:
 Aktivaklassekoder kan brukes til å gruppere aktiva, for eksempel i materielle og immaterielle aktiva.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivaklasser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for klassene du vil opprette.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Slik definerer du aktivaunderklassekoder:
 Du bruker aktivaunderklassekodene til å gruppere aktiva i kategorier, for eksempel bygninger, kjøretøy, møbler eller maskiner.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivaunderklasser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaunderklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for klassene du vil opprette.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Slik definerer du aktivalokasjonskoder:
 Du bruker aktivalokasjonskoder til å registrere aktivalokasjonen, for eksempel salgsavdeling, resepsjon, administrasjon, produksjon eller lager. Denne informasjonen er nyttig for forsikrings- og lagerformål.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivalokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivalokasjoner**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for aktivalokasjonene du vil opprette.
 
 ## <a name="to-register-opening-entries"></a>Slik registrerer du åpningsposter
@@ -104,7 +104,7 @@ Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for førs
 3. Opprett et aktivaavskrivningstabl for hvert avskrivningsformål (for eksempel skatteoppgaver og regnskap). Du må definere vilkår og betingelser for hvert avskrivningstablå, for eksempel integrasjon med Finans.  
 
     Aktiver integrering med Finans ved å følge de neste trinnene. Kontroller først at Finans-integreringen deaktiveres for alle avskrivningstablåer, bokføre deretter åpningsposter og aktiver til slutt Finans-integrering.  
-4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 5. Velg det aktuelle avskrivningstablåkortet, og velg deretter **Rediger**-handlingen for å åpne siden **Avskrivningstablåkort**.
 6. På hurtigfanen **Integrering** må du kontrollere at alle feltene er tomme ved å fjerne alle haker. Hvis du har mer enn ett avskrivningstablå, deaktiverer du integrasjon med Finans for hvert enkelt tablå.  
 7. Skriv inn følgende linjer for hvert aktivum i aktivakladden:

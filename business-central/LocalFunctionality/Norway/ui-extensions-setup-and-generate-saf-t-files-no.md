@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, saf-t, authorities, export, compliance
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: 08620d5d6e3166936976b127506de8756ee4365d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9f19066b713504776c9c3d9d69d97af5061d5b8f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771375"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441387"
 ---
 # <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
 
@@ -31,7 +31,7 @@ Denne utvidelsen gir følgende funksjoner:
 ## <a name="setup-of-the-norwegian-saf-t-extension"></a>Oppsett av norsk SAF-T-utvidelse
 Konfigurer SAF-utvidelsen ved hjelp av assistert oppsett, som gir en enkel, trinnvis veiledning for å komme i gang med SAF-T i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Om nødvendig kan du kjøre guiden flere ganger til du er ferdig med oppsettet.
 
-1. I [!INCLUDE[prod_short](../../includes/prod_short.md)] velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**, og velg deretter **Assistert oppsett**.  
+1. I [!INCLUDE[prod_short](../../includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger **Assistert oppsett**.  
 2. Velg **Angi SAF-T**.
 3. Den første siden i installasjonsveiledningen forklarer hva du er i ferd med å konfigurere. Velg **Neste**.
 4. I feltet **Tilordningstype** velger du Kontoplan-typen du vil bruke for SAF-T-kontoer, og deretter velger du **Neste**. 
@@ -59,7 +59,7 @@ Konfigurer SAF-utvidelsen ved hjelp av assistert oppsett, som gir en enkel, trin
 Når du skal eksportere SAF-T-filer fra [!INCLUDE[prod_short](../../includes/prod_short.md)], må du først opprette og konfigurere en **SAF-T-eksport** for å definere tilordningsområdet. Du kan for eksempel definere en tilordning og eksportere hele 2019-året, og en annen tilordning for bare måneden april 2019 hvis du blir bedt om å oppgi disse dataene spesifikt.
 
 ### <a name="to-create-an-export-of-saf-t-files"></a>Opprette eksport av SAF-T-filer  
-1. I [!INCLUDE[prod_short](../../includes/prod_short.md)] velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png) "Fortell hva du vil gjøre"), angir du **SAF-T-eksporter**, og deretter velger du **SAF-T-eksporter**.  
+1. I [!INCLUDE[prod_short](../../includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png) Fortell meg hva du vil gjøre), skriv inn **SAF-T-eksporter**, og velg deretter **SAF-T-eksporter**.  
 2. På siden **SAF-T-eksporter** velger du **Opprett**.
 3. På siden **SAF-T-eksport**, i feltet **Tilordningsområdekode**, velger du tilordningsområdet du vil definere en eksport for.
 5. Hvis du vil starte SAF-T-eksport, gjør du ett av følgende: 

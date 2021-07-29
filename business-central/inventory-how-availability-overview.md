@@ -1,6 +1,6 @@
 ---
-title: Få en oversikt over tilgjengelighet | Microsoft-dokumentasjon
-description: Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser, etter en tidsperiode eller etter varens posisjon i en monterings- eller produksjonsstykkliste.
+title: Få en oversikt over tilgjengelighet
+description: Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser med mer.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,19 +9,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e5be238c74496ca92c0f26ef0c2a1377a6c93466
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786071"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441196"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
 
-Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgjengeligheten av hver vare etter hendelse, periode eller lokasjon. En hendelse er alle planlagte varetransaksjoner, for eksempel en følgeseddel eller mottak av inngående overføring.
+Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgjengeligheten av hver vare etter hendelse eller etter periode. En hendelse er alle planlagte varetransaksjoner, for eksempel en følgeseddel eller mottak av inngående overføring.
 
 > [!NOTE]  
 >   Tilgjengelighetsvisninger etter lokasjon krever at du har beholdning på mer enn én lokasjon. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner](inventory-how-setup-locations.md).
@@ -42,7 +42,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] vises tilgjengelighetstallene v
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner på siden **Tilgjengelighet per hendelse**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Hendelse**-handlingen.
 
@@ -52,7 +52,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på siden **Varetilgjengelighet per periode**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Periode**-handlingen.
 
@@ -62,7 +62,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på si
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, på siden **Varetilgjengelighet per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Lokasjon**-handlingen.
 
@@ -73,7 +73,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på siden **Varer per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg handlingen **Varer per lokasjon**.
 
     Siden **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.

@@ -1,6 +1,6 @@
 ---
 title: Oversikt over oppgaver for å definere Business Central
-description: Gir en oversikt over oppgaver for å definere, initialisere og konfigurere Business Central etter behov.
+description: Les en oversikt over oppgavene for å definere, initialisere og konfigurere Business Central etter behov.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 01354575a7d96017684fe885411be364058b57e4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781459"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441425"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -23,7 +23,7 @@ ms.locfileid: "5781459"
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
-Fra menyen ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png) får du tilgang til hjelpelinjer for assistert installasjon, som hjelper deg med å konfigurere visse scenarier og legge til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Fra menyen ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]

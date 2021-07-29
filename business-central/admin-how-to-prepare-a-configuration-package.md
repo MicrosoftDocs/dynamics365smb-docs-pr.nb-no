@@ -1,6 +1,6 @@
 ---
-title: Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon
-description: Finn ut nå hvordan du konfigurerer en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
+title: Slik klargjør du en konfigurasjonspakke
+description: Finn ut nå hvordan du klargjør en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: f90ba5929cad841e16a6a1a719024fdf085b05be
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781289"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440727"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 
@@ -56,7 +56,7 @@ Du kan importere en konfigurasjonspakke som har blitt eksportert fra en database
 
 ## <a name="to-create-a-configuration-package"></a>Slik oppretter du en konfigurasjonspakke:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. På hurtigfanen **Generelt** fyller du ut feltene riktig. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil utelate konfigurasjonsspørreskjemaene, konfigurasjonsmalene og konfigurasjonforslagstabellene fra pakken, merker du av for **Utelat konfigurasjonstabeller**. Ellers vil disse tabellene automatisk legges til i listen over pakketabeller når du eksporterer pakken.  
@@ -107,7 +107,7 @@ Du kan lagre filen med et navn som gir mening for deg, men du kan ikke endre fil
 
 Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den som grunnlag for å opprette lignende pakker. Dette kan forkorte implementeringstiden og forbedrer gjentakelse for RapidStart Services.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg en pakke fra listen, og velg deretter handlingen **Kopier pakke**.  
 3. Angi en kode for den nye pakken i feltet **Ny pakkekode**.  
 4. Merk av for **Kopier Data** hvis du også vil kopiere databasedata fra den eksisterende pakken.  
@@ -117,7 +117,7 @@ Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den s
 
 Bruk konfigurasjonsforslaget til å samle inn og kategorisere informasjon du vil bruke til å konfigurere et nytt selskap, og til å ordne tabeller på en logisk måte. Formatering i forslaget er basert på et enkelt hierarki: områder inneholder grupper, som i sin tur inneholder tabeller. Områder og grupper er valgfrie, men nødvendige for å vise en oversikt over konfigurasjonsprosessen i rollesenteret for RapidStart Services.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg **Område** i **Linjetype**-feltet. Skriv inn et beskrivende navn i **Navn**-feltet.  
 3. Velg **Gruppe** i **Linjetype**-feltet. Skriv inn et beskrivende navn i **Navn**-feltet.  
 4. Velg **Tabell** i **Linjetype**-feltet. Velg tabellen du vil ta med i forslaget, i **Tabell-ID**-feltet.  
@@ -136,7 +136,7 @@ Når du har definert tabellene du vil skal behandles som en del av konfigurasjon
 > [!NOTE]  
 > Du kan også opprette en pakke direkte, og legge til tabeller i den. Hvis du vil ha mer informasjon, se [Slik oppretter du en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Velg en linje eller gruppe med linjer i konfigurasjonsforslaget som du vil tilordne til konfigurasjonspakke, og velg deretter handlingen **Tilordne pakke**.  
 3. Velg en pakke fra listen, eller velg handlingen **Ny** for å opprette en ny pakke, og velg deretter **OK**.  
 
@@ -147,7 +147,7 @@ Når du har definert tabellene du vil skal behandles som en del av konfigurasjon
 
 Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse de tilgjengelige databasedataene etter kundens behov. Databasetabellen må ha en tilknyttet side.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Finn tabellene i konfigurasjonsforslaget som inneholder dataene du vil vise eller tilpasse.  
 
     > [!NOTE]  
@@ -161,7 +161,7 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med å kopiere dataene til ditt produksjonsmiljø. Du oppretter et nytt selskap i samme database.
 
 1. Åpne og start det nye selskapet.  
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Kopier data fra selskap**.  
 4. Velg **Kopier fra**-feltet på siden **Kopier selskapsdata**. **Selskaper**-siden åpnes.  
 5. Velg selskapet du vil kopiere data fra, og velg deretter **OK**. En liste over tabellene som er valgt i konfigurasjonsforslaget, åpnes. Det er bare tabeller som inneholder poster som er inkludert i denne listen.

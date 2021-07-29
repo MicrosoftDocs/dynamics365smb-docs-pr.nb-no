@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Interne lagerflyter | Microsoft-dokumentasjon
-description: Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om å plukke komponenter og plassere sluttvarer for montering eller produksjonsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten en relasjon til kildedokumenter.
+title: Designdetaljer – Interne lagerflyter
+description: Flyt mellom hyller i forbindelse med plukking av komponenter og plassering av sluttvarer for sammenstilling eller produksjonsordrer og ad-hoc-flyttinger uten kildedokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7be0a3907b59a17e6f77e4ae8eb3a36fc62d8f7a
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215131"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441750"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interne lagerflyter
 Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om å plukke komponenter og plassere sluttvarer for montering eller produksjonsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten en relasjon til kildedokumenter. Omfanget av og karakteren til aktivitetene som er involvert, varierer mellom grunnleggende og avanserte lagerstyring.  
@@ -114,7 +114,7 @@ Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om �
 
  Illustrasjonen nedenfor viser når **Hyllekode**-feltet i komponentoversikten fylles i henhold til lokasjonsoppsettet eller oppsettet for produksjonsressurs/arbeidssenter.  
 
- ![Oversikt over når/hvordan Hyllekode-feltet fylles ut](media/binflow.png "Oversikt over når/hvordan Hyllekode-feltet fylles ut")  
+ ![Oversikt over når/hvordan Hyllekode-feltet fylles ut.](media/binflow.png "Oversikt over når/hvordan Hyllekode-feltet fylles ut")  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)

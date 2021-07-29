@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef6d7a5882829bb12620337c5985c31f85d69c5c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787210"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440977"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Legge til kommentarer i kort og dokumenter
 Du kan legge til tilleggsinformasjon for finanskontoer, kundekort eller ordrer for å formidle unntak eller spesielle avtaler avtaler til andre brukere.
@@ -31,7 +31,7 @@ I tillegg kan du angi om du vil at merknader overføres fra én dokumenttype til
 Nedenfor beskrives det hvordan du legger til en merknad på et varekort. Trinnene ligner for alle andre leverandørkort og -dokumenter, bortsett fra at på dokumentlinjer er **Merknader**-handlingen plassert på en linjehandlingsmeny.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Legge til merknader på varekort
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne det aktuelle varekortet.
 3. Velg handlingen **Merknader**.
 4. Skriv inn tekst på **Merknadsark**-siden, og velg **OK**-knappen.

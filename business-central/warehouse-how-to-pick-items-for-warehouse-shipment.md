@@ -1,6 +1,6 @@
 ---
-title: Plukke varer for lagerlevering | Microsoft-dokumentasjon
-description: Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.
+title: Plukke varer for lagerlevering
+description: Lær mer om hvordan du bruker lagerplukkdokumenter til å opprette og behandle plukkinformasjon før du bokfører lagerleveringen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f9cc098fc414afcf015821dadbfbe438ca157ef
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771757"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441863"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
 Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.  
@@ -38,7 +38,7 @@ Du kan også opprette lagerplukkdokumenter på en push-måte på siden **Lagerle
 >  Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 
     Hvis du skal arbeide med en bestem plukking, velger du plukkingen fra oversikten eller filtrerer oversikten for å finne plukkingene som er tilordnet spesielt til deg. Åpne kortet for plukkingen.  
 2.  Hvis feltet **Tilordnet bruker-ID** er tomt, angir du om nødvendig IDen for å identifisere deg selv.  

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d568ac9bebb99818f9a47119a177d9d704d3e74
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774514"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441002"
 ---
 # <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
@@ -31,7 +31,7 @@ Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskla
 Oppgavene nedenfor utføres av en godkjenningsbruker.
 
 1. På siden som viser posten, velger du handlingen **Send godkjenningsforespørsel**.
-2. Hvis du vil se alle godkjenningsforespørslene, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Godkjenningsforespørselsposter**, og velg deretter den relaterte koblingen.  
+2. Hvis du vil se alle godkjenningsforespørslene, velger du ikon ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Godkjenningsforespørselsposter**, og velg deretter den relaterte koblingen.  
 
 Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Statusen for posten, for eksempel en kjøpsfaktura, oppdateres fra **Åpen** til **Venter på godkjenning** og forblir låst for behandling til alle godkjennerne har godkjent posten.
 
@@ -51,7 +51,7 @@ Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Du kan behandle forespørsler om godkjenning på siden **Forespørsler å godkjenne**, for eksempel for å godkjenne flere forespørsler samtidig. Du kan også behandle hver forespørsel på den relaterte posten, for eksempel siden **Kjøpsfaktura**, ved å velge koblingen i meldingen du mottar.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
 2. Velg én eller flere linjer for posten eller postene du vil godkjenne eller avvise.
 3. Velg handlingen **Godkjenn**, **Avvis** eller **Deleger**.
 
@@ -66,7 +66,7 @@ Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Hvis du vil hindre at dokumenter hoper seg opp eller blokkerer arbeidsflyten på andre måter, kan godkjenner og godkjenningsadministrator delegere en godkjenningforespørsel til en stedfortredende godkjenner. Stedfortrederen kan enten være en angitt stedfortreder, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Du bruker vanligvis denne funksjonen hvis en godkjenner ikke er på kontoret og ikke kan godkjenne forespørsler før forfallsdatoen.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
 2. Velg én eller flere linjer for godkjenningsforespørsler du vil delegere til en stedfortredende godkjenner, og velg deretter handlingen **Deleger**.
 
 Et varsel om å godkjenne forespørselen sendes til stedfortredende godkjenner.
@@ -78,7 +78,7 @@ Med jevne mellomrom må du vil påminne brukere av arbeidsflyt for godkjenning o
 
 Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes åpne godkjenningsforespørsler som er forfalt. Hver godkjenner som har minst én forfalt godkjenningspost, mottar en varsling med listen over alle forfalte godkjenningsforespørsler. Varslingen sendes også til godkjenneren og alle som ber om forfalte godkjenninger. Dette hjelper hvis den forfalte godkjenningsposten må delegeres til en stedfortreder.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
 ## <a name="see-also"></a>Se også

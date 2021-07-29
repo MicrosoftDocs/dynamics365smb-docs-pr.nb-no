@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 777de65d2cda454491b6c3ea82ebb99d4839dce4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb1469242408164f73296f27f5cadd432b15fa2e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780385"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441475"
 ---
 # <a name="use-resources-for-jobs"></a>Bruke ressurser for prosjekter
 Du registrerer ressursforbruket i prosjektkladden for å holde oversikt over kostnader, priser og arbeidstypene som er knyttet til prosjekter. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
@@ -31,14 +31,14 @@ Du kan også bokføre ressursforbruket i en ressurskladd. Poster som er bokført
 Du kan tilordne ressurser til prosjekter ved å opprette prosjektplanleggingslinjer for prosjektet. Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).
 
 ## <a name="to-record-resource-usage-for-a-job"></a>Slik registrerer du ressursforbruk for et prosjekt
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.
 2. Åpne en relevant prosjektkladd, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fullført, kan du velge handlingen **Bokfør**.
 
 ## <a name="to-adjust-resource-prices"></a>Slik justerer du ressurspriser
 Hvis du vil endre kost- eller salgspriser for en rekke ressurser, kan du bruke en kjørsel.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Juster ressurskost/priser**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Juster ressurskost/priser**, og velg deretter den tilknyttede koblingen.
 2. Fyll ut feltene på en linje etter behov, og klikk deretter **OK**.
 
 > [!NOTE]  
@@ -47,7 +47,7 @@ Hvis du vil endre kost- eller salgspriser for en rekke ressurser, kan du bruke e
 ## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av eksisterende alternative priser
 Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan du bruke en kjørsel til å definere flere alternative ressurspriser.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Foreslå ress.prisendr. (pris)** og fyll deretter ut feltene etter behov.
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, viser siden **Ressursprisendringer** resultatene av kjørselen.
@@ -55,7 +55,7 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 ## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av standardpriser
 Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardprisene på ressurskortene, kan du bruke en kjørsel.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressursprisendringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Foreslå ress.prisendr. (ress.)** og fyll deretter ut feltene etter behov.  
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.
@@ -63,7 +63,7 @@ Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardpri
 ## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av alternative priser
 Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan du bruke en kjørsel til å definere flere alternative ressurspriser.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Foreslå ress.prisendr. (pris)**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Foreslå ress.prisendr. (pris)**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.

@@ -1,6 +1,6 @@
 ---
-title: Avhende eller trekke tilbake aktiva | Microsoft-dokumentasjon
-description: Du må bokføre en salgsverdi når du kasserer, selger eller trekker tilbake et aktivum.
+title: Avhende eller trekke tilbake aktiva
+description: Når du selger eller på annen måte avhender et aktiva, må salgsverdien bokføres for å beregne og registrere tap eller vinning.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 041f228a0ea2e34fb9986ebb45e98c1300f02f8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2b3f12dd385a40510cf01c214ac0893b6357207c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774033"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441725"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Avhending eller tilbaketrekking av aktiva
 
@@ -28,7 +28,7 @@ Følgende fremgangsmåte forutsetter at du allerede har konfigurert de aktuelle 
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Slik bokfører du et salg fra aktivafinanskladden:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladder** og velger den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. I feltet **Aktivabokf.type** velger du **Salg**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for salgsbokføring.  
@@ -42,7 +42,7 @@ Hvis du selger eller på avhender deler av et aktiva, må du dele opp aktivaet f
 ## <a name="to-view-disposal-ledger-entries"></a>Slik viser du salgsposter
 Når du selger eller avhender et aktiva, bokføres salgsverdien til finans der du kan se resultatet.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg aktivaet du vil vise poster for, og velg deretter **Avskrivningstablåer**.  
 3. Velg avskrivningstablået du vil vise poster for, og velg deretter **Poster**.  
 4. Velg en linje med **Salg** i **Bokføringskategori, aktiva**-feltet, og velg deretter **Søk etter poster**.  

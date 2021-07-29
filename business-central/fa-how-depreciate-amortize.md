@@ -1,6 +1,6 @@
 ---
-title: Avskrive eller amortisere aktiva | Microsoft-dokumentasjon
-description: Du må definere hvordan du vil foreta nedskrivning, avskrivning eller amortisering av hvert aktivum.
+title: Avskrive eller amortisere aktiva
+description: Du må definere hvordan du vil skrive ned, avskrive eller amortisering hvert aktiva, for eksempel maskiner og utstyr, over avskrivningstiden.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a800c164e828a65ff1d66a8abe4f4f88b6c2581d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774108"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442263"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
 Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
@@ -36,19 +36,22 @@ Indeksregulering brukes til å justere verdier for generelle endringer i prisniv
 ## <a name="to-calculate-depreciation-automatically"></a>Slik beregner du avskrivninger automatisk
 Du kan utføre kjørselen **Beregn avskrivninger** én gang i måneden, eller etter behov. Kjørselen ingorerer aktiva som er solgt, aktiva som er sperret eller inaktive, eller som bruker den manuelle avskrivningsmetoden.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Beregn avskrivning**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Beregn avskriving**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velg **OK**.  
 
     Kjørselen beregner avskrivningen og oppretter linjer i aktivafinanskladden.
 
-4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 
     På siden **Aktiva finanskladd** i **Antall avskrivningsdager**-feltet kan du se hvor mange avskrivningsdager det er beregnet.  
 5. Velg handlingen **Bokfør**.  
 
+> [!NOTE]
+> Hvis du velger feltet **Bruk tvunget antall dager** og feltet **Tvunget antall dager** settes til en verdi som resulterer i bokføringsdatoen minus verdien i feltet **Antall dager** er en dato i forrige kalenderår, kan du ikke bokføre avskrivningen. Løsningen er å redusere verdien for feltet **Tvunget antall dager** til ikke høyere enn de beregnede dagene frem til bokføringsdato med 30 dager i måneden, ELLER velge feltet **Regnskapsår 365 dager** i avskrivningstablået. Vi anbefaler det første alternativet fordi du kanskje ikke vil endre bruken av 30 dager/måneder for avskrivning. Hvis du vil ha mer informasjon, se [Regnskapsår 365 dager-feltavskriving](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Slik bokfører du avskrivning manuelt fra aktivafinanskladden:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladd** og velger den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.  
 3. I feltet **Aktivabokf.type** velger du **Avskrivning**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for bokføring av avskrivning. Hvis du vil ha mer informasjon, kan du se [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
@@ -68,7 +71,7 @@ I feltet **Slutt bokført verdi** på siden **Aktivaavskrivningstablå** kan du 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Slik beregner du fordelinger i aktivafinanskladden:
 Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning automatisk fordeles til disse avdelingene, etter en brukerdefinert fordelingstabell.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladd** og velger den relaterte koblingen.  
 2. Opprett en innledende linje, og fyll ut feltene etter behov.
 3. I feltet **Aktivabokf.type** velger du **Fordeling**.  
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for fordelingsbokføring.  
@@ -77,18 +80,18 @@ Hvis flere avdelinger bruker det samme aktivaet, kan periodisk avskrivning autom
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruke duplikatoversikter til å forberede bokføring av flere avskrivningstablåer
 Når du fyller ut kladdelinjer som skal bokføres i et avskrivningstablå, kan du duplisere linjene i en separat kladd, slik at du kan bokføre dem i et annet avskrivningstablå. Hvis du vil ha mer informasjon, kan du se [Slik bokfører du poster i ulike avskrivningstablåer](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Åpne avskrivningstablået, og merk deretter av for **Del av duplikasjonsoversikt**.  
 
 > [!IMPORTANT]  
 >   Hvis du har valgt feltet **Bruk duplikatoversikt**, må du ikke bruke nummerserier på kladden. Årsaken er at nummerserien for aktivafinanskladden ikke samsvarer med nummerserien for aktivakladden.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Slik bokfører du poster i ulike avskrivningstablåer
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladd** og velger den relaterte koblingen.  
 2. I kladden du vil bokføre avskrivning med, merker du av for **Bruk duplikatoversikt**.  
 3. Fyll ut feltene som gjenstår, etter behov.  
 4. Velg handlingen **Bokfør**.  
-5. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivakladder**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivakladder**, og velg deretter den relaterte koblingen.  
 
     > [!NOTE]  
     >   **Aktivakladd**-siden inneholder nye linjer for ulike avskrivningstablåer i henhold til duplikatoversikten.  
@@ -100,7 +103,7 @@ Når du fyller ut kladdelinjer som skal bokføres i et avskrivningstablå, kan d
 Du kan kopiere poster fra ett avskrivningstablå til et annet med kjørselen **Kopier avskrivningstablå**. Kjørselen oppretter kladdelinjer i kladden du har angitt på siden **Aktivakladdoppsett** for avskrivningstablået du vil kopiere til. Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Slik kopierer du aktivaposter mellom avskrivningstablåer:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablåer**, og velg deretter den relaterte koblingen.  
 2. Åpne det aktuelle avskrivningstablåkortet, og velg deretter **Kopier avskrivningstablå**.  
 3. På siden **Kopier avskrivningstablå** fyller du ut feltene etter behov.  
 4. Velg **OK**.  

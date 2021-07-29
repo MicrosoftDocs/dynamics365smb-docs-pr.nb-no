@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79c204a6c8a173985a5d3558d5ce1af5a2d8fc39
-ms.sourcegitcommit: 6add995f289c56e5497409308825c73eeaa4f62f
+ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5941520"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441271"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Definere bokføring av konserninterne transaksjoner
 
@@ -28,11 +28,11 @@ Hvis du oppretter eller mottar konserninterne linjer med varer, kan du bruke din
 Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, må du fylle ut feltet **Finanskontonr. for KI-partnerkjøp** på ressurskortet for hver relevante ressurs. Dette er nummeret til den konserninterne finanskontoen der beløpet for denne ressursen skal bokføres i partnerens selskap. Hvis du vil ha mer informasjon, kan du se [Definere ressurser](projects-how-setup-resources.md).
 
 ## <a name="to-set-up-companies-for-intercompany-transactions"></a>Slik definerer du selskaper for konserninterne transaksjoner
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.  
 2. På siden **Selskapsopplysninger** fyller du ut feltet **Konsernintern partnerkode**, **Konsernintern innbokstype**. og feltet **Detaljer om konsernintern innboks**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-intercompany-partners"></a>Slik konfigurerer du konserninterne partnere
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Konsernintern partner** fyller du ut feltene etter behov.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -40,7 +40,7 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 > I [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Slik definerer du konserninterne leverandører og kunder
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Du kan også få tilgang til leverandøren fra feltet **Leverandørnr.** på siden **Konsernintern partner**.
 3. Åpne kortet for en leverandør som er en konsernintern partner. Hvis du vil ha mer informasjon, kan du se [Registrere nye leverandører](purchasing-how-register-new-vendors.md).
 4. I feltet **Konsernintern partnerkode** velger du den relevante konserninterne partnerkoden.
@@ -54,19 +54,19 @@ Hvis selskapet ditt er det overordnede selskapet og har den definerende konserni
 Hvis selselskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen, følger du fremgangsmåten [Slik importerer du den konserninterne kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Slik setter du opp den definerende konserninterne kontoplanen
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.
 2. Angi hver konto på en linje på siden **Konsernintern kontoplan**.  
 3. Hvis den konserninterne kontoplanen vil være identisk med eller vil ligne på den vanlige kontoplanen, kan du fylle ut siden automatisk ved å velge handlingen **Kopier fra kontoplan**. Du kan redigere de nye linjene etter behov.
 
 ### <a name="to-export-an-intercompany-chart-of-accounts"></a>Slik eksporterer du en konsernintern kontoplan
 Hvis du vil at de konserninterne partnerne skal kunne importere den definerende kontoplanen, må du eksportere den til en fil.      
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.
 2. På siden **Konsernintern kontoplan** velger du **Eksporter**-handlingen og velger deretter **Lagre**-knappen.
 3. Angi filnavnet og lokasjonen der du vil lagre XML-filen, og velg deretter **Lagre**.  
 
 ### <a name="to-import-the-intercompany-chart-of-accounts"></a>Slik importerer du den konserninterne kontoplanen  
 Når det finnes en fil for den definerende konserninterne kontoplanen, kan konserninterne partnere importere den for å sikre at de har de samme kontiene.  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.  
 2. På siden **Konsernintern kontoplan** velger du handlingen **Importer**.  
 3. Velg filnavnet og lokasjonen for XML-filen, og velg deretter **Åpne**-knappen.  
 
@@ -77,7 +77,7 @@ Når du har definert eller importert den konserninterne kontoplanen du og de kon
 
 Hvis kontiene i den konserninterne kontoplanen har samme numrene som de tilsvarende kontiene i kontoplanen, kan du tilordne kontoene automatisk.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.  
 2. Velg linjene du vil tilknytte automatisk, og velg deretter **Samkjør med konto med samme nummer**.  
 3. For hver konserninterne finanskonto som ikke ble tilknyttet automatisk, fyller du ut feltet **Samkjør med finanskontonr.**  
 
@@ -86,7 +86,7 @@ Når du oppretter en konsernintern salgs- eller kjøpslinje som skal sendes som 
 
 Når du nå angir en finanskonto i feltet **Motkontonr.** i en konsernintern linje med **Konsernintern partner** i feltet **Kontotype**, blir feltet **Finanskonto for KI-partner** automatisk fylt ut.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. På linjen for en finanskonto er brukt for konserninterne transaksjoner, i feltet **Standard finanskonto for KI-Partner** angir du den konserninterne finanskontoen partneren skal bokføre til når du bokfører i finanskontoen på linjen.  
 3. Gjenta trinn 2 for hver konto du ofte angir, i feltet **Motkontonr.** på en linje i en konsernintern kladd eller et konserninternt dokument.
 
@@ -102,7 +102,7 @@ Hvis selskapet ditt er det overordnede selskapet og har det definerende settet m
 Hvis selskapet er et datterselskap og du har mottatt en XML-fil som inneholder de konserninterne dimensjonene som gruppen skal bruke som felles referanse, følger du fremgangsmåten [Slik importerer du konserninterne dimensjoner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
 ### <a name="to-define-the-intercompany-dimensions"></a>Slik definerer du de konserninterne dimensjonene
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserinterne dimensjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne dimensjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne dimensjoner** angir du hver dimensjon på en linje på siden.
 
     Hvis de konserninterne dimensjonene vil være identiske med eller vil ligne på selskapsdimensjonene, kan du fylle ut siden automatisk ved hjelp av funksjonen **Kopier fra dimensjoner** og deretter redigere resultatlinjene.  
@@ -111,7 +111,7 @@ Hvis selskapet er et datterselskap og du har mottatt en XML-fil som inneholder d
 
 ### <a name="to-import-the-intercompany-dimensions"></a>Slik importerer du de konserninterne dimensjonene  
 Når det finnes en fil for de definerende konserninterne dimensjonene, kan konserninterne partnere importere den for å sikre at de har de samme dimensjonene.  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserinterne dimensjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne dimensjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne dimensjoner** velger du handlingen **Importer**.  
 3. Angi filnavnet og lokasjonen for XML-filen, og velg deretter **Åpne**-knappen.  
 
@@ -124,7 +124,7 @@ Hvis noen av de konserninterne dimensjonene har samme kode som de tilsvarende di
 
 I fremgangsmåten nedenfor tilordner du først konserninterne dimensjoner til dimensjoner for inngående dokumenter på siden **Konserninterne dimensjoner**. Deretter tilordner du dimensjoner til konserninterne dimensjoner for utgående dokumenter på siden **Dimensjoner**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserinterne dimensjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne dimensjoner**, og velg deretter den relaterte koblingen.
 2. På siden **Konserninterne dimensjoner** velger du linjene du vil tilknytte automatisk, og deretter velger du **Samkjør med dimensjon med samme kode**.
 3. Fyll ut feltet **Samkjør med dimensjonskode** for hver konserninterne dimensjon som ikke tilordnes automatisk.
 
@@ -133,7 +133,7 @@ I fremgangsmåten nedenfor tilordner du først konserninterne dimensjoner til di
 5. På siden **Konserninterne dimensjonsverdier** fyller du ut feltet **Samkjør med dimensjonsverdikode**.
 
     Fortsett med å tilknytte dimensjoner til konserninterne dimensjoner ved å utføre lignende fremgangsmåter.
-6. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Dimensjoner**, og velg deretter den relaterte koblingen.
+6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Dimensjoner**, og velg deretter den relaterte koblingen.
 7. På siden **Dimensjoner** velger du linjene du vil tilknytte automatisk, og deretter velger du **Samkjør med KI-dimensjon med samme kode**.
 8. Fyll ut feltet **Samkjør med KI-dimensjonsverdikode** for hver konserninterne dimensjon som ikke tilordnes automatisk.
 9. Velg handlingen **Dimensjonsverdier**.

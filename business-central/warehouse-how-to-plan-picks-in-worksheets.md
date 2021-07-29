@@ -1,6 +1,6 @@
 ---
-title: Planlegge plukkinger i forslaget | Microsoft-dokumentasjon
-description: Hvis lageret er definert til å kreve både plukkbehandling og lagerleveringsbehandling, kan lageret velge å fungere slik at linjene på leveringsdokumentene ikke automatisk blir omgjort til plukkinstrukser, men at de i stedet blir gjort tilgjengelig for plukkforslaget.
+title: Planlegge plukkinger i forslaget
+description: Lær hvordan lageret kan velge å fungere slik at linjene på leveringsdokumentene gjøres tilgjengelige for plukkforslaget.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 55ac86ff992709bb454eaadfa65d8d5eed98732e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782587"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441838"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
 
@@ -39,11 +39,11 @@ Hvis du sorterer etter forfallsdato, kan du velge å slette alle linjer fra fors
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Slik planlegger du plukkinger i forslaget
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Hent lagerdokumenter**.  
 3. Velg de følgesedlene du vil forberede plukking for. Du kan nå sortere linjene i en viss grad, men sorteringen du utfører her, vil ikke bli overført til plukkinstruksjonen. Du kan også slette noen av linjene for å få en mer effektiv plukking. Hvis det for eksempel finnes et antall linjer med varer i kryssoverføringshyller, er det mulig at du vil opprette en plukking for alle linjene som er knyttet til disse linjene. De kryssoverførte varene vil bli levert (sammen med andre varer på følgesedlene), og kryssoverføringshyllene vil ha plass til flere inngående varer.  
 4. Velg handlingen **Opprett plukk**, og fyll ut siden for **Opprett plukk**-forespørselen. Den sorteringen du ber om her, vil sortere de plukklinjene du oppretter. Du kan for eksempel opprette en plukking for hver sone, og sortere linjene etter hylleprioritering innenfor hver plukking.  
-5. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen. **Lagerplukk**-vinduet åpnes.  
+5. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk** og velg den relaterte koblingen. **Lagerplukk**-vinduet åpnes.  
 6. Du kan nå finne plukktilordningen du nettopp opprettet, ved å velge plukkingen med det høyeste nummeret.  
 7. I plukkingen kan du fremdeles endre den tilordnede bruker-IDen og måten linjene er sortert på, hvis det er nødvendig.  
 8. Velg handlingen **Skriv ut** hvis du vil skrive ut plukkinstruksjonene.  

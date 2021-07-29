@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates
 ms.date: 06/03/2021
 ms.author: edupont
-ms.openlocfilehash: 75f8f3ead0bdf0e09ca2484d1a0c91ee771cb837
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184452"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441625"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
@@ -23,7 +23,10 @@ Deretter må du definere valutakoder for hver valuta du bruker, hvis du kjøper 
 > [!Important]
 > Du må ikke opprette den lokale valuta koden **Finansoppsett** og på siden **Valutaer**. Dette vil skape forvirring mellom den tomme valutaen og den lokale valutakoden i valutatabellen, og bankkonti, kunder eller leverandører kan opprettes ved en feiltakelse, noen med den tomme valutaen og noen med den lokale valutakoden.
 
-Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (NOK).
+Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (NOK).  
+
+> [!IMPORTANT]
+> Hvis du vil bruke en tilleggsrapporteringsvaluta for finansrapportering, må du kontrollere at du har forstått begrensningene. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valutaer
 
@@ -66,6 +69,8 @@ Du angir valutakodene i **Valutar**, inkludert tilleggsinformasjon og innstillin
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
 
+Når du mottar en faktura fra et selskap i utenlandsk valuta, er det ganske enkelt å beregne den lokale valutaverdien (NOK) for fakturaen basert på dagens valutakurs. Fakturaen leveres imidlertid ofte med betalingsbetingelser, slik at du kan forsinke betalingen til en senere dato, som innebærer en mulig annen valutakurs. Dette problemet i kombinasjon med at valutakurser alltid avviker fra de offisielle valutakursene gjør det umulig å forutse det nøyaktige beløpet i den lokale valutaen (NOK) som kreves for å dekke fakturaen. Hvis fakturaens forfallsdato går til neste måned, må du kanskje også revaluere det lokale valutabeløpet (NOK) på slutten av måneden. Du må definere valutajusteringen fordi den nye NOK-verdien som kreves for å dekke fakturabeløpet, kan være forskjellig, og selskapets gjeld for leverandøren er muligens endret. Det nye beløpet i NOK kan være høyere eller lavere enn det forrige beløpet, og representerer derfor en gevinst eller et tap. Men siden fakturaen ikke er betalt ennå, regnes gevinst eller som *urealisert*. Senere betales fakturaen, og banken har returnert den med den faktiske valutakursen for betalingen. Det er ikke før nå *realisert* gevinst eller tap er beregnet. Urealisert gevinst eller tap tilbakeføres deretter, og faktisk gevinst eller tap bokføres i stedet.
+
 I eksemplet nedenfor er en faktura mottatt den 1. januar med valutabeløpet på 1 000. På tidspunktet er valutakursen er 1,123.
 
 |Dato|Handling|Valutabeløp|Dokumentsats|NOK-beløp på dokument|Justeringssats|Beløp for urealisert agio|Betalingssats|Beløp for realisert disagio|  
@@ -85,7 +90,7 @@ Til slutt registreres betalingen, og det faktiske tapet blir postert til kontoen
 
 ## <a name="available-currency-functions"></a>Tilgjengelige valutafunksjoner
 
-Følgende tabell beskriver nøkkelhandlinger på siden ***Valutaer**. Noen av handlingene forklares i de neste avsnittene.  
+Følgende tabell beskriver nøkkelhandlinger på siden **Valutaer**. Noen av handlingene forklares i de neste avsnittene.  
 
 |Meny|Handling|Beskrivelse|
 |-------------|--------------|------------------------------|
@@ -117,14 +122,14 @@ Verdiene i feltene **Valutakurs** og **Tilhørende valutakurs** brukes som stand
 
 > [!Note]
 > Den faktiske valutakursen blir beregnet ved hjelp av denne formelen:
-> 
+>
 > `Currency Amount = Amount / Exchange Rate Amount * Relational Exch. Rate Amount`
 
 Justeringsvalutakursen eller den tilhørende valutakursen blir brukt til å oppdatere alle åpne bank-, kunde- eller leverandørtransaksjoner.  
 
 > [!Note]
 > Den faktiske valutakursen blir beregnet ved hjelp av denne formelen:
-> 
+>
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
@@ -143,12 +148,15 @@ For kunde- og leverandørkonti justerer kjørselen valutaen ved å bruke valutak
 Kjørselen behandler aller åpne kundeposter og leverandørposter. Hvis det finnes en valutadifferanse for en post, oppretter kjørselen en ny detaljert kunde- eller leverandørpost som gjenspeiler de justerte beløpene på kunde- eller leverandørposten.
 
 #### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensjoner på kunde- og leverandørposter
+
 Justeringspostene tilordnes dimensjonene fra kunde- eller leverandørpostene, og justeringene bokføres av dimensjonsverdiene.
 
 ### <a name="effect-on-bank-accounts"></a>Innvirkning på bankkonti
+
 For bankkonti justerer kjørselen valutaen med valutakursen som gjelder på bokføringsdatoen som er angitt i kjørselen. Kjørselen beregner differansene for de enkelte bankkontiene som har en valutakode, og bokfører beløpene til finanskontoen som er angitt i feltet **Kto. for realisert agio** eller feltet **Konto for realisert disagio** på siden **Valuta**. Motposter bokføres automatisk på finanskontiene som er angitt i bankbokføringsgruppene. Kjørselen beregner én post per valuta, per bokføringsgruppe.
 
 #### <a name="dimensions-on-bank-account-entries"></a>Dimensjoner på bankkontoposter
+
 Justeringspostene for bankkontoens finanskonto, og for tap/vinning-kontoen tilordnes bankkontoens standarddimensjon.
 
 ### <a name="effect-on-gl-accounts"></a>Innvirkning på finanskonti
@@ -165,20 +173,20 @@ Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
 Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutakurstjenester**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tjenester for valutakurs**, og velg deretter den tilknyttede koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Valutakurstjeneste** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Aktiver alternativet **Aktivert** for å aktivere tjenesten.
 
 > [!NOTE]
-> Den følgende videoen viser et eksempel på hvordan du kan koble til en valutakurstjeneste ved hjelp av Den europeiske sentralbank som eksempel. I segmentet som beskriver hvordan du definerer felttilordninger, returnerer innstillingen i kolonnen **Kilde** for den **overordnede noden for valutakode** bare den første valutaen som blir funnet. Innstillingen må være **/gesmes: Envelope/Code/Code/Code**.
+> Den følgende videoen viser et eksempel på hvordan du kan koble til en valutakurstjeneste ved hjelp av Den europeiske sentralbank som eksempel. I segmentet som beskriver hvordan du definerer felttilordninger, returnerer innstillingen i kolonnen **Kilde** for den **overordnede noden for valutakode** bare den første valutaen som blir funnet. Innstillingen skal være `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
 ## <a name="to-update-currency-exchange-rates-through-a-service"></a>Oppdatere valutakurser via en tjeneste
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Valutaer** og velg den relaterte koblingen.
 2. Velg **Oppdater valutakurser**.
 
 Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.

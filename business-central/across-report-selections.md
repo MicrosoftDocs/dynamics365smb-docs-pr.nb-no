@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba15a65317ebf52579c285c93dd59eba1b65ae1b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 848b2ddc00f5006f31a0b2cff0a07d51ec305921
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787110"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440802"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
@@ -32,7 +32,7 @@ Siden **Rapportvalg** angir hvilken rapport som skal skrives ut i forskjellige s
 |Definer rapporter for mva-rapportering (Tyskland)|[Sette opp rapporter for mva og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> [!INCLUDE [prod_short](includes/prod_short.md)] kan inkludere flere sider for **rapportvalg**, avhengig av lokasjon og bransje. Du kan alltid kontrollere oppsettet ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportvalg** og velge den aktuelle koblingen.
+> [!INCLUDE [prod_short](includes/prod_short.md)] kan inkludere flere sider for **rapportvalg**, avhengig av lokasjon og bransje. Du kan alltid kontrollere oppsettet ved å velge ![Lyspæren som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportvalg** og velge den relevante koblingen.
 
 Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] omfatter følgende sider for **rapportvalg**:
 
