@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: cancel, undo, correct
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5dbb243225e4e5362a715165f28dff00c6fbf47b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772757"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445554"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 
@@ -50,7 +50,7 @@ Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-
 
 ## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Opprette en kjøpskreditnota fra en bokført kjøpsfaktura
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. På siden **Bokførte kjøpsfakturaer** velger du den bokførte kjøpsfakturaen som du vil tilbakeføre, og deretter velger du handlingen **Opprett korrigerende kreditnota**.
 
     De fleste feltene på kjøpskreditnotahodet fylles ut med informasjon fra den bokførte kjøpsfakturaen. Du kan redigere alle feltene, for eksempel med ny informasjon som gjenspeiler returavtalen.
@@ -71,7 +71,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 
 ## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Opprette en ny kjøpskreditnota ved å kopiere en bokført kjøpsfaktura
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.
 3. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
 4. Velg handlingen **Kopier fra dokument**.
@@ -83,7 +83,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 
 ## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.
 4. I **Linjer**-hurtigfanen fyller du ut linjene manuelt, eller kopier informasjon fra andre dokumenter for å fylle ut linjene automatisk:
@@ -146,7 +146,7 @@ Hvis leverandøren sender deg varer som du ikke er fornøyd med, på grunn av at
 
 Du kan bokføre denne reduserte kjøpskostnaden som et varegebyr i en kreditnota eller bestillingsretur og knytte den til det bokførte mottaket. Det følgende beskriver den for en bestillingsretur, men de samme trinnene gjelder en kjøpskreditnota.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.  
 3. Fyll ut kreditnotahodet med opplysninger om leverandøren som sendte kjøpsrabatten til deg.  
 4. På hurtigfanen **Linjer**, i **Type**-feltet, velger du **Gebyr (vare)**.  
@@ -172,7 +172,7 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 > [!NOTE]  
 > Denne fremgangsmåten forutsetter at det finnes flere bestillingsreturer for leverandøren, og at de er bokført som levert.     
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene i hurtigfanen **Generelt** etter behov.  
 4. Velg handlingen **Hent returforsendelseslinjer**.  
@@ -183,7 +183,7 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 
 ### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Fjerne åpne bestillingsreturer etter kombinert returforsendelsesbokføring  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett fakturerte bestillingsreturer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett fakturerte bestillingsreturer**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3. Du kan også slette individuelle bestillingsreturer manuelt.
 

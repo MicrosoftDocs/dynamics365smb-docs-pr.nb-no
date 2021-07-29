@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074690"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446468"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -33,11 +33,11 @@ Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med Teams-sk
 
 Uansett hvor du er i Teams kan du slå opp detaljer om kunder, leverandører og andre [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter. Med denne funksjonen kan du ikke bare vise generell informasjon om kontakter, men gir også tilgang til samhandlingslogg, relaterte dokumenter med mer.
 
- [![Slå opp Business Central-kontakter fra kommandoboksen i Teams](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Slå opp Business Central-kontakter fra kommandoboksen i Teams.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Du kan også dele kontaktopplysninger i en samtale. Deretter har deltakerne tilgang til ytterligere detaljer om kontakten også.
 
- [![Slå opp Business Central-kontakter fra meldingsboksen i Teams](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Slå opp Business Central-kontakter fra meldingsboksen i Teams.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Hvis du vil ha mer informasjon, kan du se [Søke etter kontakter fra Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Hvis du vil ha mer informasjon, kan du se [Søke etter kontakter fra Microsoft T
 
 Kopier en kobling til en Business Central-oppføring, og lim den inn i en Teams-samtale for å dele med kollegene dine. Appen utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten.
 
-[![Teams-integrering med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
 
@@ -68,6 +68,7 @@ Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](a
 
 [Vanlige spørsmål om Teams](teams-faq.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
+[Endre selskap og andre innstillinger i Teams](across-teams-settings.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

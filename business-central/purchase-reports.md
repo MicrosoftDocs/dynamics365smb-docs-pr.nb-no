@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216385"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543173"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Kjøpsrapporter og analyser i Business Central
 
@@ -24,8 +24,7 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i kjøpsrapportering.
 
 |Rapport |Objekt-ID|Beskrivelse  |
 |---------|---------|---------|
-|**Kjøpsstatistikk**|312|Viser kjøpsstatistikk for hver leverandør. Dette omfatter informasjon om fem perioder, med startdatoen du angir.<br>
-Rapporten inneholder samlet informasjon om kjøp, betalinger, rentetillegg og rabatt, inkludert kontantrabatter som er tatt og tapt. Statistikk beregnes for kjøp før datoen som er angitt i tre enmåneds intervaller fra datoen som er angitt, og for en periode, inkludert alle kjøp som er foretatt etter tredje enmåneds intervall.|
+|**Kjøpsstatistikk**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Leverandør – ti på topp-liste**|311|Viser informasjon om kjøp fra leverandører for en bestemt periode. Du kan bestemme antall leverandører som skal inngå i rapporten.<br>Leverandørene sorteres etter beløp, og du bestemmer om de skal sorteres etter kjøpsbeløp eller saldo. Rapporten gir et raskt overblikk over hvilke leverandører du har mest utestående hos, eller handler mest hos.|
 |**Leverandørvarekatalog** eller **Vare-/leverandørkatalog**|320 eller 720|Viser en liste over leverandører for valgte varer eller varer for utvalgte leverandører. For hver kombinasjon av vare og leverandør vises opplysninger om direkte enhetskost, leveringstid og leverandørers varenummer.<br>I USA, Canada og Mexico er ikke denne rapporten tilgjengelig. Bruk i stedet rapporten **Vare-/leverandørkatalog** (10164).|
 |**Leverandør/vare-kjøp**|313|Viser en oversikt over vareposter for hver leverandør i en bestemt periode. Rapporten inneholder opplysninger om fakturert antall, beløp og eventuelle rabatter. Den kan for eksempel brukes til å analysere varekjøp for et selskap, og til å vise om det er en forbindelse mellom rabatter og varekjøp.|

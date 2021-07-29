@@ -10,20 +10,20 @@ ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd90f7bf90209496f67d52ab32a93cfdbaf803f
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087647"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445900"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor en side er låst fra tilpasning
 
-Det finnes to betingelser som hindrer deg i å tilpasse en side. Siden er låst (som angitt av ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås")), eller den er blokkert (angitt av ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpassing blokkert")).
+Det finnes to betingelser som hindrer deg i å tilpasse en side. Siden er låst (som angitt av ikonet ![Tilpassingslås.](media/personalization-lock-icon.png "Tilpass lås")), eller den er blokkert (angitt av ikonet ![Tilpassing blokkert.](media/personalization-blocked-icon.png "Tilpassing blokkert"). ).
 
 ## <a name="locked-from-personalizing"></a>Låst for tilpasning
 
-Hvis ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås") vises på **Tilpasse**-banneret når du åpner en side, betyr dette at du ikke kan foreta flere tilpassingsendringer av siden.
+Hvis det er et ikon ![Tilpasningslås.](media/personalization-lock-icon.png "Tilpass lås") i banneret **Tilpassing** når du åpner en side, betyr dette at du er hindret fra å foreta flere tilpasningsendringer av siden.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -50,7 +50,7 @@ Før du låser opp siden må du være oppmerksom på følgende:
 
 Hvis ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpassing blokkert") vises på **Tilpasse**-banneret, betyr det at du ikke kan gjøre eventuelle tilpassinger på siden.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked](media/personalization-blocked.png "Personalize lock") -->
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
 Dette er fordi rollesenteret eller rollen som er knyttet til brukerkontoen, endrer denne siden spesielt for din rolle. Kontakt systemansvarlig for å få hjelp. Du kan eventuelt prøve å bytte til et rollesenter som inkluderer rolleskreddersying for denne siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 

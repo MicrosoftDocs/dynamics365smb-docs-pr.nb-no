@@ -1,6 +1,6 @@
 ---
 title: Definere merverdiavgift (mva)
-description: Kontroller at du riktig beregne, postere og rapportere mva for salg og innkjøp.
+description: Kontroller at du riktig beregne, postere og rapportere mva for salg og innkjøp. Vi anbefaler at du bruker den assisterte oppsettsveiledningen til å definere mva.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 36714bb2e211c72bf2d953b7c64b9ea58e11f6e7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770812"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446168"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -39,7 +39,7 @@ Vi anbefaler at du bruker den medfølgende mva-oppsettguiden til å definere mva
 
 Hvis du vil oppsettguiden, gjør du følgende:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Assistert oppsett**.  
 2. Velg **Angi MVA**, og fullfør trinnene.
 3. Når du har fullført det assisterte oppsettet, kan du gå til siden **Mva-bokføringsoppsett** og kontrollere om du må fylle ut flere felt i henhold til de lokale kravene i versjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet i Business Central](about-localization.md).  
 
@@ -49,7 +49,7 @@ Du kan definere formater for organisasjonsnumre som brukes i land og områder so
 
 Gjør følgende for å definere organisasjonsnumre:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Land/regioner**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Land/områder**.
 2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
 3. I **Formater**-feltet definerer du formatet ved å angi én eller flere av følgende tegn:  
 
@@ -67,7 +67,7 @@ Bruk koder som er lette å huske, og som beskriver bokføringsgruppen, for eksem
 
 Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsgruppe - firma**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsgruppe – firma**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 Du oppretter standard mva-bokføringsgrupper for firma ved å knytte dem til firmabokføringsgrupper. [!INCLUDE[prod_short](includes/prod_short.md)] tilordner automatisk mva-bokføringsgruppen for firma når du knytter firmabokføringsgruppen til en kunde, leverandør eller finanskonto.
@@ -78,7 +78,7 @@ Det er lurt å bruke koder som er lette å huske og som beskriver satsen, for ek
 
 Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsgrupper – produkt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-combine-vat-posting-groups-in-vat-posting-setups"></a>Slik kombinerer du mva-bokføringsgrupper i mva-bokføringsoppsett
@@ -88,7 +88,7 @@ Du kan definere så mange kombinasjoner du vil. Hvis du vil gruppere kombinasjon
 
 Hvis du vil kombinere mva-bokføringsoppsett, følger du denne fremgangsmåten:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-assign-vat-posting-groups-by-default-to-multiple-entities"></a>Slik tilordner du mva-bokføringsgrupper som standard til flere enheter
@@ -103,18 +103,18 @@ Mva-bokføringsgruppe for firma eller vare tilordnes når du velger en bokførin
 De følgende delene beskriver hvordan du tilordner du mva-bokføringsgrupper til enkeltenheter.
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Tilordne mva-bokføringsgrupper til individuelle finanskonti
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Åpner **Finans**-kortet for kontoen.  
 3. På hurtigfanen **Bokføring** i feltet **Bokføringstype** velger du enten **Salg** eller **Kjøp**.  
 5. Velg mva-bokføringsgruppene for å bruke for salgs- eller kjøpskontoen.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Tilordne mva-bokføringsgrupper for firma til kunder og leverandører  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.  
 2. På kortet **Kunde** eller **Leverandør** utvider du hurtigfanen **Fakturering**.  
 3. Velg mva-bokføringsgruppen for firma.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Tilordne mva-bokføringsgrupper for vare til individuelle varer og ressurser  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Vare** eller **Ressurs**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vare** eller **Ressurs** og velg den relaterte koblingen.  
 2. Gjør ett av følgende:  
 
 * På **Vare**-kortet utvider du hurtigfanen **Pris og bokføring** og velger deretter **Vis mer** for å vise feltet **Mva-bokføringsgruppe - vare**.  
@@ -131,7 +131,7 @@ Når ikke-standard mva-satser brukes i forskjellige typer dokumenter, for eksemp
 Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] beholder i imidlertid ikke historikk av endringen. Mva-setningsbeskrivelsene skrives ut på rapporten og vises for alle linjene i rapporten ved siden av mva-beløpet og mva-grunnlagsbeløpet. Hvis det ikke er definert en mva-setning for alle linjene i salgsdokumentet, utelates hele delen når rapporten skrives ut.
 
 ### <a name="to-set-up-vat-clauses"></a>Opprette mva-setninger
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-setninger** og velg deretter den relaterte koblingen.  
 2. På siden **Mva-setninger** oppretter du en ny linje.  
 3. Angi en ID for setningen i **KCode**-feltet. Du bruker denne koden til å knytte setningen til mva-bokføringsgrupper.  
 4. I feltet **Beskrivelse** angir du mva-fritaksteksten som du vil vise på dokumenter som kan inkludere mva. I feltet **Beskrivelse 2** angir du ekstra tekst ved behov. Teksten vises på nye dokumentlinjer.
@@ -141,11 +141,11 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 8. Valgfritt: Hvis du vil angi hvordan du vil oversette mva-setningen, velger du **Oversettelser**.
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Slik tilordner du en mva-setning til et mva-bokføringsoppsett
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. I kolonnen **Mva-setning** velger du setningen som skal brukes for hvert mva-bokføringsoppsett den gjelder for.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Angi oversettelser for mva-setninger
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-setninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-setninger** og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Oversettelser**.  
 3. I feltet **Språkkode** velger du hvilket språk du skal oversette til.  
 4. I feltene **Beskrivelse** og **Beskrivelse 2** skriver du inn oversettelsen av beskrivelsene. Denne teksten vises i de oversatte mva-rapportdokumentene.  
@@ -154,9 +154,9 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 Du bruker funksjonen for import-mva når du skal bokføre et dokument der hele beløpet er mva. Dette bruker du hvis du mottar en faktura fra skattemyndighetene for mva for importerte varer.  
 
 Følg disse trinnene for å opprette koder for import-mva:  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsgrupper - vare**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsgrupper – produkt**, og velg deretter den relaterte koblingen.  
 2. Gå til siden Mva-bokføringsgrupper - vare. Definer en ny mva-varebokføringsgruppe for import-mva.  
-3. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 4. Gå til siden Mva-bokføringsoppsett. Opprett en ny linje, eller bruk en eksisterende mva-bokføringsgruppe for firma sammen med den nye mva-varebokføringsgruppen for import-mva.  
 5. I feltet **Mva-beregningstype** velger du **Full mva**.  
 6. I feltet **Inngående mva-konto** angir du hvilken finanskonto som skal brukes til å bokføre import-mva. Alle andre kontoer er valgfrie.  

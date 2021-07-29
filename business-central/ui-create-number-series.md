@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 75bcb6763c9253bba72ca7f1ff980222263b4e9c
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870001"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446000"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
@@ -60,7 +60,7 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 > Hvis du vil aktivere manuell nummerering på for eksempel nye varekort som er opprettet med en dataoverføring som har skjult **Nr.** som standard, går du til siden **Lageroppsett** og velger **Varenr.**-feltet for å åpne og angi den relaterte nummerserien til **Manuelle nr.**.
 
 ## <a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Nr.serie**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Nr.serie**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Linjer**.
@@ -69,7 +69,7 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 
 ## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
 Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salg**, og velg deretter den relaterte koblingen.
 2. På siden **Salg** på hurtigfanen **Nummerserie** velger du ønsket nummerserie for hvert salgskort eller dokument.
 
 Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.
@@ -77,7 +77,7 @@ Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet el
 ## <a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
 Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnleggende opplysninger eller transaksjoner, kan du opprette forbindelser mellom kodene. Denne funksjonen kan hjelpe deg med å velge mellom koder når du bruker et nummer.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Nr.serie**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Nr.serie**, og velg deretter den relaterte koblingen.
 2. Velg linjen med nummerserien du vil opprette forbindelser for, og velg deretter **Forbindelser**.
 3. I **Seriekode**-feltet angir du koden for nummerserien du vil knytte til serien du valgte i trinn 2.
 4. Legg til en linje for hver kode du vil knytte til den valgte nummerserien.

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1757f1c02bb6623f59996d372f544f224b94237e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775187"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445729"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbeid på tvers av flere selskaper i selskapshuben
 
@@ -30,7 +30,7 @@ Hvis du bruker rollen **Selskapshub**, viser hjemmesiden en liste over selskaper
 > [!TIP]
 > Hvis du vil ha tilgang til et bestemt selskap i [!INCLUDE [prod_short](includes/prod_short.md)], velger du navnet på selskapet eller velger menyelementet **Gå til selskap**, og du logges inn automatisk i en ny nettleserkategori.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben.":::
 
 Du kan legge til nye selskaper, for eksempel når du får en ny klient, eller når bedriften legger til et nytt datterselskap. Hvis du vil ha mer informasjon, kan du se [Legge til selskaper i selskapshuben](company-hub-add-company.md).  
 

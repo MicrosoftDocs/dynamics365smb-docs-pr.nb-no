@@ -1,6 +1,6 @@
 ---
-title: Plukke for montering eller produksjon i enkle lageroppsett
-description: Når lagerlokasjonen krever plukkbehandling, men ikke krever leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter.
+title: Plukk produksjon eller montering i grunnleggende lager
+description: Når lagerlokasjonen krever plukkbehandling, men ikke leveringsbehandling, bruker du siden Lagerplukk til å organisere og registrere plukking av komponentene.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 005532799378248f67ff21b8e50955342ff1c24a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782612"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445800"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plukke for montering eller produksjon i enkle lageroppsett
 Hvordan du plasserer plukkomponenter for produksjons- eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
@@ -43,7 +43,7 @@ En systemforutsetning for plukking, eller flytting, av komponenter for kildedoku
 ## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Slik plukker du produksjonskomponenter i grunnleggende lagerkonfigurasjoner med Lagerplukk
 I enkle lageroppsett der lokasjonen er definert slik at bare plukking brukes, kan du plukke komponenter for produksjonsaktiviteter ved å bruke **Lagerplukk**-siden. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2.  Du får tilgang til produksjonsordrekomponentene ved å velge handlingen **Hent kildedokumenter** og deretter velge den frigitte produksjonsordren.  
 3.  Utfør plukkingen, og registrer deretter den aktuelle plukkinformasjonen i feltet **Ant. som skal håndt.**.  
 4.  Når linjene er klare for bokføring, velger du handlingen **Bokfør**. Bokføringen oppretter de nødvendige lagerpostene og bokfører forbruket av varene.  
@@ -81,7 +81,7 @@ I kombinasjonsscenarier, der en del av antallet først må monteres og en annen 
 ## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
-![Flytskjema for hylle](media/binflow.png "BinFlow")
+![Flytskjema for hylle.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Se også
 [Lagerstyring](warehouse-manage-warehouse.md)  

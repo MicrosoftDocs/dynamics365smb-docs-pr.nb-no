@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783396"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445925"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783396"
 
 ## <a name="switch-to-another-environment"></a>Bytte til et annet miljø
 
-Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige på Dynamics 365-hjemmesiden. Du kan åpne siden ved å velge ikonet for **appstarterikonet** ![Appstarter](media/app-launcher-icon.png "Appstarteren gir tilgang til flere funksjoner"), og velge **Dynamics 365**. Hvis du vil gå til standardselskapet ditt i dette miljøet, velger du flisen. Det vil være én flis for hver type miljø. Hvis du har mer enn ett miljø av en bestemt type, kan du velge hvilket miljø du vil ha tilgang til når du velger flisen.
+Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige på Dynamics 365-hjemmesiden. Du kan åpne siden ved å velge ikonet for **appstarter** ![Appstarter.](media/app-launcher-icon.png "Appstarteren gir tilgang til flere funksjoner") og velge **Dynamics 365**. Hvis du vil gå til standardselskapet ditt i dette miljøet, velger du flisen. Det vil være én flis for hver type miljø. Hvis du har mer enn ett miljø av en bestemt type, kan du velge hvilket miljø du vil ha tilgang til når du velger flisen.
 
 Bildet nedenfor viser fliser for tilgang til produksjons- og sandkassemiljøer på Dynamics 365-hjemmesiden.
 
@@ -33,7 +33,7 @@ Bildet nedenfor viser fliser for tilgang til produksjons- og sandkassemiljøer p
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du raskt bytte til et annet selskap. Når du har byttet, blir selskapet du velger standardselskap og vil vises neste gang du logger på.
 
-1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
+1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 
     > [!TIP]
     > Du kan også bruke hurtigtasten Alt+T til å åpne siden Mine innstillinger på en rask måte.

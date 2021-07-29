@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3822566d239d6fda0cc314a3c9f20ac909943886
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115843"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445504"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrere kjøp med kjøpsfakturaer
 
@@ -49,7 +49,7 @@ Du kan fylle leverandørfelt i kjøpsfakturaen på to måter, avhengig av om lev
 
 Nedenfor ser du en beskrivelse av hvordan du oppretter en kjøpsfaktura. Trinnene er de samme for en bestilling. Hovedforskjellen er at bestillinger har flere felt og handlinger for fysisk håndtering av varer.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
 
     Andre felt på siden **Kjøpsfaktura** fylles nå med standardinformasjon for den valgte leverandøren. Hvis leverandøren ikke er registrert, følger du denne fremgangsmåten:

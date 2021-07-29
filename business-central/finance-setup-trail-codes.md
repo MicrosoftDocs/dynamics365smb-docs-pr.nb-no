@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773842"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446218"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Definere kildespor og årsaksspor for revisjonsspor
 
@@ -33,7 +33,7 @@ Når du bokfører eller starter en kjørsel, knyttes det riktige kildesporet til
 
 ### <a name="to-define-source-codes"></a>Slik definerer du kildespor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kildespordefinisjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angir **Kildespordefinisjon** og velger den relaterte koblingen.  
 
 2. I vinduet **Kildespordefinisjon** angir du det aktuelle kildesporet for hver enkelt bokføringstype og kjørsel.  
 
@@ -45,7 +45,7 @@ Noen ganger kan det være nødvendig å endre et kildespor. Du vil for eksempel 
 
 ### <a name="to-change-source-codes"></a>Slik endrer du kildespor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kildespor**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Kildespor**, og velg deretter den relaterte koblingen.
 
 2. På linjen med kildesporet som skal endres, velger du et spor i feltet **Spor**.
 
@@ -59,7 +59,7 @@ Alle nye poster som bokføres fra finanskladden får det nye kildesporet.
 
 ### <a name="to-set-up-reason-codes"></a>Slik setter du opp årsaksspor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Årsaksspor**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Årsaksspor**, og velg deretter den relaterte koblingen.
 
 2. Angi den første koden i **Spor**-feltet i **Årsaksspor**-vinduet. I feltet **Beskrivelse** skriver du inn en forklarende tekst.
 
@@ -69,7 +69,7 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Slik tilordner du årsaksspor til kladdemaler
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladdemaler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Finanskladdmaler**, og velg deretter den relaterte koblingen.
 
 2. På linjen med den valgte kladdemalen setter du inn ønsket spor i **Årsaksspor**-feltet.
 

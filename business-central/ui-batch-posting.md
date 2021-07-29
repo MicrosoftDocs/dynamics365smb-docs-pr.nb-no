@@ -1,6 +1,6 @@
 ---
-title: Bokføre flere dokumenter samtidig | Microsoft Docs
-description: I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for massebokføring, enten det er for umiddelbar bokføring eller planlagt, for eksempel på slutten av dagen.
+title: Bokføre flere dokumenter samtidig
+description: I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for umiddelbar bokføring eller planlagt massebokføring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773633"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446050"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bokføre flere dokumenter samtidig
 
@@ -25,7 +25,7 @@ I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere doku
 
 Fremgangsmåten nedenfor forklarer hvordan du bokfører flere bestillinger umiddelbart. Trinnene er lignende for alle kjøps- og salgsdokumenter.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.
 2. På **Bestilling**-siden fortsetter du for å velge alle bestillinger som skal bokføres:
 3. I **Nr.** -feltet velger du de tre loddrette prikkene for å åpne hurtigmenyen, og deretter velger du handlingen **Velg flere**.
 4. Merk av i boksen for alle linjene som representerer ordrer du vil bokføre samtidig.
@@ -36,7 +36,7 @@ Fremgangsmåten nedenfor forklarer hvordan du bokfører flere bestillinger umidd
 
 Fremgangsmåten nedenfor forklarer hvordan du massebokfører bestillinger. Trinnene er de samme for alle kjøps- og salgsdokumenter der handlingen **Massebokfør** er tilgjengelig.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillinger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2. På **Bestilling**-siden fortsetter du for å velge alle bestillinger som skal bokføres:
 3. I **Nr.** -feltet velger du de tre loddrette prikkene for å åpne hurtigmenyen, og deretter velger du handlingen **Velg flere**.
 4. Merk av i boksen for alle linjene som representerer ordrer du vil bokføre samtidig.
@@ -53,7 +53,7 @@ Jobbkøer er et effektivt verktøy til å planlegge kjøring av forretningsprose
 
 Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bakgrunnen. Trinnene er de samme for kjøp.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Salgsoppsett** merker du av for **Bokfør med jobbkø**.
 3. Velg feltet **Kategorikode for jobbkø**, og angi deretter koden **SALGSBOKF**.
 
@@ -86,7 +86,7 @@ Du kan også utsette bokføringer til når det passer for organisasjonen. I din 
 
 Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør ordrer** slik at ordrer bokføres automatisk kl. 16:00 på ukedager.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. I feltet **Objekttype som skal kjøres** velger du **Rapport**.  
 4. I feltet **Objekt-ID som skal kjøres** velger du 296, **Massebokfør ordrer**.

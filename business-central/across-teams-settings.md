@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 98a8f91aa3c6b8c9b2c9348441ca369f34f73b88
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: 195d94af6e34206c6107690b0fef499ccc8b2490
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882496"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446443"
 ---
 # <a name="changing-company-and-other-settings-in-teams"></a>Endre selskap og andre innstillinger i Teams
 
@@ -27,16 +27,18 @@ Du kan åpne siden **Innstillinger** på to måter: 1) fra meldingsboksen eller 
 
 1. Under meldingsboksen høyreklikker du [!INCLUDE [prod_short](includes/prod_short.md)]-ikonet for appen og velger deretter **Innstillinger**.
 
-    ![Innstillinger for Business Central fra kommandoboks](media/teams-settings-message-box.png)
+    ![Innstillinger for Business Central fra kommandoboks.](media/teams-settings-message-box.png)
 
 2. I kommandoboksen øverst søker du etter **@Business Central**, velger **... (Flere alternativer)**, og velg deretter **Innstillinger**.
 
-   ![Innstillinger for Business Central fra meldingsboks](media/teams-settings-command-box.png)
+   ![Innstillinger for Business Central fra meldingsboks.](media/teams-settings-command-box.png)
 
 ## <a name="see-also"></a>Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md)  
+[Dele poster i Microsoft Teams](across-working-with-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

@@ -1,20 +1,20 @@
 ---
-title: Finansrapporter i Business Central
-description: Se hvilke finansrapporter som er tilgjengelige i standard versjonen av Business Central, slik at du kan holde oversikt over virksomheten.
+title: Finansrapporter og analyser
+description: Se hvilke finansrapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over virksomheten.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935289"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543148"
 ---
-# <a name="financial-reports-in-business-central"></a>Finansrapporter i Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
 
 Ved finansiell rapportering i [!INCLUDE [prod_short](includes/prod_short.md)] kan regnskapsavdelingen og driftsavdelingen opprette, vedlikeholde, distribuere og vise årsregnskap. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt. [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer flere rapporter, sporingsfunksjoner og verktøy som hjelper revisorer eller kontrollører som er ansvarlige for rapportering til økonomiavdelingen. Financial Reporting inkluderer støtte for dimensjoner, så kontosegmenter eller dimensjoner er umiddelbart tilgjengelige. Ingen andre verktøy eller konfigurasjonstrinn kreves.  
 
@@ -22,19 +22,19 @@ Ved finansiell rapportering i [!INCLUDE [prod_short](includes/prod_short.md)] ka
 
 Tabellen nedenfor beskriver noen av nøkkelrapportene i Financial Reporting.
 
-|Rapport |Beskrivelse  |
-|---------|---------|
-|**Råbalanse**| Viser kontoplanen med saldoer og bevegelser. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. |
-|**Råbalanse etter periode**  | Viser inngående balanse etter finanskonto, bevegelsene i den valgte perioden (måned, kvartal eller år) samt den resulterende utgående balansen.         |
-|**Råbalanse/Budsjett** | Viser en råbalanse sammenlignet med et budsjett. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår.        |
-|**Detaljert råbalanse** |Viser en detaljert råbalanse for bestemte finanskonti. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. Du kan definere hvilke konti som skal være med i rapporten, ved å definere filtre.         |
-|**Råbalanse/fjorår**|Viser en råbalanse sammenlignet med tall fra forrige år. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. Merk at med *forrige år* menes samme periode ett kalenderår tidligere.|
-|**Kontoskjema**|Kontoskjemaer kan brukes til å vise finanskonti på en annen måte enn i kontoplanen. Kontoskjemaer kan for eksempel brukes til rapporter om nøkkeltall.|
-<!--|**Balanse** (Kontoskjema eller Excel) eller **Råbalanse** |         |
-|**Kontantstrømutdrag** (kontoskjema) |         |
-|**Sammendrag av råbalanse / detaljer** |         |
-|**Resultatregnskap** (Kontoskjema eller Excel)||
-|**Budsjett** ||-->
+| Rapport | Objekt-ID | Beskrivelse |
+|--|--|--|
+| **Råbalanse** | 6 | Viser kontoplanen med saldoer og bevegelser. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. |
+| **Råbalanse etter periode** | 38 | Viser inngående balanse etter finanskonto, bevegelsene i den valgte perioden (måned, kvartal eller år) samt den resulterende utgående balansen. |
+| **Råbalanse/Budsjett** | 9 | Viser en råbalanse sammenlignet med et budsjett. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. |
+| **Detaljert råbalanse** | 4 | Viser en detaljert råbalanse for bestemte finanskonti. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. Du kan definere hvilke konti som skal være med i rapporten, ved å definere filtre. |
+| **Råbalanse/fjorår** | 7 | Viser en råbalanse sammenlignet med tall fra forrige år. Du kan velge å se en råbalanse for bestemte dimensjoner. Du kan bruke rapporten ved slutten av en regnskapsperiode eller et regnskapsår. Med *forrige år* menes samme periode ett kalender år tidligere. |
+| **Kontoskjema** | 25 | Kontoskjemaer kan brukes til å vise finanskonti på en annen måte enn i kontoplanen. Kontoskjemaer kan for eksempel brukes til rapporter om nøkkeltall. |
+<!-- | **Balanse** (Kontoskjema eller Excel) eller **Råbalanse** |  |  |
+| **Kontantstrømutdrag** (kontoskjema) |  |  |
+| **Sammendrag av råbalanse / detaljer** |  |  |
+| **Resultatregnskap** (Kontoskjema eller Excel) |  |  |
+| **Budsjett** |  |  | -->
 
 ## <a name="tasks"></a>Oppgaver
 
@@ -57,6 +57,9 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 [Forberede avslutningsoppgaver](year-prepare-close-statement.md)  
 [Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
+[Kunderapporter og -analyse](receivables-reports.md)  
+[Leverandørrapporter og -analyse](payables-reports.md)  
+[Rapporter og analyse av aktiva](fa-reports.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans](finance.md)  
 [Oversikt over lokal funksjonalitet](about-localization.md)  

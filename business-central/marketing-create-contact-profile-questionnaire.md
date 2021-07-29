@@ -1,6 +1,6 @@
 ---
 title: Bruke profiler til å klassifisere kontakter
-description: Konfigurere profilspørreskjemaer til å klassifisere forretningskontaktene
+description: Les om hvordan du definerer profilspørreskjemaer for å bidra til å klassifisere forretningskontaktenes profiler.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 04/01/2021
-ms.openlocfilehash: 31321ce4cafd17efc8a7732c81e874df1a1d763a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/22/2021
+ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785501"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445529"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruke profilspørreskjemaer til å klassifisere forretningskontakter
 Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om profiler for kontaktene. Du kan definere de ulike spørsmålene du vil spørre kontaktene om, i hvert enkelt spørreskjema.  
@@ -23,7 +23,7 @@ Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om
 Du kan også kjøre spørreskjemaet for å besvare noen av spørsmålene automatisk basert på data om kontakter, kunder eller leverandører.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Slik legger du til et profilspørreskjema:
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Spørreskjemaoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Spørreskjemaoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 

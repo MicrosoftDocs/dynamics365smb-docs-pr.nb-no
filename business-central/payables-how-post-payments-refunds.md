@@ -1,21 +1,21 @@
 ---
-title: Utligne betalinger mot dokumenter og bokføre dem | Microsoft Docs
-description: Beskriver hvordan du registrerer betalinger du gjør til leverandører og refusjoner du gjør til kunder.
+title: Registrere betalinger og refusjoner i utbetalingskladden
+description: Les om hvordan du registrerer betalinger du gjør til leverandører og refusjoner du gjør til kunder, på siden Utbetalingskladd.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 04/01/2021
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 1316bb7c5f1385ffef2ebe330d02e5a352e8561a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 61a47f68de6466c177ab8683f4167a77ec04dc3f
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782066"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543200"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere betalinger og refusjoner i utbetalingskladden
 
@@ -37,16 +37,31 @@ Utbetalingskladden er en finanskladd som er tilpasset for betalinger. Du kan ras
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Foreta betalinger i utbetalingskladden
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.
 2. Åpne kladden som er reservert for betalinger.
-3. Hvis du vet hvem du skal betale eller refundere, fyller du ut feltene manuelt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Hvis du vet hvem du skal betale, fyller du ut feltene manuelt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du også vil utligne betalingen mot den tilknyttede fakturaen eller kreditnotaen, velger du **Utligningsbilagsnr.**-feltet på **Utlign levrd.poster**-siden, velger den aktuelle fakturaen eller kreditnotaen, og velger deretter **OK**-knappen.
 
     Mange felt som **Dokumentbeløp** og **Forfallsdato** er nå fylt ut med opplysninger fra det valgte dokumentet.
 5. Du kan også bruke funksjonen **Betalingsforslag - leverandør**. Alle utligningsopplysninger og beløper angis også deretter på kladdelinjene. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).
 
     Meldinger hjelper deg med å fylle ut obligatoriske felt på riktig måte.
-6.  Når alle utbetalingskladdelinjene er fullført, kan du velge handlingen **Bokfør**.
+6. Når alle utbetalingskladdelinjene er fullført, kan du velge handlingen **Bokfør**.
+
+
+## <a name="to-issue-a-refund-check"></a>Slik utsteder du en refusjonssjekk
+
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.
+2. Velg **Refusjon** i **Bilagstype**-feltet.  
+3. Bruk dette alternativet som referanse for refusjonssjekken (for eksempel ordrereturnummer) i feltet **Eksternt dokumentnr.**.  
+4. Velg **Kunde** i **Kontotype**-feltet.  
+5. Velg kundens kontonummer som refusjonssjekken skal utstedes til, i feltet **Kontonr.**.  
+6. Angi beløpet som skal refunderes i feltet **Beløp**.  
+7. Velg **Bankkonto** i **Motkontotype**-feltet.  
+8. Velg bankkontoen sjekken skal komme ut av, i feltet **Motkontonr.**.  
+9. I **Utligningsbilagsnr.** -feltet velger du dokumentene som krever refusjon.  
+10. Når alle utbetalingskladdelinjene er fullført, velger du handlingen **Bokfør/Skriv ut**, velger handlingen **Bokfør og skriv ut**, og deretter velger du **Ja**.  
+  
 
 ## <a name="see-also"></a>Se også
 [Foreta sjekkbetalinger](payables-how-work-checks.md)  

@@ -12,18 +12,18 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a6a8b12623f12cdc590114dd36ff10c399e38a99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ddddcfa3439fe917a930a0a6cbd3605a273c540f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780685"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445604"
 ---
 # <a name="create-segments"></a>Opprette segmenter.
 Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel vil opprette en samhandling med flere kontakter, blant annet utsendinger.
 
 ## <a name="to-create-a-segment"></a>Slik oppretter du et segment
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Segmenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I inndelingen **Generelt**, i **Nr.** -feltet, angir du et nummer på segmentet.
 

@@ -1,6 +1,6 @@
 ---
 title: Spore varesporede varer
-description: Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og Søk etter poster.
+description: Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt, produsert eller returnert med funksjonene Varesporing og Finn enheter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: bbfe0237beb58f22d3be7bc388d7b2726f05d4ba
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214756"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445629"
 ---
 # <a name="trace-item-tracked-items"></a>Spore varesporede varer
 Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og [Søk etter poster](ui-find-entries.md).  
@@ -30,7 +30,7 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 
 ## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varesporing**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varesporing** og velg den relaterte koblingen.  
 2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst på siden.  
 3.  Velg om du også vil vise hvor komponentene for varen kommer fra, i feltet **Vis komponenter**. Alternativene i dette feltet er som følger.  
 
@@ -59,7 +59,7 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 
 ## <a name="to-find-item-tracked-items-with-find-entries"></a>Slik søker du etter varesporede varer med Søk etter poster:  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Søk etter poster**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finn enheter**, og velg deretter den relaterte koblingen.  
 2. Velg **Handlinger** > **Finn etter** > **Finn etter varereferanse**.
 3. I feltene **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
 4. Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  

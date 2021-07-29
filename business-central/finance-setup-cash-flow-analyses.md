@@ -1,6 +1,6 @@
 ---
-title: Definere kontantstrømanalyse| Microsoft-dokumentasjon
-description: Du definerer diagrammer i rollesenteret for regnskapsfører for å bidra til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger.
+title: Definere kontantstrømanalyse
+description: Bruk diagrammer i rollesenteret for konti til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: e197155f272d4435f838fbc67fb336f339c1a290
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783675"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446293"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -70,14 +70,14 @@ Slik bruker du den assisterte oppsettsveiledningen:
 
 1. I rollesenter for regnskapsfører, under diagrammet **Kontantstrømprognose**, velger du handlingen **Åpne assistert oppsett**.  
 2. Fyll ut feltene i hvert trinn av veiledningen.  
-3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
 4. På siden **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 Slik bruker du en manuell prosess:  
 
 1. Søk etter **Kontantstrømoppsett** i rollesenter for regnskapsfører, og velg deretter den relaterte koblingen.  
 2. Utvid **Azure Al**-hurtigfanen, og merk av for **Azure AI aktivert**.  
-3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontantstrømprognose**, og velg deretter den relaterte koblingen.
 4. På siden **Kontantstrømprognose**-vinduet velger du handlingen **Beregn prognose på nytt**.  
 
 > [!TIP]  
@@ -123,7 +123,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
 4. Kjør modellen, og publisere den som en webtjeneste.  
 5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
+6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontantstrømoppsett**, og velg deretter den relaterte koblingen.  
 7. Utvid hurtigfanen **Azure AI**, og fyll deretter ut feltene.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)

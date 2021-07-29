@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779810"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446393"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilordne tabellene og feltene som skal synkroniseres
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Koblinger kan settes opp automatisk ved hjelp av synkroniseringsjobber eller man
 Hvis du ikke vil synkronisere alle radene for en bestemt tabell i [!INCLUDE[prod_short](includes/cds_long_md.md)] eller tabell i [!INCLUDE[prod_short](includes/prod_short.md)], kan du sette opp filtre for å begrense dataene som synkroniseres. Du definerer filtrene på siden **Tilordninger for integreringstabell**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Filtrere poster eller rader for synkronisering  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
 
 2.  For å filtrere [!INCLUDE[prod_short](includes/prod_short.md)]-postene angir du **Tabellfilter**-feltet.  
 
@@ -80,7 +80,7 @@ Som standard vil bare poster i [!INCLUDE[prod_short](includes/prod_short.md)] og
 SELGERE – Dynamics 365 Sales-synkroniseringsjobben bruker for eksempel tabelltilordningen SELGERE. Synkroniseringsjobben kopierer data fra brukere i [!INCLUDE[prod_short](includes/cds_long_md.md)] til selgere i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du setter opp tabelltilordningen til å opprette nye poster, for hver bruker i [!INCLUDE[prod_short](includes/cds_long_md.md)] som ikke er allerede koblet til en selger i [!INCLUDE[prod_short](includes/prod_short.md)], opprettes en ny selgerrad i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Slik oppretter du nye poster under synkronisering  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
 
 2.  I tabelltilordningsoppføringen i listen fjerner du **Synkroniser bare koblede poster**-feltet.  
 
@@ -96,7 +96,7 @@ Hvis du installerer standard synkroniseringsoppsett, vil to konfigurasjonsmaler 
 -   **CDSACCOUNT** oppretter og synkroniserer nye kontoer i [!INCLUDE[prod_short](includes/cds_long_md.md)] basert på en konto i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Angi konfigurasjonsmaler på en tabelltilordning  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tilordninger for integreringstabell**, og velg deretter den relaterte koblingen.
 
 2.  I tabelltilordningsposten i listen angir du **Malkode for konfigurasjon av tabell**-feltet, velger du konfigurasjonsmalen som skal brukes for nye poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 

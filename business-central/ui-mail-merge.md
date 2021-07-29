@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110957"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445975"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Bruke Word-maler til massekommunikasjon
 Microsoft Word-maler kan gjøre det enklere å massekommunisere med enheter som kunder og leverandører. Du kan for eksempel opprette brosjyrer for å varsle kunder om en salgskampanje, brev til å informere leverandører om en ny kjøpspolicy, eller invitasjoner til å tiltrekke kontakter til et kommende arrangement.
@@ -38,7 +38,7 @@ Når du definerer malen i Word, kan du legge til flettefelt ved å velge **Sett 
 Når Word-malen er klar, kan du velge **Bruk** på siden **Word-maler** for å generere dokumentene. Du kan enten opprette ett dokument som inneholder inndelinger for hver enkelt enhet, eller dele opp operasjonen for å opprette et nytt dokument for hver enhet.
 
 ## <a name="to-create-a-word-template"></a>Slik oppretter du en Word-mal
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Word-maler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Word-maler**, og velg deretter den relaterte koblingen.
 2. Følg trinnene i den assisterte oppsettsveiledningen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også

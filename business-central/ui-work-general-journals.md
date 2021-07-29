@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087722"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445478"
 ---
 # <a name="working-with-general-journals"></a>Arbeide med finanskladder
 
@@ -152,7 +152,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 >   Den følgende fremgangsmåten dreier seg om varekladden, men informasjonen gjelder også finanskladden.
 
 ### <a name="to-save-a-standard-journal"></a>Slik lagrer du som standardkladd
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
 2. Legg inn én eller flere kladdelinjer.
 3. Velg kladdelinjene du vil bruke på nytt.
 4. Velg handlingen **Lagre som standardkladd**.
@@ -168,7 +168,7 @@ Når du har lagret standardvarekladden, vises Varekladd-siden, slik at du kan fo
 
 ### <a name="to-reuse-a-standard-journal"></a>Bruke en standardkladd på nytt
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varekladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
 2. Velg handlingen **Hent standardkladder**.
 
     Siden Standard varekladder åpnes med koder og beskrivelser for alle eksisterende standard varekladder.
@@ -205,7 +205,7 @@ Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for 
 
 Følgende fremgangsmåte er basert på siden **Finanskladd**, men gjelder for alle andre kladder som er basert på finanskladden, for eksempel siden **Utbetalingskladd**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Når du er klar til å bokføre kladden, velger du handlingen **Nummerer dokumentnumre på nytt**.
 
 Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du fortsette å bokføre kladden.

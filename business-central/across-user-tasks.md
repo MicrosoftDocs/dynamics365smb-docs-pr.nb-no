@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786985"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446418"
 ---
 # <a name="define-user-tasks"></a>Definere brukeroppgaver
 
@@ -27,7 +27,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette oppgaver for å
 
 Du kan for eksempel opprette en oppgave for deg selv eller en medarbeider for å vise alle bokførte salgsfakturaer. I så fall knytter du oppgaven til side 143, **Bokførte salgsfakturaer**. I det følgende skjermbildet oppretter noen en oppgave for MeganB for å se gjennom de bokførte salgsfakturaene.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brukeroppgave":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brukeroppgave.":::
 
 > [!TIP]  
 > Bruk oppslag i **Side**-feltet og bruk deretter **Søk**-feltet for å finne siden du vil bruke.  

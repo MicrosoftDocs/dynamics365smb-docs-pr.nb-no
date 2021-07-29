@@ -1,6 +1,6 @@
 ---
-title: Definere hovedkalendere | Microsoft-dokumentasjon
-description: Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.
+title: Definere hovedkalendere
+description: Du kan tilordne en hovedkalender til selskapet og forretningspartnerne, for å beregne leverings-og mottaksdatoer i henhold til virkedagene som er angitt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 87b68711db42ec5240382cc4c9d052fb80fc2a31
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775875"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446493"
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
 
 ## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut **Kode**-feltet.  
 4. Velg **Vedlikehold endringer i hovedkalender**.
@@ -64,7 +64,7 @@ Mens for eksempel en hovedkalender vanligvis viser alle lørdager som fridager, 
 
 Følgende prosedyre bruker lokasjonen som eksempel. Merk at du på dette tidspunktet allerede har tilordnet en hovedkalender til lokasjonen.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil oppdatere, og velg deretter feltet **Egendefinert kalender**. Merk at en kalender må velges i feltet **Hovedkalenderkode**.
 3. På siden **Egendefinerte kalenderposter** som åpnes, velger du **Vedlikehold endringer i egendefinert kalender**.
 4. I vinduet **Endringer i egendefinert kalender** legger du til linjer for egendefinerte kalenderposter.
@@ -100,7 +100,7 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 -   På **Lokasjon**-kortet er hovedkalenderen tilordnet på hurtigfanen **Lager**.  
 -   På **Transportører**-siden tilordnes hovedkalenderen på **Transportørservice**-siden.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2.  Åpne **Kunde**-kortet som du vil tilordne en hovedkalender for.  
 3.  På hurtigfanen **Levering**, i **Hovedkalenderkode**-feltet, velger du hovedkalenderen som du vil tilordne.  
 

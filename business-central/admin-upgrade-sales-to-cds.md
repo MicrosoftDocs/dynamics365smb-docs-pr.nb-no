@@ -1,6 +1,6 @@
 ---
 title: Oppgradere en integrasjon med Dynamics 365 Sales
-description: Lær hvordan du kan flytte Dynamics 365 Business Central-integrasjonen med Dynamics 365 Sales til den nyeste versjonen.
+description: Dette emnet forteller deg hvordan du kan flytte Dynamics 365 Business Central-integrasjonen med Dynamics 365 Sales til den nyeste versjonen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 772052fc88e0b8be7ec5276600b0c237e2d2f8b2
-ms.sourcegitcommit: a76475f124e79440a5bba20577b335c4d50a2d83
+ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025811"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543023"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Oppgradere en integrasjon med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
@@ -26,17 +26,16 @@ Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCL
 > Når du kobler til på nytt via [!INCLUDE[prod_short](includes/cds_long_md.md)], brukes standard synkroniseringsinnstillinger, og eventuelle konfigurasjoner blir overskrevet. Standard tabelltilordninger vil for eksempel bli brukt.
 
 ## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Slik oppgraderer du tilkoblingen for å bruke Dataverse
-1. Åpne siden **Tilkoblingsoppsett for Microsoft Dynamics 365**, og deaktiver vekslebryteren **Aktivert** for å koble fra [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Åpne siden **Tilkoblingsoppsett for Dataverse** og velg **Aktivert** for å aktivere tilkoblingen til [!INCLUDE[prod_short](includes/cds_long_md.md)].
+1. Åpne siden **Konfigurasjon for Microsoft Dynamics 365-tilkobling** og deaktiver du alternativet **Aktivert**. Lukk deretter siden for å koble fra [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Åpne siden **Dataverse-tilkoblingsoppsett**, og velg **Person** i feltet **Eierskapsmodell**. Velg deretter **Aktivert** for å aktivere tilkoblingen til [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
    > [!NOTE]
    > Når du har aktivert tilkoblingen, er Business Central-integreringsløsningen distribuert til Dataverse.
-3. Velg **Distribuer integreringsløsning på nytt** for å installere Business Central-integreringsløsningen på nytt.
-4. Åpne siden **Konfigurasjon for Microsoft Dynamics 365-tilkobling**, og aktiver veksleknappen **Aktivert** for å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nytt.
+4. På siden **Microsoft Dynamics 365-tilkoblingsoppsett** velger du **Distribuer integreringsløsning** for å installere Business Central-integreringsløsningen på nytt.
+5. Veksle bryteren til **Aktivert** for å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nytt.
   
    > [!NOTE]
    > Når du har aktivert tilkoblingen, er Business Central-integreringsløsningen distribuert til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gjør det mulig å integrere med tabeller som er spesifikke for [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel ordrer, tilbud og fakturaer.
-5. Velg **Distribuer integreringsløsning på nytt** for å installere Business Central-integreringsløsningen på nytt.
 6. På siden **Tilkoblingsoppsett for Sales** velger du **Bruk standard synkroniseringsoppsett** til å initialisere integrasjonstabelltilordninger for [!INCLUDE[crm_md](includes/crm_md.md)].
 
    > [!IMPORTANT]
