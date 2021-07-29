@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 50e1de8b0e0e1ca5a1890317abe6379e5a71b688
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783925"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443871"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  
@@ -27,7 +27,7 @@ Du bruker siden **Oppsett for bunke-ikon** til å definere indikatorer for alle 
 Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som definerer tre områder med dataverdier (lav, middels og høy) som du kan bruke en annen farge (eller stil) med.  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Slik definerer du fargede indikatorer for bunke-ikoner  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for bunke-ikon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for bunke-ikon** og velger den relaterte koblingen.  
 
      Siden **Oppsett for bunke-ikon** vises. Siden viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
 

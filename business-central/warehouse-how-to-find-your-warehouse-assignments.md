@@ -1,6 +1,6 @@
 ---
-title: Finne lageroppgavene dine | Microsoft-dokumentasjon
-description: Hvis du vil søke etter lagertildelinger, åpner du kortsiden for en valgt vare. Hvis lagerinstruksjonene er opprettet, er Hent- og Plasser-linjene synlige, og du kan begynne å arbeide med en oppgave. I enkelte lagre kan lederen ha tildelt bestemte instruksjoner til hver ansatt.
+title: Finne lageroppgavene dine
+description: Dette emnet forklarer hvordan du finner lagertilordningene som er tilordnet til deg på Varekort-siden når det er opprettet instruksjoner for deg.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 20035f02f2a103123a1f0f8ced0c8f1cc8b587fd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771782"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444133"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finne lageroppgavene dine
 Hvis du vil søke etter lagertildelinger, åpner du kortsiden for en valgt vare. Hvis lagerinstruksjonene er opprettet, er Hent- og Plasser-linjene synlige, og du kan begynne å arbeide med en oppgave. I enkelte lagre kan lederen ha tildelt bestemte instruksjoner til hver ansatt. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Slik finner du en instruksjon som er tildelt deg  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplasseringer**, **Lagerplukk** eller **Lagerflytting**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerplasseringer**, **Lagerplukk** eller **Lagerflytting**, og velg deretter den relaterte koblingen.
 
     Alle tre sidene viser tildelinger for alle lagerlokasjoner.  
 

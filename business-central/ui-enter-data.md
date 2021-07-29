@@ -1,6 +1,6 @@
 ---
-title: Angi data i Business Central | Microsoft Docs
-description: Lære om generelle funksjoner som kan hjelpe deg med å registrere data i feltene.
+title: Skrive inn data i Business Central
+description: Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. De grunnleggende prinsippene og de avanserte funksjonene beskrives her.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784818"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443671"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -93,7 +93,7 @@ Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 
 Du bruker tilpasning til å konfigurere Hurtigoppføring på felt.
 
-1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og deretter **Tilpasse**-handlingen.
+1. Start tilpasning ved å velge ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass**-handlingen.
 2. Velg et felt du vil endre. I lister velger du tilsvarende kolonneoverskrift. Velg deretter enten **Inkludert i Hurtigoppføring** eller **Ekskludert fra Hurtigoppføring**.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Det er særlig nyttig når du arbeider med store linjeelementlister og du vil re
 
 ### <a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
-Når du skal fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen og velger deretter ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon") øverst til høyre, eller trykk på Ctrl+Skift+F12.
+Hvis du vil fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen, og deretter velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") øverst i høyre hjørne, eller trykk på CTRL + SKIFT + F12.
 
-Hvis du vil gå tilbake til den normale visningen, kan du velge ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon"), eller trykk på Ctrl+Skift+F12 på nytt.
+Hvis du vil gå tilbake til normal visning, velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") eller trykker på CTRL + SKIFT + F12 på nytt.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
 
@@ -148,15 +148,15 @@ Du kan åpne et kort eller en dokumentside i et nytt vindu. Ved å åpne i et ny
 - administrere avbrudd for gjeldende oppgave, som å besvare et innkommende anrop
 - holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i vinduer
 
-Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") øverst i høyre hjørne, eller trykk på ALT + SKIFT + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") øverst i høyre hjørne, eller trykk på ALT + SKIFT + W.
 
 > [!NOTE]
-> Når du åpner andre sider fra et kort eller dokument som er åpnet i et nytt vindu, åpnes disse sidene i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
+> Når du åpner andre sider fra et kort eller dokument som er åpnet i et nytt vindu, åpnes disse sidene i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
 
 > [!NOTE]
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

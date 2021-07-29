@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 544cb3a1844aaf85ab937031a23d6d00506ffa74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: c93bf82f92a5e24e023bd59033c31877ab72993b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215756"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444283"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designdetaljer: Søke etter dimensjonskombinasjoner
 Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker [!INCLUDE[prod_short](includes/prod_short.md)] om det redigerte settet med dimensjoner finnes. Hvis gruppen ikke finnes, blir det opprettet et nytt sett, og det kombinasjon-IDen for dimensjonen blir returnert.  
@@ -26,7 +26,7 @@ Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker
 ### <a name="example-1"></a>Eksempel 1  
  Diagrammet nedenfor representerer et søketre med seks dimensjonssett. Bare den spesielle dimensjonssettposten vises i diagrammet.  
 
- ![Eksempel på dimensjonstrestruktur](media/nav2013_dimension_tree.png "Eksempel på dimensjonstrestruktur")  
+ ![Eksempel på dimensjonstrestruktur.](media/nav2013_dimension_tree.png "Eksempel på dimensjonstrestruktur")  
 
  Tabellen nedenfor beskriver en fullstendig liste over dimensjonssettpostene som utgjør hvert dimensjonssett.  
 
@@ -45,7 +45,7 @@ Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker
 
  Først oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] også tabellen **Trenode for dimensjonssett** for å sikre at søketreet ser ut som diagrammet nedenfor. Dimensjonssett 7 blir dermed underordnet dimensjonssett 5.  
 
- ![Eksempel på dimensjonstrestruktur i NAV 2013](media/nav2013_dimension_tree_example2.png "Eksempel på dimensjonstrestruktur i NAV 2013")  
+ ![Eksempel på dimensjonstrestruktur i NAV 2013.](media/nav2013_dimension_tree_example2.png "Eksempel på dimensjonstrestruktur i NAV 2013")  
 
 ### <a name="finding-dimension-set-id"></a>Finne dimensjonssett-ID  
  På et grunnleggende nivå vil **Overordnet ID**, **Dimensjon** og **Dimensjonsverdi** i søketreet, kombineres og brukes som primærnøkkel fordi [!INCLUDE[prod_short](includes/prod_short.md)] går gjennom treet i samme rekkefølge som dimensjonspostene. GET-funksjonen (post) brukes til å søke etter dimensjonssett-ID. Følgende kodeeksempel viser hvordan du finner dimensjonssett-IDen når det finnes tre dimensjonsverdier.  

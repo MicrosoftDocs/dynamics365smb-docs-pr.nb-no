@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Utgående lagerflyt | Microsoft-dokumentasjon
-description: Den utgående flyten på lageret begynner med en forespørsel fra frigitte kildedokumenter om å sende varene ut av lagerlokasjonen, for å leveres til en ekstern part eller en annen selskapslokasjon. Fra lagringsområdet utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer ut til leveringsområdene.
+title: Designdetaljer – Utgående lagerflyt
+description: Dette emnet viser sekvensen for utgående lagerflyt fra frigitte kildedokumenter til varer som er klare til levering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777776"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442388"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
 
@@ -54,7 +54,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i grunnleggende lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i grunnleggende lageroppsett](media/design_details_warehouse_management_outbound_basic_flow.png "Utgående flyt i grunnleggende lageroppsett")  
+ ![Utgående flyt i grunnleggende lageroppsett.](media/design_details_warehouse_management_outbound_basic_flow.png "Utgående flyt i grunnleggende lageroppsett")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigi kildedokumentet / opprette lagerplukk eller flytting
 
@@ -81,7 +81,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i avansert lageroppsett](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avansert lageroppsett")  
+ ![Utgående flyt i avansert lageroppsett.](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avansert lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument
 

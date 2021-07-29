@@ -1,6 +1,6 @@
 ---
-title: Definere en mva-oppgave | Microsoft-dokumentasjon
-description: Definere en mva-oppgave
+title: Definere en mva-oppgave
+description: Dette emnet forklarer hvordan du definerer en mva-oppgavemal og mva-oppgavenavn for å oppfylle krav fra skattemyndighetene.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8a7373a22cff16a32fe92bf2f2d9064d2f12e950
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 322a501a4b1d404ef39523e93b45409eb60d7c4b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775453"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444390"
 ---
 # <a name="set-up-a-vat-statement"></a>Definere en mva-oppgave
 
@@ -25,7 +25,7 @@ Skattemyndighetene kan endre, og endrer, kravene sine for bokføring av mva. Mva
 ## <a name="to-define-a-vat-statements"></a>Slik definerer du mva-oppgaver
 Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for eksempel et kvartal.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-oppgaver**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-oppgaver** og velg deretter den relaterte koblingen.  
 2. Velg **Navn**-feltet, og velg deretter **Ny** på siden **Mva-oppgavenavn**.
 3. Fyll ut de obligatoriske feltene. Vanligvis vil du ha en innstilling for hver enkelt kombinasjon av Mva-bokf.gruppe - firma / Mva-bokføringsgruppe - vare. For radnumre er det fornuftig å bruke tilsvarende numre eller koder som i den offisielle mva-oppgaven [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 

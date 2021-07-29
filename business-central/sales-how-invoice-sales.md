@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bill, sale, invoice, order
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d0a48037123dee4a7c9282432cc2b357b335e794
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 4cd53cab788f5ee9a7f32f697faa35e8cd2638ae
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115568"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443360"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -41,7 +41,7 @@ Du kan fylle kundefelt i salgsfakturaen på to måter, avhengig av om kunden all
 
 ### <a name="to-create-a-sales-invoice"></a>Slik oppretter du en salgsfaktura
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. I feltet **Kunde** angir du navnet på en eksisterende kunde.
 
    Andre felt på siden **Salgsfaktura** inneholder nå standardinformasjon for den valgte kunden. Hvis kunden ikke er registrert, følger du denne fremgangsmåten:

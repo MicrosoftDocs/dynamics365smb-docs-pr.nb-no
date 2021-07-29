@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: reimbursement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdbf4b682b4ad99524ea0aace9a123283668fb43
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc759d1fdb08b847028bf4a24157c17c4d2f74e1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779100"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444465"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbakeføre kladdebokføringer og angre mottak/leveringer
 Hvis du vil angre en feilaktig kladdebokføring, velger du posten og oppretter en tilbakeføringspost (poster som er identiske med den opprinnelige posten, men med motsatt fortegn i beløpsfeltet) med samme bilagsnummer og bokføringsdato som den opprinnelige posten. Når du har tilbakeført en post, må du lage den riktige posten.
@@ -32,7 +32,7 @@ Hvis du har utført en ukorrekt positiv antallsbokføring, for eksempel en følg
 
 ## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Tilbakeføre kladdebokføring av en finanspost
 Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor er basert på siden **Finansposter**.
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansposter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finansposter**, og velg deretter den relaterte koblingen.
 2. Velg posten du vil tilbakeføre, og velg deretter handlingen **Tilbakefør transaksjon**. Vær oppmerksom på at den må stamme fra en kladdebokføring.
 3. Velg handlingen **Tilbakeføre** på siden **Tilbakefør transaksjonsposter**.
 4. Velg **Ja** i bekreftelsesmeldingen.
@@ -43,7 +43,7 @@ Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor e
 ## <a name="to-post-a-negative-entry"></a>Bokføre en negativ post  
 Du kan bruke **Korreksjon**-feltet til å bokføre en negativ debet i stedet for en kredit, eller til å bokfører en negativ kredit i stedet for en debet på kontoen. For å dekke juridiske krav vises dette feltet som standard i alle kladder. Feltet **Debetbeløp** og **Kreditbeløp** omfatter den opprinnelige posten og den korrigert posten. Disse feltene har ingen innvirkning på kontoens saldo.  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finanskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen  
 2.  Velg ønsket kladdenavn i **Bunkenavn**-feltet.  
 3.  Angi informasjon i de aktuelle feltene.  
 4.  På kladdelinjen som du vil aktivere for negative poster merker du av for **Korreksjon**.  
@@ -52,7 +52,7 @@ Du kan bruke **Korreksjon**-feltet til å bokføre en negativ debet i stedet for
 ## <a name="to-undo-a-quantity-posting-on-a-posted-purchase-receipt"></a>Slik angrer du antallsbokføring på bokførte kjøpsmottak  
 Nedenfor beskrives hvordan du angrer et bokført mottak av varer eller ressurser. Trinnene er de samme for bokførte leveringer.
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte kjøpsmottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsmottak**, og velg deretter den relaterte koblingen.  
 2.  Åpne det bokførte mottaket som du vil angre.  
 3.  Velg linjen(e) du vil angre.  
 4.  Velg **Angre mottak**-handlingen.
@@ -64,7 +64,7 @@ Feltene **Mottatt (antall)** og **Mott. antall (ufakt.)** på den tilknyttede be
 ## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Slik angrer du og gjør om en antallsbokføring på en bokført returforsendelse
 Følgende beskriver hvordan du angrer en bokført returforsendelse av varer eller ressurser og deretter bokfører bestillingsreturen med et nytt antall. Trinnene er de samme for bokførte retursedler.
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte returforsendelser**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte returforsendelser**, og velg deretter den relaterte koblingen.  
 2.  Åpne den bokførte returforsendelsen som du vil angre.
 3. Velg linjen(e) du vil angre.  
 
@@ -75,7 +75,7 @@ Følgende beskriver hvordan du angrer en bokført returforsendelse av varer elle
     Gå deretter tilbake til bestillingsreturen for å gjøre om bokføringen.  
 
 5.  Noter nummeret i feltet **Ordrereturnr.** på siden **Bokført bestillingsreturseddel**. -feltet.  
-6.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
+6.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
 7.  Åpne den aktuelle bestillingsreturen, og velg deretter **Åpne på nytt**.  
 8.  Korriger posten i feltet **Antall** og bokfør bestillingsreturen på nytt.  
 

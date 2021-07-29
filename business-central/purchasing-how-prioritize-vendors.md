@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: supplier, payment priority
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1604113b255a585532677ccb47d7e68d1cc64059
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d83fe736298e4cae3b6b86a495e0567057df2cc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772782"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443297"
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[prod_short](includes/prod_short.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).
@@ -27,7 +27,7 @@ Først må du prioritere leverandørene ved å tilordne numre til dem.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
 ## <a name="to-prioritize-vendors"></a>Slik prioriterer du leverandører
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Velg den aktuelle leverandøren, og velg deretter **Rediger**.
 3. Angi et tall i feltet **Prioritet**.
 

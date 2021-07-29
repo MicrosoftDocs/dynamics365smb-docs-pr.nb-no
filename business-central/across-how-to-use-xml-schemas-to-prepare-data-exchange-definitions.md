@@ -1,6 +1,6 @@
 ---
-title: Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
-description: Bruk XML-skjemaer til å konfigurere rammeverket for dokumentutveksling.
+title: XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
+description: Bruk XML-skjemaer til å sette opp rammeverket for datautveksling for å definere hvilke dataelementer du vil utveksle med.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781364"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444071"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
 
@@ -35,7 +35,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 1. Kontroller at den aktuelle XML-skjemafilen er tilgjengelig. Filtypen er XSD.  
 
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
 3. Velg handlingen **Ny**.  
 
@@ -57,7 +57,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Slik velger eller fjerner du noder i et XML-skjema:  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Visningsprogram for XML-skjema**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XML-skjemavisning**, og velg deretter den relaterte koblingen.  
 
 2. Fyll ut feltene i hodet som beskrevet i tabellen nedenfor.  
 
@@ -95,7 +95,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
 2. Velg det relevante XML-skjemaet, og velg deretter handlingen **Åpne XML-skjemavisning**.  
 

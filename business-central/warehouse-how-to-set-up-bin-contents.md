@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: abe79973022927c899aaa69a7ac28f76e8c8de39
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 575b2fdd00b7761fa615b9265fa5f21d402e096d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771732"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443007"
 ---
 # <a name="create-bin-contents"></a>Opprette hylleinnhold
 
@@ -23,7 +23,7 @@ Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med and
 
 ## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
 3. Velg hyllen der du vil opprette innhold, og velg deretter **Innhold**-handlingen.  
 4. For hver vare du vil lagre i hyllen, fyller du ut en linje på siden **Hylleinnhold** med den passende informasjonen. Noen av feltene er allerede fylt ut med informasjon om hyllen.  
@@ -42,7 +42,7 @@ Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [
 
 Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for hver hylle i opprettingsforslaget for hylleinnhold.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylleinnholdopprett. – forslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Hylleinnholdopprett. – forslag**, og velg deretter den relaterte koblingen.  
 2. I feltet **Navn** i forslagshodet velger forslaget for lokasjonen der du vil opprette hylleinnholdet.  
 3. I feltet **Hyllekode** velger du koden for hyllen som du vil definere hylleinnhold for.  
 

@@ -1,6 +1,6 @@
 ---
 title: Lage og endre egendefinerte oppsett for rapporter og dokumenter | Microsoft-dokumentasjon
-description: Finn ut hvordan du lager dine egne egendefinerte oppsett for å tilpasse utseendet på en rapport når den vises, skrives ut eller lagres.
+description: Finn ut hvordan du lager egendefinerte oppsett for å tilpasse utseendet på en rapport når den vises, skrives ut eller lagres.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3d4522a08fe1c313ecf3f7c2f3fb59af62f48d2c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12eeb1a2eb3f7235524085c20f587ad9b2ec1f81
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778025"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444340"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Opprette og endre et egendefinert rapportoppsett
 
@@ -24,7 +24,7 @@ En rapport har som standard et innebygd rapportoppsett, som kan være et RDLC-ra
 > [!NOTE]  
 > I [!INCLUDE[prod_short](includes/prod_short.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
 
-Hvis du vil opprette et egendefinert oppsett, kan du lage en kopi av et eksisterende egendefinert oppsett eller legge til et nytt egendefinert oppsett, som i de fleste tilfeller er basert på et innebygd oppsett. Når du legger til et nytt egendefinert oppsett, kan du legge til en RDLC-rapportoppsettype, en Word-rapportoppsettype eller begge typer. Det nye egendefinerte oppsettet baseres automatisk på det innebygde oppsettet for rapporten hvis det er tilgjengelig. Hvis det ikke finnes noen innebygde oppsett for typen, opprettes et nytt, tomt oppsett, som du må endre og utforme fra grunnen av. Hvis du vil ha mer informasjon om RDLC- og Word-rapportoppsett, innebygde og egendefinerte oppsett og mer, kan du se [Håndtere rapportoppsett](ui-manage-report-layouts.md).  
+Hvis du vil opprette et egendefinert oppsett, kan du lage en kopi av et eksisterende egendefinert oppsett eller legge til et nytt egendefinert oppsett, som i de fleste tilfeller er basert på et innebygd oppsett. Når du legger til et nytt egendefinert oppsett, kan du legge til en RDLC-rapportoppsettype, en Word-rapportoppsettype eller begge typer. Det nye egendefinerte oppsettet baseres automatisk på det innebygde oppsettet for rapporten hvis det er tilgjengelig. Hvis det ikke finnes noe innebygd oppsett for typen, opprettes et nytt, tomt oppsett. Du må endre og utforme det tomme oppsettet fra grunnen av. Hvis du vil ha mer informasjon om RDLC- og Word-rapportoppsett, innebygde og egendefinerte oppsett og mer, kan du se [Håndtere rapportoppsett](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er lagret i kontoplanen. Hvis du vil ha mer informasjon, se [Klargjøre Financial Reporting med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md).
@@ -33,7 +33,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 
 ## <a name="to-create-a-custom-layout"></a>Slik oppretter du et egendefinert oppsett
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
 
     Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige i selskapet som er angitt i feltet **Selskapsnavn** øverst på siden.
 2. Angi selskapet du vil opprette rapportoppsettet i, i **Selskap**-feltet.
@@ -43,7 +43,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 4. Hvis du vil opprette en kopi av et eksisterende egendefinert oppsett, velger du det eksisterende egendefinerte oppsettet fra listen, og deretter velger du handlingen **Kopier**.  
 
    Kopien av det egendefinerte oppsettet vises på siden **Egendefinerte rapportoppsett** og inneholder ordene *Kopi av* i **Beskrivelse**-feltet.
-5. Hvis du vil legge til et nytt egendefinert oppsett som er basert på et innebygd oppsett, gjør du følgende:  
+5. Hvis du vil legge til et nytt egendefinert oppsett som er basert på et innebygd oppsett, gjør du følgende trinn:  
    1. Velg handlingen **Ny**. Siden **Sett inn innebygd oppsett for en rapport** vises. Feltene **ID** og **Navn** fylles ut automatisk.
    2. Hvis du vil legge til en egendefinert Word-rapportoppsettype, merker du av for **Sett inn Word-oppsett**.
    3. Hvis du vil legge til en egendefinert RDLC-rapportoppsettype, merker du av for **Sett inn RDLC-oppsett**.
@@ -54,16 +54,19 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 
 Det egendefinerte oppsettet er opprettet. Du kan nå endre det egendefinerte oppsettet etter behov.
 
+> [!TIP]
+> Du kan eksportere rapportresultatene til en Excel-fil for å vise hele datasettet, inkludert alle kolonner, men uten oppsettet. Excel-filen kan hjelpe deg med å validere at rapporten returnerer de forventede dataene eller diagnostisere problemer. Hvis du vil ha mer informasjon, kan du se [Arbeide med rapporter – send til Excel](ui-work-report.md#send-to-excel).
+
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Endre et egendefinert oppsett
 
-Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet som en fil til en plassering på datamaskinen eller nettverket, og åpne det eksporterte dokumentet i Word og gjøre endringene. Når du er ferdig å foreta endringer, importerer du rapportoppsettet.
+Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet som en fil til en plassering på datamaskinen eller nettverket. Deretter åpner du det eksporterte dokumentet og foretar endringene. Når du er ferdig å foreta endringer, importerer du rapportoppsettet.
 
 ### <a name="to-modify-a-custom-layout"></a>Endre et egendefinert oppsett
 
 1.  Du kan eksportere et egendefinert oppsett fra **Egendefinerte rapportoppsett**-siden. Hvis siden ikke allerede er åpen, kan du søke etter og åpne **Rapportoppsettsvalg**-siden, velge rapporten som har oppsettet du vil endre, og deretter velge handlingen **Egendefinerte oppsett**.  
 2.  På siden **Egendefinerte rapportoppsett** velger du oppsettet som du vil endre, velger **Eksporter oppsett**-handlingen og velger deretter **Lagre** eller **Lagre som** for å lagre rapportoppsettsdokumentet på et sted på datamaskinen eller nettverket.  
 
-3.  Åpne rapportoppsettdokumentet du nettopp lagret, og gjør deretter endringene.
+3.  Åpne rapportoppsettdokumentet du lagret, og gjør deretter endringene.
 
       Hvis du endrer et Word-oppsett, kan du åpne oppsettsdokumentet i Word. Se neste del [Endre rapportoppsettet](ui-how-create-custom-report-layout.md#MakeChangesToLayout) hvis du vil ha mer informasjon om redigering.
 
@@ -73,7 +76,10 @@ Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet 
 
 4.  Gå tilbake til **Egendefinerte rapportoppsett**-siden, velg rapportoppsettet som du har eksportert eller endret, og velg deretter **Importer oppsett**-handlingen.  
 
-5. I dialogboksen **Importer** velger du **Velg** for å finne og velge rapportoppsettsdokumentet, og velger deretter **Åpne**.
+5. I dialogboksen **Importer** velger du **Velg** for å finne og velge rapportoppsettdokumentet som er endret, og velger deretter **Åpne**.
+
+> [!IMPORTANT]
+> Husk å importere rapportoppsettdokumentet du endret. Hvis ikke vil ikke det nye rapportoppsettet være tilgjengelig.
 
 ##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Opprette og endre et egendefinert rapportoppsett
 
@@ -86,13 +92,13 @@ Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye data
 
 ### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Bygge inn skrifter i Word-oppsett for konsekvens
 
-Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skriftene, uansett hvor brukere åpner eller skriver ut rapporter, kan du bygge inn skrifter i Word-dokumentet. Vær imidlertid oppmerksom på at innebygde skrifter kan øke størrelsen på Word-filer betydelig. Hvis du vil ha mer informasjon om innebygging av skrifter i Word, se [Bygge inn skrifter i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skriftene, uansett hvor brukere åpner eller skriver ut rapporter, kan du bygge inn skrifter i Word-dokumentet. Innebygde skrifter kan imidlertid øke størrelsen på Word-filer betydelig. Hvis du vil ha mer informasjon om innebygging av skrifter i Word, se [Bygge inn skrifter i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
 ###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Fjerne etikett- og datafelt i Word-oppsett
 
  Etikett- og datafelt i en rapport er i innholdskontroller i Word. Den følgende illustrasjonen viser en innholdskontroll når den er valgt i Word-dokumentet.  
 
- ![Innholdskontroll for felt i Word-rapportoppsett](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Innholdskontroll for felt i Word-rapportoppsett.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
  Navnet på etiketten eller datafeltnavnet vises i innholdskontrollen. I dette eksemplet er feltnavnet CompanyAddr1.  
 

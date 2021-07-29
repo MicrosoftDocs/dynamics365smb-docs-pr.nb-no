@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Bokføre monteringsordre | Microsoft-dokumentasjon
-description: Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.
+title: Designdetaljer – Bokføre monteringsordre
+description: Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e855a7c1392b84a45c588c8a7dbe01de389a3377
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216006"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442563"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  
@@ -31,14 +31,14 @@ Følgende kladdebokføringer skjer under bokføring av monteringsordrer:
 
 Diagrammet nedenfor viser strukturen til vare- og ressursposter som er resultat av bokføring av monteringsordrer.  
 
-![Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre](media/design_details_assembly_posting_1.png "Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre")  
+![Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre.](media/design_details_assembly_posting_1.png "Vare-, ressurs- og kapasitetsposter som et resultat fra bokføring av monteringsordre")  
 
 > [!NOTE]  
 >  Produksjonsressurser og arbeidssentre er inkludert for å illustrere at kapasitetsposter opprettes fra både produksjon og montering.  
 
 Diagrammet nedenfor viser hvordan monteringsdata flyter inn i poster under bokføring:  
 
-![Monteringsrelatert oppføringsflyt under bokføring](media/design_details_assembly_posting_2.png "Monteringsrelatert oppføringsflyt under bokføring")  
+![Monteringsrelatert oppføringsflyt under bokføring.](media/design_details_assembly_posting_2.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
 ## <a name="posting-sequence"></a>Bokføringsrekkefølge  
 Bokføringen av en monteringsordre skjer i følgende rekkefølge:  
@@ -69,7 +69,7 @@ Gjenkjenningsfunksjonen for ordrenivå brukes i konverteringsscenarier, produksj
 
 Figuren nedenfor viser justeringspoststrukturen og hvordan monteringskostnader justeres.  
 
-![Monteringsrelatert oppføringsflyt under kostjustering](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under bokføring")  
+![Monteringsrelatert oppføringsflyt under kostjustering.](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
 ### <a name="performing-the-adjustment"></a>Utføre justeringen  
 Spredningen av oppdagede justeringer fra material- og ressurskostpriser til monteringsavgangsposter utføres av kjørselen **Juster kostverdi – vareposter**. Den inneholder funksjonen for å justering flere nivåer, som består av følgende to elementer:  
@@ -77,7 +77,7 @@ Spredningen av oppdagede justeringer fra material- og ressurskostpriser til mont
 -   Utfør monteringsordrejustering – som videresender kostnader fra material- og ressursbruk til monteringsavgangsposten. Linje 5 og 6 i algoritmen nedenfor er ansvarlige for dette.  
 -   Justere enkeltnivå – som videresender kostnader for enkeltvarer ved hjelp av lagermetoden. Linje 9 og 10 i algoritmen nedenfor er ansvarlige for dette.  
 
-![Sammendrag av kostjusteringensalgoritmen for monteringsbokføring](media/design_details_assembly_posting_4.jpg "Sammendrag av kostjusteringensalgoritmen for monteringsbokføring")  
+![Sammendrag av kostjusteringensalgoritmen for monteringsbokføring.](media/design_details_assembly_posting_4.jpg "Sammendrag av kostjusteringensalgoritmen for monteringsbokføring")  
 
 > [!NOTE]  
 >  Elementet Make WIP Adjustments på linje 7 og 8 er ansvarlig for å videresende produksjonsmateriale og kapasitetsforbruk til avgangen til uferdige produksjonsordrer. Dette brukes ikke ved justering av monteringsordrekost, siden begrepet om VIA ikke gjelder for montering.  

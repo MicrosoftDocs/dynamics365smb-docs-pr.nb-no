@@ -1,6 +1,6 @@
 ---
-title: Samle oppsettsverdier for kunde | Microsoft-dokumentasjon
-description: Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i Business Central og deretter gi det til kunden som en Excel-fil (xlsx) eller en XML-fil.
+title: Samle oppsettsverdier for kunde
+description: Konfigurasjonsspørreskjema bidrar til å redusere implementeringen ved å effektivisere oppsettet av nye selskaper og tilby kunder en Excel- eller XML-fil.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: af8d2bb31b5f76912d69b123803243cfce1445bd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783977"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443896"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
 Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
@@ -50,9 +50,9 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 -   Lagerstyringsoppsett  
 
 > [!NOTE]  
->  Hvis du vil se en fullstendig liste over oppsettstabeller, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Oppsett** og velger deretter den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
+>  Hvis du vil se en fullstendig oversikt over oppsettstabellene, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett** og velger den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.   
 3. På siden **Konfigurasjonsspørreskjema**, i **Kode**-feltet, angir du ... 
 <!--4. In the **Name** field, enter...
@@ -98,7 +98,7 @@ Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detal
 >  Du kan også opprette ditt eget konfigurasjonsspørreskjema slik du vil ha det.  
 
 1. Åpne selskapet du vil fullføre spørreskjemaet for.
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
 3. Velg spørreskjemaet for selskapet, og velg deretter handlingen **Eksporter til Excel**, eventuelt **Eksporter til XML**.
 4. Få kunden til å fullføre konfigurasjonsspørreskjemaet ved å skrive inn svarene i Excel-arbeidsboken. Det finnes forslag for hvert spørsmålsområde som er opprettet for spørreskjemaet.   
 5. Lagre Excel-arbeidsboken som *XML-data*. Velg handlingen **Importer fra XML**, og velg deretter XML-filen med kundens svar.
@@ -131,7 +131,7 @@ Når du har fullført valideringen, er dataene klar til å bli brukt i databasen
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Bruke svar fra konfigurasjonsspørreskjemaet
 Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
 2. Velg et konfigurasjonsspørreskjema fra listen, og velg deretter handlingen **Rediger oversikt**.  
 3. Du kan bruke svar på én av to måter.  
 

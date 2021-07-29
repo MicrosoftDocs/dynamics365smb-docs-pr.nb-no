@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Sentrale begreper for planleggingssystemet | Microsoft-dokumentasjon
-description: Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges, og foreslår deretter mulige handlinger som brukeren kan utføre i henhold til etterspørsels-/tilbudssituasjonen og varens planleggingsparametere.
+title: 'Designdetaljer: Sentrale begreper for planleggingssystemet'
+description: Planleggingsfunksjonene foreslår mulige handlinger som brukeren kan utføre basert på behovs-/forsyningssituasjonen og varenes planleggingsparametere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7c08623ccabfc01f5360073db98455cc8f88c8e9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215456"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442488"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 
 Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
 
-![Innhold på Planleggingsforslag-siden](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innhold på Planleggingsforslag-siden")  
+![Innhold på Planleggingsforslag-siden.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innhold på Planleggingsforslag-siden")  
 
 Planleggeren i et selskap, for eksempel en innkjøper eller en produksjonsplanlegger, antas å være brukeren av planleggingssystemet. Planleggingssystemet hjelper brukeren ved å utføre omfattende, men heller enkle, beregninger av en plan. Brukeren kan dermed konsentrere seg om å løse vanskeligere problemer, for eksempel når ting avviker fra det som er vanlig.  
 
@@ -59,7 +59,7 @@ Hvis brukeren for eksempel angir eller endrer en ordre, vil det dynamisk ordresp
 
 Tilsvarende kan dynamisk sporing betraktes som et verktøy som hjelper brukeren med å vurdere forslag til forsyningsordre skal godtas. Fra forsyningssiden kan en bruker se hvilke behov som har opprettet forsyning, og fra behovssiden hvilken forsyning som skal dekke behovet.  
 
-![Eksempel på dynamisk sporing](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på dynamisk sporing")  
+![Eksempel på dynamisk sporing.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på dynamisk sporing")  
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -73,11 +73,11 @@ Planleggingssystemet håndterer hele forsynings- og behovsmønsteret for en vare
 
 Dynamisk sporing oppretter koblinger mellom behov og forsyning når data registreres, basert på det som kommer først. Dette kan føre til litt uorden i prioriteter. En ordre som angis først og som har forfallsdato neste måned, kan for eksempel være koblet til forsyning på lager, mens den neste ordren som forfaller i morgen, kan føre til en handlingsmelding om å opprette en ny bestilling for å dekke den, som vist nedenfor.  
 
-![Eksempel på sporing i forsyningsplanlegging 1](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Eksempel på sporing i forsyningsplanlegging 1")  
+![Eksempel på sporing i forsyningsplanlegging 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Eksempel på sporing i forsyningsplanlegging 1")  
 
 I motsetning håndterer planleggingssystemet alle behov og forsyning for en bestemt vare, i prioritert rekkefølge i henhold til forfallsdato og ordretyper, det vil si basert på det som kommer først. Den sletter alle sporingskoblinger som ble opprettet dynamisk, og etablerer dem på nytt i henhold til forfallsdatoprioritet. Når planleggingssystemet har kjørt, har det løst all ubalanse mellom behov og forsyning, som vist nedenfor for de samme dataene.  
 
-![Eksempel på sporing i forsyningsplanlegging 2](media/NAV_APP_supply_planning_1_planning_graph.png "Eksempel på sporing i forsyningsplanlegging 2")  
+![Eksempel på sporing i forsyningsplanlegging 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Eksempel på sporing i forsyningsplanlegging 2")  
 
 Etter planleggingskjøringen lagres ingen handlingsmeldinger i tabellen Handlingsmeldingspost fordi de har blitt erstattet av de foreslåtte handlingene i planleggingsforslaget  
 
@@ -93,7 +93,7 @@ Planleggingssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] drives av 
 
 Behovet for en ferdig og salgbare vare i et produksjonsmiljø, vil føre til avledede behov for komponenter som utgjør den ferdige varen. Stykklistestrukturen kontrollerer komponentstrukturen og kan dekke flere nivåer av halvferdige varer. Planlegging av en vare på ett nivå vil føre til et avledede behov for komponenter på det neste nivået og så videre. Dette fører til slutt til avledet behov for kjøpte varer. Planleggingssystemet planlegger derfor for varer i rangeringsrekkefølgen i det totale stykklistehierarkiet. Systemet starter på øverste nivå med en ferdig vare som kan selges, og fortsetter nedover gjennom produktstrukturen til varene på lavere nivåer (i henhold til lavnivåkode).  
 
-![Planlegge for stykklister](media/NAV_APP_supply_planning_1_BOM_planning.png "Planlegge for stykklister")  
+![Planlegge for stykklister.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planlegge for stykklister")  
 
 Figurene illustrerer i hvilken rekkefølge systemet lager forslag til forsyningsordrer på øverste nivå og, forutsatt at brukeren godtar disse forslagene, for alle varene på lavere nivå også.  
 
@@ -116,7 +116,7 @@ Dette støttes med bruk av LFEer, der individuelle planleggingsparametere kan an
 
 I prinsippet kan en vare håndteres på en hvilken som helst lokasjon, men programmets tilnærming til lokasjonskonseptet er ganske streng. En ordre på én lokasjon kan for eksempel ikke oppfylles av et antall på lager på en annen lokasjon. Antallet på lager må først overføres til lokasjonen som er angitt i ordren.  
 
-![Planlegge for lagerføringsenheter](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlegge for lagerføringsenheter")  
+![Planlegge for lagerføringsenheter.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlegge for lagerføringsenheter")  
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 
@@ -130,7 +130,7 @@ Hvis du vil ha mer informasjon, kan du se [Prioritere ordrer](design-details-bal
 
 Både prognoser og rammeordrer representerer forventet behov. Rammeordren, som dekker kjøp en kunde har tenkt å foreta i en bestemt tidsperiode, er med på å redusere usikkerheten ved den samlede prognosen. Rammeordren er en kundespesifikk prognose oppå den uspesifiserte prognosen som illustreres nedenfor.  
 
-![Planlegging med prognoser](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlegging med prognoser")  
+![Planlegging med prognoser.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlegging med prognoser")  
 
 Hvis du vil ha mer informasjon, kan du se avsnittet [Prognosebehovet reduseres av ordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
@@ -226,7 +226,7 @@ Planleggingssystemet vil imidlertid fremdeles inkludere reservert antall i profi
 
 Illustrasjonen nedenfor viser hvordan reservasjoner kan hindre den mest gjennomførbare planen.  
 
-![Planlegge med reservasjoner](media/NAV_APP_supply_planning_1_reservations.png "Planlegge med reservasjoner")  
+![Planlegge med reservasjoner.](media/NAV_APP_supply_planning_1_reservations.png "Planlegge med reservasjoner")  
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -242,7 +242,7 @@ Advarselsinformasjon vises på siden **Ikke-sporede planleggingselementer**, som
 -   Unntak  
 -   Viktig  
 
-![Advarsler i planleggingsforslaget](media/NAV_APP_supply_planning_1_warnings.png "Advarsler i planleggingsforslaget")  
+![Advarsler i planleggingsforslaget.](media/NAV_APP_supply_planning_1_warnings.png "Advarsler i planleggingsforslaget")  
 
 ### <a name="emergency"></a>Kritisk
 
@@ -283,7 +283,7 @@ På forespørselssiden Beregn plan kan brukeren velge feltet **Stopp og vis før
 
 Hvis feltet ikke er valgt, vil den satsvise jobben Beregn plan fortsette til den er fullført. Feil avbryter ikke den satsvise jobben. Hvis det oppstår feil, vises en melding når kjørselen er fullført, med informasjon om hvor mange varer som er berørt av feil. Siden **Feillogg planlegging** åpnes deretter med ytterligere informasjon om feilen og koblinger til ett eller flere dokumenter eller oppsettkort som er berørt.  
 
-![Feilmeldinger i planleggingsforslaget](media/NAV_APP_supply_planning_1_error_log.png "Feilmeldinger i planleggingsforslaget")  
+![Feilmeldinger i planleggingsforslaget.](media/NAV_APP_supply_planning_1_error_log.png "Feilmeldinger i planleggingsforslaget")  
 
 ## <a name="planning-flexibility"></a>Planleggingsfleksibilitet
 

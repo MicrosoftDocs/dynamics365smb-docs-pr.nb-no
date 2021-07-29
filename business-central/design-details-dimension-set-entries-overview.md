@@ -1,6 +1,6 @@
 ---
-title: Dimensjonssettposter – oversikt | Microsoft-dokumentasjon
-description: Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i Dynamics 365.
+title: Dimensjonssettposter – oversikt
+description: I denne artikkelen får du en oversikt over hvordan dimensjonssettposter lagres som dimensjonssettposter, og hvordan de bokføres.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c6e3df748269e2f40e3acf0a28ce0f6bc48ca944
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f5765b82e3fde5ba35d3c0be9fc6383c9ddb5bf7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215306"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442413"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensjonssettposter – oversikt
 Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +34,7 @@ Eksempelet nedenfor viser et dimensjonssett som har tre dimensjonssettposter. Di
 ## <a name="dimension-set-entries"></a>Dimensjonssettposter  
 Dimensjonssett lagres i tabellen med **Dimensjonssettpost** som dimensjonssettposter med samme ID for dimensjonssett.  
 
-![Flyt for dimensjonssettposter](media/dimensionentrynav7.png "Flyt for dimensjonssettposter")  
+![Flyt for dimensjonssettposter.](media/dimensionentrynav7.png "Flyt for dimensjonssettposter")  
 
 Når du oppretter en ny kladdelinje, et nytt dokumenthode eller en ny dokumentlinje, kan du angi en kombinasjon av dimensjonsverdier. I stedet for at hver dimensjonsverdi lagres eksplisitt i databasen, tilordnes en dimensjonssett-ID til kladdelinjen, dokumenthodet eller dokumentlinjen for å angi dimensjonssettet.  
 

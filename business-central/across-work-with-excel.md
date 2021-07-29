@@ -10,37 +10,41 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7e3abf36444c4701229ffaac7ceade11bb1879cc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bf12f55f6bce843c4ed12f2a40db542367fffde
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786935"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443484"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
-Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også vise poster ved hjelp av Microsoft Excel. Du har to alternative måter å gjøre dette på. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Forskjellene mellom de to handlingen er følgende:  
+Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også vise poster ved hjelp av Microsoft Excel. Avhengig av hvilken side du har, kan du vise to alternativer i Excel. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Denne artikkelen forklarer forskjellen mellom de to handlingene.
 
 ## <a name="open-in-excel"></a>Åpne i Excel
 
+Med handlingen **Åpne i Excel** kan du gjøre endringer i postene i Excel, men du kan ikke publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bare lagre endringene til Excel-filen på datamaskinen din.
+
 - Med denne handlingen respekterer Excel filtre på siden som avgrenser postene som vises. Excel-arbeidsboken inneholder de samme radene og kolonnene som vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- Du kan gjøre endringer i postene i Excel, men du kan ikke publiserer endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bare lagre endringene til Excel-filen på datamaskinen din.
-
 - Denne handlingen fungerer både i Windows- og macOS.
+
+- Fra og med oppdatering 18.3 kan du også vise lister som vises i sidedeler, for eksempel linjene i en ordre. Denne funksjonen er nå en valgfri funksjon, som krever at du aktiverer **Eksport av alle listedeler til Excel** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Åpne i Excel** tilgjengelig som standard. Hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for redigering av data i Excel, erstattes handlingen **Åpne i Excel** med handlingen **Rediger i Excel**.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+
 ## <a name="edit-in-excel"></a>Rediger i Excel
+
+Med handlingen **Rediger i Excel** kan du gjøre endringer i postene i Excel og deretter publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Med denne handlingen respekterer Excel de fleste filtre på siden som begrenser postene som vises, slik at Excel-arbeidsboken vil inneholde nesten de samme postene og kolonnene.
 
-- Fordelen med **Rediger i Excel**-handlingen er at den lar deg gjøre endringer i poster i Excel og deretter publiserer endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)].
-
 - Den fungerer bare i Windows, ikke i macOS.
 
-- Du kan bytte ut selskapet du arbeider med. Du bytter selskap ved å velge ikonet **Alternativer** under ![Alternativer for Excel-tillegg](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg, og deretter velger du selskapet fra **Selskap**-feltet.  
+- Du kan bytte ut selskapet du arbeider med. Hvis du vil bytte selskap, velger du ikonet **Alternativer** ![Alternativer for Excel-tillegg.](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg og velger selskapet fra feltet **Selskap**.  
 
     > [!IMPORTANT]
     > Når du endrer firmaet, må du sørge for at **Miljø**-feltet ikke er tomt. Hvis det er det, setter du det til ett av de tilgjengelige alternativene. Hvis ikke, vil ikke tillegget fungere som det skal.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: caacf8eb62dd9539f050dbf55543dee862a6d7f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444490"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
 Dette emnet beskriver rapportene i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen. 
@@ -25,7 +25,7 @@ Du kan bruke følgende rapporter:
 * Den **EU-salg -oversikt** europeisk gruppen (EU) Salgsoversikt viser verdien som er lagt til mva-beløp som du har samlet for salg til mva-registrerte kunder i EU-land.  
 * Rapporten **Omsetningsoppgave** inkluderer mva for salg og kjøp for kunder og leverandører i alle land som bruker mva.
 
-Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. Hvis du vil vise MVA-oppføringer, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **MVA-oppføringer** og velger deretter den relaterte koblingen.
+Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. Hvis du vil se mva-poster, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Mva-poster** og velger deretter den relaterte koblingen.
 
 > [!NOTE]
 > Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø er ment å håndtere samsvarsrapporter i ett enkelt land. Den nederlandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] håndterer for eksesmpel mva-rapportering i Nederland, men ikke i andre land. På samme måte håndterer USA-versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportering i USA og støtter ikke mva-rapportering i andre land, med mindre via en utvidelse som leveres av partnerøkosystemet eller en kundespesifikk kodeendring.
@@ -58,19 +58,19 @@ For omsetningsoppgaven kan du angi postene som skal tas med:
 
 For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!INCLUDE[prod_short](includes/prod_short.md)]til webtjenesten til skattemyndigheten. Dette krever at du oppretter en konto hos skattemyndigheten. Når du har en konto, kan du aktivere en tjenestetilkobling vi gir i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter den aktuelle koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tjenestetilkoblinger** og velg riktig kobling.
 2. Fyll ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]  
     > Det er lurt å teste tilkoblingen. Du gjør dette ved å merke av for **Testmodus** og deretter forberede og sende mva-rapporten som beskrevet i delen _Forberede og sende inn en omsetningsoppgave_. I testmodus tester tjenesten om skattemyndighetene kan motta rapporten, og statusen for rapporten angir om testinnsendingen var vellykket. Det er viktig å huske at dette ikke er en faktisk innsending. Hvis du vil faktisk sende inn rapporten, må du fjerne merket for **Testmodus** og deretter gjenta innsendingsprosessen.
 
 ## <a name="to-set-up-vat-reports-in-prod_short"></a>Slik setter du opp omsetningsoppgaver i [!INCLUDE[prod_short](includes/prod_short.md)]
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Mva-rapportoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for mva-rapport**, og velg deretter den relaterte koblingen.  
 2. Hvis du vil at brukere skal kunne endre rapporten og sende den inn på nytt, merker du av for **Endre sendte rapporter**.  
 3. Velg nummerserien som skal brukes for hver rapport.  
 
 ## <a name="to-prepare-and-submit-a-vat-report"></a>Slik forbereder du og sender inn en omsetningsoppgave
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **EC-salg - oversikt** eller **Omsetningsoppgave**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **EU-salgsliste** eller **mva-retur**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du genererer innholdet i rapporten ved å velge handlingen **Foreslå linjer**.  
 

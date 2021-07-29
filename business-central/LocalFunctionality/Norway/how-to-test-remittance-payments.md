@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 00b74e3aa2a6652c04099b644163a2352d5575ff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 0bdf7eebc8f0c83f4a46c992e5958411cd990a2b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773464"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444092"
 ---
 # <a name="test-remittance-payments"></a>Kontrollere remitteringsoppdrag
 Etter at du har opprettet remitteringsoppdrag og generert forslag, kan du kontrollere at det ikke finnes feil i utbetalingskladdelinjene før du bokfører dem.  
@@ -28,7 +28,7 @@ Hvis det skrives ut en advarsel i kontrollrapporten, kan du ikke overføre betal
 
 ## <a name="to-print-a-remittance-test-report"></a>Slik skriver du ut en remitteringskontrollrapport  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Kontrollrapport**.  
 3.  På hurtigfanen **Alternativer** velger du **Vis dimensjoner**-feltet for å skrive ut dimensjoner i kontrollrapporten.  
 4.  Velg **Skriv ut** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  

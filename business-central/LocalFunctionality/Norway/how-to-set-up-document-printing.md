@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a479e08d5e25f88443ff17f00eba77d0ef8b0fd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1777dfcefe9b10d7813b30624d1904f19c5f041d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781705"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442903"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
@@ -41,7 +41,7 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
 3.  Velg handlingen **Salgsdok.arkskuff - oppsett**.  
 4.  Velg en papirkilde i **Første side - papirkilde**-feltet.  

@@ -1,6 +1,6 @@
 ---
 title: Endre grunnleggende innstillinger for gjeldende bruker
-description: Finn ut hvordan du kan endre noen av de grunnleggende innstillingene, for eksempel rollesenter, selskap eller arbeidsdato.
+description: Lær hvordan du endrer enkelte grunnleggende innstillinger i Business Central, for eksempel rolle og rollesenteret, firmaer, arbeidsdatoer og tidssoner.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787455"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443771"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
@@ -33,7 +33,7 @@ Rollen fastslår startsiden, som er et startskjermbilde som er tilpasset behoven
 
 Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.  
 
-1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
+1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 2. På siden **Mine innstillinger**, i feltet **Rolle**, velger du rollen som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**-knappen.
 
@@ -47,7 +47,7 @@ Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan oppret
 
 Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
 
-1. Velg ikonet ![Sprocket-ikon for å åpne Innstillinger-meny](media/ui-experience/settings_icon_small.png), og velg deretter handlingen **Selskapsinformasjon**.
+1. Velg ikonet ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) og velg handling **Selskapsopplysninger**.
 2. Skriv inn det nye selskapsnavnet i feltet **Navn**.
 3. Forlat siden. Systemet starter på nytt og viser det nye selskapet i øvre venstre hjørne.
 
@@ -55,7 +55,7 @@ Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handlin
 
 Du kan legge til et tilpasset merke i øvre høyre hjørne, som du kan velge for å raskt vise selskapsinformasjon og leietakerinformasjon i en popup-boks. Selskapsmerket er også nyttig når [!INCLUDE[prod_short](includes/prod_short.md)] er innebygd i et annet program, for eksempel Microsoft Teams eller i et annet nettprogram. I slike tilfeller, siden [!INCLUDE[web_client](includes/web_client.md)] viser mindre omkringliggende kontekstinformasjon, fungerer firmamerket som den eneste måten å avgjøre hvilket selskap eller hvilket miljø en post tilhører.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. På hurtigfanen **Selskapsmerke** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

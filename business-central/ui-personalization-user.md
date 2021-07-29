@@ -1,6 +1,6 @@
 ---
-title: Tilpasse sider | Microsoft-dokumentasjon
-description: Finn ut hvordan du kan tilpasse brukergrensesnittet slik at det passer til din arbeidsmåte i Business Central.
+title: Tilpasse sider
+description: Finn ut hvordan du kan tilpasse brukergrensesnittet og tilpasse arbeidsområdet slik at det passer til arbeidsmåten og personlige preferanser i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783314"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442678"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 Du kan tilpasse arbeidsområdet slik at det passer til arbeidet og preferansene, ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
@@ -42,7 +42,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Slik tilpasser du en side med **Tilpasse**-banneret
 1. Åpne en side som du vil tilpasse.
-2. Øverst til høyre velger du ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass** action.
+2. Øverst til høyre velger du ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass**-handlingen.
 
     Banneret **Tilpassing** vises øverst, noe som betyr at du kan begynne å gjøre endringer.
 

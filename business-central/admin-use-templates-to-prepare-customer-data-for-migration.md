@@ -1,6 +1,6 @@
 ---
-title: Forberede kundedatamigrering med maler | Microsoft Docs
-description: Finn ut hvordan du bruker konfigurasjonsmaler til å strukturere eksisterende kundedata før du overfører dataene til det nye selskapet i Business Central.
+title: Klargjør kundedataoverføring med maler
+description: Finn ut hvordan du bruker konfigurasjonsmaler til å strukturere eksisterende kundedata før du overfører hoveddataene til det nye selskapet i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776994"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443157"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Klargjøre for å flytte kundedata med maler
 
@@ -47,7 +47,7 @@ Når du velger en eksisterende datamal, må du vurdere om malene som du opprette
 > [!TIP]  
 > Du kan også bruke datamaler til raskt å opprette nye poster. Bruk dem til å opprette data raskere og mer nøyaktig. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. På siden **Konfigurasjonsmaler** velger du en datamal fra oversikten, og velger deretter **Rediger**-handlingen.  
 
 Hvis standardmalene ikke oppfyller dine behov, kan du opprette nye maler eller legge til felt i en eksisterende mal. Hvis standardmalene er tilstrekkelige, kan du bruke dem til å opprette poster basert på maler for hoveddata.
@@ -100,7 +100,7 @@ Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i 
 
 Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Legg til en tabell i listen, eller velg en eksisterende tabell. Hvis du vil ha mer informasjon, se [Behandle selskapskonfigurasjon i et forslag](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Velg handlingen **Vis felt** for å definere feltene fra tabellen som du vil inkludere i malen.
 4. Velg **Eksporter til mal**-handlingen.
@@ -130,11 +130,11 @@ Du kan bruke strukturen i data som datamalene inneholder, til å enkeltvis konve
 
 Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du kan opprette en post fra en hvilken som helst datamal ved å bruke den samme fremgangsmåten.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se [Slik oppretter du en datamal](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Velg handlingen **Opprett forekomst**. Et varekort opprettes.  
 4. Velg **OK**.  
-5. For å gå gjennom det nye varekortet velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer**, og velger deretter den relaterte koblingen.  
+5. Hvis du vil gå gjennom det nye varekortet, velger du ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 6. Åpne det nye varekortet.  
 7. Utvid ulike hurtigfaner, og kontroller at informasjonen er opprettet på riktig måte på dem.  
 

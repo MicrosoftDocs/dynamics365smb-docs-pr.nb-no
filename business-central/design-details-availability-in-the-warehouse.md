@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215506"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442538"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
 Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.  
@@ -47,7 +47,7 @@ Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for plukking med reservasjonsoverlapping](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
+ ![Disponibelt for plukking med reservasjonsoverlapping.](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
 
 ## <a name="quantity-available-to-reserve"></a>Antall tilgjengelig for reservasjon  
  Siden konsepter for hylleinnhold og reservasjon sameksisterer, må antall varer som er tilgjengelige for reservasjon, justeres etter tildelinger til utgående lagerdokumenter.  
@@ -72,11 +72,11 @@ Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for reservering per lagerlokasjon](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
+ ![Disponibelt for reservering per lagerlokasjon.](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
- [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)
+ [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

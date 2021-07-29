@@ -1,21 +1,21 @@
 ---
 title: Beregne ordrebekreftelsesdatoer
-description: Ordrebekreftelsesfunksjonen er et verktøy for beregning av når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer for datoene du godtar.
-author: SorenGP
+description: Ordrebekreftelsesfunksjonen er et verktøy for beregning av når en vare tidligst kan leveres.
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f9550d81eb193cb76cd846d98e1259226fd77895
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115593"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442753"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
 Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordre.  
@@ -76,7 +76,7 @@ Ordrebehandleren fullfører CTP-prosessen ved å godta datoene. Dette betyr at e
 I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordrebekreftelseslinjer**, kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
 ## <a name="to-set-up-order-promising"></a>Slik angir du ordrebekreftelser  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
 2. Angi et nummer og en tidsenhetskode i feltet **Iverksett (tid)**. Velg én av følgende koder.  
 
     |Kode|Beskrivelse|  
@@ -94,14 +94,14 @@ I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordr
 
 ### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Slik angir du inngående lagerhåndteringstid i lageroppsettsiden  
 Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret og lokasjonen.    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
 >  Hvis du har fylt ut feltet **Inngående lagerhåndteringstid** på **lokasjonskortet** for lokasjonen, brukes dette feltet som standard for inngående lagerhåndteringstid.  
 
 ### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Slik angir du inngående lagerhåndteringstid på lokasjonskort  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Lokasjon**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
 3.  På hurtigfanen **Lager** i feltet **Inngående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
@@ -111,14 +111,14 @@ Hvis du vil at lagerhåndteringstid skal tas med i beregningen av ordrebekreftel
 ### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Slik angir du utgående lagerhåndteringstid på lageroppsettsiden  
 Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i beregningen av ordrebekreftelsen på salgslinjen, kan du definere dette som standard for lageret.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
 > [!NOTE]  
 >  Hvis du har fylt ut feltet **Utgående lagerhåndteringstid** på lokasjonskortet for lokasjonen, brukes dette feltet som standard for utgående lagerhåndteringstid.  
 
 ### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Slik angir du utgående lagerhåndteringstid på lokasjonskort  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
 3.  På hurtigfanen **Lager** i feltet **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningen av ordrebekreftelsen.  
 
@@ -127,12 +127,12 @@ Hvis du vil definere en utgående lagerhåndteringstid slik at den tas med i ber
 
 ## <a name="to-make-an-item-critical"></a>Slik gjør du en vare kritisk  
 Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være merket som kritisk. Dette oppsettet sikrer at ikke-kritiske varer ikke fører til uaktuell beregning av ordrebekreftelser.   
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2.  Åpne det aktuelle varekortet.  
 3.  På hurtifganen **Planlegging** velger du **Kritisk**-feltet.  
 
 ## <a name="to-calculate-an-order-promising-date"></a>Slik beregner du en ordrebekreftelsesdato  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordre**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ordren, og velg ordrelinjene du vil at programmet skal beregne.  
 3.  Velg handlingen **Ordrebekreftelse** og deretter **Ordrebekreftelseslinjer**.  
 4.  Velg en linje, og velg deretter ett av følgende alternativer:  

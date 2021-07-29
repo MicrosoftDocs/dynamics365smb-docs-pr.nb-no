@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: beb78a3526b95af228ab313b67174633902e7bd7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c5ca9eb1dc14a75d84072f28e7f72fc8b5e89373
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778825"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443410"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 
@@ -52,7 +52,7 @@ Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ve
 
 Du kan også bruke bestillingsforslaget til å opprette bestillingen for leverandøren. Fordelen med å bruke bestillingsforslaget er at det kan opprette bestillinger for alle utestående direkte leveringer, slik at du ikke trenger å opprette hver enkelt individuelt.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Bestillingsforslag**, og velg deretter den relaterte koblingen.
 2. Velg **Direkte levering**-handlingen, og velg deretter **Hent ordre**-handlingen.
 3. Velg **OK**-knappen.
 4. Se gjennom bestillingslinjene, og velg leverandør som leverer nødvendige varer, i feltet **Leverandørnummer**. 
@@ -66,7 +66,7 @@ Du kan også bruke bestillingsforslaget til å opprette bestillingen for leveran
 
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne ordren du opprettet i [Slik oppretter du en ordre med direkte levering:](#to-create-a-sales-order-for-drop-shipment).
 3. I **Levere (antall)**-feltet angir du hvor mye av ordreantallet som skal leveres, hele eller deler av ordreantallet.
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.

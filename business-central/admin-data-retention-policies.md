@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935339"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443921"
 ---
 # <a name="define-retention-policies"></a>Definere oppbevaringspolicyer
 Administratorer kan definere oppbevaringspolicyer for å angi hvor ofte de vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal slette foreldede data i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med dataene som faktisk er relevante. Policyer kan omfatte alle data i tabellene som har passert utløpsdatoen, eller du kan legge til filterkriterier som bare inkluderer bestemte utgåtte data i policyen. 
@@ -40,7 +40,7 @@ Oppbevaringsperioder kan være så lang eller så kort du vil. Hvis du vil oppre
 > Av hensyn til samsvar har vi definert en minimums oppbevaringsperiode for noen tabeller. Hvis du angir en oppbevaringsperiode som er kortere enn minimumskravet, vises en melding med den obligatoriske perioden.
 
 ### <a name="set-up-a-retention-policy"></a>Definere en oppbevaringspolicy
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppbevaringspolicyer**, og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppbevaringspolicyer**, og velg deretter den relaterte koblingen.
 2. Velg tabellen du vil ta med i policyen, i **Tabell-ID**-feltet.
 3. I feltet **Oppbevaringsperiode** angir du hvor lenge dataene i tabellen skal beholdes.
 4. Valgfritt: Hvis du vil bruke policyen på bestemte data i en tabell, deaktiverer du Bruk på alle poster. Hurtigfanen Oppbevaringspolicy for post vises, der du kan definere filtre for å opprette delsett med data for hver linje. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#filtering).

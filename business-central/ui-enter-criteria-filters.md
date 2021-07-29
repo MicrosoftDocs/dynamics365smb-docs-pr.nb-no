@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017177"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443696"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 
@@ -45,7 +45,7 @@ Hvis du vil sortere en liste, kan du:
 ## <a name="searching"></a>Søke
 
 <!--## Searching by using the Quick Filter -->
-Øverst på hver listeside er det en ![Søkeliste](media/ui-search/search-list.png "Søkeliste-ikon") **Søk**-handling som gir en rask og enkel måte å redusere postene i en oversikt på, og viser bare postene som inneholder dataene du interessert i å se på.
+Øverst på hver listeside finner du en ![Søkeliste.](media/ui-search/search-list.png "Søkeliste-ikon") **Søk**-handling som gir en rask og enkel måte å redusere postene i en oversikt på, og viser bare postene som inneholder dataene du interessert i å se på.
 
 For å søke velger du **Søk**-handlingen, og deretter skriver inn teksten som du søker etter, i boksen. Du kan skrive inn bokstaver, tall og andre symboler.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2936e819ba50adde6df021cc0dc2694367c29fc9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778500"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442728"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
@@ -23,7 +23,7 @@ Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjone
 Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel for den samme kunden i én og samme valuta. Du må med andre ord opprette minst to ordrer og bokføre disse ordrene som levert, men ikke fakturert. 
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura manuelt  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Salg til-kundenr.** angir du kunden som skal motta fakturaen for de leverte varene.  
 4. På hurtigfanen **Linjer** velger du handlingen **Hent leveringslinjer**.  
@@ -38,7 +38,7 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
 [!INCLUDE[prod_short](includes/prod_short.md)] velger bare ordrer der **Opprett samlefaktura** er valgt. 
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett samlefaktura**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kombiner leveringer**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Merk av for **Bokfør fakturaer**.  
 4. Velg **OK**-knappen.  
@@ -51,7 +51,7 @@ Når du oppretter og bokfører en samlefaktura, opprettes en bokført salgsfaktu
 
 Når du fakturerer følgesedler på denne måten, eksisterer fortsatt ordrene som følgesedlene ble bokført fra, selv om de er fullstendig levert og fakturert.   
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett fakturerte ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett fakturerte ordrer**, og velg deretter den relaterte koblingen.  
 2. Angi hvilke ordrer som skal slettes, i **Nr.** -filterfeltet.  
 3. Velg **OK**-knappen.  
 

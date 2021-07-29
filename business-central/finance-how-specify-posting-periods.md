@@ -1,6 +1,6 @@
 ---
-title: Angi bokføringsperioder | Microsoft-dokumentasjon
-description: Du angir start- og sluttdatoer for bokføring for å definere når brukere kan bokføre i Finans.
+title: Angi bokføringsperioder
+description: Du angir bokføringsperioder (start- og sluttdatoer for bokføring) for å definere når brukere kan bokføre i Finans.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -11,20 +11,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user setup
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6f1745dfec453f5864b748d0c876e5ef040fc2df
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e4fb495fc29f28dffd34e492cb33d162d671fbd3
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775477"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444365"
 ---
-# <a name="specify-posting-periods"></a>Angi bokføringsperioder
+# <a name="how-to-specify-posting-periods"></a>Angi bokføringsperioder
 Bruk bokføringsperioder til å angi når brukere kan postere til finans.  
 
 ## <a name="to-specify-posting-periods"></a>Slik angir du bokføringsperioder
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** definerer du perioden ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til**.  
 
 > [!NOTE]  

@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 842466fbe89a28f4c32f610dbd0ad58dba697ce1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 94936e464a65c84ec42399bc3d74683084b01a06
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775717"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444090"
 ---
 # <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  
 
 ## <a name="to-view-error-codes"></a>Slik viser du feilkoder:  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Returfeil**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Returfeil**, og velg deretter den relaterte koblingen.  
 2.  På siden **Returfeil** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  

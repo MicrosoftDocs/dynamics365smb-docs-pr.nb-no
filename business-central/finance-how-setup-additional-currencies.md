@@ -1,9 +1,7 @@
 ---
-title: Definere flere valutaer | Microsoft-dokumentasjon
+title: Definer tilleggsvaluta
 description: Finans er definert til å bruke den lokale valutaen (NOK), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -12,20 +10,23 @@ ms.workload: na
 ms.search.keywords: multiple currencies
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 23e9f521e43373ff3ee0fd5f8218b2d467b54d72
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775528"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444440"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
+
 Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.
 
 Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster.
 
 > [!Warning]
-> Funksjonen for tilleggsrapporteringsvaluta må ikke brukes som grunnlag for oversettelse av årsregnskap. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta kan bare brukes til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
+> Funksjonen for tilleggsrapporteringsvaluta må ikke brukes som grunnlag for oversettelse av årsregnskap med mindre du forstår begrensningene. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta kan bare brukes til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
+>
+> Du har for eksempel et stort antall kunder i britiske pund (GBP), og du har definert tilleggsrapporteringsvalutaen (tilleggsvaluta) til å være GBP. I dette scenariet vil ikke beløp i kundemodulen som bruker GBP, bli justert for valutakursgevinst/-tap i tilleggsvaluta, bare beløp i kundemodulen som finnes i andre valutaer. Det betyr at hvis du bruker tilleggsvaluta til å rapportere regnskapsoppgjør, kan det føre til undervurdert eller overvurderte utestående saldoer for kortsiktige fordringer.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Vise rapporter og beløp i tilleggsrapporteringsvalutaen
 Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et selskap i følgende tilfeller:
@@ -48,7 +49,7 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Slik angir du finanskonti for bokføring av valutakursjusteringer  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Valutaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Valutaer** og velg den relaterte koblingen.  
 2. Fyll inn følgende felt for tilleggsrapporteringsvalutaen på **Valutaer**-siden.  
 
 |Felt|Description|  
@@ -64,7 +65,7 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom NOK og tilleggsrapporteringsvalutaen.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Slik angir du metoden for valutakursjustering for alle finanskonti:  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontoplan**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Velg den relevante kontoen på siden **Kontoplan**, og velg deretter handlingen **Rediger**.  
 3. På siden **Finanskort** velger du relevant metode i **Valutakursjustering**-feltet.  
 
@@ -81,7 +82,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 4.  Lukk **Finanskort**-siden.  
 
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Slik angir du metode for valutakursjustering for mva-poster  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** velger du relevant metode i **Mva-valutakursjustering**-feltet.  
 3. Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du i **Mva-valutakursjustering**-feltet angi hvordan kontoene som er definert for mva-bokføring på siden **Mva-bokføringsoppsett**, skal justeres for valutakursendringer mellom NOK og tilleggsrapporteringsvalutaen.  
 
@@ -96,7 +97,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
     |**Juster tilleggsvaluta- beløp**|Tilleggsrapporteringsvalutaen justeres for eventuelle agio og disagio. Agio eller disagio bokføres på finanskontoen i feltet **Tilleggsvalutabeløp** og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** på **Valutaer**-siden.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Slik aktiverer du tilleggsrapporteringsvalutaen  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Tilleggsrapporteringsvaluta** på siden **Finansoppsett** for å velge tilleggsvalutaen du vil rapportere i.  
 3. Når du forlater feltet, viser [!INCLUDE[prod_short](includes/prod_short.md)] en bekreftelsesmelding som beskriver virkningene av å aktivere tilleggsrapporteringsvalutaen.  
 4. Velg **Ja**-knappen for å bekrefte at du ønsker å aktivere valutaen.  

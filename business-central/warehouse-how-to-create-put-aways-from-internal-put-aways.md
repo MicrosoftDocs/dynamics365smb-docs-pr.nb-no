@@ -1,6 +1,6 @@
 ---
 title: Opprett plasseringer fra interne plasseringer
-description: Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.
+description: Dette emnet dekker hvordan du kan plukke og plassere uten et kildedokument, både hvordan du oppretter en intern plukking, og hvordan du oppretter en intern plassering.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 66abeaaf1d009e994e302fc333c32dae3c3b6abd
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 198c4fb8ead4179667e35957046b3446ce5d8065
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771832"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444183"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument
 Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.  
@@ -34,14 +34,14 @@ Med **Intern plassering** kan du utføre plasseringer uten å måtte referere ti
 >  Når lokasjonen bruker lagerstyring, og derfor bruker hylletyper, kan du ikke manuelt flytte varer til eller fra en hylle av hylletypen RECEIVE, fordi varer som er i en slik hylle må registreres som plassert før de blir en del av det tilgjengelige lageret.  
 
 ## <a name="to-create-an-internal-pick"></a>Opprette en intern plukking  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Intern plukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut feltet **Nr.** feltet **Lokasjonskode** og **Til hylle-kode** i hurtigfanen **Generelt**. Feltet **Til hylle-kode** angir hyllen der du vil plassere de plukkede varene. Til produksjonsformål ville denne hyllen være den inngående produksjonshyllen eller den åpne produksjonshyllen. Til andre formål velger du en hyllekode for en hylletype som ikke brukes til plukking, sannsynligvis en hylle for oppsamling, levering eller spesielle formål.  
 4.  Velg en vare i feltet **Varenr.**, og fyll ut antallene du vil plukke.  
 5. Velg handlingen **Opprett plukk**. En plukkinstruksjon er nå klar til utføring av en lageransatt. Du kan også velge **Frigi**-handlingen og opprette lagerplukk ved hjelp av **Plukk-forslaget**. Hvis du vil ha mer informasjon, kan du se [Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Opprette en intern plassering  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern plassering**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Intern plassering**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
 3. Fyll ut hodet til den nye interne plasseringen med minst feltet **Nr.**. og **Lokasjonskode**.
 4. Fyll ut en linje for hver vare du vil flytte til lageret. Du trenger bare å fylle ut feltene **Varenr.** og **Antall**.

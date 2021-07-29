@@ -1,6 +1,6 @@
 ---
-title: Designdetaljer – Revaluering | Microsoft-dokumentasjon
-description: Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.
+title: Designdetaljer – Revaluering
+description: Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a052f726169fde9e09e83aeb690169580eaee948
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2af7425324314c14039ef56bc7e124db033fd8ef
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215781"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444308"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Revaluering
 Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.  
@@ -39,7 +39,7 @@ Siden revaluering kan gjøres på alle datoer, må du ha konvensjoner for når e
 ### <a name="example"></a>Eksempel  
 Følgende eksempel illustrerer når en VIA-vare går over til å bli en del av beholdningen. Eksemplet er basert på produksjon av en kjede med 150 ledd.  
 
-![VIA-beholdning og revaluering](media/design_details_inventory_costing_10_revaluation_wip.png "VIA-beholdning og revaluering")  
+![VIA-beholdning og revaluering.](media/design_details_inventory_costing_10_revaluation_wip.png "VIA-beholdning og revaluering")  
 
 **1K**: Brukeren posterer kjøpte koblinger som mottatt. Tabellen nedenfor viser den resulterende vareposten.  
 

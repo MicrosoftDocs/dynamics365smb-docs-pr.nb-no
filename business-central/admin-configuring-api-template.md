@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 7d39262993a173fec1eae68bcb44a85332a9866a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773107"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443995"
 ---
 # <a name="configuring-api-templates"></a>Konfigurere API-maler
 API-biblioteket for [!INCLUDE[prod_short_md](includes/prod_short.md)] gir en forenklet visning av de underliggende enhetene. Alle egenskapene i programmet vises ikke via det tilknyttede API-et. På **API-oppsett**-siden kan du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom API-et. 
@@ -31,7 +31,7 @@ Hvis du vil bruke maler med API-biblioteket, må du først konfigurere og define
 
 Hvis du vil tilordne en mal til et API, må du gå gjennom fremgangsmåten nedenfor.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **API-oppsett**, og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **API-oppsett**, og velg den relaterte koblingen.
 2. Velg **Ny**, og velg deretter **Rekkefølge**-verdien for posten.  
 Hvis det er mer enn én mal som er valgt for et API (side-ID), brukes malene i rekkefølgen som er definert i **Rekkefølge**-kolonnen.   
 Når hver mal er brukt, brukes bare feltverdiene som er definert i malen, på felt som ikke allerede har fått en verdi definert, enten eksplisitt i API-et eller i en mal som er brukt tidligere i rekkefølgen. 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074590"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444021"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Deling av Business Central-oppføringer i Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "6074590"
 - Kopier en kobling til en Business Central-oppføring, og lim den inn i en Teams-samtale for å dele med kollegene dine. Appen utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten.
 - Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
 
-[![Teams-integrering med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Forutsetninger
 
@@ -49,13 +49,13 @@ ms.locfileid: "6074590"
 
 3. Kopier hele URL-adressen fra adresselinjen i nettleseren.
 
-   ![Kopier URL-adressen for Business Central fra leseren](media/teams-url-v2.png)
+   ![Kopier URL-adressen for Business Central fra nettleseren.](media/teams-url-v2.png)
 4. Gå til Teams og start en samtale, som kan være en chat med en person, gruppe med personer eller en teamkanal.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Lim inn URL-adressen i meldingsboksen der du skriver en melding.
 
-   ![Lim inn URL-adresse for Business Central i Teams](media/teams-paste-url-v2.png)
+   ![Lim inn URL-adresse for Business Central i Teams.](media/teams-paste-url-v2.png)
 6. Første gang du limer inn en kobling i en samtale, blir du bedt om å logge på [!INCLUDE [prod_short](includes/prod_short.md)] og gi samtykke til at appen kan hente data. Bare følg instruksjonene på skjermen.
 
     > [!NOTE]
@@ -90,6 +90,8 @@ Hvis du vil vite mer om hvordan du arbeider med kort og kortdetaljer, kan du se 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
+[Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md)  
+[Endre selskap og andre innstillinger i Teams](across-teams-settings.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

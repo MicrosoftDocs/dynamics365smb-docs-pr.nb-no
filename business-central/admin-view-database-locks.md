@@ -1,20 +1,20 @@
 ---
 title: Vise databaselåser
-description: Lær hvordan du kan vise informasjon om en databaselås rett fra klientgrensesnittet i Business Central.
+description: Lær hvordan du kan vise informasjon om en kundedatabaselås rett fra klientgrensesnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776919"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443107"
 ---
 # <a name="viewing-database-locks"></a>Visning av databaselåser
 
@@ -24,7 +24,7 @@ Brukere kan bli blokkert fra å fullføre transaksjoner for de låste dataene. D
 
 ## <a name="to-view-database-locks"></a>Slik viser du databaselåser
 
-Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Databaselåser**, og velg deretter den relaterte koblingen.
+Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Databaselåser**, og velg deretter den relaterte koblingen.
 
 Siden **Databaselåser** inneholder et øyeblikksbilde av alle gjeldende databaselåser.
 

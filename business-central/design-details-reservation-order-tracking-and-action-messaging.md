@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d53d813871b154a705676483559f7464bf8469fd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214906"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442313"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger
 Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.  
@@ -138,7 +138,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  Følgende sporingsposter finnes i **Reservasjonspost**-tabellen basert på dataene i tabellen.  
 
- ![Første eksempel på ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Første eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løpenummer 8 og 9  
  Det opprettes sporingskoblinger for komponentbehov for henholdsvis PARTIA og PARTIB, fra behovet i tabell 5407, **Prod.ordrekomponent**, til forsyningen i tabell 32, **Varepost**. **Reservasjonsstatus**-feltet inneholder **Sporing** for å angi at disse postene er dynamiske sporingskoblinger mellom forsyning og behov.  
@@ -156,7 +156,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Andre eksempel på ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Andre eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løpenummer 8 og 9  
  Sporingsposter for de to komponentpartiene som gjenspeiler behov i tabell 5407, blir endret fra reservasjonsstatusen **Sporing** til **Overskudd**. Årsaken er at forsyningene som de var knyttet til før i tabell 32, er brukt av leveringen av overføringsordren.  
@@ -170,7 +170,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Tredje eksempel på ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Tredje eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
  Sporingspostene ligner nå på det første punktet i scenariet, før overføringsordren ble bokført som bare levert, bortsett fra at postene for komponenten nå har reservasjonsstatusen **Overskudd**. Dette er fordi komponentbehovet fortsatt er i VEST lokasjon, som gjenspeiler at **Lokasjonskode**-feltet på produksjonsordrekomponentlinjen inneholder **VEST**, som definert i oppsettfeltet **Komponenter ved lokasjon**. Forsyningen som ble tildelt til dette behovet tidligere, er overført til ØST lokasjon og kan ikke nå spores fullstendig med mindre komponentbehovet på produksjonsordrelinjen endres til ØST lokasjon.  
 
@@ -178,7 +178,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Fjerde eksempel på ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Fjerde eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Løpenummer 21 og 22  
  Siden komponentbehovet er endret til ØST lokasjon og forsyningen er tilgjengelig som vareposter i ØST lokasjon, blir nå alle sporingsposter for de to partinumrene fullstendig sporet, som angitt av reservasjonsstatusen **Sporing**.  

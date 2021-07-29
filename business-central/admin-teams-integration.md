@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ecb3f88bf14c74f026f10fd49efe28f189036589
-ms.sourcegitcommit: e13b80d4e5141f414109e660e0918eae561acb36
+ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5882208"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443209"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -35,7 +35,7 @@ Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/pro
 
     |Hva|Teams-lisens|[!INCLUDE [prod_short](includes/prod_short.md)]-lisens|
     |----|---|---|
-    |Søk etter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
+    |Søk etter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter.|![avmerking.](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
     |Lim inn en kobling til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
     |Vis et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")||
     |Vis flere detaljer i kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|

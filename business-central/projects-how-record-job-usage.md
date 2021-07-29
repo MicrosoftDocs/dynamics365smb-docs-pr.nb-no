@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: project management, consumption
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65975621fff862b64333c87e70f34b75f8e2cbdb
-ms.sourcegitcommit: 93c8681054b059cec38cb29b86de20be37980676
+ms.openlocfilehash: 0d873a547175ee9f52a4016f4e8f5e9aa603cd8a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938099"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443796"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbruk eller forbruk for prosjekter
 
@@ -27,7 +27,7 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjettert
 
 ## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Slik registrerer du forbruk for en prosjektplanleggingslinje av typen Budsjett
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Prosjektplanleggingslinjer**.
 3. Velg en prosjektplanleggingslinje av typen **Budsjett** eller **Både Budsjett og fakturerbar** som du vil registrere forbruk for.  
 
@@ -49,7 +49,7 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjettert
 
 ## <a name="to-create-job-journal-lines-manually"></a>Slik oppretter du prosjektkladdelinjer manuelt:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg et navn for den relevante prosjektkladden i feltet **Bunkenavn**.  
 3. Angi bilagsnummer, prosjektnummer, prosjektoppgavenummer, type og antall for typen som forbrukes, på en ny linje.  
 4. Når prosjektkladdelinjene er fullført, kan du velge handlingen **Bokfør**.  
@@ -63,7 +63,7 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 > [!NOTE]  
 >   Vareposter oppretter vareposter og reduserer lagerantallet. Kjørselen **Bokfør lagerkost i Finans** overfører kosten fra lager til Finans. For ressurser opprettes ressursposter.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg en journal for det aktuelle prosjektet, og velg deretter handlingen **Beregn gjenstående forbruk**.  
 3. På siden **Beregn gjenstående forbruk for prosjekt** skriver du inn dokumentnummeret og bokføringsdatoen som skal settes inn i kladden, og deretter velger du **OK**-knappen.  
 4. Oppdater journalen med eventuelle endringer som kreves.  
@@ -78,7 +78,7 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 > [!NOTE]  
 > Dette krever at det er merket av for **Bruk forbrukskobling** for prosjektet. Hvis du vil ha mer informasjon, kan du se [Konfigurere prosjekter](projects-how-setup-jobs.md).  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
 3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 

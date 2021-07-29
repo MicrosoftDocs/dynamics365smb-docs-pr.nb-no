@@ -1,6 +1,6 @@
 ---
-title: Definere hylletyper| Microsoft-dokumentasjon
-description: Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lageraktiviteter. Du gir hver hylle de grunnleggende flytaktivitetene, og du definerer måten en hylles skal brukes på ved å tilordne den en hylletype.
+title: Definere hylletyper
+description: Tilordne typer og grunnleggende flytaktiviteter til hyller, og definer deretter hvordan hyllene brukes til bestemte lageraktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5fc0fa5493a42329515bcb9b114028eb5e65c2c6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 987db7dda73bb527cfa025b7641c445b08cced2a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442982"
 ---
 # <a name="set-up-bin-types"></a>Definere hylletyper
 Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lageraktiviteter. Du gir hver hylle de grunnleggende flytaktivitetene, og du definerer måten en hylles skal brukes på ved å tilordne den en hylletype.  
@@ -23,7 +23,7 @@ Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lager
 Du kan velge mellom seks typer. Du kan velge å bruke alle de seks mulige hylletypene i lageret, eller du kan velge å bruke bare hylletypene MOTTAK, PLASSPLUKK, LEVERING og KK. Med disse fire hylletypene kan det gis forslag som støtter flyten, og du kan registrere beholdningsavvik.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Slik setter du opp de hylletypene du vil bruke  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hylletyper**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Hylletyper** og velg den relaterte koblingen.  
 2.  På siden **Hylletyper** oppretter du en kode på 10 tegn for hver hylletype.  
 3.  Velg hvilke aktiviteter som kan utføres med hver hylletype.  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fe04fc290f10324105d4d9ca01e13166bf2ad8f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773082"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443946"
 ---
 # <a name="managing-database-access-intent"></a>Administrere databasetilgangsformål 
 
@@ -33,7 +33,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 
 ## <a name="to-change-the-database-access-intent"></a>Slik endrer du databasetilgangsformålet
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Liste over databasetilgangsformål**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Liste over databasetilgangsformål**, og velg deretter den relaterte koblingen.
 
     Siden viser alle rapporter, sider og spørringer. Kolonnen **Tilgangsformål** inneholder én av følgende verdier:
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f01f79ae67f97f45242f01b46ebc75b603fa7187
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778450"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442703"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeide med rammeordrer eller rammebestillinger
 
@@ -32,7 +32,7 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 
 ## <a name="to-create-a-blanket-sales-order"></a>Slik oppretter du en rammeordre
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordre**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. La **Ordredato**-feltet stå tomt. Når egne ordrer opprettes fra rammeordren, settes ordredatoen for salgsordren til faktisk arbeidsdato.
@@ -60,7 +60,7 @@ Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:
 ## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Slik viser du statusen for en rammeordre  
 Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette kan være relevant når du begynner å fakturere ordren som opprettes fra rammeordren.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordre**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg en rammeordre, og velg deretter **Statistikk**-handlingen.  
 3.  På siden **Rammeordrestatistikk** i hurtigfanen **Generelt** vises informasjonsoversikt over hele bestillingen basert på det totale antallet i **Antall**-feltene på rammebestillingslinjene.  
 
@@ -72,7 +72,7 @@ Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Vise ikke-bokførte og bokførte rammeordrelinjer   
 Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andre salgsdokumenter, beholdes etter bokføring som en liste over bokførte og ikke-bokførte salgsordrefakturalinjer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rammeordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.
 2. Åpne rammeordren du vil vise.
 3. Hvis du vil vise ikke-bokførte poster, velger du den aktuelle linjen, velger **Linje**-handlingen og deretter **Ikke-bokførte linjer**. Velg ett av følgende alternativene.  
 

@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms. search.keywords: cloud, migrate, insights
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: b64b1ad037743364b7bd0f4544dbcdb351e2daba
-ms.sourcegitcommit: 951d3c9d541f0b1d26712d37e253c2958dae3321
+ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889258"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442613"
 ---
 # <a name="intelligent-insights-in-prod_short-online"></a>Intelligent innsikt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
@@ -36,7 +36,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] Online viser siden **Intelligen
 Ved siden av KPI-diagrammene kan du få innsikt i potensielle problemområder, inkludert forfalte betalinger. Velg hver innsikt for å se nærmere på dataene.  
 
 > [!div class="mx-imgBorder"]
-> ![Intelligent skyinnsikt](media/across-intelligent-cloud/intelligentcloudApril19.png "Viser siden Intelligent skyinnsikt i Business Central Online")
+> ![Intelligent skyinnsikt.](media/across-intelligent-cloud/intelligentcloudApril19.png "Viser siden Intelligent skyinnsikt i Business Central Online")
 
 Siden kobler også til Power BI for enda mer innsikt. Alternativt kan du koble til Azure AI for enda mer intelligent innsikt. Du finner mer informasjon under [Utvidelsen Salgs- og lagerprognose](ui-extensions-sales-forecast.md).  
 

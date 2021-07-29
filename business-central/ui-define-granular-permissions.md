@@ -1,6 +1,6 @@
 ---
-title: Definere detaljerte tillatelser | Microsoft Docs
-description: Beskriver hvordan du gir brukere tilgang til objekter ved å tilordne tillatelsessett til dem.
+title: Definere detaljerte tillatelser
+description: Dette emnet beskriver hvordan du definerer detaljerte tillatelser ved å gi bestemte brukere tilgang til objekter og tilordne tillatelsessett til dem.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776720"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443720"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
@@ -53,7 +53,7 @@ Du kan tilordne tillatelsessett til brukere på to måter:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Slik tilordner du et tillatelsesett på et brukerkort
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. Velg brukeren du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Rediger** for å åpne **Brukerkort**-siden.
@@ -61,14 +61,14 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Slik tilordner du et tillatelsessett på siden Tillatelsessett etter bruker
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. På siden **Brukere** velger du den aktuelle brukeren, og velger deretter handlingen **Tillatelsessett etter bruker**.
 3. På siden **Tillatelsessett etter bruker** merker du av for **[brukernavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukeren.
 4. Merk av for **Alle brukere** for å tilordne tillatelsessettet til alle brukere.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>For å få en oversikt over en brukers tillatelser
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. Åpne kortet til den relevante brukeren.
 3. Velg handlingen **Gyldige tillatelser**.
 
@@ -103,7 +103,7 @@ Tillatelsessett fungerer som beholdere med tillatelser, slik at du enkelt kan be
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Slik oppretter du nye tillatelsessett fra grunnen av
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tillatelsessett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
 2. Velg **Ny**-handlingen for å opprette et nytt tillatelsessett.
 3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Når du har opprettet et tillatelsessett, må du legge til de aktuelle tillatelsene. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelser manuelt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kun
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tillatelsessett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
 2. Du kan også gå til siden **Brukere** og velge handlingen **Tillatelsessett**.
 3. På siden **Tillatelsessett** velger du handlingen **Ny**.
 4. Fyll ut feltene etter behov på en ny linje.
@@ -197,7 +197,7 @@ Tillatelsessett som tilordnes en bruker gjennom en brukergruppe, forblir synkron
 
 Fremgangsmåten nedenfor forklarer hvordan du oppretter brukergrupper manuelt. Hvis du vil opprette brukergrupper automatisk, se [Slik kopierer du en brukergruppe og alle tillatelsessettene](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukergrupper** og velg den relaterte koblingen.
 2. Du kan også gå til siden **Brukere** og velge handlingen **Brukergrupper**.
 3. Gå til siden **Brukergruppe** og velg handlingen **Brukergruppemedlemmer**.
 4. Velg **Legg til brukere** på siden **Brukergruppemedlemmer**.
@@ -209,7 +209,7 @@ For å definere en ny brukergruppe raskt kan du kopiere alle tillatelsessett fra
 > [!NOTE]
 > Brukergruppemedlemmene kopieres ikke til den nye brukergruppen. Du må legge dem til manuelt etterpå. Hvis du vil ha mer informasjon, kan du se [Slik grupperer du brukere i brukergrupper](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukergrupper** og velg den relaterte koblingen.
 2. Velg brukergruppen du vil kopiere, og velg deretter handlingen **Kopier brukergruppe**.
 3. I feltet **Ny brukergruppekode** angir du et navn på gruppen, og velger deretter **OK**-knappen.
 
@@ -217,7 +217,7 @@ Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å le
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Slik tilordner du tillatelsessett til brukergrupper
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukergrupper** og velg den relaterte koblingen.
 2. Velg brukergruppen du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Brukertillatelsessett** for å åpne siden **Brukertillatelsessett**.
@@ -227,7 +227,7 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 
 Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en brukergruppe på siden **Tillatelsessett etter brukergruppe**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukere**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. På siden **Brukere** velger du den aktuelle brukeren, og velger deretter handlingen **Tillatelsessett etter brukergruppe**.
 3. På siden **Tillatelsessett etter brukergruppe** merker du av for **[brukergruppenavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukergruppen.
 4. Merk av for **Alle brukergrupper** for å tilordne tillatelsessettet til alle brukergrupper.
@@ -240,7 +240,7 @@ Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en
 
 Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.
 2. På siden **Brukeroppsett** velger du handlingen **Ny**.
 3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
 4. Fyll ut feltene etter behov.
