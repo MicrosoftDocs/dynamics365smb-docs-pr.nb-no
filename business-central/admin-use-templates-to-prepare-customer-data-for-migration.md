@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443157"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649890"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Klargjøre for å flytte kundedata med maler
 
@@ -124,6 +124,7 @@ Enhver post der dataene er brukt på denne måten, er fullført fordi den bestå
 > [!NOTE]
 > Hvis dataene i tabellene i konfigurasjonspakken inneholder datoer, for eksempel bokføringsdatoer på fakturaer, tas datoene med i tidssonen som er angitt i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Slik oppretter du en post fra en konfigurasjonsmal:
 
 Du kan bruke strukturen i data som datamalene inneholder, til å enkeltvis konvertere informasjonen til poster i databasen. Hvis du vil gjøre dette, bruker du funksjonen **Opprett forekomst**. Dette er en miniatyrversjon av dataoverføringsprosessen og kan være nyttig for prototypeutvikling eller håndtering av mindre dataopprettingsoppgaver.  
@@ -137,6 +138,15 @@ Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du 
 5. Hvis du vil gå gjennom det nye varekortet, velger du ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 6. Åpne det nye varekortet.  
 7. Utvid ulike hurtigfaner, og kontroller at informasjonen er opprettet på riktig måte på dem.  
+
+## <a name="to-use-conversion-templates"></a>Slik bruker du konverteringsmaler
+
+Du kan konvertere kontakter til kunder, leverandører og ansatte. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Slik konverterer du en kontakt til en kunde, leverandør eller ansatt
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontakter**, og velg deretter riktig kontakt. 
+2. Velg **Handlinger** på kontaktkortet og velg deretter **Funksjoner** og **Opprett som kunde, leverandør, bank eller ansatt**.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Slik bruker du en konfigurasjonsmal på en post:
 
@@ -152,6 +162,9 @@ Følgende fremgangsmåte er basert på et nytt kundekort.
 3. På siden **Kundemaler** velger du en av malene, og deretter velger du **OK**-knappen.  
 
 Standardverdiene fra den valgte kundemalen settes inn på kundekortet.
+
+> [!NOTE]
+> Du kan ikke bruke vinduet Bruk mal til å fylle ut felter på kunder, leverandører og lignende. I stedet må du bruke funksjonen **Rediger i Excel**. Hvis du vil ha mer informasjon, kan du se [Rediger i Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Se også
 

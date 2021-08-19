@@ -1,6 +1,6 @@
 ---
-title: Om planleggingsfunksjonalitet | Microsoft-dokumentasjon
-description: Planleggingssystemet tar hensyn til alle behovs- og forsyningsdata, nettoberegner resultatet og oppretter forslag til å balansere forsyningen slik at den dekker behovet.
+title: Om planleggingsfunksjonalitet
+description: Planleggingssystemet i Dynamics 365 Business Central tar hensyn til alle behovs- og forsyningsdata, nettoberegner resultatet og oppretter forslag til å balansere forsyningen slik at den dekker behovet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782041"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636019"
 ---
 # <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
 
@@ -37,9 +37,12 @@ Et annet mål med planleggingssystemet er å sikre at beholdningen ikke vokser u
 
 ## <a name="planning-calculation"></a>Planleggingsberegning
 
-Planleggingssystemet drives av forventet og faktisk kundebehov samt gjenbestillingsparametere for beholdning. Når du kjører planleggingsberegningen, foreslår programmet bestemte handlinger (handlingsmeldinger) som gjelder mulig etterfylling fra leverandører, overføringer mellom lagre eller produksjon. Hvis det allerede finnes etterfyllingsordrer, kan de foreslåtte handlingene være å øke eller påskynde ordrene for å dekke endringene i behovet.  
+Planleggingssystemet drives av forventet og faktisk kundebehov samt gjenbestillingsparametere for beholdning. Når du kjører planleggingsberegningen, foreslår programmet bestemte handlinger ([Handlingsmeldinger](production-how-to-run-mps-and-mrp.md#action-messages)) som gjelder mulig etterfylling fra leverandører, overføringer mellom lagre eller produksjon. Hvis det allerede finnes etterfyllingsordrer, kan de foreslåtte handlingene være å øke eller påskynde ordrene for å dekke endringene i behovet.  
 
 Grunnlaget for planleggingsrutinen er i beregningen av brutto til netto. Nettobehov driver planlagte ordrefrigivelser, som planlegges basert på ruteinformasjonen (produserte varer) eller leveringstiden for varekort (kjøpte varer). Antall planlagte ordrefrigivelser er basert på planleggingsberegningen og påvirkes av parameterne som er angitt på de enkelte varekortene.  
+
+> [!TIP]
+> Planleggingssystemet er avhengig av hvordan organisasjonen bruker lokasjoner. Hvis du vil ha mer informasjon, kan du se [Planlegging med eller uten lokasjoner](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planlegge med manuelle overføringsordrer
 

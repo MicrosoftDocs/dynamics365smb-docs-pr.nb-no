@@ -1,8 +1,6 @@
 ---
-title: Analysere faktiske i forhold til budsjetterte beløp
+title: Analysere faktiske beløp i forhold til budsjetterte beløp
 description: Dette emnet beskriver hvordan du analyserer faktiske beløp kontra budsjetterte beløp som en måte å samle inn, analysere og dele selskapsopplysninger på.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9011f3d488c659b7b2b44f8801c4af055f51bc54
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437104"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688281"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
 Som en del av innsamling, analyse og deling av selskapsdataene viser du faktiske beløp sammenlignet med budsjetterte beløp for alle konti og for flere perioder.

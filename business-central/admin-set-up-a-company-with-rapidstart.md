@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325422"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649790"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Konfigurere et selskap med RapidStart Services
 Du kan opprette et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver.  
@@ -42,7 +42,7 @@ Du kan bruke følgende komponenter for å få et raskere oppsett av selskapet:
 |Definer og valider kundens oppsettsverdier for alle kjerneområder, for eksempel selskapsopplysninger, finans, lager, salg eller produksjon.|[Samle oppsettsverdier for kunde](admin-gather-customer-setup-values.md)|  
 |Konfigurer kjernehoveddataposter som bruker maler, for å klargjøre overføring av eksisterende kundedata.|[Klargjøre for å flytte kundedata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definer tabeller og felt, valider eksisterende kundedata, og overfør data til [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.|[Flytte kundedata](admin-migrate-customer-data.md)|
-|Forberede gjenbruk av firmakonfigurasjoner i andre selskaper.|[Opprette egendefinerte konfigurasjonspakker for selskap](admin-how-to-create-custom-company-configuration-packages.md)|
+|Klargjør for gjenbruk av firmakonfigurasjoner i andre selskaper (i utvikler- og administrasjonsinnholdet).|[Opprett egendefinerte konfigurasjonspakker for selskap](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Finn løsninger på kjente problemer i RapidStart Services-verktøyet.|[Tips og triks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se også  

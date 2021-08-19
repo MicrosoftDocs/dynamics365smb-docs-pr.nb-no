@@ -1,6 +1,6 @@
 ---
 title: Bokføre flere dokumenter samtidig
-description: I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for umiddelbar bokføring eller planlagt massebokføring.
+description: Finn ut hvordan du velger flere ikke-bokførte dokumenter i en liste for umiddelbar eller planlagt massebokføring i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +10,14 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446050"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649690"
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a>Bokføre flere dokumenter samtidig
+# <a name="post-multiple-documents-at-the-same-time"></a>Bokfør flere dokumenter samtidig
 
 I stedet for å bokføre enkeltdokumenter én etter én, kan du velge flere dokumenter som ikke er bokført, i en liste for umiddelbar bokføring eller massebokføring i henhold til en tidsplan, for eksempel på slutten av dagen. Dette kan være nyttig hvis bare en arbeidsleder kan bokføre dokumenter som er opprettet av andre brukere, eller for å unngå problemer med systemytelse ved bokføring i arbeidstiden.
 
@@ -78,7 +78,7 @@ Hvis jobbkøen ikke kan bokføre ordren, endres statusen til **Feil**, og ordren
 1. Fra dokumentet du har prøvd å bokføre med bakgrunnsbokføring, velger du feltet **Jobbkøstatus**, som inneholder **Feil**.
 2. Les feilmeldingen og løs problemet.
 
-Du kan også se på siden **Loggposter for jobbkø** om ordren ble bokført. Hvis du vil ha mer informasjon, se [Vise status eller feil i jobbkøen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Du kan også se på siden **Loggposter for jobbkø** om ordren ble bokført. Hvis du vil ha mer informasjon, kan du se delen [Overvåk jobbkøen](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Opprette en jobbkøpost for massebokføring av ordrer
 
@@ -117,6 +117,11 @@ Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør 
 
 Ordrer som er innenfor definerte filtre, blir nå bokført hver ukedag kl. 16:00.
 
+## <a name="monitor-the-job-queue"></a>Overvåk jobbkøen
+
+Hvis du setter opp bakgrunnsbokføring i jobbkøer, vil den gjøre den til en vanlig oppgave å overvåke jobbkøen for å finne eventuelle problemer. Du kan spore statusen på siden **Poster i jobbkø**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
+
+Som administrator kan du bruke [Application Insights](/azure/azure-monitor/app/app-insights-overview) til å samle og analysere telemetri som du kan bruke til å identifisere problemer. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i utvikler- og administrasjonsinnholdet.  
 
 ## <a name="see-also"></a>Se også
 

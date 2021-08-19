@@ -1,94 +1,66 @@
 ---
-title: Opprett et sandkassemiljø
-description: Opprett et sandkassetestmiljø for trygg utforsking, læring, demoer, utvikling, feilsøking og testing innenfra Business Central.
+title: Sandkassemiljøer
+description: Finn ut hvordan et eget miljø kan hjelpe deg med å utforske, lære, prøve, utvikle, feilsøke og teste Business Central på en sikker måte.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
+ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 06/08/2021
+ms.date: 07/27/2021
 ms.author: solsen
-ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f704afaf8e7c581aa1f8e65bd06e04fd31d0056a
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437680"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688307"
 ---
-# <a name="creating-a-sandbox-environment-in-prod_short"></a>Opprette et sandkassemiljø i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du enkelt opprette et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
+Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
 
-Administratoren administrerer sandkassemiljøer i [administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json), men hvis du raskt vil teste noe, kan du opprette et sandkassemiljø innenfra [!INCLUDE[prod_short](includes/prod_short.md)]. Når du er ferdig, kan du fjerne sandkassen ved å bruke administrasjonssenteret.  
+Administratoren administrerer sandkassemiljøer i [administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 
-> [!NOTE]
-> Teknisk sett er sandkassemiljøer svært forskjellige fra produksjonsmiljøer, selv om systemansvarlig oppretter en sandkasse som inkluderer produksjonsdata. Du kan ikke bruke en sandkasse for ytelsestester, og du kan for eksempel ikke be om databaseeksport. Hvis du vil opprette en sandkasse for ytelsestest, kan systemansvarlig opprette et eget miljø i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Produksjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types).
+Hvis du for eksempel vil opprette en sandkasse for ytelsestest, kan systemansvarlig opprette et eget miljø i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Produksjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i utvikler- og administrasjonsinnholdet.  
 
-## <a name="to-create-a-sandbox-environment-in-your-prod_short"></a>Slik oppretter du et sandkassemiljø i [!INCLUDE[prod_short](includes/prod_short.md)]
+Du kan også trygt bruke sandkasser til opplæring, for eksempel for å følge en læringsbane fra [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), fordi det er et sikkert miljø du kan eksperimentere med. Hvis noe går galt, sletter du sandkassen og begynner på nytt.  
 
-1. Logg deg på din produksjonsforekomst av [!INCLUDE[prod_short](includes/prod_short.md)].
-
-2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Sandkassemiljø**, og velg deretter den relaterte koblingen.
-    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
-3. Velg **Opprett**-knappen.  
-
-    Det åpnes en annen fane med [!INCLUDE[prod_short](includes/prod_short.md)], der du kan fullføre oppsettet av sandkassemiljøet.
-
-    > [!NOTE]  
-    >  Hvis du har aktivert popup-blokkering i webleseren, endrer du den til å tillate URL-adresser fra adressen *.businesscentral.dynamics.com.
-
-Når sandkassemiljøet er klart, vil du bli videresendt til velkomstveiviseren i sandkassemiljøet.
-<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
-
-Du kan velge **Finn ut mer**-knappen for å lese om utviklerscenarioer som du kan prøve i et sandkassemiljø, eller velg **Lukk**-knappen for å fortsette til Rollesenteret for [!INCLUDE[prod_short](includes/prod_short.md)]-sandkasseforekomsten din.
-
-Øverst i rollesenteret vises en melding som varsler deg at dette er et sandkassemiljø. Du kan også se typen miljø på tittellinjen i klienten.
-    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+Når du er ferdig, kan du fjerne sandkassen ved å bruke administrasjonssenteret.  
 
 > [!NOTE]
-> Et sandkassemiljø som er opprettet på denne måten, inneholder bare standard demonstrasjonsdata for CRONUS-selskapet. Ingen data kopieres eller blir ellers overført fra produksjonsmiljøet.
->
-> Du kan eventuelt opprette et sandkassemiljø basert på produksjonsdata. Du må gjøre dette ved hjelp av administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Administrere miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i utvikler- og administrasjonsinnholdet.  
-
-<!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
-
-En administrator kan begrense eller blokkere tilgang for enkelte brukere til sandkassemiljøet. Dette kan gjøres ved hjelp av produktets standard sikkerhetsfunksjoner, for eksempel brukerkort, brukergrupper og tillatelsessett. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
-
-<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
-
-## <a name="advanced-functionality-in-the-sandbox-environment"></a>Avanserte funksjoner i sandkassemiljøet
+> Teknisk sett er sandkassemiljøer svært forskjellige fra produksjonsmiljøer. Administratoren kan opprette en sandkasse med produksjonsdata, men det er fortsatt en sandkasse, og du kan for eksempel ikke be om databaseeksport. Hvis du vil ha mer informasjon, kan du se [Sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types#sandbox-environments) i utvikler- og administrasjonsinnholdet.
 
 Sandkassemiljøet er ikke minst nyttig fordi det inneholder et par nyttige funksjoner:
 
 * [Avansert brukeropplevelse](#advanced-user-experience)  
-* [Fullstendige eksempeldata](#complete-sample-data)  
+<!--* [Complete sample data](#complete-sample-data)  -->
 * [Utforming](#designer)  
 
-### <a name="advanced-user-experience"></a>Avansert brukeropplevelse
+## <a name="advanced-user-experience"></a>Avansert brukeropplevelse
 
 Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasseleietaker ved å sette **Opplevelse**-feltet på **Selskapsopplysninger**-siden til *Premium*. Finn **Selskapsopplysninger**-siden på ikonmenyen for :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Innstillinger-ikon."::: meny.  
 
-Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Du kan også opprette et evalueringsselskap med et fullstendig oppsett, inkludert demonstrasjonsdata og tilgang til avanserte områder i produktet. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](across-faq.yml#how-do-i-find-a-reselling-partner).  
+Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### <a name="complete-sample-data"></a>Fullstendige eksempeldata
 
 I situasjoner der du trenger flere eksempeldata, kontakter du partneren for videresalg.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
 
-#### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Slik oppretter du et selskap med fullstendige eksempeldata i en sandkasse
+<!--#### To create a company with complete sample data in a sandbox
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Selskaper**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**, og velg deretter **Opprett nytt selskap**.  
-3. Velg **Neste** på siden for **assistert oppsett av oppretting av et selskap**.  
-4. Angi et navn for det nye selskapet, og velg deretter **Avansert evaluering - Fullfør eksempeldata** i feltet **Velg dataene og oppsettet for å komme i gang**.  
-5. Fullfør resten av den assisterte oppsettsveiledningen.  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Companies**, and then choose the related link.  
+2. Choose the **New** action, and then choose **Create New Company**.  
+3. In the **Assisted Setup for Creating a Company** page, choose **Next**.  
+4. Specify a name for the new company, and then, in the **Select the data and setup to get started** field, choose **Advanced Evaluation - Complete Sample Data**.  
+5. Complete the rest of the assisted setup guide.  
 
-Når veiledningen for assistert oppsett er fullført, kan du begynne å utforske det nye selskapet med de fullstendige eksempeldataene. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-### <a name="designer"></a>Designer
+## <a name="designer"></a>Designer
 
 I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer ved å velge designikonet ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side, eller ved å velge **Designer**-menyelementet på ![Innstillinger](media/ui-experience/settings_icon_small.png) menyen Innstillinger.  
 
@@ -101,6 +73,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruk av utformingen](/dynamics365/bus
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
 [Behandle miljøer i administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
+[Produksjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

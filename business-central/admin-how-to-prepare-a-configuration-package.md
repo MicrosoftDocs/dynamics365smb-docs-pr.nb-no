@@ -1,5 +1,5 @@
 ---
-title: Slik klargjør du en konfigurasjonspakke
+title: Klargjøre en konfigurasjonspakke
 description: Finn ut nå hvordan du klargjør en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440727"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660234"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 
@@ -74,8 +74,20 @@ Angi hvilke felt som er inkludert i pakken. Alle feltene er inkludert som standa
     - Hvis du bare vil velge felt du vil inkludere, velger du handlingen **Fjern inkludert**. Hvis du vil legge til alle felt, velger du handlingen **Sett inkludert**.  
     - Hvis du vil angi at feltdataene ikke skal valideres, fjerner du merket for **Valider felt** for feltet.  
 
-10. Finn ut om du har introdusert mulige feil ved å velge handlingen **Valider pakke**. Dette kan skje når du ikke tar med tabeller som konfigurasjonen avhenger av.  
-11. Velg **OK**-knappen.  
+10. Hvis du vil bruke behandlingsfiltre på tabelldata eller legge til en codeunit med koden du vil inkludere i pakken, velger du linjen for den aktuelle tabellen og velger handlingen **Behandlingsregler**.
+
+    1. Fyll ut feltene på siden **Konfig. tabellbehandlingsregler**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Hvis du vil bruke filtre på data, angir du den aktuelle handlingen i feltet **Handling**, velger handlingen **Behandlingsfiltre** og fyller ut feltene.  
+
+            Microsofts konfigurasjonspakker for evalueringsselskapene definerer for eksempel behandlingsfiltre i tabellene **Salgshode** og **Bestillingshode**.
+        - Hvis du vil legge til en codeunit for behandlings, angir du den i feltet **ID for egendefinert behandlede codeunit**.
+
+          > [!NOTE]
+          > Codeunit må gjøre tabell 8614 *Konfig.pakkepost* som en parameter for `OnRun`-metoden.
+    2. Lukk siden.
+11. Finn ut om du har introdusert mulige feil ved å velge handlingen **Valider pakke**. Dette kan skje når du ikke tar med tabeller som konfigurasjonen avhenger av.  
+12. Velg **OK**-knappen.  
 
 Når du har fornyet listen over felt som skal inkluderes fra en tabell, kan du se resultatene i Excel.  
 

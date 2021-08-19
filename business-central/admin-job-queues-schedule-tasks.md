@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b1d9893364d7472759a478877ebec49ace5e9647
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441296"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649865"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 
@@ -37,9 +37,10 @@ Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i
 
 Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er en gjentakende jobb, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben er forventet å kjøre.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Vise status eller feil i jobbkøen
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Overvåk status eller feil i jobbkøen
 
 Data som genereres ved kjøring av en jobbkø, lagres i databasen, slik at du kan feilsøke jobbkøfeil.  
+
 For hver jobbkøpost kan du vise og endre statusen. Når du oppretter en jobbkøpost, er statusen for posten satt til **Avvent**. Du kan for eksempel sette statusen til **Klar** og tilbake til **Avvent**. Ellers oppdateres statusinformasjon automatisk.
 
 Tabellen nedenfor beskriver verdiene i feltet **Status**.
@@ -53,11 +54,12 @@ Tabellen nedenfor beskriver verdiene i feltet **Status**.
 | Ferdig | Angir at jobbkøposten er fullført. |
 
 ### <a name="to-view-status-for-any-job"></a>Slik viser du statusen for en jobb
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 2. På siden **Poster i jobbkø** velger du en jobbkøpost og deretter **Loggposter**-handlingen.  
 
 > [!TIP]
-> Med [!INCLUDE [prod_short](includes/prod_short.md)] på nettet kan du også vise statusen for jobbkøpostene ved hjelp av Application Insights i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Analysere telemetri for sporing av jobbkølivssyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i [!INCLUDE [prod_short](includes/prod_short.md)] Developer og administrasjonsinnholdet.
+> Du kan også vise statusen for jobbkøposter ved å bruke Application Insights i Microsoft Azure for mer detaljert analyse basert på telemetri. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere telemetri for jobbkølivsyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i utvikler- og administrasjonsinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
 Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
@@ -65,9 +67,9 @@ Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har
 Delen viser hvilke dokumenter med din ID i feltet **Tilordnet bruker-ID** som behandles eller er i kø, inkludert de som er relatert til bokføring i bakgrunnen. Delen kan på et øyeblikk fortelle deg om det har oppstått en feil i posteringen av et dokument, eller om det er feil i en jobbkøpost. Delen gjør det også mulig å avbryte en dokumentpostering hvis den ikke kjører.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Slik viser du en feil fra delen Min jobbkø:
+
 1. I en oppføring med statusen **Feil** velger du **Vis feil**-handlingen.
 2. Les feilmeldingen og løs problemet.
-
 
 ## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Eksempler på hva som kan planlegges ved hjelp av jobbkø
 
@@ -86,6 +88,10 @@ Hvis du har integrert [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLU
 Jobbkøer er et effektivt verktøy til å planlegge kjøring av forretningsprosesser i bakgrunnen, for eksempel når flere brukere prøver å bokføre ordrer, men bare én kan behandles om gangen.  
 
 Hvis du vil ha mer informasjon, kan du se [Konfigurere bokføring i bakgrunnen med jobbkøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Overvåk jobbkøen med telemetri
+
+Som administrator kan du bruke [Application Insights](/azure/azure-monitor/app/app-insights-overview) til å samle og analysere telemetri som du kan bruke til å identifisere problemer. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i utvikler- og administrasjonsinnholdet.  
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a0b466979f749e2d42afac06899a9c079f23ff56
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321890"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688334"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
 Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
@@ -37,7 +37,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bruk spesielle kostberegningsfunksjoner for daglige varetransaksjoner i vareoperasjonene.|[Håndtere lager- og produksjonskost](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Oppdater regelmessig standardkostnadene for komponenter, i monterings- eller produksjonsstykklister, og oppruller de nye kostnadene til den overordnede varen.|[Oppdatere standardkost](finance-how-to-update-standard-costs.md)|
 |Vis og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|
-|Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|
+|Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Finn ut hvordan du kan bruke jobbkøen til å flytte aktivitetene for å justere lagerkost eller avstemme den sammen med Finans til bakgrunnen.|[Juster og avstem lagerkost med finans med jobbkø](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Se også  
  [Finans](finance.md)  

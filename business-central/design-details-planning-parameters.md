@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/15/2021
+ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437890"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649815"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planleggingsparametere
 Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -114,7 +114,27 @@ Alternativet **Produksjonsprinsipp** angir hvilke ytterligere ordrer MRP-beregni
 
 Hvis alternativet **Produser til lager** brukes, vil ordrene bare gjelde den aktuelle varen.  
 
-Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet analysere produksjonsstykklisten for varen og opprette flere koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.  
+Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet analysere produksjonsstykklisten for varen og opprette flere koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Bruk lavnivåkoder til å styre avledet behov
+
+Bruk lavnivåkoder til å opprette avledet behov for komponenter som går gjennom til de lavere nivåene i stykklisten. Hvis du vil ha en mer forklaring om dette, kan du se [Vareprioritet/lavnivåkode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Du kan tilordne en lavnivåkode til hver enhet i produktstrukturen eller den innrykkede stykklisten. Det øverste og siste monteringsnivået kalles nivå 0 – sluttvaren: Jo høyere nummeret på nivåkoden er, jo lavere er varen i hierarkiet. Sluttvarer for eksempel, har nivåkoden 0, og vareenhetene som inngår i monteringen av sluttvaren, har nivåkodene 1, 2, 3, og så videre. Resultatet er at planleggingen av komponentenheter koordineres med behovet til alle enhetsnumre på høyere nivå. Når du beregner en plan, utfoldes stykklisten i planleggingsforslaget, og bruttobehovet for nivå 0 går i arv i planleggingsnivåene som bruttobehov for det neste planleggingsnivået.
+
+Velg feltet **Dynamisk lavnivåkode** for å angi om du umiddelbart vil tilordne og beregne lavnivåkoder for hver komponent i produktstrukturen. Hvis du har store mengder data, kan denne funksjonen ha en negativ effekt på programmets ytelse, for eksempel ved automatisk kostjustering. Vær oppmerksom på at dette ikke er en tilbakevirkende funksjon, og du bør derfor vurdere å bruke denne funksjonen på forhånd.
+
+Som et alternativ til den automatiske beregningen som skjer dynamisk når feltet er valgt, kan du kjøre den satsvise jobben **Beregn lavnivåkode** fra **Produksjon**-menyen ved å klikke på **Produktutforming**, **Beregn lavkodenivå**.
+
+> [!IMPORTANT]
+> Hvis du ikke velger feltet **Dynamisk lavnivåkode**, må du kjøre kjørselen **Beregn lavnivåkode** før du beregner en forsyningsplan (kjørselen **Beregn plan**).  
+
+> [!NOTE]
+> Selv om feltet **Dynamisk lavnivåkode** er valgt, endres ikke lavnivåkodene for komponentvarer dynamisk hvis en overordnet stykkliste blir slettet eller satt til ikke-sertifisert. Dette kan gjøre det vanskelig å legge til nye varer på slutten av produktstrukturen fordi det kan overskride det maksimale antallet lavnivåkoder. Det anbefales derfor at du for store produktstrukturer som når grensen for lavnivåkoder, kjører kjørselen **Beregn lavnivåkode** ofte for å opprettholde strukturen.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimaliser beregning av lavnivåkode
+
+Velg feltet **Optimaliser beregning av lavnivåkode** for å angi at du vil bruke den nye, raskeste måten med beregning av lavnivåkode. Legg merke til at den nye beregningen gjøres forskjellig, og at det ødelegger bruken av utvidelser som bruker den eksisterende metoden. Den nye beregningsmetoden erstatter den gjeldende metoden i en fremtidig frigivelse.
 
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
