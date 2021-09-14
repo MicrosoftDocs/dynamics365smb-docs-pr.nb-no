@@ -8,12 +8,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 80d796a827f2c0196c6590c89de04a1945938313
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: f0db9d63257d37fe6be5d31fc58541caf968907a
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320617"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482435"
 ---
 # <a name="workflow-notifications"></a>Arbeidsflytvarslinger
 
@@ -40,6 +40,10 @@ Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:
 * Tilpass e-postvarslingene
 
     Hvis du vil, kan du tilpasse innholdet i e-postvarslet ved å endre rapport 1320, E-postvarsling. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).  
+
+    > [!NOTE]
+    > Hvis du vil bruke e-post som varslingsmetode, må du konfigurere e-post for både avsenderen og mottakeren i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurer e-post](admin-how-setup-email.md).
+
 * Svaralternativer
 
     Du definerer det bestemte innholdet og reglene for et arbeidsflytvarsel når du oppretter den aktuelle arbeidsflyten. Dette gjør du ved å velge alternativer på siden **Alternativer for arbeidsflytsvar** for arbeidsflytsvaret som representerer varslingen. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md).  

@@ -1,5 +1,5 @@
 ---
-title: Arbeide med timelister for prosjekter| Microsoft-dokumentasjon
+title: Arbeid med timelister for prosjekter
 description: Beskriver hvordan du oppretter en timeliste for et prosjekt, kopierer planleggingslinjer til den, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 04/01/2021
+ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5ebeb1d2491587afe03cc8f1e687e82bdbd2743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436126"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440644"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
 
@@ -45,8 +45,8 @@ Du kan vise timelistene som du har opprettet, på siden **Liste for timeliste**.
 Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. På siden **Liste for timeliste** velger du en timeliste for den aktuelle perioden, og deretter velger du handlingen **Rediger timeliste**.  
-3. Velg handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
+2. Velg en timeliste for den relevante tidsperioden på siden **Liste for timeliste**.  
+3. Velg handlingen **Linje**, og velg deretter handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Slik definerer du arbeidstyper og legger til en til en timeliste
 Du kan definere arbeidstypen for alle linjer i timelister for prosjekter. På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.
@@ -64,21 +64,21 @@ Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du s
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
 2. Åpne timelisten for en periode som er senere enn perioden for en eksisterende timeliste med linjer.  
-3. Velg handlingen **Kopier linjer fra tidligere timeliste**.
+3. Velg handlingen **Linje**, og velg deretter handlingen **Kopier linjer fra forrige timeliste**.
 
 Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
+## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
 Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. Velg en timeliste for den relevante tidsperioden, og velg deretter handlingen **Rediger timeliste**.  
-3. Fyll ut feltene på en linje etter behov. Angi antall timer som brukes av ressursen for hver dag i uken.
+2. Velg en timeliste for den aktuelle perioden.
+3. Fyll ut feltene på en linje etter behov. Angi antall timer som brukes av ressursen for hver dag i uken.  
 
     > [!TIP]  
     >   Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
 4. Gjenta trinn 3 for arbeidstypene som utføres av ressursen.
-5. Velg handlingen **Send**, og velg deretter handlingen **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt på siden **Timeliste**.  
+5. Velg handlingen **Behandle**, og velg deretter handlingen **Send** og **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt på siden **Timeliste**.  
 
     > [!NOTE]  
     >   Du kan bare sende timelistelinjer du har angitt tid for.  
@@ -96,7 +96,9 @@ En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenn
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Administrer timelister**, og velg deretter den relaterte koblingen.
 2. Velg en timeliste fra listen.  
-3. På siden **Timeliste** velger du handlingen **Godkjenn**, og deretter velger du handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt på siden **Timeliste**.
+3. På siden **Timeliste** 
+    1. Velg handlingen **Behandle**, og velg deretter **Godkjenn**-handlingen.
+    2. Velg handlingen **Alle sendte linjer** for å godkjenne alle linjer eller **Bare valgte linjer** for å godkjenne bare linjene som er valgt på siden **Timeliste**.
 4. Velg **OK**.  
 5. Du kan også velge handlingen **Avvis** og følge trinn 4 til 5.  
 
@@ -123,13 +125,13 @@ På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne inf
 
 ### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Slik godkjenner eller avviser du timelister etter prosjekt:
 
-1. Skriv inn **Timeliste for leder etter prosjekt** i **Søk**-boksen, og velg deretter den relaterte koblingen. Microsoft Dynamics NAV viser en liste over timelistelinjer som er knyttet til prosjektene du har ansvar for.
-2. I fanebladet **Hjem** velger du **Godkjenn**. Velg **Alle** for å godkjenne alle linjene. Velg **Valgt** for å godkjenne bare valgte linjer.
+1. Skriv inn **Timeliste for leder etter prosjekt** i **Søk**-boksen, og velg deretter den relaterte koblingen. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timelistelinjer som er knyttet til prosjektene du har ansvar for.
+2. Velg handlingen **Godkjenn**, og velg deretter handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt på siden **Timeliste**.
 
     > [!NOTE]
     > Du kan bare godkjenne timelister som har statusen **Sendt**.
 
-3. For å gi tilleggsinformasjon om godkjenningen eller avvisningen kan du velge en timelistelinje og gå til kategorien **Naviger** og velge **Merknader**. Angi en dato i **Dato**-feltet, og skriv deretter inn en merknad i **Merknad**-feltet.
+3. Hvis du vil gi mer informasjon om godkjenningen eller avvisningen, velger du **Relatert**-handlingen, velger **Merknader** og deretter **Linjemerknader** og skriver inn merknader.
 4. Velg **OK**-knappen.
 
 > [!NOTE]
@@ -138,20 +140,20 @@ På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne inf
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Slik bokfører du timelistelinjer i en ressurskladd
 Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem til den relevante ressurskladden.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurskladd** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurskladder** og velg den relaterte koblingen.  
 2. Velg handlingen **Foreslå linjer fra timelister**.  
-3. Fyll ut feltene etter behov.  
-4. Velg **OK**. Det opprettes poster for bruk i ressurskladden, der du kan endre informasjonen etter behov.  
+3. På siden **Foreslå ressurskladdelinjer** fyller du ut feltene etter behov.  
+4. Velg **OK**-knappen. Det opprettes poster for bruk i ressurskladden, der du kan endre informasjonen etter behov.  
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Siden **Ressursposter** åpnes med resultatet av bokføringen av ressurskladden.
 
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Slik bokfører du timelistelinjer i en prosjektkladd
 Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjektkladden.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladd**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Foreslå linjer fra timelister**.  
-3. Fyll ut feltene etter behov.  
-4. Velg **OK**. Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.  
+3. På siden **Foreslå prosjektkladdelinjer** fyller du ut feltene etter behov.  
+4. Velg **OK**-knappen. Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.  
 
     > [!NOTE]  
     >   Informasjon om arbeidstypen og om arbeidet er belastbart, kopieres fra timelistelinjen. Du kan om nødvendig redusere antall timer og foreta en delvis bokføring. Hvis du reduserer antallet, inneholder linjen som opprettes, gjenstående timeantall neste gang du velger handlingen **Foreslå linjer fra timelister**.  
@@ -164,16 +166,17 @@ Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Al
 > [!NOTE]  
 >   Når du arkiverer en timeliste, fjernes den fra listene på siden **Timelister** og **Timelister for leder**.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Flytt timelister til arkiv**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
-3. Hvis du vil gå gjennom arkiverte timelister, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Timelistearkiver** eller **Administrer timelistearkiver**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.
+2. Velg handlingen **Flytt timelister til arkiv**.  
+3. På siden **Flytt timelister til arkiv** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen.  
+4. Hvis du vil gå gjennom arkiverte timelister, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Timelistearkiver** eller **Administrer timelistearkiver**, og velg deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Prosjektstyring](projects-manage-projects.md)  
-[Konfigurere prosjektstyring](projects-setup-projects.md)    
+[Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)     
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

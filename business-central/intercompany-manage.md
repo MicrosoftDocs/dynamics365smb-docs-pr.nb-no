@@ -8,18 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 06/02/2021
+ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0a69507b32f8782fe876458adb590529bfd64b20
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 19fa804213d4f0a66a92a9febb157f2b5da23ec2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184427"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440566"
 ---
 # <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
 
-Organisasjonen kan bestå av flere selskaper, men har kanskje ikke samme antall regnskapsteam og administrative team. De konserninterne funksjonene lar deg gjøre forretninger med datterselskaper og interne partnerorganisasjoner på samme måte som med eksterne leverandører og kunder. Du angir informasjon om konserninterne transaksjoner bare én gang i de tilhørende dokumentene. Du kan bruke funksjoner du allerede kjenner, for eksempel styring av kjøp og salg. Tilordningsfunksjoner for kontoplanen og dimensjonene hjelper deg med å sikre at informasjonen vises på riktige steder.  
+Funksjonene for konserninterne transaksjoner er utformet for brukere som styrer mer enn én juridisk forretningsenhet og har satt opp flere selskaper for å skille regnskapsfunksjonene i hver av disse enhetene. Denne brede beskrivelsen gjelder mange brukere, spesielt brukere som har drift i internasjonale markeder eller regioner med svært forskjellige forretningskulturer og lovmessige miljøer.
+
+Organisasjonen kan bestå av flere selskaper, men har kanskje ikke samme antall regnskapsteam og administrative team. Med konserninterne transaksjoner kan du forenkle og tilpasse forretningsprosesser og transaksjoner mellom alle disse enhetene.
+
+Når du begynner å bruke konserninterne transaksjoner, er det like enkelt å gjøre forretninger med datterselskaper og interne partnerorganisasjoner som med eksterne leverandører og kunder. Du angir informasjon om konserninterne transaksjoner bare én gang i de tilhørende dokumentene. Du kan bruke funksjoner du allerede kjenner, for eksempel styring av kjøp og salg. Tilordningsfunksjoner for kontoplanen og dimensjonene hjelper deg med å sikre at informasjonen vises på riktige steder.  
 
 Det er fire hovedfordeler med de konserninterne funksjonene:  
 
@@ -28,9 +32,28 @@ Det er fire hovedfordeler med de konserninterne funksjonene:
 - Fullstendig sporing og full synlighet i forretningsaktiviteter og transaksjonslogger  
 - Effektive, kostnadsbesparende transaksjoner med partner- og datterselskaper  
 
+## <a name="streamlining-the-flow-of-business-activities"></a>Tilpasse flyten av forretningsaktiviteter  
+
+Med konserninterne transaksjoner kan du distribuere salgs- og kjøpsdokumenter samt finansposter til alle satellittkontorer, salgskontorer eller datterselskaper, fra programmet. Du sparer tid og får økt effektivitet i hele organisasjonen fordi du fjerner overflødig dataregistrering samt sending, mottak, utskrift og arkivering av salgs- og kjøpsdokumenter på papir.  
+
 Du har full kontroll over alle transaksjonsdokumenter. Du kan for eksempel avvise et dokument som sendes til deg, og på den måten tilbakeføre kladdebokføringer og angre mottak/leveringer som var feil. Og når du foretar et kjøp fra et partner- eller datterselskap, kan du oppdatere bestillingen så lenge salgsselskapet ikke har sendt varene ennå.  
 
 Når du angir en transaksjon, trenger du ikke å angi kontoene for et individuelt sett med bøker, men ganske enkelt gi identifikasjonen av partnerselskapet. De konserninterne funksjonene oppretter finanskladdelinjer som fører til balansering av bøkene i begge selskapene som er involvert i en transaksjon. I Kundekonto og Leverandørkonto kan du tilordne en konsernintern partnerkode til hvilken som helst kunde eller leverandør. Fra det øyeblikket vil alle ordrer og fakturaer som genereres i forbindelse med transaksjoner med disse selskapene, produsere tilhørende bilag i partnerselskapet, noe som fører til riktig balansering av kontoene.  
+
+Funksjoner for konserninterne transaksjoner fokuserer på støtte for konserninterne transaksjoner med salgs- og kjøpsdokumenter, og med finanskladdelinjer. I dette området tillater konserninterne transaksjoner konserninterne transaksjoner mellom selskaper mellom flere [!INCLUDE [prod_short](includes/prod_short.md)]-databaser, for eksempel i forskjellige land/regioner, i tillegg til forskjellige valutaer, kontoplaner, dimensjoner og varenummereringer.  
+
+Konserninterne transaksjoner bruker flere poster og bilag i konserninterne transaksjoner:  
+
+- Finanskladdeposter
+- Bestillinger og ordrer
+- Kjøps- og salgsfakturaer
+- Kreditnotaer
+- Ordrereturer
+
+Når du definerer konserninterne transaksjoner, oppretter du en liste over konserninterne partnere, kalt KI-partnere, og en konsernintern kontoplan. Hvis du følger disse trinnene, kan du utføre konserninterne finanskladdetransaksjoner. Du definerer om nødvendig dimensjoner separat.  
+
+> [!NOTE]
+> Selve finanskladden ikke inkluderer valutafunksjoner, men regner om alle beløp med gjeldende kurs til lokal valuta.
 
 Når du har definert forretningspartnerne som kunder og leverandører i systemet og tilordnet konserninterne partnerkoder til dem, er det mulig å utveksle konserninterne kjøps- og salgsdokumenter, inkludert varer og varegebyrer. [!INCLUDE [prod_short](includes/prod_short.md)] støtter konserninterne bokføringer transaksjoner mellom selskaper mellom flere -databaser, for eksempel i forskjellige land/regioner, i tillegg til forskjellige valutaer, kontoplaner, dimensjoner og varenummereringer.  
 
@@ -46,7 +69,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Opprett konserninterne leverandører og kunder som såkalte konserninterne partnere, og definer en konsernintern kontoplan.|[Oppsett av konserninternt](intercompany-how-setup.md)|
 |Bruk konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne.|[Arbeide med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)|
 |Organisere og behandle inngående og utgående transaksjoner som du kan utveksle med de konserninterne partnerne.|[Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)|
-|Bruk konserninterne bokføringer til å fordele kost mellom partnerselskaper.|[Fordel kost til konserninterne partnere](intercompany-allocate-costs.md)|
+|Bruk konserninterne transaksjoner til å fordele kost mellom partnerselskaper.|[Fordel kost til konserninterne partnere](intercompany-allocate-costs.md)|
 
 ## <a name="see-also"></a>Se også
 

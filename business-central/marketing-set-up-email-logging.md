@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437580"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482348"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spor utveksling av e-postmeldinger mellom selgere og kontakter
 
@@ -31,31 +31,36 @@ Deretter kobler du [!INCLUDE[prod_short](includes/prod_short.md)] til Exchange O
 
 Kom i gang med e-postpålogging med to enkle trinn:
 
-1. Koble [!INCLUDE[prod_short](includes/prod_short.md)] til Exchange Online for Microsoft 365-abonnementet. Exchange Online behandler e-postmeldingene. Vi har gjort dette trinnet enkelt ved å tilby en veiledning for assistert oppsett. Du trenger bare administratorlegitimasjon for administratorkontoen i Microsoft 365. Gå til **Assistert oppsett** og velg deretter **Konfigurer loggføring av e-post**.  
+1. Koble [!INCLUDE[prod_short](includes/prod_short.md)] til Exchange Online for Microsoft 365-abonnementet. Exchange Online behandler e-postmeldingene. Vi har gjort dette trinnet enkelt ved å tilby en veiledning for assistert oppsett. Du trenger bare administratorlegitimasjon for administratorkontoen i Microsoft 365. Gå til siden **Assistert oppsett** og velg deretter veiledningen **Konfigurer loggføring av e-post**.  
 
 2. Kontroller at det er angitt gyldige e-postadresser i [!INCLUDE[prod_short](includes/prod_short.md)] for selgere og kontakter, avhengig av om de er potensielle eller eksisterende kunder. For hver kunde eller selger åpner du **Kontakt** eller **Selger/innkjøper**-kortet og ser i **E-post** -feltet.
 
 > [!Tip]
-> Når du har fullført trinnene i guiden, kan du kontrollere om tilkoblingen var vellykket. Søk etter **Markedsføringsoppsett**, velg **Behandle**, og velg deretter **Funksjoner** og deretter **Valider oppsett for loggføring av e-post**.
+> Når du har fullført trinnene i guiden, kan du kontrollere om tilkoblingen var vellykket. Søk etter **Markedsføringsoppsett**, og velg **Tilgang**, og velg deretter **Funksjoner** og deretter **Valider oppsett for loggføring av e-post**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Vise utvekslinger av e-postmeldinger i samhandlingsloggen
-[!INCLUDE[prod_short](includes/prod_short.md)] oppretter en post på siden **Samhandlingslogg** hver gang en selger og en kontakt utveksler en e-postmelding. Hvis du vil vise samhandlingsloggen, åpner du **Kontakter** eller **Selger/innkjøper**-kortet for personen, og deretter velger du **Logg** og deretter **Samhandlingsposter**. Det er et par ting vi kan gjøre med hver oppføring i loggen, for eksempel:
 
-- Vis innholdet i e-postmeldingen som ble utvekslet, ved å klikke handlingen **Vis vedlegg**.
-- Gjør en e-postutveksling om til en salgsmulighet – Hvis en oppføring ser lovende ut, kan du gjøre den om til en salgsmulighet og deretter håndtere fremdriften for den mot et salg. Velg oppføringen for å gjøre dette, og velg deretter handlingen **Opprett salgsmulighet**. Hvis du vil ha mer informasjon, kan du se [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] oppretter en post på siden **Samhandlingslogg** hver gang en selger og en kontakt utveksler en e-postmelding. Hvis du vil vise samhandlingsloggen, åpner du **Kontakter**-kortet for personen, velg **Relatert**, og deretter velger du **Logg** og **Samhandlingsposter**. Det er et par ting du kan gjøre med hver oppføring i loggen, for eksempel:
+
+- Vis innholdet i e-postmeldingen som ble utvekslet, ved å velge **Behandle** og deretter **Vis vedlegg**.
+- Gjør en e-postutveksling om til en salgsmulighet – Hvis en oppføring ser lovende ut, kan du gjøre den om til en salgsmulighet og deretter håndtere fremdriften for den mot et salg. Dette gjør du ved å velge oppføringen og deretter velge **Behandle** og deretter **Opprett salgsmulighet**. Hvis du vil ha mer informasjon, kan du se [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Koble lokale versjoner til Microsoft Exchange
-Du kan koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til Exchange lokalt eller Exchange Online for loggføring av e-post. For begge versjoner av Exchange er innstillinger for tilkoblingen tilgjengelige på siden **Markedsføringsoppsett**. For Exchange Online kan du også bruke en assistert oppsettveiledning. 
+
+Du kan koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til Exchange lokalt eller Exchange Online for loggføring av e-post. For begge versjoner av Exchange er innstillinger for tilkoblingen tilgjengelige på siden **Markedsføringsoppsett**. For Exchange Online kan du også bruke en assistert oppsettveiledning.
 
 ### <a name="connecting-to-exchange-on-premises"></a>Koble til Exchange lokalt
-For å koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til Exchange lokalt kan du bruke **Grunnleggende** på **Markedsføringsoppsett**-side som **godkjenningstype**, og deretter angi legitimasjon for brukerkontoen for Exchange lokalt. Deretter aktiverer du **Aktivert**-bryteren for å starte loggføring av e-post. 
+
+For å koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til Exchange lokalt kan du bruke **Grunnleggende** på **Markedsføringsoppsett**-side som **godkjenningstype**, og deretter angi legitimasjon for brukerkontoen for Exchange lokalt. Deretter aktiverer du **Aktivert**-bryteren for å starte loggføring av e-post.
 
 ### <a name="connecting-to-exchange-online"></a>Koble til Exchange Online
-For å koble til Exchange Online må du bruke **OAuth2** som **godkjenningstype**. Du må også registrere et program i Azure Active Directory, og oppgi program-ID-en, hemmeligheten for nøkkelhvelv og nettadressen som skal brukes til omdirigering. Nettadressen for omdirigering er forhåndsutfylt og skal fungere for de fleste installasjoner. Hvis du vil ha mer informasjon, kan du se [Slik registrerer du et program i Azure AD for tilkobling fra Business Central til Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
+
+For å koble til Exchange Online må du bruke **OAuth2** som **godkjenningstype**. Du må også registrere et program i Azure Active Directory, og oppgi program-ID-en, hemmeligheten for nøkkelhvelv og nettadressen som skal brukes til omdirigering. Nettadressen for omdirigering er forhåndsutfylt og skal fungere for de fleste installasjoner. Hvis du vil ha mer informasjon, kan du se Slik registrerer du et program i Azure AD for tilkobling fra Business Central til Exchange Online nedenfor.
 
 Du må konfigurere installasjonen til å bruke HTTPS. Hvis du vil ha mer informasjon, kan du se [Konfigurere SSL for å sikre nettklienttilkoblingen for Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren slik at den har en annen hjemmeside, kan du endre nettadressen. Klienthemmeligheten vil bli lagret som en kryptert streng i databasen.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Slik registrerer du et program i Azure AD for tilkobling fra Business Central til Exchange Online
+
 Fremgangsmåten nedenfor forutsetter at du bruker Azure Active Directory til å administrere identiteter og tilgang. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). Hvis du ikke bruker Azure Active Directory, kan du se [Bruke en annen identitet og tjeneste for administrasjon av tilgang](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Velg **Godkjenning** i Azure Portal under **Behandle**.

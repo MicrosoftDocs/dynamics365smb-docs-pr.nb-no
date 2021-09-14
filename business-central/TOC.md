@@ -91,6 +91,7 @@
 ### [Utvide prøveversjonen](admin-extend-trial.md)
 ### [Avbryte eller fjerne Business Central](admin-cancel.md)
 ## Kjøp
+### [Komme i gang med et abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 
 <!--setup-->
@@ -646,12 +647,13 @@
 ### [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md)
 ### [Telle og justere lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md)
 ### [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)
-### [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)
+### [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 ### [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)
 ### [Reservere varer](inventory-how-to-reserve-items.md)
+### [Konfigurer varesporing med serie-, parti- og pakkenumre](inventory-how-setup-item-tracking.md)
 ### [Spore varer med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)
-### [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)
 ### [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)
+### [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)
 ### [Blokker varer](inventory-how-block-items.md)
 ### [Arbeide med ansvarssentre](inventory-responsibility-centers.md)
 

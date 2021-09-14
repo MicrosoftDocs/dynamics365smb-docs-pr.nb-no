@@ -1,23 +1,22 @@
 ---
-title: Planlegge ordre for ordre
-description: Denne planleggingsoppgaven kan utføres på siden Ordreplanlegging, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning.
+title: Planlegge for nytt behov bestilling for bestilling
+description: Denne planleggingsoppgaven kan utføres på siden Ordreplanlegging, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning, inkludert vareerstatningen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444233"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440720"
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Planlegge for nytt behov bestilling for bestilling
+# <a name="plan-for-new-demand-order-by-order"></a>Planlegg for nytt behov bestilling for bestilling
 Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.  
 
 Du kan åpne **Ordreplanlegging**-siden på to måter, avhengig av fokus: fra en ordre du vil planlegge for spesielt, eller i satsvis modus fordi du vil planlegge for alle og eventuelle nye behov.  
@@ -66,6 +65,9 @@ Siden viser planleggingslinjer i henhold til visningsfilteret **Produksjonsbehov
     Hvis varen finnes i en annen lokasjon, viser feltet **Tilgjengelig for overføring** nederst en verdi, og du kan deretter finne og velge lokasjonen som varen skal hentes fra, når du lager overføringsordren.  
 
     Hvis det finnes en erstatning for den etterspurte varen, angis **Ja** i **Erstatning finnes**-feltet, og du kan deretter finne og velge erstatningen på siden **Vareerstatningsposter**.  
+
+    > [!NOTE]  
+    > Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
 
 7.  Merk av for **Reserver** hvis du vil foreta en reservasjon mellom forsyningsordren du oppretter, og behovslinjen den opprettes for. Reservasjonen er som standard tom.  
 
@@ -117,7 +119,7 @@ Når du har fullført planleggingen på **Ordreplanlegging**-siden, for eksempel
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrere nye varer](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

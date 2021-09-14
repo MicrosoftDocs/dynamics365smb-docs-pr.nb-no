@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688317"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440741"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designdetaljer: Bokføringsdato på verdiposten for justering  
 
@@ -94,7 +94,7 @@ Den første tillatte bokføringsdatoen er den første dagen i den første åpne 
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
- Første tillatte bokføringsdato er datoen som er angitt i feltet Bokf. tillatt fra: 1. september 2020.  
+ Første tillatte bokføringsdato er datoen som er angitt i feltet Bokf. tillatt fra: 10. september 2020.  
  Hvis både lagerperioder og tillatte bokføringsdatoer i finansoppsett er definert, definerer den seneste datoen av de to det tillatte bokføringsdatointervallet.  
 
  Trinn 3: Tilordning av en tillatt bokføringsdato.  
@@ -164,7 +164,7 @@ Sortering: bruker-ID
 
 |Bruker-ID  |Bokf. tillatt fra  | Bokf. tillatt til  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|BRUKERNAVN |  2020-09-10      |2020-09-30      |
 
  Når du tilordner brukeren et bredere (eller samme) tillatte intervall for bokføringsdato som i lagerperioden eller finansoppsettet, blir den nevnte konflikten forhindret. Justeringsverdiposten med bokføringsdato 10. september bokføres med dette oppsettet.
 

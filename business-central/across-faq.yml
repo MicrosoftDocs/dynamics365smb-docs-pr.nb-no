@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 04/01/2021
+  ms.date: 08/24/2021
   ms.author: edupont
-  ms.openlocfilehash: 4d4864b0baa6b8455e51931701d72eea8923545f
-  ms.sourcegitcommit: 0c8428e1468d4f5c18fbe35c79d6bbe509b79620
+  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
+  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 06/01/2021
-  ms.locfileid: "6124006"
+  ms.lasthandoff: 08/27/2021
+  ms.locfileid: "7440694"
 title: Vanlige spørsmål om å bruke Business Central
 summary: "Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære hvordan du får teknisk støtte.  \n"
 sections:
@@ -67,6 +67,10 @@ sections:
       Hva er servicenivåavtalene for skyen?
     answer: >
       [!INCLUDE [service-terms](includes/service-terms.md)]
+  - question: >
+      Hvor ofte blir Business Central Online oppdatert?
+    answer: >
+      [!INCLUDE[prod_short](includes/prod_short.md)] online er en tjeneste som består av en Microsoft-vedlikeholdt plattform og forretningsfunksjonalitet. Mange Microsoft-partnere tilbyr ekstra forretningsfunksjonalitet, for eksempel for å imøtekomme bestemte bransje- eller lokaliseringsbehov. Både forretningsfunksjonalitet og tjenestekomponenter overvåkes kontinuerlig og oppdateres etter behov. Du kan alltid se i [lanseringsplanen](/dynamics365/release-plans/) for å få en oversikt over nye og kommende funksjoner. Hvis du vil ha mer informasjon, kan du se [Tjenesteoversikt for Business Central Online](/dynamics365/business-central/dev-itpro/service-overview) (bare på engelsk) og [Nytt og planlagt](product-news.md).
   - question: >
       Administratoren vår har flyttet meg til en annen plan for å gi meg en annen rolle, men jeg ser fremdeles samme startside i Business Central?
     answer: "Dette er litt komplisert, men det ser ut som administratoren ikke endret din tilordnede rolle og tilordner brukergrupper som samsvarer med den nye lisensen. I hovedsak er tilgangen til [!INCLUDE[prod_short](includes/prod_short.md)] avhengig av hvilken type plan (lisens) du har – dette angir tillatelser, din tilordnede rolle og standard startside. Du kan endre din gjeldende rolle manuelt i Mine innstillinger, men hvis du er flyttet til en annen plan, for eksempel flyttet fra forretningsplanen i gruppemedlemmer-planen, kan du se den gamle startsiden fordi tillatelsene ikke ble endret.  \n"

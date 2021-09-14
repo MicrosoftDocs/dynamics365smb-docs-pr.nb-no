@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f43141d4280fcadedc8072194f0d4d52e50cdf2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441271"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440468"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Definere bokføring av konserninterne transaksjoner
 
-Hvis du vil sende en transaksjon (for eksempel en salgskladdelinje) fra ett selskap og få den tilsvarende transaksjonen (for eksempel en kjøpskladdelinje) til å opprettes automatisk i partnerselskapet, må de involverte selskapene bli enige om en felles kontoplan og et felles sett av dimensjoner som skal brukes under konserninterne transaksjoner. Den konserninterne kontoplanen kan for eksempel være en forenklet versjon av morselskapets kontoplan. Hvert selskap tilordner hele kontoplanen til den delte, konserninterne kontoplanen, og hvert selskap tilordner dimensjonene til de konserninterne dimensjonene.  
+Hvis du vil sende en transaksjon (for eksempel en salgskladdelinje) fra ett selskap og få den tilsvarende transaksjonen (for eksempel en kjøpskladdelinje) til å opprettes automatisk i partnerselskapet, må de involverte selskapene bli enige om en felles kontoplan og et felles sett av dimensjoner som skal brukes med konserninterne transaksjoner. Den konserninterne kontoplanen kan for eksempel være en forenklet versjon av morselskapets kontoplan. Hvert selskap tilordner hele kontoplanen til den delte, konserninterne kontoplanen, og hvert selskap tilordner dimensjonene til de konserninterne dimensjonene.  
 
-Du må også definere en konsernintern partnerkode for hvert partnerselskap, som avtales mellom alle selskapene, og tilordne dem til kunde- og leverandørkortene henholdsvis ved å fylle ut feltet **Konsernintern partnerkode**.  
+Du må også definere en konsernintern partnerkode for hvert partnerselskap, som avtales mellom alle selskapene, og tilordne den til kunde- og leverandørkortene henholdsvis ved å fylle ut feltet **Konsernintern partnerkode**.  
 
 Hvis du oppretter eller mottar konserninterne linjer med varer, kan du bruke dine egne varenumre eller definere partnerens varenumre for hver relevante vare, enten i feltet **Leverandørs varenr.** eller i feltet **Felles varenr.** på varekortet. Du kan også bruke funksjonen **Varekryssreferanse** til å tilordne varenumrene til de konserninterne partnerbeskrivelsene av varene, åpne kortet for hver vare og deretter velge handlingen **Kryssreferanser** for å definere kryssreferanser mellom varebeskrivelsene dine og dem til den konserninterne partneren. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon. 
 
@@ -34,7 +34,7 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 ## <a name="to-set-intercompany-partners"></a>Slik konfigurerer du konserninterne partnere
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
-3. På siden **Konsernintern partner** fyller du ut feltene etter behov.[!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. På siden **Konsernintern partner** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
@@ -51,7 +51,7 @@ Hvis en gruppe selskaper skal kunne lage konserninterne transaksjoner, må de bl
 
 Hvis selskapet ditt er det overordnede selskapet og har den definerende konserninterne kontoplanen som gruppen skal bruke som felles referanse, følger du fremgangsmåten [Slik setter du opp den definerende konserninterne kontoplanen](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
-Hvis selselskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen, følger du fremgangsmåten [Slik importerer du den konserninterne kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
+Hvis selskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen, følger du fremgangsmåten [Slik importerer du den konserninterne kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
 ### <a name="to-set-up-the-defining-intercompany-chart-of-accounts"></a>Slik setter du opp den definerende konserninterne kontoplanen
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.

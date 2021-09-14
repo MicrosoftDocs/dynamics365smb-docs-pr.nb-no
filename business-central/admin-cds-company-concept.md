@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773339"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482198"
 ---
 # <a name="data-ownership-models"></a>Dataeierskapsmodeller
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ Det følgende bildet viser et eksempel på dette dataoppsettet i [!INCLUDE[prod_
 
 ![Rotforretningsenheten er øverst, teamene er i midten, og deretter vises firmaene nederst.](media/cds_bu_team_company.png)
 
-I denne konfigurasjonen eies poster som er knyttet til det amerikanske selskapet Cronus, av et team som er knyttet til <ID>-forretningsenheten for Cronus US i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Brukere som har tilgang til forretningsenheten via en sikkerhetsrolle som er angitt med synlighet på forretningsenhetsnivå i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan nå se de postene. Følgende eksempel viser hvordan du bruker team til å gi tilgang til disse postene.
+I denne konfigurasjonen eies poster som er knyttet til det amerikanske selskapet Cronus, av et team som er knyttet til forretningsenheten for Cronus US i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Brukere som har tilgang til forretningsenheten via en sikkerhetsrolle som er angitt med synlighet på forretningsenhetsnivå i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan nå se de postene. Følgende eksempel viser hvordan du bruker team til å gi tilgang til disse postene.
 
 * Salgssjefrollen er tilordnet til medlemmer av salgsteamet hos Cronus.
 * Brukere som har rollen Salgssjef, kan få tilgang til kontoposter for medlemmer av samme konsern.
-* Salgsteamet hos Cronus US er knyttet til forretningsenheten for Cronus US som ble nevnt tidligere. Medlemmer av salgsteamet i Cronus US kan se alle forretningsforbindelser som eies av <ID>-brukeren for Cronus US, noe som ville ha kommet fra selskapstabellen for Cronus US i [!INCLUDE[prod_short](includes/prod_short.md)].
+* Salgsteamet hos Cronus US er knyttet til forretningsenheten for Cronus US som ble nevnt tidligere. Medlemmer av salgsteamet i Cronus US kan se alle forretningsforbindelser som eies av brukeren for Cronus US, noe som ville ha kommet fra selskapstabellen for Cronus US i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1:1-tilordningen mellom forretningsenhet, selskap og team er imidlertid bare et utgangspunkt, som vist i følgende bilde.
 
@@ -51,7 +51,7 @@ I denne konfigurasjonen eies poster som er knyttet til det amerikanske selskapet
 
 I dette eksemplet opprettes det en ny EUR-rotforretningsenhet (Europa) i [!INCLUDE[prod_short](includes/cds_long_md.md)] som den overordnede enheten for både Cronus DE (Tyskland) og Cronus ES (Spania). EUR-forretningsenheten er ikke knyttet til synkronisering. Den kan imidlertid gi medlemmene av EUR-salgsteamet tilgang til å kontodata både i Cronus DE og Cronus ES ved å sette datasynligheten til **Overordnet/Underordnet forretningsenhet** for den tilknyttede sikkerhetsrollen i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synkronisering bestemmer hvilket team som skal eie poster. Dette styres av feltet **Standard eiende team** i raden BCI – <ID>. Når en post av typen BCI – <ID> aktiveres for synkronisering, opprettes automatisk den tilknyttede forretningsenheten og eierteamet (hvis det ikke allerede finnes), og det angis en verdi i feltet **Standard eiende team**. Når synkronisering er aktivert for en tabell, kan administratorer endre det eiende teamet, men et team må alltid være tilordnet.
+Synkronisering bestemmer hvilket team som skal eie poster. Dette styres av feltet **Standard eiende team** i raden BCI. Når en post av typen BCI aktiveres for synkronisering, opprettes automatisk den tilknyttede forretningsenheten og eierteamet (hvis det ikke allerede finnes), og det angis en verdi i feltet **Standard eiende team**. Når synkronisering er aktivert for en tabell, kan administratorer endre det eiende teamet, men et team må alltid være tilordnet.
 
 > [!NOTE]
 > Poster blir skrivebeskyttet etter at et selskap er lagt til og lagret, så sørg for at du velger riktig selskap.

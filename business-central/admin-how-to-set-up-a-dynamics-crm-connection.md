@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0afad844bc58089548885b8e7dcce8c4b947cea9
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6636045"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440544"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Koble til Microsoft Dataverse
 
@@ -111,15 +111,16 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 > [!NOTE]
 > Denne delen er bare relevant for Business Central Online-leiere som kjører på Microsoft. Online-leietakere som kjører på ISV-er, og lokale installasjoner, påvirkes ikke.
 
-I april 2022 avskriver [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkjenningstypen (brukernavn/passord). Hvis du vil ha mer informasjon, kan du se [Avskriving av Office365-godkjenningstypen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). I mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] i tillegg bruken av klienthemmelighetsbasert tjeneste-til-tjeneste-godkjenning for online-leietakere og kommer til å kreve bruk av sertifikatbasert tjeneste-til-tjeneste-godkjenning for tilkoblinger til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] online-leietakere som kjører på ISV-er, og lokale installasjoner kan fortsette å bruke Office365-godkjenningen som er definert av Microsoft-partneren.
+I april 2022 avskriver [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkjenningstypen (brukernavn/passord). Hvis du vil ha mer informasjon, kan du se [Avskriving av Office365-godkjenningstypen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). I mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] i tillegg bruken av klienthemmelighetsbasert tjeneste-til-tjeneste-godkjenning for online-leietakere og kommer til å kreve bruk av sertifikatbasert tjeneste-til-tjeneste-godkjenning for tilkoblinger til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-nettleietakere som driftes av ISV-er og lokale installasjoner, kan fortsette å bruke klienthemmeliggodkjenning til å koble til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 For å unngå å forstyrrende integreringer _må du oppgradere_ tilkoblingen for å kunne bruke sertifikatbasert godkjenning. Selv om endringen er planlagt i mars, 2022, anbefaler vi på det sterkeste at du oppgraderer så snart som mulig. Følgende trinn beskriver hvordan du oppgraderer til sertifikatbasert godkjenning. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Slik oppgraderer du tilkoblinger for Business Central online til å bruke sertifikatbasert godkjenning
+
 > [!NOTE]
 > Sertifikatbasert godkjenning er tilgjengelig i Business Central 2021, lanseringsbølge 1 og senere. Hvis du bruker en tidligere versjon, må du planlegge en oppdatering for Business Central 2021 lanseringsbølge 1 før mars, 2022. Hvis du vil ha mer informasjon, kan du se [Planlegging av oppdateringer](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Hvis du får problemer, kontakter du partneren eller kundestøtten.
 
-1. I [Business Central administration center]/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) kontrollerer du at du bruker Business Central 2021 lanseringsbølge 1 eller nyere (versjon 18 eller senere).
+1. I [administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) kontrollerer du at du bruker lanseringsbølge 1 for 2021 for Business Central eller nyere (versjon 18 eller nyere).
 2. Avhengig av om du integrerer med Dynamics 365 Sales, gjør du et av følgende:
    * Hvis du gjør det, åpner du siden **Tilkoblingsoppsett for Microsoft Dynamics 365**.
    * Hvis du ikke gjør det, åpner du siden **Tilkoblingsoppsett for Dataverse**.

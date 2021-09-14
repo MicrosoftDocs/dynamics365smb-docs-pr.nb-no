@@ -11,19 +11,19 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: 09d1998bcd8cdf522b1533fe4768a0bbf0aca776
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435039"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440669"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og avinstallere utvidelser i Business Central
 
 Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåten eller gir deg tilgang til nye elektroniske tjenester. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central med utvidelser](ui-extensions.md).
 
 > [!NOTE]
-> Du må ha de rette tillatelsene for å installere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være et medlem av ADMINISTRASJON AV UTVIDELSE - ADMINISTRATOR-brukergruppen, eller du må ha UTVIDELSE UTVIDELSE - ADMINISTRATOR-tillatelsessettet. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.
+> Du må ha de rette tillatelsene for å installere eller avinstallere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være et medlem av ADMINISTRASJON AV UTVIDELSE - ADMINISTRATOR-brukergruppen, eller du må ha UTVIDELSE UTVIDELSE - ADMINISTRATOR-tillatelsessettet. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.
 >
 > Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
 

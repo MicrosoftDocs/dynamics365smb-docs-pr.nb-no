@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 06/16/2021
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3ef2fee2b6a2c868fa4085d08bf76bb02b96b49
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435646"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440444"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -85,6 +85,23 @@ Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninge
 6. Gjenta trinn 2 til 5 for hver leverandør som du vil kjøpe varen fra.
 
 Leverandørene vises nå på siden **Vare/leverandør-katalog**, som du åpner fra varekortet, slik at du enkelt kan velge en annen leverandør.
+
+## <a name="set-up-item-substitutions"></a>Konfigurer vareerstatninger
+
+Du kan konfigurere varer slik at de får erstatninger, for eksempel andre varer som kan brukes i stedet for den opprinnelige varen.
+
+### <a name="to-make-an-item-substitution"></a>Slik lager du en vareerstatning
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
+2. Finn den aktuelle varen, og klikk deretter på feltet **Varenr.** for å åpne varekortet.  
+3. Velg **Relatert**-handlingen, velg **Vare**, og velg deretter **Erstatninger** for å åpne siden Vareerstatningspost.  
+4. Velg feltet **Erstatningsnr.** og velg deretter erstatningsvaren fra listen.
+5. Fortsett med å fylle ut eller endre andre felter på siden etter behov.
+
+Hvis det forespurte antallet, som på en salgslinje, overskrider det disponible antallet på lageret, blir det vist en melding for å informere deg om at erstatningsvarer finnes.
+
+> [!NOTE]  
+> Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
 
 ## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 

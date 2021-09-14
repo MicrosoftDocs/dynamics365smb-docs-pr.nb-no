@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543250"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440394"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Salgsrapporter og analyser i Business Central
 
@@ -36,6 +36,7 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i salgsrapportering.
 |**Lagerleveringsstatus**|7313|Denne rapporten kan brukes for alle lokasjoner der feltet **Levering nødv.** er valgt. Rapporten **Lagerleveringsstatus** viser alle uposterte lagerleveringsdokumenter, inkludert lokasjoner, hyllekoder, dokumentstatus, antall og så videre. Denne rapporten er perfekt for å få en oversikt.|
 |**Lagerplukkliste**|813|Viser en oversikt over ordrer der en vare er inkludert. Følgende informasjon vises for hver vare: ordrelinje med kundenavn, variantkode, lokasjonskode, hyllekode, leveringsdato, mengde som skal leveres og enhet. Mengden som skal leveres legges sammen for hver vare. Rapporten kan for eksempel brukes når det skal hentes varer fra lageret.<br>**Obs**! Denne rapporten er ikke tilgjengelig for avanserte lagerfunksjoner.|
 |**Vare – restordrer til kunder**|718|Viser en oversikt over ordrelinjer der leveringsdatoen er oversteget. Følgende informasjon vises for hver vare: nummer, kundenavn, kundens telefonnummer, leveringsdato, ordreantall og antall i restordre. Rapporten viser også om kunden har andre varer i restordre.|
+|**Varer i ordrer**|708|Viser en oversikt over ordrene som ennå ikke er levert, samt varene i ordrene. Den viser ordrenummer, kundens navn, leveringsdato, ordreantall, antall forsinket, restantall, salgspris samt eventuell rabattprosent og -beløp. Antall i restordrer, restantall og beløp legges sammen for hver vare. Bruk rapporten til å vise om det finnes akutte eller kommende leveringsproblemer.|
 
 
 

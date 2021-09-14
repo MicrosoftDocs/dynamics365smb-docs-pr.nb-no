@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 389832ad5997dd4b02cbeb7dfb90dd5b1ade40c1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 791033d9b4077ad6e3bf37ab04956113183b5f2b
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439713"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440501"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -45,6 +45,8 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 > [!NOTE]
 > Utvidelsene **Microsoft 365** og **Gjeldende bruker** bruker de kontiene du konfigurerte for brukere i administrasjonssenteret for Microsoft 365 for Microsoft 365-abonnementet. Brukere må ha en gyldig lisens for Exchange Online for å sende e-post med utvidelsene. 
+>
+> I tillegg kan ikke eksterne brukere, for eksempel delegerte administratorer og eksterne regnskapsførere, bruke disse utvidelsene til å sende e-postmeldinger fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 

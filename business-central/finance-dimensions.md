@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444690"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482225"
 ---
 # <a name="working-with-dimensions"></a>Arbeide med dimensjoner
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
@@ -53,6 +53,9 @@ Når dimensjoner og verdier er definert, kan du definere globale dimensjoner og 
 
 * **Globale dimensjoner** brukes som filtre, for eksempel i rapporter, kjørsler og XMLport-er. Du kan bruke bare to globale dimensjoner, så velge dimensjonene du vil bruke ofte.
 * **Snarveisdimensjoner** er tilgjengelige som felt på journaler, dokumentlinjer og finansposter. Du kan opprette opptil åtte av disse.  
+
+> [!NOTE]
+> Når du har brukt en ny dimensjon i en post, for eksempel en linje eller ny post, kan du ikke slette dimensjonen, selv om du ikke bokfører posten. Dette skyldes at [!INCLUDE[prod_short](includes/prod_short.md)] umiddelbart oppretter et dimensjonssett for linjen eller posten. Hvis du vil ha mer informasjon, kan du se [Dimensjonssett](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Definere standarddimensjoner for kunder, leverandører og andre kontoer
 Du kan tilordne en standarddimensjon for en spesifikk konto. Dimensjonen kopieres til kladden eller bilaget når du angi nummeret på en linje, men du kan slette eller endre koden på linjen, hvis aktuelt. Du kan også gjøre en dimensjon som er nødvendige for postering av en oppføring for en bestemt type konto.  

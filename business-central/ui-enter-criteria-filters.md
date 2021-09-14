@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 682b7dd383d2bd90a0364fbef831ee2768c3c85f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443696"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440594"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 
@@ -220,6 +220,7 @@ Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`'man'`|Tekst som samsvarer nøyaktig med **man** og skiller mellom store og små bokstaver.|  
+|`''`|Tekst som er tom.|  
 
 #### <a name="-case-insensitive"></a>(@) Skiller ikke mellom små og store bokstaver  
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: client, customer, credit
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436754"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440369"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -44,7 +44,7 @@ Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprett
 4. Velg **OK**. Det åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.  
 5. Fortsette med å fylle ut eller endre feltet på kundekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-I hurtigfanen **Salgspriser** kan du vise spesialpriser eller rabatter som skal gis til kunden hvis bestemte kriterier oppfylles, for eksempel vare, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
+Handlingen **Priser og rabatter** gir alternativer for å administrere spesialpriser eller rabatter for kunden når en bestilling oppfyller bestemte kriterier. Kriteriene kan for eksempel være når de kjøper en bestemt vare, bestiller et minimumsantall eller kjøper før en dato, for eksempel når en kampanje avsluttes. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Kunden er nå registrert, og kundekortet er klart til å brukes på salgsdokumenter.
 

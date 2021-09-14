@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24337d2cd96e4511f1917980c94af407381e96d2
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325321"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482275"
 ---
 # <a name="how-to-manage-inventory"></a>Administrer lager
 Du må opprette et varekort av typen **Lager** for hvert fysiske produkt du handler i. Varer du tilbyr til kunder, men ikke har på lager, kan du registrere som katalogvarer, som du kan konvertere til lagervarer når det er nødvendig. Du kan øke eller redusere antall varer på lager ved å bokføre direkte til varepostene, for eksempel etter en fysisk opptelling eller hvis du ikke registrerer kjøp.
@@ -51,9 +51,10 @@ Tabellen nedenfor beskriver beslektede oppgaver.
 |Vis tilgjengeligheten av varer per lokasjon, etter periode, ved salg eller kjøpshendelse eller ved bruk på monterings- eller produksjonsstykklister.|[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)|
 |Overføre varer mellom lokasjoner med overføringsordrer for å administrere lageraktiviteter, eller med varereklassifiseringskladden.|[Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)|
 |Reserver lagervarer eller inngående varer for ordrer, bestillinger, serviceordrer, monteringsordrer eller produksjonsordrer.|[Reservere varer](inventory-how-to-reserve-items.md)|
-|Tilordne serie- eller partinumre til en utgående eller inngående bilags- eller kladdelinje, for eksempel for å spore varer i tilfelle tilbakekallinger.|[Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)|
-|Sett opp en leverandørs egen beskrivelse av en vare på varekortet, slik at du raskt kan sette inn varebeskrivelser på handelsdokumenter.|[Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)|
+|Definer varesporing slik at du kan spore varers serienumre, for eksempel spore varer i tilfelle tilbakekallinger.|[Konfigurer varesporing med serie-, parti- og pakkenumre](inventory-how-setup-item-tracking.md)|
+|Tilordne serienumre eller partinumre til alle utgående eller inngående dokumenter eller kladdelinjer.|[Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)|
 |Finn ut hvor eventuelle serie- eller partinummer ble brukt i dets forsyningskjede, for eksempel i tilbakekallingssituasjoner.|[Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)|
+|Sett opp en leverandørs egen beskrivelse av en vare på varekortet, slik at du raskt kan sette inn varebeskrivelser på handelsdokumenter.|[Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md)|
 |Blokker varer fra å bli lagt inn på salgs- eller bestillingslinjene eller fra å bli bokført i en transaksjon.|[Blokker varer](inventory-how-block-items.md)|
 |Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 |Bruk ressurser med bestemte ferdigheter for forskjellige tjenester og servicevarer.|[Definere ressurstildeling](service-how-setup-resource-allocation.md)|
