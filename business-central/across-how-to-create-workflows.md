@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438410"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588229"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Opprett arbeidsflyter for å koble til forretningsprosessoppgaver
 
@@ -133,7 +133,7 @@ I eksemplet nedenfor lages det en ny arbeidsflyt for å godkjenne endringer i na
     2. I feltet **Under forutsetning av** velger du ordet **Alltid**, og deretter på siden **Hendelsesbetingelse** velger du koblingen **Legg til en betingelse for når en feltverdi endres**, og deretter velger du feltet *Navn*.  
 
       Resultatet av dette trinnet er at betingelsen leser som *Navn endres*.  
-    3. I feltet **Så svar** velger du koblingen **Velg svar** , og deretter på siden **Arbeidsflytsvar**, i feltet **Velg svar** velger du svaret *Tilbakestill verdien for feltet <Field> på posten og lagre endringen*. Deretter i delen **Alternativer for valgt svar** angi du feltet *Navn*.  
+    3. I feltet **Så svar** velger du koblingen **Velg svar** , og deretter på siden **Arbeidsflytsvar**, i feltet **Velg svar** velger du svaret *Tilbakestill verdien for feltet \<Field\> på posten og lagre endringen*. Deretter i delen **Alternativer for valgt svar** angi du feltet *Navn*.  
     4. Velg koblingen **Legg til flere svar**, og legg deretter til en oppføring for *Opprett en godkjenningsforespørsel for posten med godkjenningstype <%1> og <%2>.* svar  
     5. I delen **Alternativer for det valgte svaret** for det nye svaret endrer du feltet **Godkjennertype** til *Arbeidsflytbrukergruppe*, og deretter angir du den aktuelle brukergruppen i feltet **Arbeidsflytbrukergruppe**.  
 

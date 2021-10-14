@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440369"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588985"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -26,23 +26,16 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Legge til nye kunder
+Du kan legge til nye kunder manuelt ved å fylle ut feltene på siden **Kundekort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer kundeprofiler. Når du bruker maler, sparer du tid når du legger til nye kunder og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én kundetype, kan du velge hvilken mal du vil bruke når du legger til en kunde. Hvis du oppretter bare én mal, brukes den for alle nye kunder. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte kunder. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Kundekort, og deretter lagrer du den som en mal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du kundekortet som en mal](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprette maler for ulike kundeprofiler, eller du kan legge til kunder uten maler. Du kan også opprette en kunde fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan være nyttig å tilpasse siden **Kundemal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til feltet **Kredittgrense** i en mal. Hvis du vil ha mer informasjon, kan du se [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Hvis det finnes kundemaler for ulike kundetyper, vises en side når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.  
+Du kan også opprette en kunde fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
-2. På siden **Kunder** velger du handlingen **Ny**.
-
-    Hvis det bare finnes én kundemal, åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.
-
-    Hvis det finnes mer enn én kundemal, åpnes en side der du kan velge en kundemal. I det tilfellet følger du de to neste trinnene.
-3. På siden **Velg en mal for en ny kunde** velger du malen som du vil bruke for det nye kundekortet.
-4. Velg **OK**. Det åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.  
-5. Fortsette med å fylle ut eller endre feltet på kundekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Handlingen **Priser og rabatter** gir alternativer for å administrere spesialpriser eller rabatter for kunden når en bestilling oppfyller bestemte kriterier. Kriteriene kan for eksempel være når de kjøper en bestemt vare, bestiller et minimumsantall eller kjøper før en dato, for eksempel når en kampanje avsluttes. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 

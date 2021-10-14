@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318587"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588653"
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
 
-Du må definere det generelle oppsettet, for eksempel hvilke salgsdokumenter som kreves, og hvordan dokumentenes verdier skal bokføres. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
+Du må definere det generelle oppsettet på **Salg**-siden, for eksempel hvilke salgsdokumenter som kreves, hvordan deres verdier bokføres, og hvilken type linjer som skal opprettes som standard. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
 
-En egen rekke oppgaver relatert til registrering av nye kunder er å registrere alle spesialpris eller rabattavtaler som du har med hver kunde.
+En egen rekke oppgaver relatert til registrering av nye kunder er å registrere alle spesialpris eller rabattavtaler som du har med hver kunde. Hvis du vil ha mer informasjon, kan du se [Registrer spesielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives i avsnittet Finansoppsett. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
 

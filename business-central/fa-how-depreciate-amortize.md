@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442263"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588304"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
 Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
@@ -48,7 +48,10 @@ Du kan utføre kjørselen **Beregn avskrivninger** én gang i måneden, eller et
 5. Velg handlingen **Bokfør**.  
 
 > [!NOTE]
-> Hvis du velger feltet **Bruk tvunget antall dager** og feltet **Tvunget antall dager** settes til en verdi som resulterer i bokføringsdatoen minus verdien i feltet **Antall dager** er en dato i forrige kalenderår, kan du ikke bokføre avskrivningen. Løsningen er å redusere verdien for feltet **Tvunget antall dager** til ikke høyere enn de beregnede dagene frem til bokføringsdato med 30 dager i måneden, ELLER velge feltet **Regnskapsår 365 dager** i avskrivningstablået. Vi anbefaler det første alternativet fordi du kanskje ikke vil endre bruken av 30 dager/måneder for avskrivning. Hvis du vil ha mer informasjon, se [Regnskapsår 365 dager-feltavskriving](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Kjent begrensning: Hvis du angir feltet **Bruk tvunget antall dager** til Ja og feltet **Tvunget antall dager** er satt til en verdi der **bokføringsdatoen** minus **Antall dager** resulterer i en dato i forrige kalenderår, tillater ikke systemet at du bokfører avskrivningen.
+> Du kan unngå det ved å redusere feltet **Tvunget antall dager** til ikke høyere enn de beregnede dagene frem til bokføringsdato med 30 dager i måneden, ELLER angi flagget **Regnskapsår 365 dager** i avskrivningstablået.
+> Vi anbefaler det første alternativet fordi du kanskje ikke vil endre bruken av 30 dager/måneder for avskrivning. Hvis du vil ha mer informasjon, se [Regnskapsår 365 dager-feltavskriving](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Slik bokfører du avskrivning manuelt fra aktivafinanskladden:
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladd** og velger den relaterte koblingen.  

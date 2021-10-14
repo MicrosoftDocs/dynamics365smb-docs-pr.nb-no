@@ -1,33 +1,32 @@
 ---
 title: Godkjenne eller avvise dokumenter i arbeidsflyter | Microsoft-dokumentasjon
 description: Be om, avvise eller delegere en godkjenning, for eksempel av et kjøps- eller salgsdokument, som en del av en arbeidsflyt.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441002"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588860"
 ---
 # <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
+
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
 
-Du setter opp arbeidsflyter for godkjenning på **Arbeidsflyt**-siden. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).
+Du setter opp arbeidsflyter for godkjenning på **Arbeidsflyt**-siden. Du må også definere godkjenningsbrukere, inkludert eventuelle relevante beløpsgrenser, på siden **Brukeroppsett for godkjenning**. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).  
 
 I tillegg til godkjenningsarbeidsflyter som beskrives i dette emnet, kan du utføre diverse andre arbeidsflytoppgaver. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).
 
 Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
+
 Oppgavene nedenfor utføres av en godkjenningsbruker.
 
 1. På siden som viser posten, velger du handlingen **Send godkjenningsforespørsel**.
@@ -38,6 +37,7 @@ Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Stat
 Når godkjenneren har godkjent posten, blir statusen endret til **Frigitt**. Du kan deretter fortsette på oppgavene med posten.
 
 ## <a name="to-cancel-requests-for-approval"></a>Avbryte forespørsler om godkjenning
+
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godkjenning. I så fall kan du annullere godkjenningsprosessen og foreta de nødvendige endringene i bestillingen før du ber om godkjenning igjen.
@@ -47,6 +47,7 @@ Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godk
 Når godkjenningsforespørselen er annullert, endres statusen for den relaterte godkjenningsposten til **Annullert**. Statusen for posten oppdateres fra **Venter på godkjenning** til **Åpen**. Godkjenningsprosessen kan deretter startes på nytt.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Godkjenne eller avvise forespørsler om godkjenning
+
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Du kan behandle forespørsler om godkjenning på siden **Forespørsler å godkjenne**, for eksempel for å godkjenne flere forespørsler samtidig. Du kan også behandle hver forespørsel på den relaterte posten, for eksempel siden **Kjøpsfaktura**, ved å velge koblingen i meldingen du mottar.
@@ -62,6 +63,7 @@ Hvis det er angitt et godkjennerhierarki, er poststatusen **Venter på godkjenni
 Samtidig endres godkjenningsstatusen fra **Opprettet** til **Åpen** så snart en godkjenningsforespørsel for posten er opprettet. Hvis forespørselen avvises, endres godkjenningsstatusen til **Avvist**. Statusen forblir **Åpen** eller **Avvist** til alle godkjennerne har godkjent forespørselen.
 
 ## <a name="to-delegate-requests-for-approval"></a>Delegere forespørsler om godkjenning
+
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Hvis du vil hindre at dokumenter hoper seg opp eller blokkerer arbeidsflyten på andre måter, kan godkjenner og godkjenningsadministrator delegere en godkjenningforespørsel til en stedfortredende godkjenner. Stedfortrederen kan enten være en angitt stedfortreder, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Du bruker vanligvis denne funksjonen hvis en godkjenner ikke er på kontoret og ikke kan godkjenne forespørsler før forfallsdatoen.
@@ -72,6 +74,7 @@ Hvis du vil hindre at dokumenter hoper seg opp eller blokkerer arbeidsflyten på
 Et varsel om å godkjenne forespørselen sendes til stedfortredende godkjenner.
 
 ## <a name="to-manage-overdue-approval-requests"></a>Håndtere forfalte godkjenningsforespørsler
+
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
 Med jevne mellomrom må du vil påminne brukere av arbeidsflyt for godkjenning om forfalte godkjenningsforespørsler som de må reagere på. Du bruker funksjonen **Send varsler om forfalte godkjenninger** til dette.
@@ -82,10 +85,12 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
 ## <a name="see-also"></a>Se også
-[Salg](sales-manage-sales.md)    
+
+[Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Salg](sales-manage-sales.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

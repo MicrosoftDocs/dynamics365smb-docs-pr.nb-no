@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c565b3df229c9fe844c08274e813bc24ba70a8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776450"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588404"
 ---
 # <a name="changing-language-and-region"></a>Endre språk og område
 
@@ -33,7 +33,7 @@ Endring av tekst som er lagret som applikasjonsdata inngår imidlertid ikke i de
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] støtter bare ett tegnsett for data. Det kan derfor forekomme at enkelte tegn ikke støttes i miljøet ditt, noe som kan føre til at det oppstår problemer når du henter data som ble registrert med et annet tegnsett. Det kan for eksempel hende at miljøet bare støtter engelske og russiske tegn, og hvis du registrerer data på et annet språk, blir de kanskje ikke lagret på riktig måte. Du må kontakte systemansvarlig for å være sikker på at du forstår hvilke språk som støttes i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-the-region"></a>Endre område
+## <a name="changing-your-region-setting"></a>Endre områdeinnstillingen
 Område er forskjellig fra både språket og de juridiske kravene i lokale markeder. Område bestemmer hvordan dataene vises når det gjelder komma justert til venstre eller høyre og visse andre innstillinger. Området bestemmer også noen systemelementer i nettleseren, for eksempel handlingen til å opprette et nytt element i en liste.  
 
 Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringen gjelder bare for deg og ikke for andre brukere i selskapet.  Valget av område tilbakestilles til innstillingen i Microsoft 365-profilen hvis administratoren synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -42,6 +42,11 @@ Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!I
 > Når du endrer området, vises en lang liste over språk og områder. Språket påvirkes imidlertid ikke av områdevalget.  
 
 Hvis du vil endre område, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
+
+## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Endre områdeinnstillingen for kunder, kontakter og leverandører
+Enkelte bedrifter bruker en ekstern tjeneste som validerer adresseinformasjon i landet eller området. Når du må oppdatere adresseinformasjon, er det imidlertid ikke sikkert at den strukturerte fremgangsmåten som disse tjenestene bruker, alltid er det som er riktig for enkelte scenarioer. Business Central tilbyr en mer fleksibel måte å angi adresseinformasjon på.
+
+Hvis du aktiverer feltet **Krev land-/områdekode i adressen** på siden **Finansoppsett**, tilbakestilles endringer i feltet **Land-/områdekode** for adresser til kunder, kontakter eller leverandører til verdiene i andre adressefelter.
 
 ## <a name="application-version"></a>Programversjon
 

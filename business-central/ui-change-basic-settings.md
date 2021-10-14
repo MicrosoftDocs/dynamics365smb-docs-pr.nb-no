@@ -1,21 +1,21 @@
 ---
 title: Endre grunnleggende innstillinger for gjeldende bruker
 description: Lær hvordan du endrer enkelte grunnleggende innstillinger i Business Central, for eksempel rolle og rollesenteret, firmaer, arbeidsdatoer og tidssoner.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 6197adc163d781f2d7588e7109b37649e1611551
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443771"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589185"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
@@ -82,7 +82,7 @@ Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbei
 
 ## <a name="region"></a><a name="region"></a> Region
 
-**Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.
+**Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres. Det bestemmer også hvilket tegn som brukes som desimalskilletegn når du bruker et numerisk tastatur til å angi data. Hvis du vil ha mer informasjon, kan du se [Skrive inn data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Språk
 

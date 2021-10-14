@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440506"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587787"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online med utvidelser
 
@@ -53,39 +53,13 @@ Hvis du avinstallerer en utvidelse og du deretter ombestemmer deg, kan du instal
 
 Noen utvidelser leveres av Microsoft, og andre utvidelser leveres av [andre selskaper](ui-extensions-other.md). Alle utvidelser testes før de blir gjort tilgjengelige for deg, men vi anbefaler at du går til de angitte koblingene som følger med hver utvidelse, for å finne ut mer om utvidelsen før du velger å installere den.  
 
-Microsoft tilbyr følgende utvidelser:  
-
-* [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)
-* [Ceridian lønn](ui-extensions-ceridian-payroll.md)
-* [Selskapshub](ui-extensions-company-hub.md)  
-* [Dynamics GP-datamigrering](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Viktig forretningsinnsikt](ui-extensions-essential-business-insights.md)
-* [Bildeanalyse](ui-extensions-image-analyzer.md)
-* [Intelligent sky](ui-extensions-data-replication.md)
-* [Intelligent skybase](ui-extensions-intelligent-cloud.md)  
-* [Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)
-* [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
-* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
-* [Mva-gruppe](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
-* [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
-* [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)
-* [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Du kan holde øye med nye utvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
 
 ## <a name="extensions-and-data-transfer"></a>Utvidelser og dataoverføring
 
-Etter hvert som følgende utvidelser kommuniserer med andre tjenester, kan de overføre data fra [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
+siden følgende utvidelser kommuniserer med andre tjenester, kan de overføre data fra det geografiske området for [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
 
 * AMC Banking 365 Fundamentals-utvidelse
 * Bildeanalyse
@@ -102,6 +76,12 @@ Dette gjelder også for enkelte funksjoner i basisprogrammet, for eksempel følg
 * OCR-tjeneste
 * Online Map
 * EU-mva.-reg.nr. Tjeneste
+
+## <a name="recommended-apps"></a>Anbefalte apper
+Microsoft-partnere og -forhandlere kan opprette en utvidelse som de kan bruke til å kompilere lister over apper de ofte anbefaler til kundene sine. Hvis de gjør det og har distribuert utvidelsen til leietakeren din, er appene tilgjengelige på siden **Anbefalte apper**. Der kan du lese om hver app og avgjøre om du vil installere dem.
+
+> [!NOTE]
+> Hvis du er en Microsoft-partner eller -forhandler, og du er interessert i å tilby en liste over anbefalte apper, kan du se [Anbefale apper fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Se også
 

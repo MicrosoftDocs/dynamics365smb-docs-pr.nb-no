@@ -1,7 +1,7 @@
 ---
 title: Avstemme bankkontoer
-description: Dette beskriver hvordan du utfører bankavstemming med siden **Bankkontoavstemming**, hvordan lagerverdien avstemmes med finans.
-author: SorenGP
+description: Dette emnet beskriver hvordan du avstemmer transaksjonene i de interne bankkontiene med transaksjonene i kontoutdrag fra banken.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: bholtorf
+ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435405"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587812"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -27,7 +27,7 @@ Følgende beskriver hvordan du utfører bankavstemming med siden **Bankkontoavst
 > Du kan avstemme bankkontoer på siden **Betalingsavstemmingskladd** når du behandler betalinger. Alle åpne bankposter relatert til den utlignede kunden- eller leverandørposter lukkes når du velger handlingen **Bokfør betalinger og avstem bankkonto**. Dette avstemmer automatisk bankkontoen for betalinger du bokfører med kladden. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 > [!NOTE]  
-> I nord-amerikanske versjoner kan du også utføre dette arbeidet på **Bankavstemmingsforslag**-siden, som er mer egnet for sjekker og innskudd, men tilbyr ikke import av filer med bankkontoutdrag. Hvis du vil bruke denne siden i stedet for **Bankkontoavstemming**-siden, fjerner du avmerkingen for feltet **Bankavstemming med automatisk samsvar** på siden **Finansoppsett**. Hvis du vil ha mer informasjon, kan du se delen [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under lokal funksjonalitet for USA.
+> I nord-amerikanske versjoner kan du også utføre dette arbeidet på **Bankavstemmingsforslag**-siden, som er mer egnet for sjekker og innskudd, men tilbyr ikke import av filer med bankkontoutdrag. Hvis du vil bruke denne siden i stedet for **Bankkontoavstemming**-siden, fjerner du feltet **Bankavstemming med automatisk samsvar** på siden **Finansoppsett**. Hvis du vil ha mer informasjon, kan du se delen [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under lokal funksjonalitet for USA.
 
 Linjene på siden **Bankkontoavstemming** er delt i to ruter. Ruten **Bankkontoutdragslinjer** viser importerte banktransaksjoner eller poster med utestående betalinger. Ruten **Bankkontoposter** viser postene i den interne bankkontoen.
 
@@ -77,31 +77,44 @@ Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[p
 1. På siden **Bankkontoavstemming** velger du handlingen **Foreslå linjer**.
 2. I feltet **Startdato** angir du den første bokføringsdatoen postene skal avstemmes for.
 3. I feltet **Sluttdato** angir du den siste bokføringsdatoen postene skal avstemmes for.
-4. Hvis du vil foreslå sjekkposter i stedet for bankkontoposter, merker du av for **Ta med sjekker**.
-5. Velg **OK**.
+
+> [!NOTE]
+> Vanligvis vil sluttdatoen være lik den datoen som er angitt i feltet **Utdragsdato**. Hvis du imidlertid vil avstemme transaksjoner bare for en del av en periode, kan du angi en annen sluttdato. 
+
+1. Hvis du vil foreslå sjekkposter i stedet for bankkontoposter, merker du av for **Ta med sjekker**.
+1. Velg **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Avstemme bankkontoutdragslinjer med bankkontoposter automatisk
 
 Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet basert på samsvar av tekst på en bankkontoutdragslinje (venstre rute) med tekst på én eller flere bankkontoposter (høyre rute). Merk at du kan overskrive foreslått automatisk samsvar, og du kan velge ikke å bruke automatisk samsvar i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoutdragslinjer med bankkontoposter manuelt](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
+Automatisk avstemming avstemmer oppføringer basert på et sett med regler for betalingsprogram. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md). Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemmingsdetaljer**. Detaljene vil for eksempel omfatte navnene på feltene som inneholder samsvarende verdier.  
+
 1. På siden **Bankkontoavstemming** velger du handlingen **Avstem automatisk**. Siden **Avstem bankposter** åpnes.
 2. I feltet **Toleranse for transaksjonsdato (dager)** angir du antall dager før og etter bankkontopostens bokføringsdato som funksjonen søker innenfor etter samsvarende transaksjonsdatoer i bankkontoutdraget.
 
-    Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-funksjonen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.
+    Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-handlingen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.
 3. Velg **OK**.
 
     Alle bankkontoutdragslinjer og bankkontoposter som kan avstemmes endres til grønn skrift, og det er merket av for **Utlignet**.
 4. Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Avstemme bankkontoutdragslinjer med bankkontoposter manuelt
+> [!TIP]
+> Du kan bruke en blanding av manuell og automatisk avstemming. Hvis du har avstemt poster manuelt, vil ikke automatisk avstemming overskrive valgene dine. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Avstemme bankkontoutdragslinjer med bankkontoposter manuelt
 1. Velg en ikke-avstemt linje i ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming**.
 2. I ruten **Bankkontoposter** velger du én eller flere bankkontoposter som kan avstemmes med den valgte bankkontoutdragslinjen. Hvis du vil velge flere linjer, trykker du og holder nede Ctrl-tasten.
+
+   > [!TIP]
+   > Du kan også manuelt tilordne flere bankkontoutdragslinjer til én bankkontopost. Dette kan for eksempel være nyttig hvis bankbeløpet inneholder flere betalingsmåter, for eksempel kredittkort fra ulike utstedere, og banken viser de som separate linjer. 
 3. Velg handlingen **Avstem manuelt**.
 
     De valgte bankoppgavelinjene og de valgte bankkontopostene endres til grønn skrift, og det er merket av for **Utlignet** i ruten til høyre.
 4. Gjenta trinn 1 til 3 for alle bankkontoutdragslinjene som ikke er avstemt.
-5. Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**.
+
+> [!TIP]
+> Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**. Hvis du har tilordnet flere bankkontoutdragslinjer til en post og du må fjerne en eller flere av avstemte linjer, fjernes alle de manuelle postene for posten når du velger **Fjern avstemming**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Opprette manglende poster for utligning av bankkontoutdragslinjer med
 

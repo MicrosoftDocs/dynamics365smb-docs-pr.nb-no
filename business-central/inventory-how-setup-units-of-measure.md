@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435550"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588579"
 ---
 # <a name="set-up-units-of-measure"></a>Definere enheter
 
@@ -27,6 +27,8 @@ Du kan definere flere enheter for en vare slik at du kan tilordne enheter til va
 - Tilordne alternative enheter til kjøps-, produksjons- eller salgsdokumenter for å angi hvor mange enheter av lagerenheter du håndterer samtidig i disse prosessene. Du kan for eksempel kjøpe varen på paller, og bare bruke enkeltdeler i produksjonen.
 
 Hvis en vare lagerføres i én enhet, men produseres i en annen, opprettes en produksjonsordre som bruker en produksjonsbunkeenhet til å beregne riktig antall komponenter mens kjørselen **Forny produksjonsordre** kjøres. Ett eksempel på beregning med produksjonsbunkeenhet er når en produsert vare lagerføres i stykker, men produseres i tonn. Hvis du vil ha mer informasjon, kan du se [Arbeide med produksjonsbunkeenhet](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Et annet verktøy som gjør det enklere å arbeide med flere enheter for varer, er muligheten til å angi en avrundingspresisjon for lagerenheter. Ved å angi en avrundingspresisjon får du veiledning om hva noen skal angi for en gitt forretningsprosess, og bidrar til å redusere avrundingsproblemer. Når du bruker alternative enheter, bidrar verdien i feltet **Antall per enhet** til å beregne antallet i lagerenheten, noe som kan føre til avrundingsproblemer. La oss for eksempel anta at du mottar en boks som inneholder seks varer. Når boksen ankommer til lageret, oppdager du at én av de seks varene mangler. Du bestemmer deg for ikke å bokføre mottaket av én boks, men i stedet endre antallet mottatt til fem av seks stykker. Det vil føre til mottak av 4,99998 stykker, i stedet for fem. På siden **Enheter** kan du angi en verdi som konverterer antallet til et tall som er enklere å forstå, i feltet **Avrundingspresisjon for antall**. Hvis du fortsetter med eksemplet, setter vi inn **1** i feltet for å runde opp til fem stykker.
 
 ## <a name="to-set-up-units-of-measure"></a>Slik definerer du enheter
 
@@ -57,11 +59,11 @@ Når du registrerer en ny vare, kan du velge lagerenheten fra oversikten over en
 
     I **Lagerenhet**-feltet nederst i vinduet, kan du vise eller endre varens lagerenhet. Du kan også endre lagerenheten i **Lagerenhet**-feltet på varekortet. På **Enheter**-siden må lagerenheter ha verdien **1** i feltet **Antall per enhet**.
 
-Du kan nå bruke de alternative enhetene i kjøps-, produksjons-og salgsdokumenter, som beskrevet i delen [Angi en standardenhetskode for kjøpstransaksjoner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Du kan nå bruke de alternative enhetene på kjøps-, produksjons- og salgsdokumenter. Hvis du vil ha mer informasjon, kan du se [Angi en standardenhetskode for kjøpstransaksjoner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Slik definerer du enhetsoversettelser
 
-Når du selger varer til kunder i utlandet, kan du angi enheten på kundens språk. Dette gjør du etter at du har definert de enhetsoversettelsene du trenger.
+Når du selger varer til kunder i utlandet, kan du angi enheten på kundens språk. Dette kan du gjøre ved å angi oversettelser for enheter.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Enheter** og velg deretter den relaterte koblingen.
 2. Velg koden du vil definere oversettelser for, og velg deretter handlingen **Oversettelser**.

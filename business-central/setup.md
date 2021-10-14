@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441425"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588479"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikkelen gir en oversikt over hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] for organisasjonen.  
 
 Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
 
@@ -77,6 +77,7 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Hurtigstart for Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

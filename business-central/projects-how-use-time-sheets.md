@@ -1,5 +1,5 @@
 ---
-title: Arbeid med timelister for prosjekter
+title: Bruke timelister for prosjekter
 description: Beskriver hvordan du oppretter en timeliste for et prosjekt, kopierer planleggingslinjer til den, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440644"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588835"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Bruke timelister for prosjekter
+# <a name="use-time-sheets-for-projects"></a>Bruke timelister for prosjekter
 
 Du bruker kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Du må ha tillatelser for å kunne opprette timelister.
 
@@ -25,9 +25,12 @@ Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste. Dermed trenge
 
 Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjekt- eller ressurskladden.
 
-Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister. Hvis du vil ha mer informasjon, kan du se [Definere timelister](projects-how-setup-time-sheets.md).
+Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister. Hvis du vil ha mer informasjon, kan du se [Definere timelister](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Slik oppretter du en timeliste
+> [!TIP]
+> Fra og med lanseringsbølge 2 for 2021 kan du administrere tildelte timelister på en mobil enhet. Det kan imidlertid hende at administratoren må aktivere funksjonen **Funksjonsoppdatering: ny timelistefunksjon** på siden [Funksjonsbehandling](https://businesscentral.dynamics.com/?page=2610) for å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Definer timelister](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Slik oppretter du timelister
 
 Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.
 

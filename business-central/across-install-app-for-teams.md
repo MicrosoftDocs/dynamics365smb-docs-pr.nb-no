@@ -10,18 +10,21 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2c12ea5e956b9bfdaeb2c464ac74684b630c48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440853"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588179"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for [Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med web-, skrivebords- eller mobilappen for Teams.
+
+> [!NOTE]
+> Administratoren har kanskje ordnet det slik at appen installeres automatisk. Hvis du vil kontrollere om appen er installert, åpner du Teams og velger **Apper**. Søk etter **Business Central**, og velg den når du finner den. Hvis du ser **Åpne** på siden **Business Central**, er appen allerede installert.  
 
 ## <a name="prerequisites"></a>Forutsetninger
 
@@ -35,9 +38,9 @@ I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prod_short](inclu
 
 ## <a name="add-the-business-central-app-to-teams"></a>Legge til Business Central-appen i Teams
 
-Du kan installere Business Central-appen på to måter:
+Du kan installere Business Central-appen på tre måter:
 
-**Alternativ 1**
+**Alternativ 1: Fra en kobling**
 
 Dette alternativet er den raskeste måten å installere appen på.
 
@@ -49,7 +52,7 @@ Dette alternativet er den raskeste måten å installere appen på.
 
 3. Velg **Legg til**.
 
-**Alternativ 2**
+**Alternativ 2: Fra Teams**
 
 1. Åpne og logg på Teams.
 2. Velg **Apper** på venstre side.
@@ -59,6 +62,13 @@ Dette alternativet er den raskeste måten å installere appen på.
 
 > [!NOTE]
 > Du vil kanskje bli bedt om å logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Velg koblingen **Logg på**, og følg instruksjonene for å skrive inn påloggingsnavn og passord for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+**Alternativ 3: Fra Business Central**
+
+1. Åpne Business Central.
+2. Velg ikonet ![Forstørrelsesglass som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Skaff deg Business Central-appen for Teams**, og velg deretter den relaterte koblingen.  
+3. Velg **Hent appen fra butikken**.
+4. Vent til Teams åpnes, så vises Business Central-appen. Velg deretter **Legg til**.
 
 ## <a name="next-step"></a>Neste trinn
 

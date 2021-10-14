@@ -1,5 +1,5 @@
 ---
-title: Gjennomgang – beregne varer i arbeid for et prosjekt | Microsoft-dokumentasjon
+title: Gjennomgang – beregne varer i arbeid for et prosjekt
 description: Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445229"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588104"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
@@ -52,7 +52,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 |Felt|Beskrivelse|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|La stå tomt hvis jobb-aktiviteten er en del av en gruppe med aktiviteter.|  
+|**\<blank\>**|La stå tomt hvis jobb-aktiviteten er en del av en gruppe med aktiviteter.|  
 |**I alt**|Definerer området eller gruppen med aktiviteter som er inkludert i beregningen av VIA og føringer. Alle prosjektoppgaver med **Prosjektoppgavetype** satt til **Bokføring** i gruppen, tas med i VIA-summen, med mindre feltet **VIA-sum** er satt til **Utelatt**.|  
 |**Utelatt**|Gjelder bare for en oppgave der **Prosjektoppgavetype** er **Bokføring**. Oppgaven er ikke inkludert ved beregning av VIA og føring.|  
 

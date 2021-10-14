@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783512"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588810"
 ---
 # <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
 Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
@@ -74,6 +74,14 @@ Oppsettet bestemmer når postering skjer. Hvis du for eksempel berørt tidsbereg
 
 ## <a name="copying-posting-setup-lines"></a>Kopiere linjer for bokføringsoppsett
 Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se på siden Generelt bokføringsoppsett. Dette kan innebære mye dataregistrering for å definere det generelle bokføringsoppsettet for firmaet. Selv om det kan være mange ulike kombinasjoner av bokføringsgrupper for firma og vare, kan de ulike kombinasjonene likevel bokføre til de samme finanskontoene. Du kan begrense mengden manuell registrering ved kopiere finanskontoene fra en eksisterende linje på siden **Generelt bokføringsoppsett**.
+
+## <a name="troubleshooting-posting-group-errors"></a>Feilsøking av feil med bokføringsgruppe
+Bokføringsgrupper er en av de mer avanserte konseptene som skal konfigureres i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis de ikke er konfigurer riktig, kan det oppstå feil når du bokfører dokumenter eller kladdelinjer. Disse feilene oppstår for eksempel vanligvis av en feil i forbindelse med hvordan finanskonti tilordnes, eller hvordan bokføringsgrupper kombineres.
+
+Når noe er feil, viser [!INCLUDE[prod_short](includes/prod_short.md)] siden **Feilmeldinger**. Siden **Feilmeldinger** kan gjøre det enklere å identifisere og løse problemet. Siden gir en beskrivelse av feilen som henviser til bokføringsgruppeoppsettet som krever oppmerksomhet. Meldingen kan for eksempel være «Konto for salgsforskudd mangler i et generelt bokføringsoppsett». Det finnes også en kobling for å åpne siden som er kilden til problemet, slik at du raskt kan løse det.  
+
+> [!NOTE]
+> Feilbehandlingen som er beskrevet ovenfor, er ikke tilgjengelig for vare, ressurs, ansatt og aktivakladder, eller for finanskontoer som er lagt til i lokale versjoner av bokføringsgrupper.
 
 ## <a name="see-also"></a>Se også
 [Finans og kontoplanen](finance-general-ledger.md)  

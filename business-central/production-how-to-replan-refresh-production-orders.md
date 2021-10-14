@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5e8543d64c1ecfea1f554f13f753743684d1f463
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440381"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589235"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Planlegge på nytt eller fornye produksjonsordrer direkte
 Funksjonen **Planlegg på nytt** for produksjonsordrer brukes vanligvis etter at du har lagt til eller endret komponenter som utgjør underliggende produksjonsordrer. Funksjonen beregner endringer som utføres i komponenter og rutelinjer, og den inkluderer varer på lavere produksjonsstykklistenivåer. For disse varene genereres det kanskje nye produksjonsordrer.  
@@ -34,22 +34,23 @@ Du kan enten sette inn produksjonsordrelinjene manuelt, eller bruke funksjonen s
 > [!NOTE]
 > Hvis du bruker oppdateringsfunksjonen til å beregne produksjonsordrelinjer på nytt, slettes de gamle produksjonsordrelinjene og nye beregnes.  
 
-## <a name="to-replan-a-production-order"></a>Slik planlegger du en produksjonsordre på nytt  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
-2.  Åpne produksjonsordren du vil planlegge på nytt.  
-3.  På hurtigfanen **Linjer** velger du **Linjer**-handlingen, og deretter **Komponenter**-handlingen.  
-4.  Legg til en komponent som er en produsert vare eller et halvfabrikata.  
-5.  Velg handlingen **Planlegg på nytt** fra produksjonsordren.  
+## <a name="to-replan-a-production-order"></a>Slik planlegger du en produksjonsordre på nytt
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
+2. Åpne produksjonsordren du vil planlegge på nytt.  
+3. På hurtigfanen **Linjer** velger du **Linjer**-handlingen, og deretter **Komponenter**-handlingen.  
+4. Legg til en komponent som er en produsert vare eller et halvfabrikata.  
+5. Velg handlingen **Planlegg på nytt** fra produksjonsordren.  
 
     På siden **Planlegg prod.ordre på nytt** definerer du hva som skal planlegges på nytt, og hvordan.  
-6.  Velg ett av følgende alternativer i **Planleggingsretning**-feltet.  
+6. Velg ett av følgende alternativer i **Planleggingsretning**-feltet.  
 
-    |Alternativ|Beskrivelse|  
-    |----------------------------------|---------------------------------------|  
-    |**Tilbake**|Beregner operasjonssekvensen bakover fra tidligste mulige sluttdato, definert av forfallsdato og/eller andre tidsplanlagte ordrer, til seneste mulige startdato. **Obs!** Dette standardalternativet er relevant i de fleste tilfeller.|  
-    |**Fremover**|Beregner operasjonssekvensen fremover fra tidligste reelle startdato, definert av forfallsdato og/eller andre tidsplanlagte ordrer, til tidligste reelle sluttdato. **Obs!** Dette alternativet er bare relevant for hasteordrer.|  
+    | Alternativ | Beskrivelse |
+    |--|--|
+    | **Tilbake** | Beregner operasjonssekvensen bakover fra tidligste mulige sluttdato, definert av forfallsdato og/eller andre tidsplanlagte ordrer, til seneste mulige startdato. **Obs!** Dette standardalternativet er relevant i de fleste tilfeller. |
+    | **Fremover** | Beregner operasjonssekvensen fremover fra tidligste reelle startdato, definert av forfallsdato og/eller andre tidsplanlagte ordrer, til tidligste reelle sluttdato. **Obs!** Dette alternativet er bare relevant for hasteordrer. |
 
-7.  I **Plan**-feltet velger du om du vil beregne produksjonskrav for produserte varer i produksjonsstykklisten, som følger:  
+7. I **Plan**-feltet velger du om du vil beregne produksjonskrav for produserte varer i produksjonsstykklisten, som følger:  
 
     |Alternativ|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
@@ -57,20 +58,21 @@ Du kan enten sette inn produksjonsordrelinjene manuelt, eller bruke funksjonen s
     |**Ett nivå**|Planlegg for produksjonsbehov på første nivå. Produksjonsordrer på første nivåer kan opprettes.|  
     |**Alle nivåer**|Planlegg for produksjonsbehov på alle nivåer. Produksjonsordrer på alle nivåer kan opprettes.|  
 
-8.  Velg **Ett nivå**, og klikk **OK**-knappen for å planlegge produksjonsorden på nytt og beregne og opprette en ny underliggende produksjonsordre for halvfabrikatet, hvis ikke det er fullstendig tilgjengelig.  
+8. Velg **Ett nivå**, og klikk **OK**-knappen for å planlegge produksjonsorden på nytt og beregne og opprette en ny underliggende produksjonsordre for halvfabrikatet, hvis ikke det er fullstendig tilgjengelig.  
 
 > [!NOTE]  
->  Endringer som er implementert ved hjelp av funksjonen **Planlegg på nytt**, vil etter stor sannsynlighet føre til endringer i produksjonsordrens kapasitetsbehov, og du må derfor kanskje tidsplanlegge operasjoner på nytt senere.  
+> Endringer som er implementert ved hjelp av funksjonen **Planlegg på nytt**, vil etter stor sannsynlighet føre til endringer i produksjonsordrens kapasitetsbehov, og du må derfor kanskje tidsplanlegge operasjoner på nytt senere.  
 
-## <a name="to-refresh-a-production-order"></a>Slik fornyer du en produksjonsordre  
+## <a name="to-refresh-a-production-order"></a>Slik fornyer du en produksjonsordre
+
 Hvis du har endret produksjonsordrelinjer, komponenter eller rutelinjer, må du i tillegg fornye informasjonen i produksjonsordren. I fremgangsmåten nedenfor beregnes komponentene for en fast planlagt produksjonsordre. Trinnene er de samme for rutelinjer.
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagt prod.ordre** og velg den relaterte koblingen.  
-2.  Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonsordrer](production-how-to-create-production-orders.md).  
-3.  Velg handlingen **Oppdater**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagt prod.ordre** og velg den relaterte koblingen.  
+2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonsordrer](production-how-to-create-production-orders.md).  
+3. Velg handlingen **Oppdater**.
 4. På siden **Forny produksjonsordre** velger du ett av følgende valg:
 
-    |Alternativ||Description|  
+    |Felt|Alternativ|Beskrivelse|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planleggingsretning**|**Fremover**|Planlegging begynner fra startdatoen og fortsetter fremover til ferdigdatoen. Du må fylle inn startdatoen for å bruke dette alternativet.|  
     ||**Bakover**|Planlegging begynner fra sluttdatoen og fortsetter bakover til startdatoen.|  
@@ -82,9 +84,10 @@ Hvis du har endret produksjonsordrelinjer, komponenter eller rutelinjer, må du 
 5. Velg **OK**-knappen for å bekrefte valget. Nå er produksjonsordrelinjene beregnet.
 
 > [!NOTE]  
->  Når du beregner produksjonsordrekomponenter, slettes tidligere endringer i komponentene.
+> Når du beregner produksjonsordrekomponenter, slettes tidligere endringer i komponentene.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Planlegging](production-planning.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)    

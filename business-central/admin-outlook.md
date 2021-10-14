@@ -1,74 +1,123 @@
 ---
-title: Bruke Business Central med Outlook | Microsoft-dokumentasjon
-description: Denne tjenesten er tett integrert med Microsoft 365, slik at du kan behandle alle forretningssamhandlinger og e-postmeldinger med kunder og leverandører direkte i Outlook.
-author: edupont04
+title: Hent Business Central-tillegget for Outlook
+description: Finn ut hvordan du installerer Business Central-tillegget for Outlook for organisasjonen eller for eget bruk.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 2c8746098081a8f0b961f6ab2efd11c491104acc
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.date: 08/13/2021
+ms.author: jswymer
+ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115389"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587943"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruke Business Central som forretningsinnboksen i Outlook
+# <a name="get-the-business-central-add-in-for-outlook"></a>Hent Business Central-tillegget for Outlook
 
-[!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å behandle forretningssamhandlinger med kunder og leverandører, direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene for Outlook kan du se økonomiske data relatert til kunder og leverandører, i tillegg til å opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
+Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du behandle forretningssamhandlinger med kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillegget kan du se økonomiske data knyttet til kunder og leverandører. Du kan også opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
-## <a name="getting-the-add-in"></a>Få tillegget
-Det er enkelt å begynne med [!INCLUDE[prod_short](includes/prod_short.md)]-tillegget til Outlook. I den assisterte oppsettsveiledningen **Konfigurer bedriftsinnboksen i Outlook** kan du definere forbindelsen for deg selv eller for organisasjonen hvis organisasjonen bruker Microsoft 365. Angi ganske enkelt Microsoft 365-brukernavnet og -passordet, hvis du blir bedt om det, og fortell oss om du ønsker å motta et eksempel på en e-postmelding. [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene legges deretter automatisk til i Outlook. Hvis du vil ha mer informasjon, kan du se [Minimumskrav for Outlook](product-requirements.md#outlook).  
+Du kan få tak i Business Central-tillegget for Outlook installert på to måter, avhengig av hvilken rolle du har i organisasjonen:
 
-Deretter, når du åpner Outlook, vil du se en e-postmelding fra *Dynamics 365 Business Central-admin*. De nye tilleggene blir lagt til Outlook-båndet, og i leseren kan du se tillegget [!INCLUDE[prod_short](includes/prod_short.md)] like over eller under brødteksten i e-postmeldingen. Tilleggene oppdateres med jevne mellomrom, og du vil få melding om at en ny versjon er klar for deg i Outlook.  
+- Som en Microsoft 365-administrator bruker du *Sentralisert distribusjon* til å installere tillegget automatisk for hele organisasjonen, grupper eller bestemte brukere.
 
-> [!TIP]
-> Hvis du bruker den nye Outlook på nettet, kan [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene være skjult under **Flere handlinger**. Hvis du bruker tillegget ofte, kan du feste det slik at det alltid vises umiddelbart. Hvis du vil ha mer informasjon, se [Bruke tillegg i Outlook på Internett](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+- Som en hvilken som helst bruker installerer du tillegget for eget bruk, hvis administratoren ikke allerede har distribuert det.
 
-Hvis du arbeider med mer enn ett [!INCLUDE[prod_short](includes/prod_short.md)] selskap, kan du enkelt bytte mellom selskaper i Outlook. Velg **Flere handlinger** på handlingsfeltet til tillegget, og deretter kan du se alternativet for bytte mellom selskaper.  
+## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tillegget for Outlook
 
-<!--TEMP-->
+Business Central-tillegget for Outlook består av to mindre tillegg:
+
+- Innsikt for kontakter
+
+    Dette tillegget gir brukere [!INCLUDE[prod_short](includes/prod_short.md)]-kunde- eller -leverandørinformasjon i e-poster og kalenderavtaler i Outlook. Du kan også opprette og sende [!INCLUDE[prod_short](includes/prod_short.md)]-forretningsdokumenter, for eksempel tilbud og fakturaer, til en kontakt. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+
+- Dokumentvisning
+
+    Når en e-post henviser til et forretningsdokumentnummer i brødteksten i e-posten, gir dette tillegget en direkte, innebygd kobling fra brødteksten i e-posten til det aktuelle forretningsdokumentet i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+Hvis du vil ha mer informasjon om hva du gjør med tilleggene, kan du se [Bruk av Business Central som innboks for bedriften i Outlook](work-outlook-addin.md).
+
+Hvert tillegg leveres som en XML-fil, kalt et *manifest*, som må installeres i Outlook av alle som ønsker denne funksjonaliteten. Disse filene beskriver hvordan du aktiverer tilleggene og kobler til Business Central når de brukes i Outlook. Arbeid med disse filene utføres vanligvis en administrator. Som vanlig bruker trenger du i de fleste tilfeller ikke å håndtere disse filene direkte. Administratoren konfigurerer tillegget slik at det installeres automatisk, eller du bruker det innebygde assisterte oppsettet til å håndtere installasjonen.
+
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuer tillegget ved hjelp av sentralisert distribusjon som en administrator
+
+Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft 365 som du bruker til automatisk å installere tillegg i brukernes Office-apper, for eksempel Outlook. Det er den anbefalte måten administratorer kan distribuere for Office-tillegg til brukere og grupper i organisasjonen.
+
 > [!NOTE]
-> Bytte mellom firmaer krever [!INCLUDE[prod_short](includes/prod_short.md)] 2019 utgivelsesplan 2 eller nyere, som annonsert i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> For Business Central on-premises kan du se [Konfigurer tillegget for Outlook-integrering med Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrasjonsinnholdet (bare engelsk).
 
-Enkelte selskaper som bruker Microsoft 365, begrenser brukernes tillatelser til å distribuere tillegg. Så du må kontrollere at du har et Microsoft 365-abonnement som inkluderer e-post og lar deg distribuere tillegg. Hvis du vil prøve tillegget likevel, kan du [prøve Microsoft 365 gratis](https://www.microsoft.com/microsoft-365/try).  
+### <a name="prerequisites"></a>Forutsetninger
 
-## <a name="using-the-contact-insights-add-in"></a>Bruke tillegget Innsikt for kontakter
-La oss si at du får en e-post fra en kunde som ønsker å få et tilbud på noen elementer. Du kan åpne [!INCLUDE[prod_short](includes/prod_short.md)]-tillegget direkte i Outlook, som gjenkjenner avsenderen som kunde, og åpner kundekortet for firmaet. Fra dette instrumentbordet kan du se oversiktsinformasjon for kunden, samt vise flere detaljer om bestemte dokumenter. Du kan også vise detaljert informasjon om salgshistorikken for kunden. Hvis det er en ny kontakt, kan du opprette dem som en ny kunde i [!INCLUDE[prod_short](includes/prod_short.md)] uten å forlate Outlook.  
+- Et Microsoft 365-abonnement  
+- Brukere er tilordnet en Microsoft 365-lisens  
+- Microsoft 365-kontoen har rollen *Global administrator* eller *Exchange-administrator*
 
-I tillegget kan du opprette et tilbud og sende det tilbake til kunden uten å forlate Outlook. All informasjon du trenger for å sende tilbudet er tilgjengelig i innboksen for virksomheten i Outlook.  
-Når du har angitt dataene, kan du publisere tilbudet. Du kan deretter sende det i e-post. [!INCLUDE[prod_short](includes/prod_short.md)] genererer en PDF-fil med tilbudet og legger det ved i e-postmeldingen som du kladder i tillegget.  
+### <a name="deploy-the-add-in"></a>Distribuer tillegget
 
-På samme måte, hvis du får en e-post fra en leverandør, kan du bruke tillegget til å arbeide med leverandører og kjøpsfakturaer.  
+1. I Business Central velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen.
+2. Velg **Outlook-tillegget Sentralisert distribusjon** for å starte veiledningen for assistert oppsett.
+3. Gå gjennom første side og velg **Neste** for å åpne siden for å laste ned tilleggene.
+4. I **Distribuer**-kolonnen merker du av for tilleggene du vil distribuere, og deretter klikker du på **Last ned og fortsett**.
 
-Noen ganger vil du vise flere felt som du kan se i tillegget, for eksempel når du vil fylle ut linjene i en faktura. Hvis du vil gi deg selv litt mer plass å arbeide med, kan du åpne tillegget på en egen side. Det er fortsatt en del av Outlook, men du har mer plass. Når du angir dataene for dokumentet i vinduet, lagres endringene automatisk. Når du er ferdig å skrive inn data for dokumentet, kan du velge **OK**-knappen. Når du velger tilleggsrammen i Outlook, oppdateres dokumentet automatisk med endringene du gjorde i vinduet.  
+    En fil med navnet *OutlookAddins.zip* lastes ned på enheten.
 
-## <a name="creating-invoices-from-your-meeting-appointments"></a>Opprette fakturaer fra møteavtaler
-Noen bedrifter registrere alle fakturerbar avtaler i Outlook-kalenderen. Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette fakturaen for kunden fra kalenderelementet: Åpne avtalen, og du kan åpne [!INCLUDE[prod_short](includes/prod_short.md)]-tillegget, søke etter eksisterende informasjon eller opprette en faktura eller et annet salgsdokument rett.  
+5. På dette tidspunktet er du ferdig med arbeidet du må gjøre i Business Central, slik at du kan velge **Ferdig**.
 
-## <a name="doing-quick-document-lookup"></a>Utføre hurtig dokumentoppslag
-Tillegget for [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentkoblinger gir deg hurtig tilgang til dokumenter som er nevnt i e-postmeldinger. Tillegget er tilgjengelig for en e-postmelding hvis et bilagsnummer gjenkjennes i brødteksten i meldingen. Åpning av tillegget gir hurtig tilgang til dokumentet.  
+   >[!TIP]
+   > Før du velger **Neste**, velger du **Gå til Microsoft 365 (åpnes i et nytt vindu)**-kobling for å åpne og logge på administrasjonssenteret for Microsoft 365 i et nytt nettleservindu. Du må likevel gå til administrasjonssenteret for Microsoft 365 i et senere trinn.
 
-Hvis du for eksempel mottar en e-postmelding som nevner teksten *S-QUO100*, identifiserer [!INCLUDE[prod_short](includes/prod_short.md)] dette som et tilbud, slik at du kan åpne dokumentet i Outlook. I Outlook velger du **Dokumentkoblinger**-knappen like over brødteksten i e-postmeldingen. I Outlook Web App velger du *S-QUO1001*-teksten i brødteksten i e-postmeldingen.  
+6. Gå til mappen der OutlookAddins.zip ble lastet ned, og pakk ut filene **Kontaktinnsikt.xml** og **Dokumentvisning.xml** fra .zip-filen til en mappe du velger.
 
-I Dokumentkoblinger-tillegget kan du endre og utføre handlinger med dokumentet, på samme måte som i [!INCLUDE[prod_short](includes/prod_short.md)].
+    Hvis du vil ha mer informasjon, kan du se [Pakk og pakk ut filer og mapper](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+7. Logg på administrasjonssenteret for Microsoft 365, og gå til [Integrerte apper](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-## <a name="adding-the-add-ins-manually"></a>Legge til tillegg manuelt
-I noen tilfeller tilleggene ikke få legges til automatisk i Outlook. Selv om du eller en kollega kjørte assistert installasjonsveiledningen på vegne av selskapet, [!INCLUDE[prod_short](includes/prod_short.md)] kanskje ikke vises i Outlook. Hvis du opplever dette problemet, kan du legge til [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene manuelt.  
+8. Velg **Last opp egendefinerte apper**.
+9. På siden **Last opp apper som skal distribueres** velger du **Last opp manifestfil (XML) fra enhet** > **Velg fil**.
+10. Velg ett av tilleggsfilene du pakket ut tidligere, for eksempel **Innholdsinnsikt.xml**.
+11. Følg instruksjonene for å tilordne brukere og distribuere tillegget.
+12. Gjenta trinn 9 til 11 for den andre tilleggsfilen hvis du vil.
 
-Først må du kontrollere at du har tilgang til tilleggene i Microsoft 365-kontoen. Du kan ganske enkelt åpne din Outlook i en nettleser, åpne en melding, velge **Flere handlinger** (...) øverst i meldingen, og deretter velge **Hent tillegg** nederst i listen. Dette åpner siden **Tillegg for Outlook**, der du kan aktivere [!INCLUDE[prod_short](includes/prod_short.md)] for Outlook. Deretter, når du går tilbake til Outlook, [!INCLUDE[prod_short](includes/prod_short.md)] skal være tilgjengelige.  
+> [!IMPORTANT]
+> Det vises en grønn hake når tillegget er distribuert til administrasjonssenteret. Det kan imidlertid ta opptil 24 timer før brukere ser tillegget i Outlook-appen. Det kan også hende at brukerne må starte Outlook på nytt.
 
-På samme måte som i Outlook-skrivebordsklienten kan du bekrefte at [!INCLUDE[prod_short](includes/prod_short.md)] er oppført på siden **Hent tillegg**.  
+Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
-I begge tilfeller, hvis [!INCLUDE[prod_short](includes/prod_short.md)] fremdeles ikke er tilgjengelig, må du få tilleggsmanifestfilene. Hvis du vil ha mer informasjon, kontakt systemansvarlig for Microsoft 365.
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer tillegget for eget bruk
 
-## <a name="using-other-email-accounts"></a>Bruke andre e-postkontoer
+Hvis organisasjonen tillater det, kan du installere Business Central-tillegget bare for deg selv. Kontakt administratoren hvis du ikke er sikker.
 
-Tilleggene er utformet for bruk med Microsoft 365. Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vet administratoren om du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)]-tilleggene i Outlook. Hvis du vil ha mer informasjon, kan du se [Hvilken e-postadresse kan jeg bruke med [!INCLUDE[prod_short](includes/prod_short.md)]?](/dynamics365/business-central/across-faq#email), artikkelen [Funksjoner som krever bestemte forhold](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og delen [Hvorfor fungerer ikke Outlook-tillegget for mine brukere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i Vanlige spørsmål (generelt) i administrasjonsinnholdet.  
+1. I Business Central går du til ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Hent Outlook-tillegget**. Deretter velger du relatert kobling.
+2. Les siden og velg **Neste** når du er klar.
+3. Hvis du vil motta en velkomst-e-postmelding fra Business Central med oversikt over bruken av tillegget, aktiverer du **Send eksempel-e-postmelding**.
+4. Velg **Fullfør** for å fullføre installasjonen.
+
+Business Central kobles til e-postserveren og installerer tillegget i Outlook. Dette tar ikke lang tid. Du er nå klar til å begynne å bruke tillegget i Outlook.
+
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>For Business Central lokalt
+
+Hvis du bruker Business Central on-premises, kan det være litt annerledes å installere tillegget.
+
+1. I Business Central går du til ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Hent Outlook-tillegget**. Deretter velger du relatert kobling.
+2. Les siden og velg **Neste** når du er klar.
+3. Gjør et av følgende, avhengig av hvilken side du ser:
+
+    - Hvis du ser knappen **Installer i min Outlook**, velger du den, og du er ferdig.
+    - Hvis du ser **Neste**-knapp, velger du den. På neste side, hvis du vil motta en velkomst-e-postmelding fra Business Central med oversikt over bruken av tillegget, aktiverer du **Send eksempel-e-postmelding**. Deretter klikker du på **Fullfør** og du er ferdig.
+    - Hvis du ser **Last ned tillegg**-knappen, velger du det, og deretter går du til neste trinn.
+4. Når du velger **Last ned tillegg**, lastes det ned en fil med navnet *OutlookAddins.zip* på enheten. Filen vises øverst i nettleseren.
+
+   Gå til mappen der OutlookAddins.zip ble lastet ned, og pakk ut filene **Kontaktinnsikt.xml** og **Dokumentvisning.xml** fra .zip-filen til en mappe du velger. Hvis du vil ha mer informasjon om hvordan du pakker ut filer, kan du se [Pakk og pakk ut filer og mapper](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+
+5. Åpne Outlook og velg **Hent tillegg** fra båndet. Hvis du bruker Outlook på nettet, velger du rullegardinmenyen for en ny eller eksisterende e-postmelding, og deretter velger du **Hent tillegg**.
+6. Velg **Mine tillegg** > **Legg til et egendefinert tillegg** > **Legg til fra en fil**.
+7. Velg en av .xml-filene du pakket ut, for eksempel **Kontaktinnsikt.xml**, og velg deretter **Åpne** > **Installer**.
+8. Gjenta trinn 6 og 7 for den andre .xml-filen hvis du lastet den ned.
+
+Du er nå klar til å begynne å bruke tillegget i Outlook.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

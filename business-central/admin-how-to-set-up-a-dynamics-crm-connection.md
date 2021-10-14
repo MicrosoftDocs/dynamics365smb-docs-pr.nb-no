@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440544"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587762"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Koble til Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Tilpass samsvarsbasert kobling
+
+Fra og med lanseringsbølge 2 for 2021 kan du koble poster i [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] basert på samsvarskriterier som er definert av administratoren.  
+
+Algoritmen for samsvarende poster kan startes fra følgende steder i [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Vis sider som viser poster som er synkronisert med [!INCLUDE [cds_long_md](includes/cds_long_md.md)], for eksempel sidene Kunder og Varer.  
+
+    Velg flere poster, og velg deretter **Relatert**-handling, velg **Dataverse**, velg **Kobling** og velg deretter lik **Samsvartbasert kobling**.
+
+    Når den samsvarsbaserte koblingsprosessen startes fra en hoveddatakilde, blir en koblingsjobb planlagt rett etter at du har valgt koblingskriteriene.  
+* Siden **Gjennomgang av full synkronisering for Dataverse**.  
+
+    Når den fullstendige synkroniseringsprosessen oppdager at du har poster som ikke er koblet, både i [!INCLUDE [prod_short](includes/prod_short.md)] og i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vises en **Velg koblingskriterier**-kobling for den relevante integreringstabellen.  
+
+    Du kan starte prosessen **Kjør full synkronisering** fra sidene **Tilkoblingsoppsett for Dataverse** og **Tilkoblingsoppsett for Dynamics 365**, og den kan startes som et trinn i den assisterte oppsettveiviseren **Konfigurer en tilkobling til Dataverse** når du velger å fullføre installasjonen og kjøre fullstendig synkronisering på slutten.  
+
+    Når den samsvarsbaserte koblingsprosessen startes fra siden **Gjennomgang av full synkronisering for Dataverse**, blir en koblingsjobb planlagt rett etter at du har fullført oppsettet.  
+* Listen **Tilordninger for integreringstabell**.  
+
+    Velg en tilordning, velg **Kobling**-handlingen, og velg deretter **Samsvarsbasert kobling**.
+
+    Når den samsvarende koblingsprosessen startes fra en tilordning for integreringstabell, kjøres en koblingsjobb for alle ikke-koblede poster i denne tilordningen. Hvis den ble kjørt for et sett med valgte poster fra listen, vil den bare kjøres for de merkede, ikke-koblede postene.
+
+I alle tre tilfeller åpnes siden **Velg koblingskriterier**, slik at du kan definere relevante koblingskriterier. På denne siden tilpasser du koblingen med følgende oppgaver:
+
+* Velg hvilke felter som skal samsvare med [!INCLUDE [prod_short](includes/prod_short.md)]-poster og [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheter, og velg også om samsvaret i det feltet skal ta skille mellom store og små bokstaver.  
+
+* Angi om det skal kjøres en synkronisering etter kobling av poster, og om posten bruker toveistilordning. Velg også hva som skal skje hvis det er konflikter på listen på siden **Løs oppdateringskonflikter**.  
+
+* Prioriter rekkefølgen du søker etter poster i, ved å angi en *samsvarsprioritet* for de relevante tilordningsfeltene. Samsvarsprioritetene gjør at algoritmen søker etter et treff i flere gjentakelser, som angitt i **Samsvarsprioritet**-feltverdiene i stigende rekkefølge. En tom verdi i feltet **Samsvarsprioritet** blir tolket som prioritet 0, slik at felt som har dette verdi fyllet, vurderes først.  
+
+* Angi om det skal opprettes en ny enhetsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)] i tilfelle det ikke finnes unikt, ikke-koblet samsvar ved å bruke samsvarskriteriene. Hvis du vil aktivere denne funksjonen, velger du **Opprett ny hvis det ikke finnes et samsvar**-handling.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Vis resultatene av koblingsjobben
+
+Hvis du vil vise resultatene av koblingsjobben, åpner du siden **Tilordninger for integreringstabell**, velger den relevante tilordningen, velger handlingen **Kobling** og velger handlingen **Logg for koblingsjobb for integrering**.  
+
+Hvis det finnes poster som ikke er koblet, kan du drille ned på verdien i Mislyktes-kolonnen, slik at det åpnes en liste over feil som angir hvorfor postene ikke ble koblet.  
+
+Mislykket kobling skjer ofte i følgende tilfeller:
+
+* Ingen samsvarende kriterier ble definert
+
+    I dette tilfellet kjører du den samsvarsbaserte koblingen på nytt, men husk å definere koblingskriterier.
+
+* Fant ingen treff for flere poster, basert på valgte samsvarende felter
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter.
+
+* Fant flere treff for flere poster, basert på valgte samsvarende felter  
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter.
+
+* Fant ett treff, men den samsvarende posten er allerede koblet med en annen post i [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter, eller undersøker hvorfor [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheten er koblet med den andre posten i [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Hvis du vil ha hjelp til å få en oversikt over fremdriften til koblingen, viser feltet **Koblet til Dataverse** om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhet eller ikke. Du kan filtrere listen over poster som synkroniseres med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] av dette feltet.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Oppgrader tilkoblinger fra Business Central Online for å bruke sertifikatbasert godkjenning
 > [!NOTE]
-> Denne delen er bare relevant for Business Central Online-leiere som kjører på Microsoft. Online-leietakere som kjører på ISV-er, og lokale installasjoner, påvirkes ikke.
+> Denne delen er bare relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-leiere som kjører på Microsoft. Online-leietakere som kjører på ISV-er, og lokale installasjoner, påvirkes ikke.
 
 I april 2022 avskriver [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkjenningstypen (brukernavn/passord). Hvis du vil ha mer informasjon, kan du se [Avskriving av Office365-godkjenningstypen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). I mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] i tillegg bruken av klienthemmelighetsbasert tjeneste-til-tjeneste-godkjenning for online-leietakere og kommer til å kreve bruk av sertifikatbasert tjeneste-til-tjeneste-godkjenning for tilkoblinger til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-nettleietakere som driftes av ISV-er og lokale installasjoner, kan fortsette å bruke klienthemmeliggodkjenning til å koble til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

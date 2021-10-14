@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440669"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589160"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og avinstallere utvidelser i Business Central
 
@@ -75,6 +75,13 @@ Microsoft tilbyr følgende utvidelser:
 * [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)
 * [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
+
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Last opp en per leietaker-utvidelse (PTE)
+
+Du laster opp en PTE med siden **Utvidelsesbehandling**. På siden **Utvidelsesbehandling** går du til **Administrer** og velger **Last opp utvidelse**. På **siden Last opp og distribuer utvidelse** angir du .app-filen som skal lastes opp. Hvis du vil fortsette, velger du **Godta**-knappen og deretter **Distribuer**-knappen. Dette starter prosessen med å distribuere PTE-en.
+
+Hvis PTE inneholder endringer i skiftede skjemaer, er det mulig å *fremtvinge* en opplasting av det. Dette gjør du ved å velge alternativet **Fremtving** i **Synkroniseringsmodus for skjema**. Du får en bekreftelsesdialogboks for å godta før du fortsetter. 
 
 ## <a name="uninstalling-an-extension"></a>Avinstallere en utvidelse
 

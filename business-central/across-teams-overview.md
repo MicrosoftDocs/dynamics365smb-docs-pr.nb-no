@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446468"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587508"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -51,6 +51,14 @@ Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, 
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Del koblinger fra sider i Business Central til Teams
+
+Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling til Business Central-siden.
+
+![!Del-menyen som vises på et kort.](media/teams-share-link.png "Del-menyen som vises på et kort.")
+
+Hvis du vil ha mer informasjon, kan du se [Del oppføringer og sidekoblinger i Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Kom i gang
 
 1. En brukerkonto for [!INCLUDE [prod_short](includes/prod_short.md)] Online er nødvendig for [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams.
@@ -62,7 +70,7 @@ Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](a
 
 2. Som administrator kan du se [Administrere Microsoft Teams-integrering med Business Central](admin-teams-integration.md) for informasjon om hvordan du kan konfigurere brukere til å arbeide med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Installer [!INCLUDE [prod_short](includes/prod_short.md)]-app i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md).
-4. Når appen er installert, kan du sette i gang. Se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Del oppføringer i Microsoft Teams](across-working-with-teams.md). 
+4. Når appen er installert, kan du sette i gang. Se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Se også
 

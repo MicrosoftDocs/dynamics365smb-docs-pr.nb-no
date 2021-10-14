@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444046"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588329"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeide med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ Hvis du vil vite hvordan du oppretter rapporter for listesider, kan du se [Oppre
 
 En Power BI-del på en side kan vise enhver Power BI-rapport som er tilgjengelig for deg. Hvis du vil bytte til visning av en annen rapport, velger du **Velg rapport**-handlingen fra rullegardinkommandolisten øverst i delen.  
 
-Siden **Valg av Power BI-rapporter** viser en oversikt over alle Power BI-rapportene du har tilgang til. Denne listen er hentet fra Power BI-arbeidsområdet. Velg **Aktiver**-boksen for hver rapport du vil vise på siden, og velg deretter **OK**. Du kommer tilbake til siden, og den siste rapporten du aktiverte, vises. Ved hjelp av rullegardinkommandolisten bruker du kommandoene **Forrige** og **Neste** til å navigere mellom rapporter.  
+Siden **Valg av Power BI-rapporter** viser en oversikt over alle Power BI-rapportene du har tilgang til. Denne listen er hentet fra alle dine egne arbeidsområder eller arbeidsområder som er delt med deg i Power BI-tjenesten. Velg **Aktiver**-boksen for hver rapport du vil vise på siden, og velg deretter **OK**. Du kommer tilbake til siden, og den siste rapporten du aktiverte, vises. Ved hjelp av rullegardinkommandolisten bruker du kommandoene **Forrige** og **Neste** til å navigere mellom rapporter.  
 
 ### <a name="get-more-reports"></a>Hente flere rapporter
 

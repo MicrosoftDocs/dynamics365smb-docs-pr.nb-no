@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438930"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588254"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -89,22 +89,22 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 
 Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
-|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn + Ctrl + Pil venstre)|Merk den første raden i listen, fokus forblir i samme kolonne.|Flytt til den første flisen i den første raden. |
-|Ctrl+End<br />(Fn + Ctrl + Pil høyre)|Merk den siste raden i listen, fokus forblir i samme kolonne.|Flytt til den siste flisen i den siste raden.|
-|Startside<br />(Fn + Pil venstre)|Flytte til det første feltet i raden.|Flytte til den første flisen i raden.|
-|End<br />(Fn + Pil høyre)|Flytte til det første feltet i raden.|Flytte til den siste flisen i raden.|
-|Angi|Åpner posten som er knyttet til dette feltet.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|Åpner posten.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|
-|Ctrl+Enter|Flytte fokus til neste element utenfor listen.|Flytte fokus til neste element utenfor listen.|
-|PgUp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
-|En side ned<br />(Fn + Pil ned)|Rulle for å vise de angitte radene under de gjeldende radene i visningen.|Rulle for å vise settet med fliser under de gjeldende flisene i visningen.|
-|Pil ned|Flytte i samme kolonne til feltet i raden nedenfor. |Flytte i samme kolonne til flisen i raden nedenfor. |
-|Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |
-|Pil høyre|I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet.| Flytte i samme rad til neste flis til høyre. |
-|Pil venstre|I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet.| Flytte i samme rad til forrige flis til venstre. |
-|Tab|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
-|Skift+TAB|I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
+| Trykk på disse tastene<br />(i macOS) | Hvis du vil gjøre dette i en listevisning | Hvis du vil gjøre dette i en flisvisning |
+|--|--|--|
+| Ctrl+Home<br />(Fn + Ctrl + Pil venstre) | Merk den første raden i listen, fokus forblir i samme kolonne. | Flytt til den første flisen i den første raden. |
+| Ctrl+End<br />(Fn + Ctrl + Pil høyre) | Merk den siste raden i listen, fokus forblir i samme kolonne. | Flytt til den siste flisen i den siste raden. |
+| Startside<br />(Fn + Pil venstre) | Flytte til det første feltet i raden. | Flytte til den første flisen i raden. |
+| End<br />(Fn + Pil høyre) | Flytte til det første feltet i raden. | Flytte til den siste flisen i raden. |
+| Angi | Åpner posten som er knyttet til dette feltet.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten. | Åpner posten.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten. |
+| Ctrl+Enter | Flytte fokus til neste element utenfor listen. | Flytte fokus til neste element utenfor listen. |
+| PgUp<br />(Fn + Pil opp) | Rulle for å vise de angitte radene over de gjeldende radene i visningen. | Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
+| En side ned<br />(Fn + Pil ned) | Rulle for å vise de angitte radene under de gjeldende radene i visningen. | Rulle for å vise settet med fliser under de gjeldende flisene i visningen. |
+| Pil ned | Flytte i samme kolonne til feltet i raden nedenfor. | Flytte i samme kolonne til flisen i raden nedenfor. |
+| Pil opp | Flytte i samme kolonne til feltet i raden ovenfor. | Flytte i samme kolonne til flisen i raden ovenfor. |
+| Pil høyre | I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet. | Flytte i samme rad til neste flis til høyre. |
+| Pil venstre | I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet. | Flytte i samme rad til forrige flis til venstre. |
+| Tab | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. |  |
+| Skift+TAB | I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
 

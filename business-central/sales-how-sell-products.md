@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
-ms.date: 08/17/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2ecf6884e37467504bc2f4573ef60c870993b799
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7156684c2b12af7e5b3e8b51791a702566824009
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440419"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588504"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Selg produkter ed en kundeordre  
 
@@ -67,8 +67,8 @@ Du kan opprette direkte betalte ordrer for kunder som ikke er registrert ved å 
 8. I feltet **Linjerabatt-%** angir du en prosent hvis du vil gi kunden en rabatt på produktet. Verdien i feltet **Linjebeløp** oppdateres tilsvarende.
 
     Hvis du har konfigurert varepriser i hurtigfanen **Salgspriser og salgslinjerabatter** i kunde- eller varekortet, oppdateres prisen og beløpet på tilbudslinjen automatisk hvis de avtalte priskriteriene er oppfylt. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Hvis du vil legge til en kommentar om tilbudslinjen som kunden kan se på tilbudsutskriften, skriver du en kommentar i **Beskrivelse**-feltet på en tom linje.  
-10. Gjenta trinn 4 til 8 for hver vare som du vil selge til kunden.
+9. Hvis du vil legge til en kommentar om ordrelinjen som kunden kan se på ordreutskriften, skriver du en kommentar i **Beskrivelse**-feltet på en tom linje.  
+10. Gjenta trinn 5 til 9 for hver vare som du vil selge til kunden.
 
     Totaler-feltene under linjene oppdateres automatisk når du oppretter eller endrer linjer for å vise beløpene som skal bokføres i postene.
 

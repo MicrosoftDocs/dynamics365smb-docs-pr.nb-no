@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445579"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588554"
 ---
 # <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
 Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil administrere i systemet før du begynner å selge dem. Når du vil begynne å administrere slike varer i systemet, kan du konvertere dem til vanlige varekort på to måter.
@@ -66,7 +66,7 @@ Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant
 Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   En varekryssreferansepost opprettes automatisk for leverandøren av varen mellom leverandørens varenummer og det nye varenummeret ditt. Se [Bruke varekryssreferanser](inventory-how-use-item-cross-refs.md) for mer informasjon.
+>   En varereferanse er automatisk vare mellom leverandørens varenummer og det nye varenummeret ditt. Se [Bruke varereferanser](inventory-how-use-item-cross-refs.md) for mer informasjon.
 
 ## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  

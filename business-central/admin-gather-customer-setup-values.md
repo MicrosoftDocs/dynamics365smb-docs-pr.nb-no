@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443896"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589260"
 ---
 # <a name="gather-customer-setup-values"></a>Samle oppsettsverdier for kunde
 Du kan bruke konfigurasjonsspørreskjemaet til å redusere arbeidsbelastningen ved implementering ved å strømlinjeforme oppgaven med å sette opp det nye firmaet. Du kan generere konfigurasjonsspørreskjemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og deretter gi det til kunden som en Excel- eller XML-fil.  
@@ -32,7 +32,7 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Du kan opprette spørreskjemaer bare for tabeller av typen oppsett. Du kan for eksempel bruke verktøyet til å gi informasjon til følgende sider:  
@@ -50,9 +50,9 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 -   Lagerstyringsoppsett  
 
 > [!NOTE]  
->  Hvis du vil se en fullstendig oversikt over oppsettstabellene, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett** og velger den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
+>  Hvis du vil se en fullstendig oversikt over oppsettstabellene, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett** og velger den relaterte koblingen. Hvis du vil fastslå omfanget av postdataflytting, kan du bruke funksjonaliteten for flytting. Hvis du vil ha mer informasjon, kan du se [Flytte kundedata](admin-migrate-customer-data.md).  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.   
 3. På siden **Konfigurasjonsspørreskjema**, i **Kode**-feltet, angir du ... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Du kan bruke et spørreskjema som hjelper deg med å fastslå omfanget av og beh
 5. I **Tabell-ID**-feltet velger du ID-en for tabellen du vil samle inn informasjon for. Feltet **Tabellnavn** fylles ut automatisk.  
 6. Velg handlingen **Oppdater spørsmål**. Hvert felt i tabellen legges til i spørreskjemaet med et spørsmålstegn etter etiketten.
 
-Du kan omformulere etiketten for å tydeliggjøre hvordan spørsmålet skal besvares. Hvis et felt for eksempel kalles "Navn", kan du redigere det slik at det står Hva er navnet på <data being collected>? Du kan også angi veiledningen i **Referanse**-feltet, inkludert en URL-adresse til en side som inneholder tilleggsinformasjon.  
+Du kan omformulere etiketten for å tydeliggjøre hvordan spørsmålet skal besvares. Hvis et felt for eksempel kalles Navn, kan du redigere det slik at det står Hva er navnet på \<data being collected\>? Du kan også angi veiledningen i **Referanse**-feltet, inkludert en URL-adresse til en side som inneholder tilleggsinformasjon.  
 
 Du kan også slette spørsmål som du ikke vil inkludere i spørreskjemaet.  
 
@@ -98,7 +98,7 @@ Du bruker konfigurasjonsspørreskjema for å strukturere og dokumentere en detal
 >  Du kan også opprette ditt eget konfigurasjonsspørreskjema slik du vil ha det.  
 
 1. Åpne selskapet du vil fullføre spørreskjemaet for.
-2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen.  
 3. Velg spørreskjemaet for selskapet, og velg deretter handlingen **Eksporter til Excel**, eventuelt **Eksporter til XML**.
 4. Få kunden til å fullføre konfigurasjonsspørreskjemaet ved å skrive inn svarene i Excel-arbeidsboken. Det finnes forslag for hvert spørsmålsområde som er opprettet for spørreskjemaet.   
 5. Lagre Excel-arbeidsboken som *XML-data*. Velg handlingen **Importer fra XML**, og velg deretter XML-filen med kundens svar.
@@ -131,15 +131,16 @@ Når du har fullført valideringen, er dataene klar til å bli brukt i databasen
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Bruke svar fra konfigurasjonsspørreskjemaet
 Når du har importert og validert informasjon fra et konfigurasjonsspørreskjema, kan du overføre eller bruke oppsettsdataene i de tilsvarende tabellene i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsspørreskjema**, og velg deretter den relaterte koblingen. Siden **Konfig.spørreskjema** åpnes.  
 2. Velg et konfigurasjonsspørreskjema fra listen, og velg deretter handlingen **Rediger oversikt**.  
 3. Du kan bruke svar på én av to måter.  
 
 - Hvis du vil bruke hele spørreskjemaet, velger du handlingen **Bruk svar**.  
 - Hvis du vil bruke svarene for bare et bestemt **spørsmålsområde**, velger du handlingen **Spørsmålsområder**, velger et **spørsmålsområde** i listen, og deretter velger handlingen **Bruk svar**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:  
-1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på konfigurasjonssiden og deretter velge den relaterte koblingen.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Slik kontrollerer du at svar er brukt:
+
+1. Kontroller oppsettssider for de ulike funksjonelle områdene av [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finne siden ved å velge ikonet ![lyspære som åpner Fortell meg-funksjonen 5](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på konfigurasjonssiden og deretter velge den relaterte koblingen.  
 2. Kontroller at feltene er fylt ut med de riktige dataene fra de ulike spørsmålsområdene i konfigurasjonsspørreskjemaet.  
 
 Du har nå konfigurert et oppsett med kundens forretningsinformasjon og regler.

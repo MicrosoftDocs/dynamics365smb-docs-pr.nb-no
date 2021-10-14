@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445379"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587687"
 ---
 # <a name="register-new-vendors"></a>Registrere nye leverandører
 
@@ -32,32 +32,31 @@ Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Legge til nye leverandører
+Du kan legge til nye leverandører manuelt ved å fylle ut feltene på siden **Leverandørkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer leverandørprofiler. Når du bruker maler, sparer du tid når du legger til nye leverandører og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én leverandørtype, kan du velge hvilken mal du vil bruke når du legger til en leverandør. Hvis du oppretter bare én mal, brukes den for alle nye leverandører. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte leverandører. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Leverandørkort, og deretter lagrer du den som en mal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du siden Leverandørkort som en mal](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Hvis du vil registrere en ny leverandør, må du fylle ut et leverandørkort. Du kan opprette maler for ulike leverandørprofiler, eller du kan legge til leverandør uten maler. Du kan også opprette en leverandør fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan være nyttig å tilpasse siden **Leverandørmal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon, kan du se [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Hvis det finnes leverandørmaler for ulike leverandørtyper, vises en side når du oppretter et nytt leverandørkort, der du kan velge en passende mal. Hvis det bare finnes én leverandørmal, brukes alltid denne malen i nye leverandørkort.  
+Du kan også opprette en leverandør fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Opprette et nytt leverandørkort
+### <a name="to-create-a-new-vendor"></a>Slik oppretter du en ny leverandør
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.  
-2. På **Leverandører**-siden velger du **Ny**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Hvis det finnes mer enn én leverandørmal, åpnes en side der du kan velge en leverandørmal. I det tilfellet følger du de to neste trinnene.
-    1. På siden **Velg en mal for en ny leverandør** velger du malen som du vil bruke for det nye leverandørkortet.
-    2. Velg **OK**. Det åpnes et nytt leverandørkort med noen felt som er fylt ut med informasjon fra malen.
-3. Fortsette med å fylle ut eller endre feltet på leverandørkortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Hvis du ikke vet fakturaadressen som skal brukes for hver eneste faktura fra en leverandør, lar du være å fylle ut feltet **Leverandørnr.** på leverandørkortet. I stedet velger du betal til-leverandørnummeret når du har definert en forespørsel, bestilling eller et fakturahode.
+> [!TIP]  
+> Hvis du ikke vet fakturaadressen som skal brukes for hver eneste faktura fra en leverandør, lar du være å fylle ut feltet **Leverandørnr.** på leverandørkortet. I stedet velger du betal til-leverandørnummeret når du har definert en forespørsel, bestilling eller et fakturahode.
 
 Leverandøren er nå registrert, og leverandørkortet er klart til å brukes på kjøpsdokumenter.
 
 Hvis du vil bruke dette leverandørkortet som en mal når du oppretter nye leverandørkort, kan du lagre det som en leverandørmal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du leverandørkortet som en mal](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Slette leverandørkort
+### <a name="deleting-and-editing-vendor-information"></a>Slette og redigere leverandøropplysninger
 
-Hvis du har bokført en transaksjon for en leverandør, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette leverandørkort med poster, kontakter du Microsoft-partneren for å gjøre det via kode.
+Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidlertid har bokført en transaksjon for en leverandør, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette leverandørkort med poster, kontakter du Microsoft-partneren for å gjøre det via kode.
+
+> [!TIP]
+> Du kan endre IBAN-nummer på en leverandørbankkonto uten at endringen påvirker historiske registeroppføringer for kredittoverføring. Registreringsoppføringer for kreditoverføring lagrer mottakerens IBAN-nummer, mottakerens bankkontonummer som er angitt i feltene Leverandørbankkonto og Mottakernavn på siden Leverandørkort når postene ble opprettet.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Lagre leverandørkortet som en mal
 

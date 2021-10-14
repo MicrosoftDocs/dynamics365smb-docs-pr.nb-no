@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444746"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588783"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -64,7 +64,7 @@ Følgende fremgangsmåte er basert på en ordre. Trinnene er de samme for alle s
 En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Legge til en kobling fra varekortet
-Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse eller bane. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.
+Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.
 
 Følgende fremgangsmåte er basert på et varekort. Trinnene er lignende for alle andre støttede kort og dokumenter.
 

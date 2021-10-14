@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649865"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588885"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 
@@ -60,6 +60,15 @@ Tabellen nedenfor beskriver verdiene i feltet **Status**.
 
 > [!TIP]
 > Du kan også vise statusen for jobbkøposter ved å bruke Application Insights i Microsoft Azure for mer detaljert analyse basert på telemetri. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere telemetri for jobbkølivsyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i utvikler- og administrasjonsinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="view-scheduled-tasks"></a>Vis planlagte oppgaver
+
+Siden **Planlagte oppgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] viser hvilke oppgaver som er klare til å kjøres i jobbkøen. Siden viser også informasjon om selskapet som hver oppgave er definert til å kjøre i. Bare oppgaver som er merket som tilhører gjeldende miljø, kan imidlertid kjøres.  
+
+Hvis for eksempel gjeldende selskap er i et miljø som er en kopi av et annet miljø, blir alle planlagte oppgaver automatisk stoppet. Bruk siden **Planlagte oppgaver** til å angi oppgaver som klare til å kjøres i jobbkøen.  
+
+> [!NOTE]
+> Interne administratorer og brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan ikke det.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
 Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  

@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440552"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589285"
 ---
 # <a name="register-employees"></a>Registrere ansatte
-Hvis du vil bruke Personale-funksjonene, må du først registrere hver ansatt ved å opprette et kort med all viktig og relatert informasjon.
+Hvis du vil bruke Human Resources-funksjonaliteten, må du først legge til hver ansatt ved å fylle ut feltene på siden **Ansattkort**.
 
-Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på ansattkortet.
+## <a name="adding-new-customers"></a>Legge til nye kunder
+Du kan legge til nye ansatte manuelt ved å fylle ut feltene på siden **Ansattkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer ansattprofiler. Når du bruker maler, sparer du tid når du legger til nye ansatte og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én ansattype, kan du velge hvilken mal du vil bruke når du legger til en ansatt. Hvis du oppretter bare én mal, brukes den for alle nye ansatte. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte ansatte. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Ansattkort, og deretter lagrer du den som en mal.
 
-Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvordan du tilordner to typer ansattinformasjon til en ansatt. I tillegg kan du tilordne diverse annen relatert informasjon, for eksempel kvalifikasjoner og årsaker til uvirksomhet. Du tilordner ansattinformasjon ved å velge et felt eller en handling på siden **Medarbeiderkort**.
+> [!TIP]
+> Det kan være nyttig å tilpasse siden **Ansattmal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon, kan du se [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på siden Ansattkort.
 
 > [!NOTE]  
 > Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** på siden **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter et startansattkort og hvord
 3. På siden **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
-Hvis du har et bilde av en ansatt i .bmp-format, kan du legge det inn på kortet til den ansatte.
+Hvis du har et bilde av en ansatt, kan du legge det inn på kortet til den ansatte.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for den aktuelle ansatte.

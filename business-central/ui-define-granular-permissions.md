@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443720"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547026"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
@@ -158,6 +158,9 @@ I hvert av de fem tilgangstypefeltene, **Lesetillatelse**, **Innsettingstillatel
 |**Ja**|Brukeren kan utføre handlingen for det aktuelle objektet.|Høyeste|
 |**Indirekte**|Brukeren kan utføre handlingen for det aktuelle objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til. Hvis du vil ha mer informasjon om indirekte tillatelser, kan du se [Tillatetlser-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjelpen for utviklere og IT-eksperter.|Nest høyeste|
 |**Tom**|Brukeren kan ikke utføre handlingen for det aktuelle objektet.|Laveste|
+
+> [!IMPORTANT]
+> Vær forsiktig når du tilordner **innsettingstillatelse** eller **endringstillatelse** til gruppen **9001 brukergruppemedlem** eller **9003 gruppetillatelsessett for bruker**. Alle brukere som er tilordnet tillatelsessettet, kan potensielt tilordne seg selv til andre brukergrupper, som i sin tur kan gi dem utilsiktede tillatelser.
 
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse
 

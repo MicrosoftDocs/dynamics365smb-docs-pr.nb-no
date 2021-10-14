@@ -10,20 +10,21 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770966"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606442"
 ---
 # <a name="auditing-changes-in-business-central"></a>Revidere endringer i Business Central
 En vanlig utfordring i mange forretningsadministrasjonsprogrammer er å unngå uønskede endringer i dataene. Det kan være alt fra et uriktig kundetelefonnummer til uriktig bokføring i finanspostene. Dette emnet beskriver funksjonene for å finne ut hva som er endret, hvem som endret det, og når endringen ble gjort.
 
 ## <a name="about-the-change-log"></a>Om endringsloggen 
-Ved hjelp av endringsloggen kan du spore alle direkte endringer som brukeren gjør i dataene i databasen. For må angi hver tabell og hvert felt du vil at systemet skal logge. Deretter må du aktivere endringsloggen.  
+Ved hjelp av endringsloggen kan du spore alle direkte endringer som brukeren gjør i dataene i databasen. Du må angi hver tabell og hvert felt du vil at systemet skal logge. Deretter må du aktivere endringsloggen.  
 
 Sporing av endringer kan påvirke ytelsen, noe som kan koste deg tid, og øke størrelsen på databasen, noe som kan koste deg penger. Vurder følgende for å redusere disse kostnadene:
+
 - Vær forsiktig når du velger tabellene og operasjonene.
 - Ikke legg til poster og bokførte dokumenter. I stedet prioriterer du systemfelt som Opprettet av og Opprettingsdato.
 - Ikke bruk sporings typen Alle felt. I stedet velger du Noen felt og sporer bare de viktigste feltene.
@@ -32,10 +33,10 @@ Endringsloggen er basert på endringene som utføres på dataene i tabellene som
 
 > [!Important]
 > Endringer vises bare i **endringsloggpostene** etter at brukerens økt er startet på nytt, som skjer på denne måten:
-<br />
+>
 > * Økten har utløpt og ble oppdatert.
 > * Brukeren har valgt et annet selskap eller rollesenter.
-> * Brukeren logget ut og inn igjen.
+> * Brukeren logget av og på igjen.
 
 ### <a name="working-with-the-change-log"></a>Arbeide med endringsloggen
 Du kan aktivere eller deaktivere endringsloggen på siden **Endringsloggoppsett**. Når en bruker aktiverer eller deaktiverer endringsloggen, logges denne aktiviteten, slik at du alltid kan se hvilken bruker som deaktiverte eller aktiverte endringsloggen.
@@ -60,7 +61,10 @@ Det å holde sensitive data sikre og private er et sentralt anliggende for de fl
 > Sending av varsler med e-post krever at du konfigurerer e-postfunksjonen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurer e-post](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Sette opp feltovervåking
-Du kan bruke den assisterte oppsettsveiledningen for **Endringsoppsett for overvåkingsfelt** til å angi hvilke felt du vil overvåke basert på filterkriterier, for eksempel klassifisering av datasensitivitet for feltene. Hvis du vil ha mer informasjon, kan du se [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md). Veiledningen lar deg også angi personen som skal motta en e-postvarsling når det oppstår en endring, og e-postkontoen som skal sende e-postvarslingen. Du må angi både brukeren som skal varsles, og kontoen som varslingen skal sendes fra. Når du har fullført veiledningen, kan du behandle innstillinger for feltovervåking på siden **Oppsett for feltovervåking**. 
+Du kan bruke den assisterte oppsettsveiledningen for **Endringsoppsett for overvåkingsfelt** til å angi hvilke felt du vil overvåke basert på filterkriterier, for eksempel klassifisering av datasensitivitet for feltene. Hvis du vil ha mer informasjon, kan du se [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md). Veiledningen lar deg også angi personen som skal motta en e-postvarsling når det oppstår en endring, og e-postkontoen som skal sende e-postvarslingen. Angi både brukeren som skal varsles, og kontoen som varslingen skal sendes fra. Når du har fullført veiledningen, kan du behandle innstillinger for feltovervåking på siden **Oppsett for feltovervåking**. 
+
+> [!NOTE]
+> Når du angir e-postkontoen du vil sende varsler fra, må du legge til enten **Microsoft 365**- eller **SMTP**-kontotypen. Varsler bør sendes fra en konto som ikke er knyttet til en faktisk bruker. Du kan derfor ikke velge **Gjeldende bruker**-kontotypen. Hvis du gjør det, sendes ikke varslinger. 
 
 Over tid vil listen over oppføringer på siden **Overvåkede feltloggposter** bli større. Hvis du vil redusere antall oppføringer, kan du opprette en oppbevaringspolicy som sletter poster etter en bestemt tidsperiode. Hvis du vil ha mer informasjon, kan du se [Definere oppbevaringspolicyer](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Du kan behandle innstillinger for feltovervåking, for eksempel om du vil sende 
 
 ### <a name="working-with-field-monitoring"></a>Arbeide med feltovervåking
 
-Oppføringer for alle endrede verdier for overvåkede felt er tilgjengelige på siden **Overvåkede feltloggposter**. Poster inneholder for eksempel informasjon som feltet som verdien ble endret for, den opprinnelige og den nye verdien, hvem som foretok endringen, og når de gjorde det. Du kan undersøke en endring ytterligere ved å velge en verdi for å åpne siden den ble gjort på. Hvis du vil se en oversikt over alle postene, velger du **Feltendringsposter**.
+Oppføringer for alle endrede verdier for overvåkede felt er tilgjengelige på siden **Overvåkede feltloggposter**. Oppføring inneholder for eksempel følgende informasjon:
+
+* Feltet som verdien ble endret for.
+* De opprinnelige og nye verdiene.
+* Hvem som foretok endringen, og når den ble gjort. 
+
+Du kan undersøke en endring ytterligere ved å velge en verdi for å åpne siden den ble gjort på. Hvis du vil se en oversikt over alle postene, velger du **Feltendringsposter**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Vise telemetri for feltovervåking 
 

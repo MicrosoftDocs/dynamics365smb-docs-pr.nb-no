@@ -7,27 +7,53 @@ ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
 ms.date: 07/09/2021
-ms.openlocfilehash: 44b354818d75de8e36abccca0de5b5189d2d4268
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543073"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588054"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
-I [!INCLUDE[prod_long](includes/prod_long.md)] for du tilgang til siden **Hjelp og støtte** fra menyelementet Hjelp (spørsmålstegnet øverst til høyre), som kan hjelpe deg med å finne svar på spørsmålene dine. Du kan også se hvordan du kan kontakte teknisk støtte for [!INCLUDE[prod_short](includes/prod_short.md)].  
+I [!INCLUDE[prod_long](includes/prod_long.md)] for du tilgang til siden Hjelp-menyelementet (spørsmålstegnet øverst til høyre), som gir deg tilgang til en hjelperute som kan hjelpe deg med å finne svar på spørsmålene dine.  
 
-Denne siden viser ressursene som er tilgjengelige i de forskjellige delene av **Hjelp og støtte**-siden.  
+## <a name="search-in-the-help-pane"></a>Søk i hjelperuten
+
+[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
+
+2021 lanseringsbølge 2 inneholder en ny hjelperute som har en søkefane. Bruk søkefeltet til å søke etter veiledning om hvordan du bruker produktet, innebygde funksjoner og tilgjengelige opplæringsmoduler. Avhengig av søkevilkårene viser ruten fem eller flere koblinger med en kort beskrivelse. Velg en kobling, eller begrens søkeordene. Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  
+
+> [!NOTE]
+> I gjeldende versjon av [!INCLUDE [prod_short](includes/prod_short.md)] vil søkefeltet i hjelperuten bare gjelde innhold som er publisert på nettstedet docs.microsoft.com.
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse koblingene har også tilgang til innhold som publiseres til andre nettsteder, for eksempel nettstedene til leverandører av apper som er installert i [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help--support-page"></a>Hjelp og støtte-siden
+
+Fra hjelperuten kan du få tilgang til siden **Hjelp og støtte** i [!INCLUDE [prod_short](includes/prod_short.md)] som inneholder nyttige koblinger. Du kan også se hvordan du kan kontakte teknisk støtte for [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+Denne delen viser ressursene som er tilgjengelige i de forskjellige delene av **Hjelp og støtte**-siden som er vist i følgende liste.
+
+- [Finn svar](#find-answers)  
+- [Produkthjelp](#product-help)  
+- [Fellesskap](#community)  
+- [Blogg](#blog)  
+- [Funksjoner som kommer snart](#capabilities-coming-soon)  
+- [Gjør mer med prøveversjonen](#do-more-with-your-trial)  
+- [Gi tilbakemelding](#give-feedback)  
+- [Feilsøking](#troubleshooting)  
+- [Rapporter et problem](#report-a-problem)  
+- [Kontakter for støtte](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="find-answers"></a>Finne svar
+### <a name="find-answers"></a>Finne svar
 
 Delen **Finn den** inneholder koblinger til de vanligste stedene du finner svar på spørsmålene dine. Koblingene faller innenfor fire kategorier og forklares i avsnittene nedenfor. Noen av koblingene kan konfigureres av [!INCLUDE[prod_short](includes/prod_short.md)]-partneren din, og dermed kan virkemåten være litt forskjellig.  
 
-### <a name="product-help"></a>Produkthjelp
+#### <a name="product-help"></a>Produkthjelp
 
 Delen **Finn den** inneholder to koblinger til produkthjelpen:
 
@@ -38,36 +64,36 @@ Delen **Finn den** inneholder to koblinger til produkthjelpen:
 
   Funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet i området [Docs.microsoft.com](/dynamics365/business-central). Hvis du vil ha mer informasjon, kan du se delen [Bruke nettstedet docs.microsoft.com til å finne ut mer](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan også utvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apper fra AppSource. Alle apper inneholder koblinger til relevant hjelp, slik at du alltid kan finne hjelp for de ulike arbeidsflytene i din versjon av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="community"></a>Gruppe
+#### <a name="community"></a>Gruppe
 
 I vinduet [Business Central-forum](https://community.dynamics.com/business/f) kan du kan sende inn et spørsmål og lære fra andre [!INCLUDE[prod_short](includes/prod_short.md)]-gruppemedlemmer. Partnere og Microsoft-ansatte deltar i samtalene.  
 
 Hvis du ennå ikke har en partner, kan gruppen også hjelpe deg hvis du har spørsmål. Hvis du for eksempel nettopp har registrert deg for en prøveversjon, kan gruppen være et godt utgangspunkt.  
 
-### <a name="blog"></a>Blogg
+#### <a name="blog"></a>Blogg
 
 Vi snakker om de nye funksjonene i [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), inkludert hvis det er noen spesielle hensyn som må tas.  
 
-### <a name="capabilities-coming-soon"></a>Funksjoner som kommer snart
+#### <a name="capabilities-coming-soon"></a>Funksjoner som kommer snart
 
 [!INCLUDE[prod_short](includes/prod_short.md)] oppdateres med viktige funksjoner hver sjette måned og månedlige tjenesteoppdateringer. Velg koblingen for å vise den siste utgivelsesplanen. Du kan også få en oversikt over kommende og nylig lanserte funksjoner i [utgivelsesplanene på tvers av Dynamics 365](/dynamics365/release-plans/).  
 
 For å få oversikt over en lengre periode viser [!INCLUDE[prod_short](includes/prod_short.md)] [veikartsiden](https://dynamics.microsoft.com/roadmap/business-central/) de generelle prioriteringene for [!INCLUDE[prod_short](includes/prod_short.md)] de kommende årene.  
 
-## <a name="do-more-with-your-trial"></a>Gjør mer med prøveperioden
+### <a name="do-more-with-your-trial"></a>Gjør mer med prøveperioden
 
 Denne delen gir deg snarveier til Microsoft AppSource, der du kan finne løsninger og tjenester fra [!INCLUDE[prod_short](includes/prod_short.md)]-partnere. Bruk koblingene til å utforske alle egenskapene i [!INCLUDE[prod_short](includes/prod_short.md)] før du bestemmer om du vil kjøpe et abonnement. Du finner også en kobling til kontaktinformasjon for salgsteamet.
 
 > [!NOTE]
 > Denne delen er bare tilgjengelig i prøveabonnementer. Hvis du allerede har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)], er delen ikke lenger synlig.
 
-## <a name="give-feedback"></a>Gi tilbakemelding
+### <a name="give-feedback"></a>Gi tilbakemelding
 
 I [Dynamics 365-idéområdet](https://aka.ms/bcideas) kan du legge inn forslag til nye funksjoner. Tilbakemeldingen din går direkte til Business Centrals tekniske logg for undersøkelser og prioritering.  
 
 Kontroller at du søker gjennom listen over sendte forslag. Det kan hende at det allerede er sendt noe lignende, og det kan hende at oppføringen allerede har fått stemmer. Stem hvis en idé allerede er innsendt, for å prioritere den på teknikerloggen.  
 
-## <a name="troubleshooting"></a>Feilsøking
+### <a name="troubleshooting"></a>Feilsøking
 
 Delen **Feilsøking** viser teknisk informasjon som administratoren eller [!INCLUDE[prod_short](includes/prod_short.md)]-partneren kan bruke til å oppheve blokkeringen av brukere. Dette omfatter opplysninger om den siste feilmeldingen, gjeldende versjon av [!INCLUDE[prod_short](includes/prod_short.md)] og en kobling for å gå til siden **Sideinspeksjon**. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](across-inspect-page.md).  
 
@@ -80,7 +106,7 @@ Som intern administrator har du tilgang til administrasjonssenteret der du kan f
 - [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Aktiver sending av telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-## <a name="report-a-problem"></a>Rapporter et problem
+### <a name="report-a-problem"></a>Rapporter et problem
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-partneren for videresalg hjelper deg med den tekniske støtten. Denne delen gjør det enkelt for deg å kontakte partneren for videresalg hvis vedkommende har sendt kontaktdetaljer for støtte. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
 
@@ -123,9 +149,12 @@ Innholdsfortegnelsen inneholder en gruppe med innhold som beskriver [lokal funks
 
 Det lokale funksjonalitetsinnholdet beskriver hvilke funksjoner i [!INCLUDE [prod_short](includes/prod_short.md)] som kan hjelpe deg med å oveholde samsvar i de støttede markedene, for eksempel mva-oppgaver og andre rapporter. I noen tilfeller er forskjellen mellom standardversjonen og den landsspesifikke versjonen usynlig for brukerne. I andre tilfeller må brukere definere rapportering eller elektronisk fakturering på en bestemt måte. Hvis du ikke finner en beskrivelse av en bestemt knapp eller handling i den generelle delen, finner du det forhåpentligvis i delen *Lokal funksjonalitet*.  
 
+> [!TIP]
+> På nettstedet docs.microsoft.com og i søkefeltet i produktet og i hjelperuten, viser søkeresultatene noen kontekst for målartikkelen. Konteksten inneholder koblingen som kan vise navnet på et land, eller en kort beskrivelse som for eksempel brukes til å fremheve en bestemt funksjon eller et land.
+
 ### <a name="finding-other-content"></a>Finne annet innhold
 
-Hvis du finner en artikkel som ikke svarer på spørsmålet ditt, kan du finne annet innhold på to måter:
+Hvis du finner en artikkel som ikke svarer på spørsmålet ditt, kan du finne annet innhold på to måter på nettstedet docs.microsoft.com:
 
 - Bruke feltet **Filtrer etter tittel** i innholdsfortegnelsen til venstre på nettstedet
 
@@ -148,7 +177,7 @@ Innholdsfortegnelsen oversettes for hvert språk, men innholdet i delen *Lokal f
 
 ### <a name="recommended-content"></a>Anbefalt innhold
 
-I mars 2021 ble det vist et nytt avsnitt under de fleste artikler på området docs.microsoft.com. Delen **Anbefalt innhold** blir generert automatisk basert på hvordan hver artikkel brukes sammen med resten av området. Koblingene er ikke statiske og vil endres over tid.
+I mars 2021 ble det vist et nytt avsnitt under de fleste artikler på området docs.microsoft.com. Delen **Anbefalt innhold** blir generert automatisk basert på hvordan hver artikkel brukes sammen med resten av nettstedet docs.microsoft.com. Koblingene er ikke statiske og endres over tid.
 
 ### <a name="tell-us-what-you-think"></a>Fortell oss hva du synes
 
@@ -172,6 +201,7 @@ Det samme gjelder hvis du bruker [!INCLUDE [prod_short](includes/prod_short.md)]
 ## <a name="see-also"></a>Se også
 
 [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)  
+[Hurtigstart for Business Central](quick-start-business-central.md)  
 [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner)  
 [Help System (bare tilgjengelig på engelsk)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogginnlegg: Finne de riktige ressursene og gi tilbakemeldinger](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  

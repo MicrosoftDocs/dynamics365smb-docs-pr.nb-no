@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444823"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589135"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
@@ -32,7 +32,7 @@ Du kan også finne oversikten over veiledninger for assistert oppsett hvis du ve
 
 ## <a name="get-started"></a>Kom i gang
 
-Fra og med lanseringsbølge 1 for 2021 kan du bruke kontrollisten **Komme i gang** til å veilede deg gjennom fremgangsmåten slik at du blir klar til å komme i gang, etter at du har logget på for første gang eller starter et nytt selskap. Fremgangsmåten varierer avhengig av land og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](includes/prod_short.md)].  
+Når du logger på for første gang eller starter et nytt selskap, kan du bruke kontrollisten **Kom i gang** til å veilede deg gjennom fremgangsmåten slik at du blir klar til å komme i gang. Fremgangsmåten varierer avhengig av land og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](includes/prod_short.md)]. Fra og med lanseringsbølge 2 for 2021 når du først logger deg på CRONUS-demonstrasjonsselskapet, optimaliseres hjemmesiden for din første opplevelse. Hvis du foretrekker å vise flere koblinger til flere sider, bytter du bare til rollen Forretningsleder. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
 Når du har overført data, for eksempel leverandører, kunder og varer, fra ditt eksisterende økonomisystem, er du klar til å begynne. Du bør imidlertid vurdere om andre veiledninger for assistert oppsett på listen kan hjelpe deg, avhengig av dine behov.
 
@@ -43,7 +43,7 @@ Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![tannhjul
 >
 > Første gang du logger på, bruker du **Essential**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**. <!--VERIFY-->  
+Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**.  
 
 ## <a name="teaching-tips-and-tours"></a>Læringstips og innføringer
 
@@ -80,13 +80,18 @@ Når brukere opprettes i Microsoft 365, kan de importeres til **Brukere**-siden 
 
 ## <a name="next-steps"></a>Neste trinn
 
-Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk delen **Handlinger** på startsiden til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering.
+Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk delen **Handlinger** på startsiden til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering. Les artiklene for [hurtigstart](quick-start-business-central.md) for å få en oversikt over de første trinnene.  
 
 ## <a name="see-also"></a>Se også
 
+[Hurtigstart for Business Central](quick-start-business-central.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
+[Tilgjengelighet og hurtigtaster](ui-accessibility.md)  
+[Prøveversjoner og abonnementer](across-preview.md)  
+[Forretningsfunksjoner](across-business-functionality.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
+[Søk i hjelperuten](product-help-and-support.md#search-in-the-help-pane)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Microsoft Learn-område](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 

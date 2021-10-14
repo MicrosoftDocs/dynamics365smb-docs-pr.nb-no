@@ -1,21 +1,21 @@
 ---
 title: Skrive inn data i Business Central
 description: Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. De grunnleggende prinsippene og de avanserte funksjonene beskrives her.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443671"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588960"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -35,7 +35,6 @@ Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.
 |Rullegardinliste          |Rullegardinlister gir et valg med faste verdier eller referanseoppføringer fra en annen tabell|
 |Bryter eller avmerkingsboks|Enkelte felter gir en et enkelt valg med *Ja*- eller *Nei*-verdier. Bryteren brukes til å angi denne verdien og vises alltid som en avmerkingsboks i lister|
 |Redigeringshjelp       |Enkelte felter gir egendefinerte velgere som er egnet til å slå opp og velge den beste verdien for det feltet, som et popup-vindu|
-
 
 ### <a name="modifying-a-field-value"></a>Endre en feltverdi
 
@@ -58,7 +57,6 @@ Når markøren vises på slutten av feltverdien:
 
 > [!NOTE]
 > Når du angir en verdi, vil Business Central bare kontrollere at den er gyldig etter at du klikker utenfor feltet eller setter fokus til et annet element, som det neste feltet.  
-
 
 ## <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -267,9 +265,16 @@ Her er noen eksempler.
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
 
-## <a name="see-also"></a>Se også  
- [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
+
+Når du bruker desimalskilletegn for numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. Du angir området i Business Central på siden **Mine innstillinger**.
+
+La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum (.) som desimalskilletegn. Du registrerer imidlertid data for et regionalt språk som bruker komma (**,**) som desimalskilletegn, for eksempel dansk (Danmark) eller fransk (Frankrike). Du vil derfor at desimaler skal settes til 1.23 angis som 1,23. I dette tilfellet kan du gå til siden **Mine innstillinger** og angir **Område** på det regionale språket, for eksempel **dansk (Danmark)** eller **fransk (Frankrike)**. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se også
+
+[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

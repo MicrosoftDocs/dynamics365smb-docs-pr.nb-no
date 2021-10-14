@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438755"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588002"
 ---
 # <a name="power-bi--faq"></a>Vanlige spørsmål om Power BI
 
@@ -129,12 +129,6 @@ Her er andre sider som inneholder den større, ikke-filtrerte delen **Power BI-r
 Den enkleste måten å filtrere større datasett på er å angi et filter for Power BI-rapporten ved å redigere Power Query-formelen direkte. De fleste filtrene du angir på denne måten, sendes videre til Business Central via spørringsdelegering. Se [Trinnvis oppdatering for datasett](/power-bi/admin/service-premium-incremental-refresh).
 
 Det er for øyeblikket ingen måte å angi et filter for webtjenestedataene fra Business Central. Hvis programmet må angi et filter fra Business Central, må du opprette en egendefinert Business Central-app for dette formålet.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Når det gjelder å bygge inn rapporter på Business Central-sider, kan du for øyeblikket bare hente rapporter fra *Mitt arbeidsområde* i Power BI. Har dere planer om å gjøre det mulig å hente dem fra egendefinerte arbeidsområder?
-
-Ja. Vi har planer om å legge til støtte for delte arbeidsområder, men foreløpig har vi ingen timeplan for dette.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Finnes det en annen metode i Power BI – enn å bruke en spørring – til å hente data fra Business Central-tabeller som ikke har en tilknyttet side? Slik som for eksempel tabellen *Tilordning av verdi for vareattributt*.

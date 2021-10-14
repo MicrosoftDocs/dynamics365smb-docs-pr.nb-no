@@ -7,20 +7,20 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341361"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588204"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.  
 
-Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke [henter du oversikten](https://dynamics.microsoft.com/business-central/overview/), [tar den veiledende gjennomgangen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [starter en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Hvis du vil ha mer informasjon om introduksjon til [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke [henter du oversikten](https://dynamics.microsoft.com/business-central/overview/), [tar den veiledende gjennomgangen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [starter en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Les [hurtigstartartiklene](quick-start-business-central.md) for å få hjelp til å bli kjent med [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om introduksjon til [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 > [!TIP]
 > Kom du hit fra [!INCLUDE [prod_short](includes/prod_short.md)]? Hvis du ikke er sikker på hvor du finner det du leter etter, kan du **filtrere etter titler** i navigasjonsruten til venstre, eller du kan bruke **Søk**-feltet øverst i nettleservinduet.  
@@ -102,6 +102,7 @@ Hvis du vil abonnere på en RSS-feed (Really Simple Syndication) over alle oppda
 ## <a name="see-also"></a>Se også
 
 [Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Hurtigstart for Business Central](quick-start-business-central.md)  
 [Komme i gang med Business Central](ui-get-ready-business.md)  
 [Gå til videobiblioteket vårt](across-videos.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  

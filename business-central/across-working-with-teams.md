@@ -10,29 +10,45 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3ad8b25fef8b486d4b2064e8c5117f0b25c6ec5b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444021"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587837"
 ---
-# <a name="sharing-business-central-records-in-microsoft-teams"></a>Deling av Business Central-oppføringer i Microsoft Teams
+# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deling av Business Central-oppføringer og sidekoblinger i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en app som kobler Microsoft Teams til forretningsdataene dine i [!INCLUDE [prod_short](includes/prod_short.md)], slik at du raskt kan dele detaljer mellom gruppemedlemmer og svare raskere på forespørsler. I denne artikkelen lærer du hvordan du bruker appen til å dele [!INCLUDE [prod_short](includes/prod_short.md)]-oppføringer, for eksempel en kunde, ordre eller faktura, med kolleger i en Teams-samtale.
+[!INCLUDE [prod_short](includes/prod_short.md)] tilbyr et par måter å dele data på fra Business Central direkte i en Microsoft Teams-samtale:
 
-## <a name="overview"></a>Oversikt
+<!-- 
+## Overview
+In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
+The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
+[!INCLUDE [prod_short](includes/prod_short.md)] offers an app that connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)], so you can quickly share details across team members and respond faster to inquiries. In this article, you'll learn how to use the app to share [!INCLUDE [prod_short](includes/prod_short.md)] records, like a customer, sales order, or invoice, with coworkers in a Teams conversation.
 
-[!INCLUDE [prod_short](includes/prod_short.md)]-appen lar deg:
+-->
+- Når [!INCLUDE [prod_short](includes/prod_short.md)]-appen er installert i Teams, kan du ta med et interaktivt kort med Business Central-oppføring i en Teams-samtale.
 
-- Kopier en kobling til en Business Central-oppføring, og lim den inn i en Teams-samtale for å dele med kollegene dine. Appen utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten.
-- Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
+<!--   Copy a link from any Business Central record, like a customer or sales order, then paste the link into a Teams conversation. The app connects Microsoft Teams to your business data in [!INCLUDE [prod_short](includes/prod_short.md)]. It then expands the link into a compact, interactive card that displays information about the record. Once in the conversation, you and coworkers can view more details about the record, edit data, and take action&mdash;without leaving Teams.
+
+  [![Teams integration with Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)-->
+
+- Med eller uten [!INCLUDE [prod_short](includes/prod_short.md)]-appen installert, kan du dele en kobling fra sider i Business Central til en Teams-samtale.
+
+  <!-- ![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
+
+Følgende avsnitt beskriver de ulike måtene mer detaljert.
+
+## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Ta med og vis et Business Central-kort i en Teams-samtale
+
+Med Business Central-appen for Teams kan du kopiere en kobling fra en hvilken som helst Business Central-oppføring, for eksempel en kunde eller ordre, og lime inn koblingen i en Teams-samtale. Appen kobler Microsoft Teams til forretningsdataene i [!INCLUDE [prod_short](includes/prod_short.md)]\. Den utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten. Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
 
 [![Teams-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
-## <a name="prerequisites"></a>Forutsetninger
+### <a name="prerequisites"></a>Forutsetninger
 
 - Du har tilgang til Microsoft Teams.
 - Du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Hvis du vil ha mer informasjon, se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)
@@ -40,12 +56,12 @@ ms.locfileid: "6444021"
 > [!NOTE]
 > Alle deltakere i en Teams-samtale kan vise kort for Business Central-oppføringer som du sender til samtalen. Men hvis de vil vise flere detaljer om poster, ved hjelp av **Detaljer** eller **Eget vindu**-knappene på et kort, trenger de tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Administrere Microsoft Teams-integrering](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="include-a-business-central-card-in-a-teams-conversation"></a>Ta med et Business Central-kort i en Teams-samtale
+### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Ta med et Business Central-kort i en Teams-samtale
 
 1. Logg på [!INCLUDE [prod_short](includes/prod_short.md)] ved å bruke leseren.
 2. Åpne posten du vil dele.
 
-    Appen er utformet for å vise korttypesider fra [!INCLUDE [prod_short](includes/prod_short.md)]. Så åpne en side som viser én enkelt post, for eksempel en vare, kunde eller ordre. Du kan ikke bruke den til rollesentre eller sider som viser flere poster i en liste.
+    Appen er utformet for å vise korttypesider fra [!INCLUDE [prod_short](includes/prod_short.md)]\. Så åpne en side som viser én enkelt post, for eksempel en vare, kunde eller ordre. Du kan ikke bruke den til rollesentre eller sider som viser flere poster i en liste.
 
 3. Kopier hele URL-adressen fra adresselinjen i nettleseren.
 
@@ -72,7 +88,7 @@ ms.locfileid: "6444021"
 
 10. Hvis du vil vise flere detaljer eller gjøre endringer i posten som vises på kortet, velger du **Detaljer**. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
 
-## <a name="view-card-details"></a>Vis kortdetaljer
+### <a name="view-card-details"></a>Vis kortdetaljer
 
 Når et kort er sendt til en samtale, kan alle deltakerne med de [riktige tillatelsene](admin-teams-integration.md#permissions) velge **Detaljer** for å åpne et vindu som viser mer informasjon om posten, og eventuelt gjøre endringer i posten. Det spiller ingen rolle om du er den som sender kortet, eller den som mottar kortet. **Detaljer**-funksjonen er spesielt nyttig for mottakere fordi den raskt gir dem konsis, målrettet informasjon om posten, i motsetning til å måtte skanne hele posten.
 
@@ -80,10 +96,28 @@ Detaljvinduet ligner på det du ser i [!INCLUDE [prod_short](includes/prod_short
 
 Her er noen ting du må huske på når du arbeider med kortdetaljene:
 
-- For å vise kortdetaljene må brukere ha tillatelse på siden og tilhørende data i [!INCLUDE [prod_short](includes/prod_short.md)].
-- Kort i Teams-chatter oppdateres ikke automatisk til endringer. Eventuelle endringer du lagrer i en post i detaljvinduet, lagres i [!INCLUDE [prod_short](includes/prod_short.md)]. Kortet i Teams viser derfor ikke endringene i konverteringen før du limer inn koblingen på nytt.
+- For å vise kortdetaljene må brukere ha tillatelse på siden og tilhørende data i [!INCLUDE [prod_short](includes/prod_short.md)]\.
+- Kort i Teams-chatter oppdateres ikke automatisk til endringer. Eventuelle endringer du lagrer i en post i detaljvinduet, lagres i [!INCLUDE [prod_short](includes/prod_short.md)]\. Kortet i Teams viser derfor ikke endringene i konverteringen før du limer inn koblingen på nytt.
 
 Hvis du vil vite mer om hvordan du arbeider med kort og kortdetaljer, kan du se [Vanlige spørsmål om Teams](teams-faq.md).
+
+## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Del en kobling til side i Business Central til Teams
+
+Fra de fleste samlingssider, for eksempel **Varer**-siden, og detaljsider, for eksempel **Vare**-kortet, kan du sende en kobling til siden til bestemte mottakere i en Teams-samtale. Du kan for eksempel dele en kobling til en filtrert visning av postene. Mottakerne kan deretter velge koblingen for å åpne siden i [!INCLUDE [prod_short](includes/prod_short.md)]\.
+
+ ![!Del-menyen som vises på et kort.](media/teams-share-link.png "Del-menyen som vises på et kort.")
+
+### <a name="prerequisites"></a>Forutsetninger
+Du har tilgang til Microsoft Teams.
+
+### <a name="share-a-link"></a>Del en kobling
+
+1. I [!INCLUDE [prod_short](includes/prod_short.md)] åpner du siden som du vil dele.
+2. Velg ikonet ![!Del til andre apper-handling på sider.](media/share-icon.png) øverst på siden og deretter **Del til Teams**.
+3. Hvis du blir bedt om det, logger du deg på Teams med brukernavn og passord.
+4. På siden **Del til Teams** skriver du inn navnet på en person, gruppe eller kanal du vil sende meldingen til. 
+5. Meldingsboksen inneholder en kobling til siden. Legg til flere opplysninger hvis du vil, og velg **Del**.
+6. Koblingen er nå delt. Hvis du vil gå til samtalen, velger du **Gå til Teams**.
 
 ## <a name="see-also"></a>Se også
 
