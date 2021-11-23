@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442288"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643933"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffe aktiva
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Et avskrivningstablå må defineres og tilordnes til hvert enkelt aktiva før du kan anskaffe det.
@@ -75,7 +75,7 @@ Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
 Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-siden.
 
-For eksempel hvis du bokfører en anskaffelse med feil dato, må du korrigere den så snart som mulig fordi aktivabokføringsdatoen brukes i mange viktige beregninger.
+Hvis du for eksempel bokfører en anskaffelse med feil dato, må du korrigere den så snart som mulig fordi aktivabokføringsdatoen brukes for mange beregninger.
 
 > [!IMPORTANT]  
 >   Du kan ikke bruke funksjonen **Tilbakefør transaksjon** for aktivaposter.
@@ -90,9 +90,12 @@ Hvis du vil kansellere finansposter for flere aktiva samtidig, kan du bruke **Ka
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Slik bokfører du skrapverdien sammen med anskaffelseskosten:
 Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivakladd.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivakladder**, og velg deretter den relaterte koblingen.
+> [!NOTE]
+> Denne prosessen krever kanskje at du tilpasser tabellen Aktivakladder ved å legge til feltet Skrapverdi. Som standard vises ikke feltet på siden. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivakladder** og velger den relaterte koblingen.
 2. På siden **Aktivakladder** oppretter du anskaffelseslinjen. Hvis du vil ha mer informasjon, se [Slik bokfører du en aktivaanskaffelse manuelt med aktivafinanskladden](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. I **Skrapverdi**-feltet på kladdelinjen angir du beløpet for skrapverdien som et kreditbeløp (med et minustegn).
+3. I **Skrapverdi**-feltet på kladdelinjen angir du beløpet for skrapverdien som et kreditbeløp (med et minustegn foran, for eksempel **-** 100).
 4. Velg handlingen **Bokfør**.
 
 > [!NOTE]

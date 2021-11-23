@@ -1,6 +1,6 @@
 ---
 title: Slik oppretter du en behovsprognose
-description: Lær om prognosefunksjonen i Business Central og hvordan du kan opprette salgsprognoser og produksjonsprognoser.
+description: Lær om behovsprognosefunksjonene og hvordan du kan opprette salgsprognoser og produksjonsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438690"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643970"
 ---
 # <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
 Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.  
@@ -41,18 +41,17 @@ Du må angi en prognose som *Salgsvare*, *Komponent* eller *Begge*. Prognosetype
 ## <a name="component-forecast"></a>Komponentprognose  
 Komponentprognosen kan ses på som en prognose for en valgfri enhet i forbindelse med en overordnet vare. Dette kan for eksempel være nyttig hvis planleggeren kan anslå behovet for komponenten.  
 
-Siden komponentprognosen er utformet for å definere valgfrie enheter for en overordnet vare, skal komponentprognosen være lik eller mindre enn salgsvareprognoseantallet. Hvis komponentprognosen er større enn salgsvareprognosen, behandler systemet avviket mellom disse to prognosetypene som uavhengig behov.  
+Siden komponentprognosen er utformet for å definere valgfrie enheter for en overordnet vare, skal komponentprognosen være mindre enn eller lik salgsvareprognoseantallet. Hvis komponentprognosen er større enn salgsvareprognosen, behandler systemet avviket mellom disse to prognosetypene som uavhengig behov.  
 
 ## <a name="forecasting-periods"></a>Prognoseperioder  
- Prognoseperioden er gyldig fra sin egen startdato frem til startdatoen for den neste prognosen. På tidsintervallsiden kan du velge mellom flere alternativer for å sette inn behovet på en bestemt dato i en periode. Det anbefales derfor at du ikke endrer prognoseperiodeomfanget med mindre du vil flytte alle prognoseposter til startdatoen i denne perioden.  
+Prognoseperioden er gyldig fra sin egen startdato frem til startdatoen for den neste prognosen. På tidsintervallsiden kan du velge mellom flere alternativer for å sette inn behovet på en bestemt dato i en periode. Det anbefales derfor at du ikke endrer prognoseperiodeomfanget med mindre du vil flytte alle prognoseposter til startdatoen i denne perioden.  
 
 ## <a name="forecast-by-locations"></a>Prognose etter lokasjoner  
-
-Du kan angi på siden **Produksjonsoppsett** hvordan du vil håndtere lokasjoner som er definert i prognoser når du beregner en plan. 
+På siden **Produksjonsoppsett** kan du angi om du vil vurdere lokasjonene som er definert i prognoser når du beregner planer. 
 
 ### <a name="use-forecast-by-locations"></a>Bruk prognose etter lokasjoner
 
-Hvis du velger feltet **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] respektere alle lokasjonskodene som er angitt for hver enkelt behovsprognose, og beregne resten av prognosen for hver lokasjon.  
+Hvis du slår på vekslebryteren **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] respektere alle lokasjonskodene som er angitt for hver enkelt behovsprognose, og beregne resten av prognosen for hver lokasjon.  
 
 Tenk deg dette eksemplet: Selskapet kjøper og selger varer på to lokasjoner: ØST og VEST. For begge lokasjonene har du konfigurert et parti-til-parti-gjenbestillingsprinsipp. Du oppretter en prognose for de to lokasjonene:
 
@@ -68,7 +67,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 >  Hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Ikke bruk prognose etter lokasjoner
-Hvis du deaktiverer **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere lokasjonskodene som er angitt for hver enkelt behovsprognose, og samle prognoser til en prognose for tomme lokasjoner.  
+Hvis du deaktiverer vekslebryteren **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere lokasjonskodene som er angitt for hver enkelt behovsprognose, og samle prognoser til en prognose for tomme lokasjoner.  
 
 Tenk deg dette eksemplet: Selskapet kjøper og selger varer på to lokasjoner: ØST og VEST. For begge lokasjonene har du konfigurert et parti-til-parti-gjenbestillingsprinsipp. Du oppretter en prognose for de to lokasjonene:
 

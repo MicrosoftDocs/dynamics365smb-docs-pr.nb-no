@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443526"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651465"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Sette opp Envestnet Yodlee Bank Feeds-tjenesten
 
@@ -97,6 +97,11 @@ Bankfeedservicen vil bli aktivert når du kobler en bankkonto til den relaterte 
 5. Velg **OK**.
 
 På siden **Bankkontooversikt** er det merket av for **Tilknyttet**.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Slik redigerer du legitimasjon for en bankkonto på nettet
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.  
+2. Velg linjen for en bankkonto som ikke er tilknyttet en nettbankkonto, og velg deretter handlingen **Rediger informasjon om nettbankkonto**.
+3. Oppdater legitimasjonen.
 
 ## <a name="to-unlink-a-bank-account"></a>Fjerne tilknytning for en bankkonto
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482326"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651490"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller
 | Måleenhet | Enhetsgruppe | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Vare | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-kontaktfilter: **Produkttype** er **Varelager** |
 | Ressurs | Produkt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-kontaktfilter: **Produkttype** er **Tjenester** |
+| Vareenhet | CRM-enhet |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Ressursenhet | CRM-enhet |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Enhetsgruppe | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Kundeprisgruppe | Prisliste | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Salgspris | Produktprisliste | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-kontaktfilter: **Salgskode** er ikke tom, **Salgstype** er **Kundeprisgruppe** |
 | Salgsmulighet | Salgsmulighet | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller
 | Salgsfakturalinje | Fakturaprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Ordrehode | Ordre | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Salgshodefilter: **Dokumenttype** er Ordre, **Status** er Frigitt |
 | Salgsordrestatus | Salgsordrestatus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Tilordningene for tabellene for vareenheten, ressursenheten og enhetsgruppen er bare tilgjengelige hvis administratoren har aktivert **Funksjonsoppdatering: Flere enheter for synkronisering med Dynamics 365 Sales**-funksjonsbryteren på siden **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Synkronisering av varer og ressurser med produkter i ulike enheter](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisering av varer og ressurser med produkter i ulike enheter
+Virksomheter produserer eller kjøper ofte varene i én enhet og selger dem deretter i en annen. Hvis du vil synkronisere varer som bruker flere enheter, må du aktivere **Funksjonsoppdatering: Synkronisering av flere enheter med Dynamics 365 Sales**-funksjonsbryteren på siden **Funksjonsstyring**. 
+
+Når du gjør det, opprettes en ny enhetsgruppetabell som tilordnes til hver vare og ressurs i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gjør det mulig å knytte tabellene enhetsgruppe, vareenhet og ressursenhet i [!INCLUDE[prod_short](includes/prod_short.md)] til Dynamics 365 Sales-enhetsgruppen <!--Need to verify this name--> i [!INCLUDE[crm_md](includes/crm_md.md)], som vist i følgende bilde.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Tabelltilordninger for enhetsgrupper":::
+
+Du kan opprette flere enheter for hver enhetsgruppe og tilordne gruppene til produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. Etterpå kan du synkronisere produktene med varer og ressurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan manuelt pare vareenheter eller ressursenheter med en enhetsgruppe. Hvis for eksempel enhetsgruppen for varen eller ressursen ikke er kombinert med en enhetsgruppe i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel fordi enhetsgruppen ikke finnes, oppretter [!INCLUDE[prod_short](includes/prod_short.md)] automatisk enhetsgruppen i [!INCLUDE[crm_md](includes/crm_md.md)].
+
+### <a name="mapping-items-and-resources-to-products"></a>Tilordning av varer og ressurser til produkter
+Når du aktiverer **Funksjonsoppdatering: Synkronisering av flere enheter med Dynamics 365 Sales**-funksjonsbryteren, skjer følgende:
+
+* Det opprettes nye tilordninger for varer og ressurser.
+* Eksisterende tilordninger slettes. <!--which mappings?-->
+* En dataoppgradering oppretter enhetsgrupper for varer og ressurser.
+
+Hvis du vil bruke de nye tilordningene, må du synkronisere enhetsgrupper, vareenheter og ressursenheter. Du må også synkronisere varer og ressurser på nytt. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] tillater ikke at du endrer en enhetsgruppe for et produkt. Du må derfor ha kassert produktene og koblet fra varene og ressursene og deretter synkronisere ved å opprette nye produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. 
+
+Følgende fremgangsmåte beskriver hvordan du starter tilordningsenhetsgrupper:
+
+1. Pass på at varer i [!INCLUDE[crm_md](includes/crm_md.md)] ikke er kombinert med varer eller ressurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis dette er tilfellet, går du til sidene **Varer** eller **Ressurs**, bruker filteralternativene til å velge de koblede postene, og deretter velger du **Dynamics 365 Sales**-handlingen og velger **Koble fra**. Dette planlegger en bakgrunnsjobb slik at postene kobles fra. Mens jobben kjører, kan du kontrollere statusen ved å bruke handlingen **Synkroniseringslogg**. Hvis du vil ha mer informasjon, kan du se [Kobling og synkronisering](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Ettersom nye produkter blir opprettet i [!INCLUDE[crm_md](includes/crm_md.md)] med nye enhetsgrupper, gjør du ett av følgende for å unngå like navn:
+    
+    * Gi nytt navn til produktene, og deretter kan du kassere dem i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Kasser produkter (Salgssenter)](/dynamics365/sales-enterprise/retire-product). Hvis du vil redigere produktene i Microsoft Excel, logger du på Power Apps, velger miljøet ditt, går til tabellen **Produkt** og velger fanen **Data**. Fjern eventuelle filtre som er brukt. I gruppen **Data** velger du handlingen **Rediger data i Excel**. Legg til et prefiks eller suffiks for de koblede produktene, og kasser dem.
+    * Kasser produktene og slett dem. 
+
+3. Følg denne fremgangsmåten for å synkronisere **enhetsgrupper**, **enheter**, **varer** og **ressurser**:
+    1. I [!INCLUDE[prod_short](includes/prod_short.md)] åpner du siden **Tilkoblingsoppsett for Dynamics 365 Sales**.
+    2. Bruk handlingen **Kjør fullstendig synkronisering** for å åpne siden **Gjennomgang av full synkronisering av Dataverse**.
+    3. For tilordningene **VAREENHET**, **RESSURSENHET** og **ENHETSGRUPPE** velger du handlingen **Anbefal full synkronisering**.
+    4. Velg handlingen **Synkroniser alle**.
+
+    > [!NOTE]
+    > For tilordninger som ennå ikke er fullstendig synkronisert, vil handlingene synkroniseres fullstendig. Hvis du ikke vil at disse tilordningene skal synkroniseres, sletter du tilordningene fra siden. Dette fjerner de bare fra gjeldende fullstendige synkronisering og sletter ikke tilordningene.
+    
+5. Velg **VARE – PRODUKT**-tilordningen, og velg deretter handlingen **Start på nytt**. Dette oppretter nye produkter fra varene i [!INCLUDE[crm_md](includes/crm_md.md)], og tilordner en ny enhetsgruppe som er spesifikk for varen.
+6. Velg **RESSURS – PRODUKT**-tilordningen, og velg deretter handlingen **Start på nytt**. Dette oppretter nye produkter fra ressursene i [!INCLUDE[crm_md](includes/crm_md.md)], og tilordner en ny enhetsgruppe som er spesifikk for ressursene.
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 

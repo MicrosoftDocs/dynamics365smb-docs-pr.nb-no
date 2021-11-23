@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482173"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724713"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
 
@@ -57,7 +57,7 @@ Du kan komprimere følgende typer data ved hjelp av kjørsler. Det finnes en kj�
 Når du definerer kriterier for komprimeringen, kan du bruke alternativene under **Behold feltinnhold** til å beholde innholdet i bestemte felter. Hvilke felter som er tilgjengelige, avhenger av hvilke data du komprimerer.
 
 > [!NOTE]
-> Før du kan kjøre datokomprimering, må analysevisningene være oppdatert. Hvis du vil ha mer informasjon, kan du se [Slik oppdaterer du en analysevisning](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Før du kan kjøre datokomprimering, må analysevisningene være oppdatert. Hvis du vil ha mer informasjon, kan du se [Slik oppdaterer du en analysevisning](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (NOK)**, **Restbeløp (NOK)**, **Beløp (NOK)**, **Kjøp (NOK)**, **Fakturarabatt (NOK)**, **Kont.rabatt gitt (NOK)** og **Mulig kont.rabatt**.
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442703"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752583"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeide med rammeordrer eller rammebestillinger
 
@@ -67,7 +67,7 @@ Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette
 - På hurtigfanen **Fakturering** vises en informasjonsoversikt basert på det totale antallet i **Fakturer (antall)**-feltene på salgsrammebestillingslinjene.  
 - På hurtigfanen **Levering** vises en informasjonsoversikt basert på det totale antallet i **Motta (antall)**-feltene på salgsrammebestillingslinjene.  
 - På hurtigfanen **Forskudd** vises en informasjonsoversikt over eventuelle forhåndsbetalte beløp.  
-- På hurtigfanen **Leverandør** vises bestemte grunnleggende opplysninger om leverandøren.    
+- På hurtigfanen **Leverandør** vises bestemte grunnleggende opplysninger om leverandøren.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Vise ikke-bokførte og bokførte rammeordrelinjer   
 Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andre salgsdokumenter, beholdes etter bokføring som en liste over bokførte og ikke-bokførte salgsordrefakturalinjer.  
@@ -76,21 +76,21 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
 2. Åpne rammeordren du vil vise.
 3. Hvis du vil vise ikke-bokførte poster, velger du den aktuelle linjen, velger **Linje**-handlingen og deretter **Ikke-bokførte linjer**. Velg ett av følgende alternativene.  
 
-    |Alternativ|Beskrivelse|
-    |--|--|
-    |**Bestillinger**|Angir åpne ordrer knyttet til den valgte linjen.|
-    |**Fakturaer**|Angir åpne fakturaer som har blitt knyttet til den valgte linjen. Åpne fakturaer knyttes vanligvis til en rammeordre ved at rammeordrenummeret angis på salgsfakturalinjen.|
-    |**Ordreretur**|Angir åpne ordrereturer som har blitt knyttet til den valgte linjen.|
-    |**Kreditnotaer**|Angir åpne kreditnotaer som har blitt knyttet til den valgte linjen.|
+|Alternativ|Beskrivelse|
+|--|--|
+|**Bestillinger**|Angir åpne ordrer knyttet til den valgte linjen.|
+|**Fakturaer**|Angir åpne fakturaer som har blitt knyttet til den valgte linjen. Åpne fakturaer knyttes vanligvis til en rammeordre ved at rammeordrenummeret angis på salgsfakturalinjen.|
+|**Ordreretur**|Angir åpne ordrereturer som har blitt knyttet til den valgte linjen.|
+|**Kreditnotaer**|Angir åpne kreditnotaer som har blitt knyttet til den valgte linjen.|
 
 4. Hvis du vil vise bokførte poster, velger du den aktuelle linjen, velger **Linje**-handlingen og deretter **Bokførte linjer**-handlingen. Velg ett av følgende alternativene.  
 
-    |Alternativ|Beskrivelse|
-    |---|----|
-    |**Følgesedler**|Bokførte følgesedler knyttet til den valgte linjen.|
-    |**Fakturaer**|Bokførte fakturaer knyttet til den valgte linjen.|
-    |**Retursedler**|Åpne retursedler som har blitt knyttet til den valgte linjen.|
-    |**Kreditnotaer**|Bokførte kreditnotaer som har blitt knyttet til den valgte linjen.|
+|Alternativ|Beskrivelse|
+|---|----|
+|**Følgesedler**|Bokførte følgesedler knyttet til den valgte linjen.|
+|**Fakturaer**|Bokførte fakturaer knyttet til den valgte linjen.|
+|**Retursedler**|Åpne retursedler som har blitt knyttet til den valgte linjen.|
+|**Kreditnotaer**|Bokførte kreditnotaer som har blitt knyttet til den valgte linjen.|
 
 5. På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 

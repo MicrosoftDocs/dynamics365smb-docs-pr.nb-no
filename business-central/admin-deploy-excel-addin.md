@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589469"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724615"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hent Business Central-tillegget for Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589469"
 
 ### <a name="about-the-add-in"></a>Om tillegget
 
-Tillegget kalles **Microsoft Dynamics Office-tillegg** og er tilgjengelig for installasjon fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tillegget er installert, er handlingen **Rediger i Excel** tilgjengelig på de fleste listedelsidene fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png). Hvis du vil ha mer informasjon om å bruke tillegget, kan du se [Vis og rediger i Excel fra Business Central](across-work-with-excel.md)
+Tillegget kalles **Microsoft Dynamics Office-tillegg** og er tilgjengelig for installasjon fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tillegget er installert, er handlingen **Rediger i Excel** tilgjengelig på de fleste listedelsidene fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png). Hvis du vil ha mer informasjon om å bruke tillegget, kan du se [Vis og rediger i Excel fra Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tillegget fungerer bare i Windows, ikke i macOS.
@@ -118,7 +118,7 @@ Tillegget er nå tilkoblet [!INCLUDE [prod_short](includes/prod_short.md)]\, og 
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Klargjør enheter og nettverk for Excel-tillegget
 
-Nettverkstjenester som proxyer eller brannmurer må tillate ruting mellom hver klientenhet der tillegget er installert og mange serviceendepunkter. Se [Klargjør nettverket for Excel-tillegget](/dev-itpro/administration/configuring-network-for-addins) for en liste over endepunkter.
+Nettverkstjenester som proxyer eller brannmurer må tillate ruting mellom hver klientenhet der tillegget er installert og mange serviceendepunkter. Se [Klargjør nettverket for Excel-tillegget](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins) for en liste over endepunkter.
 
 ## <a name="troubleshooting"></a>Feilsøking
 

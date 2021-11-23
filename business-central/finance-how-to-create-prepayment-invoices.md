@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442188"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701568"
 ---
 # <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, kan du bruke funksjonen for forskudd. Det samme gjelder hvis leverandøren krever at du sender betaling før de leverer en ordre til deg.  
 
-Du kan starte betalingsprosessen når du oppretter en ordre eller bestilling. Hvis du har en standard forskuddsprosent for denne kunden eller leverandøren, vil det automatisk bli inkludert i den resulterende forskuddsfakturaen. Du kan også angi en forskuddsprosent for hele dokumentet.
+Du kan starte betalingsprosessen når du oppretter en ordre eller bestilling. Hvis du har en standard forskuddsprosent for en gitt vare på bestillingen eller for kunden eller leverandøren, vil det automatisk bli inkludert i den resulterende forskuddsfakturaen. Du kan også angi en forskuddsprosent for hele dokumentet.
 
 Når du har opprettet en ordre eller bestilling, kan du opprette en forskuddsfaktura. Du kan bruke standardprosentene for hver salgslinje eller bestillingslinje, eller du kan justere beløpet etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
 

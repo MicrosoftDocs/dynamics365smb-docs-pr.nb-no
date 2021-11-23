@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587483"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724665"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
 
@@ -24,7 +24,7 @@ Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretnings
  Gjennomganger er fullstendig scenarier, og du bør utføre dem fra begynnelse til slutt for å få størst mulig utbytte av dem. Mange er basert på demonstrasjoner av [!INCLUDE[prod_short](includes/prod_short.md)] og gjør det mulig å prøve disse prosedyrene selv, i ditt eget tempo.  
 
 > [!NOTE]
-> Noen av gjennomgangene krever eksempeldata som ikke er tilgjengelig i standard demoselskap i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
+> Noen av gjennomgangene krever eksempeldata som ikke er tilgjengelig i standard demoselskap i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
 |Hvis du vil|Se|  
 |--------|---------|  

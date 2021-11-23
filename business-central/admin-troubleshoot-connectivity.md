@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443184"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748964"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Feilsøk tilkobling for Business Central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443184"
 
 ## <a name="start-the-connectivity-check"></a>Start tilkoblingskontrollen 
 
-1. Velg [denne koblingen](https://businesscentral.dynamics.com/connectivity) eller åpne nettleseren, og skriv inn følgende URL-adresse i adressen:
+1. Åpne en nettleser.
+2. I adressen skriver du inn nettadressen du vil bruke til å åpne Business Central og legge til `/connectivity` på slutten. 
+
+    Hvis du for eksempel bruker `https://businesscentral.dynamics.com`, skriver du inn:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Velg **Start kontroll** på siden **Feilsøking av tilkobling**.
+    Hvis nettadressen inneholder leier-ID, for eksempel `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, skriver du inn:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Velg **Start kontroll** på siden **Feilsøking av tilkobling**.
 
     En serie sjekker kjøres, og resultatet av hver sjekk vises:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443184"
     - ![Tilkoblingskontroll mislyktes.](media/connectivity-failed.png) angir at sjekken er mislykket. Se gjennom meldingen nedenfor sjekken for mer informasjon.
     - ![Tilkoblingskontrollen ble ikke kjørt.](media/connectivity-blocked.png) angir at kontrollen ikke ble kjørt, vanligvis på grunn av en tidligere kontroll. Se gjennom meldingen nedenfor sjekken for mer informasjon.
 
-3. Velg **Start kontroll på nytt** for å kjøre kontrollen på nytt.
+4. Velg **Start kontroll på nytt** for å kjøre kontrollen på nytt.
 
 De følgende delene forklarer kontrollene som kjøres, og gir noen tips om hvordan du løser eventuelle problemer.
 

@@ -1,5 +1,5 @@
 ---
-title: Konfigurere arbeidssentre og produksjonsressurser | Microsoft-dokumentasjon
+title: Konfigurere arbeidssentre og produksjonsressurser
 description: Et **Arbeidssenter**-kort inneholder de faste verdiene og kravene til den aktuelle produksjonsressursen og styrer dermed avgangen for produksjonen som utføres i arbeidssenteret.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b247cdc220ad522fe42085528df8a25200d6dd48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3cc89545cced46acbe5d148853ac46c4135d251e
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440306"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "7714525"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 
@@ -55,12 +55,12 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 
     |Alternativ|Beskrivelse|
     |------|-----------|
-    |**Manuell**|Forbruk bokføres manuelt i ferdigmeldingskladden eller produksjonskladden.|
-    |**Fremover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er frigitt.|
-    |**Bakover**|Forbruk beregnes og bokføres automatisk når produksjonsordren er ferdigstilt.|
+    |**Manuell**| Brukt tid, utdata og svinn bokføres manuelt i ferdigmeldingskladden eller produksjonskladden.|
+    |**Fremover**|Utdata bokføres automatisk når produksjonsordren er frigitt.|
+    |**Bakover**|Utdata bokføres automatisk når produksjonsordren er fullført.|
 
     > [!NOTE]
-    > Om nødvendig kan trekkmetoden som velges her og på **Vare**-kortet, overstyres for individuelle operasjoner ved å endre innstillingen på rutelinjene
+    > Om nødvendig kan trekkmetoden som velges her, overstyres for individuelle operasjoner ved å endre innstillingen på rutelinjene
 
 12. I **Enhetskode**-feltet registrerer du tidsenheten som arbeidssenterets kostnadsberegning og kapasitetsplanlegging beregnes i.
     Du må først definere en enhetsmetode for å kunne kontrollere forbruk konstant. Enhetene du angir, er basisenheter. Behandlingstiden, for eksempel, beregnes i timer og minutter.
@@ -77,7 +77,81 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 > [!NOTE]
 > Bruk køtid til å angi en buffer mellom tiden som en komponent ankommer ved en produksjonsressurs eller arbeidssenter, og når operasjonen faktisk starter. En del leveres for eksempel til en produksjonsressurs på 10:00, men det tar en time å montere den på maskinen, slik at operasjonen ikke starter før 11,00. For å ta med denne timen vil køtiden være én time. Verdien i feltet **Køtid** på et produksjonsressurskort eller arbeidssenterkortet, pluss summen av verdiene i feltene **Oppstillingstid**, **Operasjonstid**, **Ventetid** og **Transporttid** på varerutelinjen slås sammen for å få leveringstiden for varen. Dette bidrar til å gi nøyaktig total produksjonstid.  
 
-## <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
+## <a name="considerations-about-capacity"></a>Hensyn til kapasiteten
+
+Kapasiteten og effektiviteten som er angitt for et arbeidssenter og en produksjonsressurs, påvirker ikke bare tilgjengelig kapasitet. De påvirker også den generelle produksjonstiden som består av oppstillingstid og operasjonstid, som begge er definert på rutelinjen.  
+
+Når en bestemt rutelinje fordeles til et arbeidssenter eller en produksjonsressurs, beregner systemet hvor mye kapasitet som trengs, og hvor lang tid det vil ta å fullføre operasjonen.  
+
+### <a name="run-time"></a>Operasjonstid
+
+For å beregne operasjonstiden tildeler systemet nøyaktig den tiden som er definert i feltet **Operasjonstid** for rutelinjen. Verken effektivitet eller kapasitet påvirker den tildelte tiden. Hvis for eksempel operasjonstiden er definert som to timer, vil den tildelte tiden være to timer, uavhengig av verdiene i feltene effektivitet og kapasitet i arbeidssenteret.  
+
+> [!NOTE]
+> Kapasiteten som brukes i beregningene, er definert som minimumsverdi mellom kapasiteten som er definert i arbeidssenteret eller produksjonsressursen, og samtidig kapasitet som er definert for rutelinjen. Hvis et arbeidssenter har en kapasitet på 100, men samtidig kapasitet for rutelinjen er to, brukes *2* i beregningene.
+
+*Varigheten* av en operasjon tar derimot hensyn til både effektivitet og kapasitet. Varighet beregnes som *operasjonstid/effektivitet/kapasitet*. Følgende oversikt viser noen eksempler på beregning av varighet for samme operasjonstid, som er definert som to timer for rutelinjen:
+
+- Effektivitet 80 % betyr at du vil trenge 2,5 timer i stedet for to timer  
+- Effektivitet 200 % betyr at du kan fullføre arbeidet i én time. Du kan gå gjennom et hull to ganger raskere hvis du har en gravemaskin som er dobbelt så stor som den som er mindre  
+
+    Du kan oppnå samme resultat hvis du bruker to mindre gravemaskiner i stedet for en stor, for eksempel *2* som kapasitet og *100 %* som effektivitet  
+
+Den fraksjonskapasiteten er vanskelig, og vi diskuterer den senere. 
+
+### <a name="setup-time"></a>Oppstillingstid
+
+Tidstilordning for oppstillingstiden avhenger av kapasiteten og beregnes som *oppstillingstid * kapasitet*. Hvis for eksempel kapasiteten er satt til *2*, vil den tilordnede oppstillingstiden bli dobbelt så lenge fordi du må definere to maskiner for operasjonen.  
+
+*Varigheten* av oppstillingstiden avhenger av effektivitet og beregnes som *tid/effektivitet for oppsettet*. 
+
+- Effektivitet 80 % betyr at du vil trenge 2,5 timer i stedet for to timer til å sette opp  
+- Effektivitet 200 % betyr at du kan fullføre oppsettet i 1 time i stedet for to timer definert på rutelinjen  
+
+Fraktalkapasiteten er ikke lett å få has på, og den brukes i svært spesielle tilfeller.
+
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Arbeidssenter behandler flere ordrer samtidig
+
+La oss bruke et maleappart som eksempel. Det har samme oppsett og operasjonstid for hvert behandlede parti. Men hvert parti kan inneholde flere individuelle bestillinger som kan males samtidig.  
+
+I dette tilfellet håndteres tidspunktet og kostnadene som tildeles ordrer, av oppstillingstiden og samtidig kapasitet. Vi anbefaler at du ikke bruker operasjonstiden på rutelinjene.  
+
+Den tilordnede oppstillingstiden for hver enkelt ordre blir i motsatt rekkefølge av antall ordrer (mengder) som utføres samtidig. Her er noen eksempler på beregning av oppstillingstid når det er definert som to timer for rutelinjen:
+
+- Hvis det finnes to ordrer, bør samtidig kapasitet på rutelinjen settes til 0,5.
+
+    Som et resultat av dette vil den tildelte kapasiteten for hver enkelt være én time, men varigheten for hver ordre vil være to timer.
+- Hvis det finnes to ordrer med et antall på én og fire, vil den samtidige kapasiteten for rutelinjen for den første ordren være 0,2 og 0,8 for den andre.  
+
+    Som et resultat av dette vil den tildelte kapasiteten for den første ordren være 24 min og for den andre 96. Varigheten for begge ordrene forblir to timer.  
+
+I begge tilfeller er den totale tildelte tiden for alle ordrer to timer.
+
+
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effektiv ressurs kan bare dedikere en del av arbeidsdatoen til produktivarbeid
+
+> [!NOTE]
+> Dette scenarioet anbefales ikke. Vi anbefaler at du bruker effektiviteten i stedet. 
+
+Et av arbeidssentrene representerer en erfaren arbeidsenhet som arbeider med 100 % effektivitet på aktiviteter. De kan imidlertid bare bruke 50 % av arbeidstiden på oppgaver, fordi resten av tiden de løser administrative oppgaver. Selv om denne arbeideren kan fullføre en totimers aktivitet på nøyaktig to timer, må du i gjennomsnitt vente to timer til mens personen håndterer andre tildelinger.  
+
+Tildelt operasjonstid er to timer, og varigheten er fire timer.  
+
+Ikke bruk oppstillingstid for slike scenarioer, ettersom systemet bare vil tildele 50 % av tiden. Hvis oppstillingstiden er satt til *2*, er den tildelte oppstillingstiden én time, og varigheten er to timer.
+
+### <a name="consolidated-calendar"></a>Konsolidert kalender
+
+Når feltet **Konsolidert kalender** er valgt, har arbeidssenteret ingen kapasitet. I stedet er kapasiteten lik summen av kapasiteten for alle produksjonsressursene som er tilordnet arbeidssenteret.  
+
+> [!NOTE]
+>  Produksjonsressursens effektivitet blir konvertert til kapasiteten i arbeidssenteret.
+
+Hvis du for eksempel har to produksjonsressurser med en effektivitet på 80 og 70, vil den konsoliderte kalenderposten ha en effektivitet for 100, en kapasitet på 1,5, og en samlet kapasitet som 12 timer (åtte timers skift * 1,5 kapasitet). 
+
+> [!NOTE]
+>  Bruk feltet **Konsolidert kalender** når du strukturerer rutene til å planlegge produksjonsoperasjoner på produksjonsressursnivå, ikke arbeidssenternivå. Når du konsoliderer kalenderen, blir siden og rapportene **Arbeidssenterbelastning** en oversikt over samlebelastningen i alle produksjonsressurser som er tilordnet arbeidssenteret.
+
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
 
 Det er viktig å planlegge hvilke kapasiteter som skal utgjøre den totale kapasiteten når produksjonsressurser og arbeidssentre opprettes.
 

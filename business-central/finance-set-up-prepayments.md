@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.date: 06/29/2021
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446318"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701518"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører for å sørge for at alle delvise betalinger bokføres mot en faktura. Hvis du vil ha mer informasjon, kan du se [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md).
@@ -60,14 +60,15 @@ Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du
 > [!NOTE]  
 > Du kan bruke samme nummerserie for forskuddsfakturaer og vanlige fakturaer, eller du kan bruke forskjellige nummerserier. Hvis du bruker forskjellige serier, kan de ikke overlappe hverandre fordi ett og samme nummer kan ikke forekomme i begge seriene.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definere forskuddsprosenter for varer, kunder og leverandører  
-For en vare kan du definere en standard forskuddsprosent for alle kunder, en bestemt kunde eller en kundeprisgruppe.  
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definere forskuddsprosenter for varer, kunder og leverandører
+
+For en vare kan du definere en standard forskuddsprosent for alle kunder, en bestemt kunde eller en kundeprisgruppe. Hvis du ikke vil bruke samme forskuddsprosent på alle kunder, må du angi hvilke kunder eller hvilke kundeprisgrupper forskuddsprosenten skal gjelde.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg en vare, og velg deretter handlingen **Forskuddsprosenter**.  
 3. Fyll ut feltene etter behov på siden **Forskuddsprosenter for salg**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-For en kunde eller leverandør kan du definere en standard forskuddsprosent for alle varer og alle typer salgslinjer. Du angir denne på kortet for kunden eller leverandøren.
+For en kunde eller leverandør kan du definere en standard forskuddsprosent for alle varer og alle typer salgslinjer. Du angir denne på kortet for kunden eller leverandøren. Følgende fremgangsmåte viser hvordan du angir en forskuddsprosent for en kunde, men lignende fremgangsmåte gjelder leverandører.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Åpne kortet for en kunde.
