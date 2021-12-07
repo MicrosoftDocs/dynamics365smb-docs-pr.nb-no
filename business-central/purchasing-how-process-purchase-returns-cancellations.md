@@ -113,7 +113,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 
     - For bokførte dokumentlinjer som ikke er av typen **Vare**, for eksempel varegebyrer, opprettes en ny dokumentlinje som er en kopi av den opprinnelige bokførte dokumentlinjen.  
 
-    - **Enhetskost (NOK)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
+    - **Enhetskost (LV)**-feltet beregnes på den nye linjen fra kosten for de tilhørende varepostene.  
 
     - Hvis det kopierte dokumentet er en bokført følgeseddel, et bokført mottak, en bokført returseddel eller en bokført returforsendelse, beregnes salgsprisen fra varekortet.  
 

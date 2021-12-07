@@ -30,11 +30,11 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 ## <a name="example"></a>Eksempel  
  Følgende eksempel illustrerer hvordan avvik beregnes for kjøpte varer. Dette er basert på følgende scenario:  
 
-1.  Brukeren kjøper en vare for NOK 90,00, men standardkosten er NOK 100,00. Derfor blir netto kjøpsavvik NOK -10,00.  
-2.  NOK 10,00 krediteres kontoen for kjøpsavvik.  
-3.  Brukeren bokfører et varegebyr på NOK 20,00. Den faktiske kostnaden økes derfor til NOK 110,00, og verdien av kjøpsavvik blir NOK 10,00.  
-4.  NOK 20,00 debiteres kontoen for kjøpsavvik. Derfor blir netto kjøpsavvik NOK 10,00.  
-5.  Brukeren revaluerer varen fra NOK 100,00 til NOK 70,00. Dette påvirker ikke avviksberegningen, bare lagerverdien.  
+1.  Brukeren kjøper en vare for LV 90,00, men standardkosten er LV 100,00. Derfor blir netto kjøpsavvik LV -10,00.  
+2.  LV 10,00 krediteres kontoen for kjøpsavvik.  
+3.  Brukeren bokfører et varegebyr på LV 20,00. Den faktiske kostnaden økes derfor til LV 110,00, og verdien av kjøpsavvik blir LV 10,00.  
+4.  LV 20,00 debiteres kontoen for kjøpsavvik. Derfor blir netto kjøpsavvik LV 10,00.  
+5.  Brukeren revaluerer varen fra LV 100,00 til LV 70,00. Dette påvirker ikke avviksberegningen, bare lagerverdien.  
 
  Tabellen nedenfor viser de resulterende verdipostene.  
 

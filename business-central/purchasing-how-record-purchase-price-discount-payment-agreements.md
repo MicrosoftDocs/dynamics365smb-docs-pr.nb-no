@@ -78,7 +78,7 @@ Når leverandøren har informert deg om hvilke linjerabatter som gis, angir du f
 
     Fortsett å definere nye betingelser for kjøpsfakturarabatt.
 4. På siden **Leverandørkort** velger du handlingen **Fakturarabatter**. Siden **Levrd./fakt.-rabatter** åpnes.
-5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
+5. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i LV.
 6. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 7. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 8. Gjenta trinn 5 til 7 for hver valuta som leverandøren vil motta en forskjellig fakturarabatt for.
@@ -109,7 +109,7 @@ Hvis du har faste betingelser for fakturarabatter fra leverandører, kan du angi
 
  I tillegg til (eller i stedet for) en rabattprosent, kan du koble et gebyrbeløp til et bestemt fakturabeløp.  
 
- Du kan definere betingelsene for fakturarabatten i NOK for innenlandske leverandører, og i fremmed valuta for utenlandske leverandører.  
+ Du kan definere betingelsene for fakturarabatten i LV for innenlandske leverandører, og i fremmed valuta for utenlandske leverandører.  
 
  Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] automatisk beregne fakturarabattene for forespørsler, rammebestillinger, bestillinger, fakturaer eller kreditnotaer.  
 
@@ -134,7 +134,7 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 2. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer om avtaler om pris/rabatt gjelder for informasjon om dokument- eller journallinjen, og setter deretter inn den aktuelle enhetsprisen og rabattprosent, ved hjelp av følgende kriterier:
 
     - Er det et minimumsbehov i pris/rabatt-avtalen som er oppfylt?
-    - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om NOK gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[prod_short](includes/prod_short.md)] inn den laveste prisen og den høyeste linjerabatten i NOK.
+    - Er det et valutabehov i pris/rabatt-avtalen som er oppfylt? I så fall settes den laveste prisen og den høyeste linjerabatten inn for valutaen, selv om LV gir en bedre pris. Hvis det ikke finnes noen pris/rabatt-avtale for den angitte valutakoden, setter [!INCLUDE[prod_short](includes/prod_short.md)] inn den laveste prisen og den høyeste linjerabatten i LV.
 
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 

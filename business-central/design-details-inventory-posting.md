@@ -38,7 +38,7 @@ Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokf�
 
 Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter resulterer i finansposter.  
 
- Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på NOK 7 og en sats for indirekte kostnader på NOK 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
+ Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på LV 7 og en sats for indirekte kostnader på LV 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
 
 ### <a name="item-ledger-entries-1"></a>Vareposter (1)
 

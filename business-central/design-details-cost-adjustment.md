@@ -122,7 +122,7 @@ Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mott
 |15.01.20|[Lagerkonto]|2130|-10,00|3|  
 |15.01.20|[Vareforbrukskonto]|7290|10,00|4|  
 
-Senere bokfører du et relatert varegebyr på NOK 2,00 fakturert 10.02.20. Du kjører den satsvise jobben **Juster kostverdi - vareposter** og deretter **Bokfør lagerkost i Finans**. Kjørselen for kostjustering justerer kostnadene for salget tilsvarende med NOK -2,00, og kjørselen **Bokfør lagerkost i Finans** bokfører de nye verdipostene i finans. Resultatet blir som følger.  
+Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kjører den satsvise jobben **Juster kostverdi - vareposter** og deretter **Bokfør lagerkost i Finans**. Kjørselen for kostjustering justerer kostnadene for salget tilsvarende med LV -2,00, og kjørselen **Bokfør lagerkost i Finans** bokfører de nye verdipostene i finans. Resultatet blir som følger.  
 
 #### <a name="value-entries-2"></a>Verdiposter (2)  
 

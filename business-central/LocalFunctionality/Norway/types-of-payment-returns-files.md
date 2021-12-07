@@ -46,9 +46,9 @@ Følgende skjer når avregningsreturen leses inn:
 ## <a name="exchange-rates-by-settlement"></a>Valutakurser ved oppgjør  
 Ved oppgjør håndteres valutakurser på følgende måter:  
 
-- Betaling fra en konto i lokal valuta - Hvis en betaling i en annen valuta utføres fra en konto i NOK, flagger banken avregningsreturen med en advarsel om hvilken vekslingskurs som benyttes mellom NOK og valutaen som benyttes for betalingen.  
+- Betaling fra en konto i lokal valuta – Hvis en betaling i en annen valuta utføres fra en konto i LV, flagger banken avregningsreturen med en advarsel om hvilken vekslingskurs som benyttes mellom LV og valutaen som benyttes for betalingen.  
 
-- Betaling fra en valutakonto - Hvis betalingen utføres fra en valutakonto, benyttes vekslingskursen for denne valutaen og NOK. Dette fordi banken ikke informerer systemet om valutakursen.  
+- Betaling fra en valutakonto – Hvis betalingen utføres fra en valutakonto, benyttes vekslingskursen for denne valutaen og LV. Dette fordi banken ikke informerer systemet om valutakursen.  
 
 ## <a name="warnings-on-settlement-returns"></a>Advarsler i avregningsreturer  
 Det kan forekomme advarsler når avregningsreturen leses inn. Innbetalingskladdelinjer med advarsler er merket med et symbol. Hvis du vil vite mer om advarselen, kan du åpne siden **Avregningsopplysninger**.  

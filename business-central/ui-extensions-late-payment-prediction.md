@@ -63,7 +63,7 @@ Disse webtjenestene er tilstandsløse, noe som betyr at de bare bruker data til 
 
 ### <a name="data-required-to-train-and-evaluate-the-model"></a>Data som kreves for å lære opp og evaluere modellen 
 For hver **kundepost** som har en tilhørende **bokført salgsfaktura**:
-- Beløp (NOK) inkl. mva.
+- Beløp (LV) inkl. mva.
 - Betalingsbetingelser i dager beregnes som **forfallsdato** minus **bokføringsdato**.
 - Om det finnes en kreditnota som er utlignet. 
 

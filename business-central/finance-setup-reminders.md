@@ -51,7 +51,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
     >
     > Hvis du vil angi at renter skal beregnes, velger du feletet **Beregn renter**.
 
-    For hver purregrad kan du også angi tilleggsgebyr både i NOK og i utenlandsk valuta. Du kan definere mange tilleggsgebyr i fremmed valuta for hver kode på siden **Purregrad**.  
+    For hver purregrad kan du også angi tilleggsgebyr både i LV og i utenlandsk valuta. Du kan definere mange tilleggsgebyr i fremmed valuta for hver kode på siden **Purregrad**.  
 
     Tilleggsgebyrene kan beregnes på tre ulike måter, som er definert av verdien i feltet **Tilleggsgebyr beregningstype**.  
 
@@ -69,7 +69,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 5. På siden **Valutaer for purregrad** definerer du en valutakode og et tilleggsgebyr for hver purregradskode og tilhørende purregradsnummer.
 
     > [!NOTE]  
-    > Når du oppretter purringer i en fremmed valuta, brukes betingelsene for den fremmede valutaen du definerer her, til å opprette purringer. Hvis det ikke er definert noen betingelser for purringer i fremmed valuta, brukes purrebetingelsene for NOK som er definert på siden **Purregrader**, og deretter konverteres de til den relevante valutaen.
+    > Når du oppretter purringer i en fremmed valuta, brukes betingelsene for den fremmede valutaen du definerer her, til å opprette purringer. Hvis det ikke er definert noen betingelser for purringer i fremmed valuta, brukes purrebetingelsene for LV som er definert på siden **Purregrader**, og deretter konverteres de til den relevante valutaen.
 
     For hver purregrad kan du spesifisere tekst som skal skrives ut før (**Starttekst**) eller etter (**Sluttekst**), i postene i purringen.
 
@@ -91,7 +91,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
     |%11|Selskapsnavnet|  
     |%12|Innholdet i **Tilleggsgebyr per linje**-feltet i purrehodet|  
 
-    Hvis du for eksempel skriver **Du skylder %9 %7, som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 NOK, som forfaller 02-02-2014.**
+    Hvis du for eksempel skriver **Du skylder %9 %7, som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 LV, som forfaller 02-02-2014.**
 
     > [!NOTE]
     > Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).

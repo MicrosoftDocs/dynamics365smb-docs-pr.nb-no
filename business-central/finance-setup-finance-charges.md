@@ -45,12 +45,12 @@ I tillegg er hver betingelse i tabellen Rentenotatekst knyttet til en undertabel
 2. Fyll ut feltene etter behov.
 3. Hvis du vil bruke flere kombinasjoner av rentebetingelser, definerer du en kode for hver kombinasjon.
 
-    For hver rentebetingelse kan du spesifisere individuelle betingelser, som kan inkludere tilleggsgebyrer både i NOK og i utenlandsk valuta. Du kan definere tilleggsgebyrer i fremmed valuta for hver betingelse på siden **Rentenotabetingelser**.
+    For hver rentebetingelse kan du spesifisere individuelle betingelser, som kan inkludere tilleggsgebyrer både i LV og i utenlandsk valuta. Du kan definere tilleggsgebyrer i fremmed valuta for hver betingelse på siden **Rentenotabetingelser**.
 4. Velg handlingen **Valutaer**.
 5. På siden **Valuta for rentenotabeting.** definerer du en valutakode og et tilleggsgebyr for hver betingelse.
 
     > [!NOTE]  
-    > Når du oppretter renter i en utenlandsk valuta, brukes betingelsene for utenlandsk valuta du definerer her, til å opprette rentenotaer. Hvis det ikke er definert noen betingelser for rentenotaer i utenlandsk valuta, brukes rentenotabetingelsene for NOK som er spesifisert på siden **Rentenotabetingelser**, og deretter konverteres de til den relevante valutaen.
+    > Når du oppretter renter i en utenlandsk valuta, brukes betingelsene for utenlandsk valuta du definerer her, til å opprette rentenotaer. Hvis det ikke er definert noen betingelser for rentenotaer i utenlandsk valuta, brukes rentenotabetingelsene for LV som er spesifisert på siden **Rentenotabetingelser**, og deretter konverteres de til den relevante valutaen.
 
     For hver rentenotabetingelse kan du angi tekst som skal skrives ut før (**Starttekst**) eller etter (**Sluttekst**), i postene i rentenotaen.  
 6. Velg henholdsvis handlingen **Starttekst** eller **Sluttekst**, og fyll ut siden **Rentenotatekst**.

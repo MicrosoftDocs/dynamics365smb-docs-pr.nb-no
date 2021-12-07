@@ -1,6 +1,6 @@
 ---
 title: Definer tilleggsvaluta
-description: Finans er definert til å bruke den lokale valutaen (NOK), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.
+description: Finans er definert til å bruke den lokale valutaen (LV), og en annen valuta blir definert som tilleggsvaluta, med en tilordnet gjeldende valutakurs.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -25,7 +25,7 @@ Ettersom selskaper har drift i stadig flere land/regioner, blir det også stadig
 > Hvis du ser etter sanntidsinformasjon om utenlandsk valutakurser (FX) eller historiske kurser i [!INCLUDE[prod_short](includes/prod_short.md)], finner du den referert til som valuta. I tillegg til denne artikkelen kan du også se [Oppdater valutakurser](finance-how-update-currencies.md).
 
 
-Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster.
+Finans er definert til å bruke den lokale valutaen (LV), men du kan definere at den skal bruke en annen valuta med en gjeldende valutakurs. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både LV og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster.
 
 > [!Warning]
 > Funksjonen for tilleggsrapporteringsvaluta må ikke brukes som grunnlag for oversettelse av årsregnskap med mindre du forstår begrensningene. Den er ikke et verktøy som kan utføre oversettelse av årsregnskap fra utenlandske datterselskaper som en del av en selskapskonsolidering. Funksjonen for tilleggsrapporteringsvaluta kan bare brukes til å utarbeide rapporter i en annen valuta, som om denne valutaen var selskapets lokale valuta.
@@ -41,7 +41,7 @@ Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et 
 Flere finansrapporter baserer seg på finansposter. Hvis du vil vise rapportdata i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** på hurtigfanen **Alternativer** for den relevante finansrapporten.
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
-Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i NOK i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt. Kjørselen **Juster valutakurser** brukes til å justere valutakursene for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).
+Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i LV i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt. Kjørselen **Juster valutakurser** brukes til å justere valutakursene for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
@@ -58,27 +58,27 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
 |Felt|Description|  
 |---------------------------------|---------------------------------------|  
-|**Kto. for real. agio - t.val.**|Finanskontoen der du vil bokføre agio for kursjusteringer mellom NOK og tilleggsrapporteringsvalutaen.|  
-|**Kto. for real. disagio - t.val**|Finanskontoen der du vil bokføre disagio for kursjusteringer mellom NOK og tilleggsrapporteringsvalutaen.|  
-|**Konto for restagio**|Finanskontoen der du vil bokføre restbeløp som er gevinst hvis du bokfører i finansmodulen i både NOK og en tilleggsrapporteringsvaluta.|  
-|**Konto for restdisagio**|Finanskontoen der du vil bokføre restbeløp som er tap hvis du bokfører i finansmodulen i både NOK og en tilleggsrapporteringsvaluta.|
+|**Kto. for real. agio - t.val.**|Finanskontoen der du vil bokføre agio for kursjusteringer mellom LV og tilleggsrapporteringsvalutaen.|  
+|**Kto. for real. disagio - t.val**|Finanskontoen der du vil bokføre disagio for kursjusteringer mellom LV og tilleggsrapporteringsvalutaen.|  
+|**Konto for restagio**|Finanskontoen der du vil bokføre restbeløp som er gevinst hvis du bokfører i finansmodulen i både LV og en tilleggsrapporteringsvaluta.|  
+|**Konto for restdisagio**|Finanskontoen der du vil bokføre restbeløp som er tap hvis du bokfører i finansmodulen i både LV og en tilleggsrapporteringsvaluta.|
 
 > [!NOTE]  
->  Restbeløp kan forekomme når [!INCLUDE[prod_short](includes/prod_short.md)] avrunder debet- og kreditbeløp som er konvertert fra NOK til en tilleggsrapporteringsvaluta.  
+>  Restbeløp kan forekomme når [!INCLUDE[prod_short](includes/prod_short.md)] avrunder debet- og kreditbeløp som er konvertert fra LV til en tilleggsrapporteringsvaluta.  
 
-For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom NOK og tilleggsrapporteringsvalutaen.  
+For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom LV og tilleggsrapporteringsvalutaen.  
 
 ### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Slik angir du metoden for valutakursjustering for alle finanskonti:  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Velg den relevante kontoen på siden **Kontoplan**, og velg deretter handlingen **Rediger**.  
 3. På siden **Finanskort** velger du relevant metode i **Valutakursjustering**-feltet.  
 
-    Hvis du bokfører i en tilleggsrapporteringsvaluta, angir du i feltet **Valutakursjustering** hvordan denne finanskontoen skal justeres for valutakurssvingninger mellom NOK og tilleggsrapporteringsvalutaen. Tabellen nedenfor viser alternativene du kan velge mellom.  
+    Hvis du bokfører i en tilleggsrapporteringsvaluta, angir du i feltet **Valutakursjustering** hvordan denne finanskontoen skal justeres for valutakurssvingninger mellom LV og tilleggsrapporteringsvalutaen. Tabellen nedenfor viser alternativene du kan velge mellom.  
 
     |Felt|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
-    |**Ingen justering**|Ingen kursjusteringer gjøres til finanskontoen. Dette er standardalternativet.<br /><br /> **OBS!** Dette alternativet bør velges hvis valutakursen mellom NOK og tilleggsrapporteringsvalutaen alltid er fast.|  
-    |**Juster beløp**|NOK-beløpet er justert for eventuell agio og disagio. Agio eller disagio bokføres på finanskontoen i **Beløp**-feltet og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** i **Valutaer**-siden.|  
+    |**Ingen justering**|Ingen kursjusteringer gjøres til finanskontoen. Dette er standardalternativet.<br /><br /> **OBS!** Dette alternativet bør velges hvis valutakursen mellom LV og tilleggsrapporteringsvalutaen alltid er fast.|  
+    |**Juster beløp**|LV-beløpet er justert for eventuell agio og disagio. Agio eller disagio bokføres på finanskontoen i **Beløp**-feltet og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** i **Valutaer**-siden.|  
     |**Juster tilleggsvaluta- beløp**|Tilleggsrapporteringsvalutaen justeres for eventuelle agio og disagio. Agio eller disagio bokføres på finanskontoen i feltet **Tilleggsvalutabeløp** og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** på **Valutaer**-siden.|  
 
     Agio eller disagio bokføres når du kjører kjørselen **Juster valutakurser**. I den kjørselen identifiserer justeringsvalutakursen i vinduet **Valutakurser** og beløpene på siden **Beløp** og **Tilleggsvalutabeløp** i finansposten sammenlignes for å finne ut hvorvidt det er agio eller disagio. Kjørselen bruker alternativet du velger i **Valutakursjustering**-feltet, til å finne ut hvordan agio eller disagio skal beregnes og bokføres for finanskontoer.  
@@ -88,7 +88,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 ### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Slik angir du metode for valutakursjustering for mva-poster  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** velger du relevant metode i **Mva-valutakursjustering**-feltet.  
-3. Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du i **Mva-valutakursjustering**-feltet angi hvordan kontoene som er definert for mva-bokføring på siden **Mva-bokføringsoppsett**, skal justeres for valutakursendringer mellom NOK og tilleggsrapporteringsvalutaen.  
+3. Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du i **Mva-valutakursjustering**-feltet angi hvordan kontoene som er definert for mva-bokføring på siden **Mva-bokføringsoppsett**, skal justeres for valutakursendringer mellom LV og tilleggsrapporteringsvalutaen.  
 
     Når du kjører kjørselen **Juster valutakurser**, identifiseres justeringsvalutakursen på **Valutakurs**-siden og sammenligner beløpene i feltene **Beløp** og **Tilleggsvalutabeløp** i mva-posten for å finne ut om det er agio eller disagio. Kjørselen bruker alternativet som du velger i dette feltet, til å angi hvordan agio og disagio for mva-konti skal bokføres.  
 
@@ -97,7 +97,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
     |Felt|Description|  
     |----------------------------------|---------------------------------------|  
     |**Ingen justering**|Ingen kursjusteringer gjøres til finanskontoen. Dette er standardalternativet.|  
-    |**Juster beløp**|NOK-beløpet er justert for eventuell agio og disagio. Agio eller disagio bokføres på finanskontoen i **Beløp**-feltet og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** i **Valutaer**-siden.|  
+    |**Juster beløp**|LV-beløpet er justert for eventuell agio og disagio. Agio eller disagio bokføres på finanskontoen i **Beløp**-feltet og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** i **Valutaer**-siden.|  
     |**Juster tilleggsvaluta- beløp**|Tilleggsrapporteringsvalutaen justeres for eventuelle agio og disagio. Agio eller disagio bokføres på finanskontoen i feltet **Tilleggsvalutabeløp** og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** på **Valutaer**-siden.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Slik aktiverer du tilleggsrapporteringsvalutaen  
@@ -107,11 +107,11 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 4. Velg **Ja**-knappen for å bekrefte at du ønsker å aktivere valutaen.  
 5. Den satsvise jobben **Justere tilleggsrapporteringsvaluta** åpnes.
 
-    Denne kjørselen konverterer NOK-beløp i eksisterende poster til tilleggsrapporteringsvalutaen. Den satsvise jobben bruker en standard valutakurs som er kopiert fra valutakursen som er gyldig på arbeidsdatoen, på **Valutakurser**-siden. Restbeløp som oppstår ved omregning fra NOK til tilleggsrapporteringsvalutaen, bokføres i agio- og disagiokontoene som er angitt på **Valutaer**-siden. Bokføringsdatoen og bilagsnummeret for disse postene er identiske for den opprinnelige finansposten. Når alle disse restbeløpene er bokført, bokfører kjørselen en avrundingspost på avslutningsdatoen for hvert avsluttet år til kontoen for fri egenkapital. Dette er for å sikre at sluttsaldoen for inntektskontoene for hvert avsluttet år er 0 i både NOK og tilleggsrapporteringsvalutaen.
+    Denne kjørselen konverterer LV-beløp i eksisterende poster til tilleggsrapporteringsvalutaen. Den satsvise jobben bruker en standard valutakurs som er kopiert fra valutakursen som er gyldig på arbeidsdatoen, på **Valutakurser**-siden. Restbeløp som oppstår ved omregning fra LV til tilleggsrapporteringsvalutaen, bokføres i agio- og disagiokontoene som er angitt på **Valutaer**-siden. Bokføringsdatoen og bilagsnummeret for disse postene er identiske for den opprinnelige finansposten. Når alle disse restbeløpene er bokført, bokfører kjørselen en avrundingspost på avslutningsdatoen for hvert avsluttet år til kontoen for fri egenkapital. Dette er for å sikre at sluttsaldoen for inntektskontoene for hvert avsluttet år er 0 i både LV og tilleggsrapporteringsvalutaen.
 6. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]      
 7. Velg **OK** for å kjøre kjørselen.  
 
-Når kjørselen er utført, vil beløpene i følgende eksisterende poster være både i NOK og tilleggsrapporteringsvalutaen:  
+Når kjørselen er utført, vil beløpene i følgende eksisterende poster være både i LV og tilleggsrapporteringsvalutaen:  
 
 - Finansposter  
 - Vareutligningsposter  
@@ -121,7 +121,7 @@ Når kjørselen er utført, vil beløpene i følgende eksisterende poster være 
 - Produksjonsordrelinjer  
 - Produksjonsordreposter  
 
-I tillegg vil alle fremtidige poster av samme type få beløpene registrert i både NOK og tilleggsrapporteringsvalutaen.  
+I tillegg vil alle fremtidige poster av samme type få beløpene registrert i både LV og tilleggsrapporteringsvalutaen.  
 
 > [!NOTE]  
 >  Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  

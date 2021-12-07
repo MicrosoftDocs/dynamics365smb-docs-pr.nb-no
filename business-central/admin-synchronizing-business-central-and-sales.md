@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 247f1e7b2568cbe323af083ff03349d1afe3de72
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325213"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865366"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisere data i Business Central med Microsoft Dataverse
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,6 +39,10 @@ Når synkroniseringen er satt opp, kan du koble [!INCLUDE[prod_short](includes/p
 ||Fullstendig synkronisering av alle data i alle tabelltilordninger.<br /><br /> Du kan synkronisere alle data i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller som er tilordnet, og opprette nye poster eller rader i målløsningen for ukoblede poster i kildeløsningen.<br /><br /> Fullstendig synkronisering synkroniserer alle data og ignorerer kobling. Vanligvis gjør du en fullstendig synkronisering når du har satt opp integrasjon og bare én av løsningene inneholder data. En fullstendig synkronisering kan også være nyttige i et demonstrasjonsmiljø.|[Kjør en full synkronisering](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Planlagt synkronisering|Synkronisere alle dataendringer for alle tabelltilordninger.<br /><br /> Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] på planlagte intervaller ved å definere jobber i jobbkøen.|[Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
+> [!NOTE]
+> Synkroniseringen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er basert på den planlagte kjøringen av prosjektkøpostene og garanterer ikke sanntidsdatakonsekvens mellom to tjenester. For sanntidsdatakonsekvens bør du utforske [virtuelle Business Central-tabeller](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller Business Central-API-er.   
+
+
 ## <a name="standard-table-mapping-for-synchronization"></a>Standard tabelltilordning for synkronisering
 Tabellene i [!INCLUDE[prod_short](includes/cds_long_md.md)], for eksempel kontiene, er integrert med tilsvarende typer tabeller i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel kunder. Ved arbeid med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data kan du lage forbindelser, kalt koblinger, mellom tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -52,7 +56,7 @@ Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller
 | Selger/innkjøper | Bruker | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontaktfilter: **Status** er **Nei**, **Bruker lisensiert** er **Ja**, integreringsbrukermodus er **Nei** |
 | Kunde | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontofilter: **Relasjonstype** er **Kunde** og **Status** er **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Blokkert** er tom (kunden er ikke sperret). |
 | Leverandør | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontofilter: **Relasjonstype** er **Leverandør** og **Status** er **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Blokkert** er tom (leverandøren er ikke sperret). |
-| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-kontaktfilter: **Type** er **Person** og kontakten er tilordnet til et selskap. [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontaktfilter: Kontakten er tilordnet et firma, og overordnet kundetype er **Konto**. |
+| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-kontaktfilter: **Type** er **Person** og kontakten er tilordnet til et selskap. [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontaktfilter: Kontakten er tilordnet et firma, og overordnet kundetype er **Kunde**. |
 | Valuta | Transaksjonsvaluta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
 > [!NOTE]

@@ -76,7 +76,7 @@ For aktiva med en levetid på tre år bruker du av skattemessige årsaker følge
 * År 2: 38 %  
 * År 3: 37 %  
 
-Anskaffelseskostnadene er NOK 100 000, og avskrivningslevetiden er fem år. Avskrivningen beregnes årlig.  
+Anskaffelseskostnadene er LV 100 000, og avskrivningslevetiden er fem år. Avskrivningen beregnes årlig.  
 
 | Dato | Aktivabokf.type | dager | Beløp | Bokført verdi |
 | --- | --- | --- | --- | --- |

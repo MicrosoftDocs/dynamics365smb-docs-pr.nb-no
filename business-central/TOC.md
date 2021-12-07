@@ -24,27 +24,13 @@
 
 ### Designdetaljer
 #### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
-#### Designdetaljer: Forsyningsplanlegging
-##### [Oversikt over forsyningsplanlegging](design-details-supply-planning.md)
-##### [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
-##### [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)  
-##### [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
-##### [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
-##### [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
-##### [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)
 #### Designdetaljer: Kostberegning for beholdning
-##### [Oversikt over kostberegning](design-details-inventory-costing.md)
+##### [Designdetaljer for kostberegning for beholdning](design-details-inventory-costing.md)
 ##### [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 ##### [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md)
 ##### [Designdetaljer: Vareutligning](design-details-item-application.md)  
 ##### [Designdetaljer: Kjent vareutligningsproblem](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)  
-##### Designdetaljer: Bokføringsdato på verdiposten for justering
-###### [Designdetaljer: Bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Bokføringsdato for justeringsverdipost sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)  
 ##### [Designdetaljer: Gjennomsnittskost](design-details-average-cost.md)  
 ##### [Designdetaljer: Avvik](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 ##### [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 ##### [Designdetaljer: Revaluering](design-details-revaluation.md)
+#### Designdetaljer: Bokføringsdato på verdiposten for justering
+##### [Oversikt over bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Bokføringsdato for justeringsverdipost sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Designdetaljer: Dimensjonssettposter
+##### [Designdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)
+##### [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)
+##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)
+#### Designdetaljer: Forsyningsplanlegging
+##### [Designdetaljer for forsyningsplanlegging](design-details-supply-planning.md)
+##### [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
+##### [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)  
+##### [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
+##### [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
+##### [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
+##### [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)
 #### Designdetaljer: Lagerstyring
-##### [Oversikt over lagerstyring](design-details-warehouse-management.md)
+##### [Designdetaljer for lagerstyring](design-details-warehouse-management.md)
 ##### [Designdetaljer: Lageroversikt](design-details-warehouse-overview.md)  
 ##### [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md)  
 ##### [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)  
 ##### [Designdetaljer: Integrasjon med lagerbeholdning](design-details-integration-with-inventory.md)
 #### Designdetaljer: Varesporing
-##### [Oversikt over varesporing](design-details-item-tracking.md)
+##### [Designdetaljer for varesporing](design-details-item-tracking.md)
 ##### [Designdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)  
 ##### [Designdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
 ##### [Designdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 ##### [Designdetaljer: Varesporing på lageret](design-details-item-tracking-in-the-warehouse.md)
 #### Designdetaljer: Finanskladd – bokfør linje
-##### [Finanskladd – bokfør linje](design-details-general-journal-post-line.md)
+##### [Designdetaljer for finanskladd – bokfør linje](design-details-general-journal-post-line.md)
 ##### [Oversikt over Finanskladd – bokfør linje](design-details-general-journal-post-line-overview.md)  
 ##### [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 ##### [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
-#### Designdetaljer: Dimensjonssettposter
-##### [Designdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)  
-##### [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)  
-##### [Designdetaljer: Tabellstruktur](design-details-table-structure.md)  
 
 ## Prøv
 ### [Prøveversjoner og abonnementer](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Avskrive eller amortisere aktiva](fa-how-depreciate-amortize.md)
 ### [Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md)
 ### [Behandle budsjetter for aktiva](fa-how-manage-budgets.md)
+### [Feilsøking av aktivaposter](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Forbindelser
 ### [Oversikt over forbindelser](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Mva-ID-typer for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Mva-omberegning](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektroniske fakturaer
-##### [Elektroniske fakturaer](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Definere elektronisk fakturering](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generere elektroniske fakturaer](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Elektroniske fakturaer (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Definere PAC-webtjenester](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Definere elektronisk fakturering (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generere elektroniske fakturaer (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte-følgesedler og -overføringsordrer (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Generelt
 ##### [Elektroniske regnskapbestemmelser i Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Foreta elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Generelt
-##### [Definere PAC-webtjenester](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Skrive ut feilsøkingsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Opprette innskudd](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
@@ -1286,9 +1288,9 @@
 ##### [Nederlanske elektroniske banktjenester](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanktjenester](LocalFunctionality/Netherlands/telebanking.md)
 ##### [Betalingsscenarioer](LocalFunctionality/Netherlands/payment-scenarios.md)
-##### [Betalingsscenario 1 - Betalinger innland (NOK til NOK)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
+##### [Betalingsscenario 1 - Betalinger innland (LV til LV)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betalingsscenario 2 - Utenlandsk betaling (VAL til VAL)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
-##### [Betalingsscenario 3 - Utenlandsk betaling (NOK til NOK)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
+##### [Betalingsscenario 3 - Utenlandsk betaling (LV til VAL)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
 ##### [Opprette forslag](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Docket-rapporter](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Legge inn og bokføre kontant- og bank- eller girokladder](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)

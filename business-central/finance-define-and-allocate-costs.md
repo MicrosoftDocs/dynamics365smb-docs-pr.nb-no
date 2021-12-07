@@ -135,7 +135,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 14. Hvis du vil beregne delen, velger du handlingen **Beregn fordelingsnøkkel**.  
 
 > [!IMPORTANT]  
->  [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 NOK med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
+>  [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
 ## <a name="see-also"></a>Se også  
  [Definere kost.regnskap](finance-set-up-cost-accounting.md)   

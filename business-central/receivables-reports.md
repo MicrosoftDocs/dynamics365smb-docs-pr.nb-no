@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i kunderapportering.
 | **Avstem kunde- og leverandørkonti** | 33 |Viser finanspostene som er et resultat av bokføring av kunde- og leverandørposter per finanskonto og bokføringsgrupper. Denne rapporten brukes til å avstemme saldoene på kunde- og leverandørposter til finanssaldoer. |
 | **Kunde – enkel forfallsoversikt**| 109 |Dette er en eldre versjon av en aldersfordelt rapport for kunder. Vi anbefaler at du bruker rapporten **Aldersfordelt saldoliste – kunde** i stedet. |
 | **Salgsstatistikk** |112  |[!INCLUDE [reports-sales-statistics](includes/reports-sales-statistics.md)]<br>Denne rapporten kan også brukes i kunder etter hvert som det er enklere å foreta et raskt oppslag av bokførte betalinger, rabatter og salg for en gitt kunde.|
-|**Kundeoversikt**|101| Viser diverse grunnleggende informasjon om kunder, for eksempel kundebokføringsgruppe, rabattgruppe, rentenota- og betalingsinformasjon, selger, kundens standardvaluta og kredittgrense i lokal valuta (NOK) og kundens gjeldende saldo (i NOK). Rapporten kan for eksempel brukes til å vedlikeholde opplysningene i tabellen Kunde.|
+|**Kundeoversikt**|101| Viser diverse grunnleggende informasjon om kunder, for eksempel kundebokføringsgruppe, rabattgruppe, rentenota- og betalingsinformasjon, selger, kundens standardvaluta og kredittgrense i lokal valuta (LV) og kundens gjeldende saldo (i LV). Rapporten kan for eksempel brukes til å vedlikeholde opplysningene i tabellen Kunde.|
 
 ## <a name="see-also"></a>Se også
 

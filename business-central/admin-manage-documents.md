@@ -59,7 +59,7 @@ Når du definerer kriterier for komprimeringen, kan du bruke alternativene under
 > [!NOTE]
 > Før du kan kjøre datokomprimering, må analysevisningene være oppdatert. Hvis du vil ha mer informasjon, kan du se [Slik oppdaterer du en analysevisning](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
-Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (NOK)**, **Restbeløp (NOK)**, **Beløp (NOK)**, **Kjøp (NOK)**, **Fakturarabatt (NOK)**, **Kont.rabatt gitt (NOK)** og **Mulig kont.rabatt**.
+Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (LV)**, **Restbeløp (LV)**, **Beløp (LV)**, **Kjøp (LV)**, **Fakturarabatt (LV)**, **Kont.rabatt gitt (LV)** og **Mulig kont.rabatt**.
 
 ## <a name="posting-compressed-entries"></a>Bokføre komprimerte poster
 Komprimerte poster bokføres litt forskjellig fra standardbokføring. Dette er for å redusere antallet nye finansposter som opprettes ved hjelp av datokomprimering, og er spesielt viktig når du lagrer informasjon som dimensjoner og dokumentnumre. Datokomprimering oppretter nye oppføringer på følgende måte:

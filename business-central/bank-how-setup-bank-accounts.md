@@ -25,7 +25,7 @@ Bankkonti fungerer på ulike måter avhengig av om en valutakode er angitt:
 
 - Valutakoden er tom
 
-  Alle transaksjoner i bankkontoen vil være i den lokale valutaen (NOK) for det gjeldende selskapet. Hvis det gjøres en transaksjon til kontoen i en annen valuta, bokføres beløpene til kontoen i NOK basert på den relevante valutakursen. Eventuelle sjekker som er utstedt fra denne kontoen, må utstedes i NOK. Hvis bankkontoen brukes i en kladd, vil kladdelinjen automatisk arve den tomme valutakoden.  
+  Alle transaksjoner i bankkontoen vil være i den lokale valutaen (LV) for det gjeldende selskapet. Hvis det gjøres en transaksjon til kontoen i en annen valuta, bokføres beløpene til kontoen i LV basert på den relevante valutakursen. Eventuelle sjekker som er utstedt fra denne kontoen, må utstedes i LV. Hvis bankkontoen brukes i en kladd, vil kladdelinjen automatisk arve den tomme valutakoden.  
 - Valutakoden er angitt
 
   Alle transaksjoner som gjøres til denne kontoen, må være i samme valuta som angitt på kontoen. Alle sjekker som er utstedt fra denne kontoen, må også ha denne valutaen.  
@@ -84,9 +84,9 @@ Jo bedre tilordningsopplysningene du gjør i betalingsavstemmingskladden er, jo 
 > [!WARNING]
 > Noen felter kan inneholde sensitive opplysninger, for eksempel feltene **Bankregistreringsnr.**, **Bankkontonr.**, **SWIFT-kode** og **IBAN- kode**. Hvis du vil ha mer informasjon, se [Overvåke sensitive felt](across-log-changes.md#monitoring-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts&quot;></a>Slik setter du opp bankkonti
+## <a name="to-set-up-bank-accounts"></a>Slik setter du opp bankkonti
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png &quot;Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.
 2. På siden **Bankkonti** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 

@@ -16,14 +16,14 @@ ms.locfileid: "6660184"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
-Ettersom selskaper har drift i stadig flere land/regioner, blir det viktigere at de kan handle og rapportere finansinformasjon i mer enn én valuta. Den lokale valutaen (NOK) er definert på siden **Finansoppsett** som beskrevet i artikkelen [Konfigurer finans](finance-setup-finance.md). Når den lokale valutaen (NOK) er definert, vises den som en tom valuta, så når feltet **Valuta** er tomt, betyr det at valutaen er i NOK.  
+Ettersom selskaper har drift i stadig flere land/regioner, blir det viktigere at de kan handle og rapportere finansinformasjon i mer enn én valuta. Den lokale valutaen (LV) er definert på siden **Finansoppsett** som beskrevet i artikkelen [Konfigurer finans](finance-setup-finance.md). Når den lokale valutaen (LV) er definert, vises den som en tom valuta, så når feltet **Valuta** er tomt, betyr det at valutaen er i LV.  
 
-Deretter må du definere valutakoder for hver valuta du bruker, hvis du kjøper eller selger i andre valutaer enn den lokale valutaen (NOK). Bankkonti kan også opprettes ved hjelp av valutaer. Det er mulig å registrere finanstransaksjoner i ulike valutaer, men finanstransaksjonen vil alltid bokføres i lokal valuta (NOK).
+Deretter må du definere valutakoder for hver valuta du bruker, hvis du kjøper eller selger i andre valutaer enn den lokale valutaen (LV). Bankkonti kan også opprettes ved hjelp av valutaer. Det er mulig å registrere finanstransaksjoner i ulike valutaer, men finanstransaksjonen vil alltid bokføres i lokal valuta (LV).
 
 > [!Important]
 > Du må ikke opprette den lokale valuta koden **Finansoppsett** og på siden **Valutaer**. Dette vil skape forvirring mellom den tomme valutaen og den lokale valutakoden i valutatabellen, og bankkonti, kunder eller leverandører kan opprettes ved en feiltakelse, noen med den tomme valutaen og noen med den lokale valutakoden.
 
-Finans er definert til å bruke den lokale valutaen (NOK), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både NOK og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (NOK).  
+Finans er definert til å bruke den lokale valutaen (LV), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både LV og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (LV).  
 
 > [!IMPORTANT]
 > Hvis du vil bruke en tilleggsrapporteringsvaluta for finansrapportering, må du kontrollere at du har forstått begrensningene. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -56,15 +56,15 @@ Du angir valutakodene i **Valutar**, inkludert tilleggsinformasjon og innstillin
 |**Avrundingspresisjon, pris**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer prisavrundingspresisjonen for en valuta, blir alle priser i den valutaen avrundet med den oppdaterte presisjonen.|
 |**Pris, antall desimaler**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer antall desimaler for pris for en valuta, blir alle priser i valutaen avrundet med de oppdaterte desimalene.|
 |**Avrundingspresisjon, utligning**|Angir størrelsen på intervallet som er tillatt som avrundingsdifferanse når du utligner poster i ulike valutaer med hverandre.|
-|**Konvertering av NOK-avrunding – debetkonto**|Angir konverteringsinformasjon som også må inneholde en debetkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – NOK**.|
-|**Konvertering av NOK-avrunding – kreditkonto**|Angir konverteringsinformasjon som også må inneholde en kreditkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – NOK**.|
+|**Konvertering av LV-avrunding – debetkonto**|Angir konverteringsinformasjon som også må inneholde en debetkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – LV**.|
+|**Konvertering av LV-avrunding – kreditkonto**|Angir konverteringsinformasjon som også må inneholde en kreditkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – LV**.|
 |**Justert den**|Datoen for den siste valutajusteringen.|
 |**Endret den**|Datoen for endringen av valutaens oppsett.|
 |**Betalingstoleranse %**|Maksimum betalingstoleranseprosent som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
 |**Maks. betalingstoleransebeløp**|Maksimum betalingstoleransebeløp som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
 |**Valutafaktor**|Angir forholdet mellom valutaen og den lokale valutaen som bruker den faktiske valutakursen.|
-|**Kto. for real. agio - t.val.**|Angir finanskontoen som brukes til å bokføre agio for kursjusteringer mellom den lokale valutaen (NOK) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Kto. for real. disagio - t.val**|Angir finanskontoen som brukes til å bokføre disagio for kursjusteringer mellom den lokale valutaen (NOK) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Kto. for real. agio - t.val.**|Angir finanskontoen som brukes til å bokføre agio for kursjusteringer mellom den lokale valutaen (LV) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+|**Kto. for real. disagio - t.val**|Angir finanskontoen som brukes til å bokføre disagio for kursjusteringer mellom den lokale valutaen (LV) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
 |**Konto for restagio**|Angir finanskontoen som brukes til å bokføre restagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
 |**Konto for restdisagio**|Angir finanskontoen som brukes til å bokføre restdisagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
 |**Maks. tillatte mva-differanse**|Maksimumsbeløpet som er tillatt for mva-forskjeller i denne valutaen. Hvis du vil ha mer informasjon, kan du se [Korriger mva-beløp manuelt i salgs- og kjøpsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
@@ -72,11 +72,11 @@ Du angir valutakodene i **Valutar**, inkludert tilleggsinformasjon og innstillin
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
 
-Når du mottar en faktura fra et selskap i utenlandsk valuta, er det ganske enkelt å beregne den lokale valutaverdien (NOK) for fakturaen basert på dagens valutakurs. Fakturaen leveres imidlertid ofte med betalingsbetingelser, slik at du kan forsinke betalingen til en senere dato, som innebærer en mulig annen valutakurs. Dette problemet i kombinasjon med at valutakurser alltid avviker fra de offisielle valutakursene gjør det umulig å forutse det nøyaktige beløpet i den lokale valutaen (NOK) som kreves for å dekke fakturaen. Hvis fakturaens forfallsdato går til neste måned, må du kanskje også revaluere det lokale valutabeløpet (NOK) på slutten av måneden. Du må definere valutajusteringen fordi den nye NOK-verdien som kreves for å dekke fakturabeløpet, kan være forskjellig, og selskapets gjeld for leverandøren er muligens endret. Det nye beløpet i NOK kan være høyere eller lavere enn det forrige beløpet, og representerer derfor en gevinst eller et tap. Men siden fakturaen ikke er betalt ennå, regnes gevinst eller som *urealisert*. Senere betales fakturaen, og banken har returnert den med den faktiske valutakursen for betalingen. Det er ikke før nå *realisert* gevinst eller tap er beregnet. Urealisert gevinst eller tap tilbakeføres deretter, og faktisk gevinst eller tap bokføres i stedet.
+Når du mottar en faktura fra et selskap i utenlandsk valuta, er det ganske enkelt å beregne den lokale valutaverdien (LV) for fakturaen basert på dagens valutakurs. Fakturaen leveres imidlertid ofte med betalingsbetingelser, slik at du kan forsinke betalingen til en senere dato, som innebærer en mulig annen valutakurs. Dette problemet i kombinasjon med at valutakurser alltid avviker fra de offisielle valutakursene gjør det umulig å forutse det nøyaktige beløpet i den lokale valutaen (LV) som kreves for å dekke fakturaen. Hvis fakturaens forfallsdato går til neste måned, må du kanskje også revaluere det lokale valutabeløpet (LV) på slutten av måneden. Du må definere valutajusteringen fordi den nye LV-verdien som kreves for å dekke fakturabeløpet, kan være forskjellig, og selskapets gjeld for leverandøren er muligens endret. Det nye beløpet i LV kan være høyere eller lavere enn det forrige beløpet, og representerer derfor en gevinst eller et tap. Men siden fakturaen ikke er betalt ennå, regnes gevinst eller som *urealisert*. Senere betales fakturaen, og banken har returnert den med den faktiske valutakursen for betalingen. Det er ikke før nå *realisert* gevinst eller tap er beregnet. Urealisert gevinst eller tap tilbakeføres deretter, og faktisk gevinst eller tap bokføres i stedet.
 
 I eksemplet nedenfor er en faktura mottatt den 1. januar med valutabeløpet på 1 000. På tidspunktet er valutakursen er 1,123.
 
-|Dato|Handling|Valutabeløp|Dokumentsats|NOK-beløp på dokument|Justeringssats|Beløp for urealisert agio|Betalingssats|Beløp for realisert disagio|  
+|Dato|Handling|Valutabeløp|Dokumentsats|LV-beløp på dokument|Justeringssats|Beløp for urealisert agio|Betalingssats|Beløp for realisert disagio|  
 |-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
 |1/1|**Fakturering**|1000|1,123|1123|||||
 |1/31|**Justering**|1000||1125|1,125|2|||
@@ -104,11 +104,11 @@ Følgende tabell beskriver nøkkelhandlinger på siden **Valutaer**. Noen av han
 ||**Journal for justering av valutakurs**|Vis resultatet av å kjøre den satsvise jobben **Juster valutakurser**. Det opprettes én linje for hver valuta eller hver kombinasjon av valuta og bokføringsgruppe som er med i justeringen.|
 |**Valutakurstjeneste**|**Valutakurstjenester**|Vis eller rediger oppsettet av tjenestene som er konfigurert til å hente oppdaterte valutakurser når du velger handlingen **Oppdater valutakurser**.|
 ||**Oppdater valutakurser**|Få de siste valutakursene fra en tjenesteleverandør.|
-|**Rapporter**|**Valutaoppgjør**|Vis saldoene for alle kunder og leverandører i både utenlandsk og lokal valuta (NOK). Rapporten viser to saldoer i NOK. Den ene er valutaoppgjøret konvertert til NOK med gjeldende kurs på transaksjonstidspunktet. Den andre er saldo for fremmed valuta omgjort til NOK med gjeldende kurs på arbeidsdatoen.|
+|**Rapporter**|**Valutaoppgjør**|Vis saldoene for alle kunder og leverandører i både utenlandsk og lokal valuta (LV). Rapporten viser to saldoer i LV. Den ene er valutaoppgjøret konvertert til LV med gjeldende kurs på transaksjonstidspunktet. Den andre er saldo for fremmed valuta omgjort til LV med gjeldende kurs på arbeidsdatoen.|
 
 ## <a name="exchange-rates"></a>Valutakurser
 
-Valutakursene er verktøyet for å beregne den lokale valutaverdien (NOKk) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
+Valutakursene er verktøyet for å beregne den lokale valutaverdien (LVk) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
 
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
@@ -137,7 +137,7 @@ Justeringsvalutakursen eller den tilhørende valutakursen blir brukt til å oppd
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
 
-Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i NOK i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt.
+Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i LV i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt.
 
 Kjørselen **Juster valutakurser** brukes til å justere valutakursene manuelt for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter.  
 
@@ -163,7 +163,7 @@ For bankkonti justerer kjørselen valutaen med valutakursen som gjelder på bokf
 Justeringspostene for bankkontoens finanskonto, og for tap/vinning-kontoen tilordnes bankkontoens standarddimensjon.
 
 ### <a name="effect-on-gl-accounts"></a>Innvirkning på finanskonti
-Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du få kjørselen til å opprette nye finansposter for valutajusteringer mellom NOK og tilleggsrapporteringsvalutaen. Kjørselen beregner forskjellene for hver finanspost og justerer finansposten i henhold til innholdet i feltet **Valutakursjustering** for hver finanskonto.
+Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du få kjørselen til å opprette nye finansposter for valutajusteringer mellom LV og tilleggsrapporteringsvalutaen. Kjørselen beregner forskjellene for hver finanspost og justerer finansposten i henhold til innholdet i feltet **Valutakursjustering** for hver finanskonto.
 
 ##### <a name="dimensions-on-gl-account-entries"></a>Dimensjoner på finanskontoposter
 Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.

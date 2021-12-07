@@ -95,14 +95,14 @@ Disse webtjenestene er tilstandsløse, noe som betyr at de bare bruker data til 
 For å lage prognoser om fremtidige inntekter og utgifter, krever webtjenester historiske data fra salg, leverandører og mva.
 
 #### <a name="receivables"></a>Salg:
-Feltene **Forfallsdato** og **Beløp (NOK)** på siden **Kundeposter**, der:
+Feltene **Forfallsdato** og **Beløp (LV)** på siden **Kundeposter**, der:
 - Dokumenttypen er Faktura eller Kreditnota.
 - Forfallsdatoen er mellom datoen som beregnes basert på verdiene i feltene **Historiske perioder** og **Periodetype** på siden **Kontantstrømoppsett** og arbeidsdatoen.
 
 Før du bruker den forutsigbare webtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaksjoner etter **Forfallsdato** basert på verdien i feltet **Periodetype** på siden **Kontantstrømoppsett**.
 
 #### <a name="payables"></a>Kjøp:
-Feltene **Forfallsdato** og **Beløp (NOK)** på siden **Leverandørposter**, der:
+Feltene **Forfallsdato** og **Beløp (LV)** på siden **Leverandørposter**, der:
 - Dokumenttypen er Faktura eller Kreditnota.
 - Forfallsdatoen er mellom datoen som beregnes basert på verdiene i feltene **Historiske perioder** og **Periodetype** på siden **Kontantstrømoppsett** og arbeidsdatoen.
 

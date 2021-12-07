@@ -48,7 +48,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
     |**Kontonr.**|Angi kontonummeret avhengig av hva du valgte i feltet **Kontotype**.|  
     |**Gebyrkontonr.**|Angi kontonummeret for gebyrkontoen.|  
     |**Avrunding/Avvikkontonr.**|Angi finanskontoen for å bokføre avviket som et resultat av avrunding.|  
-    |**Maks. avrunding/avvik (NOK)**|Angi den maksimale avrundingen eller det maksimale avviket som godtas av avregningsreturen.|  
+    |**Maks. avrunding/avvik (LV)**|Angi den maksimale avrundingen eller det maksimale avviket som godtas av avregningsreturen.|  
     |**Bilagsnr.serie**|Angi nummerserien som skal brukes når du bokfører betalinger ved hjelp av remitteringssystemet.|  
     |**Nytt bilag pr.**|Velg hvordan bilagene skal nummereres når du bokfører en betaling:<br /><br /> -   **Dato** - Nye bilag nummereres i henhold til datoen for når betalingen utføres.<br />-   **Leverandør** - Nye bilag nummereres i henhold til leverandør.|  
     |**Returkladd malnavn**|Angi finanskladdemalen som avregnede betalinger overføres til.|  

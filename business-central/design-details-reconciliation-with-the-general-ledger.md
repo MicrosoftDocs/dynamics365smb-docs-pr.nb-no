@@ -50,27 +50,27 @@ Tabellen nedenfor viser hvordan leddet er definert på varekortet.
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
 |**Lagermetode**|Standard|  
-|**Kostpris (standard)**|NOK 1,00|  
-|**Sats for indirekte kostnader**|NOK 0,02|  
+|**Kostpris (standard)**|LV 1,00|  
+|**Sats for indirekte kostnader**|LV 0,02|  
 
 Tabellen nedenfor viser hvordan kjeden er definert på varekortet.  
 
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
 |**Lagermetode**|Standard|  
-|**Kostpris (standard)**|NOK 150,00|  
-|**Sats for indirekte kostnader**|NOK 25,00|  
+|**Kostpris (standard)**|LV 150,00|  
+|**Sats for indirekte kostnader**|LV 25,00|  
 
 Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkortet.  
 
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
-|**Direkte enhetskost**|NOK 2,00|  
+|**Direkte enhetskost**|LV 2,00|  
 |**Indirekte kostprosent**|10|  
 
 ##### <a name="scenario"></a>Scenario  
 1. Brukeren kjøper 150 ledd og bokfører bestillingen som mottatt. (Kjøp)  
-2. Brukeren bokfører bestillingen som fakturert. Dermed opprettes et beløp for indirekte kostnader på NOK 3,00 som skal tildeles, og et avviksbeløp på NOK 18,00. (Kjøp)  
+2. Brukeren bokfører bestillingen som fakturert. Dermed opprettes et beløp for indirekte kostnader på LV 3,00 som skal tildeles, og et avviksbeløp på LV 18,00. (Kjøp)  
 
     1. De midlertidige kontiene fjernes. (Kjøp)  
     2. Den direkte kostnaden bokføres. (Kjøp)  
@@ -98,7 +98,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
     1. De midlertidige kontiene fjernes. (Avgang)  
     2. Den direkte kostnaden overføres fra VIA-kontoen til lagerkontoen. (Avgang)  
     3. Den indirekte kosten (indirekte kostnader) overføres fra kontoen for indirekte kost til lagerkontoen. (Avgang)  
-    4. Dette resulterer i et avviksbeløp på NOK 157,00. Avvik beregnes bare for varer med standard kostpris. (Avgang)  
+    4. Dette resulterer i et avviksbeløp på LV 157,00. Avvik beregnes bare for varer med standard kostpris. (Avgang)  
 
         ![Resultatet av avgangsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_output.png "Resultatet av avgangsbokføring til finanskonti")  
 
@@ -111,7 +111,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
         >  * Underleveranseavvik  
         >  * Avvik i indirekte produksjonskostnader  
 
-9. Brukeren revaluerer kjeden fra NOK 150,00 til NOK 140,00. (Justering/revaluering/avrunding/overføring)  
+9. Brukeren revaluerer kjeden fra LV 150,00 til LV 140,00. (Justering/revaluering/avrunding/overføring)  
 
     ![Resultatet av justeringsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultatet av justeringsbokføring til finanskonti")  
 

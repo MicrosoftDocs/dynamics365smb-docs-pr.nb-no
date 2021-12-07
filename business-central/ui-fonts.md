@@ -1,6 +1,6 @@
 ---
 title: Tilgjengelige skrifter
-description: Den elektroniske versjonen av Business Central inneholder forhåndsinstallerte skrifter på serverne som kan brukes til å definere rapporter.
+description: Finn ut om de forhåndsinstallerte skriftene du kan bruke til eksterne rapporter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588027"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868304"
 ---
 # <a name="available-fonts"></a>Tilgjengelige skrifter
 
@@ -48,15 +48,22 @@ I tillegg til MICR-skrifter er spesielle sikkerhetsskrifter tilgjengelige for å
 Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Skrifter for strekkoder
-Skrifter for generering av endimensjonale strekkoder er installert og tilgjengelig for bruk i både Word- og RDLC-rapportoppsett.
+Skrifter for generering av strekkoder er installert og tilgjengelig for bruk i både Word- og RDLC-rapportoppsett.
 
-Følgende strekkode-symbologier støttes:
+Følgende endimensjonale strekkode-symbologier støttes:
 * Code 3 of 9 (Code 39)
 * Kode 128
 * Kode 93
 * Codabar
 * MSI
 * Interleaved 2 of 5
+
+Følgende todimensjonale strekkode-symbologier støttes:
+* Aztec
+* Datamatrise
+* Maxicode
+* PDF417
+* QR
 
 Hvis du vil ha mer informasjon, kan du se [Strekkodeskrifter med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

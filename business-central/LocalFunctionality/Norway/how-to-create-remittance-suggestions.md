@@ -36,7 +36,7 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
     |**Siste betalingsdato**|Angi den siste betalingsdatoen.|  
     |**Søk etter kontantrabatter**|Velg dette alternativet hvis du vil søke etter poster med kontantrabatter.|  
     |**Bruk leverandørprioritet**|Velg dette alternativet hvis leverandørprioritet skal brukes til å søke i poster.|  
-    |**Disponibelt beløp (NOK)**|Angi betalingene for totalsummer som er mindre enn eller lik det angitte beløpet.|  
+    |**Disponibelt beløp (LV)**|Angi betalingene for totalsummer som er mindre enn eller lik det angitte beløpet.|  
     |**Bokføringsdato**|Angi en bokføringsdato.|  
     |**Erstatt bokføringsdato med forfallsdato**|Velg for å sette inn forfallsdatoen for posten som bokføringsdato for betalingene.|  
     |**Sjekk bilagstype**|Angi hvilke av følgende bilagstyper som skal sjekkes for betaling:<br /><br /> -   **Alle** - alle bilagstyper sjekkes.<br />-   **Faktura/kreditnota** - Bare faktura- eller kreditnotaposter sjekkes.|  

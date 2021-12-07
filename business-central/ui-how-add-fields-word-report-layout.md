@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444798"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865341"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
@@ -35,7 +35,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
   
 3.  Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
   
-4.  I ruten **XML-tilordning** i rullegardinlisten **Egendefinert XML-del** velger den egendefinerte XML-delen for ADD INCLUDE-rapporten,<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> som vanligvis er sist i oversikten. Navnet på den egendefinerte XML-delen har følgende format:  
+4.  I ruten **XML-tilordning**, i **Tilpass XML-del**-nedtrekkslisten, velger du den egendefinerte XML-delen for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som vanligvis er den siste i listen. Navnet på den egendefinerte XML-delen har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
   
@@ -78,7 +78,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
  Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> -klienten.  
+>  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
 #### <a name="to-add-an-image"></a>Legge til et bilde  
   
@@ -107,7 +107,7 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
 ### <a name="custom-xml-part-in-word"></a>Egendefinert XML-del i Word  
  Åpne den egendefinerte XML-delen i ruten **XML-tilordning** i Word, og bruk deretter ruten til å tilordne elementer til innholdskontroller i Word-dokumentet. Ruten **XML-tilordning** er tilgjengelig i fanebladet **Utvikler**. (Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Elementene i **XML-tilordning**-ruten vises i en struktur som ligner på XML-kilden. Etikettfelt er gruppert under et felles **Etiketter**-element, og dataelementer og kolonner er ordnet i en hierarkisk struktur som svarer til XML-kilden, med kolonner i alfabetisk rekkefølge. Elementer identifiseres ved navn i henhold til egenskapen Name i Report Dataset Designer i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Elementene i **XML-tilordning**-ruten vises i en struktur som ligner på XML-kilden. Etikettfelt er gruppert under et felles **Etiketter**-element, og dataelementer og kolonner er ordnet i en hierarkisk struktur som svarer til XML-kilden, med kolonner i alfabetisk rekkefølge. Elementer identifiseres ved kolonnenavn i henhold til rapportens datasett i AL-kode. Hvis du vil ha mer informasjon, kan du se [Definering av et rapportdatasett](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  Den følgende illustrasjonen viser den egendefinerte XML-delen fra forrige inndeling i **XML-tilordning**-ruten i et Word-dokument.  
   

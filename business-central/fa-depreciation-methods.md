@@ -72,7 +72,7 @@ Hvis du angir en fast årlig beløp, bruker programmet denne formelen til å ber
 
 ### <a name="example---straight-line-depreciation"></a>Eksempel – lineær avskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. Den anslåtte levetiden er åtte år. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
+Et aktiva har en anskaffelseskost på LV 100 000. Den anslåtte levetiden er åtte år. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
 Aktivaposten ser for eksempel slik ut:  
 
@@ -100,7 +100,7 @@ Det bokførte avskrivningsbeløpet kan inneholde poster med ulike bokføringstyp
 
 ### <a name="example---declining-balance-1-depreciation"></a>Eksempel: Saldo 1-avskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
+Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
 Tabellen nedenfor viser hvordan aktivapostene ser ut.  
 
@@ -134,7 +134,7 @@ Metodene Saldo 1 og Saldo 2 beregner det samme totale avskrivningsbeløpet for h
 
 ### <a name="example---declining-balance-2-depreciation"></a>Eksempel – saldo 2-avskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår. Aktivapostene ser slik ut:  
+Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår. Aktivapostene ser slik ut:  
 
 | Dato | Aktivabokf.type | dager | Beløp | Bokført verdi |
 | --- | --- | --- | --- | --- |
@@ -177,7 +177,7 @@ Hvis du bruker denne metoden, bruker du siden **Aktivaavskrivningstablå** til �
 
 ### <a name="example---db1-sl-depreciation"></a>Eksempel – saldo 1 / lineær avskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. På siden **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
+Et aktiva har en anskaffelseskost på LV 100 000. På siden **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
 Aktivapostene ser slik ut:  
 
@@ -238,7 +238,7 @@ Når du bruker halvårsavskrivning, avskrives aktivaet på seks måneder i det f
 
 ### <a name="example---half-year-convention-depreciation"></a>Eksempel: Halvårsavskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 03/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
+Et aktiva har en anskaffelseskost på LV 100 000. **Startdato for avskrivning** er 03/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 
 Aktivapostene ser slik ut:  
 
@@ -254,7 +254,7 @@ Aktivapostene ser slik ut:
 
 ## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
 
-Et aktiva har en anskaffelseskost på NOK 100 000. **Startdato for avskrivning** er 11/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. På siden **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
+Et aktiva har en anskaffelseskost på LV 100 000. **Startdato for avskrivning** er 11/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. På siden **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 
 Aktivapostene ser slik ut:  
 

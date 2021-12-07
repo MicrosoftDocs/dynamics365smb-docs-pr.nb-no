@@ -54,9 +54,9 @@ Du kan klassifisere kontakter etter hvor mye de handler:
 
 |Svar|Gjelder|
 |--- |--- |
-|A|kontakter som kjøpte for NOK 500 000 eller mer|
-|B|kontakter som kjøpte for NOK 100 000 til 499 999|
-|U|kontakter som kjøpte for NOK 99 999 eller mindre|
+|A|kontakter som kjøpte for LV 500 000 eller mer|
+|B|kontakter som kjøpte for LV 100 000 til 499 999|
+|U|kontakter som kjøpte for LV 99 999 eller mindre|
 
 Du gjør dette ved å fylle ut siden **Profilspørreskjema - oppsett** slik:
 
@@ -71,7 +71,7 @@ Fyll deretter ut siden **Profilspørsmålsopplysninger** på følgende måte:
 
 | Felt                         | Verdi         |
 |-------------------------------|---------------|
-| Kundeklassifiseringsfelt | Salg (NOK)   |
+| Kundeklassifiseringsfelt | Salg (LV)   |
 | Klassifiseringsmåte         | Definert verdi |
 
 Når du tilordner profilspørreskjemaet som inneholder dette spørsmålet, til en kontakt, angir programmet automatisk riktig svar for denne kontakten på profillinjene på kontaktkortet.

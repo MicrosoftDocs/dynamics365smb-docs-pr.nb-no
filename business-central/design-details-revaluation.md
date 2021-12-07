@@ -99,8 +99,8 @@ Når antallet som kan revalueres, beregnes for varer som bruker lagermetoden Sta
 ### <a name="example"></a>Eksempel  
 Følgende eksempel, som er basert på produksjonen av kjeden i forrige eksempel, illustrerer hvordan tre posttyper opprettes. Dette er basert på følgende scenario:  
 
-1.  Brukeren bokfører de kjøpte leddene som mottatt med en enhetskost på NOK 2,00.  
-2.  Brukeren bokfører deretter en revaluering av leddene med en ny enhetskost på NOK 3,00, slik at standardkosten oppdateres til NOK 3,00.  
+1.  Brukeren bokfører de kjøpte leddene som mottatt med en enhetskost på LV 2,00.  
+2.  Brukeren bokfører deretter en revaluering av leddene med en ny enhetskost på LV 3,00, slik at standardkosten oppdateres til LV 3,00.  
 3.  Brukeren bokfører det opprinnelige kjøpet av leddene som fakturert, som gjør at følgende opprettes:  
 
     1.  En fakturerte verdipost med posttypen **Kjøpspris/prod.kost**.  
@@ -137,7 +137,7 @@ Følgende eksempel, som illustrerer revaluering av en vare som bruker lagermetod
 2.  Brukeren bokfører salg av én enhet 01.02.20.  
 3.  Brukeren bokfører salg av én enhet 01.03.20.  
 4.  Brukeren bokfører salg av én enhet 01.04.20.  
-5.  Brukeren beregner lagerverdien for varen 01.03.20, og bokfører en revaluering av varens kostpris fra NOK 10,00 til NOK 8,00.  
+5.  Brukeren beregner lagerverdien for varen 01.03.20, og bokfører en revaluering av varens kostpris fra LV 10,00 til LV 8,00.  
 6.  Brukeren bokfører salg av én enhet 01.02.20.  
 7.  Brukeren bokfører salg av én enhet 01.03.20.  
 8.  Brukeren bokfører salg av én enhet 01.04.20.  

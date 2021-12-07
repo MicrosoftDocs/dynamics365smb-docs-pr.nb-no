@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651490"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865724"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,7 +26,7 @@ Selgerrollen regnes ofte som den mest synlige jobben i et konsern. Det kan imidl
 > Dette emnet beskriver prosessen med å integrere de elektroniske versjonene av [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha informasjon om lokal konfigurasjon, kan du se [Klargjøre Dynamics 365 Sales for lokal integrasjon](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Integrasjon via Dataverse
-[!INCLUDE[prod_short](includes/prod_short.md)] kan også integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] kan også integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, må du gjøre det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
 
 Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], kan du fortsette å synkronisere data ved hjelp av konfigurasjonen. Hvis du imidlertid oppgraderer eller slår av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen, må du slå den på igjen ved å koble til via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Oppgradere en integrasjon med Dynamics 365 Sales](admin-upgrade-sales-to-cds.md).
 
@@ -134,7 +134,7 @@ Hvis du vil bruke de nye tilordningene, må du synkronisere enhetsgrupper, varee
 
 Følgende fremgangsmåte beskriver hvordan du starter tilordningsenhetsgrupper:
 
-1. Pass på at varer i [!INCLUDE[crm_md](includes/crm_md.md)] ikke er kombinert med varer eller ressurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis dette er tilfellet, går du til sidene **Varer** eller **Ressurs**, bruker filteralternativene til å velge de koblede postene, og deretter velger du **Dynamics 365 Sales**-handlingen og velger **Koble fra**. Dette planlegger en bakgrunnsjobb slik at postene kobles fra. Mens jobben kjører, kan du kontrollere statusen ved å bruke handlingen **Synkroniseringslogg**. Hvis du vil ha mer informasjon, kan du se [Kobling og synkronisering](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Pass på at varer i [!INCLUDE[crm_md](includes/crm_md.md)] ikke er kombinert med varer eller ressurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis dette er tilfellet, går du til sidene **Varer** eller **Ressurs** og bruker filteralternativene til å velge de koblede postene. Deretter velger du **Dynamics 365 Sales**-handlingen og velger **Koble fra**. Dette planlegger en bakgrunnsjobb slik at postene kobles fra. Mens jobben kjører, kan du kontrollere statusen ved å bruke handlingen **Synkroniseringslogg**. Hvis du vil ha mer informasjon, kan du se [Kobling og synkronisering](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Ettersom nye produkter blir opprettet i [!INCLUDE[crm_md](includes/crm_md.md)] med nye enhetsgrupper, gjør du ett av følgende for å unngå like navn:
     
     * Gi nytt navn til produktene, og deretter kan du kassere dem i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Kasser produkter (Salgssenter)](/dynamics365/sales-enterprise/retire-product). Hvis du vil redigere produktene i Microsoft Excel, logger du på Power Apps, velger miljøet ditt, går til tabellen **Produkt** og velger fanen **Data**. Fjern eventuelle filtre som er brukt. I gruppen **Data** velger du handlingen **Rediger data i Excel**. Legg til et prefiks eller suffiks for de koblede produktene, og kasser dem.

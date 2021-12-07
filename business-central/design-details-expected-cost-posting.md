@@ -44,7 +44,7 @@ Du må gjøre følgende for å gjøre det mulig å bokføre forventede kostnader
 > [!NOTE]  
 > Kontonumrene som brukes i dette eksemplet, er bare til referanse og vil være forskjellige i systemet. Definer dem som angitt i forutsetningene ovenfor.
 
-Du bokfører en bestilling som mottatt. Forventet kostnad er NOK 95,00.  
+Du bokfører en bestilling som mottatt. Forventet kostnad er LV 95,00.  
 
  **Verdiposter**  
 
@@ -66,7 +66,7 @@ Du bokfører en bestilling som mottatt. Forventet kostnad er NOK 95,00.
 |01.01.20|Forventet lagerjusteringskonto (midlertidig)|5530|-95,00|2|  
 |01.01.20|Lagerkonto (midlertidig)|2131|95,00|1|  
 
- Senere bokfører du bestillingen som fakturert. Fakturert kost er NOK 100,00.  
+ Senere bokfører du bestillingen som fakturert. Fakturert kost er LV 100,00.  
 
  **Verdiposter**  
 

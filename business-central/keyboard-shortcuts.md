@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588254"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865445"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -37,7 +37,7 @@ Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å n
 De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. Noen snarveier er imidlertid forskjellige for macOS. Disse snarveiene angis med hakeparenteser i avsnittene nedenfor.
 
 > [!NOTE]
-> I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post når du åpner posten i et kort. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
+> I tillegg til de globale hurtigtastene som er beskrevet i denne artikkelen, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post når du åpner posten i et kort. Denne artikkelen inneholder noen av de mer vanlige forretningsspesifikke snarveiene som vises i kursiv. Vær oppmerksom på at de faktiske snarveiene kan være forskjellige i løsningen. I brukergrensesnittet vises hurtigtasten i verktøytipet for den aktuelle handlingen.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
 
@@ -83,7 +83,15 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sorter valgt kolonne i stigende eller synkende rekkefølge.|Ikke i bruk.|
 |Alt+N|Sett inn en ny linje i en redigerbar liste, for eksempel **Finansbudsjetter**-siden.|Samme.|
+|Shift+F9|Bokfør og skriv ut et dokument.|Samme.|
 |Shift+F10 |Åpne et menyalternativ som finnes for den valgte raden.|Samme.|
+|Alt + D|Åpne dimensjonssettpostene.|Samme.|
+|Ctrl+F7|Åpne poster, loggposter, kostnadsposter og så videre.|
+|Ctrl+F9|Frigi dokument.|Samme.|
+|*F7*|Åpne statistikk.|Samme.|
+|*F9*|Bokfør, utsted, registrer eller tilbakefør dokument.|Samme.|
+|*Shift + Ctrl + F*|Send foreslåtte linjer på forslagssiden for kontantstrømmen.|Ikke i bruk.|
+|*Shift + Ctrl + I*|Vis serie- og partinumre som er tildelt linjevaren i dokumentet eller på kladden.|Ikke i bruk.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
 
@@ -103,7 +111,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 | Pil opp | Flytte i samme kolonne til feltet i raden ovenfor. | Flytte i samme kolonne til flisen i raden ovenfor. |
 | Pil høyre | I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet. | Flytte i samme rad til neste flis til høyre. |
 | Pil venstre | I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet. | Flytte i samme rad til forrige flis til venstre. |
-| Tab | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. |  |
+| Tab | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. | 
 | Skift+TAB | I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
@@ -142,7 +150,9 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
+|Alt + D|Åpne dimensjonssettpostene.|
 |Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane eller del (underordnet side).|
+|Alt+F9|Opprett nytt dokument og bokfør det.|
 |Alt+G|Åpner **Søk etter poster**-siden for å finne poster som er knyttet til det bokførte dokumentet. Fungerer i lister også.|
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
@@ -152,9 +162,15 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |CTRL+PIL OPP |Åpne forrige post for en enhet.|
 |Ctrl+Insert |Sett inn en ny linje i dokumenter.|
 |Ctrl+Delete |Slett linjen i dokumenter, kladder og forslag.|
+|Ctrl+F7|Åpne poster, loggposter, kostnadsposter og så videre.|
+|Ctrl+F9|Frigi dokument.|
 |Ctrl+Shift+F12 |Maksimer linjeelementdelen på en dokumentside. Trykk på tastene på nytt for å gå tilbake til vanlig visning. Hvis du vil ha mer informasjon, se [Fokusere på linjeelementer](ui-enter-data.md#Focus).|
 |F6|Flytt til neste hurtigfane eller del (underordnet side).|
+|*F7*|Åpne statistikk.|
+|*F9*|Bokfør, utsted, registrer eller tilbakefør dokument.|
+|*Shift + Ctrl + F9*|Bokfør, skriv ut og plasser lagermottaket.|
 |Shift+F6|Flytte til forrige hurtigfane eller del (underordnet side).|
+|*Shift + F9*|Bokfør og skriv ut et dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
 

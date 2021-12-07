@@ -63,12 +63,12 @@ Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standa
  Det du velger i **Lagermetode**-feltet, har innvirkning på hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i **Enhetskost**-feltet på linjene.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagermetoden FIFO, LIFO, Serienummer eller Gjennomsnitt  
- [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i feltet **Enhetskost NOK** på bestillingslinjen, eller innholdet i feltet **Enhetskost** på varekladdelinjen etter følgende formel:  
+ [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i feltet **Enhetskost LV** på bestillingslinjen, eller innholdet i feltet **Enhetskost** på varekladdelinjen etter følgende formel:  
 
- Enhetskost (NOK) = (Direkte enhetskost - (Rabattbeløp / Antall)) x (1 + Indirekte kost-% / 100) + Sats for indirekte kostnader  
+ Enhetskost (LV) = (Direkte enhetskost - (Rabattbeløp / Antall)) x (1 + Indirekte kost-% / 100) + Sats for indirekte kostnader  
 
 ### <a name="costing-method-standard"></a>Standard lagermetode  
- Feltet **Enhetskost (NOK)** på bestillingslinjen eller feltet **Enhetskost** fylles ut på varekladdelinjen ved å kopiere verdien i feltet **Enhetskost** på varekortet. Ved å angi lagermetoden som Standard, er denne alltid basert på standardkosten.  
+ Feltet **Enhetskost (LV)** på bestillingslinjen eller feltet **Enhetskost** fylles ut på varekladdelinjen ved å kopiere verdien i feltet **Enhetskost** på varekortet. Ved å angi lagermetoden som Standard, er denne alltid basert på standardkosten.  
 
  Når du bokfører kjøpet, kopieres enhetskosten fra bestillingslinjen eller varekladdelinjen til kjøp/varefakturaposten, og den kan ses på varens postoversikt.  
 
