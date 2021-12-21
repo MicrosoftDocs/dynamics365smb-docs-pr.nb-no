@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/09/2021
-ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 10/26/2021
+ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588054"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920931"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
@@ -85,7 +85,7 @@ For å få oversikt over en lengre periode viser [!INCLUDE[prod_short](includes/
 Denne delen gir deg snarveier til Microsoft AppSource, der du kan finne løsninger og tjenester fra [!INCLUDE[prod_short](includes/prod_short.md)]-partnere. Bruk koblingene til å utforske alle egenskapene i [!INCLUDE[prod_short](includes/prod_short.md)] før du bestemmer om du vil kjøpe et abonnement. Du finner også en kobling til kontaktinformasjon for salgsteamet.
 
 > [!NOTE]
-> Denne delen er bare tilgjengelig i prøveabonnementer. Hvis du allerede har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)], er delen ikke lenger synlig.
+> Denne delen er bare tilgjengelig i online prøveabonnementer av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du allerede har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)], er delen ikke lenger synlig.
 
 ### <a name="give-feedback"></a>Gi tilbakemelding
 
@@ -95,7 +95,7 @@ Kontroller at du søker gjennom listen over sendte forslag. Det kan hende at det
 
 ### <a name="troubleshooting"></a>Feilsøking
 
-Delen **Feilsøking** viser teknisk informasjon som administratoren eller [!INCLUDE[prod_short](includes/prod_short.md)]-partneren kan bruke til å oppheve blokkeringen av brukere. Dette omfatter opplysninger om den siste feilmeldingen, gjeldende versjon av [!INCLUDE[prod_short](includes/prod_short.md)] og en kobling for å gå til siden **Sideinspeksjon**. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](across-inspect-page.md).  
+Delen **Feilsøking** viser teknisk informasjon som administratoren eller [!INCLUDE[prod_short](includes/prod_short.md)]-partneren kan bruke til å oppheve blokkeringen av brukere. Denne delen omfatter opplysninger om den siste feilmeldingen, gjeldende versjon av [!INCLUDE[prod_short](includes/prod_short.md)] og en kobling for å gå til siden **Sideinspeksjon**. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](across-inspect-page.md).  
 
 For å hjelpe deg eller støttepartneren med feilsøking kan du aktivere tilleggslogging i delen **Rapporter et problem**. Du kan deretter analysere tilleggstelemetri i for eksempel administrasjonssenteret eller Application Insights.  
 
@@ -113,13 +113,18 @@ Som intern administrator har du tilgang til administrasjonssenteret der du kan f
 Hvis du vil ha mer informasjon, kan du se [Eskalere kundestøtteproblemer til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrasjonsinnholdet.  
 
 > [!NOTE]
-> Denne delen er bare tilgjengelig hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet. Du finner en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145). Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner).  
+> Med [!INCLUDE[prod_short](includes/prod_short.md)] online delen **Rapporter et problem** bare tilgjengelig hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har registrert deg for en prøveversjon og ikke har kjøpt [!INCLUDE[prod_short](includes/prod_short.md)] ennå, har du ikke en videresalgspartner, og du kan ikke kontakte Microsoft-støtteteamet. Du finner en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145). Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner).  
+>
+> Med [!INCLUDE[prod_short](includes/prod_short.md)] lokal kan denne delen bare være tilgjengelig i 2020 lanseringsbølge 2 (versjon 18) og senere.
 
 ### <a name="support-contacts"></a>Kontakter for støtte
 
 Delen **Rapporter et problem** viser en e-postadresse eller en hyperkobling der du kan komme inn kontakt med kundestøttepersonen eller-teamet. Hvis du er [!INCLUDE[prod_short](includes/prod_short.md)]-partner for videresalg for en leier, kan du definere detaljer for foretrukne kontaktdetaljer i administrasjonsenteret. Hvis du vil ha mer informasjon, kan du se [Konfigurere støtteopplevelsen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i administrasjonsinnholdet.  
 
 Hvis du vil varsle partneren om et problem, kan du velge om du vil sende en e-postmelding eller åpne kundestøtteområdet i en ny leserkategori. Du kan deretter legge til de tekniske opplysningene om Azure Active Directory-leieren din fra **Feilsøking**-delen og annen informasjon som du synes er relevant.  
+
+> [!NOTE]
+> Informasjonen om støtte kontakter er ikke tilgjengelig med [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
 ## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Bruke nettstedet docs.microsoft.com til å finne ut mer
 
@@ -181,7 +186,7 @@ I mars 2021 ble det vist et nytt avsnitt under de fleste artikler på området d
 
 ### <a name="tell-us-what-you-think"></a>Fortell oss hva du synes
 
-På docs.microsoft.com er det to knapper på slutten av alle artikler. Med knappen *Dette produktet* omdirigeres du til nettstedet for ideer, og med knappen *Denne siden* kan du sende tilbakemelding om innholdet via GitHub. I begge tilfeller må du opprette en konto hvis du ikke allerede har en. Du må logge på med e-postkotoen for arbeid eller organisasjon for å gi *tilbakemelding om produktet*. For *tilgang til GitHub* kan du bruke en hvilken som helst e-postadresse når du oppretter en konto.  
+På docs.microsoft.com er det to knapper på slutten av alle artikler. Med knappen *Dette produktet* omdirigeres du til nettstedet for ideer, og med knappen **Denne siden** kan du sende tilbakemelding om innholdet via GitHub. I begge tilfeller må du opprette en konto hvis du ikke allerede har en. Du må logge på med e-postkotoen for arbeid eller organisasjon for å gi *tilbakemelding om produktet*. For *tilgang til GitHub* kan du bruke en hvilken som helst e-postadresse når du oppretter en konto.  
 
 Vi tar imot bidragene dine, både som pull-forespørsler med forslag eller retting av innholdet, og som GitHub-problemer med feil eller spørsmål. Vær imidlertid oppmerksom på at tilbakemelding og bidrag til *dynamics365smb-docs*-repo er om innholdet, og ikke om produktet.  
 

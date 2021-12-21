@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701568"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889839"
 ---
 # <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 
@@ -47,6 +47,9 @@ Fremgangsmåten nedenfor beskriver hvordan du fakturerer et forskudd for en ordr
 
     Hvis du har angitt en standard forskuddsprosent for kunden eller i hurtigfanen **Forskudd** for dette dokumentet, blir denne verdien kopiert til hver linje. Du kan endre verdien i **Forskuddsprosent**-feltet på linjen.  
 
+    > [!TIP]
+    > Hvis du ikke ser feltet **Forskuddsprosent**, kan du legge det til ved hjelp av personalisering.  Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
+
 4. Du kan vise det totale forskuddsbeløpet ved å velge **Statistikk**-handlingen.
 
     Hvis du vil justere det totale forskuddsbeløpet for ordren, kan du endre verdien i **Forskuddsbeløp**-feltet på **Ordrestatistikk**-siden.  
@@ -72,7 +75,8 @@ Du kan utstede flere forskuddsfakturaer for ordren. Dette gjør du ved å øke f
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tilpasse arbeidsområdet](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

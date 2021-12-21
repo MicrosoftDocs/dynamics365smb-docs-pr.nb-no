@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 309d41995ae88332808e363f8a6838a40ee6a679
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: acc6427342122589fca6f2cad08baa00210a261e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445704"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921015"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
@@ -51,7 +51,7 @@ Du kan bruke feltet **Vis transaksjonskilde** til å filtrere siden **Konsernint
 
  > [!NOTE]  
  > Hvis de konserninterne partnerne er i samme database, overføres transaksjoner uten å måtte filen eller e-post. Se feltet **Overføringstype** på siden **Konsernintern partner**. <br /><br />
-I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen ved å merke av for henholdsvis **Godta transaksjoner automatisk** på siden **Konsernintern partner** og **Send transaksjoner automatisk** på siden **Konserninternt oppsett**.
+I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen ved å merke av for henholdsvis **Godta transaksjoner automatisk** på siden **Konsernintern partner** og **Send transaksjoner automatisk** på siden **Konserninternt oppsett**. Inngående konserninterne transaksjoner kan bare godtas automatisk hvis oppgaveplanlegging er aktivert. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server – Oppgaveplanleggingsinnstillinger](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Slik importerer du konserninterne transaksjoner fra en fil  
 Hvis du har en konsernintern partner som ikke er i samme database som selskapet ditt, kan du motta konserninterne transaksjoner fra partneren i en XML-fil. Deretter må du importere transaksjonene til innboksen.  

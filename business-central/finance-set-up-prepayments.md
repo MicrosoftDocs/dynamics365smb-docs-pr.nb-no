@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701518"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889823"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
+
 Hvis du krever at kundene skal betale før du leverer en ordre til dem, eller hvis leverandøren krever at du betaler før de leverer en ordre til deg, kan du bruke funksjonaliteten for forskudd. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører for å sørge for at alle delvise betalinger bokføres mot en faktura. Hvis du vil ha mer informasjon, kan du se [Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
 Før du kan bokføre forskuddsfakturaer, må du definere bokføringskontiene i Finans, og du må definere en nummerserie for forskuddsdokumenter. Du må angi en konto for forskuddsbetalinger som er knyttet til salg, og en konto for forskuddsbetalinger som er knyttet til innkjøp. Du kan angi at de samme bokføringskontoene skal brukes for alle forskuddsbetalinger knyttet til alle generelle bedriftsrelaterte bokføringsgrupper og generelle produktrelaterte bokføringsgrupper, eller du kan angi bestemte kontoer for bestemte bokføringsgrupper for henholdsvis salg og kjøp. Dette avhenger av selskapets krav for sporing av forskuddsbetalinger.  
@@ -23,6 +24,7 @@ Du kan definere hvor stor prosentdel av linjebeløpet som skal faktureres for fo
 
 > [!NOTE]
 > Vi anbefaler at du ikke bruker en forskuddsprosent på 100 % i følgende tilfeller:
+>
 > * Hvis du befinner deg i Nord-Amerika. En forskuddsprosent på 100 % kan føre til problemer med forskuddsfakturaer på grunn av måten avgifter beregnes på.
 > * I noen regioner hvis du trekker en kontantrabatt fra fakturaen manuelt. En forskuddsprosent på 100 % etterlater ikke automatisk et beløp som rabatten kan trekkes fra. 
 
@@ -33,10 +35,10 @@ Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene e
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Slik legger du til forskuddskonti til generelt bokføringsoppsett  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.
-2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:  
+2. På siden **Generelt bokføringsoppsett** for de relevante linjene må du fylle ut følgende felt:  
 
-    - **Konto for salgsforskudd**  
-    - **Konto for kjøpsforskudd**  
+    * **Konto for salgsforskudd**  
+    * **Konto for kjøpsforskudd**  
 
 > [!TIP]
 > Hvis du ikke kan se feltene på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
@@ -46,16 +48,16 @@ Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Slik setter du opp nummerserie for forskuddsdokumenter  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
-2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:  
+2. På siden **Salgsoppsett** i hurtifanen **Nummerserier** fyller du ut følgende felt:  
 
-   - **Bokførte fakturanumre for forskudd**
-   - **Bokførte kreditnotanumre for forskudd**
+   * **Bokførte fakturanumre for forskudd**
+   * **Bokførte kreditnotanumre for forskudd**
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
-2. På siden **Generelt bokføringsoppsett** må du fylle ut følgende felt:
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
+4. På siden **Kjøpsoppsett** i hurtigfanen **Nummerserier** fyller du ut følgende felt:
 
-    - **Bokførte fakturanumre for forskudd**
-    - **Bokførte kreditnotanumre for forskudd**
+    * **Bokførte fakturanumre for forskudd**
+    * **Bokførte kreditnotanumre for forskudd**
 
 > [!NOTE]  
 > Du kan bruke samme nummerserie for forskuddsfakturaer og vanlige fakturaer, eller du kan bruke forskjellige nummerserier. Hvis du bruker forskjellige serier, kan de ikke overlappe hverandre fordi ett og samme nummer kan ikke forekomme i begge seriene.  
@@ -74,6 +76,9 @@ For en kunde eller leverandør kan du definere en standard forskuddsprosent for 
 2. Åpne kortet for en kunde.
 3. Fyll ut feltet **Forskuddsprosent**.
 4. Gjenta fremgangsmåten for andre kunder eller leverandører.  
+
+> [!TIP]
+> Du kan også bruke siden **Forskuddsprosenter for salg** fra kunden eller leverandøren.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Slik bestemmes hvilken forskuddsprosent som har førsteprioritet  
 

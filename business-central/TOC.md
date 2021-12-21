@@ -684,7 +684,7 @@
 ### [Prosjektrapporter](project-reports.md)
 ### [Opprette prosjekter](projects-how-create-jobs.md)
 ### [Bruke ressurser for prosjekter](projects-how-use-resources.md)
-### [Bruke timelister for prosjekter](projects-how-use-time-sheets.md)
+### [Bruke timelister](projects-how-use-time-sheets.md)
 ### [Administrere prosjektbudsjetter](projects-how-manage-budgets.md)
 ### [Registrere forbruk for prosjekter](projects-how-record-job-usage.md)
 ### [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md)

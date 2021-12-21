@@ -1,6 +1,6 @@
 ---
-title: Bruke timelister for prosjekter
-description: Beskriver hvordan du oppretter en timeliste for et prosjekt, kopierer planleggingslinjer til den, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.
+title: Bruk timelister
+description: Beskriver hvordan du oppretter en timeliste, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 08/24/2021
+ms.search.form: 973
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588835"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920906"
 ---
-# <a name="use-time-sheets-for-projects"></a>Bruke timelister for prosjekter
+# <a name="use-time-sheets"></a>Bruk timelister
 
-Du bruker kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Du må ha tillatelser for å kunne opprette timelister.
+Du kan bruke time lister i [!INCLUDE [prod_short](includes/prod_short.md)] til å spore fravær, og til å spore tid og ressurser som er brukt på et prosjekt. Med tidsbehandling kan du identifisere problemer tidlig og unngå forsinkelser eller kostnadsoverskridelser. Timelister gjør det enkelt for en ressurs å rapportere tidsbruk for en enkeltperson eller en maskin, og en leder kan enkelt se gjennom bruk og tilordning. Denne artikkelen beskriver hvordan du oppretter en timeliste, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.  
 
 Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste. Dermed trenger du bare å skrive inn informasjonen ett sted, og linjeinformasjonen er alltid riktig.
 
@@ -32,64 +33,106 @@ Før du kan bruke timelister, må du definere generell informasjon og angi admin
 
 ## <a name="to-create-time-sheets"></a>Slik oppretter du timelister
 
-Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.
+Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.  
+
+> [!IMPORTANT]
+> Du må ha tillatelser for å kunne opprette timelister.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.
-2. På siden **Liste for timeliste** velger du handlingen **Opprett timelister**.
+2. På siden **Timeliste** velger du handlingen **Opprett timelister**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Feltene **Bruk timeliste** og **Bruker-ID for eier av timeliste** må fylles ut på kortet for ressursen i timelisten.
 4. Velg **OK**.  
 
-Du kan vise timelistene som du har opprettet, på siden **Liste for timeliste**.
+Du kan vise timelistene som du har opprettet, på siden **Timelister**. Hver time liste består av én eller flere linjer som definerer tiden du vil sende til godkjenning. Tabellen nedenfor beskriver hvilke typer av linjer du kan legge til i timelisten.
+
+| **Felt** | **Beskrivelse** |
+|---|---|
+| | Brukes til å legge til en merknad eller et merke i **Beskrivelse**-feltet for timelistelinjen. Du kan for eksempel bruke dette feltet til å kategorisere timelisteposter. Hvis du lar **Type**-feltet være tomt for en timelistelinje, kan du ikke kan angi tidsverdier i ukedagfeltene for denne linjen. |
+| Fravær | Brukes til å registrere fraværstiden i løpet av en arbeidsuke. Hvis du vil fylle ut informasjonen for linjen, kan du angi typen fravær i **Fraværsårsakskode**-feltet. |
+| Monteringsordre | Brukes til å registrere tid for monteringsordrer. En timelistelinje av denne typen opprettes under bokføring av monteringsordrelinjene som ressursen er konfigurert til å bruke timelister for. Du kan ikke velge en linje av denne typen manuelt. |
+| Jobb | Brukes til å registrere tidsforbruk for et prosjekt. Hvis du vil fullføre informasjonen for linjen, angir du prosjektnummeret og prosjektoppgavenummeret som du vil registrere tid for. Du kan registrere tiden for linjer som du ikke har planlagt.|
+| Ressurs | Brukes til å registrere tidsforbruk for en ressurs. Hvis du vil fylle ut informasjonen for linjen, gir du en beskrivelse av arbeidet. |
+| Tjeneste | Brukes til å registrere tidsforbruk for en serviceordre eller servicekreditnota. |
+
+Hvis du for eksempel vil sende en timeliste for en arbeidsuke der du har arbeidet med rengjøringsoppgaver de fleste dager, men hadde én dag fri av medisinske grunner, legger du til linjer som vist i tabellen nedenfor.
+
+| Type | Beskrivelse | Arbeidstypekode | Fraværstypekode |
+|--|--|--|--|
+| Ressurs | Arbeidstimer | Rengjøring |  |
+| Fravær | Fritid |  | Tilstand |
+|  | Jeg måtte ha fri tirsdag på grunn av en legetime. |  |  |
+
+I dette hypotetiske eksemplet ville du da registrere de aktuelle timene i løpet av de aktuelle dagene, i feltene for hver enkelt ukedag.  
+
+> [!TIP]
+> I de fleste tilfeller vil selskapet ha forhåndsdefinerte arbeidstyper for de ulike linjetypene. I slike tilfeller velger du relevant arbeidstype fra oversikten, og deretter legger du til din egen beskrivelse.  
+>
+> Velg arbeidstype ved å velge knappen :::image type="icon" source="media/assist-edit-icon.png" border="false"::: i feltet **Beskrivelse** ved å velge **Aktivitetsdetaljer** og deretter angi den på siden som åpnes, eller ved å velge den i henholdsvis feltet **Arbeidstypekode** eller **Fraværstypekode**. I dette tilfellet kan du ignorere delen [Slik definerer du arbeidstyper og legger til en til en timeliste](#to-define-work-types-and-add-one-to-a-time-sheet).  
+
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Slik bruker du timelistelinjer på nytt i andre timelister
+
+Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du spare tid ved å kopiere linjene fra forrige tidsperiode. Deretter angir du bare tidsbruken for den nye perioden.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
+2. Åpne timelisten for en periode som er senere enn perioden for en eksisterende timeliste med linjer.  
+3. Velg handlingen **Kopier linjer fra tidligere timeliste**.
+
+Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Slik kopierer du prosjektplanleggingslinjer til en timeliste:
 Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. Velg en timeliste for den relevante tidsperioden på siden **Liste for timeliste**.  
-3. Velg handlingen **Linje**, og velg deretter handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
+2. Velg en timeliste for den relevante tidsperioden på siden **Timelister**.  
+3. Velg handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Slik definerer du arbeidstyper og legger til en til en timeliste
-Du kan definere arbeidstypen for alle linjer i timelister for prosjekter. På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.   
-2. Åpne den relevante timelisten.
-3. Velg feltet **Beskrivelse**.  
-4. På siden **Timelistelinje – prosjektdetaljer** velger du feltet **Arbeidstypekode** og velger en arbeidstype fra listen, for eksempel **Miles**.  
-5. Hvis det ikke finnes noen arbeidstyper, velger du handlingen **Ny**.
-6. På siden **Arbeidstyper** fyller du ut feltene etter behov.
-7. Gjenta trinn 4 for å tilordne den nye arbeidstypen til timelisten.
+Du kan definere arbeidstypen for alle timelistelinjer for serviceordrer, prosjektordrer og ressurser. På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.  
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Slik bruker du timelistelinjer på nytt i andre timelister
-Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du spare tid ved å kopiere linjene fra forrige tidsperiode. Deretter angir du bare tidsbruken for den nye perioden.
+1. På siden **Timelister** velger du du den relevante timeliste.
+2. På den første linjen i delen **Linjer** velger du feltet **Type**, og deretter velger du den aktuelle typen, for eksempel *Ressurs*.  
+3. Velg **Beskrivelse**-feltet, og fyll deretter ut feltene på siden **Ressursdetalj for timelistelinje**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    1. Hvis det ikke finnes noen arbeidstyper, velger du handlingen **Ny**.
+    2. På siden **Arbeidstyper** fyller du ut feltene etter behov, og deretter returnerer du til timelisten.
+4. Fyll ut de gjenværende timelistene. Hvis du vil ha mer informasjon, kan du se delen [Slik fyller du ut timelistelinjer og sender til godkjenning](#to-fill-in-time-sheet-lines-and-submit-for-approval).  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
-2. Åpne timelisten for en periode som er senere enn perioden for en eksisterende timeliste med linjer.  
-3. Velg handlingen **Linje**, og velg deretter handlingen **Kopier linjer fra forrige timeliste**.
-
-Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
+> [!TIP]
+> Lignende trinn gjelder når du skal definere fraværskoder.
 
 ## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
-Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.
+
+Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
 2. Velg en timeliste for den aktuelle perioden.
 3. Fyll ut feltene på en linje etter behov. Angi antall timer som brukes av ressursen for hver dag i uken.  
 
+    I de fleste tilfeller kan du spore arbeid ved å legge til en linje av typen *Ressurs*, og deretter registrerer du timer som er brukt hver dag. Hvis du vil registrere fravær, legger du til en linje av typen *Fravær*.  
+
     > [!TIP]  
-    >   Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
-4. Gjenta trinn 3 for arbeidstypene som utføres av ressursen.
-5. Velg handlingen **Behandle**, og velg deretter handlingen **Send** og **Alle åpne linjer** for å sende alle linjer, eller handlingen **Bare valgte linjer** for å sende bare linjene som er valgt på siden **Timeliste**.  
+    > Du kan se gjennom summen av timelistetimer som du har angitt i faktaboksen **Faktisk/budsjettert sammendrag**.  
+4. Gjenta trinn 3 for arbeidstypene som utføres av ressursen.  
+
+    Nå må du angi om du vil sende inn alle linjene i timelisten, eller om du vil sende inn individuelle linjer.  
+
+    * Hvis du vil sende timelisten til én eller flere linjer, velger du den relevante linjen og deretter **Send**-handlingen.
+
+        Velg alternativet **Bare valgte linjer**. Linjen endrer tilstand fra *Åpen* til *Sendt*.
+    * Hvis du vil sende tim listen for alle åpne linjer, velger du **Send**-handlingen øverst på **Timeliste**-siden.  
+
+        Du blir bedt om å bekrefte at du vil sende alle åpne linjer i gjeldende timeliste.  
 
     > [!NOTE]  
-    >   Du kan bare sende timelistelinjer du har angitt tid for.  
-6. Hvis du vil endre informasjon på en linje som er satt til **Sendt**, merker du linjen og velger deretter handlingen **Åpne på nytt**.
+    > Du kan bare sende timelistelinjer du har angitt tid for.  
+5. Hvis du vil endre informasjon på en linje som er satt til **Sendt**, merker du linjen og velger deretter handlingen **Åpne på nytt**.
 
     > [!NOTE]  
     >   En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
-7. Velg **OK**.
+6. Velg **OK**.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
 En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenne og avvise individuelle linjer på en timeliste eller sende dem tilbake til avsenderen for ytterligere handling. En timeliste kan godkjennes på to måter:
@@ -172,7 +215,7 @@ Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Al
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Flytt timelister til arkiv**.  
 3. På siden **Flytt timelister til arkiv** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen.  
-4. Hvis du vil gå gjennom arkiverte timelister, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Timelistearkiver** eller **Administrer timelistearkiver**, og velg deretter den relaterte koblingen.
+4. Hvis du vil gå gjennom arkiverte timelister, velger du ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Timelistearkiver** eller **Administrer timelistearkiver**, og velg deretter den relaterte koblingen.
 
 ## <a name="see-also"></a>Se også
 [Prosjektstyring](projects-manage-projects.md)  

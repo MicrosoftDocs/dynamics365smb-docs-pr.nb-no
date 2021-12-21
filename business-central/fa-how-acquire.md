@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643933"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920958"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffe aktiva
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Et avskrivningstablå må defineres og tilordnes til hvert enkelt aktiva før du kan anskaffe det.
@@ -78,14 +78,14 @@ Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne po
 Hvis du for eksempel bokfører en anskaffelse med feil dato, må du korrigere den så snart som mulig fordi aktivabokføringsdatoen brukes for mange beregninger.
 
 > [!IMPORTANT]  
->   Du kan ikke bruke funksjonen **Tilbakefør transaksjon** for aktivaposter.
+> Du kan ikke bruke funksjonen **Tilbakefør transaksjon** for aktivaposter.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Kanseller aktivaposter**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Velg **OK** for å kjøre kjørselen.
-4. Når feil post eller poster er kansellert, fortsetter du med å bokføre riktig anskaffelseskost.
-
-Hvis du vil kansellere finansposter for flere aktiva samtidig, kan du bruke **Kanseller aktivaposter**-kjørselen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , skriv inn **Aktivaposter**, og velg deretter den relaterte koblingen.  
+2. På siden **Aktivaposter** velger du posten eller postene du vil kansellere.  
+3. Velg menyen **Handlinger**, og velg deretter handlingen **Kanseller poster**.
+4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Velg **OK**-knappen for å kjøre kjørselen.
+6. Når feil post eller poster er kansellert, fortsetter du med å bokføre riktig anskaffelseskost.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Slik bokfører du skrapverdien sammen med anskaffelseskosten:
 Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivakladd.

@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660184"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921061"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
@@ -174,7 +174,10 @@ Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
-Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates.
+Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates. 
+
+> [!NOTE]
+> De fleste valutakurstjenester tilbyr data som er kompatible med importprosessen i [!INCLUDE[prod_short](includes/prod_short.md)]. Noen ganger er imidlertid dataene formatert på en annen måte, og du må tilpasse importprosessen. Du kan bruke datautvekslingsrammeverket til å gjøre dette ved å legge til en egen codeunit. Du trenger sannsynligvis litt hjelp fra en utvikler for å gjøre dette. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tjenester for valutakurs**, og velg deretter den tilknyttede koblingen.
 2. Velg handlingen **Ny**.

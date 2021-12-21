@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446168"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921023"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -31,7 +31,10 @@ Du kan definere mva-beregninger manuelt, men som kan være vanskelig og tidkreve
 > [!NOTE]  
 > Du kan bare bruke veiledningen hvis du har opprettet et Mitt selskap og ikke har bokført transaksjoner som inkluderer mva. Det ville ellers være svært enkelt å bruke forskjellige mva-satser ved en feiltakelse, og gjøre mva-relaterte rapporter unøyaktige.  
 
-Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder dette emnet beskrivelser av hvert trinn.
+Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder dette emnet beskrivelser av hvert trinn.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] er tilgjengelig i land som ikke bruker mva. Hvis du vil ha informasjon om hvordan du definerer og rapporterer mva i det bestemte landet, kan du se artiklene i delen [Lokal funksjonalitet i Business Central](about-localization.md).  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>Slik bruker du mva-oppsettguiden til å definere mva (anbefales)
 

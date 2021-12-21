@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.date: 06/16/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588629"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889797"
 ---
-# <a name="understanding-the-general-ledger-and-the-coa"></a>Forstå Finans og kontoplanen
+# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
 Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 
@@ -31,10 +31,13 @@ På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssak
 * Adresseformater  
 * Finansrapportering  
 
-På siden **Generelt bokføringsoppsett** angir du hvordan du vil definere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Hvis du vil ha mer informasjon, kan du se [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
-
 > [!TIP]
 > Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen.  
+
+På siden **Generelt bokføringsoppsett** angir du hvordan du vil definere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Men du kan også åpne hver linje i et eget bokføringsoppsettskort. Hvis du vil ha mer informasjon, kan du se [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
+
+> [!TIP]
+> Hvis du ikke kan se feltene du leter etter, på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
 
 ## <a name="the-chart-of-accounts"></a>Kontoplanen
 
