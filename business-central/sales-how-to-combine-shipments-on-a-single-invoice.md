@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442728"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929583"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
@@ -34,6 +34,9 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
 
     Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du ganske enkelt slette linjene på fakturaen og kjøre funksjonen **Hent følgeseddellinjer** på nytt.  
 7. Velg handlingen **Bokfør** for å bokføre fakturaen.  
+
+> [!TIP]  
+> Hvis du har levert ordrer der feltet **Salg til-kundenr.** er forskjellig fra **Faktura til-kundenr.**, vises ikke disse linjene i rapporten **Hent følgeseddellinjer**. Bruk tilpassing hvis du vil legge til feltet **Salg til-kunde** på siden og fjerne filteret. Nå kan du legge til leveringslinjer i fakturaen uavhengig av verdien i feltet **Salg til-kundenr.**, så lenge feltet **Faktura til-kundenr.** på leveringslinjene samsvarer med verdien på salgsfakturaen.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
 [!INCLUDE[prod_short](includes/prod_short.md)] velger bare ordrer der **Opprett samlefaktura** er valgt. 

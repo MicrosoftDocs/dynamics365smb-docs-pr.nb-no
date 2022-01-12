@@ -1,8 +1,6 @@
 ---
 title: Konfigurasjon av bokføringsgruppe | Microsoft-dokumentasjon
 description: Oversikt over bokføringsgrupper du kan bruke for å spare tid og unngå feil når du bokfører transaksjoner.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588810"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940754"
 ---
 # <a name="setting-up-posting-groups"></a>Definere bokføringsgrupper
 Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. De sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Oppsettet bestemmer når postering skjer. Hvis du for eksempel berørt tidsbereg
 
 ## <a name="copying-posting-setup-lines"></a>Kopiere linjer for bokføringsoppsett
 Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se på siden Generelt bokføringsoppsett. Dette kan innebære mye dataregistrering for å definere det generelle bokføringsoppsettet for firmaet. Selv om det kan være mange ulike kombinasjoner av bokføringsgrupper for firma og vare, kan de ulike kombinasjonene likevel bokføre til de samme finanskontoene. Du kan begrense mengden manuell registrering ved kopiere finanskontoene fra en eksisterende linje på siden **Generelt bokføringsoppsett**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Definere bokføringsgrupper på farten
+
+[!INCLUDE[prod_short](includes/prod_short.md)] tilbyr hjelp via varslinger om manglende finanskonti i ulike oppsett for bokføringsgrupper i dokumenter, slik at brukere kan komme raskere i gang. Hvis du vil ha disse varslene, må du kontrollere at varselet **Finanskonto mangler i bokføringsgruppe eller oppsett** er valgt på **Mine varsler**-siden, som du får tilgang til fra feltet **Endre når jeg mottar varsler** på siden **Mine innstillinger**.  
+
+Dermed får du et varsel når du arbeider med et dokument som bruker en bokføringsgruppe eller et oppsett som mangler en nødvendig finanskonto. Velg koblingen i varselet for å åpne en side der du kan gjøre de aktuelle endringene, forutsatt at du har tillatelse til å gjøre dem.  
+
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)] oppretter en plassholderbokføringsgruppe eller et plassholderoppsett, slik at det kan sende deg direkte til bokføringsgruppen eller oppsettet som mangler en finanskonto. Bokføringsgrupper og oppsett gjør at regnskapsføreren kan styre hvordan poster bokføres i Finans, så slik just-in-time-opprettelse av bokføringsgrupper og oppsett er kanskje ikke tillatt i organisasjonen din.  
+> 
+> I dette tilfellet deaktiverer du varselet **Finanskonto mangler i bokføringsgruppe eller oppsett**, og deretter arbeider du med regnskapsføreren for å foreta relevante endringer i bokføringsgruppen, oppsettet eller dokumentet. Dette er et viktig trinn fordi etter at dokumenter er bokført, kan ikke uriktig brukte bokføringsgrupper eller oppsett slettes, fordi finansposter er opprettet for dem. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Feilsøking av feil med bokføringsgruppe
 Bokføringsgrupper er en av de mer avanserte konseptene som skal konfigureres i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis de ikke er konfigurer riktig, kan det oppstå feil når du bokfører dokumenter eller kladdelinjer. Disse feilene oppstår for eksempel vanligvis av en feil i forbindelse med hvordan finanskonti tilordnes, eller hvordan bokføringsgrupper kombineres.

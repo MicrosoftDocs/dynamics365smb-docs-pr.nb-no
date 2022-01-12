@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442488"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949097"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 
@@ -87,7 +87,7 @@ Hvis du vil ha mer informasjon, kan du se [Sporingskoblinger under planlegging](
 
 Når du oppretter en plan, er rekkefølgen beregningene gjøres i, viktig for å få jobben gjort innen rimelig tid. I tillegg spiller prioritering av krav og ressurser en viktig rolle for å oppnå de beste resultatene.  
 
-Planleggingssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] drives av behov. Varer på høyt nivå må planlegges før vare på lavt nivå, fordi planen for varer på høyt nivå kan generere ekstra behov for varene på lavere nivå. Dette betyr for eksempel at detaljhandelslokasjoner må planlegges før distribusjonssentre, fordi planen for en detaljhandelslokasjon kan inneholde flere behov fra distribusjonssenteret. På et detaljert balansenivå betyr dette også at en ordre ikke skal utløse en ny forsyningsordre hvis det en allerede utgitt forsyningsordre kan dekke ordren. En forsyning fra et bestemt partinummer skal ikke tilordnes for å dekke et generelt behov hvis et annen behov krever dette bestemte partiet.  
+Planleggingssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] drives av behov. Varer på høyt nivå må planlegges før vare på lavt nivå, fordi planen for varer på høyt nivå kan generere ekstra behov for varene på lavere nivå. Dette betyr for eksempel at detaljhandelslokasjoner må planlegges før distribusjonssentre, fordi planen for en detaljhandelslokasjon kan inneholde flere behov fra distribusjonssenteret. På et detaljert balansenivå betyr dette også at en ordre ikke skal utløse en ny forsyningsordre hvis en allerede frigitt forsyningsordre kan dekke ordren. En forsyning fra et bestemt partinummer skal ikke tilordnes for å dekke et generelt behov hvis et annen behov krever dette bestemte partiet.  
 
 ### <a name="item-priority--low-level-code"></a>Varens prioritet/lavnivåkode
 
@@ -122,7 +122,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Overføringer i planl
 
 ### <a name="order-priority"></a>Bestillingsprioritet
 
-I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i de neste dagene. Bortsett fra denne typen prioritet blir ulike behovs- og forsyningstyper sortert i henhold til viktighet i virksomheten for å avgjøre hvilke behov som må oppfylles før andre behov oppfylles. På forsyningssiden vil ordreprioriteten vise hvilken forsyningskilde som skal brukes før bruk av andre forsyningskilder.  
+I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i de neste dagene. Bortsett fra denne typen prioritet blir ulike behovs- og forsyningstyper sortert i henhold til viktighet i virksomheten for å avgjøre hvilke behov som må oppfylles før andre behov kan oppfylles. På forsyningssiden vil ordreprioriteten vise hvilken forsyningskilde som skal brukes før bruk av andre forsyningskilder.  
 
 Hvis du vil ha mer informasjon, kan du se [Prioritere ordrer](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

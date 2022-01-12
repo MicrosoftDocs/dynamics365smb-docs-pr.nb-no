@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434911"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940829"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
+# <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling
+
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
 
 ## <a name="getting-started"></a>Komme i gang
@@ -107,10 +108,13 @@ Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell
 7. Merk av for **Bruk Azure-abonnementet mitt**.
 8. På hurtigfanen **Legitimasjon for min modell** angir API URL-adressen og API-nøkkelen for modellen.  .  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Se også
+
 [Dokumentasjon for Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Bruke kunstig intelligens i Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

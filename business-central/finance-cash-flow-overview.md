@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724815"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940204"
 ---
 # <a name="cash-flow-overview"></a>Oversikt over kontantstrøm
 
@@ -26,7 +26,7 @@ ms.locfileid: "7724815"
 
 Begrepet *kontantstrøm* brukes til å angi innbetalinger minus utbetalinger i en valgt periode. Det er et anslag over hvor mye penger som du forventer vil flyte inn og ut av bedriften, og det inkluderer prognoseberegnede inntekter og utgifter.
 
-## <a name="cash-flow-overview"></a>Oversikt over kontantstrøm
+## <a name="work-with-cash-flow"></a>Arbeide med kontantstrøm
 
 Illustrasjonen nedenfor viser en oversikt over hvordan du kan arbeide med kontantstrøm.
 
@@ -74,7 +74,10 @@ Netto kontantstrøm eller kassebeholdning beregnes som totale kontantmottak minu
 Prognosen kan deretter brukes som et internt verktøy for administrativ beslutningstaking som hjelper deg med å planlegge fremover og ta viktige strategiske beslutninger om driften av virksomheten.
 
 ## <a name="see-also"></a>Se også
+
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
-[Analyser kontantstrøm](finance-analyze-cash-flow.md)
+[Analyser kontantstrøm](finance-analyze-cash-flow.md)  
+[Prognostisere kontantstrømmen i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Definere kontantstrømprognoser ved å bruke Azure AI i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, replenishment, reordering
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f814157dc11737074b1a4b1a83545615c2f4c64d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442313"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949053"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger
 Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.  
@@ -111,7 +111,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Dette prinsippet betyr at en endring i behov fører til en tilsvarende ubalanse på forsyningssiden i ordrenettverket. I motsetning vil en endring i forsyning fører til en tilsvarende ubalanse på behovssiden i ordrenettverket. I virkeligheten er ordrenettverket i en tilstand av konstant endring når brukere skrive inn, endrer og sletter ordrer. Sporing behandler ordrer dynamisk ved å reagere på en endringer når den registreres i systemet og blir en del av ordrenettverket. Så snart nye ordresporingsposter er opprettet, er ordrenettverket i balanse, men bare til neste endring skjer.  
 
- For å øke gjennomsiktigheten til beregninger i planleggingssystemet vises ikke-sporede antall på siden **Ikke-sporet planleggingselement**. Disse antallene representerer differansen i antall mellom kjent behov og foreslått forsyning. Hver linje på siden refererer til årsaken for det overflødige antallet , for eksempel **Rammebestilling**, **Sikkerhetslagernivå**, **Fast gjenbest.ant**, **Minimum bestillingsantall**, **Avrunding** eller **Avdemping**.  
+ For å øke gjennomsiktigheten til beregninger i planleggingssystemet, vises ikke-sporede antall på siden **Ikke-sporede planleggingselementer**. Disse antallene representerer differansen i antall mellom kjent behov og foreslått forsyning. Hver linje på siden refererer til årsaken for det overflødige antallet , for eksempel **Rammebestilling**, **Sikkerhetslagernivå**, **Fast gjenbest.ant**, **Minimum bestillingsantall**, **Avrunding** eller **Avdemping**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Forskyvning i ordresporing  
  I motsetning til reservasjoner som bare kan utføres mot tilgjengelig antall, er sporing mulig mot alle ordrenettverksenheter som er en del av beregningen av planleggingssystemet beregning av nettobehov. Nettobehovet beregnes som følger:  

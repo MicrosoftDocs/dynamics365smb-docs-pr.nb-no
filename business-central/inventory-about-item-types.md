@@ -12,27 +12,26 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2541f509d02a584620c83903c3b92983aba1c2a8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322797"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949046"
 ---
 # <a name="about-item-types"></a>Om varetyper
-I feltet **Type** på siden **Varekort** kan du velge hva varen brukes for i din bedrift, og derfor hvordan den håndteres i programmet. Det finnes tre alternativer:
+I **Type**-feltet på **Varekort**-siden kan du velge hva varen brukes til i virksomheten din, som påvirker i hvilken grad du kan administrere varen på lageret. Tabellen nedenfor viser og beskriver de tre varetypene som er tilgjengelige.
 
 |Alternativ|Vanlig formål|
 |------|-----------|
-|Lager|En fysisk enhet, for eksempel en sykkel, for full selskapsstøtte.|
-|Ikke-lagervarer|En fysisk enhet, for eksempel en bolt, for begrenset selskapsstøtte, for eksempel fordi varen bare brukes internt og har en lav kostnad.|
-|Tjeneste|En arbeidstidsenhet, for eksempel en konsulenttime, for begrenset selskapsstøtte.|
+|Lager|Fysiske ting, for eksempel sykler, telefoner og skrivebord, som du ønsker å kunne bruke alle lagerprosessene for. Dette kan også omfatte ikke-fysiske varer, for eksempel programvarelisenser og abonnementer, hvis varene har identifikasjonsnumre, for eksempel serienumre. Du kan fullt ut spore vareverdier og tilgjengelighet på lager.|
+|Ikke-lagervarer|Ikke-lagervarer er vanligvis fysiske ting, for eksempel bolter eller penner, som en virksomhet bruker, men ikke vil spore fullt ut på lageret. Årsaken kan for eksempel være at de er lavkostnadsvarer og bare brukes internt.|
+|Service|En arbeidstidsenhet, for eksempel en konsulenttime, for begrenset selskapsstøtte.|
 
-**Lager**-typen omfatter fullstendig sporing av lagerantall og verdi. Derfor støttes alle varetransaksjonstyper, og varer av typen Lager kan brukes med alle funksjoner for håndtering av varer.
+> [!NOTE]
+> Typene **Service** og **Ikke-lagervarer** støtter ikke sporing av lagerantall og -verdier. Bare utvalgte varetransaksjonstyper og funksjoner støttes.
 
-Typene **Service** og **Ikke-lagervarer** involverer ikke sporing av lagerantall og verdi. Derfor støttes bare utvalgte varetransaksjonstyper og funksjoner.
-
-De tre varetypene støtter disse funksjonene henholdsvis.
+Tabellen nedenfor viser funksjonene som de tre varetypene støtter.
 
 |Varetype|Salg|Kjøp|Jobbforbruk|Serviceforbruk|Monteringsforbruk|Produksjon Forbruk|Monteringsavgang|Produksjonsavgang|Lokasjon, Overføring|Fysisk opptelling|Revaluering av lager|Beholdning og kostberegning|Varesporing|Reservasjon|Lagerstyring|Planlegging|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587812"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949024"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -36,7 +36,7 @@ Avstemming av banktransaksjoner med interne bankposter refereres til som *samsva
 > [!NOTE]  
 > Hvis bankeoppgavelinjene vedrører sjekkposter, kan du ikke bruke avstemmingsfunksjonene. I stedet må du velge handlingen **Utlign poster** og deretter velge den relevante sjekkposten som bankkontoutdragslinjen skal utlignes mot.
 
-Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik verdien i feltet **Saldo som skal avstemmes** i ruten **Bankkontoposter**, kan du velge handlingen **Bokfør**. Alle bankkontoposter som ikke samsvarer, blir værende på siden, noe som angir avvik som du må løse for å avstemme bankkontoen.
+Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik totalverdien i feltet **Saldo som skal avstemmes** pluss feltet **Saldo ved forrige utdrag** i ruten **Bankkontoposter**, kan du velge handlingen **Bokfør**. Bankkontoposter som ikke samsvarer, blir værende på siden, som angir avvik du må løse for å avstemme bankkontoen.
 
 Alle linjer som ikke kan sammenlignes, angitt med en verdi i **Differanse**-feltet, blir værende på siden **Bankkontoavstemming** etter bokføring. De representerer en form for avvik som du må løse før du kan fullføre bankkontoavstemmingen. Typiske forretningssituasjoner som kan forårsake forskjeller:
 

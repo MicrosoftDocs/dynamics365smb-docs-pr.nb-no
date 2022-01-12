@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889797"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928812"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
@@ -45,7 +45,7 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 
 * Vise rapporter som viser finansposter og saldoer.  
 * Lukke resultatregnskapet.  
-* Åpne Finanskonto-kortet for å legge til eller endre innstillinger.  
+* Åpne finanskontokortet for å legge til eller endre innstillinger.  
 * Vise en liste over bokføringsgrupper som du posterer til kontoen.
 * Vise separate debet- og kreditsaldoer for én konto  
 
@@ -55,7 +55,7 @@ Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du i
 
 Du kan tilpasse strukturen i kontoutskrifter ved å tilordne finanskontoer til kontokategorier.  
 
-Siden **Finanskontokategorier** viser dine kategorier og underkategorier og finanskonti som er tilordnet til dem. Du kan opprette nye underkategorier og tilordne disse kategoriene til eksisterende kontoer.  
+Siden **Finanskontokategorier** viser kategoriene og underkategoriene dine samt finanskontiene som er tilordnet til dem. Du kan opprette nye underkategorier og tilordne disse kategoriene til eksisterende kontoer.  
 
 Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under en linje på siden **Finanskontokategorier**. Dette gjør det enkelt for deg å få en oversikt, fordi hver gruppering viser den totale saldoen. Du kan opprette underkategorier for ulike typer aktiva, og deretter opprette kategorigrupper for aktiva kontra omløpsmidler.  
 

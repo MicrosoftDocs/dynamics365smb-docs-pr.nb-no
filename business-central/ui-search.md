@@ -1,5 +1,5 @@
 ---
-title: Finne funksjoner og informasjon | Microsoft-dokumentasjon
+title: Finne funksjoner og informasjon (inneholder video) | Microsoft Docs
 description: Dette emnet beskriver hvordan du bruker søk til å finne handlinger, sider, rapporter, dokumentasjon og data, i tillegg til andre programmer og konsulenttjenester.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: find
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2df1a204ef2ab3063293274748e5e777d03be4d1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440005"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940129"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg  
 Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage flere apper og konsulenttjenester for [!INCLUDE[prod_short](includes/prod_short.md)].  
