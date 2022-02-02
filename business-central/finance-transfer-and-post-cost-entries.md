@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435825"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970808"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overføre og bokføre kostposter
+
 Før du definerer kostfordelinger, må du forstå hvordan kostposter kommer fra følgende kilder:  
 
--   Automatisk overføring av finansposter.  
--   Manuell kostnadsbokføring for rene kostposter, interne gebyrer og manuell fordelinger.  
--   Bokføringer av automatiske fordelinger for faktiske kostnader.  
--   Overføring av budsjettposter til faktiske.
+- Automatisk overføring av finansposter.  
+- Manuell kostnadsbokføring for rene kostposter, interne gebyrer og manuell fordelinger.  
+- Bokføringer av automatiske fordelinger for faktiske kostnader.  
+- Overføring av budsjettposter til faktiske.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterier for overføring av finansposter til kostposter
 Det er viktig å forstå kriteriene for overføring av finansposter til kostposter. Under overføringen bruker kjørselen **Overfør finansposter til KR** følgende kriterier for å avgjøre om og hvordan finanspostene er overført.  
 
 Finansposter overføres hvis følgende er tilfelle:  
 
--   Postene har dimensjonsverdier som tilsvarer enten et kostsenter eller et kostobjekt.  
--   Postene har dimensjonsverdier som tilsvarer et kostsenter og et kostobjekt. For disse postene har kostsenteret forrang. Dette bidrar til å unngå en situasjon der en kosttype vises i både et kostobjekt og et kostsenter og telles derfor to ganger i statistikken.  
--   Bilagsnummeret i postene er tomt, slik at det vises med bilagsnummeret 0000 i kostpostene.  
--   Postene overføres til en kosttype som tillater kombinerte poster, og disse postene overføres som en kombinert post enten månedlig eller daglig.  
+- Postene har dimensjonsverdier som tilsvarer enten et kostsenter eller et kostobjekt.  
+- Postene har dimensjonsverdier som tilsvarer et kostsenter og et kostobjekt. For disse postene har kostsenteret forrang. Dette bidrar til å unngå en situasjon der en kosttype vises i både et kostobjekt og et kostsenter og telles derfor to ganger i statistikken.  
+- Bilagsnummeret i postene er tomt, slik at det vises med bilagsnummeret 0000 i kostpostene.  
+- Postene overføres til en kosttype som tillater kombinerte poster, og disse postene overføres som en kombinert post enten månedlig eller daglig.  
 
 Finansposter overføres ikke hvis følgende er tilfelle:  
 
--   Postene har dimensjonsverdier som ikke tilsvarer et kostsenter eller et kostobjekt.  
--   Postene har et beløp på null.  
--   Postene har en finanskonto som er slettet.  
--   Postene har en finanskonto som ikke er av typen **Resultatregnskap**.  
--   Postene har en finanskonto som det ikke er tilordnet en kosttype for.  
--   Postene har en bokføringsdato som er tidligere enn **Startdato for finansoverføring**.  
--   Postene er bokført med en avslutningsdato. Dette er vanligvis poster som tilbakestiller saldoen i resultatregnskapet på slutten av året.
+- Postene har dimensjonsverdier som ikke tilsvarer et kostsenter eller et kostobjekt.  
+- Postene har et beløp på null.  
+- Postene har en finanskonto som er slettet.  
+- Postene har en finanskonto som ikke er av typen **Resultatregnskap**.  
+- Postene har en finanskonto som det ikke er tilordnet en kosttype for.  
+- Postene har en bokføringsdato som er tidligere enn **Startdato for finansoverføring**.  
+- Postene er bokført med en avslutningsdato. Dette er vanligvis poster som tilbakestiller saldoen i resultatregnskapet på slutten av året.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Overføring av finansposter til kostposter
 Du kan overføre finansposter til kostposter.  
@@ -64,7 +65,7 @@ Før du kjører prosessen for overføring av finansposter til kostposter, må du
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Overfør finansposter til KR**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ja**-knappen for å starte overføringen. Prosessen overfører alle finansposter som ikke allerede er overført.  
 
-    Under overføringen oppretter prosessen forbindelser i postene i tabellen **Kostpost** og i tabellen **Kostjournal**. Dette gjør det mulig å spore kilden til kostposter.
+Under overføringen oppretter prosessen forbindelser i postene i tabellen **Kostpost** og i tabellen **Kostjournal**. Dette gjør det mulig å spore kilden til kostposter.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatisk overføring og sammensatte poster
 I kostnadsregnskap kan du overføre finansposter til en kosttype ved å bruke en kombinert bokføring. Du kan angi om en kosttype mottar kombinerte poster i feltet **Kombiner poster** i kosttypedefinisjonen. Tabellen nedenfor beskriver de ulike alternativene.  

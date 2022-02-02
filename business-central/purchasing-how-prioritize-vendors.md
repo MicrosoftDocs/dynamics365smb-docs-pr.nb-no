@@ -1,8 +1,6 @@
 ---
-title: Tilordne et prioritetsnivå til en leverandør (inneholder video) | Microsoft Docs
+title: Tilordne et prioritetsnivå til en leverandør (inneholder video)
 description: Du kan tilordne numre til leverandørene for å prioritere dem og forenkle betalingsforslag i Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier, payment priority
+ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e68c56422f4f3de33006297ec396fdd34169e8d
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: dd6374288258baa07a8d91f4bc2dc210d33344fc
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940054"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953506"
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[prod_short](includes/prod_short.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).

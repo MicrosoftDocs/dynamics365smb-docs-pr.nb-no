@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660209"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972047"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 
@@ -41,15 +42,17 @@ Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et 
 Flere finansrapporter baserer seg på finansposter. Hvis du vil vise rapportdata i tilleggsrapporteringsvalutaen, merker du ganske enkelt av for **Vis beløp i tilleggsrapp.valuta** på hurtigfanen **Alternativer** for den relevante finansrapporten.
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
+
 Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i LV i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt. Kjørselen **Juster valutakurser** brukes til å justere valutakursene for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
+
 Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
--   Angi finanskontoer for bokføring av valutakursjusteringer.  
--   Angi metoden for valutakursjustering for alle finanskontoer.  
--   Angi metoden for valutakursjustering for mva-poster.  
--   Aktivere tilleggsrapporteringsvalutaen.  
+- Angi finanskontoer for bokføring av valutakursjusteringer.  
+- Angi metoden for valutakursjustering for alle finanskontoer.  
+- Angi metoden for valutakursjustering for mva-poster.  
+- Aktivere tilleggsrapporteringsvalutaen.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Slik angir du finanskonti for bokføring av valutakursjusteringer  
 
@@ -68,7 +71,8 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
 For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom LV og tilleggsrapporteringsvalutaen.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Slik angir du metoden for valutakursjustering for alle finanskonti:  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Slik angir du metoden for valutakursjustering for alle finanskonti:
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Velg den relevante kontoen på siden **Kontoplan**, og velg deretter handlingen **Rediger**.  
 3. På siden **Finanskort** velger du relevant metode i **Valutakursjustering**-feltet.  
@@ -85,7 +89,8 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 
 4.  Lukk **Finanskort**-siden.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Slik angir du metode for valutakursjustering for mva-poster  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Slik angir du metode for valutakursjustering for mva-poster
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** velger du relevant metode i **Mva-valutakursjustering**-feltet.  
 3. Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du i **Mva-valutakursjustering**-feltet angi hvordan kontoene som er definert for mva-bokføring på siden **Mva-bokføringsoppsett**, skal justeres for valutakursendringer mellom LV og tilleggsrapporteringsvalutaen.  
@@ -124,11 +129,12 @@ Når kjørselen er utført, vil beløpene i følgende eksisterende poster være 
 I tillegg vil alle fremtidige poster av samme type få beløpene registrert i både LV og tilleggsrapporteringsvalutaen.  
 
 > [!NOTE]  
->  Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  
+> Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Oppdatere valutakurser](finance-how-update-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

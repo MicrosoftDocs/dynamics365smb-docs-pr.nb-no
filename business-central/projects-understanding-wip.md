@@ -1,8 +1,6 @@
 ---
-title: VIA-metoder for å beregne og registrere prosjektfremdrift | Microsoft-dokumentasjon
+title: VIA-metoder for å beregne og registrere prosjektfremdrift
 description: Beskriver de forskjellige VIA-metodene (varer i arbeid) du kan bruke til å bokføre, overvåke og beregne økonomiske opplysninger for prosjekter som pågår.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f27d0629c475d52cb8f99bb13dd4021d96f3df68
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780285"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970888"
 ---
-# <a name="understanding-wip-methods"></a>Forstå VIA-metoder
+# <a name="understanding-wip-methods-in-project-management"></a>Forstå VIA-metoder i prosjektstyring
+
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig.
 
 Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans. Hvis du vil ha mer informasjon, se [Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md).
@@ -35,10 +35,11 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 | Ved avslutning |VIA-beløp = VIA-kostbeløp = Forbruk (kostbeløp)<br /><br /> VIA-salgsbeløp = fakturerbar (fakturert pris) |Ved avslutning fører ikke inntekt og kost før prosjektet er ferdig. Det kan hende du ønsker å gjøre dette når det er stor usikkerhet rundt overslagene for kost og inntekt for prosjektet.<br /><br /> Alt forbruk bokføres i VIA-forbrukskontoen (aktiva), og alt fakturert salg bokføres i VIA-kontoen for fakturert salg (gjeld) til prosjektet er ferdig. |
 
 ## <a name="see-also"></a>Se også
+
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

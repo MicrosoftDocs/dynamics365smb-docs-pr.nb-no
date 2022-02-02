@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588885"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012238"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 
@@ -71,6 +71,7 @@ Hvis for eksempel gjeldende selskap er i et miljø som er en kopi av et annet mi
 > Interne administratorer og brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan ikke det.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
+
 Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
 
 Delen viser hvilke dokumenter med din ID i feltet **Tilordnet bruker-ID** som behandles eller er i kø, inkludert de som er relatert til bokføring i bakgrunnen. Delen kan på et øyeblikk fortelle deg om det har oppstått en feil i posteringen av et dokument, eller om det er feil i en jobbkøpost. Delen gjør det også mulig å avbryte en dokumentpostering hvis den ikke kjører.

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 343308cb004ada356eaad14e620f29fb9cf043ee
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326816"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011701"
 ---
 # <a name="fulfilling-service-contracts"></a>Oppfylle servicekontrakter 
 Én måte å sette opp en servicevirksomhet på er å ha standardavtaler mellom virksomheten og kundene som beskriver servicenivået og forventningene til servicen. Du kan opprette kontraktmaler som inneholder nødvendige opplysninger, for eksempel kunde, startdato for kontrakten og fakturaperiode.  

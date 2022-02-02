@@ -1,21 +1,23 @@
 ---
-title: Prosjektoppgaver ved hjelp av ressurser og timelister
+title: Prosjektstyring
 description: Dette emnet beskriver hvordan du bruker ressurser, timelister og prosjekter til å administrere prosjekter og budsjetter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321092"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972151"
 ---
 # <a name="project-management"></a>Prosjektstyring
+
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
 
 Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  

@@ -1,8 +1,6 @@
 ---
-title: Utligne poster i ulike valutaer | Microsoft-dokumentasjon
+title: Utlign poster i ulike valutaer
 description: Du kan utligne poster i flere valutaer, for eksempel hvis du selger i én valuta og mottar betaling i en annen.
-services: project-madeira
-documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
+ms.search.form: 148, 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 895673022a2d3dfa672c12a33d987aa4b05ec7b8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9b2d1f66ff5b43832fada681320a99ef2b7c06bf
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444615"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971122"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivere utligning av kundeposter i forskjellige valutaer
+
 Hvis du handler fra en leverandør i én valuta og betaler i en annen valuta, kan du utligne utbetalingen mot kjøpet.
 
 Hvis du selger til en kunde i én valuta og mottar betaling i en annen valuta, kan du også utligne betalingen mot salgsfakturaen.
@@ -27,6 +27,7 @@ Hvis du selger til en kunde i én valuta og mottar betaling i en annen valuta, k
 Fremgangsmåten nedenfor beskriver hvordan du definerer dette for leverandørposter på siden **Kjøpsoppsett**. Oppsettet er det samme for kundeposter på siden **Salgsoppsett**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Aktivere utligning av leverandørposter i forskjellige valutaer
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsoppsett**, og velg deretter den relaterte koblingen.
 2. I feltet **Utligning mellom valuta** velger du ett av følgende alternativer:
 
@@ -36,11 +37,12 @@ Fremgangsmåten nedenfor beskriver hvordan du definerer dette for leverandørpos
 | ØMU |Utligning mellom ØMU-valutaer er tillatt. |
 | Alle |Utligning mellom alle valutaer er tillatt. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Slik konfigurerer du finanskonti for avrundingsdifferanser ved valutautligning  
+## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Slik konfigurerer du finanskonti for avrundingsdifferanser ved valutautligning
+
 Hvis du vil utligne poster i ulike valutaer, må du opprette finanskontoer som du vil bokføre avrundingsdifferanser på.  
 
 > [!NOTE]  
->  Du må opprette finanskontoene før du fullfører oppgaven. Hvis du vil ha mer informasjon, kan du se [Forstå finans og kontoplanen](finance-general-ledger.md).
+> Du må opprette finanskontoene før du fullfører oppgaven. Hvis du vil ha mer informasjon, kan du se [Forstå finans og kontoplanen](finance-general-ledger.md).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokføringsgrupper – kunde**, og velg deretter den relaterte koblingen.  
 2. Angi de relevante finanskontiene der avrundingsdifferanser skal bokføres, i feltene **Debetkonto for valutaavrund.** og **Kreditkonto for valutaavrund.**.  
@@ -48,6 +50,7 @@ Hvis du vil utligne poster i ulike valutaer, må du opprette finanskontoer som d
 4. Angi de relevante finanskontiene der avrundingsdifferanser skal bokføres, i feltene **Debetkonto for valutaavrund.** og **Kreditkonto for valutaavrund.**.  
 
 ## <a name="see-also"></a>Se også
+
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

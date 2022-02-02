@@ -1,5 +1,5 @@
 ---
-title: Kjøre full planlegging, MPS og MRP
+title: Kjøre full planlegging, MPS eller MRP
 description: Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller begge samtidig.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 73b40d3174497c05446d5b6ae6465f23a420f308
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440331"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971304"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
+
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
 -   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  

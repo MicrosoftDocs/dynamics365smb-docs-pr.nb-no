@@ -1,5 +1,5 @@
 ---
-title: Opprette nye selskaper med en automatisk oppsettguide | Microsoft-dokumentasjon
+title: Opprett nye selskaper med en automatisk oppsettguide
 description: Det er enkelt å opprette et nytt, tomt selskap i Business Central. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
+ms.search.form: 1803
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb1639a57dcfed21b71d9c9cd57cd6090e5e81d7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8c0c9f03dada569ec19a4bf38d9d4fced1469c2b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776375"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011416"
 ---
 # <a name="creating-new-companies-in-prod_short"></a>Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 

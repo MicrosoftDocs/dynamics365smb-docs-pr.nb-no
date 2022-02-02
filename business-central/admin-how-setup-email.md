@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940429"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011129"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -39,7 +40,7 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 |Utvidelse  |Beskrivelse  |Eksempler på når den kan brukes  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i administrasjonssenteret i Microsoft 365. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes) hvis du vil ha mer informasjon.|
+|**Microsoft 365**|Alle sender e-post fra en delt postboks i Exchange Online.|Når alle meldinger kommer fra samme avdeling, vil for eksempel salgsorganisasjonen sende meldinger fra en sales@cronus.com-konto. Dette krever at du konfigurerer en delt postboks i Microsoft 365-administrasjonssenteret. Se [Delte postbokser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes) hvis du vil ha mer informasjon.|
 |**Gjeldende bruker**|Alle sender e-post fra kontoen de brukte til å logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillat kommunikasjon fra individuelle konti.|
 |**Andre (SMTP)**|Bruk SMTP-protokoll til å sende e-poster.|Tillat kommunikasjon via SMTP-e-postserveren. |
 
@@ -177,7 +178,7 @@ Når du oppretter appregistreringen, må du skrive ned følgende informasjon. Du
 Hvis du se generelle retningslinjer for å registrere en app, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
 > [!NOTE]
-Hvis du har problemer med å bruke det gamle SMTP-oppsettet til å sende e-post etter at du har koblet [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen, kan det skyldes at SMTP-godkjenning ikke er aktivert for leieren din. Det anbefales at du bruker e-postkoblingene til Microsoft 365 og Gjeldende bruker i stedet, ettersom de bruker APIer for Microsoft Graph Mail. Hvis du imidlertid må bruke SMTP-oppsettet, kan du aktivere SMTP-godkjenning. Hvis du vil ha mer informasjon, kan du se [Aktivere eller deaktivere SMTP-sending av godkjent klient (SMTP-godkjenning) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
+Hvis du har problemer med å bruke det gamle SMTP-oppsettet til å sende e-post etter at du har koblet [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen, kan det skyldes at SMTP-godkjenning ikke er aktivert for leieren din. Det anbefales at du bruker e-postkoblingene til Microsoft 365 og Gjeldende bruker i stedet, ettersom de bruker API-er for Microsoft Graph Mail. Hvis du imidlertid må bruke SMTP-oppsettet, kan du aktivere SMTP-godkjenning. Hvis du vil ha mer informasjon, kan du se [Aktivere eller deaktivere SMTP-sending av godkjent klient (SMTP-godkjenning) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
 ### <a name="connect-prod_short-to-your-app-registration"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledning **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.

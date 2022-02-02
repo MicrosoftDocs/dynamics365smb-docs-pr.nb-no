@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319541"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029091"
 ---
 # <a name="create-journal-opening-balances"></a>Opprette inngående balanser for kladd
 
@@ -45,6 +45,9 @@ Før du begynner, må du kontrollere at du bruker rollesentersiden for administr
 
 > [!TIP]
 > Du kan bruke de samme kjørslene til å legge til åpningssaldoer når du registrerer en ny kunde eller leverandør som du har gjort forretninger med før, men som ikke er registrert i [!INCLUDE [prod_short](includes/prod_short.md)]. Bare søk etter den aktuelle oppgaven, og velg deretter den relevante koblingen.
+
+> [!IMPORTANT]
+> Spesielt når du skal åpne saldoer for bankkonti, må du ikke følge fremgangsmåten i denne artikkelen for å bokføre direkte til finanskontiene som er knyttet til de aktuelle bankkontiene. Hvis du vil ha mer informasjon, kan du se [Opprette bankkonti](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Se også
 

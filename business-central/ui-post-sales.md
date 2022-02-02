@@ -11,12 +11,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0f3078a866d6d0a8197b4f44081d566a0bca08ad
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ad339f8efb14cd3c4649a4cde46d882c8e69aed5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752558"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012685"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 
@@ -40,8 +40,7 @@ For hver ordre opprettes en salgspost i **Finanspost**-tabellen. Det opprettes o
 
 For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salgslinjen inneholder varenumre), eller det opprettes en finanspost i tabellen **Finanspost** (hvis salgslinjen inneholder en finanskonto). I tillegg til dette registreres alltid ordrer i tabellene **Følgeseddelhode** og **Salgsfakturahode**.
 
-> [!IMPORTANT]  
-> Når du bokfører en ordre, kan du opprette både en følgeseddel og en faktura. Dette kan gjøres samtidig eller hver for seg. Du kan også opprette en dellevering eller en delfaktura ved å fylle ut feltene **Levere (antall)** og **Fakturer (antall)** på hver enkelt ordrelinje før du bokfører. Merk at du ikke kan opprette en faktura for noe som ikke er levert. Det vil si at for å kunne fakturere, er det nødvendig at du på forhånd har registrert en levering, eller at du velger å levere og fakturere samtidig.
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Du kan enten bokføre eller bokføre og sende. Hvis du velger å bokføre og sende, genereres en PDF-fil som du deretter kan sende. Du kan også velge funksjonen **Massebokfør** for å bokføre flere bestillinger samtidig. Hvis du vil ha mer informasjon, se [Bokføre flere dokumenter samtidig](ui-batch-posting.md).
 

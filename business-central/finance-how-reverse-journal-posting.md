@@ -1,8 +1,6 @@
 ---
 title: Angre en bokføring ved å bokføre en tilbakeføringspost
 description: Hvis du har foretatt en feilaktig bokføring i finanskladden, kan du bruke funksjonen Tilbakefør transaksjon til å angre bokføringen med et riktig revisjonsspor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660159"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972541"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbakeføre kladdebokføringer og angre mottak/leveringer
+
 Tilbakeførte kladdebokføringer brukes ikke bare til å korrigere feil, men de brukes også for eksempel til å tømme en gammel avsetningspost før du skriver inn en ny. Du velger posten og oppretter en tilbakeføringspost (poster som er identiske med den opprinnelige posten, men med motsatt fortegn i beløpsfeltet) med samme bilagsnummer og bokføringsdato som den opprinnelige posten. Når du har tilbakeført en post, må du lage den riktige posten.
 
 Du kan bare tilbakeføre poster som er bokført fra en finanskladdelinje. En post kan bare tilbakeføres én gang.
@@ -80,6 +80,7 @@ Følgende beskriver hvordan du angrer en bokført returforsendelse av varer elle
 8.  Korriger posten i feltet **Antall** og bokfør bestillingsreturen på nytt.  
 
 ## <a name="see-also"></a>Se også
+
 [Angre monteringsbokføring](assembly-how-to-undo-assembly-posting.md)  
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  

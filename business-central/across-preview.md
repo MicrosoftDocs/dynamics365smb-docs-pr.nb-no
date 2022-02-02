@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589310"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011549"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 
@@ -74,7 +75,7 @@ Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[prod_short](
 
 Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[prod_short](includes/prod_short.md)]-partner her. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner). Videresalgspartneren kan hjelpe deg med oppsettet av [!INCLUDE[prod_short](includes/prod_short.md)], slik at det passer til din virksomhet, inkludert å importere dataene fra det tidligere systemet. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved å legge til apper fra [den kommersielle markedsplassen for Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online bruker Microsoft 365. Hvis selskapet ditt bruker en annen type e-postoppsett, kan partneren for videresalg hjelpe deg med å bestemme hvordan du skal migrere, eller om du skal bruke [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
+[!INCLUDE[prod_short](includes/prod_short.md)] på nettet bruker Microsoft 365. Hvis selskapet ditt bruker en annen type e-postoppsett, kan partneren for videresalg hjelpe deg med å bestemme hvordan du skal migrere, eller om du skal bruke [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
 Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 

@@ -9,14 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438955"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011760"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Behandle brukerinnstillinger og innstillinger
 

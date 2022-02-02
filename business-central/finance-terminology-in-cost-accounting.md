@@ -10,17 +10,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 02afd4709ef950a621043ed6955c79bf71dac6fd
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326966"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971917"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i kostregnskap
+
 Dette emnet definerer de viktigste begrepene som brukes i kostregnskap.  
 
-## <a name="key-terms"></a>Viktige begreper  
+## <a name="key-terms"></a>Viktige begreper
+
  Følgende tabell inneholder definisjoner på de viktigste begrepene i kostregnskap.  
 
 |**Begrep**|**Definisjon**|  

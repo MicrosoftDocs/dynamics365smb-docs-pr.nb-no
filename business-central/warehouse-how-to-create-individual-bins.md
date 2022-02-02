@@ -7,45 +7,52 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 89b1c6b6252cc91fb10c2698b0a8b4869dc39853
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440081"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972596"
 ---
 # <a name="create-bins"></a>Opprette hyller
+
 Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt fra lokasjonskortet. Du kan også bruke en funksjon på siden **Hylleoppretting** til å opprette hyller automatisk.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Slik oppretter du en hylle fra lokasjonskortet  
+## <a name="to-create-a-bin-from-the-location-card"></a>Slik oppretter du en hylle fra lokasjonskortet
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette en hylle, og velg deretter **Hyller**-handlingen.  
 3. Velg handlingen **Ny**.
 4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Feltet Dedikert
+
 Feltet **Dedikert** på siden **Hyller** angir at antallet i hyllen beskyttes mot å bli plukket i forbindelse med andre krav. Antall i dedikerte hyller kan imidlertid fremdeles reserveres. Antallene i dedikerte hyller er på samme måte inkludert i feltet **Totalt disp. antall** på siden **Reservasjon**.
 
 Dedikering av hyller resulterer i lignende funksjonalitet i grunnleggende lageraktiviteter som bruk av hylletyper, som bare er tilgjengelig i avansert lagerstyring. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).
 
-**Eksempel:** Et arbeidssenter er definert med en hyllekode i feltet **Til-Hyllekode for produksjon**. Produksjonsordrekomponentlinjer med den hyllekoden krever at komponenter som trekkes fremover plasseres der. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden.
+### <a name="example"></a>Eksempel
+
+Et arbeidssenter er definert med en hyllekode i feltet **Til-Hyllekode for produksjon**. Produksjonsordrekomponentlinjer med den hyllekoden krever at komponenter som trekkes fremover plasseres der. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden.
 
 > [!Caution]
 > Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjons- eller monteringskomponenter med siden **Lagerplukk**. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i enkle lageroppsett](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Slik oppretter du hyller individuelt i hylleopprettingsforslaget  
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Slik oppretter du hyller individuelt i hylleopprettingsforslaget
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Hylleoppretting**, og velg den relaterte koblingen.  
 2.  På hver linje fyller du ut de feltene som er nødvendig for å gi navn til og karakterisere hyllene du oppretter.  
 3.  Velg handlingen **Opprett hyller**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Slik lager du hyller automatisk i hylleopprettingsforslaget  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Slik lager du hyller automatisk i hylleopprettingsforslaget
+
 Før du begynner å opprette hyller automatisk, bør du finne ut hvilken slags hylle som er viktig for dine operasjoner, og du bør finne den mest praktiske vareflyten gjennom strukturen i lageret.  
 
 > [!NOTE]  
->  Når du bruker en hylle, kan du ikke slette den med mindre den er tom. Men hvis du noen gang ønsker å bruke et annet system for navngivning av hyller, kan du bruke reklassifiseringskladden til å flytte varene til et nytt hyllesystem. Denne prosessen er imidlertid manuell og tidkrevende, så det er best å sette opp hyllene riktig fra starten av.  
+> Når du bruker en hylle, kan du ikke slette den med mindre den er tom. Men hvis du noen gang ønsker å bruke et annet system for navngivning av hyller, kan du bruke reklassifiseringskladden til å flytte varene til et nytt hyllesystem. Denne prosessen er imidlertid manuell og tidkrevende, så det er best å sette opp hyllene riktig fra starten av.  
 
 For å kunne arbeide på siden **Hylleoppretting** må du defineres som lageransatt på stedet der hyllene er. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](warehouse-how-to-set-up-warehouse-employees.md).    
 
@@ -70,7 +77,8 @@ For å kunne arbeide på siden **Hylleoppretting** må du defineres som lagerans
 
 Gjenta prosessen for et annet sett av hyller til du har opprettet alle hyllene i lageret.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     

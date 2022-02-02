@@ -1,5 +1,5 @@
 ---
-title: Definere en VIA-metode og overvåke prosjektfremdrift | Microsoft Docs
+title: Overvåke prosjektfremdrift og -ytelse
 description: Beskriver hvordan du oppretter en varer i arbeid (via)-metode og beregner VIA for å beregne den økonomiske verdien av prosjekter mens de er fortløpende.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
+ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 052a0ecbe3b5435a2d73f377bb4ac0f4c4373f58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7c816ea6d4fa8f1653000f94e15b74f9b78db8c6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443821"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971813"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig. Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).

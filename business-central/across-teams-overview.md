@@ -3,25 +3,25 @@ title: Oversikt over Business Central og Microsoft Teams-integrering | Microsoft
 description: Del Business Central-oppføringer direkte i en Teams-samtale.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587508"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011848"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er et Microsoft 365-produkt som gjør det mulig for deg å koble til andre, samarbeide samløst og forenkle arbeidet. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en app som kobler Microsoft Teams til forretningsdataene dine i [!INCLUDE [prod_short](includes/prod_short.md)], slik at du raskt kan dele detaljer mellom gruppemedlemmer, slå opp kontakter og svare raskere på forespørsler.
+[Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams) er et Microsoft 365-produkt som gjør det mulig for deg å koble til andre, samarbeide sømløst og forenkle arbeidet. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en app som kobler Microsoft Teams til forretningsdataene dine i [!INCLUDE [prod_short](includes/prod_short.md)], slik at du raskt kan dele detaljer mellom gruppemedlemmer, slå opp kontakter og svare raskere på forespørsler.
 
 Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med Teams-skrivebordet, mobilappen eller Internett.
 
@@ -53,7 +53,7 @@ Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](a
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Del koblinger fra sider i Business Central til Teams
 
-Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling til Business Central-siden.
+Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ![!ikonet Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling til Business Central-siden.
 
 ![!Del-menyen som vises på et kort.](media/teams-share-link.png "Del-menyen som vises på et kort.")
 

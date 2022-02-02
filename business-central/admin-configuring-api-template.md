@@ -1,8 +1,6 @@
 ---
-title: Konfigurere API-maler | Microsoft Docs
+title: Konfigurere API-maler
 description: Beskrive trinnene du må gå gjennom for å konfigurere API-maler for Dynamics 365 Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
+ms.search.form: 5469
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fef3b56de7724745dcf8385c0e4665e3e2d4743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443995"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011259"
 ---
 # <a name="configuring-api-templates"></a>Konfigurere API-maler
+
 API-biblioteket for [!INCLUDE[prod_short_md](includes/prod_short.md)] gir en forenklet visning av de underliggende enhetene. Alle egenskapene i programmet vises ikke via det tilknyttede API-et. På **API-oppsett**-siden kan du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom API-et. 
 
 Hvis for eksempel en konfigurasjonsmal er definert for vareenheten, når en ny varepost opprettes gjennom vare-API-et, blir egenskaper for den nye varen som ikke er definert i API-kallet, fylt ut fra den valgte malen. Hvis for eksempel ingen verdi er definert for **Bokføringsgruppe - vare**-feltet gjennom API-et, men en verdi er definert i den valgte malen, brukes bokføringsgruppeverdien som er definert i malen, for den nye varen. 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
+ms.search.form: 119, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9173
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba584f11b1ac52146a7539b8ac08cb9ed67bcdba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c81046828e6be26683853d2c9cb7836ed939fb1
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445304"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029169"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 
@@ -44,7 +45,7 @@ Når du har lagt til brukere eller endret brukerinformasjon i administrasjonssen
 
 1. Logg på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke en administratorkonto.
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.  
-3. Velg **Oppdatere brukere fra Microsoft 365**.
+3. Velg **Oppdater brukere fra Microsoft 365**.
 
 Hvis du legger til nye brukere, er det neste trinnet å tilordne brukergrupper og -tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). Hvis du oppdaterer brukerinformasjon, og oppdateringen omfatter en lisensendring, blir brukerne tilordnet til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
 
@@ -66,11 +67,11 @@ I nettbaserte distribusjoner kan du fjerne en brukers tilgang til [!INCLUDE[prod
 
 Du kan også fjerne lisensen fra en bruker i administrasjonssenteret for Microsoft 365. Brukeren kan da ikke logge på. Hvis du vil ha mer informasjon, kan du se [Fjerne lisenser fra brukere](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synkronisere med Microsoft 365
 
 Når du tilordner en lisens for [!INCLUDE[prod_short](includes/prod_short.md)] til en bruker i Microsoft 365, kan du opprette brukeren i [!INCLUDE[prod_short](includes/prod_short.md)] på to måter.  
 
-- Administratoren kan legge til brukeren ved å velge handlingen **Oppdater brukere fra Microsoft 365** på siden **Brukere** som beskrevet i delen [Slik legger du til en bruker eller oppdaterer brukerinformasjon i Business Central](#adduser).
+- Administratoren kan legge til brukeren ved å velge **Oppdater brukere fra Microsoft 365**-handlingen på **Brukere**-siden som beskrevet i delen [Slik legger du til en bruker eller oppdaterer brukerinformasjon i Business Central](#adduser).
 - Lisensinformasjonen blir oppdatert automatisk når brukeren logger på første gang.
 
 I begge tilfeller utføres det en rekke innstillinger automatisk. Disse er oppført i andre og tredje kolonne i tabellen nedenfor.
@@ -78,7 +79,7 @@ I begge tilfeller utføres det en rekke innstillinger automatisk. Disse er oppf�
 Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] for å gjenspeile endringen. Avhengig av hva du vil oppdatere, kan du bruke én av handlingene på **Brukere**-siden. Handlingene beskrives i de tre siste kolonnene i tabellen nedenfor.
 
 > [!NOTE]
-> Handlingene som er beskrevet i tabellen nedenfor, er nøyaktige, men den eneste du trenger, er **Oppdater brukerne fra Microsoft 365**, som ble lagt til for å forenkle prosessen. De andre handlingene blir fjernet i en fremtidig versjon av [!INCLUDE[prod_short](includes/prod_short.md)].
+> Handlingene som er beskrevet i tabellen nedenfor, er nøyaktige, men den eneste du trenger, er **Oppdatere brukerne fra Microsoft 365**, som ble lagt til for å forenkle prosessen. De andre handlingene blir fjernet i en fremtidig versjon av [!INCLUDE[prod_short](includes/prod_short.md)].
 
 |Hva skjer når:|Første bruker, første pålogging|Hent brukere fra Microsoft 365|Oppdater brukere fra Microsoft 365|Gjenopprett brukerens standardbrukergrupper|Oppdater brukergrupper|Oppdater brukerinformasjon fra Microsoft 365|
 |-|-|-|-|-|-|-|
@@ -88,46 +89,10 @@ Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[pro
 |Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
 |Legg til brukeren i brukergrupper i henhold til gjeldende brukerplaner. Fjern tillatelsessettet SUPER for alle andre brukere enn den første brukeren som skal logge på, samt [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Det må være minst en forekomst av tillatelsessettet SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Fjerner manuelt tilordnede brukergrupper og tillatelser.|**X**<br /><br />Oppdater brukergruppetilordninger.| |
 
-## <a name="the-device-license"></a>Enhetslisensen
-
-Enhetslisensen for Dynamics 365 Business Central tillater flere brukere å bruke en enhet som dekkes av lisensen samtidig. Dette kan for eksempel være et salgssted, et verksted eller en lagerenhet. Når du har kjøpt et antall enhetslisenser, kan opptil det antallet brukere som er tilordnet til gruppen Enhetsbrukere for Dynamics 365 Business Central, logge på samtidig. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/business-central/overview/)-nettstedet.
-
-Selskapets Microsoft 365-administrator eller Microsoft-partner kan opprette gruppen Enhetsbrukere for Dynamics 365 Business Central og legge til enhetsbrukere som medlemmer i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com/) eller i [Azure Portal](https://portal.azure.com/).
-
-### <a name="device-user-limitations"></a>Begrensninger for enhetsbrukere
-
-Brukere med enhetslisensen kan ikke utføre følgende oppgaver i [!INCLUDE[prod_short](includes/prod_short.md)]:
-
-- Definere jobber som skal kjøres som planlagte oppgaver i jobbkøen. Enhetsbrukere er samtidige brukere, og vi kan derfor ikke sikre at den involverte brukeren finnes i systemet når en oppgave utføres, noe som kreves.
-
-- En enhetsbruker kan ikke være første bruker til å logge på. En bruker av typen administrator, fullstendig bruker eller ekstern regnskapsfører må være den første til å logge på, slik at de kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i hjelpen for administrasjon.
-
-### <a name="to-create-a-dynamics-365-business-central-device-users-group"></a>Slik oppretter du en Dynamics 365 Business Central-enhetsbrukergruppe
-
-1. Gå til **Grupper**-siden i administrasjonssenteret for Microsoft 365.
-2. Velg handlingen **Legg til en gruppe**.
-3. På siden **Velg en gruppetype** velger du **Sikkerhet** og deretter **Legg til**.
-4. På siden **Grunnleggende** angir du **Dynamics 365 Business Central Device Users** som navnet på gruppen.
-  
-   >[!NOTE]
-   >Navnet på gruppen må være skrevet på engelsk nøyaktig som vist i trinn 4, selv om du bruker et annet språk. Hvis du har kopiert navnet på gruppen fra et dokument, for eksempel en PDF-fil, kontrollerer du at navnet ikke inneholder ekstra mellomrom.
-5. Velg **Lukk**-knappen.
-
-> [!NOTE]
-> Du kan også opprette en gruppe av typen Microsoft 365. Hvis du vil ha mer informasjon, kan du se [Sammenligne grupper](/microsoft-365/admin/create-groups/compare-groups).
-
-### <a name="to-add-members-to-the-group"></a>Slik legger du til medlemmer i gruppen
-
-1. I administrasjonssenteret for Microsoft 365 oppdaterer du **Grupper**-siden, slik at den nye gruppen vises.
-2. Velg gruppen **Dynamics 365 Business Central Device Users**, og velg deretter **Vis alle og administrer medlemmer**.
-3. Velg handlingen **Legg til medlemmer**.
-4. Velg brukerne du vil legge til, og velg deretter **Lagre**-knappen.
-5. Velg **Lukk**-knappen tre ganger.
-
-Du kan legge til så mange brukere i gruppen Dynamics 365 Business Central Device Users som du trenger. Antall enheter som brukere kan logge på samtidig, blir imidlertid definert av antall kjøpte enhetslisenser.
-
-> [!NOTE]
-> Du trenger ikke å tilordne en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens til brukere som er medlemmer av gruppen Dynamics 365 Business Central Device Users.
+<!--
+## The Device License
+This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
+-->
 
 ## <a name="managing-users-and-licenses-in-on-premises-deployments"></a>Behandle brukere og lisenser i lokale distribusjoner
 
@@ -155,7 +120,8 @@ Ved distribusjon på stedet oppretter, redigerer og sletter administratoren bruk
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Administrasjon](admin-setup-and-administration.md)  
-[Legge til brukere i Microsoft 365 for bedrifter](/microsoft-365/admin/add-users/add-users)  
+[Lisensiering i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing)  
+[Legge til brukere i Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
 [Sikkerhet og beskyttelse i Business Central (administrasjonsinnhold)](/dynamics365/business-central/dev-itpro/security/security-and-protection)  
 
 

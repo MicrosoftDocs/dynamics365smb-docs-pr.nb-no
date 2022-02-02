@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589475"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012080"
 ---
 # <a name="the-data-archive-extension"></a>Dataarkiv-utvidelsen
 Over tid vil bedriften samle en vesentlig mengde data, og som administrator kan det være lurt å ha en strategi for arkivering av data. Hvis du har store mengder data, kan du redusere hastigheten, for eksempel at det tar litt lengre tid å generere rapporter, eller til og med låse poster. I tillegg kan store mengder data føre til økte lagringskostnader.
@@ -39,19 +39,19 @@ Dataarkiv-utvidelsene brukes av følgende kjørsler for datokomprimering.
 
 |Kjørsler  |
 |---------|
-|Datokomp. Varebudsjettposter     |
-|Datokomprim. bankkontopost     |
-|Datokomprimer kundeposter     |
-|Datokomprimer aktivaposter     |
-|Datokomprimer finansposter     |
-|Datokompr. forsikringspost     |
-|Datokompr. vedlikehold Finans     |
-|Datokompr. vedlikehold Finans     |
-|Datokomprimer ressursposter     |
-|Datokomprimer mva-poster     |
-|Datokompr. leverandørposter     |
-|Datokomprimer lager Poster     |
-|Datokomp. Budsjettposter     |
+|Datokomp. Varebudsjettposter |
+|Datokomprim. bankkontopost |
+|Datokomprimer kundeposter |
+|Datokomprimer aktivaposter |
+|Datokomprimer finansposter |
+|Datokompr. forsikringspost |
+|Datokompr. vedlikehold Finans |
+|Datokompr. vedlikehold Finans |
+|Datokomprimer ressursposter |
+|Datokomprimer mva-poster |
+|Datokompr. leverandørposter |
+|Datokomprimer lager Poster |
+|Datokomp. Budsjettposter |
 
 Hvis du vil starte dataarkivering når du kjører en av kjørslene, kan du aktivere **Arkiver slettede poster**.
 

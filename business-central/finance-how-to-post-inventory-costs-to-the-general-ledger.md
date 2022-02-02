@@ -1,7 +1,6 @@
 ---
-title: Bokføre lagerkost i finans
+title: Avstemme lagerkost med finans
 description: Ved slutten av en regnskapsperiode må en sekvens med oppgaver innen kostkontroll og sporing utføres for å rapportere en korrekt og balansert lagerverdi.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
+ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 74a2e257df3306a76d777559a5a157aa2b9ddec9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442138"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971633"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
+
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
 
 Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring** på siden **Lageroppsett**.
@@ -26,6 +27,7 @@ Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring**
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Slik bokfører du lagerkost manuelt
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokfør lagerkost i finans** og velg den relaterte koblingen.
 2. Bokfør lagerkost manuelt i Finans ved å starte kjørselen. Når du kjører denne kjørselen, opprettes finansposter på grunnlag av verdiposter. Du kan bokføre postene slik at de summeres per bokføringsgruppe.
 

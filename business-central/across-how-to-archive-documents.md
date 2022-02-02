@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: a12d8d7a11e581a6cfe93b6a1f4588cd87efc98f
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 396fb417132d161b08b23498fe78d30b4a3be30f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543275"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011786"
 ---
 # <a name="archive-documents"></a>Arkivere dokumenter
 Du kan arkivere ordrer, bestillinger, tilbud, ordrereturer og rammebestillinger, for eksempel fordi du vil lagre en kopi av et dokument til bruk senere. Du arkivere et salgs- eller kjøpsdokument flere ganger og lagre en annen arkiverte versjon hver gang.

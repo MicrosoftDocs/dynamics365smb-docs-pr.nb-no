@@ -1,8 +1,6 @@
 ---
-title: Definere ressurskostpriser, priser og kapasitet | Microsoft-dokumentasjon
+title: Definere prosjektressurskostpriser, priser og kapasitet
 description: For å bruke ressurser og forenkle prosjektstyring angir du kostnadene og prisene for individuelle ressurser eller ressursgrupper, og angir ressurskapasiteten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
+ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb0d6f0ebe08abfb4b6f769f1bdbff1f02bc677f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a91bf2cbd82f2b4c8374a1773a6603f52c47c581
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439798"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972255"
 ---
-# <a name="set-up-resources"></a>Definere ressurser
+# <a name="set-up-resources-for-projects"></a>Definer ressurser for prosjekter
+
 For å behandle ressursaktiviteter på riktig måte må du definere ressursene og de relaterte kostnadene og prisene. De prosjektrelaterte prisene, rabattene og kostfaktorreglene er definert på prosjektkortet. Du kan angi kostnadene og prisene for individuelle ressurser, ressursgrupper eller alle tilgjengelige ressurser for firmaet.
 
 Når ressurser brukes eller selges i et prosjekt, hentes de tilknyttede prisene og kostnadene fra informasjonen du definerer.

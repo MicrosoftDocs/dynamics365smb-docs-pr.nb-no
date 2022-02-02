@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439953"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972203"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeide med rapporter, satsvise jobber og XML-porter
 
@@ -56,7 +56,7 @@ Bruk feltene under **Alternativer** og **Filtre** for å endre avgrensningen av 
 
 ## <a name="previewing-a-report"></a>Forhåndsvise en rapport
 
-Ved å forhåndsvise en rapport kan du se hvordan rapporten vil se ut før du skriver den ut. Forhåndsvisningen er ikke basert på det valgte feltet **Skriver** på forespørselssiden. Det kontrolleres av nettleseren. Etter forhåndsvisning kan du gå tilbake til forespørselssiden og gjøre endringer i alternativer og filtre etter behov.
+Ved å forhåndsvise en rapport kan du se hvordan rapporten vil se ut før du skriver den ut. Forhåndsvisningen er ikke basert på skriveren valgt i feltet **Skriver** på forespørselssiden. Det kontrolleres av nettleseren. Etter forhåndsvisning kan du gå tilbake til forespørselssiden og gjøre endringer i alternativer og filtre etter behov.
 
 Hvis du vil forhåndsvise en rapport, velger du **Forhåndsvis** eller **Forhåndsvis & Lukk** på rapportforespørselssiden. Knappen som vises, avhenger av rapporten, så noen rapporter har **Forhåndsvisning**-knapp, mens andre har en **Forhåndsvis & Lukk**-knapp. Begge knappene åpner en forhåndsvisning av rapporten. Forskjellen er at **Forhåndsvisning** holder forespørselssiden åpen, slik at du kan gå tilbake til den, gjøre endringer, forhåndsvise på nytt eller skrive ut. Med **Forhåndsvis & Lukk** lukkes forespørselssiden, slik at du må åpne rapporten på nytt for å gjøre endringer eller skrive ut.
 
@@ -139,6 +139,12 @@ Hvis du vil ha mer informasjon om rapportutforming, kan du se [Rapportoversikt](
 
 > [!NOTE]
 > Noen rapporter eksporterer tall som tekst, og gjør at du ikke kan utføre beregninger eller bruke Power Pivot-celler i Excel-regnearket. Etter eksporten er det lurt å kontrollere tallene i regnearket. Hvis du vil analysere og lage en oversikt over tallene, endrer du formatet for de aktuelle cellene fra **Tekst** til **Tall**. Hvis du vil ha mer informasjon om hvordan du formaterer tall i celler, kan du se denne videoen [Formateringstall i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word-dokument
+Bruk alternativet **Microsoft Word-dokument** til å generere en rapport som et Word-dokument.  
+
+> [!NOTE]
+> Du kan angi oppsettet som skal brukes for hver rapport på siden **Rapportvalg** i feltet **Valgt oppsett**. Standardinnstillingen for rapporter er **RDLC (innebygd)**, som produserer rapporter i samme eller liknende oppsett som oppsettet **Microsoft Word-dokument**. Hovedforskjellen er imidlertid om du vil generere et eller flere rapportdokumenter. For enkeltdokumenter kan du bruke alternativet RDLC (innebygd). Hvis du vil ha flere dokumenter, angir du **Microsoft Word-dokumentet** som standardoppsett for rapporten. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlegge en rapport for kjøring
 

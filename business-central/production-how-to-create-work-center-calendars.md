@@ -1,5 +1,5 @@
 ---
-title: Opprette produksjonskalendere
+title: Definere produksjonskalendere
 description: Oppretting og aktivering av en arbeidssenterkalender omfatter flere oppgaver, inkludert oppsett av produksjonskalendere og oppretting av arbeidsskift.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9d473d6c1e657828ce2d47e33608b691ee45fd38
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab690e038c3e7c681cea9677e48b35876c567eac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440406"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972778"
 ---
 # <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
+
 En arbeidssenter- eller maskinkalender angir virkedager/arbeidstider, skift, ferie og fravær som utgjør senterets disponible kapasitet (målt i tid) i henhold til senterets definerte effektivitets- og kapasitetsverdier.
 
 Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurskalender må du først definere en eller flere generelle produksjonskalendere. En produksjonskalender definerer en standard arbeidsuke i henhold til starten og slutten på arbeidsdagen samt skiftarbeid. I tillegg definerer produksjonskalenderen faste feriedager i løpet av året.  

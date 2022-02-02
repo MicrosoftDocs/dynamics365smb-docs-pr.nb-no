@@ -1,32 +1,33 @@
 ---
-title: Opprette nummerserier | Microsoft-dokumentasjon
+title: Opprette nummerserier
 description: Finn ut hvordan du definerer nummerserier som tilordner unike ID-koder til konti og dokumenter i Business Central.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446000"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029643"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
+
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
 
 > [!Important]
 > Som standard er det ikke tillatt med mellomrom i nummerserier, fordi den nøyaktige historikken for finanstransaksjoner må være tilgjengelige for revisjon, i henhold til lovgivningen, og må derfor følge en ubrutt sekvens uten slettede numre.<br /><br />
-Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se [Tomrom i nummerserier](ui-create-number-series.md#gaps-in-number-series).
+> Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se delen [Tomrom i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
->   Vi anbefaler at du bruker de samme nummerseriekodene som er oppført på siden **Nummerserieliste** i demoselskapet CRONUS. Koder som *P-INV+* gir kanskje ikke umiddelbar mening for deg, men [!INCLUDE[prod_short](includes/prod_short.md)] har en rekke standardinnstillinger som avhenger av disse nummerseriekodene.
+> Vi anbefaler at du bruker de samme nummerseriekodene som er oppført på siden **Nummerserieliste** i demoselskapet CRONUS. Koder som *P-INV+* gir kanskje ikke umiddelbar mening for deg, men [!INCLUDE[prod_short](includes/prod_short.md)] har en rekke standardinnstillinger som avhenger av disse nummerseriekodene.
 
 Et nummereringssystem lager du ved å opprette én eller flere koder for hver hoveddatatype eller dokumenttype. Du kan for eksempel opprette én kode for å nummerere kunder, en annen kode for å nummerere salgsfakturaer, og enda en kode for å nummerere dokumenter i finanskladder. Når du har opprettet en kode, må du opprette minst én nummerserielinje. Nummerserielinjen inneholder informasjon som for eksempel første og siste nummer i serien, samt startdato. Du kan opprettet mer enn én nummerserielinje per nummerseriekode, med ulik startdato for hver linje. Seriene brukes i rekkefølge, og hver serie starter på sin respektive startdato.
 

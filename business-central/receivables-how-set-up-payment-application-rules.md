@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435062"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971278"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
-På siden **Betalingsutligningsregler** kan du definere regler for å styre hvordan betalingstekst (på en banktransaksjon) automatisk samsvarer med teksten i åpne poster, i følgende to prosesser:
-
-- Utligne automatisk betalinger mot tilknyttede åpne (ubetalte) fakturaer, kreditnotaer eller andre poster når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
-
-- Avstem automatisk banktransaksjoner med relaterte, interne bankkontoposter når du velger handlingen **Avstem automatisk** på siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
+På siden **Betalingsutligningsregler** definerer du regler for å styre hvordan betalingstekst (på banktransaksjoner) utlignes automatisk med teksten på relaterte åpne (ubetalte) fakturaer, kreditnotaer eller andre oppføringer når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
 Du kan definere nye utligningsregler for betaling ved å velge hvilke typer data i en kladdelinje for betalingsavstemming som må samsvare med data i én eller flere åpne poster, før den relaterte betalingen automatisk utlignes mot de åpne postene. Kvaliteten på hver automatiske utligning vises som verdien **Lav** til **Høy** i feltet **Konfidensintervall** på siden **Betalingsavstemmingskladd** i henhold til utligningsregelen for betaling som ble brukt.
 

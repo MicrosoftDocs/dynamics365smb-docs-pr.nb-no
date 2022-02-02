@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436001"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973735"
 ---
 # <a name="close-accounting-periods"></a>Lukke regnskapsperioder
+
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 
 ## <a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. På siden **Regnskapsperioder** velger du handling **Lukk år**.
 
@@ -30,7 +33,7 @@ Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 Regnskapsåret er lukket, og det er merket av i feltene **Lukket** og **Dato låst** for alle periodene i året. Regnskapsåret kan ikke åpnes på nytt, og du kan ikke slette haken i feltene **Lukket** eller **Dato låst**.
 
 > [!NOTE]  
->   Det er ikke mulig å avslutte et regnskapsår før et nytt regnskapsår er opprettet. Merk at når et regnskapsår er avsluttet, er det ikke mulig å endre startdatoen for det etterfølgende regnskapsåret.
+> Det er ikke mulig å avslutte et regnskapsår før et nytt regnskapsår er opprettet. Merk at når et regnskapsår er avsluttet, er det ikke mulig å endre startdatoen for det etterfølgende regnskapsåret.
 
 Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Postene vil, i forbindelse med bokføringen, bli merket som bokført i et avsluttet regnskapsår, og det merkes av for feltet **Etterpost**.
 

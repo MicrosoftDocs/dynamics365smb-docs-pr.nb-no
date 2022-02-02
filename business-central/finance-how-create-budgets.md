@@ -1,8 +1,6 @@
 ---
-title: Opprette finansbudsjetter | Microsoft-dokumentasjon
+title: Opprett finansbudsjetter
 description: Beskriver hvordan du oppretter finansbudsjetter for å prognostisere ulike økonomiske aktiviteter og tilordne dimensjoner for forretningsanalyseformål.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444665"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971709"
 ---
 # <a name="create-gl-budgets"></a>Opprette finansbudsjetter
+
 Du kan ha flere budsjetter for de samme periodene hvis du oppretter budsjetter med forskjellige navn. Først definerer du budsjettnavn og angir budsjettallene. Budsjettnavnet inkluderes da på alle budsjettpostene du oppretter.  
 
 Når du oppretter et budsjett, kan du definere fire dimensjoner for hvert budsjett. Disse budsjettspesifikke dimensjonene kalles budsjettdimensjoner. Du kan velge budsjettdimensjoner for hvert budsjett, blant de dimensjonene du allerede har definert. Budsjettdimensjoner kan brukes til å definere filtre i budsjetter og til å legge til dimensjonsopplysninger i budsjettposter. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
 
 Budsjetter spiller en viktig rolle i forretningsintelligens, for eksempel i årsregnskap basert på kontoskjemaer som inneholder budsjettposter, eller når du analyserer budsjetterte i forhold til faktiske beløp i kontoplanen. Hvis du vil ha mer informasjon, kan du se [Forretningsintelligens](bi.md).
 
-I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha mer informasjon, kan du se [Opprette kostbudsjetter](finance-create-cost-budgets.md).    
+I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha mer informasjon, kan du se [Opprette kostbudsjetter](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Opprette et nytt finansbudsjett  
+## <a name="to-create-a-new-gl-budget"></a>Opprette et nytt finansbudsjett
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Velg handlingen **Rediger budsjett**.
@@ -40,17 +41,19 @@ I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Hvis du vil ha
 7. Gjenta trinn 5 og 6 til du har angitt alle budsjettbeløpene.  
 
 > [!NOTE]  
->  I hurtigfanen **Filtre** kan du filtrere budsjettopplysningene etter budsjettdimensjoner du har definert under budsjettnavnet.
+> I hurtigfanen **Filtre** kan du filtrere budsjettopplysningene etter budsjettdimensjoner du har definert under budsjettnavnet.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Eksportere og importe finansbudsjetter med Excel
+
 For nesten alle andre sider kan du eksportere data på budsjettsider til Excel for videre behandling eller analyse. Hvis du vil ha mer informasjon, kan du se [Eksportere forretningsdataene til Excel](about-export-data.md).
 
 > [!NOTE]
-> Kontoplanen som finansbudsjetter er basert på, har linjer med kontotypen Overskrift som inneholder summen av linjene under. Når du eksporterer et finansbudsjett, eksporteres data på alle linjer uavhengig av kontotypen. Imidlertid kan bare data på linjer av kontotypen Bokføring importeres tilbake. I henhold til dette: <br /><br /> **Når du importerer et finansbudsjett, slettes verdier som finnes i Overskrift-linjene.** <br /><br /> Dette er for å unngå feil totaler når du importerer data som er opprettet eller redigert i Excel.<br /><br /> **Scenario**: Du vet at de nye budsjetterte lønnskostnadene vil bli LV 1 200 000. Du vil at lønnsavdelingen skal budsjettere for de tre bestemte linjene (av kontotypen Bokføring) for fulltidsansatte, deltidsansatte og midlertidig hjelp. De tre linjene grupperes under en Lønn-overskriftslinje.<br /><br />Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og sender det til lønnsavdelingen og informerer dem om å distribuere LV 1 200 000.<br /><br /> Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til LV 1 200 000, og overskriftslinjen er tom.
+> Kontoplanen som finansbudsjetter er basert på, har linjer med kontotypen Overskrift som inneholder summen av linjene under. Når du eksporterer et finansbudsjett, eksporteres data på alle linjer uavhengig av kontotypen. Imidlertid kan bare data på linjer av kontotypen Bokføring importeres tilbake. I henhold til dette: <br /><br /> **Når du importerer et finansbudsjett, slettes verdier som finnes i Overskrift-linjene.** <br /><br /> Dette er for å unngå feil totaler når du importerer data som er opprettet eller redigert i Excel.<br /><br /> **Scenario**: Du vet at de nye budsjetterte lønnskostnadene vil bli LV 1 200 000. Du vil at lønnsavdelingen skal budsjettere for de tre bestemte linjene (av kontotypen Bokføring) for fulltidsansatte, deltidsansatte og midlertidig hjelp. De tre linjene grupperes under en Lønn-overskriftslinje.<br /><br />Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og sender det til lønnsavdelingen og informerer dem om å distribuere LV 1 200 000.<br /><br /> Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til NOK 1 200 000, og overskriftslinjen er tom.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Eksportere forretningsdataene til Excel](about-export-data.md)  
 [Finans](finance.md)  
 [Forretningsintelligens](bi.md)  

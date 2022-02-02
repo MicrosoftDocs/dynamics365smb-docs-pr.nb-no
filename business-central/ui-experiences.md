@@ -1,7 +1,6 @@
 ---
-title: Velge brukeropplevelsen for å vise eller skjule avanserte funksjoner | Microsoft-dokumentasjon
+title: Endre hvilke funksjoner som vises
 description: Finn ut hva brukeropplevelsesnivåene Essential og Premium betyr for brukergrensesnittet, moduler og selskapet ditt.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443621"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029117"
 ---
 # <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er utformet for å hjelpe deg med å drive bedriften din uavhengig av størrelse og kompleksitet. I kjernen av produktet finner du viktige funksjoner, for eksempel regnskapsrapporter, salg, kjøp og lagerstyring. Etter hvert som bedriftskompleksiteten øker, kan du f.eks. aktivere funksjonaliteten for produksjons- og servicestyring.

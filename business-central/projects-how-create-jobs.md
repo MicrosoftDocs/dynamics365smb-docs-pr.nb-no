@@ -1,19 +1,20 @@
 ---
-title: Opprette et prosjektkort for et prosjekt og angi oppgaver | Microsoft-dokumentasjon
+title: Opprette et prosjektkort for et prosjekt og angi oppgaver
 description: For et nytt prosjekt oppretter du et prosjektkort som inneholder prosjektoppgaver og planleggingslinjer, slik at det blir enklere å administrere fremdrift og budsjett.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
+ms.search.form: 88, 1001, 1002, 1003, 1004, 1005, 1006, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 13037a0f984a3e390f194572afc0362360ab7187
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 88da1794619da0fce6001d70482a021d8efbe8cf
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439823"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973313"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  

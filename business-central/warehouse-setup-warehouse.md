@@ -7,20 +7,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324717"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973235"
 ---
 # <a name="setting-up-warehouse-management"></a>Definere lagerstyring
+
 Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette omfatter å definere hvordan ulike varer skal håndteres på ulike lagerlokasjoner, for eksempel graden av hyllekontroll og omfanget av påkrevd arbeidsflyt mellom lageraktiviteter.  
 
- Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -42,11 +43,12 @@ Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette
 |Integrer strekkodelesere i lagerstyringsløsningen. Bare for lokal distribusjon.|[Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+[Monteringsstyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

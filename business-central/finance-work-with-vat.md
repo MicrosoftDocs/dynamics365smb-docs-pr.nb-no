@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439438"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970966"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Du må utføre følgende trinn før du angir mva manuelt i en salgs- eller kjøp
 2. Gjenta trinn 1 for siden **Salgsoppsett**.
 3. Når du har fullført oppsettet som er beskrevet ovenfor, kan du justere **Mva-beløp**-feltet på finanskladdelinjen, eller feltet **Motkonto-mva. - beløp** på salgs- eller kjøpskladdelinjen. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer at differansen ikke er større enn den tillatte maksimumsdifferansen.  
 
-    > [!NOTE]  
-    > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[prod_short](includes/prod_short.md)] differansen i feltet **Mva-differanse**.  
+> [!NOTE]  
+> Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[prod_short](includes/prod_short.md)] differansen i feltet **Mva-differanse**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Bokføre import-mva med kjøpsfakturaer
 I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruke en kjøpsfaktura.  
@@ -120,34 +121,34 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 3. Velg **Detaljer om mottaksdeklarasjon**.  
 4. Hvis det er merket av for **Leveringsbekreftelse er obligatorisk** for mva-bokføringsgruppedefinisjonen som er konfigurert for kunden, er som standard **Obligatorisk** angitt i **Status**-feltet. Du kan oppdatere feltet for å angi om kunden har returnert bekreftelsen.  
 
-    > [!Note]  
-    >  Hvis det ikke er merket av for **Leveringsbekreftelse er obligatorisk** i mva-bokføringsgruppedefinisjonen, opprettes det en post, og **Ikke i bruk** angis i **Status**-feltet. Du kan oppdatere feltet for å gjenspeile den riktige statusinformasjonen. Du kan manuelt endre statusen fra **Ikke i bruk** til **Påkrevd** og fra **Påkrevd** til **Ikke i bruk** etter behov.  
+> [!Note]  
+>  Hvis det ikke er merket av for **Leveringsbekreftelse er obligatorisk** i mva-bokføringsgruppedefinisjonen, opprettes det en post, og **Ikke i bruk** angis i **Status**-feltet. Du kan oppdatere feltet for å gjenspeile den riktige statusinformasjonen. Du kan manuelt endre statusen fra **Ikke i bruk** til **Påkrevd** og fra **Påkrevd** til **Ikke i bruk** etter behov.  
 
    Når du oppdaterer **Status**-feltet til **Påkrevet**, **Mottatt** eller **Ikke mottatt**, opprettes det en bekreftelse.  
 
-    > [!TIP]  
-    >  Du kan bruke **Leveringsbekreftelser**-siden for å få en oversikt over statusen for alle bokførte leveringer som det er opprettet en leveringsbekreftelse for.  
+> [!TIP]  
+>  Du kan bruke **Leveringsbekreftelser**-siden for å få en oversikt over statusen for alle bokførte leveringer som det er opprettet en leveringsbekreftelse for.  
 
 5. Velg **Skriv ut mottaksdeklarasjon**.  
 
-    > [!Note]  
-    >  Du kan forhåndsvise eller skrive ut dokumentet. Når du velger **Skriv ut leveringsbekreftelse** og skriver ut dokumentet, blir det merket av for **Skrevet ut** automatisk. Hvis den ikke allerede er angitt, oppdateres statusen for bekreftelsen til **Påkrevd**. Om nødvendig inkluderer du den utskrevne bekreftelsen med leveringen.  
+> [!Note]  
+>  Du kan forhåndsvise eller skrive ut dokumentet. Når du velger **Skriv ut leveringsbekreftelse** og skriver ut dokumentet, blir det merket av for **Skrevet ut** automatisk. Hvis den ikke allerede er angitt, oppdateres statusen for bekreftelsen til **Påkrevd**. Om nødvendig inkluderer du den utskrevne bekreftelsen med leveringen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Slik skriver du ut en leveringsbekreftelse  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsforsendelser**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
 3. Velg **Skriv ut mottaksdeklarasjon**.  
 
-    > [!NOTE]  
-    >  Alternativt kan du skrive ut et sertifikat fra siden **Mottaksdeklarasjon**.  
+> [!NOTE]  
+>  Alternativt kan du skrive ut et sertifikat fra siden **Mottaksdeklarasjon**.  
 
 4. Hvis du vil inkludere informasjon fra linjene i leveringsdokumentet i bekreftelsen, kan du merke av for **Skriv ut linjedetaljer**.  
 5. Merk av for **Opprett mottaksdeklarasjoner hvis de ikke allerede er opprettet** hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal opprette bekreftelser for bokførte følgesedler som ikke har slike ved kjøring. Når du merker av for dette alternativet, opprettes nye bekreftelser for alle bokførte følgesedler som ikke har bekreftelser i det merkede området.  
 6. Filterinnstillingene er som standard for følgeseddelen du har valgt. Fyll ut filterinformasjonen for å velge en bestemt leveringsbekreftelse du vil skrive ut.  
 7. Velg **Skriv ut** på siden **Mottaksdeklarasjon** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
-    > [!Note]  
-    > Feltet **Status for mottaksdeklarasjon** og feltet **Skrevet ut** er oppdatert for leveringen på siden **Leveringsbekreftelser**.  
+> [!Note]  
+> Feltet **Status for mottaksdeklarasjon** og feltet **Skrevet ut** er oppdatert for leveringen på siden **Leveringsbekreftelser**.  
 
 8. Send den utskrevne leveringsbekreftelsen til kunden for signatur.  
 
@@ -174,11 +175,11 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 
    Du kan endre datoen for å gjenspeile datoen da du mottok den signerte leveringsbekreftelsen. Du kan også legge til en kobling til den signerte bekreftelsen ved hjelp av standard [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentkobling.  
 
-    > [!NOTE]  
-    >  Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-siden når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  
-    >
-    > * Opprette en leveringsbekreftelse manuelt  
-    > * Slik skriver du ut en leveringsbekreftelse.
+> [!NOTE]
+> Du kan ikke opprette en ny leveringsbekreftelse i **Leveringsbekreftelse**-siden når du går til det ved hjelp av denne fremgangsmåten. Hvis du vil opprette en bekreftelse for en levering som ikke er konfigurert for å kreve en, åpner du den bokførte følgeseddelen og bruker én av de to fremgangsmåtene som er beskrevet ovenfor:  
+>
+> * Opprette en leveringsbekreftelse manuelt  
+> * Slik skriver du ut en leveringsbekreftelse.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

@@ -1,49 +1,34 @@
 ---
 title: Norsk mva-rapportering [NO]
 description: Forbedringer i den norske versjonen av Business Central gjør det mulig for deg å beregne og rapportere mva. til de norske skattemyndighetene.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.search.form: 737, 738, 10601, 10604
+ms.date: 01/25/2022
 ms.author: edupont
-ms.openlocfilehash: e34d23204b377e7b0a89b2f28f06cbca25668809
-ms.sourcegitcommit: 8837ed2aeb454806e153145c675cf049a020ea38
+ms.openlocfilehash: a215c79e822b4c5f146380a3a313228e8269a360
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944093"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029528"
 ---
 # <a name="norwegian-vat-reporting-in-the-norwegian-version"></a>Norsk mva-rapportering i den norske versjonen
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] har funksjoner i den norske versjonen som gjør at du kan beregne og rapportere omsetningsoppgaver til de norske skattemyndighetene.  
 
 Dette emnet forklarer de vanlige trinnene du skal følge når du rapporterer norsk mva.  
 
-## <a name="print-the-trade-settlement"></a>Skrive ut omsetningsoppgaven  
-Først må du må skrive ut omsetningsoppgaven. Bruk **Omsetningsoppgaven**-rapporten til å skrive ut omsetningsoppgaven som kreves av skattemyndighetene.  
-
-Denne rapporten skriver ut detaljerte opplysninger om bokført mva i den angitte perioden. Den faktisk omsetningsoppgaven som skal rapporteres skrives ut på siste side av rapporten.  
-
-Denne rapporten kan skrives ut så mange ganger som nødvendig. Ingen bokføring eller andre endringer utføres på dataene når du bruker denne rapporten.  
-
-## <a name="check-the-trade-settlement"></a>Sjekk omsetningsoppgaven  
-Så må du må sjekke omsetningsoppgaven. Kontroller at beløpene i omsetningsoppgaven er riktig, og foreta eventuelle justeringer.  
-
-## <a name="post-vat"></a>Bokfør Mva.  
-Hvis informasjonen i omsetningsoppgaven er riktig, er det siste trinnet å bokføre mva ved hjelp av rapporten **Beregn og Bokfør mva-oppgjør**. Det er nødvendig at du manuelt angi riktig mva-periode i feltene **Startdato** og **Sluttdato**. Vanligvis korresponderer disse datoene til perioden som tidligere er angitt i **Omsetningsoppgaven**-rapporten.  
-
-Når du bruker denne rapporten, kan du velge å ikke bokføre hvis du vil kontrollere resultatene før du faktisk bokfører mva.  
-
-Når du bokfører mva., opprettes den tilsvarende mva-perioden, og merkes som lukket i **Oppgjort mva-periode**-tabellen. Hvis du angir en periode som ikke svarer til én av de vanlige seks norske mva periodene, avsluttes alle periodene som berøres av den angitte periode.  
-
 ## <a name="set-up-business-central-to-generate-and-submit-electronic-vat-returns"></a>Konfigurere Business Central for å generere og sende inn elektroniske omsetningsoppgaver
-For å kunne sende omsetningsoppgaver til norske skattemyndigheter må en administrator opprette en tilkobling til ID-porten hos Digitaliseringsdirektoratet. 
+
+For å kunne sende omsetningsoppgaver til norske skattemyndigheter må en administrator opprette en tilkobling til ID-porten hos Digitaliseringsdirektoratet.  
 
 > [!TIP]
-> Vi anbefaler at du alltid bruker nettklienten til å konfigurere tilkoblingen til ID-porten.
+> Vi anbefaler at du alltid bruker [!INCLUDE [prod_short](../../includes/prod_short.md)] i en nettleser til å konfigurere tilkoblingen til ID-porten.
 
 ### <a name="register-your-company-with-id-porten"></a>Registrere selskapet i ID-porten
 Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Samarbeidsportalen](https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/94). Legg merke til følgende informasjon etter at du har registrert deg. Du trenger denne når du bruker den assisterte oppsettsveiledningen til å autorisere [!INCLUDE[prod_short](../../includes/prod_short.md)] for tilgang til ID-porten.
@@ -130,10 +115,28 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
 ## <a name="troubleshoot-your-connection-to-id-porten"></a>Feilsøke tilkoblingen til ID-porten
 Hvis du ikke får noe svar etter at du har sendt inn oppgaven, for eksempel innen 24 timer, kan du kontakte ID-porten og be dem om bekrefte at de har mottatt oppgaven din. Hvis du vil hjelpe dem å identifisere oppgaven, kan du sende verdien fra feltet Meldings-ID. Feltet er skjult som standard, men du kan bruke sideinspeksjon til å hente verdien. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](../../across-inspect-page.md). 
 
-Du kan også sende en kopi av XML-filene for innsendingen din og svaret du mottok. Du kan hente filene ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding** på siden **Omsetningsoppgave**. 
+Du kan også sende en kopi av XML-filene for innsendingen din og svaret du mottok. Du kan hente filene ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding** på siden **Omsetningsoppgave**.  
 
-## <a name="see-also"></a>Se også  
-[Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)
+## <a name="close-vat-periods"></a><a name="vat-periods"></a>Avslutt mva-perioder
 
+Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du har utlignet. Vanligvis består et regnskapsår av seks mva-perioder, nummerert fra 1 til 6. Når mva. utlignes, lukkes perioden for ytterligere bokføring.  
+
+> [!TIP]
+> Ikke alle organisasjoner bruker standard seks mva-perioder. Hvilke perioder den gjeldende organisasjonen bruker, er definert på siden **Mva-periode**.
+
+Du kan vise informasjon om utlignede perioder på siden **Utlignet mva-periode**. De lukkede periodene opprettes med rapporten **Beregn og bokfør mva-oppgjør** når du bokfører mva. Hvis du vil bokføre i den lukkede mva-perioden, kan du åpne perioden på nytt ved å fjerne merket i feltet **Lukket**.  
+
+## <a name="tradesettlement-report"></a>Rapport for omsetningsoppgave
+
+Før januar 2022 brukte du rapporten **Omsetningsoppgave** til å rapportere mva. Denne rapporten er ikke lenger beskrevet i denne artikkelen, men du kan lese om den i [Dynamics NAV 2018-dokumentasjonen](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
+
+## <a name="see-also"></a>Se også
+
+[Norske mva-koder](norwegian-vat-codes.md)  
+[Forholdsmessig MVA](proportional-vat.md)  
+[Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)  
+[Arbeid med mva. på kjøp og salg](../../finance-work-with-vat.md)  
+[Definer beregninger og bokføringsmetoder for merverdiavgift](../../finance-setup-vat.md)  
+[Utvidelsen for mva-gruppestyring](../../ui-extensions-vat-group.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940229"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029459"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -49,7 +50,7 @@ Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare
 > [!IMPORTANT]  
 > Regnskapsførerens e-postadresse må være en jobbadresse som er basert på Azure Active Directory. Hvis regnskapsføreren bruker en annen type e-post, kan ikke invitasjonen sendes.
 >
-> Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory. Brukeren som sender denne invitasjonen, må tilordnes rollen som **Global administrator** eller **Brukeradministrator** i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorinnholdet.  
+> Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory. Brukeren som sender denne invitasjonen, må tilordnes rollen som **Global administrator** eller **Brukeradministrator** i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, kan du se [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorinnholdet.  
 
 ### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Legge til regnskapsføreren din i Microsoft 365 i Azure Portal
 

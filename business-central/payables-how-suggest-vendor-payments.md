@@ -1,8 +1,6 @@
 ---
-title: Bruke kjørselen Betalingsforslag - leverandør | Microsoft-dokumentasjon
+title: Kjørselen Betalingsforslag – leverandør
 description: Du kan angi innstillinger for leverandørbetaling for å få forslag for betalinger som snart forfaller, eller der en rabatt er tilgjengelig.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6781674947cbbf12741216244499403989f14255
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 962a1fde49db09b3d739ac33eba43fa7316cc25d
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438805"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953161"
 ---
 # <a name="suggest-vendor-payments"></a>Betalingsforslag - leverandør
+
 På siden **Utbetalingskladd** kan du bruke kjørselen **Betalingsforslag – leverandør** til å foreslå betalingslinjer. Linjer for betalinger som forfaller snart, eller betalinger der kontantrabatt er tilgjengelig, foreslås basert på innstillingene.
 
 Hvis du vil dra nytte fullstendig av betalingsforslag, må du prioritere leverandørene først. Hvis du vil ha mer informasjon, kan du se [Prioritere leverandører](purchasing-how-prioritize-vendors.md).  

@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446493"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011839"
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
+
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
 
-## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender  
+## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut **Kode**-feltet.  
@@ -42,6 +44,7 @@ Når du oppretter en post, merkes det av for **Fridag**. Du kan velge å fjerne 
 Angir en datoformel for tiden det tar å etterfylle varen. Det brukes til å beregne feltet **Planlagt mottaksdato** hvis det beregner fremover, og feltet **Ordredato** hvis det beregner bakover. Se [Beregning av leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Beregning av leveringstid
+
 En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager. De to datofeltene i bestillingslinjer beregnes på samme måte som følger under forskjellige betingelser.
 
 |Retning for beregning|Leverandørkalender er definert|Leverandørkalender er ikke definert|

@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 821e705e07b5ced42ad2ae41f2da340573004c7e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441525"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972726"
 ---
 # <a name="subcontract-manufacturing"></a>Underleveranse av produksjon
+
 Underleveranse av valgte operasjoner til leverandør er vanlig i mange produksjonsselskaper. Underleveranse kan skje en sjelden gang eller være en vesentlig del av alle produksjonsprosesser.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har mange verktøy for håndtering av underleveransearbeid:  

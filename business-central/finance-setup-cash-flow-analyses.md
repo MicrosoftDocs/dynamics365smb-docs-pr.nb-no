@@ -1,8 +1,6 @@
 ---
 title: Definere kontantstrømanalyse (inneholder video)
 description: Bruk diagrammer i rollesenteret for konti til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
+ms.search.form: 846, 847, 849, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9f73cca7a4b88d051567d2f9f86806dac32f4ffa
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940404"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973391"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -129,6 +128,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

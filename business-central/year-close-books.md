@@ -1,21 +1,22 @@
 ---
-title: Oversikt over oppgavene for lukking av tablåer | Microsoft-dokumentasjon
+title: Oversikt over oppgavene for lukking av tablåer
 description: Finn ut hvordan du lukker tablåene for et regnskapsår eller en regnskapsperiode, og hva som skjer etter at du har lukket ved utgangen av året.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9cf8a89599c3fa73801bca40720221f05ffaf11
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776620"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011338"
 ---
 # <a name="closing-the-books"></a>Lukke tablåene
 Når du har kontrollert at alle kontiene er oppdatert og har fordelt kost og inntekt, kan du lukke tablåene for et regnskapsår eller en periode.

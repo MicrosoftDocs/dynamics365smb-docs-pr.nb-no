@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9701, 9702
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443871"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012448"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
+
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  
 
 Indikatoren vises som en farget linje langs øverste kant av bunkeflisen. Den gir et visuelt signal om statusen for aktiviteten for bunke-ikonet, som kan angi fordelaktige eller ufordelaktige tilstander som ber brukeren om å gjøre noe. Hvis det for eksempel vises pågående salgsfakturaer på et bunke-ikon, kan du angi at indikatoren skal være grønn (fordelaktig) når antall pågående salgsfakturaer er under 10, og at den skal være rød (ufordelaktig) når det totale antallet er over 20.  

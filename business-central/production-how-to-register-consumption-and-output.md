@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f2ecf59472adb8b153b2b6feeea62591e0565085
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441550"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973816"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
+
 Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
 
 > [!NOTE]  

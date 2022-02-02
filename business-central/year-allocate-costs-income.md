@@ -1,24 +1,24 @@
 ---
-title: Oversikt over oppgaver for å fordele kostnader og inntekter | Microsoft-dokumentasjon
+title: Oversikt over oppgaver for å fordele kostnader og inntekter
 description: Skisserer oppgavene for å fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439773"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012712"
 ---
 # <a name="allocate-costs-and-income"></a>Fordele kostnader og inntekter
+
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres med tre ulike metoder:
 
 * Antall
@@ -31,7 +31,9 @@ Fordelingsfunksjonen kan brukes i forbindelse med gjentakende finanskladder og i
 De følgende fremgangsmåtene viser hvordan du forbereder deg på å fordele kost i en gjentakende finanskladd ved å definere fordelingsnøkler. Når fordelingsnøkler er definert, fyller du ut og bokfører kladden som en hvilken som helst annen gjentakende finanskladd. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
-Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
+
+Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.  
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg feltet **Bunkenavn** for å åpne siden **Finanskladder**.
 3. Du kan endre fordelinger på en eksisterende bunke i listen, eller du kan opprette en ny bunke med tildelinger.

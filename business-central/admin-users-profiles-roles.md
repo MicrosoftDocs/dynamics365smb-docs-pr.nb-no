@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443132"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012500"
 ---
 # <a name="manage-user-profiles"></a>Administrer brukerprofiler
 
@@ -29,11 +30,15 @@ Før du kan administrere brukernes profiler må brukerne opprettes og legges til
 Du kan tilpasse sideoppsett for en profil, slik at alle brukerne som er tilordnet profilen, ser de tilpassede sidene. Som administrator kan du tilpasse sider ved å bruke samme funksjonalitet som brukere gjør når de tilpasser. Hvis du vil ha mer informasjon, kan du se [Tilpasse sider for profiler](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Slik oppretter du en profil
+
 Hvis du ikke kan kopiere en eksisterende profil, kan du opprette en ny manuelt.
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og skriv inn **Profiler (roller)**, og velg deretter den relaterte koblingen.  
 2. På siden **Profiler (roller)** velger du handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Hvis du vil at en bestemt profil skal være tilgjengelig bare for svært spesifikke brukere, kan du sette **Beskrivelse**-feltet til `Navigation menu only.`. På denne måten utelates profilen fra listen over tilgjengelige roller i **Mine innstillinger**.
 
 ## <a name="to-copy-a-profile"></a>Kopiere en profil
 Hvis du vil spare tid, kan du opprette en ny profil ved å kopiere en eksisterende. Kopier en som har lignende innstillinger som den du vil opprette.

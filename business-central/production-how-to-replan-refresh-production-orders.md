@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 901427baf8845505c264a6e06ec6aebacbfe1ee0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589235"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971330"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Planlegge på nytt eller fornye produksjonsordrer direkte
+
 Funksjonen **Planlegg på nytt** for produksjonsordrer brukes vanligvis etter at du har lagt til eller endret komponenter som utgjør underliggende produksjonsordrer. Funksjonen beregner endringer som utføres i komponenter og rutelinjer, og den inkluderer varer på lavere produksjonsstykklistenivåer. For disse varene genereres det kanskje nye produksjonsordrer.  
 
 Basert på endringene du har gjort i komponentene og rutelinjene, beregner og planlegger funksjonen Planlegg på nytt for eventuelle nye behov for produksjonsordren.  

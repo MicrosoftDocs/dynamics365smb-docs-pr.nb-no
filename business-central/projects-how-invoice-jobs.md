@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
+ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439179"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973787"
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.

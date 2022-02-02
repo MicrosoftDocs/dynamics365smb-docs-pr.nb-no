@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
-ms.date: 09/24/2021
+ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 543a334e087db85b15b5237a37702d410254f266
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: ee32f74c82360c6f001c5a7b40def4bcb459cb28
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752344"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011929"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>Selg produkter ed en kundeordre  
 
@@ -84,6 +84,8 @@ Du kan opprette direkte betalte ordrer for kunder som ikke er registrert ved å 
 12. Hvis du vi sende bare en del av ordreantallet, kan du angi antallet i den feltet **Levere (antall)**. Verdien kopieres til feltet **Fakturer (antall)**.
 13. Hvis du vi fakturere bare en del av det sendte antallet, kan du angi antallet i den feltet **Fakturer (antall)**. Antallet må være lavere enn verdien i feltet **Levere (antall)**.  
 14. Når ordrelinjene er fullført, kan du velge handlingen **Bokfør og send**.
+
+[!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
 Dialogboksen **Bokfør og send bekreftelse** viser kundens foretrukne metode for mottak av dokumenter. Du kan endre sendemetoden ved å velge oppslagsknappen for feltet **Send dokument til**. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).
 

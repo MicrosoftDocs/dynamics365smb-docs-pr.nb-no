@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439413"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971655"
 ---
 # <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
 
@@ -186,7 +186,7 @@ Når du utsteder en purring, opprettes en purrepost på siden **Purre-/rentepost
 
 ## <a name="multiple-interest-rates"></a>Flere rentesatser
 
-Når du definerer rentenotabetingelser og purrebetingelser for straff for forsinket betaling, kan du angi flere rentesatser slik at straffegebyret beregnes fra forskjellige renter i forskjellige perioder. Hvis flere rentesatser ikke er satt opp, brukes rentesatsen og perioden som er definert på sidene **Rentenotabetingelser** og **Purrebetingelser** for hele perioden i beregningen. Hvis du vil ha mer informasjon, kan du se [Angi flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Hvis du vil ha mer informasjon, kan du se [Angi flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

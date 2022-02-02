@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920906"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973128"
 ---
 # <a name="use-time-sheets"></a>Bruk timelister
 
@@ -36,7 +36,7 @@ Før du kan bruke timelister, må du definere generell informasjon og angi admin
 Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.  
 
 > [!IMPORTANT]
-> Du må ha tillatelser for å kunne opprette timelister.
+> Du må ha tillatelser for å kunne opprette timelister. Hvis du vil ha mer informasjon, kan du se [Definer timelister](projects-how-setup-time-sheets.md).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.
 2. På siden **Timeliste** velger du handlingen **Opprett timelister**.

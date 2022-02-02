@@ -1,22 +1,22 @@
 ---
-title: Definere aktiva | Microsoft-dokumentasjon
+title: Definer aktiva
 description: Få informasjon om sekvensen av oppgaver du må gjøre for å definere aktiva, for eksempel maskiner eller bygninger.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
+ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
-ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
+ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343552"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029539"
 ---
 # <a name="setting-up-fixed-assets"></a>Definere aktiva
 Før du kan arbeide med aktiva, må du definere et par ting:  

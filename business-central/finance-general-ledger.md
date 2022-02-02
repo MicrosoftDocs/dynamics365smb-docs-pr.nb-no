@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928812"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973070"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
@@ -75,6 +76,7 @@ Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gj
 Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kontanter og to linjer med saldoer for håndkasse og sjekkontoen.  
 
 ## <a name="getting-a-quick-overview"></a>Få en rask oversikt
+
 Kontoplan-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, må du kanskje rulle litt for å vise informasjon for ulike konti. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på kontoplansiden (det er bare færre av dem), så du trenger ikke å orientere deg på nytt, og du kan vise eller skjule de hierarkiske nivåene for å få en kompakt visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra Kontoplan-siden.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Tilgang til å opprette og redigere konti og kontokategorier

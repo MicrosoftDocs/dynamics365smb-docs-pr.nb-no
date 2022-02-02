@@ -1,7 +1,6 @@
 ---
 title: Opprette en forespørsel for å be om et tilbud
 description: Beskriver hvordan du oppretter et tilbud eller et tilbudsforespørselsdokument for å registrere tilbudet til en kunde og selge produkter under visse betingelser.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
+ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3872a996149404e15349dd85221289bc819ad5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4608b9e3cace8445a1a4a364106c830fdfda301f
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443269"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953337"
 ---
 # <a name="request-quotes"></a>Be om tilbud
-En forespørsel kan brukes som et foreløpig utkast til en bestilling, og bestillingen kan deretter konverteres til en bestilling eller ordre.
 
+En forespørsel kan brukes som et foreløpig utkast til en bestilling, og bestillingen kan deretter konverteres til en bestilling eller ordre.
 
 ## <a name="to-create-a-purchase-quote"></a>Slik oppretter du en forespørsel
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Forespørsler**, og velg deretter den relaterte koblingen.

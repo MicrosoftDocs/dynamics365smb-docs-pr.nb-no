@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7ff13ac6dd2ca2ad57f5570ce5bcf535fcf60b2c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 90e1c5508dfa578a6231634e9a65257fae6777e1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324742"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972125"
 ---
 # <a name="putting-items-away"></a>Plassere varer
+
 Lageraktiviteten med å plassere varer etter at de er mottatt eller uttatt, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp. Kompleksiteten kan variere fra ingen lagerfunksjoner, via grunnleggende lagerkonfigurasjoner der bestilling for bestilling behandles ved hjelp av bare en eller flere aktiviteter, til avanserte oppsett der alle lageraktiviteter utføres i en styrt arbeidsflyt. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
 
 Hvis du velger å organisere og registrere plasseringsopplysninger med lagerdokumenter, setter du en hake i feltet **Plassering nødv.** på lokasjonskortet. Det betyr at når varer kommer inn på lagerlokasjonen via et inngående kildedokument, vil du at plukkingen av disse varene skal kontrolleres av systemet. Et inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en produksjonsordre med avgang som er klar til plassering.  
@@ -26,7 +27,7 @@ Hvis lokasjonen er definert til å bruke plasseringsbehandling, men ikke mottaks
 
 Hvis lokasjonen er definert til å kreve både mottaksbehandling og plasseringsbehandling, det vil si at du har merket av for feltet **Mottak nødv.** og **Plassering nødv.** på lokasjonskortet, bruker du en annen fremgangsmåte når du plasserer varer. I dette tilfellet vil du bruke siden **Plassering** til å håndtere plasseringen. Plassering fungerer på samme måte som Lagerplassering, bortsett fra at du registrerer plasseringen i stedet for å bokføre opplysninger om den. Merk at registrering av lagerplassering ikke bokfører mottaket av varene. Den bare oppdaterer hylleinnholdet. Som lagerleder kan du bruke plasseringsforslag til å organisere opplysninger om plassering før du oppretter de enkelte plasseringsinstruksjonene.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -37,14 +38,15 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Planlegge optimaliserte plasseringsinstruksjoner for flere bokførte lagermottak, i stedet for at lagermedarbeiderne skal gjøre dette ved mottak.|[Planlegge plasseringer i forslag](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
 |Sette tilbake varer som ble plukket automatisk ved hjelp av en intern plukk, for eksempel til en produksjonsordre som ikke forbrukte det forventede antallet.|[Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Dele en plasseringslinje for å plassere en del av antallet i plasseringen i tilgjengelige hyller, fordi den angitte hyllen er full.|[Dele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få tilgang umiddelbart til plasseringer som er tilordnet til deg som lagermedarbeider.|[Finne lageroppgavene dine](warehouse-how-to-find-your-warehouse-assignments.md)|    
+|Få tilgang umiddelbart til plasseringer som er tilordnet til deg som lagermedarbeider.|[Finne lageroppgavene dine](warehouse-how-to-find-your-warehouse-assignments.md)|
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+[Definere Warehouse Management](warehouse-setup-warehouse.md) 
+[Monteringsstyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

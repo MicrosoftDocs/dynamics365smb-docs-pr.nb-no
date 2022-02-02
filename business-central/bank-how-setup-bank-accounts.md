@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940604"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029277"
 ---
 # <a name="set-up-bank-accounts"></a>Opprette bankkonti
 
@@ -90,6 +91,8 @@ Jo bedre tilordningsopplysningene du gjør i betalingsavstemmingskladden er, jo 
 2. På siden **Bankkonti** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Feltet **Bankkontobokføringsgruppe** kobler for eksempel bankkontoen til den underliggende finanskontoen i balansen. Hvis du vil ha mer informasjon, kan du se [Definer bokføringsgrupper](finance-posting-groups.md).
+
 > [!TIP]
 > Noen felter er skjult inntil du velger **Vis flere**-handling, vanligvis fordi de brukes sjelden. Andre må legges til ved hjelp av tilpasning. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md). Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av den assisterte oppsettveiledningen **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md). Hvis du vil ha mer informasjon om hvordan du oppretter åpningssaldoer i [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Opprette inngående balanser for kladd](admin-how-to-create-journal-opening-balances.md).
+> For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av den assisterte oppsettveiledningen **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Det er viktig at du ikke bokfører åpningssaldoen direkte i finans. Når du har poster i finanskontoen som er direkte bokført på finanskontoen, fører dette til at du ikke kan avstemme bankkontoen, eller i tilfelle bankkonti med utenlandsk valuta, noe som akkumuleres når du bokfører flere bankavstemminger. Ofte bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du tilbakeføre det senere mot en bestemt finanskonto som du har brukt til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere ut eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Opprette din bankkonto for import eller eksport av bankfilene
 
