@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588002"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049435"
 ---
 # <a name="power-bi--faq"></a>Vanlige spørsmål om Power BI
 
@@ -140,18 +140,55 @@ Nei. Ikke på dette tidspunktet.
 
 Når det gjelder webtjenester, går det vanligvis raskere å bruke publiserte spørringer enn tilsvarende publiserte sider. Årsaken er at spørringer er optimalisert for lesing av data og ikke inneholder kostbare utløsere som OnAfterGetRecord.
 
-Når den nye koblingen er tilgjengelig i juni 2021, oppfordres du til å bruke API-sider i stedet for spørringer som er publisert som webtjenester.
+Nettjenester er basert på sider eller spørringer som er bygd for tilgang fra nettet, og som vanligvis ikke er optimalisert for tilgang fra eksterne tjenester. Selv om Business Central-koblingen fortsatt støtter henting av data fra nettjenester, oppfordrer vi deg til å bruke API-sider i stedet for nettjenester når det er mulig.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Kan en sluttbruker opprette en webtjeneste med en kolonne som er i en Business Central-tabell, men ikke på en side? Eller må utvikleren opprette en egendefinert spørring? 
 
-Ja. Med lanseringen av den nye koblingen i juni 2021 kan en utvikler lage en ny API-side som oppfyller dette kravet. 
+Det er for øyeblikket ikke mulig å legge til et nytt felt i en nettjeneste. API-sider gir deg full fleksibilitet på sidestrukturen, slik at en utvikler kan opprette en ny API-side som oppfyller dette kravet. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Kan jeg koble Power BI til en skrivebeskyttet databaseserver for Business Central Online? 
 
-Antall Men vi har denne funksjonen på det langsiktige veikartet vårt. 
+Denne funksjonaliteten blir snart tilgjengelig. Fra og med februar 2022 prøver nye rapporter du oppretter basert på Business Central Online-data, automatisk å koble seg til en skrivebeskyttet databasereplika. Dermed oppdateres rapportene raskere, og det vil ha mindre innvirkning på ytelsene hvis du bruker Business Central mens en rapport oppdateres. Vi anbefaler likevel at du planlegger rapportene slik at de oppdateres utenom vanlige arbeidstider, når det er mulig.
 
+Hvis du har gamle rapporter basert på Business Central-data, kobler de ikke til den skrivebeskyttede databasereplikaen.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Jeg har prøvd å forhåndsvise den nye koblingen til oppdateringen for februar 2022. Når jeg kobler til en egendefinert Business Central API-side, får jeg feilmeldingen «Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» Hvordan kan jeg løse det?
+
+Med den nye koblingen vil nye rapporter som bruker Business Central-data, bli koblet til en skrivebeskyttet replika av Business Central-databasen som standard. Denne endringen gir en ytelsesforbedring. I sjeldne tilfeller kan det imidlertid føre til feilen. Denne feilen oppstår vanligvis fordi den egendefinerte API-en gjør endringer i Business Central-poster mens Power BI prøver å hente dataene. Særlig skjer det som en del av AL-utløserne: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
+
+Du løser dette problemet ved å tvinge Business Central-koblingen til å tillate dette problemet ved å se [Bygg Power BI-rapporter for å vise Business Central-data – løs problemer](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Hvordan endrer eller tømmer jeg brukerkontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?
 
 Gjør ett av følgende i Power BI Desktop:
@@ -207,9 +244,9 @@ Ja. Dette avanserte scenarioet bidrar til å holde Business Central effektivt fo
 
 Vi undersøker muligheter for denne funksjonen. Power BI har omfattende API-er for styring av rapportdistribusjoner. Hvis du vil ha mer informasjon, kan du se [Innføring i distribusjonspipeliner](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>Jeg har prøvd forhåndsversjonen av den nye koblingen som blir tilgjengelig i juni 2021. Jeg ser enkelte verdier som «_x0020_» når jeg kobler til API v2.0. Hva er disse verdiene?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Når jeg får data fra Business Central som skal brukes i Power BI-rapportene mine, ser jeg noen verdier som _x0020_. Hva er disse verdiene?
 
-Den kommende versjonen av Power BI-koblingen gjør at du kan koble deg til API-sidene for Business Central, inkludert API v2.0. Disse sidene omfatter enkelte felter basert på [AL Enum-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter basert på AL-opplistingsobjekter må ha navn som er konsekvente og alltid like, slik at filtre i rapporten alltid fungerer, uansett hvilket språk eller operativsystem du bruker. Derfor blir ikke feltene som er basert på AL-opplistinger, oversatt, og de blir kodet for å unngå ethvert spesialtegn, inkludert mellomrom. Det er særlig når er et tomt alternativ i AL-opplistingsobjektet, at det kodes til «_x0020_». Du kan alltid bruke en transformering på dataene i Power BI hvis du vil vise en annen verdi for disse feltene, for eksempel «Tom».
+Enkelte API-sider, inkludert de fleste API v 2.0-sider, har felter basert på [AL-opplistingsobjekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter basert på AL-opplistingsobjekter må ha navn som er konsekvente og alltid like, slik at filtre i rapporten alltid fungerer, uansett hvilket språk eller operativsystem du bruker. Derfor blir ikke feltene som er basert på AL-opplistinger, oversatt, og de blir kodet for å unngå ethvert spesialtegn, inkludert mellomrom. Det er særlig når er et tomt alternativ i AL-opplistingsobjektet, at det kodes til «_x0020_». Du kan alltid bruke en transformering på dataene i Power BI hvis du vil vise en annen verdi for disse feltene, for eksempel «Tom».
 
 
 ---

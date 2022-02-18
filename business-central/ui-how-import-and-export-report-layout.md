@@ -1,5 +1,5 @@
 ---
-title: Importere og eksportere en rapport og et dokumentoppsett | Microsoft-dokumentasjon
+title: Importer og eksporter en rapport og et dokumentoppsett
 description: Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441071"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101350"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere en egendefinert rapportoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -51,10 +51,11 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også  
- [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
- [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
- [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
+## <a name="see-also"></a>Se også
+
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
+[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
+[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

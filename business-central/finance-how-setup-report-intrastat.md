@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971096"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049669"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
@@ -28,7 +28,11 @@ Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må
 * **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
 * **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
 * **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
-* **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer.  
+* **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer. 
+
+    > [!NOTE]
+    > Fra og med januar 2022 krever Intrastat forskjellig transaksjonskode for fordeling til private enkeltpersoner eller ikke-mva-registrerte selskaper og mva-registrerte selskaper. For å overholde dette kravet anbefaler vi at du ser gjennom eller legger til nye transaksjonskoder på siden **Transaksjonstyper** i henhold til kravene i ditt land. Du bør se gjennom og oppdatere feltet **Partnertype** til *Personer* for private eller ikke-mva-selskapers kunder på den relevante **Kunde**-siden. Hvis du er usikker på hvilken partnertype eller transaksjonstype som er riktig å bruke, anbefaler vi at du spør en ekspert i landet eller området ditt. 
+ 
 * **Transportmåter**: Det finnes sju koder med ett siffer for Intrastat-transportmåter. **1** for båt, **2** for jernbane, **3** for bil, **4** for fly, **5** for post **7** for faste installasjoner og **9** for egen fremdrift (for eksempel transportere en bil ved å kjøre den). [!INCLUDE[prod_short](includes/prod_short.md)] trenger ikke disse kodene, men vi anbefaler at beskrivelsene formidler en lignende betydning.  
 * **Transaksjonsspesifikasjoner**: Bruk disse til å supplere beskrivelsene fra transaksjonstypene.  
 * **Opprinnelsesland**: Bruk de to bokstavers ISO alfa-kodene for landet der varen gode ble anskaffet eller produsert. Hvis varen ble produsert i mer enn ett land, er opprinnelseslandet det siste landet der det ble behandlet betraktelig. 
@@ -110,7 +114,19 @@ Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** fo
 Kjørselen henter alle varepostene i statistikkperioden og setter dem inn som linjer i intrastatkladden. Du kan redigere linjene om nødvendig.  
 
 > [!IMPORTANT]  
-> Kjørselen henter bare postene som inneholder en lands-/regionkode som det er angitt en intrastatkode for, på siden **Land/regioner**. Derfor må du angi intrastatkoder for lands-/regionkodene du vil bruke kjørselen for.  
+> Kjørselen henter bare postene som inneholder en lands-/regionkode som det er angitt en intrastatkode for, på siden **Land/regioner**. Derfor må du angi intrastatkoder for lands-/regionkodene du vil bruke kjørselen for. Kjørselen setter feltet **Mva-ID for partner** kode til *QV999999999999* for private enkeltpersoner eller ikke-mva-selskaper (kunder som har feltet **Partnertype** satt til *Person*) og bruker verdien til feltet **Transaksjonstype** i den bokførte vareposten eller prosjektposten. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Slik endrer du Intrastatkladdelinjer
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intrastatkladd** og velg den relaterte koblingen.  
+2. På siden **Intrastatkladd** i feltet **Bunkenavn** velger du den relevante kladdebunken og velger deretter **OK**.  
+3. Bruk filterruten til å filtrere Intrastatkladdelinjer basert på noen kriterier. Filtrer for eksempel på feltene **Mva-ID for partner** med verdien *QV999999999999*.
+4. Velg **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) og velg **Rediger i Excel**
+5. I Excel endrer du Intrastatkladdelinjer som du filtrerte ut. Du kan for eksempel endre feltverdier for **Transaksjonstype**.  
+6. Publiser endringene du har gjort i Excel, tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> I [!INCLUDE[prod_short](includes/prod_short.md)]-versjoner som ikke støtter [**Rediger i Excel**](across-work-with-excel.md#edit-in-excel) for kladder, kan du [opprette konfigurasjonspakker](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) for å eksportere og importere Intrastatkladdelinjer til Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i et skjema eller en fil
 

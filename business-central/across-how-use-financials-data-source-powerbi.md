@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341336"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049851"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -150,6 +150,39 @@ Du kan sende rapporter til kolleger og andre på et par ulike måter:
 - Del rapporter fra Power BI-tjenesten.
 
     Hvis du har en Power BI Pro-lisens, kan du dele rapporten med andre direkte fra Power BI-tjenesten. Hvis du vil ha mer informasjon, kan du se [Power BI – dele et instrumentbord eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+
+## <a name="fixing-problems"></a>Løse problemer
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>«Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
+
+> **GJELDER:** Business Central Online
+
+Fra og med februar 2022 vil nye rapporter som bruker Business Central-data, bli koblet til en skrivebeskyttet replika av Business Central-databasen som standard. I sjeldne tilfeller, avhengig av sideutformingen, får du en feilmelding når du prøver å koble deg til og hente data fra siden.
+
+1. Start Power BI Desktop.
+2. På båndet velger du **Hent data** > **Online Services**.
+3. I ruten **Online Services** velger du **Dynamics 365 Business Central** og deretter **Koble til**.
+4. Velg API-endepunktet du vil laste inn data fra, i vinduet **Navigatør**.
+5. I forhåndsvisningsruten til høyre vises følgende feilmelding:
+
+   *Dynamics365BusinessCentral: forespørsel mislyktes: den eksterne serveren returnerte en feil: (400) Ugyldig forespørsel. (Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet. CorrelationId: [...])".*
+
+6. Velg **Transformer data** i stedet for **Last inn** som du normalt ville gjort.
+7. Velg **Avansert redigering** fra båndet i **Power Query-redigeringsprogram**.
+8. På linjen som begynner med **Kilde =**, erstatter du følgende tekst:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   med:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Velg **Ferdig**.
+10. Velg **Lukk og bruk** fra båndet til å lagre endringene og lukk Power Query-redigeringsprogrammet.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441400"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115201"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
 Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke følgende grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:  
@@ -46,14 +47,15 @@ Fremgangsmåtene nedenfor er basert på definisjon av grunnleggende lageraktivit
 3.  På hurtigfanen **Lager**, merker du av for **Plassering nødv.** for å indikere at når et inngående eller internt kildedokument med hyllekode frigis, kan en lagerplassering eller et lagerflyttingsdokument opprettes.  
 4.  Merk av for **Plukk nødv.** for å indikere at når det opprettes utgående eller internt kildedokument med hyllekode, må det opprettes et lagerplukk- eller en lagerflyttingsdokument.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Slik definerer du en standardhyllestruktur i produksjonsområdet:  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Slik definerer du en standardhyllestruktur i produksjonsområdet:
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.  
 3.  På hurtigfanen **Hyller**, i feltet **Åpen prod.hyllekode** angir du koden for hyllen i produksjonsområdet som har rikelig med komponenter maskinoperatøren kan forbruke fra uten å be om en lageraktivitet for å bringe dem til hyllen. Varer som er plassert i denne hyllen er vanligvis konfigurert for automatisk bokføring eller trekk. Dette betyr at **Trekkmetode**-feltet inneholder **Fremover** eller **Bakover**.  
 4. Angi koden for hyllen i feltet **Til-Hyllekode for produksjon** i produksjonsområdet der komponentene som plukkes til produksjonen på denne lokasjonen, plasseres som standard før de kan brukes. Varer som er plassert i denne hyllen er vanligvis konfigurert for manuell forbruksbokføring. Dette betyr at **Trekkmetode**-feltet inneholder **Manuell** eller **Plukk + Fremover** eller **Plukk + Bakover** for lagerplukkinger og lagerflyttinger.  
 
     > [!NOTE]  
-    >  Når du bruker lagerplukk, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinje hvilken *Hent*-hylle komponentene reduseres fra ved bokføring av forbruk. Når du bruker lagerflyttinger, definerer **Hyllekode**-feltet på produksjonsordrekomponentlinjer *Plasser*-hyllen i operasjonsområdet der lagermedarbeideren må plassere komponentene.  
+    > Når du bruker lagerplukk, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinje hvilken *Hent*-hylle komponentene reduseres fra ved bokføring av forbruk. Når du bruker lagerflyttinger, definerer **Hyllekode**-feltet på produksjonsordrekomponentlinjer *Plasser*-hyllen i operasjonsområdet der lagermedarbeideren må plassere komponentene.  
 
 5. På hurtigfanen **Hyller**, i feltet **Fra-Hyllekode for produksjon** angir du koden for hyllen i produksjonsområdet hvor ferdige varer hentes fra som standard når prosessen omfatter en lageraktivitet. I grunnleggende lageroppsett registreres aktiviteten som en lagerplassering eller lagerflytting.  
 
@@ -61,7 +63,7 @@ Nå krever produksjonsordrekomponentlinjer med standard hyllekode at komponenter
 
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til oppsettet.  
 
-![Flytskjema for hylle.](media/binflow.png "BinFlow")    
+![Flytskjema for hylle.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Slik definerer du en standardhyllestruktur i monteringsområdet:
 Komponenter for monteringsordrer kan ikke plukkes eller bokføres med lagerplukk. Bruk i stedet siden **Lagerflytting**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
@@ -136,8 +138,8 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
+[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

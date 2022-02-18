@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323721"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101455"
 ---
 # <a name="application-compliance"></a>Programsamsvar
 
@@ -77,7 +77,6 @@ Lever integrert informasjon, justerte prosesser og lettvinte verktøy som kan hj
 - Spar tid når du oppretter standardrapporter som bruker vanlige firmaparametere og -kriterier til å utføre vanlige rapporteringsbehov, fra ordresummeringer til eldre kortsiktige fordringer.
 - Utfør sammensatte gjennomganger med grunnleggende eller avanserte forretningsanalysefunksjoner.
 - Opprett tilpassede rapporter og vis i produktet og ved å bruke integrering i Microsoft PowerBI.
-- Øk hastigheten ved overføring av økonomisk informasjon til kunder, aksjonærer, offentlige kontorer og offentligheten med XML-baserte XBRL-dokumenter som støtter utveksling av økonomisk informasjon på tvers av ulik programvare og teknologi, inkludert Internett.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Sikre tydelige revisjonsspor
 

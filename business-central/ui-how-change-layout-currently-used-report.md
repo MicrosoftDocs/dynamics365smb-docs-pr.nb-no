@@ -1,8 +1,6 @@
 ---
-title: Endre utseendet på en rapport ved å velge et annet oppsett | Microsoft-dokumentasjon
+title: Endre utseendet på en rapport ved å velge et annet oppsett
 description: Du kan bruke ulike oppsett for en rapport og bytte mellom oppsett for å endre utseendet på den.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444757"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101084"
 ---
 # <a name="change-the-current-report-layout"></a>Endre gjeldende rapportoppsett
+
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
 
 Avhengig av oppsettene som er tilgjengelige for en rapport, kan du velge om du vil bruke et innebygd RDLC-rapportoppsett, et innebygd Word-rapportoppsett eller et egendefinert oppsett. Hvis du vil ha mer informasjon om RDLC- og Word-rapportoppsett, innebygde og egendefinerte oppsett og mer, kan du se [Håndtere rapportoppsett](ui-manage-report-layouts.md).
@@ -30,6 +30,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 > Dokumentrapporter (ikke oversikter) som bruker et Word-rapportoppsett, er vanligvis raskere enn de som bruker et RDLC-rapportoppsett. Så hvis du kan velge mellom et Word- eller RDLC-rapportoppsett for en dokumentrapport, bør du bruke Word-rapportoppsettet for best ytelse.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Slik endrer du hvilket rapportoppsett som skal brukes i en rapport eller et dokument
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
    Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet **Selskap** øverst på siden. Feltet **Valgt oppsett** angir oppsettet som brukes i rapporten for øyeblikket.
 2. Sett feltet **Selskap** øverst på siden til selskapet som inkluderer rapporten.

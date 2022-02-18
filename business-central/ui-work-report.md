@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972203"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102606"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeide med rapporter, satsvise jobber og XML-porter
 
@@ -32,7 +32,7 @@ Du finner rapporter i fanen **Rapporter** på utvalgte sider, eller du kan bruke
 
 Når du åpner en rapport, satsvis jobb eller XMLport, vises vanligvis en forespørselsside der du kan angi forskjellige alternativer og filtre som bestemmer hva du vil ha med i rapporten. De følgende delene forklarer hvordan du bruker forespørselssiden til å bygge, forhåndsvise og skrive ut en rapport.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Bruke standardverdier – forhåndsdefinerte innstillinger 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Bruke standardverdier – forhåndsdefinerte innstillinger
 
 De fleste forespørselssidene inkluderer feltet **Bruk standardverdi fra**. Med dette feltet kan du velge forhåndsdefinerte innstillinger for rapporten, som automatisk angir alternativer og filtre for rapporten. Velg en oppføring fra rullegardinlisten, og du vil se at alternativene og filtrene på forespørselssiden endres i henhold til dette.
 
@@ -84,67 +84,18 @@ I forhåndsvisningen bruker du menylinjen i rapportforhåndsvisningen for å:
 
 Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-regneark ved å velge knappen **Send til** og deretter gjøre et valg.
 
-### <a name="send-to-excel"></a>Send til Excel
+### <a name="about-sending-to-excel"></a>Om sending til Excel
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+Du kan arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Excel for ytterligere analyse. Hvis du vil ha mer informasjon, kan du se [Analyser rapportdata med Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Det er to alternativer for å lagre rapportresultatene som et regneark i en Excel-arbeidsbok: **Microsoft Excel-dokumenter (data og oppsett)** og **Microsoft Excel-dokument (bare data)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel-dokument (data og oppsett)](#tab/data-and-layout)
-
-Dette alternativet er bare tilgjengelig for rapporter som bruker et RDLC oppsett. Det eksporterer rapportresultatene når RDLC-oppsettet er brukt. Bruk dette alternativet hvis du vil eksportere dataene én gang, og bare vil gjøre små endringer i utseendet, for eksempel skrift og fargevalg.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel-dokument (bare data)](#tab/data-only)
-
-Alternativet **Microsoft Excel-dokument (bare data)** eksporterer rapportresultatene og kriteriene som ble brukt til å generere dem, men de inneholder ikke rapportoppsettet. Excel-filen vil inneholde hele datasettet, som rådata, ordnet i rader og kolonner. Alle datakolonnene i datasettet til rapporten inkluderes, uavhengig av om de brukes i rapportoppsettet.  Bruk dette alternativet når du vil:
-
-- Foreta ad hoc-analyser av dataene. Du kan for eksempel filtrere dataene og bruke Power Pivot til å vise dem.
-
-  Hver gang du eksporterer resultater, opprettes et nytt regneark. Ved hjelp av alternativet **Microsoft Excel-dokument (bare data)** kan du kjøre samme rapport og bruke formateringsendringer på nytt. Du kan for eksempel for Power Pivot kjøre rapporten på nytt i en annen tidsperiode, kopiere resultatene til regnearket og deretter oppdatere regnearket. Du kan også finne en rapporteringsapp i [AppSource](https://appsource.microsoft.com/).
-- Kontroller datasettet i rapporten når du oppretter eller endrer egendefinerte rapportoppsett.
-
-  Hvis du vil ha informasjon om hvordan du oppretter egendefinerte rapportoppsett, kan du se [Opprette eller endre egendefinerte rapportoppsett](ui-how-create-custom-report-layout.md)
-- Diagnostiser dataproblemer i rapporter.
-
-##### <a name="for-administrators"></a>For systemansvarlige
-
-- **Microsoft Excel-dokument (bare data)** ble introdusert som en valgfri funksjon i 2021 lanseringsbølge 1, oppdatering 18.3. Hvis du vil gi brukere tilgang til denne funksjonen, aktiverer du funksjonsoppdateringen **Lagre rapportdatasett i Microsoft Excel-dokument** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management). I 2021 lanseringsbølge 2 blir denne funksjonen permanent, slik at du ikke trenger å aktivere den.
-
-- Brukerkontoer vil trenge tillatelsen **<!--Export Report Dataset To Excel-->Tillat handlingen Eksporter rapportdatasett i Excel**, som du kan bruke ved hjelp av tillatelsessettet **Feilsøkingsverktøy** eller **Eksporter rapport Excel**.  
-
-- Du kan ikke eksportere en rapport som har mer enn 1 048 576 rader eller 16 384 kolonner.
-
-    > [!NOTE]
-    > Med Business Central lokal kan maksimalt antall eksporterte rader være enda mindre. Business Central Server inneholder en konfigurasjonsinnstilling **Maks datarader som tillates å sende til Excel**, for å redusere grensen fra maksimumsverdien. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) eller kontakte systemansvarlig.
-
-##### <a name="for-developers-and-advanced-users"></a>For utviklere og avanserte brukere
-
-Alternativet **Microsoft Excel-dokument (bare data)** eksporterer alle kolonner, inkludert kolonner som inneholder filtre og formateringsinstruksjoner for andre verdier. Her er noen viktige punkter:
-
-- Binære data i et felt, for eksempel et bilde, eksporteres ikke.
-
-  I kolonner som inneholder binære data, inneholder feltet **Binære data ({0} byte)**, der **{0}** indikerer antall byte.
-- Fra og med Business Central 2021 lanseringsbølge 2 inneholder Excel-filen også regnearket **Rapportmetadata**.
-
-  Dette regnearket viser hvilke filtre som er brukt på rapporten og egenskaper for den generelle rapporten, for eksempel navn, ID og utvidelsesinformasjon. Filtrene vises i **Filter (DataItem::Table::FilterGroupNo::FieldName)**-kolonnen. Filtrene i denne kolonnen inkluderer filtre som er angitt på forespørselssiden for rapporten. Det inneholder også filtre som er definert i AL-kode, for eksempel av [egenskapen DataItemLink](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) og [egenskapen DataItemTableView](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property).
-
-Hvis du vil ha mer informasjon om rapportutforming, kan du se [Rapportoversikt](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Noen rapporter eksporterer tall som tekst, og gjør at du ikke kan utføre beregninger eller bruke Power Pivot-celler i Excel-regnearket. Etter eksporten er det lurt å kontrollere tallene i regnearket. Hvis du vil analysere og lage en oversikt over tallene, endrer du formatet for de aktuelle cellene fra **Tekst** til **Tall**. Hvis du vil ha mer informasjon om hvordan du formaterer tall i celler, kan du se denne videoen [Formateringstall i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word-dokument
-Bruk alternativet **Microsoft Word-dokument** til å generere en rapport som et Word-dokument.  
-
-> [!NOTE]
-> Du kan angi oppsettet som skal brukes for hver rapport på siden **Rapportvalg** i feltet **Valgt oppsett**. Standardinnstillingen for rapporter er **RDLC (innebygd)**, som produserer rapporter i samme eller liknende oppsett som oppsettet **Microsoft Word-dokument**. Hovedforskjellen er imidlertid om du vil generere et eller flere rapportdokumenter. For enkeltdokumenter kan du bruke alternativet RDLC (innebygd). Hvis du vil ha flere dokumenter, angir du **Microsoft Word-dokumentet** som standardoppsett for rapporten. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlegge en rapport for kjøring
 

@@ -1,5 +1,5 @@
 ---
-title: Definere vareattributter og tilordne dem til varer | Microsoft-dokumentasjon
+title: Definer vareattributter og tilordne dem til varer
 description: Beskriver hvordan du for eksempel definerer verdier for vareattributt som kan brukes som søkeord, og knytter dem til varer og varekategorier.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec2ab337c56b9110162b198c1cb656e605ebc8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444898"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059363"
 ---
 # <a name="work-with-item-attributes"></a>Arbeide med vareattributter
 Når en kunde sender en forespørsel om en vare, enten i korrespondanse eller i en integrert nettbutikk, kan kunden spørre om eller søke etter i henhold til egenskaper, for eksempel høyde og modellår. Hvis du vil levere denne kundeservicen, kan du tilordne varen attributtverdier av forskjellige typer, som deretter kan brukes ved søk etter varer.
@@ -31,7 +32,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 3. Fyll ut feltene etter behov på siden **Vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Hvis du velger **Alternativ** i **Type**-feltet, kan du deretter velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+>   Hvis du velger **Alternativ** i **Type**-feltet, kan du velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Slik oppretter du verdier for vareattributter av typen Alternativ:
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareattributter** og velg den relaterte koblingen.

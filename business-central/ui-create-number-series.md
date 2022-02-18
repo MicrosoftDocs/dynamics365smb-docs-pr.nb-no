@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
-ms.search.form: 456
+ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: f886656262853acd34007118248a52af2184b36a
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029643"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115369"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 
@@ -41,7 +41,7 @@ Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil s
 ## <a name="gaps-in-number-series"></a>Tomrom i nummerserier
 Ikke alle poster du oppretter i [!INCLUDE[prod_short](includes/prod_short.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Denne innstillingen kan også endres etter at du har opprettet nummerserien. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. i dokumenter og kort
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. på dokumenter og kort
 På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylles ut automatisk fra en nummerserie eller manuelt, og det kan settes opp til å være usynlig.
 
 **Nr.** -feltet kan fylles ut på tre måter:
@@ -61,22 +61,22 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 > Hvis du vil aktivere manuell nummerering på for eksempel nye varekort som er opprettet med en dataoverføring som har skjult **Nr.** som standard, går du til siden **Lageroppsett** og velger **Varenr.**-feltet for å åpne og angi den relaterte nummerserien til **Manuelle nr.**.
 
 ## <a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Nr.serie**, og velg deretter den relaterte koblingen.
-2. Velg handlingen **Ny**.
-3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Velg handlingen **Linjer**.
-5. På siden **Nr.serielinjer** fyller du ut feltene for å angi faktisk bruk og innhold i nummerserien du opprettet i trinn 2.
-6. Gjenta trinn 5 for så mange typer bruk av nummerserien du trenger. Feltet **Startdato** definerer hvilken nummerserielinje som er aktiv.
+2. Velg handlingen **Ny**.  
+3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+4. Velg handlingen **Linjer**.  
+5. På siden **Nr.serielinjer** fyller du ut feltene for å angi faktisk bruk og innhold i nummerserien du opprettet i trinn 2.  
+6. Gjenta trinn 5 for så mange typer bruk av nummerserien du trenger. Feltet **Startdato** definerer hvilken nummerserielinje som er aktiv.  
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
-Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salg**, og velg deretter den relaterte koblingen.
-2. På siden **Salg** på hurtigfanen **Nummerserie** velger du ønsket nummerserie for hvert salgskort eller dokument.
+> [!TIP]
+> Hvis du vil tillate at brukere angir numre manuelt når de registrerer en ny kunde eller leverandør, kan du for eksempel velge feltet **Manuelle nr.** på selve nummerserien. Hvis du ikke vil tillate manuelt nummer, fjerner du merket i feltet.
 
-Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.
+Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selger og innkjøpere oftest legger til i [!INCLUDE [prod_short](includes/prod_short.md)]. I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
-Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnleggende opplysninger eller transaksjoner, kan du opprette forbindelser mellom kodene. Denne funksjonen kan hjelpe deg med å velge mellom koder når du bruker et nummer.
+
+Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnleggende opplysninger eller transaksjoner, kan du opprette forbindelser mellom kodene. Denne funksjonen kan hjelpe deg med å velge mellom koder når du bruker et nummer. Når du definerer et forhold mellom en gruppe med nummerserier, knytter du alle de relaterte seriene til én nummerseriekode. Deretter kan du sette inn koden i et felt på hurtigfanen **Nummerering** på en av de relevante konfigurasjonssidene, for eksempel **Salgsoppsett**.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Nr.serie**, og velg deretter den relaterte koblingen.
 2. Velg linjen med nummerserien du vil opprette forbindelser for, og velg deretter **Forbindelser**.
@@ -85,6 +85,17 @@ Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnlegge
 5. Lukk siden.
 
 Når du så registrerer noe som trenger et nummer, kan du bruke forbindelsene du har opprettet til å velge mellom nummerseriene som er koblet til hverandre.
+
+## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
+
+Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.  
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salg**, og velg deretter den relaterte koblingen.
+2. På siden **Salg** på hurtigfanen **Nummerserie** velger du ønsket nummerserie for hvert salgskort eller dokument.
+
+Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.  
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
 

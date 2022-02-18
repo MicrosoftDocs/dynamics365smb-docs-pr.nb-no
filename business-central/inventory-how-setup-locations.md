@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
+ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940729"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060093"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
-Hvis du kjøper, lagrer eller selger varer på flere lokasjoner eller lagre, må du definere hver lokasjon med et lokasjonskort og definere overføringsruter. [!INCLUDE [prod_short](includes/prod_short.md)] bruker lokasjoner til å holde oversikt over lageret både i enklere tilfeller og de mer sammensatte lagerprosessene.
+Lokasjoner er steder som lagre der du kjøper, lagrer eller selger varer. [!INCLUDE [prod_short](includes/prod_short.md)] bruker lokasjoner til å holde oversikt over lageret både i enklere tilfeller og de mer sammensatte lagerprosessene.
 
 Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengelighet etter lokasjon og overføre beholdning mellom lokasjoner. Hvis du vil ha mer informasjon, kan du se [Håndtere lager](inventory-manage-inventory.md).
 <br><br>  
@@ -27,16 +28,15 @@ Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengel
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lokasjonskort
-
-Lokasjonskortet angir opplysninger om en lokasjon, for eksempel et lager eller distribusjonssenter. Du gir hver lokasjon et navn og en kode som representerer lokasjonen. Deretter kan du angi lokasjonskoden i andre deler av programmet når du vil registrere transaksjoner for en gitt lokasjon.  
+Du angir opplysninger om en lokasjon, for eksempel et lager eller distribusjonssenter, på siden **Lokasjonskort**. Du gir hver lokasjon et navn og en kode som representerer lokasjonen. Deretter kan du angi lokasjonskoden i andre deler av programmet når du vil registrere transaksjoner for en gitt lokasjon.  
 
 Du kan angi opplysninger om hyller og lagerprinsipper for hver lokasjon. Basert på lagerprinsippet du velger, kan du bruke alternativene i hurtigfanen **Hyller** til å definere hyllene som skal brukes som standardhyller når du foretar transaksjoner. Hvis du bruker lagerstyring, bruker du de fleste av disse alternativene i hurtigfanen **Hylleprinsipp** til å definere hvordan du vil bruke de forskjellige avanserte lagerfunksjonene.  
 
-Noen alternativfelt er nedtonet og deaktivert av andre innstillinger på siden **Lokasjonskort** for å begrense oppsettskombinasjoner som ikke støttes.  
+Noen alternativfelt er avhengig av innstillinger på siden **Lokasjonskort** for å begrense oppsettskombinasjoner som ikke støttes.  
 
-Velg handlingen **Soner** eller **Hyller** for å vise informasjon om soner og hyller som kan være definert for lokasjonen.
+Velg handlingene **Soner** eller **Hyller** for å vise informasjon om soner og hyller som er definert for lokasjonen.
 
-### <a name="to-create-a-location-card"></a>Slik oppretter du et lokasjonskort
+### <a name="to-set-up-a-location"></a>Slik definerer du lokasjoner
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -44,11 +44,11 @@ Velg handlingen **Soner** eller **Hyller** for å vise informasjon om soner og h
 4. Gjenta trinn 2 og 3 for hver beholdninglokasjon.
 
 > [!NOTE]  
-> Mange felt på lokasjonskortet refererer til håndteringen av varer i inngående og utgående lagerprosesser. Feltene er ikke relevante for selskaper som ikke trenger den mer komplekse lagerfunksjonaliteten. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
+> Mange felt på siden Lokasjonskort er knyttet til håndteringen av varer i inngående og utgående lagerprosesser. Disse feltene er ikke relevante for selskaper som ikke trenger den komplekse lagerfunksjonaliteten. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
 
 Du kan endre konfigurasjonen for en lokasjon senere, men du kan ikke redigere oppsettet av lokasjoner som har vareposter.  
 
-Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjonene.  
+Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjonene. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du overføringsruter](inventory-how-setup-locations.md#to-create-a-transfer-route). 
 
 ### <a name="to-create-a-transfer-route"></a>Slik oppretter du overføringsruter
 
@@ -61,14 +61,12 @@ Nå kan du overføre lagervarer mellom to lokasjoner. Hvis du vil ha mer informa
 
 ## <a name="bins"></a>Hyller
 
-Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere nøyaktig det innholdet du vil plassere i hver hylle, eller hyllen kan fungere som en mobil hylle uten angitt innhold. Hyller brukes for øyeblikket i enkle og avanserte lageroperasjoner. Hvis du administrerer lagerbeholdningen i et mer enkelt oppsett, trenger du sannsynligvis ikke hyller.
+Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere innholdet, eller de kan fungere som mobile hyller uten angitt innhold. Hyller brukes for øyeblikket i enkle og avanserte lageroperasjoner. Hvis du administrerer lagerbeholdningen i et mer enkelt oppsett, trenger du sannsynligvis ikke hyller.
 
-Hvis du vil bruke hyllefunksjonaliteten i en lokasjon, må du først aktivere funksjonaliteten på kortet **Lokasjon** ved å velge feltet **Hylle obligatorisk** på hurtigfanen **Lager**. Du utformer deretter vareflyten på lokasjonen ved å angi hyllekoder i oppsettsfeltene som representerer ulike flyter.
+Hvis du vil bruke hyllefunksjonaliteten i en lokasjon, må du først aktivere funksjonaliteten på siden **Lokasjonskort** ved å velge feltet **Hylle obligatorisk** på hurtigfanen **Lager**. Du utformer deretter vareflyten på lokasjonen ved å angi hyllekoder i oppsettsfeltene som representerer ulike flyter.
 
 > [!NOTE]
-> Før du kan angi hyllekoder på lokasjonskortet, må hyllekodene være opprettet.
-
-Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md) og [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
+> Før du kan angi hyllekoder på en lokasjon, må du opprette hyllekoder. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md) og [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Soner
 

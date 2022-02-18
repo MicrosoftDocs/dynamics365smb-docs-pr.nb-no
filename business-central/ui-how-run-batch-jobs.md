@@ -1,8 +1,6 @@
 ---
-title: Opprette og kjøre en kjørsel | Microsoft-dokumentasjon
+title: Kjøre satsvise jobber og XML-porter
 description: Du kjører kjørsler for å behandle data og oppdatere informasjon, for eksempel for å gjøre periodiske regnskapsoppgaver eller beregninger.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
+ms.search.form: 672, 676, 682
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 42cb5f19dde06211136b0b3b276fed2ba267ec62
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435272"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100980"
 ---
 # <a name="run-batch-jobs-and-xmlports"></a>Kjøre satsvise jobber og XML-porter
+
 Satsvise jobber er rutineoppgaver som behandler data bunkevis, for eksempel den satsvise jobben **Juster valutakurser**. Det finnes kjørsler som utfører periodiske regnskapsoppgaver, som for eksempel å avslutte resultatregnskapet på slutten av et regnskapsår. Mange kjørsler utfører beregninger, for eksempel beregning av renteinntekter/-utgifter, justering av valutakurser og utregning av salgspris.
 
 En satsvis jobb ligner på en rapport, bortsett fra at den satsvise jobben bruker resultatet av det den gjør til å oppdatere informasjonen direkte, i stedet for å skrive ut resultatene.

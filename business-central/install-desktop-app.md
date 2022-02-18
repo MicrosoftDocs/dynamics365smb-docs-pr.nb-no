@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596650"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050908"
 ---
 # <a name="get-business-central-desktop-app"></a>Hent Business Central-skrivebordsappen
 
-Hvis du har en Windows- eller macOS-datamaskin, kan du installere en Business Central-app på skrivebordet. 
-> [!NOTE]
-> Hvis du bruker Business Central 2021 lanseringsbølge 1 eller tidligere, henter du appen fra [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848).
+Hvis du har en Windows- eller macOS-datamaskin, kan du installere en Business Central-app på skrivebordet. Appen fungerer med lokale og nettbaserte versjoner av Business Central.
 
 ## <a name="why-use-the-app"></a>Hvorfor bruke appen?
 
@@ -34,7 +32,19 @@ Business Central-appen ligner på nettklienten, men den gir deg noen fordeler so
 
      Når du åpner appen for et bestemt miljø, inkluderes miljønavnet i vindustittelen. Når du arbeider på tvers av flere [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, vises hvert appvindu separat. Navnet gjør det enklere for deg å se hvilket vindu som er tilknyttet hvert miljø.
 
-## <a name="install-the-app"></a>Installer appen
+## <a name="install-the-app-for-business-central-online"></a>Installer appen for Business Central på nettet
+
+Du kan installere appen for Business Central på nettet på to måter. Du kan installere det direkte fra nettleseren eller fra Microsoft store. Det er den samme appen uavhengig av hvor du laster den ned fra. Forskjellen er at når du installerer fra nettleseren, kan du installere appen for hvert miljø når det er mer enn ett.
+
+### <a name="from-microsoft-store"></a>Fra Microsoft Store
+
+1. Gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Velg **Last ned** > **Installer**. 
+3. Når appen er installert, velger du **Åpne** og logger deg deretter på Business Central.
+
+Neste gang du vil åpne appen, ser du etter den på **Start**-menyen.
+
+### <a name="from-the-browser"></a>Fra nettleseren
 
 1. Åpne [!INCLUDE[prod_short](includes/prod_short.md)]-nettklienten i Microsoft Edge eller Google Chrome.
 
@@ -54,16 +64,14 @@ Business Central-appen ligner på nettklienten, men den gir deg noen fordeler so
 
 Når appen er installert, vises den i **Start**-menyen. Hvis du har valgt et bestemt miljø for appen, legges miljønavnet til i navnet på appen på **Start**-menyen.
 
-### <a name="for-business-central-on-premises"></a>For Business Central lokalt
+## <a name="install-the-app-for-business-central-on-premises"></a>Installer appen for Business Central lokalt
 
-Når du installerer appen når du bruker Business Central lokalt, er den stort sett lik det som er beskrevet ovenfor. Hvis du bare har én leietaker, åpner du bare Business Central i nettleseren, og deretter velger du ![Ikon for å installere en app i Edge.](media/ui-edge-install-app-icon.png) **Appen er tilgjengelig. Installer Business Central** eller ![Ikon for å installere en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business Central** som vist ovenfor. 
+Installasjon av skrivebordsappen når du bruker Business Central lokalt gjøres direkte fra nettleseren [som er beskrevet ovenfor](#from-the-browser). Hvis du bare har én leietaker, åpner du bare Business Central i nettleseren, og deretter velger du ![Ikon for å installere en app i Edge.](media/ui-edge-install-app-icon.png) **Appen er tilgjengelig. Installer Business Central** eller ![Ikon for å installere en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business Central** som vist ovenfor.
 
-Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online, der du kan installere appen separat for ulike miljøer, kan du med den lokale versjonen bare installere appen for én leietaker. Før du installerer appen når du har flere leietakere, må du derfor bytte til riktig leietaker. Når du har installert appen, åpner den leietakeren direkte.
+Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online, der du kan installere appen for ulike miljøer, kan du bare installere appen for én leietaker. Før du installerer appen når du har flere leietakere, må du derfor bytte til riktig leietaker. Når du har installert appen, åpner den leietakeren direkte.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Hvis du bruker Business Central 2021 lanseringsbølge 1 (versjon 18) eller tidligere, kan du ikke installere appen som beskrevet i denne artikkelen. Du må i stedet installere appen fra [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Hvis du vil ha mer informasjon og hjelp til å installere denne eldre appen, kan du se [Klargjøre for og installere Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

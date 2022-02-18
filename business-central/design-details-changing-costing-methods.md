@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215431"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115479"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Utformingsdetaljer: Endre lagermetode for varer
 
@@ -78,18 +79,18 @@ Hvis du vil gjøre slik at de nye varene kan brukes, må du kopiere noen hovedda
 
 |Distrikt  |Hva som skal kopieres  |Hvordan du kopierer  |
 |---------|---------|---------|
-|Lager     |Lagerføringsenheter (LFE-er)         |Kontroller om det er angitt en LFE for den opprinnelige varen. Hvis det er angitt planleggingsparametere for hvert LFE-kort, må du opprette en LFE manuelt for den nye varen. Hvis parameterne ikke er angitt, kan du bruke kjørselen **Opprett lagerføringsenhet** fra **Varekort**-siden til å opprette dataene.        |
-|     |Vareerstatninger         |Kontroller om det er definert vareerstatninger for den opprinnelige varen. Hvis det finnes, overfører du disse dataene til den nye varen. Hvis du vil vise erstatningsvarer, bruker du handlingen **Erstatninger** på **Varekort**-siden.         |
-|     |Analyserapporter         |Se gjennom rapportene for vareanalyse, salgsanalyse og kjøpsanalyse. For de som refererer til de opprinnelige varene kan du opprette en ny analyserapport med en referanse til den nye varen (beholde den opprinnelige analyserapporten som historikk), eller justere rapportene slik at de refererer til den nye varen.         |
-|     |Standardkladder         |Kontroller om standardkladdene refererer til den opprinnelige varen, og overfør disse dataene til den nye varen når det er nødvendig. Denne informasjonen finnes i standardkladdene som er tilgjengelige i varekladden.          |
-|Salg     |Forskuddsprosenter for salg         | Kontroller om forskuddsprosenter for salg er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Salg** på **Varekort**-siden, og deretter **Forskuddsprosenter**.        |
-|Kjøp     |Forskuddsprosenter for kjøp         |Kontroller om forskuddsprosenter for kjøp er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Kjøp** på **Varekort**-siden, og deretter **Forskuddsprosenter**.                 |
-|Lager     |Hylleinnhold         |Se gjennom hylleinnholdet som er definert for den opprinnelige varen. Hvis kolonner som min. ant., maks. ant., standard og dedikert er definert enkeltvis, må du manuelt opprette hylleinnhold for den nye varen. Hvis ikke, kreves det ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedlikeholder postene når du registrerer lagerdokumenter og -journaler.|
-|Jobb     |Prosjektpriser         |Kontroller om prosjektpriser er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Denne informasjonen er tilgjengelig på **Prosjektkort**-siden i delen **Prosjektdetaljer - antall priser** i **faktaboksruten**.         |
-|Tjeneste     |Ressurskompetanse for service         |Kontroller om ressurskompetanse for service er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise ressurskompetanse, bruker du handlingen **Ressurskompetanse** på **Varekort**-siden.          |
-|     |Servicevarekomponenter         |Kontroller om komponenter er definert for den opprinnelige servicevaren, og overfør disse dataene til den nye varen. Hvis du vil vise servicevarekomponenter, bruker du **Servicevare**-handlingen på **Varekort**-sideb til å åpne listen over relaterte servicevarer, og deretter velger du **Komponenter**-handlingen.          |
-|Produksjon     |Prod.stykklister         |Kontroller om eventuelle produksjonsstykklister inneholder den opprinnelige varen, og erstatte den med den nye varen. Hvis du vil erstatte den opprinnelige varen, velger du handlingen **Bytt ut produksjonsstykklistevare** på siden **Produksjonsstykklister**.         |
-|Montering     |Monteringsstykklister         |Kontroller om eventuelle monteringsstykklister inneholder den opprinnelige varen, og erstatte den manuelt med den nye varen.         |
+|Lager |Lagerføringsenheter (LFE-er) |Kontroller om det er angitt en LFE for den opprinnelige varen. Hvis det er angitt planleggingsparametere for hvert LFE-kort, må du opprette en LFE manuelt for den nye varen. Hvis parameterne ikke er angitt, kan du bruke kjørselen **Opprett lagerføringsenhet** fra **Varekort**-siden til å opprette dataene.|
+| |Vareerstatninger |Kontroller om det er definert vareerstatninger for den opprinnelige varen. Hvis det finnes, overfører du disse dataene til den nye varen. Hvis du vil vise erstatningsvarer, bruker du handlingen **Erstatninger** på **Varekort**-siden. |
+| |Analyserapporter |Se gjennom rapportene for vareanalyse, salgsanalyse og kjøpsanalyse. For de som refererer til de opprinnelige varene kan du opprette en ny analyserapport med en referanse til den nye varen (beholde den opprinnelige analyserapporten som historikk), eller justere rapportene slik at de refererer til den nye varen. |
+| |Standardkladder |Kontroller om standardkladdene refererer til den opprinnelige varen, og overfør disse dataene til den nye varen når det er nødvendig. Denne informasjonen finnes i standardkladdene som er tilgjengelige i varekladden.  |
+|Salg |Forskuddsprosenter for salg | Kontroller om forskuddsprosenter for salg er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Salg** på **Varekort**-siden, og deretter **Forskuddsprosenter**.|
+|Kjøp |Forskuddsprosenter for kjøp |Kontroller om forskuddsprosenter for kjøp er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise forskuddsprosenter, velger du **Kjøp** på **Varekort**-siden, og deretter **Forskuddsprosenter**. |
+|Lager |Hylleinnhold |Se gjennom hylleinnholdet som er definert for den opprinnelige varen. Hvis kolonner som min. ant., maks. ant., standard og dedikert er definert enkeltvis, må du manuelt opprette hylleinnhold for den nye varen. Hvis ikke, kreves det ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedlikeholder postene når du registrerer lagerdokumenter og -journaler.|
+|Jobb |Prosjektpriser |Kontroller om prosjektpriser er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Denne informasjonen er tilgjengelig på **Prosjektkort**-siden i delen **Prosjektdetaljer - antall priser** i **faktaboksruten**. |
+|Tjeneste |Ressurskompetanse for service |Kontroller om ressurskompetanse for service er definert for den opprinnelige varen, og overfør disse dataene til den nye varen. Hvis du vil vise ressurskompetanse, bruker du handlingen **Ressurskompetanse** på **Varekort**-siden.  |
+| |Servicevarekomponenter |Kontroller om komponenter er definert for den opprinnelige servicevaren, og overfør disse dataene til den nye varen. Hvis du vil vise servicevarekomponenter, bruker du **Servicevare**-handlingen på **Varekort**-sideb til å åpne listen over relaterte servicevarer, og deretter velger du **Komponenter**-handlingen.  |
+|Produksjon |Prod.stykklister |Kontroller om eventuelle produksjonsstykklister inneholder den opprinnelige varen, og erstatte den med den nye varen. Hvis du vil erstatte den opprinnelige varen, velger du handlingen **Bytt ut produksjonsstykklistevare** på siden **Produksjonsstykklister**. |
+|Montering |Monteringsstykklister |Kontroller om eventuelle monteringsstykklister inneholder den opprinnelige varen, og erstatte den manuelt med den nye varen. |
 
 > [!IMPORTANT]
 > Hvis den nye lagermetoden er standard, må du angi en verdi i feltet **Kostpris (standard)** på **Varekort**-siden. Du kan bruke siden **Standardkost - forslag** til å definere kostandeler i henhold til dette. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingsk
 
 |Felt  |Verdi å angi  |
 |---------|---------|
-|Varenr.     |Nummeret på den nye varen.         |
-|Antall     |Antallet i vareopptellingskladd.<br> **OBS!** Antallene som beregnes av vareopptellingskladdene, inkluderer ikke antallene i ordrer som ennå ikke er levert.          |
-|Variantkode     |Det samme som i vareopptellingskladd.          |
-|Lokasjonskode     |Det samme som i vareopptellingskladd.         |
-|Enhetskode     |Det samme som i vareopptellingskladd.         |
-|Hyllekode     |Det samme som i vareopptellingskladd.         |
+|Varenr. |Nummeret på den nye varen. |
+|Antall |Antallet i vareopptellingskladd.<br> **OBS!** Antallene som beregnes av vareopptellingskladdene, inkluderer ikke antallene i ordrer som ennå ikke er levert.  |
+|Variantkode |Det samme som i vareopptellingskladd.  |
+|Lokasjonskode |Det samme som i vareopptellingskladd. |
+|Enhetskode |Det samme som i vareopptellingskladd. |
+|Hyllekode |Det samme som i vareopptellingskladd. |
 
 #### <a name="lines"></a>Linjer
 
 |Felt  |Verdi å angi  |
 |---------|---------|
-|Type     |Vare         |
-|Antall     |Nummeret på den opprinnelige varen.         |
-|Antall per     |1         |
-|Variantkode     |Det samme som i vareopptellingskladd.         |
-|Lokasjonskode     |Det samme som i vareopptellingskladd.         |
-|Enhetskode     |Det samme som i vareopptellingskladd.         |
+|Type |Vare |
+|Antall |Nummeret på den opprinnelige varen. |
+|Antall per |1 |
+|Variantkode |Det samme som i vareopptellingskladd. |
+|Lokasjonskode |Det samme som i vareopptellingskladd. |
+|Enhetskode |Det samme som i vareopptellingskladd. |
 
 > [!NOTE]
 > En monteringsordre kan bare håndtere én LFE om gangen for en vare. Du må opprette en monteringsordre for hver LFE-kombinasjon som har et antall på lager.
@@ -153,15 +154,15 @@ Tabellen nedenfor viser funksjonsområder der det kan være restantall.
 
 |Distrikt  |Hvor det kan søkes etter restantall  |
 |---------|---------|
-|Salg     |Salgsdokumenter, inkludert ordrer, ordrereturer, fakturaer, tilbud, rammebestillinger og kreditnotaer         |
-|Lager     |Varekladder, reservasjoner, varesporing og standardkost – forslag         |
-|Kjøp     |Kjøpsdokumenter, inkludert ordrer, ordrereturer, fakturaer, tilbud, rammebestillinger og kreditnotaer         |
-|Planlegging     |Bestillingsforslag, planleggingsforslag og ordreplanlegging         |
-|Lager     |Overføringsordrer, lagerleveringer, lagerjournaler og lagerplukkinger, plasseringer og flyttinger, interne plukkinger og plassering samt hylleopprettingsforslag         |
-|Montering     |Monteringsdokumenter, inkludert ordrer, returordrer og rammebestillinger         |
-|Prosjekter     |Prosjektplanleggingslinjer og prosjektkladdelinjer         |
-|Tjeneste     |Servicedokumenter og servicekontrakter         |
-|Produksjon     |Produksjonsordrer (planlagte, fast planlagte og frigitte)         |
+|Salg |Salgsdokumenter, inkludert ordrer, ordrereturer, fakturaer, tilbud, rammebestillinger og kreditnotaer |
+|Lager |Varekladder, reservasjoner, varesporing og standardkost – forslag |
+|Kjøp |Kjøpsdokumenter, inkludert ordrer, ordrereturer, fakturaer, tilbud, rammebestillinger og kreditnotaer |
+|Planlegging |Bestillingsforslag, planleggingsforslag og ordreplanlegging |
+|Lager |Overføringsordrer, lagerleveringer, lagerjournaler og lagerplukkinger, plasseringer og flyttinger, interne plukkinger og plassering samt hylleopprettingsforslag |
+|Montering |Monteringsdokumenter, inkludert ordrer, returordrer og rammebestillinger |
+|Prosjekter |Prosjektplanleggingslinjer og prosjektkladdelinjer |
+|Tjeneste |Servicedokumenter og servicekontrakter |
+|Produksjon |Produksjonsordrer (planlagte, fast planlagte og frigitte) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Sperre den opprinnelige varen for ytterligere bruk
 

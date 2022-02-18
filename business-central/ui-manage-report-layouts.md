@@ -1,8 +1,6 @@
 ---
-title: Egendefinerte og innebygde oppsett for rapporter og dokumenter | Microsoft-dokumentasjon
+title: Egendefinerte og innebygde oppsett for rapporter og dokumenter
 description: Bruk rapportoppsett til å tilpasse dokumenter, for eksempel tilpasse skriften, logoen eller sideinnstillingene for PDF-filer du sender til kunder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 11467596a489c3d3ec550caa35353c72e548e675
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445950"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100850"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
 Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[prod_short](includes/prod_short.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
@@ -37,7 +36,7 @@ En rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter
 Det finnes to typer rapportoppsett som du kan bruke i rapporter: Word og RDLC.
 
 ## <a name="word-report-layout-overview"></a>Oversikt over rapportoppsett for Word
-Et Word-rapportoppsett er basert på et Word-dokument (DOCX-filtypen). Rapportoppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word 2013 eller nyere. Et rapportoppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-rapportoppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
+Et Word-rapportoppsett er basert på et Word-dokument (DOCX-filtypen). Rapportoppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word. Et rapportoppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-rapportoppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
 
  ![Eksempel på et rapportoppsettsdokument for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 

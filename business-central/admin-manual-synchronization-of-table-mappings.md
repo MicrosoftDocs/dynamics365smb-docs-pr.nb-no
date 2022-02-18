@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e9cd03df1e26eca92f5a69d02d73caac902d2b6b
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435525"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049565"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkronisere tabelltilordninger manuelt
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 En integrert tabelltilordning knytter en [!INCLUDE[prod_short](includes/prod_short.md)]-tabell, for eksempel kunde, med en [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabell, for eksempel en konto. Synkronisering av en integrert tabelltilordning gjør det mulig å synkronisere data i alle poster av [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen som er koblet. I tillegg, avhengig av oppsettet for tabelltilordningen, kan synkroniseringen opprette og koble nye poster i målløsningen for ukoblede poster i kilden.  
 

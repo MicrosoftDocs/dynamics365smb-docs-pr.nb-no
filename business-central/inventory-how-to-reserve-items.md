@@ -1,5 +1,5 @@
 ---
-title: Reservere varer| Microsoft-dokumentasjon
+title: Reserver varer
 description: Du kan reservere varer for ordrer, bestillinger og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokumentlinjer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f2c35d1a28bae7c12e706ff2220bf8d7b48719
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d53de74aa14001598177fcbf7d83d519fad9e0fd
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445679"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060067"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet på **Reservasjon**-siden.

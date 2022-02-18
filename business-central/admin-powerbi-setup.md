@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724691"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049877"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -44,7 +44,12 @@ En API-side er en bestemt sidetype opprettet i AL-kode som gir tilgang til datab
 
 Business Central online leveres med et sett med innebygde API-er, som du kan bruke til å hente data for de mest vanlige forretningsenhetene, for eksempel kunder, varer, ordrer og så videre. Ekstra arbeid eller oppsett er ikke nødvendig for å bruke disse API-ene som en datakilde for Power BI-rapporter. Se [Business Central API v 2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) hvis du vil ha mer informasjon om disse API-ene.
 
-Business Central online støtter også egen definerte API-er. Programutviklere for Business Central-løsninger kan opprette egne API-sider og pakke dem i utvidelser. Du kan installere utvidelsene i leietakeren. Når den er installert, kan du bruke API-sidene for Power BI-rapportene, på samme måte som med de innebygde API-ene (v 2.0). Hvis du vil ha mer informasjon om hvordan du oppretter API-sider, kan du se [Utvikle en egendefinert API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online støtter også egen definerte API-er. Programutviklere for Business Central-løsninger kan opprette egne API-sider og pakke dem i utvidelser. Du installerer deretter utvidelsene i leietakeren. Når den er installert, kan du bruke API-sidene for Power BI-rapportene, på samme måte som med de innebygde API-ene (v 2.0). Hvis du vil ha mer informasjon om hvordan du oppretter API-sider, kan du se [Utvikle en egendefinert API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> Fra og med februar 2022 blir Power BI-rapporter for [!INCLUDE[prod_short](includes/prod_short.md)] online hentet fra en sekundær, skrivebeskyttet databasereplika for ytelsesårsaker. I følge tilfeller bør AL-utviklere unngå å utforme API-sider som gjør databaseendringer mens sidene åpnes eller laster inn poster. Tenk særlig på koden på AL-utløserne: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Disse databaseendringene kan i noen tilfeller forårsake ytelsesproblemer og forhindre at rapporten oppdaterer data. Hvis du vil ha mer informasjon, kan du se [Ytelsesartikler for utviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) i utviklingshjelpen for Business Central.
+>
+> I sjeldne tilfeller vil virkemåten føre til en feil når en bruker prøver å hente data fra API-siden for en rapport i Power BI Desktop. Hvis databaseendringer er nødvendige på den egendefinerte API-siden, kan Power BI Desktop-brukerne imidlertid fremtvinge virkemåten. Hvis du vil ha mer informasjon, kan du se [Bygg Power BI-rapporter for å vise Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData-nettjenester
 
@@ -91,6 +96,7 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
     Før sluttbrukere kan bruke Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], må en administrator av Azure-programmet gi samtykke til Power BI-tjenesten.
 
     For å opprette den første tilkoblingen må du åpne [!INCLUDE[prod_short](includes/prod_short.md)] og kjøre **Kom i gang med Power BI** fra rollesenteret. Denne handlingen leder deg gjennom samtykkeprosessen og kontrollerer Power BI-lisensen. Logg deg på med en Azure-administratorkonto når du blir bedt om det. Hvis du vil ha mer informasjon, kan du se [Koble til Power BI – kun én gang](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

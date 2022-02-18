@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012344"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049514"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +48,9 @@ Tabellen nedenfor beskriver tilgjengelige funksjoner.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en kobling som bruker OData. Datakilden for Power BI-rapporter eksponeres som API-sider og OData-nettjenester.
 
-![Power BI-arkitektur for integrering med Business Central.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alternativ bildetekst." lightbox="./media/power-bi-architecture.png":::
+
+Fra og med februar 2022 blir Power BI-rapporter for [!INCLUDE[prod_short](includes/prod_short.md)] online hentet fra en sekundær, skrivebeskyttet databasereplika. Databasereplika er en del av funksjonen for å [lese skalering](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)] online. Denne konfigurasjonen frigjør hoveddatabasen for transaksjoner, noe som forbedrer ytelsen i systemet. Å koble til den skrivebeskyttede database replikaen er en vesentlig del av Business Central Online-koblingen og krever ingen ekstra oppsett av deg. Alle nye rapporter kobler bare til den skrivebeskyttede databasereplikaen som standard. Gamle rapporter vil fortsatt bruke hoveddatabasen. Hvis du vil ha mer informasjon, kan du se [plan for lanseringsbølge 2 for 2021 for Business Central](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Generell flyt
 

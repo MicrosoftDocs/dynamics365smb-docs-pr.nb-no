@@ -1,7 +1,6 @@
 ---
 title: Forbindelser
 description: Funksjonene for forbindelser er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter for å betjene kunder effektivt.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
+ms.search.forms: 9076, 9026
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f37fa1be83c422062af1aafa7c19a36ee0455a2e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325689"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059951"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.

@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012370"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049598"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hent Business Central-tillegget for Outlook
 
@@ -78,7 +78,7 @@ Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft
 
 8. Velg **Last opp egendefinerte apper**.
 9. På siden **Last opp apper som skal distribueres** velger du **Last opp manifestfil (XML) fra enhet** > **Velg fil**.
-10. Velg ett av tilleggsfilene du pakket ut tidligere, for eksempel **Innholdsinnsikt.xml**.
+10. Velg ett av tilleggsfilene du pakket ut tidligere, for eksempel **Kontaktinnsikt.xml**.
 11. Følg instruksjonene for å tilordne brukere og distribuere tillegget.
 12. Gjenta trinn 9 til 11 for den andre tilleggsfilen hvis du vil.
 

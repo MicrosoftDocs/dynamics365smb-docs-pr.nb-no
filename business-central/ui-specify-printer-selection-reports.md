@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547051"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102450"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
@@ -267,6 +267,9 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 
 > [!NOTE]
 > Flere spesifikke skrivervalg har forrang over et mer generelt skrivervalg. Et skrivervalg som har verdier i feltene **Bruker-ID**, **Rapport-ID** og **Skrivernavn**, har for eksempel forrang over et skrivernavn som har tomme poster i feltene **Bruker-ID** eller **Rapport-ID**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Velg skriveren når du kjører en rapport
+I stedet for å bruke standardskriveren når du kjører en rapport, kan du overstyre denne innstillingen fra forespørselssiden. Velg ganske enkelt hvilken skriver du vil bruke til denne aktiveringen av rapporten, på rullegardinmenyen **Skriver**.
 
 ### <a name="sizing-print-jobs"></a>Endre størrelse på utskriftsjobber
 

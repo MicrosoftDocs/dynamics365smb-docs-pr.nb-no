@@ -1,5 +1,5 @@
 ---
-title: Holde et rapportoppsett oppdatert
+title: Oppdatere egendefinerte rapportoppsett
 description: Lær hvordan du oppdaterer et egendefinert rapportoppsett som brukes i en rapport når det for eksempel finnes utformingsendringer i rapportens datasett.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445279"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101480"
 ---
 # <a name="update-custom-report-layouts"></a>Oppdatere egendefinerte rapportoppsett
+
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  
 
 Du kan oppdatere automatisk et rapportoppsettet fra feilmeldingen som vises når du kjører rapporten, ved å velge **Ja**-knappen på feilmeldingen. Eller du kan oppdatere bestemte rapportoppsett eller alle tilpassede rapportoppsett som kan bli påvirket av endringer i datasettet, før du kjører rapportene.  

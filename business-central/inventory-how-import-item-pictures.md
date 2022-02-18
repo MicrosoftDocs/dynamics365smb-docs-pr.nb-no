@@ -11,15 +11,15 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
-ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7975021"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059677"
 ---
 # <a name="import-multiple-item-pictures"></a>Importere flere varebilder
- Du kan importere flere varebilder på én gang. Bare gi bildefilene navn som svarer til dine varenumre, komprimer dem til en zip-fil, og bruk Importer varebilder-siden til å behandle hvilke varebilder som skal importeres.
+Du kan importere flere varebilder på én gang. Bare gi bildefilene navn som svarer til dine varenumre, komprimer dem til en zip-fil, og bruk Importer varebilder-siden til å behandle hvilke varebilder som skal importeres.
 
 Alle vanlige filformater støttes.
 

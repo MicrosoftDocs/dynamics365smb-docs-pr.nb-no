@@ -4,22 +4,21 @@ description: Konfigurer en kobling mellom Business Central og Dataverse. Selskap
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940479"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059547"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Koble til Microsoft Dataverse
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Dette emnet beskriver hvordan du setter opp en tilkobling mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vanligvis oppretter selskaper tilkoblingen for å integrere og synkronisere data med en annen Dynamics 365-forretningsapp, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -41,7 +40,7 @@ Før du oppretter tilkoblingen, er det noen få opplysninger du må ha klar:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Konfigurere en kobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For andre godkjenningstyper enn Microsoft 365-godkjenning definerer du en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Konfigurasjon for Dataverse-tilkobling**. For Microsoft 365-godkjenning anbefales det å bruke den assisterte oppsettsveiledningen for **Konfigurasjon for Dataverse-tilkobling**. Veiledningen gjør det enklere å opprette tilkoblingen og angi avanserte funksjoner, for eksempel eierskapsmodell og første synkronisering.  
+For andre godkjenningstyper enn Microsoft 365-godkjenning definerer du en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Tilkoblingsoppsett for Dataverse**. For Microsoft 365-godkjenning anbefales det å bruke den assisterte oppsettsveiledningen for **Konfigurasjon for Dataverse-tilkobling**. Veiledningen gjør det enklere å opprette tilkoblingen og angi avanserte funksjoner, for eksempel eierskapsmodell og første synkronisering.  
 
 > [!IMPORTANT]
 > Under oppsettet av tilkoblingen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] blir administrator bedt om å gi følgende tillatelse til å registrere et Azure-program kalt [!INCLUDE[prod_short](includes/prod_short.md)]-integrering til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

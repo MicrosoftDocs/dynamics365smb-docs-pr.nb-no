@@ -1,5 +1,5 @@
 ---
-title: Definere lagerføringsenheter | Microsoft-dokumentasjon
+title: Definer lagerføringsenheter
 description: Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a59bf05139f4b073470092aa136018d9f3d988e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445654"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059415"
 ---
 # <a name="set-up-stockkeeping-units"></a>Definere lagerføringsenheter
-Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.  
+Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en bestemt lokasjon eller en variantkode.  
 
- Lagerføringsenheter er et tillegg til varekort. De erstatter dem ikke, selv om de er knyttet til dem. Med lagerføringsenheter kan du skille mellom opplysninger om en vare for en bestemt lokasjon (for eksempel et lager eller et distribusjonssenter) eller en bestemt variant (for eksempel ulike hyllenumre og ulike opplysninger om etterfylling), for den samme varen.  
+Lagerføringsenheter er et tillegg til varekort. De erstatter dem ikke, selv om de er knyttet til dem. Med lagerføringsenheter kan du skille mellom opplysninger om en vare for en bestemt lokasjon (for eksempel et lager eller et distribusjonssenter) eller en bestemt variant (for eksempel ulike hyllenumre og ulike opplysninger om etterfylling), for den samme varen.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Slik definerer du lagerføringsenheter  
 

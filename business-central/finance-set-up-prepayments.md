@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970390"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100902"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 
@@ -24,10 +24,12 @@ Før du kan bokføre forskuddsfakturaer, må du definere bokføringskontiene i F
 Du kan definere hvor stor prosentdel av linjebeløpet som skal faktureres for forskuddsbetaling, for en kunde eller leverandør, for alle varer eller for utvalgte varer. Når du har fullført oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger. Du kan bruke standardprosentsatsene for hver salgs- eller kjøpslinje, eller du kan endre beløpene på fakturaen etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
 
 > [!NOTE]
-> Vi anbefaler at du ikke bruker en forskuddsprosent på 100 % i følgende tilfeller:
+> Vi anbefaler at du ikke bruker en forskuddsprosent på 100 i følgende tilfeller:
 >
-> * Hvis du befinner deg i Nord-Amerika. En forskuddsprosent på 100 % kan føre til problemer med forskuddsfakturaer på grunn av måten avgifter beregnes på.
-> * I noen regioner hvis du trekker en kontantrabatt fra fakturaen manuelt. En forskuddsprosent på 100 % etterlater ikke automatisk et beløp som rabatten kan trekkes fra. 
+> * Hvis du befinner deg i Nord-Amerika. En forskuddsprosent på 100 kan føre til problemer med forskuddsfakturaer på grunn av måten avgifter beregnes på.
+> * I noen regioner hvis du trekker en kontantrabatt fra fakturaen manuelt. En forskuddsprosent på 100 etterlater ikke automatisk et beløp som rabatten kan trekkes fra.
+>
+> Når du bruker forskuddsprosenten 100, kan det hente at [!INCLUDE[prod_short](includes/prod_short.md)] må opprette avrundingsposter. Når dette skjer, må du velge en finanskonto i feltet **Fakturaavrundingskonto** på siden **Kundebokføringsgrupper**. Dette gjelder også når du ikke har aktivert alternativet **Fakturaavrunding** på siden **Salgsoppsett**. Hvis du ikke angir en konto, kan du ikke bokføre forskuddsfakturaer. 
 
 Siden det forhåndsbetalte beløpet tilhører kunden til de har mottatt varene eller tjenestene, må du sette opp finanskontoer for de forhåndsbetalte beløpene frem til den endelige fakturaen er bokført. Utgående forhåndsbetalinger må registreres i en gjeldskonto frem til fakturaen bokføres. Inngående forhåndsbetalinger må registreres i en aktivakonto frem til varene mottas. I tillegg må du definere en separat finanskonto for hver mva-type.  
 

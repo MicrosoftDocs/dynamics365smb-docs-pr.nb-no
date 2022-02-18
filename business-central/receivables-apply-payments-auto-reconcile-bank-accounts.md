@@ -1,8 +1,6 @@
 ---
-title: Avstemme bankkontoer og utligne betalinger | Microsoft-dokumentasjon
+title: Avstem bankkontoer og utlign betalinger
 description: Gir en oversikt over oppgaver for å avstemme bank- og samlekontiene, bokføre innbetalinger og utgifter og utligne betalinger automatisk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
+ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b1009c028bab2204c359e09a69472ecd3ecbf42
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781816"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101220"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Utligne betalinger automatisk og avstemme bankkonti
 Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  

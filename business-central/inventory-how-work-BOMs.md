@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444923"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060041"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
@@ -71,7 +72,7 @@ Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponent
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
 Du kan bruke en spesiell funksjon erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne funksjonen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
 
-Funksjonen Utfold stykkliste er også tilgjengelig på siden **Monteringsstykkliste** som en metode for å vise underordnede varer i eventuelle halvfabrikater på en monteringsstykkliste.
+Handlingen **Utfold stykkliste** er også tilgjengelig på siden **Monteringsstykkliste** som en måte å vise underordnede monteringsvarer på en monteringsstykkliste på.
 
 > [!CAUTION]  
 >  Når du har brukt funksjonen **Utfold Stykkliste**, er det ikke enkelt å angre den. Du må slette ordrelinjene som representerer komponentene og deretter skrive inn en ordrelinje for monteringsvaren på nytt.
