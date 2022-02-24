@@ -1,30 +1,31 @@
 ---
-title: Kjøre full planlegging, MPS eller MRP
-description: Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller begge samtidig.
+title: Kjøre full planlegging, MPS og MRP | Microsoft-dokumentasjon
+description: Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000852, 99000860
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: c3994dfa33e75379b2dcbc19c0f40e0262e032b2
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 226fb329b852075a26ad42e2f08a11f2f97ea733
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971304"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313135"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
-
 Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
 -   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
 -   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og behovsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  
 
-Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene gjelder nettoberegning, gjenbruk av eksisterende etterfyllingsordrer samt handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er på lager eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, genererer [!INCLUDE[prod_short](includes/prod_short.md)] handlingsmeldinger. Handlingsmeldinger er forslag om å opprette en ny ordre, endre en ordre (antall eller dato) eller annullere en ordre som er bestilt. Betegnelsen "ordre" omfatter bestillinger, monteringsordrer, produksjonsordrer og overføringsordrer.
+Planleggingsalgoritmene som brukes til MPS og MRP, er identiske. Planleggingsalgoritmene gjelder nettoberegning, gjenbruk av eksisterende etterfyllingsordrer samt handlingsmeldinger. Planleggingssystemprosessen undersøker hva som trengs eller kommer til å trengs (behov), og hva som er på lager eller forventet (forsyning). Når disse antallene nettoberegnes mot hverandre, genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] handlingsmeldinger. Handlingsmeldinger er forslag om å opprette en ny ordre, endre en ordre (antall eller dato) eller annullere en ordre som er bestilt. Betegnelsen "ordre" omfatter bestillinger, monteringsordrer, produksjonsordrer og overføringsordrer.
 
 Koblinger som opprettes av planleggingsmotoren mellom etterspørsel og relatert forsyning, kan spores På siden **Sporing**. Hvis du vil ha mer informasjon, kan du se [Spore relasjoner mellom behov og forsyning](production-how-track-demand-supply.md).   
 
@@ -38,7 +39,7 @@ Riktige planleggingsresultater er avhengig av definisjonene i varekort, monterin
     - **Endringer av planleggingsparameter:** Dette inkluderer endringer av sikkerhetslager, gjenbestillingspunkt, rute og stykkliste og endringer av tidsperioden eller beregningen av leveringstid.  
 -   **Hent handlingsmeldinger:** Denne funksjonen fungerer som et verktøy for planlegging på kort sikt ved å sende handlingsmeldinger for å varsle brukeren om eventuelle endringer som er gjort siden siste replanlegging eller bevegelsesplan ble beregnet.  
 
-Med hver planlagte metode genererer [!INCLUDE[prod_short](includes/prod_short.md)] forslagsposter som forutsetter ubegrenset kapasitet. Det tas ikke hensyn til arbeidssenter- og produksjonsressurskapasitet når du utvikler tidsplaner.  
+Med hver planlagte metode genererer [!INCLUDE[d365fin](includes/d365fin_md.md)] forslagsposter som forutsetter ubegrenset kapasitet. Det tas ikke hensyn til arbeidssenter- og produksjonsressurskapasitet når du utvikler tidsplaner.  
 
 > [!IMPORTANT]  
 >  Funksjonen Beregn replanlegging er den vanligste prosessen. Funksjonene for beregning av planer og utførelse av handlingsmeldinger, kan imidlertid brukes til å kjøre prosessen Beregn bevegelsesplan.  
@@ -46,7 +47,7 @@ Med hver planlagte metode genererer [!INCLUDE[prod_short](includes/prod_short.md
 >  Funksjonen for planen Hent handlingsmeldinger kan kjøres mellom kjøringer av bevegelsesplanlegging og replanlegging for å få en oversikt over virkningen av planendringer, men er ikke ment å være en erstatning for fullstendige prosesser for bevegelsesplanlegging eller replanlegging.  
 
 ## <a name="to-calculate-the-planning-worksheet"></a>Slik beregner du planleggingsforslaget  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Beregn replanlegging** for å åpne siden **Beregn Plan**.  
 3.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -99,10 +100,10 @@ Som følge av at forholdet mellom forsyning og behov ikke er i balanse, generere
 |Handlingsmelding|Beskrivelse|  
 |--------------------|---------------------------------------|  
 |**Ny**|Hvis et behov ikke kan dekkes ved å foreslå handlingsmeldingen **Endre ant.**, **Tidsplanlegg på nytt** eller **Tidsplanl. på nytt og endre ant.** i eksisterende ordrer, genereres handlingsmeldingen **Ny**, som foreslår en ny ordre. I tillegg utsteder systemet meldingen **Ny** hvis det ikke finnes eksisterende forsyningsordrer i den aktuelle varens gjenbestillingssyklus. Denne parameteren fastsetter antallet perioder fremover og bakover i tilgjengelighetsprofilen ved søk etter en ordre som skal tidsplanlegges på nytt.|  
-|**Endre antall**|Når behovet som spores i en forsyningsordre, endres i antall, genereres handlingsmeldingen **Endre ant.**, som angir at den aktuelle forsyningen må endres i forhold endringen i behov. Hvis det oppstår et nytt behov, søker [!INCLUDE[prod_short](includes/prod_short.md)] etter den nærmeste eksisterende forsyningsordren i gjenbestillingssyklusen som ikke er reservert, og utsteder en handlingsmelding om endring for denne ordren.|  
+|**Endre antall**|Når behovet som spores i en forsyningsordre, endres i antall, genereres handlingsmeldingen **Endre ant.**, som angir at den aktuelle forsyningen må endres i forhold endringen i behov. Hvis det oppstår et nytt behov, søker [!INCLUDE[d365fin](includes/d365fin_md.md)] etter den nærmeste eksisterende forsyningsordren i gjenbestillingssyklusen som ikke er reservert, og utsteder en handlingsmelding om endring for denne ordren.|  
 |**Tidsplanlegg på nytt**|Når datoen i en forsynings- eller behovsordre endres slik at det oppstår en ubalanse i ordrenettverket, genereres handlingsmeldingen **Tidsplanlegg på nytt**. Hvis det er et én-til-én-forhold mellom behov og forsyning, genereres en handlingsmelding med forslag om å flytte forsyningsordren tilsvarende. Hvis forsyningsordrene dekker behovet for flere enn én ordre, tidsplanlegges forsyningsordren på nytt til datoen for det første behovet.|  
 |**Tidsplan. på nytt og endre ant.**|Hvis både datoene og antallene i en ordre er endret, må du endre planer med hensyn til begge deler. Handlingsmeldingssystemet samler begge handlingene i én melding, **Tidsplanl. på nytt og endre ant.**, for å sikre at balansen i ordrenettverket gjenopprettes.|  
-|**Kanseller**|Hvis et behov som har blitt dekket på en ordre-til-ordre-basis, slettes, genereres en handlingsmelding om å kansellere den aktuelle forsyningsordren. Hvis forholdet ikke er et ordre-til-ordre-forhold, genereres en handlingsmelding om å endre for å redusere forsyningen. Hvis det på grunn av andre faktorer, for eksempel lagerjusteringer, ikke er behov for en forsyningsordre når handlingsmeldingen genereres av brukeren, foreslår [!INCLUDE[prod_short](includes/prod_short.md)] handlingsmeldingen **Avbryt** i forslaget.|  
+|**Kanseller**|Hvis et behov som har blitt dekket på en ordre-til-ordre-basis, slettes, genereres en handlingsmelding om å kansellere den aktuelle forsyningsordren. Hvis forholdet ikke er et ordre-til-ordre-forhold, genereres en handlingsmelding om å endre for å redusere forsyningen. Hvis det på grunn av andre faktorer, for eksempel lagerjusteringer, ikke er behov for en forsyningsordre når handlingsmeldingen genereres av brukeren, foreslår [!INCLUDE[d365fin](includes/d365fin_md.md)] handlingsmeldingen **Avbryt** i forslaget.|  
 
 ## <a name="see-also"></a>Se også  
 [Planlegging](production-planning.md)  
@@ -112,7 +113,4 @@ Som følge av at forholdet mellom forsyning og behov ikke er i balanse, generere
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

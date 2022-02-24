@@ -1,21 +1,21 @@
 ---
-title: Konvertere servicekontrakter
-description: Dette emnet beskriver flere alternative metoder som du kan bruke for å konvertere servicekontrakter som inkluderer mva-beløp.
+title: Konvertere servicekontrakter | Microsoft-dokumentasjon
+description: Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrakter, må du konvertere disse kontraktene manuelt. Dette emnet beskriver flere alternative metoder som du kan bruke for servicekontraktkonvertering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436404"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2554791"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter som inkluderer mva-beløp
 Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrakter, må du konvertere disse kontraktene manuelt. Dette emnet beskriver flere alternative metoder som du kan bruke for servicekontraktkonvertering.  
@@ -29,7 +29,7 @@ Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrak
 >  I dette eksemplet må du endre arbeidsdatoen til 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Slik retter du opp en faktura for en forhåndsbetalt servicekontrakt:  
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontrakthåndtering**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontrakthåndtering**, og velg deretter den relaterte koblingen.  
 2. Velg **Servicekontrakter** under **Oversikter**.  
 3. Opprett en ny forhåndsbetalt servicekontrakt. Angi **01.01.2017** som startdato, og angi et fakturaperiodår for kunde **20000**.  
 4. Du signerer kontrakten ved å velge handlingen **Signer kontrakt**.  
@@ -68,6 +68,3 @@ Følgende fremgangsmåte beskriver hvordan du oppretter en ny kreditnota ved hje
 [Finans](finance.md)  
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

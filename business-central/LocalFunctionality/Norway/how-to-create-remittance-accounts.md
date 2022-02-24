@@ -1,25 +1,25 @@
 ---
-title: Opprett remitteringskontoer [NO]
-description: Følgende emne forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
+title: Opprette remitteringskontoer
+description: Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 854063888fd5fd1275030b37b9d8aadc8533b3a2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7133c527b65faddc08b796bb6e4df9c50588e481
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435724"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181035"
 ---
-# <a name="create-remittance-accounts-in-the-norwegian-version"></a>Opprett remitteringskonti i den norske versjonen
+# <a name="create-remittance-accounts"></a>Opprette remitteringskontoer
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  
@@ -27,7 +27,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 ## <a name="to-create-a-remittance-account"></a>Slik oppretter du en remitteringskonto  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt** på siden **Remitteringskontokort**.  
 
@@ -48,7 +48,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
     |**Kontonr.**|Angi kontonummeret avhengig av hva du valgte i feltet **Kontotype**.|  
     |**Gebyrkontonr.**|Angi kontonummeret for gebyrkontoen.|  
     |**Avrunding/Avvikkontonr.**|Angi finanskontoen for å bokføre avviket som et resultat av avrunding.|  
-    |**Maks. avrunding/avvik (LV)**|Angi den maksimale avrundingen eller det maksimale avviket som godtas av avregningsreturen.|  
+    |**Maks. avrunding/avvik (NOK)**|Angi den maksimale avrundingen eller det maksimale avviket som godtas av avregningsreturen.|  
     |**Bilagsnr.serie**|Angi nummerserien som skal brukes når du bokfører betalinger ved hjelp av remitteringssystemet.|  
     |**Nytt bilag pr.**|Velg hvordan bilagene skal nummereres når du bokfører en betaling:<br /><br /> -   **Dato** - Nye bilag nummereres i henhold til datoen for når betalingen utføres.<br />-   **Leverandør** - Nye bilag nummereres i henhold til leverandør.|  
     |**Returkladd malnavn**|Angi finanskladdemalen som avregnede betalinger overføres til.|  
@@ -90,6 +90,3 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

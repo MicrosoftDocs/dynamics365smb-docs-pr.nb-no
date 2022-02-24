@@ -1,28 +1,28 @@
 ---
-title: Endre årlig beløp på servicekontrakter eller kontrakttilbud
+title: Endre årlig beløp på servicekontrakter eller kontrakttilbud | Microsoft-dokumentasjon
 description: Du kan endre beløpet som vil bli fakturert årlig for servicekontrakten eller servicekontrakttilbud.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436454"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402562"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Endre årlig beløp på servicekontrakter eller kontrakttilbud
 Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Slik endrer du årlig beløp på servicekontrakten eller kontrakttilbudet  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg kontrakten eller kontrakttilbudet.  
 3. Velg handlingen **Åpne kontakt** for å åpne kontrakten eller kontrakttilbudet for redigering.  
 4. Merk av for **Tillat beløp som ikke er i balanse** hvis du vil endre årlig beløp og fordele differansen i årlig beløp manuelt på kontraktlinjene. Hvis ikke, fjerner du merket for å fordele differansen i årlig beløp automatisk på kontraktlinjene når du har endret årlig beløp.  
@@ -150,6 +150,3 @@ Til slutt viser kontraktlinjene disse dataene.
 ## <a name="see-also"></a>Se også  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

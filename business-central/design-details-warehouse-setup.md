@@ -1,59 +1,57 @@
 ---
-title: Designdetaljer – Lageroppsett
-description: Lagerfunksjonaliteten inneholder forskjellige typer kompleksitet, som stort sett defineres av oppsettet for hyllen på lokasjonskort.
+title: Designdetaljer – Lageroppsett | Microsoft-dokumentasjon
+description: Lagerfunksjonaliteten i Business Central inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 06/04/2020
+ms.author: sgroespe
+ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325163"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435234"
 ---
 # <a name="design-details-warehouse-setup"></a>Designdetaljer: Lageroppsett
 
-Lagerfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen. I tillegg styrer programobjektene i lisensen hvilke brukergrensesnittdokument som skal brukes for de støttede lageraktivitetene.  
-<!--
-The following warehouse-related granules exist:  
+Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen. I tillegg styrer programobjektene i lisensen hvilke brukergrensesnittdokument som skal brukes for de støttede lageraktivitetene.  
 
-- Basic Inventory (4010)  
-- Bin (4170)  
-- Put Away (4180)  
-- Warehouse Receipt (4190)  
-- Pick (4200)  
-- Warehouse Shipment (4210)  
-- Warehouse Management Systems (4620)  
-- Internal Picks and Put-aways (4630)  
-- Automated Data Capture System (4640)
-- Bin Setup (4660)  
+Følgende lagerrelaterte granuler finnes:  
 
-For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
+- Grunnleggende lagerbeholdning (4010)  
+- Hylle (4170)  
+- Plassere (4180)  
+- Lagermottak (4190)  
+- Plukk (4200)  
+- Lagerlevering (4210)  
+- Lagerstyringssystemer (4620)  
+- Interne plukk og plasseringer (4630)  
+- Automatisk datafangstsystem (4640)
+- Hylleoppsett (4660)  
 
-Tabellen nedenfor viser hvilke granuler som kreves for å kunne definere ulike kompleksitetsnivåer for lager, hvilke grensesnittdokumenter som støtter hvert nivå, og hvilke lokasjonskoder som gjenspeiler disse nivåene i [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrasjonsdatabasen.  
+Du finner mer informasjon om hver granulen i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](https://go.microsoft.com/fwlink/?LinkId=238341) (krever PartnerSource-konto).  
 
-[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+Tabellen nedenfor viser hvilke granuler som kreves for å kunne definere ulike kompleksitetsnivåer for lager, hvilke grensesnittdokumenter som støtter hvert nivå, og hvilke lokasjonskoder som gjenspeiler disse nivåene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrasjonsdatabasen.  
 
-|Kompleksitetsnivå|Beskrivelse|Grensesnittdokument|Eksempel lokasjon|Minimum granulenkrav|  
+|Kompleksitetsnivå|Description|Grensesnittdokument|CRONUS-lokasjon|Minimum granulenkrav|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Ingen dedikert lageraktivitet.<br /><br /> Mottaks-/leveringsbokføring fra ordrer.|Bestilling|BLÅ|Grunnleggende lagerbeholdning|  
 |2|Ingen dedikert lageraktivitet.<br /><br /> Mottaks-/leveringsbokføring fra ordrer.<br /><br /> Hyllekode kreves.|Ordre, med hyllekode|SØLV|Grunnleggende lagerbeholdning / hylle|  
 |3 <br /><br /> **Merk**: Selv om innstillingene kalles **Plukk nødv.** og **Plassering nødv.**, kan du bokføre mottak og leveringer direkte fra kildedokumenter for firma på lokasjoner der du velger disse avmerkingsboksene.|Grunnleggende lageraktiviteten, ordre for ordre.<br /><br /> Mottaks-/leveringsbokføring fra lagerplasserings-/plukkdokumenter. <br /><br /> Hyllekode kreves.|Lagerplassering / Lagerflytting / Lagerplukk med hyllekode|(SØLV + Plassering nødv. eller Plassering nødv.)|Grunnleggende lagerbeholdning / hylle / plassering / plukk|  
 |4|Avansert lageraktivitet, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.|Lagermottak/Plassering/Plukk/Lagerlevering/Plukkforslag|GRØNN|Grunnleggende lagerbeholdning / lagermottak / plassering / plukk / lagerlevering|  
 |5|Avansert lageraktivitet, for flere ordrer.<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer.<br /><br /> Hyllekode kreves.|Lagermottak/Plassering/Plukk/Lagerlevering/Plukkforslag/Plasseringsforslag, med hyllekode|(GRØNN + Hylle obligatorisk)|Grunnleggende lagerbeholdning / hylle / lagermottak / plassering / plukk / lagerlevering|  
-|6 <br /><br /> **Obs**! Dette nivået kalles «LA», siden det krever den mest avanserte granulen, Lagerstyringssystem.|Avansert lageraktivitet, for flere ordrer<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer<br /><br /> Hyllekode kreves.<br /><br /> Sone-/klassekode er valgfri.<br /><br /> Lagermedarbeidere følger arbeidsflyten<br /><br /> Planlegg etterfylling av hylle<br /><br /> Hylleprioritering<br /><br /> Hylleoppsett etter kapasitet<br /><br /> Plasseringsoptimalisering  <!-- Hand-held device integration -->|Lagermottak/Plassering/Plukk/Lagerlevering/Lagerflytting/Plukkforslag/Plasseringsforslag/Intern. Plukk/Intern plassering, med hylle/klasse/sone-kode<br /><br /> Ulike forslag for hyllehåndtering<br /><br /> ADFS-skjermer|KR.SAND|Grunnleggende lagerbeholdning / hylle / plassering / lagermottak / plukk / lagerlevering / lagerstyringssystemer / interne plukk og plasseringer / hylleoppsett /<!-- Automated Data Capture System/ -->Hylleoppsett|  
+|6 <br /><br /> **Obs**: Dette nivået kalles "LA", siden det krever den mest avanserte granulen, Lagerstyringssystem.|Avansert lageraktivitet, for flere ordrer<br /><br /> Konsoliderte mottaks-/leveringspostering basert på lagerplassering/plukkregistreringer<br /><br /> Hyllekode kreves.<br /><br /> Sone-/klassekode er valgfri.<br /><br /> Lagermedarbeidere følger arbeidsflyten<br /><br /> Planlegg etterfylling av hylle<br /><br /> Hylleprioritering<br /><br /> Hylleoppsett etter kapasitet<br /><br /> Plasseringsoptimalisering  <!-- Hand-held device integration -->|Lagermottak/Plassering/Plukk/Lagerlevering/Lagerflytting/Plukkforslag/Plasseringsforslag/Intern. Plukk/Intern plassering, med hylle/klasse/sone-kode<br /><br /> Ulike forslag for hyllehåndtering<br /><br /> ADFS-skjermer|KR.SAND|Grunnleggende lagerbeholdning / hylle / plassering / lagermottak / plukk / lagerlevering / lagerstyringssystemer / interne plukk og plasseringer / hylleoppsett /<!-- Automated Data Capture System/ -->Hylleoppsett|  
 
 Hvis du vil se eksempler på hvordan grensesnittdokumentene brukes for hvert kompleksitetsnivå for lageret, kan du se [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md).  
 
 ## <a name="bin-and-bin-content"></a>Hylle og hylleinnhold
 
-En hylle er en lagringsenhet som er utformet for å inneholde atskilte deler. Dette er den minste beholderenheten i [!INCLUDE[prod_short](includes/prod_short.md)]. Vareantall i hyller kalles hylleinnhold. Et oppslag fra **Vare**-feltet eller **Hyllekode**-feltet på en hvilken som helst lagerrelatert dokumentlinjen viser beregnet tilgjengeligheten for varen på hyllen.  
+En hylle er en lagringsenhet som er utformet for å inneholde atskilte deler. Dette er den minste beholderenheten i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Vareantall i hyller kalles hylleinnhold. Et oppslag fra **Vare**-feltet eller **Hyllekode**-feltet på en hvilken som helst lagerrelatert dokumentlinjen viser beregnet tilgjengeligheten for varen på hyllen.  
 
 Et hylleinnhold kan gis egenskapen for Fast, Dedikert eller Standard for å angi hvordan hylleinnholdet kan brukes. Hyller med ingen av disse egenskapene kalles flytende hyller.  
 
@@ -141,6 +139,3 @@ Plasseringsmalen kan tilordnes til en vare og en lokasjon. Plasseringsmalen angi
 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

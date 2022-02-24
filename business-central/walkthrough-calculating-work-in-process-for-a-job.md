@@ -1,25 +1,25 @@
 ---
-title: Gjennomgang – beregne varer i arbeid for et prosjekt
-description: Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover.
+title: Gjennomgang – beregne varer i arbeid for et prosjekt | Microsoft-dokumentasjon
+description: Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 06/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588104"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527911"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
 
 Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
 
@@ -38,7 +38,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
  I denne gjennomgangen brukes Marie (medlem i prosjektgruppen) som rollefiguren.  
 
 ## <a name="prerequisites"></a>Forutsetninger  
- Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[prod_short](includes/prod_short.md)] være installert på datamaskinen.  
+ Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[d365fin](includes/d365fin_md.md)] være installert på datamaskinen.  
 
 ## <a name="story"></a>Hovedscenario  
  Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet i CRONUS er prosjektorientert og Marie, et prosjektgruppemedlem, bruker prosjekter til å ha oversikt over hvert pågående prosjekt som CRONUS har startet, og også prosjekter som er fullført. Noen av prosjektene kan være svært lange og kan kjøre over måneder. Marie kan bruke en VIA-konto til å registrere varer i arbeid og spore kostnadene i hele prosjektet.  
@@ -52,7 +52,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 |Felt|Beskrivelse|  
 |-------------------------------------|---------------------------------------|  
-|**\<blank\>**|La stå tomt hvis jobb-aktiviteten er en del av en gruppe med aktiviteter.|  
+|**<blank>**|La stå tomt hvis jobb-aktiviteten er en del av en gruppe med aktiviteter.|  
 |**I alt**|Definerer området eller gruppen med aktiviteter som er inkludert i beregningen av VIA og føringer. Alle prosjektoppgaver med **Prosjektoppgavetype** satt til **Bokføring** i gruppen, tas med i VIA-summen, med mindre feltet **VIA-sum** er satt til **Utelatt**.|  
 |**Utelatt**|Gjelder bare for en oppgave der **Prosjektoppgavetype** er **Bokføring**. Oppgaven er ikke inkludert ved beregning av VIA og føring.|  
 
@@ -60,7 +60,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### <a name="to-calculate-wip"></a>Slik beregner du VIA:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
 2.  I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **Rediger**-handlingen. Dermed åpnes prosjektkortet i redigeringsmodus.  
 
      VIA kan beregnes basert på Kostverdi, Salgsverdi, Løpende eller Ved avslutning. I dette eksemplet bruker CRONUS metoden Kostverdi.  
@@ -92,7 +92,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### <a name="to-review-wip-warnings"></a>Se gjennom VIA-advarsler  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet **Klepp Datakontor A/S**, og velg deretter handlingen **Vis advarsler**.  
 3.  Se gjennom advarselen som er knyttet til prosjektet, på siden **VIA-advarsler for prosjekt**.  
 
@@ -156,14 +156,11 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
     >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan hun tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
 
 ## <a name="next-steps"></a>Neste trinn  
- Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[prod_short](includes/prod_short.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
+ Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[d365fin](includes/d365fin_md.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
 
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)   
  [Forstå VIA-metoder](projects-understanding-wip.md)   
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

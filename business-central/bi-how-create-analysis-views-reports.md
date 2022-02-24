@@ -3,19 +3,19 @@ title: Opprette analyserapporter | Microsoft-dokumentasjon
 description: Beskriver hvordan du oppretter nye analyserapporter for salg, kjøp og beholdning, og definerer analysemaler.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437054"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186095"
 ---
 #  <a name="create-analysis-reports"></a>Opprette analyserapporter
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi.  
@@ -41,11 +41,11 @@ Deretter kan du definere kolonner som disse:
 - Salg i prosent forrige måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett  
- På siden **Analyserapport** kan du vise ulike linje- og kolonneoppsett i henhold til linjene eller linjemalene du definerer på siden **Maler for analyselinje**. Du kan definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. Du kan definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
+ På **Analyserapport**-siden kan du vise forskjellige linje- og kolonneoppsett i henhold til hva du har definert. Du definerer linjer eller linjemaler på siden **Maler for analyselinje**. På denne siden kan du definere navnet på rapporten og objektene du vil vise på linjene i rapporten. Du definerer kolonnene dine på siden **Maler for analysekolonne**. På denne siden kan du definere navnet på kolonnemalen og analyseparameterne du vil vise som kolonner i rapporten. Hver linje representerer en kolonne i rapporten på siden **Maler for analysekolonne**. Merk at analyselinjer og analysekolonner er uavhengige av hverandre.  
 
-Basert på linjene og kolonnene du har definert, vil [!INCLUDE[prod_short](includes/prod_short.md)] samle resultatene av rapporten på siden **Analyserapport**, som vist i tabellen nedenfor.  
+Basert på linjene og kolonnene du har definert, vil programmet samle resultatene av rapporten på matrisesiden **Analyserapport**, for eksempel slik som i dette eksemplet:  
 
-|- |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
+| |Salg inneværende måned|Salg forrige måned|Salg i prosent forrige måned|  
 |-|-|-|-|  
 |Datamaskiner| | | |  
 |Skjermer| | | |  
@@ -61,7 +61,7 @@ I en analyserapport vises analyseparameterne som kolonner. Du kan definere kolon
 
 En mal består av et sett med linjer som representerer analysekolonnene du ser i analyserapporten. For å kunne definere en kolonne må du tilordne en analysetypekode til en linje. Denne analysetypekoden bestemmer typen kildedata i varepostene som analysen baseres på. Kildedataene inkluderer kostnader, salgsbeløp eller antall, og deres tilknyttede verdiposter. Du kan definere så mange kolonnemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskolonnemaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgskolonne**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Kolonner**.  
 4. Fyll ut feltene for å angi hvilke kolonner du vil inkludere i analyserapporten på siden **Analysekolonner**.  
@@ -78,7 +78,7 @@ I en analyserapport vises analyseobjektene på linjene. Du kan definere linjene 
 
 En mal består av et sett med linjer som representerer analyselinjene du ser i analyserapporten. En linje kan angi én eller flere varer, kunder, leverandører eller grupper. Du kan også opprette en formel på en linje for å summere de andre linjene. Du kan definere så mange linjemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgslinjemaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Maler for salgslinje**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
 3. Velg handlingen **Linjer**.  
 4. Opprett linjer for varene, kundene, leverandørene eller selgerne du vil vise tall for i analyserapporten, på **Analyselinje**-siden. Du må fylle ut feltene **Type**, **Fra/til** og **Beskrivelse**.  
@@ -91,7 +91,7 @@ Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåte
 
 Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til viktige indikatorer for salgsprestasjon du velger, for eksempel salgsomsetning i både beløp og antall, bidragsmargin eller fremdrift for faktisk salg mot budsjettet. Du kan også bruke rapporten til å analysere gjennomsnittlig salgspris og evaluere salgsprestasjonen for salgskorpset.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsanalyserapporter**, og velg deretter den relaterte koblingen.  
 2. På siden **Analyserapport - salg** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Rediger analyserapport**.
@@ -105,7 +105,4 @@ Du kan bruke analyserapporter til å analysere dynamikken for salg i forhold til
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

@@ -1,21 +1,20 @@
 ---
-title: Reklassifiser aktiva
+title: Reklassifisere aktiva | Microsoft-dokumentasjon
 description: Du reklassifiserer et aktivum for å overføre det til en annen avdeling, dele det opp eller kombinere det med andre aktiva.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5638, 5636, 5640, 5637
-ms.date: 04/01/2021
+ms.date: 06/04/2020
 ms.author: edupont
-ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 0232ef89cd708c33d1db716a337edc8cb97c58d3
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029225"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435186"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Overføre, dele opp eller kombinere aktiva
 
@@ -27,12 +26,12 @@ Du må kanskje overføre et aktiva til en annen avdeling når for eksempel du pl
 
 1. Definer et nytt aktiva. Angi den nye avdelingen som en dimensjon.  
 2. Tilordne et avskrivningstablå for aktiva til det nye aktivaet. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).
-3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
 4. Opprett en kladdelinje der **Aktivanr.**-feltet inneholder det opprinnelige aktivumet, og **Nytt aktivanr.**-feltet inneholder det nye aktivumet som skal flyttes. Fyll ut de andre feltene hvis det er aktuelt.  
 5. Velg handlingen **Reklassifiser**.
 
     To linjer opprettes nå i aktivafinanskladden ved hjelp av malen og kladden du oppgav for det angitte avskrivningstablået, på siden **Aktivakladdoppsett**. Hvis du vil ha mer informasjon, kan du se [Definere avskriving av aktiva](fa-how-setup-depreciation.md).
-6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.    
+6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.    
 7. På **Aktiva finanskladd**-siden velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 4 og 5.
 
 Hvis du har bokført en anskaffelseskost for ett aktiva, kan du bruke reklassifiseringskladden for aktiva til å dele anskaffelseskosten på flere aktiva.  
@@ -42,7 +41,7 @@ Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et 
 
 1. Definer to nye aktiva. Angi de relevante avdelingene som dimensjoner.  
 2. Tilordne avskrivningstablåer for aktiva til de nye aktivaene. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).
-3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
 4. Opprett to reklassifiseringskladdelinjer, én for hvert nye aktiva.
 5. På den første linjen kan du angi det andre aktivaet i feltet **Nytt aktivanr.** og 25 i feltet **Reklass.anskaff.kost %**.
 6. På den andre linjen kan du angi det tredje aktivaet i feltet **Nytt aktivanr.** og 40 i feltet **Reklass.anskaff.kost %**.
@@ -50,36 +49,33 @@ Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et 
 8. Velg handlingen **Reklassifiser**.  
 
     To linjer opprettes nå i aktivafinanskladden ved hjelp av malen og kladden du oppgav for det angitte avskrivningstablået, på siden **Aktivakladdoppsett**. Hvis du vil ha mer informasjon, kan du se [Definere avskriving av aktiva](fa-how-setup-depreciation.md).    
-9. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.
+9. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.
 10. På **Aktiva finanskladd**-siden velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 4 til 8.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Slik kombinerer du to aktiva til en:
 
 Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distribuerte aktiva til én avdeling. Hvis du har bokført anskaffelseskostnader og avskrivning for aktivaet som skal flyttes, kombineres disse verdiene i ett aktiva.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Reklassifiseringskladder for aktivum**, og velg deretter den relaterte koblingen.
 2. Opprett en reklassifiseringskladd der **Aktivanr.**-feltet inneholder aktivaet som skal flyttes/kombineres, og **Nytt aktivanr.**-feltet inneholder aktivaet som det skal kombineres med.
 3. La **Reklass.anskaff.kost %**-feltet stå tomt for å flytte/kombinere hele anskaffelseskosten.  
 4. Merk av for **Reklass.anskaffelseskost** og **Reklass.avskrivning**.
 5. Velg handlingen **Reklassifiser**.
 
     To linjer opprettes nå i aktivafinanskladden ved hjelp av malen og kladden du oppgav for det angitte avskrivningstablået, på siden **Aktivakladdoppsett**. Hvis du vil ha mer informasjon, kan du se [Definere avskriving av aktiva](fa-how-setup-depreciation.md).   
-6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladder** og velger den relaterte koblingen.
+6. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktiva finanskladd**, og velg deretter den relaterte koblingen.
 7. På **Aktiva finanskladd**-siden velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 2 til 5.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Slik viser du endret avskrivningstablåverdier på grunn av aktivareklassifisering:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva – bokført verdi 02**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokført verdi 02 for aktivum**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.  
 
 ## <a name="see-also"></a>Se også
 
-[Aktiva](fa-manage.md)  
+[Anleggsmidler](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Komme i gang](product-get-started.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

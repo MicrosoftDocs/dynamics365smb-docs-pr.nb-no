@@ -1,21 +1,21 @@
 ---
-title: Forstå montere til ordre og montere til lager
+title: Forstå montere til ordre og montere til lager | Microsoft-dokumentasjon
 description: Monteringsvarer kan leveres ved å montere dem når de bestilles, eller ved å montere dem og beholde dem på lageret før de er nødvendig i en ordre.
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/15/2021
-ms.author: bholtorf
-ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011181"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186815"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
@@ -70,34 +70,22 @@ Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk o
 
  Et eksempel på hvorfor du kan ønske å endre antallet som skal monteres, er at du vil bokføre levering av lagerantall delvis før monteringsavgangen kan leveres.  
 
- Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
+ Følgende forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi manuelt i **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
 
-- Ordrelinje
+||Ordrelinje|Monteringsordrehode|  
+|-|----------------------|---------------------------|  
+||**Antall**|**Levere (antall)**|**Ant. som skal monteres til ordre**|**Levert (antall)**|**Antall**|**Antall å montere**|**Montert antall**|**Restantall**|  
+|Første|10|7|7|0|7|7|0|7|  
+|Endre||4||||4 (satt inn som standard)|||  
 
-    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Opprinnelig verdi**| 10          | 7                | 7                             | 0                    |
-    |**Endring**      |              | 4                |                               |                      |
+ Basert på situasjonen ovenfor kan du bare endre feltet **Antall å montere** som vist nedenfor:  
 
-- Monteringsordrehode
+-   Minimumsantallet du kan angi, er 1. Dette er fordi du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
+-   Maksimumsantallet du kan angi, er 4. Dette sikrer at du ikke monterer flere montere-til-varer enn det som trengs på salget.  
 
-    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Opprinnelig verdi**| 7           | 7                | 0                             | 7                    |
-    |**Endring**      |              | 4 (satt inn som standard)|                         |                      |
-
-Basert på dette eksempelet ovenfor kan du bare endre feltet **Antall å montere** som vist nedenfor:  
-
-- Minimumsantallet du kan angi, er 1. Dette er fordi du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
-- Maksimumsantallet du kan angi, er 4. Dette sikrer at du ikke monterer flere montere-til-varer enn det som trengs på salget.  
-
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

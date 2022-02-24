@@ -1,50 +1,42 @@
 ---
-title: Sertifiseringer for tjenesten
-description: Dette innholdet inneholder informasjon om sertifiseringer i forbindelse med Business Central, for eksempel områdespesifikke sertifiseringer og akkrediteringer.
+title: Sertifiseringer | Microsoft-dokumentasjon
+description: Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373190"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185951"
 ---
-# <a name="certifications"></a>Sertifiseringer
+# <a name="certifications"></a>Sertifiseringer  
+Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)].  
-
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Land/område-spesifikke sertifiseringer og akkrediteringer
-
-I noen land eller områder må regnskapsprogramvare sertifiseres for å overholde lokale mva-bestemmelser og økonomiske krav. Enkelte land har dette som et årlig gjentakende krav og andre som et engangskrav. Nedenfor finner du en oversikt over de gjeldende landene/områdene der Business Central har oppnådd sertifiseringer.
-
-> [!NOTE]
-> Bare enkelte land har dette kravet.
-
-- Frankrike (avgiftsovervåkingssertifisering) [(søk etter produktnavnet på https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
-- Tyskland (dekker også Østerrike og Sveits) [(kobling til sertifisering på tysk)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
+## <a name="country-certifications-and-accreditations"></a>Landssertifisering og akkrediteringer
+I noen land må regnskapsprogramvare sertifiseres for å overholde lokale mva-bestemmelser og økonomiske krav. Enkelte land utfører dette som et årlig gjentakende krav og andre som et engangskrav. Nedenfor finner du en oversikt over de gjeldende landene der Business Central har oppnådd sertifiseringer. Vær oppmerksom på at bare enkelte land har dette kravet.  
+- Frankrike (skatterevideringssertifisering) [(kobling til sertifisering på fransk)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
+- Tyskland (dekker også Østerrike og Sveits) [(kobling til sertifisering på tysk)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  
-> I land/områder der Microsoft ikke gir ut en lokal versjon, er det vanligvis opp til partnerne å oppnå sertifisering for Business Central-basisproduktet, inkludert partnerens lokaliserings- og lovmessige funksjoner oppå.
+>  **Sertifiseringer i land der Microsoft ikke frigir lokaliserte versjoner**  
+> I land der Microsoft ikke gir ut en lokal versjon, er det vanligvis opp til partnerne å oppnå sertifisering for Business Central-basisproduktet, inkludert partnerens lokaliserings- og lovmessige funksjoner oppå.
 
-## <a name="other-certifications"></a>Andre sertifiseringer
-
+## <a name="other-certifications"></a>Andre sertifiseringer  
 Business Central som en skytjeneste har også oppnådd sertifiseringer som ISO 27001 og så videre. Hvis du vil se en fullstendig oversikt over disse sertifiseringene, kan du se [denne siden (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  
 [Servicesamsvar](compliance-service-compliance.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ 

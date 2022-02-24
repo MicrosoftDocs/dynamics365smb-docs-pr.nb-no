@@ -1,25 +1,25 @@
 ---
-title: Gjennomgang – planlegge forsyninger manuelt
-description: Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov, inkludert planlegging av bestillinger, overføringer og produksjonsordrer.
+title: Gjennomgang – Planlegge forsyninger manuelt | Microsoft-dokumentasjon
+description: Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438996"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876970"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+**Merk**: Denne gjennomgangen må utføres i et demoselskap med alternativet **Full evaluering - Fullfør eksempeldata**, som er tilgjengelig i Sandbox-miljøet. Hvis du vil ha mer informasjon, kan du se [Opprette et sandkassemiljø](across-how-create-sandbox-environment.md).
 
 Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen. I denne gjennomgangen skal du bruke siden **Ordreplanlegging**, som er et enkelt verktøy for forsyningsplanlegging som er basert på manuell beslutningstaking i stedet for parameterbasert automatisk planlegging.  
 
@@ -38,10 +38,10 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 -   Ordrebehandler  
 
 ## <a name="prerequisites"></a>Forutsetninger  
- Før du begynner med denne gjennomgangen, må du installere [!INCLUDE[prod_short](includes/prod_short.md)]. Du må gjøre følgende endringer i databasen:  
+ Før du begynner med denne gjennomgangen, må du installere [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du må gjøre følgende endringer i databasen:  
 
 -   Slett alle eksisterende ordrer for sykler.  
--   Opprett én ordre for ti sykler i ØST.  
+-   Opprett én ordre for ti sykler i OSLO.  
 -   Slett alle planlagte og fast planlagte produksjonsordrer. Ikke slett påbegynte ordrer med poster som allerede er bokført.  
 
  Som en regel bruker du de foreslåtte dataene i denne gjennomgangen siden disse dataene har de nødvendige postene.  
@@ -67,7 +67,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
 ### <a name="to-use-the-order-planning-page"></a>Slik bruker du siden Ordreplanlegging:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bestillingsplanlegging**, og velg deretter den relaterte koblingen.  
 
      Når siden **Ordreplanlegging** åpnes for første gang, må en plan beregnes for å vise det nye behovet siden det sist ble beregnet.  
 
@@ -148,7 +148,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 4.  Velg **OK**-knappen for å bestille de ti varene som er tilgjengelige.  
 
     > [!NOTE]  
-    >  På behovslinjen er det foreslåtte kjøpet erstattet med en en overføring fra lokasjonen HOVED. Funksjonen **Lag bestillinger** oppretter en overføringsordre fra HOVED til den etterspurte lokasjonen. **Erstatning finnes**-feltet fungerer på samme måte.  
+    >  På behovslinjen er det foreslåtte kjøpet erstattet med en en overføring fra lokasjonen GRØNN. Funksjonen **Lag bestillinger** oppretter en overføringsordre fra GRØNN til den etterspurte lokasjonen. **Erstatning finnes**-feltet fungerer på samme måte.  
 
 5.  Velg handlingen **Lag bestillinger**. Siden **Lag forsyningsordrer** åpnes.  
 6.  På hurtigfanen **Ordreplanlegging**, i feltet **Lag ordrer for**, velger du alternativet **Den aktive ordren**.  
@@ -225,13 +225,10 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Meldingen angir at alle nødvendige varer nå er forsynt. Kontroller de fast planlagte produksjonsordrene som opprettes.  
 
-13. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
+13. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Fast planlagte prod.ordrer**, og velg deretter den relaterte koblingen.  
 
      Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, på siden **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
 
 ## <a name="see-also"></a>Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
-<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Gjennomgang: planlegge forsyninger automatisk](walkthrough-planning-supplies-automatically.md)

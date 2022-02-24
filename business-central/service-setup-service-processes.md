@@ -3,19 +3,19 @@ title: Definere prosesser for servicehåndtering | Microsoft-dokumentasjon
 description: Lær hvordan du konfigurerer prosesser som sørger for at kundene dine er tilfreds med kundeservicen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192301"
 ---
 # <a name="configure-service-processes"></a>Konfigurere serviceprosesser
 Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsprosessene:  
@@ -27,7 +27,7 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 * Nummerserier for servicerelaterte dokumenter og varer.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Se også  
@@ -37,6 +37,3 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 [Definere ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  
 [Definere feilsøking](service-how-setup-troubleshooting.md)  
 [Servicebehandling](service-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

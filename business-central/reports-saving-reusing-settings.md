@@ -1,63 +1,58 @@
 ---
-title: Behandle lagrede innstillinger for rapporter og satsvise jobber
-description: Beskriver hvordan administratoren kan konfigurere forhåndsdefinerte alternativer og filtre for en rapport og dele disse innstillingene med én eller alle brukerne.
+title: Bruke og endre lagrede innstillinger i rapporter | Microsoft-dokumentasjon
+description: Beskriver hvordan du bruker forhåndsdefinerte alternativer og filtre til å tilpasse rapporter og generere riktige data.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/21/2021
-ms.author: edupont
-ms.openlocfilehash: 289603bcfb11b50711a854c355a99781a8e77264
-ms.sourcegitcommit: 8837ed2aeb454806e153145c675cf049a020ea38
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4c43429e4436400dc9e3b991b9ccca59a439372a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944076"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191886"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
-
-Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles *forespørselssiden*. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke standardverdier – forhåndsdefinerte innstillinger](ui-work-report.md#SavedSettings).
+Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles forespørselssiden. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
-> Dette emnet refererer til *rapporter*, men lignende informasjon gjelder for *kjørsler*.
+> Dette emnet dreier seg hovedsakelig om "rapport", men lignende informasjon gjelder kjørsler.
 
 Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innstillingene for alle rapporter for alle brukere i et selskap. Du kan tilordne lagrede innstillingene for en rapport til enkeltbrukere eller til alle brukerne i selskapet.
 
-## <a name="manage-saved-settings"></a>Administrere lagrede innstillinger
+<!--
+## Apply saved settings to a report
+1. Open the report.
 
+   The request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
+
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Opprette og endre lagrede innstillinger for alle brukere
 Du kan administrere lagrede innstillinger på siden **Rapportinnstillinger**. Det er to måter å åpne en side på:
+-   Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
+-   Åpne en rapport, velg oppslag i feltet **Bruk standardverdi fra:**, og velg handlingen **Velge fra hele listen**.
 
-- Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportinnstillinger**, og velg deretter den relaterte koblingen.
-- På forespørselssiden for en rapport velger du oppslaget i feltet **Bruk standardverdi fra** og deretter handlingen **Velg fra hele listen**.
-
-    Dette feltet vises bare hvis du har kjørt rapporten minst én gang tidligere. Listen viser bare innstillinger som er tilgjengelige for deg, enten fordi de er dine egne innstillinger, eller fordi de deles med deg.
-
-**Rapportinnstillinger**-siden viser alle eksisterende lagrede innstillinger for alle brukere. Hvis det er et brukernavn i feltet **Tilordnet**, kan bare den brukeren bruke innstillingene som er lagret for den tilknyttede rapporten. Hvis det er en hake i feltet **Del med alle brukerne**, kan alle brukere bruke innstillingene som er lagret i rapporten.  
-
-> [!TIP]
-> Når en bruker har kjørt en rapport som støtter delte innstillinger, blir innstillingene lagret og lagt til i denne listen. Administratoren kan i de fleste tilfeller redigere disse innstillingene og deretter velge å dele dem med alle brukerne.
->
-> I noen tilfeller kan imidlertid innstillingene ikke deles, og administratoren kan heller ikke endre dem. De fleste kjørslene støtter ikke delte innstillinger.  
-
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Opprette eller endre lagrede innstillinger for alle brukere
+Siden viser alle eksisterende lagrede innstillinger for alle brukere. Hvis det er et brukernavn i feltet **Tilordnet**, kan bare den brukeren bruke innstillingene som er lagret for den tilknyttede rapporten. Hvis det er en hake i feltet **Del med alle brukerne**, kan alle brukere bruke innstillingene som er lagret i rapporten.
 
 Fra siden **Rapportinnstillinger**-siden kan du:
-
-- Velg handlingen **Ny** for å opprette en helt ny post med lagrede innstillinger.
-- Velg en post med lagrede innstillinger fra oversikten, og velg handlingen **Kopier** for å lage en kopi.
-- Velg en post med lagrede innstillinger fra oversikten, og velg handlingen **Rediger** for å endre en post med lagrede innstillinger.
+-   Velg handlingen **Ny** for å opprette en helt ny post med lagrede innstillinger.
+-   Velg en post med lagrede innstillinger fra oversikten, og velg handlingen **Kopier** for å lage en kopi.
+-   Velg en post med lagrede innstillinger fra oversikten, og velg handlingen **Rediger** for å endre en post med lagrede innstillinger.
 
 > [!Important]
 > Vurder navnet som du gir en post med lagrede innstillinger. Hvis du oppretter en post med lagrede innstillinger for alle brukere, og den har samme navn som en eksisterende post med lagrede innstillinger som er tilordnet en bestemt bruker, kan brukeren ikke bruke posten med lagrede innstillinger som er tilordnet til alle.  I delen **Lagrede innstillinger** på rapportforespørselssiden vil brukeren se to lagrede innstillingsposter med samme navn. Uansett hvilket alternativ som velges, vil imidlertid den brukerspesifikke posten med lagrede innstillingene bli brukt.
 
 > [!NOTE]
-> Funksjonen for å lagre innstillinger er bare tilgjengelig i rapporter der [SaveValues-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) for forespørselssiden i rapporten er satt til **Ja**. **SaveValues**-egenskapen angis av utvikleren.  
+> Funksjonen Lagrede innstillinger er bare tilgjengelig i rapporter der [SaveValues-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) for forespørselssiden er satt til **Ja**. **SaveValues**-egenskapen angis i utviklingsmiljøet.  
 
 ## <a name="see-also"></a>Se også
-
-[Arbeide med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  

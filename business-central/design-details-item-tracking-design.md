@@ -1,33 +1,36 @@
 ---
-title: Designdetaljer – Varesporingsutforming
-description: Dette emnet beskriver utformingen bak varesporing i Business Central etter hvert som de er modne for produktversjoner.
+title: Designdetaljer – Varesporingsutforming | Microsoft-dokumentasjon
+description: Dette emnet beskriver utformingen bak varesporing i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cda50dc7c3a0377c36f7bce4eca9c1c5cb5b093e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445023"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185063"
 ---
 # <a name="design-details-item-tracking-design"></a>Designdetaljer: Varesporingsutforming
+I den første versjonen av varesporing i [!INCLUDE[d365fin](includes/d365fin_md.md)] 2.60 ble serie- eller partinumre registrert direkte på vareposter. Denne utformingen ga fullstendig tilgjengelighetsinformasjon og enkel sporing av historiske poster, men den manglet fleksibilitet og funksjonalitet.  
 
-Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)] startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunksjonaliteten er i en separat objektstruktur med intrikate koblinger til bokførte dokumenter og vareposter, og den er integrert med reservasjonssystemet, som håndterer reservasjons-, ordresporings- og handlingsmeldinger. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljene for Forsyningsplanlegging.  
+Fra [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.00 var varesporingsfunksjonaliteten i en separat objektstruktur med kompliserte koblinger til bokførtedokumenter og vareposter. Denne utformingen var fleksibel og hadde mange funksjoner, men varesporingsposter ble ikke fullstendig tatt med i tilgjengelighetsberegninger.  
 
-Denne utformingen omfatter varesporingsposter i samlede tilgjengelighetsberegninger i hele systemet, inkludert planlegging, produksjon og lager. Serie- og partinumre brukes for vareposter for å sikre enkel tilgang til historiske data for varesporingsformål. Med lanseringsbølge 1 for 2021 omfatter varesporing i [!INCLUDE [prod_short](includes/prod_short.md)] pakkenumre.  
+Varesporingsfunksjonalitet har siden [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 vært integrert med reservasjonssystemet, som håndterer reservasjon, sporing og handlingsmeldinger. Hvis du vil ha mer informasjon, kan du se Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger i Designdetaljer: Forsyningsplanlegging.  
 
-Med tilføyelsen av serie-, parti- og pakkenumre håndterer reservasjonssystemet permanente vareattributter samtidig som det håndterer uregelmessige koblinger mellom forsyning og behov i form av sporingsposter og reservasjonsposter. Et annet ulikt kjennetegn på serie- eller partinumre sammenlignet med vanlige reservasjonsdata, er at de kan bokføres delvis eller fullstendig. **Reservasjonspost**-tabellen (T337) fungerer derfor nå med den tilknyttede **Sporingsspesifikasjon**-tabellen (T336), som behandler og viser summering på tvers av aktive og bokførte varesporingsantall. Hvis du vil ha mer informasjon, se [Designdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
+Denne nyeste utformingen omfatter varesporingsposter i samlede tilgjengelighetsberegninger i hele systemet, inkludert planlegging, produksjon og lager. Det gamle konseptet der du har serie- og partinumre i vareposter, gjeninnføres for å sikre enkel tilgang til historiske data for varesporingsformål. I forbindelse med varesporingsforbedringer i [!INCLUDE[d365fin](includes/d365fin_md.md)] 3.60 ble reservasjonssystemet utvidet til ikke-ordrenettverksenheter, for eksempel kladder, fakturaer og kreditnotaer.  
 
-Diagrammet nedenfor gir en oversikt over utformingen av varesporingsfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Med tilføyelsen av serie- eller partinumre håndterer reservasjonssystemet permanente vareattributter samtidig som det håndterer uregelmessige koblinger mellom forsyning og behov i form av sporingsposter og reservasjonsposter. Et annet ulikt kjennetegn på serie- eller partinumre sammenlignet med vanlige reservasjonsdata, er at de kan bokføres delvis eller fullstendig. **Reservasjonspost**-tabellen (T337) fungerer derfor nå med den tilknyttede **Sporingsspesifikasjon**-tabellen (T336), som behandler og viser summering på tvers av aktive og bokførte varesporingsantall. Hvis du vil ha mer informasjon, se [Designdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
 
-![Eksempel på varesporingsflyt.](media/design_details_item_tracking_design.png "Eksempel på varesporingsflyt")  
+Diagrammet nedenfor gir en oversikt over utformingen av varesporingsfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+![Eksempel på varesporingsflyt](media/design_details_item_tracking_design.png "Eksempel på varesporingsflyt")  
 
 Hovedbokføringsobjektet er omformet slik at det kan håndtere den unike underklassifiseringen av en dokumentlinje i form av serie- eller partinumre, og spesielle relasjonstabeller er lagt til for å opprette én-til-mange-relasjoner mellom bokførte dokumenter og de delte varepostene og verdipostene.  
 
@@ -40,8 +43,5 @@ Kodeenhet 22, **Varekld. – Posteringslinje**, deler nå posteringen i henhold 
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]  

@@ -1,29 +1,27 @@
 ---
-title: Behandle lagring ved å slette dokumenter eller komprimere data
-description: Lær hvordan du håndterer samling av historiske dokumenter (og reduser mengden med data som er lagret i en database) ved å slette eller komprimere dem.
+title: Administrere, slette eller komprimere dokumenter | Microsoft-dokumentasjon
+description: Behold dine historiske data, eller slett dem.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.form: 107, 9040
-ms.date: 06/14/2021
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: edd23c8dcb7e129446a8f3d0180fcd107d08fa02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 54cccb9df4daee3ad0811139dc2180d8a3072deb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011468"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186959"
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
-
+# <a name="manage-documents"></a>Administrere dokumenter
 En sentral rolle, for eksempel programadministrator, må regelmessig håndtere oppsamlede historiske dokumenter ved å slette eller komprimere dem.  
 
-> [!TIP]
-> Hvis du vil ha informasjon om andre måter å redusere mengden data som er lagret i en database på, kan du se [Redusere data som er lagret i Business Central-databaser ](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i dokumentasjonen for utviklere og IT-eksperter.
-
 ## <a name="delete-documents"></a>Slette dokumenter
-
-I enkelte situasjoner kan det hende du må slette fakturerte bestillinger som ikke allerede er slettet. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer at de slettede bestillingene er fullstendig fakturert. Du kan ikke slette bestillinger som ikke er fullstendig fakturert og mottatt.  
+I enkelte situasjoner kan det hende du må slette fakturerte bestillinger som ikke allerede er slettet. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer at de slettede bestillingene er fullstendig fakturert. Du kan ikke slette bestillinger som ikke er fullstendig fakturert og mottatt.  
 
 Ordrereturer slettes vanligvis etter at de er fakturert. Når du bokfører en faktura, overføres den til siden **Bokført kjøpskreditnota**. Hvis du merket av for **Returforsendelse i kreditnota** på **Kjøpsoppsett**-siden, overføres fakturaen til siden **Bokført returforsendelse**. Du kan slette dokumentene ved hjelp av kjørselen **Slett fakturerte best.returer**. Før du sletter, kontrollerer kjørselen om bestillingsreturer er fullstendig levert og fakturert.  
 
@@ -33,62 +31,5 @@ Fakturerte serviceordrer slettes vanligvis automatisk etter at de er fullstendig
 
 Serviceordrer slettes ikke automatisk hvis det totale antallet i ordren ikke er bokført fra selve serviceordren, men fra **Servicefaktura**-siden. Da må du kanskje slette fakturerte ordrer som ikke er slettet. Du kan gjøre dette ved hjelp av kjørselen **Slett fakturerte serviceordrer**.  
 
-## <a name="compress-data-with-date-compression"></a>Komprimere data med datokomprimering
-
-Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)] for å spare plass i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online til og med kan spare deg for penger. Komprimeringen er basert på datoer og fungerer ved å kombinere flere gamle poster til én ny post. 
-
-Du kan komprimere oppføringer under følgende betingelser:
-
-* De er fra avsluttede regnskapsår
-* **Åpen**-feltet settes til **Nei**. 
-* De er minst fem år gamle. Hvis du vil komprimere data som er mindre enn fem år gamle, kontakter du Microsoft-partneren din.
-
-Leverandørposter fra tidligere regnskapsår kan for eksempel komprimeres slik at det bare er én debet- og kreditpost per konto per måned. Beløpet i den nye posten blir summen av alle de komprimerte postene. Datoen settes til startdatoen for den perioden som komprimeres, for eksempel 1. dag i måneden, hvis det komprimeres pr. måned. Etter komprimeringen kan du fremdeles se bevegelsen på hver konto i foregående regnskapsår.
-
-Hvor mange poster det kommer ut av en datokomprimering, avhenger av hvor mange filtre du angir, hvilke felt som skal slås sammen, og hvilken periodelengde du velger. Det vil alltid være minst én post. Når kjørselen er ferdig, kan du se resultatet på siden **Datokomprim.journaler**.
-
-Du kan komprimere følgende typer data ved hjelp av kjørsler. Det finnes en kjørsel for hver datatype.
-
-* Finansposter – finansposter, mva-poster, bankkontoposter, finansbudsjettposter, kundeposter, leverandørposter.
-* Lagerposter 
-* Ressursposter
-* Varebudsjettposter
-* Aktiva – aktivaposter, vedlikeholdsposter for aktiva, forsikringsposter for aktiva.
-
-Når du definerer kriterier for komprimeringen, kan du bruke alternativene under **Behold feltinnhold** til å beholde innholdet i bestemte felter. Hvilke felter som er tilgjengelige, avhenger av hvilke data du komprimerer.
-
-> [!NOTE]
-> Før du kan kjøre datokomprimering, må analysevisningene være oppdatert. Hvis du vil ha mer informasjon, kan du se [Slik oppdaterer du en analysevisning](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
-
-Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (LV)**, **Restbeløp (LV)**, **Beløp (LV)**, **Kjøp (LV)**, **Fakturarabatt (LV)**, **Kont.rabatt gitt (LV)** og **Mulig kont.rabatt**.
-
-## <a name="posting-compressed-entries"></a>Bokføre komprimerte poster
-Komprimerte poster bokføres litt forskjellig fra standardbokføring. Dette er for å redusere antallet nye finansposter som opprettes ved hjelp av datokomprimering, og er spesielt viktig når du lagrer informasjon som dimensjoner og dokumentnumre. Datokomprimering oppretter nye oppføringer på følgende måte:
-* På siden **Finansposter** opprettes nye poster med nye postnumre for de komprimerte postene. **Beskrivelse**-feltet inneholder **Datokomprimert**, slik at de komprimerte postene er enkle å identifisere. 
-* På finanssider, for eksempel siden **Kundeposter**, opprettes det én eller flere poster med nye postnumre. 
-
-Bokføringsprosessen oppretter hull i nummerseriene for poster på siden **Finansposter**. Disse numrene tilordnes bare postene på finanssidene. Nummerintervallet som ble tilordnet til postene, er tilgjengelig på siden **Finansjournal** i feltene **Fra løpenr.** og **Til løpenr.** 
-
-> [!NOTE]
-> Når du har kjørt datokomprimering, låses alle kontoene i finans. Du kan for eksempel ikke oppheve utligning av leverandør- eller bankposter for noen konti i perioden der datoer er komprimert.
-
-Hvor mange poster det kommer ut av en datokomprimering, avhenger av hvor mange filtre du angir, hvilke felt som skal slås sammen, og hvilken periodelengde du velger. Det vil alltid være minst én post. 
-
-> [!WARNING]
-> Datokomprimering sletter poster, du bør derfor alltid ta en sikkerhetskopi av databasen før du starter kjørselen.
-
-### <a name="to-run-a-date-compression"></a>Slik kjører du en datokomprimering
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Dataadministrasjon**, og velg deretter den relaterte koblingen.
-2. Gjør ett av følgende:
-    * Hvis du vil bruke en veiledning for assistert oppsett til å definere datokomprimering for en eller flere typer data, velger du **Dataadministrasjonsveiledning**.
-    * Hvis du vil konfigurere komprimering for en enkelt type data, velger du **Datokomprimering**, **Komprimer poster** og velger deretter dataene som skal komprimeres.
-
-   > [!NOTE]
-   > Du kan bare komprimere data som er mer enn fem år gamle. Hvis du vil komprimere data som er mindre enn fem år gamle, kontakter du Microsoft-partneren din.
-
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Administrasjon](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

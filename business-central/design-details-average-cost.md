@@ -1,25 +1,24 @@
 ---
-title: Designdetaljer – Gjennomsnittskost
+title: Designdetaljer – Gjennomsnittskost | Microsoft-dokumentasjon
 description: Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt basert på gjennomsnittskostperioden som er definert i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 8645
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bcc33f3aabc41ca7b4bf383d5843e309350954d9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115095"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185735"
 ---
 # <a name="design-details-average-cost"></a>Designdetaljer: Gjennomsnittskost
-Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt basert på gjennomsnittskostperioden som er definert i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt basert på gjennomsnittskostperioden som er definert i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
  Verdisettingsdatoen angis automatisk.  
 
@@ -29,7 +28,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
 |**Gjennomsnittskostperiode**|Angir hvilken periode gjennomsnittskosten beregnes i. Følgende alternativer finnes:<br /><br /> -   **Dag**<br />-   **Uke**<br />-   **Måned**<br />-   **Regnskapsperiode**<br /><br /> Alle lagerreduksjoner som bokføres i gjennomsnittskostperioden, får gjennomsnittskosten beregnet for perioden.|  
-|**Beregn.type for gj.snittskost**|Angir hvordan gjennomsnittskosten beregnes. Følgende alternativer finnes:<br /><br /> -   **Vare**<br />-   **Vare, Variant og Lokasjon**<br /> Med dette alternativet beregnes gjennomsnittskosten for hver vare, for hver lokasjon og for hver variant av varen. Dette innebærer at gjennomsnittskosten for denne varen bestemmes av hvor den er lagret og hvilken variant du har valgt av varen, for eksempel farge.|  
+|**Beregn.type for gj.snittskost**|Angir hvordan gjennomsnittskosten beregnes. Følgende alternativer finnes:<br /><br /> -   **Vare**<br />-   **Vare, Variant og Lokasjon**<br />     Med dette alternativet beregnes gjennomsnittskosten for hver vare, for hver lokasjon og for hver variant av varen. Dette innebærer at gjennomsnittskosten for denne varen bestemmes av hvor den er lagret og hvilken variant du har valgt av varen, for eksempel farge.|  
 
 > [!NOTE]  
 >  Du kan bare bruke én gjennomsnittskostperiode og én beregningstype for gjennomsnittskost i et regnskapsår.  
@@ -56,37 +55,37 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Tabellen nedenfor viser varepostene for eksemplet på en gjennomsnittskostvare, VARE1, før kjørselen **Juster kostverdi – vareposter** er kjørt.  
 
-| **Bokføringsdato** | **Vareposttype** | **Antall** | **Kostbeløp (faktisk)** | **Postnr.** |
-|--|--|--|--|--|
-| 01.01.20 | Kjøp | 1 | 20.00 | 1 |
-| 01.01.20 | Kjøp | 1 | 40.00 | 2 |
-| 01.01.20 | Salg | -1 | -20,00 | 3 |
-| 01.02.20 | Salg | -1 | -40,00 | 4 |
-| 02.02.20 | Kjøp | 1 | 100,00 | 5 |
-| 03.02.20 | Salg | -1 | -100,00 | 6 |
+|**Bokføringsdato**|**Vareposttype**|**Antall**|**Kostbeløp (faktisk)**|**Postnr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01.01.20|Kjøp|1|20.00|1|  
+|01.01.20|Kjøp|1|40.00|2|  
+|01.01.20|Salg|-1|-20,00|3|  
+|01.02.20|Salg|-1|-40,00|4|  
+|02.02.20|Kjøp|1|100,00|5|  
+|03.02.20|Salg|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Fordi kostjustering ikke er utfør ennå, vil verdiene i feltet **Kostbeløp (faktisk)** for lager bli redusert tilsvarende lagerøkningene de utlignes mot.  
 
  Tabellen nedenfor viser postene i tabellen **Utgangspunkt for justering av gjennomsnittskost** som gjelder verdiposter som er et resultat av varepostene i tabellen ovenfor.  
 
-| **Varenr.** | **Variantkode** | **Lokasjonskode** | **Verdisettingsdato** | **Kost er justert** |
-|--|--|--|--|--|
-| VARE1 |  | BLÅ | 01.01.20 | Nei |
-| VARE1 |  | BLÅ | 01.02.20 | Nei |
-| VARE1 |  | BLÅ | 02.02.20 | Nei |
-| VARE1 |  | BLÅ | 03.02.20 | Nei |
+|**Varenr.**|**Variantkode**|**Lokasjonskode**|**Verdisettingsdato**|**Kost er justert**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|VARE1||BLÅ|01.01.20|Nei|  
+|VARE1||BLÅ|01.02.20|Nei|  
+|VARE1||BLÅ|02.02.20|Nei|  
+|VARE1||BLÅ|03.02.20|Nei|  
 
  Tabellen nedenfor viser de samme varepostene etter at kjørselen **Juster kostverdi - vareposter** er kjørt. Gjennomsnittskosten per dag beregnes og utlignes mot lagerreduksjonene.  
 
-| **Bokføringsdato** | **Vareposttype** | **Antall** | **Kostbeløp (faktisk)** | **Postnr.** |
-|--|--|--|--|--|--|
-| 01.01.20 | Kjøp | 1 | 20.00 | 1 |
-| 01.01.20 | Kjøp | 1 | 40.00 | 2 |
-| 01.01.20 | Salg | -1 | -30,00 | 3 |
-| 01.02.20 | Salg | -1 | -30,00 | 4 |
-| 02.02.20 | Kjøp | 1 | 100,00 | 5 |
-| 03.02.20 | Salg | -1 | -100,00 | 6 |
+|**Bokføringsdato**|**Vareposttype**|**Antall**|**Kostbeløp (faktisk)**|**Postnr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01.01.20|Kjøp|1|20.00|1|  
+|01.01.20|Kjøp|1|40.00|2|  
+|01.01.20|Salg|-1|-30,00|3|  
+|01.02.20|Salg|-1|-30,00|4|  
+|02.02.20|Kjøp|1|100,00|5|  
+|03.02.20|Salg|-1|-100,00|6|  
 
 ### <a name="example-average-cost-period--month"></a>Eksempel: Gjennomsnittskostperiode = Måned  
  Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én måned. Feltet **Beregn.type for gj.snittskost** på siden **Lageroppsett** er satt til **Vare**.  
@@ -95,24 +94,24 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Tabellen nedenfor viser varepostene for eksemplet på en gjennomsnittskostvare, VARE1, før kjørselen **Juster kostverdi – vareposter** er kjørt.  
 
-| **Bokføringsdato** | **Vareposttype** | **Antall** | **Kostbeløp (faktisk)** | **Postnr.** |
-|--|--|--|--|--|
-| 01.01.20 | Kjøp | 1 | 20.00 | 1 |
-| 01.01.20 | Kjøp | 1 | 40.00 | 2 |
-| 01.01.20 | Salg | -1 | -20,00 | 3 |
-| 01.02.20 | Salg | -1 | -40,00 | 4 |
-| 02.02.20 | Kjøp | 1 | 100,00 | 5 |
-| 03.02.20 | Salg | -1 | -100,00 | 6 |
+|**Bokføringsdato**|**Vareposttype**|**Antall**|**Kostbeløp (faktisk)**|**Postnr.**|  
+|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
+|01.01.20|Kjøp|1|20.00|1|  
+|01.01.20|Kjøp|1|40.00|2|  
+|01.01.20|Salg|-1|-20,00|3|  
+|01.02.20|Salg|-1|-40,00|4|  
+|02.02.20|Kjøp|1|100,00|5|  
+|03.02.20|Salg|-1|-100,00|6|  
 
 > [!NOTE]  
 >  Fordi kostjustering ikke er utført ennå, vil verdiene i feltet **Kostbeløp (faktisk)** for lager bli redusert tilsvarende lagerøkningene de utlignes mot.  
 
  Tabellen nedenfor viser postene i tabellen **Utgangspunkt for justering av gjennomsnittskost** som gjelder verdiposter som er et resultat av varepostene i tabellen ovenfor.  
 
-| **Varenr.** | **Variantkode** | **Lokasjonskode** | **Verdisettingsdato** | **Kost er justert** |
-|--|--|--|--|--|
-| VARE1 |  | BLÅ | 31.01.20 | Nei |
-| VARE1 |  | BLÅ | 28.02.20 | Nei |
+|**Varenr.**|**Variantkode**|**Lokasjonskode**|**Verdisettingsdato**|**Kost er justert**|  
+|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
+|VARE1||BLÅ|31.01.20|Nei|  
+|VARE1||BLÅ|28.02.20|Nei|  
 
 > [!NOTE]  
 >  Verdisettingsdatoen settes til siste dag i gjennomsnittskostperioden, som i dette tilfellet er siste dag i måneden.  
@@ -212,7 +211,4 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
  [Designdetaljer: Vareutligning](design-details-item-application.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

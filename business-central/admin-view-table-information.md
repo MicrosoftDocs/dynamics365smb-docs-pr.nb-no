@@ -1,21 +1,19 @@
 ---
 title: Vis Tabellinformasjon
-description: Lær hvordan du kan vise informasjon om databasetabellene rett fra klientgrensesnittet i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 04/20/2020
 ms.author: jswymer
-ms.openlocfilehash: 70aff9cf0aa2af7096c8c4c047e249585e34c777
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8010967"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275321"
 ---
 # <a name="viewing-table-information"></a>Vise Tabellinformasjon
 
@@ -25,7 +23,7 @@ Denne informasjonen er nyttig for å feilsøke ytelsesproblemer, siden dette gir
 
 ## <a name="viewing-table-information"></a>Vise tabellinformasjon
 
-Du kan åpne denne siden ved å velge ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tabellinformasjon**, og velg deretter den relaterte koblingen.
+For å åpne denne siden velger du ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angir **Tabellinformasjon** og velger deretter den relaterte koblingen.
 
 Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 
@@ -35,12 +33,9 @@ Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 |Tabellnavn|Navnet på tabellen.|
 |Tabellnr.|ID-en for tabellen|
 |Antall poster|Totalt antall poster lagret i tabellen.|
-|Poststørrelse|Gjennomsnittlig poststørrelse i kB/post. Verdien beregnes ved hjelp av følgende formel: 1024 (størrelse)/(antall poster). |
+|Poststørrelse|Gjennomsnittlig poststørrelse i kB/post. Verdien beregnes ved å bruke følgende formel: 1024(størrelse)/(antall poster). |
 
 ## <a name="see-also"></a>Se også
 
 [Kontrollere sider](across-inspect-page.md)  
 [Ytelsesartikler for utviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

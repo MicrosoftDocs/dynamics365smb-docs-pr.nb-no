@@ -1,28 +1,28 @@
 ---
-title: Forbindelser
-description: Funksjonene for forbindelser er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter for å betjene kunder effektivt.
+title: Forbindelser | Microsoft-dokumentasjon
+description: Funksjonene for forbindelser i Business Central er til støtte for salgsfremstøtene dine og gir deg tilgang til informasjon om kontakter og prospekter, slik at du kan betjene kunder effektivt.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3e1dac4724209cc9020bf3d7f67a2d870f9b2b73
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059951"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181320"
 ---
 # <a name="managing-relationships"></a>Administrere forbindelser
-Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
+Funksjonen for forbindelser i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
 
-God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[prod_short](includes/prod_short.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.
+God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
@@ -35,6 +35,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Behandle innkommende interessenter ved å opprette salgsmuligheter og knytte dem til selgere, slik at du kan holde oversikt over potensielt salg.|[Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)|
 |Opprett markedsføringsplaner for å identifisere, trekke til deg og beholde kunder.|[Administrere markedsføringskampanjer](marketing-campaigns.md)|
 |Bruk Dynamics 365 Sales for Customer Engagement, og dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med Business Central for serverdelaktiviteter som å behandle bestillinger, håndtere lager og gjøre finansene.|[Integrere med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

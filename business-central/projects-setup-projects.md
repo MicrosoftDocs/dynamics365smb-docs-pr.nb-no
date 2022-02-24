@@ -1,26 +1,24 @@
 ---
-title: Definere ressurser, timelister og prosjekter
-description: Dette emnet beskriver hvordan du konfigurerer ressurser, timelister og prosjekter til å administrere prosjekter og budsjetter.
+title: Definere ressurser, timelister og prosjekter | Microsoft-dokumentasjon
+description: Gir en oversikt over hvordan du konfigurerer ressurser, timelister og jobber for å administrere prosjekter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973761"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312631"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere prosjektstyring
-
-Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter.
+Før du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter.
 
 Deretter kan du opprette prosjekter og planlegge ressurser for prosjekter i tillegg til å administrere budsjetter og spore maskin- og ansattimer med timelister. Hvis du vil ha mer informasjon, kan du se [Administrere prosjekter](projects-manage-projects.md).  
 
@@ -40,7 +38,4 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

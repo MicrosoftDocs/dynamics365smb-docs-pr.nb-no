@@ -1,22 +1,23 @@
 ---
-title: Oversikt over oppgavene for lukking av tablåer
+title: Oversikt over oppgavene for lukking av tablåer | Microsoft-dokumentasjon
 description: Finn ut hvordan du lukker tablåene for et regnskapsår eller en regnskapsperiode, og hva som skjer etter at du har lukket ved utgangen av året.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-m.search.form: 100
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011338"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310111"
 ---
 # <a name="closing-the-books"></a>Lukke tablåene
 Når du har kontrollert at alle kontiene er oppdatert og har fordelt kost og inntekt, kan du lukke tablåene for et regnskapsår eller en periode.
@@ -53,9 +54,5 @@ Deretter genereres det en avslutningspost, men den bokføres ikke automatisk. Du
 Du kan bokføre i et tidligere regnskapsår, selv etter at resultatkontoene er avsluttet, hvis du kjører kjørselen Lukk resultatregnskapet på nytt etterpå.
 
 ## <a name="see-also"></a>Se også
-
-[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Åpne et nytt regnskapsår](finance-how-open-new-fiscal-year.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

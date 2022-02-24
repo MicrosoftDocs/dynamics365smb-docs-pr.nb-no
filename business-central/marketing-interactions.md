@@ -1,23 +1,23 @@
 ---
-title: Administrer samhandlinger med kontaktene dine
+title: Administrere samhandlinger med kontaktene dine | Microsoft-dokumentasjon
 description: Du kan administrere alle typer kommunikasjon eller samhandlinger mellom selskapet og kontaktene dine, for eksempel brev, telefonsamtaler, møter og så videre.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059445"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181391"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere samhandlinger med kontakter
 Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
@@ -50,12 +50,9 @@ På denne siden kan du gjøre følgende:
 * Vise statusen til samhandlinger.
 * Merke samhandlinger som annullert.
 
-Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsloggposter, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Slett annullerte samhandlingsposter** og velger deretter den relaterte koblingen og fyller ut informasjonen.
+Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsposter, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Slett annullerte samhandlingsposter**, velger deretter den relaterte koblingen, og fyller deretter ut informasjonen.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,28 @@
 ---
-title: Importer betalingsreturdata [NO]
-description: Dette emnet forklarer hvordan mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn.
+title: Importere betalingsreturdata
+description: Mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: 1de602135366c466b74849273af6435bb1b7fd9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: eb2eb1413e71353412f78dc7d2ae878c2e2034e2
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435714"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181027"
 ---
-# <a name="import-payment-return-data-in-the-norwegian-version"></a>Importer betalingsreturdata i den norske versjonen
+# <a name="import-payment-return-data"></a>Importere betalingsreturdata
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  
 
 ## <a name="to-import-return-data"></a>Slik importerer du returdata  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Remitteringsoppdrag – importer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsoppdrag - les inn**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -33,11 +33,11 @@ Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les i
 
 3.  Velg **Returfiler**-knappen for å vise returfilene.  
 4.  På siden **Returfiler** velger du **Importer** ved siden av hver fil som skal importeres. Hvis alternativet ikke er merket, blir ikke filen importert.  
-5.  Velg **OK**-knappen.  
+5.  Velg **OK**.  
 
 ## <a name="to-view-settlement-information"></a>Slik viser du avregningsopplysninger  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avregningsopplysninger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Avregningsopplysninger**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Generelt** viser du feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -64,6 +64,3 @@ Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les i
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Fjern vareposter og utligne dem på nytt
+title: Fjerne varefinansposter og utligne dem på nytt | Microsoft-dokumentasjon
 description: Du kan vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 506, 521, 9125
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971019"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183335"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
 På siden **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
@@ -36,13 +36,12 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 > Det er viktig å være oppmerksom på følgende når du arbeider med utligningsforslaget:
     - Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle varene før du utligner utligningspostene på nytt eller lukker siden **Utligningsforslag**. Brukere som prøver å utføre handlinger som omfatter en manuelt opphevet utligningspost, får følgende feilmelding: "Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen XXX er opphevet i Utligningsforslag av brukeren XXX."
     - Du bør bare utligne vareposter på nytt utenfor arbeidstiden for å unngå eventuelle konflikter med andre brukere som bokfører transaksjoner med de samme varene.
-    - Når du lukker utligningsforslaget, utfører [!INCLUDE[prod_short](includes/prod_short.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
+    - Når du lukker utligningsforslaget, utfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontroll for å sikre at alle poster er utlignet. Hvis du for eksempel fjerner en antallsutligning, men ikke oppretter en ny utligning, og deretter lukker utligningsforslaget, opprettes en ny utligning. Dette er med på å holde kostbeløpet intakt. Hvis du imidlertid fjerner en fast utligning, opprettes ikke en ny fast utligning automatisk når du lukker forslaget. Du må gjøre dette manuelt ved å opprette en ny utligning i forslaget.
     - Du kan fjerne utligninger fra flere enn én post om gangen i utligningsforslaget. Siden utligning av poster påvirker settet med poster som er tilgjengelige for utligning, kan du imidlertid ikke opprette en utligning for flere enn én post om gangen.
     - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Slik fjerner du en vareutligning med utligningsforslaget
-
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utligningsforslag**, og velg deretter den relaterte koblingen.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Slik fjerner du en vareutligning med utligningsforslaget  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Siden **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
 3.  Angi filtre på hurtigfanen **Generelt** for å gjøre det enklere å finne vareposten du vil endre bruken for.  
 4.  Velg vareposten, og velg deretter handlingen **Utlignede poster**. Siden **Vis utlignede poster – utlignede poster** åpnes med vareposten(e) som utlignes mot den valgte posten.  
@@ -55,11 +54,10 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 > [!IMPORTANT]  
 >  Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle de berørte varene før du utligner utligningspostene på nytt eller lukker siden **Utligningsforslag**. Følgende feilmelding vises hvis du prøver å utføre handlinger som involverer en manuelt opphevet utligningspost:  
 >   
->  **Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen \<item\> er opphevet i Utligningsforslag av brukeren \<user\>.**  
+>  **Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen <item> er opphevet i Utligningsforslag av brukeren <user>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Slik bruker du en vareutligning på nytt med utligningsforslaget
-
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utligningsforslag**, og velg deretter den relaterte koblingen.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Slik bruker du en vareutligning på nytt med utligningsforslaget  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Siden **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
 3.  Hvis du vil utligne poster som ble fjernet siden forslaget ble åpnet, på nytt, velger du varepost du vil utligne på nytt, og velg deretter handlingen **Utligne på nytt**.  
 
@@ -74,13 +72,9 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
     >  Hvis du har valg å opprette en utligning som hadde forårsaket en uendelig sløyfe i kostjusteringsprosessen, opprettes ikke utligningen du foreslo. Dette kan skje når de opprinnelige postene opprettet negativ beholdning. Utligningen er ikke gjort. Du må derfor velge en annen post for utligningen.  
 6.  Hvis du angir **Alltid** i feltet **Automatisk kostjustering** i **lageroppsettet**, kjører programmet automatisk kjørselen for kostjustering etter at du har opprettet en ny utligning. Ellers starter du kjørselen **Juster kostverdi - vareposter** for å sikre at all kost er oppdatert.  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Lukke åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
  [Designdetaljer: Vareutligning](design-details-item-application.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

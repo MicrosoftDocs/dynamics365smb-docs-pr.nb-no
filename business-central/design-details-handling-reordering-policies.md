@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Håndtere gjenbestillingsprinsipper
-description: Denne artikkelen inneholder en oversikt over oppgaver i forbindelse med håndtering av gjenbestillingskriterier og definisjon av gjenbestillingsprinsippet i forsyningsplanlegging.
+title: Designdetaljer – Håndtere gjenbestillingsprinsipper | Microsoft-dokumentasjon
+description: Oversikt over oppgaver for å definere en gjenbestillingspolicy ved forsyningsplanlegging.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2bc1a4406b82e34db8ecbfa491341606a99dbee7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f7d207d0f6e4730d900ce4214d7faa8c809ae8bd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441799"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185399"
 ---
 # <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Håndtere gjenbestillingsprinsipper
 Det må angis et gjenbestillingsprinsipp for at en vare skal kunne delta i forsyningsplanlegging. Det finnes fire gjenbestillingsprinsipper:  
@@ -67,7 +67,7 @@ Følgende sekvens beskriver hvordan det forventede beholdningsnivået fastsettes
 
 Nedenfor vises en grafisk illustrasjon av dette prinsippet:  
 
-![Fastslå forventet beholdningsnivå.](media/nav_app_supply_planning_2_projected_inventory.png "Fastslå forventet beholdningsnivå")  
+![Fastslå forventet beholdningsnivå](media/nav_app_supply_planning_2_projected_inventory.png "Fastslå forventet beholdningsnivå")  
 
 1. Forsyning **Sa** med 4 (fast) lukker behov **Da** med -3.  
 2. CloseDemand: Opprett en reduksjonspåminnelse med verdien -3 (vises ikke).  
@@ -94,7 +94,7 @@ Du kan angi en tidsperiode for gjenbestillingsprinsipper som bruker et gjenbesti
 
 Tidsperiodebegrepet gjenspeiler den manuelle fremgangsmåten for å kontrollere lagernivået hyppig i stedet for ved hver transaksjon. Brukeren må angi frekvensen (tidsperioden). Brukeren samler for eksempel inn alle behov fra én leverandør for å registrere en ukentlig ordre.  
 
-![Eksempel på tidsperiode i planlegging.](media/nav_app_supply_planning_2_reorder_cycle.png "Eksempel på tidsperiode i planlegging")  
+![Eksempel på tidsperiode i planlegging](media/nav_app_supply_planning_2_reorder_cycle.png "Eksempel på tidsperiode i planlegging")  
 
 Tidsperioden brukes vanligvis til å unngå en kaskadeeffekt. Det opprettes for eksempel en balansert rad av behov og forsyning der et tidlig behov blir avbrutt, eller det opprettes en ny. Resultatet blir at hver forsyningsordre (unntatt den siste) tidsplanlegges på nytt.
 
@@ -103,7 +103,7 @@ Når Maks.ant. og Fast gjenbest.ant. brukes, fokuserer planleggingssystemet bare
 
 *Viktig: Den beregnede beholdningen [xx] er høyere enn overflytnivået [xx] på forfallsdatoen [xx].*  
 
-![Lageroverflytnivå.](media/supplyplanning_2_overflow1_new.png "Lageroverflytnivå")  
+![Lageroverflytnivå](media/supplyplanning_2_overflow1_new.png "Lageroverflytnivå")  
 
 ###  <a name="calculating-the-overflow-level"></a>Beregne overflytnivået  
 Overflytnivået beregnes på ulike måter avhengig av planleggingsoppsettet.  
@@ -179,7 +179,7 @@ I dette scenariet endrer en kunde en ordre fra 70 til 40 enheter mellom to planl
 #### <a name="resulting-planning-lines"></a>Resulterende planleggingslinjer  
  Én planleggingslinje (advarsel) blir opprettet for å redusere kjøpet med 30 fra 90 til 60, for å holde den beregnede beholdningen på 100 i henhold til overflytnivået.  
 
-![Planlegge i henhold til overflytnivå.](media/nav_app_supply_planning_2_overflow2.png "Planlegge i henhold til overflytnivå")  
+![Planlegge i henhold til overflytnivå](media/nav_app_supply_planning_2_overflow2.png "Planlegge i henhold til overflytnivå")  
 
 > [!NOTE]  
 >  Uten overflytsfunksjonen vises det ingen advarsel hvis det beregnede beholdningsnivået er over maksimumsbeholdningen. Dette kan føre til en overflødig forsyning på 30.
@@ -193,7 +193,7 @@ Gjenbestillingspunktet uttrykker forventet behov i løpet av leveringstiden for 
 
  I illustrasjonen nedenfor representerer forsyning D en kritisk bestilling for å justere for negativt lager.  
 
- ![Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning.](media/nav_app_supply_planning_2_negative_inventory.png "Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning")  
+ ![Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning](media/nav_app_supply_planning_2_negative_inventory.png "Forslag til planlegging av nødsituasjoner for å unngå negativ beholdning")  
 
 1.  Forsyning **A**, opprinnelig beregnet beholdning, er under gjenbestillingspunktet.  
 2.  Det opprettes en ny foroverplanlagt forsyning (**C**).  
@@ -296,6 +296,3 @@ Siden forsyningsordreantallet er basert på det faktiske behovet, kan det være 
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

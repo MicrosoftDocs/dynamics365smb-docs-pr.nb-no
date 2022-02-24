@@ -3,22 +3,22 @@ title: Definere dokumentutskrift
 description: I Business Central kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1777dfcefe9b10d7813b30624d1904f19c5f041d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 5586c8cbff247296483210fe4e772d49123b4202
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442903"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181025"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
-I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
+I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
 
 Du må vurdere hvordan skriveren og skriverdriveren tolker denne informasjonen når du bruker skuffnumre og papirkilder for norske salgsdokumenter. Du må kanskje angi andre skuffnumre for din spesifikke skriver.  
 
@@ -32,16 +32,16 @@ Følgende dokumenter krever en utskrevet giro:
 - Rentenotaer  
 - Purringer  
 
-Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inneholder følgende sett med salgsdokumenter.  
+Den norske versjonen av [!INCLUDE[d365fin](../../includes/d365fin_md.md)] inneholder følgende sett med salgsdokumenter.  
 
 |**Valg**|Description|  
 |-------------|---------------------------------------|  
-|1|Standard [!INCLUDE[prod_short](../../includes/prod_short.md)]-dokumenter. Ingen giroinformasjon skrives ut.|  
+|1|Standard [!INCLUDE[d365fin](../../includes/d365fin_md.md)]-dokumenter. Ingen giroinformasjon skrives ut.|  
 |2|Giroen skrives ut på hver side. Den siste siden skriver ut girosummen.|  
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
 3.  Velg handlingen **Salgsdok.arkskuff - oppsett**.  
 4.  Velg en papirkilde i **Første side - papirkilde**-feltet.  
@@ -57,6 +57,3 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 ## <a name="see-also"></a>Se også  
   [Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

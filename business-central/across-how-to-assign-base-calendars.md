@@ -1,29 +1,27 @@
 ---
-title: Definere hovedkalendere
-description: Du kan tilordne en hovedkalender til selskapet og forretningspartnerne, for å beregne leverings-og mottaksdatoer i henhold til virkedagene som er angitt.
+title: Definere hovedkalendere | Microsoft-dokumentasjon
+description: Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7600, 7601, 7602, 5703
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011839"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188423"
 ---
 # <a name="set-up-base-calendars"></a>Definere hovedkalendere
-
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
 
-## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender
-
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
+## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut **Kode**-feltet.  
 4. Velg **Vedlikehold endringer i hovedkalender**.
@@ -44,7 +42,6 @@ Når du oppretter en post, merkes det av for **Fridag**. Du kan velge å fjerne 
 Angir en datoformel for tiden det tar å etterfylle varen. Det brukes til å beregne feltet **Planlagt mottaksdato** hvis det beregner fremover, og feltet **Ordredato** hvis det beregner bakover. Se [Beregning av leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Beregning av leveringstid
-
 En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager. De to datofeltene i bestillingslinjer beregnes på samme måte som følger under forskjellige betingelser.
 
 |Retning for beregning|Leverandørkalender er definert|Leverandørkalender er ikke definert|
@@ -67,7 +64,7 @@ Mens for eksempel en hovedkalender vanligvis viser alle lørdager som fridager, 
 
 Følgende prosedyre bruker lokasjonen som eksempel. Merk at du på dette tidspunktet allerede har tilordnet en hovedkalender til lokasjonen.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil oppdatere, og velg deretter feltet **Egendefinert kalender**. Merk at en kalender må velges i feltet **Hovedkalenderkode**.
 3. På siden **Egendefinerte kalenderposter** som åpnes, velger du **Vedlikehold endringer i egendefinert kalender**.
 4. I vinduet **Endringer i egendefinert kalender** legger du til linjer for egendefinerte kalenderposter.
@@ -103,7 +100,7 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 -   På **Lokasjon**-kortet er hovedkalenderen tilordnet på hurtigfanen **Lager**.  
 -   På **Transportører**-siden tilordnes hovedkalenderen på **Transportørservice**-siden.  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.  
 2.  Åpne **Kunde**-kortet som du vil tilordne en hovedkalender for.  
 3.  På hurtigfanen **Levering**, i **Hovedkalenderkode**-feltet, velger du hovedkalenderen som du vil tilordne.  
 
@@ -119,7 +116,4 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

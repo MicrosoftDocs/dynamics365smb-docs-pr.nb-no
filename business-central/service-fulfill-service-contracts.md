@@ -1,23 +1,23 @@
 ---
-title: Oversikt over oppgavene som oppfyller servicekontrakter
-description: Beskriver oppgaver som er involvert i å oppfylle servicekontrakter med kundene, for eksempel å sette opp standard kontraktsavtaler med maler som kan tilpasses, med mer.
+title: Oversikt over oppgavene som oppfyller servicekontrakter | Microsoft-dokumentasjon
+description: Gir en oversikt over oppgavene for å håndtere servicekontrakter med kunder.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011701"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316215"
 ---
 # <a name="fulfilling-service-contracts"></a>Oppfylle servicekontrakter 
 Én måte å sette opp en servicevirksomhet på er å ha standardavtaler mellom virksomheten og kundene som beskriver servicenivået og forventningene til servicen. Du kan opprette kontraktmaler som inneholder nødvendige opplysninger, for eksempel kunde, startdato for kontrakten og fakturaperiode.  
@@ -37,6 +37,3 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Yte service](service-deliver-service.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788080"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181247"
 ---
 # <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
@@ -149,7 +149,7 @@ Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel h
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisere kontakter med kunder, leverandører og bankkonti
 Hvis du vil synkronisere kontaktkortet med en tilknyttet kunde, leverandør eller bankkontokortet, må du fylle ut det aktuelle feltet i inndelingen **Forr.forbindelseskode for** på **Samhandlinger**-hurtigfanen på **Markedsføringsoppsett**-siden.  
 
-Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Søke etter duplikatkontakter
 Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter en kontakt, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater. Du definerer dette på **Duplikater**-hurtigfanen på **Markedsføringsoppsett**-siden.
@@ -160,7 +160,4 @@ Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplik
 [Administrere kontakter](marketing-contacts.md)  
 [Opprette kontakter](marketing-create-contact-companies.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

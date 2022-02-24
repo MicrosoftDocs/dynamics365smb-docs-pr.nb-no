@@ -1,25 +1,26 @@
 ---
-title: Analysere kontantstrømmer
+title: Analysere kontantstrømmer | Microsoft-dokumentasjon
 description: Beskriver hvordan du bruker diagrammene for kontantsyklus, inntekter og utgifter, kontantstrøm og kontantstrømprognose til å analysere tidligere og fremtidige pengestrømmer inn og ut av firmaet.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
-ms.date: 12/20/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: f7edf7f1b878f6647b123c956531313317f3bb15
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 5a13d461bd4764173e7d674ef35f5fa32f11318b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973573"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184007"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
-Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
+Som de sier, er kontanter konge. Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
 
 | Svare på spørsmål som disse | Bruk dette diagrammet |
 | --- | --- |
@@ -44,7 +45,6 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 * Hopper over dupliserte salgsordrer og bestillinger.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Slik viser du et forslag for kontantstrøm
-
 1. Søk etter **Kontantstrømprognoser**, og velg deretter den relaterte koblingen.  
 2. Velg en kontantstrømprognose, og velg deretter den **Kontantstrømforslag**.  
 3. På siden **Kontantstrømforslag** velger du handlingen **Foreslå forslagslinjer**.  
@@ -52,11 +52,6 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
-[Prognostisere kontantstrømmen i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Definere kontantstrømprognoser ved å bruke Azure AI i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

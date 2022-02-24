@@ -1,51 +1,39 @@
 ---
-title: Definere generell informasjon om lagerbeholdning
-description: Beskriver hvordan du definerer det generelle lageroppsettet slik at du kan styre lageret og varene.
-author: bholtorf
+title: Definere det generelle lageroppsettet | Microsoft-dokumentasjon
+description: Beskriver hvordan du definerer det generelle lageroppsettet, for eksempel nummerserier og lokasjoner, slik at du for eksempel kan administrere lageret og varene.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
-ms.date: 07/28/2021
-ms.author: edupont
-ms.openlocfilehash: a4912baa7dc9bfd69c5306b95b63312bc1d29f10
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: 6b9c0fb0952a30e99d4537407d7abce284df3bae
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115034"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182111"
 ---
 # <a name="set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
-
 Du angir det generelle lageroppsettet på siden **Lageroppsett**.
 
 ## <a name="to-set-up-general-inventory-information"></a>Slik definerer du generell informasjon om lagerbeholdning
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lageroppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Lageroppsett** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Hvis du vil ha mer informasjon om kostnadsfelt, **Automatisk kostbokføring**, **Bokf. av forventet kost i Finans** og **Standard lagermetode**, se [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md), [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md) og [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md). Hvis du vil ha mer informasjon om kostberegning generelt, se [Administrere lagerkostnader](finance-manage-inventory-costs.md).  
+Hvis du vil ha mer informasjon om kostnadsfelt, **Automatisk kostbokføring** og **Bokf. av forventet kost i Finans**, se [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md) og [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md).
 
 Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du definere den som standard for lageret, på siden **Lageroppsett**, og for lokasjonen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 
-> [!NOTE]
-> Feltet **Automatisk kostjustering** er angitt til *Alltid* som standard for å sikre at lagerverdier alltid er riktige i finans, som i sin tur holder salgs- og fortjenestestatistikk oppdatert. Kostendringer fra inngående poster, for eksempel de for kjøp eller produksjonsavgang, tilordnes til de relaterte utgående postene, for eksempel salg eller overføringer. Dette er nyttig for nye [!INCLUDE[prod_short](includes/prod_short.md)]-kunder og små bedrifter med relativt lave lagertransaksjonsnivåer.
->
-> Når virksomheten vokser og lagernivåer øker, kan imidlertid dette redusere systemets ytelse. Hvis du vil minimere redusert ytelse under bokføringen, velger du et tidsalternativ for å definere hvor langt tilbake i tid fra arbeidsdatoen en inngående transaksjon kan forekomme for potensielt å utløse justering av relaterte utgående verdiposter.
->
-> Alternativt kan du justere kostnader manuelt ved jevne mellomrom med kjørselen Juster kostverdi – vareposter. Du kan også deaktivere automatisk kostbokføring eller sette feltet **Automatisk kostjustering** til *Aldri*. I begge tilfeller vises et varsel der du kan starte en veiledning for assistert installasjon for å planlegge oppgaver for jobbkøen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
 ## <a name="see-also"></a>Se også
-
 [Definere lager](inventory-setup-inventory.md)  
-[Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
+[Designdetaljer: Kostmetoder](design-details-costing-methods.md)    
 [Håndtere lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-[Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Generelle forretningsfunksjoner](ui-across-business-areas.md)

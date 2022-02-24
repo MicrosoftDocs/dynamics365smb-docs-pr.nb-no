@@ -1,26 +1,26 @@
 ---
-title: Forretningsintelligens
-description: Business Central inneholder en rekke funksjoner som hjelper deg med å samle, analysere og dele verdifulle firmadata for forretningsanalyse og beslutningstaking.
+title: Forretningsintelligens | Microsoft-dokumentasjon
+description: Registrer og analyser forretningsdata, for eksempel salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, som kan være verdifull informasjon for forretningsintelligens eller beslutningstaking.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323746"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185999"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
-Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
+Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
 
 Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens. En dimensjon er data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Blant annet bruker du dimensjoner når du definerer analysevisninger, og når du oppretter kontoskjemaer for rapportering. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
 
@@ -44,9 +44,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

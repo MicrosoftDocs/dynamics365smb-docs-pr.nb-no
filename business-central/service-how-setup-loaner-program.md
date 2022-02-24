@@ -3,28 +3,28 @@ title: Definere utlånsobjekter | Microsoft-dokumentasjon
 description: Du kan definere utlånsobjekter som du kan låne ut til kunder for å erstatte servicevarer mens de får service.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 494f7c621a141b84f104ad855b2aa1e412aa837f
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440106"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877474"
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
-Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  
+Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  
   
 * Angi en merknad til selve utlånsobjektet.  
 * Angi en merknad på en servicevare om behovet for et utlånsobjekt.  
 
 ## <a name="to-set-up-a-loaner"></a>Slik definerer du utlånsobjekter  
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utlånsobjekter** og velg den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utlånsprodukter**, og velg deretter den relaterte koblingen.  
 2. Opprett et nytt kort for utlånsobjekt. 
 3. I feltet **Nr.** -feltet angir du et nummer på utlånsobjektet. Hvis du har definert en nummerserie for utlånsobjekter på siden **Serviceoppsett**, kan du eventuelt trykke på Enter-tasten for at programmet skal angi det neste tilgjengelige utlånsobjektnummeret.  
 4. Fyll ut feltene **Beskrivelse**, **Beskrivelse 2** og **Serienr**.  
@@ -35,6 +35,3 @@ Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Yte service](service-deliver-service.md)  
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

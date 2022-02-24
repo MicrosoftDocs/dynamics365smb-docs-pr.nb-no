@@ -1,21 +1,21 @@
 ---
-title: Arbeide med stykklister for å håndtere komponenter
+title: Arbeide med stykklister for å håndtere komponenter | Microsoft-dokumentasjon
 description: Du oppretter en monteringsstykkliste eller produksjonsstykkliste for å spesifisere komponenter eller ressurser som kreves for å sette sammen varen som stykklisten representerer.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/27/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1b095b54d5540de34b86f4073cc5d57679cee8ff
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060041"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324225"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
@@ -57,14 +57,14 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 ## <a name="to-edit-assembly-boms"></a>Slik redigerer du monteringsstykklister
 Du kan når som helst redigere linjene i en monteringsstykkliste. Vær oppmerksom på at stykklisten kan være i bruk på pågående salg eller sammenstillinger av den overordnede, noe som kan påvirkes av endringen. Velg **Inngår i**-handlingen for å se hvilke varer den brukes i, og deretter om ordre-eller monteringsordrer kan påvirkes.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg **Ja** i kolonnen **Monteringsstykkliste**.
 3. På siden **Monteringsstykkliste** velger du **Rediger liste**-handlingen, og deretter endrer du felt etter behov.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Vise komponentene og ressursene som er rykket inn i henhold til stykklistestrukturen
 Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
 3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
 4. På siden **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
@@ -72,14 +72,14 @@ Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponent
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
 Du kan bruke en spesiell funksjon erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne funksjonen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
 
-Handlingen **Utfold stykkliste** er også tilgjengelig på siden **Monteringsstykkliste** som en måte å vise underordnede monteringsvarer på en monteringsstykkliste på.
+Funksjonen Utfold stykkliste er også tilgjengelig på siden **Monteringsstykkliste** som en metode for å vise underordnede varer i eventuelle halvfabrikater på en monteringsstykkliste.
 
 > [!CAUTION]  
 >  Når du har brukt funksjonen **Utfold Stykkliste**, er det ikke enkelt å angre den. Du må slette ordrelinjene som representerer komponentene og deretter skrive inn en ordrelinje for monteringsvaren på nytt.
 
 Følgende fremgangsmåte er basert på en faktura. De samme trinnene gjelder for andre salgsdokumenter og på alle kjøpsdokumenter.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne en salgsfaktura som inneholder en linje for en monteringsvare.
 3. Velg linjen for monteringsvaren, og velg deretter linjehandlingen **Utfold stykkliste**.
 
@@ -89,15 +89,11 @@ Alle feltene på salgsfakturalinjen for monteringsvaren er tomme med unntak av f
 > **Plukkliste etter ordre**-rapporten endres også for å vise bare komponentene. Dette betyr at en lagerarbeider som plukker den overordnede varen, monteringsvaren, ikke kan se den i plukklisten. Se [Skrive ut plukklisten](sales-how-print-picking-list.md) hvis du vil ha mer informasjon .
 
 ## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Slik beregner du standardkosten for en monteringsvare
-
 Du beregner enhetskosten for en monteringsvare ved å opprullere enhetskosten for hver komponent og ressurs i varens monteringsstykkliste.
 
 Du kan også beregne og oppdatere standardkost for én eller flere varer på siden **Standardkost - forslag**. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).  
 
-Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskostnadene for komponentene, inkludert andre monteringsstykklister og ressurser.  
-
-> [!NOTE]
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)]
+Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskostnadene for komponentene, inkludert andre monteringsstykklister og ressurser.
 
 1. I øvre høyre hjørne velger du ikonet **Søk etter side eller rapport**, angir **Varer** og velger deretter den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
@@ -118,7 +114,4 @@ Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvar
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)     
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

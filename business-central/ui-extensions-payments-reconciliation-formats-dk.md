@@ -1,24 +1,25 @@
 ---
-title: Utvidelsen Betalinger og avstemminger (Danmark)
+title: Bruke utvidelsen Betalinger og avstemminger (Danmark) | Microsoft-dokumentasjon
 description: Utvidelsen gjør det enkelt å eksportere filer som er formatert på forhånd for å oppfylle bankens krav til elektroniske innsendinger.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 06/24/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cad6f64ee74dd2c359f16e1bb723282c2a703b97
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434928"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076492"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Utvidelsen Betalinger og avstemminger (Danmark)
-
 Betal fort og uten feil ved å eksportere filer som er formatert spesielt for utveksling med leverandører eller banken. Filene øker hastigheten til betalings- og avstemmingsprosessen, og du unngår feil som kan skje når du angir informasjonen på bankens webområde manuelt.  
 
 Utvidelens støtter filformater for flere dansk banker. Når du eksporterer betalingsinformasjon til en fil, sørger utvidelsen for at dataen får formatet som kreves av banken. Formatene er blant annet Bankdata-V3, BEC, SDC og FIK, som brukes av mange forskjellige banker, og noen formater som er tilpasset bestemte banker, for eksempel Danske Bank og Nordea. Utvidelsen inkluderer også noen formater for import og avstemming av bankkontoutdrag.  
@@ -43,7 +44,6 @@ Utvidelsen kan bruke følgende filformater for betalingsfiler:
 * SDC CSV  
 
 ## <a name="to-set-up-the-extension"></a>Slik konfigurerer du filtypen
-
 Det er noen trinn for å komme i gang.  
 
 * Tillat eksport av betalingsdata. For å beskytte dataene, er ikke dette lett tilgjengelig.  
@@ -53,47 +53,42 @@ Det er noen trinn for å komme i gang.
 
 I tillegg må du tilordne leverandørene til et innenlands **Bokføringsgruppe - firma** og en **Bokføringsgruppe - leverandør**. Innstillingen land/region for leverandøren må være Danmark (dansk). Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-prod_short-to-export-payment-data"></a>Tillat [!INCLUDE[prod_short](includes/prod_short.md)]å eksportere betalingsdata.
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladd** og velg den relaterte koblingen.  
+### <a name="to-allow-d365fin-to-export-payment-data"></a>Tillat [!INCLUDE[d365fin](includes/d365fin_md.md)]å eksportere betalingsdata.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladd**, og velg deretter den relaterte koblingen.  
 2. Velg **Bank**-bunken på siden **Rediger betalingskladd**.  
 3. Velg avmerkingsboksen **Tillat betalingseksport**.  
 
 ### <a name="to-specify-a-payment-method-for-a-vendor"></a>Angi betalingsmåten for en leverandør
+Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støttes av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støttes av [!INCLUDE[prod_short](includes/prod_short.md)].
-
-|Kombinasjon|Type 01 | Type 04 | Type 71 | Type 73 |
-|----|--------|---------|---------|---------|
+||Type 01 | Type 04 | Type 71 | Type 73 |
+|----|---|---|---|---|
 |Girokontonr. eller FIK kreditornr.? | Girokontonr. | Girokontonr. | FIK Kreditornr. | FIK Kreditornr.|
 |Tillater melding til mottaker? | Ja |Nei |Nei | Ja |
 |Inneholder et betalingsreferansenummer? | Nei | Ja, 16 sifre. | Ja, 15 sifre. | Nei|
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Leverandører**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet, utvid **Betalinger**-kategorien, velg betalingsmåte i **Betalingsmåte** -feltet.  
 3. Avhengig av hva du velger, må du fylle ut andre felt. Se i tabellen over for en beskrivelse av kombinasjonene.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Angi formatet som skal brukes for en bankkonto.
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bankkonti**, og velg deretter den relaterte koblingen.  
 2. Åpne kortet for bankkontoen.  
 3. I **Betalingseksportformat**-feltet velger du formatet for eksportfilen.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Velge FIK eller Girobetalingsinformasjon for leverandørfakturaer
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Velg leverandør. Husk at det må være en dansk leverandør med en adresse i Danmark.
 3. Opprette en faktura. Feltene **Betalingsmåte** og **Leverandørnummer** er fylt ut på grunnlag av innstillingene på leverandørkortet. De kan endres.
 4. I **Betalingsreferanse**-vinduet angir du nummeret med 15 sifre som står på leverandørens faktura.  
 
     > [!Tip]
-    > Du trenger kun å legge inn de 11 siste sifrene i nummeret. [!INCLUDE[prod_short](includes/prod_short.md)] legger til fire nuller i begynnelsen av nummeret.  
+    > Du trenger kun å legge inn de 11 siste sifrene i nummeret. [!INCLUDE[d365fin](includes/d365fin_md.md)] legger til fire nuller i begynnelsen av nummeret.  
 
 5. Bokfør fakturaen.
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Bruke utvidelsen til å eksportere betalingsdata
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
 2. Velg **Betalingskladdforslag - leverandør**.  
 
     > [!Tip]
@@ -104,10 +99,7 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 5. Velg handlingen **Eksporter**.  
 
 ## <a name="see-also"></a>Se også
-
-[Tilpasse Business Central for [!INCLUDE[prod_short](includes/prod_short.md)]med utvidelser](ui-extensions.md)  
+[Tilpasse Business Central for [!INCLUDE[d365fin](includes/d365fin_md.md)]med utvidelser](ui-extensions.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Bokføre kvitteringer for SEPA Direct Debit](finance-how-to-post-sepa-direct-debit-payment-receipts.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

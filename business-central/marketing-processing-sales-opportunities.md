@@ -1,23 +1,23 @@
 ---
-title: Behandle salgsmuligheter i salgssykluser
-description: Dette emnet beskriver de ulike måtene du kan behandle salgsmuligheter på i salgssykluser og flytte en salgsmulighet gjennom fasene i en salgssyklus.
+title: Behandle salgsmuligheter i salgssykluser | Microsoft-dokumentasjon
+description: Du kan vise, lukke eller slette salgsmuligheter, du kan opprette tilbud og ordrer for salgsmuligheter, og du kan flytte en salgsmulighet gjennom fasene i en salgssyklus.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e4e56b2594820cc1af4861d0117b9e7d6af891ec
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437605"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181334"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsmuligheter
 Når du oppretter en salgsmulighet, er det flere funksjoner for å behandle salgsmuligheten og fullføre den.
@@ -27,9 +27,9 @@ De eksisterende salgsmulighetene er tilgjengelige fra siden **Oversikt over salg
 
 | Vise salgsmuligheter for | Deretter |
 | --- | --- |
-| Alle selgere og kontakter |Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oversikt over salgsmuligheter**, og velg deretter den relaterte koblingen. |
-| En bestemt selger |Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selgere**, og velg deretter den relaterte koblingen. Velg selger, velg handlingen **Salgsmuligheter** og velg deretter handlingen **Vis**. |
-| En bestemt kontakt |Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontakter**, og velg deretter den relaterte koblingen. Velg kontakten fra listen, og velg deretter handlingen **Salgsmuligheter**. |
+| Alle selgere og kontakter |Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oversikt over salgsmuligheter**, og velg deretter den relaterte koblingen. |
+| En bestemt selger |Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selgere**, og velg deretter den relaterte koblingen. Velg selger, velg handlingen **Salgsmuligheter** og velg deretter handlingen **Vis**. |
+| En bestemt kontakt |Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kontakter**, og velg deretter den relaterte koblingen. Velg kontakten fra listen, og velg deretter handlingen **Salgsmuligheter**. |
 
 Hver av disse aktivitetene åpner siden **Oversikt over salgsmuligheter**.
 
@@ -44,8 +44,7 @@ Du kan lukke salgsmuligheter når forhandlingene er over. Når du lukker en salg
    I feltet **Lukk. av salgsmuligh. - kode** kan du velge fra en av de eksisterende kodene for lukking av salgsmulighet eller legge til en ny kode. Hvis du vil legge til en ny kode fra rullegardinlisten, velger du **Velge fra hele listen** og deretter **ny**. På den nye, tomme linjen fyller du ut feltet **Kode**, **Type** og **Beskrivelse**, og deretter velg du **OK** knappen.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Opprette tilbud for salgsmuligheter
-> [!NOTE]
-> Du kan bare opprette tilbud fra salgsmuligheter der kontakttypen er Selskap.
+Du kan opprette tilbud for kontakter som ikke er registrert som kunder.
 
 1. På siden **Oversikt over salgsmuligheter** velger du salgsmuligheten og deretter handlingen **Tilordne nytt tilbud**. Siden **Tilbud** åpnes.
 2. Fyll ut de aktuelle feltene.
@@ -66,7 +65,7 @@ Hvis du vil slette lukkede salgsmuligheter fra siden **Oversikt over salgsmuligh
 
 Hvis du vil slette lukkede salgsmuligheter ved hjelp av den satsvise jobben **Slett lukkede salgsmuligheter**, følger du denne fremgangsmåten:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett salgsmuligheter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Slett salgsmuligheter**, og velg deretter den relaterte koblingen.
 2. I inndelingen **Salgsmulighet** definerer du filtrene som angir de lukkede salgsmulighetene du vil slette.
 3. Velg **OK**.
 
@@ -87,7 +86,4 @@ Hvis en salgsmulighet følger en salgssyklus, kan du flytte den fremover eller b
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

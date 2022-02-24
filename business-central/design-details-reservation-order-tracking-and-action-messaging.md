@@ -3,19 +3,19 @@ title: Designdetaljer - Reservasjon, ordresporing og handlingsmeldinger | Micros
 description: Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, replenishment, reordering
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 4671954cd059360e4f16db5cb4a4faf3ce01aff4
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ec2162e28cba919bfee1069188be942c9e1676b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949053"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184799"
 ---
 # <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger
 Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle funksjonene i sporing og handlingsmeldingssystemet.  
@@ -29,13 +29,10 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Reservasjonssystemet danner også det strukturelle grunnlaget for varesporingssystemet. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing](design-details-item-tracking.md).  
 
- <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
-
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+ Hvis du vil ha mer informasjon om hvordan reservasjonssystemet fungerer, kan du se hvitboken Tabellen Reservasjonspost på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  
 
 ## <a name="reservation"></a>Reservasjon  
- En reservasjon er en fast kobling som knytter sammen et bestemt behov og en bestemt forsyning. Denne koblingen påvirker den påfølgende lagertransaksjonen direkte og sikrer riktig utligning av vareposter for kostnadsformål. En reservasjon overstyrer standard lagermetode for en vare. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing](design-details-item-tracking.md).  
+ En reservasjon er en fast kobling som knytter sammen et bestemt behov og en bestemt forsyning. Denne koblingen påvirker den påfølgende lagertransaksjonen direkte og sikrer riktig utligning av vareposter for kostnadsformål. En reservasjon overstyrer standard lagermetode for en vare. Hvis du vil ha mer informasjon, kan du se Designdetaljer: Kostmetoder.  
 
  **Reservasjon**-siden er tilgjengelig fra alle ordrelinjer av typene behov og forsyning. På denne siden kan brukere angi hvilken behovs- eller forsyningspost som det skal opprettes en reservasjonskobling til. Reservasjonen består av to poster med samme postnummer. Én post har et minustegn og peker til behovet. Den andre posten har et positivt fortegn og peker mot forsyningen. Disse postene lagres i **Reservasjonspost**-tabellen med statusverdien **Reservasjon**. Brukeren kan vise alle reservasjonene på **Reservasjonsposter**-siden.  
 
@@ -93,7 +90,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Automatiske reservasjoner som opprettes under planleggingskjøringen håndteres på følgende måter:  
 
--   De utlignes mot vareantall som er en del av tilgjengelighetsberegningen, slik som manuelle reservasjoner. Hvis du vil ha mer informasjon, kan du se delen Forskyvning i reservasjoner i dette emnet.  
+-   De utlignes mot vareantall som er en del av tilgjengelighetsberegningen, slik som manuelle reservasjoner. Hvis du vil ha mer informasjon, kan du se delen "Forskyvning i reservasjoner" i dette emnet.  
 
 -   De tas med og eventuelt endres i påfølgende planleggingskjøringer, i motsetning til manuelt reserverte varer.  
 
@@ -111,7 +108,7 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Dette prinsippet betyr at en endring i behov fører til en tilsvarende ubalanse på forsyningssiden i ordrenettverket. I motsetning vil en endring i forsyning fører til en tilsvarende ubalanse på behovssiden i ordrenettverket. I virkeligheten er ordrenettverket i en tilstand av konstant endring når brukere skrive inn, endrer og sletter ordrer. Sporing behandler ordrer dynamisk ved å reagere på en endringer når den registreres i systemet og blir en del av ordrenettverket. Så snart nye ordresporingsposter er opprettet, er ordrenettverket i balanse, men bare til neste endring skjer.  
 
- For å øke gjennomsiktigheten til beregninger i planleggingssystemet, vises ikke-sporede antall på siden **Ikke-sporede planleggingselementer**. Disse antallene representerer differansen i antall mellom kjent behov og foreslått forsyning. Hver linje på siden refererer til årsaken for det overflødige antallet , for eksempel **Rammebestilling**, **Sikkerhetslagernivå**, **Fast gjenbest.ant**, **Minimum bestillingsantall**, **Avrunding** eller **Avdemping**.  
+ For å øke gjennomsiktigheten til beregninger i planleggingssystemet vises ikke-sporede antall på siden **Ikke-sporet planleggingselement**. Disse antallene representerer differansen i antall mellom kjent behov og foreslått forsyning. Hver linje på siden refererer til årsaken for det overflødige antallet , for eksempel **Rammebestilling**, **Sikkerhetslagernivå**, **Fast gjenbest.ant**, **Minimum bestillingsantall**, **Avrunding** eller **Avdemping**.  
 
 ### <a name="offsetting-in-order-tracking"></a>Forskyvning i ordresporing  
  I motsetning til reservasjoner som bare kan utføres mot tilgjengelig antall, er sporing mulig mot alle ordrenettverksenheter som er en del av beregningen av planleggingssystemet beregning av nettobehov. Nettobehovet beregnes som følger:  
@@ -126,19 +123,19 @@ Reservasjonssystemet er omfattende og inneholder de beslektede og parallelle fun
 
  Anta bruk av følgende data for to varer som er konfigurert for sporing.  
 
-|Vare 1|Name|Komponent|
+|Vare 1|Name|"Komponent"|
 |-|-|-|
-||Disponibelt|100 enheter i VEST lokasjon<br /><br />- 30 enheter av PARTIA<br />- 70 enheter av PARTIB|  
-|Vare 2|Name|Produsert vare|
-||Produksjonsstykkliste|1 antall per Komponent|  
-||Behov|Salg for 100 enheter i ØST lokasjon|  
+||Disponibelt|100 enheter i RØD lokasjon<br /><br />- 30 enheter av PARTIA<br />- 70 enheter av PARTIB|  
+|Vare 2|Name|"Produsert vare"|
+||Produksjonsstykkliste|1 antall per "Komponent"|  
+||Behov|Salg for 100 enheter i BLÅ lokasjon|  
 ||Forsyning|Frigitt produksjonsordre (generert med **Ordreplanlegging**-funksjonen for salg av 100 enheter)|  
 
 På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt til **RØD**.
 
  Følgende sporingsposter finnes i **Reservasjonspost**-tabellen basert på dataene i tabellen.  
 
- ![Første eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+ ![Ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løpenummer 8 og 9  
  Det opprettes sporingskoblinger for komponentbehov for henholdsvis PARTIA og PARTIB, fra behovet i tabell 5407, **Prod.ordrekomponent**, til forsyningen i tabell 32, **Varepost**. **Reservasjonsstatus**-feltet inneholder **Sporing** for å angi at disse postene er dynamiske sporingskoblinger mellom forsyning og behov.  
@@ -147,16 +144,16 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 >  **Partinr.**-feltet er tomt på behovslinjene fordi partinumrene ikke er angitt på komponentlinjene i den frigitte produksjonsordren.  
 
 ### <a name="entry-numbers-10"></a>Løpenummer 10  
- Fra salgsbehov i tabell 37, **Salgslinje**, opprettes en sporingskobling til forsyning i tabell 5406, **Prod.ordrelinje**. **Reservasjonsstatus**-feltet inneholder **Reservasjon**, og **Bundet til**-feltet inneholder **Ordre-til-ordre**. Dette er fordi den frigitte produksjonsordren ble spesifikt generert for ordren og må forbli tilknyttet, i motsetning til sporingskoblinger med reservasjonsstatusen **Sporing**, som opprettes og endres dynamisk. Hvis du vil ha mer informasjon, kan du se delen Automatiske reservasjoner i dette emnet.  
+ Fra salgsbehov i tabell 37, **Salgslinje**, opprettes en sporingskobling til forsyning i tabell 5406, **Prod.ordrelinje**. **Reservasjonsstatus**-feltet inneholder **Reservasjon**, og **Bundet til**-feltet inneholder **Ordre-til-ordre**. Dette er fordi den frigitte produksjonsordren ble spesifikt generert for ordren og må forbli tilknyttet, i motsetning til sporingskoblinger med reservasjonsstatusen **Sporing**, som opprettes og endres dynamisk. Hvis du vil ha mer informasjon, kan du se delen "Automatiske reservasjoner" i dette emnet.  
 
- På dette tidspunktet i scenariet overføres de 100 enhetene av PARTIA og PARTIB til ØST lokasjon av en overføringsordre.  
+ På dette tidspunktet i scenariet overføres de 100 enhetene av PARTIA og PARTIB til BLÅ lokasjon av en overføringsordre.  
 
 > [!NOTE]  
 >  Bare overføringsordren bokføres nå, ikke mottak.  
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Andre eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+ ![Ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
 ### <a name="entry-numbers-8-and-9"></a>Løpenummer 8 og 9  
  Sporingsposter for de to komponentpartiene som gjenspeiler behov i tabell 5407, blir endret fra reservasjonsstatusen **Sporing** til **Overskudd**. Årsaken er at forsyningene som de var knyttet til før i tabell 32, er brukt av leveringen av overføringsordren.  
@@ -166,22 +163,22 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 ### <a name="entry-numbers-12-to-16"></a>Løpenummer 12 til 16  
  Siden de to partiene av komponenten bokføres på overføringsordren som levert, men ikke mottatt, er alle relaterte positive ordresporingsposter av reservasjonstypen **Overskudd**, som angir at de ikke er tilordnet til alle behov. For hver partinummer er én relatert til tabell 5741, **Overføringslinje**, og én post er relatert til vareposten på transittlokasjonen der varene finnes nå.  
 
- På dette tidspunktet i scenariet blir overføringsordren bokført som mottatt for komponenter fra ØST til VEST lokasjon.  
+ På dette tidspunktet i scenariet blir overføringsordren bokført som mottatt for komponenter fra BLÅ til RØD lokasjon.  
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Tredje eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+ ![Ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
 
- Sporingspostene ligner nå på det første punktet i scenariet, før overføringsordren ble bokført som bare levert, bortsett fra at postene for komponenten nå har reservasjonsstatusen **Overskudd**. Dette er fordi komponentbehovet fortsatt er i VEST lokasjon, som gjenspeiler at **Lokasjonskode**-feltet på produksjonsordrekomponentlinjen inneholder **VEST**, som definert i oppsettfeltet **Komponenter ved lokasjon**. Forsyningen som ble tildelt til dette behovet tidligere, er overført til ØST lokasjon og kan ikke nå spores fullstendig med mindre komponentbehovet på produksjonsordrelinjen endres til ØST lokasjon.  
+ Sporingspostene ligner nå på det første punktet i scenariet, før overføringsordren ble bokført som bare levert, bortsett fra at postene for komponenten nå har reservasjonsstatusen **Overskudd**. Dette er fordi komponentbehovet fortsatt er i RØD lokasjon, som gjenspeiler at **Lokasjonskode**-feltet på produksjonsordrekomponentlinjen inneholder **RØD**, som definert i oppsettfeltet **Komponenter ved lokasjon**. Forsyningen som ble tildelt til dette behovet tidligere, er overført til BLÅ lokasjon og kan ikke nå spores fullstendig med mindre komponentbehovet på produksjonsordrelinjen endres til BLÅ lokasjon.  
 
- På dette tidspunktet i scenariet blir **Lokasjonskode** på produksjonsordrelinjen satt til **ØST**. På siden **Varesporingslinjer** vil i tillegg de 30 enhetene med PARTIA og de 70 enhetene i PARTIB bli tilordnet produksjonsordrelinjen.  
+ På dette tidspunktet i scenariet blir **Lokasjonskode** på produksjonsordrelinjen satt til **BLÅ**. På siden **Varesporingslinjer** vil i tillegg de 30 enhetene med PARTIA og de 70 enhetene i PARTIB bli tilordnet produksjonsordrelinjen.  
 
  Følgende ordresporingsposter finnes nå i tabellen **Reservasjonspost**.  
 
- ![Fjerde eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+ ![Ordresporingsposter i tabellen Reservasjonspost](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
 ### <a name="entry-numbers-21-and-22"></a>Løpenummer 21 og 22  
- Siden komponentbehovet er endret til ØST lokasjon og forsyningen er tilgjengelig som vareposter i ØST lokasjon, blir nå alle sporingsposter for de to partinumrene fullstendig sporet, som angitt av reservasjonsstatusen **Sporing**.  
+ Siden komponentbehovet er endret til BLÅ lokasjon og forsyningen er tilgjengelig som vareposter i BLÅ lokasjon, blir nå alle sporingsposter for de to partinumrene fullstendig sporet, som angitt av reservasjonsstatusen **Sporing**.  
 
  **Partinr.**-feltet er nå fylt ut i sporingsposten for tabell 5407 fordi partinumrene ble tilordnet til produksjonsordrekomponentlinjene.  
 
@@ -233,6 +230,3 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

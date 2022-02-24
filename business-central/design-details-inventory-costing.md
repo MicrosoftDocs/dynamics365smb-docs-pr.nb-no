@@ -1,31 +1,28 @@
 ---
-title: Designdetaljer – Kostberegning for beholdning
+title: Designdetaljer – Kostberegning for beholdning | Microsoft-dokumentasjon
 description: Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115122"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185303"
 ---
 # <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
-
-Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registrere og rapportere forretningsdriftskost.  
 
-## <a name="in-this-section"></a>I denne delen
-
+## <a name="in-this-section"></a>I denne delen  
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Vareutligning](design-details-item-application.md)  
 [Designdetaljer: Kjent vareutligningsproblem](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -44,6 +41,3 @@ Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registre
 [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 [Designdetaljer: Revaluering](design-details-revaluation.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

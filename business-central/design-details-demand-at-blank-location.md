@@ -3,19 +3,19 @@ title: Designdetaljer – Behov og forsyning | Microsoft-dokumentasjon
 description: Dette emnet introduserer konseptet med behov, som er det vanlige uttrykket som brukes for alle typer bruttobehov, for eksempel en salgsordre og komponentbehov fra en produksjonsordre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 62abcd0e37a9871efd6158a898538b7c18b6b47f
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: f808865bd4fc2113dd5c04071f7ba2e8793fe3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215331"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185567"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Designdetaljer: Behov på tom lokasjon
 Når en bruker oppretter en behovshendelse, for eksempel en salgsordrelinje, tillater programmet at brukeren noen ganger angir en lokasjonskode og andre ganger ikke, dvs. bruker en tom lokasjon.
@@ -132,6 +132,3 @@ Som illustrert i det siste scenariet kan du bare få et riktig resultat for en b
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

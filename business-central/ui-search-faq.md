@@ -1,21 +1,21 @@
 ---
-title: Vanlige spørsmål om Fortell meg
-description: Denne artikkelen gir svar på spørsmål som våre kunder og partnere ofte stiller om Fortell meg-funksjonen.
+title: Vanlige spørsmål om Fortell meg | Microsoft-dokumentasjon
+description: Denne artikkelen gir svar på spørsmål som våre kunder og partnere ofte stiller om Fortell meg.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 06/24/2021
+ms.date: 02/12/2020
 ms.author: bholtorf
-ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
+ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325866"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071913"
 ---
 # <a name="tell-me-faq"></a>Vanlige spørsmål om Fortell meg
 Dette emnet gir svar på spørsmål som våre avanserte brukere ofte stiller om Fortell meg-funksjonen.
@@ -32,7 +32,7 @@ Handlinger, sider og rapporter som kommer fra utvidelser, hentes av Fortell meg,
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hva gjør dette forskjellig fra det som tidligere ble kalt for Sidesøk?
 Sidesøk har utviklet seg til Fortell meg for å hjelpe deg med å arbeide raskt. Sidesøk kunne bare hjelpe deg med å navigere til sider eller rapporter. På et teknisk nivå er Fortell meg ikke lenger basert på det eldre MenuSuite-konseptet.
 
-### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Inkluderer dette Fortell meg?
+### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Jeg bruker lokal [!INCLUDE[d365fin](includes/d365fin_md.md)]. Inkluderer dette Fortell meg?
 Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke dokumentasjon, eller apper og konsulenttjenester på AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortell meg tilgjengelig for alle skjemafaktorer?
@@ -50,6 +50,3 @@ Bokmerkeikonet vises ikke i Fortell meg-vinduet når tilpasning er deaktivert fo
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Finne sider med rolleutforskeren](ui-role-explorer.md)  
 [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

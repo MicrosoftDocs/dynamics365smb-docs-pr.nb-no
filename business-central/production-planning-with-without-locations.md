@@ -1,21 +1,21 @@
 ---
-title: Se Planlegge med/uten lokasjoner.
-description: I dette emnet lærer du om produksjon, inkludert forsyningsplanlegging, i Business Central.
+title: Planlegge med/uten lokasjoner | Microsoft-dokumentasjon
+description: Det er viktig å forstå planlegging med eller uten lokasjonskoder på behovslinjer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
-ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b5c5c12dedfe3f35737888017ed02e0f7d464443
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "6635994"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877690"
 ---
 # <a name="planning-with-or-without-locations"></a>Se Planlegge med/uten lokasjoner.
 Når det gjelder planlegging med eller uten lokasjonskoder på behovslinjer, fungerer planleggingssystemet på ordinær måte når:  
@@ -25,20 +25,16 @@ Når det gjelder planlegging med eller uten lokasjonskoder på behovslinjer, fun
 
 Hvis imidlertid behovslinjene noen ganger har lokasjonskoder og andre ganger ikke, følger planleggingssystemet visse regler avhengig av oppsettet.  
 
-> [!TIP]
-> Hvis du ofte planlegger for behov i ulike lokasjoner, anbefaler vi at du bruker funksjonen Lagerføringsenheter.
-
 ## <a name="demand-at-location"></a>Behov i lokasjon  
-
 Når planleggingssystemet oppdager behov i en lokasjon (en linje med en lokasjonskode), fungerer det på ulike måter avhengig av 3 viktige oppsettsverdier.  
 
 Under en kjørsel kontrolleres de 3 oppsettsverdiene etter tur, og planleggingen utføres i tråd med dette:  
 
-1. Er det merket av i feltet **Lokasjon obligatorisk** på siden **Lageroppsett**?  
+1.  Er det merket av i feltet **Lokasjon obligatorisk**?  
 
     Hvis ja:  
 
-2. Finnes det lagerføringsenhet for varen?  
+2.  Finnes det lagerføringsenhet for varen?  
 
     Hvis ja:  
 
@@ -46,7 +42,7 @@ Under en kjørsel kontrolleres de 3 oppsettsverdiene etter tur, og planleggingen
 
     Hvis nei:  
 
-3. Inneholder feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** den nødvendige lokasjonskoden?  
+3.  Inneholder feltet **Komponenter ved lokasjon** den nødvendige lokasjonskoden?  
 
     Hvis ja:  
 
@@ -57,18 +53,9 @@ Under en kjørsel kontrolleres de 3 oppsettsverdiene etter tur, og planleggingen
     Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti*, Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme. (Varer som bruker gjenbestillingsprinsippet  *Ordre*, fortsetter med å bruke  *Ordre* samt de andre innstillingene.)  
 
 > [!NOTE]  
-> Dette minimumsalternativet dekker bare eksakt behov. Eventuelle planleggingsparametre som er definert, ignoreres.  
+>  Dette minimumsalternativet dekker bare eksakt behov. Eventuelle planleggingsparametre som er definert, ignoreres.  
 
 Se variasjoner i scenariene nedenfor.  
-
-> [!TIP]
-> Feltet **Lokasjon obligatorisk** på siden **Lageroppsett** og feltet **Komponenter ved lokasjon** på siden Produksjonsoppsett er svært viktige når du skal styre hvordan planleggingssystemet håndterer behovslinjer med/uten lokasjonskoder.
->
-> For produksjonsbehov som kjøpes (når planleggingsmotoren bare brukes til kjøpsplanlegging, og ikke til produksjonsplanlegging), bruker [!INCLUDE [prod_short](includes/prod_short.md)] samme lokasjon for komponenter som den som er angitt på produksjonsordren. Hvis du fyller ut dette feltet, kan du imidlertid omdirigere komponentene til en annen lokasjon.
->
-> Du kan også definere dette for en bestemt LFE ved å velge en annen lokasjonskode i feltet **Komponenter ved lokasjon** på LFE-kortet. Vær imidlertid oppmerksom på at dette sjelden gir mening ettersom planleggingslogikken kan bli fordreid når du planlegger for LFE-komponenten.
-
-Et annet viktig felt er feltet **Maks ordreantall** på **Vare**-kortet. Det angir et maksimalt tillatt antall for et vareordreforslag og brukes hvis varen leveres i en fast transportenhet, som en container, som du vil bruke for eksempel. Når behovet for etterfylling er oppdaget og partistørrelsen er justert til å stemme med angitt gjenbestillingsprinsipp, minkes antallet hvis det er nødvendig, slik at det stemmer med maksimumsordreantallet du definerer for varen. Hvis ytterligere behov gjenstår, beregnes nye ordrer for å oppfylle dem. Vanligvis bruker du dette feltet med produksjonsstrategien Produser til lager.  
 
 ## <a name="demand-at-blank-location"></a>Behov i "tom lokasjon"  
 Selv om det er merket av i feltet **Lokasjon obligatorisk**, tillater systemet at det opprettes behovslinjer uten en lokasjonskode – også kalt *TOM* lokasjon. Dette er et systemavvik fordi ulike oppsettsverdier er rettet mot lokasjoner (se ovenfor), og planleggingsmotoren vil derfor ikke opprette en planleggingslinje for en slik behovslinje. Hvis det ikke er merket av i feltet **Lokasjon obligatorisk**, men noen av lokasjonsoppsettsverdiene finnes, regnes dette også som et avvik, og planleggingssystemet vil reagere med å benytte "minimumsalternativet":   
@@ -146,19 +133,14 @@ Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
 Som du ser i det siste scenariet, kan du bare få et riktig resultat for en behovslinje uten lokasjonskode ved å deaktivere alle oppsettsverdier som gjelder lokasjoner. På samme måte kan du bare få stabile planleggingsresultater for behov i lokasjoner ved å bruke lagerføringsenheter.  
 
-Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.  
+Hvis du ofte planlegger for behov i lokasjoner, anbefaler vi derfor på det sterkeste å bruke funksjonen Lagerføringsenheter.  
 
 ## <a name="see-also"></a>Se også
-
-[Planlegging](production-planning.md)  
+[Planlegging](production-planning.md)    
 [Definere produksjon](production-configure-production-processes.md)  
-[Produksjon](production-manage-manufacturing.md)  
+[Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
+[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

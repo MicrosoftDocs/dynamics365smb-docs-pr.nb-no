@@ -1,21 +1,21 @@
 ---
-title: Om kostregnskap
-description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere ulike problemer.
+title: Om kostregnskap | Microsoft-dokumentasjon
+description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 0d349f186757a38b9473b98fc74bfb490b81892e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6c61a23499735d694b2769730c5e3ce22ac835b1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973677"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184151"
 ---
 # <a name="about-cost-accounting"></a>Om kostregnskap
 Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere:  
@@ -37,7 +37,7 @@ Kostregnskap har følgende hovedkomponenter:
 
 Følgende diagram viser arbeidsflyten i kostregnskap.  
 
-![Oversikt over kostregnskap.](media/costaccountingoverview.png "CostAccountingOverview")  
+![Oversikt over kostregnskap](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kosttyper, kostsentre og kostobjekter  
 Du definerer kosttyper, kostsentre og kostobjekter for å analysere hva kostnadene er, hvor kostnadene kommer fra og hvem som skal bære kostnadene.  
@@ -72,7 +72,4 @@ De fleste rapporter og statistikker er basert på bokførte kostposter. Du kan a
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
  [Finans](finance.md)   
  [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

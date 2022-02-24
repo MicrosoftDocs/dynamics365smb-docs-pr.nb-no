@@ -1,28 +1,28 @@
 ---
-title: Servicesamsvar og serviceavtale
-description: Fra et serviceperspektiv lever Business Central opptil de strengt kravene og overholdelse av serviseavtale i flere ISO-sertifiseringer og bransjespesifikke sertifiseringer.
+title: Servicesamsvar | Microsoft-dokumentasjon
+description: Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til Business Central.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323671"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185908"
 ---
 # <a name="service-compliance"></a>Servicesamsvar
+Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett  
-
-Business Central er en skytjeneste med en global rekkevidde og skala som kjører på en av verden største hyperskalainfrastrukturer, Microsoft Azure, med datasentre i regioner over hele verden. Ved kjøring av en skytjeneste er det også behov for samsvar med visse standarder innen sikkerhet og samsvar, og fra et serviceperspektiv lever Business Central opp til de strenge kravene i flere ISO- og bransjebestemte sertifiseringer.
+Business Central er en skytjeneste med en global rekkevide og skala som kjører på en av verden største hyperskalainfrastrukturer, Microsoft Azure, med datasentre i regioner over hele verden. Ved kjøring av en skytjeneste er det også behov for samsvar med visse standarder innen sikkerhet og samsvar, og fra et serviceperspektiv lever Business Central opp til de strenge kravene i flere ISO- og bransjebestemte sertifiseringer.
 
 Finner du en detaljert liste over [Skysamsvarstilbud for Business Central her](https://aka.ms/d365-compliance-list).
 
@@ -30,7 +30,9 @@ Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se
 
 ## <a name="service-terms"></a>Tjenestevilkår
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE [prodshort](../includes/prodshort.md)] online er underlagt [Moderne livssykluspolicy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Vilkårene i servicenivåavtalen er beskrevet i dokumentet du kan laste ned fra delen **Servicenivåavtaler for Microsoft Online Services** på siden [Lisensvilkår](https://www.microsoft.com/licensing/product-licensing/products).  
+
+I tillegg kan du overvåke leietakers tilstand og angi oppgraderingsvinduer i [Administrasjonssenter for leiertaker](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
 ## <a name="see-also"></a>Se også
 
@@ -38,7 +40,4 @@ Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se
 [Programsamsvar](compliance-application-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

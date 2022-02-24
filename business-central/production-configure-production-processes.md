@@ -1,24 +1,23 @@
 ---
-title: Konfigurere produksjonsprosesser
+title: Konfigurere produksjonsprosesser | Microsoft-dokumentasjon
 description: Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/22/2020
+ms.author: sgroespe
+ms.openlocfilehash: a317d80b9aa3a82da939d39f515fb4e0d37e887a
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972359"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324345"
 ---
 # <a name="setting-up-manufacturing"></a>Definere produksjon
-
 Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.
 
 Operatører og maskiner er representert i systemet som produksjonsressurser som kan organiseres i arbeidssentre og arbeidssentergrupper. Når disse ressursene er opprettet, kan de fylles med operasjoner i henhold til varens definerte materialstruktur (stykkliste) og prosesstruktur (ruting), og i henhold til produksjonsressurs- eller arbeidssenterkapasitet. Du kan også angi produksjonskapasitet for hver enkelt ressurs. Kapasitet defineres av tilgjengelig arbeidstid for produksjonsressurser og arbeidssentre, og styres av kalendere for hvert nivå. En arbeidssenterkalender angir virkedager eller arbeidstimer, skift, ferier og fravær, som igjen angir arbeidssenterets disponible kapasitet (vanligvis målt i minutter). Alt dette bestemmes av definerte effektivitets- og kapasitetsverdier.  
@@ -43,11 +42,8 @@ Når du har definert produksjonen, kan du planlegge og kjøre produksjonsordrer.
 |Kjargjør arbeidssentre og ruter til å representere underleveranse-produksjonsoperasjoner.|[Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se også
-[Produksjon](production-manage-manufacturing.md)
+[Produksjon](production-manage-manufacturing.md)    
 [Planlegging](production-planning.md)   
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

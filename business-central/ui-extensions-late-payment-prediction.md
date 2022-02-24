@@ -1,37 +1,40 @@
 ---
-title: Forutsi forsinket betaling for salgsdokumenter
-description: Dette emnet forklarer hvordan du bruker prognosemodellen vår til å forutse om en faktura blir betalt i tide.
+title: Forutsi forsinket betaling for salgsdokumenter | Microsoft-dokumentasjon
+description: Bruk prognosemodellen vår til å forutse om en faktura blir betalt i tide.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 12/20/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 613d20e3b4132cdf797586441bff0688a2076692
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940829"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315507"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling
-
+# <a name="the-late-payment-prediction-extension"></a>Utvidelsen Prognose for forsinket betaling  
 Effektiv administrasjon av salg er viktig for den generelle økonomiske tilstanden statusen til en bedrift. Utvidelsen Prognose for forsinket betaling kan hjelpe deg med å redusere utestående og finjustere innkrevingsstrategien din ved å forutse om salgsfakturaer blir betalt i tide. Hvis en betaling er forutsatt å bli sen, kan du bestemme deg for å justere betalingsbetingelsene eller betalingsmåten for kunden.
 
+## <a name="what-are-predictions-based-on"></a>Hva er prognoser basert på?  
+Utvidelsen Prognose for forsinket betaling bruker en prognosemodell vi utviklet i Azure Machine Learning Studio og lærte opp ved hjelp av data som er representative for en rekke små og mellomstore bedrifter. Selv om vi allerede har opplært og evaluert den, fortsetter prognosemodellen vår å lære fra dataene dine. Jo mer du bruker modellen, og jo flere data du mater inn i den, jo mer nøyaktige blir prognosene. Som standard vurderer utvidelsen modellen og oppdaterer prognosene på ukentlig basis. Du kan imidlertid oppdatere prognoser når som helst ved å velge **Oppdater prognose**-handlingen på siden **Kundeposter**.  
+
+> [!Note]
+> Vi bruker litt av databehandlingstiden din hver uke når vi evaluerer modellen og oppdaterer prognosene. I tillegg til å oppdatere prognosene manuelt er andre handlinger også bruke databehandlingstid når du lærer opp modellen (som du kan gjøre hvis du nylig har lagt inn data), og når dur evaluere modellen (som undersøker kvaliteten på modellen).
+
 ## <a name="getting-started"></a>Komme i gang
+Utvidelsen er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], og vi tilbyr et abonnement på Azure Machine Learning. Abonnementet tilbyr 30 minutter databehandlingstid per måned. Hvis du trenger mer enn det, kan du opprette en egen prognosemodell og bruke den i stedet. Hvis du vil ha mer informasjon, kan du se delen _Bygge din egen prognosemodell_ senere i dette emnet.  
 
 Når du åpner et bokført salgsdokument, vises en melding øverst på siden. Hvis du vil bruke utvidelsen Prognose for forsinket betaling, kan du velge dette ved å velge **Aktiver** i meldingen. Du kan også du sette opp utvidelsen manuelt. For eksempel hvis du angrer på at du lukket meldingen.  
 
 Hvis du vil aktivere utvidelsen manuelt, følger du denne fremgangsmåten:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
-2. Fyll ut feltene etter behov.
-
-> [!Note]
-> Hvis du velger å aktivere utvidelsen manuelt, må du være klar over at [!INCLUDE[prod_short](includes/prod_short.md)] ikke tillater at du gjør dette hvis kvaliteten på modellen er lav. Kvaliteten på modellen angir hvor nøyaktig modellens prognoser sannsynligvis vil være. Flere faktorer kan påvirke kvaliteten på en modell. Dette var for eksempel ikke er nok data, eller dataene inneholdt ikke nok variasjon. Du kan vise kvaliteten på modellen du bruker, på siden **Oppsett av prognose for forsinket betaling**. Du kan også angi e minimumsgrense for modellkvaliteten.   
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tjenestetilkoblinger**, og velg deretter den relaterte koblingen.  
+2. Velg **Oppsett av prognose for forsinket betaling**, og deretter fyller du ut feltene etter behov.
 
 ## <a name="viewing-all-payment-predictions"></a>Vis alle betalingsprognoser
 Hvis du aktiverer utvidelsen, er flisen **Betalinger forutsatt til å være forsinket** tilgjengelig i **Forretningsleder**-rollesenteret. Flisen viser hvor mange betalinger som er forutsatt å bli sene, og lar deg åpne siden **Kundeposter**, der du kan se nærmere på de bokførte fakturaene. Det finnes tre kolonner til å være oppmerksom:  
@@ -41,7 +44,7 @@ Hvis du aktiverer utvidelsen, er flisen **Betalinger forutsatt til å være fors
 * **Prognosekonfidens %** - viser den faktiske prosenten bak prognoserangeringen. Denne kolonnen vises ikke som standard, men kan du legge den til hvis du vil. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 > [!Tip]
-> Kundeposter-siden viser også en faktaboks på høyre side. Når du ser prognoser, informasjon i vinduet **Kundeinformasjon** kan være nyttig. Når du velger fakturaen i oversikten, viser delen informasjon om kunden. Du kan også handle umiddelbart. Hvis en kunde ofte glemmer å betale, kan du åpne kundekortet fra faktaboksen og sperre kunden for fremtidig salg.  
+> Kundeposter-siden viser også en faktaboks på høyre side. Når du ser prognoser, informasjon i vinduet **Kundeinformasjon** kan være nyttig. Når du velger fakturaen i oversikten, viser delen informasjon om kunden. Du kan også agere umiddelbart. Hvis en kunde ofte glemmer å betale, kan du åpne kundekortet fra faktaboksen og sperre kunden for fremtidig salg.  
 
 ## <a name="viewing-a-payment-prediction-for-a-specific-sales-document"></a>Vise en betalingsprognose for et spesifikt salgsdokument
 Du kan også forutse sen betalinger direkte. På sidene **Tilbud**, **Ordrer** og **Salgsfakturaer** kan du bruke feltet **Forutsi betaling** til å generere en prognose for salgsdokumentene du ser på.
@@ -49,72 +52,23 @@ Du kan også forutse sen betalinger direkte. På sidene **Tilbud**, **Ordrer** o
 <!--## Scheduling Payment Predictions
 On the **Late Payment Prediction Setup** page you can schedule updates to payment predictions for a time that is convenient for you. -->
 
-## <a name="design-details"></a>Designdetaljer
-Microsoft distribuerer og opererer med mange forutsigbare webtjenester i alle områder der [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig. Tilgang til disse webtjenestene er inkludert i [!INCLUDE[prod_short](includes/prod_short.md)]-abonnementet. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/)-nettstedet.
+## <a name="building-your-own-predictive-model"></a>Bygge din egen prognosemodell
+Er du interessert i å bygge din egen prognosemodell? Du kan bruke Azure Machine Learning Studio til å bygge din egen prognosemodell og bruke den i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil bruke din egen modell, må du abonnere på Azure Machine Learning. Hvis du vil ha mer informasjon, se [Dokumentasjon for Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765).  
 
-Webtjenestene fungerer i tre modi:
-- Opplæringsmodell. Webtjenesten lærer opp modellen basert på det angitte datasettet.
-- Evalueringsmodell. Webtjenesten kontrollerer om modellen returnerer pålitelige data for det angitte datasettet.
-- Forutsigelsesmodell. Webtjenesten bruker modellen i det angitte datasettet til å lage en forutsigelse.
+Vi tilbyr imidlertid en enklere måte for deg å opprette og bruke din egen prognosemodell. Du kan dele data fra fakturaene dine med [prognoseeksperimentet vårt for Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?linkid=2086310) i Azure Machine Learning, og la eksperimentet opprette og lære opp en prognisemodell basert på dataene dine. Hvis du vil dele dataene, går du til siden **Oppsett av prognose for forsinket betaling** og velger **Opprett min modell**. Senere prognoser baserer seg på modellen og dataene dine, ikke våre.  
 
-Disse webtjenestene er tilstandsløse, noe som betyr at de bare bruker data til å beregne forutsigelser etter behov. De lagrer ikke data. 
-
-> [!NOTE]  
->   Du kan bruke din egen prediktive webtjeneste i stedet for vår. Hvis du vil ha mer informasjon, kan du se [Opprette og bruke din egen prediktive webtjeneste for prognose for forsinket betaling](#AnchorText). 
-
-### <a name="data-required-to-train-and-evaluate-the-model"></a>Data som kreves for å lære opp og evaluere modellen 
-For hver **kundepost** som har en tilhørende **bokført salgsfaktura**:
-- Beløp (LV) inkl. mva.
-- Betalingsbetingelser i dager beregnes som **forfallsdato** minus **bokføringsdato**.
-- Om det finnes en kreditnota som er utlignet. 
-
-I tillegg blir posten supplert med aggregerte data fra andre fakturaer som er knyttet til samme kunde. Dette inkluderer følgende:
-
-- Totalt antall og beløp for betalte fakturaer
-- Totalt antall og beløp for fakturaer som ble betalt for sent
-- Totalt antall og beløp for utestående fakturaer
-- Totalt antall og beløp for utestående fakturaer som allerede er for sene
-- Gjennomsnittlig antall dager for sent
-- Forhold: antall betalte fakturaer og fakturaer betalt for sent
-- Forhold: beløp for betalte fakturaer og fakturaer betalt for sent
-- Forhold: antall utestående fakturaer og fakturaer som er utestående eller betalt for sent
-- Forhold: beløp for utestående fakturaer og fakturaer som er utestående eller betalt for sent
 > [!Note]
-> Informasjonen om kunden er ikke inkludert i datasettet.
+>   Kvaliteten på modellen er viktig. Når prognoseeksperimentet vårt bruker dataene dine til å lære opp en modell, fastsetter det en kvalitsverdi for modellen i prosent. Modellkvaliteten angir hvor nøyaktig modellens prognoser sannsynligvis vil være. Flere faktorer kan påvirke kvaliteten på en modell. Dette kan for eksempel være at det ikke er nok data eller dataene ikke inneholder nok variasjon. Du kan vise kvaliteten på modellen du bruker, på siden **Oppsett av prognose for forsinket betaling**. Du kan også angi e minimumsgrense for modellkvaliteten. Modeller med en kvalitetsverdi under grensen, vil ikke produsere prognoser.  
 
-### <a name="standard-model-and-my-model"></a>Standardmodell og Min modell
-Utvidelsen Prognose for forsinket betaling inneholder en prognosemodell som ble lært opp ved hjelp av data som er representative for en rekke små og mellomstore bedrifter. Når du starter bokføring av fakturaer og mottaksbetalinger, vil [!INCLUDE[prod_short](includes/prod_short.md)] vurdere om standardmodellen passer til din forretningsflyt. 
+### <a name="to-use-your-model-instead-of-ours"></a>Slik bruker din modellen din i stedet for vår  
+Hvis du oppretter din egen modell i Azure Machine Learning Studio, uten å bruke verktøyene i [!INCLUDE[d365fin](includes/d365fin_md.md)], må du angi legitimasjon slik at [!INCLUDE[d365fin](includes/d365fin_md.md)] får tilgang til modellen. Det er et par trinn for å gjøre dette:
 
-Hvis det viser seg at prosessene ikke samsvarer med standardmodellen, kan du likevel bruke filtypen, men du må få mer data. Fortsett bare å bruke [!INCLUDE[prod_short](includes/prod_short.md)].
-> [!Note]
-> Vi bruker litt av databehandlingstiden din hver uke når vi evaluerer og lærer opp modellen på nytt. 
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Oppsett av prognose for forsinket betaling**, og velg deretter den relaterte koblingen.  
+2. Merk av for **Bruk Azure-abonnementet mitt**.  
+3. I vinduet **Valgt modell** velger du **Min modell**.  
+4. På hurtigfanen **Legitimasjon for min modell** angir API URL-adressen og API-nøkkelen for modellen.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kjører opplæring og evaluering automatisk når det er nok betalte og forfalte fakturaer. Du kan imidlertid kjøre modellen manuelt når du vil.
-
-#### <a name="to-train-and-use-your-model"></a>Slik lærer du opp og bruker modellen
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
-2. I vinduet **Valgt modell** velger du **Min modell**.
-3. Velg handlingen **Opprett min modell** for å lære opp dataene dine.  
-
-## <a name="create-and-use-your-own-predictive-web-service-for-late-payment-prediction"></a><a name="AnchorText"> </a>Opprette og bruke din egen prediktive webtjeneste for prognose for forsinket betaling
-Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell som heter **Prognoseeksperiment for Dynamics 365 Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Azure AI-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
-
-1. Åpne en nettleser, og gå til [Azure AI-galleri](https://go.microsoft.com/fwlink/?linkid=2086310).  
-2. Søk etter **Prognoseeksperiment for Dynamics 365 Business Central**, og åpne deretter modellen i Azure Machine Learning Studio.  
-3. Bruke Microsoft-kontoen til å registrere deg for et arbeidsområde, og kopier deretter modellen.  
-4. Kjør modellen, og publisere den som en webtjeneste.  
-5. Noter URL-API og API-nøkkel. Du vil bruke disse legitimasjonene for et oppsett for kontantstrømprognoser.  
-6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av prognose for forsinket betaling** og velg den relaterte koblingen.  
-7. Merk av for **Bruk Azure-abonnementet mitt**.
-8. På hurtigfanen **Legitimasjon for min modell** angir API URL-adressen og API-nøkkelen for modellen.  .  
-
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
-
-## <a name="see-also"></a>Se også
-
-[Dokumentasjon for Azure Machine Learning Studio](/azure/machine-learning/classic/)  
+## <a name="see-also"></a>Se også  
+[Dokumentasjon for Azure Machine Learning Studio](https://go.microsoft.com/fwlink/?linkid=861765)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)  
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Bruke kunstig intelligens i Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)  

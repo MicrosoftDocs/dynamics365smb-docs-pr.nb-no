@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Integrasjon med lagerbeholdning
+title: Designdetaljer – Integrasjon med lagerbeholdning | Microsoft-dokumentasjon
 description: Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling og i lagerjustering.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 209bf5b50f362b11d0ba4fdc6ae0cab47a3622fa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bbc9c0e55041f4584ae7609f727179737adaa041
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319202"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185351"
 ---
 # <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrasjon med lagerbeholdning
 Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling og i lagerjustering.  
@@ -48,5 +48,3 @@ Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
  [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

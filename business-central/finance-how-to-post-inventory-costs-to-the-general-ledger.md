@@ -1,25 +1,24 @@
 ---
-title: Avstemme lagerkost med finans
-description: Ved slutten av en regnskapsperiode må en sekvens med oppgaver innen kostkontroll og sporing utføres for å rapportere en korrekt og balansert lagerverdi.
+title: Bokføre lagerkost i finans | Microsoft-dokumentasjon
+description: Beskriver hvordan du håndterer de fysiske produktene du handler med, for eksempel håndtering av varene på lageret.
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.search.form: 9297
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: e59328df68eb4d936ea472c55a160be5fe13ecd6
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ce4b573500967e6981fa2cba9b306324f2f43339
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971633"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183359"
 ---
 # <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
-
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
 
 Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring** på siden **Lageroppsett**.
@@ -27,8 +26,7 @@ Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring**
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
 ## <a name="to-post-inventory-costs-manually"></a>Slik bokfører du lagerkost manuelt
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokfør lagerkost i finans** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokfør lagerkost i Finans**, og velg deretter den relaterte koblingen.
 2. Bokfør lagerkost manuelt i Finans ved å starte kjørselen. Når du kjører denne kjørselen, opprettes finansposter på grunnlag av verdiposter. Du kan bokføre postene slik at de summeres per bokføringsgruppe.
 
 > [!NOTE]  
@@ -71,24 +69,9 @@ De neste kolonnene viser totalene for de samme kontotypene som er beregnet fra f
 
 Velg beløpet i et av totalfeltene for å vise postene i lagerrapporten som ble brukt til å beregne totalene. For lagertotaler er postene i lagerrapporten summene av verdipostene for varene. For finanstotalene er postene i lagerrapporten summene fra finanspostene.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere kostnader og avstemme med Finans
-Andre rapporter, sporingsfunksjoner og et spesielt avstemmingsverktøy er tilgjengelige for revisoren eller kontrolløren som har ansvaret for å rapportere en riktig og balansert lagerverdi til finansavdelingen.
-
-Tabellen nedenfor beskriver dem.    
-
-|**Hvis du vil**|**Se**|  
-|------------|-------------|  
-|Vise lagerverdien for utvalgte varer, inkludert informasjon om antall og verdier for økninger eller reduksjoner i lageret i løpet av en utvalgt periode.|Rapporten **Lagerverdisetting**|  
-|Vise lagerverdien for utvalgte produksjonsordrer i VIA-beholdningen (varer i arbeid), for eksempel antall og verdier for forbruk, kapasitetsbruk og produksjon fra produksjonsordrer som pågår.|Rapporten **Lagerverdisetting - VIA**|  
-|Vise lagerverdien for utvalgte varer, inkludert faktisk og forventet kost på den angitte datoen.|Rappporten **Lagerverdisetting - kostspesifikasjon**|  
-|Bruke en rapport til å analysere årsakene til prisavvik eller få innsikt i kostandelen for solgte varer (vareforbruk).|Rapporten **Spesifikasjon av kostandeler**|  
-
 ## <a name="see-also"></a>Se også  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

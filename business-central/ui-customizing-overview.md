@@ -1,22 +1,22 @@
 ---
-title: Tilpasse Business Central
-description: Les om de forskjellige måtene å tilpasse Business Central på, for å forbedre tilgang til funksjonalitet og funksjoner du trenger mest for det daglige arbeidet.
+title: Tilpasse Business Central | Microsoft-dokumentasjon
+description: Finn ut hvordan du tilpasser Business Central og legger til funksjoner.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 7294eeb0c03dc1c494ce88e6d4e366b491070acf
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 3c70df2d36316337505a0fee3b0872d3ee5d213a
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012764"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315639"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine får tilgang til funksjonene, funksjonaliteten og dataen du trenger, på en måte som passer til dine daglige arbeidsoppgaver. I denne tabellen beskrives hvem som ser endringene, avhengig av hva du gjør.
@@ -31,12 +31,9 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 |Aktiver farger i rollesentre til signalviktighet.|Definer bunke-ikoner som vises i rollesentrene for brukerne, med en indikator som endrer farge basert på dataverdiene i bunke-ikonene.|Alle brukere i en bestemt bedrift.|[Definere en farget indikator for bunke-ikoner](admin-how-set-up-colored-indicator-on-cues.md)|
 |Installere en utvidelse|Utvidelser er som små programmer som føyer til funksjonalitet, endre virkemåten, gir deg tilgang til nye elektroniske tjenester og så videre. Microsoft tilbyr for eksempel en utvidelse som kan gi integrering med PayPal Payments Standard.|Alle brukere i alle selskaper.|[Tilpasse ved hjelp av utvidelser](ui-extensions.md)|
 > [!NOTE]
-> Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
+> Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, kan du se
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

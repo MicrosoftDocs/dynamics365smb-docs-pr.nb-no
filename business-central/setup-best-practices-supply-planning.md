@@ -1,21 +1,21 @@
 ---
-title: Anbefalte fremgangsmåter for oppsett – Forsyningsplanlegging
-description: Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.
+title: Anbefalte fremgangsmåter for oppsett -– forsyningsplanlegging | Microsoft-dokumentasjon
+description: Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320034"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192174"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
 Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.  
@@ -34,7 +34,4 @@ Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanleggin
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

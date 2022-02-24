@@ -1,27 +1,27 @@
 ---
-title: Definer varer og lokasjoner for lagerstyring
-description: Konfigurer lagerlokasjoner for til å bruke lagerstyring, som gir deg ny funksjonalitet bidrar til å sikre at du styrer lageret mest mulig effektivt.
+title: Definere du varer for lagerstyring | Microsoft-dokumentasjon
+description: Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 5e76ef000ffc9242cf98e11be353b604990bf5ea
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438035"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2876408"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
 Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt. For å kunne utnytte denne funksjonaliteten fullt ut må du angi tilleggsopplysninger om varene, noe som i neste omgang hjelper å utføre de nødvendige beregningene for å foreslå de mest effektive og praktiske måtene å utføre lageraktiviteter på. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).
 
 ## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Slik definerer du varer for lagerstyring  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.  
 2.  Åpne kortet for varen du vil definere for lagerstyring.
 3. På hurtigfanen **Lager** på varekortet fyller du ut feltene for å definere hvordan varene skal håndteres i lageret.  
 4.  Velg handlingen **Enheter**.
@@ -33,7 +33,7 @@ Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengel
 Lagerstyring gir deg tilgang til avanserte lageroppsettsfunksjoner som forbedrer effektiviteten og datapåliteligheten. Hvis du skal bruke denne funksjonaliteten, må du først definere et antall parametere for lagerlokasjonen.  
 
 Hvis du vil bruke lagerstyring, må du aktivere funksjonaliteten på lokasjonskortet.    
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil bruke lagerstyring, og velg deretter handlingen **Rediger**.  
 3.  På hurtigfanen **Lager** merker du av for **Bruk Lagerstyring**.  
 
@@ -49,7 +49,7 @@ Du kan også definere lagerklassekoder hvis lageret har varer som trenger ulike 
 Du er nå klar til å sette opp sonene, hvis du vil bruke soner i lageret. Hvis du bruker soner, vil det redusere antall felt du må fylle ut når du setter opp hyllene, fordi hyller som er opprettet med soner, arver flere egenskaper fra sonen. Sonene kan gjøre det enklere for nye eller midlertidig ansatte å orientere seg i lageret. Merk at flyt kontrolleres av hyller, det er derfor mulig å operere med hyller og bare én sone.  
 
 ## <a name="to-set-up-a-zone-in-your-warehouse"></a>Slik setter du opp en sone i lageret  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
 3.  Fyll ut de nødvendige feltene på siden **Soner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -68,7 +68,4 @@ I tillegg må du opprette plasseringsmaler og opptellingsperioder. Hvis du vil h
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

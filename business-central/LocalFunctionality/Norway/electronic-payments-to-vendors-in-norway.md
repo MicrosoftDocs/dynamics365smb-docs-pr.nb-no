@@ -1,26 +1,26 @@
 ---
 title: Elektroniske betalinger til leverandører i Norge
-description: Norske forbedringer omfatter automatisk betaling til leverandører i den norske versjonen av Business Central.
+description: Forbedringer i den norske versjonen inkluderer automatisk betaling til leverandører.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: ff1a02bc6737ba5c13f42df8a18043741c663da9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7ed625ee0c35a570d1e62ee44bd5b46f358cd9b6
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320798"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181042"
 ---
 # <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
-[!INCLUDE[prod_short](../../includes/prod_short.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
+[!INCLUDE[d365fin](../../includes/d365fin_md.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
 
 - Søke etter fakturaer som er forfalt, basert på ulike kriterier.  
 - Sende betalinger til banken.  
@@ -37,8 +37,8 @@ Elektroniske betalinger behandles på følgende måte:
 
 1.  Betalingsforslaget kjøres i den elektroniske betalingsfunksjonen og overføres til banken ved hjelp av bankens programvare.  
 2.  Bankens programvare mottar betalingene og overfører dem til banken.  
-3.  Banken mottar betalingene og sender den første mottaksreturen til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare.  
-4.  Banken utfører betalingene og sender avregningsreturen (andre mottaksretur) til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare, hvor betalingene bokføres.  
+3.  Banken mottar betalingene og sender den første mottaksreturen til [!INCLUDE[d365fin](../../includes/d365fin_md.md)] via bankens programvare.  
+4.  Banken utfører betalingene og sender avregningsreturen (andre mottaksretur) til [!INCLUDE[d365fin](../../includes/d365fin_md.md)] via bankens programvare, hvor betalingene bokføres.  
 
 ## <a name="vendor-payment-requirements"></a>Krav til leverandørbetalinger  
 Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du kan ikke opprette en betalingsfil for overføringer til banken. Følgende kriterier må oppfylles ved når du behandler betalinger til leverandører:  
@@ -66,6 +66,3 @@ Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

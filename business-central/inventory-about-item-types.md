@@ -1,37 +1,38 @@
 ---
-title: Forstå elementtyper
-description: Du kan justere lagerverdien for en vare med lagermetoden FIFO eller Gjennomsnitt, når varekost endres av andre årsaker enn transaksjoner.
+title: Forstå Varetyper| Microsoft-dokumentasjon
+description: Du kan justere lagerverdien for en vare, for eksempel med lagermetoden FIFO eller Gjennomsnitt, når varekost endres av andre årsaker enn transaksjoner.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059625"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454299"
 ---
 # <a name="about-item-types"></a>Om varetyper
-I **Type**-feltet på **Varekort**-siden kan du velge hva varen brukes til i virksomheten din, som påvirker i hvilken grad du kan administrere varen på lageret. Tabellen nedenfor viser og beskriver de tre varetypene som er tilgjengelige.
+I feltet **Type** på siden **Varekort** kan du velge hva varen brukes for i din bedrift, og derfor hvordan den håndteres i programmet. Det finnes tre alternativer:
 
 |Alternativ|Vanlig formål|
 |------|-----------|
-|Lager|Fysiske ting, for eksempel sykler, telefoner og skrivebord, som du ønsker å kunne bruke alle lagerprosessene for. Dette kan også omfatte ikke-fysiske varer, for eksempel programvarelisenser og abonnementer, hvis varene har identifikasjonsnumre, for eksempel serienumre. Du kan fullt ut spore vareverdier og tilgjengelighet på lager.|
-|Ikke-lagervarer|Ikke-lagervarer er vanligvis fysiske ting, for eksempel bolter eller penner, som en virksomhet bruker, men ikke vil spore fullt ut på lageret. Årsaken kan for eksempel være at de er lavkostnadsvarer og bare brukes internt.|
-|Service|En arbeidstidsenhet, for eksempel en konsulenttime, for begrenset selskapsstøtte.|
+|Lager|En fysisk enhet, for eksempel en sykkel, for full selskapsstøtte.|
+|Ikke-lagervarer|En fysisk enhet, for eksempel en bolt, for begrenset selskapsstøtte, for eksempel fordi varen bare brukes internt og har en lav kostnad.|
+|Tjeneste|En arbeidstidsenhet, for eksempel en konsulenttime, for begrenset selskapsstøtte.|
 
-> [!NOTE]
-> Typene **Service** og **Ikke-lagervarer** støtter ikke sporing av lagerantall og -verdier. Bare utvalgte varetransaksjonstyper og funksjoner støttes.
+**Lager**-typen omfatter fullstendig sporing av lagerantall og verdi. Derfor støttes alle varetransaksjonstyper, og varer av typen Lager kan brukes med alle funksjoner for håndtering av varer.
 
-Tabellen nedenfor viser funksjonene som de tre varetypene støtter.
+Typene **Service** og **Ikke-lagervarer** involverer ikke sporing av lagerantall og verdi. Derfor støttes bare utvalgte varetransaksjonstyper og funksjoner.
+
+De tre varetypene støtter disse funksjonene henholdsvis.
 
 |Varetype|Salg|Kjøp|Jobbforbruk|Serviceforbruk|Monteringsforbruk|Produksjon Forbruk|Monteringsavgang|Produksjonsavgang|Lokasjon, Overføring|Fysisk opptelling|Revaluering av lager|Beholdning og kostberegning|Varesporing|Reservasjon|Lagerstyring|Planlegging|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -56,7 +57,4 @@ Kundenes varer som du utfører service på, for eksempel en skriver, kalles serv
 [Definere lager](inventory-setup-inventory.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,21 +1,21 @@
 ---
-title: Legge til vedlegg, koblinger og merknader i poster
-description: Legg til en hyperkobling i et dokument eller et nettsted til en bestemt post, for eksempel en kunde eller et dokument.
+title: Legge til vedlegg, koblinger og merknader i poster | Microsoft Docs
+description: Legg til en hyperkobling i et dokument eller et webområde til en bestemt post, for eksempel en kunde eller et dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/27/2020
+ms.author: sgroespe
+ms.openlocfilehash: 9d456fba507977121809124d1de0d23a098406f5
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588783"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324417"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
@@ -26,19 +26,17 @@ Hvis du vil vise eller endre noen av disse vedlagte informasjonstypene, må du f
 Vedlegg, koblinger og merknader forblir tilknyttet når kortet eller dokumentet behandles i andre statuser, for eksempel fra en pågående ordre til en bokført salgsfaktura. Ingen av vedleggstypene blir imidlertid skrevet ut fra systemet, for eksempel ved utskrift eller lagring til en fil.
 
 > [!NOTE]
-> Når du delvis sender og fakturerer en salgsordre eller bestilling, blir vedlegget bare knyttet til den endelige fakturaen for ordren. Når du på samme måte fakturerer ved hjelp av funksjonen Periodiseringer, knyttes vedlegget til finanspostene for bilaget, men ikke for periodiseringspostene.
->
-> Hvis du sletter en ordre før den faktureres, fjernes også vedlegget. Når du fakturerer bestillinger ved hjelp av handlingen Hent mottakslinjer fra en kjøpsfaktura, blir ikke vedlegget på bestillingene lagt til i kjøpsfakturaen.
+> Når du delvis sender og fakturerer en ordre eller bestilling, blir vedlegget bare knyttet til den endelige fakturaen for den ordren. På samme måte, når du fakturerer ved hjelp av Periodiseringer-funksjonen, knyttes vedlegget bare til finanspostene for bilaget, men ikke for periodiseringspostene.
 
 ## <a name="to-attach-a-file-to-a-purchase-invoice"></a>Knytte en fil til en kjøpsfaktura
-Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i et kort eller dokument. Dette er for eksempel nyttig når du vil lagre fakturaen for en leverandør som en PDF-fil på den relaterte kjøpsfakturaen i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan legge ved alle typer filer, som inneholder tekst, bilder eller video, i et kort eller dokument. Dette er for eksempel nyttig når du vil lagre fakturaen for en leverandør som en PDF-fil på den relaterte kjøpsfakturaen i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!NOTE]
 > Filer som er knyttet til funksjonen for innkommende dokumenter, tas ikke med i kategorien **Vedlegg**. Se [Innkommende dokumenter](across-income-documents.md) for mer informasjon.
 
 Følgende fremgangsmåte er basert på en kjøpsfaktura. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Åpne salgsordren som du vil legge til en fil i.
 3. Åpne fanen **Vedlegg** i faktaboksen.
 4. Velg verdien bak feltet **Dokumenter**, for eksempel 0.
@@ -58,17 +56,17 @@ Når du skal lagre et dokument som en fil, kan du bruke handlingen **Legg ved so
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er de samme for alle støttede dokumenter.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg en ordre, og velg deretter handlingen **Legg ved som PDF**.
 
 En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Legge til en kobling fra varekortet
-Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.
+Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse eller bane. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.
 
 Følgende fremgangsmåte er basert på et varekort. Trinnene er lignende for alle andre støttede kort og dokumenter.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
 2. Velg varen du vil legge til en kobling fra, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I **Koblinger** velger du **+**-ikonet.
 4. I vinduet **Koblingsadresse** angir du koblingen.
@@ -88,7 +86,7 @@ Du kan skrive et notat på et dokument eller kort, for eksempel for å formidle 
 
 Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle andre støttede dokumenter og kort.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren du vil skrive en merknad på, og velg deretter kategorien **Vedlegg** i faktaboksen.
 3. I delen **Merknader** velger du **+**-ikonet.
 4. I **Merknad**-feltet skriver du hva som helst, for eksempel "Dette er en hasteordre".
@@ -97,9 +95,6 @@ Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle a
 Merknaden er nå knyttet til ordren.
 
 ## <a name="see-also"></a>Se også  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

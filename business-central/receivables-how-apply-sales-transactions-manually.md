@@ -1,25 +1,23 @@
 ---
-title: Avstem kundebetalinger med innbetalingskladden eller fra kundeposter
+title: Utligne kundeposter for å avstemme betalinger | Microsoft-dokumentasjon
 description: Beskriver hvordan du utligner kundeinnbetalinger eller -refusjoner mot én eller flere åpne kundeposter, og avstemmer kundebetalinger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
-ms.search.form: 255
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 74031e19332bb258323559a51fa22c486c880edb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100954"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192030"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Avstem kundebetalinger med innbetalingskladden eller fra kundeposter
-
 Når du mottar en innbetaling fra en kunde eller foretar en refusjon, må du bestemme om du vil utligne betalingen eller refusjonen for å lukke én eller flere åpne debet- eller kreditposter. Du kan angi beløpet du vil utligne. Du kan for eksempel bruke akontobetalinger kundeposter. Lukke kundeposter sørger for at informasjon som kundestatistikk, kontoutdrag og rentenotaer er riktig.
 
 > [!TIP]  
@@ -39,7 +37,7 @@ Du kan utligne kundeposter på flere måter:
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Fylle ut og bokføre en innbetalingskladd
 En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokføre transaksjoner til finans-, bank-, kunde-, leverandør- og aktivakonti. Du kan utligne betalingen mot en eller flere debetposter når du bokfører betalingen, eller du kan utligne fra de bokførte postene senere.
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladd** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Rediger kladd**.
 3. Velg den aktuelle kjørselen i **Bunkenavn**-feltet.
 4. Fyll ut feltet **Bokføringsdato**.  
@@ -55,7 +53,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 12. Bokfør kladden.
 
 ## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Slik utligner du en betaling mot én kundepost
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladd** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Rediger kladd**.
 3. På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.
 4. Angi **Betaling** i **Bilagstype**-feltet.
@@ -70,7 +68,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 11. Bokfør innbetalingskladden.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Slik utligner du en utbetaling mot flere kundeposter
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladd** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Rediger kladd**.
 3. På den første kladdelinjen angir du aktuelle opplysninger om posten som skal utlignes.
 4. Angi **Betaling** i **Bilagstype**-feltet.
@@ -86,7 +84,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 12. Bokfør innbetalingskladden.
 
 ## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Slik utligner du en kreditnota mot én kundepost
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle salgskreditnotaen.
 3. Hvis du vil utligne kreditnotaen mot én enkelt kundepost når du bokfører, velger du posten som du vil utligne betalingen mot, i feltet **Utligningsbilagsnr.**.
 4. På linjen i feltet **Beløp som skal utlignes** skriver du inn beløpet du vil utligne for posten.  
@@ -96,7 +94,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 6. Bokfør kreditnotaen.
 
 ## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Slik utligner du en kreditnota mot flere kundeposter
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle salgskreditnotaen.
 3. Hvis du vil utligne kreditnotaen mot flere kundeposter når du bokfører, velger du handlingen **Utlign poster**.
 4. Velg linjene med postene du vil at utligningsposten skal utlignes mot, og velg deretter handlingen **Angi utlignings-ID**.
@@ -107,7 +105,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 7. Bokfør kreditnotaen.
 
 ## <a name="to-apply-posted-customer-ledger-entries"></a>Slik utligner du bokførte kundeposter
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
 2. Åpne kundekortet med postene du vil utligne.
 3. Velg handlingen **Poster**, og velg deretter linjen med posten som skal være utligningsposten.
 4. Velg handlingen **Utlign poster**. Siden **Utlign kundeposter** åpnes med de åpne postene for kunden.
@@ -119,7 +117,7 @@ En innbetalingskladd er en type finanskladd, så du kan bruke den til å bokfør
 8. Velg **OK** for å bokføre applikasjonen.
 
     Hvis den bokførte utligningen har resultert i lukkede kundeposter, er **Åpne**-feltet tomt for disse postene.    
-9. Hvis du vil se postene, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen. Bla til kortet for den relevante kunden for å se postene.  
+9. Hvis du vil se postene, velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Kunder**, og velger deretter den relaterte koblingen. Bla til kortet for den relevante kunden for å se postene.  
 
 I postoversikten er det ikke merket av for **Åpen** på linjen som inneholder posten som ble fullstendig utlignet.  
 
@@ -133,7 +131,7 @@ Hvis du utligner en post (post 1) i én valuta mot en post (post 2) i en annen v
 
 Utligning av kundeposter i forskjellige valutaer må være aktivert. Hvis du vil ha mer informasjon, kan du se [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladd** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Innbetalingskladd**, og velg deretter den relaterte koblingen.
 2. Åpne kladden du vil bruke, og fyll ut den første tomme kladdelinjen med en valutakode.
 3. Velg handlingen **Utlign poster**.
 4. Velg linjen med posten du vil utligne mot posten i innbetalingskladden. Deretter velger du handlingen **Angi utlignings-ID** og merker posten du vil utligne mot.
@@ -146,7 +144,7 @@ Utligning av kundeposter i forskjellige valutaer må være aktivert. Hvis du vil
 ## <a name="to-correct-an-application-of-customer-entries"></a>Korrigere en utligning av kundeposter
 Når du korrigerer en utligning, opprettes og bokføres korreksjonsposter (poster som er identiske med de opprinnelige postene, men som har motsatt fortegn i beløpsfeltet) for alle poster, inkludert alle finansbokføringer som er avledet fra utligningen, for eksempel betalingsrabatt og valutagevinst/-tap. Postene som ble lukket av utligningen, åpnes på nytt.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
 2. Åpne det relevante kundekortet.
 3. Velg handlingen **Poster**.
 4. Velg den relevante posten, og velg deretter handlingen **Opphev utligning**.
@@ -160,7 +158,4 @@ Når du korrigerer en utligning, opprettes og bokføres korreksjonsposter (poste
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

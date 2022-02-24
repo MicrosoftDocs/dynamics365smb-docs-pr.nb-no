@@ -1,21 +1,21 @@
 ---
-title: Om lagerkost
-description: Håndtering av lagerkost handler om å registrere og rapportere kostnader for forretningskostnader, inkludert rapportering av produksjonskost og lagerkost.
+title: Om lagerkost | Microsoft-dokumentasjon
+description: Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 36420747117425e1f66e30ed6090f300e27776f4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 477c5f004f2d62fcc9c3b2a065f9d00e382fff09
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325764"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183098"
 ---
 # <a name="about-inventory-costing"></a>Om lagerkost
 Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.  
@@ -33,14 +33,11 @@ Administrering av lagerkost handler om å registrere og rapportere forretningsdr
 |Skille forventet kost (ikke fakturert ennå) fra faktisk kost og lære hvordan dette håndteres i Finans.|[Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)|  
 |Forstå mekanismen for kostjustering, som sikrer at kost videreføres selv om lagertransaksjoner skjer tilfeldig.|[Designdetaljer: Kostjustering](design-details-cost-adjustment.md)|  
 |Lese hvorfor standardkost ofte brukes som verdisettingsgrunnlag for komponenter og sluttvarer i produksjonsselskaper.|[Om beregning av standardkost](finance-about-calculating-standard-cost.md)|  
-|Forstå hvordan lagerverdien gjenspeiles i Finans.|[Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
+|Forstå hvordan lagerverdien gjenspeiles i Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|  
 |Lære hvordan varegebyrer, for eksempel frakt og forsikring, kan tilordne tilleggskostkomponenter til en vares enhetskost.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|  
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismene i kostmotoren, inkludert hva som skjer når du bokfører transaksjoner for montering og produksjon.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 
 ## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)    
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

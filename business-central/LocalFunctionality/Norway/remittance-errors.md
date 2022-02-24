@@ -1,23 +1,23 @@
 ---
-title: Remitteringsfeil [NO]
-description: Remitteringsfeil for betalinger kan oppstå ved overføring av data etter at betalingene er sendt til banken. Disse feilene rapporteres på siden Returfeil.
+title: Remitteringsfeil
+description: Remitteringsfeil for betalinger kan oppstå ved overføring av data og etter at betalingene er sendt til banken. Begge typer feil rapporteres på siden Returfeil.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: c9b61043ccd8fb9c8753ba802bd983898f61b907
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 113aa93d2984147df2f0b19da29e95adc27eda38
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320788"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181007"
 ---
-# <a name="remittance-errors-in-the-norwegian-version"></a>Remitteringsfeil i den norske versjonen
+# <a name="remittance-errors"></a>Remitteringsfeil
 Remitteringsfeil for betalinger kan oppstå ved overføring av data og etter at betalingene er sendt til banken. Begge typer feil rapporteres på siden **Returfeil**.  
 
 Remitteringssystemet håndterer alle feilkoder som kan sendes via returfiler. Det er ikke nødvendig å utføre manuelle annulleringer av betalinger som er avvist av banken.  
@@ -57,6 +57,3 @@ Hvis betalingen avvises, vises feilkoden fra banken samt en forklaring for betal
  [Slette remitteringsoppdrag](how-to-delete-remittance-payment-orders.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

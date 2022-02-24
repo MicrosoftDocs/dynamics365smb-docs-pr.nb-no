@@ -1,23 +1,23 @@
 ---
-title: Tilordne dokumentoppsett for kunder eller leverandører
-description: Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi at brukes for den aktuelle kunden eller leverandøren.
+title: Tilordne spesielle dokumentoppsett til kunder eller leverandører | Microsoft Docs
+description: Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi at de valgte oppsettene skal brukes for dokumenter du oppretter for den aktuelle kunden eller leverandøren.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 23c4573c3121a660b8263c3bc9bb2c6ac8b1d331
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443746"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809402"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definere dokumentoppsett for kunder og leverandører
 Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for ulike typer dokumenter du oppretter for den aktuelle kunden eller leverandøren. Verdien i feltet **Bruk** definerer hvilken prosess dokumentoppsettet skal brukes til, for eksempel **Purring**, **Levering** og **Bekreftelse**.
@@ -31,7 +31,7 @@ Før du kan definere hvilket dokumentoppsett du vil bruke for hvilke prosesser, 
 Nedenfor finner du en beskrivelse av hvordan du definerer salgsdokumentoppsett fra et kundekort. Trinnene er de samme for oppsett av kjøpsdokumenter fra et leverandørkort.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Slik aktiverer du alle tilgjengelige salgsdokumenter for en kunde
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
 2. Åpne kortet til kunden du vil definere dokumentoppsett per forretningsprosess for.
 3. På siden **Kundekort** velger du siden **Dokumentoppsett**.
 4. På siden **Dokumentoppsett** velger du handlingen **Kopier fra Rapportutvalg**.
@@ -62,6 +62,3 @@ E-postadressen til kontakten settes nå inn på dokumentoppsettlinjen, slik at d
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
 [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

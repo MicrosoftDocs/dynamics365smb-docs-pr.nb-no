@@ -1,34 +1,28 @@
 ---
-title: Fakturere forskudd
-description: Finn ut hvordan du bruker forskuddsbetalinger til å fakturere og kreve inn innskudd fra kunder, og remittere innskudd til leverandører i Business Central.
-author: edupont04
+title: Fakturere forskudd | Microsoft-dokumentasjon
+description: Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
-ms.date: 12/03/2021
-ms.author: edupont
-ms.openlocfilehash: 1a74a04f38669ab00e800b563ebd77796d08ef8f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970438"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183108"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
+Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering. Du må kanskje ha et innskudd før du produserer varer etter ordre, eller du må ha betaling før du sender varer til en kunde. Med funksjonene for forskuddsbetaling kan du fakturere og kreve inn innskudd som kreves fra kunder, eller remittere innskudd til leverandører. Dermed kan du sikre at alle betalinger bokføres mot en faktura.  
 
-[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
+ Krav til forskuddsbetaling kan defineres for en kunde eller leverandør for alle varer eller utvalgte varer. Når du har fullført det nødvendige oppsettet, kan du generere forskuddsfakturaer fra ordrer og bestillinger for det beregnede forskuddsbeløpet. Du kan endre beløpene på fakturaen etter behov. Du kan for eksempel angi et totalbeløp for hele ordren. Du kan også sende flere forskuddsfakturaer, for eksempel hvis flere varer blir lagt til i ordren. Du kan øke antall eller legge til nye linjer i en ordre etter at en forskuddsbetaling er utstedt, og deretter kan du bokføre en ny forskuddsfaktura. Hvis du vil slette en linje som en forskuddsbetaling allerede er fakturert for, må du utstede en kreditnota for forskudd før du kan slette linjen.  
 
-[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
-
-Du kan for eksempel angi et totalbeløp for hele ordren, eller du kan distribuere forskuddet på hver linje i ordren. Du kan også sende flere forskuddsfakturaer, for eksempel hvis flere varer blir lagt til i ordren. Du kan øke antall eller legge til nye linjer i en ordre etter at en forskuddsbetaling er utstedt, og deretter kan du bokføre en ny forskuddsfaktura.  
-
-> [!NOTE]
-> Hvis du vil slette en linje som en forskuddsbetaling allerede er fakturert for, må du utstede en kreditnota for forskudd før du kan slette linjen.
-
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -38,11 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

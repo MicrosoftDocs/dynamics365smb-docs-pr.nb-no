@@ -1,24 +1,23 @@
 ---
-title: Utføre produksjon
+title: Utføre produksjon | Microsoft-dokumentasjon
 description: Når behov er planlagt og materialer er utstedt i henhold til produksjonsstykklistene, kan de faktiske produksjonsoperasjonene startes og kjøres i rekkefølgen definert i produksjonsordreruten.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 42e4b06ab258c99225aedc59a0854d7c9cbf7eaa
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 926f22537d54ad770e38d40a376a6c8ce2594991
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972648"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877669"
 ---
 # <a name="manufacturing"></a>Produksjon
-
 > [!NOTE]
 > Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
@@ -30,7 +29,7 @@ Som et alternativ til kladden for massebokføring av avgang for flere produksjon
 
 Før du kan begynne å produsere varer, må du gjøre ulike oppsett, for eksempel arbeidssentre, ruter og produksjonsstykklister. Hvis du vil ha mer informasjon, kan du se [Definere produksjon](production-configure-production-processes.md).
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -42,19 +41,15 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bokfør antall ferdigstilte varer og tiden som brukes per operasjon i en kladd som kan behandle flere frigitte produksjonsordrer.|[Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md)|
 |Angre avgang, for eksempel fordi det oppstod en datafeil og et uriktig beløp.  |[Tilbakeføre avgangsbokføring](production-how-to-reverse-output-posting.md)|  
 |Bokføre antallet varer som er produsert i hver fullført operasjon, og som ikke kvalifiserer som ferdigvare, men som vraket materiale.|[Bokføre vrak](production-how-to-post-scrap.md)|
-|Vise belastningen for produksjonen som et resultat av planlagte og frigitte produksjonsordrer.|[Vise belastning på arbeidssentre og produksjonsressurser](production-how-to-view-the-load-on-work-centers.md)|  
+|Vise belastningen for produksjonen som et resultat av planlagte og frigitte produksjonsordrer.|[Vise belastning på arbeidssentre og produksjonsressurser](production-how-to-view-the-load-on-work-centers.md)|      
 |Bruk **Kapasitetskladd**-siden til å bokføre brukt kapasitet som ikke er tilordnet til en produksjonsordre, for eksempel vedlikeholdsarbeid.|[Bokføre kapasiteter](production-how-to-post-capacities.md)|  
 |Beregne og justere kost for ferdige produksjonsvarer og forbrukte komponenter for økonomisk avstemming.|[Om fullførte produksjonsordrekostnader](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Definere produksjon](production-configure-production-processes.md)  
-[Planlegging](production-planning.md)  
+[Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

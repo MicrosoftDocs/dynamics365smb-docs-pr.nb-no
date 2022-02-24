@@ -3,19 +3,19 @@ title: Designdetaljer – Avstemming med konti i Finans | Microsoft-dokumentasjo
 description: Dette emnet beskriver avstemming mot Finans når du bokfører lagertransaksjoner, for eksempel følgesedler, produksjonsavgang eller nedjusteringer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b62bb8774bfcbd371125d0dc529ce503afd34f2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442338"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184847"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, produksjonsavgang eller nedjusteringer, registreres endringene i antall og verdi på lageret i henholdsvis varepostene og verdipostene. Det neste trinnet i denne fremgangsmåten er å bokføre lagerverdier i lagerkontiene i Finans.  
@@ -50,27 +50,27 @@ Tabellen nedenfor viser hvordan leddet er definert på varekortet.
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
 |**Lagermetode**|Standard|  
-|**Kostpris (standard)**|LV 1,00|  
-|**Sats for indirekte kostnader**|LV 0,02|  
+|**Kostpris (standard)**|NOK 1,00|  
+|**Sats for indirekte kostnader**|NOK 0,02|  
 
 Tabellen nedenfor viser hvordan kjeden er definert på varekortet.  
 
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
 |**Lagermetode**|Standard|  
-|**Kostpris (standard)**|LV 150,00|  
-|**Sats for indirekte kostnader**|LV 25,00|  
+|**Kostpris (standard)**|NOK 150,00|  
+|**Sats for indirekte kostnader**|NOK 25,00|  
 
 Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkortet.  
 
 |Oppsettfelt|Verdi|  
 |-----------------|-----------|  
-|**Direkte enhetskost**|LV 2,00|  
+|**Direkte enhetskost**|NOK 2,00|  
 |**Indirekte kostprosent**|10|  
 
 ##### <a name="scenario"></a>Scenario  
 1. Brukeren kjøper 150 ledd og bokfører bestillingen som mottatt. (Kjøp)  
-2. Brukeren bokfører bestillingen som fakturert. Dermed opprettes et beløp for indirekte kostnader på LV 3,00 som skal tildeles, og et avviksbeløp på LV 18,00. (Kjøp)  
+2. Brukeren bokfører bestillingen som fakturert. Dermed opprettes et beløp for indirekte kostnader på NOK 3,00 som skal tildeles, og et avviksbeløp på NOK 18,00. (Kjøp)  
 
     1. De midlertidige kontiene fjernes. (Kjøp)  
     2. Den direkte kostnaden bokføres. (Kjøp)  
@@ -82,25 +82,25 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
     1. De midlertidige kontiene fjernes. (Salg)  
     2. Solgte varers kost (VAREFORBRUK) blir bokført. (Salg)  
 
-        ![Resultatet av salgsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultatet av salgsbokføring til finanskonti")  
+        ![Resultatet av salgsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultatet av salgsbokføring til finanskonti")  
 5. Brukeren bokfører forbruk av 150 ledd, som er antallet ledd som brukes til å produsere én kjede. (Forbruk, Materiale)  
 
-    ![Resultatet av materialebokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_material.png "Resultatet av materialebokføring til finanskonti")  
+    ![Resultatet av materialebokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "Resultatet av materialebokføring til finanskonti")  
 6. Arbeidssenteret brukte 60 minutter på å produsere kjeden. Brukeren bokfører konverteringskostnaden. (Forbruk, Kapasitet)  
 
     1. De direkte kostnadene bokføres. (Forbruk, Kapasitet)  
     2. De indirekte kostnadene beregnes og bokføres. (Forbruk, Kapasitet)  
 
-        ![Resultatet av kapasitetsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultatet av kapasitetsbokføring til finanskonti")  
+        ![Resultatet av kapasitetsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultatet av kapasitetsbokføring til finanskonti")  
 7. Brukeren bokfører den forventede kostnaden for én kjede. (Avgang)  
 8. Brukeren fullfører produksjonsordren og kjører kjørselen **Juster kostverdi - vareposter**. (Avgang)  
 
     1. De midlertidige kontiene fjernes. (Avgang)  
     2. Den direkte kostnaden overføres fra VIA-kontoen til lagerkontoen. (Avgang)  
     3. Den indirekte kosten (indirekte kostnader) overføres fra kontoen for indirekte kost til lagerkontoen. (Avgang)  
-    4. Dette resulterer i et avviksbeløp på LV 157,00. Avvik beregnes bare for varer med standard kostpris. (Avgang)  
+    4. Dette resulterer i et avviksbeløp på NOK 157,00. Avvik beregnes bare for varer med standard kostpris. (Avgang)  
 
-        ![Resultatet av avgangsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_output.png "Resultatet av avgangsbokføring til finanskonti")  
+        ![Resultatet av avgangsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "Resultatet av avgangsbokføring til finanskonti")  
 
         > [!NOTE]  
         >  For enkelhets skyld vises bare én avvikskonto. Det finnes i virkeligheten fem forskjellige kontoer:  
@@ -111,9 +111,9 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
         >  * Underleveranseavvik  
         >  * Avvik i indirekte produksjonskostnader  
 
-9. Brukeren revaluerer kjeden fra LV 150,00 til LV 140,00. (Justering/revaluering/avrunding/overføring)  
+9. Brukeren revaluerer kjeden fra NOK 150,00 til NOK 140,00. (Justering/revaluering/avrunding/overføring)  
 
-    ![Resultatet av justeringsbokføring til finanskonti.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultatet av justeringsbokføring til finanskonti")  
+    ![Resultatet av justeringsbokføring til finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultatet av justeringsbokføring til finanskonti")  
 
 Hvis du vil ha mer informasjon om relasjonen mellom kontotyper og ulike typer verdier, kan du se [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
@@ -123,7 +123,4 @@ Hvis du vil ha mer informasjon om relasjonen mellom kontotyper og ulike typer ve
 [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
